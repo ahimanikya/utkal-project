@@ -49,7 +49,7 @@ The entry is a review draft. Its presence in this private repository is not appr
 
 ## Wider research collection
 
-The Founder approved including the full research KB. The complete import has been prepared and checked locally, including the PRD, architecture, topic articles, statistics and bibliography. Repository publication is pending an authenticated Git connection; links to the full collection will be added when its files are available here.
+The Founder approved including the full research KB. The complete import has been prepared and checked locally, including the PRD, architecture, topic articles, statistics and bibliography. **Import is incomplete:** 54 research files are verified in GitHub; remaining files and diagrams are pending. GitHub’s browser editor returned “File could not be edited,” and Git has no authenticated connection. The research contents link will be activated after the complete collection is available here. Partial research links may point to files awaiting import.
 
 ## Shared Blueprint
 
