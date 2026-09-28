@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b0a255768dd51e7dd8d5afeab783400fb9c8ecc16899ea28a5efa9a0adba85ba`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a99b51b960b68e9043e243104545519d6050cdc79796fff73c06ba2d8b9c799a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -14,11 +14,11 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ID / work | Status | Readiness | Human owner | Next action | Blockers |
 |---|---|---|---|---|---|
 | UTP-WORK-001 · Samanta Chandrasekhar entry and local website preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the entry and design; resolve source limitations before publication. | No public reuse licence selected; Conflicting birth dates and limited full-text source inspection |
-| UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | awaiting_review | reviewed | Ahimanikya Satapathy | Review separate English/Odia marks and revised sea/stone roles, then prepare final vector and production masters. | Final logo and typography choice pending; vector/reversed masters not yet produced. |
+| UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. | Final logo and typography choice pending; vector/reversed masters not yet produced. |
 | UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views. Historical binary assets are now included on main. | — |
 | UTP-WORK-004 · Link the OKF reading index from the Git README | completed | applied | Ahimanikya Satapathy | Maintain the bundled KB and navigation. Site implementation continues under UTP-WORK-005. | — |
 | UTP-WORK-005 · Website foundation and reviewable brand studio | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. | — |
-| UTP-WORK-006 · Prepare Utkal Store under Utkal Collective | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews local candidate; no deployment has occurred. | — |
+| UTP-WORK-006 · Prepare Utkal Store under Utkal Collective | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. | — |
 | UTP-WORK-007 · Integrate Bhubaneswar Fresco archive | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews local candidate; no deployment has occurred. | — |
 
 ## Pending human review and decisions
@@ -26,9 +26,9 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | Record | Reason / scope |
 |---|---|
 | UTP-WORK-001 | Founder review of the entry and design; resolve source limitations before publication. |
-| UTP-WORK-002 | Review separate English/Odia marks and revised sea/stone roles, then prepare final vector and production masters. |
+| UTP-WORK-002 | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. |
 | UTP-WORK-005 | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. |
-| UTP-WORK-006 | Founder reviews local candidate; no deployment has occurred. |
+| UTP-WORK-006 | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. |
 | UTP-WORK-007 | Founder reviews local candidate; no deployment has occurred. |
 
 ## Decisions
@@ -48,6 +48,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-012 · Public website leads with mission and Founder | recorded_direction | Ahimanikya Satapathy | Simplify public About and add Founder page; preserve internal operating records and concise editorial assistance disclosure. |
 | UTP-DEC-013 · Integrate the existing Bhubaneswar photo page | recorded_direction | Ahimanikya Satapathy | Integrate Browse_Photos.html collection, story and credited art images; source archive remains unchanged. |
 | UTP-DEC-014 · Four Utkal-branded products; only the T-shirt black | recorded_direction | Ahimanikya Satapathy | Range: T-shirt, jhula bag, coffee cup and water bottle; other colours are proposals. |
+| UTP-DEC-015 · Design the first four merchandise items and refine vector identity | recorded_direction | Ahimanikya Satapathy | Prepare concrete designs, vector candidates and vendor brief for review; no final acceptance, purchase, vendor contact or deployment. |
 
 ## Reviews
 
@@ -102,7 +103,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-010 | 2026-09-28T06:39:33+00:00 | Founder clarified Blueprint as reusable type and UTP as instance. Read reference initializer, configuration, KB structures, generation/check tooling, rules and JML. Prepared corrected model review; old relocation proposal superseded. No source code copied or run; no migration applied. | Review the corrected Blueprint type / UTP instance model and complete adaptation package before migration. The prior folder-only relocation map is withdrawn. |
 | UTP-EVT-011 | 2026-09-28T06:53:49+00:00 | Complete local candidate prepared under the Founder’s instruction. Template/instance separation, portable KB paths, original evidence and unchanged assignments checked. No GitHub application or new baseline adoption claimed. | Review the complete local repair candidate, then reconcile and apply it through authenticated Git. No migration is applied remotely. |
 | UTP-EVT-012 | 2026-09-28T07:14:55+00:00 | Git access verified as ahimanikya. Reconciled the complete KB repair against the current private repository and prepared a review branch. Prior source/history preserved; no Founder acceptance or merge claimed. | Review the proposed repair and obtain Founder approval before merging. |
 | UTP-EVT-013 | 2026-09-28T07:37:52+00:00 | Founder clarified that configuration belongs outside the KB, project boilerplate differs from a project-definition form, and the repository will contain website source code. Moved config to repository root and updated consuming tools. Code layout remains a proposal; no website source was moved. | Review the boundary correction and agree the implementation boilerplate. |
@@ -112,6 +112,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-017 | 2026-09-28T08:23:56.004231+00:00 | Prepared 11-page Astro preview with six draft entries, search/topic navigation and three bilingual/English brand treatments. Preserved original prototype; captured artwork prompts, font licences and source credits. Build and four checks pass; remaining limitations recorded. | Founder reviews concrete brand and website candidate before final selection or deployment. |
 | UTP-EVT-018 | 2026-09-28T08:26:32.301738+00:00 | Website and brand candidate uploaded to private draft PR #2. No merge or deployment. Earlier HTTP upload failure recovered with per-command transfer settings; repository privacy verified. | Founder reviews live local website and brand studio, then records selected direction. |
 | UTP-EVT-019 | 2026-09-28T08:51:44.276078+00:00 | Prepared new colour/script direction, founder page, four-product store under Collective, sensory research and 166-photo Fresco integration. Source originals unchanged. | Record final checks and submit updated private review candidate. |
+| UTP-EVT-020 | 2026-09-28T09:13:23.221257+00:00 | Prepared four rendered merchandise concepts, outlined vector brand and print studies, design-review page and downloadable vendor review pack. Not a production release. | Verify candidate and submit to existing draft review. |
 
 ## Deferred extensions
 

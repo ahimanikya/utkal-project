@@ -39,3 +39,7 @@ Catalogue/design metadata: Git. Temporary selection: visitor's browser only, con
 ## Range refinement recorded during implementation
 
 Founder specified “T-shirt, Jhula Bag, Coffee cup and water bottle” and confirmed “Only the T-shirt in black”. These four product types replace the initial two-tee/two-cup studies. Natural bag, paper cup and sea-blue bottle colours remain design proposals. All four carry Utkal branding; English and Odia artwork remain separate. Material, sizing, capacity and price still await vendor evidence.
+
+## Design development v0.2
+
+Sea & Stone is the first coordinated merchandise proposal. Four AI-generated product mockups now replace the CSS placeholders. A seventh page, `/design-review/`, compares each render with its flat outlined SVG artwork. The downloadable review pack includes brand variants, merchandise studies, font licence and [vendor sample brief](vendor-brief-v1.md). These are design candidates; supplier geometry, sample approval and final manufacturing files remain open.

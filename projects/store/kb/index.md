@@ -15,3 +15,5 @@ A commercial sub-project of **Utkal Collective**. UTS is a proposed working pref
 - [Checks](records/checks.json)
 
 Blueprint structure is reused; formal version adoption and release approval are not implied. No appointments are inherited from another project.
+
+- [Vendor sample brief](specs/vendor-brief-v1.md)

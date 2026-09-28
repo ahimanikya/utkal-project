@@ -42,7 +42,7 @@ See the [website brief](../../kb/specs/website-brand-foundation.md), [brand prop
 
 `noindex` and `robots.txt` describe a review edition; they are not access controls. Keep deployment private until its content and publication are approved. GitHub project-path hosting will require an explicit base-path configuration or a domain-root deployment; current links assume the domain root.
 
-Deferred: Firebase accounts/intake, photo uploads, Google Analytics, AI chat, a final vector logo master, share-card exports and public launch. No API keys or paid services are needed to review this version locally. Hosting and domain arrangements remain separate decisions.
+Deferred: Firebase accounts/intake, photo uploads, Google Analytics, AI chat, final approval of the vector logo candidates, share-card exports and public launch. No API keys or paid services are needed to review this version locally. Hosting and domain arrangements remain separate decisions.
 
 The earlier standalone preview is preserved locally. This site brings its article, pinned dependencies and useful colour/font assets into the canonical repository, then adds the collection and branding work.
 
@@ -51,3 +51,7 @@ The earlier standalone preview is preserved locally. This site brings its articl
 `tools/build-gallery.mjs` prepares gallery HTML from the explicit KB collection and maintained gallery template. The Astro route serves `/stories/bhubaneswar-fresco/` in development and builds the same static route. Originals and thumbnails are copied unchanged; checksums are in the KB import manifest. The original `Browse_Photos.html` and all 172 source images remain in the original archive. No source submission service or private inbox is imported.
 
 [Direction 02](../../kb/reference/brand-direction-02.md) supersedes the earlier branding proposal.
+
+## Vector candidates
+
+Separate English/Odia, colour/one-ink/reverse SVG signatures and a simplified icon are in `public/assets/brand-v3/`. Lettering is outlined from the bundled Noto font. `python3 design/build-masters.py` regenerates these and Store artwork from checked-in path data; `design/outline-wordmarks.swift` records the macOS CoreText shaping step. See [refinement 03](../../kb/reference/brand-vector-03.md).

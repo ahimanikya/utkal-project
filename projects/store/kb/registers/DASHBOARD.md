@@ -5,7 +5,7 @@ title: "Utkal Store dashboard"
 
 # Utkal Store · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9afcde4443525d540c0b9cafe858737d81424f8200f327f644521a91aea2c6a1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b712d22fa9834eb62ba564b0b9274f306dda818380f48a6cc8957e651cf47ee3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -13,13 +13,13 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | ID / work | Status | Readiness | Human owner | Next action | Blockers |
 |---|---|---|---|---|---|
-| UTS-WORK-001 · First collection and local storefront | awaiting_review | reviewed | Ahimanikya Satapathy | Review the concept and obtain vendor samples/specifications/costs before launch work. | — |
+| UTS-WORK-001 · First collection and local storefront | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. | — |
 
 ## Pending human review and decisions
 
 | Record | Reason / scope |
 |---|---|
-| UTS-WORK-001 | Review the concept and obtain vendor samples/specifications/costs before launch work. |
+| UTS-WORK-001 | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. |
 
 ## Decisions
 
@@ -27,6 +27,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|
 | UTS-DEC-001 · Prepare Utkal Store under Utkal Collective | recorded_direction | Ahimanikya Satapathy | Add the commercial sub-project and prepare a reviewable starter. Does not approve invented products/prices, appoint vendors, adopt a final charter or authorize launch. |
 | UTS-DEC-002 · The first four products; only the T-shirt is black | recorded_direction | Ahimanikya Satapathy | Black T-shirt, jhula bag, coffee cup and water bottle. Other colours and designs remain concepts. |
+| UTS-DEC-003 · Design the first four merchandise items and refine vector identity | recorded_direction | Ahimanikya Satapathy | Prepare concrete designs, vector candidates and vendor brief for review; no final acceptance, purchase, vendor contact or deployment. |
 
 ## Reviews
 
@@ -72,6 +73,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|
 | UTS-EVT-001 | 2026-09-28T08:38:33.936361+00:00 | Prepared independent project config/KB/app with four concept products and a device-local selection flow. Parent confirmed as Utkal Collective; no team/vendor appointments or launch. | Review sample plan and storefront; fill real product and commerce inputs. |
 | UTS-EVT-002 | 2026-09-28T08:51:44.276078+00:00 | Refined local starter to exactly four product types; only T-shirt black. Other colour treatments remain proposals. | Review concepts and obtain vendor specifications/samples. |
+| UTS-EVT-003 | 2026-09-28T09:13:23.221257+00:00 | Prepared four rendered merchandise concepts, outlined vector brand and print studies, design-review page and downloadable vendor review pack. Not a production release. | Verify candidate and submit to existing draft review. |
 
 ## Deferred extensions
 

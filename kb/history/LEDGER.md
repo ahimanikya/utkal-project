@@ -362,3 +362,11 @@ Range: T-shirt, jhula bag, coffee cup and water bottle; other colours are propos
 > Only the T-shirt in black
 
 See [Four Utkal-branded products; only the T-shirt black](../specs/utkal-store.md).
+
+## UTP-HIS-0039 · From placeholder objects to a designed first collection
+
+**Prepared for review · merchandise and identity**
+
+> The store merchandise needs to be designed
+
+The Founder redirected attention to actual product design. Sea & Stone is an assistant-proposed collection: four realistic mockups, product-specific graphics and separate outlined vector studies. The earlier CSS objects remain in Git history. The visible designs are for selection, with supplier proofs and samples still to follow. See [vector and merchandise design](../reference/brand-vector-03.md).

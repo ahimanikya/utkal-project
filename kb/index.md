@@ -44,3 +44,5 @@ This directory contains the organizational and working model, roles, work record
 - [Odisha sensory identity research](reference/odisha-sensory-identity.md)
 - [Utkal Store placement and scope](specs/utkal-store.md)
 - [Photo and cultural collections](collections/index.md)
+
+- [Vector identity and merchandise design](reference/brand-vector-03.md)

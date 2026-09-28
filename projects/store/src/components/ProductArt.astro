@@ -1,7 +1,7 @@
 ---
 const {product, large=false}=Astro.props;
 ---
-<div class:list={['product-art',product.colour,{'large':large}]} role="img" aria-label={product.name+' — illustrative design mockup, not a supplier sample'}>
- <div class:list={['object',product.kind]}><div class="print" lang={product.language}><span>{product.word}</span>{product.line&&<small>{product.line}</small>}<i aria-hidden="true"></i></div></div>
- <span class="art-label">DESIGN STUDY · {product.language==='or'?'ODIA':'ENGLISH'}</span>
-</div>
+<figure class:list={['merch-render',{'large':large}]}>
+ <img src={product.image} alt={product.description+' AI-generated design concept; not a manufactured sample.'} width="1448" height="1086" loading={large?'eager':'lazy'}/>
+ <figcaption>SEA & STONE · DESIGN CONCEPT</figcaption>
+</figure>
