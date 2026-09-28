@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-28T08:23:56.004231+00:00",
+  "recorded_at": "2026-09-28T08:51:44.276078+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -76,7 +76,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-004",
-      "next_action": "Founder selects A/B/C, symbol refinements and homepage art balance in the live brand studio; prepare final masters after selection.",
+      "next_action": "Review separate English/Odia marks and revised sea/stone roles, then prepare final vector and production masters.",
       "blockers": [
         "Final logo and typography choice pending; vector/reversed masters not yet produced."
       ],
@@ -84,12 +84,14 @@
       "refs": [
         "UTP-DEC-003",
         "UTP-DEC-004",
-        "UTP-DEC-009"
+        "UTP-DEC-009",
+        "UTP-DEC-010"
       ],
       "evidence": [
         "history/stories/001-earth-sea-and-sukha-ghasi.md",
         "reference/brand-foundation.md",
-        "records/brand-foundation-assets.json"
+        "records/brand-foundation-assets.json",
+        "reference/brand-direction-02.md"
       ]
     },
     {
@@ -166,6 +168,50 @@
         "specs/website-brand-foundation.md",
         "reference/brand-foundation.md",
         "records/website-brand-checks.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-006",
+      "title": "Prepare Utkal Store under Utkal Collective",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-011",
+      "next_action": "Founder reviews local candidate; no deployment has occurred.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-011"
+      ],
+      "evidence": [
+        "specs/utkal-store.md",
+        "records/direction-02-checks.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-007",
+      "title": "Integrate Bhubaneswar Fresco archive",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-013",
+      "next_action": "Founder reviews local candidate; no deployment has occurred.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-013"
+      ],
+      "evidence": [
+        "collections/bhubaneswar-fresco/integration.md",
+        "records/direction-02-checks.json"
       ]
     }
   ],
@@ -307,6 +353,91 @@
       "evidence": [
         "specs/website-brand-foundation.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-010",
+      "title": "Sea headings, stone highlights and separate scripts",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Use heading in both the brand color nila sagar for main text and mankada pathara for highlight - nila sagar  can become button color",
+      "scope": "Apply website colour roles and separate English/Odia marks; final production assets remain reviewable.",
+      "recorded_at": "2026-09-28T08:51:44.276078+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "reference/brand-direction-02.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-011",
+      "title": "Utkal Store belongs to Utkal Collective",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Under Utkal Collective",
+      "scope": "Create a separately governed store starter in shared code repository, with independent KB; no commercial launch.",
+      "recorded_at": "2026-09-28T08:51:44.276078+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "specs/utkal-store.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-012",
+      "title": "Public website leads with mission and Founder",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "On the website, we are not going to talk about AI persona or Humans as much - we have a page for the founder for now.",
+      "scope": "Simplify public About and add Founder page; preserve internal operating records and concise editorial assistance disclosure.",
+      "recorded_at": "2026-09-28T08:51:44.276078+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "reference/brand-direction-02.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-013",
+      "title": "Integrate the existing Bhubaneswar photo page",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Bhubaneswar Fresco page integrate that page too",
+      "scope": "Integrate Browse_Photos.html collection, story and credited art images; source archive remains unchanged.",
+      "recorded_at": "2026-09-28T08:51:44.276078+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "collections/bhubaneswar-fresco/integration.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-014",
+      "title": "Four Utkal-branded products; only the T-shirt black",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Only the T-shirt in black",
+      "scope": "Range: T-shirt, jhula bag, coffee cup and water bottle; other colours are proposals.",
+      "recorded_at": "2026-09-28T08:51:44.276078+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "specs/utkal-store.md"
+      ]
     }
   ],
   "requirements": [
@@ -401,6 +532,30 @@
       ],
       "evidence": [
         "records/website-brand-checks.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-006",
+      "title": "Brand direction, Fresco integration and Store self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No mobile visual or exhaustive accessibility audit",
+        "Final logo production files, vendor samples and ordering remain pending",
+        "Some botanical sources were available only as indexed excerpts"
+      ],
+      "refs": [
+        "UTP-WORK-002",
+        "UTP-WORK-005",
+        "UTP-WORK-006",
+        "UTP-WORK-007"
+      ],
+      "evidence": [
+        "records/direction-02-checks.json"
       ]
     }
   ],

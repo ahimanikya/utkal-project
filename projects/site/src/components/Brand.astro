@@ -1,7 +1,7 @@
 ---
-const {variant='bilingual', large=false} = Astro.props;
+const {language='en', tone='colour'} = Astro.props;
 ---
-<span class:list={['brand', variant, {large}]}>
+<span class:list={['brand', 'brand-'+language, {'brand-reverse':tone==='reverse'}]} lang={language==='or'?'or':'en'}>
   <img class="brand-mark" src="/assets/book-boat-v1.png" alt="" width="72" height="64" />
-  <span class="brand-type"><span class="brand-odia" lang="or">ଉତ୍କଳ</span><span class="brand-english">Utkal Project</span></span>
+  {language==='or' ? <span class="brand-odia">ଉତ୍କଳ</span> : <span class="brand-english">Utkal Project</span>}
 </span>

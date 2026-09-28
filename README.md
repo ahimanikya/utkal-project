@@ -12,4 +12,8 @@ Directory repair and basic starter: applied to main; see [migration status](kb/r
 
 Repository configuration: [utkal.config.json](utkal.config.json). [Knowledge and source-code boundaries](kb/reference/repository-layout.md).
 
-[Website workspace and local preview](projects/site/README.md): Astro website, selected research and a bilingual brand studio. [Website brief](kb/specs/website-brand-foundation.md) · [Brand proposal](kb/reference/brand-foundation.md).
+[Website workspace and local preview](projects/site/README.md): Astro website, selected research and separate English and Odia brand treatments. [Website brief](kb/specs/website-brand-foundation.md) · [Brand proposal](kb/reference/brand-foundation.md).
+
+[Utkal Store workspace](projects/store/README.md) · [Store project KB](projects/store/kb/index.md). Utkal Store belongs to Utkal Collective; sharing this repository does not change its organizational parent.
+
+[Bhubaneswar Fresco collection](kb/collections/bhubaneswar-fresco/index.md) · [Current brand direction](kb/reference/brand-direction-02.md) · [Sensory identity research](kb/reference/odisha-sensory-identity.md).

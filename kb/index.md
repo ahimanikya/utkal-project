@@ -39,3 +39,8 @@ This directory contains the organizational and working model, roles, work record
 - [Repository boundaries and proposed code layout](reference/repository-layout.md)
 
 - [Website and brand foundation](specs/website-brand-foundation.md)
+
+- [Current brand direction](reference/brand-direction-02.md)
+- [Odisha sensory identity research](reference/odisha-sensory-identity.md)
+- [Utkal Store placement and scope](specs/utkal-store.md)
+- [Photo and cultural collections](collections/index.md)

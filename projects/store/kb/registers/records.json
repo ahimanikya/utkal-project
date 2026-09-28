@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "model_version": "1.0.0",
+  "project": "UTS",
+  "name": "Utkal Store",
+  "recorded_at": "2026-09-28T08:38:33.936361+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "decision_home": "Founder’s Utkal conversation",
+  "external_refs": {},
+  "projects": [
+    {
+      "id": "UTS-REG-001",
+      "title": "Utkal Store",
+      "status": "in_preparation",
+      "human_owner": "Ahimanikya Satapathy",
+      "charter": "TEAM-CHARTER.md",
+      "refs": [
+        "UTS-DEC-001"
+      ],
+      "evidence": [
+        "reference/project-profile.md"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "id": "UTS-WORK-001",
+      "title": "First collection and local storefront",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "UTS-DEC-001",
+      "next_action": "Review the concept and obtain vendor samples/specifications/costs before launch work.",
+      "blockers": [],
+      "refs": [
+        "UTS-DEC-001",
+        "UTS-DEC-002"
+      ],
+      "evidence": [
+        "specs/store-v0.1.md",
+        "records/checks.json"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "UTS-DEC-001",
+      "title": "Prepare Utkal Store under Utkal Collective",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Under Utkal Collective",
+      "additional_quote": "Let's start simple: Utkal Store for branded T-shirts and cups, etc. I will use vendors from Bangalore to supply this.",
+      "scope": "Add the commercial sub-project and prepare a reviewable starter. Does not approve invented products/prices, appoint vendors, adopt a final charter or authorize launch.",
+      "refs": [],
+      "evidence": [
+        "specs/store-v0.1.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-002",
+      "title": "The first four products; only the T-shirt is black",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Only the T-shirt in black",
+      "context_quote": "All Branck T-shirt, Jhula Bag, Coffee cup and water bottle - start with this four - all will be branded with Utkal",
+      "scope": "Black T-shirt, jhula bag, coffee cup and water bottle. Other colours and designs remain concepts.",
+      "refs": [
+        "UTS-DEC-001"
+      ],
+      "evidence": [
+        "specs/store-v0.1.md"
+      ]
+    }
+  ],
+  "requirements": [],
+  "reviews": [],
+  "releases": [],
+  "sources": [],
+  "relationships": [],
+  "record_homes": {
+    "governance": "Working-Agreement.md",
+    "members_and_assignments": "team/assignments.json",
+    "project_profile": "reference/project-profile.md"
+  },
+  "optional_extensions": {
+    "contributions": {
+      "enabled": false,
+      "activation": "Before accepting public submissions",
+      "minimum_fields": [
+        "id",
+        "submitted_at",
+        "contributor_credit",
+        "consent_reference",
+        "review_status",
+        "work_ref",
+        "publication_ref"
+      ]
+    },
+    "heritage_connections": {
+      "enabled": false,
+      "activation": "When lineage research begins",
+      "minimum_fields": [
+        "id",
+        "places",
+        "period",
+        "connection_type",
+        "claim",
+        "sources",
+        "confidence",
+        "review_status",
+        "consent_reference_if_needed"
+      ]
+    }
+  }
+}

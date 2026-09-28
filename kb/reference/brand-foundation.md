@@ -60,3 +60,7 @@ The Founder also reported many discussions with retired IAS officer Pradip Biswa
 Choose A, B or C as the default; confirm or refine the book/boat proportions; and confirm the balance of illustrated welcome and quiet reading. Final vector cleanup, a reverse version, favicon optical adjustment and share-card exports follow that choice. These later assets are not yet delivered.
 
 Creative direction and project authorship: **Ahimanikya Satapathy**. Design preparation and image generation: AI assistance under his direction. This proposal grants no new persona membership or publication authority.
+
+## Subsequent direction
+
+The original v0.1 proposal above is preserved. [Direction 02](brand-direction-02.md) now governs the local preview: sea headings/actions, laterite highlights and separate English/Odia marks.

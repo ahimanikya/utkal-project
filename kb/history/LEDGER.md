@@ -312,3 +312,53 @@ The Founder authorized proceeding. Both private repositories now contain the rev
 The Founder asked to build the website and decide its brand assets. A local 11-page site now combines selected KB research, a searchable collection and three English–Odia logo treatments. The palette keeps Mankada Pathara dominant. New conceptual artwork, its prompts and the Founder’s material associations are preserved in [the brand brief](../reference/brand-foundation.md). Final logo selection and publication remain pending.
 
 > Now we need to build the website - oh we need to decide on brand assets too
+
+## UTP-HIS-0034 · Sea headings, stone highlights and separate scripts
+
+**Founder direction · implemented locally for review**
+
+Apply website colour roles and separate English/Odia marks; final production assets remain reviewable.
+
+> Use heading in both the brand color nila sagar for main text and mankada pathara for highlight - nila sagar  can become button color
+
+See [Sea headings, stone highlights and separate scripts](../reference/brand-direction-02.md).
+
+## UTP-HIS-0035 · Utkal Store belongs to Utkal Collective
+
+**Founder direction · implemented locally for review**
+
+Create a separately governed store starter in shared code repository, with independent KB; no commercial launch.
+
+> Under Utkal Collective
+
+See [Utkal Store belongs to Utkal Collective](../specs/utkal-store.md).
+
+## UTP-HIS-0036 · Public website leads with mission and Founder
+
+**Founder direction · implemented locally for review**
+
+Simplify public About and add Founder page; preserve internal operating records and concise editorial assistance disclosure.
+
+> On the website, we are not going to talk about AI persona or Humans as much - we have a page for the founder for now.
+
+See [Public website leads with mission and Founder](../reference/brand-direction-02.md).
+
+## UTP-HIS-0037 · Integrate the existing Bhubaneswar photo page
+
+**Founder direction · implemented locally for review**
+
+Integrate Browse_Photos.html collection, story and credited art images; source archive remains unchanged.
+
+> Bhubaneswar Fresco page integrate that page too
+
+See [Integrate the existing Bhubaneswar photo page](../collections/bhubaneswar-fresco/integration.md).
+
+## UTP-HIS-0038 · Four Utkal-branded products; only the T-shirt black
+
+**Founder direction · implemented locally for review**
+
+Range: T-shirt, jhula bag, coffee cup and water bottle; other colours are proposals.
+
+> Only the T-shirt in black
+
+See [Four Utkal-branded products; only the T-shirt black](../specs/utkal-store.md).

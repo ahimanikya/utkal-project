@@ -25,11 +25,13 @@ Build before running the tests. Build output is in `dist/`. Generated content, d
 
 ## What is included
 
-- Homepage, about and contribution guidance.
-- Searchable collection of six entries with topic links and shareable query URLs.
+- Homepage, about, founder and contribution guidance.
+- Bhubaneswar Fresco gallery: 161 art images, five alternates and an eight-photo essay.
+- Utkal Store introduction; the standalone store is in `projects/store/`.
+- Searchable collection of seven entries with topic links and shareable query URLs.
 - Existing Samanta Chandrasekhar article, retaining its source and review limitations.
 - Five short research notes selected from the project KB at build time.
-- Three English–Odia identity treatments, a working palette and new AI-assisted artwork.
+- Separate English and Odia identity treatments, sea headings/buttons and laterite highlights.
 - Local Noto Odia fonts with their original licences.
 
 The project KB remains the source for research. `tools/select-content.mjs` explicitly selects five files; it does not publish the full KB, governance records or private contributor information. Adding a preview entry to this list is not editorial publication approval. Website code, build settings and public assets stay here; repository configuration stays at the root.
@@ -43,3 +45,9 @@ See the [website brief](../../kb/specs/website-brand-foundation.md), [brand prop
 Deferred: Firebase accounts/intake, photo uploads, Google Analytics, AI chat, a final vector logo master, share-card exports and public launch. No API keys or paid services are needed to review this version locally. Hosting and domain arrangements remain separate decisions.
 
 The earlier standalone preview is preserved locally. This site brings its article, pinned dependencies and useful colour/font assets into the canonical repository, then adds the collection and branding work.
+
+## Fresco build and preservation
+
+`tools/build-gallery.mjs` prepares gallery HTML from the explicit KB collection and maintained gallery template. The Astro route serves `/stories/bhubaneswar-fresco/` in development and builds the same static route. Originals and thumbnails are copied unchanged; checksums are in the KB import manifest. The original `Browse_Photos.html` and all 172 source images remain in the original archive. No source submission service or private inbox is imported.
+
+[Direction 02](../../kb/reference/brand-direction-02.md) supersedes the earlier branding proposal.

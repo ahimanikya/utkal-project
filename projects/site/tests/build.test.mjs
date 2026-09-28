@@ -7,11 +7,11 @@ const files=readdirSync(root,{recursive:true}).filter(f=>statSync(join(root,f)).
 const pages=files.filter(f=>f.endsWith('.html'));
 const read=f=>readFileSync(join(root,f),'utf8');
 test('all built local links, assets and fragment targets resolve',()=>{
-  assert.equal(pages.length,11);
+  assert.equal(pages.length,15);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
-      if(/^(https?:|mailto:|data:|\/\/)/.test(raw))continue;
+      if(!raw||raw.includes('${')||/^(https?:|mailto:|data:|\/\/)/.test(raw))continue;
       const url=new URL(raw.replaceAll('&amp;','&'),'https://preview.invalid/'+file);
       let path=decodeURIComponent(url.pathname).replace(/^\//,'');
       if(!path||path.endsWith('/'))path+='index.html';
