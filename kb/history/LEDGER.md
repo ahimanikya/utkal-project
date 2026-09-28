@@ -304,3 +304,11 @@ The Founder asked for an empty or basic start. Minimal source, asset and test fo
 **applied · stewardship**
 
 The Founder authorized proceeding. Both private repositories now contain the reviewed repairs and minimal implementation skeletons on main. Full UTP research and historical images are included. No website deployment occurred. See UTP-DEC-008 and the repair application receipt.
+
+## UTP-HIS-0033 · The basic starter becomes a website and brand studio
+
+**prepared for review · brand and website**
+
+The Founder asked to build the website and decide its brand assets. A local 11-page site now combines selected KB research, a searchable collection and three English–Odia logo treatments. The palette keeps Mankada Pathara dominant. New conceptual artwork, its prompts and the Founder’s material associations are preserved in [the brand brief](../reference/brand-foundation.md). Final logo selection and publication remain pending.
+
+> Now we need to build the website - oh we need to decide on brand assets too

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-28T05:36:04+00:00",
+  "recorded_at": "2026-09-28T08:23:56.004231+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -69,24 +69,27 @@
       "id": "UTP-WORK-002",
       "title": "Refine earthy bilingual branding and preserve its origin story",
       "category": "brand_and_history",
-      "status": "in_progress",
+      "status": "awaiting_review",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-004",
-      "next_action": "Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review.",
+      "next_action": "Founder selects A/B/C, symbol refinements and homepage art balance in the live brand studio; prepare final masters after selection.",
       "blockers": [
-        "Generated board still shows obsolete Kankada label after two correction attempts; do not treat as production artwork"
+        "Final logo and typography choice pending; vector/reversed masters not yet produced."
       ],
-      "readiness": "concept",
+      "readiness": "reviewed",
       "refs": [
         "UTP-DEC-003",
-        "UTP-DEC-004"
+        "UTP-DEC-004",
+        "UTP-DEC-009"
       ],
       "evidence": [
-        "history/stories/001-earth-sea-and-sukha-ghasi.md"
+        "history/stories/001-earth-sea-and-sukha-ghasi.md",
+        "reference/brand-foundation.md",
+        "records/brand-foundation-assets.json"
       ]
     },
     {
@@ -124,7 +127,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-005",
-      "next_action": "Maintain the bundled KB and basic starter; integrate existing website source when site development begins.",
+      "next_action": "Maintain the bundled KB and navigation. Site implementation continues under UTP-WORK-005.",
       "blockers": [],
       "readiness": "applied",
       "refs": [
@@ -138,6 +141,31 @@
         "reference/repository-overview.md",
         "specs/knowledge-to-work.md",
         "records/repair-application.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-005",
+      "title": "Website foundation and reviewable brand studio",
+      "category": "website",
+      "status": "awaiting_review",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-009",
+      "next_action": "Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment.",
+      "blockers": [],
+      "readiness": "reviewed",
+      "refs": [
+        "UTP-DEC-009",
+        "UTP-REQ-002",
+        "UTP-REV-005"
+      ],
+      "evidence": [
+        "specs/website-brand-foundation.md",
+        "reference/brand-foundation.md",
+        "records/website-brand-checks.json"
       ]
     }
   ],
@@ -259,6 +287,26 @@
       "evidence": [
         "records/repair-application.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-009",
+      "title": "Build the website foundation and prepare brand choices",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Now we need to build the website - oh we need to decide on brand assets too",
+      "scope": "Prepare website implementation and brand review candidate. Preserve approved identity and existing knowledge; no final logo acceptance, public deployment or new persona activation inferred.",
+      "recorded_at": "2026-09-28T08:23:56.004231+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-003",
+        "UTP-DEC-004"
+      ],
+      "evidence": [
+        "specs/website-brand-foundation.md"
+      ]
     }
   ],
   "requirements": [
@@ -273,6 +321,18 @@
         "specs/first-task.md"
       ],
       "note": "Index of the existing brief; its full acceptance criteria remain authoritative."
+    },
+    {
+      "id": "UTP-REQ-002",
+      "title": "Website and brand foundation brief",
+      "status": "draft_from_founder_direction",
+      "refs": [
+        "UTP-DEC-009"
+      ],
+      "evidence": [
+        "specs/website-brand-foundation.md"
+      ],
+      "note": "Assistant operationalized the requested scope; not a separately approved PRD revision."
     }
   ],
   "reviews": [
@@ -316,6 +376,31 @@
       ],
       "evidence": [
         "records/register-checks.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-005",
+      "title": "Website and brand foundation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Self-review by implementing assistant, not independent review",
+        "No new historical-source verification or external-link availability audit",
+        "No complete accessibility or cross-browser audit",
+        "Final logo choice, vector/reversed masters and small-size refinements pending",
+        "Mobile visual review, image/font payload optimization and hosting verification remain before launch",
+        "No public deployment or working contribution intake; analytics and AI chat remain deferred"
+      ],
+      "refs": [
+        "UTP-WORK-005",
+        "UTP-WORK-002"
+      ],
+      "evidence": [
+        "records/website-brand-checks.json"
       ]
     }
   ],
@@ -395,6 +480,22 @@
       "evidence": [
         "records/evidence/first-entry/ENTRY.md",
         "records/evidence/first-entry/REVIEW.md"
+      ]
+    },
+    {
+      "id": "UTP-SRC-003",
+      "title": "Website brand concept assets and original font files",
+      "category": "asset_collection",
+      "status": "proposal",
+      "creator_credit": "Creative direction: Ahimanikya Satapathy. Current assistant and built-in image-generation assistance; Noto creators retain font credit.",
+      "rights": "Original Noto OFL licences included; no public reuse licence selected for project artwork.",
+      "inspection": "Images visually inspected in browser; included asset hashes and original prompts recorded.",
+      "refs": [
+        "UTP-WORK-002",
+        "UTP-WORK-005"
+      ],
+      "evidence": [
+        "records/brand-foundation-assets.json"
       ]
     }
   ],

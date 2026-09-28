@@ -12,4 +12,4 @@ Directory repair and basic starter: applied to main; see [migration status](kb/r
 
 Repository configuration: [utkal.config.json](utkal.config.json). [Knowledge and source-code boundaries](kb/reference/repository-layout.md).
 
-[Basic site workspace](projects/site/README.md): source, public-assets and test folders, ready to grow.
+[Website workspace and local preview](projects/site/README.md): Astro website, selected research and a bilingual brand studio. [Website brief](kb/specs/website-brand-foundation.md) · [Brand proposal](kb/reference/brand-foundation.md).

@@ -1,0 +1,25 @@
+---
+import Brand from '../components/Brand.astro';
+import '../styles/global.css';
+const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active=''}=Astro.props;
+---
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex, nofollow"/><meta name="description" content={description}/>
+<meta name="theme-color" content="#91462F"/><title>{title} · Utkal Project</title>
+<link rel="icon" type="image/png" href="/assets/book-boat-v1.png"/>
+<link rel="preload" href="/fonts/NotoSerifOriya-Bold.ttf" as="font" type="font/ttf" crossorigin/>
+</head><body>
+<a href="#main" class="skip">Skip to content</a>
+<div class="topline"><span>ROOTED IN ODISHA. OPEN TO THE WORLD.</span><span lang="or">ଉତ୍କଳ · ଓଡ଼ିଶା</span></div>
+<header class="header wrap">
+ <a class="home-link" href="/" aria-label="Utkal Project home"><Brand/></a>
+ <nav aria-label="Main navigation">
+  <a href="/explore/" aria-current={active==='explore'?'page':undefined}>Explore</a>
+  <a href="/about/" aria-current={active==='about'?'page':undefined}>Our purpose</a>
+  <a class="nav-contribute" href="/contribute/" aria-current={active==='contribute'?'page':undefined}>Be part of it <span aria-hidden="true">↗</span></a>
+ </nav>
+</header>
+<main id="main"><slot/></main>
+<footer class="footer"><div class="wrap footer-grid"><div><a href="/" class="home-link" aria-label="Utkal Project home"><Brand variant="english"/></a><p>Rediscover Utkal. Reimagine Odisha.</p></div><div><p class="eyebrow">A shared beginning</p><p>People, places and knowledge.<br/>A story we build together.</p></div><div class="footer-links"><a href="/about/">About the project</a><a href="/contribute/">Contribute</a><a href="/brand-review/">Brand studio</a></div></div><div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div></footer>
+</body></html>

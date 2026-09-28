@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `01a6fa84282adade173b020577251598663d168251c0995e12bcf75f7c1438cf`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0f2158b5a04f7641a7e90f5dbfb288bbd68901c39a7952d5a8d52430668c88a7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -14,15 +14,18 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ID / work | Status | Readiness | Human owner | Next action | Blockers |
 |---|---|---|---|---|---|
 | UTP-WORK-001 · Samanta Chandrasekhar entry and local website preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the entry and design; resolve source limitations before publication. | No public reuse licence selected; Conflicting birth dates and limited full-text source inspection |
-| UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | in_progress | concept | Ahimanikya Satapathy | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. | Generated board still shows obsolete Kankada label after two correction attempts; do not treat as production artwork |
+| UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | awaiting_review | reviewed | Ahimanikya Satapathy | Founder selects A/B/C, symbol refinements and homepage art balance in the live brand studio; prepare final masters after selection. | Final logo and typography choice pending; vector/reversed masters not yet produced. |
 | UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views. Historical binary assets are now included on main. | — |
-| UTP-WORK-004 · Link the OKF reading index from the Git README | completed | applied | Ahimanikya Satapathy | Maintain the bundled KB and basic starter; integrate existing website source when site development begins. | — |
+| UTP-WORK-004 · Link the OKF reading index from the Git README | completed | applied | Ahimanikya Satapathy | Maintain the bundled KB and navigation. Site implementation continues under UTP-WORK-005. | — |
+| UTP-WORK-005 · Website foundation and reviewable brand studio | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. | — |
 
 ## Pending human review and decisions
 
 | Record | Reason / scope |
 |---|---|
 | UTP-WORK-001 | Founder review of the entry and design; resolve source limitations before publication. |
+| UTP-WORK-002 | Founder selects A/B/C, symbol refinements and homepage art balance in the live brand studio; prepare final masters after selection. |
+| UTP-WORK-005 | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. |
 
 ## Decisions
 
@@ -35,6 +38,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-006 · Include full research and connect organizational knowledge to delivery | approved | Ahimanikya Satapathy | Import full research and document a connected organizational OKF and proposed work programme. Future workstream execution remains subject to scoped human decisions. |
 | UTP-DEC-007 · Agree repository layout for configuration, knowledge and implementation | approved | Ahimanikya Satapathy | Agree root utkal.config.json, kb/ knowledge, tools/ maintenance, projects/site/ UTP code and projects/_template/ Blueprint implementation boilerplate. Boilerplate contents and creation flow remain to be defined; no merge or deployment acceptance is recorded. |
 | UTP-DEC-008 · Apply reviewed repository repair and basic starter | approved | Ahimanikya Satapathy | Merge reviewed repository repair and basic source/assets/tests skeleton. Excludes website deployment, new appointments and implementation of future features. |
+| UTP-DEC-009 · Build the website foundation and prepare brand choices | recorded_direction | Ahimanikya Satapathy | Prepare website implementation and brand review candidate. Preserve approved identity and existing knowledge; no final logo acceptance, public deployment or new persona activation inferred. |
 
 ## Reviews
 
@@ -42,6 +46,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|
 | UTP-REV-003 | pass_with_limitations | False | Historical review evidence copied from local preview; not a new test run; Birth-date conflict remains visible; Full IIA text not inspected; No exhaustive accessibility or scholarly audit |
 | UTP-REV-004 | pass_with_limitations | False | Local self-review; remote application is checked separately; Validator does not authenticate human approvals or verify historical claims |
+| UTP-REV-005 | pass_with_limitations | False | Self-review by implementing assistant, not independent review; No new historical-source verification or external-link availability audit; No complete accessibility or cross-browser audit; Final logo choice, vector/reversed masters and small-size refinements pending; Mobile visual review, image/font payload optimization and hosting verification remain before launch; No public deployment or working contribution intake; analytics and AI chat remain deferred |
 
 ## Publication and application history
 
@@ -57,6 +62,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|
 | UTP-SRC-001 · Initial brand/history evidence collection | preserved | Founder direction and AI-assisted design; individual source/provenance files preserved in manifest | No public reuse licence selected; internal review evidence |
 | UTP-SRC-002 · First encyclopedia draft and source trail | draft | Ahimanikya Satapathy direction; AI-assisted research and draft; source attribution in entry | Source-specific rights apply; no public reuse licence selected |
+| UTP-SRC-003 · Website brand concept assets and original font files | proposal | Creative direction: Ahimanikya Satapathy. Current assistant and built-in image-generation assistance; Noto creators retain font credit. | Original Noto OFL licences included; no public reuse licence selected for project artwork. |
 
 ## Relationships
 
@@ -70,6 +76,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|
 | UTP-REG-002 · Utkal Project | active | UTP-DEC-002 |
 | UTP-REQ-001 · First encyclopedia entry and local preview brief | approved | UTB-DEC-005 |
+| UTP-REQ-002 · Website and brand foundation brief | draft_from_founder_direction | UTP-DEC-009 |
 
 ## Canonical record homes
 
@@ -85,7 +92,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-007 | 2026-09-28T06:15:09+00:00 | Added README reading navigation and organizational knowledge-to-work guidance. Full research: 529 files prepared, 462 active concepts, six validators passed; awaiting Git access for bulk publication. | Locate the authenticated local Git clone, import the prepared collection and verify it on GitHub. |
 | UTP-EVT-008 | 2026-09-28T06:27:17+00:00 | README and organizational OKF verified. All 54 uploaded research files verified against local contents. Further browser commits failed with “File could not be edited”; full local collection and validation preserved. Git authentication is not available. | Resume the preserved full import using an authenticated Git clone; 54 research files are already verified on GitHub. Recheck the collection, activate its index links and record completion. |
 | UTP-EVT-009 | 2026-09-28T06:31:54+00:00 | Founder corrected the index-only structure. Prepared a self-contained KB layout and complete relocation inventory. No files moved; prior import-only continuation stopped. | Review the complete project-KB layout and file relocation map before applying the structural migration. Earlier README linking does not meet the corrected bundle requirement. |
 | UTP-EVT-010 | 2026-09-28T06:39:33+00:00 | Founder clarified Blueprint as reusable type and UTP as instance. Read reference initializer, configuration, KB structures, generation/check tooling, rules and JML. Prepared corrected model review; old relocation proposal superseded. No source code copied or run; no migration applied. | Review the corrected Blueprint type / UTP instance model and complete adaptation package before migration. The prior folder-only relocation map is withdrawn. |
@@ -95,6 +101,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-014 | 2026-09-28T07:45:06+00:00 | Recorded Founder agreement to repository layout. Boilerplate details, creation tooling and site migration remain unfinished. | Define boilerplate contents and project-creation flow. |
 | UTP-EVT-015 | 2026-09-28T07:47:13+00:00 | Founder requested an empty or basic start. Added README and empty src/public/tests folders to the review branch. No framework installation, prototype migration or automated initializer. | Review the basic structure; add implementation as work requires. |
 | UTP-EVT-016 | 2026-09-28T07:51:09+00:00 | Founder authorized proceeding. Verified PR #1 merged into private main at a6c729b948a90a30032c98a84d9950228d594338. Root config, KB bundle and basic implementation skeleton are applied. | Maintain the structure and develop the site when its next task begins. |
+| UTP-EVT-017 | 2026-09-28T08:23:56.004231+00:00 | Prepared 11-page Astro preview with six draft entries, search/topic navigation and three bilingual/English brand treatments. Preserved original prototype; captured artwork prompts, font licences and source credits. Build and four checks pass; remaining limitations recorded. | Founder reviews concrete brand and website candidate before final selection or deployment. |
 
 ## Deferred extensions
 

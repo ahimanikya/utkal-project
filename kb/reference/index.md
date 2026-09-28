@@ -11,3 +11,5 @@
 - [research-tools.md](research-tools.md)
 
 - [Repository boundaries and proposed code layout](repository-layout.md)
+
+- [Brand foundation](brand-foundation.md)
