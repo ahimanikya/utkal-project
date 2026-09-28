@@ -19,3 +19,19 @@ Four built-in image-generation mockups show surface and material intent. Four se
 
 Creator and final editor: Ahimanikya Satapathy. Current assistant: vector/code development, layout, prompts and AI-assisted mockups. Noto contributors retain font credit. No vendor has been contacted. Review assets, licence, specification questions and a brief are downloadable from the Store design-review page; its independent KB holds the full vendor brief and prompt record.
 
+
+## Sample development v2
+
+Following Founder authorization, the Store now has four product sheets with shared-path artwork and proposed specifications. The Story Cup carries a short sourced Boita Bandana passage and original book-as-sail interpretation. See the independently bundled Store KB and design-review page. Current proofs derive directly from the brand master; generated material renders remain interpretive.
+
+## Graphical cup correction, v3
+
+Founder rejected prose on the cup and requested a graphical story. The current wrap uses an illustrated riverbank launch, sea voyage and welcoming shore, with small Utkal branding. Earlier paragraph-copy notes above describe a rejected intermediate candidate. The cup illustration is raster; the other three products continue to use the shared vector emblem.
+
+## Brand prominence and bottle colour experiment
+
+Latest Founder direction makes UTKAL prominent on the graphical cup, superseding the small mark noted above. The black bottle is an experiment alongside the previous sea-blue version. Neither is approved for production.
+
+## Both colours and a premium bottle
+
+Founder retained both black and blue and requested a higher-quality bottle. Current study explores insulated construction and a carry-loop cap; the earlier single-wall brief is superseded. Supplier evidence and physical samples remain outstanding.

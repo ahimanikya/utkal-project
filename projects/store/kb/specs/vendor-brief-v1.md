@@ -39,3 +39,11 @@ Sample review: compare mark proportions and Odia letter shapes against the appro
 ## Handoff state
 
 The downloadable review pack includes 13 brand vector variants, four merchandise vector studies, this brief and the original Noto font licence. Four rendered concept images are separately versioned in the Store assets. It is a design review pack, not a production-ready vendor release.
+
+## Subsequent version
+
+This v1 record is preserved. [Sample pack v2](sample-pack-v2.md) now supplies shared artwork, four specifications and the Story Cup. No manufacturing approval is implied.
+
+## Current sample direction
+
+[Sample pack v3](sample-pack-v3.md) supersedes earlier cup copy and bottle construction proposals. The cup has a graphical story and prominent UTKAL lettering. Both matte black and Nila Sagara blue bottle colours are retained; premium vacuum-insulated construction, a carry-loop cap and replaceable seal are proposed for supplier evaluation. No product-performance claim or supplier commitment is made.

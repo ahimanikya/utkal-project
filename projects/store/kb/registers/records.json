@@ -30,12 +30,14 @@
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTS-DEC-001",
-      "next_action": "Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling.",
+      "next_action": "Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests.",
       "blockers": [],
       "refs": [
         "UTS-DEC-001",
         "UTS-DEC-002",
-        "UTS-DEC-003"
+        "UTS-DEC-003",
+        "UTS-DEC-004",
+        "UTS-DEC-005"
       ],
       "evidence": [
         "specs/store-v0.1.md",
@@ -94,6 +96,81 @@
       "refs": [],
       "evidence": [
         "specs/vendor-brief-v1.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-004",
+      "title": "Prepare consistent artwork, product sheets and a story-bearing cup",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Yes, let's do it",
+      "additional_quote": "The cup should carry some story",
+      "scope": "Prepare artwork and sample specification candidates; no final design, spending, vendor contact or deployment approval.",
+      "recorded_at": "2026-09-28T09:33:53.384991+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "specs/sample-pack-v2.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-005",
+      "title": "Replace prose on the cup with a graphical story",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "That English does not make sense - We need use a graphical story",
+      "scope": "Remove proposed paragraph from cup; develop an illustrated wrap. New visuals remain review candidates.",
+      "recorded_at": "2026-09-28T09:40:51.255921+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-004"
+      ],
+      "evidence": [
+        "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-006",
+      "title": "Prominent cup branding and black bottle experiment",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Utkal also has to be prominent - not all image; Refine the water bottle design - we could try black bottle",
+      "scope": "Strengthen cup branding and explore a refined black bottle; no final colour or production approval.",
+      "recorded_at": "2026-09-28T09:48:36.239349+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-005"
+      ],
+      "evidence": [
+        "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-007",
+      "title": "Retain both bottle colours and explore premium construction",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Or we can have both; Can we try some high quality water bottle instead",
+      "scope": "Keep black and blue; prepare a higher-quality bottle proposal. Materials, supplier and costs remain subject to review.",
+      "recorded_at": "2026-09-28T09:53:08.067145+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-006"
+      ],
+      "evidence": [
+        "specs/sample-pack-v3.md"
       ]
     }
   ],

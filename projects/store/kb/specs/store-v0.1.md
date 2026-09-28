@@ -43,3 +43,11 @@ Founder specified “T-shirt, Jhula Bag, Coffee cup and water bottle” and conf
 ## Design development v0.2
 
 Sea & Stone is the first coordinated merchandise proposal. Four AI-generated product mockups now replace the CSS placeholders. A seventh page, `/design-review/`, compares each render with its flat outlined SVG artwork. The downloadable review pack includes brand variants, merchandise studies, font licence and [vendor sample brief](vendor-brief-v1.md). These are design candidates; supplier geometry, sample approval and final manufacturing files remain open.
+
+## Sample development v0.3
+
+Founder authorized consistent artwork and four product sheets, then asked for a story on the cup. [Sample pack v2](sample-pack-v2.md) records the proposed specifications, shared vector geometry, exact outlined story copy and current review state.
+
+## Current sample direction
+
+[Sample pack v3](sample-pack-v3.md) supersedes earlier cup copy and bottle construction proposals. The cup has a graphical story and prominent UTKAL lettering. Both matte black and Nila Sagara blue bottle colours are retained; premium vacuum-insulated construction, a carry-loop cap and replaceable seal are proposed for supplier evaluation. No product-performance claim or supplier commitment is made.

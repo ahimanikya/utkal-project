@@ -370,3 +370,27 @@ See [Four Utkal-branded products; only the T-shirt black](../specs/utkal-store.m
 > The store merchandise needs to be designed
 
 The Founder redirected attention to actual product design. Sea & Stone is an assistant-proposed collection: four realistic mockups, product-specific graphics and separate outlined vector studies. The earlier CSS objects remain in Git history. The visible designs are for selection, with supplier proofs and samples still to follow. See [vector and merchandise design](../reference/brand-vector-03.md).
+
+## UTP-HIS-0040 · The cup carries a story; artwork becomes a sample brief
+
+**Prepared for review · merchandise and story**
+
+> The cup should carry some story
+
+The Founder’s direction moved the cup from a branded object to a conversation about Odisha. The proposed reverse reads “A Book. A Boat. A Journey.”, with a sourced reference to Boita Bandana and an original book-as-sail metaphor. Four consistent artwork proofs and proposed product sheets support the next sample discussion. No vendor contact or production acceptance has occurred.
+
+## UTP-HIS-0041 · Pictures carry the cup story
+
+**Founder correction · graphical story candidate prepared**
+
+> That English does not make sense - We need use a graphical story
+
+The paragraph interpretation was rejected. The cup now uses an illustrated riverbank, voyage and welcoming shore, with small Utkal branding. The earlier prose version remains private historical evidence. Source and interpretation notes belong outside the cup. This corrects the cup-copy proposal in UTP-HIS-0040.
+
+## UTP-HIS-0042 · Let the name stand out; try the bottle in black
+
+Founder requested prominent Utkal branding on the graphical cup and a black bottle experiment. Larger lettering now anchors the cup; the bottle combines matte black, ivory Odia lettering, laterite and restrained straw waves. Sea blue remains a comparison. These are review candidates.
+
+## UTP-HIS-0043 · Both colours, a better bottle
+
+Founder retained black and blue, then requested a higher-quality bottle. The concept now targets insulated construction, a practical cap and carry loop. Product quality remains to be established by supplier evidence and physical samples.

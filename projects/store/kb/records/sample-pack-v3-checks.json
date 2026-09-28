@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-09-28T09:54:59.957829+00:00",
+  "checks": {
+    "store_build": "PASS: 7 pages",
+    "store_tests": "PASS: 4 existing tests",
+    "utp_kb": "PASS: 499 concepts, 1471 local links",
+    "store_kb": "PASS: 17 concepts, 45 local links",
+    "registers": "PASS: UTP 39 records/24 events; UTS 9 records/7 events",
+    "catalogues": "PASS: both current",
+    "pdf": "4 pages; all visually inspected; cup and final two-colour bottle pages re-rendered and checked after refinements",
+    "zip": "18 files; integrity, SHA-256 entries and portable Markdown links pass",
+    "browser": "Premium bottle page image and two colour options inspected; desktop screenshot checked",
+    "diff_whitespace": "PASS"
+  },
+  "limits": [
+    "Concept renders differ from exact outlined art; supplier proof required",
+    "Cup raster approximately 244 ppi at 200 x 85 mm",
+    "No physical product/insulation/leak/print tests",
+    "No new comprehensive mobile/accessibility audit",
+    "No vendor contact, purchase or production approval"
+  ]
+}

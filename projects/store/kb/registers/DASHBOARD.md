@@ -5,7 +5,7 @@ title: "Utkal Store dashboard"
 
 # Utkal Store · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b712d22fa9834eb62ba564b0b9274f306dda818380f48a6cc8957e651cf47ee3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `60a40c59e32a179e7cfef5032af2cad505572015f173a12a7b19e1a6ad1c0b53`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -13,13 +13,13 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | ID / work | Status | Readiness | Human owner | Next action | Blockers |
 |---|---|---|---|---|---|
-| UTS-WORK-001 · First collection and local storefront | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. | — |
+| UTS-WORK-001 · First collection and local storefront | awaiting_review | reviewed | Ahimanikya Satapathy | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. | — |
 
 ## Pending human review and decisions
 
 | Record | Reason / scope |
 |---|---|
-| UTS-WORK-001 | Founder reviews Sea & Stone designs and vector candidates; reconcile selected artwork with supplier templates before sampling. |
+| UTS-WORK-001 | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. |
 
 ## Decisions
 
@@ -28,6 +28,10 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-DEC-001 · Prepare Utkal Store under Utkal Collective | recorded_direction | Ahimanikya Satapathy | Add the commercial sub-project and prepare a reviewable starter. Does not approve invented products/prices, appoint vendors, adopt a final charter or authorize launch. |
 | UTS-DEC-002 · The first four products; only the T-shirt is black | recorded_direction | Ahimanikya Satapathy | Black T-shirt, jhula bag, coffee cup and water bottle. Other colours and designs remain concepts. |
 | UTS-DEC-003 · Design the first four merchandise items and refine vector identity | recorded_direction | Ahimanikya Satapathy | Prepare concrete designs, vector candidates and vendor brief for review; no final acceptance, purchase, vendor contact or deployment. |
+| UTS-DEC-004 · Prepare consistent artwork, product sheets and a story-bearing cup | recorded_direction | Ahimanikya Satapathy | Prepare artwork and sample specification candidates; no final design, spending, vendor contact or deployment approval. |
+| UTS-DEC-005 · Replace prose on the cup with a graphical story | recorded_direction | Ahimanikya Satapathy | Remove proposed paragraph from cup; develop an illustrated wrap. New visuals remain review candidates. |
+| UTS-DEC-006 · Prominent cup branding and black bottle experiment | recorded_direction | Ahimanikya Satapathy | Strengthen cup branding and explore a refined black bottle; no final colour or production approval. |
+| UTS-DEC-007 · Retain both bottle colours and explore premium construction | recorded_direction | Ahimanikya Satapathy | Keep black and blue; prepare a higher-quality bottle proposal. Materials, supplier and costs remain subject to review. |
 
 ## Reviews
 
@@ -74,6 +78,10 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-EVT-001 | 2026-09-28T08:38:33.936361+00:00 | Prepared independent project config/KB/app with four concept products and a device-local selection flow. Parent confirmed as Utkal Collective; no team/vendor appointments or launch. | Review sample plan and storefront; fill real product and commerce inputs. |
 | UTS-EVT-002 | 2026-09-28T08:51:44.276078+00:00 | Refined local starter to exactly four product types; only T-shirt black. Other colour treatments remain proposals. | Review concepts and obtain vendor specifications/samples. |
 | UTS-EVT-003 | 2026-09-28T09:13:23.221257+00:00 | Prepared four rendered merchandise concepts, outlined vector brand and print studies, design-review page and downloadable vendor review pack. Not a production release. | Verify candidate and submit to existing draft review. |
+| UTS-EVT-004 | 2026-09-28T09:33:53.384991+00:00 | Prepared shared-geometry artwork, four product/sample sheets and a sourced story for the reverse of the cup; proposed blank specifications are not approvals. | Founder review, then actual vendor templates and samples. |
+| UTS-EVT-005 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
+| UTS-EVT-006 | 2026-09-28T09:48:36.239349+00:00 | Enlarged cup UTKAL lettering and developed a matte-black bottle candidate. Sea-blue bottle retained for comparison. | Founder reviews the refined cup and bottle. |
+| UTS-EVT-007 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
 
 ## Deferred extensions
 
