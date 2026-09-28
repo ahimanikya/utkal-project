@@ -13,3 +13,7 @@
 The Founder approved adoption and the bounded first task in one concrete batch. Blueprint changes do not automatically update this adopter. No UTC, UTU, BAL or BAC adoption is included.
 
 An applied UTP commit is recorded after this document is committed; it is not guessed in advance. Partial application and unverified access remain visible. No production access, account creation, billing, live website deployment or independent agents are included.
+
+## Register extension 1.0.0
+
+The Founder separately approved applying the register model to UTP. See [extension adoption](../records/register-adoption.json) and [operating records](../registers/README.md). The original baseline commit above remains unchanged. This does not adopt the extension for another project.
