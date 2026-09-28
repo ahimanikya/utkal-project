@@ -119,3 +119,7 @@ If analytics is enabled later, track product views and outbound channel clicks s
 Sources were checked on 28 September 2026. Public rate cards are guidance; actual onboarding rates, GST treatment, pickup eligibility, stock availability and product compliance must be confirmed for this seller. Meesho's official pricing was inaccessible. All provider choices and budget allocations here are recommendations, not recorded Founder acceptance.
 
 Related: [Store PRD](store-v0.1.md) · [Current designs and proposed samples](sample-pack-v3.md).
+
+## Subsequent material change: Tasar Jhula
+
+Founder selected Tasar silk for the bag after this launch proposal. Earlier suggestions to use the bag as the lower-cost entry item are conditional on fresh quotes and no longer a dependable budget assumption. Re-cost the pilot with the Tasar outer, lining, reinforcement and silk-compatible decoration; do not silently substitute cotton or a blend to meet the budget.

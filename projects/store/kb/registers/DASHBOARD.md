@@ -5,7 +5,7 @@ title: "Utkal Store dashboard"
 
 # Utkal Store · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e8bd6c56c14b04a533c0493ceb65d899febb4a43ce9284790b25c1952c06131b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a8de3b7d8e0407dc4d7e0d70dbf0b1eb8635e25bb75e29fd35376f14b01fa04b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -35,6 +35,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-DEC-006 · Prominent cup branding and black bottle experiment | recorded_direction | Ahimanikya Satapathy | Strengthen cup branding and explore a refined black bottle; no final colour or production approval. |
 | UTS-DEC-007 · Retain both bottle colours and explore premium construction | recorded_direction | Ahimanikya Satapathy | Keep black and blue; prepare a higher-quality bottle proposal. Materials, supplier and costs remain subject to review. |
 | UTS-DEC-008 · Plan low-budget commerce and marketplace selling | recorded_direction | Ahimanikya Satapathy | Research and prepare a concrete launch plan; provider and budget choices remain proposals. |
+| UTS-DEC-009 · Use Tasar for the Jhula | recorded_direction | Ahimanikya Satapathy | Replace canvas outer with a Tasar silk design target; construction, authenticity, sourcing and price await samples. |
 
 ## Reviews
 
@@ -86,6 +87,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-EVT-006 | 2026-09-28T09:48:36.239349+00:00 | Enlarged cup UTKAL lettering and developed a matte-black bottle candidate. Sea-blue bottle retained for comparison. | Founder reviews the refined cup and bottle. |
 | UTS-EVT-007 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
 | UTS-EVT-008 | 2026-09-28T10:01:19.604796+00:00 | Prepared sourced low-budget commerce plan, corrected commercial hosting assumption and documented per-channel stock, fees and launch prerequisites. | Founder reviews proposal and supplies budget/seller/dispatch details. |
+| UTS-EVT-009 | 2026-09-28T10:05:12.631718+00:00 | Updated the Jhula to a Tasar silk outer-shell concept with proposed lining and reinforced handles; flagged pilot budget for re-costing. | Review design and obtain authenticated fabric/construction samples after supplier contact is authorised. |
 
 ## Deferred extensions
 

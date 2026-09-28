@@ -20,3 +20,7 @@ See [the current brand direction](../reference/brand-direction-02.md), [sensory 
 ## Low-budget commerce planning
 
 Founder requested a low-budget route to direct and Amazon/other marketplace sales. The Store KB now holds commerce-launch-v0.1 under its specs. Provider, budget and launch remain proposed; GitHub stores code/catalogue, but GitHub Pages is unsuitable for commercial storefront hosting under its usage restrictions.
+
+## Tasar Jhula
+
+Founder selected Tasar for the bag. Store sample specifications and visual now target Tasar silk with proposed lining and reinforcement; provenance and price are unconfirmed.

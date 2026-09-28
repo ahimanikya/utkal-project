@@ -46,7 +46,7 @@ body={
 # Schematic object fronts embed exactly the same artwork as the downloadable print files.
 proofs={
  'tee':'<path d="M95 20L145 20L160 36L208 52L242 119L198 142L179 113V317H61V113L42 142L-2 119L32 52L80 36Z" fill="'+BLACK+'"/><path d="M95 20Q120 59 145 20" fill="none" stroke="#55534d" stroke-width="5"/><g transform="translate(60 111) scale(.5)">'+body['tshirt-odia']+'</g>',
- 'bag':'<path d="M76 96V51Q120 -13 164 51V96" fill="none" stroke="#b7986c" stroke-width="18"/><rect x="27" y="88" width="186" height="236" rx="5" fill="#dfcaaa"/><path d="M38 103H202" stroke="#b7986c" fill="none"/><g transform="translate(50 118) scale(.5)">'+body['jhula-english']+'</g>',
+ 'bag':'<path d="M76 96V51Q120 -13 164 51V96" fill="none" stroke="#b7986c" stroke-width="18"/><rect x="27" y="88" width="186" height="236" rx="5" fill="#c7a16d"/><path d="M38 103H202" stroke="#b7986c" fill="none"/><g transform="translate(50 118) scale(.5)">'+body['jhula-english']+'</g>',
  'bottle':''.join('<g transform="translate('+str(x)+' 0)"><path d="M95 28V17Q120 -4 145 17V28" fill="none" stroke="'+colour+'" stroke-width="10"/><rect x="78" y="27" width="84" height="25" rx="6" fill="'+colour+'"/><rect x="83" y="52" width="74" height="5" fill="#a5a8a5"/><path d="M84 57H156Q180 64 180 87V305Q180 327 161 327H79Q60 327 60 305V87Q60 64 84 57Z" fill="'+colour+'"/><g transform="translate(78 123) scale(1.2)">'+body['bottle-odia']+'</g></g>' for x,colour in [(0,BLACK),(245,SEA)]),
  'cup':f'<image x="0" y="0" width="400" height="225" href="data:image/png;base64,{base64.b64encode(CUP_PHOTO.read_bytes()).decode("ascii")}"/>'}
 
@@ -95,7 +95,7 @@ for i,row in enumerate(SPEC['products']):
  c.setStrokeColor(HexColor(EARTH));c.line(35,735,560,735)
  text('ILLUSTRATIVE TWO-VIEW RENDER' if row['diagram']=='cup' else 'SHARED-ARTWORK PLACEMENT',35,718,8,'Helvetica-Bold');text('ILLUSTRATED WRAP  /  NOT TO SCALE' if row['diagram']=='cup' else 'FLAT PRINT FILE  /  NOT TO SCALE',297,718,8,'Helvetica-Bold')
  d=drawing(OUT/(row['art']+'-placement.svg'));scale=min(220/d.width,230/d.height);d.scale(scale,scale);renderPDF.draw(d,c,35+(220-d.width*scale)/2,470)
- bg=BLACK if row['diagram']=='tee' else BLACK if row['diagram']=='bottle' else '#e8dcc4' if row['diagram']=='bag' else '#fffaf1'
+ bg=BLACK if row['diagram']=='tee' else BLACK if row['diagram']=='bottle' else '#c7a16d' if row['diagram']=='bag' else '#fffaf1'
  c.setFillColor(HexColor(bg));c.roundRect(293,482,267,213,6,fill=1,stroke=0)
  d=drawing(OUT/(row['art']+'.svg'));sc=min(243/d.width,185/d.height);d.scale(sc,sc);renderPDF.draw(d,c,305+(243-d.width*sc)/2,496+(185-d.height*sc)/2)
  text('Canvas: '+str(row['size'][0])+' x '+str(row['size'][1])+' mm (proposed)',297,467,9)

@@ -55,3 +55,7 @@ Founder authorized consistent artwork and four product sheets, then asked for a 
 ## Commerce planning v0.4
 
 [Low-budget launch plan](commerce-launch-v0.1.md) evaluates the existing Astro site, external hosted checkout, Amazon India and staged marketplace expansion. Source remains in GitHub; the store must use a permitted commercial host rather than GitHub Pages. No provider, budget, price or commercial launch is approved by this proposal.
+
+## Tasar Jhula refinement
+
+Founder selected Tasar for the Jhula. [Current sample brief](sample-pack-v3.md) replaces the cotton-canvas outer with a Tasar silk target; lining, reinforcement, print process, composition, provenance and cost require sample confirmation.

@@ -47,3 +47,7 @@ This v1 record is preserved. [Sample pack v2](sample-pack-v2.md) now supplies sh
 ## Current sample direction
 
 [Sample pack v3](sample-pack-v3.md) supersedes earlier cup copy and bottle construction proposals. The cup has a graphical story and prominent UTKAL lettering. Both matte black and Nila Sagara blue bottle colours are retained; premium vacuum-insulated construction, a carry-loop cap and replaceable seal are proposed for supplier evaluation. No product-performance claim or supplier commitment is made.
+
+## Tasar Jhula refinement
+
+Founder selected Tasar for the Jhula. [Current sample brief](sample-pack-v3.md) replaces the cotton-canvas outer with a Tasar silk target; lining, reinforcement, print process, composition, provenance and cost require sample confirmation.

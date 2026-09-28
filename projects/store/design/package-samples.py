@@ -38,6 +38,7 @@ assets['source-art/cup-graphical-wrap.png']=(s/'public/images/sea-and-stone-v3/c
 assets['specifications.json']=(k/'specs/sample-specifications-v3.json').read_bytes()
 readme=(k/'specs/sample-pack-v3.md').read_text().replace('(sample-specifications-v3.json)','(specifications.json)').replace('[the generation record](../records/graphical-cup-prompts-v3.json)','the generation record retained in the project KB').replace('[Exact refinement prompts](../records/brand-refinements-v3-prompts.json)','Exact refinement prompts retained in the project KB')
 readme=readme.replace('[Premium bottle generation prompts](../records/premium-bottle-prompts-v3.json)','Premium bottle generation prompts retained in the project KB')
+readme=readme.replace('[Exact Tasar mockup prompt](../records/tasar-jhula-prompts-v3.json)','Exact Tasar mockup prompt retained in the project KB')
 assets['README.md']=readme.encode();assets['FONT-LICENCE.txt']=(s/'public/fonts/OFL.txt').read_bytes()
 manifest={'version':'3.1-review','status':'Not approved for manufacture','credit':spec['credit'],'assets':[{'path':name,'sha256':hashlib.sha256(data).hexdigest()} for name,data in assets.items()]}
 assets['manifest.json']=(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode()

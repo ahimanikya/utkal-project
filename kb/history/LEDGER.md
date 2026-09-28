@@ -398,3 +398,9 @@ Founder retained black and blue, then requested a higher-quality bottle. The con
 ## UTP-HIS-0044 · A low-budget route to real sales
 
 Founder requested direct e-commerce and Amazon/other marketplace selling. The proposal prioritises small approved stock, existing Astro code, permitted static hosting and external checkout, with manual fulfilment and channel stock allocation. Provider selection and launch are not approved by research. The earlier GitHub Pages commerce assumption is corrected.
+
+## UTP-HIS-0045 · The Jhula becomes Tasar
+
+> I want Tasar Jhula
+
+The Founder chose Tasar for the bag. Natural golden silk now anchors the visual and outer-shell specification. Lining and reinforcement are proposed, with fibre evidence, sample quality, provenance and revised costs still to establish.

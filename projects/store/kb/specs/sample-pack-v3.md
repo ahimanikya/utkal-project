@@ -28,3 +28,11 @@ The Founder then said “Or we can have both” and “Can we try some high qual
 As a sourcing benchmark, [Borosil Loop 750 ml](https://myborosil.com/products/borosil-loop-vacuum-insulated-bottle-black-750ml) has an indexed manufacturer description listing SS 304, vacuum insulation and powder coating. The direct page redirected to the homepage during verification, so current availability was not established. These are manufacturer claims about that product, not verified performance or a supply agreement for Utkal. Check blank availability, brand/decorating permission, tests, costs and replacement parts before selecting a supplier. No duration claim is transferred to our concept.
 
 [Premium bottle generation prompts](../records/premium-bottle-prompts-v3.json) preserve the two-colour refinement and final concept.
+
+## Tasar Jhula material direction
+
+Founder: “I want Tasar Jhula”. Tasar silk replaces the earlier cotton-canvas outer-shell proposal. Natural golden colour, cotton lining, reinforced handles and the existing English Utkal artwork are proposed; the actual weight, construction and price await supplier samples. Describe outer, lining and handles separately; do not label the whole lined bag “100% silk”. This material change means the bag cannot automatically be treated as the cheapest entry product in the launch budget.
+
+Odisha has a Tasar and silk federation, [SERIFED](https://serifed.odisha.gov.in/), a potential research starting point for fabric provenance. No sourcing relationship, Odisha-made/handloom claim or artisan attribution has been established. Bangalore assembly and Odisha fabric sourcing would be separate facts to verify. [Silk Mark guidance](https://silkmarkindia.com/index.php/faq/) explains that appearance alone cannot establish silk purity; request documented composition and testing as needed. No Silk Mark label is claimed for this concept.
+
+[Exact Tasar mockup prompt](../records/tasar-jhula-prompts-v3.json) is retained. The image illustrates a material direction, not a photograph or certification of a supplied product.
