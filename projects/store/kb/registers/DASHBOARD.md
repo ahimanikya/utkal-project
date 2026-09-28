@@ -5,7 +5,7 @@ title: "Utkal Store dashboard"
 
 # Utkal Store · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a89c371117e92eef34393a99387f72c4f513dea7f7402cca3a24b4cc1db217c2`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8044da385f1ec8110239f7e26639292ae2c560a0aa06e6cc88798c9a0827b7bf`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -37,6 +37,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-DEC-008 · Plan low-budget commerce and marketplace selling | recorded_direction | Ahimanikya Satapathy | Research and prepare a concrete launch plan; provider and budget choices remain proposals. |
 | UTS-DEC-009 · Use Tasar for the Jhula | recorded_direction | Ahimanikya Satapathy | Replace canvas outer with a Tasar silk design target; construction, authenticity, sourcing and price await samples. |
 | UTS-DEC-010 · Share cup stories with bags and T-shirt back | recorded_direction | Ahimanikya Satapathy | Apply shared graphical story to Tasar bag concepts and black T-shirt back; no final colour, print-master or production approval. |
+| UTS-DEC-011 · Explore a long traditional-form Tasar Jhula | recorded_direction | Ahimanikya Satapathy | Prepare an additional long-strap soft-pouch concept while retaining existing bag studies; not final material/fit or production approval. |
 
 ## Reviews
 
@@ -80,7 +81,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTS-EVT-002 | 2026-09-28T08:51:44.276078+00:00 | Refined local starter to exactly four product types; only T-shirt black. Other colour treatments remain proposals. | Review concepts and obtain vendor specifications/samples. |
 | UTS-EVT-003 | 2026-09-28T09:13:23.221257+00:00 | Prepared four rendered merchandise concepts, outlined vector brand and print studies, design-review page and downloadable vendor review pack. Not a production release. | Verify candidate and submit to existing draft review. |
 | UTS-EVT-004 | 2026-09-28T09:33:53.384991+00:00 | Prepared shared-geometry artwork, four product/sample sheets and a sourced story for the reverse of the cup; proposed blank specifications are not approvals. | Founder review, then actual vendor templates and samples. |
 | UTS-EVT-005 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
@@ -90,6 +90,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-EVT-009 | 2026-09-28T10:05:12.631718+00:00 | Updated the Jhula to a Tasar silk outer-shell concept with proposed lining and reinforced handles; flagged pilot budget for re-costing. | Review design and obtain authenticated fabric/construction samples after supplier contact is authorised. |
 | UTS-EVT-010 | 2026-09-28T10:10:44.311363+00:00 | Prepared terracotta and sea-blue cup alternatives on a provisional interpretation of the Founder suggestion. Neither selected; current ivory-cup sample pack retained. | Founder clarifies intended product and reviews alternatives. |
 | UTS-EVT-011 | 2026-09-28T10:25:13.897780+00:00 | Applied cup story concepts to two Tasar bags and black T-shirt back; preserved earlier artwork as superseded references. | Review compositions and prepare common flat print masters after selection. |
+| UTS-EVT-012 | 2026-09-28T10:31:38.044381+00:00 | Added a natural Tasar long-strap pouch concept using the cup sailing story; retained two-handle alternatives. | Compare shape and sample strap fit, fabric and construction before selection. |
 
 ## Deferred extensions
 

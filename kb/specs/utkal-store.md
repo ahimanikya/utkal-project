@@ -28,3 +28,7 @@ Founder selected Tasar for the bag. Store sample specifications and visual now t
 ## Shared story across products
 
 Founder clarified that bags should carry the cup designs, and the same direction should appear on the T-shirt back. Store v4 concept records supersede earlier logo-only bag and blank-back instructions.
+
+## Long Jhula alternative
+
+Founder requested a longer traditional-form Tasar bag. An additional single-strap soft pouch study preserves the cup sailing story. Existing two-handle designs remain candidates; no new stock or production decision is implied.

@@ -16,3 +16,13 @@ Founder clarified: “I want to have the same design for bags like cups”, then
 The new images are built-in AI-generated mockups, not photographs of samples. They preserve a recognisable common composition but are not pixel-identical transfers of one manufacturing master. The next production step is one approved flat riverbank illustration and one approved flat sailing illustration, reused on cup/bag/back at product-specific sizes and separations. This avoids independently redrawing the story for each vendor. Exact print files, silk-compatible inks/dyes, opacity, wash/rub/load tests and prices require supplier sampling. Generated type and scene details must be reconciled to the approved master before production.
 
 [Exact prompts](../records/shared-story-prompts-v4.json) and earlier references preserve the progression. Creative direction and final authority: Ahimanikya Satapathy; AI-assisted design. No vendor contact, order or launch occurred.
+
+## Long traditional-form Tasar Jhula exploration
+
+Founder: “We can try these - but what about a long Jhula with a traditional tusar bag -”. This requests an additional silhouette exploration, not a rejection of the two-handle candidates or a production approval.
+
+The new concept uses one continuous broad long shoulder strap, a soft portrait pouch, natural golden Tasar outer, subtle laterite edging and a simple loop/button closure. It retains the cup's sailing narrative and prominent sea-blue UTKAL. Proposed proportions: body 32 × 43 cm, strap 105–115 cm total by about 5 cm wide. These dimensions are design targets, not measurements of the generated image. Sample strap length, drop and comfort on intended wearers; do not promise universal cross-body fit. Cotton lining, concealed reinforcement and seam/strap-load performance remain supplier proposals.
+
+“Traditional-form” describes the design direction. No particular regional craft origin, handloom process, verified silk composition or historical reconstruction is asserted. The natural appearance does not establish fibre purity. This is an additional concept on the review page and product page, not a new purchasable SKU or price.
+
+[Exact generation prompt](../records/long-tasar-jhula-prompts-v1.json) records the design intent. The same approved flat sailing master should eventually be used across cups, bags and T-shirt backs; this render alone is not a print master.

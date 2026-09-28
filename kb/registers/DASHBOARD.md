@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ce3491748eb6ae5278c55481cb7a3bbc85b955e0a73ce370b7a5892bb79bba42`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `dc23f93d072f1a4d7401c83d4e4b6caca2c6027afd644fed3c97933adc1a7e99`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -53,6 +53,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-017 · Replace prose on the cup with a graphical story | recorded_direction | Ahimanikya Satapathy | Remove proposed paragraph from cup; develop an illustrated wrap. New visuals remain review candidates. |
 | UTP-DEC-018 · Prominent cup branding and black bottle experiment | recorded_direction | Ahimanikya Satapathy | Strengthen cup branding and explore a refined black bottle; no final colour or production approval. |
 | UTP-DEC-019 · Retain both bottle colours and explore premium construction | recorded_direction | Ahimanikya Satapathy | Keep black and blue; prepare a higher-quality bottle proposal. Materials, supplier and costs remain subject to review. |
+| UTP-DEC-020 · Founder reports acquisition of utkalproject.org at GoDaddy | recorded_direction | Ahimanikya Satapathy | Record the acquired domain and registrar. Hosting and DNS connection remain to arrange; no publication authorization is inferred. |
+| UTP-DEC-021 · Make UTP public and configure GitHub Pages with GoDaddy DNS | approved | Ahimanikya Satapathy | Public visibility for utkal-project and GitHub Pages/domain configuration. Blueprint unchanged; first website release and draft PR merge not performed. |
 
 ## Reviews
 
@@ -107,8 +109,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-015 | 2026-09-28T07:47:13+00:00 | Founder requested an empty or basic start. Added README and empty src/public/tests folders to the review branch. No framework installation, prototype migration or automated initializer. | Review the basic structure; add implementation as work requires. |
-| UTP-EVT-016 | 2026-09-28T07:51:09+00:00 | Founder authorized proceeding. Verified PR #1 merged into private main at a6c729b948a90a30032c98a84d9950228d594338. Root config, KB bundle and basic implementation skeleton are applied. | Maintain the structure and develop the site when its next task begins. |
 | UTP-EVT-017 | 2026-09-28T08:23:56.004231+00:00 | Prepared 11-page Astro preview with six draft entries, search/topic navigation and three bilingual/English brand treatments. Preserved original prototype; captured artwork prompts, font licences and source credits. Build and four checks pass; remaining limitations recorded. | Founder reviews concrete brand and website candidate before final selection or deployment. |
 | UTP-EVT-018 | 2026-09-28T08:26:32.301738+00:00 | Website and brand candidate uploaded to private draft PR #2. No merge or deployment. Earlier HTTP upload failure recovered with per-command transfer settings; repository privacy verified. | Founder reviews live local website and brand studio, then records selected direction. |
 | UTP-EVT-019 | 2026-09-28T08:51:44.276078+00:00 | Prepared new colour/script direction, founder page, four-product store under Collective, sensory research and 166-photo Fresco integration. Source originals unchanged. | Record final checks and submit updated private review candidate. |
@@ -117,6 +117,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-022 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
 | UTP-EVT-023 | 2026-09-28T09:48:36.239349+00:00 | Enlarged cup UTKAL lettering and developed a matte-black bottle candidate. Sea-blue bottle retained for comparison. | Founder reviews the refined cup and bottle. |
 | UTP-EVT-024 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
+| UTP-EVT-025 | 2026-09-28T12:04:09.709689+00:00 | Recorded Founder-reported acquisition of utkalproject.org with GoDaddy. Website remains undeployed. | Confirm hosting and prepare domain connection while preserving existing DNS records. |
+| UTP-EVT-026 | 2026-09-28T13:02:07.055710+00:00 | Verified public repository, enabled Actions Pages, saved utkalproject.org and updated GoDaddy web DNS. Prepared manual release workflow; local 15-page build and six tests passed. TLS provisioning and first deployment remain pending. | Complete HTTPS verification, then obtain Founder approval for the concrete website release before merging and running the manual workflow. |
 
 ## Deferred extensions
 

@@ -408,3 +408,17 @@ The Founder chose Tasar for the bag. Natural golden silk now anchors the visual 
 ## UTP-HIS-0046 · One story across products
 
 Founder clarified that the bags should carry the cup designs and added the T-shirt back. The story now connects cup, Tasar bag and black tee concepts. The front retains its emblem and Odia name; final common print masters are still to be prepared.
+
+## UTP-HIS-0047 · A longer, softer Jhula
+
+Founder asked for a long traditional Tasar bag. The new natural-golden, single-strap soft pouch carries the same sailing story and sits alongside the earlier coloured two-handle concepts. Fit, material and production remain to review.
+
+## UTP-HIS-0048 · A home address for Utkal Project
+
+> I have utkalproject.org now
+
+Ahimanikya Satapathy reported acquiring the domain through GoDaddy. This marks the choice of the project’s web address. Hosting, DNS connection and publication remain to arrange.
+
+## UTP-HIS-0049 · The domain connects to GitHub Pages
+
+Founder authorized a public UTP repository to use GitHub Pages. Browser configuration enabled Actions publishing and connected utkalproject.org through GoDaddy DNS. A manual release workflow preserves the Founder’s publication gate. The website has not yet been deployed.

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-28T08:51:44.276078+00:00",
+  "recorded_at": "2026-09-28T13:02:07.055710+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -536,6 +536,42 @@
       ],
       "evidence": [
         "reference/brand-vector-03.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-020",
+      "title": "Founder reports acquisition of utkalproject.org at GoDaddy",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "I have utkalproject.org now; GoDaddy",
+      "scope": "Record the acquired domain and registrar. Hosting and DNS connection remain to arrange; no publication authorization is inferred.",
+      "recorded_at": "2026-09-28T12:04:09.709689+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "reference/project-identity.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-021",
+      "title": "Make UTP public and configure GitHub Pages with GoDaddy DNS",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "can you configure using browser skill?; ok make it public",
+      "scope": "Public visibility for utkal-project and GitHub Pages/domain configuration. Blueprint unchanged; first website release and draft PR merge not performed.",
+      "recorded_at": "2026-09-28T13:02:07.055710+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-020"
+      ],
+      "evidence": [
+        "reference/project-identity.md"
       ]
     }
   ],
