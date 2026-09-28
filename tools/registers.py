@@ -61,7 +61,8 @@ def validate(root, data, events):
             require(bool(d.get('scope')), 'Approval lacks scope')
     def authorized(ref):
         if ref in external:
-            return True  # Legacy evidence pointer; authenticity requires human review.
+            d = external[ref]
+            return d.get('kind') == 'decision' and d.get('actor_kind') == 'human' and d.get('status') in {'approved','recorded_direction'}  # Source authenticity still requires review.
         return any(d['id']==ref and d['actor']['kind']=='human' and d['status'] in {'approved','recorded_direction'} for d in data['decisions'])
     for w in data['work']:
         require(w['status'] in WORK_STATES, 'Unknown work status')
@@ -99,7 +100,7 @@ def validate(root, data, events):
 
 def cell(value):
     if isinstance(value,list): value='; '.join(str(x) for x in value)
-    return str(value or '—').replace('|','\\|').replace('\n',' ')
+    return str('—' if value is None or value == '' else value).replace('|','\\|').replace('\n',' ')
 
 def render(data, events, digest):
     lines=[f"# {data['name']} · dashboard",'',f"Generated from `records.json` and `activity.jsonl`. Source SHA-256: `{digest}`.",'',f"Accountable human: **{data['human_authority']}**. Model {data['model_version']}. This view reports records; it grants no authority.",'']
