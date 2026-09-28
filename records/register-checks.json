@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-09-28T05:41:03+00:00",
+  "result": "pass",
+  "checks": [
+    "valid seeded records",
+    "duplicate ID rejected",
+    "dangling reference rejected",
+    "AI approval rejected",
+    "unapproved work authorization rejected",
+    "publication without release rejected",
+    "release without destination rejected",
+    "limited review without limitations rejected",
+    "missing evidence rejected",
+    "repository traversal rejected",
+    "deterministic view",
+    "both dashboards current"
+  ],
+  "reviewer": "Implementing AI assistant",
+  "independent": false,
+  "limits": [
+    "Checks validate record consistency, not approval authenticity or historical claims",
+    "External URLs not fetched by validator",
+    "Repository application still checked separately"
+  ],
+  "generator_sha256": "4bb109ed295713177446a5583f48cb2743758f123bc8f3fddd1b765248975270"
+}
