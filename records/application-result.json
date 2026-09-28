@@ -1,0 +1,163 @@
+{
+  "decision": "UTB-DEC-005",
+  "status": "approved_operating_setup_applied_and_verified",
+  "human_authority": "Ahimanikya Satapathy",
+  "blueprint": {
+    "version": "0.1.0-rc.1",
+    "commit": "ab5cd05315feecbc5d5c71b372d198c67ee29910",
+    "repository": "https://github.com/ahimanikya/utkal-blueprint",
+    "visibility": "private",
+    "github_release_or_tag_created": false,
+    "runtime_enforcement_implemented": false
+  },
+  "utp_adoption": {
+    "status": "applied",
+    "commit_before_this_result_record": "9a758e4767980bbb76ffcc856a4e76bc70ae74f5",
+    "repository": "https://github.com/ahimanikya/utkal-project",
+    "visibility": "private",
+    "adoption_record": "governance/blueprint-adoption.md"
+  },
+  "verification": {
+    "method": "GitHub rendered Code-view file contents compared with local applied files, ignoring outer whitespace; GitHub removes the final newline in this view. Commit identities and private labels read from GitHub UI. This is not a Git object or remote byte-hash verification.",
+    "files": {
+      "utkal-blueprint": [
+        {
+          "path": "docs/charter.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "docs/governance.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "docs/working-agreement.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "docs/human-authority.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "docs/authorship.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "docs/jml-process.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "templates/jml-checklist.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "templates/role-and-jd-standard.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "templates/project-profile.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "templates/work-item.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "templates/jml-event.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "templates/adoption-record.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "records/batch-approval.json",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "README.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "VERSION.json",
+          "matchesLocalIgnoringOuterWhitespace": true
+        }
+      ],
+      "utkal-project": [
+        {
+          "path": "governance/charter.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "governance/working-arrangements.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "governance/blueprint-adoption.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "team/roles.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "team/assignments.json",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "records/jml-first-assignments.json",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "plans/first-task.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "records/batch-approval.json",
+          "matchesLocalIgnoringOuterWhitespace": true
+        },
+        {
+          "path": "README.md",
+          "matchesLocalIgnoringOuterWhitespace": true
+        }
+      ]
+    }
+  },
+  "team": {
+    "names": [
+      "Disha Dash",
+      "Anvesha Acharya",
+      "Samanta Chandrasekhar",
+      "Drishti Senapati"
+    ],
+    "mode": "labelled role passes by one assistant in this conversation",
+    "jml_record": "records/jml-first-assignments.json",
+    "new_access_grants": [],
+    "independent_agents_started": false
+  },
+  "first_task": {
+    "id": "UTP-WORK-001",
+    "status": "draft_and_local_preview_ready_for_founder_review",
+    "human_acceptance": "pending",
+    "public_publication": "not_authorized_or_performed",
+    "local_artifacts": [
+      "implementation/utp-preview/ENTRY.md",
+      "implementation/utp-preview/REVIEW.md",
+      "implementation/utp-preview/src/pages/index.astro"
+    ],
+    "checks": [
+      "Astro static build passed",
+      "Desktop 1280px and narrow 441px viewports inspected; no horizontal overflow",
+      "All internal article anchors resolve",
+      "Source-note disclosure opens by keyboard",
+      "Keyboard navigation reaches labelled home link"
+    ],
+    "limitations": [
+      "Self-review by the same assistant, not independent peer review",
+      "Birth-date discrepancy unresolved and visible",
+      "IIA repository abstract inspected; full paper retrieval unavailable",
+      "No screen-reader or exhaustive cross-browser audit"
+    ]
+  },
+  "excluded_actions_performed": [],
+  "record_note": "Historical approval records retain their original in-progress state. This application result supersedes that administrative state. The containing commit is captured in the local execution ledger to avoid self-reference."
+}
