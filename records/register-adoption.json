@@ -7,11 +7,14 @@
   "approval_quote": "This is looking good, let's apply to the blueprint and UTP",
   "recorded_at": "2026-09-28T05:36:04+00:00",
   "existing_blueprint_baseline": "0.1.0-rc.1",
-  "state": "approved_extension_applied_locally",
-  "repository_application": "pending",
+  "state": "applied_to_private_repository",
+  "repository_application": "applied",
   "other_project_adoption": false,
   "new_persona_assignments": false,
   "note": "Preserves the prior baseline and immutable adoption; additive extension only.",
-  "generator_sha256": "4bb109ed295713177446a5583f48cb2743758f123bc8f3fddd1b765248975270",
-  "model_document": "https://github.com/ahimanikya/utkal-blueprint/blob/main/docs/register-model.md"
+  "generator_sha256": "cb7868a31c1e38086c28d7c64afbb859e3e2ded45346b86f68441aed8b438868",
+  "model_document": "https://github.com/ahimanikya/utkal-blueprint/blob/ba401b0e84235103ad27d3095978229a18aa876a/docs/register-model.md",
+  "application_checkpoint": "https://github.com/ahimanikya/utkal-project/commit/9dfdc960e5c9da9ed89eba30f7370156424a0c25",
+  "checkpoint_note": "Verified repository checkpoint before final administrative status updates. Final head is recorded in the execution receipt outside this self-referencing record.",
+  "model_document_sha256": "66f98e07ccf08024cb808c6d8c6cf88cb6f938ef5e4e9794015775584f3a6eb4"
 }
