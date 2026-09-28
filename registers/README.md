@@ -9,3 +9,5 @@ Run `python3 tools/registers.py` from the repository root to validate and regene
 Current registries index existing governance, membership, JML, brief and evidence files. Do not duplicate their contents. Sources/assets can be individual entries or explicitly identified collections; the initial collection is not a claim of a complete asset audit.
 
 New records follow the model's type fields and source examples. Every meaningful status change also gets an activity event. No generated status, review pass or AI persona grants human authority. Keep exact event dates unknown when unknown.
+
+Run `python3 tools/test_registers.py` for the repeatable negative checks. The same assistant implemented and reviewed this model; this is not an independent audit.
