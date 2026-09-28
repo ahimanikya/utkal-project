@@ -292,3 +292,9 @@ The Founder clarified that config belongs at repository root and project boilerp
 **approved layout · architecture**
 
 The Founder accepted the repository layout. Root config, KB, tools and code remain distinct. Boilerplate contents and creation tooling are next to define. See UTP-DEC-007.
+
+## UTP-HIS-0031 · Start with a basic implementation skeleton
+
+**prepared for review · architecture**
+
+The Founder asked for an empty or basic start. Minimal source, asset and test folders are prepared in the review branches. The existing Astro prototype remains unchanged.

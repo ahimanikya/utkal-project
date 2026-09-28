@@ -11,3 +11,5 @@ The KB contains the governing model, working arrangements, roles, records and kn
 Current directory repair: review-branch candidate awaiting Founder approval; see [migration status](kb/reference/repair-status.md).
 
 Repository configuration: [utkal.config.json](utkal.config.json). [Knowledge and source-code boundaries](kb/reference/repository-layout.md).
+
+[Basic site workspace](projects/site/README.md): source, public-assets and test folders, ready to grow.
