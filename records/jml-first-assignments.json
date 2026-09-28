@@ -1,0 +1,96 @@
+{
+  "approval": "UTB-DEC-005",
+  "human_supervisor": "Ahimanikya Satapathy",
+  "execution": "One assistant in this conversation; labelled role passes; not independently running agents",
+  "configuration_verified": [
+    "Reviewed current charter, governance, working agreement, JDs and first-task brief",
+    "Verified approved full names and human/persona types",
+    "Verified no human reports to AI",
+    "Verified scoped local read/write capabilities; existing repository browser access used only for approved setup",
+    "No new credentials, background jobs or cross-project grants requested"
+  ],
+  "access_added": [],
+  "access_removed": [],
+  "access_retained": [
+    "Existing authorized local project workspace and read-only reference material",
+    "Existing tools used within the approved brief"
+  ],
+  "stop_condition": "Founder stop, task completion, or missing authority for an affected action",
+  "events": [
+    {
+      "member": "Disha Dash",
+      "kind": "persona",
+      "event": "join",
+      "project": "UTP",
+      "jd_ids": [
+        "UTP-JD-002",
+        "UTP-JD-003"
+      ],
+      "jd_version": "0.3",
+      "state": "verified_complete",
+      "assignment_state": "active_bounded_role_pass",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "decision": "UTB-DEC-005",
+      "first_task": "UTP-WORK-001",
+      "effective_point": "Configuration verification in this approved execution session",
+      "human_acknowledgement": "not applicable to AI; configuration checked instead",
+      "handover": "Current artifacts, evidence, unresolved decisions and next action retained in task records"
+    },
+    {
+      "member": "Anvesha Acharya",
+      "kind": "persona",
+      "event": "join",
+      "project": "UTP",
+      "jd_ids": [
+        "UTP-JD-007",
+        "UTP-JD-008"
+      ],
+      "jd_version": "0.3",
+      "state": "verified_complete",
+      "assignment_state": "active_bounded_role_pass",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "decision": "UTB-DEC-005",
+      "first_task": "UTP-WORK-001",
+      "effective_point": "Configuration verification in this approved execution session",
+      "human_acknowledgement": "not applicable to AI; configuration checked instead",
+      "handover": "Current artifacts, evidence, unresolved decisions and next action retained in task records"
+    },
+    {
+      "member": "Samanta Chandrasekhar",
+      "kind": "persona",
+      "event": "join",
+      "project": "UTP",
+      "jd_ids": [
+        "UTP-JD-004",
+        "UTP-JD-005"
+      ],
+      "jd_version": "0.3",
+      "state": "verified_complete",
+      "assignment_state": "active_bounded_role_pass",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "decision": "UTB-DEC-005",
+      "first_task": "UTP-WORK-001",
+      "effective_point": "Configuration verification in this approved execution session",
+      "human_acknowledgement": "not applicable to AI; configuration checked instead",
+      "handover": "Current artifacts, evidence, unresolved decisions and next action retained in task records"
+    },
+    {
+      "member": "Drishti Senapati",
+      "kind": "persona",
+      "event": "join",
+      "project": "UTP",
+      "jd_ids": [
+        "UTP-JD-006"
+      ],
+      "jd_version": "0.3",
+      "state": "verified_complete",
+      "assignment_state": "active_bounded_role_pass",
+      "human_supervisor": "Ahimanikya Satapathy",
+      "decision": "UTB-DEC-005",
+      "first_task": "UTP-WORK-001",
+      "effective_point": "Configuration verification in this approved execution session",
+      "human_acknowledgement": "not applicable to AI; configuration checked instead",
+      "handover": "Current artifacts, evidence, unresolved decisions and next action retained in task records"
+    }
+  ]
+}
