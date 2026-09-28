@@ -426,3 +426,5 @@ Founder authorized a public UTP repository to use GitHub Pages. Browser configur
 ## UTP-HIS-0050 · The encyclopedia goes first; the Store waits
 
 Founder continued with the first website preview release and asked to keep Store private or unlinked. Its introduction and links are removed from the main site. The separate Store remains unpublished; source files in this public repository remain public.
+
+Release gate clarification: automatic approval review subsequently rejected merging PR #2 because it did not accept the prior “ok” as explicit authorization for that candidate’s merge and public deployment. The Store exclusion is applied; the website remains unpublished pending explicit approval.
