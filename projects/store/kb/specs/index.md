@@ -7,3 +7,5 @@
 - [Sample pack v3](sample-pack-v3.md)
 
 - [Low-budget commerce and marketplace launch](commerce-launch-v0.1.md)
+
+- [Current shared story direction v4](shared-story-v4.md)

@@ -404,3 +404,7 @@ Founder requested direct e-commerce and Amazon/other marketplace selling. The pr
 > I want Tasar Jhula
 
 The Founder chose Tasar for the bag. Natural golden silk now anchors the visual and outer-shell specification. Lining and reinforcement are proposed, with fibre evidence, sample quality, provenance and revised costs still to establish.
+
+## UTP-HIS-0046 · One story across products
+
+Founder clarified that the bags should carry the cup designs and added the T-shirt back. The story now connects cup, Tasar bag and black tee concepts. The front retains its emblem and Odia name; final common print masters are still to be prepared.

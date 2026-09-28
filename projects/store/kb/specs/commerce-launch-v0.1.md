@@ -123,3 +123,7 @@ Related: [Store PRD](store-v0.1.md) · [Current designs and proposed samples](sa
 ## Subsequent material change: Tasar Jhula
 
 Founder selected Tasar silk for the bag after this launch proposal. Earlier suggestions to use the bag as the lower-cost entry item are conditional on fresh quotes and no longer a dependable budget assumption. Re-cost the pilot with the Tasar outer, lining, reinforcement and silk-compatible decoration; do not silently substitute cotton or a blend to meet the budget.
+
+## Shared artwork and colour variants
+
+Current design concepts include two bag colour/story options and a T-shirt back print. If both bag options launch, the previously counted nine variants become ten before any cup colour expansion. Back printing and dyed Tasar require revised cost/quality quotes. These concepts do not authorise buying all variants.

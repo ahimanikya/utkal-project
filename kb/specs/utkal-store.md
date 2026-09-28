@@ -24,3 +24,7 @@ Founder requested a low-budget route to direct and Amazon/other marketplace sale
 ## Tasar Jhula
 
 Founder selected Tasar for the bag. Store sample specifications and visual now target Tasar silk with proposed lining and reinforcement; provenance and price are unconfirmed.
+
+## Shared story across products
+
+Founder clarified that bags should carry the cup designs, and the same direction should appear on the T-shirt back. Store v4 concept records supersede earlier logo-only bag and blank-back instructions.

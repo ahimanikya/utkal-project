@@ -30,14 +30,15 @@
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTS-DEC-001",
-      "next_action": "Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests.",
+      "next_action": "Review shared-story bag and T-shirt back concepts, then prepare common flat artwork and sample quotes.",
       "blockers": [],
       "refs": [
         "UTS-DEC-001",
         "UTS-DEC-002",
         "UTS-DEC-003",
         "UTS-DEC-004",
-        "UTS-DEC-005"
+        "UTS-DEC-005",
+        "UTS-DEC-010"
       ],
       "evidence": [
         "specs/store-v0.1.md",
@@ -226,6 +227,26 @@
       ],
       "evidence": [
         "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-010",
+      "title": "Share cup stories with bags and T-shirt back",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "I want to have the same design for bags like cups",
+      "additional_quote": "Also T-shirt back we can use that",
+      "scope": "Apply shared graphical story to Tasar bag concepts and black T-shirt back; no final colour, print-master or production approval.",
+      "recorded_at": "2026-09-28T10:25:13.897780+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-009"
+      ],
+      "evidence": [
+        "specs/shared-story-v4.md"
       ]
     }
   ],

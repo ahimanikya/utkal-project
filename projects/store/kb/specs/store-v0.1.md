@@ -59,3 +59,7 @@ Founder authorized consistent artwork and four product sheets, then asked for a 
 ## Tasar Jhula refinement
 
 Founder selected Tasar for the Jhula. [Current sample brief](sample-pack-v3.md) replaces the cotton-canvas outer with a Tasar silk target; lining, reinforcement, print process, composition, provenance and cost require sample confirmation.
+
+## Shared story v0.5
+
+[Current shared story v4](shared-story-v4.md) applies the cup scenes to Tasar bags and the black T-shirt back. New production masters are pending; earlier bag print and blank-back instructions are superseded.

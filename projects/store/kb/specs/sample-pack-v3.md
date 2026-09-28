@@ -40,3 +40,7 @@ Odisha has a Tasar and silk federation, [SERIFED](https://serifed.odisha.gov.in/
 ## Cup colour exploration, not selected
 
 Founder suggested “Maybe a different color and cup design”. An optional clarification about cup versus bag treatment had no answer when generated. The assistant provisionally explored terracotta/ivory riverbank storytelling and sea-blue/laterite sailing artwork. These are comparison images only; no replacement of the current ivory cup or manufacture-ready files is implied. [Prompt and interpretation](../records/cup-colour-exploration-v1.json) are preserved. The current downloadable sample pack remains the working Tasar/ivory-cup version.
+
+## Superseded for bag and T-shirt back
+
+[Shared story v4](shared-story-v4.md) is current after the Founder requested cup-like bag designs and a story on the T-shirt back. This v3 download is retained as an earlier sample study and is not the current bag/back manufacturing instruction.
