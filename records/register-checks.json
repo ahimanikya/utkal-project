@@ -1,5 +1,5 @@
 {
-  "recorded_at": "2026-09-28T05:41:03+00:00",
+  "recorded_at": "2026-09-28T05:55:51+00:00",
   "result": "pass",
   "checks": [
     "valid seeded records",
@@ -18,9 +18,15 @@
   "reviewer": "Implementing AI assistant",
   "independent": false,
   "limits": [
-    "Checks validate record consistency, not approval authenticity or historical claims",
+    "Self-review validates record consistency, not approval authenticity or historical claims",
     "External URLs not fetched by validator",
-    "Repository application still checked separately"
+    "Historical binary evidence remains local; see UTP history/evidence/AVAILABILITY.md"
   ],
-  "generator_sha256": "4bb109ed295713177446a5583f48cb2743758f123bc8f3fddd1b765248975270"
+  "generator_sha256": "cb7868a31c1e38086c28d7c64afbb859e3e2ded45346b86f68441aed8b438868",
+  "reproduction": "python3 tools/test_registers.py",
+  "additional_checks": [
+    "external non-decision cannot authorize work",
+    "boolean false displayed honestly",
+    "changed source fingerprint changes dashboard"
+  ]
 }
