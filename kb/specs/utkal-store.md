@@ -32,3 +32,7 @@ Founder clarified that bags should carry the cup designs, and the same direction
 ## Long Jhula alternative
 
 Founder requested a longer traditional-form Tasar bag. An additional single-strap soft pouch study preserves the cup sailing story. Existing two-handle designs remain candidates; no new stock or production decision is implied.
+
+## Main-site separation · 28 September 2026
+
+Founder directed: “Utkal Store collection - we will keep private or not link to main site yet.” The selected implementation is the unlinked, unpublished option: remove the main site's Store introduction route and both links, and retain the Store outside the Pages publishing artifact. Its source and history remain in this public repository; this is not repository-level privacy. Store launch remains a separate future decision.

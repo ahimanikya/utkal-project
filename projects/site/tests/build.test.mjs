@@ -7,7 +7,7 @@ const files=readdirSync(root,{recursive:true}).filter(f=>statSync(join(root,f)).
 const pages=files.filter(f=>f.endsWith('.html'));
 const read=f=>readFileSync(join(root,f),'utf8');
 test('all built local links, assets and fragment targets resolve',()=>{
-  assert.equal(pages.length,15);
+  assert.equal(pages.length,14);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
@@ -50,4 +50,9 @@ test('brand assets, original fonts and their licences are included',()=>{
   const html=read('brand-review/index.html');
   assert.ok(html.includes('ମାଙ୍କଡ଼ା ପଥର')&&html.includes('ଉତ୍କଳ'));
   assert.ok(!html.includes('Kankada'));
+});
+
+test('main website excludes the unpublished Store collection and links',()=>{
+  assert.ok(!files.some(f=>/^(utkal-store|store|artwork)\//.test(f)));
+  for(const file of pages) assert.ok(!/Utkal Store|utkal-store|localhost:4323|127\.0\.0\.1:4323/i.test(read(file)),file);
 });

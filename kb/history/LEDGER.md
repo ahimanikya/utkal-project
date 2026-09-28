@@ -422,3 +422,7 @@ Ahimanikya Satapathy reported acquiring the domain through GoDaddy. This marks t
 ## UTP-HIS-0049 · The domain connects to GitHub Pages
 
 Founder authorized a public UTP repository to use GitHub Pages. Browser configuration enabled Actions publishing and connected utkalproject.org through GoDaddy DNS. A manual release workflow preserves the Founder’s publication gate. The website has not yet been deployed.
+
+## UTP-HIS-0050 · The encyclopedia goes first; the Store waits
+
+Founder continued with the first website preview release and asked to keep Store private or unlinked. Its introduction and links are removed from the main site. The separate Store remains unpublished; source files in this public repository remain public.

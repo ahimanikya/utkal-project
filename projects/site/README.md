@@ -27,7 +27,7 @@ Build before running the tests. Build output is in `dist/`. Generated content, d
 
 - Homepage, about, founder and contribution guidance.
 - Bhubaneswar Fresco gallery: 161 art images, five alternates and an eight-photo essay.
-- Utkal Store introduction; the standalone store is in `projects/store/`.
+- Utkal Store is excluded from the main website: no introduction route or links. Its separate development app remains in `projects/store/`.
 - Searchable collection of seven entries with topic links and shareable query URLs.
 - Existing Samanta Chandrasekhar article, retaining its source and review limitations.
 - Five short research notes selected from the project KB at build time.
