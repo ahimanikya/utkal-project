@@ -16,3 +16,7 @@ The local storefront includes product pages and a browser-saved selection bag. I
 Next gates: select artwork and product specifications; review vendor samples and costs; confirm fulfillment and customer policies; implement real order/payment handling; approve limited launch. Commercial approval is independent of editorial publication.
 
 See [the current brand direction](../reference/brand-direction-02.md), [sensory identity research](../reference/odisha-sensory-identity.md) and [current work](../registers/DASHBOARD.md). The repository README links directly into the independent Store KB.
+
+## Low-budget commerce planning
+
+Founder requested a low-budget route to direct and Amazon/other marketplace sales. The Store KB now holds commerce-launch-v0.1 under its specs. Provider, budget and launch remain proposed; GitHub stores code/catalogue, but GitHub Pages is unsuitable for commercial storefront hosting under its usage restrictions.

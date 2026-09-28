@@ -394,3 +394,7 @@ Founder requested prominent Utkal branding on the graphical cup and a black bott
 ## UTP-HIS-0043 · Both colours, a better bottle
 
 Founder retained black and blue, then requested a higher-quality bottle. The concept now targets insulated construction, a practical cap and carry loop. Product quality remains to be established by supplier evidence and physical samples.
+
+## UTP-HIS-0044 · A low-budget route to real sales
+
+Founder requested direct e-commerce and Amazon/other marketplace selling. The proposal prioritises small approved stock, existing Astro code, permitted static hosting and external checkout, with manual fulfilment and channel stock allocation. Provider selection and launch are not approved by research. The earlier GitHub Pages commerce assumption is corrected.

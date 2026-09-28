@@ -5,7 +5,7 @@ title: "Utkal Store dashboard"
 
 # Utkal Store · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `60a40c59e32a179e7cfef5032af2cad505572015f173a12a7b19e1a6ad1c0b53`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e8bd6c56c14b04a533c0493ceb65d899febb4a43ce9284790b25c1952c06131b`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -14,12 +14,14 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ID / work | Status | Readiness | Human owner | Next action | Blockers |
 |---|---|---|---|---|---|
 | UTS-WORK-001 · First collection and local storefront | awaiting_review | reviewed | Ahimanikya Satapathy | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. | — |
+| UTS-WORK-002 · Prepare low-budget direct and marketplace commerce | awaiting_review | reviewed | Ahimanikya Satapathy | Confirm budget, seller/GST/dispatch setup and pilot range; then prepare vendor and account setup tasks. | Budget and seller/dispatch inputs unconfirmed; Samples, economics and channel accounts not approved |
 
 ## Pending human review and decisions
 
 | Record | Reason / scope |
 |---|---|
 | UTS-WORK-001 | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. |
+| UTS-WORK-002 | Confirm budget, seller/GST/dispatch setup and pilot range; then prepare vendor and account setup tasks. |
 
 ## Decisions
 
@@ -32,6 +34,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-DEC-005 · Replace prose on the cup with a graphical story | recorded_direction | Ahimanikya Satapathy | Remove proposed paragraph from cup; develop an illustrated wrap. New visuals remain review candidates. |
 | UTS-DEC-006 · Prominent cup branding and black bottle experiment | recorded_direction | Ahimanikya Satapathy | Strengthen cup branding and explore a refined black bottle; no final colour or production approval. |
 | UTS-DEC-007 · Retain both bottle colours and explore premium construction | recorded_direction | Ahimanikya Satapathy | Keep black and blue; prepare a higher-quality bottle proposal. Materials, supplier and costs remain subject to review. |
+| UTS-DEC-008 · Plan low-budget commerce and marketplace selling | recorded_direction | Ahimanikya Satapathy | Research and prepare a concrete launch plan; provider and budget choices remain proposals. |
 
 ## Reviews
 
@@ -82,6 +85,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTS-EVT-005 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
 | UTS-EVT-006 | 2026-09-28T09:48:36.239349+00:00 | Enlarged cup UTKAL lettering and developed a matte-black bottle candidate. Sea-blue bottle retained for comparison. | Founder reviews the refined cup and bottle. |
 | UTS-EVT-007 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
+| UTS-EVT-008 | 2026-09-28T10:01:19.604796+00:00 | Prepared sourced low-budget commerce plan, corrected commercial hosting assumption and documented per-channel stock, fees and launch prerequisites. | Founder reviews proposal and supplies budget/seller/dispatch details. |
 
 ## Deferred extensions
 

@@ -19,3 +19,5 @@ Blueprint structure is reused; formal version adoption and release approval are 
 - [Vendor sample brief](specs/vendor-brief-v1.md)
 
 - [Current sample pack v3](specs/sample-pack-v3.md)
+
+- [Low-budget commerce and marketplace launch](specs/commerce-launch-v0.1.md)

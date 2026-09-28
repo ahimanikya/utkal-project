@@ -51,3 +51,7 @@ Founder authorized consistent artwork and four product sheets, then asked for a 
 ## Current sample direction
 
 [Sample pack v3](sample-pack-v3.md) supersedes earlier cup copy and bottle construction proposals. The cup has a graphical story and prominent UTKAL lettering. Both matte black and Nila Sagara blue bottle colours are retained; premium vacuum-insulated construction, a carry-loop cap and replaceable seal are proposed for supplier evaluation. No product-performance claim or supplier commitment is made.
+
+## Commerce planning v0.4
+
+[Low-budget launch plan](commerce-launch-v0.1.md) evaluates the existing Astro site, external hosted checkout, Amazon India and staged marketplace expansion. Source remains in GitHub; the store must use a permitted commercial host rather than GitHub Pages. No provider, budget, price or commercial launch is approved by this proposal.

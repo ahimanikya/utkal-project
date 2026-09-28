@@ -43,6 +43,25 @@
         "specs/store-v0.1.md",
         "records/checks.json"
       ]
+    },
+    {
+      "id": "UTS-WORK-002",
+      "title": "Prepare low-budget direct and marketplace commerce",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "UTS-DEC-008",
+      "next_action": "Confirm budget, seller/GST/dispatch setup and pilot range; then prepare vendor and account setup tasks.",
+      "blockers": [
+        "Budget and seller/dispatch inputs unconfirmed",
+        "Samples, economics and channel accounts not approved"
+      ],
+      "refs": [
+        "UTS-DEC-008"
+      ],
+      "evidence": [
+        "specs/commerce-launch-v0.1.md"
+      ]
     }
   ],
   "decisions": [
@@ -171,6 +190,23 @@
       ],
       "evidence": [
         "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-008",
+      "title": "Plan low-budget commerce and marketplace selling",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "We need to see how we enable e-commerce with very low budget and start selling these in amazon and other places too",
+      "scope": "Research and prepare a concrete launch plan; provider and budget choices remain proposals.",
+      "recorded_at": "2026-09-28T10:01:19.604796+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "specs/commerce-launch-v0.1.md"
       ]
     }
   ],
