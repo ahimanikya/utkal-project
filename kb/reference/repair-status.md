@@ -1,11 +1,11 @@
 ---
 type: "Project record"
-title: "Repository repair candidate"
+title: "Repository repair applied"
 ---
 
-# Repository repair candidate
+# Repository repair applied
 
-The Founder requested a plan and repair of both repositories. This candidate places project knowledge inside the KB and distinguishes a template from an instance. This is a review-branch candidate. It has not been approved as a new baseline or merged into main. Git access is now verified, and the candidate was reconciled against the current private repository.
+The Founder approved proceeding with “done - go ahead now”. The repository repair and basic starter were merged into main through [PR #1](https://github.com/ahimanikya/utkal-project/pull/1) at `a6c729b948a90a30032c98a84d9950228d594338`. The [application receipt](../records/repair-application.json) records the actual merge and scope. Website deployment, new appointments and an automated project initializer are not included.
 
 The original approvals and evidence remain valid for their original scope. Earlier labels in historical documents are preserved as history, not current migration status. Current creator/instance identity is in [project identity](project-identity.md). Historical paths resolve through [the relocation map](../references/migration-paths.json).
 

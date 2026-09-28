@@ -298,3 +298,9 @@ The Founder accepted the repository layout. Root config, KB, tools and code rema
 **prepared for review · architecture**
 
 The Founder asked for an empty or basic start. Minimal source, asset and test folders are prepared in the review branches. The existing Astro prototype remains unchanged.
+
+## UTP-HIS-0032 · Repository repairs and basic starters merged
+
+**applied · stewardship**
+
+The Founder authorized proceeding. Both private repositories now contain the reviewed repairs and minimal implementation skeletons on main. Full UTP research and historical images are included. No website deployment occurred. See UTP-DEC-008 and the repair application receipt.

@@ -100,7 +100,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-002",
-      "next_action": "Maintain current records and regenerate views for subsequent authorized work. Binary history assets are included in the pending repair branch.",
+      "next_action": "Maintain current records and regenerate views. Historical binary assets are now included on main.",
       "blockers": [],
       "readiness": "applied",
       "refs": [
@@ -117,25 +117,27 @@
       "id": "UTP-WORK-004",
       "title": "Link the OKF reading index from the Git README",
       "category": "knowledge_navigation",
-      "status": "awaiting_review",
+      "status": "completed",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-005",
-      "next_action": "Review the repository repair with its basic starter. Grow implementation and creation tooling when needed; the existing Astro prototype remains preserved.",
+      "next_action": "Maintain the bundled KB and basic starter; integrate existing website source when site development begins.",
       "blockers": [],
-      "readiness": "reviewed",
+      "readiness": "applied",
       "refs": [
         "UTP-DEC-005",
         "UTP-DEC-006",
-        "UTP-DEC-007"
+        "UTP-DEC-007",
+        "UTP-DEC-008"
       ],
       "evidence": [
         "index.md",
         "reference/repository-overview.md",
-        "specs/knowledge-to-work.md"
+        "specs/knowledge-to-work.md",
+        "records/repair-application.json"
       ]
     }
   ],
@@ -240,6 +242,23 @@
       "evidence": [
         "reference/repository-layout.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-008",
+      "title": "Apply reviewed repository repair and basic starter",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "done - go ahead now",
+      "scope": "Merge reviewed repository repair and basic source/assets/tests skeleton. Excludes website deployment, new appointments and implementation of future features.",
+      "recorded_at": "2026-09-28T07:51:09+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "records/repair-application.json"
+      ]
     }
   ],
   "requirements": [
@@ -330,6 +349,21 @@
         "records/register-checks.json"
       ],
       "note": "Operational records and local validator/generator; no website launch, automatic agents or other project adoption. UTP historical binary assets remain local."
+    },
+    {
+      "id": "UTP-REL-003",
+      "title": "Repository repair and basic starter applied",
+      "status": "applied",
+      "authorization": "UTP-DEC-008",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main",
+      "refs": [
+        "UTP-DEC-008",
+        "UTP-WORK-004"
+      ],
+      "evidence": [
+        "records/repair-application.json"
+      ],
+      "note": "Private repository update; website remains undeployed and automated project creation remains future work."
     }
   ],
   "sources": [
@@ -418,6 +452,6 @@
     }
   },
   "notes": [
-    "Founder clarified that actual project and work documents belong inside the project KB. Migration proposal prepared separately; not yet adopted or applied."
+    "Repository repair and basic starter merged with Founder approval; see records/repair-application.json."
   ]
 }

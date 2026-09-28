@@ -44,6 +44,6 @@ When significant work resumes, read this ledger along with current decision reco
 
 Five subsequent entries record dominant colour, concept preference, corrected stone name, the story request and the register-model approval. Current work is tracked in [the operating dashboard](../registers/DASHBOARD.md).
 
-## Current repair branch
+## Current repository state
 
-The paragraphs above describe the earlier capture and browser application. This review branch bundles the complete historical images alongside the ledger; see [current availability](evidence/AVAILABILITY.md). Founder review and merge remain pending.
+The paragraphs above describe the earlier capture and browser application. Main now bundles the complete historical images alongside the ledger; see [current availability](evidence/AVAILABILITY.md). Founder approval and the completed merge are recorded in the repair application receipt.

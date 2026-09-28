@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cbea9ef3a64bb8f973a236509bb2bb53da2c6fe3e49575e883d2f04665e7b731`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `01a6fa84282adade173b020577251598663d168251c0995e12bcf75f7c1438cf`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -15,15 +15,14 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|---|---|
 | UTP-WORK-001 · Samanta Chandrasekhar entry and local website preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the entry and design; resolve source limitations before publication. | No public reuse licence selected; Conflicting birth dates and limited full-text source inspection |
 | UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | in_progress | concept | Ahimanikya Satapathy | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. | Generated board still shows obsolete Kankada label after two correction attempts; do not treat as production artwork |
-| UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views for subsequent authorized work. Binary history assets are included in the pending repair branch. | — |
-| UTP-WORK-004 · Link the OKF reading index from the Git README | awaiting_review | reviewed | Ahimanikya Satapathy | Review the repository repair with its basic starter. Grow implementation and creation tooling when needed; the existing Astro prototype remains preserved. | — |
+| UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views. Historical binary assets are now included on main. | — |
+| UTP-WORK-004 · Link the OKF reading index from the Git README | completed | applied | Ahimanikya Satapathy | Maintain the bundled KB and basic starter; integrate existing website source when site development begins. | — |
 
 ## Pending human review and decisions
 
 | Record | Reason / scope |
 |---|---|
 | UTP-WORK-001 | Founder review of the entry and design; resolve source limitations before publication. |
-| UTP-WORK-004 | Review the repository repair with its basic starter. Grow implementation and creation tooling when needed; the existing Astro prototype remains preserved. |
 
 ## Decisions
 
@@ -35,6 +34,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-005 · Make knowledge readable from the repository README | recorded_direction | Ahimanikya Satapathy | Add Git-native navigation for organizational knowledge and delivery. UTP also includes the full research KB, approved separately in UTP-DEC-006. |
 | UTP-DEC-006 · Include full research and connect organizational knowledge to delivery | approved | Ahimanikya Satapathy | Import full research and document a connected organizational OKF and proposed work programme. Future workstream execution remains subject to scoped human decisions. |
 | UTP-DEC-007 · Agree repository layout for configuration, knowledge and implementation | approved | Ahimanikya Satapathy | Agree root utkal.config.json, kb/ knowledge, tools/ maintenance, projects/site/ UTP code and projects/_template/ Blueprint implementation boilerplate. Boilerplate contents and creation flow remain to be defined; no merge or deployment acceptance is recorded. |
+| UTP-DEC-008 · Apply reviewed repository repair and basic starter | approved | Ahimanikya Satapathy | Merge reviewed repository repair and basic source/assets/tests skeleton. Excludes website deployment, new appointments and implementation of future features. |
 
 ## Reviews
 
@@ -49,6 +49,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|
 | UTP-REL-001 · Initial approved documentation applied to private repository | applied | https://github.com/ahimanikya/utkal-project/commit/23dbf7ae52ba6aee7f2be909170ef9a9eaec1f3d | UTB-DEC-005 |
 | UTP-REL-002 · Register extension 1.0.0 applied to private repository | applied | https://github.com/ahimanikya/utkal-project/tree/main/registers | UTP-DEC-002 |
+| UTP-REL-003 · Repository repair and basic starter applied | applied | https://github.com/ahimanikya/utkal-project/tree/main | UTP-DEC-008 |
 
 ## Sources and assets
 
@@ -84,7 +85,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-006 | 2026-09-28T06:04:19+00:00 | README lacked an OKF entry point. Prepared Git-native contents for existing documents; the larger local research KB is separate. | Validate navigation and clarify research import scope. |
 | UTP-EVT-007 | 2026-09-28T06:15:09+00:00 | Added README reading navigation and organizational knowledge-to-work guidance. Full research: 529 files prepared, 462 active concepts, six validators passed; awaiting Git access for bulk publication. | Locate the authenticated local Git clone, import the prepared collection and verify it on GitHub. |
 | UTP-EVT-008 | 2026-09-28T06:27:17+00:00 | README and organizational OKF verified. All 54 uploaded research files verified against local contents. Further browser commits failed with “File could not be edited”; full local collection and validation preserved. Git authentication is not available. | Resume the preserved full import using an authenticated Git clone; 54 research files are already verified on GitHub. Recheck the collection, activate its index links and record completion. |
 | UTP-EVT-009 | 2026-09-28T06:31:54+00:00 | Founder corrected the index-only structure. Prepared a self-contained KB layout and complete relocation inventory. No files moved; prior import-only continuation stopped. | Review the complete project-KB layout and file relocation map before applying the structural migration. Earlier README linking does not meet the corrected bundle requirement. |
@@ -94,6 +94,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-013 | 2026-09-28T07:37:52+00:00 | Founder clarified that configuration belongs outside the KB, project boilerplate differs from a project-definition form, and the repository will contain website source code. Moved config to repository root and updated consuming tools. Code layout remains a proposal; no website source was moved. | Review the boundary correction and agree the implementation boilerplate. |
 | UTP-EVT-014 | 2026-09-28T07:45:06+00:00 | Recorded Founder agreement to repository layout. Boilerplate details, creation tooling and site migration remain unfinished. | Define boilerplate contents and project-creation flow. |
 | UTP-EVT-015 | 2026-09-28T07:47:13+00:00 | Founder requested an empty or basic start. Added README and empty src/public/tests folders to the review branch. No framework installation, prototype migration or automated initializer. | Review the basic structure; add implementation as work requires. |
+| UTP-EVT-016 | 2026-09-28T07:51:09+00:00 | Founder authorized proceeding. Verified PR #1 merged into private main at a6c729b948a90a30032c98a84d9950228d594338. Root config, KB bundle and basic implementation skeleton are applied. | Maintain the structure and develop the site when its next task begins. |
 
 ## Deferred extensions
 
