@@ -112,6 +112,32 @@
         "records/register-adoption.json",
         "records/register-checks.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-004",
+      "title": "Link the OKF reading index from the Git README",
+      "category": "knowledge_navigation",
+      "status": "blocked",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-005",
+      "next_action": "Locate the authenticated local Git clone, import the prepared collection and verify it on GitHub.",
+      "blockers": [
+        "Full research import requires authenticated Git access; browser navigation and programme are applied."
+      ],
+      "readiness": "draft",
+      "refs": [
+        "UTP-DEC-005",
+        "UTP-DEC-006"
+      ],
+      "evidence": [
+        "kb/index.md",
+        "README.md",
+        "plans/knowledge-to-work.md"
+      ]
     }
   ],
   "decisions": [
@@ -163,6 +189,41 @@
         "UTP-DEC-003"
       ],
       "evidence": []
+    },
+    {
+      "id": "UTP-DEC-005",
+      "title": "Make knowledge readable from the repository README",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Do we have the OKF linked to the Git README? That way, one can read the OKF right from git.",
+      "scope": "Add Git-native navigation for organizational knowledge and delivery. UTP also includes the full research KB, approved separately in UTP-DEC-006.",
+      "recorded_at": "2026-09-28T06:04:19+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": []
+    },
+    {
+      "id": "UTP-DEC-006",
+      "title": "Include full research and connect organizational knowledge to delivery",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Include the full research KB too",
+      "additional_direction": "The OKF should include the organizational model, the working model, and the work we will do. So the research KB will be converted into work that we will do.",
+      "scope": "Import full research and document a connected organizational OKF and proposed work programme. Future workstream execution remains subject to scoped human decisions.",
+      "recorded_at": "2026-09-28T06:12:30+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-005"
+      ],
+      "evidence": [
+        "plans/knowledge-to-work.md"
+      ]
     }
   ],
   "requirements": [
@@ -307,7 +368,8 @@
     "governance": "governance/working-arrangements.md",
     "members_and_assignments": "team/assignments.json",
     "jml": "records/jml-first-assignments.json",
-    "evolution_history": "history/ledger.jsonl"
+    "evolution_history": "history/ledger.jsonl",
+    "knowledge_reading_index": "kb/index.md"
   },
   "optional_extensions": {
     "contributions": {
