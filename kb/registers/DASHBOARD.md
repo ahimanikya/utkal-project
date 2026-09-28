@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0f2158b5a04f7641a7e90f5dbfb288bbd68901c39a7952d5a8d52430668c88a7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f0c73954f1f73b80e65e190cec640cb44f6632234d71bd72e7faea008eab8322`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -92,7 +92,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-008 | 2026-09-28T06:27:17+00:00 | README and organizational OKF verified. All 54 uploaded research files verified against local contents. Further browser commits failed with “File could not be edited”; full local collection and validation preserved. Git authentication is not available. | Resume the preserved full import using an authenticated Git clone; 54 research files are already verified on GitHub. Recheck the collection, activate its index links and record completion. |
 | UTP-EVT-009 | 2026-09-28T06:31:54+00:00 | Founder corrected the index-only structure. Prepared a self-contained KB layout and complete relocation inventory. No files moved; prior import-only continuation stopped. | Review the complete project-KB layout and file relocation map before applying the structural migration. Earlier README linking does not meet the corrected bundle requirement. |
 | UTP-EVT-010 | 2026-09-28T06:39:33+00:00 | Founder clarified Blueprint as reusable type and UTP as instance. Read reference initializer, configuration, KB structures, generation/check tooling, rules and JML. Prepared corrected model review; old relocation proposal superseded. No source code copied or run; no migration applied. | Review the corrected Blueprint type / UTP instance model and complete adaptation package before migration. The prior folder-only relocation map is withdrawn. |
 | UTP-EVT-011 | 2026-09-28T06:53:49+00:00 | Complete local candidate prepared under the Founder’s instruction. Template/instance separation, portable KB paths, original evidence and unchanged assignments checked. No GitHub application or new baseline adoption claimed. | Review the complete local repair candidate, then reconcile and apply it through authenticated Git. No migration is applied remotely. |
@@ -102,6 +101,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-015 | 2026-09-28T07:47:13+00:00 | Founder requested an empty or basic start. Added README and empty src/public/tests folders to the review branch. No framework installation, prototype migration or automated initializer. | Review the basic structure; add implementation as work requires. |
 | UTP-EVT-016 | 2026-09-28T07:51:09+00:00 | Founder authorized proceeding. Verified PR #1 merged into private main at a6c729b948a90a30032c98a84d9950228d594338. Root config, KB bundle and basic implementation skeleton are applied. | Maintain the structure and develop the site when its next task begins. |
 | UTP-EVT-017 | 2026-09-28T08:23:56.004231+00:00 | Prepared 11-page Astro preview with six draft entries, search/topic navigation and three bilingual/English brand treatments. Preserved original prototype; captured artwork prompts, font licences and source credits. Build and four checks pass; remaining limitations recorded. | Founder reviews concrete brand and website candidate before final selection or deployment. |
+| UTP-EVT-018 | 2026-09-28T08:26:32.301738+00:00 | Website and brand candidate uploaded to private draft PR #2. No merge or deployment. Earlier HTTP upload failure recovered with per-command transfer settings; repository privacy verified. | Founder reviews live local website and brand studio, then records selected direction. |
 
 ## Deferred extensions
 
