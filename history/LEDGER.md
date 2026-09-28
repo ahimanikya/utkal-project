@@ -218,3 +218,16 @@ Founder requested a subject image reference and an internal story. Record actual
 Founder approved the discussed register adaptation for both projects. Independent project authority remains. Current approval records are UTB-DEC-006 and UTP-DEC-002.
 
 > This is looking good, let's apply to the blueprint and UTP
+
+
+## UTP-HIS-0023 · An organizational OKF connecting knowledge to work
+
+**approved · stewardship**
+
+Founder asked for the OKF to be readable from the Git README, approved including the full research KB and directed that the OKF include organization, working model and future work. Research should inform actionable delivery.
+
+A maintained organizational memory and delivery programme, with research as supporting evidence. Future workstreams retain explicit human gates.
+
+> The OKF should include the organizational model, the working model, and the work we will do. So the research KB will be converted into work that we will do.
+
+The reading index and programme are available in the private repository. The full research import is prepared and validated locally; Git authentication remains necessary to publish its files and diagrams together.
