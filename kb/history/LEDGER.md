@@ -428,3 +428,7 @@ Founder authorized a public UTP repository to use GitHub Pages. Browser configur
 Founder continued with the first website preview release and asked to keep Store private or unlinked. Its introduction and links are removed from the main site. The separate Store remains unpublished; source files in this public repository remain public.
 
 Release gate clarification: automatic approval review subsequently rejected merging PR #2 because it did not accept the prior “ok” as explicit authorization for that candidate’s merge and public deployment. The Store exclusion is applied; the website remains unpublished pending explicit approval.
+
+## UTP-HIS-0052 · Utkal Project has its first public home
+
+On 28 September 2026, the Founder explicitly approved merging PR #2 and publishing the 14-page preview. The first manual deployment succeeded, and utkalproject.org now serves the website over HTTPS. The www address redirects, the Fresco gallery is available, and the Store remains unpublished and unlinked. Editorial drafts and noindex remain. See [release evidence](../records/website-first-release.json).

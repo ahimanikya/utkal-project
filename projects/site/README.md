@@ -42,7 +42,7 @@ See the [website brief](../../kb/specs/website-brand-foundation.md), [brand prop
 
 `noindex` and `robots.txt` describe a review edition; they are not access controls. Keep deployment private until its content and publication are approved. GitHub project-path hosting will require an explicit base-path configuration or a domain-root deployment; current links assume the domain root.
 
-Deferred: Firebase accounts/intake, photo uploads, Google Analytics, AI chat, final approval of the vector logo candidates, share-card exports and public launch. No API keys or paid services are needed to review this version locally. The domain and GitHub Pages connection are configured; the first website release remains pending.
+Deferred: Firebase accounts/intake, photo uploads, Google Analytics, AI chat, final approval of the vector logo candidates, share-card exports and public launch. No API keys or paid services are needed to review this version locally. The domain and GitHub Pages connection are configured; the first website preview is published.
 
 The earlier standalone preview is preserved locally. This site brings its article, pinned dependencies and useful colour/font assets into the canonical repository, then adds the collection and branding work.
 
@@ -62,4 +62,4 @@ The Founder authorized making `ahimanikya/utkal-project` public to enable Pages.
 
 The repository-root `.github/workflows/publish-site.yml` builds only `projects/site`, runs its existing tests and uploads only its `dist` directory. The Store is not deployed by this workflow. No push-triggered publication is enabled. After the reviewed website and workflow reach `main`, the Founder can run **Publish Utkal Project** with the explicit release confirmation. The workflow checks the initiating account and main branch; the `github-pages` environment can provide additional repository-managed approval controls.
 
-The initial run remains pending. Editorial draft labels and `noindex` remain in this review edition; they are not access controls. DNS/certificate readiness is distinct from an actual website deployment.
+The first run succeeded on 28 September 2026: [live preview](https://utkalproject.org/) · [release evidence](../../kb/records/website-first-release.json). Editorial draft labels and `noindex` remain in this review edition; they are not access controls. DNS/certificate readiness is distinct from an actual website deployment.

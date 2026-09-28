@@ -26,3 +26,7 @@ The Founder subsequently chose GitHub Pages and authorized “ok make it public�
 GoDaddy now has four A records at `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` (600-second TTL), plus `www` CNAME to `ahimanikya.github.io` (one-hour TTL). The parked A record and former `www` alias were replaced; nameservers, SOA, domain-connect and DMARC records were preserved. At configuration time GitHub had requested its TLS certificate; HTTPS enforcement and first deployment still needed verification. The current domain expiry shown by GoDaddy is 28 September 2027, with renewal displayed as USD 23.99/year; this registrar-specific price supersedes the earlier illustrative Porkbun quote.
 
 A manual Astro deployment workflow is prepared for a Founder-approved main-branch release. Configuring the connection has not deployed the site or merged the website review branch.
+
+### First public preview · 28 September 2026
+
+Following explicit Founder approval (UTP-DEC-023), PR #2 was merged and the 14-page preview deployed successfully to https://utkalproject.org/. HTTPS and the www redirect were verified in the browser. The Store is excluded and unlinked; its source remains in this public repository. This supersedes the earlier first-deployment-pending statements above. [Release evidence](../records/website-first-release.json).

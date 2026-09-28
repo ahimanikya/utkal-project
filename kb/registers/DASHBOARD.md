@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `94a30adfbdcde40774002295a318a4eb6e5e8db2f0d02af6ea2f332ec4ff6ca7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d71deb36fadb175dc12e46c1d8112beb54435f6d174286ef342a2d0baf381d04`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -56,6 +56,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-020 · Founder reports acquisition of utkalproject.org at GoDaddy | recorded_direction | Ahimanikya Satapathy | Record the acquired domain and registrar. Hosting and DNS connection remain to arrange; no publication authorization is inferred. |
 | UTP-DEC-021 · Make UTP public and configure GitHub Pages with GoDaddy DNS | approved | Ahimanikya Satapathy | Public visibility for utkal-project and GitHub Pages/domain configuration. Blueprint unchanged; first website release and draft PR merge not performed. |
 | UTP-DEC-022 · Exclude Store from the first website release | approved | Ahimanikya Satapathy | Remove the main-site Store introduction and links; do not publish the separate Store app. Store source remains in the public repository, not private. The assistant interpreted the prior ok as permission to proceed with release, but automatic approval review rejected the merge for lack of explicit candidate merge/deployment authorization. Release remains pending explicit Founder approval. |
+| UTP-DEC-023 · Merge PR 2 and publish the 14-page preview without Store | approved | Ahimanikya Satapathy | Explicit response to: May I merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded? Authorizes that merge and public website preview deployment. Store remains unpublished and unlinked; source remains in the public repository. |
 
 ## Reviews
 
@@ -73,6 +74,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-001 · Initial approved documentation applied to private repository | applied | https://github.com/ahimanikya/utkal-project/commit/23dbf7ae52ba6aee7f2be909170ef9a9eaec1f3d | UTB-DEC-005 |
 | UTP-REL-002 · Register extension 1.0.0 applied to private repository | applied | https://github.com/ahimanikya/utkal-project/tree/main/registers | UTP-DEC-002 |
 | UTP-REL-003 · Repository repair and basic starter applied | applied | https://github.com/ahimanikya/utkal-project/tree/main | UTP-DEC-008 |
+| UTP-REL-004 · First public Utkal Project website preview | published | https://utkalproject.org/ | UTP-DEC-023 |
 
 ## Sources and assets
 
@@ -110,7 +112,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-019 | 2026-09-28T08:51:44.276078+00:00 | Prepared new colour/script direction, founder page, four-product store under Collective, sensory research and 166-photo Fresco integration. Source originals unchanged. | Record final checks and submit updated private review candidate. |
 | UTP-EVT-020 | 2026-09-28T09:13:23.221257+00:00 | Prepared four rendered merchandise concepts, outlined vector brand and print studies, design-review page and downloadable vendor review pack. Not a production release. | Verify candidate and submit to existing draft review. |
 | UTP-EVT-021 | 2026-09-28T09:33:53.384991+00:00 | Prepared shared-geometry artwork, four product/sample sheets and a sourced story for the reverse of the cup; proposed blank specifications are not approvals. | Founder review, then actual vendor templates and samples. |
 | UTP-EVT-022 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
@@ -120,6 +121,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-026 | 2026-09-28T13:02:07.055710+00:00 | Verified public repository, enabled Actions Pages, saved utkalproject.org and updated GoDaddy web DNS. Prepared manual release workflow; local 15-page build and six tests passed. TLS provisioning and first deployment remain pending. | Complete HTTPS verification, then obtain Founder approval for the concrete website release before merging and running the manual workflow. |
 | UTP-EVT-027 | 2026-09-28T13:13:17.165031+00:00 | Founder continued to first website release and excluded Store. Removed main-site Store route and links; GitHub DNS check successful and HTTPS enforcement enabled. Deployment pending. | Validate the 14-page site, merge the prepared release and publish only the website. |
 | UTP-EVT-028 | 2026-09-28T13:15:56.367761+00:00 | Website builds 14 pages and all seven tests pass. Store route and links removed. HTTPS enforcement verified. Automatic approval review rejected merge of PR #2: prior ok did not constitute explicit merge/public deployment authorization. No merge or workflow deployment performed. | Obtain explicit approval to merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded. |
+| UTP-EVT-029 | 2026-09-28T13:38:08.452520+00:00 | Founder explicitly approved PR #2 merge and website-only deployment. Merged bfbdf41; manual publishing succeeded. Verified HTTPS homepage, www redirect, Fresco gallery and absent Store route. | Continue editorial and mobile/accessibility review; future publication remains manual and Founder approved. |
 
 ## Deferred extensions
 

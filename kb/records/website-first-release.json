@@ -1,0 +1,39 @@
+{
+  "release": "UTP-REL-004",
+  "status": "published_and_verified",
+  "authorization": "UTP-DEC-023",
+  "founder": "Ahimanikya Satapathy",
+  "approval_quote": "Yes",
+  "approval_question": "May I merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded?",
+  "recorded_at": "2026-09-28T13:35:38.785095+00:00",
+  "merged_pr": "https://github.com/ahimanikya/utkal-project/pull/2",
+  "deployed_candidate": "bfbdf412d957cb35fad1477fe78463faa919a624",
+  "workflow_run": "https://github.com/ahimanikya/utkal-project/actions/runs/36429615058",
+  "site": "https://utkalproject.org",
+  "scope": {
+    "pages": 14,
+    "store_published": false,
+    "store_linked": false,
+    "editorial_drafts_retained": true,
+    "noindex_retained": true
+  },
+  "local_validation": {
+    "site_tests_passed": 7,
+    "site_build": "passed",
+    "knowledge_bundle": "passed"
+  },
+  "browser_verification": [
+    "HTTPS homepage loads with brand illustration and preview label; desktop screenshot inspected.",
+    "http://www.utkalproject.org redirects to https://utkalproject.org/.",
+    "Fresco gallery loads with 161 art photographs and five alternate views.",
+    "/utkal-store/ returns File not found; no Store links in homepage."
+  ],
+  "verified_at": "2026-09-28T13:38:08.452520+00:00",
+  "workflow_result": "success",
+  "limitations": [
+    "Editorial drafts and noindex remain.",
+    "Store app is excluded; its source remains public in the repository.",
+    "Comprehensive mobile/accessibility review remains pending.",
+    "GitHub Actions emitted non-blocking action-runtime deprecation and upcoming runner-image migration notices; both jobs succeeded."
+  ]
+}

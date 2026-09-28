@@ -592,6 +592,25 @@
       "evidence": [
         "specs/utkal-store.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-023",
+      "title": "Merge PR 2 and publish the 14-page preview without Store",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Yes",
+      "scope": "Explicit response to: May I merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded? Authorizes that merge and public website preview deployment. Store remains unpublished and unlinked; source remains in the public repository.",
+      "recorded_at": "2026-09-28T13:35:38.785095+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-022"
+      ],
+      "evidence": [
+        "records/website-first-release.json"
+      ]
     }
   ],
   "requirements": [
@@ -758,6 +777,20 @@
         "records/repair-application.json"
       ],
       "note": "Private repository update; website remains undeployed and automated project creation remains future work."
+    },
+    {
+      "id": "UTP-REL-004",
+      "title": "First public Utkal Project website preview",
+      "status": "published",
+      "authorization": "UTP-DEC-023",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-023"
+      ],
+      "evidence": [
+        "records/website-first-release.json"
+      ],
+      "note": "14-page preview, seven site tests passed. PR #2 merged; manual Pages run 36429615058 succeeded at bfbdf412d957cb35fad1477fe78463faa919a624. Store excluded. Editorial draft labels and noindex retained."
     }
   ],
   "sources": [

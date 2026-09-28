@@ -4,6 +4,8 @@
 
 Utkal Project is an instance of Utkal Blueprint.
 
+**[Visit the website preview](https://utkalproject.org/).** Research entries await editorial review. Utkal Store is not published or linked from the website.
+
 **[Read the complete project KB](kb/index.md).**
 
 The KB contains the governing model, working arrangements, roles, records and knowledge. Executable maintenance tools live in `tools/`.
