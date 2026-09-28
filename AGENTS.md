@@ -1,7 +1,7 @@
-# Project recordkeeping
+# Project entry instructions
 
-Read `registers/README.md`, the generated dashboard, linked brief and recent activity before substantive work. Keep `registers/records.json` authoritative for current status. Append material events to `registers/activity.jsonl`; preserve earlier events, actual human decisions and evidence. Run `python3 tools/registers.py` after source edits and `--check` before handover.
+Read `kb/index.md`, the applicable charter and working agreement, actual role/assignment records and the current ledger before substantive work. The canonical project knowledge is inside `kb/`.
 
-Read actual governance, assignments and task authorization. No human reports to AI. A persona name or successful check grants no authority, membership, access or publication permission. Existing human authorizations remain valid within scope; do not ask again for routine authorized work.
+The project configuration distinguishes a template artifact from an operating instance. In Blueprint, Ahimanikya Satapathy is the sole actual human and other roles are definitions. Never infer membership, AI activation or approval from a template.
 
-Preserve significant project evolution in the designated history ledger. Keep proposals, approvals, local application and repository/public publication distinct. Do not invent approval, event dates, ownership, tests or commitments. Other projects keep independent records and adoption decisions.
+Keep human authority, existing authorizations and evidence intact. Update canonical records and append actual events, then regenerate views. Read `kb/reference/agent-guide.md` for the detailed preserved instructions. No human reports to AI. Sources and historical evidence retain their original provenance.

@@ -1,0 +1,55 @@
+---
+type: "Statistical Topic"
+title: "Agriculture"
+description: "Agriculture — source-linked research, scope and reuse notes."
+tags: ["statistics", "agriculture"]
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
+sources: [{"id": "nature-agri", "title": "Activity Report 2024-25", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-03/Activity%20Report%202024-25%20%28English%29.pdf"}, {"id": "nature-survey-summary", "title": "Odisha Economic Survey 2025-26: Highlights and Executive Summary", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}]
+---
+
+# Agriculture
+
+## What this section contains
+
+Source-linked measures for agriculture. These are research records, not a composite performance ranking.
+
+## Selected facts to explore
+
+- **Ragi procurement: 4.5 lakh quintals** — KMS 2023-24, Odisha.[^nature-agri]
+- **FPO procurement agencies empanelled: 130 FPOs** — 2024-25, Odisha.[^nature-agri]
+- **Ragi procurement target stated during year: 8 lakh quintals** — KMS 2024-25 target in activity report, Odisha.[^nature-agri]
+
+## Evidence view
+
+| Measure | Value and unit | Period / geography | Evidence and readiness |
+|---|---|---|---|
+| Ragi procurement | 4.5 lakh quintals | KMS 2023-24; Odisha | indexed-primary-extract; needs_source_table_review[^nature-agri] |
+| FPO procurement agencies empanelled | 130 FPOs | 2024-25; Odisha | indexed-primary-extract; needs_source_table_review[^nature-agri] |
+| Ragi procurement target stated during year | 8 lakh quintals | KMS 2024-25 target in activity report; Odisha | announced-target-indexed-primary; needs_source_table_review[^nature-agri] |
+| Rice production | 110 lakh metric tonnes | 2020-21; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Rice production | 118.6 lakh metric tonnes | 2024-25; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Pulses production | 10.4 lakh metric tonnes | 2020-21; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Pulses production | 16.6 lakh metric tonnes | 2024-25; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Vegetable production | 97.8 lakh metric tonnes | 2020-21; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Vegetable production | 111.02 lakh metric tonnes | 2024-25; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Millet cultivation area | 2.7 lakh hectares | 2024-25; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Reported increase in millet cultivation area | 62.7 percent | 2020-21 to 2024-25; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+| Cropping intensity | 165 percent | 2024-25; Odisha | primary-source-reported; source_checked_editorial_review_pending[^nature-survey-summary] |
+
+## Interpretation limits
+
+- Earlier 2.99-lakh figure was an incomplete season snapshot.
+- Empanelment does not establish each agency procurement volume.
+- Historical target; later survey reports a different achieved value. Never present target as outcome.
+- Rounded survey series; no causal programme-effect estimate established.
+- Rounded prose value; summary chart gives 2.71 lakh hectares.
+- Use reported percentage; do not recompute from rounded 2.7-lakh endpoint.
+- Multiple cropping can make this exceed 100%; not share of land under crops.
+
+The [structured atlas](../references/data/statistics-atlas.json) retains indicator IDs, exact source locators and definitions. [Coverage and gaps](coverage.md) · [Atlas home](index.md).
+
+
+[^nature-agri]: [Activity Report 2024-25](https://agri.odisha.gov.in/sites/default/files/2025-03/Activity%20Report%202024-25%20%28English%29.pdf)
+
+[^nature-survey-summary]: [Odisha Economic Survey 2025-26: Highlights and Executive Summary](https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf)

@@ -1,0 +1,208 @@
+{
+  "as_of": "2026-09-27",
+  "source_catalog": "source-catalog.json",
+  "observations": [
+    {
+      "id": "M01",
+      "label": "Merchandise exports",
+      "value": 47240,
+      "unit": "INR crore, current prices",
+      "period": "FY2019-20",
+      "scope": "Odisha-origin merchandise as reported by survey",
+      "source_ids": [
+        "maritime-exports-2026"
+      ]
+    },
+    {
+      "id": "M02",
+      "label": "Merchandise exports",
+      "value": 85540,
+      "unit": "INR crore, current prices",
+      "period": "FY2024-25",
+      "scope": "Odisha-origin merchandise as reported by survey",
+      "source_ids": [
+        "maritime-exports-2026"
+      ]
+    },
+    {
+      "id": "M03",
+      "label": "Five-year merchandise export change",
+      "value": 81.07535986452159,
+      "unit": "percent",
+      "period": "FY2019-20 to FY2024-25",
+      "scope": "Nominal endpoint change",
+      "source_ids": [
+        "maritime-exports-2026"
+      ],
+      "inputs": [
+        "M01",
+        "M02"
+      ],
+      "formula": "(end/start-1)*100",
+      "calculation": "percentage_change"
+    },
+    {
+      "id": "M04",
+      "label": "Merchandise export CAGR",
+      "value": 12.608680958719498,
+      "unit": "percent per year",
+      "period": "FY2019-20 to FY2024-25",
+      "scope": "Nominal five-year CAGR",
+      "source_ids": [
+        "maritime-exports-2026"
+      ],
+      "inputs": [
+        "M01",
+        "M02"
+      ],
+      "elapsed_years": 5,
+      "formula": "((end/start)**(1/years)-1)*100",
+      "calculation": "cagr"
+    },
+    {
+      "id": "M05",
+      "label": "China destination share",
+      "value": 21.5,
+      "unit": "percent",
+      "period": "FY2024-25",
+      "scope": "Survey section 1.7.5 destination-share denominator; goods versus all exports requires underlying-table reconciliation",
+      "source_ids": [
+        "maritime-exports-2026"
+      ],
+      "country": "China",
+      "conversion_to_country_value_allowed": false
+    },
+    {
+      "id": "M06",
+      "label": "Malaysia destination share",
+      "value": 3.9,
+      "unit": "percent",
+      "period": "FY2024-25",
+      "scope": "Survey section 1.7.5 destination-share denominator; goods versus all exports requires underlying-table reconciliation",
+      "source_ids": [
+        "maritime-exports-2026"
+      ],
+      "country": "Malaysia",
+      "conversion_to_country_value_allowed": false
+    },
+    {
+      "id": "M07",
+      "label": "Vietnam destination share",
+      "value": 3.5,
+      "unit": "percent",
+      "period": "FY2024-25",
+      "scope": "Survey section 1.7.5 destination-share denominator; goods versus all exports requires underlying-table reconciliation",
+      "source_ids": [
+        "maritime-exports-2026"
+      ],
+      "country": "Vietnam",
+      "conversion_to_country_value_allowed": false
+    },
+    {
+      "id": "M08",
+      "label": "Combined share of three named destinations",
+      "value": 28.9,
+      "unit": "percent",
+      "period": "FY2024-25",
+      "scope": "China, Malaysia and Vietnam; sum of rounded survey shares, not all Asia or ASEAN",
+      "source_ids": [
+        "maritime-exports-2026"
+      ],
+      "inputs": [
+        "M05",
+        "M06",
+        "M07"
+      ],
+      "formula": "sum(shares)",
+      "calculation": "sum",
+      "conversion_to_country_value_allowed": false
+    },
+    {
+      "id": "M09",
+      "label": "Paradip cargo throughput",
+      "value": 76.39,
+      "unit": "million tonnes",
+      "period": "FY2015-16",
+      "scope": "All cargo at Paradip, not Odisha exports",
+      "source_ids": [
+        "maritime-paradip-2016"
+      ]
+    },
+    {
+      "id": "M10",
+      "label": "Paradip cargo throughput",
+      "value": 156.45,
+      "unit": "million tonnes",
+      "period": "FY2025-26",
+      "scope": "All cargo at Paradip, not Odisha exports",
+      "source_ids": [
+        "maritime-paradip-2026"
+      ]
+    },
+    {
+      "id": "M11",
+      "label": "Ten-year cargo change",
+      "value": 104.80429375572714,
+      "unit": "percent",
+      "period": "FY2015-16 to FY2025-26",
+      "scope": "Port throughput endpoint change",
+      "source_ids": [
+        "maritime-paradip-2016",
+        "maritime-paradip-2026"
+      ],
+      "inputs": [
+        "M09",
+        "M10"
+      ],
+      "formula": "(end/start-1)*100",
+      "calculation": "percentage_change"
+    },
+    {
+      "id": "M12",
+      "label": "Paradip coastal cargo",
+      "value": 65.81,
+      "unit": "million tonnes",
+      "period": "FY2025-26",
+      "scope": "Coastal cargo subset of port total",
+      "source_ids": [
+        "maritime-paradip-2026"
+      ]
+    },
+    {
+      "id": "M13",
+      "label": "Paradip coastal cargo share",
+      "value": 42.06,
+      "unit": "percent",
+      "period": "FY2025-26",
+      "scope": "Reported rounded coastal share of all port cargo",
+      "source_ids": [
+        "maritime-paradip-2026"
+      ]
+    },
+    {
+      "id": "M14",
+      "label": "Pallishree Mela sales as quoted",
+      "value": 40,
+      "unit": "INR crore",
+      "period": "2024 event, per article body",
+      "scope": "ORMAS fair segment; secondary report of official statement, not audited impact",
+      "source_ids": [
+        "maritime-fair-sales"
+      ],
+      "evidence_status": "attributed_secondary",
+      "unqualified_headline_allowed": false
+    },
+    {
+      "id": "M15",
+      "label": "Pallishree Mela stalls as reported",
+      "value": 500,
+      "unit": "stalls",
+      "period": "2024 event, per article body",
+      "scope": "ORMAS fair segment; secondary report",
+      "source_ids": [
+        "maritime-fair-sales"
+      ],
+      "evidence_status": "attributed_secondary"
+    }
+  ]
+}

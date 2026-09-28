@@ -2,57 +2,36 @@
 okf_version: "0.2"
 ---
 
-# Utkal Project · knowledge base
+# Utkal Project · project knowledge bundle
 
-**Rediscover Utkal. Reimagine Odisha.**
+**Rediscover Utkal. Reimagine Odisha.** UTP is an instance of Utkal Blueprint. This KB holds its actual project information and the knowledge behind its work.
 
-Read the project's operating documents, editorial prototype and recorded history directly in GitHub. Each link points to its canonical record; this contents page does not create another copy. It is an OKF reading entry point, not a claim that every legacy document has been converted to the format.
+This directory contains the organizational and working model, roles, work records, evidence and knowledge. Raw historical snapshots under `references/pre-repair/`, captured evidence under `history/evidence/initial-capture/`, and preserved earlier research snapshots under `records/evidence/research-import/` are archival resources, not live concepts. Executable tools and website code are outside this bundle; their operating context is documented here. External citations and explicitly linked independent repositories remain external resources.
 
-[Repository home](../README.md) · [Current dashboard](../registers/DASHBOARD.md)
+[Whole-project concept catalogue](catalog.json) is generated from the live documents; preserved raw archives are excluded.
 
-## Our work programme
+## Start here
 
-[From knowledge to delivery](../plans/knowledge-to-work.md) connects the organizational model, working model, existing tasks and research-derived delivery streams.
+- [Project identity](reference/project-identity.md)
+- [Charter](TEAM-CHARTER.md)
+- [Working agreement](Working-Agreement.md)
+- [Team](team/index.md)
+- [Repair status and preservation](reference/repair-status.md)
 
-## Purpose, people and governance
+- [Current work and decisions](registers/DASHBOARD.md)
+- [Knowledge-to-work programme](specs/knowledge-to-work.md)
+- [Complete research collection](research/index.md)
+- [Product requirements and versions](research/product/index.md)
+- [Technical architecture](research/technology/index.md)
+- [Project evolution](history/LEDGER.md)
 
-- [Project charter](../governance/charter.md)
-- [Working arrangements and human reporting](../governance/working-arrangements.md)
-- [Blueprint adoption](../governance/blueprint-adoption.md)
-- [Roles and job descriptions](../team/roles.md)
-- [Actual scoped assignments](../team/assignments.json)
-- [JML and access/context verification](../records/jml-first-assignments.json)
+## Groups
 
-## Current work and decisions
-
-- [Dashboard: work, decisions, reviews, releases, sources and relationships](../registers/DASHBOARD.md)
-- [How to maintain records](../registers/README.md)
-- [Structured register](../registers/records.json)
-- [Activity and handovers](../registers/activity.jsonl)
-- [Register-model adoption](../records/register-adoption.json)
-
-## Editorial prototype
-
-- [First entry brief](../plans/first-task.md)
-- [Samanta Chandrasekhar draft and source trail](../records/evidence/first-entry/ENTRY.md)
-- [Recorded review and unresolved questions](../records/evidence/first-entry/REVIEW.md)
-
-The entry is a review draft. Its presence in this private repository is not approval for public encyclopedia publication.
-
-## Our evolving story
-
-- [Evolution ledger and preservation guidance](../history/README.md)
-- [Read the chronological ledger](../history/LEDGER.md)
-- [The colour story](../history/stories/001-earth-sea-and-sukha-ghasi.md)
-- [Early conversations, including the Founder’s account of Pradip Biswal’s interest](../history/stories/002-early-conversations.md)
-- [Evidence availability](../history/evidence/AVAILABILITY.md) — historical design images are currently local-only
-
-## Wider research collection
-
-The Founder approved including the full research KB. The complete import has been prepared and checked locally, including the PRD, architecture, topic articles, statistics and bibliography. **Import is incomplete:** 54 research files are verified in GitHub; remaining files and diagrams are pending. GitHub’s browser editor returned “File could not be edited,” and Git has no authenticated connection. The research contents link will be activated after the complete collection is available here. Partial research links may point to files awaiting import.
-
-## Shared Blueprint
-
-[Read Utkal Blueprint's knowledge base](https://github.com/ahimanikya/utkal-blueprint/blob/main/kb/index.md). UTP keeps its own charter, team, decisions and lifecycle.
-
-Founder & Editor-in-Chief: Ahimanikya Satapathy. AI-assisted organization and navigation. Both repositories are private; readers need repository access.
+- [history](history/index.md)
+- [records](records/index.md)
+- [reference](reference/index.md)
+- [references](references/index.md)
+- [registers](registers/index.md)
+- [research](research/index.md)
+- [specs](specs/index.md)
+- [team](team/index.md)

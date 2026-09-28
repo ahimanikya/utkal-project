@@ -1,0 +1,11 @@
+flowchart LR
+  M[Maintainers and reviewers] -->|Reviewed public changes| G[Canonical OKF and approved photos in Git]
+  G --> B[Validation and Astro build]
+  B --> P[GitHub Pages: pages, data and Pagefind]
+  P --> V[Visitors on our domain]
+  V -->|Photo form or email| R[Free relay candidate or direct email]
+  R --> I[Private editorial inbox]
+  I -->|Rights, evidence and credit review| M
+  V --> A[Firebase Authentication: Spark]
+  V -->|Rule-authorised text and user data| F[Firestore: Spark]
+  F -->|Manual editorial review| M

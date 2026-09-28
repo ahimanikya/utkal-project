@@ -1,0 +1,52 @@
+---
+type: "Statistical Topic"
+title: "Digital Connectivity"
+description: "Digital Connectivity — source-linked research, scope and reuse notes."
+tags: ["statistics", "digital-connectivity"]
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
+sources: [{"id": "connect-internet2024", "title": "Indian Telecom Services Yearly Performance Indicators 2023–24", "resource": "https://www.trai.gov.in/sites/default/files/2024-09/Report_14082024.pdf"}, {"id": "connect-internet2025", "title": "Indian Telecom Services Yearly Performance Indicators 2024–25", "resource": "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf"}, {"id": "weekly-trai-mar2026", "title": "TRAI telecom performance indicators, January–March 2026", "resource": "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf"}]
+---
+
+# Digital Connectivity
+
+## What this section contains
+
+Source-linked measures for digital connectivity. These are research records, not a composite performance ranking.
+
+## Later snapshot: March 2026
+
+TRAI reports **30.56 million internet subscriptions** in Odisha at 31 March 2026: 18.74 million rural and 11.81 million urban. Reported densities are 64.79 per 100 people overall, 49.30 rural and 129.15 urban. These are subscriptions, not unique residents.[^weekly-trai-mar2026]
+
+Displayed components sum to 30.55 million; preserve the reported total and rounding. The earlier 2025 data include carried-forward operator information, so an unqualified year-on-year growth headline is withheld. Six new observations have been appended without replacing the older snapshot.
+
+## Earlier facts to explore
+
+- **Internet subscriptions: 25.89 million subscriptions** — 31 March 2025, Odisha.[^connect-internet2025]
+- **Rural Internet subscriptions: 17.1 million subscriptions** — 31 March 2025, Rural Odisha.[^connect-internet2025]
+- **Urban Internet subscriptions: 8.78 million subscriptions** — 31 March 2025, Urban Odisha.[^connect-internet2025]
+
+## Evidence view
+
+| Measure | Value and unit | Period / geography | Evidence and readiness |
+|---|---|---|---|
+| Internet subscriptions | 25.89 million subscriptions | 31 March 2025; Odisha | reported-outcome; source_checked_editorial_review_pending[^connect-internet2025] |
+| Rural Internet subscriptions | 17.1 million subscriptions | 31 March 2025; Rural Odisha | reported-outcome; source_checked_editorial_review_pending[^connect-internet2025] |
+| Urban Internet subscriptions | 8.78 million subscriptions | 31 March 2025; Urban Odisha | reported-outcome; source_checked_editorial_review_pending[^connect-internet2025] |
+| Internet subscriptions per 100 population | 58.09 subscriptions per 100 people | 31 March 2025; Odisha | reported-outcome; source_checked_editorial_review_pending[^connect-internet2025] |
+| Rural Internet subscriptions per 100 population | 47.55 subscriptions per 100 people | 31 March 2025; Rural Odisha | reported-outcome; source_checked_editorial_review_pending[^connect-internet2025] |
+| Internet subscriptions | 24.55 million subscriptions | 31 March 2024; Odisha | reported-outcome; needs_source_table_review[^connect-internet2024] |
+
+## Interpretation limits
+
+- Not unique users or household coverage. Some operator Internet inputs were carried forward from Nov 2024; rounded rural and urban subtotals may differ from total.
+- Not unique users; historical comparison must retain 2025 operator-reporting caveat.
+
+The [structured atlas](../references/data/statistics-atlas.json) retains indicator IDs, exact source locators and definitions. [Coverage and gaps](coverage.md) · [Atlas home](index.md).
+
+
+[^connect-internet2024]: [Indian Telecom Services Yearly Performance Indicators 2023–24](https://www.trai.gov.in/sites/default/files/2024-09/Report_14082024.pdf)
+
+[^connect-internet2025]: [Indian Telecom Services Yearly Performance Indicators 2024–25](https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf)
+
+[^weekly-trai-mar2026]: [TRAI telecom performance indicators, January–March 2026](https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf)

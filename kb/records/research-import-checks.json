@@ -1,0 +1,110 @@
+{
+  "recorded_at": "2026-09-28T06:09:56.062660+00:00",
+  "checks": [
+    {
+      "check": "validate",
+      "exit_code": 0,
+      "result": {
+        "checked_at": "2026-09-27T23:09:55-07:00",
+        "result": "PASS",
+        "concepts": 462,
+        "local_link_checks": 1310,
+        "growth_arithmetic_checks": 38,
+        "preserved_evidence_records": 71,
+        "errors": [],
+        "scope": "Structure, internal links, source-footnote matching, migration values and arithmetic; not independent factual or legal certification."
+      },
+      "stderr": ""
+    },
+    {
+      "check": "validate_prd",
+      "exit_code": 0,
+      "result": {
+        "result": "PASS",
+        "prd_version": "0.1.0",
+        "preserved_versions": 1,
+        "requirements": 40,
+        "phase_counts": {
+          "launch": 31,
+          "later": 5,
+          "deferred": 4
+        },
+        "errors": [],
+        "scope": "Requirement IDs, phase/basis/ADR references, version pointers and snapshot checksums; not feature acceptance, formal approval or factual certification."
+      },
+      "stderr": ""
+    },
+    {
+      "check": "validate_statistics",
+      "exit_code": 0,
+      "result": {
+        "result": "PASS",
+        "observations": 352,
+        "topics": 42,
+        "districts": 30,
+        "calculations": 11,
+        "readiness": {
+          "source_checked_editorial_review_pending": 277,
+          "needs_source_table_review": 72,
+          "hold_conflict": 3
+        },
+        "errors": [],
+        "scope": "Structure, references and arithmetic; not independent source verification or human editorial review."
+      },
+      "stderr": ""
+    },
+    {
+      "check": "validate_growth_journeys",
+      "exit_code": 0,
+      "result": {
+        "checked_at": "2026-09-27T23:09:55-07:00",
+        "result": "PASS",
+        "observations": 29,
+        "derived_calculations": 4,
+        "timeline_events": 15,
+        "errors": [],
+        "scope": "Sources, units, period comparability, arithmetic and evidence-state safeguards; no independent verification of reported outcomes."
+      },
+      "stderr": ""
+    },
+    {
+      "check": "validate_maritime",
+      "exit_code": 0,
+      "result": {
+        "checked_at": "2026-09-28T06:09:56+00:00",
+        "result": "PASS",
+        "graph_nodes": 90,
+        "qualified_relationships": 36,
+        "numeric_observations": 15,
+        "arithmetic_checks": 5,
+        "local_queries_checked": [
+          "China",
+          "Paradip",
+          "archaeological_finding"
+        ],
+        "errors": [],
+        "scope": "Internal references, explicit evidence classes, metric/graph equality and arithmetic; no certification of historical claims."
+      },
+      "stderr": ""
+    },
+    {
+      "check": "validate_visitor_index",
+      "exit_code": 0,
+      "result": {
+        "checked_at": "2026-09-27T23:09:56-07:00",
+        "result": "PASS",
+        "counts": {
+          "areas": 5,
+          "foods": 22,
+          "heritage": 10,
+          "facilities": 13
+        },
+        "relationship_checks": 31,
+        "errors": [],
+        "scope": "Local references, provenance linkage and seed evidence-state controls; not source accuracy or current operation."
+      },
+      "stderr": ""
+    }
+  ],
+  "scope": "Structure, internal links, preserved evidence, arithmetic and domain validators; not independent fact verification."
+}

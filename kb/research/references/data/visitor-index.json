@@ -1,0 +1,1119 @@
+{
+  "schema_version": "1.0",
+  "okf_version": "0.2",
+  "as_of": "2026-09-27",
+  "purpose": "Linked discovery index for positive, useful Odisha tourism storytelling.",
+  "scope": "Seed collection, not a statewide census, ranking or booking directory.",
+  "unknown_value": null,
+  "relationship_rules": {
+    "place_association": "Source supports the food/place association; no live purchase route.",
+    "regional_pairing": "Editorial area grouping; no measured proximity.",
+    "onsite": "Source connects an amenity to a heritage site or its visitor precinct.",
+    "area_membership": "Destination grouping; no implied walking distance, quality endorsement or availability."
+  },
+  "areas": [
+    {
+      "id": "visitor-index/areas/puri-crafts",
+      "name": "Puri and the craft corridor",
+      "scope": "Puri is the base; Raghurajpur, Pipili and Nimapada are separately identified regional stops. This grouping is editorial, not a measured nearby radius.",
+      "heritage_ids": [
+        "places/jagannath-temple-puri",
+        "culture/raghurajpur-pattachitra",
+        "culture/pipili-applique"
+      ],
+      "food_links": [
+        {
+          "food_id": "food/mahaprasad",
+          "relationship": "place_association",
+          "note": "Puri temple-food tradition; purchase and visitor access require checking."
+        },
+        {
+          "food_id": "food/chhena-jhili",
+          "relationship": "regional_pairing",
+          "note": "Associated with Nimapada; proposed regional extension, not a claim of walking proximity to Puri."
+        }
+      ],
+      "facility_ids": [
+        "facilities/panthanivas-puri",
+        "facilities/tourist-office-puri"
+      ],
+      "editorial_hook": "Heritage, food and craft can each give a visitor a different reason to spend more time here.",
+      "research_priority": "Temple visitor rules; named food providers; willing craft hosts; point-to-point travel; facilities at each craft stop."
+    },
+    {
+      "id": "visitor-index/areas/konark",
+      "name": "Konark",
+      "scope": "Konark town and Sun Temple visitor area.",
+      "heritage_ids": [
+        "places/konark"
+      ],
+      "food_links": [],
+      "facility_ids": [
+        "facilities/yatrinivas-konark",
+        "facilities/tourist-office-konark",
+        "facilities/konark-visitor-complex"
+      ],
+      "editorial_hook": "Let architectural detail lead the story, then make planning the visit straightforward.",
+      "research_priority": "Current ticketing and hours; operating status of the interpretation centre and amenities; local food vendors; last-mile transport."
+    },
+    {
+      "id": "visitor-index/areas/bhubaneswar",
+      "name": "Bhubaneswar",
+      "scope": "City-wide collection; museum locations and Old Town are different stops.",
+      "heritage_ids": [
+        "places/kala-bhoomi",
+        "places/odisha-state-tribal-museum"
+      ],
+      "food_links": [
+        {
+          "food_id": "food/korakhai",
+          "relationship": "place_association",
+          "note": "Old Town / Lingaraj temple area; no claim that either museum serves it."
+        }
+      ],
+      "facility_ids": [
+        "facilities/panthanivas-bhubaneswar",
+        "facilities/tourist-office-bhubaneswar",
+        "facilities/nimantran-bhubaneswar",
+        "facilities/tribal-museum-visitor-services",
+        "facilities/kala-bhoomi-activity-spaces"
+      ],
+      "editorial_hook": "Introduce a city through what its people make, preserve and eat.",
+      "research_priority": "Expand ancient heritage coverage; map museum and Old Town routes; named food makers; current programmes; accessibility details."
+    },
+    {
+      "id": "visitor-index/areas/cuttack",
+      "name": "Cuttack",
+      "scope": "City-wide collection; Jobra museum and food traditions are separate parts of the proposed story.",
+      "heritage_ids": [
+        "places/odisha-state-maritime-museum"
+      ],
+      "food_links": [
+        {
+          "food_id": "food/dahibara-aloodum",
+          "relationship": "place_association",
+          "note": "A 2020 contributor account supports the Cuttack association; current vendors remain unverified."
+        }
+      ],
+      "facility_ids": [
+        "facilities/panthanivas-cuttack",
+        "facilities/tourist-office-cuttack"
+      ],
+      "editorial_hook": "A maritime chapter and a food chapter can invite visitors to explore the city more deeply.",
+      "research_priority": "Current food vendors; museum visitor services; silver filigree makers; safe and realistic routes."
+    },
+    {
+      "id": "visitor-index/areas/buddhist-circuit",
+      "name": "Buddhist circuit",
+      "scope": "Ratnagiri and Udayagiri in Jajpur, with Lalitgiri in Cuttack district. Multiple sites, not one walkable precinct.",
+      "heritage_ids": [
+        "places/ratnagiri",
+        "places/udayagiri-buddhist",
+        "places/lalitgiri"
+      ],
+      "food_links": [],
+      "facility_ids": [
+        "facilities/lalitgiri-site-museum"
+      ],
+      "editorial_hook": "Give each archaeological site its own identity, interpretation and reason to pause.",
+      "research_priority": "Current site and museum access; local food providers; lodging bases; transport; toilets, water, shade and accessibility at every site."
+    }
+  ],
+  "foods": [
+    {
+      "id": "food/arisa-pitha",
+      "name": "Arisa pitha",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-heritage"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/chakuli",
+      "name": "Chakuli pitha",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/chatu-patrapoda",
+      "name": "Chatu patrapoda",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "chef"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/chhena-jhili",
+      "name": "Chhena jhili",
+      "kind": "food_or_drink",
+      "geography": "Nimapada",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [
+        "visitor-index/areas/puri-crafts"
+      ],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/chhena-poda",
+      "name": "Chhena poda",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/dahibara-aloodum",
+      "name": "Dahibara aloodum",
+      "kind": "food_or_drink",
+      "geography": "Cuttack",
+      "source_ids": [
+        "dahibara-blog"
+      ],
+      "area_ids": [
+        "visitor-index/areas/cuttack"
+      ],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/dalma",
+      "name": "Dalma",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/dhenkanal-magji",
+      "name": "Dhenkanal Magji",
+      "kind": "food_or_drink",
+      "geography": "Dhenkanal",
+      "source_ids": [
+        "gi-magji"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/enduri-pitha",
+      "name": "Enduri pitha",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/kakara-pitha",
+      "name": "Kakara pitha",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/kandhamal-haladi",
+      "name": "Kandhamal Haladi",
+      "kind": "ingredient_or_crop",
+      "geography": "Kandhamal",
+      "source_ids": [
+        "gi-haladi"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/kendrapara-rasabali",
+      "name": "Kendrapara Rasabali",
+      "kind": "food_or_drink",
+      "geography": "Kendrapara",
+      "source_ids": [
+        "gi-rasabali"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/korakhai",
+      "name": "Korakhai",
+      "kind": "food_or_drink",
+      "geography": "Bhubaneswar Old Town",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [
+        "visitor-index/areas/bhubaneswar"
+      ],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/koraput-coffee",
+      "name": "Koraput coffee",
+      "kind": "food_or_drink",
+      "geography": "Koraput",
+      "source_ids": [
+        "koraput"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/koraput-kalajeera-rice",
+      "name": "Koraput Kalajeera Rice",
+      "kind": "ingredient_or_crop",
+      "geography": "Koraput",
+      "source_ids": [
+        "gi-kalajeera"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/mahaprasad",
+      "name": "Mahaprasad at Puri",
+      "kind": "food_or_drink",
+      "geography": "Puri",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [
+        "visitor-index/areas/puri-crafts"
+      ],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/manda-pitha",
+      "name": "Sijha manda pitha",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/odisha-rasagola",
+      "name": "Odisha Rasagola",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "gi-rasagola"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/ou-khatta",
+      "name": "Ou khatta",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "regional-cuisine"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/pakhala",
+      "name": "Pakhala",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/pitha",
+      "name": "Pitha: a collection, not one dish",
+      "kind": "collection",
+      "geography": "Odisha; collection-level entry",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    },
+    {
+      "id": "food/poda-pitha",
+      "name": "Poda pitha",
+      "kind": "food_or_drink",
+      "geography": "Odisha",
+      "source_ids": [
+        "food-tourism"
+      ],
+      "area_ids": [],
+      "confirmed_venue_ids": [],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "last_source_check_inherited": [
+        "2026-09-27T08:03:15+00:00"
+      ],
+      "dietary_status": null,
+      "allergens": null,
+      "availability": null
+    }
+  ],
+  "heritage": [
+    {
+      "id": "places/jagannath-temple-puri",
+      "name": "Shree Jagannath Temple, Puri",
+      "kind": "temple",
+      "geography": "Puri",
+      "area_id": "visitor-index/areas/puri-crafts",
+      "source_ids": [
+        "visitor-jagannath"
+      ],
+      "source_handling": "Fresh source check",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "culture/raghurajpur-pattachitra",
+      "name": "Raghurajpur and Pattachitra",
+      "kind": "craft_place",
+      "geography": "Near Puri",
+      "area_id": "visitor-index/areas/puri-crafts",
+      "source_ids": [
+        "raghurajpur"
+      ],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "culture/pipili-applique",
+      "name": "Pipili appliqué",
+      "kind": "craft_place",
+      "geography": "Puri district",
+      "area_id": "visitor-index/areas/puri-crafts",
+      "source_ids": [
+        "pipili"
+      ],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "places/konark",
+      "name": "Konark Sun Temple",
+      "kind": "temple",
+      "geography": "Puri district",
+      "area_id": "visitor-index/areas/konark",
+      "source_ids": [
+        "konark"
+      ],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "places/kala-bhoomi",
+      "name": "Kala Bhoomi — Odisha Crafts Museum",
+      "kind": "museum",
+      "geography": "Bhubaneswar",
+      "area_id": "visitor-index/areas/bhubaneswar",
+      "source_ids": [
+        "visitor-kalabhoomi"
+      ],
+      "source_handling": "Fresh source check",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "places/odisha-state-tribal-museum",
+      "name": "Odisha State Tribal Museum",
+      "kind": "museum",
+      "geography": "Bhubaneswar",
+      "area_id": "visitor-index/areas/bhubaneswar",
+      "source_ids": [
+        "visitor-tribal-museum"
+      ],
+      "source_handling": "Fresh source check",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "places/odisha-state-maritime-museum",
+      "name": "Odisha State Maritime Museum",
+      "kind": "museum",
+      "geography": "Jobra, Cuttack",
+      "area_id": "visitor-index/areas/cuttack",
+      "source_ids": [
+        "visitor-maritime-museum"
+      ],
+      "source_handling": "Fresh source check",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "places/ratnagiri",
+      "name": "Ratnagiri Buddhist site",
+      "kind": "archaeological_site",
+      "geography": "Jajpur",
+      "area_id": "visitor-index/areas/buddhist-circuit",
+      "source_ids": [
+        "buddhist"
+      ],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "places/udayagiri-buddhist",
+      "name": "Udayagiri Buddhist site",
+      "kind": "archaeological_site",
+      "geography": "Jajpur",
+      "area_id": "visitor-index/areas/buddhist-circuit",
+      "source_ids": [
+        "buddhist"
+      ],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    },
+    {
+      "id": "places/lalitgiri",
+      "name": "Lalitgiri",
+      "kind": "archaeological_site",
+      "geography": "Cuttack district",
+      "area_id": "visitor-index/areas/buddhist-circuit",
+      "source_ids": [
+        "buddhist"
+      ],
+      "source_handling": "Existing KB reused; no fresh independent verification.",
+      "last_record_review": "2026-09-27",
+      "coordinates": null,
+      "entry_rules": null,
+      "opening_hours": null,
+      "ticket_prices": null
+    }
+  ],
+  "facilities": [
+    {
+      "id": "facilities/panthanivas-puri",
+      "name": "Panthanivas Puri",
+      "category": "accommodation",
+      "area_ids": [
+        "visitor-index/areas/puri-crafts"
+      ],
+      "location_text": "Chakra Tirtha Road, Penthakata, Puri",
+      "source_ids": [
+        "visitor-otdc"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "OTDC lists Panthanivas Puri among its accommodation properties.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation.",
+      "follow_up": "Use the official operator for current rates, room availability and property amenities. No quality ranking is assigned."
+    },
+    {
+      "id": "facilities/yatrinivas-konark",
+      "name": "Yatrinivas Konark",
+      "category": "accommodation",
+      "area_ids": [
+        "visitor-index/areas/konark"
+      ],
+      "location_text": "Konark–Puri Road, Konark",
+      "source_ids": [
+        "visitor-otdc"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "OTDC lists Yatrinivas Konark among its accommodation properties.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation.",
+      "follow_up": "Use the official operator for current rates, room availability and property amenities. No quality ranking is assigned."
+    },
+    {
+      "id": "facilities/panthanivas-bhubaneswar",
+      "name": "Panthanivas Bhubaneswar",
+      "category": "accommodation",
+      "area_ids": [
+        "visitor-index/areas/bhubaneswar"
+      ],
+      "location_text": "Lewis Road, BJB Nagar, Bhubaneswar",
+      "source_ids": [
+        "visitor-otdc"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "OTDC lists Panthanivas Bhubaneswar among its accommodation properties.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation.",
+      "follow_up": "Use the official operator for current rates, room availability and property amenities. No quality ranking is assigned."
+    },
+    {
+      "id": "facilities/panthanivas-cuttack",
+      "name": "Panthanivas Cuttack",
+      "category": "accommodation",
+      "area_ids": [
+        "visitor-index/areas/cuttack"
+      ],
+      "location_text": "Buxi Bazar Road, Cuttack",
+      "source_ids": [
+        "visitor-otdc"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "OTDC lists Panthanivas Cuttack among its accommodation properties.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation.",
+      "follow_up": "Use the official operator for current rates, room availability and property amenities. No quality ranking is assigned."
+    },
+    {
+      "id": "facilities/tourist-office-puri",
+      "name": "Tourist office — Puri",
+      "category": "visitor_information",
+      "area_ids": [
+        "visitor-index/areas/puri-crafts"
+      ],
+      "location_text": "Near Subash Bose Square, VIP Road, Puri",
+      "source_ids": [
+        "visitor-offices"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "The tourism department directory lists a tourist office in Puri.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Official address table reviewed. Personal contact details not copied; office hours and current staffing unconfirmed.",
+      "follow_up": "Confirm the office address and service hours. The directory contains contact inconsistencies; personal numbers and email addresses have not been copied."
+    },
+    {
+      "id": "facilities/tourist-office-konark",
+      "name": "Tourist office — Konark",
+      "category": "visitor_information",
+      "area_ids": [
+        "visitor-index/areas/konark"
+      ],
+      "location_text": "Open Air Auditorium, Konark",
+      "source_ids": [
+        "visitor-offices"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "The tourism department directory lists a tourist office in Konark.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Official address table reviewed. Personal contact details not copied; office hours and current staffing unconfirmed.",
+      "follow_up": "Confirm the office address and service hours. The directory contains contact inconsistencies; personal numbers and email addresses have not been copied."
+    },
+    {
+      "id": "facilities/tourist-office-bhubaneswar",
+      "name": "Tourist office — Bhubaneswar",
+      "category": "visitor_information",
+      "area_ids": [
+        "visitor-index/areas/bhubaneswar"
+      ],
+      "location_text": "Ground floor, Paryatana Bhawan, Lewis Road, Bhubaneswar",
+      "source_ids": [
+        "visitor-offices"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "The tourism department directory lists a tourist office in Bhubaneswar.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Official address table reviewed. Personal contact details not copied; office hours and current staffing unconfirmed.",
+      "follow_up": "Confirm the office address and service hours. The directory contains contact inconsistencies; personal numbers and email addresses have not been copied."
+    },
+    {
+      "id": "facilities/tourist-office-cuttack",
+      "name": "Tourist office — Cuttack",
+      "category": "visitor_information",
+      "area_ids": [
+        "visitor-index/areas/cuttack"
+      ],
+      "location_text": "Near Netaji Birth Place Museum, Odia Bazar, Cuttack",
+      "source_ids": [
+        "visitor-offices"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "The tourism department directory lists a tourist office in Cuttack.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Official address table reviewed. Personal contact details not copied; office hours and current staffing unconfirmed.",
+      "follow_up": "Confirm the office address and service hours. The directory contains contact inconsistencies; personal numbers and email addresses have not been copied."
+    },
+    {
+      "id": "facilities/nimantran-bhubaneswar",
+      "name": "Nimantran Restaurant, Bhubaneswar",
+      "category": "food_venue",
+      "area_ids": [
+        "visitor-index/areas/bhubaneswar"
+      ],
+      "location_text": "Bhubaneswar; street address to be established",
+      "source_ids": [
+        "visitor-otdc"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "OTDC lists Nimantran Restaurant, Bhubaneswar in its food-and-beverage section.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation.",
+      "follow_up": "Verify street address, current menu and opening hours. No indexed dish is yet linked to this venue as currently served."
+    },
+    {
+      "id": "facilities/tribal-museum-visitor-services",
+      "name": "Tribal Museum visitor facilities",
+      "category": "site_amenities",
+      "area_ids": [
+        "visitor-index/areas/bhubaneswar"
+      ],
+      "location_text": "Within Odisha State Tribal Museum, Bhubaneswar",
+      "source_ids": [
+        "visitor-tribal-museum"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "The museum website lists visitor amenities.",
+      "amenities": [
+        "drinking water",
+        "restrooms",
+        "wheelchair",
+        "lockers",
+        "guide map"
+      ],
+      "heritage_id": "places/odisha-state-tribal-museum",
+      "heritage_relationship": "onsite",
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "About and Facilities sections reviewed. Amenity listings are not an accessibility audit or evidence of same-day availability.",
+      "follow_up": "Confirm wheelchair availability, routes and toilet accessibility separately; this is not an accessibility certification."
+    },
+    {
+      "id": "facilities/kala-bhoomi-activity-spaces",
+      "name": "Kala Bhoomi activity spaces",
+      "category": "interpretation_and_activity",
+      "area_ids": [
+        "visitor-index/areas/bhubaneswar"
+      ],
+      "location_text": "Within Kala Bhoomi, Bhubaneswar",
+      "source_ids": [
+        "visitor-kalabhoomi"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "The museum describes workshop zones and an open-air theatre.",
+      "amenities": [
+        "workshop spaces",
+        "open-air theatre"
+      ],
+      "heritage_id": "places/kala-bhoomi",
+      "heritage_relationship": "onsite",
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Homepage description and activity spaces reviewed. Programme availability and cafe operation not established.",
+      "follow_up": "Spaces do not establish a daily programme. Check current workshop bookings and events."
+    },
+    {
+      "id": "facilities/konark-visitor-complex",
+      "name": "Konark interpretation and visitor amenities",
+      "category": "visitor_complex",
+      "area_ids": [
+        "visitor-index/areas/konark"
+      ],
+      "location_text": "Sun Temple visitor precinct, Konark",
+      "source_ids": [
+        "visitor-konark-amenities"
+      ],
+      "evidence_status": "historically_documented",
+      "evidence_note": "A 2018 inauguration release documents an interpretation centre and visitor infrastructure.",
+      "amenities": [
+        "interpretation centre",
+        "parking",
+        "drop-off",
+        "toilets",
+        "water points",
+        "waiting space",
+        "snack counters"
+      ],
+      "heritage_id": "places/konark",
+      "heritage_relationship": "onsite",
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-09-27",
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": "2018-04-01",
+      "check_scope": "Release dated 1 April 2018, paragraphs on parking, drop-off, interpretation and amenities reviewed. Website footer update is not evidence of current operation.",
+      "follow_up": "Current operation and exact facility locations require a new operational source or on-site check. Do not label these amenities available today."
+    },
+    {
+      "id": "facilities/lalitgiri-site-museum",
+      "name": "Lalitgiri site museum",
+      "category": "site_museum",
+      "area_ids": [
+        "visitor-index/areas/buddhist-circuit"
+      ],
+      "location_text": "Lalitgiri, Cuttack district",
+      "source_ids": [
+        "buddhist"
+      ],
+      "evidence_status": "documented_in_saved_source",
+      "evidence_note": "The saved official Buddhist-circuit brochure record describes a site museum at Lalitgiri.",
+      "amenities": [],
+      "heritage_id": "places/lalitgiri",
+      "heritage_relationship": "onsite",
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": null,
+      "last_record_review": "2026-09-27",
+      "review_after": "2026-10-27",
+      "source_document_date": null,
+      "check_scope": "Imported from existing KB; no new source verification.",
+      "follow_up": "Confirm museum opening and entry arrangements. This record reuses the earlier KB extract and is not a new independent verification."
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "version": "1.2",
+  "created_on": "2026-09-27",
+  "check_frequency": "weekly",
+  "source_verification": "Seed URLs reused from the saved catalogue; no fresh data fetch is claimed by setup.",
+  "tracks": [
+    {
+      "id": "tourism",
+      "metrics": "Domestic, foreign and total tourist visits",
+      "source_ids": [
+        "comparison-9-1"
+      ],
+      "seed_urls": [
+        "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf"
+      ],
+      "targets": [
+        "economy/comparison-09-tourism.md",
+        "economy/comparison-10-tourism.md"
+      ],
+      "refresh_rule": "Annual; retain calendar year and pre-pandemic benchmark. Visits are not unique people. Hold the conflicting 2024 foreign-visits totals until scope and revisions are reconciled.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "conflicted"
+      }
+    },
+    {
+      "id": "gsdp",
+      "metrics": "Nominal GSDP, real GSDP growth and per-capita income",
+      "source_ids": [
+        "legacy-oes",
+        "sector-survey"
+      ],
+      "seed_urls": [
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+      ],
+      "targets": [
+        "economy/gdp-story.md",
+        "statistics/economic-size-and-income.md"
+      ],
+      "refresh_rule": "Annual and revisions; keep current/constant prices, base year and AE/RE/actual status.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      }
+    },
+    {
+      "id": "sector-growth",
+      "metrics": "Real GSVA in the nine saved industry series",
+      "source_ids": [
+        "sector-survey"
+      ],
+      "seed_urls": [
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+      ],
+      "targets": [
+        "references/data/industry-growth-data.json"
+      ],
+      "refresh_rule": "Annual and revisions; recalculate matched five/ten-year endpoints only.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      }
+    },
+    {
+      "id": "exports",
+      "metrics": "Odisha merchandise exports and marine export value",
+      "source_ids": [
+        "maritime-exports-2026",
+        "comparison-2-1",
+        "weekly-fisheries-jul2026"
+      ],
+      "seed_urls": [
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48"
+      ],
+      "targets": [
+        "references/data/maritime-metrics.json",
+        "economy/comparison-02-marine-exports.md"
+      ],
+      "refresh_rule": "Published periods; distinguish currency values, physical quantities and coverage.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      }
+    },
+    {
+      "id": "port-cargo",
+      "metrics": "Paradip cargo throughput",
+      "source_ids": [
+        "legacy-port",
+        "legacy-ports"
+      ],
+      "seed_urls": [
+        "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
+        "https://paradipport.gov.in/all_news/major-ports-record-915-million-tonnes-cargo-in-fy-2025-26-surpass-target-with-7-06-growth/"
+      ],
+      "targets": [
+        "economy/comparison-05-port-logistics.md"
+      ],
+      "refresh_rule": "Published monthly, year-to-date or annual totals; compare like periods. Verify any rank against the full comparison set.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      }
+    },
+    {
+      "id": "investment",
+      "metrics": "Domestic and foreign investment in Odisha: actual expenditure, implementation, construction, approvals and commitments",
+      "source_ids": [
+        "investment-survey-full-2026",
+        "investment-survey-summary-2026"
+      ],
+      "seed_urls": [
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"
+      ],
+      "targets": [
+        "journeys/investment.md",
+        "references/data/investment-tracker.json"
+      ],
+      "refresh_rule": "Check official project releases, company filings and public capital-outlay accounts. Separate actual/RE/BE, project stages and financing scope; deduplicate projects. Saved FDI remains background, not a standalone weekly track.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      }
+    },
+    {
+      "id": "smart-cities",
+      "metrics": "Total/completed SCM projects and completed-project value",
+      "source_ids": [
+        "journey-smart-2026",
+        "journey-smart-2025",
+        "weekly-smart-mar2026"
+      ],
+      "seed_urls": [
+        "https://sansad.in/getFile/annex/270/AU1034_ThApTH.pdf?source=pqars",
+        "https://sansad.in/getFile/annex/267/AU700_2lthyS.pdf?source=pqars",
+        "https://www.sansad.in/getFile/annex/270/AU2600_vR0ZFk.pdf?source=pqars"
+      ],
+      "targets": [
+        "journeys/smart-cities.md",
+        "references/data/growth-journeys.json"
+      ],
+      "refresh_rule": "Event-driven snapshots; distinguish Bhubaneswar, Rourkela and combined counts. Do not infer quality or liveability.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      }
+    },
+    {
+      "id": "rare-earths",
+      "metrics": "OSCOM installed capacity, reported output and corridor milestones",
+      "source_ids": [
+        "journey-irel-reep",
+        "journey-rare-corridor",
+        "weekly-rare-aug2026"
+      ],
+      "seed_urls": [
+        "https://www.irel.co.in/en-GB/oscom-rare-earth-extraction-plant",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247969&lang=2&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297681&lang=2&reg=3"
+      ],
+      "targets": [
+        "journeys/rare-earths.md",
+        "references/data/growth-journeys.json"
+      ],
+      "refresh_rule": "Event/annual releases; distinguish product basis, installed capacity, actual output and corridor proposal.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      }
+    },
+    {
+      "id": "semiconductors",
+      "metrics": "Project investment, capacity, employment and implementation stage",
+      "source_ids": [
+        "legacy-ism",
+        "legacy-glass",
+        "legacy-sicsez",
+        "journey-semicon-2026"
+      ],
+      "seed_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155459&lang=2&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549&lang=2&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310397&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2312298&lang=1&reg=3"
+      ],
+      "targets": [
+        "journeys/semiconductors.md",
+        "references/data/growth-journeys.json"
+      ],
+      "refresh_rule": "Event releases; retain planned/approved/groundbreaking/commissioned/operating status, projected jobs and overlapping project scope.",
+      "discovery": "Check the original publisher for successor releases, not only this fixed historical URL.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      }
+    },
+    {
+      "id": "banking-and-enterprise-finance",
+      "metrics": "Bank balances, financial access, district banking, Udyam and guarantee coverage",
+      "source_ids": [
+        "macro-slbc-jun2026"
+      ],
+      "seed_urls": [
+        "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Quarterly. Stocks, guarantees, registrations and disbursements are separate; preserve district rounding and CD-ratio conflict.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      }
+    },
+    {
+      "id": "public-finances",
+      "metrics": "Monthly public accounts and annual audited finances",
+      "source_ids": [
+        "macro-cag-aug2026",
+        "macro-cag-fy2025"
+      ],
+      "seed_urls": [
+        "https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-August-06aabdead52f8a8-29844579.pdf",
+        "https://www.digitalreports.cag.gov.in/odisha/chapter/1?from=app-1.2"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Monthly and annual. Provisional cumulative accounts, budgets and audited spending must remain separate; note excluded accounts and audit adjustments.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      }
+    },
+    {
+      "id": "people-and-learning",
+      "metrics": "Health, nutrition, inclusion, education, employment and poverty",
+      "source_ids": [
+        "people-nfhs6",
+        "people-udise2025",
+        "people-plfs2024",
+        "people-mpi2023",
+        "weekly-nfhs-district-release"
+      ],
+      "seed_urls": [
+        "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf",
+        "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+        "https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf",
+        "https://www.niti.gov.in/node/868",
+        "https://www.nfhsiips.in/nfhsuser/release-details.php"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Check publication catalogues weekly; import only new survey/annual releases. Preserve survey design, age, sex, recall period and baseline vintages. Include deteriorating results.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      }
+    },
+    {
+      "id": "land-and-livelihoods",
+      "metrics": "Agriculture, fisheries, livestock, forests and biodiversity",
+      "source_ids": [
+        "nature-survey-summary",
+        "nature-fish-pib",
+        "nature-forest-pib",
+        "nature-chilika",
+        "weekly-fisheries-jul2026"
+      ],
+      "seed_urls": [
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225760&lang=1&reg=5",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&lang=2&reg=48",
+        "https://www.chilika.com/chilika-ecology-and-biodiversity.php",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Annual or assessment-specific. Preserve area versus output, revised forest baselines and seasonal wildlife count methods.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      }
+    },
+    {
+      "id": "services-and-environment",
+      "metrics": "Water, sanitation, air quality and disaster resilience",
+      "source_ids": [
+        "services-jjm",
+        "services-air",
+        "services-urban",
+        "nature-ncrmp"
+      ],
+      "seed_urls": [
+        "https://sansad.in/getFile/annex/270/AU2625_hDEugu.pdf?source=pqars",
+        "https://www.rsdebate.nic.in/bitstream/123456789/755745/1/PQ_267_27032025_U3071_p149_p166.pdf",
+        "https://urban.odisha.gov.in/sites/default/files/2025-06/English%20Activity%20Report%202024%20Final_0.pdf",
+        "https://www.osdma.org/national-cyclone-risk-mitigation-project/"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Follow administrative and annual release cadence. Connections and installed capacity do not establish service quality. PM10 is not AQI; do not conflate city pollution and cleanliness.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      }
+    },
+    {
+      "id": "mobility-and-digital-access",
+      "metrics": "Airport movements, rail completion and internet subscriptions",
+      "source_ids": [
+        "connect-airport2026",
+        "connect-rail2026",
+        "connect-internet2025",
+        "weekly-trai-mar2026"
+      ],
+      "seed_urls": [
+        "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287573",
+        "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf",
+        "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Monthly, quarterly or event-based. Match full periods, passengers versus unique people, track versus route kilometres, and subscriptions versus persons.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      }
+    },
+    {
+      "id": "innovation-and-startups",
+      "metrics": "Patent applications, recognitions and startup finance",
+      "source_ids": [
+        "enterprise-patents",
+        "enterprise-startups2025"
+      ],
+      "seed_urls": [
+        "https://ipindia.gov.in/storage/uploads/media/English_Annual_Report_2024-25.pdf",
+        "https://sansad.in/getFile/loksabhaquestions/annex/187/AU588_lOfCvN.pdf?source=pqals"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Annual and administrative updates. Applications are not grants; registries have different populations; preserve investment versus approval status.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      }
+    },
+    {
+      "id": "visitor-economy-and-crafts",
+      "metrics": "Accommodation, tourism assets, craft livelihoods and sports facilities",
+      "source_ids": [
+        "connect-tourism2024",
+        "connect-centres2026",
+        "connect-handloom2019",
+        "enterprise-hockeyindia2023"
+      ],
+      "seed_urls": [
+        "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf",
+        "https://dot.odisha.gov.in/sites/default/files/2026-04/Identified%20Tourist%20Centre%20in%20Odisha%20(382).pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1596372",
+        "https://www.hockeyindia.org/news/year-in-review-hockey-india-revamps-domestic-circuit-hosts-multiple-international-events-across-different-cities-in-2023"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Annual, census or event-based. Historic inventories are not current operating availability; no inferred tourism spending or economic impact.",
+      "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
+      "last_agent_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "conflicted"
+      }
+    }
+  ],
+  "expanded_on": "2026-09-27"
+}
