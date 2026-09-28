@@ -4,22 +4,28 @@ A community encyclopedia connecting knowledge, heritage, people and opportunity 
 
 **Founder & Editor-in-Chief: Ahimanikya Satapathy.**
 
-This repository is private for now and will hold approved knowledge, website code and publication-safe project records. A future public release requires a separate decision. The website has not yet launched. Private contact information, consent records, credentials and unpublished sensitive intake do not belong here.
+This repository is private for now. A future public release requires a separate decision. The website has not launched. Private contact information, consent records, credentials and unpublished sensitive intake do not belong here.
 
-## Initial operating setup — review candidate
+## Approved initial operating setup
+
+The Founder approved batch **UTB-DEC-005**: “The next batch is approved.” Earlier candidate labels in individual documents preserve their review history; this decision approves the reviewed versions. It does not imply technical enforcement or public launch.
 
 - [Project charter](governance/charter.md)
 - [Working arrangements and reporting](governance/working-arrangements.md)
-- [Blueprint adoption record](governance/blueprint-adoption.md)
+- [Blueprint adoption and immutable version](governance/blueprint-adoption.md)
 - [Initial roles and JDs](team/roles.md)
-- [Proposed assignments](team/assignments.json)
+- [Bounded assignments](team/assignments.json)
+- [JML and context/access verification](records/jml-first-assignments.json)
 - [First bounded task](plans/first-task.md)
+- [Approval record](records/batch-approval.json)
+- [Application result](records/application-result.json)
 
-The shared Utkal Blueprint is maintained separately in the private `ahimanikya/utkal-blueprint` repository. This project adopts an identified version through a human decision; it retains its own purpose, team, work and lifecycle.
+UTP adopts Utkal Blueprint **0.1.0-rc.1**, commit `ab5cd05315feecbc5d5c71b372d198c67ee29910`. It retains its own purpose, team and lifecycle. Blueprint changes do not automatically change this adoption.
 
-Anyone may propose a contribution once the contribution channels are established. An accepted contribution does not automatically grant editorial authority or Git access. Contribution forms, visitor accounts, AI chat and photo uploads are not operational features of this initial package.
+Disha Dash, Anvesha Acharya, Samanta Chandrasekhar and Drishti Senapati are AI personas, exercised as labelled role passes by one assistant in the current conversation for UTP-WORK-001. They are not independent agents. No human reports to an AI. The Founder remains the final internal authority.
 
-No public reuse license has yet been selected. Accurate sources and contributor credit remain part of every publication decision.
+The first encyclopedia draft and Astro preview are local review artifacts; neither is a live website. Contribution channels, visitor accounts, AI chat and photo uploads are not operational features of this setup.
 
+Anyone may propose a contribution once channels are established. Accepted contributions do not automatically grant editorial authority or Git access. No public reuse licence has yet been selected. Source and contributor credit remain part of every publication decision.
 
-Status update: the Founder approved this document as part of batch UTB-DEC-005. Earlier candidate/review notices describe its review history; actual application, adoption and activation are recorded separately.
+Utkal Blueprint — created by Ahimanikya Satapathy, Founder & Editor-in-Chief of Utkal Project.
