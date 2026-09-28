@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "checked_on": "2026-09-27",
+  "scope": "Seed measures for broader domestic and foreign investment; not an exhaustive or additive statewide total.",
+  "statewide_realised_total": null,
+  "observations": [
+    {
+      "id": "IN01",
+      "metric": "Investment associated with industrial projects reported implemented",
+      "value": 175000,
+      "unit": "INR crore",
+      "period": "2025",
+      "period_type": "calendar_year",
+      "evidence_status": "reported_implementation",
+      "project_count": 80,
+      "mou_count": null,
+      "source_id": "investment-survey-full-2026",
+      "source_locator": "Section 5.1.3",
+      "geography": "Odisha",
+      "ownership_split": "not established",
+      "checked_on": "2026-09-27",
+      "additive": false
+    },
+    {
+      "id": "IN02",
+      "metric": "Estimated budgets of approved industrial projects",
+      "value": 566000,
+      "unit": "INR crore",
+      "period": "2025",
+      "period_type": "calendar_year",
+      "evidence_status": "approval",
+      "project_count": 244,
+      "mou_count": null,
+      "source_id": "investment-survey-full-2026",
+      "source_locator": "Section 5.1.3",
+      "geography": "Odisha",
+      "ownership_split": "not established",
+      "checked_on": "2026-09-27",
+      "additive": false
+    },
+    {
+      "id": "IN03",
+      "metric": "Commitments at listed investor events",
+      "value": 1510000,
+      "unit": "INR crore",
+      "period": "2025",
+      "period_type": "calendar_year",
+      "evidence_status": "commitment",
+      "project_count": null,
+      "mou_count": 275,
+      "source_id": "investment-survey-summary-2026",
+      "source_locator": "PDF page 54, MoU paragraph",
+      "geography": "Odisha",
+      "ownership_split": "not established",
+      "checked_on": "2026-09-27",
+      "additive": false
+    },
+    {
+      "id": "IN04",
+      "metric": "State government capital outlay",
+      "value": 65010,
+      "unit": "INR crore",
+      "period": "2025-26",
+      "period_type": "financial_year",
+      "evidence_status": "budget_estimate",
+      "project_count": null,
+      "mou_count": null,
+      "source_id": "investment-survey-summary-2026",
+      "source_locator": "PDF page 64, infrastructure overview",
+      "geography": "Odisha",
+      "ownership_split": "not established",
+      "checked_on": "2026-09-27",
+      "additive": false
+    }
+  ],
+  "source_variants": [
+    {
+      "observation_id": "IN01",
+      "source_id": "investment-survey-summary-2026",
+      "value": 170000,
+      "unit": "INR crore",
+      "note": "Less precise executive-summary wording; not a separate flow."
+    },
+    {
+      "observation_id": "IN02",
+      "source_id": "investment-survey-summary-2026",
+      "value": 560000,
+      "unit": "INR crore",
+      "note": "Less precise executive-summary wording; not a separate flow."
+    }
+  ],
+  "project_records": [],
+  "aggregation_rule": "No combined total until project identities, periods, stages, scope and overlapping financing have been reconciled.",
+  "open_questions": [
+    "Meaning of implemented: spending, construction and commissioning breakdown",
+    "Domestic/foreign ownership and funding split",
+    "Project-level deduplication and actual expenditure",
+    "Comparable five/ten-year series"
+  ]
+}

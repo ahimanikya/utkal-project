@@ -20,7 +20,10 @@ def require(condition, message):
         raise ValueError(message)
 
 def local_path(root, name):
-    p = (root / name).resolve()
+    aliases_file = root / 'references/migration-paths.json'
+    aliases = json.loads(aliases_file.read_text()) if aliases_file.exists() else {}
+    direct = (root / name).resolve()
+    p = direct if direct.is_file() else (root / aliases.get(name, name)).resolve()
     require(p.is_relative_to(root.resolve()), 'Path outside repository: '+name)
     require(p.is_file(), 'Missing record/evidence file: '+name)
     return p
@@ -103,7 +106,7 @@ def cell(value):
     return str('—' if value is None or value == '' else value).replace('|','\\|').replace('\n',' ')
 
 def render(data, events, digest):
-    lines=[f"# {data['name']} · dashboard",'',f"Generated from `records.json` and `activity.jsonl`. Source SHA-256: `{digest}`.",'',f"Accountable human: **{data['human_authority']}**. Model {data['model_version']}. This view reports records; it grants no authority.",'']
+    lines=['---','type: Generated register',f"title: {json.dumps(data['name']+' dashboard')}",'---','',f"# {data['name']} · dashboard",'',f"Generated from `records.json` and `activity.jsonl`. Source SHA-256: `{digest}`.",'',f"Accountable human: **{data['human_authority']}**. Model {data['model_version']}. This view reports records; it grants no authority.",'']
     def table(title, heads, rows):
         lines.extend(['## '+title,'','| '+' | '.join(heads)+' |','|'+'|'.join('---' for _ in heads)+'|'])
         for row in rows: lines.append('| '+' | '.join(cell(v) for v in row)+' |')
@@ -124,12 +127,16 @@ def render(data, events, digest):
     return '\n'.join(lines)
 
 def run(root, check=False):
-    source=root/'registers/records.json'; ledger=root/'registers/activity.jsonl'
+    config=json.loads((root.parent/'utkal.config.json').read_text())
+    home=config['record_directory']
+    require(home in {'maintenance','registers'}, 'Invalid configured record directory')
+    source=root/home/'records.json'; ledger=root/home/'activity.jsonl'
     raw=source.read_bytes(); activity=ledger.read_bytes()
     data=json.loads(raw); events=[json.loads(line) for line in activity.splitlines() if line.strip()]
+    require(config['prefix']==data['project'], 'Configuration identity conflicts with registers')
     validate(root,data,events)
     output=render(data,events,hashlib.sha256(raw+b'\n'+activity).hexdigest())
-    target=root/'registers/DASHBOARD.md'
+    target=root/home/'DASHBOARD.md'
     if check:
         require(target.exists() and target.read_text()==output,'Dashboard stale; regenerate')
     else: target.write_text(output,encoding='utf-8')
@@ -139,6 +146,6 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check',action='store_true')
     args=parser.parse_args()
-    try: run(Path(__file__).resolve().parents[1], args.check)
+    try: run(Path(__file__).resolve().parents[1]/'kb', args.check)
     except (ValueError,KeyError,TypeError,OSError) as exc:
         parser.exit(1,'Register check failed: '+str(exc)+'\n')

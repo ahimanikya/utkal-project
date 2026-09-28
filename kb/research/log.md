@@ -1,0 +1,31 @@
+# Change history
+
+## 2026-09-27
+
+Added detailed PRD v0.1.0 as a draft product baseline: vision, audiences, information architecture, journeys, 40 stable requirements (31 launch, five later, four deferred), acceptance criteria, measurement, ownership, risks and growth gates. Preserved a readable snapshot and versioned requirements JSON with checksums; added decision history, a maintenance procedure and PRD integrity validation. The baseline synthesises existing user direction and local planning; no new factual review, full-PRD approval, feature implementation or public deployment is claimed.
+
+Added the user-agreed technical stack, launch and growth architecture diagrams, decision register and phased upgrade roadmap in the technology collection. Recorded GitHub Pages, Firebase Spark, email photo intake, manual Git publication and the deferral of Blaze, AI chat and paid private backups. Updated architecture entry points and superseded stale contribution guidance. Diagrams are supplied as PNG, SVG and Mermaid source. Structural checks and local visual inspection do not imply public deployment, independent factual certification or human review.
+
+Weekly monitoring: checked all 17 watchlist groups with bounded publisher discovery and direct seed retrieval. Added six FY2025–26 fisheries observations, six March 2026 internet-subscription observations and one production comparison; appended eight March 2026 SCM city observations with unchanged completion counts and an August rare-earth proposal milestone. Added five source/discovery records; preserved failed retrievals and source conflicts in the run report. No historical values overwritten, human review claimed, Git push or website deployment performed.
+
+Expanded research through parallel agents and primary/public institutional sources. Added 340 structured statistical observations, 10 linked calculations, 44 source-capture records and banking snapshots for all 30 districts. Preserved source conflicts, survey vintages, provisional accounts, estimate labels and verification limits. Added offline statistical retrieval and validation, refreshed contribution checks and expanded the existing weekly agent from nine to 17 watchlist tracks without changing its schedule. No claim of exhaustive coverage or human review; no public publishing performed.
+
+Replaced the standalone FDI monitoring track with Investment in Odisha, covering domestic and foreign capital. Rechecked DPIIT units without deleting the historical observations. Added survey-qualified implementation, approval, commitment and public capital-outlay seed measures, two source-capture records and a non-additive tracker. Updated the existing weekly automation, keeping its schedule. No comprehensive realised total or domestic/foreign split inferred.
+
+Activated the Utkala weekly data editor for Mondays at 09:00 America/Los_Angeles. Added a nine-track primary-source watchlist, revision/validation/publication runbook and setup report. The user authorised routine unattended repository and website updates. Remote and website connections remain absent; no live publication or completed unattended data refresh claimed. Source seeds reuse saved research.
+
+Added the Utkala identity proposal: a living-encyclopedia descriptor, book-and-boat concept, five-colour palette and a local artist collaboration brief. Saved four AI-generated raster concepts, exact UI tokens and generation provenance in the project deliverables. Existing cultural records informed the brief; this is not new historical verification. No adopted identity, name clearance, artisan authorship, human review, commission or public launch claimed.
+
+Added four growth tracks: smart cities, rare earths, semiconductors and FDI, plus a research agenda, nine primary-source records, structured observations and calculations. Reopened three existing semiconductor sources without changing the 71 migrated evidence records. Preserved proposal/capacity/outcome states, time windows, the unchanged SCM completion count and FDI rounding difference. No rankings, causal links or realised investment inferred.
+
+Recorded the user’s community encyclopedia direction and intended GitHub owner ahimanikya. Prepared local contributor documentation, issue forms, pull-request template, code ownership and checks-only CI. Added a citation, review and public-release architecture with three official GitHub sources. No remote repository, public site, contributions, human review or institutional adoption claimed.
+
+Saved the user’s statistics-presentation direction: concise story cards, useful context, readable visuals and evidence on demand. Added tourism and manufacturing layout examples using existing records; no fresh source verification claimed. Updated website/editorial guidance and workspace instructions.
+
+Added the linked visitor-index seed: 22 reused food records, 10 heritage entries, 13 facility records and five editorial destination areas. Added four destination concepts and eight source records. Official listings, historical infrastructure and saved-source reuse carry distinct evidence status. Added an expansion roadmap, offline query and validation tools. Recorded Konark and office-directory limitations; no current availability, measured proximity, human review or public publishing claimed.
+
+Updated campaign priority from the user’s direction: tourism first, supported by food, handlooms, culture and city life; broader trade and industries later. Added a pilot content proposal, audience-response measures and a later podcast pathway. Updated website/editorial priorities; no outreach or publishing undertaken.
+
+Expanded maritime trade research: added source-qualified history, Boita Bandana, modern trade metrics, a connection matrix, campaign language and JSON-LD graph. Freshly checked Paradip endpoints. Preserved chronology and denominator issues; no claim of exhaustive history, ancient trade totals or direct Roman routes.
+
+Created first OKF 0.2 research edition. Added food, textile, place and culture concepts with attributed factual nuclei and original story proposals. Preserved 71 prior evidence records and 19 industry comparisons/series. Added editorial journeys, source records, research gaps, retrieval and validation tools. No human review or field interviews claimed.

@@ -3,9 +3,10 @@
 import copy,json
 from pathlib import Path
 import registers
-root=Path(__file__).resolve().parents[1]
-base=json.loads((root/'registers/records.json').read_text())
-events=[json.loads(x) for x in (root/'registers/activity.jsonl').read_text().splitlines() if x.strip()]
+root=Path(__file__).resolve().parents[1]/'kb'
+home=json.loads((root.parent/'utkal.config.json').read_text())['record_directory']
+base=json.loads((root/home/'records.json').read_text())
+events=[json.loads(x) for x in (root/home/'activity.jsonl').read_text().splitlines() if x.strip()]
 checks=[]
 def reject(name,mutate):
  d=copy.deepcopy(base);es=copy.deepcopy(events);mutate(d,es)

@@ -1,0 +1,10 @@
+flowchart LR
+  G[Git and OKF remain canonical] --> B[Approved versioned release]
+  B --> W[Public website and data]
+  U[Future private managed uploads] --> R[Future review service]
+  R -->|Proposed Git change, then editorial approval| G
+  B --> K[Future public-only AI retrieval index]
+  K --> Q[Future Ask Utkala gateway]
+  Q -->|Cited answer| W
+  U --> C[Future private backup and restore]
+  R --> C

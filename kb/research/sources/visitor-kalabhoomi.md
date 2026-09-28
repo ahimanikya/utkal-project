@@ -1,0 +1,24 @@
+---
+type: "Source"
+title: "Odisha Crafts Museum — Kala Bhoomi"
+description: "Odisha Crafts Museum — Kala Bhoomi — visitor index research."
+tags: ["visitor-index"]
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:24:11-07:00"}
+sources: [{"id": "visitor-kalabhoomi", "title": "Odisha Crafts Museum — Kala Bhoomi", "resource": "https://odishacraftsmuseum.odisha.gov.in/"}]
+resource: "https://odishacraftsmuseum.odisha.gov.in/"
+---
+
+# Odisha Crafts Museum — Kala Bhoomi
+
+**Publisher:** Odisha Crafts Museum
+
+**Source type:** Institutional museum website
+
+**Source check:** 2026-09-27
+
+**Capture and limits:** Homepage description and activity spaces reviewed. Programme availability and cafe operation not established.
+
+[Open source](https://odishacraftsmuseum.odisha.gov.in/)
+
+[^visitor-kalabhoomi]: [Odisha Crafts Museum — Kala Bhoomi](https://odishacraftsmuseum.odisha.gov.in/)

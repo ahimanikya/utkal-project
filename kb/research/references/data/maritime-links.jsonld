@@ -1,0 +1,1231 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "@vocab": "urn:odisha-kb:vocab:",
+    "evidenceKind": "urn:odisha-kb:vocab:evidenceKind",
+    "period": "urn:odisha-kb:vocab:period",
+    "conceptPath": "urn:odisha-kb:vocab:conceptPath",
+    "limitation": "urn:odisha-kb:vocab:limitation",
+    "observation": {
+      "@id": "urn:odisha-kb:vocab:observation",
+      "@type": "@id"
+    }
+  },
+  "@id": "urn:odisha-kb:graph:maritime-v1",
+  "@type": "schema:Dataset",
+  "schema:name": "Odisha maritime connections — evidence-qualified graph",
+  "schema:dateModified": "2026-09-27T08:14:32+00:00",
+  "@graph": [
+    {
+      "@id": "urn:odisha-kb:entity:odisha",
+      "@type": "schema:Place",
+      "schema:name": "Odisha, present-day state"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:kalinga",
+      "@type": "schema:Place",
+      "schema:name": "Historical Kalinga, boundaries varied"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:china",
+      "@type": "schema:Place",
+      "schema:name": "China"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:sri-lanka",
+      "@type": "schema:Place",
+      "schema:name": "Sri Lanka"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:bali",
+      "@type": "schema:Place",
+      "schema:name": "Bali, Indonesia"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:indonesia",
+      "@type": "schema:Place",
+      "schema:name": "Indonesia"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:malaysia",
+      "@type": "schema:Place",
+      "schema:name": "Malaysia"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:malay-peninsula",
+      "@type": "schema:Place",
+      "schema:name": "Historical Malay Peninsula"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:vietnam",
+      "@type": "schema:Place",
+      "schema:name": "Vietnam"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:gujarat",
+      "@type": "schema:Place",
+      "schema:name": "Gujarat / Saurashtra"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:arabia",
+      "@type": "schema:Place",
+      "schema:name": "Arabian region, historical attribution"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:roman-world",
+      "@type": "schema:Place",
+      "schema:name": "Roman world"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:palur",
+      "@type": "schema:Place",
+      "schema:name": "Palur"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:manikapatna",
+      "@type": "schema:Place",
+      "schema:name": "Manikapatna"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:khalkatapatna",
+      "@type": "schema:Place",
+      "schema:name": "Khalkatapatna"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:sembiran",
+      "@type": "schema:Place",
+      "schema:name": "Sembiran"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:india",
+      "@type": "schema:Place",
+      "schema:name": "India"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:java",
+      "@type": "schema:Place",
+      "schema:name": "Java"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:anchor",
+      "@type": "schema:Thing",
+      "schema:name": "Manikapatna stone anchor"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:chinese-finds",
+      "@type": "schema:Thing",
+      "schema:name": "Reported Chinese ceramics and coins at Manikapatna"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:sri-lankan-coins",
+      "@type": "schema:Thing",
+      "schema:name": "Reported Sri Lankan coins at Manikapatna"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:boita",
+      "@type": "schema:Event",
+      "schema:name": "Boita Bandana"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:baliyatra",
+      "@type": "schema:Event",
+      "schema:name": "Bali Jatra"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:paradip",
+      "@type": "schema:Organization",
+      "schema:name": "Paradip Port Authority"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:paradip-2023",
+      "@type": "schema:Event",
+      "schema:name": "Paradip Boita Bandana, 27 November 2023"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:pallishree",
+      "@type": "schema:Event",
+      "schema:name": "Pallishree Mela, 2024 attribution"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M01",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Merchandise exports",
+      "schema:value": 47240,
+      "schema:unitText": "INR crore, current prices",
+      "period": "FY2019-20",
+      "metricId": "M01"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M02",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Merchandise exports",
+      "schema:value": 85540,
+      "schema:unitText": "INR crore, current prices",
+      "period": "FY2024-25",
+      "metricId": "M02"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M03",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Five-year merchandise export change",
+      "schema:value": 81.07535986452159,
+      "schema:unitText": "percent",
+      "period": "FY2019-20 to FY2024-25",
+      "metricId": "M03"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M04",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Merchandise export CAGR",
+      "schema:value": 12.608680958719498,
+      "schema:unitText": "percent per year",
+      "period": "FY2019-20 to FY2024-25",
+      "metricId": "M04"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M05",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "China destination share",
+      "schema:value": 21.5,
+      "schema:unitText": "percent",
+      "period": "FY2024-25",
+      "metricId": "M05"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M06",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Malaysia destination share",
+      "schema:value": 3.9,
+      "schema:unitText": "percent",
+      "period": "FY2024-25",
+      "metricId": "M06"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M07",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Vietnam destination share",
+      "schema:value": 3.5,
+      "schema:unitText": "percent",
+      "period": "FY2024-25",
+      "metricId": "M07"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M08",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Combined share of three named destinations",
+      "schema:value": 28.9,
+      "schema:unitText": "percent",
+      "period": "FY2024-25",
+      "metricId": "M08"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M09",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Paradip cargo throughput",
+      "schema:value": 76.39,
+      "schema:unitText": "million tonnes",
+      "period": "FY2015-16",
+      "metricId": "M09"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M10",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Paradip cargo throughput",
+      "schema:value": 156.45,
+      "schema:unitText": "million tonnes",
+      "period": "FY2025-26",
+      "metricId": "M10"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M11",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Ten-year cargo change",
+      "schema:value": 104.80429375572714,
+      "schema:unitText": "percent",
+      "period": "FY2015-16 to FY2025-26",
+      "metricId": "M11"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M12",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Paradip coastal cargo",
+      "schema:value": 65.81,
+      "schema:unitText": "million tonnes",
+      "period": "FY2025-26",
+      "metricId": "M12"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M13",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Paradip coastal cargo share",
+      "schema:value": 42.06,
+      "schema:unitText": "percent",
+      "period": "FY2025-26",
+      "metricId": "M13"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M14",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Pallishree Mela sales as quoted",
+      "schema:value": 40,
+      "schema:unitText": "INR crore",
+      "period": "2024 event, per article body",
+      "metricId": "M14"
+    },
+    {
+      "@id": "urn:odisha-kb:entity:metric-M15",
+      "@type": "schema:QuantitativeValue",
+      "schema:name": "Pallishree Mela stalls as reported",
+      "schema:value": 500,
+      "schema:unitText": "stalls",
+      "period": "2024 event, per article body",
+      "metricId": "M15"
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H01",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:manikapatna"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:yielded"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:chinese-finds"
+      },
+      "evidenceKind": "archaeological_finding",
+      "period": "Multiple historical phases; see chronology record",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.ippasecretariat.org/ippa2026/sessions/s07/s07-a5"
+        }
+      ],
+      "conceptPath": "history/manikapatna.md",
+      "limitation": "Conference abstract; not a complete excavation inventory."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H02",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:chinese-finds"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:attributedOrigin"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:china"
+      },
+      "evidenceKind": "archaeological_finding",
+      "period": "Historical finds, source-specific dating",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.ippasecretariat.org/ippa2026/sessions/s07/s07-a5"
+        }
+      ],
+      "conceptPath": "history/manikapatna.md",
+      "limitation": "Origin attribution does not establish direct transport or crew identity."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H03",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:manikapatna"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:yielded"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:sri-lankan-coins"
+      },
+      "evidenceKind": "archaeological_finding",
+      "period": "Historical finds, source-specific dating",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.ippasecretariat.org/ippa2026/sessions/s07/s07-a5"
+        }
+      ],
+      "conceptPath": "history/manikapatna.md",
+      "limitation": "No count, shipment value or continuous occupation inferred."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H04",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:sri-lankan-coins"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:attributedOrigin"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:sri-lanka"
+      },
+      "evidenceKind": "archaeological_finding",
+      "period": "Historical finds",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.ippasecretariat.org/ippa2026/sessions/s07/s07-a5"
+        }
+      ],
+      "conceptPath": "history/manikapatna.md",
+      "limitation": "Coin circulation does not establish direct route."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H05",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:manikapatna"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:yielded"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:anchor"
+      },
+      "evidenceKind": "archaeological_finding",
+      "period": "2018–2019 discovery; medieval-type object",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.vliz.be/imisdocs/publications/381044.pdf"
+        }
+      ],
+      "conceptPath": "history/manikapatna-anchor.md",
+      "limitation": "Recovery and manufacture dates differ."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H06",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:anchor"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:mostLikelyRockOrigin"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:gujarat"
+      },
+      "evidenceKind": "archaeometric_inference",
+      "period": "Medieval-type anchor; research published 2022",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.vliz.be/imisdocs/publications/381044.pdf"
+        }
+      ],
+      "conceptPath": "history/manikapatna-anchor.md",
+      "limitation": "Probable geological provenance, not a ship itinerary."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H07",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:khalkatapatna"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:interpretedExchangeConnection"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:china"
+      },
+      "evidenceKind": "historical_interpretation",
+      "period": "Broadly 13th–15th centuries CE",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://drs.nio.res.in/drs/bitstream/handle/2264/4813/Curr_Sci_109_372.pdf?isAllowed=y&sequence=1"
+        }
+      ],
+      "conceptPath": "history/khalkatapatna.md",
+      "limitation": "Published archaeological interpretation; precise voyages unmeasured."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H08",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:khalkatapatna"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:interpretedExchangeConnection"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:arabia"
+      },
+      "evidenceKind": "historical_interpretation",
+      "period": "Broadly 13th–15th centuries CE",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://drs.nio.res.in/drs/bitstream/handle/2264/4813/Curr_Sci_109_372.pdf?isAllowed=y&sequence=1"
+        }
+      ],
+      "conceptPath": "history/khalkatapatna.md",
+      "limitation": "Historical region must not be replaced by one modern country."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H09",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:palur"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:reconstructedNetworkConnection"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:malay-peninsula"
+      },
+      "evidenceKind": "historical_interpretation",
+      "period": "Historical route reconstruction; no single dated voyage",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://drs.nio.res.in/drs/bitstream/2264/127/3/Man_Environ_27_117.pdf"
+        }
+      ],
+      "conceptPath": "history/palur-and-bay-routes.md",
+      "limitation": "Not a measured direct sailing track."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H10",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:sembiran"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:evidenceOfContact"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:india"
+      },
+      "evidenceKind": "archaeological_finding",
+      "period": "Early historic context; 1991 publication",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://researchportalplus.anu.edu.au/en/publications/sembiran-the-beginnings-of-indian-contact-with-bali/"
+        }
+      ],
+      "conceptPath": "history/bali-and-indonesia.md",
+      "limitation": "India-wide attribution; not Odisha-exclusive."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H11",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:kalinga"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:epigraphicIdentificationLead"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:java"
+      },
+      "evidenceKind": "research_lead",
+      "period": "Cane inscription discussed as 1021 CE in secondary excerpt",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.researchgate.net/profile/Kenneth-Hall-5/publication/323095005_Textile_Reorientations_The_Manufacture_and_Trade_of_Cottons_in_Java_c_1600-1850/links/661d43d166ba7e2359dcfe60/Textile-Reorientations-The-Manufacture-and-Trade-of-Cottons-in-Java-c-1600-1850.pdf"
+        }
+      ],
+      "conceptPath": "history/bali-and-indonesia.md",
+      "limitation": "Underlying text and interpretation of Kling need verification; excluded from established claims."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:H12",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:disputedDirectMaritimeConnection"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:roman-world"
+      },
+      "evidenceKind": "disputed_interpretation",
+      "period": "Early historic route hypothesis; reassessed 2019",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.currentscience.ac.in/Volumes/116/08/1391.pdf"
+        }
+      ],
+      "conceptPath": "history/roman-connection-review.md",
+      "limitation": "The source concludes direct contact not established; this is not an affirmative trade edge."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:C01",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:baliyatra"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:commemoratesExchangeWith"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:bali"
+      },
+      "evidenceKind": "cultural_commemoration",
+      "period": "Contemporary commemoration; official account 2025",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365"
+        }
+      ],
+      "conceptPath": "culture/boita-bandana.md",
+      "limitation": "Festival memory is not a voyage manifest."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:C02",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:boita"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:associatedCommemoration"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:baliyatra"
+      },
+      "evidenceKind": "cultural_commemoration",
+      "period": "Contemporary practice described 2025",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365"
+        }
+      ],
+      "conceptPath": "culture/boita-bandana.md",
+      "limitation": "No exclusive entrepreneurship interpretation or exact origin year implied."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:C03",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:organised"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:paradip-2023"
+      },
+      "evidenceKind": "institutional_event",
+      "period": "2023-11-27",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1980175"
+        }
+      ],
+      "conceptPath": "trade/paradip-bridge.md",
+      "limitation": "Event participation is not institutional descent from ancient merchants."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:C04",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip-2023"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:celebrated"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:boita"
+      },
+      "evidenceKind": "institutional_event",
+      "period": "2023-11-27",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1980175"
+        }
+      ],
+      "conceptPath": "trade/paradip-bridge.md",
+      "limitation": "No causal effect on exports inferred."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M01",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M01"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2019-20",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/merchandise-exports.md",
+      "limitation": "Odisha-origin merchandise as reported by survey",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M01"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M02",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M02"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2024-25",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/merchandise-exports.md",
+      "limitation": "Odisha-origin merchandise as reported by survey",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M02"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M03",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M03"
+      },
+      "evidenceKind": "derived_statistic",
+      "period": "FY2019-20 to FY2024-25",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/merchandise-exports.md",
+      "limitation": "Nominal endpoint change",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M03"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M04",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M04"
+      },
+      "evidenceKind": "derived_statistic",
+      "period": "FY2019-20 to FY2024-25",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/merchandise-exports.md",
+      "limitation": "Nominal five-year CAGR",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M04"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M05",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:reportedDestinationShare"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:china"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2024-25",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/export-destinations.md",
+      "limitation": "Survey section 1.7.5 destination-share denominator; goods versus all exports requires underlying-table reconciliation",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M05"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M06",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:reportedDestinationShare"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:malaysia"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2024-25",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/export-destinations.md",
+      "limitation": "Survey section 1.7.5 destination-share denominator; goods versus all exports requires underlying-table reconciliation",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M06"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M07",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:reportedDestinationShare"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:vietnam"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2024-25",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/export-destinations.md",
+      "limitation": "Survey section 1.7.5 destination-share denominator; goods versus all exports requires underlying-table reconciliation",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M07"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M08",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M08"
+      },
+      "evidenceKind": "derived_statistic",
+      "period": "FY2024-25",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+        }
+      ],
+      "conceptPath": "trade/export-destinations.md",
+      "limitation": "China, Malaysia and Vietnam; sum of rounded survey shares, not all Asia or ASEAN",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M08"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M09",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M09"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2015-16",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513070"
+        }
+      ],
+      "conceptPath": "trade/paradip-throughput.md",
+      "limitation": "All cargo at Paradip, not Odisha exports",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M09"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M10",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M10"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2025-26",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"
+        }
+      ],
+      "conceptPath": "trade/paradip-throughput.md",
+      "limitation": "All cargo at Paradip, not Odisha exports",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M10"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M11",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M11"
+      },
+      "evidenceKind": "derived_statistic",
+      "period": "FY2015-16 to FY2025-26",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513070"
+        },
+        {
+          "@id": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"
+        }
+      ],
+      "conceptPath": "trade/paradip-throughput.md",
+      "limitation": "Port throughput endpoint change",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M11"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M12",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M12"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2025-26",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"
+        }
+      ],
+      "conceptPath": "trade/paradip-throughput.md",
+      "limitation": "Coastal cargo subset of port total",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M12"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M13",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M13"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "FY2025-26",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"
+        }
+      ],
+      "conceptPath": "trade/paradip-throughput.md",
+      "limitation": "Reported rounded coastal share of all port cargo",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M13"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M14",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:pallishree"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M14"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "2024 event, per article body",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://timesofindia.indiatimes.com/city/bhubaneswar/baliyatra-festival-2023-concludes-with-record-breaking-business-and-footfall/articleshow/115604020.cms"
+        }
+      ],
+      "conceptPath": "trade/baliyatra-commerce.md",
+      "limitation": "ORMAS fair segment; secondary report of official statement, not audited impact",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M14"
+      }
+    },
+    {
+      "@id": "urn:odisha-kb:claim:M15",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:pallishree"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:hasReportedObservation"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:metric-M15"
+      },
+      "evidenceKind": "reported_statistic",
+      "period": "2024 event, per article body",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://timesofindia.indiatimes.com/city/bhubaneswar/baliyatra-festival-2023-concludes-with-record-breaking-business-and-footfall/articleshow/115604020.cms"
+        }
+      ],
+      "conceptPath": "trade/baliyatra-commerce.md",
+      "limitation": "ORMAS fair segment; secondary report",
+      "observation": {
+        "@id": "urn:odisha-kb:entity:metric-M15"
+      }
+    },
+    {
+      "@id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Bali Jatra commemorates rich maritime heritage and culture of Odisha"
+    },
+    {
+      "@id": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1980175",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "President of India graces Boita Bandana ceremony at Paradip"
+    },
+    {
+      "@id": "https://www.vliz.be/imisdocs/publications/381044.pdf",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Geochemical provenance of an Indo-Arabian stone anchor from Manikapatna highlights the medieval maritime trade of India"
+    },
+    {
+      "@id": "https://www.ippasecretariat.org/ippa2026/sessions/s07/s07-a5",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Manikapatna: A Historical Period Port Site on the East Coast of Ancient Kalinga and its Maritime Relation with Southeast Asia"
+    },
+    {
+      "@id": "https://drs.nio.res.in/drs/bitstream/handle/2264/4813/Curr_Sci_109_372.pdf?isAllowed=y&sequence=1",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Khalkattapatna port: the lost archaeological heritage of Odisha, east coast of India"
+    },
+    {
+      "@id": "https://drs.nio.res.in/drs/bitstream/2264/127/3/Man_Environ_27_117.pdf",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Early Maritime Activities of Orissa on the East Coast of India"
+    },
+    {
+      "@id": "https://researchportalplus.anu.edu.au/en/publications/sembiran-the-beginnings-of-indian-contact-with-bali/",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Sembiran: The beginnings of Indian contact with Bali"
+    },
+    {
+      "@id": "https://www.currentscience.ac.in/Volumes/116/08/1391.pdf",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Did Romans have direct maritime trade contacts with Odisha on the Eastern Indian littoral?"
+    },
+    {
+      "@id": "https://www.researchgate.net/profile/Kenneth-Hall-5/publication/323095005_Textile_Reorientations_The_Manufacture_and_Trade_of_Cottons_in_Java_c_1600-1850/links/661d43d166ba7e2359dcfe60/Textile-Reorientations-The-Manufacture-and-Trade-of-Cottons-in-Java-c-1600-1850.pdf",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "A History of Early Southeast Asia — discussion of foreign communities and inscriptions"
+    },
+    {
+      "@id": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Odisha Economic Survey 2025–26, section 1.7 and Figure 1.16"
+    },
+    {
+      "@id": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Paradip port registers historic high cargo handling in FY 25–26"
+    },
+    {
+      "@id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513070",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Increasing efficiency of Major Ports"
+    },
+    {
+      "@id": "https://timesofindia.indiatimes.com/city/bhubaneswar/baliyatra-festival-2023-concludes-with-record-breaking-business-and-footfall/articleshow/115604020.cms",
+      "@type": [
+        "prov:Entity",
+        "schema:CreativeWork"
+      ],
+      "schema:name": "Baliyatra festival sales and footfall report, 23 November 2024"
+    },
+    {
+      "@id": "urn:odisha-kb:claim:G01",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:manikapatna"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:locatedInPresentGeography"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "evidenceKind": "geographic_context",
+      "period": "Present-day location context; not historical territorial equivalence",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.ippasecretariat.org/ippa2026/sessions/s07/s07-a5"
+        }
+      ],
+      "conceptPath": "history/manikapatna.md",
+      "limitation": "Location supplies geographic context; it does not establish cultural origin or a trade route."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:G02",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:khalkatapatna"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:locatedInPresentGeography"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "evidenceKind": "geographic_context",
+      "period": "Present-day location context; not historical territorial equivalence",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://drs.nio.res.in/drs/bitstream/handle/2264/4813/Curr_Sci_109_372.pdf?isAllowed=y&sequence=1"
+        }
+      ],
+      "conceptPath": "history/khalkatapatna.md",
+      "limitation": "Location supplies geographic context; it does not establish cultural origin or a trade route."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:G03",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:sembiran"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:locatedInPresentGeography"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:bali"
+      },
+      "evidenceKind": "geographic_context",
+      "period": "Present-day location context; not historical territorial equivalence",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://researchportalplus.anu.edu.au/en/publications/sembiran-the-beginnings-of-indian-contact-with-bali/"
+        }
+      ],
+      "conceptPath": "history/bali-and-indonesia.md",
+      "limitation": "Location supplies geographic context; it does not establish cultural origin or a trade route."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:G04",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:bali"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:locatedInPresentGeography"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:indonesia"
+      },
+      "evidenceKind": "geographic_context",
+      "period": "Present-day location context; not historical territorial equivalence",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365"
+        }
+      ],
+      "conceptPath": "history/bali-and-indonesia.md",
+      "limitation": "Location supplies geographic context; it does not establish cultural origin or a trade route."
+    },
+    {
+      "@id": "urn:odisha-kb:claim:G05",
+      "@type": "rdf:Statement",
+      "rdf:subject": {
+        "@id": "urn:odisha-kb:entity:paradip"
+      },
+      "rdf:predicate": {
+        "@id": "urn:odisha-kb:vocab:locatedInPresentGeography"
+      },
+      "rdf:object": {
+        "@id": "urn:odisha-kb:entity:odisha"
+      },
+      "evidenceKind": "geographic_context",
+      "period": "Present-day location context; not historical territorial equivalence",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/"
+        }
+      ],
+      "conceptPath": "trade/paradip-throughput.md",
+      "limitation": "Location supplies geographic context; it does not establish cultural origin or a trade route."
+    }
+  ]
+}
