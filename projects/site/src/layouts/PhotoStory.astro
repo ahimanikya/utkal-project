@@ -1,0 +1,6 @@
+---
+import Shell from './Shell.astro';
+const {frontmatter}=Astro.props;
+---
+<Shell title={frontmatter.title}><div class="wrap photo-story"><p class="eyebrow">A photographic memory · February 2009</p><a href="/stories/bhubaneswar-fresco/" class="text-link">Browse all 166 art photographs →</a><article><slot/></article></div></Shell>
+<style>.photo-story{max-width:920px;padding-block:50px}.photo-story article :global(h1){margin-block:30px}.photo-story article :global(p){margin-block:22px}.photo-story article :global(img){width:100%;height:auto;margin:40px 0 10px}.photo-story article :global(blockquote){border-left:3px solid var(--earth);margin:30px 0;padding-left:25px;color:var(--sea);font:24px/1.6 Georgia,serif}.photo-story article :global(hr){border:0;border-top:1px solid var(--line);margin-block:40px}</style>

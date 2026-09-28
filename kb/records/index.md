@@ -9,3 +9,7 @@
 - [research-import-checks.json](research-import-checks.json)
 - [research-import-manifest.json](research-import-manifest.json)
 - [research-import.md](research-import.md)
+
+- [Brand asset provenance and prompts](brand-foundation-assets.json)
+
+- [Website verification](website-brand-checks.json)

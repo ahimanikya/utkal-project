@@ -304,3 +304,127 @@ The Founder asked for an empty or basic start. Minimal source, asset and test fo
 **applied · stewardship**
 
 The Founder authorized proceeding. Both private repositories now contain the reviewed repairs and minimal implementation skeletons on main. Full UTP research and historical images are included. No website deployment occurred. See UTP-DEC-008 and the repair application receipt.
+
+## UTP-HIS-0033 · The basic starter becomes a website and brand studio
+
+**prepared for review · brand and website**
+
+The Founder asked to build the website and decide its brand assets. A local 11-page site now combines selected KB research, a searchable collection and three English–Odia logo treatments. The palette keeps Mankada Pathara dominant. New conceptual artwork, its prompts and the Founder’s material associations are preserved in [the brand brief](../reference/brand-foundation.md). Final logo selection and publication remain pending.
+
+> Now we need to build the website - oh we need to decide on brand assets too
+
+## UTP-HIS-0034 · Sea headings, stone highlights and separate scripts
+
+**Founder direction · implemented locally for review**
+
+Apply website colour roles and separate English/Odia marks; final production assets remain reviewable.
+
+> Use heading in both the brand color nila sagar for main text and mankada pathara for highlight - nila sagar  can become button color
+
+See [Sea headings, stone highlights and separate scripts](../reference/brand-direction-02.md).
+
+## UTP-HIS-0035 · Utkal Store belongs to Utkal Collective
+
+**Founder direction · implemented locally for review**
+
+Create a separately governed store starter in shared code repository, with independent KB; no commercial launch.
+
+> Under Utkal Collective
+
+See [Utkal Store belongs to Utkal Collective](../specs/utkal-store.md).
+
+## UTP-HIS-0036 · Public website leads with mission and Founder
+
+**Founder direction · implemented locally for review**
+
+Simplify public About and add Founder page; preserve internal operating records and concise editorial assistance disclosure.
+
+> On the website, we are not going to talk about AI persona or Humans as much - we have a page for the founder for now.
+
+See [Public website leads with mission and Founder](../reference/brand-direction-02.md).
+
+## UTP-HIS-0037 · Integrate the existing Bhubaneswar photo page
+
+**Founder direction · implemented locally for review**
+
+Integrate Browse_Photos.html collection, story and credited art images; source archive remains unchanged.
+
+> Bhubaneswar Fresco page integrate that page too
+
+See [Integrate the existing Bhubaneswar photo page](../collections/bhubaneswar-fresco/integration.md).
+
+## UTP-HIS-0038 · Four Utkal-branded products; only the T-shirt black
+
+**Founder direction · implemented locally for review**
+
+Range: T-shirt, jhula bag, coffee cup and water bottle; other colours are proposals.
+
+> Only the T-shirt in black
+
+See [Four Utkal-branded products; only the T-shirt black](../specs/utkal-store.md).
+
+## UTP-HIS-0039 · From placeholder objects to a designed first collection
+
+**Prepared for review · merchandise and identity**
+
+> The store merchandise needs to be designed
+
+The Founder redirected attention to actual product design. Sea & Stone is an assistant-proposed collection: four realistic mockups, product-specific graphics and separate outlined vector studies. The earlier CSS objects remain in Git history. The visible designs are for selection, with supplier proofs and samples still to follow. See [vector and merchandise design](../reference/brand-vector-03.md).
+
+## UTP-HIS-0040 · The cup carries a story; artwork becomes a sample brief
+
+**Prepared for review · merchandise and story**
+
+> The cup should carry some story
+
+The Founder’s direction moved the cup from a branded object to a conversation about Odisha. The proposed reverse reads “A Book. A Boat. A Journey.”, with a sourced reference to Boita Bandana and an original book-as-sail metaphor. Four consistent artwork proofs and proposed product sheets support the next sample discussion. No vendor contact or production acceptance has occurred.
+
+## UTP-HIS-0041 · Pictures carry the cup story
+
+**Founder correction · graphical story candidate prepared**
+
+> That English does not make sense - We need use a graphical story
+
+The paragraph interpretation was rejected. The cup now uses an illustrated riverbank, voyage and welcoming shore, with small Utkal branding. The earlier prose version remains private historical evidence. Source and interpretation notes belong outside the cup. This corrects the cup-copy proposal in UTP-HIS-0040.
+
+## UTP-HIS-0042 · Let the name stand out; try the bottle in black
+
+Founder requested prominent Utkal branding on the graphical cup and a black bottle experiment. Larger lettering now anchors the cup; the bottle combines matte black, ivory Odia lettering, laterite and restrained straw waves. Sea blue remains a comparison. These are review candidates.
+
+## UTP-HIS-0043 · Both colours, a better bottle
+
+Founder retained black and blue, then requested a higher-quality bottle. The concept now targets insulated construction, a practical cap and carry loop. Product quality remains to be established by supplier evidence and physical samples.
+
+## UTP-HIS-0044 · A low-budget route to real sales
+
+Founder requested direct e-commerce and Amazon/other marketplace selling. The proposal prioritises small approved stock, existing Astro code, permitted static hosting and external checkout, with manual fulfilment and channel stock allocation. Provider selection and launch are not approved by research. The earlier GitHub Pages commerce assumption is corrected.
+
+## UTP-HIS-0045 · The Jhula becomes Tasar
+
+> I want Tasar Jhula
+
+The Founder chose Tasar for the bag. Natural golden silk now anchors the visual and outer-shell specification. Lining and reinforcement are proposed, with fibre evidence, sample quality, provenance and revised costs still to establish.
+
+## UTP-HIS-0046 · One story across products
+
+Founder clarified that the bags should carry the cup designs and added the T-shirt back. The story now connects cup, Tasar bag and black tee concepts. The front retains its emblem and Odia name; final common print masters are still to be prepared.
+
+## UTP-HIS-0047 · A longer, softer Jhula
+
+Founder asked for a long traditional Tasar bag. The new natural-golden, single-strap soft pouch carries the same sailing story and sits alongside the earlier coloured two-handle concepts. Fit, material and production remain to review.
+
+## UTP-HIS-0048 · A home address for Utkal Project
+
+> I have utkalproject.org now
+
+Ahimanikya Satapathy reported acquiring the domain through GoDaddy. This marks the choice of the project’s web address. Hosting, DNS connection and publication remain to arrange.
+
+## UTP-HIS-0049 · The domain connects to GitHub Pages
+
+Founder authorized a public UTP repository to use GitHub Pages. Browser configuration enabled Actions publishing and connected utkalproject.org through GoDaddy DNS. A manual release workflow preserves the Founder’s publication gate. The website has not yet been deployed.
+
+## UTP-HIS-0050 · The encyclopedia goes first; the Store waits
+
+Founder continued with the first website preview release and asked to keep Store private or unlinked. Its introduction and links are removed from the main site. The separate Store remains unpublished; source files in this public repository remain public.
+
+Release gate clarification: automatic approval review subsequently rejected merging PR #2 because it did not accept the prior “ok” as explicit authorization for that candidate’s merge and public deployment. The Store exclusion is applied; the website remains unpublished pending explicit approval.

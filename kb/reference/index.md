@@ -11,3 +11,10 @@
 - [research-tools.md](research-tools.md)
 
 - [Repository boundaries and proposed code layout](repository-layout.md)
+
+- [Brand foundation](brand-foundation.md)
+
+- [Brand direction 02](brand-direction-02.md)
+- [Odisha sensory identity](odisha-sensory-identity.md)
+
+- [Vector refinement 03](brand-vector-03.md)

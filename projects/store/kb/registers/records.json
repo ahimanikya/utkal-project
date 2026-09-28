@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0.0",
+  "model_version": "1.0.0",
+  "project": "UTS",
+  "name": "Utkal Store",
+  "recorded_at": "2026-09-28T08:38:33.936361+00:00",
+  "human_authority": "Ahimanikya Satapathy",
+  "decision_home": "Founder’s Utkal conversation",
+  "external_refs": {},
+  "projects": [
+    {
+      "id": "UTS-REG-001",
+      "title": "Utkal Store",
+      "status": "in_preparation",
+      "human_owner": "Ahimanikya Satapathy",
+      "charter": "TEAM-CHARTER.md",
+      "refs": [
+        "UTS-DEC-001"
+      ],
+      "evidence": [
+        "reference/project-profile.md"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "id": "UTS-WORK-001",
+      "title": "First collection and local storefront",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "UTS-DEC-001",
+      "next_action": "Review shared-story bag and T-shirt back concepts, then prepare common flat artwork and sample quotes.",
+      "blockers": [],
+      "refs": [
+        "UTS-DEC-001",
+        "UTS-DEC-002",
+        "UTS-DEC-003",
+        "UTS-DEC-004",
+        "UTS-DEC-005",
+        "UTS-DEC-010"
+      ],
+      "evidence": [
+        "specs/store-v0.1.md",
+        "records/checks.json"
+      ]
+    },
+    {
+      "id": "UTS-WORK-002",
+      "title": "Prepare low-budget direct and marketplace commerce",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "UTS-DEC-008",
+      "next_action": "Confirm budget, seller/GST/dispatch setup and pilot range; then prepare vendor and account setup tasks.",
+      "blockers": [
+        "Budget and seller/dispatch inputs unconfirmed",
+        "Samples, economics and channel accounts not approved"
+      ],
+      "refs": [
+        "UTS-DEC-008"
+      ],
+      "evidence": [
+        "specs/commerce-launch-v0.1.md"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "UTS-DEC-001",
+      "title": "Prepare Utkal Store under Utkal Collective",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Under Utkal Collective",
+      "additional_quote": "Let's start simple: Utkal Store for branded T-shirts and cups, etc. I will use vendors from Bangalore to supply this.",
+      "scope": "Add the commercial sub-project and prepare a reviewable starter. Does not approve invented products/prices, appoint vendors, adopt a final charter or authorize launch.",
+      "refs": [],
+      "evidence": [
+        "specs/store-v0.1.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-002",
+      "title": "The first four products; only the T-shirt is black",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Only the T-shirt in black",
+      "context_quote": "All Branck T-shirt, Jhula Bag, Coffee cup and water bottle - start with this four - all will be branded with Utkal",
+      "scope": "Black T-shirt, jhula bag, coffee cup and water bottle. Other colours and designs remain concepts.",
+      "refs": [
+        "UTS-DEC-001"
+      ],
+      "evidence": [
+        "specs/store-v0.1.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-003",
+      "title": "Design the first four merchandise items and refine vector identity",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "The store merchandise needs to be designed",
+      "context_quote": "OK",
+      "scope": "Prepare concrete designs, vector candidates and vendor brief for review; no final acceptance, purchase, vendor contact or deployment.",
+      "recorded_at": "2026-09-28T09:13:23.221257+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "specs/vendor-brief-v1.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-004",
+      "title": "Prepare consistent artwork, product sheets and a story-bearing cup",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Yes, let's do it",
+      "additional_quote": "The cup should carry some story",
+      "scope": "Prepare artwork and sample specification candidates; no final design, spending, vendor contact or deployment approval.",
+      "recorded_at": "2026-09-28T09:33:53.384991+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "specs/sample-pack-v2.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-005",
+      "title": "Replace prose on the cup with a graphical story",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "That English does not make sense - We need use a graphical story",
+      "scope": "Remove proposed paragraph from cup; develop an illustrated wrap. New visuals remain review candidates.",
+      "recorded_at": "2026-09-28T09:40:51.255921+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-004"
+      ],
+      "evidence": [
+        "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-006",
+      "title": "Prominent cup branding and black bottle experiment",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Utkal also has to be prominent - not all image; Refine the water bottle design - we could try black bottle",
+      "scope": "Strengthen cup branding and explore a refined black bottle; no final colour or production approval.",
+      "recorded_at": "2026-09-28T09:48:36.239349+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-005"
+      ],
+      "evidence": [
+        "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-007",
+      "title": "Retain both bottle colours and explore premium construction",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Or we can have both; Can we try some high quality water bottle instead",
+      "scope": "Keep black and blue; prepare a higher-quality bottle proposal. Materials, supplier and costs remain subject to review.",
+      "recorded_at": "2026-09-28T09:53:08.067145+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-006"
+      ],
+      "evidence": [
+        "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-008",
+      "title": "Plan low-budget commerce and marketplace selling",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "We need to see how we enable e-commerce with very low budget and start selling these in amazon and other places too",
+      "scope": "Research and prepare a concrete launch plan; provider and budget choices remain proposals.",
+      "recorded_at": "2026-09-28T10:01:19.604796+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "specs/commerce-launch-v0.1.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-009",
+      "title": "Use Tasar for the Jhula",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "I want Tasar Jhula",
+      "scope": "Replace canvas outer with a Tasar silk design target; construction, authenticity, sourcing and price await samples.",
+      "recorded_at": "2026-09-28T10:05:12.631718+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-003"
+      ],
+      "evidence": [
+        "specs/sample-pack-v3.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-010",
+      "title": "Share cup stories with bags and T-shirt back",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "I want to have the same design for bags like cups",
+      "additional_quote": "Also T-shirt back we can use that",
+      "scope": "Apply shared graphical story to Tasar bag concepts and black T-shirt back; no final colour, print-master or production approval.",
+      "recorded_at": "2026-09-28T10:25:13.897780+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-009"
+      ],
+      "evidence": [
+        "specs/shared-story-v4.md"
+      ]
+    },
+    {
+      "id": "UTS-DEC-011",
+      "title": "Explore a long traditional-form Tasar Jhula",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "We can try these - but what about a long Jhula with a traditional tusar bag -",
+      "scope": "Prepare an additional long-strap soft-pouch concept while retaining existing bag studies; not final material/fit or production approval.",
+      "recorded_at": "2026-09-28T10:31:38.044381+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTS-DEC-010"
+      ],
+      "evidence": [
+        "specs/shared-story-v4.md"
+      ]
+    }
+  ],
+  "requirements": [],
+  "reviews": [],
+  "releases": [],
+  "sources": [],
+  "relationships": [],
+  "record_homes": {
+    "governance": "Working-Agreement.md",
+    "members_and_assignments": "team/assignments.json",
+    "project_profile": "reference/project-profile.md"
+  },
+  "optional_extensions": {
+    "contributions": {
+      "enabled": false,
+      "activation": "Before accepting public submissions",
+      "minimum_fields": [
+        "id",
+        "submitted_at",
+        "contributor_credit",
+        "consent_reference",
+        "review_status",
+        "work_ref",
+        "publication_ref"
+      ]
+    },
+    "heritage_connections": {
+      "enabled": false,
+      "activation": "When lineage research begins",
+      "minimum_fields": [
+        "id",
+        "places",
+        "period",
+        "connection_type",
+        "claim",
+        "sources",
+        "confidence",
+        "review_status",
+        "consent_reference_if_needed"
+      ]
+    }
+  }
+}

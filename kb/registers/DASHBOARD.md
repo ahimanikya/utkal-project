@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `01a6fa84282adade173b020577251598663d168251c0995e12bcf75f7c1438cf`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `94a30adfbdcde40774002295a318a4eb6e5e8db2f0d02af6ea2f332ec4ff6ca7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -14,15 +14,22 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ID / work | Status | Readiness | Human owner | Next action | Blockers |
 |---|---|---|---|---|---|
 | UTP-WORK-001 · Samanta Chandrasekhar entry and local website preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the entry and design; resolve source limitations before publication. | No public reuse licence selected; Conflicting birth dates and limited full-text source inspection |
-| UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | in_progress | concept | Ahimanikya Satapathy | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. | Generated board still shows obsolete Kankada label after two correction attempts; do not treat as production artwork |
+| UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | awaiting_review | reviewed | Ahimanikya Satapathy | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. | Final logo and typography choice pending; vector/reversed masters not yet produced. |
 | UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views. Historical binary assets are now included on main. | — |
-| UTP-WORK-004 · Link the OKF reading index from the Git README | completed | applied | Ahimanikya Satapathy | Maintain the bundled KB and basic starter; integrate existing website source when site development begins. | — |
+| UTP-WORK-004 · Link the OKF reading index from the Git README | completed | applied | Ahimanikya Satapathy | Maintain the bundled KB and navigation. Site implementation continues under UTP-WORK-005. | — |
+| UTP-WORK-005 · Website foundation and reviewable brand studio | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. | — |
+| UTP-WORK-006 · Prepare Utkal Store under Utkal Collective | awaiting_review | reviewed | Ahimanikya Satapathy | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. | — |
+| UTP-WORK-007 · Integrate Bhubaneswar Fresco archive | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews local candidate; no deployment has occurred. | — |
 
 ## Pending human review and decisions
 
 | Record | Reason / scope |
 |---|---|
 | UTP-WORK-001 | Founder review of the entry and design; resolve source limitations before publication. |
+| UTP-WORK-002 | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. |
+| UTP-WORK-005 | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. |
+| UTP-WORK-006 | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. |
+| UTP-WORK-007 | Founder reviews local candidate; no deployment has occurred. |
 
 ## Decisions
 
@@ -35,6 +42,20 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-006 · Include full research and connect organizational knowledge to delivery | approved | Ahimanikya Satapathy | Import full research and document a connected organizational OKF and proposed work programme. Future workstream execution remains subject to scoped human decisions. |
 | UTP-DEC-007 · Agree repository layout for configuration, knowledge and implementation | approved | Ahimanikya Satapathy | Agree root utkal.config.json, kb/ knowledge, tools/ maintenance, projects/site/ UTP code and projects/_template/ Blueprint implementation boilerplate. Boilerplate contents and creation flow remain to be defined; no merge or deployment acceptance is recorded. |
 | UTP-DEC-008 · Apply reviewed repository repair and basic starter | approved | Ahimanikya Satapathy | Merge reviewed repository repair and basic source/assets/tests skeleton. Excludes website deployment, new appointments and implementation of future features. |
+| UTP-DEC-009 · Build the website foundation and prepare brand choices | recorded_direction | Ahimanikya Satapathy | Prepare website implementation and brand review candidate. Preserve approved identity and existing knowledge; no final logo acceptance, public deployment or new persona activation inferred. |
+| UTP-DEC-010 · Sea headings, stone highlights and separate scripts | recorded_direction | Ahimanikya Satapathy | Apply website colour roles and separate English/Odia marks; final production assets remain reviewable. |
+| UTP-DEC-011 · Utkal Store belongs to Utkal Collective | recorded_direction | Ahimanikya Satapathy | Create a separately governed store starter in shared code repository, with independent KB; no commercial launch. |
+| UTP-DEC-012 · Public website leads with mission and Founder | recorded_direction | Ahimanikya Satapathy | Simplify public About and add Founder page; preserve internal operating records and concise editorial assistance disclosure. |
+| UTP-DEC-013 · Integrate the existing Bhubaneswar photo page | recorded_direction | Ahimanikya Satapathy | Integrate Browse_Photos.html collection, story and credited art images; source archive remains unchanged. |
+| UTP-DEC-014 · Four Utkal-branded products; only the T-shirt black | recorded_direction | Ahimanikya Satapathy | Range: T-shirt, jhula bag, coffee cup and water bottle; other colours are proposals. |
+| UTP-DEC-015 · Design the first four merchandise items and refine vector identity | recorded_direction | Ahimanikya Satapathy | Prepare concrete designs, vector candidates and vendor brief for review; no final acceptance, purchase, vendor contact or deployment. |
+| UTP-DEC-016 · Prepare consistent artwork, product sheets and a story-bearing cup | recorded_direction | Ahimanikya Satapathy | Prepare artwork and sample specification candidates; no final design, spending, vendor contact or deployment approval. |
+| UTP-DEC-017 · Replace prose on the cup with a graphical story | recorded_direction | Ahimanikya Satapathy | Remove proposed paragraph from cup; develop an illustrated wrap. New visuals remain review candidates. |
+| UTP-DEC-018 · Prominent cup branding and black bottle experiment | recorded_direction | Ahimanikya Satapathy | Strengthen cup branding and explore a refined black bottle; no final colour or production approval. |
+| UTP-DEC-019 · Retain both bottle colours and explore premium construction | recorded_direction | Ahimanikya Satapathy | Keep black and blue; prepare a higher-quality bottle proposal. Materials, supplier and costs remain subject to review. |
+| UTP-DEC-020 · Founder reports acquisition of utkalproject.org at GoDaddy | recorded_direction | Ahimanikya Satapathy | Record the acquired domain and registrar. Hosting and DNS connection remain to arrange; no publication authorization is inferred. |
+| UTP-DEC-021 · Make UTP public and configure GitHub Pages with GoDaddy DNS | approved | Ahimanikya Satapathy | Public visibility for utkal-project and GitHub Pages/domain configuration. Blueprint unchanged; first website release and draft PR merge not performed. |
+| UTP-DEC-022 · Exclude Store from the first website release | approved | Ahimanikya Satapathy | Remove the main-site Store introduction and links; do not publish the separate Store app. Store source remains in the public repository, not private. The assistant interpreted the prior ok as permission to proceed with release, but automatic approval review rejected the merge for lack of explicit candidate merge/deployment authorization. Release remains pending explicit Founder approval. |
 
 ## Reviews
 
@@ -42,6 +63,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|
 | UTP-REV-003 | pass_with_limitations | False | Historical review evidence copied from local preview; not a new test run; Birth-date conflict remains visible; Full IIA text not inspected; No exhaustive accessibility or scholarly audit |
 | UTP-REV-004 | pass_with_limitations | False | Local self-review; remote application is checked separately; Validator does not authenticate human approvals or verify historical claims |
+| UTP-REV-005 | pass_with_limitations | False | Self-review by implementing assistant, not independent review; No new historical-source verification or external-link availability audit; No complete accessibility or cross-browser audit; Final logo choice, vector/reversed masters and small-size refinements pending; Mobile visual review, image/font payload optimization and hosting verification remain before launch; No public deployment or working contribution intake; analytics and AI chat remain deferred |
+| UTP-REV-006 | pass_with_limitations | False | No mobile visual or exhaustive accessibility audit; Final logo production files, vendor samples and ordering remain pending; Some botanical sources were available only as indexed excerpts |
 
 ## Publication and application history
 
@@ -57,6 +80,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|
 | UTP-SRC-001 · Initial brand/history evidence collection | preserved | Founder direction and AI-assisted design; individual source/provenance files preserved in manifest | No public reuse licence selected; internal review evidence |
 | UTP-SRC-002 · First encyclopedia draft and source trail | draft | Ahimanikya Satapathy direction; AI-assisted research and draft; source attribution in entry | Source-specific rights apply; no public reuse licence selected |
+| UTP-SRC-003 · Website brand concept assets and original font files | proposal | Creative direction: Ahimanikya Satapathy. Current assistant and built-in image-generation assistance; Noto creators retain font credit. | Original Noto OFL licences included; no public reuse licence selected for project artwork. |
 
 ## Relationships
 
@@ -70,6 +94,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|
 | UTP-REG-002 · Utkal Project | active | UTP-DEC-002 |
 | UTP-REQ-001 · First encyclopedia entry and local preview brief | approved | UTB-DEC-005 |
+| UTP-REQ-002 · Website and brand foundation brief | draft_from_founder_direction | UTP-DEC-009 |
 
 ## Canonical record homes
 
@@ -85,16 +110,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-007 | 2026-09-28T06:15:09+00:00 | Added README reading navigation and organizational knowledge-to-work guidance. Full research: 529 files prepared, 462 active concepts, six validators passed; awaiting Git access for bulk publication. | Locate the authenticated local Git clone, import the prepared collection and verify it on GitHub. |
-| UTP-EVT-008 | 2026-09-28T06:27:17+00:00 | README and organizational OKF verified. All 54 uploaded research files verified against local contents. Further browser commits failed with “File could not be edited”; full local collection and validation preserved. Git authentication is not available. | Resume the preserved full import using an authenticated Git clone; 54 research files are already verified on GitHub. Recheck the collection, activate its index links and record completion. |
-| UTP-EVT-009 | 2026-09-28T06:31:54+00:00 | Founder corrected the index-only structure. Prepared a self-contained KB layout and complete relocation inventory. No files moved; prior import-only continuation stopped. | Review the complete project-KB layout and file relocation map before applying the structural migration. Earlier README linking does not meet the corrected bundle requirement. |
-| UTP-EVT-010 | 2026-09-28T06:39:33+00:00 | Founder clarified Blueprint as reusable type and UTP as instance. Read reference initializer, configuration, KB structures, generation/check tooling, rules and JML. Prepared corrected model review; old relocation proposal superseded. No source code copied or run; no migration applied. | Review the corrected Blueprint type / UTP instance model and complete adaptation package before migration. The prior folder-only relocation map is withdrawn. |
-| UTP-EVT-011 | 2026-09-28T06:53:49+00:00 | Complete local candidate prepared under the Founder’s instruction. Template/instance separation, portable KB paths, original evidence and unchanged assignments checked. No GitHub application or new baseline adoption claimed. | Review the complete local repair candidate, then reconcile and apply it through authenticated Git. No migration is applied remotely. |
-| UTP-EVT-012 | 2026-09-28T07:14:55+00:00 | Git access verified as ahimanikya. Reconciled the complete KB repair against the current private repository and prepared a review branch. Prior source/history preserved; no Founder acceptance or merge claimed. | Review the proposed repair and obtain Founder approval before merging. |
-| UTP-EVT-013 | 2026-09-28T07:37:52+00:00 | Founder clarified that configuration belongs outside the KB, project boilerplate differs from a project-definition form, and the repository will contain website source code. Moved config to repository root and updated consuming tools. Code layout remains a proposal; no website source was moved. | Review the boundary correction and agree the implementation boilerplate. |
-| UTP-EVT-014 | 2026-09-28T07:45:06+00:00 | Recorded Founder agreement to repository layout. Boilerplate details, creation tooling and site migration remain unfinished. | Define boilerplate contents and project-creation flow. |
-| UTP-EVT-015 | 2026-09-28T07:47:13+00:00 | Founder requested an empty or basic start. Added README and empty src/public/tests folders to the review branch. No framework installation, prototype migration or automated initializer. | Review the basic structure; add implementation as work requires. |
-| UTP-EVT-016 | 2026-09-28T07:51:09+00:00 | Founder authorized proceeding. Verified PR #1 merged into private main at a6c729b948a90a30032c98a84d9950228d594338. Root config, KB bundle and basic implementation skeleton are applied. | Maintain the structure and develop the site when its next task begins. |
+| UTP-EVT-019 | 2026-09-28T08:51:44.276078+00:00 | Prepared new colour/script direction, founder page, four-product store under Collective, sensory research and 166-photo Fresco integration. Source originals unchanged. | Record final checks and submit updated private review candidate. |
+| UTP-EVT-020 | 2026-09-28T09:13:23.221257+00:00 | Prepared four rendered merchandise concepts, outlined vector brand and print studies, design-review page and downloadable vendor review pack. Not a production release. | Verify candidate and submit to existing draft review. |
+| UTP-EVT-021 | 2026-09-28T09:33:53.384991+00:00 | Prepared shared-geometry artwork, four product/sample sheets and a sourced story for the reverse of the cup; proposed blank specifications are not approvals. | Founder review, then actual vendor templates and samples. |
+| UTP-EVT-022 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
+| UTP-EVT-023 | 2026-09-28T09:48:36.239349+00:00 | Enlarged cup UTKAL lettering and developed a matte-black bottle candidate. Sea-blue bottle retained for comparison. | Founder reviews the refined cup and bottle. |
+| UTP-EVT-024 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
+| UTP-EVT-025 | 2026-09-28T12:04:09.709689+00:00 | Recorded Founder-reported acquisition of utkalproject.org with GoDaddy. Website remains undeployed. | Confirm hosting and prepare domain connection while preserving existing DNS records. |
+| UTP-EVT-026 | 2026-09-28T13:02:07.055710+00:00 | Verified public repository, enabled Actions Pages, saved utkalproject.org and updated GoDaddy web DNS. Prepared manual release workflow; local 15-page build and six tests passed. TLS provisioning and first deployment remain pending. | Complete HTTPS verification, then obtain Founder approval for the concrete website release before merging and running the manual workflow. |
+| UTP-EVT-027 | 2026-09-28T13:13:17.165031+00:00 | Founder continued to first website release and excluded Store. Removed main-site Store route and links; GitHub DNS check successful and HTTPS enforcement enabled. Deployment pending. | Validate the 14-page site, merge the prepared release and publish only the website. |
+| UTP-EVT-028 | 2026-09-28T13:15:56.367761+00:00 | Website builds 14 pages and all seven tests pass. Store route and links removed. HTTPS enforcement verified. Automatic approval review rejected merge of PR #2: prior ok did not constitute explicit merge/public deployment authorization. No merge or workflow deployment performed. | Obtain explicit approval to merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded. |
 
 ## Deferred extensions
 

@@ -1,0 +1,7 @@
+---
+const {product, large=false}=Astro.props;
+---
+<figure class:list={['merch-render',{'large':large}]}>
+ <img src={product.image} alt={product.description+' AI-generated design concept; not a manufactured sample.'} width="1448" height="1086" loading={large?'eager':'lazy'}/>
+ <figcaption>SEA & STONE · DESIGN CONCEPT</figcaption>
+</figure>

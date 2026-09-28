@@ -1,0 +1,19 @@
+---
+import Shell from '../layouts/Shell.astro';
+import notes from '../data/selected.json';
+const entries=[{label:'Samanta Chandrasekhar',category:'People',dek:'Pathani Samanta: an astronomer, his observations and the work he left behind.',href:'/people/samanta-chandrasekhar/'},{label:'Bhubaneswar Fresco · Painted Streets',category:'Living culture',dek:'A photographic walk through Bhubaneswar in February 2009, by Ahimanikya Satapathy.',href:'/stories/bhubaneswar-fresco/'},...notes];
+const topics=['All','People','Places','Living culture','Food','Maritime connections'];
+---
+<Shell title="Explore the collection" active="explore"><div class="wrap"><div class="page-head"><p class="eyebrow">The collection · preview edition</p><h1>Where will curiosity<br/>take you?</h1><p class="lead">Begin with a person, a place or a practice. Each entry is a starting point, with sources to follow and more to learn.</p></div>
+<form class="filter-form" id="search-form" role="search"><label for="search">Search this preview collection<input id="search" name="q" type="search" placeholder="Try Chilika, textiles or Samanta" autocomplete="off"/></label><button class="button" type="submit">Search <span aria-hidden="true">↗</span></button></form>
+<div class="filters" aria-label="Filter by topic">{topics.map(topic=><a href={topic==='All'?'/explore/':'/explore/?topic='+encodeURIComponent(topic)} data-topic={topic} aria-current={topic==='All'?'true':undefined}>{topic}</a>)}</div><p class="result-count" id="result-count" aria-live="polite">{entries.length} entries in this preview</p><div class="notes-grid search-results" id="results">{entries.map(e=><article class="note-card" data-category={e.category} data-search={(e.label+' '+e.dek+' '+e.category).toLowerCase()}><p class="eyebrow">{e.category} · Editorial draft</p><h3><a href={e.href}>{e.label}</a></h3><p>{e.dek}</p><a href={e.href} class="card-bottom"><span>Read the entry</span><span aria-hidden="true">↗</span></a></article>)}</div><p class="empty" id="empty-results" hidden>No matching entries in this preview. Try another word or choose “All”.</p><div class="section"><p class="notice">This is a small selection from our research collection. Entries are drafts awaiting editorial review; this is not the full encyclopedia.</p></div></div></Shell>
+<script>
+ const input=document.querySelector<HTMLInputElement>('#search')!;
+ const cards=[...document.querySelectorAll<HTMLElement>('#results article')];
+ const buttons=[...document.querySelectorAll<HTMLAnchorElement>('[data-topic]')];
+ const params=new URLSearchParams(location.search);
+ let topic=buttons.some(b=>b.dataset.topic===params.get('topic'))?params.get('topic')!:'All';
+ input.value=params.get('q')||'';
+ function filter(){const q=input.value.trim().toLocaleLowerCase();let count=0;for(const card of cards){const show=(topic==='All'||card.dataset.category===topic)&&(card.dataset.search||'').includes(q);card.hidden=!show;if(show)count++;}for(const b of buttons){b.setAttribute('aria-current',String(b.dataset.topic===topic));const target=new URLSearchParams();if(input.value.trim())target.set('q',input.value.trim());if(b.dataset.topic!=='All')target.set('topic',b.dataset.topic!);b.href='/explore/'+(target.size?'?'+target:'');}document.querySelector('#result-count')!.textContent=`${count} ${count===1?'entry':'entries'} in this preview`;document.querySelector<HTMLElement>('#empty-results')!.hidden=count>0;const next=new URLSearchParams();if(q)next.set('q',input.value.trim());if(topic!=='All')next.set('topic',topic);history.replaceState(null,'',location.pathname+(next.size?'?'+next:''));}
+ input.addEventListener('input',filter);document.querySelector('#search-form')!.addEventListener('submit',e=>{e.preventDefault();filter();});filter();
+</script>

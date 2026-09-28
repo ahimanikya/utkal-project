@@ -1,0 +1,28 @@
+---
+import Store from '../layouts/Store.astro';
+import ProductArt from '../components/ProductArt.astro';
+import products from '../data/products.json';
+import spec from '../../kb/specs/sample-specifications-v4.json';
+---
+<Store title="Sea & Stone · shared story review">
+<div class="wrap">
+<section class="collection">
+<p class="eyebrow">COLLECTION 01 · SHARED STORY v4</p>
+<h1>One story.<br/><em>Many ways to carry it.</em></h1>
+<p class="lead">From cups to Tasar bags—and the back of a black Utkal T-shirt.</p>
+<p>The riverbank and sailing scenes connect the collection. UTKAL stays prominent; the T-shirt front and bottle retain the familiar emblem.</p>
+<p class="design-note">These are illustrated design concepts. Fabrics, printing and final artwork will be checked against physical samples.</p>
+</section>
+{products.map((product,i)=>{const row=spec.products[i];return <section class="artwork-review" id={'review-'+product.id}>
+<div><ProductArt product={product}/><p class="design-note">{product.id==='utkal-tee'?'Front and back concept.':product.id==='jhula-bag'?'Matching riverbank and sailing concepts.':'Material and design concept.'} Not a manufactured sample.</p></div>
+<div><p class="eyebrow">{row.code} · {product.name}</p><h2>{product.id==='jhula-bag'?'The story you carry.':product.id==='utkal-tee'?'A story on the back.':product.id==='coffee-cup'?'A story in pictures.':'Sea & Stone.'}</h2><p>{product.description}</p>
+{product.id==='jhula-bag'&&<p class="design-note">The new illustrations replace the earlier emblem-only bag design. Shared flat artwork will be prepared after this direction is reviewed.</p>}
+{product.artwork&&<details><summary>{product.id==='utkal-tee'?'View the existing front artwork':'View the working flat artwork'}</summary><div class:list={['artwork-proof',{'dark':product.kind==='tee'||product.kind==='bottle'}]}><img src={product.artwork} alt={product.name+(product.id==='utkal-tee'?' front-only artwork':' working artwork')}/></div><a href={product.artwork} download>{product.id==='coffee-cup'?'Download illustrated wrap ↓':product.id==='utkal-tee'?'Download front artwork only ↓':'Download artwork ↓'}</a>{product.id==='utkal-tee'&&<p class="design-note">The back illustration is a new concept; it is not included in this front print file.</p>}</details>}
+<h3 style="margin-top:24px">Proposed specification</h3><p>{row.proposal}</p><p class="design-note">{row.base}</p><p class="design-note">{row.placement}</p>
+</div></section>})}
+<section class="artwork-review" id="long-jhula"><div><img src="/images/story-family-v4/long-tasar-jhula.png" alt="Long natural-golden Tasar Jhula concept with one broad shoulder strap, button closure and the Utkal sailing story" style="display:block;width:100%;height:auto"/><p class="design-note">Illustrated design concept; fabric, fit and construction await a physical sample.</p></div><div><p class="eyebrow">ANOTHER WAY TO CARRY THE STORY</p><h2>The long Tasar Jhula.</h2><p class="lead">A relaxed pouch with one long, broad strap, natural golden Tasar and a simple button closure.</p><p>The cup’s sailing scene carries onto the front, with a prominent sea-blue UTKAL name and a fine laterite edge. More fabric stays visible around the story.</p><p class="design-note">Proposed study: body about 32 × 43 cm, strap about 105–115 cm long and 5 cm wide, with lining and reinforced joins. Dimensions and carrying comfort need sample review.</p><p>This is an additional shape to compare with the two-handle bags above.</p></div></section>
+<section class="closing" id="cup-colours"><p class="eyebrow">THE MATCHING CUP REFERENCES</p><h2>Earth or sea.</h2><p>Mankada Pathara terracotta with the riverbank scene; Nila Sagara blue with the sailing scene. These are the references for the matching Tasar bags and T-shirt back.</p><img src="/images/cup-colour-exploration-v1.png" alt="Terracotta and sea-blue Utkal cups with the story designs used on the matching bags" style="display:block;width:100%;height:auto"/><p class="design-note">Colour alternatives remain open for review. The original ivory cup is preserved alongside these concepts.</p></section>
+<section class="closing"><p class="eyebrow">THE STORY</p><h2>{spec.cup_story.title}</h2><p class="lead">{spec.cup_story.scenes.join(' · ')}</p><p class="design-note">The <a href={spec.cup_story.source_url}>Ministry of Culture</a> describes the maritime remembrance and boat ritual. These illustrations interpret that heritage; they do not reconstruct a particular historical voyage.</p>
+<details><summary>Earlier sample sheets and artwork</summary><p class="design-note">Version 3 predates the matching bag stories and T-shirt back print. It is retained for reference and does not contain the current bag or back design.</p><p><a href="/artwork/sea-and-stone-v3/utkal-product-sheets-v3.pdf">Earlier four-product sheets ↗</a> · <a href="/artwork/utkal-sample-pack-v3.zip" download>Earlier sample pack ↓</a></p></details>
+</section>
+</div></Store>

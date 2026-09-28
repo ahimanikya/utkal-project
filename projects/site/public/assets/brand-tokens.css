@@ -1,0 +1,16 @@
+/* Utkal Project — approved colour families; working digital values. */
+:root {
+  --utp-mankada-pathara: #91462F;
+  --utp-nila-sagara: #1D4658;
+  --utp-sukha-ghasi-olive: #74633B;
+  --utp-sukha-ghasi-straw: #C1A263;
+  --utp-limewash: #F2E6D0;
+  --utp-earth-ink: #302E28;
+  --color-page: var(--utp-limewash);
+  --color-text: var(--utp-earth-ink);
+  --color-heading: var(--utp-nila-sagara);
+  --color-link: var(--utp-nila-sagara);
+  --color-action: var(--utp-nila-sagara);
+  --color-on-action: var(--utp-limewash);
+  --color-decoration: var(--utp-sukha-ghasi-straw);
+}

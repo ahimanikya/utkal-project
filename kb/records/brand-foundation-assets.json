@@ -1,0 +1,80 @@
+{
+  "version": "0.1",
+  "status": "proposal_for_founder_review",
+  "recorded_at": "2026-09-28T08:20:55.132Z",
+  "direction_credit": "Ahimanikya Satapathy",
+  "execution_credit": "Current AI assistant; built-in image generation. No new persona activation.",
+  "reference": "history/evidence/initial-capture/earlier-identity-board.png",
+  "prompts": [
+    {
+      "asset": "projects/site/public/assets/coast-illustration-v1.png",
+      "prompt": "Use case: illustration-story. Asset type: a single editorial illustration for the Utkal Project website, a brand concept for review. Reference image is mood/style reference only; use the large coastal illustration, not its typography or page layout. Create a NEW wide 3:2 horizontal artwork inspired by that warm, hand-painted Indian coastal heritage illustration. Scene: a wooden two-sailed boat on a quiet Odisha-inspired coast, framed by graceful foliage and coconut palms, with subtle floral ornament and hand-drawn wave rhythms. No claims of a specific real location or historical reconstruction. Style: restrained folk-art-inspired editorial gouache on lightly textured warm paper; sophisticated handmade detail, not a photograph and not cartoonish. Palette: rich laterite terracotta #91462F must define the overall warmth and boat/ornament; deep sea blue #1D4658 for water; muted olive #74633B for leaves; dry straw #C1A263 and cream #F2E6D0 for sails and paper. Warm terracotta rather than burgundy. Keep the image as ONE continuous scene, no panels, logos, lettering, labels, typography, UI or swatches. Calm natural composition with the boat readable at smaller widths; dignified, inviting, heritage-rich. Do not copy the reference logo. This will be credited as AI-assisted conceptual artwork, not a traditional artisan's original.",
+      "transparency": false
+    },
+    {
+      "asset": "projects/site/public/assets/book-boat-v1.png",
+      "prompt": "Use case: logo-brand. Asset type: transparent-background symbol for Utkal Project, a concept for review. Reference image: use ONLY the top-left open-book / two-sailed-boat symbol as the visual idea, ignore all words and all other artwork. Create a refined, flat two-colour brand symbol: two rising open book pages also read as the sails of a boat, above a simple curved hull. Balanced, dignified, warm heritage character, exceptionally clear at small sizes. Dominant sails and page forms in earthy laterite terracotta #91462F, hull in deep sea blue #1D4658. Use a small transparent negative-space page fold, no tiny ornament. Absolutely no letters, no words, no border, no shadow, no gradients, no mockup, no texture, no background. Centre a single symbol with modest clear space on a truly transparent canvas. Preserve the recognizable open-book-meets-boat idea but refine its proportions.",
+      "transparency": true
+    }
+  ],
+  "unused_iteration": {
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied book-and-boat icon. Keep the exact silhouette of the two open-book sails and curved hull. REMOVE ALL glow, shadows, haze, gradients, soft blur, highlights and backdrop. Use only TWO SOLID OPAQUE FLAT INK FILLS: sails #91462F and hull #1D4658. All space around the shape and between page-fold shapes must be fully transparent, not black and not translucent glow. Crisp clean vector-like edges. No extra elements. A plain flat logo suitable for printing on white paper. Do not add glow or any lighting effect.",
+    "note": "A second raster refinement was generated but not selected for this preview."
+  },
+  "artwork_limitations": [
+    "Conceptual artwork, not documentary evidence or a reconstruction of a specific voyage or place.",
+    "Raster concept; final vector master and optical small-size refinement await logo choice.",
+    "No public reuse licence selected for project artwork."
+  ],
+  "font_sources": [
+    "https://notofonts.github.io/oriya/fonts/NotoSerifOriya/full/ttf/NotoSerifOriya-Bold.ttf",
+    "https://notofonts.github.io/oriya/fonts/NotoSansOriya/full/ttf/NotoSansOriya-Bold.ttf"
+  ],
+  "font_licences": [
+    "projects/site/public/fonts/OFL.txt",
+    "projects/site/public/fonts/OFL-NotoSansOriya.txt"
+  ],
+  "font_note": "Original unmodified files carried from the prior local brand review. Noto filenames retain Oriya; displayed language is Odia. English uses system Georgia; no English font binary bundled.",
+  "assets": [
+    {
+      "path": "projects/site/public/assets/book-boat-v1.png",
+      "sha256": "493584d03730ab46a5b14ed8aaa451b339e5b3dac7476cd0c404a8a639728836",
+      "bytes": 1173984
+    },
+    {
+      "path": "projects/site/public/assets/brand-tokens.css",
+      "sha256": "3246d2fddacd178811e181ca1674e756b493076e1c64a661b3265f3c53582589",
+      "bytes": 577
+    },
+    {
+      "path": "projects/site/public/assets/coast-illustration-v1.png",
+      "sha256": "ac4eda91e3044e716661ea3d0125870585f35d836ba6e85ebd30ddf93bdc6726",
+      "bytes": 3653835
+    },
+    {
+      "path": "projects/site/public/fonts/NotoSansOriya-Bold.ttf",
+      "sha256": "19465e66d1cf2e0a02a8d6385ac31552da94cf87b27240012f10c0298b5bff6a",
+      "bytes": 206852
+    },
+    {
+      "path": "projects/site/public/fonts/NotoSerifOriya-Bold.ttf",
+      "sha256": "5fbdeb6c6abde4e42f91037564446c0e9f19443e1a879a7ee9ae294357c294c6",
+      "bytes": 185996
+    },
+    {
+      "path": "projects/site/public/fonts/OFL-NotoSansOriya.txt",
+      "sha256": "c90ff15ade263a49148e35af34e9c177c6d56881e81260b29f10123e9e227eca",
+      "bytes": 4381
+    },
+    {
+      "path": "projects/site/public/fonts/OFL.txt",
+      "sha256": "c90ff15ade263a49148e35af34e9c177c6d56881e81260b29f10123e9e227eca",
+      "bytes": 4381
+    },
+    {
+      "path": "projects/site/public/robots.txt",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "bytes": 26
+    }
+  ]
+}
