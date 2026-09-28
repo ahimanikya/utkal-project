@@ -124,12 +124,13 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-005",
-      "next_action": "Review corrected root configuration and KB boundaries; define Utkal implementation boilerplate and complete project-creation tooling before claiming the starter complete.",
+      "next_action": "Define the Utkal implementation boilerplate and project-creation flow within the agreed directory layout; complete the starter before claiming it ready.",
       "blockers": [],
       "readiness": "reviewed",
       "refs": [
         "UTP-DEC-005",
-        "UTP-DEC-006"
+        "UTP-DEC-006",
+        "UTP-DEC-007"
       ],
       "evidence": [
         "index.md",
@@ -221,6 +222,23 @@
       ],
       "evidence": [
         "specs/knowledge-to-work.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-007",
+      "title": "Agree repository layout for configuration, knowledge and implementation",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "That make sense",
+      "scope": "Agree root utkal.config.json, kb/ knowledge, tools/ maintenance, projects/site/ UTP code and projects/_template/ Blueprint implementation boilerplate. Boilerplate contents and creation flow remain to be defined; no merge or deployment acceptance is recorded.",
+      "recorded_at": "2026-09-28T07:45:06+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "reference/repository-layout.md"
       ]
     }
   ],

@@ -286,3 +286,9 @@ Git access is verified for both private repositories. The complete KB repair, re
 **founder direction · architecture**
 
 The Founder clarified that config belongs at repository root and project boilerplate provides an implementation starting point. Website source and build files will live alongside the KB. Root config is corrected in the review branch; the site layout and creation flow remain under review.
+
+## UTP-HIS-0030 · Repository layout agreed
+
+**approved layout · architecture**
+
+The Founder accepted the repository layout. Root config, KB, tools and code remain distinct. Boilerplate contents and creation tooling are next to define. See UTP-DEC-007.

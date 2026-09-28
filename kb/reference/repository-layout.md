@@ -1,5 +1,5 @@
 ---
-type: "Architecture proposal"
+type: "Architecture decision"
 title: "Repository boundaries: configuration, knowledge and source code"
 ---
 
@@ -13,11 +13,11 @@ Founder direction: the KB contains organizational knowledge and work records. Ru
 
 `kb/` contains charters, working agreements, roles/JDs, plans, requirements, research, architecture, decisions, registers and history. Structured knowledge data can be JSON; that does not make it executable configuration. The KB can be read on its own; executable checks and build tools require the repository around it.
 
-## Proposed code layout — for review
+## Agreed code layout — implementation pending
 
 Blueprint's `projects/_template/` is to become an implementation boilerplate. It is distinct from the knowledge-document templates under `kb/templates/` and from the configuration template under root `templates/`. Its contents must be selected for Utkal's work before implementation. This document does not claim that boilerplate or a project initializer is complete.
 
-For UTP, an initial layout can place the Astro site in `projects/site/`, including `src/` for pages, components and styles; `public/` for reviewed display assets; `tests/` for relevant checks; and its package, lock and Astro/TypeScript build files. Other code projects can be added when needed. Common repository maintenance tools remain in root `tools/`; any future CI workflows belong in root `.github/workflows/`.
+For UTP, the agreed layout places the Astro site in `projects/site/`, including `src/` for pages, components and styles; `public/` for reviewed display assets; `tests/` for relevant checks; and its package, lock and Astro/TypeScript build files. Other code projects can be added when needed. Common repository maintenance tools remain in root `tools/`; any future CI workflows belong in root `.github/workflows/`.
 
 ```text
 repository/
@@ -25,9 +25,9 @@ repository/
   kb/                           project knowledge and work (implemented)
   tools/                        maintenance and validation (implemented)
   templates/                    configuration input templates (Blueprint)
-  projects/                     implementation projects (proposed)
-    _template/                  reusable boilerplate (Blueprint, proposed)
-    site/                       actual Astro site (UTP, proposed)
+  projects/                     implementation projects (agreed; pending)
+    _template/                  reusable boilerplate (Blueprint, pending)
+    site/                       actual Astro site (UTP, pending)
       src/
       public/
       tests/
@@ -44,3 +44,7 @@ The website publishes selected, reviewed knowledge through an explicit content/b
 ## Creation contract to complete
 
 A new project needs its own filled root configuration and adapted implementation boilerplate, plus its local charter and working arrangements. Blueprint's real creator and maintenance history must not be inherited as an adopter's operating team/history. Creation must validate identity, preserve unknown settings, reject conflicting or unresolved inputs before writing, and leave human adoption and assignments explicit. A checklist is not a substitute for working creation tooling.
+
+## Layout agreement
+
+Ahimanikya Satapathy responded “That make sense” to the repository layout on this conversation. Recorded as UTP-DEC-007. This agrees the separation and directory layout; boilerplate contents and the creation flow still need definition. It does not mark either PR merged, the site moved, or the starter implemented.
