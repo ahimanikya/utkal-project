@@ -6,6 +6,10 @@ A community encyclopedia connecting knowledge, heritage, people and opportunity 
 
 This repository is private for now. A future public release requires a separate decision. The website has not launched. Private contact information, consent records, credentials and unpublished sensitive intake do not belong here.
 
+## Read the knowledge base
+
+**[Open the OKF knowledge-base contents](kb/index.md)** — browse the project’s documents directly in GitHub.
+
 ## Approved initial operating setup
 
 The Founder approved batch **UTB-DEC-005**: “The next batch is approved.” Earlier candidate labels in individual documents preserve their review history; this decision approves the reviewed versions. It does not imply technical enforcement or public launch.
