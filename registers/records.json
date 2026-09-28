@@ -93,14 +93,14 @@
       "id": "UTP-WORK-003",
       "title": "Apply registers, activity ledger and generated dashboard",
       "category": "operations",
-      "status": "in_progress",
+      "status": "completed",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-002",
-      "next_action": "Apply validated package to private GitHub repository and record verification; local application is complete.",
+      "next_action": "Maintain current records and regenerate views for subsequent authorized work. Historical binary assets remain local as documented.",
       "blockers": [],
       "readiness": "applied",
       "refs": [
@@ -108,7 +108,9 @@
       ],
       "evidence": [
         "registers/records.json",
-        "registers/activity.jsonl"
+        "registers/activity.jsonl",
+        "records/register-adoption.json",
+        "records/register-checks.json"
       ]
     }
   ],
@@ -235,6 +237,22 @@
         "records/application-result.json"
       ],
       "note": "Historical repository application; no website publication or GitHub Release implied."
+    },
+    {
+      "id": "UTP-REL-002",
+      "title": "Register extension 1.0.0 applied to private repository",
+      "status": "applied",
+      "authorization": "UTP-DEC-002",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/registers",
+      "refs": [
+        "UTP-DEC-002",
+        "UTP-WORK-003"
+      ],
+      "evidence": [
+        "records/register-adoption.json",
+        "records/register-checks.json"
+      ],
+      "note": "Operational records and local validator/generator; no website launch, automatic agents or other project adoption. UTP historical binary assets remain local."
     }
   ],
   "sources": [
