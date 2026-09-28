@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ed7691b9485b2f3c034b60f9504cc9f704c8b3b25ec76fb032f81af87115e1c3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `600dc31d93f5fa7992a1632071ef1ba0f24348b43d20dd4635ac49e5f4dcffe8`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -16,14 +16,14 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-001 · Samanta Chandrasekhar entry and local website preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the entry and design; resolve source limitations before publication. | No public reuse licence selected; Conflicting birth dates and limited full-text source inspection |
 | UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | in_progress | concept | Ahimanikya Satapathy | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. | Generated board still shows obsolete Kankada label after two correction attempts; do not treat as production artwork |
 | UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views for subsequent authorized work. Binary history assets are included in the pending repair branch. | — |
-| UTP-WORK-004 · Link the OKF reading index from the Git README | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the complete repair diff; merge only after approval. Main retains the prior layout until then. | — |
+| UTP-WORK-004 · Link the OKF reading index from the Git README | awaiting_review | reviewed | Ahimanikya Satapathy | Review corrected root configuration and KB boundaries; define Utkal implementation boilerplate and complete project-creation tooling before claiming the starter complete. | — |
 
 ## Pending human review and decisions
 
 | Record | Reason / scope |
 |---|---|
 | UTP-WORK-001 | Founder review of the entry and design; resolve source limitations before publication. |
-| UTP-WORK-004 | Founder review of the complete repair diff; merge only after approval. Main retains the prior layout until then. |
+| UTP-WORK-004 | Review corrected root configuration and KB boundaries; define Utkal implementation boilerplate and complete project-creation tooling before claiming the starter complete. |
 
 ## Decisions
 
@@ -83,7 +83,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-003 | 2026-09-28T05:36:04+00:00 | Brand work interrupted for register discussion. Confirmed Mankada name and dominant colour still need propagating to current colour files and preview; earlier history remains unchanged. New concept images remain in local generated output until packaged. | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. |
 | UTP-EVT-004 | 2026-09-28T05:41:03+00:00 | Local register extension applied and consistency checks passed; previous evidence hashes preserved. | Apply validated package to private GitHub repository and record verification; local application is complete. |
 | UTP-EVT-005 | 2026-09-28T05:55:51+00:00 | Approved register extension applied to private repository; actual approval and previous baseline retained. Final administrative views synchronized with this event. | Maintain current records and regenerate views for subsequent authorized work. Historical binary assets remain local as documented. |
 | UTP-EVT-006 | 2026-09-28T06:04:19+00:00 | README lacked an OKF entry point. Prepared Git-native contents for existing documents; the larger local research KB is separate. | Validate navigation and clarify research import scope. |
@@ -93,6 +92,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-010 | 2026-09-28T06:39:33+00:00 | Founder clarified Blueprint as reusable type and UTP as instance. Read reference initializer, configuration, KB structures, generation/check tooling, rules and JML. Prepared corrected model review; old relocation proposal superseded. No source code copied or run; no migration applied. | Review the corrected Blueprint type / UTP instance model and complete adaptation package before migration. The prior folder-only relocation map is withdrawn. |
 | UTP-EVT-011 | 2026-09-28T06:53:49+00:00 | Complete local candidate prepared under the Founder’s instruction. Template/instance separation, portable KB paths, original evidence and unchanged assignments checked. No GitHub application or new baseline adoption claimed. | Review the complete local repair candidate, then reconcile and apply it through authenticated Git. No migration is applied remotely. |
 | UTP-EVT-012 | 2026-09-28T07:14:55+00:00 | Git access verified as ahimanikya. Reconciled the complete KB repair against the current private repository and prepared a review branch. Prior source/history preserved; no Founder acceptance or merge claimed. | Review the proposed repair and obtain Founder approval before merging. |
+| UTP-EVT-013 | 2026-09-28T07:37:52+00:00 | Founder clarified that configuration belongs outside the KB, project boilerplate differs from a project-definition form, and the repository will contain website source code. Moved config to repository root and updated consuming tools. Code layout remains a proposal; no website source was moved. | Review the boundary correction and agree the implementation boilerplate. |
 
 ## Deferred extensions
 

@@ -127,11 +127,13 @@ def render(data, events, digest):
     return '\n'.join(lines)
 
 def run(root, check=False):
-    config=json.loads((root/'project.json').read_text())
+    config=json.loads((root.parent/'utkal.config.json').read_text())
     home=config['record_directory']
+    require(home in {'maintenance','registers'}, 'Invalid configured record directory')
     source=root/home/'records.json'; ledger=root/home/'activity.jsonl'
     raw=source.read_bytes(); activity=ledger.read_bytes()
     data=json.loads(raw); events=[json.loads(line) for line in activity.splitlines() if line.strip()]
+    require(config['prefix']==data['project'], 'Configuration identity conflicts with registers')
     validate(root,data,events)
     output=render(data,events,hashlib.sha256(raw+b'\n'+activity).hexdigest())
     target=root/home/'DASHBOARD.md'

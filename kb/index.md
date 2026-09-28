@@ -35,3 +35,5 @@ This directory contains the organizational and working model, roles, work record
 - [research](research/index.md)
 - [specs](specs/index.md)
 - [team](team/index.md)
+
+- [Repository boundaries and proposed code layout](reference/repository-layout.md)

@@ -280,3 +280,9 @@ Founder asked to plan and fix both repositories. A complete local repair candida
 **prepared for review · stewardship**
 
 Git access is verified for both private repositories. The complete KB repair, research collection and historical images are prepared on review branches. Main has not been migrated; Founder approval remains pending.
+
+## UTP-HIS-0029 · Configuration and implementation code are outside the KB
+
+**founder direction · architecture**
+
+The Founder clarified that config belongs at repository root and project boilerplate provides an implementation starting point. Website source and build files will live alongside the KB. Root config is corrected in the review branch; the site layout and creation flow remain under review.

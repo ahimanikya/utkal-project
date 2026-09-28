@@ -9,3 +9,5 @@
 - [repair-status.md](repair-status.md)
 - [repository-overview.md](repository-overview.md)
 - [research-tools.md](research-tools.md)
+
+- [Repository boundaries and proposed code layout](repository-layout.md)
