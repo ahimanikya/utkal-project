@@ -1,6 +1,6 @@
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f624322c6e8eb42374e083b1480686a027b86ea45629f5e85d6945bafa125b80`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `31e0dbc79f7c1abdbeff9d26acc3eb210dbf0715d997ee15e112dfc13ef8bb78`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -11,6 +11,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-001 · Samanta Chandrasekhar entry and local website preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the entry and design; resolve source limitations before publication. | No public reuse licence selected; Conflicting birth dates and limited full-text source inspection |
 | UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | in_progress | concept | Ahimanikya Satapathy | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. | Generated board still shows obsolete Kankada label after two correction attempts; do not treat as production artwork |
 | UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views for subsequent authorized work. Historical binary assets remain local as documented. | — |
+| UTP-WORK-004 · Link the OKF reading index from the Git README | blocked | draft | Ahimanikya Satapathy | Locate the authenticated local Git clone, import the prepared collection and verify it on GitHub. | Full research import requires authenticated Git access; browser navigation and programme are applied. |
 
 ## Pending human review and decisions
 
@@ -25,6 +26,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-002 · Apply the register model to Utkal Project | approved | Ahimanikya Satapathy | Apply the discussed register model to Blueprint and UTP, maintaining human gates and independent project records. No other project adoption or website launch. |
 | UTP-DEC-003 · Mankada Pathara is the dominant brand colour | approved | Ahimanikya Satapathy | Correct Kankada to Mankada; retain the preceding explicit direction that this colour defines the brand. Other approved families are Nila Sagara and Sukha Ghasi. Final logo remains unselected. |
 | UTP-DEC-004 · Refine the preferred board and preserve material references and nostalgia | recorded_direction | Ahimanikya Satapathy | Refine concept and maintain internal story; no final logo acceptance or public publication inferred. |
+| UTP-DEC-005 · Make knowledge readable from the repository README | recorded_direction | Ahimanikya Satapathy | Add Git-native navigation for organizational knowledge and delivery. UTP also includes the full research KB, approved separately in UTP-DEC-006. |
+| UTP-DEC-006 · Include full research and connect organizational knowledge to delivery | approved | Ahimanikya Satapathy | Import full research and document a connected organizational OKF and proposed work programme. Future workstream execution remains subject to scoped human decisions. |
 
 ## Reviews
 
@@ -68,6 +71,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | members_and_assignments | [team/assignments.json](../team/assignments.json) |
 | jml | [records/jml-first-assignments.json](../records/jml-first-assignments.json) |
 | evolution_history | [history/ledger.jsonl](../history/ledger.jsonl) |
+| knowledge_reading_index | [kb/index.md](../kb/index.md) |
 
 ## Latest activity and handovers
 
@@ -78,6 +82,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-003 | 2026-09-28T05:36:04+00:00 | Brand work interrupted for register discussion. Confirmed Mankada name and dominant colour still need propagating to current colour files and preview; earlier history remains unchanged. New concept images remain in local generated output until packaged. | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. |
 | UTP-EVT-004 | 2026-09-28T05:41:03+00:00 | Local register extension applied and consistency checks passed; previous evidence hashes preserved. | Apply validated package to private GitHub repository and record verification; local application is complete. |
 | UTP-EVT-005 | 2026-09-28T05:55:51+00:00 | Approved register extension applied to private repository; actual approval and previous baseline retained. Final administrative views synchronized with this event. | Maintain current records and regenerate views for subsequent authorized work. Historical binary assets remain local as documented. |
+| UTP-EVT-006 | 2026-09-28T06:04:19+00:00 | README lacked an OKF entry point. Prepared Git-native contents for existing documents; the larger local research KB is separate. | Validate navigation and clarify research import scope. |
+| UTP-EVT-007 | 2026-09-28T06:15:09+00:00 | Added README reading navigation and organizational knowledge-to-work guidance. Full research: 529 files prepared, 462 active concepts, six validators passed; awaiting Git access for bulk publication. | Locate the authenticated local Git clone, import the prepared collection and verify it on GitHub. |
 
 ## Deferred extensions
 
