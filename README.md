@@ -29,3 +29,9 @@ The first encyclopedia draft and Astro preview are local review artifacts; neith
 Anyone may propose a contribution once channels are established. Accepted contributions do not automatically grant editorial authority or Git access. No public reuse licence has yet been selected. Source and contributor credit remain part of every publication decision.
 
 Utkal Blueprint — created by Ahimanikya Satapathy, Founder & Editor-in-Chief of Utkal Project.
+
+## Registers and project memory
+
+[Operating records and dashboard](registers/README.md) implement the approved register extension 1.0.0. [Adoption record](records/register-adoption.json) preserves its separate scope from the initial baseline. The portable validator checks consistency; it does not enforce or grant human authority.
+
+[Evolution ledger and origin stories](history/README.md) preserve the founding conversation and significant changes.
