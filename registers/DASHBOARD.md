@@ -1,6 +1,6 @@
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c58e58219a06b9778fa07ab3a1ddad922fa6b63c1a73d85d2c6bd20c5d3660ff`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f624322c6e8eb42374e083b1480686a027b86ea45629f5e85d6945bafa125b80`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -10,7 +10,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 |---|---|---|---|---|---|
 | UTP-WORK-001 · Samanta Chandrasekhar entry and local website preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the entry and design; resolve source limitations before publication. | No public reuse licence selected; Conflicting birth dates and limited full-text source inspection |
 | UTP-WORK-002 · Refine earthy bilingual branding and preserve its origin story | in_progress | concept | Ahimanikya Satapathy | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. | Generated board still shows obsolete Kankada label after two correction attempts; do not treat as production artwork |
-| UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | in_progress | applied | Ahimanikya Satapathy | Apply validated package to private GitHub repository and record verification; local application is complete. | — |
+| UTP-WORK-003 · Apply registers, activity ledger and generated dashboard | completed | applied | Ahimanikya Satapathy | Maintain current records and regenerate views for subsequent authorized work. Historical binary assets remain local as documented. | — |
 
 ## Pending human review and decisions
 
@@ -38,6 +38,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | ID / event | Status | Destination | Authorization |
 |---|---|---|---|
 | UTP-REL-001 · Initial approved documentation applied to private repository | applied | https://github.com/ahimanikya/utkal-project/commit/23dbf7ae52ba6aee7f2be909170ef9a9eaec1f3d | UTB-DEC-005 |
+| UTP-REL-002 · Register extension 1.0.0 applied to private repository | applied | https://github.com/ahimanikya/utkal-project/tree/main/registers | UTP-DEC-002 |
 
 ## Sources and assets
 
@@ -76,6 +77,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-002 | 2026-09-28T05:36:04+00:00 | Existing baseline preserved; initial registers seeded from actual evidence. Source and review limitations remain visible. | Validate generated dashboard and repository application. |
 | UTP-EVT-003 | 2026-09-28T05:36:04+00:00 | Brand work interrupted for register discussion. Confirmed Mankada name and dominant colour still need propagating to current colour files and preview; earlier history remains unchanged. New concept images remain in local generated output until packaged. | Finish current brand-name and colour-role corrections, save the new raster concept and real-font comparison, add the laterite reference and internal story; return for logo review. |
 | UTP-EVT-004 | 2026-09-28T05:41:03+00:00 | Local register extension applied and consistency checks passed; previous evidence hashes preserved. | Apply validated package to private GitHub repository and record verification; local application is complete. |
+| UTP-EVT-005 | 2026-09-28T05:55:51+00:00 | Approved register extension applied to private repository; actual approval and previous baseline retained. Final administrative views synchronized with this event. | Maintain current records and regenerate views for subsequent authorized work. Historical binary assets remain local as documented. |
 
 ## Deferred extensions
 
