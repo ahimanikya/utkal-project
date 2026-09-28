@@ -6,3 +6,6 @@ dist/
 .astro/
 projects/site/src/data/selected.json
 projects/site/src/gallery/fresco.generated.html
+
+# Also ignore a local dependency symlink (directory-only patterns do not match it).
+node_modules
