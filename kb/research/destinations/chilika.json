@@ -29,7 +29,8 @@
         "birds",
         "nature"
       ],
-      "image_ref": "mangalajodi"
+      "image_ref": "mangalajodi",
+      "detail_href": "/visit/experiences/mangalajodi-birdwatching/"
     },
     {
       "id": "experience:chilika-kalijai",
@@ -44,7 +45,8 @@
         "belief",
         "boating"
       ],
-      "image_ref": "kalijai"
+      "image_ref": "kalijai",
+      "detail_href": "/visit/experiences/kalijai-crossing/"
     },
     {
       "id": "experience:chilika-satapada",
@@ -58,7 +60,8 @@
       "interests": [
         "wildlife",
         "boating"
-      ]
+      ],
+      "detail_href": "/visit/experiences/satapada-boating/"
     }
   ],
   "foods": [
@@ -111,7 +114,8 @@
         "mangalajodi-visit",
         "chilika-bases"
       ],
-      "area": "Mangalajodi"
+      "area": "Mangalajodi",
+      "detail_href": "/visit/stays/mangalajodi/"
     },
     {
       "id": "base:chilika-barkul-rambha",
@@ -122,7 +126,8 @@
         "chilika-bases",
         "barkul-kalijai"
       ],
-      "area": "Barkul / Rambha"
+      "area": "Barkul / Rambha",
+      "detail_href": "/visit/stays/barkul-rambha/"
     },
     {
       "id": "base:chilika-rajhans",
@@ -133,7 +138,8 @@
         "chilika-bases",
         "satapada-visit"
       ],
-      "area": "Rajhans / Satapada"
+      "area": "Rajhans / Satapada",
+      "detail_href": "/visit/stays/rajhans-satapada/"
     }
   ],
   "stay_note": "These are areas and official accommodation leads, not Utkal-reviewed stays. Check current operation, access, rooms and rates directly before booking.",
@@ -198,8 +204,8 @@
     {
       "id": "chilika-bases",
       "title": "Chilika Nature Camps — Odisha Tourism, destination guide",
-      "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html",
-      "inspection": "About and Things to Do sections inspected for boating and named accommodation bases. Current operations, rates, quality and accessibility have not been checked with providers."
+      "resource": "https://odishatourism.gov.in/content/tourism/en/experience/activities/bird-watching/chilika-nature-camps.html",
+      "inspection": "Earlier destination URL returned a 404 on recheck. Equivalent official bird-watching guide indexed text confirms Panthanivas and Rajhans/Berhampura camp leads; current operation, rooms, rates and accessibility remain unverified."
     },
     {
       "id": "barkul-kalijai",
@@ -340,5 +346,25 @@
       "inspection": "Source description and license read; downloaded photograph visually inspected."
     }
   },
-  "food_image_ref": "crab"
+  "food_image_ref": "crab",
+  "places": [
+    {
+      "title": "Mangalajodi",
+      "href": "/visit/places/mangalajodi/",
+      "image_ref": "mangalajodi",
+      "text": "Begin with the birds. Stay for the people who know their names."
+    },
+    {
+      "title": "Kalijai",
+      "href": "/visit/places/kalijai/",
+      "image_ref": "kalijai",
+      "text": "A crossing on the lagoon, a shrine on the island, a name held in memory."
+    },
+    {
+      "title": "Satapada",
+      "href": "/visit/places/satapada/",
+      "image_ref": "hero",
+      "text": "Choose a day on the water, with room for the unexpected."
+    }
+  ]
 }

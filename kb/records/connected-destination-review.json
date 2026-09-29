@@ -1,0 +1,42 @@
+{
+  "status": "candidate_for_founder_review",
+  "recorded_at": "2026-09-29T05:10:33.942624+00:00",
+  "summary": "Prepared 15 illustrated place, experience and stay-area detail pages, connected them to the destination pilots, expanded the large-screen layout, and added a manually controlled photo journey with optional original ambient sound. An AI-film scene plan is documented; no AI video or true 360 footage was generated.",
+  "detail_pages": {
+    "places": 4,
+    "experiences": 6,
+    "stay_areas": 5
+  },
+  "validation": {
+    "pages": 29,
+    "tests_passed": 15,
+    "large_screen": {
+      "viewport_css_pixels": 1920,
+      "content_css_pixels": 1766.3984375,
+      "horizontal_overflow": false
+    },
+    "mobile_css_pixels": 390,
+    "browser_checks": [
+      "Illustrated Mangalajodi inner page loads with no horizontal overflow",
+      "Konark mobile photo journey: no horizontal overflow",
+      "Next chapter changes the visible scene; one scene remains visible",
+      "Sound is initially off; user gesture changes sound to on and starts playback",
+      "Timed playback advances the chapter",
+      "Pause stops playback and resets sound off",
+      "Reduced-motion preference produces animation-name none"
+    ],
+    "full_screen": "Native mode unverified; embedded-browser input/display behavior was inconclusive",
+    "store_excluded": true,
+    "noindex_retained": true
+  },
+  "limitations": [
+    "Stay pages are base-area research guides, not individual property reviews; images depict settings rather than rooms.",
+    "AI video generation is unavailable in the connected tools. The delivered journey is explicitly a photo sequence, not 360 footage.",
+    "Audio is an original synthetic ambient prototype, not a field recording; subjective listening quality was not verified.",
+    "Full-screen control is implemented but native full-screen behavior was not conclusively verified in the embedded browser.",
+    "Browser emulation and layout checks do not replace real-device or screen-reader review.",
+    "Current provider, access, availability and journey-time checks remain open."
+  ],
+  "source_change": "Earlier Chilika nature-camps destination URL returned a 404 on recheck; replaced with an equivalent official bird-watching guide found through indexed text, with inspection limits recorded.",
+  "publication": "Draft review branch only; not merged or deployed"
+}

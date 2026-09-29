@@ -20,3 +20,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 - [Founder-endorsed culture-first travel direction](culture-first-travel-direction.md) — visitor journey, information layers and Chilika/Konark pilot sequence.
 
 - [Two-destination pilot review](../../reference/destination-pilots-review.md) — shared presentation, source records, validation and remaining local checks.
+
+- [Connected pages and immersive journey brief](immersive-destination-brief.md) — first detail-page set, large-screen layout, photographic prototype and future AI-film scene plan.

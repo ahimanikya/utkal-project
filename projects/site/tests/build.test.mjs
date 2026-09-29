@@ -7,7 +7,8 @@ const files=readdirSync(root,{recursive:true}).filter(f=>statSync(join(root,f)).
 const pages=files.filter(f=>f.endsWith('.html'));
 const read=f=>readFileSync(join(root,f),'utf8');
 test('all built local links, assets and fragment targets resolve',()=>{
-  assert.equal(pages.length,14);
+  const details=JSON.parse(readFileSync('../../kb/research/destinations/details.json','utf8'));
+  assert.equal(pages.length,14+details.records.length);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){

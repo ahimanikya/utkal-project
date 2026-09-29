@@ -1,0 +1,19 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import DestinationPhoto from '../../../components/DestinationPhoto.astro';
+import {detailRecords,detailPhoto,detailSources,relatedDetail} from '../../../data/destination-details';
+export function getStaticPaths(){return detailRecords.map(record=>({params:{kind:record.kind,slug:record.slug},props:{record}}));}
+const {record:r}=Astro.props;
+const photo=detailPhoto(r),sources=detailSources(r);
+const kindLabel=r.kind==='stays'?'Stay-area guide':r.kind==='experiences'?'Things to do':'A closer look';
+---
+<Shell title={r.title} description={r.lead} active="explore" wide>
+ <div class="wrap destination-wide detail-page">
+  <p class="breadcrumb"><a href="/explore/">Explore</a> / <a href={'/knowledge/'+r.parent+'/'}>{r.parent==='chilika'?'Chilika':'Konark'}</a> / {kindLabel}</p>
+  <div class="detail-intro"><div><p class="eyebrow">{kindLabel}</p><h1>{r.title}</h1><p class="lead">{r.lead}</p><p class="notice">Editorial draft · {r.kind==='stays'?'Area research, not a reviewed property.':'Practical details need local confirmation.'}</p></div><DestinationPhoto photo={photo} /></div>
+  <div class="detail-columns"><article class="detail-prose">{r.sections.map(section=><section><h2>{section.heading}</h2><p>{section.text}</p></section>)}</article>
+   <aside class="detail-next"><p class="eyebrow">Connect the pieces</p><h2>Make it part of your visit</h2><nav aria-label="Related places and experiences">{r.related.map(relatedDetail).filter(Boolean).map(link=><a href={link.href}>{link.title}<span aria-hidden="true">↗</span></a>)}</nav><a class="text-link" href={'/knowledge/'+r.parent+'/'}>Back to the destination →</a></aside>
+  </div>
+  <details class="end-credits" id="sources-credits"><summary>Sources, photograph & research notes</summary><p>Research checked {r.checked_on}. Sections include original editorial planning advice. No prices, availability, verified travel times or booking service are provided.</p><ul>{sources.map(source=><li><a href={source.resource}>{source.title}</a><p>{source.inspection}</p></li>)}</ul><p><a href={photo.source}>{photo.title}</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes} {r.photo_context}</p><p>Utkal Project knowledge base. Founder & Editor-in-Chief: Ahimanikya Satapathy. Drafted with AI assistance; human editorial review pending.</p></details>
+ </div>
+</Shell>

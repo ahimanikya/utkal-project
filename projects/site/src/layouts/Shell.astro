@@ -1,7 +1,7 @@
 ---
 import Brand from '../components/Brand.astro';
 import '../styles/global.css';
-const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active=''}=Astro.props;
+const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false}=Astro.props;
 ---
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -9,7 +9,7 @@ const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shar
 <meta name="theme-color" content="#91462F"/><title>{title} · Utkal Project</title>
 <link rel="icon" type="image/png" href="/assets/book-boat-v1.png"/>
 <link rel="preload" href="/fonts/NotoSerifOriya-Bold.ttf" as="font" type="font/ttf" crossorigin/>
-</head><body>
+</head><body class:list={{'destination-layout':wide}}>
 <a href="#main" class="skip">Skip to content</a>
 <div class="topline"><span>ROOTED IN ODISHA. OPEN TO THE WORLD.</span><span lang="or">ଉତ୍କଳ · ଓଡ଼ିଶା</span></div>
 <header class="header wrap">

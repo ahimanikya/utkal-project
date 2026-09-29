@@ -62,3 +62,5 @@ This directory contains the organizational and working model, roles, work record
 - [Culture-first travel direction and pilot sequence](research/product/culture-first-travel-direction.md)
 
 - [Chilika and Konark destination pilots](reference/destination-pilots-review.md)
+
+- [Connected destinations and immersive preview](research/product/immersive-destination-brief.md)

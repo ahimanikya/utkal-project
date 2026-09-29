@@ -472,3 +472,7 @@ Prepared Konark as the second destination pilot and refined Chilika with shared 
 ## UTP-HIS-0062 · Let the pictures speak
 
 Founder felt the pilots were informative but too text-heavy: “picture speaks 1000 words - only text wont cut it”. Added six credited real photographs across the Chilika and Konark pilots, moved the hero ahead of navigation, and introduced image cards, food panels and stronger sea/stone/straw colour sections. Preserved contextual captions, end credits and the Founder release gate. [Visual review and image provenance](../records/destination-visual-review.json).
+
+## UTP-HIS-0063 · Room for a bigger world
+
+Founder asked us to think beyond a narrow reading column: connect smaller places, stays and experiences, let large screens breathe, and convey the feeling of a place through an imagined immersive film. Prepared 15 illustrated place, experience and stay-area detail pages, connected them to the destination pilots, expanded the large-screen layout, and added a manually controlled photo journey with optional original ambient sound. An AI-film scene plan is documented; no AI video or true 360 footage was generated. [Direction and media brief](../research/product/immersive-destination-brief.md).

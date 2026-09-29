@@ -20,7 +20,7 @@ const groups=[
     <div class:list={['destination-cards',{'experience-cards':group.id==='things-to-do','one-visual':group.items.filter(item=>item.image_ref).length===1}]}>{group.items.map((item,index)=><article class:list={{'with-photo':!!item.image_ref}} id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}>
       {item.image_ref&&<DestinationPhoto photo={d.visuals?.[item.image_ref]} />}
       <span class="destination-number">0{index+1}</span>
-      <div>{item.area&&<p class="eyebrow">{item.area}</p>}<h3>{item.title}</h3><p>{item.text}</p></div>
+      <div>{item.area&&<p class="eyebrow">{item.area}</p>}<h3>{item.title}</h3><p>{item.text}</p>{item.detail_href&&<a class="text-link detail-link" href={item.detail_href}>{group.id==='stay'?'Explore this stay area':'Explore this experience'} →</a>}</div>
     </article>)}</div>
     {group.note&&<p class="destination-note">{group.note}</p>}
   </section>)}

@@ -8,6 +8,8 @@ import chilikaDestination from '../../../../../kb/research/destinations/chilika.
 import konarkStory from '../../../../../kb/research/stories/narratives/konark.json';
 import konarkDestination from '../../../../../kb/research/destinations/konark.json';
 import DestinationContext from '../../components/DestinationContext.astro';
+import DestinationPhoto from '../../components/DestinationPhoto.astro';
+import PhotoJourney from '../../components/PhotoJourney.astro';
 export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
 const pilots={chilika:{story:chilikaStory,destination:chilikaDestination},konark:{story:konarkStory,destination:konarkDestination}};
@@ -27,8 +29,8 @@ const evidenceUses=[
   ]:[])
 ];
 ---
-<Shell title={entry.label} description={entry.dek} active="explore">
-  <div class="wrap">
+<Shell title={entry.label} description={entry.dek} active="explore" wide={!!destination}>
+  <div class:list={['wrap',{'destination-wide':!!destination}]}>
     <div class="page-head">
       <p class="breadcrumb"><a href="/explore/">The collection</a> / {entry.category}</p>
       <p class="eyebrow">{story?'A Utkal story':'Research note'} · {entry.category}</p>
@@ -40,13 +42,15 @@ const evidenceUses=[
       <figcaption>{story.image.depiction} · {story.image.short_caption}</figcaption>
     </figure>}
     {destination&&<nav class="destination-nav" aria-label="On this page">
-      <a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Culture & stories</a><a href="#locals">Meet locally</a><a href="#expectations">Good to know</a>
+      <a href="#places-within">Places within</a><a href="#photo-journey">Feel the place</a><a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Culture & stories</a><a href="#locals">Meet locally</a><a href="#expectations">Good to know</a>
     </nav>}
     {destination&&<div class="destination-highlights" aria-label="Destination at a glance">{destination.highlights.map(highlight=><a href={highlight.href}><span class="eyebrow">{highlight.label}</span><strong>{highlight.text}</strong><span aria-hidden="true">↓</span></a>)}</div>}
     <article class:list={['knowledge',{'has-story':!!story}]}>
       <p class="notice">Editorial draft · awaiting Founder review.</p>
       {story&&<p class="story-opening">{story.opening}</p>}
       {story?.history&&<section class="destination-history" id="history" aria-labelledby="history-title" data-source-ids={story.history.sources.join(' ')}><p class="eyebrow">Historical significance</p><h2 id="history-title">{story.history.heading}</h2><p>{story.history.text}</p></section>}
+      {destination&&<section class="places-within" id="places-within" aria-labelledby="places-title"><p class="eyebrow">Connect the places</p><h2 id="places-title">Find your way into {entry.slug==='chilika'?'Chilika':'Konark'}</h2><p class="places-note">Choose a place, explore an experience, then research where to stay. These connections are reading paths, not a route map.</p><div class="place-connectors">{destination.places.map(place=><a class="place-connector" href={place.href}><DestinationPhoto photo={place.image_ref==='hero'?{...story.image,caption:'Chilika · regional view'}:destination.visuals[place.image_ref]} /><div><p class="eyebrow">Place → experiences → stay</p><h3>{place.title} ↗</h3><p>{place.text}</p></div></a>)}</div></section>}
+      {destination&&<PhotoJourney destination={destination} story={story} />}
       {destination&&<DestinationGuide destination={destination} />}
       {story&&<StoryBody story={story} culture={destination?.culture} culturePhoto={destination?.visuals?.[destination.culture_image_ref]} />}
       {destination&&<DestinationContext destination={destination} />}

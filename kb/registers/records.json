@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-29T04:42:12.960305+00:00",
+  "recorded_at": "2026-09-29T05:10:33.942624+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -387,6 +387,29 @@
         "reference/destination-pilots-review.md",
         "records/destination-pilots-review.json",
         "records/destination-visual-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-015",
+      "title": "Connected destination details, wide layouts and immersive preview",
+      "category": "website_and_media",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-034",
+      "next_action": "Founder reviews connected pages and photo journey; property-specific research and AI-film production remain explicit follow-up.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-034",
+        "UTP-REV-015"
+      ],
+      "evidence": [
+        "research/product/immersive-destination-brief.md",
+        "records/connected-destination-review.json"
       ]
     }
   ],
@@ -980,6 +1003,25 @@
       "evidence": [
         "records/destination-visual-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-034",
+      "title": "Connect destination detail pages and expand the immersive visual direction",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Also, we should create subpages for sub-locations, places to stay, and things to do, with pictures on the inner pages.",
+      "scope": "Build illustrated destination detail pages and responsive large-screen layouts; explore connected visuals and an immersive imagination-film direction. No release or paid-service authorization.",
+      "recorded_at": "2026-09-29T05:10:33.942624+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-015"
+      ],
+      "evidence": [
+        "research/product/immersive-destination-brief.md"
+      ]
     }
   ],
   "requirements": [
@@ -1282,6 +1324,30 @@
       ],
       "evidence": [
         "records/destination-visual-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-015",
+      "title": "Connected destination pages and photo journey self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Stay pages are base-area research guides, not individual property reviews; images depict settings rather than rooms.",
+        "AI video generation is unavailable in the connected tools. The delivered journey is explicitly a photo sequence, not 360 footage.",
+        "Audio is an original synthetic ambient prototype, not a field recording; subjective listening quality was not verified.",
+        "Full-screen control is implemented but native full-screen behavior was not conclusively verified in the embedded browser.",
+        "Browser emulation and layout checks do not replace real-device or screen-reader review.",
+        "Current provider, access, availability and journey-time checks remain open."
+      ],
+      "refs": [
+        "UTP-WORK-015"
+      ],
+      "evidence": [
+        "records/connected-destination-review.json"
       ]
     }
   ],
