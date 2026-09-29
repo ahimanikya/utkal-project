@@ -432,3 +432,7 @@ Release gate clarification: automatic approval review subsequently rejected merg
 ## UTP-HIS-0052 · Utkal Project has its first public home
 
 On 28 September 2026, the Founder explicitly approved merging PR #2 and publishing the 14-page preview. The first manual deployment succeeded, and utkalproject.org now serves the website over HTTPS. The www address redirects, the Fresco gallery is available, and the Store remains unpublished and unlinked. Editorial drafts and noindex remain. See [release evidence](../records/website-first-release.json).
+
+## UTP-HIS-0053 · Making the first home easier to use
+
+After the first public preview, the Founder asked us to proceed with mobile and accessibility review. The candidate improves phone reading, control sizes, contrast, keyboard operation and reduced motion. Fourteen pages passed checks at four widths; real-device and screen-reader testing remain follow-up. The live site is unchanged. [Review evidence](../records/mobile-accessibility-review.json).

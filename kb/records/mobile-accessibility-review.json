@@ -1,0 +1,64 @@
+{
+  "recorded_at": "2026-09-29T01:46:53.428184+00:00",
+  "status": "pass_with_limitations",
+  "scope": "Mobile layout, keyboard operation and bounded accessibility self-review of the 14-page website. Store excluded.",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant",
+    "independent": false
+  },
+  "before": [
+    "Dark feature-panel paragraph inherited brown text on blue: calculated contrast 1.39:1.",
+    "Gallery document arrow handler intercepted slide-duration select keyboard input.",
+    "Cultural-note jump forced smooth scrolling without moving keyboard focus.",
+    "Several navigation links and controls had small touch areas; captions and Odia header text were small.",
+    "Profile header overflowed by one pixel at 320 CSS pixels."
+  ],
+  "changes": [
+    "Use light text on the dark feature panel, clearer focus outlines and darker form boundaries.",
+    "Provide at least 44px main-navigation and viewer controls; enlarge small reading text and 16px inputs.",
+    "Respect select/input keyboard events; keep arrow photo navigation elsewhere.",
+    "Respect reduced motion, remove hover motion and move focus to the cultural note.",
+    "Focusable skip destinations and semantic topic navigation; restore source shortcut on mobile profile.",
+    "Wrap narrow headings, improve footer layout and correct no-JavaScript photo-story description."
+  ],
+  "verification": {
+    "build_pages": 14,
+    "existing_tests_passed": 7,
+    "layout_checks": 56,
+    "css_widths": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "horizontal_overflow_failures": 0,
+    "page_checks": [
+      "One h1 and main landmark per page; every image has an alt attribute.",
+      "Main navigation target heights at 390px: 44, 44, 45.09px.",
+      "Viewer at 320px: no internal horizontal overflow; five controls measure 44px high."
+    ],
+    "browser_behavior": [
+      "Skip to content moves focus to main.",
+      "Search for Chilika shows one entry; unmatched search shows the empty state.",
+      "Slide-duration ArrowRight changes 10 to 20 seconds without changing photo.",
+      "ArrowRight from Next photograph advances photo.",
+      "Escape closes photo viewer and returns focus to original thumbnail.",
+      "Escape closes nested sharing dialog and returns focus to Share this photograph.",
+      "Reduced-motion emulation disables image transition; cultural jump focuses its panel below the sticky controls and pauses slideshow."
+    ],
+    "screenshots": [
+      "evidence/mobile-review/homepage-390.png",
+      "evidence/mobile-review/viewer-390.png"
+    ],
+    "matrix": "evidence/mobile-review/layout-matrix.json"
+  },
+  "limitations": [
+    "Chromium viewport emulation only; no physical iPhone/Android or Safari testing.",
+    "No VoiceOver/NVDA session or comprehensive WCAG conformance claim.",
+    "Alt text presence checked; semantic accuracy still requires editorial review.",
+    "One Tab from the final dialog link moved focus outside document to browser chrome; native modal behavior retained, no full browser-chrome focus-cycle certification.",
+    "Odia rendered visually; native-language proofreading remains a human review."
+  ],
+  "publication": "Prepared for Founder review; not merged or deployed."
+}
