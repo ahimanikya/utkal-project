@@ -15,3 +15,5 @@
 - [Website verification](website-brand-checks.json)
 
 - [First website release](website-first-release.json)
+
+- [Mobile and accessibility review](mobile-accessibility-review.json)

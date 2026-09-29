@@ -219,6 +219,27 @@
         "collections/bhubaneswar-fresco/integration.md",
         "records/direction-02-checks.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-008",
+      "title": "Mobile and keyboard accessibility refinements",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-024",
+      "next_action": "Founder reviews the candidate before merge and publication; physical-device and assistive-technology testing remain follow-up.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-024"
+      ],
+      "evidence": [
+        "records/mobile-accessibility-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -611,6 +632,25 @@
       "evidence": [
         "records/website-first-release.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-024",
+      "title": "Review mobile usability and accessibility",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Proceed with recommended mobile and accessibility review and prepare fixes for review. No new deployment, analytics or contribution service authorized.",
+      "recorded_at": "2026-09-29T01:46:53.428184+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-REL-004"
+      ],
+      "evidence": [
+        "records/mobile-accessibility-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -729,6 +769,29 @@
       ],
       "evidence": [
         "records/direction-02-checks.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-007",
+      "title": "Responsive layout and keyboard self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Chromium viewport emulation only; no physical iPhone/Android or Safari testing.",
+        "No VoiceOver/NVDA session or comprehensive WCAG conformance claim.",
+        "Alt text presence checked; semantic accuracy still requires editorial review.",
+        "One Tab from the final dialog link moved focus outside document to browser chrome; native modal behavior retained, no full browser-chrome focus-cycle certification.",
+        "Odia rendered visually; native-language proofreading remains a human review."
+      ],
+      "refs": [
+        "UTP-WORK-008"
+      ],
+      "evidence": [
+        "records/mobile-accessibility-review.json"
       ]
     }
   ],

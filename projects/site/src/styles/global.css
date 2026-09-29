@@ -9,3 +9,25 @@
 
 /* Outlined vector signature candidates, v3. */
 .brand-signature{display:block;width:245px;height:auto}.brand-or .brand-signature{width:165px}.lockup .brand-signature{width:min(100%,350px)}.proof-dark .brand-signature{width:230px}@media(max-width:650px){.brand-signature{width:210px}.brand-or .brand-signature{width:145px}}
+
+/* Mobile reading and keyboard review, September 2026. */
+main:focus{outline:none}
+.header nav a,.footer-links a,.text-link,.filters a{display:inline-flex;align-items:center;min-height:44px}
+.header nav a,.button,.text-link,.filters a{font-size:14px}
+.footer-links a{font-size:14px}.footer-links{gap:4px}
+.filter-form input{font-size:16px;border-color:var(--muted)}
+.filters a{border-color:var(--muted)}
+.feature .sky-panel p{color:var(--paper)}
+:focus-visible{outline:3px solid var(--sea);outline-offset:3px;box-shadow:0 0 0 3px var(--light)}
+.hero-media figcaption,.footer-bottom,.notice,.result-count{font-size:12px}
+.hero-media figcaption{flex-wrap:wrap}
+.topline{gap:12px;flex-wrap:wrap}.topline [lang=or]{font-size:14px;line-height:1.8}
+@media(max-width:650px){
+ .section-heading{flex-wrap:wrap}.section-heading .text-link{white-space:normal}
+ .eyebrow,.topline,.hero-note{font-size:11px}
+ .header nav{gap:8px;flex-wrap:wrap}.header nav a{font-size:14px}
+ .nav-contribute{padding:10px}.nav-contribute span{margin-left:6px}
+ .page-head h1{font-size:clamp(36px,10vw,46px);overflow-wrap:break-word}
+ .footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}
+ .brand-proof{padding:18px}.proof-dark .brand-signature{max-width:100%}
+}
