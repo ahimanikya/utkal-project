@@ -56,3 +56,5 @@ This directory contains the organizational and working model, roles, work record
 
 - [Utkal Knowledge & Story Model](reference/knowledge-story-model.md)
 - [Content models and research templates](models/index.md)
+
+- [Five travel websites: lessons and proposed information architecture](reference/travel-website-benchmark.md)

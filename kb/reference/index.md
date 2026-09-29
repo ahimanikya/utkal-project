@@ -26,3 +26,5 @@
 - [Destination model and tourism benchmarks](destination-model.md)
 
 - [Utkal Knowledge & Story Model](knowledge-story-model.md)
+
+- [Five travel websites: lessons for Utkal](travel-website-benchmark.md)

@@ -76,3 +76,7 @@ Chilika has a grounded opening, three place-specific experiences, food leads, st
 ## Deeper entity model
 
 The [Utkal Knowledge & Story Model](knowledge-story-model.md) adds the information hierarchy requested next by the Founder: history, local memory, people, art/science, cultural works, community participation and honest visitor expectations. It separates the knowledge record from its narrative view and includes place/thing templates. The destination presentation above remains a view of that broader knowledge; migration is not yet applied.
+
+## Expanded benchmark
+
+The [five-site travel comparison](travel-website-benchmark.md) adds editorial discovery and traveller decision-making references to this earlier official-tourism survey. It proposes a compact overview over deeper stories, distinct geography/interest/type fields and phased planning features, with inspection limits recorded per site.

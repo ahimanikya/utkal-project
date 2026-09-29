@@ -339,6 +339,28 @@
         "models/knowledge-story-v0.1/chilika.coverage.json",
         "records/knowledge-story-model-review.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-013",
+      "title": "Five-site travel benchmark and visitor information architecture",
+      "category": "research_and_information_architecture",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-030",
+      "next_action": "Review three proposed reader paths, taxonomy separation and prioritized Chilika/discovery refinements before UI implementation.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-030",
+        "UTP-REV-012"
+      ],
+      "evidence": [
+        "reference/travel-website-benchmark.md"
+      ]
     }
   ],
   "decisions": [
@@ -853,6 +875,25 @@
         "models/knowledge-story-v0.1/chilika.coverage.json",
         "records/knowledge-story-model-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-030",
+      "title": "Learn from five leading travel-site reference examples",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Can we learn the world top 5 travel or tourism website and organize our information or atleast learn few things",
+      "scope": "Research five relevant travel references and prepare information-organization recommendations. Not authorization to adopt specific navigation, add services or publish changes.",
+      "recorded_at": "2026-09-29T03:45:08.711902+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-012"
+      ],
+      "evidence": [
+        "reference/travel-website-benchmark.md"
+      ]
     }
   ],
   "requirements": [
@@ -1084,6 +1125,29 @@
       ],
       "evidence": [
         "records/knowledge-story-model-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-012",
+      "title": "Tourism benchmark evidence and adaptation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Five prominent references selected for relevance; no verified traffic ranking.",
+        "Lonely Planet inspected via indexed text after direct retrieval failed.",
+        "Other comparisons inspect retrieved page structure; maps, filters, saves, bookings and conversions not tested.",
+        "Atlas cached listing counts differ and are not reused.",
+        "Recommendations are proposals, not implemented or user-tested behavior."
+      ],
+      "refs": [
+        "UTP-WORK-013"
+      ],
+      "evidence": [
+        "reference/travel-website-benchmark.md"
       ]
     }
   ],

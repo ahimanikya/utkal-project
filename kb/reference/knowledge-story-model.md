@@ -158,3 +158,7 @@ The tour book consumes selected **places, experiences, foods and actual stays**,
 - [Chilika coverage map](../models/knowledge-story-v0.1/chilika.coverage.json): points at canonical existing records, identifies coverage and gaps without duplicating article facts.
 
 The dictionary and templates are an information contract candidate, **not a deployed database schema or runtime validator**. Keep model versions with migrations when consumers adopt them. No bulk conversion or new place facts are implied. First review this shape, then fill a heritage destination and a food/craft example to test its range. Chilika's existing website renderer continues to consume its current canonical files until an explicit migration is prepared.
+
+## Reader-facing organization
+
+The [five-site travel benchmark](travel-website-benchmark.md) maps this deep knowledge hierarchy into three visitor paths: Explore Odisha, Stories of Utkal and Plan a visit. It proposes separating entity types from geography and interests in discovery. These are presentation recommendations; the model and current renderer have not been migrated.

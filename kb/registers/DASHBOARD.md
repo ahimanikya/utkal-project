@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5fe3ed00a2913e5c3474e48a995d9fd3b305bbe9141a85ee1422f99708fde2ea`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8bf14cb4aaac5eb8edc26b9d2eda491a14aa4ad54bdac283ecb857ce5f26de17`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -25,6 +25,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-010 · Utkal storytelling standard and Chilika narrative prototype | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the Chilika story and Odia passage. After review, develop other entries individually using the standard; no automatic full-KB rewrite. | — |
 | UTP-WORK-011 · Destination template, Chilika visitor guide and tour-book PRD addendum | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the revised Chilika page and destination model. Verify language and visitor details; use another destination to validate the model before implementing saved trips. | — |
 | UTP-WORK-012 · Utkal Knowledge & Story Model: place and thing profiles | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the hierarchy and field dictionary; test with a heritage place and a food/craft record before migration. | — |
+| UTP-WORK-013 · Five-site travel benchmark and visitor information architecture | awaiting_review | reviewed | Ahimanikya Satapathy | Review three proposed reader paths, taxonomy separation and prioritized Chilika/discovery refinements before UI implementation. | — |
 
 ## Pending human review and decisions
 
@@ -39,6 +40,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-010 | Founder reviews the Chilika story and Odia passage. After review, develop other entries individually using the standard; no automatic full-KB rewrite. |
 | UTP-WORK-011 | Founder reviews the revised Chilika page and destination model. Verify language and visitor details; use another destination to validate the model before implementing saved trips. |
 | UTP-WORK-012 | Founder reviews the hierarchy and field dictionary; test with a heritage place and a food/craft record before migration. |
+| UTP-WORK-013 | Review three proposed reader paths, taxonomy separation and prioritized Chilika/discovery refinements before UI implementation. |
 
 ## Decisions
 
@@ -72,6 +74,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-027 · Make Utkal narration poetic, evidence-led and emotionally engaging | approved | Ahimanikya Satapathy | Adopt the Founder’s storytelling direction across entity types, including reusable images or labelled AI illustration, local writers and sourced beliefs. Prepare a standard and Chilika prototype for review; no release or indexing authorization inferred. |
 | UTP-DEC-028 · Ground destination stories in practical discovery and prepare a personal tour-book model | approved | Ahimanikya Satapathy | Founder requested realism, place-associated poems and songs, tourism-site benchmarks, things to do/eat, a future portable tour book and unobtrusive end attribution. Authorizes preparation and prototype revision; does not approve final candidate, planner implementation or release. |
 | UTP-DEC-029 · Create a deeper place and thing information hierarchy | approved | Ahimanikya Satapathy | Prepare a reusable content model covering history, stories, spots, food, local integration, strengths/drawbacks, conduct, season, literature, culture, art/science, notable people, poems/songs, film connections and quotations. Exact model remains a review candidate; no site migration or Blueprint-wide adoption inferred. |
+| UTP-DEC-030 · Learn from five leading travel-site reference examples | approved | Ahimanikya Satapathy | Research five relevant travel references and prepare information-organization recommendations. Not authorization to adopt specific navigation, add services or publish changes. |
 
 ## Reviews
 
@@ -86,6 +89,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-009 | pass_with_limitations | False | Odia quotation uses an unproofread transcription corroborated by a second transcription; source scan retrieval failed and native-language review remains pending.; Kalijai is one attributed secondary telling, not a claim of universal belief or verified event.; CDA report-card figures describe 2023–2024, not current live conditions.; Browser emulation only; no fieldwork, physical-device or independent scholarly review. |
 | UTP-REV-010 | pass_with_limitations | False | Native Odia and edition review of existing Gopabandhu excerpt remains pending.; Music catalogue data includes indexed extracts and a secondary film catalogue; direct Amazon retrieval failed or redirected, playback and regional availability untested.; Food brochure inspected through indexed passage; direct PDF retrieval failed. No restaurant, accommodation quality or current availability verified locally.; Desktop screenshot capture produced clipping/duplication artifacts and a subsequent capture failed; desktop assessment used DOM geometry, mobile visual inspection succeeded. No physical device or screen reader test.; No trip persistence, itinerary editor, booklet export, new AI imagery or publication implemented. |
 | UTP-REV-011 | pass_with_limitations | False | This is an information dictionary, not an executable schema or enforcement mechanism.; Chilika mapping reuses existing evidence and its limits; no new historical, filming-location, quotation or practical visitor claims were researched.; A heritage-place and food/craft pilot should test the candidate before adopting it broadly. |
+| UTP-REV-012 | pass_with_limitations | False | Five prominent references selected for relevance; no verified traffic ranking.; Lonely Planet inspected via indexed text after direct retrieval failed.; Other comparisons inspect retrieved page structure; maps, filters, saves, bookings and conversions not tested.; Atlas cached listing counts differ and are not reused.; Recommendations are proposals, not implemented or user-tested behavior. |
 
 ## Publication and application history
 
@@ -133,7 +137,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-026 | 2026-09-28T13:02:07.055710+00:00 | Verified public repository, enabled Actions Pages, saved utkalproject.org and updated GoDaddy web DNS. Prepared manual release workflow; local 15-page build and six tests passed. TLS provisioning and first deployment remain pending. | Complete HTTPS verification, then obtain Founder approval for the concrete website release before merging and running the manual workflow. |
 | UTP-EVT-027 | 2026-09-28T13:13:17.165031+00:00 | Founder continued to first website release and excluded Store. Removed main-site Store route and links; GitHub DNS check successful and HTTPS enforcement enabled. Deployment pending. | Validate the 14-page site, merge the prepared release and publish only the website. |
 | UTP-EVT-028 | 2026-09-28T13:15:56.367761+00:00 | Website builds 14 pages and all seven tests pass. Store route and links removed. HTTPS enforcement verified. Automatic approval review rejected merge of PR #2: prior ok did not constitute explicit merge/public deployment authorization. No merge or workflow deployment performed. | Obtain explicit approval to merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded. |
 | UTP-EVT-029 | 2026-09-28T13:38:08.452520+00:00 | Founder explicitly approved PR #2 merge and website-only deployment. Merged bfbdf41; manual publishing succeeded. Verified HTTPS homepage, www redirect, Fresco gallery and absent Store route. | Continue editorial and mobile/accessibility review; future publication remains manual and Founder approved. |
@@ -143,6 +146,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-033 | 2026-09-29T02:52:42.296126+00:00 | Founder established an informative, playful and poetic story direction built on data, literature and local belief. Prepared Chilika as the first prototype with an attributed reusable photograph, dated ecological measures, a brief Odia verse and the Kalijai legend clearly framed as one telling. No AI image or public release was made. | Founder reviews the narrative prototype and local-language rendering. |
 | UTP-EVT-034 | 2026-09-29T03:26:11.313639+00:00 | Founder asked for more realistic storytelling, poems and songs connected to places, practical visitor choices and a future carry-along tour book. Studied five tourism references; refined Chilika with activities, food and stay bases; moved detailed attribution to expandable end notes. Documented a low-cost client-side planning path without implementing or publishing it. | Founder reviews the destination candidate and future tour-book requirements. |
 | UTP-EVT-035 | 2026-09-29T03:38:48.811874+00:00 | Founder expanded the destination idea into an information hierarchy for a place or thing: history, stories, food, local participation, honest expectations, seasons, culture, art/science, people, film connections and quotations. Prepared the Knowledge & Story Model candidate, typed relationships, empty place/thing templates and a Chilika coverage map. Knowledge and narrative presentation are separate; no new facts or migration were invented. | Founder reviews the information model candidate. |
+| UTP-EVT-036 | 2026-09-29T03:45:08.711902+00:00 | Compared Lonely Planet, Tripadvisor, Atlas Obscura, Japan Travel and Tourism Australia for editorial discovery, practical choices, place hierarchy and itinerary discovery. Proposed three Utkal reader paths and separate entity-type, geography and interest dimensions over the existing knowledge model. Inspection limits and phased follow-up preserved; no website behavior changed. | Founder reviews the reader-facing information architecture. |
 
 ## Deferred extensions
 

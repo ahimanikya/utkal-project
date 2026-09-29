@@ -456,3 +456,7 @@ Founder asked for more realistic storytelling, poems and songs connected to plac
 ## UTP-HIS-0058 · Knowing a place before telling its story
 
 Founder expanded the destination idea into an information hierarchy for a place or thing: history, stories, food, local participation, honest expectations, seasons, culture, art/science, people, film connections and quotations. Prepared the Knowledge & Story Model candidate, typed relationships, empty place/thing templates and a Chilika coverage map. Knowledge and narrative presentation are separate; no new facts or migration were invented. [Read the candidate model](../reference/knowledge-story-model.md). Founder review remains pending.
+
+## UTP-HIS-0059 · Learning how the world invites a traveller
+
+Compared Lonely Planet, Tripadvisor, Atlas Obscura, Japan Travel and Tourism Australia for editorial discovery, practical choices, place hierarchy and itinerary discovery. Proposed three Utkal reader paths and separate entity-type, geography and interest dimensions over the existing knowledge model. Inspection limits and phased follow-up preserved; no website behavior changed. [Read the comparison](../reference/travel-website-benchmark.md).
