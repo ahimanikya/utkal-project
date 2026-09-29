@@ -60,5 +60,21 @@
     "One Tab from the final dialog link moved focus outside document to browser chrome; native modal behavior retained, no full browser-chrome focus-cycle certification.",
     "Odia rendered visually; native-language proofreading remains a human review."
   ],
-  "publication": "Prepared for Founder review; not merged or deployed."
+  "publication": "Approved, merged and deployed; see deployment evidence below.",
+  "deployment": {
+    "authorization": "UTP-DEC-025",
+    "approval_quote": "Go ahead!",
+    "pr": "https://github.com/ahimanikya/utkal-project/pull/3",
+    "commit": "52a6cc5ee31f1542bf203fee23b0328496bd6715",
+    "workflow_run": "https://github.com/ahimanikya/utkal-project/actions/runs/36510884225",
+    "workflow_result": "success",
+    "verified_at": "2026-09-29T02:06:48.498464+00:00",
+    "live_checks": [
+      "HTTPS homepage has focusable main landmark and light text on blue feature panel.",
+      "No Store link on homepage; artifact exclusion tests passed in deployment.",
+      "Live gallery position has status semantics; ArrowRight on duration selector does not change the photograph.",
+      "Escape closes live viewer and returns focus to originating thumbnail."
+    ],
+    "site": "https://utkalproject.org/"
+  }
 }

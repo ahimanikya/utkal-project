@@ -224,7 +224,7 @@
       "id": "UTP-WORK-008",
       "title": "Mobile and keyboard accessibility refinements",
       "category": "website",
-      "status": "awaiting_review",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
@@ -232,10 +232,12 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-024",
-      "next_action": "Founder reviews the candidate before merge and publication; physical-device and assistive-technology testing remain follow-up.",
+      "next_action": "Published after Founder approval. Physical-device, Safari, screen-reader and native Odia proofreading remain follow-up, as recorded in the review limitations.",
       "blockers": [],
       "refs": [
-        "UTP-DEC-024"
+        "UTP-DEC-024",
+        "UTP-DEC-025",
+        "UTP-REL-005"
       ],
       "evidence": [
         "records/mobile-accessibility-review.json"
@@ -651,6 +653,26 @@
       "evidence": [
         "records/mobile-accessibility-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-025",
+      "title": "Merge and publish the mobile and accessibility improvements",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Go ahead!",
+      "scope": "Proceed with the reviewed PR #3 mobile and accessibility candidate, merge and publish it. Preserve Store exclusion, editorial draft labels and noindex.",
+      "recorded_at": "2026-09-29T02:05:24.111021+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-008",
+        "UTP-REV-007"
+      ],
+      "evidence": [
+        "records/mobile-accessibility-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -854,6 +876,22 @@
         "records/website-first-release.json"
       ],
       "note": "14-page preview, seven site tests passed. PR #2 merged; manual Pages run 36429615058 succeeded at bfbdf412d957cb35fad1477fe78463faa919a624. Store excluded. Editorial draft labels and noindex retained."
+    },
+    {
+      "id": "UTP-REL-005",
+      "title": "Mobile readability and gallery keyboard improvements published",
+      "status": "published",
+      "authorization": "UTP-DEC-025",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-025",
+        "UTP-WORK-008",
+        "UTP-REV-007"
+      ],
+      "evidence": [
+        "records/mobile-accessibility-review.json"
+      ],
+      "note": "PR #3 merged at 52a6cc5ee31f1542bf203fee23b0328496bd6715; manual workflow succeeded. Live homepage and gallery behavior verified. Store exclusion and editorial preview status retained."
     }
   ],
   "sources": [

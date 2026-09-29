@@ -436,3 +436,7 @@ On 28 September 2026, the Founder explicitly approved merging PR #2 and publishi
 ## UTP-HIS-0053 · Making the first home easier to use
 
 After the first public preview, the Founder asked us to proceed with mobile and accessibility review. The candidate improves phone reading, control sizes, contrast, keyboard operation and reduced motion. Fourteen pages passed checks at four widths; real-device and screen-reader testing remain follow-up. The live site is unchanged. [Review evidence](../records/mobile-accessibility-review.json).
+
+## UTP-HIS-0054 · The mobile refinements reach the public site
+
+The Founder approved PR #3 with “Go ahead!”. Its mobile readability, contrast, keyboard and reduced-motion improvements were merged and deployed successfully. Live checks confirmed the main changes; physical-device and screen-reader limitations remain documented. [Release evidence](../records/mobile-accessibility-review.json).

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8d82b183ed7bbd3d994a4ba9886c28c7b6d6bb90a7c39fc2ab05285af71cf780`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7a2caafc768b434e0d9f9159011e579f22d6e89bd695889f22f60ed446d62663`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -20,7 +20,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-005 · Website foundation and reviewable brand studio | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. | — |
 | UTP-WORK-006 · Prepare Utkal Store under Utkal Collective | awaiting_review | reviewed | Ahimanikya Satapathy | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. | — |
 | UTP-WORK-007 · Integrate Bhubaneswar Fresco archive | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews local candidate; no deployment has occurred. | — |
-| UTP-WORK-008 · Mobile and keyboard accessibility refinements | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the candidate before merge and publication; physical-device and assistive-technology testing remain follow-up. | — |
+| UTP-WORK-008 · Mobile and keyboard accessibility refinements | completed | reviewed | Ahimanikya Satapathy | Published after Founder approval. Physical-device, Safari, screen-reader and native Odia proofreading remain follow-up, as recorded in the review limitations. | — |
 
 ## Pending human review and decisions
 
@@ -31,7 +31,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-005 | Founder review of the website and brand choices; then finalize selected assets and prepare the next editorial/launch increment. |
 | UTP-WORK-006 | Review the graphical Story Cup and four v3 sample sheets before supplier template and physical sample requests. |
 | UTP-WORK-007 | Founder reviews local candidate; no deployment has occurred. |
-| UTP-WORK-008 | Founder reviews the candidate before merge and publication; physical-device and assistive-technology testing remain follow-up. |
 
 ## Decisions
 
@@ -60,6 +59,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-022 · Exclude Store from the first website release | approved | Ahimanikya Satapathy | Remove the main-site Store introduction and links; do not publish the separate Store app. Store source remains in the public repository, not private. The assistant interpreted the prior ok as permission to proceed with release, but automatic approval review rejected the merge for lack of explicit candidate merge/deployment authorization. Release remains pending explicit Founder approval. |
 | UTP-DEC-023 · Merge PR 2 and publish the 14-page preview without Store | approved | Ahimanikya Satapathy | Explicit response to: May I merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded? Authorizes that merge and public website preview deployment. Store remains unpublished and unlinked; source remains in the public repository. |
 | UTP-DEC-024 · Review mobile usability and accessibility | approved | Ahimanikya Satapathy | Proceed with recommended mobile and accessibility review and prepare fixes for review. No new deployment, analytics or contribution service authorized. |
+| UTP-DEC-025 · Merge and publish the mobile and accessibility improvements | approved | Ahimanikya Satapathy | Proceed with the reviewed PR #3 mobile and accessibility candidate, merge and publish it. Preserve Store exclusion, editorial draft labels and noindex. |
 
 ## Reviews
 
@@ -79,6 +79,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-002 · Register extension 1.0.0 applied to private repository | applied | https://github.com/ahimanikya/utkal-project/tree/main/registers | UTP-DEC-002 |
 | UTP-REL-003 · Repository repair and basic starter applied | applied | https://github.com/ahimanikya/utkal-project/tree/main | UTP-DEC-008 |
 | UTP-REL-004 · First public Utkal Project website preview | published | https://utkalproject.org/ | UTP-DEC-023 |
+| UTP-REL-005 · Mobile readability and gallery keyboard improvements published | published | https://utkalproject.org/ | UTP-DEC-025 |
 
 ## Sources and assets
 
@@ -116,7 +117,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-021 | 2026-09-28T09:33:53.384991+00:00 | Prepared shared-geometry artwork, four product/sample sheets and a sourced story for the reverse of the cup; proposed blank specifications are not approvals. | Founder review, then actual vendor templates and samples. |
 | UTP-EVT-022 | 2026-09-28T09:40:51.255921+00:00 | Replaced the rejected prose-on-cup candidate with a graphical maritime wrap; archived v2 privately; current product sheets use v3. | Founder reviews the visual story and sample specifications. |
 | UTP-EVT-023 | 2026-09-28T09:48:36.239349+00:00 | Enlarged cup UTKAL lettering and developed a matte-black bottle candidate. Sea-blue bottle retained for comparison. | Founder reviews the refined cup and bottle. |
 | UTP-EVT-024 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
@@ -126,6 +126,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-028 | 2026-09-28T13:15:56.367761+00:00 | Website builds 14 pages and all seven tests pass. Store route and links removed. HTTPS enforcement verified. Automatic approval review rejected merge of PR #2: prior ok did not constitute explicit merge/public deployment authorization. No merge or workflow deployment performed. | Obtain explicit approval to merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded. |
 | UTP-EVT-029 | 2026-09-28T13:38:08.452520+00:00 | Founder explicitly approved PR #2 merge and website-only deployment. Merged bfbdf41; manual publishing succeeded. Verified HTTPS homepage, www redirect, Fresco gallery and absent Store route. | Continue editorial and mobile/accessibility review; future publication remains manual and Founder approved. |
 | UTP-EVT-030 | 2026-09-29T01:46:53.428184+00:00 | Prepared mobile readability, contrast, keyboard and reduced-motion corrections. 56 responsive layout checks and seven existing tests passed. Actual-device and screen-reader review not performed; live website unchanged. | Founder reviews the candidate before publication. |
+| UTP-EVT-031 | 2026-09-29T02:06:48.498464+00:00 | Founder approved PR #3 with Go ahead! Merged and published; GitHub build/tests/deployment succeeded. Verified live contrast, focus target, Store link exclusion and gallery keyboard behavior. | Continue editorial review and record actual-device or screen-reader findings when performed. |
 
 ## Deferred extensions
 
