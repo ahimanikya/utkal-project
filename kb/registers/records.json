@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-29T02:52:42.296126+00:00",
+  "recorded_at": "2026-09-29T04:30:35.659644+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -361,6 +361,29 @@
       ],
       "evidence": [
         "reference/travel-website-benchmark.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-014",
+      "title": "Chilika and Konark destination pilots",
+      "category": "research_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-032",
+      "next_action": "Founder reviews both local pilots and content gaps before any release; saved choices and printable tour book remain the next phase.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-032",
+        "UTP-REV-013"
+      ],
+      "evidence": [
+        "reference/destination-pilots-review.md",
+        "records/destination-pilots-review.json"
       ]
     }
   ],
@@ -915,6 +938,26 @@
       "evidence": [
         "research/product/culture-first-travel-direction.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-032",
+      "title": "Proceed with Chilika and Konark destination pilots",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Sounds good, let's go",
+      "scope": "Prepare the next two-pilot candidate following the endorsed direction. Authorizes research, local implementation and review-branch update; no merge, deployment, spending or tour-book implementation.",
+      "recorded_at": "2026-09-29T04:30:35.659644+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-031",
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "reference/destination-pilots-review.md"
+      ]
     }
   ],
   "requirements": [
@@ -1169,6 +1212,32 @@
       ],
       "evidence": [
         "reference/travel-website-benchmark.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-013",
+      "title": "Two destination pilots: evidence and presentation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Visitor facts are desk-researched, not locally verified",
+        "Festival source is an archived 2019 edition, not a 2026 programme",
+        "Chilika Odia excerpt and recording-level credits still need review",
+        "Konark has a literary connection without an unverified quotation",
+        "Source-backed culture and explicitly editorial advice coexist; the latter is not a site rulebook",
+        "No personal saving, export, account or booking functionality",
+        "Browser emulation only; desktop visual capture is partial."
+      ],
+      "refs": [
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "records/destination-pilots-review.json",
+        "reference/destination-pilots-review.md"
       ]
     }
   ],

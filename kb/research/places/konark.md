@@ -11,7 +11,7 @@ geography: "Puri district"
 aliases: ["Konark Sun Temple", "konark"]
 verification_scope: "UNESCO property description, Outstanding Universal Value and inscription metadata inspected. Horse count omitted because sections disagree; legends are not presented as established history."
 stale_after: "2027-09-27T00:00:00Z"
-readiness: "Research nucleus; feature needs local detail and media"
+readiness: "Destination pilot prepared; Founder and local visitor-detail review pending"
 editorial_review: "Source check complete; Founder review pending. Not an independent scholarly review."
 ---
 
@@ -29,7 +29,7 @@ Use stone, light and detail to introduce the state’s cultural ambition.
 
 ## Next research
 
-Obtain image rights and current access details for a travel feature.
+A licensed, credited photograph and a structured destination pilot are now prepared. Confirm current opening hours, fees, access, transport, upcoming festival details and local providers before presenting a fully practical travel guide. See the [pilot review](../../reference/destination-pilots-review.md).
 
 ## Connections
 

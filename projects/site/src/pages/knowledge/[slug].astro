@@ -5,17 +5,25 @@ import StoryBody from '../../components/StoryBody.astro';
 import DestinationGuide from '../../components/DestinationGuide.astro';
 import chilikaStory from '../../../../../kb/research/stories/narratives/chilika.json';
 import chilikaDestination from '../../../../../kb/research/destinations/chilika.json';
+import konarkStory from '../../../../../kb/research/stories/narratives/konark.json';
+import konarkDestination from '../../../../../kb/research/destinations/konark.json';
+import DestinationContext from '../../components/DestinationContext.astro';
 export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
-const story=entry.slug==='chilika'?chilikaStory:null;
-const destination=story?chilikaDestination:null;
+const pilots={chilika:{story:chilikaStory,destination:chilikaDestination},konark:{story:konarkStory,destination:konarkDestination}};
+const {story=null,destination=null}=pilots[entry.slug]??{};
 const sources=[...entry.sources,...(story?.sources??[]),...(destination?.sources??[])];
 const evidenceUses=[
   ...entry.paragraphs.map((paragraph,index)=>({label:'Knowledge note '+(index+1),anchor:'fact-'+(index+1),sources:paragraph.sources})),
-  ...(story?[{label:'Gopabandhu’s poem',anchor:'poems-songs',sources:story.voice.sources},{label:'Ecological report card',anchor:'ecology',sources:story.surprise.sources},{label:'Kalijai legend',anchor:'local-belief',sources:story.belief.sources}]:[]),
+  ...(story?[
+    ...(story.history?[{label:story.history.heading,anchor:'history',sources:story.history.sources}]:[]),
+    ...(story.voice?[{label:story.voice.heading,anchor:'poems-songs',sources:story.voice.sources}]:[]),
+    ...(story.surprise?[{label:story.surprise.heading,anchor:story.surprise.id??'ecology',sources:story.surprise.sources}]:[]),
+    ...(story.belief?[{label:story.belief.heading,anchor:'local-belief',sources:story.belief.sources}]:[])
+  ]:[]),
   ...(destination?[
-    {label:'Planning and season',anchor:'plan-visit',sources:destination.orientation_sources},
-    ...[...destination.experiences,...destination.foods,...destination.bases,...destination.culture].map(item=>({label:item.title,anchor:item.id.replaceAll(':','-'),sources:item.sources}))
+    {label:'Planning and season',anchor:'plan-visit',sources:[...destination.orientation_sources,...destination.season_sources]},
+    ...[...destination.experiences,...destination.foods,...destination.bases,...destination.culture,{...destination.community,id:'locals',title:destination.community.heading}].map(item=>({label:item.title,anchor:item.id.replaceAll(':','-'),sources:item.sources}))
   ]:[])
 ];
 ---
@@ -28,18 +36,21 @@ const evidenceUses=[
       <p class="lead">{story?story.headline:entry.dek}</p>
     </div>
     {destination&&<nav class="destination-nav" aria-label="On this page">
-      <a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Poems & songs</a>
+      <a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Culture & stories</a><a href="#locals">Meet locally</a><a href="#expectations">Good to know</a>
     </nav>}
+    {destination&&<div class="destination-highlights" aria-label="Destination at a glance">{destination.highlights.map(highlight=><a href={highlight.href}><span class="eyebrow">{highlight.label}</span><strong>{highlight.text}</strong><span aria-hidden="true">↓</span></a>)}</div>}
     {story&&<figure class="story-hero" id="story-image">
       <img src={story.image.src} width={story.image.width} height={story.image.height} alt={story.image.alt} fetchpriority="high" />
-      <figcaption>{story.image.depiction} · A boat and birds on Chilika Lake.</figcaption>
+      <figcaption>{story.image.depiction} · {story.image.short_caption}</figcaption>
     </figure>}
     <article class:list={['knowledge',{'has-story':!!story}]}>
       <p class="notice">Editorial draft · awaiting Founder review.</p>
       {story&&<p class="story-opening">{story.opening}</p>}
+      {story?.history&&<section class="destination-history" id="history" aria-labelledby="history-title" data-source-ids={story.history.sources.join(' ')}><p class="eyebrow">Historical significance</p><h2 id="history-title">{story.history.heading}</h2><p>{story.history.text}</p></section>}
       {destination&&<DestinationGuide destination={destination} />}
       {story&&<StoryBody story={story} culture={destination?.culture} />}
-      {story&&<h2 class="record-heading">Meet the lagoon</h2>}
+      {destination&&<DestinationContext destination={destination} />}
+      {story&&<h2 class="record-heading">{story.record_heading}</h2>}
       {entry.paragraphs.map((paragraph,index)=>
         <p class="knowledge-text" id={'fact-'+(index+1)} data-source-ids={paragraph.sources.join(' ')}>{paragraph.text}</p>
       )}
@@ -48,9 +59,9 @@ const evidenceUses=[
         {story&&<div class="image-credit">
           <h3>Photograph & words</h3>
           <p><a href={story.image.source}>{story.image.title}</a> by {story.image.creator} · <a href={story.image.license_url}>{story.image.license}</a>. {story.image.changes} {story.image.caption}</p>
-          <p>{story.voice.translation_credit} {story.voice.original}</p>
+          {story.voice&&<p>{story.voice.translation_credit} {story.voice.original}</p>}
           {destination?.culture.map(work=><p>{work.title}: {work.credit}.</p>)}
-          <p>Music links lead to external catalogues; playback may depend on your location or account. No recordings or lyrics are hosted here.</p>
+          {destination?.culture.some(work=>work.type==='song')&&<p>Music links lead to external catalogues; playback may depend on your location or account. No recordings or lyrics are hosted here.</p>}
         </div>}
         <ol class="source-list">
           {sources.map(source=><li id={'source-'+source.id}>

@@ -62,3 +62,16 @@ main:focus{outline:none}
 .culture-list article{padding:24px 0;border-top:1px solid var(--line);scroll-margin-top:24px}.culture-list .eyebrow{margin-bottom:12px}.culture-list h3{font-size:25px}.culture-list p:not(.eyebrow){font-size:16px;line-height:1.8;margin:14px 0}.culture-list .text-link{font-size:14px}
 .end-credits{border-block:1px solid var(--line);margin-top:48px;margin-bottom:32px;padding:16px 0;font-size:13px;line-height:1.8}.end-credits summary{cursor:pointer;color:var(--sea);font-size:15px;padding:10px 0;min-height:44px}.end-credits h3{font-size:23px;margin:18px 0}.end-credits .image-credit p{margin-block:12px}.end-credits .source-list{margin-top:28px}.end-credits .source-used{margin-top:8px;font-size:12px}.end-credits a{overflow-wrap:anywhere}
 @media(max-width:650px){.destination-nav{gap:4px 22px}.destination-cards article{grid-template-columns:30px 1fr;gap:12px}.destination-plan{padding:22px}.destination-guide section{margin-block:36px}}
+
+/* Two destination pilots: the same reading paths, distinct local stories. */
+.destination-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:0 0 36px}
+.destination-highlights a{display:flex;flex-direction:column;align-items:start;gap:12px;text-decoration:none;padding:20px 0;border-bottom:2px solid var(--earth);color:var(--sea)}
+.destination-highlights .eyebrow{margin:0}.destination-highlights strong{font:24px/1.35 var(--serif)}.destination-highlights a:hover strong{text-decoration:underline}
+.destination-history,.destination-context{max-width:800px;margin:0 auto 56px;font-size:17px;line-height:1.8}
+.destination-history h2,.destination-context h2{font-size:clamp(30px,3vw,42px);margin-bottom:24px}
+.destination-context section{margin-block:48px;scroll-margin-top:24px}.destination-expectations{margin:0}.destination-expectations>div{padding:20px 0;border-top:1px solid var(--line)}
+.destination-expectations dt{color:var(--earth);font-weight:650;margin-bottom:8px}.destination-expectations dd{margin:0}
+.destination-related{padding:28px;background:var(--paper);border-left:3px solid var(--earth)}.destination-related h3{font-size:27px;margin-bottom:16px}.destination-related a{color:var(--sea)}
+.story-metrics:has(>div:only-child){grid-template-columns:1fr}.story-metrics:has(>div:only-child) dd{font-size:64px}
+@media(min-width:951px){.story-hero{max-width:1000px;margin-inline:auto}}
+@media(max-width:650px){.destination-highlights{grid-template-columns:1fr;gap:0;margin-bottom:28px}.destination-highlights a{padding:16px 0;display:grid;grid-template-columns:1fr 24px;gap:6px 12px}.destination-highlights .eyebrow,.destination-highlights strong{grid-column:1}.destination-highlights a>span:last-child{grid-column:2;grid-row:1/3;align-self:center}.destination-highlights strong{font-size:21px}.destination-related{padding:22px}}

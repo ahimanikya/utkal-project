@@ -1,15 +1,15 @@
 ---
 const {destination:d}=Astro.props;
 const groups=[
-  {id:'things-to-do',eyebrow:'Make time for',title:'Three ways into Chilika',items:d.experiences},
-  {id:'food',eyebrow:'At the table',title:'A taste of the lagoon',items:d.foods,note:d.food_note},
-  {id:'stay',eyebrow:'Choose your base',title:'Where to stay around Chilika',items:d.bases,note:d.stay_note}
+  {id:'things-to-do',eyebrow:'Make time for',title:d.headings.experiences,items:d.experiences},
+  {id:'food',eyebrow:'At the table',title:d.headings.foods,items:d.foods,note:d.food_note},
+  {id:'stay',eyebrow:'Choose your base',title:d.headings.bases,items:d.bases,note:d.stay_note}
 ];
 ---
 <div class="destination-guide">
   <section id="plan-visit" class="destination-orientation" aria-labelledby="orientation-title" data-source-ids={d.orientation_sources.join(' ')}>
     <p class="eyebrow">Before you set out</p>
-    <h2 id="orientation-title">Which Chilika is yours?</h2>
+    <h2 id="orientation-title">{d.headings.orientation}</h2>
     <p>{d.orientation}</p>
     <p class="season-note" data-source-ids={d.season_sources.join(' ')}><strong>When to go.</strong> {d.season}</p>
   </section>

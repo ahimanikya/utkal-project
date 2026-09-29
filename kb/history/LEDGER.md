@@ -464,3 +464,7 @@ Compared Lonely Planet, Tripadvisor, Atlas Obscura, Japan Travel and Tourism Aus
 ## UTP-HIS-0060 · A story becomes a journey
 
 Founder endorsed the combined culture-first travel recommendation. Recorded the six-step visitor journey, three information layers and Chilika/Konark-first pilot sequence, followed by saved choices and a printable tour book. Detailed candidate review and publication remain separate. [Read the agreed direction](../research/product/culture-first-travel-direction.md).
+
+## UTP-HIS-0061 · Two places, two ways of seeing
+
+Prepared Konark as the second destination pilot and refined Chilika with shared overview, local-engagement and expectations sections. Preserved real-image rights, source trails, legend labels, practical gaps and the Founder publication gate. Chilika invites a choice of shore; Konark invites a closer look at stone. The common structure now carries two distinct places without manufacturing a poem, film location or quotation to fill an empty slot. [Review the pilots](../reference/destination-pilots-review.md).

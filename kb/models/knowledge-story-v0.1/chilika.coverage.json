@@ -171,8 +171,14 @@
     },
     {
       "id": "community",
-      "state": "not_researched",
-      "entry_refs": [],
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/community",
+          "note": "Pilot addition: editorial guidance and reading suggestions; does not establish provider review or verified travel rules."
+        }
+      ],
       "gaps": [
         {
           "question": "Which local hosts or community-led experiences welcome visitors?",
@@ -216,8 +222,14 @@
     },
     {
       "id": "expectations",
-      "state": "not_researched",
-      "entry_refs": [],
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/expectations",
+          "note": "Pilot addition: editorial guidance and reading suggestions; does not establish provider review or verified travel rules."
+        }
+      ],
       "gaps": [
         {
           "question": "Source-backed strengths and drawbacks for different visitor needs",
@@ -233,8 +245,14 @@
     },
     {
       "id": "related",
-      "state": "not_researched",
-      "entry_refs": [],
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/related",
+          "note": "Pilot addition: editorial guidance and reading suggestions; does not establish provider review or verified travel rules."
+        }
+      ],
       "gaps": [
         {
           "question": "Choose related entities with precise evidence-backed connections",
@@ -244,5 +262,5 @@
       ]
     }
   ],
-  "note": "Maps existing knowledge to the proposed hierarchy. Draft coverage may be partial. It does not claim the module was newly checked, adopted or published."
+  "note": "Maps current pilot material to the proposed hierarchy; this is not a runtime schema migration. Existing literary, access and local-provider gaps remain open."
 }

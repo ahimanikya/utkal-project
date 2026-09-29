@@ -60,3 +60,5 @@ This directory contains the organizational and working model, roles, work record
 - [Five travel websites: lessons and proposed information architecture](reference/travel-website-benchmark.md)
 
 - [Culture-first travel direction and pilot sequence](research/product/culture-first-travel-direction.md)
+
+- [Chilika and Konark destination pilots](reference/destination-pilots-review.md)

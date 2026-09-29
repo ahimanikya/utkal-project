@@ -95,3 +95,39 @@ test('destination choices and culture resolve to evidence inside collapsed end c
   assert.ok(main.includes('sighting is never guaranteed'));
   assert.ok(end.includes('playback'));
 });
+
+test('both destination pilots preserve optional narratives, source coverage and local planning paths',()=>{
+  for(const slug of ['chilika','konark']){
+    const d=JSON.parse(readFileSync(`../../kb/research/destinations/${slug}.json`,'utf8'));
+    const story=JSON.parse(readFileSync(`../../kb/research/stories/narratives/${slug}.json`,'utf8'));
+    const html=readFileSync(`dist/knowledge/${slug}/index.html`,'utf8');
+    const sources=[...notes.find(n=>n.slug===slug).sources,...d.sources,...story.sources];
+    const ids=sources.map(s=>s.id);
+    assert.equal(new Set(ids).size,ids.length,`${slug}: unique source ids`);
+    const blocks=[story.history,story.voice,story.surprise,story.belief,d.community,...d.experiences,...d.foods,...d.bases,...d.culture].filter(Boolean);
+    for(const block of blocks){
+      assert.ok(block.sources.length,`${slug}: ${block.title??block.heading}`);
+      for(const source of block.sources)assert.ok(ids.includes(source),`${slug}: unresolved ${source}`);
+      assert.ok(html.includes(`data-source-ids="${block.sources.join(' ')}"`));
+    }
+    for(const id of ids){
+      const source=html.match(new RegExp(`<li id="source-${id}">([\\s\\S]*?)</li>`));
+      assert.ok(source,`${slug}: ${id}`);
+      assert.match(source[1],/href="#/,`${slug}: ${id} has no return to supported passage`);
+    }
+    for(const h of d.highlights)assert.ok(html.includes(`href="${h.href}"`));
+    for(const anchor of ['locals','expectations','poems-songs','stay','food','plan-visit'])assert.ok(html.includes(`id="${anchor}"`));
+    for(const field of ['creator','source','license_url','changes'])assert.ok(html.includes(escape(story.image[field])));
+    assert.ok(d.bases.every(item=>item.type==='base_area'));
+    assert.ok(html.includes(escape(story.belief.qualification)));
+    assert.ok(!html.includes('Add to my trip'));
+    if(slug==='konark'){
+      assert.ok(!story.voice,'do not manufacture a quote to satisfy a template');
+      assert.ok(!html.includes('Meet the lagoon'));
+      assert.ok(html.includes('not a confirmed 2026 programme'));
+      assert.ok(html.includes('not claims that the dishes originated in Konark'));
+      assert.ok(html.includes('id="history"'));
+      assert.ok(!html.includes('undefined'));
+    }
+  }
+});

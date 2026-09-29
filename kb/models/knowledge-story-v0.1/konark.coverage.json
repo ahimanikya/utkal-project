@@ -1,0 +1,221 @@
+{
+  "model_version": "0.1",
+  "entity_id": "place:konark",
+  "profile": "place",
+  "status": "mapping_only_not_migrated",
+  "recorded_on": "2026-09-29",
+  "new_research_performed": true,
+  "modules": [
+    {
+      "id": "identity",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/orientation",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Historical names, Odia form, geography and boundaries",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/stories/narratives/konark.json",
+          "pointer": "/history",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Independent scholarly and local review beyond UNESCO summary",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/stories/narratives/konark.json",
+          "pointer": "/belief",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Other attributed tellings and original literary edition",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "experiences",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/experiences",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Current access, entry hours, fees and festival schedule",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/foods",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Named venues, vegetarian options and local availability",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/culture",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Original poem edition, songs and primary film-location evidence",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "nature_science",
+      "state": "not_researched",
+      "entry_refs": [],
+      "gaps": [
+        {
+          "question": "Research coastal ecology and conservation without inventing wheel-as-clock claims",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/culture/0",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Documented biographies and precise connections, not inferred birthplace",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/community",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Locally reviewed guides, makers, participation and consent arrangements",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "visit",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/season",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Transport, accessibility, facilities, stays and current operation",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "expectations",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/expectations",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Field review and authoritative current site/visitor rules",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/konark.json",
+          "pointer": "/related",
+          "note": "Partial pilot coverage. Sources and limitations are retained in the canonical record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Route feasibility before combining visits; currently reading suggestions only",
+          "work_ref": "UTP-WORK-014",
+          "assigned_owner": null
+        }
+      ]
+    }
+  ],
+  "note": "Konark pilot coverage against the proposed model. Literary connections do not imply birthplace; regional food does not imply Konark origin; suggested bases are not reviewed stays. No general model migration."
+}

@@ -2,35 +2,33 @@
 const {story,culture=[]}=Astro.props;
 ---
 <div class="story-flow">
-  <section id="poems-songs" class="story-voice" aria-labelledby="voice-title" data-source-ids={story.voice.sources.join(" ")}>
-    <p class="eyebrow">Poems & songs</p>
-    <h2 id="voice-title">{story.voice.heading}</h2>
-    <blockquote>
+  <section id="poems-songs" class="story-voice" aria-labelledby="voice-title" data-source-ids={story.voice?.sources.join(" ")}>
+    <p class="eyebrow">Literature & living culture</p>
+    <h2 id="voice-title">{story.voice?.heading??story.culture_heading}</h2>
+    {story.voice?<><blockquote>
       <p lang={story.voice.language} class="odia-verse">{story.voice.original}</p>
       <p class="verse-translation">{story.voice.translation}</p>
-      <footer>{story.voice.author} · <cite>{story.voice.work}</cite>
-      </footer>
-    </blockquote>
-    <p>{story.voice.context}</p>
+      <footer>{story.voice.author} · <cite>{story.voice.work}</cite></footer>
+    </blockquote><p>{story.voice.context}</p></>:<p>{story.culture_intro}</p>}
     <div class="culture-list">{culture.map(work=><article id={work.id.replaceAll(':','-')} data-source-ids={work.sources.join(' ')}>
-      <p class="eyebrow">{work.type==='song'?'Listen':'Read'}</p>
+      <p class="eyebrow">{work.type==='song'?'Listen':work.type==='performance'?'Experience':'Read'}</p>
       <h3>{work.title}</h3><p>{work.text}</p>
       <a class="text-link" href={work.url}>{work.link_label} ↗</a>
     </article>)}</div>
   </section>
-  <section class="story-surprise" id="ecology" aria-labelledby="surprise-title" data-source-ids={story.surprise.sources.join(" ")}>
+  {story.surprise&&<section class="story-surprise" id={story.surprise.id??'ecology'} aria-labelledby="surprise-title" data-source-ids={story.surprise.sources.join(" ")}>
     <p class="eyebrow">Look a little closer</p>
     <h2 id="surprise-title">{story.surprise.heading}</h2>
     <dl class="story-metrics">{story.surprise.metrics.map(metric=><div><dt>{metric.label}</dt><dd>{metric.value}</dd></div>)}</dl>
     <p>{story.surprise.text}</p>
     <details><summary>{story.surprise.reveal_label}</summary><p>{story.surprise.reveal}</p></details>
-  </section>
-  <section class="story-belief" id="local-belief" aria-labelledby="belief-title" data-source-ids={story.belief.sources.join(" ")}>
+  </section>}
+  {story.belief&&<section class="story-belief" id="local-belief" aria-labelledby="belief-title" data-source-ids={story.belief.sources.join(" ")}>
     <p class="eyebrow">{story.belief.label}</p>
     <h2 id="belief-title">{story.belief.heading}</h2>
     <p>{story.belief.text}</p>
     <p class="belief-note">{story.belief.qualification}</p>
-  </section>
+  </section>}
   <aside class="story-play" aria-labelledby="play-title">
     <p class="eyebrow">A small moment of your own</p>
     <h2 id="play-title">{story.invitation.heading}</h2>

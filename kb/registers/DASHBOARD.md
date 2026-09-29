@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9e9613d8daf2b19b1ca0c5b517e5ed74aea4e9229dc53bef2458d45c1fbb828d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8385b549849e0678fae9fdd0a03f058f3ff0705e5dab844cd9133638c5c78238`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -26,6 +26,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-011 · Destination template, Chilika visitor guide and tour-book PRD addendum | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the revised Chilika page and destination model. Verify language and visitor details; use another destination to validate the model before implementing saved trips. | — |
 | UTP-WORK-012 · Utkal Knowledge & Story Model: place and thing profiles | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the hierarchy and field dictionary; test with a heritage place and a food/craft record before migration. | — |
 | UTP-WORK-013 · Five-site travel benchmark and visitor information architecture | awaiting_review | reviewed | Ahimanikya Satapathy | Combined product direction endorsed in UTP-DEC-031. Prepare Konark and align the Chilika/Konark pilot presentations; detailed IA/UI review and publication remain separate. | — |
+| UTP-WORK-014 · Chilika and Konark destination pilots | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews both local pilots and content gaps before any release; saved choices and printable tour book remain the next phase. | — |
 
 ## Pending human review and decisions
 
@@ -41,6 +42,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-011 | Founder reviews the revised Chilika page and destination model. Verify language and visitor details; use another destination to validate the model before implementing saved trips. |
 | UTP-WORK-012 | Founder reviews the hierarchy and field dictionary; test with a heritage place and a food/craft record before migration. |
 | UTP-WORK-013 | Combined product direction endorsed in UTP-DEC-031. Prepare Konark and align the Chilika/Konark pilot presentations; detailed IA/UI review and publication remain separate. |
+| UTP-WORK-014 | Founder reviews both local pilots and content gaps before any release; saved choices and printable tour book remain the next phase. |
 
 ## Decisions
 
@@ -76,6 +78,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-029 · Create a deeper place and thing information hierarchy | approved | Ahimanikya Satapathy | Prepare a reusable content model covering history, stories, spots, food, local integration, strengths/drawbacks, conduct, season, literature, culture, art/science, notable people, poems/songs, film connections and quotations. Exact model remains a review candidate; no site migration or Blueprint-wide adoption inferred. |
 | UTP-DEC-030 · Learn from five leading travel-site reference examples | approved | Ahimanikya Satapathy | Research five relevant travel references and prepare information-organization recommendations. Not authorization to adopt specific navigation, add services or publish changes. |
 | UTP-DEC-031 · Endorse culture-first Odisha travel direction and pilot sequence | approved | Ahimanikya Satapathy | Endorse Discover–Understand–Choose–Plan–Carry–Contribute, separate enduring knowledge/visitor information/personal plans, prove the model with Chilika and Konark, then saved choices and printable tour book. Direction endorsement only; no blanket approval of detailed schemas, current draft content, merge, deployment or spending. |
+| UTP-DEC-032 · Proceed with Chilika and Konark destination pilots | approved | Ahimanikya Satapathy | Prepare the next two-pilot candidate following the endorsed direction. Authorizes research, local implementation and review-branch update; no merge, deployment, spending or tour-book implementation. |
 
 ## Reviews
 
@@ -91,6 +94,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-010 | pass_with_limitations | False | Native Odia and edition review of existing Gopabandhu excerpt remains pending.; Music catalogue data includes indexed extracts and a secondary film catalogue; direct Amazon retrieval failed or redirected, playback and regional availability untested.; Food brochure inspected through indexed passage; direct PDF retrieval failed. No restaurant, accommodation quality or current availability verified locally.; Desktop screenshot capture produced clipping/duplication artifacts and a subsequent capture failed; desktop assessment used DOM geometry, mobile visual inspection succeeded. No physical device or screen reader test.; No trip persistence, itinerary editor, booklet export, new AI imagery or publication implemented. |
 | UTP-REV-011 | pass_with_limitations | False | This is an information dictionary, not an executable schema or enforcement mechanism.; Chilika mapping reuses existing evidence and its limits; no new historical, filming-location, quotation or practical visitor claims were researched.; A heritage-place and food/craft pilot should test the candidate before adopting it broadly. |
 | UTP-REV-012 | pass_with_limitations | False | Five prominent references selected for relevance; no verified traffic ranking.; Lonely Planet inspected via indexed text after direct retrieval failed.; Other comparisons inspect retrieved page structure; maps, filters, saves, bookings and conversions not tested.; Atlas cached listing counts differ and are not reused.; Recommendations are proposals, not implemented or user-tested behavior. |
+| UTP-REV-013 | pass_with_limitations | False | Visitor facts are desk-researched, not locally verified; Festival source is an archived 2019 edition, not a 2026 programme; Chilika Odia excerpt and recording-level credits still need review; Konark has a literary connection without an unverified quotation; Source-backed culture and explicitly editorial advice coexist; the latter is not a site rulebook; No personal saving, export, account or booking functionality; Browser emulation only; desktop visual capture is partial. |
 
 ## Publication and application history
 
@@ -138,7 +142,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-028 | 2026-09-28T13:15:56.367761+00:00 | Website builds 14 pages and all seven tests pass. Store route and links removed. HTTPS enforcement verified. Automatic approval review rejected merge of PR #2: prior ok did not constitute explicit merge/public deployment authorization. No merge or workflow deployment performed. | Obtain explicit approval to merge PR #2 and publish the 14-page preview at utkalproject.org, with Store excluded. |
 | UTP-EVT-029 | 2026-09-28T13:38:08.452520+00:00 | Founder explicitly approved PR #2 merge and website-only deployment. Merged bfbdf41; manual publishing succeeded. Verified HTTPS homepage, www redirect, Fresco gallery and absent Store route. | Continue editorial and mobile/accessibility review; future publication remains manual and Founder approved. |
 | UTP-EVT-030 | 2026-09-29T01:46:53.428184+00:00 | Prepared mobile readability, contrast, keyboard and reduced-motion corrections. 56 responsive layout checks and seven existing tests passed. Actual-device and screen-reader review not performed; live website unchanged. | Founder reviews the candidate before publication. |
 | UTP-EVT-031 | 2026-09-29T02:06:48.498464+00:00 | Founder approved PR #3 with Go ahead! Merged and published; GitHub build/tests/deployment succeeded. Verified live contrast, focus target, Store link exclusion and gallery keyboard behavior. | Continue editorial review and record actual-device or screen-reader findings when performed. |
@@ -148,6 +151,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-035 | 2026-09-29T03:38:48.811874+00:00 | Founder expanded the destination idea into an information hierarchy for a place or thing: history, stories, food, local participation, honest expectations, seasons, culture, art/science, people, film connections and quotations. Prepared the Knowledge & Story Model candidate, typed relationships, empty place/thing templates and a Chilika coverage map. Knowledge and narrative presentation are separate; no new facts or migration were invented. | Founder reviews the information model candidate. |
 | UTP-EVT-036 | 2026-09-29T03:45:08.711902+00:00 | Compared Lonely Planet, Tripadvisor, Atlas Obscura, Japan Travel and Tourism Australia for editorial discovery, practical choices, place hierarchy and itinerary discovery. Proposed three Utkal reader paths and separate entity-type, geography and interest dimensions over the existing knowledge model. Inspection limits and phased follow-up preserved; no website behavior changed. | Founder reviews the reader-facing information architecture. |
 | UTP-EVT-037 | 2026-09-29T03:53:56.732972+00:00 | Founder endorsed the combined culture-first travel recommendation. Recorded the six-step visitor journey, three information layers and Chilika/Konark-first pilot sequence, followed by saved choices and a printable tour book. Detailed candidate review and publication remain separate. | Prepare the Konark pilot and align both destination presentations with the agreed direction. |
+| UTP-EVT-038 | 2026-09-29T04:30:35.659644+00:00 | Prepared Konark as the second destination pilot and refined Chilika with shared overview, local-engagement and expectations sections. Preserved real-image rights, source trails, legend labels, practical gaps and the Founder publication gate. | Founder reviews candidate; local visitor details remain follow-up. |
 
 ## Deferred extensions
 

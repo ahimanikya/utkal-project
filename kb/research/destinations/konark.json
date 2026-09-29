@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "id": "place:konark",
+  "slug": "konark",
+  "status": "draft_for_founder_review",
+  "checked_on": "2026-09-29",
+  "headings": {
+    "orientation": "Start with the stones. Leave room for the coast.",
+    "experiences": "Three ways to meet Konark",
+    "foods": "A taste of the Puri coast",
+    "bases": "Choose a base for your kind of day"
+  },
+  "highlights": [
+    {
+      "label": "Come for",
+      "text": "Sculpture, stories and the coast",
+      "href": "#things-to-do"
+    },
+    {
+      "label": "Season to consider",
+      "text": "October–February · regional guidance",
+      "href": "#plan-visit"
+    },
+    {
+      "label": "Make a connection",
+      "text": "Dharmapada and classical dance",
+      "href": "#poems-songs"
+    }
+  ],
+  "orientation": "Make the Sun Temple the focus, then decide whether your day has room for Chandrabhaga’s shore. A festival visit needs a different plan: confirm the current programme before arranging your stay.",
+  "orientation_sources": [
+    "konark",
+    "chandrabhaga-visit",
+    "konark-festival"
+  ],
+  "season": "Incredible India recommends October–February for the Puri region. Use that as a starting point for the coast, then check the forecast. The dance festival is traditionally held in early December; the official page cited here describes an older edition, not a confirmed 2026 programme.",
+  "season_sources": [
+    "puri-visit",
+    "konark-festival"
+  ],
+  "experiences": [
+    {
+      "id": "experience:konark-stone",
+      "title": "Spend time with the sculpture",
+      "text": "Begin with a wheel, then follow the reliefs along the temple. A guided conversation can turn a quick photograph into a closer reading of the stone.",
+      "sources": [
+        "konark"
+      ],
+      "type": "experience",
+      "area": "Sun Temple",
+      "interests": [
+        "history",
+        "art"
+      ]
+    },
+    {
+      "id": "experience:konark-coast",
+      "title": "Make room for Chandrabhaga",
+      "text": "Odisha Tourism highlights this shore for sunrise. Add a beach walk if your schedule allows; check local conditions and signs before approaching the water.",
+      "sources": [
+        "chandrabhaga-visit"
+      ],
+      "type": "experience",
+      "area": "Chandrabhaga",
+      "interests": [
+        "coast",
+        "nature"
+      ]
+    },
+    {
+      "id": "experience:konark-dance",
+      "title": "Plan around a dance evening",
+      "text": "The Konark Dance Festival brings classical dance to an open-air stage with the temple as its backdrop. Look up the current dates, programme and entry arrangements before building a trip around it.",
+      "sources": [
+        "konark-festival"
+      ],
+      "type": "experience",
+      "area": "Festival venue",
+      "interests": [
+        "dance",
+        "culture"
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "food:konark-machha-besara",
+      "title": "Machha besara",
+      "text": "Fish in mustard gravy: a regional dish to seek out along the Puri coast. Ask what fish is being served and how the kitchen prepares it.",
+      "sources": [
+        "puri-visit"
+      ],
+      "type": "food",
+      "diet": [
+        "fish",
+        "mustard"
+      ]
+    },
+    {
+      "id": "food:konark-chingudi",
+      "title": "Chingudi tarkari",
+      "text": "A prawn curry to look for on the coastal menu. Ask about the day’s availability, portion and price before ordering.",
+      "sources": [
+        "puri-visit"
+      ],
+      "type": "food",
+      "diet": [
+        "shellfish"
+      ]
+    },
+    {
+      "id": "food:konark-chhena-poda",
+      "title": "Chhena poda",
+      "text": "Finish with chhena poda, a baked cheese sweet. Ask locally where it is freshly made; we have not yet reviewed a Konark sweet shop.",
+      "sources": [
+        "puri-visit"
+      ],
+      "type": "food",
+      "diet": [
+        "dairy"
+      ]
+    }
+  ],
+  "food_note": "These are regional food leads, not claims that the dishes originated in Konark. Ask about ingredients and vegetarian meals directly; named venues remain to be checked.",
+  "bases": [
+    {
+      "id": "base:konark-local",
+      "title": "Keep Konark at the centre",
+      "text": "Our suggestion for a temple-focused or festival visit: investigate accommodation in Konark and verify the route to your chosen venue. No individual property is reviewed here.",
+      "sources": [
+        "konark",
+        "konark-festival"
+      ],
+      "type": "base_area",
+      "kind": "editorial_suggestion",
+      "area": "Konark"
+    },
+    {
+      "id": "base:konark-puri",
+      "title": "Combine it with a Puri stay",
+      "text": "Consider a Puri base if your trip includes that city too. Arrange the outward and return journey before committing to a day out; this is a planning suggestion, not a checked transfer timetable.",
+      "sources": [
+        "puri-visit"
+      ],
+      "type": "base_area",
+      "kind": "editorial_suggestion",
+      "area": "Puri"
+    }
+  ],
+  "stay_note": "Choose the area first, then verify a property’s operation, access, rooms and rates directly. Transport times and accessible routes are still to be checked.",
+  "culture": [
+    {
+      "id": "culture:konark-dharmapada",
+      "title": "Dharmapada · Gopabandhu Das",
+      "text": "A literary connection to the temple’s best-known young builder in legend. Read about the poem’s treatment of sacrifice, while keeping the story distinct from the monument’s documented history.",
+      "sources": [
+        "dharmapada-literature"
+      ],
+      "type": "poem",
+      "credit": "Gopabandhu Das; literary discussion by Snigdha Acharya",
+      "url": "https://magazines.odisha.gov.in/orissareview/2014/Sept-Oct/engpdf/49-55.pdf",
+      "link_label": "Read the literary discussion"
+    },
+    {
+      "id": "culture:konark-festival",
+      "title": "Classical dance beside the temple",
+      "text": "Odisha Tourism describes a festival of classical forms, including Odissi. Its older programme also describes a crafts fair: a lead for meeting makers when a current edition confirms participation.",
+      "sources": [
+        "konark-festival"
+      ],
+      "type": "performance",
+      "credit": "Artists and organisers of the Konark Dance Festival; overview from Odisha Tourism",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/about-odisha/events-of-odisha/Konark-Dance-Festival.html",
+      "link_label": "Explore the festival tradition"
+    }
+  ],
+  "community": {
+    "heading": "Let a conversation change what you notice",
+    "text": "Ask a guide to explain one carving in depth. If a crafts fair is running, ask a maker about the material and work behind an object before buying. Ask permission before photographing people. These are our suggestions; no guide or maker has been vetted for this page.",
+    "kind": "editorial_suggestion",
+    "sources": [
+      "konark",
+      "konark-festival"
+    ]
+  },
+  "expectations": {
+    "heading": "A rewarding visit needs a little preparation",
+    "strength": "Slow looking, sculpture and cultural curiosity. A festival adds a different experience when its dates align with your trip.",
+    "constraint": "Do not plan from an old festival programme. Current entry fees, opening hours, step-free access and transport still need direct confirmation.",
+    "do": "Keep to visitor routes, respect barriers and leave the carved surfaces untouched. Follow the site’s current instructions.",
+    "avoid": "Avoid promising yourself a temple, beach and performance in one rushed stop. Choose your priority and leave time for the return.",
+    "kind": "editorial_guidance_not_a_complete_site_rulebook"
+  },
+  "planning": {
+    "heading": "Build the day around one main experience",
+    "text": "Our starting point: the temple and a meal, with the coast as an optional addition. For a dance visit, work backwards from the confirmed performance time and transport. This is a flexible suggestion, not a timed or bookable itinerary.",
+    "kind": "editorial_suggestion"
+  },
+  "related": [
+    {
+      "title": "Another pace: Chilika",
+      "text": "Explore Odisha through water, birds and a poet’s wish to linger. A separate destination to research, not an automatic same-day addition.",
+      "href": "/knowledge/chilika/",
+      "kind": "editorial_reading_suggestion"
+    }
+  ],
+  "sources": [
+    {
+      "id": "chandrabhaga-visit",
+      "title": "Chandrabhaga Beach — Odisha Tourism",
+      "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/chandrabagha-beach.html",
+      "inspection": "Official destination description inspected for the Konark coast and sunrise connection. Swimming conditions, facilities and current access were not field-checked."
+    },
+    {
+      "id": "konark-festival",
+      "title": "Konark Dance Festival — Odisha Tourism, archived edition",
+      "resource": "https://odishatourism.gov.in/content/tourism/en/discover/about-odisha/events-of-odisha/Konark-Dance-Festival.html",
+      "inspection": "Official page inspected for classical dance, open-air setting, early-December tradition and crafts fair. Page header identifies a 2019 edition. Used for cultural context only; no 2026 programme, ticket or availability claim."
+    },
+    {
+      "id": "puri-visit",
+      "title": "Puri — Incredible India",
+      "resource": "https://www.incredibleindia.gov.in/en/odisha/puri",
+      "inspection": "Official city guide inspected for October–February regional season guidance and machha besara, chingudi tarkari and chhena poda. Regional leads do not establish Konark origin, restaurant availability or quality."
+    }
+  ],
+  "gaps": [
+    "Current temple opening hours and entry fees",
+    "Confirmed upcoming festival programme",
+    "Field-checked transport and journey times",
+    "Accessible routes, toilets and resting places",
+    "Reviewed stays, guides, restaurants and vegetarian options",
+    "Original edition and Odia review of Dharmapada",
+    "Primary evidence for any film-shooting location or famous quotation"
+  ]
+}
