@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "id": "place:chilika",
+  "slug": "chilika",
+  "status": "draft_for_founder_review",
+  "checked_on": "2026-09-29",
+  "orientation": "Start with the experience you want. Mangalajodi is the birdwatching choice; Barkul connects with Kalijai; Satapada is associated with dolphin-watching trips. Rambha offers another lakeside base. These are separate starting points, so choose one focus before arranging transport.",
+  "orientation_sources": [
+    "mangalajodi-visit",
+    "satapada-visit",
+    "chilika-bases",
+    "barkul-kalijai"
+  ],
+  "season": "For migratory-bird watching at Mangalajodi, aim for November–February. Boat trips elsewhere depend on local conditions; arrange the departure point and return with the operator.",
+  "season_sources": [
+    "mangalajodi-visit"
+  ],
+  "experiences": [
+    {
+      "id": "experience:chilika-mangalajodi-birding",
+      "type": "experience",
+      "title": "Watch the wetlands at Mangalajodi",
+      "text": "Make birds the centre of the visit. A local birding guide can help you notice what would otherwise pass as a distant shape on the water. Winter is the season to plan around for migratory birds.",
+      "sources": [
+        "mangalajodi-visit"
+      ],
+      "area": "Mangalajodi",
+      "interests": [
+        "birds",
+        "nature"
+      ]
+    },
+    {
+      "id": "experience:chilika-kalijai",
+      "type": "experience",
+      "title": "Take the boat to Kalijai",
+      "text": "Combine a lagoon crossing with a visit to the island shrine. Barkul is a starting point to investigate; agree on the route before leaving the shore.",
+      "sources": [
+        "barkul-kalijai"
+      ],
+      "area": "Barkul / Kalijai",
+      "interests": [
+        "belief",
+        "boating"
+      ]
+    },
+    {
+      "id": "experience:chilika-satapada",
+      "type": "experience",
+      "title": "Look for dolphins from Satapada",
+      "text": "Satapada is known for boat trips associated with Chilika’s Irrawaddy dolphins. Go for the lagoon as well as its wildlife: a sighting is never guaranteed.",
+      "sources": [
+        "satapada-visit"
+      ],
+      "area": "Satapada",
+      "interests": [
+        "wildlife",
+        "boating"
+      ]
+    }
+  ],
+  "foods": [
+    {
+      "id": "food:chilika-fish",
+      "type": "food",
+      "title": "Ask about the day’s fish",
+      "text": "Fish is part of Chilika’s food story. Ask what is available, how it will be cooked and what accompanies it before ordering.",
+      "sources": [
+        "satapada-visit"
+      ],
+      "diet": [
+        "fish"
+      ]
+    },
+    {
+      "id": "food:chilika-prawns-crab",
+      "type": "food",
+      "title": "Chilika prawns & crab curry",
+      "text": "Look for Chilika chingudi (prawns) or crab curry. Odisha Tourism’s regional guide singles out both. Ask how they are prepared and agree on the portion and price before ordering.",
+      "sources": [
+        "satapada-visit",
+        "south-odisha-food"
+      ],
+      "diet": [
+        "shellfish"
+      ]
+    },
+    {
+      "id": "food:chilika-curd",
+      "type": "food",
+      "title": "Chilika curd",
+      "text": "There is a dairy story here, too. Odisha Tourism describes curd made from Chilika buffalo milk and traditionally set in a small bamboo basket. Ask locally whether it is available during your visit.",
+      "sources": [
+        "south-odisha-food"
+      ],
+      "diet": [
+        "dairy"
+      ]
+    }
+  ],
+  "food_note": "Prefer a vegetarian meal? Ask your host or restaurant about options when arranging the day. We have not yet verified a vegetarian venue around the lagoon.",
+  "bases": [
+    {
+      "id": "base:chilika-mangalajodi",
+      "type": "base_area",
+      "title": "Mangalajodi",
+      "text": "Consider this base when birdwatching is the main reason for your visit. Odisha Tourism lists a nature camp here.",
+      "sources": [
+        "mangalajodi-visit",
+        "chilika-bases"
+      ],
+      "area": "Mangalajodi"
+    },
+    {
+      "id": "base:chilika-barkul-rambha",
+      "type": "base_area",
+      "title": "Barkul or Rambha",
+      "text": "Two lakeside bases to research. Odisha Tourism lists Panthanivas accommodation at both; Barkul also appears in its Kalijai excursion listing.",
+      "sources": [
+        "chilika-bases",
+        "barkul-kalijai"
+      ],
+      "area": "Barkul / Rambha"
+    },
+    {
+      "id": "base:chilika-rajhans",
+      "type": "base_area",
+      "title": "Rajhans / Satapada side",
+      "text": "Investigate Rajhans Nature Camp for this side of the lagoon. Confirm the arrival point and onward boat transfer with the property before choosing it.",
+      "sources": [
+        "chilika-bases",
+        "satapada-visit"
+      ],
+      "area": "Rajhans / Satapada"
+    }
+  ],
+  "stay_note": "These are areas and official accommodation leads, not Utkal-reviewed stays. Check current operation, access, rooms and rates directly before booking.",
+  "culture": [
+    {
+      "id": "culture:chilika-radhanath",
+      "type": "poem",
+      "title": "Chilika · Radhanath Ray",
+      "text": "Odisha Tourism names this poem among the literary works associated with the lagoon. A reading to seek out before or after a visit.",
+      "sources": [
+        "tourism-literature"
+      ],
+      "credit": "Radhanath Ray",
+      "url": "https://odishatourism.gov.in/content/tourism/en/experience/activities/boat-riding/chilika-nature-camps.html",
+      "link_label": "About the literary connection"
+    },
+    {
+      "id": "culture:chilika-urmi",
+      "type": "song",
+      "title": "Urmi Adhira Rupasi Chilika",
+      "text": "A song from Chilika Teerey, sung by Pranab Patnaik. Carry the name of the lagoon into your listening, too.",
+      "sources": [
+        "chilika-soundtrack",
+        "chilika-film-music"
+      ],
+      "credit": "Pranab Patnaik · music: Shantanu Mohapatra · lyrics: Shibabrata Das",
+      "url": "https://music.amazon.com/albums/B07NCK6DCT",
+      "link_label": "Find the soundtrack on Amazon Music"
+    },
+    {
+      "id": "culture:chilika-jaa",
+      "type": "song",
+      "title": "Jaa Jaarey Bhaasi Jaa",
+      "text": "Another listening choice from Chilika Teerey, sung by Nirmala Mishra. The connection is through the film and its soundtrack.",
+      "sources": [
+        "chilika-soundtrack",
+        "chilika-film-music"
+      ],
+      "credit": "Nirmala Mishra · music: Shantanu Mohapatra · lyrics: Shibabrata Das",
+      "url": "https://music.amazon.in/tracks/B075653SCH",
+      "link_label": "Find the song on Amazon Music"
+    }
+  ],
+  "planning": {
+    "heading": "Give one shore a day",
+    "text": "For a first visit, our suggestion is to choose a focus—birds at Mangalajodi, Kalijai from Barkul, or the Satapada side—and leave room for a meal and the return journey. Add another base only after checking the transfer. This is an editorial starting point, not a timed or bookable itinerary.",
+    "kind": "editorial_suggestion"
+  },
+  "sources": [
+    {
+      "id": "mangalajodi-visit",
+      "title": "Mangalajodi — Incredible India",
+      "resource": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
+      "inspection": "Official destination text inspected for birdwatching, community conservation and November–February migratory-bird season; no field visit."
+    },
+    {
+      "id": "satapada-visit",
+      "title": "Chilika (Satpada) — Puri district",
+      "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada",
+      "inspection": "Official page inspected for Satapada boating, Irrawaddy dolphins and fish, prawns and crabs. Rankings, population totals and transport distances were not reused."
+    },
+    {
+      "id": "chilika-bases",
+      "title": "Chilika Nature Camps — Odisha Tourism, destination guide",
+      "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html",
+      "inspection": "About and Things to Do sections inspected for boating and named accommodation bases. Current operations, rates, quality and accessibility have not been checked with providers."
+    },
+    {
+      "id": "barkul-kalijai",
+      "title": "Chilika Barkul Kalijai Narayani and back — Odisha Tourism",
+      "resource": "https://apps.odishatourism.gov.in/tour/chilika-barkul-kalijai-narayani-and-back",
+      "inspection": "Indexed itinerary inspected for Barkul/Kalijai boat excursion. Package hours, inclusions and prices are not treated as verified current services."
+    },
+    {
+      "id": "chilika-soundtrack",
+      "title": "Chilika Teerey soundtrack — Amazon Music / Saregama catalogue",
+      "resource": "https://music.amazon.in/tracks/B075653SCH",
+      "inspection": "Indexed catalogue lists Jaa Jaarey Bhaasi Jaa and Urmi Adhira Rupasi Chilika, and Saregama rights credit. Direct retrieval failed; playback, regional availability and any account requirement were not tested."
+    },
+    {
+      "id": "chilika-film-music",
+      "title": "Chilika Teere — Odia Movie Database",
+      "resource": "https://odiamoviedb.com/movie/chilika-teere/",
+      "inspection": "Music, lyric and song-list sections read for singer and film credits. Secondary catalogue; original recording sleeve and recordings were not inspected."
+    },
+    {
+      "id": "south-odisha-food",
+      "title": "South Odisha brochure — Odisha Tourism, Chilka Lake section",
+      "resource": "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf",
+      "inspection": "Indexed Chilka Lake passage inspected for Chilika chingudi, crab curry and buffalo-milk curd traditionally prepared in a cup-shaped bamboo basket. Direct PDF retrieval failed. Availability, named outlets and preparation were not checked locally."
+    }
+  ],
+  "gaps": [
+    "Field-checked transport and travel times",
+    "Verified restaurants and vegetarian options",
+    "Accessible boarding and accommodation details",
+    "Reviewed individual stays",
+    "Native Odia review of quoted verse",
+    "Recording-level music credit verification and playback check"
+  ]
+}

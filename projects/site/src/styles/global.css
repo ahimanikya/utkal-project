@@ -47,3 +47,18 @@ main:focus{outline:none}
 .story-surprise{padding:30px;background:var(--paper);border-top:3px solid var(--straw)}.story-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0}.story-metrics>div{display:flex;flex-direction:column-reverse;justify-content:end;border-right:1px solid var(--line);padding-right:12px}.story-metrics>div:last-child{border:0}.story-metrics dt{font-size:13px;line-height:1.5}.story-metrics dd{font:52px/1.25 var(--serif);color:var(--sea);margin:0 0 10px}.story-surprise details{border-top:1px solid var(--line);padding-top:16px}.story-surprise summary{cursor:pointer;min-height:44px;font-weight:600;color:var(--sea)}.story-surprise details p{padding:14px 0 0}
 .story-reflection{font:italic 26px/1.7 var(--serif);color:var(--earth)}.belief-note{font-size:14px}.story-play{border-block:1px solid var(--line);padding:30px 0}.story-play .text-link{margin-top:12px}.has-story>.record-heading{margin-bottom:22px}.has-story>.source-list{margin-top:20px}
 @media(max-width:650px){.story-voice{padding-left:18px}.odia-verse{font-size:21px;overflow-wrap:anywhere}.story-surprise{padding:22px 18px}.story-metrics{gap:12px}.story-metrics dd{font-size:39px}.story-metrics dt{font-size:12px}.story-flow{font-size:17px}.story-opening{margin-block:32px}.story-flow section,.story-play{margin-block:34px}}
+
+/* Destination reading: useful choices first, detailed evidence at the end. */
+.destination-nav{display:flex;flex-wrap:wrap;gap:8px 28px;border-block:1px solid var(--line);margin-bottom:30px;padding:10px 0}
+.destination-nav a{display:inline-flex;align-items:center;min-height:44px;font-size:14px;color:var(--sea);text-decoration:none}
+.destination-nav a:hover{text-decoration:underline}
+.has-story>.story-opening,.destination-guide,.end-credits{max-width:800px;margin-inline:auto}
+.destination-guide{font-size:17px;line-height:1.8}.destination-guide section{margin-block:54px;scroll-margin-top:24px}
+.destination-guide h2{font-size:clamp(30px,3vw,42px);margin-bottom:24px}.destination-orientation>p:not(.eyebrow){margin-top:18px}
+.season-note{border-left:3px solid var(--straw);padding-left:20px}.season-note strong{color:var(--sea)}
+.destination-cards{border-top:1px solid var(--line)}.destination-cards article{display:grid;grid-template-columns:42px 1fr;gap:18px;border-bottom:1px solid var(--line);padding:28px 0;scroll-margin-top:24px}
+.destination-number{font:italic 26px var(--serif);color:var(--earth)}.destination-cards .eyebrow{margin:0 0 10px}.destination-cards h3{font-size:27px;margin-bottom:14px}.destination-note{font-size:14px;color:var(--muted);margin-top:20px}
+.destination-plan{background:var(--paper);border-top:3px solid var(--earth);padding:28px;margin:48px 0 64px}.destination-plan h3{margin-bottom:16px}
+.culture-list article{padding:24px 0;border-top:1px solid var(--line);scroll-margin-top:24px}.culture-list .eyebrow{margin-bottom:12px}.culture-list h3{font-size:25px}.culture-list p:not(.eyebrow){font-size:16px;line-height:1.8;margin:14px 0}.culture-list .text-link{font-size:14px}
+.end-credits{border-block:1px solid var(--line);margin-top:48px;margin-bottom:32px;padding:16px 0;font-size:13px;line-height:1.8}.end-credits summary{cursor:pointer;color:var(--sea);font-size:15px;padding:10px 0;min-height:44px}.end-credits h3{font-size:23px;margin:18px 0}.end-credits .image-credit p{margin-block:12px}.end-credits .source-list{margin-top:28px}.end-credits .source-used{margin-top:8px;font-size:12px}.end-credits a{overflow-wrap:anywhere}
+@media(max-width:650px){.destination-nav{gap:4px 22px}.destination-cards article{grid-template-columns:30px 1fr;gap:12px}.destination-plan{padding:22px}.destination-guide section{margin-block:36px}}

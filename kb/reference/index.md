@@ -22,3 +22,5 @@
 - [First collection editorial review](first-collection-editorial-review.md)
 
 - [The Utkal way of telling a story](storytelling-standard.md)
+
+- [Destination model and tourism benchmarks](destination-model.md)

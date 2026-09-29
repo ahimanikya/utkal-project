@@ -289,6 +289,31 @@
         "records/storytelling-prototype.json",
         "research/stories/narratives/chilika.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-011",
+      "title": "Destination template, Chilika visitor guide and tour-book PRD addendum",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-028",
+      "next_action": "Founder reviews the revised Chilika page and destination model. Verify language and visitor details; use another destination to validate the model before implementing saved trips.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-028",
+        "UTP-REV-010"
+      ],
+      "evidence": [
+        "reference/destination-model.md",
+        "research/product/destination-and-tour-book.md",
+        "research/destinations/chilika.json",
+        "records/destination-model-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -759,6 +784,28 @@
         "reference/storytelling-standard.md",
         "records/storytelling-prototype.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-028",
+      "title": "Ground destination stories in practical discovery and prepare a personal tour-book model",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "AI-generated content should be more realistic!",
+      "scope": "Founder requested realism, place-associated poems and songs, tourism-site benchmarks, things to do/eat, a future portable tour book and unobtrusive end attribution. Authorizes preparation and prototype revision; does not approve final candidate, planner implementation or release.",
+      "recorded_at": "2026-09-29T03:26:11.313639+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-010"
+      ],
+      "evidence": [
+        "reference/destination-model.md",
+        "research/product/destination-and-tour-book.md",
+        "research/destinations/chilika.json",
+        "records/destination-model-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -946,6 +993,29 @@
       ],
       "evidence": [
         "records/storytelling-prototype.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-010",
+      "title": "Destination content and compact credit self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native Odia and edition review of existing Gopabandhu excerpt remains pending.",
+        "Music catalogue data includes indexed extracts and a secondary film catalogue; direct Amazon retrieval failed or redirected, playback and regional availability untested.",
+        "Food brochure inspected through indexed passage; direct PDF retrieval failed. No restaurant, accommodation quality or current availability verified locally.",
+        "Desktop screenshot capture produced clipping/duplication artifacts and a subsequent capture failed; desktop assessment used DOM geometry, mobile visual inspection succeeded. No physical device or screen reader test.",
+        "No trip persistence, itinerary editor, booklet export, new AI imagery or publication implemented."
+      ],
+      "refs": [
+        "UTP-WORK-011"
+      ],
+      "evidence": [
+        "records/destination-model-review.json"
       ]
     }
   ],

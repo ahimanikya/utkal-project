@@ -29,3 +29,5 @@ Start with the [community encyclopedia model](about/community-encyclopedia.md) a
 This is a research collection, not a current travel-booking directory. Statements, proposals and unresolved questions are distinguished within each entry.
 
 - [People](people/index.md) — biographical entry drafts and their sources.
+
+- [Structured destination records](destinations/index.md)

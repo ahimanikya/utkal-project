@@ -448,3 +448,7 @@ The Founder asked us to review the first collection. We found a broken source li
 ## UTP-HIS-0056 · Facts that make room for feeling
 
 The Founder asked for stories that are informative, playful, poetic and emotional, with an eyes-wide-open moment of discovery. Places, food, people and moments should draw on evidence, local writers and the beliefs people carry. Chilika became the first narrative prototype: a real photograph, a poet asking a train to pause, a lagoon’s ecological report card and the memory of Kalijai. The [standard](../reference/storytelling-standard.md) preserves this direction; the draft awaits Founder review.
+
+## UTP-HIS-0057 · From a story to a journey of your own
+
+Founder asked for more realistic storytelling, poems and songs connected to places, practical visitor choices and a future carry-along tour book. Studied five tourism references; refined Chilika with activities, food and stay bases; moved detailed attribution to expandable end notes. Documented a low-cost client-side planning path without implementing or publishing it. The [destination model](../reference/destination-model.md) and [tour-book addendum](../research/product/destination-and-tour-book.md) preserve this direction. Founder review remains pending.

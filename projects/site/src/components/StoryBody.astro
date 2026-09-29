@@ -1,34 +1,34 @@
 ---
-const {story,sources}=Astro.props;
-const number=(id:string)=>sources.findIndex(source=>source.id===id)+1;
+const {story,culture=[]}=Astro.props;
 ---
 <div class="story-flow">
-  <p class="story-opening">{story.opening}</p>
-  <section class="story-voice" aria-labelledby="voice-title">
-    <p class="eyebrow">A voice from Odisha</p>
+  <section id="poems-songs" class="story-voice" aria-labelledby="voice-title" data-source-ids={story.voice.sources.join(" ")}>
+    <p class="eyebrow">Poems & songs</p>
     <h2 id="voice-title">{story.voice.heading}</h2>
     <blockquote>
       <p lang={story.voice.language} class="odia-verse">{story.voice.original}</p>
       <p class="verse-translation">{story.voice.translation}</p>
       <footer>{story.voice.author} · <cite>{story.voice.work}</cite>
-        {story.voice.sources.map(id=><a class="citation" href={'#source-'+id} aria-label={'Source '+number(id)}>[{number(id)}]</a>)}
       </footer>
     </blockquote>
-    <p class="translation-credit">{story.voice.translation_credit}</p>
     <p>{story.voice.context}</p>
+    <div class="culture-list">{culture.map(work=><article id={work.id.replaceAll(':','-')} data-source-ids={work.sources.join(' ')}>
+      <p class="eyebrow">{work.type==='song'?'Listen':'Read'}</p>
+      <h3>{work.title}</h3><p>{work.text}</p>
+      <a class="text-link" href={work.url}>{work.link_label} ↗</a>
+    </article>)}</div>
   </section>
-  <section class="story-surprise" aria-labelledby="surprise-title">
+  <section class="story-surprise" id="ecology" aria-labelledby="surprise-title" data-source-ids={story.surprise.sources.join(" ")}>
     <p class="eyebrow">Look a little closer</p>
     <h2 id="surprise-title">{story.surprise.heading}</h2>
     <dl class="story-metrics">{story.surprise.metrics.map(metric=><div><dt>{metric.label}</dt><dd>{metric.value}</dd></div>)}</dl>
-    <p>{story.surprise.text}{story.surprise.sources.map(id=><a class="citation" href={'#source-'+id} aria-label={'Source '+number(id)}>[{number(id)}]</a>)}</p>
+    <p>{story.surprise.text}</p>
     <details><summary>{story.surprise.reveal_label}</summary><p>{story.surprise.reveal}</p></details>
   </section>
-  <section class="story-belief" aria-labelledby="belief-title">
+  <section class="story-belief" id="local-belief" aria-labelledby="belief-title" data-source-ids={story.belief.sources.join(" ")}>
     <p class="eyebrow">{story.belief.label}</p>
     <h2 id="belief-title">{story.belief.heading}</h2>
-    <p>{story.belief.text}{story.belief.sources.map(id=><a class="citation" href={'#source-'+id} aria-label={'Source '+number(id)}>[{number(id)}]</a>)}</p>
-    <p class="story-reflection">{story.belief.reflection}</p>
+    <p>{story.belief.text}</p>
     <p class="belief-note">{story.belief.qualification}</p>
   </section>
   <aside class="story-play" aria-labelledby="play-title">

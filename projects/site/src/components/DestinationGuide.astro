@@ -1,0 +1,25 @@
+---
+const {destination:d}=Astro.props;
+const groups=[
+  {id:'things-to-do',eyebrow:'Make time for',title:'Three ways into Chilika',items:d.experiences},
+  {id:'food',eyebrow:'At the table',title:'A taste of the lagoon',items:d.foods,note:d.food_note},
+  {id:'stay',eyebrow:'Choose your base',title:'Where to stay around Chilika',items:d.bases,note:d.stay_note}
+];
+---
+<div class="destination-guide">
+  <section id="plan-visit" class="destination-orientation" aria-labelledby="orientation-title" data-source-ids={d.orientation_sources.join(' ')}>
+    <p class="eyebrow">Before you set out</p>
+    <h2 id="orientation-title">Which Chilika is yours?</h2>
+    <p>{d.orientation}</p>
+    <p class="season-note" data-source-ids={d.season_sources.join(' ')}><strong>When to go.</strong> {d.season}</p>
+  </section>
+  {groups.map(group=><section id={group.id} aria-labelledby={group.id+'-title'}>
+    <p class="eyebrow">{group.eyebrow}</p><h2 id={group.id+'-title'}>{group.title}</h2>
+    <div class="destination-cards">{group.items.map((item,index)=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}>
+      <span class="destination-number">0{index+1}</span>
+      <div>{item.area&&<p class="eyebrow">{item.area}</p>}<h3>{item.title}</h3><p>{item.text}</p></div>
+    </article>)}</div>
+    {group.note&&<p class="destination-note">{group.note}</p>}
+  </section>)}
+  <aside class="destination-plan"><h3>{d.planning.heading}</h3><p>{d.planning.text}</p></aside>
+</div>

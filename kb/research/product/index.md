@@ -12,3 +12,7 @@ The product baseline is **PRD v0.1.0**, a detailed draft assembled from the user
 There are 40 requirements: 31 launch, five later and four explicitly deferred. None is claimed implemented or tested by this documentation task.
 
 [Knowledge home](../index.md) · [Technical architecture](../technology/index.md)
+
+## Destination and tour-book extension
+
+- [Addendum v0.1: destination discovery and personal tour book](destination-and-tour-book.md) — ten separately identified requirements; two piloted in the Chilika candidate, planning features remain future work. The original 40-requirement baseline above is preserved.

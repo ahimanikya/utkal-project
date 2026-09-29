@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fd133de77611c77cdf4a4f913b9051fc34b00f57141ee8314b11e6060c3a56f6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a077bcf932f1aa70f345e8f49aa1da5e49475c65edcd0a3b128149f33cd3dd81`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -23,6 +23,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-008 · Mobile and keyboard accessibility refinements | completed | reviewed | Ahimanikya Satapathy | Published after Founder approval. Physical-device, Safari, screen-reader and native Odia proofreading remain follow-up, as recorded in the review limitations. | — |
 | UTP-WORK-009 · First collection source check and editorial candidate | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the six bounded drafts and source-access limits. Release and indexing require a subsequent explicit decision. | — |
 | UTP-WORK-010 · Utkal storytelling standard and Chilika narrative prototype | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the Chilika story and Odia passage. After review, develop other entries individually using the standard; no automatic full-KB rewrite. | — |
+| UTP-WORK-011 · Destination template, Chilika visitor guide and tour-book PRD addendum | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the revised Chilika page and destination model. Verify language and visitor details; use another destination to validate the model before implementing saved trips. | — |
 
 ## Pending human review and decisions
 
@@ -35,6 +36,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-007 | Founder reviews local candidate; no deployment has occurred. |
 | UTP-WORK-009 | Founder reviews the six bounded drafts and source-access limits. Release and indexing require a subsequent explicit decision. |
 | UTP-WORK-010 | Founder reviews the Chilika story and Odia passage. After review, develop other entries individually using the standard; no automatic full-KB rewrite. |
+| UTP-WORK-011 | Founder reviews the revised Chilika page and destination model. Verify language and visitor details; use another destination to validate the model before implementing saved trips. |
 
 ## Decisions
 
@@ -66,6 +68,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-025 · Merge and publish the mobile and accessibility improvements | approved | Ahimanikya Satapathy | Proceed with the reviewed PR #3 mobile and accessibility candidate, merge and publish it. Preserve Store exclusion, editorial draft labels and noindex. |
 | UTP-DEC-026 · Review the first encyclopedia collection against its sources | approved | Ahimanikya Satapathy | Source check and prepare six editorial drafts for Founder review. No approval to merge, deploy or enable indexing is inferred. |
 | UTP-DEC-027 · Make Utkal narration poetic, evidence-led and emotionally engaging | approved | Ahimanikya Satapathy | Adopt the Founder’s storytelling direction across entity types, including reusable images or labelled AI illustration, local writers and sourced beliefs. Prepare a standard and Chilika prototype for review; no release or indexing authorization inferred. |
+| UTP-DEC-028 · Ground destination stories in practical discovery and prepare a personal tour-book model | approved | Ahimanikya Satapathy | Founder requested realism, place-associated poems and songs, tourism-site benchmarks, things to do/eat, a future portable tour book and unobtrusive end attribution. Authorizes preparation and prototype revision; does not approve final candidate, planner implementation or release. |
 
 ## Reviews
 
@@ -78,6 +81,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-007 | pass_with_limitations | False | Chromium viewport emulation only; no physical iPhone/Android or Safari testing.; No VoiceOver/NVDA session or comprehensive WCAG conformance claim.; Alt text presence checked; semantic accuracy still requires editorial review.; One Tab from the final dialog link moved focus outside document to browser chrome; native modal behavior retained, no full browser-chrome focus-cycle certification.; Odia rendered visually; native-language proofreading remains a human review. |
 | UTP-REV-008 | pass_with_limitations | False | Ramsar, Kotpad and Naik/Satpathy evidence partly limited to indexed extracts.; Samanta birth-date conflict remains visible; no original calculations validated.; No fieldwork, maker or cook interviews, specialist review or human editorial approval.; Browser layout checks only; capture artifacts prevented a full visual audit. |
 | UTP-REV-009 | pass_with_limitations | False | Odia quotation uses an unproofread transcription corroborated by a second transcription; source scan retrieval failed and native-language review remains pending.; Kalijai is one attributed secondary telling, not a claim of universal belief or verified event.; CDA report-card figures describe 2023–2024, not current live conditions.; Browser emulation only; no fieldwork, physical-device or independent scholarly review. |
+| UTP-REV-010 | pass_with_limitations | False | Native Odia and edition review of existing Gopabandhu excerpt remains pending.; Music catalogue data includes indexed extracts and a secondary film catalogue; direct Amazon retrieval failed or redirected, playback and regional availability untested.; Food brochure inspected through indexed passage; direct PDF retrieval failed. No restaurant, accommodation quality or current availability verified locally.; Desktop screenshot capture produced clipping/duplication artifacts and a subsequent capture failed; desktop assessment used DOM geometry, mobile visual inspection succeeded. No physical device or screen reader test.; No trip persistence, itinerary editor, booklet export, new AI imagery or publication implemented. |
 
 ## Publication and application history
 
@@ -125,7 +129,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-024 | 2026-09-28T09:53:08.067145+00:00 | Retained black and blue variants and replaced the single-wall bottle target with a premium insulated concept. | Review the premium bottle form, then identify suitable supplier blanks. |
 | UTP-EVT-025 | 2026-09-28T12:04:09.709689+00:00 | Recorded Founder-reported acquisition of utkalproject.org with GoDaddy. Website remains undeployed. | Confirm hosting and prepare domain connection while preserving existing DNS records. |
 | UTP-EVT-026 | 2026-09-28T13:02:07.055710+00:00 | Verified public repository, enabled Actions Pages, saved utkalproject.org and updated GoDaddy web DNS. Prepared manual release workflow; local 15-page build and six tests passed. TLS provisioning and first deployment remain pending. | Complete HTTPS verification, then obtain Founder approval for the concrete website release before merging and running the manual workflow. |
 | UTP-EVT-027 | 2026-09-28T13:13:17.165031+00:00 | Founder continued to first website release and excluded Store. Removed main-site Store route and links; GitHub DNS check successful and HTTPS enforcement enabled. Deployment pending. | Validate the 14-page site, merge the prepared release and publish only the website. |
@@ -135,6 +138,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-031 | 2026-09-29T02:06:48.498464+00:00 | Founder approved PR #3 with Go ahead! Merged and published; GitHub build/tests/deployment succeeded. Verified live contrast, focus target, Store link exclusion and gallery keyboard behavior. | Continue editorial review and record actual-device or screen-reader findings when performed. |
 | UTP-EVT-032 | 2026-09-29T02:30:51.004234+00:00 | Checked five notes and the Samanta profile; repaired the Pakhala citation, added bounded context and paragraph-level citations, disclosed source-access limits, and preserved the birth-date disagreement. Prepared concrete research follow-up; no deployment or indexing change. | Founder reviews the editorial candidate. |
 | UTP-EVT-033 | 2026-09-29T02:52:42.296126+00:00 | Founder established an informative, playful and poetic story direction built on data, literature and local belief. Prepared Chilika as the first prototype with an attributed reusable photograph, dated ecological measures, a brief Odia verse and the Kalijai legend clearly framed as one telling. No AI image or public release was made. | Founder reviews the narrative prototype and local-language rendering. |
+| UTP-EVT-034 | 2026-09-29T03:26:11.313639+00:00 | Founder asked for more realistic storytelling, poems and songs connected to places, practical visitor choices and a future carry-along tour book. Studied five tourism references; refined Chilika with activities, food and stay bases; moved detailed attribution to expandable end notes. Documented a low-cost client-side planning path without implementing or publishing it. | Founder reviews the destination candidate and future tour-book requirements. |
 
 ## Deferred extensions
 

@@ -14,13 +14,13 @@ Make people feel a place, understand something surprising and want to keep explo
 
 Begin with a striking, accurate image and a short invitation. Give the reader a scene they can picture, then one detail that changes how they see it. Follow the people, processes and memories that make the subject matter. Let a verified local voice or a sourced legend deepen the story when there is a real connection. End with a small question, an observation game or a route to the next story.
 
-Evidence should be close enough to inspect and light enough to let the prose breathe. A number needs a unit, period, geography, source and an explanation of why it matters. A report's date belongs beside its finding. Use relevant evidence rather than filling every entry with statistics: a documented technique, ingredient, chronology or remembered account may carry more meaning than a large number.
+Detailed attribution and source inspection belong in an expandable end-of-page section, following the Founder’s subsequent direction. Keep author/work with a quotation and belief or generated-depiction labels with the relevant material. Preserve source-to-section mapping in the KB and end notes; remove repetitive numbered links from the reading flow. A number needs a unit, period, geography, source and an explanation of why it matters. A report's date belongs beside its finding. Use relevant evidence rather than filling every entry with statistics: a documented technique, ingredient, chronology or remembered account may carry more meaning than a large number.
 
 Aim for one memorable surprise per story. Earn it through specificity: a lagoon with a report card, a dye that begins underground, a bowl whose accompaniments change from home to home. These are narrative leads to investigate, not permission to invent facts.
 
 ## Voice and rhythm
 
-Write warm, musical English with concrete nouns and active verbs. Mix a lyrical opening with clear explanation. Let short lines breathe. Explain unfamiliar Odia words naturally and retain the original script where checked. Use humour in invitations, observation games and everyday details; match the tone to the subject. Grief, sacred beliefs, difficult history and a living person's struggles deserve care rather than a punchline.
+Write warm English with concrete nouns and active verbs. Use restrained lyrical language grounded in the subject; avoid decorative metaphors that could fit any destination. The Founder specifically asked for more realistic AI-generated content. Let short lines breathe. Explain unfamiliar Odia words naturally and retain the original script where checked. Use humour in invitations, observation games and everyday details; match the tone to the subject. Grief, sacred beliefs, difficult history and a living person's struggles deserve care rather than a punchline.
 
 Original scene-setting can be imaginative, but must not invent a visit, eyewitness account, conversation, smell, weather event or someone's thoughts. A description of a photograph should match what is visible. A reconstructed historical scene needs its own label and evidence boundary.
 
@@ -28,7 +28,7 @@ Original scene-setting can be imaginative, but must not invent a visit, eyewitne
 
 | Material | How readers should encounter it | What the KB records |
 | --- | --- | --- |
-| Documented knowledge | Specific claim, nearby citation; date and unit beside a measurement | Claim, source, locator, inspection scope, uncertainty and review date |
+| Documented knowledge | Specific claim; date and unit beside a measurement; source mapping in the expandable end section | Claim, source, locator, inspection scope, uncertainty and review date |
 | Local belief or oral tradition | “In one telling…” or “According to the account recorded by…”; explain the community or location when known | Collector/narrator, place, date or publication, version and consent if newly collected |
 | Literature or testimony | Short exact quotation, author, work and context; original language where verified | Edition/page, exact excerpt, source, rights basis, translation credit and whether transcription was checked |
 | Utkal's creative narration | Original prose linking the evidence and inviting attention | Authoring credit, editorial interpretation and approval status; no invented attribution |
@@ -71,3 +71,7 @@ Keep structured narrative content inside the project KB. Suggested fields: entit
 The [Chilika prototype](../research/stories/narratives/chilika.json) demonstrates this direction using a credited photograph, brief Odia quotation, ecological data and an attributed legend. The other five entries retain their reviewed factual drafts until developed individually. See [prototype evidence](../records/storytelling-prototype.json).
 
 Creative direction and initiative: **Ahimanikya Satapathy**. Drafting and implementation: current AI assistant. Source authors, photographers and quoted writers retain their own credit.
+
+## Destination planning extension
+
+The [destination model](destination-model.md) adds practical things to do, foods, stay-base choices and place-associated poems and songs. Its [tour-book requirements](../research/product/destination-and-tour-book.md) preserve the longer-term save, arrange and carry direction. The Chilika candidate is the first application; planner features are not yet built.

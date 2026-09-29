@@ -50,3 +50,6 @@ This directory contains the organizational and working model, roles, work record
 - [First collection editorial review](reference/first-collection-editorial-review.md)
 
 - [The Utkal way of telling a story](reference/storytelling-standard.md)
+
+- [Destination model and tourism benchmarks](reference/destination-model.md)
+- [Personal tour-book requirements](research/product/destination-and-tour-book.md)

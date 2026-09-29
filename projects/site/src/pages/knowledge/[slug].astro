@@ -2,12 +2,22 @@
 import Shell from '../../layouts/Shell.astro';
 import entries from '../../data/selected.json';
 import StoryBody from '../../components/StoryBody.astro';
+import DestinationGuide from '../../components/DestinationGuide.astro';
 import chilikaStory from '../../../../../kb/research/stories/narratives/chilika.json';
+import chilikaDestination from '../../../../../kb/research/destinations/chilika.json';
 export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
 const story=entry.slug==='chilika'?chilikaStory:null;
-const sources=[...entry.sources,...(story?.sources??[])];
-const sourceNumber=(id:string)=>sources.findIndex(source=>source.id===id)+1;
+const destination=story?chilikaDestination:null;
+const sources=[...entry.sources,...(story?.sources??[]),...(destination?.sources??[])];
+const evidenceUses=[
+  ...entry.paragraphs.map((paragraph,index)=>({label:'Knowledge note '+(index+1),anchor:'fact-'+(index+1),sources:paragraph.sources})),
+  ...(story?[{label:'Gopabandhu’s poem',anchor:'poems-songs',sources:story.voice.sources},{label:'Ecological report card',anchor:'ecology',sources:story.surprise.sources},{label:'Kalijai legend',anchor:'local-belief',sources:story.belief.sources}]:[]),
+  ...(destination?[
+    {label:'Planning and season',anchor:'plan-visit',sources:destination.orientation_sources},
+    ...[...destination.experiences,...destination.foods,...destination.bases,...destination.culture].map(item=>({label:item.title,anchor:item.id.replaceAll(':','-'),sources:item.sources}))
+  ]:[])
+];
 ---
 <Shell title={entry.label} description={entry.dek} active="explore">
   <div class="wrap">
@@ -17,36 +27,42 @@ const sourceNumber=(id:string)=>sources.findIndex(source=>source.id===id)+1;
       <h1>{entry.label}</h1>
       <p class="lead">{story?story.headline:entry.dek}</p>
     </div>
+    {destination&&<nav class="destination-nav" aria-label="On this page">
+      <a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Poems & songs</a>
+    </nav>}
     {story&&<figure class="story-hero" id="story-image">
       <img src={story.image.src} width={story.image.width} height={story.image.height} alt={story.image.alt} fetchpriority="high" />
-      <figcaption><span>{story.image.depiction} · {story.image.caption}</span><span><a href={story.image.source}>{story.image.creator}</a> · <a href={story.image.license_url}>{story.image.license}</a> · {story.image.changes}</span></figcaption>
+      <figcaption>{story.image.depiction} · A boat and birds on Chilika Lake.</figcaption>
     </figure>}
     <article class:list={['knowledge',{'has-story':!!story}]}>
-      <p class="notice">Editorial draft. Source check completed; awaiting review by the Founder & Editor-in-Chief.</p>
-      {story&&<StoryBody story={story} sources={sources} />}
+      <p class="notice">Editorial draft · awaiting Founder review.</p>
+      {story&&<p class="story-opening">{story.opening}</p>}
+      {destination&&<DestinationGuide destination={destination} />}
+      {story&&<StoryBody story={story} culture={destination?.culture} />}
       {story&&<h2 class="record-heading">Meet the lagoon</h2>}
-      {entry.paragraphs.map(paragraph=>
-        <p class="knowledge-text">
-          {paragraph.text}
-          {paragraph.sources.map(id=>
-            <a class="citation" href={'#source-'+id} aria-label={'Source '+sourceNumber(id)+': '+sources.find(source=>source.id===id)?.title}>[{sourceNumber(id)}]</a>
-          )}
-        </p>
+      {entry.paragraphs.map((paragraph,index)=>
+        <p class="knowledge-text" id={'fact-'+(index+1)} data-source-ids={paragraph.sources.join(' ')}>{paragraph.text}</p>
       )}
-      <h2 style="font-size:30px;margin-bottom:20px">Follow the sources</h2>
-      <ol class="source-list">
-        {sources.map(source=>
-          <li id={'source-'+source.id}>
+      <details class="end-credits" id="sources-credits">
+        <summary>Sources, credits & reading notes</summary>
+        {story&&<div class="image-credit">
+          <h3>Photograph & words</h3>
+          <p><a href={story.image.source}>{story.image.title}</a> by {story.image.creator} · <a href={story.image.license_url}>{story.image.license}</a>. {story.image.changes} {story.image.caption}</p>
+          <p>{story.voice.translation_credit} {story.voice.original}</p>
+          {destination?.culture.map(work=><p>{work.title}: {work.credit}.</p>)}
+          <p>Music links lead to external catalogues; playback may depend on your location or account. No recordings or lyrics are hosted here.</p>
+        </div>}
+        <ol class="source-list">
+          {sources.map(source=><li id={'source-'+source.id}>
             <a href={source.resource}>{source.title} ↗</a>
+            <p class="source-used">Used for: {evidenceUses.filter(use=>use.sources.includes(source.id)).map((use,index)=><>{index>0?' · ':''}<a href={'#'+use.anchor}>{use.label}</a></>)}</p>
             {source.inspection&&<p class="source-inspection">{source.inspection}</p>}
-          </li>
-        )}
-      </ol>
-      <p class="source-credit">Prepared from the Utkal Project knowledge base: {entry.path}. Source credit belongs to the authors and institutions linked above. Founder & Editor-in-Chief: Ahimanikya Satapathy. Research assembled with AI assistance; source verification is not an independent scholarly review.</p>
-      <div class="actions">
-        <a class="text-link" href="/explore/">← Back to the collection</a>
-        <a class="text-link" href="/contribute/">Help this entry grow ↗</a>
-      </div>
+          </li>)}
+        </ol>
+        {destination&&<p>Visitor research checked {destination.checked_on}. Still to verify: {destination.gaps.join('; ')}.</p>}
+        <p class="source-credit">From the Utkal Project knowledge base. Creative direction and Founder & Editor-in-Chief: Ahimanikya Satapathy. Drafted with AI assistance; human editorial review pending. Original authors and photographers retain their credits above.</p>
+      </details>
+      <div class="actions"><a class="text-link" href="/explore/">← Back to the collection</a><a class="text-link" href="/contribute/">Help this entry grow ↗</a></div>
     </article>
   </div>
 </Shell>
