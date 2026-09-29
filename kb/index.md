@@ -48,3 +48,5 @@ This directory contains the organizational and working model, roles, work record
 - [Vector identity and merchandise design](reference/brand-vector-03.md)
 
 - [First collection editorial review](reference/first-collection-editorial-review.md)
+
+- [The Utkal way of telling a story](reference/storytelling-standard.md)

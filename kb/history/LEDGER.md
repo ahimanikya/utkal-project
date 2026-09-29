@@ -444,3 +444,7 @@ The Founder approved PR #3 with “Go ahead!”. Its mobile readability, contras
 ## UTP-HIS-0055 · A collection that shows its evidence
 
 The Founder asked us to review the first collection. We found a broken source link, made the small notes more useful, and connected their paragraphs to evidence. We kept uncertainties visible, including Samanta’s conflicting birth dates and sources available only through indexed extracts. This is a step toward a credible encyclopedia, with research questions becoming explicit work. The candidate awaits Founder review; the public preview and indexing are unchanged. [Editorial review](../reference/first-collection-editorial-review.md).
+
+## UTP-HIS-0056 · Facts that make room for feeling
+
+The Founder asked for stories that are informative, playful, poetic and emotional, with an eyes-wide-open moment of discovery. Places, food, people and moments should draw on evidence, local writers and the beliefs people carry. Chilika became the first narrative prototype: a real photograph, a poet asking a train to pause, a lagoon’s ecological report card and the memory of Kalijai. The [standard](../reference/storytelling-standard.md) preserves this direction; the draft awaits Founder review.

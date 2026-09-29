@@ -10,3 +10,5 @@
 - [Woven in Odisha: meet the making](woven-odisha.md)
 
 [Knowledge base home](../index.md)
+
+- [Narrative candidates](narratives/index.md) — structured story drafts for the website.

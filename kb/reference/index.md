@@ -20,3 +20,5 @@
 - [Vector refinement 03](brand-vector-03.md)
 
 - [First collection editorial review](first-collection-editorial-review.md)
+
+- [The Utkal way of telling a story](storytelling-standard.md)

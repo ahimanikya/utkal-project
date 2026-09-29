@@ -7,7 +7,9 @@ status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:18:25+00:00"}
 ---
 
-# Utkala · Odisha: editorial and visual direction
+# Utkal Project: editorial and visual direction
+
+Current voice and narration follow the [Utkal storytelling standard](../../reference/storytelling-standard.md), directed by the Founder on 29 September 2026 UTC. The earlier naming and palette proposals below are superseded by the settled **Utkal Project** name, **Rediscover Utkal. Reimagine Odisha.** tagline and [brand direction 02](../../reference/brand-direction-02.md). They remain here as proposal history.
 
 ## Current campaign priority
 

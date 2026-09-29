@@ -1,31 +1,41 @@
 ---
 import Shell from '../../layouts/Shell.astro';
 import entries from '../../data/selected.json';
+import StoryBody from '../../components/StoryBody.astro';
+import chilikaStory from '../../../../../kb/research/stories/narratives/chilika.json';
 export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
-const sourceNumber=(id:string)=>entry.sources.findIndex(source=>source.id===id)+1;
+const story=entry.slug==='chilika'?chilikaStory:null;
+const sources=[...entry.sources,...(story?.sources??[])];
+const sourceNumber=(id:string)=>sources.findIndex(source=>source.id===id)+1;
 ---
 <Shell title={entry.label} description={entry.dek} active="explore">
   <div class="wrap">
     <div class="page-head">
       <p class="breadcrumb"><a href="/explore/">The collection</a> / {entry.category}</p>
-      <p class="eyebrow">Research note · {entry.category}</p>
+      <p class="eyebrow">{story?'A Utkal story':'Research note'} · {entry.category}</p>
       <h1>{entry.label}</h1>
-      <p class="lead">{entry.dek}</p>
+      <p class="lead">{story?story.headline:entry.dek}</p>
     </div>
-    <article class="knowledge">
+    {story&&<figure class="story-hero" id="story-image">
+      <img src={story.image.src} width={story.image.width} height={story.image.height} alt={story.image.alt} fetchpriority="high" />
+      <figcaption><span>{story.image.depiction} · {story.image.caption}</span><span><a href={story.image.source}>{story.image.creator}</a> · <a href={story.image.license_url}>{story.image.license}</a> · {story.image.changes}</span></figcaption>
+    </figure>}
+    <article class:list={['knowledge',{'has-story':!!story}]}>
       <p class="notice">Editorial draft. Source check completed; awaiting review by the Founder & Editor-in-Chief.</p>
+      {story&&<StoryBody story={story} sources={sources} />}
+      {story&&<h2 class="record-heading">Meet the lagoon</h2>}
       {entry.paragraphs.map(paragraph=>
         <p class="knowledge-text">
           {paragraph.text}
           {paragraph.sources.map(id=>
-            <a class="citation" href={'#source-'+id} aria-label={'Source '+sourceNumber(id)+': '+entry.sources.find(source=>source.id===id)?.title}>[{sourceNumber(id)}]</a>
+            <a class="citation" href={'#source-'+id} aria-label={'Source '+sourceNumber(id)+': '+sources.find(source=>source.id===id)?.title}>[{sourceNumber(id)}]</a>
           )}
         </p>
       )}
       <h2 style="font-size:30px;margin-bottom:20px">Follow the sources</h2>
       <ol class="source-list">
-        {entry.sources.map(source=>
+        {sources.map(source=>
           <li id={'source-'+source.id}>
             <a href={source.resource}>{source.title} ↗</a>
             {source.inspection&&<p class="source-inspection">{source.inspection}</p>}

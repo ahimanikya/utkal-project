@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-29T02:30:51.004234+00:00",
+  "recorded_at": "2026-09-29T02:52:42.296126+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -264,6 +264,30 @@
       "evidence": [
         "reference/first-collection-editorial-review.md",
         "records/first-collection-editorial-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-010",
+      "title": "Utkal storytelling standard and Chilika narrative prototype",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-027",
+      "next_action": "Founder reviews the Chilika story and Odia passage. After review, develop other entries individually using the standard; no automatic full-KB rewrite.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-027",
+        "UTP-REV-009"
+      ],
+      "evidence": [
+        "reference/storytelling-standard.md",
+        "records/storytelling-prototype.json",
+        "research/stories/narratives/chilika.json"
       ]
     }
   ],
@@ -715,6 +739,26 @@
       "evidence": [
         "records/first-collection-editorial-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-027",
+      "title": "Make Utkal narration poetic, evidence-led and emotionally engaging",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Data-based yet emotional, and trigger the pop-eye moment.",
+      "scope": "Adopt the Founder’s storytelling direction across entity types, including reusable images or labelled AI illustration, local writers and sourced beliefs. Prepare a standard and Chilika prototype for review; no release or indexing authorization inferred.",
+      "recorded_at": "2026-09-29T02:52:42.296126+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-009"
+      ],
+      "evidence": [
+        "reference/storytelling-standard.md",
+        "records/storytelling-prototype.json"
+      ]
     }
   ],
   "requirements": [
@@ -880,6 +924,28 @@
       "evidence": [
         "reference/first-collection-editorial-review.md",
         "records/first-collection-editorial-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-009",
+      "title": "Chilika narrative, source separation and image credit self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Odia quotation uses an unproofread transcription corroborated by a second transcription; source scan retrieval failed and native-language review remains pending.",
+        "Kalijai is one attributed secondary telling, not a claim of universal belief or verified event.",
+        "CDA report-card figures describe 2023–2024, not current live conditions.",
+        "Browser emulation only; no fieldwork, physical-device or independent scholarly review."
+      ],
+      "refs": [
+        "UTP-WORK-010"
+      ],
+      "evidence": [
+        "records/storytelling-prototype.json"
       ]
     }
   ],

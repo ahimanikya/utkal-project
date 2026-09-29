@@ -12,7 +12,7 @@ Six entries have been checked within the scope below. The recommendation is to p
 
 ## Read the candidate
 
-The first five links open the canonical knowledge records; only their **Sourced knowledge** sections appear on the website. Story proposals and future research remain separate.
+The first five links open the canonical factual knowledge records. Their **Sourced knowledge** sections appear on the website; research proposals remain separate. Following the Founder’s subsequent storytelling direction, Chilika also includes a separately sourced [narrative prototype](../research/stories/narratives/chilika.json), with its own [evidence record](../records/storytelling-prototype.json). That prototype is an additional review candidate, not an extension of the completed six-entry factual check.
 
 | Entry | Editorial recommendation | What changed / what remains |
 | --- | --- | --- |

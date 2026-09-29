@@ -19,3 +19,5 @@
 - [Mobile and accessibility review](mobile-accessibility-review.json)
 
 - [First collection source-check evidence](first-collection-editorial-review.json)
+
+- [Storytelling prototype and image provenance](storytelling-prototype.json)

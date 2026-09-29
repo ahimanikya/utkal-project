@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-09-29T02:48:49.635439+00:00",
+  "status": "prepared_for_founder_review",
+  "direction_author": "Ahimanikya Satapathy",
+  "scope": "Reusable editorial standard and one Chilika narrative prototype; other entries retain their reviewed factual drafts.",
+  "article": "../research/stories/narratives/chilika.json",
+  "asset": {
+    "src": "/images/chilika/chilika-lake-hellohappy.jpg",
+    "width": 4080,
+    "height": 2296,
+    "alt": "A blue passenger boat crosses grey water, with birds flying above and the distant shore on the horizon.",
+    "caption": "A boat and birds on Chilika Lake. Photograph dated 11 January 2026 in the source record.",
+    "creator": "Hellohappy",
+    "title": "Chilika Lake (56468).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chilika_Lake_(56468).jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "depiction": "Photograph",
+    "changes": "Original image; no edits.",
+    "file": "projects/site/public/images/chilika/chilika-lake-hellohappy.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chilika_Lake_%2856468%29.jpg",
+    "source_revision": "https://commons.wikimedia.org/w/index.php?title=File:Chilika_Lake_(56468).jpg&oldid=1169107659",
+    "retrieved_at": "2026-09-29T02:48:49.635439+00:00",
+    "sha256": "0755d40cd32a5aeb7eb5ccf5038b58671eb09f3dbcb2e972286efaa03a6d7125",
+    "bytes": 1613549,
+    "selection": "Selected for visible boat, birds, broad water and quiet horizon; actual photograph supports the opening and observation prompt. A second Commons fishing-boat candidate was researched. This is a bounded selection, not an exhaustive best-image claim.",
+    "visually_inspected": true
+  },
+  "quote": {
+    "inspection": "Brief opening excerpt checked against the Wikisource transcription and a second transcription. Wikisource marks the page unproofread; scan retrieval failed. Native Odia and edition review remain pending.",
+    "attribution_support": "https://odishatourism.gov.in/content/tourism/en/experience/activities/boat-riding/chilika-nature-camps.html",
+    "reuse_scope": "Brief credited excerpt only; no whole poem or third-party translation copied.",
+    "translation": "Original short English rendering by current assistant for Utkal Project; native-language review pending."
+  },
+  "ai_images": {
+    "generated": false,
+    "future_use": "Permitted-reference illustrations with explicit depiction labels and retained provenance, per storytelling standard."
+  },
+  "validation": {
+    "site_build": {
+      "result": "passed",
+      "pages": 14
+    },
+    "site_tests": {
+      "result": "passed",
+      "count": 10
+    },
+    "browser": {
+      "observed_css_widths": [
+        390,
+        1280
+      ],
+      "horizontal_overflow": false,
+      "photograph_loaded": true,
+      "details_keyboard_activation": "Enter opened the report-card explanation",
+      "visual_review": "Header, photograph and expanded report-card block inspected in Chromium emulation.",
+      "physical_device_review": false
+    },
+    "kb": {
+      "result": "passed",
+      "concepts": 502,
+      "local_links": 1508,
+      "records": 55,
+      "events": 33
+    }
+  },
+  "publication": {
+    "deployed": false,
+    "indexing_changed": false,
+    "founder_review": "pending"
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/4"
+}

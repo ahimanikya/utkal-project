@@ -39,3 +39,26 @@ test('source limitations and the unresolved birth date remain visible',()=>{
   assert.match(profile,/full paper was not reviewed/);
   assert.match(profile,/Draft awaiting Founder review/);
 });
+
+test('the narrative keeps sources, image credit, dated data and belief labels visible',()=>{
+  const story=JSON.parse(readFileSync('../../kb/research/stories/narratives/chilika.json','utf8'));
+  const notesSources=notes.find(note=>note.slug==='chilika').sources;
+  const allSources=[...notesSources,...story.sources];
+  assert.equal(new Set(allSources.map(source=>source.id)).size,allSources.length);
+  const html=readFileSync('dist/knowledge/chilika/index.html','utf8');
+  for(const block of [story.voice,story.surprise,story.belief]){
+    assert.ok(block.sources.length);
+    for(const id of block.sources){
+      assert.ok(allSources.some(source=>source.id===id),id);
+      assert.ok(html.includes(`href="#source-${id}"`),id);
+      assert.ok(html.includes(`id="source-${id}"`),id);
+    }
+  }
+  assert.ok(html.includes(escape(story.belief.label)));
+  assert.ok(html.includes(escape(story.belief.qualification)));
+  assert.ok(html.includes('2023–2024'));
+  assert.ok(html.includes('lang="or"'));
+  assert.ok(html.includes(escape(story.voice.translation_credit)));
+  for(const field of ['creator','license','license_url','source','changes'])assert.ok(html.includes(escape(story.image[field])),field);
+  assert.match(html,/<details><summary>/);
+});
