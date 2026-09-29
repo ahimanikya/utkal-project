@@ -452,3 +452,7 @@ The Founder asked for stories that are informative, playful, poetic and emotiona
 ## UTP-HIS-0057 · From a story to a journey of your own
 
 Founder asked for more realistic storytelling, poems and songs connected to places, practical visitor choices and a future carry-along tour book. Studied five tourism references; refined Chilika with activities, food and stay bases; moved detailed attribution to expandable end notes. Documented a low-cost client-side planning path without implementing or publishing it. The [destination model](../reference/destination-model.md) and [tour-book addendum](../research/product/destination-and-tour-book.md) preserve this direction. Founder review remains pending.
+
+## UTP-HIS-0058 · Knowing a place before telling its story
+
+Founder expanded the destination idea into an information hierarchy for a place or thing: history, stories, food, local participation, honest expectations, seasons, culture, art/science, people, film connections and quotations. Prepared the Knowledge & Story Model candidate, typed relationships, empty place/thing templates and a Chilika coverage map. Knowledge and narrative presentation are separate; no new facts or migration were invented. [Read the candidate model](../reference/knowledge-story-model.md). Founder review remains pending.

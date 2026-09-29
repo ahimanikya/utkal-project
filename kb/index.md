@@ -53,3 +53,6 @@ This directory contains the organizational and working model, roles, work record
 
 - [Destination model and tourism benchmarks](reference/destination-model.md)
 - [Personal tour-book requirements](research/product/destination-and-tour-book.md)
+
+- [Utkal Knowledge & Story Model](reference/knowledge-story-model.md)
+- [Content models and research templates](models/index.md)

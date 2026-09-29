@@ -75,3 +75,7 @@ Creative direction and initiative: **Ahimanikya Satapathy**. Drafting and implem
 ## Destination planning extension
 
 The [destination model](destination-model.md) adds practical things to do, foods, stay-base choices and place-associated poems and songs. Its [tour-book requirements](../research/product/destination-and-tour-book.md) preserve the longer-term save, arrange and carry direction. The Chilika candidate is the first application; planner features are not yet built.
+
+## Structured knowledge before narration
+
+Use the proposed [Knowledge & Story Model](knowledge-story-model.md) to gather place/thing context and distinguish history, memory, culture, science, people, local participation and visitor advice. Its review status is separate from this editorial direction; no bulk migration is implied.

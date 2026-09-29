@@ -314,6 +314,31 @@
         "research/destinations/chilika.json",
         "records/destination-model-review.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-012",
+      "title": "Utkal Knowledge & Story Model: place and thing profiles",
+      "category": "information_architecture",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-029",
+      "next_action": "Founder reviews the hierarchy and field dictionary; test with a heritage place and a food/craft record before migration.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-029",
+        "UTP-REV-011"
+      ],
+      "evidence": [
+        "reference/knowledge-story-model.md",
+        "models/knowledge-story-v0.1/model.json",
+        "models/knowledge-story-v0.1/chilika.coverage.json",
+        "records/knowledge-story-model-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -806,6 +831,28 @@
         "research/destinations/chilika.json",
         "records/destination-model-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-029",
+      "title": "Create a deeper place and thing information hierarchy",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Let's create data or information model around it. That will help us to narrate a place or a thing.",
+      "scope": "Prepare a reusable content model covering history, stories, spots, food, local integration, strengths/drawbacks, conduct, season, literature, culture, art/science, notable people, poems/songs, film connections and quotations. Exact model remains a review candidate; no site migration or Blueprint-wide adoption inferred.",
+      "recorded_at": "2026-09-29T03:38:48.811874+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-011"
+      ],
+      "evidence": [
+        "reference/knowledge-story-model.md",
+        "models/knowledge-story-v0.1/model.json",
+        "models/knowledge-story-v0.1/chilika.coverage.json",
+        "records/knowledge-story-model-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -1016,6 +1063,27 @@
       ],
       "evidence": [
         "records/destination-model-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-011",
+      "title": "Knowledge model references and template self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "This is an information dictionary, not an executable schema or enforcement mechanism.",
+        "Chilika mapping reuses existing evidence and its limits; no new historical, filming-location, quotation or practical visitor claims were researched.",
+        "A heritage-place and food/craft pilot should test the candidate before adopting it broadly."
+      ],
+      "refs": [
+        "UTP-WORK-012"
+      ],
+      "evidence": [
+        "records/knowledge-story-model-review.json"
       ]
     }
   ],

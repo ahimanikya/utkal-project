@@ -24,3 +24,5 @@
 - [The Utkal way of telling a story](storytelling-standard.md)
 
 - [Destination model and tourism benchmarks](destination-model.md)
+
+- [Utkal Knowledge & Story Model](knowledge-story-model.md)

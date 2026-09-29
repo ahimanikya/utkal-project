@@ -72,3 +72,7 @@ For future entities and plan behavior, see the [tour-book PRD addendum](../resea
 ## Acceptance for this iteration
 
 Chilika has a grounded opening, three place-specific experiences, food leads, stay-base guidance, poems and songs, and a compact evidence section. Every sourced section resolves to the KB source record. Quotation and photograph credit survive the layout change. Mobile reading, keyboard expansion and local links are checked. No generic tourist image, invented restaurant ranking, fake booking availability or inactive save button is introduced. Human language/editorial review and local visitor verification remain open.
+
+## Deeper entity model
+
+The [Utkal Knowledge & Story Model](knowledge-story-model.md) adds the information hierarchy requested next by the Founder: history, local memory, people, art/science, cultural works, community participation and honest visitor expectations. It separates the knowledge record from its narrative view and includes place/thing templates. The destination presentation above remains a view of that broader knowledge; migration is not yet applied.
