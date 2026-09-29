@@ -16,3 +16,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 ## Destination and tour-book extension
 
 - [Addendum v0.1: destination discovery and personal tour book](destination-and-tour-book.md) — ten separately identified requirements; two piloted in the Chilika candidate, planning features remain future work. The original 40-requirement baseline above is preserved.
+
+- [Founder-endorsed culture-first travel direction](culture-first-travel-direction.md) — visitor journey, information layers and Chilika/Konark pilot sequence.

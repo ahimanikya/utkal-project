@@ -62,3 +62,7 @@ Acceptance testing for the future planner must cover reload, empty collections, 
 ## Current delivery and next review
 
 Delivered in this candidate: UTP-TB-001 and UTP-TB-002 as a Chilika prototype plus the reusable [destination model](../../reference/destination-model.md). Not implemented: saving, arranging, export, offline caching, accounts or booking. Validate the model with a heritage site and a city/food destination before scaling. Founder review decides the next implementation batch; publication remains a separate human gate.
+
+## Direction endorsement
+
+The Founder endorsed the [culture-first travel recommendation](culture-first-travel-direction.md), including Chilika and Konark as pilots followed by saved choices and a printable tour book. This clarifies the delivery direction; the detailed requirements above retain their own review and implementation states.

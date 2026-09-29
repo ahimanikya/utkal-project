@@ -460,3 +460,7 @@ Founder expanded the destination idea into an information hierarchy for a place 
 ## UTP-HIS-0059 · Learning how the world invites a traveller
 
 Compared Lonely Planet, Tripadvisor, Atlas Obscura, Japan Travel and Tourism Australia for editorial discovery, practical choices, place hierarchy and itinerary discovery. Proposed three Utkal reader paths and separate entity-type, geography and interest dimensions over the existing knowledge model. Inspection limits and phased follow-up preserved; no website behavior changed. [Read the comparison](../reference/travel-website-benchmark.md).
+
+## UTP-HIS-0060 · A story becomes a journey
+
+Founder endorsed the combined culture-first travel recommendation. Recorded the six-step visitor journey, three information layers and Chilika/Konark-first pilot sequence, followed by saved choices and a printable tour book. Detailed candidate review and publication remain separate. [Read the agreed direction](../research/product/culture-first-travel-direction.md).
