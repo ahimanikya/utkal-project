@@ -1,0 +1,7 @@
+---
+const {photo,variant=''}=Astro.props;
+---
+{photo&&<figure class:list={['destination-photo',variant]}>
+  <img src={photo.src} width={photo.width} height={photo.height} alt={photo.alt} loading="lazy" decoding="async" />
+  <figcaption>{photo.caption}</figcaption>
+</figure>}

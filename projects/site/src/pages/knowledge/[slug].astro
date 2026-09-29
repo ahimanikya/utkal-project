@@ -35,20 +35,20 @@ const evidenceUses=[
       <h1>{entry.label}</h1>
       <p class="lead">{story?story.headline:entry.dek}</p>
     </div>
-    {destination&&<nav class="destination-nav" aria-label="On this page">
-      <a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Culture & stories</a><a href="#locals">Meet locally</a><a href="#expectations">Good to know</a>
-    </nav>}
-    {destination&&<div class="destination-highlights" aria-label="Destination at a glance">{destination.highlights.map(highlight=><a href={highlight.href}><span class="eyebrow">{highlight.label}</span><strong>{highlight.text}</strong><span aria-hidden="true">↓</span></a>)}</div>}
     {story&&<figure class="story-hero" id="story-image">
       <img src={story.image.src} width={story.image.width} height={story.image.height} alt={story.image.alt} fetchpriority="high" />
       <figcaption>{story.image.depiction} · {story.image.short_caption}</figcaption>
     </figure>}
+    {destination&&<nav class="destination-nav" aria-label="On this page">
+      <a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Culture & stories</a><a href="#locals">Meet locally</a><a href="#expectations">Good to know</a>
+    </nav>}
+    {destination&&<div class="destination-highlights" aria-label="Destination at a glance">{destination.highlights.map(highlight=><a href={highlight.href}><span class="eyebrow">{highlight.label}</span><strong>{highlight.text}</strong><span aria-hidden="true">↓</span></a>)}</div>}
     <article class:list={['knowledge',{'has-story':!!story}]}>
       <p class="notice">Editorial draft · awaiting Founder review.</p>
       {story&&<p class="story-opening">{story.opening}</p>}
       {story?.history&&<section class="destination-history" id="history" aria-labelledby="history-title" data-source-ids={story.history.sources.join(' ')}><p class="eyebrow">Historical significance</p><h2 id="history-title">{story.history.heading}</h2><p>{story.history.text}</p></section>}
       {destination&&<DestinationGuide destination={destination} />}
-      {story&&<StoryBody story={story} culture={destination?.culture} />}
+      {story&&<StoryBody story={story} culture={destination?.culture} culturePhoto={destination?.visuals?.[destination.culture_image_ref]} />}
       {destination&&<DestinationContext destination={destination} />}
       {story&&<h2 class="record-heading">{story.record_heading}</h2>}
       {entry.paragraphs.map((paragraph,index)=>
@@ -59,6 +59,7 @@ const evidenceUses=[
         {story&&<div class="image-credit">
           <h3>Photograph & words</h3>
           <p><a href={story.image.source}>{story.image.title}</a> by {story.image.creator} · <a href={story.image.license_url}>{story.image.license}</a>. {story.image.changes} {story.image.caption}</p>
+          {Object.values(destination?.visuals??{}).map(photo=><p class="destination-photo-credit" data-photo-id={photo.id}><a href={photo.source}>{photo.title}</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes} Photograph dated {photo.date}. {photo.caption}.</p>)}
           {story.voice&&<p>{story.voice.translation_credit} {story.voice.original}</p>}
           {destination?.culture.map(work=><p>{work.title}: {work.credit}.</p>)}
           {destination?.culture.some(work=>work.type==='song')&&<p>Music links lead to external catalogues; playback may depend on your location or account. No recordings or lyrics are hosted here.</p>}

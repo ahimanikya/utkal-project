@@ -1,5 +1,6 @@
 ---
-const {story,culture=[]}=Astro.props;
+import DestinationPhoto from './DestinationPhoto.astro';
+const {story,culture=[],culturePhoto}=Astro.props;
 ---
 <div class="story-flow">
   <section id="poems-songs" class="story-voice" aria-labelledby="voice-title" data-source-ids={story.voice?.sources.join(" ")}>
@@ -10,6 +11,7 @@ const {story,culture=[]}=Astro.props;
       <p class="verse-translation">{story.voice.translation}</p>
       <footer>{story.voice.author} · <cite>{story.voice.work}</cite></footer>
     </blockquote><p>{story.voice.context}</p></>:<p>{story.culture_intro}</p>}
+    <DestinationPhoto photo={culturePhoto} variant="culture-photo" />
     <div class="culture-list">{culture.map(work=><article id={work.id.replaceAll(':','-')} data-source-ids={work.sources.join(' ')}>
       <p class="eyebrow">{work.type==='song'?'Listen':work.type==='performance'?'Experience':'Read'}</p>
       <h3>{work.title}</h3><p>{work.text}</p>

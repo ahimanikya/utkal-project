@@ -468,3 +468,7 @@ Founder endorsed the combined culture-first travel recommendation. Recorded the 
 ## UTP-HIS-0061 · Two places, two ways of seeing
 
 Prepared Konark as the second destination pilot and refined Chilika with shared overview, local-engagement and expectations sections. Preserved real-image rights, source trails, legend labels, practical gaps and the Founder publication gate. Chilika invites a choice of shore; Konark invites a closer look at stone. The common structure now carries two distinct places without manufacturing a poem, film location or quotation to fill an empty slot. [Review the pilots](../reference/destination-pilots-review.md).
+
+## UTP-HIS-0062 · Let the pictures speak
+
+Founder felt the pilots were informative but too text-heavy: “picture speaks 1000 words - only text wont cut it”. Added six credited real photographs across the Chilika and Konark pilots, moved the hero ahead of navigation, and introduced image cards, food panels and stronger sea/stone/straw colour sections. Preserved contextual captions, end credits and the Founder release gate. [Visual review and image provenance](../records/destination-visual-review.json).

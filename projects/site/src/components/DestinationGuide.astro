@@ -1,4 +1,5 @@
 ---
+import DestinationPhoto from './DestinationPhoto.astro';
 const {destination:d}=Astro.props;
 const groups=[
   {id:'things-to-do',eyebrow:'Make time for',title:d.headings.experiences,items:d.experiences},
@@ -13,9 +14,11 @@ const groups=[
     <p>{d.orientation}</p>
     <p class="season-note" data-source-ids={d.season_sources.join(' ')}><strong>When to go.</strong> {d.season}</p>
   </section>
-  {groups.map(group=><section id={group.id} aria-labelledby={group.id+'-title'}>
+  {groups.map(group=><section class:list={['destination-section',{'food-section':group.id==='food'}]} id={group.id} aria-labelledby={group.id+'-title'}>
     <p class="eyebrow">{group.eyebrow}</p><h2 id={group.id+'-title'}>{group.title}</h2>
-    <div class="destination-cards">{group.items.map((item,index)=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}>
+    {group.id==='food'&&<DestinationPhoto photo={d.visuals?.[d.food_image_ref]} variant="food-photo" />}
+    <div class:list={['destination-cards',{'experience-cards':group.id==='things-to-do','one-visual':group.items.filter(item=>item.image_ref).length===1}]}>{group.items.map((item,index)=><article class:list={{'with-photo':!!item.image_ref}} id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}>
+      {item.image_ref&&<DestinationPhoto photo={d.visuals?.[item.image_ref]} />}
       <span class="destination-number">0{index+1}</span>
       <div>{item.area&&<p class="eyebrow">{item.area}</p>}<h3>{item.title}</h3><p>{item.text}</p></div>
     </article>)}</div>

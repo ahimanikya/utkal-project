@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-29T04:30:35.659644+00:00",
+  "recorded_at": "2026-09-29T04:42:12.960305+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -375,15 +375,18 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-032",
-      "next_action": "Founder reviews both local pilots and content gaps before any release; saved choices and printable tour book remain the next phase.",
+      "next_action": "Founder reviews the more visual two-pilot candidate; publication remains a separate decision.",
       "blockers": [],
       "refs": [
         "UTP-DEC-032",
-        "UTP-REV-013"
+        "UTP-REV-013",
+        "UTP-DEC-033",
+        "UTP-REV-014"
       ],
       "evidence": [
         "reference/destination-pilots-review.md",
-        "records/destination-pilots-review.json"
+        "records/destination-pilots-review.json",
+        "records/destination-visual-review.json"
       ]
     }
   ],
@@ -958,6 +961,25 @@
       "evidence": [
         "reference/destination-pilots-review.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-033",
+      "title": "Make the destination pilots more visual",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "The pages are very informative - but we need add some color to it - picture speaks 1000 words - only text wont cut it",
+      "scope": "Refine both destination pilot presentations with relevant photographs and brand colour; no release approval.",
+      "recorded_at": "2026-09-29T04:42:12.960305+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "records/destination-visual-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -1238,6 +1260,28 @@
       "evidence": [
         "records/destination-pilots-review.json",
         "reference/destination-pilots-review.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-014",
+      "title": "Destination photograph provenance and visual self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Photos depict recorded moments, not current site conditions.",
+        "Odissi image was taken in New Delhi; visible caption distinguishes it from the Konark festival.",
+        "Food photographs illustrate dishes, not reviewed venues or current menus.",
+        "Phone emulation and desktop DOM geometry checked; no physical device or screen-reader review."
+      ],
+      "refs": [
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "records/destination-visual-review.json"
       ]
     }
   ],

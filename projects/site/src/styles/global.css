@@ -75,3 +75,29 @@ main:focus{outline:none}
 .story-metrics:has(>div:only-child){grid-template-columns:1fr}.story-metrics:has(>div:only-child) dd{font-size:64px}
 @media(min-width:951px){.story-hero{max-width:1000px;margin-inline:auto}}
 @media(max-width:650px){.destination-highlights{grid-template-columns:1fr;gap:0;margin-bottom:28px}.destination-highlights a{padding:16px 0;display:grid;grid-template-columns:1fr 24px;gap:6px 12px}.destination-highlights .eyebrow,.destination-highlights strong{grid-column:1}.destination-highlights a>span:last-child{grid-column:2;grid-row:1/3;align-self:center}.destination-highlights strong{font-size:21px}.destination-related{padding:22px}}
+
+/* Picture-led destination reading: sea, stone and straw between the stories. */
+.destination-photo{margin:0;overflow:hidden}.destination-photo img{width:100%;height:auto;display:block}.destination-photo figcaption{font-size:12px;line-height:1.6;padding:12px 0;color:var(--muted)}
+.destination-guide{max-width:1000px}.destination-guide .destination-orientation{max-width:800px;margin-inline:auto;border-left:5px solid var(--straw);padding:28px;background:var(--paper)}
+.destination-guide .destination-orientation .season-note{border-left:0;padding-left:0}
+.destination-highlights a{padding:22px;background:var(--paper);border-bottom:3px solid var(--earth)}
+.destination-highlights a:nth-child(2){background:var(--sea);color:var(--light);border-color:var(--sea)}.destination-highlights a:nth-child(2) .eyebrow{color:var(--paper)}
+.destination-highlights a:nth-child(3){background:#e6e4d4;border-color:var(--olive)}
+.destination-section{clear:both}.experience-cards{display:grid;grid-template-columns:1fr 1fr;gap:26px;border:0}
+.experience-cards article{display:grid;grid-template-columns:30px 1fr;align-content:start;gap:20px 14px;padding:0 0 24px;background:var(--paper);border:0}
+.experience-cards article>.destination-number{margin-left:20px}.experience-cards article>div{padding-right:24px}
+.experience-cards article>.destination-photo{grid-column:1/-1}.experience-cards .destination-photo img{aspect-ratio:3/2;object-fit:cover}.experience-cards figcaption{padding:12px 20px}
+.experience-cards article:not(.with-photo){grid-column:1/-1;padding:28px 0;background:var(--sea);color:var(--light)}
+.experience-cards article:not(.with-photo) h3,.experience-cards article:not(.with-photo) .eyebrow,.experience-cards article:not(.with-photo) .destination-number{color:var(--light)}
+.food-section{padding:32px;background:var(--paper);border-top:4px solid var(--earth);display:flow-root}
+.food-section>.food-photo{float:right;width:46%;margin:0 0 24px 32px}.food-photo img{aspect-ratio:1/1;object-fit:cover}
+.food-section .destination-cards{border:0}.food-section .destination-cards article{display:block;padding:0 0 22px;margin-bottom:22px}.food-section .destination-number{display:none}.food-section .destination-note{clear:both}
+.culture-photo{margin:30px 0}.culture-photo img{border-bottom:5px solid var(--earth)}
+.story-voice{background:#ecebdc;padding:32px;border-left:4px solid var(--olive)}
+.story-surprise{background:var(--sea);color:var(--light)}.story-surprise h2,.story-surprise .eyebrow,.story-surprise .story-metrics dd,.story-surprise summary{color:var(--light)}
+.destination-related{background:var(--earth);color:var(--light)}.destination-related h3,.destination-related a,.destination-related .eyebrow{color:var(--light)}
+@media(max-width:650px){.experience-cards{grid-template-columns:1fr;gap:22px}.experience-cards article:not(.with-photo){grid-column:auto}.food-section{padding:22px}.food-section>.food-photo{float:none;width:100%;margin:0 0 24px}.food-photo img{aspect-ratio:4/3}.story-voice{padding:24px 20px}.destination-highlights{gap:10px}.destination-highlights a{padding:18px}.destination-guide .destination-orientation{padding:22px}}
+.experience-cards.one-visual{grid-template-columns:1fr}.experience-cards.one-visual .with-photo .destination-photo img{max-height:430px}
+@media(min-width:651px){.experience-cards.one-visual .with-photo{grid-template-columns:1fr 1fr;align-items:center;padding:0;gap:28px}.experience-cards.one-visual .with-photo>.destination-photo{grid-column:1;grid-row:1}.experience-cards.one-visual .with-photo>.destination-number{display:none}.experience-cards.one-visual .with-photo>div{grid-column:2;grid-row:1;padding:24px 24px 24px 0}.experience-cards.one-visual .with-photo .destination-photo img{aspect-ratio:1/1}}
+.experience-cards .with-photo>.destination-number{display:none}.experience-cards .with-photo>div{grid-column:1/-1;padding:0 24px}.experience-cards article:not(.with-photo){grid-template-columns:54px 1fr}
+@media(min-width:651px){.experience-cards.one-visual .with-photo>div{grid-column:2;padding:24px 24px 24px 0}}

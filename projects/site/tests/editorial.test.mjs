@@ -131,3 +131,22 @@ test('both destination pilots preserve optional narratives, source coverage and 
     }
   }
 });
+
+test('destination photographs retain rights, context and local delivery',()=>{
+ for(const slug of ['chilika','konark']){
+  const d=JSON.parse(readFileSync(`../../kb/research/destinations/${slug}.json`,'utf8'));
+  const html=readFileSync(`dist/knowledge/${slug}/index.html`,'utf8');
+  const credits=html.slice(html.indexOf('<details class="end-credits"'));
+  for(const photo of Object.values(d.visuals)){
+   assert.ok(readFileSync('public'+photo.src).length>0);
+   for(const field of ['source','creator','license_url','changes'])assert.ok(credits.includes(escape(photo[field])),`${slug}: ${photo.id} ${field}`);
+   assert.ok(html.includes(`src="${photo.src}"`));
+   assert.ok(html.includes(escape(photo.alt)));
+   assert.ok(html.includes(escape(photo.caption)));
+  }
+  const refs=[d.food_image_ref,d.culture_image_ref,...d.experiences.map(i=>i.image_ref)].filter(Boolean);
+  for(const ref of refs)assert.ok(d.visuals[ref],ref);
+  assert.ok(!html.includes('src="https://'),'photographs served locally');
+  if(slug==='konark')assert.ok(html.includes('photographed in New Delhi, 2025'));
+ }
+});

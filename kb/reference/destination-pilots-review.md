@@ -36,3 +36,7 @@ Practical details needing local follow-up: opening hours and fees, transport tim
 ## Next boundary
 
 This candidate belongs to draft PR #4. Founder review of the candidate and a separate release decision remain. No deployment, analytics, account system, personal saving, tour-book export or booking service was added. After the pilots are accepted, saved choices and a printable tour book are the next product slice.
+
+## Visual refinement after Founder feedback
+
+Six additional real photographs now carry birds, Kalijai, crab, the coast, chhena poda and Odissi into the reading flow. The hero appears earlier; image cards, food panels and sea/stone/straw sections break up the prose. Sources and licenses stay in expandable end notes. The Odissi caption states New Delhi, and food photos do not imply venue endorsement. [Photograph provenance and checks](../records/destination-visual-review.json). The updated candidate passes 13 tests; publication remains pending.
