@@ -5,16 +5,19 @@ description: "Boita Bandana: honouring the maritime trader — evidence, scope a
 tags: ["maritime", "trade"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}
-sources: [{"id": "maritime-culture-2025", "title": "Bali Jatra commemorates rich maritime heritage and culture of Odisha", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365"}]
-verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}]
+sources: [{"id": "maritime-culture-2025", "title": "Bali Jatra commemorates rich maritime heritage and culture of Odisha", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365", "inspection": "Ministry of Culture release text inspected. Contemporary commemoration only; not proof of particular ancient routes, ancestry or a single original ritual purpose."}]
+verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}, {"by": "Current AI assistant", "at": "2026-09-29T02:25:24.019692+00:00", "scope": "Ministry of Culture release text inspected. Contemporary commemoration only; not proof of particular ancient routes, ancestry or a single original ritual purpose."}]
 aliases: ["Boitha Bandana", "Boita Bandana", "Danga Bhasa"]
-verification_scope: "Description of commemoration; entrepreneurship wording is explicitly editorial."
+verification_scope: "Ministry of Culture release text inspected. Contemporary commemoration only; not proof of particular ancient routes, ancestry or a single original ritual purpose."
 stale_after: "2027-09-27T00:00:00Z"
+editorial_review: "Source check complete; Founder review pending. Not an independent scholarly review."
 ---
 
 # Boita Bandana: honouring the maritime trader
 
-The Ministry of Culture describes floating miniature boats as part of the remembrance of maritime voyages associated with Bali Jatra.[^maritime-culture-2025]
+## Sourced knowledge
+
+In Boita Bandana, miniature boats carrying lamps are set afloat in remembrance of maritime journeys. A 2025 Ministry of Culture account connects this practice with Bali Jatra in Cuttack, a festival commemorating trade and cultural exchange between Odisha and Southeast Asia, particularly Bali.[^maritime-culture-2025]
 
 ## Editorial interpretation
 

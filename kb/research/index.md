@@ -27,3 +27,5 @@ Start with the [community encyclopedia model](about/community-encyclopedia.md) a
 [Research gaps and conflicts](about/research-gaps.md) · [How to search and maintain this KB](methods/local-retrieval.md) · [Change history](log.md)
 
 This is a research collection, not a current travel-booking directory. Statements, proposals and unresolved questions are distinguished within each entry.
+
+- [People](people/index.md) — biographical entry drafts and their sources.

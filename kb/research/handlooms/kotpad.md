@@ -5,20 +5,21 @@ description: "Kotpad textiles — research and reuse notes."
 tags: ["handlooms", "koraput"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "kotpad-textiles", "title": "Sustainability in the Handloom Traditions of India", "resource": "https://handlooms.nic.in/assets/img/EBOOK/Sustainability%20in%20the%20Handloom%20Traditions%20of%20India.pdf"}]
-verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
+sources: [{"id": "kotpad-textiles", "title": "Sustainability in the Handloom Traditions of India", "resource": "https://handlooms.nic.in/assets/img/EBOOK/Sustainability%20in%20the%20Handloom%20Traditions%20of%20India.pdf", "inspection": "Indexed Kotpad Handlooms section inspected; direct PDF retrieval failed. Institutional description only; no maker interview or product certification verified."}]
+verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}, {"by": "Current AI assistant", "at": "2026-09-29T02:25:24.019692+00:00", "scope": "Indexed Kotpad Handlooms section inspected; direct PDF retrieval failed. Institutional description only; no maker interview or product certification verified."}]
 geography: "Koraput"
 aliases: ["Kotpad textiles", "kotpad"]
-verification_scope: "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals."
+verification_scope: "Indexed Kotpad Handlooms section inspected; direct PDF retrieval failed. Institutional description only; no maker interview or product certification verified."
 stale_after: "2027-09-27T00:00:00Z"
 readiness: "Research nucleus; feature needs local detail and media"
+editorial_review: "Source check complete; Founder review pending. Not an independent scholarly review."
 ---
 
 # Kotpad textiles
 
 ## Sourced knowledge
 
-The institutional reference associates Kotpad textiles with Mirgan weavers and aul-root dyes producing earthy colours.[^kotpad-textiles]
+Kotpad textiles connect cloth to the materials and makers of southern Odisha. A publication hosted by the Development Commissioner for Handlooms identifies the Mirgan community of Kotpad, in Koraput district, with this weaving tradition. It describes dyes from aul tree roots and colours ranging through red, maroon, brown and black, alongside motifs drawn from daily life and nature.[^kotpad-textiles]
 
 ## Story opportunity
 

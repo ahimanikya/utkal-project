@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-28T13:02:07.055710+00:00",
+  "recorded_at": "2026-09-29T02:30:51.004234+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -241,6 +241,29 @@
       ],
       "evidence": [
         "records/mobile-accessibility-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-009",
+      "title": "First collection source check and editorial candidate",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-026",
+      "next_action": "Founder reviews the six bounded drafts and source-access limits. Release and indexing require a subsequent explicit decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-026",
+        "UTP-REV-008"
+      ],
+      "evidence": [
+        "reference/first-collection-editorial-review.md",
+        "records/first-collection-editorial-review.json"
       ]
     }
   ],
@@ -673,6 +696,25 @@
       "evidence": [
         "records/mobile-accessibility-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-026",
+      "title": "Review the first encyclopedia collection against its sources",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, let's do that",
+      "scope": "Source check and prepare six editorial drafts for Founder review. No approval to merge, deploy or enable indexing is inferred.",
+      "recorded_at": "2026-09-29T02:30:51.004234+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-REL-005"
+      ],
+      "evidence": [
+        "records/first-collection-editorial-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -814,6 +856,30 @@
       ],
       "evidence": [
         "records/mobile-accessibility-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-008",
+      "title": "Six-entry evidence and citation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Ramsar, Kotpad and Naik/Satpathy evidence partly limited to indexed extracts.",
+        "Samanta birth-date conflict remains visible; no original calculations validated.",
+        "No fieldwork, maker or cook interviews, specialist review or human editorial approval.",
+        "Browser layout checks only; capture artifacts prevented a full visual audit."
+      ],
+      "refs": [
+        "UTP-WORK-009",
+        "UTP-WORK-001"
+      ],
+      "evidence": [
+        "reference/first-collection-editorial-review.md",
+        "records/first-collection-editorial-review.json"
       ]
     }
   ],

@@ -440,3 +440,7 @@ After the first public preview, the Founder asked us to proceed with mobile and 
 ## UTP-HIS-0054 · The mobile refinements reach the public site
 
 The Founder approved PR #3 with “Go ahead!”. Its mobile readability, contrast, keyboard and reduced-motion improvements were merged and deployed successfully. Live checks confirmed the main changes; physical-device and screen-reader limitations remain documented. [Release evidence](../records/mobile-accessibility-review.json).
+
+## UTP-HIS-0055 · A collection that shows its evidence
+
+The Founder asked us to review the first collection. We found a broken source link, made the small notes more useful, and connected their paragraphs to evidence. We kept uncertainties visible, including Samanta’s conflicting birth dates and sources available only through indexed extracts. This is a step toward a credible encyclopedia, with research questions becoming explicit work. The candidate awaits Founder review; the public preview and indexing are unchanged. [Editorial review](../reference/first-collection-editorial-review.md).

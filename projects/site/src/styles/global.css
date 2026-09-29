@@ -31,3 +31,8 @@ main:focus{outline:none}
  .footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}
  .brand-proof{padding:18px}.proof-dark .brand-signature{max-width:100%}
 }
+
+/* Keep each research claim connected to its evidence. */
+.knowledge .citation{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:44px;margin-left:4px;font:14px/1.4 system-ui,sans-serif;color:var(--sea);vertical-align:baseline}
+.source-inspection{margin-top:8px;color:var(--ink);font-size:13px;line-height:1.65}
+.source-list li:target{background:var(--paper);outline:2px solid var(--straw);outline-offset:5px}

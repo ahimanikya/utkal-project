@@ -17,3 +17,5 @@
 - [First website release](website-first-release.json)
 
 - [Mobile and accessibility review](mobile-accessibility-review.json)
+
+- [First collection source-check evidence](first-collection-editorial-review.json)

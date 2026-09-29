@@ -46,3 +46,5 @@ This directory contains the organizational and working model, roles, work record
 - [Photo and cultural collections](collections/index.md)
 
 - [Vector identity and merchandise design](reference/brand-vector-03.md)
+
+- [First collection editorial review](reference/first-collection-editorial-review.md)

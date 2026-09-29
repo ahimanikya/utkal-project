@@ -18,3 +18,5 @@
 - [Odisha sensory identity](odisha-sensory-identity.md)
 
 - [Vector refinement 03](brand-vector-03.md)
+
+- [First collection editorial review](first-collection-editorial-review.md)
