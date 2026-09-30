@@ -712,3 +712,9 @@ The Founder approved PR #6. Official-help guidance reached all seven public guid
 Actual books now verify the new guidance and sources. The UI follow-up distinguishes a requested download from confirmed file delivery, while preserving the earlier unresolved findings as history.
 
 [Download follow-up](../research/product/download-followup-2026-09-30.md). Verification complete; UI candidate not deployed.
+
+## UTP-HIS-0114 · The message and the file agree
+
+The Founder approved PR #7. The live journey now gives accurate feedback beside its download controls. Actual HTML and text files retained current guidance and sources.
+
+[Publication evidence](../records/download-publication.json). Approved preview published.

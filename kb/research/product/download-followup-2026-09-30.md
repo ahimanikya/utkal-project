@@ -22,3 +22,9 @@ The HTML book and printable journey also describe their source as the collection
 315 site tests, 10 coastal tests and 64 page checks passed. A separate local test journey downloaded a real text file and displayed the new feedback beside the controls. A desktop screenshot and file hash are recorded. Existing regression tests cover both portable formats; no implementation-mirroring wording test was added. The candidate is not deployed.
 
 The [hosting status](../../records/evidence/download-followup-2026-09-30/hosting-status.json) still reports dns_changed and enforcement disabled. No repeated enforcement attempt, domain reset or DNS change was made. Native A4/Letter printing remains UTP-WORK-080; an explicit Chrome choice was requested, with other work continuing in the in-app browser. Current local-service checks remain UTP-WORK-097.
+
+## Publication follow-up · Founder approved
+
+The Founder replied “Approved”. PR #7 merged at `48ba57901208efdec05bddb5bdf7225f81baa4c1`; [Pages run 36786151450](https://github.com/ahimanikya/utkal-project/actions/runs/36786151450) succeeded. A fresh public journey page showed the new feedback beside the controls. Actual HTML and text downloads retained the current Puri guidance and sources; the HTML also carried the clarified collection wording. Earlier candidate notices are preserved as history.
+
+[Publication and smoke evidence](../../records/download-publication.json). Native printing, HTTPS enforcement and local-service checks remain separate.

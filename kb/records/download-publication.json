@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-09-30T22:35:48.079917+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-080",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/7",
+  "approved_head": "73c1258839f1cb5bd7ee8d9c0def0952d213fab8",
+  "deployed_sha": "48ba57901208efdec05bddb5bdf7225f81baa4c1",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36786151450",
+  "destination": "https://utkalproject.org/",
+  "live_checks": {
+    "checked_at": "2026-09-30T22:35:48.050930+00:00",
+    "page": "https://utkalproject.org/journey/?release=pr7-live-check",
+    "journey": "UTP PR7 release check",
+    "feedback_verified": true,
+    "feedback": "Prepared message at top; Download requested with filename and check-your-downloads instruction beside the controls.",
+    "personal_plans": "Existing journeys retained; created a separate labelled synthetic Puri plan.",
+    "downloads": [
+      {
+        "file": "/Users/ahimanikya/Downloads/UTP-PR7-release-check-itinerary-2026-09-30.txt",
+        "bytes": 4043,
+        "sha256": "7a7ff3fa512b6159152d0564eda35ee5c4d1b87e30d98f9ba020c820666a300c",
+        "passed": true,
+        "checked": "Current Puri help, station guidance and both official references; HTML also checked for clarified collection wording."
+      },
+      {
+        "file": "/Users/ahimanikya/Downloads/UTP-PR7-release-check-book-2026-09-30.html",
+        "bytes": 8215,
+        "sha256": "9f253bd7cf97c5ff3e4a7bdef59ab76e3eb357168c135640256105b5bac3372d",
+        "passed": true,
+        "checked": "Current Puri help, station guidance and both official references; HTML also checked for clarified collection wording."
+      }
+    ]
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Native A4/Letter PDF checks remain open under UTP-WORK-080; no browser switch performed.",
+    "HTTPS enforcement remains blocked by certificate provisioning under UTP-WORK-095.",
+    "Local-service verification remains open under UTP-WORK-097.",
+    "Same AI assistant implemented and performed live smoke review."
+  ],
+  "rollback_reference": "e55be1ef25158158fe4f43fa73f722c20126f5c2",
+  "evidence": [
+    "records/evidence/download-publication-2026-09-30/approval.json",
+    "records/evidence/download-publication-2026-09-30/deployment.json",
+    "records/evidence/download-publication-2026-09-30/live-checks.json",
+    "records/evidence/download-publication-2026-09-30/live-feedback.png"
+  ]
+}

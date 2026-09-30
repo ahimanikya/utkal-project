@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T22:28:01.551950+00:00",
+  "recorded_at": "2026-09-30T22:35:48.079917+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2721,24 +2721,28 @@
       "id": "UTP-WORK-100",
       "title": "Make download feedback accurate and visible beside controls",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-079",
-      "next_action": "Founder review of the bounded UI candidate before publishing. Download verification is resolved separately; native printing and certificate provisioning remain open.",
+      "next_action": "Published under UTP-DEC-080 / UTP-REL-009. Live feedback and actual HTML/text files verified; native print, HTTPS and local-service work remain separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-079",
         "UTP-WORK-099",
-        "UTP-REV-055"
+        "UTP-REV-055",
+        "UTP-DEC-080",
+        "UTP-REV-056",
+        "UTP-REL-009"
       ],
       "evidence": [
         "research/product/download-followup-2026-09-30.md",
-        "records/download-followup-review.json"
+        "records/download-followup-review.json",
+        "records/download-publication.json"
       ]
     }
   ],
@@ -4314,6 +4318,27 @@
       "evidence": [
         "research/product/download-followup-2026-09-30.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-080",
+      "title": "Publish the reviewed download-feedback correction",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Merge PR 7 at 73c1258839f1cb5bd7ee8d9c0def0952d213fab8 and publish its reviewed coastal preview; record actual deployment and smoke evidence. No domain reset, browser switch or blanket local-service acceptance.",
+      "recorded_at": "2026-09-30T22:35:48.079917+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-100",
+        "UTP-REL-009"
+      ],
+      "evidence": [
+        "records/evidence/download-publication-2026-09-30/approval.json",
+        "records/download-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -5649,6 +5674,29 @@
       "evidence": [
         "records/download-followup-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-056",
+      "title": "Download-feedback publication smoke review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native A4/Letter PDF checks remain open under UTP-WORK-080; no browser switch performed.",
+        "HTTPS enforcement remains blocked by certificate provisioning under UTP-WORK-095.",
+        "Local-service verification remains open under UTP-WORK-097.",
+        "Same AI assistant implemented and performed live smoke review."
+      ],
+      "refs": [
+        "UTP-WORK-100",
+        "UTP-DEC-080"
+      ],
+      "evidence": [
+        "records/download-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -5801,6 +5849,23 @@
         "records/evidence/practical-publication-2026-09-30/deployment.json"
       ],
       "note": "PR 6 merged at e55be1e; Pages run 36784303118 succeeded. Seven live guide checks passed. Actual download-file inspection remains unverified; no PDF or local-service claims added."
+    },
+    {
+      "id": "UTP-REL-009",
+      "title": "Accurate adjacent download feedback published",
+      "status": "published",
+      "authorization": "UTP-DEC-080",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-080",
+        "UTP-WORK-100",
+        "UTP-REV-056"
+      ],
+      "evidence": [
+        "records/download-publication.json",
+        "records/evidence/download-publication-2026-09-30/deployment.json"
+      ],
+      "note": "PR 7 merged at 48ba579; Pages run 36786151450 succeeded. Live adjacent feedback and actual HTML/text downloads verified. Coastal preview scope unchanged."
     }
   ],
   "sources": [
