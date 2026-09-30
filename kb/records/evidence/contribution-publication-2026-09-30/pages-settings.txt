@@ -1,0 +1,224 @@
+- link "Skip to content":
+  - /url: "#start-of-content"
+- banner "Global navigation menu":
+  - button "Open menu":
+  - link "Homepage (g then d)":
+    - /url: /
+  - navigation "Breadcrumbs":
+    - list:
+      - link "ahimanikya":
+        - /url: /ahimanikya
+        - generic: ahimanikya
+      - link "utkal-project":
+        - /url: /ahimanikya/utkal-project
+      - button "Switch repository (option shift r)":
+  - button "Open quick search dialog, type / to search":
+    - text: Type
+    - generic: /
+    - text: to search
+  - link "Chat with Copilot":
+    - /url: /copilot
+  - button "Open Copilot…":
+  - button "Create new...":
+  - link "All issues":
+    - /url: /issues
+  - link "All pull requests":
+    - /url: /pulls
+  - link "All repositories":
+    - /url: /repos
+  - link "You have no unread notifications (g then n)":
+    - /url: /notifications
+  - button "Open user navigation menu":
+    - img "User avatar"
+  - heading "Repository navigation" [level=2]
+  - navigation "Repository":
+    - list:
+      - link "Code":
+        - /url: /ahimanikya/utkal-project
+        - generic: Code
+      - link "Issues":
+        - /url: /ahimanikya/utkal-project/issues
+        - generic: Issues
+      - link "Pull requests":
+        - /url: /ahimanikya/utkal-project/pulls
+        - generic: Pull requests
+      - link "Actions":
+        - /url: /ahimanikya/utkal-project/actions
+        - generic: Actions
+      - link "Projects":
+        - /url: /ahimanikya/utkal-project/projects
+        - generic: Projects
+      - link "Wiki":
+        - /url: /ahimanikya/utkal-project/wiki
+        - generic: Wiki
+      - link "Security and quality":
+        - /url: /ahimanikya/utkal-project/security
+        - generic: Security and quality
+      - link "Insights":
+        - /url: /ahimanikya/utkal-project/pulse
+        - generic: Insights
+      - link "Settings":
+        - /url: /ahimanikya/utkal-project/settings
+        - generic: Settings
+- main:
+  - 'heading "Settings: ahimanikya/utkal-project" [level=1]'
+  - navigation "General settings":
+    - list:
+      - link "General":
+        - /url: /ahimanikya/utkal-project/settings
+        - generic: General
+      - heading "Access" [level=2]
+      - list "Access":
+        - link "Collaborators":
+          - /url: /ahimanikya/utkal-project/settings/access
+          - generic: Collaborators
+        - button "Moderation":
+          - generic: Moderation
+      - heading "Code, planning, and automation" [level=2]
+      - list "Code, planning, and automation":
+        - button "Rulesets":
+          - generic: Rulesets
+        - link "Branches":
+          - /url: /ahimanikya/utkal-project/settings/branches
+          - generic: Branches
+        - link "Tags":
+          - /url: /ahimanikya/utkal-project/settings/tag_protection
+          - generic: Tags
+        - button "Actions":
+          - generic: Actions
+        - link "Webhooks":
+          - /url: /ahimanikya/utkal-project/settings/hooks
+          - generic: Webhooks
+        - button "Copilot":
+          - generic: Copilot
+        - button "Planning":
+          - generic: Planning
+        - link "Environments":
+          - /url: /ahimanikya/utkal-project/settings/environments
+          - generic: Environments
+        - link "Codespaces":
+          - /url: /ahimanikya/utkal-project/settings/codespaces
+          - generic: Codespaces
+        - link "Pages":
+          - /url: /ahimanikya/utkal-project/settings/pages
+          - generic: Pages
+      - heading "Security and quality" [level=2]
+      - list "Security and quality":
+        - link "Advanced Security":
+          - /url: /ahimanikya/utkal-project/settings/security_analysis
+          - generic: Advanced Security
+        - link "Deploy keys":
+          - /url: /ahimanikya/utkal-project/settings/keys
+          - generic: Deploy keys
+        - button "Secrets and variables":
+          - generic: Secrets and variables
+      - heading "Integrations" [level=2]
+      - list "Integrations":
+        - link "GitHub Apps":
+          - /url: /ahimanikya/utkal-project/settings/installations
+          - generic: GitHub Apps
+        - link "Email notifications":
+          - /url: /ahimanikya/utkal-project/settings/notifications
+          - generic: Email notifications
+  - heading "GitHub Pages" [level=2]
+  - paragraph:
+    - link "GitHub Pages":
+      - /url: https://pages.github.com
+    - text: is designed to host your personal, organization, or project pages from a GitHub repository.
+  - text: Your site is live at
+  - link "http://utkalproject.org/":
+    - /url: http://utkalproject.org/
+  - text: Last
+  - link "deployed":
+    - /url: /ahimanikya/utkal-project/actions/runs/36788697308
+  - text: by
+  - img "@ahimanikya"
+  - link "ahimanikya":
+    - /url: /ahimanikya
+  - text: September 30, 2026 15:596 minutes ago
+  - link "Visit site":
+    - /url: http://utkalproject.org/
+    - text: Visit site
+  - button "Unpublish site":
+    - generic: Unpublish site
+  - heading "Build and deployment" [level=2]
+  - text: Source
+  - button "Source GitHub Actions":
+    - generic: GitHub Actions
+  - text: Your site was last deployed to the
+  - link "github-pages":
+    - /url: /ahimanikya/utkal-project/deployments?environment=github-pages#activity-log
+  - text: environment by the
+  - link "Publish Utkal Project":
+    - /url: /ahimanikya/utkal-project/actions/runs/36788697308
+  - text: workflow.
+  - paragraph:
+    - link "Learn more about deploying to GitHub Pages using custom workflows":
+      - /url: https://docs.github.com/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
+  - heading "Custom domain" [level=3]
+  - term:
+    - generic: Custom domain
+    - paragraph:
+      - text: Custom domains allow you to serve your site from a domain other than
+      - code: ahimanikya.github.io
+      - text: .
+      - link "Learn more about configuring custom domains":
+        - /url: https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site
+      - text: .
+  - definition:
+    - textbox "Custom domain": utkalproject.org
+    - button "Save" [disabled]
+    - button "Remove"
+    - paragraph:
+      - generic: DNS check successful
+  - separator
+  - generic: TLS certificate is being provisioned. This may take up to 15 minutes to complete.
+  - text: 1 of 3
+  - generic: "Certificate Requested: Domain authorization succeeded."
+  - checkbox "Enforce HTTPS — Not yet available for your site because the certificate has not finished being issued. Please allow 24 hours for this process to complete. (utkalproject.org)" [disabled]
+  - text: Enforce HTTPS
+  - text: — Not yet available for your site because the certificate has not finished being issued.
+  - text: Please allow 24 hours for this process to complete. (
+  - link "utkalproject.org":
+    - /url: http://utkalproject.org/
+    - code: utkalproject.org
+  - text: )
+  - paragraph:
+    - text: HTTPS provides a layer of encryption that prevents others from snooping on or tampering with traffic to your site.
+    - text: When HTTPS is enforced, your site will only be served over HTTPS.
+    - link "Learn more about securing your GitHub Pages site with HTTPS":
+      - /url: https://docs.github.com/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https
+    - text: .
+  - heading "Visibility" [level=3]
+  - generic: GitHub Enterprise
+  - paragraph:
+    - text: With a GitHub Enterprise account, you can restrict access to your GitHub Pages site by publishing it privately. You can use privately published sites to share your internal documentation or knowledge base with members of your enterprise. You can try GitHub Enterprise risk-free for 30 days.
+    - link "Learn more about the visibility of your GitHub Pages site.":
+      - /url: https://docs.github.com/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site
+  - link "Start free for 30 days":
+    - /url: /account/enterprises/new
+    - generic: Start free for 30 days
+- contentinfo:
+  - heading "Footer" [level=2]
+  - link "GitHub Homepage":
+    - /url: https://github.com
+  - generic: © 2026 GitHub, Inc.
+  - navigation "Footer":
+    - heading "Footer navigation" [level=3]
+    - list "Footer navigation":
+      - link "Terms":
+        - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - link "Privacy":
+        - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - link "Security":
+        - /url: https://github.com/security
+      - link "Status":
+        - /url: https://www.githubstatus.com/
+      - link "Community":
+        - /url: https://github.community/
+      - link "Docs":
+        - /url: https://docs.github.com/
+      - link "Contact":
+        - /url: https://support.github.com?tags=dotcom-footer
+      - button "Manage cookies"
+      - button "Do not share my personal information"

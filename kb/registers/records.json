@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T22:51:45.596681+00:00",
+  "recorded_at": "2026-09-30T23:11:19.039787+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2585,26 +2585,29 @@
       "id": "UTP-WORK-095",
       "title": "Enable HTTPS enforcement after GitHub certificate issuance",
       "category": "hosting",
-      "status": "blocked",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-074",
-      "next_action": "DNS matches documented GitHub configuration and HTTPS works; enforcement still rejected. Recheck issuance on the next hosting pass. If still stuck, plan a domain-provisioning reset with preserved settings and maintenance window; no reset or recurring monitor performed.",
-      "blockers": [
-        "GitHub rejected https_enforced=true because the certificate has not finished being issued; state dns_changed."
-      ],
+      "next_action": "Persistent GitHub HTTPS enforcement enabled. New certificate covers apex and www; all redirect and TLS checks passed. Keep domain/DNS stable; GitHub manages certificate renewal.",
+      "blockers": [],
       "refs": [
-        "UTP-WORK-094"
+        "UTP-WORK-094",
+        "UTP-DEC-082",
+        "UTP-REV-058"
       ],
       "evidence": [
         "records/evidence/coastal-publication-2026-09-30/pages-hosting.json",
         "research/product/coastal-publication-2026-09-30.md",
         "records/evidence/practical-followup-2026-09-30/https-diagnostics.json",
-        "records/evidence/download-followup-2026-09-30/hosting-status.json"
+        "records/evidence/download-followup-2026-09-30/hosting-status.json",
+        "records/contribution-publication.json",
+        "records/evidence/contribution-publication-2026-09-30/https-repair.json",
+        "records/evidence/contribution-publication-2026-09-30/redirect-checks.json"
       ]
     },
     {
@@ -2749,23 +2752,27 @@
       "id": "UTP-WORK-101",
       "title": "Preserve contribution draft protection until a copy is kept",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-081",
-      "next_action": "Review candidate PR before publication; verify pointer behavior separately if reproducible.",
+      "next_action": "Published under UTP-DEC-082 / UTP-REL-010. Live text download and acknowledgement verified; HTTPS repair tracked separately.",
       "blockers": [],
       "refs": [
         "UTP-DEC-081",
-        "UTP-REV-057"
+        "UTP-REV-057",
+        "UTP-DEC-082",
+        "UTP-REV-058",
+        "UTP-REL-010"
       ],
       "evidence": [
         "research/product/contribution-draft-care-2026-09-30.md",
-        "records/contribution-draft-care-review.json"
+        "records/contribution-draft-care-review.json",
+        "records/contribution-publication.json"
       ]
     }
   ],
@@ -4382,6 +4389,28 @@
         "research/product/contribution-draft-care-2026-09-30.md",
         "records/contribution-draft-care-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-082",
+      "title": "Publish PR 8 and repair GitHub Pages HTTPS enforcement",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved PR 8, fix the git hub issue permanently",
+      "scope": "Merge the approved PR 8 head, publish the coastal preview, reset custom-domain certificate provisioning and enable persistent HTTPS enforcement when GitHub permits. No new hosting service or paid commitment.",
+      "recorded_at": "2026-09-30T23:05:14.151800+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-101",
+        "UTP-WORK-095",
+        "UTP-REL-010"
+      ],
+      "evidence": [
+        "records/contribution-publication.json",
+        "records/evidence/contribution-publication-2026-09-30/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -5764,6 +5793,29 @@
         "research/product/contribution-draft-care-2026-09-30.md",
         "records/contribution-draft-care-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-058",
+      "title": "Contribution release and HTTPS repair smoke review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and performed live smoke checks.",
+        "Native leave-page dialog and clipboard delivery not verified; unit revision checks passed.",
+        "Native A4/Letter printing and local-service checks remain separate."
+      ],
+      "refs": [
+        "UTP-DEC-082",
+        "UTP-WORK-101",
+        "UTP-WORK-095"
+      ],
+      "evidence": [
+        "records/contribution-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -5933,6 +5985,23 @@
         "records/evidence/download-publication-2026-09-30/deployment.json"
       ],
       "note": "PR 7 merged at 48ba579; Pages run 36786151450 succeeded. Live adjacent feedback and actual HTML/text downloads verified. Coastal preview scope unchanged."
+    },
+    {
+      "id": "UTP-REL-010",
+      "title": "Contribution draft copy protection published",
+      "status": "published",
+      "authorization": "UTP-DEC-082",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-082",
+        "UTP-WORK-101",
+        "UTP-REV-058"
+      ],
+      "evidence": [
+        "records/contribution-publication.json",
+        "records/evidence/contribution-publication-2026-09-30/deployment.json"
+      ],
+      "note": "Approved PR 8 merged and deployed at ac58ec0. Actual draft file and acknowledgement verified. Separately approved HTTPS reset completed; enforcement and apex/www redirects verified."
     }
   ],
   "sources": [

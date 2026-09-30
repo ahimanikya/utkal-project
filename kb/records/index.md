@@ -90,3 +90,5 @@
 - [Download-feedback publication and live verification](download-publication.json)
 
 - [Contribution draft care review](contribution-draft-care-review.json)
+
+- [Contribution publication and HTTPS repair](contribution-publication.json)

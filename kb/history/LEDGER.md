@@ -724,3 +724,15 @@ The Founder approved PR #7. The live journey now gives accurate feedback beside 
 Download lessons now extend to contribution drafts. The reminder stays until the reader keeps the current version; later edits need another copy.
 
 [Contribution review](../research/product/contribution-draft-care-2026-09-30.md). Candidate not deployed.
+
+## UTP-HIS-0116 · A kept copy, and a hosting repair
+
+Approved PR #8 is live. The actual draft and kept-copy acknowledgement were verified. The separately approved domain reset restored the domain and restarted provisioning; HTTPS enforcement awaits GitHub.
+
+[Release and hosting evidence](../records/contribution-publication.json).
+
+## UTP-HIS-0117 · One secure address
+
+The certificate now covers apex and www. GitHub HTTPS enforcement is enabled, with permanent redirects verified for both names and inner-page links. The earlier provisioning blocker is resolved.
+
+[HTTPS repair evidence](../records/evidence/contribution-publication-2026-09-30/https-repair.json).

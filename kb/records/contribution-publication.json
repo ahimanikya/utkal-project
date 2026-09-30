@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-09-30T23:11:19.039787+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-082",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/8",
+  "approved_head": "69c7d6e34f950ffef0a95177f2a4631df00a428d",
+  "deployed_sha": "ac58ec0a1b907ebcd57781be8cb66550103f059b",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36788697308",
+  "destination": "https://utkalproject.org/",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "live_checks": {
+    "recorded_at": "2026-09-30T23:02:08.384876+00:00",
+    "page": "https://utkalproject.org/contribute/?page=%2Fdestinations%2Fpuri%2F&release=pr8",
+    "download_feedback": true,
+    "acknowledgement_visible": true,
+    "files": [
+      {
+        "path": "/Users/ahimanikya/Downloads/utkal-correction-draft (3).txt",
+        "bytes": 534,
+        "sha256": "10f0b8045446f6a93650c8d002a377dd6414cbe1736833cc9b0b9a0f245cff17",
+        "content_verified": true
+      }
+    ],
+    "external_submission": false,
+    "acknowledgement_verified": true,
+    "focus_after_acknowledgement": "download-correction"
+  },
+  "limitations": [
+    "Same AI assistant implemented and performed live smoke checks.",
+    "Native leave-page dialog and clipboard delivery not verified; unit revision checks passed.",
+    "Native A4/Letter printing and local-service checks remain separate."
+  ],
+  "rollback_reference": "48ba57901208efdec05bddb5bdf7225f81baa4c1",
+  "evidence": [
+    "records/evidence/contribution-publication-2026-09-30/approval.json",
+    "records/evidence/contribution-publication-2026-09-30/certificate-progress.json",
+    "records/evidence/contribution-publication-2026-09-30/deployment.json",
+    "records/evidence/contribution-publication-2026-09-30/dns-health.json",
+    "records/evidence/contribution-publication-2026-09-30/domain-reset.json",
+    "records/evidence/contribution-publication-2026-09-30/edge-checks.json",
+    "records/evidence/contribution-publication-2026-09-30/https-repair.json",
+    "records/evidence/contribution-publication-2026-09-30/live-checks.json",
+    "records/evidence/contribution-publication-2026-09-30/live-feedback.png",
+    "records/evidence/contribution-publication-2026-09-30/pages-after-reset.json",
+    "records/evidence/contribution-publication-2026-09-30/pages-before.json",
+    "records/evidence/contribution-publication-2026-09-30/pages-final.json",
+    "records/evidence/contribution-publication-2026-09-30/pages-settings.txt",
+    "records/evidence/contribution-publication-2026-09-30/redirect-checks.json"
+  ],
+  "https_repair": {
+    "status": "verified",
+    "https_enforced": true,
+    "certificate_domains": [
+      "utkalproject.org",
+      "www.utkalproject.org"
+    ],
+    "evidence": "records/evidence/contribution-publication-2026-09-30/https-repair.json"
+  }
+}
