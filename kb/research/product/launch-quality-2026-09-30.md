@@ -44,3 +44,9 @@ For each A4 and Letter case, save all pages at 100% scale, record actual margins
 315 site tests, ten coastal tests and 64 page checks passed. The new integration regression checks ensure planning citations survive both portable formats for all seven guides. Browser inspection confirmed the updated Konark paragraph, source disclosure and a readable 360px layout. Full builds retain 72 research pages; the coastal artifact remains 16 pages. Shared design-system source was not changed.
 
 No deployment occurred. Human editorial acceptance, current local-service checks, native PDFs and the earlier certificate-enforcement follow-up remain visible. The approval of this work authorises preparation, not a new publication decision.
+
+## Publication follow-up · Founder approved
+
+The Founder replied “approved” after the draft PR handoff. PR #5 merged at `27c85cd25d393f7d8c9dc3dab2ac7878aa95a9a3`; [Pages run 36781616965](https://github.com/ahimanikya/utkal-project/actions/runs/36781616965) succeeded. All seven updated planning passages were checked on the live site. Actual HTML and text book downloads contained the new planning reference and public-site entry link; the HTML used automatic paper sizing. Native PDF pagination remains unverified. Earlier candidate notices above describe the preparation stage and are preserved as history.
+
+[Publication and smoke-test evidence](../../records/launch-quality-publication.json). The deployed coastal scope and editorial-preview status are unchanged.

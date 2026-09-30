@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-09-30T21:51:56.123651+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-076",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/5",
+  "approved_head": "fabbbe86e9345d1c98287a3a28dc3362ee55dc14",
+  "deployed_sha": "27c85cd25d393f7d8c9dc3dab2ac7878aa95a9a3",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36781616965",
+  "destination": "https://utkalproject.org/",
+  "live_checks": {
+    "seven_updated_planning_passages": "pass",
+    "page_end_planning_reference": "pass, Konark disclosure opened",
+    "actual_html_and_text_downloads": "pass, source link, updated text and production entry URL present",
+    "html_paper_size": "auto; native pagination unverified"
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Native A4/Letter PDF pagination remains unverified under UTP-WORK-080. Paper-size CSS verification is not native print verification.",
+    "GitHub reports certificate state dns_changed and HTTPS enforcement disabled; HTTPS loads. UTP-WORK-095 remains open.",
+    "Preview publication is not exhaustive editorial acceptance or local-service verification; UTP-WORK-097 remains open.",
+    "Same AI assistant performed implementation and live smoke review."
+  ],
+  "rollback_reference": "dcd506a0b2c85db34428613381492ec53f67f1d1",
+  "evidence": [
+    "records/evidence/launch-quality-publication-2026-09-30/approval.json",
+    "records/evidence/launch-quality-publication-2026-09-30/deployment.json",
+    "records/evidence/launch-quality-publication-2026-09-30/live-guides.json",
+    "records/evidence/launch-quality-publication-2026-09-30/download-verification.json"
+  ]
+}

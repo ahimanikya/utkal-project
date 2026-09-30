@@ -688,3 +688,9 @@ The Founder’s “approved” opened the publication gate. The reviewed coastal
 The work record now distinguishes published functionality from open editorial care. Seven preparation passages became more concrete, and their sources travel with the reader’s book. A paper-size constraint was removed; native pagination remains a real check to complete.
 
 [Launch-quality follow-up](../research/product/launch-quality-2026-09-30.md). Local candidate; no new deployment.
+
+## UTP-HIS-0110 · The sources travel with the story
+
+The Founder approved PR #5. Seven practical passages now appear on the public site, and real book downloads retain their references. Paper choice is respected; native pagination and local-service verification remain open.
+
+[Publication evidence](../records/launch-quality-publication.json). Approved preview update published.

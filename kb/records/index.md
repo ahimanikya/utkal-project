@@ -78,3 +78,5 @@
 - [Coastal preview publication · 30 September 2026](coastal-publication-review.json)
 
 - [Launch-quality follow-up · delivery, guide evidence and print](launch-quality-review.json)
+
+- [Launch-quality publication and live verification](launch-quality-publication.json)

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T21:28:55.221479+00:00",
+  "recorded_at": "2026-09-30T21:51:56.123651+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2609,26 +2609,30 @@
       "id": "UTP-WORK-096",
       "title": "Reconcile coastal delivery and improve seven-guide planning evidence",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-075",
-      "next_action": "Review the local seven-guide planning updates and reconciliation. Native PDF requires a supported browser under UTP-WORK-080; no new deployment.",
+      "next_action": "Published under UTP-DEC-076 / UTP-REL-007. Continue UTP-WORK-080 native PDF, UTP-WORK-095 certificate enforcement and UTP-WORK-097 editorial/local-arrangement review.",
       "blockers": [],
       "refs": [
         "UTP-DEC-075",
         "UTP-REL-006",
         "UTP-WORK-080",
         "UTP-WORK-097",
-        "UTP-REV-051"
+        "UTP-REV-051",
+        "UTP-DEC-076",
+        "UTP-REL-007",
+        "UTP-REV-052"
       ],
       "evidence": [
         "research/product/launch-quality-2026-09-30.md",
-        "records/launch-quality-review.json"
+        "records/launch-quality-review.json",
+        "records/launch-quality-publication.json"
       ]
     },
     {
@@ -4142,6 +4146,27 @@
       "evidence": [
         "research/product/launch-quality-2026-09-30.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-076",
+      "title": "Approve PR 5 and publish the launch-quality follow-up",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Approve the reviewed PR 5 at fabbbe86e9345d1c98287a3a28dc3362ee55dc14 for merger and gated coastal preview publication. Retain native print, certificate and editorial/local-service limitations.",
+      "recorded_at": "2026-09-30T21:51:56.123651+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-096",
+        "UTP-REL-007"
+      ],
+      "evidence": [
+        "records/evidence/launch-quality-publication-2026-09-30/approval.json",
+        "records/launch-quality-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -5381,6 +5406,31 @@
       "evidence": [
         "records/launch-quality-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-052",
+      "title": "Launch-quality release live smoke review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native A4/Letter PDF pagination remains unverified under UTP-WORK-080. Paper-size CSS verification is not native print verification.",
+        "GitHub reports certificate state dns_changed and HTTPS enforcement disabled; HTTPS loads. UTP-WORK-095 remains open.",
+        "Preview publication is not exhaustive editorial acceptance or local-service verification; UTP-WORK-097 remains open.",
+        "Same AI assistant performed implementation and live smoke review."
+      ],
+      "refs": [
+        "UTP-WORK-096",
+        "UTP-WORK-080",
+        "UTP-WORK-095",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "records/launch-quality-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -5499,6 +5549,23 @@
         "records/evidence/coastal-publication-2026-09-30/deployment.json"
       ],
       "note": "PR 4 merged at dcd506a; manual Pages run 36776260376 succeeded. Live Odia search, saving a guide, day assignment, photo-book privacy and production links checked. Preview/noindex and Store exclusion retained. Post-release reconciliation indexes work already present at the approved deployed commit; it adds no new publication or editorial authority."
+    },
+    {
+      "id": "UTP-REL-007",
+      "title": "Source-supported planning and paper-size correction published",
+      "status": "published",
+      "authorization": "UTP-DEC-076",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-076",
+        "UTP-WORK-096",
+        "UTP-REV-052"
+      ],
+      "evidence": [
+        "records/launch-quality-publication.json",
+        "records/evidence/launch-quality-publication-2026-09-30/deployment.json"
+      ],
+      "note": "PR 5 merged at 27c85cd; Pages run 36781616965 succeeded. Seven updated passages and two actual book downloads verified. Coastal scope, preview labels and held-page exclusions retained."
     }
   ],
   "sources": [
