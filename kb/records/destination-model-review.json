@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-09-29T03:26:11.313639+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "scope": "Destination model, future tour-book PRD addendum and Chilika destination prototype; compact end attribution across five knowledge-note routes.",
+  "validation": {
+    "build": "PASS: 14 pages",
+    "site_tests": "PASS: 11 tests, including source mappings, destination IDs, end credits, local links, Store exclusion and noindex",
+    "mobile": "390px viewport: no horizontal overflow; activity anchor navigation works; credits initially closed and open with Enter",
+    "desktop": "1280px DOM geometry: no horizontal overflow; literature section is 800px wide; section navigation resolves",
+    "knowledge_bundle": "PASS: 504 concepts, 1,526 local links, 58 register records and 34 events; register dashboard current."
+  },
+  "limitations": [
+    "Native Odia and edition review of existing Gopabandhu excerpt remains pending.",
+    "Music catalogue data includes indexed extracts and a secondary film catalogue; direct Amazon retrieval failed or redirected, playback and regional availability untested.",
+    "Food brochure inspected through indexed passage; direct PDF retrieval failed. No restaurant, accommodation quality or current availability verified locally.",
+    "Desktop screenshot capture produced clipping/duplication artifacts and a subsequent capture failed; desktop assessment used DOM geometry, mobile visual inspection succeeded. No physical device or screen reader test.",
+    "No trip persistence, itinerary editor, booklet export, new AI imagery or publication implemented."
+  ],
+  "founder_review": "pending",
+  "publication": "not_deployed",
+  "benchmark_scope": "Five official tourism-site references; New Zealand planner indexed entry point only, interactive flow untested."
+}

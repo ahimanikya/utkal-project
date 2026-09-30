@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "id": "place:chilika",
+  "slug": "chilika",
+  "status": "draft_for_founder_review",
+  "checked_on": "2026-09-29",
+  "orientation": "Start with the experience you want. Mangalajodi is the birdwatching choice; Barkul connects with Kalijai; Satapada is associated with dolphin-watching trips. Rambha offers another lakeside base. These are separate starting points, so choose one focus before arranging transport.",
+  "orientation_sources": [
+    "mangalajodi-visit",
+    "satapada-visit",
+    "chilika-bases",
+    "barkul-kalijai"
+  ],
+  "season": "For migratory-bird watching at Mangalajodi, aim for November–February. Boat trips elsewhere depend on local conditions; arrange the departure point and return with the operator.",
+  "season_sources": [
+    "mangalajodi-visit"
+  ],
+  "experiences": [
+    {
+      "id": "experience:chilika-mangalajodi-birding",
+      "type": "experience",
+      "title": "Watch the wetlands at Mangalajodi",
+      "text": "Make birds the centre of the visit. A local birding guide can help you notice what would otherwise pass as a distant shape on the water. Winter is the season to plan around for migratory birds.",
+      "sources": [
+        "mangalajodi-visit"
+      ],
+      "area": "Mangalajodi",
+      "interests": [
+        "birds",
+        "nature"
+      ],
+      "image_ref": "mangalajodi-boat",
+      "detail_href": "/visit/experiences/mangalajodi-birdwatching/"
+    },
+    {
+      "id": "experience:chilika-kalijai",
+      "type": "experience",
+      "title": "Take the boat to Kalijai",
+      "text": "Combine a lagoon crossing with a visit to the island shrine. Barkul is a starting point to investigate; agree on the route before leaving the shore.",
+      "sources": [
+        "barkul-kalijai"
+      ],
+      "area": "Barkul / Kalijai",
+      "interests": [
+        "belief",
+        "boating"
+      ],
+      "image_ref": "kalijai",
+      "detail_href": "/visit/experiences/kalijai-crossing/"
+    },
+    {
+      "id": "experience:chilika-satapada",
+      "type": "experience",
+      "title": "Look for dolphins from Satapada",
+      "text": "Satapada is known for boat trips associated with Chilika’s Irrawaddy dolphins. Go for the lagoon as well as its wildlife: a sighting is never guaranteed.",
+      "sources": [
+        "satapada-visit"
+      ],
+      "area": "Satapada",
+      "interests": [
+        "wildlife",
+        "boating"
+      ],
+      "detail_href": "/visit/experiences/satapada-boating/"
+    }
+  ],
+  "foods": [
+    {
+      "id": "food:chilika-fish",
+      "type": "food",
+      "title": "Ask about the day’s fish",
+      "text": "Fish is part of Chilika’s food story. Ask what is available, how it will be cooked and what accompanies it before ordering.",
+      "sources": [
+        "satapada-visit"
+      ],
+      "diet": [
+        "fish"
+      ]
+    },
+    {
+      "id": "food:chilika-prawns-crab",
+      "type": "food",
+      "title": "Chilika prawns & crab curry",
+      "text": "Look for Chilika chingudi (prawns) or crab curry. Odisha Tourism’s regional guide singles out both. Ask how they are prepared and agree on the portion and price before ordering.",
+      "sources": [
+        "satapada-visit",
+        "south-odisha-food"
+      ],
+      "diet": [
+        "shellfish"
+      ]
+    },
+    {
+      "id": "food:chilika-curd",
+      "type": "food",
+      "title": "Chilika curd",
+      "text": "There is a dairy story here, too. Odisha Tourism describes curd made from Chilika buffalo milk and traditionally set in a small bamboo basket. Ask locally whether it is available during your visit.",
+      "sources": [
+        "south-odisha-food"
+      ],
+      "diet": [
+        "dairy"
+      ]
+    }
+  ],
+  "food_note": "Prefer a vegetarian meal? Ask your host or restaurant about options when arranging the day. We have not yet verified a vegetarian venue around the lagoon.",
+  "bases": [
+    {
+      "id": "base:chilika-mangalajodi",
+      "type": "base_area",
+      "title": "Mangalajodi",
+      "text": "Consider this base when birdwatching is the main reason for your visit. Odisha Tourism lists a nature camp here.",
+      "sources": [
+        "mangalajodi-visit",
+        "chilika-bases"
+      ],
+      "area": "Mangalajodi",
+      "detail_href": "/visit/stays/mangalajodi/"
+    },
+    {
+      "id": "base:chilika-barkul-rambha",
+      "type": "base_area",
+      "title": "Barkul or Rambha",
+      "text": "Two lakeside bases to research. Odisha Tourism lists Panthanivas accommodation at both; Barkul also appears in its Kalijai excursion listing.",
+      "sources": [
+        "chilika-bases",
+        "barkul-kalijai"
+      ],
+      "area": "Barkul / Rambha",
+      "detail_href": "/visit/stays/barkul-rambha/"
+    },
+    {
+      "id": "base:chilika-rajhans",
+      "type": "base_area",
+      "title": "Rajhans / Satapada side",
+      "text": "Investigate Rajhans Nature Camp for this side of the lagoon. Confirm the arrival point and onward boat transfer with the property before choosing it.",
+      "sources": [
+        "chilika-bases",
+        "satapada-visit"
+      ],
+      "area": "Rajhans / Satapada",
+      "detail_href": "/visit/stays/rajhans-satapada/"
+    }
+  ],
+  "stay_note": "These are areas and official accommodation leads, not Utkal-reviewed stays. Check current operation, access, rooms and rates directly before booking.",
+  "culture": [
+    {
+      "id": "culture:chilika-radhanath",
+      "type": "poem",
+      "title": "Chilika · Radhanath Ray",
+      "text": "Odisha Tourism names this poem among the literary works associated with the lagoon. A reading to seek out before or after a visit.",
+      "sources": [
+        "tourism-literature"
+      ],
+      "credit": "Radhanath Ray",
+      "url": "https://odishatourism.gov.in/content/tourism/en/experience/activities/boat-riding/chilika-nature-camps.html",
+      "link_label": "About the literary connection"
+    },
+    {
+      "id": "culture:chilika-urmi",
+      "type": "song",
+      "title": "Urmi Adhira Rupasi Chilika",
+      "text": "A song from Chilika Teerey, sung by Pranab Patnaik. Carry the name of the lagoon into your listening, too.",
+      "sources": [
+        "chilika-soundtrack",
+        "chilika-film-music"
+      ],
+      "credit": "Pranab Patnaik · music: Shantanu Mohapatra · lyrics: Shibabrata Das",
+      "url": "https://music.amazon.com/albums/B07NCK6DCT",
+      "link_label": "Find the soundtrack on Amazon Music"
+    },
+    {
+      "id": "culture:chilika-jaa",
+      "type": "song",
+      "title": "Jaa Jaarey Bhaasi Jaa",
+      "text": "Another listening choice from Chilika Teerey, sung by Nirmala Mishra. The connection is through the film and its soundtrack.",
+      "sources": [
+        "chilika-soundtrack",
+        "chilika-film-music"
+      ],
+      "credit": "Nirmala Mishra · music: Shantanu Mohapatra · lyrics: Shibabrata Das",
+      "url": "https://music.amazon.in/tracks/B075653SCH",
+      "link_label": "Find the song on Amazon Music"
+    }
+  ],
+  "planning": {
+    "heading": "Give one shore a day",
+    "text": "For a first visit, our suggestion is to choose a focus—birds at Mangalajodi, Kalijai from Barkul, or the Satapada side—and leave room for a meal and the return journey. Add another base only after checking the transfer. This is an editorial starting point, not a timed or bookable itinerary.",
+    "kind": "editorial_suggestion"
+  },
+  "sources": [
+    {
+      "id": "mangalajodi-visit",
+      "title": "Mangalajodi — Incredible India",
+      "resource": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
+      "inspection": "Official destination text inspected for birdwatching, community conservation and November–February migratory-bird season; no field visit."
+    },
+    {
+      "id": "satapada-visit",
+      "title": "Chilika (Satpada) — Puri district",
+      "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada",
+      "inspection": "Official page inspected for Satapada boating, Irrawaddy dolphins and fish, prawns and crabs. Rankings, population totals and transport distances were not reused."
+    },
+    {
+      "id": "chilika-bases",
+      "title": "Chilika Nature Camps — Odisha Tourism, destination guide",
+      "resource": "https://odishatourism.gov.in/content/tourism/en/experience/activities/bird-watching/chilika-nature-camps.html",
+      "inspection": "Earlier destination URL returned a 404 on recheck. Equivalent official bird-watching guide indexed text confirms Panthanivas and Rajhans/Berhampura camp leads; current operation, rooms, rates and accessibility remain unverified."
+    },
+    {
+      "id": "barkul-kalijai",
+      "title": "Chilika Barkul Kalijai Narayani and back — Odisha Tourism",
+      "resource": "https://apps.odishatourism.gov.in/tour/chilika-barkul-kalijai-narayani-and-back",
+      "inspection": "Indexed itinerary inspected for Barkul/Kalijai boat excursion. Package hours, inclusions and prices are not treated as verified current services."
+    },
+    {
+      "id": "chilika-soundtrack",
+      "title": "Chilika Teerey soundtrack — Amazon Music / Saregama catalogue",
+      "resource": "https://music.amazon.in/tracks/B075653SCH",
+      "inspection": "Indexed catalogue lists Jaa Jaarey Bhaasi Jaa and Urmi Adhira Rupasi Chilika, and Saregama rights credit. Direct retrieval failed; playback, regional availability and any account requirement were not tested."
+    },
+    {
+      "id": "chilika-film-music",
+      "title": "Chilika Teere — Odia Movie Database",
+      "resource": "https://odiamoviedb.com/movie/chilika-teere/",
+      "inspection": "Music, lyric and song-list sections read for singer and film credits. Secondary catalogue; original recording sleeve and recordings were not inspected."
+    },
+    {
+      "id": "south-odisha-food",
+      "title": "South Odisha brochure — Odisha Tourism, Chilka Lake section",
+      "resource": "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf",
+      "inspection": "Indexed Chilka Lake passage inspected for Chilika chingudi, crab curry and buffalo-milk curd traditionally prepared in a cup-shaped bamboo basket. Direct PDF retrieval failed. Availability, named outlets and preparation were not checked locally."
+    }
+  ],
+  "gaps": [
+    "Field-checked transport and travel times",
+    "Verified restaurants and vegetarian options",
+    "Accessible boarding and accommodation details",
+    "Reviewed individual stays",
+    "Native Odia review of quoted verse",
+    "Recording-level music credit verification and playback check"
+  ],
+  "headings": {
+    "orientation": "Which Chilika is yours?",
+    "experiences": "Three ways into Chilika",
+    "foods": "A taste of the lagoon",
+    "bases": "Where to stay around Chilika"
+  },
+  "highlights": [
+    {
+      "label": "Come for",
+      "text": "Birds, boats and living stories",
+      "href": "#things-to-do"
+    },
+    {
+      "label": "Birding season",
+      "text": "November–February at Mangalajodi",
+      "href": "#plan-visit"
+    },
+    {
+      "label": "Choose first",
+      "text": "One shore for your first day",
+      "href": "#stay"
+    }
+  ],
+  "community": {
+    "heading": "Meet the people who know the water",
+    "text": "Incredible India connects Mangalajodi’s birding story with community conservation. Our suggestion: ask a local guide what has changed in the wetland and what visitors can do to help. Agree on the service and price, and ask before photographing people at work. Individual hosts remain to be reviewed.",
+    "kind": "sourced_context_with_editorial_suggestions",
+    "sources": [
+      "mangalajodi-visit"
+    ]
+  },
+  "expectations": {
+    "heading": "Come with curiosity, leave room for the lagoon",
+    "strength": "Choose a shore around your interests: birding, a shrine visit or time on the water. The different gateways reward different kinds of day.",
+    "constraint": "A wildlife sighting is never guaranteed. Departure points are separate; confirm boat operation, boarding access and the return plan before setting out.",
+    "do": "Ask the operator about safety equipment and current conditions. Give wildlife space and take your litter back with you.",
+    "avoid": "Do not ask an operator to chase wildlife for a photograph. Avoid packing several distant gateways into a single unverified schedule.",
+    "kind": "editorial_guidance_not_a_complete_boating_rulebook"
+  },
+  "related": [
+    {
+      "title": "From water to stone: Konark",
+      "text": "Follow another side of Odisha through sculpture, a builder’s legend and classical dance. Research it as a separate stop before joining the journeys.",
+      "href": "/knowledge/konark/",
+      "kind": "editorial_reading_suggestion"
+    }
+  ],
+  "visuals": {
+    "mangalajodi": {
+      "id": "mangalajodi",
+      "src": "/images/destinations/mangalajodi.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "A dense flock of birds in flight above the Mangalajodi wetland.",
+      "caption": "Mangalajodi · a sky full of wings",
+      "creator": "Mamta Parmar",
+      "title": "Birds of magicial Mangalajodi.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Birds_of_magicial_Mangalajodi.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Full-frame resize and WebP compression for delivery; original retained. No generated or removed elements. Displayed adaptations retain the source licence.",
+      "date": "2016-12-28",
+      "bytes": 386166,
+      "sha256": "a07dc76946d677bbdef4982bc1e4270c54e570b0685498acaab40d235eb17bfd",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/4/43/Birds_of_magicial_Mangalajodi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "inspection": "Source description and license read; downloaded photograph visually inspected.",
+      "original_src": "/images/destinations/mangalajodi.jpg",
+      "original_sha256": "67f062b657960c3fc32e3dfe739c21720173299891284c6b8ac9d597efe0874f"
+    },
+    "kalijai": {
+      "id": "kalijai",
+      "src": "/images/destinations/kalijai.jpg",
+      "width": 1280,
+      "height": 960,
+      "alt": "The blue Kalijai temple beside a palm tree, with its courtyard in the foreground.",
+      "caption": "Kalijai · an island of living belief",
+      "creator": "Aruni Nayak",
+      "title": "Kalijai temple Chilika.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kalijai_temple_Chilika.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Wikimedia Commons resized rendition; no creative edits. Display framing may crop the edges.",
+      "date": "2011-10-03",
+      "bytes": 288813,
+      "sha256": "db5b8c2c721ffeed52fdaf53eb7c54814727b845dc2be97c758f42a68a9ee031",
+      "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kalijai_temple_Chilika.jpg/1280px-Kalijai_temple_Chilika.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+      "inspection": "Source description and license read; downloaded photograph visually inspected."
+    },
+    "crab": {
+      "id": "crab",
+      "src": "/images/destinations/crab.jpg",
+      "width": 840,
+      "height": 630,
+      "alt": "Cooked crab in a richly coloured sauce, served on a green leaf.",
+      "caption": "Crab on the table · a photographed serving, not a reviewed venue",
+      "creator": "Kurov 47",
+      "title": "Crab dish chilika dhaba.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Crab_dish_chilika_dhaba.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Original file; no creative edits. Display framing may crop the edges.",
+      "date": "2016-09-04",
+      "bytes": 240550,
+      "sha256": "caeb758841de2eae37aa85b4507d5bf19a2ef88767779190a96510f2a6122dac",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/7/75/Crab_dish_chilika_dhaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "inspection": "Source description and license read; downloaded photograph visually inspected."
+    },
+    "mangalajodi-boat": {
+      "src": "/images/destinations/mangalajodi-boat.jpg",
+      "width": 1280,
+      "height": 854,
+      "title": "Mangalajodi Ecotourism",
+      "caption": "A boat on the Mangalajodi wetland · Neerakiran, 2017.",
+      "alt": "A narrow covered boat with people aboard on a still channel between green wetland vegetation.",
+      "creator": "Neerakiran",
+      "source": "https://commons.wikimedia.org/wiki/File:Mangalajodi_Ecotourism.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Wikimedia Commons 1280-pixel derivative; no additional image edits. Responsive display framing may crop the view.",
+      "kind": "photograph",
+      "sha256": "fcd4f3fafa425d6d6db224e485c9024f196129191a92fa4612d0b8698b861f74",
+      "checked_on": "2026-09-30",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mangalajodi_Ecotourism.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Mangalajodi_Ecotourism.jpg/1280px-Mangalajodi_Ecotourism.jpg",
+      "inspection": "File page credits Neerakiran, Own work, dated 12 June 2017, under CC BY-SA 4.0. Image visually inspected; boat and wetland vegetation, not a verified service, safety standard or current availability.",
+      "id": "mangalajodi-boat",
+      "date": "2017-06-12"
+    }
+  },
+  "food_image_ref": "crab",
+  "places": [
+    {
+      "title": "Mangalajodi",
+      "href": "/visit/places/mangalajodi/",
+      "image_ref": "mangalajodi",
+      "text": "Begin with the birds. Stay for the people who know their names."
+    },
+    {
+      "title": "Kalijai",
+      "href": "/visit/places/kalijai/",
+      "image_ref": "kalijai",
+      "text": "A crossing on the lagoon, a shrine on the island, a name held in memory."
+    },
+    {
+      "title": "Satapada",
+      "href": "/visit/places/satapada/",
+      "image_ref": "hero",
+      "text": "Choose a day on the water, with room for the unexpected."
+    }
+  ]
+}

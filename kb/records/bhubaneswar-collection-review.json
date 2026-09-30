@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-09-30T12:08:23.014179+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-063",
+  "scope": "Mukteswar, Bhubaneswar food and stay-area guides, connected city and six-idea starter.",
+  "checks": {
+    "build_pages": 70,
+    "site_tests": 74,
+    "design_system_tests": 6,
+    "responsive_checks": 20,
+    "widths": [
+      360,
+      768,
+      1440,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "browser_flow": "Followed Mukteswar to food to stay guide. All three dish save controls enabled. Food + Bhubaneswar discovery filter returns the new guide. Created separate six-idea starter, renamed it, assigned Mukteswar to day 1 and added a note; values survived reload. Returned to older three-item journey: dates, note and day assignments preserved.",
+    "visual": "Inspected desktop Mukteswar and food covers, stay comparison, and three 390px iframe openings. Full torana frame retained; contextual food and stay captions distinguish image location from a service promise.",
+    "sources": "Odisha Tourism Mukteswar, City life and Taste of Odisha accounts inspected; existing chhena poda source and rights metadata reused.",
+    "native_pdf": "Separate open WORK-080; not rerun."
+  },
+  "limitations": [
+    "Founder editorial acceptance and publication remain separate. This is a local candidate; no commit, push or deployment.",
+    "No property, venue access, journey time, current menu or facility has been field-checked. The stay comparisons are editorial research prompts, not property recommendations.",
+    "Browser dimensions and targeted phone/desktop visual checks are not physical-device or comprehensive accessibility certification.",
+    "Native PDF pagination remains the separate open WORK-080 check. No new PDF verification or download claim is made in this batch."
+  ],
+  "evidence": [
+    "records/evidence/bhubaneswar-collection-2026-09-30/responsive.json",
+    "records/evidence/bhubaneswar-collection-2026-09-30/journey-check.json",
+    "records/evidence/bhubaneswar-collection-2026-09-30/phone-openings.png",
+    "records/evidence/bhubaneswar-collection-2026-09-30/food-desktop.png"
+  ]
+}

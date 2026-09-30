@@ -1,0 +1,35 @@
+{
+  "type": "website_review",
+  "title": "Connected cultural trails and My Odisha Journey prototype",
+  "status": "local_candidate_not_deployed",
+  "checked_at": "2026-09-29T22:55:54.550462+00:00",
+  "pages": [
+    "/stories/culture-trails/",
+    "/journey/"
+  ],
+  "checks": [
+    "Static build: 37 pages. Site tests: 24 passed.",
+    "Unit tests: saved-state reload, duplicate preservation, reorder within a day, day grouping, invalid versions, malformed and oversized imports, duplicate IDs, unavailable/corrupt storage, quota failure, 100-item limit and maximum Unicode-note round-trip.",
+    "Browser: save from destination, title and notes, day assignment, keyboard reorder, reload persistence, search, missing-item removal and empty state.",
+    "Browser file chooser: imported four synthetic ideas only after replacement confirmation. Unknown ID retained. HTML-looking notes rendered as literal text; no markup created in print output.",
+    "Two browser tabs: external save blocks stale editing and preserves export, reload obtains current saved choices. Test records removed through UI afterwards.",
+    "Print-media CSS: editor hidden, printable title, days, summaries, notes and source appendix present. Actual PDF command returned Printing is not available.",
+    "Desktop screenshot inspected; compact layout stacks and has no horizontal overflow."
+  ],
+  "limitations": [
+    "Native browser PDF output is unavailable in the embedded browser. Print-media visibility and content were checked, but A4 pagination, long-plan PDF output and physical printing remain unverified.",
+    "Compact viewport requested 390px but browser reported 582 CSS px. No horizontal overflow at 582 or 1910 CSS px; exact 390px, physical devices and screen readers remain unverified.",
+    "One journey per browser; multiple trips, calendar dates, cross-device sync, routing, booking and offline website caching are deferred. Export/import supports moving one plan between browsers.",
+    "Saved IDs use the current curated catalogue rather than historical content snapshots. Unknown IDs and notes are retained.",
+    "New Mayurbhanj connection relies on indexed Ministry of Culture material after direct retrieval returned 502. No local fieldwork or visitor access verification.",
+    "Existing Chilika poem transcription and native-language review remain pending. No new lyrics, poems or recordings reproduced.",
+    "Full histories, additional biographies and public release remain subject to Founder review."
+  ],
+  "human_owner": "Ahimanikya Satapathy",
+  "independent_review": false,
+  "test_data": "Synthetic records only; browser test plan cleared after verification. Screenshot preserves the review example.",
+  "evidence": [
+    "records/evidence/journey-preview.png"
+  ],
+  "publication": "No push, merge or public deployment performed."
+}

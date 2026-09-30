@@ -1,4 +1,13 @@
 ---
 import html from "../../../gallery/fresco.generated.html?raw";
+import systemCSS from '../../../../../design-system/styles/utkal.css?inline';
+import galleryCSS from '../../../styles/fresco-system.css?inline';
+import designSystem from '../../../../../design-system/package.json';
+// Keep the archive's viewer and catalogue; apply shared tokens and local fonts
+// through Vite so font URLs remain bundled and source photographs stay untouched.
+const integrated=html.replace('</head>',`<meta name="utkal-design-system" content="${designSystem.version}"><style>${systemCSS}\n${galleryCSS}</style></head>`).replace('<body>','<body class="utk">');
+const bodyEnd=integrated.lastIndexOf('</body>');
 ---
-<Fragment set:html={html} />
+<Fragment set:html={integrated.slice(0,bodyEnd)} />
+<script>import "../../../scripts/journey";</script>
+<Fragment set:html={integrated.slice(bodyEnd)} />

@@ -1,0 +1,8 @@
+---
+import connections from '../../../../kb/research/related-discoveries.json';
+import {discoveryEntries} from '../data/discovery';
+const {entry}=Astro.props;
+const linked=connections.links.filter(link=>link.from==='/'+entry.path+'/').map(link=>({href:link.to,title:discoveryEntries.find(item=>item.href===link.to)?.label||link.to}));
+const links=[...new Map([...entry.related,...linked].map(link=>[link.href,link])).values()];
+---
+<section class="culture-onward"><div><p class="eyebrow">Follow your curiosity</p><h2>One voice.<br/><em>Another doorway.</em></h2></div><nav aria-label="Continue reading">{links.map(link=><a href={link.href}>{link.title} ↗</a>)}{entry.path.includes('/')&&<a href="/journey/">Open my reading journey →</a>}</nav></section>

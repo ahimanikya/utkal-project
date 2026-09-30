@@ -1,23 +1,9 @@
 ---
-import entry from '../../data/entry.json';
-import site from '../../data/site.json';
+import entry from '../../../../../kb/research/people/samanta-chandrasekhar.json';
+import Shell from '../../layouts/Shell.astro';
 ---
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="noindex, nofollow" />
-  <meta name="description" content={entry.summary} />
-  <title>{entry.title} · {site.name}</title>
-  <link rel="stylesheet" href="/assets/brand-tokens.css" />
-</head>
-<body>
-  <a class="skip" href="#article">Skip to article</a>
-  <header class="masthead">
-    <a class="wordmark" href="/" aria-label={site.name + ' home'}>{site.name}<small>{site.tagline}</small></a>
-    <a class="header-link" href="#sources">Explore the sources <span aria-hidden="true">↗</span></a>
-  </header>
-  <main id="article" tabindex="-1">
+<Shell title={entry.title} description={entry.summary} wide>
+  <div class="wrap samanta-entry" id="article" tabindex="-1">
     <div class="draft"><span class="dot" aria-hidden="true"></span> Editorial preview <span class="draft-detail">· Draft awaiting Founder review</span></div>
     <section class="hero" aria-labelledby="entry-title">
       <div>
@@ -60,17 +46,35 @@ import site from '../../data/site.json';
           <p>Prepared for <strong>{entry.credit.initiative}</strong>. Founder & Editor-in-Chief: <strong>{entry.credit.founder}</strong>.</p>
           <p class="review-status">Editorial review: pending</p>
           <details><summary>Research & design notes</summary><p>Prepared with AI-assisted research and design tools. Source authors retain credit for their work; the source notes describe what was reviewed and what remains uncertain.</p><p>The sky ornament is decorative artwork, not a reconstruction of a historical instrument. Editorial review is pending; no scholarly endorsement or fieldwork is claimed.</p></details>
-          <p class="contribution">Contribution channels are being prepared. This preview does not accept submissions yet.</p>
+          <p class="contribution">Help improve this entry through <a href="/contribute/?page=%2Fpeople%2Fsamanta-chandrasekhar%2F">our contribution page</a>. Public submissions are reviewed before encyclopedia publication.</p>
         </section>
       </article>
     </div>
-  </main>
-  <footer><span class="wordmark">{site.name}</span><p>{site.tagline}</p><small>{entry.id} · Editorial prototype · No public reuse licence selected</small></footer>
-</body>
-</html>
+  </div>
+</Shell>
 <style>
-  :global(*){box-sizing:border-box} :global(html){scroll-behavior:smooth;scroll-padding-top:24px} :global(body){margin:0;background:var(--utp-limewash);color:var(--utp-earth-ink);font:17px/1.7 system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif} :global(a){color:var(--utp-nila-sagara);text-underline-offset:4px} :global(a:hover){color:var(--utp-mankada-pathara)} :global(:focus-visible){outline:3px solid var(--utp-mankada-pathara);outline-offset:5px} :global(h1),:global(h2){color:var(--utp-nila-sagara);font-family:Georgia,'Times New Roman',serif;font-weight:400;line-height:1.12} :global(h2){font-size:34px;margin:0 0 24px} :global(p){margin:0 0 22px} .skip{position:absolute;top:-80px;left:16px;background:#fff;padding:8px 16px;z-index:10}.skip:focus{top:8px}.masthead{max-width:1260px;margin:auto;padding:30px 52px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #302e2826;gap:20px}.wordmark{font:32px/1.2 Georgia,serif;color:var(--utp-nila-sagara);text-decoration:none;white-space:nowrap}.wordmark span{color:var(--utp-sukha-ghasi-straw)}.wordmark small{display:block;font:14px/1.5 system-ui,sans-serif;letter-spacing:.01em;text-transform:none;color:#57504a;margin-top:10px;white-space:normal}.header-link{font-size:13px}main{max-width:1260px;margin:auto;padding:0 52px}.draft{font-size:12px;letter-spacing:.025em;padding:22px 0;color:#60564d;display:flex;gap:8px;align-items:center}.dot{width:7px;height:7px;background:var(--utp-mankada-pathara);border-radius:50%;flex-shrink:0}.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center;padding:38px 0 72px;border-bottom:1px solid #302e2826}.eyebrow{font:11px/1.5 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;font-weight:650;color:var(--utp-mankada-pathara);margin-bottom:22px}h1{font-size:clamp(46px,5.6vw,76px);letter-spacing:-.04em;margin:0 0 20px}.alternate{font:italic 20px/1.5 Georgia,serif;color:#66594c}.standfirst{font:23px/1.55 Georgia,serif;max-width:620px;margin-top:30px}.place{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--utp-sukha-ghasi-olive);margin-top:30px;margin-bottom:0}.sky{background:var(--utp-nila-sagara);color:var(--utp-limewash);aspect-ratio:4/5;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:180px 180px 4px 4px;padding:18px}.sky svg{width:100%;stroke:#e6d6be;stroke-opacity:.45;stroke-width:1}.sky .star{fill:var(--utp-sukha-ghasi-straw);stroke:none}.sky .bright{stroke:var(--utp-sukha-ghasi-straw);stroke-opacity:1}.sky p{font:italic 17px Georgia,serif;margin:0 0 12px}.sky small{font-size:9px;letter-spacing:.15em;text-transform:uppercase;opacity:.7}.reading-layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:85px;padding-top:64px}.contents nav{display:flex;flex-direction:column;gap:16px}.contents nav a{font-size:13px;text-decoration:none;display:flex;gap:14px;line-height:1.5}.contents nav a span{font-size:10px;color:var(--utp-mankada-pathara);padding-top:3px}.context{border-top:1px solid #302e2826;margin-top:35px;padding-top:25px}.context p{font:italic 17px/1.6 Georgia,serif;color:#60564d;margin-top:12px}.article-section{margin-bottom:56px;max-width:740px}.article-section p{font-size:17px;line-height:1.85}.citation{font:12px system-ui,sans-serif;text-decoration:none;font-weight:600;white-space:nowrap;padding:3px}.uncertainty{border-left:3px solid var(--utp-sukha-ghasi-straw);padding:4px 0 1px 26px}.uncertainty h2{font-size:30px}.section-intro{color:#60564d}.sources{border-top:1px solid #302e2826;padding-top:40px}.sources ol{padding-left:25px}.sources li{padding:0 0 25px 10px;scroll-margin-top:20px}.sources li::marker{font-size:12px;color:var(--utp-mankada-pathara)}.sources li>a{font:20px/1.4 Georgia,serif}.sources li p{font-size:13px;line-height:1.7;margin:12px 0}.sources li p span{color:#60564d}details{font-size:13px}summary{cursor:pointer;color:var(--utp-nila-sagara);text-decoration:underline;text-underline-offset:4px;padding:4px 0}details[open]{padding-bottom:8px}details p{margin:15px 0!important;font-size:14px!important}.credits{padding:32px;background:#ebe0d0;border-radius:4px}.credits h2{font-size:30px}.credits p{font-size:15px}.credits ul{padding-left:20px}.credits li{margin-bottom:7px}.review-status{font-weight:600;color:var(--utp-mankada-pathara)}.contribution{border-top:1px solid #302e2826;padding-top:20px;margin-top:24px!important;color:#60564d;font-size:13px!important}footer{max-width:1260px;margin:25px auto 0;padding:42px 52px;border-top:1px solid #302e2826}footer .wordmark{font-size:25px}footer p{font:italic 18px Georgia,serif;margin:20px 0}footer small{font-size:10px;letter-spacing:.05em;color:#60564d}@media(max-width:900px){.masthead,main,footer{padding-left:28px;padding-right:28px}.hero{gap:24px}.reading-layout{grid-template-columns:180px minmax(0,1fr);gap:32px}.sky p{font-size:13px}.standfirst{font-size:21px}}@media(max-width:650px){.masthead{padding-top:24px;padding-bottom:24px}.wordmark{font-size:26px}.wordmark small{font-size:12px;letter-spacing:0}.header-link{display:none}.draft{font-size:10px;flex-wrap:wrap;gap:5px}.hero{grid-template-columns:1fr;padding:24px 0 40px;gap:32px}.hero h1{font-size:47px}.sky{aspect-ratio:1.6;border-radius:120px 120px 4px 4px;overflow:hidden;position:relative;padding:18px}.sky svg{position:absolute;width:240px;right:-40px;top:-25px;opacity:.55}.sky p,.sky small{align-self:flex-start;position:relative}.sky p{font-size:17px}.standfirst{font-size:22px}.reading-layout{grid-template-columns:1fr;gap:32px;padding-top:32px}.contents nav{display:grid;grid-template-columns:1fr 1fr;gap:12px}.contents nav a{font-size:12px}.context{display:none}.contents{padding-bottom:28px;border-bottom:1px solid #302e2826}.contents .eyebrow{margin-bottom:16px}h2{font-size:30px}.article-section p{font-size:16px}.article-section{margin-bottom:40px}.uncertainty{padding-left:18px}.credits{padding:24px}.credits p{font-size:14px}footer{padding-top:32px;padding-bottom:32px}}@media(prefers-reduced-motion:reduce){:global(html){scroll-behavior:auto}}
-
-main:focus{outline:none}.hero>div{min-width:0}.contents nav a,.header-link,summary{min-height:44px;align-items:center}.contents nav a{font-size:14px}summary{padding-block:10px}
-@media(max-width:650px){.hero h1{font-size:clamp(36px,11vw,47px);overflow-wrap:break-word}.sky{min-width:0}.header-link{display:inline-flex}.masthead{flex-wrap:wrap}.contents nav{grid-template-columns:1fr}}
+.samanta-entry{padding-bottom:3rem}
+.draft{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;padding-block:1.5rem;color:var(--muted);font-size:.85rem}
+.dot{width:.45rem;height:.45rem;background:var(--earth);border-radius:50%;flex:none}
+.hero{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:3rem;padding:2rem 0 4rem;align-items:center;border-bottom:1px solid var(--line)}
+.hero>div{min-width:0}.hero h1{margin-bottom:1.5rem;max-width:100%}
+.alternate{font:italic 1.25rem/1.6 var(--uds-type-reading);color:var(--muted)}
+.standfirst{font:1.4rem/1.7 var(--uds-type-reading);max-width:48ch;margin-top:1.75rem}
+.place{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--olive);margin-top:2rem}
+.sky{background:var(--sea);color:var(--light);aspect-ratio:4/5;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:11rem 11rem .25rem .25rem;padding:1rem;width:100%;max-width:34rem;justify-self:end}
+.sky svg{width:100%;stroke:var(--light);stroke-opacity:.45;stroke-width:1}
+.sky .star{fill:var(--straw);stroke:none}.sky .bright{stroke:var(--straw);stroke-opacity:1}
+.sky p{font:italic 1.05rem/1.6 var(--uds-type-display);margin-bottom:.75rem}
+.sky small{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase}
+.reading-layout{display:grid;grid-template-columns:15rem minmax(0,52rem);justify-content:space-between;gap:clamp(2rem,6vw,6rem);padding-top:3.5rem}
+.contents nav{display:grid;gap:.5rem}.contents nav a{display:flex;gap:.9rem;min-height:var(--uds-interaction-target);align-items:center;font-size:.95rem;text-decoration:none}
+.contents nav a span{color:var(--earth);font-size:.8rem}.context{border-top:1px solid var(--line);margin-top:2rem;padding-top:1.5rem}.context p{font:italic 1.05rem/1.7 var(--uds-type-reading)}
+.article-section{margin-bottom:3.5rem}.article-section h2{margin-bottom:1.5rem}.article-section p{font:1.125rem/1.85 var(--uds-type-reading);margin-bottom:1.4rem}
+.citation{display:inline-flex;min-height:2.75rem;min-width:2rem;align-items:center;justify-content:center;font:.85rem var(--uds-type-ui);color:var(--sea)}
+.uncertainty{border-left:3px solid var(--straw);padding-left:1.5rem}
+.sources{border-top:1px solid var(--line);padding-top:2.5rem}.sources ol{padding-left:1.5rem}.sources li{padding:0 0 1.5rem .5rem;overflow-wrap:anywhere;scroll-margin-top:1.5rem}.sources li>a{font:1.25rem/1.5 var(--uds-type-display)}.sources li p{font-size:.95rem;margin:.75rem 0}
+summary{cursor:pointer;color:var(--sea);min-height:var(--uds-interaction-target);padding-block:.75rem}details p{margin-block:1rem;font-size:1rem}
+.credits{padding:2rem;background:var(--paper);border-radius:var(--uds-interaction-radius)}.credits p{font-size:1rem}.review-status{color:var(--earth)}.contribution{border-top:1px solid var(--line);padding-top:1.25rem}
+@media(max-width:850px){.reading-layout{grid-template-columns:1fr}.contents nav{grid-template-columns:1fr 1fr;gap:.5rem 1rem}.context{display:none}.hero{gap:1.5rem}}
+@media(max-width:650px){.hero{grid-template-columns:1fr;padding:1.5rem 0 2.5rem}.sky{max-width:100%;aspect-ratio:1.6;position:relative;overflow:hidden;padding:1.5rem}.sky svg{position:absolute;width:15rem;right:-2.5rem;top:-1.5rem;opacity:.55}.sky p,.sky small{position:relative;align-self:start}.sky p{margin-top:3rem}.contents nav{grid-template-columns:1fr}.reading-layout{padding-top:2rem}.credits{padding:1.5rem}}
 </style>

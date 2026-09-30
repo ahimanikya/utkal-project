@@ -1,0 +1,3161 @@
+{
+  "head": "ad0b3a6d4f93f369e6add3ee015817df7f089bff",
+  "note": "Working-tree files before PR record preparation; all matched the existing Utkal work and references. Existing Store source remains unchanged.",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 27,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/knowledge.yml",
+      "bytes": 1770,
+      "sha256": "477e8fe31b7c2826ed670abfedadfc3a0d4cd503bed9f9adaf2979d92c268a34"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/photo.yml",
+      "bytes": 1478,
+      "sha256": "d3db5241e2f46b8306f01a31dac41b7adf9d3baf2aa986ecf464f40a64c93041"
+    },
+    {
+      "path": ".github/workflows/publish-site.yml",
+      "bytes": 1458,
+      "sha256": "da25fe5936b0d5d4064a3c89d01b16c1a2c8c2a7dff6722592986c3cbe1ee1b3"
+    },
+    {
+      "path": ".github/workflows/validate-site.yml",
+      "bytes": 1696,
+      "sha256": "340701819698dc7fd7e136a58485a69e1227defc74f3621a4b85c27e13672fd0"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 413,
+      "sha256": "1e03bb19847a21940e9b1f8ae96845d193949dfe377748b739d5d4905994dd89"
+    },
+    {
+      "path": "kb/catalog.json",
+      "bytes": 101576,
+      "sha256": "50ddf9cdbef33b701c1493df97f54584339fb9ffd8b2f4070f7f637e12d6cc3e"
+    },
+    {
+      "path": "kb/collections/brand-social/colours-of-home-bilingual-v1.png",
+      "bytes": 2635161,
+      "sha256": "c4347d6c5c31e2bfe1102538065d7658f9720331849ed527ae2e9aba50b22003"
+    },
+    {
+      "path": "kb/collections/brand-social/colours-of-home-bilingual-v2.png",
+      "bytes": 2502084,
+      "sha256": "6bf45fb40bc8f4652759547b6403707332329712fa63267a168b50a63c5326d6"
+    },
+    {
+      "path": "kb/collections/brand-social/colours-of-home-prompt.txt",
+      "bytes": 1692,
+      "sha256": "aceb4a985b820188b46ee008189a1da9436c77670b6b3ee517b1a158b4606f16"
+    },
+    {
+      "path": "kb/collections/brand-social/colours-of-home-v2-prompt.txt",
+      "bytes": 2196,
+      "sha256": "c7f5618e5c3c20ec9b86eb76914810a099310506bff19e3fb0a4cc702c49272b"
+    },
+    {
+      "path": "kb/collections/brand-social/index.md",
+      "bytes": 1440,
+      "sha256": "3c0f2dfa41d4f7b33d576eb293d943d86f9b84fcd8ed9483ad0f20691cd016a7"
+    },
+    {
+      "path": "kb/collections/chilika-film/chilika-evening-review-v1.mp4",
+      "bytes": 9284492,
+      "sha256": "bf6e489e03d72bf1c368308f41cc367dcec0ccaf156ca9cbe5d71e083b7bded4"
+    },
+    {
+      "path": "kb/collections/chilika-film/chilika-water-journey-review-v2.mp4",
+      "bytes": 24709780,
+      "sha256": "41904cab1d4e162e8d0d5babc7af2c1946d81935f715f09b36e0d65278e9325d"
+    },
+    {
+      "path": "kb/collections/chilika-film/description-v2.vtt",
+      "bytes": 545,
+      "sha256": "35b51ff2bee0b68e0617667a380f95a2c7731aa0e29a57fe6be44789ba089efb"
+    },
+    {
+      "path": "kb/collections/chilika-film/index.md",
+      "bytes": 3982,
+      "sha256": "d986fe4734f05efabeba7490b536aa522b90aa7794c403ff8fa89d032d8038e3"
+    },
+    {
+      "path": "kb/collections/chilika-film/poster-v2.jpg",
+      "bytes": 108713,
+      "sha256": "a84c006f0f342190b49e53225f688c2568b67528847d3919793dbe154d3d6f18"
+    },
+    {
+      "path": "kb/collections/chilika-film/poster.jpg",
+      "bytes": 75673,
+      "sha256": "fd85df279e207e864cf940f1f59980d3d081c689e0cd5c619d20549930c1df89"
+    },
+    {
+      "path": "kb/collections/chilika-film/provenance-v2.json",
+      "bytes": 3092,
+      "sha256": "1087ef60b9276f5d2fa4e7e327225cb33e42f2704901f1872279bb4a076ec5c9"
+    },
+    {
+      "path": "kb/collections/chilika-film/provenance.json",
+      "bytes": 1248,
+      "sha256": "8289d12ffe6122bfcd2bbc09fc7e41fae33e70453134263f12bfe60555136ffe"
+    },
+    {
+      "path": "kb/collections/design-system/index.md",
+      "bytes": 824,
+      "sha256": "16ac2ded82855fe4f5dcf121ec03ea70668e969f6992612943a2df34428329c0"
+    },
+    {
+      "path": "kb/collections/design-system/utkal-design-system-0.1.0-rc.1.tgz",
+      "bytes": 1675391,
+      "sha256": "bb4503e848954ccfc969b05ae00304a64891982df1b7907b565ad2701a1a6ab3"
+    },
+    {
+      "path": "kb/collections/design-system/utkal-design-system-0.1.0-rc.2.tgz",
+      "bytes": 1676115,
+      "sha256": "2972d7990ca4acd0737efa46241e712295c897e4f8a2f8bbdf34e84f39321be6"
+    },
+    {
+      "path": "kb/collections/index.md",
+      "bytes": 335,
+      "sha256": "4ca1dbdb9b0a00b9b416e03f870eb21fbdb01758b0813b96a6cd2d5556fe4ee0"
+    },
+    {
+      "path": "kb/design-system/adoption.md",
+      "bytes": 5687,
+      "sha256": "8235f1e0c06ecccd57456169188799d0b8b72aa72d900f9fe7b9c78d02ee5645"
+    },
+    {
+      "path": "kb/design-system/destination-options-01.md",
+      "bytes": 3711,
+      "sha256": "327c6a5ecca525a62996a2c9dedecd70accb307535275760b8a8a3ef2cc8ffc7"
+    },
+    {
+      "path": "kb/design-system/guide.md",
+      "bytes": 11508,
+      "sha256": "d84d67f6cbc95652ba3bd2a26e2f302cd5c9091a6bfaddb3bc89d8bb9ff4b443"
+    },
+    {
+      "path": "kb/design-system/index.md",
+      "bytes": 1531,
+      "sha256": "8f8033fcceb1441850d7cb54d5d38d4c2f50a523d0d8e2c6ce5684db4e7402fb"
+    },
+    {
+      "path": "kb/design-system/magazine-family-review.md",
+      "bytes": 5035,
+      "sha256": "27a56f5cc56dec494fee833d24dadca94b4b158961e27d37747134b3c1f7f134"
+    },
+    {
+      "path": "kb/design-system/media-and-meaning.md",
+      "bytes": 9717,
+      "sha256": "f7d87ba61c225390b0dc3a8110084b5876f95d81ffd7a591153a2d31d378e074"
+    },
+    {
+      "path": "kb/design-system/story-patterns.md",
+      "bytes": 20145,
+      "sha256": "76b1c5d26a178f49596924e057802af7cd867271bb7e6a9960eb00cc506195f4"
+    },
+    {
+      "path": "kb/design-system/utp-adoption.md",
+      "bytes": 3498,
+      "sha256": "830d2f3d8127c2b422c93029acdab0d655247463cbbdea672bb44de5524ee63c"
+    },
+    {
+      "path": "kb/design-system/visual-audit-2026-09-30.md",
+      "bytes": 7103,
+      "sha256": "ad606dd2a74e5ae793c87e6716aa9ef2fead24c2297d3e3aa8045915f862a9c7"
+    },
+    {
+      "path": "kb/history/LEDGER.md",
+      "bytes": 46826,
+      "sha256": "9b5475859e5d36a4df6086124b6c14d7e927b82b8e464d12c7787162f418b24d"
+    },
+    {
+      "path": "kb/history/ledger.jsonl",
+      "bytes": 108031,
+      "sha256": "5fc8eac3d30b14369b6fefdfacc1fc629d6bfe0b3d97e0430d44beab4e080c8f"
+    },
+    {
+      "path": "kb/history/stories/001-earth-sea-and-sukha-ghasi.md",
+      "bytes": 4760,
+      "sha256": "24a1fc0f752c97096389fa6c80f605b1949c37d0fdeccd42a5abc5c145577c3b"
+    },
+    {
+      "path": "kb/index.md",
+      "bytes": 3855,
+      "sha256": "9091483c2bdfe3398566480c2febfb7852fd1c6e14f67d2004f1105f32b82e60"
+    },
+    {
+      "path": "kb/models/day-notes.md",
+      "bytes": 2274,
+      "sha256": "7c32c3870eca1a956b25df936a73534f7e6684832d51f9d63a0da5f031e62218"
+    },
+    {
+      "path": "kb/models/index.md",
+      "bytes": 593,
+      "sha256": "2f5e324d6f810abb6a3b07422a63d8bd17cc68651ae8b792a3be8e57c96a19c2"
+    },
+    {
+      "path": "kb/models/journey-preparation.md",
+      "bytes": 4956,
+      "sha256": "23d5371dda5f27f6cb0f54729f3cf645c8921cc7860a23df25af6c73d033fc4f"
+    },
+    {
+      "path": "kb/models/knowledge-story-v0.1/index.md",
+      "bytes": 956,
+      "sha256": "bf73351846366847c5bcf520020c1aa0fc34cd66e48abe4424abbb1c58620517"
+    },
+    {
+      "path": "kb/models/knowledge-story-v0.1/language.template.json",
+      "bytes": 4306,
+      "sha256": "8eb8dedc4d57f0197e4fa155db6d4a0c3bf0dcf4177e85317bd98b35587b5272"
+    },
+    {
+      "path": "kb/models/knowledge-story-v0.1/model.json",
+      "bytes": 21501,
+      "sha256": "976837fbd684150ab0cd2efed0513cc06253bf8e7c2d4b7f6b1970f001f60007"
+    },
+    {
+      "path": "kb/records/bhubaneswar-collection-manifest.json",
+      "bytes": 85923,
+      "sha256": "8846082beb34c683cb9ec02fd249c2e997d881aa62238d588b7f62933b36fbd7"
+    },
+    {
+      "path": "kb/records/bhubaneswar-collection-review.json",
+      "bytes": 2277,
+      "sha256": "b43767abc8dcebeef6996e25a464754280a6d23e13e0913f9bc0c8f89c8f67d1"
+    },
+    {
+      "path": "kb/records/bhubaneswar-release-candidate.json",
+      "bytes": 85526,
+      "sha256": "3c5630fd4fae759ffa6e8c46957367be1033a2635e212a8f88a3326b2bb2f6d0"
+    },
+    {
+      "path": "kb/records/bhubaneswar-visitor-review.json",
+      "bytes": 2691,
+      "sha256": "28e038299476c49127f39ffc4af9230521dbcec43f6931dd486267b9045dddda"
+    },
+    {
+      "path": "kb/records/brand-colour-story-review.json",
+      "bytes": 1010,
+      "sha256": "351b97e1d1fc78db573117baa25f43863e71865cdf846034c6350502fb323622"
+    },
+    {
+      "path": "kb/records/city-culture-review.json",
+      "bytes": 2085,
+      "sha256": "b6ff8fe059a79af1fa26ebc95107cd80bf2c3e94740080b2c2922f91b9e17849"
+    },
+    {
+      "path": "kb/records/coastal-collection-manifest.json",
+      "bytes": 86377,
+      "sha256": "4fac947b769a7250d7f3fe77411491eb8edfeee3bd080351f478af96965b5954"
+    },
+    {
+      "path": "kb/records/coastal-collection-review.json",
+      "bytes": 2373,
+      "sha256": "04f0f6b10f452ef2022faf74cb13fac520aa8d6295fade17fbe7d8c64d3d4d5e"
+    },
+    {
+      "path": "kb/records/coastal-launch-preview-review.json",
+      "bytes": 3861,
+      "sha256": "618540121d8bb66d73a064586e8b333e5ea05018dbff641b578df6d44b1ce159"
+    },
+    {
+      "path": "kb/records/coastal-reading-flow-manifest.json",
+      "bytes": 87587,
+      "sha256": "ad11b6f0464a7afc3e6cba0b2e4485eb671642d070a084c28df805df3cb98e55"
+    },
+    {
+      "path": "kb/records/coastal-reading-flow-review.json",
+      "bytes": 3603,
+      "sha256": "bde02a9d536954aac449714854a6e65f52f90835ca111eedfbb7bc07e27cd757"
+    },
+    {
+      "path": "kb/records/culture-journey-review.json",
+      "bytes": 2842,
+      "sha256": "c120625dfea9eebb05514908b1fd336f7b6889563ca69619ffad415a72251acd"
+    },
+    {
+      "path": "kb/records/design-system-adoption-manifest.json",
+      "bytes": 80030,
+      "sha256": "64460d60f6981240d3f9c32c797738d029ecf17a3fd5f318f346a0857b60a4a9"
+    },
+    {
+      "path": "kb/records/design-system-adoption-review.json",
+      "bytes": 4494,
+      "sha256": "aa87b7cf9b17c2195c3aed5bea93bfbc03da4179be7d92805b9a694b77ce3f8a"
+    },
+    {
+      "path": "kb/records/design-system-fonts.json",
+      "bytes": 1618,
+      "sha256": "3c2871e35a4dcec2e6019876e096952217fcd769bc94f011a2dd352a523fb875"
+    },
+    {
+      "path": "kb/records/design-system-review.json",
+      "bytes": 3767,
+      "sha256": "4d8da45407544f2492a96bd7c3da62ed841a561430b3a1d747a9bf83ae156fc6"
+    },
+    {
+      "path": "kb/records/discovery-connections-manifest.json",
+      "bytes": 83489,
+      "sha256": "0b5bdbc851c2f04a4eb4fa35fc2a3f58a0428363972f0003b77358821d4fabca"
+    },
+    {
+      "path": "kb/records/discovery-connections-review.json",
+      "bytes": 2924,
+      "sha256": "63440feb10b45f61f965ecab86bb1585786d36fa97d2787fa95b30d9b0cb2d41"
+    },
+    {
+      "path": "kb/records/editorial-readiness-manifest.json",
+      "bytes": 87562,
+      "sha256": "f8a00a1d723565c09ae9406803217556c9eca4eab5a89c22121a76dc6dc3c750"
+    },
+    {
+      "path": "kb/records/editorial-readiness-review.json",
+      "bytes": 2577,
+      "sha256": "15189ea678d7211284bf48a91e40b757dd041a816b1de602994e093e4171e92b"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-collection-2026-09-30/food-desktop.png",
+      "bytes": 93432,
+      "sha256": "12292b7cf2fc5756ae62f789b11211c3c0881faf15030cb8d1d609cecc0dd154"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-collection-2026-09-30/journey-check.json",
+      "bytes": 197,
+      "sha256": "2b38a3ebc96e3bbe9980d45a4e8f61e11f8bdc7150c9c548e271a966f820e6ae"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-collection-2026-09-30/new-journey.txt",
+      "bytes": 17732,
+      "sha256": "2398f1b7000e7a1ae8734d3e2708a120faedcab040ed4377dfcf05d91b452f1a"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-collection-2026-09-30/phone-openings.png",
+      "bytes": 118574,
+      "sha256": "aefdf7061ceb94e1393e2ee50711605f7a78832b09e67e8c85fc08d9f67b8e4e"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-collection-2026-09-30/previous-journey.txt",
+      "bytes": 13354,
+      "sha256": "1ee5570b6de360ed6a30c32356c39b3a64c918ef672a50cf54ad07099dc32c4b"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-collection-2026-09-30/responsive.json",
+      "bytes": 2146,
+      "sha256": "1dc4264588b8be5bf47c0a24179a6332a13bcbb4b4e90aaa372b35c0393f398e"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/actual-browser-illustrated.html",
+      "bytes": 1900443,
+      "sha256": "e71548c4237e8e7cbbc8c8daa1e2c2cec0cd848965c1dd31e3ef4495515b9b54"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/actual-browser-text.html",
+      "bytes": 7927,
+      "sha256": "a83ee3f72a35b7e6348d88d944700b04deb1175fd4f3bc984addf3cc45156b02"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/bhubaneswar-illustrated.html",
+      "bytes": 2429762,
+      "sha256": "db20f0689b1409275b6447bd568543938a5c148230854c0dcd1677c92d6a47ab"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/bhubaneswar-text.html",
+      "bytes": 9510,
+      "sha256": "8de936b5c19b6cda9adee9d48cf4031912682ce83dbee528b60e3936271d2a92"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/city-practical.png",
+      "bytes": 74336,
+      "sha256": "883b178a03aea373d100cf3eddea2b07c0408a178d7633fa04167407dda83d82"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/dhauli-phone-comparison.png",
+      "bytes": 63644,
+      "sha256": "e8557a30f27a490eff3ba8cf37b48305ffcea43cbf545233a9d82d6e919503e3"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/dhauli-phone.png",
+      "bytes": 8081,
+      "sha256": "f15138b16e028fdb8265ca6a46d76ada0c1d91505ae1c3f06df99afae6cd6562"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/dhauli-photo-chapter.png",
+      "bytes": 132389,
+      "sha256": "6c4eaa4e6fbfe6a42c3ab82b942999600da771ffc0e557a3bd3c6940dc631d17"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/download-check.json",
+      "bytes": 732,
+      "sha256": "fd53ff011198292e951dfe05b86427422a780f2063aadb65441e14b82f630ef5"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/index.html",
+      "bytes": 1221,
+      "sha256": "14b0c224e67cfb4198decb812652d2883e89e87eda7edbb4df448631bf177848"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/journey-flow.json",
+      "bytes": 1302,
+      "sha256": "744ef53ed50e9f2a6b64254536c1ad1a4a2fcccc78b4d5811400c80da98ae168"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/responsive.json",
+      "bytes": 2992,
+      "sha256": "88f73a2c6eb07292f39100ea07a7cc8baf800ead251b59f95b15b2cbb9c7ae6c"
+    },
+    {
+      "path": "kb/records/evidence/bhubaneswar-visitor-2026-09-30/sample-journey.json",
+      "bytes": 900,
+      "sha256": "d0999dfa8136b7a64bc8d34a5ad592f09fa860b95ff99bb6840b93187d25f745"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/bhubaneswar-choices.png",
+      "bytes": 141950,
+      "sha256": "c69bdeb6fd3c5cc7a1b898f2600e0f3ad485c0c35dc81baaf95c762f36ed17d2"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/bhubaneswar-phone-comparison.png",
+      "bytes": 56699,
+      "sha256": "8ae0ba4b0250dda34cdba94950c657bf67e20bdcaa510ac8eba7718df18f5ac5"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/cuttack-practical.png",
+      "bytes": 73121,
+      "sha256": "458e8c962fa48a46048ccbc081d271d1cd63a9e19a454a07986f0c381ad4490c"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/journey-flow.json",
+      "bytes": 464,
+      "sha256": "49864b7b6b832281604f32ca98a3532cca8f2628c915ac1486020ca629dd6db1"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/kui-phone-comparison.png",
+      "bytes": 49031,
+      "sha256": "f825fef8ef704877a4b6a768f2a54fd3876ddc2a02c86723551fbe3d47908d52"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/languages-opening.png",
+      "bytes": 66792,
+      "sha256": "a486614cbf6f180b15f152e0a36256e54df36367431cde6cf6672734604a438e"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/literature-choices.png",
+      "bytes": 94262,
+      "sha256": "6ff4ab1f76d71016c354d24fa3655782229e065b9bb6b0332664e0670e0175c4"
+    },
+    {
+      "path": "kb/records/evidence/city-culture-2026-09-30/responsive.json",
+      "bytes": 5642,
+      "sha256": "2bb3f0e7a4ac362a3bf169965e8fbf66571650c25da7c94277beb06adccd7208"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/craft-desktop.png",
+      "bytes": 107077,
+      "sha256": "cb4dcaf657b6b2a917983b5692e11671a94addb0c9ab03574698ad5e9cf946d2"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/journey-check.json",
+      "bytes": 191,
+      "sha256": "372eca6da6dfa2148cfa32bddc970508502dab1f39af3cc2fe8d834795bec5f5"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/journey-edited.txt",
+      "bytes": 21947,
+      "sha256": "4d2358d4e0cb416b20dc43ea973c55be9c4d2fab58970da175f17ceefb00baab"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/phone-openings.png",
+      "bytes": 114400,
+      "sha256": "1e1317000eeedae77d9134db5c669b65d737c2abff57bbcd283e8fa6a985e59c"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/responsive.json",
+      "bytes": 3110,
+      "sha256": "7f1c41353d948f6c8dd79e57878b41d46fcc687321c3777f912ece006e73c05d"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/starter-created.txt",
+      "bytes": 21665,
+      "sha256": "bdcb32e66b4c29351befe2847cce02f2909df219202da311bedb4c0115f69570"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/stay-comparison.png",
+      "bytes": 64238,
+      "sha256": "d4598945ffcb3b9731cb6c7d2ae545cc72729486d7f554c74a9a71767132b66f"
+    },
+    {
+      "path": "kb/records/evidence/coastal-collection-2026-09-30/stay-phone.png",
+      "bytes": 118059,
+      "sha256": "34841ef79d26b4e1f642cca6a4cb9c4568ccdd92974778f282fd7d28b1b4c8e3"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/bhubaneswar-phone-wide.png",
+      "bytes": 107107,
+      "sha256": "e6f6aca187363a857894812332c042f0fba6844cd10a722ae935eac540606ca0"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/browser-journey.json",
+      "bytes": 344,
+      "sha256": "01d12e875a92547a466d7909494c030545eb6bd15827e40c760f2ba6d757d555"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/build-report.json",
+      "bytes": 32438,
+      "sha256": "1e14643144251de435b2172529db7b9b4416e1a349d580e419f8c7c78249b780"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/coast-build.log",
+      "bytes": 5446,
+      "sha256": "0375d1bd639f5830b0603fc6319cce6c9cfc73711866e85e73a601089bbaaf01"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/coast-tests.log",
+      "bytes": 577,
+      "sha256": "da8864b9d4008b8b6b5ea21036a2a0f14788eb1d59a461fb457b11360d5ef6a1"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/full-build.log",
+      "bytes": 5283,
+      "sha256": "715b9489a45ce77ff6fb49845f54b1cbfcbb71540cdeba625511ce9b27ca2dd9"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/full-tests.log",
+      "bytes": 8005,
+      "sha256": "ea924b68a4638450d9305bc0d3eb314983aa623395d3bb1c82889612f25e9444"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/homepage-desktop.png",
+      "bytes": 146303,
+      "sha256": "af15c66f97b76e13a244a261b657f9dd43c7b29af4a0853ed0c35e8362385ccc"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/homepage-phone-wide.png",
+      "bytes": 125779,
+      "sha256": "de28151658d58d89089418e1b53b2abcd924c8ea8de093c8f93a0d01dbd91bc0"
+    },
+    {
+      "path": "kb/records/evidence/coastal-launch-preview-2026-09-30/index.html",
+      "bytes": 3033,
+      "sha256": "f81f12640e08299ad5d74dbafb526a402bfe4a7a760cecef153b1cec2f29fea9"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/bhubaneswar-onward-desktop.png",
+      "bytes": 89044,
+      "sha256": "8d5fbdec89169fee2ea4c9739edfae980f6f84f15e046a3b374ac0450bcaf2cf"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/bhubaneswar-phone-wide.png",
+      "bytes": 107363,
+      "sha256": "92e93f25cf758320b697d443ff8d3671671ab91c834ff3fd7892d7148eb187d5"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/build.log",
+      "bytes": 5282,
+      "sha256": "d721efaea4234574855210a27f3a0fc34c284499be39dff8ea3599fbda59175f"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/index.html",
+      "bytes": 2603,
+      "sha256": "97f631336769eb3ee65cbede34a9323773e1b165bd3a880f7762b8902e1a8129"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/journey-reload.json",
+      "bytes": 504,
+      "sha256": "432464518416111a6ca400dbf864edd125c5a0b992eaba9b516ba698383823c1"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/keyboard-walk.json",
+      "bytes": 838,
+      "sha256": "ae49017e2f7a41d9f0d6a17080bee9bfa51af686abe66f9ec2fb8744c27ff0a0"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/konark-phone-wide.png",
+      "bytes": 74065,
+      "sha256": "c79c732065fae8462a0dc6be556ee5f8f61a86697e8cc2100a1dbd2cd19ddf59"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/phone-chapter-links.png",
+      "bytes": 90683,
+      "sha256": "6598d8b9bc5297784a33ae2dca4ac54c0d153749760d9e84295031885a1d671d"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/proposed-launch-scope.json",
+      "bytes": 1590,
+      "sha256": "cfc99d23c32733e479d7340ba61facf0606a0e3b96bf4041aae122cf94580c0d"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/raghurajpur-phone-wide.png",
+      "bytes": 78481,
+      "sha256": "39f594236ad034c4ef447d2214208acaaf6cc155e157483ec399c4c4721edf02"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/scope-dependencies.json",
+      "bytes": 10103,
+      "sha256": "9a4fb81874de394993d36e3f348c4d18133421927d0f7fcbed8198ad59b955fa"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/static-check.json",
+      "bytes": 138,
+      "sha256": "a87572d76c4c9baa5974ddf1508c9f976757ed30a1a39e405eab07408a53b868"
+    },
+    {
+      "path": "kb/records/evidence/coastal-reading-flow-2026-09-30/tests.log",
+      "bytes": 8005,
+      "sha256": "7b6b40ff12f6de1f1a704c12341992aad58da1607df6adae2e4d4f44751b4e73"
+    },
+    {
+      "path": "kb/records/evidence/design-options-2026-09-30/b-food-desktop.png",
+      "bytes": 166883,
+      "sha256": "9ddc0fcbc1dae2f565930908578e7cc11c6b36f29cfb27c6cac7ef2bc62774c6"
+    },
+    {
+      "path": "kb/records/evidence/design-options-2026-09-30/c-places-desktop.png",
+      "bytes": 188427,
+      "sha256": "34c99165d2769d764e7f64c98780054fab3a2092a581943d2cc034d143191d4a"
+    },
+    {
+      "path": "kb/records/evidence/design-options-2026-09-30/responsive.json",
+      "bytes": 3478,
+      "sha256": "b414157ed5559362337b444145c3fbdeaf8d93145f422bad19782fe0f505c3f9"
+    },
+    {
+      "path": "kb/records/evidence/design-system-adoption/enlarged-text.json",
+      "bytes": 646,
+      "sha256": "74c6060b5ddffd78268aafa3b0118c507986e24dacd4ea9457177d388283f97e"
+    },
+    {
+      "path": "kb/records/evidence/design-system-adoption/gallery-desktop.png",
+      "bytes": 104925,
+      "sha256": "58bfdeb1491e1bd16e7cfee4177039f489eab284eb79896bb4c80a8798019e97"
+    },
+    {
+      "path": "kb/records/evidence/design-system-adoption/home-desktop.png",
+      "bytes": 253490,
+      "sha256": "ef6189378bb27750bf13bf2f13ec1d20dab99b2b14135ff01839e838ee06d4c3"
+    },
+    {
+      "path": "kb/records/evidence/design-system-adoption/profile-final.json",
+      "bytes": 487,
+      "sha256": "1ba66c847f04a6a2fd7399fb5c507f31cbc85575072bece5c0660ca6b8ad0e7e"
+    },
+    {
+      "path": "kb/records/evidence/design-system-adoption/responsive.json",
+      "bytes": 4928,
+      "sha256": "ec9f393d949ed7a78bc482ab1191087462848373756c14832c90e364256cab6f"
+    },
+    {
+      "path": "kb/records/evidence/design-system-adoption/samanta-desktop.png",
+      "bytes": 93633,
+      "sha256": "e232a37e353338682846cf4321ef5e16b5b6c5c3bd3c275c3a02801000d5dd29"
+    },
+    {
+      "path": "kb/records/evidence/design-system/gallery-enlarged.json",
+      "bytes": 80,
+      "sha256": "1e2e78df674b0ea6167ebe57e57ecac1bc4a294b36a788ad426a838ca416beeb"
+    },
+    {
+      "path": "kb/records/evidence/design-system/gallery.png",
+      "bytes": 104788,
+      "sha256": "8a665547b446ecad5db83e828596ff1e18eb4f5be4fe3b9e324783fd84f744f6"
+    },
+    {
+      "path": "kb/records/evidence/design-system/layouts-before-tablet-fix.json",
+      "bytes": 1068,
+      "sha256": "7fd63de0324b1ead1573d71e3dae1696f47de4fe3d102799a850840d2442b2cd"
+    },
+    {
+      "path": "kb/records/evidence/design-system/layouts-final.json",
+      "bytes": 1418,
+      "sha256": "a747f60b901a0ddd6a48f2a743011206edf42166c424e04f6d1ebb34d8d418d2"
+    },
+    {
+      "path": "kb/records/evidence/design-system/link-checks.json",
+      "bytes": 94,
+      "sha256": "8b8ae444db4853484b05c684115242a0fc5435daa92fd708cba80687d8f9f7f1"
+    },
+    {
+      "path": "kb/records/evidence/discovery-connections/destinations-desktop.png",
+      "bytes": 145972,
+      "sha256": "ff2d6b8611630cf81bc8af24edd993018054165f0c2e9f6f4bb53b8202b5a3bf"
+    },
+    {
+      "path": "kb/records/evidence/discovery-connections/journey-starters-desktop.png",
+      "bytes": 168133,
+      "sha256": "589816d19eda943e643a5a41933b1644fc41f9eb6afe93cad9698d91fdc810fd"
+    },
+    {
+      "path": "kb/records/evidence/discovery-connections/responsive.json",
+      "bytes": 2153,
+      "sha256": "d07869a8c83bb6cf6a543c675866f84c4f78f171d5d8ff5eb43af55f8a5ec228"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/build.log",
+      "bytes": 5284,
+      "sha256": "dfad1c38f3976437359a183365e7290a9e63d285ebd567e227a38caa00eee770"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/current-output-check.json",
+      "bytes": 136,
+      "sha256": "c1adc9a043f6c0a6a642fb87fef6520b46099fdc6b91017730c8b09a2affb4cd"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/ds-tests.log",
+      "bytes": 707,
+      "sha256": "fc9ba61aef10f76c6e2b31bc43244e7fcefb250f83a178ae2d00bb591f440752"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/ds.log",
+      "bytes": 279,
+      "sha256": "a4d369e95a703657ee6d37489762dec6adc8f246a455fc03853c7a9b824e3265"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/fonts.json",
+      "bytes": 2701,
+      "sha256": "df8bb359e7b5dfecaf46dbe6626ddc0a8f5c7ff1e364236af8e623dc5e2d5958"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/image-rights-review.json",
+      "bytes": 3191,
+      "sha256": "316cafadd16d65f9c41f227a1ad79356b47765f524d91e67f862dcc105341c53"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/images.json",
+      "bytes": 2057,
+      "sha256": "1a7e43c3f4f0ec6a45d38bb404c671cb4d438411adf686eaf467bf100d7cd480"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/index.html",
+      "bytes": 20707,
+      "sha256": "6256d6c3fe62b73f3ee3f3549a63312704ed4745a11089605d278a2ce3b8754a"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/konark-desktop.png",
+      "bytes": 142119,
+      "sha256": "52bdf90ae92eb81eeb408acae2f6fb940169f1402d9476bc2658825853ebd52b"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/odia-verse-desktop.png",
+      "bytes": 166447,
+      "sha256": "0928aa5f49c0e6ba192e52f47a2ebc76089f61bd457c5ad40b72a28ae40fc961"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/original-preservation.json",
+      "bytes": 1075,
+      "sha256": "f113878fee3fbb6ca8ee781c2ae11bdb75d056fd5207c6a64d7c58db23912fcc"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/phone-font-photo-review.png",
+      "bytes": 18561,
+      "sha256": "a94d3df9bc5fed4cb7c63a83016cf0aca688d1aaacce6972689648f4263c7d61"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/publication-shortlist.json",
+      "bytes": 15527,
+      "sha256": "ea9a10af0bc815fcbefddc500f87201829459cbbc3e221b40cf45c4879d5a5fc"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/responsive.json",
+      "bytes": 2082,
+      "sha256": "6270c44c8a8cf2701ab922564e04be384f37805711c3164b6078bef1a80b0756"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/source-checks.json",
+      "bytes": 4914,
+      "sha256": "ac88b63ff690cf5012893ffcb6902592ae1bc49095113d4db6f230db8f1051d6"
+    },
+    {
+      "path": "kb/records/evidence/editorial-readiness-2026-09-30/tests.log",
+      "bytes": 7894,
+      "sha256": "e9958855d0070dfccaff4fd61477e3aa410233ec12205894162600623f1a97dc"
+    },
+    {
+      "path": "kb/records/evidence/journey-preview.png",
+      "bytes": 105753,
+      "sha256": "950cbd9d74923b4ddf7d989f97c8ccecb97e691820fc6dd29ba5eb4af5622b08"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/actual-downloads.json",
+      "bytes": 799,
+      "sha256": "deb88a9d9bd898c62a993454c341a8f00ecd827e69cc277356a952271e3edeaa"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/book-layouts.json",
+      "bytes": 889,
+      "sha256": "96a816faa1a8c39bfc409cfb8acb172b32970cd73e0774258bd6b4e705c15b3a"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/book-photo-desktop.png",
+      "bytes": 53647,
+      "sha256": "f5841f14df376494431eb215301e9fe83f213524f8f9afb3ce3da70e0618b2ff"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/book-photo-phone-visible.png",
+      "bytes": 60942,
+      "sha256": "7ff57a21d0b8018cbef2b8fb539863ce86cb7bbafff354cf7a1b647d99dfbce5"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/book-photo-phone.png",
+      "bytes": 67628,
+      "sha256": "71d2fd8fcc5bd46ca04ffc30b687de57a698f79ead96607b0e921554f8b9b658"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/book-shareable-phone.png",
+      "bytes": 65657,
+      "sha256": "3698830a1f89c8a4579550c52fddbadd966f20e4f9686cb886c8b9f60d9a7c73"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/books.html",
+      "bytes": 888,
+      "sha256": "3f29562a82935dfd9ffe0b24e16438cb1e31708a8f63718220f352cf761c6e22"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/browser-functional.json",
+      "bytes": 1637,
+      "sha256": "c72cf8ace19233bdbf9de41b66e1669f08244d80ea8ebe36fd845d08ec0da38f"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/candidate-manifest.json",
+      "bytes": 33117,
+      "sha256": "e22c8590af185d63249e22943c142c65f91983c9e93f2e952e164d16d279422b"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/coast-build.log",
+      "bytes": 5445,
+      "sha256": "4fce00c065781d23be46d3ab8954944e860d1bef75890cd7b669512fb6631142"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/coast-tests.log",
+      "bytes": 1109,
+      "sha256": "0484967cccf110280f1651e35f48e65ffe2558edf9626bff2dc6580d13980fc3"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/download-verification.json",
+      "bytes": 1629,
+      "sha256": "aa939b1b8290c998b469bf61e7aed1543e56aecc8b4d29ddb4c38ddb6961fdfc"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/downloaded-book.html",
+      "bytes": 12543,
+      "sha256": "990ac749b83517ada8f62cd5f4bfcc84193d467d653c2db04c37f96b44928137"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/downloaded-itinerary.txt",
+      "bytes": 7543,
+      "sha256": "d3b5e60b97da42490155c81caf90109197c43bd194f3a91f077d4d2dde039ee7"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/downloaded-photo-book.html",
+      "bytes": 813781,
+      "sha256": "1a88115eeb74a776e81659885d76f8b5e2154636e9907ca3d5f7ee0e4f6b15e9"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/downloaded-shareable-book.html",
+      "bytes": 10652,
+      "sha256": "0f68b6c5cffb0af502c3a5c23cec87e010e7f1e81c6ba0849d767f858f369197"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/final-journey-phone.png",
+      "bytes": 53543,
+      "sha256": "d97cc8b62f6b1e0d23755821561b874e97f1105271f1dd4d6006c9b40294dc8d"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/final-layouts.json",
+      "bytes": 1091,
+      "sha256": "6afc31ba1a45500c2c1e7974a9e5d5d3264ca33b73a7c789b4bcaaadbf17e91d"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/full-build.log",
+      "bytes": 5288,
+      "sha256": "70e24c41b463efade1c0ead539db3a9f66ab12d8dc652c0be61c03d9076db0b3"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/full-tests.log",
+      "bytes": 23921,
+      "sha256": "c2d61e0f6b316f11bbcd26d7bd3c6269e00f56a13d4afa29e1316e0a7cdf7826"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/index.html",
+      "bytes": 6483,
+      "sha256": "01fce9eb088ec88672ddee3966a5328c9794edaee5848a3714a130e83d2b3a76"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/page-acceptance.json",
+      "bytes": 21092,
+      "sha256": "bcae8c063b895c3254b77811335722159787c4d0958cc0e31daeb56260bcb21f"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/record-validation.json",
+      "bytes": 856,
+      "sha256": "e646170fa891b11fc0a941dfd972cd5826577803d893f02cfe08660ca286166b"
+    },
+    {
+      "path": "kb/records/evidence/launch-readiness-2026-09-30/snapshot-verification.json",
+      "bytes": 205,
+      "sha256": "fbe7695440cb4f91c209c5e61af50617d987ada8d18d7442e61a116c88a6a47f"
+    },
+    {
+      "path": "kb/records/evidence/magazine-a-2026-09-30/desktop-food.png",
+      "bytes": 156341,
+      "sha256": "763161812e08df4f8da60fbc8578c4445020651d66e35abff852aaf3259e65f3"
+    },
+    {
+      "path": "kb/records/evidence/magazine-a-2026-09-30/desktop-opening.png",
+      "bytes": 99916,
+      "sha256": "44ee579a4247ed742851c955344c45e287a8e21e81a5bc59d349a6fd0bca4b51"
+    },
+    {
+      "path": "kb/records/evidence/magazine-a-2026-09-30/desktop-planning.png",
+      "bytes": 119187,
+      "sha256": "50da5583d5e33daf331cacee1ee49092b14f3a971c4073d9450e61b61a817474"
+    },
+    {
+      "path": "kb/records/evidence/magazine-a-2026-09-30/desktop-shores.png",
+      "bytes": 186813,
+      "sha256": "9b81ad729344f0c9ec4c9713160e477902d3681dce918b7c2d07e612cf30a4ca"
+    },
+    {
+      "path": "kb/records/evidence/magazine-a-2026-09-30/desktop-story.png",
+      "bytes": 223318,
+      "sha256": "ac20394cbe6922d409adf2c7e963b3cbc1aa7a1f4c7ce048045a6409398bcf04"
+    },
+    {
+      "path": "kb/records/evidence/magazine-a-2026-09-30/phone-opening.png",
+      "bytes": 94862,
+      "sha256": "f7cdb9279bf743637b6cfb462d9b386bd877a6fb0bb6bbc3f6d1d62849a397e8"
+    },
+    {
+      "path": "kb/records/evidence/magazine-a-2026-09-30/responsive.json",
+      "bytes": 686,
+      "sha256": "cd4fa497c2e14267a1fbecf4be56dc6a60ed1dbcd732420c84818edefc7b84a8"
+    },
+    {
+      "path": "kb/records/evidence/magazine-family-2026-09-30/food-opening.png",
+      "bytes": 147615,
+      "sha256": "85459bc572faaf153aa187008118d2c64a70e5c2e6c3a7c31b6bc0c00785c18d"
+    },
+    {
+      "path": "kb/records/evidence/magazine-family-2026-09-30/food-origin.png",
+      "bytes": 122504,
+      "sha256": "433dddc85fc573e556010a4244f77dbed0c4d5ef74d45802916327138b7fdca4"
+    },
+    {
+      "path": "kb/records/evidence/magazine-family-2026-09-30/konark-history.png",
+      "bytes": 166105,
+      "sha256": "14cc4e42b2a0a6406e9501fb46b412bfbd5c7ab523c528ef59bc496fbfb0dd4b"
+    },
+    {
+      "path": "kb/records/evidence/magazine-family-2026-09-30/person-opening.png",
+      "bytes": 117290,
+      "sha256": "9ee8c2277956f8c7a1d90ed586e0ff1809203b2105290147c39ee678990329ec"
+    },
+    {
+      "path": "kb/records/evidence/magazine-family-2026-09-30/person-reading.png",
+      "bytes": 130233,
+      "sha256": "c2e6d1a78498cef0f7adc829a52bff2f2764035cbb63d90846874a5c849239fb"
+    },
+    {
+      "path": "kb/records/evidence/magazine-family-2026-09-30/phone-comparison.png",
+      "bytes": 77062,
+      "sha256": "130adbc9040c0a10eec958ecc6dc84a8f10c7724ff44ae40adb2158f92037c7d"
+    },
+    {
+      "path": "kb/records/evidence/magazine-family-2026-09-30/responsive.json",
+      "bytes": 3720,
+      "sha256": "4dfefc6078ec06d68226d14e2dd35e57d48405b397c7148a7ef796ba8a9d92ba"
+    },
+    {
+      "path": "kb/records/evidence/multiple-journeys-preview.png",
+      "bytes": 129428,
+      "sha256": "66fad5a6a349731e611741c50c45bb5d12613096810545c924a1849e8b59e6b8"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/audit-path-check.json",
+      "bytes": 193,
+      "sha256": "1c7271a3674c1379feb7a1ad76cd2b957bf19a674a9efcd38b862f38c3ce3570"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/baseline.json",
+      "bytes": 772,
+      "sha256": "13b359519c35bd5efbc3269ebdde9a25f531e6e72567d3dd0f94147bedf8b0f5"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/browser-functional.json",
+      "bytes": 2250,
+      "sha256": "6fc00c69f907b233ac02fb2542c9e3bd2662c09860191375b1dbb88ab48dbb0d"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/build-report.json",
+      "bytes": 32597,
+      "sha256": "7d9afe306f01f2959bf1708ed6eea7135e04f97f44bd0f3aaa75be6b7197412e"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/coast-build.log",
+      "bytes": 5445,
+      "sha256": "3decb6e1ea5145c309fb904fbbd9d76e04ed08b686472546d1f79648b92bb854"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/coast-tests.log",
+      "bytes": 1116,
+      "sha256": "f4ae5e737b536415b19fd2c539333389d9023b7f8f08e1cb3bec8e6635455274"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/day-notes-desktop.png",
+      "bytes": 84138,
+      "sha256": "b2bb472873b9971c667bfa5b49c0b2e0e1f0deb8ed658a145a3a608cad7c372a"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/editorial-notebooks.json",
+      "bytes": 21704,
+      "sha256": "614e4b8b0c298f6daa86fb411c33d2865abb20f804273e375c2267bb5ab96fe6"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/evidence-correction.json",
+      "bytes": 1054,
+      "sha256": "97ebdad6a803895fef971ad708dfac9c3702ad52368a809ad2f316a1eff788e2"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/evidence-manifest.json",
+      "bytes": 3779,
+      "sha256": "dbf475e6fc2d9e05f9bf984cd61c4e2727a0ae0ff7a42b85644e33e2902a0376"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/full-build.log",
+      "bytes": 5282,
+      "sha256": "f01f5819dd6babd309f1f21186509a8f449c0a1048132d6df8f09bd075be9f6c"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/full-draft-manifest.json",
+      "bytes": 87286,
+      "sha256": "2fccad5baa0d00a086ad03491c113fa3815c352e5ff1aa2d3cca584dcaf411f8"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/full-tests.log",
+      "bytes": 16027,
+      "sha256": "a14292c9763366a0f6e867af0ccb6159a970828c4819f0f9788bb552054883cf"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/index.html",
+      "bytes": 3630,
+      "sha256": "dcb41f05167b61257d6fcdfcc5558cafebc6c058287b406645ec407c71cda6a4"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/journey-phone.png",
+      "bytes": 40457,
+      "sha256": "241bec70032bd2ea08a9cd83b1a0038df0b4e893e022e0ade0b91de2c8d7c8bb"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/konark-notebook-desktop.png",
+      "bytes": 56995,
+      "sha256": "ea83c4e8b0f4a827aa6ad6e218976ff3b71de8b921ea9c22ceefe18a9aa8d063"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/konark-notebook-phone.png",
+      "bytes": 46052,
+      "sha256": "093435629573e318fccf5eadc14ae3491595c64e5e9934f51679c6b17b06e0b4"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/page-acceptance.json",
+      "bytes": 21092,
+      "sha256": "f63974a0e7e5c334046367f26a1a99d959a9ca8acb5465874b3708109104c46b"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/record-validation.json",
+      "bytes": 1035,
+      "sha256": "fa79f6b9e1c2c312bc738b5d7a40f999476551e996b120117971d7503f4b991c"
+    },
+    {
+      "path": "kb/records/evidence/next-210-2026-09-30/responsive-measurements.json",
+      "bytes": 4026,
+      "sha256": "ce623bc69ba6fd573eade5659a549a4a4c17de6a2397272b7f7a194112832291"
+    },
+    {
+      "path": "kb/records/evidence/next-twenty/bhubaneswar-desktop.png",
+      "bytes": 195037,
+      "sha256": "de118c2556388977fbac3e93b725bd9219830a01b9d09808750db0554e341d6a"
+    },
+    {
+      "path": "kb/records/evidence/next-twenty/ho-desktop.png",
+      "bytes": 83561,
+      "sha256": "101602b7ecda92e8cd1efcab5045c985eaa1ca18f3253d0a09cfcdf62b567487"
+    },
+    {
+      "path": "kb/records/evidence/next-twenty/puri-desktop.png",
+      "bytes": 125443,
+      "sha256": "c91a2162bd9ff5b4fe06c60733c711717a9cc2f26e83b2badc90d60c2d4f3d84"
+    },
+    {
+      "path": "kb/records/evidence/next-twenty/responsive.json",
+      "bytes": 5567,
+      "sha256": "5db07d5ee2fd3c9f42393c10494c96c1052d6fcd0aa62d5014c8994bf17b9006"
+    },
+    {
+      "path": "kb/records/evidence/northern-guides-preview.png",
+      "bytes": 194478,
+      "sha256": "eaff97e7b54e9bfe043fee9d7bacbb6b1f786a78beaf500204853e0e53ab58fb"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/book-controls-desktop.png",
+      "bytes": 71896,
+      "sha256": "120364bf2befba70312669bdd4aa669554030f6a02c5b8f28ec97441e25c02e4"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/browser-functional.json",
+      "bytes": 2509,
+      "sha256": "46b51c17602050eacf47551be27027d6d264e6e9b4474e85ec96c353629fcb5f"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/build-report.json",
+      "bytes": 32597,
+      "sha256": "8e2598711dd6ec5563d4b952ace8ff250ac3359b41f2187fc0f7583a67e66a0a"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/coast-build.log",
+      "bytes": 5444,
+      "sha256": "b62e166ad096ceeb98dc35ec1473c63352c89e220a916636247b0c4ef42dd0df"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/coast-tests.log",
+      "bytes": 1111,
+      "sha256": "3bb645fa479c06353b960164fae9cadd4e73cf6aad61c371de9e341997d97d62"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/conflict-browser.json",
+      "bytes": 264,
+      "sha256": "d68176fe187816457a5f37090b4e7d6b2c908c5d85eba9844f98fb16d0bf0082"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/contribute-phone-guidance.png",
+      "bytes": 54250,
+      "sha256": "983671180ea7d595a0c52ac47c63cd691d6ccd24a92415f883cffdc930fb1769"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/contribute-phone.png",
+      "bytes": 49506,
+      "sha256": "e19cd3afcc92d8c6e45324dfab1ce013a0aae396b94d16ab6fd103ede9d27b55"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/contribution-fields-desktop.png",
+      "bytes": 58226,
+      "sha256": "9d83fc313d1fbe98f4b985b388d867e1de60f9eb3d0e126e8f99b3d2a620357d"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/editorial-checks.json",
+      "bytes": 22543,
+      "sha256": "d6a227bbdf0556882eaefd9a8d8dd31c246acedadc67384e04034f255bbfa1a4"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/evidence-manifest.json",
+      "bytes": 4087,
+      "sha256": "c8f4b8815981704fe2cf9a0c48a4903aa543b3507b8cdb6fc72bdb7a61b0106d"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/full-build.log",
+      "bytes": 5283,
+      "sha256": "7e81dc2aee2146d6a6297f42bc6c2eff26a152cd98787e4ee171eadbf4d1c915"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/full-draft-manifest.json",
+      "bytes": 87283,
+      "sha256": "f86fb97535379f67c8efed0756bca16519e480da0a1585a68b4a72d62531dd39"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/full-tests.log",
+      "bytes": 9680,
+      "sha256": "9c0fb738774420cf1c70ee57668948994238db03ee5fd6ddc5db5be001495e25"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/index.html",
+      "bytes": 3075,
+      "sha256": "545a2a98ef14ad5f826b08398914736669526a5224f6280a6f9c9c0b52f3abee"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/journey-phone.png",
+      "bytes": 46626,
+      "sha256": "3340a829524a4dba740e1ae811cf9b8df65a511a2eb2f132bcd110abeca95d0d"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/konark-large.png",
+      "bytes": 85763,
+      "sha256": "587664582cc2d00d6335e8b747c365a4a64a85a5a2fdcaeb477083cf97f37b2d"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/page-acceptance.json",
+      "bytes": 21092,
+      "sha256": "4b1ddeb0320e2a59eb16fa32ee24b369e34b1c8490512ae8bfe305d40889dacd"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/photo-record-checks.json",
+      "bytes": 2237,
+      "sha256": "ccc45e193e1df9f6a7990721ec9cc8eb82e0302f4fd2301866672c5ab4782cea"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/record-validation.json",
+      "bytes": 918,
+      "sha256": "ae33e16a6ecadb2284cddba9d3dee0e29cf3f548f30ab16cb22aee54bf2dd272"
+    },
+    {
+      "path": "kb/records/evidence/overnight-200-2026-09-30/responsive-measurements.json",
+      "bytes": 4054,
+      "sha256": "64fefacc03fe8a2d5d7759cc177cedfd8df8350c481490936cfda9808b3d2b50"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/baseline.json",
+      "bytes": 650,
+      "sha256": "26cdd26138b6d24fc53cdb264bf5901fd9d36c186f31b3456f161d054e5a4d5e"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/book-scope-desktop.png",
+      "bytes": 88508,
+      "sha256": "5413b670dd24fb18fc606b305fc7497c69b199af473091373b636184c9509a61"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/browser-functional.json",
+      "bytes": 3225,
+      "sha256": "2abb7801fb8c092a34c7148a510c89e5d1b39ed344602beb4f1b9600b5601095"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/build-report.json",
+      "bytes": 32597,
+      "sha256": "fb59378bd7464fc984ca96bba4d2aa9827fa246f17da7bad337e364f4e139d6a"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/coast-build.log",
+      "bytes": 5445,
+      "sha256": "d54836364e28e24ca2c67f03b0d5694e13ce0f1b7a271946e22e8917dbea5fc6"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/coast-tests.log",
+      "bytes": 1106,
+      "sha256": "0e02570e6983b8dcc44e2a20b8a0c2e417d1ead58e9a4c9b8e0ea4fdc2328ca2"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/editorial-questions.json",
+      "bytes": 10763,
+      "sha256": "b3fae3dfe67fe087cf2d5976e0be5c791f7d76435272e0364a7ff3eac2f4ea6e"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/evidence-manifest.json",
+      "bytes": 2133,
+      "sha256": "081c36cdbbac0f4f4e416d639a73efa362c81ce14c9d60344116828e7c5e2ccb"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/full-build.log",
+      "bytes": 5282,
+      "sha256": "54ab3278aadfee76948577081caf64de04fe7871b29c2fd096aeafb3ecca7614"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/full-draft-manifest.json",
+      "bytes": 58085,
+      "sha256": "2e2d83e823ee71f9d54432ec74e351886d7b52434f58946f5ca5edc3dd6438d4"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/full-tests.log",
+      "bytes": 23918,
+      "sha256": "927f3d67740432ab7f6f0ef372cc78913990c3566525d7d9f6091e8f98d855f1"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/import-fixture.html",
+      "bytes": 1677,
+      "sha256": "fcb4f80a05a9424187ddfbeb9a407589b3c07a5c158a94c137b3cc9491503461"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/index.html",
+      "bytes": 4489,
+      "sha256": "d9531c5f6a8bb7091035353d2f2658b394d797c24defbbac7d040f084d7b3043"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/konark-notebook-desktop.png",
+      "bytes": 81140,
+      "sha256": "088dda9bad7349e175f8045a3c071b4be869ece48e7fd45f8ee4e5c90ef9dd91"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/konark-questions-phone.png",
+      "bytes": 68768,
+      "sha256": "50b6fbc36ca98cdbc661810c3ae84bdf3028f94dde59ae8596e90d5756c830e8"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/page-acceptance.json",
+      "bytes": 21092,
+      "sha256": "821bb12ace4c8b2d41931e411c26fe2e8d25f5475b8bab8204095e764527b567"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/preparation-phone.png",
+      "bytes": 65489,
+      "sha256": "83a14f4ff4b276f5dd71f16d78eaba0ce25ade6257dd8c5b4c098fbbb2441dee"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/previous-evidence-preservation.json",
+      "bytes": 562,
+      "sha256": "7bd2ca7bc9b002dce9a717ecb1f9ebb19fc437000b72f7e8383eb69eac040e6f"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/record-validation.json",
+      "bytes": 760,
+      "sha256": "fa15de384d9fa89060b403f23609356de17756b48a0d9afcd18aa6a47394a11e"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/reminders-phone.png",
+      "bytes": 64387,
+      "sha256": "75e3803335824fc0a2df74c1e5ceaafd685670a8be4e5ab7be238b76c76d7075"
+    },
+    {
+      "path": "kb/records/evidence/ready-216-2026-09-30/responsive-measurements.json",
+      "bytes": 4747,
+      "sha256": "86110bda1962b7c3f294621a27c94876a6e822ff8a7b50734d77d88960d2b946"
+    },
+    {
+      "path": "kb/records/evidence/release-readiness/food-mobile.png",
+      "bytes": 170712,
+      "sha256": "00eb3993eec1df983bbd9ca5c38ac836a9ee33416fab20410a58920e5f31a888"
+    },
+    {
+      "path": "kb/records/evidence/release-readiness/mobile-measurements.json",
+      "bytes": 3742,
+      "sha256": "fc6902902045f9a4a89ca550e9f85fa8c28b1b00a40513b8f66ea09b9cd13cb9"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/book-download-check.json",
+      "bytes": 650,
+      "sha256": "9bc8368f1ebae2666dd935bf0045977a991a4cc255ac098eb67fa6a66d664868"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/book-text.html",
+      "bytes": 12516,
+      "sha256": "ed4842adfee9ac4ff2229c198a5562f2908f454ab3c2a9afcaf9efe38064adcf"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/book-with-photos.html",
+      "bytes": 2666366,
+      "sha256": "cc32c32f1f926aa97dc09154b1544af2d7f8f089c89d3d534364751334196d8b"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/browser-check.json",
+      "bytes": 720,
+      "sha256": "e9b8f58c1081520ce708cd2f186d29b73b9c9741ec857e903a4896a1bd561029"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/delivery-assets.json",
+      "bytes": 884,
+      "sha256": "23fd60b60bd50c064bce29172c5433b0f88759a75ed09fe27c546007ca654155"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/downloaded-book-screen.png",
+      "bytes": 71268,
+      "sha256": "fd7d57913931c66d61fdc56181062125fc2026f64e610f50d97d57945410d10b"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/food-layout-comparison.png",
+      "bytes": 114269,
+      "sha256": "126acbbbdebae0d16599c0f0b6f33dbbcf643735798e8c0dcec9fe4d5e2ec887"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/homepage-desktop.png",
+      "bytes": 143249,
+      "sha256": "3ebab94b7ef1c8f33ec8b0889fa64be97ab8e55c90e59b0d134a00fbd71c44eb"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/index.html",
+      "bytes": 5393,
+      "sha256": "69118346865aaaa192af44ae235b8e2852a7aa327555cf780cabe2a384a292d8"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/journey-heading-check.json",
+      "bytes": 198,
+      "sha256": "aa992227e01aec79305c8c8775a228b6944a732a2f08adf60b4aa04596164c39"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/journey-snapshot.txt",
+      "bytes": 25941,
+      "sha256": "9e325b656c7505dea288838458164c5ea74f8f4d0c55add92a92803a69c53608"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/responsive.json",
+      "bytes": 5323,
+      "sha256": "9b35ca0736e3d4d55eb3f39ba89dceda985fb6a137b5243bb1bc4050cb27561c"
+    },
+    {
+      "path": "kb/records/evidence/release-review-2026-09-30/static-audit.json",
+      "bytes": 8984,
+      "sha256": "32eb8947058e9bde46842538bceed7232da5a88eacaa032b4718014a0cfc4d9a"
+    },
+    {
+      "path": "kb/records/evidence/story-flow/chilika-chapters.png",
+      "bytes": 190875,
+      "sha256": "7adc80606612c2c3f98dc658c92e7dd643d525ebcb4fcc79bdb18132f8226cbb"
+    },
+    {
+      "path": "kb/records/evidence/story-flow/food-reading.png",
+      "bytes": 167189,
+      "sha256": "88261cea30032cbe3cbbf735123f53764a26c5b80c5ab42ec61e19f12ef38130"
+    },
+    {
+      "path": "kb/records/evidence/story-flow/person-reading.png",
+      "bytes": 145900,
+      "sha256": "b0caf8037a6ff3c6761a8fe29c364a167ff5a8fe0e10f33ab5c8f23b49c8289b"
+    },
+    {
+      "path": "kb/records/evidence/story-flow/responsive.json",
+      "bytes": 1248,
+      "sha256": "782f34e4bc6d365739087ab195e0f3021cb2c2a43ef895925a349b234017b4aa"
+    },
+    {
+      "path": "kb/records/evidence/story-reference/chilika-desktop.png",
+      "bytes": 26617,
+      "sha256": "fff89166cda29b31ee96bac75efa9d88cdaf481cece1ed794c6a1ef275b1d17d"
+    },
+    {
+      "path": "kb/records/evidence/story-reference/food-desktop.png",
+      "bytes": 167330,
+      "sha256": "088e0cddc7c6fce26f523f50ca4b6ede05a0baca4c4cebfccd9486e90359e45c"
+    },
+    {
+      "path": "kb/records/evidence/story-reference/food-reading.png",
+      "bytes": 113859,
+      "sha256": "cb14082e5448b29d4bfe152f118a4b8d962196d0a3b1877dfac71c1d0f6ddd70"
+    },
+    {
+      "path": "kb/records/evidence/story-reference/person-desktop.png",
+      "bytes": 119744,
+      "sha256": "cf408b952a23e89b588989706c466bd261ca7c07af6c1a7967bb6ed1af65e63e"
+    },
+    {
+      "path": "kb/records/evidence/story-reference/responsive.json",
+      "bytes": 2033,
+      "sha256": "113bef81bdaf3a510a20da8539faafccde8e1f72553951f5272548f3b64a1cf9"
+    },
+    {
+      "path": "kb/records/evidence/ten-item-kui.png",
+      "bytes": 81866,
+      "sha256": "debc4421c8f296acf8491220fafab93074523ff6babee40ecf359d95a4906606"
+    },
+    {
+      "path": "kb/records/evidence/ten-item-offline-book.html",
+      "bytes": 5139,
+      "sha256": "f0eac29b34c660b15229c22cee7ea5e34ccc67c8b921345287333837331cfa16"
+    },
+    {
+      "path": "kb/records/evidence/ten-item-offline-book.png",
+      "bytes": 96761,
+      "sha256": "3d712e98931a88a932f79641eb9226c24012bcfefb0b1971631f4dd82aa269bf"
+    },
+    {
+      "path": "kb/records/evidence/ten-item-pratibha-ray.png",
+      "bytes": 128723,
+      "sha256": "472792bc421e7d5307ea2275cc57adcebd64b9b0f86c69b7f8cd68c604e1e047"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/detail-reading.png",
+      "bytes": 120145,
+      "sha256": "419579905a296e009f6243103ab090ccef77b087dbe6e91e0bca825440740942"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/download-check.json",
+      "bytes": 923,
+      "sha256": "8c94d44df0b802980074e4976fe2915195c62849540d6a88a62c72ce9e8f0619"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/explore-connected-pages.png",
+      "bytes": 361484,
+      "sha256": "cb40b068550196b2242eea539cf7965e814c032629a7c49659baa4657dab2875"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/home-stories.png",
+      "bytes": 149539,
+      "sha256": "239e8d674529a8bb139ee06535768d2cec8328a09aab7c7ad67f98547ecef650"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/journey-downloads.png",
+      "bytes": 97422,
+      "sha256": "d48bc1ce9b805ee1dad49702c012200c974668a187d22aa8e3256e810d93f9fc"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/mangalajodi-desktop.png",
+      "bytes": 249984,
+      "sha256": "3c5e9ef48ade45623b94204e0de078415caaa9f87cd02f61b62ddcbde862e8bd"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/phone-activity.png",
+      "bytes": 115156,
+      "sha256": "5376624d5e900fa89e55dbebc36f5158ee69aee3d85c570ff05b77337d159c8b"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/phone-detail.png",
+      "bytes": 110503,
+      "sha256": "261d4c7ae7435c2c5c1cca2e556e4cea91ea1f104f08b3cd498c71948e237992"
+    },
+    {
+      "path": "kb/records/evidence/visitor-flow-2026-09-30/responsive.json",
+      "bytes": 4351,
+      "sha256": "314a255587e18c964472262f675928d7f9766c43cc94f360d0a7d70bd4fd3583"
+    },
+    {
+      "path": "kb/records/evidence/visitor-planning/balasore-layout.png",
+      "bytes": 126021,
+      "sha256": "dcccd642199e836340233d6078d1d1304d6a066cfba001f725419e793e5ddba7"
+    },
+    {
+      "path": "kb/records/evidence/visitor-planning/food-desktop.png",
+      "bytes": 115976,
+      "sha256": "26be565f6115e463f79d80836766993188e997a689c34d53b500ab9b956f4692"
+    },
+    {
+      "path": "kb/records/evidence/visitor-planning/responsive.json",
+      "bytes": 4842,
+      "sha256": "aabba5aca8de24b519a2d3ccc98645d4c827d44e302ea6e6fb4ddf9c25199c29"
+    },
+    {
+      "path": "kb/records/evidence/visitor-polish/additional-layout-measurements.json",
+      "bytes": 749,
+      "sha256": "53bc01d7b2870a28ec86ec23f548e042bff88d8218f9f368ba97dd6f22ca7447"
+    },
+    {
+      "path": "kb/records/evidence/visitor-polish/food-mobile.png",
+      "bytes": 463501,
+      "sha256": "86bc0d587d4fc480d5e9d29fdcd23345da2cbc677fdd8fe029c78584416b4a2c"
+    },
+    {
+      "path": "kb/records/evidence/visitor-polish/illustrated-book.html",
+      "bytes": 827388,
+      "sha256": "02dacb9860e8acaed5d3ad57218d76ec637505cb35582c81e8570656f7776cbc"
+    },
+    {
+      "path": "kb/records/evidence/visitor-polish/illustrated-book.png",
+      "bytes": 43767,
+      "sha256": "c55cbf6e085cbc0f02cafe5527c8163959be363d49885835c479716b232cd4d3"
+    },
+    {
+      "path": "kb/records/evidence/visitor-polish/layout-measurements.json",
+      "bytes": 3842,
+      "sha256": "f477b533bfa248456bfeb0913f32952d6c5df81ce03f9a9cb1334c164723902a"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/chilika-experiences-desktop.png",
+      "bytes": 81481,
+      "sha256": "77846ef832e18f1a620359d84e9d61a0e883a2fc6e918db57d57f4f9ac05a830"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/chilika-food-broken-desktop.png",
+      "bytes": 26901,
+      "sha256": "515b85f806f0c0758962563522bb8a4c569172c3e1f610e51cee748fdb9e0fd3"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/chilika-food-desktop-top.png",
+      "bytes": 89842,
+      "sha256": "dd89ec3956428ec812787afd1e4d08809b82c555a7c984b6527ecf0bfa270192"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/chilika-food-phone.png",
+      "bytes": 4265,
+      "sha256": "a451c9381c2ea6d5e90312f73300845e0599f43bb3b03bb8a53bcaeff6eeb188"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/food-reading-desktop.png",
+      "bytes": 122346,
+      "sha256": "490c42942c909dbe574a8679bd2155ec75c1e6aae37b2ab04e8b6cc4e4188678"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/person-ending-desktop.png",
+      "bytes": 95563,
+      "sha256": "22804bc5fefbe79784667e63dc050c339119df65e3888f878bb3edb0fe87a4d2"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/person-opening-desktop.png",
+      "bytes": 107922,
+      "sha256": "565da6d475132696244c4892c6ae99ca85e401983d5f0a4b029e5bc151449e71"
+    },
+    {
+      "path": "kb/records/evidence/visual-audit-2026-09-30/phone-measurements.json",
+      "bytes": 436,
+      "sha256": "0ea09947eb10ee1359559a938d920f084ea0aef09b31ad01ea83eb96c7e963a1"
+    },
+    {
+      "path": "kb/records/evidence/visual-repair-2026-09-30/chilika-experiences-desktop.png",
+      "bytes": 166986,
+      "sha256": "08a3aaca21bb9073634f1920f189a689347742a997906756263c57823f13b630"
+    },
+    {
+      "path": "kb/records/evidence/visual-repair-2026-09-30/chilika-experiences-phone.png",
+      "bytes": 45992,
+      "sha256": "e31df8d714bbeefc7263ca5655a2b2d4bad272a83073dfbc8d9494dd48cce5eb"
+    },
+    {
+      "path": "kb/records/evidence/visual-repair-2026-09-30/chilika-food-desktop.png",
+      "bytes": 1080284,
+      "sha256": "7848f6c8e7ff809a65d6817063c61b68c7d05ebf76af57f36397f192a628e2e9"
+    },
+    {
+      "path": "kb/records/evidence/visual-repair-2026-09-30/chilika-food-phone.png",
+      "bytes": 546318,
+      "sha256": "c7e5f4962874266d814fd89272fc9d62b05edf516d47a59568b372146b50a722"
+    },
+    {
+      "path": "kb/records/evidence/visual-repair-2026-09-30/food-reading-desktop.png",
+      "bytes": 266679,
+      "sha256": "f99358b5d30c1a4ad1aabf622133369e3d49b503a62ee28b8c42c88ea678bd27"
+    },
+    {
+      "path": "kb/records/evidence/visual-repair-2026-09-30/person-ending-desktop.png",
+      "bytes": 795578,
+      "sha256": "9560284824a0578d870034413625ec03e39496717214f2abec79ea74ce50f852"
+    },
+    {
+      "path": "kb/records/evidence/visual-repair-2026-09-30/responsive-checks.json",
+      "bytes": 4194,
+      "sha256": "f16d1a3af2b9659fb8c21c7b4f5470e16eecb9f44ccbd8a3c4869a9a396afcca"
+    },
+    {
+      "path": "kb/records/index.md",
+      "bytes": 3696,
+      "sha256": "841c2443ee9e856117042bd18fb853e948b69bd7d3c002d158f8dbf06378b26d"
+    },
+    {
+      "path": "kb/records/kabita-design-study.json",
+      "bytes": 2256,
+      "sha256": "e5f6010eaca888901a0481c83be05b58ee77dc99adb69571d9630594db2dea18"
+    },
+    {
+      "path": "kb/records/language-literature-pilot-review.json",
+      "bytes": 1609,
+      "sha256": "28cb790f160704347a3b22ad3646a1efac006dc43487bd8cdc6b101cc0e19c52"
+    },
+    {
+      "path": "kb/records/launch-readiness-review.json",
+      "bytes": 3776,
+      "sha256": "0762091b32140c80e2c849fefd4bb63007b70a6ad9b50357a53902b152b44523"
+    },
+    {
+      "path": "kb/records/magazine-a-review.json",
+      "bytes": 2418,
+      "sha256": "2c8c753efb3ee507dcd5c9a31d6e280cc7ab89008d2869b83c6525a058d424ff"
+    },
+    {
+      "path": "kb/records/magazine-family-review.json",
+      "bytes": 1850,
+      "sha256": "b6d0fb87acbb0ffea06c867b209ba5b14184eab34f73c76bac8c241d69117980"
+    },
+    {
+      "path": "kb/records/media-foundation-direction.json",
+      "bytes": 1456,
+      "sha256": "f9243a10070aa4b7d773c0cbec45f06959729019d1ad2aa0ec10c0ccb78c5b79"
+    },
+    {
+      "path": "kb/records/multiple-journeys-review.json",
+      "bytes": 2010,
+      "sha256": "98108fe101df394af1ccdc6bd0a8d098a19e1047691a470a35efb261478fa94c"
+    },
+    {
+      "path": "kb/records/next-210-review.json",
+      "bytes": 3891,
+      "sha256": "297e39b3445fd314d114e8afd5bef3c58e9e1849db040053b3ab2db10b2d1c8e"
+    },
+    {
+      "path": "kb/records/next-210.json",
+      "bytes": 97430,
+      "sha256": "4257ee0da494df71e99400e8b4395c9db19ece05a9dd0f2499207dab85bbe3a9"
+    },
+    {
+      "path": "kb/records/next-twenty-manifest.json",
+      "bytes": 83175,
+      "sha256": "a25f2f098318d567ba7c0475ec6cd8568b1292324048997dd563e8037b3bb843"
+    },
+    {
+      "path": "kb/records/next-twenty-photo-sources.json",
+      "bytes": 4728,
+      "sha256": "5537b2cdee063287eec6fc4926122db98095c23e17432c8a4d8cc8597f647c1c"
+    },
+    {
+      "path": "kb/records/next-twenty-review.json",
+      "bytes": 8977,
+      "sha256": "9655462e46357f31bac6c4a8f710bb60c2f4cfee52f9b1969d61b06dd25f1b31"
+    },
+    {
+      "path": "kb/records/northern-guides-review.json",
+      "bytes": 1780,
+      "sha256": "8d4cc867fdd306f39ee5d267b0847abe6c156ee8702ebbe093f76c59b838581a"
+    },
+    {
+      "path": "kb/records/overnight-200-review.json",
+      "bytes": 4640,
+      "sha256": "8766f5e3c38d8f69e6820666c119189ca0d05997d1f10a9df748a64d50f2afe6"
+    },
+    {
+      "path": "kb/records/overnight-200.json",
+      "bytes": 102167,
+      "sha256": "829a32ce12425fb3e01c93fc01958f6cde8fa5f4ea76e78b87b8126044b4902d"
+    },
+    {
+      "path": "kb/records/ready-216-review.json",
+      "bytes": 4194,
+      "sha256": "0dfd3dd1dbf12cac0e064f738731352ca297cc660fb7c91dbbe4c765977415a6"
+    },
+    {
+      "path": "kb/records/ready-216.json",
+      "bytes": 86861,
+      "sha256": "9243ff458a578dfd4be3e209a3cab6a229589bea489d2b9a32a2abfb89e5c208"
+    },
+    {
+      "path": "kb/records/release-candidate-manifest.json",
+      "bytes": 156758,
+      "sha256": "2f3a5c0391e5cc793f1b2c3af549421da9550f2b745ad236151e9c8c82b4b6e5"
+    },
+    {
+      "path": "kb/records/release-readiness-review.json",
+      "bytes": 2578,
+      "sha256": "795a53d14dc8ffbd350747b041158722a1a200641211f98d67799204a64c775a"
+    },
+    {
+      "path": "kb/records/release-review-manifest.json",
+      "bytes": 86725,
+      "sha256": "083430b7e6273e5ca840fc89d48f0bf051be0cbb6fc796bf82cb3226ec3c9f58"
+    },
+    {
+      "path": "kb/records/release-review.json",
+      "bytes": 4007,
+      "sha256": "fc3a769284fca20ec618f30f1bd5dc54845fad75f19ad5b86c4948092f5ee750"
+    },
+    {
+      "path": "kb/records/story-flow-review.json",
+      "bytes": 1962,
+      "sha256": "189b291d5a8659af705c0fa300662835dedf7ab620d20a174cd251e303276589"
+    },
+    {
+      "path": "kb/records/story-reference-review.json",
+      "bytes": 2055,
+      "sha256": "2143bb4486270bf53482d3a6d2f414c977a3f6c7669810a4c2ca05c2899052de"
+    },
+    {
+      "path": "kb/records/ten-item-website-review.json",
+      "bytes": 7340,
+      "sha256": "63f4f2a10b739aa90971b1467ddf6f04eb643ab8ef695f62cfced4129b71ba53"
+    },
+    {
+      "path": "kb/records/visitor-flow-review.json",
+      "bytes": 3244,
+      "sha256": "997e2bc84798659e8ba72d2f786bc6952b0e40ff02385a78c3bbfb22fe7506f1"
+    },
+    {
+      "path": "kb/records/visitor-planning-manifest.json",
+      "bytes": 84128,
+      "sha256": "b96e81d069df304bc04d292ba42c19251cfac5829b08fdc7f30d1b2468b59c30"
+    },
+    {
+      "path": "kb/records/visitor-planning-review.json",
+      "bytes": 3448,
+      "sha256": "af54b1f1561d107819ca3d0aa0315f67b3ba23a01cba16a65b9528320f152428"
+    },
+    {
+      "path": "kb/records/visitor-polish-review.json",
+      "bytes": 6045,
+      "sha256": "4aa9f9a095c7bbe4783105408c5f68d13b2870fae5ceb7b04da3fd59a08b0ac1"
+    },
+    {
+      "path": "kb/records/visual-audit-2026-09-30.json",
+      "bytes": 1809,
+      "sha256": "4b98868c20ed063f6dc32beb98671c4d73c8f8869b6681d0b676b4ba0f4c1ba0"
+    },
+    {
+      "path": "kb/records/visual-repair-2026-09-30.json",
+      "bytes": 2683,
+      "sha256": "7bcbc5de6f14871f99fc7cb3ed6ffa16958adfacbd528cb62f192ed4a6e7705c"
+    },
+    {
+      "path": "kb/reference/brand-direction-02.md",
+      "bytes": 2653,
+      "sha256": "294940805a2d69a7828312c0278e982eac495c92e1e354321d6147b2ce585473"
+    },
+    {
+      "path": "kb/reference/index.md",
+      "bytes": 1162,
+      "sha256": "b3c4e116e7bd9ff5cfce2ed3d43f2967c83ed19f8bd5ac3b7350582056d51d9d"
+    },
+    {
+      "path": "kb/reference/knowledge-story-model.md",
+      "bytes": 18997,
+      "sha256": "bd4c7d31cd3344da958080f47f3dabf60573d0be571bc69afa805d742f8dbebb"
+    },
+    {
+      "path": "kb/reference/language-heritage-model.md",
+      "bytes": 10534,
+      "sha256": "bd9205f0c890ea7e04f1114b3ce9c5199e789d93ffc30ee311b2d995195365eb"
+    },
+    {
+      "path": "kb/reference/storytelling-standard.md",
+      "bytes": 13132,
+      "sha256": "c3e1c096cead463fd9d4ba8c4eb204b26fba9387b8ef394d8eeace3fbf0005a1"
+    },
+    {
+      "path": "kb/reference/utkal-design-system-proposal.md",
+      "bytes": 6969,
+      "sha256": "52ab83cdb3a7299b99961b46adfe1367ceef7707c035ea284aefe5e0b2695163"
+    },
+    {
+      "path": "kb/registers/DASHBOARD.md",
+      "bytes": 97953,
+      "sha256": "6f73ce83fa1e5c675a36cf1893ac774eba6d38d91a2bd3b5e9ceb97bcc21a2d0"
+    },
+    {
+      "path": "kb/registers/activity.jsonl",
+      "bytes": 49689,
+      "sha256": "2e02af790e2c2e8012f33773300424e9ef872d3478a059d3a074830b4ee1083c"
+    },
+    {
+      "path": "kb/registers/records.json",
+      "bytes": 194734,
+      "sha256": "eef1f6393d1f6407e882b4efa6142c6f94f58f5a7824db93f2c7b56f636ce683"
+    },
+    {
+      "path": "kb/research/coastal-page-descriptions.json",
+      "bytes": 2569,
+      "sha256": "d46055d0ef5ac59730926d1957c3d1d32c528dd21b3f5eaaf8a5178e9e687078"
+    },
+    {
+      "path": "kb/research/culture/index.md",
+      "bytes": 675,
+      "sha256": "3c99ddc9e8bb6755f6f533ea66d7e09447f2eb5a85e92c7c854e1dbabfd8c04c"
+    },
+    {
+      "path": "kb/research/culture/odia-literature-and-literary-lives.md",
+      "bytes": 9406,
+      "sha256": "9eb58c138c076a5a2c20047285e263c1917bc4ca6101af03079837122615d8c9"
+    },
+    {
+      "path": "kb/research/destinations/book-images.json",
+      "bytes": 1061,
+      "sha256": "8dbd1f146ce0db4a2c3ad85637a14f54b9181230b46592a91b25e55ed434da74"
+    },
+    {
+      "path": "kb/research/destinations/central-details.json",
+      "bytes": 19892,
+      "sha256": "cd1095ac3fa87debeb2d0ee2f9a79d2feb4e8b2e5b8a8b583a15c5e4a477c386"
+    },
+    {
+      "path": "kb/research/destinations/chilika.json",
+      "bytes": 18301,
+      "sha256": "61b11839cdc0f6bf670f238d2f63f1aa195051f82ef91f526f386d574277e0de"
+    },
+    {
+      "path": "kb/research/destinations/coastal-edition-copy.json",
+      "bytes": 901,
+      "sha256": "d47d0738f995425200896843c8e1835d45fff093489de995d428905955c98205"
+    },
+    {
+      "path": "kb/research/destinations/coastal-reading-collection.json",
+      "bytes": 1918,
+      "sha256": "35589895fdaf00a54b8cd52523c53cca5b4a7b69e9dce51a1d92abd782f41d38"
+    },
+    {
+      "path": "kb/research/destinations/details.json",
+      "bytes": 22139,
+      "sha256": "c7037a53bc9817c8c909f35842b70cff28c5439ff897d79bbc6a886dc90591d8"
+    },
+    {
+      "path": "kb/research/destinations/index.md",
+      "bytes": 854,
+      "sha256": "0efafbb8af5a1ea32e92c21628cb8946debbfab114ab56d0fc5b35fa67437e1f"
+    },
+    {
+      "path": "kb/research/destinations/konark.json",
+      "bytes": 14865,
+      "sha256": "811facb70115c699751ef16ac311b34157398b6246c89a954befd09a2f384638"
+    },
+    {
+      "path": "kb/research/destinations/northern-details.json",
+      "bytes": 5356,
+      "sha256": "8474f887d7c480cd0e8c78e16ab0b11eaa4da558c147ef79d20731717ae1a272"
+    },
+    {
+      "path": "kb/research/destinations/regions.json",
+      "bytes": 58629,
+      "sha256": "c7696a74e8eba0f90def661e15dd9a887ee85baa731f5ce39c1e3cb17b0d4d89"
+    },
+    {
+      "path": "kb/research/destinations/visit-notebooks.json",
+      "bytes": 8745,
+      "sha256": "0d96f616c1159ba385a87e1aa1c004e4eb1809bf7fcd2901df0433ebce1dc02d"
+    },
+    {
+      "path": "kb/research/destinations/visit-questions.json",
+      "bytes": 10554,
+      "sha256": "367991a758fbad9f8cbb19580992e170b0b2c9724a60169376afd4a3d497e804"
+    },
+    {
+      "path": "kb/research/discovery-aliases.json",
+      "bytes": 761,
+      "sha256": "48f6d5b7f1ef9daeea97b6edd3c17969c0bd23d8c18737904d698ae36ff79810"
+    },
+    {
+      "path": "kb/research/food/bhubaneswar.json",
+      "bytes": 4035,
+      "sha256": "a5e3282b0333c3707a80dbdaa1fb25096d59b9344552f5894394615fef71cab7"
+    },
+    {
+      "path": "kb/research/food/collection.json",
+      "bytes": 10495,
+      "sha256": "edc581f10b9efc76407bec5a62bbf90d0c083df5c3925af710b4f0952426db51"
+    },
+    {
+      "path": "kb/research/food/index.md",
+      "bytes": 1193,
+      "sha256": "c683a773914cdcdeee7d676b551777dd60ae3546b969ae1927808e59f9b4d8a8"
+    },
+    {
+      "path": "kb/research/food/puri-coast.json",
+      "bytes": 5010,
+      "sha256": "079e34aa5a2e03510c65ffa257ca440061fc234e2145f2e329896d2ac81c4171"
+    },
+    {
+      "path": "kb/research/index.md",
+      "bytes": 2883,
+      "sha256": "a822d3564f81726441420b96c45d4b03a79f42bfadcf9373ab1b3e92d80997cb"
+    },
+    {
+      "path": "kb/research/journey-checklist.json",
+      "bytes": 601,
+      "sha256": "1f60452aa22530f02c1ac3263d9c4d34165fe30ab9b506b9f6f90bc16a5c5337"
+    },
+    {
+      "path": "kb/research/journey-starters.json",
+      "bytes": 2753,
+      "sha256": "305b95302c7f17ea488f0321bc830d673e86d1f00f1d92c5a40738ef7fc25573"
+    },
+    {
+      "path": "kb/research/people/index.md",
+      "bytes": 393,
+      "sha256": "ceb1c37e403ac5e739325274cd79c7499992db73a210cf8597a4b4706c2d44af"
+    },
+    {
+      "path": "kb/research/product/bhubaneswar-collection.md",
+      "bytes": 4187,
+      "sha256": "ee07f1b804ad445a0b664004f198e6baec15fac50184de8c14211b2478c22f7d"
+    },
+    {
+      "path": "kb/research/product/bhubaneswar-visitor-candidate.md",
+      "bytes": 4718,
+      "sha256": "91e3f18427acd7398cde808ca9b49be25ec4258bd81fb25bafea193c7655100f"
+    },
+    {
+      "path": "kb/research/product/chilika-film-production.md",
+      "bytes": 12473,
+      "sha256": "e411b567d56bf10f4a5302ef3d2da4b332efeef705c746d7cfc24bfb528649c8"
+    },
+    {
+      "path": "kb/research/product/city-culture-review.md",
+      "bytes": 7186,
+      "sha256": "4e5ca110b079d7c130466e6ec130776cefcd0a2c70a0ccde8f9722be12461035"
+    },
+    {
+      "path": "kb/research/product/coastal-collection.md",
+      "bytes": 5242,
+      "sha256": "d837575e118362ec65bfcffc251dcb0d325a687a292255cd54a0aad4027949de"
+    },
+    {
+      "path": "kb/research/product/coastal-launch-preview.md",
+      "bytes": 4737,
+      "sha256": "09d07c754a8bb7a4e2650374333c16cc36fddbf4606a9159e1c0c88915332874"
+    },
+    {
+      "path": "kb/research/product/coastal-reading-flow.md",
+      "bytes": 6345,
+      "sha256": "6bf1daad0a44692add219faa5bf5d9aaed7796046dae1c05f17d0fb7d688cb97"
+    },
+    {
+      "path": "kb/research/product/culture-journey-prototype.md",
+      "bytes": 4111,
+      "sha256": "abca274bd3ca270312359bab84c98c4f12077a09480f8d30580e58ba2660bb40"
+    },
+    {
+      "path": "kb/research/product/destination-and-tour-book.md",
+      "bytes": 10017,
+      "sha256": "16517be9509398971890b1297e7a99ba72af534d0edf2f23c0849ea8ae574153"
+    },
+    {
+      "path": "kb/research/product/discovery-connections.md",
+      "bytes": 3237,
+      "sha256": "9bd2bc50f6cf5a77a9ea5298b80f9b3e64ad7cfa5b68a2a4064c7162b8867365"
+    },
+    {
+      "path": "kb/research/product/editorial-readiness-2026-09-30.md",
+      "bytes": 9259,
+      "sha256": "4dc8ea3a834981925ccf502264a19467018bc120fbb5eb429687feaf0965f1c0"
+    },
+    {
+      "path": "kb/research/product/immersive-destination-brief.md",
+      "bytes": 4967,
+      "sha256": "6ed20cd64a706be880a730e2f4383baac5f65a2cc98284d4540791a16905e0ba"
+    },
+    {
+      "path": "kb/research/product/index.md",
+      "bytes": 4527,
+      "sha256": "0be9d57b6d884674c6d8549219657db2a6a8029d95dfd1a1b4c2b4080213f285"
+    },
+    {
+      "path": "kb/research/product/launch-readiness-2026-09-30.md",
+      "bytes": 9574,
+      "sha256": "e3f2c562c38f64e1d9521661057ef3406d0847bb93af0c509e7ac09c867676fd"
+    },
+    {
+      "path": "kb/research/product/multiple-journeys.md",
+      "bytes": 2924,
+      "sha256": "d80825a68a8be7c39fad613368f9ad1619b3ea27d35a90870d02d5c1fd8f89d5"
+    },
+    {
+      "path": "kb/research/product/next-210.md",
+      "bytes": 6878,
+      "sha256": "8177f90a68bee538be08ad41c834b24db69a67d67f4079dc0aa39414d44d4dee"
+    },
+    {
+      "path": "kb/research/product/next-twenty.md",
+      "bytes": 7067,
+      "sha256": "97fbe080c41c72fbc4cd08fb2072ed6ee5045ea2d4fd1a5b37df5831ba21c0db"
+    },
+    {
+      "path": "kb/research/product/northern-guides.md",
+      "bytes": 3185,
+      "sha256": "bdca3765462a47e03fb2a5c442a7cd6c53db1bd3f214c4d99731d5ac906322be"
+    },
+    {
+      "path": "kb/research/product/overnight-200.md",
+      "bytes": 6228,
+      "sha256": "675530e1bc08da78efd1af6da294491d302feb6e05347753a79f3ecfb4681895"
+    },
+    {
+      "path": "kb/research/product/prd-history.md",
+      "bytes": 6787,
+      "sha256": "94413b957b9b51d2802ff90796a22ebcee8de77c6d479196f05023ef48433dfb"
+    },
+    {
+      "path": "kb/research/product/public-contributions.md",
+      "bytes": 4010,
+      "sha256": "ba50dc806eb1048b5ddb63932ed317b585abce9a8286b0ba24c559bbbc5a3167"
+    },
+    {
+      "path": "kb/research/product/ready-216.md",
+      "bytes": 7105,
+      "sha256": "7501531e12852a5c37436f04ea488a3c52532d1e84f37a0cc2f01e8459e4eaf5"
+    },
+    {
+      "path": "kb/research/product/release-preview.md",
+      "bytes": 7101,
+      "sha256": "0950e6fcfdff61d5f616c574288b5274ad266bbd2b697cbe8390893a5081f941"
+    },
+    {
+      "path": "kb/research/product/release-review-2026-09-30.md",
+      "bytes": 7054,
+      "sha256": "ccdecfc6b8f2e5bf0a603bb3c2f4c31052edb1b292c5a3ae35822e09ee5e3001"
+    },
+    {
+      "path": "kb/research/product/story-reference-pilots.md",
+      "bytes": 2643,
+      "sha256": "4fe4599a421edf7f2747517606d1f4037511567e972e3cdb53fee4bcddfd3404"
+    },
+    {
+      "path": "kb/research/product/ten-item-website-batch.md",
+      "bytes": 7381,
+      "sha256": "f09a7c372005153d80e4232e232b8a7151720374ab25deb4c94a14c209a26dc9"
+    },
+    {
+      "path": "kb/research/product/visitor-planning-batch.md",
+      "bytes": 4431,
+      "sha256": "cc9513620a1fddf982ef806017b43bf4cd19416fa6d399b8f82dd316bfdbd3e9"
+    },
+    {
+      "path": "kb/research/product/visitor-polish.md",
+      "bytes": 4448,
+      "sha256": "15506bba62f5b5fc71296feabdca6706e8dda5005bac0bdac538e0042635fde5"
+    },
+    {
+      "path": "kb/research/related-discoveries.json",
+      "bytes": 9953,
+      "sha256": "6c39e8d91205e03cf9419c3f3aa942f40d15b6356d8f4b43ed4597175f04bdd4"
+    },
+    {
+      "path": "kb/research/stories/magazine-layouts.json",
+      "bytes": 2699,
+      "sha256": "2eb961a9b41a0115a8b0d8f65067e8cc8aed5da4499711afcfceaa097002ed00"
+    },
+    {
+      "path": "kb/research/stories/narratives/chilika.json",
+      "bytes": 6305,
+      "sha256": "ec89697d8e8a5eab600bfea67fd1ded1f56d056d666f29a3f24742f8dcd26f91"
+    },
+    {
+      "path": "kb/research/stories/narratives/konark.json",
+      "bytes": 4464,
+      "sha256": "ac9d7988bb79e5b8e081c5cab13fb87135455292cb2578c520d85763af45d46e"
+    },
+    {
+      "path": "kb/research/stories/reference-pilots.json",
+      "bytes": 4241,
+      "sha256": "eaeb3edfd5633dc95b6a51d7578a6794c1957cd782b8c7e872a078d11b26820b"
+    },
+    {
+      "path": "kb/research/voices/collection.json",
+      "bytes": 85192,
+      "sha256": "7a09522591314fa199bb43848135e25376eed30bef12052282911b95dd52dd29"
+    },
+    {
+      "path": "kb/research/voices/culture-trails.json",
+      "bytes": 6572,
+      "sha256": "9f967bea1471281f5e335780a3924fef14038f7cb09a9d85ec9cf7d39cf07883"
+    },
+    {
+      "path": "kb/research/voices/index.md",
+      "bytes": 1356,
+      "sha256": "8744dff277118f9d1028b0ca27054a38cc2108f5337993e834d2996f3d907241"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/.gitignore",
+      "bytes": 19,
+      "sha256": "cc474a976ef5ff9a252412e82792fd668521ba834ecbdd5bfbeb95bcc8ff880a"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/README.md",
+      "bytes": 1971,
+      "sha256": "c7c198104bdaa050866c3276b4a5776491eb5f9568e31f75afd3239a0d1dfe56"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/a.html",
+      "bytes": 9775,
+      "sha256": "8fdfe5b46ab3171f45201e23760d0ddc50166ed6399874483e1ba9bbc787acce"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/b.html",
+      "bytes": 9622,
+      "sha256": "61b378d80d2915845aa066778298dad5b4db5354cea2d34a7b819b5b9bb5d7c5"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/bhubaneswar-collection.html",
+      "bytes": 1102,
+      "sha256": "982c320770deceb2afcfa1cf7635747dd8f457eeb3e4fc977eca78ff8a53d8c0"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/build.py",
+      "bytes": 8098,
+      "sha256": "0a58269ee6ed9c721fe4154c7f132ba19dcfca50280627933649abcb3a077877"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/c.html",
+      "bytes": 10051,
+      "sha256": "a617242ddd03dc7065f50496ec0837a6ca810819bb7b28ac9c2faf67bacb6ae1"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/city-culture.html",
+      "bytes": 4973,
+      "sha256": "4dda06fca9dd810c04604a38ea3180fe50f952a6eb62718638a4340b83a4d4d1"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/coastal-collection.html",
+      "bytes": 1114,
+      "sha256": "3c05e1c2951c7553d331e3a9074fedb0ef7efd91ed28bbc7f4078aed9ee9b195"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/family.html",
+      "bytes": 5351,
+      "sha256": "59f48b2ce1e64f33dea76e720d1025e8461340d1b5953ebb0908cc68fa9d77ef"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/index.html",
+      "bytes": 4212,
+      "sha256": "e111c68ba2f74a37d2a60c948e24778f35b07ed2159fbe5d697c518d63b3aca0"
+    },
+    {
+      "path": "projects/design-explorations/chilika-01/styles.css",
+      "bytes": 12351,
+      "sha256": "3fd7a3a4c1eacf8ca534d9d1b8d0191736af5f0130069a7c8d063872e1deb394"
+    },
+    {
+      "path": "projects/design-system/README.md",
+      "bytes": 8245,
+      "sha256": "e330c2aaf2c41c9dc3bd2413352163c76fd066d65aee5f8a1fc53a2d77319a3f"
+    },
+    {
+      "path": "projects/design-system/fonts/CormorantGaramond-Italic-Variable.ttf",
+      "bytes": 715644,
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    {
+      "path": "projects/design-system/fonts/CormorantGaramond-Italic-Variable.woff2",
+      "bytes": 143644,
+      "sha256": "b25fd6a66314122257980ac9fd0fa56c2cfb73970b09acdce214e1b18fb2f51d"
+    },
+    {
+      "path": "projects/design-system/fonts/CormorantGaramond-OFL.txt",
+      "bytes": 4387,
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "path": "projects/design-system/fonts/CormorantGaramond-Variable.ttf",
+      "bytes": 1195560,
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "path": "projects/design-system/fonts/CormorantGaramond-Variable.woff2",
+      "bytes": 209428,
+      "sha256": "1c7136dcfe2ba0c22bd2e4ab48467813cb6dd7b5728a73920dd9eb6452b8a558"
+    },
+    {
+      "path": "projects/design-system/fonts/NotoSerifOriya-OFL.txt",
+      "bytes": 4381,
+      "sha256": "c90ff15ade263a49148e35af34e9c177c6d56881e81260b29f10123e9e227eca"
+    },
+    {
+      "path": "projects/design-system/fonts/NotoSerifOriya-Variable.ttf",
+      "bytes": 241144,
+      "sha256": "9fa2a08cb6a677d155a823bc58b4c587613780bd43013fd362369c251001502a"
+    },
+    {
+      "path": "projects/design-system/fonts/NotoSerifOriya-Variable.woff2",
+      "bytes": 90572,
+      "sha256": "f83bd7dbbfefbe3f7ee544f07f0de44eb59bd370abb44ec9568fab23a53175a1"
+    },
+    {
+      "path": "projects/design-system/fonts/SourceSerif4-Italic-Variable.ttf",
+      "bytes": 855432,
+      "sha256": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42"
+    },
+    {
+      "path": "projects/design-system/fonts/SourceSerif4-Italic-Variable.woff2",
+      "bytes": 346088,
+      "sha256": "a5e93099350c2768f7939fa51503641c961550830fb2a02083f5cf11adf227b5"
+    },
+    {
+      "path": "projects/design-system/fonts/SourceSerif4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "path": "projects/design-system/fonts/SourceSerif4-Variable.ttf",
+      "bytes": 1209508,
+      "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b"
+    },
+    {
+      "path": "projects/design-system/fonts/SourceSerif4-Variable.woff2",
+      "bytes": 427556,
+      "sha256": "4453d73855919eb67a8291bf2bad07782ecaf8af0e4e363d58948ff993209d51"
+    },
+    {
+      "path": "projects/design-system/icons/index.mjs",
+      "bytes": 561,
+      "sha256": "e5c3f25bbd97d9cdd02ed58737acd957f022664e7ca65aa3f330806665487ca0"
+    },
+    {
+      "path": "projects/design-system/icons/paths.json",
+      "bytes": 817,
+      "sha256": "01de81d3bf1f6832899fc5e6bfd2ae2e1a68d657a98bc56c8debfa5480d0b870"
+    },
+    {
+      "path": "projects/design-system/package.json",
+      "bytes": 611,
+      "sha256": "4d5c4df5b3ca1d04d9478b84c97595ff5283efda5381f8b9c0a6e45df5d8eba5"
+    },
+    {
+      "path": "projects/design-system/review/gallery.css",
+      "bytes": 5303,
+      "sha256": "0ce965f11bda80671bdaaf49abdaecd28fcf4bf7de98ea92852b486f17e6fdf6"
+    },
+    {
+      "path": "projects/design-system/review/gallery.js",
+      "bytes": 5640,
+      "sha256": "88c0c08efd068a42abf98c33e5a3ae5fcefcc2157520dcf0518e45b31ef457a4"
+    },
+    {
+      "path": "projects/design-system/review/pilots.css",
+      "bytes": 2515,
+      "sha256": "1a4405539de95a3c71121a65be3ad18b72fd5a65d172657637cef95abd80169e"
+    },
+    {
+      "path": "projects/design-system/styles/magazine.css",
+      "bytes": 12853,
+      "sha256": "4128d1b048105a2ff1df4ea98702b82189b7654592362be5a358fd5c8b54f294"
+    },
+    {
+      "path": "projects/design-system/styles/story.css",
+      "bytes": 2044,
+      "sha256": "523e25011e85a0b8171f945659d8f5889c10aec94ee21a8b82d2faec85de32f8"
+    },
+    {
+      "path": "projects/design-system/styles/tokens.css",
+      "bytes": 1398,
+      "sha256": "057de4a6fa4554e6694a0299ea21784554293363028ffd5e860450d248c03e4e"
+    },
+    {
+      "path": "projects/design-system/styles/utkal.css",
+      "bytes": 8453,
+      "sha256": "acd8e815f9e3672d4833b58e28117510bc988ec284b45f5db1efa5ed2e8cf544"
+    },
+    {
+      "path": "projects/design-system/tests/system.test.mjs",
+      "bytes": 3550,
+      "sha256": "9d76cc8330377756f961b74f25989bb9e86fe92e86cdc6854070c923b97e8255"
+    },
+    {
+      "path": "projects/design-system/tokens.json",
+      "bytes": 1137,
+      "sha256": "cf63ee86374bdec741b8b3509cceb583980d8a67cdd3eaf48bb55eac6b744e0d"
+    },
+    {
+      "path": "projects/design-system/tools/build.mjs",
+      "bytes": 737,
+      "sha256": "96a11570247c52951ee33490f71ccb3951767ca79b0bb14d50b0f59667c8199e"
+    },
+    {
+      "path": "projects/design-system/tools/review.mjs",
+      "bytes": 19170,
+      "sha256": "4d39950674e6a7ce7fbed276ba69d6d3cc796433f7ca436727b17af8c97c49de"
+    },
+    {
+      "path": "projects/site/README.md",
+      "bytes": 10219,
+      "sha256": "137e1839066792d390ff491bdb023f21d44a8acfe198de1a55121b21c416a553"
+    },
+    {
+      "path": "projects/site/astro.config.mjs",
+      "bytes": 388,
+      "sha256": "f1d223f9ac9d9dd49481bc25d2d3cc57213e9fb84cf9f9bf0385d0b2f000ba36"
+    },
+    {
+      "path": "projects/site/editions/coast.json",
+      "bytes": 840,
+      "sha256": "f3a136778a7ae15cb39afb137fb4e33ba9a2003a6cff69f59449530cb92049a9"
+    },
+    {
+      "path": "projects/site/package.json",
+      "bytes": 786,
+      "sha256": "d2c60d037da142f59e4208d47421f252627478473626c7ebeadc9483b6b17b3b"
+    },
+    {
+      "path": "projects/site/public/assets/brand-story/colours-of-home-bilingual-v2.png",
+      "bytes": 2502084,
+      "sha256": "6bf45fb40bc8f4652759547b6403707332329712fa63267a168b50a63c5326d6"
+    },
+    {
+      "path": "projects/site/public/assets/coast-illustration-v1.webp",
+      "bytes": 506704,
+      "sha256": "9e84b6b88d4d554199688df1da98a5bbe0505494a06faf4a07037f596f33e057"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/bhima-bhoi-memorial.jpg",
+      "bytes": 192524,
+      "sha256": "e540b6300e5d414d2d6e507b6c37024e4bcc8ea8f2061bde538b8ecc51ea9dcf"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/fakir-mohan.jpg",
+      "bytes": 1933821,
+      "sha256": "8fe266a0eed100b0a98a3e41e0e4fb85805d497ac8bb2eefb4a5098f6ad47d72"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/fakir-mohan.webp",
+      "bytes": 170354,
+      "sha256": "de64db9a31244c1bd557f61ccfab1dc63e289bf9b7b388acf155385fc5761f0b"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/gopinath-mohanty.jpg",
+      "bytes": 317939,
+      "sha256": "8b50351fb083fb9653c659d93e9f1baf143a24a5749dd29378d569235ef8593c"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/mudhi-mansa.jpg",
+      "bytes": 90858,
+      "sha256": "7d96b934d4d64e38cd20f379e4aa342abe28a8bab2d3fa28305015a5e717edfa"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/odia-manuscript.jpg",
+      "bytes": 2728861,
+      "sha256": "deb051bf87c70aa75bcdf41c0b27f4a8de04fe8c9b8c83074a18705a021fad13"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/odia-manuscript.webp",
+      "bytes": 202426,
+      "sha256": "6561796f9ff2dad7377570df6353d06ed617ca36ef0a5f2d3e5f91f0a9fa0812"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/ol-chiki.svg",
+      "bytes": 7173,
+      "sha256": "43497034b34aae814636b2cf601c6d08dec5fdf1211d37521ae36c00f90e8b6e"
+    },
+    {
+      "path": "projects/site/public/assets/language-literature/pratibha-ray.jpg",
+      "bytes": 497837,
+      "sha256": "1441b03cfcafe5a963e0c7b211bf1399aa36fde27038029758d2fc4584bdd5f0"
+    },
+    {
+      "path": "projects/site/public/assets/utkal-favicon-64.png",
+      "bytes": 3536,
+      "sha256": "48ca5e5a24f34a6f94e273a061de414a3310ca6ff09826de1f3fdea1cc81c401"
+    },
+    {
+      "path": "projects/site/public/fonts/utkal/CormorantGaramond-OFL.txt",
+      "bytes": 4387,
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "path": "projects/site/public/fonts/utkal/NotoSerifOriya-OFL.txt",
+      "bytes": 4381,
+      "sha256": "c90ff15ade263a49148e35af34e9c177c6d56881e81260b29f10123e9e227eca"
+    },
+    {
+      "path": "projects/site/public/fonts/utkal/SourceSerif4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "path": "projects/site/public/images/chilika/chilika-lake-hellohappy.webp",
+      "bytes": 51720,
+      "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c"
+    },
+    {
+      "path": "projects/site/public/images/destinations/mangalajodi-boat.jpg",
+      "bytes": 76807,
+      "sha256": "fcd4f3fafa425d6d6db224e485c9024f196129191a92fa4612d0b8698b861f74"
+    },
+    {
+      "path": "projects/site/public/images/destinations/mangalajodi.webp",
+      "bytes": 386166,
+      "sha256": "a07dc76946d677bbdef4982bc1e4270c54e570b0685498acaab40d235eb17bfd"
+    },
+    {
+      "path": "projects/site/public/images/konark/sun-temple-darshanavenugopal.webp",
+      "bytes": 541898,
+      "sha256": "60c168e1b7c1d9128c73707af6a9a702656bc862eb4b566089d869a4cf2697ea"
+    },
+    {
+      "path": "projects/site/public/images/regions/barabati.jpg",
+      "bytes": 284319,
+      "sha256": "2962f3afd48583940ef59734331cd17ad891e6c2546600daaa3c8ebd044825a8"
+    },
+    {
+      "path": "projects/site/public/images/regions/barehipani.jpg",
+      "bytes": 131911,
+      "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026"
+    },
+    {
+      "path": "projects/site/public/images/regions/chandipur-panorama.jpg",
+      "bytes": 71369,
+      "sha256": "06e8b1a4852f7cb6726380a4ee934d3a3e5f80ea834d395012f76bfc8548dc4b"
+    },
+    {
+      "path": "projects/site/public/images/regions/chandipur-sunset.jpg",
+      "bytes": 63168,
+      "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1"
+    },
+    {
+      "path": "projects/site/public/images/regions/dhauli-elephant.jpg",
+      "bytes": 505564,
+      "sha256": "d41aa30f330a73ea7a4d86b95c024cc64fb548c67f3e4d677214743dc9b5d058"
+    },
+    {
+      "path": "projects/site/public/images/regions/dhauli.jpg",
+      "bytes": 529182,
+      "sha256": "f9721a5a64cf25f9fcc1a01ef9dfca841b668f0f744cf69c6b17d56f87f61792"
+    },
+    {
+      "path": "projects/site/public/images/regions/fresco-procession.jpg",
+      "bytes": 492158,
+      "sha256": "ce9e025d492adf02d471fae4c3656a00cacd0a71b25566dffbd6425a9cc2c671"
+    },
+    {
+      "path": "projects/site/public/images/regions/mukteswar-torana.jpg",
+      "bytes": 395288,
+      "sha256": "5e99da2e97be858ad291816baa401fa8a57cb6ff8f4d3deb69b00bd3da0be556"
+    },
+    {
+      "path": "projects/site/public/images/regions/mukteswar.jpg",
+      "bytes": 396496,
+      "sha256": "6e2a7594a24b50485a3302443420d9efbabcd81b03aefe836457c3308c28a6f5"
+    },
+    {
+      "path": "projects/site/public/images/regions/puri-beach.jpg",
+      "bytes": 133207,
+      "sha256": "b4914223a7f7e8acf7c9e051a086b34dba7daab24bf79205576e7fda0459a918"
+    },
+    {
+      "path": "projects/site/public/images/regions/raghurajpur-artisan.jpg",
+      "bytes": 462295,
+      "sha256": "a6f459469b4f825a3eaad7c7f040f670930dfb2f8e03a4a434c2ca18b259b05c"
+    },
+    {
+      "path": "projects/site/public/images/regions/raghurajpur.jpg",
+      "bytes": 404254,
+      "sha256": "a3110da75291e6f60e7bb3e53113c5fb0b474433f8fc25113c85af2502bc7ddf"
+    },
+    {
+      "path": "projects/site/public/images/tour-book/konark-wheel.jpg",
+      "bytes": 466660,
+      "sha256": "53dc3d084c462979e1cd8e0210fb8621821258fed1c34b81e1d904e294009f56"
+    },
+    {
+      "path": "projects/site/src/components/CoastalHome.astro",
+      "bytes": 2910,
+      "sha256": "63adca030334d59d7c8b196f22a09beefe1452501d7feb654bcf9b39d7bee4b2"
+    },
+    {
+      "path": "projects/site/src/components/CollectionOnward.astro",
+      "bytes": 5797,
+      "sha256": "b3901f2f066a208341d7a42f1d40a391d4c821f9e42e28d616cc46f80b7dd7eb"
+    },
+    {
+      "path": "projects/site/src/components/CorrectionDraft.astro",
+      "bytes": 10336,
+      "sha256": "6639ae81c6dc19bb64275e268ed5cf9d3d1b9b7519fb9a1f496b16e0abeb4cd7"
+    },
+    {
+      "path": "projects/site/src/components/CultureCards.astro",
+      "bytes": 787,
+      "sha256": "952cd73339aa7d081aa821e1c57f987559662b91ba32f03999c1971733079532"
+    },
+    {
+      "path": "projects/site/src/components/CultureConnections.astro",
+      "bytes": 3091,
+      "sha256": "aa4c527fc282e7d24758b13d80b13869a0cc7b0d0524a103db4742f5d814a6d5"
+    },
+    {
+      "path": "projects/site/src/components/CultureMagazine.astro",
+      "bytes": 3074,
+      "sha256": "f7cd02e9a04cd10ea054eff549635c439f0b9665a18355650191dfc4694ae633"
+    },
+    {
+      "path": "projects/site/src/components/CultureOnward.astro",
+      "bytes": 758,
+      "sha256": "7bd757246a83dd10f08088538b42cba7bccb91839826ad5ff1390d283e5712c9"
+    },
+    {
+      "path": "projects/site/src/components/DestinationCards.astro",
+      "bytes": 1574,
+      "sha256": "998ace67588a348a123e4c04d5e397c1dfabb40b108ef57b23ed1771fbb5502e"
+    },
+    {
+      "path": "projects/site/src/components/DestinationGuide.astro",
+      "bytes": 3909,
+      "sha256": "cd5135dafaf08e5302847165fc3fd68ed300a4eaaa3e5e7f751f32de5aab892f"
+    },
+    {
+      "path": "projects/site/src/components/MagazineArticle.astro",
+      "bytes": 1648,
+      "sha256": "c2d7096c32db943a6b0bf16b5bfe9183c6c209e2719a2bd731c1c78ef8130cc0"
+    },
+    {
+      "path": "projects/site/src/components/MagazineCover.astro",
+      "bytes": 1143,
+      "sha256": "4520f6c4dd66bea8df52d666a2fb79c6fe9fcfe70b1fb345197279e5c5b0a196"
+    },
+    {
+      "path": "projects/site/src/components/MagazinePlace.astro",
+      "bytes": 9300,
+      "sha256": "b12f4f1b99ac37187c65712a67db5d6f3ddd4a17aaed68fbf605d27bbca76033"
+    },
+    {
+      "path": "projects/site/src/components/PageShare.astro",
+      "bytes": 1592,
+      "sha256": "49c70e042c0b5daf49c4b685ea55f10f130e7447ad7517643d6859f6d5899080"
+    },
+    {
+      "path": "projects/site/src/components/PhotoJourney.astro",
+      "bytes": 3260,
+      "sha256": "34e7ee57a179b668d99efa8fc12c9f88e748d82864ca45ee00ed4594ba3e8f40"
+    },
+    {
+      "path": "projects/site/src/components/PlanningCollection.astro",
+      "bytes": 4712,
+      "sha256": "5386079ba0352714923c089cd830c66e2633394e672fb69f922989b2d3769b56"
+    },
+    {
+      "path": "projects/site/src/components/RegionMagazine.astro",
+      "bytes": 7598,
+      "sha256": "9783533338c1f380c87e61d052d24d9fa573cba1e058f7638745e155ba40d9f4"
+    },
+    {
+      "path": "projects/site/src/components/RegionalMeal.astro",
+      "bytes": 3762,
+      "sha256": "b03ad188fdf3cc83c06111db0fb389022c11edb1d052a514ac288a68339498e5"
+    },
+    {
+      "path": "projects/site/src/components/RelatedDiscoveries.astro",
+      "bytes": 2156,
+      "sha256": "272842009ace8ac17f0ebfc6112c9f6c076db3367aab00f9c90cc38dd751cb37"
+    },
+    {
+      "path": "projects/site/src/components/SaveJourney.astro",
+      "bytes": 731,
+      "sha256": "ea8d434933074a5205f34b87fedff19abcb6a983b1883c3eb22e9df26f822840"
+    },
+    {
+      "path": "projects/site/src/components/StoryBody.astro",
+      "bytes": 5455,
+      "sha256": "5b3ee5a097572346d33a5f64802ca5ad3aefb69687c77447934888386a835bed"
+    },
+    {
+      "path": "projects/site/src/components/StoryCards.astro",
+      "bytes": 1200,
+      "sha256": "035edfeee263f5f19de7a5d48f2ce68b2b36374e6d719d861ef7d65252487817"
+    },
+    {
+      "path": "projects/site/src/components/StoryContents.astro",
+      "bytes": 943,
+      "sha256": "4099b262fc5808927491cdb7c4e1d59c3ee4b58e1db494ef58232612180b082f"
+    },
+    {
+      "path": "projects/site/src/components/StoryInvitation.astro",
+      "bytes": 270,
+      "sha256": "f6e8bbbbbb25fc7ebbe7d249d1e968d9ad3aabbee96183cc9be59a34b97c44fb"
+    },
+    {
+      "path": "projects/site/src/components/StorySources.astro",
+      "bytes": 2052,
+      "sha256": "d56c1cc476fc07bfcbd54f64416c7e5629c966a5d2d124e2edaaf8dea219ccd5"
+    },
+    {
+      "path": "projects/site/src/components/StoryTrail.astro",
+      "bytes": 297,
+      "sha256": "d7041134fc4852a2d7a39b03101479463c7bbbe869a87cd1bb4724979920ccaf"
+    },
+    {
+      "path": "projects/site/src/components/VisitNotebook.astro",
+      "bytes": 3229,
+      "sha256": "d7ab4157354d9ec62774a417902b65e538fb716444abb3ab3d11f73bbfcc8a13"
+    },
+    {
+      "path": "projects/site/src/components/VoicesCredits.astro",
+      "bytes": 1684,
+      "sha256": "593ba65ee396e7c807c7b9c64f6ec957f853bbf0bbb20f5f985fa38a1dc86481"
+    },
+    {
+      "path": "projects/site/src/components/VoicesPage.astro",
+      "bytes": 1154,
+      "sha256": "875bad8c00bfbcba10135ff9ec2950b9c8cd68e3d6fa6279ae16750c10d9e238"
+    },
+    {
+      "path": "projects/site/src/data/book-photos.ts",
+      "bytes": 1734,
+      "sha256": "64f2ea974e1556880bb37f4a4063e96204419cd57696ea2e4e7db2ad8a5c99ed"
+    },
+    {
+      "path": "projects/site/src/data/correction-entries.ts",
+      "bytes": 1280,
+      "sha256": "3bd1b796deabaa55639f0601febc81e44ea0b15d67f8e292b6e5c01aecc84147"
+    },
+    {
+      "path": "projects/site/src/data/destination-details.ts",
+      "bytes": 2466,
+      "sha256": "199fb100ffe178263e618cd8da8f9ee3e0e908888ac46a89748db0be73cd9ef6"
+    },
+    {
+      "path": "projects/site/src/data/destination-directory.ts",
+      "bytes": 554,
+      "sha256": "9aed94500209443861a2d02a4878ba6c4192285a811a25ab89e83a19a978d5f3"
+    },
+    {
+      "path": "projects/site/src/data/discovery.ts",
+      "bytes": 4149,
+      "sha256": "0e47d56b26ab1e0c175289d6006dc85a29cef089f5e22a300d99063e2391b1b4"
+    },
+    {
+      "path": "projects/site/src/data/edition.ts",
+      "bytes": 713,
+      "sha256": "ac57ce41ddd2ebfc59779e3a17d7ca69e4023ae71d963e332492a80692d7a903"
+    },
+    {
+      "path": "projects/site/src/data/journey-catalog.ts",
+      "bytes": 4945,
+      "sha256": "7585944ede622aba98ec013fb4a1c8ffe6c892834e91f7dfe4b3f551d2f4fe7d"
+    },
+    {
+      "path": "projects/site/src/data/planning-collections.ts",
+      "bytes": 2263,
+      "sha256": "cc801ff46f7a7987524e5cbf738f08793db1cb698dada43b25b7f71f22eda848"
+    },
+    {
+      "path": "projects/site/src/data/reading-collection.ts",
+      "bytes": 223,
+      "sha256": "e417504c39ed767f7a5fb460ae8fbb44b729ba9ccc7f10b25e52b0872768af44"
+    },
+    {
+      "path": "projects/site/src/gallery/fresco-template.html",
+      "bytes": 33294,
+      "sha256": "698caa78e78924e3a885f48f68775e5ef0b1b0311daa47bcc93cb3c0a39e73e1"
+    },
+    {
+      "path": "projects/site/src/layouts/Shell.astro",
+      "bytes": 6138,
+      "sha256": "72d80694941fd2ecb3b36101e44031a06126a8ffc7bdc1bc4e4eb0f06b4fe124"
+    },
+    {
+      "path": "projects/site/src/lib/book-images.mjs",
+      "bytes": 3562,
+      "sha256": "9ecaba1d9e16b6599477342cbcd78bed791e3c54abe409e47531ee7d533f0314"
+    },
+    {
+      "path": "projects/site/src/lib/correction.mjs",
+      "bytes": 2399,
+      "sha256": "b223133e1162ea47b03f6c304af65101f4640a86f4a67db8cd0c9f192c2aeb49"
+    },
+    {
+      "path": "projects/site/src/lib/day-planner.mjs",
+      "bytes": 3412,
+      "sha256": "0ac93ed1885b3a2b21501b18cfcd66434b3b5b98f649f6847b4e7cce7f796596"
+    },
+    {
+      "path": "projects/site/src/lib/discovery.mjs",
+      "bytes": 1172,
+      "sha256": "ed08a4c9273222888bdad853569ad5b0ea6567339d1c09391bbc5db16f95d989"
+    },
+    {
+      "path": "projects/site/src/lib/downloads.mjs",
+      "bytes": 793,
+      "sha256": "7bc78f746928ebb7722f34316591a9b44b663da3436b49ab0825a7273d3e4bdd"
+    },
+    {
+      "path": "projects/site/src/lib/journey-ready.mjs",
+      "bytes": 3660,
+      "sha256": "feae3d11abfc691187edf53b80fabbbec3b7d4c8ffddc2eb4bb2408400ef8f2c"
+    },
+    {
+      "path": "projects/site/src/lib/journey-starters.mjs",
+      "bytes": 764,
+      "sha256": "ba3814158cb5141901ef0770d5dca74e9f1b09fe2c41222f2745df23c1da159a"
+    },
+    {
+      "path": "projects/site/src/lib/journey-storage.mjs",
+      "bytes": 881,
+      "sha256": "a2b51c78e370379581135150c626d18ff27e552b7327d69c3fadff4bf8ee1edb"
+    },
+    {
+      "path": "projects/site/src/lib/journey.mjs",
+      "bytes": 10061,
+      "sha256": "81bd57e2024349614316ce1ed260f033a79d143b10fe0b6b217e60b505fe79b6"
+    },
+    {
+      "path": "projects/site/src/lib/preparation.mjs",
+      "bytes": 460,
+      "sha256": "3c8521498d845853ac8daf2444b4d0ccc9159c54fdd13e5f195664b6e0f1073c"
+    },
+    {
+      "path": "projects/site/src/lib/search.mjs",
+      "bytes": 241,
+      "sha256": "9b0be92de526ab64e1e4c03f6fd6ed8973d29f0678911ef8b91950bcfa16846a"
+    },
+    {
+      "path": "projects/site/src/lib/tour-book.mjs",
+      "bytes": 10784,
+      "sha256": "0c96de6ccd53792e2d3e112cb2c0ea9467e33b87f1771eae185faefd4da0e07d"
+    },
+    {
+      "path": "projects/site/src/pages/404.astro",
+      "bytes": 960,
+      "sha256": "5236836ec8b97db7e0860439313b305e7208f2c2cb24a795386918caeb757164"
+    },
+    {
+      "path": "projects/site/src/pages/about.astro",
+      "bytes": 1924,
+      "sha256": "09ade3a94403619d40d01a2088e61d8fe9fb5d71141645a5780b44850f11c43d"
+    },
+    {
+      "path": "projects/site/src/pages/brand-review.astro",
+      "bytes": 8022,
+      "sha256": "71e8896a4fe114ddc53fdab47ad54caa0e95ceef4a0a1ea01a87ece14ba2a6b8"
+    },
+    {
+      "path": "projects/site/src/pages/contribute.astro",
+      "bytes": 3829,
+      "sha256": "8fa3d83cbb869eb64ac7eaf665175e56bb8172cf703be44e89ed4c4393b25928"
+    },
+    {
+      "path": "projects/site/src/pages/destinations/[slug].astro",
+      "bytes": 9739,
+      "sha256": "d59813ca2664650b6d3f86c0d24ff5ee6ae7b4be6ad6e375d528c5326f2014d5"
+    },
+    {
+      "path": "projects/site/src/pages/destinations/index.astro",
+      "bytes": 1320,
+      "sha256": "50dafe872eb3e411c0c5b2116068f4f586fa2ea889f40f863af990ed33bff119"
+    },
+    {
+      "path": "projects/site/src/pages/explore.astro",
+      "bytes": 8796,
+      "sha256": "7444b0b2026fbac34255596ed0f6554566a5f834b8978392bd0ea90422c0425b"
+    },
+    {
+      "path": "projects/site/src/pages/food/[slug].astro",
+      "bytes": 6007,
+      "sha256": "f6e9d5a76b8c74162720781de31031485ea888cab9387b425747a2be7be515c2"
+    },
+    {
+      "path": "projects/site/src/pages/food/bhubaneswar.astro",
+      "bytes": 172,
+      "sha256": "298ce7bb08ec36ed504bd16b523524c79e941b09c15d38c9dcf76009b12cf8fb"
+    },
+    {
+      "path": "projects/site/src/pages/food/index.astro",
+      "bytes": 262,
+      "sha256": "88a4356dca3a5a667ff7ac9471dfd0c4afd176df6363007577b9b0a081e79335"
+    },
+    {
+      "path": "projects/site/src/pages/food/puri-coast.astro",
+      "bytes": 171,
+      "sha256": "b3a8a362b02a9ccc0ebb72f0c2d742a4f86d19fbad0974c1bc8b809317472ca6"
+    },
+    {
+      "path": "projects/site/src/pages/founder.astro",
+      "bytes": 1334,
+      "sha256": "e6956ccc95d80cace84de0511170d6022f8c3527cb4c9fb339246130b8040aba"
+    },
+    {
+      "path": "projects/site/src/pages/how-to-use.astro",
+      "bytes": 5663,
+      "sha256": "ed47a075739c5c4d5faaa96dad92cf6559216ed476624ce57c4eddb3f4613c73"
+    },
+    {
+      "path": "projects/site/src/pages/index.astro",
+      "bytes": 6944,
+      "sha256": "3e380c8758c0ed4f20549ed6781a771ab42f76288d3d90475670cf7cbef5372d"
+    },
+    {
+      "path": "projects/site/src/pages/journey-starters.astro",
+      "bytes": 4243,
+      "sha256": "7a96632479ba30944aac7687a355ca1eec95ea423ea0164a208405065524cd01"
+    },
+    {
+      "path": "projects/site/src/pages/journey.astro",
+      "bytes": 20887,
+      "sha256": "c04386742ce502d27b6a6e97742d7ecc92adf08f096a816bddc0b3215ea32955"
+    },
+    {
+      "path": "projects/site/src/pages/knowledge/[slug].astro",
+      "bytes": 11234,
+      "sha256": "59b0e9f089c616481addfdeaf28ce4d219637e7f38b6d68e9f97fe24ae69e6d4"
+    },
+    {
+      "path": "projects/site/src/pages/languages/ho.astro",
+      "bytes": 235,
+      "sha256": "ad1230701ac194a57787f72ded3290a756507e7be63f04b6f7c0af98af60f3c9"
+    },
+    {
+      "path": "projects/site/src/pages/languages/index.astro",
+      "bytes": 232,
+      "sha256": "147cc324129492f0a70ebcbb91606393d8c02c6708b44cba7fa75400eac4c950"
+    },
+    {
+      "path": "projects/site/src/pages/languages/juang.astro",
+      "bytes": 238,
+      "sha256": "d9762bf4ecdc5c1cde6972ce5f646c5299e2a908c85ff97ddda9409112e546f6"
+    },
+    {
+      "path": "projects/site/src/pages/languages/koya.astro",
+      "bytes": 237,
+      "sha256": "1cb77156f4a6cb9d984dbe38756741dda10f22e666e0693b6f5db5b7df2bc5fb"
+    },
+    {
+      "path": "projects/site/src/pages/languages/kui.astro",
+      "bytes": 236,
+      "sha256": "d8fb1d8e1010a6fc12befc2b2d7523a3b683105f8a0e90216d30e53f211f5406"
+    },
+    {
+      "path": "projects/site/src/pages/languages/kuvi.astro",
+      "bytes": 237,
+      "sha256": "3767f28cc3eea9f3dec0367ad765c4ad1f4f646a5d9998dddbc49370c6c552cc"
+    },
+    {
+      "path": "projects/site/src/pages/languages/odia.astro",
+      "bytes": 237,
+      "sha256": "1c5d408d7ffec680c737aa58ca5f233d1006b04b8638461d2cf4a8b17ff9f3e3"
+    },
+    {
+      "path": "projects/site/src/pages/languages/santali.astro",
+      "bytes": 240,
+      "sha256": "430317c963dbae6054bd469159c3c0c569d4c74f5401a46444241f518bf14c06"
+    },
+    {
+      "path": "projects/site/src/pages/languages/saora.astro",
+      "bytes": 238,
+      "sha256": "8d5631a27605a59136b2dbb05f31e0418e4d8f6bd7292152aba36f1224558800"
+    },
+    {
+      "path": "projects/site/src/pages/literature/index.astro",
+      "bytes": 233,
+      "sha256": "599bd5137277d2f6c36a2c81da50de84ab6263dadce600463da2fce3201ec2eb"
+    },
+    {
+      "path": "projects/site/src/pages/literature/six-acres-and-a-third.astro",
+      "bytes": 255,
+      "sha256": "ac028f70f8d645e34c943addccf4163a4b8bb8e3d060dc41e56836f0da9b4465"
+    },
+    {
+      "path": "projects/site/src/pages/people/bhima-bhoi.astro",
+      "bytes": 240,
+      "sha256": "93bb44768fd0f55ad9a6f663156ec4978e828d40276e7d2129157411dba0281c"
+    },
+    {
+      "path": "projects/site/src/pages/people/fakir-mohan-senapati.astro",
+      "bytes": 250,
+      "sha256": "5d0b428b95e6af620cd8405ed336ad5fb4d138fc4290466fec3020a0c75a07c9"
+    },
+    {
+      "path": "projects/site/src/pages/people/gangadhar-meher.astro",
+      "bytes": 245,
+      "sha256": "08b73c83dacbe38ac98d909440f7e2e84445da98209859ab764728a713aaf9ae"
+    },
+    {
+      "path": "projects/site/src/pages/people/gopinath-mohanty.astro",
+      "bytes": 246,
+      "sha256": "dbf313fedc410e5d72abccb128f059857ca420bd466b3af890d45413992efc7b"
+    },
+    {
+      "path": "projects/site/src/pages/people/pratibha-ray.astro",
+      "bytes": 242,
+      "sha256": "61abbf47a8dd67da2524c6cddb6804b9e8191380cf09d1e295ecffd82e89c2d5"
+    },
+    {
+      "path": "projects/site/src/pages/people/samanta-chandrasekhar.astro",
+      "bytes": 7529,
+      "sha256": "cae5367dbc1f2b9f11ae95078f25b65f257cee805fb6932ea79ebd06f2e75583"
+    },
+    {
+      "path": "projects/site/src/pages/people/sarala-das.astro",
+      "bytes": 240,
+      "sha256": "57f656a8b406d9072b60085d7127c8d7cdd141c95ce14dae04c0282ae9a7a7ac"
+    },
+    {
+      "path": "projects/site/src/pages/stay-areas/index.astro",
+      "bytes": 268,
+      "sha256": "9169ba4419135ee6a6b2ff4d3fc7e97f9b14864707ebb88451da2fa5be468840"
+    },
+    {
+      "path": "projects/site/src/pages/stories/bhubaneswar-fresco/index.astro",
+      "bytes": 852,
+      "sha256": "a52dd1eae3ef8f11bbe78512603f897f8133febec2be3085a0f7f87f1eadf366"
+    },
+    {
+      "path": "projects/site/src/pages/stories/bhubaneswar-fresco/story.md",
+      "bytes": 6600,
+      "sha256": "9476d6a8e047747b02beb304b50a582761c04cfc366b154ea75e712f4d139e61"
+    },
+    {
+      "path": "projects/site/src/pages/stories/culture-trails/index.astro",
+      "bytes": 629,
+      "sha256": "f8a1925208260efde79e47e6e51b9247bbc07f5663d7fa4e2ced03c40cd82a91"
+    },
+    {
+      "path": "projects/site/src/pages/things-to-do/index.astro",
+      "bytes": 270,
+      "sha256": "6eba51c716105b23104948cbeaf11c71e382102474594a6fe65459104ceb89eb"
+    },
+    {
+      "path": "projects/site/src/pages/visit/[kind]/[slug].astro",
+      "bytes": 6006,
+      "sha256": "75cc972938a504000579da0000a08763d44b7f0ec8c4a3bf54e695a2bd589b7a"
+    },
+    {
+      "path": "projects/site/src/scripts/journey.ts",
+      "bytes": 46299,
+      "sha256": "aaad26dd262ca320c290be5f40c3a663ec9f83a24bc77e5fec37370f551b559f"
+    },
+    {
+      "path": "projects/site/src/styles/culture-magazine.css",
+      "bytes": 3963,
+      "sha256": "256ca292fae3176a0298124b4781a376e923e79479554b99a270e807da786b35"
+    },
+    {
+      "path": "projects/site/src/styles/design-system.css",
+      "bytes": 4983,
+      "sha256": "80954861a8b27cacf556a9d67991826f360e878834e134a975b60a37f9a3f370"
+    },
+    {
+      "path": "projects/site/src/styles/fresco-system.css",
+      "bytes": 1934,
+      "sha256": "4cfbd636a51fefc0d6f32e7df4aa1228303f8d3034a58810da1d0dc52e495820"
+    },
+    {
+      "path": "projects/site/src/styles/global.css",
+      "bytes": 35273,
+      "sha256": "0f0541ec994de6c7945f37edb24aee7963fdfb1a85b6956ced0ec389647f0d22"
+    },
+    {
+      "path": "projects/site/src/styles/magazine-place.css",
+      "bytes": 86,
+      "sha256": "83fa5ef78afcf775939ea39c801b046787c402ea299d100677543aff5b285654"
+    },
+    {
+      "path": "projects/site/src/styles/region-magazine.css",
+      "bytes": 3068,
+      "sha256": "7dd84a1e4ad57e1e5f54ee8f1bb35900efed14e9529188475618a0773959d8e4"
+    },
+    {
+      "path": "projects/site/src/styles/visitor-flow.css",
+      "bytes": 2013,
+      "sha256": "e0dea0e62db71995a147ca3c454fad1158fa17fd4cde68135d36cf1646a4fe7d"
+    },
+    {
+      "path": "projects/site/tests-coast/edition-validation.test.mjs",
+      "bytes": 3693,
+      "sha256": "867a555acfb39ffcbd2fa697f6162fb62bcbe36402e28bad661f48f4a096da3d"
+    },
+    {
+      "path": "projects/site/tests-coast/edition.test.mjs",
+      "bytes": 4244,
+      "sha256": "672242e29c53865c9944ca65d2450e1baeb0fea5bf565c990d502322af0d859a"
+    },
+    {
+      "path": "projects/site/tests/bhubaneswar-collection.test.mjs",
+      "bytes": 2903,
+      "sha256": "4913e6df3f9d218556f52afe412e758d4849eaadc95ac06b907ad606325de8aa"
+    },
+    {
+      "path": "projects/site/tests/bhubaneswar-visitor.test.mjs",
+      "bytes": 1442,
+      "sha256": "d66a5b18db5bddfa338d8df4452356c7b96322a33552c0092a3bce0a8cd3518a"
+    },
+    {
+      "path": "projects/site/tests/build.test.mjs",
+      "bytes": 4862,
+      "sha256": "84687d4232c61eef79bd4dfda046b3e0e97c289a3a460621f6408fb280454917"
+    },
+    {
+      "path": "projects/site/tests/city-culture-flow.test.mjs",
+      "bytes": 2786,
+      "sha256": "52930ddd284eef8f832620b1cde6a7f5c0303a153f411064244fd2d82a453b7d"
+    },
+    {
+      "path": "projects/site/tests/coastal-collection.test.mjs",
+      "bytes": 3496,
+      "sha256": "21b2e72ceed595ab952a83c7e5d1b28264bab069a8e010bd8884c4d549642f2e"
+    },
+    {
+      "path": "projects/site/tests/day-planner.test.mjs",
+      "bytes": 7729,
+      "sha256": "52e9be2897284ec1dbf1c73d1d445515ca02813b8c27fc082bd0c6046cd455ac"
+    },
+    {
+      "path": "projects/site/tests/destination-details.test.mjs",
+      "bytes": 2293,
+      "sha256": "a3582597ba7a561960ebf97b1f6376751bd07e663e537b22e529c6a65aa19462"
+    },
+    {
+      "path": "projects/site/tests/discovery-and-books.test.mjs",
+      "bytes": 8826,
+      "sha256": "3cce0aacfd98ad80bb0093c6a1b20061cd1690228e06c01bdf27c42ee3de43ad"
+    },
+    {
+      "path": "projects/site/tests/editorial.test.mjs",
+      "bytes": 9164,
+      "sha256": "f67512a914e65fdcef548f4c2d5098907e2e5d96fc281a70b04d6631ca45c7bf"
+    },
+    {
+      "path": "projects/site/tests/journey-ready.test.mjs",
+      "bytes": 10049,
+      "sha256": "8ddb0fdc0603bbb0dc27029e2707898b7e808685713fd34c1ee381b969106622"
+    },
+    {
+      "path": "projects/site/tests/journey-starters.test.mjs",
+      "bytes": 3357,
+      "sha256": "2ef2e0866d9904cb05ddb78593c23accdb9a275ed473cda0315ca1858d6d42d8"
+    },
+    {
+      "path": "projects/site/tests/journey.test.mjs",
+      "bytes": 6600,
+      "sha256": "74e9b6c336e56f12c7ef813d3e75422a7427d805630d736993b298554a0818d3"
+    },
+    {
+      "path": "projects/site/tests/magazine-preservation.test.mjs",
+      "bytes": 1780,
+      "sha256": "16be563a2ca76debab010ae093817a574db894e12ac564d49da8cb5058b5bcc1"
+    },
+    {
+      "path": "projects/site/tests/next-twenty.test.mjs",
+      "bytes": 5601,
+      "sha256": "6c80163ccb614c2a1fd402b5227c7f5a9c4d33733cdc729309ab1129ebc0fa54"
+    },
+    {
+      "path": "projects/site/tests/overnight-reliability.test.mjs",
+      "bytes": 9020,
+      "sha256": "08de8b6e0cd91715e9e22915cca1b219d17c9e645b82845bdd7689f4399f52e3"
+    },
+    {
+      "path": "projects/site/tests/reading-collection.test.mjs",
+      "bytes": 1912,
+      "sha256": "d86eb349ad387fbbec21ee2e217a83ff919ab8432d5297f234a8737d4659e33b"
+    },
+    {
+      "path": "projects/site/tests/ready-exports.test.mjs",
+      "bytes": 3536,
+      "sha256": "9ea32f26372c25f916308c4b8ff703b9c93066afc1a337ac5fd6b0401653c0de"
+    },
+    {
+      "path": "projects/site/tests/regions.test.mjs",
+      "bytes": 2087,
+      "sha256": "a97e6f40cfcb3be0ecc46474fe9a5f39de08632ac80732ffcf625d5ab9b59f90"
+    },
+    {
+      "path": "projects/site/tests/tour-book.test.mjs",
+      "bytes": 5275,
+      "sha256": "853c85c07773e9017d685a07f9e4018c3b4eaa8ce31fd6013b5328a1c5d05443"
+    },
+    {
+      "path": "projects/site/tests/visit-notebooks.test.mjs",
+      "bytes": 2601,
+      "sha256": "52b4b683ec1b2123b1b765fae2247a8fc2d284973742d7a29fe3a28600aa3109"
+    },
+    {
+      "path": "projects/site/tests/visitor-planning.test.mjs",
+      "bytes": 3593,
+      "sha256": "6dd718ab6cf327d0e85e8586ddc1296a2d63015c5c2fd047dc626dc139e4867a"
+    },
+    {
+      "path": "projects/site/tests/voices.test.mjs",
+      "bytes": 1939,
+      "sha256": "93f3511831cfce8c317025e7aa02793a3fd26ae295289d2ba5af01166b42b094"
+    },
+    {
+      "path": "projects/site/tools/audit-coast.py",
+      "bytes": 6332,
+      "sha256": "3bfeb174532fe2faad0b4d3d0e0628f92b2ed2e3e0aad9dc3d9c883d4b6c3bd8"
+    },
+    {
+      "path": "projects/site/tools/build-coast.mjs",
+      "bytes": 474,
+      "sha256": "c72f66aeb3bb8d80a93c7165d8b32bf420c1e1410d51eae3acfa1ce66d8f629b"
+    },
+    {
+      "path": "projects/site/tools/finalize-edition.py",
+      "bytes": 8188,
+      "sha256": "e05714329421a0d1302b628e97ca60709f59b82b190668b5c03b55b86fb722e2"
+    },
+    {
+      "path": "projects/site/tools/prepare-design-system.mjs",
+      "bytes": 682,
+      "sha256": "c2cebbe8af185ebacc62f9218fb5db815b20b1ff581e6e790fc5f8a1515fb2c5"
+    },
+    {
+      "path": "projects/site/tools/serve-launch-review.py",
+      "bytes": 2377,
+      "sha256": "03e9086c20bc5e39459e802f04be0e0471170e79d18b313fdf1e84d3469ee01c"
+    },
+    {
+      "path": "projects/site/tools/serve-next-review.py",
+      "bytes": 871,
+      "sha256": "ef20e1ed19b94a8fd11b9d8427acb35385a3b32aece687f566bd72adeb5ee93d"
+    },
+    {
+      "path": "projects/site/tools/serve-ready-review.py",
+      "bytes": 1237,
+      "sha256": "13728ea24e425de3e3f8ed3bdcb959fbd9a358bfc6f5e94a714164f0a41b0d08"
+    },
+    {
+      "path": "projects/site/tools/serve-review.py",
+      "bytes": 881,
+      "sha256": "5c89ac5aabfaf2d6c925172207f0d55091e20be1c7e83e6b5cda93b70e0a0cd9"
+    },
+    {
+      "path": "tools/media/compress-fonts.py",
+      "bytes": 1627,
+      "sha256": "01de4a8dc69bb834f95d17eaa5d23f595553033885a6695bb851e69f80cc1bf0"
+    },
+    {
+      "path": "tools/media/render_chilika_film.py",
+      "bytes": 7761,
+      "sha256": "d078d3211c6e88ffe277bf238ccebf627561e725282e5e27a32c275b840b0cd7"
+    }
+  ]
+}

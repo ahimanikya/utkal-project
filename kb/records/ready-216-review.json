@@ -1,0 +1,64 @@
+{
+  "recorded_at": "2026-09-30T16:43:15.295614+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-071",
+  "checks": {
+    "implementation_items": 42,
+    "editorial_questions": 42,
+    "export_scenarios": 72,
+    "regression_cases": 36,
+    "responsive_inspections": 18,
+    "integrated_checks": 6,
+    "site_tests_pass": 313,
+    "coastal_tests_pass": 10,
+    "page_audit_checks_pass": 64,
+    "full_draft_pages": 72,
+    "coastal_pages": 16,
+    "items_completed": 216,
+    "coastal_files": 54,
+    "coastal_bytes": 7098220,
+    "kb_validation": "PASS: 545 concepts, 1924 local links; 218 register records, 82 events; whitespace check passed."
+  },
+  "findings_and_repairs": [
+    "Trip switching could leave the previous visible title when that field retained focus; explicitly reset the title on trip selection and verified in browser.",
+    "Import preview and one-photo download feedback corrected for singular/plural.",
+    "Review harness scrollIntoView moved the outer page; switched to frame-only scrolling and rechecked all 18 aligned layouts. First misplaced screenshot replaced before final reconciliation."
+  ],
+  "limitations": [
+    "216 acceptance items comprise 84 product/content items and 132 verification items, not 216 new features or pre-existing backlog tickets.",
+    "Same AI assistant implemented and reviewed. Forty-two original editorial questions remain drafts; no new fieldwork, factual verification, quotation authentication, image clearance or human language review is claimed.",
+    "Current clients retain optional reminders; older clients can discard them. Existing browser quotas and import-size limits remain.",
+    "Native PDF pagination remains UTP-WORK-080. Actual downloaded file bytes were not independently inspected; illustrated export reported success in the browser. Generated portable output and privacy have automated coverage.",
+    "The real import handler was exercised with synthetic File objects supplied by a local fixture toolbar. The operating-system file chooser was not tested. The toolbar is absent from built delivery.",
+    "Responsive checks measure DOM geometry and loaded images with expanded controls; representative screenshots were inspected. This is not a full accessibility or physical-device audit.",
+    "Public guide questions, journey title, dates, saved choices and general checklist marks remain in shareable copies. Personal reminder wording and ticks are excluded as a separate private list; copied original questions can also appear as public editorial text.",
+    "Local candidate only. No commit, push, merge, deployment, public issue, paid service or outreach. Shared package rc.5 and earlier editorial holds remain unchanged."
+  ],
+  "evidence": [
+    "records/evidence/ready-216-2026-09-30/baseline.json",
+    "records/evidence/ready-216-2026-09-30/book-scope-desktop.png",
+    "records/evidence/ready-216-2026-09-30/browser-functional.json",
+    "records/evidence/ready-216-2026-09-30/build-report.json",
+    "records/evidence/ready-216-2026-09-30/coast-build.log",
+    "records/evidence/ready-216-2026-09-30/coast-tests.log",
+    "records/evidence/ready-216-2026-09-30/editorial-questions.json",
+    "records/evidence/ready-216-2026-09-30/full-build.log",
+    "records/evidence/ready-216-2026-09-30/full-draft-manifest.json",
+    "records/evidence/ready-216-2026-09-30/full-tests.log",
+    "records/evidence/ready-216-2026-09-30/import-fixture.html",
+    "records/evidence/ready-216-2026-09-30/index.html",
+    "records/evidence/ready-216-2026-09-30/konark-notebook-desktop.png",
+    "records/evidence/ready-216-2026-09-30/konark-questions-phone.png",
+    "records/evidence/ready-216-2026-09-30/page-acceptance.json",
+    "records/evidence/ready-216-2026-09-30/preparation-phone.png",
+    "records/evidence/ready-216-2026-09-30/previous-evidence-preservation.json",
+    "records/evidence/ready-216-2026-09-30/record-validation.json",
+    "records/evidence/ready-216-2026-09-30/reminders-phone.png",
+    "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+  ]
+}

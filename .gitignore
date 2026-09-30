@@ -9,3 +9,10 @@ projects/site/src/gallery/fresco.generated.html
 
 # Also ignore a local dependency symlink (directory-only patterns do not match it).
 node_modules
+
+# Separate, generated coastal launch preview
+projects/site/dist-coast/
+projects/site/.coast-staging/
+projects/site/.coast-backup-*/
+
+projects/site/.release-candidates/

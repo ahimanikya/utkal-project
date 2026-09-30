@@ -48,3 +48,16 @@ For a material change, append: version/date; added/changed/retired requirement I
 Keep prior entries intact. If an entry itself needs correction, append a dated correction explaining what was wrong. Use an erratum/new version for frozen baseline errors rather than editing history silently.
 
 [Current PRD](prd.md) · [Maintenance procedure](prd-maintenance.md) · [Version register](../references/data/prd-version-register.json)
+
+
+## 30 September 2026 UTC · Twenty-item implementation batch
+
+Founder accepted the local visual baseline and requested sequential delivery of twenty next items (UTP-DEC-049). [The bounded batch](next-twenty.md) extends existing destination, language, literature, discovery and tour-book requirements. No retroactive change to the preserved PRD baseline or claim of scholarly/publication approval. All twenty are implemented locally; source, behaviour and review evidence are linked from the batch.
+
+## 30 September 2026 UTC · Connect discovery to personal planning
+
+UTP-DEC-050 records continuation authority. [Five locally implemented improvements](discovery-connections.md) extend existing discovery and journey requirements without changing the preserved PRD baseline. Real-photo entry points, Odia city aliases and separate editable starters turn the growing collection into connected visitor paths. No new service cost or publication.
+
+## 30 September 2026 UTC · Visitor planning and inner-page foundations
+
+UTP-DEC-051 records continuation and the Founder’s unresolved layout concern. [This batch](visitor-planning-batch.md) adds collection entry points and per-journey checklists within existing discovery/tour-book scope. It corrects specific layout issues and keeps broader refinement open. No change to the frozen PRD baseline, publication state or service cost.

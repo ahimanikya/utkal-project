@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-09-30T20:50:22.381305+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-073",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/4",
+  "scope": "Consolidate existing Utkal work for draft PR review; coastal deployment remains 16 pages.",
+  "local_checks": {
+    "secret_pattern_scan": {
+      "files": 473,
+      "matches": 0,
+      "limitation": "Pattern screening only; not a comprehensive security review."
+    },
+    "site_tests": 313,
+    "coastal_tests": 10,
+    "design_system_tests": 6,
+    "page_checks": 64,
+    "clean_checkout": "All staged-source steps passed after explicit gallery generation.",
+    "frozen_output_matches": true,
+    "coastal_files": 54,
+    "coastal_bytes": 7098515
+  },
+  "remote_checks": {
+    "validated_head": "1a81ada827907c4d537931b0673d1fd39943ac99",
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/36775022636",
+    "conclusion": "success",
+    "artifact_matches_frozen_candidate": true,
+    "artifact_files": 54,
+    "artifact_bytes": 7098515,
+    "artifact_expires": "2026-10-14T20:47:38Z",
+    "note": "This run validates the product commit. A later record-only handoff commit may follow; its separate run is not claimed here."
+  },
+  "limits": [
+    "No merger or public-site deployment authorised by this increment.",
+    "Native PDF pagination and Founder editorial acceptance remain open.",
+    "Full-draft source and history in the PR exceed the coastal deployment scope."
+  ],
+  "findings_and_repairs": [
+    "Fresh-checkout design-system test failed because its generated gallery was absent. PR workflow now generates it before testing. The initial failure log is retained.",
+    "Design-system archive index now distinguishes historical rc.2 download from current rc.5 source."
+  ],
+  "evidence": [
+    "records/evidence/release-pr-2026-09-30/clean-checkout-first-attempt.json",
+    "records/evidence/release-pr-2026-09-30/clean-checkout.json",
+    "records/evidence/release-pr-2026-09-30/clean-design-system-tests.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-bundle.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-catalog.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-coast-build.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-coast-tests.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-design-review-build.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-design-system-tests.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-full-build.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-full-tests.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-install.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-page-audit.log",
+    "records/evidence/release-pr-2026-09-30/clean-final-registers.log",
+    "records/evidence/release-pr-2026-09-30/clean-full-build.log",
+    "records/evidence/release-pr-2026-09-30/clean-full-tests.log",
+    "records/evidence/release-pr-2026-09-30/clean-install.log",
+    "records/evidence/release-pr-2026-09-30/config-tests.log",
+    "records/evidence/release-pr-2026-09-30/design-system-tests.log",
+    "records/evidence/release-pr-2026-09-30/github-artifact-verification.json",
+    "records/evidence/release-pr-2026-09-30/github-validation.json",
+    "records/evidence/release-pr-2026-09-30/preparation-baseline.json",
+    "records/evidence/release-pr-2026-09-30/push-and-pr-update.json",
+    "records/evidence/release-pr-2026-09-30/register-tests.log"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "release_readiness_review",
+  "recorded_at": "2026-09-30T02:26:35.005377+00:00",
+  "status": "candidate_for_founder_review",
+  "independent": false,
+  "reviewer": "Current AI assistant",
+  "checks": [
+    "50-page build and all 46 tests passed.",
+    "Followed homepage → Explore search → Chilika → save → My journey → day and note → illustrated download. Added Konark and confirmed download feedback reports 2 photographs.",
+    "Temporary Release check — temporary journey removed; original empty My Odisha Journey retained.",
+    "Seven sampled pages measured at 390 CSS px with no horizontal overflow; all sampled eager images loaded. Odia elements select the bundled OdiaSerif font.",
+    "Native print capability retried and failed; no PDF file claimed.",
+    "Manual publication workflow requires main, actor ahimanikya and publish_approved=true. Store remains outside site output.",
+    "Largest repository candidate file is 24709780 bytes. Site output is approximately 101 MB, recorded exactly in manifest. No hosting quota claim or live deployment validation."
+  ],
+  "fixes": [
+    "Added direct public issue proposals for new subjects and photographs, usable without a pre-existing encyclopedia entry.",
+    "Added Chilika and Konark to the curated photo export map; Konark uses a 466660-byte resized real photograph with provenance.",
+    "Added printing fallback guidance and error handling.",
+    "Corrected food-story navigation labels and removed duplicated project name from page titles."
+  ],
+  "limitations": [
+    "Native PDF printing returned Printing is not available; actual A4 pagination remains unverified. Offline HTML download works, and the page explains the printing fallback.",
+    "Odia script rendering checked; linguistic accuracy still needs human/native-language review. No physical-device or screen-reader conformance claim.",
+    "Issue handoff URLs and templates checked locally. No real issue submitted and no GitHub template activation performed.",
+    "Founder editorial/release approval is pending. This candidate remains noindex and carries editorial preview labels.",
+    "Downloaded browser bytes were not independently retrieved; the UI reported both flagship photographs included. Existing standalone synthetic book evidence and generator tests are retained."
+  ],
+  "evidence": [
+    "records/release-candidate-manifest.json",
+    "records/evidence/release-readiness/mobile-measurements.json",
+    "records/evidence/release-readiness/food-mobile.png",
+    "research/destinations/book-images.json"
+  ]
+}

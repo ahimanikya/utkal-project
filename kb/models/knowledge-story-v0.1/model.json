@@ -1,0 +1,503 @@
+{
+  "model_id": "utkal-knowledge-story",
+  "version": "0.1",
+  "status": "candidate_for_founder_review",
+  "creator_direction": "Ahimanikya Satapathy",
+  "prepared_with": "AI assistance",
+  "contract_kind": "Information dictionary and templates; not JSON Schema or runtime validation",
+  "entity_types": [
+    "place",
+    "food",
+    "craft",
+    "object",
+    "festival",
+    "person",
+    "cultural_work",
+    "community",
+    "organization",
+    "experience",
+    "stay",
+    "material",
+    "language"
+  ],
+  "profiles": {
+    "place": {
+      "modules": [
+        "identity",
+        "history",
+        "memory",
+        "experiences",
+        "food",
+        "culture",
+        "nature_science",
+        "people",
+        "community",
+        "visit",
+        "expectations",
+        "related"
+      ],
+      "optional_extensions": []
+    },
+    "thing": {
+      "modules": [
+        "identity",
+        "history",
+        "memory",
+        "materials_making",
+        "variations",
+        "use_meaning",
+        "culture",
+        "nature_science",
+        "people",
+        "community",
+        "experiences",
+        "care",
+        "expectations",
+        "related"
+      ],
+      "optional_extensions": [
+        "food",
+        "visit"
+      ],
+      "note": "Choose entity_type food, craft, object or material; thing is a profile, not a universal factual category."
+    },
+    "language": {
+      "modules": [
+        "language_identity",
+        "language_geography",
+        "history",
+        "sound_script",
+        "oral_traditions",
+        "culture",
+        "use_meaning",
+        "people",
+        "language_learning",
+        "language_today",
+        "related"
+      ],
+      "optional_extensions": [],
+      "note": "Language or variety profile; subtype and classification are sourced, not inferred from editorial grouping. See reference/language-heritage-model.md."
+    }
+  },
+  "module_states": [
+    "not_researched",
+    "researching",
+    "draft",
+    "reviewed",
+    "not_applicable"
+  ],
+  "entry_kinds": [
+    "documented_fact",
+    "local_belief",
+    "oral_account",
+    "quotation",
+    "editorial_interpretation",
+    "visitor_advice"
+  ],
+  "review_states": [
+    "research_lead",
+    "draft",
+    "source_checked",
+    "human_reviewed",
+    "approved_for_publication"
+  ],
+  "modules": [
+    {
+      "id": "identity",
+      "title": "Identity and orientation",
+      "entry_forms": [
+        "names",
+        "place_type",
+        "geography",
+        "significance"
+      ],
+      "research_question": "What is it, where is it, and what distinguishes it?"
+    },
+    {
+      "id": "history",
+      "title": "Historical significance",
+      "entry_forms": [
+        "historical_event"
+      ],
+      "research_question": "What is documented about its past and why does it matter?"
+    },
+    {
+      "id": "memory",
+      "title": "Local stories and living memory",
+      "entry_forms": [
+        "local_account"
+      ],
+      "research_question": "Who tells this version, and what does it mean to them?"
+    },
+    {
+      "id": "experiences",
+      "title": "Spots and experiences",
+      "entry_forms": [
+        "experience"
+      ],
+      "research_question": "What deserves time, and for whom?"
+    },
+    {
+      "id": "food",
+      "title": "Food and everyday life",
+      "entry_forms": [
+        "food"
+      ],
+      "research_question": "What should someone taste, and how is it connected?"
+    },
+    {
+      "id": "culture",
+      "title": "Literature, music, art and screen",
+      "entry_forms": [
+        "cultural_work"
+      ],
+      "research_question": "Which works connect to this entity, and in what precise way?"
+    },
+    {
+      "id": "nature_science",
+      "title": "Nature, science and knowledge",
+      "entry_forms": [
+        "scientific_detail"
+      ],
+      "research_question": "What natural process, finding or invention helps explain it?"
+    },
+    {
+      "id": "people",
+      "title": "People and their words",
+      "entry_forms": [
+        "person_connection",
+        "quote"
+      ],
+      "research_question": "Who contributed, and what did they actually say?"
+    },
+    {
+      "id": "community",
+      "title": "Meet and support local people",
+      "entry_forms": [
+        "local_participation"
+      ],
+      "research_question": "Who welcomes participation, under what arrangements?"
+    },
+    {
+      "id": "visit",
+      "title": "Plan a visit",
+      "entry_forms": [
+        "seasonal_advice",
+        "visit_practical"
+      ],
+      "research_question": "When and how can someone experience it?"
+    },
+    {
+      "id": "expectations",
+      "title": "Honest expectations and conduct",
+      "entry_forms": [
+        "expectation",
+        "conduct"
+      ],
+      "research_question": "What works well, what is difficult, and how should one act?"
+    },
+    {
+      "id": "related",
+      "title": "Related discoveries and evidence",
+      "entry_forms": [
+        "related_entity"
+      ],
+      "research_question": "Where can curiosity lead next?"
+    },
+    {
+      "id": "materials_making",
+      "title": "Materials and making",
+      "entry_forms": [
+        "making_process"
+      ],
+      "research_question": "What goes into it and who makes it?"
+    },
+    {
+      "id": "variations",
+      "title": "Forms and variation",
+      "entry_forms": [
+        "variant"
+      ],
+      "research_question": "How do versions differ, and why?"
+    },
+    {
+      "id": "use_meaning",
+      "title": "Use and meaning",
+      "entry_forms": [
+        "use"
+      ],
+      "research_question": "How is it used and understood?"
+    },
+    {
+      "id": "care",
+      "title": "Choose and care",
+      "entry_forms": [
+        "quality_care"
+      ],
+      "research_question": "How can someone choose, preserve and use it responsibly?"
+    },
+    {
+      "id": "language_identity",
+      "title": "Meet the language",
+      "entry_forms": [
+        "language_identity"
+      ],
+      "research_question": "What do speakers call it, and what precisely does this profile cover?"
+    },
+    {
+      "id": "language_geography",
+      "title": "Where it lives",
+      "entry_forms": [
+        "language_distribution"
+      ],
+      "research_question": "Who speaks it, where, when, and alongside which other languages?"
+    },
+    {
+      "id": "sound_script",
+      "title": "Sound and writing",
+      "entry_forms": [
+        "script_usage",
+        "language_sample"
+      ],
+      "research_question": "How is it spoken and written, and which reviewed recordings can we share?"
+    },
+    {
+      "id": "oral_traditions",
+      "title": "Stories carried by voice",
+      "entry_forms": [
+        "local_account",
+        "cultural_work"
+      ],
+      "research_question": "Which tellers, versions and traditions illuminate its living heritage?"
+    },
+    {
+      "id": "language_learning",
+      "title": "Learn and connect",
+      "entry_forms": [
+        "language_sample"
+      ],
+      "research_question": "Which reviewed expressions and learning resources help someone listen and participate?"
+    },
+    {
+      "id": "language_today",
+      "title": "Life today and tomorrow",
+      "entry_forms": [
+        "language_status",
+        "speaker_estimate"
+      ],
+      "research_question": "How is it used today, and what do dated studies and speakers tell us about change?"
+    }
+  ],
+  "field_notation": "? is not used: listed fields may be null or empty when genuinely unknown; record material gaps. Repeated arrays are explicit. Publication rules below determine minimum evidence, not mere field presence.",
+  "core_fields": {
+    "entity": "model_version:string; profile:place|thing|language; id:entity_id; entity_type:entity_type; subtype:string|null; names:entry[]; summary:editorial_text|null; modules:module[]; claims:entry[]; relationships:relationship[]; sources:source[]; assets:asset[]; narrative_views:narrative_view[]; review:review",
+    "module": "id:module_id; state:module_state; entry_refs:record_pointer[]; claim_ids:claim_id[]; gaps:gap[]; not_applicable_reason:string|null",
+    "entry": "id:claim_id; form:entry_form; kind:entry_kind; payload:form_fields; evidence_refs:evidence_ref[]; time_scope:string|null; geographic_scope:entity_id[]; checked_on:date|null; review_state:review_state; uncertainty:string|null",
+    "relationship": "id:relationship_id; subject_id:entity_id; predicate:predicate; object_id:entity_id; evidence_refs:evidence_ref[]; time_scope:string|null; checked_on:date|null; review_state:review_state",
+    "evidence_ref": "source_id:source_id; locator:string; supports:string; inspection_scope:string; disagreement:string|null",
+    "source": "id:source_id; title:string; resource:string; creator:string|null; published_on:date|null; inspected_on:date|null; inspection_scope:string; rights:string|null",
+    "asset": "id:asset_id; source_id:source_id; creator:string; title:string; original_url:string; license:string; license_url:string|null; changes:string; depiction:photograph|ai_illustration|reconstruction|diagram|other; alt:string; caption:string; checked_on:date|null",
+    "record_pointer": "path:string; pointer:string; note:string",
+    "gap": "question:string; work_ref:string|null; assigned_owner:string|null",
+    "narrative_view": "id:string; audience:string; opening:string; ordered_module_ids:module_id[]; selected_claim_ids:claim_id[]; selected_relationship_ids:relationship_id[]; original_narration:string; asset_ids:asset_id[]; review:review",
+    "review": "state:review_state; version:string; contributors:string[]; human_reviewer:string|null; approved_on:date|null; published_on:date|null",
+    "creator_role": "person_or_organization_id:entity_id; role:author|lyricist|composer|performer|director|maker|other",
+    "editorial_text": "text:string; supporting_claim_ids:claim_id[]; author_credit:string",
+    "coordinate": "latitude:number; longitude:number; precision:string; evidence_refs:evidence_ref[]",
+    "range": "minimum:number; maximum:number",
+    "dated_amount": "amount:number; currency:string; unit:string; checked_on:date",
+    "translation": "text:string; language:string; translator:string; version:string; review_state:review_state"
+  },
+  "entry_forms": {
+    "names": {
+      "field_dictionary": "text:string; language:string; script:string|null; kind:preferred|local|historical|transliterated; period:string|null"
+    },
+    "place_type": {
+      "field_dictionary": "value:string"
+    },
+    "geography": {
+      "field_dictionary": "parent_ids:entity_id[]; area_ids:entity_id[]; coordinates:coordinate|null; gateway_ids:entity_id[]"
+    },
+    "significance": {
+      "field_dictionary": "summary:string; inclusion_reason:string"
+    },
+    "historical_event": {
+      "field_dictionary": "title:string; date_range:object|null; date_precision:string; involved_entity_ids:entity_id[]; significance:string; surviving_evidence:string; competing_claim_ids:claim_id[]"
+    },
+    "local_account": {
+      "field_dictionary": "title:string; summary:string; account_kind:legend|belief|oral_history|memory; community_or_place_ids:entity_id[]; narrator_or_collector:string; version:string; collection_or_publication_date:string|null; public_consent_reference:string|null"
+    },
+    "experience": {
+      "field_dictionary": "experience_id:entity_id; place_id:entity_id; gateway_ids:entity_id[]; interests:string[]; why_go:string; duration_minutes:range|null; duration_basis:string|null; access:string|null; cost:dated_amount|null; facilities:string[]; physical_demands:string|null"
+    },
+    "food": {
+      "field_dictionary": "food_id:entity_id; preparation:string|null; ingredients:string[]; diet_notes:string|null; allergen_knowledge:string|null; variants:entity_id[]; season:string|null; venue_ids:entity_id[]"
+    },
+    "cultural_work": {
+      "field_dictionary": "work_id:entity_id; title:string; work_type:poem|song|book|film|artwork|performance|other; language:string; creators:creator_role[]; date_or_version:string|null; relation_to_subject:predicate; excerpt:string|null; translation:translation|null; reading_or_listening_url:string|null; reuse_basis:string|null"
+    },
+    "scientific_detail": {
+      "field_dictionary": "finding:string; subject_ids:entity_id[]; time_scope:string|null; observer_or_institution:string; units:string|null; method:string|null; uncertainty:string; significance:string"
+    },
+    "person_connection": {
+      "field_dictionary": "person_id:entity_id; predicate:predicate; contribution:string; date_range:object|null; inclusion_reason:string"
+    },
+    "quote": {
+      "field_dictionary": "original:string; speaker_id:entity_id; about_id:entity_id; source_id:source_id; work_or_occasion:string; date:string|null; locator:string; context:string; language:string; translation:translation|null; reuse_basis:string; verification:string"
+    },
+    "local_participation": {
+      "field_dictionary": "experience_id:entity_id; public_host_id:entity_id; community_role:string; benefit:string; invitation_or_booking:string; public_contact_url:string|null; languages:string[]; payment_basis:string|null; group_limits:string|null; etiquette:string; consent_scope:string|null"
+    },
+    "seasonal_advice": {
+      "field_dictionary": "interest:string; months:integer[]; event_dates:string[]; reason:string; tradeoffs:string[]; source_year:integer|null; current_status_url:string|null"
+    },
+    "visit_practical": {
+      "field_dictionary": "aspect:access|transport|stay|cost|facility|accessibility|duration; area_or_entity_id:entity_id; description:string; provider_url:string|null; value:object|null"
+    },
+    "expectation": {
+      "field_dictionary": "kind:strength|drawback|constraint; affected_audience:string; area_ids:entity_id[]; season:string|null; effect:string; alternative:string|null; observation_date:string|null"
+    },
+    "conduct": {
+      "field_dictionary": "action:string; direction:do|avoid|ask_first; reason:string; applicability:string; basis:rule|custom|editorial_advice; authority_or_community:string|null"
+    },
+    "related_entity": {
+      "field_dictionary": "target_id:entity_id; reason_to_explore:string; relationship_ids:relationship_id[]"
+    },
+    "making_process": {
+      "field_dictionary": "materials:entity_id[]; maker_ids:entity_id[]; place_ids:entity_id[]; tools:string[]; steps:string[]; technique:string; provenance_notes:string"
+    },
+    "variant": {
+      "field_dictionary": "variant_id:entity_id; distinguishing_features:string[]; place_or_maker_ids:entity_id[]"
+    },
+    "use": {
+      "field_dictionary": "use:string; occasion:string|null; meaning:string; community_or_place_ids:entity_id[]; restrictions:string|null"
+    },
+    "quality_care": {
+      "field_dictionary": "aspect:quality|provenance|care|storage|purchasing; advice:string; applies_to:string; limitations:string"
+    },
+    "language_identity": {
+      "field_dictionary": "preferred_name:string; self_names:object[]; naming_scope:string; classification:string|null; classification_authority:string|null; alternative_claim_ids:claim_id[]; identifiers:object[]; editorial_priority:primary|standard"
+    },
+    "language_distribution": {
+      "field_dictionary": "place_ids:entity_id[]; community_ids:entity_id[]; distribution_description:string; multilingual_context:string; map_source:string|null; precision_and_limits:string"
+    },
+    "script_usage": {
+      "field_dictionary": "script_name:string; period:string|null; usage_context:string; community_or_region_ids:entity_id[]; spelling_convention:string|null"
+    },
+    "language_sample": {
+      "field_dictionary": "original_text:string; script:string|null; transliteration:string|null; transliteration_convention:string|null; translation:translation|null; variety:string|null; locality_ids:entity_id[]; usage_context:string; audio_asset_id:asset_id|null; speaker_public_credit:string|null; recorded_on:date|null; public_permission_reference:string|null; native_reviewer:string|null; language_review_state:review_state"
+    },
+    "language_status": {
+      "field_dictionary": "aspect:recognition|education|media|intergenerational_use|revitalisation|other; description:string; assessment_body:string|null; method:string|null; applicability:string"
+    },
+    "speaker_estimate": {
+      "field_dictionary": "value:number; measure:mother_tongue|all_speakers|other; geographic_scope:entity_id[]; reference_year:integer; source_table_and_row:string; method:string; classification_basis:string; limitations:string"
+    }
+  },
+  "predicates": {
+    "geography": [
+      "located_in",
+      "part_of",
+      "gateway_to",
+      "near"
+    ],
+    "person_place": [
+      "born_in",
+      "lived_in",
+      "worked_in",
+      "studied_in",
+      "visited",
+      "associated_with"
+    ],
+    "work_subject": [
+      "about",
+      "set_in",
+      "filmed_at",
+      "recorded_at",
+      "inspired_by",
+      "depicts",
+      "mentions"
+    ],
+    "creation": [
+      "wrote",
+      "composed",
+      "performed",
+      "directed",
+      "created",
+      "made_by"
+    ],
+    "food_craft": [
+      "originated_in",
+      "traditionally_made_in",
+      "associated_with",
+      "available_at",
+      "made_from"
+    ],
+    "community": [
+      "hosted_by",
+      "practised_by",
+      "available_through",
+      "supports"
+    ],
+    "quotation": [
+      "quoted_by",
+      "quote_about",
+      "recorded_in"
+    ],
+    "language": [
+      "spoken_in",
+      "used_by",
+      "written_in_language",
+      "performed_in_language",
+      "uses_script",
+      "translated_from_language",
+      "translated_into_language"
+    ]
+  },
+  "publication_rules": [
+    "No factual, quotation or relationship claim is publication-ready without inspectable supporting evidence.",
+    "A source-checked belief is evidence of that telling, not proof that the narrated event happened.",
+    "Approved_for_publication requires a recorded human decision for that candidate; never derive it from a populated template.",
+    "Quotation requires exact wording, speaker, context and locator; unsupported wording stays an unpublished research lead.",
+    "Filmed_at needs production/location evidence; set_in or about does not imply filmed_at.",
+    "Historical names and boundaries require their own time scope; do not collapse them into modern geography.",
+    "Current visitor advice needs a checking date and explicit area/season applicability. Unknown values must not become promises.",
+    "Unknowns and not_applicable are distinct; not_applicable requires a reason.",
+    "Public local-participation entries use invitations and public contact details; private consent documents are not stored in the public KB.",
+    "Keep detailed credits at the page end; retain belief, period, quotation attribution and generated-depiction context beside relevant material.",
+    "Language names, classification, scripts, official recognition and editorial priority are separate claims; record disagreements and source dates.",
+    "Language affiliation does not establish ancestry, ethnicity or religion; language communities and places can overlap.",
+    "Original text, transliteration and translation remain distinct; publicly displayed language samples need recorded native-language review.",
+    "Speaker counts require year, geography, measure and source locator; do not treat a historical census count as a current estimate.",
+    "Voice recordings need chosen public speaker credit, context, rights and a safe consent reference; synthetic audio must never be presented as a real community voice."
+  ],
+  "compatibility": {
+    "existing_destination_record": "research/destinations/chilika.json",
+    "existing_narrative_record": "research/stories/narratives/chilika.json",
+    "migration_state": "Not migrated; coverage map references existing canonical records without copying their content.",
+    "storage": "Reviewed files in Git; no new database, backend or service."
+  },
+  "reference_conventions": {
+    "entity_id": "Stable type:slug identifier; reuse existing IDs. Templates may have null IDs and are not publishable entities.",
+    "local_ids": "Claim, relationship, source and asset IDs must be unique within their canonical record and resolvable wherever referenced.",
+    "record_pointer": "Path is relative to the KB root; pointer is an RFC 6901 JSON pointer into that file, including escaped ~ and / segments when needed.",
+    "date": "ISO calendar date when precision is known. Historical event ranges retain precision rather than invented exact dates.",
+    "unknown": "Null or empty collection plus a research gap; absence is not evidence of nonexistence."
+  },
+  "language_relationship_notes": {
+    "spoken_in": "language to place; scope/time/evidence required; not an exclusive boundary",
+    "used_by": "language to community; describes evidenced use, not every member",
+    "written_in_language": "cultural work to language",
+    "performed_in_language": "particular performance/work version to language",
+    "uses_script": "language to separately identified script (object subtype script); context and period required",
+    "translated_from_language": "particular translation/work version to source language",
+    "translated_into_language": "particular translation/work version to target language"
+  },
+  "extensions": [
+    {
+      "id": "language-heritage-v0.1",
+      "status": "candidate_for_founder_review",
+      "reference": "reference/language-heritage-model.md"
+    }
+  ]
+}

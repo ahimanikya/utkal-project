@@ -1,0 +1,97 @@
+
+> utkal-project-site@0.1.0 build
+> node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && astro build
+
+Generated Utkal 0.1.0-rc.5 tokens.
+Prepared Utkal Design System 0.1.0-rc.5 and font licences.
+Prepared 5 explicitly selected research notes; no automatic full-KB export.
+Prepared 166 credited art photographs; source originals unchanged.
+06:16:08 [types] Generated 56ms
+06:16:08 [build] output: "static"
+06:16:08 [build] mode: "static"
+06:16:08 [build] directory: /Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-project/projects/site/dist/
+06:16:08 [build] Collecting build info...
+06:16:08 [build] ✓ Completed in 114ms.
+06:16:08 [build] Building static entrypoints...
+06:16:08 [vite] ✓ built in 487ms
+06:16:09 [vite] ✓ built in 776ms
+06:16:09 [build] Rearranging server assets...
+
+ generating static routes 
+06:16:09   ├─ /404.html (+13ms) 
+06:16:09   ├─ /about/index.html (+2ms) 
+06:16:09   ├─ /brand-review/index.html (+1ms) 
+06:16:09   ├─ /contribute/index.html (+5ms) 
+06:16:09   ├─ /destinations/balasore/index.html (+2ms) 
+06:16:09   ├─ /destinations/mayurbhanj/index.html (+1ms) 
+06:16:09   ├─ /destinations/bhubaneswar/index.html (+1ms) 
+06:16:09   ├─ /destinations/puri/index.html (+1ms) 
+06:16:09   ├─ /destinations/cuttack/index.html (+4ms) 
+06:16:09   ├─ /destinations/index.html (+2ms) 
+06:16:09   ├─ /explore/index.html (+3ms) 
+06:16:09   ├─ /food/bhubaneswar/index.html (+3ms) 
+06:16:09   ├─ /food/puri-coast/index.html (+1ms) 
+06:16:09   ├─ /food/chhena-poda/index.html (+1ms) 
+06:16:09   ├─ /food/mudhi-mansa/index.html (+1ms) 
+06:16:09   ├─ /food/index.html (+4ms) 
+06:16:09   ├─ /founder/index.html (+1ms) 
+06:16:09   ├─ /how-to-use/index.html (+1ms) 
+06:16:09   ├─ /journey/index.html (+1ms) 
+06:16:09   ├─ /journey-starters/index.html (+1ms) 
+06:16:09   ├─ /knowledge/chilika/index.html (+7ms) 
+06:16:09   ├─ /knowledge/konark/index.html (+1ms) 
+06:16:09   ├─ /knowledge/kotpad/index.html (+1ms) 
+06:16:09   ├─ /knowledge/pakhala/index.html (+3ms) 
+06:16:09   ├─ /knowledge/boita-bandana/index.html (+2ms) 
+06:16:09   ├─ /languages/ho/index.html (+4ms) 
+06:16:09   ├─ /languages/juang/index.html (+5ms) 
+06:16:09   ├─ /languages/koya/index.html (+9ms) 
+06:16:09   ├─ /languages/kui/index.html (+5ms) 
+06:16:09   ├─ /languages/kuvi/index.html (+5ms) 
+06:16:09   ├─ /languages/odia/index.html (+4ms) 
+06:16:09   ├─ /languages/santali/index.html (+1ms) 
+06:16:09   ├─ /languages/saora/index.html (+1ms) 
+06:16:09   ├─ /languages/index.html (+2ms) 
+06:16:09   ├─ /literature/six-acres-and-a-third/index.html (+4ms) 
+06:16:09   ├─ /literature/index.html (+3ms) 
+06:16:09   ├─ /people/bhima-bhoi/index.html (+2ms) 
+06:16:09   ├─ /people/fakir-mohan-senapati/index.html (+5ms) 
+06:16:09   ├─ /people/gangadhar-meher/index.html (+1ms) 
+06:16:09   ├─ /people/gopinath-mohanty/index.html (+1ms) 
+06:16:09   ├─ /people/pratibha-ray/index.html (+2ms) 
+06:16:09   ├─ /people/samanta-chandrasekhar/index.html (+3ms) 
+06:16:09   ├─ /people/sarala-das/index.html (+1ms) 
+06:16:09   ├─ /stay-areas/index.html (+1ms) 
+06:16:09   ├─ /stories/bhubaneswar-fresco/story/index.html (+1ms) 
+06:16:09   ├─ /stories/bhubaneswar-fresco/index.html (+6ms) 
+06:16:09   ├─ /stories/culture-trails/index.html (+2ms) 
+06:16:09   ├─ /things-to-do/index.html (+6ms) 
+06:16:09   ├─ /visit/places/mangalajodi/index.html (+1ms) 
+06:16:09   ├─ /visit/places/kalijai/index.html (+1ms) 
+06:16:09   ├─ /visit/places/satapada/index.html (+1ms) 
+06:16:09   ├─ /visit/places/chandrabhaga/index.html (+2ms) 
+06:16:09   ├─ /visit/experiences/mangalajodi-birdwatching/index.html (+2ms) 
+06:16:09   ├─ /visit/experiences/kalijai-crossing/index.html (+1ms) 
+06:16:09   ├─ /visit/experiences/satapada-boating/index.html (+0ms) 
+06:16:09   ├─ /visit/experiences/konark-sculpture/index.html (+0ms) 
+06:16:09   ├─ /visit/experiences/chandrabhaga-shore/index.html (+1ms) 
+06:16:09   ├─ /visit/experiences/konark-dance/index.html (+0ms) 
+06:16:09   ├─ /visit/stays/mangalajodi/index.html (+1ms) 
+06:16:09   ├─ /visit/stays/barkul-rambha/index.html (+1ms) 
+06:16:09   ├─ /visit/stays/rajhans-satapada/index.html (+1ms) 
+06:16:09   ├─ /visit/stays/konark/index.html (+6ms) 
+06:16:09   ├─ /visit/stays/puri/index.html (+1ms) 
+06:16:09   ├─ /visit/places/chandipur/index.html (+1ms) 
+06:16:09   ├─ /visit/places/similipal/index.html (+0ms) 
+06:16:09   ├─ /visit/places/dhauli/index.html (+0ms) 
+06:16:09   ├─ /visit/places/raghurajpur/index.html (+2ms) 
+06:16:09   ├─ /visit/places/puri-beach/index.html (+2ms) 
+06:16:09   ├─ /visit/places/mukteswar/index.html (+1ms) 
+06:16:09   ├─ /visit/stays/bhubaneswar/index.html (+1ms) 
+06:16:09   ├─ /visit/stays/puri-coast/index.html (+1ms) 
+06:16:09   ├─ /index.html (+2ms) 
+06:16:09 ✓ Completed in 197ms.
+
+06:16:09 [build] ✓ Completed in 1.49s.
+06:16:09 [build] 72 page(s) built in 1.69s
+06:16:09 [build] Complete!

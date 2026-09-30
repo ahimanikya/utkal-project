@@ -1,0 +1,2610 @@
+{
+  "batch": "UTP-R216",
+  "authorization_quote": "Pickup next 200+ things and continue - I will review all when all is done",
+  "owner": "Ahimanikya Satapathy",
+  "created_at": "2026-09-30T16:18:25.711830+00:00",
+  "status": "completed_with_documented_limitations",
+  "scope": "84 product/content acceptance items (42 implementation, 42 editorial questions) and 132 verification items (72 export scenarios, 36 regressions, 18 responsive inspections, 6 integration checks). Not 216 new features or pre-existing backlog tickets.",
+  "items": [
+    {
+      "id": "UTP-R216-001",
+      "category": "implementation",
+      "title": "Bounded personal-reminder data with unique IDs and boolean ticks",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-002",
+      "category": "implementation",
+      "title": "Preserve reminders in current journey and collection backups",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-003",
+      "category": "implementation",
+      "title": "Add private reminders without changing saved ideas",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-004",
+      "category": "implementation",
+      "title": "Edit reminder wording without losing its tick",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-005",
+      "category": "implementation",
+      "title": "Toggle personal completion without suggesting Utkal verification",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-006",
+      "category": "implementation",
+      "title": "Remove a reminder while retaining an undo record",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-007",
+      "category": "implementation",
+      "title": "Restore a removed reminder with order and completion preserved",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-008",
+      "category": "implementation",
+      "title": "Refuse duplicate restoration and full-reminder overflow",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-009",
+      "category": "implementation",
+      "title": "Expose reminders in a quiet preparation disclosure",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-010",
+      "category": "implementation",
+      "title": "Provide a labelled reminder form with a 500-character boundary",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-011",
+      "category": "implementation",
+      "title": "Keep reminder undo scoped to its originating journey",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-012",
+      "category": "implementation",
+      "title": "Disable reminder mutations in a stale or blocked browser tab",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-013",
+      "category": "implementation",
+      "title": "Show unfinished reminder counts for the selected journey",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-014",
+      "category": "implementation",
+      "title": "Distinguish unscheduled ideas and unavailable saved IDs in preparation summary",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-015",
+      "category": "implementation",
+      "title": "Select preparation questions from saved catalogue identities",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "kb/research/destinations/visit-questions.json",
+        "projects/site/src/components/VisitNotebook.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/scripts/journey.ts"
+      ]
+    },
+    {
+      "id": "UTP-R216-016",
+      "category": "implementation",
+      "title": "Allow individual guide questions to become editable private reminders",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "kb/research/destinations/visit-questions.json",
+        "projects/site/src/components/VisitNotebook.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/scripts/journey.ts"
+      ]
+    },
+    {
+      "id": "UTP-R216-017",
+      "category": "implementation",
+      "title": "Preserve an edited reminder when its question is added again",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "kb/research/destinations/visit-questions.json",
+        "projects/site/src/components/VisitNotebook.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/scripts/journey.ts"
+      ]
+    },
+    {
+      "id": "UTP-R216-018",
+      "category": "implementation",
+      "title": "Keep suggestions usable when no guide-specific questions exist",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "kb/research/destinations/visit-questions.json",
+        "projects/site/src/components/VisitNotebook.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/scripts/journey.ts"
+      ]
+    },
+    {
+      "id": "UTP-R216-019",
+      "category": "implementation",
+      "title": "Show six guide-specific questions in an expandable notebook section",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "kb/research/destinations/visit-questions.json",
+        "projects/site/src/components/VisitNotebook.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/scripts/journey.ts"
+      ]
+    },
+    {
+      "id": "UTP-R216-020",
+      "category": "implementation",
+      "title": "Keep canonical editorial questions in the project KB",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "kb/research/destinations/visit-questions.json",
+        "projects/site/src/components/VisitNotebook.astro",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/scripts/journey.ts"
+      ]
+    },
+    {
+      "id": "UTP-R216-021",
+      "category": "implementation",
+      "title": "Include relevant public questions in portable HTML books",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-022",
+      "category": "implementation",
+      "title": "Include relevant public questions in plain-text itineraries",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-023",
+      "category": "implementation",
+      "title": "Include relevant public questions in the printable book",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-024",
+      "category": "implementation",
+      "title": "Include private reminder wording and ticks only by sharing choice",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-025",
+      "category": "implementation",
+      "title": "Allow a reminder-only plan to produce a portable book",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-026",
+      "category": "implementation",
+      "title": "Select a single planned day or Ideas for later for export",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-027",
+      "category": "implementation",
+      "title": "Preserve original day numbers and dates in selected-day books",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-028",
+      "category": "implementation",
+      "title": "Keep trip-wide preparation and reminders in selected-day copies",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-029",
+      "category": "implementation",
+      "title": "Use the selected-day scope in illustrated-book image collection",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-030",
+      "category": "implementation",
+      "title": "Keep full JSON backups unaffected by book scope and privacy choices",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-031",
+      "category": "implementation",
+      "title": "Reset stale export selection when a day is removed or trips change",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-032",
+      "category": "implementation",
+      "title": "Preview how many new and duplicate ideas an import would add",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-033",
+      "category": "implementation",
+      "title": "Merge new ideas into Ideas for later without overwriting destination notes",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-034",
+      "category": "implementation",
+      "title": "Keep source day notes and reminders out of an ideas-only merge, with explicit preview",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-035",
+      "category": "implementation",
+      "title": "Reject oversized merges without a partial change",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-036",
+      "category": "implementation",
+      "title": "Select one journey from a collection backup for independent import or merge",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-037",
+      "category": "implementation",
+      "title": "Require explicit acknowledgement before replacing the entire collection",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-038",
+      "category": "implementation",
+      "title": "Invalidate a merge preview if the destination journey changed",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-039",
+      "category": "implementation",
+      "title": "Preserve current-client optional fields on independent imports",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-ready.mjs",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/pages/journey.astro"
+      ]
+    },
+    {
+      "id": "UTP-R216-040",
+      "category": "implementation",
+      "title": "Document reminder privacy, selected-day export and merge behavior in usage guide",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/pages/how-to-use.astro",
+        "kb/models/journey-preparation.md",
+        "kb/research/product/ready-216.md",
+        "kb/design-system/story-patterns.md"
+      ]
+    },
+    {
+      "id": "UTP-R216-041",
+      "category": "implementation",
+      "title": "Add the data model and design lessons to the KB",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/pages/how-to-use.astro",
+        "kb/models/journey-preparation.md",
+        "kb/research/product/ready-216.md",
+        "kb/design-system/story-patterns.md"
+      ]
+    },
+    {
+      "id": "UTP-R216-042",
+      "category": "implementation",
+      "title": "Prepare a cumulative local review and append truthful operating records",
+      "status": "implemented_and_self_reviewed",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "implementation": [
+        "projects/site/src/pages/how-to-use.astro",
+        "kb/models/journey-preparation.md",
+        "kb/research/product/ready-216.md",
+        "kb/design-system/story-patterns.md"
+      ]
+    },
+    {
+      "id": "UTP-R216-043",
+      "category": "editorial",
+      "title": "Bhubaneswar — Access",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-bhubaneswar-1",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-044",
+      "category": "editorial",
+      "title": "Bhubaneswar — Getting there and back",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-bhubaneswar-2",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-045",
+      "category": "editorial",
+      "title": "Bhubaneswar — Comfort and pace",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-bhubaneswar-3",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-046",
+      "category": "editorial",
+      "title": "Bhubaneswar — Food and water",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-bhubaneswar-4",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-047",
+      "category": "editorial",
+      "title": "Bhubaneswar — People and pictures",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-bhubaneswar-5",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-048",
+      "category": "editorial",
+      "title": "Bhubaneswar — A change of plan",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-bhubaneswar-6",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-049",
+      "category": "editorial",
+      "title": "Dhauli — Access",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-dhauli-1",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-050",
+      "category": "editorial",
+      "title": "Dhauli — Getting there and back",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-dhauli-2",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-051",
+      "category": "editorial",
+      "title": "Dhauli — Comfort and pace",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-dhauli-3",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-052",
+      "category": "editorial",
+      "title": "Dhauli — Food and water",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-dhauli-4",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-053",
+      "category": "editorial",
+      "title": "Dhauli — People and pictures",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-dhauli-5",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-054",
+      "category": "editorial",
+      "title": "Dhauli — A change of plan",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-dhauli-6",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-055",
+      "category": "editorial",
+      "title": "Konark — Access",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-konark-1",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-056",
+      "category": "editorial",
+      "title": "Konark — Getting there and back",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-konark-2",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-057",
+      "category": "editorial",
+      "title": "Konark — Comfort and pace",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-konark-3",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-058",
+      "category": "editorial",
+      "title": "Konark — Food and water",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-konark-4",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-059",
+      "category": "editorial",
+      "title": "Konark — People and pictures",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-konark-5",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-060",
+      "category": "editorial",
+      "title": "Konark — A change of plan",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-konark-6",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-061",
+      "category": "editorial",
+      "title": "Puri — Access",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-puri-1",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-062",
+      "category": "editorial",
+      "title": "Puri — Getting there and back",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-puri-2",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-063",
+      "category": "editorial",
+      "title": "Puri — Comfort and pace",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-puri-3",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-064",
+      "category": "editorial",
+      "title": "Puri — Food and water",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-puri-4",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-065",
+      "category": "editorial",
+      "title": "Puri — People and pictures",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-puri-5",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-066",
+      "category": "editorial",
+      "title": "Puri — A change of plan",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-puri-6",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-067",
+      "category": "editorial",
+      "title": "Raghurajpur — Access",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-raghurajpur-1",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-068",
+      "category": "editorial",
+      "title": "Raghurajpur — Getting there and back",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-raghurajpur-2",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-069",
+      "category": "editorial",
+      "title": "Raghurajpur — Comfort and pace",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-raghurajpur-3",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-070",
+      "category": "editorial",
+      "title": "Raghurajpur — Food and water",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-raghurajpur-4",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-071",
+      "category": "editorial",
+      "title": "Raghurajpur — People and pictures",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-raghurajpur-5",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-072",
+      "category": "editorial",
+      "title": "Raghurajpur — A change of plan",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-raghurajpur-6",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-073",
+      "category": "editorial",
+      "title": "A coastal meal — Access",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-meals-1",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-074",
+      "category": "editorial",
+      "title": "A coastal meal — Getting there and back",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-meals-2",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-075",
+      "category": "editorial",
+      "title": "A coastal meal — Comfort and pace",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-meals-3",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-076",
+      "category": "editorial",
+      "title": "A coastal meal — Food and water",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-meals-4",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-077",
+      "category": "editorial",
+      "title": "A coastal meal — People and pictures",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-meals-5",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-078",
+      "category": "editorial",
+      "title": "A coastal meal — A change of plan",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-meals-6",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-079",
+      "category": "editorial",
+      "title": "A coastal base — Access",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-stays-1",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-080",
+      "category": "editorial",
+      "title": "A coastal base — Getting there and back",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-stays-2",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-081",
+      "category": "editorial",
+      "title": "A coastal base — Comfort and pace",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-stays-3",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-082",
+      "category": "editorial",
+      "title": "A coastal base — Food and water",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-stays-4",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-083",
+      "category": "editorial",
+      "title": "A coastal base — People and pictures",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-stays-5",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-084",
+      "category": "editorial",
+      "title": "A coastal base — A change of plan",
+      "status": "draft_prepared_and_self_reviewed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/editorial-questions.json"
+      ],
+      "question_id": "ask-coastal-stays-6",
+      "implementation": [
+        "kb/research/destinations/visit-questions.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-085",
+      "category": "export_scenario",
+      "title": "open reminder — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-086",
+      "category": "export_scenario",
+      "title": "open reminder — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-087",
+      "category": "export_scenario",
+      "title": "open reminder — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-088",
+      "category": "export_scenario",
+      "title": "open reminder — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-089",
+      "category": "export_scenario",
+      "title": "open reminder — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-090",
+      "category": "export_scenario",
+      "title": "open reminder — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-091",
+      "category": "export_scenario",
+      "title": "completed reminder — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-092",
+      "category": "export_scenario",
+      "title": "completed reminder — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-093",
+      "category": "export_scenario",
+      "title": "completed reminder — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-094",
+      "category": "export_scenario",
+      "title": "completed reminder — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-095",
+      "category": "export_scenario",
+      "title": "completed reminder — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-096",
+      "category": "export_scenario",
+      "title": "completed reminder — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-097",
+      "category": "export_scenario",
+      "title": "Odia and accented text — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-098",
+      "category": "export_scenario",
+      "title": "Odia and accented text — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-099",
+      "category": "export_scenario",
+      "title": "Odia and accented text — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-100",
+      "category": "export_scenario",
+      "title": "Odia and accented text — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-101",
+      "category": "export_scenario",
+      "title": "Odia and accented text — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-102",
+      "category": "export_scenario",
+      "title": "Odia and accented text — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-103",
+      "category": "export_scenario",
+      "title": "hostile HTML text — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-104",
+      "category": "export_scenario",
+      "title": "hostile HTML text — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-105",
+      "category": "export_scenario",
+      "title": "hostile HTML text — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-106",
+      "category": "export_scenario",
+      "title": "hostile HTML text — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-107",
+      "category": "export_scenario",
+      "title": "hostile HTML text — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-108",
+      "category": "export_scenario",
+      "title": "hostile HTML text — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-109",
+      "category": "export_scenario",
+      "title": "multiline reminder — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-110",
+      "category": "export_scenario",
+      "title": "multiline reminder — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-111",
+      "category": "export_scenario",
+      "title": "multiline reminder — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-112",
+      "category": "export_scenario",
+      "title": "multiline reminder — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-113",
+      "category": "export_scenario",
+      "title": "multiline reminder — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-114",
+      "category": "export_scenario",
+      "title": "multiline reminder — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-115",
+      "category": "export_scenario",
+      "title": "maximum reminder length — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-116",
+      "category": "export_scenario",
+      "title": "maximum reminder length — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-117",
+      "category": "export_scenario",
+      "title": "maximum reminder length — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-118",
+      "category": "export_scenario",
+      "title": "maximum reminder length — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-119",
+      "category": "export_scenario",
+      "title": "maximum reminder length — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-120",
+      "category": "export_scenario",
+      "title": "maximum reminder length — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-121",
+      "category": "export_scenario",
+      "title": "unavailable saved idea — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-122",
+      "category": "export_scenario",
+      "title": "unavailable saved idea — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-123",
+      "category": "export_scenario",
+      "title": "unavailable saved idea — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-124",
+      "category": "export_scenario",
+      "title": "unavailable saved idea — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-125",
+      "category": "export_scenario",
+      "title": "unavailable saved idea — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-126",
+      "category": "export_scenario",
+      "title": "unavailable saved idea — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-127",
+      "category": "export_scenario",
+      "title": "day with notes and no stops — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-128",
+      "category": "export_scenario",
+      "title": "day with notes and no stops — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-129",
+      "category": "export_scenario",
+      "title": "day with notes and no stops — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-130",
+      "category": "export_scenario",
+      "title": "day with notes and no stops — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-131",
+      "category": "export_scenario",
+      "title": "day with notes and no stops — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-132",
+      "category": "export_scenario",
+      "title": "day with notes and no stops — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-133",
+      "category": "export_scenario",
+      "title": "ideas for later — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-134",
+      "category": "export_scenario",
+      "title": "ideas for later — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-135",
+      "category": "export_scenario",
+      "title": "ideas for later — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-136",
+      "category": "export_scenario",
+      "title": "ideas for later — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-137",
+      "category": "export_scenario",
+      "title": "ideas for later — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-138",
+      "category": "export_scenario",
+      "title": "ideas for later — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-139",
+      "category": "export_scenario",
+      "title": "retained checklist IDs — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-140",
+      "category": "export_scenario",
+      "title": "retained checklist IDs — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-141",
+      "category": "export_scenario",
+      "title": "retained checklist IDs — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-142",
+      "category": "export_scenario",
+      "title": "retained checklist IDs — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-143",
+      "category": "export_scenario",
+      "title": "retained checklist IDs — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-144",
+      "category": "export_scenario",
+      "title": "retained checklist IDs — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-145",
+      "category": "export_scenario",
+      "title": "forty reminder boundary — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-146",
+      "category": "export_scenario",
+      "title": "forty reminder boundary — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-147",
+      "category": "export_scenario",
+      "title": "forty reminder boundary — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-148",
+      "category": "export_scenario",
+      "title": "forty reminder boundary — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-149",
+      "category": "export_scenario",
+      "title": "forty reminder boundary — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-150",
+      "category": "export_scenario",
+      "title": "forty reminder boundary — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-151",
+      "category": "export_scenario",
+      "title": "legacy plan without reminders — HTML whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-152",
+      "category": "export_scenario",
+      "title": "legacy plan without reminders — HTML whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-153",
+      "category": "export_scenario",
+      "title": "legacy plan without reminders — text whole private",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-154",
+      "category": "export_scenario",
+      "title": "legacy plan without reminders — text whole shareable",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-155",
+      "category": "export_scenario",
+      "title": "legacy plan without reminders — HTML selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-156",
+      "category": "export_scenario",
+      "title": "legacy plan without reminders — text selected day",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/ready-exports.test.mjs"
+    },
+    {
+      "id": "UTP-R216-157",
+      "category": "regression",
+      "title": "legacy plans retain their exact validated structure",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-158",
+      "category": "regression",
+      "title": "add reminder trims outer whitespace without changing original",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-159",
+      "category": "regression",
+      "title": "adding the same question preserves custom wording and tick",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-160",
+      "category": "regression",
+      "title": "edit preserves reminder position and completion",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-161",
+      "category": "regression",
+      "title": "completion changes without changing wording",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-162",
+      "category": "regression",
+      "title": "removal undo restores text tick and position",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-163",
+      "category": "regression",
+      "title": "undo does not replace a newer reminder with the same ID",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-164",
+      "category": "regression",
+      "title": "undo rejects a full destination without mutation",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-165",
+      "category": "regression",
+      "title": "malformed imported reminders are rejected as a whole",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-166",
+      "category": "regression",
+      "title": "500-unit reminder boundary includes Odia text",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-167",
+      "category": "regression",
+      "title": "forty reminders are allowed but the next is atomic",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-168",
+      "category": "regression",
+      "title": "unrecognized reminder IDs survive backups",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-169",
+      "category": "regression",
+      "title": "whole-book selection is an independent validated copy",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-170",
+      "category": "regression",
+      "title": "single day keeps its original day number and calendar date",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-171",
+      "category": "regression",
+      "title": "Ideas for later can be exported independently",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-172",
+      "category": "regression",
+      "title": "a note-only day is a valid selected book",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-173",
+      "category": "regression",
+      "title": "a reminder-only journey has exportable content",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-174",
+      "category": "regression",
+      "title": "unavailable and noninteger scope values are rejected",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-175",
+      "category": "regression",
+      "title": "selected-day copies keep trip-wide preparation intact",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-176",
+      "category": "regression",
+      "title": "merge keeps destination duplicate notes and day choices",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-177",
+      "category": "regression",
+      "title": "merge adds new ideas to later rather than imported dates",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-178",
+      "category": "regression",
+      "title": "merge reports duplicate count and new count accurately",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-179",
+      "category": "regression",
+      "title": "merge retains target metadata and never imports source-only private fields",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-180",
+      "category": "regression",
+      "title": "merge beyond 100 ideas leaves both inputs unchanged",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-181",
+      "category": "regression",
+      "title": "unknown saved IDs survive a merge",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-182",
+      "category": "regression",
+      "title": "duplicate-only import is a safe no-op",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-183",
+      "category": "regression",
+      "title": "invalid incoming backup cannot partially modify destination",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-184",
+      "category": "regression",
+      "title": "missing edit or removal target cannot mutate the plan",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-185",
+      "category": "regression",
+      "title": "questions follow only saved catalogue identities",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-186",
+      "category": "regression",
+      "title": "summary distinguishes unavailable ideas from unscheduled ideas",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-187",
+      "category": "regression",
+      "title": "summary counts ticks without creating a readiness rating",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-188",
+      "category": "regression",
+      "title": "duplicate journey reminder edits do not alias the original",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-189",
+      "category": "regression",
+      "title": "collection round trip retains full reminder and day metadata",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-190",
+      "category": "regression",
+      "title": "merged source can change independently afterward",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-191",
+      "category": "regression",
+      "title": "shared selected-day copies omit every private field",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-192",
+      "category": "regression",
+      "title": "stale-tab reminder writes preserve the newer stored collection",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ],
+      "test_file": "projects/site/tests/journey-ready.test.mjs"
+    },
+    {
+      "id": "UTP-R216-193",
+      "category": "responsive",
+      "title": "journey at 360px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/journey/",
+      "width": 360
+    },
+    {
+      "id": "UTP-R216-194",
+      "category": "responsive",
+      "title": "journey at 820px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/journey/",
+      "width": 820
+    },
+    {
+      "id": "UTP-R216-195",
+      "category": "responsive",
+      "title": "journey at 1600px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/journey/",
+      "width": 1600
+    },
+    {
+      "id": "UTP-R216-196",
+      "category": "responsive",
+      "title": "bhubaneswar at 360px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/destinations/bhubaneswar/",
+      "width": 360
+    },
+    {
+      "id": "UTP-R216-197",
+      "category": "responsive",
+      "title": "bhubaneswar at 820px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/destinations/bhubaneswar/",
+      "width": 820
+    },
+    {
+      "id": "UTP-R216-198",
+      "category": "responsive",
+      "title": "bhubaneswar at 1600px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/destinations/bhubaneswar/",
+      "width": 1600
+    },
+    {
+      "id": "UTP-R216-199",
+      "category": "responsive",
+      "title": "konark at 360px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/knowledge/konark/",
+      "width": 360
+    },
+    {
+      "id": "UTP-R216-200",
+      "category": "responsive",
+      "title": "konark at 820px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/knowledge/konark/",
+      "width": 820
+    },
+    {
+      "id": "UTP-R216-201",
+      "category": "responsive",
+      "title": "konark at 1600px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/knowledge/konark/",
+      "width": 1600
+    },
+    {
+      "id": "UTP-R216-202",
+      "category": "responsive",
+      "title": "raghurajpur at 360px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/visit/places/raghurajpur/",
+      "width": 360
+    },
+    {
+      "id": "UTP-R216-203",
+      "category": "responsive",
+      "title": "raghurajpur at 820px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/visit/places/raghurajpur/",
+      "width": 820
+    },
+    {
+      "id": "UTP-R216-204",
+      "category": "responsive",
+      "title": "raghurajpur at 1600px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/visit/places/raghurajpur/",
+      "width": 1600
+    },
+    {
+      "id": "UTP-R216-205",
+      "category": "responsive",
+      "title": "coastal-meals at 360px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/food/puri-coast/",
+      "width": 360
+    },
+    {
+      "id": "UTP-R216-206",
+      "category": "responsive",
+      "title": "coastal-meals at 820px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/food/puri-coast/",
+      "width": 820
+    },
+    {
+      "id": "UTP-R216-207",
+      "category": "responsive",
+      "title": "coastal-meals at 1600px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/food/puri-coast/",
+      "width": 1600
+    },
+    {
+      "id": "UTP-R216-208",
+      "category": "responsive",
+      "title": "coastal-stays at 360px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/visit/stays/puri-coast/",
+      "width": 360
+    },
+    {
+      "id": "UTP-R216-209",
+      "category": "responsive",
+      "title": "coastal-stays at 820px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/visit/stays/puri-coast/",
+      "width": 820
+    },
+    {
+      "id": "UTP-R216-210",
+      "category": "responsive",
+      "title": "coastal-stays at 1600px",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/ready-216-2026-09-30/responsive-measurements.json"
+      ],
+      "route": "/visit/stays/puri-coast/",
+      "width": 1600
+    },
+    {
+      "id": "UTP-R216-211",
+      "category": "integration",
+      "title": "Full draft build",
+      "status": "passed_with_documented_scope",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/full-build.log",
+        "records/evidence/ready-216-2026-09-30/full-draft-manifest.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-212",
+      "category": "integration",
+      "title": "Full-site regression suite",
+      "status": "passed_with_documented_scope",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/full-tests.log"
+      ]
+    },
+    {
+      "id": "UTP-R216-213",
+      "category": "integration",
+      "title": "Coastal build and scoped tests",
+      "status": "passed_with_documented_scope",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/coast-build.log",
+        "records/evidence/ready-216-2026-09-30/coast-tests.log",
+        "records/evidence/ready-216-2026-09-30/build-report.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-214",
+      "category": "integration",
+      "title": "Route acceptance audit",
+      "status": "passed_with_documented_scope",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-215",
+      "category": "integration",
+      "title": "KB/register validation and whitespace",
+      "status": "passed_with_documented_scope",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/record-validation.json"
+      ]
+    },
+    {
+      "id": "UTP-R216-216",
+      "category": "integration",
+      "title": "Browser behavior and evidence reconciliation",
+      "status": "passed_with_documented_scope",
+      "evidence": [
+        "records/ready-216-review.json",
+        "records/evidence/ready-216-2026-09-30/browser-functional.json",
+        "records/evidence/ready-216-2026-09-30/previous-evidence-preservation.json"
+      ]
+    }
+  ],
+  "review_status": "awaiting_founder_combined_review",
+  "completed_at": "2026-09-30T16:43:15.295614+00:00",
+  "counts": {
+    "product_and_content": 84,
+    "verification": 132,
+    "total": 216
+  }
+}

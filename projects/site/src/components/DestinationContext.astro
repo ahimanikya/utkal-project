@@ -1,0 +1,20 @@
+---
+const {destination:d}=Astro.props;
+---
+<div class="destination-context">
+  <section id="locals" aria-labelledby="locals-title" data-source-ids={d.community.sources.join(' ')}>
+    <p class="eyebrow">Meet locally</p><h2 id="locals-title">{d.community.heading}</h2><p>{d.community.text}</p>
+  </section>
+  <section id="expectations" aria-labelledby="expectations-title">
+    <p class="eyebrow">Good to know · our planning advice</p><h2 id="expectations-title">{d.expectations.heading}</h2>
+    <dl class="destination-expectations">
+      <div><dt>A good fit for</dt><dd>{d.expectations.strength}</dd></div>
+      <div><dt>Plan around</dt><dd>{d.expectations.constraint}</dd></div>
+      <div><dt>Do</dt><dd>{d.expectations.do}</dd></div>
+      <div><dt>Avoid</dt><dd>{d.expectations.avoid}</dd></div>
+    </dl>
+  </section>
+  <aside class="destination-related" aria-label="Keep exploring">
+    <p class="eyebrow">Keep exploring</p>{d.related.map(item=><div><h3><a href={item.href}>{item.title} →</a></h3><p>{item.text}</p></div>)}
+  </aside>
+</div>

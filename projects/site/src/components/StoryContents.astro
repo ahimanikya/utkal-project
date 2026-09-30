@@ -1,0 +1,22 @@
+---
+const {items}=Astro.props;
+---
+<div class="story-contents">
+  <nav class="contents-desktop" aria-label="On this page">{items.map(item=><a href={item.href}>{item.title}</a>)}</nav>
+  <details class="contents-mobile">
+    <summary>In this story</summary>
+    <nav aria-label="On this page">{items.map(item=><a href={item.href}>{item.title}</a>)}</nav>
+  </details>
+</div>
+<style>
+.story-contents nav{display:flex;flex-direction:column;gap:8px}
+.story-contents a{display:flex;align-items:center;min-height:44px;padding-block:8px;font-size:14px;line-height:1.5;text-decoration:none}
+.story-contents a:hover{text-decoration:underline}
+.contents-mobile{display:none}
+@media(max-width:900px){
+  .story-contents .contents-desktop{display:none}
+  .contents-mobile{display:block;border-block:1px solid var(--line)}
+  .contents-mobile summary{padding-block:12px;color:var(--sea);cursor:pointer}
+  .contents-mobile nav{padding-bottom:16px}
+}
+</style>

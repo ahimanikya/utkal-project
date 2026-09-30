@@ -1,0 +1,24 @@
+{
+  "type": "website_review",
+  "title": "Balasore and Mayurbhanj regional guide preview",
+  "status": "local_candidate_not_deployed",
+  "checked_at": "2026-09-30T00:33:49.479496+00:00",
+  "checks": [
+    "39-page build and all 30 site tests passed. Local links, fragments and assets resolve; Store remains excluded.",
+    "New regression checks cover guide discovery, all 13 new save IDs, citation coverage, image hashes and collapsed end credits.",
+    "Two new licensed real photographs inspected: Chandipur sunset by Nihar.race and Barehipani waterfall by Wiki GSD. Earlier bust and script assets reused with their existing credits.",
+    "Browser: a temporary journey received Similipal, Mudhi Mansa and Chandipur from the guides; all three survived navigation and appeared in the printable content. The temporary journey was deleted, returning to the original empty journey.",
+    "Browser: wide Balasore preview inspected at 1910 CSS px; compact Mayurbhanj layout stacked at 582 CSS px with no horizontal overflow. Viewport reset afterwards."
+  ],
+  "limitations": [
+    "Editorial and native-language review pending; no field inspection, verified host arrangements, hotel inventory or live opening calendar.",
+    "Regional guide cards are planning entrypoints; dedicated Chandipur and Similipal subpages, inspected stays, access audits and additional photographs remain in the research queue.",
+    "Exact 390px mobile viewport and physical-device testing remain unverified; embedded browser reported 582 CSS px.",
+    "Existing planner native PDF pagination remains unverified; no changes to printing in this batch.",
+    "No public deployment, merge or push."
+  ],
+  "independent_review": false,
+  "evidence": [
+    "records/evidence/northern-guides-preview.png"
+  ]
+}

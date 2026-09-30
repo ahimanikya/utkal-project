@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-09-29T03:38:48.811874+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "scope": "Information hierarchy, typed evidence/relationships, place/thing templates and non-duplicating Chilika coverage map.",
+  "validation": {
+    "dictionary": "PASS: 16 declared modules and 22 referenced entry forms resolve.",
+    "templates": "PASS: two empty profiles match declared module order; entity IDs, human reviewer and approval dates unset.",
+    "coverage": "PASS: all 12 place modules represented; 11 JSON pointers resolve inside the KB to existing canonical content.",
+    "bundle": "PASS: 505 concepts, 1,546 local links, 61 register records and 35 events; dashboard current.",
+    "runtime": "Not applicable: no site, schema validator or database migration changed."
+  },
+  "limitations": [
+    "This is an information dictionary, not an executable schema or enforcement mechanism.",
+    "Chilika mapping reuses existing evidence and its limits; no new historical, filming-location, quotation or practical visitor claims were researched.",
+    "A heritage-place and food/craft pilot should test the candidate before adopting it broadly."
+  ],
+  "review_gate": "Founder review pending",
+  "publication": "No website deployment or Blueprint-wide rule application."
+}

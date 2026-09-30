@@ -1,0 +1,27 @@
+{
+  "type": "website_review",
+  "title": "Multiple journeys and optional travel dates",
+  "status": "local_candidate_not_deployed",
+  "checked_at": "2026-09-30T00:07:17.447811+00:00",
+  "checks": [
+    "Build: 37 pages; all 28 site tests passed.",
+    "Legacy migration is read-only until the first save; original v1 storage key preserved. Corrupt v2 does not silently fall back to v1.",
+    "Unit tests: separate trips, selected ID, add/delete/10-trip limit, per-trip data isolation, backup round-trip, invalid collections, unavailable storage and quota failure.",
+    "Calendar tests: invalid dates, leap days, month/year rollover and unscheduled ideas; UTC calculations avoid daylight-saving day shifts.",
+    "Browser: create journey, set start date, assign day, switch to unchanged original, reload selected journey and verify dated headings in page and print content.",
+    "Browser: save Pakhala from its page into the selected trip; current trip name displayed beside save control.",
+    "Browser: old single-trip file imported as a third trip without replacing either existing plan; full collection backup restoration confirmed. All synthetic trips then removed by restoring the initial empty collection.",
+    "Desktop screenshot inspected; compact browser reported 582 CSS px (requested 390), no horizontal overflow and stacked trip controls."
+  ],
+  "limitations": [
+    "Actual native PDF output and A4 pagination remain unverified: embedded browser printing was unavailable in the previous batch.",
+    "Physical devices, exact 390px viewport and screen-reader testing remain outstanding.",
+    "Start date plus day numbering only; separate end dates, bookings, routing, sync and offline caching remain deferred.",
+    "Browser quota may prevent saving a large collection; keep a downloaded backup. No account or server storage introduced.",
+    "No public deployment, merge or push."
+  ],
+  "independent_review": false,
+  "evidence": [
+    "records/evidence/multiple-journeys-preview.png"
+  ]
+}

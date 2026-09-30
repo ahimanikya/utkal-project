@@ -1,0 +1,6 @@
+---
+import PlanningCollection from '../../components/PlanningCollection.astro';
+import {planningCollections} from '../../data/planning-collections';
+const collection=planningCollections.find(c=>c.slug==='food');
+---
+<PlanningCollection collection={collection}/>

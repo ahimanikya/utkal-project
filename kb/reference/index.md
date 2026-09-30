@@ -18,3 +18,17 @@
 - [Odisha sensory identity](odisha-sensory-identity.md)
 
 - [Vector refinement 03](brand-vector-03.md)
+
+- [First collection editorial review](first-collection-editorial-review.md)
+
+- [The Utkal way of telling a story](storytelling-standard.md)
+
+- [Destination model and tourism benchmarks](destination-model.md)
+
+- [Utkal Knowledge & Story Model](knowledge-story-model.md)
+
+- [Five travel websites: lessons for Utkal](travel-website-benchmark.md)
+
+- [Languages and Living Voices](language-heritage-model.md)
+
+- [Utkal Design System — Kabita Live adaptation proposal](utkal-design-system-proposal.md)

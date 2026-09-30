@@ -23,3 +23,7 @@ English and Odia marks now appear separately: “Utkal Project” and “ଉତ�
 The public website leads with the mission and Founder. AI role names and reporting structures remain in the operating KB; a concise editorial disclosure describes AI assistance where relevant. No new appointments or persona activations occur. A future team page should reflect actual people and agreed public roles.
 
 Creative direction and initiative: Ahimanikya Satapathy. Implementation and proposals: the current AI assistant. Existing asset and font provenance remains in [the first asset record](../records/brand-foundation-assets.json).
+
+## Sukha Ghasi: material clarification
+
+The Founder clarified that ghasi is a round, flattened, roughly dosa-sized village cooking-fuel cake made from cow dung mixed with paddy straw. **Sukha Ghasi means the dried fuel cake in this brand story, not loose straw.** The selected olive/straw values stay unchanged; visual references should show the dry, hand-shaped, fibrous cakes. The Instagram material story now reads “Stone. Sea. Hearth.” This records the Founder’s material reference rather than claiming a universal size or recipe.

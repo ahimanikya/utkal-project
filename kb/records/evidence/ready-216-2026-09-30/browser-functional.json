@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-09-30T16:41:27.894757+00:00",
+  "status": "pass_with_limitations",
+  "origins": [
+    "http://127.0.0.1:4350",
+    "http://127.0.0.1:4351"
+  ],
+  "data": "Synthetic data entered through UI. Import fixtures provide File objects to the real file-input change handler; no direct storage writes by the test harness.",
+  "checks": [
+    {
+      "check": "Reminder lifecycle",
+      "status": "pass",
+      "observation": "Created a private Odia-containing reminder, ticked it, edited wording, removed and restored it, then reloaded; text and checked state survived."
+    },
+    {
+      "check": "Reminder-only export",
+      "status": "pass",
+      "observation": "Book controls became enabled with a reminder and no saved ideas or days."
+    },
+    {
+      "check": "Saved guide questions",
+      "status": "pass",
+      "observation": "Saving Konark exposed six relevant questions; copied Access into a private reminder."
+    },
+    {
+      "check": "Selected-day privacy",
+      "status": "pass",
+      "observation": "Selected Day 2 dated 21 Dec 2026; printable DOM kept Konark public prompts while excluding private item and reminder writing."
+    },
+    {
+      "check": "Illustrated selected day",
+      "status": "pass",
+      "observation": "Browser reported a photo book with one photograph and personal notes omitted. Download bytes not independently inspected."
+    },
+    {
+      "check": "Intervening edit before merge",
+      "status": "pass",
+      "observation": "Renamed destination after preview. First merge click refreshed preview with zero changes; second deliberate click added two ideas to later."
+    },
+    {
+      "check": "Duplicate merge prevention",
+      "status": "pass",
+      "observation": "A second source load showed zero new and two existing ideas, disabled merge, and retained the newer destination note and day."
+    },
+    {
+      "check": "Independent single import",
+      "status": "pass",
+      "observation": "Source imported as a separate journey retaining date, day note, checklist and reminder."
+    },
+    {
+      "check": "Single trip from collection",
+      "status": "pass",
+      "observation": "Selected synthetic quiet day from two-trip backup; imported only that trip while retaining two existing trips."
+    },
+    {
+      "check": "Explicit full replacement",
+      "status": "pass",
+      "observation": "Replacement disabled before acknowledgement; after tick and click, synthetic collection contained exactly the two backup trips."
+    },
+    {
+      "check": "Book scope reset and title repair",
+      "status": "pass",
+      "observation": "Switching trip reset export scope to all. Initial visible-title mismatch with retained focus was fixed; latest build browser retest matched selected option and title."
+    },
+    {
+      "check": "Stale browser tab",
+      "status": "pass",
+      "observation": "Newer second-tab edit disabled reminder text/ticks and import controls in older tab; book export remained enabled."
+    }
+  ],
+  "limitations": [
+    "Operating-system file chooser not exercised.",
+    "Downloaded bytes not independently inspected.",
+    "Native PDF not verified.",
+    "Same assistant implementation and review."
+  ]
+}

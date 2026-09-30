@@ -1,0 +1,90 @@
+{
+  "id": "UTP-REV-008",
+  "recorded_at": "2026-09-29T02:30:51.004234+00:00",
+  "status": "source_check_complete_founder_review_pending",
+  "scope": [
+    "Chilika",
+    "Konark Sun Temple",
+    "Kotpad textiles",
+    "Pakhala",
+    "Boita Bandana",
+    "Samanta Chandrasekhar"
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "human_authority": "Ahimanikya Satapathy",
+  "authorization": {
+    "decision": "UTP-DEC-026",
+    "quote": "OK, let's do that",
+    "context": "Proceed with editorial review of the first collection before any search-indexing decision."
+  },
+  "report": "../reference/first-collection-editorial-review.md",
+  "source_access": {
+    "page_text": [
+      "Chilika Development Authority",
+      "UNESCO Konark",
+      "Odisha Tourism cuisine",
+      "Ministry of Culture Bali Jatra release",
+      "Odia Bibhaba catalogue"
+    ],
+    "complete_pdf_text": [
+      "Orissa Review December 2007 pp. 1–3"
+    ],
+    "indexed_extract_only": [
+      "Ramsar list Chilika row",
+      "Kotpad Handlooms section",
+      "Naik and Satpathy 1998 abstract"
+    ],
+    "limits": "No independent scholarship, fieldwork, maker interviews or original astronomical calculation verification."
+  },
+  "checks": {
+    "site_build": {
+      "status": "passed",
+      "pages": 14
+    },
+    "site_tests": {
+      "status": "passed",
+      "count": 9
+    },
+    "browser": {
+      "surface": "In-app Chromium browser",
+      "layout_checks": 12,
+      "observed_css_widths": [
+        390,
+        1910
+      ],
+      "horizontal_overflow": false,
+      "citation_keyboard_check": "Chilika Source 1 activated with Enter and resolved to source-cda.",
+      "limitations": [
+        "Emulated mobile only; no physical-device or screen-reader test.",
+        "Desktop requested width 1280 was affected by browser zoom; observed CSS width was 1910.",
+        "Screenshot capture showed scaling/compositor artifacts; no pixel-perfect visual audit claimed."
+      ]
+    },
+    "kb_validation": {
+      "status": "passed",
+      "concepts": 501,
+      "local_links": 1494,
+      "register_records": 52,
+      "events": 32,
+      "generated_views": "current"
+    }
+  },
+  "publication": {
+    "merged": false,
+    "deployed": false,
+    "indexing": "noindex, nofollow retained; robots Disallow retained",
+    "store": "excluded and unlinked",
+    "approval_required": "Founder editorial review and explicit release decision remain pending."
+  },
+  "canonical_content": "Five Markdown research notes and research/people/samanta-chandrasekhar.json are inside the KB; the profile page imports the JSON directly. Original first-entry evidence remains unchanged.",
+  "candidate": {
+    "pull_request": "https://github.com/ahimanikya/utkal-project/pull/4",
+    "branch": "editorial/first-collection-review",
+    "content_commit": "83dcf48",
+    "status": "draft_for_founder_review"
+  }
+}

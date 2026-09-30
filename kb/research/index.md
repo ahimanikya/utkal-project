@@ -27,3 +27,11 @@ Start with the [community encyclopedia model](about/community-encyclopedia.md) a
 [Research gaps and conflicts](about/research-gaps.md) · [How to search and maintain this KB](methods/local-retrieval.md) · [Change history](log.md)
 
 This is a research collection, not a current travel-booking directory. Statements, proposals and unresolved questions are distinguished within each entry.
+
+- [People](people/index.md) — biographical entry drafts and their sources.
+
+- [Structured destination records](destinations/index.md)
+
+- [Languages of Odisha](../reference/language-heritage-model.md) and [Odia Literature & Literary Lives](culture/odia-literature-and-literary-lives.md) — connected language, work and personality collections.
+
+- [Language and literature website pilot](voices/index.md) — illustrated language, writer and work introductions.

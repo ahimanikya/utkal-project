@@ -440,3 +440,239 @@ After the first public preview, the Founder asked us to proceed with mobile and 
 ## UTP-HIS-0054 · The mobile refinements reach the public site
 
 The Founder approved PR #3 with “Go ahead!”. Its mobile readability, contrast, keyboard and reduced-motion improvements were merged and deployed successfully. Live checks confirmed the main changes; physical-device and screen-reader limitations remain documented. [Release evidence](../records/mobile-accessibility-review.json).
+
+## UTP-HIS-0055 · A collection that shows its evidence
+
+The Founder asked us to review the first collection. We found a broken source link, made the small notes more useful, and connected their paragraphs to evidence. We kept uncertainties visible, including Samanta’s conflicting birth dates and sources available only through indexed extracts. This is a step toward a credible encyclopedia, with research questions becoming explicit work. The candidate awaits Founder review; the public preview and indexing are unchanged. [Editorial review](../reference/first-collection-editorial-review.md).
+
+## UTP-HIS-0056 · Facts that make room for feeling
+
+The Founder asked for stories that are informative, playful, poetic and emotional, with an eyes-wide-open moment of discovery. Places, food, people and moments should draw on evidence, local writers and the beliefs people carry. Chilika became the first narrative prototype: a real photograph, a poet asking a train to pause, a lagoon’s ecological report card and the memory of Kalijai. The [standard](../reference/storytelling-standard.md) preserves this direction; the draft awaits Founder review.
+
+## UTP-HIS-0057 · From a story to a journey of your own
+
+Founder asked for more realistic storytelling, poems and songs connected to places, practical visitor choices and a future carry-along tour book. Studied five tourism references; refined Chilika with activities, food and stay bases; moved detailed attribution to expandable end notes. Documented a low-cost client-side planning path without implementing or publishing it. The [destination model](../reference/destination-model.md) and [tour-book addendum](../research/product/destination-and-tour-book.md) preserve this direction. Founder review remains pending.
+
+## UTP-HIS-0058 · Knowing a place before telling its story
+
+Founder expanded the destination idea into an information hierarchy for a place or thing: history, stories, food, local participation, honest expectations, seasons, culture, art/science, people, film connections and quotations. Prepared the Knowledge & Story Model candidate, typed relationships, empty place/thing templates and a Chilika coverage map. Knowledge and narrative presentation are separate; no new facts or migration were invented. [Read the candidate model](../reference/knowledge-story-model.md). Founder review remains pending.
+
+## UTP-HIS-0059 · Learning how the world invites a traveller
+
+Compared Lonely Planet, Tripadvisor, Atlas Obscura, Japan Travel and Tourism Australia for editorial discovery, practical choices, place hierarchy and itinerary discovery. Proposed three Utkal reader paths and separate entity-type, geography and interest dimensions over the existing knowledge model. Inspection limits and phased follow-up preserved; no website behavior changed. [Read the comparison](../reference/travel-website-benchmark.md).
+
+## UTP-HIS-0060 · A story becomes a journey
+
+Founder endorsed the combined culture-first travel recommendation. Recorded the six-step visitor journey, three information layers and Chilika/Konark-first pilot sequence, followed by saved choices and a printable tour book. Detailed candidate review and publication remain separate. [Read the agreed direction](../research/product/culture-first-travel-direction.md).
+
+## UTP-HIS-0061 · Two places, two ways of seeing
+
+Prepared Konark as the second destination pilot and refined Chilika with shared overview, local-engagement and expectations sections. Preserved real-image rights, source trails, legend labels, practical gaps and the Founder publication gate. Chilika invites a choice of shore; Konark invites a closer look at stone. The common structure now carries two distinct places without manufacturing a poem, film location or quotation to fill an empty slot. [Review the pilots](../reference/destination-pilots-review.md).
+
+## UTP-HIS-0062 · Let the pictures speak
+
+Founder felt the pilots were informative but too text-heavy: “picture speaks 1000 words - only text wont cut it”. Added six credited real photographs across the Chilika and Konark pilots, moved the hero ahead of navigation, and introduced image cards, food panels and stronger sea/stone/straw colour sections. Preserved contextual captions, end credits and the Founder release gate. [Visual review and image provenance](../records/destination-visual-review.json).
+
+## UTP-HIS-0063 · Room for a bigger world
+
+Founder asked us to think beyond a narrow reading column: connect smaller places, stays and experiences, let large screens breathe, and convey the feeling of a place through an imagined immersive film. Prepared 15 illustrated place, experience and stay-area detail pages, connected them to the destination pilots, expanded the large-screen layout, and added a manually controlled photo journey with optional original ambient sound. An AI-film scene plan is documented; no AI video or true 360 footage was generated. [Direction and media brief](../research/product/immersive-destination-brief.md).
+
+## UTP-HIS-0064 · Let the real place guide the imagination
+
+The Founder wanted moving scenes grounded in public-media references. Prepared a reference-based Chilika film plan with a short boat-scene pilot, source and rights register, motion prompt, realism checks, proposed edit and sound direction. No film generated; video-service access remains unresolved. [Read the production plan](../research/product/chilika-film-production.md).
+
+## UTP-HIS-0065 · A real evening, freely shared
+
+Runway trial reached an upgrade gate without generating video or spending money. Founder chose free reusable real footage. Verified Ajit Satam’s Chilika sunset video licence and prepared a 27-second silent 1080p local review cut with end credits; decode and sampled-frame checks passed. No deployment. The Founder’s free-only choice moved the first trial toward a real scene shared by an individual creator. [Watch the candidate and read its credits](../collections/chilika-film/index.md).
+
+## UTP-HIS-0066 · From a single evening to a water journey
+
+Expanded the free-footage Chilika film to 42.4 seconds with three credited real recordings, soft transitions and an original synthetic ambient score. Excluded a bird compilation with uncertain underlying rights. Preserved v1; verified final decode, duration, streams, sampled frames and unclipped audio levels. Human listening and aesthetic review pending; no purchase or deployment. [Film and source records](../collections/chilika-film/index.md).
+
+## UTP-HIS-0067 · A place also lives in the words people carry
+
+Founder asked us to include languages, with Odia primary, and elaborate their cultural heritage and history. Prepared a shared profile linking voices, scripts, stories, songs, literature, people and places. Source and speaker perspectives will guide naming and classification. The [language model and research queue](../reference/language-heritage-model.md) preserve this direction; profiles and public pages remain future delivery.
+
+## UTP-HIS-0068 · Many languages, and the people who give words a life
+
+Founder reinforced that Odisha’s other languages deserve substantive coverage and asked us to explore Odia literature and its personalities. Prepared a [literature collection and writer/work research queue](../research/culture/odia-literature-and-literary-lives.md), linked to the language model. The plan gives other language research a parallel start and connects people to works and places. Full profiles and publication remain future work.
+
+## UTP-HIS-0069 · Ghasi is the fuel cake, not loose straw
+
+Founder clarified the physical reference behind Sukha Ghasi: round, flattened cooking-fuel cakes made from cow dung and paddy straw. Corrected the brand story and requested a revised card with the cakes; the selected colour values remain unchanged. [Material story](stories/001-earth-sea-and-sukha-ghasi.md).
+
+## UTP-HIS-0070 · The colours get a home of their own
+
+Saved the corrected bilingual card and added the material stories to the branding page, following the Founder’s instruction. The ghasi correction is now part of the visible origin story. [Artwork](../collections/brand-social/index.md) and [local verification](../records/brand-colour-story-review.json) are preserved; no public deployment.
+
+## UTP-HIS-0071 · Words become places to explore
+
+Returning to website work, the language and literature programme became six connected preview pages. A real palm-leaf manuscript, an Ol Chiki sample and a commemorative bust give the first stories visual anchors. The collection begins with Odia, Santali, Fakir Mohan and Six Acres and a Third, leaving room for other voices. [Content and provenance](../research/voices/index.md) · [Review](../records/language-literature-pilot-review.json). Founder review and public release remain pending.
+
+## UTP-HIS-0072 · A story you can take with you
+
+The Founder approved moving from connected cultural stories to a personal journey prototype. Readers can collect a place, a taste and a reading idea, arrange days and keep notes without an account. Three reading trails connect landscape, language and literature. [Implementation and decisions](../research/product/culture-journey-prototype.md) preserve the first version; native PDF pagination and Founder release review remain open.
+
+## UTP-HIS-0073 · More than one way back to Odisha
+
+The Founder asked to keep moving through the list. Readers can now hold several possible journeys, give one a date and keep another as an idea. [Multiple journeys](../research/product/multiple-journeys.md) records the compatible migration, backup behaviour and verification. Local candidate only; native PDF pagination and release review remain open.
+
+## UTP-HIS-0074 · From a reading trail to a place to begin
+
+Balasore and Mayurbhanj become the next regional guides, joining real landscapes to literary lives, language, craft and food. A reader can carry these choices into a personal journey. [The implementation and open questions](../research/product/northern-guides.md) preserve the reasoning and evidence. Local candidate only; field checks and Founder publication review remain open.
+
+## UTP-HIS-0075 · Ten steps from reading Odisha to carrying a journey
+
+The Founder asked for ten pending items followed by review. Two northern landscapes, three distinct languages and two literary lives now connect with access guidance, an offline text tour book and reader correction drafts. [The ten-item batch](../research/product/ten-item-website-batch.md) records each result, its original queue and [self-review evidence](../records/ten-item-website-review.json). All ten are local candidates; human editorial review and publication remain separate.
+
+## UTP-HIS-0076 · Pictures to carry, and a public door into the story
+
+The next approved batch makes discovery easier on a small screen, gives the offline book real photographs and prepares a public contribution path through GitHub. Two literary lives and two food stories deepen the collection. [The batch](../research/product/visitor-polish.md) and [self-review](../records/visitor-polish-review.json) preserve the choices and limits. Native PDF pagination remains open; no publication performed.
+
+## UTP-HIS-0077 · Walk the journey before opening the door
+
+The Founder agreed to a release-readiness pass. Walking the reader path exposed a missing flagship photograph and a new-subject contribution gap. Both were corrected. [The release pack](../research/product/release-preview.md) preserves the local candidate, review evidence and remaining printing limits. Human publication approval remains separate.
+
+## UTP-HIS-0078 · A shared design practice, an identity of our own
+
+The Founder suggested adapting the design system built for Kabita Live. [The proposal](../reference/utkal-design-system-proposal.md) preserves Utkal colours, marks and purpose while learning from script-aware typography, coherent components and a human review desk. It distinguishes approved foundations from pending reference choices. No redesign or publication applied.
+
+## UTP-HIS-0079 · One design language, many places to belong
+
+The Founder authorized a reusable Utkal Design System. [The first candidate](../design-system/index.md) joins the stone, sea and hearth identity to shared typography, spacing, components and original utility icons. A review gallery and three real page pilots make the choices visible. The package is ready for project-specific review and adoption; no site-wide migration or publication performed.
+
+## UTP-HIS-0080 · A design language learns from the places it serves
+
+The Founder asked to use the system and improve it through practice. [The first website adoption](../design-system/utp-adoption.md) joins all 50 local pages to the shared system, including the early astronomy profile and the photograph archive. Real pages taught us to protect image geometry, use light controls on sea-colour panels and include standalone viewers in an adoption inventory. Those lessons return to version 0.1.0-rc.2. [The review](../records/design-system-adoption-review.json) records passing checks and remaining human review; publication remains separate.
+
+## UTP-HIS-0081 · Twenty small steps, one shared standard
+
+**Implementation candidate · website growth · 30 September 2026 UTC**
+
+The Founder accepted the working design and asked for pace without losing care. Reusing the same story and visitor templates made room for three cities, three smaller places, three languages and a poet. Planner recovery and easier contributions grew alongside the collection. The batch makes progress visible while leaving human editorial and publication authority intact.
+
+> We have millions of things to do...we need to speed up and yet hold the standard and quality.
+
+[Batch and review](../research/product/next-twenty.md). No new publication.
+
+## UTP-HIS-0082 · A photograph becomes a starting point
+
+The next step connected the growing collection: seven photographic destination doors, familiar Odia names, links between stories and three starting collections. Visitors can make a journey their own while keeping earlier plans intact. The same design foundations carry each step.
+
+[Connected discovery and review](../research/product/discovery-connections.md). Local candidate; no publication.
+
+## UTP-HIS-0083 · From interesting to useful
+
+The Founder noted that inner pages still needed work and asked to keep moving. The next batch paired targeted layout corrections with food, activity and stay-area entry points, then added personal preparation reminders that travel with a saved journey. Broader visual refinement stays visible in the backlog.
+
+[Visitor planning and open layout work](../research/product/visitor-planning-batch.md). Local candidate; no publication.
+
+## UTP-HIS-0084 · Let the picture help the words; let the film help the song
+
+> A picture makes the text more readable, and a video makes the music more listenable
+>
+> — Ahimanikya Satapathy
+
+Ahimanikya carried a thought from his Kabita Live discussions into Utkal: design the image and the reading, the film and the listening, as a connected experience. A photograph is not always enough to explain a subject. AI imagery can give supported ideas a clearer visual form, with interpretation distinct from evidence.
+
+[Media and meaning foundation](../design-system/media-and-meaning.md). Principle recorded; individual visual treatments remain reviewable.
+
+## UTP-HIS-0085 · Give someone a reason to go
+
+> Worth reading, worth sharing with friends, and worth planning a visit. Create that desire why I should visit this place
+>
+> — Ahimanikya Satapathy
+
+The Founder sharpened the purpose of Utkal’s stories: make them worth reading, worth sharing with friends and worth planning a visit around. The aim is for someone to imagine an experience they would value, with evidence and practical detail supporting the desire.
+
+[Editorial standard and review tests](../reference/storytelling-standard.md).
+
+## UTP-HIS-0086 · Three subjects, three ways to care
+
+The Founder’s wish for stories worth reading, sharing and visiting became three local reference experiences. Chilika pairs poetry with wetland imagery; Chhena Poda opens a conversation with a maker; Gopinath Mohanty leads into a book. Their common patterns return to the Utkal Design System.
+
+[Story patterns and lessons](../design-system/story-patterns.md) · [Local verification](../records/story-reference-review.json). Founder review and wider rollout remain open.
+
+## UTP-HIS-0087 · A page needs a thread
+
+The Founder found the first storytelling reference pages jumpy and disorganised. The next revision removed repeated openings and oversized callouts, aligned the visual chapters and treated supplementary material as optional. Passing component tests had not established the quality of the whole reading experience.
+
+[Composition principles](../design-system/story-patterns.md) · [Revision review](../records/story-flow-review.json). Local candidate for Founder review.
+
+## UTP-HIS-0088 · Looking at the page changed the verdict
+
+The Founder challenged whether the flow revision had fixed the experience. A browser audit found a 32-pixel food-text column, invisible experience numbers, conflicting reading widths and repeated endings. The assistant recorded a failed review and returned the reference work to draft. Passing technical checks had missed an obvious rendered defect.
+
+[Visual audit and repair order](../design-system/visual-audit-2026-09-30.md) · [Failed review](../records/visual-audit-2026-09-30.json). Website code unchanged; repairs remain open.
+
+## UTP-HIS-0089 · Repair the cause, then read the page
+
+The Founder approved the visual-audit fixes. The repair removed the hidden number column, gave the practical chapters one reading width, consolidated repeated endings and reduced the phone opening’s navigation. The failed review remains intact; repair evidence records actual dimensions and screenshot limitations.
+
+[Repair verification](../records/visual-repair-2026-09-30.json). Local candidate; no deployment.
+
+## UTP-HIS-0090 · Choose the experience before building more
+
+The Founder remained unconvinced by the page design after the technical fixes. Three complete alternatives now compare the same Chilika material as a visual magazine, a photo story and a travel field guide. None is selected or applied.
+
+[Design comparison brief](../design-system/destination-options-01.md).
+
+## UTP-HIS-0091 · A magazine to invite a visit
+
+The Founder selected **A · Visual magazine**. Chilika now follows that direction in the local website: a photographic opening, a poet’s invitation to pause, illustrated shores, food and planning. The detailed knowledge and credits remain accessible. Selection approves the direction; the implemented page is still ready for Founder review.
+
+[Selection and preview](../design-system/destination-options-01.md) · [Verification](../records/magazine-a-review.json). No public deployment.
+
+## UTP-HIS-0092 · One family, different stories
+
+The Founder approved the next batch with a review checkpoint after its first six items. Direction A now connects Chilika, Konark, Chhena Poda and Gopinath Mohanty through shared magazine patterns, while retaining the subjects’ different stories. The phone opening gives the image room sooner. Source records, saved identities and the complete historical portrait remain intact.
+
+[Four-story review](../design-system/magazine-family-review.md). Items 7–10 and public release remain ahead.
+
+## UTP-HIS-0093 · A story should lead somewhere
+
+The Founder authorised the next stage. Discovery now leads into the place, its experiences, stay-area research and a personal journey. The browser review caught oversized headings, duplicate saved labels and an overlong suggestions list; the implementation was adjusted. Native PDF printing is still an open verification item, recorded honestly rather than marked passed.
+
+[Integrated review](../records/visitor-flow-review.json). Local candidate; no deployment.
+
+## UTP-HIS-0094 · A city is also its voices
+
+The magazine approach now includes Bhubaneswar, Puri and Cuttack, alongside language and literary collections. Bhubaneswar connects stone heritage, the Founder’s 2009 photographs and a personal journey. The archive retains its date and limits: memory does not promise an unchanged street. Overlapping reviews now have one grouped entry point, while earlier decisions and evidence remain intact.
+
+[City and culture review](../research/product/city-culture-review.md). Local candidate; native PDF pagination and human editorial acceptance remain open.
+
+## UTP-HIS-0095 · The useful detail should travel with the story
+
+Bhubaneswar’s practical advice now travels into the personal book. Real photographs explain the gateway and the carved elephant, and the archival murals keep their date. Actual browser downloads were checked; native PDF pagination remains open.
+
+[Visitor reference candidate](../research/product/bhubaneswar-visitor-candidate.md).
+
+## UTP-HIS-0096 · A doorway, a meal and a place to wake up
+
+Bhubaneswar now has three connected chapters: Mukteswar, a city meal and a choice of base. The architecture keeps its whole frame; food invites a conversation; accommodation research starts with the day a visitor wants. New journeys gain six ideas while older plans keep their own shape.
+
+[Connected collection and evidence](../research/product/bhubaneswar-collection.md). Local candidate awaiting Founder review.
+
+## UTP-HIS-0097 · A coast becomes a collection of encounters
+
+Puri and Konark now lead into a maker’s doorway, food with different meanings and a thoughtful choice of base. A real photograph brings Raghurajpur closer without inventing the artisan’s name. The eight-idea starter leaves the visitor free to shape the journey.
+
+[Coastal collection and evidence](../research/product/coastal-collection.md). Local candidate awaiting Founder review.
+
+## UTP-HIS-0105 · The questions can travel too
+
+Stories now leave the reader with useful questions for the people who will welcome them. A reminder can hold the reader’s own wording, and a single day can become a smaller book. Backup choices protect what has already been written. The Founder asked to review the work together, so the record preserves delivery evidence without treating it as acceptance.
+
+[Preparation and portable books](../research/product/ready-216.md). Local candidate for combined Founder review.
+
+## UTP-HIS-0106 · Check the book that leaves the browser
+
+Four actual downloads now preserve evidence of what a traveller carries: photographs, dated days and private writing that can be left out. A silent print request prompted clearer feedback. The coastal candidate is frozen for one review, while native PDF pagination and human acceptance remain explicit.
+
+[Launch-readiness review](../research/product/launch-readiness-2026-09-30.md). Local candidate; no publication.
+
+## UTP-HIS-0107 · The same coast, built somewhere else
+
+The accumulated work now has one updated draft pull request. A clean checkout found a missing gallery-generation step; after repair, GitHub produced exactly the coastal files already frozen for review. The Founder still decides acceptance and publication.
+
+[Release PR handoff](../research/product/release-pr-2026-09-30.md). Draft PR updated; no merger or website deployment.

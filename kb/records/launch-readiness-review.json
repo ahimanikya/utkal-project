@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-09-30T20:28:23.147231+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-072",
+  "candidate_id": "coast-2026-09-30-rc1",
+  "checks": {
+    "full_draft_pages": 72,
+    "coastal_pages": 16,
+    "site_tests_pass": 313,
+    "coastal_tests_pass": 10,
+    "page_audit_checks_pass": 64,
+    "actual_downloads_inspected": 4,
+    "book_layout_checks": 3,
+    "source_pages_checked": 10,
+    "frozen_files": 54,
+    "frozen_bytes": 7098515,
+    "final_home_and_journey_layouts": 4,
+    "snapshot_rejection_cases": 3,
+    "kb_validation": "PASS: 546 concepts, 1933 local links; 221 register records, 83 events; catalogue and whitespace pass."
+  },
+  "findings_and_repairs": [
+    "Silent native Print no-op now receives nearby live status with a download fallback and no false PDF success.",
+    "Stay summary source list is intentionally empty for editorial comparison; detailed factual setting retains sources.",
+    "UNESCO introductory and detailed horse counts differ. No horse count added to the current narrative."
+  ],
+  "limitations": [
+    "Same AI assistant implemented and reviewed; human editorial acceptance pending.",
+    "Native PDF pagination remains UTP-WORK-080; Print exposed no dialog and Computer Use refused Codex app access. No native PDF was produced.",
+    "Focused keyboard and fixed-width browser checks are not a screen-reader or physical-device audit.",
+    "Actual sample books contain synthetic notes and local preview URLs. They were downloaded before the print-feedback-only repair; the book generator was unchanged.",
+    "Ten targeted source/provenance page checks do not establish exhaustive fact checking, human Odia review, permissions for every asset or current services.",
+    "No publication, external submission, purchase, commit, push or merge. Earlier uncommitted changes remain for human review."
+  ],
+  "evidence": [
+    "records/evidence/launch-readiness-2026-09-30/actual-downloads.json",
+    "records/evidence/launch-readiness-2026-09-30/book-layouts.json",
+    "records/evidence/launch-readiness-2026-09-30/book-photo-desktop.png",
+    "records/evidence/launch-readiness-2026-09-30/book-photo-phone-visible.png",
+    "records/evidence/launch-readiness-2026-09-30/book-photo-phone.png",
+    "records/evidence/launch-readiness-2026-09-30/book-shareable-phone.png",
+    "records/evidence/launch-readiness-2026-09-30/books.html",
+    "records/evidence/launch-readiness-2026-09-30/browser-functional.json",
+    "records/evidence/launch-readiness-2026-09-30/candidate-manifest.json",
+    "records/evidence/launch-readiness-2026-09-30/coast-build.log",
+    "records/evidence/launch-readiness-2026-09-30/coast-tests.log",
+    "records/evidence/launch-readiness-2026-09-30/download-verification.json",
+    "records/evidence/launch-readiness-2026-09-30/downloaded-book.html",
+    "records/evidence/launch-readiness-2026-09-30/downloaded-itinerary.txt",
+    "records/evidence/launch-readiness-2026-09-30/downloaded-photo-book.html",
+    "records/evidence/launch-readiness-2026-09-30/downloaded-shareable-book.html",
+    "records/evidence/launch-readiness-2026-09-30/final-journey-phone.png",
+    "records/evidence/launch-readiness-2026-09-30/final-layouts.json",
+    "records/evidence/launch-readiness-2026-09-30/full-build.log",
+    "records/evidence/launch-readiness-2026-09-30/full-tests.log",
+    "records/evidence/launch-readiness-2026-09-30/index.html",
+    "records/evidence/launch-readiness-2026-09-30/page-acceptance.json",
+    "records/evidence/launch-readiness-2026-09-30/record-validation.json",
+    "records/evidence/launch-readiness-2026-09-30/snapshot-verification.json"
+  ]
+}

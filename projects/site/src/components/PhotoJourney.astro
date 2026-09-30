@@ -1,0 +1,31 @@
+---
+const {destination:d,story}=Astro.props;
+const scenes=d.slug==='chilika'?[
+ {photo:story.image,title:'Let the water set the pace',text:'A first glimpse of Chilika. Choose a shore, then give it time.',href:'#plan-visit'},
+ {photo:d.visuals.mangalajodi,title:'A sky full of wings',text:'Follow the birding story into Mangalajodi.',href:'/visit/places/mangalajodi/'},
+ {photo:d.visuals.kalijai,title:'An island keeps a name',text:'Meet Kalijai through a crossing, a shrine and a local legend.',href:'/visit/places/kalijai/'},
+ {photo:d.visuals.crab,title:'Bring the day to the table',text:'Explore the lagoon’s food story, then ask what is available locally.',href:'#food'}
+]:[
+ {photo:story.image,title:'Look closer at the stone',text:'A carved wheel opens a conversation about Konark.',href:'/visit/experiences/konark-sculpture/'},
+ {photo:d.visuals.chandrabhaga,title:'Trade the detail for a horizon',text:'Make room for the coast at Chandrabhaga.',href:'/visit/places/chandrabhaga/'},
+ {photo:d.visuals.odissi,title:'Find the living rhythm',text:'Odissi in performance. This photograph was taken in New Delhi, not at the Konark festival.',href:'/visit/experiences/konark-dance/'},
+ {photo:d.visuals['chhena-poda'],title:'End on a sweet note',text:'Chhena poda: one food connection to carry into your coastal visit.',href:'#food'}
+];
+---
+<section class="journey-section" id="photo-journey" aria-labelledby="journey-title">
+ <div class="journey-heading"><div><p class="eyebrow">A moment before you go</p><h2 id="journey-title">Feel the place</h2></div><p>A photographic journey with optional ambient tones. Real photographs, a creative soundscape.</p></div>
+ <photo-journey class="photo-journey utk-inverse" aria-label={'Photo journey through '+d.slug}>
+  <div class="journey-stage">{scenes.map((scene,i)=><article class="journey-scene" data-scene hidden={i!==0}>
+   <img src={scene.photo.src} alt={scene.photo.alt} width={scene.photo.width} height={scene.photo.height} loading="lazy" decoding="async" />
+   <div class="journey-caption"><p class="eyebrow">0{i+1} / 0{scenes.length}</p><h3>{scene.title}</h3><p>{scene.text}</p><a href={scene.href}>Explore this chapter →</a></div>
+  </article>)}</div>
+  <div class="journey-controls" hidden data-controls>
+   <button type="button" data-play aria-pressed="false" class="utk-button utk-button--inverse">Play journey</button><button type="button" data-prev aria-label="Previous chapter" class="utk-button utk-button--inverse">←</button><button type="button" data-next aria-label="Next chapter" class="utk-button utk-button--inverse">→</button><button type="button" data-audio aria-pressed="false" class="utk-button utk-button--inverse">Sound off</button><button type="button" data-fullscreen class="utk-button utk-button--inverse">Full screen</button><output data-position aria-live="polite">Chapter 1 of {scenes.length}</output>
+  </div>
+  <p class="journey-note">Photo sequence, not 360° footage. The optional sound is composed ambient audio, not a recording from the location.</p>
+  <noscript><p class="journey-note">This preview shows the opening photograph. Enable JavaScript to play all chapters.</p></noscript>
+ </photo-journey>
+</section>
+<script>
+ import '../scripts/photo-journey';
+</script>

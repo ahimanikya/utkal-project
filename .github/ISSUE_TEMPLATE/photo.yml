@@ -1,0 +1,40 @@
+name: Photograph proposal
+description: Propose a photograph whose public-sharing rights you can explain.
+title: "[Photo] "
+body:
+  - type: markdown
+    attributes:
+      value: "Only post material you can share publicly. This issue is public immediately; publication in Utkal Project requires separate review. Do not attach private permission letters or identification documents."
+  - type: input
+    id: subject
+    attributes:
+      label: Subject and place
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Caption and date
+      description: What does the image show? Give the approximate date and identify uncertainty or editing, including AI generation.
+    validations:
+      required: true
+  - type: textarea
+    id: source-rights
+    attributes:
+      label: Creator, source and reuse rights
+      description: Provide a public source and licence link, or explain your ownership and proposed reuse permission. Editors must verify this before use.
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Requested public credit
+  - type: checkboxes
+    id: public-review
+    attributes:
+      label: Before posting
+      options:
+        - label: I understand that this issue and its attachments will be public on GitHub.
+          required: true
+        - label: I can share this material publicly and have considered the privacy of people depicted.
+          required: true

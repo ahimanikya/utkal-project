@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-09-30T16:08:35.060295+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-070",
+  "checks": {
+    "implementation_items": 40,
+    "editorial_fields": 35,
+    "content_contracts": 70,
+    "regression_cases": 35,
+    "responsive_inspections": 24,
+    "integrated_checks": 6,
+    "site_tests_pass": 205,
+    "coastal_tests_pass": 10,
+    "page_audit_checks_pass": 64,
+    "full_draft_pages": 72,
+    "coastal_pages": 16,
+    "coastal_files": 54,
+    "coastal_bytes": 6955233,
+    "items_completed": 210,
+    "kb_validation": "PASS: 543 concepts, 1909 links; 215 register records, 81 events; diff whitespace check passed."
+  },
+  "findings_and_repairs": [
+    "An intentionally empty day initially used the older unlocated-idea message; it now explicitly leaves room for a pause.",
+    "Saved-day search singular/plural feedback refined.",
+    "Review harness now repositions the selected section after changing width; initial phone capture was at the earlier scroll position and was replaced with a correctly positioned capture.",
+    "Audit output history collision detected and recorded; default output changed to .astro and preservation after repair verified."
+  ],
+  "limitations": [
+    "210 acceptance items comprise 75 product/content tasks and 135 checks, not 210 new features or 210 existing backlog tickets.",
+    "Same AI assistant implemented and reviewed. Original editorial prompts are drafts; no new factual fieldwork, quotation authentication, rights clearance or human language review.",
+    "Current clients preserve optional day metadata; older versions may discard it. Browser storage quotas and existing total import limits still apply.",
+    "Native PDF pagination remains UTP-WORK-080. Actual downloaded bytes and browser file-picker import were not inspected; generated output and round-trip validation have automated tests.",
+    "Native confirmation for removing an empty day was not exercised. Responsive results are DOM geometry/loaded-image measurements with representative screenshots, not a complete accessibility or physical-device audit.",
+    "The original first-batch page-acceptance.json was inadvertently refreshed by the old hard-coded audit output path. Original manifest hash preserved; see the explicit correction record. Audit now defaults to disposable output and this batch has separate evidence.",
+    "Local candidate only; no commit, push, merge, deployment, public issue, paid service or outreach. Shared design package rc.5 unchanged."
+  ],
+  "evidence": [
+    "records/evidence/next-210-2026-09-30/audit-path-check.json",
+    "records/evidence/next-210-2026-09-30/baseline.json",
+    "records/evidence/next-210-2026-09-30/browser-functional.json",
+    "records/evidence/next-210-2026-09-30/build-report.json",
+    "records/evidence/next-210-2026-09-30/coast-build.log",
+    "records/evidence/next-210-2026-09-30/coast-tests.log",
+    "records/evidence/next-210-2026-09-30/day-notes-desktop.png",
+    "records/evidence/next-210-2026-09-30/editorial-notebooks.json",
+    "records/evidence/next-210-2026-09-30/evidence-correction.json",
+    "records/evidence/next-210-2026-09-30/full-build.log",
+    "records/evidence/next-210-2026-09-30/full-draft-manifest.json",
+    "records/evidence/next-210-2026-09-30/full-tests.log",
+    "records/evidence/next-210-2026-09-30/index.html",
+    "records/evidence/next-210-2026-09-30/journey-phone.png",
+    "records/evidence/next-210-2026-09-30/konark-notebook-desktop.png",
+    "records/evidence/next-210-2026-09-30/konark-notebook-phone.png",
+    "records/evidence/next-210-2026-09-30/page-acceptance.json",
+    "records/evidence/next-210-2026-09-30/record-validation.json",
+    "records/evidence/next-210-2026-09-30/responsive-measurements.json"
+  ]
+}

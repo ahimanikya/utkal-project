@@ -11,9 +11,16 @@ const entries=selected.map(item=>{
   const sources=JSON.parse(raw.match(/^sources: (.+)$/m)[1]);
   const body=raw.split('\n---\n')[1];
   const match=body.match(/## Sourced knowledge\s+([\s\S]*?)(?=\n##|$)/);
-  const paragraph=(match?match[1]:body.split('\n\n')[1]).trim().replace(/\[\^[^\]]+\]/g,'');
-  if(!paragraph||!sources.length)throw new Error('Incomplete selected content: '+item.path);
-  return {...item,text:paragraph,sources,review:'Draft · editorial review pending',href:'/knowledge/'+item.slug+'/'};
+  if(!match||!sources.length)throw new Error('Incomplete selected content: '+item.path);
+  const sourceIds=new Set(sources.map(source=>source.id));
+  if(sourceIds.size!==sources.length)throw new Error('Duplicate source ID: '+item.path);
+  const paragraphs=match[1].trim().split(/\n\s*\n/).map(rawParagraph=>{
+    const citations=[...new Set([...rawParagraph.matchAll(/\[\^([^\]]+)\]/g)].map(match=>match[1]))];
+    if(!citations.length||citations.some(id=>!sourceIds.has(id)))throw new Error('Missing or unknown citation: '+item.path);
+    return {text:rawParagraph.replace(/\[\^[^\]]+\]/g,'').replace(/\s*\n\s*/g,' ').trim(),sources:citations};
+  });
+  const text=paragraphs.map(paragraph=>paragraph.text).join('\n\n');
+  return {...item,text,paragraphs,sources,review:'Draft · Founder review pending',href:'/knowledge/'+item.slug+'/'};
 });
 writeFileSync(new URL('../src/data/selected.json',import.meta.url),JSON.stringify(entries,null,2)+'\n');
 console.log('Prepared '+entries.length+' explicitly selected research notes; no automatic full-KB export.');

@@ -1,0 +1,266 @@
+{
+  "model_version": "0.1",
+  "entity_id": "place:chilika",
+  "profile": "place",
+  "status": "mapping_only_not_migrated",
+  "recorded_on": "2026-09-29",
+  "new_research_performed": false,
+  "modules": [
+    {
+      "id": "identity",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/orientation",
+          "note": "Existing visitor orientation, not a complete historical-name/geographic record."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Verified Odia naming and historical-name periods",
+          "work_ref": null,
+          "assigned_owner": null
+        },
+        {
+          "question": "Coordinates, gateway boundaries and access verification",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "state": "not_researched",
+      "entry_refs": [],
+      "gaps": [
+        {
+          "question": "What historical events and trade connections are supported by primary or scholarly sources?",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/stories/narratives/chilika.json",
+          "pointer": "/belief",
+          "note": "One recorded Kalijai telling; no claim of universal belief."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Other local versions and attributed oral accounts",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "experiences",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/experiences",
+          "note": "Three existing draft visitor choices."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Access, seasonal operations and visit-duration checks",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/foods",
+          "note": "Food leads, including curd, with existing source limitations."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Named venues, preparations and vegetarian meal options verified locally",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/stories/narratives/chilika.json",
+          "pointer": "/voice",
+          "note": "Brief Gopabandhu excerpt; Odia and edition review pending."
+        },
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/culture",
+          "note": "Poem and soundtrack connections; does not establish filming locations."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Native-language and edition checks",
+          "work_ref": null,
+          "assigned_owner": null
+        },
+        {
+          "question": "Production evidence for any actual filming-location claim",
+          "work_ref": null,
+          "assigned_owner": null
+        },
+        {
+          "question": "Local art and performance connections",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "nature_science",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/stories/narratives/chilika.json",
+          "pointer": "/surprise",
+          "note": "Dated ecological assessment; not live conditions."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Additional ecology, scientific work and knowledge holders",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/stories/narratives/chilika.json",
+          "pointer": "/voice/author",
+          "note": "Existing literary connection only; not birthplace/residence evidence."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "People whose documented work shaped the lagoon",
+          "work_ref": null,
+          "assigned_owner": null
+        },
+        {
+          "question": "Verified place quotations with speaker, context and original source",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/community",
+          "note": "Pilot addition: editorial guidance and reading suggestions; does not establish provider review or verified travel rules."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Which local hosts or community-led experiences welcome visitors?",
+          "work_ref": null,
+          "assigned_owner": null
+        },
+        {
+          "question": "Public booking contacts, participation arrangements, benefits and consent scope",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "visit",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/season",
+          "note": "Birding-season advice."
+        },
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/bases",
+          "note": "Areas and accommodation leads, not reviewed individual stays."
+        },
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/planning",
+          "note": "Editorial suggestion, not a checked timetable."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Transport, facilities, physical access, current operation and costs",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "expectations",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/expectations",
+          "note": "Pilot addition: editorial guidance and reading suggestions; does not establish provider review or verified travel rules."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Source-backed strengths and drawbacks for different visitor needs",
+          "work_ref": null,
+          "assigned_owner": null
+        },
+        {
+          "question": "Documented wildlife conduct, local customs and applicable boat/visitor rules",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "state": "draft",
+      "entry_refs": [
+        {
+          "path": "research/destinations/chilika.json",
+          "pointer": "/related",
+          "note": "Pilot addition: editorial guidance and reading suggestions; does not establish provider review or verified travel rules."
+        }
+      ],
+      "gaps": [
+        {
+          "question": "Choose related entities with precise evidence-backed connections",
+          "work_ref": null,
+          "assigned_owner": null
+        }
+      ]
+    }
+  ],
+  "note": "Maps current pilot material to the proposed hierarchy; this is not a runtime schema migration. Existing literary, access and local-provider gaps remain open."
+}

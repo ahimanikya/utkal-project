@@ -1,0 +1,38 @@
+
+> @utkal/design-system@0.1.0-rc.5 test
+> node --test tests/*.test.mjs
+
+✔ Utkal identity values and semantic links remain consistent (0.578459ms)
+✔ text, actions and error roles meet normal-text contrast on their surfaces (0.431125ms)
+✔ icon labels are escaped and decorative icons stay out of the accessibility tree (0.176542ms)
+✔ font distributions retain author licences and package resources resolve (2.869084ms)
+✔ public package excludes review code and gallery stays outside the UTP export (0.329917ms)
+✖ five page examples use the actual integrated website version (0.093958ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 41.205166
+
+✖ failing tests:
+
+test at tests/system.test.mjs:36:1
+✖ five page examples use the actual integrated website version (0.093958ms)
+  Error: ENOENT: no such file or directory, open '/private/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/utkal-release-check-o6xs9ztr/source/projects/design-system/dist/design-system/pilots/chilika/index.html'
+      at readFileSync (node:fs:441:20)
+      at read (file:///private/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/utkal-release-check-o6xs9ztr/source/projects/design-system/tests/system.test.mjs:5:15)
+      at TestContext.<anonymous> (file:///private/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/utkal-release-check-o6xs9ztr/source/projects/design-system/tests/system.test.mjs:37:83)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/private/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/utkal-release-check-o6xs9ztr/source/projects/design-system/dist/design-system/pilots/chilika/index.html'
+  }

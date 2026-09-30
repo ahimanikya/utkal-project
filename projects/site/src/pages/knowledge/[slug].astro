@@ -1,7 +1,108 @@
 ---
+import MagazinePlace from '../../components/MagazinePlace.astro';
+import StorySources from '../../components/StorySources.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import CultureConnections from '../../components/CultureConnections.astro';
 import Shell from '../../layouts/Shell.astro';
 import entries from '../../data/selected.json';
+import StoryBody from '../../components/StoryBody.astro';
+import DestinationGuide from '../../components/DestinationGuide.astro';
+import chilikaStory from '../../../../../kb/research/stories/narratives/chilika.json';
+import chilikaDestination from '../../../../../kb/research/destinations/chilika.json';
+import konarkStory from '../../../../../kb/research/stories/narratives/konark.json';
+import konarkDestination from '../../../../../kb/research/destinations/konark.json';
+import DestinationContext from '../../components/DestinationContext.astro';
+import DestinationPhoto from '../../components/DestinationPhoto.astro';
+import PhotoJourney from '../../components/PhotoJourney.astro';
 export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
+const reference=['chilika','konark'].includes(entry.slug);
+const pilots={chilika:{story:chilikaStory,destination:chilikaDestination},konark:{story:konarkStory,destination:konarkDestination}};
+const {story=null,destination=null}=pilots[entry.slug]??{};
+const sources=[...entry.sources,...(story?.sources??[]),...(destination?.sources??[])];
+const evidenceUses=[
+  ...entry.paragraphs.map((paragraph,index)=>({label:'Knowledge note '+(index+1),anchor:'fact-'+(index+1),sources:paragraph.sources})),
+  ...(story?[
+    ...(story.history?[{label:story.history.heading,anchor:'history',sources:story.history.sources}]:[]),
+    ...(story.voice?[{label:story.voice.heading,anchor:'poems-songs',sources:story.voice.sources}]:[]),
+    ...(story.surprise?[{label:story.surprise.heading,anchor:story.surprise.id??'ecology',sources:story.surprise.sources}]:[]),
+    ...(story.belief?[{label:story.belief.heading,anchor:'local-belief',sources:story.belief.sources}]:[])
+  ]:[]),
+  ...(destination?[
+    {label:'Planning and season',anchor:'plan-visit',sources:[...destination.orientation_sources,...destination.season_sources]},
+    ...[...destination.experiences,...destination.foods,...destination.bases,...destination.culture,{...destination.community,id:'locals',title:destination.community.heading}].map(item=>({label:item.title,anchor:item.id.replaceAll(':','-'),sources:item.sources}))
+  ]:[])
+];
 ---
-<Shell title={entry.label} description={entry.dek} active="explore"><div class="wrap"><div class="page-head"><p class="breadcrumb"><a href="/explore/">The collection</a> / {entry.category}</p><p class="eyebrow">Research note · {entry.category}</p><h1>{entry.label}</h1><p class="lead">{entry.dek}</p></div><article class="knowledge"><p class="notice">Editorial draft. This short note comes from our collected research and is awaiting editorial review.</p><p class="knowledge-text">{entry.text}</p><h2 style="font-size:30px;margin-bottom:20px">Follow the sources</h2><ol class="source-list">{entry.sources.map(s=><li><a href={s.resource}>{s.title} ↗</a></li>)}</ol><p class="source-credit">Prepared from the Utkal Project knowledge base: {entry.path}. Source credit belongs to the authors and institutions linked above. Founder & Editor-in-Chief: Ahimanikya Satapathy. Research assembled with AI assistance; source verification is not an independent scholarly review.</p><div class="actions"><a class="text-link" href="/explore/">← Back to the collection</a><a class="text-link" href="/contribute/">Help this entry grow ↗</a></div></article></div></Shell>
+<Shell title={entry.label} description={entry.dek} active="explore" wide={!!destination} related={entry.slug!=='konark'}>
+  {reference?<MagazinePlace entry={entry} story={story} destination={destination} sources={sources} evidenceUses={evidenceUses}/>:<div class:list={['wrap',{'destination-wide':!!destination,'reference-place':reference}]}>
+    <div class:list={['story-cover',{'reference-cover':reference}]}><div class="page-head">
+      <p class="breadcrumb"><a href="/explore/">The collection</a> / {entry.category}</p>
+      <p class="eyebrow">{story?'A Utkal story':'Research note'} · {entry.category}</p>
+      <h1>{entry.label}</h1>
+      <p class="lead">{story?story.headline:entry.dek}</p>
+      {reference&&<SaveJourney id={destination.id} quiet />}
+    </div>
+    {!reference&&(destination||entry.slug==='pakhala')&&<SaveJourney id={destination?.id||'food:pakhala'} />}
+    {story&&<figure class="story-hero" id="story-image">
+      <img src={story.image.src} width={story.image.width} height={story.image.height} alt={story.image.alt} fetchpriority="high" />
+      <figcaption>{story.image.depiction} · {story.image.short_caption}</figcaption>
+    </figure>}
+    </div>
+
+    {reference&&<nav class="destination-nav reference-nav" aria-label="On this page"><a href="#about-lagoon">The lagoon</a><a href="#poems-songs">Its stories</a><a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Experiences</a><a href="#food">Food</a><a href="#stay">Stay</a></nav>}
+    {destination&&!reference&&<nav class="destination-nav" aria-label="On this page">
+      <a href="#places-within">Places within</a><a href="#photo-journey">Feel the place</a><a href="#plan-visit">Plan a visit</a><a href="#things-to-do">Things to do</a><a href="#food">Food</a><a href="#stay">Stay</a><a href="#poems-songs">Culture & stories</a><a href="#locals">Meet locally</a><a href="#expectations">Good to know</a>
+    </nav>}
+    {destination&&!reference&&<div class="destination-highlights" aria-label="Destination at a glance">{destination.highlights.map(highlight=><a href={highlight.href}><span class="eyebrow">{highlight.label}</span><strong>{highlight.text}</strong><span aria-hidden="true">↓</span></a>)}</div>}
+    <article class:list={['knowledge',{'has-story':!!story}]}>
+      {!reference&&<p class="notice">Editorial draft · awaiting Founder review.</p>}
+      {reference?<section class="lagoon-introduction" id="about-lagoon"><h2>Where land meets the water</h2><p class="story-opening">{story.opening}</p>{entry.paragraphs.map((paragraph,index)=><p class="knowledge-text" id={'fact-'+(index+1)} data-source-ids={paragraph.sources.join(' ')}>{paragraph.text}</p>)}</section>:story&&<p class="story-opening">{story.opening}</p>}
+      {story?.history&&<section class="destination-history" id="history" aria-labelledby="history-title" data-source-ids={story.history.sources.join(' ')}><p class="eyebrow">Historical significance</p><h2 id="history-title">{story.history.heading}</h2><p>{story.history.text}</p></section>}
+      {reference&&<StoryBody story={story} culture={destination.culture} referencePhotos={destination.visuals} />}
+      {destination&&!reference&&<section class="places-within" id="places-within" aria-labelledby="places-title"><p class="eyebrow">Connect the places</p><h2 id="places-title">Find your way into {entry.slug==='chilika'?'Chilika':'Konark'}</h2><p class="places-note">Choose a place, explore an experience, then research where to stay. These connections are reading paths, not a route map.</p><div class="place-connectors">{destination.places.map(place=><a class="place-connector" href={place.href}><DestinationPhoto photo={place.image_ref==='hero'?{...story.image,caption:'Chilika · regional view'}:destination.visuals[place.image_ref]} /><div><p class="eyebrow">Place → experiences → stay</p><h3>{place.title} ↗</h3><p>{place.text}</p></div></a>)}</div></section>}
+      {destination&&!reference&&<PhotoJourney destination={destination} story={story} />}
+
+      {destination&&<DestinationGuide destination={destination} calm={reference} />}
+      {story&&!reference&&<StoryBody story={story} culture={destination?.culture} culturePhoto={destination?.visuals?.[destination.culture_image_ref]} />}
+      {destination&&<DestinationContext destination={destination} />}
+      {story&&!reference&&<h2 class="record-heading">{story.record_heading}</h2>}
+      {!reference&&<div>
+      {entry.paragraphs.map((paragraph,index)=>
+        <p class="knowledge-text" id={'fact-'+(index+1)} data-source-ids={paragraph.sources.join(' ')}>{paragraph.text}</p>
+      )}
+      </div>}
+      {reference&&<details class="optional-journey"><summary>Take a photographic journey around Chilika</summary><PhotoJourney destination={destination} story={story}/></details>}
+      {reference&&<div class="reference-finish"><p>Keep the places that caught your imagination, then make room for a slower day.</p><a class="utk-button" href="/journey/">Open my journey →</a><p class="reference-status">Editorial draft · awaiting Founder review.</p></div>}
+      {reference?<details class="optional-journey"><summary>Keep reading: places, language and literature</summary><CultureConnections path={'/knowledge/'+entry.slug+'/'} /></details>:<CultureConnections path={'/knowledge/'+entry.slug+'/'} />}
+      <StorySources story={story} destination={destination} sources={sources} evidenceUses={evidenceUses}/>
+      <div class="actions"><a class="text-link" href="/explore/">← Back to the collection</a><a class="text-link" href="/contribute/">Help this entry grow ↗</a></div>
+    </article>
+  </div>}
+</Shell>
+
+<style is:global>
+.story-cover{display:contents}.story-cover:not(.reference-cover) .story-hero img{width:100%;max-height:760px;aspect-ratio:2.1;object-fit:cover}
+.reference-cover{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.3fr);column-gap:clamp(28px,5vw,90px);align-items:center;padding-block:44px 20px}
+.reference-cover .page-head{padding:0;max-width:none}.reference-cover .page-head h1{font-size:clamp(56px,8vw,128px);margin-bottom:18px}.reference-cover .lead{max-width:22ch;font-size:clamp(26px,3vw,42px)}
+.reference-cover .story-hero{grid-column:2;grid-row:1;margin:0;min-width:0}.reference-cover .story-hero img{width:100%;height:auto;aspect-ratio:1.25;object-fit:cover}.reference-cover .story-hero figcaption{font-size:12px;margin-top:10px}
+
+.reference-place .reference-research{max-width:68ch;margin:28px auto 48px}.reference-place .reference-research .knowledge-text{font-size:18px;line-height:1.85}
+@media(max-width:900px){.reference-cover{grid-template-columns:1fr;gap:24px;padding-top:28px}.reference-cover .story-hero{grid-column:auto;grid-row:auto}.reference-cover .story-hero img{aspect-ratio:1.5}.reference-cover .page-head h1{font-size:clamp(58px,12vw,88px)}}
+</style>
+
+<style is:global>
+.reference-place .reference-nav{margin-block:28px 0;gap:8px 32px}
+.reference-place .lagoon-introduction{max-width:760px;margin:56px auto 64px;scroll-margin-top:32px}
+.reference-place .lagoon-introduction h2{font-size:clamp(30px,3vw,42px);margin-bottom:24px}
+body.utk .reference-place .lagoon-introduction .story-opening{font-size:21px;line-height:1.75;margin:0 0 24px}
+.reference-place .lagoon-introduction .knowledge-text{font-size:18px;line-height:1.85;margin-bottom:20px}
+.reference-place .reference-places{max-width:1120px;margin:64px auto 0;border-top:1px solid var(--line);padding-top:44px}
+.reference-places h2{font-size:clamp(30px,3vw,42px);margin:12px 0 20px}.reference-places>p:not(.eyebrow){max-width:65ch}
+.reference-places nav{display:flex;gap:16px 32px;flex-wrap:wrap;margin-top:16px}.reference-places nav a{display:inline-flex;align-items:center;min-height:48px}
+.reference-place .optional-journey{max-width:1120px;margin:36px auto;border-block:1px solid var(--line);padding:16px 0}.optional-journey>summary{cursor:pointer;padding-block:12px;color:var(--sea)}
+.reference-place .reference-finish{max-width:760px;margin:48px auto}.reference-finish>.utk-button{margin-block:24px}.reference-status{font-size:13px;color:var(--muted)}
+.reference-place .destination-context{display:block;max-width:1120px;margin:0 auto}.reference-place .destination-context section{max-width:760px;margin:48px auto}.reference-place .destination-related{background:transparent;border-block:1px solid var(--line);border-left:0;padding:28px 0;margin:40px auto;max-width:760px}
+.reference-place .culture-connections{max-width:1120px;margin-inline:auto}
+@media(max-width:900px){.reference-place .lagoon-introduction{margin-block:36px 44px}.reference-place .reference-places{margin-top:44px;padding-top:28px}}
+</style>

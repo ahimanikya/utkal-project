@@ -21,20 +21,27 @@ npm test
 npm run preview
 ```
 
-Build before running the tests. Build output is in `dist/`. Generated content, dependencies and build output are ignored by Git. `ASTRO_TELEMETRY_DISABLED=1` can be set for local commands.
+Build before running the tests. The full 72-page working draft builds into `dist/`.
+
+The focused coastal edition uses a separate validated output:
+
+```sh
+npm run build:coast
+npm run test:coast
+python3 -m http.server 4345 --bind 127.0.0.1 --directory dist-coast
+```
+
+It contains sixteen pages, seven searchable guides, ten saveable ideas and one starter. `editions/coast.json` defines its boundary. Build staging is validated before promotion into `dist-coast/`; failed validation preserves the last good candidate. The full draft and source assets remain available. See the [edition review](../../kb/research/product/coastal-launch-preview.md).
+
+ Generated content, dependencies and build output are ignored by Git. `ASTRO_TELEMETRY_DISABLED=1` can be set for local commands.
 
 ## What is included
 
-- Homepage, about, founder and contribution guidance.
-- Bhubaneswar Fresco gallery: 161 art images, five alternates and an eight-photo essay.
-- Utkal Store is excluded from the main website: no introduction route or links. Its separate development app remains in `projects/store/`.
-- Searchable collection of seven entries with topic links and shareable query URLs.
-- Existing Samanta Chandrasekhar article, retaining its source and review limitations.
-- Five short research notes selected from the project KB at build time.
-- Separate English and Odia identity treatments, sea headings/buttons and laterite highlights.
-- Local Noto Odia fonts with their original licences.
+The full working draft contains destination, food, stay-area, language, literature and cultural-story collections, personal journeys and portable books, plus brand review and the preserved fresco gallery. Content clearance varies; inclusion in the full draft is not publication approval.
 
-The project KB remains the source for research. `tools/select-content.mjs` explicitly selects five files; it does not publish the full KB, governance records or private contributor information. Adding a preview entry to this list is not editorial publication approval. Website code, build settings and public assets stay here; repository configuration stays at the root.
+The coastal edition contains the five connected place stories, meal and stay-area guides, and the site pages needed to explore, plan and contribute. Browser data and correction subjects follow that same boundary. Earlier saved IDs and notes survive as unavailable items when a choice is outside the current edition.
+
+Utkal Store stays excluded from both editions. Its separate development app remains in `projects/store/`. Research and editorial copy live in the project KB; site code, configuration and public assets live here. Local font licences and selected image credits accompany the output. The full KB, governance records and private contributor information are not published by this site build.
 
 ## Review and publication
 
@@ -60,6 +67,38 @@ Separate English/Odia, colour/one-ink/reverse SVG signatures and a simplified ic
 
 The Founder authorized making `ahimanikya/utkal-project` public to enable Pages. GitHub Pages now uses GitHub Actions and the custom domain `utkalproject.org`. GoDaddy retains DNS management: four GitHub Pages A records and `www` pointing to `ahimanikya.github.io`. Other DNS records were preserved.
 
-The repository-root `.github/workflows/publish-site.yml` builds only `projects/site`, runs its existing tests and uploads only its `dist` directory. The Store is not deployed by this workflow. No push-triggered publication is enabled. After the reviewed website and workflow reach `main`, the Founder can run **Publish Utkal Project** with the explicit release confirmation. The workflow checks the initiating account and main branch; the `github-pages` environment can provide additional repository-managed approval controls.
+The locally updated repository-root `.github/workflows/publish-site.yml` builds and tests both website editions, then uploads only `projects/site/dist-coast`. These workflow changes are prepared locally and have not been pushed or run. The Store is not deployed by this workflow. No push-triggered publication is enabled. After the reviewed website and workflow reach `main`, the Founder can run **Publish Utkal Project** with the explicit release confirmation. The workflow checks the initiating account and main branch; the `github-pages` environment can provide additional repository-managed approval controls.
 
 The first run succeeded on 28 September 2026: [live preview](https://utkalproject.org/) · [release evidence](../../kb/records/website-first-release.json). Editorial draft labels and `noindex` remain in this review edition; they are not access controls. DNS/certificate readiness is distinct from an actual website deployment.
+
+## Saved journeys, sharing and final edition checks
+
+Saved ideas can be searched locally by title, area or note. Text and photo books and the print view can omit personal notes without removing them from the saved plan or JSON backup. Portable books have day navigation; photo preparation has progress and cancellation. A plain-text itinerary is also available.
+
+Storage saves compare the previous snapshot and react to changes from another tab. This reduces stale overwrites but is not an atomic multi-tab database. Recoverable exports stay available on a conflict or storage failure. Contribution drafts remain local until the visitor deliberately opens and submits a public GitHub issue.
+
+Run `npm test`, `npm run build:coast`, `npm run test:coast` from this directory. From the repository root, `python3 projects/site/tools/audit-coast.py` checks all sixteen delivered pages. The scoped build validates config, relative links and fragments, resource closure, IDs and symlink boundaries before promotion. `python3 projects/site/tools/serve-review.py` serves the coastal output and local viewport harness on loopback port 4348.
+
+[Overnight batch scope and limitations](../../kb/research/product/overnight-200.md). Native PDF pagination and editorial acceptance remain separate from successful HTML generation.
+
+## Day planning and visit notebooks
+
+Optional `dayNotes` are validated with the journey, included in current backups and omitted from shared books when the reader excludes personal notes. Earlier client versions may discard this new optional metadata. Notes-only days are valid; bounded day shifts and moves provide guarded undo. Copy idea preserves the source trip.
+
+Seven original editorial visit notebooks are rendered from the KB before their guides’ onward sections and travel into the linked saved idea’s portable output. The food notebook explicitly links to Understand Mahaprasad; dish IDs remain distinct.
+
+The route audit now defaults to `.astro/page-acceptance.json`, not historical evidence. Use `python3 projects/site/tools/audit-coast.py --output <new-evidence-file>` from the repository root to archive a specific run. `python3 projects/site/tools/serve-next-review.py` serves this batch’s local comparison on port 4349. [Scope, model and evidence](../../kb/research/product/next-210.md).
+
+## Preparation and portable days
+
+Optional `reminders` retain up to 40 private, editable prompts per journey. Guide questions remain canonical in the KB and are only copied into personal reminders on request. Book scope selects a validated day copy; it does not alter full backups. Sharing choices omit the private reminder list along with other personal notes.
+
+Single-trip and collection imports offer independent import or an ideas-only merge that preserves destination data. Collection replacement requires a separate acknowledgement. Preview fingerprints detect intervening destination changes; existing storage conflict handling remains.
+
+`python3 projects/site/tools/serve-ready-review.py` from the repository root serves the current comparison on loopback port 4350. Its dedicated `/__import-test/` route adds synthetic File controls for exercising the normal import handler; this toolbar is never part of the built website. The optional `--port` argument selects another loopback port. [Model, verification and limits](../../kb/research/product/ready-216.md).
+
+## Frozen coastal launch review
+
+The combined review is at `http://127.0.0.1:4353/__review/` while the local server runs. Start it with `python3 projects/site/tools/serve-launch-review.py` from the repository root. `--check` verifies the frozen candidate without serving it. The server refuses missing, changed or extra candidate files. The generated snapshot in `.release-candidates/coast-2026-09-30-rc1` is ignored by Git; its checked-in manifest and report live in `kb/records/evidence/launch-readiness-2026-09-30/`. Do not recreate it from a changed build and present it as the same review.
+
+Review-only routes and synthetic downloaded books are outside `dist-coast`. The canonical review and release sequence are in `kb/research/product/launch-readiness-2026-09-30.md`. Native PDF pagination remains open; this does not authorise deployment.

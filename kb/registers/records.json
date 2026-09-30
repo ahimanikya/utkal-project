@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-28T13:02:07.055710+00:00",
+  "recorded_at": "2026-09-30T20:50:22.381305+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -210,14 +210,15 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-013",
-      "next_action": "Founder reviews local candidate; no deployment has occurred.",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
       "blockers": [],
       "refs": [
         "UTP-DEC-013"
       ],
       "evidence": [
         "collections/bhubaneswar-fresco/integration.md",
-        "records/direction-02-checks.json"
+        "records/direction-02-checks.json",
+        "research/product/city-culture-review.md"
       ]
     },
     {
@@ -241,6 +242,2122 @@
       ],
       "evidence": [
         "records/mobile-accessibility-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-009",
+      "title": "First collection source check and editorial candidate",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-026",
+      "next_action": "Founder reviews the six bounded drafts and source-access limits. Release and indexing require a subsequent explicit decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-026",
+        "UTP-REV-008"
+      ],
+      "evidence": [
+        "reference/first-collection-editorial-review.md",
+        "records/first-collection-editorial-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-010",
+      "title": "Utkal storytelling standard and Chilika narrative prototype",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-027",
+      "next_action": "Founder reviews the Chilika story and Odia passage. After review, develop other entries individually using the standard; no automatic full-KB rewrite.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-027",
+        "UTP-REV-009"
+      ],
+      "evidence": [
+        "reference/storytelling-standard.md",
+        "records/storytelling-prototype.json",
+        "research/stories/narratives/chilika.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-011",
+      "title": "Destination template, Chilika visitor guide and tour-book PRD addendum",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-028",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-028",
+        "UTP-REV-010"
+      ],
+      "evidence": [
+        "reference/destination-model.md",
+        "research/product/destination-and-tour-book.md",
+        "research/destinations/chilika.json",
+        "records/destination-model-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-012",
+      "title": "Utkal Knowledge & Story Model: place and thing profiles",
+      "category": "information_architecture",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-029",
+      "next_action": "Founder reviews the hierarchy and field dictionary; test with a heritage place and a food/craft record before migration.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-029",
+        "UTP-REV-011"
+      ],
+      "evidence": [
+        "reference/knowledge-story-model.md",
+        "models/knowledge-story-v0.1/model.json",
+        "models/knowledge-story-v0.1/chilika.coverage.json",
+        "records/knowledge-story-model-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-013",
+      "title": "Five-site travel benchmark and visitor information architecture",
+      "category": "research_and_information_architecture",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-030",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-030",
+        "UTP-REV-012",
+        "UTP-DEC-031"
+      ],
+      "evidence": [
+        "reference/travel-website-benchmark.md",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-014",
+      "title": "Chilika and Konark destination pilots",
+      "category": "research_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-032",
+      "next_action": "Founder reviews the more visual two-pilot candidate; publication remains a separate decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-032",
+        "UTP-REV-013",
+        "UTP-DEC-033",
+        "UTP-REV-014"
+      ],
+      "evidence": [
+        "reference/destination-pilots-review.md",
+        "records/destination-pilots-review.json",
+        "records/destination-visual-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-015",
+      "title": "Connected destination details, wide layouts and immersive preview",
+      "category": "website_and_media",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-034",
+      "next_action": "Founder reviews v2: 42.4 seconds of real Mangalajodi, ferry and sunset footage with an original ambient score. No paid generation or deployment. V1 retained.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-034",
+        "UTP-REV-015"
+      ],
+      "evidence": [
+        "research/product/immersive-destination-brief.md",
+        "records/connected-destination-review.json",
+        "research/product/chilika-film-production.md",
+        "collections/chilika-film/index.md",
+        "collections/chilika-film/provenance-v2.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-016",
+      "title": "Odisha languages, Odia literature and literary lives",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-035",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-035",
+        "UTP-DEC-036",
+        "UTP-DEC-038",
+        "UTP-REV-016"
+      ],
+      "evidence": [
+        "reference/language-heritage-model.md",
+        "models/knowledge-story-v0.1/language.template.json",
+        "models/knowledge-story-v0.1/model.json",
+        "research/culture/odia-literature-and-literary-lives.md",
+        "research/voices/index.md",
+        "research/voices/collection.json",
+        "records/language-literature-pilot-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-017",
+      "title": "Colours of home: saved card and branding-page story",
+      "category": "website_and_brand",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-037",
+      "next_action": "Founder reviews the local branding page before public release. Card, prompt and material correction are preserved.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-037"
+      ],
+      "evidence": [
+        "collections/brand-social/index.md",
+        "records/brand-colour-story-review.json",
+        "reference/brand-direction-02.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-018",
+      "title": "Connected cultural stories and My Odisha Journey",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-039",
+      "next_action": "Founder review of cultural trails and planner; manually verify native browser PDF pagination before treating the printed tour book as release-ready.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-039",
+        "UTP-REV-017",
+        "UTP-WORK-016"
+      ],
+      "evidence": [
+        "research/product/culture-journey-prototype.md",
+        "records/culture-journey-review.json",
+        "research/voices/culture-trails.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-019",
+      "title": "Multiple journeys and optional travel dates",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-040",
+      "next_action": "Review this local increment; verify native PDF pagination before release. Further content and offline enhancements remain separate backlog items.",
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-018",
+        "UTP-DEC-040",
+        "UTP-REV-018"
+      ],
+      "evidence": [
+        "research/product/multiple-journeys.md",
+        "records/multiple-journeys-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-020",
+      "title": "Illustrated Balasore and Mayurbhanj visitor guides",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-041",
+      "next_action": "Founder editorial review; deepen Chandipur/Similipal subpages and verify local accessibility and stay information. Publication remains a separate decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-041",
+        "UTP-REV-019"
+      ],
+      "evidence": [
+        "research/product/northern-guides.md",
+        "records/northern-guides-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-021",
+      "title": "Chandipur detail guide",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json"
+      ],
+      "pending_list_source": "research/product/northern-guides.md",
+      "preview_path": "/visit/places/chandipur/",
+      "implemented": "Tides, season, arrival, local questions and two credited real shore photographs."
+    },
+    {
+      "id": "UTP-WORK-022",
+      "title": "Similipal detail guide",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json"
+      ],
+      "pending_list_source": "research/product/northern-guides.md",
+      "preview_path": "/visit/places/similipal/",
+      "implemented": "Official gate, permit and seasonal guidance; existing credited Barehipani image."
+    },
+    {
+      "id": "UTP-WORK-023",
+      "title": "Kui language introduction",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json",
+        "research/product/city-culture-review.md"
+      ],
+      "pending_list_source": "reference/language-heritage-model.md",
+      "preview_path": "/languages/kui/",
+      "implemented": "Separate language profile, classroom resources and a catalogued short-story lead."
+    },
+    {
+      "id": "UTP-WORK-024",
+      "title": "Kuvi language introduction",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json",
+        "research/product/city-culture-review.md"
+      ],
+      "pending_list_source": "reference/language-heritage-model.md",
+      "preview_path": "/languages/kuvi/",
+      "implemented": "Separate profile and teaching-resource trail; not conflated with Kui."
+    },
+    {
+      "id": "UTP-WORK-025",
+      "title": "Saora / Sora language introduction",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json",
+        "research/product/city-culture-review.md"
+      ],
+      "pending_list_source": "reference/language-heritage-model.md",
+      "preview_path": "/languages/saora/",
+      "implemented": "Attributed names, language-family and writing traditions; future community voices identified."
+    },
+    {
+      "id": "UTP-WORK-026",
+      "title": "Sarala Das literary introduction",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json",
+        "research/product/city-culture-review.md"
+      ],
+      "pending_list_source": "research/culture/odia-literature-and-literary-lives.md",
+      "preview_path": "/people/sarala-das/",
+      "implemented": "Odia epic retelling and an official Sarala Mahabharata reading catalogue."
+    },
+    {
+      "id": "UTP-WORK-027",
+      "title": "Pratibha Ray literary introduction",
+      "category": "website_content",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json",
+        "research/product/city-culture-review.md"
+      ],
+      "pending_list_source": "research/culture/odia-literature-and-literary-lives.md",
+      "preview_path": "/people/pratibha-ray/",
+      "implemented": "Real credited portrait, teaching, Jajnaseni, place connections and adaptations."
+    },
+    {
+      "id": "UTP-WORK-028",
+      "title": "Area and access guidance in personal journeys",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json"
+      ],
+      "pending_list_source": "research/product/destination-and-tour-book.md",
+      "preview_path": "/journey/",
+      "implemented": "Per-item access notes and day-level area comparison; no calculated travel times."
+    },
+    {
+      "id": "UTP-WORK-029",
+      "title": "Downloadable offline text tour book",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json"
+      ],
+      "pending_list_source": "research/product/multiple-journeys.md",
+      "preview_path": "/journey/",
+      "implemented": "Standalone HTML containing dates, summaries, notes, access and deduplicated source links."
+    },
+    {
+      "id": "UTP-WORK-030",
+      "title": "Reader correction draft tool",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-042",
+      "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-042",
+        "UTP-REV-020"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json"
+      ],
+      "pending_list_source": "research/product/prd.md",
+      "preview_path": "/contribute/",
+      "implemented": "Page-linked correction, additional-knowledge or recollection drafts; local preview, text download and copy controls. No submission endpoint."
+    },
+    {
+      "id": "UTP-WORK-031",
+      "title": "Mobile layouts",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/explore/",
+      "implemented": "Responsive navigation, grids and controls; measured 320px and 390px layouts checked."
+    },
+    {
+      "id": "UTP-WORK-032",
+      "title": "Keyboard and accessibility polish",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/contribute/",
+      "implemented": "Visible focus, touch sizing, form error focus and import focus transitions."
+    },
+    {
+      "id": "UTP-WORK-033",
+      "title": "Print layout and long-note review",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Verify native PDF/A4 pagination before print acceptance; Founder review.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/journey/",
+      "implemented": "Print CSS and long-note retention checked; native PDF/A4 pagination remains unverified."
+    },
+    {
+      "id": "UTP-WORK-034",
+      "title": "Illustrated offline tour book",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/journey/",
+      "implemented": "Optional self-contained HTML with selected real photographs, notes and end credits; bounded image sizes and graceful omissions."
+    },
+    {
+      "id": "UTP-WORK-035",
+      "title": "Combined Explore filters",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/explore/",
+      "implemented": "Area, subject and search work together with shareable filter URLs and empty-state recovery."
+    },
+    {
+      "id": "UTP-WORK-036",
+      "title": "Related discoveries",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/knowledge/chilika/",
+      "implemented": "Curated illustrated reading connections between places, language, literature and food."
+    },
+    {
+      "id": "UTP-WORK-037",
+      "title": "Bhima Bhoi introduction",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json",
+        "research/product/city-culture-review.md"
+      ],
+      "preview_path": "/people/bhima-bhoi/",
+      "implemented": "Compassion, Mahima and literary works, with a real memorial photograph and explicit biographical uncertainty."
+    },
+    {
+      "id": "UTP-WORK-038",
+      "title": "Gopinath Mohanty introduction",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json",
+        "research/product/city-culture-review.md"
+      ],
+      "preview_path": "/people/gopinath-mohanty/",
+      "implemented": "Place, language and fiction, with a credited photograph, Paraja reading trail and external listening references."
+    },
+    {
+      "id": "UTP-WORK-039",
+      "title": "Chhena Poda and Mudhi Mansa pages",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/food/chhena-poda/",
+      "implemented": "Two illustrated, source-backed food introductions and stable existing journey identities."
+    },
+    {
+      "id": "UTP-WORK-040",
+      "title": "Public GitHub contribution workflow",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-043",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-043",
+        "UTP-REV-021",
+        "UTP-DEC-044"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ],
+      "preview_path": "/contribute/",
+      "implemented": "Local draft preparation, explicit public handoff, long-link fallback and knowledge/photo issue templates. No automatic submission."
+    },
+    {
+      "id": "UTP-WORK-041",
+      "title": "Expanded preview release-readiness pass",
+      "category": "website_product",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-045",
+      "next_action": "Review the newer integrated design-system candidate under UTP-WORK-044 and its fresh output manifest before publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-045",
+        "UTP-REV-022"
+      ],
+      "evidence": [
+        "research/product/release-preview.md",
+        "records/release-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-042",
+      "title": "Utkal design-system adaptation proposal",
+      "category": "design_system",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-046",
+      "next_action": "Adaptation direction accepted for implementation under UTP-DEC-047; visual candidates are now reviewed through UTP-WORK-043.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-046",
+        "UTP-DEC-047"
+      ],
+      "evidence": [
+        "reference/utkal-design-system-proposal.md",
+        "records/kabita-design-study.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-043",
+      "title": "Reusable Utkal Design System and review gallery",
+      "category": "design_system",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-047",
+      "next_action": "Library built; local website adoption and iterative refinements tracked in UTP-WORK-044. Publication remains pending.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-047",
+        "UTP-REV-023",
+        "UTP-DEC-048"
+      ],
+      "evidence": [
+        "design-system/index.md",
+        "records/design-system-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-044",
+      "title": "Apply the design system across UTP and feed back lessons",
+      "category": "design_system",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-048",
+      "next_action": "Accepted as the working visual baseline under UTP-DEC-049; editorial qualifications and separate publication gate remain.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-048",
+        "UTP-REV-024",
+        "UTP-DEC-049"
+      ],
+      "evidence": [
+        "design-system/utp-adoption.md",
+        "records/design-system-adoption-review.json",
+        "records/design-system-adoption-manifest.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-045",
+      "title": "Bhubaneswar destination guide",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-046",
+      "title": "Puri destination guide",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-047",
+      "title": "Cuttack destination guide",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-048",
+      "title": "Dhauli detail guide",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-049",
+      "title": "Raghurajpur detail guide",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-050",
+      "title": "Puri beach detail guide",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-051",
+      "title": "Ho language introduction",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-052",
+      "title": "Juang language introduction",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-053",
+      "title": "Koya language introduction",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-054",
+      "title": "Gangadhar Meher literary introduction",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-055",
+      "title": "Reviewed search aliases",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-056",
+      "title": "Discovery sorting",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-057",
+      "title": "Duplicate a journey",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-058",
+      "title": "Undo removed journey idea",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-059",
+      "title": "Move an idea between journeys",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-060",
+      "title": "Journey day overview",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-061",
+      "title": "Filter journey ideas by type",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-062",
+      "title": "Prepare a new-subject draft",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-063",
+      "title": "How to use Utkal guide",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-064",
+      "title": "Missing-page recovery",
+      "category": "website_next_twenty",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-049",
+      "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-049",
+        "UTP-REV-025"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md",
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-065",
+      "title": "Visual destination directory",
+      "category": "website_discovery_connections",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-050",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-050",
+        "UTP-REV-026"
+      ],
+      "evidence": [
+        "research/product/discovery-connections.md",
+        "records/discovery-connections-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-066",
+      "title": "Homepage destination discovery",
+      "category": "website_discovery_connections",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-050",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-050",
+        "UTP-REV-026"
+      ],
+      "evidence": [
+        "research/product/discovery-connections.md",
+        "records/discovery-connections-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-067",
+      "title": "Three editable journey starters",
+      "category": "website_discovery_connections",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-050",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-050",
+        "UTP-REV-026"
+      ],
+      "evidence": [
+        "research/product/discovery-connections.md",
+        "records/discovery-connections-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-068",
+      "title": "Reading connections for the newest entries",
+      "category": "website_discovery_connections",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-050",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-050",
+        "UTP-REV-026"
+      ],
+      "evidence": [
+        "research/product/discovery-connections.md",
+        "records/discovery-connections-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-069",
+      "title": "Odia city-name search",
+      "category": "website_discovery_connections",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-050",
+      "next_action": "Founder review of the local candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-050",
+        "UTP-REV-026"
+      ],
+      "evidence": [
+        "research/product/discovery-connections.md",
+        "records/discovery-connections-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-070",
+      "title": "Inner-page layout foundation fixes",
+      "category": "website_visitor_planning",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-051",
+      "next_action": "Founder review of the local visitor-planning candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-051",
+        "UTP-REV-027"
+      ],
+      "evidence": [
+        "research/product/visitor-planning-batch.md",
+        "records/visitor-planning-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-071",
+      "title": "Food and flavour planning collection",
+      "category": "website_visitor_planning",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-051",
+      "next_action": "Founder review of the local visitor-planning candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-051",
+        "UTP-REV-027"
+      ],
+      "evidence": [
+        "research/product/visitor-planning-batch.md",
+        "records/visitor-planning-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-072",
+      "title": "Things-to-do planning collection",
+      "category": "website_visitor_planning",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-051",
+      "next_action": "Founder review of the local visitor-planning candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-051",
+        "UTP-REV-027"
+      ],
+      "evidence": [
+        "research/product/visitor-planning-batch.md",
+        "records/visitor-planning-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-073",
+      "title": "Stay-area planning collection",
+      "category": "website_visitor_planning",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-051",
+      "next_action": "Founder review of the local visitor-planning candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-051",
+        "UTP-REV-027"
+      ],
+      "evidence": [
+        "research/product/visitor-planning-batch.md",
+        "records/visitor-planning-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-074",
+      "title": "Personal preparation checklist and exports",
+      "category": "website_visitor_planning",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-051",
+      "next_action": "Founder review of the local visitor-planning candidate; publication remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-051",
+        "UTP-REV-027"
+      ],
+      "evidence": [
+        "research/product/visitor-planning-batch.md",
+        "records/visitor-planning-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-075",
+      "title": "Broader inner-page visual review and refinement",
+      "category": "website_design_followup",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "UTP-DEC-051",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-051",
+        "UTP-WORK-070",
+        "UTP-DEC-052",
+        "UTP-DEC-053",
+        "UTP-WORK-077",
+        "UTP-DEC-054",
+        "UTP-WORK-079"
+      ],
+      "evidence": [
+        "research/product/visitor-planning-batch.md",
+        "design-system/media-and-meaning.md",
+        "reference/storytelling-standard.md",
+        "design-system/story-patterns.md",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-076",
+      "title": "Media and meaning design-system foundation",
+      "category": "design_system_foundation",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-052",
+      "next_action": "Review the guidance and gallery specimen; apply the foundation through the inner-page refinement and future entity-specific media briefs. Assess whether each destination story gives a distinctive reason to visit, a memorable detail worth sharing and a useful planning step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-052",
+        "UTP-REV-028",
+        "UTP-DEC-053"
+      ],
+      "evidence": [
+        "design-system/media-and-meaning.md",
+        "records/media-foundation-direction.json",
+        "reference/storytelling-standard.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-077",
+      "title": "Three storytelling reference pages and design-system rc.3",
+      "category": "website_design",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-054",
+      "next_action": "Four updated magazine references and rc.4 are now coordinated under WORK-079. Founder review at the six-item checkpoint precedes broader composition rollout.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-054",
+        "UTP-REV-029",
+        "UTP-WORK-075",
+        "UTP-DEC-055",
+        "UTP-REV-030",
+        "UTP-REV-031",
+        "UTP-DEC-056",
+        "UTP-REV-032",
+        "UTP-WORK-078",
+        "UTP-DEC-058",
+        "UTP-REV-034",
+        "UTP-WORK-079"
+      ],
+      "evidence": [
+        "research/product/story-reference-pilots.md",
+        "design-system/story-patterns.md",
+        "records/story-reference-review.json",
+        "records/story-flow-review.json",
+        "records/visual-audit-2026-09-30.json",
+        "records/visual-repair-2026-09-30.json",
+        "records/magazine-a-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-078",
+      "title": "Compare three destination page design directions",
+      "category": "website_design",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-057",
+      "next_action": "Direction A selected. Review its local Chilika implementation under WORK-077 before wider adoption.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-057",
+        "UTP-WORK-077",
+        "UTP-REV-033",
+        "UTP-DEC-058",
+        "UTP-REV-034"
+      ],
+      "evidence": [
+        "design-system/destination-options-01.md",
+        "records/magazine-a-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-079",
+      "title": "Ten-item magazine family rollout with a six-item review checkpoint",
+      "category": "website_design",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-060",
+      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-059",
+        "UTP-WORK-075",
+        "UTP-WORK-077",
+        "UTP-REV-035",
+        "UTP-DEC-060",
+        "UTP-REV-036",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "design-system/magazine-family-review.md",
+        "records/magazine-family-review.json",
+        "records/visitor-flow-review.json",
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-080",
+      "title": "Verify native PDF pagination for the journey book",
+      "category": "website_quality",
+      "status": "ready",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "authorization": "UTP-DEC-060",
+      "next_action": "Use a browser with native Print support to inspect populated journey, text book and photo book at A4 and Letter; check all pages, long notes, Odia, photos and source appendix. See the launch-readiness review.",
+      "blockers": [
+        "Print exposed no native dialog in the in-app browser. Computer Use refused access to com.openai.codex; no native PDF was produced."
+      ],
+      "refs": [
+        "UTP-WORK-079",
+        "UTP-REV-036",
+        "UTP-REV-048"
+      ],
+      "evidence": [
+        "records/visitor-flow-review.json",
+        "records/launch-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-081",
+      "title": "Cities and cultural voices magazine continuation",
+      "category": "website_design",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-061",
+      "next_action": "Founder reviews the city/culture comparison and consolidated editorial queue; native printing remains WORK-080. No publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-061",
+        "UTP-WORK-075",
+        "UTP-WORK-080",
+        "UTP-REV-037"
+      ],
+      "evidence": [
+        "research/product/city-culture-review.md",
+        "records/city-culture-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-082",
+      "title": "Bhubaneswar complete visitor reference and release candidate",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-062",
+      "next_action": "Founder reviews the candidate. Complete native PDF pagination under WORK-080 and the documented editorial checks before publication approval.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-062",
+        "UTP-WORK-081",
+        "UTP-WORK-080",
+        "UTP-REV-038"
+      ],
+      "evidence": [
+        "research/product/bhubaneswar-visitor-candidate.md",
+        "records/bhubaneswar-visitor-review.json",
+        "records/bhubaneswar-release-candidate.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-083",
+      "title": "Bhubaneswar: Mukteswar, a meal and a city base",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-063",
+      "next_action": "Founder reviews the three connected guides and six-idea starter. Verify local service details before stronger recommendations. WORK-080 remains separately open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-063",
+        "UTP-WORK-082",
+        "UTP-REV-039"
+      ],
+      "evidence": [
+        "research/product/bhubaneswar-collection.md",
+        "records/bhubaneswar-collection-review.json",
+        "records/bhubaneswar-collection-manifest.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-084",
+      "title": "Puri–Konark connected coastal collection",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-064",
+      "next_action": "Founder reviews the coastal collection. Consolidate publication review and outstanding local/editorial verification; native PDF remains WORK-080.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-064",
+        "UTP-WORK-083",
+        "UTP-REV-040"
+      ],
+      "evidence": [
+        "research/product/coastal-collection.md",
+        "records/coastal-collection-review.json",
+        "records/coastal-collection-manifest.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-085",
+      "title": "Consolidated website release review and delivery polish",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-065",
+      "next_action": "Founder reviews the complete candidate and remaining editorial limitations. Native PDF remains WORK-080. Publication requires a separate explicit decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-065",
+        "UTP-WORK-084",
+        "UTP-WORK-080",
+        "UTP-REV-041"
+      ],
+      "evidence": [
+        "research/product/release-review-2026-09-30.md",
+        "records/release-review.json",
+        "records/release-review-manifest.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-086",
+      "title": "Coastal editorial shortlist, cultural source checks and asset delivery",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-066",
+      "next_action": "Founder reviews the five-page coastal shortlist and human language/provenance questions. Prepare selected build and linked dependencies only after scope acceptance; publication remains a separate decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-066",
+        "UTP-WORK-085",
+        "UTP-WORK-080",
+        "UTP-REV-042"
+      ],
+      "evidence": [
+        "research/product/editorial-readiness-2026-09-30.md",
+        "records/editorial-readiness-review.json",
+        "records/editorial-readiness-manifest.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-087",
+      "title": "Five-story reading continuity and personal-journey handoff",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-067",
+      "next_action": "Review the connected reading flow and 16-route scope proposal. Prepare selected content and dependency handling as next implementation; earlier editorial holds and separate publication decision remain.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-067",
+        "UTP-WORK-086",
+        "UTP-WORK-080",
+        "UTP-REV-043"
+      ],
+      "evidence": [
+        "research/product/coastal-reading-flow.md",
+        "records/coastal-reading-flow-review.json",
+        "records/coastal-reading-flow-manifest.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-088",
+      "title": "Focused coastal edition and scoped visitor data",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-068",
+      "next_action": "Founder reviews the exact local candidate and its editorial limitations; publication remains a separate explicit decision. Native PDF and existing editorial holds remain open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-068",
+        "UTP-WORK-087",
+        "UTP-WORK-080",
+        "UTP-REV-044"
+      ],
+      "evidence": [
+        "research/product/coastal-launch-preview.md",
+        "records/coastal-launch-preview-review.json",
+        "records/evidence/coastal-launch-preview-2026-09-30/build-report.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-089",
+      "title": "Overnight 200-item coastal website improvement and acceptance batch",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-069",
+      "next_action": "Review the local visitor improvements and seven-guide editorial limitations. Native PDF remains open; no deployed release is claimed.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-069",
+        "UTP-WORK-088",
+        "UTP-WORK-080",
+        "UTP-REV-045"
+      ],
+      "evidence": [
+        "research/product/overnight-200.md",
+        "records/overnight-200.json",
+        "records/overnight-200-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-090",
+      "title": "Next 210: visit notebooks and private day planning",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-070",
+      "next_action": "Review seven notebook drafts and the day-planning experience. Earlier editorial questions and native PDF remain open; local implementation does not assert publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-070",
+        "UTP-WORK-089",
+        "UTP-WORK-080",
+        "UTP-REV-046"
+      ],
+      "evidence": [
+        "research/product/next-210.md",
+        "records/next-210.json",
+        "records/next-210-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-091",
+      "title": "Journey preparation, safer imports and portable day books",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-071",
+      "next_action": "Founder combined review when ready. New editorial questions and earlier native PDF/source limitations remain; local candidate only.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-071",
+        "UTP-WORK-090",
+        "UTP-WORK-080",
+        "UTP-REV-047"
+      ],
+      "evidence": [
+        "research/product/ready-216.md",
+        "records/ready-216.json",
+        "records/ready-216-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-092",
+      "title": "Coastal launch readiness and actual portable-book review",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-072",
+      "next_action": "Founder review of frozen coastal candidate; native PDF remains open in UTP-WORK-080. Follow recorded release sequence only after acceptance.",
+      "blockers": [
+        "Native PDF pagination unverified; publication acceptance pending."
+      ],
+      "refs": [
+        "UTP-DEC-072",
+        "UTP-WORK-091",
+        "UTP-WORK-080",
+        "UTP-REV-048"
+      ],
+      "evidence": [
+        "research/product/launch-readiness-2026-09-30.md",
+        "records/launch-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-093",
+      "title": "Consolidate the coastal candidate in draft PR 4",
+      "category": "release_preparation",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-073",
+      "next_action": "Founder review of updated draft PR 4. Native PDF verification and editorial acceptance remain before any separate merge/publication decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-073",
+        "UTP-WORK-092",
+        "UTP-WORK-080",
+        "UTP-REV-049"
+      ],
+      "evidence": [
+        "research/product/release-pr-2026-09-30.md",
+        "records/release-pr-review.json"
       ]
     }
   ],
@@ -673,6 +2790,1023 @@
       "evidence": [
         "records/mobile-accessibility-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-026",
+      "title": "Review the first encyclopedia collection against its sources",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, let's do that",
+      "scope": "Source check and prepare six editorial drafts for Founder review. No approval to merge, deploy or enable indexing is inferred.",
+      "recorded_at": "2026-09-29T02:30:51.004234+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-REL-005"
+      ],
+      "evidence": [
+        "records/first-collection-editorial-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-027",
+      "title": "Make Utkal narration poetic, evidence-led and emotionally engaging",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Data-based yet emotional, and trigger the pop-eye moment.",
+      "scope": "Adopt the Founder’s storytelling direction across entity types, including reusable images or labelled AI illustration, local writers and sourced beliefs. Prepare a standard and Chilika prototype for review; no release or indexing authorization inferred.",
+      "recorded_at": "2026-09-29T02:52:42.296126+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-009"
+      ],
+      "evidence": [
+        "reference/storytelling-standard.md",
+        "records/storytelling-prototype.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-028",
+      "title": "Ground destination stories in practical discovery and prepare a personal tour-book model",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "AI-generated content should be more realistic!",
+      "scope": "Founder requested realism, place-associated poems and songs, tourism-site benchmarks, things to do/eat, a future portable tour book and unobtrusive end attribution. Authorizes preparation and prototype revision; does not approve final candidate, planner implementation or release.",
+      "recorded_at": "2026-09-29T03:26:11.313639+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-010"
+      ],
+      "evidence": [
+        "reference/destination-model.md",
+        "research/product/destination-and-tour-book.md",
+        "research/destinations/chilika.json",
+        "records/destination-model-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-029",
+      "title": "Create a deeper place and thing information hierarchy",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Let's create data or information model around it. That will help us to narrate a place or a thing.",
+      "scope": "Prepare a reusable content model covering history, stories, spots, food, local integration, strengths/drawbacks, conduct, season, literature, culture, art/science, notable people, poems/songs, film connections and quotations. Exact model remains a review candidate; no site migration or Blueprint-wide adoption inferred.",
+      "recorded_at": "2026-09-29T03:38:48.811874+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-011"
+      ],
+      "evidence": [
+        "reference/knowledge-story-model.md",
+        "models/knowledge-story-v0.1/model.json",
+        "models/knowledge-story-v0.1/chilika.coverage.json",
+        "records/knowledge-story-model-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-030",
+      "title": "Learn from five leading travel-site reference examples",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Can we learn the world top 5 travel or tourism website and organize our information or atleast learn few things",
+      "scope": "Research five relevant travel references and prepare information-organization recommendations. Not authorization to adopt specific navigation, add services or publish changes.",
+      "recorded_at": "2026-09-29T03:45:08.711902+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-012"
+      ],
+      "evidence": [
+        "reference/travel-website-benchmark.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-031",
+      "title": "Endorse culture-first Odisha travel direction and pilot sequence",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "I liked your recommendation",
+      "scope": "Endorse Discover–Understand–Choose–Plan–Carry–Contribute, separate enduring knowledge/visitor information/personal plans, prove the model with Chilika and Konark, then saved choices and printable tour book. Direction endorsement only; no blanket approval of detailed schemas, current draft content, merge, deployment or spending.",
+      "recorded_at": "2026-09-29T03:53:56.732972+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-012",
+        "UTP-WORK-013"
+      ],
+      "evidence": [
+        "research/product/culture-first-travel-direction.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-032",
+      "title": "Proceed with Chilika and Konark destination pilots",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Sounds good, let's go",
+      "scope": "Prepare the next two-pilot candidate following the endorsed direction. Authorizes research, local implementation and review-branch update; no merge, deployment, spending or tour-book implementation.",
+      "recorded_at": "2026-09-29T04:30:35.659644+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-031",
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "reference/destination-pilots-review.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-033",
+      "title": "Make the destination pilots more visual",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "The pages are very informative - but we need add some color to it - picture speaks 1000 words - only text wont cut it",
+      "scope": "Refine both destination pilot presentations with relevant photographs and brand colour; no release approval.",
+      "recorded_at": "2026-09-29T04:42:12.960305+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "records/destination-visual-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-034",
+      "title": "Connect destination detail pages and expand the immersive visual direction",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Also, we should create subpages for sub-locations, places to stay, and things to do, with pictures on the inner pages.",
+      "scope": "Build illustrated destination detail pages and responsive large-screen layouts; explore connected visuals and an immersive imagination-film direction. No release or paid-service authorization.",
+      "recorded_at": "2026-09-29T05:10:33.942624+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-015"
+      ],
+      "evidence": [
+        "research/product/immersive-destination-brief.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-035",
+      "title": "Include Odia and Odisha’s other languages as a core knowledge domain",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "We should also include language - Odia is primary and there are many other language - we should elaborate each with their cultural hetigate and history",
+      "scope": "Founder direction to cover language, cultural heritage and history, with Odia primary. Detailed model is a candidate; no website translation or release authorized by this record.",
+      "recorded_at": "2026-09-29T06:16:12.765460+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-016"
+      ],
+      "evidence": [
+        "reference/language-heritage-model.md",
+        "models/knowledge-story-v0.1/language.template.json",
+        "models/knowledge-story-v0.1/model.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-036",
+      "title": "Give Odisha’s other languages and Odia literary lives substantive coverage",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Odisha has many languages other than Odia and we should speak about it\n\nWe should talk about Odia literature and famous personalities around that",
+      "scope": "Founder direction for substantive coverage of languages beyond Odia and a dedicated Odia literature/personality collection. Candidate structure and pilot selection are proposals, not publication approval.",
+      "recorded_at": "2026-09-29T06:30:40.396445+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-016"
+      ],
+      "evidence": [
+        "reference/language-heritage-model.md",
+        "research/culture/odia-literature-and-literary-lives.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-037",
+      "title": "Save the corrected palette card and explain it on the branding page",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "save it - we can explain this in our branding page",
+      "scope": "Preserve corrected bilingual card and integrate the colour-origin story into the local branding-page candidate. No merge, social posting or public deployment.",
+      "recorded_at": "2026-09-29T10:35:15.513582+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-017"
+      ],
+      "evidence": [
+        "collections/brand-social/index.md",
+        "records/brand-colour-story-review.json",
+        "reference/brand-direction-02.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-038",
+      "title": "Resume website work with the language and literature pilot",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Let's go back to the site work and continue on that",
+      "scope": "Resume local website development. Assistant selected the previously requested language and literature work as the next bounded implementation. This does not approve the resulting editorial content or public release.",
+      "recorded_at": "2026-09-29T22:27:08.722885+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-016"
+      ],
+      "evidence": [
+        "research/voices/index.md",
+        "research/voices/collection.json",
+        "records/language-literature-pilot-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-039",
+      "title": "Build connected cultural stories and the personal journey prototype",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Go ahead",
+      "scope": "Approval follows recommendation to connect culture and travel, then build saved choices and a printable tour-book prototype. Prepare local review candidate; public release retains the Founder gate.",
+      "recorded_at": "2026-09-29T22:55:54.550462+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-018"
+      ],
+      "evidence": [
+        "research/product/culture-journey-prototype.md",
+        "records/culture-journey-review.json",
+        "research/voices/culture-trails.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-040",
+      "title": "Continue with the next planner backlog increment",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Whats next in the list, keep going",
+      "scope": "Continue local website development. Assistant selected multiple named journeys and optional start dates from the existing tour-book backlog; approval does not publish this candidate.",
+      "recorded_at": "2026-09-30T00:07:17.447811+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-019"
+      ],
+      "evidence": [
+        "research/product/multiple-journeys.md",
+        "records/multiple-journeys-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-041",
+      "title": "Continue local destination coverage",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "keep going",
+      "scope": "Continue local website development; assistant selected Balasore and Mayurbhanj regional guides from the cultural-travel backlog. Does not authorize publication.",
+      "recorded_at": "2026-09-30T00:33:49.479496+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-020"
+      ],
+      "evidence": [
+        "research/product/northern-guides.md",
+        "records/northern-guides-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-042",
+      "title": "Implement ten pending website items and review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Keep going - do 10 things from our pending list and then review",
+      "scope": "Authorizes a bounded local ten-item implementation batch selected by the assistant from existing content and product queues. Does not approve the resulting content or authorize publication.",
+      "recorded_at": "2026-09-30T01:03:00.928160+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-021",
+        "UTP-WORK-022",
+        "UTP-WORK-023",
+        "UTP-WORK-024",
+        "UTP-WORK-025",
+        "UTP-WORK-026",
+        "UTP-WORK-027",
+        "UTP-WORK-028",
+        "UTP-WORK-029",
+        "UTP-WORK-030"
+      ],
+      "evidence": [
+        "research/product/ten-item-website-batch.md",
+        "records/ten-item-website-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-043",
+      "title": "Continue with the proposed visitor-polish batch",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go ahead",
+      "scope": "Authorizes local implementation of the next proposed ten-item batch. Resulting content and public release remain subject to human review.",
+      "recorded_at": "2026-09-30T01:52:50.532518+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-031",
+        "UTP-WORK-032",
+        "UTP-WORK-033",
+        "UTP-WORK-034",
+        "UTP-WORK-035",
+        "UTP-WORK-036",
+        "UTP-WORK-037",
+        "UTP-WORK-038",
+        "UTP-WORK-039",
+        "UTP-WORK-040"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-044",
+      "title": "Use public GitHub Issues for website contributions",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "GitHub Issues, with submissions visible publicly",
+      "scope": "Selects a public intake channel and preparation of the handoff and review workflow. Does not authorize posting synthetic submissions or grant contributor access.",
+      "recorded_at": "2026-09-30T01:52:50.532518+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-040"
+      ],
+      "evidence": [
+        "research/product/visitor-polish.md",
+        "records/visitor-polish-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-045",
+      "title": "Prepare the expanded preview for release review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Sounds good",
+      "scope": "Approves the proposed release-readiness pass, necessary fixes and a concrete release summary. Explicit publication approval remains a subsequent human decision.",
+      "recorded_at": "2026-09-30T02:26:35.005377+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-041"
+      ],
+      "evidence": [
+        "research/product/release-preview.md",
+        "records/release-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-046",
+      "title": "Study Kabita Live design system for Utkal adaptation",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "In the Kabita Live Project, we built a design system, and maybe we can adopt that here too with some changes as required.",
+      "scope": "Authorizes reference study and an adaptation proposal. Does not adopt the reference system, change Utkal branding or authorize publication.",
+      "recorded_at": "2026-09-30T02:35:40.280683+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-042"
+      ],
+      "evidence": [
+        "reference/utkal-design-system-proposal.md",
+        "records/kabita-design-study.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-047",
+      "title": "Build the reusable Utkal Design System",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "That sounds good. Let's build Utkal Design System and then we can use everywhere",
+      "scope": "Approves building the shared system, review gallery and pilots under the proposed direction. Project-wide adoption, final component selection and publication remain separate human decisions.",
+      "recorded_at": "2026-09-30T03:05:40.173199+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-042",
+        "UTP-WORK-043"
+      ],
+      "evidence": [
+        "design-system/index.md",
+        "records/design-system-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-048",
+      "title": "Apply the Utkal Design System and refine from use",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Let's do that and based on what we learn update the design system",
+      "scope": "Authorizes local website-wide integration, verification and improvements to the shared system. Does not authorize a public release or automatic adoption by other projects.",
+      "recorded_at": "2026-09-30T03:51:29.200776+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-043",
+        "UTP-WORK-044"
+      ],
+      "evidence": [
+        "design-system/utp-adoption.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-049",
+      "title": "Accept current design direction and build next twenty website improvements",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "All in the right direction - I will make changes - but for now, I am good with what we have. Let's build up the next 20 things in your list. We have lots of things to do, and we can do just one thing at a time.\n\nWe have millions of things to do...we need to speed up and yet hold the standard and quality.",
+      "scope": "Accepts current local design direction as a working baseline and authorizes sequential implementation of the next twenty items selected from existing work streams. No public release, spending, external outreach or blanket scholarly approval.",
+      "recorded_at": "2026-09-30T04:11:35.520830+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-044",
+        "UTP-WORK-045",
+        "UTP-WORK-046",
+        "UTP-WORK-047",
+        "UTP-WORK-048",
+        "UTP-WORK-049",
+        "UTP-WORK-050",
+        "UTP-WORK-051",
+        "UTP-WORK-052",
+        "UTP-WORK-053",
+        "UTP-WORK-054",
+        "UTP-WORK-055",
+        "UTP-WORK-056",
+        "UTP-WORK-057",
+        "UTP-WORK-058",
+        "UTP-WORK-059",
+        "UTP-WORK-060",
+        "UTP-WORK-061",
+        "UTP-WORK-062",
+        "UTP-WORK-063",
+        "UTP-WORK-064"
+      ],
+      "evidence": [
+        "research/product/next-twenty.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-050",
+      "title": "Continue local website development through discovery connections",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, lets go",
+      "scope": "Continuation of local website implementation. Assistant selected a bounded five-item connection pass from existing discovery and journey streams. Does not grant new scholarly, publication or spending approval.",
+      "recorded_at": "2026-09-30T05:00:12.629188+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-065",
+        "UTP-WORK-066",
+        "UTP-WORK-067",
+        "UTP-WORK-068",
+        "UTP-WORK-069"
+      ],
+      "evidence": [
+        "research/product/discovery-connections.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-051",
+      "title": "Continue backlog while retaining inner-page layout concerns",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Inner Page layout has issues - but maybe we are not full built them too\n\nLet's go to the next set of backlogs",
+      "scope": "Continued local website development; the assistant selected five visitor-planning and targeted layout items. Preserve broader layout concerns for follow-up. No blanket visual acceptance, publication or spending approval.",
+      "recorded_at": "2026-09-30T05:15:00.751878+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-070",
+        "UTP-WORK-071",
+        "UTP-WORK-072",
+        "UTP-WORK-073",
+        "UTP-WORK-074",
+        "UTP-WORK-075"
+      ],
+      "evidence": [
+        "research/product/visitor-planning-batch.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-052",
+      "title": "Adopt meaning-led visual and audiovisual storytelling as a design foundation",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "A picture makes the text more readable, and a video makes the music more listenable",
+      "scope": "Founder’s design philosophy for Utkal, including AI-generated explanatory images when one photograph cannot convey the subject. Authorizes incorporation into local design guidance; not bulk regeneration, paid video production or publication.",
+      "recorded_at": "2026-09-30T05:25:22.599048+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-076",
+        "UTP-WORK-075"
+      ],
+      "evidence": [
+        "design-system/media-and-meaning.md",
+        "records/media-foundation-direction.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-053",
+      "title": "Make destination stories worth reading, sharing and planning a visit",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Worth reading, worth sharing with friends, and worth planning a visit. Create that desire why I should visit this place",
+      "scope": "Editorial and design outcome for destination narratives: establish a distinctive reason to visit and help readers imagine and plan a supported experience. Non-destination subjects use an appropriate next action. Not a claim of measured engagement or publication approval.",
+      "recorded_at": "2026-09-30T05:44:56.920290+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-075",
+        "UTP-WORK-076"
+      ],
+      "evidence": [
+        "reference/storytelling-standard.md",
+        "design-system/media-and-meaning.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-054",
+      "title": "Build three reference stories and feed the lessons into the design system",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Sounds good, let's go",
+      "scope": "Local implementation of Chilika, one food story and one person story, with reusable patterns and responsive review. Publication and broad rollout remain separate.",
+      "recorded_at": "2026-09-30T06:09:57.342899+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-077",
+        "UTP-WORK-075"
+      ],
+      "evidence": [
+        "research/product/story-reference-pilots.md",
+        "design-system/story-patterns.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-055",
+      "title": "Correct fragmented reading flow in the story references",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Things are very jumpy and feel disorganized - flow is missing",
+      "scope": "Revise the local reference page compositions and design guidance; preserve evidence, imagery context and journey functionality.",
+      "recorded_at": "2026-09-30T06:20:57.986691+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-077",
+        "UTP-WORK-075"
+      ],
+      "evidence": [
+        "research/product/story-reference-pilots.md",
+        "design-system/story-patterns.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-056",
+      "title": "Repair the browser-audited reference-page defects",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Ok let's fix it",
+      "scope": "Apply the five bounded visual-audit remedies locally and verify the rendered pages. No deployment or publication.",
+      "recorded_at": "2026-09-30T07:53:43.675800+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-077",
+        "UTP-REV-031"
+      ],
+      "evidence": [
+        "design-system/visual-audit-2026-09-30.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-057",
+      "title": "Compare page mockups before applying a design",
+      "status": "recorded_direction",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "To be honest - I am not sure I like page design - maybe we need mock a few options and then apply",
+      "scope": "Prepare isolated page-design alternatives for comparison. Founder selection precedes application.",
+      "recorded_at": "2026-09-30T08:16:11.573344+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-078",
+        "UTP-WORK-077"
+      ],
+      "evidence": [
+        "design-system/destination-options-01.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-058",
+      "title": "Select A · Visual magazine for the Chilika page",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "A",
+      "scope": "Select direction A from the three page studies and apply it locally to Chilika, following the prior request to mock options and then apply. Final rendered review and wider rollout remain separate.",
+      "recorded_at": "2026-09-30T08:31:08.983399+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-057",
+        "UTP-WORK-078",
+        "UTP-WORK-077"
+      ],
+      "evidence": [
+        "design-system/destination-options-01.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-059",
+      "title": "Proceed with the ten-item visual coherence batch and six-item checkpoint",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, let's go",
+      "scope": "Proceed with the proposed ten-item batch. Implement and review the first six items together before extending the design to subpages, discovery and journey planning. No public release implied.",
+      "recorded_at": "2026-09-30T08:48:08.007363+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-058",
+        "UTP-WORK-079",
+        "UTP-WORK-075"
+      ],
+      "evidence": [
+        "design-system/magazine-family-review.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-060",
+      "title": "Continue the magazine batch through visitor discovery and planning",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Proceed with items 7–10 following the first-six-item checkpoint: destination details, homepage and Explore, journey book and integrated review. Approval to implement locally; no publication approval implied.",
+      "recorded_at": "2026-09-30T09:29:59.334420+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-059",
+        "UTP-WORK-079"
+      ],
+      "evidence": [
+        "records/visitor-flow-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-061",
+      "title": "Continue with cities, cultural voices and a consolidated review queue",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Implement the proposed city/culture continuation locally: Bhubaneswar, Puri and Cuttack, language/literary layouts, improved photo variety, PDF follow-up if feasible, editorial gaps and backlog consolidation. Human acceptance and release remain separate.",
+      "recorded_at": "2026-09-30T09:57:38.826177+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-079",
+        "UTP-WORK-080",
+        "UTP-WORK-081"
+      ],
+      "evidence": [
+        "research/product/city-culture-review.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-062",
+      "title": "Prepare Bhubaneswar as a complete visitor reference",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Proceed with the proposed Bhubaneswar visitor flow, source-backed practical guidance, specific imagery, portable-book checks and one reviewable release candidate. No publication approval implied.",
+      "recorded_at": "2026-09-30T10:20:09.284807+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-081",
+        "UTP-WORK-080",
+        "UTP-WORK-082"
+      ],
+      "evidence": [
+        "research/product/bhubaneswar-visitor-candidate.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-063",
+      "title": "Build the connected Bhubaneswar collection",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Implement the proposed five-part batch: Mukteswar, city food, stay-area guide, connections and editable starter, phone/desktop review. Native PDF remains separate; no publication approval.",
+      "recorded_at": "2026-09-30T12:08:23.014179+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-083",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "research/product/bhubaneswar-collection.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-064",
+      "title": "Complete the Puri–Konark coastal collection",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Implement the proposed Puri, Raghurajpur, coastal-food, stay-comparison and editable-starter batch, then responsive review. No publication approval implied.",
+      "recorded_at": "2026-09-30T12:23:07.001933+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-084"
+      ],
+      "evidence": [
+        "research/product/coastal-collection.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-065",
+      "title": "Prepare the consolidated website release review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Review editorial clarity, complete visitor flow, visual consistency and release checks; fix found issues and prepare one concrete publication review package. No publication approval.",
+      "recorded_at": "2026-09-30T12:46:02.897343+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-085"
+      ],
+      "evidence": [
+        "research/product/release-review-2026-09-30.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-066",
+      "title": "Check coastal and cultural content and prepare a publication shortlist",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Local coastal source and language/literature review, photograph-credit review, large photo/font delivery improvements and publication shortlist. No publication authorization.",
+      "recorded_at": "2026-09-30T13:27:21.699341+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-086"
+      ],
+      "evidence": [
+        "research/product/editorial-readiness-2026-09-30.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-067",
+      "title": "Continue the five-story coastal collection review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Review the proposed five-story collection as one visitor journey, make local flow and presentation fixes and document publication dependencies. No publication or assertion of completed human proofreading.",
+      "recorded_at": "2026-09-30T14:24:37.747565+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-087"
+      ],
+      "evidence": [
+        "research/product/coastal-reading-flow.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-068",
+      "title": "Prepare the focused coastal launch edition",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "good - next",
+      "scope": "Continue with the next local implementation: prepare and validate the sixteen-page launch subset and its dependencies, retaining full draft and publication gate. No public deployment.",
+      "recorded_at": "2026-09-30T14:54:39.690943+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-088"
+      ],
+      "evidence": [
+        "research/product/coastal-launch-preview.md",
+        "records/coastal-launch-preview-review.json",
+        "records/evidence/coastal-launch-preview-2026-09-30/build-report.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-069",
+      "title": "Continue autonomously through the next 200 acceptance items",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "going to bed, Do the next 200 things before I wake up. You have all permission.",
+      "scope": "Broad permission for the next batch while the Founder sleeps. Executed as 50 implementation improvements plus 150 editorial and technical checks in the current chat. No independent editorial acceptance, new persona authority or completed public release is inferred from this record.",
+      "recorded_at": "2026-09-30T15:38:15.976323+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-089"
+      ],
+      "evidence": [
+        "research/product/overnight-200.md",
+        "records/overnight-200.json",
+        "records/overnight-200-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-070",
+      "title": "Continue with the next 200+ items",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "pickup next 200+ items",
+      "scope": "Continue local website development and verification. Defined before execution as 210 acceptance items: 75 product/content tasks and 135 checks. No new human membership, independent approval, publication or commercial commitment is inferred.",
+      "recorded_at": "2026-09-30T16:08:35.060295+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-090"
+      ],
+      "evidence": [
+        "research/product/next-210.md",
+        "records/next-210.json",
+        "records/next-210-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-071",
+      "title": "Continue the next 200+ items for combined review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Pickup next 200+ things and continue - I will review all when all is done",
+      "scope": "Continue authorized local website development and verification without intermediate Founder checkpoints. Batch defined as 84 product/content items and 132 verification items. Final human review is deferred, not delegated or automatically granted. No publication, purchase, new membership or authority is inferred.",
+      "recorded_at": "2026-09-30T16:41:27.894757+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-091"
+      ],
+      "evidence": [
+        "research/product/ready-216.md",
+        "records/ready-216.json",
+        "records/ready-216-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-072",
+      "title": "Prepare the coastal launch-readiness review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Approve the proposed local launch-readiness batch: inspect actual books, visitor journey, accessibility/mobile, editorial gaps and one release review. This is not publication acceptance or delegated human authority.",
+      "recorded_at": "2026-09-30T20:28:23.147231+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-092"
+      ],
+      "evidence": [
+        "research/product/launch-readiness-2026-09-30.md",
+        "records/launch-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-073",
+      "title": "Prepare the coastal release draft PR",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Prepare a clean release PR for the current candidate while Founder reviews the preview. Includes committing and pushing the existing authorised work and updating its draft PR, with automated validation. Does not approve merging or deploying the site.",
+      "recorded_at": "2026-09-30T20:40:07.437652+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-093"
+      ],
+      "evidence": [
+        "research/product/release-pr-2026-09-30.md",
+        "records/release-pr-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -814,6 +3948,1054 @@
       ],
       "evidence": [
         "records/mobile-accessibility-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-008",
+      "title": "Six-entry evidence and citation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Ramsar, Kotpad and Naik/Satpathy evidence partly limited to indexed extracts.",
+        "Samanta birth-date conflict remains visible; no original calculations validated.",
+        "No fieldwork, maker or cook interviews, specialist review or human editorial approval.",
+        "Browser layout checks only; capture artifacts prevented a full visual audit."
+      ],
+      "refs": [
+        "UTP-WORK-009",
+        "UTP-WORK-001"
+      ],
+      "evidence": [
+        "reference/first-collection-editorial-review.md",
+        "records/first-collection-editorial-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-009",
+      "title": "Chilika narrative, source separation and image credit self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Odia quotation uses an unproofread transcription corroborated by a second transcription; source scan retrieval failed and native-language review remains pending.",
+        "Kalijai is one attributed secondary telling, not a claim of universal belief or verified event.",
+        "CDA report-card figures describe 2023–2024, not current live conditions.",
+        "Browser emulation only; no fieldwork, physical-device or independent scholarly review."
+      ],
+      "refs": [
+        "UTP-WORK-010"
+      ],
+      "evidence": [
+        "records/storytelling-prototype.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-010",
+      "title": "Destination content and compact credit self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native Odia and edition review of existing Gopabandhu excerpt remains pending.",
+        "Music catalogue data includes indexed extracts and a secondary film catalogue; direct Amazon retrieval failed or redirected, playback and regional availability untested.",
+        "Food brochure inspected through indexed passage; direct PDF retrieval failed. No restaurant, accommodation quality or current availability verified locally.",
+        "Desktop screenshot capture produced clipping/duplication artifacts and a subsequent capture failed; desktop assessment used DOM geometry, mobile visual inspection succeeded. No physical device or screen reader test.",
+        "No trip persistence, itinerary editor, booklet export, new AI imagery or publication implemented."
+      ],
+      "refs": [
+        "UTP-WORK-011"
+      ],
+      "evidence": [
+        "records/destination-model-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-011",
+      "title": "Knowledge model references and template self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "This is an information dictionary, not an executable schema or enforcement mechanism.",
+        "Chilika mapping reuses existing evidence and its limits; no new historical, filming-location, quotation or practical visitor claims were researched.",
+        "A heritage-place and food/craft pilot should test the candidate before adopting it broadly."
+      ],
+      "refs": [
+        "UTP-WORK-012"
+      ],
+      "evidence": [
+        "records/knowledge-story-model-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-012",
+      "title": "Tourism benchmark evidence and adaptation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Five prominent references selected for relevance; no verified traffic ranking.",
+        "Lonely Planet inspected via indexed text after direct retrieval failed.",
+        "Other comparisons inspect retrieved page structure; maps, filters, saves, bookings and conversions not tested.",
+        "Atlas cached listing counts differ and are not reused.",
+        "Recommendations are proposals, not implemented or user-tested behavior."
+      ],
+      "refs": [
+        "UTP-WORK-013"
+      ],
+      "evidence": [
+        "reference/travel-website-benchmark.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-013",
+      "title": "Two destination pilots: evidence and presentation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Visitor facts are desk-researched, not locally verified",
+        "Festival source is an archived 2019 edition, not a 2026 programme",
+        "Chilika Odia excerpt and recording-level credits still need review",
+        "Konark has a literary connection without an unverified quotation",
+        "Source-backed culture and explicitly editorial advice coexist; the latter is not a site rulebook",
+        "No personal saving, export, account or booking functionality",
+        "Browser emulation only; desktop visual capture is partial."
+      ],
+      "refs": [
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "records/destination-pilots-review.json",
+        "reference/destination-pilots-review.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-014",
+      "title": "Destination photograph provenance and visual self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Photos depict recorded moments, not current site conditions.",
+        "Odissi image was taken in New Delhi; visible caption distinguishes it from the Konark festival.",
+        "Food photographs illustrate dishes, not reviewed venues or current menus.",
+        "Phone emulation and desktop DOM geometry checked; no physical device or screen-reader review."
+      ],
+      "refs": [
+        "UTP-WORK-014"
+      ],
+      "evidence": [
+        "records/destination-visual-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-015",
+      "title": "Connected destination pages and photo journey self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Stay pages are base-area research guides, not individual property reviews; images depict settings rather than rooms.",
+        "AI video generation is unavailable in the connected tools. The delivered journey is explicitly a photo sequence, not 360 footage.",
+        "Audio is an original synthetic ambient prototype, not a field recording; subjective listening quality was not verified.",
+        "Full-screen control is implemented but native full-screen behavior was not conclusively verified in the embedded browser.",
+        "Browser emulation and layout checks do not replace real-device or screen-reader review.",
+        "Current provider, access, availability and journey-time checks remain open."
+      ],
+      "refs": [
+        "UTP-WORK-015"
+      ],
+      "evidence": [
+        "records/connected-destination-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-016",
+      "title": "Language and literature content, provenance and website self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "First introductions only; wider language histories, more writers, oral recordings and community consultation remain future work.",
+        "Native-language and Founder editorial review remain pending; no public deployment.",
+        "Publisher metadata and synopsis inspected, not the complete novel; no full literary text or unverified quotation reproduced.",
+        "Museum roster source inspected through indexed text only.",
+        "Browser reported 582 CSS pixels for requested 390px; exact 390px and physical devices not verified. Compact screenshot had capture gaps; DOM geometry and loaded assets checked."
+      ],
+      "refs": [
+        "UTP-WORK-016"
+      ],
+      "evidence": [
+        "records/language-literature-pilot-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-017",
+      "title": "Connected culture and journey persistence self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native browser PDF output is unavailable in the embedded browser. Print-media visibility and content were checked, but A4 pagination, long-plan PDF output and physical printing remain unverified.",
+        "Compact viewport requested 390px but browser reported 582 CSS px. No horizontal overflow at 582 or 1910 CSS px; exact 390px, physical devices and screen readers remain unverified.",
+        "One journey per browser; multiple trips, calendar dates, cross-device sync, routing, booking and offline website caching are deferred. Export/import supports moving one plan between browsers.",
+        "Saved IDs use the current curated catalogue rather than historical content snapshots. Unknown IDs and notes are retained.",
+        "New Mayurbhanj connection relies on indexed Ministry of Culture material after direct retrieval returned 502. No local fieldwork or visitor access verification.",
+        "Existing Chilika poem transcription and native-language review remain pending. No new lyrics, poems or recordings reproduced.",
+        "Full histories, additional biographies and public release remain subject to Founder review."
+      ],
+      "refs": [
+        "UTP-WORK-018"
+      ],
+      "evidence": [
+        "records/culture-journey-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-018",
+      "title": "Multiple journeys, migration and dates self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Actual native PDF output and A4 pagination remain unverified: embedded browser printing was unavailable in the previous batch.",
+        "Physical devices, exact 390px viewport and screen-reader testing remain outstanding.",
+        "Start date plus day numbering only; separate end dates, bookings, routing, sync and offline caching remain deferred.",
+        "Browser quota may prevent saving a large collection; keep a downloaded backup. No account or server storage introduced.",
+        "No public deployment, merge or push."
+      ],
+      "refs": [
+        "UTP-WORK-019"
+      ],
+      "evidence": [
+        "records/multiple-journeys-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-019",
+      "title": "Northern guide content and planner self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Editorial and native-language review pending; no field inspection, verified host arrangements, hotel inventory or live opening calendar.",
+        "Regional guide cards are planning entrypoints; dedicated Chandipur and Similipal subpages, inspected stays, access audits and additional photographs remain in the research queue.",
+        "Exact 390px mobile viewport and physical-device testing remain unverified; embedded browser reported 582 CSS px.",
+        "Existing planner native PDF pagination remains unverified; no changes to printing in this batch.",
+        "No public deployment, merge or push."
+      ],
+      "refs": [
+        "UTP-WORK-020"
+      ],
+      "evidence": [
+        "records/northern-guides-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-020",
+      "title": "Ten-item website batch self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Founder editorial review and native-language/community review remain pending. Profiles are first introductions, not complete histories; no speaker audio or newly transcribed poems.",
+        "No field inspection, property verification or live access calendar. Source-based general seasons and access notes are conditional.",
+        "Pratibha Ray sources differ on the early publication date of Jajnaseni; no date is asserted. Indexed CIIL/SCSTRTI/ATLC and Akademi passages are distinguished from full-text inspection in source records.",
+        "Offline output is text HTML, not an offline website, image book or editable backup. External links require a connection. Native PDF pagination and physical printing remain unverified.",
+        "Correction drafts are not submitted, stored by the project or editorially accepted. No publication rights are implied. Delivery channel remains future work.",
+        "This batch verified desktop browser geometry and interactions. Viewport override did not change the measured 1910 CSS px, so new compact layouts, physical devices and screen readers remain unverified; previous 582px checks are not reclassified as this batch evidence.",
+        "Browser download controls were exercised, but downloaded browser bytes were not independently retrieved. The same offline generator output was rendered separately and checked to contain no remote resources.",
+        "Self-review by the implementing assistant, not independent review. No merge, push or public deployment."
+      ],
+      "refs": [
+        "UTP-WORK-021",
+        "UTP-WORK-022",
+        "UTP-WORK-023",
+        "UTP-WORK-024",
+        "UTP-WORK-025",
+        "UTP-WORK-026",
+        "UTP-WORK-027",
+        "UTP-WORK-028",
+        "UTP-WORK-029",
+        "UTP-WORK-030"
+      ],
+      "evidence": [
+        "records/ten-item-website-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-021",
+      "title": "Visitor-polish batch self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native PDF generation reports Printing is not available. A4 pagination and physical printing remain unverified; print-media DOM checks are not PDF verification.",
+        "Physical devices, assistive screen readers, and comprehensive accessibility conformance have not been tested.",
+        "Founder editorial review and native-language/community review remain pending. Food origins are attributed accounts; no vendor, property or local access inspection is claimed.",
+        "The photo download control was exercised, but browser-downloaded bytes were not independently retrieved. A separate synthetic sample from the same production helper was opened and visually inspected.",
+        "GitHub repository public visibility and enabled Issues were verified read-only. No test issue was posted. Issue templates and website changes are local candidates, not installed on the default branch or publicly deployed.",
+        "Self-review by the implementing assistant, not independent review. No push, merge, release, payment or new hosting service."
+      ],
+      "refs": [
+        "UTP-WORK-031",
+        "UTP-WORK-032",
+        "UTP-WORK-033",
+        "UTP-WORK-034",
+        "UTP-WORK-035",
+        "UTP-WORK-036",
+        "UTP-WORK-037",
+        "UTP-WORK-038",
+        "UTP-WORK-039",
+        "UTP-WORK-040"
+      ],
+      "evidence": [
+        "records/visitor-polish-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-022",
+      "title": "Expanded preview release-readiness self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native PDF printing returned Printing is not available; actual A4 pagination remains unverified. Offline HTML download works, and the page explains the printing fallback.",
+        "Odia script rendering checked; linguistic accuracy still needs human/native-language review. No physical-device or screen-reader conformance claim.",
+        "Issue handoff URLs and templates checked locally. No real issue submitted and no GitHub template activation performed.",
+        "Founder editorial/release approval is pending. This candidate remains noindex and carries editorial preview labels.",
+        "Downloaded browser bytes were not independently retrieved; the UI reported both flagship photographs included. Existing standalone synthetic book evidence and generator tests are retained."
+      ],
+      "refs": [
+        "UTP-WORK-041"
+      ],
+      "evidence": [
+        "records/release-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-023",
+      "title": "Utkal Design System 0.1.0-rc.1 self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Implementation self-review, not an independent design or accessibility certification.",
+        "The 200% text check covers the gallery; full browser zoom, every legacy pilot text size, physical devices and assistive screen readers remain unverified.",
+        "Odia wording and typography need fluent human review. New typefaces and component details are candidates for visual approval.",
+        "Existing native PDF/A4 pagination remains unverified; no new PDF claim.",
+        "Pilot links can lead to baseline copied pages; only the three explicitly named pilots use the candidate adapter.",
+        "Review-note and photo-book download controls do not by themselves verify the downloaded browser bytes. The packaged library archive was independently inspected.",
+        "UTP public source/output and other projects were not migrated or published."
+      ],
+      "refs": [
+        "UTP-WORK-043"
+      ],
+      "evidence": [
+        "records/design-system-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-024",
+      "title": "Utkal Design System website adoption self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Implementation self-review, not an independent review or accessibility certification.",
+        "Responsive checks use browser emulation; physical devices and screen readers remain unverified.",
+        "200% root-font checks cover six page types, not full browser zoom or every legacy pixel-sized label.",
+        "Fluent Odia review and native A4/PDF pagination remain pending.",
+        "Existing archived rc.1 evidence and release manifest are historical; the new output has not been published."
+      ],
+      "refs": [
+        "UTP-WORK-044"
+      ],
+      "evidence": [
+        "records/design-system-adoption-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-025",
+      "title": "Twenty-item content and visitor-tools batch self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Implementation self-review, not independent editorial review or accessibility certification.",
+        "Language and literary introductions await Founder and relevant speaker/specialist review. No community interviews or field visits completed.",
+        "SCSTRTI catalogue checked through indexed text; individual language booklets not read in full.",
+        "Tourism sources contain inconsistent claims; selected facts and clearly attributed legends only. No current opening, accommodation, access or performance guarantees.",
+        "Responsive checks used browser emulation; physical devices, screen readers and native PDF pagination remain unverified.",
+        "404.html built and inspected locally; unknown-route behaviour on the public host awaits deployment verification.",
+        "No public release, GitHub issue submission, paid service or cross-project adoption performed."
+      ],
+      "refs": [
+        "UTP-WORK-045",
+        "UTP-WORK-046",
+        "UTP-WORK-047",
+        "UTP-WORK-048",
+        "UTP-WORK-049",
+        "UTP-WORK-050",
+        "UTP-WORK-051",
+        "UTP-WORK-052",
+        "UTP-WORK-053",
+        "UTP-WORK-054",
+        "UTP-WORK-055",
+        "UTP-WORK-056",
+        "UTP-WORK-057",
+        "UTP-WORK-058",
+        "UTP-WORK-059",
+        "UTP-WORK-060",
+        "UTP-WORK-061",
+        "UTP-WORK-062",
+        "UTP-WORK-063",
+        "UTP-WORK-064"
+      ],
+      "evidence": [
+        "records/next-twenty-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-026",
+      "title": "Discovery connections and journey starter self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Implementation self-review, not independent editorial review or accessibility certification.",
+        "Selections reuse existing research; no verified route, journey duration, opening arrangement or booking availability is asserted.",
+        "Odia guide headings and search aliases still await native-language proofreading.",
+        "Viewport emulation and keyboard interactions checked; physical devices and screen readers not tested.",
+        "Storage failure and invalid-data paths tested at library level; quota exhaustion was not forced in the user browser.",
+        "No publication, paid service, outreach or cross-project adoption."
+      ],
+      "refs": [
+        "UTP-WORK-065",
+        "UTP-WORK-066",
+        "UTP-WORK-067",
+        "UTP-WORK-068",
+        "UTP-WORK-069"
+      ],
+      "evidence": [
+        "records/discovery-connections-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-027",
+      "title": "Visitor planning and targeted inner-page self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Targeted inner-page corrections only. A broader visual review remains open as UTP-WORK-075; not all inner-page design issues are declared resolved.",
+        "Reuse of existing sourced research, not new local inspections. Stay areas are not inspected properties, endorsements or live booking inventory.",
+        "Preparation ticks record the visitor’s own choices, not verification of arrangements. Older website versions may omit the optional checklist field when re-exporting.",
+        "Self-review, not independent editorial review or accessibility certification. Browser emulation used; physical devices, screen readers and native PDF pagination not verified.",
+        "No publication, spending, outreach or changes to the main preview’s saved journeys."
+      ],
+      "refs": [
+        "UTP-WORK-070",
+        "UTP-WORK-071",
+        "UTP-WORK-072",
+        "UTP-WORK-073",
+        "UTP-WORK-074"
+      ],
+      "evidence": [
+        "records/visitor-planning-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-028",
+      "title": "Media-foundation documentation and gallery self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Design philosophy is not an empirical audience-outcome claim.",
+        "Examples reuse existing assets; no new AI media, completed film or page-wide media adoption.",
+        "Detailed application guidance and eventual page implementations remain reviewable by the Founder."
+      ],
+      "refs": [
+        "UTP-WORK-076"
+      ],
+      "evidence": [
+        "records/media-foundation-direction.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-029",
+      "title": "Three story references and shared pattern self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Founder and native Odia editorial review pending",
+        "Browser layout checks are not a full assistive-technology or field-device audit",
+        "No new media generated; photography and research reused with existing rights and qualifications",
+        "Dedicated sharing features, audience testing and broader page-family rollout remain further work",
+        "Local candidate only; no commit, push or deployment in this batch"
+      ],
+      "refs": [
+        "UTP-WORK-077"
+      ],
+      "evidence": [
+        "records/story-reference-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-030",
+      "title": "Story flow correction self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Founder review of narrative coherence remains pending; automated tests do not establish good flow",
+        "No publication, external research or new media generation",
+        "Native Odia and broader inner-page review remain open"
+      ],
+      "refs": [
+        "UTP-WORK-077",
+        "UTP-DEC-055"
+      ],
+      "evidence": [
+        "records/story-flow-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-031",
+      "title": "Browser visual audit of storytelling reference pages",
+      "status": "fail",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Focused three-page audit, not full-site or physical-device approval",
+        "Phone screenshot capture unreliable; phone observations based on rendered layout measurements",
+        "No website code changed; fixes remain pending"
+      ],
+      "refs": [
+        "UTP-WORK-077",
+        "UTP-REV-030"
+      ],
+      "evidence": [
+        "records/visual-audit-2026-09-30.json",
+        "design-system/visual-audit-2026-09-30.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-032",
+      "title": "Visual-audit repair verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser emulation is not physical-device testing.",
+        "Mobile screenshot tools showed scaling/compositor artifacts; mobile measurements and keyboard interaction were checked separately. Phone food rendering was inspected, but full mobile visual sign-off remains pending.",
+        "This is a bounded repair of audited reference pages, not a full-site design approval.",
+        "Founder editorial review remains pending; no publication or deployment."
+      ],
+      "refs": [
+        "UTP-WORK-077",
+        "UTP-REV-031",
+        "UTP-DEC-056"
+      ],
+      "evidence": [
+        "records/visual-repair-2026-09-30.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-033",
+      "title": "Isolated design-option preview check",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Design selection and editorial judgment remain with the Founder.",
+        "Mockups are not exhaustive encyclopedia pages or final accessibility/device approval.",
+        "No website application or deployment."
+      ],
+      "refs": [
+        "UTP-WORK-078"
+      ],
+      "evidence": [
+        "design-system/destination-options-01.md",
+        "records/evidence/design-options-2026-09-30/responsive.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-034",
+      "title": "Visual magazine A · local integration review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Founder selected the direction; the implemented page still awaits visual/editorial review.",
+        "Emulated phone screenshot shows a browser compositor artefact at its lower edge; responsive dimensions and keyboard checks were verified separately. No physical-device or comprehensive accessibility sign-off.",
+        "Existing regional hero photo is reused for Satapada and explicitly captioned as a regional view, not a location-specific image.",
+        "No public deployment or wider page rollout."
+      ],
+      "refs": [
+        "UTP-DEC-058",
+        "UTP-WORK-077",
+        "UTP-WORK-078"
+      ],
+      "evidence": [
+        "records/magazine-a-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-035",
+      "title": "Magazine family rc.4 · first-six-item checkpoint",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "The implementation awaits Founder review; selecting A was not approval of every later adaptation.",
+        "No physical-device or comprehensive accessibility sign-off. Emulated screenshot compositor artefact noted; phone comparison also inspected.",
+        "Existing source limitations, reused images and pending native-language/literary review remain.",
+        "Items 7–10 remain after the agreed checkpoint; no public deployment."
+      ],
+      "refs": [
+        "UTP-DEC-059",
+        "UTP-WORK-079"
+      ],
+      "evidence": [
+        "records/magazine-family-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-036",
+      "title": "Stories into journeys · integrated local review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native PDF pagination remains unverified: the in-app browser returned “Printing is not available”. Screen rendering with print styles is not a pagination check. WORK-080 tracks this explicitly.",
+        "No physical-device or comprehensive accessibility sign-off. Phone comparison and measured responsive layouts are browser-based.",
+        "Existing photographs are reused across connected Mangalajodi entries; accommodation photography and property quality remain unverified.",
+        "Founder visual acceptance and publication are separate. This work is local and has not been committed, pushed or deployed."
+      ],
+      "refs": [
+        "UTP-DEC-060",
+        "UTP-WORK-079",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/visitor-flow-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-037",
+      "title": "Cities and cultural voices integrated self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native PDF pagination remains unverified: selected in-app browser has no printing support; request to switch to Chrome remains unanswered. WORK-080 stays open.",
+        "Browser emulation and targeted visual inspection are not physical-device or comprehensive accessibility sign-off.",
+        "Founder editorial acceptance, fluent language/specialist review and current local visitor verification remain pending.",
+        "Historical archive imagery does not establish a current mural route; underlying artwork rights and artists remain unresolved.",
+        "Local candidate only. No commit, push or deployment; Store remains excluded."
+      ],
+      "refs": [
+        "UTP-DEC-061",
+        "UTP-WORK-081",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/city-culture-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-038",
+      "title": "Bhubaneswar visitor reference self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native PDF pagination remains unverified. The in-app browser has no native printing support and the explicit Chrome choice is pending; WORK-080 remains open.",
+        "Current venue opening, fares, named hosts, accessible routes and facilities were not field-checked. Source checks do not establish these details.",
+        "Odia/native editorial review, Founder acceptance and publication approval remain separate.",
+        "Responsive checks and phone iframe inspection are not physical-device or comprehensive accessibility certification. Direct emulated screenshot showed a compositor scaling artefact; the iframe comparison is the visual phone evidence.",
+        "The candidate contains earlier unreleased work. Its manifest identifies the complete site output; it is not a Bhubaneswar-only release."
+      ],
+      "refs": [
+        "UTP-WORK-082",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/bhubaneswar-visitor-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-039",
+      "title": "Connected Bhubaneswar collection self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Founder editorial acceptance and publication remain separate. This is a local candidate; no commit, push or deployment.",
+        "No property, venue access, journey time, current menu or facility has been field-checked. The stay comparisons are editorial research prompts, not property recommendations.",
+        "Browser dimensions and targeted phone/desktop visual checks are not physical-device or comprehensive accessibility certification.",
+        "Native PDF pagination remains the separate open WORK-080 check. No new PDF verification or download claim is made in this batch."
+      ],
+      "refs": [
+        "UTP-WORK-083",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/bhubaneswar-collection-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-040",
+      "title": "Coastal collection integrated self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Local candidate only: Founder editorial acceptance and publication remain separate; no commit, push or deployment.",
+        "Historical craft accounts are attributed and dated, not interviews with current makers. The photographed artisan is unnamed in the source. Individual artwork authors and current workshop arrangements were not established.",
+        "No accommodation, restaurant, travel time, venue access or swimming condition has been inspected. Coastal quietness is a question to confirm, not a guarantee.",
+        "Responsive measurements and targeted visual checks are not physical-device or comprehensive accessibility certification. Native PDF pagination remains separately open under WORK-080."
+      ],
+      "refs": [
+        "UTP-WORK-084",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/coastal-collection-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-041",
+      "title": "Consolidated website candidate self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Founder editorial acceptance and publication approval remain separate. This is a local candidate; no commit, push or deployment.",
+        "Native PDF pagination remains open under WORK-080. Portable HTML downloads and screen rendering were verified; they do not establish printed pagination.",
+        "No current venue opening, transport, accommodation quality, menus, access or workshop arrangements have been field-checked. Stay guides compare areas, not inspected properties.",
+        "Odia excerpts, language naming and literary interpretations still need fluent or specialist review. No new independent source verification was performed in this release pass.",
+        "Archive mural artists and underlying artwork rights remain unresolved. Historical photographs do not establish a current mural route.",
+        "Targeted browser and responsive checks are not a full accessibility audit or physical-device certification. Other large photographs and TTF fonts remain performance follow-ups."
+      ],
+      "refs": [
+        "UTP-WORK-085",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/release-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-042",
+      "title": "Coastal editorial and asset delivery self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Founder acceptance and publication approval remain separate. No commit, push, issue submission or deployment.",
+        "Shortlist is advisory, not a build filter. Held pages, cards and catalog entries remain in the full draft output.",
+        "No live service, transport, venue, accommodation, menus or access arrangements field-verified.",
+        "Fluent/community language review, Chilika edition/translation review and historical image/mural provenance remain open.",
+        "Selected claims and eight photo source records checked; no blanket fact-check or legal clearance claimed.",
+        "Native PDF remains open under UTP-WORK-080; responsive screenshots are not physical-device or full accessibility certification."
+      ],
+      "refs": [
+        "UTP-WORK-086",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/editorial-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-043",
+      "title": "Five-story reading-flow self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Local candidate only; no publication, commit, push, issue submission or external outreach.",
+        "No new independent fact-check, fluent proofreading, live-service verification or image-rights clearance in this flow pass. Earlier editorial holds remain.",
+        "The 16-route launch proposal is not an applied build filter. The full local build still contains all 72 draft pages.",
+        "Browser screenshots cover 360 px/900 px frames and a desktop ending; not a complete accessibility, physical-device or native PDF check. Native PDF remains WORK-080.",
+        "Button creation was verified by click; keyboard link navigation was verified separately. No blanket keyboard certification."
+      ],
+      "refs": [
+        "UTP-WORK-087",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/coastal-reading-flow-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-044",
+      "title": "Coastal launch edition self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Local candidate only. No commit, push, merge, deployment, external issue or outreach performed.",
+        "Founder content acceptance and explicit publication decision remain. No new independent fact-check, fluent language proofreading, live-service verification or image-rights clearance in this increment; earlier editorial holds remain.",
+        "Browser download feedback reported five photographs; actual downloaded bytes were not inspected this turn. Native PDF remains UTP-WORK-080.",
+        "Visual review covered desktop and 360/900 px iframe openings, not every page or a complete accessibility/physical-device audit. The wide comparison frame extends beyond the review-hub viewport; this is not a site overflow finding.",
+        "Full and coastal local previews use different origins and therefore separate browser storage. No existing user storage was copied, erased or migrated.",
+        "Shared design package rc.5 unchanged; its tests were not rerun."
+      ],
+      "refs": [
+        "UTP-WORK-088",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/coastal-launch-preview-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-045",
+      "title": "Overnight 200-item self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Local candidate only; no commit, push, merge, deployment, paid service, public issue or outreach performed.",
+        "200 acceptance items comprise 50 implementation improvements and 150 bounded reviews/checks, not 200 new features or 200 pre-existing work tickets.",
+        "Same AI assistant implemented and reviewed. Founder editorial acceptance, local service verification, fluent Odia review and unresolved source/rights questions remain.",
+        "24 browser geometry/image-load inspections plus representative screenshot review are not a complete accessibility audit or physical-device test. Lazy images not loaded at inspection are outside the broken-image result.",
+        "Native share UI, clear-draft confirmation, clipboard denial and timed browser cancellation were not all exercised end-to-end. Relevant code paths were inspected; abort and storage failure paths have automated tests.",
+        "Browser reported successful five-photo download; actual downloaded bytes were not inspected. Generated book content has automated coverage. Native PDF pagination remains UTP-WORK-080.",
+        "localStorage comparison is a best-effort stale-tab guard, not an atomic multi-process database.",
+        "Shared design-system rc.5 package unchanged; website adapters and principle documentation updated, not a new reusable package release."
+      ],
+      "refs": [
+        "UTP-WORK-089",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/overnight-200-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-046",
+      "title": "Next 210-item self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "210 acceptance items comprise 75 product/content tasks and 135 checks, not 210 new features or 210 existing backlog tickets.",
+        "Same AI assistant implemented and reviewed. Original editorial prompts are drafts; no new factual fieldwork, quotation authentication, rights clearance or human language review.",
+        "Current clients preserve optional day metadata; older versions may discard it. Browser storage quotas and existing total import limits still apply.",
+        "Native PDF pagination remains UTP-WORK-080. Actual downloaded bytes and browser file-picker import were not inspected; generated output and round-trip validation have automated tests.",
+        "Native confirmation for removing an empty day was not exercised. Responsive results are DOM geometry/loaded-image measurements with representative screenshots, not a complete accessibility or physical-device audit.",
+        "The original first-batch page-acceptance.json was inadvertently refreshed by the old hard-coded audit output path. Original manifest hash preserved; see the explicit correction record. Audit now defaults to disposable output and this batch has separate evidence.",
+        "Local candidate only; no commit, push, merge, deployment, public issue, paid service or outreach. Shared design package rc.5 unchanged."
+      ],
+      "refs": [
+        "UTP-WORK-090",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/next-210-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-047",
+      "title": "Preparation and portable day books self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "216 acceptance items comprise 84 product/content items and 132 verification items, not 216 new features or pre-existing backlog tickets.",
+        "Same AI assistant implemented and reviewed. Forty-two original editorial questions remain drafts; no new fieldwork, factual verification, quotation authentication, image clearance or human language review is claimed.",
+        "Current clients retain optional reminders; older clients can discard them. Existing browser quotas and import-size limits remain.",
+        "Native PDF pagination remains UTP-WORK-080. Actual downloaded file bytes were not independently inspected; illustrated export reported success in the browser. Generated portable output and privacy have automated coverage.",
+        "The real import handler was exercised with synthetic File objects supplied by a local fixture toolbar. The operating-system file chooser was not tested. The toolbar is absent from built delivery.",
+        "Responsive checks measure DOM geometry and loaded images with expanded controls; representative screenshots were inspected. This is not a full accessibility or physical-device audit.",
+        "Public guide questions, journey title, dates, saved choices and general checklist marks remain in shareable copies. Personal reminder wording and ticks are excluded as a separate private list; copied original questions can also appear as public editorial text.",
+        "Local candidate only. No commit, push, merge, deployment, public issue, paid service or outreach. Shared package rc.5 and earlier editorial holds remain unchanged."
+      ],
+      "refs": [
+        "UTP-WORK-091",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/ready-216-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-048",
+      "title": "Coastal launch-readiness self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and reviewed; human editorial acceptance pending.",
+        "Native PDF pagination remains UTP-WORK-080; Print exposed no dialog and Computer Use refused Codex app access. No native PDF was produced.",
+        "Focused keyboard and fixed-width browser checks are not a screen-reader or physical-device audit.",
+        "Actual sample books contain synthetic notes and local preview URLs. They were downloaded before the print-feedback-only repair; the book generator was unchanged.",
+        "Ten targeted source/provenance page checks do not establish exhaustive fact checking, human Odia review, permissions for every asset or current services.",
+        "No publication, external submission, purchase, commit, push or merge. Earlier uncommitted changes remain for human review."
+      ],
+      "refs": [
+        "UTP-WORK-092",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/launch-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-049",
+      "title": "Release PR and hosted candidate self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No merger or public-site deployment authorised by this increment.",
+        "Native PDF pagination and Founder editorial acceptance remain open.",
+        "Full-draft source and history in the PR exceed the coastal deployment scope.",
+        "Same AI assistant prepared and checked the PR; no independent human acceptance.",
+        "Hosted validation records the product commit explicitly; later record-only commits receive separate checks."
+      ],
+      "refs": [
+        "UTP-WORK-093",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/release-pr-review.json",
+        "records/evidence/release-pr-2026-09-30/github-validation.json",
+        "records/evidence/release-pr-2026-09-30/github-artifact-verification.json"
       ]
     }
   ],

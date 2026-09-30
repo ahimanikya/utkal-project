@@ -1,0 +1,31 @@
+---
+import MagazineArticle from '../../components/MagazineArticle.astro';
+import Shell from '../../layouts/Shell.astro';
+import StoryContents from '../../components/StoryContents.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import collection from '../../../../../kb/research/food/collection.json';
+export function getStaticPaths(){return collection.pages.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+const reference=entry.slug==='chhena-poda';
+const photo=collection.assets[entry.hero];
+const sources=[...new Set(entry.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids)))];
+---
+<Shell title={entry.title} description={entry.lead} active="explore" wide>
+ {reference?<MagazineArticle kind="food" title={entry.title} odia={entry.odia} eyebrow={'A taste of Odisha · '+entry.area} deck={['A dark, fragrant edge.','A soft centre.']} photo={photo} saveId={entry.save_id} sections={entry.sections} footline="Leave a little room at the end of the meal.">
+  <details class="mag-article-credits"><summary>Sources, image credit & editorial notes</summary><p>Research checked {collection.checked_on}. Founder & Editor-in-Chief: Ahimanikya Satapathy. Prepared with AI assistance; human editorial review pending.</p><ul>{sources.map(id=><li><a href={collection.sources[id].url}>{collection.sources[id].title}</a><p>{collection.sources[id].inspection}</p></li>)}</ul><p><a href={photo.source}>Photograph</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes}</p></details><p class="mag-status">Editorial preview · awaiting Founder review.</p>
+ </MagazineArticle>:<div class:list={['wrap food-page',{'reference-food':reference}]}>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/explore/?topic=Food">Explore food</a><span aria-hidden="true"> / </span>{entry.title}</nav>
+  <header class="food-hero"><div><p class="eyebrow">A taste of Odisha · {entry.area}</p><h1>{entry.title}</h1><p lang="or" class="food-odia">{entry.odia}</p><p class="lead">{entry.lead}</p><p class="food-status">Editorial preview · a dish to discover</p>{reference&&<SaveJourney id={entry.save_id} quiet />}</div><figure><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} fetchpriority="high"/><figcaption>{photo.caption}</figcaption></figure></header>
+  {!reference&&<SaveJourney id={entry.save_id}/>}
+  <div class="food-reading">{reference?<StoryContents items={entry.sections.map(s=>({href:'#'+s.id,title:s.title}))}/>:<nav aria-label="On this page">{entry.sections.map(s=><a href={'#'+s.id}>{s.title}</a>)}</nav>}<div>{entry.sections.map(s=><section id={s.id}><h2>{s.title}</h2>{s.paragraphs.map(p=><p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}
+  </section>)}</div></div>
+  <details class="food-credits"><summary>Sources, image credit & editorial notes</summary><p>Research checked {collection.checked_on}. Founder & Editor-in-Chief: Ahimanikya Satapathy. Prepared with AI assistance; human editorial review pending.</p><ul>{sources.map(id=><li><a href={collection.sources[id].url}>{collection.sources[id].title}</a><p>{collection.sources[id].inspection}</p></li>)}</ul><p><a href={photo.source}>Photograph</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes}</p></details>
+ </div>}
+</Shell>
+<style>
+.food-page{padding-block:35px 60px}.food-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:60px;align-items:center;margin:40px 0}.food-hero figure{margin:0}.food-hero img{width:100%;height:auto;aspect-ratio:1.5;object-fit:cover}.food-hero figcaption{font-size:13px;color:var(--muted);margin-top:12px}.food-odia{font:700 30px/1.6 OdiaSerif;color:var(--earth);margin:20px 0}.food-status{font-size:13px;margin-top:20px}.food-reading{display:grid;grid-template-columns:minmax(180px,.4fr) minmax(0,1fr);gap:70px;margin-top:45px}.food-reading nav{display:grid;align-content:start;gap:12px}.food-reading nav a{padding:10px 0}.food-reading section{max-width:800px;margin-bottom:45px;scroll-margin-top:20px}.food-reading h2{font-size:34px;margin-bottom:22px}.food-reading section p{font-size:18px;margin:18px 0;line-height:1.8}.food-credits{border-top:1px solid var(--line);padding:24px 0;font-size:14px;overflow-wrap:anywhere}.food-credits summary{cursor:pointer}.food-credits p,.food-credits li{margin:15px 0}@media(max-width:750px){.food-hero,.food-reading{grid-template-columns:1fr;gap:28px}.food-hero{margin:25px 0}.food-reading nav{grid-template-columns:1fr 1fr;gap:8px 16px}.food-reading h2{font-size:30px}}
+.food-reading{max-width:1240px;margin-inline:auto;grid-template-columns:220px minmax(0,800px);gap:clamp(28px,4vw,64px)}.food-hero h1{font-size:clamp(42px,5vw,80px);overflow-wrap:anywhere}.food-reading>div{min-width:0}@media(max-width:900px){.food-hero,.food-reading{grid-template-columns:1fr}.food-reading nav{display:flex;flex-wrap:wrap;gap:8px 24px}.food-hero{gap:28px}}
+.reference-food .food-hero{grid-template-columns:minmax(0,.85fr) minmax(0,1.2fr)}.reference-food .food-hero img{aspect-ratio:1.2}.reference-food .food-reading{grid-template-columns:220px minmax(0,760px)}.taste-detail{margin:32px 0 48px}.taste-detail img{width:100%;height:auto;aspect-ratio:1.9;object-fit:cover}.taste-detail figcaption{font-size:13px;margin-top:12px;color:var(--muted)}.food-next{display:flex;flex-wrap:wrap;gap:24px;padding-bottom:30px}.food-next a{min-height:44px;display:inline-flex;align-items:center}@media(max-width:900px){.reference-food .food-hero,.reference-food .food-reading{grid-template-columns:1fr}.reference-food .food-hero img{aspect-ratio:1.5}}
+.reference-food .food-hero{margin-bottom:28px}.reference-food .food-hero img{aspect-ratio:1.5}.reference-food .food-reading{margin-top:36px}.reference-food .food-reading section{margin-bottom:40px}.reference-food .food-reading section p{font-family:var(--uds-type-reading)}
+@media(max-width:900px){.reference-food .food-reading{margin-top:24px;gap:28px}}
+</style>

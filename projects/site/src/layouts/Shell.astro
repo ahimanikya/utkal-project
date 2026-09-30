@@ -1,25 +1,55 @@
 ---
+import {journeyCatalog} from '../data/journey-catalog';
+import starterSelection from '../../../../kb/research/journey-starters.json';
+import {allowsStarter,allowsPage} from '../data/edition';
+const publicJourney={catalog:journeyCatalog,starters:starterSelection.starters.filter(s=>allowsStarter(s.id))};
+const safeJSON=JSON.stringify(publicJourney).replaceAll('<','\\u003c');
 import Brand from '../components/Brand.astro';
+import PageShare from '../components/PageShare.astro';
+import visitNotebooks from '../../../../kb/research/destinations/visit-notebooks.json';
+import pageDescriptions from '../../../../kb/research/coastal-page-descriptions.json';
+import {isCoastalEdition} from '../data/edition';
+import RelatedDiscoveries from '../components/RelatedDiscoveries.astro';
+import '../../../design-system/styles/utkal.css';
 import '../styles/global.css';
-const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active=''}=Astro.props;
+import '../styles/design-system.css';
+import designSystem from '../../../design-system/package.json';
+const navLinks=[['/explore/','Explore','explore'],['/journey/','My journey','journey'],['/about/','Our purpose','about'],['/contribute/','Be part of it','contribute']];
+const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shared encyclopedia of Odisha’s people, places and living heritage.',active='',wide=false,related=true}=Astro.props;
+const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;
+const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;
+const canonical=new URL(pagePath,Astro.site).href;
+const pageTitle=title.endsWith(' · Utkal Project')?title:title+' · Utkal Project';
+const socialImage=new URL('/assets/coast-illustration-v1.webp',Astro.site).href;
 ---
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta name="robots" content="noindex, nofollow"/><meta name="description" content={description}/>
-<meta name="theme-color" content="#91462F"/><title>{title} · Utkal Project</title>
-<link rel="icon" type="image/png" href="/assets/book-boat-v1.png"/>
-<link rel="preload" href="/fonts/NotoSerifOriya-Bold.ttf" as="font" type="font/ttf" crossorigin/>
-</head><body>
+<meta name="robots" content="noindex, nofollow"/><meta name="description" content={pageDescription}/>
+<meta name="utkal-design-system" content={designSystem.version}/>
+<meta name="theme-color" content="#91462F"/><title>{pageTitle}</title>
+<link rel="canonical" href={canonical}/><meta name="referrer" content="no-referrer"/><meta name="color-scheme" content="light"/>
+<meta property="og:type" content="website"/><meta property="og:site_name" content="Utkal Project"/><meta property="og:title" content={pageTitle}/><meta property="og:description" content={pageDescription}/><meta property="og:url" content={canonical}/><meta property="og:locale" content="en_IN"/>
+<meta property="og:image" content={socialImage}/><meta property="og:image:alt" content="An Odisha-inspired coastal concept illustration with a sailboat, palms and patterned waves."/><meta property="og:image:width" content="1536"/><meta property="og:image:height" content="1024"/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={pageTitle}/><meta name="twitter:description" content={pageDescription}/><meta name="twitter:image" content={socialImage}/><meta name="twitter:image:alt" content="Odisha-inspired coastal concept illustration."/>
+<link rel="icon" type="image/png" href="/assets/utkal-favicon-64.png"/>
+
+</head><body id="page-top" class:list={['utk',{'destination-layout':wide}]}>
 <a href="#main" class="skip">Skip to content</a>
 <div class="topline"><span>ROOTED IN ODISHA. OPEN TO THE WORLD.</span><span lang="or">ଉତ୍କଳ · ଓଡ଼ିଶା</span></div>
-<header class="header wrap">
+<header class="header wrap utk-header">
  <a class="home-link" href="/" aria-label="Utkal Project home"><Brand/></a>
- <nav aria-label="Main navigation">
+ <nav class="utk-nav desktop-navigation" aria-label="Main navigation">
   <a href="/explore/" aria-current={active==='explore'?'page':undefined}>Explore</a>
+  <a href="/journey/" aria-current={active==='journey'?'page':undefined}>My journey</a>
   <a href="/about/" aria-current={active==='about'?'page':undefined}>Our purpose</a>
-  <a class="nav-contribute" href="/contribute/" aria-current={active==='contribute'?'page':undefined}>Be part of it <span aria-hidden="true">↗</span></a>
+  <a class="nav-contribute utk-button utk-button--secondary" href="/contribute/" aria-current={active==='contribute'?'page':undefined}>Be part of it <span aria-hidden="true">↗</span></a>
  </nav>
+ <details class="mobile-navigation"><summary>Menu</summary><nav aria-label="Main navigation">{navLinks.map(([href,label,key])=><a href={href} aria-current={active===key?'page':undefined}>{label}</a>)}</nav></details>
 </header>
-<main id="main" tabindex="-1"><slot/></main>
-<footer class="footer"><div class="wrap footer-grid"><div><a href="/" class="home-link" aria-label="Utkal Project home"><Brand/></a><p>Rediscover Utkal. Reimagine Odisha.</p></div><div><p class="eyebrow">A shared beginning</p><p>People, places and knowledge.<br/>A story we build together.</p></div><div class="footer-links"><a href="/about/">About the project</a><a href="/founder/">The founder</a><a href="/contribute/">Contribute</a><a href="/brand-review/">Brand studio</a></div></div><div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div></footer>
-</body></html>
+<main id="main" tabindex="-1"><slot/>{related&&<RelatedDiscoveries path={Astro.url.pathname}/>}</main>
+<footer class="footer"><div class="wrap footer-grid"><div><a href="/" class="home-link" aria-label="Utkal Project home"><Brand/></a><p>Rediscover Utkal. Reimagine Odisha.</p><PageShare/>{visitNotebooks.notebooks.some(n=>n.route===Astro.url.pathname)&&<details class="notebook-credit"><summary>Visit notebook notes</summary><p>Original Utkal Project editorial prompts, prepared with AI assistance under Ahimanikya Satapathy’s direction. They invite observation and questions; they are not quotations, field reports or confirmed travel arrangements. Guide sources and photograph credits appear above.</p></details>}</div><div><p class="eyebrow">A shared beginning</p><p>People, places and knowledge.<br/>A story we build together.</p></div><div class="footer-links"><a href="#page-top">Back to top ↑</a><a href="/how-to-use/">How to use Utkal</a><a href="/about/">About the project</a><a href="/founder/">The founder</a><a href="/contribute/">Contribute</a><a href={"/contribute/?page="+encodeURIComponent(Astro.url.pathname)}>Suggest a correction</a>{allowsPage('/brand-review/')&&<a href="/brand-review/">Brand studio</a>}</div></div><div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div></footer>
+<script is:inline type="application/json" id="journey-data" set:html={safeJSON}/><script>import "../scripts/journey";</script>
+<script>
+const mobileMenu=document.querySelector<HTMLDetailsElement>('.mobile-navigation');
+mobileMenu?.addEventListener('keydown',event=>{if(event.key==='Escape'&&mobileMenu.open){mobileMenu.open=false;mobileMenu.querySelector('summary')?.focus();event.preventDefault();}});
+</script></body></html>

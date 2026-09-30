@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-09-30T16:43:15.295614+00:00",
+  "status": "pass",
+  "checks": {
+    "bundle": {
+      "status": "pass",
+      "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 545,\n  \"local_links\": 1924,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}"
+    },
+    "registers": {
+      "status": "pass",
+      "output": "UTP: valid; 218 records, 82 events; dashboard current"
+    },
+    "catalogue": {
+      "status": "pass",
+      "output": "Whole-project catalogue current: 545 concepts"
+    },
+    "whitespace": {
+      "status": "pass",
+      "output": ""
+    }
+  }
+}

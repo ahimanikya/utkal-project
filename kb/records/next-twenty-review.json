@@ -1,0 +1,205 @@
+{
+  "type": "twenty_item_implementation_self_review",
+  "recorded_at": "2026-09-30T04:37:22.961873+00:00",
+  "status": "local_candidate_for_founder_review",
+  "independent": false,
+  "reviewer": "Current AI assistant",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-049",
+  "items": [
+    {
+      "id": "UTP-WORK-045",
+      "result": "Photographic city guide, food and stay-area prompts, Dhauli and Fresco connections.",
+      "preview_path": "/destinations/bhubaneswar/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-046",
+      "result": "Photographic coast/craft/food guide, respectful visitor context and journey choices.",
+      "preview_path": "/destinations/puri/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-047",
+      "result": "Barabati photograph, filigree, street-food and biographical connections.",
+      "preview_path": "/destinations/cuttack/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-048",
+      "result": "Modern stupa distinguished from older history; local river legend explicitly labelled.",
+      "preview_path": "/visit/places/dhauli/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-049",
+      "result": "Craft and dance context, respectful maker visit prompts, dated village landscape caption.",
+      "preview_path": "/visit/places/raghurajpur/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-050",
+      "result": "Dated real shore photograph, morning/evening ideas and current-condition caveat.",
+      "preview_path": "/visit/places/puri-beach/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-051",
+      "result": "Separate Ho introduction, attributed community context and official learning catalogue.",
+      "preview_path": "/languages/ho/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-052",
+      "result": "Separate Juang introduction, reported origin belief labelled and reading doorway.",
+      "preview_path": "/languages/juang/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-053",
+      "result": "Separate Koya introduction with language, seasonal cultural context and learning resource.",
+      "preview_path": "/languages/koya/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-054",
+      "result": "Biographical and literary introduction with a typographic panel; no invented portrait or quotation.",
+      "preview_path": "/people/gangadhar-meher/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-055",
+      "result": "Curated aliases and Unicode normalisation preserve Odia marks and distinguish Kui from Kuvi.",
+      "preview_path": "/explore/?q=Pathani%20Samanta",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-056",
+      "result": "Alphabetical/collection ordering combines with area/topic/search and survives URL reload.",
+      "preview_path": "/explore/?sort=title",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-057",
+      "result": "Independent validated copies preserve dates and notes and respect the ten-trip limit.",
+      "preview_path": "/journey/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-058",
+      "result": "One-step removal recovery retains item position, day and notes without replacing later edits.",
+      "preview_path": "/journey/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-059",
+      "result": "Atomic moves preserve notes, reset to Ideas for later and refuse duplicate/full destinations.",
+      "preview_path": "/journey/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-060",
+      "result": "Counts and day jump links reflect the selected journey without inventing travel feasibility.",
+      "preview_path": "/journey/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-061",
+      "result": "Kind and search filters combine; live result counts and empty recovery copy.",
+      "preview_path": "/journey/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-062",
+      "result": "New-subject draft with field validation, complete local preview and explicit public GitHub handoff.",
+      "preview_path": "/contribute/?new=1",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-063",
+      "result": "Discover–connect–collect–carry–contribute guide linked from the shared footer.",
+      "preview_path": "/how-to-use/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-064",
+      "result": "Static custom 404 with exploration, home, saved-plan and contribution recovery links.",
+      "preview_path": "/404.html",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    }
+  ],
+  "checks": {
+    "html_pages": 62,
+    "website_tests": {
+      "passed": 53,
+      "failed": 0
+    },
+    "design_system_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "responsive": "12 new pages at measured 360, 769 and 1440 CSS pixels; no horizontal overflow or completed broken images. Explore, journey and contribution also checked at 360px. See evidence/next-twenty/responsive.json.",
+    "keyboard_interactions": [
+      "Duplicate created an independent copy with notes; changing copy did not alter original.",
+      "Removal focused Undo; undo restored Day 1 and note.",
+      "Moving to a journey already containing the idea refused the operation without data loss.",
+      "Moving to an empty journey preserved the note and reset the day to Ideas for later.",
+      "Food plus Cuttack returned only Aloo Dum Dahibara.",
+      "Pathani Samanta found Samanta; alphabetical order combined with Bhubaneswar area in the URL.",
+      "Empty new-subject name focused its invalid field; valid draft produced complete preview and explicit GitHub link. No issue posted."
+    ],
+    "automated_preservation": [
+      "All built local links and fragments resolve.",
+      "Existing source citations and 166 Fresco photograph and thumbnail bytes preserved.",
+      "Stable unique save IDs, storage migration, notes, limits, imports and offline-book escaping checked.",
+      "New central detail claims retain sources and image licences.",
+      "Store exclusion, noindex and local-font licences retained."
+    ],
+    "photographs": "Five Commons photographs, creator and CC licences checked in file pages/API; dates taken distinguished from upload dates; resized and visually inspected. Captions identify historical photographs and village landscape context. Also available to the illustrated tour-book catalogue.",
+    "kb_validation": {
+      "result": "PASS",
+      "concepts": 524,
+      "local_links": 1748,
+      "register_records": 147,
+      "activity_events": 58,
+      "diff_whitespace": "PASS"
+    }
+  },
+  "limitations": [
+    "Implementation self-review, not independent editorial review or accessibility certification.",
+    "Language and literary introductions await Founder and relevant speaker/specialist review. No community interviews or field visits completed.",
+    "SCSTRTI catalogue checked through indexed text; individual language booklets not read in full.",
+    "Tourism sources contain inconsistent claims; selected facts and clearly attributed legends only. No current opening, accommodation, access or performance guarantees.",
+    "Responsive checks used browser emulation; physical devices, screen readers and native PDF pagination remain unverified.",
+    "404.html built and inspected locally; unknown-route behaviour on the public host awaits deployment verification.",
+    "No public release, GitHub issue submission, paid service or cross-project adoption performed."
+  ],
+  "evidence": [
+    "research/product/next-twenty.md",
+    "records/next-twenty-photo-sources.json",
+    "records/evidence/next-twenty/responsive.json",
+    "records/evidence/next-twenty/bhubaneswar-desktop.png",
+    "records/evidence/next-twenty/ho-desktop.png",
+    "records/evidence/next-twenty/puri-desktop.png"
+  ]
+}

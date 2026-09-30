@@ -1,0 +1,36 @@
+import visitQuestions from '../../../../kb/research/destinations/visit-questions.json';
+import visitNotebooks from '../../../../kb/research/destinations/visit-notebooks.json';
+import aliases from '../../../../kb/research/discovery-aliases.json';
+import editionCopy from '../../../../kb/research/destinations/coastal-edition-copy.json';
+import {allowsIdea,ideaHref,isCoastalEdition} from './edition';
+import {bookPhotos} from './book-photos';
+import notes from './selected.json';
+import {pilots,detailRecords,detailUrl} from './destination-details';
+import voices from '../../../../kb/research/voices/collection.json';
+import regions from '../../../../kb/research/destinations/regions.json';
+const entries=[];
+for(const r of regions.regions){
+ const sources=ids=>ids.map(id=>({title:regions.sources[id].title,url:regions.sources[id].url}));
+ const href=`/destinations/${r.slug}/`;
+ entries.push({id:r.id,title:r.title,kind:'Place',area:r.title,summary:r.orientation,href,checked:regions.checked_on,practical:r.visitor_notes||[],sources:sources([...new Set([...r.source_ids,...(r.visitor_notes||[]).flatMap(n=>n.source_ids)])])});
+ for(const i of r.items)entries.push({id:i.id,title:i.title,kind:i.kind,area:r.title,summary:i.summary,href:i.detail_href||href+'#'+i.id.replaceAll(':','-'),checked:regions.checked_on,access:i.tip,sources:sources(i.source_ids)});
+}
+for(const [slug,pilot] of Object.entries(pilots)){
+ const d=pilot.destination, note=notes.find(n=>n.slug===slug);
+ const sourcePool=[...note.sources,...d.sources,...pilot.story.sources];
+ const sources=(ids)=>sourcePool.filter(s=>ids.includes(s.id)).map(s=>({title:s.title,url:s.resource}));
+ entries.push({id:d.id,title:note.label,kind:'Place',area:note.label,summary:d.orientation,href:`/knowledge/${slug}/`,checked:d.checked_on,sources:sources(d.orientation_sources)});
+ for(const [key,kind] of [['experiences','Experience'],['foods','Food'],['bases','Stay area']])for(const item of d[key])entries.push({id:item.id,title:item.title,kind,area:item.area||note.label,summary:item.text,href:item.detail_href||`/knowledge/${slug}/#${item.id.replaceAll(':','-')}`,checked:d.checked_on,sources:sources(item.sources)});
+}
+for(const r of detailRecords.filter(r=>r.kind==='places'&&pilots[r.parent]))entries.push({id:'place:'+r.slug,title:r.title,kind:'Place',area:r.parent==='chilika'?'Chilika':'Konark',summary:r.lead,href:detailUrl(r.kind,r.slug),checked:r.checked_on,sources:pilots[r.parent].destination.sources.filter(s=>r.sources.includes(s.id)).map(s=>({title:s.title,url:s.resource}))});
+for(const p of voices.pages.filter(p=>p.path.split('/').length>1))entries.push({id:'reading:'+p.path,title:p.title,kind:'Reading',area:'Culture & language',summary:p.lead,href:'/'+p.path+'/',checked:voices.checked_on,sources:[...new Set(p.sections.flatMap(s=>s.paragraphs.flatMap(v=>v.source_ids)))].map(id=>({title:voices.sources[id].title,url:voices.sources[id].url}))});
+const pakhala=notes.find(n=>n.slug==='pakhala');
+entries.push({id:'food:pakhala',title:pakhala.label,kind:'Food',area:'Odisha',summary:pakhala.dek,href:pakhala.href,checked:'2026-09-29',sources:pakhala.sources.map(s=>({title:s.title,url:s.resource}))});
+export const journeyCatalog=entries.filter(item=>allowsIdea(item.id)).map(original=>{
+ const item={...original,href:ideaHref(original.id,original.href)};
+ if(isCoastalEdition&&item.id==='place:bhubaneswar')item.summary=editionCopy.bhubaneswar.orientation;
+ const region=item.href.includes('/balasore/')||item.href.includes('/chandipur/')?'Balasore':item.href.includes('/mayurbhanj/')||item.href.includes('/similipal/')?'Mayurbhanj':item.area==='Culture & language'?'Reading':item.area;
+ const access=item.id==='experience:bhubaneswar-fresco'?'A February 2009 photo archive, not a verified current mural route. Exact streets and present condition are unverified.':item.id==='place:chandipur'?'Check local tides and the return route; firm paths and toilets have not been inspected.':item.id==='place:similipal'?'Confirm the gate, permit, vehicle and seasonal opening through the official reserve.':item.kind==='Stay area'?'Confirm the property, facilities and access directly; this is an area suggestion.':item.kind==='Reading'?'A reading idea, not a scheduled visit.':item.access||'Confirm local access, transport and availability before travel.';
+ const detail=detailRecords.find(r=>detailUrl(r.kind,r.slug)===item.href);
+ return {...item,visitQuestions:visitQuestions.guides.find(g=>g.save_id===item.id)?.questions,visitNotebook:visitNotebooks.notebooks.find(n=>n.save_id===item.id),aliases:aliases.entries[item.href.split('#')[0]]||[],title:item.kind==='Stay area'&&detail?detail.title:item.title,photo:bookPhotos[item.id]?Object.fromEntries(['src','alt','width','height','caption','creator','license','license_url','source','changes'].map(key=>[key,bookPhotos[item.id][key]])):undefined,planningArea:item.id==='place:mangalajodi'?'Mangalajodi':region,access};
+});

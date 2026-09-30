@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-09-30T06:20:57.986691+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "trigger": "Founder found pages jumpy and disorganised; flow missing",
+  "changes": [
+    "Removed repeated invitation and reading-trail blocks from three pages",
+    "Moved lagoon context before cultural stories; grouped poetry and belief before ecological and practical material",
+    "Consolidated shore links into planning orientation",
+    "Kept images on a consistent side beside associated story passages",
+    "Removed repeated food photograph and duplicate experience photographs",
+    "Made photo journey, cultural catalogue and further-reading expansions optional",
+    "Reduced repeated journey navigation and active-journey notices in planning lists",
+    "Removed oversized literary panel and repeated reading prompts"
+  ],
+  "validation": {
+    "build_pages": 67,
+    "site_tests_passed": 63,
+    "design_system_tests_passed": 6,
+    "responsive_checks": 9,
+    "actual_widths": [
+      360,
+      769,
+      1440
+    ],
+    "overflow": false,
+    "broken_completed_images": [],
+    "source_links_and_save_id_regressions": "pass",
+    "keyboard_disclosure": "Poems and songs opens and closes with Enter",
+    "visual_review": [
+      "Chilika chapter sequence",
+      "Chhena Poda continuous reading",
+      "Gopinath Mohanty continuous reading"
+    ]
+  },
+  "limitations": [
+    "Founder review of narrative coherence remains pending; automated tests do not establish good flow",
+    "No publication, external research or new media generation",
+    "Native Odia and broader inner-page review remain open"
+  ],
+  "evidence": [
+    "records/evidence/story-flow/responsive.json",
+    "records/evidence/story-flow/chilika-chapters.png",
+    "records/evidence/story-flow/food-reading.png",
+    "records/evidence/story-flow/person-reading.png"
+  ]
+}

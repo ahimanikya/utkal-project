@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-09-30T20:30:16.437788+00:00",
+  "checks": {
+    "registers": {
+      "exit_code": 0,
+      "output": "UTP: valid; 221 records, 83 events; dashboard current"
+    },
+    "kb": {
+      "exit_code": 0,
+      "output": "{\n  \"result\": \"PASS\",\n  \"concepts\": 546,\n  \"local_links\": 1933,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}"
+    },
+    "catalog": {
+      "exit_code": 0,
+      "output": "Whole-project catalogue current: 546 concepts"
+    },
+    "whitespace": {
+      "exit_code": 0,
+      "output": "Passed"
+    },
+    "snapshot": {
+      "exit_code": 0,
+      "output": "Verified 54 candidate files against the reviewed manifest."
+    }
+  }
+}

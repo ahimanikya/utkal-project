@@ -1,0 +1,20 @@
+---
+import MagazineCover from './MagazineCover.astro';
+const {kind,title,odia,eyebrow,deck,photo,caption,saveId,sections,links=[],footline}=Astro.props;
+const warmId=kind==='food'?'origin':'paraja';
+const sectionLinks=id=>kind==='person'?links.filter(link=>id==='paraja'?link.href.includes('oup.com'):id==='listen'?!link.href.includes('oup.com'):false):[];
+---
+<div class:list={['utk-magazine','utk-magazine--'+kind]}>
+ <MagazineCover title={title} odia={odia} eyebrow={eyebrow} deck={deck} photo={photo} caption={caption} saveId={saveId} startHref={'#'+sections[0].id} startLabel={kind==='food'?'Meet the sweet':'Meet the writer'} footline={footline}/>
+ <nav class="mag-navigation" aria-label="On this page">{sections.map(section=><a href={'#'+section.id}>{section.title}</a>)}</nav>
+ <article class="mag-content">
+  <div class="mag-article-chapters">{sections.map((section,index)=><section id={section.id} class:list={['mag-reading-section',{'mag-reading-section--warm':section.id===warmId}]}>
+   <div><p class="eyebrow">{String(index+1).padStart(2,'0')} · {kind==='food'?'A taste of Odisha':'A literary life'}</p><h2>{section.title}</h2></div>
+   <div>{section.paragraphs.map(p=><p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}
+    {sectionLinks(section.id).length>0&&<div class="mag-section-links">{sectionLinks(section.id).map(link=><a href={link.href}>{link.title} ↗</a>)}</div>}
+    {kind==='food'&&section.id==='try'&&<div class="mag-section-links"><a href="/knowledge/konark/#food">Food along the Puri coast →</a><a href="/journey/">Open my journey →</a></div>}
+   </div>
+  </section>)}</div>
+  <slot/>
+ </article>
+</div>

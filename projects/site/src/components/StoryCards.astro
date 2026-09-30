@@ -1,0 +1,7 @@
+---
+const {entries}=Astro.props;
+---
+<div class="story-card-grid">{entries.map(entry=><article><a class="story-card-photo" href={entry.href} tabindex="-1" aria-hidden="true"><img class:list={{'story-card-portrait':entry.category==='People'}} src={entry.image.src} alt="" width={entry.image.width} height={entry.image.height} loading="lazy"/></a><p class="eyebrow">{entry.category}</p><h3><a href={entry.href}>{entry.label} ↗</a></h3><p>{entry.dek}</p></article>)}</div>
+<style>
+.story-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}.story-card-grid article{min-width:0}.story-card-photo{display:block;background:var(--paper);margin-bottom:24px}.story-card-photo img{display:block;width:100%;height:auto;aspect-ratio:1.45;object-fit:cover}.story-card-photo img.story-card-portrait{object-fit:contain}.story-card-grid .eyebrow{margin-bottom:12px}.story-card-grid h3{font-size:36px;margin-bottom:14px}.story-card-grid h3 a{text-decoration:none}.story-card-grid h3 a:hover{text-decoration:underline}.story-card-grid article>p:last-child{font-size:16px;line-height:1.75;max-width:48ch}@media(max-width:700px){.story-card-grid{grid-template-columns:1fr;gap:36px}}
+</style>

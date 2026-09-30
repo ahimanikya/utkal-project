@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-09-30T07:43:06.677432+00:00",
+  "status": "fail",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "scope": [
+    "Chilika",
+    "Chhena Poda",
+    "Gopinath Mohanty"
+  ],
+  "method": "In-app Browser skill: rendered desktop screenshots, DOM and computed style inspection; 360px phone layout measurements",
+  "findings": [
+    {
+      "id": "VA-01",
+      "priority": "P1",
+      "title": "Food content occupies 32px number column",
+      "status": "open"
+    },
+    {
+      "id": "VA-02",
+      "priority": "P2",
+      "title": "Conflicting widths disrupt reading alignment",
+      "status": "open"
+    },
+    {
+      "id": "VA-03",
+      "priority": "P2",
+      "title": "Experience numbers match canvas colour",
+      "status": "open"
+    },
+    {
+      "id": "VA-04",
+      "priority": "P2",
+      "title": "Repeated endings and related destinations",
+      "status": "open"
+    },
+    {
+      "id": "VA-05",
+      "priority": "P2",
+      "title": "Mobile narrative begins after a long opening stack",
+      "status": "needs_visual_recheck"
+    }
+  ],
+  "limitations": [
+    "Focused three-page audit, not full-site or physical-device approval",
+    "Phone screenshot capture unreliable; phone observations based on rendered layout measurements",
+    "No website code changed; fixes remain pending"
+  ],
+  "supersedes_readiness_of": "UTP-REV-030",
+  "evidence": [
+    "design-system/visual-audit-2026-09-30.md",
+    "records/evidence/visual-audit-2026-09-30/chilika-food-desktop-top.png",
+    "records/evidence/visual-audit-2026-09-30/chilika-experiences-desktop.png",
+    "records/evidence/visual-audit-2026-09-30/person-ending-desktop.png",
+    "records/evidence/visual-audit-2026-09-30/phone-measurements.json"
+  ]
+}

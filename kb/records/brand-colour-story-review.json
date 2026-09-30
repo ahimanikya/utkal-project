@@ -1,0 +1,22 @@
+{
+  "type": "website_review",
+  "title": "Colours of home branding-page integration",
+  "status": "local_candidate_not_deployed",
+  "checked_at": "2026-09-29T10:35:15.513582+00:00",
+  "page": "/brand-review/#colours-of-home",
+  "source_artwork": "collections/brand-social/colours-of-home-bilingual-v2.png",
+  "artwork_sha256": "6bf45fb40bc8f4652759547b6403707332329712fa63267a168b50a63c5326d6",
+  "checks": [
+    "Astro build: 29 pages",
+    "Site tests: 15 passed",
+    "Desktop 1910px: card loaded, two-column layout, no horizontal overflow; screenshot inspected",
+    "Compact viewport: requested 390px, browser reported 582 CSS px; single-column layout and no horizontal overflow",
+    "Download target points to the unchanged saved v2 PNG"
+  ],
+  "limitations": [
+    "Browser emulation rather than physical devices",
+    "Native Odia proofreading remains human review",
+    "No public deployment",
+    "Exact 390 CSS-pixel behavior not verified: browser viewport override reported 582 CSS pixels."
+  ]
+}

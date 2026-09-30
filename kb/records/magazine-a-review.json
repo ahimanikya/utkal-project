@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-09-30T08:31:08.983399+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-058",
+  "scope": "Direction A applied locally to Chilika. Other page compositions and the shared design-system package are unchanged. End credits extracted into a shared component.",
+  "changes": [
+    "Editorial opening with separate Odia name and real photograph.",
+    "Literary chapter paired with a wetland photograph.",
+    "Three illustrated shore choices, warm food chapter, then practical visit planning.",
+    "Secondary research, stay-area detail, photography and credits retained in native disclosures.",
+    "Existing save identities, sourced paragraphs, belief qualifications, image rights and local links retained."
+  ],
+  "verification": {
+    "build_pages": 67,
+    "site_tests_passed": 63,
+    "responsive_widths": [
+      360,
+      768,
+      1440,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "failed_completed_images": [],
+    "desktop_visual_review": [
+      "opening",
+      "literature",
+      "shores",
+      "food",
+      "planning"
+    ],
+    "keyboard_disclosures": [
+      "stay areas",
+      "lagoon facts",
+      "sources and credits"
+    ],
+    "shared_component_regression": "Konark credits opened with keyboard; all site citation checks pass."
+  },
+  "limitations": [
+    "Founder selected the direction; the implemented page still awaits visual/editorial review.",
+    "Emulated phone screenshot shows a browser compositor artefact at its lower edge; responsive dimensions and keyboard checks were verified separately. No physical-device or comprehensive accessibility sign-off.",
+    "Existing regional hero photo is reused for Satapada and explicitly captioned as a regional view, not a location-specific image.",
+    "No public deployment or wider page rollout."
+  ],
+  "evidence": [
+    "records/evidence/magazine-a-2026-09-30/responsive.json",
+    "records/evidence/magazine-a-2026-09-30/desktop-opening.png",
+    "records/evidence/magazine-a-2026-09-30/desktop-story.png",
+    "records/evidence/magazine-a-2026-09-30/desktop-shores.png",
+    "records/evidence/magazine-a-2026-09-30/desktop-food.png",
+    "records/evidence/magazine-a-2026-09-30/desktop-planning.png",
+    "records/evidence/magazine-a-2026-09-30/phone-opening.png"
+  ]
+}

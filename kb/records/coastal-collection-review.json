@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-09-30T12:23:07.001933+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-064",
+  "scope": "Puri narrative, Raghurajpur craft, coastal food, stay comparison and connected eight-idea starter.",
+  "checks": {
+    "build_pages": 72,
+    "site_tests": 78,
+    "design_system_tests": 6,
+    "responsive_checks": 28,
+    "widths": [
+      360,
+      768,
+      1440,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "browser_flow": "Food → stay guide; created City, craft and coast with eight unscheduled ideas. Renamed it, assigned Raghurajpur to day 2 and added a note; all persisted after reload. Earlier six-item Bhubaneswar plan and its Mukteswar note preserved.",
+    "visual": "Desktop craft cover and stay comparison, plus 390px phone openings and comparison. Shortened optional detail section labels after phone review.",
+    "regressions_fixed": [
+      "Preserved the Raghurajpur → Kotpad reading link in the single onward section.",
+      "Rendered detail links for secondary Konark food choices, not only the lead dish."
+    ],
+    "native_pdf": "Separate open WORK-080; not rerun."
+  },
+  "limitations": [
+    "Local candidate only: Founder editorial acceptance and publication remain separate; no commit, push or deployment.",
+    "Historical craft accounts are attributed and dated, not interviews with current makers. The photographed artisan is unnamed in the source. Individual artwork authors and current workshop arrangements were not established.",
+    "No accommodation, restaurant, travel time, venue access or swimming condition has been inspected. Coastal quietness is a question to confirm, not a guarantee.",
+    "Responsive measurements and targeted visual checks are not physical-device or comprehensive accessibility certification. Native PDF pagination remains separately open under WORK-080."
+  ],
+  "evidence": [
+    "records/evidence/coastal-collection-2026-09-30/responsive.json",
+    "records/evidence/coastal-collection-2026-09-30/journey-check.json",
+    "records/evidence/coastal-collection-2026-09-30/phone-openings.png",
+    "records/evidence/coastal-collection-2026-09-30/craft-desktop.png",
+    "records/evidence/coastal-collection-2026-09-30/stay-comparison.png"
+  ]
+}

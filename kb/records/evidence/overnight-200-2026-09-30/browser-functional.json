@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-09-30T15:35:10.532970+00:00",
+  "actor": "Current AI assistant",
+  "independent": false,
+  "origin": "http://127.0.0.1:4348",
+  "checks": [
+    {
+      "name": "Existing review plan retained",
+      "origin": "http://127.0.0.1:4345",
+      "result": "Eight ideas and the existing Konark note remained. Searching unhurried returned one saved idea; clearing restored all. Note search did not populate the URL."
+    },
+    {
+      "name": "Odia idea search",
+      "origin": "http://127.0.0.1:4345",
+      "result": "ପୁରୀ returned one idea."
+    },
+    {
+      "name": "Note-free print view",
+      "result": "Unchecking Include my personal notes removed a synthetic private note from the printable DOM while retaining the original textarea value."
+    },
+    {
+      "name": "Two-tab conflict",
+      "result": "Older tab disabled editing and retained its recoverable note; backup remained available. Reloading the newer tab retained its newer note. See conflict-browser.json."
+    },
+    {
+      "name": "Photo-book feedback",
+      "result": "UI reported a book downloaded with five selected photographs and personal notes omitted. Actual downloaded bytes were not inspected."
+    },
+    {
+      "name": "Checklist then note and day changes",
+      "result": "After ticking the opening/access reminder, edited the Konark note to AFTER CHECKLIST: notes stay editable. ଓଡ଼ିଶା and selected day 3. Reload preserved all three changes."
+    },
+    {
+      "name": "Contribution invalid field",
+      "result": "Missing new-subject name focused the subject field; aria-describedby retained both length help and error status."
+    },
+    {
+      "name": "Prepared issue invalidation",
+      "result": "A synthetic local draft produced a prepared issue link. Changing its type to Personal recollection removed the href and hid the link. No GitHub issue opened or submitted."
+    },
+    {
+      "name": "Contribution draft download",
+      "result": "Local draft download was invoked. No external message or submission occurred."
+    }
+  ],
+  "limits": [
+    "Native share sheet, clear-draft confirmation and real clipboard denial were code-reviewed, not all exercised end-to-end.",
+    "Photo cancellation is covered by automated abort tests; no claim of a timed live-browser cancellation test.",
+    "Only synthetic review data was edited on the new review origin.",
+    "Cross-tab protection is best effort; localStorage lacks an atomic cross-process transaction."
+  ]
+}

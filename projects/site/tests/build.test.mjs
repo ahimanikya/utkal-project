@@ -7,7 +7,9 @@ const files=readdirSync(root,{recursive:true}).filter(f=>statSync(join(root,f)).
 const pages=files.filter(f=>f.endsWith('.html'));
 const read=f=>readFileSync(join(root,f),'utf8');
 test('all built local links, assets and fragment targets resolve',()=>{
-  assert.equal(pages.length,14);
+  const details=JSON.parse(readFileSync('../../kb/research/destinations/details.json','utf8'));
+  const voices=JSON.parse(readFileSync('../../kb/research/voices/collection.json','utf8'));
+  assert.equal(pages.length,25+JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records.length+details.records.length+JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records.length+JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8')).pages.length+voices.pages.length+JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8')).regions.length);
   for(const file of pages){
     const html=read(file);
     for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)){
@@ -55,4 +57,19 @@ test('brand assets, original fonts and their licences are included',()=>{
 test('main website excludes the unpublished Store collection and links',()=>{
   assert.ok(!files.some(f=>/^(utkal-store|store|artwork)\//.test(f)));
   for(const file of pages) assert.ok(!/Utkal Store|utkal-store|localhost:4323|127\.0\.0\.1:4323/i.test(read(file)),file);
+});
+
+// A successful page build must also carry its shared design version and usable fonts.
+test('every website page uses the same design system and retains font distribution licences',()=>{
+ const pkg=JSON.parse(readFileSync('../design-system/package.json','utf8'));
+ for(const file of pages)assert.ok(read(file).includes(`name="utkal-design-system" content="${pkg.version}"`),file);
+ for(const name of ['CormorantGaramond-OFL.txt','SourceSerif4-OFL.txt','NotoSerifOriya-OFL.txt'])assert.equal(read('fonts/utkal/'+name),readFileSync('../design-system/fonts/'+name,'utf8'));
+ const cssFiles=files.filter(f=>f.endsWith('.css'));
+ let fonts=0;
+ for(const file of cssFiles)for(const [,url] of read(file).matchAll(/url\(["']?([^\)"']+)["']?\)/g)){
+  if(!/\.(ttf|woff2)$/.test(url))continue;
+  const target=url.startsWith('/')?join(root,url.slice(1)):resolve(root,dirname(file),url);
+  assert.ok(existsSync(target),file+': missing font '+url);fonts++;
+ }
+ assert.ok(fonts>=5,'local display, reading and Odia fonts are delivered');
 });

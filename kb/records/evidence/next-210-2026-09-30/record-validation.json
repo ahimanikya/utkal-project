@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-09-30T16:09:32.166648+00:00",
+  "status": "pass",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/check_bundle.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"PASS\",\n  \"concepts\": 543,\n  \"local_links\": 1909,\n  \"errors\": [],\n  \"configuration_checked\": true,\n  \"scope\": \"Structure and declared authority; standalone --kb checks do not validate repository configuration. Not proof of consent or factual correctness.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/registers.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "UTP: valid; 215 records, 81 events; dashboard current\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "scope": "Current structure and declared authority; historical evidence correction remains separately disclosed."
+}

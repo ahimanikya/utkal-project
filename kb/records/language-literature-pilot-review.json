@@ -1,0 +1,31 @@
+{
+  "type": "website_review",
+  "title": "Languages and literary lives website pilot",
+  "status": "local_candidate_not_deployed",
+  "checked_at": "2026-09-29T22:27:08.722885+00:00",
+  "pages": [
+    "languages",
+    "languages/odia",
+    "languages/santali",
+    "literature",
+    "people/fakir-mohan-senapati",
+    "literature/six-acres-and-a-third"
+  ],
+  "canonical_content": "research/voices/collection.json",
+  "checks": [
+    "Astro build succeeded: 35 pages.",
+    "All 17 site tests passed, including site links, fragments, source references, image hashes and licences, discovery links and store exclusion.",
+    "Desktop literature preview visually inspected.",
+    "Compact layout: 582 CSS pixels, scroll width 582; images loaded, no horizontal overflow.",
+    "End-of-page credits opened with Enter.",
+    "Explore Languages filter displayed precisely the hub, Odia and Santali entries."
+  ],
+  "limitations": [
+    "First introductions only; wider language histories, more writers, oral recordings and community consultation remain future work.",
+    "Native-language and Founder editorial review remain pending; no public deployment.",
+    "Publisher metadata and synopsis inspected, not the complete novel; no full literary text or unverified quotation reproduced.",
+    "Museum roster source inspected through indexed text only.",
+    "Browser reported 582 CSS pixels for requested 390px; exact 390px and physical devices not verified. Compact screenshot had capture gaps; DOM geometry and loaded assets checked."
+  ],
+  "publication": "Local candidate only; Founder release gate retained."
+}

@@ -1,0 +1,6 @@
+---
+import VoicesPage from '../../components/VoicesPage.astro';
+import collection from '../../../../../kb/research/voices/collection.json';
+const entry=collection.pages.find(p=>p.path==='people/gangadhar-meher');
+---
+<VoicesPage entry={entry}/>

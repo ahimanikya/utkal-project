@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-09-30T14:24:37.747565+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-067",
+  "scope": "One coherent five-story reading path and its handoff to the existing personal journey.",
+  "checks": {
+    "build_pages": 72,
+    "site_tests": 79,
+    "site_tests_pass": 79,
+    "design_system": "rc.5 unchanged; its tests were not rerun in this pass",
+    "static_link_fragment_errors": 0,
+    "duplicate_id_errors": 0,
+    "all_noindex": true,
+    "store_excluded": true,
+    "keyboard_links": "All four onward links traversed in order, with one correct current-chapter marker and one ending on each page.",
+    "journey": "A new separate eight-idea plan, Five stories — flow review, was created by clicking the existing starter. Title and Konark note survived reload; all eight ideas stayed unscheduled. Earlier five named journeys remained listed. Their full contents were not re-audited in this pass.",
+    "visual": "Desktop first transition; actual 360 px and 900 px iframe previews for beginning, middle and end; phone chapter links inspected. No clipped text or missing controls observed in those views.",
+    "native_pdf": "not tested; WORK-080"
+  },
+  "findings_resolved": [
+    "Inconsistent onward paths across the five stories.",
+    "Competing recommendation endings on Dhauli and Konark consolidated into one collection ending.",
+    "The first test run exposed removal of the legacy connect-visit anchor; restored it and reran the suite successfully."
+  ],
+  "test_history": {
+    "first_run": "77 of 78 passed; legacy anchor regression identified",
+    "final_run": "79 of 79 passed after anchor preservation and a meaningful collection-traversal test"
+  },
+  "limitations": [
+    "Local candidate only; no publication, commit, push, issue submission or external outreach.",
+    "No new independent fact-check, fluent proofreading, live-service verification or image-rights clearance in this flow pass. Earlier editorial holds remain.",
+    "The 16-route launch proposal is not an applied build filter. The full local build still contains all 72 draft pages.",
+    "Browser screenshots cover 360 px/900 px frames and a desktop ending; not a complete accessibility, physical-device or native PDF check. Native PDF remains WORK-080.",
+    "Button creation was verified by click; keyboard link navigation was verified separately. No blanket keyboard certification."
+  ],
+  "evidence": [
+    "records/evidence/coastal-reading-flow-2026-09-30/bhubaneswar-onward-desktop.png",
+    "records/evidence/coastal-reading-flow-2026-09-30/bhubaneswar-phone-wide.png",
+    "records/evidence/coastal-reading-flow-2026-09-30/build.log",
+    "records/evidence/coastal-reading-flow-2026-09-30/index.html",
+    "records/evidence/coastal-reading-flow-2026-09-30/journey-reload.json",
+    "records/evidence/coastal-reading-flow-2026-09-30/keyboard-walk.json",
+    "records/evidence/coastal-reading-flow-2026-09-30/konark-phone-wide.png",
+    "records/evidence/coastal-reading-flow-2026-09-30/phone-chapter-links.png",
+    "records/evidence/coastal-reading-flow-2026-09-30/proposed-launch-scope.json",
+    "records/evidence/coastal-reading-flow-2026-09-30/raghurajpur-phone-wide.png",
+    "records/evidence/coastal-reading-flow-2026-09-30/scope-dependencies.json",
+    "records/evidence/coastal-reading-flow-2026-09-30/static-check.json",
+    "records/evidence/coastal-reading-flow-2026-09-30/tests.log",
+    "records/coastal-reading-flow-manifest.json"
+  ]
+}

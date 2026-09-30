@@ -34,3 +34,7 @@ See [the source ledger](../LEDGER.md), [the captured colour decision](../evidenc
 The Founder made the earthy stone colour dominant, then confirmed its name as **Mankada Pathara — ମାଙ୍କଡ଼ା ପଥର**. The earlier Kankada wording is part of the record, not the current approved name. He returned to the original illustrated book-and-boat board because its elements matched his imagination, and asked to bring Odia lettering into the refinement. [UTP-HIS-0018–0020]
 
 He also asked for a material image reference and an internal story for future nostalgia. That story should preserve the actual conversation rather than invent childhood scenes or personal memories. The visual refinement and longer illustrated story remain work in progress under UTP-WORK-002. [UTP-HIS-0021]
+
+## A correction that brought the material back
+
+When the first Instagram card pictured loose straw, Ahimanikya clarified: “Ghasi is a round dosa size thing they make in the village - cow dunk and peddy straw”. The intended reference is the dried, flattened cooking-fuel cake made from cow dung mixed with paddy straw. The assistant had reduced the material to one ingredient; the revised card restores the whole object. The palette remains muted olive and straw, while the story connects it to the hearth. No particular childhood kitchen or incident is implied. [UTP-HIS-0069]
