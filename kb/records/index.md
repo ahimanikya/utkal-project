@@ -94,3 +94,5 @@
 - [Contribution publication and HTTPS repair](contribution-publication.json)
 
 - [Konark visitor essentials review](konark-visitor-essentials-review.json)
+
+- [Konark visitor essentials publication](konark-publication.json) — approved PR #9, live books and retained HTTPS checks.

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T23:22:43.614745+00:00",
+  "recorded_at": "2026-09-30T23:32:58.780876+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2781,24 +2781,28 @@
       "id": "UTP-WORK-102",
       "title": "Separate Konark monument, museum and official ticket planning",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-083",
-      "next_action": "Founder review of the candidate PR; retain current-hours conflict and unverified museum/local arrangements.",
+      "next_action": "Published and verified. Follow remaining local checks under UTP-WORK-097.",
       "blockers": [],
       "refs": [
         "UTP-DEC-083",
         "UTP-REV-059",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-DEC-084",
+        "UTP-REV-060",
+        "UTP-REL-011"
       ],
       "evidence": [
         "research/product/konark-visitor-essentials-2026-09-30.md",
-        "records/konark-visitor-essentials-review.json"
+        "records/konark-visitor-essentials-review.json",
+        "records/konark-publication.json"
       ]
     }
   ],
@@ -4458,6 +4462,27 @@
         "research/product/konark-visitor-essentials-2026-09-30.md",
         "records/konark-visitor-essentials-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-084",
+      "title": "Publish approved Konark visitor essentials",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish the exact reviewed PR #9 head; verify live guidance, portable books and retained HTTPS redirects.",
+      "recorded_at": "2026-09-30T23:32:58.780876+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-102",
+        "UTP-REL-011"
+      ],
+      "evidence": [
+        "records/konark-publication.json",
+        "records/evidence/konark-publication-2026-09-30/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -5888,6 +5913,28 @@
         "research/product/konark-visitor-essentials-2026-09-30.md",
         "records/konark-visitor-essentials-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-060",
+      "title": "Konark publication live smoke review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and performed release checks; no independent editorial review.",
+        "Museum hours, closure day and local facilities remain unverified; official monument-hours conflict retained.",
+        "Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview."
+      ],
+      "refs": [
+        "UTP-DEC-084",
+        "UTP-WORK-102"
+      ],
+      "evidence": [
+        "records/konark-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -6074,6 +6121,23 @@
         "records/evidence/contribution-publication-2026-09-30/deployment.json"
       ],
       "note": "Approved PR 8 merged and deployed at ac58ec0. Actual draft file and acknowledgement verified. Separately approved HTTPS reset completed; enforcement and apex/www redirects verified."
+    },
+    {
+      "id": "UTP-REL-011",
+      "title": "Konark monument, museum and ticket guidance published",
+      "status": "published",
+      "authorization": "UTP-DEC-084",
+      "destination": "https://utkalproject.org/knowledge/konark/",
+      "refs": [
+        "UTP-DEC-084",
+        "UTP-WORK-102",
+        "UTP-REV-060"
+      ],
+      "evidence": [
+        "records/konark-publication.json",
+        "records/evidence/konark-publication-2026-09-30/deployment.json"
+      ],
+      "note": "PR 9 merged at the exact approved head and deployed at 05cd9f6. Live guidance and actual HTML/text books verified. HTTPS enforcement and redirects retained."
     }
   ],
   "sources": [

@@ -26,3 +26,9 @@ Optional `planning_stops` sit in the canonical visit notebook. Each carries a so
 Candidate for Founder review; not deployed. The seven-guide local confirmation queue remains open. No broader collection, Store or indexing change is included.
 
 [Draft PR #9](https://github.com/ahimanikya/utkal-project/pull/9).
+
+## Approved publication
+
+The Founder subsequently approved PR #9. The exact reviewed head `1314c3f` was merged and deployed at `05cd9f6`. Hosted build and test checks passed. The live page and actual HTML/text downloads carry all three planning notes and the official ticket reference. HTTPS enforcement and apex/www redirects remain verified, including an inner-page query. The earlier candidate status above records the original handoff; UTP-WORK-102 is now complete. Local confirmation and native printing remain open.
+
+[Publication evidence](../../records/konark-publication.json) · [Live Konark guide](https://utkalproject.org/knowledge/konark/)

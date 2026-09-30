@@ -742,3 +742,9 @@ The certificate now covers apex and www. GitHub HTTPS enforcement is enabled, wi
 Konark’s museum and monument now have separate planning notes, carried into the portable book. Conflicting official hours remain visible rather than becoming false certainty.
 
 [Visitor essentials review](../research/product/konark-visitor-essentials-2026-09-30.md). Candidate not deployed.
+
+## UTP-HIS-0119 · A clearer day at Konark
+
+Approved PR #9 is live. Separate monument, museum and ticket guidance is present on the page and in actual downloaded HTML/text books. HTTPS redirects remain verified. Museum hours and local arrangements still need confirmation.
+
+[Publication evidence](../records/konark-publication.json).
