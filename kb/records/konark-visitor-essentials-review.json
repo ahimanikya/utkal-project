@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-09-30T23:22:43.614745+00:00",
+  "authorization": "UTP-DEC-083",
+  "status": "pass_with_limitations",
+  "independent": false,
+  "changes": [
+    "Three visit-planning notes separate monument, museum and ticket selection.",
+    "Direct ASI-linked ticket portal with observed circle and entry names.",
+    "Optional planning_stops data flows into website, HTML book, text itinerary and print rendering through shared visitPrompts.",
+    "Source conflict and local-verification gaps preserved in KB."
+  ],
+  "verification": {
+    "site_tests": 318,
+    "coastal_tests": 10,
+    "page_checks": 64,
+    "actual_books": "HTML and text files downloaded and inspected for the new guidance and references.",
+    "visual": "Desktop section inspected; existing responsive layout retained."
+  },
+  "limitations": [
+    "Museum hours and closure day remain unverified; no inferred Friday closure or rate.",
+    "ASI and Incredible India publish conflicting monument hours; readers asked to confirm for their date.",
+    "No ticket purchase, payment, provider contact or on-site inspection.",
+    "Same assistant implemented and reviewed; no independent editorial acceptance.",
+    "Native PDF remains outside this batch; coastal preview scope remains 16 pages."
+  ],
+  "evidence": [
+    "records/evidence/konark-visitor-essentials-2026-09-30/actual-books.json",
+    "records/evidence/konark-visitor-essentials-2026-09-30/build.log",
+    "records/evidence/konark-visitor-essentials-2026-09-30/coast-tests.log",
+    "records/evidence/konark-visitor-essentials-2026-09-30/coast.log",
+    "records/evidence/konark-visitor-essentials-2026-09-30/page-acceptance.json",
+    "records/evidence/konark-visitor-essentials-2026-09-30/source-inspection.json",
+    "records/evidence/konark-visitor-essentials-2026-09-30/tests.log",
+    "records/evidence/konark-visitor-essentials-2026-09-30/visitor-section.png"
+  ]
+}

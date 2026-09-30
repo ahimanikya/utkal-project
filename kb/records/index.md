@@ -92,3 +92,5 @@
 - [Contribution draft care review](contribution-draft-care-review.json)
 
 - [Contribution publication and HTTPS repair](contribution-publication.json)
+
+- [Konark visitor essentials review](konark-visitor-essentials-review.json)

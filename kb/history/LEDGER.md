@@ -736,3 +736,9 @@ Approved PR #8 is live. The actual draft and kept-copy acknowledgement were veri
 The certificate now covers apex and www. GitHub HTTPS enforcement is enabled, with permanent redirects verified for both names and inner-page links. The earlier provisioning blocker is resolved.
 
 [HTTPS repair evidence](../records/evidence/contribution-publication-2026-09-30/https-repair.json).
+
+## UTP-HIS-0118 · The sculpture has another setting
+
+Konark’s museum and monument now have separate planning notes, carried into the portable book. Conflicting official hours remain visible rather than becoming false certainty.
+
+[Visitor essentials review](../research/product/konark-visitor-essentials-2026-09-30.md). Candidate not deployed.

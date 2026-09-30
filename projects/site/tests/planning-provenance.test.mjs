@@ -17,6 +17,14 @@ test('planning references survive page rendering and both portable formats for a
    assert.ok(book.includes(escapeHTML(source.url)),note.route+' HTML source');
    assert.ok(text.includes(source.url),note.route+' text source');
   }
+  for(const stop of note.planning_stops||[]){
+   assert.ok(note.planning_sources.some(source=>source.url===stop.source_url),'each visit stop has an inspected source');
+   for(const field of ['heading','text']){
+    assert.ok(html.includes(escapeHTML(stop[field])),'page retains visit-stop context');
+    assert.ok(book.includes(escapeHTML(stop[field])),'HTML book retains visit-stop context');
+    assert.ok(text.includes(stop[field]),'text book retains visit-stop context');
+   }
+  }
   assert.ok(book.includes(escapeHTML(note.prepare)));
   assert.ok(text.includes(note.prepare));
   assert.ok(html.includes(escapeHTML(note.planning_help.text)));
