@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-09-30T23:22:43.614745+00:00",
+  "method": "Official web pages; public ASI homepage link inspected in HTML; ASI ticket portal inspected in the in-app browser.",
+  "sources": [
+    {
+      "url": "https://asi.nic.in/pages/WorldHeritageKonarak",
+      "findings": "Monument sunrise-to-sunset hours; museum identification of recovered Balarama, Varaha and Trivikrama sculptures. Fee category labels incomplete, so amounts not copied."
+    },
+    {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri/konark-temple",
+      "findings": "Lists 06:00–20:00; conflicts with ASI monument hours. Retained as conflict, not a verified evening opening."
+    },
+    {
+      "url": "https://asi.nic.in/",
+      "findings": "Official homepage links to https://asi.paygov.org.in/asi-webapp/#/ticketbooking",
+      "inspected_html_sha256": "24703a637c2e4b2fd84f1aaa1cf4f30b00783768e7f472e134b2743db0b9dda0"
+    },
+    {
+      "url": "https://asi.paygov.org.in/asi-webapp/#/ticketbooking",
+      "findings": "Bhubaneshwar circle selected in browser. Separate entries displayed for Sun Temple, Konark and Archaeological Site Museum, Konark. Details button did not reveal further information; later checkbox selection had no match. No date, visitor details, checkout or payment submitted."
+    },
+    {
+      "url": "https://asi.nic.in/pages/Museums",
+      "findings": "General museum page accessible; locator search endpoint returned 500, Odisha map-code request returned no records. Does not establish Konark hours."
+    }
+  ],
+  "not_established": [
+    "Museum opening hours or closure day",
+    "Current ticket availability or successful booking",
+    "Accessible route, toilets or other facilities",
+    "Festival dates or local transport"
+  ],
+  "contacts_made": false
+}

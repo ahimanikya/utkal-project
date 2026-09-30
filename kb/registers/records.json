@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T23:11:19.039787+00:00",
+  "recorded_at": "2026-09-30T23:22:43.614745+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2656,12 +2656,14 @@
       "blockers": [],
       "refs": [
         "UTP-DEC-075",
-        "UTP-WORK-096"
+        "UTP-WORK-096",
+        "UTP-WORK-102"
       ],
       "evidence": [
         "research/product/launch-quality-2026-09-30.md",
         "research/destinations/visit-notebooks.json",
-        "research/destinations/coastal-verification-queue.json"
+        "research/destinations/coastal-verification-queue.json",
+        "research/product/konark-visitor-essentials-2026-09-30.md"
       ]
     },
     {
@@ -2773,6 +2775,30 @@
         "research/product/contribution-draft-care-2026-09-30.md",
         "records/contribution-draft-care-review.json",
         "records/contribution-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-102",
+      "title": "Separate Konark monument, museum and official ticket planning",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-083",
+      "next_action": "Founder review of the candidate PR; retain current-hours conflict and unverified museum/local arrangements.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-083",
+        "UTP-REV-059",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/konark-visitor-essentials-2026-09-30.md",
+        "records/konark-visitor-essentials-review.json"
       ]
     }
   ],
@@ -4411,6 +4437,27 @@
         "records/contribution-publication.json",
         "records/evidence/contribution-publication-2026-09-30/approval.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-083",
+      "title": "Continue with the next bounded website improvement",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "in the mean time continue with other work",
+      "scope": "Research and prepare Konark visitor essentials as the next useful backlog increment; test and present a reviewable candidate. No publication, booking, payment or outreach.",
+      "recorded_at": "2026-09-30T23:22:43.614745+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-102",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/konark-visitor-essentials-2026-09-30.md",
+        "records/konark-visitor-essentials-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -5815,6 +5862,31 @@
       ],
       "evidence": [
         "records/contribution-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-059",
+      "title": "Konark visitor essentials self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Museum hours and closure day remain unverified; no inferred Friday closure or rate.",
+        "ASI and Incredible India publish conflicting monument hours; readers asked to confirm for their date.",
+        "No ticket purchase, payment, provider contact or on-site inspection.",
+        "Same assistant implemented and reviewed; no independent editorial acceptance.",
+        "Native PDF remains outside this batch; coastal preview scope remains 16 pages."
+      ],
+      "refs": [
+        "UTP-DEC-083",
+        "UTP-WORK-102"
+      ],
+      "evidence": [
+        "research/product/konark-visitor-essentials-2026-09-30.md",
+        "records/konark-visitor-essentials-review.json"
       ]
     }
   ],
