@@ -706,3 +706,9 @@ Seven guides now offer an official place to begin asking. A broken directory and
 The Founder approved PR #6. Official-help guidance reached all seven public guides. The release record preserves both successful checks and the unverified delivery of fresh downloaded files.
 
 [Publication evidence](../records/practical-publication.json). Approved preview published.
+
+## UTP-HIS-0113 · A promise ends at the file
+
+Actual books now verify the new guidance and sources. The UI follow-up distinguishes a requested download from confirmed file delivery, while preserving the earlier unresolved findings as history.
+
+[Download follow-up](../research/product/download-followup-2026-09-30.md). Verification complete; UI candidate not deployed.

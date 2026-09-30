@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T22:19:13.353357+00:00",
+  "recorded_at": "2026-09-30T22:28:01.551950+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2603,7 +2603,8 @@
       "evidence": [
         "records/evidence/coastal-publication-2026-09-30/pages-hosting.json",
         "research/product/coastal-publication-2026-09-30.md",
-        "records/evidence/practical-followup-2026-09-30/https-diagnostics.json"
+        "records/evidence/practical-followup-2026-09-30/https-diagnostics.json",
+        "records/evidence/download-followup-2026-09-30/hosting-status.json"
       ]
     },
     {
@@ -2694,22 +2695,50 @@
       "id": "UTP-WORK-099",
       "title": "Locate and inspect fresh browser tour-book downloads after PR 6",
       "category": "release_verification",
-      "status": "ready",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-078",
-      "next_action": "Inspect the supported browser download destination/UI. Verify actual HTML and text files contain Puri guidance and official sources; distinguish from already passing generation tests. Use the existing labelled synthetic journey and preserve personal plans.",
+      "next_action": "Actual current HTML and text downloads verified. See UTP-WORK-100 for the separately prepared feedback correction; previous missing-file cause is not established.",
       "blockers": [],
       "refs": [
         "UTP-WORK-098",
-        "UTP-REV-054"
+        "UTP-REV-054",
+        "UTP-DEC-079",
+        "UTP-REV-055",
+        "UTP-WORK-100"
       ],
       "evidence": [
-        "records/evidence/practical-publication-2026-09-30/download-check.json"
+        "records/evidence/practical-publication-2026-09-30/download-check.json",
+        "records/evidence/download-followup-2026-09-30/actual-downloads.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-100",
+      "title": "Make download feedback accurate and visible beside controls",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-079",
+      "next_action": "Founder review of the bounded UI candidate before publishing. Download verification is resolved separately; native printing and certificate provisioning remain open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-079",
+        "UTP-WORK-099",
+        "UTP-REV-055"
+      ],
+      "evidence": [
+        "research/product/download-followup-2026-09-30.md",
+        "records/download-followup-review.json"
       ]
     }
   ],
@@ -4263,6 +4292,28 @@
         "records/evidence/practical-publication-2026-09-30/approval.json",
         "records/practical-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-079",
+      "title": "Continue actual-download and launch follow-ups",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Resolve outstanding actual-download verification, recheck hosting state and prepare bounded download-feedback corrections for review. Native-print work remains within explicit browser choice. No new site deployment or domain reset.",
+      "recorded_at": "2026-09-30T22:28:01.551950+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-099",
+        "UTP-WORK-100",
+        "UTP-WORK-080",
+        "UTP-WORK-095"
+      ],
+      "evidence": [
+        "research/product/download-followup-2026-09-30.md"
+      ]
     }
   ],
   "requirements": [
@@ -5573,6 +5624,30 @@
       ],
       "evidence": [
         "records/practical-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-055",
+      "title": "Actual-download verification and feedback self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Earlier missing-file cause remains unknown; successful retry does not prove a browser defect.",
+        "A stale loaded/cached page exported the earlier collection. Freshly loaded page exports were verified; no cache-header change was made.",
+        "Native PDF checks remain open pending explicit Chrome choice; no browser switch or print workaround performed.",
+        "GitHub certificate state remains dns_changed; HTTPS enforcement unchanged.",
+        "Same AI assistant implemented and reviewed. This UI candidate is not deployed."
+      ],
+      "refs": [
+        "UTP-WORK-099",
+        "UTP-WORK-100"
+      ],
+      "evidence": [
+        "records/download-followup-review.json"
       ]
     }
   ],

@@ -44,3 +44,5 @@ Native PDF pagination remains unverified (UTP-WORK-080). The in-app browser prev
 The Founder replied “approved”. PR #6 merged at `e55be1ef25158158fe4f43fa73f722c20126f5c2`; [Pages run 36784303118](https://github.com/ahimanikya/utkal-project/actions/runs/36784303118) succeeded. Live rendered checks passed for all seven updated guides. A separate synthetic Puri journey was saved; the browser reported an offline-book download, but fresh files were not found in the expected folder, so actual-file inspection remains open as UTP-WORK-099. Existing automated HTML/text integration checks passed. Earlier candidate notices describe preparation and are preserved as history.
 
 [Publication and smoke evidence](../../records/practical-publication.json). Native PDF, HTTPS enforcement and local-service checks remain separately tracked.
+
+Download follow-up: UTP-WORK-099 was resolved by inspecting actual current HTML and text files after a fresh page load. [Evidence and feedback candidate](download-followup-2026-09-30.md). The earlier unverified smoke result above remains an accurate historical record.

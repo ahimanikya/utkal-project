@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-09-30T22:28:01.551950+00:00",
+  "observation": "Read-only Pages status this turn; no enforcement retry or DNS/domain mutation.",
+  "cname": "utkalproject.org",
+  "https_enforced": false,
+  "certificate": {
+    "state": "dns_changed",
+    "description": "Detected a change to DNS settings. Requesting a new certificate.",
+    "expires_at": "2026-12-27"
+  },
+  "next_action": "Certificate provisioning remains the blocker. Keep domain-reset maintenance as a separately reviewable operation."
+}
