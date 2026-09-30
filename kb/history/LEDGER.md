@@ -718,3 +718,9 @@ Actual books now verify the new guidance and sources. The UI follow-up distingui
 The Founder approved PR #7. The live journey now gives accurate feedback beside its download controls. Actual HTML and text files retained current guidance and sources.
 
 [Publication evidence](../records/download-publication.json). Approved preview published.
+
+## UTP-HIS-0115 · A draft deserves a kept copy
+
+Download lessons now extend to contribution drafts. The reminder stays until the reader keeps the current version; later edits need another copy.
+
+[Contribution review](../research/product/contribution-draft-care-2026-09-30.md). Candidate not deployed.

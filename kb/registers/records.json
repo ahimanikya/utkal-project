@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T22:35:48.079917+00:00",
+  "recorded_at": "2026-09-30T22:51:45.596681+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2744,6 +2744,29 @@
         "records/download-followup-review.json",
         "records/download-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-101",
+      "title": "Preserve contribution draft protection until a copy is kept",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-081",
+      "next_action": "Review candidate PR before publication; verify pointer behavior separately if reproducible.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-081",
+        "UTP-REV-057"
+      ],
+      "evidence": [
+        "research/product/contribution-draft-care-2026-09-30.md",
+        "records/contribution-draft-care-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -4339,6 +4362,26 @@
         "records/evidence/download-publication-2026-09-30/approval.json",
         "records/download-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-081",
+      "title": "Prepare the next contribution reliability improvement",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Prepare, test and present the next bounded website candidate. Read-only HTTPS diagnosis responds to the subsequent question; domain reset and publication not included.",
+      "recorded_at": "2026-09-30T22:51:45.596681+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-101"
+      ],
+      "evidence": [
+        "research/product/contribution-draft-care-2026-09-30.md",
+        "records/contribution-draft-care-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -5696,6 +5739,30 @@
       ],
       "evidence": [
         "records/download-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-057",
+      "title": "Contribution draft reliability self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and reviewed; not independent.",
+        "Native leave-page dialog and clipboard delivery not exercised; state transitions and stale copy completion covered by tests.",
+        "Pointer activations intermittently did not change the page; remaining actions verified by keyboard.",
+        "Candidate not published. HTTPS provisioning, native PDFs and local-service verification remain separate."
+      ],
+      "refs": [
+        "UTP-DEC-081",
+        "UTP-WORK-101"
+      ],
+      "evidence": [
+        "research/product/contribution-draft-care-2026-09-30.md",
+        "records/contribution-draft-care-review.json"
       ]
     }
   ],

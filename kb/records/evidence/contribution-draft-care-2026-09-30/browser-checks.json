@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-09-30T22:51:45.596681+00:00",
+  "page": "http://127.0.0.1:4354/contribute/?page=%2Fdestinations%2Fpuri%2F&review=draft-care",
+  "checks": [
+    "Existing-entry subject and counter hidden together; new-subject selection reveals both.",
+    "Missing correction focuses invalid correction field.",
+    "Actual downloaded text inspected, including Puri entry, synthetic correction, evidence and credit.",
+    "Keyboard acknowledgement confirms current copy and focuses Download draft.",
+    "Prepared issue URL contains synthetic new subject and draft; external link never opened.",
+    "Editing removes issue href and hides stale preview and copy acknowledgement."
+  ],
+  "downloads": [
+    {
+      "file": "/Users/ahimanikya/Downloads/utkal-correction-draft (2).txt",
+      "bytes": 541,
+      "sha256": "b47ffbd806a17ab358e671245cf737e89319266565db517f2d5c031627e61ad8",
+      "synthetic_fixture": true
+    }
+  ],
+  "limitations": [
+    "Several pointer activations did not change the page; keyboard activation verified the remaining controls. Cause not established.",
+    "Native beforeunload dialog and clipboard delivery not exercised; revision protection covered by unit tests."
+  ],
+  "external_submission": false
+}

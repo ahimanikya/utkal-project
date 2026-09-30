@@ -1,0 +1,22 @@
+
+> utkal-project-site@0.1.0 test:coast
+> node --test tests-coast/*.test.mjs
+
+✔ edition validation rejects duplicate route configuration before changing output (91.554667ms)
+✔ relative links and their fragments resolve within selected routes (52.228292ms)
+✔ srcset candidates and stylesheet resources remain in the promoted edition (40.341458ms)
+✔ journey links must resolve their fragments before the candidate is promoted (56.666834ms)
+✔ duplicate catalogue IDs cannot pass a set-only comparison (36.204167ms)
+✔ asset symlinks are refused without touching the previous preview (35.17175ms)
+✔ only sixteen selected pages and their declared client content ship (16.360916ms)
+✔ delivery report hashes every shipped file and excludes unused originals (11.770041ms)
+✔ an earlier journey keeps unavailable IDs, dates and notes in backups and the portable book (22.12175ms)
+✔ failed staged validation preserves the last good output and does not expose excluded pages (56.444291ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 350.393791
