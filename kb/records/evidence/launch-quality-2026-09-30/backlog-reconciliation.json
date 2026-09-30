@@ -1,0 +1,2250 @@
+{
+  "recorded_at": "2026-09-30T21:28:55.221479+00:00",
+  "basis": {
+    "approval": "UTP-DEC-074",
+    "release": "UTP-REL-006",
+    "deployed_sha": "dcd506a0b2c85db34428613381492ec53f67f1d1",
+    "method": "Read original task briefs and compare implemented features/routes with the approved coastal scope; prior test evidence supports functionality, not editorial acceptance."
+  },
+  "counts": {
+    "delivered_functionality": 19,
+    "published_editorial_preview": 4,
+    "coastal_subset_only": 15
+  },
+  "changes": [
+    {
+      "id": "UTP-WORK-018",
+      "title": "Connected cultural stories and My Odisha Journey",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-018",
+        "title": "Connected cultural stories and My Odisha Journey",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-039",
+        "next_action": "Founder review of cultural trails and planner; manually verify native browser PDF pagination before treating the printed tour book as release-ready.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-039",
+          "UTP-REV-017",
+          "UTP-WORK-016"
+        ],
+        "evidence": [
+          "research/product/culture-journey-prototype.md",
+          "records/culture-journey-review.json",
+          "research/voices/culture-trails.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-018",
+        "title": "Connected cultural stories and My Odisha Journey",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-039",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-039",
+          "UTP-REV-017",
+          "UTP-WORK-016",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/culture-journey-prototype.md",
+          "records/culture-journey-review.json",
+          "research/voices/culture-trails.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-019",
+      "title": "Multiple journeys and optional travel dates",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-019",
+        "title": "Multiple journeys and optional travel dates",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-040",
+        "next_action": "Review this local increment; verify native PDF pagination before release. Further content and offline enhancements remain separate backlog items.",
+        "blockers": [],
+        "refs": [
+          "UTP-WORK-018",
+          "UTP-DEC-040",
+          "UTP-REV-018"
+        ],
+        "evidence": [
+          "research/product/multiple-journeys.md",
+          "records/multiple-journeys-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-019",
+        "title": "Multiple journeys and optional travel dates",
+        "category": "website_product",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-040",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-WORK-018",
+          "UTP-DEC-040",
+          "UTP-REV-018",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/multiple-journeys.md",
+          "records/multiple-journeys-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-028",
+      "title": "Area and access guidance in personal journeys",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-028",
+        "title": "Area and access guidance in personal journeys",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-042",
+        "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-042",
+          "UTP-REV-020"
+        ],
+        "evidence": [
+          "research/product/ten-item-website-batch.md",
+          "records/ten-item-website-review.json"
+        ],
+        "pending_list_source": "research/product/destination-and-tour-book.md",
+        "preview_path": "/journey/",
+        "implemented": "Per-item access notes and day-level area comparison; no calculated travel times."
+      },
+      "current": {
+        "id": "UTP-WORK-028",
+        "title": "Area and access guidance in personal journeys",
+        "category": "website_product",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-042",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-042",
+          "UTP-REV-020",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/ten-item-website-batch.md",
+          "records/ten-item-website-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "pending_list_source": "research/product/destination-and-tour-book.md",
+        "preview_path": "/journey/",
+        "implemented": "Per-item access notes and day-level area comparison; no calculated travel times.",
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-029",
+      "title": "Downloadable offline text tour book",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-029",
+        "title": "Downloadable offline text tour book",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-042",
+        "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-042",
+          "UTP-REV-020"
+        ],
+        "evidence": [
+          "research/product/ten-item-website-batch.md",
+          "records/ten-item-website-review.json"
+        ],
+        "pending_list_source": "research/product/multiple-journeys.md",
+        "preview_path": "/journey/",
+        "implemented": "Standalone HTML containing dates, summaries, notes, access and deduplicated source links."
+      },
+      "current": {
+        "id": "UTP-WORK-029",
+        "title": "Downloadable offline text tour book",
+        "category": "website_product",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-042",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-042",
+          "UTP-REV-020",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/ten-item-website-batch.md",
+          "records/ten-item-website-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "pending_list_source": "research/product/multiple-journeys.md",
+        "preview_path": "/journey/",
+        "implemented": "Standalone HTML containing dates, summaries, notes, access and deduplicated source links.",
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-030",
+      "title": "Reader correction draft tool",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-030",
+        "title": "Reader correction draft tool",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-042",
+        "next_action": "Founder review of the local candidate and relevant content limitations; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-042",
+          "UTP-REV-020"
+        ],
+        "evidence": [
+          "research/product/ten-item-website-batch.md",
+          "records/ten-item-website-review.json"
+        ],
+        "pending_list_source": "research/product/prd.md",
+        "preview_path": "/contribute/",
+        "implemented": "Page-linked correction, additional-knowledge or recollection drafts; local preview, text download and copy controls. No submission endpoint."
+      },
+      "current": {
+        "id": "UTP-WORK-030",
+        "title": "Reader correction draft tool",
+        "category": "website_product",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-042",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-042",
+          "UTP-REV-020",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/ten-item-website-batch.md",
+          "records/ten-item-website-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "pending_list_source": "research/product/prd.md",
+        "preview_path": "/contribute/",
+        "implemented": "Page-linked correction, additional-knowledge or recollection drafts; local preview, text download and copy controls. No submission endpoint.",
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-031",
+      "title": "Mobile layouts",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-031",
+        "title": "Mobile layouts",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json"
+        ],
+        "preview_path": "/explore/",
+        "implemented": "Responsive navigation, grids and controls; measured 320px and 390px layouts checked."
+      },
+      "current": {
+        "id": "UTP-WORK-031",
+        "title": "Mobile layouts",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "preview_path": "/explore/",
+        "implemented": "Responsive navigation, grids and controls; measured 320px and 390px layouts checked.",
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-032",
+      "title": "Keyboard and accessibility polish",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-032",
+        "title": "Keyboard and accessibility polish",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json"
+        ],
+        "preview_path": "/contribute/",
+        "implemented": "Visible focus, touch sizing, form error focus and import focus transitions."
+      },
+      "current": {
+        "id": "UTP-WORK-032",
+        "title": "Keyboard and accessibility polish",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "preview_path": "/contribute/",
+        "implemented": "Visible focus, touch sizing, form error focus and import focus transitions.",
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-034",
+      "title": "Illustrated offline tour book",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-034",
+        "title": "Illustrated offline tour book",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json"
+        ],
+        "preview_path": "/journey/",
+        "implemented": "Optional self-contained HTML with selected real photographs, notes and end credits; bounded image sizes and graceful omissions."
+      },
+      "current": {
+        "id": "UTP-WORK-034",
+        "title": "Illustrated offline tour book",
+        "category": "website_product",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "preview_path": "/journey/",
+        "implemented": "Optional self-contained HTML with selected real photographs, notes and end credits; bounded image sizes and graceful omissions.",
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-035",
+      "title": "Combined Explore filters",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-035",
+        "title": "Combined Explore filters",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json"
+        ],
+        "preview_path": "/explore/",
+        "implemented": "Area, subject and search work together with shareable filter URLs and empty-state recovery."
+      },
+      "current": {
+        "id": "UTP-WORK-035",
+        "title": "Combined Explore filters",
+        "category": "website_product",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "preview_path": "/explore/",
+        "implemented": "Area, subject and search work together with shareable filter URLs and empty-state recovery.",
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-040",
+      "title": "Public GitHub contribution workflow",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-040",
+        "title": "Public GitHub contribution workflow",
+        "category": "website_product",
+        "status": "awaiting_review",
+        "readiness": "draft",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021",
+          "UTP-DEC-044"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json"
+        ],
+        "preview_path": "/contribute/",
+        "implemented": "Local draft preparation, explicit public handoff, long-link fallback and knowledge/photo issue templates. No automatic submission."
+      },
+      "current": {
+        "id": "UTP-WORK-040",
+        "title": "Public GitHub contribution workflow",
+        "category": "website_product",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-043",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-043",
+          "UTP-REV-021",
+          "UTP-DEC-044",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/visitor-polish.md",
+          "records/visitor-polish-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "preview_path": "/contribute/",
+        "implemented": "Local draft preparation, explicit public handoff, long-link fallback and knowledge/photo issue templates. No automatic submission.",
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-045",
+      "title": "Bhubaneswar destination guide",
+      "classification": "published_editorial_preview",
+      "previous": {
+        "id": "UTP-WORK-045",
+        "title": "Bhubaneswar destination guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-045",
+        "title": "Bhubaneswar destination guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Guide is publicly available as a preview under UTP-REL-006. Review remaining editorial and local-arrangement questions under UTP-WORK-097; do not treat this as an unpublished feature.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published preview, pending full editorial acceptance."
+      }
+    },
+    {
+      "id": "UTP-WORK-046",
+      "title": "Puri destination guide",
+      "classification": "published_editorial_preview",
+      "previous": {
+        "id": "UTP-WORK-046",
+        "title": "Puri destination guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-046",
+        "title": "Puri destination guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Guide is publicly available as a preview under UTP-REL-006. Review remaining editorial and local-arrangement questions under UTP-WORK-097; do not treat this as an unpublished feature.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published preview, pending full editorial acceptance."
+      }
+    },
+    {
+      "id": "UTP-WORK-048",
+      "title": "Dhauli detail guide",
+      "classification": "published_editorial_preview",
+      "previous": {
+        "id": "UTP-WORK-048",
+        "title": "Dhauli detail guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-048",
+        "title": "Dhauli detail guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Guide is publicly available as a preview under UTP-REL-006. Review remaining editorial and local-arrangement questions under UTP-WORK-097; do not treat this as an unpublished feature.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published preview, pending full editorial acceptance."
+      }
+    },
+    {
+      "id": "UTP-WORK-049",
+      "title": "Raghurajpur detail guide",
+      "classification": "published_editorial_preview",
+      "previous": {
+        "id": "UTP-WORK-049",
+        "title": "Raghurajpur detail guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-049",
+        "title": "Raghurajpur detail guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Guide is publicly available as a preview under UTP-REL-006. Review remaining editorial and local-arrangement questions under UTP-WORK-097; do not treat this as an unpublished feature.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/city-culture-review.md",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published preview, pending full editorial acceptance."
+      }
+    },
+    {
+      "id": "UTP-WORK-055",
+      "title": "Reviewed search aliases",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-055",
+        "title": "Reviewed search aliases",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-055",
+        "title": "Reviewed search aliases",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-056",
+      "title": "Discovery sorting",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-056",
+        "title": "Discovery sorting",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-056",
+        "title": "Discovery sorting",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-057",
+      "title": "Duplicate a journey",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-057",
+        "title": "Duplicate a journey",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-057",
+        "title": "Duplicate a journey",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-058",
+      "title": "Undo removed journey idea",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-058",
+        "title": "Undo removed journey idea",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-058",
+        "title": "Undo removed journey idea",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-059",
+      "title": "Move an idea between journeys",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-059",
+        "title": "Move an idea between journeys",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-059",
+        "title": "Move an idea between journeys",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-060",
+      "title": "Journey day overview",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-060",
+        "title": "Journey day overview",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-060",
+        "title": "Journey day overview",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-061",
+      "title": "Filter journey ideas by type",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-061",
+        "title": "Filter journey ideas by type",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-061",
+        "title": "Filter journey ideas by type",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-062",
+      "title": "Prepare a new-subject draft",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-062",
+        "title": "Prepare a new-subject draft",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-062",
+        "title": "Prepare a new-subject draft",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-063",
+      "title": "How to use Utkal guide",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-063",
+        "title": "How to use Utkal guide",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-063",
+        "title": "How to use Utkal guide",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-064",
+      "title": "Missing-page recovery",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-064",
+        "title": "Missing-page recovery",
+        "category": "website_next_twenty",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Founder review of the completed local candidate; specialist editorial checks remain as noted. Public release is separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-064",
+        "title": "Missing-page recovery",
+        "category": "website_next_twenty",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-049",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-049",
+          "UTP-REV-025",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-twenty.md",
+          "records/next-twenty-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-066",
+      "title": "Homepage destination discovery",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-066",
+        "title": "Homepage destination discovery",
+        "category": "website_discovery_connections",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-050",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-050",
+          "UTP-REV-026"
+        ],
+        "evidence": [
+          "research/product/discovery-connections.md",
+          "records/discovery-connections-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-066",
+        "title": "Homepage destination discovery",
+        "category": "website_discovery_connections",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-050",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-050",
+          "UTP-REV-026",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/discovery-connections.md",
+          "records/discovery-connections-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-067",
+      "title": "Three editable journey starters",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-067",
+        "title": "Three editable journey starters",
+        "category": "website_discovery_connections",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-050",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-050",
+          "UTP-REV-026"
+        ],
+        "evidence": [
+          "research/product/discovery-connections.md",
+          "records/discovery-connections-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-067",
+        "title": "Three editable journey starters",
+        "category": "website_discovery_connections",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-050",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-050",
+          "UTP-REV-026",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/discovery-connections.md",
+          "records/discovery-connections-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-069",
+      "title": "Odia city-name search",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-069",
+        "title": "Odia city-name search",
+        "category": "website_discovery_connections",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-050",
+        "next_action": "Founder review of the local candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-050",
+          "UTP-REV-026"
+        ],
+        "evidence": [
+          "research/product/discovery-connections.md",
+          "records/discovery-connections-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-069",
+        "title": "Odia city-name search",
+        "category": "website_discovery_connections",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-050",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-050",
+          "UTP-REV-026",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/discovery-connections.md",
+          "records/discovery-connections-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-070",
+      "title": "Inner-page layout foundation fixes",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-070",
+        "title": "Inner-page layout foundation fixes",
+        "category": "website_visitor_planning",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-051",
+        "next_action": "Founder review of the local visitor-planning candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-051",
+          "UTP-REV-027"
+        ],
+        "evidence": [
+          "research/product/visitor-planning-batch.md",
+          "records/visitor-planning-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-070",
+        "title": "Inner-page layout foundation fixes",
+        "category": "website_visitor_planning",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-051",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-051",
+          "UTP-REV-027",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/visitor-planning-batch.md",
+          "records/visitor-planning-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-074",
+      "title": "Personal preparation checklist and exports",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-074",
+        "title": "Personal preparation checklist and exports",
+        "category": "website_visitor_planning",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-051",
+        "next_action": "Founder review of the local visitor-planning candidate; publication remains separate.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-051",
+          "UTP-REV-027"
+        ],
+        "evidence": [
+          "research/product/visitor-planning-batch.md",
+          "records/visitor-planning-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-074",
+        "title": "Personal preparation checklist and exports",
+        "category": "website_visitor_planning",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-051",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-051",
+          "UTP-REV-027",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/visitor-planning-batch.md",
+          "records/visitor-planning-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-082",
+      "title": "Bhubaneswar complete visitor reference and release candidate",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-082",
+        "title": "Bhubaneswar complete visitor reference and release candidate",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-062",
+        "next_action": "Founder reviews the candidate. Complete native PDF pagination under WORK-080 and the documented editorial checks before publication approval.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-062",
+          "UTP-WORK-081",
+          "UTP-WORK-080",
+          "UTP-REV-038"
+        ],
+        "evidence": [
+          "research/product/bhubaneswar-visitor-candidate.md",
+          "records/bhubaneswar-visitor-review.json",
+          "records/bhubaneswar-release-candidate.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-082",
+        "title": "Bhubaneswar complete visitor reference and release candidate",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-062",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-062",
+          "UTP-WORK-081",
+          "UTP-WORK-080",
+          "UTP-REV-038",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/bhubaneswar-visitor-candidate.md",
+          "records/bhubaneswar-visitor-review.json",
+          "records/bhubaneswar-release-candidate.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-084",
+      "title": "Puri–Konark connected coastal collection",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-084",
+        "title": "Puri–Konark connected coastal collection",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-064",
+        "next_action": "Founder reviews the coastal collection. Consolidate publication review and outstanding local/editorial verification; native PDF remains WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-064",
+          "UTP-WORK-083",
+          "UTP-REV-040"
+        ],
+        "evidence": [
+          "research/product/coastal-collection.md",
+          "records/coastal-collection-review.json",
+          "records/coastal-collection-manifest.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-084",
+        "title": "Puri–Konark connected coastal collection",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-064",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-064",
+          "UTP-WORK-083",
+          "UTP-REV-040",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/coastal-collection.md",
+          "records/coastal-collection-review.json",
+          "records/coastal-collection-manifest.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-085",
+      "title": "Consolidated website release review and delivery polish",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-085",
+        "title": "Consolidated website release review and delivery polish",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-065",
+        "next_action": "Founder reviews the complete candidate and remaining editorial limitations. Native PDF remains WORK-080. Publication requires a separate explicit decision.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-065",
+          "UTP-WORK-084",
+          "UTP-WORK-080",
+          "UTP-REV-041"
+        ],
+        "evidence": [
+          "research/product/release-review-2026-09-30.md",
+          "records/release-review.json",
+          "records/release-review-manifest.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-085",
+        "title": "Consolidated website release review and delivery polish",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-065",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-065",
+          "UTP-WORK-084",
+          "UTP-WORK-080",
+          "UTP-REV-041",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/release-review-2026-09-30.md",
+          "records/release-review.json",
+          "records/release-review-manifest.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-086",
+      "title": "Coastal editorial shortlist, cultural source checks and asset delivery",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-086",
+        "title": "Coastal editorial shortlist, cultural source checks and asset delivery",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-066",
+        "next_action": "Founder reviews the five-page coastal shortlist and human language/provenance questions. Prepare selected build and linked dependencies only after scope acceptance; publication remains a separate decision.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-066",
+          "UTP-WORK-085",
+          "UTP-WORK-080",
+          "UTP-REV-042"
+        ],
+        "evidence": [
+          "research/product/editorial-readiness-2026-09-30.md",
+          "records/editorial-readiness-review.json",
+          "records/editorial-readiness-manifest.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-086",
+        "title": "Coastal editorial shortlist, cultural source checks and asset delivery",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-066",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-066",
+          "UTP-WORK-085",
+          "UTP-WORK-080",
+          "UTP-REV-042",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/editorial-readiness-2026-09-30.md",
+          "records/editorial-readiness-review.json",
+          "records/editorial-readiness-manifest.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-087",
+      "title": "Five-story reading continuity and personal-journey handoff",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-087",
+        "title": "Five-story reading continuity and personal-journey handoff",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-067",
+        "next_action": "Review the connected reading flow and 16-route scope proposal. Prepare selected content and dependency handling as next implementation; earlier editorial holds and separate publication decision remain.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-067",
+          "UTP-WORK-086",
+          "UTP-WORK-080",
+          "UTP-REV-043"
+        ],
+        "evidence": [
+          "research/product/coastal-reading-flow.md",
+          "records/coastal-reading-flow-review.json",
+          "records/coastal-reading-flow-manifest.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-087",
+        "title": "Five-story reading continuity and personal-journey handoff",
+        "category": "website_quality",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-067",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-067",
+          "UTP-WORK-086",
+          "UTP-WORK-080",
+          "UTP-REV-043",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/coastal-reading-flow.md",
+          "records/coastal-reading-flow-review.json",
+          "records/coastal-reading-flow-manifest.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-088",
+      "title": "Focused coastal edition and scoped visitor data",
+      "classification": "delivered_functionality",
+      "previous": {
+        "id": "UTP-WORK-088",
+        "title": "Focused coastal edition and scoped visitor data",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-068",
+        "next_action": "Founder reviews the exact local candidate and its editorial limitations; publication remains a separate explicit decision. Native PDF and existing editorial holds remain open.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-068",
+          "UTP-WORK-087",
+          "UTP-WORK-080",
+          "UTP-REV-044"
+        ],
+        "evidence": [
+          "research/product/coastal-launch-preview.md",
+          "records/coastal-launch-preview-review.json",
+          "records/evidence/coastal-launch-preview-2026-09-30/build-report.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-088",
+        "title": "Focused coastal edition and scoped visitor data",
+        "category": "website_quality",
+        "status": "completed",
+        "readiness": "published",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-068",
+        "next_action": "Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-068",
+          "UTP-WORK-087",
+          "UTP-WORK-080",
+          "UTP-REV-044",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/coastal-launch-preview.md",
+          "records/coastal-launch-preview-review.json",
+          "records/evidence/coastal-launch-preview-2026-09-30/build-report.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Published coastal implementation only; does not approve held guides or claim native print verification."
+      }
+    },
+    {
+      "id": "UTP-WORK-089",
+      "title": "Overnight 200-item coastal website improvement and acceptance batch",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-089",
+        "title": "Overnight 200-item coastal website improvement and acceptance batch",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-069",
+        "next_action": "Review the local visitor improvements and seven-guide editorial limitations. Native PDF remains open; no deployed release is claimed.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-069",
+          "UTP-WORK-088",
+          "UTP-WORK-080",
+          "UTP-REV-045"
+        ],
+        "evidence": [
+          "research/product/overnight-200.md",
+          "records/overnight-200.json",
+          "records/overnight-200-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-089",
+        "title": "Overnight 200-item coastal website improvement and acceptance batch",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-069",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-069",
+          "UTP-WORK-088",
+          "UTP-WORK-080",
+          "UTP-REV-045",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/overnight-200.md",
+          "records/overnight-200.json",
+          "records/overnight-200-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-090",
+      "title": "Next 210: visit notebooks and private day planning",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-090",
+        "title": "Next 210: visit notebooks and private day planning",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-070",
+        "next_action": "Review seven notebook drafts and the day-planning experience. Earlier editorial questions and native PDF remain open; local implementation does not assert publication.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-070",
+          "UTP-WORK-089",
+          "UTP-WORK-080",
+          "UTP-REV-046"
+        ],
+        "evidence": [
+          "research/product/next-210.md",
+          "records/next-210.json",
+          "records/next-210-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-090",
+        "title": "Next 210: visit notebooks and private day planning",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-070",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-070",
+          "UTP-WORK-089",
+          "UTP-WORK-080",
+          "UTP-REV-046",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/next-210.md",
+          "records/next-210.json",
+          "records/next-210-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    },
+    {
+      "id": "UTP-WORK-091",
+      "title": "Journey preparation, safer imports and portable day books",
+      "classification": "coastal_subset_only",
+      "previous": {
+        "id": "UTP-WORK-091",
+        "title": "Journey preparation, safer imports and portable day books",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-071",
+        "next_action": "Founder combined review when ready. New editorial questions and earlier native PDF/source limitations remain; local candidate only.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-071",
+          "UTP-WORK-090",
+          "UTP-WORK-080",
+          "UTP-REV-047"
+        ],
+        "evidence": [
+          "research/product/ready-216.md",
+          "records/ready-216.json",
+          "records/ready-216-review.json"
+        ]
+      },
+      "current": {
+        "id": "UTP-WORK-091",
+        "title": "Journey preparation, safer imports and portable day books",
+        "category": "website_quality",
+        "status": "awaiting_review",
+        "readiness": "reviewed",
+        "human_owner": "Ahimanikya Satapathy",
+        "contributor": {
+          "name": "Current AI assistant",
+          "kind": "ai_assistant"
+        },
+        "authorization": "UTP-DEC-071",
+        "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+        "blockers": [],
+        "refs": [
+          "UTP-DEC-071",
+          "UTP-WORK-090",
+          "UTP-WORK-080",
+          "UTP-REV-047",
+          "UTP-REL-006",
+          "UTP-WORK-096",
+          "UTP-WORK-097"
+        ],
+        "evidence": [
+          "research/product/ready-216.md",
+          "records/ready-216.json",
+          "records/ready-216-review.json",
+          "research/product/launch-quality-2026-09-30.md"
+        ],
+        "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
+      }
+    }
+  ]
+}

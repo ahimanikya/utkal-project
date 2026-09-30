@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-09-30T21:31:40.278259+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-075",
+  "changes": [
+    "19 feature tasks reconciled as published; four guides marked published previews with editorial review still open; 15 broader tasks retain coastal-subset scope.",
+    "Seven Before you go passages now distinguish sourced context from original planning advice.",
+    "Planning sources appear in page-end disclosure and both portable book formats.",
+    "Print paper size changed from forced A4 to auto in journey and standalone book styles."
+  ],
+  "verification": {
+    "site_tests": 315,
+    "coastal_tests": 10,
+    "page_checks": 64,
+    "preview": "http://127.0.0.1:4354/knowledge/konark/#visit-notebook",
+    "print_matrix": "Six native cases remain not tested: journey/text/photo × A4/Letter. Synthetic photo and text fixtures use current production generator, long notes, Odia and source appendix."
+  },
+  "limitations": [
+    "Native PDF pagination remains unverified; in-app CMD+P exposed no print interface. Permission to switch to Chrome requested, not received at time of this record.",
+    "Screen review at a 360px iframe and desktop is not a physical-device or screen-reader audit.",
+    "Official-source passages were checked, but current facilities, transport, entry eligibility, hosts, menus and stays have not been field-verified.",
+    "Same AI assistant implemented and reviewed; Founder editorial approval remains separate.",
+    "No new public deployment, Store exposure, outreach, booking, paid service or analytics setup."
+  ],
+  "evidence": [
+    "records/evidence/launch-quality-2026-09-30/backlog-reconciliation.json",
+    "records/evidence/launch-quality-2026-09-30/source-checks.json",
+    "records/evidence/launch-quality-2026-09-30/page-acceptance.json",
+    "records/evidence/launch-quality-2026-09-30/utkal-quality-build.log",
+    "records/evidence/launch-quality-2026-09-30/utkal-quality-tests.log",
+    "records/evidence/launch-quality-2026-09-30/utkal-quality-coast.log",
+    "records/evidence/launch-quality-2026-09-30/utkal-quality-coast-tests.log",
+    "records/evidence/launch-quality-2026-09-30/print-matrix.json",
+    "records/evidence/launch-quality-2026-09-30/synthetic-journey.json",
+    "records/evidence/launch-quality-2026-09-30/text-book.html",
+    "records/evidence/launch-quality-2026-09-30/photo-book.html",
+    "records/evidence/launch-quality-2026-09-30/phone-review.html",
+    "records/evidence/launch-quality-2026-09-30/browser-review.json",
+    "records/evidence/launch-quality-2026-09-30/planning-phone.png"
+  ],
+  "handoff": {
+    "pull_request": "https://github.com/ahimanikya/utkal-project/pull/5",
+    "status": "draft",
+    "product_commit": "89894c383244206783218bebe0175577c2719011",
+    "hosted_validation": "https://github.com/ahimanikya/utkal-project/actions/runs/36780229398",
+    "hosted_validation_status": "in_progress_at_handoff_record",
+    "publication": "not_merged_or_deployed"
+  }
+}
