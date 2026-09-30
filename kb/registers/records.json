@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T21:51:56.123651+00:00",
+  "recorded_at": "2026-09-30T22:06:20.878486+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2593,7 +2593,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-074",
-      "next_action": "On the next hosting pass, inspect certificate state; once ready, enable HTTPS enforcement and verify the HTTP redirect. No recurring monitoring was scheduled.",
+      "next_action": "DNS matches documented GitHub configuration and HTTPS works; enforcement still rejected. Recheck issuance on the next hosting pass. If still stuck, plan a domain-provisioning reset with preserved settings and maintenance window; no reset or recurring monitor performed.",
       "blockers": [
         "GitHub rejected https_enforced=true because the certificate has not finished being issued; state dns_changed."
       ],
@@ -2602,7 +2602,8 @@
       ],
       "evidence": [
         "records/evidence/coastal-publication-2026-09-30/pages-hosting.json",
-        "research/product/coastal-publication-2026-09-30.md"
+        "research/product/coastal-publication-2026-09-30.md",
+        "records/evidence/practical-followup-2026-09-30/https-diagnostics.json"
       ]
     },
     {
@@ -2647,7 +2648,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-075",
-      "next_action": "Review guide-specific planning/source findings and native Odia wording. Verify entry/access, hosts, facilities and services before stronger recommendations; no outreach or appointments undertaken.",
+      "next_action": "Use the seven-guide coastal-verification queue: record dated scoped evidence from the relevant custodian or provider and separate Founder acceptance. Official directory inspected; no outreach or local inspection undertaken.",
       "blockers": [],
       "refs": [
         "UTP-DEC-075",
@@ -2655,7 +2656,33 @@
       ],
       "evidence": [
         "research/product/launch-quality-2026-09-30.md",
-        "research/destinations/visit-notebooks.json"
+        "research/destinations/visit-notebooks.json",
+        "research/destinations/coastal-verification-queue.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-098",
+      "title": "Connect coastal guides to official visitor help and define local verification",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-077",
+      "next_action": "Founder review of this bounded candidate before publishing. Follow the separate local-verification, HTTPS and native-print queues.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-077",
+        "UTP-WORK-097",
+        "UTP-WORK-095",
+        "UTP-REV-053"
+      ],
+      "evidence": [
+        "research/product/practical-followup-2026-09-30.md",
+        "records/practical-followup-review.json"
       ]
     }
   ],
@@ -4167,6 +4194,27 @@
         "records/evidence/launch-quality-publication-2026-09-30/approval.json",
         "records/launch-quality-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-077",
+      "title": "Continue coastal practical-information and launch checks",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Prepare practical guide improvements and local-verification work, diagnose HTTPS and pursue native printing within existing browser permission. No new publication, domain reset, outreach or blanket editorial acceptance.",
+      "recorded_at": "2026-09-30T22:06:20.878486+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-098",
+        "UTP-WORK-095",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/practical-followup-2026-09-30.md"
+      ]
     }
   ],
   "requirements": [
@@ -5430,6 +5478,28 @@
       ],
       "evidence": [
         "records/launch-quality-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-053",
+      "title": "Practical coastal follow-up self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Official pages were inspected online; no office called and no venue, host, room, menu or transport inspected.",
+        "Native A4/Letter PDF checks remain unperformed; no browser switch occurred.",
+        "HTTPS enforcement is blocked by GitHub certificate issuance; HTTPS itself returns 200 with valid TLS.",
+        "Same assistant implemented and reviewed. Founder editorial acceptance and publication approval remain separate."
+      ],
+      "refs": [
+        "UTP-WORK-098"
+      ],
+      "evidence": [
+        "records/practical-followup-review.json"
       ]
     }
   ],

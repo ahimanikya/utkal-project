@@ -12,3 +12,5 @@ Structured visitor knowledge for destination pages and a future personal tour bo
 - [Balasore and Mayurbhanj regional records](regions.json) · [Implementation and gaps](../product/northern-guides.md)
 
 - [Central destination detail records](central-details.json) — Dhauli, Raghurajpur and Puri beach; paired with Bhubaneswar, Puri and Cuttack in [regional guides](regions.json).
+
+- [Seven-guide local-verification queue](coastal-verification-queue.json) — evidence and human acceptance remain unconfirmed.
