@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b3742eda15aa5c1a7853cf6bcd9013835208c69e94765cf5e238aeb2de1e8be9`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `285db9ea43ced2c346f0b38e1042516dbc5c63dcc96b19a3d5f3b15c9381a44f`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -115,6 +115,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-100 · Make download feedback accurate and visible beside controls | completed | published | Ahimanikya Satapathy | Published under UTP-DEC-080 / UTP-REL-009. Live feedback and actual HTML/text files verified; native print, HTTPS and local-service work remain separate. | — |
 | UTP-WORK-101 · Preserve contribution draft protection until a copy is kept | completed | published | Ahimanikya Satapathy | Published under UTP-DEC-082 / UTP-REL-010. Live text download and acknowledgement verified; HTTPS repair tracked separately. | — |
 | UTP-WORK-102 · Separate Konark monument, museum and official ticket planning | completed | published | Ahimanikya Satapathy | Published and verified. Follow remaining local checks under UTP-WORK-097. | — |
+| UTP-WORK-103 · Puri visitor essentials for temple, food, shore and arrival | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the candidate PR; direct temple/local confirmations remain WORK-097. | — |
 
 ## Pending human review and decisions
 
@@ -184,6 +185,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-097 | Use the seven-guide coastal-verification queue: record dated scoped evidence from the relevant custodian or provider and separate Founder acceptance. Official directory inspected; no outreach or local inspection undertaken. |
+| UTP-WORK-103 | Founder review of the candidate PR; direct temple/local confirmations remain WORK-097. |
 
 ## Decisions
 
@@ -272,6 +274,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-082 · Publish PR 8 and repair GitHub Pages HTTPS enforcement | approved | Ahimanikya Satapathy | Merge the approved PR 8 head, publish the coastal preview, reset custom-domain certificate provisioning and enable persistent HTTPS enforcement when GitHub permits. No new hosting service or paid commitment. |
 | UTP-DEC-083 · Continue with the next bounded website improvement | approved | Ahimanikya Satapathy | Research and prepare Konark visitor essentials as the next useful backlog increment; test and present a reviewable candidate. No publication, booking, payment or outreach. |
 | UTP-DEC-084 · Publish approved Konark visitor essentials | approved | Ahimanikya Satapathy | Merge and publish the exact reviewed PR #9 head; verify live guidance, portable books and retained HTTPS redirects. |
+| UTP-DEC-085 · Prepare Puri visitor essentials for review | approved | Ahimanikya Satapathy | Research Puri temple, food, beach and arrival guidance; integrate practical notes with journey books; inspect narrow/wide layouts and prepare a reviewable PR. Publication remains separate. |
 
 ## Reviews
 
@@ -335,6 +338,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-058 | pass_with_limitations | False | Same AI assistant implemented and performed live smoke checks.; Native leave-page dialog and clipboard delivery not verified; unit revision checks passed.; Native A4/Letter printing and local-service checks remain separate. |
 | UTP-REV-059 | pass_with_limitations | False | Museum hours and closure day remain unverified; no inferred Friday closure or rate.; ASI and Incredible India publish conflicting monument hours; readers asked to confirm for their date.; No ticket purchase, payment, provider contact or on-site inspection.; Same assistant implemented and reviewed; no independent editorial acceptance.; Native PDF remains outside this batch; coastal preview scope remains 16 pages. |
 | UTP-REV-060 | pass_with_limitations | False | Same AI assistant implemented and performed release checks; no independent editorial review.; Museum hours, closure day and local facilities remain unverified; official monument-hours conflict retained.; Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview. |
+| UTP-REV-061 | pass_with_limitations | False | Temple administration site was inaccessible; current entry, dress, belongings, gate and ritual arrangements remain unconfirmed.; No named kitchen, Mahaprasad distribution, fare, transfer, facility or local shore condition verified.; Same assistant researched, implemented and reviewed. No independent editorial acceptance.; 390px and 1440px iframe layout specimens inspected in the in-app browser; no physical-device or native PDF verification. |
 
 ## Publication and application history
 
@@ -388,7 +392,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-088 | 2026-09-30T21:51:56.123651+00:00 | Founder approved PR 5. Exact reviewed head merged; gated Pages deployment succeeded. All seven updated planning passages and actual HTML/text book sources verified on the public site. | Native PDF, certificate enforcement and editorial/local-service checks remain separately tracked. |
 | UTP-EVT-089 | 2026-09-30T22:06:20.878486+00:00 | Seven official-help passages prepared with portable-book coverage; Puri station source clarified; local confirmation queue made concrete. Correct DNS and blocked GitHub certificate enforcement documented. | Founder review before publishing; local-service and native-PDF verification remain open. |
 | UTP-EVT-090 | 2026-09-30T22:19:13.353357+00:00 | Founder-approved PR 6 merged at the exact reviewed head and deployed successfully. All seven public guides verified. Puri saved in a separate synthetic journey; download files could not be located, so actual-file verification remains open. | Follow the separately tracked download, PDF, HTTPS and local-service checks. |
 | UTP-EVT-091 | 2026-09-30T22:28:01.551950+00:00 | Actual current HTML/text files verified after fresh page load; prior-version exports preserved in comparison evidence. Prepared adjacent honest download feedback. Hosting unchanged; native print choice pending. | Founder review before UI publication; native PDF and hosting remain separate. |
@@ -398,6 +401,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-095 | 2026-09-30T23:11:19.039787+00:00 | New certificate approved for apex and www. Enabled persistent HTTPS enforcement and verified permanent redirects, valid TLS, and preserved inner-page path/query. | No further action for this blocker; maintain the verified domain configuration. |
 | UTP-EVT-096 | 2026-09-30T23:22:43.614745+00:00 | Prepared separate monument, museum and official ticket guidance. Source conflict and unverified local arrangements retained. Page and actual portable books verified. | Founder review before publication. |
 | UTP-EVT-097 | 2026-09-30T23:32:58.780876+00:00 | Approved PR 9 published. Live Konark guidance, real HTML/text downloads and retained HTTPS redirects verified. | Remaining local-service and native-PDF checks stay separately tracked. |
+| UTP-EVT-098 | 2026-09-30T23:53:21.553220+00:00 | Five Puri planning notes prepared from official food, beach and arrival sources. Current temple rules remain unconfirmed after source-access failures. Layout specimens and actual HTML/text exports reviewed. | Founder review before publication. |
 
 ## Deferred extensions
 

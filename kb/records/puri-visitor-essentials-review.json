@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-09-30T23:53:21.553220+00:00",
+  "authorization": "UTP-DEC-085",
+  "status": "pass_with_limitations",
+  "independent": false,
+  "changes": [
+    "Five structured planning stops for temple, Mahaprasad, regional dishes, shore and arrival.",
+    "Existing shared renderer carries all guidance and references into page, HTML and text exports.",
+    "Main Puri Mahaprasad invitation aligned with the notebook; canonical local-confirmation queue updated."
+  ],
+  "verification": {
+    "site_tests": 318,
+    "coastal_tests": 10,
+    "page_checks": 64,
+    "visual": "Desktop section plus narrow 390px and wide 1440px iframe specimens inspected. Text wraps without observed clipping in captured sections.",
+    "actual_books": "Both actual downloaded files contain all five complete notes and source URLs.",
+    "build_recovery": "Initial sandbox failure writing Astro telemetry preferences; rebuild passed with ASTRO_TELEMETRY_DISABLED=1. No permission change needed."
+  },
+  "limitations": [
+    "Temple administration site was inaccessible; current entry, dress, belongings, gate and ritual arrangements remain unconfirmed.",
+    "No named kitchen, Mahaprasad distribution, fare, transfer, facility or local shore condition verified.",
+    "Same assistant researched, implemented and reviewed. No independent editorial acceptance.",
+    "390px and 1440px iframe layout specimens inspected in the in-app browser; no physical-device or native PDF verification."
+  ],
+  "evidence": [
+    "records/evidence/puri-visitor-essentials-2026-09-30/actual-books.json",
+    "records/evidence/puri-visitor-essentials-2026-09-30/build-initial-failure.log",
+    "records/evidence/puri-visitor-essentials-2026-09-30/build.log",
+    "records/evidence/puri-visitor-essentials-2026-09-30/coast-tests.log",
+    "records/evidence/puri-visitor-essentials-2026-09-30/coast.log",
+    "records/evidence/puri-visitor-essentials-2026-09-30/desktop-section.png",
+    "records/evidence/puri-visitor-essentials-2026-09-30/layout-1440.html",
+    "records/evidence/puri-visitor-essentials-2026-09-30/layout-390.html",
+    "records/evidence/puri-visitor-essentials-2026-09-30/narrow-390.png",
+    "records/evidence/puri-visitor-essentials-2026-09-30/page-acceptance.json",
+    "records/evidence/puri-visitor-essentials-2026-09-30/source-inspection.json",
+    "records/evidence/puri-visitor-essentials-2026-09-30/tests.log",
+    "records/evidence/puri-visitor-essentials-2026-09-30/wide-1440.png"
+  ],
+  "handoff": {
+    "pull_request": "https://github.com/ahimanikya/utkal-project/pull/10",
+    "status": "draft",
+    "product_commit": "c6e4ae3",
+    "publication": "not_merged_or_deployed"
+  }
+}

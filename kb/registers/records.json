@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T23:32:58.780876+00:00",
+  "recorded_at": "2026-09-30T23:53:21.553220+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2804,6 +2804,30 @@
         "records/konark-visitor-essentials-review.json",
         "records/konark-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-103",
+      "title": "Puri visitor essentials for temple, food, shore and arrival",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-085",
+      "next_action": "Founder review of the candidate PR; direct temple/local confirmations remain WORK-097.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-085",
+        "UTP-REV-061",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/puri-visitor-essentials-2026-09-30.md",
+        "records/puri-visitor-essentials-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -4483,6 +4507,27 @@
         "records/konark-publication.json",
         "records/evidence/konark-publication-2026-09-30/approval.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-085",
+      "title": "Prepare Puri visitor essentials for review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, go",
+      "scope": "Research Puri temple, food, beach and arrival guidance; integrate practical notes with journey books; inspect narrow/wide layouts and prepare a reviewable PR. Publication remains separate.",
+      "recorded_at": "2026-09-30T23:53:21.553220+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-103",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/puri-visitor-essentials-2026-09-30.md",
+        "records/puri-visitor-essentials-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -5934,6 +5979,29 @@
       ],
       "evidence": [
         "records/konark-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-061",
+      "title": "Puri visitor essentials candidate review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Temple administration site was inaccessible; current entry, dress, belongings, gate and ritual arrangements remain unconfirmed.",
+        "No named kitchen, Mahaprasad distribution, fare, transfer, facility or local shore condition verified.",
+        "Same assistant researched, implemented and reviewed. No independent editorial acceptance.",
+        "390px and 1440px iframe layout specimens inspected in the in-app browser; no physical-device or native PDF verification."
+      ],
+      "refs": [
+        "UTP-DEC-085",
+        "UTP-WORK-103"
+      ],
+      "evidence": [
+        "records/puri-visitor-essentials-review.json"
       ]
     }
   ],

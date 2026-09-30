@@ -96,3 +96,5 @@
 - [Konark visitor essentials review](konark-visitor-essentials-review.json)
 
 - [Konark visitor essentials publication](konark-publication.json) — approved PR #9, live books and retained HTTPS checks.
+
+- [Puri visitor essentials review](puri-visitor-essentials-review.json) — sources, layout review and actual books.
