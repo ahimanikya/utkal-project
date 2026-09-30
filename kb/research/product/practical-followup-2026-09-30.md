@@ -38,3 +38,9 @@ The [DNS and HTTPS record](../../records/evidence/practical-followup-2026-09-30/
 315 site tests, 10 coastal tests and 64 page checks passed. The existing integration test now also checks visitor-help text and its source in each page and both book formats. Desktop and 360px iframe views were inspected. The coastal release remains 16 pages, with preview notices and the same publication boundary.
 
 Native PDF pagination remains unverified (UTP-WORK-080). The in-app browser previously exposed no print dialog; the requested Chrome choice is still pending. No new print attempt or browser workaround was made. This candidate needs Founder review before publication; Store and other held pages remain excluded.
+
+## Publication follow-up · Founder approved
+
+The Founder replied “approved”. PR #6 merged at `e55be1ef25158158fe4f43fa73f722c20126f5c2`; [Pages run 36784303118](https://github.com/ahimanikya/utkal-project/actions/runs/36784303118) succeeded. Live rendered checks passed for all seven updated guides. A separate synthetic Puri journey was saved; the browser reported an offline-book download, but fresh files were not found in the expected folder, so actual-file inspection remains open as UTP-WORK-099. Existing automated HTML/text integration checks passed. Earlier candidate notices describe preparation and are preserved as history.
+
+[Publication and smoke evidence](../../records/practical-publication.json). Native PDF, HTTPS enforcement and local-service checks remain separately tracked.

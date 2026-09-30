@@ -82,3 +82,5 @@
 - [Launch-quality publication and live verification](launch-quality-publication.json)
 
 - [Coastal practical follow-up review](practical-followup-review.json)
+
+- [Practical update publication and live checks](practical-publication.json)

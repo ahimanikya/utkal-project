@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T22:06:20.878486+00:00",
+  "recorded_at": "2026-09-30T22:19:13.353357+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2664,25 +2664,52 @@
       "id": "UTP-WORK-098",
       "title": "Connect coastal guides to official visitor help and define local verification",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-077",
-      "next_action": "Founder review of this bounded candidate before publishing. Follow the separate local-verification, HTTPS and native-print queues.",
+      "next_action": "Published under UTP-DEC-078 / UTP-REL-008. Continue separate local-service, native-PDF, HTTPS and actual-download follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-077",
         "UTP-WORK-097",
         "UTP-WORK-095",
-        "UTP-REV-053"
+        "UTP-REV-053",
+        "UTP-DEC-078",
+        "UTP-REV-054",
+        "UTP-REL-008",
+        "UTP-WORK-099"
       ],
       "evidence": [
         "research/product/practical-followup-2026-09-30.md",
-        "records/practical-followup-review.json"
+        "records/practical-followup-review.json",
+        "records/practical-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-099",
+      "title": "Locate and inspect fresh browser tour-book downloads after PR 6",
+      "category": "release_verification",
+      "status": "ready",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-078",
+      "next_action": "Inspect the supported browser download destination/UI. Verify actual HTML and text files contain Puri guidance and official sources; distinguish from already passing generation tests. Use the existing labelled synthetic journey and preserve personal plans.",
+      "blockers": [],
+      "refs": [
+        "UTP-WORK-098",
+        "UTP-REV-054"
+      ],
+      "evidence": [
+        "records/evidence/practical-publication-2026-09-30/download-check.json"
       ]
     }
   ],
@@ -4215,6 +4242,27 @@
       "evidence": [
         "research/product/practical-followup-2026-09-30.md"
       ]
+    },
+    {
+      "id": "UTP-DEC-078",
+      "title": "Publish the reviewed coastal visitor-help update",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Merge PR 6 at fc960d52fe9a394dec5f36edca5eb458425cf8b6 and publish its reviewed coastal preview. Preserve exclusions and preview notices. Record deployment and live checks. No broader field acceptance or domain reset.",
+      "recorded_at": "2026-09-30T22:19:13.353357+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-098",
+        "UTP-REL-008"
+      ],
+      "evidence": [
+        "records/evidence/practical-publication-2026-09-30/approval.json",
+        "records/practical-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -5501,6 +5549,31 @@
       "evidence": [
         "records/practical-followup-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-054",
+      "title": "Approved practical update publication smoke review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native A4/Letter PDF pagination remains unverified under UTP-WORK-080.",
+        "HTTPS enforcement remains blocked by GitHub certificate provisioning under UTP-WORK-095; no domain reset was attempted.",
+        "Local-service confirmation and further editorial review remain open under UTP-WORK-097.",
+        "Fresh browser download files could not be located for inspection; UTP-WORK-099 records the follow-up. Page/HTML/text integration checks passed before publication.",
+        "Same AI assistant implemented and performed the live smoke review."
+      ],
+      "refs": [
+        "UTP-WORK-098",
+        "UTP-WORK-099",
+        "UTP-DEC-078"
+      ],
+      "evidence": [
+        "records/practical-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -5636,6 +5709,23 @@
         "records/evidence/launch-quality-publication-2026-09-30/deployment.json"
       ],
       "note": "PR 5 merged at 27c85cd; Pages run 36781616965 succeeded. Seven updated passages and two actual book downloads verified. Coastal scope, preview labels and held-page exclusions retained."
+    },
+    {
+      "id": "UTP-REL-008",
+      "title": "Coastal official-help guidance published",
+      "status": "published",
+      "authorization": "UTP-DEC-078",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-078",
+        "UTP-WORK-098",
+        "UTP-REV-054"
+      ],
+      "evidence": [
+        "records/practical-publication.json",
+        "records/evidence/practical-publication-2026-09-30/deployment.json"
+      ],
+      "note": "PR 6 merged at e55be1e; Pages run 36784303118 succeeded. Seven live guide checks passed. Actual download-file inspection remains unverified; no PDF or local-service claims added."
     }
   ],
   "sources": [

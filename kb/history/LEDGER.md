@@ -700,3 +700,9 @@ The Founder approved PR #5. Seven practical passages now appear on the public si
 Seven guides now offer an official place to begin asking. A broken directory and contradictory station widget were excluded; the next local confirmations are concrete tasks.
 
 [Practical follow-up](../research/product/practical-followup-2026-09-30.md). Review candidate, not deployed.
+
+## UTP-HIS-0112 · The questions now have a starting point
+
+The Founder approved PR #6. Official-help guidance reached all seven public guides. The release record preserves both successful checks and the unverified delivery of fresh downloaded files.
+
+[Publication evidence](../records/practical-publication.json). Approved preview published.

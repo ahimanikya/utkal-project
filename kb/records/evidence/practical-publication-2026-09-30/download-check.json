@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-09-30T22:18:04.332849+00:00",
+  "journey": "UTP practical release check",
+  "saved_idea": "place:puri",
+  "browser_actions": [
+    "Created a separate named test journey without replacing existing plans",
+    "Saved Puri from the live guide",
+    "Clicked Download offline book",
+    "Clicked Download text itinerary; retried once"
+  ],
+  "observed_feedback": "Offline book downloaded using your note-sharing choice. Keep a JSON backup for editing.",
+  "files_found_in_expected_downloads_directory": false,
+  "status": "actual_download_files_not_verified",
+  "interpretation": "Browser feedback alone is insufficient to confirm file delivery. Fresh files were not found in the expected Downloads directory; cause and destination remain undetermined. This does not invalidate the passing page/HTML/text integration tests, but is a separate smoke-check limitation.",
+  "next_action": "Inspect the browser download destination or supported download UI before claiming actual-file verification; no switch to another browser performed."
+}
