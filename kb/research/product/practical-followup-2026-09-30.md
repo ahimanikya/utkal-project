@@ -7,7 +7,7 @@ title: Practical coastal follow-up — 30 September 2026
 
 The Founder’s “go” authorised the next practical-information and launch follow-up. Seven existing notebooks now link to the working Odisha Tourism tourist-office directory, with a question appropriate to the guide. The passages and directory reference travel in HTML and text books. Source attribution stays in the page-end disclosure. No contact details are copied into a stale local directory.
 
-[Local Puri preview](http://127.0.0.1:4354/destinations/puri/#visit-notebook) · [Review evidence](../../records/practical-followup-review.json)
+[Draft PR #6](https://github.com/ahimanikya/utkal-project/pull/6) · [Local Puri preview](http://127.0.0.1:4354/destinations/puri/#visit-notebook) · [Review evidence](../../records/practical-followup-review.json)
 
 Puri’s preparation passage now identifies Puri railway station using the [district government’s temple page](https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple). It does not claim a checked train service or transfer. The earlier conflicting Incredible India transport widget remains excluded. The official site’s “Visitor Information Centers” navigation link rendered a 404; the separate [tourist-office directory](https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html) worked and lists Bhubaneswar, Konark and Puri. No listed contact was called.
 
