@@ -18,3 +18,5 @@ The candidate keeps the reminder until the reader confirms a kept copy or a curr
 At the Founder’s request, a fresh read-only check found valid HTTPS serving, HTTP returning 200 without a redirect, and GitHub reporting `dns_changed` with enforcement disabled. DNS matched GitHub Pages requirements. GitHub documents removing and re-adding the custom domain to restart provisioning. That reset has not been performed because it briefly disconnects the live domain. The underlying reason for the stuck issuance state is not exposed by GitHub.
 
 [Recorded hosting state](../../records/evidence/contribution-draft-care-2026-09-30/hosting-status.json). UTP-WORK-095 remains blocked. Native PDF and local-service verification remain open separately. This contribution candidate is not deployed.
+
+[Draft PR #8](https://github.com/ahimanikya/utkal-project/pull/8) · [Local contribution preview](http://127.0.0.1:4354/contribute/)
