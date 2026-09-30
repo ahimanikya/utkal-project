@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-09-30T22:51:45.596681+00:00",
+  "authorization": "UTP-DEC-081",
+  "status": "pass_with_limitations",
+  "independent": false,
+  "changes": [
+    "Download request no longer clears unsaved-draft protection.",
+    "Reader can acknowledge a kept copy; later edits restore protection.",
+    "Stale clipboard completion cannot mark a newer draft kept.",
+    "Hidden new-subject fields and counters stay hidden together; stale issue links remain invalidated on edits."
+  ],
+  "verification": {
+    "site_tests": 318,
+    "coastal_tests": 10,
+    "page_checks": 64,
+    "public_pages": 16,
+    "browser": "Actual synthetic text download, validation, acknowledgement and generated issue-link invalidation verified."
+  },
+  "limitations": [
+    "Same assistant implemented and reviewed; not independent.",
+    "Native leave-page dialog and clipboard delivery not exercised; state transitions and stale copy completion covered by tests.",
+    "Pointer activations intermittently did not change the page; remaining actions verified by keyboard.",
+    "Candidate not published. HTTPS provisioning, native PDFs and local-service verification remain separate."
+  ],
+  "evidence": [
+    "records/evidence/contribution-draft-care-2026-09-30/browser-checks.json",
+    "records/evidence/contribution-draft-care-2026-09-30/build.log",
+    "records/evidence/contribution-draft-care-2026-09-30/coast-tests.log",
+    "records/evidence/contribution-draft-care-2026-09-30/coast.log",
+    "records/evidence/contribution-draft-care-2026-09-30/draft-feedback.png",
+    "records/evidence/contribution-draft-care-2026-09-30/hosting-status.json",
+    "records/evidence/contribution-draft-care-2026-09-30/page-acceptance.json",
+    "records/evidence/contribution-draft-care-2026-09-30/tests.log"
+  ]
+}
