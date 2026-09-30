@@ -28,3 +28,5 @@ Full and coastal builds passed, along with 318 site tests, 10 coastal tests and 
 [Structured review](../../records/puri-visitor-essentials-review.json) · [Source inspection](../../records/evidence/puri-visitor-essentials-2026-09-30/source-inspection.json) · [Actual books](../../records/evidence/puri-visitor-essentials-2026-09-30/actual-books.json) · [Local preview](http://127.0.0.1:4354/destinations/puri/#visit-notebook)
 
 Candidate for Founder review, not deployed. The public coastal scope remains 16 pages; the Store and broader collection remain held. UTP-WORK-097 remains open for direct confirmations; native printing remains UTP-WORK-080.
+
+[Draft PR #10](https://github.com/ahimanikya/utkal-project/pull/10).
