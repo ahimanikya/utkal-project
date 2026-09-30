@@ -76,3 +76,5 @@
 - [Coastal draft PR review](release-pr-review.json)
 
 - [Coastal preview publication · 30 September 2026](coastal-publication-review.json)
+
+- [Launch-quality follow-up · delivery, guide evidence and print](launch-quality-review.json)

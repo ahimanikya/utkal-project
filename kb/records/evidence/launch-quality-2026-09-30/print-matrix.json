@@ -1,0 +1,92 @@
+{
+  "method": "Synthetic fixtures made with the current production book generator; not browser downloads or native PDFs.",
+  "settings": {
+    "paper": [
+      "A4",
+      "Letter"
+    ],
+    "scale": "100%",
+    "margins": "18mm CSS default; record actual dialog setting",
+    "headers_footers": "off"
+  },
+  "cases": [
+    {
+      "view": "journey",
+      "paper": "A4",
+      "status": "not_tested",
+      "checks": [
+        "all pages",
+        "long-note end marker",
+        "Odia glyphs",
+        "heading separation",
+        "uncut photographs if present",
+        "sources and photograph credits"
+      ]
+    },
+    {
+      "view": "journey",
+      "paper": "Letter",
+      "status": "not_tested",
+      "checks": [
+        "all pages",
+        "long-note end marker",
+        "Odia glyphs",
+        "heading separation",
+        "uncut photographs if present",
+        "sources and photograph credits"
+      ]
+    },
+    {
+      "view": "text-book",
+      "paper": "A4",
+      "status": "not_tested",
+      "checks": [
+        "all pages",
+        "long-note end marker",
+        "Odia glyphs",
+        "heading separation",
+        "uncut photographs if present",
+        "sources and photograph credits"
+      ]
+    },
+    {
+      "view": "text-book",
+      "paper": "Letter",
+      "status": "not_tested",
+      "checks": [
+        "all pages",
+        "long-note end marker",
+        "Odia glyphs",
+        "heading separation",
+        "uncut photographs if present",
+        "sources and photograph credits"
+      ]
+    },
+    {
+      "view": "photo-book",
+      "paper": "A4",
+      "status": "not_tested",
+      "checks": [
+        "all pages",
+        "long-note end marker",
+        "Odia glyphs",
+        "heading separation",
+        "uncut photographs if present",
+        "sources and photograph credits"
+      ]
+    },
+    {
+      "view": "photo-book",
+      "paper": "Letter",
+      "status": "not_tested",
+      "checks": [
+        "all pages",
+        "long-note end marker",
+        "Odia glyphs",
+        "heading separation",
+        "uncut photographs if present",
+        "sources and photograph credits"
+      ]
+    }
+  ]
+}

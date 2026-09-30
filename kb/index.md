@@ -78,3 +78,5 @@ This directory contains the organizational and working model, roles, work record
 - [Current coastal launch-readiness review](research/product/launch-readiness-2026-09-30.md)
 
 - [Coastal preview publication · 30 September 2026](research/product/coastal-publication-2026-09-30.md)
+
+- [Launch-quality follow-up · delivery, guide evidence and print](research/product/launch-quality-2026-09-30.md)
