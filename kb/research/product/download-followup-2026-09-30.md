@@ -15,7 +15,7 @@ The site previously said a book was downloaded immediately after requesting a br
 
 The HTML book and printable journey also describe their source as the collection loaded in the page. This explains why a previously opened page can export older guide text. Existing sources, personal-note controls and editorial notices remain intact.
 
-[Local candidate](http://127.0.0.1:4354/journey/) · [Structured review](../../records/download-followup-review.json)
+[Draft PR #7](https://github.com/ahimanikya/utkal-project/pull/7) · [Local candidate](http://127.0.0.1:4354/journey/) · [Structured review](../../records/download-followup-review.json)
 
 ## Verification
 
