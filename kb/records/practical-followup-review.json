@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-09-30T22:06:20.878486+00:00",
+  "authorization": "UTP-DEC-077",
+  "status": "pass_with_limitations",
+  "independent": false,
+  "changes": [
+    "Seven guide-specific Where to ask passages link to the official tourist-office directory and travel in both portable formats.",
+    "Puri station identity supported by Puri district, excluding contradictory third-party transport-widget inference.",
+    "Seven-guide local-verification queue specifies confirmation role, evidence and separate human acceptance.",
+    "HTTPS DNS and certificate diagnosis preserved."
+  ],
+  "verification": {
+    "site_tests": 315,
+    "coastal_tests": 10,
+    "page_checks": 64,
+    "browser": "Puri desktop DOM and screenshot; 360px iframe visual inspection of help section. This is not physical-device testing.",
+    "preview": "http://127.0.0.1:4354/destinations/puri/#visit-notebook",
+    "phone_fixture": "Compiled coastal Puri HTML with a base URL for assets and an added anchor at Where to ask, displayed in a 360px iframe. Used for layout only, not interactive-function verification."
+  },
+  "limitations": [
+    "Official pages were inspected online; no office called and no venue, host, room, menu or transport inspected.",
+    "Native A4/Letter PDF checks remain unperformed; no browser switch occurred.",
+    "HTTPS enforcement is blocked by GitHub certificate issuance; HTTPS itself returns 200 with valid TLS.",
+    "Same assistant implemented and reviewed. Founder editorial acceptance and publication approval remain separate."
+  ],
+  "evidence": [
+    "records/evidence/practical-followup-2026-09-30/source-checks.json",
+    "records/evidence/practical-followup-2026-09-30/https-diagnostics.json",
+    "records/evidence/practical-followup-2026-09-30/page-acceptance.json",
+    "records/evidence/practical-followup-2026-09-30/build.log",
+    "records/evidence/practical-followup-2026-09-30/tests.log",
+    "records/evidence/practical-followup-2026-09-30/coast.log",
+    "records/evidence/practical-followup-2026-09-30/coast-tests.log",
+    "records/evidence/practical-followup-2026-09-30/puri-desktop.png",
+    "records/evidence/practical-followup-2026-09-30/puri-phone.png",
+    "records/evidence/practical-followup-2026-09-30/phone-review.html",
+    "records/evidence/practical-followup-2026-09-30/puri-fixture.html"
+  ],
+  "publication": "candidate_not_deployed"
+}

@@ -77,3 +77,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 - [Coastal preview publication · 30 September 2026](coastal-publication-2026-09-30.md)
 
 - [Launch-quality follow-up · delivery, guide evidence and print](launch-quality-2026-09-30.md)
+
+- [Coastal practical follow-up · official help and local verification](practical-followup-2026-09-30.md)

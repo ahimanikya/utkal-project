@@ -41,6 +41,8 @@ export function copyIdea(library,sourceId,targetId,itemId){
 export const hasJourneyContent=plan=>plan.items.length>0||(plan.dayNotes||[]).length>0||(plan.reminders||[]).length>0;
 export const visitPrompts=entry=>entry?.visitNotebook?[
  {heading:'Notice',text:entry.visitNotebook.notice},{heading:'Connect with care',text:entry.visitNotebook.connect},
- {heading:'Before you go',text:entry.visitNotebook.prepare},{heading:'Leave room for',text:entry.visitNotebook.pair.text},
+ {heading:'Before you go',text:entry.visitNotebook.prepare},
+ ...(entry.visitNotebook.planning_help?[{heading:'Where to ask',text:entry.visitNotebook.planning_help.text+' See '+entry.visitNotebook.planning_help.label+' in Sources.'}]:[]),
+ {heading:'Leave room for',text:entry.visitNotebook.pair.text},
  {heading:'Bring home a memory',text:entry.visitNotebook.remember}
 ]:[];

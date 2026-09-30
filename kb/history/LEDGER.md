@@ -694,3 +694,9 @@ The work record now distinguishes published functionality from open editorial ca
 The Founder approved PR #5. Seven practical passages now appear on the public site, and real book downloads retain their references. Paper choice is respected; native pagination and local-service verification remain open.
 
 [Publication evidence](../records/launch-quality-publication.json). Approved preview update published.
+
+## UTP-HIS-0111 · A question needs somewhere to go
+
+Seven guides now offer an official place to begin asking. A broken directory and contradictory station widget were excluded; the next local confirmations are concrete tasks.
+
+[Practical follow-up](../research/product/practical-followup-2026-09-30.md). Review candidate, not deployed.

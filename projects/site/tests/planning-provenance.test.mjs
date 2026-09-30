@@ -19,6 +19,11 @@ test('planning references survive page rendering and both portable formats for a
   }
   assert.ok(book.includes(escapeHTML(note.prepare)));
   assert.ok(text.includes(note.prepare));
+  assert.ok(html.includes(escapeHTML(note.planning_help.text)));
+  assert.ok(html.includes(`href="${note.planning_help.url}"`));
+  assert.ok(book.includes(escapeHTML(note.planning_help.text)));
+  assert.ok(text.includes(note.planning_help.text));
+  assert.ok(note.planning_sources.some(source=>source.url===note.planning_help.url));
  }
 });
 test('portable print style lets the user choose A4 or Letter and preserves long Odia notes',()=>{

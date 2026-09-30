@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5c58bc80d000742a8ef7cb675b6fc815ea306f493a04d1417b5ad867baead725`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c360560140c1f64e106941a1305b519b71d54bdba7fbf8f2d66127981d1ff176`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -107,9 +107,10 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-092 · Coastal launch readiness and actual portable-book review | completed | applied | Ahimanikya Satapathy | Reviewed coastal preview accepted and published under UTP-DEC-074 / UTP-REL-006. Native PDF remains UTP-WORK-080; hosting follow-up UTP-WORK-095. | — |
 | UTP-WORK-093 · Consolidate the coastal candidate in draft PR 4 | completed | applied | Ahimanikya Satapathy | Reviewed coastal preview accepted and published under UTP-DEC-074 / UTP-REL-006. Native PDF remains UTP-WORK-080; hosting follow-up UTP-WORK-095. | — |
 | UTP-WORK-094 · Publish and verify the approved coastal preview | completed | published | Ahimanikya Satapathy | Published. Continue native PDF verification and certificate enforcement as separately tracked follow-ups. | — |
-| UTP-WORK-095 · Enable HTTPS enforcement after GitHub certificate issuance | blocked | draft | Ahimanikya Satapathy | On the next hosting pass, inspect certificate state; once ready, enable HTTPS enforcement and verify the HTTP redirect. No recurring monitoring was scheduled. | GitHub rejected https_enforced=true because the certificate has not finished being issued; state dns_changed. |
+| UTP-WORK-095 · Enable HTTPS enforcement after GitHub certificate issuance | blocked | draft | Ahimanikya Satapathy | DNS matches documented GitHub configuration and HTTPS works; enforcement still rejected. Recheck issuance on the next hosting pass. If still stuck, plan a domain-provisioning reset with preserved settings and maintenance window; no reset or recurring monitor performed. | GitHub rejected https_enforced=true because the certificate has not finished being issued; state dns_changed. |
 | UTP-WORK-096 · Reconcile coastal delivery and improve seven-guide planning evidence | completed | published | Ahimanikya Satapathy | Published under UTP-DEC-076 / UTP-REL-007. Continue UTP-WORK-080 native PDF, UTP-WORK-095 certificate enforcement and UTP-WORK-097 editorial/local-arrangement review. | — |
-| UTP-WORK-097 · Resolve seven-guide editorial and local-arrangement review | awaiting_review | draft | Ahimanikya Satapathy | Review guide-specific planning/source findings and native Odia wording. Verify entry/access, hosts, facilities and services before stronger recommendations; no outreach or appointments undertaken. | — |
+| UTP-WORK-097 · Resolve seven-guide editorial and local-arrangement review | awaiting_review | draft | Ahimanikya Satapathy | Use the seven-guide coastal-verification queue: record dated scoped evidence from the relevant custodian or provider and separate Founder acceptance. Official directory inspected; no outreach or local inspection undertaken. | — |
+| UTP-WORK-098 · Connect coastal guides to official visitor help and define local verification | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of this bounded candidate before publishing. Follow the separate local-verification, HTTPS and native-print queues. | — |
 
 ## Pending human review and decisions
 
@@ -178,7 +179,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-089 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
-| UTP-WORK-097 | Review guide-specific planning/source findings and native Odia wording. Verify entry/access, hosts, facilities and services before stronger recommendations; no outreach or appointments undertaken. |
+| UTP-WORK-097 | Use the seven-guide coastal-verification queue: record dated scoped evidence from the relevant custodian or provider and separate Founder acceptance. Official directory inspected; no outreach or local inspection undertaken. |
+| UTP-WORK-098 | Founder review of this bounded candidate before publishing. Follow the separate local-verification, HTTPS and native-print queues. |
 
 ## Decisions
 
@@ -259,6 +261,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-074 · Approve reviewed coastal preview merger and publication | approved | Ahimanikya Satapathy | Approve PR 4 at 7ed21650133e8fab7f1a8a7d63ac5eab1add0f04 and gated coastal preview publication, retaining preview labels, noindex and held-page exclusions. Native PDF remains unverified; this is not blanket editorial approval of the research archive. |
 | UTP-DEC-075 · Proceed with launch-quality follow-up | approved | Ahimanikya Satapathy | Reconcile delivered functionality against the published coastal release, verify native tour-book printing where available, and strengthen source-supported practical guidance for the seven guides. Prepare a reviewable batch; no new site deployment, held-page publication or blanket editorial acceptance. |
 | UTP-DEC-076 · Approve PR 5 and publish the launch-quality follow-up | approved | Ahimanikya Satapathy | Approve the reviewed PR 5 at fabbbe86e9345d1c98287a3a28dc3362ee55dc14 for merger and gated coastal preview publication. Retain native print, certificate and editorial/local-service limitations. |
+| UTP-DEC-077 · Continue coastal practical-information and launch checks | approved | Ahimanikya Satapathy | Prepare practical guide improvements and local-verification work, diagnose HTTPS and pursue native printing within existing browser permission. No new publication, domain reset, outreach or blanket editorial acceptance. |
 
 ## Reviews
 
@@ -314,6 +317,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-050 | pass_with_limitations | False | Native PDF pagination remains unverified in UTP-WORK-080.; HTTPS loads, but GitHub has not finished issuing its replacement certificate; automatic HTTPS enforcement remains disabled.; Same AI assistant performed implementation and smoke review; no independent human, physical-device or screen-reader audit is claimed.; Preview publication approval does not establish exhaustive editorial acceptance, source verification or approval of held research pages. |
 | UTP-REV-051 | pass_with_limitations | False | Native PDF pagination remains unverified; in-app CMD+P exposed no print interface. Permission to switch to Chrome requested, not received at time of this record.; Screen review at a 360px iframe and desktop is not a physical-device or screen-reader audit.; Official-source passages were checked, but current facilities, transport, entry eligibility, hosts, menus and stays have not been field-verified.; Same AI assistant implemented and reviewed; Founder editorial approval remains separate.; No new public deployment, Store exposure, outreach, booking, paid service or analytics setup. |
 | UTP-REV-052 | pass_with_limitations | False | Native A4/Letter PDF pagination remains unverified under UTP-WORK-080. Paper-size CSS verification is not native print verification.; GitHub reports certificate state dns_changed and HTTPS enforcement disabled; HTTPS loads. UTP-WORK-095 remains open.; Preview publication is not exhaustive editorial acceptance or local-service verification; UTP-WORK-097 remains open.; Same AI assistant performed implementation and live smoke review. |
+| UTP-REV-053 | pass_with_limitations | False | Official pages were inspected online; no office called and no venue, host, room, menu or transport inspected.; Native A4/Letter PDF checks remain unperformed; no browser switch occurred.; HTTPS enforcement is blocked by GitHub certificate issuance; HTTPS itself returns 200 with valid TLS.; Same assistant implemented and reviewed. Founder editorial acceptance and publication approval remain separate. |
 
 ## Publication and application history
 
@@ -363,7 +367,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-079 | 2026-09-30T15:38:15.976323+00:00 | Prepared 50 visitor/reliability improvements, 42 bounded editorial reviews, 64 page checks, 24 responsive inspections and 20 regression checklist checks. 100 full-site and 10 coastal tests pass; 72-page draft and 16-page coastal edition retained. Final record reconciliation is separately evidenced. | Morning review of the local candidate and named editorial limitations; native PDF pagination remains open. |
 | UTP-EVT-080 | 2026-09-30T16:08:35.060295+00:00 | Delivered seven original visit notebooks and day-level private planning, group moves/shifts, guarded undo and copy between journeys. 205 site tests, 10 coastal tests, 64 route checks and 24 responsive measurements pass. Final KB reconciliation has its own evidence. | Founder review of local candidate; retain open native PDF and editorial questions. |
 | UTP-EVT-081 | 2026-09-30T16:08:35.060295+00:00 | Old audit tool output path refreshed the previous batch page-acceptance.json. Original manifest hash retained and loss of original artifact bytes disclosed. New default writes to .astro; explicitly archived output now belongs to this batch. | Use the correction record when interpreting first-batch page audit evidence. |
 | UTP-EVT-082 | 2026-09-30T16:41:27.894757+00:00 | Prepared personal reminders, 42 guide-specific questions, day-sized book selection and explicit import choices. 313 site tests, 10 coastal tests, 64 route checks and 18 responsive inspections pass. Browser exercised synthetic imports, privacy and stale-tab behavior. Final record reconciliation has its own evidence. | Combined Founder review when ready; native PDF and editorial/source limitations remain. |
@@ -373,6 +376,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-086 | 2026-09-30T21:07:19.459847+00:00 | Founder approved the reviewed candidate. PR 4 merged at the exact approved head; gated Pages deployment succeeded. Live coastal search, journey save and shareable photo-book checks passed. | Retain native PDF and HTTPS-enforcement follow-ups; no automatic monitoring scheduled. |
 | UTP-EVT-087 | 2026-09-30T21:31:40.278259+00:00 | Reconciled 38 existing tasks against the approved coastal release, improved seven planning passages with source trails, and removed forced A4 paper size. Tests pass; native print remains unverified. | Review candidate; finish native PDF with an authorised supported browser. No new deployment. |
 | UTP-EVT-088 | 2026-09-30T21:51:56.123651+00:00 | Founder approved PR 5. Exact reviewed head merged; gated Pages deployment succeeded. All seven updated planning passages and actual HTML/text book sources verified on the public site. | Native PDF, certificate enforcement and editorial/local-service checks remain separately tracked. |
+| UTP-EVT-089 | 2026-09-30T22:06:20.878486+00:00 | Seven official-help passages prepared with portable-book coverage; Puri station source clarified; local confirmation queue made concrete. Correct DNS and blocked GitHub certificate enforcement documented. | Founder review before publishing; local-service and native-PDF verification remain open. |
 
 ## Deferred extensions
 
