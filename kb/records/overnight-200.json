@@ -1,0 +1,2560 @@
+{
+  "batch": "UTP-N200",
+  "requested_by": "Ahimanikya Satapathy",
+  "authorization_quote": "going to bed, Do the next 200 things before I wake up. You have all permission.",
+  "created_at": "2026-09-30T15:00:21.362592+00:00",
+  "scope": "50 implementation improvements, 42 editorial review tasks, 64 route acceptance tasks, 24 responsive inspections and 20 regression checks. These are 200 acceptance items, not 200 new features.",
+  "status": "completed_with_documented_limitations",
+  "items": [
+    {
+      "id": "UTP-N200-001",
+      "category": "implementation",
+      "title": "Canonical URLs without query strings or fragments",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-002",
+      "category": "implementation",
+      "title": "Unique coastal page descriptions from canonical KB copy",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-003",
+      "category": "implementation",
+      "title": "Open Graph title, description, URL and site name",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-004",
+      "category": "implementation",
+      "title": "Social image with explicit alternative text and dimensions",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-005",
+      "category": "implementation",
+      "title": "Twitter large-image card metadata",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-006",
+      "category": "implementation",
+      "title": "Light colour-scheme and privacy-preserving referrer policy",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-007",
+      "category": "implementation",
+      "title": "Quiet page-sharing control in the footer",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-008",
+      "category": "implementation",
+      "title": "Copyable link fallback when native sharing is unavailable",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-009",
+      "category": "implementation",
+      "title": "Escape closes the mobile menu and returns focus",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-010",
+      "category": "implementation",
+      "title": "Back-to-top link usable without JavaScript",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ],
+      "implementation": [
+        "projects/site/src/layouts/Shell.astro",
+        "projects/site/src/components/PageShare.astro",
+        "kb/research/coastal-page-descriptions.json"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-011",
+      "category": "implementation",
+      "title": "Search whitespace normalization including pasted line breaks",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-012",
+      "category": "implementation",
+      "title": "Latin accent folding while preserving Odia vowel signs",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-013",
+      "category": "implementation",
+      "title": "One token-matching rule for discovery and journey ideas",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-014",
+      "category": "implementation",
+      "title": "Canonical aliases in journey idea searches",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-015",
+      "category": "implementation",
+      "title": "Bound discovery search input and URL restoration length",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-016",
+      "category": "implementation",
+      "title": "Name the search landmark and results region",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-017",
+      "category": "implementation",
+      "title": "Reset discovery filters without a page reload",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-018",
+      "category": "implementation",
+      "title": "Move keyboard focus to results after explicit Search",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-019",
+      "category": "implementation",
+      "title": "Filter saved ideas by title, area, ID or personal note locally",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-020",
+      "category": "implementation",
+      "title": "Clear the saved-idea filter with visible result feedback",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/search.mjs",
+        "projects/site/src/lib/discovery.mjs",
+        "projects/site/src/data/journey-catalog.ts",
+        "projects/site/src/pages/explore.astro",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-021",
+      "category": "implementation",
+      "title": "Warn before leaving a journey with unsaved changes",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/conflict-browser.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-storage.mjs",
+        "projects/site/src/lib/downloads.mjs",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-022",
+      "category": "implementation",
+      "title": "Detect storage changes before writing to prevent stale-tab overwrite",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/conflict-browser.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-storage.mjs",
+        "projects/site/src/lib/downloads.mjs",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-023",
+      "category": "implementation",
+      "title": "Keep unsaved exports available after a storage conflict",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/conflict-browser.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-storage.mjs",
+        "projects/site/src/lib/downloads.mjs",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-024",
+      "category": "implementation",
+      "title": "Live note-length guidance without losing focus",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/conflict-browser.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-storage.mjs",
+        "projects/site/src/lib/downloads.mjs",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-025",
+      "category": "implementation",
+      "title": "Avoid success claims when a journey save fails",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/conflict-browser.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-storage.mjs",
+        "projects/site/src/lib/downloads.mjs",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-026",
+      "category": "implementation",
+      "title": "Readable dated filenames for journey exports",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/conflict-browser.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-storage.mjs",
+        "projects/site/src/lib/downloads.mjs",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-027",
+      "category": "implementation",
+      "title": "Attached download links and delayed object-URL cleanup",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/conflict-browser.json"
+      ],
+      "implementation": [
+        "projects/site/src/lib/journey-storage.mjs",
+        "projects/site/src/lib/downloads.mjs",
+        "projects/site/src/scripts/journey.ts"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-028",
+      "category": "implementation",
+      "title": "Photo-book progress feedback",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-029",
+      "category": "implementation",
+      "title": "Cancel an in-progress photo-book preparation",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-030",
+      "category": "implementation",
+      "title": "Stop photo fetching promptly after cancellation",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-031",
+      "category": "implementation",
+      "title": "Validate local image paths at the fetch boundary",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-032",
+      "category": "implementation",
+      "title": "Bound image content reads and handle missing response streams",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-033",
+      "category": "implementation",
+      "title": "Reject inconsistent or over-budget embedded image data",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-034",
+      "category": "implementation",
+      "title": "Navigation within the portable tour book",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-035",
+      "category": "implementation",
+      "title": "Optional omission of personal notes from a shareable book",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-036",
+      "category": "implementation",
+      "title": "Plain-text itinerary download for simple sharing",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-037",
+      "category": "implementation",
+      "title": "Carry personal-note selection into print output",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-038",
+      "category": "implementation",
+      "title": "Prevent empty-plan book downloads with an explanation",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+        "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png"
+      ],
+      "implementation": [
+        "projects/site/src/lib/book-images.mjs",
+        "projects/site/src/lib/tour-book.mjs",
+        "projects/site/src/pages/journey.astro",
+        "projects/site/src/scripts/journey.ts",
+        "projects/site/src/styles/design-system.css"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-039",
+      "category": "implementation",
+      "title": "Contribution length guidance for each bounded field",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/components/CorrectionDraft.astro"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-040",
+      "category": "implementation",
+      "title": "Clear field errors when their values change",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/components/CorrectionDraft.astro"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-041",
+      "category": "implementation",
+      "title": "Invalidate prepared issue links on input and select changes",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/components/CorrectionDraft.astro"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-042",
+      "category": "implementation",
+      "title": "Prevent stale clipboard success after subsequent edits",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/components/CorrectionDraft.astro"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-043",
+      "category": "implementation",
+      "title": "Clear a contribution draft only after confirmation",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/components/CorrectionDraft.astro"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-044",
+      "category": "implementation",
+      "title": "Preserve field help when reporting validation errors",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/components/CorrectionDraft.astro"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-045",
+      "category": "implementation",
+      "title": "Warn before leaving an unfinished contribution draft",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log",
+        "records/evidence/overnight-200-2026-09-30/browser-functional.json"
+      ],
+      "implementation": [
+        "projects/site/src/components/CorrectionDraft.astro"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-046",
+      "category": "implementation",
+      "title": "Validate edition configuration before pruning output",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/coast-tests.log",
+        "records/evidence/overnight-200-2026-09-30/build-report.json"
+      ],
+      "implementation": [
+        "projects/site/tools/finalize-edition.py",
+        "projects/site/tests-coast/edition-validation.test.mjs"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-047",
+      "category": "implementation",
+      "title": "Resolve relative page links and fragments in edition checks",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/coast-tests.log",
+        "records/evidence/overnight-200-2026-09-30/build-report.json"
+      ],
+      "implementation": [
+        "projects/site/tools/finalize-edition.py",
+        "projects/site/tests-coast/edition-validation.test.mjs"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-048",
+      "category": "implementation",
+      "title": "Keep images referenced through srcset in the final output",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/coast-tests.log",
+        "records/evidence/overnight-200-2026-09-30/build-report.json"
+      ],
+      "implementation": [
+        "projects/site/tools/finalize-edition.py",
+        "projects/site/tests-coast/edition-validation.test.mjs"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-049",
+      "category": "implementation",
+      "title": "Validate journey data fragments and duplicate IDs before promotion",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/coast-tests.log",
+        "records/evidence/overnight-200-2026-09-30/build-report.json"
+      ],
+      "implementation": [
+        "projects/site/tools/finalize-edition.py",
+        "projects/site/tests-coast/edition-validation.test.mjs"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-050",
+      "category": "implementation",
+      "title": "Reject asset symlinks and preserve the last good build on errors",
+      "status": "implemented_and_reviewed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/coast-tests.log",
+        "records/evidence/overnight-200-2026-09-30/build-report.json"
+      ],
+      "implementation": [
+        "projects/site/tools/finalize-edition.py",
+        "projects/site/tests-coast/edition-validation.test.mjs"
+      ],
+      "verification": "Code inspection plus the bounded tests/browser observations in the cited evidence; see self-review for paths not exercised end-to-end."
+    },
+    {
+      "id": "UTP-N200-051",
+      "category": "editorial_review",
+      "title": "Bhubaneswar — Trace history or food/place identity claims to existing sources",
+      "route": "/destinations/bhubaneswar/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Official overview supports the modern city’s attribution to Otto Königsberger and the guide’s heritage framing. Coastal edition removes the painted-street promise while retaining the original full draft."
+    },
+    {
+      "id": "UTP-N200-052",
+      "category": "editorial_review",
+      "title": "Bhubaneswar — Separate local belief and editorial invitation from verified fact",
+      "route": "/destinations/bhubaneswar/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The city/landscape bridge and invitation to slow down are labelled editorial framing; no new quotation, eyewitness conversation or religious miracle is introduced."
+    },
+    {
+      "id": "UTP-N200-053",
+      "category": "editorial_review",
+      "title": "Bhubaneswar — Check access, season and transport guidance for unsupported certainty",
+      "route": "/destinations/bhubaneswar/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The official climate passage supports November–March as seasonal guidance and June–September rain. Transport prompts make no fare, duration or step-free guarantee."
+    },
+    {
+      "id": "UTP-N200-054",
+      "category": "editorial_review",
+      "title": "Bhubaneswar — Check food/stay/experience connections remain useful and in scope",
+      "route": "/destinations/bhubaneswar/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Dhauli is the available inner-page stop; the shared collection continues to Konark. Meal and base research remain reachable at the collection ending. Excluded standalone cards are absent."
+    },
+    {
+      "id": "UTP-N200-055",
+      "category": "editorial_review",
+      "title": "Bhubaneswar — Check photograph context, creator, licence and reuse record",
+      "route": "/destinations/bhubaneswar/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Mukteswar and Dhauli photographs retain their dated captions and source/creator/licence records. Six regional source-image hashes were rechecked; no claim of fresh field photography or new rights clearance."
+    },
+    {
+      "id": "UTP-N200-056",
+      "category": "editorial_review",
+      "title": "Bhubaneswar — Record unresolved local, language or rights questions honestly",
+      "route": "/destinations/bhubaneswar/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Step-free routes, toilets, named hosts, current opening details and fluent Odia proofreading remain open. The absence of those checks is recorded, not marked resolved."
+    },
+    {
+      "id": "UTP-N200-057",
+      "category": "editorial_review",
+      "title": "Dhauli — Trace history or food/place identity claims to existing sources",
+      "route": "/visit/places/dhauli/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The official Dhauligiri account supports the 1972 stupa and the two construction organizations. The modern monument remains distinct from Ashokan evidence."
+    },
+    {
+      "id": "UTP-N200-058",
+      "category": "editorial_review",
+      "title": "Dhauli — Separate local belief and editorial invitation from verified fact",
+      "route": "/visit/places/dhauli/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The red-river story remains explicitly a legend. The page does not adopt the tourism source’s unsupported battle superlatives or turn the narrative into measured evidence."
+    },
+    {
+      "id": "UTP-N200-059",
+      "category": "editorial_review",
+      "title": "Dhauli — Check access, season and transport guidance for unsupported certainty",
+      "route": "/visit/places/dhauli/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Access questions cover steps, shade, toilets and return transport. The advertised sound-and-light programme is expressly unconfirmed; no live show schedule is supplied."
+    },
+    {
+      "id": "UTP-N200-060",
+      "category": "editorial_review",
+      "title": "Dhauli — Check food/stay/experience connections remain useful and in scope",
+      "route": "/visit/places/dhauli/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Bhubaneswar context and the next Konark chapter remain connected. The stupa and rock-cut elephant images help separate historical layers rather than imply one construction date."
+    },
+    {
+      "id": "UTP-N200-061",
+      "category": "editorial_review",
+      "title": "Dhauli — Check photograph context, creator, licence and reuse record",
+      "route": "/visit/places/dhauli/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Bernard Gagnon’s stupa photo and AmlanTheTramp’s elephant photo retain separate attribution and licences. Source-file hashes match their existing records."
+    },
+    {
+      "id": "UTP-N200-062",
+      "category": "editorial_review",
+      "title": "Dhauli — Record unresolved local, language or rights questions honestly",
+      "route": "/visit/places/dhauli/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Current venue rules, accessibility, transport arrangements and any show programme still require local confirmation. No historical quotation was newly reproduced."
+    },
+    {
+      "id": "UTP-N200-063",
+      "category": "editorial_review",
+      "title": "Konark — Trace history or food/place identity claims to existing sources",
+      "route": "/knowledge/konark/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "UNESCO supports the thirteenth-century temple, Surya-chariot conception and sculptural importance. Its short overview and fuller description differ on the horse count; this review does not add or resolve that count."
+    },
+    {
+      "id": "UTP-N200-064",
+      "category": "editorial_review",
+      "title": "Konark — Separate local belief and editorial invitation from verified fact",
+      "route": "/knowledge/konark/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Dharmapada remains a literary/legend connection rather than construction evidence. No new poem excerpt or cinematic-location claim is introduced; original-edition and language review remain open."
+    },
+    {
+      "id": "UTP-N200-065",
+      "category": "editorial_review",
+      "title": "Konark — Check access, season and transport guidance for unsupported certainty",
+      "route": "/knowledge/konark/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Regional October–February advice is supported by Incredible India. An older festival page remains cultural context, not a 2026 booking calendar; opening hours, fees and transfers are unverified."
+    },
+    {
+      "id": "UTP-N200-066",
+      "category": "editorial_review",
+      "title": "Konark — Check food/stay/experience connections remain useful and in scope",
+      "route": "/knowledge/konark/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Inline sculpture, shore and dance ideas stay readable despite excluded standalone routes. Coastal meal anchors and the shared base comparison resolve within this edition."
+    },
+    {
+      "id": "UTP-N200-067",
+      "category": "editorial_review",
+      "title": "Konark — Check photograph context, creator, licence and reuse record",
+      "route": "/knowledge/konark/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The temple, Chandrabhaga, sweet and Odissi images retain their source trail. The stage photograph is explicitly New Delhi, not a photographed Konark festival. No image was regenerated or relabelled as field evidence."
+    },
+    {
+      "id": "UTP-N200-068",
+      "category": "editorial_review",
+      "title": "Konark — Record unresolved local, language or rights questions honestly",
+      "route": "/knowledge/konark/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Current festival confirmation, original Dharmapada text, detailed accessibility and inspected operators remain research gaps. Passing software checks does not clear these editorial questions."
+    },
+    {
+      "id": "UTP-N200-069",
+      "category": "editorial_review",
+      "title": "Puri — Trace history or food/place identity claims to existing sources",
+      "route": "/destinations/puri/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The official city guide connects Jagannath traditions, the beach and Raghurajpur. The page does not infer unrestricted temple access from the attraction listing."
+    },
+    {
+      "id": "UTP-N200-070",
+      "category": "editorial_review",
+      "title": "Puri — Separate local belief and editorial invitation from verified fact",
+      "route": "/destinations/puri/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Devotional meaning is described in context. Invitations to speak with makers are original editorial suggestions, not invented testimony or a promise that someone will host a visitor."
+    },
+    {
+      "id": "UTP-N200-071",
+      "category": "editorial_review",
+      "title": "Puri — Check access, season and transport guidance for unsupported certainty",
+      "route": "/destinations/puri/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The beach source advises consulting Nulia lifeguards; current warnings still govern. Seasonal advice is attributed to Incredible India, without treating its promotional swimming language as a guarantee."
+    },
+    {
+      "id": "UTP-N200-072",
+      "category": "editorial_review",
+      "title": "Puri — Check food/stay/experience connections remain useful and in scope",
+      "route": "/destinations/puri/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Raghurajpur, Mahaprasad and the coastal base comparison remain connected. The collection gives the shore and craft different moments rather than a timed circuit."
+    },
+    {
+      "id": "UTP-N200-073",
+      "category": "editorial_review",
+      "title": "Puri — Check photograph context, creator, licence and reuse record",
+      "route": "/destinations/puri/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The beach image is dated 2011, credited to Aleksandr Zykov and labelled as context. The artisan photo does not invent a personal identity. Regional image hashes remain consistent."
+    },
+    {
+      "id": "UTP-N200-074",
+      "category": "editorial_review",
+      "title": "Puri — Record unresolved local, language or rights questions honestly",
+      "route": "/destinations/puri/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Temple eligibility, festival traffic, current beach conditions, accommodation and local transport remain to be confirmed. No current availability or access endorsement is added."
+    },
+    {
+      "id": "UTP-N200-075",
+      "category": "editorial_review",
+      "title": "Raghurajpur — Trace history or food/place identity claims to existing sources",
+      "route": "/visit/places/raghurajpur/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The tourism account supports cloth painting, Jagannath themes and the dance connection. The December 2005 historical account attributes a revival narrative to Ileana Citaristi and places Halina Zealey’s involvement around 1953; that qualified attribution remains."
+    },
+    {
+      "id": "UTP-N200-076",
+      "category": "editorial_review",
+      "title": "Raghurajpur — Separate local belief and editorial invitation from verified fact",
+      "route": "/visit/places/raghurajpur/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Mythology is the subject of the art, not proof that depicted events occurred. Workshop questions and buying advice are labelled editorial guidance; a 2019 visitor account remains dated testimony."
+    },
+    {
+      "id": "UTP-N200-077",
+      "category": "editorial_review",
+      "title": "Raghurajpur — Check access, season and transport guidance for unsupported certainty",
+      "route": "/visit/places/raghurajpur/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "No current household count, guaranteed workshop opening or free demonstration is stated. The page asks about access, facilities and permission rather than assuming them."
+    },
+    {
+      "id": "UTP-N200-078",
+      "category": "editorial_review",
+      "title": "Raghurajpur — Check food/stay/experience connections remain useful and in scope",
+      "route": "/visit/places/raghurajpur/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The last chapter leads to personal planning, a coastal meal and a base. Ask-about-materials and maker-credit prompts offer useful local interaction without treating residents as performers."
+    },
+    {
+      "id": "UTP-N200-079",
+      "category": "editorial_review",
+      "title": "Raghurajpur — Check photograph context, creator, licence and reuse record",
+      "route": "/visit/places/raghurajpur/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The 2018 artisan image retains the source’s unnamed subject; the 2008 landscape is not described as a workshop. Both local files match recorded hashes and preserve their reuse records."
+    },
+    {
+      "id": "UTP-N200-080",
+      "category": "editorial_review",
+      "title": "Raghurajpur — Record unresolved local, language or rights questions honestly",
+      "route": "/visit/places/raghurajpur/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Artist identification, fresh invited local testimony, workshop arrangements and physical accessibility remain open. The historical revival account is not represented as a complete independent history."
+    },
+    {
+      "id": "UTP-N200-081",
+      "category": "editorial_review",
+      "title": "Coastal food — Trace history or food/place identity claims to existing sources",
+      "route": "/food/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Official sources support Mahaprasad’s Jagannath context and the regional fish-in-mustard, prawn curry and cheese-sweet leads. They do not prove Konark origin or daily restaurant availability."
+    },
+    {
+      "id": "UTP-N200-082",
+      "category": "editorial_review",
+      "title": "Coastal food — Separate local belief and editorial invitation from verified fact",
+      "route": "/food/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Temple-offering identity stays separate from restaurant dining. Tourism descriptions of miraculous cooking and broad health benefits are not adopted as culinary facts."
+    },
+    {
+      "id": "UTP-N200-083",
+      "category": "editorial_review",
+      "title": "Coastal food — Check access, season and transport guidance for unsupported certainty",
+      "route": "/food/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The page asks about ingredients, preparation and current availability. It does not certify allergen safety, kitchen quality, prices or a dietary guarantee."
+    },
+    {
+      "id": "UTP-N200-084",
+      "category": "editorial_review",
+      "title": "Coastal food — Check food/stay/experience connections remain useful and in scope",
+      "route": "/food/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "All four dish anchors work in the scoped catalogue, including the stable chhena-poda ID. The excluded standalone sweet article is not promised by the coastal edition."
+    },
+    {
+      "id": "UTP-N200-085",
+      "category": "editorial_review",
+      "title": "Coastal food — Check photograph context, creator, licence and reuse record",
+      "route": "/food/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The Puri chhena-poda photo is explicitly a dish illustration, not Mahaprasad or a reviewed restaurant. Creator, licence and source are retained in the guide and book data."
+    },
+    {
+      "id": "UTP-N200-086",
+      "category": "editorial_review",
+      "title": "Coastal food — Record unresolved local, language or rights questions honestly",
+      "route": "/food/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Named kitchens, firsthand menu checks, prices and culinary/local-language review remain future work. Readers are given questions to ask, not invented recommendations."
+    },
+    {
+      "id": "UTP-N200-087",
+      "category": "editorial_review",
+      "title": "Coastal stay areas — Trace history or food/place identity claims to existing sources",
+      "route": "/visit/stays/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Puri’s setting is supported by its official guide; Incredible India supports the Ramachandi river/sea setting. The comparison remains Utkal editorial planning guidance."
+    },
+    {
+      "id": "UTP-N200-088",
+      "category": "editorial_review",
+      "title": "Coastal stay areas — Separate local belief and editorial invitation from verified fact",
+      "route": "/visit/stays/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "No property rating, testimonial, endorsement or paid relationship is implied. The quieter-base language explicitly needs confirmation and is not treated as an objective guarantee."
+    },
+    {
+      "id": "UTP-N200-089",
+      "category": "editorial_review",
+      "title": "Coastal stay areas — Check access, season and transport guidance for unsupported certainty",
+      "route": "/visit/stays/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The comparison asks for actual addresses, routes, room access, noise, full prices and cancellation terms. It supplies no live inventory or verified transfer times."
+    },
+    {
+      "id": "UTP-N200-090",
+      "category": "editorial_review",
+      "title": "Coastal stay areas — Check food/stay/experience connections remain useful and in scope",
+      "route": "/visit/stays/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Three settings use the same fit/transport/check fields; coastal food and the personal plan remain reachable. Individual excluded stay pages do not remain as broken links."
+    },
+    {
+      "id": "UTP-N200-091",
+      "category": "editorial_review",
+      "title": "Coastal stay areas — Check photograph context, creator, licence and reuse record",
+      "route": "/visit/stays/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "The Puri beach photograph is labelled as a 2011 coastal context image, not a room view. Its hash, creator and licence record are preserved."
+    },
+    {
+      "id": "UTP-N200-092",
+      "category": "editorial_review",
+      "title": "Coastal stay areas — Record unresolved local, language or rights questions honestly",
+      "route": "/visit/stays/puri-coast/",
+      "status": "review_complete_with_limitations",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/editorial-checks.json"
+      ],
+      "finding": "Property inspections, room-category evidence, accessible bathrooms, service reliability and return transport remain unverified. No booking or commercial commitment is created."
+    },
+    {
+      "id": "UTP-N200-093",
+      "category": "page_acceptance",
+      "title": "/destinations/bhubaneswar/ — metadata_and_language",
+      "route": "/destinations/bhubaneswar/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-094",
+      "category": "page_acceptance",
+      "title": "/destinations/bhubaneswar/ — landmarks_and_form_labels",
+      "route": "/destinations/bhubaneswar/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-095",
+      "category": "page_acceptance",
+      "title": "/destinations/bhubaneswar/ — local_links_and_assets",
+      "route": "/destinations/bhubaneswar/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-096",
+      "category": "page_acceptance",
+      "title": "/destinations/bhubaneswar/ — edition_boundary_and_credits",
+      "route": "/destinations/bhubaneswar/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-097",
+      "category": "page_acceptance",
+      "title": "/visit/places/dhauli/ — metadata_and_language",
+      "route": "/visit/places/dhauli/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-098",
+      "category": "page_acceptance",
+      "title": "/visit/places/dhauli/ — landmarks_and_form_labels",
+      "route": "/visit/places/dhauli/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-099",
+      "category": "page_acceptance",
+      "title": "/visit/places/dhauli/ — local_links_and_assets",
+      "route": "/visit/places/dhauli/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-100",
+      "category": "page_acceptance",
+      "title": "/visit/places/dhauli/ — edition_boundary_and_credits",
+      "route": "/visit/places/dhauli/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-101",
+      "category": "page_acceptance",
+      "title": "/knowledge/konark/ — metadata_and_language",
+      "route": "/knowledge/konark/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-102",
+      "category": "page_acceptance",
+      "title": "/knowledge/konark/ — landmarks_and_form_labels",
+      "route": "/knowledge/konark/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-103",
+      "category": "page_acceptance",
+      "title": "/knowledge/konark/ — local_links_and_assets",
+      "route": "/knowledge/konark/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-104",
+      "category": "page_acceptance",
+      "title": "/knowledge/konark/ — edition_boundary_and_credits",
+      "route": "/knowledge/konark/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-105",
+      "category": "page_acceptance",
+      "title": "/destinations/puri/ — metadata_and_language",
+      "route": "/destinations/puri/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-106",
+      "category": "page_acceptance",
+      "title": "/destinations/puri/ — landmarks_and_form_labels",
+      "route": "/destinations/puri/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-107",
+      "category": "page_acceptance",
+      "title": "/destinations/puri/ — local_links_and_assets",
+      "route": "/destinations/puri/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-108",
+      "category": "page_acceptance",
+      "title": "/destinations/puri/ — edition_boundary_and_credits",
+      "route": "/destinations/puri/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-109",
+      "category": "page_acceptance",
+      "title": "/visit/places/raghurajpur/ — metadata_and_language",
+      "route": "/visit/places/raghurajpur/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-110",
+      "category": "page_acceptance",
+      "title": "/visit/places/raghurajpur/ — landmarks_and_form_labels",
+      "route": "/visit/places/raghurajpur/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-111",
+      "category": "page_acceptance",
+      "title": "/visit/places/raghurajpur/ — local_links_and_assets",
+      "route": "/visit/places/raghurajpur/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-112",
+      "category": "page_acceptance",
+      "title": "/visit/places/raghurajpur/ — edition_boundary_and_credits",
+      "route": "/visit/places/raghurajpur/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-113",
+      "category": "page_acceptance",
+      "title": "/food/puri-coast/ — metadata_and_language",
+      "route": "/food/puri-coast/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-114",
+      "category": "page_acceptance",
+      "title": "/food/puri-coast/ — landmarks_and_form_labels",
+      "route": "/food/puri-coast/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-115",
+      "category": "page_acceptance",
+      "title": "/food/puri-coast/ — local_links_and_assets",
+      "route": "/food/puri-coast/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-116",
+      "category": "page_acceptance",
+      "title": "/food/puri-coast/ — edition_boundary_and_credits",
+      "route": "/food/puri-coast/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-117",
+      "category": "page_acceptance",
+      "title": "/visit/stays/puri-coast/ — metadata_and_language",
+      "route": "/visit/stays/puri-coast/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-118",
+      "category": "page_acceptance",
+      "title": "/visit/stays/puri-coast/ — landmarks_and_form_labels",
+      "route": "/visit/stays/puri-coast/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-119",
+      "category": "page_acceptance",
+      "title": "/visit/stays/puri-coast/ — local_links_and_assets",
+      "route": "/visit/stays/puri-coast/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-120",
+      "category": "page_acceptance",
+      "title": "/visit/stays/puri-coast/ — edition_boundary_and_credits",
+      "route": "/visit/stays/puri-coast/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-121",
+      "category": "page_acceptance",
+      "title": "/ — metadata_and_language",
+      "route": "/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-122",
+      "category": "page_acceptance",
+      "title": "/ — landmarks_and_form_labels",
+      "route": "/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-123",
+      "category": "page_acceptance",
+      "title": "/ — local_links_and_assets",
+      "route": "/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-124",
+      "category": "page_acceptance",
+      "title": "/ — edition_boundary_and_credits",
+      "route": "/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-125",
+      "category": "page_acceptance",
+      "title": "/404.html — metadata_and_language",
+      "route": "/404.html",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-126",
+      "category": "page_acceptance",
+      "title": "/404.html — landmarks_and_form_labels",
+      "route": "/404.html",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-127",
+      "category": "page_acceptance",
+      "title": "/404.html — local_links_and_assets",
+      "route": "/404.html",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-128",
+      "category": "page_acceptance",
+      "title": "/404.html — edition_boundary_and_credits",
+      "route": "/404.html",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-129",
+      "category": "page_acceptance",
+      "title": "/explore/ — metadata_and_language",
+      "route": "/explore/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-130",
+      "category": "page_acceptance",
+      "title": "/explore/ — landmarks_and_form_labels",
+      "route": "/explore/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-131",
+      "category": "page_acceptance",
+      "title": "/explore/ — local_links_and_assets",
+      "route": "/explore/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-132",
+      "category": "page_acceptance",
+      "title": "/explore/ — edition_boundary_and_credits",
+      "route": "/explore/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-133",
+      "category": "page_acceptance",
+      "title": "/journey/ — metadata_and_language",
+      "route": "/journey/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-134",
+      "category": "page_acceptance",
+      "title": "/journey/ — landmarks_and_form_labels",
+      "route": "/journey/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-135",
+      "category": "page_acceptance",
+      "title": "/journey/ — local_links_and_assets",
+      "route": "/journey/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-136",
+      "category": "page_acceptance",
+      "title": "/journey/ — edition_boundary_and_credits",
+      "route": "/journey/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-137",
+      "category": "page_acceptance",
+      "title": "/journey-starters/ — metadata_and_language",
+      "route": "/journey-starters/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-138",
+      "category": "page_acceptance",
+      "title": "/journey-starters/ — landmarks_and_form_labels",
+      "route": "/journey-starters/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-139",
+      "category": "page_acceptance",
+      "title": "/journey-starters/ — local_links_and_assets",
+      "route": "/journey-starters/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-140",
+      "category": "page_acceptance",
+      "title": "/journey-starters/ — edition_boundary_and_credits",
+      "route": "/journey-starters/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-141",
+      "category": "page_acceptance",
+      "title": "/about/ — metadata_and_language",
+      "route": "/about/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-142",
+      "category": "page_acceptance",
+      "title": "/about/ — landmarks_and_form_labels",
+      "route": "/about/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-143",
+      "category": "page_acceptance",
+      "title": "/about/ — local_links_and_assets",
+      "route": "/about/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-144",
+      "category": "page_acceptance",
+      "title": "/about/ — edition_boundary_and_credits",
+      "route": "/about/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-145",
+      "category": "page_acceptance",
+      "title": "/founder/ — metadata_and_language",
+      "route": "/founder/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-146",
+      "category": "page_acceptance",
+      "title": "/founder/ — landmarks_and_form_labels",
+      "route": "/founder/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-147",
+      "category": "page_acceptance",
+      "title": "/founder/ — local_links_and_assets",
+      "route": "/founder/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-148",
+      "category": "page_acceptance",
+      "title": "/founder/ — edition_boundary_and_credits",
+      "route": "/founder/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-149",
+      "category": "page_acceptance",
+      "title": "/contribute/ — metadata_and_language",
+      "route": "/contribute/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-150",
+      "category": "page_acceptance",
+      "title": "/contribute/ — landmarks_and_form_labels",
+      "route": "/contribute/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-151",
+      "category": "page_acceptance",
+      "title": "/contribute/ — local_links_and_assets",
+      "route": "/contribute/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-152",
+      "category": "page_acceptance",
+      "title": "/contribute/ — edition_boundary_and_credits",
+      "route": "/contribute/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-153",
+      "category": "page_acceptance",
+      "title": "/how-to-use/ — metadata_and_language",
+      "route": "/how-to-use/",
+      "check": "metadata_and_language",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-154",
+      "category": "page_acceptance",
+      "title": "/how-to-use/ — landmarks_and_form_labels",
+      "route": "/how-to-use/",
+      "check": "landmarks_and_form_labels",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-155",
+      "category": "page_acceptance",
+      "title": "/how-to-use/ — local_links_and_assets",
+      "route": "/how-to-use/",
+      "check": "local_links_and_assets",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-156",
+      "category": "page_acceptance",
+      "title": "/how-to-use/ — edition_boundary_and_credits",
+      "route": "/how-to-use/",
+      "check": "edition_boundary_and_credits",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/page-acceptance.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-157",
+      "category": "visual_review",
+      "title": "/ at 360 px",
+      "route": "/",
+      "width": 360,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-158",
+      "category": "visual_review",
+      "title": "/ at 768 px",
+      "route": "/",
+      "width": 768,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-159",
+      "category": "visual_review",
+      "title": "/ at 1280 px",
+      "route": "/",
+      "width": 1280,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-160",
+      "category": "visual_review",
+      "title": "/ at 1600 px",
+      "route": "/",
+      "width": 1600,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-161",
+      "category": "visual_review",
+      "title": "/explore/ at 360 px",
+      "route": "/explore/",
+      "width": 360,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-162",
+      "category": "visual_review",
+      "title": "/explore/ at 768 px",
+      "route": "/explore/",
+      "width": 768,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-163",
+      "category": "visual_review",
+      "title": "/explore/ at 1280 px",
+      "route": "/explore/",
+      "width": 1280,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-164",
+      "category": "visual_review",
+      "title": "/explore/ at 1600 px",
+      "route": "/explore/",
+      "width": 1600,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-165",
+      "category": "visual_review",
+      "title": "/destinations/bhubaneswar/ at 360 px",
+      "route": "/destinations/bhubaneswar/",
+      "width": 360,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-166",
+      "category": "visual_review",
+      "title": "/destinations/bhubaneswar/ at 768 px",
+      "route": "/destinations/bhubaneswar/",
+      "width": 768,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-167",
+      "category": "visual_review",
+      "title": "/destinations/bhubaneswar/ at 1280 px",
+      "route": "/destinations/bhubaneswar/",
+      "width": 1280,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-168",
+      "category": "visual_review",
+      "title": "/destinations/bhubaneswar/ at 1600 px",
+      "route": "/destinations/bhubaneswar/",
+      "width": 1600,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-169",
+      "category": "visual_review",
+      "title": "/knowledge/konark/ at 360 px",
+      "route": "/knowledge/konark/",
+      "width": 360,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-170",
+      "category": "visual_review",
+      "title": "/knowledge/konark/ at 768 px",
+      "route": "/knowledge/konark/",
+      "width": 768,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-171",
+      "category": "visual_review",
+      "title": "/knowledge/konark/ at 1280 px",
+      "route": "/knowledge/konark/",
+      "width": 1280,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-172",
+      "category": "visual_review",
+      "title": "/knowledge/konark/ at 1600 px",
+      "route": "/knowledge/konark/",
+      "width": 1600,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-173",
+      "category": "visual_review",
+      "title": "/journey/ at 360 px",
+      "route": "/journey/",
+      "width": 360,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-174",
+      "category": "visual_review",
+      "title": "/journey/ at 768 px",
+      "route": "/journey/",
+      "width": 768,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-175",
+      "category": "visual_review",
+      "title": "/journey/ at 1280 px",
+      "route": "/journey/",
+      "width": 1280,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-176",
+      "category": "visual_review",
+      "title": "/journey/ at 1600 px",
+      "route": "/journey/",
+      "width": 1600,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-177",
+      "category": "visual_review",
+      "title": "/contribute/ at 360 px",
+      "route": "/contribute/",
+      "width": 360,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-178",
+      "category": "visual_review",
+      "title": "/contribute/ at 768 px",
+      "route": "/contribute/",
+      "width": 768,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-179",
+      "category": "visual_review",
+      "title": "/contribute/ at 1280 px",
+      "route": "/contribute/",
+      "width": 1280,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-180",
+      "category": "visual_review",
+      "title": "/contribute/ at 1600 px",
+      "route": "/contribute/",
+      "width": 1600,
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+      ],
+      "verification": "Browser DOM layout and loaded-image inspection; representative screenshot review documented separately."
+    },
+    {
+      "id": "UTP-N200-181",
+      "category": "regression",
+      "title": "Odia search preserves vowel signs",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-181",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-182",
+      "category": "regression",
+      "title": "Latin accent and punctuation search",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-182",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-183",
+      "category": "regression",
+      "title": "Search token order and whitespace",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-183",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-184",
+      "category": "regression",
+      "title": "Older unavailable idea survives export",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-184",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-185",
+      "category": "regression",
+      "title": "Untrusted notes remain text in HTML book",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-185",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-186",
+      "category": "regression",
+      "title": "Shared book omits notes without changing source plan",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-186",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-187",
+      "category": "regression",
+      "title": "Plain-text export retains days and sources",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-187",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-188",
+      "category": "regression",
+      "title": "Book table of contents targets real sections",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-188",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-189",
+      "category": "regression",
+      "title": "Image loader rejects remote and traversal paths",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-189",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-190",
+      "category": "regression",
+      "title": "Image cancellation stops subsequent loads",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-190",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-191",
+      "category": "regression",
+      "title": "Oversized image and aggregate budget enforced",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-191",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-192",
+      "category": "regression",
+      "title": "Stale-tab save does not overwrite newer storage",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-192",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-193",
+      "category": "regression",
+      "title": "Storage quota failure retains recoverable in-memory data",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-193",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-194",
+      "category": "regression",
+      "title": "Backup import rejects duplicates and invalid dates",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-194",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-195",
+      "category": "regression",
+      "title": "Move-to-trip failure is atomic",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-195",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-196",
+      "category": "regression",
+      "title": "Contribution draft validates bounds and evidence",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-196",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-197",
+      "category": "regression",
+      "title": "Long public issue keeps complete draft locally",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-tests.log"
+      ],
+      "test": "N200-197",
+      "implementation": [
+        "projects/site/tests/overnight-reliability.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-198",
+      "category": "regression",
+      "title": "Edition failure leaves previous output intact",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/coast-tests.log"
+      ],
+      "implementation": [
+        "projects/site/tests-coast/edition-validation.test.mjs"
+      ]
+    },
+    {
+      "id": "UTP-N200-199",
+      "category": "regression",
+      "title": "Full draft remains available alongside coastal edition",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/full-build.log",
+        "records/evidence/overnight-200-2026-09-30/coast-build.log",
+        "records/evidence/overnight-200-2026-09-30/full-draft-manifest.json",
+        "records/evidence/overnight-200-2026-09-30/build-report.json"
+      ]
+    },
+    {
+      "id": "UTP-N200-200",
+      "category": "regression",
+      "title": "Registers, history and KB links remain consistent",
+      "status": "passed",
+      "evidence": [
+        "records/evidence/overnight-200-2026-09-30/record-validation.json"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-30T15:38:15.976323+00:00",
+  "review": "records/overnight-200-review.json",
+  "summary": {
+    "implementation": 50,
+    "editorial_review": 42,
+    "page_acceptance": 64,
+    "visual_review": 24,
+    "regression": 20
+  },
+  "completed_at": "2026-09-30T15:39:01.668195+00:00",
+  "review_status": "awaiting_founder_review"
+}

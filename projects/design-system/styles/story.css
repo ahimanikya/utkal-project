@@ -1,0 +1,19 @@
+/* Story patterns: wide visual canvas, bounded prose, purposeful next step. */
+.utk .utk-story-invitation{display:flex;align-items:center;justify-content:space-between;gap:clamp(24px,4vw,64px);padding:clamp(24px,4vw,56px);margin-block:clamp(32px,5vw,72px);background:var(--uds-colour-surface);border-top:3px solid var(--uds-colour-earth)}
+.utk .utk-story-invitation>div{max-width:48rem;min-width:0}
+.utk .utk-story-invitation h2{font-size:clamp(2rem,3.3vw,3.5rem);margin-block:14px 20px}
+.utk .utk-story-invitation p:not(.utk-eyebrow){font:1.125rem/1.8 var(--uds-type-reading);max-width:62ch}
+.utk .utk-story-invitation>.utk-button{flex-shrink:0}
+.utk .utk-story-trail{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,48px);margin-block:32px 56px}
+.utk .utk-story-trail li{min-width:0;padding-block:24px;border-top:1px solid var(--uds-colour-earth);display:flex;align-items:start;gap:18px}
+.utk .utk-story-number{font:2rem/1.1 var(--uds-type-display);color:var(--uds-colour-earth)}
+.utk .utk-story-trail h3{font-size:clamp(1.5rem,2vw,2rem);margin-bottom:14px}
+.utk .utk-story-trail h3 a{display:inline-block;text-decoration-thickness:1px;text-underline-offset:.2em}
+.utk .utk-story-trail p{font-size:1rem;line-height:1.7;max-width:40ch}
+.utk .utk-story-prose{max-width:68ch;font:1.125rem/1.85 var(--uds-type-reading)}
+.utk .utk-story-prose p+p{margin-top:20px}
+.utk .utk-story-pause{margin-block:48px;padding:clamp(24px,4vw,48px);border-left:3px solid var(--uds-colour-earth);background:var(--uds-colour-surface)}
+.utk .utk-story-pause h3{font-size:clamp(1.7rem,2.5vw,2.6rem);margin-block:14px 20px}
+.utk .utk-story-pause p{max-width:58ch}
+@media(max-width:900px){.utk .utk-story-invitation{align-items:start;flex-direction:column}.utk .utk-story-trail{grid-template-columns:1fr;gap:0}.utk .utk-story-trail li{padding-block:22px}.utk .utk-story-trail p{max-width:60ch}}
+@media print{.utk .utk-story-invitation,.utk .utk-story-pause{break-inside:avoid}.utk .utk-story-trail{display:block}}

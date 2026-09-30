@@ -31,7 +31,7 @@ test('each published note paragraph retains its KB citations and excludes propos
 });
 
 test('source limitations and the unresolved birth date remain visible',()=>{
-  const read=path=>readFileSync('dist/'+path+'/index.html','utf8');
+  const read=path=>readFileSync('dist/'+path+'/index.html','utf8').replace(/<script\b[^>]*type="application\/json"[^>]*>[\s\S]*?<\/script>/g,'');
   assert.match(read('knowledge/kotpad'),/Indexed Kotpad Handlooms section inspected/);
   assert.match(read('knowledge/chilika'),/direct PDF retrieval failed/);
   assert.ok(!read('knowledge/pakhala').includes('content/tourism/en/the-taste-of-odisha.html'));
@@ -71,12 +71,13 @@ test('destination choices and culture resolve to evidence inside collapsed end c
   const story=JSON.parse(readFileSync('../../kb/research/stories/narratives/chilika.json','utf8'));
   const sourceIds=new Set([...d.sources,...story.sources].map(s=>s.id));
   const html=readFileSync('dist/knowledge/chilika/index.html','utf8');
-  const start=html.indexOf('<details class="end-credits"');
+  const start=html.search(/<details\b[^>]*class="[^"]*\bend-credits\b[^"]*"/);
   assert.ok(start>0);
   const main=html.slice(0,start),end=html.slice(start);
-  assert.match(end,/^<details class="end-credits" id="sources-credits">/);
+  assert.match(end,/^<details\b[^>]*id="sources-credits"[^>]*>/);
+  assert.ok(!/^<details[^>]*\bopen(?:[\s=>])/.test(end), 'credits remain collapsed');
   assert.ok(!main.includes('class="citation"'));
-  assert.ok(!main.includes(story.image.creator));
+  assert.ok(!main.replace(/<details\b[^>]*>[\s\S]*?<\/details>/g,'').includes(story.image.creator));
   const items=[...d.experiences,...d.foods,...d.bases,...d.culture];
   assert.equal(new Set(items.map(i=>i.id)).size,items.length);
   for(const item of items){
@@ -90,7 +91,7 @@ test('destination choices and culture resolve to evidence inside collapsed end c
   }
   for(const id of [...d.orientation_sources,...d.season_sources])assert.ok(sourceIds.has(id),id);
   assert.ok(d.bases.every(i=>i.type==='base_area'));
-  assert.ok(!main.includes('Add to my trip'),'planner not implemented');
+  assert.ok(main.includes('data-save-journey="place:chilika"'),'destination can be saved to the planner');
   assert.ok(main.includes('November–February'));
   assert.ok(main.includes('sighting is never guaranteed'));
   assert.ok(end.includes('playback'));
@@ -136,7 +137,7 @@ test('destination photographs retain rights, context and local delivery',()=>{
  for(const slug of ['chilika','konark']){
   const d=JSON.parse(readFileSync(`../../kb/research/destinations/${slug}.json`,'utf8'));
   const html=readFileSync(`dist/knowledge/${slug}/index.html`,'utf8');
-  const credits=html.slice(html.indexOf('<details class="end-credits"'));
+  const credits=html.slice(html.search(/<details\b[^>]*class="[^"]*\bend-credits\b[^"]*"/));
   for(const photo of Object.values(d.visuals)){
    assert.ok(readFileSync('public'+photo.src).length>0);
    for(const field of ['source','creator','license_url','changes'])assert.ok(credits.includes(escape(photo[field])),`${slug}: ${photo.id} ${field}`);

@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-09-30T09:29:59.334420+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-060",
+  "scope": "Continue the approved ten-item magazine batch: items 7–10. Item 9 has an open native-print pagination check.",
+  "version": "0.1.0-rc.4",
+  "changes": [
+    "Shared magazine cover and continuous reading layout applied to destination detail templates; place → experience → stay-area → journey connections preserved.",
+    "Image-led homepage story selection and Explore cards; original photo rights retained at the end.",
+    "Journey management and backups moved into a disclosure; clear arrange / prepare / take-away sequence.",
+    "Suggested ideas start with three; Show more adds three and moves keyboard focus to the first newly revealed idea. Search and type filters reset the window.",
+    "Distinct stay-area labels in the saved catalog; Mangalajodi place and experience use one planning area.",
+    "Photo-count wording handles a single embedded image."
+  ],
+  "verification": {
+    "build_pages": 67,
+    "site_tests_passed": 65,
+    "design_system_tests_passed": 6,
+    "responsive_checks": 24,
+    "widths": [
+      360,
+      768,
+      1440,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "failed_completed_images": [],
+    "lazy_images": "Offscreen lazy-loaded images remain pending in some dimension snapshots; these checks do not assert all images have loaded.",
+    "ui_path": "Saved Mangalajodi, its birdwatching experience and stay-area guide into a new test journey on isolated origin 4337. Assigned two dates, reordered the first day, added a long note and marked one checklist reminder; all survived reload. Existing journeys were retained.",
+    "discovery": "Searching Mangalajodi returned all three linked pages. Show more changed 3/70 to 6/70; search returned 3/3 and hid the button.",
+    "downloads": "Text and illustrated files from the browser were inspected on disk. Dates, full notes, distinct stay title and credits retained; one unique photograph embedded. These captured downloads preceded the final single-photo wording and planning-area refinements; the final planning-area correction was separately verified in the UI.",
+    "native_pdf": "Unavailable in the selected browser; explicitly not passed."
+  },
+  "limitations": [
+    "Native PDF pagination remains unverified: the in-app browser returned “Printing is not available”. Screen rendering with print styles is not a pagination check. WORK-080 tracks this explicitly.",
+    "No physical-device or comprehensive accessibility sign-off. Phone comparison and measured responsive layouts are browser-based.",
+    "Existing photographs are reused across connected Mangalajodi entries; accommodation photography and property quality remain unverified.",
+    "Founder visual acceptance and publication are separate. This work is local and has not been committed, pushed or deployed."
+  ],
+  "evidence": [
+    "design-system/magazine-family-review.md",
+    "records/evidence/visitor-flow-2026-09-30/responsive.json",
+    "records/evidence/visitor-flow-2026-09-30/download-check.json"
+  ]
+}

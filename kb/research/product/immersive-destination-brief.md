@@ -36,3 +36,7 @@ A genuine 360° experience requires a separate panoramic/equirectangular product
 ## Remaining work
 
 Individual property research and images; field-checked access and travel details; AI-film generation and its editorial review; physical-device, screen-reader and listening-quality review. Publication remains subject to the Founder’s release decision. Saved choices and printable tour-book work remain separate.
+
+## Reference-based Chilika film
+
+The [production plan](chilika-film-production.md) develops the Founder’s follow-up: use real public-media references to create realistic short moving scenes. It records available photographs, candidate references, a first-shot prompt and review criteria. Rendering remains pending a connected service.

@@ -1,0 +1,52 @@
+name: Knowledge contribution
+description: Correct an entry, add a source or share a clearly labelled recollection.
+title: "[Knowledge] "
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include private contact details, private consent documents or restricted cultural material. Submission does not mean acceptance or encyclopedia publication."
+  - type: input
+    id: entry
+    attributes:
+      label: Entry or subject
+      description: Include a website link if there is an existing entry.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Contribution type
+      options:
+        - Correction
+        - Additional knowledge
+        - Personal recollection
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Suggested change
+      description: What should change and why? Identify uncertainty or disagreement.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or firsthand context
+      description: Source links, book and page, or who witnessed it and when. Do not reveal another person's private information.
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Requested public credit
+      description: Optional public name or pseudonym. This does not establish ownership or permission.
+  - type: checkboxes
+    id: public-review
+    attributes:
+      label: Before posting
+      options:
+        - label: I understand that this issue and its attachments will be public on GitHub.
+          required: true
+        - label: I have excluded material that I do not have permission to share publicly.
+          required: true

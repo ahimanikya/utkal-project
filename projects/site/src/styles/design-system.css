@@ -1,0 +1,60 @@
+/* UTP's adapter to @utkal/design-system. Domain layouts stay in the website;
+   reusable foundations and components live in the shared library. */
+body.utk{font-family:var(--uds-type-ui)}
+body.utk h1,body.utk h2,body.utk h3{font-family:var(--uds-type-display);font-weight:500;letter-spacing:-.015em;line-height:1.15}
+body.utk h1{font-size:clamp(2.8rem,5vw,5.5rem)}
+body.utk .lead{font-family:var(--uds-type-reading);line-height:1.7;max-width:52ch}
+body.utk :where(.story-flow,.destination-guide,.destination-context,.destination-history,.detail-prose,.voices-prose,.voices-section,.voice-reading,.prose,.knowledge-text) p:not(.eyebrow):not(.notice){font-family:var(--uds-type-reading);font-size:1.125rem;line-height:1.85}
+body.utk .story-opening{font-family:var(--uds-type-reading);font-size:clamp(1.5rem,2.5vw,2.15rem);line-height:1.7}
+body.utk .story-opening p{font:inherit}
+body.utk [lang=or]:not(.brand-odia){font-family:var(--uds-type-odia);font-style:normal;letter-spacing:normal;line-height:1.9}
+body.utk .wrap{width:min(var(--uds-layout-wide),calc(100% - 2 * var(--uds-layout-gutter)))}
+body.utk .header{gap:var(--uds-space-6);flex-wrap:wrap}
+body.utk .header nav{gap:.5rem 1.5rem;flex-wrap:wrap}
+body.utk .header nav a,body.utk .text-link,body.utk .filters a{font-size:1rem;min-height:var(--uds-interaction-target)}
+body.utk .eyebrow{font-size:.75rem;line-height:1.65}
+body.utk .footer-links a{font-size:.95rem;min-height:var(--uds-interaction-target)}
+body.utk .filter-form input,body.utk .filter-form select,body.utk .journey-page input:not([type=file]):not([type=checkbox]),body.utk .journey-page select,body.utk .journey-page textarea,body.utk .correction-draft input,body.utk .correction-draft select,body.utk .correction-draft textarea{font:1rem/1.6 var(--uds-type-ui);min-height:var(--uds-interaction-target);border-radius:var(--uds-interaction-radius);border-color:var(--uds-colour-muted)}
+body.utk .utk-field{font-size:1rem}
+body.utk .utk-button{min-height:var(--uds-interaction-target);border-radius:var(--uds-interaction-radius);font:600 1rem/1.45 var(--uds-type-ui);gap:.65rem;white-space:normal}
+body.utk .note-card,body.utk .journey-item{border-radius:var(--uds-interaction-radius)}
+body.utk .journey-item p{font-family:var(--uds-type-reading);line-height:1.8}
+body.utk .journey-tools{padding:clamp(1rem,3vw,2rem)}
+body.utk .related-grid article>div{padding:var(--uds-space-6)}
+body.utk :focus-visible{outline:3px solid var(--uds-colour-focus);outline-offset:4px;box-shadow:0 0 0 2px var(--uds-colour-canvas)}
+/* Constrain intrinsic sizes without clipping text, keyboard focus or photos. */
+body.utk :where(.hero,.feature,.footer-grid,.journey-layout,.detail-columns,.voices-hero,.trip-manager)>*{min-width:0}
+body.utk :where(.prose,.knowledge-text,.story-flow) {overflow-wrap:break-word}
+body.utk .journey-scene{width:100%;min-width:0}
+body.utk .journey-stage,body.utk .photo-journey{min-width:0;max-width:100%}
+@media(min-width:651px) and (max-width:1100px){body.utk .journey-scene{aspect-ratio:auto}}
+@media(max-width:700px){
+ body.utk .header nav{gap:.5rem 1rem}
+ body.utk .topline{padding-inline:1rem}
+ body.utk .header{padding-block:1rem}
+ body.utk .page-head{padding-block:2rem}
+ body.utk .journey-intro{padding-top:2rem}
+ body.utk h1{font-size:clamp(2.5rem,10vw,3.75rem);overflow-wrap:anywhere}
+ body.utk .nav-contribute{padding:.6rem .8rem}
+ body.utk .correction-draft{padding:1.25rem}
+ body.utk .actions>*{max-width:100%}
+}
+@media print{body.utk h1{font-size:30pt}body.utk .wrap{width:100%}body.utk{background:white;color:black}}
+
+/* One compact phone header; navigation remains available without JavaScript. */
+body.utk .mobile-navigation{display:none}
+@media(max-width:700px){
+ body.utk .header{position:relative;flex-wrap:nowrap;justify-content:space-between;gap:16px}
+ body.utk .header .desktop-navigation{display:none}
+ body.utk .mobile-navigation{display:block;margin-left:auto;flex:none}
+ body.utk .mobile-navigation summary{display:flex;align-items:center;gap:8px;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:3px;font-size:14px;color:var(--sea);cursor:pointer;list-style:none}
+ body.utk .mobile-navigation summary::-webkit-details-marker{display:none}
+ body.utk .mobile-navigation summary::after{content:'+'}
+ body.utk .mobile-navigation[open] summary::after{content:'−'}
+ body.utk .header .mobile-navigation nav{position:absolute;top:100%;right:0;z-index:10;width:min(300px,100%);padding:16px;display:flex;flex-direction:column;align-items:stretch;gap:4px;border:1px solid var(--line);background:var(--light);box-shadow:0 12px 24px #233b4114}
+ body.utk .header .mobile-navigation nav a{padding:8px 12px}
+ body.utk .header .brand{max-width:230px}
+ body.utk .topline>span:first-child{font-size:9px;letter-spacing:.04em}
+}
+
+.notebook-credit{margin-top:16px;font-size:13px;max-width:45ch}.notebook-credit summary{padding:12px 0;cursor:pointer;min-height:44px}.notebook-credit p{line-height:1.7;margin-top:12px}

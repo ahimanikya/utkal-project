@@ -31,3 +31,7 @@ This is a research collection, not a current travel-booking directory. Statement
 - [People](people/index.md) — biographical entry drafts and their sources.
 
 - [Structured destination records](destinations/index.md)
+
+- [Languages of Odisha](../reference/language-heritage-model.md) and [Odia Literature & Literary Lives](culture/odia-literature-and-literary-lives.md) — connected language, work and personality collections.
+
+- [Language and literature website pilot](voices/index.md) — illustrated language, writer and work introductions.

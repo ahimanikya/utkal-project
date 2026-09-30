@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-09-30T07:53:43.675800+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-056",
+  "resolves_audit": "UTP-REV-031",
+  "changes": {
+    "VA-01": "Calm guide articles use one content column; no hidden number gutter remains.",
+    "VA-02": "Legacy wide destination rules explicitly exclude calm guide; all four practical sections share a 760px maximum reading width.",
+    "VA-03": "Removed unnecessary calm-guide numbering and its reserved column.",
+    "VA-04": "Removed the reference food and person pages\u2019 extra ending; shared related discoveries owns the onward invitation.",
+    "VA-05": "Moved quiet Save action into opening, retained uncropped portrait capped at 280px on narrow screens, and added keyboard-operable collapsed story contents."
+  },
+  "verification": {
+    "build_pages": 67,
+    "site_tests_passed": 63,
+    "responsive_matrix": {
+      "pages": [
+        "Chilika",
+        "Chhena Poda",
+        "Gopinath Mohanty",
+        "Konark"
+      ],
+      "actual_widths": [
+        360,
+        768,
+        1440
+      ],
+      "checks": 12,
+      "horizontal_overflow": false
+    },
+    "food_content_width": {
+      "phone": 328,
+      "desktop": 760,
+      "before": 32
+    },
+    "food_row_heights_desktop": [
+      265,
+      265,
+      298
+    ],
+    "first_literary_section_phone_y": 1239,
+    "previous_first_literary_section_phone_y": 1717,
+    "keyboard_disclosure": "Enter opens and closes In this story",
+    "desktop_visuals": [
+      "Food chapter",
+      "Experience list",
+      "Food reading column",
+      "Literary ending"
+    ],
+    "wide_desktop_css_width": 1910
+  },
+  "limitations": [
+    "Browser emulation is not physical-device testing.",
+    "Mobile screenshot tools showed scaling/compositor artifacts; mobile measurements and keyboard interaction were checked separately. Phone food rendering was inspected, but full mobile visual sign-off remains pending.",
+    "This is a bounded repair of audited reference pages, not a full-site design approval.",
+    "Founder editorial review remains pending; no publication or deployment."
+  ],
+  "evidence": [
+    "design-system/visual-audit-2026-09-30.md",
+    "records/evidence/visual-repair-2026-09-30/responsive-checks.json",
+    "records/evidence/visual-repair-2026-09-30/chilika-food-desktop.png",
+    "records/evidence/visual-repair-2026-09-30/chilika-experiences-desktop.png",
+    "records/evidence/visual-repair-2026-09-30/food-reading-desktop.png",
+    "records/evidence/visual-repair-2026-09-30/person-ending-desktop.png"
+  ]
+}

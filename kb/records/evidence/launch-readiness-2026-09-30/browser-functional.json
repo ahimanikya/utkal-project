@@ -1,0 +1,41 @@
+{
+  "reviewer": "Current AI assistant",
+  "independent": false,
+  "journey_origin": "http://127.0.0.1:4351",
+  "checks": [
+    {
+      "name": "Discover in Odia",
+      "result": "Query କୋଣାର୍କ returned one Konark entry; followed it into the story."
+    },
+    {
+      "name": "Read, save and arrange",
+      "result": "Saved Konark, followed Continue to Puri, saved Puri; assigned days 1 and 2 with 20 December 2026 start."
+    },
+    {
+      "name": "Carry",
+      "result": "Real browser downloads: text HTML, photo HTML, plain text, plus HTML with personal writing excluded. Copied unchanged and hashed."
+    },
+    {
+      "name": "Keyboard skip",
+      "result": "Tab focused Skip to content; Enter focused main with solid outline."
+    },
+    {
+      "name": "Keyboard disclosure",
+      "result": "Space toggled Arrange whole days closed while focus stayed on summary."
+    },
+    {
+      "name": "Print feedback after repair",
+      "result": "Print requested fallback visible in role=status next to controls; no PDF claimed."
+    }
+  ],
+  "native_pdf": {
+    "status": "not_verified",
+    "reason": "Print exposed no native dialog. Computer Use refused com.openai.codex. No bypass attempted.",
+    "manual_check": "Open actual downloaded photo and text books in a browser with Print support. Save A4 and Letter PDFs, inspect every page and all final-note markers; record the browser and settings."
+  },
+  "limits": [
+    "No screen-reader or physical-device audit.",
+    "The OS file chooser and actual PDF pagination remain unverified.",
+    "Tests used synthetic notes and did not submit a public issue."
+  ]
+}

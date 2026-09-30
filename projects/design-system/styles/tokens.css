@@ -1,0 +1,40 @@
+/* Generated from tokens.json. Utkal Design System 0.1.0-rc.5 */
+:root {
+  --uds-colour-sea: #1D4658;
+  --uds-colour-earth: #91462F;
+  --uds-colour-olive: #74633B;
+  --uds-colour-straw: #C1A263;
+  --uds-colour-canvas: #FBF6EC;
+  --uds-colour-surface: #F2E6D0;
+  --uds-colour-ink: #302E28;
+  --uds-colour-muted: #706658;
+  --uds-colour-line: #C9B99B;
+  --uds-colour-on-action: #FBF6EC;
+  --uds-colour-success: #36513A;
+  --uds-colour-danger: #8A3025;
+  --uds-colour-heading: var(--uds-colour-sea);
+  --uds-colour-action: var(--uds-colour-sea);
+  --uds-colour-accent: var(--uds-colour-earth);
+  --uds-colour-text: var(--uds-colour-ink);
+  --uds-colour-border: var(--uds-colour-line);
+  --uds-colour-focus: var(--uds-colour-sea);
+  --uds-space-1: 0.25rem;
+  --uds-space-2: 0.5rem;
+  --uds-space-3: 0.75rem;
+  --uds-space-4: 1rem;
+  --uds-space-6: 1.5rem;
+  --uds-space-8: 2rem;
+  --uds-space-12: 3rem;
+  --uds-space-16: 4rem;
+  --uds-space-24: 6rem;
+  --uds-type-display: "UDS Display", Georgia, serif;
+  --uds-type-reading: "UDS Reading", Georgia, "UDS Odia", serif;
+  --uds-type-ui: system-ui, -apple-system, "Segoe UI", "UDS Odia", sans-serif;
+  --uds-type-odia: "UDS Odia", serif;
+  --uds-layout-reading: 68ch;
+  --uds-layout-wide: 120rem;
+  --uds-layout-gutter: clamp(1rem, 4vw, 5rem);
+  --uds-interaction-target: 3rem;
+  --uds-interaction-radius: 0.25rem;
+  --uds-interaction-duration: 160ms;
+}

@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-09-30T08:48:08.007363+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-059",
+  "scope": "First six items of the ten-item design batch, at the agreed review checkpoint.",
+  "version": "0.1.0-rc.4",
+  "pages": [
+    "knowledge/chilika/",
+    "knowledge/konark/",
+    "food/chhena-poda/",
+    "people/gopinath-mohanty/"
+  ],
+  "verification": {
+    "build_pages": 67,
+    "site_tests_passed": 65,
+    "design_system_tests_passed": 6,
+    "responsive_checks": 16,
+    "widths": [
+      360,
+      768,
+      1440,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "failed_completed_images": [],
+    "mobile_menu": "Native disclosure opened and closed using keyboard; four links each measured 48px high.",
+    "comparison_controls": "Desktop/Phone and page selector tested with keyboard; iframe destination verified."
+  },
+  "limitations": [
+    "The implementation awaits Founder review; selecting A was not approval of every later adaptation.",
+    "No physical-device or comprehensive accessibility sign-off. Emulated screenshot compositor artefact noted; phone comparison also inspected.",
+    "Existing source limitations, reused images and pending native-language/literary review remain.",
+    "Items 7–10 remain after the agreed checkpoint; no public deployment."
+  ],
+  "evidence": [
+    "design-system/magazine-family-review.md",
+    "records/evidence/magazine-family-2026-09-30/responsive.json",
+    "records/evidence/magazine-family-2026-09-30/phone-comparison.png",
+    "records/evidence/magazine-family-2026-09-30/food-origin.png",
+    "records/evidence/magazine-family-2026-09-30/person-reading.png",
+    "records/evidence/magazine-family-2026-09-30/konark-history.png"
+  ]
+}

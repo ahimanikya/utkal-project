@@ -1,0 +1,78 @@
+{
+  "type": "visitor_planning_implementation_self_review",
+  "recorded_at": "2026-09-30T05:15:00.751878+00:00",
+  "status": "local_candidate_for_founder_review",
+  "independent": false,
+  "reviewer": "Current AI assistant",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-051",
+  "items": [
+    {
+      "id": "UTP-WORK-070",
+      "title": "Inner-page layout foundation fixes",
+      "preview_path": "/destinations/balasore/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-071",
+      "title": "Food and flavour planning collection",
+      "preview_path": "/food/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-072",
+      "title": "Things-to-do planning collection",
+      "preview_path": "/things-to-do/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-073",
+      "title": "Stay-area planning collection",
+      "preview_path": "/stay-areas/",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    },
+    {
+      "id": "UTP-WORK-074",
+      "title": "Personal preparation checklist and exports",
+      "preview_path": "/journey/#preparation",
+      "implementation": "complete",
+      "human_editorial_approval": "pending"
+    }
+  ],
+  "findings": [
+    "Balasore photo cards and compact ideas now have separate rows; formerly 827px/421px cards shared a row.",
+    "Preserved the full commemorative portrait rather than cropping its head in a wide card.",
+    "Detail hero/side columns stack by 980px; voice and food reading columns stack by 900px.",
+    "Fixed the correction-page selector to include the new collection pages and earlier destination/starter directories."
+  ],
+  "verification": {
+    "build_pages": 67,
+    "website_tests": 63,
+    "design_system_tests": 6,
+    "responsive_checks": 27,
+    "responsive_evidence": "evidence/visitor-planning/responsive.json",
+    "browser_flow": [
+      "Marked transport preparation by keyboard; success status showed local save.",
+      "Reload retained the tick and existing Bhubaneswar note.",
+      "Switching to Northern stories showed no tick, confirming separate journey state.",
+      "Print DOM contains the marked checklist prompt.",
+      "Library tests cover older plans, invalid backups, unknown IDs, duplicates, round trips and both offline editions."
+    ],
+    "visual_evidence": [
+      "evidence/visitor-planning/balasore-layout.png",
+      "evidence/visitor-planning/food-desktop.png"
+    ]
+  },
+  "limitations": [
+    "Targeted inner-page corrections only. A broader visual review remains open as UTP-WORK-075; not all inner-page design issues are declared resolved.",
+    "Reuse of existing sourced research, not new local inspections. Stay areas are not inspected properties, endorsements or live booking inventory.",
+    "Preparation ticks record the visitor’s own choices, not verification of arrangements. Older website versions may omit the optional checklist field when re-exporting.",
+    "Self-review, not independent editorial review or accessibility certification. Browser emulation used; physical devices, screen readers and native PDF pagination not verified.",
+    "No publication, spending, outreach or changes to the main preview’s saved journeys."
+  ],
+  "publication_status": "not_deployed"
+}

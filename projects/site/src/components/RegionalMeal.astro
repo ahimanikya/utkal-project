@@ -1,0 +1,28 @@
+---
+import VisitNotebook from './VisitNotebook.astro';
+import editionCopy from '../../../../kb/research/destinations/coastal-edition-copy.json';
+import {allowsPage,isCoastalEdition} from '../data/edition';
+import Shell from '../layouts/Shell.astro';
+import MagazineCover from './MagazineCover.astro';
+import SaveJourney from './SaveJourney.astro';
+import '../styles/visitor-flow.css';
+const {guide}=Astro.props;
+import foods from '../../../../kb/research/food/collection.json';
+const photo=foods.assets[guide.hero];
+---
+<Shell title={guide.title} description={guide.lead} active="explore" wide related={false}>
+ <div class="utk-magazine utk-magazine--detail city-food">
+  <nav class="detail-breadcrumb" aria-label="Breadcrumb"><a href={guide.parent_href}>{guide.parent_title}</a><span aria-hidden="true">/</span><span>At the table</span></nav>
+  <MagazineCover title={guide.title} eyebrow={guide.area+' · a taste of Odisha'} deck={[guide.lead]} photo={{...photo,caption:guide.photo_context}} startHref={'#'+guide.sections[0].id} startLabel="Make room for a meal" footline={guide.footline}/>
+  <nav class="mag-navigation" aria-label="On this page">{guide.sections.map(s=><a href={'#'+s.id}>{s.title}</a>)}<a href="#choose-your-kitchen">Choose your kitchen</a></nav>
+  <article class="mag-content">
+   <div class="mag-article-chapters">{guide.sections.map((s,index)=><section id={s.id} class:list={['mag-reading-section',{'mag-reading-section--warm':index===1}]}><div><p class="eyebrow">{String(index+1).padStart(2,'0')} · At the table</p><h2>{s.title}</h2></div><div><p data-source-ids={s.source_ids.join(' ')}>{isCoastalEdition&&s.id==='sweet-finish'?editionCopy.coastal_food.sweet_finish:s.text}</p><aside class="table-prompt"><p class="eyebrow">{s.prompt}</p><p>{s.question}</p></aside><div class="food-actions">{s.href&&allowsPage(s.href)&&<a href={s.href}>{s.link_label} →</a>}<SaveJourney id={s.save_id} quiet/></div></div></section>)}</div>
+   <section id="choose-your-kitchen" class="mag-reading-section"><div><p class="eyebrow">Leave a little room</p><h2>Choose your kitchen.</h2></div><div><p>{guide.closing}</p></div></section>
+   <VisitNotebook/>
+   <section class="visit-connections"><div><p class="eyebrow">Continue the day</p><h2>From the table,<br/><em>into the next story.</em></h2><p>Keep a meal in your plan without turning it into a timetable.</p></div><nav aria-label="Continue exploring">{guide.onward.filter(link=>allowsPage(link.href)).map(link=><a href={link.href}><span>{link.label}</span><strong>{link.title} →</strong></a>)}<a href="/journey/"><span>Keep your choices together</span><strong>Open my journey →</strong></a></nav></section>
+   <p class="mag-status">Editorial draft · dish suggestions, with no inspected restaurant or current menu.</p>
+   <details class="end-credits utk-disclosure"><summary>Sources, photograph & editorial notes</summary><p>Research checked {guide.checked_on}. Tasting prompts and planning suggestions are original editorial guidance.</p><ul>{Object.values(guide.sources).map(s=><li><a href={s.url}>{s.title}</a><p>{s.review||s.inspection}</p></li>)}</ul><p><a href={photo.source}>Chhena poda photograph</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes} {guide.photo_context}</p><p>Utkal Project knowledge base. Founder & Editor-in-Chief: Ahimanikya Satapathy. Prepared with AI assistance; human editorial review pending.</p></details>
+  </article>
+ </div>
+</Shell>
+<style>.table-prompt{border-left:3px solid var(--earth);padding:4px 0 4px 22px;margin:28px 0}.table-prompt p:last-child{font-style:italic}.food-actions{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.food-actions>a{min-height:44px;display:inline-flex;align-items:center}</style>

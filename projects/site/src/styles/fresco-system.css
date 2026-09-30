@@ -1,0 +1,20 @@
+/* Gallery adapter: keep its photographic viewer and its image-containment rules. */
+body.utk{--paper:var(--uds-colour-canvas);--ink:var(--uds-colour-ink);--red:var(--uds-colour-earth);--sea:var(--uds-colour-sea);--line:var(--uds-colour-border);--muted:var(--uds-colour-muted)}
+body.utk :is(h1,h2,h3,.title,#detail-title,.encyclopedia strong){font-family:var(--uds-type-display);font-weight:500}
+body.utk :is(.editorial-line,.poetic,.detail-caption,.culture-panel .question){font-family:var(--uds-type-reading)}
+body.utk header,body.utk main,body.utk footer{max-width:var(--uds-layout-wide);padding-inline:var(--uds-layout-gutter)}
+body.utk :is(input,select,textarea){font-family:var(--uds-type-ui);font-size:1rem;border-radius:var(--uds-interaction-radius)}
+body.utk :is(button,summary,.primary,input:not([type=checkbox]),select){min-height:var(--uds-interaction-target)}
+body.utk :is(button,.primary){border-radius:var(--uds-interaction-radius)}
+body.utk :focus-visible{outline:3px solid var(--uds-colour-focus);outline-offset:4px;box-shadow:0 0 0 2px var(--uds-colour-canvas)}
+body.utk :is(.intro,.toolbar,.bar,.photo-metadata)>*{min-width:0}
+body.utk .culture-panel{background:var(--uds-colour-surface)}
+body.utk .primary{background:var(--uds-colour-action);color:var(--uds-colour-on-action)}
+/* Explicitly retain the gallery's contained crops; shared defaults must not stretch them. */
+body.utk .hero{height:auto}
+body.utk .photo-button img{height:230px}
+body.utk #large{height:48dvh}
+@media(max-width:850px){body.utk .photo-button img{height:200px}}
+@media(max-width:520px){body.utk .photo-button img{height:240px}body.utk #large{height:38dvh}}
+
+.fresco-context{display:flex;gap:16px 28px;flex-wrap:wrap;margin-block:20px 30px}.fresco-context a{display:inline-flex;min-height:44px;align-items:center;font-size:14px}.fresco-journey{margin-top:24px}.fresco-journey [data-save-status]{display:block;font-size:13px;margin-top:10px}

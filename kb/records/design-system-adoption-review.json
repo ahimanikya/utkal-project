@@ -1,0 +1,80 @@
+{
+  "type": "design_system_adoption_self_review",
+  "version": "0.1.0-rc.2",
+  "recorded_at": "2026-09-30T03:51:29.200776+00:00",
+  "status": "local_applied_candidate_for_review",
+  "independent": false,
+  "reviewer": "Current AI assistant",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "Let's do that and based on what we learn update the design system",
+  "checks": {
+    "website_tests": {
+      "passed": 47,
+      "failed": 0
+    },
+    "system_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "pages_with_version": 50,
+    "responsive": "Ten page types at measured 360, 769 and 1440 CSS px, plus the migrated Samanta profile and rechecked Fresco gallery. No horizontal overflow. Final Samanta heading is in normal flow at all three widths.",
+    "enlargement": "Six types (home, explore, Chilika, literature, journey, contribute) at measured 389px, root font 32px: no horizontal overflow.",
+    "interactions": [
+      "Chilika search returned 11 matching entries; nonsense query returned an empty state.",
+      "Saved Chilika on isolated preview origin; note and Day 1 remained after reload. Existing visitor origin was not used for saved-plan tests.",
+      "Empty correction draft focused its invalid page selector and explained the error. No issue was posted.",
+      "Fresco viewer opened, advanced and closed with Escape, restoring focus to the opening photo button.",
+      "Photo Journey inverse controls resolve to sea text on cream, measured approximately 48px high.",
+      "Gallery page-family selector switches actual integrated copies. Review state is versioned; older notes were not overwritten."
+    ],
+    "preservation": "Automated link, citation, photo-byte, saved-data migration, offline-book and Store-exclusion checks passed.",
+    "fonts": "Every page identifies the shared version. CSS-linked font files resolve; three published licence files exactly match the source distributions."
+  },
+  "findings_resolved": [
+    "Lowered library reset specificity to preserve intentional image crops and coloured panel text.",
+    "Added inverse surface and action patterns; used light actions on photo panels.",
+    "Applied tablet photo-stage geometry fix in real UTP source.",
+    "Found two pages bypassing the shared shell; integrated both.",
+    "Visual inspection caught a migrated legacy heading rule at the page top; replaced obsolete profile styles with a scoped adapter and verified final normal-flow heading.",
+    "Updated two brittle credit tests to recognise a class within a class list while retaining evidence and collapsed-disclosure assertions."
+  ],
+  "archive": {
+    "path": "collections/design-system/utkal-design-system-0.1.0-rc.2.tgz",
+    "bytes": 1676115,
+    "sha256": "2972d7990ca4acd0737efa46241e712295c897e4f8a2f8bbdf34e84f39321be6",
+    "files": [
+      "package/styles/tokens.css",
+      "package/styles/utkal.css",
+      "package/package.json",
+      "package/icons/paths.json",
+      "package/tokens.json",
+      "package/README.md",
+      "package/icons/index.mjs",
+      "package/fonts/CormorantGaramond-Italic-Variable.ttf",
+      "package/fonts/CormorantGaramond-Variable.ttf",
+      "package/fonts/NotoSerifOriya-Variable.ttf",
+      "package/fonts/SourceSerif4-Italic-Variable.ttf",
+      "package/fonts/SourceSerif4-Variable.ttf",
+      "package/fonts/CormorantGaramond-OFL.txt",
+      "package/fonts/NotoSerifOriya-OFL.txt",
+      "package/fonts/SourceSerif4-OFL.txt"
+    ],
+    "registry_published": false
+  },
+  "manifest": "records/design-system-adoption-manifest.json",
+  "limitations": [
+    "Implementation self-review, not an independent review or accessibility certification.",
+    "Responsive checks use browser emulation; physical devices and screen readers remain unverified.",
+    "200% root-font checks cover six page types, not full browser zoom or every legacy pixel-sized label.",
+    "Fluent Odia review and native A4/PDF pagination remain pending.",
+    "Existing archived rc.1 evidence and release manifest are historical; the new output has not been published."
+  ],
+  "evidence": [
+    "records/evidence/design-system-adoption/enlarged-text.json",
+    "records/evidence/design-system-adoption/gallery-desktop.png",
+    "records/evidence/design-system-adoption/home-desktop.png",
+    "records/evidence/design-system-adoption/profile-final.json",
+    "records/evidence/design-system-adoption/responsive.json",
+    "records/evidence/design-system-adoption/samanta-desktop.png"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-09-30T14:54:39.690943+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-068",
+  "scope": "Build a focused coastal edition without discarding the full research draft or older saved journey identities.",
+  "checks": {
+    "full_draft_pages": 72,
+    "coastal_pages": 16,
+    "discovery_guides": 7,
+    "saveable_ideas": 10,
+    "starters": 1,
+    "starter_ideas": 8,
+    "delivery_files": 53,
+    "delivery_bytes": 6730589,
+    "full_site_tests_pass": 79,
+    "coastal_tests_pass": 4,
+    "static_validation": "Selected routes, page links/fragments, duplicate IDs, noindex, client catalogue, starter IDs and asset existence validated before promotion.",
+    "saved_journey": "Browser title and Konark note survived reload in a separate eight-idea plan; automated backup/book test preserves unavailable old IDs, dates and notes.",
+    "browser_download": "UI reported successful photo-book download with five selected photographs; downloaded file bytes not inspected.",
+    "search": "Seven guides; Konark search returned three relevant matches.",
+    "contributions": "Only selected subjects available; no submission made.",
+    "visual": "Homepage and Bhubaneswar opening checked at 360 px and 900 px, plus homepage desktop. Phone text and controls visible without observed clipping.",
+    "workflow": "Local manual workflow now tests both editions and uploads dist-coast only; existing Founder/main-branch/manual confirmation gate retained. Not run remotely."
+  },
+  "findings_resolved": [
+    "Excluded starter fragment exposed by scope validator; now filtered.",
+    "Full catalogue and correction subjects previously bundled client-side; now selected server-side.",
+    "Bhubaneswar discovery description still promised excluded fresco content; edition copy corrected.",
+    "Two narrative tests included non-visible JSON after payload embedding; helpers now exclude application/json scripts while preserving narrative assertions."
+  ],
+  "limitations": [
+    "Local candidate only. No commit, push, merge, deployment, external issue or outreach performed.",
+    "Founder content acceptance and explicit publication decision remain. No new independent fact-check, fluent language proofreading, live-service verification or image-rights clearance in this increment; earlier editorial holds remain.",
+    "Browser download feedback reported five photographs; actual downloaded bytes were not inspected this turn. Native PDF remains UTP-WORK-080.",
+    "Visual review covered desktop and 360/900 px iframe openings, not every page or a complete accessibility/physical-device audit. The wide comparison frame extends beyond the review-hub viewport; this is not a site overflow finding.",
+    "Full and coastal local previews use different origins and therefore separate browser storage. No existing user storage was copied, erased or migrated.",
+    "Shared design package rc.5 unchanged; its tests were not rerun."
+  ],
+  "evidence": [
+    "records/evidence/coastal-launch-preview-2026-09-30/bhubaneswar-phone-wide.png",
+    "records/evidence/coastal-launch-preview-2026-09-30/browser-journey.json",
+    "records/evidence/coastal-launch-preview-2026-09-30/build-report.json",
+    "records/evidence/coastal-launch-preview-2026-09-30/coast-build.log",
+    "records/evidence/coastal-launch-preview-2026-09-30/coast-tests.log",
+    "records/evidence/coastal-launch-preview-2026-09-30/full-build.log",
+    "records/evidence/coastal-launch-preview-2026-09-30/full-tests.log",
+    "records/evidence/coastal-launch-preview-2026-09-30/homepage-desktop.png",
+    "records/evidence/coastal-launch-preview-2026-09-30/homepage-phone-wide.png",
+    "records/evidence/coastal-launch-preview-2026-09-30/index.html"
+  ]
+}

@@ -14,13 +14,13 @@ const scenes=d.slug==='chilika'?[
 ---
 <section class="journey-section" id="photo-journey" aria-labelledby="journey-title">
  <div class="journey-heading"><div><p class="eyebrow">A moment before you go</p><h2 id="journey-title">Feel the place</h2></div><p>A photographic journey with optional ambient tones. Real photographs, a creative soundscape.</p></div>
- <photo-journey class="photo-journey" aria-label={'Photo journey through '+d.slug}>
+ <photo-journey class="photo-journey utk-inverse" aria-label={'Photo journey through '+d.slug}>
   <div class="journey-stage">{scenes.map((scene,i)=><article class="journey-scene" data-scene hidden={i!==0}>
    <img src={scene.photo.src} alt={scene.photo.alt} width={scene.photo.width} height={scene.photo.height} loading="lazy" decoding="async" />
    <div class="journey-caption"><p class="eyebrow">0{i+1} / 0{scenes.length}</p><h3>{scene.title}</h3><p>{scene.text}</p><a href={scene.href}>Explore this chapter →</a></div>
   </article>)}</div>
   <div class="journey-controls" hidden data-controls>
-   <button type="button" data-play aria-pressed="false">Play journey</button><button type="button" data-prev aria-label="Previous chapter">←</button><button type="button" data-next aria-label="Next chapter">→</button><button type="button" data-audio aria-pressed="false">Sound off</button><button type="button" data-fullscreen>Full screen</button><output data-position aria-live="polite">Chapter 1 of {scenes.length}</output>
+   <button type="button" data-play aria-pressed="false" class="utk-button utk-button--inverse">Play journey</button><button type="button" data-prev aria-label="Previous chapter" class="utk-button utk-button--inverse">←</button><button type="button" data-next aria-label="Next chapter" class="utk-button utk-button--inverse">→</button><button type="button" data-audio aria-pressed="false" class="utk-button utk-button--inverse">Sound off</button><button type="button" data-fullscreen class="utk-button utk-button--inverse">Full screen</button><output data-position aria-live="polite">Chapter 1 of {scenes.length}</output>
   </div>
   <p class="journey-note">Photo sequence, not 360° footage. The optional sound is composed ambient audio, not a recording from the location.</p>
   <noscript><p class="journey-note">This preview shows the opening photograph. Enable JavaScript to play all chapters.</p></noscript>

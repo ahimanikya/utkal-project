@@ -1,0 +1,114 @@
+{
+  "type": "website_review",
+  "title": "Ten pending website items: content and visitor tools",
+  "status": "local_candidate_not_deployed",
+  "checked_at": "2026-09-30T01:03:00.928160+00:00",
+  "independent_review": false,
+  "items": [
+    {
+      "id": "UTP-WORK-021",
+      "title": "Chandipur detail guide",
+      "preview_path": "/visit/places/chandipur/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Tides, season, arrival, local questions and two credited real shore photographs.",
+      "pending_list_source": "research/product/northern-guides.md"
+    },
+    {
+      "id": "UTP-WORK-022",
+      "title": "Similipal detail guide",
+      "preview_path": "/visit/places/similipal/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Official gate, permit and seasonal guidance; existing credited Barehipani image.",
+      "pending_list_source": "research/product/northern-guides.md"
+    },
+    {
+      "id": "UTP-WORK-023",
+      "title": "Kui language introduction",
+      "preview_path": "/languages/kui/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Separate language profile, classroom resources and a catalogued short-story lead.",
+      "pending_list_source": "reference/language-heritage-model.md"
+    },
+    {
+      "id": "UTP-WORK-024",
+      "title": "Kuvi language introduction",
+      "preview_path": "/languages/kuvi/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Separate profile and teaching-resource trail; not conflated with Kui.",
+      "pending_list_source": "reference/language-heritage-model.md"
+    },
+    {
+      "id": "UTP-WORK-025",
+      "title": "Saora / Sora language introduction",
+      "preview_path": "/languages/saora/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Attributed names, language-family and writing traditions; future community voices identified.",
+      "pending_list_source": "reference/language-heritage-model.md"
+    },
+    {
+      "id": "UTP-WORK-026",
+      "title": "Sarala Das literary introduction",
+      "preview_path": "/people/sarala-das/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Odia epic retelling and an official Sarala Mahabharata reading catalogue.",
+      "pending_list_source": "research/culture/odia-literature-and-literary-lives.md"
+    },
+    {
+      "id": "UTP-WORK-027",
+      "title": "Pratibha Ray literary introduction",
+      "preview_path": "/people/pratibha-ray/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Real credited portrait, teaching, Jajnaseni, place connections and adaptations.",
+      "pending_list_source": "research/culture/odia-literature-and-literary-lives.md"
+    },
+    {
+      "id": "UTP-WORK-028",
+      "title": "Area and access guidance in personal journeys",
+      "preview_path": "/journey/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Per-item access notes and day-level area comparison; no calculated travel times.",
+      "pending_list_source": "research/product/destination-and-tour-book.md"
+    },
+    {
+      "id": "UTP-WORK-029",
+      "title": "Downloadable offline text tour book",
+      "preview_path": "/journey/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Standalone HTML containing dates, summaries, notes, access and deduplicated source links.",
+      "pending_list_source": "research/product/multiple-journeys.md"
+    },
+    {
+      "id": "UTP-WORK-030",
+      "title": "Reader correction draft tool",
+      "preview_path": "/contribute/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Page-linked correction, additional-knowledge or recollection drafts; local preview, text download and copy controls. No submission endpoint.",
+      "pending_list_source": "research/product/prd.md"
+    }
+  ],
+  "checks": [
+    "46-page Astro build and all 36 site tests passed after the final code change. Local links, assets and fragments resolve; preview noindex and Store exclusion retained.",
+    "Automated tests cover source coverage, real-image hashes and licensing, stable saved identities, area grouping, offline escaping of hostile text and unsafe URLs, dates, maximum supported notes and unknown IDs.",
+    "Browser visited all seven new pages and checked headings, loaded content and enabled save controls. No horizontal overflow measured at 1910 CSS px. Pratibha Ray and Kui screenshots visually inspected.",
+    "Browser saved Chandipur and Similipal into a temporary journey, moved both to day one to verify the multiple-area message, then moved Similipal to day two to verify separate guidance. Offline-download control exercised. Temporary journey deleted; original empty My Odisha Journey retained.",
+    "Correction page preselected Chandipur and Kotpad from page query links. Empty draft rejected. Synthetic <script> text appeared as text in the preview without injected elements; download control exercised. No submission or persistence introduced. Clipboard success was not separately verified.",
+    "Standalone synthetic book generated with the production helper, rendered at a temporary local URL, and visually inspected. Month-boundary dates, source appendix and personal notes rendered. Zero script, image, external stylesheet, iframe, audio or video elements."
+  ],
+  "limitations": [
+    "Founder editorial review and native-language/community review remain pending. Profiles are first introductions, not complete histories; no speaker audio or newly transcribed poems.",
+    "No field inspection, property verification or live access calendar. Source-based general seasons and access notes are conditional.",
+    "Pratibha Ray sources differ on the early publication date of Jajnaseni; no date is asserted. Indexed CIIL/SCSTRTI/ATLC and Akademi passages are distinguished from full-text inspection in source records.",
+    "Offline output is text HTML, not an offline website, image book or editable backup. External links require a connection. Native PDF pagination and physical printing remain unverified.",
+    "Correction drafts are not submitted, stored by the project or editorially accepted. No publication rights are implied. Delivery channel remains future work.",
+    "This batch verified desktop browser geometry and interactions. Viewport override did not change the measured 1910 CSS px, so new compact layouts, physical devices and screen readers remain unverified; previous 582px checks are not reclassified as this batch evidence.",
+    "Browser download controls were exercised, but downloaded browser bytes were not independently retrieved. The same offline generator output was rendered separately and checked to contain no remote resources.",
+    "Self-review by the implementing assistant, not independent review. No merge, push or public deployment."
+  ],
+  "evidence": [
+    "records/evidence/ten-item-pratibha-ray.png",
+    "records/evidence/ten-item-kui.png",
+    "records/evidence/ten-item-offline-book.png",
+    "records/evidence/ten-item-offline-book.html"
+  ],
+  "media_note": "Pratibha Ray and Chandipur panorama are new real licensed assets with creator, source, licence, date and hash in their canonical JSON. A further Similipal image request returned HTTP 429 and was not used; the previously credited waterfall image remains."
+}

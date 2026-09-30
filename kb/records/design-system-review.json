@@ -1,0 +1,71 @@
+{
+  "type": "design_system_self_review",
+  "version": "0.1.0-rc.1",
+  "recorded_at": "2026-09-30T03:05:40.173199+00:00",
+  "status": "local_candidate_for_visual_review",
+  "independent": false,
+  "reviewer": "Current AI assistant",
+  "checks": {
+    "library_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "review_links": {
+      "checked_review_references": 181,
+      "missing": [],
+      "public_release_output_changes": []
+    },
+    "responsive": "Gallery plus all three pilots checked at measured 360, 768 and 1440 CSS px. Additional pilot checks at 390px. Final checks found no horizontal overflow.",
+    "enlargement": "Gallery at measured 390px with root font 32px (200%) found no horizontal overflow.",
+    "interactions": [
+      "Save sample changes pressed state and feedback without altering a journey.",
+      "No-result search displays recovery; empty contribution focuses the invalid field with associated message.",
+      "A synthetic review preference/note survived reload; both were reset through UI.",
+      "Review JSON download control exercised.",
+      "Current/proposed pilot comparison switches the candidate stylesheet off/on."
+    ],
+    "contrast": "Normal text roles ink, sea, earth, muted and danger meet 4.5:1 on both canvas and panel. Sea action with light text meets 4.5:1. Decoration and disabled controls are not included in this claim.",
+    "tablet_fix": "Initial Chilika 768px viewport expanded to 1110px from an aspect-ratio/min-height interaction. Candidate adapter fixed; final client/inner/scroll widths all 768px.",
+    "public_output": "Compared every file against the prior release manifest; no output changed."
+  },
+  "archive": {
+    "path": "collections/design-system/utkal-design-system-0.1.0-rc.1.tgz",
+    "bytes": 1675391,
+    "sha256": "bb4503e848954ccfc969b05ae00304a64891982df1b7907b565ad2701a1a6ab3",
+    "files": [
+      "package/styles/tokens.css",
+      "package/styles/utkal.css",
+      "package/package.json",
+      "package/icons/paths.json",
+      "package/tokens.json",
+      "package/README.md",
+      "package/icons/index.mjs",
+      "package/fonts/CormorantGaramond-Italic-Variable.ttf",
+      "package/fonts/CormorantGaramond-Variable.ttf",
+      "package/fonts/NotoSerifOriya-Variable.ttf",
+      "package/fonts/SourceSerif4-Italic-Variable.ttf",
+      "package/fonts/SourceSerif4-Variable.ttf",
+      "package/fonts/CormorantGaramond-OFL.txt",
+      "package/fonts/NotoSerifOriya-OFL.txt",
+      "package/fonts/SourceSerif4-OFL.txt"
+    ],
+    "review_code_included": false,
+    "registry_published": false
+  },
+  "limitations": [
+    "Implementation self-review, not an independent design or accessibility certification.",
+    "The 200% text check covers the gallery; full browser zoom, every legacy pilot text size, physical devices and assistive screen readers remain unverified.",
+    "Odia wording and typography need fluent human review. New typefaces and component details are candidates for visual approval.",
+    "Existing native PDF/A4 pagination remains unverified; no new PDF claim.",
+    "Pilot links can lead to baseline copied pages; only the three explicitly named pilots use the candidate adapter.",
+    "Review-note and photo-book download controls do not by themselves verify the downloaded browser bytes. The packaged library archive was independently inspected.",
+    "UTP public source/output and other projects were not migrated or published."
+  ],
+  "evidence": [
+    "records/evidence/design-system/gallery-enlarged.json",
+    "records/evidence/design-system/gallery.png",
+    "records/evidence/design-system/layouts-before-tablet-fix.json",
+    "records/evidence/design-system/layouts-final.json",
+    "records/evidence/design-system/link-checks.json"
+  ]
+}

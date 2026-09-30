@@ -1,1 +1,5 @@
-*.pdf binary
+# Keep captured tool output and third-party licences byte-for-byte.
+kb/records/evidence/**/*.log -whitespace
+*OFL.txt -whitespace
+# Collapse generated review evidence by default in GitHub's code diff.
+kb/records/evidence/** linguist-generated=true

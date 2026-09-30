@@ -1,0 +1,23 @@
+{
+  "staged_tree": "95008000fc2d8aca80c8338242ad046defb305dd",
+  "checkout": "/var/folders/b_/1gc2phlj7j36fz_xkzj4mfm00000gn/T/utkal-release-check-o6xs9ztr/source",
+  "method": "Archive of staged Git tree; no untracked or ignored source files copied. Install locked dependencies with npm ci.",
+  "checks": [
+    {
+      "name": "install",
+      "exit_code": 0
+    },
+    {
+      "name": "full-build",
+      "exit_code": 0
+    },
+    {
+      "name": "full-tests",
+      "exit_code": 0
+    },
+    {
+      "name": "design-system-tests",
+      "exit_code": 1
+    }
+  ]
+}

@@ -43,9 +43,9 @@ Include local cooks, makers, guides and residents as well as famous personalitie
 
 ## Images that deserve their place
 
-Prefer a strong, accurate photograph of the actual subject when one is available for permitted reuse. Search our credited collection first, then reusable sources such as Wikimedia Commons and openly licensed institutional collections. Compare subject accuracy, composition, resolution, cultural detail, emotional relevance, date and reuse conditions. “Free to view” is not the same as permission to republish or adapt.
+Choose media by its editorial purpose. For a documentary view of the actual subject, prefer a strong, accurate photograph available for permitted reuse. An explanatory diagram, composite or AI-generated visual can communicate a process or relationship more clearly than a single photograph. The [media and meaning foundation](../design-system/media-and-meaning.md) records the Founder’s direction and the selection pattern. Search our credited collection first, then reusable sources such as Wikimedia Commons and openly licensed institutional collections. Compare subject accuracy, composition, resolution, cultural detail, emotional relevance, date and reuse conditions. “Free to view” is not the same as permission to republish or adapt.
 
-Each used image gets a durable asset record: source page and original URL, creator, title, capture date if supplied, licence and link, retrieval date, file hash, modifications, depiction type, alt text and caption. Preserve the supplied credit and licence; mark changes. A credited real photograph is not replaced simply because AI could make a more spectacular landscape.
+Each used image gets a durable asset record: source page and original URL, creator, title, capture date if supplied, licence and link, retrieval date, file hash, modifications, depiction type, alt text and caption. Preserve the supplied credit and licence; mark changes. Keep a documentary view where it establishes the subject; add or choose an interpretive visual when it improves explanation, with its nature clear to the reader. Spectacle alone is not the selection criterion.
 
 AI illustration is welcome when it helps tell the story: a clearly imagined scene, a visual interpretation of folklore, or an explanatory view missing from available photography. Start from references we are allowed to use for that purpose. Keep a reference list and generation prompt. Do not use generation to conceal copied composition or avoid a reference's reuse conditions. A contemporary artistic treatment should not be presented as an authentic traditional artwork or credited to an artist who did not make it.
 
@@ -79,3 +79,27 @@ The [destination model](destination-model.md) adds practical things to do, foods
 ## Structured knowledge before narration
 
 Use the proposed [Knowledge & Story Model](knowledge-story-model.md) to gather place/thing context and distinguish history, memory, culture, science, people, local participation and visitor advice. Its review status is separate from this editorial direction; no bulk migration is implied.
+
+## Worth reading. Worth sharing. Worth visiting.
+
+> Worth reading, worth sharing with friends, and worth planning a visit. Create that desire why I should visit this place
+>
+> — Ahimanikya Satapathy
+
+This is the intended reader outcome for a destination story. Move from curiosity to a personal connection, then to an achievable next step. The page should help someone imagine an experience they would value enough to make time for.
+
+| Editorial test | What the page needs to deliver |
+| --- | --- |
+| Worth reading | A compelling opening, a clear narrative thread, revealing details and a human or cultural connection. Facts earn their place by helping the reader understand the story. |
+| Worth sharing with friends | A memorable detail, visual or perspective that gives a reader a specific reason to send the page to someone: a shared interest, a discovery or an experience they could enjoy together. A share button alone does not make a story shareable. |
+| Worth planning a visit | A distinctive reason to go, a tangible experience to look forward to, a sense of who would enjoy it, and practical information that helps turn interest into a plan. |
+
+For every place, write a short **reason to visit** before drafting the page. Identify the experience and what makes it particular to this place. Then choose one **moment to look forward to**: something a visitor could see, do, taste, hear or learn, supported by the research and any necessary access conditions. Build the story around that promise. Avoid interchangeable praise such as “a hidden gem” or “something for everyone”.
+
+A useful narrative progression is **catch my attention → help me feel the place → show me what makes it special → let me imagine being there → help me plan**. This is a flexible editorial pattern, not mandatory repeated headings.
+
+Bring practical choices in after the reader has a reason to care: a few meaningful things to do, a food connection, when an experience is available, an appropriate base and the next planning action. Keep important access restrictions beside the affected experience. Be clear about conditions that may disappoint or make a visit unsuitable. Earn desire through specificity and trust, without inventing a scene, promising a sighting or implying access that has not been confirmed.
+
+Before review, the content brief records the intended visitor, the reason to visit, the memorable moment, the detail worth sharing, its evidence, the visual treatment and the next planning step. The test is whether readers can explain why they want to go—not how many facts, pictures or superlatives the page contains. These are editorial goals; actual reader engagement or visit intentions have not yet been measured.
+
+For non-destination subjects, adapt the final invitation: taste a dish, read a work, listen to a song, understand a life or meet a craft through an appropriate opportunity. Do not force a travel pitch onto every subject.

@@ -66,3 +66,19 @@ Delivered in this candidate: UTP-TB-001 and UTP-TB-002 as a Chilika prototype pl
 ## Direction endorsement
 
 The Founder endorsed the [culture-first travel recommendation](culture-first-travel-direction.md), including Chilika and Konark as pilots followed by saved choices and a printable tour book. This clarifies the delivery direction; the detailed requirements above retain their own review and implementation states.
+
+## Prototype implementation update · 29 September 2026
+
+The Founder authorised the connected-stories and tour-book next step with “Go ahead”. The [local prototype implementation](culture-journey-prototype.md) now covers saving, day assignment, notes, backup import/export and a browser print layout. The original phase table above is preserved; the implementation note records partial acceptance, unverified native PDF pagination and deferred requirements. This update is not public-release approval.
+
+## Multiple-journey increment
+
+UTP-TB-004 now has multiple named journeys, optional start dates and dated day headings in the local candidate. [Implementation and compatibility](multiple-journeys.md) records the exact scope and remaining limits.
+
+## Day planning and visit notebooks · 30 September 2026
+
+[Next 210 delivery](next-210.md) extends local UTP-TB-003–008 with private day titles/notes, note-only days, bounded group moves/shifts, guarded undo, copy between trips, and seven editorial visit notebooks carried into books. Current backups preserve day metadata; earlier clients may discard it. HTML and text output are verified separately from native PDF pagination, which remains UTP-WORK-080. Earlier scope and phase tables above are historical baseline statements.
+
+## Personal preparation and portable days
+
+The [preparation increment](ready-216.md) adds private reminders, guide-specific questions, single-day portable copies and explicit backup-merge choices to the local tour-book implementation. Backups preserve optional reminder data in current clients. Earlier baseline scope remains historical; native PDF and human editorial acceptance remain separate.

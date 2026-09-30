@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-09-30T16:03:57.159682+00:00",
+  "reviewer": "Current AI assistant",
+  "independent": false,
+  "origin": "http://127.0.0.1:4349",
+  "synthetic_data_only": true,
+  "checks": [
+    {
+      "name": "Day creation and reload",
+      "result": "Created a day without stops; private title and Odia note survived reload alongside an eight-idea starter."
+    },
+    {
+      "name": "Whole-day movement",
+      "result": "Konark moved from day 2 to day 3, retaining its item note. The quiet day stayed on day 1."
+    },
+    {
+      "name": "Shift and undo",
+      "result": "A +1 shift moved the quiet day to 2 and Konark to 4. Undo restored day 1 and day 3 with their notes."
+    },
+    {
+      "name": "Guarded undo",
+      "result": "After a further shift and a newer Konark note, Undo refused to discard the intervening edit."
+    },
+    {
+      "name": "Private-copy choice",
+      "result": "Unchecking personal notes removed PRIVATE day-title/day-note/item-note strings from print DOM. Saved textarea values remained. Notebook prompts stayed in print."
+    },
+    {
+      "name": "Copy between journeys",
+      "result": "Konark remained in the source; the destination received the same item note under Ideas for later, without the source day metadata."
+    },
+    {
+      "name": "Stale-tab protection",
+      "result": "A title edit in a second tab disabled Add day, Shift and day-title fields in the older tab. Book export remained available."
+    },
+    {
+      "name": "Notes-only journey",
+      "result": "Created a separate zero-idea journey with a named day and note. Reload retained it; text/book controls enabled and print included the note. Invoked text download; downloaded file bytes were not inspected."
+    },
+    {
+      "name": "Private day search",
+      "result": "Searching sketch exposed only the note-only day group, with no search string added to the URL."
+    }
+  ],
+  "limits": [
+    "File import compatibility and export byte content verified by automated tests; browser file-picker import was not exercised.",
+    "Empty-day removal uses confirmation but the native confirm interaction was not exercised here.",
+    "Actual PDF output remains unverified; no publication or external submission."
+  ]
+}

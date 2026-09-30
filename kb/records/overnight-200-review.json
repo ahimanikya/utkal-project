@@ -1,0 +1,67 @@
+{
+  "recorded_at": "2026-09-30T15:38:15.976323+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-069",
+  "scope": "Complete the planned 200-item local improvement and acceptance batch for the focused coastal website.",
+  "checks": {
+    "implementation_items": 50,
+    "editorial_checks": 42,
+    "page_checks": 64,
+    "responsive_inspections": 24,
+    "regression_checklist_items": 20,
+    "full_site_tests_pass": 100,
+    "coastal_tests_pass": 10,
+    "full_draft_pages": 72,
+    "coastal_pages": 16,
+    "coastal_files": 54,
+    "coastal_bytes": 6790617,
+    "items_completed": 200,
+    "kb_validation": "PASS: 541 concepts, 1896 links; 212 register records and 79 events; no whitespace errors"
+  },
+  "findings_resolved": [
+    "404 canonical URL initially used /404/ rather than the delivered /404.html; corrected and page audit rerun.",
+    "Unicode export filename sanitizer initially removed Odia vowel signs; regression caught it, now preserves marks.",
+    "Preparation toggles cloned the current plan while note/day handlers retained old item references; handlers now resolve the current saved item and browser reload confirms persistence.",
+    "Contribution length help inside labels changed accessible field names on every edit; moved outside labels with described-by associations.",
+    "Text-field sizing also stretched checkboxes; excluded checkbox inputs in the website design adapter and visually rechecked the aligned 22px control with a generous clickable label.",
+    "An existing image-budget test used inconsistent fake byte metadata; replaced with actual-sized fixture bytes so the test checks the real budget.",
+    "Final image-fetch cleanup aborts responses rejected before their body is read."
+  ],
+  "limitations": [
+    "Local candidate only; no commit, push, merge, deployment, paid service, public issue or outreach performed.",
+    "200 acceptance items comprise 50 implementation improvements and 150 bounded reviews/checks, not 200 new features or 200 pre-existing work tickets.",
+    "Same AI assistant implemented and reviewed. Founder editorial acceptance, local service verification, fluent Odia review and unresolved source/rights questions remain.",
+    "24 browser geometry/image-load inspections plus representative screenshot review are not a complete accessibility audit or physical-device test. Lazy images not loaded at inspection are outside the broken-image result.",
+    "Native share UI, clear-draft confirmation, clipboard denial and timed browser cancellation were not all exercised end-to-end. Relevant code paths were inspected; abort and storage failure paths have automated tests.",
+    "Browser reported successful five-photo download; actual downloaded bytes were not inspected. Generated book content has automated coverage. Native PDF pagination remains UTP-WORK-080.",
+    "localStorage comparison is a best-effort stale-tab guard, not an atomic multi-process database.",
+    "Shared design-system rc.5 package unchanged; website adapters and principle documentation updated, not a new reusable package release."
+  ],
+  "evidence": [
+    "records/evidence/overnight-200-2026-09-30/book-controls-desktop.png",
+    "records/evidence/overnight-200-2026-09-30/browser-functional.json",
+    "records/evidence/overnight-200-2026-09-30/build-report.json",
+    "records/evidence/overnight-200-2026-09-30/coast-build.log",
+    "records/evidence/overnight-200-2026-09-30/coast-tests.log",
+    "records/evidence/overnight-200-2026-09-30/conflict-browser.json",
+    "records/evidence/overnight-200-2026-09-30/contribute-phone-guidance.png",
+    "records/evidence/overnight-200-2026-09-30/contribute-phone.png",
+    "records/evidence/overnight-200-2026-09-30/contribution-fields-desktop.png",
+    "records/evidence/overnight-200-2026-09-30/editorial-checks.json",
+    "records/evidence/overnight-200-2026-09-30/full-build.log",
+    "records/evidence/overnight-200-2026-09-30/full-draft-manifest.json",
+    "records/evidence/overnight-200-2026-09-30/full-tests.log",
+    "records/evidence/overnight-200-2026-09-30/index.html",
+    "records/evidence/overnight-200-2026-09-30/journey-phone.png",
+    "records/evidence/overnight-200-2026-09-30/konark-large.png",
+    "records/evidence/overnight-200-2026-09-30/page-acceptance.json",
+    "records/evidence/overnight-200-2026-09-30/photo-record-checks.json",
+    "records/evidence/overnight-200-2026-09-30/record-validation.json",
+    "records/evidence/overnight-200-2026-09-30/responsive-measurements.json"
+  ]
+}

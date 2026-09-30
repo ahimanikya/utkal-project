@@ -29,7 +29,7 @@
         "birds",
         "nature"
       ],
-      "image_ref": "mangalajodi",
+      "image_ref": "mangalajodi-boat",
       "detail_href": "/visit/experiences/mangalajodi-birdwatching/"
     },
     {
@@ -290,7 +290,7 @@
   "visuals": {
     "mangalajodi": {
       "id": "mangalajodi",
-      "src": "/images/destinations/mangalajodi.jpg",
+      "src": "/images/destinations/mangalajodi.webp",
       "width": 1200,
       "height": 800,
       "alt": "A dense flock of birds in flight above the Mangalajodi wetland.",
@@ -300,12 +300,14 @@
       "source": "https://commons.wikimedia.org/wiki/File:Birds_of_magicial_Mangalajodi.jpg",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "changes": "Original file; no creative edits. Display framing may crop the edges.",
+      "changes": "Full-frame resize and WebP compression for delivery; original retained. No generated or removed elements. Displayed adaptations retain the source licence.",
       "date": "2016-12-28",
-      "bytes": 1154771,
-      "sha256": "67f062b657960c3fc32e3dfe739c21720173299891284c6b8ac9d597efe0874f",
+      "bytes": 386166,
+      "sha256": "a07dc76946d677bbdef4982bc1e4270c54e570b0685498acaab40d235eb17bfd",
       "download": "https://upload.wikimedia.org/wikipedia/commons/4/43/Birds_of_magicial_Mangalajodi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "inspection": "Source description and license read; downloaded photograph visually inspected."
+      "inspection": "Source description and license read; downloaded photograph visually inspected.",
+      "original_src": "/images/destinations/mangalajodi.jpg",
+      "original_sha256": "67f062b657960c3fc32e3dfe739c21720173299891284c6b8ac9d597efe0874f"
     },
     "kalijai": {
       "id": "kalijai",
@@ -344,6 +346,27 @@
       "sha256": "caeb758841de2eae37aa85b4507d5bf19a2ef88767779190a96510f2a6122dac",
       "download": "https://upload.wikimedia.org/wikipedia/commons/7/75/Crab_dish_chilika_dhaba.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "inspection": "Source description and license read; downloaded photograph visually inspected."
+    },
+    "mangalajodi-boat": {
+      "src": "/images/destinations/mangalajodi-boat.jpg",
+      "width": 1280,
+      "height": 854,
+      "title": "Mangalajodi Ecotourism",
+      "caption": "A boat on the Mangalajodi wetland · Neerakiran, 2017.",
+      "alt": "A narrow covered boat with people aboard on a still channel between green wetland vegetation.",
+      "creator": "Neerakiran",
+      "source": "https://commons.wikimedia.org/wiki/File:Mangalajodi_Ecotourism.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Wikimedia Commons 1280-pixel derivative; no additional image edits. Responsive display framing may crop the view.",
+      "kind": "photograph",
+      "sha256": "fcd4f3fafa425d6d6db224e485c9024f196129191a92fa4612d0b8698b861f74",
+      "checked_on": "2026-09-30",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Mangalajodi_Ecotourism.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Mangalajodi_Ecotourism.jpg/1280px-Mangalajodi_Ecotourism.jpg",
+      "inspection": "File page credits Neerakiran, Own work, dated 12 June 2017, under CC BY-SA 4.0. Image visually inspected; boat and wetland vegetation, not a verified service, safety standard or current availability.",
+      "id": "mangalajodi-boat",
+      "date": "2017-06-12"
     }
   },
   "food_image_ref": "crab",

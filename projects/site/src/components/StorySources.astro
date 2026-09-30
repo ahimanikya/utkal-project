@@ -1,0 +1,23 @@
+---
+const {story,destination,sources,evidenceUses}=Astro.props;
+---
+<details class="end-credits utk-disclosure" id="sources-credits">
+        <summary>Sources, credits & reading notes</summary>
+        {story&&<div class="image-credit">
+          <h3>Photograph & words</h3>
+          <p><a href={story.image.source}>{story.image.title}</a> by {story.image.creator} · <a href={story.image.license_url}>{story.image.license}</a>. {story.image.changes} {story.image.caption}</p>
+          {Object.values(destination?.visuals??{}).map(photo=><p class="destination-photo-credit" data-photo-id={photo.id}><a href={photo.source}>{photo.title}</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes} Photograph dated {photo.date}. {photo.caption}.</p>)}
+          {story.voice&&<p>{story.voice.translation_credit} {story.voice.original}</p>}
+          {destination?.culture.map(work=><p>{work.title}: {work.credit}.</p>)}
+          {destination?.culture.some(work=>work.type==='song')&&<p>Music links lead to external catalogues; playback may depend on your location or account. No recordings or lyrics are hosted here.</p>}
+        </div>}
+        <ol class="source-list">
+          {sources.map(source=><li id={'source-'+source.id}>
+            <a href={source.resource}>{source.title} ↗</a>
+            <p class="source-used">Used for: {evidenceUses.filter(use=>use.sources.includes(source.id)).map((use,index)=><>{index>0?' · ':''}<a href={'#'+use.anchor}>{use.label}</a></>)}</p>
+            {source.inspection&&<p class="source-inspection">{source.inspection}</p>}
+          </li>)}
+        </ol>
+        {destination&&<p>Visitor research checked {destination.checked_on}. Still to verify: {destination.gaps.join('; ')}.</p>}
+        <p class="source-credit">From the Utkal Project knowledge base. Creative direction and Founder & Editor-in-Chief: Ahimanikya Satapathy. Drafted with AI assistance; human editorial review pending. Original authors and photographers retain their credits above.</p>
+      </details>

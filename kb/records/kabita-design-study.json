@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-09-30T02:35:40.280683+00:00",
+  "type": "design_reference_study",
+  "status": "proposal_only",
+  "reference_project": "Kabita Live",
+  "reference_root": "/Users/ahimanikya/Projects/Kabita Live",
+  "reference_thread_title": "Redesign Kabita Live magazine",
+  "files": [
+    {
+      "path": "kb/artifacts/design/brand-guide/DESIGN-SYSTEM.md",
+      "sha256": "5ee66ff3189ece8eb5eb7c7ddd46bae07f67c419303cf43f70745f871489c228"
+    },
+    {
+      "path": "kb/artifacts/design/brand-guide/assets/brand-tokens.json",
+      "sha256": "e433fe216c1571eb1a597704626582f9ec1f7872ff4c6d9a1cf10c5139d551f2"
+    },
+    {
+      "path": "kb/artifacts/design/brand-guide/assets/component-candidates.json",
+      "sha256": "c6df448109801f83666582497f445c8936975583b52262aed27aabfe6e70f6ee"
+    },
+    {
+      "path": "kb/artifacts/review/site/design-system-catalogue.json",
+      "sha256": "a141141cac38dead29526fba94333621fd5f4d9a7b36d0ed2ac148ad0d1d607b"
+    },
+    {
+      "path": "projects/site/assets/style.css",
+      "sha256": "861b35ab24972f4aa979e8fadbc268e9a1391b56e3c010b15691a003dbda86c7"
+    }
+  ],
+  "findings": {
+    "approved_foundations": "Identity, colour, typography, paper and credit organization; separate later approval of single-colour icon treatment.",
+    "component_catalogue": {
+      "groups": 18,
+      "locked": 5,
+      "pending": 13
+    },
+    "source_limitations": [
+      "Component spacing, controls and placements are still candidates in the reference system.",
+      "Reference documentation retains an unresolved 200% enlarged-header concern.",
+      "Browser-local design decisions were not inspected or imported."
+    ],
+    "utkal_gaps": [
+      "Brand colour definitions are duplicated between global styles and the separate brand token asset.",
+      "Main stylesheet declares only bold Odia font faces; long Odia reading needs a regular-weight specimen.",
+      "Spacing and component rules are distributed across shared and per-page CSS."
+    ]
+  },
+  "proposed_adaptation": "reference/utkal-design-system-proposal.md",
+  "boundary": "Read-only study of Kabita Live. No site, logo, fonts, colours, service configuration, role assignments or release output changed. No adoption or publication claimed."
+}

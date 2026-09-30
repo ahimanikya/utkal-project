@@ -1,0 +1,60 @@
+{
+  "recorded_at": "2026-09-30T12:46:02.897343+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-065",
+  "scope": "Consolidated entire website candidate, visitor flow, delivery-image fixes and publication review package.",
+  "checks": {
+    "build_pages": 72,
+    "site_tests": 78,
+    "design_system_tests": 6,
+    "static_local_link_failures": 0,
+    "static_fragment_failures": 0,
+    "static_image_attribute_issues": 0,
+    "all_pages_noindex": true,
+    "responsive_measurements": 44,
+    "widths": [
+      360,
+      768,
+      1440,
+      1920
+    ],
+    "overflow_failures": 0,
+    "keyboard": "Search, destination/food/stay links, starter, journey editing, download controls and phone Menu exercised with keyboard activation.",
+    "journey": "Explore search for Puri \u2192 Puri \u2192 coastal food \u2192 coast stay comparison \u2192 saved journey; new eight-idea starter renamed, dated 12 Dec 2026, Raghurajpur assigned day 2 with a note. Reload preserved changes. Earlier named plans remained in the selector.",
+    "downloads": "Actual text and photo HTML downloads inspected. Five embedded images loaded; dates and notes preserved. No external asset references; outbound reading links require internet and use local origin in these samples.",
+    "visual": "Homepage desktop, food phone/flexible comparison, portable book screen and 44 responsive measurements. Existing inner-page evidence remains linked in prior batch reviews.",
+    "editorial": "Reviewed main discovery labels and representative Puri, craft, meal, stay and book flow for unsupported service promises and confused historical/current context. Capitalized generated destination links. No comprehensive new fact-check claimed.",
+    "native_pdf": "Not run; open WORK-080.",
+    "hidden_heading": "Journey has a second H1 only in its display:none print section; screen heading count is one."
+  },
+  "fixes": [
+    "Created a 506704-byte WebP homepage illustration from the 3653835-byte original.",
+    "Created a 3536-byte favicon from the 1173984-byte source.",
+    "Added intrinsic dimensions to cultural trail images, archive hero, photo essay and small brand proof.",
+    "Capitalized destination labels in connected-page links."
+  ],
+  "limitations": [
+    "Founder editorial acceptance and publication approval remain separate. This is a local candidate; no commit, push or deployment.",
+    "Native PDF pagination remains open under WORK-080. Portable HTML downloads and screen rendering were verified; they do not establish printed pagination.",
+    "No current venue opening, transport, accommodation quality, menus, access or workshop arrangements have been field-checked. Stay guides compare areas, not inspected properties.",
+    "Odia excerpts, language naming and literary interpretations still need fluent or specialist review. No new independent source verification was performed in this release pass.",
+    "Archive mural artists and underlying artwork rights remain unresolved. Historical photographs do not establish a current mural route.",
+    "Targeted browser and responsive checks are not a full accessibility audit or physical-device certification. Other large photographs and TTF fonts remain performance follow-ups."
+  ],
+  "evidence": [
+    "records/evidence/release-review-2026-09-30/static-audit.json",
+    "records/evidence/release-review-2026-09-30/responsive.json",
+    "records/evidence/release-review-2026-09-30/delivery-assets.json",
+    "records/evidence/release-review-2026-09-30/book-download-check.json",
+    "records/evidence/release-review-2026-09-30/journey-heading-check.json",
+    "records/evidence/release-review-2026-09-30/homepage-desktop.png",
+    "records/evidence/release-review-2026-09-30/food-layout-comparison.png",
+    "records/evidence/release-review-2026-09-30/downloaded-book-screen.png",
+    "records/release-review-manifest.json"
+  ]
+}

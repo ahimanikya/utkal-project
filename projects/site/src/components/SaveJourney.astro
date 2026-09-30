@@ -1,0 +1,8 @@
+---
+import {allowsIdea} from '../data/edition';
+const {id,quiet=false}=Astro.props;
+---
+{allowsIdea(id)&&<><div class="journey-save"><button type="button" class:list={['button utk-button',{'utk-button--secondary':quiet}]} data-save-journey={id} disabled>Save to my journey +</button>{!quiet&&<a class="text-link" href="/journey/">My journey →</a>}<span data-save-status role="status"></span></div>
+{!quiet&&<p data-active-journey></p>}
+<noscript><p>Enable JavaScript to save a journey, or print this page from your browser.</p></noscript></>}
+<style>.journey-save{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:22px 0}.journey-save span{font-size:13px;flex-basis:100%}.journey-save button{cursor:pointer}</style>

@@ -1,28 +1,43 @@
 ---
+import SaveJourney from './SaveJourney.astro';
 import DestinationPhoto from './DestinationPhoto.astro';
-const {destination:d}=Astro.props;
+const {destination:d,calm=false}=Astro.props;
 const groups=[
   {id:'things-to-do',eyebrow:'Make time for',title:d.headings.experiences,items:d.experiences},
   {id:'food',eyebrow:'At the table',title:d.headings.foods,items:d.foods,note:d.food_note},
   {id:'stay',eyebrow:'Choose your base',title:d.headings.bases,items:d.bases,note:d.stay_note}
 ];
 ---
-<div class="destination-guide">
+<div class:list={['destination-guide',{'calm-guide':calm}]}>
   <section id="plan-visit" class="destination-orientation" aria-labelledby="orientation-title" data-source-ids={d.orientation_sources.join(' ')}>
     <p class="eyebrow">Before you set out</p>
-    <h2 id="orientation-title">{d.headings.orientation}</h2>
+    <h2 id="orientation-title">{calm?'Plan your time by the lagoon':d.headings.orientation}</h2>
     <p>{d.orientation}</p>
     <p class="season-note" data-source-ids={d.season_sources.join(' ')}><strong>When to go.</strong> {d.season}</p>
+    {calm&&<nav class="shore-links" id="places-within" aria-label="Places around Chilika">{d.places.map(place=><a href={place.href}>{place.title} →</a>)}</nav>}
   </section>
   {groups.map(group=><section class:list={['destination-section',{'food-section':group.id==='food'}]} id={group.id} aria-labelledby={group.id+'-title'}>
     <p class="eyebrow">{group.eyebrow}</p><h2 id={group.id+'-title'}>{group.title}</h2>
     {group.id==='food'&&<DestinationPhoto photo={d.visuals?.[d.food_image_ref]} variant="food-photo" />}
-    <div class:list={['destination-cards',{'experience-cards':group.id==='things-to-do','one-visual':group.items.filter(item=>item.image_ref).length===1}]}>{group.items.map((item,index)=><article class:list={{'with-photo':!!item.image_ref}} id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}>
-      {item.image_ref&&<DestinationPhoto photo={d.visuals?.[item.image_ref]} />}
-      <span class="destination-number">0{index+1}</span>
-      <div>{item.area&&<p class="eyebrow">{item.area}</p>}<h3>{item.title}</h3><p>{item.text}</p>{item.detail_href&&<a class="text-link detail-link" href={item.detail_href}>{group.id==='stay'?'Explore this stay area':'Explore this experience'} →</a>}</div>
+    <div class:list={['destination-cards',{'experience-cards':group.id==='things-to-do','one-visual':group.items.filter(item=>item.image_ref).length===1}]}>{group.items.map((item,index)=><article class:list={{'with-photo':!!item.image_ref&&!calm}} id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}>
+      {item.image_ref&&!calm&&<DestinationPhoto photo={d.visuals?.[item.image_ref]} />}
+      {!calm&&<span class="destination-number">0{index+1}</span>}
+      <div>{item.area&&<p class="eyebrow">{item.area}</p>}<h3>{item.title}</h3><p>{item.text}</p>{item.detail_href&&<a class="text-link detail-link" href={item.detail_href}>{group.id==='stay'?'Explore this stay area':group.id==='food'?'Read the food story':'Explore this experience'} →</a>}<SaveJourney id={item.id} quiet={calm} /></div>
     </article>)}</div>
     {group.note&&<p class="destination-note">{group.note}</p>}
   </section>)}
   <aside class="destination-plan"><h3>{d.planning.heading}</h3><p>{d.planning.text}</p></aside>
 </div>
+
+<style is:global>
+.destination-wide .calm-guide{display:block;max-width:1120px;margin-inline:auto}
+.destination-wide .calm-guide #plan-visit{display:block;background:transparent;border:0;padding:0;max-width:760px;margin:44px auto}
+.destination-wide .calm-guide .destination-section{margin:48px auto;max-width:760px;padding:0;background:transparent;border:0}
+.destination-wide .calm-guide .experience-cards{display:block}
+.destination-wide .calm-guide .destination-cards article,.destination-wide .calm-guide .experience-cards article:not(.with-photo){display:block;padding:24px 0;margin:0;background:transparent;color:var(--ink);border:0;border-bottom:1px solid var(--line)}
+.destination-wide .calm-guide .destination-cards article>div{padding:0;min-width:0}
+.destination-wide .calm-guide .destination-cards article :is(h3,.detail-link){color:var(--sea)}.destination-wide .calm-guide .destination-cards article .eyebrow{color:var(--earth)}
+.destination-wide .calm-guide .destination-section>.food-photo{float:none;width:100%;margin:24px 0}.calm-guide .food-photo img{aspect-ratio:1.7}
+.destination-wide .calm-guide .destination-plan{max-width:760px;margin:36px auto;padding:24px 0;background:transparent;border-top:1px solid var(--line)}
+.calm-guide .shore-links{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:24px}.calm-guide .shore-links a{display:inline-flex;align-items:center;min-height:48px}
+</style>

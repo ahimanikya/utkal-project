@@ -1,19 +1,37 @@
 ---
+import VisitNotebook from '../../../components/VisitNotebook.astro';
+import {allowsPage} from '../../../data/edition';
+import CollectionOnward from '../../../components/CollectionOnward.astro';
+import {collectionChapter} from '../../../data/reading-collection';
+import regions from '../../../../../../kb/research/destinations/regions.json';
+import MagazineCover from '../../../components/MagazineCover.astro';
+import '../../../styles/visitor-flow.css';
+import {journeyCatalog} from '../../../data/journey-catalog';
 import Shell from '../../../layouts/Shell.astro';
 import DestinationPhoto from '../../../components/DestinationPhoto.astro';
-import {detailRecords,detailPhoto,detailSources,relatedDetail} from '../../../data/destination-details';
+import {detailRecords,detailPhoto,detailSources,relatedDetail,parentUrl,parentTitle} from '../../../data/destination-details';
 export function getStaticPaths(){return detailRecords.map(record=>({params:{kind:record.kind,slug:record.slug},props:{record}}));}
 const {record:r}=Astro.props;
+const pagePath=`/visit/${r.kind}/${r.slug}/`,inCollection=collectionChapter(pagePath)>=0;
 const photo=detailPhoto(r),sources=detailSources(r);
+const saveItem=journeyCatalog.find(i=>i.href===`/visit/${r.kind}/${r.slug}/`);
 const kindLabel=r.kind==='stays'?'Stay-area guide':r.kind==='experiences'?'Things to do':'A closer look';
 ---
-<Shell title={r.title} description={r.lead} active="explore" wide>
- <div class="wrap destination-wide detail-page">
-  <p class="breadcrumb"><a href="/explore/">Explore</a> / <a href={'/knowledge/'+r.parent+'/'}>{r.parent==='chilika'?'Chilika':'Konark'}</a> / {kindLabel}</p>
-  <div class="detail-intro"><div><p class="eyebrow">{kindLabel}</p><h1>{r.title}</h1><p class="lead">{r.lead}</p><p class="notice">Editorial draft · {r.kind==='stays'?'Area research, not a reviewed property.':'Practical details need local confirmation.'}</p></div><DestinationPhoto photo={photo} /></div>
-  <div class="detail-columns"><article class="detail-prose">{r.sections.map(section=><section><h2>{section.heading}</h2><p>{section.text}</p></section>)}</article>
-   <aside class="detail-next"><p class="eyebrow">Connect the pieces</p><h2>Make it part of your visit</h2><nav aria-label="Related places and experiences">{r.related.map(relatedDetail).filter(Boolean).map(link=><a href={link.href}>{link.title}<span aria-hidden="true">↗</span></a>)}</nav><a class="text-link" href={'/knowledge/'+r.parent+'/'}>Back to the destination →</a></aside>
-  </div>
-  <details class="end-credits" id="sources-credits"><summary>Sources, photograph & research notes</summary><p>Research checked {r.checked_on}. Sections include original editorial planning advice. No prices, availability, verified travel times or booking service are provided.</p><ul>{sources.map(source=><li><a href={source.resource}>{source.title}</a><p>{source.inspection}</p></li>)}</ul><p><a href={photo.source}>{photo.title}</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes} {r.photo_context}</p><p>Utkal Project knowledge base. Founder & Editor-in-Chief: Ahimanikya Satapathy. Drafted with AI assistance; human editorial review pending.</p></details>
- </div>
+<Shell title={r.title} description={r.lead} active="explore" wide related={!r.single_ending&&!inCollection}>
+ <div class="utk-magazine utk-magazine--detail">
+  <nav class="detail-breadcrumb" aria-label="Breadcrumb"><a href="/explore/">Explore</a><span aria-hidden="true">/</span><a href={parentUrl(r)}>{parentTitle(r)}</a><span aria-hidden="true">/</span><span>{kindLabel}</span></nav>
+  <MagazineCover title={r.title} eyebrow={parentTitle(r)+' · '+kindLabel} deck={[r.lead]} photo={photo} saveId={saveItem?.id} startHref="#detail-section-1" startLabel={r.kind==='stays'?'Research the area':'Look a little closer'} footline={r.kind==='stays'?'Choose the area. Then find your stay.':'One place. Your own way into it.'}/>
+  <nav class="mag-navigation" aria-label="On this page">{r.sections.map((section,index)=><a href={'#detail-section-'+(index+1)}>{section.nav_label||section.heading}</a>)}<a href={inCollection?'#collection-onward':'#connect-visit'}>{inCollection?'Continue the collection':'Connect your visit'}</a></nav>
+  <article class="mag-content">
+   <div class="mag-article-chapters">{r.sections.map((section,index)=><section id={'detail-section-'+(index+1)} class:list={['mag-reading-section',{'mag-reading-section--warm':index===1}]}><div><p class="eyebrow">{String(index+1).padStart(2,'0')} · {kindLabel}</p><h2>{section.heading}</h2></div><div data-source-ids={(section.sources||section.source_ids||[]).join(' ')}><p>{section.text}</p>{section.options&&<div class="area-options">{section.options.map(option=><section><h3>{option.area}</h3><dl><dt>Consider it for</dt><dd>{option.fit}</dd><dt>Transport to plan</dt><dd>{option.transport}</dd><dt>Ask before booking</dt><dd>{option.check}</dd></dl></section>)}</div>}{section.photo_ref&&<div class="detail-chapter-photo"><DestinationPhoto photo={regions.assets[section.photo_ref]}/></div>}</div></section>)}</div>
+   <VisitNotebook/>
+   {inCollection?<div id="connect-visit"><CollectionOnward path={pagePath} extraLinks={r.related.map(relatedDetail).filter(Boolean)}/></div>:<><section id="connect-visit" class="visit-connections"><div><p class="eyebrow">Connect the pieces</p><h2>Make room for<br/><em>the whole visit.</em></h2><p>Know the place, choose an experience and research a base. These are related ideas, not a confirmed route.</p></div><nav aria-label="Related places and experiences">{r.related.map(relatedDetail).filter(link=>link&&allowsPage(link.href)).map(link=><a href={link.href}><span>{link.href.includes('/food/')?'At the table':link.href.includes('/stays/')?'Stay-area research':link.href.includes('/experiences/')?'An experience':link.href.includes('/places/')?'The place':'The wider destination'}</span><strong>{link.title} ↗</strong></a>)}<a href="/journey/"><span>Bring your choices together</span><strong>Open my journey →</strong></a></nav></section></>}
+   {r.gallery?.filter(id=>!r.sections.some(s=>s.photo_ref===id)).map(id=><div class="detail-gallery"><DestinationPhoto photo={regions.assets[id]}/></div>)}
+   <p class="mag-status">Editorial draft · {r.kind==='stays'?'Area research, not a reviewed property.':'Practical details need local confirmation.'}</p>
+  <details class="end-credits utk-disclosure" id="sources-credits"><summary>Sources, photograph & research notes</summary><p>Research checked {r.checked_on}. Sections include original editorial planning advice. No prices, availability, verified travel times or booking service are provided.</p><ul>{sources.map(source=><li><a href={source.resource}>{source.title}</a><p>{source.inspection}</p></li>)}</ul><p><a href={photo.source}>{photo.title}</a> by {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes} {r.photo_context}</p>{r.gallery?.map(id=><p><a href={regions.assets[id].source}>{regions.assets[id].caption}</a> by {regions.assets[id].creator} · <a href={regions.assets[id].license_url}>{regions.assets[id].license}</a>. {regions.assets[id].changes}</p>)}<p>Utkal Project knowledge base. Founder & Editor-in-Chief: Ahimanikya Satapathy. Drafted with AI assistance; human editorial review pending.</p></details>
+ </article></div>
 </Shell>
+
+<style>.detail-chapter-photo{margin-top:28px}.detail-chapter-photo :global(img){width:100%;height:auto;object-fit:contain}.detail-gallery{margin:40px 0}.detail-gallery :global(img){width:100%;height:auto}</style>
+
+<style>.area-options{display:grid;gap:24px;margin-top:28px}.area-options section{padding:24px;background:var(--paper);border:1px solid var(--line)}.area-options h3{font-size:28px;margin:0 0 18px;color:var(--sea)}.area-options dl{margin:0}.area-options dt{font-weight:700;font-size:14px;margin-top:18px;color:var(--earth)}.area-options dd{margin:6px 0 0;font-size:17px;line-height:1.7}</style>

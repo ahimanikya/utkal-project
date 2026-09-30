@@ -15,7 +15,7 @@ We should be able to know a place deeply, narrate it warmly and help someone exp
 
 ## Three layers, one body of knowledge
 
-1. **Entity record:** the place, food, object, craft, festival, person or cultural work. Stable identity and structured knowledge live in the project KB.
+1. **Entity record:** the place, food, object, craft, festival, person, language or cultural work. Stable identity and structured knowledge live in the project KB.
 2. **Evidence and connections:** individual claims, sources, local accounts and typed relationships. These explain what we know, how we know it and how entities belong together.
 3. **Narrative view:** an editor selects and orders supported material for a particular audience. A story is a view of knowledge, not a competing factual database.
 
@@ -162,3 +162,7 @@ The dictionary and templates are an information contract candidate, **not a depl
 ## Reader-facing organization
 
 The [five-site travel benchmark](travel-website-benchmark.md) maps this deep knowledge hierarchy into three visitor paths: Explore Odisha, Stories of Utkal and Plan a visit. It proposes separating entity types from geography and interests in discovery. These are presentation recommendations; the model and current renderer have not been migrated.
+
+## Language heritage extension
+
+The [Languages and Living Voices profile](language-heritage-model.md) adds language as a first-class entity, with Odia as the primary editorial focus. It connects history, speech, scripts, oral traditions, literature, people and present-day use. The [empty language template](../models/knowledge-story-v0.1/language.template.json) uses this model’s claim, source and human-review structure. Language classification, community identity and website interface language remain separate. This is an additive candidate extension; no runtime migration or public pages are implied.

@@ -1,0 +1,40 @@
+{
+  "id": "coast",
+  "status": "local_candidate",
+  "routes": [
+    "/destinations/bhubaneswar/",
+    "/visit/places/dhauli/",
+    "/knowledge/konark/",
+    "/destinations/puri/",
+    "/visit/places/raghurajpur/",
+    "/food/puri-coast/",
+    "/visit/stays/puri-coast/",
+    "/",
+    "/404.html",
+    "/explore/",
+    "/journey/",
+    "/journey-starters/",
+    "/about/",
+    "/founder/",
+    "/contribute/",
+    "/how-to-use/"
+  ],
+  "starter_ids": [
+    "city-craft-coast"
+  ],
+  "journey_ids": [
+    "place:bhubaneswar",
+    "place:dhauli",
+    "place:konark",
+    "place:puri",
+    "place:raghurajpur",
+    "food:puri-mahaprasad",
+    "food:konark-machha-besara",
+    "food:konark-chingudi",
+    "food:konark-chhena-poda",
+    "stay:puri"
+  ],
+  "href_overrides": {
+    "food:konark-chhena-poda": "/food/puri-coast/#sweet-finish"
+  }
+}

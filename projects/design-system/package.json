@@ -1,0 +1,27 @@
+{
+  "name": "@utkal/design-system",
+  "version": "0.1.0-rc.5",
+  "private": true,
+  "type": "module",
+  "description": "Utkal shared tokens, scoped CSS and original utility icons. Local review candidate.",
+  "files": [
+    "tokens.json",
+    "styles/",
+    "fonts/",
+    "icons/",
+    "README.md"
+  ],
+  "exports": {
+    "./tokens": "./tokens.json",
+    "./styles.css": "./styles/utkal.css",
+    "./icons": "./icons/index.mjs"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "review": "node tools/review.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

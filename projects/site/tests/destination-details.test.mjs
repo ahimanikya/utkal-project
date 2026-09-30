@@ -4,17 +4,17 @@ import {readFileSync} from 'node:fs';
 const records=JSON.parse(readFileSync('../../kb/research/destinations/details.json','utf8')).records;
 const read=path=>readFileSync(`dist/${path}/index.html`,'utf8');
 test('detail pages link place, experience and stay research with pictures and evidence',()=>{
- const routes=records.map(r=>`${r.kind}/${r.slug}`);
+ const routes=[...records,...JSON.parse(readFileSync('../../kb/research/destinations/central-details.json','utf8')).records,...JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records].map(r=>`${r.kind}/${r.slug}`);
  assert.equal(new Set(routes).size,routes.length);
  for(const r of records){
   const html=read(`visit/${r.kind}/${r.slug}`);
   assert.ok(html.includes('Editorial draft'));
-  assert.ok(html.includes('class="destination-photo'));
+  assert.match(html, /<figure[^>]*id="story-image"[^>]*><img[^>]+src="[^"]+"[^>]+alt="[^"]+"/);
   assert.ok(html.includes('id="sources-credits"'));
   assert.ok(html.includes(`/knowledge/${r.parent}/`));
   assert.ok(html.includes('creativecommons.org/licenses/'));
   assert.ok(r.sources.length>0);
-  for(const link of r.related){assert.ok(link.startsWith('knowledge/')||routes.includes(link));assert.ok(html.includes(`href="/${link.startsWith('knowledge/')?'':'visit/'}${link}/"`));}
+  for(const link of r.related){const rootLink=link.startsWith('knowledge/')||link.startsWith('food/'); const route=(rootLink?'':'visit/')+link; assert.ok(rootLink||routes.includes(link)); assert.ok(read(route).includes('<main')); assert.ok(html.includes(`href="/${route}/"`));}
   if(r.kind==='stays'){assert.equal(r.entity_type,'base_area');assert.ok(html.includes('not a reviewed property'));assert.ok(html.includes('does not show a room'));}
  }
 });

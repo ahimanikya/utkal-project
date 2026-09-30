@@ -64,3 +64,15 @@ This directory contains the organizational and working model, roles, work record
 - [Chilika and Konark destination pilots](reference/destination-pilots-review.md)
 
 - [Connected destinations and immersive preview](research/product/immersive-destination-brief.md)
+
+- [Languages and Living Voices](reference/language-heritage-model.md) — Odia-first language histories, cultural connections and research queue.
+
+- [Odia Literature & Literary Lives](research/culture/odia-literature-and-literary-lives.md) — writers, works, history and place connections.
+
+- [Language and literature website pilot](research/voices/index.md) — six connected pages, canonical content and image provenance.
+
+- [My Odisha Journey and cultural reading trails](research/product/culture-journey-prototype.md) — personal planning prototype and review evidence.
+
+- [Utkal Design System](design-system/index.md) — reusable library, component gallery, three page pilots and adoption guidance.
+
+- [Current coastal launch-readiness review](research/product/launch-readiness-2026-09-30.md)

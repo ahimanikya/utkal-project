@@ -1,0 +1,104 @@
+{
+  "type": "website_review",
+  "title": "Visitor polish, illustrated books and public contributions",
+  "status": "local_candidate_not_deployed",
+  "checked_at": "2026-09-30T01:52:50.532518+00:00",
+  "independent_review": false,
+  "items": [
+    {
+      "id": "UTP-WORK-031",
+      "title": "Mobile layouts",
+      "preview_path": "/explore/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Responsive navigation, grids and controls; measured 320px and 390px layouts checked."
+    },
+    {
+      "id": "UTP-WORK-032",
+      "title": "Keyboard and accessibility polish",
+      "preview_path": "/contribute/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Visible focus, touch sizing, form error focus and import focus transitions."
+    },
+    {
+      "id": "UTP-WORK-033",
+      "title": "Print layout and long-note review",
+      "preview_path": "/journey/",
+      "result": "implemented_local_candidate_print_verification_open",
+      "acceptance": "Print CSS and long-note retention checked; native PDF/A4 pagination remains unverified."
+    },
+    {
+      "id": "UTP-WORK-034",
+      "title": "Illustrated offline tour book",
+      "preview_path": "/journey/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Optional self-contained HTML with selected real photographs, notes and end credits; bounded image sizes and graceful omissions."
+    },
+    {
+      "id": "UTP-WORK-035",
+      "title": "Combined Explore filters",
+      "preview_path": "/explore/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Area, subject and search work together with shareable filter URLs and empty-state recovery."
+    },
+    {
+      "id": "UTP-WORK-036",
+      "title": "Related discoveries",
+      "preview_path": "/knowledge/chilika/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Curated illustrated reading connections between places, language, literature and food."
+    },
+    {
+      "id": "UTP-WORK-037",
+      "title": "Bhima Bhoi introduction",
+      "preview_path": "/people/bhima-bhoi/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Compassion, Mahima and literary works, with a real memorial photograph and explicit biographical uncertainty."
+    },
+    {
+      "id": "UTP-WORK-038",
+      "title": "Gopinath Mohanty introduction",
+      "preview_path": "/people/gopinath-mohanty/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Place, language and fiction, with a credited photograph, Paraja reading trail and external listening references."
+    },
+    {
+      "id": "UTP-WORK-039",
+      "title": "Chhena Poda and Mudhi Mansa pages",
+      "preview_path": "/food/chhena-poda/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Two illustrated, source-backed food introductions and stable existing journey identities."
+    },
+    {
+      "id": "UTP-WORK-040",
+      "title": "Public GitHub contribution workflow",
+      "preview_path": "/contribute/",
+      "result": "implemented_local_candidate",
+      "acceptance": "Local draft preparation, explicit public handoff, long-link fallback and knowledge/photo issue templates. No automatic submission."
+    }
+  ],
+  "checks": [
+    "Final 50-page Astro build and all 44 site tests passed. Bundle validation passed: 518 concepts and 1691 local links; register validation passed: 114 records and 52 events. Whitespace check passed.",
+    "No horizontal overflow on ten sampled pages at measured 390 CSS px and seven at measured 320 CSS px. Additional checks used measured widths 1146, 1669, 2149 and 2866; requested emulation widths are not reported as measured widths.",
+    "Food + Mayurbhanj returns Mudhi Mansa; impossible search returns an empty state and reset action. Keyboard focus moves to invalid contribution fields and journey import controls.",
+    "Illustrated download reported four included photographs. A separately generated 827388-byte synthetic HTML sample loaded four embedded photographs, contained zero script elements and retained a long note ending LAST-LONG-NOTE.",
+    "Print emulation shows print content and hides interactive journey UI; long-note end marker retained. Native PDF unavailable.",
+    "Temporary Review only — illustrated Odisha book journey deleted through UI. Original empty My Odisha Journey preserved.",
+    "Public issue URL is encoded and length-limited; long Unicode drafts use complete copy/paste fallback rather than truncation. No issue submitted.",
+    "Image creator, licence, source, modification and hash records maintained. New Commons photographs visually inspected."
+  ],
+  "limitations": [
+    "Native PDF generation reports Printing is not available. A4 pagination and physical printing remain unverified; print-media DOM checks are not PDF verification.",
+    "Physical devices, assistive screen readers, and comprehensive accessibility conformance have not been tested.",
+    "Founder editorial review and native-language/community review remain pending. Food origins are attributed accounts; no vendor, property or local access inspection is claimed.",
+    "The photo download control was exercised, but browser-downloaded bytes were not independently retrieved. A separate synthetic sample from the same production helper was opened and visually inspected.",
+    "GitHub repository public visibility and enabled Issues were verified read-only. No test issue was posted. Issue templates and website changes are local candidates, not installed on the default branch or publicly deployed.",
+    "Self-review by the implementing assistant, not independent review. No push, merge, release, payment or new hosting service."
+  ],
+  "evidence": [
+    "records/evidence/visitor-polish/additional-layout-measurements.json",
+    "records/evidence/visitor-polish/food-mobile.png",
+    "records/evidence/visitor-polish/illustrated-book.html",
+    "records/evidence/visitor-polish/illustrated-book.png",
+    "records/evidence/visitor-polish/layout-measurements.json"
+  ]
+}

@@ -1,0 +1,61 @@
+name: Review coastal candidate
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: coastal-review-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      ASTRO_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: projects/site/package-lock.json
+      - name: Install locked site dependencies
+        run: npm ci
+        working-directory: projects/site
+      - name: Validate project knowledge and authority records
+        run: |
+          python3 tools/registers.py --check
+          python3 tools/catalog.py --check
+          python3 tools/check_bundle.py
+          python3 tools/test_registers.py
+          python3 tools/test_config.py
+      - name: Build and test full draft
+        run: |
+          npm run build
+          npm test
+        working-directory: projects/site
+      - name: Build review gallery and test shared design system
+        run: |
+          npm run review
+          npm test
+        working-directory: projects/design-system
+      - name: Build and verify coastal edition
+        run: |
+          npm run build:coast
+          npm run test:coast
+          python3 tools/audit-coast.py
+        working-directory: projects/site
+      - name: Save coastal files for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: coastal-review-${{ github.sha }}
+          path: projects/site/dist-coast
+          retention-days: 14
+          if-no-files-found: error

@@ -1,0 +1,29 @@
+---
+import {allowsPage} from '../data/edition';
+import {collection,collectionChapter} from '../data/reading-collection';
+import {bookPhotos} from '../data/book-photos';
+import connections from '../../../../kb/research/related-discoveries.json';
+import {discoveryEntries} from '../data/discovery';
+const {path,extraLinks=[]}=Astro.props;
+const index=collectionChapter(path),next=collection.chapters[index+1];
+const photo=next?bookPhotos[next.save_id]:null;
+const chapterHrefs=new Set(collection.chapters.map(chapter=>chapter.href));
+const candidates=[...extraLinks,...connections.links.filter(link=>link.from===path).map(link=>({href:link.to,title:discoveryEntries.find(entry=>entry.href===link.to)?.label||link.to}))];
+const further=candidates.filter((link,i)=>allowsPage(link.href)&&!chapterHrefs.has(link.href)&&link.href!==collection.starter_href&&link.href!=='/journey/'&&candidates.findIndex(other=>other.href===link.href)===i);
+---
+{index>=0&&<section id="collection-onward" class="collection-onward" aria-labelledby="collection-heading">
+ <header><p class="eyebrow">City, craft and coast · Chapter {index+1} of {collection.chapters.length}</p><h2 id="collection-heading">{next?<>Follow the story.<br/><em>Next, {next.title}.</em></>:<>Keep what moved you.<br/><em>Make it your journey.</em></>}</h2><p>{next?next.invitation:'A city, a hill, a temple, a shore and a village of makers. Choose what you want to return to; give those encounters their own time.'}</p></header>
+ {photo&&<figure><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy"/><figcaption>{photo.caption||photo.alt}</figcaption></figure>}
+ <div class="collection-actions"><a class="utk-button" href={next?.href||'/journey/'}>{next?'Continue to '+next.title:'Open my journey'} →</a><a href={collection.starter_href}>Start with city, craft and coast →</a>{next&&<a href="/journey/">Open my journey →</a>}</div>
+ <nav class="collection-chapters" aria-label="City, craft and coast chapters"><ol>{collection.chapters.map((chapter,i)=><li><a href={chapter.href} aria-current={i===index?'page':undefined}><span aria-hidden="true">{String(i+1).padStart(2,'0')}</span>{chapter.title}{i===index&&<small>Reading now</small>}</a></li>)}</ol></nav>
+ <p class="collection-note">{collection.description}</p>
+ {!next&&<div class="collection-planning">{collection.planning_links.map(link=><a href={link.href}>{link.title} →</a>)}</div>}
+ {further.length>0&&<details class="collection-details"><summary>More connections to explore</summary><ul>{further.map(link=><li><a href={link.href}>{link.title} →</a></li>)}</ul></details>}
+ {photo&&<details class="collection-details"><summary>Photograph credit</summary><p><a href={photo.source}>{next.title} photograph</a> · {photo.creator} · <a href={photo.license_url}>{photo.license}</a>. {photo.changes}</p></details>}
+</section>}
+<style>
+.collection-onward{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:28px 6%;border-top:2px solid var(--earth);padding-block:44px;margin-top:56px;scroll-margin-top:24px}
+.collection-onward header{align-self:center;min-width:0}.collection-onward h2{font-size:clamp(34px,3.8vw,58px);line-height:1.15;margin:18px 0 24px}.collection-onward header>p:last-child{max-width:49ch;font-size:18px;line-height:1.75}.collection-onward figure{margin:0;min-width:0}.collection-onward img{display:block;width:100%;height:auto;max-height:350px;object-fit:contain;background:var(--paper)}.collection-onward figcaption{font-size:12px;line-height:1.6;margin-top:10px;color:var(--muted)}
+.collection-actions,.collection-chapters,.collection-note,.collection-planning,.collection-details{grid-column:1/-1}.collection-actions{display:flex;align-items:center;flex-wrap:wrap;gap:12px 28px}.collection-actions a,.collection-planning a{min-height:44px;display:inline-flex;align-items:center}.collection-actions .utk-button{white-space:normal;text-align:left}.collection-chapters ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.collection-chapters li{min-width:0}.collection-chapters a{display:block;min-height:90px;padding:18px 12px;font-size:16px;text-decoration:none;overflow-wrap:anywhere}.collection-chapters a span{display:block;font-size:12px;color:var(--earth);margin-bottom:6px}.collection-chapters a[aria-current]{background:var(--paper);box-shadow:inset 0 -3px var(--earth);font-weight:700}.collection-chapters a:hover{text-decoration:underline;text-underline-offset:4px}.collection-chapters small{display:block;font-size:11px;font-weight:400;margin-top:6px}.collection-onward .collection-note{font-size:14px;line-height:1.75;color:var(--muted);margin:0}.collection-planning{display:flex;flex-wrap:wrap;gap:12px 30px}.collection-details{font-size:14px;border-top:1px solid var(--line);overflow-wrap:anywhere}.collection-details summary{cursor:pointer;padding:12px 0;min-height:44px}.collection-details li{margin:10px 0}.collection-details p{font-size:13px;line-height:1.75}.collection-onward:not(:has(figure)) header{grid-column:1/-1;max-width:850px}
+@media(max-width:750px){.collection-onward{grid-template-columns:1fr;gap:24px;padding-top:32px;margin-top:40px}.collection-onward img{max-height:300px}.collection-chapters ol{grid-template-columns:1fr}.collection-chapters a{display:flex;align-items:center;gap:14px;min-height:52px;padding:12px;border-bottom:1px solid var(--line)}.collection-chapters a span{margin:0}.collection-chapters small{margin:0 0 0 auto;flex-shrink:0}.collection-actions{align-items:flex-start;flex-direction:column}.collection-chapters a[aria-current]{box-shadow:inset 3px 0 var(--earth)}.collection-onward header>p:last-child{font-size:17px}}
+</style>

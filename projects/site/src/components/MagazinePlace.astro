@@ -1,0 +1,67 @@
+---
+import VisitNotebook from './VisitNotebook.astro';
+import {allowsPage,isCoastalEdition} from '../data/edition';
+import CollectionOnward from './CollectionOnward.astro';
+import SaveJourney from './SaveJourney.astro';
+import StorySources from './StorySources.astro';
+import PhotoJourney from './PhotoJourney.astro';
+import CultureConnections from './CultureConnections.astro';
+import MagazineCover from './MagazineCover.astro';
+import layouts from '../../../../kb/research/stories/magazine-layouts.json';
+const {entry,story,destination:d,sources,evidenceUses}=Astro.props;
+const layout=layouts[entry.slug];
+const foodLead=d.foods.find(item=>item.id===layout.foodLead);
+const foodOthers=d.foods.filter(item=>item.id!==layout.foodLead);
+const chapterId=story.voice?'poems-songs':'history';
+---
+<div class="utk-magazine">
+  <MagazineCover title={layout.title} odia={layout.odia} eyebrow={layout.eyebrow} deck={layout.deck} photo={story.image} caption={story.image.short_caption||story.image.caption} saveId={d.id} startHref={'#'+chapterId} startLabel="Read the story" footline={layout.footline}/>
+  <nav class="mag-navigation" aria-label="On this page"><a href={'#'+chapterId}>The story</a><a href="#things-to-do">{layout.choicesLabel}</a>{story.history&&<a href="#poems-songs">Culture & stories</a>}<a href="#food">At the table</a><a href="#plan-visit">Plan a visit</a></nav>
+  <article class="mag-content">
+    <section class:list={['mag-chapter mag-story',{'mag-story--history':!!story.history}]} id={chapterId} aria-labelledby="mag-story-title" data-source-ids={(story.voice?.sources||story.history.sources).join(' ')}>
+      <div class="mag-chapter-label" aria-hidden="true"><span>01</span><p class="eyebrow">{layout.storyKicker}</p></div>
+      <div class="mag-story-copy">
+        <h2 id="mag-story-title">{layout.storyTitle[0]}<br/><em>{layout.storyTitle[1]}</em></h2>
+        <p class="mag-reading">{story.opening}</p>
+        {story.voice&&<><blockquote><p lang={story.voice.language}>{story.voice.original}</p><p class="mag-translation">{story.voice.translation}</p><footer>{story.voice.author} · <cite>{story.voice.work}</cite></footer></blockquote><p class="mag-context">{story.voice.context}</p></>}
+        {story.history&&<p class="mag-reading">{story.history.text}</p>}
+        <details class="mag-disclosure" id={story.voice?undefined:'poems-songs'}><summary>{story.culture_heading||'Poems and songs to explore'}</summary>{d.culture.map(work=><article id={work.id.replaceAll(':','-')} data-source-ids={work.sources.join(' ')}><h3>{work.title}</h3><p>{work.text}</p><a href={work.url}>{work.link_label} ↗</a></article>)}</details>
+      </div>
+      {story.voice?<figure><img src={d.visuals.mangalajodi.src} alt={d.visuals.mangalajodi.alt} width={d.visuals.mangalajodi.width} height={d.visuals.mangalajodi.height} loading="lazy"/><figcaption>{d.visuals.mangalajodi.caption}</figcaption></figure>:<aside class="mag-history-note" id={story.surprise.id} data-source-ids={story.surprise.sources.join(' ')}><p class="eyebrow">Look a little closer</p><h3>{story.surprise.heading}</h3><dl class="mag-metrics">{story.surprise.metrics.map(m=><div><dt>{m.label}</dt><dd>{m.value}</dd></div>)}</dl><p>{story.surprise.text}</p><details class="mag-disclosure"><summary>{story.surprise.reveal_label}</summary><p>{story.surprise.reveal}</p></details></aside>}
+    </section>
+    <section class="mag-chapter mag-shores" id="things-to-do" aria-labelledby="mag-shores-title">
+      <div class="mag-section-heading"><div><p class="eyebrow">{layout.choicesKicker}</p><h2 id="mag-shores-title">{layout.choicesTitle[0]}<br/><em>{layout.choicesTitle[1]}</em></h2></div><p>{layout.choicesIntro} <a href="#stay">Choose where to stay →</a></p></div>
+      <div class="mag-shore-grid" id="places-within">{d.experiences.map((item,index)=>{const photoRef=item.image_ref||layout.experienceImages[item.id];const photo=photoRef?d.visuals[photoRef]:story.image;return <article class="mag-shore" id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}>
+        <figure><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy"/><figcaption>{photoRef?photo.caption:layout.heroReuseCaption}</figcaption></figure>
+        <div><p class="eyebrow">{item.area}</p><h3>{layout.experienceTitles[item.id]||item.title}</h3><p>{item.text}</p>{allowsPage(item.detail_href)&&<a class="mag-detail-link" href={item.detail_href}>{item.title} ↗</a>}<SaveJourney id={item.id} quiet /></div>
+      </article>})}</div>
+      <details class="mag-disclosure mag-belief" id="local-belief" data-source-ids={story.belief.sources.join(' ')}><summary>{story.belief.heading} · local legend</summary><p class="eyebrow">{story.belief.label}</p><p>{story.belief.text}</p><p>{story.belief.qualification}</p></details>
+    </section>
+    <section class="mag-chapter mag-food" id="food" aria-labelledby="mag-food-title">
+      <figure><img src={d.visuals[d.food_image_ref].src} alt={d.visuals[d.food_image_ref].alt} width={d.visuals[d.food_image_ref].width} height={d.visuals[d.food_image_ref].height} loading="lazy"/><figcaption>{d.visuals[d.food_image_ref].caption}</figcaption></figure>
+      <div><p class="eyebrow">At the table</p><h2 id="mag-food-title">{layout.foodTitle[0]}<br/><em>{layout.foodTitle[1]}</em></h2>
+        <div class="mag-food-lead" id={foodLead.id.replaceAll(':','-')} data-source-ids={foodLead.sources.join(' ')}><h3>{foodLead.title}</h3><p class="mag-reading">{foodLead.text}</p>{foodLead.detail_href&&allowsPage(foodLead.detail_href)&&<a class="mag-detail-link" href={foodLead.detail_href}>Read the food story ↗</a>}<SaveJourney id={foodLead.id} quiet /></div>
+        <details class="mag-disclosure"><summary>{layout.moreFoodLabel}</summary>{foodOthers.map(item=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}><h3>{item.title}</h3><p>{item.text}</p>{item.detail_href&&allowsPage(item.detail_href)&&<a class="mag-detail-link" href={item.detail_href}>Read the food story ↗</a>}<SaveJourney id={item.id} quiet /></article>)}</details>
+        <p class="mag-note">{d.food_note}</p>
+      </div>
+    </section>
+    <section class="mag-chapter mag-visit" id="plan-visit" aria-labelledby="mag-visit-title">
+      <div><p class="eyebrow">{layout.planKicker}</p><h2 id="mag-visit-title">{layout.planTitle[0]}<br/><em>{layout.planTitle[1]}</em></h2><p class="mag-reading" data-source-ids={d.orientation_sources.join(' ')}>{d.orientation}</p><a class="utk-button" href="/journey/">Open my journey →</a>{d.journey_starter&&<p><a href={d.journey_starter.href}>{d.journey_starter.title} →</a></p>}</div>
+      <div class="mag-visit-notes">
+        <section data-source-ids={d.season_sources.join(' ')}><h3>When</h3><p>{d.season}</p></section>
+        <section id="locals" data-source-ids={d.community.sources.join(' ')}><h3>With whom</h3><p>{d.community.text}</p></section>
+        <section id="stay"><h3>Stay</h3><div><p>{d.stay_note}</p><details class="mag-disclosure"><summary>Explore the stay areas</summary>{d.bases.map(item=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}><h4>{item.title}</h4><p>{item.text}</p><a href={isCoastalEdition?'/visit/stays/puri-coast/':item.detail_href}>Explore this stay area ↗</a><SaveJourney id={item.id} quiet /></article>)}</details></div></section>
+      </div>
+    </section>
+    <div class="mag-further">
+      <details class="mag-disclosure" id="expectations"><summary>Good to know before you go</summary><h3>{d.expectations.heading}</h3><dl>{[['A good fit for',d.expectations.strength],['Plan around',d.expectations.constraint],['Do',d.expectations.do],['Avoid',d.expectations.avoid]].map(([title,text])=><div><dt>{title}</dt><dd>{text}</dd></div>)}</dl><h3>{d.planning.heading}</h3><p>{d.planning.text}</p></details>
+      <details class="mag-disclosure" id={layout.recordAnchor}><summary>{layout.recordLabel}</summary>{entry.paragraphs.map((p,i)=><p class="knowledge-text" id={'fact-'+(i+1)} data-source-ids={p.sources.join(' ')}>{p.text}</p>)}{story.voice&&<section id="ecology" data-source-ids={story.surprise.sources.join(' ')}><h3>{story.surprise.heading}</h3><dl class="mag-metrics">{story.surprise.metrics.map(m=><div><dt>{m.label}</dt><dd>{m.value}</dd></div>)}</dl><p>{story.surprise.text}</p><details><summary>{story.surprise.reveal_label}</summary><p>{story.surprise.reveal}</p></details></section>}</details>
+      {!isCoastalEdition&&<details class="mag-disclosure"><summary>Take a photographic journey around {layout.title}</summary><PhotoJourney destination={d} story={story}/></details>}
+      <details class="mag-disclosure"><summary>Keep reading · places, language and literature</summary><CultureConnections path={'/knowledge/'+entry.slug+'/'} /><div class="mag-reading-links">{d.related.filter(item=>allowsPage(item.href)).map(item=><div><h3><a href={item.href}>{item.title} →</a></h3><p>{item.text}</p></div>)}</div></details>
+    </div>
+    <VisitNotebook/>
+    {entry.slug==='konark'&&<CollectionOnward path="/knowledge/konark/"/>}
+    <StorySources story={story} destination={d} sources={sources} evidenceUses={evidenceUses}/>
+    <p class="mag-status">Editorial draft · awaiting Founder review.</p>
+  </article>
+</div>

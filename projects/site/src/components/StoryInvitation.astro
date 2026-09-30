@@ -1,0 +1,7 @@
+---
+const {eyebrow,heading,text,href,label}=Astro.props;
+---
+<aside class="utk-story-invitation">
+ <div><p class="utk-eyebrow">{eyebrow}</p><h2>{heading}</h2><p>{text}</p></div>
+ <a class="utk-button" href={href}>{label} <span aria-hidden="true">↓</span></a>
+</aside>

@@ -17,7 +17,8 @@
     "organization",
     "experience",
     "stay",
-    "material"
+    "material",
+    "language"
   ],
   "profiles": {
     "place": {
@@ -59,6 +60,23 @@
         "visit"
       ],
       "note": "Choose entity_type food, craft, object or material; thing is a profile, not a universal factual category."
+    },
+    "language": {
+      "modules": [
+        "language_identity",
+        "language_geography",
+        "history",
+        "sound_script",
+        "oral_traditions",
+        "culture",
+        "use_meaning",
+        "people",
+        "language_learning",
+        "language_today",
+        "related"
+      ],
+      "optional_extensions": [],
+      "note": "Language or variety profile; subtype and classification are sourced, not inferred from editorial grouping. See reference/language-heritage-model.md."
     }
   },
   "module_states": [
@@ -217,11 +235,62 @@
         "quality_care"
       ],
       "research_question": "How can someone choose, preserve and use it responsibly?"
+    },
+    {
+      "id": "language_identity",
+      "title": "Meet the language",
+      "entry_forms": [
+        "language_identity"
+      ],
+      "research_question": "What do speakers call it, and what precisely does this profile cover?"
+    },
+    {
+      "id": "language_geography",
+      "title": "Where it lives",
+      "entry_forms": [
+        "language_distribution"
+      ],
+      "research_question": "Who speaks it, where, when, and alongside which other languages?"
+    },
+    {
+      "id": "sound_script",
+      "title": "Sound and writing",
+      "entry_forms": [
+        "script_usage",
+        "language_sample"
+      ],
+      "research_question": "How is it spoken and written, and which reviewed recordings can we share?"
+    },
+    {
+      "id": "oral_traditions",
+      "title": "Stories carried by voice",
+      "entry_forms": [
+        "local_account",
+        "cultural_work"
+      ],
+      "research_question": "Which tellers, versions and traditions illuminate its living heritage?"
+    },
+    {
+      "id": "language_learning",
+      "title": "Learn and connect",
+      "entry_forms": [
+        "language_sample"
+      ],
+      "research_question": "Which reviewed expressions and learning resources help someone listen and participate?"
+    },
+    {
+      "id": "language_today",
+      "title": "Life today and tomorrow",
+      "entry_forms": [
+        "language_status",
+        "speaker_estimate"
+      ],
+      "research_question": "How is it used today, and what do dated studies and speakers tell us about change?"
     }
   ],
   "field_notation": "? is not used: listed fields may be null or empty when genuinely unknown; record material gaps. Repeated arrays are explicit. Publication rules below determine minimum evidence, not mere field presence.",
   "core_fields": {
-    "entity": "model_version:string; profile:place|thing; id:entity_id; entity_type:entity_type; subtype:string|null; names:entry[]; summary:editorial_text|null; modules:module[]; claims:entry[]; relationships:relationship[]; sources:source[]; assets:asset[]; narrative_views:narrative_view[]; review:review",
+    "entity": "model_version:string; profile:place|thing|language; id:entity_id; entity_type:entity_type; subtype:string|null; names:entry[]; summary:editorial_text|null; modules:module[]; claims:entry[]; relationships:relationship[]; sources:source[]; assets:asset[]; narrative_views:narrative_view[]; review:review",
     "module": "id:module_id; state:module_state; entry_refs:record_pointer[]; claim_ids:claim_id[]; gaps:gap[]; not_applicable_reason:string|null",
     "entry": "id:claim_id; form:entry_form; kind:entry_kind; payload:form_fields; evidence_refs:evidence_ref[]; time_scope:string|null; geographic_scope:entity_id[]; checked_on:date|null; review_state:review_state; uncertainty:string|null",
     "relationship": "id:relationship_id; subject_id:entity_id; predicate:predicate; object_id:entity_id; evidence_refs:evidence_ref[]; time_scope:string|null; checked_on:date|null; review_state:review_state",
@@ -305,6 +374,24 @@
     },
     "quality_care": {
       "field_dictionary": "aspect:quality|provenance|care|storage|purchasing; advice:string; applies_to:string; limitations:string"
+    },
+    "language_identity": {
+      "field_dictionary": "preferred_name:string; self_names:object[]; naming_scope:string; classification:string|null; classification_authority:string|null; alternative_claim_ids:claim_id[]; identifiers:object[]; editorial_priority:primary|standard"
+    },
+    "language_distribution": {
+      "field_dictionary": "place_ids:entity_id[]; community_ids:entity_id[]; distribution_description:string; multilingual_context:string; map_source:string|null; precision_and_limits:string"
+    },
+    "script_usage": {
+      "field_dictionary": "script_name:string; period:string|null; usage_context:string; community_or_region_ids:entity_id[]; spelling_convention:string|null"
+    },
+    "language_sample": {
+      "field_dictionary": "original_text:string; script:string|null; transliteration:string|null; transliteration_convention:string|null; translation:translation|null; variety:string|null; locality_ids:entity_id[]; usage_context:string; audio_asset_id:asset_id|null; speaker_public_credit:string|null; recorded_on:date|null; public_permission_reference:string|null; native_reviewer:string|null; language_review_state:review_state"
+    },
+    "language_status": {
+      "field_dictionary": "aspect:recognition|education|media|intergenerational_use|revitalisation|other; description:string; assessment_body:string|null; method:string|null; applicability:string"
+    },
+    "speaker_estimate": {
+      "field_dictionary": "value:number; measure:mother_tongue|all_speakers|other; geographic_scope:entity_id[]; reference_year:integer; source_table_and_row:string; method:string; classification_basis:string; limitations:string"
     }
   },
   "predicates": {
@@ -356,6 +443,15 @@
       "quoted_by",
       "quote_about",
       "recorded_in"
+    ],
+    "language": [
+      "spoken_in",
+      "used_by",
+      "written_in_language",
+      "performed_in_language",
+      "uses_script",
+      "translated_from_language",
+      "translated_into_language"
     ]
   },
   "publication_rules": [
@@ -368,7 +464,12 @@
     "Current visitor advice needs a checking date and explicit area/season applicability. Unknown values must not become promises.",
     "Unknowns and not_applicable are distinct; not_applicable requires a reason.",
     "Public local-participation entries use invitations and public contact details; private consent documents are not stored in the public KB.",
-    "Keep detailed credits at the page end; retain belief, period, quotation attribution and generated-depiction context beside relevant material."
+    "Keep detailed credits at the page end; retain belief, period, quotation attribution and generated-depiction context beside relevant material.",
+    "Language names, classification, scripts, official recognition and editorial priority are separate claims; record disagreements and source dates.",
+    "Language affiliation does not establish ancestry, ethnicity or religion; language communities and places can overlap.",
+    "Original text, transliteration and translation remain distinct; publicly displayed language samples need recorded native-language review.",
+    "Speaker counts require year, geography, measure and source locator; do not treat a historical census count as a current estimate.",
+    "Voice recordings need chosen public speaker credit, context, rights and a safe consent reference; synthetic audio must never be presented as a real community voice."
   ],
   "compatibility": {
     "existing_destination_record": "research/destinations/chilika.json",
@@ -382,5 +483,21 @@
     "record_pointer": "Path is relative to the KB root; pointer is an RFC 6901 JSON pointer into that file, including escaped ~ and / segments when needed.",
     "date": "ISO calendar date when precision is known. Historical event ranges retain precision rather than invented exact dates.",
     "unknown": "Null or empty collection plus a research gap; absence is not evidence of nonexistence."
-  }
+  },
+  "language_relationship_notes": {
+    "spoken_in": "language to place; scope/time/evidence required; not an exclusive boundary",
+    "used_by": "language to community; describes evidenced use, not every member",
+    "written_in_language": "cultural work to language",
+    "performed_in_language": "particular performance/work version to language",
+    "uses_script": "language to separately identified script (object subtype script); context and period required",
+    "translated_from_language": "particular translation/work version to source language",
+    "translated_into_language": "particular translation/work version to target language"
+  },
+  "extensions": [
+    {
+      "id": "language-heritage-v0.1",
+      "status": "candidate_for_founder_review",
+      "reference": "reference/language-heritage-model.md"
+    }
+  ]
 }

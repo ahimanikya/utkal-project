@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-09-30T13:24:53.947748+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-066",
+  "checks": {
+    "build_pages": 72,
+    "site_tests": 78,
+    "design_system_tests": 6,
+    "design_system": "0.1.0-rc.5",
+    "responsive_measurements": 20,
+    "overflow_failures": 0,
+    "original_assets_unchanged": 10,
+    "source_claim_checks": 13,
+    "photo_source_records_checked": 8,
+    "native_pdf": "not verified; UTP-WORK-080",
+    "static_local_link_failures": 0,
+    "all_pages_noindex": true,
+    "visual": "Konark detail and Chilika panorama render in 390 px frames; Odia titles are visible without clipping or missing-glyph squares. Desktop Odia verse screenshot retained. This is not fluent proofreading."
+  },
+  "limitations": [
+    "Founder acceptance and publication approval remain separate. No commit, push, issue submission or deployment.",
+    "Shortlist is advisory, not a build filter. Held pages, cards and catalog entries remain in the full draft output.",
+    "No live service, transport, venue, accommodation, menus or access arrangements field-verified.",
+    "Fluent/community language review, Chilika edition/translation review and historical image/mural provenance remain open.",
+    "Selected claims and eight photo source records checked; no blanket fact-check or legal clearance claimed.",
+    "Native PDF remains open under UTP-WORK-080; responsive screenshots are not physical-device or full accessibility certification."
+  ],
+  "evidence": [
+    "records/editorial-readiness-manifest.json",
+    "records/evidence/editorial-readiness-2026-09-30/current-output-check.json",
+    "records/evidence/editorial-readiness-2026-09-30/fonts.json",
+    "records/evidence/editorial-readiness-2026-09-30/image-rights-review.json",
+    "records/evidence/editorial-readiness-2026-09-30/images.json",
+    "records/evidence/editorial-readiness-2026-09-30/index.html",
+    "records/evidence/editorial-readiness-2026-09-30/konark-desktop.png",
+    "records/evidence/editorial-readiness-2026-09-30/odia-verse-desktop.png",
+    "records/evidence/editorial-readiness-2026-09-30/original-preservation.json",
+    "records/evidence/editorial-readiness-2026-09-30/phone-font-photo-review.png",
+    "records/evidence/editorial-readiness-2026-09-30/publication-shortlist.json",
+    "records/evidence/editorial-readiness-2026-09-30/responsive.json",
+    "records/evidence/editorial-readiness-2026-09-30/source-checks.json"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-09-30T10:20:09.284807+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-062",
+  "scope": "Bhubaneswar visitor reference: city → Dhauli → Fresco → personal journey → portable book.",
+  "checks": {
+    "build_pages": 67,
+    "site_tests": 71,
+    "design_system_tests": 6,
+    "responsive_checks": 20,
+    "widths": [
+      360,
+      768,
+      1440,
+      1920
+    ],
+    "horizontal_overflow": false,
+    "browser_flow": "Created a separate city starter on isolated origin 4341; assigned 12/13 December 2026, added a note and reloaded. Values and archive reminder persisted. Print DOM retains five practical notes and source appendix.",
+    "downloads": "Both actual browser downloads inspected on disk. Text edition has no images; illustrated edition contains three embedded photographs, all decoded in browser. Dates, personal note, practical guidance, archive caveat and source/photograph credit retained.",
+    "generated_stress_sample": "Separate five-item sample covers city, Mukteswar, dalma, Dhauli and Fresco with four distinct embedded photographs. Generated with actual catalog and book builder; not mislabelled as browser download.",
+    "source_checks": "Official city, weather, food and Dhauli pages rechecked 30 September 2026. Two Commons file descriptions and images inspected.",
+    "native_pdf": "Not passed; no PDF file generated."
+  },
+  "limitations": [
+    "Native PDF pagination remains unverified. The in-app browser has no native printing support and the explicit Chrome choice is pending; WORK-080 remains open.",
+    "Current venue opening, fares, named hosts, accessible routes and facilities were not field-checked. Source checks do not establish these details.",
+    "Odia/native editorial review, Founder acceptance and publication approval remain separate.",
+    "Responsive checks and phone iframe inspection are not physical-device or comprehensive accessibility certification. Direct emulated screenshot showed a compositor scaling artefact; the iframe comparison is the visual phone evidence.",
+    "The candidate contains earlier unreleased work. Its manifest identifies the complete site output; it is not a Bhubaneswar-only release."
+  ],
+  "evidence": [
+    "research/product/bhubaneswar-visitor-candidate.md",
+    "records/bhubaneswar-release-candidate.json",
+    "records/evidence/bhubaneswar-visitor-2026-09-30/responsive.json",
+    "records/evidence/bhubaneswar-visitor-2026-09-30/journey-flow.json",
+    "records/evidence/bhubaneswar-visitor-2026-09-30/download-check.json"
+  ]
+}

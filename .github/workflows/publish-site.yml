@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       publish_approved:
-        description: 'Founder has approved this main-branch website for public release'
+        description: 'Founder has approved this main-branch coastal edition for public release'
         type: boolean
         required: true
         default: false
@@ -38,9 +38,11 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
+      - run: npm run build:coast
+      - run: npm run test:coast
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: projects/site/dist
+          path: projects/site/dist-coast
 
   deploy:
     needs: build

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-09-30T06:09:57.342899+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "design_system_version": "0.1.0-rc.3",
+  "scope": [
+    "Chilika place story",
+    "Chhena Poda food story",
+    "Gopinath Mohanty literary profile",
+    "Shared invitation, reading route and narrative pause patterns"
+  ],
+  "validation": {
+    "site_build_pages": 67,
+    "site_tests": 63,
+    "design_system_tests": 6,
+    "responsive_dom_checks": 12,
+    "tested_widths_css_px": [
+      360,
+      769,
+      1440,
+      1919
+    ],
+    "horizontal_overflow": false,
+    "failed_completed_images": [],
+    "keyboard_anchor_actions": [
+      "Culture & stories → #poems-songs",
+      "Start with Paraja → #paraja",
+      "Meet the sweet → #taste"
+    ],
+    "portrait_fit": "contain; full historical photograph and caption retained",
+    "sources_and_save_ids": "Existing regression checks pass; saved user journeys not modified",
+    "gallery_food_selector": "Chhena Poda selection resolves to pilots/food/?view=integrated",
+    "phone_visual_review": "Chhena Poda single-column layout inspected with tab-specific emulation; temporary viewport settings reset"
+  },
+  "evidence": [
+    "records/evidence/story-reference/responsive.json",
+    "records/evidence/story-reference/chilika-desktop.png",
+    "records/evidence/story-reference/person-desktop.png",
+    "records/evidence/story-reference/food-desktop.png",
+    "records/evidence/story-reference/food-reading.png"
+  ],
+  "limitations": [
+    "Founder and native Odia editorial review pending",
+    "Browser layout checks are not a full assistive-technology or field-device audit",
+    "No new media generated; photography and research reused with existing rights and qualifications",
+    "Dedicated sharing features, audience testing and broader page-family rollout remain further work",
+    "Local candidate only; no commit, push or deployment in this batch"
+  ]
+}

@@ -28,3 +28,7 @@
 - [Utkal Knowledge & Story Model](knowledge-story-model.md)
 
 - [Five travel websites: lessons for Utkal](travel-website-benchmark.md)
+
+- [Languages and Living Voices](language-heritage-model.md)
+
+- [Utkal Design System — Kabita Live adaptation proposal](utkal-design-system-proposal.md)

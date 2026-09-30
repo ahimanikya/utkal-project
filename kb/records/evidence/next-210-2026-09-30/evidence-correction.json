@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-09-30T15:56:25.828194+00:00",
+  "affected_file": "kb/records/evidence/overnight-200-2026-09-30/page-acceptance.json",
+  "finding": "The previous route audit tool wrote to a fixed first-batch evidence path. Running it during this batch refreshed that file with the second-batch output before the path was corrected. The original file bytes are no longer available here.",
+  "original_sha256": "819b64abdabeb35465064c02399d8c530252864ca6da429fc78c0475056dc9fe",
+  "refreshed_sha256": "4b1ddeb0320e2a59eb16fa32ee24b369e34b1c8490512ae8bfe305d40889dacd",
+  "interpretation": "The first-batch record and original evidence-manifest hash remain historical; the refreshed page-acceptance.json must not be presented as the original artifact. First-batch pass counts were also recorded in its review and chat tool output.",
+  "repair": "The audit now defaults to disposable .astro output and accepts an explicit --output destination. This batch uses its own evidence directory. No historical manifest was rewritten to hide the mismatch."
+}
