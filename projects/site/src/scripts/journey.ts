@@ -30,7 +30,12 @@ const empty=document.querySelector<HTMLElement>('#journey-empty');
 const print=document.querySelector('#journey-print');
 function node(tag:string,text?:string,className?:string){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(className)e.className=className;if(tag==='button')e.classList.add('utk-button','utk-button--secondary');if(tag==='label')e.classList.add('utk-field');return e;}
 function announce(message:string){if(status)status.textContent=message+(dirty&&!message.includes('not saved')?' Changes are not saved in this browser. Export a backup before leaving.':'');}
-function download(text:string,name:string,type='application/json'){downloadFile(text,name,type);}
+function download(text:string,name:string,type='application/json'){
+ downloadFile(text,name,type);
+ const message=`Download requested: ${name}. Check your browser’s downloads. If the file is missing, allow downloads for this site and try again.`;
+ const feedback=document.querySelector<HTMLElement>('#download-feedback');if(feedback)feedback.textContent=message;
+ announce(message);
+}
 function save(){
  library.trips.find(t=>t.id===library.activeId).plan=plan;
  const result=saveLibraryChecked(storage,library,baseline);dirty=result.status!=='saved';
@@ -82,7 +87,7 @@ function renderPrint(){
  const checks=node('ul');for(const row of preparationRows(book))checks.append(node('li',`${row.done?'Done':'To check'} — ${row.label}`));prep.append(checks);print.append(prep);
  if(includeNotes()&&(book.reminders||[]).length){const section=node('section');section.append(node('h2','Your personal reminders'),node('p','These are your own reminders for the whole trip, not verified arrangements.'));const list=node('ul');for(const r of book.reminders)list.append(node('li',`${r.done?'Done':'To check'} — ${r.text}`));section.append(list);print.append(section);}
  const questions=questionGroups(book,journeyCatalog);if(questions.length){const section=node('section');section.append(node('h2','Questions to take with you'),node('p','Prompts to ask locally, not verified arrangements.'));for(const g of questions){section.append(node('h3',g.title));const list=node('ul');for(const q of g.questions)list.append(node('li',q.heading+' — '+q.text));section.append(list);}print.append(section);}
- const appendix=node('section',undefined,'print-sources');appendix.append(node('h2','Sources & reading notes'),node('p','Summaries use the current Utkal Project collection, not a snapshot from the day you saved. Founder & Editor-in-Chief: Ahimanikya Satapathy. Research prepared with AI assistance; human editorial review pending. Your notes are your own. Stay areas are research suggestions, not reviewed properties. No photographs, poems or recordings are reproduced in this book.'));
+ const appendix=node('section',undefined,'print-sources');appendix.append(node('h2','Sources & reading notes'),node('p','Summaries use the Utkal Project collection loaded in this page, not a snapshot from the day you saved. Founder & Editor-in-Chief: Ahimanikya Satapathy. Research prepared with AI assistance; human editorial review pending. Your notes are your own. Stay areas are research suggestions, not reviewed properties. No photographs, poems or recordings are reproduced in this book.'));
  const list=node('ul');for(const [url,label] of references){const li=node('li',label+' — '+url);list.append(li);}appendix.append(list);print.append(appendix);
 }
 function render(focusId?:string,focusAction?:string){
@@ -202,18 +207,18 @@ if(app){
  document.querySelector('#saved-clear')?.addEventListener('click',()=>{const input=document.querySelector<HTMLInputElement>('#saved-search');input.value='';filterSavedIdeas();input.focus();});
  document.querySelector('#include-personal-notes')?.addEventListener('change',renderPrint);
  document.querySelector('#cancel-photo-book')?.addEventListener('click',()=>photoController?.abort());
- document.querySelector('#plain-itinerary')?.addEventListener('click',()=>{download(buildTextItinerary(exportPlan(),journeyCatalog,{baseURL:location.origin,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'itinerary','txt'),'text/plain;charset=utf-8');announce('Text itinerary downloaded. JSON backups always keep your full notes.');});
+ document.querySelector('#plain-itinerary')?.addEventListener('click',()=>{download(buildTextItinerary(exportPlan(),journeyCatalog,{baseURL:location.origin,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'itinerary','txt'),'text/plain;charset=utf-8');announce('Text itinerary prepared; check your browser’s downloads. JSON backups always keep your full notes.');});
  document.querySelector('#plan-heading')?.setAttribute('tabindex','-1');
  document.querySelectorAll<HTMLInputElement|HTMLButtonElement>('#journey-title,#journey-date,#trip-select,#new-trip-name,#create-trip,#duplicate-trip,#export-journey,#export-all,#offline-book,#illustrated-book,#print-journey,#import-journey').forEach(e=>e.disabled=blocked);
  if(blocked)setBlocked(loaded.message);else announce('Your journey stays on this browser. Export a copy to take it elsewhere.');
- document.querySelector('#offline-book').addEventListener('click',()=>{try{download(buildTourBook(exportPlan(),journeyCatalog,{baseURL:location.origin,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'book','html'),'text/html;charset=utf-8');announce('Offline book downloaded using your note-sharing choice. Keep a JSON backup for editing.');}catch(error){announce(error.message);}});
+ document.querySelector('#offline-book').addEventListener('click',()=>{try{download(buildTourBook(exportPlan(),journeyCatalog,{baseURL:location.origin,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'book','html'),'text/html;charset=utf-8');announce('Offline book prepared using your note-sharing choice; check your browser’s downloads. Keep a JSON backup for editing.');}catch(error){announce(error.message);}});
  document.querySelector('#illustrated-book').addEventListener('click',async()=>{
   if(photoController)return;const button=document.querySelector<HTMLButtonElement>('#illustrated-book'),cancel=document.querySelector<HTMLButtonElement>('#cancel-photo-book');
   photoController=new AbortController();button.disabled=true;button.setAttribute('aria-busy','true');cancel.hidden=false;
   const snapshot=exportPlan(),withNotes=includeNotes();announce('Preparing selected photographs. Your saved plan is unchanged.');
   try{const result=await collectBookImages(snapshot,journeyCatalog,loadLocalBookImage,{signal:photoController.signal,onProgress:({completed,total})=>announce(`Preparing photographs: ${completed} of ${total}.`)});
    download(buildTourBook(snapshot,journeyCatalog,{baseURL:location.origin,images:result.images,illustrated:true,omittedImages:result.skipped.length,includePersonalNotes:withNotes}),exportFilename(snapshot.title,'photo-book','html'),'text/html;charset=utf-8');
-   announce(`Photo book downloaded with ${Object.keys(result.images).length} selected ${Object.keys(result.images).length===1?'photograph':'photographs'}.${result.skipped.length?' Some photographs could not be included; text is preserved.':''} Personal notes ${withNotes?'included':'omitted'}.`);
+   announce(`Photo book prepared with ${Object.keys(result.images).length} selected ${Object.keys(result.images).length===1?'photograph':'photographs'}.${result.skipped.length?' Some photographs could not be included; text is preserved.':''} Personal notes ${withNotes?'included':'omitted'}. Check your browser’s downloads.`);
   }catch(error){announce(error?.name==='AbortError'?'Photo book cancelled. Your journey is unchanged.':'The photo book could not be prepared. Download the text book or a JSON backup.');}
   finally{photoController=null;button.disabled=!hasJourneyContent(plan);button.removeAttribute('aria-busy');const returnFocus=document.activeElement===cancel;cancel.hidden=true;if(returnFocus)button.focus();}
  });
@@ -236,7 +241,7 @@ if(app){
  }
 });
  window.addEventListener('beforeprint',renderPrint);
- document.querySelector('#download-existing').addEventListener('click',()=>{try{download(storage.getItem(LIBRARY_KEY)||storage.getItem(STORAGE_KEY)||'null','utkal-existing-journey.json');announce('Existing data downloaded unchanged.');}catch{announce('Browser storage cannot be read. No existing data could be downloaded.');}});
+ document.querySelector('#download-existing').addEventListener('click',()=>{try{download(storage.getItem(LIBRARY_KEY)||storage.getItem(STORAGE_KEY)||'null','utkal-existing-journey.json');announce('Existing data prepared unchanged; check your browser’s downloads.');}catch{announce('Browser storage cannot be read. No existing data could be downloaded.');}});
  document.querySelector('#start-new').addEventListener('click',()=>{if(!window.confirm('Start a new collection? This replaces all saved trips in this browser. Export them first if needed.'))return;lastRemoval=null;lastDayChange=null;lastReminderRemoval=null;baseline=storageSnapshot(storage);library=emptyLibrary();plan=library.trips[0].plan;blocked=false;pending=null;document.querySelector<HTMLElement>('#journey-recovery').hidden=true;document.querySelectorAll<HTMLInputElement|HTMLButtonElement>('#journey-title,#journey-date,#trip-select,#new-trip-name,#create-trip,#duplicate-trip,#export-journey,#export-all,#offline-book,#illustrated-book,#print-journey,#import-journey').forEach(e=>e.disabled=false);save();render();});
  const fileInput=document.querySelector<HTMLInputElement>('#import-journey'),preview=document.querySelector<HTMLElement>('#import-preview');
  const sourceSelect=document.querySelector<HTMLSelectElement>('#import-source'),replaceOptions=document.querySelector<HTMLDetailsElement>('#replace-collection-options'),replaceAck=document.querySelector<HTMLInputElement>('#replace-ack');

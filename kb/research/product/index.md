@@ -79,3 +79,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 - [Launch-quality follow-up · delivery, guide evidence and print](launch-quality-2026-09-30.md)
 
 - [Coastal practical follow-up · official help and local verification](practical-followup-2026-09-30.md)
+
+- [Download verification and feedback follow-up](download-followup-2026-09-30.md)
