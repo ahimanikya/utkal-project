@@ -7,7 +7,7 @@ title: Coastal launch-quality follow-up — 30 September 2026
 
 Ahimanikya Satapathy’s **“go”** authorised the recommended first three follow-ups: reconcile the backlog, verify printed tour books where the browser permits it, and strengthen the seven live guides. This candidate is separate from the already published UTP-REL-006. It does not expand the release to Chilika, Store or other held pages.
 
-[Open the local candidate](http://127.0.0.1:4354/knowledge/konark/#visit-notebook) · [Structured review](../../records/launch-quality-review.json)
+[Draft PR #5](https://github.com/ahimanikya/utkal-project/pull/5) · [Open the local candidate](http://127.0.0.1:4354/knowledge/konark/#visit-notebook) · [Structured review](../../records/launch-quality-review.json)
 
 ## Backlog reconciliation
 
