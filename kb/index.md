@@ -76,3 +76,5 @@ This directory contains the organizational and working model, roles, work record
 - [Utkal Design System](design-system/index.md) — reusable library, component gallery, three page pilots and adoption guidance.
 
 - [Current coastal launch-readiness review](research/product/launch-readiness-2026-09-30.md)
+
+- [Coastal preview publication · 30 September 2026](research/product/coastal-publication-2026-09-30.md)

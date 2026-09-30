@@ -73,3 +73,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 - [Coastal launch readiness](launch-readiness-2026-09-30.md)
 
 - [Coastal draft PR preparation](release-pr-2026-09-30.md)
+
+- [Coastal preview publication · 30 September 2026](coastal-publication-2026-09-30.md)

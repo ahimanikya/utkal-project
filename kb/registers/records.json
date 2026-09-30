@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T20:50:22.381305+00:00",
+  "recorded_at": "2026-09-30T21:07:19.459847+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2312,52 +2312,106 @@
       "id": "UTP-WORK-092",
       "title": "Coastal launch readiness and actual portable-book review",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-072",
-      "next_action": "Founder review of frozen coastal candidate; native PDF remains open in UTP-WORK-080. Follow recorded release sequence only after acceptance.",
-      "blockers": [
-        "Native PDF pagination unverified; publication acceptance pending."
-      ],
+      "next_action": "Reviewed coastal preview accepted and published under UTP-DEC-074 / UTP-REL-006. Native PDF remains UTP-WORK-080; hosting follow-up UTP-WORK-095.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-072",
         "UTP-WORK-091",
         "UTP-WORK-080",
-        "UTP-REV-048"
+        "UTP-REV-048",
+        "UTP-DEC-074",
+        "UTP-REL-006"
       ],
       "evidence": [
         "research/product/launch-readiness-2026-09-30.md",
-        "records/launch-readiness-review.json"
+        "records/launch-readiness-review.json",
+        "research/product/coastal-publication-2026-09-30.md"
       ]
     },
     {
       "id": "UTP-WORK-093",
       "title": "Consolidate the coastal candidate in draft PR 4",
       "category": "release_preparation",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-073",
-      "next_action": "Founder review of updated draft PR 4. Native PDF verification and editorial acceptance remain before any separate merge/publication decision.",
+      "next_action": "Reviewed coastal preview accepted and published under UTP-DEC-074 / UTP-REL-006. Native PDF remains UTP-WORK-080; hosting follow-up UTP-WORK-095.",
       "blockers": [],
       "refs": [
         "UTP-DEC-073",
         "UTP-WORK-092",
         "UTP-WORK-080",
-        "UTP-REV-049"
+        "UTP-REV-049",
+        "UTP-DEC-074",
+        "UTP-REL-006"
       ],
       "evidence": [
         "research/product/release-pr-2026-09-30.md",
-        "records/release-pr-review.json"
+        "records/release-pr-review.json",
+        "research/product/coastal-publication-2026-09-30.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-094",
+      "title": "Publish and verify the approved coastal preview",
+      "category": "publication",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-074",
+      "next_action": "Published. Continue native PDF verification and certificate enforcement as separately tracked follow-ups.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-074",
+        "UTP-REV-050",
+        "UTP-REL-006",
+        "UTP-WORK-080",
+        "UTP-WORK-095"
+      ],
+      "evidence": [
+        "research/product/coastal-publication-2026-09-30.md",
+        "records/coastal-publication-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-095",
+      "title": "Enable HTTPS enforcement after GitHub certificate issuance",
+      "category": "hosting",
+      "status": "blocked",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-074",
+      "next_action": "On the next hosting pass, inspect certificate state; once ready, enable HTTPS enforcement and verify the HTTP redirect. No recurring monitoring was scheduled.",
+      "blockers": [
+        "GitHub rejected https_enforced=true because the certificate has not finished being issued; state dns_changed."
+      ],
+      "refs": [
+        "UTP-WORK-094"
+      ],
+      "evidence": [
+        "records/evidence/coastal-publication-2026-09-30/pages-hosting.json",
+        "research/product/coastal-publication-2026-09-30.md"
       ]
     }
   ],
@@ -3807,6 +3861,26 @@
         "research/product/release-pr-2026-09-30.md",
         "records/release-pr-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-074",
+      "title": "Approve reviewed coastal preview merger and publication",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Approve PR 4 at 7ed21650133e8fab7f1a8a7d63ac5eab1add0f04 and gated coastal preview publication, retaining preview labels, noindex and held-page exclusions. Native PDF remains unverified; this is not blanket editorial approval of the research archive.",
+      "recorded_at": "2026-09-30T21:07:19.459847+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-094"
+      ],
+      "evidence": [
+        "records/evidence/coastal-publication-2026-09-30/approval.json",
+        "research/product/coastal-publication-2026-09-30.md"
+      ]
     }
   ],
   "requirements": [
@@ -4997,6 +5071,30 @@
         "records/evidence/release-pr-2026-09-30/github-validation.json",
         "records/evidence/release-pr-2026-09-30/github-artifact-verification.json"
       ]
+    },
+    {
+      "id": "UTP-REV-050",
+      "title": "Live coastal publication smoke review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native PDF pagination remains unverified in UTP-WORK-080.",
+        "HTTPS loads, but GitHub has not finished issuing its replacement certificate; automatic HTTPS enforcement remains disabled.",
+        "Same AI assistant performed implementation and smoke review; no independent human, physical-device or screen-reader audit is claimed.",
+        "Preview publication approval does not establish exhaustive editorial acceptance, source verification or approval of held research pages."
+      ],
+      "refs": [
+        "UTP-WORK-094",
+        "UTP-WORK-080",
+        "UTP-WORK-095"
+      ],
+      "evidence": [
+        "records/coastal-publication-review.json"
+      ]
     }
   ],
   "releases": [
@@ -5074,6 +5172,24 @@
         "records/mobile-accessibility-review.json"
       ],
       "note": "PR #3 merged at 52a6cc5ee31f1542bf203fee23b0328496bd6715; manual workflow succeeded. Live homepage and gallery behavior verified. Store exclusion and editorial preview status retained."
+    },
+    {
+      "id": "UTP-REL-006",
+      "title": "Approved coastal preview and personal journey books published",
+      "status": "published",
+      "authorization": "UTP-DEC-074",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-074",
+        "UTP-WORK-094",
+        "UTP-REV-050"
+      ],
+      "evidence": [
+        "research/product/coastal-publication-2026-09-30.md",
+        "records/coastal-publication-review.json",
+        "records/evidence/coastal-publication-2026-09-30/deployment.json"
+      ],
+      "note": "PR 4 merged at dcd506a; manual Pages run 36776260376 succeeded. Live Odia search, saving a guide, day assignment, photo-book privacy and production links checked. Preview/noindex and Store exclusion retained."
     }
   ],
   "sources": [

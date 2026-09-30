@@ -74,3 +74,5 @@
 - [Coastal launch-readiness review](launch-readiness-review.json)
 
 - [Coastal draft PR review](release-pr-review.json)
+
+- [Coastal preview publication · 30 September 2026](coastal-publication-review.json)

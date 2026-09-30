@@ -676,3 +676,9 @@ Four actual downloads now preserve evidence of what a traveller carries: photogr
 The accumulated work now has one updated draft pull request. A clean checkout found a missing gallery-generation step; after repair, GitHub produced exactly the coastal files already frozen for review. The Founder still decides acceptance and publication.
 
 [Release PR handoff](../research/product/release-pr-2026-09-30.md). Draft PR updated; no merger or website deployment.
+
+## UTP-HIS-0108 · The first coastal journey leaves the workshop
+
+The Founder’s “approved” opened the publication gate. The reviewed coastal edition now offers connected stories and a personal book to carry. A real download from the public site kept its photograph and excluded private writing. Native PDF and certificate follow-ups remain visible.
+
+[Coastal preview publication](../research/product/coastal-publication-2026-09-30.md). Published after human approval.

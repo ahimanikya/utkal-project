@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6fcf4fbd7d166391f4010a4683bec5034806f633971ecd9909a47ff7332708fd`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ae7b4b3486fcc2e22311532952e1325bde905658ae85e7009c15b6bf80f07aa0`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -104,8 +104,10 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-089 · Overnight 200-item coastal website improvement and acceptance batch | awaiting_review | reviewed | Ahimanikya Satapathy | Review the local visitor improvements and seven-guide editorial limitations. Native PDF remains open; no deployed release is claimed. | — |
 | UTP-WORK-090 · Next 210: visit notebooks and private day planning | awaiting_review | reviewed | Ahimanikya Satapathy | Review seven notebook drafts and the day-planning experience. Earlier editorial questions and native PDF remain open; local implementation does not assert publication. | — |
 | UTP-WORK-091 · Journey preparation, safer imports and portable day books | awaiting_review | reviewed | Ahimanikya Satapathy | Founder combined review when ready. New editorial questions and earlier native PDF/source limitations remain; local candidate only. | — |
-| UTP-WORK-092 · Coastal launch readiness and actual portable-book review | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of frozen coastal candidate; native PDF remains open in UTP-WORK-080. Follow recorded release sequence only after acceptance. | Native PDF pagination unverified; publication acceptance pending. |
-| UTP-WORK-093 · Consolidate the coastal candidate in draft PR 4 | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of updated draft PR 4. Native PDF verification and editorial acceptance remain before any separate merge/publication decision. | — |
+| UTP-WORK-092 · Coastal launch readiness and actual portable-book review | completed | applied | Ahimanikya Satapathy | Reviewed coastal preview accepted and published under UTP-DEC-074 / UTP-REL-006. Native PDF remains UTP-WORK-080; hosting follow-up UTP-WORK-095. | — |
+| UTP-WORK-093 · Consolidate the coastal candidate in draft PR 4 | completed | applied | Ahimanikya Satapathy | Reviewed coastal preview accepted and published under UTP-DEC-074 / UTP-REL-006. Native PDF remains UTP-WORK-080; hosting follow-up UTP-WORK-095. | — |
+| UTP-WORK-094 · Publish and verify the approved coastal preview | completed | published | Ahimanikya Satapathy | Published. Continue native PDF verification and certificate enforcement as separately tracked follow-ups. | — |
+| UTP-WORK-095 · Enable HTTPS enforcement after GitHub certificate issuance | blocked | draft | Ahimanikya Satapathy | On the next hosting pass, inspect certificate state; once ready, enable HTTPS enforcement and verify the HTTP redirect. No recurring monitoring was scheduled. | GitHub rejected https_enforced=true because the certificate has not finished being issued; state dns_changed. |
 
 ## Pending human review and decisions
 
@@ -193,8 +195,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-089 | Review the local visitor improvements and seven-guide editorial limitations. Native PDF remains open; no deployed release is claimed. |
 | UTP-WORK-090 | Review seven notebook drafts and the day-planning experience. Earlier editorial questions and native PDF remain open; local implementation does not assert publication. |
 | UTP-WORK-091 | Founder combined review when ready. New editorial questions and earlier native PDF/source limitations remain; local candidate only. |
-| UTP-WORK-092 | Founder review of frozen coastal candidate; native PDF remains open in UTP-WORK-080. Follow recorded release sequence only after acceptance. |
-| UTP-WORK-093 | Founder review of updated draft PR 4. Native PDF verification and editorial acceptance remain before any separate merge/publication decision. |
 
 ## Decisions
 
@@ -272,6 +272,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-071 · Continue the next 200+ items for combined review | approved | Ahimanikya Satapathy | Continue authorized local website development and verification without intermediate Founder checkpoints. Batch defined as 84 product/content items and 132 verification items. Final human review is deferred, not delegated or automatically granted. No publication, purchase, new membership or authority is inferred. |
 | UTP-DEC-072 · Prepare the coastal launch-readiness review | approved | Ahimanikya Satapathy | Approve the proposed local launch-readiness batch: inspect actual books, visitor journey, accessibility/mobile, editorial gaps and one release review. This is not publication acceptance or delegated human authority. |
 | UTP-DEC-073 · Prepare the coastal release draft PR | approved | Ahimanikya Satapathy | Prepare a clean release PR for the current candidate while Founder reviews the preview. Includes committing and pushing the existing authorised work and updating its draft PR, with automated validation. Does not approve merging or deploying the site. |
+| UTP-DEC-074 · Approve reviewed coastal preview merger and publication | approved | Ahimanikya Satapathy | Approve PR 4 at 7ed21650133e8fab7f1a8a7d63ac5eab1add0f04 and gated coastal preview publication, retaining preview labels, noindex and held-page exclusions. Native PDF remains unverified; this is not blanket editorial approval of the research archive. |
 
 ## Reviews
 
@@ -324,6 +325,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-047 | pass_with_limitations | False | 216 acceptance items comprise 84 product/content items and 132 verification items, not 216 new features or pre-existing backlog tickets.; Same AI assistant implemented and reviewed. Forty-two original editorial questions remain drafts; no new fieldwork, factual verification, quotation authentication, image clearance or human language review is claimed.; Current clients retain optional reminders; older clients can discard them. Existing browser quotas and import-size limits remain.; Native PDF pagination remains UTP-WORK-080. Actual downloaded file bytes were not independently inspected; illustrated export reported success in the browser. Generated portable output and privacy have automated coverage.; The real import handler was exercised with synthetic File objects supplied by a local fixture toolbar. The operating-system file chooser was not tested. The toolbar is absent from built delivery.; Responsive checks measure DOM geometry and loaded images with expanded controls; representative screenshots were inspected. This is not a full accessibility or physical-device audit.; Public guide questions, journey title, dates, saved choices and general checklist marks remain in shareable copies. Personal reminder wording and ticks are excluded as a separate private list; copied original questions can also appear as public editorial text.; Local candidate only. No commit, push, merge, deployment, public issue, paid service or outreach. Shared package rc.5 and earlier editorial holds remain unchanged. |
 | UTP-REV-048 | pass_with_limitations | False | Same AI assistant implemented and reviewed; human editorial acceptance pending.; Native PDF pagination remains UTP-WORK-080; Print exposed no dialog and Computer Use refused Codex app access. No native PDF was produced.; Focused keyboard and fixed-width browser checks are not a screen-reader or physical-device audit.; Actual sample books contain synthetic notes and local preview URLs. They were downloaded before the print-feedback-only repair; the book generator was unchanged.; Ten targeted source/provenance page checks do not establish exhaustive fact checking, human Odia review, permissions for every asset or current services.; No publication, external submission, purchase, commit, push or merge. Earlier uncommitted changes remain for human review. |
 | UTP-REV-049 | pass_with_limitations | False | No merger or public-site deployment authorised by this increment.; Native PDF pagination and Founder editorial acceptance remain open.; Full-draft source and history in the PR exceed the coastal deployment scope.; Same AI assistant prepared and checked the PR; no independent human acceptance.; Hosted validation records the product commit explicitly; later record-only commits receive separate checks. |
+| UTP-REV-050 | pass_with_limitations | False | Native PDF pagination remains unverified in UTP-WORK-080.; HTTPS loads, but GitHub has not finished issuing its replacement certificate; automatic HTTPS enforcement remains disabled.; Same AI assistant performed implementation and smoke review; no independent human, physical-device or screen-reader audit is claimed.; Preview publication approval does not establish exhaustive editorial acceptance, source verification or approval of held research pages. |
 
 ## Publication and application history
 
@@ -334,6 +336,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-003 · Repository repair and basic starter applied | applied | https://github.com/ahimanikya/utkal-project/tree/main | UTP-DEC-008 |
 | UTP-REL-004 · First public Utkal Project website preview | published | https://utkalproject.org/ | UTP-DEC-023 |
 | UTP-REL-005 · Mobile readability and gallery keyboard improvements published | published | https://utkalproject.org/ | UTP-DEC-025 |
+| UTP-REL-006 · Approved coastal preview and personal journey books published | published | https://utkalproject.org/ | UTP-DEC-074 |
 
 ## Sources and assets
 
@@ -371,7 +374,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-076 | 2026-09-30T13:27:21.699341+00:00 | Prepared a 72-route advisory shortlist; checked 13 selected source claims and eight photo records; clarified Juang and Raghurajpur attribution; flagged Gopinath provenance and corrected dimensions; reduced selected photo delivery 88% and fonts 71%, preserving originals. Tests 78+6 pass; 20 responsive checks show no overflow. | Founder shortlist and language/provenance review. No publishing filter or release applied. |
 | UTP-EVT-077 | 2026-09-30T14:24:37.747565+00:00 | Unified the five coastal story endings, preserved older deep links and secondary reading, verified four onward links and a separate eight-idea journey. 79 site tests pass; 72-page full draft remains. Recorded a 16-route proposal and 27 non-core direct dependencies. | Review the local flow and launch subset proposal; earlier editorial holds remain, no deployment. |
 | UTP-EVT-078 | 2026-09-30T14:54:39.690943+00:00 | Prepared validated sixteen-page coastal delivery with seven discoverable guides, ten saved choices and one starter; full seventy-two-page draft preserved. Eighty-three tests pass. Manual workflow changes remain local. | Review exact coastal candidate; editorial holds and separate publication decision remain. |
 | UTP-EVT-079 | 2026-09-30T15:38:15.976323+00:00 | Prepared 50 visitor/reliability improvements, 42 bounded editorial reviews, 64 page checks, 24 responsive inspections and 20 regression checklist checks. 100 full-site and 10 coastal tests pass; 72-page draft and 16-page coastal edition retained. Final record reconciliation is separately evidenced. | Morning review of the local candidate and named editorial limitations; native PDF pagination remains open. |
@@ -381,6 +383,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-083 | 2026-09-30T20:28:23.147231+00:00 | Inspected four actual downloads, private-note exclusion and photo embedding; checked journey and keyboard paths, added print fallback feedback, reviewed ten source pages and froze the 16-page candidate. 323 tests and 64 route checks pass. Native PDF remains open. | Founder reviews the combined candidate; native pagination and publication acceptance remain ahead. |
 | UTP-EVT-084 | 2026-09-30T20:40:07.437652+00:00 | Authenticated GitHub access and identified existing draft PR 4. Preparing accumulated source and historical evidence with coastal-only delivery and read-only PR validation. | Validate the staged candidate, push and update the draft PR; retain human release gate. |
 | UTP-EVT-085 | 2026-09-30T20:50:22.381305+00:00 | Pushed product commit 1a81ada and updated existing draft PR 4. GitHub validation passed; downloaded artifact matches all 54 frozen coastal files byte-for-byte. Initial upload failed without advancing the remote; per-command HTTP retry succeeded. | Founder review; retain native PDF and editorial gates. No merge or site deployment occurred. |
+| UTP-EVT-086 | 2026-09-30T21:07:19.459847+00:00 | Founder approved the reviewed candidate. PR 4 merged at the exact approved head; gated Pages deployment succeeded. Live coastal search, journey save and shareable photo-book checks passed. | Retain native PDF and HTTPS-enforcement follow-ups; no automatic monitoring scheduled. |
 
 ## Deferred extensions
 

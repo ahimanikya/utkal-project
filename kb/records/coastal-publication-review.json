@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-09-30T21:07:19.459847+00:00",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "authorization": "UTP-DEC-074",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/4",
+  "approved_head": "7ed21650133e8fab7f1a8a7d63ac5eab1add0f04",
+  "deployed_sha": "dcd506a0b2c85db34428613381492ec53f67f1d1",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36776260376",
+  "deployment_result": "success",
+  "live_url": "https://utkalproject.org/",
+  "checks": {
+    "odia_search": "କୋଣାର୍କ returns one Konark result on live Explore",
+    "visual": "Konark hero and photograph inspected at 1280 × 720; screenshot retained",
+    "journey": "Created synthetic UTP publication check 2026-09-30; saved Konark from its story, assigned Day 1 and entered a synthetic note",
+    "book": "Actual live photo-book downloaded; embedded image, production entry link, Day 1 and private-note exclusion verified from file",
+    "contributions": "Public GitHub Issues links and preparatory form inspected; no issue submitted",
+    "store": "/store/ renders the coastal 404 page",
+    "preview": "Homepage retains noindex, nofollow and preview notice",
+    "cache": "Bare-root browser navigation retained cached old page; release query served new homepage. Public response headers report 2026-09-30 20:58:27 last-modified and max-age=600. Later bare-root browser navigation also served the new coastal homepage; cache propagation resolved during this review."
+  },
+  "limitations": [
+    "Native PDF pagination remains unverified in UTP-WORK-080.",
+    "HTTPS loads, but GitHub has not finished issuing its replacement certificate; automatic HTTPS enforcement remains disabled.",
+    "Same AI assistant performed implementation and smoke review; no independent human, physical-device or screen-reader audit is claimed.",
+    "Preview publication approval does not establish exhaustive editorial acceptance, source verification or approval of held research pages."
+  ],
+  "evidence": [
+    "records/evidence/coastal-publication-2026-09-30/approval.json",
+    "records/evidence/coastal-publication-2026-09-30/deployment.json",
+    "records/evidence/coastal-publication-2026-09-30/pages-hosting.json",
+    "records/evidence/coastal-publication-2026-09-30/photo-book-verification.json",
+    "records/evidence/coastal-publication-2026-09-30/live-konark.png",
+    "records/evidence/coastal-publication-2026-09-30/live-journey.txt",
+    "records/evidence/coastal-publication-2026-09-30/live-contribute.txt",
+    "records/evidence/coastal-publication-2026-09-30/live-home.txt",
+    "records/evidence/coastal-publication-2026-09-30/live-home.png",
+    "records/evidence/coastal-publication-2026-09-30/live-home-fresh.txt",
+    "records/evidence/coastal-publication-2026-09-30/live-home-fresh.png",
+    "records/evidence/coastal-publication-2026-09-30/live-home-final.txt",
+    "records/evidence/coastal-publication-2026-09-30/live-home-final.png"
+  ]
+}

@@ -1,0 +1,135 @@
+- link "Skip to content":
+  - /url: "#main"
+- generic: ROOTED IN ODISHA. OPEN TO THE WORLD.
+- generic: ଉତ୍କଳ · ଓଡ଼ିଶା
+- banner:
+  - link "Utkal Project home":
+    - /url: /
+    - img "Utkal Project"
+  - navigation "Main navigation":
+    - link "Explore":
+      - /url: /explore/
+    - link "My journey":
+      - /url: /journey/
+    - link "Our purpose":
+      - /url: /about/
+    - link "Be part of it":
+      - /url: /contribute/
+      - text: Be part of it
+      - generic: ↗
+- main:
+  - paragraph: An invitation to contribute
+  - heading "What do you know that we should know?" [level=1]:
+    - text: What do you know
+    - text: that we should know?
+  - paragraph: A place remembered. A photograph with a story. A better source. Every thoughtful contribution can deepen the record.
+  - paragraph: Our first contribution channel is public GitHub Issues. Prepare a draft below, then review and submit it on GitHub. This website does not upload or store your draft. A GitHub account is needed; your username, text and attachments are public when posted.
+  - heading "Share knowledge" [level=2]
+  - paragraph: Help document a place, a person, a craft or a local word. Tell us how you know it and include sources where available. Personal recollections are welcome as recollections, rather than presented as established historical fact.
+  - paragraph:
+    - link "Propose a new subject on GitHub ↗":
+      - /url: https://github.com/ahimanikya/utkal-project/issues/new?title=%5BKnowledge%5D+Suggest+a+new+subject&body=Subject+and+place%3A%0A%0AWhat+could+this+entry+help+readers+understand%3F%0A%0ASources+or+firsthand+context+%28label+uncertainty+and+recollections%29%3A%0A%0ARequested+public+credit+%28optional%29%3A%0A%0AThis+proposal+is+public+on+GitHub.+Do+not+include+private+information.+Posting+does+not+imply+editorial+acceptance+or+publication.
+  - heading "Share photographs" [level=2]
+  - paragraph: Prepare a caption, location, approximate date and the credit you would like used. Share only images you have permission to offer. You may propose a publicly shareable photograph through a GitHub issue. Identify the creator and licence or permission; do not post private images, personal documents or restricted community material.
+  - paragraph:
+    - link "Propose a photograph on GitHub ↗":
+      - /url: https://github.com/ahimanikya/utkal-project/issues/new?title=%5BPhoto%5D+Photograph+proposal&body=Subject+and+place%3A%0A%0ACaption+and+approximate+date%3A%0A%0ACreator+and+public+source%3A%0A%0ALicence+or+proposed+reuse+permission%3A%0A%0AEditing%2C+including+any+AI+generation%3A%0A%0ARequested+public+credit+%28optional%29%3A%0A%0AOnly+attach+material+you+have+permission+to+share+publicly.+Do+not+attach+private+permission+letters.+Editors+must+verify+rights+before+reuse%3B+posting+is+not+encyclopedia+publication.
+  - heading "Improve an entry" [level=2]
+  - paragraph: Keep the entry’s title, the suggested correction and a supporting source together. Approved Git contributors will also be able to propose changes through the repository.
+  - heading "What happens next?" [level=2]
+  - list:
+    - strong: "Prepare:"
+    - text: name the entry, proposed change, evidence and requested credit.
+    - strong: "Submit on GitHub:"
+    - text: check the public preview and choose “Submit new issue”.
+    - strong: "Review:"
+    - text: the editor checks sources, rights and context, and may ask follow-up questions.
+    - strong: "Decide:"
+    - text: the Founder & Editor-in-Chief approves, requests changes or declines with a reason.
+    - strong: "Publish:"
+    - text: accepted work links back to its issue and preserves agreed credit. Closing an issue alone does not mean publication.
+  - paragraph: Editors will review submissions, clarify attribution and permissions, and decide what is ready to publish. A submitted issue is public immediately on GitHub. Its contents appear in the encyclopedia only after editorial review and approval.
+  - link "Explore what we’re building ↗":
+    - /url: /explore/
+  - region "Share a correction or a discovery.":
+    - paragraph: Make the record better
+    - heading "Share a correction or a discovery." [level=2]
+    - paragraph: Keep the entry, your suggested change and its evidence together. This tool prepares a text file on your device. Nothing is sent while you prepare it. When ready, open a public GitHub issue and review it there before posting. A GitHub account is needed to submit.
+    - paragraph: Download your draft before leaving; it is not saved automatically. Please leave out private contact details and information you do not have permission to share.
+    - group "Your editorial draft":
+      - generic: Your editorial draft
+      - text: Entry to improve
+      - combobox "Entry to improve":
+        - option "Choose an entry" [selected]
+        - option "Suggest a new subject"
+        - option "Bhubaneswar"
+        - 'option "Dhauli: a different kind of monument"'
+        - option "Puri"
+        - 'option "Raghurajpur: meet the making"'
+        - option "Understand Mahaprasad"
+        - option "Puri, Konark or the coast?"
+        - option "Konark Sun Temple"
+        - option "Machha besara"
+        - option "Chingudi tarkari"
+        - option "Chhena poda"
+        - option "A table by the coast"
+        - option "Journey starters"
+        - option "How to use Utkal"
+        - option "My journey"
+        - option "Contribution guide"
+        - option "Utkal Project home"
+        - option "Our purpose"
+        - option "Founder"
+      - generic: 0 / 160 characters
+      - text: Contribution type
+      - combobox "Contribution type":
+        - option "Correction" [selected]
+        - option "Additional knowledge"
+        - option "Personal recollection"
+      - text: Suggested change
+      - textbox "Suggested change":
+        - /placeholder: What should change, and why?
+      - generic: 0 / 10,000 characters
+      - text: Supporting source or firsthand context
+      - textbox "Supporting source or firsthand context":
+        - /placeholder: A source link, a book and page, or who witnessed this and when.
+      - generic: 0 / 3,000 characters
+      - text: Requested public credit (optional)
+      - textbox "Requested public credit (optional)":
+        - /placeholder: The name you would like credited
+      - generic: 0 / 120 characters
+      - button "Preview draft"
+      - button "Download draft"
+      - button "Copy draft"
+      - button "Clear draft"
+      - paragraph:
+        - strong: GitHub submissions are public.
+        - text: Your issue, username and any attachments become visible on GitHub when you post. Leave out private contact details, private stories and material you cannot share publicly. Posting an issue does not publish an encyclopedia entry.
+      - button "Prepare public GitHub issue"
+      - status
+    - status
+- contentinfo:
+  - link "Utkal Project home":
+    - /url: /
+    - img "Utkal Project"
+  - paragraph: Rediscover Utkal. Reimagine Odisha.
+  - button "Share this page"
+  - status
+  - paragraph: A shared beginning
+  - paragraph:
+    - text: People, places and knowledge.
+    - text: A story we build together.
+  - link "Back to top ↑":
+    - /url: "#page-top"
+  - link "How to use Utkal":
+    - /url: /how-to-use/
+  - link "About the project":
+    - /url: /about/
+  - link "The founder":
+    - /url: /founder/
+  - link "Contribute":
+    - /url: /contribute/
+  - link "Suggest a correction":
+    - /url: /contribute/?page=%2Fcontribute%2F
+  - generic: Founded by Ahimanikya Satapathy.
+  - generic: Preview edition · articles await editorial review
