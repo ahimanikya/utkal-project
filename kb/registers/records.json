@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T20:40:07.437652+00:00",
+  "recorded_at": "2026-09-30T20:50:22.381305+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2339,20 +2339,21 @@
       "id": "UTP-WORK-093",
       "title": "Consolidate the coastal candidate in draft PR 4",
       "category": "release_preparation",
-      "status": "in_progress",
-      "readiness": "draft",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-073",
-      "next_action": "Commit reviewed source, push draft PR, observe hosted validation and record result. Founder merger/publication approval remains separate.",
+      "next_action": "Founder review of updated draft PR 4. Native PDF verification and editorial acceptance remain before any separate merge/publication decision.",
       "blockers": [],
       "refs": [
         "UTP-DEC-073",
         "UTP-WORK-092",
-        "UTP-WORK-080"
+        "UTP-WORK-080",
+        "UTP-REV-049"
       ],
       "evidence": [
         "research/product/release-pr-2026-09-30.md",
@@ -4969,6 +4970,32 @@
       ],
       "evidence": [
         "records/launch-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-049",
+      "title": "Release PR and hosted candidate self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No merger or public-site deployment authorised by this increment.",
+        "Native PDF pagination and Founder editorial acceptance remain open.",
+        "Full-draft source and history in the PR exceed the coastal deployment scope.",
+        "Same AI assistant prepared and checked the PR; no independent human acceptance.",
+        "Hosted validation records the product commit explicitly; later record-only commits receive separate checks."
+      ],
+      "refs": [
+        "UTP-WORK-093",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/release-pr-review.json",
+        "records/evidence/release-pr-2026-09-30/github-validation.json",
+        "records/evidence/release-pr-2026-09-30/github-artifact-verification.json"
       ]
     }
   ],

@@ -670,3 +670,9 @@ Stories now leave the reader with useful questions for the people who will welco
 Four actual downloads now preserve evidence of what a traveller carries: photographs, dated days and private writing that can be left out. A silent print request prompted clearer feedback. The coastal candidate is frozen for one review, while native PDF pagination and human acceptance remain explicit.
 
 [Launch-readiness review](../research/product/launch-readiness-2026-09-30.md). Local candidate; no publication.
+
+## UTP-HIS-0107 · The same coast, built somewhere else
+
+The accumulated work now has one updated draft pull request. A clean checkout found a missing gallery-generation step; after repair, GitHub produced exactly the coastal files already frozen for review. The Founder still decides acceptance and publication.
+
+[Release PR handoff](../research/product/release-pr-2026-09-30.md). Draft PR updated; no merger or website deployment.

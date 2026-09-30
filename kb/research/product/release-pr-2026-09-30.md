@@ -32,3 +32,9 @@ A fresh checkout of the staged source passed 313 site tests, 10 coastal tests, s
 The [preparation record](../../records/release-pr-review.json) carries the actual local/remote results. The [launch manifest](../../records/evidence/launch-readiness-2026-09-30/candidate-manifest.json) identifies the frozen local website. Repository-only documentation and CI changes do not grant new approval to that candidate.
 
 Founder editorial acceptance, native PDF checking and an explicit publication decision remain ahead. The source keeps preview labels and noindex. This work neither merges the PR nor runs the publication workflow.
+
+## Handoff result
+
+[Draft PR #4](https://github.com/ahimanikya/utkal-project/pull/4) is updated as **Prepare coastal preview with journey planning and gated publication**. Product commit `1a81ada827907c4d537931b0673d1fd39943ac99` passed [hosted validation](https://github.com/ahimanikya/utkal-project/actions/runs/36775022636). The downloaded GitHub artifact matches all 54 frozen coastal files byte-for-byte; it expires on 14 October 2026. A subsequent record-only commit preserves this evidence and receives its own check.
+
+The first upload returned HTTP 400 without advancing the remote branch. A per-command HTTP/1.1 and larger-buffer retry succeeded. No force push or global Git configuration change was used. Captured logs and third-party font licences retain their original bytes; GitHub collapses generated evidence in the diff to make source review easier.

@@ -1,6 +1,6 @@
 {
-  "recorded_at": "2026-09-30T20:40:07.437652+00:00",
-  "status": "local_validation_passed_remote_update_pending",
+  "recorded_at": "2026-09-30T20:50:22.381305+00:00",
+  "status": "pass_with_limitations",
   "reviewer": {
     "name": "Current AI assistant",
     "kind": "ai_assistant"
@@ -24,7 +24,16 @@
     "coastal_files": 54,
     "coastal_bytes": 7098515
   },
-  "remote_checks": "Not yet run for this update.",
+  "remote_checks": {
+    "validated_head": "1a81ada827907c4d537931b0673d1fd39943ac99",
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/36775022636",
+    "conclusion": "success",
+    "artifact_matches_frozen_candidate": true,
+    "artifact_files": 54,
+    "artifact_bytes": 7098515,
+    "artifact_expires": "2026-10-14T20:47:38Z",
+    "note": "This run validates the product commit. A later record-only handoff commit may follow; its separate run is not claimed here."
+  },
   "limits": [
     "No merger or public-site deployment authorised by this increment.",
     "Native PDF pagination and Founder editorial acceptance remain open.",
@@ -54,7 +63,10 @@
     "records/evidence/release-pr-2026-09-30/clean-install.log",
     "records/evidence/release-pr-2026-09-30/config-tests.log",
     "records/evidence/release-pr-2026-09-30/design-system-tests.log",
+    "records/evidence/release-pr-2026-09-30/github-artifact-verification.json",
+    "records/evidence/release-pr-2026-09-30/github-validation.json",
     "records/evidence/release-pr-2026-09-30/preparation-baseline.json",
+    "records/evidence/release-pr-2026-09-30/push-and-pr-update.json",
     "records/evidence/release-pr-2026-09-30/register-tests.log"
   ]
 }
