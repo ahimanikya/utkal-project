@@ -85,3 +85,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 - [Contribution draft care](contribution-draft-care-2026-09-30.md)
 
 - [Konark visitor essentials](konark-visitor-essentials-2026-09-30.md)
+
+- [Puri visitor essentials](puri-visitor-essentials-2026-09-30.md) — temple preparation, food, shore and arrival.

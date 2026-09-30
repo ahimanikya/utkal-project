@@ -1,0 +1,17 @@
+
+> utkal-project-site@0.1.0 build
+> node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && astro build
+
+Generated Utkal 0.1.0-rc.5 tokens.
+Prepared Utkal Design System 0.1.0-rc.5 and font licences.
+Prepared 5 explicitly selected research notes; no automatic full-KB export.
+Prepared 166 credited art photographs; source originals unchanged.
+EPERM: operation not permitted, mkdir '/Users/ahimanikya/Library/Preferences/astro'
+  Location:
+    /Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-project/projects/site/node_modules/@astrojs/telemetry/dist/config.js:56:8
+  Stack trace:
+    at Object.mkdirSync (node:fs:1350:26)
+    at get store (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-project/projects/site/node_modules/@astrojs/telemetry/dist/config.js:38:10)
+    at AstroTelemetry.getConfigWithFallback (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-project/projects/site/node_modules/@astrojs/telemetry/dist/index.js:40:38)
+    at get isDisabled (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-project/projects/site/node_modules/@astrojs/telemetry/dist/index.js:69:17)
+    at notify (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-project/projects/site/node_modules/astro/dist/cli/telemetry/index.js:5:19)

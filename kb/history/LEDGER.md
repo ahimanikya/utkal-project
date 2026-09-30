@@ -748,3 +748,9 @@ Konark’s museum and monument now have separate planning notes, carried into th
 Approved PR #9 is live. Separate monument, museum and ticket guidance is present on the page and in actual downloaded HTML/text books. HTTPS redirects remain verified. Museum hours and local arrangements still need confirmation.
 
 [Publication evidence](../records/konark-publication.json).
+
+## UTP-HIS-0120 · Leave room for a living town
+
+Five Puri planning notes distinguish temple preparation, devotional food, coastal dishes, shore time and arrival. Source-access limits stay visible, and the context carries into downloaded books.
+
+[Puri visitor review](../research/product/puri-visitor-essentials-2026-09-30.md). Candidate not deployed.
