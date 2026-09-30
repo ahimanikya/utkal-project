@@ -24,3 +24,5 @@ Optional `planning_stops` sit in the canonical visit notebook. Each carries a so
 [Structured review](../../records/konark-visitor-essentials-review.json) · [Source inspection](../../records/evidence/konark-visitor-essentials-2026-09-30/source-inspection.json) · [Actual books](../../records/evidence/konark-visitor-essentials-2026-09-30/actual-books.json) · [Local preview](http://127.0.0.1:4354/knowledge/konark/#visit-notebook)
 
 Candidate for Founder review; not deployed. The seven-guide local confirmation queue remains open. No broader collection, Store or indexing change is included.
+
+[Draft PR #9](https://github.com/ahimanikya/utkal-project/pull/9).
