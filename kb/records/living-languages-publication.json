@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-01T09:53:08.674692+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-108",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/20",
+  "approved_head": "2e6b13775cfab27cd8e35d82fe3c1bcb9ac5f927",
+  "deployed_sha": "8c075d687852d443ffe24d0aaac61a80e98cb4e0",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36845197259",
+  "destination": "https://utkalproject.org/languages/",
+  "scope": "Seven English language introductions, visual directory, learning resources, public contribution drafts and reading-journey connections published. Edition now has 67 pages, 61 saveable ideas and nine starters. No site changes after approval.",
+  "verification": [
+    "Publication workflow built, tested and deployed the approved merged revision. Its tree is identical to the approved PR head.",
+    "All 67 edition pages returned HTTP 200 with the expected 61 saveable ideas and nine starters.",
+    "All seven language introductions expose their learning resource, public contribution draft, reading save target and source notes. The directory links all eight published language paths.",
+    "All three reused language-page image hashes match the approved files.",
+    "Live directory cover and Santali reading shelf screenshots and DOM inspected; directory link and reading-shelf anchor followed. No Santali overflow or broken images.",
+    "HTTP language-directory URL redirects to HTTPS and returns HTTP 200."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Native-speaker and specialist review remains pending; new original-language text, translations, pronunciation and recordings remain held.",
+    "These English introductions are not complete language histories or full-book reviews. Candidate source-inspection limitations remain.",
+    "Same assistant prepared and verified this release; no independent review claimed.",
+    "Production checks are read-only; saved-journey interaction evidence remains the local synthetic candidate checks.",
+    "Preview noindex, store, further-language and disputed-portrait boundaries remain."
+  ],
+  "evidence": [
+    "records/evidence/living-languages-publication/approval.json",
+    "records/evidence/living-languages-publication/deployment.json",
+    "records/evidence/living-languages-publication/live-checks.json",
+    "records/evidence/living-languages-publication/directory-live.png",
+    "records/evidence/living-languages-publication/santali-shelf-live.png",
+    "records/evidence/living-languages-publication/browser-checks.json"
+  ]
+}

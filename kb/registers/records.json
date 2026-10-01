@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T09:22:34.499013+00:00",
+  "recorded_at": "2026-10-01T09:53:08.674692+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -448,7 +448,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-035",
-      "next_action": "Review the bounded English language introductions under UTP-WORK-114. Seven profiles remain unpublished pending Founder acceptance; native-speaker review, original-language text, translations and recordings remain separate open work.",
+      "next_action": "Seven English language introductions are published under UTP-REL-022. Continue native-speaker/specialist review, further language research and permission-based original-language text, translations and recordings. The wider programme remains open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-035",
@@ -457,7 +457,8 @@
         "UTP-REV-016",
         "UTP-REL-018",
         "UTP-REL-019",
-        "UTP-WORK-114"
+        "UTP-WORK-114",
+        "UTP-REL-022"
       ],
       "evidence": [
         "reference/language-heritage-model.md",
@@ -468,7 +469,8 @@
         "research/voices/collection.json",
         "records/language-literature-pilot-review.json",
         "research/product/city-culture-review.md",
-        "records/cuttack-culture-publication.json"
+        "records/cuttack-culture-publication.json",
+        "records/living-languages-publication.json"
       ]
     },
     {
@@ -645,25 +647,29 @@
       "id": "UTP-WORK-023",
       "title": "Kui language introduction",
       "category": "website_content",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-042",
-      "next_action": "Review the bounded English language introductions under UTP-WORK-114. Seven profiles remain unpublished pending Founder acceptance; native-speaker review, original-language text, translations and recordings remain separate open work.",
+      "next_action": "Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-042",
         "UTP-REV-020",
-        "UTP-WORK-114"
+        "UTP-WORK-114",
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-REL-022"
       ],
       "evidence": [
         "research/product/ten-item-website-batch.md",
         "records/ten-item-website-review.json",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "records/living-languages-publication.json"
       ],
       "pending_list_source": "reference/language-heritage-model.md",
       "preview_path": "/languages/kui/",
@@ -673,25 +679,29 @@
       "id": "UTP-WORK-024",
       "title": "Kuvi language introduction",
       "category": "website_content",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-042",
-      "next_action": "Review the bounded English language introductions under UTP-WORK-114. Seven profiles remain unpublished pending Founder acceptance; native-speaker review, original-language text, translations and recordings remain separate open work.",
+      "next_action": "Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-042",
         "UTP-REV-020",
-        "UTP-WORK-114"
+        "UTP-WORK-114",
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-REL-022"
       ],
       "evidence": [
         "research/product/ten-item-website-batch.md",
         "records/ten-item-website-review.json",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "records/living-languages-publication.json"
       ],
       "pending_list_source": "reference/language-heritage-model.md",
       "preview_path": "/languages/kuvi/",
@@ -701,25 +711,29 @@
       "id": "UTP-WORK-025",
       "title": "Saora / Sora language introduction",
       "category": "website_content",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-042",
-      "next_action": "Review the bounded English language introductions under UTP-WORK-114. Seven profiles remain unpublished pending Founder acceptance; native-speaker review, original-language text, translations and recordings remain separate open work.",
+      "next_action": "Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-042",
         "UTP-REV-020",
-        "UTP-WORK-114"
+        "UTP-WORK-114",
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-REL-022"
       ],
       "evidence": [
         "research/product/ten-item-website-batch.md",
         "records/ten-item-website-review.json",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "records/living-languages-publication.json"
       ],
       "pending_list_source": "reference/language-heritage-model.md",
       "preview_path": "/languages/saora/",
@@ -1438,75 +1452,87 @@
       "id": "UTP-WORK-051",
       "title": "Ho language introduction",
       "category": "website_next_twenty",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-049",
-      "next_action": "Review the bounded English language introductions under UTP-WORK-114. Seven profiles remain unpublished pending Founder acceptance; native-speaker review, original-language text, translations and recordings remain separate open work.",
+      "next_action": "Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-049",
         "UTP-REV-025",
-        "UTP-WORK-114"
+        "UTP-WORK-114",
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-REL-022"
       ],
       "evidence": [
         "research/product/next-twenty.md",
         "records/next-twenty-review.json",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "records/living-languages-publication.json"
       ]
     },
     {
       "id": "UTP-WORK-052",
       "title": "Juang language introduction",
       "category": "website_next_twenty",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-049",
-      "next_action": "Review the bounded English language introductions under UTP-WORK-114. Seven profiles remain unpublished pending Founder acceptance; native-speaker review, original-language text, translations and recordings remain separate open work.",
+      "next_action": "Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-049",
         "UTP-REV-025",
-        "UTP-WORK-114"
+        "UTP-WORK-114",
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-REL-022"
       ],
       "evidence": [
         "research/product/next-twenty.md",
         "records/next-twenty-review.json",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "records/living-languages-publication.json"
       ]
     },
     {
       "id": "UTP-WORK-053",
       "title": "Koya language introduction",
       "category": "website_next_twenty",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-049",
-      "next_action": "Review the bounded English language introductions under UTP-WORK-114. Seven profiles remain unpublished pending Founder acceptance; native-speaker review, original-language text, translations and recordings remain separate open work.",
+      "next_action": "Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-049",
         "UTP-REV-025",
-        "UTP-WORK-114"
+        "UTP-WORK-114",
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-REL-022"
       ],
       "evidence": [
         "research/product/next-twenty.md",
         "records/next-twenty-review.json",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "records/living-languages-publication.json"
       ]
     },
     {
@@ -3278,22 +3304,26 @@
       "id": "UTP-WORK-114",
       "title": "Develop seven language introductions and living-voices pathways",
       "category": "website_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-107",
-      "next_action": "Founder reviews the language PR; publish only the approved bounded candidate.",
+      "next_action": "Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-107",
-        "UTP-REV-082"
+        "UTP-REV-082",
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-REL-022"
       ],
       "evidence": [
-        "records/living-languages-review.json"
+        "records/living-languages-review.json",
+        "records/living-languages-publication.json"
       ]
     }
   ],
@@ -5453,6 +5483,28 @@
       "evidence": [
         "records/living-languages-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-108",
+      "title": "Approve and publish PR 20 Languages and Living Voices",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Direct reply to the PR 20 review handoff. Authorizes merge and publication of reviewed head 2e6b13775cfab27cd8e35d82fe3c1bcb9ac5f927.",
+      "recorded_at": "2026-10-01T09:53:08.674692+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-107",
+        "UTP-WORK-114",
+        "UTP-REV-082"
+      ],
+      "evidence": [
+        "records/living-languages-publication.json",
+        "records/evidence/living-languages-publication/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -7418,6 +7470,30 @@
       "evidence": [
         "records/living-languages-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-083",
+      "title": "Languages and Living Voices live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Native-speaker and specialist review remains pending; new original-language text, translations, pronunciation and recordings remain held.",
+        "These English introductions are not complete language histories or full-book reviews. Candidate source-inspection limitations remain.",
+        "Same assistant prepared and verified this release; no independent review claimed.",
+        "Production checks are read-only; saved-journey interaction evidence remains the local synthetic candidate checks.",
+        "Preview noindex, store, further-language and disputed-portrait boundaries remain."
+      ],
+      "refs": [
+        "UTP-DEC-108",
+        "UTP-WORK-114"
+      ],
+      "evidence": [
+        "records/living-languages-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -7804,6 +7880,28 @@
         "records/planning-hubs-publication.json"
       ],
       "note": "Approved PR 19 published and verified across 60 pages, planning navigation, save target identity, hub image hashes and HTTPS redirect."
+    },
+    {
+      "id": "UTP-REL-022",
+      "title": "Seven language introductions published",
+      "status": "published",
+      "authorization": "UTP-DEC-108",
+      "destination": "https://utkalproject.org/languages/",
+      "refs": [
+        "UTP-DEC-108",
+        "UTP-REV-083",
+        "UTP-WORK-114",
+        "UTP-WORK-023",
+        "UTP-WORK-024",
+        "UTP-WORK-025",
+        "UTP-WORK-051",
+        "UTP-WORK-052",
+        "UTP-WORK-053"
+      ],
+      "evidence": [
+        "records/living-languages-publication.json"
+      ],
+      "note": "Approved PR 20 published and verified across 67 pages, 61 reading/travel ideas, nine starters, learning and contribution links, image hashes and HTTPS redirect."
     }
   ],
   "sources": [

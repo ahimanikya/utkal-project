@@ -93,3 +93,5 @@ This directory contains the organizational and working model, roles, work record
 - [Planning hubs review and publication](records/planning-hubs-review.json) — destination, food, experience and stay-area discovery with connected journey navigation.
 
 - [Languages and Living Voices candidate](research/product/living-languages.md) — seven introductions, original learning publications and speaker contribution proposals.
+
+Latest language release: [Languages and Living Voices publication](records/living-languages-publication.json) — approved PR 20, seven introductions live; specialist review remains open.
