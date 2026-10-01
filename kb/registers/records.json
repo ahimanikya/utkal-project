@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T16:48:51.874336+00:00",
+  "recorded_at": "2026-10-01T17:00:19.889928+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3682,22 +3682,25 @@
       "id": "UTP-WORK-125",
       "title": "Visitor discovery and research integration review",
       "category": "editorial_and_website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "in_progress",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-129",
-      "next_action": "Founder reviews the candidate PR. Research integration and browser checks remain separate outstanding work; indexing stays disabled.",
+      "next_action": "Approved PR 34 merged. Await explicit production-deployment confirmation requested after automatic review rejected dispatch.",
       "blockers": [],
       "refs": [
         "UTP-DEC-129",
-        "UTP-REV-103"
+        "UTP-REV-103",
+        "UTP-DEC-130",
+        "UTP-REV-104"
       ],
       "evidence": [
-        "records/visitor-research-review.json"
+        "records/visitor-research-review.json",
+        "records/visitor-research-merge.json"
       ]
     }
   ],
@@ -6288,6 +6291,27 @@
       "evidence": [
         "records/visitor-research-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-130",
+      "title": "Approve PR 34 visitor discovery and research review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Direct approval of PR 34 at c6c804f2aa206c749cfa00c61d6f382238d87da3 after review handoff. PR merged. Production dispatch was separately blocked by automatic approval review; explicit deployment confirmation requested.",
+      "recorded_at": "2026-10-01T17:00:19.889928+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-129",
+        "UTP-WORK-125",
+        "UTP-REV-103"
+      ],
+      "evidence": [
+        "records/visitor-research-merge.json"
+      ]
     }
   ],
   "requirements": [
@@ -8757,6 +8781,27 @@
       "evidence": [
         "records/visitor-research-review.json",
         "records/research-pr-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-104",
+      "title": "PR 34 approved merge verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Deployment has not been dispatched; no live publication checks for this change.",
+        "Original visual and specialist limitations remain unchanged."
+      ],
+      "refs": [
+        "UTP-DEC-130",
+        "UTP-WORK-125"
+      ],
+      "evidence": [
+        "records/visitor-research-merge.json"
       ]
     }
   ],
