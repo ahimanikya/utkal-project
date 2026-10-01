@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T01:46:15.885834+00:00",
+  "recorded_at": "2026-10-01T01:59:43.640469+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2153,25 +2153,27 @@
       "id": "UTP-WORK-080",
       "title": "Verify native PDF pagination for the journey book",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-060",
-      "next_action": "Six native Chromium A4/Letter PDF cases passed after print fixes. Review evidence and publish the candidate; physical-printer and other-browser checks are outside this completed matrix.",
+      "next_action": "Six native Chromium A4/Letter cases verified and Founder approved the fixes in PR 13. Deployment tracked separately in UTP-WORK-106.",
       "blockers": [],
       "refs": [
         "UTP-WORK-079",
         "UTP-REV-036",
         "UTP-REV-048",
         "UTP-DEC-091",
-        "UTP-REV-067"
+        "UTP-REV-067",
+        "UTP-DEC-092"
       ],
       "evidence": [
         "records/visitor-flow-review.json",
         "records/launch-readiness-review.json",
         "research/product/launch-quality-2026-09-30.md",
         "records/visitor-readiness-review.json",
-        "records/evidence/visitor-readiness-2026-10-01/print-matrix.json"
+        "records/evidence/visitor-readiness-2026-10-01/print-matrix.json",
+        "records/visitor-readiness-merge.json"
       ]
     },
     {
@@ -2898,26 +2900,30 @@
       "id": "UTP-WORK-106",
       "title": "Visitor readiness: three guides, portable books, analytics and review queue",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "in_progress",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-091",
-      "next_action": "Founder review of the concrete candidate; after approved publication verify real consent behaviour and GA Realtime. Local and fluent-language confirmations remain separate.",
-      "blockers": [],
+      "next_action": "Merged with Founder approval. Deployment blocked by automatic approval review pending explicit production-deployment confirmation; then verify live consent and GA Realtime.",
+      "blockers": [
+        "Explicit production-deployment confirmation requested after automatic approval review rejection."
+      ],
       "refs": [
         "UTP-DEC-091",
         "UTP-REV-067",
         "UTP-WORK-080",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-DEC-092"
       ],
       "evidence": [
         "research/product/visitor-readiness-2026-10-01.md",
         "records/visitor-readiness-review.json",
-        "research/technology/analytics.md"
+        "research/technology/analytics.md",
+        "records/visitor-readiness-merge.json"
       ]
     }
   ],
@@ -4747,6 +4753,27 @@
       "evidence": [
         "research/product/visitor-readiness-2026-10-01.md",
         "records/visitor-readiness-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-092",
+      "title": "Approve and merge visitor-readiness PR 13",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Approve reviewed PR 13 at 03c19db and merge it. Automatic approval review requires a separate explicit production-deployment confirmation; it remains pending.",
+      "recorded_at": "2026-10-01T01:59:43.640469+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-106",
+        "UTP-WORK-080",
+        "UTP-REV-067"
+      ],
+      "evidence": [
+        "records/visitor-readiness-merge.json"
       ]
     }
   ],

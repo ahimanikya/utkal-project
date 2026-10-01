@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-01T01:59:43.640469+00:00",
+  "status": "merged_not_deployed",
+  "authorization": "UTP-DEC-092",
+  "quote": "approved",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/13",
+  "reviewed_head": "03c19db361dbbf11c271f57ddf6f93bb292b7909",
+  "validation": "https://github.com/ahimanikya/utkal-project/actions/runs/36803131650",
+  "validation_status": "success",
+  "merge_commit": "1fd868d6cd04b8457380cbd942be00cb1e4bec63",
+  "merged_at": "2026-10-01T01:57:35Z",
+  "deployment": {
+    "status": "not_started",
+    "reason": "Automatic approval review rejected the workflow dispatch: PR/merge approval was not accepted as explicit authorisation for the separate production deployment.",
+    "user_question": "May I now deploy it to utkalproject.org, publishing the guide and print fixes and enabling optional, consent-based Google Analytics?",
+    "confirmation": "pending"
+  },
+  "last_successful_deployment": {
+    "commit": "5ed02c5a419876a3dd93a2fd2fc482d17e83dbc3",
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/36798344891"
+  },
+  "next_action": "Obtain explicit deployment confirmation, run the normal workflow, then verify live content, consent network behaviour and GA Realtime. Do not bypass the rejected deployment."
+}

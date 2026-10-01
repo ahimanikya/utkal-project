@@ -110,3 +110,5 @@
 - [Dhauli publication](dhauli-publication.json) — approved PR #12, live story and journey books.
 
 - [Visitor readiness, native print and analytics self-review](visitor-readiness-review.json).
+
+- [Visitor-readiness approval and merge](visitor-readiness-merge.json) — deployment confirmation pending.
