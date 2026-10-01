@@ -1,3 +1,4 @@
+import crafts from '../../../../kb/research/culture/craft-stories.json';
 import fire from '../../../../kb/research/food/fire-cooking-stories.json';
 import everyday from '../../../../kb/research/food/everyday-stories.json';
 import bose from '../../../../kb/research/people/subhas-chandra-bose.json';
@@ -17,6 +18,8 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ {label:crafts.collection.title,category:'Living culture',dek:crafts.collection.lead,href:'/crafts/',image:crafts.assets[crafts.collection.hero],regions:['Puri','Cuttack']},
+ ...crafts.pages.map(p=>({label:p.title,category:'Living culture',dek:p.lead,href:'/crafts/'+p.slug+'/',image:crafts.assets[p.hero],regions:p.regions})),
  {label:fire.title,category:"Food",dek:fire.lead,href:"/food/fire-cooking/",image:foods.assets[fire.hero],regions:["Across Odisha"]},
  {label:everyday.title,category:"Food",dek:everyday.lead,href:"/food/everyday/",image:foods.assets[everyday.hero],regions:["Across Odisha"]},
  {label:'Languages by district',category:'Languages',dek:'Start with a place: compare Census 2011 mother tongues across all 30 districts and follow the stories behind the numbers.',href:'/languages/districts/',regions:['Across Odisha']},

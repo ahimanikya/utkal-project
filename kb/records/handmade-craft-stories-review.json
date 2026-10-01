@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-10-01T22:03:22.898250+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "quote": "Sounds good, let's go",
+    "context": "Build the proposed Made by hand craft collection, Pipili and Pattachitra stories, visitor guidance, saved craft journey and current-backlog reconciliation."
+  },
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "new_routes": [
+      "/crafts/",
+      "/crafts/pipili-applique/",
+      "/crafts/pattachitra/"
+    ],
+    "new_real_photographs": 3,
+    "reused_images": [
+      "raghurajpur-artisan",
+      "cuttack-filigree"
+    ],
+    "public_candidate_pages": 117,
+    "discovery_entries": 74,
+    "journey_items": 78,
+    "starter": "made-by-hand",
+    "last_published_baseline": {
+      "release": "UTP-REL-039",
+      "pages": 114,
+      "discovery_entries": 71,
+      "journey_items": 75
+    }
+  },
+  "checks": {
+    "site_tests_passed": 377,
+    "edition_tests_passed": 69,
+    "page_acceptance_passed": 468,
+    "research_validators_passed": 12,
+    "discovery_and_launch_readiness": "pass; indexing remains disabled",
+    "saved_journey": "Existing trip preserved; craft sources, practical questions, personal notes and real photos survive portable-book generation.",
+    "source_and_image_credit": "Three documentary photo files inspected. Machine stitching acknowledged; maker identities remain unknown. Credits and licence URLs retained.",
+    "backlog": "Current queue corrected using published release records; prior queue captured; no open-review status marked complete.",
+    "visual_review": "blocked; no new successful browser check claimed"
+  },
+  "limitations": [
+    "Browser visual/interactive review remains blocked by the previously recorded admin-policy verification failure; no alternate browser automation used.",
+    "Human editorial, Odia and craft terminology review remain pending. No maker interview, workshop access, price, purity or product certification claimed.",
+    "The craft starter is a reading and visit-research collection, not a checked day route or booked experience.",
+    "Pala stays held for its source and terminology gaps. Store and search indexing remain excluded.",
+    "Candidate only; no publication or deployment claimed."
+  ],
+  "evidence": [
+    "records/evidence/handmade-craft-stories/page-acceptance.json",
+    "records/evidence/handmade-craft-stories/discovery.json",
+    "records/evidence/handmade-craft-stories/research-checks.json",
+    "records/evidence/handmade-craft-stories/site-tests.txt",
+    "records/evidence/handmade-craft-stories/edition-tests.txt",
+    "records/craft-image-provenance.json",
+    "records/craft-backlog-reconciliation.json",
+    "records/fire-source-followup.json"
+  ],
+  "next_action": "Founder reviews this candidate; complete visual review when browser policy verification is available. Local maker and terminology checks remain separate."
+}

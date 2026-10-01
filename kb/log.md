@@ -167,3 +167,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Odisha fire-cooking collection published](records/fire-cooking-stories-publication.json) after Founder approval of PR 43. Four pages are live with source and image credits, Explore connections and saved journey notes. Pala and visual/local review follow-ups remain recorded.
+
+## 2026-10-01
+
+[Made by hand craft candidate](records/handmade-craft-stories-review.json): an illustrated collection, Pipili and Pattachitra stories, maker questions and a saved craft journey. Current backlog reconciled to the last published 114-page release, preserving historical snapshots and open reviews.

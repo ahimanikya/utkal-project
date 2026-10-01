@@ -1,0 +1,32 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import MagazineCover from '../../components/MagazineCover.astro';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import SaveJourney from '../../components/SaveJourney.astro';
+import {allowsPage} from '../../data/edition';
+import data from '../../../../../kb/research/culture/craft-stories.json';
+const c=data.collection;
+const cards=c.cards.filter(card=>allowsPage(card.href));
+const photos=[...new Set([c.hero,...cards.map(card=>card.hero)])].map(id=>data.assets[id]);
+---
+<Shell title={c.title} description={c.lead} active="explore" wide related={false}>
+<div class="utk-magazine utk-magazine--culture">
+ <MagazineCover title={c.title} eyebrow="Craft, place & the person behind the work" deck={[c.lead]} photo={data.assets[c.hero]} saveId={c.save_id} startHref="#craft-stories" startLabel="Look a little closer" footline="A detail worth noticing. A person worth listening to."/>
+ <div class="craft-body">
+  <p class="craft-intro">{c.intro}</p>
+  <section id="craft-stories" class="culture-doors" aria-labelledby="craft-title">
+   <p class="eyebrow">Cloth, colour and wire</p><h2 id="craft-title">Find the hand.<br/><em>Follow the story.</em></h2>
+   <div class="culture-card-grid">{cards.map((card,i)=><article>
+    <a href={card.href} aria-label={'Read '+card.title}><figure><ResponsiveImage src={data.assets[card.hero].src} alt={data.assets[card.hero].alt} width={data.assets[card.hero].width} height={data.assets[card.hero].height} loading="lazy" sizes="(max-width: 700px) 90vw, 30vw"/></figure></a>
+    <div><p class="eyebrow">0{i+1} · A closer look</p><h3><a href={card.href}>{card.title} →</a></h3><p>{card.text}</p><SaveJourney id={card.save_id} quiet/></div>
+   </article>)}</div>
+  </section>
+  <section class="craft-questions" aria-labelledby="maker-title"><p class="eyebrow">A conversation to carry</p><h2 id="maker-title">The maker knows<br/><em>what the photograph cannot tell you.</em></h2><ol>{c.questions.map(q=><li><strong>{q.heading}</strong><p>{q.text}</p></li>)}</ol></section>
+  <section class="culture-onward"><div><p class="eyebrow">Turn curiosity into a plan</p><h2>Keep a craft thread<br/><em>in your journey.</em></h2><p>Save these stories with Raghurajpur and Cuttack’s Tarakasi guide. Choose your own order and arrange visits separately with the people who host them.</p></div><nav aria-label="Continue exploring crafts"><a class="utk-button" href="/journey-starters/#made-by-hand">Start a craft journey →</a><a href="/visit/places/raghurajpur/">Explore Raghurajpur →</a><a href="/contribute/">Share a maker’s story, with permission →</a></nav></section>
+  <details class="mag-article-credits"><summary>Sources, photographs & editorial notes</summary><p>{c.limits} Research checked {c.checked_on}. Prepared with AI assistance; human editorial and Odia review pending. Founder & Editor-in-Chief: Ahimanikya Satapathy.</p><ul>{c.source_ids.map(id=><li><a href={data.sources[id].url}>{data.sources[id].title}</a></li>)}</ul>{photos.map(p=><p><a href={p.source}>{p.caption}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</p>)}</details>
+ </div>
+</div>
+</Shell>
+<style>
+.craft-body{padding:0 clamp(20px,4vw,64px) 48px}.craft-intro{max-width:65ch;font-size:clamp(20px,2vw,25px);line-height:1.8;margin-block:48px}.craft-body h2{font-size:clamp(32px,3.5vw,52px);line-height:1.2}.craft-body em{color:var(--earth)}.craft-body h3{font-size:clamp(25px,2.4vw,34px);line-height:1.25}.craft-body figure{margin:0}.craft-body p{line-height:1.8}.craft-questions{border-top:1px solid var(--line);padding-block:36px}.craft-questions ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;list-style:none;padding:0;margin:32px 0}.craft-questions li{background:var(--paper);padding:24px}.craft-questions strong{font-size:22px;color:var(--sea)}.craft-body section{scroll-margin-top:24px}@media(max-width:700px){.craft-questions ol{grid-template-columns:1fr;gap:16px}.craft-intro{margin-block:32px}}
+</style>
