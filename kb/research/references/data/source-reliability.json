@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:07:08.675156+00:00",
+  "updated_at": "2026-10-01T18:19:13.030991+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3680,6 +3680,114 @@
       "run_id": "2026-10-01-everyday-food",
       "status": "unavailable",
       "scope": "Full page unavailable; indexed photo label is a lead, no name equivalence or image reuse adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "pala-dash2011",
+      "discovery_url": "https://magazines.odisha.gov.in/Orissareview/2011/Jan/engpdf/72-74.pdf",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "Historical author interpretation; full PDF retrieval failed. Format notes are provisional indexed evidence. Origin chronology and contemporary decline rates are not established.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "pala-sna-behera2009",
+      "discovery_url": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "Award-year citation, not proof of present age or activity. Full PDF timed out; linked foundation biography appears derivative, not independent corroboration.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "pala-sjprf-home",
+      "discovery_url": "https://www.sjprf.in/",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "available",
+      "scope": "Institutional self-description; self-reported registration is not independently registry-verified. Documentary listing does not establish playable access or reuse rights.",
+      "retry_after": null
+    },
+    {
+      "source_id": "pala-sjprf-kabita",
+      "discovery_url": "https://sjprf.in/index.php/pala-kabita",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "available",
+      "scope": "Catalogue discovery only; not a complete repertoire, verified English translation or permission to reproduce text. Same organisation as the foundation homepage.",
+      "retry_after": null
+    },
+    {
+      "source_id": "pala-cm-sammilan2025",
+      "discovery_url": "https://cm.odisha.gov.in/en/latest-news/participated-48th-annual-state-level-pala-sammilan-organized-parklane-kendujhar",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "available",
+      "scope": "48th is the stated event edition, not a troupe count, attendance total or proof of 48 consecutive annual events. Page footer update date is not the event date.",
+      "retry_after": null
+    },
+    {
+      "source_id": "pala-narthaki-utsav2012",
+      "discovery_url": "https://www.narthaki.com/info/rev12/rev1245.html",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "available",
+      "scope": "Contemporary arts report, not an official census or independently verified audience response. Mythological episodes are repertoire, not historical events. Photos are credited to Odisha Tourism; no image reuse permission inferred.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://odishatourism.gov.in/content/tourism/en/experience/themes/theatrics.html",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "Returned 404 content/login shell; indexed description not treated as retrieved article.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://bhadrak.odisha.gov.in/sites/default/files/2023-06/2020120281%20%281%29.pdf",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "Browser failure; direct network reset. Indexed troupe size not adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2011/pdf/orissa%20reference%20annual-2011.pdf",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "Timeout; no new statement adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://magazines.odisha.gov.in/orissareview/2011/Jan/engpdf/january.pdf",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "502 in browser; certificate verification failed in direct request. Indexed page used only with provisional label.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://sjprf.in/pala-gayak",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "Profile directory direct fetch failed; indexed names not promoted to verified biographies.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://sangeetnatak.gov.in/award-honours/awardees",
+      "checked_at": "2026-10-01T18:19:13.030991+00:00",
+      "run_id": "2026-10-01-pala",
+      "status": "unavailable",
+      "scope": "Direct route failed; award PDF discovered separately.",
       "retry_after": "2026-10-08"
     }
   ]

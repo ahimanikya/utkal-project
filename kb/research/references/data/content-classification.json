@@ -3921,6 +3921,17 @@
       "content_type": "Food Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/pala",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "everyday",
+        "people"
+      ],
+      "content_type": "Performing Tradition",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5510,6 +5521,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects pakhala with the collection’s documented meal practices; this is editorial context, not a claim of uniform statewide custom."
+    },
+    {
+      "from": "culture/pala",
+      "to": "culture/odissi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Related reading on Odisha’s performance traditions; no claim that the two forms are identical."
+    },
+    {
+      "from": "culture/pala",
+      "to": "people/people-and-creations",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects named performers with the existing people-and-works research framework; performance credit is not a completed biography."
     }
   ],
   "relationship_types": {

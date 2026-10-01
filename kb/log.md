@@ -123,3 +123,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Everyday food culture
 
 [Research receipt](records/everyday-food-2026-10-01.json): badi chura, sukhua, tala pitha and rice-water preparations join the existing mushroom identity. Tala khaja remains a palm-seed naming follow-up. Research candidate, not a website release.
+
+## 1 October 2026 · Pala and community performance
+
+[Research receipt](records/pala-2026-10-01.json): connected Pala overview, named performances and archive routes. Two institutional PDFs remain indexed-only; biographies and local practice need follow-up. Research candidate, no website publication.

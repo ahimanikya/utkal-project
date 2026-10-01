@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T18:07:08.675156+00:00",
+  "updated_at": "2026-10-01T18:19:13.030991+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1715,6 +1715,52 @@
         "project_records": [
           "kb/research/food/pakhala.md",
           "kb/research/food/chatu-patrapoda.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-040",
+      "order": 16.6,
+      "title": "Pala and community performance culture",
+      "done_when": "Create a sourced Pala overview, performance/artist and archive links; recover full institutional format and award evidence, retain origin questions and identify follow-up for women performers, local practice and livelihoods.",
+      "target": "culture/pala.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:19:13.030991+00:00",
+      "next_step": "Recover original format/award PDF texts after 8 October or through a new official route; independently extend artist biographies, recordings and local performance roles. RES-039 remains a separate food task.",
+      "evidence_outputs": [
+        "sources/pala-dash2011.md",
+        "sources/pala-sna-behera2009.md",
+        "sources/pala-sjprf-home.md",
+        "sources/pala-sjprf-kabita.md",
+        "sources/pala-cm-sammilan2025.md",
+        "sources/pala-narthaki-utsav2012.md",
+        "culture/pala.md",
+        "references/data/pala-culture.json"
+      ],
+      "retry_after": "2026-10-08",
+      "blocker": "Two institutional PDFs remain indexed-only; direct fetches timed out.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-pala",
+          "at": "2026-10-01T18:19:13.030991+00:00",
+          "outcome": "pala_nucleus_and_credited_performances_saved",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "culture/pala.md",
+          "culture/odissi.md",
+          "people/people-and-creations.md",
+          "references/data/pala-culture.json"
+        ],
+        "project_records": [
+          "kb/research/culture/odissi.md",
+          "kb/research/people/people-and-creations.md"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"

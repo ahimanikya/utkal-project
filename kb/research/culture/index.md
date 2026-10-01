@@ -29,3 +29,5 @@
 [Knowledge base home](../index.md)
 
 [Sand art](sand-art.md) · [Cuttack Tarakasi](cuttack-tarakasi.md)
+
+[Pala and its culture](pala.md) — performed poetry, credited artists, archive routes and dated gatherings.

@@ -212,3 +212,7 @@ Enhanced the existing Ou khatta entry with two versions by Sasmita and a credite
 ## 1 October 2026 · Everyday food culture
 
 Created badi chura, sukhua, tala pitha, torani and torani kanji entries and a connected everyday-food collection. Reused the existing mushroom entry with the requested name order. Preserved the user’s palm-seed clarification separately from verified source accounts. Six source records, structured data, classifications and RES-039 checkpoint added. Local/Odia review remains pending; no website release.
+
+## 1 October 2026 · Pala and its culture
+
+Added a performing-tradition overview, six sources, five dated performer/presentation examples, archive routes and a 2025 gathering record. Institutional PDF excerpts remain explicitly provisional. RES-040 checkpoint saved with local/Odia and biography follow-up. No human review, reused media or website publication claimed.

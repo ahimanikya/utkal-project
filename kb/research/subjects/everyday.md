@@ -69,3 +69,5 @@ Subject membership is editorial classification. It does not establish historical
 [Poda traditions](../food/poda-and-fire-cooking.md) connect attributed home cooking with a food story; no household prevalence inferred.
 
 [Odisha’s everyday food culture](../food/everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
+
+[Pala and its culture](../culture/pala.md) — performed poetry, credited artists, archive routes and dated gatherings.

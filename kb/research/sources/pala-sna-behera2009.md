@@ -1,0 +1,22 @@
+---
+type: "Source"
+title: "Jagannath Behera — Akademi Award: Pala (Orissa)"
+description: "Jagannath Behera — Akademi Award: Pala (Orissa) — evidence, connections and open research."
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-10-01T18:19:13.030991+00:00"}
+sources: [{"id": "pala-sna-behera2009", "title": "Jagannath Behera — Akademi Award: Pala (Orissa)", "resource": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf"}]
+human_review_claimed: false
+verification_scope: "Source-specific research; indexed-only passages distinguished from direct retrieval. Local/Odia review and media permissions pending."
+---
+
+# Jagannath Behera — Akademi Award: Pala (Orissa)
+
+Sangeet Natak Akademi. Publication/edition: 2009; checked 1 October 2026.
+
+The award citation recognises Jagannath Behera for Pala theatre and credits Harekrushna Nath, Bhagaban Singh and Harekrushna Swain as teachers.
+
+Award-year citation, not proof of present age or activity. Full PDF timed out; linked foundation biography appears derivative, not independent corroboration.
+
+[Source](https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf). Locator: Sangeet Natak Akademi Awards 2009, printed p.38. Capture: indexed_pdf_excerpt.
+
+[Pala and its culture](../culture/pala.md).
