@@ -73,3 +73,7 @@ RES-026 is in progress: five author biographies deepened, five English story rec
 ## Repository integration · 1 October 2026
 
 This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.
+
+## Research reuse audit · 1 October 2026
+
+Read the [research map](research-map.md) and each task’s `reuse_before_research` pointers before browsing. The map includes existing project narratives and source records; only missing, stale or conflicted fields justify repeat research. Task IDs, completion criteria and statuses are preserved.

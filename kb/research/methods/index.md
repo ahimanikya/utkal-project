@@ -18,3 +18,5 @@
 
 - [Sequential research queue and schedule](research-pipeline.md)
 - [Source discovery and retrieval reliability](source-reliability.md)
+
+[Research map and reuse rules](research-map.md) — inspect existing research and project narratives before starting a new source search.

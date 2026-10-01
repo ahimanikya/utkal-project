@@ -104,3 +104,7 @@ Updated campaign priority from the user’s direction: tourism first, supported 
 Expanded maritime trade research: added source-qualified history, Boita Bandana, modern trade metrics, a connection matrix, campaign language and JSON-LD graph. Freshly checked Paradip endpoints. Preserved chronology and denominator issues; no claim of exhaustive history, ancient trade totals or direct Roman routes.
 
 Created first OKF 0.2 research edition. Added food, textile, place and culture concepts with attributed factual nuclei and original story proposals. Preserved 71 prior evidence records and 19 industry comparisons/series. Added editorial journeys, source records, research gaps, retrieval and validation tools. No human review or field interviews claimed.
+
+## 2026-10-01
+
+Mapped research and editorial views across both workspaces, added reuse pointers for all 33 tasks and retained source aliases with their provenance. Preserved the duplicate-named earlier community proposal as archival text with a stable deprecated redirect. New map checks and offline search support reuse; no statistical value, source citation ID or website narrative changed.

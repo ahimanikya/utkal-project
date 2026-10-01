@@ -106,3 +106,7 @@ The [new research collection](../people/people-and-creations.md) seeds nine peop
 ### Literature checkpoint · 1 October 2026
 
 RES-026 adds a [women writers reading route](../works/spark-of-light.md), four profiles and a deeper Pratibha Ray entry. Reba Ray’s birth year (1875/1876) and Binapani Mohanty’s state award year (1970/1968) remain quarantined. Four original story dates, broader biographical coverage and complete Paraja edition credits still need evidence. Akademi interior PDF retrieval and IUCAT direct access failed; indexed evidence is labelled, with retry on 8 October. The independent literature task remains in progress.
+
+## Avoid repeated research · 1 October 2026
+
+The [research map](../methods/research-map.md) links existing literary lives, destination narratives and task-specific evidence. In particular, reuse the project’s six literary lives before researching another introductory biography. Remaining source gaps and edition-date conflicts are still open.

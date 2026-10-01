@@ -126,3 +126,5 @@
 - [Research sync — 1 October 2026](research-sync-2026-10-01.md)
 
 - [Research sync approval and merge](research-sync-merge.json)
+
+- [Research reuse audit](research-reuse-audit-2026-10-01.json)
