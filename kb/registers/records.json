@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T02:13:34.846097+00:00",
+  "recorded_at": "2026-10-01T02:18:45.187477+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2931,6 +2931,28 @@
         "records/visitor-readiness-merge.json",
         "records/visitor-readiness-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-107",
+      "title": "Simplify the cookie message and controls",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-094",
+      "next_action": "Review and approve the copy candidate for publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-094",
+        "UTP-REV-069"
+      ],
+      "evidence": [
+        "records/cookie-message-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -4803,6 +4825,25 @@
         "records/visitor-readiness-publication.json",
         "records/evidence/visitor-readiness-publication-2026-10-01/approval.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-094",
+      "title": "Use familiar cookie-consent wording",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "make a generic accept cookies message - don't talk about analytics like we did for Poem without Borders",
+      "scope": "Prepare generic cookie wording in place of provider-focused messaging; retain accept/decline choices and linked privacy details.",
+      "recorded_at": "2026-10-01T02:18:45.187477+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-106"
+      ],
+      "evidence": [
+        "records/cookie-message-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -6440,6 +6481,27 @@
       ],
       "evidence": [
         "records/visitor-readiness-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-069",
+      "title": "Cookie wording and coastal build review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Copy-only self-review; not an independent review.",
+        "Detailed Google Analytics disclosure remains on the linked privacy page."
+      ],
+      "refs": [
+        "UTP-DEC-094",
+        "UTP-WORK-107"
+      ],
+      "evidence": [
+        "records/cookie-message-review.json"
       ]
     }
   ],

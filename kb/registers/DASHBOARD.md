@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e7b76c30919ad3b78b21b6d984bf3dbf2c6bc02f061cacc0043adac3b4b60dd5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d7e3e389a108fb8df39cdfd43b1555ebe048d63e24d627496583f34222445bd6`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -119,6 +119,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-104 · Raghurajpur making story and workshop visitor guide | completed | published | Ahimanikya Satapathy | Published and verified. Direct maker/local confirmations remain UTP-WORK-097. | — |
 | UTP-WORK-105 · Dhauli historical layers and visitor notebook | completed | published | Ahimanikya Satapathy | Published and verified. Direct current show/access/facility confirmations remain UTP-WORK-097. | — |
 | UTP-WORK-106 · Visitor readiness: three guides, portable books, analytics and review queue | completed | published | Ahimanikya Satapathy | Published and verified. Native PDF evidence retained; local confirmations, fluent-language and broader accessibility review remain separately tracked. | — |
+| UTP-WORK-107 · Simplify the cookie message and controls | awaiting_review | reviewed | Ahimanikya Satapathy | Review and approve the copy candidate for publication. | — |
 
 ## Pending human review and decisions
 
@@ -188,6 +189,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-097 | Use models/local-confirmation.md for dated scoped evidence from the relevant source and separate Founder acceptance. All seven guides remain locally unverified. No outreach or site inspection undertaken. |
+| UTP-WORK-107 | Review and approve the copy candidate for publication. |
 
 ## Decisions
 
@@ -285,6 +287,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-091 · Prepare pending visitor work, use Chrome for print checks and create Utkal Analytics | approved | Ahimanikya Satapathy | Prepare guide refinements, held-collection review, print verification, contribution/backlog work and GA4 integration. Explicitly create the analytics service and accept terms for India. No final website publication approval inferred. |
 | UTP-DEC-092 · Approve and merge visitor-readiness PR 13 | approved | Ahimanikya Satapathy | Approve reviewed PR 13 at 03c19db and merge it. Automatic approval review requires a separate explicit production-deployment confirmation; it remains pending. |
 | UTP-DEC-093 · Explicitly deploy visitor-readiness PR 13 with optional analytics | approved | Ahimanikya Satapathy | Explicit approval in response to the request to deploy merged PR 13 to utkalproject.org, including optional consent-based analytics. Resolves the separate production-deployment approval requirement. |
+| UTP-DEC-094 · Use familiar cookie-consent wording | approved | Ahimanikya Satapathy | Prepare generic cookie wording in place of provider-focused messaging; retain accept/decline choices and linked privacy details. |
 
 ## Reviews
 
@@ -356,6 +359,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-066 | pass_with_limitations | False | Same AI assistant implemented and performed release checks; no independent review. Founder publication approval is recorded separately.; Current show/festival programmes, tickets, both approaches and visitor facilities remain locally unverified.; Native PDF and physical-device checks remain separate; the public coastal edition remains 16 pages. |
 | UTP-REV-067 | pass_with_limitations | False | Same AI assistant implemented and checked the work; no independent review or new fluent Odia review.; All seven coastal guides still need scoped local confirmations; no outreach or field inspection.; Native Chrome PDFs and responsive viewport samples are not physical-device, screen-reader or physical-printer certification.; GA4 account and variable exist; production consent/network/Realtime behaviour awaits an approved deployment.; Held collections remain excluded from the 16-page coastal edition; Store remains deferred. |
 | UTP-REV-068 | pass_with_limitations | False | Same AI assistant implemented and verified; no independent review.; Local confirmations for seven guides, fluent language review, physical-device and broader accessibility checks remain separate.; Consent checks used synthetic URL/search markers; no personal journey or contribution content was entered. Cookies and browser storage were not directly inspected.; Realtime includes the synthetic verification visits; those are not organic audience results.; Six native PDF cases were verified before release; published print CSS was checked, without repeating physical-printer or other-browser checks. |
+| UTP-REV-069 | pass_with_limitations | False | Copy-only self-review; not an independent review.; Detailed Google Analytics disclosure remains on the linked privacy page. |
 
 ## Publication and application history
 
@@ -413,7 +417,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-097 | 2026-09-30T23:32:58.780876+00:00 | Approved PR 9 published. Live Konark guidance, real HTML/text downloads and retained HTTPS redirects verified. | Remaining local-service and native-PDF checks stay separately tracked. |
 | UTP-EVT-098 | 2026-09-30T23:53:21.553220+00:00 | Five Puri planning notes prepared from official food, beach and arrival sources. Current temple rules remain unconfirmed after source-access failures. Layout specimens and actual HTML/text exports reviewed. | Founder review before publication. |
 | UTP-EVT-099 | 2026-10-01T00:02:38.187122+00:00 | Approved PR 10 merged and published. Live Puri guidance, actual HTML/text books and retained HTTPS redirects verified. | Direct temple/local confirmations and native-PDF checks remain separately tracked. |
 | UTP-EVT-100 | 2026-10-01T00:18:34.965470+00:00 | Three-stage making sequence and four notebook stops prepared from official sources. Actual books and responsive specimens inspected; current maker arrangements remain unconfirmed. | Founder review before publication. |
@@ -423,6 +426,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-104 | 2026-10-01T01:46:15.885834+00:00 | Three guides expanded; six native Chrome PDFs checked and print faults fixed; dedicated Utkal GA4 service created with explicit Founder authorisation. Consent integration and consolidated review prepared, not deployed. | Review candidate for publication; retain local and fluent-language verification as open work. |
 | UTP-EVT-105 | 2026-10-01T01:59:43.640469+00:00 | Approved PR 13 merged at 1fd868d. Deployment attempt rejected by automatic approval review; explicit deployment confirmation requested. Live site remains on the prior release. | Await deployment confirmation; no workaround for the rejected action. |
 | UTP-EVT-106 | 2026-10-01T02:13:34.846097+00:00 | Explicit deployment approval received. Normal workflow succeeded at be6d1c6. Live planning notes, print CSS, analytics consent and withdrawal, GA Realtime and HTTPS verified. | Continue separately tracked local and fluent-language confirmations; current release verification complete. |
+| UTP-EVT-107 | 2026-10-01T02:18:45.187477+00:00 | Prepared familiar cookie wording and controls; provider details remain on the privacy page. Coastal build and 11 tests pass. | Founder publication review. |
 
 ## Deferred extensions
 
