@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-01T17:23:23.072554+00:00",
+  "status": "proposed_not_applied",
+  "source_head": "dc2ec7fce4afcd1abbcba3b321935754e713d1f5",
+  "current_AGENTS": "Preserved byte-for-byte from main f9fc6f1.",
+  "scope": "Incoming AGENTS additions kept here for separate wording/adoption review; this integration does not change operational instructions.",
+  "proposed_text": "\nBefore new research, read `kb/research/methods/research-map.md`, search `python3 tools/research/query_research.py`, and inspect the queue task’s `reuse_before_research` pointers. Reuse existing project narratives and source captures; research only missing, stale or conflicting fields. Preserve publication/edition/scope distinctions and stable source IDs. Run `python3 tools/research/validate_research_map.py` after map or queue-pointer edits. The dated map is not proof of exhaustive semantic deduplication.\n\n## Naming correction · 1 October 2026\n\nThe user explicitly corrected the name to **Utkal**, not Utkala. Use Utkal in maintained prose, headings, new assets and assistant replies. Preserve exact third-party titles/quotations and immutable historical snapshots. Existing paths, URIs, automation IDs and Git references containing the old spelling are identifiers; do not rename them by text replacement.\n",
+  "recommendation": "Discuss the reuse-before-research instruction and naming guidance with the Founder before a separate AGENTS update. Research-map tools and metadata can be integrated without declaring the rule adopted.",
+  "authority_effect": "No new persona activation, access, human reporting relationship or publication authority."
+}

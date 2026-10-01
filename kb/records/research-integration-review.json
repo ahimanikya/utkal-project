@@ -1,0 +1,147 @@
+{
+  "recorded_at": "2026-10-01T17:25:04.237069+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-132",
+  "base_commit": "f9fc6f1",
+  "source_heads": [
+    {
+      "pr": 22,
+      "head": "2f1cc5694d5302e4936d336898c6e9bef9c27eec",
+      "url": "https://github.com/ahimanikya/utkal-project/pull/22"
+    },
+    {
+      "pr": 24,
+      "head": "c4365b0c8efdb67da84443495ddcf5fe538fcc93",
+      "url": "https://github.com/ahimanikya/utkal-project/pull/24"
+    },
+    {
+      "pr": 33,
+      "head": "9d8907d3a9b2244b17c75c09a9b7cc30816bc0b5",
+      "url": "https://github.com/ahimanikya/utkal-project/pull/33"
+    },
+    {
+      "pr": 35,
+      "head": "dc2ec7fce4afcd1abbcba3b321935754e713d1f5",
+      "url": "https://github.com/ahimanikya/utkal-project/pull/35"
+    }
+  ],
+  "integration_method": "All four frozen heads form an ancestor chain. Merge its tip into an isolated branch from current main, preserving every source commit and resolving conflicts once. No source PR rebased, merged on GitHub or closed during preparation.",
+  "resolutions": [
+    "Combined both KB navigation sections, preserving current publication links and incoming research checkpoints.",
+    "Three-way source merge by stable ID: no same-ID concurrent content edits; 359 incoming records plus two current-only Rasagola records yield 361.",
+    "Regenerated research search index and project catalogue from integrated files.",
+    "Refreshed tracked manifest hashes for the actual integrated snapshot; retained current website JSON.",
+    "Preserved current AGENTS.md; incoming operating-rule additions recorded separately as unadopted proposals.",
+    "Scoped upstream bundle-summary flags as historical research-workspace context."
+  ],
+  "counts": {
+    "research_concepts": 812,
+    "project_concepts": 913,
+    "source_records": 361,
+    "food_preparation_records": 14,
+    "story_briefs": 6
+  },
+  "verification": {
+    "research_validators": [
+      {
+        "validator": "validate",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_visitor_index",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_maritime",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_growth_journeys",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_statistics",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_homestays",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_classification",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_collections",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_prd",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_creations",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_sports",
+        "exit_code": 0
+      },
+      {
+        "validator": "validate_research_map",
+        "exit_code": 0
+      }
+    ],
+    "food_references": "14 unique records with existing concepts, sources and locators; no recipe testing claimed.",
+    "full_site_tests": 368,
+    "coastal_tests": 50,
+    "coastal_output": "556 local output files unchanged byte-for-byte from pre-integration build.",
+    "operating_instructions": "AGENTS.md is identical to current main.",
+    "browser": "Blocked; evidence preserved.",
+    "design_system_tests": 6,
+    "page_acceptance": "276 checks across 69 routes passed",
+    "tracked_manifest": "973 tracked hashes match integrated files.",
+    "knowledge_bundle": "Registers, catalogue, bundle and configuration checks passed.",
+    "ancestry": "All four exact source heads are ancestors of integration commit 14a6cf1; its tree matches tested content commit 55e6a87."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Integration and structural checks do not independently verify all 812 research concepts or source rights. No specialist, native-language review or fieldwork claimed.",
+    "Browser retry failed the admin-policy verification check before navigation. Mobile/wide-screen, inner-page flow, keyboard and screen-reader review remain open.",
+    "Story briefs are drafting proposals; no finished page is cleared for publication by this integration.",
+    "Existing source conflicts, recipe-test flags, edition distinctions and local-condition gaps remain explicit.",
+    "Upstream checkpoint dates and operational flags are preserved as historical context; current UTP status remains in its registers."
+  ],
+  "evidence": [
+    "records/evidence/research-integration/source-resolutions.json",
+    "records/evidence/research-integration/manifest-resolutions.json",
+    "records/evidence/research-integration/food-references.json",
+    "records/evidence/research-integration/coastal-output-comparison.json",
+    "records/evidence/research-integration/browser-attempt.json",
+    "records/evidence/research-integration/site-tests.txt",
+    "records/evidence/research-integration/edition-tests.txt",
+    "records/next-story-batch.json",
+    "records/research-integration-rule-proposals.json",
+    "records/evidence/research-integration/design-system-tests.txt",
+    "records/evidence/research-integration/page-acceptance.json",
+    "records/evidence/research-integration/discovery.json"
+  ],
+  "application": {
+    "status": "not_merged_to_main",
+    "website": "unchanged",
+    "indexing": "disabled",
+    "store": "excluded"
+  },
+  "recommendation": "Review this integrated KB candidate. First content production proposal: Enduri and Poda pitha, plus a bounded Chhena Poda enrichment; retain media/local-review gates. Operating-instruction adoption remains a separate discussion.",
+  "pull_request": {
+    "url": "https://github.com/ahimanikya/utkal-project/pull/36",
+    "state": "draft_for_founder_review",
+    "integration_commit": "14a6cf1",
+    "content_commit": "55e6a87"
+  }
+}

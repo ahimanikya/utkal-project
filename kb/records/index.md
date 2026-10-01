@@ -182,3 +182,5 @@
 - [Visitor discovery and research review](visitor-research-review.json) · [Research PR integration findings](research-pr-review.json) · [Current review queue](visitor-review-queue.json)
 
 - [Visitor discovery publication](visitor-research-publication.json) — approved PR 34, live homepage and connected reading checks.
+
+- [Research integration candidate](research-integration-review.json) · [Next illustrated story briefs](next-story-batch.json) · [Operating-rule proposal history](research-integration-rule-proposals.json)
