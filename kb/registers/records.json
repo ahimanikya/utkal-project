@@ -3853,6 +3853,31 @@
         "records/food-pala-integration-review.json",
         "records/food-pala-integration-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-132",
+      "title": "Everyday Odisha table: illustrated food stories and portable reading",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-137",
+      "next_action": "Review the four-page food candidate; browser visual review remains open. Pala draft held while remaining source, image and terminology checks are resolved.",
+      "blockers": [
+        "Browser admin-policy verification prevents visual and interactive review.",
+        "Pala-specific full-text and media review gaps; no Pala website route added."
+      ],
+      "refs": [
+        "UTP-DEC-137",
+        "UTP-REV-111"
+      ],
+      "evidence": [
+        "records/everyday-food-stories-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -6581,6 +6606,25 @@
       "evidence": [
         "records/food-pala-integration-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-137",
+      "title": "Build the everyday food story collection and Pala follow-up",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Go ahead",
+      "scope": "Prepare the proposed illustrated food collection, three stories, discovery and journey connections, Pala source follow-up and candidate checks. Preserve evidence gaps; no new indexing approval.",
+      "recorded_at": "2026-10-01T20:11:55.293459+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-136"
+      ],
+      "evidence": [
+        "records/everyday-food-stories-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9212,6 +9256,29 @@
       ],
       "evidence": [
         "records/food-pala-integration-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-111",
+      "title": "Everyday food stories and Pala follow-up self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser visual/interactive review blocked: admin-enforced browser policy could not be verified. No alternate browser automation used.",
+        "Human editorial, Odia and local naming review pending; no recipe testing, kitchen endorsement or present availability claimed.",
+        "Pala feature drafted only in KB: Dash 2011 full-text recovery and photo/terminology review remain open. Behera 2009 citation was recovered.",
+        "Website publication and search indexing are not performed by this candidate."
+      ],
+      "refs": [
+        "UTP-DEC-137",
+        "UTP-WORK-132"
+      ],
+      "evidence": [
+        "records/everyday-food-stories-review.json"
       ]
     }
   ],

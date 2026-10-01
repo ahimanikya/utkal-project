@@ -21,7 +21,7 @@ test('Cuttack starter preserves the previous plan and exports useful visit detai
 test('reading starter and every literary idea retain reading prompts and source links offline',()=>{
  const starter=data.starters.find(s=>s.id==='odia-reading'),next=createStarterTrip(emptyLibrary(),'reading-review',starter,data.catalog.map(i=>i.id));
  const book=buildTourBook(next.trips[1].plan,data.catalog);assert.ok(book.includes('Keep an edition note'));assert.ok(book.includes('Gangadhar Meher'));assert.ok(book.includes('sahitya-akademi.gov.in'));
- const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,18);
+ const reading=data.catalog.filter(i=>i.kind==='Reading');assert.equal(reading.length,19);
  for(const idea of reading){assert.ok(idea.practical.length>=2,idea.id);assert.ok(idea.sources.length);}
 });
 test('language hub preserves diversity without linking to unreleased profiles',()=>{

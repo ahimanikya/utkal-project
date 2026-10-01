@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-10-01T20:11:55.293459+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "quote": "Go ahead",
+    "context": "Build the proposed everyday food collection, three illustrated stories, connections and Pala follow-up."
+  },
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "new_routes": [
+      "/food/everyday/",
+      "/food/ou-khatta/",
+      "/food/badi-chura/",
+      "/food/tala-pitha/"
+    ],
+    "real_photographs": 3,
+    "public_candidate_pages": 110,
+    "discovery_entries": 67,
+    "journey_items": 71,
+    "pala_feature": "research/culture/pala-feature-draft.json; held from website"
+  },
+  "checks": {
+    "site_tests_passed": 377,
+    "edition_tests_passed": 62,
+    "page_acceptance_passed": 440,
+    "research_validators_passed": 12,
+    "source_and_image_credit": "Original creators, licences, named preparations and source distinctions preserved.",
+    "visual_review": "blocked_by_browser_security_policy"
+  },
+  "limitations": [
+    "Browser visual/interactive review blocked: admin-enforced browser policy could not be verified. No alternate browser automation used.",
+    "Human editorial, Odia and local naming review pending; no recipe testing, kitchen endorsement or present availability claimed.",
+    "Pala feature drafted only in KB: Dash 2011 full-text recovery and photo/terminology review remain open. Behera 2009 citation was recovered.",
+    "Website publication and search indexing are not performed by this candidate."
+  ],
+  "evidence": [
+    "records/evidence/everyday-food-stories/page-acceptance.json",
+    "records/evidence/everyday-food-stories/discovery.json",
+    "records/evidence/everyday-food-stories/research-checks.json",
+    "records/evidence/everyday-food-stories/site-tests.txt",
+    "records/evidence/everyday-food-stories/edition-tests.txt",
+    "records/everyday-food-image-provenance.json",
+    "records/everyday-source-followup.json"
+  ],
+  "next_action": "Founder reviews candidate; complete browser visual review when browser policy verification is available; resolve Pala-specific holds separately."
+}

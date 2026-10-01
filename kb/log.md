@@ -151,3 +151,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Both research PRs merged and website redeployed](records/food-pala-integration-publication.json). PRs 37 and 39 passed current checks; 106 live pages verified. Food and Pala additions remain research material for future articles.
+
+## 2026-10-01
+
+[Everyday food story candidate](records/everyday-food-stories-review.json): three photographed dishes and a collection page, connected to Explore and saved journeys. Pala feature drafted with one recovered citation and remaining holds; browser visual review unavailable.

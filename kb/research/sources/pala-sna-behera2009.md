@@ -20,3 +20,9 @@ Award-year citation, not proof of present age or activity. Full PDF timed out; l
 [Source](https://sangeetnatak.gov.in/public/uploads/awardees/docs/Jagannath_Behera.pdf). Locator: Sangeet Natak Akademi Awards 2009, printed p.38. Capture: indexed_pdf_excerpt.
 
 [Pala and its culture](../culture/pala.md).
+
+## Full-text follow-up · 1 October 2026
+
+The original one-page PDF was retrieved successfully in this follow-up. Its printed page 38 confirms the three teachers named above and the Sangeet Natak Akademi Awards 2009 citation. It also describes Behera’s reading across Odia, Bengali, Hindi, Sanskrit and English, and his use of literary quotations in performance. These are statements at the time of the citation, not present-day biographical facts. The earlier timeout remains part of the retrieval history.
+
+Retrieval evidence: [food and Pala source follow-up](../../records/everyday-source-followup.json).
