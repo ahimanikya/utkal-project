@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T02:37:51-07:00",
+  "updated_at": "2026-10-01T10:36:48.345446+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -28,7 +28,16 @@
         "references/data/source-reliability.json"
       ],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "methods/source-reliability.md",
+          "references/data/source-reliability.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-002",
@@ -59,7 +68,16 @@
           "new_statistical_observations": 0
         }
       ],
-      "completion_scope": "Initial publisher routes, extraction plans and revision signals for remaining groups, including explicit failed/partial routes. This is not a claim of verified statistical tables or complete submeasure coverage."
+      "completion_scope": "Initial publisher routes, extraction plans and revision signals for remaining groups, including explicit failed/partial routes. This is not a claim of verified statistical tables or complete submeasure coverage.",
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/source-reliability.json",
+          "references/data/weekly-watchlist.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-003",
@@ -89,7 +107,15 @@
           "new_statistical_observations": 0
         }
       ],
-      "completion_scope": "The defined bounded-failed-attempt alternative is complete; no priority report tables were recovered."
+      "completion_scope": "The defined bounded-failed-attempt alternative is complete; no priority report tables were recovered.",
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/source-recovery.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-004",
@@ -119,7 +145,15 @@
           "outcome": "conflict_documented_not_resolved",
           "new_statistical_observations": 1
         }
-      ]
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/tourism-series-reconciliation.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-005",
@@ -151,7 +185,17 @@
           "unknowns_retained": true
         }
       ],
-      "completion_scope": "Three canonical identities and publisher-listed access/facility evidence documented; required unknowns and conflicts retained. This is not live access or field verification."
+      "completion_scope": "Three canonical identities and publisher-listed access/facility evidence documented; required unknowns and conflicts retained. This is not live access or field verification.",
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/puri-craft-access.json"
+        ],
+        "project_records": [
+          "kb/research/destinations/central-details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-006",
@@ -182,7 +226,19 @@
           "outcome": "bounded_named_provider_research_saved"
         }
       ],
-      "completion_scope": "Named guide/operator sources, an Odia-food venue and a stay documented with capture limits, approval vintages and operating uncertainty; no endorsement or contact."
+      "completion_scope": "Named guide/operator sources, an Odia-food venue and a stay documented with capture limits, approval vintages and operating uncertainty; no endorsement or contact.",
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/puri-provider-research.json",
+          "visitor-index/puri-providers.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/central-details.json",
+          "kb/records/practical-publication.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-007",
@@ -211,7 +267,18 @@
           "outcome": "source_scoped_journey_outline_saved"
         }
       ],
-      "completion_scope": "Source-attributed road sequence and three leg records connect checked craft stops; missing operating, host and local-review evidence explicitly retained. Research outline only, not recommendation."
+      "completion_scope": "Source-attributed road sequence and three leg records connect checked craft stops; missing operating, host and local-review evidence explicitly retained. Research outline only, not recommendation.",
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/puri-journey-research.json",
+          "visitor-index/puri-journey-outline.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/visit-notebooks.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-025",
@@ -241,7 +308,17 @@
           "scope": "User-requested people, works, arts and creative-economy seed",
           "outcome": "first_batch_saved"
         }
-      ]
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "people/people-and-creations.md",
+          "references/data/people-creations.json",
+          "references/data/creative-economy.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-026",
@@ -253,7 +330,7 @@
       "attempts": 1,
       "dependencies": [],
       "last_worked_at": "2026-10-01T02:37:51-07:00",
-      "next_step": "Deepen at least three further writer/poet profiles, including earlier-period and male voices; verify original dates for the reading catalogue and resolve Paraja edition credits. Current batch deepens five profiles and adds five story records plus one anthology, but does not meet the full task criteria.",
+      "next_step": "Reuse the six literary lives and Six Acres reading page in project voices/collection.json, especially existing Fakir Mohan, Gopinath and Pratibha biographies. Reconcile them with people-creations.json; then research only missing original chronology, edition/translator metadata and remaining biography fields. Preserve RES-026 criteria and unfinished status.",
       "evidence_outputs": [
         "works/spark-of-light.md",
         "references/data/people-creations.json",
@@ -272,7 +349,21 @@
           "remaining": "Three further biographies; original work chronology and English-edition completeness across at least ten works.",
           "failed_source_retry_after": "2026-10-08"
         }
-      ]
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/people-creations.json",
+          "works/index.md",
+          "people/index.md"
+        ],
+        "project_records": [
+          "kb/research/voices/collection.json",
+          "kb/research/culture/odia-literature-and-literary-lives.md",
+          "kb/records/odia-literature-release-review.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-027",
@@ -287,7 +378,19 @@
       "next_step": "Research six musicians, dancers or theatre practitioners and twelve credited works/performances; distinguish composer, lyricist, singer, choreographer and performer; record legal listening/viewing sources.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "people/prafulla-kar.md",
+          "works/mamata-film-music.md",
+          "culture/odissi.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/northern-details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-028",
@@ -302,7 +405,17 @@
       "next_step": "Research eight athletes across at least four sports including women and para sport; verify Odisha connection, official results, event/year and record vintage; retain changes and relevant disqualifications.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "people/dilip-tirkey.md",
+          "statistics/sports-events.md",
+          "statistics/sports-infrastructure.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-029",
@@ -317,7 +430,19 @@
       "next_step": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "people/bedangadas-mohanty.md",
+          "works/qcd-phase-diagram-2009.md"
+        ],
+        "project_records": [
+          "kb/research/people/samanta-chandrasekhar.md",
+          "kb/research/people/samanta-chandrasekhar.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-008",
@@ -332,7 +457,17 @@
       "next_step": "Retrieve amendments and Cycle-1 tables; resolve or hold rooms versus beds and geographic scope conflicts.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/homestays.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/coastal-verification-queue.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-009",
@@ -347,7 +482,19 @@
       "next_step": "Seek active properties, room nights, occupancy, disbursements and host income with denominators; do not substitute registrations or targets.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/homestays.md",
+          "visitor-index/facility-catalog.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/visit-questions.json",
+          "kb/research/destinations/details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-010",
@@ -362,7 +509,19 @@
       "next_step": "Seek primary Debrigarh and comparable programme employment and revenue records; separate workers, families, participation and net income.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "places/debrigarh-hirakud.md",
+          "statistics/tourism.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/chilika.json",
+          "kb/research/destinations/details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-011",
@@ -377,7 +536,19 @@
       "next_step": "Deepen six pitha, four everyday dishes and four place-linked sweets with attributed preparation and variation sources; leave Odia/local review pending.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "food/index.md",
+          "visitor-index/food-catalog.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/coastal-edition-copy.json",
+          "kb/research/destinations/regions.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-031",
@@ -392,7 +563,17 @@
       "next_step": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "economy/rasagola-and-sweets.md",
+          "references/data/creative-economy.json",
+          "food/odisha-rasagola.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-012",
@@ -407,7 +588,19 @@
       "next_step": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "handlooms/index.md",
+          "handlooms/boyanika.md",
+          "statistics/craft-livelihoods.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/central-details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-030",
@@ -422,7 +615,16 @@
       "next_step": "Retrieve segment-wise parliamentary textile table; map at least eight garment/product forms to verified Odisha manufacture where supported, reconcile scope with broad exports and add dated destinations/volumes or precise gaps. Reuse RES-012 tradition depth.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "handlooms/garments-and-markets.md",
+          "statistics/textile-and-apparel-exports.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-032",
@@ -437,7 +639,20 @@
       "next_step": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "culture/sand-art.md",
+          "culture/cuttack-tarakasi.md",
+          "people/sudarsan-pattnaik.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/central-details.json",
+          "kb/records/cuttack-release-review.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-013",
@@ -452,7 +667,16 @@
       "next_step": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/district-banking.md",
+          "statistics/coverage.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-014",
@@ -467,7 +691,20 @@
       "next_step": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "places/koraput.md",
+          "statistics/districts/koraput.md",
+          "statistics/districts/sambalpur.md",
+          "statistics/districts/bargarh.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/regions.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-015",
@@ -482,7 +719,17 @@
       "next_step": "Extract consistent annual GSDP/GSVA series for matched five/ten-year intervals with price bases and estimate vintages; retain adverse results.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/economic-size-and-income.md",
+          "references/data/industry-growth-data.json",
+          "references/data/statistics-atlas.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-016",
@@ -497,7 +744,16 @@
       "next_step": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/investment-tracker.json",
+          "journeys/investment.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-017",
@@ -512,7 +768,18 @@
       "next_step": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/ports.md",
+          "statistics/industrial-production.md",
+          "statistics/fisheries.md",
+          "trade/connection-matrix.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-018",
@@ -527,7 +794,17 @@
       "next_step": "Deepen comparable health, learning and employment evidence; preserve survey redesigns, age/sex scope, district variation and confidence intervals when supplied.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/health.md",
+          "statistics/education.md",
+          "statistics/employment.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-019",
@@ -542,7 +819,19 @@
       "next_step": "Research transit, water functionality, sanitation, air monitoring and public amenities using comparable city periods; do not infer liveability from project counts.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/air-quality.md",
+          "statistics/urban-sanitation.md",
+          "cities/index.md"
+        ],
+        "project_records": [
+          "kb/records/bhubaneswar-publication.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-020",
@@ -557,7 +846,16 @@
       "next_step": "Deepen commissioned/operating outcomes and unresolved implementation milestones beyond announcements, with dates and evidence stages.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "references/data/growth-journeys.json",
+          "journeys/index.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-021",
@@ -572,7 +870,19 @@
       "next_step": "Build a rights/provenance inventory and local-review question packs; propose interviews but do not send messages, claim consent or fabricate local voices.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "about/website-readiness.md"
+        ],
+        "project_records": [
+          "kb/research/voices/collection.json",
+          "kb/records/northern-image-provenance.json",
+          "kb/research/product/public-contributions.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-022",
@@ -587,7 +897,20 @@
       "next_step": "Assemble up to ten complete source-linked stories across economy, livelihoods, nature, health and education with one takeaway, comparison and simple visual; mark editorial approval separately.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "stories/index.md",
+          "collections/index.md",
+          "about/statistics-storytelling.md"
+        ],
+        "project_records": [
+          "kb/reference/storytelling-standard.md",
+          "kb/research/voices/collection.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-023",
@@ -602,7 +925,19 @@
       "next_step": "Derive test questions from saved evidence and existing reader intents; test retrieval/navigation locally, label hypotheses and prepare a real-user study without inventing interviews.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "about/odisha-tourism-study.md",
+          "methods/trip-planning-content.md"
+        ],
+        "project_records": [
+          "kb/records/planning-hubs-publication.json",
+          "kb/research/product/visitor-readiness-2026-10-01.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-033",
@@ -617,7 +952,19 @@
       "next_step": "Map evidence gaps in cinema, theatre, publishing, oral traditions, instruments, manuscripts, architecture and community knowledge; complete two bounded source-backed nuclei and queue only nonduplicate remaining work.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "people/people-and-creations.md",
+          "culture/index.md"
+        ],
+        "project_records": [
+          "kb/reference/language-heritage-model.md",
+          "kb/research/voices/collection.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     },
     {
       "id": "RES-024",
@@ -632,7 +979,20 @@
       "next_step": "Audit actual coverage gaps and explicitly revisit source-recovery.json and tourism-series-reconciliation.json after their retry dates; avoid duplicate task creation. Revisit puri-craft-access.json operational gaps after retry date. Revisit puri-provider-research.json gaps after retry date.",
       "evidence_outputs": [],
       "retry_after": null,
-      "blocker": null
+      "blocker": null,
+      "reuse_before_research": {
+        "source_records": [
+          "statistics/coverage.md",
+          "about/research-gaps.md",
+          "methods/research-pipeline.md"
+        ],
+        "project_records": [
+          "kb/registers/records.json",
+          "kb/research/destinations/coastal-verification-queue.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     }
   ],
   "queue_revision_history": [
@@ -749,5 +1109,6 @@
         "RES-033"
       ]
     }
-  ]
+  ],
+  "deduplication_policy": "Read methods/research-map.md and each task’s reuse_before_research before browsing. A publication reused by several IDs is not independent corroboration. Keep source/edition/scope and review states."
 }

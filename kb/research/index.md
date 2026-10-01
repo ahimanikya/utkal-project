@@ -42,3 +42,5 @@ This is a research collection, not a current travel-booking directory. Statement
 - [Languages of Odisha](../reference/language-heritage-model.md) and [Odia Literature & Literary Lives](culture/odia-literature-and-literary-lives.md) — connected language, work and personality collections.
 
 - [Language and literature website pilot](voices/index.md) — illustrated language, writer and work introductions.
+
+[Research map and reuse rules](methods/research-map.md) — inspect existing research and project narratives before starting a new source search.
