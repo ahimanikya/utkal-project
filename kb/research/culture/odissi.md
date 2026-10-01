@@ -5,7 +5,7 @@ description: "Odissi — research and reuse notes."
 tags: ["culture", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "odissi", "title": "Odissi Dance", "resource": "https://odishatourism.gov.in/content/tourism/en/experience/themes/odissi-dance.html"}]
+sources: [{"id": "odissi", "title": "Odissi Dance", "resource": "https://odishatourism.gov.in/content/tourism/en/experience/themes/odissi-dance.html"}, {"id": "dance-sujata-kelucharan", "title": "About Guru Kelucharan Mohapatra", "resource": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Odisha"
 aliases: ["Odissi", "odissi"]
@@ -39,3 +39,11 @@ Obtain performance and music rights; use practitioner-reviewed terminology.
 ## People, roles and archives
 
 [Kelucharan Mohapatra](../people/kelucharan-mohapatra.md), [Laxmipriya Mohapatra](../people/laxmipriya-mohapatra.md), [Sanjukta Panigrahi](../people/sanjukta-panigrahi.md) and [Raghunath Panigrahi](../people/raghunath-panigrahi.md) offer specific research paths through choreography, performance, teaching and music. Early mixed-style theatre episodes remain distinct from later Odissi repertoire. Archival listings do not establish a current public performance or reusable recording.
+
+## Origins and revival: expanded research · 1 October 2026
+
+[Sujata Mohapatra’s account](https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/) connects Kelucharan’s early Gotipua experience and later research into Mahari and Gotipua traditions with his dance practice and teaching. Retain this as an attributed practitioner account. The existing theatre episodes and Laxmipriya record should remain part of the story.
+
+Ancient sculptural evidence, ritual practice, theatre and twentieth-century reconstruction are different layers of evidence. Do not describe Kelucharan as the sole inventor or imply that the modern repertoire has remained unchanged since antiquity. Odisha Tourism’s early-date wording involving “Udayagiri Monastery” needs identity checking against the Jain caves and separate Buddhist site before reuse.
+
+The wider dance programme will also examine Gotipua, Mahari, Mayurbhanj Chhau and regionally named community dances, with credited practitioners and recorded works. Odisha’s dance culture is broader than this Odissi page.

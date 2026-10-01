@@ -71,3 +71,5 @@ Subject membership is editorial classification. It does not establish historical
 [Odisha’s everyday food culture](../food/everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
 
 [Pala and its culture](../culture/pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
+
+[Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.

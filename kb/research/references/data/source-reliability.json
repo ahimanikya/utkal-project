@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:51:46.210268+00:00",
+  "updated_at": "2026-10-01T19:04:12.192294+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3948,6 +3948,105 @@
       "run_id": "2026-10-01-ekamra-kanan",
       "status": "available",
       "scope": "Comparison of claim definitions only: outdoor landscaped cacti-and-succulents garden differs from RPRC’s cactus species/varieties collection. Neither page provides a harmonized Asia-wide inventory.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-chaurasia-gurukul",
+      "discovery_url": "https://vrindabangurukul.com/pt-hariprasad-chaurasia/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Artist institution biography. Supports Allahabad birth and AIR Cuttack career; 1957 starting year retained as attributed, with a differing 1958 press account unresolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-gurukul-events",
+      "discovery_url": "https://vrindabangurukul.com/events/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Institutional chronology of Bhubaneswar opening. Does not establish current courses, fees, enrolment or media rights.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-sujata-kelucharan",
+      "discovery_url": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Practitioner and family-associated account of Gotipua, Mahari and teaching; not independent resolution of the existing 1924/1926 birth-year conflict.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-kiit-history",
+      "discovery_url": "https://kiit.ac.in/about/history/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Institutional retrospective, not audited outcomes. KISS start associated with 1992 here conflicts with its own 1993 narrative.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-kiss-history",
+      "discovery_url": "https://kissnew.kiss.ac.in/our-story-milestones/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Institutional self-description. No adoption of largest claims, animated counters, beneficiary totals or causal impact claims.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-dhe-universities",
+      "discovery_url": "https://dhe.odisha.gov.in/en/universities/list-of-univerisities-in-odisha",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Undated administrative directory; selected identities and categories only. May retain old names/URLs; not a complete current operating or UGC-recognition audit.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-nirf-university-2025",
+      "discovery_url": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "2025 University category only. Direct 2026 candidate URL failed; no claim that a 2026 release does not exist or that these are current ranks.",
+      "retry_after": null
+    },
+    {
+      "source_id": "faith-kantilo-district",
+      "discovery_url": "https://nayagarh.odisha.gov.in/en/tourism/tourist-places/kantilo-nilamadhab",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Supports location and religious association with Jagannath. Does not date a deity transfer or prove village-to-temple chronology.",
+      "retry_after": null
+    },
+    {
+      "source_id": "faith-hirapur-tourism",
+      "discovery_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/chausathi-yogini.html",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Attributions of date and patronage remain publisher attributions. Nationwide surviving-temple count and speculative ritual explanations not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "faith-mahima-president-2024",
+      "discovery_url": "https://presidentofindia.nic.in/press_releases/president-india-addresses-meeting-mahima-cult",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Speech evidence for public interpretation of Mahima Gosein and Bhima Bhoi; not a critical chronology or religious census.",
+      "retry_after": null
+    },
+    {
+      "source_id": "history-jajpur-buddhist-exhibit",
+      "discovery_url": "https://artsandculture.google.com/story/the-buddhist-heritage-of-jajpur-jajpur/NwWh9wDVsCTFtg?hl=en",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Curated secondary interpretation, not an excavation report. Langudi identification is attributed; regional priority, travel flows and exact chronology require primary archaeology.",
       "retry_after": null
     }
   ]

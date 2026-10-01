@@ -3977,6 +3977,80 @@
       "content_type": "Place",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/hariprasad-chaurasia",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "arts"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/achyuta-samanta",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/universities-and-learning",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/buddhist-learning",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/tantric-traditions",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "arts",
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/mahima-dharma",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "people",
+        "arts"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "methods/culture-learning-programme",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "arts",
+        "everyday",
+        "people"
+      ],
+      "content_type": "Research Methodology",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5629,6 +5703,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects two distinct institutions for nature learning around Bhubaneswar; their gardens, inventories and visitor figures remain separate."
+    },
+    {
+      "from": "people/hariprasad-chaurasia",
+      "to": "culture/odissi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects distinct music and dance traditions through Odisha’s performing-arts context; it does not classify Hindustani flute as Odissi music."
+    },
+    {
+      "from": "people/achyuta-samanta",
+      "to": "culture/universities-and-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a founder’s attributed history to institutional categories and dated comparisons; association alone does not measure educational impact."
+    },
+    {
+      "from": "culture/mahima-dharma",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Offers comparative reading about distinct religious and learning traditions; no common origin or doctrinal equivalence is asserted."
+    },
+    {
+      "from": "culture/tantric-traditions",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Points to questions about Buddhist Vajrayana while keeping Buddhist and Yogini/Shakta histories distinct."
     }
   ],
   "relationship_types": {

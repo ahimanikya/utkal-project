@@ -5,7 +5,7 @@ description: "Shree Jagannath Temple, Puri — visitor index research."
 tags: ["visitor-index"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:24:11-07:00"}
-sources: [{"id": "visitor-jagannath", "title": "Shree Jagannath Temple", "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple"}, {"id": "puri-temple-tourism-guidance", "title": "Jagannath Temple — Odisha Tourism visitor guidance", "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html"}, {"id": "puri-religious-shrines-directory", "title": "Religious Shrines — Odisha Tourism directory", "resource": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/religious-shrines.html"}]
+sources: [{"id": "visitor-jagannath", "title": "Shree Jagannath Temple", "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple"}, {"id": "puri-temple-tourism-guidance", "title": "Jagannath Temple — Odisha Tourism visitor guidance", "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html"}, {"id": "puri-religious-shrines-directory", "title": "Religious Shrines — Odisha Tourism directory", "resource": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/religious-shrines.html"}, {"id": "faith-kantilo-district", "title": "Kantilo Nilamadhab", "resource": "https://nayagarh.odisha.gov.in/en/tourism/tourist-places/kantilo-nilamadhab"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T01:24:11-07:00"}]
 verification_scope: "Narrow sourced paragraph checked against the described web extract; no human, field or operating verification."
 geography: "Puri"
@@ -43,3 +43,13 @@ The [area evidence register](../references/data/puri-craft-access.json) preserve
 ### Royal patronage
 
 [Anantavarman Chodaganga Deva](../people/anantavarman-chodaganga.md) provides a sourced reading route into the temple’s twelfth-century royal association. Detailed construction phases and later additions remain separate research questions.
+
+## Origins: three separate research questions · 1 October 2026
+
+Nayagarh district’s [Kantilo Nilamadhab description](https://nayagarh.odisha.gov.in/en/tourism/tourist-places/kantilo-nilamadhab) documents a religious association with Jagannath and locates the shrine beside the Mahanadi. It does not establish a dated relocation from a village to Puri.
+
+1. **Religious tradition:** locate and attribute versions of the Nilamadhava, Visvavasu, Vidyapati and Indradyumna narratives, including community perspectives. Narrative sequence is not an archaeological date.
+2. **Historical evidence:** examine dated inscriptions, textual editions and archaeological research for the development of worship and institutions.
+3. **The present temple:** extend the existing Chodaganga and Anangabhima records through construction phases, patronage and later additions.
+
+“From village to temple” remains a research question, not a settled origin claim. The existing access-hours conflict stays unresolved; historical work does not refresh visitor information.

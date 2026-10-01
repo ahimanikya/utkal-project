@@ -226,3 +226,7 @@ RES-042 saves five financial years of visits and receipts, a separate 25 Decembe
 ## Ekamra Kanan claim check · 1 October 2026
 
 RES-043 distinguishes RPRC’s attributed Asia-largest cactus collection from an unsupported Asia-biggest park claim. Eight undated collection figures retain mixed units; comparative taxonomy and dates, park boundaries and opening-hour contradictions remain open. Existing wild-fruit evidence reused; no independent ranking or current visitor readiness claimed.
+
+## Dance, learning and religious traditions · 1 October 2026
+
+RES-044–050 add bounded follow-ups for the user’s requested subjects. Initial profiles and references exist, but source-critical origins, additional dance traditions, original archaeological/textual editions, current UGC checks, audited educational outcomes and credited translations remain open. [Programme](../methods/culture-learning-programme.md).

@@ -77,3 +77,5 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Speech, Sound and Music Processing](../works/speech-sound-music-2012.md) connects scholarly computing with sound and music through an edited proceedings volume; editor and individual author credits remain separate.
 
 [Pala and its culture](../culture/pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
+
+[Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.

@@ -232,3 +232,7 @@ Added one connected nature/place entry, four institutional sources, five-year fi
 ## 1 October 2026 · Ekamra Kanan
 
 Added a botanical place profile, four source records and scoped collection data. Preserved cactus-collection attribution and the different Panchkula garden definition; withheld park-area ranking, undated annual attendance and contradictory opening times. Connected existing koli and Nandankanan research. RES-043 bounded seed completed.
+
+## 1 October 2026 · Dance, learning and religious traditions
+
+Added Chaurasia and Achyuta Samanta profiles, university categories and two 2025 NIRF observations, Buddhist-learning, Tantric-tradition and Mahima introductions. Enhanced existing Odissi, Kelucharan and Jagannath records. Reused the project’s Bhima Bhoi monograph capture. Seven bounded follow-ups preserve uncertain dates, legend/history distinctions and failed current-source fetches. No completed deep-study or website-publication claim.

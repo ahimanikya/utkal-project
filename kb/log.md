@@ -143,3 +143,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Ekamra Kanan botanical research
 
 [Research receipt](records/ekamra-kanan-2026-10-01.json): botanical collections and an attributed cactus claim; whole-park ranking unsupported, current inventory dates and opening hours unresolved. No website release.
+
+## 1 October 2026 · Dance, learning and religious traditions
+
+[Research receipt](records/culture-learning-2026-10-01.json): two people, university categories, dated rankings and connected cultural-history research; seven deeper tasks remain open. No website release.

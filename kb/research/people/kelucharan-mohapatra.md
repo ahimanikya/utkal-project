@@ -6,7 +6,7 @@ tags: ["people-creations", "research"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T04:11:33.006238-07:00"}
 human_review_claimed: false
-sources: [{"id": "performers-srjan-milestones", "title": "Kelucharan Mohapatra — Srjan milestones", "resource": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php"}, {"id": "performers-ignca-archives", "title": "IGNCA — exhibition of audiovisual archives", "resource": "https://ignca.gov.in/divisionss/media-centre/exhibition-of-audio-visual-archives/"}]
+sources: [{"id": "performers-srjan-milestones", "title": "Kelucharan Mohapatra — Srjan milestones", "resource": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php"}, {"id": "performers-ignca-archives", "title": "IGNCA — exhibition of audiovisual archives", "resource": "https://ignca.gov.in/divisionss/media-centre/exhibition-of-audio-visual-archives/"}, {"id": "dance-sujata-kelucharan", "title": "About Guru Kelucharan Mohapatra", "resource": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/"}]
 updated_at: "2026-10-01T04:11:33.006238-07:00"
 subjects: ["people", "arts"]
 ---
@@ -28,3 +28,9 @@ The [IGNCA archive exhibition list](https://ignca.gov.in/divisionss/media-centre
 [Aloka — dance sequence, 1948](../works/aloka-dance-sequence-1948.md) — Follow the named choreographer credit rather than infer authorship of every element.
 
 [Odissi](../culture/odissi.md) — This person’s documented contribution connects with Odissi; association alone does not establish authorship of the tradition.
+
+## Further evidence · 1 October 2026
+
+Sujata Mohapatra’s account adds a practitioner perspective on Gotipua training and Mahari/Gotipua research. It does not resolve the existing birth-year conflict. Continue through dated repertory, collaborators, teaching lineages and credited recordings; preserve the existing performance-specific work records.
+
+[Expanded dance research](../culture/odissi.md).
