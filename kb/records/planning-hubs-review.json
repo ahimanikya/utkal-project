@@ -1,0 +1,70 @@
+{
+  "status": "candidate_for_founder_review",
+  "recorded_at": "2026-10-01T08:14:46.739044+00:00",
+  "authorization": "UTP-DEC-105",
+  "scope": "Four planning hubs, shared discovery navigation, contextual return links, responsive and keyboard checks, and reconciliation of delivered northern work. One reviewable PR; no deployment.",
+  "routes": [
+    "/destinations/",
+    "/food/",
+    "/things-to-do/",
+    "/stay-areas/"
+  ],
+  "human_owner": "Ahimanikya Satapathy",
+  "limitations": [
+    "Same assistant implemented and checked the batch; no independent or screen-reader audit claimed.",
+    "These are discovery and research hubs; facilities, events, kitchens, availability and routes have not been field-verified.",
+    "Existing image/source limitations remain. Some entries have no documentary photograph; they retain text cards instead of an unrelated image.",
+    "Preview noindex, held language pages, store and disputed portrait remain unchanged."
+  ],
+  "edition": {
+    "pages": 60,
+    "saveable_ideas": 54,
+    "starters": 9
+  },
+  "hub_counts": {
+    "destination_guides": 7,
+    "food_ideas": 12,
+    "experiences": 9,
+    "stay_areas": 8
+  },
+  "changes": [
+    "Four planning hubs selected for the publication candidate. Existing idea IDs, saved journeys and editorial source data preserved.",
+    "Shared Plan your visit navigation on hubs, Explore, homepage and journey starters; footer return links on regional, food, experience and stay guides.",
+    "Area groups and stable jump links; landscape context on stay photographs; full-frame Chhau imagery; one credits disclosure at the end.",
+    "Fixed the inherited desktop opening width after visual inspection. Same component scales to single-idea and multi-idea groups."
+  ],
+  "verification": {
+    "full_site_tests": 331,
+    "edition_tests": 27,
+    "design_system_tests": 6,
+    "route_checks": "240 / 240 page acceptance checks passed across 60 selected pages.",
+    "browser": "Twelve opening checks: four hubs at 390, 820 and 1440px, one h1 each, no horizontal overflow, all opening photographs loaded. Final screenshot contact sheets reviewed; desktop food group and phone stay group inspected.",
+    "keyboard": "Skip link reaches main; five planning links and an area link have visible 3px focus outlines. Enter follows the area anchor; mobile Menu dismisses with Escape and returns focus.",
+    "journey": "Synthetic Cuttack meal, stay and craft saved across three hubs. Earlier note and Day 2 assignment retained; new ideas remain unscheduled.",
+    "build": "Initial local build could not create Astro telemetry preferences under the sandbox. Re-ran with telemetry disabled, matching CI; full build and selected build passed.",
+    "print": "No print implementation changed; existing automated offline-book tests passed. No new native PDF or physical-print claim."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "publication": {
+    "status": "not_deployed",
+    "approval": "Founder review of exact PR candidate required"
+  },
+  "evidence": [
+    "records/evidence/planning-hubs/responsive.json",
+    "records/evidence/planning-hubs/journey-ui.json",
+    "records/evidence/planning-hubs/media-reuse.json",
+    "records/evidence/planning-hubs/site-tests.txt",
+    "records/evidence/planning-hubs/edition-tests.txt",
+    "records/evidence/planning-hubs/design-system-tests.txt",
+    "records/evidence/planning-hubs/page-acceptance.json",
+    "records/evidence/planning-hubs/covers-390.jpg",
+    "records/evidence/planning-hubs/covers-820.jpg",
+    "records/evidence/planning-hubs/covers-1440.jpg",
+    "records/evidence/planning-hubs/food-cuttack-desktop.png",
+    "records/evidence/planning-hubs/stay-chilika-phone.png"
+  ]
+}

@@ -89,3 +89,5 @@ This directory contains the organizational and working model, roles, work record
 - [Odia language and literature review and publication](records/odia-literature-release-review.json) — six literary lives and portable reading notes.
 
 - [Northern collection review and publication](records/northern-release-review.json) — Balasore, Mayurbhanj, food, two bases and portable journey books.
+
+- [Planning hubs candidate](records/planning-hubs-review.json) — destination, food, experience and stay-area discovery with connected journey navigation.
