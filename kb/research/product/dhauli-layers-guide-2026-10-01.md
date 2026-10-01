@@ -28,3 +28,5 @@ Full and coastal builds pass, together with 318 site tests, 10 coastal tests and
 [Structured review](../../records/dhauli-layers-guide-review.json) · [Source inspection](../../records/evidence/dhauli-layers-guide-2026-10-01/source-inspection.json) · [Actual downloads](../../records/evidence/dhauli-layers-guide-2026-10-01/actual-books.json) · [Local preview](http://127.0.0.1:4354/visit/places/dhauli/)
 
 Candidate for review, not deployed. The public coastal edition remains 16 pages.
+
+[Draft PR #12](https://github.com/ahimanikya/utkal-project/pull/12).
