@@ -158,8 +158,23 @@
     "resource": "https://boyanika.com/",
     "publisher": "Odisha State Handloom Weavers Cooperative Society",
     "source_kind": "Producer/cooperative website",
-    "accessed_on": "2026-09-27",
-    "capture_note": "Self-description reviewed; inventory, authenticity of individual goods and fulfilment not audited."
+    "accessed_on": "2026-09-30",
+    "capture_note": "Homepage self-description and navigation text checked. User-designated ongoing reference for textiles, product organisation, storytelling, visual-study leads and buying research. No product provenance, stock, fulfilment or visual-design audit.",
+    "review_history": [
+      {
+        "accessed_on": "2026-09-27",
+        "capture_note": "Self-description reviewed; inventory, authenticity of individual goods and fulfilment not audited."
+      }
+    ],
+    "user_designated_reference": true,
+    "additional_checks": [
+      {
+        "checked_on": "2026-10-01",
+        "capture_method": "direct_html",
+        "locator": "Homepage navigation, lines 3–36 in text capture",
+        "scope": "Sarees, dress materials, ready-to-wear and wearable accessories; no sales, exports, stock or pricing verified."
+      }
+    ]
   },
   "konark": {
     "id": "konark",
@@ -249,7 +264,14 @@
     "publisher": "Odisha Tourism",
     "source_kind": "Institutional reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T23:27:29-07:00",
+        "run_id": "2026-10-01T062318Z",
+        "capture_note": "About and Essentials sections read: source-listed 06:00–18:00, free entry and parking. Nearby introduction incorrectly names Sukuapada; proximity claims withheld."
+      }
+    ]
   },
   "pipili": {
     "id": "pipili",
@@ -258,7 +280,14 @@
     "publisher": "Odisha Tourism",
     "source_kind": "Institutional reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T23:27:29-07:00",
+        "run_id": "2026-10-01T062318Z",
+        "capture_note": "About and Essentials read: source-listed 08:00–20:00, free entry and parking. Bank/hotel references concern Bhubaneswar; no onsite facilities inferred."
+      }
+    ]
   },
   "odissi": {
     "id": "odissi",
@@ -838,7 +867,14 @@
     "publisher": "Odisha Tourism Development Corporation",
     "source_kind": "Official operator directory",
     "accessed_on": "2026-09-27",
-    "capture_note": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation."
+    "capture_note": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-10-01T00:28:47-07:00",
+        "run_id": "2026-10-01T072448Z",
+        "capture_note": "Homepage direct fetch again returned internal error. Property and restaurant indexed excerpts captured separately; no unchanged outcome inferred."
+      }
+    ]
   },
   "visitor-offices": {
     "id": "visitor-offices",
@@ -893,7 +929,14 @@
     "publisher": "Puri district administration",
     "source_kind": "Official destination profile",
     "accessed_on": "2026-09-27",
-    "capture_note": "Temple identity and Puri location reviewed through indexed extract. Superlatives, travel distances and present access rules not adopted."
+    "capture_note": "Temple identity and Puri location reviewed through indexed extract. Superlatives, travel distances and present access rules not adopted.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T23:27:29-07:00",
+        "run_id": "2026-10-01T062318Z",
+        "capture_note": "District HTML directly read; identity and location confirmed within source scope. No entry eligibility or current operating rules supplied."
+      }
+    ]
   },
   "visitor-konark-conflict": {
     "id": "visitor-konark-conflict",
@@ -1046,7 +1089,15 @@
     "publisher": "SLBC Odisha, convened by UCO Bank",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh parsed PDF extraction: printed pages 1, 12–14, 41; 30-district table. No visual screenshot review. Administrative bank reports, not an economic census."
+    "capture_note": "Fresh parsed PDF extraction: printed pages 1, 12–14, 41; 30-district table. No visual screenshot review. Administrative bank reports, not an economic census.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T20:24:50-07:00",
+        "scope": "PDF cover and contents retrieved; quarter ended June 2026 confirmed, no statistical values imported.",
+        "status": "available",
+        "prior_failure_preserved": true
+      }
+    ]
   },
   "macro-cag-aug2026": {
     "id": "macro-cag-aug2026",
@@ -1055,7 +1106,15 @@
     "publisher": "Principal Accountant General (A&E), Odisha",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh parsed PDF: summary page and monthly trend pages 1 and 22. Values explicitly unaudited provisional; year-to-date comparison only indicative because excluded accounts may differ."
+    "capture_note": "Fresh parsed PDF: summary page and monthly trend pages 1 and 22. Values explicitly unaudited provisional; year-to-date comparison only indicative because excluded accounts may differ.",
+    "additional_checks": [
+      {
+        "at": "2026-09-30T20:36:07-07:00",
+        "run_id": "2026-10-01T033054Z",
+        "status": "available",
+        "scope": "Monthly PDF now accessible; inspected provisional labels and comparison caveat on PDF page index 0. No new amounts or revisions imported."
+      }
+    ]
   },
   "macro-cag-fy2025": {
     "id": "macro-cag-fy2025",
@@ -1226,7 +1285,14 @@
     "publisher": "Department of Tourism, Government of Odisha",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh indexed official PDF table extracts: calendar-year visits, month-wise visits, district and place-wise hotel position. Full PDF open failed; table names retained as locators, page numbers unavailable."
+    "capture_note": "Fresh indexed official PDF table extracts: calendar-year visits, month-wise visits, district and place-wise hotel position. Full PDF open failed; table names retained as locators, page numbers unavailable.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T22:58:24-07:00",
+        "run_id": "2026-10-01T052342Z",
+        "capture_note": "Timeout fetching; indexed table fragments are not full report recovery."
+      }
+    ]
   },
   "connect-centres2026": {
     "id": "connect-centres2026",
@@ -1325,7 +1391,14 @@
     "publisher": "Ministry of Tourism, Government of India",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh indexed official PDF Annexure II table extract. Full PDF open failed. Records a conflicting 2024 foreign-visit figure; 2025 column bears an asterisk and is treated as provisional, pending full footnote capture."
+    "capture_note": "Fresh indexed official PDF Annexure II table extract. Full PDF open failed. Records a conflicting 2024 foreign-visit figure; 2025 column bears an asterisk and is treated as provisional, pending full footnote capture.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T22:58:24-07:00",
+        "run_id": "2026-10-01T052342Z",
+        "capture_note": "404 Not Found; official search index still exposes annexure extract."
+      }
+    ]
   },
   "connect-internet2025-caveat": {
     "id": "connect-internet2025-caveat",
@@ -1473,7 +1546,15 @@
     "source_kind": "Primary institutional release",
     "accessed_on": "2026-09-27",
     "published_on": null,
-    "capture_note": "Official search-index release notice reports district compendiums released 20–21 August 2026. Direct page fetch timed out. Discovery only; Odisha district values not extracted or verified."
+    "capture_note": "Official search-index release notice reports district compendiums released 20–21 August 2026. Direct page fetch timed out. Discovery only; Odisha district values not extracted or verified.",
+    "additional_checks": [
+      {
+        "at": "2026-09-30T20:36:07-07:00",
+        "run_id": "2026-10-01T033054Z",
+        "status": "unavailable",
+        "scope": "Release notice remains discoverable through official search index; direct notice and homepage fetches both failed. District estimates not retrieved."
+      }
+    ]
   },
   "weekly-trai-mar2026": {
     "id": "weekly-trai-mar2026",
@@ -1484,5 +1565,781 @@
     "accessed_on": "2026-09-27",
     "published_on": "2026-06-22",
     "capture_note": "Parsed 171-page official PDF. Table 1.41, printed p53/PDF p72, Odisha state row and headings inspected; preceding service-area table kept separate. No screenshot review. Population projections and rounded units retained."
+  },
+  "debrigarh-nie-20260820": {
+    "id": "debrigarh-nie-20260820",
+    "title": "Debrigarh infrastructure and community engagement, 20 August 2026",
+    "resource": "https://www.newindianexpress.com/amp/story/states/odisha/2026/Aug/20/odishas-debrigarh-wildlife-sanctuary-witness-rise-in-visitors-upgraded-infrastructure-gave-push-to-it",
+    "publisher": "The New Indian Express",
+    "author": "Mayank Bhusan Pani",
+    "published_on": "2026-08-20",
+    "source_kind": "Secondary reporting with attributed forest-officer statement",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Full article HTML inspected, heading/date and closing two paragraphs. Supports an attributed more-than-150 community-engagement statement; not a payroll audit or independent primary confirmation."
+  },
+  "debrigarh-toi-user-clipping": {
+    "id": "debrigarh-toi-user-clipping",
+    "title": "Eco-tourism: Debrigarh employs 150 villagers — undated user clipping",
+    "resource": "urn:utkala:user-clipping:debrigarh-150",
+    "publisher": "The Times of India (identified from clipping)",
+    "author": "Riyan Ramanath (visible byline)",
+    "published_on": null,
+    "source_kind": "User-supplied newspaper image, date and original article URL unresolved",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Visible clipping read directly; date/edition/page absent. Counts transcribed as reported claims, not independently verified. Original retained in local work only; no image republication rights inferred.",
+    "attachment_sha256": "1857a8ae4958ec36b34028e4884d3a2ac8abae78d0081c860da77d91eda47de8"
+  },
+  "homestay-scheme2025": {
+    "id": "homestay-scheme2025",
+    "title": "Odisha Homestay Establishment Scheme 2025 — Gazette 5549",
+    "resource": "https://dot.odisha.gov.in/sites/default/files/2026-01/5549%20TOURISM%20%20Deptt_0.pdf",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Primary Gazette text",
+    "published_on": "2025-11-29",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Parsed 53-page Gazette inspected at notification, clauses 3.1–3.4, 5.2, 6 and 7. Notification dated 24 November 2025. Later amendments exist; not a consolidated statement of current applicant eligibility. Capacity differs between rooms in section 6 and beds in 7.2."
+  },
+  "homestay-guideline-index": {
+    "id": "homestay-guideline-index",
+    "title": "Odisha Tourism guidelines: amendments and Cycle 1 targets",
+    "resource": "https://dot.odisha.gov.in/en/guidelines",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Primary publication index",
+    "published_on": null,
+    "accessed_on": "2026-09-30",
+    "capture_note": "Live index inspected; amendment and target links present. Linked PDFs returned fetch errors/timeouts. Index verifies publication availability, not target numbers or amendment substance."
+  },
+  "homestay-gazette-aug2026": {
+    "id": "homestay-gazette-aug2026",
+    "title": "Tourism Gazette archive: Homestay Scheme entry, 5 August 2026",
+    "resource": "https://egazette.odisha.gov.in/extraordinary_archival_dept/70/1",
+    "publisher": "Directorate of Printing, Stationery and Publication, Odisha",
+    "source_kind": "Primary metadata only",
+    "published_on": "2026-08-05",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Archive row inspected. No downloadable text obtained. Existence/date established; legal effect and consolidated rules not established."
+  },
+  "homestay-nidhi2025": {
+    "id": "homestay-nidhi2025",
+    "title": "One India, One Registration Initiative under NIDHI Portal",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155162&lang=2&reg=48",
+    "publisher": "Ministry of Tourism, Government of India / PIB",
+    "source_kind": "Primary parliamentary reply",
+    "published_on": "2025-08-11",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Full HTML and annexure Odisha row read. Rural homestays registered in a voluntary national database; not a census or booking/occupancy series."
+  },
+  "homestay-go-portal": {
+    "id": "homestay-go-portal",
+    "title": "Go Homestay official portal",
+    "resource": "https://gohomestay.odisha.gov.in/",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official portal; limited capture",
+    "published_on": null,
+    "accessed_on": "2026-09-30",
+    "capture_note": "Search-index description available, direct page extraction returned no readable lines. No dashboard totals, listings, availability or live eligibility confirmed."
+  },
+  "homestay-go-app": {
+    "id": "homestay-go-app",
+    "title": "Go Homestay Portal — OCAC app listing",
+    "resource": "https://play.google.com/store/apps/details?hl=en_IN&id=com.aashdit.gohomestay",
+    "publisher": "Odisha Computer Application Centre / Google Play",
+    "source_kind": "First-party product description",
+    "published_on": null,
+    "accessed_on": "2026-09-30",
+    "capture_note": "Public app description inspected: registration, inspection, incentives, visitor records and reporting. No authenticated functions tested; downloads are not homestay adoption."
+  },
+  "homestay-launch-mar2026": {
+    "id": "homestay-launch-mar2026",
+    "title": "State launches Go Homestay portal",
+    "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/state-launches-go-homestay-portal/articleshow/129108175.cms",
+    "publisher": "The Times of India; Diana Sahu",
+    "source_kind": "Secondary event reporting",
+    "published_on": "2026-03-06",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Indexed article excerpt inspected. Reports Thursday launch, 5 March 2026; portal existence corroborated separately. Event date inferred from explicit Thursday and publication date."
+  },
+  "homestay-cycle1-may2026": {
+    "id": "homestay-cycle1-may2026",
+    "title": "From Deomali to Daringbadi, homestays get a push",
+    "resource": "https://timesofindia.indiatimes.com/city/bhubaneswar/from-deomali-to-daringbadi-homestays-get-a-push/articleshow/131184349.cms",
+    "publisher": "The Times of India; Diana Sahu",
+    "source_kind": "Secondary reporting of departmental targets",
+    "published_on": "2026-05-19",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Full article read. Reports 380 Cycle-1 units, 61 GPs, 19 districts/clusters, Koraput 60 and Kandhamal 50. Original Cycle-1 PDF could not be retrieved; values retain secondary status. Do not repeat its imprecise year-since-launch phrase."
+  },
+  "homestay-market-jan2025": {
+    "id": "homestay-market-jan2025",
+    "title": "Homestay count grows manifold in Odisha but local experience missing",
+    "resource": "https://www.newindianexpress.com/states/odisha/2025/Jan/04/homestay-count-grows-manifold-in-odisha-but-local-experience-missing",
+    "publisher": "The New Indian Express",
+    "source_kind": "Secondary market and event reporting",
+    "published_on": "2025-01-04",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Full article read: approximately 50 listings in 2017, over 350 by report; 270 Airbnb listings of mixed property types; near 100 properties/250 rooms identified around Bhubaneswar for PBD. No underlying listing series, booking counts or de-duplication inspected."
+  },
+  "homestay-amendment-lead": {
+    "id": "homestay-amendment-lead",
+    "title": "Reported July 2026 homestay eligibility amendment",
+    "resource": "https://teamleaseregtech.com/updates/article/59065/odisha-tourism-amendment-to-homestay-establishment-scheme-2025/",
+    "publisher": "TeamLease RegTech Legal Research Team",
+    "source_kind": "Secondary amendment discovery",
+    "published_on": "2026-08-27",
+    "accessed_on": "2026-09-30",
+    "capture_note": "HTML summary inspected; linked document fetch failed. Reports Notification 10641 of 31 July, Block residency and Rayagada GP correction. Gazette metadata independently found; amendment text still unverified."
+  },
+  "regional-bargarh-demography": {
+    "id": "regional-bargarh-demography",
+    "title": "Bargarh district demography",
+    "resource": "https://bargarh.odisha.gov.in/en/about--district/demography",
+    "publisher": "Bargarh district administration",
+    "source_kind": "Primary district government reproduction of Census data",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Full HTML population table read. Extracted only 2011 total, rural and urban counts. Website update date is not population vintage. Literacy percentage has a different apparent denominator; not imported."
+  },
+  "regional-sambalpur-overview": {
+    "id": "regional-sambalpur-overview",
+    "title": "About Sambalpur district",
+    "resource": "https://sambalpur.odisha.gov.in/en/about-district/about-us",
+    "publisher": "Sambalpur district administration",
+    "source_kind": "Primary district government reproduction of Census data",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Full HTML read. Extracted explicitly dated Census 2011 total and district-separation history. Unspecified-date climate, administrative counts and promotional superlatives not imported."
+  },
+  "odisha-tourism-portal": {
+    "id": "odisha-tourism-portal",
+    "title": "Odisha Tourism — official visitor portal",
+    "resource": "https://odishatourism.gov.in/content/tourism/en.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official tourism portal; discovery and reference source",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Homepage navigation and extracted text inspected. Links to attractions, cities, activities, themes, events and visitor-planning resources observed. Embedded 404/form/status text is mixed into the extraction; no conclusion about user account state or individual feature functionality. Linked services, current schedules, stock, prices and booking fulfilment not verified.",
+    "user_designated_reference": true,
+    "reference_roles": [
+      "destination-research",
+      "culture-and-handloom",
+      "visitor-facilities",
+      "events-discovery",
+      "content-organisation",
+      "design-study-lead"
+    ]
+  },
+  "tourism-roadtrips": {
+    "id": "tourism-roadtrips",
+    "title": "Odisha By Road",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/plan/trip-organizer/find-a-roadtrip.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official tourism portal; interface/content study",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Browser list inspected: cards present duration, places and attractions, with sorting and detail links. Listed durations and routes were not verified for current travel."
+  },
+  "tourism-trail-finder": {
+    "id": "tourism-trail-finder",
+    "title": "Find a Trail",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/plan/trip-organizer/find-trail.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official tourism portal; interface/content study",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Opened Show Filter in browser; single/multiple-day and activity choices, location/name search, operator and sort controls observed. Cards loaded. Filtering accuracy, enquiries, prices and booking fulfilment not tested."
+  },
+  "tourism-map-finder": {
+    "id": "tourism-map-finder",
+    "title": "Find on Map",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/plan/trip-organizer/find-on-map.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official tourism portal; interface/content study",
+    "accessed_on": "2026-09-30",
+    "capture_note": "HTML and browser inspected: category navigation, search, map/list interface and destination entries observed. Coordinates, distances, geolocation and routing not verified."
+  },
+  "tourism-wayside": {
+    "id": "tourism-wayside",
+    "title": "Way Side Amenities",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/plan/food-accommodation/way-side-ammenities.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official tourism portal; interface/content study",
+    "accessed_on": "2026-09-30",
+    "capture_note": "HTML inspected: amenity introduction, sorting and location/list scaffolding. Facility inventory did not populate in the extracted text. No absence, hygiene or operating-status claim inferred."
+  },
+  "tourism-artisan-stories": {
+    "id": "tourism-artisan-stories",
+    "title": "Artisan Stories",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/shopping/brickMortarStores/shopArtisanStories.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official tourism portal; interface/content study",
+    "accessed_on": "2026-09-30",
+    "capture_note": "HTML inspected: page and store-locator navigation present; individual artisan narratives were not readable in this capture. Retained as a research lead."
+  },
+  "tourism-wild-west-route": {
+    "id": "tourism-wild-west-route",
+    "title": "The Quest for Odishas Wild West — road-trip detail",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/road-trip-detail/the-quest-for-odishas-wild-west.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official tourism portal; interface/content study",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Browser inspected after dynamic content loaded: summary, traveller/terrain tags, five day tabs, first-day detail, food/shopping, related places and emergency sections. Route labels differ between summary and description; an old event window remains. Travel times, route feasibility, all day tabs and contacts not verified. Supplementary visual inspection on 2026-09-30: narrow-viewport screenshot of Summary shows thin outline traveller and terrain pictograms grouped under headings, section tabs and a map. Small individual pictograms have no visible text labels in that capture. Icon package, asset licence and whole-site accessibility were not established."
+  },
+  "tourism-guide-directory": {
+    "id": "tourism-guide-directory",
+    "title": "Get a Tour Guide",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/plan/trip-organizer/tour-guide.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official visitor portal directory",
+    "accessed_on": "2026-09-30",
+    "capture_note": "HTML inspected on 2026-09-30: guide-directory heading, district/location/city/name search, Show Filter, All/Most Liked/Alphabetically sorting and contact-details heading. Individual profiles and totals were not populated in this extraction. No credentials, availability, ranking quality or contact flow verified.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-10-01T00:28:47-07:00",
+        "run_id": "2026-10-01T072448Z",
+        "capture_note": "Main directory shell reread; alternate apps.odishatourism.gov.in/find-tour-guide exposes named cards. See puri-guide-app-directory. No contact form used."
+      }
+    ]
+  },
+  "pipeline-tourism-releases": {
+    "id": "pipeline-tourism-releases",
+    "title": "Tourism publication downloads",
+    "resource": "https://dot.odisha.gov.in/en/publications/tourism-download",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Primary publisher discovery page",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Listing reviewed: annual report 2025-26, bulletin 2024 and older reports. Annual-report download rejected by web extraction for content length; no report contents newly verified.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T22:58:24-07:00",
+        "run_id": "2026-10-01T052342Z",
+        "capture_note": "Direct binary download timed out. No statistical values checked. See source-recovery.json for scoped failures and alternatives."
+      }
+    ]
+  },
+  "pipeline-economic-releases": {
+    "id": "pipeline-economic-releases",
+    "title": "Economic Survey release catalogue",
+    "resource": "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+    "publisher": "Planning and Convergence Department, Government of Odisha",
+    "source_kind": "Primary publisher discovery page",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Listing reviewed: full 2025-26 survey, English/Odia summaries and older appendices. Correct /en/ catalogue succeeds where the path without /en/ failed. Full report fetch timed out.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T22:58:24-07:00",
+        "run_id": "2026-10-01T052342Z",
+        "capture_note": "Direct binary download timed out. No statistical values checked. See source-recovery.json for scoped failures and alternatives."
+      }
+    ]
+  },
+  "pipeline-des-tables": {
+    "id": "pipeline-des-tables",
+    "title": "DES data tables discovery",
+    "resource": "https://des.odisha.gov.in/en/pages/data-tables",
+    "publisher": "Directorate of Economics and Statistics, Odisha",
+    "source_kind": "Primary publisher discovery page",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Listing reviewed: current/constant GSDP and GSVA links through 2025-26, district tables for 2025 and district compilation for 2026. Linked current-price sheet and district compilation did not open in web extraction. Release-calendar fetch timed out.",
+    "additional_checks": [
+      {
+        "checked_at": "2026-09-30T22:58:24-07:00",
+        "run_id": "2026-10-01T052342Z",
+        "capture_note": "Direct binary download timed out. No statistical values checked. See source-recovery.json for scoped failures and alternatives."
+      }
+    ]
+  },
+  "pipeline-slbc-releases": {
+    "id": "pipeline-slbc-releases",
+    "title": "SLBC release discovery",
+    "resource": "https://slbcorissa.com/",
+    "publisher": "SLBC Odisha, UCO Bank",
+    "source_kind": "Primary publisher discovery page",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Homepage lists 184th and 183rd agendas and dated MSME cluster releases. The 184th agenda PDF is accessible. Cover letter dated 29 August 2026 specifies quarter ended June 2026 and meeting scheduled 5 September 2026; source PDF page index 1, contents indices 2–5. Statistical tables not re-extracted in this batch."
+  },
+  "pipeline-trai-releases": {
+    "id": "pipeline-trai-releases",
+    "title": "TRAI performance report catalogue",
+    "resource": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+    "publisher": "Telecom Regulatory Authority of India",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Catalogue lists quarterly and annual reports, with release dates and download links; January–March 2026 row dated 22 June 2026."
+  },
+  "pipeline-cag-releases": {
+    "id": "pipeline-cag-releases",
+    "title": "CAG Odisha monthly accounts catalogue",
+    "resource": "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360",
+    "publisher": "Principal Accountant General (A&E), Odisha",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Fiscal-year archive lists monthly indicators through August 2026. Linked August PDF accessible; first page labels figures unaudited/provisional and warns comparison is indicative due to excluded accounts."
+  },
+  "pipeline-paradip-traffic": {
+    "id": "pipeline-paradip-traffic",
+    "title": "Paradip traffic report archive",
+    "resource": "https://paradipport.gov.in/traffic/",
+    "publisher": "Paradip Port Authority",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Archive mixes daily traffic reports and a May 2026 major-port comparison. The May comparison PDF is readable; no cargo values or ranking imported."
+  },
+  "pipeline-ipindia-releases": {
+    "id": "pipeline-ipindia-releases",
+    "title": "IP India annual report catalogue",
+    "resource": "https://www.ipindia.gov.in/pages/home/annual-report",
+    "publisher": "Office of the Controller General of Patents Designs and Trade Marks",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Annual report labels through 2024–25 appear in extracted catalogue; file links were not exposed in the extracted report rows."
+  },
+  "pipeline-investodisha-discovery": {
+    "id": "pipeline-investodisha-discovery",
+    "title": "Invest Odisha discovery lead",
+    "resource": "https://www.investodisha.gov.in/",
+    "publisher": "Invest Odisha",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Direct homepage fetch returned an internal error. Search-index material cannot establish current announcements or implementation."
+  },
+  "pipeline-urban-releases": {
+    "id": "pipeline-urban-releases",
+    "title": "Odisha urban activity reports",
+    "resource": "https://urban.odisha.gov.in/en/publication/activity-report",
+    "publisher": "Housing and Urban Development Department, Odisha",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Catalogue lists 2025–26 and older fiscal-year activity reports. Latest listed PDF failed in web extraction."
+  },
+  "pipeline-pib-releases": {
+    "id": "pipeline-pib-releases",
+    "title": "PIB releases discovery interface",
+    "resource": "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2",
+    "publisher": "Press Information Bureau, Government of India",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Ministry and date controls visible, but extracted list displays zero releases. This dynamic capture does not establish absence of releases."
+  },
+  "pipeline-pib-archive-guide": {
+    "id": "pipeline-pib-archive-guide",
+    "title": "PIB archive discovery guidance",
+    "resource": "https://www.pib.gov.in/Aboutarchive.aspx?lang=6&reg=17",
+    "publisher": "Press Information Bureau, Government of India",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Publisher guidance describes year/month, ministry and keyword discovery. Archive landing page itself failed to open in this run."
+  },
+  "pipeline-fsi-releases": {
+    "id": "pipeline-fsi-releases",
+    "title": "Forest Survey of India publications",
+    "resource": "https://fsi.nic.in/reports-publications",
+    "publisher": "Forest Survey of India",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Publication page links assessment years including 2023 and describes ISFR as biennial. Opening the 2023 report entrance failed."
+  },
+  "pipeline-irel-releases": {
+    "id": "pipeline-irel-releases",
+    "title": "IREL annual report catalogue",
+    "resource": "https://www.irel.co.in/annual-reports",
+    "publisher": "IREL (India) Limited",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Annual-report catalogue lists 2024–25 and earlier years. The linked 2024–25 PDF is accessible; cover and contents observed, no Odisha output figures extracted."
+  },
+  "pipeline-aai-traffic": {
+    "id": "pipeline-aai-traffic",
+    "title": "AAI traffic news discovery lead",
+    "resource": "https://aai.aero/en/business-opportunities/aai-traffic-news",
+    "publisher": "Airports Authority of India",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Official search index exposes monthly traffic annexures including passenger and state/UT tables. Direct fetches on both host variants failed; no latest-period values verified."
+  },
+  "pipeline-mospi-reports": {
+    "id": "pipeline-mospi-reports",
+    "title": "MoSPI report catalogue discovery lead",
+    "resource": "https://www.mospi.gov.in/download-reports?main_=",
+    "publisher": "Ministry of Statistics and Programme Implementation",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Official search index identifies report catalogue; direct extraction returned zero lines. No current report list or release date verified."
+  },
+  "pipeline-udise-publications": {
+    "id": "pipeline-udise-publications",
+    "title": "UDISE publication discovery lead",
+    "resource": "https://udiseplus.gov.in/#/Publication",
+    "publisher": "Department of School Education and Literacy, Government of India",
+    "source_kind": "Primary publisher discovery route",
+    "accessed_on": "2026-09-30",
+    "capture_note": "UDISE publication route produced no extracted text. Ministry alternative redirected to a differently named hostname and exposed only a heading; it is not used as verified evidence."
+  },
+  "pipeline-finance-survey-alternative": {
+    "id": "pipeline-finance-survey-alternative",
+    "title": "Odisha Finance budget publications — Economic Survey alternative",
+    "resource": "https://finance.odisha.gov.in/en/publication/finance-budget",
+    "publisher": "Finance Department, Government of Odisha",
+    "source_kind": "Primary publisher discovery page",
+    "accessed_on": "2026-09-30",
+    "capture_note": "Listing identifies Economic Survey 2025–26 Full Document, 33.51 MB. Linked OES 2025-26 Main Booklet.pdf returned extraction size limit 35,142,032 bytes. No table or report publication date verified; the URL directory is not its publication date."
+  },
+  "tourism-pib-20251208": {
+    "id": "tourism-pib-20251208",
+    "title": "World Travel Market and FTAs — Ministry of Tourism",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200323&lang=1&reg=6",
+    "publisher": "Ministry of Tourism via Press Information Bureau",
+    "source_kind": "Primary government release with statistical annexure",
+    "accessed_on": "2026-09-30",
+    "published_on": "2025-12-08",
+    "capture_note": "HTML Annexure I, Odisha row, reports 45,173 foreign tourist visits for 2023 and 87,854 for 2024; source credited to State/UT Tourism Departments. The ministry distinguishes state visits from international arrivals. Narrative mentions 2020–2025, but the annexure ends in 2024; use its column labels. This corroborates the saved central count, not reconciliation with the state bulletin."
+  },
+  "puri-raghurajpur-district": {
+    "id": "puri-raghurajpur-district",
+    "title": "Raghurajpur — Puri district profile",
+    "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/raghurajpur",
+    "publisher": "Puri district administration",
+    "source_kind": "Primary institutional visitor information",
+    "accessed_on": "2026-09-30",
+    "publication_date": null,
+    "locator": "HTML place description, paragraphs 1–3",
+    "capture_note": "Identifies Raghurajpur by the Bhargavi river, its craft practices and Gotipua. Reports restaurant, accommodation, gurukul and craft-centre facilities created under rural tourism projects; no creation date or current operation established. The 50-household description concerns Dandasahi, not Raghurajpur."
+  },
+  "puri-temple-tourism-guidance": {
+    "id": "puri-temple-tourism-guidance",
+    "title": "Jagannath Temple — Odisha Tourism visitor guidance",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Primary institutional visitor information",
+    "accessed_on": "2026-09-30",
+    "publication_date": null,
+    "locator": "Essentials Cheat Sheet; Getting There",
+    "capture_note": "Lists 05:00–23:00, free entry, parking and belongings-deposit outlets. Hours disagree with the religious-shrines directory. Camera, wallet and electronics restrictions are source wording, not independently confirmed SJTA policy. Entry eligibility, exceptions, live darshan and facility operation remain unverified."
+  },
+  "puri-religious-shrines-directory": {
+    "id": "puri-religious-shrines-directory",
+    "title": "Religious Shrines — Odisha Tourism directory",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/religious-shrines.html",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Primary institutional visitor information",
+    "accessed_on": "2026-09-30",
+    "publication_date": null,
+    "locator": "Puri district row: Sri Mandira",
+    "capture_note": "Sri Mandira row lists 06:00–17:00, conflicting with the temple attraction page. Many directory rows repeat the same hours; no reason for the discrepancy or current SJTA schedule established."
+  },
+  "puri-guide-app-directory": {
+    "id": "puri-guide-app-directory",
+    "title": "Odisha Tourism alternate tour-guide directory",
+    "resource": "https://apps.odishatourism.gov.in/find-tour-guide",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Primary public professional directory",
+    "accessed_on": "2026-10-01",
+    "publication_date": null,
+    "locator": "Direct HTML; visible guide cards",
+    "capture_note": "Debasis Sethi is listed with Puri locality/district labels. Kedarnath Hota has conflicting address-versus-location labels; placement withheld. No personal home addresses copied. Names establish directory presence, not current credentials, languages, service coverage or availability. Contact form would request user details and notify an agent; not submitted."
+  },
+  "puri-approved-operators": {
+    "id": "puri-approved-operators",
+    "title": "Approved Tour Operators — Puri entries",
+    "resource": "https://dot.odisha.gov.in/en/tourism-department-info-planner/approved-tour-operators",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Primary official approval directory",
+    "accessed_on": "2026-10-01",
+    "publication_date": null,
+    "locator": "Direct HTML; Puri rows 1–2 and earlier Heritage Tours row 67",
+    "capture_note": "Heritage Tours appears with 2012 and 2022 approval references; Grass Routes appears with 2012 and 2013 references. Preserve vintages without treating duplicate rows as separate firms or proof of current validity."
+  },
+  "puri-heritage-tours-provider": {
+    "id": "puri-heritage-tours-provider",
+    "title": "Heritage Tours — provider website",
+    "resource": "https://www.heritagetoursorissa.com/",
+    "publisher": "Heritage Tours Orissa",
+    "source_kind": "First-party commercial service description",
+    "accessed_on": "2026-10-01",
+    "publication_date": null,
+    "locator": "Direct HTML; package navigation and footer",
+    "capture_note": "Provider advertises guided tours and hotel/transport reservations and lists Mayfair Heritage, C.T. Road, Puri. Commercial claims are attributed; rankings, sustainability assertions, rates, current approval and fulfilment not verified."
+  },
+  "puri-nimantran-otdc": {
+    "id": "puri-nimantran-otdc",
+    "title": "Nimantran Restaurant, Puri — OTDC listing",
+    "resource": "https://otdc.odisha.gov.in/en/light/subsubpage/nimantran-restaurant-puri",
+    "publisher": "Odisha Tourism Development Corporation",
+    "source_kind": "Primary operator listing; indexed extract only",
+    "accessed_on": "2026-10-01",
+    "publication_date": null,
+    "locator": "Indexed heading, description, Events and Facilities; direct fetch internal error",
+    "capture_note": "Named Puri restaurant and Odia-cuisine offering identified in official indexed extract. Street address and current menu/hours unknown. Footer is OTDC head office in Bhubaneswar, not a Puri restaurant address. Opening date and capacity not adopted without branch-specific verification."
+  },
+  "puri-panthanivas-property": {
+    "id": "puri-panthanivas-property",
+    "title": "Panthanivas Puri — OTDC property listing",
+    "resource": "https://otdc.odisha.gov.in/en/light/accommodations/panthanivas-puri",
+    "publisher": "Odisha Tourism Development Corporation",
+    "source_kind": "Primary operator listing; indexed extract only",
+    "accessed_on": "2026-10-01",
+    "publication_date": null,
+    "locator": "Indexed property heading, Facilities and location; direct fetch internal error",
+    "capture_note": "Lists Chakra Tirtha Road, Penthakata, Puri, restaurant, food, sightseeing and transport services. No room inventory, current availability or dish-level menu verified. Unqualified displayed amount and ratings not adopted."
+  },
+  "puri-wonders-operator-route": {
+    "id": "puri-wonders-operator-route",
+    "title": "Wonders of Odisha — operator itinerary on Odisha Tourism",
+    "resource": "https://apps.odishatourism.gov.in/tour/wonders-of-odisha-tourist-destinations",
+    "publisher": "M/s. Om Leisure Holidays Pvt. Ltd.; hosted by Odisha Tourism",
+    "source_kind": "First-party commercial itinerary on government portal",
+    "locator": "Operator attribution above inquiry form; Day Wise Itinerary, Day 02",
+    "capture_note": "Readable HTML. Day 02 describes driving from Bhubaneswar via Dhauli, Pipili and Raghurajpur to Puri. Commercial sequence only; individual leg times/distances, present operation and temple rules not independently verified. Other destination cards contain mismatched labels; they are not imported.",
+    "accessed_on": "2026-10-01",
+    "publication_date": null,
+    "capture_method": "direct_html",
+    "source_check_at": "2026-10-01T01:31:49-07:00"
+  },
+  "puri-heritage-golden-triangle": {
+    "id": "puri-heritage-golden-triangle",
+    "title": "Heritage Tours — Golden Triangle itinerary",
+    "resource": "https://www.heritagetoursorissa.com/golden-triangle-odisha/",
+    "publisher": "Heritage Tours Orissa",
+    "source_kind": "First-party commercial itinerary",
+    "locator": "Day 02, Day 05 and package inclusions",
+    "capture_note": "Readable HTML. Day 02 advertises a drive via Pipili to Konark; Day 05 visits Raghurajpur after a Puri stay and returns to Puri or Bhubaneswar. A different package, not independent measurement or confirmation of the combined outline. Price, event access, superlatives and wildlife promises not adopted.",
+    "accessed_on": "2026-10-01",
+    "publication_date": null,
+    "capture_method": "direct_html",
+    "source_check_at": "2026-10-01T01:31:49-07:00"
+  },
+  "creators-jnanpith": {
+    "id": "creators-jnanpith",
+    "title": "Jnanpith laureates — Odia entries",
+    "resource": "https://jnanpith.net/laureates.html?id=3",
+    "publisher": "Bharatiya Jnanpith",
+    "locator": "Laureates table rows Pratibha Ray, Sitakant Mahapatra, Satchidananda Rautroy and Gopinath Mohanty",
+    "capture_note": "Named award years and source language label Oriya only. Table is not complete for all latest award years; do not derive an exhaustive current total.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-six-acres": {
+    "id": "creators-six-acres",
+    "title": "Six Acres and a Third — publisher edition",
+    "resource": "https://www.ucpress.edu/books/six-acres-and-a-third/paper",
+    "publisher": "University of California Press",
+    "locator": "Title details, translator credits and About the Author",
+    "capture_note": "Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked.",
+    "publication_date": "2005-12",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_primary_excerpt",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-yajnaseni": {
+    "id": "creators-yajnaseni",
+    "title": "Yajnaseni — translator bibliography",
+    "resource": "https://pradipbhattacharya.com/book/yajnaseni-the-story-of-draupadi/",
+    "publisher": "Pradip Bhattacharya",
+    "locator": "Book metadata and translation credit",
+    "capture_note": "First-party translator confirms English translation, Rupa 1995 and ISBN. No current price, stock or full-text reuse rights adopted.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-paraja": {
+    "id": "creators-paraja",
+    "title": "Paraja — Oxford edition",
+    "resource": "https://india.oup.com/product/paraja-9780195623918",
+    "publisher": "Oxford University Press",
+    "locator": "Title, author, ISBN and publication-date fields",
+    "capture_note": "1997 paperback edition metadata. Captured page does not identify translator or language; keep these fields pending rather than merging another edition.",
+    "publication_date": "1997-06-01",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-sitakant-loc": {
+    "id": "creators-sitakant-loc",
+    "title": "Sitakant Mahapatra — literary recordings",
+    "resource": "https://www.loc.gov/acq/ovop/delhi/salrp/sitakantmahapatra.html",
+    "publisher": "Library of Congress",
+    "locator": "Author profile, reading list and English works paragraph",
+    "capture_note": "Institutional profile and linked Odia readings. English title and year recorded; old present-tense appointments and collection totals not treated as current. Page date January 11, 2016.",
+    "publication_date": "2016-01-11",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-prafulla-sna": {
+    "id": "creators-prafulla-sna",
+    "title": "Prafulla Kar — 2015 award citation",
+    "resource": "https://www.sangeetnatak.gov.in/public/uploads/awardees/docs/Prafulla_Kar.pdf",
+    "publisher": "Sangeet Natak Akademi",
+    "locator": "Printed page 16, Sangeet Natak Akademi Awards 2015",
+    "capture_note": "Indexed citation: Puri birth, vocalist/composer/lyricist, more than 70 Odia film music directions and Mamata (1975). Direct PDF returned 502; indexed capture only. Counts are citation-vintage, not audited complete discography.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_primary_excerpt",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-dilip-caps": {
+    "id": "creators-dilip-caps",
+    "title": "Dilip Tirkey 412-cap milestone equalled",
+    "resource": "https://www.hockeyindia.org/news/manpreet-singh-equals-former-indian-captain-dilip-tirkeys-record-of-412-international-caps",
+    "publisher": "Hockey India",
+    "locator": "Opening paragraph, 14 June 2026",
+    "capture_note": "412 international caps for Tirkey; Manpreet Singh equalled this on the report date. Do not claim Tirkey is the current sole record holder.",
+    "publication_date": "2026-06-14",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-saunamara-hockey": {
+    "id": "creators-saunamara-hockey",
+    "title": "Saunamara connections — Amit Rohidas milestone",
+    "resource": "https://www.hockeyindia.org/news/hockey-india-congratulates-amit-rohidas-on-completing-100-international-caps-for-india",
+    "publisher": "Hockey India",
+    "locator": "Opening biographical paragraphs",
+    "capture_note": "27 July 2021 record links Amit Rohidas and Dilip Tirkey to Saunamara, Sundargarh, and describes Tirkey as a three-time Olympian. No current caps inferred.",
+    "publication_date": "2021-07-27",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-bedangadas-infosys": {
+    "id": "creators-bedangadas-infosys",
+    "title": "Bedangadas Mohanty — Infosys Prize 2021",
+    "resource": "https://www.infosysprize.org/laureates/2021/bedangadas-mohanty.html",
+    "publisher": "Infosys Science Foundation",
+    "locator": "2021 laureate header, Bio and Jury Citation",
+    "capture_note": "Award and Odisha education/institutional connection; STAR and ALICE collaboration context. Team science must retain collaborators; no sole-inventor claim.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-qcd-paper": {
+    "id": "creators-qcd-paper",
+    "title": "QCD Phase Diagram — arXiv bibliographic record",
+    "resource": "https://arxiv.org/abs/0907.4476",
+    "publisher": "arXiv; author Bedangadas Mohanty",
+    "locator": "Title, author, submission history and journal reference",
+    "capture_note": "Conference discussion summary, not a standalone discovery claim; v1 26 July 2009 and v3 5 October 2009. Journal DOI 10.1016/j.nuclphysa.2009.10.132.",
+    "publication_date": "2009-10-05",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-sand-iffi": {
+    "id": "creators-sand-iffi",
+    "title": "Sudarsan Pattnaik sand installation at IFFI 2024",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2076084",
+    "publisher": "Ministry of Information and Broadcasting / PIB",
+    "locator": "22 November 2024 release; opening, artist remarks and Odisha paragraph",
+    "capture_note": "Dated Miramar installation and Odisha association. Named four cinema/music figures; not an enduring attraction or current exhibition. Parameterised route failed; canonical PRID route readable.",
+    "publication_date": "2024-11-22",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-sand-state": {
+    "id": "creators-sand-state",
+    "title": "Sand Arts — Odisha government profile",
+    "resource": "https://odisha.gov.in/en/odisha-tourism/sand-arts",
+    "publisher": "Government of Odisha",
+    "locator": "Sand Arts, Origin and Development",
+    "capture_note": "Puri association and sand/water medium. Page itself disclaims historical proof for Balaram Das legend, then derives a 700-year claim; quarantine that chronology. Old training, opening times and participant figures not imported.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "creators-tarakasi": {
+    "id": "creators-tarakasi",
+    "title": "Silver filigree — craft description",
+    "resource": "https://crafts.odisha.gov.in/?crafts=silver-filigree",
+    "publisher": "Directorate of Handicrafts, Odisha",
+    "locator": "Opening craft description",
+    "capture_note": "Indexed official text identifies Cuttack silver filigree as tarakasi. Direct fetch timed out. No present GI status, exports or chronology imported.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_primary_excerpt",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "textile-pib-20260324": {
+    "id": "textile-pib-20260324",
+    "title": "Textile and apparel exports — state table",
+    "resource": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2244418&lang=2&reg=48",
+    "publisher": "Ministry of Textiles / PIB; DGCI&S",
+    "locator": "Table India textile & apparel including Handicrafts exports, Odisha row 18; units Rs lakh; FY2020-21 to FY2024-25",
+    "capture_note": "Five annual values from the same table. Converted lakh to crore by dividing by 100. Broad category, not saree, handloom-only or individual-factory exports. Publication via Lok Sabha US Q5183.",
+    "publication_date": "2026-03-24",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "textile-ogd-20241231": {
+    "id": "textile-ogd-20241231",
+    "title": "Segment-wise Odisha textile exports — discovery record",
+    "resource": "https://odisha.data.gov.in/resource/segment-wise-details-export-textile-products-odisha-2021-22-2024-25",
+    "publisher": "OGD India; Rajya Sabha / DGCI&S",
+    "locator": "Resource notes, fields and retrieval state",
+    "capture_note": "Reference: Rajya Sabha starred Q130, 6 December 2024. FY2024-25 covers April–September 2024 only. Metadata visible; rows not rendered and API absent. No values imported. Portal quarterly label does not establish quarterly observations.",
+    "publication_date": "2024-12-31",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "sweets-pib-20250427": {
+    "id": "sweets-pib-20250427",
+    "title": "Odisha agri-export workshop and products displayed",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2124747",
+    "publisher": "Ministry of Commerce and Industry / APEDA / PIB",
+    "locator": "27 April 2025 release; event 25 April, product-list and technical-session paragraphs",
+    "capture_note": "Rasabali, Salepur Rasagolla and Dhenkanal Magaji Ladoo displayed. Promotion, cold chain and market-linkage discussion; no sweet-specific shipment, destination or revenue established. Parameterised fetch failed; canonical PRID route readable.",
+    "publication_date": "2025-04-27",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Primary publisher or institutional record"
+  },
+  "literature-spark-publisher": {
+    "id": "literature-spark-publisher",
+    "title": "Spark of Light — publisher catalogue",
+    "resource": "https://www.aupress.ca/books/120262-spark-of-light/",
+    "publisher": "Athabasca University Press",
+    "publication_date": "2016-12",
+    "accessed_on": "2026-10-01",
+    "locator": "Book details, contents, editors and download link",
+    "capture_method": "direct_html",
+    "capture_note": "English anthology; three format-specific ISBNs. Publisher page reviewed, not stock or sales. Twenty-six named author entries counted from contents; not a statewide writer total.",
+    "source_kind": "Publisher edition or institutional catalogue"
+  },
+  "literature-spark-text": {
+    "id": "literature-spark-text",
+    "title": "Spark of Light — edition and contributor notes",
+    "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf",
+    "publisher": "Athabasca University Press",
+    "publication_date": "2016",
+    "accessed_on": "2026-10-01",
+    "locator": "PDF pages 4–5 (copyright/contents); printed pp. 3, 17, 23, 37, 53 (credits), 233–236 (contributors)",
+    "capture_method": "direct_pdf_text",
+    "capture_note": "Copyright, credits and selected contributor notes inspected in publisher PDF and identical Library of Congress copy. 2016 biographies are historical snapshots, not current appointments. Publisher states CC BY-NC-ND 4.0; link to the edition rather than assume unrestricted commercial/derivative use.",
+    "source_kind": "Publisher edition or institutional catalogue"
+  },
+  "literature-binapani-akademi": {
+    "id": "literature-binapani-akademi",
+    "title": "Binapani Mohanty — Meet the Author",
+    "resource": "https://sahitya-akademi.gov.in/library/meettheauthor/binapani_mohanty.pdf",
+    "publisher": "Sahitya Akademi",
+    "publication_date": "2014-08-30",
+    "accessed_on": "2026-10-01",
+    "locator": "Indexed biographical and Pata Dei passages; six-page PDF identified, interior page locator unresolved",
+    "capture_method": "indexed_primary_excerpt",
+    "capture_note": "PDF open returned metadata but no text; screenshot fetch timed out. Indexed publisher text supports economics teaching, Chandol connection, 1990 national award and separate Jayanta Mahapatra translation Lata (1986). State award year 1968 conflicts with AU Press 1970; held unresolved.",
+    "source_kind": "Publisher edition or institutional catalogue"
+  },
+  "literature-early-women-iucat": {
+    "id": "literature-early-women-iucat",
+    "title": "Early women’s writings in Orissa — library catalogue",
+    "resource": "https://iucat.iu.edu/catalog/6233391/librarian_view",
+    "publisher": "Indiana University Libraries",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "locator": "Indexed MARC contents: Reba Ray dates; Suprabha Kar, Pratikhya (The vigil)",
+    "capture_method": "indexed_institutional_excerpt",
+    "capture_note": "Direct fetch failed (cache miss). Indexed contents supplies Reba Ray 1876–1957, conflicting with AU Press 1875–1957. No birth year selected. Original-title pairing for The Vigil is a lead; edition-level identity and original publication date remain unverified.",
+    "source_kind": "Publisher edition or institutional catalogue"
   }
 }

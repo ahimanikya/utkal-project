@@ -6,19 +6,32 @@ tags: ["statistics", "employment"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "people-plfs2024", "title": "Annual Report, Periodic Labour Force Survey, July 2023–June 2024", "resource": "https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf"}]
+subjects: ["everyday", "economy", "people"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Employment
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for employment. These are research records, not a composite performance ranking.
+Who participates in the labour force? Participation, employment and unemployment have distinct definitions; age, sex, rural/urban scope and survey design shape comparisons.
 
 ## Selected facts to explore
 
 - **Labour force participation rate, all persons, age 15+: 64.9 percent** — July 2023–June 2024, Odisha; rural and urban.[^people-plfs2024]
 - **Labour force participation rate, women, age 15+: 49.4 percent** — July 2023–June 2024, Odisha; rural and urban.[^people-plfs2024]
 - **Labour force participation rate, women, age 15+: 52.6 percent** — July 2023–June 2024, Odisha; rural.[^people-plfs2024]
+
+## Read this in context
+
+Subject: [Everyday life and human development](../subjects/everyday.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md), [People and communities](../subjects/people.md).
+
+- [Health](health.md) — Read another dimension of this subject; the measures remain separate.
+- [Education](education.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
+
+- [Debrigarh community livelihoods](../places/debrigarh-hirakud.md) — A place-specific community-work example, kept separate from statewide labour-force estimates.
 
 ## Evidence view
 

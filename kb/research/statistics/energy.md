@@ -6,18 +6,29 @@ tags: ["statistics", "energy"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "connect-solarprojects", "title": "Existing RE Projects in Odisha", "resource": "https://greenenergyinvest.odisha.gov.in/projects/projects-standard/"}]
+subjects: ["economy", "nature"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Energy
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for energy. These are research records, not a composite performance ranking.
+Which power projects and capacities are documented? A selected project inventory is not a statewide capacity total, and installed megawatts do not measure electricity generated or delivered.
 
 ## Selected facts to explore
 
 - **Mahanadi Coalfields solar installed capacity: 50 MW** — Commissioning year 2025, Balangir district.[^connect-solarprojects]
 - **Jindal Stainless floating solar installed capacity: 6.2 MW** — Commissioning year 2025, Jajpur district.[^connect-solarprojects]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md). Also part of [Nature and environment](../subjects/nature.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

@@ -4,9 +4,9 @@ title: "Utkala · Odisha product requirements"
 description: "Detailed versioned product baseline with scope, audiences, stable requirements, acceptance and historical references."
 tags: ["utkala", "product", "requirements", "history"]
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-09-27T16:31:36-07:00"}
-instruction_basis: "User requested a detailed PRD for historical reference; product decisions consolidated from the Odisha Tourism conversation through 27 September 2026."
-document_version: "0.1.0"
+generated: {"by": "codex/gpt-6", "at": "2026-09-30T19:25:24-07:00"}
+instruction_basis: "User direction, 30 September 2026: expand pages with facts, relate and classify content beyond tourism. Prior architecture retained; exact navigation and acceptance details are implementation proposals."
+document_version: "0.2.0"
 approval_status: "draft_not_formally_approved"
 implementation_status: "not_deployed"
 sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": "../technology/technical-stack.md"}, {"id": "decisions", "title": "Architecture decision register", "resource": "../technology/decisions.md"}, {"id": "editorial", "title": "Community encyclopedia direction", "resource": "../about/community-encyclopedia.md"}]
@@ -18,9 +18,9 @@ sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": 
 
 | Field | Value |
 | --- | --- |
-| PRD version | 0.1.0 |
-| Recorded | 27 September 2026 |
-| State | Draft consolidated baseline; not a claim of formal approval or implemented functionality |
+| PRD version | 0.2.0 |
+| Recorded | 30 September 2026 |
+| State | Draft scope expansion; not a claim of formal approval or implemented functionality |
 | Product owner | Ahimanikya, as project owner; additional editorial and programme roles unassigned |
 | Working identity | Utkala · Odisha — a community encyclopedia |
 | Canonical record | This OKF concept, `product/prd` |
@@ -34,7 +34,7 @@ This PRD describes what the product must achieve and how completion will be eval
 
 Knowledge about Odisha is spread across official sources, research, local accounts, photographs and diaspora memories. Our own work already spans a KB, brand concepts, a photo archive and multiple planning conversations. The product must turn this into a coherent, citable and maintainable public resource while allowing people without technical skills to improve it.
 
-Help people **discover Odisha, understand it with context, and contribute to a trustworthy shared record**. Tourism, food, craft and stories provide the opening; history, people, environment, development and global connections form the wider encyclopedia. Pride and modern opportunity should grow from supported knowledge, with difficult history, uncertainty and corrections retained.
+Help people **discover Odisha, understand it with context, and contribute to a trustworthy shared record**. Places, history, people, living arts, food and farming, nature, everyday life, the economy and governance each offer a way into the encyclopedia. Tourism is a featured collection connecting several of these subjects. Pride and modern opportunity should grow from supported knowledge, with difficult history, uncertainty and corrections retained.
 
 The desired progression is curiosity → understanding → useful action → contribution. Readers may enter at any point. We do not need to prove a visitor journey to serve a student seeking a source.
 
@@ -54,15 +54,15 @@ Launch does not include a booking marketplace, payment processing, a breaking-ne
 | Students and teachers | Learn and cite | Clear summaries, source panels, definitions and reuse terms | Supported at launch |
 | Researchers, journalists and public-sector readers | Inspect evidence and compare change | Dated sources, revision identity and approved data | Supported at launch |
 | Makers, artists and community organisations | Explain work and correct descriptions | Consented profiles, process accounts and attribution | Contribution audience |
-| Development researchers and entrepreneurs | Investigate skills, sectors and opportunities | Comparable indicators and qualified project-stage records | Later depth |
+| Development researchers and entrepreneurs | Investigate skills, sectors and opportunities | Comparable indicators and qualified project-stage records | Supported at launch; later depth |
 
 These are design hypotheses based on project direction, not completed audience research. Participation should not depend on academic credentials, polished English or knowledge of Git. Launch language support must describe what has actually been reviewed; it does not promise a complete bilingual encyclopedia.
 
 ## 5. Information architecture and coverage
 
-Top-level navigation: **Explore · Taste · Woven & Made · Stories · Odisha in Numbers · Contribute**. Keep search, language status, About, sources/editorial standards, credits, corrections, reuse terms and contact readily available. Global Connections sits beneath Explore as it becomes ready. Programme information belongs under Contribute, with truthful availability and relationship status.
+Proposed top-level navigation: **Subjects · Places · Odisha in Numbers · Stories · Contribute**. Food, handlooms and tourism remain featured collections within the shared subject structure. Keep search, language status, About, sources/editorial standards, credits, corrections, reuse terms and contact readily available. Global Connections can be reached through history, people and trade as it becomes ready. Programme information belongs under Contribute, with truthful availability and relationship status.
 
-Nine subject families underpin these gateways: places/geography; history/heritage; people/languages/communities; arts/living traditions; food/farming; nature/environment; everyday life/human development; economy/livelihoods/infrastructure; governance/public life. These are coverage categories, not nine mandatory menu items or an obligation to publish empty sections.
+The [subject directory](../subjects/index.md) and [classification method](../methods/content-classification.md) define nine subject families underpinning these gateways: places/geography; history/heritage; people/languages/communities; arts/living traditions; food/farming; nature/environment; everyday life/human development; economy/livelihoods/infrastructure; governance/public life. These are coverage categories, not nine mandatory menu items or an obligation to publish empty sections.
 
 Formats include encyclopedia entries, place profiles, person/practitioner profiles, stories/photo essays, oral histories, data explainers, recipes/process accounts, timelines, collections/journeys and individual archive items. Each should allow a quick understanding, deeper exploration and evidence inspection. Qualifications that change a claim remain beside the claim.
 
@@ -70,7 +70,7 @@ Geography, period, language, subject and evidence state are shared dimensions. C
 
 ## 6. Launch scope and first complete slice
 
-Launch with Bhubaneswar's Painted Streets as the end-to-end pilot, complemented by selected complete food, craft/place and data entries. A fixed page count is not the release gate. The pilot must prove reading, search, sources/credits, a guest contribution, editorial review, a Git change and publication.
+Launch with Bhubaneswar's Painted Streets as the end-to-end pilot, complemented by selected complete food and craft/place entries, plus proposed health/education and economy explainers with sources and contextual links. Those two non-tourism reading cases demonstrate breadth; they do not claim statewide coverage. A fixed page count is not the release gate. The pilot must prove reading, search, sources/credits, a guest contribution, editorial review, a Git change and publication.
 
 The photo story preserves what the dated collection shows without inventing mural artists, exact locations or authoritative artwork titles. Invite evidence-backed identifications, clearly labelled memories and permitted photos. Existing assets and research are inputs; no blanket public-release permission is inferred from their presence in a local folder.
 
@@ -98,13 +98,14 @@ IDs remain stable across PRD versions. `launch` means required for the agreed in
 
 #### DISC-001 — Navigation and orientation
 
-**Phase:** launch · **Basis:** recorded product direction · **Responsible role:** Product/editorial
+**Phase:** launch · **Basis:** implementation proposal · **Responsible role:** Product/editorial
 
-Offer Explore, Taste, Woven & Made, Stories, Odisha in Numbers and Contribute as shared entrances to one collection.
+Offer a broad subject entrance alongside Places, Odisha in Numbers, Stories and Contribute; retain food, handlooms and tourism as featured collections.
 
 Acceptance:
 
-- A visitor can reach search, a populated collection, editorial standards and Contribute from the main navigation.
+- A reader can reach a populated health or education page and an economy page through subjects without entering a tourism journey.
+- Search, editorial standards and contribution routes remain accessible.
 - Empty future collections are not presented as working destinations.
 
 #### DISC-002 — Useful site search
@@ -132,26 +133,41 @@ Acceptance:
 
 #### DISC-004 — Connected reading
 
-**Phase:** launch · **Basis:** recorded product direction · **Responsible role:** Editorial
+**Phase:** launch · **Basis:** implementation proposal · **Responsible role:** Editorial
 
-Link stories, places, photos and related entries using stable concept IDs.
+Connect entries across subjects using stable concept IDs and explain why each related page is useful.
 
 Acceptance:
 
 - The Painted Streets story links to its place and individual photos.
-- The same entry is reused across gateways without conflicting copies.
+- A fisheries page can lead to food, exports and coastal nature with the relationship explained; association is not presented as a proved supply chain or cause.
+- A health or education explainer connects to another relevant subject without implying causal evidence.
+- The same canonical entry is reused across gateways without conflicting copies.
+
+#### DISC-005 — Subject classification and dimensions
+
+**Phase:** launch · **Basis:** implementation proposal · **Responsible role:** Editorial/engineering
+
+Classify canonical knowledge with one primary subject and optional secondary subjects, keeping format, geography, period and evidence state as separate dimensions.
+
+Acceptance:
+
+- All public subject IDs resolve to stable subject hubs; a record can appear in more than one collection without duplication.
+- All atlas topics map to a subject, and related-reading links resolve with an explanation.
+- Classification never grants publication approval or changes a source-check date.
 
 ### Content
 
 #### CONT-001 — Entry structure
 
-**Phase:** launch · **Basis:** recorded product direction · **Responsible role:** Editorial
+**Phase:** launch · **Basis:** implementation proposal · **Responsible role:** Editorial
 
-Provide an accessible summary, context, meaningful dates, sources, related knowledge and a correction action.
+Provide an accessible summary, factual context, subject classification, meaningful dates, sources, explained related knowledge and a correction action.
 
 Acceptance:
 
 - Each pilot entry has the required public fields and no unresolved placeholder presented as a fact.
+- Non-tourism pilot pages explain what their facts measure and what they cannot establish.
 
 #### CONT-002 — Evidence and uncertainty
 
@@ -190,13 +206,14 @@ Acceptance:
 
 #### CONT-005 — Readable data stories
 
-**Phase:** launch · **Basis:** recorded product direction · **Responsible role:** Research/editorial
+**Phase:** launch · **Basis:** implementation proposal · **Responsible role:** Research/editorial
 
-Explain public numbers with the measure, unit, period, geography, comparison basis and source.
+Explain public numbers across the encyclopedia with the measure, unit, period, geography, comparison basis and source.
 
 Acceptance:
 
 - A pilot data story makes one main takeaway readable and exposes its evidence.
+- Health/education and economy reading cases provide concise interpretation and contextual links, with detailed tables available as evidence.
 - Downloadable values preserve estimate/provisional labels and do not mix incomparable periods.
 
 #### CONT-006 — Content freshness
@@ -663,3 +680,7 @@ The [version register](../references/data/prd-version-register.json) stores snap
 This is a synthesis of the user's conversation and the existing local planning/OKF material, not new independent research or a newly verified pricing quote. The product/audience, information architecture, atlas, internship and analytics proposals were consulted from the Odisha Tourism planning workspace. Current launch decisions supersede earlier alternatives.
 
 Durable reference points: [community encyclopedia](../about/community-encyclopedia.md), [tourism-first audience strategy](../about/tourism-first-strategy.md), [research method](../about/research-method.md), [website readiness](../about/website-readiness.md), [statistics storytelling](../about/statistics-storytelling.md), [architecture decisions](../technology/decisions.md) and [growth roadmap](../technology/growth-roadmap.md).
+
+## Repository integration · 1 October 2026
+
+This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.

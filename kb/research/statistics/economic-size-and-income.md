@@ -6,19 +6,30 @@ tags: ["statistics", "economic-size-and-income"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "macro-oes-appendix2026", "title": "Odisha Economic Survey 2025–26 — statistical appendix, current-price aggregates", "resource": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"}]
+subjects: ["economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Economic Size And Income
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for economic size and income. These are research records, not a composite performance ranking.
+How large is the economy, and how does output per person change? Read nominal size, inflation-adjusted growth and per-capita averages separately; an average does not describe the distribution of income.
 
 ## Selected facts to explore
 
 - **GSDP at current prices: 498,611.26 INR crore** — 2018-19, Odisha.[^macro-oes-appendix2026]
 - **Per-capita net state domestic product at current prices: 98,005 INR per person** — 2018-19, Odisha.[^macro-oes-appendix2026]
 - **GSDP at current prices: 537,501.71 INR crore** — 2019-20, Odisha.[^macro-oes-appendix2026]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

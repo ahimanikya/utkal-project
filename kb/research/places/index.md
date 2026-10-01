@@ -27,3 +27,7 @@ Destinations, landscapes and heritage sites.
 - [Kala Bhoomi — Odisha Crafts Museum](kala-bhoomi.md)
 - [Odisha State Tribal Museum](odisha-state-tribal-museum.md)
 - [Odisha State Maritime Museum](odisha-state-maritime-museum.md)
+
+- [Sambalpur–Bargarh: regional profile](sambalpur-bargarh.md)
+
+- [Odisha Tourism reference](../sources/odisha-tourism-portal.md) — official portal and saved research uses.

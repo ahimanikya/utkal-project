@@ -6,19 +6,30 @@ tags: ["statistics", "banking-and-credit"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "macro-slbc-jun2026", "title": "184th SLBC Odisha meeting agenda — June 2026 quarter", "resource": "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf"}]
+subjects: ["economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Banking And Credit
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for banking and credit. These are research records, not a composite performance ranking.
+How much money is held in banks and how much credit remains outstanding? Compare dated balances before asking whether lending reaches particular sectors or households.
 
 ## Selected facts to explore
 
 - **Bank deposits: 599,382.25 INR crore** — 2025-06-30, Odisha.[^macro-slbc-jun2026]
 - **Bank deposits: 673,389.67 INR crore** — 2026-06-30, Odisha.[^macro-slbc-jun2026]
 - **Bank advances utilised in state: 449,823.11 INR crore** — 2025-06-30, Odisha.[^macro-slbc-jun2026]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Women And Inclusion](women-and-inclusion.md) — Bank balances and women’s use of accounts answer different questions about finance.
+- [Investment in Odisha — domestic and foreign capital](../journeys/investment.md) — Credit balances cannot be added to announced or realised investment.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

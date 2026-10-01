@@ -6,19 +6,32 @@ tags: ["statistics", "agriculture"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "nature-agri", "title": "Activity Report 2024-25", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-03/Activity%20Report%202024-25%20%28English%29.pdf"}, {"id": "nature-survey-summary", "title": "Odisha Economic Survey 2025-26: Highlights and Executive Summary", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}]
+subjects: ["food", "economy", "nature"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Agriculture
 
-## What this section contains
+The saved Economic Survey summary reports rice production of 118.6 lakh metric tonnes and pulses production of 16.6 lakh metric tonnes in 2024–25. These provide a starting point for the farming story; named food varieties, farm incomes and local diets require their own evidence.[^nature-survey-summary]
 
-Source-linked measures for agriculture. These are research records, not a composite performance ranking.
+## What these measures explain
+
+What is grown, how much is produced and what is procured? Cultivated area, output, procurement and procurement targets belong to different stages of the farm economy.
 
 ## Selected facts to explore
 
 - **Ragi procurement: 4.5 lakh quintals** — KMS 2023-24, Odisha.[^nature-agri]
 - **FPO procurement agencies empanelled: 130 FPOs** — 2024-25, Odisha.[^nature-agri]
 - **Ragi procurement target stated during year: 8 lakh quintals** — KMS 2024-25 target in activity report, Odisha.[^nature-agri]
+
+## Read this in context
+
+Subject: [Food and farming](../subjects/food.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md), [Nature and environment](../subjects/nature.md).
+
+- [Koraput Kalajeera Rice](../food/koraput-kalajeera-rice.md) — Explore a named rice tradition; statewide production is not that variety’s output.
+- [Water Irrigation](water-irrigation.md) — Read irrigation scope before explaining production change.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

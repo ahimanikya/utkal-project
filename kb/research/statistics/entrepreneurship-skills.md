@@ -6,18 +6,29 @@ tags: ["statistics", "entrepreneurship-skills"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "enterprise-skills", "title": "Support for Women Entrepreneurs, 17 December 2025", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2205172"}]
+subjects: ["economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Entrepreneurship Skills
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for entrepreneurship skills. These are research records, not a composite performance ranking.
+Who received training under the named programme? Training counts describe participation; completion, placement, retention and earnings require follow-up.
 
 ## Selected facts to explore
 
 - **SANKALP entrepreneurship participants trained: 6,059 participants** — 2022–23, 2023–24 and 2024–25 combined, Odisha.[^enterprise-skills]
 - **Women among SANKALP entrepreneurship participants trained: 4,399 participants** — 2022–23, 2023–24 and 2024–25 combined, Odisha.[^enterprise-skills]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

@@ -61,3 +61,13 @@ UTP-DEC-050 records continuation authority. [Five locally implemented improvemen
 ## 30 September 2026 UTC · Visitor planning and inner-page foundations
 
 UTP-DEC-051 records continuation and the Founder’s unresolved layout concern. [This batch](visitor-planning-batch.md) adds collection entry points and per-journey checklists within existing discovery/tour-book scope. It corrects specific layout issues and keeps broader refinement open. No change to the frozen PRD baseline, publication state or service cost.
+
+## 30 September 2026 — v0.2.0: broader subject coverage
+
+The user asked to expand pages with facts, relate and classify content, and clarified that everything is not around tourism. The encyclopedia now has nine subject hubs and contextual statistical pages. This user direction governs coverage; the exact menu, classification fields and acceptance details below remain implementation proposals.
+
+- Added DISC-005; changed DISC-001, DISC-004, CONT-001 and CONT-005. No IDs retired.
+- Previous: tourism, food and craft led the menu; related reading required links. New: subject navigation spans the whole encyclopedia; related links explain their purpose; non-tourism health/education and economy cases demonstrate breadth.
+- The Painted Streets pilot and existing technology decisions remain. There is no new cost, privacy or service dependency. Public website acceptance remains untested and all feature states remain not implemented.
+- Local KB organisation is completed separately from website implementation. Named editorial review and public selection remain outstanding.
+- [Narrative snapshot](versions/prd-0.2.0.md) and [requirements snapshot](../references/data/product-requirements-0.2.0.json); checksums in the [version register](../references/data/prd-version-register.json). No Git commit or deployment is claimed.

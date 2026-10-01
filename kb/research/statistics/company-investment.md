@@ -6,18 +6,29 @@ tags: ["statistics", "company-investment"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "enterprise-nalco2026", "title": "NALCO Production and Financial Highlights FY2025–26", "resource": "https://nalcoindia.com/company/our-growth-story/production-financial-highlights/"}]
+subjects: ["economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Company Investment
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for company investment. These are research records, not a composite performance ranking.
+What does a company report spending, and where? Company-wide capital expenditure needs a project/location breakdown before it can support an Odisha investment total.
 
 ## Selected facts to explore
 
 - **Company capital expenditure achievement: 1,397 INR crore** — 2024–25, NALCO company operations, Odisha-linked.[^enterprise-nalco2026]
 - **Company capital expenditure achievement: 2,068 INR crore** — 2025–26, NALCO company operations, Odisha-linked.[^enterprise-nalco2026]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

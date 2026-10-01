@@ -23,3 +23,8 @@ Banking geography is not household wealth, district GDP or project investment. R
 
 
 [^macro-slbc-jun2026]: [184th SLBC Odisha meeting agenda — June 2026 quarter](https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf)
+
+
+## Connected reading
+
+- [Koraput: landscape, makers and everyday enterprise](../../places/koraput.md) — Explore the district beyond its banking snapshot.

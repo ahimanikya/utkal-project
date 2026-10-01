@@ -6,19 +6,30 @@ tags: ["statistics", "water-irrigation"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "nature-survey-summary", "title": "Odisha Economic Survey 2025-26: Highlights and Executive Summary", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}, {"id": "nature-water", "title": "Annual Report 2024-25", "resource": "https://dowr.odisha.gov.in/sites/default/files/2026-01/WR_AR-24-25.pdf"}]
+subjects: ["nature", "food", "governance"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Water Irrigation
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for water irrigation. These are research records, not a composite performance ranking.
+What water-management potential is created or restored? Potential, ayacut and actual irrigation differ; overlapping programmes must not be summed without reconciliation.
 
 ## Selected facts to explore
 
 - **Lift irrigation projects revived during year: 634 projects** — 2024-25, Odisha.[^nature-water]
 - **Area under lift irrigation projects revived during year: 13,134 hectares** — 2024-25, Odisha.[^nature-water]
 - **NCSUY Phase II lost ayacut revived: 14,354 hectares** — 2024-25, Odisha.[^nature-water]
+
+## Read this in context
+
+Subject: [Nature and environment](../subjects/nature.md). Also part of [Food and farming](../subjects/food.md), [Governance and public life](../subjects/governance.md).
+
+- [Forests](forests.md) — Read another dimension of this subject; the measures remain separate.
+- [Biodiversity](biodiversity.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

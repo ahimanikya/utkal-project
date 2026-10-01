@@ -15,3 +15,7 @@ Publisher: International Institute for Population Sciences. Checked 2026-09-27.
 Official search-index release notice reports district compendiums released 20–21 August 2026. Direct page fetch timed out. Discovery only; Odisha district values not extracted or verified.
 
 [^weekly-nfhs-district-release]: [NFHS-6 district factsheet release notice](https://www.nfhsiips.in/nfhsuser/release-details.php)
+
+## Discovery retry on 30 September 2026
+
+Release notice remains discoverable through official search index; direct notice and homepage fetches both failed. District estimates not retrieved. The earlier indexed-only capture is retained.

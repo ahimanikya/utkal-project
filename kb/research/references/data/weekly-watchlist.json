@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "created_on": "2026-09-27",
   "check_frequency": "weekly",
   "source_verification": "Seed URLs reused from the saved catalogue; no fresh data fetch is claimed by setup.",
@@ -23,7 +23,14 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "conflicted"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-tourism-releases"
+      ],
+      "discovery_urls": [
+        "https://dot.odisha.gov.in/en/publications/tourism-download"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "gsdp",
@@ -46,7 +53,16 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unchanged"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-des-tables"
+      ],
+      "discovery_urls": [
+        "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+        "https://des.odisha.gov.in/en/pages/data-tables"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "sector-growth",
@@ -66,7 +82,16 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unavailable"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-des-tables"
+      ],
+      "discovery_urls": [
+        "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+        "https://des.odisha.gov.in/en/pages/data-tables"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "exports",
@@ -91,7 +116,16 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "changed"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "port-cargo",
@@ -113,7 +147,14 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unchanged"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-paradip-traffic"
+      ],
+      "discovery_urls": [
+        "https://paradipport.gov.in/traffic/"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "investment",
@@ -136,7 +177,18 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unchanged"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-investodisha-discovery",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+        "https://www.investodisha.gov.in/",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "smart-cities",
@@ -161,7 +213,16 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "changed"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-urban-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://urban.odisha.gov.in/en/publication/activity-report",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "rare-earths",
@@ -186,7 +247,16 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "changed"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-irel-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://www.irel.co.in/annual-reports",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "semiconductors",
@@ -213,7 +283,14 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unchanged"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "banking-and-enterprise-finance",
@@ -235,7 +312,14 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unavailable"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-slbc-releases"
+      ],
+      "discovery_urls": [
+        "https://slbcorissa.com/"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "public-finances",
@@ -259,7 +343,14 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unavailable"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-cag-releases"
+      ],
+      "discovery_urls": [
+        "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "people-and-learning",
@@ -289,7 +380,20 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "changed"
-      }
+      },
+      "discovery_source_ids": [
+        "weekly-nfhs-district-release",
+        "pipeline-udise-publications",
+        "pipeline-mospi-reports",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://www.nfhsiips.in/nfhsuser/release-details.php",
+        "https://udiseplus.gov.in/#/Publication",
+        "https://www.mospi.gov.in/download-reports?main_=",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "land-and-livelihoods",
@@ -319,7 +423,18 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "changed"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-fsi-releases",
+        "pipeline-economic-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://fsi.nic.in/reports-publications",
+        "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "services-and-environment",
@@ -347,7 +462,16 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unavailable"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-urban-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://urban.odisha.gov.in/en/publication/activity-report",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "mobility-and-digital-access",
@@ -375,7 +499,18 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "changed"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-aai-traffic",
+        "pipeline-trai-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://aai.aero/en/business-opportunities/aai-traffic-news",
+        "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "innovation-and-startups",
@@ -399,36 +534,73 @@
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "unavailable"
-      }
+      },
+      "discovery_source_ids": [
+        "pipeline-ipindia-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_urls": [
+        "https://www.ipindia.gov.in/pages/home/annual-report",
+        "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     },
     {
       "id": "visitor-economy-and-crafts",
-      "metrics": "Accommodation, tourism assets, craft livelihoods and sports facilities",
+      "metrics": "Accommodation, tourism assets, craft livelihoods and sports facilities; homestay policy, registrations, active units, incentives and room-night demand",
       "source_ids": [
         "connect-tourism2024",
         "connect-centres2026",
         "connect-handloom2019",
-        "enterprise-hockeyindia2023"
+        "enterprise-hockeyindia2023",
+        "homestay-guideline-index",
+        "homestay-gazette-aug2026",
+        "homestay-go-portal",
+        "homestay-nidhi2025"
       ],
       "seed_urls": [
         "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf",
         "https://dot.odisha.gov.in/sites/default/files/2026-04/Identified%20Tourist%20Centre%20in%20Odisha%20(382).pdf",
         "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1596372",
-        "https://www.hockeyindia.org/news/year-in-review-hockey-india-revamps-domestic-circuit-hosts-multiple-international-events-across-different-cities-in-2023"
+        "https://www.hockeyindia.org/news/year-in-review-hockey-india-revamps-domestic-circuit-hosts-multiple-international-events-across-different-cities-in-2023",
+        "https://dot.odisha.gov.in/en/guidelines",
+        "https://egazette.odisha.gov.in/extraordinary_archival_dept/70/1",
+        "https://gohomestay.odisha.gov.in/",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155162&lang=2&reg=48"
       ],
       "targets": [
         "references/data/statistics-atlas.json",
         "statistics/index.md",
-        "statistics/coverage.md"
+        "statistics/coverage.md",
+        "statistics/homestays.md",
+        "economy/homestay-support.md",
+        "references/data/homestay-research.json"
       ],
-      "refresh_rule": "Annual, census or event-based. Historic inventories are not current operating availability; no inferred tourism spending or economic impact.",
+      "refresh_rule": "Annual, census or event-based. Historic inventories are not current operating availability; no inferred tourism spending or economic impact. For homestays, preserve targets versus active properties; fetch later amendments and full target tables, retain rooms/beds conflict, and use only comparable room-night series for demand. Failed/empty portals are unavailable, not zero or unchanged.",
       "discovery": "Check original publisher release listings first. Historical URLs are baselines. Rotate unresolved table-retrieval backlog across runs; do not label inaccessible sources unchanged.",
       "last_agent_check": {
         "at": "2026-09-27T09:11:23-07:00",
         "run_id": "2026-09-27T160140Z",
         "status": "conflicted"
-      }
+      },
+      "scope_expanded_on": "2026-09-30",
+      "discovery_source_ids": [
+        "pipeline-tourism-releases",
+        "pipeline-des-tables"
+      ],
+      "discovery_urls": [
+        "https://dot.odisha.gov.in/en/publications/tourism-download",
+        "https://des.odisha.gov.in/en/pages/data-tables"
+      ],
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
     }
   ],
-  "expanded_on": "2026-09-27"
+  "expanded_on": "2026-09-30",
+  "version_history": [
+    {
+      "version": "1.2",
+      "superseded_at": "2026-09-30T20:36:07-07:00",
+      "reason": "Add scoped publisher discovery routes without changing metrics, baseline URLs or prior weekly checks."
+    }
+  ]
 }

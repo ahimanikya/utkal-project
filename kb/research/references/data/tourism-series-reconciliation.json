@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "id": "tourism-foreign-visits-2024",
+  "task_id": "RES-004",
+  "checked_at": "2026-09-30T22:58:24-07:00",
+  "status": "unresolved",
+  "publication_readiness": "hold_conflict",
+  "geography": "Odisha",
+  "period": "2024",
+  "unit": "visits",
+  "price_basis": "not_applicable",
+  "observations": [
+    {
+      "atlas_id": "connect-tourism-foreign-2024",
+      "value": 53392,
+      "capture_status": "saved_state_evidence_not_refetched"
+    },
+    {
+      "atlas_id": "connect-foreign-conflict2024",
+      "value": 87854,
+      "capture_status": "saved_central_evidence_pdf_now_404"
+    },
+    {
+      "atlas_id": "tourism-pib-ftv-2024-20251208",
+      "value": 87854,
+      "capture_status": "fresh_primary_html_table"
+    }
+  ],
+  "same_underlying_publisher_warning": "PIB and Parliament releases may reuse the same administrative inputs; corroboration is not an independent census.",
+  "findings": [
+    "The accessible December 2025 release supports the saved central 2024 value.",
+    "Its 2023 Odisha value is 45,173, matching the saved state bulletin baseline.",
+    "Annexure I credits State/UT Tourism Departments. The source alone does not explain the 2024 discrepancy.",
+    "State visits differ from international arrivals; that distinction does not itself resolve two foreign-visit counts.",
+    "No revision notice, counting-method bridge or basis for choosing the larger number was established."
+  ],
+  "attempts": [
+    {
+      "url": "https://tourism.gov.in/sites/default/files/2026-02/SQ.129%20for%20%2009.02.2026.pdf",
+      "method": "web open",
+      "status": "unavailable",
+      "detail": "404 Not Found; official search index still exposes annexure extract."
+    },
+    {
+      "url": "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf",
+      "method": "web open",
+      "status": "unavailable",
+      "detail": "Timeout fetching; indexed table fragments are not full report recovery."
+    },
+    {
+      "url": "https://tourism.gov.in/sites/default/files/2025-12/usq.2401%20for%2015.12.2025.pdf",
+      "method": "web open",
+      "status": "unavailable",
+      "detail": "404 Not Found; search-index lead not imported."
+    },
+    {
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200323&lang=1&reg=6",
+      "method": "web HTML",
+      "status": "available",
+      "locator": "HTML Annexure I, Odisha row, 2024 column; table source: State/UT Tourism Departments"
+    }
+  ],
+  "retry_after": "2026-10-08T05:23:42Z",
+  "next_action": "Retrieve state bulletin methods and corrections, state annual report and Ministry table footnotes through official alternatives. Keep both counts and affected totals on hold; RES-024 audit revisits the unresolved record.",
+  "human_reviewed": false
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "updated_on": "2026-09-30",
+  "observation_ids": [
+    "homestay-budget2025",
+    "homestay-target-units",
+    "homestay-capacity-rooms",
+    "homestay-capacity-beds",
+    "homestay-capital-percent",
+    "homestay-room-subsidy",
+    "homestay-unit-subsidy",
+    "homestay-room-cap",
+    "homestay-bed-cap",
+    "homestay-tranche-cod",
+    "homestay-tranche-year1",
+    "homestay-tranche-year2",
+    "homestay-tranche-year3",
+    "homestay-booking-threshold-1",
+    "homestay-booking-threshold-2",
+    "homestay-booking-threshold-3",
+    "homestay-nidhi-rural2025",
+    "homestay-cycle1-total",
+    "homestay-cycle1-gps",
+    "homestay-cycle1-districts",
+    "homestay-cycle1-clusters",
+    "homestay-cycle1-koraput",
+    "homestay-cycle1-kandhamal",
+    "homestay-listings2017",
+    "homestay-listings2025",
+    "homestay-airbnb2025",
+    "homestay-pbd-properties2025",
+    "homestay-pbd-rooms2025"
+  ],
+  "master_values": "statistics-atlas.json",
+  "source_ids": [
+    "homestay-scheme2025",
+    "homestay-guideline-index",
+    "homestay-gazette-aug2026",
+    "homestay-nidhi2025",
+    "homestay-go-portal",
+    "homestay-go-app",
+    "homestay-launch-mar2026",
+    "homestay-cycle1-may2026",
+    "homestay-market-jan2025",
+    "homestay-amendment-lead"
+  ],
+  "growth_series_established": false,
+  "current_rules_consolidated": false,
+  "measure_stages": [
+    "budget_earmark",
+    "target",
+    "policy_ceiling",
+    "policy_rule",
+    "registry_stock",
+    "market_listing",
+    "event_inventory",
+    "reported_policy_coverage"
+  ],
+  "timeline": [
+    {
+      "date": "2025-11-24",
+      "event": "2025 scheme notified; explicitly supersedes 2021 scheme",
+      "source_id": "homestay-scheme2025",
+      "status": "primary_text_checked"
+    },
+    {
+      "date": "2026-03-05",
+      "event": "Go Homestay portal launch reported",
+      "source_id": "homestay-launch-mar2026",
+      "status": "secondary_event_report"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Amendment reported; current official index lists amendment",
+      "source_id": "homestay-guideline-index",
+      "status": "document_listed_text_unavailable_date_secondary"
+    },
+    {
+      "date": "2026-05-19",
+      "event": "Cycle-1 targets reported",
+      "source_id": "homestay-cycle1-may2026",
+      "status": "secondary_target_report"
+    },
+    {
+      "date": "2026-08-05",
+      "event": "Homestay scheme Gazette entry",
+      "source_id": "homestay-gazette-aug2026",
+      "status": "primary_metadata_only"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "capacity-unit",
+      "status": "hold_conflict",
+      "observation_ids": [
+        "homestay-capacity-rooms",
+        "homestay-capacity-beds"
+      ]
+    },
+    {
+      "id": "later-amendments",
+      "status": "primary_text_needed",
+      "note": "Secondary lead describes Block-level residency and Rayagada GP correction. Do not publish as settled applicant guidance without Gazette text."
+    },
+    {
+      "id": "current-demand",
+      "status": "no_comparable_series_found",
+      "note": "Unknown is not zero; both registrations and listings have incomplete coverage."
+    }
+  ],
+  "outcome_metrics": [
+    {
+      "metric": "applications_received",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Dated Go Homestay or departmental MIS totals"
+    },
+    {
+      "metric": "approved_units",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Approval register with stable IDs and dates"
+    },
+    {
+      "metric": "active_units",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Commercial operation plus latest annual compliance status"
+    },
+    {
+      "metric": "rooms_available",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Room inventory and operating days by registered property"
+    },
+    {
+      "metric": "room_nights_sold",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Aggregated booking records excluding cancellations"
+    },
+    {
+      "metric": "occupancy",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Room-nights sold divided by room-nights available for the same population and period"
+    },
+    {
+      "metric": "incentives_disbursed",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Dated disbursement records, not allocations"
+    },
+    {
+      "metric": "host_income",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Net-income or wage evidence with sample, period and costs"
+    },
+    {
+      "metric": "women_and_community_participation",
+      "value": null,
+      "status": "not_established",
+      "needed_evidence": "Consented aggregate beneficiary reporting with definitions"
+    }
+  ],
+  "fetch_failures": [
+    {
+      "url": "https://dot.odisha.gov.in/sites/default/files/2026-05/homestay.pdf",
+      "status": "timeout_or_fetch_error"
+    },
+    {
+      "url": "https://gohomestay.odisha.gov.in/",
+      "status": "empty_text_extract_no_totals"
+    },
+    {
+      "url": "https://dot.odisha.gov.in/en/guidelines",
+      "status": "web_index_read_linked_documents_failed_local_download_timed_out"
+    }
+  ],
+  "scope": "No personal guest or applicant data collected. Public aggregates only; no operational property recommendations."
+}

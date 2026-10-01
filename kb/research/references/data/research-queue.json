@@ -1,0 +1,753 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-30T20:24:50-07:00",
+  "updated_at": "2026-10-01T02:37:51-07:00",
+  "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
+  "schedule": {
+    "automation_id": "utkala-continuing-research",
+    "status": "ACTIVE",
+    "cadence": "Every six hours",
+    "kind": "heartbeat",
+    "weekly_refresh_separate": true
+  },
+  "selection": "Lowest-order eligible pending task; resume in_progress first. Blocked tasks retain retry date and do not stop independent work.",
+  "tasks": [
+    {
+      "id": "RES-001",
+      "order": 1,
+      "title": "Core publication discovery",
+      "done_when": "Map Tourism, Planning and Convergence, DES and SLBC release entrances; test one linked download each and preserve successes and failures.",
+      "target": "methods/source-reliability.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-09-30T20:24:50-07:00",
+      "next_step": "Expand publisher discovery to remaining tracks.",
+      "evidence_outputs": [
+        "methods/source-reliability.md",
+        "references/data/source-reliability.json"
+      ],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-002",
+      "order": 2,
+      "title": "Remaining monitoring sources",
+      "done_when": "For the remaining weekly tracks, identify original publisher release pages, extraction routes and revision signals; leave unsupported release dates unknown.",
+      "target": "references/data/source-reliability.json",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-09-30T20:36:07-07:00",
+      "next_step": "RES-003: recover and inspect priority source tables; source discovery is complete only at initial track-route level.",
+      "evidence_outputs": [
+        "methods/source-reliability.md",
+        "references/data/source-reliability.json",
+        "references/data/weekly-watchlist.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01T033054Z",
+          "started_at": "2026-09-30T20:31:35-07:00",
+          "scope": "Original publisher discovery for remaining monitoring tracks",
+          "completed_at": "2026-09-30T20:36:07-07:00",
+          "outcome": "initial_discovery_inventory_completed",
+          "new_source_records": 13,
+          "new_statistical_observations": 0
+        }
+      ],
+      "completion_scope": "Initial publisher routes, extraction plans and revision signals for remaining groups, including explicit failed/partial routes. This is not a claim of verified statistical tables or complete submeasure coverage."
+    },
+    {
+      "id": "RES-003",
+      "order": 3,
+      "title": "Recover priority source tables",
+      "done_when": "Retrieve tourism annual report, full economic survey and DES district tables through official alternatives; record page/table locations or bounded failed attempts.",
+      "target": "statistics/coverage.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-09-30T22:58:24-07:00",
+      "next_step": "Advance to RES-004; unresolved primary downloads remain in source-recovery.json for retry and RES-024 audit.",
+      "evidence_outputs": [
+        "references/data/source-recovery.json",
+        "methods/source-reliability.md",
+        "statistics/coverage.md"
+      ],
+      "retry_after": "2026-10-08T05:23:42Z",
+      "blocker": "Original document contents not recovered: timeout, size and format limits.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01T052342Z",
+          "started_at": "2026-09-30T22:50:47-07:00",
+          "scope": "Recover priority PDFs and table locators through direct downloads and official alternatives.",
+          "completed_at": "2026-09-30T22:58:24-07:00",
+          "outcome": "bounded_failed_attempts_documented",
+          "new_statistical_observations": 0
+        }
+      ],
+      "completion_scope": "The defined bounded-failed-attempt alternative is complete; no priority report tables were recovered."
+    },
+    {
+      "id": "RES-004",
+      "order": 4,
+      "title": "Tourism series reconciliation",
+      "done_when": "Resolve or document the 2024 foreign-visit discrepancy using state and central definitions and revisions; retain both until resolved.",
+      "target": "economy/comparison-09-tourism.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-09-30T22:58:24-07:00",
+      "next_step": "Proceed to RES-005. Revisit unresolved conflict after retry date through RES-024 coverage audit.",
+      "evidence_outputs": [
+        "references/data/tourism-series-reconciliation.json",
+        "statistics/tourism.md",
+        "economy/comparison-09-tourism.md",
+        "references/data/statistics-atlas.json"
+      ],
+      "retry_after": "2026-10-08T05:23:42Z",
+      "blocker": "State/central 2024 discrepancy unresolved; state methods and revision bridge unavailable.",
+      "completion_scope": "Documented conflict, fresh central corroboration and definition limits; no resolution or public headline approval.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01T052342Z",
+          "started_at": "2026-09-30T22:58:24-07:00",
+          "completed_at": "2026-09-30T22:58:24-07:00",
+          "outcome": "conflict_documented_not_resolved",
+          "new_statistical_observations": 1
+        }
+      ]
+    },
+    {
+      "id": "RES-005",
+      "order": 5,
+      "title": "Puri craft corridor places and access",
+      "done_when": "Verify canonical place identities, access rules and facilities for Puri, Raghurajpur and Pipili; retain unknowns and distinguish area membership from proximity.",
+      "target": "visitor-index/areas/puri-crafts.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-09-30T23:27:29-07:00",
+      "next_step": "RES-006: named guide/provider/food/stay research. Unresolved SJTA access and facility checks have retry dates in puri-craft-access.json; revisit during RES-024 audit.",
+      "evidence_outputs": [
+        "references/data/puri-craft-access.json",
+        "visitor-index/areas/puri-crafts.md",
+        "references/data/visitor-index.json",
+        "visitor-index/heritage-catalog.md",
+        "visitor-index/facility-catalog.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01T062318Z",
+          "started_at": "2026-09-30T23:23:59-07:00",
+          "scope": "Primary place identities, public entry guidance and facility evidence for Puri, Raghurajpur and Pipili.",
+          "completed_at": "2026-09-30T23:27:29-07:00",
+          "outcome": "source_scoped_place_access_matrix_saved",
+          "unknowns_retained": true
+        }
+      ],
+      "completion_scope": "Three canonical identities and publisher-listed access/facility evidence documented; required unknowns and conflicts retained. This is not live access or field verification."
+    },
+    {
+      "id": "RES-006",
+      "order": 6,
+      "title": "Puri guides food and stays",
+      "done_when": "Find named public professional guide and provider sources, food-serving venues and stays; record check dates, scope and operating uncertainty without contacting anyone.",
+      "target": "visitor-index/areas/puri-crafts.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T00:28:47-07:00",
+      "next_step": "RES-007: route and journey research using source-scoped leads; keep access conflicts and unconfirmed hosts visible. Revisit provider register gaps during RES-024 audit.",
+      "evidence_outputs": [
+        "visitor-index/puri-providers.md",
+        "references/data/puri-provider-research.json",
+        "facilities/nimantran-puri.md",
+        "facilities/panthanivas-puri.md",
+        "references/data/visitor-index.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01T072448Z",
+          "started_at": "2026-10-01T00:25:32-07:00",
+          "scope": "Named public guide/provider and food/stay sources for Puri; no outreach.",
+          "completed_at": "2026-10-01T00:28:47-07:00",
+          "outcome": "bounded_named_provider_research_saved"
+        }
+      ],
+      "completion_scope": "Named guide/operator sources, an Odia-food venue and a stay documented with capture limits, approval vintages and operating uncertainty; no endorsement or contact."
+    },
+    {
+      "id": "RES-007",
+      "order": 7,
+      "title": "Puri journey research outline",
+      "done_when": "Connect checked stops using sourced transport and travel legs; record missing host or local review before calling it a recommended itinerary.",
+      "target": "methods/trip-planning-content.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T01:31:49-07:00",
+      "next_step": "RES-008 homestay policy reconciliation. During RES-024 audit revisit route gaps after 8 October; recommendation awaits host consent, exact legs, access resolution and named local/editor review.",
+      "evidence_outputs": [
+        "visitor-index/puri-journey-outline.md",
+        "references/data/puri-journey-research.json",
+        "methods/trip-planning-content.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01T082549Z",
+          "started_at": "2026-10-01T01:26:34-07:00",
+          "scope": "Source road sequence, mode and travel legs for a Puri craft research outline; preserve access and local-review gaps.",
+          "completed_at": "2026-10-01T01:31:49-07:00",
+          "outcome": "source_scoped_journey_outline_saved"
+        }
+      ],
+      "completion_scope": "Source-attributed road sequence and three leg records connect checked craft stops; missing operating, host and local-review evidence explicitly retained. Research outline only, not recommendation."
+    },
+    {
+      "id": "RES-025",
+      "order": 8,
+      "title": "People and creations: first evidence batch",
+      "done_when": "Nine sourced person nuclei, seven attributed works, art/product research entrances and explicit market-evidence gaps saved.",
+      "target": "people/people-and-creations.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T02:25:47-07:00",
+      "next_step": "RES-026 literature and English editions; continue through revised queue automatically.",
+      "evidence_outputs": [
+        "people/people-and-creations.md",
+        "references/data/people-creations.json",
+        "references/data/creative-economy.json",
+        "statistics/textile-and-apparel-exports.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "completion_scope": "Selected first batch and continuing research scaffold, not complete encyclopedia coverage.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-people-creations",
+          "started_at": "2026-10-01T02:25:47-07:00",
+          "completed_at": "2026-10-01T02:25:47-07:00",
+          "scope": "User-requested people, works, arts and creative-economy seed",
+          "outcome": "first_batch_saved"
+        }
+      ]
+    },
+    {
+      "id": "RES-026",
+      "order": 9,
+      "title": "Odia literature and English reading catalogue",
+      "done_when": "Deepen at least eight writer/poet biographies spanning periods and genders; attach at least ten works with original language/date and verified English edition/translator/publisher identifiers or an explicit unsuccessful search.",
+      "target": "works/index.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T02:37:51-07:00",
+      "next_step": "Deepen at least three further writer/poet profiles, including earlier-period and male voices; verify original dates for the reading catalogue and resolve Paraja edition credits. Current batch deepens five profiles and adds five story records plus one anthology, but does not meet the full task criteria.",
+      "evidence_outputs": [
+        "works/spark-of-light.md",
+        "references/data/people-creations.json",
+        "works/index.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01T092949Z",
+          "at": "2026-10-01T02:37:51-07:00",
+          "outcome": "useful_checkpoint",
+          "biographies_deepened_this_attempt": 5,
+          "works_added": 6,
+          "completion_criteria_met": false,
+          "remaining": "Three further biographies; original work chronology and English-edition completeness across at least ten works.",
+          "failed_source_retry_after": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "RES-027",
+      "order": 10,
+      "title": "Music and performing-arts creators",
+      "done_when": "Research six musicians, dancers or theatre practitioners and twelve credited works/performances; distinguish composer, lyricist, singer, choreographer and performer; record legal listening/viewing sources.",
+      "target": "people/people-and-creations.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Research six musicians, dancers or theatre practitioners and twelve credited works/performances; distinguish composer, lyricist, singer, choreographer and performer; record legal listening/viewing sources.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-028",
+      "order": 11,
+      "title": "Odisha sporting achievements",
+      "done_when": "Research eight athletes across at least four sports including women and para sport; verify Odisha connection, official results, event/year and record vintage; retain changes and relevant disqualifications.",
+      "target": "people/people-and-creations.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Research eight athletes across at least four sports including women and para sport; verify Odisha connection, official results, event/year and record vintage; retain changes and relevant disqualifications.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-029",
+      "order": 12,
+      "title": "Scientists and documented contributions",
+      "done_when": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
+      "target": "people/people-and-creations.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-008",
+      "order": 13,
+      "title": "Homestay policy reconciliation",
+      "done_when": "Retrieve amendments and Cycle-1 tables; resolve or hold rooms versus beds and geographic scope conflicts.",
+      "target": "statistics/homestays.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Retrieve amendments and Cycle-1 tables; resolve or hold rooms versus beds and geographic scope conflicts.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-009",
+      "order": 14,
+      "title": "Homestay operating outcomes",
+      "done_when": "Seek active properties, room nights, occupancy, disbursements and host income with denominators; do not substitute registrations or targets.",
+      "target": "economy/homestay-support.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Seek active properties, room nights, occupancy, disbursements and host income with denominators; do not substitute registrations or targets.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-010",
+      "order": 15,
+      "title": "Ecotourism and community livelihoods",
+      "done_when": "Seek primary Debrigarh and comparable programme employment and revenue records; separate workers, families, participation and net income.",
+      "target": "about/research-gaps.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Seek primary Debrigarh and comparable programme employment and revenue records; separate workers, families, participation and net income.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-011",
+      "order": 16,
+      "title": "Food names recipes and variations",
+      "done_when": "Deepen six pitha, four everyday dishes and four place-linked sweets with attributed preparation and variation sources; leave Odia/local review pending.",
+      "target": "food/index.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Deepen six pitha, four everyday dishes and four place-linked sweets with attributed preparation and variation sources; leave Odia/local review pending.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-031",
+      "order": 17,
+      "title": "Rasagola and sweets economics",
+      "done_when": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
+      "target": "economy/rasagola-and-sweets.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-012",
+      "order": 18,
+      "title": "Handloom techniques makers and sales",
+      "done_when": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
+      "target": "handlooms/index.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-030",
+      "order": 19,
+      "title": "Garments and export disaggregation",
+      "done_when": "Retrieve segment-wise parliamentary textile table; map at least eight garment/product forms to verified Odisha manufacture where supported, reconcile scope with broad exports and add dated destinations/volumes or precise gaps. Reuse RES-012 tradition depth.",
+      "target": "handlooms/garments-and-markets.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Retrieve segment-wise parliamentary textile table; map at least eight garment/product forms to verified Odisha manufacture where supported, reconcile scope with broad exports and add dated destinations/volumes or precise gaps. Reuse RES-012 tradition depth.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-032",
+      "order": 20,
+      "title": "Sand art and other material arts",
+      "done_when": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
+      "target": "culture/index.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-013",
+      "order": 21,
+      "title": "District coverage matrix",
+      "done_when": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
+      "target": "statistics/coverage.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-014",
+      "order": 22,
+      "title": "Western and southern coverage",
+      "done_when": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
+      "target": "collections/index.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-015",
+      "order": 23,
+      "title": "GSDP and sector time series",
+      "done_when": "Extract consistent annual GSDP/GSVA series for matched five/ten-year intervals with price bases and estimate vintages; retain adverse results.",
+      "target": "economy/gdp-story.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Extract consistent annual GSDP/GSVA series for matched five/ten-year intervals with price bases and estimate vintages; retain adverse results.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-016",
+      "order": 24,
+      "title": "Investment implementation evidence",
+      "done_when": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
+      "target": "journeys/investment.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-017",
+      "order": 25,
+      "title": "Trade logistics and production",
+      "done_when": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
+      "target": "statistics/coverage.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-018",
+      "order": 26,
+      "title": "Health education and work outcomes",
+      "done_when": "Deepen comparable health, learning and employment evidence; preserve survey redesigns, age/sex scope, district variation and confidence intervals when supplied.",
+      "target": "statistics/coverage.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Deepen comparable health, learning and employment evidence; preserve survey redesigns, age/sex scope, district variation and confidence intervals when supplied.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-019",
+      "order": 27,
+      "title": "City services and environment",
+      "done_when": "Research transit, water functionality, sanitation, air monitoring and public amenities using comparable city periods; do not infer liveability from project counts.",
+      "target": "cities/index.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Research transit, water functionality, sanitation, air monitoring and public amenities using comparable city periods; do not infer liveability from project counts.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-020",
+      "order": 28,
+      "title": "Smart cities rare earths and semiconductors",
+      "done_when": "Deepen commissioned/operating outcomes and unresolved implementation milestones beyond announcements, with dates and evidence stages.",
+      "target": "journeys/index.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Deepen commissioned/operating outcomes and unresolved implementation milestones beyond announcements, with dates and evidence stages.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-021",
+      "order": 29,
+      "title": "Media language and contributor readiness",
+      "done_when": "Build a rights/provenance inventory and local-review question packs; propose interviews but do not send messages, claim consent or fabricate local voices.",
+      "target": "about/website-readiness.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Build a rights/provenance inventory and local-review question packs; propose interviews but do not send messages, claim consent or fabricate local voices.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-022",
+      "order": 30,
+      "title": "Ten evidence-backed public story drafts",
+      "done_when": "Assemble up to ten complete source-linked stories across economy, livelihoods, nature, health and education with one takeaway, comparison and simple visual; mark editorial approval separately.",
+      "target": "stories/index.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Assemble up to ten complete source-linked stories across economy, livelihoods, nature, health and education with one takeaway, comparison and simple visual; mark editorial approval separately.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-023",
+      "order": 31,
+      "title": "Reader questions and navigation evaluation",
+      "done_when": "Derive test questions from saved evidence and existing reader intents; test retrieval/navigation locally, label hypotheses and prepare a real-user study without inventing interviews.",
+      "target": "about/odisha-tourism-study.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Derive test questions from saved evidence and existing reader intents; test retrieval/navigation locally, label hypotheses and prepare a real-user study without inventing interviews.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-033",
+      "order": 32,
+      "title": "Further Odisha knowledge families",
+      "done_when": "Map evidence gaps in cinema, theatre, publishing, oral traditions, instruments, manuscripts, architecture and community knowledge; complete two bounded source-backed nuclei and queue only nonduplicate remaining work.",
+      "target": "people/people-and-creations.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Map evidence gaps in cinema, theatre, publishing, oral traditions, instruments, manuscripts, architecture and community knowledge; complete two bounded source-backed nuclei and queue only nonduplicate remaining work.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    },
+    {
+      "id": "RES-024",
+      "order": 33,
+      "title": "Next research cycle",
+      "done_when": "Audit coverage and remaining conflicts; append bounded evidence tasks prioritising neglected districts and subjects. Do not generate endless duplicates or wait for a user trigger.",
+      "target": "about/research-gaps.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "last_worked_at": null,
+      "next_step": "Audit actual coverage gaps and explicitly revisit source-recovery.json and tourism-series-reconciliation.json after their retry dates; avoid duplicate task creation. Revisit puri-craft-access.json operational gaps after retry date. Revisit puri-provider-research.json gaps after retry date.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null
+    }
+  ],
+  "queue_revision_history": [
+    {
+      "at": "2026-10-01T02:25:47-07:00",
+      "reason": "User explicitly expanded people, works, art, garments and sweets research; add bounded tasks and prioritise named people next. Preserve all prior task IDs and outcomes.",
+      "prior_order": [
+        {
+          "id": "RES-001",
+          "order": 1
+        },
+        {
+          "id": "RES-002",
+          "order": 2
+        },
+        {
+          "id": "RES-003",
+          "order": 3
+        },
+        {
+          "id": "RES-004",
+          "order": 4
+        },
+        {
+          "id": "RES-005",
+          "order": 5
+        },
+        {
+          "id": "RES-006",
+          "order": 6
+        },
+        {
+          "id": "RES-007",
+          "order": 7
+        },
+        {
+          "id": "RES-008",
+          "order": 8
+        },
+        {
+          "id": "RES-009",
+          "order": 9
+        },
+        {
+          "id": "RES-010",
+          "order": 10
+        },
+        {
+          "id": "RES-011",
+          "order": 11
+        },
+        {
+          "id": "RES-012",
+          "order": 12
+        },
+        {
+          "id": "RES-013",
+          "order": 13
+        },
+        {
+          "id": "RES-014",
+          "order": 14
+        },
+        {
+          "id": "RES-015",
+          "order": 15
+        },
+        {
+          "id": "RES-016",
+          "order": 16
+        },
+        {
+          "id": "RES-017",
+          "order": 17
+        },
+        {
+          "id": "RES-018",
+          "order": 18
+        },
+        {
+          "id": "RES-019",
+          "order": 19
+        },
+        {
+          "id": "RES-020",
+          "order": 20
+        },
+        {
+          "id": "RES-021",
+          "order": 21
+        },
+        {
+          "id": "RES-022",
+          "order": 22
+        },
+        {
+          "id": "RES-023",
+          "order": 23
+        },
+        {
+          "id": "RES-024",
+          "order": 24
+        }
+      ],
+      "added_task_ids": [
+        "RES-025",
+        "RES-026",
+        "RES-027",
+        "RES-028",
+        "RES-029",
+        "RES-030",
+        "RES-031",
+        "RES-032",
+        "RES-033"
+      ]
+    }
+  ]
+}

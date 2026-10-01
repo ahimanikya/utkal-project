@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-09-30",
+  "scope": "Ten-page sample: initial nine pages plus guide directory and supplementary visual icon inspection on 2026-09-30. Limited read-only study, not a whole-site or booking-service audit.",
+  "source_ids": [
+    "odisha-tourism-portal",
+    "tourism-roadtrips",
+    "tourism-trail-finder",
+    "tourism-map-finder",
+    "tourism-wayside",
+    "tourism-artisan-stories",
+    "tourism-wild-west-route",
+    "raghurajpur",
+    "weaving-tourism",
+    "tourism-guide-directory"
+  ],
+  "sample": [
+    {
+      "source_id": "tourism-roadtrips",
+      "capture_scope": "Browser list inspected: cards present duration, places and attractions, with sorting and detail links. Listed durations and routes were not verified for current travel."
+    },
+    {
+      "source_id": "tourism-trail-finder",
+      "capture_scope": "Opened Show Filter in browser; single/multiple-day and activity choices, location/name search, operator and sort controls observed. Cards loaded. Filtering accuracy, enquiries, prices and booking fulfilment not tested."
+    },
+    {
+      "source_id": "tourism-map-finder",
+      "capture_scope": "HTML and browser inspected: category navigation, search, map/list interface and destination entries observed. Coordinates, distances, geolocation and routing not verified."
+    },
+    {
+      "source_id": "tourism-wayside",
+      "capture_scope": "HTML inspected: amenity introduction, sorting and location/list scaffolding. Facility inventory did not populate in the extracted text. No absence, hygiene or operating-status claim inferred."
+    },
+    {
+      "source_id": "tourism-artisan-stories",
+      "capture_scope": "HTML inspected: page and store-locator navigation present; individual artisan narratives were not readable in this capture. Retained as a research lead."
+    },
+    {
+      "source_id": "tourism-wild-west-route",
+      "capture_scope": "Browser inspected after dynamic content loaded: summary, traveller/terrain tags, five day tabs, first-day detail, food/shopping, related places and emergency sections. Route labels differ between summary and description; an old event window remains. Travel times, route feasibility, all day tabs and contacts not verified."
+    },
+    {
+      "source_id": "tourism-guide-directory",
+      "capture_scope": "HTML inspected on 2026-09-30: guide-directory heading, district/location/city/name search, Show Filter, All/Most Liked/Alphabetically sorting and contact-details heading. Individual profiles and totals were not populated in this extraction. No credentials, availability, ranking quality or contact flow verified."
+    }
+  ],
+  "existing_source_page_checks": [
+    {
+      "source_id": "odisha-tourism-portal",
+      "scope": "Navigation and reader entry points"
+    },
+    {
+      "source_id": "raghurajpur",
+      "scope": "Page modules and conflicting nearby introduction; historical claims and operating details not refreshed"
+    },
+    {
+      "source_id": "weaving-tourism",
+      "scope": "Theme organisation and place links; textile claims not newly verified"
+    }
+  ],
+  "functional_checks": [
+    {
+      "action": "Open trail filter panel",
+      "result": "observed_working",
+      "limit": "Panel revealed day-type/activity controls and location/name search; filtering correctness and enquiry flow untested"
+    },
+    {
+      "action": "Load road-trip detail",
+      "result": "content_loaded_after_initial_loading_state",
+      "limit": "Read summary, day tabs and first-day detail; not every day or route verified"
+    },
+    {
+      "action": "Read map interface",
+      "result": "controls_and_entries_observed",
+      "limit": "Coordinate accuracy, routes and location permission not tested"
+    }
+  ],
+  "adoption": [
+    {
+      "pattern": "Multiple reader entry points",
+      "target": "visitor-index/index",
+      "status": "local_navigation_updated"
+    },
+    {
+      "pattern": "Destination story plus practical panel",
+      "target": "methods/trip-planning-content",
+      "status": "editorial_template_proposed"
+    },
+    {
+      "pattern": "Canonical records reused across subject and region",
+      "target": "methods/content-classification",
+      "status": "existing_model_retained"
+    },
+    {
+      "pattern": "Map/list and visitor filters",
+      "target": "about/odisha-tourism-study",
+      "status": "future_product_proposal"
+    },
+    {
+      "pattern": "Route optimisation and booking",
+      "target": "about/odisha-tourism-study",
+      "status": "separate_future_scope_decision"
+    },
+    {
+      "pattern": "Labelled coherent outline icons across planning and wider subjects",
+      "target": "about/odisha-tourism-study",
+      "status": "design_proposal_not_implemented"
+    },
+    {
+      "pattern": "Separate professional guides, written guides and agencies",
+      "target": "methods/trip-planning-content",
+      "status": "editorial_template_proposed"
+    }
+  ],
+  "held_imports": [
+    "Raghurajpur nearby copy names Sukuapada; no proximity relationship imported.",
+    "Road-detail summary and description have different endpoints; no route imported.",
+    "Old event window and unverified travel estimates/contacts; no current practical claims imported.",
+    "Empty extracted artisan/wayside sections are capture limitations, not proof of no services.",
+    "Guide directory extraction did not populate profiles or totals; no credentials, current availability or rankings imported."
+  ],
+  "prd_version": "0.2.0",
+  "prd_changed": false,
+  "human_review_claimed": false,
+  "local_update": true,
+  "git_push": false,
+  "website_publication": false,
+  "visual_checks": [
+    {
+      "source_id": "tourism-wild-west-route",
+      "checked_on": "2026-09-30",
+      "capture_scope": "Supplementary visual inspection on 2026-09-30: narrow-viewport screenshot of Summary shows thin outline traveller and terrain pictograms grouped under headings, section tabs and a map. Small individual pictograms have no visible text labels in that capture. Icon package, asset licence and whole-site accessibility were not established."
+    }
+  ],
+  "design_lineage": {
+    "suggestion": "TripAdvisor resemblance",
+    "origin": "User hypothesis",
+    "status": "unverified"
+  }
+}

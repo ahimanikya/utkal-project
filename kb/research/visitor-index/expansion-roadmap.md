@@ -34,3 +34,8 @@ Track complete visitor pages, destinations with linked food providers, credited 
 **Explore → Taste → Plan your visit → Meet the makers → Discover more.**
 
 Lead with an inviting detail and a credited image. Let the reader expand sources and practical information. Show a specific next action, such as checking the official museum page or contacting a featured maker, once that route is established.
+
+
+## Learning from the official tourism portal · 30 September 2026
+
+The [reference study](../about/odisha-tourism-study.md) examines nine sampled pages and proposes place/interest/planning entrances, consistent destination modules and explicit itinerary evidence. The local visitor index now offers those reading paths. The [trip-content template](../methods/trip-planning-content.md) guides research; interactive filters, map planning, route optimisation and booking remain proposals, not additions to the launch requirements. PRD v0.2.0 and its preserved snapshots are unchanged.

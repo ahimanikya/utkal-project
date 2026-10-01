@@ -6,19 +6,30 @@ tags: ["statistics", "biodiversity"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "nature-chilika", "title": "Chilika Ecology and Biodiversity", "resource": "https://www.chilika.com/chilika-ecology-and-biodiversity.php"}]
+subjects: ["nature"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Biodiversity
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for biodiversity. These are research records, not a composite performance ranking.
+Which organisms and habitats are recorded, and by what method? A checklist, seasonal census and habitat survey should not be merged into a single biodiversity score.
 
 ## Selected facts to explore
 
 - **Bird estimation count: 1,132,200 birds counted** — 2026 bird estimation, Chilika lagoon, Odisha.[^nature-chilika]
 - **Flowering-plant checklist species: 884 species** — 2012-2020 surveys and earlier studies; checklist 2020, Chilika lagoon, shoreline and islands, Odisha.[^nature-chilika]
 - **Finfish checklist species: 317 species** — 1916-2014 records; published 2015, Chilika lagoon, Odisha.[^nature-chilika]
+
+## Read this in context
+
+Subject: [Nature and environment](../subjects/nature.md).
+
+- [Forests](forests.md) — Read another dimension of this subject; the measures remain separate.
+- [Air Quality](air-quality.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

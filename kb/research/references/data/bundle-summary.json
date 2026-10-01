@@ -1,28 +1,34 @@
 {
-  "edition": "1.0.1",
+  "edition": "1.3.0",
   "okf_version": "0.2",
-  "generated_at": "2026-09-27T09:11:23-07:00",
-  "concept_count": 454,
-  "unique_source_urls": 140,
-  "source_records": 160,
+  "generated_at": "2026-10-01T02:37:51-07:00",
+  "concept_count": 590,
+  "unique_source_urls": 210,
+  "source_records": 231,
   "section_counts": {
-    "about": 9,
+    "about": 11,
     "cities": 2,
-    "culture": 8,
-    "economy": 20,
+    "collections": 3,
+    "culture": 10,
+    "economy": 22,
     "evidence": 71,
-    "facilities": 13,
+    "facilities": 14,
     "food": 22,
-    "handlooms": 10,
+    "handlooms": 11,
     "history": 8,
     "journeys": 6,
-    "methods": 6,
-    "places": 22,
-    "sources": 160,
-    "statistics": 73,
+    "methods": 10,
+    "people": 14,
+    "places": 23,
+    "product": 5,
+    "sources": 231,
+    "statistics": 75,
     "stories": 8,
+    "subjects": 9,
+    "technology": 4,
     "trade": 7,
-    "visitor-index": 9
+    "visitor-index": 11,
+    "works": 13
   },
   "maritime_claims": 36,
   "maritime_metrics": 15,
@@ -30,8 +36,12 @@
     "areas": 5,
     "foods": 22,
     "heritage": 10,
-    "facilities": 13,
-    "current_availability_confirmations": 0
+    "facilities": 14,
+    "current_availability_confirmations": 0,
+    "puri_access_observations": 15,
+    "puri_live_access_verified": false,
+    "journey_research_outlines": 1,
+    "verified_recommended_itineraries": 0
   },
   "community_project": {
     "github_owner": "ahimanikya",
@@ -75,17 +85,90 @@
     "statewide_realised_total_established": false
   },
   "statistical_atlas": {
-    "observations": 352,
-    "topic_groups": 42,
+    "observations": 390,
+    "topic_groups": 44,
     "district_banking_snapshots": 30,
-    "calculations": 11,
+    "calculations": 14,
     "source_capture_records_added": 44,
     "publication_readiness": {
-      "source_checked_editorial_review_pending": 277,
-      "needs_source_table_review": 72,
-      "hold_conflict": 3
+      "source_checked_editorial_review_pending": 301,
+      "needs_source_table_review": 83,
+      "hold_conflict": 6
     },
     "human_review_claimed": false,
     "weekly_source_records_added": 5
+  },
+  "subject_classification": {
+    "subject_families": 9,
+    "classified_concepts": 321,
+    "expanded_statistical_pages": 42,
+    "explained_reading_links": 154,
+    "evidence_basis": "Editorial classification; individual source checks remain in the underlying records."
+  },
+  "product_requirements": {
+    "current_version": "0.2.0",
+    "preserved_versions": 2,
+    "requirements": 41,
+    "approval_status": "draft_not_formally_approved",
+    "implementation_status": "not_deployed"
+  },
+  "non_url_source_records": 1,
+  "place_source_intakes": {
+    "debrigarh": {
+      "observations": 5,
+      "sources": 2,
+      "primary_employment_record_verified": false
+    }
+  },
+  "homestays": {
+    "observations": 28,
+    "source_records": 10,
+    "public_demand_series_established": false,
+    "current_policy_consolidated": false
+  },
+  "connected_collections": {
+    "regional_profiles": 2,
+    "thematic_pages": 3,
+    "progress_cards": 6,
+    "source_observations_added": 4,
+    "source_records_added": 2,
+    "publication_status": "local_draft"
+  },
+  "tourism_reference_study": {
+    "sampled_pages": 10,
+    "new_source_records": 7,
+    "planner_implemented": false,
+    "icon_system_implemented": false
+  },
+  "research_pipeline": {
+    "queue_tasks": 33,
+    "completed_tasks": 8,
+    "publisher_discovery_pages_checked": 4,
+    "monitoring_tracks_seeded": 17,
+    "automation_status": "ACTIVE",
+    "automation_id": "utkala-continuing-research",
+    "cadence": "Every six hours",
+    "discovery_feed_records": 18,
+    "monitoring_tracks_mapped": 17,
+    "last_run_id": "2026-10-01T092949Z",
+    "last_run_status": "literature_checkpoint_in_progress",
+    "in_progress_task": "RES-026"
+  },
+  "people_and_creations": {
+    "people": 13,
+    "works": 13,
+    "english_translations_documented": 9,
+    "complete_biographies": 0,
+    "garment_forms": 13,
+    "sweet_specific_export_series_established": false,
+    "english_count_scope": "Work records including anthology and component stories; not a count of independent books.",
+    "literature_profiles_deepened": 5
+  },
+  "scope": "Imported research workspace snapshot, not whole-project totals or current repository/deployment status. See kb/records/research-sync-2026-10-01.json.",
+  "integration": {
+    "repository": "ahimanikya/utkal-project",
+    "target_path": "kb/research",
+    "source_commit": "3749a9b",
+    "research_only": true
   }
 }

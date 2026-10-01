@@ -172,3 +172,95 @@
 - [Odisha science roadmap and rare-earth corridor discussions](weekly-rare-aug2026.md)
 - [NFHS-6 district factsheet release notice](weekly-nfhs-district-release.md)
 - [TRAI telecom performance indicators, January–March 2026](weekly-trai-mar2026.md)
+
+## Debrigarh source intake · 30 September 2026
+
+- [Dated community-engagement reporting](debrigarh-nie-20260820.md)
+- [User clipping and unresolved provenance](debrigarh-toi-user-clipping.md)
+
+## Homestays · 30 September 2026
+
+- [Odisha Homestay Establishment Scheme 2025 — Gazette 5549](homestay-scheme2025.md)
+- [Odisha Tourism guidelines: amendments and Cycle 1 targets](homestay-guideline-index.md)
+- [Tourism Gazette archive: Homestay Scheme entry, 5 August 2026](homestay-gazette-aug2026.md)
+- [One India, One Registration Initiative under NIDHI Portal](homestay-nidhi2025.md)
+- [Go Homestay official portal](homestay-go-portal.md)
+- [Go Homestay Portal — OCAC app listing](homestay-go-app.md)
+- [State launches Go Homestay portal](homestay-launch-mar2026.md)
+- [From Deomali to Daringbadi, homestays get a push](homestay-cycle1-may2026.md)
+- [Homestay count grows manifold in Odisha but local experience missing](homestay-market-jan2025.md)
+- [Reported July 2026 homestay eligibility amendment](homestay-amendment-lead.md)
+
+
+## Regional profiles · 30 September 2026
+
+- [Bargarh district demography](regional-bargarh-demography.md)
+- [About Sambalpur district](regional-sambalpur-overview.md)
+
+- [Odisha Tourism — user-selected reference portal](odisha-tourism-portal.md)
+
+
+## Odisha Tourism structure study · 30 September 2026
+
+- [Odisha By Road](tourism-roadtrips.md)
+- [Find a Trail](tourism-trail-finder.md)
+- [Find on Map](tourism-map-finder.md)
+- [Way Side Amenities](tourism-wayside.md)
+- [Artisan Stories](tourism-artisan-stories.md)
+- [The Quest for Odishas Wild West — road-trip detail](tourism-wild-west-route.md)
+- [Get a Tour Guide](tourism-guide-directory.md)
+
+## Research pipeline sources
+
+- [Tourism publication downloads](pipeline-tourism-releases.md)
+- [Economic Survey release catalogue](pipeline-economic-releases.md)
+- [DES data tables discovery](pipeline-des-tables.md)
+- [SLBC release discovery](pipeline-slbc-releases.md)
+
+## Continuing research source discovery
+
+- [TRAI performance report catalogue](pipeline-trai-releases.md)
+- [CAG Odisha monthly accounts catalogue](pipeline-cag-releases.md)
+- [Paradip traffic report archive](pipeline-paradip-traffic.md)
+- [IP India annual report catalogue](pipeline-ipindia-releases.md)
+- [Invest Odisha discovery lead](pipeline-investodisha-discovery.md)
+- [Odisha urban activity reports](pipeline-urban-releases.md)
+- [PIB releases discovery interface](pipeline-pib-releases.md)
+- [PIB archive discovery guidance](pipeline-pib-archive-guide.md)
+- [Forest Survey of India publications](pipeline-fsi-releases.md)
+- [IREL annual report catalogue](pipeline-irel-releases.md)
+- [AAI traffic news discovery lead](pipeline-aai-traffic.md)
+- [MoSPI report catalogue discovery lead](pipeline-mospi-reports.md)
+- [UDISE publication discovery lead](pipeline-udise-publications.md)
+
+## Puri route evidence · 1 October 2026
+
+- [Wonders of Odisha — operator itinerary on Odisha Tourism](puri-wonders-operator-route.md)
+- [Heritage Tours — Golden Triangle itinerary](puri-heritage-golden-triangle.md)
+
+## People, creations and creative economy · 1 October 2026
+
+- [Jnanpith laureates — Odia entries](creators-jnanpith.md)
+- [Six Acres and a Third — publisher edition](creators-six-acres.md)
+- [Yajnaseni — translator bibliography](creators-yajnaseni.md)
+- [Paraja — Oxford edition](creators-paraja.md)
+- [Sitakant Mahapatra — literary recordings](creators-sitakant-loc.md)
+- [Prafulla Kar — 2015 award citation](creators-prafulla-sna.md)
+- [Dilip Tirkey 412-cap milestone equalled](creators-dilip-caps.md)
+- [Saunamara connections — Amit Rohidas milestone](creators-saunamara-hockey.md)
+- [Bedangadas Mohanty — Infosys Prize 2021](creators-bedangadas-infosys.md)
+- [QCD Phase Diagram — arXiv bibliographic record](creators-qcd-paper.md)
+- [Sudarsan Pattnaik sand installation at IFFI 2024](creators-sand-iffi.md)
+- [Sand Arts — Odisha government profile](creators-sand-state.md)
+- [Silver filigree — craft description](creators-tarakasi.md)
+- [Textile and apparel exports — state table](textile-pib-20260324.md)
+- [Segment-wise Odisha textile exports — discovery record](textile-ogd-20241231.md)
+- [Odisha agri-export workshop and products displayed](sweets-pib-20250427.md)
+
+- [Spark of Light — publisher catalogue](literature-spark-publisher.md)
+
+- [Spark of Light — edition and contributor notes](literature-spark-text.md)
+
+- [Binapani Mohanty — Meet the Author](literature-binapani-akademi.md)
+
+- [Early women’s writings in Orissa — library catalogue](literature-early-women-iucat.md)

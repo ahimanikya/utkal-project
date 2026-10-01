@@ -35,10 +35,14 @@
       ],
       "facility_ids": [
         "facilities/panthanivas-puri",
-        "facilities/tourist-office-puri"
+        "facilities/tourist-office-puri",
+        "facilities/nimantran-puri"
       ],
       "editorial_hook": "Heritage, food and craft can each give a visitor a different reason to spend more time here.",
-      "research_priority": "Temple visitor rules; named food providers; willing craft hosts; point-to-point travel; facilities at each craft stop."
+      "research_priority": "Resolve temple access, identify consenting hosts and exact travel legs, then obtain local/editor review; operator-described sequence now saved.",
+      "access_evidence_register": "references/data/puri-craft-access.json",
+      "provider_research": "references/data/puri-provider-research.json",
+      "journey_research": "references/data/puri-journey-research.json"
     },
     {
       "id": "visitor-index/areas/konark",
@@ -553,14 +557,36 @@
       "geography": "Puri",
       "area_id": "visitor-index/areas/puri-crafts",
       "source_ids": [
-        "visitor-jagannath"
+        "visitor-jagannath",
+        "puri-temple-tourism-guidance",
+        "puri-religious-shrines-directory"
       ],
-      "source_handling": "Fresh source check",
-      "last_record_review": "2026-09-27",
+      "source_handling": "Fresh primary-page capture; source-listed guidance separated from current operating confirmation.",
+      "last_record_review": "2026-09-30",
       "coordinates": null,
       "entry_rules": null,
       "opening_hours": null,
-      "ticket_prices": null
+      "ticket_prices": null,
+      "last_source_check": "2026-09-30",
+      "access_evidence": {
+        "register": "references/data/puri-craft-access.json",
+        "observation_ids": [
+          "puri-identity",
+          "puri-hours-attraction",
+          "puri-hours-directory",
+          "puri-entry-listing",
+          "puri-belongings",
+          "puri-facility-listing"
+        ],
+        "status": "conflicted_hours",
+        "checked_at": "2026-09-30T23:27:29-07:00",
+        "retry_after": "2026-10-08T06:23:18Z",
+        "available_now": null,
+        "toilets": null,
+        "drinking_water": null,
+        "step_free_access": null,
+        "workshop_permission": null
+      }
     },
     {
       "id": "culture/raghurajpur-pattachitra",
@@ -569,14 +595,34 @@
       "geography": "Near Puri",
       "area_id": "visitor-index/areas/puri-crafts",
       "source_ids": [
-        "raghurajpur"
+        "raghurajpur",
+        "puri-raghurajpur-district"
       ],
-      "source_handling": "Existing KB reused; no fresh independent verification.",
-      "last_record_review": "2026-09-27",
+      "source_handling": "Fresh primary-page capture; source-listed guidance separated from current operating confirmation.",
+      "last_record_review": "2026-09-30",
       "coordinates": null,
       "entry_rules": null,
       "opening_hours": null,
-      "ticket_prices": null
+      "ticket_prices": null,
+      "last_source_check": "2026-09-30",
+      "access_evidence": {
+        "register": "references/data/puri-craft-access.json",
+        "observation_ids": [
+          "raghu-identity",
+          "raghu-hours",
+          "raghu-entry",
+          "raghu-parking",
+          "raghu-developed-facilities"
+        ],
+        "status": "source_listed_unconfirmed",
+        "checked_at": "2026-09-30T23:27:29-07:00",
+        "retry_after": "2026-10-08T06:23:18Z",
+        "available_now": null,
+        "toilets": null,
+        "drinking_water": null,
+        "step_free_access": null,
+        "workshop_permission": null
+      }
     },
     {
       "id": "culture/pipili-applique",
@@ -587,12 +633,30 @@
       "source_ids": [
         "pipili"
       ],
-      "source_handling": "Existing KB reused; no fresh independent verification.",
-      "last_record_review": "2026-09-27",
+      "source_handling": "Fresh primary-page capture; source-listed guidance separated from current operating confirmation.",
+      "last_record_review": "2026-09-30",
       "coordinates": null,
       "entry_rules": null,
       "opening_hours": null,
-      "ticket_prices": null
+      "ticket_prices": null,
+      "last_source_check": "2026-09-30",
+      "access_evidence": {
+        "register": "references/data/puri-craft-access.json",
+        "observation_ids": [
+          "pipili-identity",
+          "pipili-hours",
+          "pipili-entry",
+          "pipili-parking"
+        ],
+        "status": "source_listed_unconfirmed",
+        "checked_at": "2026-09-30T23:27:29-07:00",
+        "retry_after": "2026-10-08T06:23:18Z",
+        "available_now": null,
+        "toilets": null,
+        "drinking_water": null,
+        "step_free_access": null,
+        "workshop_permission": null
+      }
     },
     {
       "id": "places/konark",
@@ -717,7 +781,8 @@
       ],
       "location_text": "Chakra Tirtha Road, Penthakata, Puri",
       "source_ids": [
-        "visitor-otdc"
+        "visitor-otdc",
+        "puri-panthanivas-property"
       ],
       "evidence_status": "official_listing",
       "evidence_note": "OTDC lists Panthanivas Puri among its accommodation properties.",
@@ -732,11 +797,18 @@
       "travel_minutes": null,
       "accessibility_audit": null,
       "last_source_check": "2026-09-27",
-      "last_record_review": "2026-09-27",
+      "last_record_review": "2026-10-01",
       "review_after": "2026-10-27",
       "source_document_date": null,
       "check_scope": "Indexed official-page extracts reviewed; direct page retrieval failed. Listing only, no booking or operational confirmation.",
-      "follow_up": "Use the official operator for current rates, room availability and property amenities. No quality ranking is assigned."
+      "follow_up": "Use the official operator for current rates, room availability and property amenities. No quality ranking is assigned.",
+      "source_check_history": [
+        {
+          "checked_at": "2026-10-01T00:28:47-07:00",
+          "source_id": "puri-panthanivas-property",
+          "scope": "Indexed property restaurant/sightseeing/transport listing; direct fetch unavailable. No live status established."
+        }
+      ]
     },
     {
       "id": "facilities/yatrinivas-konark",
@@ -1114,6 +1186,37 @@
       "source_document_date": null,
       "check_scope": "Imported from existing KB; no new source verification.",
       "follow_up": "Confirm museum opening and entry arrangements. This record reuses the earlier KB extract and is not a new independent verification."
+    },
+    {
+      "id": "facilities/nimantran-puri",
+      "name": "Nimantran Restaurant, Puri",
+      "category": "food_venue",
+      "area_ids": [
+        "visitor-index/areas/puri-crafts"
+      ],
+      "location_text": "Puri; street address unverified",
+      "source_ids": [
+        "puri-nimantran-otdc"
+      ],
+      "evidence_status": "official_listing",
+      "evidence_note": "OTDC indexed primary listing names a Puri restaurant offering Odia cuisine.",
+      "amenities": [],
+      "heritage_id": null,
+      "heritage_relationship": null,
+      "available_now": null,
+      "operating_hours": null,
+      "prices": null,
+      "coordinates": null,
+      "distance_km": null,
+      "travel_minutes": null,
+      "accessibility_audit": null,
+      "last_source_check": "2026-10-01",
+      "last_record_review": "2026-10-01",
+      "review_after": "2026-11-01",
+      "source_document_date": null,
+      "check_scope": "Official indexed excerpt only; direct fetch failed. No current operation or dish-level menu verified.",
+      "follow_up": "Verify street address, menu and operation; do not use the Bhubaneswar head-office footer as the venue address."
     }
-  ]
+  ],
+  "updated_at": "2026-10-01T01:31:49-07:00"
 }

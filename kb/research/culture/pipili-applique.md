@@ -35,3 +35,11 @@ Identify the maker and object; confirm ritual context and workshop access.
 [Related knowledge](raghurajpur-pattachitra.md) · [Research standards](../about/research-method.md)
 
 [^pipili]: [Pipili](https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html)
+
+## Place and visitor evidence · 30 September 2026
+
+The [tourism profile](https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html) connects Pipili appliqué with chariot decoration and several decorative and household objects. Its general visitor listing gives 08:00–20:00, free entry and parking. This does not establish every shop's hours, workshop permission or demonstration prices.
+
+The same page's bank and hotel guidance names Bhubaneswar; those amenities must not become onsite Pipili facilities. Toilets, drinking water, step-free access, willing hosts and specific parking locations remain unknown. [Access evidence](../references/data/puri-craft-access.json) preserves these distinctions. [Raghurajpur](raghurajpur-pattachitra.md) offers a related craft-reading path, not evidence of a shared workshop or measured travel leg.
+
+[Related reading](raghurajpur-pattachitra.md) — Compare two craft traditions; this is related reading, not a shared workshop or measured route.

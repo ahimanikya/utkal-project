@@ -6,19 +6,30 @@ tags: ["statistics", "public-finance-monitoring"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "macro-cag-aug2026", "title": "Odisha Monthly Key Indicators — August 2026", "resource": "https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-August-06aabdead52f8a8-29844579.pdf"}]
+subjects: ["governance", "economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Public Finance Monitoring
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for public finance monitoring. These are research records, not a composite performance ranking.
+How is the financial year progressing? Compare like-for-like cumulative months and keep provisional accounts, excluded accounts and full-year budgets visible.
 
 ## Selected facts to explore
 
 - **Revenue receipts: 77,778.04 INR crore** — 2026-04 through 2026-08, Odisha.[^macro-cag-aug2026]
 - **Revenue receipts: 71,100.67 INR crore** — 2025-04 through 2025-08, Odisha.[^macro-cag-aug2026]
 - **Revenue receipts: 248,500 INR crore** — 2026-27, Odisha.[^macro-cag-aug2026]
+
+## Read this in context
+
+Subject: [Governance and public life](../subjects/governance.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Public Finance Audit](public-finance-audit.md) — Read another dimension of this subject; the measures remain separate.
+- [Urban Sanitation](urban-sanitation.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "current_version": "0.1.0",
+  "current_version": "0.2.0",
   "current_document": "product/prd.md",
   "current_requirements": "references/data/product-requirements.json",
   "history_document": "product/prd-history.md",
@@ -58,6 +58,28 @@
         "GROW-009"
       ],
       "changed_requirement_ids": [],
+      "retired_requirement_ids": [],
+      "git_revision": null,
+      "release_reference": null
+    },
+    {
+      "version": "0.2.0",
+      "recorded_at": "2026-09-30T19:25:24-07:00",
+      "approval_status": "draft_not_formally_approved",
+      "snapshot": "product/versions/prd-0.2.0.md",
+      "snapshot_sha256": "78e1cface652adfdcf3be6a575eff7da37c9f5579993448652ce53f889600c9c",
+      "requirements_snapshot": "references/data/product-requirements-0.2.0.json",
+      "requirements_sha256": "27e8a51c258189540f4a8bc9b9c43545a0ea4b5bca39a2624b4d5bfa116117e0",
+      "summary": "Broad subject navigation, contextual entries and explained cross-subject reading; tourism remains a featured collection.",
+      "added_requirement_ids": [
+        "DISC-005"
+      ],
+      "changed_requirement_ids": [
+        "DISC-001",
+        "DISC-004",
+        "CONT-001",
+        "CONT-005"
+      ],
       "retired_requirement_ids": [],
       "git_revision": null,
       "release_reference": null

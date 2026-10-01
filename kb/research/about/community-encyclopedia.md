@@ -20,7 +20,7 @@ The working identity remains **Utkala · Odisha**. GitHub owner: **ahimanikya**,
 
 ## Three connected experiences
 
-**Discover Odisha.** Attractive destination and food pages, short explanations, readable data stories, maps and practical information. Each page helps the reader understand something or decide what to explore next.
+**Discover Odisha.** Browse [nine subject families](../subjects/index.md), from people and history to health, schooling, livelihoods and the environment. Read contextual entries, data explainers, maps and cultural stories, with tourism among the featured collections. Each page explains its subject and offers relevant next reading.
 
 **Understand and cite.** A source panel, definitions, period and geography, estimate status, calculation notes, revision history and downloadable records. A citation identifies the page, stable concept ID, version, source and relevant access date. Original sources remain prominent so researchers can inspect them.
 
@@ -60,11 +60,13 @@ The local scaffold supplies contribution guidance, issue forms, a pull-request t
 
 A copied government number is still attributed government data. A local account is labelled testimony until independently corroborated. Our derived figures retain the inputs and calculation. AI assistance is disclosed in provenance and never substitutes for a human review badge.
 
-## Start with a focused public collection
+## Start with complete entries across subjects
 
-First prepare a small, complete set of tourism, food and heritage entries from the five seed areas. Pair a few well-supported economic stories with these. Add a contributor guide and a source/citation view from the beginning. The number of pages alone is not a launch criterion.
+The 30 September 2026 direction broadens the encyclopedia beyond a tourism entrance. Expand the existing pages with facts, context, subject classification and explained links. Keep a single canonical record reusable across collections, and separate subject, format, geography, period and evidence state.
 
-Then expand district coverage, community and Odia-language contributions, makers, nature, festivals, health/fitness and industry. The [visitor roadmap](../visitor-index/expansion-roadmap.md) and [statistics standard](statistics-storytelling.md) guide the reader experience.
+The [PRD](../product/prd.md) retains the Painted Streets pilot and adds proposed non-tourism reading cases for health/education and the economy. Tourism, food and heritage entries can progress alongside those subjects. Complete source and citation views and contribution guidance from the beginning; the number of pages alone is not a launch criterion.
+
+The [classification method](../methods/content-classification.md), [visitor roadmap](../visitor-index/expansion-roadmap.md) and [statistics standard](statistics-storytelling.md) support different reading needs. Broader coverage does not imply complete district or community representation.
 
 ## Adoption and governance
 
@@ -79,3 +81,7 @@ The [decision register](../technology/decisions.md) records the agreed Astro, Gi
 [^github-forms]: [GitHub issue and pull request templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates)
 [^github-review-rules]: [GitHub protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
 [^github-workflow-security]: [GitHub Actions secure use](https://docs.github.com/en/actions/reference/security/secure-use)
+
+## Repository integration · 1 October 2026
+
+This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.

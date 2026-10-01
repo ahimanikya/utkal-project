@@ -41,3 +41,7 @@ Twenty-two existing food records are now browsable by place: 21 individual foods
 Next attach a named cook or vendor, exact location, current serving times, attributed preparation and price date. Confirm dietary information and allergens with that provider; a dish name alone is insufficient. Current GI status must be checked before using a present-tense registration claim.
 
 Food associations have been carried from saved KB records. No current vendor has yet been verified as serving an indexed food. [Browse areas](index.md).
+
+## Puri food-venue research
+
+[Nimantran Restaurant, Puri](../facilities/nimantran-puri.md) is named in an OTDC indexed listing offering Odia cuisine. This does not establish that it currently serves any specific dish in this catalog. Mahaprasad and Chhena jhili remain place-associated food records without confirmed venue links. See the [provider evidence](puri-providers.md).

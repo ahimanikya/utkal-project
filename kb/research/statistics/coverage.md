@@ -63,3 +63,18 @@ District Statistical Handbooks; full annual time series; current mortality and l
 ## Weekly monitoring · 27 September 2026
 
 Added 2025–26 fisheries production and seafood exports. Production components differ from the reported total by 0.01 lakh tonnes at displayed precision. The [NFHS release notice](../sources/weekly-nfhs-district-release.md) identifies district factsheets for the next retrieval pass; it does not verify Odisha district values. Browser failures on earlier PDFs remain recorded as unavailable in the run report, not evidence of unchanged values.
+
+## Homestay evidence gaps
+
+The [homestay collection](../statistics/homestays.md) distinguishes scheme targets, financial rules, registry stock, marketplace listings and event inventory. The 2025 Gazette conflicts on 1,800 rooms versus beds. Retrieve April/July amendments and the full Cycle-1 primary target table; confirm district/GP changes before map publication. Active properties, bookings, disbursements and net host income remain unestablished. The [monitoring register](../references/data/homestay-research.json) records missing measures and failed source fetches. No registered-property count is silently replaced by listings or app downloads.
+
+
+## Regional and everyday-life coverage · 30 September 2026
+
+The [connected collections](../collections/index.md) add regional context, making and everyday services. Four Census 2011 observations for Bargarh and Sambalpur were checked on district government pages. Koraput demographic pages timed out; no new population claim was imported. District literacy labels need denominator review. Comparable district health, education, job-quality and maker-income evidence remains incomplete. The progress cards retain unknown operating and outcome fields rather than turning targets or installed capacity into results.
+
+## Recovery checkpoint · 30 September 2026
+
+RES-003 completed its bounded-attempt deliverable, without recovering report contents. Exact Finance alternative and DES workbook links, retrieval failures and an 8 October retry are saved in the [recovery register](../references/data/source-recovery.json). RES-004 documented the remaining tourism conflict using an accessible December 2025 Ministry release; the [tourism page](tourism.md) preserves both values and keeps affected headlines on hold. Discovery-year labels are not dates for every table cell. No district or GDP values were added in this pass.
+
+People-and-creations research added five observations for broad textile/apparel/handicraft exports (FY2020–21 to FY2024–25). Garment-type and sweet-specific exports remain unresolved; see [new topic](textile-and-apparel-exports.md).

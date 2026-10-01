@@ -784,3 +784,7 @@ The Dhauli guide gives ancient inscriptions, the elephant, the modern Peace Pago
 Approved PR #12 is live. Six story sections keep the inscriptions, elephant, modern pagoda and remembered river story distinct. Four practical notes and their sources were verified in actual HTML/text journey books. HTTPS redirects remain working.
 
 [Publication evidence](../records/dhauli-publication.json).
+
+## UTP-HIS-0143 · The research joins its existing home
+
+The expanded research collection is reconciled with the existing project, preserving its newer stories and operating records. [Research sync receipt](../records/research-sync-2026-10-01.md). This is a Git review candidate, not a website release.

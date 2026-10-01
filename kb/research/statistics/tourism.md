@@ -5,20 +5,31 @@ description: "Tourism — source-linked research, scope and reuse notes."
 tags: ["statistics", "tourism"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
-sources: [{"id": "connect-tourism2024", "title": "Odisha Tourism Statistical Bulletin 2024", "resource": "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf"}, {"id": "connect-tourismconflict", "title": "Lok Sabha Starred Question 129, Developing India as Tourist Destination, 9 February 2026", "resource": "https://tourism.gov.in/sites/default/files/2026-02/SQ.129%20for%20%2009.02.2026.pdf"}]
+sources: [{"id": "connect-tourism2024", "title": "Odisha Tourism Statistical Bulletin 2024", "resource": "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf"}, {"id": "connect-tourismconflict", "title": "Lok Sabha Starred Question 129, Developing India as Tourist Destination, 9 February 2026", "resource": "https://tourism.gov.in/sites/default/files/2026-02/SQ.129%20for%20%2009.02.2026.pdf"}, {"id": "tourism-pib-20251208", "title": "World Travel Market and FTAs — Ministry of Tourism", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200323&lang=1&reg=6"}]
+subjects: ["places", "economy", "arts"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Tourism
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for tourism. These are research records, not a composite performance ranking.
+How do recorded visits change over time? Visits count activity rather than unique people, and the unresolved foreign-visit disagreement must remain visible.
 
 ## Selected facts to explore
 
 - **Domestic tourist visits: 15,307,637 visits** — 2019, Odisha.[^connect-tourism2024]
 - **Foreign tourist visits: 115,128 visits** — 2019, Odisha.[^connect-tourism2024]
 - **Total tourist visits: 15,422,765 visits** — 2019, Odisha.[^connect-tourism2024]
+
+## Read this in context
+
+Subject: [Places and geography](../subjects/places.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md), [Arts and living traditions](../subjects/arts.md).
+
+- [Tourism Assets](tourism-assets.md) — Read another dimension of this subject; the measures remain separate.
+- [Accommodation](accommodation.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 
@@ -47,3 +58,11 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 [^connect-tourism2024]: [Odisha Tourism Statistical Bulletin 2024](https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf)
 
 [^connect-tourismconflict]: [Lok Sabha Starred Question 129, Developing India as Tourist Destination, 9 February 2026](https://tourism.gov.in/sites/default/files/2026-02/SQ.129%20for%20%2009.02.2026.pdf)
+
+## Reconciliation checkpoint · 30 September 2026
+
+The Ministry's [8 December 2025 release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2200323&lang=1&reg=6), Annexure I, reports **87,854 foreign tourist visits in 2024** and **45,173 in 2023** for Odisha. The higher 2024 count therefore appears in an earlier central release as well as the saved February 2026 table. This is corroboration within government reporting, not an independent enumeration.
+
+The state bulletin's saved **53,392** remains unresolved. No correction or definition bridge was found. Keep foreign-growth and affected total-visit headlines on hold. The ministry explicitly separates state visits from international arrivals; neither is a count of unique travellers to Odisha. Follow the annexure's 2020–2024 columns despite a wider period mentioned in surrounding prose.
+
+[Reconciliation evidence](../references/data/tourism-series-reconciliation.json) preserves the checks and failures. [Tourism comparison](../economy/comparison-09-tourism.md) shows why a conflicting component also affects the total; [source recovery](../methods/source-reliability.md) records the remaining document work.

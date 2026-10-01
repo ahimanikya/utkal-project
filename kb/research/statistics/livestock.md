@@ -6,17 +6,28 @@ tags: ["statistics", "livestock"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "nature-survey-summary", "title": "Odisha Economic Survey 2025-26: Highlights and Executive Summary", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}]
+subjects: ["food", "economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Livestock
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for livestock. These are research records, not a composite performance ranking.
+What output is recorded from livestock activities? Production does not reveal farm profitability, distribution or household consumption without additional evidence.
 
 ## Selected facts to explore
 
 - **Milk production: 27.1 lakh metric tonnes** — 2024-25, Odisha.[^nature-survey-summary]
+
+## Read this in context
+
+Subject: [Food and farming](../subjects/food.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Agriculture](agriculture.md) — Read another dimension of this subject; the measures remain separate.
+- [Fisheries](fisheries.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

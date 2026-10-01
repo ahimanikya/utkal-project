@@ -27,3 +27,7 @@ stale_after: "2027-03-01T00:00:00Z"
 ## Later source check
 
 The [statistical atlas tourism record](../statistics/tourism.md) preserves a conflict between the state and central 2024 foreign-visit counts. The saved state-bulletin calculation above remains traceable, but its total should not be presented as a reconciled all-source figure.
+
+### 30 September reconciliation checkpoint
+
+An accessible [Ministry release from December 2025](../sources/tourism-pib-20251208.md) corroborates the central 2024 foreign-visit count. It supplies no explanation for the difference from the state bulletin. The imported decline calculation above remains a state-series calculation with a disputed endpoint, not an approved headline. See the [tourism evidence page](../statistics/tourism.md) for the comparison's unresolved component.

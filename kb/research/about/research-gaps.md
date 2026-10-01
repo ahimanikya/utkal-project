@@ -64,3 +64,45 @@ The user replaced the standalone FDI monitor with [domestic and foreign investme
 ## Statistical atlas expansion
 
 The [coverage map](../statistics/coverage.md) records source conflicts, indexed-only captures, outdated baselines and domain gaps. Fresh checks found conflicting 2024 foreign-tourism figures; do not reuse that total as an uncontested headline. NFHS-6 includes new Odisha estimates and source-restated NFHS-5 baselines; preserve vintages.
+
+## Homestay evidence gaps
+
+The [homestay collection](../statistics/homestays.md) distinguishes scheme targets, financial rules, registry stock, marketplace listings and event inventory. The 2025 Gazette conflicts on 1,800 rooms versus beds. Retrieve April/July amendments and the full Cycle-1 primary target table; confirm district/GP changes before map publication. Active properties, bookings, disbursements and net host income remain unestablished. The [monitoring register](../references/data/homestay-research.json) records missing measures and failed source fetches. No registered-property count is silently replaced by listings or app downloads.
+
+
+## Regional and everyday-life coverage · 30 September 2026
+
+The [connected collections](../collections/index.md) add regional context, making and everyday services. Four Census 2011 observations for Bargarh and Sambalpur were checked on district government pages. Koraput demographic pages timed out; no new population claim was imported. District literacy labels need denominator review. Comparable district health, education, job-quality and maker-income evidence remains incomplete. The progress cards retain unknown operating and outcome fields rather than turning targets or installed capacity into results.
+
+
+## Tourism portal reference study · 30 September 2026
+
+Raghurajpur’s nearby introduction names Sukuapada, and the sampled western road-trip summary and description have different endpoints. Do not import those connections or travel details without resolving place identity and route scope. The [study](odisha-tourism-study.md) records capture gaps and untested functionality separately from source conflicts. Begin itinerary fieldwork with the existing Puri craft-area records; preserve unknown hosts, routes, access and services until checked.
+
+## Scheduled research progression
+
+The [sequential queue](../methods/research-pipeline.md) turns these gaps into bounded tasks that continue without a new user trigger. Initial publisher discovery recovered access to the June 2026 SLBC agenda; statistical extraction remains queued. Other failed downloads retain their failure state in the source reliability register.
+
+### Recovery follow-up · 30 September 2026
+
+The [priority source recovery](../references/data/source-recovery.json) remains unsuccessful after bounded web and binary-download attempts. The [tourism reconciliation](../references/data/tourism-series-reconciliation.json) now includes an accessible earlier central release but no explanation for the state/central difference. Retry dates and exact gaps are retained for the next coverage audit; task completion here means a documented attempt or conflict, not successful resolution.
+
+### Puri craft-area access checkpoint · 30 September 2026
+
+Two Odisha Tourism pages give conflicting Jagannath Temple hours. Current SJTA entry eligibility and arrangements remain unverified after failed retrieval. Raghurajpur facility-creation language has no operating date or named provider; Pipili's nearby-city hotel/bank wording is not onsite evidence. The [access register](../references/data/puri-craft-access.json) preserves these gaps and an 8 October retry. No individual workshop permission or accessibility audit is claimed.
+
+### Puri provider checkpoint · 1 October 2026
+
+The alternate official guide directory supplies named cards, but credentials, languages and service dates remain unknown; Kedarnath Hota's locality labels conflict. Operator approval rows retain 2012/2013/2022 vintages without claiming current validity. OTDC restaurant/property captures are indexed-only after failed fetches. [Provider research](../visitor-index/puri-providers.md) records these gaps, the restaurant street-address question and an 8 October retrieval retry. No contact requests sent.
+
+### Puri journey checkpoint · 1 October 2026
+
+The [journey outline](../visitor-index/puri-journey-outline.md) establishes an attributed driving sequence, not current travel times or a recommended tour. Dhauli remains a source-named intermediate stop without an access profile. Exact endpoints, public transport, craft-host consent and local/editor review are missing. OTDC itinerary, district transport page and STA timetable direct fetches failed; the STA indexed title has a 2024-08-01 vintage and cannot establish a current service. [Capture and retry details](../references/data/puri-journey-research.json) retain an 8 October retry.
+
+## People, creations and creative economy · 1 October 2026
+
+The [new research collection](../people/people-and-creations.md) seeds nine people and seven works. Full biographies, bibliographies, Odia spelling, women/community/district breadth and media rights remain pending. Three English translations have source evidence with differing metadata completeness; Paraja translator/language remain to check. The [garment index](../handlooms/garments-and-markets.md) distinguishes product forms from traditions. Sweet-specific export value, shipments, destinations and market size remain unknown. Sand-art origin chronology is quarantined because its government source both disclaims historical proof and derives an age from the legend. Indexed-only UC Press/SNA/Tarakasi captures need full-source recovery; retry after 8 October unless a new route is found.
+
+### Literature checkpoint · 1 October 2026
+
+RES-026 adds a [women writers reading route](../works/spark-of-light.md), four profiles and a deeper Pratibha Ray entry. Reba Ray’s birth year (1875/1876) and Binapani Mohanty’s state award year (1970/1968) remain quarantined. Four original story dates, broader biographical coverage and complete Paraja edition credits still need evidence. Akademi interior PDF retrieval and IUCAT direct access failed; indexed evidence is labelled, with retry on 8 October. The independent literature task remains in progress.
