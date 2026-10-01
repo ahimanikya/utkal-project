@@ -43,3 +43,7 @@ The [tourism profile](https://odishatourism.gov.in/content/tourism/en/discover/a
 The same page's bank and hotel guidance names Bhubaneswar; those amenities must not become onsite Pipili facilities. Toilets, drinking water, step-free access, willing hosts and specific parking locations remain unknown. [Access evidence](../references/data/puri-craft-access.json) preserves these distinctions. [Raghurajpur](raghurajpur-pattachitra.md) offers a related craft-reading path, not evidence of a shared workshop or measured travel leg.
 
 [Related reading](raghurajpur-pattachitra.md) — Compare two craft traditions; this is related reading, not a shared workshop or measured route.
+
+## Illustrated website candidate · 1 October 2026
+
+[Craft collection data](craft-stories.json) connects a sourced introduction, inspected documentary photographs, maker questions and a saved craft journey. Existing visit guides remain the home for practical arrangements. Local terminology, maker identification and workshop availability remain open; candidate preparation does not claim publication approval.

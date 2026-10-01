@@ -1,3 +1,4 @@
+import crafts from '../../../../kb/research/culture/craft-stories.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 import voices from '../../../../kb/research/voices/collection.json';
 import foods from '../../../../kb/research/food/collection.json';
@@ -6,6 +7,8 @@ import konark from '../../../../kb/research/destinations/konark.json';
 import chilikaStory from '../../../../kb/research/stories/narratives/chilika.json';
 import bookImages from '../../../../kb/research/destinations/book-images.json';
 export const bookPhotos={
+ [crafts.collection.save_id]:crafts.assets[crafts.collection.hero],
+ ...Object.fromEntries(crafts.pages.map(p=>[p.save_id,crafts.assets[p.hero]])),
  'reading:food/fire-cooking':foods.assets['baigana-bilati-poda'],
  'food:baigana-poda':foods.assets['baigana-bilati-poda'],
  'food:tomato-poda':foods.assets['pakhala-tomato-poda'],

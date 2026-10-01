@@ -13,6 +13,7 @@ const groups=[...new Set(c.entries.map(e=>e.group))].sort((a,b)=>areaOrder.index
 ---
 <Shell title={c.title} description={c.lead} active="explore" wide related={false}><div class="wrap planning-collection">
 <header class="page-head planning-opening"><div><p class="eyebrow">{c.title} · {c.entries.length} ideas in the collection</p><h1>{c.headline}<br/><em class="highlight">{c.highlight}</em></h1><p class="lead">{c.lead}</p></div>{cover&&<figure><ResponsiveImage src={cover.photo.src} width={cover.photo.width} height={cover.photo.height} alt={cover.photo.alt} style={{objectFit:cover.photoFit}} fetchpriority="high"/><figcaption>{cover.photoNote||cover.photo.caption}</figcaption></figure>}</header>
+{c.slug==='things-to-do'&&allowsPage('/crafts/')&&<p class="planning-note"><a href="/crafts/">Made by hand in Odisha →</a> Look closely at Pipili appliqué, Pattachitra and Cuttack’s Tarakasi before arranging a maker visit.</p>}
 <PlanningPaths current={'/'+c.slug+'/'}/>
 {c.slug==='food'&&allowsPage('/food/everyday/')&&<p class="planning-note"><a href="/food/everyday/">Start with the everyday Odisha table →</a> Three illustrated stories of ingredients, memories and the people behind a meal.</p>}
 {c.slug==='food'&&allowsPage('/food/fire-cooking/')&&<p class="planning-note"><a href="/food/fire-cooking/">Odisha cooks with fire →</a> Follow roasted vegetables, leaf parcels and browned edges.</p>}

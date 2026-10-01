@@ -517,3 +517,5 @@
 - [Roasted Tomato Salsa (aka Bilati Baigana poda from Odisha)](food-tomato-oriyarasoi2015.md)
 - [Nimantran Sambalpur operation and maintenance RFP — food descriptions](food-nimantran-menu2023.md)
 - [The Tribal bamboo delicacy from Araku Valley](food-bamboo-tnie2017.md)
+
+- [NID / D’source — Pipili appliqué making process](pipili-dsource-process.md)

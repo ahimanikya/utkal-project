@@ -43,3 +43,7 @@ The [district profile](https://puri.odisha.gov.in/en/tourism/tourist-places/ragh
 Odisha Tourism lists 06:00–18:00, free entry and parking. These are general destination listings; individual workshop appointments, demonstrations and charges remain unknown. The page's nearby-destination introduction names Sukuapada, so those proximity claims stay excluded. See the [access evidence](../references/data/puri-craft-access.json) and [Puri craft area](../visitor-index/areas/puri-crafts.md) for source scope and remaining practical questions.
 
 [Related reading](../visitor-index/areas/puri-crafts.md) — Connect a living craft subject with qualified visitor information; workshop access remains unknown.
+
+## Illustrated website candidate · 1 October 2026
+
+[Craft collection data](craft-stories.json) connects a sourced introduction, inspected documentary photographs, maker questions and a saved craft journey. Existing visit guides remain the home for practical arrangements. Local terminology, maker identification and workshop availability remain open; candidate preparation does not claim publication approval.
