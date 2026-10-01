@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T03:37:49.523908+00:00",
+  "recorded_at": "2026-10-01T03:49:48.321301+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -210,19 +210,21 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-013",
-      "next_action": "Review the integrated Bhubaneswar release candidate under UTP-WORK-109. The three guides, dated Fresco archive and six-idea starter are prepared; publication still needs Founder approval. Native PDF WORK-080 is complete. Current local conditions and mural survival remain unverified.",
+      "next_action": "The 166-image archive is published and verified under UTP-REL-018. The separate photographic essay route remains outside the public edition; review that held scope and unresolved artist identities/local conditions separately. Do not treat the main gallery integration as unpublished.",
       "blockers": [],
       "refs": [
         "UTP-DEC-013",
         "UTP-WORK-109",
         "UTP-REL-015",
-        "UTP-REL-017"
+        "UTP-REL-017",
+        "UTP-REL-018"
       ],
       "evidence": [
         "collections/bhubaneswar-fresco/integration.md",
         "records/direction-02-checks.json",
         "research/product/city-culture-review.md",
-        "records/bhubaneswar-backlog-reconciliation.json"
+        "records/bhubaneswar-backlog-reconciliation.json",
+        "records/bhubaneswar-publication.json"
       ]
     },
     {
@@ -2300,15 +2302,15 @@
       "id": "UTP-WORK-083",
       "title": "Bhubaneswar: Mukteswar, a meal and a city base",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-063",
-      "next_action": "Review the integrated Bhubaneswar release candidate under UTP-WORK-109. The three guides, dated Fresco archive and six-idea starter are prepared; publication still needs Founder approval. Native PDF WORK-080 is complete. Current local conditions and mural survival remain unverified.",
+      "next_action": "Published and verified under UTP-REL-018. Continue local-confirmation and fluent-language follow-up separately; no service inspection or current mural route claimed.",
       "blockers": [],
       "refs": [
         "UTP-DEC-063",
@@ -2316,13 +2318,17 @@
         "UTP-REV-039",
         "UTP-WORK-109",
         "UTP-REL-015",
-        "UTP-REL-017"
+        "UTP-REL-017",
+        "UTP-DEC-099",
+        "UTP-REV-074",
+        "UTP-REL-018"
       ],
       "evidence": [
         "research/product/bhubaneswar-collection.md",
         "records/bhubaneswar-collection-review.json",
         "records/bhubaneswar-collection-manifest.json",
-        "records/bhubaneswar-backlog-reconciliation.json"
+        "records/bhubaneswar-backlog-reconciliation.json",
+        "records/bhubaneswar-publication.json"
       ]
     },
     {
@@ -3076,25 +3082,29 @@
       "id": "UTP-WORK-109",
       "title": "Bhubaneswar release: temple, table, base, painted memories and a city starter",
       "category": "website_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-098",
-      "next_action": "Founder reviews the five-part candidate and draft PR. After approval, merge and publish through the existing release gate. Current services, mural survival and fluent Odia proofreading remain unverified.",
+      "next_action": "Published and verified under UTP-REL-018. Continue local-confirmation and fluent-language follow-up separately; no service inspection or current mural route claimed.",
       "blockers": [],
       "refs": [
         "UTP-DEC-098",
         "UTP-REV-073",
         "UTP-WORK-007",
-        "UTP-WORK-083"
+        "UTP-WORK-083",
+        "UTP-DEC-099",
+        "UTP-REV-074",
+        "UTP-REL-018"
       ],
       "evidence": [
         "records/bhubaneswar-release-review.json",
-        "records/bhubaneswar-backlog-reconciliation.json"
+        "records/bhubaneswar-backlog-reconciliation.json",
+        "records/bhubaneswar-publication.json"
       ]
     }
   ],
@@ -5065,6 +5075,27 @@
       "evidence": [
         "records/bhubaneswar-release-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-099",
+      "title": "Merge and publish the Bhubaneswar collection",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved PR 16",
+      "scope": "Approve the reviewed Bhubaneswar batch for merge and publication. Existing local, mural-identity and language-proofreading limitations remain recorded.",
+      "recorded_at": "2026-10-01T03:49:48.321301+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-109",
+        "UTP-WORK-083",
+        "UTP-REV-073"
+      ],
+      "evidence": [
+        "records/bhubaneswar-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -6816,6 +6847,28 @@
       "evidence": [
         "records/bhubaneswar-release-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-074",
+      "title": "Bhubaneswar publication live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant prepared and verified the release; no independent review claimed.",
+        "Current local conditions, property facilities, menus, mural survival and fluent Odia proofreading remain unverified.",
+        "Production checks did not create or change a saved journey; save/download testing remains the local synthetic candidate evidence."
+      ],
+      "refs": [
+        "UTP-DEC-099",
+        "UTP-WORK-109"
+      ],
+      "evidence": [
+        "records/bhubaneswar-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -7121,6 +7174,23 @@
         "records/chilika-publication.json"
       ],
       "note": "Approved PR 15 deployed at 23e990d8edd59805eb3bdd2e2b9f58c851f863b4; ten new pages, journey data and HTTPS redirect verified."
+    },
+    {
+      "id": "UTP-REL-018",
+      "title": "Bhubaneswar collection published",
+      "status": "published",
+      "authorization": "UTP-DEC-099",
+      "destination": "https://utkalproject.org/destinations/bhubaneswar/",
+      "refs": [
+        "UTP-DEC-099",
+        "UTP-WORK-109",
+        "UTP-WORK-083",
+        "UTP-REV-074"
+      ],
+      "evidence": [
+        "records/bhubaneswar-publication.json"
+      ],
+      "note": "Approved PR 16 deployed at 61692f99409154066c459df8cc38fd519008420d. All 30 edition pages, catalogue scope, archive asset samples, live gallery and HTTPS redirect verified."
     }
   ],
   "sources": [

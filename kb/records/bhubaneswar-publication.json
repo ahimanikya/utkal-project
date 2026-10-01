@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-01T03:49:48.321301+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-099",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/16",
+  "approved_head": "2aa6b624c7ab98e8527318062d2eb771d0bab3fc",
+  "deployed_sha": "61692f99409154066c459df8cc38fd519008420d",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36812002164",
+  "destination": "https://utkalproject.org/destinations/bhubaneswar/",
+  "scope": "Approved four new routes and six-idea city starter: 30 total edition pages, 28 saveable ideas and five starters. Includes Mukteswar, city food, city stay comparisons and 166-image Fresco archive.",
+  "verification": [
+    "GitHub validation and approved publication workflows passed for the recorded revisions.",
+    "All 30 published pages returned HTTP 200 with the expected 28-item catalogue and five starters.",
+    "Cookie configuration and preview noindex boundary present on all checked pages.",
+    "Archive original/thumbnail sample hashes match the preserved source files.",
+    "Live city page and Fresco search/viewer inspected; selected original loaded at 1600 px with dated photographer credit.",
+    "HTTP city URL redirected to HTTPS successfully."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant prepared and verified the release; no independent review claimed.",
+    "Current local conditions, property facilities, menus, mural survival and fluent Odia proofreading remain unverified.",
+    "Production checks did not create or change a saved journey; save/download testing remains the local synthetic candidate evidence."
+  ],
+  "evidence": [
+    "records/evidence/bhubaneswar-publication/approval.json",
+    "records/evidence/bhubaneswar-publication/deployment.json",
+    "records/evidence/bhubaneswar-publication/live-checks.json",
+    "records/evidence/bhubaneswar-publication/live-city.png",
+    "records/evidence/bhubaneswar-publication/live-fresco.png"
+  ]
+}
