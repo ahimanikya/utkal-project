@@ -30,6 +30,20 @@ test('destination contents support the same mobile reading controls as cultural 
   const html=read(route);assert.match(html,/<details class="story-contents-mobile"/);assert.match(html,/<nav class="mag-navigation story-contents-desktop"/);
  }
 });
+test('every published visitor-detail page uses compact mobile contents with ordered live targets',()=>{
+ const details=routes.filter(route=>route.startsWith('/visit/'));
+ assert.ok(details.length>0);
+ for(const route of details){
+  const html=read(route);
+  const mobile=html.match(/<details class="story-contents-mobile"[^>]*>([\s\S]*?)<\/details>/);
+  assert.ok(mobile,route);
+  assert.match(html,/<nav class="mag-navigation story-contents-desktop"/,route);
+  const targets=[...mobile[1].matchAll(/href="#([^"]+)"/g)].map(m=>m[1]);
+  assert.ok(targets.length>=2,route);
+  let previous=-1;
+  for(const target of targets){const position=html.indexOf('id="'+target+'"');assert.ok(position>previous,route+' '+target);previous=position;}
+ }
+});
 test('practical notes stay inside their guide before the notebook, onward links and credits',()=>{
  const notes=JSON.parse(readFileSync('../../kb/research/destinations/visit-readiness.json','utf8')).notes;
  const expected=notes.flatMap(n=>n.routes);

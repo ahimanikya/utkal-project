@@ -12,3 +12,12 @@ function fixture(found=true){
 test('mobile contents selection closes disclosure and focuses destination heading',()=>{const f=fixture();f.handlers.click({});assert.equal(f.details.open,false);assert.equal(f.focused,true);assert.equal(f.attributes.tabindex,'-1');});
 test('Escape returns focus to contents summary',()=>{const f=fixture();f.handlers.keydown(f.event);assert.equal(f.details.open,false);assert.equal(f.summary,true);assert.equal(f.prevented,true);});
 test('modified clicks and missing destinations preserve native behaviour',()=>{for(const e of [{metaKey:true},{ctrlKey:true},{shiftKey:true},{altKey:true},{button:1},{defaultPrevented:true}]){const f=fixture();f.handlers.click(e);assert.equal(f.details.open,true);assert.equal(f.focused,false);}const f=fixture(false);f.handlers.click({});assert.equal(f.details.open,true);});
+test('mobile contents opens a collapsed destination and focuses its visible summary',()=>{
+ const handlers={},summaryAttributes={};let focused=false;
+ const summary={tagName:'SUMMARY',hasAttribute:k=>k in summaryAttributes,setAttribute:(k,v)=>summaryAttributes[k]=v,focus:()=>focused=true};
+ const panel={tagName:'DETAILS',open:false,parentElement:null,querySelector:()=>summary};
+ const link={getAttribute:()=> '#poems-songs',addEventListener:(type,handler)=>handlers[type]=handler};
+ const menu={open:true,addEventListener:()=>{},querySelectorAll:()=>[link]};
+ bindStoryContents(menu,{getElementById:()=>panel});handlers.click({});
+ assert.equal(menu.open,false);assert.equal(panel.open,true);assert.equal(focused,true);assert.equal(summaryAttributes.tabindex,undefined);
+});

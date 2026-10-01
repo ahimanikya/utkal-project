@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-01T13:02:59.327814+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-119",
+  "base_commit": "a899bee",
+  "scope": "Continue the experience/accessibility backlog with visitor-detail contents and reliable links into collapsed panels.",
+  "changes": [
+    "Adopted the existing shared mobile contents component on all 23 published visitor-detail pages; desktop contents and chapter order retained.",
+    "Links to collapsed content reveal the target and enclosing disclosures on arrival, hash changes and ordinary same-page clicks, including repeated clicks.",
+    "Mobile chapter selection reveals hidden destinations before focusing a heading or disclosure summary; Escape behavior retained.",
+    "Initial/hash arrival never steals focus; only newly revealed targets receive explicit positioning. Modified clicks, external paths, query changes, new tabs and downloads keep native behavior.",
+    "Added the reusable navigation lesson to the design-system knowledge."
+  ],
+  "detail_routes": [
+    "/visit/places/dhauli/",
+    "/visit/places/raghurajpur/",
+    "/visit/stays/puri-coast/",
+    "/visit/places/mangalajodi/",
+    "/visit/places/kalijai/",
+    "/visit/places/satapada/",
+    "/visit/experiences/mangalajodi-birdwatching/",
+    "/visit/experiences/kalijai-crossing/",
+    "/visit/experiences/satapada-boating/",
+    "/visit/stays/mangalajodi/",
+    "/visit/stays/barkul-rambha/",
+    "/visit/stays/rajhans-satapada/",
+    "/visit/places/mukteswar/",
+    "/visit/stays/bhubaneswar/",
+    "/visit/places/barabati/",
+    "/visit/experiences/cuttack-filigree/",
+    "/visit/experiences/cuttack-netaji/",
+    "/visit/stays/cuttack/",
+    "/visit/places/chandipur/",
+    "/visit/places/similipal/",
+    "/visit/experiences/mayurbhanj-chhau/",
+    "/visit/stays/balasore-coast/",
+    "/visit/stays/similipal-gateways/"
+  ],
+  "verification": {
+    "full_site_build": "81 draft routes built",
+    "full_site_tests": 356,
+    "coastal_tests": 40,
+    "page_acceptance": "268 checks across 67 published routes passed",
+    "mobile_contents": "All 23 published detail pages contain desktop and mobile controls, with live fragment targets in reading order.",
+    "fragment_behavior": [
+      "nested panels",
+      "Odia and punctuation IDs",
+      "malformed and missing fragments",
+      "repeat click after closing panel",
+      "modified and cancelled clicks",
+      "external/new-tab/download/different-query links",
+      "back/forward hash event",
+      "already visible target",
+      "summary focus with existing tabindex",
+      "mobile menu to collapsed destination",
+      "native summary remains in keyboard tab order"
+    ],
+    "search_boundary": "67 default/candidate comparisons and 11 proposed sitemap URLs pass; noindex remains the normal publication setting."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and checked the candidate; no independent review claimed.",
+    "Browser navigation retry failed because admin-enforced security policy could not be verified. No alternative browser used to bypass the restriction. Visual, real keyboard, screen-reader, zoom and device checks remain open.",
+    "Fragment interaction checks use synthetic DOM elements; they establish handler behavior, not actual browser timing or assistive-technology behavior.",
+    "No research claims, operating conditions, publication scope, private visitor data or search-indexing policy changed."
+  ],
+  "evidence": [
+    "records/evidence/guide-navigation/site-tests.txt",
+    "records/evidence/guide-navigation/edition-tests.txt",
+    "records/evidence/guide-navigation/page-acceptance.json"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated"
+  }
+}

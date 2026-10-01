@@ -201,3 +201,12 @@ Place current-arrangement notes inside the guide’s reading width, alongside th
 For a getting-started guide, keep the first action and consequential limits visible: browser-only storage, backing up and private notes in shared books. Put detailed editing and import semantics in labelled native disclosures. The short reading path should still explain how to begin and what to preserve.
 
 This lesson follows the [first-edition editorial review](../records/first-edition-editorial-review.json). Source/build review only; rendered browser checks remain open. No shared package version change.
+
+
+## One contents pattern, including the smaller guides
+
+Use the compact native contents disclosure on place, experience and stay-area details as well as main destination stories. Keep the desktop links, section names and reading order consistent. Selecting a mobile chapter closes the contents, opens any collapsed destination panels and focuses a visible heading or the destination disclosure’s summary. Escape returns focus to the contents summary.
+
+A link into a collapsed panel should reveal only the panel and its enclosing disclosures. Handle initial links, repeated links and browser history; decode IDs without treating them as selectors. Keep modified clicks, downloads, external links and new tabs native. On initial arrival, reveal and position the target without taking keyboard focus. Leave unrelated panels closed, and respect reduced-motion styles.
+
+[Guide navigation candidate](../records/guide-navigation-review.json) records source/build tests and the outstanding browser check. This is a UTP implementation lesson, not a shared-package release or a completed accessibility audit.
