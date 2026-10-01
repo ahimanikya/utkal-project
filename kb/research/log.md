@@ -81,7 +81,7 @@ Added detailed PRD v0.1.0 as a draft product baseline: vision, audiences, inform
 
 Added the user-agreed technical stack, launch and growth architecture diagrams, decision register and phased upgrade roadmap in the technology collection. Recorded GitHub Pages, Firebase Spark, email photo intake, manual Git publication and the deferral of Blaze, AI chat and paid private backups. Updated architecture entry points and superseded stale contribution guidance. Diagrams are supplied as PNG, SVG and Mermaid source. Structural checks and local visual inspection do not imply public deployment, independent factual certification or human review.
 
-Weekly monitoring: checked all 17 watchlist groups with bounded publisher discovery and direct seed retrieval. Added six FY2025–26 fisheries observations, six March 2026 internet-subscription observations and one production comparison; appended eight March 2026 SCM city observations with unchanged completion counts and an August rare-earth proposal milestone. Added five source/discovery records; preserved failed retrievals and source conflicts in the run report. No historical values overwritten, human review claimed, Git push or website deployment performed.
+Weekly monitoring: checked all 17 watchlist groups with bounded publisher discovery and direct seed retrieval. Added six FY 2025–26 fisheries observations, six March 2026 internet-subscription observations and one production comparison; appended eight March 2026 SCM city observations with unchanged completion counts and an August rare-earth proposal milestone. Added five source/discovery records; preserved failed retrievals and source conflicts in the run report. No historical values overwritten, human review claimed, Git push or website deployment performed.
 
 Expanded research through parallel agents and primary/public institutional sources. Added 340 structured statistical observations, 10 linked calculations, 44 source-capture records and banking snapshots for all 30 districts. Preserved source conflicts, survey vintages, provisional accounts, estimate labels and verification limits. Added offline statistical retrieval and validation, refreshed contribution checks and expanded the existing weekly agent from nine to 17 watchlist tracks without changing its schedule. No claim of exhaustive coverage or human review; no public publishing performed.
 
@@ -241,7 +241,7 @@ Added Chaurasia and Achyuta Samanta profiles, university categories and two 2025
 
 Added a twelve-angle mining hub, five bounded tasks, three source records and nine atlas observations. Preserved IBM value exclusions, a chromite decline, full-year vintage and the six-DMF audit sample. Reused existing production/growth/rare-earth research and recorded unavailable dashboard/revenue fetches. No mine-location census, completed impact study or website release claimed.
 
-## 1 October2026 · Forest food, markets and history
+## 1 October 2026 · Forest food, markets and history
 
 Added four connected topic pages, five source records, thirteen atlas observations (four held conflicting records) and three bounded follow-ups. Reused Koli and recipe records. Visually checked kendu table headers; retained sales decline, inventory scope, capacity/output distinction and unknown current prices. No complete market census, community interviews or website publication.
 
@@ -249,18 +249,22 @@ Added four connected topic pages, five source records, thirteen atlas observatio
 
 Saved three product profiles and three institutional sources. Recorded the user’s explicit clarification that Mohu means honey; separated mahua flowers, seeds and derived uses. Extended the product register to fifteen entries/leads with evidence states. No additional market totals, interviews, completed deep studies or website publication claimed.
 
-## 1 October2026 · Forest seasonal and preparation research
+## 1 October 2026 · Forest seasonal and preparation research
 
 Resumed earliest in-progress RES-056. Added siali profile and three institutional/publisher sources; enhanced honey with a historical community seasonal account and mahua with research-formulation evidence. Failed fetches recorded separately. No recipe invented, market total added, interview claimed or website publication performed.
 
-## 1 October2026 · Whole Odisha scope
+## 1 October 2026 · Whole Odisha scope
 
 Recorded user’s explicit places/people/food/livelihoods/culture/heritage/literature/science/geopolitics/religion/spirituality scope. Added ten reading lenses, two connected collections and one bounded geopolitics task. Reused saved records; nine stable subjects and PRD baseline retained. No web research, new statistics or website change claimed.
 
-## 1 October2026 · Mahua preparation and research processing
+## 1 October 2026 · Mahua preparation and research processing
 
 Recovered a separate full field-study text; enhanced mahua preparation, land-origin and seasonal context. Added OUAT research batch-capacity observation. Recorded unavailable visual/download and ORMAS routes without claiming unchanged data. RES-056 remains in progress; no commercial deployment or website publication claimed.
 
-## 1 October2026 · Rice varieties and economics
+## 1 October 2026 · Rice varieties and economics
 
 Added connected rice and economic reading pages,21 named register entries, five original-publisher sources and10 agriculture observations. Reused Kalajeera and saved production series. Preserved payment/date conflicts and failed fetches. RES-060 is a checkpoint; RES-061/062 pending. No website publication or human review claimed.
+
+## 1 October 2026 · Rice trends and returns
+
+Saved rice trend comparisons and chart, selected district context, experimental cost/return evidence and explicit procurement arithmetic checks. Negative years and precision variants retained. RES-061 remains in progress; no website publication or human review claimed.

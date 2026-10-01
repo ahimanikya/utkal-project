@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T20:10:23.860704+00:00",
+  "updated_at": "2026-10-01T20:19:47.401985+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2604,19 +2604,31 @@
       "title": "Rice economics: crop, procurement and farmer returns",
       "done_when": "Build comparable five-/ten-year rice area, output and yield series; reconcile procurement payment scope and document at least one clearly defined Odisha cost/return case. Retain price bases, marketing years and adverse years.",
       "target": "economy/rice-economy.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-015",
         "RES-029"
       ],
-      "last_worked_at": null,
-      "next_step": "Recover current procurement report and matched historical series; reconcile held payment claims before rupee headlines.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-01T20:19:47.401985+00:00",
+      "next_step": "Reconcile procurement payment timing and scope using settlement records; recover full experimental cost definition or official cost survey. Historical series and five district snapshots are saved; avoid re-extracting them.",
+      "evidence_outputs": [
+        "sources/rice-samant2023.md",
+        "sources/rice-pib-msp2023.md",
+        "stories/rice-productivity.md",
+        "references/data/rice-economy.json"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-rice-trends",
+          "at": "2026-10-01T20:19:47.401985+00:00",
+          "outcome": "trend_and_scoped_economics_checkpoint",
+          "completion_criteria_met": false
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "food/rice-varieties.md",
@@ -2624,7 +2636,10 @@
           "food/koraput-kalajeera-rice.md",
           "statistics/agriculture.md",
           "works/odisha-rice-seed-deployment.md",
-          "references/data/rice-economy.json"
+          "references/data/rice-economy.json",
+          "sources/rice-samant2023.md",
+          "sources/rice-pib-msp2023.md",
+          "stories/rice-productivity.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

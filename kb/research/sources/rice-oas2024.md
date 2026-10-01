@@ -15,3 +15,7 @@ Department of Agriculture and Farmers’ Empowerment, Odisha. Primary PDF text c
 [Original publication](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). Printed p.65 / PDF p.71, Rice and Paddy rows; p.67 / PDF p.73 district table.
 
 [Rice collection](../food/rice-varieties.md).
+
+## Extended capture · 1 October 2026
+
+Printed p.90 supplies the consecutive historical rice series; printed p.67 supplies selected district measures. The detailed and historical 2023–24 columns have different precision and are preserved separately. Direct download timed out; web text was available.

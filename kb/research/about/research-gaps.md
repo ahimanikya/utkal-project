@@ -151,7 +151,7 @@ Pati’s degree dates differ between memorial and thesis catalogue. Mohapatra’
 
 Need Parliament inventory for the Das painting, NGMA report pagination, direct dated Aicon exhibition details and institutional education records for Panda. Resolve the Obama-visit year disagreement with original event evidence. Retain Bagchi advance catalogue metadata separately from the released edition. None of these profiles supplies audited sales, art prices or Odisha-origin garment exports. Women and newer creative voices merit a further bounded addition after reuse checks.
 
-### Creative women gaps · 1 October2026
+### Creative women gaps · 1 October 2026
 
 Susmita Bagchi’s state literary award is dated1992by KLF and1993by Penguin; original issuer record needed. Children of a Better God needs verified translator/imprint credit. Sujata’s official biography failed direct retrieval; indexed origin is labelled. No current popularity, sales, royalties, book stock, streaming access or image rights are inferred. Rituraj Mohanty, Paramita Satpathy and Pankaj Sethi are future candidates, not verified additions in this run.
 
@@ -181,11 +181,11 @@ Public portal snapshot has 16 district IDs / 19 clusters / 61 GP IDs. May press 
 
 ## Community tourism checkpoint · 1 October 2026
 
-Homestay provisional-certificate reports conflict 17/176; original event register and SBI terms missing. Operating outcomes remain unknown; RES-009 retry 8 October. RES-010 recovered Wildlife Odisha 2025 p. 135 programme series, allocation mechanism and participation. Debrigarh-only accounts, actual wages, fixed-site comparability and occupancy denominators remain missing. Reported non-Indian visitor decline retained; partial FY2025–26 not treated as full-year.
+Homestay provisional-certificate reports conflict 17/176; original event register and SBI terms missing. Operating outcomes remain unknown; RES-009 retry 8 October. RES-010 recovered Wildlife Odisha 2025 p. 135 programme series, allocation mechanism and participation. Debrigarh-only accounts, actual wages, fixed-site comparability and occupancy denominators remain missing. Reported non-Indian visitor decline retained; partial FY 2025–26 not treated as full-year.
 
 ## Debrigarh primary-source checkpoint · 1 October 2026
 
-JICA’s 2017 survey supplies historical facility revenue and a 2016 EDC-management observation. PMO’s 30 August 2026 address establishes recognition and attributed conservation participation, not payroll. Recent FY2024–25 ₹5.01/₹5.11 crore scope and 85-family period remain unresolved. RES-010 retries 8 October; independent RES-011 is next. Sambalpur Zoo accounts were excluded from Debrigarh totals.
+JICA’s 2017 survey supplies historical facility revenue and a 2016 EDC-management observation. PMO’s 30 August 2026 address establishes recognition and attributed conservation participation, not payroll. Recent FY 2024–25 ₹5.01/₹5.11 crore scope and 85-family period remain unresolved. RES-010 retries 8 October; independent RES-011 is next. Sambalpur Zoo accounts were excluded from Debrigarh totals.
 
 ## Food preparation checkpoint · 1 October 2026
 
@@ -235,17 +235,17 @@ RES-044–050 add bounded follow-ups for the user’s requested subjects. Initia
 
 RES-051–055 cover dated resources/production, district identities, local processing/work, revenues/DMF, environments/rights/safety/restoration, and history/future materials. First nine observations saved; plant and district mapping, full audit chapter review and service outcomes remain open. [Coverage programme](../economy/mining.md).
 
-## Forest foods and consumables · 1 October2026
+## Forest foods and consumables · 1 October 2026
 
-RES-056–058: ingredient identities/seasons/attributed uses, product markets/collector returns, and history/rights/ecology. Current procurement and exports remain unknown. Reconcile OFDC2019–20 figures and the2001 study geography; retry TDCCOL and2018 full text on2026-10-08. [First checkpoint](../economy/forest-products.md).
+RES-056–058: ingredient identities/seasons/attributed uses, product markets/collector returns, and history/rights/ecology. Current procurement and exports remain unknown. Reconcile OFDC 2019–20 figures and the2001 study geography; retry TDCCOL and 2018 full text on 2026-10-08. [First checkpoint](../economy/forest-products.md).
 
 ### Named forest products · 1 October 2026
 
-Mohu means honey per user clarification. Three profiles and fifteen product entries/leads are saved. Local seasons, community-attributed preparations, collector prices, current procurement and exports remain open; no new task duplicates added. NIScPR mahua paper timed out; retry2026-10-08.
+Mohu means honey per user clarification. Three profiles and fifteen product entries/leads are saved. Local seasons, community-attributed preparations, collector prices, current procurement and exports remain open; no new task duplicates added. NIScPR mahua paper timed out; retry 2026-10-08.
 
 ### RES-056 seasonal checkpoint
 
-A historical Hill Kharia honey calendar and a2016 mahua food-development abstract are saved, with a siali identity/fibre profile. Full recipe methods, current local seasons and SCSTRTI date provenance remain open. Failed garden, repository metadata and producer-company routes have2026-10-08 retries; independent research can continue.
+A historical Hill Kharia honey calendar and a 2016 mahua food-development abstract are saved, with a siali identity/fibre profile. Full recipe methods, current local seasons and SCSTRTI date provenance remain open. Failed garden, repository metadata and producer-company routes have 2026-10-08 retries; independent research can continue.
 
 ## Geopolitics and explicit reading areas
 
@@ -253,8 +253,12 @@ RES-059 covers missing geopolitical synthesis through existing maritime/port/min
 
 ### Forest-food preparation checkpoint
 
-Mahua now has an attributed cake description and historical local harvest window. Practical cooking endpoints, local review and sal/siali seasonal detail remain open in RES-056. ORMAS honey procurement PDF failed two routes; RES-057 retains the unverified lead and2026-10-08 retry. No collector-income estimate inferred.
+Mahua now has an attributed cake description and historical local harvest window. Practical cooking endpoints, local review and sal/siali seasonal detail remain open in RES-056. ORMAS honey procurement PDF failed two routes; RES-057 retains the unverified lead and 2026-10-08 retry. No collector-income estimate inferred.
 
 ### Rice, varieties and economics
 
-RES-060–062 now cover dated cultivation, culinary uses, comparable series, producer costs, procurement reconciliation and origin-attributed trade. A21-entry starting register and10 scoped observations are saved. Current acreage, margins and exports remain unknown. The2025–26 procurement report route needs retry on2026-10-08; no fresh2026 procurement claim.
+RES-060–062 now cover dated cultivation, culinary uses, comparable series, producer costs, procurement reconciliation and origin-attributed trade. A21-entry starting register and10 scoped observations are saved. Current acreage, margins and exports remain unknown. The 2025–26 procurement report route needs retry on 2026-10-08; no fresh 2026 procurement claim.
+
+## 1 October 2026 · Rice trends and returns
+
+RES-061 now has consecutive rice observations, five district snapshots and an abstract-level experimental economics case. Full cost definitions, farmer representativeness and procurement payment reconciliation remain open. Official cost-survey fetch failed twice; retry 2026-10-08.

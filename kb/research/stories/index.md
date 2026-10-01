@@ -14,3 +14,5 @@
 - [Narrative candidates](narratives/index.md) — structured story drafts for the website.
 
 - [Odisha’s Best-Kept Secret — The Art of Cooking with Fire](odisha-poda-country.md) — story, poster and video-script drafts, with an evidence collection.
+
+[More rice from each hectare](rice-productivity.md) — a same-publication trend with annual declines visible.

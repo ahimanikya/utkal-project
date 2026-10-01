@@ -4212,6 +4212,16 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-productivity",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6006,6 +6016,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects variety identity and seed keeping to economic measures without assuming a price premium or causal income gain."
+    },
+    {
+      "from": "stories/rice-productivity",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects statewide crop trends with economic definitions; higher yield alone does not establish higher farmer profit."
     }
   ],
   "relationship_types": {

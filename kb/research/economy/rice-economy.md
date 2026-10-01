@@ -43,3 +43,17 @@ A retail premium is not the farmer’s premium. Farm receipts minus clearly defi
 The report’s partial KMS 2024–25 payment/quantity snapshot and its KMS 2023–24 aggregate payment claim need reconciliation before any rupee-scale market headline. These are saved as held claims in the [register](../references/data/rice-economy.json). The 2025–26 report link failed to open; this edition is a historical baseline, not a claim that procurement is current to 2026.
 
 Next work: a comparable five-/ten-year production series; district patterns; farmer cost and margin evidence; premium-variety transactions and attributable exports. [Rice identities and seed keepers](../food/rice-varieties.md) provide the cultural and agricultural context.
+
+## Comparable trends: growth with setbacks
+
+[The rice productivity story](../stories/rice-productivity.md) provides a chart and five-/ten-year comparisons from the same historical table. Every intervening year is preserved. Detailed 2023–24 figures above and whole-thousand historical-table values remain separately labelled precision variants from one publication.
+
+## Yield and profit can move differently
+
+Samant and colleagues report a coastal Odisha experiment in 2019–20 and 2020–21: transplanted rice had higher yield, but direct-seeded rice had higher reported net return. Transplanting’s mean cost was ₹77,816/ha and gross return ₹112,353/ha; direct seeding’s reported net return was ₹39,121/ha. [Original ORYZA abstract, published 30 June 2023](https://epubs.icar.org.in/index.php/OIJR/article/view/138554).
+
+This is a study-period experimental comparison. The full itemised cost basis and price schedule are still needed before interpreting it as an all-cost profit comparison, a representative household outcome or a current budget. It does not justify choosing a farming method without local agronomic advice.
+
+## Procurement payment reconciliation remains open
+
+Matching the saved 2023–24 procurement volume with that year’s common/Grade-A MSP gives a simple MSP-only range of ₹15,475–15,617 crore. The department’s₹16,883.03-crore payment claim sits outside that range. Payment dates, adjustments and coverage must be reconciled; the calculation is a diagnostic, not a replacement payment total. [Matching MSP release](https://www.pib.gov.in/newsite/erelcontent.aspx?relid=244453&reg=3&lang=2). The partial 2024–25 quantity/payment pair also fails a simple matched-rate check. Both remain held in the register.

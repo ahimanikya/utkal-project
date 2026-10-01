@@ -15705,6 +15705,54 @@
         "rice-fscw2025"
       ],
       "added_at": "2026-10-01T20:10:23.860704+00:00"
+    },
+    {
+      "id": "sources/rice-samant2023",
+      "title": "Rice establishment and nutrient management economics in coastal Odisha",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-samant2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-samant2023"
+      ],
+      "added_at": "2026-10-01T20:19:47.401985+00:00"
+    },
+    {
+      "id": "sources/rice-pib-msp2023",
+      "title": "Union Cabinet approves MSP for Kharif Crops for Marketing Season2023–24",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-pib-msp2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-pib-msp2023"
+      ],
+      "added_at": "2026-10-01T20:19:47.401985+00:00"
+    },
+    {
+      "id": "stories/rice-productivity",
+      "title": "More rice from each hectare: Odisha’s changing harvest",
+      "kind": "Statistical Story",
+      "layer": "research_concept",
+      "source_path": "stories/rice-productivity.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "rice-oas2024"
+      ],
+      "added_at": "2026-10-01T20:19:47.401985+00:00"
     }
   ],
   "shared_publications": [
@@ -16901,11 +16949,14 @@
         "food/koraput-kalajeera-rice.md",
         "statistics/agriculture.md",
         "works/odisha-rice-seed-deployment.md",
-        "references/data/rice-economy.json"
+        "references/data/rice-economy.json",
+        "sources/rice-samant2023.md",
+        "sources/rice-pib-msp2023.md",
+        "stories/rice-productivity.md"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable five-/ten-year rice area, output and yield series; reconcile procurement payment scope and document at least one clearly defined Odisha cost/return case. Retain price bases, marketing years and adverse years.",
-      "status_unchanged": "pending",
+      "status_unchanged": "in_progress",
       "instruction": "Extend saved rice fields; no duplicate Kalajeera concept or production observations."
     },
     {
@@ -16940,8 +16991,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1089,
-    "updated_at": "2026-10-01T20:10:23.860704+00:00",
+    "records_mapped": 1092,
+    "updated_at": "2026-10-01T20:19:47.401985+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17337,6 +17388,11 @@
       "run_id": "2026-10-01-rice-research",
       "at": "2026-10-01T20:10:23.860704+00:00",
       "scope": "Rice source/identity/economics extension after saved-map search; existing Kalajeera and seed deployment reused."
+    },
+    {
+      "run_id": "2026-10-01-rice-trends",
+      "at": "2026-10-01T20:19:47.401985+00:00",
+      "scope": "RES-061 missing trends and return definitions; existing rice identities and sources reused."
     }
   ]
 }

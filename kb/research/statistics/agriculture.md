@@ -71,4 +71,6 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 [Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
 
-[Rice economics](../economy/rice-economy.md) adds a2023–24 production baseline and KMS procurement/price evidence with rice and paddy kept separate. Exact observations are in the atlas; current variety-level prices and profit remain unknown.
+[Rice economics](../economy/rice-economy.md) adds a 2023–24 production baseline and KMS procurement/price evidence with rice and paddy kept separate. Exact observations are in the atlas; current variety-level prices and profit remain unknown.
+
+[Rice’s comparable historical trend](../stories/rice-productivity.md) now retains consecutive annual observations and adverse years. [Rice economics](../economy/rice-economy.md) separates those crop measures from experimental returns and unresolved procurement payments.

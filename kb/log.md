@@ -175,3 +175,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Rice varieties and economics
 
 [Research receipt](records/rice-research-2026-10-01.json): Variety identities and economic baselines added; farmer returns and exports remain unresolved. No website release.
+
+## 1 October 2026 · Rice trends and farmer returns
+
+[Research receipt](records/rice-trends-2026-10-01.json): Historical series and experimental economics added; payment reconciliation and full cost definitions remain unresolved. No website release.

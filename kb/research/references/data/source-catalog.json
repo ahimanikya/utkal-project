@@ -4823,7 +4823,14 @@
     "publication_period": null,
     "locator": "Printed p.65 / PDF p.71, Rice and Paddy rows; p.67 / PDF p.73 district table",
     "capture_method": "primary_publisher_selected_passages",
-    "capture_note": "Primary PDF text checked. Separate area, rice and paddy columns; physical quantities, not revenue. Direct PDF download timed out; web text available."
+    "capture_note": "Primary PDF text checked. Separate area, rice and paddy columns; physical quantities, not revenue. Direct PDF download timed out; web text available.",
+    "extended_capture_history": [
+      {
+        "at": "2026-10-01T20:19:47.401985+00:00",
+        "locator": "Printed p.90 / PDF p.96, total A/Y/P(Rice); printed p.67 / PDF p.73, selected districts",
+        "scope": "Historical table uses whole thousands for area/output. Preserve precision separately from p.65; same publication, not corroboration. Web text available; direct download timed out."
+      }
+    ]
   },
   "rice-nrri-aromatic2022": {
     "id": "rice-nrri-aromatic2022",
@@ -4848,5 +4855,27 @@
     "locator": "Named rows in High Yielding Rice Varieties and Hybrids table",
     "capture_method": "primary_publisher_selected_passages",
     "capture_note": "Undated institutional list. Release/recommendation evidence, not current acreage or realised yields. Selected variety names and ecologies only."
+  },
+  "rice-pib-msp2023": {
+    "id": "rice-pib-msp2023",
+    "title": "Union Cabinet approves MSP for Kharif Crops for Marketing Season2023–24",
+    "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=244453&reg=3&lang=2",
+    "publisher": "Ministry of Agriculture and Farmers Welfare / Press Information Bureau",
+    "published_on": "2023-06-07",
+    "accessed_on": "2026-10-01",
+    "locator": "KMS2023–24 table, common and Grade-A paddy rows",
+    "capture_method": "primary_publisher_html",
+    "capture_note": "Historical national policy rates applied only to the matching marketing year. All-India cost basis in the release is not an Odisha farm cost observation."
+  },
+  "rice-samant2023": {
+    "id": "rice-samant2023",
+    "title": "Rice establishment and nutrient management economics in coastal Odisha",
+    "resource": "https://epubs.icar.org.in/index.php/OIJR/article/view/138554",
+    "publisher": "T. K. Samant, L. M. Garnayak, R. K. Paikaray, P. J. Mishra and B. S. Rath; ORYZA 60(2),325–331",
+    "published_on": "2023-06-30",
+    "accessed_on": "2026-10-01",
+    "locator": "Publisher abstract, experimental methods and profitability results",
+    "capture_method": "primary_publisher_html",
+    "capture_note": "2019–20 and2020–21 coastal Odisha experiment, three replications. Abstract available; full itemised cost basis not obtained. Experimental means are not statewide earnings or a current forecast."
   }
 }

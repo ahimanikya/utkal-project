@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T20:10:23.860704+00:00",
+  "updated_at": "2026-10-01T20:19:47.401985+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4298,6 +4298,51 @@
       "run_id": "2026-10-01-rice-research",
       "status": "partial",
       "scope": "Indexed2025–26 annual-report link failed; direct homepage capture lacks that link. Current report not verified.2024–25 report downloaded separately.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-oas2024",
+      "discovery_url": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "partial",
+      "scope": "Historical and district tables read through primary PDF web text; direct file download timed out. No visual verification claimed.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-samant2023",
+      "discovery_url": "https://epubs.icar.org.in/index.php/OIJR/article/view/138554",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "available",
+      "scope": "2019–20 and2020–21 coastal Odisha experiment, three replications. Abstract available; full itemised cost basis not obtained. Experimental means are not statewide earnings or a current forecast.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-pib-msp2023",
+      "discovery_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=244453&reg=3&lang=2",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "available",
+      "scope": "Historical national policy rates applied only to the matching marketing year. All-India cost basis in the release is not an Odisha farm cost observation.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://desagri.gov.in/document-report/cost-of-cultivation-production-and-related-data-2021-22/",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "unavailable",
+      "scope": "Web and direct fetch timed out; no cost dataset values admitted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://desagri.gov.in/wp-content/uploads/2024/04/FHP-Publication-for-the-Year-2022-23.pdf",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "unavailable",
+      "scope": "Web fetch timeout. Search excerpt is a lead only.",
       "retry_after": "2026-10-08"
     }
   ]

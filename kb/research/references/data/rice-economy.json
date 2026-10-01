@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-01T20:10:23.860704+00:00",
+  "updated_at": "2026-10-01T20:19:47.401985+00:00",
   "scope": "Starting rice identities and economic evidence, not an exhaustive Odisha variety census or completed market study",
   "varieties": [
     {
@@ -434,7 +434,62 @@
     "rice-millers2024",
     "rice-msp-common2025",
     "rice-msp-grade-a2025",
-    "rice-assistance2025"
+    "rice-assistance2025",
+    "rice-series-area-2012-13",
+    "rice-series-yield-2012-13",
+    "rice-series-production-2012-13",
+    "rice-series-area-2013-14",
+    "rice-series-yield-2013-14",
+    "rice-series-production-2013-14",
+    "rice-series-area-2014-15",
+    "rice-series-yield-2014-15",
+    "rice-series-production-2014-15",
+    "rice-series-area-2015-16",
+    "rice-series-yield-2015-16",
+    "rice-series-production-2015-16",
+    "rice-series-area-2016-17",
+    "rice-series-yield-2016-17",
+    "rice-series-production-2016-17",
+    "rice-series-area-2017-18",
+    "rice-series-yield-2017-18",
+    "rice-series-production-2017-18",
+    "rice-series-area-2018-19",
+    "rice-series-yield-2018-19",
+    "rice-series-production-2018-19",
+    "rice-series-area-2019-20",
+    "rice-series-yield-2019-20",
+    "rice-series-production-2019-20",
+    "rice-series-area-2020-21",
+    "rice-series-yield-2020-21",
+    "rice-series-production-2020-21",
+    "rice-series-area-2021-22",
+    "rice-series-yield-2021-22",
+    "rice-series-production-2021-22",
+    "rice-series-area-2022-23",
+    "rice-series-yield-2022-23",
+    "rice-series-production-2022-23",
+    "rice-series-area-2023-24",
+    "rice-series-production-2023-24",
+    "rice-district-bargarh-area2024",
+    "rice-district-bargarh-yield2024",
+    "rice-district-bargarh-production2024",
+    "rice-district-kalahandi-area2024",
+    "rice-district-kalahandi-yield2024",
+    "rice-district-kalahandi-production2024",
+    "rice-district-mayurbhanj-area2024",
+    "rice-district-mayurbhanj-yield2024",
+    "rice-district-mayurbhanj-production2024",
+    "rice-district-ganjam-area2024",
+    "rice-district-ganjam-yield2024",
+    "rice-district-ganjam-production2024",
+    "rice-district-koraput-area2024",
+    "rice-district-koraput-yield2024",
+    "rice-district-koraput-production2024",
+    "rice-samant-tpr-cost",
+    "rice-samant-tpr-gross",
+    "rice-samant-dsr-net",
+    "rice-msp-common2024",
+    "rice-msp-grade-a2024"
   ],
   "reused_observation_ids": [
     "nature-rice-2020-21",
@@ -500,8 +555,35 @@
           "description": "MSP payment claimed"
         }
       ],
-      "status": "held_for_payment_quantity_scope_reconciliation",
-      "reason": "No verified reconciliation to volumes and applicable rates; do not headline market value or profit."
+      "status": "held_after_arithmetic_scope_check",
+      "reason": "No verified reconciliation to volumes and applicable rates; do not headline market value or profit.",
+      "reconciliation_checks": [
+        {
+          "inputs": [
+            "rice-procurement2024",
+            "rice-msp-common2024",
+            "rice-msp-grade-a2024"
+          ],
+          "formula": "7088950 tonnes ×10 quintals/tonne × MSP /10000000 rupees per crore",
+          "msponly_lower_crore": 15475.17785,
+          "msponly_upper_crore": 15616.95685,
+          "reported_payment_crore": 16883.03,
+          "interpretation": "Reported payment exceeds simple matched-volume MSP range. Timing, grades, adjustments and scope unresolved; neither replace the source nor infer fraud."
+        },
+        {
+          "inputs": [
+            "rice-msp-common2025",
+            "rice-msp-grade-a2025"
+          ],
+          "source_id": "rice-fscw2025",
+          "locator": "p.8 table, quantity3103646MT and narrative payment6516.28crore",
+          "formula": "3103646 ×10 × MSP /10000000",
+          "msponly_lower_crore": 7138.3858,
+          "msponly_upper_crore": 7200.45872,
+          "reported_payment_crore": 6516.28,
+          "interpretation": "Partial-period narrative payment is below simple quantity-times-MSP range; settlement scope not known."
+        }
+      ]
     }
   ],
   "source_checks": [
@@ -553,6 +635,42 @@
       "reason": "Indexed2025–26 annual-report link failed; direct homepage capture lacks that link. Current report not verified.2024–25 report downloaded separately.",
       "retrieved_on": "2026-10-01",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-oas2024",
+      "url": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf",
+      "status": "partial",
+      "scope": "Historical and district tables read through primary PDF web text; direct file download timed out. No visual verification claimed.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-samant2023",
+      "url": "https://epubs.icar.org.in/index.php/OIJR/article/view/138554",
+      "status": "available",
+      "scope": "2019–20 and2020–21 coastal Odisha experiment, three replications. Abstract available; full itemised cost basis not obtained. Experimental means are not statewide earnings or a current forecast.",
+      "retrieved_on": "2026-10-01"
+    },
+    {
+      "source_id": "rice-pib-msp2023",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=244453&reg=3&lang=2",
+      "status": "available",
+      "scope": "Historical national policy rates applied only to the matching marketing year. All-India cost basis in the release is not an Odisha farm cost observation.",
+      "retrieved_on": "2026-10-01"
+    },
+    {
+      "url": "https://desagri.gov.in/document-report/cost-of-cultivation-production-and-related-data-2021-22/",
+      "status": "unavailable",
+      "reason": "Web and direct fetch timed out; no cost dataset values admitted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://desagri.gov.in/wp-content/uploads/2024/04/FHP-Publication-for-the-Year-2022-23.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch timeout. Search excerpt is a lead only.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
     }
   ],
   "gaps": [
@@ -568,6 +686,293 @@
       "run_id": "2026-10-01-rice-research",
       "at": "2026-10-01T20:10:23.860704+00:00",
       "scope": "Initial21-entry register and10 agriculture observations; existing Kalajeera and production facts reused."
+    },
+    {
+      "run_id": "2026-10-01-rice-trends",
+      "at": "2026-10-01T20:19:47.401985+00:00",
+      "scope": "Historical series, five district snapshots, scoped experimental economics and procurement arithmetic checks. Payment reconciliation and full cost basis remain unresolved."
+    }
+  ],
+  "production_series": {
+    "source_id": "rice-oas2024",
+    "rows": [
+      {
+        "period": "2012-13",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 4023,
+          "yield": 2361,
+          "production": 9497
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2012-13",
+          "yield": "rice-series-yield-2012-13",
+          "production": "rice-series-production-2012-13"
+        }
+      },
+      {
+        "period": "2013-14",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 4180,
+          "yield": 1821,
+          "production": 7613
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2013-14",
+          "yield": "rice-series-yield-2013-14",
+          "production": "rice-series-production-2013-14"
+        }
+      },
+      {
+        "period": "2014-15",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 4166,
+          "yield": 2363,
+          "production": 9845
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2014-15",
+          "yield": "rice-series-yield-2014-15",
+          "production": "rice-series-production-2014-15"
+        }
+      },
+      {
+        "period": "2015-16",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 3941,
+          "yield": 1491,
+          "production": 5875
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2015-16",
+          "yield": "rice-series-yield-2015-16",
+          "production": "rice-series-production-2015-16"
+        }
+      },
+      {
+        "period": "2016-17",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 3963,
+          "yield": 2472,
+          "production": 9794
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2016-17",
+          "yield": "rice-series-yield-2016-17",
+          "production": "rice-series-production-2016-17"
+        }
+      },
+      {
+        "period": "2017-18",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 3766,
+          "yield": 1739,
+          "production": 6551
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2017-18",
+          "yield": "rice-series-yield-2017-18",
+          "production": "rice-series-production-2017-18"
+        }
+      },
+      {
+        "period": "2018-19",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 3859,
+          "yield": 2004,
+          "production": 7734
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2018-19",
+          "yield": "rice-series-yield-2018-19",
+          "production": "rice-series-production-2018-19"
+        }
+      },
+      {
+        "period": "2019-20",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 3941,
+          "yield": 2475,
+          "production": 9755
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2019-20",
+          "yield": "rice-series-yield-2019-20",
+          "production": "rice-series-production-2019-20"
+        }
+      },
+      {
+        "period": "2020-21",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 4029,
+          "yield": 2730,
+          "production": 10999
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2020-21",
+          "yield": "rice-series-yield-2020-21",
+          "production": "rice-series-production-2020-21"
+        }
+      },
+      {
+        "period": "2021-22",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 3947,
+          "yield": 2354,
+          "production": 9291
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2021-22",
+          "yield": "rice-series-yield-2021-22",
+          "production": "rice-series-production-2021-22"
+        }
+      },
+      {
+        "period": "2022-23",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 4065,
+          "yield": 2936,
+          "production": 11933
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2022-23",
+          "yield": "rice-series-yield-2022-23",
+          "production": "rice-series-production-2022-23"
+        }
+      },
+      {
+        "period": "2023-24",
+        "source_id": "rice-oas2024",
+        "locator": "Printed p.90 / PDF p.96, total columns",
+        "reported_values": {
+          "area": 4087,
+          "yield": 2823,
+          "production": 11538
+        },
+        "observation_ids": {
+          "area": "rice-series-area-2023-24",
+          "yield": "rice-yield2024",
+          "production": "rice-series-production-2023-24"
+        }
+      }
+    ],
+    "units": {
+      "area": "thousand hectares",
+      "yield": "kg/hectare",
+      "production": "thousand metric tonnes"
+    },
+    "scope": "All12 consecutive rows2012–13 to2023–24; p.90 precision, distinct from detailed p.65 snapshot",
+    "rounding_relationship": "2023–24 area4087 vs4087.05 and rice11538 vs11538.70 are precision variants in one publication, not independent measurements."
+  },
+  "district_snapshots": [
+    {
+      "district": "Bargarh",
+      "period": "2023-24",
+      "observation_ids": {
+        "area": "rice-district-bargarh-area2024",
+        "yield": "rice-district-bargarh-yield2024",
+        "production": "rice-district-bargarh-production2024"
+      }
+    },
+    {
+      "district": "Kalahandi",
+      "period": "2023-24",
+      "observation_ids": {
+        "area": "rice-district-kalahandi-area2024",
+        "yield": "rice-district-kalahandi-yield2024",
+        "production": "rice-district-kalahandi-production2024"
+      }
+    },
+    {
+      "district": "Mayurbhanj",
+      "period": "2023-24",
+      "observation_ids": {
+        "area": "rice-district-mayurbhanj-area2024",
+        "yield": "rice-district-mayurbhanj-yield2024",
+        "production": "rice-district-mayurbhanj-production2024"
+      }
+    },
+    {
+      "district": "Ganjam",
+      "period": "2023-24",
+      "observation_ids": {
+        "area": "rice-district-ganjam-area2024",
+        "yield": "rice-district-ganjam-yield2024",
+        "production": "rice-district-ganjam-production2024"
+      }
+    },
+    {
+      "district": "Koraput",
+      "period": "2023-24",
+      "observation_ids": {
+        "area": "rice-district-koraput-area2024",
+        "yield": "rice-district-koraput-yield2024",
+        "production": "rice-district-koraput-production2024"
+      }
+    }
+  ],
+  "trend_calculation_ids": [
+    "rice-ten-year-area",
+    "rice-ten-year-yield",
+    "rice-ten-year-production",
+    "rice-five-year-area",
+    "rice-five-year-yield",
+    "rice-five-year-production",
+    "rice-latest-year-area",
+    "rice-latest-year-yield",
+    "rice-latest-year-production"
+  ],
+  "cost_return_cases": [
+    {
+      "id": "samant-coastal2019-2021",
+      "source_id": "rice-samant2023",
+      "evidence_class": "experimental_mean_abstract_only",
+      "period": "2019–20 and2020–21",
+      "observation_ids": [
+        "rice-samant-tpr-cost",
+        "rice-samant-tpr-gross",
+        "rice-samant-dsr-net"
+      ],
+      "cost_definition": "Itemised inclusions unavailable; cannot equate to C2 or a cash-only budget",
+      "finding": "Transplanting had higher yield while direct seeding had higher reported net return; economics need more than yield.",
+      "full_text_review": false,
+      "representative_statewide": false
+    }
+  ],
+  "visuals": [
+    {
+      "id": "rice-output-trend",
+      "paths": [
+        "references/figures/rice-output-trend.png",
+        "references/figures/rice-output-trend.svg"
+      ],
+      "inputs": "production_series.rows",
+      "source_id": "rice-oas2024",
+      "conversion": "thousand tonnes /100 = lakh tonnes",
+      "chart": "All annual values2012–13 to2023–24; zero-based vertical axis; no smoothed trend or causal claim",
+      "rights": "Original chart by Codex using cited statistical facts",
+      "human_reviewed": false
     }
   ]
 }

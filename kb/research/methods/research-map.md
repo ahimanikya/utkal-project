@@ -126,7 +126,7 @@ Two people, three works and six sources extend the map to 864. Existing NISER so
 
 Four new identities, five works, one collection and ten source records extend the map to 884. Source and repository-native name searches preceded research; Ray and Pattnaik reused. Bagchi editions are separate from first-publication claims. Several CFDA articles remain one publisher family, not independent corroboration. RES-034 records the explicit user addition; RES-029 remains in progress.
 
-### Creative women extension · 1 October2026
+### Creative women extension · 1 October 2026
 
 Four people, five work/performance records and twelve sources extend the map to 905. Existing contemporary collection and Jatin Das/Ray/Kelucharan profiles reused. Festival selection is not an award; performer is not automatically choreographer; translated work retains unresolved translator rather than assigning the author that role. Source/project name searches preceded browsing.
 
@@ -212,18 +212,22 @@ RES-043 distinguishes RPRC’s attributed Asia-largest cactus collection from an
 
 Added kendu-patra, Mohu/honey and mahua/mohula profiles and three sources. The user clarified Mohu as honey. Reused existing sales and plant-processing observations; RES-056–058 now point to these records. Fifteen product entries include unverified leads and are not a statewide inventory.
 
-### Seasonal forest research · 1 October2026
+### Seasonal forest research · 1 October 2026
 
 RES-056 enhanced existing honey and mahua profiles, added siali and three source records. Botanical identities, historical descriptions and research-developed foods retain separate evidence classes. No new market statistics or duplicate task IDs.
 
-### Encyclopedia scope clarification · 1 October2026
+### Encyclopedia scope clarification · 1 October 2026
 
 Three editorial records make the user’s broad scope visible. Reused literary, science, faith, maritime, mineral and people research. RES-059 adds missing geopolitical synthesis; existing religion tasks and canonical records remain intact. No fresh facts or publication approval inferred.
 
-### Mahua preparation recovery · 1 October2026
+### Mahua preparation recovery · 1 October 2026
 
-Two sources enhance the existing mahua profile. A2009 field account published2016 supplies local collection and preparation context; OUAT2020–21 supplies a research-unit rating. Neither duplicates the earlier food-development abstract. Existing food and task identities retained.
+Two sources enhance the existing mahua profile. A2009 field account published 2016 supplies local collection and preparation context; OUAT 2020–21 supplies a research-unit rating. Neither duplicates the earlier food-development abstract. Existing food and task identities retained.
 
-### Rice extension · 1 October2026
+### Rice extension · 1 October 2026
 
 RES-060–062 reuse Kalajeera, agriculture observations and rice seed deployment. New register separates21 named identities by evidence type. Bulletin and old-domain release page are institutional sources, not independent verification of the same statement. Only missing fields are scheduled.
+
+## 1 October 2026 · Rice trends and returns
+
+Rice trend extension reuses the existing source and register. Historical-table precision variants are linked, not treated as independent evidence. RES-061 now has saved trend and experimental-economics pointers.
