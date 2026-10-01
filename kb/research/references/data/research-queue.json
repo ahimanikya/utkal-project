@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T21:48:42.046297+00:00",
+  "updated_at": "2026-10-01T21:50:57.277209+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1678,7 +1678,7 @@
       "attempts": 3,
       "dependencies": [],
       "last_worked_at": "2026-10-01T21:38:31.291164+00:00",
-      "next_step": "Retain tala khaja unresolved; seek a named local or documentary equivalence after 8 October. Next eligible independent in-progress task is RES-044; RES-040 retry remains 8 October.",
+      "next_step": "Preserve user clarification: later/final seed-food stage, different from ice apple. Seek documentary khaja/gaja equivalence and detailed preparation after8October; continue independently with RES-044.",
       "evidence_outputs": [
         "sources/food-badi-sasmita2017.md",
         "sources/food-soul-pritisha2024.md",
@@ -1701,7 +1701,7 @@
         "food/talagaja.md"
       ],
       "retry_after": "2026-10-08",
-      "blocker": "Documented Talagaja seed stage found, but exact equivalence to user-supplied tala khaja and local/Odia wording remain unverified.",
+      "blocker": "User intended food stage is clarified; documentary khaja/gaja equivalence, precise anatomy and local/Odia wording remain unverified.",
       "attempt_history": [
         {
           "run_id": "2026-10-01-everyday-food",
@@ -1747,6 +1747,12 @@
           "at": "2026-10-01T21:48:42.046297+00:00",
           "type": "user_image_reference",
           "scope": "Visual reference supplied; no new identity, local spelling or preparation confirmation."
+        },
+        {
+          "run_id": "2026-10-01-palm-stage",
+          "at": "2026-10-01T21:50:57.277209+00:00",
+          "type": "user_stage_distinction",
+          "scope": "User explicitly identifies later/final seed-food stage, distinct from ice apple. Precise anatomy and documentary khaja/gaja equivalence remain open."
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:48:42.046297+00:00",
+  "updated_at": "2026-10-01T21:50:57.277209+00:00",
   "run_id": "2026-10-01-palm-seed",
   "scope": "Attributed everyday-food seed; distinct from the completed fourteen-entry preparation set. Not an inventory of all Odisha foods.",
   "records": [
@@ -277,14 +277,14 @@
   "unresolved_names": [
     {
       "name": "tala khaja",
-      "user_clarification": "khaja is seed produce",
+      "user_clarification": "Seed produce in the later/final food stage, distinct from ice apple; clarified by Ahimanikya with the supplied image.",
       "clarified_on": "2026-10-01",
       "evidence_class": "user_supplied_research_lead",
       "food_family": "palm-seed food",
-      "seed_stage": null,
+      "seed_stage": "late/final seed-food stage, as described by the user",
       "equivalence_to_tala_gaja": null,
       "local_odia_review": "pending",
-      "next_action": "Use the supplied image to seek attributable local name and seed-stage confirmation. Exact botanical anatomy and khaja/gaja equivalence remain open.",
+      "next_action": "Preserve the confirmed intended distinction from ice apple; research exact botanical anatomy, preparation and documentary khaja/gaja name equivalence.",
       "comparison_candidate": {
         "concept_id": "food/talagaja",
         "source_id": "food-palm-panda2021",
@@ -295,15 +295,34 @@
         "attachment_basename": "codex-clipboard-c6a40a3d-978e-4768-95cd-ccc7e466001f.png",
         "sha256": "e6c92a7092a4f0b6b133c0ba69710495adc01b8b642dd49a740b3de9f5c88fe5",
         "evidence_class": "user_supplied_visual_research_lead",
-        "context": "Image supplied immediately after the Talagaja comparison; association with tala khaja is inferred from conversation context, not an explicit new caption.",
+        "context": "User supplied this image, then explicitly clarified that it represents the last food stage, different from ice apple.",
         "visible_features": "Split dark fibrous covering with white interior exposed.",
         "species_confirmation": false,
-        "seed_stage_confirmation": false,
+        "seed_stage_confirmation": "user_reported_late_stage; independent_botanical_confirmation_pending",
         "local_name_equivalence_confirmed": false,
         "original_creator_verified": false,
         "public_reuse_rights": "not_established",
         "public_image_asset_created": false
-      }
+      },
+      "clarification_history": [
+        {
+          "date": "2026-10-01",
+          "quote": "khaja is seed produce",
+          "basis": "user_statement"
+        },
+        {
+          "date": "2026-10-01",
+          "quote": "This the last cycle of the food - different than ice apple",
+          "basis": "user_statement_following_image"
+        }
+      ],
+      "seed_stage_evidence": "user_attributed_clarification; precise botanical anatomy not independently confirmed",
+      "distinct_from": [
+        {
+          "name": "ice apple",
+          "basis": "explicit user clarification on 2026-10-01"
+        }
+      ]
     }
   ]
 }

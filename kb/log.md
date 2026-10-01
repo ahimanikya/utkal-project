@@ -199,3 +199,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Palm-seed visual reference
 
 [Research receipt](records/palm-image-2026-10-01.json): User image referenced by hash and visible features; no photograph published or botanical identity confirmed. No website release.
+
+## 1 October 2026 · Palm-food stage clarification
+
+[Research receipt](records/palm-stage-2026-10-01.json): User clarified the intended late seed-food stage, distinct from ice apple; exact botanical anatomy remains open. No website release.

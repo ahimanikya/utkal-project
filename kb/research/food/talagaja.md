@@ -23,7 +23,7 @@ The study involved 93 interviewees in selected areas of ten named Odisha distric
 
 ## Relationship to the user’s tala khaja lead
 
-Ahimanikya identified **tala khaja** as seed produce. That remains a distinct, unresolved name in [everyday food culture](everyday-food-culture.md). Talagaja is a documented comparison candidate; equivalence, local spelling and the intended seed stage have not been confirmed. It is not merged with khaja pastry.
+Ahimanikya identified **tala khaja** as seed produce. That remains a distinct, unresolved name in [everyday food culture](everyday-food-culture.md). Talagaja is a documented comparison candidate; equivalence and local spelling remain unconfirmed. The user has clarified the intended late seed-food stage, distinct from ice apple. It is not merged with khaja pastry.
 
 The [tala pitha entry](tala-pitha.md) covers ripe-fruit preparations. Connecting the two helps explain maturity stages without treating them as interchangeable foods. Current prices, commercial volumes and exports remain unknown.
 
@@ -31,4 +31,8 @@ The [tala pitha entry](tala-pitha.md) covers ripe-fruit preparations. Connecting
 
 ## User-supplied visual reference · 1 October 2026
 
-An image supplied in this discussion shows a split dark fibrous covering and a white interior. In conversation context it clarifies the visual referent for the tala khaja lead; no new caption explicitly identifies the specimen. It is a reference for further local identification, not confirmation of species, germination stage, edible anatomy or khaja/gaja equivalence. The image is retained in the local research workspace; its creator and public reuse rights are unverified.
+An image supplied in this discussion shows a split dark fibrous covering and a white interior. Ahimanikya then clarified that this is the later/final food stage and is different from ice apple. Record that as the user’s identification of the intended food. Species, precise botanical anatomy and documentary khaja/gaja equivalence still require independent evidence. The image is retained in the local research workspace; its creator and public reuse rights are unverified.
+
+## Stage distinction clarified by the user
+
+**Tala khaja refers here to the later/final seed-food stage shown in the supplied image, not ice apple.** This identification is attributed to Ahimanikya’s clarification on 1 October 2026. Keep it separate from young-fruit food in the index. The documented Talagaja germinated-seed account remains the comparison for further name and anatomy research.

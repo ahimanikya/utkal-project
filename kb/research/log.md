@@ -288,3 +288,7 @@ Recovered the original 2021 Talagaja study, distinguished three palm maturity st
 ## 1 October 2026 · Palm-seed visual reference
 
 Recorded the user-supplied image as contextual visual evidence for the tala khaja lead, with attachment hash and visible features. Name equivalence and anatomy remain unresolved. No source photograph added to public assets; no website publication.
+
+## 1 October 2026 · Tala khaja stage clarification
+
+Ahimanikya explicitly distinguished the pictured later/final seed-food stage from ice apple. Updated the food index and comparison page with this attributed clarification; documentary name equivalence and botanical anatomy remain open. No independent human review or website publication claimed.
