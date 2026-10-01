@@ -52,6 +52,8 @@ jobs:
           python3 tools/research/validate_creations.py
           python3 tools/research/validate_sports.py
           python3 tools/research/validate_research_map.py
+      - name: Reconcile official language population tables
+        run: python3 tools/languages/build_atlas.py --check
       - name: Check internal editorial workbench
         run: |
           python3 tools/editorial/build_workbench.py --check

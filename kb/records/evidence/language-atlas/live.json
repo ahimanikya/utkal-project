@@ -1,0 +1,683 @@
+{
+  "checked_at": "2026-10-01T18:35:17.269136+00:00",
+  "status": "pass",
+  "scope": "Public HTTPS responses and served HTML/data/scripts; not a visual or interactive browser audit.",
+  "checks": [
+    {
+      "check": "route /destinations/bhubaneswar/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "35878aaa23c8062290e21b328e6c87d71f4b5579270f45cfb823326ebf040122"
+      }
+    },
+    {
+      "check": "route /visit/places/dhauli/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "f79a34e4428517727b062d78ba638a670ba61f473d7595679c246d3831d62e12"
+      }
+    },
+    {
+      "check": "route /knowledge/konark/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "301e27c576854d5203cd0a5d64db3ed309fe797674c0f7c4e143973f876b76f9"
+      }
+    },
+    {
+      "check": "route /destinations/puri/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "cc9d6f14204a46ced92f4c728d882ad4b694406d860330fd9b48706cf11ef51e"
+      }
+    },
+    {
+      "check": "route /visit/places/raghurajpur/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "79877f62e9923f2e819e625aa25145215d64b6706dffa0499fbe4fb34ea7b727"
+      }
+    },
+    {
+      "check": "route /food/puri-coast/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "b717fbc46b2af7a159e0749c0e73a5513ffc85a40764a59dc569a42a0225a4f7"
+      }
+    },
+    {
+      "check": "route /visit/stays/puri-coast/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "4166b543392d8114e5bb9a3ede54c30cfa5b29fb0dcb48c20f484e2a1bc9b679"
+      }
+    },
+    {
+      "check": "route /",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "39c5d31433a0034cbc64e93d3902e2e0cf97f8ee901df37912b4cfa7013510c0"
+      }
+    },
+    {
+      "check": "route /404.html",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "2eccfd6efd139f1e5f0bc22e6ac9cb3b2c742621e5f9423a346d363ba1089d0c"
+      }
+    },
+    {
+      "check": "route /explore/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "8328594b86fa62963184bf98588426269f03c01e215eb4788cfaf2a6368d5d1d"
+      }
+    },
+    {
+      "check": "route /journey/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "f03246469647de2624f84e3a6e4082e3640e0894de11f829f651eb257898d8c3"
+      }
+    },
+    {
+      "check": "route /journey-starters/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "363ad13e1349cc6a89ef01f65e5ae9170739ea49fd563ae5be6811013f3f3e04"
+      }
+    },
+    {
+      "check": "route /about/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "bcda527037063f0418f0c96cbbd917e9f89e0812bb165f4812f7bf584d72ea76"
+      }
+    },
+    {
+      "check": "route /founder/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "82595cdc08f74e697591857ad14e3fb2e40325913da425d9ef055ec2f634e877"
+      }
+    },
+    {
+      "check": "route /contribute/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "f5b47547616dc461c606baace500fecc217246a3d81d5f1d00078647d254ab89"
+      }
+    },
+    {
+      "check": "route /how-to-use/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "25a17237f3453d6dcbfdd7d772ba37e5217e912e99982783db7532d930bb65c6"
+      }
+    },
+    {
+      "check": "route /knowledge/chilika/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "69000ef6e00a7c89fe73001befdaecc63c1f676f8da6569803e25439ec864b39"
+      }
+    },
+    {
+      "check": "route /visit/places/mangalajodi/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "192a3546be00507286f96e15ecf996be51b99d97a0ff89842efff683c0adcee3"
+      }
+    },
+    {
+      "check": "route /visit/places/kalijai/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "9ed4b5576d24e96f57135a2d72ce3be5447ceff2e071248dfac97b89a5a429b2"
+      }
+    },
+    {
+      "check": "route /visit/places/satapada/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "2ab7e861a341a5581883800a735f2225c7bd5ff8d7650ec78804189ae5af0340"
+      }
+    },
+    {
+      "check": "route /visit/experiences/mangalajodi-birdwatching/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "ed75534d50546c334a629000697acd78512f73e09e2b4cb43553a50d1590d358"
+      }
+    },
+    {
+      "check": "route /visit/experiences/kalijai-crossing/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "51e1f056ebedcbca9c580cb7c4aad41a9f981277fac7cfdfafce26a4c7e106f5"
+      }
+    },
+    {
+      "check": "route /visit/experiences/satapada-boating/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "78f62d56a48ff6620c35be783f86321414349acc7b02057c1a70c4241309730a"
+      }
+    },
+    {
+      "check": "route /visit/stays/mangalajodi/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "9f429ea7b9a4a5988d324a5321fa9da846a8e3d172fcbc9d0fa9c86f2cac19d9"
+      }
+    },
+    {
+      "check": "route /visit/stays/barkul-rambha/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "93d2b26db7a3fa2eb0b62157d346cfbb47bb3640245996bd764d496d9e9968a3"
+      }
+    },
+    {
+      "check": "route /visit/stays/rajhans-satapada/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "9b8ccd3816d9dedc37d73fe370230221355331db6c941714f7fce58cebaa1c46"
+      }
+    },
+    {
+      "check": "route /visit/places/mukteswar/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "e6bc7bb596c58d94b7066f3f45c1e18d7c86949fe0811c065a0a1a039d062fb7"
+      }
+    },
+    {
+      "check": "route /food/bhubaneswar/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "449588b90d7432a7a3037a87b5a13418e7d9791b7f63dac186d0ca602706fde1"
+      }
+    },
+    {
+      "check": "route /visit/stays/bhubaneswar/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "2c20d2610d1042bb2753ee60dbce855dc4320a4ee513d6e36b10889361901fd9"
+      }
+    },
+    {
+      "check": "route /stories/bhubaneswar-fresco/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "9794c61158d97519c8209e14d7ba04d921559171f5ad923b4cd316a2cfff7696"
+      }
+    },
+    {
+      "check": "route /destinations/cuttack/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "af6c4e03c17a616aae9acea723348a26228d44105b627d6ca3a17acf9b9a44fe"
+      }
+    },
+    {
+      "check": "route /visit/places/barabati/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "6c3f7552f1a5e2a825fa2dc9f9866283c4a6b24b641747860a51d16c4c4a6e7a"
+      }
+    },
+    {
+      "check": "route /visit/experiences/cuttack-filigree/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "760ee4c586aad5279036fe7d1edfcb09a71f5667f9e0aebf01b57117344c13c1"
+      }
+    },
+    {
+      "check": "route /food/cuttack/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "63638054eacda699a9dfa66f41bc3d7fd33837fd983617e99b85b5b75149cb59"
+      }
+    },
+    {
+      "check": "route /visit/experiences/cuttack-netaji/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "737848d29ec08a74a306dc3295334f7ebf094311bd4ec8e62e240e9abccc0505"
+      }
+    },
+    {
+      "check": "route /visit/stays/cuttack/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "bafd2e1ec735b5fc4f9ca990c8e5a76d5bc3c1257b46075bbc47cc537679f9a6"
+      }
+    },
+    {
+      "check": "route /languages/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "042140b8b87030b119e26466024367002070e0532b314c29d036a21b30e78485"
+      }
+    },
+    {
+      "check": "route /languages/odia/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "ffeff661e4f6d0c6d2a5bca1561b038546fddc3f768993c7dc4c3e522d352ac7"
+      }
+    },
+    {
+      "check": "route /literature/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "c604a631ff605b6129c622613a86d9bf67d5a4c58c41619ec2930cb8ff29c3ed"
+      }
+    },
+    {
+      "check": "route /people/fakir-mohan-senapati/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "35a446e4ac5aa7810eea3284e57e8aa523c6214bf342b7233f0924b47f215296"
+      }
+    },
+    {
+      "check": "route /literature/six-acres-and-a-third/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "bd69b763c628c7383985524baa1e58d548357616a3b47656f757146a0ce25803"
+      }
+    },
+    {
+      "check": "route /people/sarala-das/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "196daab02e5508189a491e064e30a111c8173cff202d23c8eaec71980ed24af1"
+      }
+    },
+    {
+      "check": "route /people/pratibha-ray/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "0806906f79398038df25810fc7f9f1ab68887f8fda1b5030c3ee77a404584031"
+      }
+    },
+    {
+      "check": "route /people/bhima-bhoi/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "64c5d3653e161fc30956b313ca96294351d5520603ea87b37987809084624bd3"
+      }
+    },
+    {
+      "check": "route /people/gopinath-mohanty/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "58c328daa7a08255508fed3aff140b217bdc19fe4b3be622a78dbe34e8e18a35"
+      }
+    },
+    {
+      "check": "route /people/gangadhar-meher/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "7dd5a63671610a46aba11043e7111205cccec8ff2bce45b4d0b1c997538085e7"
+      }
+    },
+    {
+      "check": "route /destinations/balasore/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "42790f6bed5dbb3551ac9d636cd42f0bdbc4646e4a7a4adf712952f647099bd9"
+      }
+    },
+    {
+      "check": "route /destinations/mayurbhanj/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "feff4172f0d235347998cfd2f14b81cd9de9540084f93e8496737a80fe29a529"
+      }
+    },
+    {
+      "check": "route /visit/places/chandipur/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "f26250bf7d95ff703315a1fc38e9c5d619a8090a33b1d2d2e775585623ba1ee5"
+      }
+    },
+    {
+      "check": "route /visit/places/similipal/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "43f3214a5efcbcbcec28d01718c5752babe762434d13881e07dd75eb52d18bbe"
+      }
+    },
+    {
+      "check": "route /visit/experiences/mayurbhanj-chhau/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "32d0301e8fa6e5af9aaea0d1296f96e51b42fe4f9e3d9d3bf3a9c7491637ac8c"
+      }
+    },
+    {
+      "check": "route /visit/stays/balasore-coast/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "c0a442f7f00c52a20f91617bb40126ddb2798f42993cdb55df877fd80f1c5110"
+      }
+    },
+    {
+      "check": "route /visit/stays/similipal-gateways/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "ac8a3416dcc156319ff5de4b04a5a07564665ef50143254564a60f6a130f32aa"
+      }
+    },
+    {
+      "check": "route /food/chhena-poda/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "41dc0e43c9508e6bf201917570e887e071d31305974c1824f7f60c414ad60b3e"
+      }
+    },
+    {
+      "check": "route /food/mudhi-mansa/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "310defdc4b41426ece8b41380ba65cefbc8a3ba232c1683443c6cec59eb0e7fe"
+      }
+    },
+    {
+      "check": "route /food/balasore/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "95aea5d30ded6420ac28cf1f26da677150e24b2a9cd8a4196d3afe9ca25193be"
+      }
+    },
+    {
+      "check": "route /destinations/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "523acf30f9b19b48c99d5fd50b2dfeb11dad124172f17f3a85914d06c7a52c10"
+      }
+    },
+    {
+      "check": "route /food/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "6d940f7c838775bb3ecfc6bca253e2a39f94a4929ff87f04bae706b0784d9075"
+      }
+    },
+    {
+      "check": "route /things-to-do/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "ce3b7df5f6745339ced2300f0629e0773b963fada2be9dc697239596e36de9a3"
+      }
+    },
+    {
+      "check": "route /stay-areas/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "0c792b93f0051d24ed32877496181fea95e66382790b7473f213c5a0a9493224"
+      }
+    },
+    {
+      "check": "route /languages/santali/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "a2effac8898b71c14d939ea3969a005434802dbc33e3f3655ebbecf7e3149728"
+      }
+    },
+    {
+      "check": "route /languages/kui/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "65f76406d5d44a0f78b5bead97bfefafb51e7581209ffca7877435d87d771f15"
+      }
+    },
+    {
+      "check": "route /languages/kuvi/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "b271563392e296b2db84cac04206a24e2e383afd60a972fd3e2936f7425cba47"
+      }
+    },
+    {
+      "check": "route /languages/saora/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "f7036fe9b1b8e16f628df2f5da35c091f7a834c8ef69826b9d331a938402d2fe"
+      }
+    },
+    {
+      "check": "route /languages/ho/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "8936a8b49aa5669db1c85e9a54ae91ee76acd9f44dcb5eca48bdefc5e6c3a4f2"
+      }
+    },
+    {
+      "check": "route /languages/juang/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "772ff99c3bb71abe402c9f0b3c3f8c90511d9f4868f45fb5883ef9fd4416098a"
+      }
+    },
+    {
+      "check": "route /languages/koya/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "af0cdabcc3cc023902ddbca952c88b4f5a535a6189952e7c31619ee4e096ed58"
+      }
+    },
+    {
+      "check": "route /food/odisha-rasagola/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "0ef11aa34207a06ab4090e96f170875a7620759ef0bc3a8a83f27a423b8369f5"
+      }
+    },
+    {
+      "check": "route /people/subhas-chandra-bose/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "46602c8409e2057b132e28a32cdd93afcbc3bc8e4901985bd00d600024dd1a05"
+      }
+    },
+    {
+      "check": "route /food/enduri-pitha/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "7a1e799c04b3f24a9f0c2b7af1cb7cff1535531e4570e22bc8840b5142c41afe"
+      }
+    },
+    {
+      "check": "route /food/poda-pitha/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "dd2816a0bd360950656de35924f2f93dc7905abab7cbfcf74b85f92e557b4790"
+      }
+    },
+    {
+      "check": "route /languages/atlas/",
+      "passed": true,
+      "detail": {
+        "http": 200,
+        "sha256": "67f5a77023c0da12b3eeb006ca23cb275bbf63ab91a486fb3297f98eb2657ac4"
+      }
+    },
+    {
+      "check": "atlas embedded source data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all 30 districts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ODIA group",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Odia entry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "30 server-rendered district rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "odia population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "santali population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "kui population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "kuvi population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "saora population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ho population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "juang population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "koya population connection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Explore has 59 entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "language hub connects atlas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "delivered script /_astro/atlas.astro_astro_type_script_index_0_lang.DAfoz71q.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "delivered script /_astro/Shell.astro_astro_type_script_index_0_lang.U2LUcjth.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "delivered script /_astro/Shell.astro_astro_type_script_index_1_lang.BqxKUMJI.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "excluded /store/",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "excluded /sitemap.xml",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}
