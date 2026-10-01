@@ -63,3 +63,7 @@ Added Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi, five credi
 ## 2026-10-01
 
 Added Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra, five credited records and related reading. [Bounded receipt](records/creative-women-2026-10-01.json). Existing creator collection enhanced. Previous PR-description block resolved by explicit user approval. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added entrepreneur and business-leader research across hospitality, metals, software and food processing. [Bounded receipt](records/entrepreneurs-2026-10-01.json). Founder/executive roles, dates and unknown Odisha economic-impact metrics remain explicit. No website publication or human factual review claimed.

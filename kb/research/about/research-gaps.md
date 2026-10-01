@@ -154,3 +154,7 @@ Need Parliament inventory for the Das painting, NGMA report pagination, direct d
 ### Creative women gaps · 1 October2026
 
 Susmita Bagchi’s state literary award is dated1992by KLF and1993by Penguin; original issuer record needed. Children of a Better God needs verified translator/imprint credit. Sujata’s official biography failed direct retrieval; indexed origin is labelled. No current popularity, sales, royalties, book stock, streaming access or image rights are inferred. Rituraj Mohanty, Paramita Satpathy and Pankaj Sethi are future candidates, not verified additions in this run.
+
+### Enterprise biography gaps · 1 October 2026
+
+Company founding, current legal identity, present executive role, recognition and Odisha economic impact require separate evidence. FICCI’s 2023 statement is indexed-only after failed retrieval; retry after 8 October. Verify Ila Panda’s institutional record, OYO corporate identity, brand/legal-entity relationships around Rashmi Sahoo, and audited Odisha unit revenue/jobs/investment before adding figures. Further candidates require primary evidence and reuse checks.

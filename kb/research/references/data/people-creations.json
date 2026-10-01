@@ -1316,7 +1316,8 @@
       "fields": [
         "nonfiction",
         "business writing",
-        "public service"
+        "public service",
+        "entrepreneurship"
       ],
       "odisha_connection": {
         "description": "Penguin documents rural/small-town Odisha upbringing, Utkal University education and earlier Odisha government service.",
@@ -1332,6 +1333,13 @@
             "creators-bagchi-go-kiss",
             "creators-bagchi-chariot",
             "creators-bagchi-advance-2025"
+          ]
+        },
+        {
+          "scope": "enterprise role",
+          "basis": "Publisher credits Mindtree cofounding.",
+          "source_ids": [
+            "creators-bagchi-go-kiss"
           ]
         }
       ],
@@ -1492,6 +1500,127 @@
       "work_ids": [
         "works/sujata-jipmer-recital-2025"
       ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/ritesh-agarwal",
+      "name": "Ritesh Agarwal",
+      "fields": [
+        "hospitality entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "Reported first-person account of growing up in Rayagada, Odisha; upbringing connection, not an inferred ethnic identity.",
+        "source_ids": [
+          "business-riteshlife-2016"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "OYO founder and speaker at the 2016 Odisha Investor Meet.",
+          "source_ids": [
+            "business-riteshlife-2016"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-riteshlife-2016"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/bansidhar-panda",
+      "name": "Bansidhar Panda",
+      "fields": [
+        "industrial entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "IMFA records his return to Odisha and the enterprise’s beginnings at Therubali.",
+        "source_ids": [
+          "business-imfa-history"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "Industrial founding role in IMFA’s own history.",
+          "source_ids": [
+            "business-imfa-history"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-imfa-history"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/subhrakant-panda",
+      "name": "Subhrakant Panda",
+      "fields": [
+        "industrial leadership"
+      ],
+      "odisha_connection": {
+        "description": "Leadership of IMFA, an enterprise with documented Odisha industrial roots; this record does not establish birthplace or ethnicity.",
+        "source_ids": [
+          "business-imfa-history"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "IMFA managing director in checked company listing; FICCI president in an issuer statement dated 1 February 2023.",
+          "source_ids": [
+            "business-imfa-history",
+            "business-subhrakant-ficci-2023"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-imfa-history",
+        "business-subhrakant-ficci-2023"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/rashmi-sahoo",
+      "name": "Rashmi Sahoo",
+      "fields": [
+        "food processing",
+        "entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "OASME lists Bisweswar Foods in Cuttack, Odisha and names Rashmi Sahoo. Business connection documented; birthplace not established.",
+        "source_ids": [
+          "business-bisweswar-oasme"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "Named recipient in the IWEC Foundation’s 2022 award register.",
+          "source_ids": [
+            "business-rashmi-iwec",
+            "business-bisweswar-oasme"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-rashmi-iwec",
+        "business-bisweswar-oasme"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
     }
@@ -3575,7 +3704,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T07:35:01.704874-07:00",
+  "updated_at": "2026-10-01T07:47:25.368283-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -3736,6 +3865,16 @@
       "new_people": 4,
       "new_works": 5,
       "scope": "User-requested extension; existing collection enhanced."
+    },
+    {
+      "run_id": "2026-10-01-entrepreneurs",
+      "task_ids": [
+        "RES-036"
+      ],
+      "status": "completed_entrepreneur_seed",
+      "new_people": 4,
+      "new_works": 0,
+      "scope": "Four new people, reused Bagchi, four organizations; companies are not creative works."
     }
   ],
   "conflicts": [

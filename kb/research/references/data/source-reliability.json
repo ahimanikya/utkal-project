@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T07:35:01.704874-07:00",
+  "updated_at": "2026-10-01T07:47:25.368283-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1153,6 +1153,10 @@
     {
       "run_id": "2026-10-01-creative-women",
       "scope": "User-requested creative personalities extension, not weekly monitoring."
+    },
+    {
+      "run_id": "2026-10-01-entrepreneurs",
+      "scope": "User-requested business personalities research, not weekly metric monitoring."
     }
   ],
   "supplemental_discovery_routes": [
@@ -2503,6 +2507,146 @@
       "run_id": "2026-10-01-creative-women",
       "status": "unavailable_direct_fetch",
       "scope": "Edition lookup inaccessible; no title page inspection or translator attribution claimed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "business-imfa-history",
+      "discovery_url": "https://www.imfa.in/about-us",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "available_with_scoped_capture",
+      "scope": "Company history dates establishment to 1961, credits Bansidhar and Ila Panda and names Therubali in historical Koraput. Lists Subhrakant Panda as managing director. Founding is not a commissioning date; company superlatives not independently established.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "business-riteshlife-2016",
+      "discovery_url": "https://timesofindia.indiatimes.com/business/startups/people/oyo-rooms-ceo-agarwal-narrates-his-odisha-story/articleshow/53888110.cms",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "available_with_scoped_capture",
+      "scope": "Reports Agarwal as OYO founder and quotes his account of growing up in Rayagada, Odisha. First-person testimony within a newspaper report; historical company valuations and policy aspirations not reused as current outcomes.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "business-rashmi-iwec",
+      "discovery_url": "https://iwecawards.com/network/awardees/",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "available_with_scoped_capture",
+      "scope": "Issuer lists Rashmi Sahoo and Bisweswar Foods; founder/director, business began 2014. Also director of family business Om Oil & Flour Mills. Overseas discussions and ambitions are not verified shipments. Biography vintage 2022; page covers several award years.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "business-bisweswar-oasme",
+      "discovery_url": "https://oasme.org.in/products.php",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "available_with_scoped_capture",
+      "scope": "Trade association lists company in Cuttack, Odisha, names Rashmi Sahoo and lists ready-to-cook products, flour and breakfast cereals. Directory is not an audited sales, output or export return. Personal contact details not imported.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "business-subhrakant-ficci-2023",
+      "discovery_url": "https://ficci.in/press_release_details/4650",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed issuer statement dates Subhrakant Panda’s FICCI presidency to this 2023 statement. Direct fetch failed; no current presidency or full tenure dates asserted. Budget-year wording appears inconsistent and is not used.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "business-mindtree-merger",
+      "discovery_url": "https://www.ltm.com/news-events/press-releases/2022/lti-and-mindtree-to-start-operating-as-a-merged-entity-from-november-14-2022",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "available_with_scoped_capture",
+      "scope": "Original corporate release specifies 14 November 2022 as the effective date for operating as merged LTIMindtree. This records the historical merger, not current legal name, headcount or present leadership.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.oyorooms.com/about/index.html",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.imfa.in/about-us/leadership",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.bisweswarfoods.com",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.subrotobagchi.in/profile",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://investorsarchive.ltimindtree.com/sites/default/files/2025-02/press-release-sb.pdf",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.ficci.in/press_release_details/4772",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://rdwu.ac.in/pdf/iqac/Collaborative-initiatives.pdf",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://meet.ficci.in/agenda/agenda_odisha_global_summit.pdf",
+      "checked_at": "2026-10-01T07:47:25.368283-07:00",
+      "run_id": "2026-10-01-entrepreneurs",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

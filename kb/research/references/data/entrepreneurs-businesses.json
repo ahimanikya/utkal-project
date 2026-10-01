@@ -1,0 +1,126 @@
+{
+  "schema_version": "0.1",
+  "updated_at": "2026-10-01T07:47:25.368283-07:00",
+  "human_review_claimed": false,
+  "scope": "Selected people and enterprises; not a ranking, exhaustive census or investment total. Odisha connection may be upbringing, heritage or enterprise activity and does not assign ethnicity.",
+  "organizations": [
+    {
+      "id": "economy/company-oyo",
+      "name": "OYO",
+      "sector": "hospitality",
+      "source_ids": [
+        "business-riteshlife-2016"
+      ],
+      "checked_on": "2026-10-01",
+      "odisha_revenue": null,
+      "odisha_jobs": null,
+      "odisha_realised_investment": null,
+      "metric_status": "not_established"
+    },
+    {
+      "id": "economy/company-imfa",
+      "name": "Indian Metals and Ferro Alloys (IMFA)",
+      "sector": "ferroalloys",
+      "source_ids": [
+        "business-imfa-history"
+      ],
+      "checked_on": "2026-10-01",
+      "odisha_revenue": null,
+      "odisha_jobs": null,
+      "odisha_realised_investment": null,
+      "metric_status": "not_established"
+    },
+    {
+      "id": "economy/company-bisweswar-foods",
+      "name": "Bisweswar Foods",
+      "sector": "food processing",
+      "source_ids": [
+        "business-rashmi-iwec",
+        "business-bisweswar-oasme"
+      ],
+      "checked_on": "2026-10-01",
+      "odisha_revenue": null,
+      "odisha_jobs": null,
+      "odisha_realised_investment": null,
+      "metric_status": "not_established"
+    },
+    {
+      "id": "economy/company-mindtree",
+      "name": "Mindtree — historical company",
+      "sector": "software services",
+      "source_ids": [
+        "creators-bagchi-go-kiss",
+        "business-mindtree-merger"
+      ],
+      "checked_on": "2026-10-01",
+      "odisha_revenue": null,
+      "odisha_jobs": null,
+      "odisha_realised_investment": null,
+      "metric_status": "not_established"
+    }
+  ],
+  "roles": [
+    {
+      "person_id": "people/ritesh-agarwal",
+      "organization_id": "economy/company-oyo",
+      "role": "founder",
+      "period_or_scope": "documented 2016",
+      "source_ids": [
+        "business-riteshlife-2016"
+      ]
+    },
+    {
+      "person_id": "people/bansidhar-panda",
+      "organization_id": "economy/company-imfa",
+      "role": "founding industrial entrepreneur",
+      "period_or_scope": "historical company origins",
+      "source_ids": [
+        "business-imfa-history"
+      ]
+    },
+    {
+      "person_id": "people/subhrakant-panda",
+      "organization_id": "economy/company-imfa",
+      "role": "managing director",
+      "period_or_scope": "page checked 2026-10-01",
+      "source_ids": [
+        "business-imfa-history"
+      ]
+    },
+    {
+      "person_id": "people/rashmi-sahoo",
+      "organization_id": "economy/company-bisweswar-foods",
+      "role": "founder",
+      "period_or_scope": "2014 beginning reported in 2022 biography",
+      "source_ids": [
+        "business-rashmi-iwec"
+      ]
+    },
+    {
+      "person_id": "people/subroto-bagchi",
+      "organization_id": "economy/company-mindtree",
+      "role": "cofounder",
+      "period_or_scope": "historical founding role",
+      "source_ids": [
+        "creators-bagchi-go-kiss"
+      ]
+    }
+  ],
+  "additional_credits": [
+    {
+      "name": "Ila Panda",
+      "organization_id": "economy/company-imfa",
+      "role": "Credited in company origins and community work",
+      "source_ids": [
+        "business-imfa-history"
+      ]
+    }
+  ],
+  "metric_rule": "Unknown Odisha-specific revenue, jobs and realised investment remain null; national/global totals cannot substitute.",
+  "next_research": [
+    "Audited company history and Odisha unit data",
+    "Independent source for FICCI tenure",
+    "Brand/legal-entity mapping for Rashmi Sahoo enterprises",
+    "Ila Panda original institutional records and profile"
+  ]
+}

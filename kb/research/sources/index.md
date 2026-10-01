@@ -430,3 +430,15 @@
 - [JIPMER Heritage Club: Odissi concert by Sujata Mohapatra](creators-sujata-jipmer.md)
 
 - [Darbar Festival2018 brochure: dance programme](creators-sujata-darbar.md)
+
+- [IMFA: origins and leadership](business-imfa-history.md)
+
+- [Ritesh Agarwal describes his Odisha upbringing](business-riteshlife-2016.md)
+
+- [IWEC 2022 awardee: Rashmi Sahoo](business-rashmi-iwec.md)
+
+- [OASME product directory: Bisweswar Foods](business-bisweswar-oasme.md)
+
+- [FICCI budget statement: Subhrakant Panda as president](business-subhrakant-ficci-2023.md)
+
+- [LTI and Mindtree merger effective date](business-mindtree-merger.md)

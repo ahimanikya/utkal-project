@@ -89,3 +89,13 @@
 - [Sona Mohapatra](sona-mohapatra.md)
 
 - [Sujata Mohapatra](sujata-mohapatra.md)
+
+- [Ritesh Agarwal](ritesh-agarwal.md)
+
+- [Bansidhar Panda](bansidhar-panda.md)
+
+- [Subhrakant Panda](subhrakant-panda.md)
+
+- [Rashmi Sahoo](rashmi-sahoo.md)
+
+[Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.

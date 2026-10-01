@@ -152,3 +152,5 @@
 - [Contemporary creators](contemporary-creators-2026-10-01.json) — Four people, five works and related reading; explicit user addition RES-034 complete.
 
 - [Women across creative fields](creative-women-2026-10-01.json) — Four additional people, five credited works/performance records and related reading; RES-035 complete.
+
+- [Entrepreneurs and business leaders](entrepreneurs-2026-10-01.json) — Four new people, existing Bagchi profile enhanced and four linked enterprise identities; RES-036 complete.

@@ -156,3 +156,7 @@ Added Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi, five credi
 ## 2026-10-01
 
 Added Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra with five credited records and twelve sources. Enhanced the existing contemporary-creators collection and reused related profiles. Preserved a literary-award date conflict and missing translator credit. The user explicitly approved the prior prepared PR description; it was applied successfully. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added four entrepreneurs/business leaders and four enterprise identities; enhanced existing Subroto Bagchi profile. Connected people and economy through a source-linked collection. Six source records added; existing publisher capture reused. Preserved founder/executive distinctions, Ila Panda credit, historical recognition and null Odisha impact metrics. Research-only review update; no website publication or human factual review claimed.

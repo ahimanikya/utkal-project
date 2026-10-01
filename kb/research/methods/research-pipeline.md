@@ -123,3 +123,7 @@ RES-034 completes a bounded four-person/five-work seed with classified links. It
 ### Creative women user extension · 1 October2026
 
 RES-035 completes the bounded requested extension; RES-029 remains active. Resume RES-029 science work. Further personality candidates Rituraj Mohanty, Paramita Satpathy and Pankaj Sethi require reuse checks and original work/recognition evidence before new profiles. Retry failed biography and edition routes after2026-10-08.
+
+### Entrepreneur user extension · 1 October 2026
+
+RES-036 completes the bounded people/enterprise seed. Research audited enterprise milestones and Odisha-specific operations; verify brand/legal-entity relationships and add further founders after reuse checks. RES-029 remains active independently.

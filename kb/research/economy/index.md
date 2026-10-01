@@ -28,3 +28,5 @@ Economic growth and industry comparisons.
 - [Homestays: support, incentives and policy history](homestay-support.md)
 
 [Rasagola and Odisha sweets economics](rasagola-and-sweets.md)
+
+[Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.

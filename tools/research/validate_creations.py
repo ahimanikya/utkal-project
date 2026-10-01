@@ -35,6 +35,29 @@ for r in e['market_observation_refs']:
  check('value' not in r,'Duplicated canonical statistic')
 for r in e['sweet_metrics']:
  if r['evidence_status']=='not_established':check(r['value'] is None,'Unknown converted to number '+r['metric'])
+business_path=D/'entrepreneurs-businesses.json'
+if business_path.exists():
+ b=load('entrepreneurs-businesses');orgs={r['id']:r for r in b['organizations']}
+ check(len(orgs)==len(b['organizations']),'Duplicate enterprise identity')
+ check(b['human_review_claimed'] is False,'Enterprise human review needs named provenance')
+ for cid,r in orgs.items():
+  canonical(cid,r['source_ids'])
+  meta,_=read_concept(ROOT/(cid+'.md')) if (ROOT/(cid+'.md')).exists() else ({},'')
+  check(meta.get('type')=='Organization','Enterprise represented as a creative work '+cid)
+  if r['metric_status']=='not_established':
+   check(all(r.get(k) is None for k in ['odisha_revenue','odisha_jobs','odisha_realised_investment']),'Unknown impact converted to a number '+cid)
+ seen_roles=set()
+ for r in b['roles']:
+  pair=(r['person_id'],r['organization_id'],r['role'])
+  check(pair not in seen_roles,'Duplicate enterprise role '+str(pair));seen_roles.add(pair)
+  check(r['person_id'] in people,'Unknown business person '+r['person_id'])
+  check(r['organization_id'] in orgs,'Unknown enterprise '+r['organization_id'])
+  check(bool(r['role']) and bool(r['period_or_scope']),'Missing role period/scope '+str(pair))
+  ids=set(r['source_ids']);check(bool(ids) and ids<=sources.keys(),'Unsourced enterprise role '+str(pair))
+  if r['person_id'] in people:check(ids<=set(people[r['person_id']]['source_ids']),'Person/role evidence disagreement '+str(pair))
+  if r['organization_id'] in orgs:check(ids<=set(orgs[r['organization_id']]['source_ids']),'Company/role evidence disagreement '+str(pair))
+ for r in b.get('additional_credits',[]):
+  check(r['organization_id'] in orgs and bool(r['name']) and bool(r['role']) and bool(r['source_ids']) and set(r['source_ids'])<=sources.keys(),'Unresolved additional enterprise credit')
 check(p['human_review_claimed'] is False and e['human_review_claimed'] is False,'Human review needs explicit named provenance')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','people':len(people),'works':len(works),'garment_forms':len(e['garment_forms']),'market_observation_refs':len(e['market_observation_refs']),'errors':errors,'scope':'Referential integrity, explicit credits and missing-value semantics; not independent source verification or public approval.'},indent=2))
 sys.exit(bool(errors))

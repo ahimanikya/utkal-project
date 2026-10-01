@@ -73,3 +73,5 @@ Subject membership is editorial classification. It does not establish historical
 [Puri providers](../visitor-index/puri-providers.md) distinguish a professional directory entry from current credentials, approval and operating outcomes.
 
 [Textile and apparel exports](../statistics/textile-and-apparel-exports.md) and [rasagola economics](../economy/rasagola-and-sweets.md) separate realised sector values from product-specific research gaps.
+
+[Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.

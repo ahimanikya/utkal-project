@@ -3301,7 +3301,8 @@
       "concept_id": "people/subroto-bagchi",
       "primary_subject": "people",
       "secondary_subjects": [
-        "arts"
+        "arts",
+        "economy"
       ],
       "content_type": "Person",
       "classification_basis": "editorial_scope",
@@ -3454,6 +3455,96 @@
         "arts"
       ],
       "content_type": "Work",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/ritesh-agarwal",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/bansidhar-panda",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/subhrakant-panda",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/rashmi-sahoo",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/company-oyo",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Organization",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/company-imfa",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Organization",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/company-bisweswar-foods",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Organization",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/company-mindtree",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Organization",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/entrepreneurs-and-business-leaders",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
     }
@@ -4708,6 +4799,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "offers related reading on the Odissi tradition represented in the existing collection."
+    },
+    {
+      "from": "people/entrepreneurs-and-business-leaders",
+      "to": "statistics/entrepreneurship-skills",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "provides programme participation context without attributing outcomes to these individuals."
+    },
+    {
+      "from": "people/entrepreneurs-and-business-leaders",
+      "to": "statistics/enterprise-finance",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "provides statewide financing context without converting guarantee coverage into investment by these companies."
     }
   ],
   "relationship_types": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T07:35:01.704874-07:00",
+  "updated_at": "2026-10-01T07:47:25.368283-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1309,6 +1309,55 @@
           "works/children-of-a-better-god.md",
           "works/rupaiya-satyamev-jayate.md",
           "works/sujata-jipmer-recital-2025.md"
+        ],
+        "project_records": [
+          "kb/research/voices/collection.json",
+          "kb/research/culture/odia-literature-and-literary-lives.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-036",
+      "order": 36,
+      "title": "Entrepreneurs and business leaders: first connected seed",
+      "done_when": "Create a sourced entrepreneur collection with four absent people, reuse Bagchi, four linked enterprise identities and explicit role/geography/date limits; validate and prepare existing review branch update.",
+      "target": "people/entrepreneurs-and-business-leaders.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T07:47:25.368283-07:00",
+      "next_step": "Research audited enterprise milestones and Odisha-specific operations; verify brand/legal-entity relationships and add further founders after reuse checks. RES-029 remains active independently.",
+      "evidence_outputs": [
+        "people/ritesh-agarwal.md",
+        "people/bansidhar-panda.md",
+        "people/subhrakant-panda.md",
+        "people/rashmi-sahoo.md",
+        "economy/company-oyo.md",
+        "economy/company-imfa.md",
+        "economy/company-bisweswar-foods.md",
+        "economy/company-mindtree.md",
+        "people/entrepreneurs-and-business-leaders.md",
+        "references/data/entrepreneurs-businesses.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-entrepreneurs",
+          "at": "2026-10-01T07:47:25.368283-07:00",
+          "outcome": "completed_bounded_entrepreneur_seed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "people/subroto-bagchi.md",
+          "references/data/people-creations.json",
+          "statistics/entrepreneurship-skills.md",
+          "statistics/enterprise-finance.md",
+          "economy/index.md"
         ],
         "project_records": [
           "kb/research/voices/collection.json",

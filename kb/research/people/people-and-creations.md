@@ -91,3 +91,5 @@ The bounded RES-027 set now covers **six practitioners and twelve independently 
 ## Women across creative fields · 1 October2026
 
 The [contemporary creators collection](../people/contemporary-creators.md) now includes Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra. Five linked records distinguish films, a translated novel, a song recording and a performance occurrence. Existing Jatin Das, Pratibha Ray and Kelucharan Mohapatra pages are reused for related reading.
+
+[Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.
