@@ -52,6 +52,11 @@ jobs:
           python3 tools/research/validate_creations.py
           python3 tools/research/validate_sports.py
           python3 tools/research/validate_research_map.py
+      - name: Check internal editorial workbench
+        run: |
+          python3 tools/editorial/build_workbench.py --check
+          python3 tools/editorial/test_workbench.py
+          node --test projects/editorial-workbench/workbench.test.mjs
       - name: Build and test full draft
         run: |
           npm run build
