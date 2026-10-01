@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-01T08:26:38.838732+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-106",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/19",
+  "approved_head": "9e511a24aa68bf7a47985086bc52e4d093adbff2",
+  "deployed_sha": "55320744ca5305064848dc390fe176cb920908dd",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36835994554",
+  "destination": "https://utkalproject.org/destinations/",
+  "scope": "Four planning hubs and connected navigation published. Edition now has 60 pages, 54 saveable ideas and nine starters. No content changes after approval.",
+  "verification": [
+    "Publication workflow succeeded for the approved merged revision.",
+    "All 60 edition pages returned HTTP 200 with the expected 54 saveable ideas and nine starters.",
+    "Shared navigation is present on all four hubs, homepage, Explore and journey starters. Hub save targets exactly match the corresponding catalogue kinds without duplicates.",
+    "All 17 reused hub image hashes match the approved files.",
+    "Live food and stay-area cover screenshots and DOM inspected; stay guide and return link followed in the browser.",
+    "HTTP food URL redirects to HTTPS and returns HTTP 200."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant prepared and verified the release; no independent review claimed.",
+    "Production checks are read-only; saved-journey interaction evidence remains the local synthetic candidate checks.",
+    "These hubs reuse existing editorial research; no newly inspected kitchens, accommodation, events or routes. Existing source and photograph limitations remain.",
+    "Preview noindex and held-language, store and disputed-portrait boundaries remain."
+  ],
+  "evidence": [
+    "records/evidence/planning-hubs-publication/approval.json",
+    "records/evidence/planning-hubs-publication/deployment.json",
+    "records/evidence/planning-hubs-publication/live-checks.json",
+    "records/evidence/planning-hubs-publication/food-live.png",
+    "records/evidence/planning-hubs-publication/stay-areas-live.png",
+    "records/evidence/planning-hubs-publication/browser-checks.json"
+  ]
+}

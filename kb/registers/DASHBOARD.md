@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e15662f307d3708f7f25f4dbcf96ccf0f5d505a6fc706e9c55e47aa7180ba358`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `05ea122fcf3bf349e7a4fc157efefa4a6ebecbb3d9a16fe167066ef32992d377`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -77,15 +77,15 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-062 · Prepare a new-subject draft | completed | published | Ahimanikya Satapathy | Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097. | — |
 | UTP-WORK-063 · How to use Utkal guide | completed | published | Ahimanikya Satapathy | Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097. | — |
 | UTP-WORK-064 · Missing-page recovery | completed | published | Ahimanikya Satapathy | Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097. | — |
-| UTP-WORK-065 · Visual destination directory | awaiting_review | reviewed | Ahimanikya Satapathy | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. | — |
+| UTP-WORK-065 · Visual destination directory | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
 | UTP-WORK-066 · Homepage destination discovery | awaiting_review | reviewed | Ahimanikya Satapathy | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. | — |
 | UTP-WORK-067 · Three editable journey starters | awaiting_review | reviewed | Ahimanikya Satapathy | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. | — |
 | UTP-WORK-068 · Reading connections for the newest entries | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the local candidate; publication remains separate. | — |
 | UTP-WORK-069 · Odia city-name search | awaiting_review | reviewed | Ahimanikya Satapathy | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. | — |
 | UTP-WORK-070 · Inner-page layout foundation fixes | awaiting_review | reviewed | Ahimanikya Satapathy | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. | — |
-| UTP-WORK-071 · Food and flavour planning collection | awaiting_review | reviewed | Ahimanikya Satapathy | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. | — |
-| UTP-WORK-072 · Things-to-do planning collection | awaiting_review | reviewed | Ahimanikya Satapathy | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. | — |
-| UTP-WORK-073 · Stay-area planning collection | awaiting_review | reviewed | Ahimanikya Satapathy | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. | — |
+| UTP-WORK-071 · Food and flavour planning collection | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
+| UTP-WORK-072 · Things-to-do planning collection | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
+| UTP-WORK-073 · Stay-area planning collection | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
 | UTP-WORK-074 · Personal preparation checklist and exports | completed | published | Ahimanikya Satapathy | Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097. | — |
 | UTP-WORK-075 · Broader inner-page visual review and refinement | in_progress | draft | Ahimanikya Satapathy | Use research/product/visitor-readiness-2026-10-01.md for the consolidated review and recent phone/desktop samples. Fluent-language, local-evidence and broader accessibility review remain open. | — |
 | UTP-WORK-076 · Media and meaning design-system foundation | awaiting_review | reviewed | Ahimanikya Satapathy | Review the guidance and gallery specimen; apply the foundation through the inner-page refinement and future entity-specific media briefs. Assess whether each destination story gives a distinctive reason to visit, a memorable detail worth sharing and a useful planning step. | — |
@@ -125,7 +125,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-110 · Cuttack collection: fort, craft, food, museum, base and journey | completed | published | Ahimanikya Satapathy | Published as an editorial preview. Carry forward local-condition checks, fluent Odia and literary review, and held-image rights research. | — |
 | UTP-WORK-111 · Odia language, literature and six literary lives | completed | published | Ahimanikya Satapathy | Published as an editorial preview. Carry forward local-condition checks, fluent Odia and literary review, and held-image rights research. | — |
 | UTP-WORK-112 · Balasore–Mayurbhanj connected visitor collection | completed | published | Ahimanikya Satapathy | Published as an editorial preview. Carry forward local-condition, fluent Odia and specialist review; reserve reopening remains a current-notice check. | — |
-| UTP-WORK-113 · Connect published knowledge through four planning hubs | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the four-hub PR candidate before publication. | — |
+| UTP-WORK-113 · Connect published knowledge through four planning hubs | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
 
 ## Pending human review and decisions
 
@@ -172,15 +172,11 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-053 | Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step. |
 | UTP-WORK-054 | The bounded page is published in PR 17 under UTP-REL-019. Remaining work concerns specialist/fluent Odia review, source limitations and current local conditions; do not queue the same page as unpublished. |
 | UTP-WORK-055 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
-| UTP-WORK-065 | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. |
 | UTP-WORK-066 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
 | UTP-WORK-067 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
 | UTP-WORK-068 | Founder review of the local candidate; publication remains separate. |
 | UTP-WORK-069 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
 | UTP-WORK-070 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
-| UTP-WORK-071 | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. |
-| UTP-WORK-072 | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. |
-| UTP-WORK-073 | Review the consolidated four-hub candidate under UTP-WORK-113. Publication remains gated. |
 | UTP-WORK-076 | Review the guidance and gallery specimen; apply the foundation through the inner-page refinement and future entity-specific media briefs. Assess whether each destination story gives a distinctive reason to visit, a memorable detail worth sharing and a useful planning step. |
 | UTP-WORK-077 | Four updated magazine references and rc.4 are now coordinated under WORK-079. Founder review at the six-item checkpoint precedes broader composition rollout. |
 | UTP-WORK-079 | Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step. |
@@ -193,7 +189,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
 | UTP-WORK-097 | Use models/local-confirmation.md for dated scoped evidence from the relevant source and separate Founder acceptance. All seven guides remain locally unverified. No outreach or site inspection undertaken. |
-| UTP-WORK-113 | Founder reviews the four-hub PR candidate before publication. |
 
 ## Decisions
 
@@ -303,6 +298,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-103 · Prepare the northern destination and food collection | approved | Ahimanikya Satapathy | Prepare the proposed Balasore–Mayurbhanj collection, food stories, journey connections, quality checks and backlog reconciliation as a reviewable PR. Publication remains a separate Founder decision. |
 | UTP-DEC-104 · Approve and publish PR 18 northern collection | approved | Ahimanikya Satapathy | Direct reply to the PR 18 handoff stating publication awaits approval; authorizes merging and publishing that reviewed candidate at head 16580fa30577556544f542b2bac8ab72dc1d3840. |
 | UTP-DEC-105 · Prepare discovery and planning hubs | approved | Ahimanikya Satapathy | Accepts proposed next batch: four planning hubs, navigation and flow, quality checks and backlog reconciliation. Prepare one focused PR for review; publication requires subsequent approval. |
+| UTP-DEC-106 · Approve and publish PR 19 planning hubs | approved | Ahimanikya Satapathy | Direct reply to the PR 19 review handoff stating publication awaits approval. Authorizes merge and publication of reviewed head 9e511a24aa68bf7a47985086bc52e4d093adbff2. |
 
 ## Reviews
 
@@ -386,6 +382,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-078 | pass_with_limitations | False | Same assistant implemented and checked the candidate; no independent review claimed.; No field inspection, confirmed performance calendar, reviewed kitchen, hotel inspection or fluent Odia proofreading.; Official indexed text used for Chandipur, Baripada and handicraft where direct pages returned shell/404. The reserve reopening date was not confirmed.; Food origins remain attributed accounts; the Mudhi Mansa photograph depicts a home-cooked chicken variation.; Native Chrome PDF checks are not physical prints. Mayurbhanj Letter has a sparse final credits page; books from local previews link to the local preview origin.; Sabai and Balaramgadi remain contextual ideas within the region guides; no separate photographed subpage or visit arrangement is claimed. Seven further language profiles, disputed portrait, store and AI chat remain held. |
 | UTP-REV-079 | pass_with_limitations | False | Same assistant implemented and verified the release; no independent review claimed.; No field inspection, fluent Odia proofreading, inspected accommodation or confirmed performance calendar. Reserve reopening remains to be confirmed through current official notices.; Production checks were read-only. Journey editing, downloaded books and native PDF evidence remains the local candidate checks.; Preview noindex remains. Seven further language profiles, disputed portrait, store and AI chat remain excluded. Candidate source, image-context and print limitations remain recorded. |
 | UTP-REV-080 | pass_with_limitations | False | Same assistant implemented and checked the batch; no independent or screen-reader audit claimed.; These are discovery and research hubs; facilities, events, kitchens, availability and routes have not been field-verified.; Existing image/source limitations remain. Some entries have no documentary photograph; they retain text cards instead of an unrelated image.; Preview noindex, held language pages, store and disputed portrait remain unchanged. |
+| UTP-REV-081 | pass_with_limitations | False | Same assistant prepared and verified the release; no independent review claimed.; Production checks are read-only; saved-journey interaction evidence remains the local synthetic candidate checks.; These hubs reuse existing editorial research; no newly inspected kitchens, accommodation, events or routes. Existing source and photograph limitations remain.; Preview noindex and held-language, store and disputed-portrait boundaries remain. |
 
 ## Publication and application history
 
@@ -411,6 +408,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-018 · Bhubaneswar collection published | published | https://utkalproject.org/destinations/bhubaneswar/ | UTP-DEC-099 |
 | UTP-REL-019 · Cuttack and Odia cultural collection published | published | https://utkalproject.org/destinations/cuttack/ | UTP-DEC-102 |
 | UTP-REL-020 · Northern destination and food collection published | published | https://utkalproject.org/destinations/mayurbhanj/ | UTP-DEC-104 |
+| UTP-REL-021 · Four planning hubs published | published | https://utkalproject.org/destinations/ | UTP-DEC-106 |
 
 ## Sources and assets
 
@@ -448,7 +446,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-109 | 2026-10-01T03:04:49.370605+00:00 | Prepared a 26-page coastal candidate adding ten Chilika guides, thirteen saveable ideas and three starters. Full and coastal checks pass; mobile/desktop and actual book download/A4 regression checked. | Founder candidate review; no publication yet. |
 | UTP-EVT-110 | 2026-10-01T03:14:33.283977+00:00 | Approved PR 15 merged and published. Ten new pages, three new starters, correct stay links and HTTP-to-HTTPS redirection verified. | Continue editorial research with local-arrangement and Odia proofreading gaps preserved. |
 | UTP-EVT-111 | 2026-10-01T03:37:49.523908+00:00 | Prepared the five-part Bhubaneswar collection and reconciled 22 stale work records against published evidence. Native-print duplicate WORK-033 closed; held scope and local verification retained. | Founder reviews the candidate before merge/publication. |
 | UTP-EVT-112 | 2026-10-01T03:49:48.321301+00:00 | Approved PR 16 merged and published. Four routes and the city starter are live; all 30 edition pages, original photo samples and HTTPS redirect verified. | Continue the remaining editorial queue with local-confirmation, held-content and proofreading gaps preserved. |
@@ -458,6 +455,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-116 | 2026-10-01T07:32:36.229326+00:00 | Prepared ten connected northern/food routes and two starters. Verified source and image limits, 20 responsive openings, actual downloads and two native print samples. Reconciled thirteen older work entries without erasing open expert/local review. | Founder reviews the exact PR candidate before publication. |
 | UTP-EVT-117 | 2026-10-01T07:55:20.373089+00:00 | Founder-approved PR 18 merged and deployed. All 56 pages, 54 saveable ideas, nine starters, the new Chhau image hash and HTTPS redirect passed live checks. | Continue remaining editorial work with local-condition and specialist-review gaps preserved. |
 | UTP-EVT-118 | 2026-10-01T08:14:46.739044+00:00 | Four connected planning hubs prepared from published knowledge. Automated checks, responsive openings, keyboard paths and cross-hub saved-journey continuity passed. Eight older entries reconciled. | Founder reviews the candidate PR before publication. |
+| UTP-EVT-119 | 2026-10-01T08:26:38.838732+00:00 | Founder-approved PR 19 merged and published. All 60 pages, planning navigation, hub save targets, reused image hashes and HTTPS redirect verified. Four older hub work entries now reflect published delivery. | Continue the remaining editorial backlog; specialist and local-condition gaps remain explicit. |
 
 ## Deferred extensions
 
