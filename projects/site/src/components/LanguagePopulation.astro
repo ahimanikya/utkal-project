@@ -1,0 +1,19 @@
+---
+import atlas from '../../../../kb/research/voices/population-2011.json';
+import {selection,districtRows,count,percent} from '../lib/language-atlas.mjs';
+const {path}=Astro.props;
+const profile=atlas.profiles[path.split('/')[1]];
+const value=profile?selection(atlas,profile.code):null;
+const districts=profile?districtRows(atlas,profile.code).filter(r=>r.persons>0).slice(0,3):[];
+---
+{value&&<section id="population" class="language-population">
+ <p class="eyebrow">Where the voices were counted · Census 2011</p>
+ <h2>Recorded as {value.label.label}</h2>
+ <div class="population-numbers"><p><strong>{count(value.persons)}</strong><span>people in Odisha</span></p><p><strong>{value.share}</strong><span>of Odisha’s 2011 population</span></p></div>
+ <p>This is the individual mother-tongue entry in the Census table. It counts reported mother tongues in 2011, not everyone who can speak the language today.</p>
+ {profile.note&&<p>{profile.note}</p>}
+ <p>Largest recorded counts: {districts.map(d=>`${d.name} (${count(d.persons)})`).join('; ')}.</p>
+ <a class="text-link" href={'/languages/atlas/?language='+profile.code}>Explore all 30 districts →</a>
+ <p class="population-source">Census C-16 · Sheet1, row {value.sourceRow}. <a href={atlas.sources.c16.url}>Original table</a></p>
+</section>}
+<style>.language-population{margin:3rem 0;padding:clamp(1.5rem,4vw,3rem);background:var(--uds-colour-surface,#F2E6D0);border-top:3px solid #91462F}.language-population h2{font:clamp(1.8rem,3vw,2.8rem)/1.2 Georgia,serif;color:#1D4658}.population-numbers{display:flex;flex-wrap:wrap;gap:1rem 4rem}.population-numbers p{display:flex;flex-direction:column;margin:.5rem 0 1rem}.population-numbers strong{font:clamp(2rem,4vw,3.5rem)/1.2 Georgia,serif;color:#1D4658}.population-numbers span,.population-source{font-size:.9rem}.language-population>p{max-width:75ch;line-height:1.75}</style>

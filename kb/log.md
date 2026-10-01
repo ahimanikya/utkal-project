@@ -115,3 +115,7 @@ The user selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire
 ## 1 October 2026 · Research stack integration
 
 The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed current integration checks and merged sequentially. PR 35 completes the food research candidate. Both research and website source/navigation records are preserved; local duplicate files are excluded from generated indexes. [Integration receipt](records/research-stack-integration-2026-10-01.json). This is repository integration, not a website deployment or independent factual review.
+
+## 2026-10-01
+
+Prepared the [language population atlas](reference/language-population-atlas.md), preserving original Census 2011 tables and connecting eight language stories to district comparisons. [Checks and limitations](records/language-atlas-review.json). Delivery will be recorded separately.

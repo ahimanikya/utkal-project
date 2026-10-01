@@ -3779,6 +3779,29 @@
         "records/editorial-workbench.json",
         "records/editorial-500-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-129",
+      "title": "Connect language stories to Census population distribution",
+      "category": "language_data",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-134",
+      "next_action": "Publish tested historical atlas, then retain naming and visual review tasks.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-134",
+        "UTP-REV-108"
+      ],
+      "evidence": [
+        "records/language-atlas-review.json",
+        "reference/language-population-atlas.md"
+      ]
     }
   ],
   "decisions": [
@@ -6449,6 +6472,25 @@
         "records/research-integration-merge.json",
         "records/editorial-500-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-134",
+      "title": "Add a Census-based language population atlas",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "ok",
+      "scope": "Implement the proposed state and district language atlas, connect existing profiles, and preserve historical year, classifications and source evidence. Continuation and delivery follow the existing broad authorization; no new spending, outreach or indexing launch.",
+      "recorded_at": "2026-10-01T18:28:31.565185+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-133"
+      ],
+      "evidence": [
+        "records/language-atlas-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9010,6 +9052,29 @@
       ],
       "evidence": [
         "records/editorial-500-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-108",
+      "title": "Language atlas arithmetic and integration self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "All population figures are historical Census 2011 returns, not current speaker estimates or ethnicity counts.",
+        "Census classification does not resolve community-preferred naming; Kuvi and Savara mappings carry explicit qualifications.",
+        "Browser administration-policy verification still blocks visual audit; no interactive browser, mobile, print or assistive-technology review claimed.",
+        "No district boundary map or subdistrict interface in this increment; original subdistrict data are retained in the source workbook."
+      ],
+      "refs": [
+        "UTP-DEC-134",
+        "UTP-WORK-129"
+      ],
+      "evidence": [
+        "records/language-atlas-review.json"
       ]
     }
   ],

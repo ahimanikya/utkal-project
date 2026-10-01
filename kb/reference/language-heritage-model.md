@@ -85,3 +85,7 @@ The public hub is proposed as **Languages of Odisha**, with each language receiv
 ## Delivery update · 1 October 2026
 
 The original model and research queue above are preserved as the design history. Odia and the first literature collection are now in the public preview. Seven additional **English introductions** are prepared under [UTP-WORK-114](../research/product/living-languages.md), with original publication checks and a public contribution-proposal path. Their evidence does not confer native-speaker or specialist endorsement. Newly authored language phrases, pronunciation, translations and recordings remain held for the appropriate language and rights review. No complete history or community representation is claimed. Founder review controls whether this bounded candidate is published.
+
+## Population atlas implementation · 1 October 2026
+
+The [Census 2011 atlas model](language-population-atlas.md) now specifies source-preserving district counts and language-profile connections. Population, classification and community identity remain distinct.
