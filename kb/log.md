@@ -191,3 +191,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Forest-worker support and payment evidence
 
 [Research receipt](records/forest-payments-2026-10-01.json): Twenty dated observations added; grants separated from earnings, welfare and OFDC conflicts retained. No website release.
+
+## 1 October 2026 · Palm-seed stages and food names
+
+[Research receipt](records/palm-seed-2026-10-01.json): Talagaja documented from an original field study; the supplied tala khaja name remains unresolved. No website release.

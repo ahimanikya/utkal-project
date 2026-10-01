@@ -15961,6 +15961,40 @@
         "forest-kl-welfare2026"
       ],
       "added_at": "2026-10-01T21:29:27.391557+00:00"
+    },
+    {
+      "id": "sources/food-palm-panda2021",
+      "title": "Palmyra Palm (Borassus flabellifer L., Arecaceae) as a Valuable Resource for Livelihood Security in Odisha, India",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-palm-panda2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-palm-panda2021"
+      ],
+      "added_at": "2026-10-01T21:38:31.291164+00:00"
+    },
+    {
+      "id": "food/talagaja",
+      "title": "Talagaja: a documented palm-seed food",
+      "kind": "Food",
+      "layer": "research_concept",
+      "source_path": "food/talagaja.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "nature",
+        "everyday"
+      ],
+      "source_ids": [
+        "food-palm-panda2021"
+      ],
+      "added_at": "2026-10-01T21:38:31.291164+00:00"
     }
   ],
   "shared_publications": [
@@ -16785,7 +16819,9 @@
         "food/poda-pitha.md",
         "references/data/everyday-food-culture.json",
         "food/bela-pana.md",
-        "sources/food-koli-balasore2020.md"
+        "sources/food-koli-balasore2020.md",
+        "sources/food-palm-panda2021.md",
+        "food/talagaja.md"
       ],
       "project_records": [
         "kb/research/food/pakhala.md",
@@ -17213,8 +17249,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1104,
-    "updated_at": "2026-10-01T21:29:27.391557+00:00",
+    "records_mapped": 1106,
+    "updated_at": "2026-10-01T21:38:31.291164+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17630,6 +17666,11 @@
       "run_id": "2026-10-01-forest-payments",
       "at": "2026-10-01T21:29:27.391557+00:00",
       "scope": "Original 2025 report reused; new live welfare and OFDC annual-report vintages preserved separately. No repeated publication treated as corroboration."
+    },
+    {
+      "run_id": "2026-10-01-palm-seed",
+      "at": "2026-10-01T21:38:31.291164+00:00",
+      "scope": "One primary publication and one seed-food comparison; existing tala-pitha and unresolved khaja record enhanced. No confirmed synonym or duplicate task."
     }
   ]
 }

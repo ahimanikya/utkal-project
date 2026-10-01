@@ -1,10 +1,10 @@
 {
   "edition": "1.3.0",
   "okf_version": "0.2",
-  "generated_at": "2026-10-01T21:29:27.391557+00:00",
-  "concept_count": 935,
-  "unique_source_urls": 414,
-  "source_records": 436,
+  "generated_at": "2026-10-01T21:38:31.291164+00:00",
+  "concept_count": 937,
+  "unique_source_urls": 415,
+  "source_records": 437,
   "section_counts": {
     "about": 12,
     "cities": 2,
@@ -13,7 +13,7 @@
     "economy": 32,
     "evidence": 71,
     "facilities": 14,
-    "food": 44,
+    "food": 45,
     "handlooms": 11,
     "history": 11,
     "journeys": 6,
@@ -21,7 +21,7 @@
     "people": 66,
     "places": 25,
     "product": 6,
-    "sources": 436,
+    "sources": 437,
     "statistics": 78,
     "stories": 11,
     "subjects": 9,
@@ -100,9 +100,9 @@
   },
   "subject_classification": {
     "subject_families": 9,
-    "classified_concepts": 458,
+    "classified_concepts": 459,
     "expanded_statistical_pages": 42,
-    "explained_reading_links": 254,
+    "explained_reading_links": 255,
     "evidence_basis": "Editorial classification; individual source checks remain in the underlying records.",
     "reading_lenses": 10
   },
@@ -159,10 +159,10 @@
     "cadence": "Every six hours",
     "discovery_feed_records": 18,
     "monitoring_tracks_mapped": 17,
-    "last_run_id": "2026-10-01-forest-payments",
-    "last_run_status": "forest_payment_checkpoint",
-    "in_progress_task": "RES-057",
-    "next_task": "RES-057"
+    "last_run_id": "2026-10-01-palm-seed",
+    "last_run_status": "palm_seed_checkpoint",
+    "in_progress_task": "RES-044",
+    "next_task": "RES-044"
   },
   "people_and_creations": {
     "people": 59,
@@ -193,7 +193,7 @@
     "shared_publication_groups": 10,
     "exact_within_atlas_duplicates": 0,
     "semantic_deduplication_complete": false,
-    "current_map_records": 1104
+    "current_map_records": 1106
   },
   "entrepreneurs_and_businesses": {
     "selected_people": 5,
@@ -257,7 +257,12 @@
     "new_food_entries": 6,
     "reused_mushroom_entry": true,
     "unresolved_seed_names": 1,
-    "local_review": "pending"
+    "local_review": "pending",
+    "palm_seed_checkpoint": {
+      "concept_id": "food/talagaja",
+      "source_id": "food-palm-panda2021",
+      "khaja_equivalence": "unresolved"
+    }
   },
   "pala_culture": {
     "performance_examples": 5,

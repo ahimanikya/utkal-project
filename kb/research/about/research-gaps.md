@@ -274,3 +274,7 @@ Local season/use profiles and community-market entries are saved. Full attribute
 ## Forest-payment scope conflicts
 
 RES-057 retains differing welfare vintages/year bases and a third FY2019–20 sales-quantity observation from OFDC’s original report. Grant records do not measure household earnings. Original TDCCOL annual-report and rate-notification routes failed; retry 8 October. Accessible grant totals are saved separately, with the current year marked partial.
+
+## Palm-seed name checkpoint
+
+An original 2015–2018 Odisha study documents Talagaja and its germinated-seed stage. It does not identify the user’s tala khaja spelling. RES-039 remains incomplete and is deferred to 8 October for an attributed equivalence, detailed anatomy and local preparation; proceed independently to RES-044. No local review or recipe testing claimed.

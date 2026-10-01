@@ -25,7 +25,7 @@ A meal can tell a large story through its smallest accompaniments. This collecti
 
 ## Tala khaja: a seed-food lead
 
-Ahimanikya clarified on 1 October 2026 that “khaja is seed produce.” Preserve **tala khaja** as the supplied palm-seed food name. The exact seed stage, preparation and local/Odia spelling remain to be documented. Do not merge it with the khaja pastry or automatically equate it to tala gaja or tala saja. A Commons photograph labelled tala gaja in Baleswar is a discovery lead only: its full page could not be retrieved in this run.
+Ahimanikya clarified on 1 October 2026 that “khaja is seed produce.” Preserve **tala khaja** as the supplied palm-seed food name. The exact seed stage, preparation and local/Odia spelling remain to be documented. Do not merge it with the khaja pastry or automatically equate it to tala gaja or tala saja. A Commons photograph labelled tala gaja in Baleswar remains an indexed discovery lead; direct page access failed again on 1 October. No image reuse or identity decision follows from that caption.
 
 ## A useful way to tell the story
 
@@ -51,3 +51,7 @@ Next collection candidates are saga preparations, ambula and other souring ingre
 [Koli: local fruit names and varieties](koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
 
 [Bela pana](bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
+
+## Germinated-seed comparison documented
+
+[Talagaja](talagaja.md) now has an original Odisha field-study account distinguishing germinated seed food from young-fruit endosperm and ripe-fruit pitha. This narrows the research question but does not establish that tala khaja is the same local name. Exact spelling, local attribution and recipe remain open.

@@ -243,3 +243,7 @@ Two profiles deepen existing tamarind/chara product leads. Koli identity and two
 ## Forest-payment extension · 1 October 2026
 
 Existing forest statistics enhanced, reusing the 2025 report. Two new publisher sources distinguish live welfare figures from an original annual-report comparative. The readable story links to canonical statistics; no duplicate kendu profile or task.
+
+## Palm-seed identity extension · 1 October 2026
+
+RES-039 reuses everyday-food and tala-pitha records. One original publication adds a Talagaja comparison and historical season/study scope. Tala khaja remains unresolved; publisher tabs are a single source. No new research task created.

@@ -280,3 +280,7 @@ Enhanced two existing product identities with profiles, local seasons, attribute
 ## 1 October 2026 · Forest-worker payments
 
 Saved 20 scoped observations, a readable grant-category story and two publisher sources. Original OFDC comparative table visually checked; welfare scope conflicts preserved. Failed procurement/rate sources recorded without admitting search snippets. No website publication or independent payment audit claimed.
+
+## 1 October 2026 · Palm-seed foods
+
+Recovered the original 2021 Talagaja study, distinguished three palm maturity stages and enhanced existing food records. Source scope, 93-person study sample and historical season remain explicit. Exact tala khaja equivalence is held open. No current market estimates, health claims or website publication.

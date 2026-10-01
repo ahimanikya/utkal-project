@@ -67,3 +67,7 @@ The [mahua profile](mahua-mohula.md) now records a separate field-study cake des
 ## Tentuli and chara preparation leads
 
 The [tentuli](tentuli-tamarind.md) and [chara](chara-chironji.md) profiles now hold attributed ingredient-use descriptions. These are not complete recipes. Tamarind-seed gruel tables need local review and clarified cooking endpoints; chara roasting needs a named local account and quantities.
+
+## Palm stages and preparation
+
+[Talagaja](talagaja.md) adds a brief field-study use description. The original article separates germinated seed, young-fruit endosperm and ripe-fruit pitha; this is useful ingredient classification, not a tested recipe or verified name equivalence.

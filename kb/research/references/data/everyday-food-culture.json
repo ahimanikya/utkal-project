@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:35:46.552469+00:00",
-  "run_id": "2026-10-01-bela-pana",
+  "updated_at": "2026-10-01T21:38:31.291164+00:00",
+  "run_id": "2026-10-01-palm-seed",
   "scope": "Attributed everyday-food seed; distinct from the completed fourteen-entry preparation set. Not an inventory of all Odisha foods.",
   "records": [
     {
@@ -78,6 +78,11 @@
           "source_id": "food-tala-manaswini2018",
           "locator": "Title, ripe-fruit description and creator credit",
           "scope": "Maker credit and fruit stage supported. Embedded preparation video not inspected; do not extend this method to every tala pitha or infer a statewide season calendar."
+        },
+        {
+          "source_id": "food-palm-panda2021",
+          "locator": "Printed p.67 / PDF p.4, ripe-fruit paragraph",
+          "scope": "Rice-flour connection; no measured recipe or cooking endpoint."
         }
       ],
       "local_review": "pending",
@@ -202,6 +207,66 @@
         "scope": "Not measured by these sources"
       },
       "next_evidence": "Measured household recipe, locality/Odia review, festival source follow-up and dated vendor data."
+    },
+    {
+      "concept_id": "food/talagaja",
+      "name": "Talagaja",
+      "aliases": [
+        "Talagaja",
+        "Tala gaja"
+      ],
+      "food_kind": "germinated palm-seed food",
+      "technique_theme": "seed maturity and germination",
+      "botanical_name_as_reported": "Borassus flabellifer L.",
+      "source_accounts": [
+        {
+          "source_id": "food-palm-panda2021",
+          "locator": "Printed p.67 / PDF p.4, fruit and germinated-seed paragraphs",
+          "scope": "Historical selected-area field study, April2015–March2018; no exact equivalence to user-supplied tala khaja."
+        }
+      ],
+      "study_scope": {
+        "fieldwork_start": "2015-04",
+        "fieldwork_end": "2018-03",
+        "interviewees": 93,
+        "interviewee_unit": "people interviewed; purposive study sample",
+        "districts_as_reported": [
+          "Balasore",
+          "Bhadrak",
+          "Jajpur",
+          "Kendrapara",
+          "Jagatsinghpur",
+          "Cuttack",
+          "Puri",
+          "Khurdha",
+          "Ganjam",
+          "Gajapati"
+        ],
+        "individual_food_locality": null
+      },
+      "season": {
+        "months": [
+          10,
+          11
+        ],
+        "stage": "germination of mature seed",
+        "scope": "author-reported historical study window; not statewide current availability"
+      },
+      "preparation": {
+        "status": "brief_attributed_use_only",
+        "summary": "Authors describe opening the seed covering and extracting the edible interior.",
+        "cooking_endpoint": null,
+        "shelf_life": null,
+        "anatomy": "unresolved; do not equate to haustorium or immature endosperm without further evidence"
+      },
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "No measured sales or income table in this capture"
+      },
+      "next_evidence": "A named local account connecting khaja/gaja spellings and seed stage; documented recipe and present market evidence."
     }
   ],
   "reused_concepts": [
@@ -219,7 +284,12 @@
       "seed_stage": null,
       "equivalence_to_tala_gaja": null,
       "local_odia_review": "pending",
-      "next_action": "Find an attributed local account naming the seed stage and preparation; retain user spelling."
+      "next_action": "Confirm exact local spelling and intended seed stage through an attributable documentary/local account; Talagaja is a comparison candidate only.",
+      "comparison_candidate": {
+        "concept_id": "food/talagaja",
+        "source_id": "food-palm-panda2021",
+        "equivalence": "not_established"
+      }
     }
   ]
 }
