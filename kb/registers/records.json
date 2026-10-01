@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T02:18:45.187477+00:00",
+  "recorded_at": "2026-10-01T02:29:01.752917+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2936,22 +2936,26 @@
       "id": "UTP-WORK-107",
       "title": "Simplify the cookie message and controls",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-094",
-      "next_action": "Review and approve the copy candidate for publication.",
+      "next_action": "Published and verified; no further cookie-copy work pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-094",
-        "UTP-REV-069"
+        "UTP-REV-069",
+        "UTP-DEC-095",
+        "UTP-REV-070",
+        "UTP-REL-016"
       ],
       "evidence": [
-        "records/cookie-message-review.json"
+        "records/cookie-message-review.json",
+        "records/cookie-message-publication.json"
       ]
     }
   ],
@@ -4844,6 +4848,26 @@
       "evidence": [
         "records/cookie-message-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-095",
+      "title": "Merge and publish the simple cookie message",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approve PR 14",
+      "scope": "Approve merging and publishing reviewed PR 14, in response to the explicit request to approve both actions.",
+      "recorded_at": "2026-10-01T02:29:01.752917+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-107",
+        "UTP-REV-069"
+      ],
+      "evidence": [
+        "records/cookie-message-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -6503,6 +6527,27 @@
       "evidence": [
         "records/cookie-message-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-070",
+      "title": "Simple cookie message live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Copy-only change; previous production consent/network evidence retained rather than repeating the full Analytics verification.",
+        "Same assistant implemented and checked the copy."
+      ],
+      "refs": [
+        "UTP-DEC-095",
+        "UTP-WORK-107"
+      ],
+      "evidence": [
+        "records/cookie-message-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -6775,6 +6820,22 @@
         "records/evidence/visitor-readiness-publication-2026-10-01/deployment.json"
       ],
       "note": "Approved PR 13 deployed at be6d1c6. Live guide notes, print stylesheet, consent requests/withdrawal, GA Realtime and HTTPS redirects verified."
+    },
+    {
+      "id": "UTP-REL-016",
+      "title": "Simple cookie message published",
+      "status": "published",
+      "authorization": "UTP-DEC-095",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-095",
+        "UTP-WORK-107",
+        "UTP-REV-070"
+      ],
+      "evidence": [
+        "records/cookie-message-publication.json"
+      ],
+      "note": "Approved PR 14 deployed at 3f8a9ce; live wording, preferences panel and decline confirmation verified."
     }
   ],
   "sources": [

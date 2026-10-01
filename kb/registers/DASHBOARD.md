@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d7e3e389a108fb8df39cdfd43b1555ebe048d63e24d627496583f34222445bd6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `20c5d449f8b1aa6f00c659e1f0478b926e7541dac01bb5745c507f34a3857888`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -119,7 +119,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-104 · Raghurajpur making story and workshop visitor guide | completed | published | Ahimanikya Satapathy | Published and verified. Direct maker/local confirmations remain UTP-WORK-097. | — |
 | UTP-WORK-105 · Dhauli historical layers and visitor notebook | completed | published | Ahimanikya Satapathy | Published and verified. Direct current show/access/facility confirmations remain UTP-WORK-097. | — |
 | UTP-WORK-106 · Visitor readiness: three guides, portable books, analytics and review queue | completed | published | Ahimanikya Satapathy | Published and verified. Native PDF evidence retained; local confirmations, fluent-language and broader accessibility review remain separately tracked. | — |
-| UTP-WORK-107 · Simplify the cookie message and controls | awaiting_review | reviewed | Ahimanikya Satapathy | Review and approve the copy candidate for publication. | — |
+| UTP-WORK-107 · Simplify the cookie message and controls | completed | published | Ahimanikya Satapathy | Published and verified; no further cookie-copy work pending. | — |
 
 ## Pending human review and decisions
 
@@ -189,7 +189,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-097 | Use models/local-confirmation.md for dated scoped evidence from the relevant source and separate Founder acceptance. All seven guides remain locally unverified. No outreach or site inspection undertaken. |
-| UTP-WORK-107 | Review and approve the copy candidate for publication. |
 
 ## Decisions
 
@@ -288,6 +287,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-092 · Approve and merge visitor-readiness PR 13 | approved | Ahimanikya Satapathy | Approve reviewed PR 13 at 03c19db and merge it. Automatic approval review requires a separate explicit production-deployment confirmation; it remains pending. |
 | UTP-DEC-093 · Explicitly deploy visitor-readiness PR 13 with optional analytics | approved | Ahimanikya Satapathy | Explicit approval in response to the request to deploy merged PR 13 to utkalproject.org, including optional consent-based analytics. Resolves the separate production-deployment approval requirement. |
 | UTP-DEC-094 · Use familiar cookie-consent wording | approved | Ahimanikya Satapathy | Prepare generic cookie wording in place of provider-focused messaging; retain accept/decline choices and linked privacy details. |
+| UTP-DEC-095 · Merge and publish the simple cookie message | approved | Ahimanikya Satapathy | Approve merging and publishing reviewed PR 14, in response to the explicit request to approve both actions. |
 
 ## Reviews
 
@@ -360,6 +360,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-067 | pass_with_limitations | False | Same AI assistant implemented and checked the work; no independent review or new fluent Odia review.; All seven coastal guides still need scoped local confirmations; no outreach or field inspection.; Native Chrome PDFs and responsive viewport samples are not physical-device, screen-reader or physical-printer certification.; GA4 account and variable exist; production consent/network/Realtime behaviour awaits an approved deployment.; Held collections remain excluded from the 16-page coastal edition; Store remains deferred. |
 | UTP-REV-068 | pass_with_limitations | False | Same AI assistant implemented and verified; no independent review.; Local confirmations for seven guides, fluent language review, physical-device and broader accessibility checks remain separate.; Consent checks used synthetic URL/search markers; no personal journey or contribution content was entered. Cookies and browser storage were not directly inspected.; Realtime includes the synthetic verification visits; those are not organic audience results.; Six native PDF cases were verified before release; published print CSS was checked, without repeating physical-printer or other-browser checks. |
 | UTP-REV-069 | pass_with_limitations | False | Copy-only self-review; not an independent review.; Detailed Google Analytics disclosure remains on the linked privacy page. |
+| UTP-REV-070 | pass_with_limitations | False | Copy-only change; previous production consent/network evidence retained rather than repeating the full Analytics verification.; Same assistant implemented and checked the copy. |
 
 ## Publication and application history
 
@@ -380,6 +381,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-013 · Raghurajpur making story and workshop guide published | published | https://utkalproject.org/visit/places/raghurajpur/ | UTP-DEC-088 |
 | UTP-REL-014 · Dhauli historical layers and visitor notebook published | published | https://utkalproject.org/visit/places/dhauli/ | UTP-DEC-090 |
 | UTP-REL-015 · Visitor guide, print and optional analytics release | published | https://utkalproject.org/ | UTP-DEC-093 |
+| UTP-REL-016 · Simple cookie message published | published | https://utkalproject.org/ | UTP-DEC-095 |
 
 ## Sources and assets
 
@@ -417,7 +419,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-098 | 2026-09-30T23:53:21.553220+00:00 | Five Puri planning notes prepared from official food, beach and arrival sources. Current temple rules remain unconfirmed after source-access failures. Layout specimens and actual HTML/text exports reviewed. | Founder review before publication. |
 | UTP-EVT-099 | 2026-10-01T00:02:38.187122+00:00 | Approved PR 10 merged and published. Live Puri guidance, actual HTML/text books and retained HTTPS redirects verified. | Direct temple/local confirmations and native-PDF checks remain separately tracked. |
 | UTP-EVT-100 | 2026-10-01T00:18:34.965470+00:00 | Three-stage making sequence and four notebook stops prepared from official sources. Actual books and responsive specimens inspected; current maker arrangements remain unconfirmed. | Founder review before publication. |
 | UTP-EVT-101 | 2026-10-01T00:33:49.893382+00:00 | Approved PR 11 merged and published. Live making sequence, four notebook notes, actual HTML/text books and HTTPS redirects verified. | Direct maker/local confirmations and native-PDF checks remain separately tracked. |
@@ -427,6 +428,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-105 | 2026-10-01T01:59:43.640469+00:00 | Approved PR 13 merged at 1fd868d. Deployment attempt rejected by automatic approval review; explicit deployment confirmation requested. Live site remains on the prior release. | Await deployment confirmation; no workaround for the rejected action. |
 | UTP-EVT-106 | 2026-10-01T02:13:34.846097+00:00 | Explicit deployment approval received. Normal workflow succeeded at be6d1c6. Live planning notes, print CSS, analytics consent and withdrawal, GA Realtime and HTTPS verified. | Continue separately tracked local and fluent-language confirmations; current release verification complete. |
 | UTP-EVT-107 | 2026-10-01T02:18:45.187477+00:00 | Prepared familiar cookie wording and controls; provider details remain on the privacy page. Coastal build and 11 tests pass. | Founder publication review. |
+| UTP-EVT-108 | 2026-10-01T02:29:01.752917+00:00 | Approved PR 14 merged and published. Familiar cookie wording, preferences access and decline confirmation verified live. | No further cookie-copy work pending. |
 
 ## Deferred extensions
 

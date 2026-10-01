@@ -116,3 +116,5 @@
 - [Visitor-readiness publication and live consent checks](visitor-readiness-publication.json).
 
 - [Simple cookie message review](cookie-message-review.json).
+
+- [Simple cookie message publication](cookie-message-publication.json).
