@@ -23,4 +23,4 @@ for(const note of data.notebooks){
  };
  for(const [name,fn]of Object.entries(checks))test(`N210-${n++} ${note.route} ${name}`,fn);
 }
-assert.equal(n,146);
+assert.equal(n,76+data.notebooks.length*10);

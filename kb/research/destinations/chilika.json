@@ -30,7 +30,9 @@
         "nature"
       ],
       "image_ref": "mangalajodi-boat",
-      "detail_href": "/visit/experiences/mangalajodi-birdwatching/"
+      "detail_href": "/visit/experiences/mangalajodi-birdwatching/",
+      "place_href": "/visit/places/mangalajodi/",
+      "place_label": "Explore Mangalajodi"
     },
     {
       "id": "experience:chilika-kalijai",
@@ -46,7 +48,9 @@
         "boating"
       ],
       "image_ref": "kalijai",
-      "detail_href": "/visit/experiences/kalijai-crossing/"
+      "detail_href": "/visit/experiences/kalijai-crossing/",
+      "place_href": "/visit/places/kalijai/",
+      "place_label": "Explore Kalijai"
     },
     {
       "id": "experience:chilika-satapada",
@@ -61,7 +65,9 @@
         "wildlife",
         "boating"
       ],
-      "detail_href": "/visit/experiences/satapada-boating/"
+      "detail_href": "/visit/experiences/satapada-boating/",
+      "place_href": "/visit/places/satapada/",
+      "place_label": "Explore Satapada"
     }
   ],
   "foods": [
@@ -193,19 +199,20 @@
       "id": "mangalajodi-visit",
       "title": "Mangalajodi — Incredible India",
       "resource": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
-      "inspection": "Official destination text inspected for birdwatching, community conservation and November–February migratory-bird season; no field visit."
+      "inspection": "Official destination guide rechecked in indexed text on 1 October 2026: November–February migratory-bird season and community conservation context. No guide, operator, price or access arrangements confirmed."
     },
     {
       "id": "satapada-visit",
       "title": "Chilika (Satpada) — Puri district",
       "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada",
-      "inspection": "Official page inspected for Satapada boating, Irrawaddy dolphins and fish, prawns and crabs. Rankings, population totals and transport distances were not reused."
+      "inspection": "Puri district indexed text rechecked 1 October 2026 for Satapada boating and Irrawaddy dolphins. Direct retrieval failed; wildlife encounters and current boat arrangements are not guaranteed."
     },
     {
       "id": "chilika-bases",
       "title": "Chilika Nature Camps — Odisha Tourism, destination guide",
-      "resource": "https://odishatourism.gov.in/content/tourism/en/experience/activities/bird-watching/chilika-nature-camps.html",
-      "inspection": "Earlier destination URL returned a 404 on recheck. Equivalent official bird-watching guide indexed text confirms Panthanivas and Rajhans/Berhampura camp leads; current operation, rooms, rates and accessibility remain unverified."
+      "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html",
+      "inspection": "Official page read 1 October 2026: lists Panthanivas at Barkul and Rambha, and nature camps at Rajhans and Mangalajodi. This verifies published accommodation leads, not current operation, facilities, availability, transfers or prices. Replaces the previously failing bird-watching URL.",
+      "checked_on": "2026-10-01"
     },
     {
       "id": "barkul-kalijai",
@@ -389,5 +396,9 @@
       "image_ref": "hero",
       "text": "Choose a day on the water, with room for the unexpected."
     }
-  ]
+  ],
+  "journey_starter": {
+    "href": "/journey-starters/#chilika-birds",
+    "title": "Start with a Mangalajodi birding collection"
+  }
 }

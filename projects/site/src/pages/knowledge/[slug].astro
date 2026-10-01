@@ -34,7 +34,7 @@ const evidenceUses=[
   ]:[])
 ];
 ---
-<Shell title={entry.label} description={entry.dek} active="explore" wide={!!destination} related={entry.slug!=='konark'}>
+<Shell title={entry.label} description={entry.dek} active="explore" wide={!!destination} related={!['konark','chilika'].includes(entry.slug)}>
   {reference?<MagazinePlace entry={entry} story={story} destination={destination} sources={sources} evidenceUses={evidenceUses}/>:<div class:list={['wrap',{'destination-wide':!!destination,'reference-place':reference}]}>
     <div class:list={['story-cover',{'reference-cover':reference}]}><div class="page-head">
       <p class="breadcrumb"><a href="/explore/">The collection</a> / {entry.category}</p>

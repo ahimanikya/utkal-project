@@ -1,0 +1,112 @@
+{
+  "recorded_at": "2026-10-01T03:04:49.370605+00:00",
+  "authorization": "UTP-DEC-096",
+  "status": "candidate_for_founder_review",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "scope": {
+    "new_pages": [
+      "/knowledge/chilika/",
+      "/visit/places/mangalajodi/",
+      "/visit/places/kalijai/",
+      "/visit/places/satapada/",
+      "/visit/experiences/mangalajodi-birdwatching/",
+      "/visit/experiences/kalijai-crossing/",
+      "/visit/experiences/satapada-boating/",
+      "/visit/stays/mangalajodi/",
+      "/visit/stays/barkul-rambha/",
+      "/visit/stays/rajhans-satapada/"
+    ],
+    "edition_pages_before": 16,
+    "edition_pages_after": 26,
+    "saveable_ideas_before": 10,
+    "saveable_ideas_after": 23,
+    "new_starters": [
+      "chilika-birds",
+      "chilika-island",
+      "chilika-satapada"
+    ],
+    "food": "Three saveable food ideas stay inside the main Chilika article; no extra food page or reviewed restaurant invented.",
+    "excluded": "Store, broader research, held language/literature profiles and other unpublished destination routes remain excluded."
+  },
+  "changes": [
+    "Connect the Chilika story to three places, three experiences and three stay areas.",
+    "Resolve stay links to the selected Chilika guide rather than the coastal Puri fallback.",
+    "Add one-gateway journey starters, a visit notebook and six preparation questions.",
+    "Preserve detail-page advice and the full source pool, including Kalijai legend provenance, in HTML and text books.",
+    "Expose the existing four-scene real-photo sequence with manual controls and honest audio/depiction labels.",
+    "Link Chilika from the coastal homepage and discovery; retain the original five-story reading thread.",
+    "Keep the printed preparation checklist together after detecting a split heading in the first A4 sample."
+  ],
+  "source_recheck": [
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html",
+      "method": "Direct official page text read",
+      "result": "Accommodation area leads confirmed; no current provider operation or facilities inferred."
+    },
+    {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
+      "method": "Indexed text corroborated; direct page returned extensive navigation",
+      "result": "Migratory bird season November–February and community conservation context."
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada",
+      "method": "Indexed text; direct retrieval failed",
+      "result": "Boating and Irrawaddy dolphin association only; no sightings promised."
+    },
+    {
+      "url": "https://www.chilika.com/documents/CDA%20Health%20Report%282023-24%29.pdf",
+      "method": "PDF text",
+      "result": "B+ rating is explicitly the 2023–24 report, not a current water-safety statement."
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/Feb-March/engpdf/79-81.pdf",
+      "method": "PDF text",
+      "result": "Recorded Kalijai legend retained as belief, not verified event."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf",
+      "method": "Indexed brochure text",
+      "result": "Food leads corroborated; no menu, current availability or inspected venue claim."
+    },
+    {
+      "url": "https://music.amazon.in/tracks/B075653SCH",
+      "method": "Indexed catalogue text",
+      "result": "Chilika Teerey track connection corroborated; playback not tested, no lyrics or recordings copied."
+    }
+  ],
+  "verification": {
+    "full_build_pages": 72,
+    "full_tests_passed": 331,
+    "coastal_tests_passed": 15,
+    "coastal_page_acceptance_checks": "104/104",
+    "responsive": "22 DOM layout checks at 390 and 1440 pixels across ten Chilika pages plus starters; no horizontal overflow. Representative cover/gateway/stay screenshots inspected.",
+    "interaction": "Created separate Kalijai starter through UI; added synthetic English/Odia note; moved four choices to Day 1; downloaded illustrated HTML; previous empty default trip retained. Next/previous photo controls exercised; optional audio was not played.",
+    "print": "Actual UI download opened in Chrome and printed to A4. Six pages rendered and visually inspected; synthetic note retained. Initial checklist split corrected; final checklist heading and all six prompts share page 5.",
+    "analytics": "No consent implementation changes; route allowlist follows edition configuration. No new production Analytics test claimed.",
+    "design_system_tests_passed": 6,
+    "knowledge_bundle": "Register, catalogue, portable bundle and authority/config regression checks passed."
+  },
+  "evidence": [
+    "records/evidence/chilika-release/responsive-checks.json",
+    "records/evidence/chilika-release/desktop-cover.png",
+    "records/evidence/chilika-release/desktop-gateways.png",
+    "records/evidence/chilika-release/mobile-cover.png",
+    "records/evidence/chilika-release/desktop-stay.png",
+    "records/evidence/chilika-release/sample-book.html",
+    "records/evidence/chilika-release/sample-book-a4.pdf"
+  ],
+  "limitations": [
+    "Same assistant implemented and reviewed; no independent editorial review.",
+    "No field visit, boat inspection, property inspection, current price, route time, transport or accessibility confirmation.",
+    "Odia quotation and English rendering still need fluent editorial proofreading against the scan.",
+    "Some sources remain indexed-text checks; retrieval and playback limitations are preserved in their source records.",
+    "Regional photographs are labelled; Satapada-specific photography and current property images remain gaps.",
+    "Chrome A4 PDF is a synthetic four-item regression sample; no physical printer or device test. Earlier A4/Letter evidence remains separate."
+  ],
+  "publication": "not_merged_or_deployed",
+  "next_action": "Founder reviews the Chilika candidate; merge and deployment require approval of this batch."
+}
