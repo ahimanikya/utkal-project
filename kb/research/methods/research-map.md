@@ -97,3 +97,7 @@ Added eleven sources, one person and seven recording-specific identities; curren
 ### Performing-arts completion extension · 1 October 2026
 
 Appended Jagannatha Swami’s label source and recording identity after a saved-knowledge search found no existing match. Current inventory: 801. Re Mita’s browser evidence enhances its existing source rather than creating an independent corroborator.
+
+### Sports extension · 1 October 2026
+
+Added fifteen source records, seven athlete identities and one collection; enhanced the existing Dilip Tirkey profile. Current inventory: 824. Candidate spelling Debashish Das resolves to the federation’s Debashis Das identity here. Same-federation guide and result table are one evidence family. Athlete results use sports-achievements.json; event hosting and venue capacity stay in the existing atlas.

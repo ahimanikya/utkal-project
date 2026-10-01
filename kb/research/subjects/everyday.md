@@ -57,3 +57,7 @@ Subject membership is editorial classification. It does not establish historical
 [Explore Life in Odisha](../collections/life-in-odisha.md) for connected reading across places, people and dated evidence.
 
 [Dilip Tirkey](../people/dilip-tirkey.md) opens a named-achiever research path alongside sports infrastructure and participation.
+
+## Sporting achievements · 1 October 2026
+
+[Eight athlete profiles across four sports](../people/sporting-achievements.md) connect official results with dated Odisha affiliations. Team medals, individual results, career caps, heat positions and chess scores retain their separate meanings. This research collection is not a statewide medal total.

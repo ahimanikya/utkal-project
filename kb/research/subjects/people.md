@@ -67,3 +67,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Vocal music
 
 [Sunanda Patnaik](../people/sunanda-patnaik.md) and [Prafulla Kar](../people/prafulla-kar.md) connect the collection with Hindustani singing, Odia film music and named diaspora recognition.
+
+## Sporting achievements · 1 October 2026
+
+[Eight athlete profiles across four sports](../people/sporting-achievements.md) connect official results with dated Odisha affiliations. Team medals, individual results, career caps, heat positions and chess scores retain their separate meanings. This research collection is not a statewide medal total.

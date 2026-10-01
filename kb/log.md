@@ -31,3 +31,7 @@ Continued RES-027 with Sunanda Patnaik, deeper Prafulla Kar context and seven re
 ## 2026-10-01
 
 Completed the bounded RES-027 set with a Jagannatha Swami recording and two direct label-description/muted-player checks. Original recording dates, regional access and reuse rights remain explicit unknowns. [Bounded receipt](records/performing-arts-milestone-2026-10-01.json). Shared operating registers and original checkout left untouched; no website changes or human approval claimed.
+
+## 2026-10-01
+
+Completed RES-028: eight selected athletes, including women and para sport, and fourteen dated results/milestones. Historical sanctions, non-medal results and source-access limits remain visible. [Bounded receipt](records/sports-achievements-2026-10-01.json). Shared operating registers and original checkout left untouched; no website changes or human approval claimed.

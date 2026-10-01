@@ -126,3 +126,7 @@ Prafulla Kar’s exact birth date differs between the indexed Akademi citation (
 ### Performing-arts follow-up scope · 1 October 2026
 
 RES-027’s six-person/twelve-work seed is complete. Re Mita and Jagannatha Swami now have direct label-description and muted-player checks; earlier failed fetches remain recorded. The other six recording routes retain untested playback. Unknown original dates, recording identifiers, Prafulla Kar’s conflicting birth date and surviving historical performance footage remain research gaps. No globally available or reusable audio is claimed.
+
+### Sports evidence limits · 1 October 2026
+
+Eight selected profiles are a seed, not complete biographies or statewide totals. Several World Athletics pages provided indexed tables but failed direct fetching; retry after 8 October. Srabani’s Odisha connection is competition affiliation, not verified birthplace. Pramod’s historical whereabouts decision does not establish current eligibility; a conflicting IPC recap class is quarantined in the sports dataset. Preserve Deep Grace’s international-retirement scope. Career totals, records, chess ratings, media rights and present eligibility need separate dated checks.

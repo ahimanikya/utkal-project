@@ -494,12 +494,23 @@
       "title": "Odisha sporting achievements",
       "done_when": "Research eight athletes across at least four sports including women and para sport; verify Odisha connection, official results, event/year and record vintage; retain changes and relevant disqualifications.",
       "target": "people/people-and-creations.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Research eight athletes across at least four sports including women and para sport; verify Odisha connection, official results, event/year and record vintage; retain changes and relevant disqualifications.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-01T05:27:59.980434-07:00",
+      "next_step": "Bounded eight-athlete/four-sport seed complete; RES-029 scientists next. Enrichment: directly retrieve indexed athletics sources after 8 October, fuller career timelines, event result books, Odia names and media rights; current rankings/eligibility require separate checks.",
+      "evidence_outputs": [
+        "people/sporting-achievements.md",
+        "references/data/sports-achievements.json",
+        "people/dilip-tirkey.md",
+        "people/amit-rohidas.md",
+        "people/deep-grace-ekka.md",
+        "people/kishore-jena.md",
+        "people/srabani-nanda.md",
+        "people/pramod-bhagat.md",
+        "people/padmini-rout.md",
+        "people/debashis-das.md"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
@@ -511,7 +522,21 @@
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "completed_at": "2026-10-01T05:27:59.980434-07:00",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-sports-achievements",
+          "at": "2026-10-01T05:27:59.980434-07:00",
+          "outcome": "completed",
+          "completion_criteria_met": true,
+          "people": 8,
+          "sports": 4,
+          "women": 3,
+          "para_athletes": 1,
+          "scope": "Selected historical achievements; indexed-only source limitations, non-medal results and discipline context preserved."
+        }
+      ]
     },
     {
       "id": "RES-029",

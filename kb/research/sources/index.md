@@ -312,3 +312,33 @@
 - [Mamata — Saregama release on Amazon Music](music-mamata-amazon.md)
 
 - [Jagannatha Swami — Sunanda Patnaik label upload](music-jagannatha-label.md)
+
+- [Amit Rohidas: 200-cap milestone](sport-amit-200.md)
+
+- [Deep Grace Ekka: international retirement](sport-deep-retirement.md)
+
+- [Amit Rohidas: Paris quarter-final red card](sport-amit-red-card.md)
+
+- [Kishore Jena: World Athletics competition guide](sport-jena-wa-guide.md)
+
+- [Kishore Jena: KIIT Review profile](sport-jena-kiit.md)
+
+- [Hangzhou 2023 men’s javelin final](sport-jena-asian-result.md)
+
+- [Srabani Nanda: World Athletics profile](sport-srabani-wa.md)
+
+- [Rio 2016 women’s 200 m heats](sport-srabani-rio.md)
+
+- [Srabani Nanda: Odisha relay affiliation](sport-srabani-odisha-team.md)
+
+- [Pramod Bhagat: Tokyo 2020 result entry](sport-pramod-ipc.md)
+
+- [CAS 2024/A/10440: Pramod Bhagat v BWF](sport-pramod-cas.md)
+
+- [Padmini Rout: Odisha affiliation](sport-padmini-odisha.md)
+
+- [Padmini Rout: 2018 Asian continental title](sport-padmini-asian.md)
+
+- [Padmini Rout: 2018 Women’s World Championship pairing](sport-padmini-world.md)
+
+- [Debashis Das: 2018 Commonwealth Chess final table](sport-debashis-commonwealth.md)

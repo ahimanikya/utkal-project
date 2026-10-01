@@ -39,3 +39,19 @@
 - [Raghunath Panigrahi](raghunath-panigrahi.md)
 
 - [Sunanda Patnaik](sunanda-patnaik.md)
+
+- [Amit Rohidas](amit-rohidas.md)
+
+- [Deep Grace Ekka](deep-grace-ekka.md)
+
+- [Kishore Jena](kishore-jena.md)
+
+- [Srabani Nanda](srabani-nanda.md)
+
+- [Pramod Bhagat](pramod-bhagat.md)
+
+- [Padmini Rout](padmini-rout.md)
+
+- [Debashis Das](debashis-das.md)
+
+- [Odisha’s sporting achievements](sporting-achievements.md)

@@ -136,3 +136,5 @@
 - [Music listening research](music-listening-research-2026-10-01.json) — Sunanda Patnaik, Prafulla Kar and seven credited recording records.
 
 - [Performing-arts milestone](performing-arts-milestone-2026-10-01.json) — Six practitioners and twelve credited works, with two scoped browser access checks.
+
+- [Sports research](sports-achievements-2026-10-01.json) — Eight athletes across four sports, with fourteen scoped results and milestones.

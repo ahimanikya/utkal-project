@@ -67,3 +67,7 @@ Added Sunanda Patnaik, expanded Prafulla Kar and attached seven recording-specif
 ## Performing-arts milestone · 1 October 2026
 
 The bounded RES-027 set now covers **six practitioners and twelve independently scoped works or performances**: four documented stage episodes and eight catalogue recordings. The Mamata soundtrack container is excluded from this count. Two label videos passed a muted-player progression check in the current session. Historical stage records do not thereby acquire surviving video; remaining listening routes, original recording dates, identifiers, biography conflicts and media permissions retain their stated unknowns. This completes the first research set, not an exhaustive discography or editorial approval.
+
+## Sporting achievements · 1 October 2026
+
+[Eight athlete profiles across four sports](../people/sporting-achievements.md) connect official results with dated Odisha affiliations. Team medals, individual results, career caps, heat positions and chess scores retain their separate meanings. This research collection is not a statewide medal total.

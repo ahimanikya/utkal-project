@@ -124,3 +124,7 @@ Continued RES-027: added Sunanda Patnaik, enhanced Prafulla Kar, seven recording
 ## 2026-10-01
 
 Completed the bounded RES-027 performing-arts seed with one additional Sunanda Patnaik recording and two direct browser label/access checks. Preserved muted-only scope, upload versus recording dates and prior failures. Updated canonical and structured records, classification, reuse map, source history and next-task checkpoint; no website release or human review claimed.
+
+## 2026-10-01
+
+Completed RES-028 sports seed: seven new athlete profiles, an enhanced Dilip Tirkey record, an eight-person collection and fourteen scoped observations. Added fifteen publisher records, classification and evidence connections, retained non-medal results and disciplinary context, recorded fetch limitations and next science task. No current-ranking, human-review or website-publication claim.

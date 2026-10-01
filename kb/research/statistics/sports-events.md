@@ -46,3 +46,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^enterprise-fih2023]: [FIH Odisha Hockey Men’s World Cup 2023 official FAQs](https://www.fih.hockey/events/world-cup/men/fih-odisha-hockey-mens-world-cup-2023-bhubaneswar-rourkela-1389/faqs)
+
+## Sporting achievements · 1 October 2026
+
+[Eight athlete profiles across four sports](../people/sporting-achievements.md) connect official results with dated Odisha affiliations. Team medals, individual results, career caps, heat positions and chess scores retain their separate meanings. This research collection is not a statewide medal total.

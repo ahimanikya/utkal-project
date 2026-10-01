@@ -93,3 +93,9 @@ RES-027 now links six practitioners and twelve work records, including one sound
 ### Performing-arts milestone · 1 October 2026
 
 The bounded RES-027 set now covers **six practitioners and twelve independently scoped works or performances**: four documented stage episodes and eight catalogue recordings. The Mamata soundtrack container is excluded from this count. Two label videos passed a muted-player progression check in the current session. Historical stage records do not thereby acquire surviving video; remaining listening routes, original recording dates, identifiers, biography conflicts and media permissions retain their stated unknowns. This completes the first research set, not an exhaustive discography or editorial approval. Next eligible task: RES-028 sports.
+
+### Sports seed completed · 1 October 2026
+
+RES-028 now contains eight selected athletes across hockey, athletics, badminton and chess, with fourteen result/milestone observations. Seven new profiles enhance the existing Dilip Tirkey record. Women and para sport are included; event classes, team results, heat places and historical discipline findings are retained. Next: RES-029 scientists. Direct athletics fetch retries remain dated follow-up work.
+
+When sports-achievements.json changes, run tools/validate_sports.py with the core, creations and classification validators. Its checks enforce event scope and references; passing them is not independent factual review.

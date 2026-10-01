@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T04:38:19.556927-07:00",
+  "updated_at": "2026-10-01T05:27:59.980434-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1125,6 +1125,10 @@
     {
       "run_id": "2026-10-01-performing-arts-milestone",
       "scope": "Two original label descriptions and muted-player checks; no weekly statistical refresh."
+    },
+    {
+      "run_id": "2026-10-01-sports-achievements",
+      "scope": "Sports historical-result research; no weekly statistical release check."
     }
   ],
   "supplemental_discovery_routes": [
@@ -1586,6 +1590,176 @@
       "status": "available_direct_browser_scoped_playback",
       "scope": "Expanded label description confirms existing artist, music-director and lyricist credits and 29 February 2024 upload date. Player duration 3:35; observed progression from 0:00 to 0:24 while muted. Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
       "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-amit-200",
+      "discovery_url": "https://www.hockeyindia.org/news/hockey-india-congratulates-amit-rohidas-and-sumit-for-achieving-special-milestones",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "200th cap on 24 October 2024 in New Delhi versus Germany; Sundargarh connection and Tokyo/Paris Olympic team bronzes. Historical snapshot, not current caps.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-deep-retirement",
+      "discovery_url": "https://www.hockeyindia.org/news/hockey-india-congratulates-deep-grace-ekka-on-a-glorious-career",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Lulkidihi, Sundargarh connection; two Olympics, 2013 junior World Cup bronze and Tokyo fourth place. Retirement is international scope; club participation is not ruled out. No career cap count adopted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-amit-red-card",
+      "discovery_url": "https://www.fih.hockey/events/the-olympic-games-paris-2024/news/incredible-india-reach-olympic-semi-finals-with-against-all-odds-victory-over-great-britain",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Official report confirms red card and India advancing by shoot-out; no inferred reason, appeal outcome or current sanction.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-jena-wa-guide",
+      "discovery_url": "https://assets.aws.worldathletics.org/document/68267c277f601d37b4222ff2.pdf",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Direct PDF text inspected; screenshot retrieval unavailable. Panel records 87.54 m at Hangzhou on 4 October 2023, Asian Games second and 2023 World Championships fifth; born Brahmagiri. Guide is a 2025 snapshot; no current ranking imported.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-jena-kiit",
+      "discovery_url": "https://news.kiit.ac.in/wp-content/uploads/2023/12/KIIT-Review-November-2023-Issue.pdf",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Institutional magazine identifies Kothasahi and Puri, Odisha; used for attributed regional connection only. Promotional causal narrative and current second-best claims not adopted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-jena-asian-result",
+      "discovery_url": "https://worldathletics.org/competition/calendar-results/results/7147637?eventId=10229636",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed official table: second, 87.54 m. Direct page fetch failed. Same federation evidence family as guide, not independent corroboration.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-srabani-wa",
+      "discovery_url": "https://worldathletics.org/athletes/india/srabani-nanda-14334453",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed official profile lists 23.07 seconds on 26 June 2016. Direct fetch failed. Dynamic ranks are excluded; asterisked non-legal marks in other events not adopted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-srabani-rio",
+      "discovery_url": "https://worldathletics.org/results/olympic-games/2016/the-xxxi-olympic-games-7093747/women/200-metres/heats/result",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed official table: 23.58 seconds, sixth in heat, wind −0.1 m/s, no qualification marker. Heat place is not overall Olympic rank. Direct fetch failed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-srabani-odisha-team",
+      "discovery_url": "https://worldathletics.org/competition/calendar-results/results/7211762",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed official team roster lists Srabani Nanda, Mari Mukta, Sukhi Baskey and Manisha Merel under Odisha. Used as competition affiliation evidence, not birthplace. Direct fetch failed; exact event-date header was not recovered and no relay observation is promoted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-pramod-ipc",
+      "discovery_url": "https://www.paralympic.org/pramod-bhagat",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Direct table places Bhagat first in men’s singles SL3 final. Unit ranks in other rows are not used to infer full-event placing. Tokyo 2020 took place in 2021; no current eligibility claim.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-pramod-cas",
+      "discovery_url": "https://www.tas-cas.org/generated/assets/lists/feb900ba-1137-4b78-a9ff-d68af7869087/10440_FINAL_Award__for_publ._.pdf",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Cover identifies Odisha. Decision concerns three whereabouts failures, not a positive-test finding. Eighteen-month ineligibility upheld; operative part notified 27 July 2024, reasoned award dated 5 March 2025. Direct text inspected; screenshot retrieval failed. Do not describe the athlete as currently suspended without a current eligibility check.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-padmini-odisha",
+      "discovery_url": "https://aicf.in/padmini-rout-wrests-sole-lead/",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Direct report identifies Rout with Odisha. Round-nine lead is not the final tournament outcome.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-padmini-asian",
+      "discovery_url": "https://old.fide.com/component/content/article/4-tournaments/11328-wei-padmini-wins-asian-continental-championship-2018.html",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Direct federation report: women’s winner in Makati; seven points, tied with runner-up but ahead on tie-break. Describes both WGM and IM in different parts; titles not used to infer chronology.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-padmini-world",
+      "discovery_url": "https://ugra2018.fide.com/pairings/",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Direct table gives 1½–2½ first-round match loss. Separate event from December’s Asian continental title; no game scores or copyrighted annotations copied.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "sport-debashis-commonwealth",
+      "discovery_url": "https://aicf.in/commonwealth2018final/",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_with_scoped_capture",
+      "scope": "Direct report labels Debashis Das GM, Odisha; third with seven points. Event year 2018; exact publication day not established. Chess championship is not the multi-sport Commonwealth Games. No current rating adopted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-dilip-caps",
+      "discovery_url": "https://www.hockeyindia.org/news/manpreet-singh-equals-former-indian-captain-dilip-tirkeys-record-of-412-international-caps",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "available_existing_source_rechecked",
+      "scope": "Same 14 June 2026 source rechecked, not independent corroboration or present ranking.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://pa.odisha.gov.in/sites/default/files/2024-05/Speech%202024%20%28Eng%29.pdf",
+      "checked_at": "2026-10-01T05:27:59.980434-07:00",
+      "run_id": "2026-10-01-sports-achievements",
+      "status": "unavailable_direct_fetch",
+      "scope": "Governor speech lead not promoted; direct fetch failed.",
+      "retry_after": "2026-10-08",
       "contact_action_performed": false
     }
   ]

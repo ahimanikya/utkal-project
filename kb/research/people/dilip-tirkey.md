@@ -17,3 +17,7 @@ subjects: ["people", "everyday"]
 **Odisha connection:** Hockey India connects him to Saunamara in Sundargarh district.
 
 This is a sourced research nucleus. A fuller biography, Odia spelling review, credited portrait and work-by-work bibliography remain pending.
+
+## A dated milestone, not a permanent ranking
+
+The same Hockey India release was directly rechecked on 1 October 2026. Its 14 June 2026 comparison remains the evidence vintage; it does not establish the current caps leader. [Sporting achievements](sporting-achievements.md) places this career measure alongside event-specific results without adding unlike measures together.
