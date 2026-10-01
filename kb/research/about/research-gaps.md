@@ -110,3 +110,7 @@ RES-026 adds a [women writers reading route](../works/spark-of-light.md), four p
 ## Avoid repeated research · 1 October 2026
 
 The [research map](../methods/research-map.md) links existing literary lives, destination narratives and task-specific evidence. In particular, reuse the project’s six literary lives before researching another introductory biography. Remaining source gaps and edition-date conflicts are still open.
+
+### Literature reuse continuation · 1 October 2026
+
+Paraja now has attributed 1945 chronology and separate 1987 translation evidence, while the 1997 publisher listing remains unmapped at edition level. Six Acres now has attributed 1902 chronology, with death-year and translator-initial discrepancies quarantined. Ruined Temple publisher/place/page details are indexed-review evidence only; translator and ISBN remain unknown. Failed library/PDF routes are recorded for retry after 8 October. Eight profiles deepened does not satisfy RES-026’s remaining original-date and edition requirements.

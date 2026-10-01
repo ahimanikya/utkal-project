@@ -81,3 +81,7 @@ Source paths below are relative to this research KB. Project paths are relative 
 The map is a dated inventory, not a substitute for source review. It includes bibliographic source pages and project/product records, not just factual encyclopedia articles. Similar titles or URLs are candidate links, not proof of equivalent claims.
 
 [Research pipeline](research-pipeline.md) · [Research queue](../references/data/research-queue.json) · [People and creations](../people/people-and-creations.md).
+
+### Inventory extension · 1 October 2026
+
+RES-026 added five bibliographic source identities and enhanced three existing people and work records. The original 760-record audit remains the baseline; the searchable inventory now has 765 entries. `current_counts` tracks extensions without rewriting the audit’s historical counts. No duplicate person or book pages were added.

@@ -2844,7 +2844,12 @@
       ],
       "source_ids": [
         "creators-six-acres"
-      ]
+      ],
+      "post_audit_update": {
+        "run_id": "2026-10-01-literature-reuse-continuation",
+        "at": "2026-10-01T03:56:46.827401-07:00",
+        "scope": "Existing identity enhanced locally; initial copy_state describes audit baseline only."
+      }
     },
     {
       "id": "people/gopinath-mohanty",
@@ -2861,7 +2866,12 @@
       ],
       "source_ids": [
         "creators-jnanpith"
-      ]
+      ],
+      "post_audit_update": {
+        "run_id": "2026-10-01-literature-reuse-continuation",
+        "at": "2026-10-01T03:56:46.827401-07:00",
+        "scope": "Existing identity enhanced locally; initial copy_state describes audit baseline only."
+      }
     },
     {
       "id": "people/people-and-creations",
@@ -2973,7 +2983,12 @@
       "source_ids": [
         "creators-jnanpith",
         "creators-sitakant-loc"
-      ]
+      ],
+      "post_audit_update": {
+        "run_id": "2026-10-01-literature-reuse-continuation",
+        "at": "2026-10-01T03:56:46.827401-07:00",
+        "scope": "Existing identity enhanced locally; initial copy_state describes audit baseline only."
+      }
     },
     {
       "id": "people/sudarsan-pattnaik",
@@ -8483,7 +8498,12 @@
       ],
       "source_ids": [
         "creators-paraja"
-      ]
+      ],
+      "post_audit_update": {
+        "run_id": "2026-10-01-literature-reuse-continuation",
+        "at": "2026-10-01T03:56:46.827401-07:00",
+        "scope": "Existing identity enhanced locally; initial copy_state describes audit baseline only."
+      }
     },
     {
       "id": "works/pata-dei-story",
@@ -8532,7 +8552,12 @@
       ],
       "source_ids": [
         "creators-sitakant-loc"
-      ]
+      ],
+      "post_audit_update": {
+        "run_id": "2026-10-01-literature-reuse-continuation",
+        "at": "2026-10-01T03:56:46.827401-07:00",
+        "scope": "Existing identity enhanced locally; initial copy_state describes audit baseline only."
+      }
     },
     {
       "id": "works/six-acres-and-a-third",
@@ -8548,7 +8573,12 @@
       ],
       "source_ids": [
         "creators-six-acres"
-      ]
+      ],
+      "post_audit_update": {
+        "run_id": "2026-10-01-literature-reuse-continuation",
+        "at": "2026-10-01T03:56:46.827401-07:00",
+        "scope": "Existing identity enhanced locally; initial copy_state describes audit baseline only."
+      }
     },
     {
       "id": "works/spark-of-light",
@@ -10174,6 +10204,81 @@
         "save_id": "place:chilika"
       },
       "not_a_new_independent_research_fact": true
+    },
+    {
+      "id": "sources/literature-gopinath-life",
+      "title": "Gopinath Mohanty — memorial life sketch",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/literature-gopinath-life.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "literature-gopinath-life"
+      ],
+      "added_at": "2026-10-01T03:56:46.827401-07:00"
+    },
+    {
+      "id": "sources/literature-gopinath-books",
+      "title": "Gopinath Mohanty — books and chronology",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/literature-gopinath-books.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "literature-gopinath-books"
+      ],
+      "added_at": "2026-10-01T03:56:46.827401-07:00"
+    },
+    {
+      "id": "sources/literature-paraja-oxford-reference",
+      "title": "Paraja 1987 — Oxford bibliographic reference",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/literature-paraja-oxford-reference.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "literature-paraja-oxford-reference"
+      ],
+      "added_at": "2026-10-01T03:56:46.827401-07:00"
+    },
+    {
+      "id": "sources/literature-six-acres-eaa",
+      "title": "Teaching colonial India with Six Acres and a Third",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/literature-six-acres-eaa.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "literature-six-acres-eaa"
+      ],
+      "added_at": "2026-10-01T03:56:46.827401-07:00"
+    },
+    {
+      "id": "sources/literature-ruined-temple-review",
+      "title": "The Ruined Temple — contemporaneous review bibliography",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/literature-ruined-temple-review.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "literature-ruined-temple-review"
+      ],
+      "added_at": "2026-10-01T03:56:46.827401-07:00"
     }
   ],
   "shared_publications": [
@@ -10847,5 +10952,23 @@
     "Broad title similarity is discovery, not proven identity.",
     "Project snapshot excludes concurrent uncommitted visitor-experience work.",
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
+  ],
+  "current_counts": {
+    "records_mapped": 765,
+    "updated_at": "2026-10-01T03:56:46.827401-07:00",
+    "scope": "Original audit inventory plus appended source identities; audit baseline preserved."
+  },
+  "extension_history": [
+    {
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "added_source_records": [
+        "literature-gopinath-life",
+        "literature-gopinath-books",
+        "literature-paraja-oxford-reference",
+        "literature-six-acres-eaa",
+        "literature-ruined-temple-review"
+      ],
+      "new_people_or_work_records": 0
+    }
   ]
 }

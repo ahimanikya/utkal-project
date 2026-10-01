@@ -77,3 +77,7 @@ This imported research describes the source workspace at its recorded dates. Utk
 ## Research reuse audit · 1 October 2026
 
 Read the [research map](research-map.md) and each task’s `reuse_before_research` pointers before browsing. The map includes existing project narratives and source records; only missing, stale or conflicted fields justify repeat research. Task IDs, completion criteria and statuses are preserved.
+
+### Literature continuation · 1 October 2026
+
+RES-026 reused repository-native introductions and deepened three existing biographies and three existing work records. Eight biographies have now been deepened across the two research attempts. The task stays in progress: unresolved original story dates and edition credits prevent the full deliverable. The structured queue records the specific next fields; no duplicate people or book concepts were created.

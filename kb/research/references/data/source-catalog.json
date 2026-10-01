@@ -2120,11 +2120,26 @@
     "resource": "https://www.ucpress.edu/books/six-acres-and-a-third/paper",
     "publisher": "University of California Press",
     "locator": "Title details, translator credits and About the Author",
-    "capture_note": "Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked.",
+    "capture_note": "Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked. A separate saved project capture from 2026-09-30 is reused for the biography; both capture histories are retained.",
     "publication_date": "2005-12",
     "accessed_on": "2026-10-01",
     "capture_method": "indexed_primary_excerpt",
-    "source_kind": "Primary publisher or institutional record"
+    "source_kind": "Primary publisher or institutional record",
+    "capture_history": [
+      {
+        "capture_method": "indexed_primary_excerpt",
+        "capture_note": "Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked.",
+        "accessed_on": "2026-10-01"
+      },
+      {
+        "capture_method": "saved_project_capture",
+        "source_checked_on": "2026-09-30",
+        "reused_on": "2026-10-01",
+        "project_revision": "ef4cbe1496256430874c50cd49e0c56f85d4a7ca",
+        "path": "kb/research/voices/collection.json",
+        "scope": "Publisher synopsis and author note inspected by prior project work. Not newly fetched."
+      }
+    ]
   },
   "creators-yajnaseni": {
     "id": "creators-yajnaseni",
@@ -2160,7 +2175,15 @@
     "publication_date": "2016-01-11",
     "accessed_on": "2026-10-01",
     "capture_method": "direct_html",
-    "source_kind": "Primary publisher or institutional record"
+    "source_kind": "Primary publisher or institutional record",
+    "capture_history": [
+      {
+        "checked_on": "2026-10-01",
+        "url": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/sitakantmahapatra.html",
+        "result": "unavailable_direct_fetch_indexed_excerpt_available",
+        "scope": "Alternative URL direct open failed; reuse saved stable profile and matching indexed excerpt. No update to historical appointments."
+      }
+    ]
   },
   "creators-prafulla-sna": {
     "id": "creators-prafulla-sna",
@@ -2341,5 +2364,65 @@
     "capture_method": "indexed_institutional_excerpt",
     "capture_note": "Direct fetch failed (cache miss). Indexed contents supplies Reba Ray 1876–1957, conflicting with AU Press 1875–1957. No birth year selected. Original-title pairing for The Vigil is a lead; edition-level identity and original publication date remain unverified.",
     "source_kind": "Publisher edition or institutional catalogue"
+  },
+  "literature-gopinath-life": {
+    "id": "literature-gopinath-life",
+    "title": "Gopinath Mohanty — memorial life sketch",
+    "resource": "https://gopinathmohanty.in/life-sketch/",
+    "publisher": "Gopinath Mohanty memorial website",
+    "locator": "Life sketch; reused project voices/collection.json sections life and more",
+    "capture_note": "Reused the project capture checked 2026-09-30, committed in ef4cbe1. Not a new fetch or independent corroboration. Supports Nagabali/Cuttack, 1914 birth, administrative service from 1938 and early Koraput work. Award-year conflicts not imported.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "saved_project_capture",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-gopinath-books": {
+    "id": "literature-gopinath-books",
+    "title": "Gopinath Mohanty — books and chronology",
+    "resource": "https://gopinathmohanty.in/books/",
+    "publisher": "Gopinath Mohanty memorial website",
+    "locator": "Novel table rows Paraja, Amrutara Santana, Matimatala; language-research section",
+    "capture_note": "Direct HTML bibliography inspected, not linked first-edition scans. Paraja is listed under 1945; original-language identification also supported by Oxford bibliographic reference. Dates are attributed bibliography dates, not first-edition examination.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-paraja-oxford-reference": {
+    "id": "literature-paraja-oxford-reference",
+    "title": "Paraja 1987 — Oxford bibliographic reference",
+    "resource": "https://academic.oup.com/book/35106/chapter/299186110",
+    "publisher": "Oxford University Press; Jean Drèze, Sense and Solidarity",
+    "locator": "References, Mohanty, Gopinath (1987) entry; rendered lines 1964–1972",
+    "capture_note": "Direct reference entry credits Bikram K. Das, translated from Oriya, New Delhi: OUP, 1987. Bibliographic evidence, not the 1987 title page; no ISBN or 1997 translator attribution inferred.",
+    "publication_date": "2019-02-21",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-six-acres-eaa": {
+    "id": "literature-six-acres-eaa",
+    "title": "Teaching colonial India with Six Acres and a Third",
+    "resource": "https://www.educationaboutasia.org/article/id/1629/",
+    "publisher": "Association for Asian Studies; Education About Asia; Peter Samuels",
+    "locator": "Opening bibliographic block and first paragraph, volume 25 issue 1; DOI 10.65959/eaa.1629",
+    "capture_note": "Direct scholarly teaching essay gives 1902 Odia original, Chha Mana Atha Guntha. Secondary literary chronology, not original imprint inspection. Its 1919 death year conflicts with UC Press 1918; translator Jatindra K. Nayak differs from publisher display Jatindra N. Nayak. Both discrepancies retained, not silently harmonised.",
+    "publication_date": "2020-06-10",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-ruined-temple-review": {
+    "id": "literature-ruined-temple-review",
+    "title": "The Ruined Temple — contemporaneous review bibliography",
+    "resource": "https://www.scilet.in/download/KB/KB10.pdf",
+    "publisher": "SCILET; Kavya Bharati; review by Sachidananda Mohanty",
+    "locator": "Printed p. 193, review heading Poetry for Psychic Survival and opening paragraphs",
+    "capture_note": "Indexed institutional PDF excerpt supplies New Delhi: Harper Collins India, 1996, 153 pages and describes a selection. Full PDF fetch failed because content length exceeded tool limit (34,467,491 bytes). Translator and ISBN not verified; review issue date not established.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_institutional_excerpt",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
   }
 }

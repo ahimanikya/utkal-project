@@ -264,3 +264,13 @@
 - [Binapani Mohanty — Meet the Author](literature-binapani-akademi.md)
 
 - [Early women’s writings in Orissa — library catalogue](literature-early-women-iucat.md)
+
+- [Gopinath Mohanty — memorial life sketch](literature-gopinath-life.md)
+
+- [Gopinath Mohanty — books and chronology](literature-gopinath-books.md)
+
+- [Paraja 1987 — Oxford bibliographic reference](literature-paraja-oxford-reference.md)
+
+- [Teaching colonial India with Six Acres and a Third](literature-six-acres-eaa.md)
+
+- [The Ruined Temple — contemporaneous review bibliography](literature-ruined-temple-review.md)

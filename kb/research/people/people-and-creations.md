@@ -51,3 +51,7 @@ Cinema and theatre; Odia-language printing and journalism; manuscripts and libra
 [Sand art](../culture/sand-art.md) — Read an art form with its named practitioners and dated works; shared subject matter alone does not establish influence.
 
 [Women writers and English reading](../works/spark-of-light.md) connects five selected stories with authors and edition-specific translators. Four new profiles cover Reba Ray, Suprabha Kar, Basanta Kumari Patnaik and Binapani Mohanty; Pratibha Ray’s profile is expanded.
+
+## Biography continuation · 1 October 2026
+
+Existing [Fakir Mohan Senapati](fakir-mohan-senapati.md), [Gopinath Mohanty](gopinath-mohanty.md) and [Sitakant Mahapatra](sitakant-mahapatra.md) entries now connect life, places, selected work and reading routes. Together with the earlier women-writer batch, eight profiles have been deepened; this is a project coverage count, not eight complete biographies or a canon of Odisha literature.

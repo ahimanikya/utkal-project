@@ -10,9 +10,10 @@
         "literature"
       ],
       "odisha_connection": {
-        "description": "Odia-language literary contribution, as identified by the award body.",
+        "description": "Odia writer; memorial biography connects Nagabali in Cuttack and administrative work in Koraput.",
         "source_ids": [
-          "creators-jnanpith"
+          "creators-jnanpith",
+          "literature-gopinath-life"
         ]
       },
       "significance_evidence": [
@@ -26,14 +27,32 @@
         }
       ],
       "source_ids": [
-        "creators-jnanpith"
+        "creators-jnanpith",
+        "literature-gopinath-life",
+        "literature-gopinath-books"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
         "works/paraja"
       ],
-      "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null,
+      "biographical_facts": [
+        {
+          "value": "Memorial account: born in Nagabali, Cuttack, 1914; entered administrative service in 1938; early work in Koraput.",
+          "source_ids": [
+            "literature-gopinath-life"
+          ],
+          "locator": "Saved project life sketch"
+        },
+        {
+          "value": "Memorial bibliography lists Paraja (1945), Amrutara Santana (1949), Matimatala (1964).",
+          "source_ids": [
+            "literature-gopinath-books"
+          ],
+          "locator": "Novel table"
+        }
+      ]
     },
     {
       "id": "people/satchidananda-rautroy",
@@ -97,8 +116,24 @@
       "work_ids": [
         "works/ruined-temple-other-poems"
       ],
-      "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null,
+      "biographical_facts": [
+        {
+          "value": "Library of Congress profile gives birth date 17 September 1937 and describes poetry, criticism, essays, travel writing and oral-poetry translation.",
+          "source_ids": [
+            "creators-sitakant-loc"
+          ],
+          "locator": "Author profile, 2016 snapshot"
+        },
+        {
+          "value": "Selected works listed: Ashtapadi (1963), Shabdara akasha (1971), Ara drushya (1981).",
+          "source_ids": [
+            "creators-sitakant-loc"
+          ],
+          "locator": "Works paragraph"
+        }
+      ]
     },
     {
       "id": "people/pratibha-ray",
@@ -156,14 +191,24 @@
         }
       ],
       "source_ids": [
-        "creators-six-acres"
+        "creators-six-acres",
+        "literature-six-acres-eaa"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
         "works/six-acres-and-a-third"
       ],
-      "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null,
+      "biographical_facts": [
+        {
+          "value": "Born near Balasore in 1843; poet, novelist, administrator and printer.",
+          "source_ids": [
+            "creators-six-acres"
+          ],
+          "locator": "Saved project author-note capture, 2026-09-30"
+        }
+      ]
     },
     {
       "id": "people/prafulla-kar",
@@ -492,14 +537,37 @@
           "Satya Mohanty",
           "Jatindra N. Nayak",
           "Paul St.-Pierre"
+        ],
+        "source_ids": [
+          "creators-six-acres"
         ]
       },
       "source_ids": [
-        "creators-six-acres"
+        "creators-six-acres",
+        "literature-six-acres-eaa"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": "Chha Mana Atha Guntha",
+        "publication_year": 1902,
+        "date_status": "attributed_scholarly_chronology_original_imprint_not_inspected",
+        "source_ids": [
+          "literature-six-acres-eaa"
+        ]
+      },
+      "credit_variants": [
+        {
+          "source_id": "creators-six-acres",
+          "name": "Jatindra N. Nayak"
+        },
+        {
+          "source_id": "literature-six-acres-eaa",
+          "name": "Jatindra K. Nayak"
+        }
+      ]
     },
     {
       "id": "works/yajnaseni",
@@ -547,23 +615,53 @@
         }
       ],
       "english_access": {
-        "status": "language_and_translator_pending",
+        "status": "english_translation_documented_1987_1997_edition_link_pending",
         "source_ids": [
-          "creators-paraja"
+          "literature-paraja-oxford-reference"
         ]
       },
       "edition": {
         "publisher": "Oxford University Press",
         "date": "1997-06-01",
         "isbn": "9780195623918",
-        "translator": null
+        "translator": null,
+        "source_ids": [
+          "creators-paraja"
+        ]
       },
       "source_ids": [
-        "creators-paraja"
+        "creators-paraja",
+        "literature-gopinath-books",
+        "literature-paraja-oxford-reference"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": "Paraja",
+        "publication_year": 1945,
+        "date_status": "memorial_bibliography_original_imprint_not_inspected",
+        "source_ids": [
+          "literature-gopinath-books",
+          "literature-paraja-oxford-reference"
+        ]
+      },
+      "additional_editions": [
+        {
+          "publisher": "Oxford University Press",
+          "place": "New Delhi",
+          "year": 1987,
+          "translator": "Bikram K. Das",
+          "language": "English",
+          "isbn": null,
+          "source_ids": [
+            "literature-paraja-oxford-reference"
+          ],
+          "evidence_status": "bibliographic_reference_not_title_page",
+          "relationship_to_1997_listing": "not_verified"
+        }
+      ]
     },
     {
       "id": "works/ruined-temple-other-poems",
@@ -587,15 +685,33 @@
       "edition": {
         "year": 1996,
         "translator": null,
-        "publisher": null,
-        "isbn": null
+        "publisher": "Harper Collins India",
+        "isbn": null,
+        "place": "New Delhi",
+        "pages": 153,
+        "source_ids": [
+          "creators-sitakant-loc",
+          "literature-ruined-temple-review"
+        ],
+        "metadata_status": "publisher_place_pages_from_indexed_review_full_source_recovery_pending"
       },
       "source_ids": [
-        "creators-sitakant-loc"
+        "creators-sitakant-loc",
+        "literature-ruined-temple-review"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": null,
+        "publication_year": null,
+        "date_status": "selected_poems_original_component_chronology_not_established",
+        "source_ids": [
+          "creators-sitakant-loc",
+          "literature-ruined-temple-review"
+        ]
+      }
     },
     {
       "id": "works/mamata-film-music",
@@ -1017,7 +1133,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T02:37:51-07:00",
+  "updated_at": "2026-10-01T03:56:46.827401-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -1029,6 +1145,24 @@
       ],
       "new_works": 6,
       "scope": "Five stories plus anthology; original years unresolved for four stories; not six independent books."
+    },
+    {
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "task_id": "RES-026",
+      "status": "in_progress",
+      "new_people": 0,
+      "expanded_people": [
+        "people/fakir-mohan-senapati",
+        "people/gopinath-mohanty",
+        "people/sitakant-mahapatra"
+      ],
+      "new_works": 0,
+      "enhanced_works": [
+        "works/six-acres-and-a-third",
+        "works/paraja",
+        "works/ruined-temple-other-poems"
+      ],
+      "scope": "Eight profiles deepened across two attempts; original chronology and English-edition completeness remain unfinished. No new person/work identities."
     }
   ],
   "conflicts": [
@@ -1060,6 +1194,38 @@
         {
           "value": 1968,
           "source_id": "literature-binapani-akademi"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "person_id": "people/fakir-mohan-senapati",
+      "field": "death_year",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": 1918,
+          "source_id": "creators-six-acres"
+        },
+        {
+          "value": 1919,
+          "source_id": "literature-six-acres-eaa"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "work_id": "works/six-acres-and-a-third",
+      "field": "translator_initial",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": "Jatindra N. Nayak",
+          "source_id": "creators-six-acres"
+        },
+        {
+          "value": "Jatindra K. Nayak",
+          "source_id": "literature-six-acres-eaa"
         }
       ],
       "resolved_value": null

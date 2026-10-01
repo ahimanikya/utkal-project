@@ -25,3 +25,9 @@ Selected records; English-edition evidence and attribution are recorded separate
 - [Spark of Light — anthology and free reading route](spark-of-light.md)
 
 Original-language publication years remain unresolved for several entries. The 2016 anthology and its five indexed stories are linked container/component records, not six independent books.
+
+## Reading catalogue checkpoint · 1 October 2026
+
+The existing records now separate [Six Acres](six-acres-and-a-third.md)’s 1902 Odia chronology from its 2005 English paperback, and [Paraja](paraja.md)’s 1945 bibliography date from 1987 translation evidence and the separate 1997 listing. [The Ruined Temple](ruined-temple-other-poems.md) has provisional publisher/place/page metadata with its failed full-source fetch recorded.
+
+Next: resolve Yajnaseni’s original-date discrepancy, the four story dates still missing from the anthology route, and the poetry collection’s translator/ISBN. These are enhancements to existing records, not reasons to start duplicate book pages.

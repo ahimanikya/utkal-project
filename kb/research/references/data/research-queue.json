@@ -327,14 +327,20 @@
       "done_when": "Deepen at least eight writer/poet biographies spanning periods and genders; attach at least ten works with original language/date and verified English edition/translator/publisher identifiers or an explicit unsuccessful search.",
       "target": "works/index.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T02:37:51-07:00",
-      "next_step": "Reuse the six literary lives and Six Acres reading page in project voices/collection.json, especially existing Fakir Mohan, Gopinath and Pratibha biographies. Reconcile them with people-creations.json; then research only missing original chronology, edition/translator metadata and remaining biography fields. Preserve RES-026 criteria and unfinished status.",
+      "last_worked_at": "2026-10-01T03:56:46.827401-07:00",
+      "next_step": "Continue existing work records: reconcile Yajnaseni original-date conflict; establish original dates for The Vigil, In Bondage, Pata Dei and The Ring; seek Ruined Temple title-page translator/ISBN and Paraja 1987/1997 edition relationship. Eight selected biographies now deepened across two attempts, but ten-work chronology/edition completeness not met. Reuse saved project and source evidence; respect 8 October retries for unchanged failed routes.",
       "evidence_outputs": [
         "works/spark-of-light.md",
         "references/data/people-creations.json",
-        "works/index.md"
+        "works/index.md",
+        "people/fakir-mohan-senapati.md",
+        "people/gopinath-mohanty.md",
+        "people/sitakant-mahapatra.md",
+        "works/paraja.md",
+        "works/six-acres-and-a-third.md",
+        "works/ruined-temple-other-poems.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -348,6 +354,16 @@
           "completion_criteria_met": false,
           "remaining": "Three further biographies; original work chronology and English-edition completeness across at least ten works.",
           "failed_source_retry_after": "2026-10-08"
+        },
+        {
+          "run_id": "2026-10-01-literature-reuse-continuation",
+          "at": "2026-10-01T03:56:46.827401-07:00",
+          "outcome": "useful_checkpoint",
+          "biographies_deepened_this_attempt": 3,
+          "existing_works_enhanced": 3,
+          "new_person_or_work_identities": 0,
+          "completion_criteria_met": false,
+          "remaining": "Continue existing work records: reconcile Yajnaseni original-date conflict; establish original dates for The Vigil, In Bondage, Pata Dei and The Ring; seek Ruined Temple title-page translator/ISBN and Paraja 1987/1997 edition relationship. Eight selected biographies now deepened across two attempts, but ten-work chronology/edition completeness not met. Reuse saved project and source evidence; respect 8 October retries for unchanged failed routes."
         }
       ],
       "reuse_before_research": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T02:37:51-07:00",
+  "updated_at": "2026-10-01T03:56:46.827401-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1109,6 +1109,10 @@
     {
       "run_id": "2026-10-01T092949Z",
       "scope": "Literature editions and biographies; no weekly metric release checks or statistical values changed."
+    },
+    {
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "scope": "Existing literature biographies and edition gaps; no weekly release or statistical updates."
     }
   ],
   "supplemental_discovery_routes": [
@@ -1200,6 +1204,106 @@
       "status": "available_discovery",
       "scope": "Ramakant Rath profile/readings found. Save for next batch; historical present-tense appointment not current.",
       "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-gopinath-life",
+      "discovery_url": "https://gopinathmohanty.in/life-sketch/",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "reused_saved_capture",
+      "scope": "Reused the project capture checked 2026-09-30, committed in ef4cbe1. Not a new fetch or independent corroboration. Supports Nagabali/Cuttack, 1914 birth, administrative service from 1938 and early Koraput work. Award-year conflicts not imported.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-gopinath-books",
+      "discovery_url": "https://gopinathmohanty.in/books/",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "available",
+      "scope": "Direct HTML bibliography inspected, not linked first-edition scans. Paraja is listed under 1945; original-language identification also supported by Oxford bibliographic reference. Dates are attributed bibliography dates, not first-edition examination.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-paraja-oxford-reference",
+      "discovery_url": "https://academic.oup.com/book/35106/chapter/299186110",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "available",
+      "scope": "Direct reference entry credits Bikram K. Das, translated from Oriya, New Delhi: OUP, 1987. Bibliographic evidence, not the 1987 title page; no ISBN or 1997 translator attribution inferred.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-six-acres-eaa",
+      "discovery_url": "https://www.educationaboutasia.org/article/id/1629/",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "available",
+      "scope": "Direct scholarly teaching essay gives 1902 Odia original, Chha Mana Atha Guntha. Secondary literary chronology, not original imprint inspection. Its 1919 death year conflicts with UC Press 1918; translator Jatindra K. Nayak differs from publisher display Jatindra N. Nayak. Both discrepancies retained, not silently harmonised.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-ruined-temple-review",
+      "discovery_url": "https://www.scilet.in/download/KB/KB10.pdf",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "unavailable_direct_fetch_indexed_excerpt_saved",
+      "scope": "Indexed institutional PDF excerpt supplies New Delhi: Harper Collins India, 1996, 153 pages and describes a selection. Full PDF fetch failed because content length exceeded tool limit (34,467,491 bytes). Translator and ISBN not verified; review issue date not established.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/sitakantmahapatra.html",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct open internal error; saved profile reused.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://igmlnet.uohyd.ac.in/chamo/lib/item?copies-sort=0+desc&id=chamo%3A1428&theme=mobile",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "unavailable_direct_fetch",
+      "scope": "Not accessible through web tool; indexed bibliography is a corroborating lead only.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://find.uoc.ac.in/Record/255505",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "unavailable_direct_fetch",
+      "scope": "Cache miss; alternate local fetch DNS failure. Indexed catalogue lead retained, not promoted to full inspection.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://gsl.lbsnaa.gov.in/cgi-bin/koha/opac-detail.pl?biblionumber=27842&query_desc=",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "unavailable_direct_fetch",
+      "scope": "Cache miss. Indexed entry is a lead only.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://magazines.odisha.gov.in/Orissareview/2016/August/engpdf/62-65.pdf",
+      "checked_at": "2026-10-01T03:56:46.827401-07:00",
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "status": "unavailable_direct_fetch",
+      "scope": "502; alternate local fetch DNS failure. Indexed chronology is a lead, not fresh full-source verification.",
+      "retry_after": "2026-10-08",
       "contact_action_performed": false
     }
   ]
