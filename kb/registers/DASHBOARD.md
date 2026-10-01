@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `10f2e28ce54524d13685d1b316190d09ba7377a05c210d846e63040da05eff60`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `80f76893f6446a9fc9c35b205b8cac8f3168e84076ea70050b4f6f7f666a9832`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -143,6 +143,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-128 · Map 500 existing records into a read-only editorial workbench | completed | applied | Ahimanikya Satapathy | Use the internal workbench to choose and extend existing research. Regenerate after canonical data changes; specialist review and newer unselected records remain separate. | — |
 | UTP-WORK-129 · Connect language stories to Census population distribution | completed | published | Ahimanikya Satapathy | Obtain community naming and visual review; extend to subdistricts and a sourced boundary map as separate work. | — |
 | UTP-WORK-130 · Turn population data into district and language story connections | completed | published | Ahimanikya Satapathy | Implementation delivered. Obtain community naming and visual review; extend specific literary histories and authorised listening material as separate work. | — |
+| UTP-WORK-131 · Integrate food and Pala research and verify website delivery | in_progress | reviewed | Ahimanikya Satapathy | Merge PR 39 after CI, redeploy main and save live delivery evidence. | — |
 
 ## Pending human review and decisions
 
@@ -339,6 +340,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-133 · Approve research integration and authorize autonomous next backlog batch | approved | Ahimanikya Satapathy | Approve PR 36 and continue the next backlog work without routine permission questions. This increment prepares two illustrated food stories, connected visitor discovery and a 500-record internal editorial workbench. No spending, new access, outreach, indexing launch or Store launch. Actual checks, remaining reviews and publication evidence remain distinct. |
 | UTP-DEC-134 · Add a Census-based language population atlas | approved | Ahimanikya Satapathy | Implement the proposed state and district language atlas, connect existing profiles, and preserve historical year, classifications and source evidence. Continuation and delivery follow the existing broad authorization; no new spending, outreach or indexing launch. |
 | UTP-DEC-135 · Connect language population to districts, stories and visitor context | approved | Ahimanikya Satapathy | The proposed district profiles, Sambalpuri/Desia introductions, destination connections and multilingual explainer; review when browser policy access is restored. Continue within existing autonomous release authorization; no new spending, outreach or indexing launch. |
+| UTP-DEC-136 · Merge remaining food and Pala research PRs and deploy main | approved | Ahimanikya Satapathy | Approval to review and reconcile PRs 37 and 39, merge in dependency order after passing checks, and rebuild/deploy the website. Research limitations remain visible; no new public articles, rights grants or spending inferred. |
 
 ## Reviews
 
@@ -451,6 +453,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-107 | pass_with_limitations | False | Browser administration-policy verification still blocks visual audit; no browser, mobile, print or assistive-technology review claimed for this batch.; Odia terminology and local preparation review remain pending. No kitchen, venue or recipe has been tested.; Metadata mapping is not a fresh source retrieval or independent verification of all 500 records.; Literary edition and community-reporting briefs remain pending.; Indexing stays disabled. Store and the internal workbench remain excluded from the coastal website. |
 | UTP-REV-108 | pass_with_limitations | False | All population figures are historical Census 2011 returns, not current speaker estimates or ethnicity counts.; Census classification does not resolve community-preferred naming; Kuvi and Savara mappings carry explicit qualifications.; Browser administration-policy verification still blocks visual audit; no interactive browser, mobile, print or assistive-technology review claimed.; No district boundary map or subdistrict interface in this increment; original subdistrict data are retained in the source workbook. |
 | UTP-REV-109 | pass_with_limitations | False | Historical Census 2011 figures, not present-day counts or predictions about an individual host.; Census labels do not decide identity; community-preferred naming and specialist review remain open.; Thirty generated data profiles are not thirty field-researched tourism guides. Literary introductions are starting points, not exhaustive histories.; The browser’s administration-policy verification remains unavailable; no visual, keyboard, mobile, screen-reader or print audit claimed.; No authorised audio recordings or full literary texts supplied; no current performance or learning-book availability verified. |
+| UTP-REV-110 | pass_with_limitations | False | Research integration is not a fresh independent factual review or local/Odia review.; Pala’s two institutional PDF passages remain indexed-only with full-text retrieval gaps preserved.; Recipe testing, precise palm-seed naming and current performance or visitor arrangements remain open.; No new food or Pala website article is introduced by these PRs. They extend the KB and editorial workbench; the existing website will be rebuilt and verified. |
 
 ## Publication and application history
 
@@ -529,7 +532,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-142 | 2026-10-01T16:48:51.874336+00:00 | Prepared shared illustrated homepage picks and reading connections, reviewed three research snapshots, and reconciled the visitor queue. Browser navigation remains blocked by policy verification. | Founder reviews candidate; resolve research integration and actual visual checks separately. |
 | UTP-EVT-143 | 2026-10-01T17:00:19.889928+00:00 | Founder-approved PR 34 merged; merged tree matches approved head and CI passed. Automatic approval review rejected production dispatch and explicit deployment confirmation is pending. | Obtain explicit deployment confirmation, then publish and verify the approved website. |
 | UTP-EVT-144 | 2026-10-01T17:11:18.004303+00:00 | Founder explicitly authorized deployment after the earlier automatic-review block. PR 34 content is published; all 69 live pages, homepage selection, cross-links, image hashes and indexing boundaries passed delivery checks. | Retain visual/specialist review and integrate research only through its separate review sequence. |
 | UTP-EVT-145 | 2026-10-01T17:25:04.237069+00:00 | Reconciled four stacked research snapshots into one candidate: 812 research concepts, 361 sources, preserved live-site output and six next-story briefs. Incoming operating-rule changes held separately. | Founder reviews integration; media and local/literary reviews precede story publication. |
@@ -539,6 +541,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-149 | 2026-10-01T18:36:23.950624+00:00 | PR 40 merged and deployed at 7a60b001cd5defe8f51d43e7154ba631fcc280b6. All 72 page responses, atlas source data, eight profile connections and delivered scripts checked; 92 live checks passed. | Continue from naming, community context and visual-review gaps; do not treat Census grouping as identity adjudication. |
 | UTP-EVT-150 | 2026-10-01T19:23:39.108404+00:00 | Prepared 30 historical district profiles, two source-led language introductions, a multilingual explainer and five visitor-guide connections. Arithmetic and integration checks pass; browser and specialist limits remain explicit. | Complete remote checks and save release evidence. |
 | UTP-EVT-151 | 2026-10-01T19:31:37.644224+00:00 | PR 41 merged and deployed. All 106 live page responses, 30 district identities, new language mappings, multilingual figures, 63 Explore entries, 67 journey items and five guide connections verified. | Continue from explicit community naming, literary depth and visual-review gaps. |
+| UTP-EVT-152 | 2026-10-01T19:42:27.469203+00:00 | PR 37 passed renewed CI and merged. Pala dependency reconciled and PR 39 retargeted to main. Both sets of research validators pass; source limitations and existing website preserved. | Complete final Pala CI and deploy the merged baseline. |
 
 ## Deferred extensions
 

@@ -3829,6 +3829,28 @@
         "reference/district-language-stories.md",
         "records/district-languages-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-131",
+      "title": "Integrate food and Pala research and verify website delivery",
+      "category": "research_integration",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-136",
+      "next_action": "Merge PR 39 after CI, redeploy main and save live delivery evidence.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-136",
+        "UTP-REV-110"
+      ],
+      "evidence": [
+        "records/food-pala-integration-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -6538,6 +6560,25 @@
       "evidence": [
         "records/district-languages-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-136",
+      "title": "Merge remaining food and Pala research PRs and deploy main",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "can we do that?",
+      "scope": "Approval to review and reconcile PRs 37 and 39, merge in dependency order after passing checks, and rebuild/deploy the website. Research limitations remain visible; no new public articles, rights grants or spending inferred.",
+      "recorded_at": "2026-10-01T19:42:27.469203+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-133"
+      ],
+      "evidence": [
+        "records/food-pala-integration-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9146,6 +9187,29 @@
       ],
       "evidence": [
         "records/district-languages-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-110",
+      "title": "Food and Pala research integration self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Research integration is not a fresh independent factual review or local/Odia review.",
+        "Pala’s two institutional PDF passages remain indexed-only with full-text retrieval gaps preserved.",
+        "Recipe testing, precise palm-seed naming and current performance or visitor arrangements remain open.",
+        "No new food or Pala website article is introduced by these PRs. They extend the KB and editorial workbench; the existing website will be rebuilt and verified."
+      ],
+      "refs": [
+        "UTP-DEC-136",
+        "UTP-WORK-131"
+      ],
+      "evidence": [
+        "records/food-pala-integration-review.json"
       ]
     }
   ],

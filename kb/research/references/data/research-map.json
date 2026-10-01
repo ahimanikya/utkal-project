@@ -14356,6 +14356,120 @@
       ],
       "source_ids": [],
       "added_at": "2026-10-01T18:07:08.675156+00:00"
+    },
+    {
+      "id": "sources/pala-dash2011",
+      "title": "The Socio-Cultural Value of Odia Folkdance: Pala",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/pala-dash2011.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "pala-dash2011"
+      ],
+      "added_at": "2026-10-01T18:19:13.030991+00:00"
+    },
+    {
+      "id": "sources/pala-sna-behera2009",
+      "title": "Jagannath Behera — Akademi Award: Pala (Orissa)",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/pala-sna-behera2009.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "pala-sna-behera2009"
+      ],
+      "added_at": "2026-10-01T18:19:13.030991+00:00"
+    },
+    {
+      "id": "sources/pala-sjprf-home",
+      "title": "Shree Jagannath Pala Research Foundation",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/pala-sjprf-home.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "pala-sjprf-home"
+      ],
+      "added_at": "2026-10-01T18:19:13.030991+00:00"
+    },
+    {
+      "id": "sources/pala-sjprf-kabita",
+      "title": "Pala Kabita",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/pala-sjprf-kabita.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "pala-sjprf-kabita"
+      ],
+      "added_at": "2026-10-01T18:19:13.030991+00:00"
+    },
+    {
+      "id": "sources/pala-cm-sammilan2025",
+      "title": "48th annual state-level Pala Sammilan at Parklane, Kendujhar",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/pala-cm-sammilan2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "pala-cm-sammilan2025"
+      ],
+      "added_at": "2026-10-01T18:19:13.030991+00:00"
+    },
+    {
+      "id": "sources/pala-narthaki-utsav2012",
+      "title": "Pala and Daskathia Utsav",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/pala-narthaki-utsav2012.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "pala-narthaki-utsav2012"
+      ],
+      "added_at": "2026-10-01T18:19:13.030991+00:00"
+    },
+    {
+      "id": "culture/pala",
+      "title": "Pala and its culture",
+      "kind": "Performing Tradition",
+      "layer": "research_concept",
+      "source_path": "culture/pala.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "everyday",
+        "people"
+      ],
+      "source_ids": [
+        "pala-dash2011",
+        "pala-sna-behera2009",
+        "pala-sjprf-home",
+        "pala-sjprf-kabita",
+        "pala-cm-sammilan2025",
+        "pala-narthaki-utsav2012"
+      ],
+      "added_at": "2026-10-01T18:19:13.030991+00:00"
     }
   ],
   "shared_publications": [
@@ -15193,6 +15307,23 @@
       "remaining_scope": "Save attributed everyday-food entries and connections for the supplied foods; identify tala khaja seed stage through a named local or documentary account, preserving uncertainty and source scope.",
       "status_unchanged": "in_progress",
       "instruction": "Reuse existing mushroom/pakhala identities; user seed clarification is a lead. Do not equate similar palm names without evidence."
+    },
+    {
+      "task_id": "RES-040",
+      "title": "Pala and community performance culture",
+      "source_records": [
+        "culture/pala.md",
+        "culture/odissi.md",
+        "people/people-and-creations.md",
+        "references/data/pala-culture.json"
+      ],
+      "project_records": [
+        "kb/research/culture/odissi.md",
+        "kb/research/people/people-and-creations.md"
+      ],
+      "remaining_scope": "Create a sourced Pala overview, performance/artist and archive links; recover full institutional format and award evidence, retain origin questions and identify follow-up for women performers, local practice and livelihoods.",
+      "status_unchanged": "in_progress",
+      "instruction": "Explicit user extension; no existing Pala identity found. Reuse performance framework; do not reopen completed RES-027 or count derivative biographies as independent evidence."
     }
   ],
   "rules": [
@@ -15210,8 +15341,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1009,
-    "updated_at": "2026-10-01T18:07:08.675156+00:00",
+    "records_mapped": 1016,
+    "updated_at": "2026-10-01T18:19:13.030991+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -15542,6 +15673,11 @@
       "run_id": "2026-10-01-everyday-food",
       "at": "2026-10-01T18:07:08.675156+00:00",
       "scope": "Five food identities, one collection, six sources; reused mushroom identity; palm-seed naming gap retained."
+    },
+    {
+      "run_id": "2026-10-01-pala",
+      "at": "2026-10-01T18:19:13.030991+00:00",
+      "scope": "One performing-tradition identity and six sources; existing arts/people links reused. No comprehensive semantic audit claimed."
     }
   ]
 }

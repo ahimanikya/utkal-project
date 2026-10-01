@@ -124,6 +124,10 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 
 [Research receipt](records/everyday-food-2026-10-01.json): badi chura, sukhua, tala pitha and rice-water preparations join the existing mushroom identity. Tala khaja remains a palm-seed naming follow-up. Research candidate, not a website release.
 
+## 1 October 2026 · Pala and community performance
+
+[Research receipt](records/pala-2026-10-01.json): connected Pala overview, named performances and archive routes. Two institutional PDFs remain indexed-only; biographies and local practice need follow-up. Research candidate, no website publication.
+
 ## 2026-10-01
 
 Prepared the [language population atlas](reference/language-population-atlas.md), preserving original Census 2011 tables and connecting eight language stories to district comparisons. [Checks and limitations](records/language-atlas-review.json). Delivery will be recorded separately.
@@ -139,3 +143,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [District profiles and language stories published](records/district-languages-publication.json) through PR 41. Verified 106 live page responses, 30 district profiles and five destination connections; community and visual review limits retained.
+
+## 2026-10-01
+
+[Food and Pala integration review](records/food-pala-integration-review.json): PR 37 merged; PR 39 reconciled and retargeted to main. Source limitations and the current website remain intact. Deployment evidence will be recorded separately.

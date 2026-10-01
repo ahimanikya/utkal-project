@@ -1,0 +1,56 @@
+{
+  "recorded_at": "2026-10-01T19:42:27.469203+00:00",
+  "status": "food_merged_pala_ready_for_final_ci",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "can we do that?",
+  "authorization_context": "User asked to merge the two remaining research PRs (#37 and #39) and deploy the website.",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "food_pr": 37,
+    "pala_pr": 39,
+    "new_research_concepts": 22,
+    "food_sources_added": 9,
+    "pala_sources_added": 6,
+    "existing_source_and_identity_distinctions": "preserved",
+    "website_source_changes": false
+  },
+  "integration": {
+    "baseline": "d8cf72a4c4e8a292d2f50d08331e8a5302293d09",
+    "food_candidate": "e0f127e874af871a09e07d350b484e61c57940e6",
+    "pala_reconciled_research_head": "029d5ae3d0e03b383bd2a2514e1e1dcc5289b632",
+    "resolved_conflicts": [
+      "Append-only KB history retained from both branches",
+      "Source hash manifest recomputed from merged files",
+      "Editorial workbench regenerated from canonical research"
+    ],
+    "preserved": "Latest website code, language data, district profiles, project authority records and research reuse pointers remain intact."
+  },
+  "checks": {
+    "research_validators_per_candidate": 12,
+    "research_validator_failures": 0,
+    "knowledge_bundle": "pass",
+    "project_catalogue": "regenerated, 951 concepts",
+    "research_index": "regenerated, 847 concepts",
+    "workbench": "500 original selected identities retained; 33 newer matching records outside that frozen selection",
+    "website_source_diff_against_baseline": "empty"
+  },
+  "limitations": [
+    "Research integration is not a fresh independent factual review or local/Odia review.",
+    "Pala’s two institutional PDF passages remain indexed-only with full-text retrieval gaps preserved.",
+    "Recipe testing, precise palm-seed naming and current performance or visitor arrangements remain open.",
+    "No new food or Pala website article is introduced by these PRs. They extend the KB and editorial workbench; the existing website will be rebuilt and verified."
+  ],
+  "evidence": [
+    "records/evidence/food-pala-integration/food-research-checks.json",
+    "records/evidence/food-pala-integration/pala-research-checks.json",
+    "records/evidence/food-pala-integration/pr37-merge.json",
+    "records/everyday-food-2026-10-01.json",
+    "records/ou-khatta-2026-10-01.json",
+    "records/pala-2026-10-01.json"
+  ],
+  "next_action": "Complete PR 39 checks, merge, deploy main and record actual live verification separately."
+}
