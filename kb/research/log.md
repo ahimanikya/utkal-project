@@ -260,3 +260,7 @@ Recorded user’s explicit places/people/food/livelihoods/culture/heritage/liter
 ## 1 October2026 · Mahua preparation and research processing
 
 Recovered a separate full field-study text; enhanced mahua preparation, land-origin and seasonal context. Added OUAT research batch-capacity observation. Recorded unavailable visual/download and ORMAS routes without claiming unchanged data. RES-056 remains in progress; no commercial deployment or website publication claimed.
+
+## 1 October2026 · Rice varieties and economics
+
+Added connected rice and economic reading pages,21 named register entries, five original-publisher sources and10 agriculture observations. Reused Kalajeera and saved production series. Preserved payment/date conflicts and failed fetches. RES-060 is a checkpoint; RES-061/062 pending. No website publication or human review claimed.

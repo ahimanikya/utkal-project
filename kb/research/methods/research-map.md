@@ -223,3 +223,7 @@ Three editorial records make the user’s broad scope visible. Reused literary, 
 ### Mahua preparation recovery · 1 October2026
 
 Two sources enhance the existing mahua profile. A2009 field account published2016 supplies local collection and preparation context; OUAT2020–21 supplies a research-unit rating. Neither duplicates the earlier food-development abstract. Existing food and task identities retained.
+
+### Rice extension · 1 October2026
+
+RES-060–062 reuse Kalajeera, agriculture observations and rice seed deployment. New register separates21 named identities by evidence type. Bulletin and old-domain release page are institutional sources, not independent verification of the same statement. Only missing fields are scheduled.

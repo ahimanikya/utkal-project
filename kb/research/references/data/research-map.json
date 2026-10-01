@@ -15588,6 +15588,123 @@
         "forest-ouat2021"
       ],
       "added_at": "2026-10-01T19:58:15.218126+00:00"
+    },
+    {
+      "id": "sources/rice-oas2024",
+      "title": "Odisha Agriculture Statistics 2023–24",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-oas2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-oas2024"
+      ],
+      "added_at": "2026-10-01T20:10:23.860704+00:00"
+    },
+    {
+      "id": "sources/rice-fscw2025",
+      "title": "Food Supplies and Consumer Welfare Annual Activities Report 2024–25",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-fscw2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-fscw2025"
+      ],
+      "added_at": "2026-10-01T20:10:23.860704+00:00"
+    },
+    {
+      "id": "sources/rice-crri-releases",
+      "title": "Released Varieties",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-crri-releases.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-crri-releases"
+      ],
+      "added_at": "2026-10-01T20:10:23.860704+00:00"
+    },
+    {
+      "id": "sources/rice-nrri-aromatic2022",
+      "title": "Aromatic Rice Varieties of ICAR-NRRI: Research Bulletin39",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-nrri-aromatic2022.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-nrri-aromatic2022"
+      ],
+      "added_at": "2026-10-01T20:10:23.860704+00:00"
+    },
+    {
+      "id": "sources/rice-mssrf-tulasa",
+      "title": "More than70 landraces of paddy varieties have been conserved by Tulasa",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-mssrf-tulasa.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-mssrf-tulasa"
+      ],
+      "added_at": "2026-10-01T20:10:23.860704+00:00"
+    },
+    {
+      "id": "food/rice-varieties",
+      "title": "Odisha’s rice: varieties, seed keepers and food",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/rice-varieties.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "nature",
+        "people",
+        "economy"
+      ],
+      "source_ids": [
+        "rice-mssrf-tulasa",
+        "rice-crri-releases",
+        "rice-nrri-aromatic2022"
+      ],
+      "added_at": "2026-10-01T20:10:23.860704+00:00"
+    },
+    {
+      "id": "economy/rice-economy",
+      "title": "Odisha’s rice economy: from paddy to value",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/rice-economy.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food",
+        "governance"
+      ],
+      "source_ids": [
+        "rice-oas2024",
+        "rice-fscw2025"
+      ],
+      "added_at": "2026-10-01T20:10:23.860704+00:00"
     }
   ],
   "shared_publications": [
@@ -16758,6 +16875,54 @@
       "remaining_scope": "Build a source-linked research synthesis for historical maritime relations and two contemporary trade/policy cases; distinguish measured trade, institutional roles and attributed strategic interpretation. Reuse existing port/mineral/people evidence; retain disagreements and missing scope.",
       "status_unchanged": "pending",
       "instruction": "Synthesis of missing geopolitical relationships, not duplicate trade or mineral observations."
+    },
+    {
+      "task_id": "RES-060",
+      "title": "Rice varieties, cultivation and seed keepers",
+      "source_records": [
+        "food/rice-varieties.md",
+        "economy/rice-economy.md",
+        "food/koraput-kalajeera-rice.md",
+        "statistics/agriculture.md",
+        "works/odisha-rice-seed-deployment.md",
+        "references/data/rice-economy.json"
+      ],
+      "project_records": [],
+      "remaining_scope": "Extend the rice register with sourced local names, dated district cultivation evidence and attributed food uses for a bounded selection; distinguish landraces, improved selections and release recommendations. Preserve existing Kalajeera identity and unknown acreage.",
+      "status_unchanged": "in_progress",
+      "instruction": "Extend saved rice fields; no duplicate Kalajeera concept or production observations."
+    },
+    {
+      "task_id": "RES-061",
+      "title": "Rice economics: crop, procurement and farmer returns",
+      "source_records": [
+        "food/rice-varieties.md",
+        "economy/rice-economy.md",
+        "food/koraput-kalajeera-rice.md",
+        "statistics/agriculture.md",
+        "works/odisha-rice-seed-deployment.md",
+        "references/data/rice-economy.json"
+      ],
+      "project_records": [],
+      "remaining_scope": "Build comparable five-/ten-year rice area, output and yield series; reconcile procurement payment scope and document at least one clearly defined Odisha cost/return case. Retain price bases, marketing years and adverse years.",
+      "status_unchanged": "pending",
+      "instruction": "Extend saved rice fields; no duplicate Kalajeera concept or production observations."
+    },
+    {
+      "task_id": "RES-062",
+      "title": "Distinctive rice markets and attributable trade",
+      "source_records": [
+        "food/rice-varieties.md",
+        "economy/rice-economy.md",
+        "food/koraput-kalajeera-rice.md",
+        "statistics/agriculture.md",
+        "works/odisha-rice-seed-deployment.md",
+        "references/data/rice-economy.json"
+      ],
+      "project_records": [],
+      "remaining_scope": "Document origin-attributed rice trade evidence and one dated producer-to-retail case where available; retain explicit evidence gaps when export origin or farm returns cannot be established. Separate GI, promotion, listing and actual sales.",
+      "status_unchanged": "pending",
+      "instruction": "Extend saved rice fields; no duplicate Kalajeera concept or production observations."
     }
   ],
   "rules": [
@@ -16775,8 +16940,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1082,
-    "updated_at": "2026-10-01T19:58:15.218126+00:00",
+    "records_mapped": 1089,
+    "updated_at": "2026-10-01T20:10:23.860704+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17167,6 +17332,11 @@
       "run_id": "2026-10-01-mahua-preparation",
       "at": "2026-10-01T19:58:15.218126+00:00",
       "scope": "Enhanced canonical mahua profile; two independent publications kept distinct; no new food identity or duplicate task."
+    },
+    {
+      "run_id": "2026-10-01-rice-research",
+      "at": "2026-10-01T20:10:23.860704+00:00",
+      "scope": "Rice source/identity/economics extension after saved-map search; existing Kalajeera and seed deployment reused."
     }
   ]
 }

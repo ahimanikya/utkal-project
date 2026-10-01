@@ -85,3 +85,5 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
 
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+[Rice economics](../economy/rice-economy.md) connects crop production, procurement, milling and the missing evidence for producer returns.

@@ -18,3 +18,5 @@ The award issuer credits [Swati Nayak](../people/swati-nayak.md) and her team wi
 A separate IRRI report documents training by IRRI and SEWA for Jangha Linga Mahila Farmer Producer Company at Kolabira, Jharsuguda, on 20–21 January 2023. It names Nayak as the seed-system team contact. That is not an authorship credit or evidence she personally delivered the training. No attendance, income or export total is inferred.
 
 This is an editorial record of a documented field contribution, not the title of a scientific paper. Publication-level research credits and measured Odisha adoption outcomes remain next steps.
+
+[Rice variety register](../food/rice-varieties.md) extends this deployment story with landrace, selection and release distinctions; it does not infer individual breeder credit or adoption acreage.

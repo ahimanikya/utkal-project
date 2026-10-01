@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:58:15.218126+00:00",
+  "updated_at": "2026-10-01T20:10:23.860704+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4235,6 +4235,69 @@
       "run_id": "2026-10-01-mahua-preparation",
       "status": "unavailable",
       "scope": "Web fetch timed out and direct download timed out at45 seconds. Indexed honey purchase figures are a lead only, not admitted observations.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-oas2024",
+      "discovery_url": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Primary PDF text checked. Separate area, rice and paddy columns; physical quantities, not revenue. Direct PDF download timed out; web text available.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-fscw2025",
+      "discovery_url": "https://www.foododisha.in/Download/annual-activity-glance-24-25.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Downloaded original report; Annexure I visually checked. KMS 2023–24 annual procurement differs from the partial KMS 2024–25 snapshot dated17 January2025. Release date not established.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-crri-releases",
+      "discovery_url": "https://icar-crri.in/released-varieties/",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Undated institutional list. Release/recommendation evidence, not current acreage or realised yields. Selected variety names and ecologies only.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-nrri-aromatic2022",
+      "discovery_url": "https://icar-crri.in/wp-content/uploads/2023/07/NRRI-Research-Bulletin-39.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "November2022 bulletin; pureline pedigrees and release/notification distinctions. Alternate official icar-nrri.in URL failed502; this mirror is the same publication, not independent corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-mssrf-tulasa",
+      "discovery_url": "https://www.mssrf.org/our-stories/more-than-70-landraces-of-paddy-varieties-have-been-conserved-by-tulasa",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Undated institutional field profile. Documents a local conservation/cultivation account, not a current statewide inventory; identities and local spellings need follow-up.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://icar-nrri.in/wp-content/uploads/2023/07/NRRI-Research-Bulletin-39.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "unavailable",
+      "scope": "502; official old-domain publication retrieved instead",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://foododisha.in/index.htm?GL=home",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "partial",
+      "scope": "Indexed2025–26 annual-report link failed; direct homepage capture lacks that link. Current report not verified.2024–25 report downloaded separately.",
       "retry_after": "2026-10-08"
     }
   ]

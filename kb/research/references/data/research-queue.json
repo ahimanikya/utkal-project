@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T19:58:15.218126+00:00",
+  "updated_at": "2026-10-01T20:10:23.860704+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2550,6 +2550,119 @@
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
       }
+    },
+    {
+      "id": "RES-060",
+      "order": 17.9,
+      "title": "Rice varieties, cultivation and seed keepers",
+      "done_when": "Extend the rice register with sourced local names, dated district cultivation evidence and attributed food uses for a bounded selection; distinguish landraces, improved selections and release recommendations. Preserve existing Kalajeera identity and unknown acreage.",
+      "target": "food/rice-varieties.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015",
+        "RES-029"
+      ],
+      "last_worked_at": "2026-10-01T20:10:23.860704+00:00",
+      "next_step": "Find dated district/seed records for the existing21 entries; map only evidenced variety-to-dish connections.",
+      "evidence_outputs": [
+        "food/rice-varieties.md",
+        "economy/rice-economy.md",
+        "food/koraput-kalajeera-rice.md",
+        "statistics/agriculture.md",
+        "works/odisha-rice-seed-deployment.md",
+        "references/data/rice-economy.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-rice-research",
+          "at": "2026-10-01T20:10:23.860704+00:00",
+          "outcome": "starting_register_and_economics_saved",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/rice-varieties.md",
+          "economy/rice-economy.md",
+          "food/koraput-kalajeera-rice.md",
+          "statistics/agriculture.md",
+          "works/odisha-rice-seed-deployment.md",
+          "references/data/rice-economy.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-061",
+      "order": 18.1,
+      "title": "Rice economics: crop, procurement and farmer returns",
+      "done_when": "Build comparable five-/ten-year rice area, output and yield series; reconcile procurement payment scope and document at least one clearly defined Odisha cost/return case. Retain price bases, marketing years and adverse years.",
+      "target": "economy/rice-economy.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015",
+        "RES-029"
+      ],
+      "last_worked_at": null,
+      "next_step": "Recover current procurement report and matched historical series; reconcile held payment claims before rupee headlines.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "food/rice-varieties.md",
+          "economy/rice-economy.md",
+          "food/koraput-kalajeera-rice.md",
+          "statistics/agriculture.md",
+          "works/odisha-rice-seed-deployment.md",
+          "references/data/rice-economy.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-062",
+      "order": 18.2,
+      "title": "Distinctive rice markets and attributable trade",
+      "done_when": "Document origin-attributed rice trade evidence and one dated producer-to-retail case where available; retain explicit evidence gaps when export origin or farm returns cannot be established. Separate GI, promotion, listing and actual sales.",
+      "target": "economy/rice-economy.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015",
+        "RES-029"
+      ],
+      "last_worked_at": null,
+      "next_step": "Start from Kalajeera records, seek producer sales and shipment records; never infer exports from retail availability.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "food/rice-varieties.md",
+          "economy/rice-economy.md",
+          "food/koraput-kalajeera-rice.md",
+          "statistics/agriculture.md",
+          "works/odisha-rice-seed-deployment.md",
+          "references/data/rice-economy.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
     }
   ],
   "queue_revision_history": [
@@ -2665,6 +2778,11 @@
         "RES-032",
         "RES-033"
       ]
+    },
+    {
+      "at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "scope": "User-requested rice research added as three bounded tasks; prior task IDs and order retained."
     }
   ],
   "deduplication_policy": "Read methods/research-map.md and each task’s reuse_before_research before browsing. A publication reused by several IDs is not independent corroboration. Keep source/edition/scope and review states.",

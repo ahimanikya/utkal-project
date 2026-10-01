@@ -67,3 +67,5 @@ Subject membership is editorial classification. It does not establish historical
 [Bela pana](../food/bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
 
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+[Rice varieties and seed keepers](../food/rice-varieties.md) connects farming traditions, plant science and food evidence.

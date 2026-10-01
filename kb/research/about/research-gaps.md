@@ -254,3 +254,7 @@ RES-059 covers missing geopolitical synthesis through existing maritime/port/min
 ### Forest-food preparation checkpoint
 
 Mahua now has an attributed cake description and historical local harvest window. Practical cooking endpoints, local review and sal/siali seasonal detail remain open in RES-056. ORMAS honey procurement PDF failed two routes; RES-057 retains the unverified lead and2026-10-08 retry. No collector-income estimate inferred.
+
+### Rice, varieties and economics
+
+RES-060–062 now cover dated cultivation, culinary uses, comparable series, producer costs, procurement reconciliation and origin-attributed trade. A21-entry starting register and10 scoped observations are saved. Current acreage, margins and exports remain unknown. The2025–26 procurement report route needs retry on2026-10-08; no fresh2026 procurement claim.
