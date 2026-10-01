@@ -22,11 +22,13 @@
     "catalogue": "PASS",
     "bundle": "PASS",
     "authority_registers": "PASS",
-    "scope": "Clean committed snapshot plus explicit research changes; unrelated local duplicate copies excluded."
+    "scope": "Clean committed snapshot plus explicit research changes; unrelated local duplicate copies excluded.",
+    "editorial_workbench": "PASS; regenerated after integrating current main; six workbench checks passed"
   },
   "files_changed": [
     "kb/catalog.json",
     "kb/log.md",
+    "kb/records/editorial-workbench.json",
     "kb/records/everyday-food-2026-10-01.json",
     "kb/research/about/research-gaps.md",
     "kb/research/food/badi-chura.md",
@@ -65,5 +67,6 @@
     "kb/research/sources/food-worldfish-drying2025.md",
     "kb/research/subjects/everyday.md",
     "kb/research/subjects/food.md"
-  ]
+  ],
+  "base_integration": "Integrated origin/main aa77171 to preserve concurrent project additions; those base changes are not authored by this research run."
 }
