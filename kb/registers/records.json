@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T02:29:01.752917+00:00",
+  "recorded_at": "2026-10-01T03:04:49.370605+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2957,6 +2957,28 @@
         "records/cookie-message-review.json",
         "records/cookie-message-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-108",
+      "title": "Prepare Chilika and nine connected guides for release",
+      "category": "website_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-096",
+      "next_action": "Founder candidate review; then approved merge and publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-096",
+        "UTP-REV-071"
+      ],
+      "evidence": [
+        "records/chilika-release-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -4868,6 +4890,25 @@
       "evidence": [
         "records/cookie-message-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-096",
+      "title": "Prepare the Chilika collection for release review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Prepare the recommended bounded Chilika candidate, connected guides, visual flow and journey-book checks. Publication remains a later Founder gate.",
+      "recorded_at": "2026-10-01T03:04:49.370605+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-108"
+      ],
+      "evidence": [
+        "records/chilika-release-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -6547,6 +6588,31 @@
       ],
       "evidence": [
         "records/cookie-message-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-071",
+      "title": "Chilika collection and portable-book review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and reviewed; no independent editorial review.",
+        "No field visit, boat inspection, property inspection, current price, route time, transport or accessibility confirmation.",
+        "Odia quotation and English rendering still need fluent editorial proofreading against the scan.",
+        "Some sources remain indexed-text checks; retrieval and playback limitations are preserved in their source records.",
+        "Regional photographs are labelled; Satapada-specific photography and current property images remain gaps.",
+        "Chrome A4 PDF is a synthetic four-item regression sample; no physical printer or device test. Earlier A4/Letter evidence remains separate."
+      ],
+      "refs": [
+        "UTP-DEC-096",
+        "UTP-WORK-108"
+      ],
+      "evidence": [
+        "records/chilika-release-review.json"
       ]
     }
   ],

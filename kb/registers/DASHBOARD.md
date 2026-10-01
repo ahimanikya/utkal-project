@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `20c5d449f8b1aa6f00c659e1f0478b926e7541dac01bb5745c507f34a3857888`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a66e0b4a554ed655c3e7ca8c9f72dde4a3fe4f6997190427dddf2640658525e6`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -120,6 +120,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-105 · Dhauli historical layers and visitor notebook | completed | published | Ahimanikya Satapathy | Published and verified. Direct current show/access/facility confirmations remain UTP-WORK-097. | — |
 | UTP-WORK-106 · Visitor readiness: three guides, portable books, analytics and review queue | completed | published | Ahimanikya Satapathy | Published and verified. Native PDF evidence retained; local confirmations, fluent-language and broader accessibility review remain separately tracked. | — |
 | UTP-WORK-107 · Simplify the cookie message and controls | completed | published | Ahimanikya Satapathy | Published and verified; no further cookie-copy work pending. | — |
+| UTP-WORK-108 · Prepare Chilika and nine connected guides for release | awaiting_review | reviewed | Ahimanikya Satapathy | Founder candidate review; then approved merge and publication. | — |
 
 ## Pending human review and decisions
 
@@ -189,6 +190,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-097 | Use models/local-confirmation.md for dated scoped evidence from the relevant source and separate Founder acceptance. All seven guides remain locally unverified. No outreach or site inspection undertaken. |
+| UTP-WORK-108 | Founder candidate review; then approved merge and publication. |
 
 ## Decisions
 
@@ -288,6 +290,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-093 · Explicitly deploy visitor-readiness PR 13 with optional analytics | approved | Ahimanikya Satapathy | Explicit approval in response to the request to deploy merged PR 13 to utkalproject.org, including optional consent-based analytics. Resolves the separate production-deployment approval requirement. |
 | UTP-DEC-094 · Use familiar cookie-consent wording | approved | Ahimanikya Satapathy | Prepare generic cookie wording in place of provider-focused messaging; retain accept/decline choices and linked privacy details. |
 | UTP-DEC-095 · Merge and publish the simple cookie message | approved | Ahimanikya Satapathy | Approve merging and publishing reviewed PR 14, in response to the explicit request to approve both actions. |
+| UTP-DEC-096 · Prepare the Chilika collection for release review | approved | Ahimanikya Satapathy | Prepare the recommended bounded Chilika candidate, connected guides, visual flow and journey-book checks. Publication remains a later Founder gate. |
 
 ## Reviews
 
@@ -361,6 +364,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-068 | pass_with_limitations | False | Same AI assistant implemented and verified; no independent review.; Local confirmations for seven guides, fluent language review, physical-device and broader accessibility checks remain separate.; Consent checks used synthetic URL/search markers; no personal journey or contribution content was entered. Cookies and browser storage were not directly inspected.; Realtime includes the synthetic verification visits; those are not organic audience results.; Six native PDF cases were verified before release; published print CSS was checked, without repeating physical-printer or other-browser checks. |
 | UTP-REV-069 | pass_with_limitations | False | Copy-only self-review; not an independent review.; Detailed Google Analytics disclosure remains on the linked privacy page. |
 | UTP-REV-070 | pass_with_limitations | False | Copy-only change; previous production consent/network evidence retained rather than repeating the full Analytics verification.; Same assistant implemented and checked the copy. |
+| UTP-REV-071 | pass_with_limitations | False | Same assistant implemented and reviewed; no independent editorial review.; No field visit, boat inspection, property inspection, current price, route time, transport or accessibility confirmation.; Odia quotation and English rendering still need fluent editorial proofreading against the scan.; Some sources remain indexed-text checks; retrieval and playback limitations are preserved in their source records.; Regional photographs are labelled; Satapada-specific photography and current property images remain gaps.; Chrome A4 PDF is a synthetic four-item regression sample; no physical printer or device test. Earlier A4/Letter evidence remains separate. |
 
 ## Publication and application history
 
@@ -419,7 +423,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-099 | 2026-10-01T00:02:38.187122+00:00 | Approved PR 10 merged and published. Live Puri guidance, actual HTML/text books and retained HTTPS redirects verified. | Direct temple/local confirmations and native-PDF checks remain separately tracked. |
 | UTP-EVT-100 | 2026-10-01T00:18:34.965470+00:00 | Three-stage making sequence and four notebook stops prepared from official sources. Actual books and responsive specimens inspected; current maker arrangements remain unconfirmed. | Founder review before publication. |
 | UTP-EVT-101 | 2026-10-01T00:33:49.893382+00:00 | Approved PR 11 merged and published. Live making sequence, four notebook notes, actual HTML/text books and HTTPS redirects verified. | Direct maker/local confirmations and native-PDF checks remain separately tracked. |
 | UTP-EVT-102 | 2026-10-01T00:44:32.875577+00:00 | Prepared connected Dhauli history and four portable planning notes. Primary historical description inspected; desktop flow and actual HTML/text downloads checked. | Founder review before publication. |
@@ -429,6 +432,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-106 | 2026-10-01T02:13:34.846097+00:00 | Explicit deployment approval received. Normal workflow succeeded at be6d1c6. Live planning notes, print CSS, analytics consent and withdrawal, GA Realtime and HTTPS verified. | Continue separately tracked local and fluent-language confirmations; current release verification complete. |
 | UTP-EVT-107 | 2026-10-01T02:18:45.187477+00:00 | Prepared familiar cookie wording and controls; provider details remain on the privacy page. Coastal build and 11 tests pass. | Founder publication review. |
 | UTP-EVT-108 | 2026-10-01T02:29:01.752917+00:00 | Approved PR 14 merged and published. Familiar cookie wording, preferences access and decline confirmation verified live. | No further cookie-copy work pending. |
+| UTP-EVT-109 | 2026-10-01T03:04:49.370605+00:00 | Prepared a 26-page coastal candidate adding ten Chilika guides, thirteen saveable ideas and three starters. Full and coastal checks pass; mobile/desktop and actual book download/A4 regression checked. | Founder candidate review; no publication yet. |
 
 ## Deferred extensions
 

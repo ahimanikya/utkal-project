@@ -5,7 +5,7 @@ import {buildTourBook,buildTextItinerary,escapeHTML} from '../src/lib/tour-book.
 const notebooks=JSON.parse(readFileSync('../../kb/research/destinations/visit-notebooks.json','utf8')).notebooks;
 const home=readFileSync('dist/index.html','utf8');
 const catalog=JSON.parse(home.match(/<script[^>]*id="journey-data"[^>]*>([\s\S]*?)<\/script>/)[1]).catalog;
-test('planning references survive page rendering and both portable formats for all seven guides',()=>{
+test('planning references survive page rendering and both portable formats for all notebook guides',()=>{
  for(const note of notebooks){
   const html=readFileSync('dist'+note.route+'index.html','utf8');
   const plan={version:1,title:'Reference check',items:[{id:note.save_id,day:1,notes:''}]};

@@ -74,6 +74,43 @@
         "food:konark-machha-besara",
         "stay:puri"
       ]
+    },
+    {
+      "id": "chilika-birds",
+      "title": "Chilika, beginning with birds",
+      "lead": "Choose Mangalajodi as your focus. Read the place, keep the birdwatching idea and investigate a nearby base. Ask about the day’s birds and arrangements before choosing dates.",
+      "type": "One gateway to research",
+      "cover": "place:mangalajodi",
+      "items": [
+        "place:mangalajodi",
+        "experience:chilika-mangalajodi-birding",
+        "base:chilika-mangalajodi"
+      ]
+    },
+    {
+      "id": "chilika-island",
+      "title": "Chilika, a crossing and a story",
+      "lead": "Begin with Kalijai’s island story, research a crossing from Barkul and compare Barkul or Rambha as a base. Keep a lagoon meal as a question to ask locally; these selections do not establish a boat route or menu.",
+      "type": "Island, food & a base",
+      "cover": "place:kalijai",
+      "items": [
+        "place:kalijai",
+        "experience:chilika-kalijai",
+        "food:chilika-fish",
+        "base:chilika-barkul-rambha"
+      ]
+    },
+    {
+      "id": "chilika-satapada",
+      "title": "Chilika, with room for surprise",
+      "lead": "Research the Satapada side of the lagoon. Keep the boating idea and compare a stay around Rajhans and Satapada, confirming transfers separately. Wildlife sightings remain a possibility, not a promise.",
+      "type": "One gateway to research",
+      "cover": "place:chilika",
+      "items": [
+        "place:satapada",
+        "experience:chilika-satapada",
+        "base:chilika-rajhans"
+      ]
     }
   ]
 }

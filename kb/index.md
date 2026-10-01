@@ -82,3 +82,5 @@ This directory contains the organizational and working model, roles, work record
 - [Launch-quality follow-up · delivery, guide evidence and print](research/product/launch-quality-2026-09-30.md)
 
 - [Visitor readiness: guides, Chrome PDF checks, analytics and consolidated review](research/product/visitor-readiness-2026-10-01.md)
+
+- [Chilika release candidate](records/chilika-release-review.json) — connected guides, three journey starters, source checks and review evidence.
