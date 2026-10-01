@@ -24,14 +24,15 @@ if(isCoastalEdition){
 }
 // Keep the archive’s viewer and original catalogue; add the shared site services.
 const integrated=archive.replace('</head>',`<link rel="canonical" href="${canonical}"><meta property="og:url" content="${canonical}"><meta name="referrer" content="no-referrer"><meta property="og:image" content="${socialImage}"><meta property="og:image:alt" content="A procession painted on a red Bhubaneswar wall, photographed in February 2009."><meta property="og:image:width" content="1600"><meta property="og:image:height" content="1200"><meta name="utkal-design-system" content="${designSystem.version}"><style>${systemCSS}\n${galleryCSS}</style></head>`).replace(/<meta property="og:description"[^>]*>/,`<meta property="og:description" content="${description}">`).replace('<body>','<body class="utk">').replace('<img id="large" alt="">','<img id="large" alt="" width="1600" height="1200">');
-const mainEnd=integrated.indexOf('</main>');
-const bodyEnd=integrated.lastIndexOf('</body>');
+const withPrivacy=integrated.replace('</footer>','<p><a href="/how-to-use/#privacy">Privacy</a></p></footer>');
+const mainEnd=withPrivacy.indexOf('</main>');
+const bodyEnd=withPrivacy.lastIndexOf('</body>');
 ---
-<Fragment set:html={integrated.slice(0,mainEnd)} />
+<Fragment set:html={withPrivacy.slice(0,mainEnd)} />
 {isCoastalEdition&&<section id="story-selection" class="fresco-selection" aria-labelledby="selection-title"><details><summary id="selection-title">Eight photographs to linger over</summary><p>A February 2009 photographic selection. Captions are editorial readings; mural artists and present condition remain unverified.</p><div>{photos.filter(p=>p.featured).map(p=><figure><img src={`photos/${p.file}`} alt={p.title} width={p.width} height={p.height} loading="lazy"/><figcaption><h2>{p.displayTitle}</h2><p>{p.caption}</p><small>Photograph: {p.photographer} · February 2009</small></figcaption></figure>)}</div></details></section>}
-<Fragment set:html={integrated.slice(mainEnd,bodyEnd)} />
+<Fragment set:html={withPrivacy.slice(mainEnd,bodyEnd)} />
 <Analytics canonical={canonical} title={title}/>
 <script is:inline type="application/json" id="gallery-assets" set:html={assets}/>
 <script is:inline type="application/json" id="journey-data" set:html={journey}/>
 <script>import "../../../scripts/journey";</script>
-<Fragment set:html={integrated.slice(bodyEnd)} />
+<Fragment set:html={withPrivacy.slice(bodyEnd)} />

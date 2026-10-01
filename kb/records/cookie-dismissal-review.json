@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-01T11:02:47.008110+00:00",
+  "status": "candidate_for_founder_review",
+  "authorization": "UTP-DEC-113",
+  "human_owner": "Ahimanikya Satapathy",
+  "scope": "Dismiss the complete cookie prompt after a choice; remove persistent acceptance text and settings strip.",
+  "changes": [
+    "No success message after accepting or declining; remembered choices keep the prompt hidden.",
+    "Cookie preferences control lives in the How to use privacy section. A discreet Privacy footer link is present on shared pages and the standalone Fresco gallery.",
+    "Storage failures alone show a brief persistence warning; withdrawal and production-only loading remain intact."
+  ],
+  "verification": {
+    "site_tests": 340,
+    "edition_tests_with_analytics_enabled": 34,
+    "consent_checks": "First acceptance, first decline, remembered choices, privacy reopening, withdrawal, storage failure, cross-tab withdrawal and disabled local previews pass.",
+    "builds": "Full draft and 67-page coastal edition built successfully."
+  },
+  "limitations": [
+    "Same assistant implemented and checked this change; no independent review claimed.",
+    "Browser visual check was blocked because the browser could not verify its admin-enforced security policy. No workaround attempted.",
+    "Consent interaction checks execute the actual component script with synthetic DOM, storage and network objects; they do not use production visitor data.",
+    "Not deployed; awaiting Founder review of the candidate."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "publication": {
+    "status": "not_deployed"
+  },
+  "publication_followup": {
+    "status": "published_preview",
+    "authorization": "UTP-DEC-114",
+    "evidence": "records/cookie-dismissal-publication.json",
+    "deployed_sha": "775dafb2965c475b96acbd6e80a352555f0b4041"
+  }
+}

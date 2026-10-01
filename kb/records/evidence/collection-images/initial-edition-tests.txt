@@ -1,0 +1,75 @@
+
+> utkal-project-site@0.1.0 test:coast
+> node --test tests-coast/*.test.mjs
+
+✔ coastal analytics configuration is explicit and never eagerly loads the remote tag (69.908667ms)
+✔ city starter creates six choices without replacing a dated existing journey (5.879625ms)
+✔ new guides expose stable choices, scoped links and truthful photo context (1.2445ms)
+✔ Fresco ships the complete credited art archive with exact original bytes and no event photos (73.695334ms)
+✔ Chilika connects all nine guides with its own stay areas (4.585458ms)
+✔ saved Chilika details retain practical context and sources in both book formats (3.449875ms)
+✔ each Chilika starter focuses on one gateway and preserves an earlier trip (1.008291ms)
+✔ an earlier Chilika idea becomes available without losing its day or notes (15.459125ms)
+✔ Cuttack starter preserves the previous plan and exports useful visit details (4.560667ms)
+✔ reading starter and every literary idea retain reading prompts and source links offline (0.276709ms)
+✔ language hub preserves diversity without linking to unreleased profiles (0.3975ms)
+✔ Cuttack photos retain exact credits and historical portraits stay out of delivery (2.563875ms)
+✔ edition validation rejects duplicate route configuration before changing output (82.2925ms)
+✔ relative links and their fragments resolve within selected routes (64.124708ms)
+✔ srcset candidates and stylesheet resources remain in the promoted edition (51.302458ms)
+✔ journey links must resolve their fragments before the candidate is promoted (41.811666ms)
+✔ duplicate catalogue IDs cannot pass a set-only comparison (42.358292ms)
+✔ asset symlinks are refused without touching the previous preview (39.702333ms)
+✔ only selected pages and their declared client content ship (112.744583ms)
+✔ delivery report hashes every shipped file and excludes unused originals (80.496084ms)
+✔ an earlier journey keeps unavailable IDs, dates and notes in backups and the portable book (10.289625ms)
+✔ failed staged validation preserves the last good output and does not expose excluded pages (42.079875ms)
+✔ responsive image choices resolve in the shipped edition with alt, dimensions and sizes (35.374834ms)
+✔ image variants preserve proportions and reduce the mobile delivery size (57.282708ms)
+✔ destination contents support the same mobile reading controls as cultural pages (0.984792ms)
+✔ every published visitor-detail page uses compact mobile contents with ordered live targets (6.522459ms)
+✔ practical notes stay inside their guide before the notebook, onward links and credits (21.784792ms)
+✔ normal publication still excludes search activation and held commercial content (35.112875ms)
+✔ Explore offers responsive photographs while keeping the original SVG script sample (0.676584ms)
+✖ next-story photographs use responsive choices and retain their end credit (1.848291ms)
+✔ the published edition retains only responsive files referenced by its pages (18.059375ms)
+✔ all seven introductions have a real learning resource and a public contribution draft (6.414875ms)
+✔ new reading items preserve sources, prompts, earlier notes and Odia text through portable books (3.972917ms)
+✔ place and literature connections state their evidence without implying visits or complete books (2.814541ms)
+✔ northern starters create distinct unscheduled plans while preserving a previous trip (4.439959ms)
+✔ northern guidance, stay comparisons and source links survive both offline formats (0.915625ms)
+✔ regional pages link every new guide and photographs retain their actual context (2.536958ms)
+✔ planning hubs expose each published idea once and preserve canonical destinations (8.051ms)
+✔ planning navigation and return links connect hubs, discovery and inner guides (3.346875ms)
+✔ food, language and literary pages have a single contextual return path (5.059041ms)
+✔ social images are retained in the deployable edition and match documented subjects (2.377666ms)
+✔ cultural contents follow reading order and onward links respect publication scope (2.415083ms)
+✔ edition pruning retains a metadata-only sharing asset and still removes unrelated files (57.6135ms)
+ℹ tests 43
+ℹ suites 0
+ℹ pass 42
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 383.27925
+
+✖ failing tests:
+
+test at tests-coast/launch-readiness.test.mjs:80:1
+✖ next-story photographs use responsive choices and retain their end credit (1.848291ms)
+  AssertionError [ERR_ASSERTION]: /visit/places/dhauli/
+      at TestContext.<anonymous> (file:///Users/ahimanikya/.codex/.chatgpt-projects/g-p-6ab85c17a36c819181021e5b069db201/planning/utkala-odisha/checkouts/utkal-project/projects/site/tests-coast/launch-readiness.test.mjs:85:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1201:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:831:18)
+      at Test.postRun (node:internal/test_runner/test:1330:19)
+      at Test.run (node:internal/test_runner/test:1258:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

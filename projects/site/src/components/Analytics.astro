@@ -14,7 +14,7 @@ const config=JSON.stringify({id,canonical,title,allowedPaths:[...editionRoutes]}
  <p><a href="/how-to-use/#privacy">Learn more</a></p>
  <div class="actions"><button type="button" data-analytics="accepted" class="utk-button">Accept cookies</button><button type="button" data-analytics="declined" class="utk-button utk-button--secondary">Decline</button></div>
 </section>
-<div class="wrap analytics-settings"><button type="button" id="analytics-settings" hidden>Cookie preferences</button><p id="analytics-status" role="status"></p></div>
+<p class="wrap analytics-error" id="analytics-status" role="status" hidden></p>
 </>}
 <script>
 import {ANALYTICS_CHOICE_KEY,ANALYTICS_CHOICES,analyticsPage,createAnalytics} from '../lib/analytics.mjs';
@@ -24,25 +24,31 @@ if(configNode){
  const page=analyticsPage({...config,origin:location.origin,pathname:location.pathname});
  if(page){
   const panel=document.getElementById('analytics-choice')!;
-  const settings=document.getElementById('analytics-settings')!;
+  const settings=document.getElementById('analytics-settings');
+  let openedFromSettings=false;
   const status=document.getElementById('analytics-status')!;
   const host=window as typeof window & {dataLayer?:unknown[];[key:string]:unknown};
   const gtag=function(..._args:unknown[]){(host.dataLayer??=[]).push(arguments);};
   const control=createAnalytics({id:config.id,page,gtag,setDisabled:(disabled:boolean)=>{host['ga-disable-'+config.id]=disabled;},loadTag:(id:string)=>{const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+id;script.referrerPolicy='no-referrer';document.head.append(script);}});
   let choice:string|null=null;try{choice=localStorage.getItem(ANALYTICS_CHOICE_KEY);}catch{}
-  settings.hidden=false;panel.hidden=ANALYTICS_CHOICES.has(choice);
+  if(settings)settings.hidden=false;
+  panel.hidden=ANALYTICS_CHOICES.has(choice);
   if(choice==='accepted')control.accept();else control.decline();
   const clearAnalyticsCookies=()=>{
    for(const name of document.cookie.split(';').map(s=>s.trim().split('=')[0]).filter(n=>n==='_ga'||n.startsWith('_ga_'))){
     for(const domain of ['', '; domain=utkalproject.org','; domain=.utkalproject.org'])document.cookie=name+'=; Max-Age=0; path=/'+domain+'; SameSite=Lax; Secure';
    }
   };
-  settings.addEventListener('click',()=>{panel.hidden=false;panel.querySelector<HTMLButtonElement>('button')?.focus();});
+  settings?.addEventListener('click',()=>{openedFromSettings=true;status.hidden=true;panel.hidden=false;panel.querySelector<HTMLButtonElement>('button')?.focus();});
   panel.querySelectorAll<HTMLButtonElement>('button[data-analytics]').forEach(button=>button.addEventListener('click',()=>{
    const next=button.dataset.analytics!;let persisted=true;
    try{localStorage.setItem(ANALYTICS_CHOICE_KEY,next);}catch{persisted=false;}
    if(next==='accepted')control.accept();else{control.decline();clearAnalyticsCookies();}
-   panel.hidden=true;settings.focus();status.textContent=(next==='accepted'?'Optional cookies accepted.':'Optional cookies declined.')+(persisted?'':' Your browser could not save this choice for next time.');
+   button.blur();panel.hidden=true;
+   if(openedFromSettings)settings?.focus({preventScroll:true});
+   openedFromSettings=false;
+   status.hidden=persisted;
+   status.textContent=persisted?'':'Your choice applies to this page. Your browser could not save it for next time.';
    // Unload an already running Google tag after withdrawal; the saved denial prevents reloading it.
    if(next==='declined'&&choice==='accepted'&&persisted)location.reload();
    choice=next;
@@ -51,4 +57,4 @@ if(configNode){
  }
 }
 </script>
-<style>.analytics-choice{padding:24px;margin-block:28px;border:1px solid var(--line);background:var(--paper)}.analytics-choice[hidden],.analytics-settings button[hidden]{display:none}.analytics-choice h2{font-size:28px}.analytics-choice p{margin-top:12px;max-width:75ch}.analytics-settings{padding-bottom:18px}.analytics-settings button{min-height:44px;background:none;border:0;text-decoration:underline;color:var(--sea);cursor:pointer}.analytics-settings p{font-size:14px}@media print{.analytics-choice,.analytics-settings{display:none!important}}</style>
+<style>.analytics-choice{padding:24px;margin-block:28px;border:1px solid var(--line);background:var(--paper)}.analytics-choice[hidden],.analytics-error[hidden]{display:none}.analytics-choice h2{font-size:28px}.analytics-choice p{margin-top:12px;max-width:75ch}.analytics-error{padding-bottom:18px;font-size:14px}@media print{.analytics-choice,.analytics-error{display:none!important}}</style>

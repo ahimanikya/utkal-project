@@ -67,6 +67,10 @@ class Document(HTMLParser):
             self.in_gallery_assets = True
         if tag == 'meta' and a.get('name') == 'robots' and 'noindex' in a.get('content', ''):
             self.noindex = True
+        if tag == 'meta' and (a.get('property') == 'og:image' or a.get('name') == 'twitter:image'):
+            image = urlsplit(a.get('content', ''))
+            if image.netloc == 'utkalproject.org':
+                self.resources.append(image.path)
         for key in ['src', 'poster']:
             if a.get(key):
                 self.resources.append(a[key])

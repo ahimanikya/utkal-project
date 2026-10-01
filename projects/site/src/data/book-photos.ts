@@ -6,6 +6,8 @@ import konark from '../../../../kb/research/destinations/konark.json';
 import chilikaStory from '../../../../kb/research/stories/narratives/chilika.json';
 import bookImages from '../../../../kb/research/destinations/book-images.json';
 export const bookPhotos={
+ 'food:odisha-rasagola':foods.assets['pahala-rasagola'],
+ 'reading:people/subhas-chandra-bose':regions.assets['cuttack-netaji'],
  'place:balasore':regions.assets.chandipur,
  'place:mayurbhanj':regions.assets.barehipani,
  'experience:mayurbhanj-chhau':regions.assets['mayurbhanj-chhau'],

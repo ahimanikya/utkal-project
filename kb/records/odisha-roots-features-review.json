@@ -1,0 +1,66 @@
+{
+  "recorded_at": "2026-10-01T16:15:57.356758+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-127",
+  "base_commit": "a67b7ff",
+  "scope": "Odisha Roots: two illustrated feature stories, research follow-up and portable journey integration.",
+  "changes": [
+    "Dedicated Odisha Rasagola feature connecting Puri ritual, the attributed literary reference, Pahala and Salepur, and GI recognition.",
+    "Bose’s Cuttack childhood feature with 1897/1902/1909 milestones, teacher recollection, memoir reading and separate museum visit.",
+    "Public-domain Pahala rasagola photograph and CC BY-SA 3.0 Ravenshaw school photograph; licence, provenance, hashes, context and responsive variants retained.",
+    "Explore, related links, food hub, Cuttack breadcrumb and sharing images connected to the two new pages.",
+    "Distinct save IDs preserve the existing museum experience and carry sources and questions into portable books.",
+    "Retrieved GI Journal 116 and inspected p. 10; recorded original-document follow-ups without promoting them as verified.",
+    "Corrected the Chandipur meal’s Explore region from the generic Nayagarh fallback to Balasore."
+  ],
+  "verification": {
+    "full_site_tests": 365,
+    "coastal_tests": 47,
+    "design_system_tests": 6,
+    "page_acceptance": "276 checks across 69 routes passed",
+    "explore_entries": 56,
+    "saveable_ideas": 63,
+    "research": "590 concepts; structure/source checks pass.",
+    "search": "All 69 normal pages remain noindex; 11 proposed indexable pages only in separate local review output.",
+    "portable_books": "Sample illustrated HTML and text exports generated from the actual functions; source links, unique IDs and photograph hashes checked."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant researched, wrote and checked this candidate; no independent historical or native-language review claimed.",
+    "GI Journal 116 p. 10 is the filed historical account. The cited original temple register, critical literary edition and earliest manuscript witness remain uninspected. No exclusive-origin verdict or precise invention date asserted.",
+    "Bose’s memoir is retrospective testimony read through a digital reproduction. School access and current museum operations remain unconfirmed.",
+    "Pahala/Salepur links come from a dated 2019 visit account; no current seller recommendation or food-service inspection.",
+    "New photographs are later documentary views with creator licences; none depicts an authenticated historical event.",
+    "Browser visual and native PDF checks remain open under the earlier browser security-policy limitation. Automated build checks do not establish rendered visual quality."
+  ],
+  "evidence": [
+    "records/evidence/odisha-roots-features/source-review.json",
+    "records/evidence/odisha-roots-features/site-tests.txt",
+    "records/evidence/odisha-roots-features/edition-tests.txt",
+    "records/evidence/odisha-roots-features/page-acceptance.json",
+    "records/evidence/odisha-roots-features/book-checks.json",
+    "records/evidence/odisha-roots-features/sample-book.html",
+    "records/evidence/odisha-roots-features/sample-book.txt"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated"
+  },
+  "pull_request": {
+    "url": "https://github.com/ahimanikya/utkal-project/pull/32",
+    "state": "draft_for_founder_review",
+    "implementation_commit": "ff017c9"
+  },
+  "publication_followup": {
+    "status": "published_preview",
+    "authorization": "UTP-DEC-128",
+    "evidence": "records/odisha-roots-features-publication.json",
+    "deployed_sha": "bcdb18a9da4491d63e736ab841ef6222172460af",
+    "indexing": "not_activated"
+  }
+}

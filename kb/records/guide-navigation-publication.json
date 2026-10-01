@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-01T13:20:46.634165+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-120",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/28",
+  "approved_head": "561062eb97ffbf65dd1e0b882a3b27ddf94de2c5",
+  "deployed_sha": "ab83f2dc19591173d66c8f6ed6784a715ab6587c",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36867644884",
+  "destination": "https://utkalproject.org/",
+  "scope": "Publish PR 28 compact guide contents and linked-disclosure navigation.",
+  "verification": {
+    "approved_tree": "Merged tree matched approved head before dispatch.",
+    "workflow": "Release build, full and coastal tests, and Pages deployment succeeded.",
+    "live_pages": 67,
+    "visitor_detail_routes": 23,
+    "navigation": "Compact and desktop contents present with ordered live targets on all 23 visitor-detail pages.",
+    "javascript_assets": 10,
+    "javascript_delivery": "Checked linked bundles and discovered relative JS imports against the reviewed local coastal build.",
+    "search": "All 67 pages retain noindex, nofollow; sitemap.xml returns 404.",
+    "retry": "Initial live pass failed for Puri; the direct recheck returned HTTP 200 with noindex, and the full repeat passed. The first pass did not retain the failing HTTP status, so its cause is unconfirmed."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and verified the release; no independent accessibility review claimed.",
+    "Live checks use HTTP, markup and JavaScript bytes. Browser security-policy verification remained unavailable during candidate review; real keyboard, rendered layout, screen-reader, zoom and device checks remain open.",
+    "Handler tests use synthetic DOM elements and do not establish browser timing or assistive-technology behavior.",
+    "Search indexing remains disabled and the separate proposed search selection is not activated."
+  ],
+  "evidence": [
+    "records/evidence/guide-navigation-publication/deployment.json",
+    "records/evidence/guide-navigation-publication/pull-request.json",
+    "records/evidence/guide-navigation-publication/live-checks.json",
+    "records/evidence/guide-navigation-publication/initial-live-checks.json",
+    "records/evidence/guide-navigation-publication/puri-recheck.json"
+  ]
+}
