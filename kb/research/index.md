@@ -48,3 +48,5 @@ This is a research collection, not a current travel-booking directory. Statement
 [Dance, learning and religious traditions research programme](methods/culture-learning-programme.md).
 
 [Mining: minerals, industry and people](economy/mining.md).
+
+[Forest foods and products](economy/forest-products.md).

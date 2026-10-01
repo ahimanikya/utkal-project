@@ -83,3 +83,5 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 - [Ecotourism](../statistics/ecotourism.md) — Reported programme income and community allocation rules, distinct from net household earnings.
 
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.

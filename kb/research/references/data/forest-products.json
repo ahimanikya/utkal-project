@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T19:23:15.175549+00:00",
+  "run_id": "2026-10-01-forest-products",
+  "scope": "First checkpoint; not comprehensive market census or completed history",
+  "product_groups": [
+    {
+      "id": "fruits",
+      "title": "Fruits and kernels",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "flowers",
+      "title": "Flowers and food uses",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "honey",
+      "title": "Honey and wax",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "leaves",
+      "title": "Leaf products",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "oilseeds",
+      "title": "Oilseeds",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "resins",
+      "title": "Gums, resins and lac",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "fibres",
+      "title": "Bamboo, cane, fibres and brooms",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "kendu",
+      "title": "Non-food kendu leaves",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "wild-food-identities",
+      "title": "Edible greens, shoots, tubers and identified fungi",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    }
+  ],
+  "observation_dataset": "statistics-atlas.json",
+  "observation_ids": [
+    "forest-products-sales-2020",
+    "forest-products-sold-2020",
+    "forest-products-sales-2021",
+    "forest-products-sold-2021",
+    "forest-products-sales-2022",
+    "forest-products-sold-2022",
+    "forest-products-sales-2023",
+    "forest-products-sold-2023",
+    "forest-products-sales-2024",
+    "forest-products-sold-2024",
+    "forest-products-ofdc-web-sales-2020",
+    "forest-products-ofdc-web-sold-2020",
+    "forest-products-honey-capacity"
+  ],
+  "conflicts": [
+    {
+      "id": "kendu-2019-vintages",
+      "observation_ids": [
+        "forest-products-sales-2020",
+        "forest-products-sold-2020",
+        "forest-products-ofdc-web-sales-2020",
+        "forest-products-ofdc-web-sold-2020"
+      ],
+      "status": "unresolved",
+      "reason": "Same fiscal-year labels; report and webpage sale/quantity values differ. No revision provenance established."
+    },
+    {
+      "id": "vasundhara2001-districts",
+      "source_id": "forest-vasundhara2001",
+      "status": "unresolved",
+      "reason": "TitleSundergarh versus executive-summarySambalpur; no district statistic adopted."
+    }
+  ],
+  "task_ids": [
+    "RES-056",
+    "RES-057",
+    "RES-058"
+  ],
+  "source_checks": [
+    {
+      "source_id": "forest-sector2025",
+      "status": "available",
+      "scope": "Selected tables, with kendu headers visually checked. Fiscal-year sale figures differ from crop-year series elsewhere; not latest-release verification.",
+      "url": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-kendu",
+      "status": "available",
+      "scope": "Undated page; history only, not fresh current production. 2019–20 sale value399.14 differs from2025 report399.09; both retained for reconciliation.",
+      "url": "https://www.odishafdc.com/kenduleaf.php",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "status": "partial",
+      "scope": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate.",
+      "url": "https://ideas.repec.org/a/ags/injagm/399613.html",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-vasundhara2001",
+      "status": "available",
+      "scope": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews.",
+      "url": "https://www.fao.org/4/ad352t/AD352T06.htm",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "status": "unavailable",
+      "scope": "Direct page unavailable (502/Internal Error). Indexed product list is a discovery lead; malformed/duplicate entries and current procurement count not verified.",
+      "url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://ageconsearch.umn.edu/record/399613/files/IJAM%2032%20%283%29%20_%20Collection%20and%20marketing%20of%20Non-Timber-pages-120-121.pdf",
+      "status": "unavailable",
+      "reason": "Direct web full-text fetch returned Internal Error. Abstract remains available; this is not unchanged.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    }
+  ],
+  "human_review_claimed": false,
+  "website_publication": false
+}

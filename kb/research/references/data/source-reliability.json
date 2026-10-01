@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:12:14.031317+00:00",
+  "updated_at": "2026-10-01T19:23:15.175549+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4075,6 +4075,51 @@
       "status": "available",
       "scope": "Discovery reference for follow-up; yearbook title is not the year of every resource or production table. No additional numeric observation admitted from this capture.",
       "retry_after": null
+    },
+    {
+      "source_id": "forest-sector2025",
+      "discovery_url": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "available",
+      "scope": "Selected tables, with kendu headers visually checked. Fiscal-year sale figures differ from crop-year series elsewhere; not latest-release verification.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-kendu",
+      "discovery_url": "https://www.odishafdc.com/kenduleaf.php",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "available",
+      "scope": "Undated page; history only, not fresh current production. 2019–20 sale value399.14 differs from2025 report399.09; both retained for reconciliation.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "discovery_url": "https://ideas.repec.org/a/ags/injagm/399613.html",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "partial",
+      "scope": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-vasundhara2001",
+      "discovery_url": "https://www.fao.org/4/ad352t/AD352T06.htm",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "available",
+      "scope": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "discovery_url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "unavailable",
+      "scope": "Direct page unavailable (502/Internal Error). Indexed product list is a discovery lead; malformed/duplicate entries and current procurement count not verified.",
+      "retry_after": "2026-10-08"
     }
   ]
 }

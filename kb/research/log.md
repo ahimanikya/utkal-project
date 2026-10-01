@@ -240,3 +240,7 @@ Added Chaurasia and Achyuta Samanta profiles, university categories and two 2025
 ## 1 October 2026 · Mining from multiple angles
 
 Added a twelve-angle mining hub, five bounded tasks, three source records and nine atlas observations. Preserved IBM value exclusions, a chromite decline, full-year vintage and the six-DMF audit sample. Reused existing production/growth/rare-earth research and recorded unavailable dashboard/revenue fetches. No mine-location census, completed impact study or website release claimed.
+
+## 1 October2026 · Forest food, markets and history
+
+Added four connected topic pages, five source records, thirteen atlas observations (four held conflicting records) and three bounded follow-ups. Reused Koli and recipe records. Visually checked kendu table headers; retained sales decline, inventory scope, capacity/output distinction and unknown current prices. No complete market census, community interviews or website publication.

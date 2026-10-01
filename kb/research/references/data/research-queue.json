@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T19:12:14.031317+00:00",
+  "updated_at": "2026-10-01T19:23:15.175549+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2345,6 +2345,129 @@
           "journeys/rare-earths.md",
           "people/people-and-creations.md",
           "history/index.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-056",
+      "order": 11.6,
+      "title": "Forest-food identities, seasons and preparation",
+      "done_when": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
+      "target": "economy/forest-products.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-039",
+        "RES-041",
+        "RES-054"
+      ],
+      "last_worked_at": "2026-10-01T19:23:15.175549+00:00",
+      "next_step": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
+      "evidence_outputs": [
+        "food/forest-foods.md",
+        "economy/forest-products.md",
+        "history/forest-livelihoods.md",
+        "statistics/forest-products.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-forest-products",
+          "at": "2026-10-01T19:23:15.175549+00:00",
+          "outcome": "first_market_and_history_checkpoint",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/forest-foods.md",
+          "economy/forest-products.md",
+          "history/forest-livelihoods.md",
+          "statistics/forest-products.md",
+          "food/koli-fruits.md",
+          "food/chatu-patrapoda.md",
+          "food/ou-khatta.md",
+          "statistics/forests.md",
+          "references/data/forest-products.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-057",
+      "order": 17.6,
+      "title": "Forest-product trade and collector returns",
+      "done_when": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
+      "target": "economy/forest-products.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-039",
+        "RES-041",
+        "RES-054"
+      ],
+      "last_worked_at": null,
+      "next_step": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "food/forest-foods.md",
+          "economy/forest-products.md",
+          "history/forest-livelihoods.md",
+          "statistics/forest-products.md",
+          "food/koli-fruits.md",
+          "food/chatu-patrapoda.md",
+          "food/ou-khatta.md",
+          "statistics/forests.md",
+          "references/data/forest-products.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-058",
+      "order": 17.7,
+      "title": "Forest livelihood history, rights and ecological change",
+      "done_when": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
+      "target": "economy/forest-products.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-039",
+        "RES-041",
+        "RES-054"
+      ],
+      "last_worked_at": null,
+      "next_step": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "food/forest-foods.md",
+          "economy/forest-products.md",
+          "history/forest-livelihoods.md",
+          "statistics/forest-products.md",
+          "food/koli-fruits.md",
+          "food/chatu-patrapoda.md",
+          "food/ou-khatta.md",
+          "statistics/forests.md",
+          "references/data/forest-products.json"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

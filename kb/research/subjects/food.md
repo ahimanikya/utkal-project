@@ -65,3 +65,5 @@ Subject membership is editorial classification. It does not establish historical
 [Koli: local fruit names and varieties](../food/koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
 
 [Bela pana](../food/bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.

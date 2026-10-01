@@ -58,3 +58,5 @@ The [nine subject families](../subjects/index.md) connect these statistical page
 - [Ecotourism: income, visitors and community livelihoods](ecotourism.md) — Primary programme series with partial periods and household-income limits preserved.
 
 [Mining and local development](minerals-and-mining.md) — nine scoped observations; current source vintages and audit samples remain visible.
+
+[Forest-product markets](forest-products.md) — kendu sales, a held historical discrepancy and honey-processing capacity.

@@ -4074,6 +4074,52 @@
       "content_type": "Statistical Topic",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/forest-foods",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/forest-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/forest-livelihoods",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "food",
+        "economy",
+        "everyday"
+      ],
+      "content_type": "Historical Research",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/forest-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "nature"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -4122,7 +4168,8 @@
     "Homestays": "economy",
     "Textile and apparel exports": "economy",
     "Ecotourism": "economy",
-    "Minerals and mining": "economy"
+    "Minerals and mining": "economy",
+    "Forest products": "economy"
   },
   "relationships": [
     {
@@ -5776,6 +5823,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Links ore extraction to plant-level output research; mineral and processed-metal quantities must not be summed."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "food/forest-foods",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects commodity research to household uses and ingredient identities; forest origin requires its own evidence."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "history/forest-livelihoods",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Adds dated institutional and community-study context without dating the origin of traditions."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "statistics/forests",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Provides land-cover context; forest area does not estimate product yields or household income."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects research on land and livelihoods; no causal effect of a named mine is asserted."
     }
   ],
   "relationship_types": {

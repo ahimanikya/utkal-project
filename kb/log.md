@@ -151,3 +151,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Mining, industry and local outcomes
 
 [Research receipt](records/mining-programme-2026-10-01.json): national production shares, chromite decline and audited DMF scopes; five deeper mining tasks remain open. No website release.
+
+## 1 October 2026 · Forest food, markets and livelihood history
+
+[Research receipt](records/forest-products-2026-10-01.json): forest foods, kendu sales and honey capacity; three deeper studies remain open. No website release.

@@ -234,3 +234,7 @@ RES-044–050 add bounded follow-ups for the user’s requested subjects. Initia
 ## Mining coverage · 1 October 2026
 
 RES-051–055 cover dated resources/production, district identities, local processing/work, revenues/DMF, environments/rights/safety/restoration, and history/future materials. First nine observations saved; plant and district mapping, full audit chapter review and service outcomes remain open. [Coverage programme](../economy/mining.md).
+
+## Forest foods and consumables · 1 October2026
+
+RES-056–058: ingredient identities/seasons/attributed uses, product markets/collector returns, and history/rights/ecology. Current procurement and exports remain unknown. Reconcile OFDC2019–20 figures and the2001 study geography; retry TDCCOL and2018 full text on2026-10-08. [First checkpoint](../economy/forest-products.md).

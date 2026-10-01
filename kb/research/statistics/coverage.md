@@ -80,3 +80,5 @@ RES-003 completed its bounded-attempt deliverable, without recovering report con
 People-and-creations research added five observations for broad textile/apparel/handicraft exports (FY2020–21 to FY2024–25). Garment-type and sweet-specific exports remain unresolved; see [new topic](textile-and-apparel-exports.md).
 
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
