@@ -2551,11 +2551,18 @@
     "resource": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
     "publisher": "Saregama Odia / Saregama India Ltd",
     "locator": "Video description Credits block",
-    "capture_note": "Indexed label-channel description: artists Pranab Kishore Patnaik, Sikandar Alam and Others; music director Prafulla Kar; lyricist Sibabrata Das. Upload date 2024-02-29 is not recording date. Direct video-page fetch failed; playback, geographic availability and completeness of unnamed Other credits not verified. No footage or lyrics copied.",
-    "capture_method": "indexed_label_description_direct_fetch_unavailable",
+    "capture_note": "Expanded label description confirms existing artist, music-director and lyricist credits and 29 February 2024 upload date. Player duration 3:35; observed progression from 0:00 to 0:24 while muted. Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
+    "capture_method": "direct_browser_description_and_muted_player_progression",
     "publication_date": "2024-02-29",
     "accessed_on": "2026-10-01",
-    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ",
+    "capture_history": [
+      {
+        "capture_method": "indexed_label_description_direct_fetch_unavailable",
+        "capture_note": "Indexed label-channel description: artists Pranab Kishore Patnaik, Sikandar Alam and Others; music director Prafulla Kar; lyricist Sibabrata Das. Upload date 2024-02-29 is not recording date. Direct video-page fetch failed; playback, geographic availability and completeness of unnamed Other credits not verified. No footage or lyrics copied.",
+        "accessed_on": "2026-10-01"
+      }
+    ]
   },
   "music-dekhi-label": {
     "id": "music-dekhi-label",
@@ -2640,5 +2647,17 @@
     "publication_date": null,
     "accessed_on": "2026-10-01",
     "source_kind": "Authorised distribution catalogue"
+  },
+  "music-jagannatha-label": {
+    "id": "music-jagannatha-label",
+    "title": "Jagannatha Swami — Sunanda Patnaik label upload",
+    "resource": "https://www.youtube.com/watch?v=3CHPZwy7b0M",
+    "publisher": "Saregama Hindustani Classical / Saregama India Ltd",
+    "locator": "Expanded Credits block; exact publication date; player duration",
+    "publication_date": "2026-01-02",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_browser_description_and_muted_player_progression",
+    "source_kind": "Original label upload",
+    "capture_note": "Artist Sunanda Patnaik; music director and lyricist Traditional. Upload dated 2 January 2026, player duration 5:14. Original recording date unknown. Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted."
   }
 }

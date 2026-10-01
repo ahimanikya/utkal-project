@@ -6,8 +6,8 @@ tags: ["people-creations", "research"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T04:25:30.058557-07:00"}
 human_review_claimed: false
-sources: [{"id": "music-osa-awards-2012", "title": "OSA lifetime recognition for Sunanda Patnaik and Prafulla Kar", "resource": "https://archive.odishasociety.org/media/newsletters/UtkarsaSeptember2012.pdf"}, {"id": "music-guru-nanak-label", "title": "Guru Nanak Bhajan — Saregama track 53300", "resource": "https://www.saregama.com/song/guru-nanak-bhajan_53300"}, {"id": "music-sakhi-label", "title": "Sakhi Meri Manki — label upload credits", "resource": "https://www.youtube.com/watch?v=qZ6mQuhYLWI"}, {"id": "music-bhaja-spotify", "title": "Bhajan — Bhaja Govindam, Sunanda Patnaik", "resource": "https://open.spotify.com/track/4YKzXJgAW5XbJI0GXzxy9y"}]
-updated_at: "2026-10-01T04:25:30.058557-07:00"
+sources: [{"id": "music-osa-awards-2012", "title": "OSA lifetime recognition for Sunanda Patnaik and Prafulla Kar", "resource": "https://archive.odishasociety.org/media/newsletters/UtkarsaSeptember2012.pdf"}, {"id": "music-guru-nanak-label", "title": "Guru Nanak Bhajan — Saregama track 53300", "resource": "https://www.saregama.com/song/guru-nanak-bhajan_53300"}, {"id": "music-sakhi-label", "title": "Sakhi Meri Manki — label upload credits", "resource": "https://www.youtube.com/watch?v=qZ6mQuhYLWI"}, {"id": "music-bhaja-spotify", "title": "Bhajan — Bhaja Govindam, Sunanda Patnaik", "resource": "https://open.spotify.com/track/4YKzXJgAW5XbJI0GXzxy9y"}, {"id": "music-jagannatha-label", "title": "Jagannatha Swami — Sunanda Patnaik label upload", "resource": "https://www.youtube.com/watch?v=3CHPZwy7b0M"}]
+updated_at: "2026-10-01T04:38:19.556927-07:00"
 subjects: ["people", "arts"]
 ---
 
@@ -24,3 +24,5 @@ A fuller training chronology, national recognition register, recording identifie
 [Sakhi Meri Manki — Sunanda Patnaik label upload](../works/sakhi-meri-manki-sunanda.md) — Follow the recording-specific credit and label/distribution route.
 
 [Bhajan — Bhaja Govindam, Sunanda Patnaik recording](../works/bhaja-govindam-sunanda.md) — Follow the recording-specific credit and label/distribution route.
+
+[Jagannatha Swami — Sunanda Patnaik label recording](../works/jagannatha-swami-sunanda.md) — A fourth label-linked selection; artist and Traditional composition/lyric credits remain separate.

@@ -89,3 +89,7 @@ RES-026 is deferred to 8 October for unavailable original-journal/title-page evi
 ### Music and listening routes · 1 October 2026
 
 RES-027 now links six practitioners and twelve work records, including one soundtrack container. Seven label/distribution recording entries were added in this pass. The task stays in progress to avoid treating the Mamata container and its songs as independent recordings and because representative playback and recording identifiers remain unverified. Continue its explicit next fields before the sport task.
+
+### Performing-arts milestone · 1 October 2026
+
+The bounded RES-027 set now covers **six practitioners and twelve independently scoped works or performances**: four documented stage episodes and eight catalogue recordings. The Mamata soundtrack container is excluded from this count. Two label videos passed a muted-player progression check in the current session. Historical stage records do not thereby acquire surviving video; remaining listening routes, original recording dates, identifiers, biography conflicts and media permissions retain their stated unknowns. This completes the first research set, not an exhaustive discography or editorial approval. Next eligible task: RES-028 sports.

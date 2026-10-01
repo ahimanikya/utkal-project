@@ -31,3 +31,7 @@ Date shown: **2024-02-29** (label upload date). This is not an established origi
 [Soundtrack context](mamata-film-music.md) — This song is a selected component of the Mamata soundtrack research; song and soundtrack are different levels of description.
 
 The [Saregama release on Amazon Music](https://music.amazon.com.br/albums/B07568VYPJ) lists this soundtrack’s selected songs; its platform date does not establish the recording date.
+
+## Browser access check · 1 October 2026
+
+The expanded official label description now directly confirms the saved credits and 29 February 2024 upload date. The muted player advanced from 0:00 to 0:24 of a displayed 3:35, then was paused. This supersedes the earlier playback-untested checkpoint for this session only; no audible or full-recording review, signed-out access, global availability or reuse licence is established.

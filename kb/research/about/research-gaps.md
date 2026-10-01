@@ -122,3 +122,7 @@ The Library of Congress lists a 1984 Nalanda Yajnaseni edition yet gives 1985 in
 ### Music metadata and access · 1 October 2026
 
 Prafulla Kar’s exact birth date differs between the indexed Akademi citation (10 November 1939) and Saregama artist page (2 February 1939); hold unresolved. Label upload, platform album and original recording dates are separate. Seven official label/distribution routes are saved, but playback and regional availability are not verified; repeated direct-fetch failures retry after 8 October. The OSA award report supports its own honours, not all biographical or national-award claims in its commemorative text.
+
+### Performing-arts follow-up scope · 1 October 2026
+
+RES-027’s six-person/twelve-work seed is complete. Re Mita and Jagannatha Swami now have direct label-description and muted-player checks; earlier failed fetches remain recorded. The other six recording routes retain untested playback. Unknown original dates, recording identifiers, Prafulla Kar’s conflicting birth date and surviving historical performance footage remain research gaps. No globally available or reusable audio is claimed.

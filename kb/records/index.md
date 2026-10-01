@@ -134,3 +134,5 @@
 - [Performing arts first batch](performing-arts-first-batch-2026-10-01.json) — four people, four credited theatre episodes and literature evidence gaps.
 
 - [Music listening research](music-listening-research-2026-10-01.json) — Sunanda Patnaik, Prafulla Kar and seven credited recording records.
+
+- [Performing-arts milestone](performing-arts-milestone-2026-10-01.json) — Six practitioners and twelve credited works, with two scoped browser access checks.

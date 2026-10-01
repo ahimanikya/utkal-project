@@ -310,3 +310,5 @@
 - [Bhajan — Bhaja Govindam, Sunanda Patnaik](music-bhaja-spotify.md)
 
 - [Mamata — Saregama release on Amazon Music](music-mamata-amazon.md)
+
+- [Jagannatha Swami — Sunanda Patnaik label upload](music-jagannatha-label.md)

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T04:25:30.058557-07:00",
+  "updated_at": "2026-10-01T04:38:19.556927-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1121,6 +1121,10 @@
     {
       "run_id": "2026-10-01-music-listening-research",
       "scope": "Music identities and lawful distribution routes; no weekly release or statistical refresh."
+    },
+    {
+      "run_id": "2026-10-01-performing-arts-milestone",
+      "scope": "Two original label descriptions and muted-player checks; no weekly statistical refresh."
     }
   ],
   "supplemental_discovery_routes": [
@@ -1561,6 +1565,26 @@
       "run_id": "2026-10-01-music-listening-research",
       "status": "available_with_capture_limits",
       "scope": "Direct HTML inspected. Connects Re Mita Aa Sangata, Mu Ta Manisha Marini and Dekhi Se Banamalli to Mamata. Displays four tracks and 1975-12-31 with phonogram 1975; this platform album date is not an independently verified original recording day. The four-track product is not a complete film-song census. No playback, transaction or regional availability tested. Same Saregama metadata family, not independent corroboration.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "music-jagannatha-label",
+      "discovery_url": "https://www.youtube.com/watch?v=3CHPZwy7b0M",
+      "checked_at": "2026-10-01T04:38:19.556927-07:00",
+      "run_id": "2026-10-01-performing-arts-milestone",
+      "status": "available_direct_browser_scoped_playback",
+      "scope": "Artist Sunanda Patnaik; music director and lyricist Traditional. Upload dated 2 January 2026, player duration 5:14. Original recording date unknown. Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "music-re-mita-label",
+      "discovery_url": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
+      "checked_at": "2026-10-01T04:38:19.556927-07:00",
+      "run_id": "2026-10-01-performing-arts-milestone",
+      "status": "available_direct_browser_scoped_playback",
+      "scope": "Expanded label description confirms existing artist, music-director and lyricist credits and 29 February 2024 upload date. Player duration 3:35; observed progression from 0:00 to 0:24 while muted. Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
       "retry_after": null,
       "contact_action_performed": false
     }

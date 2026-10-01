@@ -53,3 +53,5 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Sakhi Meri Manki — Sunanda Patnaik label upload](sakhi-meri-manki-sunanda.md)
 
 - [Bhajan — Bhaja Govindam, Sunanda Patnaik recording](bhaja-govindam-sunanda.md)
+
+- [Jagannatha Swami — Sunanda Patnaik label recording](jagannatha-swami-sunanda.md)

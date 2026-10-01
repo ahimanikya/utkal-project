@@ -701,13 +701,15 @@
         "music-osa-awards-2012",
         "music-guru-nanak-label",
         "music-sakhi-label",
-        "music-bhaja-spotify"
+        "music-bhaja-spotify",
+        "music-jagannatha-label"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
         "works/guru-nanak-bhajan-sunanda",
         "works/sakhi-meri-manki-sunanda",
-        "works/bhaja-govindam-sunanda"
+        "works/bhaja-govindam-sunanda",
+        "works/jagannatha-swami-sunanda"
       ],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
@@ -1641,15 +1643,35 @@
           "music-re-mita-label"
         ]
       },
-      "duration_seconds_as_listed": null,
+      "duration_seconds_as_listed": 215,
       "listening_access": {
         "url": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
         "provider": "Saregama Odia / Saregama India Ltd",
-        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "status": "muted_player_progression_observed_in_current_session",
         "checked_on": "2026-10-01",
-        "playback_tested": false,
+        "playback_tested": true,
+        "test_scope": "Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
+        "player_positions_observed": [
+          "0:00 / 3:35",
+          "0:03 / 3:35",
+          "0:24 / 3:35 (paused)"
+        ],
+        "audio_listened": false,
+        "entire_recording_reviewed": false,
         "territory_availability": null,
-        "reuse_permission": null
+        "signed_out_access_tested": false,
+        "reuse_permission": null,
+        "prior_checks": [
+          {
+            "url": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
+            "provider": "Saregama Odia / Saregama India Ltd",
+            "status": "official_label_or_distribution_route_identified_playback_unverified",
+            "checked_on": "2026-10-01",
+            "playback_tested": false,
+            "territory_availability": null,
+            "reuse_permission": null
+          }
+        ]
       },
       "scope_note": "A duet credit also includes unnamed Others; the credit list is incomplete.",
       "is_part_of": "works/mamata-film-music",
@@ -1993,6 +2015,72 @@
       },
       "scope_note": "Spotify gives an artist credit and compilation date. Composer and lyricist are unverified; full listening is sign-in dependent.",
       "rights_notice_as_listed": "© 2006 Saregama India Ltd; ℗ 2006 Saregama India Ltd"
+    },
+    {
+      "id": "works/jagannatha-swami-sunanda",
+      "title": "Jagannatha Swami — Sunanda Patnaik label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-jagannatha-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Traditional",
+          "role": "music_director_as_catalogued",
+          "source_ids": [
+            "music-jagannatha-label"
+          ]
+        },
+        {
+          "name": "Traditional",
+          "role": "lyricist_as_catalogued",
+          "source_ids": [
+            "music-jagannatha-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-jagannatha-label"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2026-01-02",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-jagannatha-label"
+        ]
+      },
+      "duration_seconds_as_listed": 314,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=3CHPZwy7b0M",
+        "provider": "Saregama Hindustani Classical / Saregama India Ltd",
+        "status": "muted_player_progression_observed_in_current_session",
+        "checked_on": "2026-10-01",
+        "playback_tested": true,
+        "test_scope": "Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
+        "player_positions_observed": [
+          "0:00 / 5:14",
+          "2:03 / 5:14",
+          "2:48 / 5:14 (paused)"
+        ],
+        "audio_listened": false,
+        "entire_recording_reviewed": false,
+        "territory_availability": null,
+        "signed_out_access_tested": false,
+        "reuse_permission": null
+      },
+      "scope_note": "Distinct label recording identity; Traditional preserves the catalogue credit and does not establish public-domain recording rights."
     }
   ],
   "recognition_rules": {
@@ -2001,7 +2089,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T04:25:30.058557-07:00",
+  "updated_at": "2026-10-01T04:38:19.556927-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -2053,6 +2141,39 @@
       "existing_people_enhanced": 1,
       "new_works": 7,
       "scope": "Label/distribution records with role and date distinctions; playback not verified. Twelve performing-arts work records including one soundtrack container are not twelve independent recordings."
+    },
+    {
+      "run_id": "2026-10-01-performing-arts-milestone",
+      "task_ids": [
+        "RES-027"
+      ],
+      "status": "bounded_deliverable_completed",
+      "person_ids": [
+        "people/kelucharan-mohapatra",
+        "people/laxmipriya-mohapatra",
+        "people/sanjukta-panigrahi",
+        "people/raghunath-panigrahi",
+        "people/prafulla-kar",
+        "people/sunanda-patnaik"
+      ],
+      "independent_work_ids": [
+        "works/re-mita-aa-sangata",
+        "works/dekhi-se-banamalli",
+        "works/mu-ta-manisha-marini",
+        "works/kali-kapali-prafulla",
+        "works/guru-nanak-bhajan-sunanda",
+        "works/sakhi-meri-manki-sunanda",
+        "works/bhaja-govindam-sunanda",
+        "works/jagannatha-swami-sunanda",
+        "works/meerabai-direction-1945",
+        "works/devi-mahadev-performance-1946",
+        "works/dashavatara-sadhava-jhia-1947",
+        "works/aloka-dance-sequence-1948"
+      ],
+      "soundtrack_container_excluded": "works/mamata-film-music",
+      "new_works": 1,
+      "muted_player_checks": 2,
+      "scope": "Six practitioner records, four credited stage episodes and eight label/distribution recording records; no claim of exhaustive biographies or twelve available videos."
     }
   ],
   "conflicts": [

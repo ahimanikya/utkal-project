@@ -63,3 +63,7 @@ Four profiles and four credited theatre episodes connect the Mohapatras and Pani
 ## Music listening checkpoint · 1 October 2026
 
 Added Sunanda Patnaik, expanded Prafulla Kar and attached seven recording-specific records. Label and distribution routes identify where readers can seek the music; no audio was downloaded or playback verified. The 2012 OSA report gives a concrete diaspora link for both artists. Film, upload, compilation and recording dates remain distinct. Six selected practitioners and twelve performing-arts work records now exist, but the count includes a soundtrack container and does not establish twelve independent recordings; RES-027 remains in progress.
+
+## Performing-arts milestone · 1 October 2026
+
+The bounded RES-027 set now covers **six practitioners and twelve independently scoped works or performances**: four documented stage episodes and eight catalogue recordings. The Mamata soundtrack container is excluded from this count. Two label videos passed a muted-player progression check in the current session. Historical stage records do not thereby acquire surviving video; remaining listening routes, original recording dates, identifiers, biography conflicts and media permissions retain their stated unknowns. This completes the first research set, not an exhaustive discography or editorial approval.

@@ -93,3 +93,7 @@ Added seven source records, four people and four scoped theatre episodes. The cu
 ### Music-catalogue extension · 1 October 2026
 
 Added eleven sources, one person and seven recording-specific identities; current inventory 799. Existing Mamata and Prafulla Kar records were enhanced. Label pages and label-supplied platform metadata are one evidence family, not independent corroboration. Similarly titled renditions remain separate pending recording identifiers.
+
+### Performing-arts completion extension · 1 October 2026
+
+Appended Jagannatha Swami’s label source and recording identity after a saved-knowledge search found no existing match. Current inventory: 801. Re Mita’s browser evidence enhances its existing source rather than creating an independent corroborator.

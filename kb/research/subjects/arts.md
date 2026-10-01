@@ -53,3 +53,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Music with credits
 
 The [Mamata soundtrack](../works/mamata-film-music.md), [Kali Kapali catalogue recording](../works/kali-kapali-prafulla.md) and [Sunanda Patnaik selections](../people/sunanda-patnaik.md) offer label-linked listening research. A named distribution route is not confirmation of playback in every region.
+
+## A devotional recording
+
+[Jagannatha Swami, credited to Sunanda Patnaik](../works/jagannatha-swami-sunanda.md), connects the arts collection with a label-linked listening route and explicit performer/composition distinctions.
