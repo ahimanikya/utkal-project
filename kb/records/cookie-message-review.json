@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-01T02:18:45.187477+00:00",
+  "authorization": "UTP-DEC-094",
+  "status": "candidate_for_review",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "scope": "Simplify visitor-facing consent wording; consent behaviour, stored choices and privacy disclosure retained.",
+  "copy": {
+    "heading": "Your cookie choices",
+    "body": "We use optional cookies to understand how our website is used and improve your experience. You can change your choice at any time.",
+    "accept": "Accept cookies",
+    "decline": "Decline",
+    "details": "Learn more",
+    "preferences": "Cookie preferences"
+  },
+  "verification": {
+    "coastal_build": "pass",
+    "coastal_tests": 11,
+    "built_message": "Heading, body and controls checked; no provider wording in the consent panel.",
+    "logic": "Consent implementation unchanged; only visible strings and corresponding copy assertion updated."
+  },
+  "publication": "not_merged_or_deployed",
+  "limitations": [
+    "Copy-only self-review; not an independent review.",
+    "Detailed Google Analytics disclosure remains on the linked privacy page."
+  ]
+}
