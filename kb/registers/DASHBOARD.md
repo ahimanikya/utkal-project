@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `91e81ecce51549ba38e95ccb69521903cf727bf640bbe17fb1d1f7ca4f03b0e4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c0639643de6743b024d765dd2ded05f639248962e99efd462ecb752924cd9414`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -139,8 +139,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-124 · Illustrated Odisha Roots stories and journey integration | completed | published | Ahimanikya Satapathy | Published under UTP-REL-032. Retain original-document, specialist and browser follow-ups. | — |
 | UTP-WORK-125 · Visitor discovery and research integration review | completed | published | Ahimanikya Satapathy | Published under UTP-REL-033. Retain browser, specialist and separate research integration follow-ups. | — |
 | UTP-WORK-126 · Integrate accumulated research and prepare the next story batch | completed | applied | Ahimanikya Satapathy | PR 36 merged after reconciling concurrent source merges. Continue illustrated stories and the internal editorial workbench. | — |
-| UTP-WORK-127 · Illustrated Enduri and Poda pitha stories with visitor connections | in_progress | reviewed | Ahimanikya Satapathy | Complete GitHub checks and record the applied result; local, language and browser reviews remain explicitly open. | — |
-| UTP-WORK-128 · Map 500 existing records into a read-only editorial workbench | in_progress | reviewed | Ahimanikya Satapathy | Complete GitHub checks and record the applied result; local, language and browser reviews remain explicitly open. | — |
+| UTP-WORK-127 · Illustrated Enduri and Poda pitha stories with visitor connections | completed | published | Ahimanikya Satapathy | Two food stories live and connected to discovery and portable journeys. Retain local/Odia review; no reviewed venue or tested recipe implied. | — |
+| UTP-WORK-128 · Map 500 existing records into a read-only editorial workbench | completed | applied | Ahimanikya Satapathy | Use the internal workbench to choose and extend existing research. Regenerate after canonical data changes; specialist review and newer unselected records remain separate. | — |
 
 ## Pending human review and decisions
 
@@ -483,6 +483,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-031 · Odisha roots in Rasagola and Bose stories published | published | https://utkalproject.org/ | UTP-DEC-126 |
 | UTP-REL-032 · Illustrated Rasagola and Bose childhood stories published | published | https://utkalproject.org/ | UTP-DEC-128 |
 | UTP-REL-033 · Illustrated homepage discovery and reading connections published | published | https://utkalproject.org/ | UTP-DEC-131 |
+| UTP-REL-034 · Enduri and Poda food stories published; editorial workbench applied | published | https://utkalproject.org/ | UTP-DEC-133 |
 
 ## Sources and assets
 
@@ -520,7 +521,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-137 | 2026-10-01T15:26:47.881213+00:00 | Founder-approved PR 30 published. Live delivery checks cover all 67 pages, Explore controls and counts, and the search controller bytes. Search indexing remains disabled. | Keep native browser and assistive-technology review open; continue within the next authorized scope. |
 | UTP-EVT-138 | 2026-10-01T15:41:23.464442+00:00 | Prepared Odisha-rooted rasagola and Bose articles using an attributed institutional account, registry and autobiography. Tests pass; candidate not published. | Founder reviews the candidate and source limitations. |
 | UTP-EVT-139 | 2026-10-01T15:54:43.126434+00:00 | Founder-approved PR 31 published. Live checks cover 67 pages and confirm revised Odisha-rooted passages, source links and journey source delivery. Indexing remains disabled. | Preserve outstanding original-document, specialist and browser review requirements. |
 | UTP-EVT-140 | 2026-10-01T16:15:57.356758+00:00 | Prepared two illustrated Odisha-rooted features with distinct journey items and source evidence. Tests pass; publication not authorized in this batch. | Founder reviews the candidate; retain archival, specialist and visual follow-ups. |
@@ -530,6 +530,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-144 | 2026-10-01T17:11:18.004303+00:00 | Founder explicitly authorized deployment after the earlier automatic-review block. PR 34 content is published; all 69 live pages, homepage selection, cross-links, image hashes and indexing boundaries passed delivery checks. | Retain visual/specialist review and integrate research only through its separate review sequence. |
 | UTP-EVT-145 | 2026-10-01T17:25:04.237069+00:00 | Reconciled four stacked research snapshots into one candidate: 812 research concepts, 361 sources, preserved live-site output and six next-story briefs. Incoming operating-rule changes held separately. | Founder reviews integration; media and local/literary reviews precede story publication. |
 | UTP-EVT-146 | 2026-10-01T17:57:34.582564+00:00 | Merged approved PR 36 after concurrent research reconciliation. Prepared two photographed food stories and 500 traceable metadata assessments. Retained claim conflicts and specialist/visual-review gaps. | Complete GitHub checks, apply the authorized batch and record actual delivery. |
+| UTP-EVT-147 | 2026-10-01T18:07:29.967735+00:00 | PR 38 merged and deployed. All 71 live routes, 65 journey entries, 58 Explore cards and the two new photograph hashes verified. Internal workbench applied with 500 traceable metadata assessments; Store and indexing remain excluded. | Continue from explicit workbench gaps and existing story briefs; retain language, local evidence and visual-review tasks. |
 
 ## Deferred extensions
 

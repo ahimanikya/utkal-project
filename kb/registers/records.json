@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T17:57:34.582564+00:00",
+  "recorded_at": "2026-10-01T18:07:29.967735+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3736,44 +3736,48 @@
       "id": "UTP-WORK-127",
       "title": "Illustrated Enduri and Poda pitha stories with visitor connections",
       "category": "editorial_and_website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-133",
-      "next_action": "Complete GitHub checks and record the applied result; local, language and browser reviews remain explicitly open.",
+      "next_action": "Two food stories live and connected to discovery and portable journeys. Retain local/Odia review; no reviewed venue or tested recipe implied.",
       "blockers": [],
       "refs": [
         "UTP-DEC-133",
-        "UTP-REV-107"
+        "UTP-REV-107",
+        "UTP-REL-034"
       ],
       "evidence": [
-        "records/editorial-500-review.json"
+        "records/editorial-500-review.json",
+        "records/editorial-500-publication.json"
       ]
     },
     {
       "id": "UTP-WORK-128",
       "title": "Map 500 existing records into a read-only editorial workbench",
       "category": "editorial_workflow",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-133",
-      "next_action": "Complete GitHub checks and record the applied result; local, language and browser reviews remain explicitly open.",
+      "next_action": "Use the internal workbench to choose and extend existing research. Regenerate after canonical data changes; specialist review and newer unselected records remain separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-133",
-        "UTP-REV-107"
+        "UTP-REV-107",
+        "UTP-REL-034"
       ],
       "evidence": [
-        "records/editorial-workbench.json"
+        "records/editorial-workbench.json",
+        "records/editorial-500-publication.json"
       ]
     }
   ],
@@ -9590,6 +9594,23 @@
         "records/visitor-research-publication.json"
       ],
       "note": "Explicitly approved deployment of PR 34. Live delivery verified; indexing remains disabled and outstanding reviews retained."
+    },
+    {
+      "id": "UTP-REL-034",
+      "title": "Enduri and Poda food stories published; editorial workbench applied",
+      "status": "published",
+      "authorization": "UTP-DEC-133",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-133",
+        "UTP-WORK-127",
+        "UTP-WORK-128",
+        "UTP-REV-107"
+      ],
+      "evidence": [
+        "records/editorial-500-publication.json"
+      ],
+      "note": "Founder authorized autonomous next-batch work without further routine permission. Live delivery verified separately. Internal workbench stays outside public edition; known specialist and visual reviews retained."
     }
   ],
   "sources": [
