@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T12:51:36.198186+00:00",
+  "recorded_at": "2026-10-01T13:02:59.327814+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3544,6 +3544,30 @@
         "records/first-edition-editorial-review.json",
         "records/first-edition-editorial-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-120",
+      "title": "Compact visitor-guide contents and disclosure-aware section links",
+      "category": "website_experience",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-119",
+      "next_action": "Founder reviews the candidate; browser and assistive-technology verification remain open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-119",
+        "UTP-REV-093",
+        "UTP-WORK-031",
+        "UTP-WORK-032"
+      ],
+      "evidence": [
+        "records/guide-navigation-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -5917,6 +5941,23 @@
       "evidence": [
         "records/first-edition-editorial-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-119",
+      "title": "Continue visitor experience backlog after PR 27",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "ok, continue",
+      "scope": "Prepare the next bounded website experience candidate. No new publication, search activation, outreach or spending.",
+      "recorded_at": "2026-10-01T13:02:59.327814+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "records/guide-navigation-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8119,6 +8160,29 @@
       ],
       "evidence": [
         "records/first-edition-editorial-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-093",
+      "title": "Guide-navigation build and handler checks",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and checked the candidate; no independent review claimed.",
+        "Browser navigation retry failed because admin-enforced security policy could not be verified. No alternative browser used to bypass the restriction. Visual, real keyboard, screen-reader, zoom and device checks remain open.",
+        "Fragment interaction checks use synthetic DOM elements; they establish handler behavior, not actual browser timing or assistive-technology behavior.",
+        "No research claims, operating conditions, publication scope, private visitor data or search-indexing policy changed."
+      ],
+      "refs": [
+        "UTP-DEC-119",
+        "UTP-WORK-120"
+      ],
+      "evidence": [
+        "records/guide-navigation-review.json"
       ]
     }
   ],
