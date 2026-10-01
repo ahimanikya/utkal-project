@@ -521,3 +521,5 @@
 - [NID / D’source — Pipili appliqué making process](pipili-dsource-process.md)
 
 - [Woven in Odisha: bounded source review](textile-story-research.md)
+
+- [Tasar: material, place and photographic source review](tasar-story-research.md)

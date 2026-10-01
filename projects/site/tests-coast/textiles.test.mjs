@@ -28,7 +28,7 @@ test('textile starter preserves existing plans and carries sources, care and med
  const old=emptyLibrary();old.trips[0].plan=addItem(old.trips[0].plan,'place:chilika');old.trips[0].plan.items[0].notes='Keep my lake day';const before=structuredClone(old);
  const starter=journey.starters.find(s=>s.id==='woven-in-odisha');assert.ok(starter);
  const next=createStarterTrip(old,'textile-review',starter,journey.catalog.map(i=>i.id));assert.deepEqual(old,before);assert.deepEqual(next.trips[0],before.trips[0]);
- const plan=next.trips[1].plan;assert.equal(plan.items.length,4);assert.ok(plan.items.every(i=>!i.day));plan.items[0].notes='Ask for care instructions and the weaver’s preferred credit.';
+ const plan=next.trips[1].plan;assert.equal(plan.items.length,5);assert.ok(plan.items.every(i=>!i.day));plan.items[0].notes='Ask for care instructions and the weaver’s preferred credit.';
  const book=buildTourBook(plan,journey.catalog);
  for(const id of starter.items){const item=journey.catalog.find(i=>i.id===id);assert.ok(item.photo);assert.ok(item.practical.length>=3);assert.ok(item.sources.length);assert.ok(book.includes(escape(item.title)));for(const s of item.sources)assert.ok(book.includes(escape(s.url)));}
  assert.ok(book.includes('Ask for care instructions'));assert.ok(book.includes('release poster'));assert.ok(book.includes('washing or cleaning'));
@@ -39,7 +39,7 @@ test('Kotpad keeps one canonical story and discovery entry; deferred scope stays
  assert.ok(!existsSync('dist-coast/textiles/kotpad/index.html'));
  for(const p of ['/crafts/','/things-to-do/'])assert.ok(read(p).includes('href="/textiles/"'));
  assert.ok(read('/journey-starters/').includes('data-journey-starter="woven-in-odisha"'));
- for(const p of ['store','culture/pala','textiles/tasar'])assert.ok(!existsSync('dist-coast/'+p+'/index.html'));
+ for(const p of ['store','culture/pala'])assert.ok(!existsSync('dist-coast/'+p+'/index.html'));
  const held=JSON.parse(readFileSync('../site/editions/search-candidate.json')).pages;
  for(const p of ['/textiles/',...data.pages.map(p=>p.href)])assert.equal(held.find(x=>x.route===p).decision,'hold');
 });

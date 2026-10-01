@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `73bca3243413e6d89d5fa5dc2e88480dc7283b9662392b0a520ae3a837cc9345`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a66e0fb40b980cee4233f4bde449921d142e0999ac2e48900e0f733c7cd80fb7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -148,6 +148,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-133 · Odisha cooks with fire: illustrated food collection and journey starter | completed | applied | Ahimanikya Satapathy | Food candidate published. Complete browser visual review when policy verification is available; continue the separately held Pala source/terminology review. | Browser admin-policy verification prevents visual and interactive review.; Pala full-text and terminology review pending; no website feature added. |
 | UTP-WORK-134 · Made by hand in Odisha: craft stories and connected journey | completed | applied | Ahimanikya Satapathy | Craft collection published; browser visual review, Odia/craft terminology and named-maker arrangements remain open. | Browser admin-policy verification prevents visual and interactive review.; Named maker, workshop access and local terminology review remain unverified. |
 | UTP-WORK-135 · Woven in Odisha: Bandha, Khandua and Kotpad | completed | applied | Ahimanikya Satapathy | Textile collection published; browser visual review, Odia/craft terminology and named-maker arrangements remain open. | Browser visual review unavailable after admin-policy verification failure.; Local Odia/craft terminology and maker-access checks remain unverified. |
+| UTP-WORK-136 · Tasar: the silk before the sari | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews Tasar story and five-idea textile journey. Published baseline remains REL-041 with 121 pages; candidate has 122. Visual/local review remains open. | Browser visual review unavailable after admin-policy verification failure.; Local Odia/craft terminology and maker-access checks remain unverified. |
 
 ## Pending human review and decisions
 
@@ -205,6 +206,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | Assess remaining experience and accessibility gaps against the 121-page published preview (UTP-REL-041) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the 121-page published preview (UTP-REL-041) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
+| UTP-WORK-136 | Founder reviews Tasar story and five-idea textile journey. Published baseline remains REL-041 with 121 pages; candidate has 122. Visual/local review remains open. |
 
 ## Decisions
 
@@ -353,6 +355,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-142 · Publish approved Made by hand craft collection | approved | Ahimanikya Satapathy | Merge PR 44 and publish the three craft pages, saved craft journey and backlog reconciliation. Preserve disclosed visual/local review limitations; no indexing or Store release approved. |
 | UTP-DEC-143 · Prepare Woven in Odisha textile stories and saved journey | approved | Ahimanikya Satapathy | Prepare collection and three sourced textile stories, real licensed visuals and an unscheduled saved textile journey. Publication and indexing not implied. |
 | UTP-DEC-144 · Publish approved Woven in Odisha textile collection | approved | Ahimanikya Satapathy | Merge PR 45 and publish the four textile pages and saved reading journey. Preserve disclosed visual/local review limitations; no indexing or Store release approved. |
+| UTP-DEC-145 · Prepare Tasar story and extend Woven in Odisha | approved | Ahimanikya Satapathy | Continue textile editorial work with Tasar material, place and documentary visuals. Prepare for review; publication and indexing not implied. |
 
 ## Reviews
 
@@ -470,6 +473,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-112 | pass_with_limitations | False | Browser visual/interactive review remains blocked: admin-enforced browser policy could not be verified. No alternate browser automation used.; Human editorial, Odia and local naming review pending; no recipe testing, kitchen endorsement or present availability claimed.; Pala photo downloaded, inspected and licence-checked; feature still held for Dash 2011 full-text gap and terminology review. Source retry rejected an expired TLS certificate.; Candidate only: no publication, deployment or search indexing approval claimed. |
 | UTP-REV-113 | pass_with_limitations | False | Browser visual/interactive review remains blocked by the previously recorded admin-policy verification failure; no alternate browser automation used.; Human editorial, Odia and craft terminology review remain pending. No maker interview, workshop access, price, purity or product certification claimed.; The craft starter is a reading and visit-research collection, not a checked day route or booked experience.; Pala stays held for its source and terminology gaps. Store and search indexing remain excluded.; Candidate only; no publication or deployment claimed. |
 | UTP-REV-114 | pass_with_limitations | False | Browser visual and interactive review remains unavailable after the recorded admin-policy verification failure; no bypass or successful new browser audit claimed.; Odia spelling, craft terminology and local maker review remain pending. No interview, workshop appointment, live stock, price, fibre purity or certification verified.; Kotpad uses a labelled, full-frame film release poster. The documentary has not been watched and its streaming availability or reuse rights are not inferred from the poster licence.; Textile journey is an unscheduled reading/research collection across different regions, not a verified day route.; Tasar feature, Store, Pala and search indexing remain outside this batch. Broader RES-012 research remains pending.; Candidate only; no merge, deployment or publication claimed. |
+| UTP-REV-115 | pass_with_limitations | False | Browser visual and interactive review remains unavailable after the recorded admin-policy verification failure; no bypass or successful new browser audit claimed.; Odia spelling, craft terminology and local maker review remain pending. No interview, workshop appointment, live stock, price, fibre purity or certification verified.; The government cluster table was inspected through its indexed text; direct retrieval timed out. Rasulpur (Gopalpur), Jajpur is a cluster-level identification, not a current workshop address.; Museum photographs date to 2018 and the branch photograph to 2020. The latter species and host tree were not independently identified. No current exhibit availability or workshop access inferred.; The five-idea textile journey is an unscheduled reading/research collection, not a verified day route. Broader RES-012 research and product sourcing remain pending.; Candidate only; no merge, deployment, indexing approval or publication claimed. Store and Pala remain excluded. |
 
 ## Publication and application history
 
@@ -553,7 +557,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-152 | 2026-10-01T19:42:27.469203+00:00 | PR 37 passed renewed CI and merged. Pala dependency reconciled and PR 39 retargeted to main. Both sets of research validators pass; source limitations and existing website preserved. | Complete final Pala CI and deploy the merged baseline. |
 | UTP-EVT-153 | 2026-10-01T19:49:13.639280+00:00 | PRs 37 and 39 merged in dependency order after passing CI. Main rebuilt and published; all 106 live routes and 148 response/data checks passed. Food and Pala research remains distinct from future public article production. | Continue from preserved research gaps and article briefs; no new source verification or community review implied. |
 | UTP-EVT-154 | 2026-10-01T20:11:55.293459+00:00 | Four illustrated food pages prepared with licensed real photographs, Explore and portable journey connections. Automated checks pass; browser visual review blocked. Pala source recovery is partial and its feature remains a KB draft. | Founder candidate review and outstanding visual check; no publication claimed. |
 | UTP-EVT-155 | 2026-10-01T21:18:57.631126+00:00 | Approved PR 42 merged and deployed. Four food pages, licensed photographs, discovery and journey connections verified live; 167 response/data checks pass across the 110-page edition. | Preserve visual/local review follow-ups and the held Pala draft. |
@@ -563,6 +566,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-159 | 2026-10-01T22:14:57.293928+00:00 | Approved PR 44 merged and deployed. Three craft pages, licensed photographs and saved journey verified live; 201 response/data checks passed across the 117-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-160 | 2026-10-01T22:59:40.544001+00:00 | Woven in Odisha collection and Bandha, Khandua and Kotpad stories prepared with four licensed visuals and a saved reading journey. Kotpad original report recovered and canonical address preserved. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
 | UTP-EVT-161 | 2026-10-01T23:08:43.755713+00:00 | Approved PR 45 merged and deployed. Four textile pages, licensed photographs and a labelled film poster, plus saved journey verified live; 237 response/data checks passed across the 121-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
+| UTP-EVT-162 | 2026-10-01T23:22:28.394280+00:00 | Tasar story prepared with three licensed documentary photographs, Gopalpur geography clarified at cluster level, district reading connections and a five-idea saved textile journey. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
 
 ## Deferred extensions
 

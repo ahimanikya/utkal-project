@@ -3966,6 +3966,31 @@
         "records/woven-textile-stories-review.json",
         "records/woven-textile-stories-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-136",
+      "title": "Tasar: the silk before the sari",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-145",
+      "next_action": "Founder reviews Tasar story and five-idea textile journey. Published baseline remains REL-041 with 121 pages; candidate has 122. Visual/local review remains open.",
+      "blockers": [
+        "Browser visual review unavailable after admin-policy verification failure.",
+        "Local Odia/craft terminology and maker-access checks remain unverified."
+      ],
+      "refs": [
+        "UTP-DEC-145",
+        "UTP-REV-115"
+      ],
+      "evidence": [
+        "records/tasar-story-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -6850,6 +6875,25 @@
       "evidence": [
         "records/woven-textile-stories-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-145",
+      "title": "Prepare Tasar story and extend Woven in Odisha",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, continue",
+      "scope": "Continue textile editorial work with Tasar material, place and documentary visuals. Prepare for review; publication and indexing not implied.",
+      "recorded_at": "2026-10-01T23:22:28.394280+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-144"
+      ],
+      "evidence": [
+        "records/tasar-story-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9576,6 +9620,31 @@
       ],
       "evidence": [
         "records/woven-textile-stories-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-115",
+      "title": "Tasar story, district connections and saved journey self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser visual and interactive review remains unavailable after the recorded admin-policy verification failure; no bypass or successful new browser audit claimed.",
+        "Odia spelling, craft terminology and local maker review remain pending. No interview, workshop appointment, live stock, price, fibre purity or certification verified.",
+        "The government cluster table was inspected through its indexed text; direct retrieval timed out. Rasulpur (Gopalpur), Jajpur is a cluster-level identification, not a current workshop address.",
+        "Museum photographs date to 2018 and the branch photograph to 2020. The latter species and host tree were not independently identified. No current exhibit availability or workshop access inferred.",
+        "The five-idea textile journey is an unscheduled reading/research collection, not a verified day route. Broader RES-012 research and product sourcing remain pending.",
+        "Candidate only; no merge, deployment, indexing approval or publication claimed. Store and Pala remain excluded."
+      ],
+      "refs": [
+        "UTP-DEC-145",
+        "UTP-WORK-136"
+      ],
+      "evidence": [
+        "records/tasar-story-review.json"
       ]
     }
   ],
