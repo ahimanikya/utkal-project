@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T10:42:09.598636+00:00",
+  "recorded_at": "2026-10-01T10:54:47.428210+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3445,22 +3445,26 @@
       "id": "UTP-WORK-116",
       "title": "Visitor experience and launch-readiness review",
       "category": "website_experience",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-111",
-      "next_action": "Founder reviews the visitor-experience PR; publication and search-index activation remain separate decisions.",
+      "next_action": "Published under UTP-REL-024. Use the consolidated human review queue for remaining language, local-condition and accessibility work. Search indexing needs a separate decision.",
       "blockers": [],
       "refs": [
         "UTP-DEC-111",
-        "UTP-REV-085"
+        "UTP-REV-085",
+        "UTP-DEC-112",
+        "UTP-REV-086",
+        "UTP-REL-024"
       ],
       "evidence": [
-        "records/visitor-experience-review.json"
+        "records/visitor-experience-review.json",
+        "records/visitor-experience-publication.json"
       ]
     }
   ],
@@ -5699,6 +5703,28 @@
       "evidence": [
         "records/visitor-experience-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-112",
+      "title": "Approve and publish PR 23 visitor experience",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Direct reply to the PR 23 review handoff. Authorizes merge and publication of head 98cbc4e21e2e0814ac8b5a82edd9288cfa5fe61b; indexing stays disabled.",
+      "recorded_at": "2026-10-01T10:54:47.428210+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-111",
+        "UTP-WORK-116",
+        "UTP-REV-085"
+      ],
+      "evidence": [
+        "records/visitor-experience-publication.json",
+        "records/evidence/visitor-experience-publication/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -7735,6 +7761,30 @@
       "evidence": [
         "records/visitor-experience-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-086",
+      "title": "Visitor experience live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the release; no independent review claimed.",
+        "Production checks are read-only; saved-journey interactions and downloaded-book checks remain the local synthetic candidate evidence.",
+        "Language, specialist, local-condition, physical-device and screen-reader review remain open.",
+        "Search indexing remains disabled. No Search Console submission or social-platform cropping/cache verification.",
+        "No new content routes, store exposure or claims of reviewed travel arrangements."
+      ],
+      "refs": [
+        "UTP-DEC-112",
+        "UTP-WORK-116"
+      ],
+      "evidence": [
+        "records/visitor-experience-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -8158,6 +8208,22 @@
       "evidence": [
         "records/research-sync-merge.json"
       ]
+    },
+    {
+      "id": "UTP-REL-024",
+      "title": "Visitor experience improvements published",
+      "status": "published",
+      "authorization": "UTP-DEC-112",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-112",
+        "UTP-REV-086",
+        "UTP-WORK-116"
+      ],
+      "evidence": [
+        "records/visitor-experience-publication.json"
+      ],
+      "note": "Approved PR 23 published and verified across 67 pages, metadata, 25 image hashes, navigation and HTTPS. Indexing remains disabled."
     }
   ],
   "sources": [
