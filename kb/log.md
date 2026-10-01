@@ -143,3 +143,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [District profiles and language stories published](records/district-languages-publication.json) through PR 41. Verified 106 live page responses, 30 district profiles and five destination connections; community and visual review limits retained.
+
+## 2026-10-01
+
+[Food and Pala integration review](records/food-pala-integration-review.json): PR 37 merged; PR 39 reconciled and retargeted to main. Source limitations and the current website remain intact. Deployment evidence will be recorded separately.
