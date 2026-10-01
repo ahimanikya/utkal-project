@@ -28,3 +28,5 @@ The actual desktop section was inspected, followed by 390px and 1440px iframe sp
 [Structured review](../../records/raghurajpur-maker-guide-review.json) · [Source inspection](../../records/evidence/raghurajpur-maker-guide-2026-10-01/source-inspection.json) · [Actual downloads](../../records/evidence/raghurajpur-maker-guide-2026-10-01/actual-books.json) · [Local preview](http://127.0.0.1:4354/visit/places/raghurajpur/#detail-section-2)
 
 Candidate for Founder review, not deployed. Coastal public scope remains 16 pages. UTP-WORK-097 remains open for direct confirmations; native printing remains UTP-WORK-080.
+
+[Draft PR #11](https://github.com/ahimanikya/utkal-project/pull/11).
