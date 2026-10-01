@@ -15083,6 +15083,93 @@
       ],
       "source_ids": [],
       "added_at": "2026-10-01T19:04:12.192294+00:00"
+    },
+    {
+      "id": "sources/mining-ibm-march2025",
+      "title": "Monthly Statistics of Mineral Production, March 2025",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-ibm-march2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-ibm-march2025"
+      ],
+      "added_at": "2026-10-01T19:12:14.031317+00:00"
+    },
+    {
+      "id": "sources/mining-cag-dmf2026",
+      "title": "PMKKKY and District Mineral Foundations in Odisha: Report 7 of 2026",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-cag-dmf2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-cag-dmf2026"
+      ],
+      "added_at": "2026-10-01T19:12:14.031317+00:00"
+    },
+    {
+      "id": "sources/mining-ibm-yearbook2024",
+      "title": "Indian Minerals Yearbook 2024",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-ibm-yearbook2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-ibm-yearbook2024"
+      ],
+      "added_at": "2026-10-01T19:12:14.031317+00:00"
+    },
+    {
+      "id": "economy/mining",
+      "title": "Odisha mining: minerals, industry and people",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/mining.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance",
+        "nature",
+        "everyday"
+      ],
+      "source_ids": [
+        "mining-ibm-march2025",
+        "mining-cag-dmf2026",
+        "mining-ibm-yearbook2024"
+      ],
+      "added_at": "2026-10-01T19:12:14.031317+00:00"
+    },
+    {
+      "id": "statistics/minerals-and-mining",
+      "title": "Mining: national contribution and local development",
+      "kind": "Statistical Topic",
+      "layer": "research_concept",
+      "source_path": "statistics/minerals-and-mining.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance",
+        "everyday"
+      ],
+      "source_ids": [
+        "mining-ibm-march2025",
+        "mining-cag-dmf2026"
+      ],
+      "added_at": "2026-10-01T19:12:14.031317+00:00"
     }
   ],
   "shared_publications": [
@@ -16084,6 +16171,87 @@
       "remaining_scope": "Reuse the existing literary introduction; inspect historical scholarship on Mahima Swami, Alekh, Joranda and Khaliapali, reconcile Bhima Bhoi biography conflicts, and identify credited works and English editions without inventing interviews.",
       "status_unchanged": "pending",
       "instruction": "Extend canonical records and saved source passages; this initial checkpoint is not task completion."
+    },
+    {
+      "task_id": "RES-051",
+      "title": "Mining baseline and district identity map",
+      "source_records": [
+        "economy/mining.md",
+        "statistics/minerals-and-mining.md",
+        "references/data/mining-programme.json",
+        "economy/comparison-06-mining.md",
+        "economy/comparison-07-mining.md",
+        "economy/comparison-08-mining.md",
+        "references/data/industry-growth-data.json"
+      ],
+      "project_records": [],
+      "remaining_scope": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
+      "status_unchanged": "in_progress",
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+    },
+    {
+      "task_id": "RES-052",
+      "title": "Mining-to-manufacturing and work",
+      "source_records": [
+        "economy/mining.md",
+        "statistics/minerals-and-mining.md",
+        "references/data/mining-programme.json",
+        "statistics/industrial-production.md",
+        "references/data/investment-tracker.json",
+        "statistics/ports.md",
+        "journeys/rare-earths.md"
+      ],
+      "project_records": [],
+      "remaining_scope": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
+      "status_unchanged": "pending",
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+    },
+    {
+      "task_id": "RES-053",
+      "title": "Mining revenues and DMF outcomes",
+      "source_records": [
+        "economy/mining.md",
+        "statistics/minerals-and-mining.md",
+        "references/data/mining-programme.json",
+        "evidence/f05.md",
+        "statistics/minerals-and-mining.md",
+        "statistics/health.md",
+        "statistics/education.md"
+      ],
+      "project_records": [],
+      "remaining_scope": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
+      "status_unchanged": "pending",
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+    },
+    {
+      "task_id": "RES-054",
+      "title": "Mine environments, rights, safety and restoration",
+      "source_records": [
+        "economy/mining.md",
+        "statistics/minerals-and-mining.md",
+        "references/data/mining-programme.json",
+        "statistics/air-quality.md"
+      ],
+      "project_records": [],
+      "remaining_scope": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
+      "status_unchanged": "pending",
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+    },
+    {
+      "task_id": "RES-055",
+      "title": "Mining history and future-materials research",
+      "source_records": [
+        "economy/mining.md",
+        "statistics/minerals-and-mining.md",
+        "references/data/mining-programme.json",
+        "journeys/rare-earths.md",
+        "people/people-and-creations.md",
+        "history/index.md"
+      ],
+      "project_records": [],
+      "remaining_scope": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
+      "status_unchanged": "pending",
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
     }
   ],
   "rules": [
@@ -16101,8 +16269,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1053,
-    "updated_at": "2026-10-01T19:04:12.192294+00:00",
+    "records_mapped": 1058,
+    "updated_at": "2026-10-01T19:12:14.031317+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -16463,6 +16631,11 @@
       "run_id": "2026-10-01-culture-learning",
       "at": "2026-10-01T19:04:12.192294+00:00",
       "scope": "User-directed dance, learning and faith checkpoint; reused Kelucharan, Odissi, Jagannath, Buddhist places and project-native Bhima Bhoi capture. Seven bounded follow-ups, not completed deep studies."
+    },
+    {
+      "run_id": "2026-10-01-mining-programme",
+      "at": "2026-10-01T19:12:14.031317+00:00",
+      "scope": "Mining: twelve research angles, five bounded tasks, nine new atlas observations; existing mineral comparisons and rare-earth records reused."
     }
   ]
 }

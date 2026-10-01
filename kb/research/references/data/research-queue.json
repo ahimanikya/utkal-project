@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T19:04:12.192294+00:00",
+  "updated_at": "2026-10-01T19:12:14.031317+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2172,6 +2172,181 @@
           "kb/research/voices/collection.json",
           "kb/research/culture/odia-literature-and-literary-lives.md"
         ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-051",
+      "order": 17.1,
+      "title": "Mining baseline and district identity map",
+      "done_when": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
+      "target": "economy/mining.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015"
+      ],
+      "last_worked_at": "2026-10-01T19:12:14.031317+00:00",
+      "next_step": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
+      "evidence_outputs": [
+        "economy/mining.md",
+        "statistics/minerals-and-mining.md",
+        "references/data/mining-programme.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-mining-programme",
+          "at": "2026-10-01T19:12:14.031317+00:00",
+          "outcome": "national_contribution_and_dmf_baseline_checkpoint",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "economy/comparison-06-mining.md",
+          "economy/comparison-07-mining.md",
+          "economy/comparison-08-mining.md",
+          "references/data/industry-growth-data.json"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-052",
+      "order": 17.2,
+      "title": "Mining-to-manufacturing and work",
+      "done_when": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-016",
+        "RES-017",
+        "RES-018",
+        "RES-020"
+      ],
+      "last_worked_at": null,
+      "next_step": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "statistics/industrial-production.md",
+          "references/data/investment-tracker.json",
+          "statistics/ports.md",
+          "journeys/rare-earths.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-053",
+      "order": 17.3,
+      "title": "Mining revenues and DMF outcomes",
+      "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-018"
+      ],
+      "last_worked_at": null,
+      "next_step": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "evidence/f05.md",
+          "statistics/minerals-and-mining.md",
+          "statistics/health.md",
+          "statistics/education.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-054",
+      "order": 17.4,
+      "title": "Mine environments, rights, safety and restoration",
+      "done_when": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-019"
+      ],
+      "last_worked_at": null,
+      "next_step": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "statistics/air-quality.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-055",
+      "order": 17.5,
+      "title": "Mining history and future-materials research",
+      "done_when": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-020"
+      ],
+      "last_worked_at": null,
+      "next_step": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "journeys/rare-earths.md",
+          "people/people-and-creations.md",
+          "history/index.md"
+        ],
+        "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
       }

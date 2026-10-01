@@ -203,3 +203,5 @@ RES-042 saves five financial years of visits and receipts, a separate 25 Decembe
 RES-043 distinguishes RPRC’s attributed Asia-largest cactus collection from an unsupported Asia-biggest park claim. Eight undated collection figures retain mixed units; comparative taxonomy and dates, park boundaries and opening-hour contradictions remain open. Existing wild-fruit evidence reused; no independent ranking or current visitor readiness claimed.
 
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).

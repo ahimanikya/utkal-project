@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T19:12:14.031317+00:00",
+  "run_id": "2026-10-01-mining-programme",
+  "angles": [
+    {
+      "id": "minerals",
+      "title": "Minerals and geology",
+      "question": "Which minerals occur where, with what dated reserve/resource classifications?",
+      "publisher_targets": "IBM National Mineral Inventory, GSI, Directorate of Mines and Geology",
+      "interpretation_rule": "Stock estimates are not annual output or economically recoverable reserves.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "production",
+      "title": "Production and national position",
+      "question": "How have coal, iron ore, bauxite, chromite, manganese and other minerals changed over five and ten years?",
+      "publisher_targets": "IBM, Coal Controller, Odisha production/despatch returns",
+      "interpretation_rule": "Match units, grade, coverage and revision vintage; retain falls and interruptions.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "processing",
+      "title": "Processing and manufacturing",
+      "question": "How much ore is beneficiated, refined or made into metal and finished products inside Odisha?",
+      "publisher_targets": "Plant annual reports, Ministry of Steel, NALCO, OMC, company disclosures",
+      "interpretation_rule": "Mine output, refinery output, metal production and installed capacity cannot be added.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "public-money",
+      "title": "Revenue and public finances",
+      "question": "What do royalties, auction premiums and other receipts contribute, and how volatile are they?",
+      "publisher_targets": "Odisha Finance Accounts, budgets, Directorate revenue returns, CAG",
+      "interpretation_rule": "Separate actual receipts, revised estimates and budgets; do not label all mining receipts royalty.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "local-benefits",
+      "title": "Mining-area development",
+      "question": "What do DMF projects deliver in health, water, schooling and livelihoods?",
+      "publisher_targets": "District DMF accounts, completion records, CAG, district outcome data",
+      "interpretation_rule": "Collection, sanction, transfer, expenditure, completion and functioning service are distinct.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "work",
+      "title": "Jobs, skills and small businesses",
+      "question": "Who works in mines, plants, transport and supplier firms, under what employment conditions?",
+      "publisher_targets": "DGMS, labour statistics, enterprise reports, procurement disclosures",
+      "interpretation_rule": "Direct workers, contractors, indirect jobs and promised jobs need separate denominators.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "trade",
+      "title": "Trade and transport",
+      "question": "Where do minerals and metals go through railways, ports and domestic supply chains?",
+      "publisher_targets": "Railway freight records, port cargo reports, DGCIS/state-origin exports",
+      "interpretation_rule": "Cargo handled in an Odisha port is not necessarily produced in Odisha.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "communities",
+      "title": "Land, rights and communities",
+      "question": "How do acquisition, resettlement, consent, forest rights and local livelihoods affect mining communities?",
+      "publisher_targets": "Gram Sabha records, district orders, primary judgments and community scholarship",
+      "interpretation_rule": "Attribute contested claims and decisions; no invented consultations or blanket community views.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "environment",
+      "title": "Air, water, forests and health",
+      "question": "What do site monitoring records show about dust, water, waste, forests and exposure?",
+      "publisher_targets": "OSPCB/CPCB, PARIVESH clearances, compliance reports, peer-reviewed measurements",
+      "interpretation_rule": "Ambient concentrations and health outcomes require location, time and causal caution.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "restoration",
+      "title": "Safety and mine closure",
+      "question": "What happens during operation, closure and restoration, and what liabilities remain?",
+      "publisher_targets": "DGMS, IBM inspections, approved closure plans and financial assurance records",
+      "interpretation_rule": "Approval or plantation area alone does not prove safety or ecological recovery.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "governance",
+      "title": "Ownership and accountability",
+      "question": "Who owns and operates each lease; what is its current stage and compliance history?",
+      "publisher_targets": "Lease/auction registers, IBM, CAG, court decisions",
+      "interpretation_rule": "Auction winner, leaseholder, operator and corporate group are different identities.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "future",
+      "title": "Industrial history and future materials",
+      "question": "How did mining towns develop, and what could recycling, research and critical minerals change?",
+      "publisher_targets": "Archives, institutional histories, CSIR-IMMT, IREL and project outcome records",
+      "interpretation_rule": "Preserve established production versus experiments, proposals and future scenarios.",
+      "status": "research_scope_not_completed"
+    }
+  ],
+  "observation_dataset": "statistics-atlas.json",
+  "observation_ids": [
+    "mining-value-share-2025",
+    "mining-iron-share-2025",
+    "mining-bauxite-share-2025",
+    "mining-chromite-2025",
+    "mining-chromite-change-2025",
+    "mining-dmf-contributions-2024",
+    "mining-dmf-sanctions-sample-2024",
+    "mining-dmf-spending-sample-2024",
+    "mining-dmf-utilisation-sample-2024"
+  ],
+  "task_ids": [
+    "RES-051",
+    "RES-052",
+    "RES-053",
+    "RES-054",
+    "RES-055"
+  ],
+  "reuse_existing": [
+    "industry-growth-data.json",
+    "investment-tracker.json",
+    "growth-journeys.json"
+  ],
+  "source_checks": [
+    {
+      "url": "https://dmf.odisha.gov.in/",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "reason": "Direct web retrieval returned Internal Error; not unchanged.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.odishaminerals.gov.in/sites/Mines/Revenue_Royalty.aspx?GL=revenue&PL=1",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "reason": "Direct web retrieval returned Internal Error; not unchanged.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport",
+      "status": "partial",
+      "retrieved_on": "2026-10-01",
+      "scope": "Page shell retrieved; no populated selected-period table verified. Existing source IDs comparison-6-1/7-1/8-1 are aliases of this publisher page, not independent corroboration."
+    }
+  ],
+  "human_review_claimed": false,
+  "website_publication": false
+}

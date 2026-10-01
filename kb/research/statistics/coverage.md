@@ -78,3 +78,5 @@ The [connected collections](../collections/index.md) add regional context, makin
 RES-003 completed its bounded-attempt deliverable, without recovering report contents. Exact Finance alternative and DES workbook links, retrieval failures and an 8 October retry are saved in the [recovery register](../references/data/source-recovery.json). RES-004 documented the remaining tourism conflict using an accessible December 2025 Ministry release; the [tourism page](tourism.md) preserves both values and keeps affected headlines on hold. Discovery-year labels are not dates for every table cell. No district or GDP values were added in this pass.
 
 People-and-creations research added five observations for broad textile/apparel/handicraft exports (FY2020–21 to FY2024–25). Garment-type and sweet-specific exports remain unresolved; see [new topic](textile-and-apparel-exports.md).
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).

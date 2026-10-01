@@ -147,3 +147,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Dance, learning and religious traditions
 
 [Research receipt](records/culture-learning-2026-10-01.json): two people, university categories, dated rankings and connected cultural-history research; seven deeper tasks remain open. No website release.
+
+## 1 October 2026 · Mining, industry and local outcomes
+
+[Research receipt](records/mining-programme-2026-10-01.json): national production shares, chromite decline and audited DMF scopes; five deeper mining tasks remain open. No website release.

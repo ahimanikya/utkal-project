@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:04:12.192294+00:00",
+  "updated_at": "2026-10-01T19:12:14.031317+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4047,6 +4047,33 @@
       "run_id": "2026-10-01-culture-learning",
       "status": "available",
       "scope": "Curated secondary interpretation, not an excavation report. Langudi identification is attributed; regional priority, travel flows and exact chronology require primary archaeology.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-march2025",
+      "discovery_url": "https://www.ibm.gov.in/writereaddata/files/1748864652683d8e8cdc8f1MSMP_MARCH25FINAL.pdf",
+      "checked_at": "2026-10-01T19:12:14.031317+00:00",
+      "run_id": "2026-10-01-mining-programme",
+      "status": "available",
+      "scope": "2024–25 full-year highlights in the March 2025 vintage. Subject to later revisions; excludes fuel/atomic/minor minerals for value comparison. Not a current-release claim.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-cag-dmf2026",
+      "discovery_url": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf",
+      "checked_at": "2026-10-01T19:12:14.031317+00:00",
+      "run_id": "2026-10-01-mining-programme",
+      "status": "available",
+      "scope": "Audit covers 2015–16 to 2023–24. All-30-DMF figures and six test-checked DMFs have different scopes. Listing dated 28 September 2026; full report not exhaustively read.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-yearbook2024",
+      "discovery_url": "https://www.ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+      "checked_at": "2026-10-01T19:12:14.031317+00:00",
+      "run_id": "2026-10-01-mining-programme",
+      "status": "available",
+      "scope": "Discovery reference for follow-up; yearbook title is not the year of every resource or production table. No additional numeric observation admitted from this capture.",
       "retry_after": null
     }
   ]

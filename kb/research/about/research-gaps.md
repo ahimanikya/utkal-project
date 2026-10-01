@@ -230,3 +230,7 @@ RES-043 distinguishes RPRC’s attributed Asia-largest cactus collection from an
 ## Dance, learning and religious traditions · 1 October 2026
 
 RES-044–050 add bounded follow-ups for the user’s requested subjects. Initial profiles and references exist, but source-critical origins, additional dance traditions, original archaeological/textual editions, current UGC checks, audited educational outcomes and credited translations remain open. [Programme](../methods/culture-learning-programme.md).
+
+## Mining coverage · 1 October 2026
+
+RES-051–055 cover dated resources/production, district identities, local processing/work, revenues/DMF, environments/rights/safety/restoration, and history/future materials. First nine observations saved; plant and district mapping, full audit chapter review and service outcomes remain open. [Coverage programme](../economy/mining.md).

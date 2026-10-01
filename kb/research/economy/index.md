@@ -30,3 +30,5 @@ Economic growth and industry comparisons.
 [Rasagola and Odisha sweets economics](rasagola-and-sweets.md)
 
 [Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).

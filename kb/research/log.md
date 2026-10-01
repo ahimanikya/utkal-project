@@ -236,3 +236,7 @@ Added a botanical place profile, four source records and scoped collection data.
 ## 1 October 2026 · Dance, learning and religious traditions
 
 Added Chaurasia and Achyuta Samanta profiles, university categories and two 2025 NIRF observations, Buddhist-learning, Tantric-tradition and Mahima introductions. Enhanced existing Odissi, Kelucharan and Jagannath records. Reused the project’s Bhima Bhoi monograph capture. Seven bounded follow-ups preserve uncertain dates, legend/history distinctions and failed current-source fetches. No completed deep-study or website-publication claim.
+
+## 1 October 2026 · Mining from multiple angles
+
+Added a twelve-angle mining hub, five bounded tasks, three source records and nine atlas observations. Preserved IBM value exclusions, a chromite decline, full-year vintage and the six-DMF audit sample. Reused existing production/growth/rare-earth research and recorded unavailable dashboard/revenue fetches. No mine-location census, completed impact study or website release claimed.

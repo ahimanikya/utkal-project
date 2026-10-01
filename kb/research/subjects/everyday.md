@@ -73,3 +73,5 @@ Subject membership is editorial classification. It does not establish historical
 [Pala and its culture](../culture/pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
 
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).

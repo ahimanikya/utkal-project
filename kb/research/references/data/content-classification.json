@@ -4051,6 +4051,29 @@
       "content_type": "Research Methodology",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/mining",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "governance",
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/minerals-and-mining",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "governance",
+        "everyday"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -4098,7 +4121,8 @@
     "sports-infrastructure": "everyday",
     "Homestays": "economy",
     "Textile and apparel exports": "economy",
-    "Ecotourism": "economy"
+    "Ecotourism": "economy",
+    "Minerals and mining": "economy"
   },
   "relationships": [
     {
@@ -5731,6 +5755,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Points to questions about Buddhist Vajrayana while keeping Buddhist and Yogini/Shakta histories distinct."
+    },
+    {
+      "from": "economy/mining",
+      "to": "statistics/minerals-and-mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the broad mining questions to dated national contribution and fund-use measures, without claiming causal local benefits."
+    },
+    {
+      "from": "economy/mining",
+      "to": "journeys/rare-earths",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuses the rare-earth processing record while keeping capacity, actual output and proposals separate."
+    },
+    {
+      "from": "economy/mining",
+      "to": "statistics/industrial-production",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Links ore extraction to plant-level output research; mineral and processed-metal quantities must not be summed."
     }
   ],
   "relationship_types": {

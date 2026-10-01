@@ -81,3 +81,5 @@ Subject membership is editorial classification. It does not establish historical
 The [homestay research](../statistics/homestays.md) connects the programme’s geographic footprint with the evidence needed to measure host livelihoods.
 
 - [Ecotourism](../statistics/ecotourism.md) — Reported programme income and community allocation rules, distinct from net household earnings.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).

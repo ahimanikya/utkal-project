@@ -55,3 +55,5 @@ Subject membership is editorial classification. It does not establish historical
 [Nandankanan](../places/nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.
 
 [Ekamra Kanan](../places/ekamra-kanan.md) — RPRC’s botanical collections, cactus-claim scope and connections to wild fruits.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).

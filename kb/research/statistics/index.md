@@ -56,3 +56,5 @@ The [nine subject families](../subjects/index.md) connect these statistical page
 [Textile and apparel exports](textile-and-apparel-exports.md) — five full fiscal-year observations, including the intervening decline.
 
 - [Ecotourism: income, visitors and community livelihoods](ecotourism.md) — Primary programme series with partial periods and household-income limits preserved.
+
+[Mining and local development](minerals-and-mining.md) — nine scoped observations; current source vintages and audit samples remain visible.
