@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T17:11:18.004303+00:00",
+  "recorded_at": "2026-10-01T17:25:04.237069+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3706,6 +3706,29 @@
         "records/visitor-research-merge.json",
         "records/visitor-research-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-126",
+      "title": "Integrate accumulated research and prepare the next story batch",
+      "category": "research_and_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-132",
+      "next_action": "Founder reviews the combined research candidate and proposed story sequence. Operating-rule wording, actual page production and publication remain separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-132",
+        "UTP-REV-106"
+      ],
+      "evidence": [
+        "records/research-integration-review.json",
+        "records/next-story-batch.json"
+      ]
     }
   ],
   "decisions": [
@@ -6337,6 +6360,25 @@
       "evidence": [
         "records/visitor-research-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-132",
+      "title": "Prepare research integration and next-story briefs",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "sounds good",
+      "scope": "Approval to prepare one reviewable integration candidate for research PRs 22, 24, 33 and 35, assess next illustrated stories and retry visual audit. No publication, indexing or Store changes.",
+      "recorded_at": "2026-10-01T17:25:04.237069+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-REL-033"
+      ],
+      "evidence": [
+        "records/research-integration-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8849,6 +8891,30 @@
       ],
       "evidence": [
         "records/visitor-research-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-106",
+      "title": "Integrated research and editorial queue self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Integration and structural checks do not independently verify all 812 research concepts or source rights. No specialist, native-language review or fieldwork claimed.",
+        "Browser retry failed the admin-policy verification check before navigation. Mobile/wide-screen, inner-page flow, keyboard and screen-reader review remain open.",
+        "Story briefs are drafting proposals; no finished page is cleared for publication by this integration.",
+        "Existing source conflicts, recipe-test flags, edition distinctions and local-condition gaps remain explicit.",
+        "Upstream checkpoint dates and operational flags are preserved as historical context; current UTP status remains in its registers."
+      ],
+      "refs": [
+        "UTP-DEC-132",
+        "UTP-WORK-126"
+      ],
+      "evidence": [
+        "records/research-integration-review.json"
       ]
     }
   ],

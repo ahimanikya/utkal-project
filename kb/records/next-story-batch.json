@@ -1,0 +1,242 @@
+{
+  "recorded_at": "2026-10-01T17:23:23.072554+00:00",
+  "status": "editorial_proposal_not_publication_approval",
+  "human_owner": "Ahimanikya Satapathy",
+  "basis": "Assessment of saved source captures and the integrated research heads, not new independent source retrieval or fieldwork.",
+  "recommended_sequence": [
+    "Draft Enduri and Poda pitha, with a bounded Chhena Poda enrichment.",
+    "Prepare a carefully scoped Paraja reading feature and Six Acres edition note.",
+    "Develop Debrigarh only after local reporting, permissions and evidence gaps are addressed."
+  ],
+  "publication_ready_today": [],
+  "reason": "Draftable evidence is not a completed illustrated, source-reviewed page. Each brief retains its media and editorial gates.",
+  "briefs": [
+    {
+      "id": "UTP-STORY-001",
+      "priority": 1,
+      "subject": "Enduri pitha",
+      "working_title": "A story inside a turmeric leaf",
+      "change": "new_feature",
+      "proposed_path": "/food/enduri-pitha/",
+      "status": "ready_to_draft_with_media_and_local_review_pending",
+      "opening_direction": "Begin with the leaf being opened; let the reader discover the food before introducing the festival and the documented preparation. This is a proposed narrative scene, not an observed household visit.",
+      "outline": [
+        "A close-up reveal of a wrapped pitha.",
+        "Prathamastami association attributed to Odisha Tourism.",
+        "Compare the institutional preparation account with the remembered household variations contributors may offer.",
+        "A visitor question: who makes this in your family, and what changes from one kitchen to another?"
+      ],
+      "research_paths": [
+        "research/food/enduri-pitha.md",
+        "research/references/data/food-preparations.json"
+      ],
+      "source_ids": [
+        "food-tourism",
+        "food-crri-rice2015"
+      ],
+      "evidence_limit": "CRRI printed p.19/PDF p.30 supplies a full preparation account. This does not recover the separate unavailable NCHM PDF or establish one universal recipe.",
+      "visual_plan": "Find a reusable documentary image of an intact turmeric-leaf parcel and its opened filling. No verified asset selected yet; record photographer, licence and modifications.",
+      "connections": [
+        "/food/",
+        "/food/chhena-poda/"
+      ],
+      "before_publication": [
+        "Verify image subject and rights.",
+        "Review Odia naming and source-specific variants.",
+        "Credit the book/compiler; do not present an untested recipe or a current vendor recommendation."
+      ]
+    },
+    {
+      "id": "UTP-STORY-002",
+      "priority": 2,
+      "subject": "Poda pitha",
+      "working_title": "The taste of waiting",
+      "change": "new_feature",
+      "proposed_path": "/food/poda-pitha/",
+      "status": "ready_to_draft_with_media_and_local_review_pending",
+      "opening_direction": "Organize the story around making, waiting, opening and sharing. Use attributed preparations to show that one name can hold several versions.",
+      "outline": [
+        "A cut surface or leaf-wrapped preparation as the opening image.",
+        "Raja association, attributed to the institutional overview.",
+        "Milk-based, rice-and-jaggery, and rice–black-gram versions in the 2015 book.",
+        "Two named regional accounts, with their limits kept clear.",
+        "Invite a household memory with contributor credit."
+      ],
+      "research_paths": [
+        "research/food/poda-pitha.md",
+        "research/references/data/food-preparations.json"
+      ],
+      "source_ids": [
+        "food-tourism",
+        "food-crri-rice2015",
+        "food-poda-regions-mint2023"
+      ],
+      "evidence_limit": "Regional accounts are attributed to named speakers in a reported article, not a surveyed map of all coastal or western households.",
+      "visual_plan": "Obtain licensed photographs of identified preparations; label the specific version rather than a generic cake. No asset selected yet.",
+      "connections": [
+        "/food/",
+        "/food/chhena-poda/"
+      ],
+      "before_publication": [
+        "Secure appropriately identified photographs.",
+        "Keep measurements/temperatures out until a tested and credited recipe exists.",
+        "Review source attribution and Odia terminology."
+      ]
+    },
+    {
+      "id": "UTP-STORY-003",
+      "priority": 3,
+      "subject": "Chhena Poda",
+      "working_title": "One sweet, more than one way to make it",
+      "change": "enrich_existing_feature",
+      "existing_path": "/food/chhena-poda/",
+      "status": "ready_for_bounded_editorial_update",
+      "opening_direction": "Extend the existing photographed story with an attributed comparison of preparation and a clearly contemporary adaptation.",
+      "outline": [
+        "Retain the existing visitor-facing lead and photograph.",
+        "Explain the source-described leaf-assisted baking.",
+        "Place the chocolate adaptation in its modern contributor context.",
+        "Connect readers to Poda pitha without implying the names denote the same food."
+      ],
+      "research_paths": [
+        "research/food/chhena-poda.md",
+        "research/food/collection.json"
+      ],
+      "source_ids": [
+        "food-tourism",
+        "food-chhenapoda-chef2021"
+      ],
+      "evidence_limit": "A contributor recipe hosted by a tourism body is not independent proof of an invention story or temple practice.",
+      "visual_plan": "Reuse the existing chhena-poda asset with its CC BY-SA 4.0 credit. A step-by-step process would require additional correctly identified images.",
+      "connections": [
+        "/food/odisha-rasagola/",
+        "/food/"
+      ],
+      "before_publication": [
+        "Review the proposed update against the existing page to avoid repeating its story.",
+        "Keep historic-origin claims attributed and retain the current image provenance."
+      ]
+    },
+    {
+      "id": "UTP-STORY-004",
+      "priority": 4,
+      "subject": "Paraja and Gopinath Mohanty",
+      "working_title": "Read a place through a novel",
+      "change": "new_reading_feature_linked_to_existing_author",
+      "proposed_path": "/literature/paraja/",
+      "status": "ready_for_narrow_reading_draft_edition_limits_required",
+      "opening_direction": "Offer a reading invitation through the relationship between author, novel and Koraput; keep fictional characters distinct from present-day communities.",
+      "outline": [
+        "Begin with a question the reader can carry into the novel.",
+        "Connect to the existing Gopinath Mohanty introduction.",
+        "Separate the attributed 1945 original, 1987 translation citation and 1997 publisher listing.",
+        "Add an original reading prompt and a source-linked edition guide."
+      ],
+      "research_paths": [
+        "research/works/paraja.md",
+        "research/people/gopinath-mohanty.md",
+        "research/references/data/people-creations.json"
+      ],
+      "source_ids": [
+        "creators-paraja",
+        "literature-gopinath-books",
+        "literature-paraja-oxford-reference"
+      ],
+      "evidence_limit": "Do not attach translator or language metadata from the 1987 reference to the 1997 listing without a matching title page. The novel is not a survey of living communities.",
+      "visual_plan": "Audit existing author/reading-context asset provenance before reuse; obtain a licensed Koraput contextual photograph. Do not assume a cover image is reusable or stage fiction as documentary evidence.",
+      "connections": [
+        "/people/gopinath-mohanty/",
+        "/literature/",
+        "/stories/culture-trails/"
+      ],
+      "before_publication": [
+        "Review literary interpretation with a suitable reader.",
+        "Keep unresolved edition fields explicit.",
+        "Use original commentary; no unlicensed passages or cover reproduction."
+      ]
+    },
+    {
+      "id": "UTP-STORY-005",
+      "priority": 5,
+      "subject": "Six Acres and a Third",
+      "working_title": "A story of land, and a way of reading power",
+      "change": "enrich_existing_reading_feature",
+      "existing_path": "/literature/six-acres-and-a-third/",
+      "status": "bounded_update_possible_metadata_conflicts_held",
+      "opening_direction": "Add a compact source-aware reading and edition note to the existing story; preserve its original prompts.",
+      "outline": [
+        "Retain the author connection and reading invitation.",
+        "Distinguish the attributed 1902 original chronology from the 2005 English paperback.",
+        "Keep translator-name differences as an editorial follow-up, without silently correcting the publisher."
+      ],
+      "research_paths": [
+        "research/works/six-acres-and-a-third.md",
+        "research/voices/collection.json"
+      ],
+      "source_ids": [
+        "creators-six-acres",
+        "literature-six-acres-eaa"
+      ],
+      "evidence_limit": "Original imprint uninspected; source disagreement on translator initial and author death year must not be harmonised by inference.",
+      "visual_plan": "Existing Fakir Mohan portrait is credited CC BY-SA 4.0; keep it as an author portrait, not a book illustration.",
+      "connections": [
+        "/people/fakir-mohan-senapati/",
+        "/literature/"
+      ],
+      "before_publication": [
+        "Compare against current copy; add only useful nonduplicative detail.",
+        "Resolve or explicitly bound edition/name discrepancies."
+      ]
+    },
+    {
+      "id": "UTP-STORY-006",
+      "priority": 6,
+      "subject": "Debrigarh community tourism",
+      "working_title": "The people behind a nature experience",
+      "change": "new_reported_feature",
+      "status": "outline_only_reporting_and_media_gaps",
+      "opening_direction": "Follow the work that makes a nature visit possible. Use dated documentary context while seeking permission-based accounts from the people doing that work.",
+      "outline": [
+        "A credited person or activity as the opening, once consent and evidence are available.",
+        "What the historical facility record can tell us.",
+        "Public recognition as an attributed statement.",
+        "Separate current community testimony, visitor arrangements and measured outcomes."
+      ],
+      "research_paths": [
+        "research/places/debrigarh-hirakud.md",
+        "research/references/data/debrigarh-livelihoods.json",
+        "research/references/data/ecotourism-livelihoods.json"
+      ],
+      "source_ids": [
+        "debrigarh-jica2017",
+        "debrigarh-pmo20260830",
+        "wildlife-odisha2025-ecotourism"
+      ],
+      "evidence_limit": "Historical facility revenue, statewide programme totals, reported family counts and actual household income are different measures. No growth headline or wage claim is ready.",
+      "visual_plan": "Obtain credited local photographs and explicit permission for participant portraits/testimony. No authentic worker image selected and no simulated interview.",
+      "connections": [],
+      "before_publication": [
+        "Obtain dated local access and operations information.",
+        "Seek consent-based community perspectives through a separately authorized outreach task.",
+        "Reconcile component accounts before any revenue-growth claim; no wildlife-sighting guarantees."
+      ]
+    }
+  ],
+  "held_topics": [
+    {
+      "subject": "Kendrapara Rasabali",
+      "reason": "Original GI account and correction contain an unresolved curdling discrepancy; do not publish one definitive recipe. A qualified story needs a maker/source review and images."
+    },
+    {
+      "subject": "Dhenkanal Magji",
+      "reason": "Internal sugar proportions differ in the specification. No tested recipe, nutrition, shelf-life or sales claim is ready."
+    }
+  ],
+  "house_style": [
+    "Begin with a meaningful image and an original narrative invitation.",
+    "Use a few connected sections rather than a stack of facts.",
+    "Keep citations and image credits in the end section, with brief in-story qualifications where interpretation depends on them.",
+    "Separate remembered practice, published account, editorial scene and verified current visitor information.",
+    "English and Odia names require appropriate language review; imagery must not invent historical evidence."
+  ]
+}

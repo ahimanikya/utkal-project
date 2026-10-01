@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d972a4ddddac9b03dc6408405317e2c0d189cd575db4b77c823b6bceebc356bb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9694b4f807a906e7eaad15cd03e336dcc5ab3a0e901cd31ccac5eead32276769`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -138,6 +138,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-123 · Odisha roots: rasagola and Bose’s Cuttack childhood | completed | published | Ahimanikya Satapathy | Published under UTP-REL-031. Retain original-document, specialist and browser follow-ups; no exclusive-origin verdict implied. | — |
 | UTP-WORK-124 · Illustrated Odisha Roots stories and journey integration | completed | published | Ahimanikya Satapathy | Published under UTP-REL-032. Retain original-document, specialist and browser follow-ups. | — |
 | UTP-WORK-125 · Visitor discovery and research integration review | completed | published | Ahimanikya Satapathy | Published under UTP-REL-033. Retain browser, specialist and separate research integration follow-ups. | — |
+| UTP-WORK-126 · Integrate accumulated research and prepare the next story batch | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the combined research candidate and proposed story sequence. Operating-rule wording, actual page production and publication remain separate. | — |
 
 ## Pending human review and decisions
 
@@ -195,6 +196,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | Assess remaining experience and accessibility gaps against the current 69-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current 69-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
+| UTP-WORK-126 | Founder reviews the combined research candidate and proposed story sequence. Operating-rule wording, actual page production and publication remain separate. |
 
 ## Decisions
 
@@ -330,6 +332,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-129 · Prepare visitor discovery, research review and backlog batch | approved | Ahimanikya Satapathy | Prepare the proposed reviewable batch: research PR review, browser-audit retry, homepage discovery and backlog reconciliation. No research merge, indexing activation or publication in this scope. |
 | UTP-DEC-130 · Approve PR 34 visitor discovery and research review | approved | Ahimanikya Satapathy | Direct approval of PR 34 at c6c804f2aa206c749cfa00c61d6f382238d87da3 after review handoff. PR merged. Production dispatch was separately blocked by automatic approval review; explicit deployment confirmation requested. |
 | UTP-DEC-131 · Explicitly authorize PR 34 production deployment | approved | Ahimanikya Satapathy | Direct answer to “May I deploy it to utkalproject.org?” following PR 34 merge and automatic-review rejection. Explicit authorization to publish the reviewed website revision; indexing remains disabled. |
+| UTP-DEC-132 · Prepare research integration and next-story briefs | approved | Ahimanikya Satapathy | Approval to prepare one reviewable integration candidate for research PRs 22, 24, 33 and 35, assess next illustrated stories and retry visual audit. No publication, indexing or Store changes. |
 
 ## Reviews
 
@@ -438,6 +441,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-103 | pass_with_limitations | False | Browser security-policy verification blocked navigation; actual visual, mobile/wide, keyboard and screen-reader checks remain open.; Research review sampled records and checked structure/integration; it does not independently verify every factual claim or clear publication rights.; Research PR conflicts remain for separate integration; no draft AGENTS rules adopted.; Founder approval of this exact candidate and publication is pending. |
 | UTP-REV-104 | pass_with_limitations | False | Deployment has not been dispatched; no live publication checks for this change.; Original visual and specialist limitations remain unchanged. |
 | UTP-REV-105 | pass_with_limitations | False | Actual browser visual, mobile/wide, keyboard and screen-reader checks remain open under the recorded browser security-policy failure. HTTP checks establish delivered markup and bytes, not visual quality.; Research PRs were reviewed at the exact revisions recorded in research-pr-review.json and remain separate integration work. No independent factual, language or specialist acceptance is claimed.; Original-document and local-condition follow-ups for published stories remain open. |
+| UTP-REV-106 | pass_with_limitations | False | Integration and structural checks do not independently verify all 812 research concepts or source rights. No specialist, native-language review or fieldwork claimed.; Browser retry failed the admin-policy verification check before navigation. Mobile/wide-screen, inner-page flow, keyboard and screen-reader review remain open.; Story briefs are drafting proposals; no finished page is cleared for publication by this integration.; Existing source conflicts, recipe-test flags, edition distinctions and local-condition gaps remain explicit.; Upstream checkpoint dates and operational flags are preserved as historical context; current UTP status remains in its registers. |
 
 ## Publication and application history
 
@@ -513,7 +517,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-135 | 2026-10-01T14:10:10.794355+00:00 | Founder-approved PR 29 published. Live checks passed for 67 pages and 82 responsive image files from 29 sources, including Explore and all four onward panels. Search indexing remains disabled. | Keep browser visual and measured performance review open; continue only within the next authorized scope. |
 | UTP-EVT-136 | 2026-10-01T14:18:32.123935+00:00 | Prepared reversible Explore choices, individual filter removal, contextual topic counts and composition-aware search; 365 full and 44 coastal tests pass. Candidate not published. | Founder reviews the candidate; browser and assistive-technology checks remain open. |
 | UTP-EVT-137 | 2026-10-01T15:26:47.881213+00:00 | Founder-approved PR 30 published. Live delivery checks cover all 67 pages, Explore controls and counts, and the search controller bytes. Search indexing remains disabled. | Keep native browser and assistive-technology review open; continue within the next authorized scope. |
 | UTP-EVT-138 | 2026-10-01T15:41:23.464442+00:00 | Prepared Odisha-rooted rasagola and Bose articles using an attributed institutional account, registry and autobiography. Tests pass; candidate not published. | Founder reviews the candidate and source limitations. |
@@ -523,6 +526,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-142 | 2026-10-01T16:48:51.874336+00:00 | Prepared shared illustrated homepage picks and reading connections, reviewed three research snapshots, and reconciled the visitor queue. Browser navigation remains blocked by policy verification. | Founder reviews candidate; resolve research integration and actual visual checks separately. |
 | UTP-EVT-143 | 2026-10-01T17:00:19.889928+00:00 | Founder-approved PR 34 merged; merged tree matches approved head and CI passed. Automatic approval review rejected production dispatch and explicit deployment confirmation is pending. | Obtain explicit deployment confirmation, then publish and verify the approved website. |
 | UTP-EVT-144 | 2026-10-01T17:11:18.004303+00:00 | Founder explicitly authorized deployment after the earlier automatic-review block. PR 34 content is published; all 69 live pages, homepage selection, cross-links, image hashes and indexing boundaries passed delivery checks. | Retain visual/specialist review and integrate research only through its separate review sequence. |
+| UTP-EVT-145 | 2026-10-01T17:25:04.237069+00:00 | Reconciled four stacked research snapshots into one candidate: 812 research concepts, 361 sources, preserved live-site output and six next-story briefs. Incoming operating-rule changes held separately. | Founder reviews integration; media and local/literary reviews precede story publication. |
 
 ## Deferred extensions
 
