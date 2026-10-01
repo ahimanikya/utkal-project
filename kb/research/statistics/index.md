@@ -1,6 +1,6 @@
 # Odisha statistical atlas
 
-352 recorded observations across 42 topic groups in this expansion. Observation counts describe this collection, not the number of unique indicators or statewide achievements.
+384 recorded observations across 43 topic groups in this expansion. Observation counts describe this collection, not the number of unique indicators or statewide achievements.
 
 Start with [coverage and gaps](coverage.md), [how to read the data](../methods/statistics-atlas.md), or [district banking](district-banking.md). Every number retains its observation period; a 2026 access date does not make an older survey current.
 
@@ -46,3 +46,11 @@ Start with [coverage and gaps](coverage.md), [how to read the data](../methods/s
 - [Urban Sanitation](urban-sanitation.md) — 5 observations.
 - [Water Irrigation](water-irrigation.md) — 6 observations.
 - [Women And Inclusion](women-and-inclusion.md) — 6 observations.
+
+## Read by subject
+
+The [nine subject families](../subjects/index.md) connect these statistical pages with cultural, historical and place knowledge. Each topic explains what its measures mean and offers related reading; evidence tables remain available below. [Classification method](../methods/content-classification.md).
+
+- [Homestays](homestays.md) — 28 observations; policy, targets, registry and market evidence.
+
+[Textile and apparel exports](textile-and-apparel-exports.md) — five full fiscal-year observations, including the intervening decline.

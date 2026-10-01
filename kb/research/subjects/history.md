@@ -1,0 +1,35 @@
+---
+type: "Subject Guide"
+title: "History and heritage"
+description: "History and heritage — context, evidence and connected reading."
+tags: ["encyclopedia", "classification"]
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-09-30T19:20:22-07:00"}
+evidence_basis: "Editorial organisation of existing KB records; no new source verification or human review claimed."
+subjects: ["history"]
+sources: []
+---
+
+# History and heritage
+
+Explore historical evidence, heritage places and Odisha’s connections with other regions. Archaeological findings, interpretations and present-day commemorations have different evidential roles. Read them together without turning a cultural resemblance into a proven trade route.
+
+## Start reading
+
+- [Maritime Odisha: the evidence structure](../history/maritime-evidence.md)
+- [Historical connections and modern trade: join matrix](../trade/connection-matrix.md)
+- [Boita Bandana: honouring the maritime trader](../culture/boita-bandana.md)
+- [Ratnagiri Buddhist site](../places/ratnagiri.md)
+- [Konark Sun Temple](../places/konark.md)
+
+## Connections worth following
+
+Use the subject links on each entry to follow related knowledge. Place, period and evidence class remain attached to the original record.
+
+## Gaps to deepen
+
+Dated archaeological evidence, archival trade records and independently supported routes; historical boundaries need their own treatment.
+
+Subject membership is editorial classification. It does not establish historical influence, causal effects or current operating availability. The facts above reuse saved research and retain their earlier source checks.
+
+[All subjects](index.md) · [Classification method](../methods/content-classification.md)

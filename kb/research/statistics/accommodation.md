@@ -6,19 +6,32 @@ tags: ["statistics", "accommodation"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "connect-tourism2024", "title": "Odisha Tourism Statistical Bulletin 2024", "resource": "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf"}]
+subjects: ["places", "economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Accommodation
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for accommodation. These are research records, not a composite performance ranking.
+What accommodation stock appears in the dated tourism inventory? Hotel, room and bed counts describe different units; none confirms a room is available for a specific trip.
 
 ## Selected facts to explore
 
 - **Hotels: 2,480 establishments** — 2024, Odisha.[^connect-tourism2024]
 - **Hotel rooms: 52,020 rooms** — 2024, Odisha.[^connect-tourism2024]
 - **Hotel beds: 106,254 beds** — 2024, Odisha.[^connect-tourism2024]
+
+## Read this in context
+
+Subject: [Places and geography](../subjects/places.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Tourism](tourism.md) — Read another dimension of this subject; the measures remain separate.
+- [Tourism Assets](tourism-assets.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
+
+- [Homestays](homestays.md) — Read the distinct evidence on family-hosted stays, policy targets and market listings.
 
 ## Evidence view
 

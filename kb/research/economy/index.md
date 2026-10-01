@@ -24,3 +24,7 @@ Economic growth and industry comparisons.
 - [Odisha’s GDP story: scale, momentum and meaning](gdp-story.md)
 
 [Knowledge base home](../index.md)
+
+- [Homestays: support, incentives and policy history](homestay-support.md)
+
+[Rasagola and Odisha sweets economics](rasagola-and-sweets.md)

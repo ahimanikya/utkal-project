@@ -9,7 +9,7 @@ generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:46:31-07:00"}
 
 # Utkala weekly data editor
 
-The user authorised weekly unattended data collection and updates to the Git repository and website on 27 September 2026. A recurring agent, `utkala-weekly-data-editor`, is active in this task for Mondays at 09:00 America/Los_Angeles. This is a local scheduled agent, not a separately provisioned always-on cloud service.
+The user authorised weekly unattended data collection and updates to the Git repository and website on 27 September 2026. A recurring agent, `utkala-weekly-data-editor`, is active in this task for Sundays at 09:00 America/Los_Angeles. This is a local scheduled agent, not a separately provisioned always-on cloud service.
 
 ## What to monitor
 
@@ -24,7 +24,7 @@ Follow each publisher to its latest release. A fixed historical PDF is a baselin
 3. For every new observation, record a stable ID, measure, value, unit, geography, reporting period, price/base-year basis where relevant, estimate/project status, source URL and page/table location, publication date if known, and retrieval time. Keep quoted evidence short.
 4. Append observations and explicit revisions. Record which earlier observation is superseded and why; never silently overwrite a historical vintage. Preserve the frozen 71-record imported evidence ledger. Retain decreases and flat results as well as growth.
 5. Update affected concepts and supported story cards together, retaining periods, units and meaningful comparisons. Flag source disagreement or changed scope in the research gaps. Do not publish a conflicting value merely because it is more favourable.
-6. Rebuild search and run all five validators, including `tools/validate_statistics.py`. Recalculate affected derived values; structural validation alone does not establish source truth. Refresh the log, catalogue, summary, manifest and portable exports after substantive updates.
+6. Rebuild search and run the checks listed in the project README, including statistics, homestays, classification and PRD-history validation. Recalculate affected derived values; structural validation alone does not establish source truth. Refresh the log, catalogue, summary, manifest and portable exports after substantive updates.
 7. Save a run report in `outputs/community-project/weekly-runs/` with checked sources, before/after values, affected paths, validation results and separate local/Git/deployment outcomes. A run with no new data needs a run report, not artificial edits to fact pages.
 
 ## Publication
@@ -40,3 +40,15 @@ Run the configured site build and deployment workflow only after validation. Con
 Notify for meaningful changes, completed publication, new failures or required action. Stay quiet for unchanged data and unchanged known blockers. Record what actually ran, including partial failures. The schedule is active but no successful unattended research run or public update is claimed by its creation. The local host and app must be available for local execution; move to a separately configured hosted runner if independent uptime becomes a requirement.
 
 Use [publication readiness](../about/website-readiness.md) to track setup. Historical and cultural material remains governed by the [research method](../about/research-method.md), not automatically rewritten every week.
+
+## Homestay monitoring addition · 30 September 2026
+
+Homestays are included in the existing visitor-economy track. Use the [research register](../references/data/homestay-research.json) and [topic page](../statistics/homestays.md). Preserve unknown outcomes as null; archive each new dated total and source, without replacing the 2025 scheme or registry baseline. Seek primary amendment and Cycle-1 PDFs, comparable operating/property counts, room-night demand and payments. Market listings, registry stock and targets must not form one growth series. Do not collect individual guest identity data.
+
+## Coordination with continuing research
+
+Consult the [sequential research queue](research-pipeline.md), [source reliability register](source-reliability.md) and recent research-run reports before fetching or editing shared records. Research expands coverage; this weekly run checks revisions. Avoid overlapping writes, reuse current captures only within their recorded scope, and preserve failed prior runs even when a later retrieval succeeds. The Sunday schedule label above was corrected from the saved automation configuration on 30 September 2026; the schedule itself was not changed.
+
+## Repository integration · 1 October 2026
+
+This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.

@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import unquote,urlsplit
 import json,math,re,sys
-from kb_io import ROOT,concepts,read_concept
+from kb_io import ROOT,concepts,read_concept,collection_paths
 
 errors=[]; checked_links=0
 def check(condition,message):
@@ -29,7 +29,7 @@ def link_target(path,link):
     checked_links+=1
 
 all_concepts=list(concepts())
-for path in ROOT.rglob('*.md'):
+for path in collection_paths():
     raw=path.read_text(encoding='utf-8')
     if path.name=='index.md':
         if path==ROOT/'index.md':

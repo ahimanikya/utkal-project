@@ -36,6 +36,20 @@ jobs:
           python3 tools/check_bundle.py
           python3 tools/test_registers.py
           python3 tools/test_config.py
+      - name: Validate imported research collection
+        run: |
+          python3 tools/research/reindex.py
+          git diff --exit-code -- kb/research/search-index.json
+          python3 tools/research/validate.py
+          python3 tools/research/validate_visitor_index.py
+          python3 tools/research/validate_maritime.py
+          python3 tools/research/validate_growth_journeys.py
+          python3 tools/research/validate_statistics.py
+          python3 tools/research/validate_homestays.py
+          python3 tools/research/validate_classification.py
+          python3 tools/research/validate_collections.py
+          python3 tools/research/validate_prd.py
+          python3 tools/research/validate_creations.py
       - name: Build and test full draft
         run: |
           npm run build

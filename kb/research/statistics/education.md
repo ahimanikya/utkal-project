@@ -6,19 +6,32 @@ tags: ["statistics", "education"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "people-nfhs6", "title": "National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets", "resource": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf"}, {"id": "people-udise2025", "title": "UDISE+ 2024–25 Report: Existing Structure", "resource": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf"}]
+subjects: ["everyday", "people"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Education
 
-## What this section contains
+The 2024–25 UDISE report records 61,565 schools, 7,644,052 enrolments and 344,116 teachers in Odisha. These counts describe the scale of the education system; the facility and schooling measures below add context without claiming learning outcomes.[^people-udise2025]
 
-Source-linked measures for education. These are research records, not a composite performance ranking.
+## What these measures explain
+
+What scale of schooling and facilities is recorded? Enrolment, teacher and infrastructure counts help describe the system; attendance, learning and equitable access need their own measures.
 
 ## Selected facts to explore
 
 - **Schools: 61,565 schools** — Academic year 2024–25, Odisha.[^people-udise2025]
 - **School enrolments: 7,644,052 enrolments** — Academic year 2024–25, Odisha.[^people-udise2025]
 - **Teachers: 344,116 teachers** — Academic year 2024–25, Odisha.[^people-udise2025]
+
+## Read this in context
+
+Subject: [Everyday life and human development](../subjects/everyday.md). Also part of [People and communities](../subjects/people.md).
+
+- [Digital Connectivity](digital-connectivity.md) — School internet availability and statewide subscriptions measure different forms of access.
+- [Women And Inclusion](women-and-inclusion.md) — Place schooling in the context of women’s participation without inferring individual outcomes.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

@@ -1,7 +1,7 @@
 ---
 type: "Campaign Strategy"
 title: "Tourism first: build attention, pride and demand for Odisha"
-description: "Current user direction, audience objectives, a twelve-piece pilot proposal and a later podcast pathway."
+description: "Preserved tourism campaign proposal within the broader Odisha encyclopedia; scope clarified 30 September 2026."
 tags: ["tourism", "marketing", "strategy", "podcast"]
 status: "draft"
 instruction_basis: "User direction in this conversation, 2026-09-27; implementation choices are proposals."
@@ -10,13 +10,15 @@ generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:18:25+00:00"}
 
 # Tourism first: build attention, pride and demand for Odisha
 
+**Scope update — 30 September 2026.** The user has clarified that the encyclopedia must expand and connect subjects beyond tourism. The [nine subject families](../subjects/index.md) now organise the overall collection. This page preserves the tourism campaign proposal from 27 September; its sequencing applies to that campaign, not to the encyclopedia’s full research or launch scope.
+
 ## Purpose and order
 
 Build a compelling public reputation for Odisha that motivates people within the state and draws interest from India and the wider world. Tourism is the first practical focus. Food, handlooms, culture, landscape and city experiences supply the opening stories. Better trade and business opportunities are the longer-term objective.
 
 The user’s eventual personal venture does not determine the campaign. Health and fitness, mineral processing and other industries are possible later chapters. A podcast is a possible later format, not a production commitment or a prerequisite for starting.
 
-This direction reflects the user’s instruction of 27 September 2026. It takes priority over earlier suggestions that put an economic overview or a maritime trade campaign at the centre of the first release. Those remain useful supporting collections.
+This campaign direction records the user’s instruction of 27 September 2026. The broader encyclopedia scope was clarified on 30 September: economic, historical, environmental and human-development knowledge have their own value and entrances.
 
 ## What the audience should take away
 
@@ -72,7 +74,7 @@ Preserve useful audience questions and contributor suggestions in the KB, with c
 
 ## Website and podcast sequence
 
-The first website should help visitors discover and act: Explore, Taste, Woven & Made, and Stories, supported by a readable source layer. City life can sit inside journeys initially. Growth and maritime research remain available for deeper features and later expansion.
+The tourism collection should help visitors discover and act through places, foods, textiles and stories, supported by a readable source layer. Overall website navigation follows the broader [current PRD](../product/prd.md); growth, maritime and everyday-life knowledge are independent subject content.
 
 A podcast can grow from subjects that repeatedly attract substantive interest and guests with firsthand knowledge. Possible guest roles include a cook, weaver, guide, tourism operator, cultural researcher and founder. Each conversation should reveal a place or practice, examine an opportunity and offer a useful next step. Short extracts can feed the same story collection.
 
@@ -80,8 +82,8 @@ Before commissioning a season, establish the editorial theme, available guests a
 
 ## What happens next in the work
 
-Prioritise the six pilot research anchors, identify the best available visual and contributor for each, and complete only the factual gaps needed for those stories. Maintain the broader KB so later health, fitness and industry work can build on it. Make the first public experience feel like an invitation to Odisha.
+Prioritise the six pilot research anchors, identify the best available visual and contributor for each, and complete only the factual gaps needed for those stories. Develop health, education, livelihoods, environment and industry pages in their own right within the broader KB. Make the first public experience feel like an invitation to Odisha.
 
-## Current build priority
+## Tourism collection priorities
 
-The user’s next priority is the [linked food, heritage and facilities index](../visitor-index/index.md). Deepen usable destination pages, then progressively add the other [discovery indexes](../visitor-index/expansion-roadmap.md). Specific, supported experiences should build pride and interest in Odisha.
+The campaign’s [linked food, heritage and facilities index](../visitor-index/index.md). Deepen usable destination pages, then progressively add the other [discovery indexes](../visitor-index/expansion-roadmap.md). Specific, supported experiences should build pride and interest in Odisha.

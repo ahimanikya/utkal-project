@@ -6,14 +6,15 @@ tags: ["statistics", "fisheries"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "nature-fish-pib", "title": "Boom in Aquaculture, 10 February 2026", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225760&lang=1&reg=5"}, {"id": "nature-survey-summary", "title": "Odisha Economic Survey 2025-26: Highlights and Executive Summary", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}, {"id": "weekly-fisheries-jul2026", "title": "Odisha fisheries and seafood exports, FY2025–26", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48"}]
-updated: {"by": "codex/gpt-6", "at": "2026-09-27T09:07:26-07:00"}
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
+subjects: ["food", "economy", "nature"]
 ---
 
 # Fisheries
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for fisheries. These are research records, not a composite performance ranking.
+How does fish move through production and export measures? Freshwater, brackish-water and marine output explain the production base; export volume and value describe a different market outcome.
 
 ## Latest recorded period: 2025–26
 
@@ -34,6 +35,16 @@ Components sum to 12.69 lakh tonnes, 0.01 below the reported total; retain the s
 - **Total fish production: 11.92 lakh tonnes** — 2024-25, Odisha.[^nature-fish-pib]
 - **Inland fish production: 9.53 lakh tonnes** — 2024-25, Odisha.[^nature-fish-pib]
 - **Marine fish production: 2.39 lakh tonnes** — 2024-25, Odisha.[^nature-fish-pib]
+
+## Read this in context
+
+Subject: [Food and farming](../subjects/food.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md), [Nature and environment](../subjects/nature.md).
+
+- [Pakhala](../food/pakhala.md) — Explore everyday food traditions separately from statewide fish-output measures.
+- [Odisha merchandise exports: five-year scale change](../trade/merchandise-exports.md) — Place seafood trade beside broader exports, preserving product coverage.
+- [Chilika](../places/chilika.md) — Explore a named wetland; the state total is not a Chilika production estimate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

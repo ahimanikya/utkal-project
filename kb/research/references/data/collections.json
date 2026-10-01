@@ -1,0 +1,385 @@
+{
+  "schema_version": "1.0",
+  "updated_on": "2026-09-30",
+  "scope": "Editorial collections, regional reading profiles and dated evidence cards; no overall liveability ranking, supplier endorsement or current operating verification.",
+  "master_values": "Observation values stay in the named source datasets. Collection cards reference IDs rather than storing new copies.",
+  "human_review_claimed": false,
+  "collections": [
+    {
+      "concept_id": "places/koraput",
+      "subjects": [
+        "places",
+        "arts",
+        "food",
+        "economy",
+        "people"
+      ],
+      "member_concepts": [
+        "food/koraput-coffee",
+        "food/koraput-kalajeera-rice",
+        "handlooms/kotpad",
+        "statistics/districts/koraput",
+        "statistics/homestays"
+      ],
+      "evidence_refs": [
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-koraput-advance"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "homestay-cycle1-koraput"
+        }
+      ],
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "concept_id": "places/sambalpur-bargarh",
+      "subjects": [
+        "places",
+        "arts",
+        "economy",
+        "people",
+        "nature"
+      ],
+      "member_concepts": [
+        "handlooms/sambalpuri-bandha",
+        "handlooms/bargarh",
+        "statistics/districts/sambalpur",
+        "statistics/districts/bargarh",
+        "places/debrigarh-hirakud"
+      ],
+      "evidence_refs": [
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "regional-bargarh-population-total-2011"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "regional-bargarh-population-rural-2011"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "regional-bargarh-population-urban-2011"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "regional-sambalpur-population-total-2011"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-sambalpur-deposit"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-sambalpur-advance"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-sambalpur-cd2025"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-sambalpur-cd2026"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-bargarh-deposit"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-bargarh-advance"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-bargarh-cd2025"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "macro-district-bargarh-cd2026"
+        },
+        {
+          "dataset": "debrigarh-livelihoods.json",
+          "observation_id": "debrigarh-community-nie-20260820"
+        }
+      ],
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "concept_id": "collections/made-in-odisha",
+      "subjects": [
+        "arts",
+        "food",
+        "economy",
+        "people"
+      ],
+      "member_concepts": [
+        "handlooms/kotpad",
+        "handlooms/sambalpuri-bandha",
+        "handlooms/bargarh",
+        "culture/pipili-applique",
+        "culture/raghurajpur-pattachitra",
+        "food/koraput-coffee",
+        "food/koraput-kalajeera-rice",
+        "handlooms/boyanika",
+        "statistics/craft-livelihoods",
+        "statistics/industrial-production",
+        "trade/merchandise-exports"
+      ],
+      "evidence_refs": [
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "connect-handloom-weavers"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "connect-handloom-allied"
+        }
+      ],
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "concept_id": "collections/life-in-odisha",
+      "subjects": [
+        "everyday",
+        "people",
+        "governance",
+        "economy"
+      ],
+      "member_concepts": [
+        "statistics/education",
+        "statistics/health",
+        "statistics/nutrition",
+        "statistics/employment",
+        "statistics/women-and-inclusion",
+        "statistics/rural-water",
+        "statistics/digital-connectivity",
+        "journeys/smart-cities",
+        "places/koraput",
+        "places/sambalpur-bargarh"
+      ],
+      "evidence_refs": [
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "people-udise-schools-2025"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "people-insurance-nfhs5-v2026"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "people-insurance-nfhs6-v2026"
+        },
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "weekly-internet-total-mar2026"
+        }
+      ],
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "concept_id": "collections/progress",
+      "subjects": [
+        "economy",
+        "governance",
+        "everyday",
+        "people"
+      ],
+      "member_concepts": [
+        "statistics/homestays",
+        "journeys/semiconductors",
+        "journeys/smart-cities",
+        "journeys/rare-earths",
+        "places/debrigarh-hirakud"
+      ],
+      "evidence_refs": [
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "homestay-target-units"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SE01"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC09"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC08"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC13"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC12"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "RE01"
+        },
+        {
+          "dataset": "debrigarh-livelihoods.json",
+          "observation_id": "debrigarh-community-nie-20260820"
+        }
+      ],
+      "publication_status": "draft_editorial_review_pending"
+    }
+  ],
+  "progress_cards": [
+    {
+      "id": "homestays",
+      "title": "Homestays: an ambition to track",
+      "concept_id": "collections/progress",
+      "stage": "planned",
+      "evidence_refs": [
+        {
+          "dataset": "statistics-atlas.json",
+          "observation_id": "homestay-target-units"
+        }
+      ],
+      "interpretation": "The target creates a programme to follow; it is not operating inventory.",
+      "unestablished": [
+        "Approvals under this scheme",
+        "Units open and taking bookings",
+        "Room-nights, disbursements and net host income"
+      ],
+      "related_concept": "statistics/homestays",
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "id": "semiconductors",
+      "title": "Semiconductors: approval is a dated milestone",
+      "concept_id": "collections/progress",
+      "stage": "approved",
+      "evidence_refs": [
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SE01"
+        }
+      ],
+      "interpretation": "The August 2025 ISM decision approved two named Odisha projects. Approval does not establish production or hiring.",
+      "unestablished": [
+        "Commissioning and commercial operations",
+        "Realised capital spending",
+        "Actual output and employment"
+      ],
+      "related_concept": "journeys/semiconductors",
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "id": "bhubaneswar",
+      "title": "Bhubaneswar: reported project completion",
+      "concept_id": "collections/progress",
+      "stage": "reported_completion",
+      "evidence_refs": [
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC09"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC08"
+        }
+      ],
+      "interpretation": "31 of 32 Smart Cities Mission projects were reported completed at this snapshot. Completion does not establish that every service is operating reliably.",
+      "unestablished": [
+        "Operating-service verification",
+        "Maintenance, usage and resident outcomes"
+      ],
+      "related_concept": "journeys/smart-cities",
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "id": "rourkela",
+      "title": "Rourkela: reported project completion",
+      "concept_id": "collections/progress",
+      "stage": "reported_completion",
+      "evidence_refs": [
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC13"
+        },
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "SC12"
+        }
+      ],
+      "interpretation": "73 of 75 Smart Cities Mission projects were reported completed at this snapshot. This is a project-count measure, not a liveability score.",
+      "unestablished": [
+        "Operating-service verification",
+        "Maintenance, usage and resident outcomes"
+      ],
+      "related_concept": "journeys/smart-cities",
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "id": "rare-earths",
+      "title": "Rare earths: installed capacity, output still to establish",
+      "concept_id": "collections/progress",
+      "stage": "installed_capacity",
+      "evidence_refs": [
+        {
+          "dataset": "growth-journeys.json",
+          "observation_id": "RE01"
+        }
+      ],
+      "interpretation": "The OSCOM plant page states installed mixed rare-earth chloride capacity. The source does not establish the capacity effective date, current utilisation or actual annual output.",
+      "unestablished": [
+        "Dated operational status",
+        "Production and capacity utilisation",
+        "Odisha-attributable sales and jobs"
+      ],
+      "related_concept": "journeys/rare-earths",
+      "publication_status": "draft_editorial_review_pending"
+    },
+    {
+      "id": "debrigarh",
+      "title": "Debrigarh: reported community participation",
+      "concept_id": "collections/progress",
+      "stage": "reported_activity",
+      "evidence_refs": [
+        {
+          "dataset": "debrigarh-livelihoods.json",
+          "observation_id": "debrigarh-community-nie-20260820"
+        }
+      ],
+      "interpretation": "The dated press report attributes community engagement to the local ecotourism programme. It is not a primary payroll roster or a permanent-job count.",
+      "unestablished": [
+        "Primary dated roster and employment definition",
+        "Pay and household net income",
+        "Measured conservation outcomes"
+      ],
+      "related_concept": "places/debrigarh-hirakud",
+      "publication_status": "draft_editorial_review_pending"
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://bargarh.odisha.gov.in/en/about--district/demography",
+      "status": "checked",
+      "checked_on": "2026-09-30"
+    },
+    {
+      "url": "https://sambalpur.odisha.gov.in/en/about-district/about-us",
+      "status": "checked",
+      "checked_on": "2026-09-30"
+    },
+    {
+      "url": "https://koraput.odisha.gov.in/en/about-district/district-at-a-glance",
+      "status": "unavailable",
+      "checked_on": "2026-09-30",
+      "reason": "Repeated fetch timeout; indexed-only numbers not promoted to verified observations."
+    },
+    {
+      "url": "https://koraput.odisha.gov.in/en/about--district/demography",
+      "status": "unavailable",
+      "checked_on": "2026-09-30",
+      "reason": "Fetch timeout; no new observations imported."
+    }
+  ]
+}

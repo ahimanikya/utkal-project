@@ -1,0 +1,58 @@
+---
+type: "Subject Guide"
+title: "People and communities"
+description: "People and communities — context, evidence and connected reading."
+tags: ["encyclopedia", "classification"]
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-09-30T19:20:22-07:00"}
+evidence_basis: "Editorial organisation of existing KB records; no new source verification or human review claimed."
+subjects: ["people"]
+sources: [{"id": "people-nfhs6", "title": "National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets", "resource": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf"}]
+---
+
+# People and communities
+
+Understand who lives in Odisha and how participation differs across groups. Demographic baselines, women’s access to banking and the internet, and community accounts answer different questions. Census counts and sample-survey estimates should keep their original periods.
+
+## Homestays and local enterprise
+
+[Homestay statistics](../statistics/homestays.md) and [government support](../economy/homestay-support.md) connect hosted stays, policy and livelihood questions. Distinguish intended benefits from observed demand and income.
+
+## Start reading
+
+- [Demography](../statistics/demography.md)
+- [Women And Inclusion](../statistics/women-and-inclusion.md)
+- [Education](../statistics/education.md)
+- [Odisha State Tribal Museum](../places/odisha-state-tribal-museum.md)
+
+## Evidence to explore
+
+**Women who have ever used the internet: 51.8 percent of women age 15–49** — NFHS-6 (2023–24); Odisha fieldwork 18 July–28 November 2024; Odisha.[^people-nfhs6]
+
+Self-reported lifetime internet use. Ever-use is not regular use, connection reliability or digital skill.
+
+
+## Connections worth following
+
+Use the subject links on each entry to follow related knowledge. Place, period and evidence class remain attached to the original record.
+
+## Local case study
+
+[Debrigarh: community livelihoods and nature](../places/debrigarh-hirakud.md) connects a dated reported engagement figure to place, people and conservation questions. Employment, income and ecological outcomes remain separate measures.
+
+## Gaps to deepen
+
+Community-authored histories, language use, migration, disability and district-level inclusion. No identity is inferred from a surname or a location.
+
+Subject membership is editorial classification. It does not establish historical influence, causal effects or current operating availability. The facts above reuse saved research and retain their earlier source checks.
+
+[All subjects](index.md) · [Classification method](../methods/content-classification.md)
+
+[^people-nfhs6]: [National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets](https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20%28NFHS-6%29%202023-2024%20Fact%20Sheets.pdf)
+
+
+[Explore Life in Odisha](../collections/life-in-odisha.md) for connected reading across places, people and dated evidence.
+
+[People and creations](../people/people-and-creations.md) adds named writers, music, sports and science profiles with explicit Odisha connections.
+
+[Women writers and English reading](../works/spark-of-light.md) connects five selected stories with authors and edition-specific translators. Four new profiles cover Reba Ray, Suprabha Kar, Basanta Kumari Patnaik and Binapani Mohanty; Pratibha Ray’s profile is expanded.

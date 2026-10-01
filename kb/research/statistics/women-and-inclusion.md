@@ -6,19 +6,31 @@ tags: ["statistics", "women-and-inclusion"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "people-nfhs6", "title": "National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets", "resource": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf"}]
+subjects: ["people", "everyday", "economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Women And Inclusion
 
-## What this section contains
+Among women aged 15–49, reported internet ever-use rises from 24.9% to 51.8% between the survey columns reproduced in NFHS-6. The later Odisha fieldwork took place in July–November 2024. Ever-use is not daily access or a measure of digital skill.[^people-nfhs6]
 
-Source-linked measures for women and inclusion. These are research records, not a composite performance ranking.
+## What these measures explain
+
+How do women’s access and participation change across survey rounds? Banking, schooling and internet use offer distinct views; keep age range and survey vintage beside each figure.
 
 ## Selected facts to explore
 
 - **Women using their own bank/savings account: 86.5 percent of women age 15–49** — NFHS-5 (2019–21), as reproduced in NFHS-6 release, Odisha.[^people-nfhs6]
 - **Women using their own bank/savings account: 90.6 percent of women age 15–49** — NFHS-6 (2023–24); Odisha fieldwork 18 July–28 November 2024, Odisha.[^people-nfhs6]
 - **Women using a mobile phone: 50.1 percent of women age 15–49** — NFHS-5 (2019–21), as reproduced in NFHS-6 release, Odisha.[^people-nfhs6]
+
+## Read this in context
+
+Subject: [People and communities](../subjects/people.md). Also part of [Everyday life and human development](../subjects/everyday.md), [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Demography](demography.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

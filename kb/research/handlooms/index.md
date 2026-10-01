@@ -14,3 +14,5 @@ Textile traditions, production places and buying research.
 - [Boyanika](boyanika.md)
 
 [Knowledge base home](../index.md)
+
+[Garment forms, traditions and markets](garments-and-markets.md)

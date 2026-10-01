@@ -6,19 +6,30 @@ tags: ["statistics", "public-finance-audit"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "macro-cag-fy2025", "title": "Odisha State Finances Audit Report 2024–25 — Chapter 1", "resource": "https://www.digitalreports.cag.gov.in/odisha/chapter/1?from=app-1.2"}]
+subjects: ["governance", "economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Public Finance Audit
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for public finance audit. These are research records, not a composite performance ranking.
+What do audited accounts reveal about spending, liabilities and fiscal balances? Read audit adjustments with the headline figures; a lower debt ratio can coexist with a larger debt stock.
 
 ## Selected facts to explore
 
 - **Recorded capital expenditure: 45,481 INR crore** — 2024-25, Odisha.[^macro-cag-fy2025]
 - **Revenue surplus before audit adjustment: 22,651 INR crore** — 2024-25, Odisha.[^macro-cag-fy2025]
 - **Revenue surplus after audit adjustment: 21,930 INR crore** — 2024-25, Odisha.[^macro-cag-fy2025]
+
+## Read this in context
+
+Subject: [Governance and public life](../subjects/governance.md). Also part of [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Public Finance Monitoring](public-finance-monitoring.md) — Keep annual audited accounts distinct from provisional monthly reporting.
+- [Odisha’s smart-city journey](../journeys/smart-cities.md) — A scheme’s completed-project value is not the same as statewide annual expenditure.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

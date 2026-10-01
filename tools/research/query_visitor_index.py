@@ -1,7 +1,7 @@
 """Offline search across the saved visitor index and its area relationships."""
 import argparse,json
 from pathlib import Path
-ROOT=(Path(__file__).resolve().parents[2]/'kb/research')
+ROOT=Path(__file__).resolve().parents[2]/'kb/research'
 p=argparse.ArgumentParser(description=__doc__)
 p.add_argument('query',nargs='?',default='')
 p.add_argument('--json',action='store_true',dest='as_json')

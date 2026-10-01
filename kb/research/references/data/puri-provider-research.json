@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-01T072448Z",
+  "task_id": "RES-006",
+  "checked_at": "2026-10-01T00:28:47-07:00",
+  "scope": "Small purposive public-source sample for the Puri craft-area research; not a complete inventory or endorsement.",
+  "records": [
+    {
+      "checked_at": "2026-10-01T00:28:47-07:00",
+      "available_now": null,
+      "current_approval_validity": null,
+      "fees": null,
+      "languages": null,
+      "contacted": false,
+      "publication_status": "research_listing_not_recommendation",
+      "id": "guide-debasis-sethi",
+      "kind": "guide",
+      "name": "Debasis Sethi",
+      "source_ids": [
+        "puri-guide-app-directory"
+      ],
+      "locator": "Visible DEBASIS SETHI card",
+      "geography": "Puri, as listed",
+      "evidence_status": "official_directory_listing",
+      "scope": "Named guide-directory presence; exact service territory, credentials, craft expertise and dates unknown."
+    },
+    {
+      "checked_at": "2026-10-01T00:28:47-07:00",
+      "available_now": null,
+      "current_approval_validity": null,
+      "fees": null,
+      "languages": null,
+      "contacted": false,
+      "publication_status": "research_listing_not_recommendation",
+      "id": "guide-kedarnath-hota-conflict",
+      "kind": "guide",
+      "name": "Kedarnath Hota",
+      "source_ids": [
+        "puri-guide-app-directory"
+      ],
+      "locator": "Visible KEDARNATH HOTA card",
+      "geography": null,
+      "evidence_status": "hold_location_conflict",
+      "scope": "Address text names Puri, while location labels name BBSR/KHORDHA. Do not assign to Puri or copy residential address."
+    },
+    {
+      "checked_at": "2026-10-01T00:28:47-07:00",
+      "available_now": null,
+      "current_approval_validity": null,
+      "fees": null,
+      "languages": null,
+      "contacted": false,
+      "publication_status": "research_listing_not_recommendation",
+      "id": "operator-heritage-tours",
+      "kind": "tour_operator",
+      "name": "Heritage Tours",
+      "source_ids": [
+        "puri-approved-operators",
+        "puri-heritage-tours-provider"
+      ],
+      "locator": "Puri row 1; earlier row 67; provider footer and service description",
+      "geography": "C.T. Road, Puri",
+      "evidence_status": "official_listing_and_provider_description",
+      "approval_history": [
+        {
+          "reference": "13116/TSM",
+          "date": "2012-11-26"
+        },
+        {
+          "reference": "7603/TSM",
+          "date": "2022-09-27"
+        }
+      ],
+      "scope": "One firm with multiple dated listing references; provider advertises guides, tours and stay/transport reservations. Current validity and actual operation unverified."
+    },
+    {
+      "checked_at": "2026-10-01T00:28:47-07:00",
+      "available_now": null,
+      "current_approval_validity": null,
+      "fees": null,
+      "languages": null,
+      "contacted": false,
+      "publication_status": "research_listing_not_recommendation",
+      "id": "operator-grass-routes",
+      "kind": "tour_operator",
+      "name": "Grass Routes Pvt. Ltd.",
+      "source_ids": [
+        "puri-approved-operators"
+      ],
+      "locator": "Puri row 2",
+      "geography": "C.T. Road, Puri, as listed",
+      "evidence_status": "official_directory_listing",
+      "approval_history": [
+        {
+          "reference": "12844/TSM",
+          "date": "2012-11-23"
+        },
+        {
+          "reference": "3974/TSM",
+          "date": "2013-03-20"
+        }
+      ],
+      "scope": "Dated official listing; provider website returned 502. Failure does not establish business closure."
+    },
+    {
+      "checked_at": "2026-10-01T00:28:47-07:00",
+      "available_now": null,
+      "current_approval_validity": null,
+      "fees": null,
+      "languages": null,
+      "contacted": false,
+      "publication_status": "research_listing_not_recommendation",
+      "id": "restaurant-nimantran-puri",
+      "kind": "food_venue",
+      "name": "Nimantran Restaurant, Puri",
+      "concept_id": "facilities/nimantran-puri",
+      "source_ids": [
+        "puri-nimantran-otdc"
+      ],
+      "locator": "Indexed OTDC restaurant heading and cuisine paragraph",
+      "geography": "Puri; street address unverified",
+      "evidence_status": "indexed_primary_listing",
+      "scope": "General Odia-cuisine offering; no specific indexed dish, menu, price or live service established."
+    },
+    {
+      "checked_at": "2026-10-01T00:28:47-07:00",
+      "available_now": null,
+      "current_approval_validity": null,
+      "fees": null,
+      "languages": null,
+      "contacted": false,
+      "publication_status": "research_listing_not_recommendation",
+      "id": "stay-panthanivas-puri",
+      "kind": "accommodation",
+      "name": "Panthanivas Puri",
+      "concept_id": "facilities/panthanivas-puri",
+      "source_ids": [
+        "puri-panthanivas-property"
+      ],
+      "locator": "Indexed OTDC property Facilities and address",
+      "geography": "Chakra Tirtha Road, Penthakata, Puri",
+      "evidence_status": "indexed_primary_listing",
+      "scope": "Stay with restaurant and sightseeing/transport listings; no room-night inventory, booking or quality assessment."
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://apps.odishatourism.gov.in/find-tour-guide",
+      "status": "available",
+      "scope": "Direct HTML; visible guide cards"
+    },
+    {
+      "url": "https://dot.odisha.gov.in/en/tourism-department-info-planner/approved-tour-operators",
+      "status": "available",
+      "scope": "Direct HTML; Puri rows 1–2 and earlier Heritage Tours row 67"
+    },
+    {
+      "url": "https://www.heritagetoursorissa.com/",
+      "status": "available",
+      "scope": "Direct HTML; package navigation and footer"
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/",
+      "status": "unavailable",
+      "detail": "Internal error",
+      "indexed_extract_used": false
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/subsubpage/nimantran-restaurant-puri",
+      "status": "unavailable",
+      "detail": "Internal error",
+      "indexed_extract_used": true
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/accommodations/panthanivas-puri",
+      "status": "unavailable",
+      "detail": "Internal error",
+      "indexed_extract_used": true
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/page/contact-us",
+      "status": "unavailable",
+      "detail": "Internal error",
+      "indexed_extract_used": false
+    },
+    {
+      "url": "https://www.grassroutesjourneys.com/",
+      "status": "unavailable",
+      "detail": "502 Bad Gateway",
+      "indexed_extract_used": false
+    }
+  ],
+  "unknowns": [
+    "Guide credentials, languages and craft-specific expertise",
+    "Current approval validity and provider availability",
+    "Nimantran Puri street address, branch opening date and current menu",
+    "Specific serving venues for Mahaprasad and Chhena jhili",
+    "Willing craft hosts and agreed visits"
+  ],
+  "retry_after": "2026-10-08T07:24:48Z",
+  "next_action": "RES-007 may use these as provider research leads only. Recheck failed original pages and source current credential/operating details before recommendations.",
+  "human_review_claimed": false,
+  "external_messages_sent": false
+}

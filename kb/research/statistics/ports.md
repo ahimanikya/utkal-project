@@ -6,19 +6,30 @@ tags: ["statistics", "ports"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "connect-paradip2025", "title": "Paradip Port Cements Its Position As Numero Uno among Indian Major Ports, 2 April 2025", "resource": "https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/"}, {"id": "connect-paradip2026", "title": "Paradip Port Authority: Major Achievements", "resource": "https://paradipport.gov.in/major-achievements/"}]
+subjects: ["economy", "places"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Ports
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for ports. These are research records, not a composite performance ranking.
+How much cargo moves through the port? Throughput describes handled cargo and can include domestic coastal movements; it is not the value of Odisha exports.
 
 ## Selected facts to explore
 
 - **Total cargo throughput: 150.41 million metric tonnes** — 2024–25, Paradip Port.[^connect-paradip2026]
 - **Total cargo throughput: 156.45 million metric tonnes** — 2025–26, Paradip Port.[^connect-paradip2026]
 - **Coastal cargo throughput: 63.71 million metric tonnes** — 2024–25, Paradip Port.[^connect-paradip2025]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md). Also part of [Places and geography](../subjects/places.md).
+
+- [Odisha merchandise exports: five-year scale change](../trade/merchandise-exports.md) — Cargo tonnage and export value describe different flows.
+- [Maritime Odisha: the evidence structure](../history/maritime-evidence.md) — Explore historical trade evidence without implying an unbroken modern route.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

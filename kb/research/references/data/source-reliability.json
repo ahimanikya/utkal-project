@@ -1,0 +1,1206 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T02:37:51-07:00",
+  "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
+  "feeds": [
+    {
+      "source_id": "pipeline-tourism-releases",
+      "discovery_url": "https://dot.odisha.gov.in/en/publications/tourism-download",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:24:50-07:00",
+      "scope": "Listing reviewed: annual report 2025-26, bulletin 2024 and older reports. Annual-report download rejected by web extraction for content length; no report contents newly verified.",
+      "publication_cadence": "Annual report and calendar-year bulletin; exact future release date unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "download_probe": {
+        "url": "https://dot.odisha.gov.in/sites/default/files/2026-08/Annual%20Report%202025-26_2.pdf",
+        "status": "unavailable",
+        "detail": "Content length too large: 17100254 bytes."
+      },
+      "next_action": "See source-recovery.json for exact failures and official alternatives; retry after the recorded date, preserving prior observations.",
+      "attempts": [
+        {
+          "id": "tourism-annual-2025-26",
+          "url": "https://dot.odisha.gov.in/sites/default/files/2026-08/Annual%20Report%202025-26_2.pdf",
+          "method": "direct HTTPS download with urllib",
+          "attempted_at": "2026-09-30T22:51:29-07:00",
+          "status": "unavailable",
+          "error": "<urlopen error timed out>",
+          "retry_after": "2026-10-08T05:23:42Z",
+          "table_location": null,
+          "values_verified": false,
+          "run_id": "2026-10-01T052342Z"
+        }
+      ],
+      "retry_after": "2026-10-08T05:23:42Z",
+      "capture_history": [
+        {
+          "run_id": "2026-10-01T052342Z",
+          "checked_at": "2026-09-30T22:58:24-07:00",
+          "scope": "Bounded recovery failed; primary contents not retrieved. Official alternative and exact workbook URLs saved in source-recovery.json."
+        }
+      ]
+    },
+    {
+      "source_id": "pipeline-economic-releases",
+      "discovery_url": "https://pc.odisha.gov.in/en/publication/economic-survey-report?field_financial_year_target_id=All&page=0",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:24:50-07:00",
+      "scope": "Listing reviewed: full 2025-26 survey, English/Odia summaries and older appendices. Correct /en/ catalogue succeeds where the path without /en/ failed. Full report fetch timed out.",
+      "publication_cadence": "Annual editions visible; publication calendar and revision policy not established.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "download_probe": {
+        "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/OES%202026%20WEB%20UPLOAD.pdf",
+        "status": "unavailable",
+        "detail": "Timeout fetching."
+      },
+      "next_action": "See source-recovery.json for exact failures and official alternatives; retry after the recorded date, preserving prior observations.",
+      "attempts": [
+        {
+          "id": "economic-survey-2025-26",
+          "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/OES%202026%20WEB%20UPLOAD.pdf",
+          "method": "direct HTTPS download with urllib",
+          "attempted_at": "2026-09-30T22:51:29-07:00",
+          "status": "unavailable",
+          "error": "<urlopen error timed out>",
+          "retry_after": "2026-10-08T05:23:42Z",
+          "table_location": null,
+          "values_verified": false,
+          "run_id": "2026-10-01T052342Z"
+        }
+      ],
+      "retry_after": "2026-10-08T05:23:42Z",
+      "capture_history": [
+        {
+          "run_id": "2026-10-01T052342Z",
+          "checked_at": "2026-09-30T22:58:24-07:00",
+          "scope": "Bounded recovery failed; primary contents not retrieved. Official alternative and exact workbook URLs saved in source-recovery.json."
+        }
+      ]
+    },
+    {
+      "source_id": "pipeline-des-tables",
+      "discovery_url": "https://des.odisha.gov.in/en/pages/data-tables",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:24:50-07:00",
+      "scope": "Listing reviewed: current/constant GSDP and GSVA links through 2025-26, district tables for 2025 and district compilation for 2026. Linked current-price sheet and district compilation did not open in web extraction. Release-calendar fetch timed out.",
+      "publication_cadence": "Annual labels visible; calendar advertised but not successfully retrieved.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "download_probe": {
+        "url": "https://des.odisha.gov.in/en/pages/data-tables",
+        "status": "unavailable",
+        "detail": "Linked sheet and district compilation returned internal errors. Calendar timed out."
+      },
+      "next_action": "See source-recovery.json for exact failures and official alternatives; retry after the recorded date, preserving prior observations.",
+      "attempts": [
+        {
+          "id": "district-at-glance-2026",
+          "url": "https://des.odisha.gov.in/data_table/DAG_2026.xlsx",
+          "method": "direct HTTPS download with urllib",
+          "attempted_at": "2026-09-30T22:53:00-07:00",
+          "status": "unavailable",
+          "error": "<urlopen error timed out>",
+          "retry_after": "2026-10-08T05:23:42Z",
+          "table_location": null,
+          "values_verified": false,
+          "run_id": "2026-10-01T052342Z"
+        },
+        {
+          "id": "district-education",
+          "url": "https://des.odisha.gov.in/data_table/Education.xlsx",
+          "method": "direct HTTPS download with urllib",
+          "attempted_at": "2026-09-30T22:53:00-07:00",
+          "status": "unavailable",
+          "error": "<urlopen error timed out>",
+          "retry_after": "2026-10-08T05:23:42Z",
+          "table_location": null,
+          "values_verified": false,
+          "run_id": "2026-10-01T052342Z"
+        },
+        {
+          "id": "district-health",
+          "url": "https://des.odisha.gov.in/data_table/Health.xlsx",
+          "method": "direct HTTPS download with urllib",
+          "attempted_at": "2026-09-30T22:53:45-07:00",
+          "status": "unavailable",
+          "error": "<urlopen error timed out>",
+          "retry_after": "2026-10-08T05:23:42Z",
+          "table_location": null,
+          "values_verified": false,
+          "run_id": "2026-10-01T052342Z"
+        }
+      ],
+      "retry_after": "2026-10-08T05:23:42Z",
+      "capture_history": [
+        {
+          "run_id": "2026-10-01T052342Z",
+          "checked_at": "2026-09-30T22:58:24-07:00",
+          "scope": "Bounded recovery failed; primary contents not retrieved. Official alternative and exact workbook URLs saved in source-recovery.json."
+        }
+      ]
+    },
+    {
+      "source_id": "pipeline-slbc-releases",
+      "discovery_url": "https://slbcorissa.com/",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:24:50-07:00",
+      "scope": "Homepage lists 184th and 183rd agendas and dated MSME cluster releases. The 184th agenda PDF is accessible. Cover letter dated 29 August 2026 specifies quarter ended June 2026 and meeting scheduled 5 September 2026; source PDF page index 1, contents indices 2–5. Statistical tables not re-extracted in this batch.",
+      "publication_cadence": "Quarterly review scope established by agenda cover; exact next release unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "download_probe": {
+        "url": "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf",
+        "status": "available",
+        "detail": "PDF text accessible; this is not a finding that all statistical values are unchanged."
+      },
+      "next_action": "Extract and compare district banking tables with preserved vintages."
+    },
+    {
+      "source_id": "pipeline-trai-releases",
+      "title": "TRAI performance report catalogue",
+      "discovery_url": "https://www.trai.gov.in/release-publication/reports/performance-indicators-reports",
+      "publisher": "Telecom Regulatory Authority of India",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Catalogue lists quarterly and annual reports, with release dates and download links; January–March 2026 row dated 22 June 2026.",
+      "publication_cadence": "Quarterly and annual series shown; future dates unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Follow exact period link; retrieve state tables and operator footnotes; use direct local download if web extraction fails.",
+      "revision_signal": "Compare report period, listed release date, file hash and revision notices.",
+      "download_probe": {
+        "url": "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf",
+        "status": "unavailable",
+        "detail": "Linked download returned web extraction internal error; prior observations unchanged by this probe."
+      },
+      "attempts": [],
+      "next_action": "Follow exact period link; retrieve state tables and operator footnotes; use direct local download if web extraction fails.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-cag-releases",
+      "title": "CAG Odisha monthly accounts catalogue",
+      "discovery_url": "https://cag.gov.in/ae/odisha/en/state-accounts-report?defuat_account_report_type=360",
+      "publisher": "Principal Accountant General (A&E), Odisha",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Fiscal-year archive lists monthly indicators through August 2026. Linked August PDF accessible; first page labels figures unaudited/provisional and warns comparison is indicative due to excluded accounts.",
+      "publication_cadence": "Monthly labels; next publication date unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Follow matching monthly PDF; inspect column headers visually before extracting cumulative actuals, budget estimates and prior-year comparisons.",
+      "revision_signal": "Compare fiscal year, month, provisional/final labels and replacement file hashes.",
+      "download_probe": {
+        "url": "https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-August-06aabdead52f8a8-29844579.pdf",
+        "status": "available",
+        "detail": "40-page PDF text available; first-page labels inspected, no values imported.",
+        "location": "PDF page index 0"
+      },
+      "attempts": [],
+      "next_action": "Follow matching monthly PDF; inspect column headers visually before extracting cumulative actuals, budget estimates and prior-year comparisons.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-paradip-traffic",
+      "title": "Paradip traffic report archive",
+      "discovery_url": "https://paradipport.gov.in/traffic/",
+      "publisher": "Paradip Port Authority",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Archive mixes daily traffic reports and a May 2026 major-port comparison. The May comparison PDF is readable; no cargo values or ranking imported.",
+      "publication_cadence": "Daily and monthly document labels coexist; reporting frequency differs by measure.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Select monthly comparison for comparable cargo series; treat daily reports as a separate series and inspect cumulative/date headings.",
+      "revision_signal": "Match description, period, document URL and revised file hash rather than page footer.",
+      "download_probe": {
+        "url": "https://www.paradipport.gov.in/uploads/2026/06/Cargo-handled-at-Major-Ports-May-2026.pdf",
+        "status": "available",
+        "detail": "Seven-page PDF text accessible; table values not verified or imported."
+      },
+      "attempts": [],
+      "next_action": "Select monthly comparison for comparable cargo series; treat daily reports as a separate series and inspect cumulative/date headings.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-ipindia-releases",
+      "title": "IP India annual report catalogue",
+      "discovery_url": "https://www.ipindia.gov.in/pages/home/annual-report",
+      "publisher": "Office of the Controller General of Patents Designs and Trade Marks",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Annual report labels through 2024–25 appear in extracted catalogue; file links were not exposed in the extracted report rows.",
+      "publication_cadence": "Annual editions; future publication unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Use catalogue plus saved official 2024–25 PDF URL; if links are dynamic inspect the browser. Keep applications, grants and commercialisation distinct.",
+      "revision_signal": "Compare year/title, download path, file hash and report corrections.",
+      "download_probe": {
+        "url": null,
+        "status": "not_tested",
+        "detail": "No linked statistical table extraction in this discovery batch."
+      },
+      "attempts": [],
+      "next_action": "Use catalogue plus saved official 2024–25 PDF URL; if links are dynamic inspect the browser. Keep applications, grants and commercialisation distinct.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-investodisha-discovery",
+      "title": "Invest Odisha discovery lead",
+      "discovery_url": "https://www.investodisha.gov.in/",
+      "publisher": "Invest Odisha",
+      "listing_status": "unavailable",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Direct homepage fetch returned an internal error. Search-index material cannot establish current announcements or implementation.",
+      "publication_cadence": "Event-based research recommendation; no publisher schedule verified.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Retry official portal in a later batch; meanwhile use official economic-survey catalogue and source-specific government releases plus company filings.",
+      "revision_signal": "Match project identities, announcement dates and stages; compare company filings for outcome evidence.",
+      "download_probe": {
+        "url": null,
+        "status": "not_tested",
+        "detail": "No linked statistical table extraction in this discovery batch."
+      },
+      "attempts": [
+        {
+          "url": "https://www.investodisha.gov.in/",
+          "method": "web open",
+          "status": "unavailable",
+          "detail": "Internal error; homepage content not captured."
+        }
+      ],
+      "next_action": "Retry official portal in a later batch; meanwhile use official economic-survey catalogue and source-specific government releases plus company filings.",
+      "retry_after": "2026-10-08T03:30:54Z",
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-urban-releases",
+      "title": "Odisha urban activity reports",
+      "discovery_url": "https://urban.odisha.gov.in/en/publication/activity-report",
+      "publisher": "Housing and Urban Development Department, Odisha",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Catalogue lists 2025–26 and older fiscal-year activity reports. Latest listed PDF failed in web extraction.",
+      "publication_cadence": "Annual fiscal-year labels; exact release dates not listed in captured table.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Follow annual report link, try direct local download and inspect project/service tables; corroborate city-level operating outcomes separately.",
+      "revision_signal": "Compare fiscal year and replacement file hash; footer freshness does not date tables.",
+      "download_probe": {
+        "url": null,
+        "status": "unavailable",
+        "detail": "2025–26 download link (46.09 MB listed) returned internal error; resolved file URL not captured.",
+        "locator": "Catalogue row 1, Download link"
+      },
+      "attempts": [],
+      "next_action": "Follow annual report link, try direct local download and inspect project/service tables; corroborate city-level operating outcomes separately.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-pib-releases",
+      "title": "PIB releases discovery interface",
+      "discovery_url": "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2",
+      "publisher": "Press Information Bureau, Government of India",
+      "listing_status": "partial",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Ministry and date controls visible, but extracted list displays zero releases. This dynamic capture does not establish absence of releases.",
+      "publication_cadence": "Event-based; no fixed publication calendar established.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Use ministry/date filters in browser or official-domain search then open individual PRID pages; capture language, region and release date.",
+      "revision_signal": "Stable PRID plus publication date, correction text and content hash; deduplicate language versions.",
+      "download_probe": {
+        "url": null,
+        "status": "not_tested",
+        "detail": "No linked statistical table extraction in this discovery batch."
+      },
+      "attempts": [
+        {
+          "url": "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2",
+          "method": "web HTML",
+          "status": "partial",
+          "detail": "Controls read; release listing did not populate."
+        }
+      ],
+      "next_action": "Use ministry/date filters in browser or official-domain search then open individual PRID pages; capture language, region and release date.",
+      "retry_after": "2026-10-08T03:30:54Z",
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-pib-archive-guide",
+      "title": "PIB archive discovery guidance",
+      "discovery_url": "https://www.pib.gov.in/Aboutarchive.aspx?lang=6&reg=17",
+      "publisher": "Press Information Bureau, Government of India",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Publisher guidance describes year/month, ministry and keyword discovery. Archive landing page itself failed to open in this run.",
+      "publication_cadence": "Historical and event releases; exact future dates unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Use the documented archive search where available; fall back to official-domain search and opened primary releases.",
+      "revision_signal": "Compare release ID, ministry, publication timestamp and later corrections.",
+      "download_probe": {
+        "url": "https://archive.pib.gov.in/",
+        "status": "unavailable",
+        "detail": "Archive landing page returned internal error; help text was readable."
+      },
+      "attempts": [],
+      "next_action": "Use the documented archive search where available; fall back to official-domain search and opened primary releases.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-fsi-releases",
+      "title": "Forest Survey of India publications",
+      "discovery_url": "https://fsi.nic.in/reports-publications",
+      "publisher": "Forest Survey of India",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Publication page links assessment years including 2023 and describes ISFR as biennial. Opening the 2023 report entrance failed.",
+      "publication_cadence": "Biennial explicitly stated; next publication date unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Follow assessment edition and Odisha chapter; inspect revised prior-assessment baselines before comparing forest-cover change.",
+      "revision_signal": "Edition year, assessment definitions, revisions to previous baseline and corrected tables.",
+      "download_probe": {
+        "url": null,
+        "status": "unavailable",
+        "detail": "Year 2023 / Download Now link returned internal error; document not retrieved.",
+        "locator": "State of Forest Report Year 2023 link"
+      },
+      "attempts": [],
+      "next_action": "Follow assessment edition and Odisha chapter; inspect revised prior-assessment baselines before comparing forest-cover change.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-irel-releases",
+      "title": "IREL annual report catalogue",
+      "discovery_url": "https://www.irel.co.in/annual-reports",
+      "publisher": "IREL (India) Limited",
+      "listing_status": "available",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Annual-report catalogue lists 2024–25 and earlier years. The linked 2024–25 PDF is accessible; cover and contents observed, no Odisha output figures extracted.",
+      "publication_cadence": "Annual fiscal-year reports; future publication unknown.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Find OSCOM-specific production and investment tables in report; do not assign company-wide results to Odisha.",
+      "revision_signal": "Fiscal year, standalone/consolidated scope, restatements and plant/product basis.",
+      "download_probe": {
+        "url": "https://www.irel.co.in/documents/20126/114997/Annual%2BReport%2B2024-25%2BIREL%2B%281%29.pdf/cb3382a3-24fa-c697-4a7c-782752762b4c?t=1762855411950",
+        "status": "available",
+        "detail": "372-page PDF text accessible; cover and contents only inspected.",
+        "location": "PDF page indices 0–2"
+      },
+      "attempts": [],
+      "next_action": "Find OSCOM-specific production and investment tables in report; do not assign company-wide results to Odisha.",
+      "retry_after": null,
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-aai-traffic",
+      "title": "AAI traffic news discovery lead",
+      "discovery_url": "https://aai.aero/en/business-opportunities/aai-traffic-news",
+      "publisher": "Airports Authority of India",
+      "listing_status": "unavailable",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Official search index exposes monthly traffic annexures including passenger and state/UT tables. Direct fetches on both host variants failed; no latest-period values verified.",
+      "publication_cadence": "Monthly labels in search discovery only.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Retry publisher in browser or direct official linked PDF; select passenger Annexure III or state/UT Annexure VI with exact month/cumulative basis.",
+      "revision_signal": "Period and annexure, provisional/revised labels and file changes; airport and state totals remain distinct.",
+      "download_probe": {
+        "url": null,
+        "status": "not_tested",
+        "detail": "No linked statistical table extraction in this discovery batch."
+      },
+      "attempts": [
+        {
+          "url": "https://aai.aero/en/business-opportunities/aai-traffic-news",
+          "method": "web open",
+          "status": "unavailable",
+          "detail": "Internal error."
+        },
+        {
+          "url": "https://www.aai.aero/en/business-opportunities/aai-traffic-news",
+          "method": "web open",
+          "status": "unavailable",
+          "detail": "Internal error."
+        }
+      ],
+      "next_action": "Retry publisher in browser or direct official linked PDF; select passenger Annexure III or state/UT Annexure VI with exact month/cumulative basis.",
+      "retry_after": "2026-10-08T03:30:54Z",
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-mospi-reports",
+      "title": "MoSPI report catalogue discovery lead",
+      "discovery_url": "https://www.mospi.gov.in/download-reports?main_=",
+      "publisher": "Ministry of Statistics and Programme Implementation",
+      "listing_status": "unavailable",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Official search index identifies report catalogue; direct extraction returned zero lines. No current report list or release date verified.",
+      "publication_cadence": "Series-specific; current publication schedule not established.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Use interactive report catalogue or official-domain report search; retrieve survey design and calendar/fiscal-period definitions before joining PLFS vintages.",
+      "revision_signal": "Report title, survey period, redesign notices and estimate vintage.",
+      "download_probe": {
+        "url": null,
+        "status": "not_tested",
+        "detail": "No linked statistical table extraction in this discovery batch."
+      },
+      "attempts": [
+        {
+          "url": "https://www.mospi.gov.in/download-reports?main_=",
+          "method": "web HTML",
+          "status": "unavailable",
+          "detail": "Zero-line extraction, not proof of an empty catalogue."
+        }
+      ],
+      "next_action": "Use interactive report catalogue or official-domain report search; retrieve survey design and calendar/fiscal-period definitions before joining PLFS vintages.",
+      "retry_after": "2026-10-08T03:30:54Z",
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "pipeline-udise-publications",
+      "title": "UDISE publication discovery lead",
+      "discovery_url": "https://udiseplus.gov.in/#/Publication",
+      "publisher": "Department of School Education and Literacy, Government of India",
+      "listing_status": "unavailable",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "UDISE publication route produced no extracted text. Ministry alternative redirected to a differently named hostname and exposed only a heading; it is not used as verified evidence.",
+      "publication_cadence": "Annual academic-year series from saved baseline; current catalogue not verified.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Use official UDISE browser publication route or saved report PDF; independently establish any redirected host before trusting its content.",
+      "revision_signal": "Academic year, existing versus NEP structure, definitions and corrected report version.",
+      "download_probe": {
+        "url": null,
+        "status": "not_tested",
+        "detail": "No linked statistical table extraction in this discovery batch."
+      },
+      "attempts": [
+        {
+          "url": "https://udiseplus.gov.in/#/Publication",
+          "method": "web HTML",
+          "status": "unavailable",
+          "detail": "Zero-line extraction."
+        },
+        {
+          "url": "https://dsel.education.gov.in/en/statistics",
+          "method": "web HTML",
+          "status": "unavailable",
+          "detail": "Redirected to https://www.dsel-education.gov.in/en/statistics; only heading captured. Redirect destination not authenticated as a publication source."
+        }
+      ],
+      "next_action": "Use official UDISE browser publication route or saved report PDF; independently establish any redirected host before trusting its content.",
+      "retry_after": "2026-10-08T03:30:54Z",
+      "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "weekly-nfhs-district-release",
+      "title": "NFHS district release discovery",
+      "discovery_url": "https://www.nfhsiips.in/nfhsuser/release-details.php",
+      "publisher": "International Institute for Population Sciences",
+      "listing_status": "unavailable",
+      "checked_at": "2026-09-30T20:36:07-07:00",
+      "scope": "Release notice remains discoverable through official search index; direct notice and homepage fetches both failed. District estimates not retrieved.",
+      "publication_cadence": "Survey rounds and staged release notices; not an annual series.",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "extraction_route": "Use publisher Documents/Publications route when available; retrieve Odisha district compendium with survey vintage and definitions.",
+      "revision_signal": "Survey round, factsheet version, release/correction notice and restated baseline.",
+      "download_probe": {
+        "url": null,
+        "status": "not_tested",
+        "detail": "No linked statistical table extraction in this discovery batch."
+      },
+      "attempts": [
+        {
+          "url": "https://www.nfhsiips.in/nfhsuser/release-details.php",
+          "method": "web open",
+          "status": "unavailable",
+          "detail": "Internal error."
+        },
+        {
+          "url": "https://www.nfhsiips.in/nfhsuser/index.php",
+          "method": "web open",
+          "status": "unavailable",
+          "detail": "Internal error."
+        }
+      ],
+      "next_action": "Use publisher Documents/Publications route when available; retrieve Odisha district compendium with survey vintage and definitions.",
+      "retry_after": "2026-10-08T03:30:54Z",
+      "run_id": "2026-10-01T033054Z"
+    }
+  ],
+  "tracks": [
+    {
+      "track_id": "tourism",
+      "source_ids": [
+        "comparison-9-1"
+      ],
+      "baseline_urls": [
+        "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf"
+      ],
+      "targets": [
+        "economy/comparison-09-tourism.md",
+        "economy/comparison-10-tourism.md"
+      ],
+      "refresh_rule": "Annual; retain calendar year and pre-pandemic benchmark. Visits are not unique people. Hold the conflicting 2024 foreign-visits totals until scope and revisions are reconciled.",
+      "discovery_source_ids": [
+        "pipeline-tourism-releases"
+      ],
+      "discovery_status": "partial_discovery_checked",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "conflicted"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "gsdp",
+      "source_ids": [
+        "legacy-oes",
+        "sector-survey"
+      ],
+      "baseline_urls": [
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+      ],
+      "targets": [
+        "economy/gdp-story.md",
+        "statistics/economic-size-and-income.md"
+      ],
+      "refresh_rule": "Annual and revisions; keep current/constant prices, base year and AE/RE/actual status.",
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-des-tables"
+      ],
+      "discovery_status": "partial_discovery_checked",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "sector-growth",
+      "source_ids": [
+        "sector-survey"
+      ],
+      "baseline_urls": [
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"
+      ],
+      "targets": [
+        "references/data/industry-growth-data.json"
+      ],
+      "refresh_rule": "Annual and revisions; recalculate matched five/ten-year endpoints only.",
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-des-tables"
+      ],
+      "discovery_status": "partial_discovery_checked",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "exports",
+      "source_ids": [
+        "maritime-exports-2026",
+        "comparison-2-1",
+        "weekly-fisheries-jul2026"
+      ],
+      "baseline_urls": [
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48"
+      ],
+      "targets": [
+        "references/data/maritime-metrics.json",
+        "economy/comparison-02-marine-exports.md"
+      ],
+      "refresh_rule": "Published periods; distinguish currency values, physical quantities and coverage.",
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "port-cargo",
+      "source_ids": [
+        "legacy-port",
+        "legacy-ports"
+      ],
+      "baseline_urls": [
+        "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
+        "https://paradipport.gov.in/all_news/major-ports-record-915-million-tonnes-cargo-in-fy-2025-26-surpass-target-with-7-06-growth/"
+      ],
+      "targets": [
+        "economy/comparison-05-port-logistics.md"
+      ],
+      "refresh_rule": "Published monthly, year-to-date or annual totals; compare like periods. Verify any rank against the full comparison set.",
+      "discovery_source_ids": [
+        "pipeline-paradip-traffic"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "investment",
+      "source_ids": [
+        "investment-survey-full-2026",
+        "investment-survey-summary-2026"
+      ],
+      "baseline_urls": [
+        "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"
+      ],
+      "targets": [
+        "journeys/investment.md",
+        "references/data/investment-tracker.json"
+      ],
+      "refresh_rule": "Check official project releases, company filings and public capital-outlay accounts. Separate actual/RE/BE, project stages and financing scope; deduplicate projects. Saved FDI remains background, not a standalone weekly track.",
+      "discovery_source_ids": [
+        "pipeline-economic-releases",
+        "pipeline-investodisha-discovery",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "smart-cities",
+      "source_ids": [
+        "journey-smart-2026",
+        "journey-smart-2025",
+        "weekly-smart-mar2026"
+      ],
+      "baseline_urls": [
+        "https://sansad.in/getFile/annex/270/AU1034_ThApTH.pdf?source=pqars",
+        "https://sansad.in/getFile/annex/267/AU700_2lthyS.pdf?source=pqars",
+        "https://www.sansad.in/getFile/annex/270/AU2600_vR0ZFk.pdf?source=pqars"
+      ],
+      "targets": [
+        "journeys/smart-cities.md",
+        "references/data/growth-journeys.json"
+      ],
+      "refresh_rule": "Event-driven snapshots; distinguish Bhubaneswar, Rourkela and combined counts. Do not infer quality or liveability.",
+      "discovery_source_ids": [
+        "pipeline-urban-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "rare-earths",
+      "source_ids": [
+        "journey-irel-reep",
+        "journey-rare-corridor",
+        "weekly-rare-aug2026"
+      ],
+      "baseline_urls": [
+        "https://www.irel.co.in/en-GB/oscom-rare-earth-extraction-plant",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247969&lang=2&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297681&lang=2&reg=3"
+      ],
+      "targets": [
+        "journeys/rare-earths.md",
+        "references/data/growth-journeys.json"
+      ],
+      "refresh_rule": "Event/annual releases; distinguish product basis, installed capacity, actual output and corridor proposal.",
+      "discovery_source_ids": [
+        "pipeline-irel-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "semiconductors",
+      "source_ids": [
+        "legacy-ism",
+        "legacy-glass",
+        "legacy-sicsez",
+        "journey-semicon-2026"
+      ],
+      "baseline_urls": [
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155459&lang=2&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253549&lang=2&reg=3",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2310397&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2312298&lang=1&reg=3"
+      ],
+      "targets": [
+        "journeys/semiconductors.md",
+        "references/data/growth-journeys.json"
+      ],
+      "refresh_rule": "Event releases; retain planned/approved/groundbreaking/commissioned/operating status, projected jobs and overlapping project scope.",
+      "discovery_source_ids": [
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unchanged"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "banking-and-enterprise-finance",
+      "source_ids": [
+        "macro-slbc-jun2026"
+      ],
+      "baseline_urls": [
+        "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Quarterly. Stocks, guarantees, registrations and disbursements are separate; preserve district rounding and CD-ratio conflict.",
+      "discovery_source_ids": [
+        "pipeline-slbc-releases"
+      ],
+      "discovery_status": "partial_discovery_checked",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "public-finances",
+      "source_ids": [
+        "macro-cag-aug2026",
+        "macro-cag-fy2025"
+      ],
+      "baseline_urls": [
+        "https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-August-06aabdead52f8a8-29844579.pdf",
+        "https://www.digitalreports.cag.gov.in/odisha/chapter/1?from=app-1.2"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Monthly and annual. Provisional cumulative accounts, budgets and audited spending must remain separate; note excluded accounts and audit adjustments.",
+      "discovery_source_ids": [
+        "pipeline-cag-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "people-and-learning",
+      "source_ids": [
+        "people-nfhs6",
+        "people-udise2025",
+        "people-plfs2024",
+        "people-mpi2023",
+        "weekly-nfhs-district-release"
+      ],
+      "baseline_urls": [
+        "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf",
+        "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf",
+        "https://www.mospi.gov.in/sites/default/files/publication_reports/AnnualReport_PLFS2023-24L2.pdf",
+        "https://www.niti.gov.in/node/868",
+        "https://www.nfhsiips.in/nfhsuser/release-details.php"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Check publication catalogues weekly; import only new survey/annual releases. Preserve survey design, age, sex, recall period and baseline vintages. Include deteriorating results.",
+      "discovery_source_ids": [
+        "weekly-nfhs-district-release",
+        "pipeline-udise-publications",
+        "pipeline-mospi-reports",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "land-and-livelihoods",
+      "source_ids": [
+        "nature-survey-summary",
+        "nature-fish-pib",
+        "nature-forest-pib",
+        "nature-chilika",
+        "weekly-fisheries-jul2026"
+      ],
+      "baseline_urls": [
+        "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2225760&lang=1&reg=5",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&lang=2&reg=48",
+        "https://www.chilika.com/chilika-ecology-and-biodiversity.php",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Annual or assessment-specific. Preserve area versus output, revised forest baselines and seasonal wildlife count methods.",
+      "discovery_source_ids": [
+        "pipeline-fsi-releases",
+        "pipeline-economic-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "services-and-environment",
+      "source_ids": [
+        "services-jjm",
+        "services-air",
+        "services-urban",
+        "nature-ncrmp"
+      ],
+      "baseline_urls": [
+        "https://sansad.in/getFile/annex/270/AU2625_hDEugu.pdf?source=pqars",
+        "https://www.rsdebate.nic.in/bitstream/123456789/755745/1/PQ_267_27032025_U3071_p149_p166.pdf",
+        "https://urban.odisha.gov.in/sites/default/files/2025-06/English%20Activity%20Report%202024%20Final_0.pdf",
+        "https://www.osdma.org/national-cyclone-risk-mitigation-project/"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Follow administrative and annual release cadence. Connections and installed capacity do not establish service quality. PM10 is not AQI; do not conflate city pollution and cleanliness.",
+      "discovery_source_ids": [
+        "pipeline-urban-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "mobility-and-digital-access",
+      "source_ids": [
+        "connect-airport2026",
+        "connect-rail2026",
+        "connect-internet2025",
+        "weekly-trai-mar2026"
+      ],
+      "baseline_urls": [
+        "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287573",
+        "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf",
+        "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Monthly, quarterly or event-based. Match full periods, passengers versus unique people, track versus route kilometres, and subscriptions versus persons.",
+      "discovery_source_ids": [
+        "pipeline-aai-traffic",
+        "pipeline-trai-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "changed"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "innovation-and-startups",
+      "source_ids": [
+        "enterprise-patents",
+        "enterprise-startups2025"
+      ],
+      "baseline_urls": [
+        "https://ipindia.gov.in/storage/uploads/media/English_Annual_Report_2024-25.pdf",
+        "https://sansad.in/getFile/loksabhaquestions/annex/187/AU588_lOfCvN.pdf?source=pqals"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md"
+      ],
+      "refresh_rule": "Annual and administrative updates. Applications are not grants; registries have different populations; preserve investment versus approval status.",
+      "discovery_source_ids": [
+        "pipeline-ipindia-releases",
+        "pipeline-pib-releases"
+      ],
+      "discovery_status": "initial_routes_mapped_with_capture_limits",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "unavailable"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "mapped_at": "2026-09-30T20:36:07-07:00",
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    },
+    {
+      "track_id": "visitor-economy-and-crafts",
+      "source_ids": [
+        "connect-tourism2024",
+        "connect-centres2026",
+        "connect-handloom2019",
+        "enterprise-hockeyindia2023",
+        "homestay-guideline-index",
+        "homestay-gazette-aug2026",
+        "homestay-go-portal",
+        "homestay-nidhi2025"
+      ],
+      "baseline_urls": [
+        "https://dot.odisha.gov.in/sites/default/files/2026-02/Statistical%20Bulletin%202024_0.pdf",
+        "https://dot.odisha.gov.in/sites/default/files/2026-04/Identified%20Tourist%20Centre%20in%20Odisha%20(382).pdf",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1596372",
+        "https://www.hockeyindia.org/news/year-in-review-hockey-india-revamps-domestic-circuit-hosts-multiple-international-events-across-different-cities-in-2023",
+        "https://dot.odisha.gov.in/en/guidelines",
+        "https://egazette.odisha.gov.in/extraordinary_archival_dept/70/1",
+        "https://gohomestay.odisha.gov.in/",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155162&lang=2&reg=48"
+      ],
+      "targets": [
+        "references/data/statistics-atlas.json",
+        "statistics/index.md",
+        "statistics/coverage.md",
+        "statistics/homestays.md",
+        "economy/homestay-support.md",
+        "references/data/homestay-research.json"
+      ],
+      "refresh_rule": "Annual, census or event-based. Historic inventories are not current operating availability; no inferred tourism spending or economic impact. For homestays, preserve targets versus active properties; fetch later amendments and full target tables, retain rooms/beds conflict, and use only comparable room-night series for demand. Failed/empty portals are unavailable, not zero or unchanged.",
+      "discovery_source_ids": [
+        "pipeline-tourism-releases",
+        "pipeline-des-tables"
+      ],
+      "discovery_status": "partial_discovery_checked",
+      "last_weekly_check": {
+        "at": "2026-09-27T09:11:23-07:00",
+        "run_id": "2026-09-27T160140Z",
+        "status": "conflicted"
+      },
+      "revision_policy": "not_established",
+      "next_release_date": null,
+      "coverage_limit": "Initial publisher routes, not exhaustive coverage of every submeasure or a working automated feed."
+    }
+  ],
+  "discovery_completion_scope": "Initial route inventory for all 17 groups; inaccessible endpoints explicitly retained. Document/table recovery is separate queued work.",
+  "check_history": [
+    {
+      "run_id": "2026-09-30-pipeline-setup",
+      "scope": "Four original discovery entrances preserved."
+    },
+    {
+      "run_id": "2026-10-01T033054Z",
+      "scope": "Remaining 12 track mappings, 14 additional feed records, including one reused NFHS source."
+    },
+    {
+      "run_id": "2026-10-01T092949Z",
+      "scope": "Literature editions and biographies; no weekly metric release checks or statistical values changed."
+    }
+  ],
+  "supplemental_discovery_routes": [
+    {
+      "source_id": "puri-guide-app-directory",
+      "discovery_url": "https://apps.odishatourism.gov.in/find-tour-guide",
+      "checked_at": "2026-10-01T00:29:22-07:00",
+      "run_id": "2026-10-01T072448Z",
+      "status": "available",
+      "scope": "Visible guide cards expose named public professional listings; not a census, current credential register or availability check.",
+      "relationship_to_saved_route": "Alternative to the main tour-guide page whose saved text capture did not populate profiles.",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "puri-wonders-operator-route",
+      "discovery_url": "https://apps.odishatourism.gov.in/tour/wonders-of-odisha-tourist-destinations",
+      "checked_at": "2026-10-01T01:31:49-07:00",
+      "run_id": "2026-10-01T082549Z",
+      "status": "available",
+      "scope": "Attributed operator route, not independent government verification, measured legs or current transport availability.",
+      "relationship_to_saved_route": "Specific package supplies route order absent from the generic planning template.",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-spark-publisher",
+      "discovery_url": "https://www.aupress.ca/books/120262-spark-of-light/",
+      "checked_at": "2026-10-01T02:37:51-07:00",
+      "run_id": "2026-10-01T092949Z",
+      "status": "available",
+      "scope": "English anthology; three format-specific ISBNs. Publisher page reviewed, not stock or sales. Twenty-six named author entries counted from contents; not a statewide writer total.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-spark-text",
+      "discovery_url": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf",
+      "checked_at": "2026-10-01T02:37:51-07:00",
+      "run_id": "2026-10-01T092949Z",
+      "status": "available",
+      "scope": "Copyright, credits and selected contributor notes inspected in publisher PDF and identical Library of Congress copy. 2016 biographies are historical snapshots, not current appointments. Publisher states CC BY-NC-ND 4.0; link to the edition rather than assume unrestricted commercial/derivative use.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-binapani-akademi",
+      "discovery_url": "https://sahitya-akademi.gov.in/library/meettheauthor/binapani_mohanty.pdf",
+      "checked_at": "2026-10-01T02:37:51-07:00",
+      "run_id": "2026-10-01T092949Z",
+      "status": "unavailable_direct_fetch_indexed_excerpt_saved",
+      "scope": "PDF open returned metadata but no text; screenshot fetch timed out. Indexed publisher text supports economics teaching, Chandol connection, 1990 national award and separate Jayanta Mahapatra translation Lata (1986). State award year 1968 conflicts with AU Press 1970; held unresolved.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-early-women-iucat",
+      "discovery_url": "https://iucat.iu.edu/catalog/6233391/librarian_view",
+      "checked_at": "2026-10-01T02:37:51-07:00",
+      "run_id": "2026-10-01T092949Z",
+      "status": "unavailable_direct_fetch_indexed_excerpt_saved",
+      "scope": "Direct fetch failed (cache miss). Indexed contents supplies Reba Ray 1876–1957, conflicting with AU Press 1875–1957. No birth year selected. Original-title pairing for The Vigil is a lead; edition-level identity and original publication date remain unverified.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://sahitya-akademi.gov.in/library/meettheauthor/pratibha_ray.pdf",
+      "checked_at": "2026-10-01T02:37:51-07:00",
+      "run_id": "2026-10-01T092949Z",
+      "status": "unavailable_content",
+      "scope": "PDF metadata only; screenshot timeout. No new claims adopted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sahitya-akademi.gov.in/awards/akademi%20samman_suchi.jsp",
+      "checked_at": "2026-10-01T02:37:51-07:00",
+      "run_id": "2026-10-01T092949Z",
+      "status": "unavailable_direct_fetch",
+      "scope": "Timeout; indexed award row agrees on 1990 but not separately promoted as fresh direct verification.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.loc.gov/acq/ovop/delhi/salrp/ramakantrath.html",
+      "checked_at": "2026-10-01T02:37:51-07:00",
+      "run_id": "2026-10-01T092949Z",
+      "status": "available_discovery",
+      "scope": "Ramakant Rath profile/readings found. Save for next batch; historical present-tense appointment not current.",
+      "retry_after": null,
+      "contact_action_performed": false
+    }
+  ]
+}

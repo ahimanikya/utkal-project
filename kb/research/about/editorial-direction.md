@@ -11,9 +11,11 @@ generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:18:25+00:00"}
 
 Current voice and narration follow the [Utkal storytelling standard](../../reference/storytelling-standard.md), directed by the Founder on 29 September 2026 UTC. The earlier naming and palette proposals below are superseded by the settled **Utkal Project** name, **Rediscover Utkal. Reimagine Odisha.** tagline and [brand direction 02](../../reference/brand-direction-02.md). They remain here as proposal history.
 
-## Current campaign priority
+## Current encyclopedia direction
 
-Tourism leads the public campaign, supported by food, handlooms, culture and city experiences. The objective is to build pride, curiosity and demand for Odisha, with broader trade and industry chapters later. Follow the [tourism-first strategy](tourism-first-strategy.md); the user’s future personal business is not the organising premise.
+The user’s 30 September 2026 direction is to expand, relate and classify content across Odisha. The [nine subject families](../subjects/index.md) give people, health, education, livelihoods, the economy, environment and governance their own reading paths alongside cultural and place knowledge. Pride and curiosity should grow from specific, supported details across these subjects.
+
+The [tourism campaign proposal](tourism-first-strategy.md) remains one focused collection. It does not govern all research or website navigation. The user’s future personal business is not the organising premise.
 
 ## Brand proposition
 

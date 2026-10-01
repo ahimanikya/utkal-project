@@ -6,18 +6,29 @@ tags: ["statistics", "industrial-production"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "enterprise-nalco2026", "title": "NALCO Production and Financial Highlights FY2025–26", "resource": "https://nalcoindia.com/company/our-growth-story/production-financial-highlights/"}]
+subjects: ["economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Industrial Production
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for industrial production. These are research records, not a composite performance ranking.
+What physical output do the named companies report? Product, company and location boundaries need to match before constructing a state industrial series.
 
 ## Selected facts to explore
 
 - **Bauxite excavated: 76.48 lakh tonnes** — 2024–25, NALCO company operations, Odisha-linked.[^enterprise-nalco2026]
 - **Bauxite excavated: 77.01 lakh tonnes** — 2025–26, NALCO company operations, Odisha-linked.[^enterprise-nalco2026]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

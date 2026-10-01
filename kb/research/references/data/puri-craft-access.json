@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-005",
+  "run_id": "2026-10-01T062318Z",
+  "checked_at": "2026-09-30T23:27:29-07:00",
+  "scope": "Three existing canonical places; identity plus dated captures of source-listed guidance and explicit unknowns. Not a field or operational audit.",
+  "observations": [
+    {
+      "id": "puri-identity",
+      "concept_id": "places/jagannath-temple-puri",
+      "field": "identity",
+      "value": "Shree Jagannath Temple in Puri",
+      "source_id": "visitor-jagannath",
+      "source_url": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple",
+      "locator": "District destination description",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "primary_identity_checked",
+      "current_operation_verified": false,
+      "qualification": ""
+    },
+    {
+      "id": "puri-hours-attraction",
+      "concept_id": "places/jagannath-temple-puri",
+      "field": "listed_hours",
+      "value": "05:00–23:00",
+      "source_id": "puri-temple-tourism-guidance",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html",
+      "locator": "Essentials / Timings",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "local clock time",
+      "price_basis": "not_applicable",
+      "evidence_status": "hold_conflict",
+      "current_operation_verified": false,
+      "qualification": "Not a continuous darshan schedule."
+    },
+    {
+      "id": "puri-hours-directory",
+      "concept_id": "places/jagannath-temple-puri",
+      "field": "listed_hours",
+      "value": "06:00–17:00",
+      "source_id": "puri-religious-shrines-directory",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/religious-shrines.html",
+      "locator": "Puri / Sri Mandira row",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "local clock time",
+      "price_basis": "not_applicable",
+      "evidence_status": "hold_conflict",
+      "current_operation_verified": false,
+      "qualification": "Conflicts with attraction page; no effective date."
+    },
+    {
+      "id": "puri-entry-listing",
+      "concept_id": "places/jagannath-temple-puri",
+      "field": "listed_entry_fee",
+      "value": "Free",
+      "source_id": "puri-temple-tourism-guidance",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html",
+      "locator": "Essentials / Entry fees",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "Source-listed general entry; does not establish eligibility or charges for other services."
+    },
+    {
+      "id": "puri-belongings",
+      "concept_id": "places/jagannath-temple-puri",
+      "field": "listed_belongings_restrictions",
+      "value": [
+        "camera",
+        "wallet",
+        "electronic gadgets"
+      ],
+      "source_id": "puri-temple-tourism-guidance",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html",
+      "locator": "Essentials / Misc",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "Preserve source wording; current SJTA policy and exceptions not retrieved."
+    },
+    {
+      "id": "puri-facility-listing",
+      "concept_id": "places/jagannath-temple-puri",
+      "field": "listed_facilities",
+      "value": [
+        "parking",
+        "outlets for depositing belongings near temple"
+      ],
+      "source_id": "puri-temple-tourism-guidance",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html",
+      "locator": "Essentials / Parking and Misc",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "No named operator, precise entrance, fee or operating check."
+    },
+    {
+      "id": "raghu-identity",
+      "concept_id": "culture/raghurajpur-pattachitra",
+      "field": "identity",
+      "value": "Raghurajpur village by the southern bank of the Bhargavi; craft practices and Gotipua",
+      "source_id": "puri-raghurajpur-district",
+      "source_url": "https://puri.odisha.gov.in/en/tourism/tourist-places/raghurajpur",
+      "locator": "District description",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "primary_identity_checked",
+      "current_operation_verified": false,
+      "qualification": ""
+    },
+    {
+      "id": "raghu-hours",
+      "concept_id": "culture/raghurajpur-pattachitra",
+      "field": "listed_hours",
+      "value": "06:00–18:00",
+      "source_id": "raghurajpur",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html",
+      "locator": "Essentials / Timings",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "local clock time",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "Village tourism listing, not appointment hours for individual workshops."
+    },
+    {
+      "id": "raghu-entry",
+      "concept_id": "culture/raghurajpur-pattachitra",
+      "field": "listed_entry_fee",
+      "value": "Free",
+      "source_id": "raghurajpur",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html",
+      "locator": "Essentials / Entry fees",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "Does not establish free demonstrations or workshops."
+    },
+    {
+      "id": "raghu-parking",
+      "concept_id": "culture/raghurajpur-pattachitra",
+      "field": "listed_facilities",
+      "value": [
+        "parking"
+      ],
+      "source_id": "raghurajpur",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html",
+      "locator": "Essentials / Parking",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "No location, fee or current capacity verified."
+    },
+    {
+      "id": "raghu-developed-facilities",
+      "concept_id": "culture/raghurajpur-pattachitra",
+      "field": "reported_created_facilities",
+      "value": [
+        "restaurant",
+        "accommodation",
+        "gurukul",
+        "craft centre"
+      ],
+      "source_id": "puri-raghurajpur-district",
+      "source_url": "https://puri.odisha.gov.in/en/tourism/tourist-places/raghurajpur",
+      "locator": "Rural Tourism Projects paragraph",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "undated_development_report",
+      "current_operation_verified": false,
+      "qualification": "Past creation language; no dated commissioning, named operating provider or availability established."
+    },
+    {
+      "id": "pipili-identity",
+      "concept_id": "culture/pipili-applique",
+      "field": "identity",
+      "value": "Pipili craft place associated with appliqué and Jagannath chariot decoration",
+      "source_id": "pipili",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html",
+      "locator": "About",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "primary_identity_checked",
+      "current_operation_verified": false,
+      "qualification": ""
+    },
+    {
+      "id": "pipili-hours",
+      "concept_id": "culture/pipili-applique",
+      "field": "listed_hours",
+      "value": "08:00–20:00",
+      "source_id": "pipili",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html",
+      "locator": "Essentials / Timings",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "local clock time",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "General destination guidance, not every shop schedule."
+    },
+    {
+      "id": "pipili-entry",
+      "concept_id": "culture/pipili-applique",
+      "field": "listed_entry_fee",
+      "value": "Free",
+      "source_id": "pipili",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html",
+      "locator": "Essentials / Entry fees",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "Does not establish free maker sessions or product prices."
+    },
+    {
+      "id": "pipili-parking",
+      "concept_id": "culture/pipili-applique",
+      "field": "listed_facilities",
+      "value": [
+        "parking"
+      ],
+      "source_id": "pipili",
+      "source_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html",
+      "locator": "Essentials / Parking",
+      "retrieved_at": "2026-09-30T23:27:29-07:00",
+      "publication_date": null,
+      "effective_period": null,
+      "geography": "Puri district, Odisha",
+      "unit": "not_applicable",
+      "price_basis": "not_applicable",
+      "evidence_status": "source_listed_unconfirmed",
+      "current_operation_verified": false,
+      "qualification": "No specific parking location, fees or accessibility audit."
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/raghurajpur",
+      "status": "available",
+      "scope": "HTML place description, paragraphs 1–3"
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html",
+      "status": "available",
+      "scope": "Essentials Cheat Sheet; Getting There"
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/religious-shrines.html",
+      "status": "available",
+      "scope": "Puri district row: Sri Mandira"
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple",
+      "status": "available",
+      "scope": "Identity/About and Essentials sections only"
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html",
+      "status": "available",
+      "scope": "Identity/About and Essentials sections only"
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html",
+      "status": "available",
+      "scope": "Identity/About and Essentials sections only"
+    },
+    {
+      "url": "https://www.shreejagannatha.in/",
+      "status": "unavailable",
+      "detail": "Web extraction internal error"
+    },
+    {
+      "url": "https://shreejagannatha.in/",
+      "status": "unavailable",
+      "detail": "Web extraction internal error"
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/pipili",
+      "status": "unavailable",
+      "detail": "Direct fetch internal error; indexed extract is a lead only"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "puri-temple-hours",
+      "observation_ids": [
+        "puri-hours-attraction",
+        "puri-hours-directory"
+      ],
+      "status": "unresolved",
+      "next_action": "Read current SJTA darshan notice; keep unified opening_hours null."
+    },
+    {
+      "id": "raghurajpur-nearby-copy",
+      "source_id": "raghurajpur",
+      "locator": "Nearby Destinations introduction",
+      "status": "unresolved",
+      "detail": "Raghurajpur page repeatedly names Sukuapada; no nearby edges imported."
+    }
+  ],
+  "unknowns": {
+    "places/jagannath-temple-puri": [
+      "current opening hours",
+      "entry eligibility or workshop permission",
+      "toilets",
+      "drinking water",
+      "step-free access",
+      "named facility operator",
+      "exact route endpoints and travel time"
+    ],
+    "culture/raghurajpur-pattachitra": [
+      "current opening hours",
+      "entry eligibility or workshop permission",
+      "toilets",
+      "drinking water",
+      "step-free access",
+      "named facility operator",
+      "exact route endpoints and travel time"
+    ],
+    "culture/pipili-applique": [
+      "current opening hours",
+      "entry eligibility or workshop permission",
+      "toilets",
+      "drinking water",
+      "step-free access",
+      "named facility operator",
+      "exact route endpoints and travel time"
+    ]
+  },
+  "retry_after": "2026-10-08T06:23:18Z",
+  "next_actions": [
+    "RES-006 researches named providers without outreach.",
+    "RES-007 researches route endpoints and transport without treating area membership as proximity.",
+    "Retry unavailable SJTA source and seek current notices after retry date; retain source-listed guidance separately."
+  ],
+  "human_review_claimed": false
+}

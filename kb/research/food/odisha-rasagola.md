@@ -35,3 +35,5 @@ GI registration does not establish every origin story or authenticate every sell
 [Related knowledge](mahaprasad.md) · [Research standards](../about/research-method.md)
 
 [^gi-rasagola]: [Odisha Rasagola — GI application 612](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612)
+
+[Rasagola economics](../economy/rasagola-and-sweets.md) connects this product identity with the next research on production, enterprise, logistics and exports; no market-size estimate established.

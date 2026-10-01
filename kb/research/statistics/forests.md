@@ -6,19 +6,32 @@ tags: ["statistics", "forests"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "nature-forest-pib", "title": "Parliament Question: Steps To Bring More Area Under Green Cover, 6 February 2025", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&lang=2&reg=48"}, {"id": "nature-isfr-2023", "title": "India State of Forest Report 2023, Volume II, Odisha", "resource": "https://fsi.nic.in/uploads/isfr2023/isfr_book_eng-vol-2_2023.pdf"}]
+subjects: ["nature"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Forests
 
-## What this section contains
+ISFR 2023 reports 52,433.56 square kilometres of forest cover and 6,163.45 square kilometres of tree cover in Odisha. Their combined area is 58,597.01 square kilometres. Read the assessment date and mapping definitions alongside the totals.[^nature-forest-pib]
 
-Source-linked measures for forests. These are research records, not a composite performance ranking.
+## What these measures explain
+
+What land cover was measured in the assessment? Forest cover, tree cover and forest condition differ, and revised map baselines affect comparisons over time.
 
 ## Selected facts to explore
 
 - **Forest cover: 52,433.56 square kilometres** — ISFR 2023 assessment, Odisha.[^nature-forest-pib]
 - **Tree cover: 6,163.45 square kilometres** — ISFR 2023 assessment, Odisha.[^nature-forest-pib]
 - **Forest and tree cover combined: 58,597.01 square kilometres** — ISFR 2023 assessment, Odisha.[^nature-forest-pib]
+
+## Read this in context
+
+Subject: [Nature and environment](../subjects/nature.md).
+
+- [Similipal](../places/similipal.md) — Connect statewide land-cover context to a named landscape without attributing the whole total to it.
+- [Air Quality](air-quality.md) — Forest extent does not establish city air quality.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

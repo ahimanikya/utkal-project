@@ -6,19 +6,32 @@ tags: ["statistics", "health"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "people-nfhs6", "title": "National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets", "resource": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf"}]
+subjects: ["everyday", "people", "governance"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Health
 
-## What this section contains
+NFHS-6 records 82.7% of Odisha households with at least one usual member covered by health insurance or a financing scheme, compared with 47.9% in its NFHS-5 comparison column. The Odisha fieldwork was July–November 2024; this is not a 2026 coverage survey. It does not establish coverage of every household member.[^people-nfhs6]
 
-Source-linked measures for health. These are research records, not a composite performance ranking.
+## What these measures explain
+
+How do households access financial protection and maternal and child services? Coverage and utilisation can be described without treating them as proof of care quality or protection from every expense.
 
 ## Selected facts to explore
 
 - **Households with health insurance/financing coverage: 47.9 percent of households** — NFHS-5 (2019–21), as reproduced in NFHS-6 release, Odisha.[^people-nfhs6]
 - **Households with health insurance/financing coverage: 82.7 percent of households** — NFHS-6 (2023–24); Odisha fieldwork 18 July–28 November 2024, Odisha.[^people-nfhs6]
 - **Institutional births: 92.2 percent of births** — NFHS-5 (2019–21), as reproduced in NFHS-6 release, Odisha.[^people-nfhs6]
+
+## Read this in context
+
+Subject: [Everyday life and human development](../subjects/everyday.md). Also part of [People and communities](../subjects/people.md), [Governance and public life](../subjects/governance.md).
+
+- [Nutrition](nutrition.md) — Read child growth measures alongside service coverage; this is context, not a causal claim.
+- [Rural Water](rural-water.md) — Compare access measures while keeping household definitions and dates separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

@@ -6,18 +6,29 @@ tags: ["statistics", "aviation"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "connect-airport2026", "title": "AAI March 2026 Traffic News, Annexure III Passenger Traffic", "resource": "https://www.aai.aero/sites/default/files/traffic-news/Mar2k26Annex3.pdf"}]
+subjects: ["economy", "places"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Aviation
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for aviation. These are research records, not a composite performance ranking.
+How much passenger traffic passes through the airport? Movements count travel activity, including repeat journeys; they do not identify unique visitors or tourist spending.
 
 ## Selected facts to explore
 
 - **Total passenger traffic: 4,838,751 passenger movements** — 2024–25, Biju Patnaik Airport, Bhubaneswar.[^connect-airport2026]
 - **Total passenger traffic: 5,130,834 passenger movements** — 2025–26, Biju Patnaik Airport, Bhubaneswar.[^connect-airport2026]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md). Also part of [Places and geography](../subjects/places.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

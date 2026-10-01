@@ -1,6 +1,6 @@
 # About
 
-**Current direction:** [Tourism first](tourism-first-strategy.md).
+**Current direction, 30 September 2026:** a broad [encyclopedia of Odisha organised into nine subjects](../subjects/index.md). [Tourism](tourism-first-strategy.md) is a campaign collection within that scope.
 
 Purpose, research standards and website readiness.
 
@@ -21,3 +21,5 @@ Purpose, research standards and website readiness.
 - [Technical architecture, stack and growth plan](../technology/index.md)
 
 - [Detailed PRD and product history](../product/index.md)
+
+- [Learning from Odisha Tourism](odisha-tourism-study.md) — source-linked review and recommendations.

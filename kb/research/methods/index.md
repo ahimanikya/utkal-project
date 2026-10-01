@@ -11,3 +11,10 @@
 - [Maintaining the linked visitor index](visitor-index.md)
 
 - [How the statistical atlas is recorded and maintained](statistics-atlas.md)
+
+- [Content classification and connected reading](content-classification.md)
+
+- [Trip-planning content template](trip-planning-content.md) — separate ideas, practical evidence and reviewed routes.
+
+- [Sequential research queue and schedule](research-pipeline.md)
+- [Source discovery and retrieval reliability](source-reliability.md)

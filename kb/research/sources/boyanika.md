@@ -15,9 +15,9 @@ resource: "https://boyanika.com/"
 
 **Source type:** Producer/cooperative website
 
-**Research access date:** 2026-09-27
+**Research access dates:** 2026-09-27; refreshed 2026-09-30
 
-**Capture and limits:** Self-description reviewed; inventory, authenticity of individual goods and fulfilment not audited.
+**Capture and limits:** Homepage self-description and product-navigation text reviewed. User-designated reference for textile research, content organisation, storytelling, later visual study and buying research. Individual goods, fulfilment and visual design not audited. See the [reference-use notes](../handlooms/boyanika.md).
 
 [Open source](https://boyanika.com/)
 

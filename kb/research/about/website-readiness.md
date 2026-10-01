@@ -15,13 +15,13 @@ There is enough material to define the website’s identity and build its editor
 
 The [technology collection](../technology/index.md) records the user-agreed launch architecture and [growth roadmap](../technology/growth-roadmap.md). Use Astro/TypeScript and GitHub Pages, with Git-maintained read-only knowledge and Firebase Spark for private dynamic text. Receive photos through email or a tested free relay; publish approved copies manually through Git. AI chat, Blaze and paid private backups are deferred. These choices supersede earlier unspecified-host and account-free-intake-later proposals; implementation remains pending.
 
-## Tourism-first release
+## Broad encyclopedia, connected collections
 
-The [current campaign direction](tourism-first-strategy.md) puts tourism first. Organise the opening experience around **Explore, Taste, Woven & Made, and Stories**, with visible supporting sources. Feature city life through practical journeys and residents’ voices. Maintain growth and maritime knowledge for selected deeper features and later expansion.
+The latest user direction (30 September 2026) is to expand, relate and classify facts across Odisha. The [subject directory](../subjects/index.md) provides nine entrances spanning geography, history, people, arts, farming, environment, everyday life, economy and governance. The [classification register](../references/data/content-classification.json) assigns a primary subject and optional additional subjects to canonical records; it does not change evidence or publication status.
 
-Begin with the strongest completed pilot stories rather than requiring a fixed number of pages in every sector. Each feature needs an inviting opening, credited visuals, a specific supported detail and a useful next action. Tourism recommendations need current logistics; maker referrals need traceable attribution and availability.
+Tourism, food, handloom and city-experience features remain valuable collections. Health, education, livelihoods, infrastructure and public services have independent reading paths. A public entry should explain what its evidence means, show periods and caveats, and tell readers why related pages are useful. Topic association alone does not establish a causal or historical connection.
 
-The immediate objective is interest in Odisha that can develop into visits and commercial relationships. A podcast is a later editorial extension. Health, fitness and mineral-processing opportunities are later chapters, with their own research requirements. No personal venture is assumed.
+The [current PRD](../product/prd.md) retains the Painted Streets pilot and proposes non-tourism health/education and economy explainers to demonstrate breadth. Select complete, reviewed entries; a fixed page count is not the launch gate. Tourism recommendations need checked logistics, while dated statistical explanations need appropriate evidence and comparison review. A podcast and personal ventures do not determine encyclopedia coverage.
 
 ## Readiness today
 
@@ -63,8 +63,17 @@ The user now wants a public, Git-backed encyclopedia with contributions through 
 
 ## Growth-journey collection
 
-Add four optional story entrances: [Smart cities](../journeys/smart-cities.md), [Rare earths](../journeys/rare-earths.md), [Semiconductors](../journeys/semiconductors.md) and [Investment in Odisha](../journeys/investment.md). Use one lead statistic and a dated timeline or simple chart; retain evidence-state labels. These extend the encyclopedia while tourism remains the first public focus.
+Add four optional story entrances: [Smart cities](../journeys/smart-cities.md), [Rare earths](../journeys/rare-earths.md), [Semiconductors](../journeys/semiconductors.md) and [Investment in Odisha](../journeys/investment.md). Use one lead statistic and a dated timeline or simple chart; retain evidence-state labels. These belong within economy, infrastructure and governance, with links to relevant environmental and livelihood questions.
 
 ## Statistical atlas
 
 A broad [source-linked atlas](../statistics/index.md) now supports concise topic stories and a district banking layer. Source conflicts and indexed-only captures are marked for further review. Research depth does not automatically make every observation ready for a public headline.
+
+
+## Learning from the official tourism portal · 30 September 2026
+
+The [reference study](../about/odisha-tourism-study.md) examines ten sampled pages and proposes place/interest/planning entrances, consistent destination modules and explicit itinerary evidence. The local visitor index now offers those reading paths. The [trip-content template](../methods/trip-planning-content.md) guides research; interactive filters, map planning, route optimisation and booking remain proposals, not additions to the launch requirements. PRD v0.2.0 and its preserved snapshots are unchanged.
+
+## Repository integration · 1 October 2026
+
+This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.

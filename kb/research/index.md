@@ -1,10 +1,13 @@
-
 # Utkala · Odisha knowledge base
 
-Research edition 1.0.1 · 27 September 2026. Built for compelling, source-backed stories about Odisha in India and globally.
+Research edition 1.3.0 · 30 September 2026. Built for compelling, source-backed stories about Odisha in India and globally.
 
-Start with the [community encyclopedia model](about/community-encyclopedia.md) and [tourism-first campaign strategy](about/tourism-first-strategy.md), then the [research findings](about/research-findings.md), [editorial direction](about/editorial-direction.md) and [website readiness](about/website-readiness.md).
+Start with [nine subjects of Odisha](subjects/index.md): places, history, people, arts, food and farming, nature, everyday life, economy and governance. Follow connected pages and source-linked explanations across these subjects. Tourism is one collection within this broader encyclopedia.
 
+Read the [community encyclopedia model](about/community-encyclopedia.md), [classification method](methods/content-classification.md), [editorial direction](about/editorial-direction.md) and [website readiness](about/website-readiness.md). The [tourism campaign](about/tourism-first-strategy.md) remains a focused editorial proposal.
+
+- [Research queue and schedule](methods/research-pipeline.md) — continuing sequential research and source reliability.
+- [Connected collections](collections/index.md) — Made in Odisha, Life in Odisha, regional profiles and dated progress cards.
 - [Product requirements and history](product/index.md) — detailed PRD, acceptance criteria and preserved versions.
 - [Technology and architecture](technology/index.md) — agreed launch stack, diagrams, growth triggers and decisions.
 - [Statistical atlas](statistics/index.md) — broad source-linked indicators, district banking, definitions and research gaps.
@@ -27,6 +30,10 @@ Start with the [community encyclopedia model](about/community-encyclopedia.md) a
 [Research gaps and conflicts](about/research-gaps.md) · [How to search and maintain this KB](methods/local-retrieval.md) · [Change history](log.md)
 
 This is a research collection, not a current travel-booking directory. Statements, proposals and unresolved questions are distinguished within each entry.
+
+[People and their creations](people/people-and-creations.md) · [Works and English editions](works/index.md) · [Garments and markets](handlooms/garments-and-markets.md) · [Rasagola economics](economy/rasagola-and-sweets.md)
+
+## Repository-native collections
 
 - [People](people/index.md) — biographical entry drafts and their sources.
 

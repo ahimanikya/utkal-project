@@ -1,6 +1,6 @@
 # Product requirements and history
 
-The product baseline is **PRD v0.1.0**, a detailed draft assembled from the user’s planning decisions. Previously agreed launch choices are retained; the whole PRD and proposed acceptance details are not presented as formally approved.
+The product baseline is **PRD v0.2.0**, a detailed draft assembled from the user’s planning decisions. Previously agreed launch choices are retained; the whole PRD and proposed acceptance details are not presented as formally approved.
 
 - [Current detailed PRD](prd.md)
 - [PRD history and decision sequence](prd-history.md)
@@ -9,13 +9,14 @@ The product baseline is **PRD v0.1.0**, a detailed draft assembled from the user
 - [Requirements register](../references/data/product-requirements.json)
 - [Version/checksum register](../references/data/prd-version-register.json)
 
-There are 40 requirements: 31 launch, five later and four explicitly deferred. None is claimed implemented or tested by this documentation task.
+There are 41 requirements: 32 launch, five later and four explicitly deferred. None is claimed implemented or tested by this documentation task.
 
 [Knowledge home](../index.md) · [Technical architecture](../technology/index.md)
 
+
 ## Destination and tour-book extension
 
-- [Addendum v0.1: destination discovery and personal tour book](destination-and-tour-book.md) — ten separately identified requirements; two piloted in the Chilika and Konark candidates, planning features remain future work. The original 40-requirement baseline above is preserved.
+- [Addendum v0.1: destination discovery and personal tour book](destination-and-tour-book.md) — ten separately identified requirements; two piloted in the Chilika and Konark candidates, planning features remain future work. The original 40-requirement v0.1.0 snapshot remains preserved; the imported draft v0.2.0 is separate from these implemented addenda.
 
 - [Founder-endorsed culture-first travel direction](culture-first-travel-direction.md) — visitor journey, information layers and Chilika/Konark pilot sequence.
 

@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "updated_on": "2026-09-30",
+  "scope": "Place-specific press evidence and leads, kept separate from harmonised state statistical series. No counts summed or growth/rank computed.",
+  "observations": [
+    {
+      "id": "debrigarh-community-nie-20260820",
+      "value": 150,
+      "value_qualifier": "more_than",
+      "unit": "community members",
+      "period": "As reported 20 August 2026; reference date unspecified",
+      "geography": "Debrigarh Wildlife Sanctuary",
+      "metric": "Community ecotourism engagement",
+      "source_id": "debrigarh-nie-20260820",
+      "locator": "Closing two paragraphs, DFO statement",
+      "evidence_class": "attributed_secondary_reporting",
+      "checked_on": "2026-09-30",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "caveat": "Not exact headcount, permanent jobs, full-time equivalents, wages or net new jobs. No primary roster checked."
+    },
+    {
+      "id": "debrigarh-community-toi-undated",
+      "value": 150,
+      "value_qualifier": "approximately",
+      "unit": "villagers",
+      "period": "As of undated clipping; date unknown",
+      "geography": "Debrigarh Wildlife Sanctuary",
+      "metric": "Community ecotourism engagement",
+      "source_id": "debrigarh-toi-user-clipping",
+      "locator": "Headline and opening paragraph",
+      "evidence_class": "user_supplied_press_clipping",
+      "checked_on": "2026-09-30",
+      "publication_readiness": "needs_original_source_date",
+      "human_reviewed": false,
+      "caveat": "Reported ecotourism engagement; not enforcement staff. Source date and payroll definition missing."
+    },
+    {
+      "id": "debrigarh-families-toi-202526",
+      "value": 85,
+      "value_qualifier": "approximately",
+      "unit": "families",
+      "period": "2025–26, as stated in clipping",
+      "geography": "Debrigarh Wildlife Sanctuary",
+      "metric": "Community ecotourism engagement",
+      "source_id": "debrigarh-toi-user-clipping",
+      "locator": "Right column following Satkosia comparison",
+      "evidence_class": "user_supplied_press_clipping",
+      "checked_on": "2026-09-30",
+      "publication_readiness": "needs_original_source_date",
+      "human_reviewed": false,
+      "caveat": "Family count is not worker count. Do not compute growth against 150 people."
+    },
+    {
+      "id": "similipal-community-toi-undated",
+      "value": 80,
+      "value_qualifier": "approximately",
+      "unit": "community members",
+      "period": "As of undated clipping; date unknown",
+      "geography": "Similipal Tiger Reserve",
+      "metric": "Community ecotourism engagement",
+      "source_id": "debrigarh-toi-user-clipping",
+      "locator": "Sentence spanning bottom left and top right columns",
+      "evidence_class": "user_supplied_press_clipping",
+      "checked_on": "2026-09-30",
+      "publication_readiness": "needs_comparator_scope_review",
+      "human_reviewed": false,
+      "caveat": "Reported comparator only; geographic, staffing and operating-period coverage not harmonised."
+    },
+    {
+      "id": "satkosia-community-toi-undated",
+      "value": 70,
+      "value_qualifier": "approximately",
+      "unit": "villagers",
+      "period": "As of undated clipping; date unknown",
+      "geography": "Satkosia Tiger Reserve ecotourism facilities",
+      "metric": "Community ecotourism engagement",
+      "source_id": "debrigarh-toi-user-clipping",
+      "locator": "Upper right column",
+      "evidence_class": "user_supplied_press_clipping",
+      "checked_on": "2026-09-30",
+      "publication_readiness": "needs_comparator_scope_review",
+      "human_reviewed": false,
+      "caveat": "Reported comparator only; not a validated statewide ranking."
+    }
+  ],
+  "held_claims": [
+    {
+      "claim": "Highest ecotourism community employment among Odisha sanctuaries and reserves",
+      "source_id": "debrigarh-toi-user-clipping",
+      "status": "unverified_ranking",
+      "reason": "Dated complete comparator coverage and common definition not available."
+    }
+  ],
+  "source_leads": [
+    {
+      "url": "https://share.google/q3GjvbxsszUcqvcO9",
+      "status": "unavailable",
+      "checked_on": "2026-09-30",
+      "note": "Web open failed; local resolution failed. Destination and relationship to clipping unknown."
+    },
+    {
+      "url": "https://dot.odisha.gov.in/sites/default/files/2023-05/Ecotourism%20Roadmap.pdf",
+      "status": "indexed_only_full_fetch_timeout",
+      "checked_on": "2026-09-30",
+      "note": "Official Odisha Tourism roadmap surfaced; full document not inspected. No policy or numerical claims imported."
+    }
+  ],
+  "attachment": {
+    "filename": "codex-clipboard-38824875-9a0e-49e5-a005-e91693fab47f.png",
+    "sha256": "1857a8ae4958ec36b34028e4884d3a2ac8abae78d0081c860da77d91eda47de8",
+    "public_export": false
+  },
+  "human_review_claimed": false
+}

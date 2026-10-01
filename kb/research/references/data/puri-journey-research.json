@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-01T082549Z",
+  "task_id": "RES-007",
+  "checked_at": "2026-10-01T01:31:49-07:00",
+  "publication_status": "research_outline_not_recommendation",
+  "geography": "Bhubaneswar to Puri via Dhauli, Pipili and Raghurajpur, Odisha",
+  "source_publication_dates": null,
+  "route_state": "operator_described_not_field_verified",
+  "outline_concept_id": "visitor-index/puri-journey-outline",
+  "source_ids": [
+    "puri-wonders-operator-route",
+    "puri-heritage-golden-triangle"
+  ],
+  "start_concept_id": "cities/bhubaneswar",
+  "end_concept_id": "places/puri",
+  "route_type": "one_way",
+  "total_days": null,
+  "budget_inr": null,
+  "overnight_booking": null,
+  "exact_pickup": null,
+  "exact_dropoff": null,
+  "legs": [
+    {
+      "id": "puri-craft-leg-1",
+      "from_concept_id": "cities/bhubaneswar",
+      "to_concept_id": "culture/pipili-applique",
+      "via_source_labels": [
+        "Dhauli"
+      ],
+      "mode": "road_drive_operator_described",
+      "source_ids": [
+        "puri-wonders-operator-route"
+      ],
+      "locator": "Day Wise Itinerary, Day 02",
+      "evidence_basis": "editorial_decomposition_of_operator_sequence",
+      "endpoint_scope": "localities, not geocoded pickup or venue entrances",
+      "distance_km": null,
+      "travel_time_minutes": null,
+      "road_geometry": null,
+      "current_service": null,
+      "checked_at": "2026-10-01T01:31:49-07:00"
+    },
+    {
+      "id": "puri-craft-leg-2",
+      "from_concept_id": "culture/pipili-applique",
+      "to_concept_id": "culture/raghurajpur-pattachitra",
+      "via_source_labels": [],
+      "mode": "road_drive_operator_described",
+      "source_ids": [
+        "puri-wonders-operator-route"
+      ],
+      "locator": "Day Wise Itinerary, Day 02",
+      "evidence_basis": "editorial_decomposition_of_operator_sequence",
+      "endpoint_scope": "localities, not geocoded pickup or venue entrances",
+      "distance_km": null,
+      "travel_time_minutes": null,
+      "road_geometry": null,
+      "current_service": null,
+      "checked_at": "2026-10-01T01:31:49-07:00"
+    },
+    {
+      "id": "puri-craft-leg-3",
+      "from_concept_id": "culture/raghurajpur-pattachitra",
+      "to_concept_id": "places/puri",
+      "via_source_labels": [],
+      "mode": "road_drive_operator_described",
+      "source_ids": [
+        "puri-wonders-operator-route"
+      ],
+      "locator": "Day Wise Itinerary, Day 02",
+      "evidence_basis": "editorial_decomposition_of_operator_sequence",
+      "endpoint_scope": "localities, not geocoded pickup or venue entrances",
+      "distance_km": null,
+      "travel_time_minutes": null,
+      "road_geometry": null,
+      "current_service": null,
+      "checked_at": "2026-10-01T01:31:49-07:00"
+    }
+  ],
+  "conditional_visit": {
+    "concept_id": "places/jagannath-temple-puri",
+    "access_status": "hold_official_hours_conflict_and_authority_rules_unverified",
+    "evidence_register": "references/data/puri-craft-access.json"
+  },
+  "host_consent": null,
+  "named_local_reviewer": null,
+  "second_editor_review": null,
+  "media_rights": null,
+  "human_review_claimed": false,
+  "source_checks": [
+    {
+      "url": "https://apps.odishatourism.gov.in/tour/wonders-of-odisha-tourist-destinations",
+      "source_id": "puri-wonders-operator-route",
+      "status": "available",
+      "capture_method": "direct_html",
+      "locator": "Operator attribution above inquiry form; Day Wise Itinerary, Day 02"
+    },
+    {
+      "url": "https://www.heritagetoursorissa.com/golden-triangle-odisha/",
+      "source_id": "puri-heritage-golden-triangle",
+      "status": "available",
+      "capture_method": "direct_html",
+      "locator": "Day 02, Day 05 and package inclusions"
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/storage/advertisement/1719561934_TOUR-2.pdf",
+      "status": "unavailable",
+      "failure": "Direct fetch returned Internal error",
+      "indexed_lead_seen": true,
+      "scope": "Indexed Day 1 sequence discovered; full PDF inaccessible. Supplemental lead, not route authority in this register.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/how-to-reach",
+      "status": "unavailable",
+      "failure": "Direct fetch returned Internal error",
+      "indexed_lead_seen": true,
+      "scope": "General transport index excerpt; no specific leg adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://odishatransport.gov.in/Application/uploadDocuments/Notification/document_1_1722500744.pdf",
+      "status": "unavailable",
+      "failure": "Direct fetch returned Internal error",
+      "indexed_lead_seen": true,
+      "scope": "Search title describes a rationalized Cuttack/Bhubaneswar–Pipili–Puri timetable as of 2024-08-01; body inaccessible. No schedule or current service imported.",
+      "retry_after": "2026-10-08"
+    }
+  ],
+  "not_imported": [
+    "Current bus number, timing or fare",
+    "Advertised price or day-window feasibility",
+    "Operator claims as temple-authority rules",
+    "Mismatched attraction cards",
+    "Geographic distances inferred from independent city-distance claims"
+  ],
+  "next_actions": [
+    "Confirm each entrance, route and travel allowance",
+    "Identify consenting craft hosts and dated service availability",
+    "Resolve temple-authority access and hours",
+    "Obtain named local/editor review before recommendation"
+  ],
+  "retry_after": "2026-10-08",
+  "history": [
+    {
+      "run_id": "2026-10-01T082549Z",
+      "at": "2026-10-01T01:31:49-07:00",
+      "action": "Initial source-scoped outline; no prior observations overwritten"
+    }
+  ]
+}

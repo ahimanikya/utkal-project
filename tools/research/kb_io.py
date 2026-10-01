@@ -27,8 +27,14 @@ def read_concept(path):
             raise ValueError('Use JSON-style values in YAML frontmatter, or install PyYAML for expanded YAML syntax.') from exc
     return meta,body.strip()
 
+def collection_paths():
+    scope=ROOT/'references/data/imported-research-scope.json'
+    if scope.exists():
+        return [ROOT/name for name in json.loads(scope.read_text())['paths']]
+    return sorted(ROOT.rglob('*.md'))
+
 def concepts():
-    for path in sorted(ROOT.rglob('*.md')):
+    for path in collection_paths():
         if path.name in {'index.md','log.md'}: continue
         meta,body=read_concept(path)
         relative=path.relative_to(ROOT).as_posix()

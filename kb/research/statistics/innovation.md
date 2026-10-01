@@ -6,19 +6,30 @@ tags: ["statistics", "innovation"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "enterprise-patents", "title": "Annual Report 2024–25, CGPDTM", "resource": "https://ipindia.gov.in/storage/uploads/media/English_Annual_Report_2024-25.pdf"}]
+subjects: ["economy", "everyday"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Innovation
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for innovation. These are research records, not a composite performance ranking.
+What does intellectual-property activity reveal? Applications record filings; grants, products, commercialisation and research impact are separate outcomes.
 
 ## Selected facts to explore
 
 - **Ordinary patent applications by state of origin: 350 applications** — 2023–24, Odisha.[^enterprise-patents]
 - **Ordinary patent applications by state of origin: 1,656 applications** — 2024–25, Odisha.[^enterprise-patents]
 - **Domestic design applications filed: 418 applications** — 2024–25, Odisha.[^enterprise-patents]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md). Also part of [Everyday life and human development](../subjects/everyday.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

@@ -25,3 +25,7 @@ Ten seed heritage entries cover temples, archaeological sites, craft places and 
 | [Lalitgiri](../places/lalitgiri.md) | archaeological site | [Buddhist circuit](areas/buddhist-circuit.md) |
 
 Before turning an entry into a practical visit recommendation, add current access rules, ticketing, realistic routes and credited media. The Buddhist Udayagiri here is in Jajpur; it is distinct from the Udayagiri caves near Bhubaneswar. [Browse areas](index.md).
+
+## Puri craft-area evidence checkpoint
+
+The three [Puri-area entries](areas/puri-crafts.md) now distinguish canonical identity, source-listed visitor guidance and current operational unknowns. Temple hours conflict between official pages; village guidance does not establish individual workshop access. The [evidence register](../references/data/puri-craft-access.json) is the dated source record, not a recommendation or booking directory.

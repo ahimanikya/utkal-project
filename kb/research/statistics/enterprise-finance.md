@@ -6,19 +6,30 @@ tags: ["statistics", "enterprise-finance"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "macro-slbc-jun2026", "title": "184th SLBC Odisha meeting agenda — June 2026 quarter", "resource": "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf"}]
+subjects: ["economy"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Enterprise Finance
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for enterprise finance. These are research records, not a composite performance ranking.
+Which financing instruments support enterprise? Guarantee coverage reduces a lender’s exposure under a scheme; it is not automatically cash invested in a business.
 
 ## Selected facts to explore
 
 - **CGTMSE proposals covered: amount: 1,133.7 INR crore** — 2020-21, Odisha.[^macro-slbc-jun2026]
 - **CGTMSE proposals covered: amount: 1,801.05 INR crore** — 2021-22, Odisha.[^macro-slbc-jun2026]
 - **CGTMSE proposals covered: amount: 3,044.9 INR crore** — 2022-23, Odisha.[^macro-slbc-jun2026]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

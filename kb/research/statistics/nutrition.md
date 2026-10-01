@@ -6,19 +6,30 @@ tags: ["statistics", "nutrition"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "people-nfhs6", "title": "National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets", "resource": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf"}]
+subjects: ["everyday", "food", "people"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Nutrition
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for nutrition. These are research records, not a composite performance ranking.
+How do child growth measures move together? Stunting, wasting and underweight capture different dimensions; retain deteriorating indicators alongside improvements.
 
 ## Selected facts to explore
 
 - **Stunting, children under five: 31 percent of children under five** — NFHS-5 (2019–21), as reproduced in NFHS-6 release, Odisha.[^people-nfhs6]
 - **Stunting, children under five: 26.8 percent of children under five** — NFHS-6 (2023–24); Odisha fieldwork 18 July–28 November 2024, Odisha.[^people-nfhs6]
 - **Wasting, children under five: 18.1 percent of children under five** — NFHS-5 (2019–21), as reproduced in NFHS-6 release, Odisha.[^people-nfhs6]
+
+## Read this in context
+
+Subject: [Everyday life and human development](../subjects/everyday.md). Also part of [Food and farming](../subjects/food.md), [People and communities](../subjects/people.md).
+
+- [Health](health.md) — Read another dimension of this subject; the measures remain separate.
+- [Education](education.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

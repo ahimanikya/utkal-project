@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-01T052342Z",
+  "checked_at": "2026-09-30T22:58:24-07:00",
+  "scope": "RES-003 bounded primary-document recovery; catalogue links captured, no PDF/XLSX contents recovered.",
+  "retry_after": "2026-10-08T05:23:42Z",
+  "attempts": [
+    {
+      "id": "tourism-annual-2025-26",
+      "url": "https://dot.odisha.gov.in/sites/default/files/2026-08/Annual%20Report%202025-26_2.pdf",
+      "method": "direct HTTPS download with urllib",
+      "attempted_at": "2026-09-30T22:51:29-07:00",
+      "status": "unavailable",
+      "error": "<urlopen error timed out>",
+      "retry_after": "2026-10-08T05:23:42Z",
+      "table_location": null,
+      "values_verified": false
+    },
+    {
+      "id": "economic-survey-2025-26",
+      "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/OES%202026%20WEB%20UPLOAD.pdf",
+      "method": "direct HTTPS download with urllib",
+      "attempted_at": "2026-09-30T22:51:29-07:00",
+      "status": "unavailable",
+      "error": "<urlopen error timed out>",
+      "retry_after": "2026-10-08T05:23:42Z",
+      "table_location": null,
+      "values_verified": false
+    },
+    {
+      "id": "district-at-glance-2026",
+      "url": "https://des.odisha.gov.in/data_table/DAG_2026.xlsx",
+      "method": "direct HTTPS download with urllib",
+      "attempted_at": "2026-09-30T22:53:00-07:00",
+      "status": "unavailable",
+      "error": "<urlopen error timed out>",
+      "retry_after": "2026-10-08T05:23:42Z",
+      "table_location": null,
+      "values_verified": false
+    },
+    {
+      "id": "district-education",
+      "url": "https://des.odisha.gov.in/data_table/Education.xlsx",
+      "method": "direct HTTPS download with urllib",
+      "attempted_at": "2026-09-30T22:53:00-07:00",
+      "status": "unavailable",
+      "error": "<urlopen error timed out>",
+      "retry_after": "2026-10-08T05:23:42Z",
+      "table_location": null,
+      "values_verified": false
+    },
+    {
+      "id": "district-health",
+      "url": "https://des.odisha.gov.in/data_table/Health.xlsx",
+      "method": "direct HTTPS download with urllib",
+      "attempted_at": "2026-09-30T22:53:45-07:00",
+      "status": "unavailable",
+      "error": "<urlopen error timed out>",
+      "retry_after": "2026-10-08T05:23:42Z",
+      "table_location": null,
+      "values_verified": false
+    },
+    {
+      "url": "https://des.odisha.gov.in/data_table/DAG_2026.xlsx",
+      "status": "unavailable",
+      "detail": "Timeout fetching",
+      "method": "web open"
+    },
+    {
+      "url": "https://des.odisha.gov.in/data_table/Education.xlsx",
+      "status": "unavailable",
+      "detail": "Timeout fetching",
+      "method": "web open"
+    },
+    {
+      "url": "https://des.odisha.gov.in/data_table/Health.xlsx",
+      "status": "unavailable",
+      "detail": "Unsupported content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "method": "web open"
+    },
+    {
+      "url": "https://finance.odisha.gov.in/sites/default/files/2025-08/OES%202025-26%20Main%20Booklet.pdf",
+      "status": "unavailable",
+      "detail": "Content length too large: 35142032",
+      "method": "web open"
+    }
+  ],
+  "environment_failures": [
+    {
+      "id": "tourism-annual-2025-26",
+      "url": "https://dot.odisha.gov.in/sites/default/files/2026-08/Annual%20Report%202025-26_2.pdf",
+      "method": "direct HTTPS download with urllib",
+      "attempted_at": "2026-09-30T22:51:06-07:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": "economic-survey-2025-26",
+      "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/OES%202026%20WEB%20UPLOAD.pdf",
+      "method": "direct HTTPS download with urllib",
+      "attempted_at": "2026-09-30T22:51:06-07:00",
+      "status": "unavailable",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ],
+  "interpretation": "Sandbox DNS errors, download timeouts and web format/size limits are retrieval failures, not evidence of publisher outage or unchanged statistics.",
+  "locators": [
+    {
+      "source_id": "pipeline-des-tables",
+      "listing_location": "Data/Tables; district series labelled 2025; District At A Glance 2026 link",
+      "documents": [
+        "DAG_2026.xlsx",
+        "Education.xlsx",
+        "Health.xlsx"
+      ],
+      "worksheet_names": null,
+      "cell_ranges": null,
+      "observation_periods": null,
+      "units": null,
+      "note": "Year labels on the listing do not establish the period of every workbook cell."
+    },
+    {
+      "source_id": "pipeline-finance-survey-alternative",
+      "listing_location": "Finance budget publications, Economic Survey 2025–26 Full Document",
+      "page_locations": null
+    }
+  ],
+  "next_action": "After retry date, test Finance alternate PDF with a binary download route and DES workbook downloads. Inspect cover/table headers before importing any value. RES-024 coverage audit must revisit this register."
+}

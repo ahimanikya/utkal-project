@@ -6,19 +6,30 @@ tags: ["statistics", "financial-access"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "macro-slbc-jun2026", "title": "184th SLBC Odisha meeting agenda — June 2026 quarter", "resource": "https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf"}]
+subjects: ["economy", "people"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Financial Access
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for financial access. These are research records, not a composite performance ranking.
+How can people reach financial services? Branches, ATMs and correspondent outlets describe different access channels, and their counts do not establish service quality.
 
 ## Selected facts to explore
 
 - **Bank branches: 6,183 count** — 2025-06-30, Odisha.[^macro-slbc-jun2026]
 - **Bank branches: 6,356 count** — 2026-06-30, Odisha.[^macro-slbc-jun2026]
 - **ATMs: 7,602 count** — 2025-06-30, Odisha.[^macro-slbc-jun2026]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md). Also part of [People and communities](../subjects/people.md).
+
+- [Banking And Credit](banking-and-credit.md) — Read another dimension of this subject; the measures remain separate.
+- [District Banking](district-banking.md) — Read another dimension of this subject; the measures remain separate.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

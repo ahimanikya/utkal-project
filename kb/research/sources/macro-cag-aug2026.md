@@ -17,3 +17,7 @@ Fresh parsed PDF: summary page and monthly trend pages 1 and 22. Values explicit
 Verification applies to the extracted indicators only. No human review is claimed.
 
 [^macro-cag-aug2026]: [Odisha Monthly Key Indicators — August 2026](https://cag.gov.in/uploads/state_accounts_report/account-report-MKI-August-06aabdead52f8a8-29844579.pdf)
+
+## Retrieval recovery on 30 September 2026
+
+The monthly publisher catalogue led to a readable August 2026 PDF. First-page provisional labels and excluded-account comparison caveat were inspected; numeric cells were not revalidated. Earlier failed fetch history remains in the weekly run.

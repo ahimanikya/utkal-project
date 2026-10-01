@@ -6,13 +6,15 @@ tags: ["statistics", "digital-connectivity"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
 sources: [{"id": "connect-internet2024", "title": "Indian Telecom Services Yearly Performance Indicators 2023–24", "resource": "https://www.trai.gov.in/sites/default/files/2024-09/Report_14082024.pdf"}, {"id": "connect-internet2025", "title": "Indian Telecom Services Yearly Performance Indicators 2024–25", "resource": "https://www.trai.gov.in/sites/default/files/2025-07/YIR_08072025_0.pdf"}, {"id": "weekly-trai-mar2026", "title": "TRAI telecom performance indicators, January–March 2026", "resource": "https://trai.gov.in/sites/default/files/2026-06/QPIR_22062026.pdf"}]
+subjects: ["economy", "everyday", "people"]
+updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
 
 # Digital Connectivity
 
-## What this section contains
+## What these measures explain
 
-Source-linked measures for digital connectivity. These are research records, not a composite performance ranking.
+How is connectivity measured? Subscriptions, school internet facilities and people’s reported internet use have different denominators and should appear as complementary views.
 
 ## Later snapshot: March 2026
 
@@ -25,6 +27,15 @@ Displayed components sum to 30.55 million; preserve the reported total and round
 - **Internet subscriptions: 25.89 million subscriptions** — 31 March 2025, Odisha.[^connect-internet2025]
 - **Rural Internet subscriptions: 17.1 million subscriptions** — 31 March 2025, Rural Odisha.[^connect-internet2025]
 - **Urban Internet subscriptions: 8.78 million subscriptions** — 31 March 2025, Urban Odisha.[^connect-internet2025]
+
+## Read this in context
+
+Subject: [Economy, livelihoods and infrastructure](../subjects/economy.md). Also part of [Everyday life and human development](../subjects/everyday.md), [People and communities](../subjects/people.md).
+
+- [Women And Inclusion](women-and-inclusion.md) — Compare subscription counts with survey-reported use, without equating accounts and people.
+- [Education](education.md) — Read school facilities as a separate institutional measure.
+
+These are editorial reading connections, not assertions of causation, proximity or a verified supply chain.
 
 ## Evidence view
 

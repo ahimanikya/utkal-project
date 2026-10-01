@@ -15,3 +15,5 @@
 - [Lalitgiri site museum](lalitgiri-site-museum.md)
 
 [Facilities directory and evidence status](../visitor-index/facility-catalog.md)
+
+- [Nimantran Restaurant, Puri](nimantran-puri.md) — indexed operator listing; current operation unverified.
