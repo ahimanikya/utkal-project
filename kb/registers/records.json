@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T14:18:32.123935+00:00",
+  "recorded_at": "2026-10-01T15:26:47.881213+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3603,23 +3603,27 @@
       "id": "UTP-WORK-122",
       "title": "Reversible Explore filters and result recovery",
       "category": "website_experience",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-123",
-      "next_action": "Founder reviews the Explore candidate. Keep real browser and assistive-technology verification open; publish only after approval.",
+      "next_action": "Published under UTP-REL-030. Keep real browser and assistive-technology verification open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-123",
         "UTP-REV-097",
-        "UTP-WORK-116"
+        "UTP-WORK-116",
+        "UTP-DEC-124",
+        "UTP-REV-098",
+        "UTP-REL-030"
       ],
       "evidence": [
-        "records/explore-filter-flow-review.json"
+        "records/explore-filter-flow-review.json",
+        "records/explore-filter-flow-publication.json"
       ]
     }
   ],
@@ -6090,6 +6094,27 @@
       "evidence": [
         "records/explore-filter-flow-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-124",
+      "title": "Approve and publish PR 30 Explore filter flow",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Direct reply to PR 30 handoff, approving head d0edc9a72586efdf9e42fc90bfec29f9318e3e96 for publication. Search indexing remains disabled.",
+      "recorded_at": "2026-10-01T15:26:47.881213+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-123",
+        "UTP-WORK-122",
+        "UTP-REV-097"
+      ],
+      "evidence": [
+        "records/explore-filter-flow-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -8411,6 +8436,29 @@
       "evidence": [
         "records/explore-filter-flow-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-098",
+      "title": "Explore filter flow publication verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the release; no independent review claimed.",
+        "Live checks use HTTP, markup and delivered JavaScript bytes. They do not exercise native browser history, focus, composition, rendered layout or assistive technology.",
+        "Earlier browser security-policy verification remains unavailable. Real browser, screen-reader and physical-device checks remain open; controller tests use a synthetic DOM/history harness.",
+        "Search indexing remains disabled; search activation requires a separate decision."
+      ],
+      "refs": [
+        "UTP-DEC-124",
+        "UTP-WORK-122"
+      ],
+      "evidence": [
+        "records/explore-filter-flow-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -8930,6 +8978,22 @@
         "records/collection-images-publication.json"
       ],
       "note": "PR 29 published and checked; browser visual and measured performance review remains open."
+    },
+    {
+      "id": "UTP-REL-030",
+      "title": "Reversible Explore filters published",
+      "status": "published",
+      "authorization": "UTP-DEC-124",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-124",
+        "UTP-REV-098",
+        "UTP-WORK-122"
+      ],
+      "evidence": [
+        "records/explore-filter-flow-publication.json"
+      ],
+      "note": "PR 30 published and delivery checked. Native browser, screen-reader and physical-device checks remain open."
     }
   ],
   "sources": [

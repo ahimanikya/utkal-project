@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `80981d80e8a5f9b9c8cd43bc9f6d78957653d32fc4e7ce4c83c49bed00d3d0ff`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f80a1adb64029bdd9c7557df280625a0111c1689199ecb096042d55a85a715b0`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -134,7 +134,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-119 · First-edition editorial and reader-flow review | completed | published | Ahimanikya Satapathy | Approved refinements published under UTP-REL-027. Retain browser, local-condition and Odia review follow-ups; search activation requires its own bounded decision. | — |
 | UTP-WORK-120 · Compact visitor-guide contents and disclosure-aware section links | completed | published | Ahimanikya Satapathy | Published under UTP-REL-028. Keep the wider browser, physical-device and screen-reader review queue open. | — |
 | UTP-WORK-121 · Responsive collection and onward-story images | completed | published | Ahimanikya Satapathy | Published under UTP-REL-029. Keep browser visual and measured network-performance review open. | — |
-| UTP-WORK-122 · Reversible Explore filters and result recovery | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the Explore candidate. Keep real browser and assistive-technology verification open; publish only after approval. | — |
+| UTP-WORK-122 · Reversible Explore filters and result recovery | completed | published | Ahimanikya Satapathy | Published under UTP-REL-030. Keep real browser and assistive-technology verification open. | — |
 
 ## Pending human review and decisions
 
@@ -192,7 +192,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | Assess remaining experience and accessibility gaps against the current 67-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current 67-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
-| UTP-WORK-122 | Founder reviews the Explore candidate. Keep real browser and assistive-technology verification open; publish only after approval. |
 
 ## Decisions
 
@@ -320,6 +319,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-121 · Continue website backlog after PR 28 | approved | Ahimanikya Satapathy | Prepare the next bounded website improvement for review. Does not publish the new candidate or activate indexing. |
 | UTP-DEC-122 · Approve and publish PR 29 collection images | approved | Ahimanikya Satapathy | Direct reply to PR 29 handoff, approving head fcbb5c03e16141823740085e9c416df2f52449d4 for publication. Search indexing remains disabled. |
 | UTP-DEC-123 · Continue with Explore search and filter flow | approved | Ahimanikya Satapathy | Prepare the next bounded visitor-experience candidate after PR 29. Publication remains subject to Founder review. |
+| UTP-DEC-124 · Approve and publish PR 30 Explore filter flow | approved | Ahimanikya Satapathy | Direct reply to PR 30 handoff, approving head d0edc9a72586efdf9e42fc90bfec29f9318e3e96 for publication. Search indexing remains disabled. |
 
 ## Reviews
 
@@ -420,6 +420,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-095 | pass_with_limitations | False | Implementation and verification by the same assistant; no independent review claimed.; No new browser visual or network-performance verification. Earlier browser security-policy blocker remains unresolved; no alternate browser bypass attempted.; Byte reductions compare encoded files; visitor selection depends on viewport, pixel density, browser and caching. No page-speed or perceptual-equivalence claim.; Derivative filenames change once with the byte-based naming scheme. Published HTML uses the matching build-generated addresses; original fallbacks and photo/book identities remain.; No new photographs, crops, AI images, licences, source claims or public routes. Existing image provenance and editorial limitations remain.; Normal publication remains noindex; search activation is a separate decision. |
 | UTP-REV-096 | pass_with_limitations | False | Same assistant implemented and verified the release; no independent review claimed.; Live verification uses HTTP, markup and encoded image bytes. Browser visual and network-performance review remains open because the earlier browser security-policy blocker is unresolved.; Smaller encoded files do not establish measured page speed, browser-selected transfer or perceptual equivalence.; Existing source, language and local-verification limitations remain; no new photographs or rights claims.; Search indexing remains disabled; search activation needs a separate decision. |
 | UTP-REV-097 | pass_with_limitations | False | Same assistant implemented and verified the candidate; no independent review claimed.; Controller event tests use a synthetic DOM/history harness. They do not establish rendered layout, native keyboard or browser history scroll restoration behavior.; Earlier browser security-policy verification remains unavailable; no alternate browser bypass attempted. Real browser, screen-reader and physical-device checks remain open.; No content expansion, imagery changes, new routes, analytics change or search activation. Normal publication remains noindex. |
+| UTP-REV-098 | pass_with_limitations | False | Same assistant implemented and verified the release; no independent review claimed.; Live checks use HTTP, markup and delivered JavaScript bytes. They do not exercise native browser history, focus, composition, rendered layout or assistive technology.; Earlier browser security-policy verification remains unavailable. Real browser, screen-reader and physical-device checks remain open; controller tests use a synthetic DOM/history harness.; Search indexing remains disabled; search activation requires a separate decision. |
 
 ## Publication and application history
 
@@ -454,6 +455,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-027 · Guide-flow and literary-reference refinements published | published | https://utkalproject.org/ | UTP-DEC-118 |
 | UTP-REL-028 · Compact guide contents and linked disclosures published | published | https://utkalproject.org/ | UTP-DEC-120 |
 | UTP-REL-029 · Responsive collection and onward-story images published | published | https://utkalproject.org/ | UTP-DEC-122 |
+| UTP-REL-030 · Reversible Explore filters published | published | https://utkalproject.org/ | UTP-DEC-124 |
 
 ## Sources and assets
 
@@ -491,7 +493,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-127 | 2026-10-01T11:08:52.776626+00:00 | Founder-approved PR 25 merged and published. Persistent cookie acceptance strip removed; Privacy access verified across 67 live pages. | Continue remaining project work from the current register. |
 | UTP-EVT-128 | 2026-10-01T11:33:13.198254+00:00 | Prepared an 11-page search proposal, scoped practical reference notes, shared mobile contents behaviour and responsive image delivery. Ordinary publication remains noindex. | Founder reviews the candidate and outstanding visual/local evidence; search activation is a separate decision. |
 | UTP-EVT-129 | 2026-10-01T12:23:45.213530+00:00 | Founder-approved PR 26 published. All 67 pages retain preview indexing; practical notes, mobile contents and reviewed responsive image files verified live. | Review the 11-page search proposal separately; retain visual/device and local-condition follow-ups. |
 | UTP-EVT-130 | 2026-10-01T12:40:52.812732+00:00 | Reviewed eleven proposed landing pages, moved practical notes into guide flow, simplified first-use reading and repaired a Chilika literary reference. | Founder review; visual, language and local checks remain open. No indexing activation. |
@@ -501,6 +502,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-134 | 2026-10-01T13:59:27.137226+00:00 | Prepared responsive Explore and onward-story images, completed coverage of 29 existing raster sources and named derivatives from actual encoded bytes. Preserved originals and credits. | Founder review; no deployment or indexing activation. |
 | UTP-EVT-135 | 2026-10-01T14:10:10.794355+00:00 | Founder-approved PR 29 published. Live checks passed for 67 pages and 82 responsive image files from 29 sources, including Explore and all four onward panels. Search indexing remains disabled. | Keep browser visual and measured performance review open; continue only within the next authorized scope. |
 | UTP-EVT-136 | 2026-10-01T14:18:32.123935+00:00 | Prepared reversible Explore choices, individual filter removal, contextual topic counts and composition-aware search; 365 full and 44 coastal tests pass. Candidate not published. | Founder reviews the candidate; browser and assistive-technology checks remain open. |
+| UTP-EVT-137 | 2026-10-01T15:26:47.881213+00:00 | Founder-approved PR 30 published. Live delivery checks cover all 67 pages, Explore controls and counts, and the search controller bytes. Search indexing remains disabled. | Keep native browser and assistive-technology review open; continue within the next authorized scope. |
 
 ## Deferred extensions
 
