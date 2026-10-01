@@ -1,0 +1,79 @@
+{
+  "recorded_at": "2026-10-01T19:23:39.108404+00:00",
+  "status": "implemented_and_programmatically_checked_not_yet_deployed",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "go for it",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "district_profiles": 30,
+    "new_hubs_or_explainers": [
+      "/languages/districts/",
+      "/languages/multilingual-odisha/"
+    ],
+    "new_language_stories": [
+      "/languages/sambalpuri/",
+      "/languages/desia/"
+    ],
+    "connected_destination_guides": [
+      "bhubaneswar",
+      "puri",
+      "cuttack",
+      "balasore",
+      "mayurbhanj"
+    ],
+    "total_new_routes": 34,
+    "portable_reading_items_added": 2
+  },
+  "checks": {
+    "full_site_tests": 377,
+    "coastal_tests": 59,
+    "page_acceptance_checks": 424,
+    "failures_remaining": 0,
+    "coastal_pages": 106,
+    "discovery_entries": 63,
+    "journey_items": 67,
+    "district_arithmetic": "30 districts × total/rural/urban; group sums and child sums checked",
+    "multilingual_partition": "41,974,218 = 28,149,194 + 8,299,746 + 5,525,278; at least one additional language 13,825,024"
+  },
+  "limitations": [
+    "Historical Census 2011 figures, not present-day counts or predictions about an individual host.",
+    "Census labels do not decide identity; community-preferred naming and specialist review remain open.",
+    "Thirty generated data profiles are not thirty field-researched tourism guides. Literary introductions are starting points, not exhaustive histories.",
+    "The browser’s administration-policy verification remains unavailable; no visual, keyboard, mobile, screen-reader or print audit claimed.",
+    "No authorised audio recordings or full literary texts supplied; no current performance or learning-book availability verified."
+  ],
+  "source_inspection": [
+    {
+      "id": "rangabati-interview-2022",
+      "locator": "Odisha Review January 2022, pp. 52–56",
+      "scope": "Interview text read; creator names and attributed writing practice. Exact broadcast date omitted for independent corroboration."
+    },
+    {
+      "id": "sambalpur-culture",
+      "locator": "Language, Dalkhai and Nuakhai sections",
+      "scope": "District website text read; universalizing community descriptions not adopted."
+    },
+    {
+      "id": "desia-learning-2023",
+      "locator": "PIB release 1929523, 2 June 2023",
+      "scope": "Workshop preparation and future testing stage preserved."
+    },
+    {
+      "id": "desia-newsletter-2024",
+      "locator": "SCSTRTI January–June 2024, PDF pages 5 and 18",
+      "sha256": "a72633c173aee70fd169dd86e074f052e5f09525e9393e6ba03e0ae68fc8f2f0",
+      "scope": "PDF text inspected for Desia theatre and learning publications. Full copyrighted newsletter not republished in the repository."
+    }
+  ],
+  "evidence": [
+    "reference/district-language-stories.md",
+    "records/evidence/district-languages/page-acceptance.json",
+    "research/voices/collection.json",
+    "research/voices/district-connections.json"
+  ],
+  "next_action": "Complete remote checks and publish within the approved continuation scope; record actual delivery separately."
+}

@@ -1,4 +1,5 @@
 ---
+import DestinationLanguages from './DestinationLanguages.astro';
 import VisitReadiness from './VisitReadiness.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import MagazineContents from './MagazineContents.astro';
@@ -33,7 +34,7 @@ const further=connections.links.filter(link=>allowsPage(link.to)&&link.from===`/
 ---
 <div class="utk-magazine utk-magazine--region">
  <MagazineCover title={r.title} odia={r.odia} eyebrow={r.kicker} deck={[r.headline]} photo={hero} saveId={r.id} startHref="#stories" startLabel="Meet the place" footline={r.lead}/>
- <MagazineContents label="In this guide" links={[{href:"#stories",label:"The story"},{href:"#choose-your-stops",label:"Places & experiences"},...(other.length>0?[{href:"#make-it-yours",label:"Food & your own pace"}]:[]),{href:"#before-you-go",label:"Before you go"}]}/>
+ <MagazineContents label="In this guide" links={[{href:"#stories",label:"The story"},{href:"#choose-your-stops",label:"Places & experiences"},...(other.length>0?[{href:"#make-it-yours",label:"Food & your own pace"}]:[]),{href:"#before-you-go",label:"Before you go"},{href:"#local-languages",label:"Local languages"}]}/>
  <article class="mag-content">
   <section id="stories" class="mag-reading-section region-story-opening"><div><p class="eyebrow">01 · Find the thread</p><h2>{story.title}</h2></div><div>{story.paragraphs.map(p=><p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}</div></section>
   <section id="choose-your-stops" class="mag-chapter"><div class="mag-section-heading"><div><p class="eyebrow">02 · A few places to begin</p><h2>Choose a few.<br/><em>Leave room to linger.</em></h2></div><p>{r.orientation}</p></div>
@@ -42,6 +43,7 @@ const further=connections.links.filter(link=>allowsPage(link.to)&&link.from===`/
   {other.length>0&&<section id="make-it-yours" class="region-own-pace"><div><p class="eyebrow">03 · Make it yours</p><h2>A meal. A meeting.<br/><em>A little breathing room.</em></h2><p>Save the ideas that fit your interests. Choose the pace and the arrangements yourself.</p></div><div>{other.map(i=><article id={i.id.replaceAll(':','-')}><p class="eyebrow">{i.kind}</p><h3>{i.title}</h3><p>{i.summary}</p><p class="region-suggestion">{i.tip}</p>{i.link&&allowsPage(i.link.href)&&<a class="mag-detail-link" href={i.link.href}>{i.link.title} →</a>}<SaveJourney id={i.id} quiet/></article>)}</div></section>
   }
   {r.sections.filter(s=>s.id!=='stories').map(s=><section id={s.id} class="mag-reading-section"><div><p class="eyebrow">04 · Before you go</p><h2>{s.title}</h2></div><div>{s.paragraphs.map(p=><p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}{s.id==='before-you-go'&&r.visitor_notes?.map(note=><div class="region-visitor-note" data-source-ids={note.source_ids.join(' ')}><h3>{note.heading}</h3><p>{note.text}</p></div>)}</div></section>)}
+  <DestinationLanguages slug={r.slug}/>
    <VisitReadiness/>
   <section id="at-a-glance" class="region-facts" aria-label="At a glance">{r.facts.map(f=><div><p class="eyebrow">{f.label}</p><p>{f.text}</p></div>)}</section>
   {!isCoastalEdition&&cultureTrails.trails.some(t=>t.show_on.includes(`/destinations/${r.slug}/`))&&<details class="mag-disclosure"><summary>Languages, literature and connected stories</summary><CultureConnections path={`/destinations/${r.slug}/`}/></details>}

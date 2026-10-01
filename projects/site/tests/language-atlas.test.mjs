@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {selection,districtRows,stateMultilingual,percent,csvRows} from '../src/lib/language-atlas.mjs';
+import {selection,districtRows,stateMultilingual,percent,csvRows,districtBreakdown,districtSlug,multilingualTotals} from '../src/lib/language-atlas.mjs';
 const data=JSON.parse(readFileSync(new URL('../../../kb/research/voices/population-2011.json',import.meta.url)));
 test('Census groups and individual entries are distinct and preserve significant counts',()=>{
  assert.equal(selection(data,'015000').persons,34712170);
@@ -43,3 +43,22 @@ test('invalid URL inputs fall back safely, tiny positive shares stay visible, so
 });
 
 test('CSV preserves the selected entry, year and residence alongside counts',()=>{const s=selection(data,'015043','urban'),csv=csvRows(districtRows(data,s.code,s.residence),s);assert.match(csv,/Year,Entry code,Entry label,Classification,Residence/);assert.ok(csv.includes('"2011","015043","Odia","mother_tongue","urban"'));});
+
+test('district profiles reconcile nonoverlapping groups for every residence category',()=>{
+ for(const area of Object.values(data.areas).filter(a=>a.code!=='000'))for(const residence of ['total','rural','urban']){
+  const d=districtBreakdown(data,area.code,residence);
+  assert.equal(d.groups.reduce((n,r)=>n+r.persons,0),d.population);
+  assert.ok(d.groups.every(g=>g.level==='language_group'));
+  assert.ok(d.entries.every(e=>e.level==='mother_tongue'&&e.persons===e.males+e.females));
+  for(const group of d.groups){const children=d.entries.filter(e=>e.parent===group.code);if(children.length)assert.equal(children.reduce((n,r)=>n+r.persons,0),group.persons)}
+ }
+});
+test('district routes are unique and reject state or prototype input',()=>{
+ const areas=Object.values(data.areas).filter(a=>a.code!=='000');assert.equal(new Set(areas.map(districtSlug)).size,30);
+ for(const bad of ['000','__proto__','constructor','unknown'])assert.throws(()=>districtBreakdown(data,bad),RangeError);
+ assert.equal(districtBreakdown(data,'370','constructor').residence,'total');
+});
+test('statewide multilingual slices partition population without double-counting trilingual returns',()=>{
+ const t=multilingualTotals(data);assert.equal(t.population,41974218);assert.equal(t.atLeastTwo,13825024);assert.equal(t.three,5525278);
+ assert.equal(t.exactlyTwoReported+t.three,t.atLeastTwo);assert.equal(t.noAdditionalReported+t.exactlyTwoReported+t.three,t.population);
+});

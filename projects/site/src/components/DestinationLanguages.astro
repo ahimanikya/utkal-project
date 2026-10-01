@@ -1,0 +1,7 @@
+---
+import atlas from '../../../../kb/research/voices/population-2011.json';
+import connections from '../../../../kb/research/voices/district-connections.json';
+import {districtHref} from '../lib/language-atlas.mjs';
+const match=connections.connections.find(c=>c.destination===Astro.props.slug);
+---
+{match&&<section id="local-languages" class="mag-reading-section"><div><p class="eyebrow">Listen to the place</p><h2>Languages you’ll encounter</h2></div><div><p>Begin by asking your host which language they prefer. The language of a home, a song or a workplace need not be the same.</p><p>{match.note} Explore the recorded mother tongues as historical background; the 2011 counts do not establish what a particular person speaks today.</p><a class="text-link" href={districtHref(atlas.areas[match.district])}>Explore {atlas.areas[match.district].name}’s language profile →</a><p><a href="/languages/multilingual-odisha/">How to read a multilingual landscape →</a></p></div></section>}
