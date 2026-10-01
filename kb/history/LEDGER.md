@@ -772,3 +772,9 @@ Three stages invite the reader to see a painting take shape, then meet its maker
 Approved PR #11 is live. Raghurajpur’s cloth-to-picture sequence and four practical notes now travel from the page into actual HTML/text journey books. HTTPS redirects remain working. Direct maker arrangements and facilities still need local confirmation.
 
 [Publication evidence](../records/raghurajpur-publication.json).
+
+## UTP-HIS-0124 · One hill, more than one time
+
+The Dhauli guide gives ancient inscriptions, the elephant, the modern Peace Pagoda and the river legend their own place. Four planning notes travel into actual downloaded books; current programmes and facilities remain questions for local confirmation.
+
+[Dhauli guide review](../research/product/dhauli-layers-guide-2026-10-01.md). Candidate not deployed.

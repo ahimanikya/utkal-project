@@ -89,3 +89,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 - [Puri visitor essentials](puri-visitor-essentials-2026-09-30.md) — temple preparation, food, shore and arrival.
 
 - [Raghurajpur maker guide](raghurajpur-maker-guide-2026-10-01.md) — process, cultural connections and workshop visits.
+
+- [Dhauli: layers of a landscape](dhauli-layers-guide-2026-10-01.md) — inscriptions, elephant, pagoda and visit planning.

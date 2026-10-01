@@ -104,3 +104,5 @@
 - [Raghurajpur maker guide review](raghurajpur-maker-guide-review.json) — sources, responsive sequence and actual journey books.
 
 - [Raghurajpur publication](raghurajpur-publication.json) — approved PR #11, live making sequence and journey books.
+
+- [Dhauli layers guide review](dhauli-layers-guide-review.json) — source distinctions and actual journey books.
