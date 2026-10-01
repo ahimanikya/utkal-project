@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T10:54:47.428210+00:00",
+  "recorded_at": "2026-10-01T11:02:47.008110+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3466,6 +3466,28 @@
         "records/visitor-experience-review.json",
         "records/visitor-experience-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-117",
+      "title": "Dismiss cookie UI after saved choice",
+      "category": "website_experience",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-113",
+      "next_action": "Founder reviews the cookie-interface candidate before publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-113",
+        "UTP-REV-087"
+      ],
+      "evidence": [
+        "records/cookie-dismissal-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -5725,6 +5747,23 @@
         "records/visitor-experience-publication.json",
         "records/evidence/visitor-experience-publication/approval.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-113",
+      "title": "Remove persistent cookie acceptance interface",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Cookie preferences\nOptional cookies accepted.\n\nremove these - once Cookie accepted - we don't want keep this page",
+      "scope": "Prepare the requested cookie dismissal fix for review. Publication remains subject to the established Founder gate.",
+      "recorded_at": "2026-10-01T11:02:47.008110+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "records/cookie-dismissal-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -7784,6 +7823,29 @@
       ],
       "evidence": [
         "records/visitor-experience-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-087",
+      "title": "Cookie dismissal and privacy access checks",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and checked this change; no independent review claimed.",
+        "Browser visual check was blocked because the browser could not verify its admin-enforced security policy. No workaround attempted.",
+        "Consent interaction checks execute the actual component script with synthetic DOM, storage and network objects; they do not use production visitor data.",
+        "Not deployed; awaiting Founder review of the candidate."
+      ],
+      "refs": [
+        "UTP-DEC-113",
+        "UTP-WORK-117"
+      ],
+      "evidence": [
+        "records/cookie-dismissal-review.json"
       ]
     }
   ],
