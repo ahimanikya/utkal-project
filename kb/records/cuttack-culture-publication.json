@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-01T06:57:56.271283+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-102",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/17",
+  "approved_head": "34671b9d9bda779f91f64b6c644e78f7a5bbcac9",
+  "deployed_sha": "5fd50a750cb7ce39badcb95c462dd44a14cffb50",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36827077157",
+  "destination": "https://utkalproject.org/destinations/cuttack/",
+  "scope": "Six Cuttack pages and ten cultural pages published: 46 total edition pages, 42 saveable ideas and seven starters. Merger and records-only follow-up do not change the approved site candidate.",
+  "verification": [
+    "Publication workflow completed successfully for the recorded revision.",
+    "All 46 edition pages returned HTTP 200 and carried the expected 42 saveable ideas and seven starters.",
+    "All checked pages retained cookie configuration, preview noindex and the held-content boundaries.",
+    "The three newly published photograph hashes match the approved provenance.",
+    "Live Cuttack and literature page DOM and desktop cover screenshots inspected; headings, images and guide links rendered.",
+    "The HTTP Cuttack URL redirected to HTTPS and returned HTTP 200."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant prepared and verified the release; no independent review claimed.",
+    "Current visitor conditions, facilities and menus have not been inspected. Fluent Odia and specialist literary review remain open.",
+    "Production verification was read-only; save/download and native PDF evidence remains the local synthetic candidate checks.",
+    "The preview retains noindex. The held historical Gopinath portrait, seven further language pages and commercial store remain excluded."
+  ],
+  "evidence": [
+    "records/evidence/cuttack-culture-publication/approval.json",
+    "records/evidence/cuttack-culture-publication/deployment.json",
+    "records/evidence/cuttack-culture-publication/live-checks.json",
+    "records/evidence/cuttack-culture-publication/cuttack-live.png",
+    "records/evidence/cuttack-culture-publication/literature-live.png"
+  ]
+}

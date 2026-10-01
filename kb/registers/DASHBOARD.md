@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1365c2fa2fa9898ea4f55d291c95f9610ec8effdbce0a530c4064fa3711782ff`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8b07ad256d5644105c4bf12910f303187dc2455eadc14738f64327f835f0c7bd`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -122,8 +122,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-107 · Simplify the cookie message and controls | completed | published | Ahimanikya Satapathy | Published and verified; no further cookie-copy work pending. | — |
 | UTP-WORK-108 · Prepare Chilika and nine connected guides for release | completed | published | Ahimanikya Satapathy | Published and verified. Local confirmations and fluent Odia proofreading remain open editorial follow-up; no service inspection claimed. | — |
 | UTP-WORK-109 · Bhubaneswar release: temple, table, base, painted memories and a city starter | completed | published | Ahimanikya Satapathy | Published and verified under UTP-REL-018. Continue local-confirmation and fluent-language follow-up separately; no service inspection or current mural route claimed. | — |
-| UTP-WORK-110 · Cuttack collection: fort, craft, food, museum, base and journey | awaiting_review | applied | Ahimanikya Satapathy | Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live. | Deployment dispatch rejected pending explicit publication approval. |
-| UTP-WORK-111 · Odia language, literature and six literary lives | awaiting_review | applied | Ahimanikya Satapathy | Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live. | Deployment dispatch rejected pending explicit publication approval. |
+| UTP-WORK-110 · Cuttack collection: fort, craft, food, museum, base and journey | completed | published | Ahimanikya Satapathy | Published as an editorial preview. Carry forward local-condition checks, fluent Odia and literary review, and held-image rights research. | — |
+| UTP-WORK-111 · Odia language, literature and six literary lives | completed | published | Ahimanikya Satapathy | Published as an editorial preview. Carry forward local-condition checks, fluent Odia and literary review, and held-image rights research. | — |
 
 ## Pending human review and decisions
 
@@ -191,8 +191,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017. |
 | UTP-WORK-097 | Use models/local-confirmation.md for dated scoped evidence from the relevant source and separate Founder acceptance. All seven guides remain locally unverified. No outreach or site inspection undertaken. |
-| UTP-WORK-110 | Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live. |
-| UTP-WORK-111 | Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live. |
 
 ## Decisions
 
@@ -298,6 +296,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-099 · Merge and publish the Bhubaneswar collection | approved | Ahimanikya Satapathy | Approve the reviewed Bhubaneswar batch for merge and publication. Existing local, mural-identity and language-proofreading limitations remain recorded. |
 | UTP-DEC-100 · Prepare the Cuttack and Odia cultural collection batch | approved | Ahimanikya Satapathy | Prepare the recommended Cuttack guides, journey connections and Odia language/literature follow-up for review. The follow-up “try now” authorizes retrying access and continuing. No new merge or publication approval inferred. |
 | UTP-DEC-101 · Approve and merge the Cuttack and literary collection | approved | Ahimanikya Satapathy | Approve the reviewed PR 17 candidate and merge. Public deployment is awaiting separate explicit confirmation following automatic approval review rejection. |
+| UTP-DEC-102 · Explicitly authorize publication of PR 17 | approved | Ahimanikya Satapathy | Answer to “May I publish PR 17 to utkalproject.org now?” Authorizes publication of the already approved and merged Cuttack and cultural collection through the existing workflow. |
 
 ## Reviews
 
@@ -377,6 +376,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-074 | pass_with_limitations | False | Same assistant prepared and verified the release; no independent review claimed.; Current local conditions, property facilities, menus, mural survival and fluent Odia proofreading remain unverified.; Production checks did not create or change a saved journey; save/download testing remains the local synthetic candidate evidence. |
 | UTP-REV-075 | pass_with_limitations | False | Prepared and checked by the same AI assistant; no independent review or human approval claimed.; No field inspection of venues, workshop hosts, accommodation, menus, transport or current access.; Fluent Odia and specialist literary review remain open; no invented quotes or full copyrighted works reproduced.; The dated Tarakasi photograph has inconsistent material descriptions; caption explicitly limits it to form. Gopinath Mohanty historical portrait is held from delivery pending rights clarification.; Native PDF checks use synthetic plans, not physical prints. Long credits can continue onto a sparse final page. |
 | UTP-REV-076 | pass_with_limitations | False | Prepared and checked by the same AI assistant; no independent review or human approval claimed.; No field inspection of venues, workshop hosts, accommodation, menus, transport or current access.; Fluent Odia and specialist literary review remain open; no invented quotes or full copyrighted works reproduced.; The dated Tarakasi photograph has inconsistent material descriptions; caption explicitly limits it to form. Gopinath Mohanty historical portrait is held from delivery pending rights clarification.; Native PDF checks use synthetic plans, not physical prints. Long credits can continue onto a sparse final page. |
+| UTP-REV-077 | pass_with_limitations | False | Same assistant prepared and verified the release; no independent review claimed.; Current visitor conditions, facilities and menus have not been inspected. Fluent Odia and specialist literary review remain open.; Production verification was read-only; save/download and native PDF evidence remains the local synthetic candidate checks.; The preview retains noindex. The held historical Gopinath portrait, seven further language pages and commercial store remain excluded. |
 
 ## Publication and application history
 
@@ -400,6 +400,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-016 · Simple cookie message published | published | https://utkalproject.org/ | UTP-DEC-095 |
 | UTP-REL-017 · Chilika collection published | published | https://utkalproject.org/knowledge/chilika/ | UTP-DEC-097 |
 | UTP-REL-018 · Bhubaneswar collection published | published | https://utkalproject.org/destinations/bhubaneswar/ | UTP-DEC-099 |
+| UTP-REL-019 · Cuttack and Odia cultural collection published | published | https://utkalproject.org/destinations/cuttack/ | UTP-DEC-102 |
 
 ## Sources and assets
 
@@ -437,7 +438,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-105 | 2026-10-01T01:59:43.640469+00:00 | Approved PR 13 merged at 1fd868d. Deployment attempt rejected by automatic approval review; explicit deployment confirmation requested. Live site remains on the prior release. | Await deployment confirmation; no workaround for the rejected action. |
 | UTP-EVT-106 | 2026-10-01T02:13:34.846097+00:00 | Explicit deployment approval received. Normal workflow succeeded at be6d1c6. Live planning notes, print CSS, analytics consent and withdrawal, GA Realtime and HTTPS verified. | Continue separately tracked local and fluent-language confirmations; current release verification complete. |
 | UTP-EVT-107 | 2026-10-01T02:18:45.187477+00:00 | Prepared familiar cookie wording and controls; provider details remain on the privacy page. Coastal build and 11 tests pass. | Founder publication review. |
 | UTP-EVT-108 | 2026-10-01T02:29:01.752917+00:00 | Approved PR 14 merged and published. Familiar cookie wording, preferences access and decline confirmation verified live. | No further cookie-copy work pending. |
@@ -447,6 +447,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-112 | 2026-10-01T03:49:48.321301+00:00 | Approved PR 16 merged and published. Four routes and the city starter are live; all 30 edition pages, original photo samples and HTTPS redirect verified. | Continue the remaining editorial queue with local-confirmation, held-content and proofreading gaps preserved. |
 | UTP-EVT-113 | 2026-10-01T06:14:03.361187+00:00 | Prepared six Cuttack pages and ten cultural pages, seven total starters and 42 saveable ideas. Reviewed photographs, responsive layouts and two native-print samples; preserved held language routes and portrait-rights uncertainty. | Founder reviews the two packages and associated PR. |
 | UTP-EVT-114 | 2026-10-01T06:23:42.743214+00:00 | Approved PR 17 merged at 1cb57bda76e3979b191c51d2bdfef43e68960389. Automatic approval review blocked workflow dispatch pending explicit publication confirmation. No deployment was started. | Await the requested publication confirmation; no bypass. |
+| UTP-EVT-115 | 2026-10-01T06:57:56.271283+00:00 | Following explicit publication confirmation, PR 17 was deployed successfully. All 46 edition pages, 42 saveable ideas, seven starters, three new photograph hashes and HTTP-to-HTTPS redirect passed live checks. | Continue remaining editorial work with specialist review and local-confirmation gaps preserved. |
 
 ## Deferred extensions
 

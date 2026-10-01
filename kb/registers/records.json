@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T06:23:42.743214+00:00",
+  "recorded_at": "2026-10-01T06:57:56.271283+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3111,52 +3111,56 @@
       "id": "UTP-WORK-110",
       "title": "Cuttack collection: fort, craft, food, museum, base and journey",
       "category": "website_editorial",
-      "status": "awaiting_review",
-      "readiness": "applied",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-100",
-      "next_action": "Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live.",
-      "blockers": [
-        "Deployment dispatch rejected pending explicit publication approval."
-      ],
+      "next_action": "Published as an editorial preview. Carry forward local-condition checks, fluent Odia and literary review, and held-image rights research.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-100",
         "UTP-REV-075",
-        "UTP-DEC-101"
+        "UTP-DEC-101",
+        "UTP-DEC-102",
+        "UTP-REV-077",
+        "UTP-REL-019"
       ],
       "evidence": [
         "records/cuttack-release-review.json",
-        "records/cuttack-culture-merge.json"
+        "records/cuttack-culture-merge.json",
+        "records/cuttack-culture-publication.json"
       ]
     },
     {
       "id": "UTP-WORK-111",
       "title": "Odia language, literature and six literary lives",
       "category": "website_editorial",
-      "status": "awaiting_review",
-      "readiness": "applied",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-100",
-      "next_action": "Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live.",
-      "blockers": [
-        "Deployment dispatch rejected pending explicit publication approval."
-      ],
+      "next_action": "Published as an editorial preview. Carry forward local-condition checks, fluent Odia and literary review, and held-image rights research.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-100",
         "UTP-REV-076",
-        "UTP-DEC-101"
+        "UTP-DEC-101",
+        "UTP-DEC-102",
+        "UTP-REV-077",
+        "UTP-REL-019"
       ],
       "evidence": [
         "records/odia-literature-release-review.json",
-        "records/cuttack-culture-merge.json"
+        "records/cuttack-culture-merge.json",
+        "records/cuttack-culture-publication.json"
       ]
     }
   ],
@@ -5191,6 +5195,30 @@
       "evidence": [
         "records/cuttack-culture-merge.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-102",
+      "title": "Explicitly authorize publication of PR 17",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Yes",
+      "scope": "Answer to “May I publish PR 17 to utkalproject.org now?” Authorizes publication of the already approved and merged Cuttack and cultural collection through the existing workflow.",
+      "recorded_at": "2026-10-01T06:57:56.271283+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-101",
+        "UTP-WORK-110",
+        "UTP-WORK-111",
+        "UTP-REV-075",
+        "UTP-REV-076"
+      ],
+      "evidence": [
+        "records/cuttack-culture-publication.json",
+        "records/evidence/cuttack-culture-publication/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -7012,6 +7040,30 @@
       "evidence": [
         "records/odia-literature-release-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-077",
+      "title": "Cuttack and cultural collection live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant prepared and verified the release; no independent review claimed.",
+        "Current visitor conditions, facilities and menus have not been inspected. Fluent Odia and specialist literary review remain open.",
+        "Production verification was read-only; save/download and native PDF evidence remains the local synthetic candidate checks.",
+        "The preview retains noindex. The held historical Gopinath portrait, seven further language pages and commercial store remain excluded."
+      ],
+      "refs": [
+        "UTP-DEC-102",
+        "UTP-WORK-110",
+        "UTP-WORK-111"
+      ],
+      "evidence": [
+        "records/cuttack-culture-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -7334,6 +7386,23 @@
         "records/bhubaneswar-publication.json"
       ],
       "note": "Approved PR 16 deployed at 61692f99409154066c459df8cc38fd519008420d. All 30 edition pages, catalogue scope, archive asset samples, live gallery and HTTPS redirect verified."
+    },
+    {
+      "id": "UTP-REL-019",
+      "title": "Cuttack and Odia cultural collection published",
+      "status": "published",
+      "authorization": "UTP-DEC-102",
+      "destination": "https://utkalproject.org/destinations/cuttack/",
+      "refs": [
+        "UTP-DEC-102",
+        "UTP-WORK-110",
+        "UTP-WORK-111",
+        "UTP-REV-077"
+      ],
+      "evidence": [
+        "records/cuttack-culture-publication.json"
+      ],
+      "note": "Approved PR 17 published after explicit Yes. All 46 edition pages, three new photograph hashes, catalogue scope and HTTPS redirect verified."
     }
   ],
   "sources": [
