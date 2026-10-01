@@ -4166,6 +4166,29 @@
       "content_type": "Product Profile",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "collections/odisha-and-world",
+      "primary_subject": "governance",
+      "secondary_subjects": [
+        "economy",
+        "history",
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "collections/religion-and-spirituality",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "people",
+        "arts"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5932,9 +5955,178 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects forest livelihood research without merging honey with similarly transliterated plant names."
+    },
+    {
+      "from": "collections/odisha-and-world",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Links materials research to questions about trade and policy; no strategic outcome is inferred from mineral occurrence."
+    },
+    {
+      "from": "collections/religion-and-spirituality",
+      "to": "culture/mahima-dharma",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a named tradition to the wider faith collection while preserving its own history and literature."
     }
   ],
   "relationship_types": {
     "related_reading": "Editorial context only; not a source-backed causal, historical, supply-chain or proximity relationship."
-  }
+  },
+  "reading_lenses": [
+    {
+      "id": "places",
+      "title": "Places",
+      "description": "Landscapes, cities, villages, districts and their everyday lives.",
+      "subject_ids": [
+        "places"
+      ],
+      "entry_paths": [
+        "places/index.md",
+        "subjects/places.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "people",
+      "title": "People",
+      "description": "Creators, scientists, workers, entrepreneurs, public figures and communities.",
+      "subject_ids": [
+        "people"
+      ],
+      "entry_paths": [
+        "people/people-and-creations.md",
+        "people/public-servants-and-lawmakers.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "description": "Ingredients, recipes, household knowledge, seasons and food businesses.",
+      "subject_ids": [
+        "food",
+        "everyday"
+      ],
+      "entry_paths": [
+        "food/index.md",
+        "food/forest-foods.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "livelihoods",
+      "title": "Economy and livelihoods",
+      "description": "How Odisha creates value: production, processing, services, work, trade and enterprise.",
+      "subject_ids": [
+        "economy",
+        "everyday"
+      ],
+      "entry_paths": [
+        "economy/index.md",
+        "people/entrepreneurs-and-business-leaders.md",
+        "statistics/index.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "culture",
+      "title": "Culture",
+      "description": "Living arts, language, performance, craft, festivals and changing practices.",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "entry_paths": [
+        "culture/index.md",
+        "handlooms/index.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "heritage",
+      "title": "History and heritage",
+      "description": "Rulers, monuments, manuscripts, institutions, archaeology and historical change.",
+      "subject_ids": [
+        "history",
+        "places"
+      ],
+      "entry_paths": [
+        "history/index.md",
+        "people/rulers-and-royal-legacies.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "literature",
+      "title": "Literature",
+      "description": "Poets, writers, works, translations, editions and ways to read them.",
+      "subject_ids": [
+        "arts",
+        "people",
+        "history"
+      ],
+      "entry_paths": [
+        "works/index.md",
+        "people/people-and-creations.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "science",
+      "title": "Science and knowledge",
+      "description": "Scientific work, credited discoveries, manuscripts, universities and research institutions.",
+      "subject_ids": [
+        "people",
+        "everyday",
+        "economy"
+      ],
+      "entry_paths": [
+        "people/science-and-contributions.md",
+        "methods/culture-learning-programme.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "geopolitics",
+      "title": "Geopolitics and Odisha in the world",
+      "description": "Historical power, maritime connections, national policy, strategic infrastructure and global economic relationships.",
+      "subject_ids": [
+        "governance",
+        "history",
+        "economy"
+      ],
+      "entry_paths": [
+        "collections/odisha-and-world.md",
+        "history/maritime-evidence.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "faith",
+      "title": "Religion and spirituality",
+      "description": "Living faiths, philosophy, devotion, sacred literature, institutions, practices and their histories.",
+      "subject_ids": [
+        "history",
+        "people",
+        "arts"
+      ],
+      "entry_paths": [
+        "collections/religion-and-spirituality.md",
+        "culture/mahima-dharma.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    }
+  ]
 }

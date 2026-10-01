@@ -163,3 +163,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Forest seasons, food research and siali
 
 [Research receipt](records/forest-seasonal-2026-10-01.json): historical honey season, mahua research formulations and siali profile; RES-056 remains open. No website release.
+
+## 1 October 2026 · Whole Odisha encyclopedia scope
+
+[Research receipt](records/encyclopedia-scope-2026-10-01.json): user scope mapped to existing subjects and reading paths; geopolitics synthesis queued. No website release.

@@ -50,3 +50,5 @@ This is a research collection, not a current travel-booking directory. Statement
 [Mining: minerals, industry and people](economy/mining.md).
 
 [Forest foods and products](economy/forest-products.md).
+
+[The whole Odisha encyclopedia](about/encyclopedia-scope.md) · [Odisha in the world](collections/odisha-and-world.md) · [Religion and spirituality](collections/religion-and-spirituality.md).

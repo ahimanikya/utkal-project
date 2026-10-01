@@ -215,3 +215,7 @@ Added kendu-patra, Mohu/honey and mahua/mohula profiles and three sources. The u
 ### Seasonal forest research · 1 October2026
 
 RES-056 enhanced existing honey and mahua profiles, added siali and three source records. Botanical identities, historical descriptions and research-developed foods retain separate evidence classes. No new market statistics or duplicate task IDs.
+
+### Encyclopedia scope clarification · 1 October2026
+
+Three editorial records make the user’s broad scope visible. Reused literary, science, faith, maritime, mineral and people research. RES-059 adds missing geopolitical synthesis; existing religion tasks and canonical records remain intact. No fresh facts or publication approval inferred.

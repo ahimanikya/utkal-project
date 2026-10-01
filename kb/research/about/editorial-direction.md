@@ -60,3 +60,7 @@ Follow the [statistics presentation standard](statistics-storytelling.md): one c
 ## Name to use
 
 The user confirmed **Utkal** on 1 October 2026. Use that spelling for this project and assistant-authored references. Preserve exact external titles and quotations.
+
+## Whole-encyclopedia scope · 1 October2026
+
+The user reaffirmed places, people, food, economic activity, culture, heritage, literature, science, geopolitics, religion and spirituality as core coverage. [The scope map](encyclopedia-scope.md) connects them to existing knowledge. Economic contribution is researched where relevant; literary, scientific, cultural and spiritual significance also stand on their own. Website launch scope and publication approval remain separate.

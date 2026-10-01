@@ -246,3 +246,7 @@ Mohu means honey per user clarification. Three profiles and fifteen product entr
 ### RES-056 seasonal checkpoint
 
 A historical Hill Kharia honey calendar and a2016 mahua food-development abstract are saved, with a siali identity/fibre profile. Full recipe methods, current local seasons and SCSTRTI date provenance remain open. Failed garden, repository metadata and producer-company routes have2026-10-08 retries; independent research can continue.
+
+## Geopolitics and explicit reading areas
+
+RES-059 covers missing geopolitical synthesis through existing maritime/port/mineral/people research and two bounded contemporary cases. Religion/spirituality reuses RES-045 and RES-048–050; literature/science reuse their existing collections. [Scope map](encyclopedia-scope.md) records the user’s full direction. This navigation pass does not mark any deep study completed.

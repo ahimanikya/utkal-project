@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T19:35:04.134564+00:00",
+  "updated_at": "2026-10-01T19:39:57.358018+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2498,6 +2498,43 @@
           "economy/kendu-patra.md",
           "food/mohu-honey.md",
           "food/mahua-mohula.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-059",
+      "order": 17.8,
+      "title": "Odisha in the world: geopolitical evidence and synthesis",
+      "done_when": "Build a source-linked research synthesis for historical maritime relations and two contemporary trade/policy cases; distinguish measured trade, institutional roles and attributed strategic interpretation. Reuse existing port/mineral/people evidence; retain disagreements and missing scope.",
+      "target": "collections/odisha-and-world.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-017",
+        "RES-020",
+        "RES-037",
+        "RES-038",
+        "RES-052"
+      ],
+      "last_worked_at": null,
+      "next_step": "Search saved maritime/port/mineral evidence; choose two bounded contemporary cases with original sources before making strategic claims.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "collections/odisha-and-world.md",
+          "history/maritime-evidence.md",
+          "trade/connection-matrix.md",
+          "statistics/ports.md",
+          "economy/mining.md",
+          "journeys/rare-earths.md",
+          "people/public-servants-and-lawmakers.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

@@ -15508,6 +15508,54 @@
         "forest-vasundhara-livelihoods"
       ],
       "added_at": "2026-10-01T19:35:04.134564+00:00"
+    },
+    {
+      "id": "about/encyclopedia-scope",
+      "title": "Utkal: the whole Odisha encyclopedia",
+      "kind": "Editorial Scope",
+      "layer": "research_concept",
+      "source_path": "about/encyclopedia-scope.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [],
+      "added_at": "2026-10-01T19:39:57.358018+00:00"
+    },
+    {
+      "id": "collections/odisha-and-world",
+      "title": "Odisha in the world: trade, power and connections",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "collections/odisha-and-world.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "governance",
+        "economy",
+        "history",
+        "places"
+      ],
+      "source_ids": [],
+      "added_at": "2026-10-01T19:39:57.358018+00:00"
+    },
+    {
+      "id": "collections/religion-and-spirituality",
+      "title": "Religion and spirituality: traditions, thought and lived practice",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "collections/religion-and-spirituality.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "people",
+        "arts"
+      ],
+      "source_ids": [],
+      "added_at": "2026-10-01T19:39:57.358018+00:00"
     }
   ],
   "shared_publications": [
@@ -16659,6 +16707,23 @@
       "remaining_scope": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
       "status_unchanged": "pending",
       "instruction": "Reuse food identities and forest statistics. Study absent product/market/history fields only."
+    },
+    {
+      "task_id": "RES-059",
+      "title": "Odisha in the world: geopolitical evidence and synthesis",
+      "source_records": [
+        "collections/odisha-and-world.md",
+        "history/maritime-evidence.md",
+        "trade/connection-matrix.md",
+        "statistics/ports.md",
+        "economy/mining.md",
+        "journeys/rare-earths.md",
+        "people/public-servants-and-lawmakers.md"
+      ],
+      "project_records": [],
+      "remaining_scope": "Build a source-linked research synthesis for historical maritime relations and two contemporary trade/policy cases; distinguish measured trade, institutional roles and attributed strategic interpretation. Reuse existing port/mineral/people evidence; retain disagreements and missing scope.",
+      "status_unchanged": "pending",
+      "instruction": "Synthesis of missing geopolitical relationships, not duplicate trade or mineral observations."
     }
   ],
   "rules": [
@@ -16676,8 +16741,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1077,
-    "updated_at": "2026-10-01T19:35:04.134564+00:00",
+    "records_mapped": 1080,
+    "updated_at": "2026-10-01T19:39:57.358018+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17058,6 +17123,11 @@
       "run_id": "2026-10-01-forest-seasonal",
       "at": "2026-10-01T19:35:04.134564+00:00",
       "scope": "Siali profile plus three sources; enhanced existing honey and mahua records, retained task status and historical scope."
+    },
+    {
+      "run_id": "2026-10-01-encyclopedia-scope",
+      "at": "2026-10-01T19:39:57.358018+00:00",
+      "scope": "Whole-encyclopedia scope clarification: ten reading areas mapped to nine stable subjects; two explicit collections and one nonduplicate geopolitics task."
     }
   ]
 }
