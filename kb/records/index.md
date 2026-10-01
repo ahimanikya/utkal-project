@@ -184,3 +184,5 @@
 - [Visitor discovery publication](visitor-research-publication.json) — approved PR 34, live homepage and connected reading checks.
 
 - [Research integration candidate](research-integration-review.json) · [Next illustrated story briefs](next-story-batch.json) · [Operating-rule proposal history](research-integration-rule-proposals.json)
+
+- [Editorial 500 delivery record](editorial-500-review.json) · [Frozen selection](editorial-workbench-selection.json) · [Generated assessments](editorial-workbench.json) · [Pitha photo provenance](pitha-image-provenance.json)

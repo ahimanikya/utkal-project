@@ -19,3 +19,5 @@ Repository configuration: [utkal.config.json](utkal.config.json). [Knowledge and
 [Utkal Store workspace](projects/store/README.md) · [Store project KB](projects/store/kb/index.md). Utkal Store belongs to Utkal Collective; sharing this repository does not change its organizational parent.
 
 [Bhubaneswar Fresco collection](kb/collections/bhubaneswar-fresco/index.md) · [Current brand direction](kb/reference/brand-direction-02.md) · [Sensory identity research](kb/reference/odisha-sensory-identity.md).
+
+Read the [editorial workbench guide](kb/reference/editorial-workbench.md) or open the [500-record assessment](kb/records/editorial-workbench.json). The [local workbench](projects/editorial-workbench/README.md) is a separate read-only tool and is excluded from the public website.

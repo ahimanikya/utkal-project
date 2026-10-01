@@ -32,3 +32,5 @@
 - [Languages and Living Voices](language-heritage-model.md)
 
 - [Utkal Design System — Kabita Live adaptation proposal](utkal-design-system-proposal.md)
+
+- [Editorial workbench](editorial-workbench.md) — from existing knowledge to the next useful story.

@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-10-01T17:57:34.582564+00:00",
+  "status": "implemented_and_programmatically_checked_not_yet_deployed",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "approved - do your next 500 things without asking me permission",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "food_pages": [
+      "/food/enduri-pitha/",
+      "/food/poda-pitha/"
+    ],
+    "existing_story_updated": "/food/chhena-poda/ — connected onward reading; original saved-item identity retained",
+    "media": "Two real Commons photographs, visually inspected, credited CC BY-SA 4.0; resized and encoded as WebP with responsive variants.",
+    "editorial_assessments": 500,
+    "assessment_breakdown": {
+      "source_identities": 361,
+      "people": 64,
+      "works": 48,
+      "food": 23,
+      "priority_places": 4
+    },
+    "assessment_meaning": "Metadata and explicit-link assessments of existing records, with evidence gaps and next actions. Not 500 verified stories or completed research assignments.",
+    "newer_matching_records_outside_frozen_selection": 12,
+    "code": "projects/editorial-workbench/ and tools/editorial/",
+    "data": "kb/records/editorial-workbench.json"
+  },
+  "checks": {
+    "full_site_tests": {
+      "passed": 368,
+      "failed": 0
+    },
+    "coastal_tests": {
+      "passed": 53,
+      "failed": 0
+    },
+    "design_system_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "workbench_data_tests": {
+      "passed": 6,
+      "failed": 0
+    },
+    "workbench_filter_and_portability_tests": {
+      "passed": 3,
+      "failed": 0
+    },
+    "research_validators": {
+      "passed": 12,
+      "failed": 0
+    },
+    "page_acceptance": {
+      "passed": 284,
+      "failed": 0
+    },
+    "coastal_pages": 71,
+    "discovery_entries": 58,
+    "journey_items": 65
+  },
+  "corrections_found_during_work": [
+    "Added explicit search-indexing holds for both new routes after the full-site selection test failed.",
+    "Changed shared-URL matching: a registry index is not proof that different citations are the same publication. Ambiguous matches no longer create subject connections.",
+    "Kept specific Rasabali and Magji preparation discrepancies; the workbench does not resolve them by inference."
+  ],
+  "limitations": [
+    "Browser administration-policy verification still blocks visual audit; no browser, mobile, print or assistive-technology review claimed for this batch.",
+    "Odia terminology and local preparation review remain pending. No kitchen, venue or recipe has been tested.",
+    "Metadata mapping is not a fresh source retrieval or independent verification of all 500 records.",
+    "Literary edition and community-reporting briefs remain pending.",
+    "Indexing stays disabled. Store and the internal workbench remain excluded from the coastal website."
+  ],
+  "evidence": [
+    "records/pitha-image-provenance.json",
+    "records/editorial-workbench.json",
+    "records/evidence/editorial-500/page-acceptance.json",
+    "records/evidence/editorial-500/research-checks.json"
+  ],
+  "next_action": "Publish the tested candidate within the Founder’s broad continuation authorization, retaining source, language and visual-review limits. Record exact PR, merge and delivery evidence separately."
+}
