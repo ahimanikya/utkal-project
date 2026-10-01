@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-01T03:14:33.283977+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-097",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/15",
+  "approved_head": "f56cb18aa6d6be14dbcda10f024a6689a96ae4c6",
+  "deployed_sha": "23e990d8edd59805eb3bdd2e2b9f58c851f863b4",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36809327156",
+  "destination": "https://utkalproject.org/knowledge/chilika/",
+  "scope": "Approved ten-page Chilika addition: 26 published edition pages, 23 saveable ideas, four total journey starters.",
+  "verification": [
+    "GitHub review and publication workflows passed.",
+    "Ten new Chilika routes plus homepage and journey-starters returned HTTP 200 and the expected catalogue.",
+    "Three Chilika starters present; previously published city/craft/coast starter retained.",
+    "Main Chilika page links all nine guides; stay links no longer fall back to Puri.",
+    "Live browser opening photograph and Barkul/Rambha stay navigation inspected.",
+    "HTTP request for Chilika redirected to HTTPS successfully."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant prepared and verified this release; no independent review claimed.",
+    "Existing local-arrangement, field-inspection, current-property and fluent Odia proofreading gaps remain open.",
+    "No production journey was created or changed; full save/download checks used the local synthetic preview and remain in the candidate evidence."
+  ],
+  "evidence": [
+    "records/evidence/chilika-publication/approval.json",
+    "records/evidence/chilika-publication/deployment.json",
+    "records/evidence/chilika-publication/live-checks.json",
+    "records/evidence/chilika-publication/live-chilika.png"
+  ]
+}

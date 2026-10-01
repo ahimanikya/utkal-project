@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T03:04:49.370605+00:00",
+  "recorded_at": "2026-10-01T03:14:33.283977+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2962,22 +2962,26 @@
       "id": "UTP-WORK-108",
       "title": "Prepare Chilika and nine connected guides for release",
       "category": "website_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-096",
-      "next_action": "Founder candidate review; then approved merge and publication.",
+      "next_action": "Published and verified. Local confirmations and fluent Odia proofreading remain open editorial follow-up; no service inspection claimed.",
       "blockers": [],
       "refs": [
         "UTP-DEC-096",
-        "UTP-REV-071"
+        "UTP-REV-071",
+        "UTP-DEC-097",
+        "UTP-REV-072",
+        "UTP-REL-017"
       ],
       "evidence": [
-        "records/chilika-release-review.json"
+        "records/chilika-release-review.json",
+        "records/chilika-publication.json"
       ]
     }
   ],
@@ -4909,6 +4913,26 @@
       "evidence": [
         "records/chilika-release-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-097",
+      "title": "Merge and publish the Chilika collection",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved PR 15",
+      "scope": "Approve the reviewed Chilika batch for merge and publication; documented local-confirmation and proofreading limitations remain visible.",
+      "recorded_at": "2026-10-01T03:14:33.283977+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-108",
+        "UTP-REV-071"
+      ],
+      "evidence": [
+        "records/chilika-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -6614,6 +6638,28 @@
       "evidence": [
         "records/chilika-release-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-072",
+      "title": "Chilika publication live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant prepared and verified this release; no independent review claimed.",
+        "Existing local-arrangement, field-inspection, current-property and fluent Odia proofreading gaps remain open.",
+        "No production journey was created or changed; full save/download checks used the local synthetic preview and remain in the candidate evidence."
+      ],
+      "refs": [
+        "UTP-DEC-097",
+        "UTP-WORK-108"
+      ],
+      "evidence": [
+        "records/chilika-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -6902,6 +6948,22 @@
         "records/cookie-message-publication.json"
       ],
       "note": "Approved PR 14 deployed at 3f8a9ce; live wording, preferences panel and decline confirmation verified."
+    },
+    {
+      "id": "UTP-REL-017",
+      "title": "Chilika collection published",
+      "status": "published",
+      "authorization": "UTP-DEC-097",
+      "destination": "https://utkalproject.org/knowledge/chilika/",
+      "refs": [
+        "UTP-DEC-097",
+        "UTP-WORK-108",
+        "UTP-REV-072"
+      ],
+      "evidence": [
+        "records/chilika-publication.json"
+      ],
+      "note": "Approved PR 15 deployed at 23e990d8edd59805eb3bdd2e2b9f58c851f863b4; ten new pages, journey data and HTTPS redirect verified."
     }
   ],
   "sources": [
