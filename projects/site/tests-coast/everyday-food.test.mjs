@@ -34,7 +34,7 @@ test('connections preserve recipe distinctions and held Pala research stays outs
  assert.match(read('/food/tala-pitha/'),/Ripe-fruit preparations and palm-seed foods are separate/);
  assert.ok(read('/food/poda-pitha/').includes('href="/food/tala-pitha/"'));
  assert.ok(read('/destinations/bhubaneswar/').includes('href="/food/everyday/"'));
- assert.ok(read('/food/bhubaneswar/').includes('href="/food/everyday/"')); 
+ assert.ok(read('/food/bhubaneswar/').includes('href="/food/everyday/"'));
  assert.ok(!existsSync('dist-coast/culture/pala/index.html'));
  assert.ok(!catalog.some(i=>i.href==='/culture/pala/'));
 });
