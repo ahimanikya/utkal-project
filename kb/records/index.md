@@ -160,3 +160,5 @@
 - [Utkal rulers and royal legacies](rulers-2026-10-01.json) — Five ruler profiles, scoped historical evidence and reused monument records; RES-038 complete.
 
 - [Computing research checkpoint](science-computing-2026-10-01.json) — One computing researcher and coauthored paper; RES-029 remains in progress.
+
+- [Computing and space research completion](science-women-2026-10-01.json) — Two people and three credited works; initial RES-029 timeline complete, gaps retained.

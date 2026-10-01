@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T08:27:41.433178-07:00",
+  "updated_at": "2026-10-01T08:41:20.810084-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -544,11 +544,11 @@
       "title": "Scientists and documented contributions",
       "done_when": "Build a documented timeline from Utkal’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
       "target": "people/people-and-creations.md",
-      "status": "in_progress",
-      "attempts": 5,
+      "status": "completed",
+      "attempts": 6,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T08:27:41.433178-07:00",
-      "next_step": "Continue with a bounded women-in-computing or engineering contribution, searching existing identities first. Lalit Mohan Patnaik and his 1994 paper are now saved: do not repeat discovery. Retrieve original paper/award page after 2026-10-08; preserve historical gaps and previous conflict retries.",
+      "last_worked_at": "2026-10-01T08:41:20.810084-07:00",
+      "next_step": "Proceed to RES-008 homestay policy reconciliation, reusing its saved source and project pointers. RES-029 initial cross-era timeline exists; preserve science gaps for RES-024 next-cycle planning and retry unavailable sources after2026-10-08.",
       "evidence_outputs": [
         "people/science-and-contributions.md",
         "people/swati-nayak.md",
@@ -569,7 +569,12 @@
         "works/e-jugara-shrestha-abiskar.md",
         "works/baigyanika-gyanakosha.md",
         "people/lalit-mohan-patnaik.md",
-        "works/adaptive-genetic-algorithms-1994.md"
+        "works/adaptive-genetic-algorithms-1994.md",
+        "people/sanghamitra-mohanty.md",
+        "people/susmita-mohanty.md",
+        "works/speech-sound-music-2012.md",
+        "works/odia-speech-wiener-filter-2012.md",
+        "works/newspace-india-inspace-2022.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -595,7 +600,12 @@
           "works/e-jugara-shrestha-abiskar.md",
           "works/baigyanika-gyanakosha.md",
           "people/lalit-mohan-patnaik.md",
-          "works/adaptive-genetic-algorithms-1994.md"
+          "works/adaptive-genetic-algorithms-1994.md",
+          "people/sanghamitra-mohanty.md",
+          "people/susmita-mohanty.md",
+          "works/speech-sound-music-2012.md",
+          "works/odia-speech-wiener-filter-2012.md",
+          "works/newspace-india-inspace-2022.md"
         ],
         "project_records": [
           "kb/research/people/samanta-chandrasekhar.md",
@@ -653,6 +663,17 @@
           "new_people": 1,
           "new_works": 1,
           "retry_after": "2026-10-08"
+        },
+        {
+          "run_id": "2026-10-01-science-women",
+          "at": "2026-10-01T08:41:20.810084-07:00",
+          "outcome": "initial_timeline_completed",
+          "completion_criteria_met": true,
+          "new_people": 2,
+          "new_works": 3,
+          "selected_timeline_identities": 12,
+          "completion_scope": "Cross-era documented timeline and explicit historical gap register exist; not exhaustive scientific coverage.",
+          "retry_after": "2026-10-08"
         }
       ],
       "scope_history": [
@@ -662,7 +683,8 @@
           "authorization": "User: We need to find Scientist starting from Utkal heritage till date",
           "new_done_when": "Build a documented timeline from Utkala’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target."
         }
-      ]
+      ],
+      "completed_at": "2026-10-01T08:41:20.810084-07:00"
     },
     {
       "id": "RES-008",
@@ -1204,7 +1226,10 @@
         "source_records": [
           "statistics/coverage.md",
           "about/research-gaps.md",
-          "methods/research-pipeline.md"
+          "methods/research-pipeline.md",
+          "people/science-and-contributions.md",
+          "history/scientific-manuscripts.md",
+          "references/data/science-heritage.json"
         ],
         "project_records": [
           "kb/registers/records.json",
@@ -1212,7 +1237,15 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "derived_followups": [
+        {
+          "from_task_id": "RES-029",
+          "run_id": "2026-10-01-science-women",
+          "not_before": "2026-10-08",
+          "scope": "Revisit unresolved science manuscript attribution, original methods, degree/award/date conflicts and primary biography records; inspect saved sources before deriving new tasks."
+        }
+      ]
     },
     {
       "id": "RES-034",

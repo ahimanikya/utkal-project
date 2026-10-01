@@ -47,3 +47,9 @@ The [structured timeline and research lanes](../references/data/science-heritage
 ## Computing and engineering · 1 October 2026
 
 [Lalit Mohan Patnaik](lalit-mohan-patnaik.md) adds computing to the selected timeline through a Sambalpur education connection, IIT Bhubaneswar collaboration, TWAS election and a jointly credited 1994 paper. The [genetic-algorithms work](../works/adaptive-genetic-algorithms-1994.md) connects recognition with a named publication; bibliography verification does not replace reading its methods. Ten selected identities now appear in this evolving timeline, including project-native Samanta; this is not a statewide count.
+
+## Computing, language and space · 1 October 2026
+
+[Sanghamitra Mohanty](sanghamitra-mohanty.md) links the [Odia speech chapter](../works/odia-speech-wiener-filter-2012.md) and [edited proceedings](../works/speech-sound-music-2012.md). [Susmita Mohanty](susmita-mohanty.md) links design, enterprise and public service through a [space-policy article](../works/newspace-india-inspace-2022.md). These reading routes connect people to credited work; role and publication dates remain visible.
+
+The initial RES-029 deliverable now contains twelve selected identities, including the existing project-native Samanta entry. It spans documented historical astronomy, modern research and science communication while preserving ancient/early-medieval attribution gaps. This completes a bounded timeline, not all scientific history. Full texts, disputed dates and further personalities remain follow-up research; no person is credited with a collective tradition solely from regional association.

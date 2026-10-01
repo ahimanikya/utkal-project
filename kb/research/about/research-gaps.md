@@ -170,3 +170,7 @@ Original Hathigumpha/Nagari charter editions and Cuttack article facsimile remai
 ### Computing evidence limits · 1 October 2026
 
 Patnaik’s 1994 genetic-algorithms paper is currently a CV-verified bibliography, not a full-paper review. IEEE Xplore challenged access; IEEE award profile/register direct routes and NIT Rourkela minutes were unavailable. Retry after 8 October. Preserve undated citation/publication totals as unadopted claims, not fresh indicators. Birthplace, benchmark gains, current employment and measured Odisha impact remain outside this checkpoint.
+
+### Computing and space follow-up · 1 October 2026
+
+RES-029’s initial twelve-identity timeline is complete; scientific coverage is not exhaustive. Retrieve original Mo School appointment/tenure records, Sanghamitra Mohanty’s institutional biography and full research methods after 8 October. Utkal/Sri Sri University biography routes and ISTI direct fetch were unavailable; publisher affiliations and explicitly attributed personal biography are the current scope. Springer chapter navigation has a 2023 conference-label anomaly against parent 2011 dates; retain both captures. Abstract percentage improvements, historical national space-market estimates and biographical fundraising totals remain outside public statistics. Confirm additional awards with original issuers before adoption. RES-024 must retain these gaps alongside earlier manuscript and biography conflicts.

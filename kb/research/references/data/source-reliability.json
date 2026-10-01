@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T08:27:41.433178-07:00",
+  "updated_at": "2026-10-01T08:41:20.810084-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1169,6 +1169,10 @@
     {
       "run_id": "2026-10-01-science-computing",
       "scope": "Bounded computing researcher and bibliography; not weekly metric monitoring. CV web screenshot failed, binary download and local visual inspection succeeded."
+    },
+    {
+      "run_id": "2026-10-01-science-women",
+      "scope": "Two identity records and three scholarly works. HTML abstracts/metadata only; no full-text or weekly-series verification."
     }
   ],
   "supplemental_discovery_routes": [
@@ -3049,6 +3053,76 @@
       "run_id": "2026-10-01-science-computing",
       "status": "unavailable_direct_fetch",
       "scope": "Direct homepage fetch failed; not used as evidence.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-sm-proceedings",
+      "discovery_url": "https://link.springer.com/book/10.1007/978-3-642-31980-8",
+      "checked_at": "2026-10-01T08:41:20.810084-07:00",
+      "run_id": "2026-10-01-science-women",
+      "status": "available_with_scoped_capture",
+      "scope": "Publisher metadata inspected. Conference 9–12 March 2011, Bhubaneswar; print 1 July 2012 and ebook 2 July 2012. Editor and chapter author roles differ. One volume and its chapter are one publication family.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-sm-speech",
+      "discovery_url": "https://link.springer.com/chapter/10.1007/978-3-642-31980-8_16",
+      "checked_at": "2026-10-01T08:41:20.810084-07:00",
+      "run_id": "2026-10-01-science-women",
+      "status": "available_with_scoped_capture",
+      "scope": "Abstract and metadata read; subscription full text not read. Chapter navigation/citation adds FRSM 2023 despite 2012 copyright; parent volume explicitly says conference 2011. Quarantine navigation anomaly. Abstract performance percentage not adopted without denominator and original methods.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-susmita-bio",
+      "discovery_url": "https://www.themoonwalker.in/bio.php",
+      "checked_at": "2026-10-01T08:41:20.810084-07:00",
+      "run_id": "2026-10-01-science-women",
+      "status": "available_with_scoped_capture",
+      "scope": "Self-described career and historical Mo School connection. No audited financial outcomes or unique-world-first claims adopted. Government ISTI profile links this site and repeats biography; not independent corroboration.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-susmita-isti",
+      "discovery_url": "https://www.indiascienceandtechnology.gov.in/listingpage/dr-susmita-mohanty",
+      "checked_at": "2026-10-01T08:41:20.810084-07:00",
+      "run_id": "2026-10-01-science-women",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed government profile inspected; direct fetch failed. Closely parallels personal biography and links to it. Retain historical role only; not independent award, impact or current CEO verification.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-susmita-newspace",
+      "discovery_url": "https://journals.sagepub.com/doi/10.1089/space.2021.0068",
+      "checked_at": "2026-10-01T08:41:20.810084-07:00",
+      "run_id": "2026-10-01-science-women",
+      "status": "available_with_scoped_capture",
+      "scope": "Publisher reports online 8 March 2022 and issue 1 March 2022, volume10 issue1 pp3–13. DOI contains2021 but is not publication date. Abstract read; full text restricted and not read. Historical policy critique is not current market or Odisha investment evidence.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://srisriuniversity.edu.in/sanghamitra-mohanty/",
+      "checked_at": "2026-10-01T08:41:20.810084-07:00",
+      "run_id": "2026-10-01-science-women",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery lead; direct fetch failed. No biographical claim promoted from this route. Publisher historical affiliations used instead.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://utkaluniversity.ac.in/departments/computer-science-applications/",
+      "checked_at": "2026-10-01T08:41:20.810084-07:00",
+      "run_id": "2026-10-01-science-women",
+      "status": "unavailable_direct_fetch",
+      "scope": "Discovery lead; direct fetch failed. No biographical claim promoted from this route. Publisher historical affiliations used instead.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

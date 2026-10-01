@@ -99,3 +99,5 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Utkal’s rulers and royal legacies](../people/rulers-and-royal-legacies.md) — five selected rulers linked to inscriptions, government centres and architectural patronage; political power, contribution and later remembrance remain distinct.
 
 [Lalit Mohan Patnaik](../people/lalit-mohan-patnaik.md) connects Odisha education and institutional collaboration with computing research and a jointly credited publication. Dated recognition, author bibliography and original-paper review remain separate evidence steps.
+
+[Sanghamitra Mohanty](../people/sanghamitra-mohanty.md) and [Susmita Mohanty](../people/susmita-mohanty.md) extend the science collection into computing and space design/policy. Follow their credited-work pages for original publisher records and research limits.

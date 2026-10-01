@@ -145,3 +145,7 @@ RES-038 adds five people, a collection and seven source records; map now 949. Se
 ### Computing checkpoint · 1 October 2026
 
 RES-029 adds one person, one coauthored paper and four source records; map now 955. Lalit/name and repository-native searches preceded browsing. Preserve Lalit Mohan Patnaik’s identity separately from younger Lalit Patnaik. Alternate TWAS CV routes and IEEE issuer routes are not independent corroboration.
+
+### Women in computing and space · 1 October 2026
+
+RES-029 adds two identities, three credited works and five source records; map now 965. Source and repository-native name searches preceded browsing. Sanghamitra Mohanty is distinct from Sanghamitra Pati; Susmita Mohanty from Susmita Bagchi. Publisher child records and derivative biographies are not independent corroboration. Initial science timeline completed with gaps retained.

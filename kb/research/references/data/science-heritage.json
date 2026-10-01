@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T08:27:41.433178-07:00",
+  "updated_at": "2026-10-01T08:41:20.810084-07:00",
   "coverage": "Historical Utkal/Odisha connections to the present; selected evidence, not complete census or continuous lineage. Ancient Utkal, Kalinga and modern Odisha boundaries must be established for each record.",
   "timeline": [
     {
@@ -37,6 +37,41 @@
       "status": "bibliographic_capture"
     },
     {
+      "period": "1959–1961 award group; reported encyclopaedia 2005",
+      "person_id": "people/gokulananda-mohapatra",
+      "work_ids": [
+        "works/e-jugara-shrestha-abiskar",
+        "works/baigyanika-gyanakosha"
+      ],
+      "source_ids": [
+        "science-gokulananda-award-register",
+        "science-gokulananda-ova"
+      ],
+      "status": "indexed_institutional_evidence_with_conflicts"
+    },
+    {
+      "period": "1960 paper",
+      "person_id": "people/tribikram-pati",
+      "work_id": "works/pati-summability-1960",
+      "source_ids": [
+        "science-pati-summability-1960"
+      ],
+      "status": "original_paper_scoped_read"
+    },
+    {
+      "period": "1994 paper; TWAS election 1998; IEEE award 1999",
+      "person_id": "people/lalit-mohan-patnaik",
+      "work_id": "works/adaptive-genetic-algorithms-1994",
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "status": "institutional_records_and_author_bibliography",
+      "note": "CV education and paper entry inspected; original article not read; IEEE award evidence indexed only."
+    },
+    {
       "period": "2009 paper; 2021 Infosys Prize",
       "person_id": "people/bedangadas-mohanty",
       "work_id": "works/qcd-phase-diagram-2009",
@@ -45,6 +80,17 @@
         "creators-bedangadas-infosys",
         "creators-qcd-paper"
       ]
+    },
+    {
+      "period": "2012 Odia speech-processing chapter",
+      "person_id": "people/sanghamitra-mohanty",
+      "work_id": "works/odia-speech-wiener-filter-2012",
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "status": "publisher_abstract_and_bibliography",
+      "note": "Source context and shared credit retained; full work not read."
     },
     {
       "period": "2015 paper",
@@ -66,6 +112,18 @@
       ]
     },
     {
+      "period": "2022 space-policy article",
+      "person_id": "people/susmita-mohanty",
+      "work_id": "works/newspace-india-inspace-2022",
+      "source_ids": [
+        "science-susmita-bio",
+        "science-susmita-isti",
+        "science-susmita-newspace"
+      ],
+      "status": "publisher_abstract_and_bibliography",
+      "note": "Source context and shared credit retained; full work not read."
+    },
+    {
       "period": "2023 award",
       "person_id": "people/swati-nayak",
       "work_id": "works/odisha-rice-seed-deployment",
@@ -73,41 +131,6 @@
       "source_ids": [
         "science-nayak-borlaug"
       ]
-    },
-    {
-      "period": "1960 paper",
-      "person_id": "people/tribikram-pati",
-      "work_id": "works/pati-summability-1960",
-      "source_ids": [
-        "science-pati-summability-1960"
-      ],
-      "status": "original_paper_scoped_read"
-    },
-    {
-      "period": "1959–1961 award group; reported encyclopaedia 2005",
-      "person_id": "people/gokulananda-mohapatra",
-      "work_ids": [
-        "works/e-jugara-shrestha-abiskar",
-        "works/baigyanika-gyanakosha"
-      ],
-      "source_ids": [
-        "science-gokulananda-award-register",
-        "science-gokulananda-ova"
-      ],
-      "status": "indexed_institutional_evidence_with_conflicts"
-    },
-    {
-      "period": "1994 paper; TWAS election 1998; IEEE award 1999",
-      "person_id": "people/lalit-mohan-patnaik",
-      "work_id": "works/adaptive-genetic-algorithms-1994",
-      "source_ids": [
-        "science-lmp-twas",
-        "science-lmp-cv",
-        "science-lmp-iitbbs",
-        "science-lmp-ieee-award"
-      ],
-      "status": "institutional_records_and_author_bibliography",
-      "note": "CV education and paper entry inspected; original article not read; IEEE award evidence indexed only."
     }
   ],
   "research_lanes": [
@@ -125,7 +148,7 @@
     },
     {
       "era": "contemporary",
-      "next": "Expand mathematics, chemistry, medicine, engineering, computing and women in science using institution profiles and credited publications; verify living affiliations when used."
+      "next": "Selected computing and space design/policy contributions saved. Follow up primary award/appointment registers and original methods after2026-10-08; further identities require a deduplicated next-cycle task."
     }
   ],
   "human_review_claimed": false,
@@ -410,6 +433,22 @@
         }
       ],
       "public_resolution": "University doctoral register needed; exact degree dates withheld."
+    },
+    {
+      "id": "speech-chapter-conference-navigation",
+      "work_id": "works/odia-speech-wiener-filter-2012",
+      "field": "conference_year_label",
+      "claims": [
+        {
+          "value": "FRSM2023 in chapter navigation/citation",
+          "source_id": "science-sm-speech"
+        },
+        {
+          "value": "FRSM2011, Bhubaneswar 9–12 March2011",
+          "source_id": "science-sm-proceedings"
+        }
+      ],
+      "public_resolution": "Use explicit parent-volume conference dates and 2012 publication; navigation anomaly retained, not a separate2023 work."
     }
   ],
   "contemporary_evidence": [
@@ -434,6 +473,47 @@
       "measured_economic_impact": null,
       "identity_warning": "Not merged with younger researcher named Lalit Patnaik; exact birthplace not adopted.",
       "next_review": "2026-10-08"
+    },
+    {
+      "person_id": "people/sanghamitra-mohanty",
+      "odisha_connection_type": [
+        "publication_affiliation"
+      ],
+      "work_ids": [
+        "works/speech-sound-music-2012",
+        "works/odia-speech-wiener-filter-2012"
+      ],
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "full_paper_read": false,
+      "measured_economic_impact": null,
+      "next_review": "2026-10-08"
+    },
+    {
+      "person_id": "people/susmita-mohanty",
+      "odisha_connection_type": [
+        "historical_public_service"
+      ],
+      "work_ids": [
+        "works/newspace-india-inspace-2022"
+      ],
+      "source_ids": [
+        "science-susmita-bio",
+        "science-susmita-isti",
+        "science-susmita-newspace"
+      ],
+      "full_paper_read": false,
+      "measured_economic_impact": null,
+      "next_review": "2026-10-08"
     }
-  ]
+  ],
+  "initial_timeline_completion": {
+    "task_id": "RES-029",
+    "at": "2026-10-01T08:41:20.810084-07:00",
+    "selected_identities": 12,
+    "scope": "Documented cross-era timeline plus explicit attribution gaps; not exhaustive or continuously complete.",
+    "remaining_evidence": "Existing manuscript, biography, award and full-paper gaps remain open."
+  }
 }

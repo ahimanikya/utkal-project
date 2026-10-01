@@ -172,3 +172,7 @@ Added five ruler profiles and a connected royal-legacy collection with seven new
 ## 2026-10-01
 
 Resumed RES-029: added Lalit Mohan Patnaik and a jointly credited 1994 computing paper. Four institutional/author sources document education, collaboration, recognition and bibliography. CV pages1/75 visually inspected; original paper not read. Stored retrieval failures and retry dates. Historical and women-in-science coverage remains open; no website publication or human factual review claimed.
+
+## 2026-10-01
+
+Completed the initial RES-029 timeline with Sanghamitra Mohanty and Susmita Mohanty, three credited works and five scoped sources. Twelve selected timeline identities include reused project-native Samanta. Conference, print/ebook and issue/online dates distinguished; no full-text or human factual review claimed. New profiles classified across people, history, arts, economy and governance. Next sequential task is RES-008; unresolved scientific evidence retained.

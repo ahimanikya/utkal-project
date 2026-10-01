@@ -73,3 +73,5 @@ The [Mamata soundtrack](../works/mamata-film-music.md), [Kali Kapali catalogue r
 ## Women across creative fields · 1 October2026
 
 The [contemporary creators collection](../people/contemporary-creators.md) now includes Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra. Five linked records distinguish films, a translated novel, a song recording and a performance occurrence. Existing Jatin Das, Pratibha Ray and Kelucharan Mohapatra pages are reused for related reading.
+
+[Speech, Sound and Music Processing](../works/speech-sound-music-2012.md) connects scholarly computing with sound and music through an edited proceedings volume; editor and individual author credits remain separate.

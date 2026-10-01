@@ -75,3 +75,5 @@ Subject membership is editorial classification. It does not establish historical
 [Textile and apparel exports](../statistics/textile-and-apparel-exports.md) and [rasagola economics](../economy/rasagola-and-sweets.md) separate realised sector values from product-specific research gaps.
 
 [Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.
+
+[Susmita Mohanty](../people/susmita-mohanty.md) provides a reading route between space enterprise, policy authorship and historical Odisha public service. This relationship is editorial context, not a claim of measured economic impact.

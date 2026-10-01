@@ -79,3 +79,7 @@ Added five ruler profiles, a royal-legacy collection and scoped historical claim
 ## 2026-10-01
 
 Added Lalit Mohan Patnaik and a jointly credited 1994 computing paper. [Bounded receipt](records/science-computing-2026-10-01.json). CV bibliography, institutional roles and dated recognition distinguished; original paper not read. RES-029 remains in progress. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added Sanghamitra Mohanty and Susmita Mohanty with three credited works. [Bounded receipt](records/science-women-2026-10-01.json). Publication-era affiliations, self-described public service and publisher metadata distinguished; full works not read. Initial RES-029 timeline complete; RES-008 next. No website publication or human factual review claimed.

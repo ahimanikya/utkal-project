@@ -95,3 +95,9 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Gaon Majlis — English translation](gaon-majlis-english.md)
 
 - [Adaptive genetic algorithms — 1994 paper](adaptive-genetic-algorithms-1994.md)
+
+- [Speech, Sound and Music Processing: Embracing Research in India](speech-sound-music-2012.md)
+
+- [Adaptive and Iterative Wiener Filter for Oriya Speech Processing Applications](odia-speech-wiener-filter-2012.md)
+
+- [NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership](newspace-india-inspace-2022.md)

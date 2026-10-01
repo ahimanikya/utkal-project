@@ -482,3 +482,13 @@
 - [Lalit Mohan Patnaik: IIT Bhubaneswar AHRC adviser](science-lmp-iitbbs.md)
 
 - [L. M. Patnaik: 1999 Technical Achievement Award](science-lmp-ieee-award.md)
+
+- [Speech, Sound and Music Processing: Embracing Research in India](science-sm-proceedings.md)
+
+- [Adaptive and Iterative Wiener Filter for Oriya Speech Processing Applications](science-sm-speech.md)
+
+- [Susmita Mohanty: author biography](science-susmita-bio.md)
+
+- [Dr. Susmita Mohanty: ISTI profile](science-susmita-isti.md)
+
+- [NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership](science-susmita-newspace.md)

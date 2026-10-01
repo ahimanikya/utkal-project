@@ -1981,6 +1981,81 @@
       ],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/sanghamitra-mohanty",
+      "name": "Sanghamitra Mohanty",
+      "fields": [
+        "computer science",
+        "speech processing"
+      ],
+      "odisha_connection": {
+        "description": "Publisher chapter affiliation: Utkal University, Bhubaneswar; editor affiliation: North Orissa University, Baripada. Historical publication context.",
+        "source_ids": [
+          "science-sm-proceedings",
+          "science-sm-speech"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented research and international scholarly publishing",
+          "basis": "Coauthored chapter and coedited proceedings; no award or sole-invention inference.",
+          "source_ids": [
+            "science-sm-proceedings",
+            "science-sm-speech"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/speech-sound-music-2012",
+        "works/odia-speech-wiener-filter-2012"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/susmita-mohanty",
+      "name": "Susmita Mohanty",
+      "fields": [
+        "space design",
+        "space entrepreneurship",
+        "space policy"
+      ],
+      "odisha_connection": {
+        "description": "Historical Mo School chairperson service in Odisha recorded in personal biography and derivative indexed government profile; not an independently verified birthplace.",
+        "source_ids": [
+          "science-susmita-bio",
+          "science-susmita-isti",
+          "science-susmita-newspace"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented space-policy authorship and public service",
+          "basis": "Publisher-credited policy article; biographical Odisha service connection, with source-family limits.",
+          "source_ids": [
+            "science-susmita-bio",
+            "science-susmita-isti",
+            "science-susmita-newspace"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-susmita-bio",
+        "science-susmita-isti",
+        "science-susmita-newspace"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/newspace-india-inspace-2022"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -4140,6 +4215,154 @@
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
       "live_stock": null
+    },
+    {
+      "id": "works/speech-sound-music-2012",
+      "title": "Speech, Sound and Music Processing: Embracing Research in India",
+      "work_type": "edited_proceedings",
+      "creator_links": [
+        {
+          "person_id": "people/sanghamitra-mohanty",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Sølvi Ystad",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        },
+        {
+          "name": "Mitsuko Aramaki",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        },
+        {
+          "name": "Richard Kronland-Martinet",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        },
+        {
+          "name": "Kristoffer Jensen",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English publisher contents and metadata; full book not read",
+        "source_ids": [
+          "science-sm-proceedings"
+        ]
+      },
+      "edition": {
+        "print_publication_date": "2012-07-01",
+        "ebook_publication_date": "2012-07-02",
+        "conference_dates": "2011-03-09/2011-03-12",
+        "conference_location": "Bhubaneswar, India",
+        "print_isbn": "978-3-642-31979-2",
+        "ebook_isbn": "978-3-642-31980-8",
+        "series": "Lecture Notes in Computer Science",
+        "volume": 7172,
+        "doi": "10.1007/978-3-642-31980-8"
+      },
+      "source_ids": [
+        "science-sm-proceedings"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/odia-speech-wiener-filter-2012",
+      "title": "Adaptive and Iterative Wiener Filter for Oriya Speech Processing Applications",
+      "work_type": "research_chapter",
+      "creator_links": [
+        {
+          "person_id": "people/sanghamitra-mohanty",
+          "role": "coauthor",
+          "source_ids": [
+            "science-sm-proceedings",
+            "science-sm-speech"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Basanta Kumar Swain",
+          "role": "coauthor",
+          "source_ids": [
+            "science-sm-speech"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English publisher metadata; chapter/article abstract accessible; full work not read",
+        "source_ids": [
+          "science-sm-proceedings",
+          "science-sm-speech"
+        ]
+      },
+      "edition": {
+        "publication_year": 2012,
+        "pages": "207–214",
+        "container_work_id": "works/speech-sound-music-2012",
+        "doi": "10.1007/978-3-642-31980-8_16",
+        "metadata_anomaly": "Chapter navigation says FRSM2023; parent subtitle says conference2011. No2023 publication inferred."
+      },
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/newspace-india-inspace-2022",
+      "title": "NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership",
+      "work_type": "research_paper",
+      "creator_links": [
+        {
+          "person_id": "people/susmita-mohanty",
+          "role": "author",
+          "source_ids": [
+            "science-susmita-newspace"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": {
+        "status": "English publisher metadata; chapter/article abstract accessible; full work not read",
+        "source_ids": [
+          "science-susmita-newspace"
+        ]
+      },
+      "edition": {
+        "online_publication_date": "2022-03-08",
+        "issue_publication_date": "2022-03-01",
+        "journal": "New Space",
+        "volume": 10,
+        "issue": 1,
+        "pages": "3–13",
+        "doi": "10.1089/space.2021.0068"
+      },
+      "source_ids": [
+        "science-susmita-newspace"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
     }
   ],
   "recognition_rules": {
@@ -4148,7 +4371,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T08:27:41.433178-07:00",
+  "updated_at": "2026-10-01T08:41:20.810084-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -4349,6 +4572,16 @@
       "new_people": 1,
       "new_works": 1,
       "scope": "One selected computing researcher and coauthored bibliography; full-paper interpretation remains open."
+    },
+    {
+      "run_id": "2026-10-01-science-women",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "initial_timeline_completed",
+      "new_people": 2,
+      "new_works": 3,
+      "scope": "Computing and space design/policy; selected historical-to-present timeline completed with gaps retained, not a statewide census."
     }
   ],
   "conflicts": [

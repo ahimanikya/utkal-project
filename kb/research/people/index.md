@@ -125,3 +125,7 @@
 - [Utkal’s rulers and royal legacies](rulers-and-royal-legacies.md)
 
 - [Lalit Mohan Patnaik](lalit-mohan-patnaik.md)
+
+- [Sanghamitra Mohanty](sanghamitra-mohanty.md)
+
+- [Susmita Mohanty](susmita-mohanty.md)
