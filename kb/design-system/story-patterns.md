@@ -192,3 +192,39 @@ Import previews should name the destination and explain which fields travel. Kee
 Keep shared-copy privacy adjacent to export scope. Explain that public questions can remain while personal reminder wording and ticks are excluded. Test expanded controls at real layout widths, and align the review frame before capturing evidence.
 
 [Preparation delivery and limitations](../research/product/ready-216.md). These are UTP adaptations over rc.5; no shared package release is implied.
+
+
+## Keep preparation before the onward invitation
+
+Place current-arrangement notes inside the guide’s reading width, alongside the planning material and before the personal notebook, onward invitation and credits. Avoid adding destination-specific material after the entire page through the global layout: that breaks the ending and can introduce a second width constraint. Render each note only once on its intended routes.
+
+For a getting-started guide, keep the first action and consequential limits visible: browser-only storage, backing up and private notes in shared books. Put detailed editing and import semantics in labelled native disclosures. The short reading path should still explain how to begin and what to preserve.
+
+This lesson follows the [first-edition editorial review](../records/first-edition-editorial-review.json). Source/build review only; rendered browser checks remain open. No shared package version change.
+
+
+## One contents pattern, including the smaller guides
+
+Use the compact native contents disclosure on place, experience and stay-area details as well as main destination stories. Keep the desktop links, section names and reading order consistent. Selecting a mobile chapter closes the contents, opens any collapsed destination panels and focuses a visible heading or the destination disclosure’s summary. Escape returns focus to the contents summary.
+
+A link into a collapsed panel should reveal only the panel and its enclosing disclosures. Handle initial links, repeated links and browser history; decode IDs without treating them as selectors. Keep modified clicks, downloads, external links and new tabs native. On initial arrival, reveal and position the target without taking keyboard focus. Leave unrelated panels closed, and respect reduced-motion styles.
+
+[Guide navigation candidate](../records/guide-navigation-review.json) records source/build tests and the outstanding browser check. This is a UTP implementation lesson, not a shared-package release or a completed accessibility audit.
+
+
+## Deliver collection images for their actual space
+
+Use the shared responsive-image component for Explore cards and onward-story photographs, with sizes matched to the layout’s breakpoints. Keep original paths as fallbacks, natural dimensions, captions, alt text, licences and end credits. Small script SVGs remain vectors. Portable-book assets retain their existing identities and credits; an on-page reuse may offer responsive derivatives without changing the book.
+
+Name generated image assets from their encoded bytes. Adding an unrelated image must not change the address of an existing rendition, and different encoder output must not masquerade under the same address. Export only renditions referenced by the selected publication pages. Compare encoded byte totals explicitly; that comparison does not measure visitor speed, browser-selected requests or perceptual equivalence.
+
+[Collection image-delivery review](../records/collection-images-review.json) records coverage, byte comparisons and the missing onward-image case found by the regression check. Visual and physical-device review remains open.
+
+
+## Let readers widen a search without starting over
+
+Keep topic, area and ordering choices reversible through Back and Forward. Group uninterrupted typing into one search step, and finish character composition before changing results. Restore both controls and results from a shared URL. Modified links retain normal browser behavior.
+
+Show topic counts within the current query and area, and offer separate removal of the query, topic and area. Empty results should point to those choices. Return focus to the relevant control when its removal button disappears. Keep the collection available without scripting; never make client filtering the only access to entries. Reorder card nodes only when ordering changes, so typing does not repeatedly detach photographs.
+
+[Explore filter-flow review](../records/explore-filter-flow-review.json) records controller and built-page checks. Native browser, screen-reader and physical-device verification remains open; this is a UTP pattern, not a shared-package release.

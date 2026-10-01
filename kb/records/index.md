@@ -176,3 +176,9 @@
 - [Fire-cooking research and story](poda-story-2026-10-01.json) — Nine linked poda foods, method boundaries and a source-backed campaign draft.
 
 - [Campaign wording selection](fire-tagline-2026-10-01.json) — user-selected tag, subtitle and draft copy updates.
+
+- [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)
+
+- [Visitor discovery and research review](visitor-research-review.json) · [Research PR integration findings](research-pr-review.json) · [Current review queue](visitor-review-queue.json)
+
+- [Visitor discovery publication](visitor-research-publication.json) — approved PR 34, live homepage and connected reading checks.

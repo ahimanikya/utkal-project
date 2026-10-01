@@ -16,6 +16,10 @@ test('coastal analytics configuration is explicit and never eagerly loads the re
   assert.equal(new URL(config.canonical).origin,'https://utkalproject.org');
   assert.equal(new URL(config.canonical).search,'');
   assert.match(html,/id="analytics-choice"[^>]*hidden/);
-  assert.match(html,/Cookie preferences/);
+  assert.doesNotMatch(html,/Optional cookies (?:accepted|declined)\./);
+  assert.doesNotMatch(html,/class="wrap analytics-settings"/);
+  assert.match(html,/href="\/how-to-use\/#privacy"/);
+  if(route==='/how-to-use/')assert.match(html,/<button[^>]*id="analytics-settings"[^>]*hidden[^>]*>Cookie preferences<\/button>/);
+  else assert.doesNotMatch(html,/id="analytics-settings"/);
  }
 });

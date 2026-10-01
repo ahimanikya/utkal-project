@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-01T16:26:51.073904+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-128",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/32",
+  "approved_head": "fb2a16955ff3587bab9e1db37dceb805f59bf3a7",
+  "deployed_sha": "bcdb18a9da4491d63e736ab841ef6222172460af",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36891643523",
+  "destination": "https://utkalproject.org/",
+  "scope": "Publish approved illustrated Rasagola and Bose childhood features with discovery and journey integration.",
+  "verification": {
+    "approved_tree": "Merged tree exactly matched the approved head before publication dispatch.",
+    "workflow": "Release build, full and coastal tests, and Pages deployment succeeded.",
+    "live_pages": 69,
+    "stories": "Both features contain intended narrative, source limits, credits and live discovery links.",
+    "images": "Three served original image derivatives match committed SHA-256 hashes.",
+    "journey": "63-item catalogue matches the release scope. Rasagola, childhood reading and museum visit retain distinct IDs; both portable export functions passed using live data.",
+    "search": "All 69 routes retain noindex, nofollow; sitemap.xml returns 404."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant researched, wrote and checked this candidate; no independent historical or native-language review claimed.",
+    "GI Journal 116 p. 10 is the filed historical account. The cited original temple register, critical literary edition and earliest manuscript witness remain uninspected. No exclusive-origin verdict or precise invention date asserted.",
+    "Bose’s memoir is retrospective testimony read through a digital reproduction. School access and current museum operations remain unconfirmed.",
+    "Pahala/Salepur links come from a dated 2019 visit account; no current seller recommendation or food-service inspection.",
+    "New photographs are later documentary views with creator licences; none depicts an authenticated historical event.",
+    "Browser visual and native PDF checks remain open under the earlier browser security-policy limitation. Automated build checks do not establish rendered visual quality.",
+    "Publication verification establishes live HTTP/content/image delivery and portable exports from live data; it does not complete browser interaction or independent historical review."
+  ],
+  "evidence": [
+    "records/evidence/odisha-roots-features-publication/deployment.json",
+    "records/evidence/odisha-roots-features-publication/pull-request.json",
+    "records/evidence/odisha-roots-features-publication/live-checks.json",
+    "records/evidence/odisha-roots-features-publication/live-journey-data.json",
+    "records/evidence/odisha-roots-features-publication/book-checks.json"
+  ]
+}

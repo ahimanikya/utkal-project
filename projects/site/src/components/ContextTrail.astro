@@ -1,0 +1,10 @@
+---
+import {pageContext} from '../lib/page-context.mjs';
+import {allowsPage} from '../data/edition';
+const {path,title}=Astro.props;
+const trail=pageContext(path,title).filter(item=>allowsPage(item.href));
+---
+{trail.length>0&&<nav class="wrap context-trail" aria-label="Breadcrumb"><ol>{trail.map(item=><li>{item.current?<span aria-current="page">{item.label}</span>:<a href={item.href}>{item.label}</a>}</li>)}</ol></nav>}
+<style>
+.context-trail{padding-top:16px;font-size:13px;line-height:1.6}.context-trail ol{display:flex;flex-wrap:wrap;align-items:center;gap:0 12px;list-style:none;padding:0;margin:0}.context-trail li{display:flex;align-items:center;gap:12px;min-width:0;overflow-wrap:anywhere}.context-trail li+li::before{content:'/';color:var(--muted)}.context-trail a{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:4px}.context-trail [aria-current]{color:var(--muted)}@media print{.context-trail{display:none}}
+</style>

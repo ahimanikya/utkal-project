@@ -6,6 +6,9 @@ const publicJourney={catalog:journeyCatalog,starters:starterSelection.starters.f
 const safeJSON=JSON.stringify(publicJourney).replaceAll('<','\\u003c');
 import Analytics from '../components/Analytics.astro';
 import Brand from '../components/Brand.astro';
+import ContextTrail from '../components/ContextTrail.astro';
+import {discoveryEntries} from '../data/discovery';
+import {sharingImage} from '../lib/page-context.mjs';
 import PageShare from '../components/PageShare.astro';
 import visitNotebooks from '../../../../kb/research/destinations/visit-notebooks.json';
 const notebook=visitNotebooks.notebooks.find(n=>n.route===Astro.url.pathname);
@@ -23,7 +26,9 @@ const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;
 const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;
 const canonical=new URL(pagePath,Astro.site).href;
 const pageTitle=title.endsWith(' · Utkal Project')?title:title+' · Utkal Project';
-const socialImage=new URL('/assets/coast-illustration-v1.webp',Astro.site).href;
+const discoveryEntry=discoveryEntries.find(entry=>entry.href===pagePath);
+const sharePhoto=sharingImage(discoveryEntry?.image);
+const socialImage=new URL(sharePhoto.src,Astro.site).href;
 ---
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -32,8 +37,8 @@ const socialImage=new URL('/assets/coast-illustration-v1.webp',Astro.site).href;
 <meta name="theme-color" content="#91462F"/><title>{pageTitle}</title>
 <link rel="canonical" href={canonical}/><meta name="referrer" content="no-referrer"/><meta name="color-scheme" content="light"/>
 <meta property="og:type" content="website"/><meta property="og:site_name" content="Utkal Project"/><meta property="og:title" content={pageTitle}/><meta property="og:description" content={pageDescription}/><meta property="og:url" content={canonical}/><meta property="og:locale" content="en_IN"/>
-<meta property="og:image" content={socialImage}/><meta property="og:image:alt" content="An Odisha-inspired coastal concept illustration with a sailboat, palms and patterned waves."/><meta property="og:image:width" content="1536"/><meta property="og:image:height" content="1024"/>
-<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={pageTitle}/><meta name="twitter:description" content={pageDescription}/><meta name="twitter:image" content={socialImage}/><meta name="twitter:image:alt" content="Odisha-inspired coastal concept illustration."/>
+<meta property="og:image" content={socialImage}/><meta property="og:image:alt" content={sharePhoto.alt}/><meta property="og:image:width" content={sharePhoto.width}/><meta property="og:image:height" content={sharePhoto.height}/>
+<meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content={pageTitle}/><meta name="twitter:description" content={pageDescription}/><meta name="twitter:image" content={socialImage}/><meta name="twitter:image:alt" content={sharePhoto.alt}/>
 <link rel="icon" type="image/png" href="/assets/utkal-favicon-64.png"/>
 
 </head><body id="page-top" class:list={['utk',{'destination-layout':wide}]}>
@@ -49,11 +54,13 @@ const socialImage=new URL('/assets/coast-illustration-v1.webp',Astro.site).href;
  </nav>
  <details class="mobile-navigation"><summary>Menu</summary><nav aria-label="Main navigation">{navLinks.map(([href,label,key])=><a href={href} aria-current={active===key?'page':undefined}>{label}</a>)}</nav></details>
 </header>
-<main id="main" tabindex="-1"><slot/>{related&&<RelatedDiscoveries path={Astro.url.pathname}/>}</main>
-<footer class="footer"><div class="wrap footer-grid"><div><a href="/" class="home-link" aria-label="Utkal Project home"><Brand/></a><p>Rediscover Utkal. Reimagine Odisha.</p><PageShare/>{notebook&&<details class="notebook-credit"><summary>Visit notebook notes</summary><p>Original Utkal Project editorial prompts, prepared with AI assistance under Ahimanikya Satapathy’s direction. They invite observation and questions; they are not quotations, field reports or confirmed travel arrangements. Factual planning context is supported by the sources below. Guide sources and photograph credits appear above.</p>{notebook.planning_sources?.map(s=><p><a href={s.url}>{s.title}</a> · Planning reference checked {s.checked_on}.</p>)}</details>}</div><div><p class="eyebrow">A shared beginning</p><p>People, places and knowledge.<br/>A story we build together.</p></div><div class="footer-links"><a href="#page-top">Back to top ↑</a>{planningReturn&&allowsPage(planningReturn[0])&&<a href={planningReturn[0]}>{planningReturn[1]}</a>}<a href="/how-to-use/">How to use Utkal</a><a href="/about/">About the project</a><a href="/founder/">The founder</a><a href="/contribute/">Contribute</a><a href={"/contribute/?page="+encodeURIComponent(Astro.url.pathname)}>Suggest a correction</a>{allowsPage('/brand-review/')&&<a href="/brand-review/">Brand studio</a>}</div></div><div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div></footer>
+<main id="main" tabindex="-1"><ContextTrail path={pagePath} title={discoveryEntry?.label||title}/><slot/>{related&&<RelatedDiscoveries path={Astro.url.pathname}/>}</main>
+<footer class="footer"><div class="wrap footer-grid"><div><a href="/" class="home-link" aria-label="Utkal Project home"><Brand/></a><p>Rediscover Utkal. Reimagine Odisha.</p><PageShare/>{notebook&&<details class="notebook-credit"><summary>Visit notebook notes</summary><p>Original Utkal Project editorial prompts, prepared with AI assistance under Ahimanikya Satapathy’s direction. They invite observation and questions; they are not quotations, field reports or confirmed travel arrangements. Factual planning context is supported by the sources below. Guide sources and photograph credits appear above.</p>{notebook.planning_sources?.map(s=><p><a href={s.url}>{s.title}</a> · Planning reference checked {s.checked_on}.</p>)}</details>}</div><div><p class="eyebrow">A shared beginning</p><p>People, places and knowledge.<br/>A story we build together.</p></div><div class="footer-links"><a href="#page-top">Back to top ↑</a>{planningReturn&&allowsPage(planningReturn[0])&&<a href={planningReturn[0]}>{planningReturn[1]}</a>}<a href="/how-to-use/">How to use Utkal</a><a href="/how-to-use/#privacy">Privacy</a><a href="/about/">About the project</a><a href="/founder/">The founder</a><a href="/contribute/">Contribute</a><a href={"/contribute/?page="+encodeURIComponent(Astro.url.pathname)}>Suggest a correction</a>{allowsPage('/brand-review/')&&<a href="/brand-review/">Brand studio</a>}</div></div><div class="wrap footer-bottom"><span>Founded by Ahimanikya Satapathy.</span><span>Preview edition · articles await editorial review</span></div></footer>
 <Analytics canonical={canonical} title={pageTitle}/>
 <script is:inline type="application/json" id="journey-data" set:html={safeJSON}/><script>import "../scripts/journey";</script>
 <script>
+import {bindFragmentNavigation} from '../lib/fragment-navigation.mjs';
+bindFragmentNavigation(document,window);
 const mobileMenu=document.querySelector<HTMLDetailsElement>('.mobile-navigation');
 mobileMenu?.addEventListener('keydown',event=>{if(event.key==='Escape'&&mobileMenu.open){mobileMenu.open=false;mobileMenu.querySelector('summary')?.focus();event.preventDefault();}});
 </script></body></html>

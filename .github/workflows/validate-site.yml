@@ -69,6 +69,9 @@ jobs:
           npm run build:coast
           npm run test:coast
           python3 tools/audit-coast.py
+          python3 tools/audit-discovery.py
+          node tools/prepare-search-review.mjs
+          python3 tools/audit-launch-readiness.py
         working-directory: projects/site
       - name: Save coastal files for review
         uses: actions/upload-artifact@v4

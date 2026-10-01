@@ -4,15 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && astro dev --host 127.0.0.1",
-    "build": "node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && astro build",
+    "dev": "node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && node tools/build-responsive-images.mjs && astro dev --host 127.0.0.1",
+    "build": "node ../design-system/tools/build.mjs && node tools/prepare-design-system.mjs && node tools/select-content.mjs && node tools/build-gallery.mjs && node tools/build-responsive-images.mjs && astro build",
     "preview": "astro preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
     "build:coast": "node tools/build-coast.mjs",
     "test:coast": "node --test tests-coast/*.test.mjs"
   },
   "dependencies": {
-    "astro": "7.3.5"
+    "astro": "7.3.5",
+    "sharp": "0.35.5"
   },
   "engines": {
     "node": ">=22.12.0",

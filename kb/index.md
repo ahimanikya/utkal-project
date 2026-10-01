@@ -99,3 +99,9 @@ Latest language release: [Languages and Living Voices publication](records/livin
 - [Expanded research import](records/research-sync-2026-10-01.md) — broader subjects, people, creations and dated economic evidence; research-only review candidate.
 
 - [Research map and reuse](research/methods/research-map.md) — cross-workspace coverage, checked overlaps and evidence pointers for all research tasks.
+
+- [Visitor experience and search readiness](reference/visitor-experience-review.md) — navigation, sharing previews, complete journey checks and one remaining human review queue.
+
+Visitor experience release: [PR 23 publication evidence](records/visitor-experience-publication.json). Search indexing remains disabled.
+
+- [Odisha Roots stories and publication](records/odisha-roots-features-publication.json) — illustrated Rasagola and Bose stories, portable notes and source limits.

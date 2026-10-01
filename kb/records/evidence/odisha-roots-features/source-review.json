@@ -1,0 +1,100 @@
+{
+  "recorded_at": "2026-10-01T16:14:25.197512+00:00",
+  "actor": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "reuse": {
+    "base": "a67b7ff",
+    "kb": [
+      "research/food/odisha-rasagola.md",
+      "research/destinations/central-details.json",
+      "research/destinations/regions.json",
+      "records/evidence/odisha-roots/source-review.json"
+    ],
+    "parallel_research": "Read-only comparison of PRs 22 and 24; no Bose/Rasagola feature path overlap found. No merge or cross-thread instruction."
+  },
+  "sources": [
+    {
+      "id": "rasagola-journal",
+      "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612",
+      "document": "612 - GI - Journal Copy - 27-03-2019.pdf",
+      "retrieval": "Public registry ViewDocument form, DocumentPath from registry listing. No signed-in credentials.",
+      "sha256": "f51834eb0da460a703b55404a73017ba22a8e517f966e136c4d3a6c1cc752e28",
+      "pages": 19,
+      "inspected": "Text extraction and visual inspection of PDF p. 10, GI Journal 116 (27 March 2019).",
+      "finding": "The filed historical statement cites Record of Rights Part III, notification 12 October 1955, and the Ayodhya Kanda hospitality episode in Dandi Ramayana.",
+      "limit": "Original temple register and critical literary edition remain uninspected. The application statement does not independently authenticate its own historical claims.",
+      "followup": "Locate Gazette/temple register and a dated literary edition; record exact passages with a qualified Odia reader."
+    },
+    {
+      "id": "bose-indian-pilgrim",
+      "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10152181627431675.pdf",
+      "inspected": "Digital reproduction, chapters I, IV and V; printed pp. 6–7, 29–30, 39, 43–45.",
+      "finding": "Cuttack birth, family setting, first schooling near January 1902, Ravenshaw entry in January 1909 and teacher recollections.",
+      "limit": "Retrospective testimony, not an original manuscript or independent school-register check."
+    },
+    {
+      "id": "rasagola-osic",
+      "url": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf",
+      "inspected": "Previously inspected pp. 3–4 reused.",
+      "limit": "Institution is GI co-applicant; original records remain open."
+    },
+    {
+      "id": "rasagola-markets",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha",
+      "inspected": "Dated first-person 2019 visit, published 2020, reused.",
+      "limit": "No current seller inspection or hours."
+    }
+  ],
+  "research_leads_not_promoted": [
+    "Odia Wikisource lists Jagamohana Ramayana; attempted Ayodhya text retrieval did not establish the cited passage.",
+    "Journal p. 10 also cites Utkal Bhramanam, Bali Jatra and Waltier Darshan; not added as independently verified literary claims."
+  ],
+  "photographs": {
+    "rasagola": {
+      "src": "/images/regions/pahala-rasagola.webp",
+      "width": 1440,
+      "height": 1080,
+      "creator": "Archbik",
+      "title": "Rasagolla.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Rasagolla.JPG",
+      "license": "Public domain (author release)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Rasagolla.JPG#Licensing",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Rasagolla.JPG",
+      "original_sha256": "8433f200b72315eb5e6c5f211e3df403080e7c34d7b95a6ee371887624491440",
+      "sha256": "b74bcb3cdb5622083cab01eecd0c90267bc9410fcd968edeb54b095b5aba0a0f",
+      "bytes": 101274,
+      "changes": "Aspect-preserving resize and WebP compression; no creative edits. Responsive framing may crop the view.",
+      "checked_on": "2026-10-01",
+      "alt": "Four brown rasagola sweets in syrup on a pale plate.",
+      "caption": "Pahala rasagola · photographed by Archbik; uploaded in 2010. Capture date unconfirmed.",
+      "date": "Upload: 2010-08-09; capture date unknown",
+      "inspection": "Source description, creator and licence read; original downloaded photograph visually inspected."
+    },
+    "school": {
+      "src": "/images/regions/ravenshaw-collegiate-school.webp",
+      "width": 1440,
+      "height": 960,
+      "creator": "Kamalakanta777",
+      "title": "Ravenshaw collegiate school cuttack.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Ravenshaw_collegiate_school_cuttack.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ravenshaw_collegiate_school_cuttack.JPG",
+      "original_sha256": "68ecaed64f795abaf1c8a34498237855d680891068533ff040b4c3e7fac96209",
+      "sha256": "a38c3069a76495a5c5784f6b6f6dafa3b618dbce8809fc043c381b6fcf134774",
+      "bytes": 165572,
+      "changes": "Aspect-preserving resize and WebP compression; no creative edits. Responsive framing may crop the view. Displayed adaptations remain CC BY-SA 3.0.",
+      "checked_on": "2026-10-01",
+      "alt": "Red brick building with a long row of shuttered windows at Ravenshaw Collegiate School.",
+      "caption": "Ravenshaw Collegiate School · Kamalakanta777, 25 March 2013. A later view of the school, not a photograph from Bose’s childhood.",
+      "date": "2013-03-25",
+      "inspection": "Source description, creator and licence read; original downloaded photograph visually inspected."
+    }
+  },
+  "historical_media": "Real later photographs only; no generated historical scene or unlicensed facsimile published."
+}
