@@ -175,3 +175,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Made by hand craft collection published](records/handmade-craft-stories-publication.json) after Founder approval of PR 44. Three illustrated pages and a saved craft journey are live; current backlog baseline advanced to 117 pages with earlier snapshots and remaining review limitations preserved.
+
+## 2026-10-01
+
+[Woven in Odisha candidate](records/woven-textile-stories-review.json): Bandha, Khandua and Kotpad stories, four licensed visuals and a saved textile journey. Original Kotpad report recovered; existing URL preserved. Public candidate has 121 pages; published baseline remains 117. Browser/local review and wider RES-012 research remain open.

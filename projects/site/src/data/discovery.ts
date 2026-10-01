@@ -1,3 +1,4 @@
+import textiles from '../../../../kb/research/culture/textile-stories.json';
 import crafts from '../../../../kb/research/culture/craft-stories.json';
 import fire from '../../../../kb/research/food/fire-cooking-stories.json';
 import everyday from '../../../../kb/research/food/everyday-stories.json';
@@ -18,6 +19,8 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ {label:textiles.collection.title,category:'Living culture',dek:textiles.collection.lead,href:'/textiles/',image:textiles.assets[textiles.collection.hero],regions:['Across Odisha']},
+ ...textiles.pages.map(p=>({label:p.title,category:'Living culture',dek:p.lead,href:p.href,image:textiles.assets[p.hero],regions:p.regions})),
  {label:crafts.collection.title,category:'Living culture',dek:crafts.collection.lead,href:'/crafts/',image:crafts.assets[crafts.collection.hero],regions:['Puri','Cuttack']},
  ...crafts.pages.map(p=>({label:p.title,category:'Living culture',dek:p.lead,href:'/crafts/'+p.slug+'/',image:crafts.assets[p.hero],regions:p.regions})),
  {label:fire.title,category:"Food",dek:fire.lead,href:"/food/fire-cooking/",image:foods.assets[fire.hero],regions:["Across Odisha"]},
@@ -34,7 +37,7 @@ const collectionEntries=[
  {label:'Places, voices & stories',category:'Literature',dek:'Cultural reading trails through Chilika, Balasore and Mayurbhanj.',href:'/stories/culture-trails/',regions:['Chilika','Balasore','Mayurbhanj']},
  {label:'Samanta Chandrasekhar',category:'People',dek:'Pathani Samanta: an astronomer, his observations and the work he left behind.',href:'/people/samanta-chandrasekhar/',regions:['Across Odisha']},
  {label:'Bhubaneswar Fresco · Painted Streets',category:'Living culture',dek:'A photographic walk through Bhubaneswar in February 2009, by Ahimanikya Satapathy.',href:'/stories/bhubaneswar-fresco/',image:regions.assets['fresco-procession'],regions:['Bhubaneswar']},
- ...notes.map(n=>({...n,image:({chilika:chilikaStory.image,konark:konarkStory.image})[n.slug],regions:locations[n.slug]||['Across Odisha']})),
+ ...notes.filter(n=>n.slug!=='kotpad').map(n=>({...n,image:({chilika:chilikaStory.image,konark:konarkStory.image})[n.slug],regions:locations[n.slug]||['Across Odisha']})),
  ...voices.pages.map(p=>({label:p.title,category:p.path.startsWith('languages')?'Languages':p.path.startsWith('people')?'People':'Literature',dek:p.lead,href:'/'+p.path+'/',image:voices.assets[p.hero_asset],regions:voiceAreas[p.path]||['Across Odisha']})),
  ...foods.pages.map(p=>({label:p.title,category:'Food',dek:p.lead,href:'/food/'+p.slug+'/',image:foods.assets[p.hero],regions:p.regions||(p.slug==='mudhi-mansa'?['Mayurbhanj']:p.slug==='balasore'?['Balasore']:['Nayagarh','Across Odisha'])}))
 ];

@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-01T22:59:40.544001+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "quote": "Sounds good, let's pick that up",
+    "context": "Build Woven in Odisha, Sambalpuri Bandha, Khandua/Nuapatna and Kotpad stories with a saved textile journey."
+  },
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "new_public_routes": [
+      "/textiles/",
+      "/textiles/sambalpuri-bandha/",
+      "/textiles/khandua/",
+      "/knowledge/kotpad/"
+    ],
+    "existing_canonical_route_enhanced": "/knowledge/kotpad/",
+    "new_media": {
+      "textile_and_weaving_photographs": 3,
+      "labelled_documentary_poster": 1
+    },
+    "public_candidate_pages": 121,
+    "full_build_pages": 134,
+    "discovery_entries": 78,
+    "journey_items": 82,
+    "starter": "woven-in-odisha",
+    "last_published_baseline": {
+      "release": "UTP-REL-040",
+      "pages": 117,
+      "discovery_entries": 74,
+      "journey_items": 78
+    }
+  },
+  "checks": {
+    "site_tests_passed": 377,
+    "edition_tests_passed": 72,
+    "page_acceptance_passed": 484,
+    "research_validators_passed": 12,
+    "discovery_and_launch_readiness": "pass; existing eleven-page search proposal unchanged; indexing disabled",
+    "saved_journey": "Existing trip preserved; four unscheduled textile ideas retain source links, photographs/poster, practical questions and personal notes in portable book.",
+    "source_and_media": "Four selected media visually inspected. Kotpad original PDF page 49 / printed page 36 read and rendered. Metadata, licences, original and derivative hashes retained.",
+    "canonical_kotpad": "Existing address reused without duplicate Explore or saved-book entry. Historical source-access failure retained; current source limitation corrected.",
+    "visual_review": "blocked; no browser audit claimed"
+  },
+  "limitations": [
+    "Browser visual and interactive review remains unavailable after the recorded admin-policy verification failure; no bypass or successful new browser audit claimed.",
+    "Odia spelling, craft terminology and local maker review remain pending. No interview, workshop appointment, live stock, price, fibre purity or certification verified.",
+    "Kotpad uses a labelled, full-frame film release poster. The documentary has not been watched and its streaming availability or reuse rights are not inferred from the poster licence.",
+    "Textile journey is an unscheduled reading/research collection across different regions, not a verified day route.",
+    "Tasar feature, Store, Pala and search indexing remain outside this batch. Broader RES-012 research remains pending.",
+    "Candidate only; no merge, deployment or publication claimed."
+  ],
+  "evidence": [
+    "records/evidence/woven-textile-stories/page-acceptance.json",
+    "records/evidence/woven-textile-stories/discovery.json",
+    "records/evidence/woven-textile-stories/research-checks.json",
+    "records/evidence/woven-textile-stories/site-tests.txt",
+    "records/evidence/woven-textile-stories/edition-tests.txt",
+    "records/evidence/woven-textile-stories/launch-readiness.txt",
+    "records/textile-image-provenance.json",
+    "research/sources/textile-story-research.md"
+  ],
+  "next_action": "Founder review of candidate PR; browser visual review when available, and local terminology/maker checks remain separate."
+}
