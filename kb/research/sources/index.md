@@ -364,3 +364,13 @@
 - [Ajit Kumar Mohanty: Department of Atomic Energy biography](science-ajit-dae.md)
 
 - [Possible origin of shoulder in the reactor antineutrino spectrum](science-ajit-antineutrino.md)
+
+- [Jyotish, Volume 6, Part 1: manuscript catalogue](science-ignca-jyotish-2024.md)
+
+- [Odisha State Museum: manuscript department](science-osm-manuscripts.md)
+
+- [Odisha State Museum: collection inventory](science-osm-collection.md)
+
+- [Odisha State Museum: Ganita catalogue, second result page](science-osm-ganita-catalogue.md)
+
+- [INSA bibliography: Odisha astronomy and mathematics manuscript survey](science-insa-manuscript-survey-index.md)

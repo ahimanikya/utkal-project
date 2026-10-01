@@ -113,3 +113,7 @@ Added three people, three works and six source records; current inventory 846. �
 ### Utkal name correction · 1 October 2026
 
 Current maintained titles and queue wording now use Utkal. Added PRD correction snapshot 0.2.1 without changing earlier snapshots or identifiers. Historical logs and source titles retain their original text.
+
+### Scientific manuscript extension · 1 October 2026
+
+Added five source records and one collection; current inventory 853. Reused Bhāsvatī rather than creating a new work for every copy. IGNCA catalogue entries are witnesses from one publication, not independent historical studies. Museum custody and author birthplace remain separate fields. No new scientist identity inferred from empty author fields.

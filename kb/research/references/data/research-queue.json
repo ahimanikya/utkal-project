@@ -545,10 +545,10 @@
       "done_when": "Build a documented timeline from Utkal’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
       "target": "people/people-and-creations.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T05:54:01.849023-07:00",
-      "next_step": "Continue historical manuscript/attribution lane first; then nineteenth/twentieth-century mathematics, chemistry and science communication, and contemporary women and additional disciplines. Reuse seven mapped scientists, including project-native Samanta. Retry unavailable primary routes after 2026-10-08.",
+      "last_worked_at": "2026-10-01T06:42:49.852366-07:00",
+      "next_step": "Continue RES-029 with nineteenth/twentieth-century mathematics and science communication (Tribikram Pati and Gokulananda Mahapatra), then contemporary women and additional disciplines. Reuse the saved manuscript checkpoint; original folios/Devīdāsa attribution remain open and failed routes retry after 2026-10-08.",
       "evidence_outputs": [
         "people/science-and-contributions.md",
         "people/swati-nayak.md",
@@ -561,7 +561,8 @@
         "people/ajit-kumar-mohanty-physicist.md",
         "works/bhasvati.md",
         "works/parija-apple-respiration-1928.md",
-        "works/antineutrino-shoulder-2017.md"
+        "works/antineutrino-shoulder-2017.md",
+        "history/scientific-manuscripts.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -579,7 +580,8 @@
           "people/ajit-kumar-mohanty-physicist.md",
           "works/bhasvati.md",
           "works/parija-apple-respiration-1928.md",
-          "works/antineutrino-shoulder-2017.md"
+          "works/antineutrino-shoulder-2017.md",
+          "history/scientific-manuscripts.md"
         ],
         "project_records": [
           "kb/research/people/samanta-chandrasekhar.md",
@@ -607,6 +609,17 @@
           "new_people": 3,
           "new_works": 3,
           "scope": "User expanded coverage from six-person seed to heritage-to-present timeline; original criterion preserved in scope_history."
+        },
+        {
+          "run_id": "2026-10-01-science-manuscripts",
+          "at": "2026-10-01T06:42:49.852366-07:00",
+          "outcome": "manuscript_evidence_checkpoint",
+          "completion_criteria_met": false,
+          "catalogue_witnesses": 4,
+          "odisha_mathematics_records": 3,
+          "new_people": 0,
+          "retry_after": "2026-10-08",
+          "remaining_gap": "Original manuscripts, Devīdāsa identity and dated museum inventory unverified."
         }
       ],
       "scope_history": [

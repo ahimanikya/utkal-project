@@ -107,3 +107,7 @@ RES-029 is in progress: Swati Nayak and Sanghamitra Pati profiles connect agricu
 ### User-expanded scientific-history scope · 1 October 2026
 
 RES-029 now follows heritage to the present, with its original six-person completion criterion preserved in scope_history. Added Śatānanda, Parija and Ajit Kumar Mohanty; the timeline also reuses four existing identities. The earliest period remains an explicit attribution gap. No duplicate automation or completed encyclopedic coverage claimed.
+
+### Scientific manuscripts checkpoint · 1 October 2026
+
+RES-029 remains in progress. Four IGNCA Bhāsvatī witnesses and three museum mathematics records enhance the historical lane. The 2008 survey is bibliographically confirmed but full text unavailable. Continue RES-029 with nineteenth/twentieth-century mathematics and science communication (Tribikram Pati and Gokulananda Mahapatra), then contemporary women and additional disciplines. Reuse the saved manuscript checkpoint; original folios/Devīdāsa attribution remain open and failed routes retry after 2026-10-08.

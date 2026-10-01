@@ -47,3 +47,7 @@ Saved RES-029 checkpoint: three science profiles, three credited works and a her
 ## 2026-10-01
 
 Applied the user-confirmed name **Utkal** to maintained imported research. [Correction receipt](records/utkal-name-correction-2026-10-01.json). Historical evidence and technical identifiers preserved; no website deployment.
+
+## 2026-10-01
+
+Saved RES-029 manuscript checkpoint: four Bhāsvatī catalogue witnesses and three museum mathematics records; undated inventory limits retained. Existing scientist identities preserved. [Bounded receipt](records/science-manuscripts-2026-10-01.json). No website changes or human approval claimed.

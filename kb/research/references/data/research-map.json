@@ -11594,7 +11594,8 @@
       ],
       "source_ids": [
         "science-satananda-preprint",
-        "science-satananda-jahh"
+        "science-satananda-jahh",
+        "science-ignca-jyotish-2024"
       ],
       "added_at": "2026-10-01T05:54:01.849023-07:00"
     },
@@ -11650,6 +11651,104 @@
         "editorial"
       ],
       "added_at": "2026-10-01T06:19:27.387120-07:00"
+    },
+    {
+      "id": "sources/science-ignca-jyotish-2024",
+      "title": "Jyotish, Volume 6, Part 1: manuscript catalogue",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-ignca-jyotish-2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-ignca-jyotish-2024"
+      ],
+      "added_at": "2026-10-01T06:42:49.852366-07:00"
+    },
+    {
+      "id": "sources/science-osm-manuscripts",
+      "title": "Odisha State Museum: manuscript department",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-osm-manuscripts.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-osm-manuscripts"
+      ],
+      "added_at": "2026-10-01T06:42:49.852366-07:00"
+    },
+    {
+      "id": "sources/science-osm-collection",
+      "title": "Odisha State Museum: collection inventory",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-osm-collection.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-osm-collection"
+      ],
+      "added_at": "2026-10-01T06:42:49.852366-07:00"
+    },
+    {
+      "id": "sources/science-osm-ganita-catalogue",
+      "title": "Odisha State Museum: Ganita catalogue, second result page",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-osm-ganita-catalogue.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-osm-ganita-catalogue"
+      ],
+      "added_at": "2026-10-01T06:42:49.852366-07:00"
+    },
+    {
+      "id": "sources/science-insa-manuscript-survey-index",
+      "title": "INSA bibliography: Odisha astronomy and mathematics manuscript survey",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-insa-manuscript-survey-index.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-insa-manuscript-survey-index"
+      ],
+      "added_at": "2026-10-01T06:42:49.852366-07:00"
+    },
+    {
+      "id": "history/scientific-manuscripts",
+      "title": "Scientific knowledge preserved in manuscripts",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "history/scientific-manuscripts.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "people",
+        "arts"
+      ],
+      "source_ids": [
+        "science-ignca-jyotish-2024",
+        "science-osm-manuscripts",
+        "science-osm-collection",
+        "science-osm-ganita-catalogue",
+        "science-insa-manuscript-survey-index"
+      ],
+      "added_at": "2026-10-01T06:42:49.852366-07:00"
     }
   ],
   "shared_publications": [
@@ -12012,7 +12111,8 @@
         "people/ajit-kumar-mohanty-physicist.md",
         "works/bhasvati.md",
         "works/parija-apple-respiration-1928.md",
-        "works/antineutrino-shoulder-2017.md"
+        "works/antineutrino-shoulder-2017.md",
+        "history/scientific-manuscripts.md"
       ],
       "project_records": [
         "kb/research/people/samanta-chandrasekhar.md",
@@ -12336,8 +12436,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 847,
-    "updated_at": "2026-10-01T06:19:27.387120-07:00",
+    "records_mapped": 853,
+    "updated_at": "2026-10-01T06:42:49.852366-07:00",
     "scope": "Original audit plus explicit identity extensions."
   },
   "extension_history": [
@@ -12441,6 +12541,18 @@
       "added_source_records": [],
       "new_people_or_work_records": 0,
       "new_prd_snapshots": 1
+    },
+    {
+      "run_id": "2026-10-01-science-manuscripts",
+      "added_source_records": [
+        "science-ignca-jyotish-2024",
+        "science-osm-manuscripts",
+        "science-osm-collection",
+        "science-osm-ganita-catalogue",
+        "science-insa-manuscript-survey-index"
+      ],
+      "new_people_or_work_records": 0,
+      "new_collection_records": 1
     }
   ]
 }

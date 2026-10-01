@@ -3204,6 +3204,17 @@
       "content_type": "Work",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/scientific-manuscripts",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "people",
+        "arts"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -4407,6 +4418,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Read the patient-study contribution alongside health statistics; a clinic sample does not establish statewide prevalence."
+    },
+    {
+      "from": "history/scientific-manuscripts",
+      "to": "people/science-and-contributions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Read manuscript records alongside named contributors; collection custody does not establish an author’s Odisha origin."
     }
   ],
   "relationship_types": {

@@ -37,3 +37,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Scientific heritage through time · 1 October 2026
 
 [Utkal’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.
+
+## Science and manuscript heritage · 1 October 2026
+
+[Scientific knowledge preserved in manuscripts](../history/scientific-manuscripts.md) connects preserved mathematical texts, literary-form research leads and the scientist timeline, with explicit attribution gaps.

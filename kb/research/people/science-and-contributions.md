@@ -35,3 +35,7 @@ The [structured timeline and research lanes](../references/data/science-heritage
 [Related agriculture evidence](../statistics/agriculture.md) — Read seed-system contributions alongside agriculture statistics; a training event does not measure statewide adoption or income.
 
 [Related health evidence](../statistics/health.md) — Read the patient-study contribution alongside health statistics; a clinic sample does not establish statewide prevalence.
+
+## Manuscript evidence · 1 October 2026
+
+[Scientific knowledge preserved in manuscripts](../history/scientific-manuscripts.md) connects this timeline to institutional catalogues, including Bhāsvatī copies outside Odisha and mathematics texts held in Bhubaneswar. Named attribution and original manuscripts remain separate checks.

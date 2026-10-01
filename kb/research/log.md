@@ -140,3 +140,7 @@ Expanded RES-029 at the user’s request into Utkala scientific heritage through
 ## 2026-10-01
 
 Corrected maintained project references to **Utkal** following the user’s explicit instruction. Updated science, editorial, current product, technical and campaign wording; PRD 0.2.1 preserves earlier snapshots. Historical source titles, URIs, filesystem paths, automation IDs and previous event logs retain their exact identifiers. No website deployment performed.
+
+## 2026-10-01
+
+Saved a RES-029 manuscript checkpoint: five institutional source records, four Bhāsvatī catalogue witnesses, three Odisha mathematics records and undated museum inventory observations with scope limits. Enhanced the existing work and classified a manuscript collection across history, people and arts. No new people, human review or website publication claimed.

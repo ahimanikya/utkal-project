@@ -138,3 +138,7 @@ Nayak’s award biography credits a team strategy; plant-breeder credit, publica
 ### Scientific heritage gaps · 1 October 2026
 
 No securely sourced named scientist before 1099 CE was established in this batch. This is a coverage gap, not proof that none existed. Check manuscript witnesses, early medicine and technical practice before naming ancient contributors. Śatānanda’s exact birth year, universal priority claims and court association are not adopted. Indexed academy/journal routes need direct retrieval after 8 October. Parija’s award register, Samanta’s chronology, and current affiliations require their own checks. Ancient/medieval, modern research and science communication remain distinct roles.
+
+### Manuscript attribution and inventory gaps · 1 October 2026
+
+Original folios, colophons, acquisition history and Devīdāsa’s commentary identity remain unverified. Museum inventory pages are undated; 37,273 and approximately 37,000 cannot form a growth series or a science-only total. Survey PDF and selected catalogue-detail fetches failed; retry after 8 October. The broad scientist timeline remains incomplete; proceed to independent modern disciplines meanwhile.

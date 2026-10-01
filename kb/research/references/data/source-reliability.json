@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T05:54:01.849023-07:00",
+  "updated_at": "2026-10-01T06:42:49.852366-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1137,6 +1137,10 @@
     {
       "run_id": "2026-10-01-science-heritage-timeline",
       "scope": "Historical science expansion; not a weekly statistical release check."
+    },
+    {
+      "run_id": "2026-10-01-science-manuscripts",
+      "scope": "Manuscript catalogue research, not weekly statistical releases."
     }
   ],
   "supplemental_discovery_routes": [
@@ -1987,6 +1991,126 @@
       "run_id": "2026-10-01-science-heritage-timeline",
       "status": "unavailable_direct_fetch",
       "scope": "Lead or alternative route; no additional claim promoted from failed retrieval.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-ignca-jyotish-2024",
+      "discovery_url": "https://ignca.gov.in/PDF_data/Jyotish-Vol-6-Part-1.pdf",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "available_with_scoped_capture",
+      "scope": "Four selected Bhāsvatī catalogue records in Pune, Guwahati and Varanasi; catalogue describes IGNCA microfilm holdings and original repositories. Folios, scripts and original era dates retained. Full manuscripts and page image not inspected; screenshot fetch failed.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-osm-manuscripts",
+      "discovery_url": "https://odishamuseum.nic.in/?q=dept/manuscripts",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "available_with_scoped_capture",
+      "scope": "Undated institutional page reports about 37,000 manuscripts across 27 categories including Ganita, Jyotisha and Ayurveda. Publication and inventory reference dates unknown; not a 2026 census or science-only total.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-osm-collection",
+      "discovery_url": "https://www.odishamuseum.nic.in/?q=node/5",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "available_with_scoped_capture",
+      "scope": "Undated table lists 37,273 manuscript artifacts and a 15th–20th-century range. Institution-wide manuscript total, not unique works, authors or scientific texts. Retain separately from the rounded department figure; no growth calculation.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-osm-ganita-catalogue",
+      "discovery_url": "https://odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=1&q=palm-leaf-g",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "available_with_scoped_capture",
+      "scope": "Selected title/catalogue pairs and material preserved. Author fields blank; dates and manuscript scans unread. Catalogue page counts are not converted to folios. Prices and access promises omitted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-insa-manuscript-survey-index",
+      "discovery_url": "https://insaindia.res.in/history-of-science/",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "available_with_scoped_capture",
+      "scope": "Lists Select Palm leaf manuscripts in Orissa State Museum, Bhubaneswar on Astronomy and Mathematics, IJHS 43.1 (2008),101–108. Confirms bibliography only. Survey full text unavailable in this run; individual table rows not adopted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://cahc.jainuniversity.ac.in/assets/ijhs/Vol43_1_9_DBhattacharya.pdf",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "unavailable_direct_fetch",
+      "scope": "Indexed introductory page only. Direct web failed; curl returned HTML, not PDF. No table rows adopted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol43_1_9_DBhattacharya.pdf",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "unavailable_direct_fetch",
+      "scope": "Alternative survey route failed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.odishamuseum.nic.in/?q=27-manuscript-catalogues",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "unavailable_direct_fetch",
+      "scope": "Landing/e-catalogue navigation fetch unavailable; independent Ganita listing captured.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=2&q=palm-leaf-g",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "unavailable_direct_fetch",
+      "scope": "Third listing page direct fetch unavailable; indexed author leads not promoted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://odishamuseum.nic.in/?q=node%2F842",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "unavailable_direct_fetch",
+      "scope": "G/43 detail unavailable; listing evidence retained.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://odishamuseum.nic.in/?q=node%2F839",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "unavailable_direct_fetch",
+      "scope": "G/112 detail unavailable; listing evidence retained.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-ignca-jyotish-2024",
+      "discovery_url": "https://ignca.gov.in/PDF_data/Jyotish-Vol-6-Part-1.pdf",
+      "checked_at": "2026-10-01T06:42:49.852366-07:00",
+      "run_id": "2026-10-01-science-manuscripts",
+      "status": "page_image_unavailable_text_available",
+      "scope": "PDF p.120 screenshot cache miss; extracted text inspected. No manuscript image or full-book reading claimed.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

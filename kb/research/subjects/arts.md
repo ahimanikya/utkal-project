@@ -57,3 +57,7 @@ The [Mamata soundtrack](../works/mamata-film-music.md), [Kali Kapali catalogue r
 ## A devotional recording
 
 [Jagannatha Swami, credited to Sunanda Patnaik](../works/jagannatha-swami-sunanda.md), connects the arts collection with a label-linked listening route and explicit performer/composition distinctions.
+
+## Science and manuscript heritage · 1 October 2026
+
+[Scientific knowledge preserved in manuscripts](../history/scientific-manuscripts.md) connects preserved mathematical texts, literary-form research leads and the scientist timeline, with explicit attribution gaps.
