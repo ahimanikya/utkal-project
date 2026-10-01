@@ -62,3 +62,7 @@ Subject reading: [Places](../subjects/places.md), [nature](../subjects/nature.md
 [^debrigarh-nie-20260820]: [The New Indian Express, 20 August 2026](https://www.newindianexpress.com/amp/story/states/odisha/2026/Aug/20/odishas-debrigarh-wildlife-sanctuary-witness-rise-in-visitors-upgraded-infrastructure-gave-push-to-it), closing officer statement.
 
 [^debrigarh-toi-user-clipping]: [User-supplied Times of India clipping: provenance and limitations](../sources/debrigarh-toi-user-clipping.md).
+
+## Programme context · 1 October 2026
+
+The [state ecotourism series](../statistics/ecotourism.md) provides primary programme-wide income, visitor and participation context from Wildlife Odisha 2025. It does not corroborate the local 150-person account or supply Debrigarh payroll. The division’s comparable accounts and role/duration/pay definitions remain the next research step.

@@ -3797,5 +3797,41 @@
     "capture_method": "public_json_and_rendered_table",
     "locator": "Public Eligible Gram Panchayats modal; district/cluster/destination/block/gp tree",
     "capture_note": "Entire unauthenticated JSON captured and modal table inspected. Publisher IDs and spellings preserved. Retrieval date is not legal effective date. Portal and API are one source family. Computed inventory counts do not establish operational homestays or Gazette eligibility."
+  },
+  "wildlife-odisha2025-ecotourism": {
+    "id": "wildlife-odisha2025-ecotourism",
+    "title": "Wildlife Odisha 2025: ecotourism income, visitors and community participation",
+    "resource": "https://s3.ap-south-1.amazonaws.com/wildlife.odisha.gov.in/uploads/901bab61-9987-4131-b23e-2fdf2ee5c6db.pdf",
+    "publisher": "State Wildlife Organisation, Forest, Environment and Climate Change Department, Government of Odisha",
+    "published_on": "2025-10-09",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_primary_pdf_visual_table_check",
+    "locator": "Colophon PDF p.4; printed pp.122 and135 (PDF pp.132 and145)",
+    "capture_note": "Public download succeeded after web tool rejected 29.9 MB file. Page135 visually inspected; publication occasion/date on colophon. Programme table is not all Odisha tourism or a homestay series.",
+    "source_kind": "Primary departmental report"
+  },
+  "homestay-wtd2026-connect": {
+    "id": "homestay-wtd2026-connect",
+    "title": "World Tourism Day 2026: reported provisional homestay certificates",
+    "resource": "https://odishaconnect.com/odisha-celebrates-world-tourism-day-2026-with-digital-innovation-and-community-led-tourism/",
+    "publisher": "Odisha Connect",
+    "published_on": "2026-09-27",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_passage_direct_fetch_failed",
+    "locator": "Section 176 Homestay Beneficiaries Receive Certificates",
+    "capture_note": "Indexed passage reports176; direct page failed. Secondary lead only; do not treat as independently verified headcount.",
+    "source_kind": "Secondary event report; unresolved numerical lead"
+  },
+  "homestay-wtd2026-bytes": {
+    "id": "homestay-wtd2026-bytes",
+    "title": "Odisha Signs Pacts To Promote Homestay, Heritage & Adventure Tourism",
+    "resource": "https://odishabytes.com/odisha-signs-pacts-to-promote-homestay-heritage-adventure-tourism/amp/",
+    "publisher": "OdishaBytes",
+    "published_on": "2026-09-28",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_scoped_read",
+    "locator": "Closing paragraph and opening SBI MoU paragraph",
+    "capture_note": "Direct page says17 provisional-certificate beneficiaries, conflicting with176 in indexed Odisha Connect. Shared event coverage may reuse one release; original register/MoU not recovered.",
+    "source_kind": "Secondary event report; unresolved numerical lead"
   }
 }

@@ -164,3 +164,5 @@
 - [Computing and space research completion](science-women-2026-10-01.json) — Two people and three credited works; initial RES-029 timeline complete, gaps retained.
 
 - [Homestay evidence checkpoint](homestay-policy-2026-10-01.json) — Public portal geography captured; policy amendments unresolved, operational outcomes still unknown.
+
+- [Community tourism research checkpoint](community-tourism-2026-10-01.json) — Primary ecotourism series recovered; homestay provisional-registration conflict held.

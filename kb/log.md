@@ -87,3 +87,7 @@ Added Sanghamitra Mohanty and Susmita Mohanty with three credited works. [Bounde
 ## 2026-10-01
 
 Enhanced homestay research with a dated government portal place list and five derived counts. [Bounded receipt](records/homestay-policy-2026-10-01.json).16 districts/19 clusters/61 GPs describe the portal, not operating units. Original amendment/allocation retrieval remains blocked; RES-009 outcome research continues. No website publication claimed.
+
+## 2026-10-01
+
+Saved47 ecotourism observations and4 full-year comparisons from Wildlife Odisha2025. [Bounded receipt](records/community-tourism-2026-10-01.json).Homestay17/176 certificate conflict held. RES-009 deferred; RES-010 continues with Debrigarh division-level evidence. This focused follow-on leaves PR24 unchanged. No website publication claimed.

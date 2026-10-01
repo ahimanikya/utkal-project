@@ -3757,6 +3757,17 @@
       "content_type": "Work",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/ecotourism",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "people"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -3803,7 +3814,8 @@
     "sports-events": "everyday",
     "sports-infrastructure": "everyday",
     "Homestays": "economy",
-    "Textile and apparel exports": "economy"
+    "Textile and apparel exports": "economy",
+    "Ecotourism": "economy"
   },
   "relationships": [
     {
@@ -5079,6 +5091,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "These reading routes connect people to credited work; role and publication dates remain visible."
+    },
+    {
+      "from": "statistics/ecotourism",
+      "to": "places/debrigarh-hirakud",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A site-level livelihood case needs its own worker and income evidence; statewide totals do not verify it."
+    },
+    {
+      "from": "statistics/ecotourism",
+      "to": "statistics/homestays",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Nature-camp programme outcomes and the state homestay scheme use different populations and stages."
+    },
+    {
+      "from": "statistics/ecotourism",
+      "to": "statistics/tourism",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "State tourist-visit totals use a broader scope and cannot be added to this programme series."
     }
   ],
   "relationship_types": {

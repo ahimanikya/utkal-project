@@ -79,3 +79,5 @@ Subject membership is editorial classification. It does not establish historical
 [Susmita Mohanty](../people/susmita-mohanty.md) provides a reading route between space enterprise, policy authorship and historical Odisha public service. This relationship is editorial context, not a claim of measured economic impact.
 
 The [homestay research](../statistics/homestays.md) connects the programme’s geographic footprint with the evidence needed to measure host livelihoods.
+
+- [Ecotourism](../statistics/ecotourism.md) — Reported programme income and community allocation rules, distinct from net household earnings.

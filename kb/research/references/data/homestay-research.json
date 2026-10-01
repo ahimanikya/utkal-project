@@ -48,7 +48,9 @@
     "homestay-cycle1-may2026",
     "homestay-market-jan2025",
     "homestay-amendment-lead",
-    "homestay-portal-area-list"
+    "homestay-portal-area-list",
+    "homestay-wtd2026-connect",
+    "homestay-wtd2026-bytes"
   ],
   "growth_series_established": false,
   "current_rules_consolidated": false,
@@ -139,6 +141,32 @@
         "homestay-go-portal"
       ],
       "note": "Portal title11436, Ammendment17.08.26 and deadline-extension notice visible; no document text, precise legal dates or current application deadline established."
+    },
+    {
+      "id": "wtd2026-provisional-certificate-count",
+      "status": "hold_conflict",
+      "source_ids": [
+        "homestay-wtd2026-connect",
+        "homestay-wtd2026-bytes"
+      ],
+      "reported_values": [
+        {
+          "value": 176,
+          "source_id": "homestay-wtd2026-connect",
+          "capture": "indexed only; direct fetch failed"
+        },
+        {
+          "value": 17,
+          "source_id": "homestay-wtd2026-bytes",
+          "capture": "direct page closing paragraph"
+        }
+      ],
+      "unit": "reported provisional-registration beneficiaries",
+      "event_date": "2026-09-27",
+      "needed_evidence": "Original departmental event release and dated PRC register with certificate-stage definitions.",
+      "note": "Not imported into statistical atlas. Neither count establishes operational units; no independent corroboration claimed.",
+      "retry_after": "2026-10-08",
+      "observation_ids": []
     }
   ],
   "outcome_metrics": [
@@ -259,6 +287,15 @@
         "RES-009"
       ],
       "outcome": "Portal coverage captured; amendment/allocation retrieval blocked; outcome reporting sources mapped, actual totals unavailable.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "run_id": "2026-10-01-community-tourism",
+      "at": "2026-10-01T09:24:09.614111-07:00",
+      "task_ids": [
+        "RES-009"
+      ],
+      "outcome": "Public-outcome search checkpoint; conflicting17/176 provisional certificates held; SBI MoU remains reported support, not lending or payout. All9 operating outcomes unknown.",
       "retry_after": "2026-10-08"
     }
   ]

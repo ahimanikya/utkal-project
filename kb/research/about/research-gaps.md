@@ -178,3 +178,7 @@ RES-029’s initial twelve-identity timeline is complete; scientific coverage is
 ### Homestay scope reconciliation · 1 October 2026
 
 Public portal snapshot has 16 district IDs / 19 clusters / 61 GP IDs. May press report says 19 districts; do not infer comparable change. Rayagada lists both Kulusing/Puttasing; original amendment needed. Later notice titles 11436 and Ammendment 17.08.26 and application extension remain unread. Original rooms/beds conflict held. Blank reporting form identifies administrative fields, but no completed operational returns, occupancy denominators or net-income data obtained. Retry unavailable policy documents 8 October; RES-009 continues independently.
+
+## Community tourism checkpoint · 1 October 2026
+
+Homestay provisional-certificate reports conflict 17/176; original event register and SBI terms missing. Operating outcomes remain unknown; RES-009 retry 8 October. RES-010 recovered Wildlife Odisha 2025 p. 135 programme series, allocation mechanism and participation. Debrigarh-only accounts, actual wages, fixed-site comparability and occupancy denominators remain missing. Reported non-Indian visitor decline retained; partial FY2025–26 not treated as full-year.
