@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `01b58698896c4333ffaed0476209ab32d6a88d58d4c14b2a052bc599a948b085`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d972a4ddddac9b03dc6408405317e2c0d189cd575db4b77c823b6bceebc356bb`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -137,7 +137,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-122 · Reversible Explore filters and result recovery | completed | published | Ahimanikya Satapathy | Published under UTP-REL-030. Keep real browser and assistive-technology verification open. | — |
 | UTP-WORK-123 · Odisha roots: rasagola and Bose’s Cuttack childhood | completed | published | Ahimanikya Satapathy | Published under UTP-REL-031. Retain original-document, specialist and browser follow-ups; no exclusive-origin verdict implied. | — |
 | UTP-WORK-124 · Illustrated Odisha Roots stories and journey integration | completed | published | Ahimanikya Satapathy | Published under UTP-REL-032. Retain original-document, specialist and browser follow-ups. | — |
-| UTP-WORK-125 · Visitor discovery and research integration review | in_progress | applied | Ahimanikya Satapathy | Approved PR 34 merged. Await explicit production-deployment confirmation requested after automatic review rejected dispatch. | — |
+| UTP-WORK-125 · Visitor discovery and research integration review | completed | published | Ahimanikya Satapathy | Published under UTP-REL-033. Retain browser, specialist and separate research integration follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -329,6 +329,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-128 · Approve and publish PR 32 illustrated Odisha Roots stories | approved | Ahimanikya Satapathy | Direct approval of PR 32 at fb2a16955ff3587bab9e1db37dceb805f59bf3a7 after review handoff, authorizing merge and publication. Search indexing remains disabled. |
 | UTP-DEC-129 · Prepare visitor discovery, research review and backlog batch | approved | Ahimanikya Satapathy | Prepare the proposed reviewable batch: research PR review, browser-audit retry, homepage discovery and backlog reconciliation. No research merge, indexing activation or publication in this scope. |
 | UTP-DEC-130 · Approve PR 34 visitor discovery and research review | approved | Ahimanikya Satapathy | Direct approval of PR 34 at c6c804f2aa206c749cfa00c61d6f382238d87da3 after review handoff. PR merged. Production dispatch was separately blocked by automatic approval review; explicit deployment confirmation requested. |
+| UTP-DEC-131 · Explicitly authorize PR 34 production deployment | approved | Ahimanikya Satapathy | Direct answer to “May I deploy it to utkalproject.org?” following PR 34 merge and automatic-review rejection. Explicit authorization to publish the reviewed website revision; indexing remains disabled. |
 
 ## Reviews
 
@@ -436,6 +437,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-102 | pass_with_limitations | False | Same assistant researched, wrote and checked this candidate; no independent historical or native-language review claimed.; GI Journal 116 p. 10 is the filed historical account. The cited original temple register, critical literary edition and earliest manuscript witness remain uninspected. No exclusive-origin verdict or precise invention date asserted.; Bose’s memoir is retrospective testimony read through a digital reproduction. School access and current museum operations remain unconfirmed.; Pahala/Salepur links come from a dated 2019 visit account; no current seller recommendation or food-service inspection.; New photographs are later documentary views with creator licences; none depicts an authenticated historical event.; Browser visual and native PDF checks remain open under the earlier browser security-policy limitation. Automated build checks do not establish rendered visual quality.; Publication verification establishes live HTTP/content/image delivery and portable exports from live data; it does not complete browser interaction or independent historical review. |
 | UTP-REV-103 | pass_with_limitations | False | Browser security-policy verification blocked navigation; actual visual, mobile/wide, keyboard and screen-reader checks remain open.; Research review sampled records and checked structure/integration; it does not independently verify every factual claim or clear publication rights.; Research PR conflicts remain for separate integration; no draft AGENTS rules adopted.; Founder approval of this exact candidate and publication is pending. |
 | UTP-REV-104 | pass_with_limitations | False | Deployment has not been dispatched; no live publication checks for this change.; Original visual and specialist limitations remain unchanged. |
+| UTP-REV-105 | pass_with_limitations | False | Actual browser visual, mobile/wide, keyboard and screen-reader checks remain open under the recorded browser security-policy failure. HTTP checks establish delivered markup and bytes, not visual quality.; Research PRs were reviewed at the exact revisions recorded in research-pr-review.json and remain separate integration work. No independent factual, language or specialist acceptance is claimed.; Original-document and local-condition follow-ups for published stories remain open. |
 
 ## Publication and application history
 
@@ -473,6 +475,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-030 · Reversible Explore filters published | published | https://utkalproject.org/ | UTP-DEC-124 |
 | UTP-REL-031 · Odisha roots in Rasagola and Bose stories published | published | https://utkalproject.org/ | UTP-DEC-126 |
 | UTP-REL-032 · Illustrated Rasagola and Bose childhood stories published | published | https://utkalproject.org/ | UTP-DEC-128 |
+| UTP-REL-033 · Illustrated homepage discovery and reading connections published | published | https://utkalproject.org/ | UTP-DEC-131 |
 
 ## Sources and assets
 
@@ -510,7 +513,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-134 | 2026-10-01T13:59:27.137226+00:00 | Prepared responsive Explore and onward-story images, completed coverage of 29 existing raster sources and named derivatives from actual encoded bytes. Preserved originals and credits. | Founder review; no deployment or indexing activation. |
 | UTP-EVT-135 | 2026-10-01T14:10:10.794355+00:00 | Founder-approved PR 29 published. Live checks passed for 67 pages and 82 responsive image files from 29 sources, including Explore and all four onward panels. Search indexing remains disabled. | Keep browser visual and measured performance review open; continue only within the next authorized scope. |
 | UTP-EVT-136 | 2026-10-01T14:18:32.123935+00:00 | Prepared reversible Explore choices, individual filter removal, contextual topic counts and composition-aware search; 365 full and 44 coastal tests pass. Candidate not published. | Founder reviews the candidate; browser and assistive-technology checks remain open. |
 | UTP-EVT-137 | 2026-10-01T15:26:47.881213+00:00 | Founder-approved PR 30 published. Live delivery checks cover all 67 pages, Explore controls and counts, and the search controller bytes. Search indexing remains disabled. | Keep native browser and assistive-technology review open; continue within the next authorized scope. |
@@ -520,6 +522,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-141 | 2026-10-01T16:26:51.073904+00:00 | Founder-approved PR 32 published. Live checks cover 69 pages, feature text and links, three image hashes and portable exports using live journey data. | Retain original-document, specialist and browser review requirements; await the next work scope. |
 | UTP-EVT-142 | 2026-10-01T16:48:51.874336+00:00 | Prepared shared illustrated homepage picks and reading connections, reviewed three research snapshots, and reconciled the visitor queue. Browser navigation remains blocked by policy verification. | Founder reviews candidate; resolve research integration and actual visual checks separately. |
 | UTP-EVT-143 | 2026-10-01T17:00:19.889928+00:00 | Founder-approved PR 34 merged; merged tree matches approved head and CI passed. Automatic approval review rejected production dispatch and explicit deployment confirmation is pending. | Obtain explicit deployment confirmation, then publish and verify the approved website. |
+| UTP-EVT-144 | 2026-10-01T17:11:18.004303+00:00 | Founder explicitly authorized deployment after the earlier automatic-review block. PR 34 content is published; all 69 live pages, homepage selection, cross-links, image hashes and indexing boundaries passed delivery checks. | Retain visual/specialist review and integrate research only through its separate review sequence. |
 
 ## Deferred extensions
 

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T17:00:19.889928+00:00",
+  "recorded_at": "2026-10-01T17:11:18.004303+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3682,25 +3682,29 @@
       "id": "UTP-WORK-125",
       "title": "Visitor discovery and research integration review",
       "category": "editorial_and_website",
-      "status": "in_progress",
-      "readiness": "applied",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-129",
-      "next_action": "Approved PR 34 merged. Await explicit production-deployment confirmation requested after automatic review rejected dispatch.",
+      "next_action": "Published under UTP-REL-033. Retain browser, specialist and separate research integration follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-129",
         "UTP-REV-103",
         "UTP-DEC-130",
-        "UTP-REV-104"
+        "UTP-REV-104",
+        "UTP-DEC-131",
+        "UTP-REV-105",
+        "UTP-REL-033"
       ],
       "evidence": [
         "records/visitor-research-review.json",
-        "records/visitor-research-merge.json"
+        "records/visitor-research-merge.json",
+        "records/visitor-research-publication.json"
       ]
     }
   ],
@@ -6312,6 +6316,27 @@
       "evidence": [
         "records/visitor-research-merge.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-131",
+      "title": "Explicitly authorize PR 34 production deployment",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "yes",
+      "scope": "Direct answer to “May I deploy it to utkalproject.org?” following PR 34 merge and automatic-review rejection. Explicit authorization to publish the reviewed website revision; indexing remains disabled.",
+      "recorded_at": "2026-10-01T17:11:18.004303+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-130",
+        "UTP-WORK-125",
+        "UTP-REV-104"
+      ],
+      "evidence": [
+        "records/visitor-research-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -8803,6 +8828,28 @@
       "evidence": [
         "records/visitor-research-merge.json"
       ]
+    },
+    {
+      "id": "UTP-REV-105",
+      "title": "Visitor discovery publication verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Actual browser visual, mobile/wide, keyboard and screen-reader checks remain open under the recorded browser security-policy failure. HTTP checks establish delivered markup and bytes, not visual quality.",
+        "Research PRs were reviewed at the exact revisions recorded in research-pr-review.json and remain separate integration work. No independent factual, language or specialist acceptance is claimed.",
+        "Original-document and local-condition follow-ups for published stories remain open."
+      ],
+      "refs": [
+        "UTP-DEC-131",
+        "UTP-WORK-125"
+      ],
+      "evidence": [
+        "records/visitor-research-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -9370,6 +9417,22 @@
         "records/odisha-roots-features-publication.json"
       ],
       "note": "Approved PR 32 published and live delivery checked. Search remains disabled; specialist and visual follow-ups preserved."
+    },
+    {
+      "id": "UTP-REL-033",
+      "title": "Illustrated homepage discovery and reading connections published",
+      "status": "published",
+      "authorization": "UTP-DEC-131",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-131",
+        "UTP-REV-105",
+        "UTP-WORK-125"
+      ],
+      "evidence": [
+        "records/visitor-research-publication.json"
+      ],
+      "note": "Explicitly approved deployment of PR 34. Live delivery verified; indexing remains disabled and outstanding reviews retained."
     }
   ],
   "sources": [
