@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-01T22:18:16.476238+00:00",
+  "updated_at": "2026-10-01T22:40:02.923935+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -417,10 +417,71 @@
         "locator": "p.32 / PDF32"
       }
     ],
-    "media_playback_verified": false,
+    "media_playback_verified": true,
     "media_reuse_rights": null,
     "current_bookings_verified": false,
     "earnings_or_exports": null,
-    "next_step": "Verify credited Odia recordings by Chaurasia; retrieve additional archival origin evidence and review representative regional performance recordings without inferring reuse rights."
-  }
+    "next_step": "Bounded initial deliverable complete; retain original chronology, discography/ISRC, individual performer and rights gaps for next-cycle research.",
+    "media_playback_scope": "One first-song chapter and one register-linked regional clip sampled muted; not all four dance traditions, audible listening, rights or worldwide availability.",
+    "completion_at": "2026-10-01T22:40:02.923935+00:00"
+  },
+  "media_checks": [
+    {
+      "url": "https://www.youtube.com/watch?v=75AQNxffwqA",
+      "source_id": "music-gapa-label",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "outcome": "available_muted_sample",
+      "player_positions": [
+        "00:05 / 13:15",
+        "00:07 / 13:15",
+        "00:25 / 13:15 paused"
+      ],
+      "scope": "First chapter only; no audible review, media download or public reuse rights."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1-krCpUX6TE",
+      "source_id": "dance-red-lotus2017",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "outcome": "available_muted_sample_attribution_still_register_based",
+      "player_positions": [
+        "00:00 / 11:02 initial",
+        "00:03 / 11:01",
+        "00:39 / 11:01 paused"
+      ],
+      "duration_note": "Player displayed an initial11:02 then settled11:01; no canonical duration metric imported.",
+      "uploader": "Red Lotus Events",
+      "uploader_credits": null,
+      "register_source_id": "dance-folk-panel2024",
+      "scope": "No complete performance or individual-identity review."
+    }
+  ],
+  "catalogue_scope_issues": [
+    {
+      "field": "gapa_helebisata_edition",
+      "source_ids": [
+        "music-gapa-label",
+        "music-gapa-apple"
+      ],
+      "status": "distinct_container_scopes_preserved",
+      "accounts": [
+        "Label video:3 named song chapters, upload1November2023",
+        "Apple catalogue:2 songs, displayed16July1976, phonogram2017",
+        "Amazon indexed result:3 songs, displayed31December1976; direct page unavailable, lead only"
+      ],
+      "resolution": "Do not sum track counts across containers or choose an original release date from these metadata. Same label/distribution family is not independent historical corroboration."
+    }
+  ],
+  "odisha_music_events": [
+    {
+      "person_id": "people/hariprasad-chaurasia",
+      "title": "Hari Rang Hari Sang",
+      "period": "2015-02",
+      "geography": "Rabindra Mandap, Bhubaneswar, Odisha",
+      "source_id": "music-gurukul-events",
+      "locator": "2015 timeline entry",
+      "evidence_class": "institutional_retrospective",
+      "attendance": null,
+      "income": null
+    }
+  ]
 }

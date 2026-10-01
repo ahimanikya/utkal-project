@@ -4487,7 +4487,15 @@
     "capture_method": "direct_html",
     "locator": "2010 and 2020 entries",
     "capture_note": "Institutional chronology of Bhubaneswar opening. Does not establish current courses, fees, enrolment or media rights.",
-    "evidence_class": "institutional_history"
+    "evidence_class": "institutional_history",
+    "capture_history": [
+      {
+        "at": "2026-10-01T22:40:02.923935+00:00",
+        "method": "direct_web_text",
+        "locator": "2015 timeline entry",
+        "scope": "Hari Rang Hari Sang, Rabindra Mandap, Bhubaneswar, February2015, with Hariprasad Chaurasia; institutional retrospective, no recording or attendance verification."
+      }
+    ]
   },
   "faith-kantilo-district": {
     "id": "faith-kantilo-district",
@@ -5118,5 +5126,49 @@
     "locator": "Author, imprint, publication month, hardback ISBN and length",
     "capture_method": "web_full_text",
     "capture_note": "Publisher record for Sathya Saran biography. Metadata and description inspected, not full book; cannot resolve AIR service dates or individual Odia recording credits."
+  },
+  "music-chaurasia-cinemaazi": {
+    "id": "music-chaurasia-cinemaazi",
+    "title": "Pandit Hariprasad Chaurasia: music director",
+    "resource": "https://cinemaazi.com/people/pandit-hariprasad-chaurasia-1",
+    "publisher": "Cinemaazi / Indian Cinema Heritage Foundation",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "locator": "Biography paragraphs identifying the Bhuban-Hari partnership",
+    "capture_method": "web_returned_text",
+    "capture_note": "Institutional secondary synthesis identifies Bhuban-Hari as Bhubaneswar Mishra and Hariprasad Chaurasia. Not an original session sheet; page cites artist website now redirecting to Gurukul. Web text contains a subscription notice; only returned extract used, no subscription bypass. Samaya chronology and broad popularity statements not adopted."
+  },
+  "music-gapa-apple": {
+    "id": "music-gapa-apple",
+    "title": "Gapa Helebi Sata (Original Motion Picture Soundtrack) — Single",
+    "resource": "https://music.apple.com/us/album/gapa-helebi-sata-original-motion-picture-soundtrack/1370043900",
+    "publisher": "Apple Music; Saregama label metadata",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "locator": "Album heading, release line and record label",
+    "capture_method": "web_returned_text",
+    "capture_note": "Catalogue presents two songs, July16,1976 and phonogram year2017. Preserve as one catalogue edition, not an original-release certificate. Label video has three song chapters; editions/containers differ and are not independent historical corroboration."
+  },
+  "music-gapa-label": {
+    "id": "music-gapa-label",
+    "title": "Gapa Helebi Sata: three-song Saregama Odia upload",
+    "resource": "https://www.youtube.com/watch?v=75AQNxffwqA",
+    "publisher": "Saregama Odia / Saregama India Ltd",
+    "published_on": "2023-11-01",
+    "accessed_on": "2026-10-01",
+    "locator": "Expanded description, Credits; chapters at00:05,03:16,06:35",
+    "capture_method": "browser_rendered_text_and_player_state",
+    "capture_note": "First-party label credits directly read in browser. Muted player progressed from00:05 to00:07 to00:25; only first song sampled, no complete or audible review. Upload date is not original recording or film-release date."
+  },
+  "dance-red-lotus2017": {
+    "id": "dance-red-lotus2017",
+    "title": "TRIBAL INDIA 2017 @ Red Lotus Events ®",
+    "resource": "https://www.youtube.com/watch?v=1-krCpUX6TE",
+    "publisher": "Red Lotus Events",
+    "published_on": "2017-07-21",
+    "accessed_on": "2026-10-01",
+    "locator": "YouTube title, expanded description and displayed streamed-live date",
+    "capture_method": "browser_rendered_text_and_player_state",
+    "capture_note": "Government panel links this URL as Dalkhai under PRATIVA; uploader page itself gives no description or performer credits. Muted player progressed00:00→00:03→00:39, not a full or audible performance review. Artist identity and dance classification still rely on the register."
   }
 }

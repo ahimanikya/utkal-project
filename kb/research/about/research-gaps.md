@@ -286,3 +286,7 @@ General haustorium development is now sourced from primary research. Matching th
 ## Dance and music checkpoint · 1 October 2026
 
 RES-044 now has attributed origin layers, four regional traditions with named programme/register credits and an English Chaurasia biography route. Original Odia recording credits, founding documents, representative playback, rights, current teaching and practitioner earnings remain open. Ghumura training interruption is a retained lead needing primary follow-up.
+
+## Music credits and access milestone · 1 October 2026
+
+RES-044’s bounded deliverable is complete. Original AIR and Jayantika dates, original recording/session documents, ISRCs, full discography, regional-video performer identities and rights remain open. The Dalkhai link plays but uploader credits are absent; retain register attribution. Different Gapa Helebi Sata catalogue dates and track counts cannot certify original release.

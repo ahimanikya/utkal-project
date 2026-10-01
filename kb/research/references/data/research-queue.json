@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T22:18:16.476238+00:00",
+  "updated_at": "2026-10-01T22:40:02.923935+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1956,11 +1956,11 @@
       "title": "Dance origins, practitioners and Odisha music connections",
       "done_when": "Extend Odissi origins with distinct Mahari, Gotipua, theatre and revival evidence; document Chaurasia’s Odisha work and four other dance traditions with credited practitioners or works. Preserve unresolved dates and legal media access.",
       "target": "culture/odissi.md",
-      "status": "in_progress",
-      "attempts": 2,
+      "status": "completed",
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T22:18:16.476238+00:00",
-      "next_step": "Verify credited Odia recordings by Chaurasia; retrieve additional archival origin evidence and review representative regional performance recordings without inferring reuse rights.",
+      "last_worked_at": "2026-10-01T22:40:02.923935+00:00",
+      "next_step": "Bounded initial deliverable complete; retain original chronology, discography/ISRC, individual performer and rights gaps for next-cycle research.",
       "evidence_outputs": [
         "culture/odissi.md",
         "references/data/culture-learning.json",
@@ -1975,7 +1975,14 @@
         "culture/ghumura.md",
         "culture/ranapa.md",
         "culture/dance-and-music-connections.md",
-        "people/hariprasad-chaurasia.md"
+        "people/hariprasad-chaurasia.md",
+        "sources/music-gapa-label.md",
+        "sources/music-chaurasia-cinemaazi.md",
+        "sources/dance-red-lotus2017.md",
+        "sources/music-gapa-apple.md",
+        "works/e-banara-chai-gapa-label.md",
+        "works/jaya-jadu-nandan-gapa-label.md",
+        "works/saathi-re-jaa-kahi-gapa-label.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1992,6 +1999,12 @@
           "outcome": "origins_regional_practitioner_and_reading_route_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Original Chaurasia Odia recording credits and representative performance access checks remain open."
+        },
+        {
+          "run_id": "2026-10-01-music-credits",
+          "at": "2026-10-01T22:40:02.923935+00:00",
+          "outcome": "bounded_deliverable_completed_with_preserved_gaps",
+          "completion_criteria_met": true
         }
       ],
       "reuse_before_research": {
@@ -2001,13 +2014,23 @@
           "people/hariprasad-chaurasia.md",
           "references/data/people-creations.json",
           "culture/dance-and-music-connections.md",
-          "references/data/culture-learning.json"
+          "references/data/culture-learning.json",
+          "works/e-banara-chai-gapa-label.md",
+          "works/jaya-jadu-nandan-gapa-label.md",
+          "works/saathi-re-jaa-kahi-gapa-label.md"
         ],
         "project_records": [
           "kb/research/destinations/northern-details.json"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-01T22:40:02.923935+00:00",
+      "completion_evidence": {
+        "origins": "Existing Mahari/Gotipua practitioner accounts, Srjan theatre chronology and Raut revival interview",
+        "odisha_music_work": "AIR Cuttack, Bhubaneswar teaching/event and three label chapters joined to attributed duo identity",
+        "four_other_traditions": "Chhau, Dalkhai, Ghumura, Ranapa pages with named programme/register credits",
+        "dates_and_media": "Conflicts, original dates, limited playback and unknown rights preserved; no claim of full discography or independently reviewed history"
       }
     },
     {

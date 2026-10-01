@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T22:18:16.476238+00:00",
+  "updated_at": "2026-10-01T22:40:02.923935+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4668,6 +4668,78 @@
       "status": "discovery_only",
       "scope": "Indexed press lead about training interruption; primary current operating evidence needed. Not asserted as current status.",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "music-gapa-label",
+      "discovery_url": "https://www.youtube.com/watch?v=75AQNxffwqA",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "First-party label credits directly read in browser. Muted player progressed from00:05 to00:07 to00:25; only first song sampled, no complete or audible review. Upload date is not original recording or film-release date.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-chaurasia-cinemaazi",
+      "discovery_url": "https://cinemaazi.com/people/pandit-hariprasad-chaurasia-1",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "Institutional secondary synthesis identifies Bhuban-Hari as Bhubaneswar Mishra and Hariprasad Chaurasia. Not an original session sheet; page cites artist website now redirecting to Gurukul. Web text contains a subscription notice; only returned extract used, no subscription bypass. Samaya chronology and broad popularity statements not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-red-lotus2017",
+      "discovery_url": "https://www.youtube.com/watch?v=1-krCpUX6TE",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "Government panel links this URL as Dalkhai under PRATIVA; uploader page itself gives no description or performer credits. Muted player progressed00:00→00:03→00:39, not a full or audible performance review. Artist identity and dance classification still rely on the register.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-gapa-apple",
+      "discovery_url": "https://music.apple.com/us/album/gapa-helebi-sata-original-motion-picture-soundtrack/1370043900",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "Catalogue presents two songs, July16,1976 and phonogram year2017. Preserve as one catalogue edition, not an original-release certificate. Label video has three song chapters; editions/containers differ and are not independent historical corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://music.amazon.com/albums/B0756988KH",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "unavailable",
+      "scope": "Indexed metadata only; direct open failed. Exact date not adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://cinemaazi.com/public/people/pandit-hariprasad-chaurasia-1",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "unavailable",
+      "scope": "Public-prefixed route failed; canonical people route returned extract with subscription notice. No paywall bypass.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.youtube.com/watch?v=75AQNxffwqA",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "recovered_in_browser",
+      "scope": "Web fetch failed; browser recovered label description and limited muted playback.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.youtube.com/watch?v=1-krCpUX6TE",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "recovered_in_browser",
+      "scope": "Web fetch failed; browser recovered page and limited muted playback.",
+      "retry_after": null
     }
   ]
 }

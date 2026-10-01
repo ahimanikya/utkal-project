@@ -37,3 +37,7 @@ Current performances, teaching availability, practitioner earnings and media rig
 [Related reading](ranapa.md) — Connects Ganjam performance culture to a dated national-festival record.
 
 [Related reading](../people/hariprasad-chaurasia.md) — Connects Odisha career and teaching evidence to an English reading route.
+
+## Listen with the credits in view
+
+[Chaurasia’s Odia film-music chapter](../people/hariprasad-chaurasia.md) now links three Saregama song chapters and separates singer, lyricist and joint music-director roles. [Dalkhai’s viewing note](dalkhai.md) records a playable register-linked clip while retaining its missing uploader credits. Availability checks are dated and do not grant reuse rights.

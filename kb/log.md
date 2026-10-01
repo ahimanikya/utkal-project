@@ -211,3 +211,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Dance and music connections
 
 [Research receipt](records/dance-music-2026-10-01.json): Existing dance and music records expanded; regional forms linked to credited practitioners and programmes. No website release.
+
+## 1 October 2026 · Odia music credits
+
+[Research receipt](records/music-credits-2026-10-01.json): Three credited Odia songs linked to Chaurasia; scoped media checks and unresolved edition dates preserved. No website release.

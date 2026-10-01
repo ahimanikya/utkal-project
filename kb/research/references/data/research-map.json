@@ -16226,6 +16226,123 @@
         "music-breath-gold-publisher"
       ],
       "added_at": "2026-10-01T22:18:16.476238+00:00"
+    },
+    {
+      "id": "sources/music-gapa-label",
+      "title": "Gapa Helebi Sata: three-song Saregama Odia upload",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/music-gapa-label.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "music-gapa-label"
+      ],
+      "added_at": "2026-10-01T22:40:02.923935+00:00"
+    },
+    {
+      "id": "sources/music-chaurasia-cinemaazi",
+      "title": "Pandit Hariprasad Chaurasia: music director",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/music-chaurasia-cinemaazi.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "music-chaurasia-cinemaazi"
+      ],
+      "added_at": "2026-10-01T22:40:02.923935+00:00"
+    },
+    {
+      "id": "sources/dance-red-lotus2017",
+      "title": "TRIBAL INDIA 2017 @ Red Lotus Events ®",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/dance-red-lotus2017.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "dance-red-lotus2017"
+      ],
+      "added_at": "2026-10-01T22:40:02.923935+00:00"
+    },
+    {
+      "id": "sources/music-gapa-apple",
+      "title": "Gapa Helebi Sata (Original Motion Picture Soundtrack) — Single",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/music-gapa-apple.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "music-gapa-apple"
+      ],
+      "added_at": "2026-10-01T22:40:02.923935+00:00"
+    },
+    {
+      "id": "works/e-banara-chai-gapa-label",
+      "title": "E Banara Chai — Saregama label chapter",
+      "kind": "Work",
+      "layer": "research_concept",
+      "source_path": "works/e-banara-chai-gapa-label.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "music-gapa-label",
+        "music-chaurasia-cinemaazi"
+      ],
+      "added_at": "2026-10-01T22:40:02.923935+00:00"
+    },
+    {
+      "id": "works/jaya-jadu-nandan-gapa-label",
+      "title": "Jaya Jadu Nandan — Saregama label chapter",
+      "kind": "Work",
+      "layer": "research_concept",
+      "source_path": "works/jaya-jadu-nandan-gapa-label.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "music-gapa-label",
+        "music-chaurasia-cinemaazi"
+      ],
+      "added_at": "2026-10-01T22:40:02.923935+00:00"
+    },
+    {
+      "id": "works/saathi-re-jaa-kahi-gapa-label",
+      "title": "Saathi Re Jaa Kahi — Saregama label chapter",
+      "kind": "Work",
+      "layer": "research_concept",
+      "source_path": "works/saathi-re-jaa-kahi-gapa-label.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "music-gapa-label",
+        "music-chaurasia-cinemaazi"
+      ],
+      "added_at": "2026-10-01T22:40:02.923935+00:00"
     }
   ],
   "shared_publications": [
@@ -17140,7 +17257,10 @@
         "people/hariprasad-chaurasia.md",
         "references/data/people-creations.json",
         "culture/dance-and-music-connections.md",
-        "references/data/culture-learning.json"
+        "references/data/culture-learning.json",
+        "works/e-banara-chai-gapa-label.md",
+        "works/jaya-jadu-nandan-gapa-label.md",
+        "works/saathi-re-jaa-kahi-gapa-label.md"
       ],
       "project_records": [
         "kb/research/destinations/northern-details.json"
@@ -17485,8 +17605,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1120,
-    "updated_at": "2026-10-01T22:18:16.476238+00:00",
+    "records_mapped": 1127,
+    "updated_at": "2026-10-01T22:40:02.923935+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17917,6 +18037,11 @@
       "run_id": "2026-10-01-dance-music",
       "at": "2026-10-01T22:18:16.476238+00:00",
       "scope": "Existing Odissi, Kelucharan, Chaurasia and Chhau reused; three regional forms and one connected collection added. Existing folk source reused; no duplicate programme or person biographies."
+    },
+    {
+      "run_id": "2026-10-01-music-credits",
+      "at": "2026-10-01T22:40:02.923935+00:00",
+      "scope": "Three new song identities after source/project searches; one shared label upload and its distribution metadata are one evidential family. Existing Chaurasia and Dalkhai records enhanced."
     }
   ]
 }
