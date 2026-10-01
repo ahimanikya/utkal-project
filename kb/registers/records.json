@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T06:14:03.361187+00:00",
+  "recorded_at": "2026-10-01T06:23:42.743214+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3112,21 +3112,25 @@
       "title": "Cuttack collection: fort, craft, food, museum, base and journey",
       "category": "website_editorial",
       "status": "awaiting_review",
-      "readiness": "reviewed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-100",
-      "next_action": "Founder reviews the candidate and PR before merge/publication; local and specialist verification gaps remain recorded.",
-      "blockers": [],
+      "next_action": "Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live.",
+      "blockers": [
+        "Deployment dispatch rejected pending explicit publication approval."
+      ],
       "refs": [
         "UTP-DEC-100",
-        "UTP-REV-075"
+        "UTP-REV-075",
+        "UTP-DEC-101"
       ],
       "evidence": [
-        "records/cuttack-release-review.json"
+        "records/cuttack-release-review.json",
+        "records/cuttack-culture-merge.json"
       ]
     },
     {
@@ -3134,21 +3138,25 @@
       "title": "Odia language, literature and six literary lives",
       "category": "website_editorial",
       "status": "awaiting_review",
-      "readiness": "reviewed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-100",
-      "next_action": "Founder reviews the candidate and PR before merge/publication; local and specialist verification gaps remain recorded.",
-      "blockers": [],
+      "next_action": "Merged after Founder approval. Await explicit publication confirmation required by automatic approval review; then deploy and verify live.",
+      "blockers": [
+        "Deployment dispatch rejected pending explicit publication approval."
+      ],
       "refs": [
         "UTP-DEC-100",
-        "UTP-REV-076"
+        "UTP-REV-076",
+        "UTP-DEC-101"
       ],
       "evidence": [
-        "records/odia-literature-release-review.json"
+        "records/odia-literature-release-review.json",
+        "records/cuttack-culture-merge.json"
       ]
     }
   ],
@@ -5160,6 +5168,28 @@
       "evidence": [
         "records/cuttack-release-review.json",
         "records/odia-literature-release-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-101",
+      "title": "Approve and merge the Cuttack and literary collection",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Approve the reviewed PR 17 candidate and merge. Public deployment is awaiting separate explicit confirmation following automatic approval review rejection.",
+      "recorded_at": "2026-10-01T06:23:42.743214+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-110",
+        "UTP-WORK-111",
+        "UTP-REV-075",
+        "UTP-REV-076"
+      ],
+      "evidence": [
+        "records/cuttack-culture-merge.json"
       ]
     }
   ],

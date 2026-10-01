@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-01T06:23:42.743214+00:00",
+  "status": "merged_not_deployed",
+  "authorization": "UTP-DEC-101",
+  "quote": "Approved",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/17",
+  "reviewed_head": "34671b9d9bda779f91f64b6c644e78f7a5bbcac9",
+  "validation": "https://github.com/ahimanikya/utkal-project/actions/runs/36824003098",
+  "validation_status": "success",
+  "merge_commit": "1cb57bda76e3979b191c51d2bdfef43e68960389",
+  "merged_at": "2026-10-01T06:21:35Z",
+  "deployment": {
+    "status": "not_started",
+    "reason": "Automatic approval review rejected public deployment as a separate consequential action; the word Approved was not accepted as explicit authorization to set publish_approved.",
+    "confirmation": "pending",
+    "user_question": "May I publish the merged PR 17 collection to utkalproject.org?"
+  },
+  "next_action": "Wait for explicit publication confirmation, then use the existing workflow and verify the live collection."
+}
