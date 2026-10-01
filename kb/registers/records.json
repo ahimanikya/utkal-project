@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T12:23:45.213530+00:00",
+  "recorded_at": "2026-10-01T12:40:52.812732+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3518,6 +3518,28 @@
         "records/public-launch-readiness-review.json",
         "records/public-launch-readiness-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-119",
+      "title": "First-edition editorial and reader-flow review",
+      "category": "website_experience",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-117",
+      "next_action": "Founder reviews the candidate; browser, language and local-condition checks remain open. Search activation requires a separate exact-scope decision.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-117",
+        "UTP-REV-091"
+      ],
+      "evidence": [
+        "records/first-edition-editorial-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -5853,6 +5875,23 @@
       "evidence": [
         "records/public-launch-readiness-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-117",
+      "title": "Continue first-edition editorial and usability review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "continue",
+      "scope": "Prepare the next bounded review batch after PR 26 publication. No search activation or publication of the new candidate.",
+      "recorded_at": "2026-10-01T12:40:52.812732+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "records/first-edition-editorial-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8007,6 +8046,31 @@
       ],
       "evidence": [
         "records/public-launch-readiness-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-091",
+      "title": "First-edition source and publication-build checks",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Review and implementation by the same AI assistant; not independent editorial approval.",
+        "Eleven pages reviewed through their source templates/content and generated checks; external references are scoped spot-checks, not verification of every claim.",
+        "Browser security-policy verification unavailable; rendered layout, keyboard interaction, zoom and device review remain open. No alternate browser used to bypass the control.",
+        "No local visit, provider contact, booking, price or live operating conditions verified.",
+        "Odia transcription, scanned edition and translation review remain open.",
+        "Search selection remains proposed, normal publication remains noindex, and nothing in this candidate authorizes search activation or deployment."
+      ],
+      "refs": [
+        "UTP-DEC-117",
+        "UTP-WORK-119"
+      ],
+      "evidence": [
+        "records/first-edition-editorial-review.json"
       ]
     }
   ],

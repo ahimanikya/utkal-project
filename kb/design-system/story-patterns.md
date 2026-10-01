@@ -192,3 +192,12 @@ Import previews should name the destination and explain which fields travel. Kee
 Keep shared-copy privacy adjacent to export scope. Explain that public questions can remain while personal reminder wording and ticks are excluded. Test expanded controls at real layout widths, and align the review frame before capturing evidence.
 
 [Preparation delivery and limitations](../research/product/ready-216.md). These are UTP adaptations over rc.5; no shared package release is implied.
+
+
+## Keep preparation before the onward invitation
+
+Place current-arrangement notes inside the guide’s reading width, alongside the planning material and before the personal notebook, onward invitation and credits. Avoid adding destination-specific material after the entire page through the global layout: that breaks the ending and can introduce a second width constraint. Render each note only once on its intended routes.
+
+For a getting-started guide, keep the first action and consequential limits visible: browser-only storage, backing up and private notes in shared books. Put detailed editing and import semantics in labelled native disclosures. The short reading path should still explain how to begin and what to preserve.
+
+This lesson follows the [first-edition editorial review](../records/first-edition-editorial-review.json). Source/build review only; rendered browser checks remain open. No shared package version change.

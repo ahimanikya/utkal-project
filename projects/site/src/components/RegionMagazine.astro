@@ -1,4 +1,5 @@
 ---
+import VisitReadiness from './VisitReadiness.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import MagazineContents from './MagazineContents.astro';
 import VisitNotebook from './VisitNotebook.astro';
@@ -41,6 +42,7 @@ const further=connections.links.filter(link=>allowsPage(link.to)&&link.from===`/
   {other.length>0&&<section id="make-it-yours" class="region-own-pace"><div><p class="eyebrow">03 · Make it yours</p><h2>A meal. A meeting.<br/><em>A little breathing room.</em></h2><p>Save the ideas that fit your interests. Choose the pace and the arrangements yourself.</p></div><div>{other.map(i=><article id={i.id.replaceAll(':','-')}><p class="eyebrow">{i.kind}</p><h3>{i.title}</h3><p>{i.summary}</p><p class="region-suggestion">{i.tip}</p>{i.link&&allowsPage(i.link.href)&&<a class="mag-detail-link" href={i.link.href}>{i.link.title} →</a>}<SaveJourney id={i.id} quiet/></article>)}</div></section>
   }
   {r.sections.filter(s=>s.id!=='stories').map(s=><section id={s.id} class="mag-reading-section"><div><p class="eyebrow">04 · Before you go</p><h2>{s.title}</h2></div><div>{s.paragraphs.map(p=><p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}{s.id==='before-you-go'&&r.visitor_notes?.map(note=><div class="region-visitor-note" data-source-ids={note.source_ids.join(' ')}><h3>{note.heading}</h3><p>{note.text}</p></div>)}</div></section>)}
+   <VisitReadiness/>
   <section id="at-a-glance" class="region-facts" aria-label="At a glance">{r.facts.map(f=><div><p class="eyebrow">{f.label}</p><p>{f.text}</p></div>)}</section>
   {!isCoastalEdition&&cultureTrails.trails.some(t=>t.show_on.includes(`/destinations/${r.slug}/`))&&<details class="mag-disclosure"><summary>Languages, literature and connected stories</summary><CultureConnections path={`/destinations/${r.slug}/`}/></details>}
   <VisitNotebook/>

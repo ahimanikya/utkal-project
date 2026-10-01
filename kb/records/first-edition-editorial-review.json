@@ -1,0 +1,139 @@
+{
+  "recorded_at": "2026-10-01T12:40:52.812732+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-117",
+  "base_commit": "bc995f48636da0fc7f33cabad56cd352094d1ecd",
+  "scope": "First-edition editorial source review and three bounded reader-flow/citation fixes.",
+  "changes": [
+    "Nine practical notes moved inside guide content, before personal notebook, onward invitation and end credits; removed global post-page injection.",
+    "Getting-started guide uses shorter visible introductions and native disclosures for editing and export details; consequential storage/privacy limits stay visible.",
+    "Replaced broken Chilika literary reference with direct Radhanath transcription; separated the Gopabandhu citation; updated the connected research reading trail.",
+    "Recorded reusable placement and progressive-disclosure lesson in the design system."
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "observations": "Project introduction, explicit concept-illustration label, five-story starting point and personal research framing retained.",
+      "remaining": "Founder choice of introductory voice; browser presentation review.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/about/",
+      "observations": "Audience, evidence/recollection distinction and commercial editorial independence reviewed in source.",
+      "remaining": "Founder factual/editorial sign-off; no independent organizational audit.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/founder/",
+      "observations": "Founder-provided name, title and purpose retained; no added credentials or endorsements.",
+      "remaining": "Founder review of the personal account.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/how-to-use/",
+      "observations": "Short first steps now precede detailed editing/export disclosures. Storage, backup, private-note and booking limits remain visible. Privacy controls retained.",
+      "remaining": "Rendered expansion and keyboard checks remain open.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/destinations/bhubaneswar/",
+      "observations": "Coastal-specific copy separates February 2009 photographic memories from a present-day mural route. Sources and credit section retained.",
+      "remaining": "Local access/season confirmation and complete external claim recheck remain open.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/visit/places/dhauli/",
+      "observations": "1972 stupa and older inscriptions remain distinct; river story is labelled legend. Practical note moved before notebook/onward. Official tourism stupa account checked.",
+      "remaining": "Current show/access details and independent inscription review remain open.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/knowledge/konark/",
+      "observations": "UNESCO core history and 24 wheels spot-checked; legend stays labelled. Practical note now accompanies planning.",
+      "remaining": "Programme/entry confirmation, literary review and browser layout checks remain open.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/destinations/puri/",
+      "observations": "Temple/food/shore framing and visitor questions reviewed in source; note moved before notebook/onward.",
+      "remaining": "Temple access and beach conditions require local confirmation; sources not exhaustively rechecked this pass.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/visit/places/raghurajpur/",
+      "observations": "Craft and Gotipua context spot-checked against district page. Demonstration, photo permission and return questions remain editorial guidance. Note moved before onward.",
+      "remaining": "Maker invitations, performances, facilities and full art-history review remain open.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/knowledge/chilika/",
+      "observations": "Broken literary citation replaced by the Radhanath poem transcription; Gopabandhu uses its own existing source. Practical note follows planning.",
+      "remaining": "Scanned-edition and fluent Odia/translation review remain open; no field confirmation or guaranteed wildlife.",
+      "search_status": "proposed_not_approved"
+    },
+    {
+      "route": "/stories/bhubaneswar-fresco/",
+      "observations": "February 2009 archive and editorial captions remain explicit; artists/current mural condition remain unverified. Source adapter and collection metadata reviewed.",
+      "remaining": "Interactive gallery/browser checks and artist identification remain open.",
+      "search_status": "proposed_not_approved"
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/experience/activities/boat-riding/chilika-nature-camps.html",
+      "finding": "Retrieved body displays 404 Page; do not infer validity from its tourism page title. Removed from the three live KB narrative/trail records that used it for literary claims."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html",
+      "finding": "Working nature-camp account lists accommodation leads. It does not support the previous specific literary claim, so it was not substituted as poetry evidence."
+    },
+    {
+      "url": "https://or.wikisource.org/wiki/କବିତାବଳୀ/ଚିଲିକା",
+      "finding": "Title, Radhanath attribution and opening lagoon imagery inspected in transcription. Direct reading link only; no new excerpt, translation or critical-edition certification."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/246/",
+      "finding": "Detailed heritage statement supports 13th-century Narasimha Deva I context and 24 wheels. Short description differs from detailed text on horse count; no new count introduced."
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/raghurajpur",
+      "finding": "Published craft-community and Gotipua context read. No operating arrangements inferred."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html",
+      "finding": "1972 stupa and show/festival context read. Undated show timings not adopted as current promises."
+    }
+  ],
+  "verification": {
+    "full_site_tests": 346,
+    "coastal_tests": 39,
+    "page_acceptance": "268 of 268 checks passed across 67 routes",
+    "practical_note_coverage": "All nine intended routes have exactly one note before any notebook/onward/credits; all other published routes have none.",
+    "search": "67 default/candidate comparisons and 11 sitemap URLs passed; normal output remains noindex",
+    "scope": "Source/build evidence; browser presentation unverified"
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Review and implementation by the same AI assistant; not independent editorial approval.",
+    "Eleven pages reviewed through their source templates/content and generated checks; external references are scoped spot-checks, not verification of every claim.",
+    "Browser security-policy verification unavailable; rendered layout, keyboard interaction, zoom and device review remain open. No alternate browser used to bypass the control.",
+    "No local visit, provider contact, booking, price or live operating conditions verified.",
+    "Odia transcription, scanned edition and translation review remain open.",
+    "Search selection remains proposed, normal publication remains noindex, and nothing in this candidate authorizes search activation or deployment."
+  ],
+  "evidence": [
+    "records/evidence/first-edition-editorial/page-acceptance.json",
+    "records/evidence/first-edition-editorial/discovery-review.json",
+    "records/evidence/first-edition-editorial/site-tests.txt",
+    "records/evidence/first-edition-editorial/edition-tests.txt"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated"
+  }
+}
