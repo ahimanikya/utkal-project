@@ -1,0 +1,106 @@
+- dialog "Web stream details":
+  - button "Close web stream details" [active]:
+    - img: close
+  - heading "Web stream details" [level=1]
+  - button "More actions":
+    - img: more_vert
+  - separator
+  - img: warning_amber
+  - generic: Caution
+  - generic: Data collection isn't active for your website. If you installed tags more than 48 hours ago, make sure they are set up correctly.
+  - button "View tag instructions":
+    - generic: View tag instructions
+  - heading "Stream details" [level=2]
+  - button "Edit web stream settings":
+    - img: edit
+  - generic: Stream Name
+  - generic: Utkal Project website
+  - generic: Stream URL
+  - generic: https://utkalproject.org
+  - generic: Stream ID
+  - generic: "15900246803"
+  - generic: Measurement Id
+  - text: G-9WJHZGN1EM
+  - button "Copy Measurement ID":
+    - img: content_copy
+  - heading "Events" [level=2]
+  - img "Enhanced Measurement icon"
+  - generic: Enhanced measurement
+  - generic: Automatically measure interactions and content on your sites in addition to standard page view measurement.
+  - text: Data from on-page elements such as links and embedded videos may be collected with relevant events. You must ensure that no personally-identifiable information will be sent to Google.
+  - link "Learn more about enhanced measurement":
+    - /url: https://support.google.com/analytics/answer/9216061?hl=en_US&utm_id=ad
+    - text: Learn more
+  - switch "Enable enhanced measurement":
+  - separator
+  - generic: "Measuring:"
+  - list "Active enhanced measurements":
+    - img: remove_red_eye
+    - text: Page views
+  - button "Modify events Modify incoming events and parameters. Learn more about modifying existing events. Open":
+    - img: touch_app
+    - generic: Modify events
+    - text: Modify incoming events and parameters.
+    - link "Learn more about modifying existing events.":
+      - /url: https://support.google.com/analytics/answer/10085872?hl=en_US&utm_id=ad
+      - text: Learn more
+    - button "Open":
+      - img: keyboard_arrow_right
+  - button "Create custom events Create new events from existing events. Learn more about ceating new events based on existing events. Open":
+    - img: web_traffic
+    - generic: Create custom events
+    - text: Create new events from existing events.
+    - link "Learn more about ceating new events based on existing events.":
+      - /url: https://support.google.com/analytics/answer/10085872?hl=en_US&utm_id=ad
+      - text: Learn more
+    - button "Open":
+      - img: keyboard_arrow_right
+  - button "Measurement Protocol API secrets Create an API secret to enable additional events to be sent into this stream through the Measurement Protocol. Learn more about Measurement Protocol in Google Analytics 4 Open":
+    - img: vpn_key
+    - generic: Measurement Protocol API secrets
+    - text: Create an API secret to enable additional events to be sent into this stream through the Measurement Protocol.
+    - link "Learn more about Measurement Protocol in Google Analytics 4":
+      - /url: https://support.google.com/analytics/answer/9900444?hl=en_US&utm_id=ad
+      - text: Learn more
+    - button "Open":
+      - img: keyboard_arrow_right
+  - button "Redact data Prevent specific data from being sent to Google Analytics. Learn more about data redaction Email active URL query parameter keys inactive Open Data Redaction panel":
+    - generic: Redact data
+    - text: Prevent specific data from being sent to Google Analytics.
+    - link "Learn more about data redaction":
+      - /url: https://support.google.com/analytics/answer/13544947?hl=en_US&utm_id=ad
+      - text: Learn more
+    - generic: Email active
+    - generic: URL query parameter keys inactive
+    - button "Open Data Redaction panel":
+      - img: keyboard_arrow_right
+  - heading "Google tag" [level=2]
+  - button "Configure tag settings Configure your Google tag behavior, including cross-domain linking and internal traffic. Learn more about tag settings. Open":
+    - img: gtag
+    - generic: Configure tag settings
+    - text: Configure your Google tag behavior, including cross-domain linking and internal traffic.
+    - link "Learn more about tag settings.":
+      - /url: https://support.google.com/analytics/answer/12131703?hl=en_US&utm_id=ad
+      - text: Learn more
+    - button "Open":
+      - img: keyboard_arrow_right
+  - button "Manage connected site tags Load tags for additional properties or products using this stream's on-page Google tag. Learn more about how gtag.js maps Universal Analytics to Google Analytics 4 0 connected Open":
+    - img: settings_ethernet
+    - generic: Manage connected site tags
+    - text: Load tags for additional properties or products using this stream's on-page Google tag.
+    - link "Learn more about how gtag.js maps Universal Analytics to Google Analytics 4":
+      - /url: https://support.google.com/analytics/answer/9973999?hl=en_US&utm_id=ad
+      - text: Learn more
+    - generic: 0 connected
+    - button "Open":
+      - img: keyboard_arrow_right
+  - button "View tag instructions Get instructions for how to implement your Google tag for this data stream. Learn more about setting up your Google tag No data received Open":
+    - img: integration_instructions
+    - generic: View tag instructions
+    - text: Get instructions for how to implement your Google tag for this data stream.
+    - link "Learn more about setting up your Google tag":
+      - /url: https://support.google.com/analytics/answer/12002338?hl=en_US&utm_id=ad
+      - text: Learn more
+    - generic: No data received
+    - button "Open":
+      - img: keyboard_arrow_right

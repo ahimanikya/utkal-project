@@ -1,0 +1,23 @@
+
+> utkal-project-site@0.1.0 test:coast
+> node --test tests-coast/*.test.mjs
+
+✔ coastal analytics configuration is explicit and never eagerly loads the remote tag (13.275417ms)
+✔ edition validation rejects duplicate route configuration before changing output (60.483833ms)
+✔ relative links and their fragments resolve within selected routes (40.770041ms)
+✔ srcset candidates and stylesheet resources remain in the promoted edition (32.698542ms)
+✔ journey links must resolve their fragments before the candidate is promoted (31.624042ms)
+✔ duplicate catalogue IDs cannot pass a set-only comparison (31.139459ms)
+✔ asset symlinks are refused without touching the previous preview (29.636583ms)
+✔ only sixteen selected pages and their declared client content ship (20.309833ms)
+✔ delivery report hashes every shipped file and excludes unused originals (10.270875ms)
+✔ an earlier journey keeps unavailable IDs, dates and notes in backups and the portable book (9.386542ms)
+✔ failed staged validation preserves the last good output and does not expose excluded pages (40.451083ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 272.437834

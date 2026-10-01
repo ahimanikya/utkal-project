@@ -1,0 +1,139 @@
+{
+  "recorded_at": "2026-10-01T01:45:02.291369+00:00",
+  "authorization": "Use Chrome for PDF checks",
+  "method": "Native Chrome Page.printToPDF through the authorised Chrome browser capability, then PDF text checks and rendered contact-sheet inspection of every page. Not OS print-dialog or physical printer verification.",
+  "fixture": "records/evidence/launch-quality-2026-09-30/synthetic-journey.json",
+  "settings": {
+    "scale": 1,
+    "printBackground": true,
+    "displayHeaderFooter": false,
+    "preferCSSPageSize": false,
+    "margin_mm": 18
+  },
+  "results": [
+    {
+      "file": "journey-a4.pdf",
+      "sha256": "ce208078cd30d86a53aad6766289f005180280f7e74857bc8879b6e1cb1d8128",
+      "pages": 9,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        595.91998,
+        841.91998
+      ],
+      "blank_pages": [],
+      "markers": {
+        "END-OF-LONG-NOTE": true,
+        "SECOND-DAY-END": true,
+        "SYNTHETIC DAY NOTE END": true,
+        "SYNTHETIC REMINDER END": true
+      },
+      "source_appendix": true
+    },
+    {
+      "file": "text-book-a4.pdf",
+      "sha256": "44ed92d05d3edab4a609604e897ba7d0a7e42fc02ed8922b73f1f70c7b2a16b1",
+      "pages": 10,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        595.91998,
+        841.91998
+      ],
+      "blank_pages": [],
+      "markers": {
+        "END-OF-LONG-NOTE": true,
+        "SECOND-DAY-END": true,
+        "SYNTHETIC DAY NOTE END": true,
+        "SYNTHETIC REMINDER END": true
+      },
+      "source_appendix": true
+    },
+    {
+      "file": "photo-book-letter.pdf",
+      "sha256": "4d25c7988c15e215df07c9010385196b1a252fc2db1f58d211dfd4c00e11353b",
+      "pages": 11,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "blank_pages": [],
+      "markers": {
+        "END-OF-LONG-NOTE": true,
+        "SECOND-DAY-END": true,
+        "SYNTHETIC DAY NOTE END": true,
+        "SYNTHETIC REMINDER END": true
+      },
+      "source_appendix": true
+    },
+    {
+      "file": "text-book-letter.pdf",
+      "sha256": "af2e521443d59bc4b3efc03c077eb73a92f2e9aa3327aa584c766d0d0487f296",
+      "pages": 10,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "blank_pages": [],
+      "markers": {
+        "END-OF-LONG-NOTE": true,
+        "SECOND-DAY-END": true,
+        "SYNTHETIC DAY NOTE END": true,
+        "SYNTHETIC REMINDER END": true
+      },
+      "source_appendix": true
+    },
+    {
+      "file": "journey-letter.pdf",
+      "sha256": "516e332e04e89df52d2b00c60004ff9174c5f0090bc36df2a8a691b856d48852",
+      "pages": 9,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        612.0,
+        792.0
+      ],
+      "blank_pages": [],
+      "markers": {
+        "END-OF-LONG-NOTE": true,
+        "SECOND-DAY-END": true,
+        "SYNTHETIC DAY NOTE END": true,
+        "SYNTHETIC REMINDER END": true
+      },
+      "source_appendix": true
+    },
+    {
+      "file": "photo-book-a4.pdf",
+      "sha256": "187bc53d3d053f33b27c8b004cd666e28e2df596b5dd358abe4d0f627d8ff869",
+      "pages": 11,
+      "dimensions_pt": [
+        0.0,
+        0.0,
+        595.91998,
+        841.91998
+      ],
+      "blank_pages": [],
+      "markers": {
+        "END-OF-LONG-NOTE": true,
+        "SECOND-DAY-END": true,
+        "SYNTHETIC DAY NOTE END": true,
+        "SYNTHETIC REMINDER END": true
+      },
+      "source_appendix": true
+    }
+  ],
+  "visual_result": "All six final PDFs visually inspected; no overlapping/clipped text, accidental blank pages or stranded Before you go subheadings found. Photographs and credit appendix retained. Long paragraphs may continue on the next page.",
+  "fixes": [
+    "Keep journey subheadings with the following content.",
+    "Start offline-book credits on a clean page and remove trailing margin that produced a blank Letter page."
+  ],
+  "limitations": [
+    "Chromium desktop output only; not Safari/Firefox or a physical printer test.",
+    "Odia sample rendered; fluent language proofreading not performed."
+  ],
+  "earlier_failed_output": "before-print-fix/"
+}

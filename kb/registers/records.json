@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T00:56:18.563040+00:00",
+  "recorded_at": "2026-10-01T01:46:15.885834+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2010,7 +2010,7 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-051",
-      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "next_action": "Use research/product/visitor-readiness-2026-10-01.md for the consolidated review and recent phone/desktop samples. Fluent-language, local-evidence and broader accessibility review remain open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-051",
@@ -2026,7 +2026,8 @@
         "design-system/media-and-meaning.md",
         "reference/storytelling-standard.md",
         "design-system/story-patterns.md",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "research/product/visitor-readiness-2026-10-01.md"
       ]
     },
     {
@@ -2152,23 +2153,25 @@
       "id": "UTP-WORK-080",
       "title": "Verify native PDF pagination for the journey book",
       "category": "website_quality",
-      "status": "blocked",
-      "readiness": "draft",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-060",
-      "next_action": "Use the six-case matrix and current synthetic fixtures in the launch-quality review. Chrome switch permission requested; pending. Verify real A4/Letter PDFs before closing.",
-      "blockers": [
-        "In-app print request exposes no native print interface; no native PDF created. Chrome use requires the requested browser-switch choice."
-      ],
+      "next_action": "Six native Chromium A4/Letter PDF cases passed after print fixes. Review evidence and publish the candidate; physical-printer and other-browser checks are outside this completed matrix.",
+      "blockers": [],
       "refs": [
         "UTP-WORK-079",
         "UTP-REV-036",
-        "UTP-REV-048"
+        "UTP-REV-048",
+        "UTP-DEC-091",
+        "UTP-REV-067"
       ],
       "evidence": [
         "records/visitor-flow-review.json",
         "records/launch-readiness-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/visitor-readiness-review.json",
+        "records/evidence/visitor-readiness-2026-10-01/print-matrix.json"
       ]
     },
     {
@@ -2652,7 +2655,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-075",
-      "next_action": "Use the seven-guide coastal-verification queue: record dated scoped evidence from the relevant custodian or provider and separate Founder acceptance. Official directory inspected; no outreach or local inspection undertaken.",
+      "next_action": "Use models/local-confirmation.md for dated scoped evidence from the relevant source and separate Founder acceptance. All seven guides remain locally unverified. No outreach or site inspection undertaken.",
       "blockers": [],
       "refs": [
         "UTP-DEC-075",
@@ -2663,7 +2666,9 @@
         "research/product/launch-quality-2026-09-30.md",
         "research/destinations/visit-notebooks.json",
         "research/destinations/coastal-verification-queue.json",
-        "research/product/konark-visitor-essentials-2026-09-30.md"
+        "research/product/konark-visitor-essentials-2026-09-30.md",
+        "models/local-confirmation.md",
+        "research/product/visitor-readiness-2026-10-01.md"
       ]
     },
     {
@@ -2887,6 +2892,32 @@
         "research/product/dhauli-layers-guide-2026-10-01.md",
         "records/dhauli-layers-guide-review.json",
         "records/dhauli-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-106",
+      "title": "Visitor readiness: three guides, portable books, analytics and review queue",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-091",
+      "next_action": "Founder review of the concrete candidate; after approved publication verify real consent behaviour and GA Realtime. Local and fluent-language confirmations remain separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-091",
+        "UTP-REV-067",
+        "UTP-WORK-080",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/visitor-readiness-2026-10-01.md",
+        "records/visitor-readiness-review.json",
+        "research/technology/analytics.md"
       ]
     }
   ],
@@ -4691,6 +4722,32 @@
       "evidence": [
         "records/dhauli-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-091",
+      "title": "Prepare pending visitor work, use Chrome for print checks and create Utkal Analytics",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Let's go take crack it and do all that",
+      "additional_quotes": [
+        "Use Chrome for PDF checks",
+        "I am not sure I thought you created one, if not create one please",
+        "Accept — India"
+      ],
+      "scope": "Prepare guide refinements, held-collection review, print verification, contribution/backlog work and GA4 integration. Explicitly create the analytics service and accept terms for India. No final website publication approval inferred.",
+      "recorded_at": "2026-10-01T01:46:15.885834+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-080",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/visitor-readiness-2026-10-01.md",
+        "records/visitor-readiness-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -6277,6 +6334,33 @@
       ],
       "evidence": [
         "records/dhauli-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-067",
+      "title": "Visitor readiness, native print and analytics self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and checked the work; no independent review or new fluent Odia review.",
+        "All seven coastal guides still need scoped local confirmations; no outreach or field inspection.",
+        "Native Chrome PDFs and responsive viewport samples are not physical-device, screen-reader or physical-printer certification.",
+        "GA4 account and variable exist; production consent/network/Realtime behaviour awaits an approved deployment.",
+        "Held collections remain excluded from the 16-page coastal edition; Store remains deferred."
+      ],
+      "refs": [
+        "UTP-DEC-091",
+        "UTP-WORK-106",
+        "UTP-WORK-080",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "records/visitor-readiness-review.json",
+        "research/product/visitor-readiness-2026-10-01.md"
       ]
     }
   ],

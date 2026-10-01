@@ -9,3 +9,5 @@ These are content models inside the project KB, not repository configuration or 
 - [Personal day notes and arrangement rules](day-notes.md).
 
 - [Personal reminders, import choices and portable day selection](journey-preparation.md).
+
+- [Dated local-confirmation intake](local-confirmation.md) — claim, scope, evidence, permission and human decision.

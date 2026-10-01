@@ -61,3 +61,7 @@ All IDs carry the UTP prefix. The register’s next-action links now direct over
 ## Boundaries
 
 This is a local implementation over Design System rc.4, not a new shared-package release. No commit, push, deployment, issue submission, spending or outreach occurred. Native PDF pagination, physical-device testing, comprehensive accessibility testing and fluent language review remain open. The request to use Chrome for printing is pending; no alternate browser was used.
+
+## Follow-up · 1 October 2026 UTC
+
+The Founder authorised Chrome for PDF checks. [Visitor readiness](visitor-readiness-2026-10-01.md) now contains six actual A4/Letter PDF results, responsive sampling of held pages and the current review queue. The earlier browser-permission and print blockers above describe the state at that review date, not the current state. Fluent language, local-arrangement and broader accessibility reviews remain open.

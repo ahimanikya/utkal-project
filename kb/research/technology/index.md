@@ -12,3 +12,7 @@ The diagrams are available as PNG previews, editable SVG and Mermaid text. See t
 [Knowledge base home](../index.md) · [Community encyclopedia](../about/community-encyclopedia.md) · [Website readiness](../about/website-readiness.md)
 
 [Product requirements and historical baselines](../product/index.md) describe what the product should achieve; these technology documents describe how it is planned to work.
+
+## Implementation update · 1 October 2026 UTC
+
+The coastal site is published on GitHub Pages and public contribution handoff uses GitHub Issues. The stack summary above describes the original plan; Firebase and email intake are not activated by this update. [GA4 account and consent integration](analytics.md) records the newly created service and pending website release.

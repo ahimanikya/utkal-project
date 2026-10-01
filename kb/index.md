@@ -80,3 +80,5 @@ This directory contains the organizational and working model, roles, work record
 - [Coastal preview publication · 30 September 2026](research/product/coastal-publication-2026-09-30.md)
 
 - [Launch-quality follow-up · delivery, guide evidence and print](research/product/launch-quality-2026-09-30.md)
+
+- [Visitor readiness: guides, Chrome PDF checks, analytics and consolidated review](research/product/visitor-readiness-2026-10-01.md)

@@ -42,7 +42,7 @@ test('preview stays unindexed and ships no remote scripts or live submission end
     const html=read(file);
     assert.match(html,/<meta name="robots" content="noindex, nofollow"/);
     assert.ok(!/<script[^>]+src="https?:/.test(html),file);
-    assert.ok(!/googletagmanager|google-analytics|firebaseio/.test(html),file);
+    assert.ok(!/id="analytics-config"|firebaseio/.test(html),file);
   }
   assert.ok(!/<form\b/.test(read('contribute/index.html')));
   assert.match(read('robots.txt'),/Disallow: \//);
