@@ -1,0 +1,62 @@
+[
+  {
+    "check": "validate",
+    "exit_code": 0,
+    "output": "{\n  \"checked_at\": \"2026-10-01T14:33:12-07:00\",\n  \"result\": \"PASS\",\n  \"concepts\": 847,\n  \"local_link_checks\": 2935,\n  \"growth_arithmetic_checks\": 38,\n  \"preserved_evidence_records\": 71,\n  \"errors\": [],\n  \"scope\": \"Structure, internal links, source-footnote matching, migration values and arithmetic; not independent factual or legal certification.\"\n}\n"
+  },
+  {
+    "check": "validate_visitor_index",
+    "exit_code": 0,
+    "output": "{\n  \"checked_at\": \"2026-10-01T14:33:12-07:00\",\n  \"result\": \"PASS\",\n  \"counts\": {\n    \"areas\": 5,\n    \"foods\": 22,\n    \"heritage\": 10,\n    \"facilities\": 14\n  },\n  \"relationship_checks\": 32,\n  \"errors\": [],\n  \"scope\": \"Local references, provenance linkage and seed evidence-state controls; not source accuracy or current operation.\"\n}\n"
+  },
+  {
+    "check": "validate_maritime",
+    "exit_code": 0,
+    "output": "{\n  \"checked_at\": \"2026-10-01T21:33:12+00:00\",\n  \"result\": \"PASS\",\n  \"graph_nodes\": 90,\n  \"qualified_relationships\": 36,\n  \"numeric_observations\": 15,\n  \"arithmetic_checks\": 5,\n  \"local_queries_checked\": [\n    \"China\",\n    \"Paradip\",\n    \"archaeological_finding\"\n  ],\n  \"errors\": [],\n  \"scope\": \"Internal references, explicit evidence classes, metric/graph equality and arithmetic; no certification of historical claims.\"\n}\n"
+  },
+  {
+    "check": "validate_growth_journeys",
+    "exit_code": 0,
+    "output": "{\n  \"checked_at\": \"2026-10-01T14:33:13-07:00\",\n  \"result\": \"PASS\",\n  \"observations\": 29,\n  \"derived_calculations\": 4,\n  \"timeline_events\": 15,\n  \"errors\": [],\n  \"scope\": \"Sources, units, period comparability, arithmetic and evidence-state safeguards; no independent verification of reported outcomes.\"\n}\n"
+  },
+  {
+    "check": "validate_statistics",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"observations\": 442,\n  \"topics\": 45,\n  \"districts\": 30,\n  \"calculations\": 18,\n  \"readiness\": {\n    \"source_checked_editorial_review_pending\": 353,\n    \"needs_source_table_review\": 83,\n    \"hold_conflict\": 6\n  },\n  \"errors\": [],\n  \"scope\": \"Structure, references and arithmetic; not independent source verification or human editorial review.\"\n}\n"
+  },
+  {
+    "check": "validate_homestays",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"homestay_observations\": 33,\n  \"unknown_outcome_metrics\": 9,\n  \"arithmetic_checks\": 2,\n  \"errors\": [],\n  \"scope\": \"Stage and qualifier fields, register references, conflict holds and policy arithmetic; not legal certification, source authentication or proof of demand.\"\n}\n"
+  },
+  {
+    "check": "validate_classification",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"subject_families\": 9,\n  \"classified_concepts\": 428,\n  \"atlas_topics\": 45,\n  \"atlas_observations\": 442,\n  \"explained_relationships\": 222,\n  \"errors\": [],\n  \"scope\": \"Editorial subject IDs, topic coverage and agreement with related-reading links; not source verification, causation or publication approval.\"\n}\n"
+  },
+  {
+    "check": "validate_collections",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"collections_and_profiles\": 5,\n  \"progress_cards\": 6,\n  \"errors\": [],\n  \"scope\": \"Collection links, observation references, stage compatibility, public-card data agreement and one settlement reconciliation; not independent source verification or publication approval.\"\n}\n"
+  },
+  {
+    "check": "validate_prd",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"prd_version\": \"0.2.1\",\n  \"preserved_versions\": 3,\n  \"requirements\": 41,\n  \"phase_counts\": {\n    \"launch\": 32,\n    \"later\": 5,\n    \"deferred\": 4\n  },\n  \"errors\": [],\n  \"scope\": \"Requirement IDs, phase/basis/ADR references, version pointers and snapshot checksums; not feature acceptance, formal approval or factual certification.\"\n}\n"
+  },
+  {
+    "check": "validate_creations",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"people\": 57,\n  \"works\": 48,\n  \"garment_forms\": 13,\n  \"market_observation_refs\": 5,\n  \"errors\": [],\n  \"scope\": \"Referential integrity, explicit credits and missing-value semantics; not independent source verification or public approval.\"\n}\n"
+  },
+  {
+    "check": "validate_sports",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"athletes\": 8,\n  \"sports\": 4,\n  \"observations\": 14,\n  \"errors\": [],\n  \"scope\": \"Identity, event scope, attribution and historical/current separation; not factual certification.\"\n}\n"
+  },
+  {
+    "check": "validate_research_map",
+    "exit_code": 0,
+    "output": "{\n  \"result\": \"PASS\",\n  \"records\": 1016,\n  \"tasks\": 40,\n  \"reviewed_overlaps\": 8,\n  \"errors\": [],\n  \"scope\": \"Inventory references and reuse coverage; not factual equivalence, source freshness or publication approval.\"\n}\n"
+  }
+]

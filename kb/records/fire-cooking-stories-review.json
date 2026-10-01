@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-01T21:35:08.736613+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "quote": "Sounds good, go for it",
+    "context": "Build the proposed fire-cooking collection, illustrated roasting and patrapoda stories, food-trail connections and Pala follow-up."
+  },
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "new_routes": [
+      "/food/fire-cooking/",
+      "/food/baigana-poda/",
+      "/food/tomato-poda/",
+      "/food/patrapoda/"
+    ],
+    "real_food_photographs": 3,
+    "held_pala_photograph": 1,
+    "public_candidate_pages": 114,
+    "discovery_entries": 71,
+    "journey_items": 75,
+    "starter": "fire-and-table",
+    "shared_component": "FoodStoryCollection.astro reused by everyday and fire-cooking collections"
+  },
+  "checks": {
+    "site_tests_passed": 377,
+    "edition_tests_passed": 65,
+    "page_acceptance_passed": 456,
+    "research_validators_passed": 12,
+    "discovery_and_launch_readiness": "pass; indexing remains disabled",
+    "source_and_image_credit": "Mixed eggplant/tomato, pakhala meal context, and fish parcel photographs clearly distinguished. Original creators and licences retained.",
+    "visual_review": "blocked_by_browser_security_policy"
+  },
+  "limitations": [
+    "Browser visual/interactive review remains blocked: admin-enforced browser policy could not be verified. No alternate browser automation used.",
+    "Human editorial, Odia and local naming review pending; no recipe testing, kitchen endorsement or present availability claimed.",
+    "Pala photo downloaded, inspected and licence-checked; feature still held for Dash 2011 full-text gap and terminology review. Source retry rejected an expired TLS certificate.",
+    "Candidate only: no publication, deployment or search indexing approval claimed."
+  ],
+  "evidence": [
+    "records/evidence/fire-cooking-stories/page-acceptance.json",
+    "records/evidence/fire-cooking-stories/discovery.json",
+    "records/evidence/fire-cooking-stories/research-checks.json",
+    "records/evidence/fire-cooking-stories/site-tests.txt",
+    "records/evidence/fire-cooking-stories/edition-tests.txt",
+    "records/fire-food-image-provenance.json",
+    "records/fire-source-followup.json"
+  ],
+  "next_action": "Founder reviews candidate; complete browser visual review when policy verification is available. Resolve Pala-specific source and terminology holds separately."
+}

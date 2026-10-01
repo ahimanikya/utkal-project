@@ -1,3 +1,4 @@
+import fire from '../../../../kb/research/food/fire-cooking-stories.json';
 import everyday from '../../../../kb/research/food/everyday-stories.json';
 import bose from '../../../../kb/research/people/subhas-chandra-bose.json';
 import visitQuestions from '../../../../kb/research/destinations/visit-questions.json';
@@ -15,6 +16,7 @@ import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 const entries=[];
 entries.push({id:everyday.save_id,title:everyday.title,kind:'Reading',area:'Across Odisha',summary:everyday.lead,href:'/food/everyday/',checked:everyday.checked_on,practical:everyday.questions.map(text=>({heading:'Ask the maker',text})),sources:[...new Set(everyday.chapters.flatMap(c=>foodCollection.pages.find(p=>p.slug===c.slug).sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))].map(id=>foodCollection.sources[id])});
+entries.push({id:fire.save_id,title:fire.title,kind:'Reading',area:'Across Odisha',summary:fire.lead,href:'/food/fire-cooking/',checked:fire.checked_on,practical:fire.questions.map(text=>({heading:'Ask the maker',text})),sources:[...new Set(fire.chapters.flatMap(c=>foodCollection.pages.find(p=>p.slug===c.slug).sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))))].map(id=>foodCollection.sources[id])});
 for(const r of regions.regions){
  const sources=ids=>ids.map(id=>({title:regions.sources[id].title,url:regions.sources[id].url}));
  const href=`/destinations/${r.slug}/`;

@@ -159,3 +159,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Everyday Odisha food collection published](records/everyday-food-stories-publication.json) after Founder approval of PR 42. Four pages are live with source and image credits, Explore connections and saved journey notes. Pala and visual/local review follow-ups remain recorded.
+
+## 2026-10-01
+
+[Fire-cooking collection candidate](records/fire-cooking-stories-review.json): Baigana poda, Tomato poda and Patrapoda with licensed real photographs, an illustrated collection and a saved food journey. Pala photograph checked and retained with held draft; remaining source and browser visual-review blocks recorded.

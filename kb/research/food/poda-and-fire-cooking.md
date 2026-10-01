@@ -46,3 +46,7 @@ Direct roasting exposes vegetables to heat before peeling/mashing. Leaf parcels 
 - Recipe quantities, smoke chemistry, nutritional benefits, origin dates, comparative state rankings and economic impact are not established here. No new revenue, export or popularity numbers.
 
 [Structured evidence](../references/data/poda-traditions.json) · [Story and video draft](../stories/odisha-poda-country.md) · [Preparation collection](preparation-and-variation.md).
+
+## Website candidate · 1 October 2026
+
+The [fire-cooking collection](fire-cooking-stories.json) selects vegetable roasting and mushroom, fish and prawn leaf-parcel accounts for the first illustrated website batch, connected to existing baked-food stories. [Page data](collection.json) retains named sources and accurate photo captions. The wider nine-entry research scope remains separate; unresolved chicken and bamboo accounts are not promoted into verified visit or menu suggestions.
