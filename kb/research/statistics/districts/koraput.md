@@ -44,3 +44,7 @@ IBM’s2023–24 bauxite producer table places NALCO and OMC mine locations in K
 ## Mine-to-processing checkpoint · 1 October 2026
 
 [The NALCO chain](../../economy/bauxite-to-aluminium.md) connects Panchpatmali, Damanjodi and the Pottangi development project. Company-wide headcounts do not establish Koraput jobs.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+[Kodingamali](../../economy/bauxite-mine-identities.md) adds five annual ROM observations. The IBM district register is not a complete mine-boundary map.

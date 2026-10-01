@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T23:35:36.358411+00:00",
+  "updated_at": "2026-10-01T23:52:46.441614+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4850,6 +4850,69 @@
       "run_id": "2026-10-01-mining-value-chain",
       "status": "unavailable",
       "scope": "Web-reader502; report substituted only for separately identified facts.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-ibm-kodingamali2024",
+      "discovery_url": "https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "PDF pp.1–5; inspection 12 September 2024, row3p production and row5d rehabilitation.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-asi-baphlimali2026",
+      "discovery_url": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "PDF pp.1–4,8,14–18; January2026 audit, March2026 submission, May2026 certificate.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-hindalco-baphlimali",
+      "discovery_url": "https://www.hindalco.com/about-us/operations/baphlimali-bauxite-mines",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "Header capacity8.5MTPA versus body7.0MTPA; end-use refinery and conveyor description.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-asi-baphlimali-news2026",
+      "discovery_url": "https://aluminium-stewardship.org/asi-certifies-baphlimali-bauxite-mines-of-utkal-international-limited-against-performance-standard-v3-1",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "Certification scope, capacity and nine minor non-conformances.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-kodingamali2024",
+      "discovery_url": "https://environmentclearance.nic.in/auth/FORM_A_PDF.aspx?cat_id=IA%2FOR%2FMIN%2F143523%2F2020",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "unavailable",
+      "scope": "Direct web reader internal error; indexed snippet is discovery only. Discovery route for the same mine, not a successful capture of the IBM record.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-hindalco-baphlimali",
+      "discovery_url": "https://www.hindalco.com/sustainability/regulatory-compliances",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "conflicted",
+      "scope": "Baphlimali-labelled link133 resolves to Bimarla/GumlaJharkhand; indexed and direct page lists differ. Utkal report link193 returned internal error.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-hindalco-baphlimali",
+      "discovery_url": "https://www.hindalco.com/Upload/PDF/eccr-bimarla-bauxite-mine-oct25-to-mar26.pdf",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available_wrong_scope",
+      "scope": "Cover checked: Bimarla,Gumla,Jharkhand. Not Baphlimali; excluded.",
       "retry_after": "2026-10-08"
     }
   ]

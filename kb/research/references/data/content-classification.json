@@ -4385,6 +4385,18 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/bauxite-mine-identities",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places",
+        "governance",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6305,6 +6317,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects named mineral-processing relationships to separate public revenue, work and community questions."
+    },
+    {
+      "from": "economy/bauxite-mine-identities",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects mine identities and reported output to separate work, permissions and community questions."
     }
   ],
   "relationship_types": {

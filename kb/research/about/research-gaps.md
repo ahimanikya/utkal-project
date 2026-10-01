@@ -302,3 +302,7 @@ RES-051 now has the state’s paired production/despatch table and IBM ore/resou
 ## Mine-to-processing checkpoint · 1 October 2026
 
 RES-051 now has selected NALCO mine/lease and MDO identities, and a reusable processing case for RES-052. Original permits, current Pottangi production/R&R, plant/local employment and local procurement remain open. The five-year bauxite row is held for definition reconciliation; source-methodology retry remains 8 October.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+RES-051: Kodingamali and Baphlimali identities added. Original Baphlimali annual-return and EC-report URLs recovered from the audit remain the next bounded check. Current permits, district boundaries, buyers, direct/contract/local employment and corrective-action closure remain open. Mislinked Bimarla evidence excluded; failed expansion-form retrieval retry8October.

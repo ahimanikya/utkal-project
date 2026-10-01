@@ -271,3 +271,7 @@ RES-051 reused comparison-6-1/7-1/8-1 as aliases of one state table and extended
 ## Mine-to-processing checkpoint · 1 October 2026
 
 Existing NALCO excavation/capex records, IBM district links and mining programme reused. One connected case and three source records added; corporate report/page are one publisher family. Existing task IDs retained; RES-052 can reuse this case.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+Added two named bauxite identities through one connected concept and four source records. Reused IBM producer-district entries and NALCO processing research. Same ASI certification across report/announcement is one evidence family, not independent corroboration.

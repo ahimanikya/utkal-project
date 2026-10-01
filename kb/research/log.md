@@ -316,3 +316,7 @@ Ore checkpoint added132 observations and three attributed calculations. Full sta
 ## Mine-to-processing checkpoint · 1 October 2026
 
 Added NALCO mine-to-processing checkpoint: 50 scoped observations, four calculations, six site/project identities and five explained supply links. Preserved source limits, adverse outcomes and project stages. RES-051 remains in progress; RES-052 has reuse pointers. No website release.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+Bauxite-site checkpoint: 15 observations, two mine identities, one evidenced supply link and scoped certification record. Flat output and adverse audit findings retained; mislinked non-Odisha report excluded. RES-051 remains in progress. Website unchanged.

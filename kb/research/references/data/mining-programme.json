@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T23:35:36.358411+00:00",
+  "updated_at": "2026-10-01T23:52:46.441614+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -341,7 +341,22 @@
     "nalco-chain-smelter-recordable",
     "nalco-chain-cpp-recordable",
     "nalco-chain-pottangi-conveyor-paf",
-    "nalco-chain-pottangi-water-paf"
+    "nalco-chain-pottangi-water-paf",
+    "bauxite-sites-kodingamali-actual-2019-20",
+    "bauxite-sites-kodingamali-proposed-2019-20",
+    "bauxite-sites-kodingamali-actual-2020-21",
+    "bauxite-sites-kodingamali-proposed-2020-21",
+    "bauxite-sites-kodingamali-actual-2021-22",
+    "bauxite-sites-kodingamali-proposed-2021-22",
+    "bauxite-sites-kodingamali-actual-2022-23",
+    "bauxite-sites-kodingamali-proposed-2022-23",
+    "bauxite-sites-kodingamali-actual-2023-24",
+    "bauxite-sites-kodingamali-proposed-2023-24",
+    "bauxite-sites-kodingamali-rehabilitation-actual",
+    "bauxite-sites-kodingamali-rehabilitation-proposed",
+    "bauxite-sites-baphlimali-capacity",
+    "bauxite-sites-baphlimali-people",
+    "bauxite-sites-baphlimali-women"
   ],
   "task_ids": [
     "RES-051",
@@ -445,6 +460,48 @@
       "status": "unavailable",
       "reason": "Web reader internal fetch error; no original full-text adoption from these routes. Used separately retrieved latest annual report instead.",
       "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "PDF pp.1–5; inspection 12 September 2024, row3p production and row5d rehabilitation."
+    },
+    {
+      "url": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "PDF pp.1–4,8,14–18; January2026 audit, March2026 submission, May2026 certificate."
+    },
+    {
+      "url": "https://www.hindalco.com/about-us/operations/baphlimali-bauxite-mines",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "Header capacity8.5MTPA versus body7.0MTPA; end-use refinery and conveyor description."
+    },
+    {
+      "url": "https://aluminium-stewardship.org/asi-certifies-baphlimali-bauxite-mines-of-utkal-international-limited-against-performance-standard-v3-1",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "Certification scope, capacity and nine minor non-conformances."
+    },
+    {
+      "url": "https://environmentclearance.nic.in/auth/FORM_A_PDF.aspx?cat_id=IA%2FOR%2FMIN%2F143523%2F2020",
+      "retrieved_on": "2026-10-01",
+      "status": "unavailable",
+      "reason": "Direct web reader internal error; indexed snippet is discovery only."
+    },
+    {
+      "url": "https://www.hindalco.com/sustainability/regulatory-compliances",
+      "retrieved_on": "2026-10-01",
+      "status": "conflicted",
+      "reason": "Baphlimali-labelled link133 resolves to Bimarla/GumlaJharkhand; indexed and direct page lists differ. Utkal report link193 returned internal error."
+    },
+    {
+      "url": "https://www.hindalco.com/Upload/PDF/eccr-bimarla-bauxite-mine-oct25-to-mar26.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "available_wrong_scope",
+      "reason": "Cover checked: Bimarla,Gumla,Jharkhand. Not Baphlimali; excluded."
     }
   ],
   "human_review_claimed": false,
@@ -1546,6 +1603,147 @@
       "Odisha supplier procurement values and payment terms",
       "Named household income or enterprise turnover before/after support",
       "Pottangi actual production commissioning and R&R updates"
+    ],
+    "human_review_claimed": false
+  },
+  "bauxite_sites_checkpoint": {
+    "run_id": "2026-10-01-bauxite-sites",
+    "as_of_retrieval": "2026-10-01",
+    "source_ids": [
+      "mining-ibm-kodingamali2024",
+      "mining-asi-baphlimali2026",
+      "mining-hindalco-baphlimali",
+      "mining-asi-baphlimali-news2026"
+    ],
+    "observation_ids": [
+      "bauxite-sites-kodingamali-actual-2019-20",
+      "bauxite-sites-kodingamali-proposed-2019-20",
+      "bauxite-sites-kodingamali-actual-2020-21",
+      "bauxite-sites-kodingamali-proposed-2020-21",
+      "bauxite-sites-kodingamali-actual-2021-22",
+      "bauxite-sites-kodingamali-proposed-2021-22",
+      "bauxite-sites-kodingamali-actual-2022-23",
+      "bauxite-sites-kodingamali-proposed-2022-23",
+      "bauxite-sites-kodingamali-actual-2023-24",
+      "bauxite-sites-kodingamali-proposed-2023-24",
+      "bauxite-sites-kodingamali-rehabilitation-actual",
+      "bauxite-sites-kodingamali-rehabilitation-proposed",
+      "bauxite-sites-baphlimali-capacity",
+      "bauxite-sites-baphlimali-people",
+      "bauxite-sites-baphlimali-women"
+    ],
+    "mine_identities": [
+      {
+        "id": "kodingamali",
+        "operator": "Odisha Mining Corporation Limited",
+        "mine_code": "07ORI09005",
+        "registration": "IBM/4269/2011",
+        "district_register_entry": "Koraput",
+        "lease_area_ha": 428.075,
+        "lease_date": "2017-01-10",
+        "opening_date": "2018-02-02",
+        "type": "non_captive_opencast_fully_mechanised",
+        "source_id": "mining-ibm-kodingamali2024",
+        "locator": "PDF pp.1–2",
+        "buyers": null,
+        "boundary_caveat": "Register district is not proof of lease polygon wholly within that district. Older OMC tender found in search suggests Koraput/Rayagada; full boundary check pending."
+      },
+      {
+        "id": "baphlimali",
+        "operator": "Utkal Alumina International Limited",
+        "parent": "Hindalco Industries Limited",
+        "district_scope": "Rayagada; audit overview also describes lease portion in Kalahandi",
+        "source_id": "mining-asi-baphlimali2026",
+        "locator": "PDF p.4",
+        "commercial_mining_start_year": 2012,
+        "current_lease_register_verified": false
+      }
+    ],
+    "supply_links": [
+      {
+        "from": "baphlimali",
+        "to": "utkal-alumina-refinery",
+        "material": "bauxite",
+        "mode": "covered conveyor",
+        "source_ids": [
+          "mining-asi-baphlimali2026",
+          "mining-hindalco-baphlimali"
+        ],
+        "locator": "Audit PDFp.4 and company operations page",
+        "length_caveat": "Audit18km, company18.5km: retain approximate/vintage distinction; no precise reconciled route adopted."
+      }
+    ],
+    "certification": {
+      "entity": "Baphlimali Bauxite Mines",
+      "certificate_number": "557",
+      "standard": "ASI Performance Standard V3.1 (2023)",
+      "issued_on": "2026-05-19",
+      "expires_on": "2029-05-18",
+      "audit_dates": [
+        "2026-01-19",
+        "2026-01-22"
+      ],
+      "audit_report_submitted": "2026-03-31",
+      "auditor": "CETIZION Verifica",
+      "scope": "Planning, mining, processing and conveyor transportation of bauxite",
+      "excluded": "Alumina refinery explicitly outside certification scope",
+      "next_audit_date_as_reported": "2027-09-19",
+      "source_id": "mining-asi-baphlimali2026",
+      "announcement_source_id": "mining-asi-baphlimali-news2026",
+      "minor_nonconformance_criteria": [
+        "3.4a-f",
+        "5.1a-b",
+        "5.3b-e",
+        "6.1a-f",
+        "9.3a-i",
+        "10.3a-c",
+        "10.7a-c",
+        "10.8a-c",
+        "11.1b-e"
+      ],
+      "corrective_action_closure_verified": false,
+      "interpretation": "Nine minor findings retained; certificate is not a blanket no-impact or compliance guarantee. Under10.3 audit found no forced labour, but insufficient Modern Slavery Statement coverage. Do not turn the criterion heading into an allegation."
+    },
+    "conflicts_and_limits": [
+      {
+        "field": "Baphlimali capacity",
+        "values": [
+          "Dated ASI audit8.5MTPA",
+          "Undated Hindalco header8.5MTPA",
+          "Same company page body7.0MTPA"
+        ],
+        "resolution": "Use8.5only as dated audit-reported capacity; do not overwrite old page or infer actual output."
+      },
+      {
+        "field": "Kodingamali permitted expansion",
+        "resolution": "Inspection for FY2023–24 cites EC3MTPA versus miningplan6MTPA. No claim about October2026permit. Expansion-form direct fetch failed."
+      },
+      {
+        "field": "Baphlimali compliance link",
+        "resolution": "Link133 under Baphlimali in retrieved compliance index led to Bimarla PDF, confirmed cover names GumlaJharkhand. Excluded from Odisha evidence."
+      }
+    ],
+    "next_evidence_routes": [
+      {
+        "url": "https://www.hindalco.com/Upload/PDF/baphlimali-form-g1-annual-return-2024-25.pdf",
+        "discovered_in": "ASI audit PDFp.6",
+        "status": "not_fetched",
+        "purpose": "Original realised production, dispatch and employment fields"
+      },
+      {
+        "url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+        "discovered_in": "ASI audit PDFp.6",
+        "status": "not_fetched",
+        "purpose": "Original permit and mine-boundary scope; preserve literal2205inURL"
+      }
+    ],
+    "open_fields": [
+      "Current original mine permits and district polygon boundaries",
+      "Baphlimali annual realised production and dispatch",
+      "Kodingamali named buyers and realised destinations",
+      "Direct/contract workforce split and local residence",
+      "Corrective-action closure from subsequent audit",
+      "Comparable household livelihood income before/after projects"
     ],
     "human_review_claimed": false
   }

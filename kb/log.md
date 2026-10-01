@@ -227,3 +227,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · NALCO mine-to-processing case
 
 [Research receipt](records/mining-value-chain-2026-10-01.json): 50 observations, four calculations and six site/project identities added; company job totals, uncertain bauxite definitions and planned commissioning remain explicitly scoped. No website release.
+
+## 1 October 2026 · Kodingamali and Baphlimali evidence
+
+[Research receipt](records/bauxite-sites-2026-10-01.json): 15 observations, two mine identities and one evidenced supply link added; capacity, certification scope, minor audit findings and source mismatches retained. No website release.

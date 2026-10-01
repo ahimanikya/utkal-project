@@ -31,3 +31,7 @@ The public portal lists both Kulusing and Puttasing; the reported amendment stil
 ## Mineral evidence · 1 October2026
 
 IBM’s2023–24 bauxite producer table places Utkal Alumina mine location in Rayagada. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+[Baphlimali](../../economy/bauxite-mine-identities.md) links mining to the Utkal Alumina refinery and a dated ASI audit; the refinery is outside that certificate’s scope.

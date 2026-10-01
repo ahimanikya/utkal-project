@@ -65,3 +65,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Mine-to-processing checkpoint · 1 October 2026
 
 [Bauxite to aluminium](bauxite-to-aluminium.md) now joins selected named mines, processing and transport links to dated work and community evidence. Company totals, targets and unresolved fields remain explicit.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+[Kodingamali and Baphlimali](bauxite-mine-identities.md) adds regulator-recorded output and a separate mine-to-refinery certification case. Capacity and audit findings retain their scope.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T23:35:36.358411+00:00",
+  "updated_at": "2026-10-01T23:52:46.441614+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2264,13 +2264,13 @@
       "done_when": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 4,
+      "attempts": 5,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-015"
       ],
-      "last_worked_at": "2026-10-01T23:35:36.358411+00:00",
-      "next_step": "Extend selected mine identities to OMC Kodingamali and Utkal Alumina Baphlimali through original mine and plant records. Reuse NALCO chain for RES-052; unresolved source definitions/permits retry 2026-10-08.",
+      "last_worked_at": "2026-10-01T23:52:46.441614+00:00",
+      "next_step": "Read Baphlimali FY2024–25 FormG1 and EC report URLs recovered from ASI audit, reconcile realised output and district/lease scope; then checkpoint remaining original-permit and source-definition gaps with retry dates and move to RES-052 processing/jobs. Reuse both bauxite cases.",
       "evidence_outputs": [
         "economy/mining.md",
         "statistics/minerals-and-mining.md",
@@ -2282,7 +2282,12 @@
         "economy/bauxite-to-aluminium.md",
         "sources/mining-nalco-ar2026.md",
         "sources/mining-nalco-refinery.md",
-        "sources/mining-dbl-pottangi.md"
+        "sources/mining-dbl-pottangi.md",
+        "economy/bauxite-mine-identities.md",
+        "sources/mining-ibm-kodingamali2024.md",
+        "sources/mining-asi-baphlimali2026.md",
+        "sources/mining-hindalco-baphlimali.md",
+        "sources/mining-asi-baphlimali-news2026.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2310,6 +2315,12 @@
           "at": "2026-10-01T23:35:36.358411+00:00",
           "outcome": "named_bauxite_mines_and_processing_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-bauxite-sites",
+          "at": "2026-10-01T23:52:46.441614+00:00",
+          "outcome": "two_bauxite_identities_output_and_certification_checkpoint",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -2323,7 +2334,8 @@
           "references/data/industry-growth-data.json",
           "statistics/coal-production.md",
           "statistics/ore-production.md",
-          "economy/bauxite-to-aluminium.md"
+          "economy/bauxite-to-aluminium.md",
+          "economy/bauxite-mine-identities.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -2360,7 +2372,8 @@
           "references/data/investment-tracker.json",
           "statistics/ports.md",
           "journeys/rare-earths.md",
-          "economy/bauxite-to-aluminium.md"
+          "economy/bauxite-to-aluminium.md",
+          "economy/bauxite-mine-identities.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
