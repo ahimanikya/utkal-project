@@ -148,3 +148,7 @@ Saved a RES-029 manuscript checkpoint: five institutional source records, four B
 ## 2026-10-01
 
 Added Tribikram Pati and Gokulananda Mohapatra with three credited works, six sources and five explicit conflicts. Read the Pati–Ahmad paper’s introduction and retained joint credit; reused the existing NISER source. Indexed biographies and award evidence remain labelled. Expanded RES-029 without completing the broader historical-to-present scope.
+
+## 2026-10-01
+
+Added Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi, five credited creations and a contemporary-creators collection. Saved ten primary publisher/artist/gallery/association/government source records with scoped dates and retrieval limits. Reused Ray/Pattnaik profiles, classified linked reading and recorded three bibliographic/biographical conflicts or vintage distinctions. Completed bounded user addition RES-034; science task RES-029 remains active.

@@ -121,3 +121,7 @@ Added five source records and one collection; current inventory 853. Reused Bhā
 ### Modern mathematics and science writing · 1 October 2026
 
 Two people, three works and six sources extend the map to 864. Existing NISER source ID reused for Pati’s memorial section. J-STAGE metadata and PDF represent one paper. Gokulananda Mohapatra/Mahapatra is one identity; no merger with similarly named Das or Mohanty. Five conflicts remain quarantined.
+
+### Contemporary creators · 1 October 2026
+
+Four new identities, five works, one collection and ten source records extend the map to 884. Source and repository-native name searches preceded research; Ray and Pattnaik reused. Bagchi editions are separate from first-publication claims. Several CFDA articles remain one publisher family, not independent corroboration. RES-034 records the explicit user addition; RES-029 remains in progress.

@@ -71,3 +71,13 @@
 - [Tribikram Pati](tribikram-pati.md)
 
 - [Gokulananda Mohapatra](gokulananda-mohapatra.md)
+
+- [Bibhu Mohapatra](bibhu-mohapatra.md)
+
+- [Jatin Das](jatin-das.md)
+
+- [Jagannath Panda](jagannath-panda.md)
+
+- [Subroto Bagchi](subroto-bagchi.md)
+
+- [Contemporary creators connected to Odisha](contemporary-creators.md)

@@ -386,3 +386,23 @@
 - [Tribikram Pati: absolute summability thesis catalogue](science-pati-indcat.md)
 
 - [UNESCO Kalinga Prize: laureates register](science-unesco-kalinga-laureates.md)
+
+- [Bibhu Mohapatra on his Roots & His American Dream](creators-bibhu-roots-cfda.md)
+
+- [Bibhu Mohapatra on Fashion, the Immigrant Experience, Michelle Obama, and More](creators-bibhu-cfda-2026.md)
+
+- [Bibhu Mohapatra Fall 2021](creators-bibhu-fall-2021.md)
+
+- [Jatin Das: About the Artist](creators-jatin-official.md)
+
+- [Ministry of Culture Annual Report 2023–24: Jatin Das retrospective](creators-jatin-ngma-2023.md)
+
+- [Jagannath Panda: biography](creators-jagannath-aicon.md)
+
+- [Jagannath Panda: selected work and biography](creators-jagannath-milaaya.md)
+
+- [Go Kiss the World: Life Lessons for the Young Professional](creators-bagchi-go-kiss.md)
+
+- [The Day the Chariot Moved: How India Grows at the Grassroots](creators-bagchi-chariot.md)
+
+- [Penguin Adult Publishing April–June 2025 catalogue: Bagchi listing](creators-bagchi-advance-2025.md)

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T07:08:07.809761-07:00",
+  "updated_at": "2026-10-01T07:21:41.081660-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1145,6 +1145,10 @@
     {
       "run_id": "2026-10-01-science-modern",
       "scope": "Modern science contributions and conflict checks, not weekly statistics."
+    },
+    {
+      "run_id": "2026-10-01-contemporary-creators",
+      "scope": "Contemporary creators requested by user; not weekly release monitoring."
     }
   ],
   "supplemental_discovery_routes": [
@@ -2245,6 +2249,116 @@
       "run_id": "2026-10-01-science-modern",
       "status": "unavailable_direct_fetch",
       "scope": "HTML fetch failed; PDF retrieval succeeded through ja route.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-bibhu-roots-cfda",
+      "discovery_url": "https://cfda.com/news/bibhu-mohapatra-on-his-roots-his-american-dream/",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "Designer describes birth and upbringing in Rourkela, his mother teaching him sewing, and starting his label in 2008. First-person account hosted by professional association. Retail and manufacturing statements are 2020 vintage, not Odisha export statistics. Michelle Obama visit year differs from the 2026 interview; no date adopted from this account.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-bibhu-cfda-2026",
+      "discovery_url": "https://cfda.com/news/bibhu-mohapatra-on-fashion-the-immigrant-experience-michelle-obama-and-more/",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "CFDA Curates FashionSpeak Fridays at National Arts Club documents contemporary professional visibility. Interview dates Obama state-visit outfit to 2015, unlike 2020 interview. Records reported 2017 Chapter 11 and restructuring. Proposed return to India/factory is discussion, not realised Odisha investment.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-bibhu-fall-2021",
+      "discovery_url": "https://cfda.com/news/bibhu-mohapatra-fall-2021/",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "Credited collection with gowns, embroidered guipure dress and vegan-leather coat described by CFDA. Photographs and design rights are not licensed by a public webpage.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-jatin-official",
+      "discovery_url": "https://www.jatindas.com/about",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "Artist biography establishes Mayurbhanj birth in December1941 and credits Parliament painting The Journey of India: Mohenjo-Daro to Mahatma Gandhi, inaugurated2001, dimensions7x68ft. Self-reported title/location/date; current public viewing and centre construction status unverified. Undated this-year statements not treated as2026.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-jatin-ngma-2023",
+      "discovery_url": "https://culture.gov.in/files/annual_reports_document/Final_English_Annual_Report_23_24_for_Net_29082024.pdf",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed official report records exhibition8November2023–7January2024 at NGMA Delhi. Direct PDF returned502; not a full-report read or fresh2026 event. Recover PDF pagination next retry.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-jagannath-aicon",
+      "discovery_url": "https://www.aiconcontemporary.com/artists/jagannath-panda/biography",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "Gallery records birth1970Bhubaneswar, B.K.College training1991, mixed-media painting/drawing/sculpture and its2020solo exhibition. Undated currently-on-view wording does not establish present availability. Gallery biography is not independent museum accession verification.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-jagannath-milaaya",
+      "discovery_url": "https://milaayaartgallery.com/artists/48-jagannath-panda/",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "Gallery credits named2025work. Medium, dimensions, price, sale and ownership not established. Biography mentions Delhi College of Art whereas Aicon gives B.K.College/MSUniversity; Delhi training not adopted without institutional evidence.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-bagchi-go-kiss",
+      "discovery_url": "https://www.penguin.co.in/book/go-kiss-the-world/",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-bagchi-chariot",
+      "discovery_url": "https://www.penguin.co.in/book/the-day-the-chariot-moved/",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_with_scoped_capture",
+      "scope": "Published product record: Penguin Business hardback July2025, ISBN9780143471257,408pages. Odisha skill-development experience is historical. Publisher bestseller wording is not audited sales data. Product metadata differs from advance catalogue; preserve both vintages.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "creators-bagchi-advance-2025",
+      "discovery_url": "https://cdn.penguin.co.in/wp-content/uploads/2025/04/Adult-Publishing-April-June-2025-Catalogue.pdf",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "available_indexed_capture",
+      "scope": "Advance listing uses title ending HOME, June2025 and256pages. Product page for sameISBN gives title withoutHOME, July2025 and408pages. Retain planned metadata separately; use released product record for selected edition. No full catalogue read claimed.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.aiconcontemporary.com/artists/jagannath-panda/exhibitions",
+      "checked_at": "2026-10-01T07:21:41.081660-07:00",
+      "run_id": "2026-10-01-contemporary-creators",
+      "status": "unavailable_direct_fetch",
+      "scope": "Cache miss; no live exhibition dates adopted.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

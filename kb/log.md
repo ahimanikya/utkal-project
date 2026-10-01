@@ -55,3 +55,7 @@ Saved RES-029 manuscript checkpoint: four Bhāsvatī catalogue witnesses and thr
 ## 2026-10-01
 
 Saved RES-029 checkpoint: Tribikram Pati and Gokulananda Mohapatra, three credited works and five explicit conflicts. Existing NISER source reused. [Bounded receipt](records/science-modern-2026-10-01.json). No website changes or human approval claimed.
+
+## 2026-10-01
+
+Added Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi, five credited works and related reading. [Bounded receipt](records/contemporary-creators-2026-10-01.json). Existing Ray/Pattnaik profiles reused. Science research remains active. No website publication or human review claimed.

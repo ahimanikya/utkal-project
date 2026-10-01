@@ -87,3 +87,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Mathematics and Odia science writing · 1 October 2026
 
 [Tribikram Pati](../people/tribikram-pati.md) and [Gokulananda Mohapatra](../people/gokulananda-mohapatra.md) connect mathematical research, science education and Odia writing to credited works. Source conflicts remain visible; neither a journal venue nor an encyclopaedia establishes measured global popularity.
+
+## Contemporary creative lives · 1 October 2026
+
+[Contemporary creators](../people/contemporary-creators.md) connects Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi to five credited creations. Existing Pratibha Ray and Sudarsan Pattnaik profiles are reused. Dated recognition, artistic circulation and economic outcomes remain distinct.

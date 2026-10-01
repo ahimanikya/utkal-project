@@ -115,3 +115,7 @@ RES-029 remains in progress. Four IGNCA Bhāsvatī witnesses and three museum ma
 ### Modern science checkpoint · 1 October 2026
 
 RES-029 remains in progress after adding mathematics and science writing. Continue RES-029 with contemporary computing, engineering and women researchers whose Odisha connections can be documented. Reuse the nine mapped identities. Keep historical attribution open; resolve Mohapatra birth/award and Pati degree conflicts through original registers, retrying failed routes after 2026-10-08.
+
+### Contemporary creators user addition · 1 October 2026
+
+RES-034 completes a bounded four-person/five-work seed with classified links. It does not complete RES-026, RES-030 or RES-032. Resume RES-029 next; failed NGMA PDF and Aicon exhibition routes may be retried after8October.

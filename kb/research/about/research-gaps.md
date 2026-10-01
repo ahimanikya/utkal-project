@@ -146,3 +146,7 @@ Original folios, colophons, acquisition history and Devīdāsa’s commentary id
 ### Modern science attribution gaps · 1 October 2026
 
 Pati’s degree dates differ between memorial and thesis catalogue. Mohapatra’s exact birth date, literary-award year and early article chronology conflict across institutional accounts; his Kalinga honour must not become a UNESCO laureate claim. Original book imprints, English translations, reconciled bibliography and measured readership remain missing. Direct OVA, IndCat, Vigyan Prasar and award-register routes failed; retry after 8 October. All five conflicts are structured in science-heritage.json.
+
+### Contemporary creator evidence · 1 October 2026
+
+Need Parliament inventory for the Das painting, NGMA report pagination, direct dated Aicon exhibition details and institutional education records for Panda. Resolve the Obama-visit year disagreement with original event evidence. Retain Bagchi advance catalogue metadata separately from the released edition. None of these profiles supplies audited sales, art prices or Odisha-origin garment exports. Women and newer creative voices merit a further bounded addition after reuse checks.

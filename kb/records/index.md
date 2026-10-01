@@ -148,3 +148,5 @@
 - [Scientific manuscript checkpoint](science-manuscripts-2026-10-01.json) — Four Bhāsvatī catalogue witnesses and three museum mathematics records; RES-029 remains in progress.
 
 - [Modern science checkpoint](science-modern-2026-10-01.json) — Mathematics and Odia science communication: two contributors, three works and five conflicts; RES-029 remains in progress.
+
+- [Contemporary creators](contemporary-creators-2026-10-01.json) — Four people, five works and related reading; explicit user addition RES-034 complete.

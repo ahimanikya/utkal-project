@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T10:36:48.345446+00:00",
+  "updated_at": "2026-10-01T07:21:41.081660-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1196,6 +1196,65 @@
         "project_records": [
           "kb/registers/records.json",
           "kb/research/destinations/coastal-verification-queue.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-034",
+      "order": 34,
+      "title": "Contemporary creators requested by user",
+      "done_when": "Add four absent contemporary Odisha-linked creators across visual art, writing and fashion, five credited works and one classified collection; document original sources, dated recognition, reuse existing identities, preserve evidence gaps and validate.",
+      "target": "people/contemporary-creators.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T07:21:41.081660-07:00",
+      "next_step": "Bounded seed complete. Resume RES-029; future creative expansion should add absent identities and strengthen women/newer-voice coverage, not duplicate this collection.",
+      "evidence_outputs": [
+        "people/bibhu-mohapatra.md",
+        "people/jatin-das.md",
+        "people/jagannath-panda.md",
+        "people/subroto-bagchi.md",
+        "works/bibhu-fall-2021.md",
+        "works/journey-of-india-jatin-das.md",
+        "works/arch-of-metropolis-ii.md",
+        "works/go-kiss-the-world.md",
+        "works/day-the-chariot-moved.md",
+        "people/contemporary-creators.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-contemporary-creators",
+          "at": "2026-10-01T07:21:41.081660-07:00",
+          "outcome": "completed_bounded_creators_seed",
+          "completion_criteria_met": true,
+          "scope": "Explicit user-requested addition alongside existing sequential queue."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "people/people-and-creations.md",
+          "references/data/people-creations.json",
+          "people/pratibha-ray.md",
+          "people/sudarsan-pattnaik.md",
+          "people/contemporary-creators.md",
+          "people/bibhu-mohapatra.md",
+          "people/jatin-das.md",
+          "people/jagannath-panda.md",
+          "people/subroto-bagchi.md",
+          "works/bibhu-fall-2021.md",
+          "works/journey-of-india-jatin-das.md",
+          "works/arch-of-metropolis-ii.md",
+          "works/go-kiss-the-world.md",
+          "works/day-the-chariot-moved.md"
+        ],
+        "project_records": [
+          "kb/research/voices/collection.json",
+          "kb/research/culture/odia-literature-and-literary-lives.md"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
