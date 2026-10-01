@@ -53,3 +53,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 [Related reading](../journeys/rare-earths.md) — Reuses the rare-earth processing record while keeping capacity, actual output and proposals separate.
 
 [Related reading](../statistics/industrial-production.md) — Links ore extraction to plant-level output research; mineral and processed-metal quantities must not be summed.
+
+## Coal series checkpoint · 1 October 2026
+
+[Coal’s full timeline](../statistics/coal-production.md) now preserves ten annual observations, a five-year comparison, two coalfields’ resource classes and six selected block identities. Ore reconciliation and wider district mapping remain open.

@@ -304,3 +304,7 @@ RES-044 advanced with seven sources, three regional dance pages and a connected 
 ## Music credits and access milestone · 1 October 2026
 
 RES-044 completed its bounded initial dance/music deliverable: three song chapters, four sources, two limited muted access checks and a dated Bhubaneswar event added. Preserved metadata scope differences and unknown rights. Next eligible in-progress task: RES-051 mining. No website release.
+
+## Coal series checkpoint · 1 October 2026
+
+RES-051 remains in progress. Added49 coal observations and four calculations, ten-year observation coverage with five-year growth, dated resource classes and six selected blocks. Preserved decline, flat output, blank cells and older imported baseline. Next: ore series and district identities.

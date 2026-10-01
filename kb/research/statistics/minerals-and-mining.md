@@ -22,3 +22,7 @@ IBM reports **3.026 million tonnes of chromite**, all from Odisha, with output *
 The IBM value comparison uses nominal reported production values, not real GSVA or government revenue. Resource stocks, production, dispatch, processing, sales and tax receipts need separate series. The CAG report was listed on 28 September 2026 but covers an earlier audit period; it is not a September 2026 balance.
 
 [Canonical observations](../references/data/statistics-atlas.json) own the numeric records. [Mining coverage](../economy/mining.md) explains the next questions. New data will retain revision history and resolve older imported comparisons rather than silently replace them.
+
+## Coal series checkpoint · 1 October 2026
+
+[Coal production and resources](coal-production.md) adds fuel-mineral evidence alongside the IBM non-fuel figures. These coverage scopes must remain separate.

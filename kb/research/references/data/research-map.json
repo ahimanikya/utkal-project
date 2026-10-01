@@ -16343,6 +16343,56 @@
         "music-chaurasia-cinemaazi"
       ],
       "added_at": "2026-10-01T22:40:02.923935+00:00"
+    },
+    {
+      "id": "sources/mining-coal-directory2025",
+      "title": "Coal Directory of India 2024–25",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-coal-directory2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-coal-directory2025"
+      ],
+      "added_at": "2026-10-01T22:57:07.408987+00:00"
+    },
+    {
+      "id": "sources/mining-ocpl-rr",
+      "title": "Manoharpur resettlement and rehabilitation",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-ocpl-rr.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-ocpl-rr"
+      ],
+      "added_at": "2026-10-01T22:57:07.408987+00:00"
+    },
+    {
+      "id": "statistics/coal-production",
+      "title": "Odisha coal: growth with the full timeline",
+      "kind": "Statistical Topic",
+      "layer": "research_concept",
+      "source_path": "statistics/coal-production.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "nature",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-coal-directory2025",
+        "mining-ocpl-rr"
+      ],
+      "added_at": "2026-10-01T22:57:07.408987+00:00"
     }
   ],
   "shared_publications": [
@@ -17365,7 +17415,8 @@
         "economy/comparison-06-mining.md",
         "economy/comparison-07-mining.md",
         "economy/comparison-08-mining.md",
-        "references/data/industry-growth-data.json"
+        "references/data/industry-growth-data.json",
+        "statistics/coal-production.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
@@ -17605,8 +17656,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1127,
-    "updated_at": "2026-10-01T22:40:02.923935+00:00",
+    "records_mapped": 1130,
+    "updated_at": "2026-10-01T22:57:07.408987+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -18042,6 +18093,11 @@
       "run_id": "2026-10-01-music-credits",
       "at": "2026-10-01T22:40:02.923935+00:00",
       "scope": "Three new song identities after source/project searches; one shared label upload and its distribution metadata are one evidential family. Existing Chaurasia and Dalkhai records enhanced."
+    },
+    {
+      "run_id": "2026-10-01-mining-series",
+      "at": "2026-10-01T22:57:07.408987+00:00",
+      "scope": "Coal time series and selected identity fields extend existing mining collection; no duplicate imported comparison."
     }
   ]
 }

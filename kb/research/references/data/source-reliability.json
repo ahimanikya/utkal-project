@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T22:40:02.923935+00:00",
+  "updated_at": "2026-10-01T22:57:07.408987+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4740,6 +4740,51 @@
       "status": "recovered_in_browser",
       "scope": "Web fetch failed; browser recovered page and limited muted playback.",
       "retry_after": null
+    },
+    {
+      "source_id": "mining-coal-directory2025",
+      "discovery_url": "https://coal.gov.in/sites/default/files/2024-03/28-11-2025a-stc.pdf",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "available",
+      "scope": "Original PDF downloaded and extracted; production, resource and mine table pages visually checked. Publication date from Coal Controller directory listing. MT means million tonnes. Geological resource table credits GSI; not an economically recoverable inventory.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ocpl-rr",
+      "discovery_url": "https://ocpl.org.in/RandR.asp",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "available",
+      "scope": "Direct web text. Used for Hemgir/Sundargarh location and attributed livelihood objective, not independently verified current outcomes. Main narrative and October2019 land table differ; land totals not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://coal.gov.in/sites/default/files/2024-03/28-11-2025a-stc.pdf",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "recovered",
+      "scope": "Web tool size-limit failure; original PDF subsequently downloaded, extracted and relevant table pages visually checked.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://environmentclearance.nic.in/auth/FORM_A_PDF.aspx?cat_id=IA%2FOR%2FCMIN%2F75826%2F2018&pid=New",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "unavailable",
+      "scope": "502 Bad Gateway; Talabira district match remains unverified in this capture.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ocpl.org.in/PDF/COAL_SALE_NOTICE_NEWS_PAPER07-11-2024.pdf",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "unavailable",
+      "scope": "Direct web fetch returned Internal Error; not unchanged.",
+      "retry_after": "2026-10-08"
     }
   ]
 }

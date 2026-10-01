@@ -290,3 +290,7 @@ RES-044 now has attributed origin layers, four regional traditions with named pr
 ## Music credits and access milestone · 1 October 2026
 
 RES-044’s bounded deliverable is complete. Original AIR and Jayantika dates, original recording/session documents, ISRCs, full discography, regional-video performer identities and rights remain open. The Dalkhai link plays but uploader credits are absent; retain register attribution. Different Gapa Helebi Sata catalogue dates and track counts cannot certify original release.
+
+## Coal series checkpoint · 1 October 2026
+
+RES-051 coal checkpoint: ten annual production/share rows, dated geological categories and six selected blocks saved. Ore time series,2014–15 coal baseline, most district/MDO identities and household outcomes remain open. Talabira primary application fetch and OCPL sale PDF unavailable; retry8October. OCPL narrative/table land scopes differ and are held.

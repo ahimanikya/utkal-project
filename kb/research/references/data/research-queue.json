@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T22:40:02.923935+00:00",
+  "updated_at": "2026-10-01T22:57:07.408987+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2264,17 +2264,20 @@
       "done_when": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-015"
       ],
-      "last_worked_at": "2026-10-01T19:12:14.031317+00:00",
-      "next_step": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
+      "last_worked_at": "2026-10-01T22:57:07.408987+00:00",
+      "next_step": "Recover comparable iron ore, bauxite, chromite and manganese annual tables; verify further district aliases, lease/MDO identities and 2014-15 coal baseline.",
       "evidence_outputs": [
         "economy/mining.md",
         "statistics/minerals-and-mining.md",
-        "references/data/mining-programme.json"
+        "references/data/mining-programme.json",
+        "sources/mining-coal-directory2025.md",
+        "sources/mining-ocpl-rr.md",
+        "statistics/coal-production.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2283,6 +2286,12 @@
           "run_id": "2026-10-01-mining-programme",
           "at": "2026-10-01T19:12:14.031317+00:00",
           "outcome": "national_contribution_and_dmf_baseline_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-mining-series",
+          "at": "2026-10-01T22:57:07.408987+00:00",
+          "outcome": "coal_series_resources_and_selected_blocks_checkpoint",
           "completion_criteria_met": false
         }
       ],
@@ -2294,7 +2303,8 @@
           "economy/comparison-06-mining.md",
           "economy/comparison-07-mining.md",
           "economy/comparison-08-mining.md",
-          "references/data/industry-growth-data.json"
+          "references/data/industry-growth-data.json",
+          "statistics/coal-production.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

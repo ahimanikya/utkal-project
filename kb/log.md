@@ -215,3 +215,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Odia music credits
 
 [Research receipt](records/music-credits-2026-10-01.json): Three credited Odia songs linked to Chaurasia; scoped media checks and unresolved edition dates preserved. No website release.
+
+## 1 October 2026 · Coal production and resource evidence
+
+[Research receipt](records/mining-series-2026-10-01.json): 49 coal observations and four calculations added; ore series and broader district identities remain open. No website release.

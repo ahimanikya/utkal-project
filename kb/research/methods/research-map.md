@@ -259,3 +259,7 @@ Existing Odissi, Kelucharan, Chaurasia and Mayurbhanj Chhau reused, including na
 ## Music credits and access milestone · 1 October 2026
 
 Three song identities added after saved-knowledge/name searches. Existing Chaurasia and Dalkhai reused. Label video and distribution metadata share provenance; catalogue editions are not additional independent works.
+
+## Coal series checkpoint · 1 October 2026
+
+RES-051 enhanced existing mining concepts; added one coal topic and two source records after saved-knowledge searches. Directory production, resource and block tables share one publication; OCPL’s current page contains historical2019 data. Six selected blocks are not statewide coverage.

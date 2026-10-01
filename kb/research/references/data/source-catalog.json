@@ -5170,5 +5170,29 @@
     "locator": "YouTube title, expanded description and displayed streamed-live date",
     "capture_method": "browser_rendered_text_and_player_state",
     "capture_note": "Government panel links this URL as Dalkhai under PRATIVA; uploader page itself gives no description or performer credits. Muted player progressed00:00→00:03→00:39, not a full or audible performance review. Artist identity and dance classification still rely on the register."
+  },
+  "mining-coal-directory2025": {
+    "id": "mining-coal-directory2025",
+    "title": "Coal Directory of India 2024–25",
+    "resource": "https://coal.gov.in/sites/default/files/2024-03/28-11-2025a-stc.pdf",
+    "publisher": "Ministry of Coal, Office of Deputy Director General",
+    "published_on": "2025-11-13",
+    "accessed_on": "2026-10-01",
+    "locator": "Table 3.9 printed pp.59–60/PDF83–84; Table 2.3 printed pp.21–26/PDF45–50, Odisha p.25; Table 3.26 printed p.78/PDF102",
+    "capture_method": "downloaded_pdf_text_and_visual_check",
+    "capture_note": "Original PDF downloaded and extracted; production, resource and mine table pages visually checked. Publication date from Coal Controller directory listing. MT means million tonnes. Geological resource table credits GSI; not an economically recoverable inventory.",
+    "publication_listing": "https://coalcontroller.gov.in/coal-directory-india",
+    "sha256": "0aea9de13abbdbb2537d06ed2c56e2c51b85d8a287de83d25939d3a5b211edbb"
+  },
+  "mining-ocpl-rr": {
+    "id": "mining-ocpl-rr",
+    "title": "Manoharpur resettlement and rehabilitation",
+    "resource": "https://ocpl.org.in/RandR.asp",
+    "publisher": "Odisha Coal and Power Limited",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "locator": "Overview; October2019 displacement/land tables; sustainable livelihood objectives",
+    "capture_method": "direct_web_text",
+    "capture_note": "Direct web text. Used for Hemgir/Sundargarh location and attributed livelihood objective, not independently verified current outcomes. Main narrative and October2019 land table differ; land totals not adopted."
   }
 }

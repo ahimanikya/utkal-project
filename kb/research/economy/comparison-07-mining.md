@@ -23,3 +23,7 @@ stale_after: "2027-03-01T00:00:00Z"
 [Stored comparison](../references/data/industry-growth-data.json) · [Calculation method](../methods/growth-calculations.md)
 
 [^comparison-7-1]: [Mining comparison source 1](https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport)
+
+## Coal series checkpoint · 1 October 2026
+
+The [new Coal Directory series](../statistics/coal-production.md) reports 269.363 million tonnes for2024–25, matching this endpoint at two decimals. The2014–15 baseline remains unreconciled; this imported comparison is preserved, not independently reverified.
