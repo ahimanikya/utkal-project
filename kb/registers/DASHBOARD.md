@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f71232277304c9715b67dac357428a53365b12218b73f2d33a272076dcef2577`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b8577b54c5ad2b0f1a2e96c63f82f8a22ef1c6fc6d8f321109bcd758f57c96df`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -136,7 +136,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-121 · Responsive collection and onward-story images | completed | published | Ahimanikya Satapathy | Published under UTP-REL-029. Keep browser visual and measured network-performance review open. | — |
 | UTP-WORK-122 · Reversible Explore filters and result recovery | completed | published | Ahimanikya Satapathy | Published under UTP-REL-030. Keep real browser and assistive-technology verification open. | — |
 | UTP-WORK-123 · Odisha roots: rasagola and Bose’s Cuttack childhood | completed | published | Ahimanikya Satapathy | Published under UTP-REL-031. Retain original-document, specialist and browser follow-ups; no exclusive-origin verdict implied. | — |
-| UTP-WORK-124 · Illustrated Odisha Roots stories and journey integration | in_progress | reviewed | Ahimanikya Satapathy | Review the feature candidate and evidence. Publication awaits explicit Founder approval. Original-document, specialist and browser follow-ups remain open. | — |
+| UTP-WORK-124 · Illustrated Odisha Roots stories and journey integration | completed | published | Ahimanikya Satapathy | Published under UTP-REL-032. Retain original-document, specialist and browser follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -325,6 +325,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-125 · Foreground Odisha roots in Rasagola and Bose articles | approved | Ahimanikya Satapathy | Research and prepare article revisions showing Odisha connections. Exact publication candidate remains subject to Founder review. |
 | UTP-DEC-126 · Approve and publish PR 31 Odisha-rooted articles | approved | Ahimanikya Satapathy | Direct affirmative reply to the PR 31 review handoff, approving head 38221841fd8494a144189d387f56783f62d610b2 for publication. Search indexing remains disabled. |
 | UTP-DEC-127 · Prepare Odisha Roots feature batch | approved | Ahimanikya Satapathy | Approve the proposed next batch of Rasagola and Bose feature stories, licensed photographs, discovery and journey links, and further archival investigation. Prepare one reviewable PR; publication remains a later Founder gate. |
+| UTP-DEC-128 · Approve and publish PR 32 illustrated Odisha Roots stories | approved | Ahimanikya Satapathy | Direct approval of PR 32 at fb2a16955ff3587bab9e1db37dceb805f59bf3a7 after review handoff, authorizing merge and publication. Search indexing remains disabled. |
 
 ## Reviews
 
@@ -429,6 +430,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-099 | pass_with_limitations | False | Same assistant researched, edited and checked this candidate; no independent historical or native-language review claimed.; OSIC is a GI co-applicant. Its account is explicitly attributed; the cited original temple register and critical literary edition have not been independently inspected. No exact invention date or exclusive-origin verdict asserted.; Bose’s autobiography is retrospective testimony, read through a digital reproduction hosted by the Rare Book Society of India. School visitor access is not established.; The Pahala/Salepur travelogue describes a 2019 visit; no current prices, opening hours, seller ranking or image rights inferred.; No new media. The Puri food cover continues to identify its chhena poda photograph; it is not presented as rasagola.; Rendered browser checks remain open under the earlier browser security-policy limitation. Normal publication remains noindex. |
 | UTP-REV-100 | pass_with_limitations | False | Same assistant researched, edited and checked this candidate; no independent historical or native-language review claimed.; OSIC is a GI co-applicant. Its account is explicitly attributed; the cited original temple register and critical literary edition have not been independently inspected. No exact invention date or exclusive-origin verdict asserted.; Bose’s autobiography is retrospective testimony, read through a digital reproduction hosted by the Rare Book Society of India. School visitor access is not established.; The Pahala/Salepur travelogue describes a 2019 visit; no current prices, opening hours, seller ranking or image rights inferred.; No new media. The Puri food cover continues to identify its chhena poda photograph; it is not presented as rasagola.; Rendered browser checks remain open under the earlier browser security-policy limitation. Normal publication remains noindex.; Publication verification checks live HTTP, text and source delivery; it does not independently authenticate historical claims or complete browser visual review. |
 | UTP-REV-101 | pass_with_limitations | False | Same assistant researched, wrote and checked this candidate; no independent historical or native-language review claimed.; GI Journal 116 p. 10 is the filed historical account. The cited original temple register, critical literary edition and earliest manuscript witness remain uninspected. No exclusive-origin verdict or precise invention date asserted.; Bose’s memoir is retrospective testimony read through a digital reproduction. School access and current museum operations remain unconfirmed.; Pahala/Salepur links come from a dated 2019 visit account; no current seller recommendation or food-service inspection.; New photographs are later documentary views with creator licences; none depicts an authenticated historical event.; Browser visual and native PDF checks remain open under the earlier browser security-policy limitation. Automated build checks do not establish rendered visual quality. |
+| UTP-REV-102 | pass_with_limitations | False | Same assistant researched, wrote and checked this candidate; no independent historical or native-language review claimed.; GI Journal 116 p. 10 is the filed historical account. The cited original temple register, critical literary edition and earliest manuscript witness remain uninspected. No exclusive-origin verdict or precise invention date asserted.; Bose’s memoir is retrospective testimony read through a digital reproduction. School access and current museum operations remain unconfirmed.; Pahala/Salepur links come from a dated 2019 visit account; no current seller recommendation or food-service inspection.; New photographs are later documentary views with creator licences; none depicts an authenticated historical event.; Browser visual and native PDF checks remain open under the earlier browser security-policy limitation. Automated build checks do not establish rendered visual quality.; Publication verification establishes live HTTP/content/image delivery and portable exports from live data; it does not complete browser interaction or independent historical review. |
 
 ## Publication and application history
 
@@ -465,6 +467,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-029 · Responsive collection and onward-story images published | published | https://utkalproject.org/ | UTP-DEC-122 |
 | UTP-REL-030 · Reversible Explore filters published | published | https://utkalproject.org/ | UTP-DEC-124 |
 | UTP-REL-031 · Odisha roots in Rasagola and Bose stories published | published | https://utkalproject.org/ | UTP-DEC-126 |
+| UTP-REL-032 · Illustrated Rasagola and Bose childhood stories published | published | https://utkalproject.org/ | UTP-DEC-128 |
 
 ## Sources and assets
 
@@ -502,7 +505,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-131 | 2026-10-01T12:51:36.198186+00:00 | Founder-approved PR 27 published. Practical notes precede onward invitations; getting-started details are expandable; Chilika literary citation repaired. All 67 pages remain noindex. | Keep visual, language and local-condition reviews open; seek a separate precise decision before search activation. |
 | UTP-EVT-132 | 2026-10-01T13:02:59.327814+00:00 | Prepared compact mobile contents for 23 visitor-detail guides and targeted opening for linked collapsed sections. Existing search and publication scope retained. | Founder review; browser, physical-device and screen-reader checks remain open. |
 | UTP-EVT-133 | 2026-10-01T13:20:46.634165+00:00 | Founder-approved PR 28 published. Live checks cover 67 pages, compact contents on 23 visitor-detail routes and navigation bundle delivery. Search indexing remains disabled. | Continue the broader experience review; keep real browser and assistive-technology checks open. |
 | UTP-EVT-134 | 2026-10-01T13:59:27.137226+00:00 | Prepared responsive Explore and onward-story images, completed coverage of 29 existing raster sources and named derivatives from actual encoded bytes. Preserved originals and credits. | Founder review; no deployment or indexing activation. |
@@ -512,6 +514,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-138 | 2026-10-01T15:41:23.464442+00:00 | Prepared Odisha-rooted rasagola and Bose articles using an attributed institutional account, registry and autobiography. Tests pass; candidate not published. | Founder reviews the candidate and source limitations. |
 | UTP-EVT-139 | 2026-10-01T15:54:43.126434+00:00 | Founder-approved PR 31 published. Live checks cover 67 pages and confirm revised Odisha-rooted passages, source links and journey source delivery. Indexing remains disabled. | Preserve outstanding original-document, specialist and browser review requirements. |
 | UTP-EVT-140 | 2026-10-01T16:15:57.356758+00:00 | Prepared two illustrated Odisha-rooted features with distinct journey items and source evidence. Tests pass; publication not authorized in this batch. | Founder reviews the candidate; retain archival, specialist and visual follow-ups. |
+| UTP-EVT-141 | 2026-10-01T16:26:51.073904+00:00 | Founder-approved PR 32 published. Live checks cover 69 pages, feature text and links, three image hashes and portable exports using live journey data. | Retain original-document, specialist and browser review requirements; await the next work scope. |
 
 ## Deferred extensions
 

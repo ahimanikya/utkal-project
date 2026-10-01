@@ -102,4 +102,4 @@ Latest language release: [Languages and Living Voices publication](records/livin
 
 Visitor experience release: [PR 23 publication evidence](records/visitor-experience-publication.json). Search indexing remains disabled.
 
-- [Odisha Roots feature candidate](records/odisha-roots-features-review.json) — illustrated Rasagola and Bose stories, portable notes and source limits.
+- [Odisha Roots stories and publication](records/odisha-roots-features-publication.json) — illustrated Rasagola and Bose stories, portable notes and source limits.

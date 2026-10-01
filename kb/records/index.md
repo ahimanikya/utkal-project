@@ -127,4 +127,4 @@
 
 - [Research sync approval and merge](research-sync-merge.json)
 
-- [Odisha Roots feature candidate and checks](odisha-roots-features-review.json)
+- [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)
