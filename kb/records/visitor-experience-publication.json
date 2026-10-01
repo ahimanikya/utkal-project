@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-01T10:54:47.428210+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-112",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/23",
+  "approved_head": "98cbc4e21e2e0814ac8b5a82edd9288cfa5fe61b",
+  "deployed_sha": "1482fc07c89c06adeacf63493cdd8193b328b9d9",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36851557601",
+  "destination": "https://utkalproject.org/food/mudhi-mansa/",
+  "scope": "Visitor navigation, mobile contents, connected cultural reading and subject-specific sharing previews published. Same 67 pages, 61 saveable ideas and nine starters. Search indexing remains disabled.",
+  "verification": [
+    "Workflow built, tested and deployed the approved merged revision; its tree matched approved PR head.",
+    "All 67 pages returned HTTP 200 with the expected 61 saved ideas and nine starters.",
+    "All selected pages match the approved sharing metadata and preview indexing controls.",
+    "All 25 sharing image hashes match the approved exported assets.",
+    "Breadcrumbs, mobile story contents and Mudhi Mansa-to-Santali connection confirmed in the published HTML.",
+    "Live phone contents and food-to-language link followed in browser; screenshots and visible DOM inspected.",
+    "HTTP language directory redirects to HTTPS and returns HTTP 200."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and verified the release; no independent review claimed.",
+    "Production checks are read-only; saved-journey interactions and downloaded-book checks remain the local synthetic candidate evidence.",
+    "Language, specialist, local-condition, physical-device and screen-reader review remain open.",
+    "Search indexing remains disabled. No Search Console submission or social-platform cropping/cache verification.",
+    "No new content routes, store exposure or claims of reviewed travel arrangements."
+  ],
+  "evidence": [
+    "records/evidence/visitor-experience-publication/approval.json",
+    "records/evidence/visitor-experience-publication/deployment.json",
+    "records/evidence/visitor-experience-publication/live-checks.json",
+    "records/evidence/visitor-experience-publication/phone-contents-live.png",
+    "records/evidence/visitor-experience-publication/food-connection-live.png",
+    "records/evidence/visitor-experience-publication/browser-checks.json"
+  ]
+}

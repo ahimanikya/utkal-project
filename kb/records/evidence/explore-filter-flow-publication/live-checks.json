@@ -1,0 +1,773 @@
+{
+  "recorded_at": "2026-10-01T15:26:18.500324+00:00",
+  "scope": "Read-only live HTTP and markup checks plus Explore controller-byte comparison with the reviewed local build. This does not exercise native browser history, focus, composition, rendered layout or assistive technology.",
+  "pages": [
+    {
+      "route": "/destinations/bhubaneswar/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/dhauli/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/knowledge/konark/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/destinations/puri/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/raghurajpur/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/food/puri-coast/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/puri-coast/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/404.html",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/explore/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true,
+        "collection_size": true,
+        "topic_count_controls": true,
+        "removal_controls": true,
+        "live_status": true,
+        "no_script_collection": true,
+        "empty_guidance": true,
+        "initial_topic_counts": true,
+        "controller_delivery": true
+      },
+      "passed": true,
+      "controllers": [
+        {
+          "src": "/_astro/explore.astro_astro_type_script_index_0_lang.DjUp5_a-.js",
+          "http_status": 200,
+          "sha256": "c1a183fd128293651971021a4882277c4e2c6fb2c5f4074b26f35ebdec1a22a7",
+          "matches_reviewed_build": true,
+          "event_markers_present": true
+        }
+      ],
+      "topic_counts": {
+        "All": "54",
+        "Food": "6",
+        "Places": "16",
+        "Experiences": "6",
+        "Stay areas": "8",
+        "Living culture": "1",
+        "Languages": "9",
+        "Literature": "2",
+        "People": "6"
+      }
+    },
+    {
+      "route": "/journey/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/journey-starters/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/about/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/founder/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/contribute/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/how-to-use/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/knowledge/chilika/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/mangalajodi/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/kalijai/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/satapada/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/experiences/mangalajodi-birdwatching/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/experiences/kalijai-crossing/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/experiences/satapada-boating/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/mangalajodi/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/barkul-rambha/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/rajhans-satapada/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/mukteswar/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/food/bhubaneswar/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/bhubaneswar/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/stories/bhubaneswar-fresco/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/destinations/cuttack/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/barabati/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/experiences/cuttack-filigree/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/food/cuttack/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/experiences/cuttack-netaji/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/cuttack/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/odia/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/literature/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/people/fakir-mohan-senapati/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/literature/six-acres-and-a-third/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/people/sarala-das/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/people/pratibha-ray/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/people/bhima-bhoi/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/people/gopinath-mohanty/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/people/gangadhar-meher/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/destinations/balasore/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/destinations/mayurbhanj/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/chandipur/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/places/similipal/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/experiences/mayurbhanj-chhau/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/balasore-coast/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/visit/stays/similipal-gateways/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/food/chhena-poda/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/food/mudhi-mansa/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/food/balasore/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/destinations/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/food/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/things-to-do/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/stay-areas/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/santali/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/kui/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/kuvi/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/saora/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/ho/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/juang/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/languages/koya/",
+      "http_status": 200,
+      "checks": {
+        "http_ok": true,
+        "preview_noindex": true,
+        "privacy_link": true,
+        "no_persistent_cookie_message": true
+      },
+      "passed": true
+    }
+  ],
+  "sitemap_http_status": 404,
+  "passed": true
+}

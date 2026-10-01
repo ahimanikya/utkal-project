@@ -1,3 +1,4 @@
+import bose from '../../../../kb/research/people/subhas-chandra-bose.json';
 import visitQuestions from '../../../../kb/research/destinations/visit-questions.json';
 import visitNotebooks from '../../../../kb/research/destinations/visit-notebooks.json';
 import aliases from '../../../../kb/research/discovery-aliases.json';
@@ -27,6 +28,8 @@ for(const [slug,pilot] of Object.entries(pilots)){
 }
 for(const r of detailRecords.filter(r=>r.kind==='places'&&pilots[r.parent]))entries.push({id:'place:'+r.slug,title:r.title,kind:'Place',area:r.parent==='chilika'?'Chilika':'Konark',summary:r.lead,href:detailUrl(r.kind,r.slug),checked:r.checked_on,sources:detailSources(r).map(s=>({title:s.title,url:s.resource}))});
 for(const p of voices.pages.filter(p=>p.path.split('/').length>1))entries.push({id:'reading:'+p.path,title:p.title,kind:'Reading',area:'Culture & language',summary:p.lead,href:'/'+p.path+'/',checked:p.checked_on||voices.checked_on,practical:p.reading_notes,sources:[...new Set([...p.sections.flatMap(s=>s.paragraphs.flatMap(v=>v.source_ids)),...(p.learning_resource?[p.learning_resource.source_id]:[])])].map(id=>({title:voices.sources[id].title,url:voices.sources[id].url}))});
+for(const p of foodCollection.pages.filter(p=>!entries.some(item=>item.id===p.save_id)))entries.push({id:p.save_id,title:p.title,kind:'Food',area:p.planning_area||p.area,summary:p.lead,href:'/food/'+p.slug+'/',checked:p.checked_on||foodCollection.checked_on,sources:[]});
+entries.push({id:bose.save_id,title:bose.title,kind:'Reading',area:bose.area,summary:bose.lead,href:'/'+bose.path+'/',checked:bose.checked_on,practical:bose.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' ')})),sources:Object.values(bose.sources).map(s=>({title:s.title,url:s.url}))});
 const pakhala=notes.find(n=>n.slug==='pakhala');
 entries.push({id:'food:pakhala',title:pakhala.label,kind:'Food',area:'Odisha',summary:pakhala.dek,href:pakhala.href,checked:'2026-09-29',sources:pakhala.sources.map(s=>({title:s.title,url:s.resource}))});
 export const journeyCatalog=entries.filter(item=>allowsIdea(item.id)).map(original=>{

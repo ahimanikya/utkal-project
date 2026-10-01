@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-01T12:51:36.198186+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-118",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/27",
+  "approved_head": "39eda37bf34ff1bd0f29d156d9bde3b844fcddee",
+  "deployed_sha": "87990387387db43216e9fd3868a6d37958856ec6",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36864336544",
+  "destination": "https://utkalproject.org/",
+  "scope": "Publish the approved guide-flow, getting-started and Chilika literary-reference refinements from PR 27.",
+  "verification": {
+    "approved_tree": "Merged tree matched approved PR head before dispatch.",
+    "workflow": "Release build, full and coastal test suites, and Pages deployment succeeded.",
+    "live_pages": 67,
+    "practical_note_routes": 9,
+    "flow": "Nine note routes each have exactly one note before notebook/onward/credits; other published routes have none.",
+    "getting_started": "Editing and book-option disclosures and visible browser-data warning verified live.",
+    "chilika": "Direct Odia poem link present, broken tourism reference absent and language-review limitation retained.",
+    "search": "All 67 pages retain noindex, nofollow; sitemap.xml returns 404."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Implementation and verification by the same assistant; no independent review claimed.",
+    "Live verification uses read-only HTTP and markup. Browser security-policy verification was unavailable during candidate review; visual, keyboard, screen-reader and device checks remain open.",
+    "No local arrangements or field conditions verified. Odia scanned-edition and translation review remains open.",
+    "Search indexing remains disabled; proposed search scope has not been activated."
+  ],
+  "evidence": [
+    "records/evidence/first-edition-editorial-publication/deployment.json",
+    "records/evidence/first-edition-editorial-publication/pull-request.json",
+    "records/evidence/first-edition-editorial-publication/live-checks.json"
+  ]
+}

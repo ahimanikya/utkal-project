@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-01T12:23:45.213530+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-116",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/26",
+  "approved_head": "30545a3ee461ce277cc52700551017b783ba572c",
+  "deployed_sha": "4782bb8315fd8e621789c6bd998be8eafd835990",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36860982525",
+  "destination": "https://utkalproject.org/",
+  "scope": "Publish practical planning notes, mobile contents behaviour and responsive image delivery. Preserve the separate unactivated 11-page search proposal.",
+  "verification": {
+    "approved_tree": "Merged tree matched approved PR head before publication dispatch.",
+    "workflow": "Deployment completed successfully including full and coastal test suites.",
+    "live_pages": 67,
+    "responsive_assets_verified": 49,
+    "practical_note_routes": 9,
+    "search_boundary": "All 67 pages retain noindex, nofollow; /sitemap.xml returns 404.",
+    "image_delivery": "All 49 published responsive WebP files match the exact successful GitHub deployment artifact."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and verified the release; no independent editorial, accessibility or field review claimed.",
+    "Live verification uses read-only HTTP, published markup and image hashes. The browser security-policy issue left visual, screen-reader, zoom and physical-device review open.",
+    "Official-source checks do not confirm local arrangements, booking availability or current operation.",
+    "Image savings are encoded-byte comparisons, not measured real-user page-speed improvements.",
+    "Five locally encoded WebP files differ from the Ubuntu build. All live variants match the exact successful deployment artifact. Decoded comparisons preserve dimensions with mean channel differences below 1.93 on a 0–255 scale; no perceptual-equivalence claim.",
+    "Search proposal is not activated. The live site remains noindex, with no served sitemap or Search Console submission."
+  ],
+  "evidence": [
+    "records/evidence/public-launch-readiness-publication/deployment.json",
+    "records/evidence/public-launch-readiness-publication/pull-request.json",
+    "records/evidence/public-launch-readiness-publication/live-checks.json",
+    "records/evidence/public-launch-readiness-publication/local-byte-comparison.json",
+    "records/evidence/public-launch-readiness-publication/encoding-comparison.json"
+  ]
+}

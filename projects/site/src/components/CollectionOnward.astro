@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
 import {allowsPage} from '../data/edition';
 import {collection,collectionChapter} from '../data/reading-collection';
 import {bookPhotos} from '../data/book-photos';
@@ -13,7 +14,7 @@ const further=candidates.filter((link,i)=>allowsPage(link.href)&&!chapterHrefs.h
 ---
 {index>=0&&<section id="collection-onward" class="collection-onward" aria-labelledby="collection-heading">
  <header><p class="eyebrow">City, craft and coast · Chapter {index+1} of {collection.chapters.length}</p><h2 id="collection-heading">{next?<>Follow the story.<br/><em>Next, {next.title}.</em></>:<>Keep what moved you.<br/><em>Make it your journey.</em></>}</h2><p>{next?next.invitation:'A city, a hill, a temple, a shore and a village of makers. Choose what you want to return to; give those encounters their own time.'}</p></header>
- {photo&&<figure><img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy"/><figcaption>{photo.caption||photo.alt}</figcaption></figure>}
+ {photo&&<figure><ResponsiveImage sizes="(max-width: 750px) 88vw, 40vw" src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy"/><figcaption>{photo.caption||photo.alt}</figcaption></figure>}
  <div class="collection-actions"><a class="utk-button" href={next?.href||'/journey/'}>{next?'Continue to '+next.title:'Open my journey'} →</a><a href={collection.starter_href}>Start with city, craft and coast →</a>{next&&<a href="/journey/">Open my journey →</a>}</div>
  <nav class="collection-chapters" aria-label="City, craft and coast chapters"><ol>{collection.chapters.map((chapter,i)=><li><a href={chapter.href} aria-current={i===index?'page':undefined}><span aria-hidden="true">{String(i+1).padStart(2,'0')}</span>{chapter.title}{i===index&&<small>Reading now</small>}</a></li>)}</ol></nav>
  <p class="collection-note">{collection.description}</p>

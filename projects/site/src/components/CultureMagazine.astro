@@ -1,6 +1,7 @@
 ---
 import {isCoastalEdition} from '../data/edition';
 import MagazineCover from './MagazineCover.astro';
+import MagazineContents from './MagazineContents.astro';
 import CultureCards from './CultureCards.astro';
 import LanguageDirectory from './LanguageDirectory.astro';
 import LanguageLearning from './LanguageLearning.astro';
@@ -17,7 +18,13 @@ const start=hub&&entry.cards.length?'#reading-doors':'#'+entry.sections[0].id;
 ---
 <div class:list={["utk-magazine","utk-magazine--culture",{"culture-script":hero?.kind==='script'}]}>
  <MagazineCover title={entry.title} eyebrow={entry.kicker} deck={[entry.lead]} photo={hero} caption={entry.hero_caption||hero?.caption} identity={entry.identity_panel} identityLabel={entry.identity_label||kind} identityNote={entry.identity_note||'A reading doorway, not a script specimen.'} saveId={hub?undefined:'reading:'+entry.path} startHref={start} startLabel={hub?'Find a reading doorway':'Follow the story'} footline="A place becomes richer when you listen to its voices."/>
- <nav class="mag-navigation" aria-label="On this page">{hub&&entry.cards.length>0&&<a href="#reading-doors">A place to begin</a>}{entry.sections.map(s=><a href={'#'+s.id}>{s.title}</a>)}{entry.learning_resource&&<a href="#learning-shelf">Reading shelf</a>}{entry.language_contribution&&<a href="#share-a-voice">Share a voice</a>}{entry.roster&&<a href="#more-voices">More voices</a>}</nav>
+ <MagazineContents links={[
+ ...(hub&&entry.cards.length?[{href:'#reading-doors',label:'A place to begin'}]:[]),
+ ...entry.sections.map(s=>({href:'#'+s.id,label:s.title})),
+ ...(entry.learning_resource?[{href:'#learning-shelf',label:'Reading shelf'}]:[]),
+ ...(entry.roster?[{href:'#more-voices',label:'More voices'}]:[]),
+ ...(entry.language_contribution?[{href:'#share-a-voice',label:'Share a voice'}]:[])
+ ]}/>
  <article class="mag-content">
   {hub&&(entry.path==='languages'?<LanguageDirectory entry={entry}/>:<CultureCards entry={entry}/>)}
   <div class="mag-article-chapters">{entry.sections.map((s,index)=><section id={s.id} class:list={['mag-reading-section',{'mag-reading-section--warm':index===1}]}><div><p class="eyebrow">{String(index+1).padStart(2,'0')} · {kind}</p><h2>{s.title}</h2></div><div>{s.paragraphs.map(p=><p data-source-ids={p.source_ids.join(' ')}>{p.text}</p>)}</div></section>)}</div>

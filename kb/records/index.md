@@ -164,3 +164,9 @@
 - [Computing and space research completion](science-women-2026-10-01.json) — Two people and three credited works; initial RES-029 timeline complete, gaps retained.
 
 - [Homestay evidence checkpoint](homestay-policy-2026-10-01.json) — Public portal geography captured; policy amendments unresolved, operational outcomes still unknown.
+
+- [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)
+
+- [Visitor discovery and research review](visitor-research-review.json) · [Research PR integration findings](research-pr-review.json) · [Current review queue](visitor-review-queue.json)
+
+- [Visitor discovery publication](visitor-research-publication.json) — approved PR 34, live homepage and connected reading checks.

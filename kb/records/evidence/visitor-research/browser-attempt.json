@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-10-01T16:47:43.833358+00:00",
+  "status": "blocked",
+  "skill": "browser:control-in-app-browser",
+  "requested_scope": [
+    "homepage",
+    "Explore",
+    "Chilika",
+    "Odisha Rasagola",
+    "Bose childhood",
+    "mobile and wide-screen review"
+  ],
+  "attempt": "Existing in-app handle disconnected. Runtime inventory refreshed and getForUrl selected Chrome; attempted navigation to https://utkalproject.org/.",
+  "error": "Browser Use could not complete this action because a browser security check was unavailable. Reason: The admin-enforced policy could not be verified, so access was not granted.",
+  "response": "Stopped browser actions; no indirect or alternate-browser workaround.",
+  "not_tested": [
+    "rendered visual layout",
+    "keyboard navigation",
+    "200% zoom",
+    "screen-reader output",
+    "mobile and wide-screen screenshots"
+  ],
+  "note": "Automated HTML and build checks are separate evidence, not a visual audit."
+}

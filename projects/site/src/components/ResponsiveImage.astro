@@ -1,0 +1,5 @@
+---
+import variants from '../../.astro/responsive-images.json';
+const {src,sizes='(max-width: 700px) 92vw, 50vw',...attributes}=Astro.props;
+---
+<img src={src} srcset={variants[src]?.srcset} sizes={variants[src]?sizes:undefined} decoding="async" {...attributes}/>
