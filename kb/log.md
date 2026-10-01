@@ -7,3 +7,7 @@
 ## 2026-10-01
 
 Reconciled research edition 1.3.0 into the existing research collection at the Founder’s request to push to ahimanikya/utkal-project. Existing project-native work and website code retained. See [sync receipt](records/research-sync-2026-10-01.md); no website deployment claimed.
+
+## 2026-10-01
+
+Founder-approved research PR 21 merged after checking its exact revision and successful CI. [Merge receipt](records/research-sync-merge.json). No website deployment.

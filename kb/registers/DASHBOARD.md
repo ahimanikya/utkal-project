@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d2f10abd107abf773ffc945fecab830e6a9b1fc01939b81c55ea6a214b7d6253`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d820023b00bee6b689fc461fdeccd630c018c2cc7806008053184b02cd1caff1`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -127,7 +127,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-112 · Balasore–Mayurbhanj connected visitor collection | completed | published | Ahimanikya Satapathy | Published as an editorial preview. Carry forward local-condition, fluent Odia and specialist review; reserve reopening remains a current-notice check. | — |
 | UTP-WORK-113 · Connect published knowledge through four planning hubs | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
 | UTP-WORK-114 · Develop seven language introductions and living-voices pathways | completed | published | Ahimanikya Satapathy | Bounded English introductions published under UTP-REL-022. Native-speaker and specialist review, original-language text, translations and recordings remain separate open work under UTP-WORK-016; no duplicate introduction release is pending. | — |
-| UTP-WORK-115 · Reconcile and push research edition 1.3.0 | awaiting_review | draft | Ahimanikya Satapathy | Review the research-only pull request; website publication and automation handover are separate. | — |
+| UTP-WORK-115 · Reconcile and push research edition 1.3.0 | completed | applied | Ahimanikya Satapathy | PR 21 merged. Continue research using the recorded integration boundary; selecting new website content and automation handover are separate work. | — |
 | UTP-WORK-116 · Visitor experience and launch-readiness review | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the visitor-experience PR; publication and search-index activation remain separate decisions. | — |
 
 ## Pending human review and decisions
@@ -186,7 +186,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | Assess remaining experience and accessibility gaps against the current 67-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current 67-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
-| UTP-WORK-115 | Review the research-only pull request; website publication and automation handover are separate. |
 | UTP-WORK-116 | Founder reviews the visitor-experience PR; publication and search-index activation remain separate decisions. |
 
 ## Decisions
@@ -301,7 +300,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-107 · Prepare Languages and Living Voices collection | approved | Ahimanikya Satapathy | Accepts proposed language batch; original-source inspection, visual directory, place and reading connections, public contribution proposals and verification. Prepare one PR; publication requires subsequent Founder approval. |
 | UTP-DEC-108 · Approve and publish PR 20 Languages and Living Voices | approved | Ahimanikya Satapathy | Direct reply to the PR 20 review handoff. Authorizes merge and publication of reviewed head 2e6b13775cfab27cd8e35d82fe3c1bcb9ac5f927. |
 | UTP-DEC-109 · Push expanded research to the existing Utkal Project repository | approved | Ahimanikya Satapathy | User then specified ahimanikya/utkal-project and its kb/ and projects/site/ boundaries. Authorizes research reconciliation and Git push, not new website release. |
-| UTP-DEC-110 · Prepare visitor experience and launch-readiness batch | approved | Ahimanikya Satapathy | Audit page flow, improve discovery and journey continuity, reconcile delivered work, prepare search-visibility decision and consolidate human review. Prepare one PR; publication and enabling indexing remain separate. |
+| UTP-DEC-110 · Approve research sync PR 21 merge | approved | Ahimanikya Satapathy | Approval of the validated research-only PR 21 at dec5d836a534968ae73a78380e5194b755a42410; no website deployment. |
+| UTP-DEC-111 · Prepare visitor experience and launch-readiness batch | approved | Ahimanikya Satapathy | Audit page flow, improve discovery and journey continuity, reconcile delivered work, prepare search-visibility decision and consolidate human review. Prepare one PR; publication and enabling indexing remain separate. |
 
 ## Reviews
 
@@ -417,6 +417,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-020 · Northern destination and food collection published | published | https://utkalproject.org/destinations/mayurbhanj/ | UTP-DEC-104 |
 | UTP-REL-021 · Four planning hubs published | published | https://utkalproject.org/destinations/ | UTP-DEC-106 |
 | UTP-REL-022 · Seven language introductions published | published | https://utkalproject.org/languages/ | UTP-DEC-108 |
+| UTP-REL-023 · Research edition 1.3.0 integrated into main | applied | https://github.com/ahimanikya/utkal-project/commit/e25cb73bea1998b3b4f5f6f35c818af6ef4c4df4 | UTP-DEC-110 |
 
 ## Sources and assets
 
@@ -454,7 +455,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-114 | 2026-10-01T06:23:42.743214+00:00 | Approved PR 17 merged at 1cb57bda76e3979b191c51d2bdfef43e68960389. Automatic approval review blocked workflow dispatch pending explicit publication confirmation. No deployment was started. | Await the requested publication confirmation; no bypass. |
 | UTP-EVT-115 | 2026-10-01T06:57:56.271283+00:00 | Following explicit publication confirmation, PR 17 was deployed successfully. All 46 edition pages, 42 saveable ideas, seven starters, three new photograph hashes and HTTP-to-HTTPS redirect passed live checks. | Continue remaining editorial work with specialist review and local-confirmation gaps preserved. |
 | UTP-EVT-116 | 2026-10-01T07:32:36.229326+00:00 | Prepared ten connected northern/food routes and two starters. Verified source and image limits, 20 responsive openings, actual downloads and two native print samples. Reconciled thirteen older work entries without erasing open expert/local review. | Founder reviews the exact PR candidate before publication. |
 | UTP-EVT-117 | 2026-10-01T07:55:20.373089+00:00 | Founder-approved PR 18 merged and deployed. All 56 pages, 54 saveable ideas, nine starters, the new Chhau image hash and HTTPS redirect passed live checks. | Continue remaining editorial work with local-condition and specialist-review gaps preserved. |
@@ -463,7 +463,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-120 | 2026-10-01T09:22:34.499013+00:00 | Seven English language introductions prepared with original publications, a visual directory, public contribution drafts and portable reading notes. Source, responsive, keyboard and journey checks recorded. | Founder reviews one PR before publication. |
 | UTP-EVT-121 | 2026-10-01T09:53:08.674692+00:00 | Founder-approved PR 20 merged and published. All 67 pages, 61 journey ideas, nine starters, language learning links, image hashes and HTTPS redirect verified. Earlier introduction work entries now reflect publication. | Native-speaker and specialist review remains open under UTP-WORK-016; continue the remaining editorial backlog separately. |
 | UTP-EVT-122 | 2026-10-01T10:15:52.127676+00:00 | Founder supplied the existing repository after requesting a Git push. Research edition 1.3.0 reconciled with earlier import, preserving native records and website code. | Validate and push review branch; no website deployment. |
-| UTP-EVT-123 | 2026-10-01T10:42:09.598636+00:00 | Prepared contextual navigation, mobile story contents, connected cultural reading and subject-sharing previews. Verified actual downloaded journey books and reconciled 45 older next actions. Search launch remains a proposal. | Founder reviews the PR; no publication or indexing change yet. |
+| UTP-EVT-123 | 2026-10-01T10:27:44.286042+00:00 | Founder-approved PR 21 merged after verifying the exact passing head. Research edition 1.3.0 is integrated into main; no website deployment. | Continue research with repository-preserving syncs; website content selection remains separate. |
+| UTP-EVT-124 | 2026-10-01T10:42:09.598636+00:00 | Prepared contextual navigation, mobile story contents, connected cultural reading and subject-sharing previews. Verified actual downloaded journey books and reconciled 45 older next actions. Search launch remains a proposal. | Founder reviews the PR; no publication or indexing change yet. |
 
 ## Deferred extensions
 

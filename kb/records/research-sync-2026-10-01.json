@@ -11,7 +11,7 @@
     "destination_supplied": "ahimanikya/utkal-project; kb/ holds knowledge and projects/site/ holds website code",
     "scope": "Reconcile and push research through existing review workflow; no website deployment in this task."
   },
-  "status": "validated_review_candidate",
+  "status": "merged",
   "branch": "codex/research-kb-refresh",
   "imported_concepts": 590,
   "files": [
@@ -4784,7 +4784,7 @@
   ],
   "preservation": "Original import manifest, native project additions, published site code, frozen evidence and earlier PRD snapshots retained. Six overlapping pages merged explicitly.",
   "validation_scope": "Ten imported-research checks plus whole-project checks and existing website CI. Source facts not freshly independently reverified by import.",
-  "git_push": "pending",
+  "git_push": true,
   "website_deployed": false,
   "human_editorial_review_claimed": false,
   "next_action": "Review research sync PR; scheduled source-workspace research remains separate until a deliberate handover.",
@@ -5096,5 +5096,7 @@
     "tools/research/validate_creations.py",
     "tools/research/validate_homestays.py"
   ],
-  "current_revision_note": "This receipt describes the candidate; immutable pushed commit and PR are recorded in GitHub."
+  "current_revision_note": "This receipt describes the candidate; immutable pushed commit and PR are recorded in GitHub.",
+  "merge_commit": "e25cb73bea1998b3b4f5f6f35c818af6ef4c4df4",
+  "merge_receipt": "research-sync-merge.json"
 }

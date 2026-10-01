@@ -1,7 +1,7 @@
 {
   "recorded_at": "2026-10-01T10:42:09.598636+00:00",
   "status": "candidate_for_founder_review",
-  "authorization": "UTP-DEC-110",
+  "authorization": "UTP-DEC-111",
   "human_owner": "Ahimanikya Satapathy",
   "base_commit": "e25cb73",
   "scope": "Visitor flow, connected reading, subject-specific sharing metadata, complete journey verification, backlog reconciliation and search-launch proposal. Same 67 routes, 61 saveable ideas and nine starters.",
@@ -63,5 +63,11 @@
   "publication": {
     "status": "not_deployed",
     "approval": "Founder review of exact PR candidate required"
+  },
+  "integration_note": "Reconciled approved research-integration record commit ef4cbe1 before review. Visitor decision/event/history IDs moved to DEC-111, EVT-124 and HIS-0145; no website code changed by the merge.",
+  "pull_request": {
+    "url": "https://github.com/ahimanikya/utkal-project/pull/23",
+    "status": "draft",
+    "implementation_commit": "a591de822a54b3ee4a61d2a9d54d892a32c4fb78"
   }
 }
