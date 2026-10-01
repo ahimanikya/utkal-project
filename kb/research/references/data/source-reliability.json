@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T09:24:09.614111-07:00",
+  "updated_at": "2026-10-01T09:34:53.344599-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1181,6 +1181,10 @@
     {
       "run_id": "2026-10-01-community-tourism",
       "scope": "Bounded homestay operating search followed by independent primary ecotourism programme table recovery."
+    },
+    {
+      "run_id": "2026-10-01-debrigarh-primary",
+      "scope": "Debrigarh historical primary survey and attributed official participation; no current payroll found."
     }
   ],
   "supplemental_discovery_routes": [
@@ -2360,7 +2364,7 @@
       "checked_at": "2026-10-01T07:21:41.081660-07:00",
       "run_id": "2026-10-01-contemporary-creators",
       "status": "available_with_scoped_capture",
-      "scope": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
+      "scope": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February 2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
       "retry_after": null,
       "contact_action_performed": false
     },
@@ -3305,6 +3309,54 @@
       "run_id": "2026-10-01-community-tourism",
       "status": "available_scoped_index",
       "scope": "Newsletter index through April–June2026 read; no operational homestay totals obtained. Download buttons required subscription; no subscription or external message sent."
+    },
+    {
+      "source_id": "debrigarh-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Historical facility revenue and management context; not a current payroll or an audited longitudinal income series."
+    },
+    {
+      "source_id": "debrigarh-pmo20260830",
+      "discovery_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-137th-episode-of-mann-ki-baat/",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Primary evidence of public recognition and an attributed participation statement, not independent enumeration or income evaluation."
+    },
+    {
+      "source_id": "debrigarh-revenue-nie20260405",
+      "discovery_url": "https://www.newindianexpress.com/states/odisha/2026/Apr/05/odishas-debrigarh-raises-ecotourism-bar-with-sightings-record-tourist-footfall-revenue",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Reports FY2025–26 revenue ₹6.02 crore and prior-year ₹5.01 crore. Prior-year scope conflicts with the Debrigarh/Hirakud ₹5.11 crore account; growth withheld."
+    },
+    {
+      "source_id": "debrigarh-revenue-op20250405",
+      "discovery_url": "https://www.orissapost.com/community-led-ecotourism-generates-rs-5-11cr-revenue/",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Reports Debrigarh Wildlife Sanctuary and Hirakud Wetland together, with 85 families. Not independent payroll evidence; do not relabel family count as workers or shift its reporting year."
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://cza.nic.in/uploads/documents/reports/english/AR_sambalpur_2425.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_out_of_scope",
+      "scope": "Sambalpur Zoo annual report, not Debrigarh income or employment."
+    },
+    {
+      "source_id": "debrigarh-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "web_screenshot_unavailable_local_render_succeeded",
+      "scope": "Web screenshots cache-missed; public PDF downloaded and printed p.4-12 rendered and visually inspected. Local renderer emitted font-cache warnings but readable page produced."
     }
   ]
 }

@@ -151,3 +151,7 @@ RES-008 blocked on original amendments/allocation, retry 8 October. Independent 
 ## Current community-tourism checkpoint · 1 October 2026
 
 RES-009 deferred to 8 October for primary operational/register evidence; conflicting event counts held. RES-010 is in progress with the state programme series saved. Continue division-level Debrigarh income and employment evidence next. PR #24 scope is closed to unrelated additions; new research uses a focused follow-on review. No merge or deployment is implied.
+
+## Debrigarh checkpoint · 1 October 2026
+
+RES-010 saved historical primary revenue and national recognition, but modern accounts and employment denominators remain blocked until 8 October. Next eligible task is RES-011 food preparation and variations. No task completion or current-income verification claimed.

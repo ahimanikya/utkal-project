@@ -157,3 +157,7 @@ Enhanced existing homestay topics after source and native coastal-verification c
 ## Community tourism extension · 1 October 2026
 
 Reused homestay, Debrigarh and project-native destination records. Added one primary wildlife publication, two explicitly conflicting event-report leads and one ecotourism topic. Existing entities retained; no primary confirmation of homestay operations. This extends the dated map, not exhaustive semantic deduplication.
+
+## Debrigarh source extension · 1 October 2026
+
+Enhanced the existing place and livelihood dataset with four source records; no duplicate place or person concept created. Historical facility receipts, contemporary recognition and recent press accounts have separate scopes. Existing statewide ecotourism evidence is reused.

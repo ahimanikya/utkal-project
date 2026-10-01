@@ -13749,6 +13749,66 @@
         "wildlife-odisha2025-ecotourism"
       ],
       "added_at": "2026-10-01T09:24:09.614111-07:00"
+    },
+    {
+      "id": "sources/debrigarh-jica2017",
+      "title": "Odisha Forestry Sector Development Project Phase II: supplemental survey, final report (advanced version)",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/debrigarh-jica2017.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "debrigarh-jica2017"
+      ],
+      "added_at": "2026-10-01T09:34:53.344599-07:00"
+    },
+    {
+      "id": "sources/debrigarh-pmo20260830",
+      "title": "PM’s address in the 137th Episode of Mann Ki Baat",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/debrigarh-pmo20260830.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "debrigarh-pmo20260830"
+      ],
+      "added_at": "2026-10-01T09:34:53.344599-07:00"
+    },
+    {
+      "id": "sources/debrigarh-revenue-nie20260405",
+      "title": "Odisha’s Debrigarh raises ecotourism bar, with sightings, record tourist footfall and revenue",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/debrigarh-revenue-nie20260405.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "debrigarh-revenue-nie20260405"
+      ],
+      "added_at": "2026-10-01T09:34:53.344599-07:00"
+    },
+    {
+      "id": "sources/debrigarh-revenue-op20250405",
+      "title": "Community-led ecotourism generates Rs5.11cr revenue",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/debrigarh-revenue-op20250405.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "debrigarh-revenue-op20250405"
+      ],
+      "added_at": "2026-10-01T09:34:53.344599-07:00"
     }
   ],
   "shared_publications": [
@@ -14177,7 +14237,8 @@
         "places/debrigarh-hirakud.md",
         "statistics/tourism.md",
         "statistics/ecotourism.md",
-        "references/data/ecotourism-livelihoods.json"
+        "references/data/ecotourism-livelihoods.json",
+        "references/data/debrigarh-livelihoods.json"
       ],
       "project_records": [
         "kb/research/destinations/chilika.json",
@@ -14569,8 +14630,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 970,
-    "updated_at": "2026-10-01T09:24:09.614111-07:00",
+    "records_mapped": 974,
+    "updated_at": "2026-10-01T09:34:53.344599-07:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -14846,6 +14907,17 @@
       ],
       "new_collection_records": 1,
       "source_family_note": "Two event reports may reuse one release; no independent headcount corroboration. Wildlife report is a separate programme source."
+    },
+    {
+      "run_id": "2026-10-01-debrigarh-primary",
+      "added_source_records": [
+        "debrigarh-jica2017",
+        "debrigarh-pmo20260830",
+        "debrigarh-revenue-nie20260405",
+        "debrigarh-revenue-op20250405"
+      ],
+      "new_people_or_work_records": 0,
+      "source_family_note": "Speech records recognition; later press reports may quote the same official. No independent employment enumeration."
     }
   ]
 }

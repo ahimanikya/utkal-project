@@ -184,3 +184,7 @@ Homestay research enhanced existing records with a primary public portal area sn
 ## 1 October 2026 — Community tourism evidence
 
 Saved 47 primary ecotourism observations and 4 full-year comparisons from Wildlife Odisha 2025; retained non-Indian visitor decline and partial-year scope. Homestay17/176 certificate conflict held outside the atlas. RES-009 deferred; RES-010 continues. Existing source records reused, frozen ledger and prior atlas records unchanged. No website publication or human review claimed.
+
+## 1 October 2026 — Debrigarh historical revenue and community recognition
+
+Added eight place-specific observations and four sources to the existing case. Visually checked JICA’s historical revenue passage; recorded the official Maithili Bhue account with conservation-role limits. Recent revenue and family-period differences quarantined. Modern payroll/revenue denominators still pending; retry 8 October. No atlas values, website content or frozen evidence changed.

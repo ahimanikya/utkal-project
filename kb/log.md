@@ -91,3 +91,7 @@ Enhanced homestay research with a dated government portal place list and five de
 ## 2026-10-01
 
 Saved47 ecotourism observations and4 full-year comparisons from Wildlife Odisha2025. [Bounded receipt](records/community-tourism-2026-10-01.json).Homestay17/176 certificate conflict held. RES-009 deferred; RES-010 continues with Debrigarh division-level evidence. This focused follow-on leaves PR24 unchanged. No website publication claimed.
+
+## 2026-10-01
+
+Added eight Debrigarh observations and four source records. [Bounded receipt](records/debrigarh-primary-2026-10-01.json). Historical facility receipts and official conservation participation remain separate from current income and employment. Modern accounts remain open; RES-010 retries 8 October and RES-011 is next. PR #24 and website content are unchanged.

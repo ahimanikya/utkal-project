@@ -55,3 +55,7 @@ Source: [Wildlife Odisha 2025, printed p. 135](https://s3.ap-south-1.amazonaws.c
 - [Tourism](tourism.md) — State tourist-visit totals use a broader scope and cannot be added to this programme series.
 
 These are editorial connections, not claims of causation or a common statistical denominator. Subject entrances: [Economy](../subjects/economy.md), [Nature](../subjects/nature.md) and [People](../subjects/people.md). Source checked; human editorial review remains pending.
+
+## Debrigarh evidence extension · 1 October 2026
+
+The [Debrigarh record](../places/debrigarh-hirakud.md) now links a historical JICA revenue baseline and an official account recognising women’s conservation work. Neither supplies a modern wage ledger. Recent ₹5.01/₹5.11 crore reporting needs a scope bridge before a site growth comparison.

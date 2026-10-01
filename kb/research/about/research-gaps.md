@@ -182,3 +182,7 @@ Public portal snapshot has 16 district IDs / 19 clusters / 61 GP IDs. May press 
 ## Community tourism checkpoint · 1 October 2026
 
 Homestay provisional-certificate reports conflict 17/176; original event register and SBI terms missing. Operating outcomes remain unknown; RES-009 retry 8 October. RES-010 recovered Wildlife Odisha 2025 p. 135 programme series, allocation mechanism and participation. Debrigarh-only accounts, actual wages, fixed-site comparability and occupancy denominators remain missing. Reported non-Indian visitor decline retained; partial FY2025–26 not treated as full-year.
+
+## Debrigarh primary-source checkpoint · 1 October 2026
+
+JICA’s 2017 survey supplies historical facility revenue and a 2016 EDC-management observation. PMO’s 30 August 2026 address establishes recognition and attributed conservation participation, not payroll. Recent FY2024–25 ₹5.01/₹5.11 crore scope and 85-family period remain unresolved. RES-010 retries 8 October; independent RES-011 is next. Sambalpur Zoo accounts were excluded from Debrigarh totals.
