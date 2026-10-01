@@ -147,3 +147,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Food and Pala integration review](records/food-pala-integration-review.json): PR 37 merged; PR 39 reconciled and retargeted to main. Source limitations and the current website remain intact. Deployment evidence will be recorded separately.
+
+## 2026-10-01
+
+[Both research PRs merged and website redeployed](records/food-pala-integration-publication.json). PRs 37 and 39 passed current checks; 106 live pages verified. Food and Pala additions remain research material for future articles.

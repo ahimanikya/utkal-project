@@ -3834,22 +3834,24 @@
       "id": "UTP-WORK-131",
       "title": "Integrate food and Pala research and verify website delivery",
       "category": "research_integration",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-136",
-      "next_action": "Merge PR 39 after CI, redeploy main and save live delivery evidence.",
+      "next_action": "Use the merged research for future article briefs; complete the named source and community-review gaps before extending claims.",
       "blockers": [],
       "refs": [
         "UTP-DEC-136",
-        "UTP-REV-110"
+        "UTP-REV-110",
+        "UTP-REL-037"
       ],
       "evidence": [
-        "records/food-pala-integration-review.json"
+        "records/food-pala-integration-review.json",
+        "records/food-pala-integration-publication.json"
       ]
     }
   ],
@@ -9843,6 +9845,22 @@
         "records/district-languages-publication.json"
       ],
       "note": "34 new routes published within the Founder’s approved continuation scope. Visual/community review remains open; historical data is not current visitor communication guidance."
+    },
+    {
+      "id": "UTP-REL-037",
+      "title": "Food and Pala research integrated; existing website redeployed",
+      "status": "published",
+      "authorization": "UTP-DEC-136",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-136",
+        "UTP-WORK-131",
+        "UTP-REV-110"
+      ],
+      "evidence": [
+        "records/food-pala-integration-publication.json"
+      ],
+      "note": "Both PRs merged after current CI; website rebuilt and verified. Research is in the KB, not automatically promoted to new public-facing articles."
     }
   ],
   "sources": [

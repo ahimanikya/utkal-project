@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `80f76893f6446a9fc9c35b205b8cac8f3168e84076ea70050b4f6f7f666a9832`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `172781a63e869a8026eafbdcedb93ac576e3db73ea4484510e6c0e029b8c2208`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -143,7 +143,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-128 · Map 500 existing records into a read-only editorial workbench | completed | applied | Ahimanikya Satapathy | Use the internal workbench to choose and extend existing research. Regenerate after canonical data changes; specialist review and newer unselected records remain separate. | — |
 | UTP-WORK-129 · Connect language stories to Census population distribution | completed | published | Ahimanikya Satapathy | Obtain community naming and visual review; extend to subdistricts and a sourced boundary map as separate work. | — |
 | UTP-WORK-130 · Turn population data into district and language story connections | completed | published | Ahimanikya Satapathy | Implementation delivered. Obtain community naming and visual review; extend specific literary histories and authorised listening material as separate work. | — |
-| UTP-WORK-131 · Integrate food and Pala research and verify website delivery | in_progress | reviewed | Ahimanikya Satapathy | Merge PR 39 after CI, redeploy main and save live delivery evidence. | — |
+| UTP-WORK-131 · Integrate food and Pala research and verify website delivery | completed | applied | Ahimanikya Satapathy | Use the merged research for future article briefs; complete the named source and community-review gaps before extending claims. | — |
 
 ## Pending human review and decisions
 
@@ -495,6 +495,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-034 · Enduri and Poda food stories published; editorial workbench applied | published | https://utkalproject.org/ | UTP-DEC-133 |
 | UTP-REL-035 · Census 2011 language population atlas published | published | https://utkalproject.org/languages/atlas/ | UTP-DEC-134 |
 | UTP-REL-036 · District language profiles and two language stories published | published | https://utkalproject.org/languages/districts/ | UTP-DEC-135 |
+| UTP-REL-037 · Food and Pala research integrated; existing website redeployed | published | https://utkalproject.org/ | UTP-DEC-136 |
 
 ## Sources and assets
 
@@ -532,7 +533,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-143 | 2026-10-01T17:00:19.889928+00:00 | Founder-approved PR 34 merged; merged tree matches approved head and CI passed. Automatic approval review rejected production dispatch and explicit deployment confirmation is pending. | Obtain explicit deployment confirmation, then publish and verify the approved website. |
 | UTP-EVT-144 | 2026-10-01T17:11:18.004303+00:00 | Founder explicitly authorized deployment after the earlier automatic-review block. PR 34 content is published; all 69 live pages, homepage selection, cross-links, image hashes and indexing boundaries passed delivery checks. | Retain visual/specialist review and integrate research only through its separate review sequence. |
 | UTP-EVT-145 | 2026-10-01T17:25:04.237069+00:00 | Reconciled four stacked research snapshots into one candidate: 812 research concepts, 361 sources, preserved live-site output and six next-story briefs. Incoming operating-rule changes held separately. | Founder reviews integration; media and local/literary reviews precede story publication. |
 | UTP-EVT-146 | 2026-10-01T17:57:34.582564+00:00 | Merged approved PR 36 after concurrent research reconciliation. Prepared two photographed food stories and 500 traceable metadata assessments. Retained claim conflicts and specialist/visual-review gaps. | Complete GitHub checks, apply the authorized batch and record actual delivery. |
@@ -542,6 +542,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-150 | 2026-10-01T19:23:39.108404+00:00 | Prepared 30 historical district profiles, two source-led language introductions, a multilingual explainer and five visitor-guide connections. Arithmetic and integration checks pass; browser and specialist limits remain explicit. | Complete remote checks and save release evidence. |
 | UTP-EVT-151 | 2026-10-01T19:31:37.644224+00:00 | PR 41 merged and deployed. All 106 live page responses, 30 district identities, new language mappings, multilingual figures, 63 Explore entries, 67 journey items and five guide connections verified. | Continue from explicit community naming, literary depth and visual-review gaps. |
 | UTP-EVT-152 | 2026-10-01T19:42:27.469203+00:00 | PR 37 passed renewed CI and merged. Pala dependency reconciled and PR 39 retargeted to main. Both sets of research validators pass; source limitations and existing website preserved. | Complete final Pala CI and deploy the merged baseline. |
+| UTP-EVT-153 | 2026-10-01T19:49:13.639280+00:00 | PRs 37 and 39 merged in dependency order after passing CI. Main rebuilt and published; all 106 live routes and 148 response/data checks passed. Food and Pala research remains distinct from future public article production. | Continue from preserved research gaps and article briefs; no new source verification or community review implied. |
 
 ## Deferred extensions
 

@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-01T19:49:13.639280+00:00",
+  "status": "research_merged_website_redeployed",
+  "authorization": "UTP-DEC-136",
+  "human_authority": "Ahimanikya Satapathy",
+  "pull_requests": [
+    "https://github.com/ahimanikya/utkal-project/pull/37",
+    "https://github.com/ahimanikya/utkal-project/pull/39"
+  ],
+  "merge_commits": [
+    "8370d3b8e2b415d8d5377bb3e1cfe40172919bec",
+    "7f20ea5105ed8b0f6ccae11cc1014469bff939b7"
+  ],
+  "deployment_head": "7f20ea5105ed8b0f6ccae11cc1014469bff939b7",
+  "deployment_url": "https://github.com/ahimanikya/utkal-project/actions/runs/36916485938",
+  "website": "https://utkalproject.org/",
+  "public_page_count": 106,
+  "live_checks": {
+    "passed": true,
+    "checks": 148,
+    "discovery_entries": 63,
+    "journey_items": 67
+  },
+  "delivery_distinction": "The two research PRs add KB material and editorial workbench inputs. No new food or Pala public article was authored; the existing website was rebuilt from the merged main branch and verified.",
+  "remaining_reviews": [
+    "Research integration is not a fresh independent factual review or local/Odia review.",
+    "Pala’s two institutional PDF passages remain indexed-only with full-text retrieval gaps preserved.",
+    "Recipe testing, precise palm-seed naming and current performance or visitor arrangements remain open.",
+    "No new food or Pala website article is introduced by these PRs. They extend the KB and editorial workbench; the existing website will be rebuilt and verified."
+  ],
+  "evidence": [
+    "records/food-pala-integration-review.json",
+    "records/evidence/food-pala-integration/pr37-merge.json",
+    "records/evidence/food-pala-integration/pr39-merge.json",
+    "records/evidence/food-pala-integration/deployment.json",
+    "records/evidence/food-pala-integration/live.json"
+  ]
+}
