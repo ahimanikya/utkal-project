@@ -27,9 +27,14 @@
     "/visit/experiences/satapada-boating/",
     "/visit/stays/mangalajodi/",
     "/visit/stays/barkul-rambha/",
-    "/visit/stays/rajhans-satapada/"
+    "/visit/stays/rajhans-satapada/",
+    "/visit/places/mukteswar/",
+    "/food/bhubaneswar/",
+    "/visit/stays/bhubaneswar/",
+    "/stories/bhubaneswar-fresco/"
   ],
   "starter_ids": [
+    "bhubaneswar-stone-painted-streets",
     "city-craft-coast",
     "chilika-birds",
     "chilika-island",
@@ -58,9 +63,15 @@
     "base:chilika-rajhans",
     "place:mangalajodi",
     "place:kalijai",
-    "place:satapada"
+    "place:satapada",
+    "place:mukteswar",
+    "food:bhubaneswar-dalma",
+    "food:pakhala",
+    "stay:bhubaneswar",
+    "experience:bhubaneswar-fresco"
   ],
   "href_overrides": {
-    "food:konark-chhena-poda": "/food/puri-coast/#sweet-finish"
+    "food:konark-chhena-poda": "/food/puri-coast/#sweet-finish",
+    "food:pakhala": "/food/bhubaneswar/#pakhala"
   }
 }

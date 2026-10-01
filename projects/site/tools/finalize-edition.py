@@ -53,6 +53,7 @@ class Document(HTMLParser):
         super().__init__()
         self.ids, self.links, self.resources = [], [], []
         self.payload, self.in_payload, self.noindex = '', False, False
+        self.gallery_assets, self.in_gallery_assets = '', False
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
@@ -62,6 +63,8 @@ class Document(HTMLParser):
             self.links.append(a['href'])
         if tag == 'script' and a.get('id') == 'journey-data':
             self.in_payload = True
+        if tag == 'script' and a.get('id') == 'gallery-assets':
+            self.in_gallery_assets = True
         if tag == 'meta' and a.get('name') == 'robots' and 'noindex' in a.get('content', ''):
             self.noindex = True
         for key in ['src', 'poster']:
@@ -79,10 +82,13 @@ class Document(HTMLParser):
     def handle_endtag(self, tag):
         if tag == 'script':
             self.in_payload = False
+            self.in_gallery_assets = False
 
     def handle_data(self, data):
         if self.in_payload:
             self.payload += data
+        if self.in_gallery_assets:
+            self.gallery_assets += data
 
 pages, errors, keep, queue = {}, [], set(), []
 
@@ -135,7 +141,8 @@ for route in routes:
         for starter in starters:
             if not set(starter['items']) <= set(journey_ids) or len(starter['items']) != len(set(starter['items'])):
                 errors.append('Starter contains unavailable or duplicate IDs')
-        for ref in doc.resources + list(walk_values(payload)):
+        gallery_assets = json.loads(doc.gallery_assets) if doc.gallery_assets else []
+        for ref in doc.resources + list(walk_values(payload)) + list(walk_values(gallery_assets)):
             retain(ref, p)
     except (ValueError, KeyError, TypeError) as error:
         errors.append('Invalid page data at ' + route + ': ' + str(error))

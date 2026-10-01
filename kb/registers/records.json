@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T03:14:33.283977+00:00",
+  "recorded_at": "2026-10-01T03:37:49.523908+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -210,15 +210,19 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-013",
-      "next_action": "Review the current integrated city/culture and visitor experience using research/product/city-culture-review.md. Complete the applicable source, language and local verification gaps; retain human acceptance as a separate step.",
+      "next_action": "Review the integrated Bhubaneswar release candidate under UTP-WORK-109. The three guides, dated Fresco archive and six-idea starter are prepared; publication still needs Founder approval. Native PDF WORK-080 is complete. Current local conditions and mural survival remain unverified.",
       "blockers": [],
       "refs": [
-        "UTP-DEC-013"
+        "UTP-DEC-013",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "collections/bhubaneswar-fresco/integration.md",
         "records/direction-02-checks.json",
-        "research/product/city-culture-review.md"
+        "research/product/city-culture-review.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ]
     },
     {
@@ -279,16 +283,20 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-027",
-      "next_action": "Founder reviews the Chilika story and Odia passage. After review, develop other entries individually using the standard; no automatic full-KB rewrite.",
+      "next_action": "Chilika is published under UTP-REL-017 and Konark under UTP-REL-006. Continue fluent Odia proofreading, source limitations and local-confirmation follow-up; publication is no longer the pending task for those bounded pages. Broader model/editorial adoption remains separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-027",
-        "UTP-REV-009"
+        "UTP-REV-009",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "reference/storytelling-standard.md",
         "records/storytelling-prototype.json",
-        "research/stories/narratives/chilika.json"
+        "research/stories/narratives/chilika.json",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ]
     },
     {
@@ -378,18 +386,22 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-032",
-      "next_action": "Founder reviews the more visual two-pilot candidate; publication remains a separate decision.",
+      "next_action": "Chilika is published under UTP-REL-017 and Konark under UTP-REL-006. Continue fluent Odia proofreading, source limitations and local-confirmation follow-up; publication is no longer the pending task for those bounded pages. Broader model/editorial adoption remains separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-032",
         "UTP-REV-013",
         "UTP-DEC-033",
-        "UTP-REV-014"
+        "UTP-REV-014",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "reference/destination-pilots-review.md",
         "records/destination-pilots-review.json",
-        "records/destination-visual-review.json"
+        "records/destination-visual-review.json",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ]
     },
     {
@@ -404,18 +416,22 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-034",
-      "next_action": "Founder reviews v2: 42.4 seconds of real Mangalajodi, ferry and sunset footage with an original ambient score. No paid generation or deployment. V1 retained.",
+      "next_action": "Chilika and connected guides, including the reusable-footage film, are published under UTP-REL-017. Retain source/licence evidence and playback limitations; current local conditions remain unverified. No paid generation or additional deployment is authorized by this reconciliation.",
       "blockers": [],
       "refs": [
         "UTP-DEC-034",
-        "UTP-REV-015"
+        "UTP-REV-015",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/immersive-destination-brief.md",
         "records/connected-destination-review.json",
         "research/product/chilika-film-production.md",
         "collections/chilika-film/index.md",
-        "collections/chilika-film/provenance-v2.json"
+        "collections/chilika-film/provenance-v2.json",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ]
     },
     {
@@ -484,7 +500,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-039",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-039",
@@ -492,13 +508,17 @@
         "UTP-WORK-016",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/culture-journey-prototype.md",
         "records/culture-journey-review.json",
         "research/voices/culture-trails.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -846,19 +866,23 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-043",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-043",
         "UTP-REV-021",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/visitor-polish.md",
         "records/visitor-polish-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "preview_path": "/explore/",
       "implemented": "Responsive navigation, grids and controls; measured 320px and 390px layouts checked.",
@@ -876,19 +900,23 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-043",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-043",
         "UTP-REV-021",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/visitor-polish.md",
         "records/visitor-polish-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "preview_path": "/contribute/",
       "implemented": "Visible focus, touch sizing, form error focus and import focus transitions.",
@@ -898,26 +926,30 @@
       "id": "UTP-WORK-033",
       "title": "Print layout and long-note review",
       "category": "website_product",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-043",
-      "next_action": "Verify native PDF/A4 pagination before print acceptance; Founder review.",
+      "next_action": "Resolved by the approved visitor-readiness release UTP-REL-015. Physical printer and broader device testing remain outside that evidence.",
       "blockers": [],
       "refs": [
         "UTP-DEC-043",
-        "UTP-REV-021"
+        "UTP-REV-021",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/visitor-polish.md",
-        "records/visitor-polish-review.json"
+        "records/visitor-polish-review.json",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "preview_path": "/journey/",
-      "implemented": "Print CSS and long-note retention checked; native PDF/A4 pagination remains unverified."
+      "implemented": "Print layout and long-note retention verified, including native Chrome A4/Letter samples under UTP-WORK-080."
     },
     {
       "id": "UTP-WORK-034",
@@ -1479,19 +1511,23 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-049",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-049",
         "UTP-REV-025",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/next-twenty.md",
         "records/next-twenty-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -1782,19 +1818,23 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-050",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-050",
         "UTP-REV-026",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/discovery-connections.md",
         "records/discovery-connections-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -1810,19 +1850,23 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-050",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-050",
         "UTP-REV-026",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/discovery-connections.md",
         "records/discovery-connections-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -1861,19 +1905,23 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-050",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-050",
         "UTP-REV-026",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/discovery-connections.md",
         "records/discovery-connections-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -1889,19 +1937,23 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-051",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-051",
         "UTP-REV-027",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/visitor-planning-batch.md",
         "records/visitor-planning-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2192,17 +2244,21 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-061",
-      "next_action": "Founder reviews the city/culture comparison and consolidated editorial queue; native printing remains WORK-080. No publication.",
+      "next_action": "Review held city/culture routes and the language/source queue. Native printing is complete under UTP-WORK-080 / UTP-REL-015. The coastal and Chilika subsets are published; the Bhubaneswar extension is awaiting review under UTP-WORK-109. Wider collection publication remains separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-061",
         "UTP-WORK-075",
         "UTP-WORK-080",
-        "UTP-REV-037"
+        "UTP-REV-037",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/city-culture-review.md",
-        "records/city-culture-review.json"
+        "records/city-culture-review.json",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ]
     },
     {
@@ -2217,7 +2273,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-062",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-062",
@@ -2226,13 +2282,17 @@
         "UTP-REV-038",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/bhubaneswar-visitor-candidate.md",
         "records/bhubaneswar-visitor-review.json",
         "records/bhubaneswar-release-candidate.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2248,17 +2308,21 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-063",
-      "next_action": "Founder reviews the three connected guides and six-idea starter. Verify local service details before stronger recommendations. WORK-080 remains separately open.",
+      "next_action": "Review the integrated Bhubaneswar release candidate under UTP-WORK-109. The three guides, dated Fresco archive and six-idea starter are prepared; publication still needs Founder approval. Native PDF WORK-080 is complete. Current local conditions and mural survival remain unverified.",
       "blockers": [],
       "refs": [
         "UTP-DEC-063",
         "UTP-WORK-082",
-        "UTP-REV-039"
+        "UTP-REV-039",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/bhubaneswar-collection.md",
         "records/bhubaneswar-collection-review.json",
-        "records/bhubaneswar-collection-manifest.json"
+        "records/bhubaneswar-collection-manifest.json",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ]
     },
     {
@@ -2273,7 +2337,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-064",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-064",
@@ -2281,13 +2345,17 @@
         "UTP-REV-040",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/coastal-collection.md",
         "records/coastal-collection-review.json",
         "records/coastal-collection-manifest.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2303,7 +2371,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-065",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-065",
@@ -2312,13 +2380,17 @@
         "UTP-REV-041",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/release-review-2026-09-30.md",
         "records/release-review.json",
         "records/release-review-manifest.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2334,7 +2406,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-066",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-066",
@@ -2343,13 +2415,17 @@
         "UTP-REV-042",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/editorial-readiness-2026-09-30.md",
         "records/editorial-readiness-review.json",
         "records/editorial-readiness-manifest.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2427,7 +2503,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-069",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-069",
@@ -2436,13 +2512,17 @@
         "UTP-REV-045",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/overnight-200.md",
         "records/overnight-200.json",
         "records/overnight-200-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2458,7 +2538,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-070",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-070",
@@ -2467,13 +2547,17 @@
         "UTP-REV-046",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/next-210.md",
         "records/next-210.json",
         "records/next-210-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2489,7 +2573,7 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-071",
-      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080.",
+      "next_action": "The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native A4/Letter verification is complete under UTP-WORK-080 / UTP-REL-015; remaining review concerns only the held or broader scope. Chilika’s bounded collection is published under UTP-REL-017.",
       "blockers": [],
       "refs": [
         "UTP-DEC-071",
@@ -2498,13 +2582,17 @@
         "UTP-REV-047",
         "UTP-REL-006",
         "UTP-WORK-096",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-WORK-109",
+        "UTP-REL-015",
+        "UTP-REL-017"
       ],
       "evidence": [
         "research/product/ready-216.md",
         "records/ready-216.json",
         "records/ready-216-review.json",
-        "research/product/launch-quality-2026-09-30.md"
+        "research/product/launch-quality-2026-09-30.md",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ],
       "delivery_scope": "Partly represented in the coastal preview; original broader work stays open."
     },
@@ -2982,6 +3070,31 @@
       "evidence": [
         "records/chilika-release-review.json",
         "records/chilika-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-109",
+      "title": "Bhubaneswar release: temple, table, base, painted memories and a city starter",
+      "category": "website_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-098",
+      "next_action": "Founder reviews the five-part candidate and draft PR. After approval, merge and publish through the existing release gate. Current services, mural survival and fluent Odia proofreading remain unverified.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-098",
+        "UTP-REV-073",
+        "UTP-WORK-007",
+        "UTP-WORK-083"
+      ],
+      "evidence": [
+        "records/bhubaneswar-release-review.json",
+        "records/bhubaneswar-backlog-reconciliation.json"
       ]
     }
   ],
@@ -4933,6 +5046,25 @@
       "evidence": [
         "records/chilika-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-098",
+      "title": "Prepare the complete Bhubaneswar release batch",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Ok let's start this batch and get all of them done",
+      "scope": "Prepare Mukteswar, the city food and stay-area guides, the dated Fresco archive, the city starter, and reconcile older backlog entries. Prepare a tested review candidate; publication remains a later Founder gate.",
+      "recorded_at": "2026-10-01T03:37:49.523908+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-109"
+      ],
+      "evidence": [
+        "records/bhubaneswar-release-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -6660,6 +6792,30 @@
       "evidence": [
         "records/chilika-publication.json"
       ]
+    },
+    {
+      "id": "UTP-REV-073",
+      "title": "Bhubaneswar collection, archive and portable-book review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and reviewed; no independent editorial review.",
+        "No field visit, property inspection, route timing, current price or access confirmation.",
+        "Mural artists, exact streets and present survival remain unverified; photographs are dated February 2009.",
+        "Fluent Odia proofreading remains outstanding.",
+        "Native A4 check is a synthetic sample; previous Letter evidence is retained separately, with no physical printer check."
+      ],
+      "refs": [
+        "UTP-DEC-098",
+        "UTP-WORK-109"
+      ],
+      "evidence": [
+        "records/bhubaneswar-release-review.json"
+      ]
     }
   ],
   "releases": [
@@ -6925,13 +7081,14 @@
         "UTP-DEC-093",
         "UTP-WORK-106",
         "UTP-WORK-080",
-        "UTP-REV-068"
+        "UTP-REV-068",
+        "UTP-WORK-033"
       ],
       "evidence": [
         "records/visitor-readiness-publication.json",
         "records/evidence/visitor-readiness-publication-2026-10-01/deployment.json"
       ],
-      "note": "Approved PR 13 deployed at be6d1c6. Live guide notes, print stylesheet, consent requests/withdrawal, GA Realtime and HTTPS redirects verified."
+      "note": "Approved PR 13 deployed at be6d1c6. Live guide notes, print stylesheet, consent requests/withdrawal, GA Realtime and HTTPS redirects verified. Backlog reconciliation under WORK-109 maps the duplicate print task WORK-033 to this existing approved release; no new publication is implied."
     },
     {
       "id": "UTP-REL-016",

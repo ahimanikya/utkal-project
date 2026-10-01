@@ -15,12 +15,12 @@ const files=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirector
 test('only selected pages and their declared client content ship',()=>{
  const actual=files('dist-coast').filter(p=>p.endsWith('.html')).map(p=>'/'+p.slice('dist-coast/'.length).replace(/index\.html$/,'')).sort();assert.deepEqual(actual,[...scope.routes].sort());
  for(const route of scope.routes){const html=read(route),d=payload(html);assert.deepEqual(d.catalog.map(i=>i.id).sort(),[...scope.journey_ids].sort());assert.deepEqual(d.starters.map(s=>s.id),scope.starter_ids);assert.ok(html.includes('noindex'));}
- assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,17);
- assert.ok(!read('/destinations/bhubaneswar/').includes('fresco-procession'));
- for(const f of files('dist-coast').filter(p=>/\.(html|js)$/.test(p)))for(const held of ['Gopinath Mohanty','fresco-procession','reading:languages/juang'])assert.ok(!readFileSync(f,'utf8').includes(held),f+': '+held);
+ assert.equal((read('/explore/').match(/data-entry=/g)||[]).length,21);
+ assert.ok(read('/destinations/bhubaneswar/').includes('fresco-procession'));
+ for(const f of files('dist-coast').filter(p=>/\.(html|js)$/.test(p)))for(const held of ['Gopinath Mohanty','reading:languages/juang'])assert.ok(!readFileSync(f,'utf8').includes(held),f+': '+held);
 });
 test('delivery report hashes every shipped file and excludes unused originals',()=>{
- const report=JSON.parse(readFileSync('.astro/coast-build-report.json','utf8'));assert.equal(report.html_pages,26);
+ const report=JSON.parse(readFileSync('.astro/coast-build-report.json','utf8'));assert.equal(report.html_pages,30);
  assert.equal(files('dist-coast').length,report.files.length);
  for(const f of report.files)assert.equal(createHash('sha256').update(readFileSync('dist-coast/'+f.path)).digest('hex'),f.sha256,f.path);
  for(const p of ['images/konark/sun-temple-darshanavenugopal.jpg','assets/coast-illustration-v1.png'])assert.ok(!report.files.some(f=>f.path===p));

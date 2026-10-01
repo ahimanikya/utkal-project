@@ -7,6 +7,7 @@ import {bookPhotos} from './book-photos';
 import notes from './selected.json';
 import {pilots,detailRecords,detailUrl,detailSources} from './destination-details';
 import voices from '../../../../kb/research/voices/collection.json';
+import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 const entries=[];
 for(const r of regions.regions){
@@ -33,6 +34,8 @@ export const journeyCatalog=entries.filter(item=>allowsIdea(item.id)).map(origin
  const access=item.id==='experience:bhubaneswar-fresco'?'A February 2009 photo archive, not a verified current mural route. Exact streets and present condition are unverified.':item.id==='place:chandipur'?'Check local tides and the return route; firm paths and toilets have not been inspected.':item.id==='place:similipal'?'Confirm the gate, permit, vehicle and seasonal opening through the official reserve.':item.kind==='Stay area'?'Confirm the property, facilities and access directly; this is an area suggestion.':item.kind==='Reading'?'A reading idea, not a scheduled visit.':item.access||'Confirm local access, transport and availability before travel.';
  const notebook=visitNotebooks.notebooks.find(n=>n.save_id===item.id);
  const detail=detailRecords.find(r=>detailUrl(r.kind,r.slug)===item.href);
- const sources=[...new Map([...(item.sources||[]),...(detail?.parent==='chilika'?detailSources(detail).map(s=>({title:s.title,url:s.resource})):[]),...(notebook?.planning_sources||[])].map(s=>[s.url,{title:s.title,url:s.url}])).values()];
- return {...item,sources,practical:detail?.parent==='chilika'?detail.sections.map(s=>({heading:s.heading,text:s.text})):item.practical,visitQuestions:visitQuestions.guides.find(g=>g.save_id===item.id)?.questions,visitNotebook:notebook,aliases:aliases.entries[item.href.split('#')[0]]||[],title:item.kind==='Stay area'&&detail?detail.title:item.title,photo:bookPhotos[item.id]?Object.fromEntries(['src','alt','width','height','caption','creator','license','license_url','source','changes'].map(key=>[key,bookPhotos[item.id][key]])):undefined,planningArea:item.id==='place:mangalajodi'?'Mangalajodi':region,access};
+ const meal=cityMeal.sections.find(s=>s.save_id===item.id && ['food:pakhala','food:bhubaneswar-dalma'].includes(item.id));
+ const practical=detail && ['chilika','bhubaneswar'].includes(detail.parent)?detail.sections.flatMap(s=>[{heading:s.heading,text:s.text},...(s.options||[]).map(o=>({heading:o.area,text:[o.fit,o.transport,o.check].join(' ')}))]):meal?[{heading:meal.prompt,text:meal.question},{heading:'Before ordering',text:cityMeal.closing}]:item.practical;
+ const sources=[...new Map([...(item.sources||[]),...(detail && ['chilika','bhubaneswar'].includes(detail.parent)?detailSources(detail).map(s=>({title:s.title,url:s.resource})):[]),...(meal?meal.source_ids.map(id=>cityMeal.sources[id]):[]),...(notebook?.planning_sources||[])].map(s=>[s.url,{title:s.title,url:s.url}])).values()];
+ return {...item,sources,practical,visitQuestions:visitQuestions.guides.find(g=>g.save_id===item.id)?.questions,visitNotebook:notebook,aliases:aliases.entries[item.href.split('#')[0]]||[],title:item.kind==='Stay area'&&detail?detail.title:item.title,photo:bookPhotos[item.id]?Object.fromEntries(['src','alt','width','height','caption','creator','license','license_url','source','changes'].map(key=>[key,bookPhotos[item.id][key]])):undefined,planningArea:item.id==='place:mangalajodi'?'Mangalajodi':region,access};
 });

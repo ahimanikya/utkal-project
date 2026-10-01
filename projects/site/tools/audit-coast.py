@@ -66,7 +66,7 @@ for route,page in pages.items():
  add(route,'local_links_and_assets',errors,{'local_links':local_links,'resources':assets})
  errors=[]
  if 'noindex' not in page.meta('robots'):errors.append('Preview indexing boundary lost')
- for held in ['Gopinath Mohanty','fresco-procession','reading:languages/juang','href="/store/']:
+ for held in ['Gopinath Mohanty','reading:languages/juang','href="/store/']:
   if held in page.raw:errors.append('Excluded content '+held)
  images=page.nodes_of('img')
  for a in images:
