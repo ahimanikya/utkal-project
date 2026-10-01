@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T06:42:49.852366-07:00",
+  "updated_at": "2026-10-01T07:08:07.809761-07:00",
   "coverage": "Historical Utkal/Odisha connections to the present; selected evidence, not complete census or continuous lineage. Ancient Utkal, Kalinga and modern Odisha boundaries must be established for each record.",
   "timeline": [
     {
@@ -73,6 +73,28 @@
       "source_ids": [
         "science-nayak-borlaug"
       ]
+    },
+    {
+      "period": "1960 paper",
+      "person_id": "people/tribikram-pati",
+      "work_id": "works/pati-summability-1960",
+      "source_ids": [
+        "science-pati-summability-1960"
+      ],
+      "status": "original_paper_scoped_read"
+    },
+    {
+      "period": "1959–1961 award group; reported encyclopaedia 2005",
+      "person_id": "people/gokulananda-mohapatra",
+      "work_ids": [
+        "works/e-jugara-shrestha-abiskar",
+        "works/baigyanika-gyanakosha"
+      ],
+      "source_ids": [
+        "science-gokulananda-award-register",
+        "science-gokulananda-ova"
+      ],
+      "status": "indexed_institutional_evidence_with_conflicts"
     }
   ],
   "research_lanes": [
@@ -86,7 +108,7 @@
     },
     {
       "era": "nineteenth and twentieth centuries",
-      "next": "Reuse Samanta; examine Pranakrushna Parija, Tribikram Pati and Gokulananda Mahapatra across research, education and science communication, with distinct roles."
+      "next": "Tribikram Pati and Gokulananda Mohapatra checkpoint saved. Resolve degree, award and birth-date conflicts through original registers; extend chemistry research separately from science writing."
     },
     {
       "era": "contemporary",
@@ -294,5 +316,87 @@
         "comparability": "Different undated pages from one institution; no growth calculation or unique-work/scientific-text total."
       }
     ]
-  }
+  },
+  "quarantined_conflicts": [
+    {
+      "id": "gokulananda-birth-date",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "exact_birth_date",
+      "claims": [
+        {
+          "value": "1922-11-13",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "1922-05-24",
+          "source_id": "science-gokulananda-dream-2013"
+        }
+      ],
+      "public_resolution": "Year 1922 only; exact date unresolved."
+    },
+    {
+      "id": "gokulananda-literary-award",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "award_period",
+      "claims": [
+        {
+          "value": "1986",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "1959–1961 group; selected work row 22",
+          "source_id": "science-gokulananda-award-register"
+        }
+      ],
+      "public_resolution": "Use attributed register group; exact year unresolved."
+    },
+    {
+      "id": "gokulananda-kalinga-identity",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "award_identity_and_year",
+      "claims": [
+        {
+          "value": "Kalinga Award 2010",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "Not listed in UNESCO register; 2011 entry names René Raúl Drucker Colín",
+          "source_id": "science-unesco-kalinga-laureates"
+        }
+      ],
+      "public_resolution": "No UNESCO laureate claim; retrieve separate Kalinga Samman issuer record."
+    },
+    {
+      "id": "gokulananda-first-article",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "early_atom_bomb_article",
+      "claims": [
+        {
+          "value": "Published in Shankha 1955",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "Initial manuscript lost; follow-up coal-tar article 1946",
+          "source_id": "science-gokulananda-dream-2013"
+        }
+      ],
+      "public_resolution": "No first-in-language or exact publication-year claim."
+    },
+    {
+      "id": "tribikram-degree-chronology",
+      "person_id": "people/tribikram-pati",
+      "field": "degree_1956",
+      "claims": [
+        {
+          "value": "D.Phil. 1953; D.Sc. 1956",
+          "source_id": "science-parija-niser"
+        },
+        {
+          "value": "Thesis 1956 labelled PhD",
+          "source_id": "science-pati-indcat"
+        }
+      ],
+      "public_resolution": "University doctoral register needed; exact degree dates withheld."
+    }
+  ]
 }

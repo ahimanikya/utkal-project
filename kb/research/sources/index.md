@@ -374,3 +374,15 @@
 - [Odisha State Museum: Ganita catalogue, second result page](science-osm-ganita-catalogue.md)
 
 - [INSA bibliography: Odisha astronomy and mathematics manuscript survey](science-insa-manuscript-survey-index.md)
+
+- [On the absolute summability factors of infinite series I](science-pati-summability-1960.md)
+
+- [Gokulananda Mohapatra: Odia Virtual Academy profile](science-gokulananda-ova.md)
+
+- [Gokulananda Mohapatra: Doyen of popularisation of science in Odiya](science-gokulananda-dream-2013.md)
+
+- [Odisha Sahitya Academy awarded books and writers: 2011 reference annual](science-gokulananda-award-register.md)
+
+- [Tribikram Pati: absolute summability thesis catalogue](science-pati-indcat.md)
+
+- [UNESCO Kalinga Prize: laureates register](science-unesco-kalinga-laureates.md)

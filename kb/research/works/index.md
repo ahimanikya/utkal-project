@@ -65,3 +65,9 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Analytic studies in plant respiration. I. The respiration of a population of senescent ripening apples](parija-apple-respiration-1928.md)
 
 - [Possible origin of shoulder in the reactor antineutrino spectrum](antineutrino-shoulder-2017.md)
+
+- [On the absolute summability factors of infinite series I](pati-summability-1960.md)
+
+- [E Jugara Shrestha Abiskar](e-jugara-shrestha-abiskar.md)
+
+- [Baigyanika Gyanakosha](baigyanika-gyanakosha.md)

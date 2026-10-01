@@ -2934,7 +2934,14 @@
     "capture_method": "direct_html",
     "locator": "P. K. Parija Lecture in Life Sciences, extracted lines 76–87",
     "capture_note": "Memorial biography gives 1891–1978, Balikuda/Jagatsinghpur connection, university leadership and 1955 Padma Bhushan. Faculty-hosted account, not award-issuer register. Cambridge college detail not adopted.",
-    "source_kind": "Original research, institutional biography or academy catalogue"
+    "source_kind": "Original research, institutional biography or academy catalogue",
+    "additional_captures": [
+      {
+        "at": "2026-10-01T07:08:07.809761-07:00",
+        "locator": "Tribikram Pati memorial medal section, lines 24–32",
+        "scope": "1929–2008; Odisha Mathematical Society/Odisha Bigyana Academy and founding IMA chair reported by faculty-hosted memorial. Not independent of the previously saved page. Degree chronology conflicts with IndCat."
+      }
+    ]
   },
   "science-parija-ias-papers": {
     "id": "science-parija-ias-papers",
@@ -3031,5 +3038,77 @@
     "locator": "Cumulative IJHS index, Deepak Bhattacharya entry",
     "capture_note": "Lists Select Palm leaf manuscripts in Orissa State Museum, Bhubaneswar on Astronomy and Mathematics, IJHS 43.1 (2008),101–108. Confirms bibliography only. Survey full text unavailable in this run; individual table rows not adopted.",
     "source_kind": "Institutional manuscript catalogue or publisher bibliography"
+  },
+  "science-pati-summability-1960": {
+    "id": "science-pati-summability-1960",
+    "title": "On the absolute summability factors of infinite series I",
+    "resource": "https://www.jstage.jst.go.jp/article/tmj1949/12/2/12_2_222/_article/-char/ja",
+    "publisher": "Tohoku Mathematical Journal / J-STAGE",
+    "publication_date": "1960",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_pdf_text_with_indexed_metadata",
+    "locator": "12(2), pp.222–232; PDF pp.1–3 and final affiliation; DOI 10.2748/tmj/1178244437",
+    "capture_note": "Credits Tribikram Pati and Z. U. Ahmad, University of Allahabad. Introduction describes a direct proof of a generalised summability-factor result. Web failed but PDF retrieved with curl and text inspected. Mathematical proof not independently verified. 2010 online posting is not original publication year.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-gokulananda-ova": {
+    "id": "science-gokulananda-ova",
+    "title": "Gokulananda Mohapatra: Odia Virtual Academy profile",
+    "resource": "https://ova.gov.in/en/Author?aid=pBJ++OxiP1Y%3D",
+    "publisher": "Odia Virtual Academy, Government of Odisha",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_profile_direct_fetch_unavailable",
+    "locator": "Biographical header, selected books and Baigyanika Gyanakosha paragraph",
+    "capture_note": "Documents Kuansa/Bhadrak connection and science writing. Reports 13 November 1922 birth, 1986 Sahitya award, 2010 Kalinga Award and varying book totals; these claims are quarantined against other evidence. Encyclopaedia title and reported January 2005 two-volume publication retained as attributed metadata. Direct and encoded URL retrieval failed.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-gokulananda-dream-2013": {
+    "id": "science-gokulananda-dream-2013",
+    "title": "Gokulananda Mohapatra: Doyen of popularisation of science in Odiya",
+    "resource": "https://www.indiascienceandtechnology.gov.in/sites/all/themes/vigyan/pdf_file/newsletter_dreams_2047/2013/DreamOctober2013Eng.pdf",
+    "publisher": "Nikhil Mohan Pattnaik / Vigyan Prasar, Dream 2047",
+    "publication_date": "2013-10",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_article_direct_fetch_unavailable",
+    "locator": "Dream 2047, vol.16 no.1, printed p.32, early life and writing paragraphs",
+    "capture_note": "Reports birth 24 May 1922 and death 10 July 2013, Kuansa near Bhadrak, science writing and Odia radio. Describes the atom-bomb manuscript as lost and a coal-tar article in 1946; differs from OVA. Direct web and curl unavailable; no full-issue reading claimed.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-gokulananda-award-register": {
+    "id": "science-gokulananda-award-register",
+    "title": "Odisha Sahitya Academy awarded books and writers: 2011 reference annual",
+    "resource": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2011/pdf/92-99.pdf",
+    "publisher": "Government of Odisha, Odisha Reference Annual",
+    "publication_date": "2011",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_table_direct_fetch_unavailable",
+    "locator": "Printed p.92, 1959–1961 block, row 22",
+    "capture_note": "Lists E Jugara Shrestha Abiskar, Science Literature, Gokulananda Mohapatra under grouped years 1959–1961. Does not isolate an exact award year or book publication date. Direct fetch failed; curl certificate expired. OVA 1986 claim retained as unresolved, not repeated as settled.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-pati-indcat": {
+    "id": "science-pati-indcat",
+    "title": "Tribikram Pati: absolute summability thesis catalogue",
+    "resource": "https://indcat.inflibnet.ac.in/index.php/thesesrequest?id=th_28694",
+    "publisher": "INFLIBNET IndCat",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_catalogue_direct_fetch_unavailable",
+    "locator": "Record th_28694 / MARC 28694",
+    "capture_note": "Catalogue lists a 1956 English thesis and labels degree PhD; NISER memorial gives D.Phil. 1953 and D.Sc. 1956. Degree mapping unresolved; not silently harmonised. Catalogue title prints furier. Direct fetch unavailable.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-unesco-kalinga-laureates": {
+    "id": "science-unesco-kalinga-laureates",
+    "title": "UNESCO Kalinga Prize: laureates register",
+    "resource": "https://www.unesco.org/en/prizes/popularization-science/laureates",
+    "publisher": "UNESCO",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "2009 and 2011 entries, full laureate listing",
+    "capture_note": "Register identifies Yash Pal and Trinh Xuan Thuan for 2009 and René Raúl Drucker Colín for 2011. Gokulananda Mohapatra is not listed. Do not label the separate Kalinga Samman as this UNESCO prize; Samman issuer/year still needs original award documentation.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
   }
 }

@@ -545,10 +545,10 @@
       "done_when": "Build a documented timeline from Utkal’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
       "target": "people/people-and-creations.md",
       "status": "in_progress",
-      "attempts": 3,
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T06:42:49.852366-07:00",
-      "next_step": "Continue RES-029 with nineteenth/twentieth-century mathematics and science communication (Tribikram Pati and Gokulananda Mahapatra), then contemporary women and additional disciplines. Reuse the saved manuscript checkpoint; original folios/Devīdāsa attribution remain open and failed routes retry after 2026-10-08.",
+      "last_worked_at": "2026-10-01T07:08:07.809761-07:00",
+      "next_step": "Continue RES-029 with contemporary computing, engineering and women researchers whose Odisha connections can be documented. Reuse the nine mapped identities. Keep historical attribution open; resolve Mohapatra birth/award and Pati degree conflicts through original registers, retrying failed routes after 2026-10-08.",
       "evidence_outputs": [
         "people/science-and-contributions.md",
         "people/swati-nayak.md",
@@ -562,7 +562,12 @@
         "works/bhasvati.md",
         "works/parija-apple-respiration-1928.md",
         "works/antineutrino-shoulder-2017.md",
-        "history/scientific-manuscripts.md"
+        "history/scientific-manuscripts.md",
+        "people/tribikram-pati.md",
+        "people/gokulananda-mohapatra.md",
+        "works/pati-summability-1960.md",
+        "works/e-jugara-shrestha-abiskar.md",
+        "works/baigyanika-gyanakosha.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -581,7 +586,12 @@
           "works/bhasvati.md",
           "works/parija-apple-respiration-1928.md",
           "works/antineutrino-shoulder-2017.md",
-          "history/scientific-manuscripts.md"
+          "history/scientific-manuscripts.md",
+          "people/tribikram-pati.md",
+          "people/gokulananda-mohapatra.md",
+          "works/pati-summability-1960.md",
+          "works/e-jugara-shrestha-abiskar.md",
+          "works/baigyanika-gyanakosha.md"
         ],
         "project_records": [
           "kb/research/people/samanta-chandrasekhar.md",
@@ -620,6 +630,16 @@
           "new_people": 0,
           "retry_after": "2026-10-08",
           "remaining_gap": "Original manuscripts, Devīdāsa identity and dated museum inventory unverified."
+        },
+        {
+          "run_id": "2026-10-01-science-modern",
+          "at": "2026-10-01T07:08:07.809761-07:00",
+          "outcome": "modern_science_checkpoint",
+          "completion_criteria_met": false,
+          "new_people": 2,
+          "new_works": 3,
+          "conflicts_saved": 5,
+          "retry_after": "2026-10-08"
         }
       ],
       "scope_history": [

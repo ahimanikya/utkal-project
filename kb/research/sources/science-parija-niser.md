@@ -19,3 +19,7 @@ Locator: P. K. Parija Lecture in Life Sciences, extracted lines 76–87.
 Memorial biography gives 1891–1978, Balikuda/Jagatsinghpur connection, university leadership and 1955 Padma Bhushan. Faculty-hosted account, not award-issuer register. Cambridge college detail not adopted.
 
 [Source](https://www.niser.ac.in/~bedanga/endowments.php).
+
+## Additional scoped capture · 1 October 2026
+
+The same page’s Tribikram Pati memorial-medal section (lines 24–32) supplies his 1929–2008 lifespan and reported Odisha institutional leadership. This is one faculty-hosted publication, reused under its existing source ID. Its degree chronology differs from the IndCat record; see the [Pati profile](../people/tribikram-pati.md).

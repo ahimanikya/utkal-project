@@ -67,3 +67,7 @@
 - [Prana Krushna Parija](prana-krushna-parija.md)
 
 - [Ajit Kumar Mohanty — nuclear physicist](ajit-kumar-mohanty-physicist.md)
+
+- [Tribikram Pati](tribikram-pati.md)
+
+- [Gokulananda Mohapatra](gokulananda-mohapatra.md)

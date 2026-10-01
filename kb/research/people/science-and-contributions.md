@@ -39,3 +39,7 @@ The [structured timeline and research lanes](../references/data/science-heritage
 ## Manuscript evidence · 1 October 2026
 
 [Scientific knowledge preserved in manuscripts](../history/scientific-manuscripts.md) connects this timeline to institutional catalogues, including Bhāsvatī copies outside Odisha and mathematics texts held in Bhubaneswar. Named attribution and original manuscripts remain separate checks.
+
+## Mathematics and science in Odia · 1 October 2026
+
+[Tribikram Pati](tribikram-pati.md) adds a jointly credited 1960 mathematics paper. [Gokulananda Mohapatra](gokulananda-mohapatra.md) connects science with Odia literature and encyclopaedic writing. Two new profiles extend the selected timeline to nine identities including project-native Samanta; this is a research count, not a statewide total. Birth-date, degree and award conflicts remain recorded; research, education and science communication are distinct contributions.

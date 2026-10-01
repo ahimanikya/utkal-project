@@ -146,3 +146,5 @@
 - [Utkal name correction](utkal-name-correction-2026-10-01.json) — user-confirmed spelling, maintained references and preserved history.
 
 - [Scientific manuscript checkpoint](science-manuscripts-2026-10-01.json) — Four Bhāsvatī catalogue witnesses and three museum mathematics records; RES-029 remains in progress.
+
+- [Modern science checkpoint](science-modern-2026-10-01.json) — Mathematics and Odia science communication: two contributors, three works and five conflicts; RES-029 remains in progress.

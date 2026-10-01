@@ -51,3 +51,7 @@ Applied the user-confirmed name **Utkal** to maintained imported research. [Corr
 ## 2026-10-01
 
 Saved RES-029 manuscript checkpoint: four Bhāsvatī catalogue witnesses and three museum mathematics records; undated inventory limits retained. Existing scientist identities preserved. [Bounded receipt](records/science-manuscripts-2026-10-01.json). No website changes or human approval claimed.
+
+## 2026-10-01
+
+Saved RES-029 checkpoint: Tribikram Pati and Gokulananda Mohapatra, three credited works and five explicit conflicts. Existing NISER source reused. [Bounded receipt](records/science-modern-2026-10-01.json). No website changes or human approval claimed.

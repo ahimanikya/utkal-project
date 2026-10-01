@@ -79,3 +79,7 @@ The bounded RES-027 set now covers **six practitioners and twelve independently 
 ## Scientific heritage through time · 1 October 2026
 
 [Utkal’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.
+
+## Mathematics and Odia science writing · 1 October 2026
+
+[Tribikram Pati](../people/tribikram-pati.md) and [Gokulananda Mohapatra](../people/gokulananda-mohapatra.md) connect mathematical research, science education and Odia writing to credited works. Source conflicts remain visible; neither a journal venue nor an encyclopaedia establishes measured global popularity.

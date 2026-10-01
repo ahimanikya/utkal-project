@@ -83,3 +83,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Science and manuscript heritage · 1 October 2026
 
 [Scientific knowledge preserved in manuscripts](../history/scientific-manuscripts.md) connects preserved mathematical texts, literary-form research leads and the scientist timeline, with explicit attribution gaps.
+
+## Mathematics and Odia science writing · 1 October 2026
+
+[Tribikram Pati](../people/tribikram-pati.md) and [Gokulananda Mohapatra](../people/gokulananda-mohapatra.md) connect mathematical research, science education and Odia writing to credited works. Source conflicts remain visible; neither a journal venue nor an encyclopaedia establishes measured global popularity.

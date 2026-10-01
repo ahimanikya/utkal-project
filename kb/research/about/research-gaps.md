@@ -142,3 +142,7 @@ No securely sourced named scientist before 1099 CE was established in this batch
 ### Manuscript attribution and inventory gaps · 1 October 2026
 
 Original folios, colophons, acquisition history and Devīdāsa’s commentary identity remain unverified. Museum inventory pages are undated; 37,273 and approximately 37,000 cannot form a growth series or a science-only total. Survey PDF and selected catalogue-detail fetches failed; retry after 8 October. The broad scientist timeline remains incomplete; proceed to independent modern disciplines meanwhile.
+
+### Modern science attribution gaps · 1 October 2026
+
+Pati’s degree dates differ between memorial and thesis catalogue. Mohapatra’s exact birth date, literary-award year and early article chronology conflict across institutional accounts; his Kalinga honour must not become a UNESCO laureate claim. Original book imprints, English translations, reconciled bibliography and measured readership remain missing. Direct OVA, IndCat, Vigyan Prasar and award-register routes failed; retry after 8 October. All five conflicts are structured in science-heritage.json.

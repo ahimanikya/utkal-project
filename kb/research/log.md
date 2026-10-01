@@ -144,3 +144,7 @@ Corrected maintained project references to **Utkal** following the user’s expl
 ## 2026-10-01
 
 Saved a RES-029 manuscript checkpoint: five institutional source records, four Bhāsvatī catalogue witnesses, three Odisha mathematics records and undated museum inventory observations with scope limits. Enhanced the existing work and classified a manuscript collection across history, people and arts. No new people, human review or website publication claimed.
+
+## 2026-10-01
+
+Added Tribikram Pati and Gokulananda Mohapatra with three credited works, six sources and five explicit conflicts. Read the Pati–Ahmad paper’s introduction and retained joint credit; reused the existing NISER source. Indexed biographies and award evidence remain labelled. Expanded RES-029 without completing the broader historical-to-present scope.

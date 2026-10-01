@@ -117,3 +117,7 @@ Current maintained titles and queue wording now use Utkal. Added PRD correction 
 ### Scientific manuscript extension · 1 October 2026
 
 Added five source records and one collection; current inventory 853. Reused Bhāsvatī rather than creating a new work for every copy. IGNCA catalogue entries are witnesses from one publication, not independent historical studies. Museum custody and author birthplace remain separate fields. No new scientist identity inferred from empty author fields.
+
+### Modern mathematics and science writing · 1 October 2026
+
+Two people, three works and six sources extend the map to 864. Existing NISER source ID reused for Pati’s memorial section. J-STAGE metadata and PDF represent one paper. Gokulananda Mohapatra/Mahapatra is one identity; no merger with similarly named Das or Mohanty. Five conflicts remain quarantined.

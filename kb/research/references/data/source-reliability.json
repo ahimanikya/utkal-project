@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T06:42:49.852366-07:00",
+  "updated_at": "2026-10-01T07:08:07.809761-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1141,6 +1141,10 @@
     {
       "run_id": "2026-10-01-science-manuscripts",
       "scope": "Manuscript catalogue research, not weekly statistical releases."
+    },
+    {
+      "run_id": "2026-10-01-science-modern",
+      "scope": "Modern science contributions and conflict checks, not weekly statistics."
     }
   ],
   "supplemental_discovery_routes": [
@@ -2111,6 +2115,136 @@
       "run_id": "2026-10-01-science-manuscripts",
       "status": "page_image_unavailable_text_available",
       "scope": "PDF p.120 screenshot cache miss; extracted text inspected. No manuscript image or full-book reading claimed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-pati-summability-1960",
+      "discovery_url": "https://www.jstage.jst.go.jp/article/tmj1949/12/2/12_2_222/_article/-char/ja",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "available_with_scoped_capture",
+      "scope": "Credits Tribikram Pati and Z. U. Ahmad, University of Allahabad. Introduction describes a direct proof of a generalised summability-factor result. Web failed but PDF retrieved with curl and text inspected. Mathematical proof not independently verified. 2010 online posting is not original publication year.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-gokulananda-ova",
+      "discovery_url": "https://ova.gov.in/en/Author?aid=pBJ++OxiP1Y%3D",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Documents Kuansa/Bhadrak connection and science writing. Reports 13 November 1922 birth, 1986 Sahitya award, 2010 Kalinga Award and varying book totals; these claims are quarantined against other evidence. Encyclopaedia title and reported January 2005 two-volume publication retained as attributed metadata. Direct and encoded URL retrieval failed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-gokulananda-dream-2013",
+      "discovery_url": "https://www.indiascienceandtechnology.gov.in/sites/all/themes/vigyan/pdf_file/newsletter_dreams_2047/2013/DreamOctober2013Eng.pdf",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Reports birth 24 May 1922 and death 10 July 2013, Kuansa near Bhadrak, science writing and Odia radio. Describes the atom-bomb manuscript as lost and a coal-tar article in 1946; differs from OVA. Direct web and curl unavailable; no full-issue reading claimed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-gokulananda-award-register",
+      "discovery_url": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2011/pdf/92-99.pdf",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Lists E Jugara Shrestha Abiskar, Science Literature, Gokulananda Mohapatra under grouped years 1959–1961. Does not isolate an exact award year or book publication date. Direct fetch failed; curl certificate expired. OVA 1986 claim retained as unresolved, not repeated as settled.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-pati-indcat",
+      "discovery_url": "https://indcat.inflibnet.ac.in/index.php/thesesrequest?id=th_28694",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Catalogue lists a 1956 English thesis and labels degree PhD; NISER memorial gives D.Phil. 1953 and D.Sc. 1956. Degree mapping unresolved; not silently harmonised. Catalogue title prints furier. Direct fetch unavailable.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-unesco-kalinga-laureates",
+      "discovery_url": "https://www.unesco.org/en/prizes/popularization-science/laureates",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "available_with_scoped_capture",
+      "scope": "Register identifies Yash Pal and Trinh Xuan Thuan for 2009 and René Raúl Drucker Colín for 2011. Gokulananda Mohapatra is not listed. Do not label the separate Kalinga Samman as this UNESCO prize; Samman issuer/year still needs original award documentation.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-parija-niser",
+      "discovery_url": "https://www.niser.ac.in/~bedanga/endowments.php",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "available_additional_section_capture",
+      "scope": "Tribikram Pati memorial section; reused original source identity.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://nopr.niscpr.res.in/bitstream/123456789/47146/1/JST%202%281-2%29%2086-120.pdf",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch",
+      "scope": "CSIR-hosted history article lead; web failed and curl timed out; not promoted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://nopr.niscpr.res.in/handle/123456789/47146",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch",
+      "scope": "Repository handle unavailable.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://odishasahityaakademi.org/English/sahitya-award.php",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch",
+      "scope": "Issuer route unavailable.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://kalingafoundationtrust.com",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch",
+      "scope": "Issuer homepage unavailable; no Samman date adopted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ova.gov.in/en/Author?aid=pBJ%2B%2BOxiP1Y%3D",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch",
+      "scope": "Encoded alternative also unavailable.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.jstage.jst.go.jp/article/tmj1949/12/2/12_2_222/_article/-char/en",
+      "checked_at": "2026-10-01T07:08:07.809761-07:00",
+      "run_id": "2026-10-01-science-modern",
+      "status": "unavailable_direct_fetch",
+      "scope": "HTML fetch failed; PDF retrieval succeeded through ja route.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }
