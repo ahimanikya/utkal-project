@@ -30,10 +30,22 @@ test('destination contents support the same mobile reading controls as cultural 
   const html=read(route);assert.match(html,/<details class="story-contents-mobile"/);assert.match(html,/<nav class="mag-navigation story-contents-desktop"/);
  }
 });
-test('practical notes retain dated source references without pretending local verification',()=>{
- for(const route of ['/knowledge/chilika/','/knowledge/konark/','/visit/places/dhauli/','/visit/places/raghurajpur/','/destinations/puri/','/visit/places/similipal/']){
-  const html=read(route);assert.match(html,/Check current arrangements/);assert.match(html,/Official references checked 2026-10-01/);assert.match(html,/individual arrangements have not been confirmed locally/);
+test('practical notes stay inside their guide before the notebook, onward links and credits',()=>{
+ const notes=JSON.parse(readFileSync('../../kb/research/destinations/visit-readiness.json','utf8')).notes;
+ const expected=notes.flatMap(n=>n.routes);
+ for(const route of routes){
+  const html=read(route),matches=[...html.matchAll(/id="current-arrangements"/g)];
+  assert.equal(matches.length,expected.includes(route)?1:0,route);
+  if(!expected.includes(route))continue;
+  const position=matches[0].index;
+  assert.ok(html.lastIndexOf('<article class="mag-content"',position)>=0,route);
+  for(const end of ['id="visit-notebook"','id="connect-visit"','id="collection-onward"','id="sources-credits"','id="sources"']){
+   const next=html.indexOf(end);if(next>=0)assert.ok(position<next,route+' '+end);
+  }
+  assert.match(html,/Official references checked 2026-10-01/);
+  assert.match(html,/individual arrangements have not been confirmed locally/);
  }
+ assert.equal(expected.length,9);
 });
 test('normal publication still excludes search activation and held commercial content',()=>{
  assert.equal(existsSync('dist-coast/sitemap.xml'),false);

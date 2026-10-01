@@ -1,4 +1,5 @@
 ---
+import VisitReadiness from './VisitReadiness.astro';
 import ResponsiveImage from './ResponsiveImage.astro';
 import MagazineContents from './MagazineContents.astro';
 import VisitNotebook from './VisitNotebook.astro';
@@ -55,6 +56,7 @@ const chapterId=story.voice?'poems-songs':'history';
         <section id="stay"><h3>Stay</h3><div><p>{d.stay_note}</p><details class="mag-disclosure"><summary>Explore the stay areas</summary>{d.bases.map(item=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}><h4>{item.title}</h4><p>{item.text}</p><a href={allowsPage(item.detail_href)?item.detail_href:'/visit/stays/puri-coast/'}>Explore this stay area ↗</a><SaveJourney id={item.id} quiet /></article>)}</details></div></section>
       </div>
     </section>
+   <VisitReadiness/>
     <div class="mag-further">
       <details class="mag-disclosure" id="expectations"><summary>Good to know before you go</summary><h3>{d.expectations.heading}</h3><dl>{[['A good fit for',d.expectations.strength],['Plan around',d.expectations.constraint],['Do',d.expectations.do],['Avoid',d.expectations.avoid]].map(([title,text])=><div><dt>{title}</dt><dd>{text}</dd></div>)}</dl><h3>{d.planning.heading}</h3><p>{d.planning.text}</p></details>
       <details class="mag-disclosure" id={layout.recordAnchor}><summary>{layout.recordLabel}</summary>{entry.paragraphs.map((p,i)=><p class="knowledge-text" id={'fact-'+(i+1)} data-source-ids={p.sources.join(' ')}>{p.text}</p>)}{story.voice&&<section id="ecology" data-source-ids={story.surprise.sources.join(' ')}><h3>{story.surprise.heading}</h3><dl class="mag-metrics">{story.surprise.metrics.map(m=><div><dt>{m.label}</dt><dd>{m.value}</dd></div>)}</dl><p>{story.surprise.text}</p><details><summary>{story.surprise.reveal_label}</summary><p>{story.surprise.reveal}</p></details></section>}</details>
