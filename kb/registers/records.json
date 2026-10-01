@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T14:10:10.794355+00:00",
+  "recorded_at": "2026-10-01T14:18:32.123935+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3598,6 +3598,29 @@
         "records/collection-images-review.json",
         "records/collection-images-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-122",
+      "title": "Reversible Explore filters and result recovery",
+      "category": "website_experience",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-123",
+      "next_action": "Founder reviews the Explore candidate. Keep real browser and assistive-technology verification open; publish only after approval.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-123",
+        "UTP-REV-097",
+        "UTP-WORK-116"
+      ],
+      "evidence": [
+        "records/explore-filter-flow-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -6047,6 +6070,26 @@
       "evidence": [
         "records/collection-images-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-123",
+      "title": "Continue with Explore search and filter flow",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, continue",
+      "scope": "Prepare the next bounded visitor-experience candidate after PR 29. Publication remains subject to Founder review.",
+      "recorded_at": "2026-10-01T14:18:32.123935+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-122",
+        "UTP-WORK-116"
+      ],
+      "evidence": [
+        "records/explore-filter-flow-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8344,6 +8387,29 @@
       ],
       "evidence": [
         "records/collection-images-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-097",
+      "title": "Explore filter flow candidate verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the candidate; no independent review claimed.",
+        "Controller event tests use a synthetic DOM/history harness. They do not establish rendered layout, native keyboard or browser history scroll restoration behavior.",
+        "Earlier browser security-policy verification remains unavailable; no alternate browser bypass attempted. Real browser, screen-reader and physical-device checks remain open.",
+        "No content expansion, imagery changes, new routes, analytics change or search activation. Normal publication remains noindex."
+      ],
+      "refs": [
+        "UTP-DEC-123",
+        "UTP-WORK-122"
+      ],
+      "evidence": [
+        "records/explore-filter-flow-review.json"
       ]
     }
   ],
