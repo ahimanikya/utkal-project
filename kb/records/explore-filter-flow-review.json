@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-01T14:18:32.123935+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-123",
+  "base_commit": "c2eec5d",
+  "scope": "Make collection discovery reversible and help readers widen an empty result without discarding all choices.",
+  "changes": [
+    "Topic, area, sort and reset actions create reversible history entries; typing is grouped into one search step, with new sessions after submit or blur.",
+    "Back and Forward restore controls, visible cards, counts and removable-filter state from the URL.",
+    "Topic counts show the matches available within the current search and area; empty topics remain navigable.",
+    "Readers can remove only search, topic or area; focus returns to the corresponding control.",
+    "Input composition completes before filtering Odia or other composed text.",
+    "Filtering retains card/image DOM nodes in place; only a sort change reorders them.",
+    "All entries and ordinary links remain in the no-script document; existing photo sizes, credit and save identities are retained."
+  ],
+  "verification": {
+    "site_tests": 365,
+    "edition_tests": 44,
+    "new_controller_cases": 9,
+    "new_built_page_case": 1,
+    "page_acceptance": "268 checks across 67 routes passed",
+    "publication_scope": "Same 67 routes and 54 Explore entries; indexing disabled."
+  },
+  "findings": [
+    {
+      "issue": "An additional coastal test run omitted the analytics environment variable used to build the site, causing its existing analytics configuration assertion to fail.",
+      "resolution": "Preserved failed output, then reran with matching PUBLIC_GA_MEASUREMENT_ID; all 44 coastal tests passed. Analytics implementation unchanged.",
+      "initial_evidence": "records/evidence/explore-filter-flow/initial-edition-tests.txt",
+      "final_evidence": "records/evidence/explore-filter-flow/edition-tests.txt"
+    }
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and verified the candidate; no independent review claimed.",
+    "Controller event tests use a synthetic DOM/history harness. They do not establish rendered layout, native keyboard or browser history scroll restoration behavior.",
+    "Earlier browser security-policy verification remains unavailable; no alternate browser bypass attempted. Real browser, screen-reader and physical-device checks remain open.",
+    "No content expansion, imagery changes, new routes, analytics change or search activation. Normal publication remains noindex."
+  ],
+  "evidence": [
+    "records/evidence/explore-filter-flow/site-tests.txt",
+    "records/evidence/explore-filter-flow/edition-tests.txt",
+    "records/evidence/explore-filter-flow/initial-edition-tests.txt",
+    "records/evidence/explore-filter-flow/page-acceptance.json",
+    "records/evidence/explore-filter-flow/discovery-review.json"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated"
+  }
+}

@@ -219,3 +219,12 @@ Use the shared responsive-image component for Explore cards and onward-story pho
 Name generated image assets from their encoded bytes. Adding an unrelated image must not change the address of an existing rendition, and different encoder output must not masquerade under the same address. Export only renditions referenced by the selected publication pages. Compare encoded byte totals explicitly; that comparison does not measure visitor speed, browser-selected requests or perceptual equivalence.
 
 [Collection image-delivery review](../records/collection-images-review.json) records coverage, byte comparisons and the missing onward-image case found by the regression check. Visual and physical-device review remains open.
+
+
+## Let readers widen a search without starting over
+
+Keep topic, area and ordering choices reversible through Back and Forward. Group uninterrupted typing into one search step, and finish character composition before changing results. Restore both controls and results from a shared URL. Modified links retain normal browser behavior.
+
+Show topic counts within the current query and area, and offer separate removal of the query, topic and area. Empty results should point to those choices. Return focus to the relevant control when its removal button disappears. Keep the collection available without scripting; never make client filtering the only access to entries. Reorder card nodes only when ordering changes, so typing does not repeatedly detach photographs.
+
+[Explore filter-flow review](../records/explore-filter-flow-review.json) records controller and built-page checks. Native browser, screen-reader and physical-device verification remains open; this is a UTP pattern, not a shared-package release.
