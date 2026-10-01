@@ -247,3 +247,7 @@ Existing forest statistics enhanced, reusing the 2025 report. Two new publisher 
 ## Palm-seed identity extension · 1 October 2026
 
 RES-039 reuses everyday-food and tala-pitha records. One original publication adds a Talagaja comparison and historical season/study scope. Tala khaja remains unresolved; publisher tabs are a single source. No new research task created.
+
+## Palm anatomy and processing extension · 1 October 2026
+
+Existing Talagaja, everyday-food and preparation records extended. Three sources cover seed biology, experimental flour and attributed regional words. Similar2019 flour versions are not independent corroboration. No duplicate food identity or new task created.

@@ -278,3 +278,7 @@ RES-057 retains differing welfare vintages/year bases and a third FY2019–20 sa
 ## Palm-seed name checkpoint
 
 An original 2015–2018 Odisha study documents Talagaja and its germinated-seed stage. It does not identify the user’s tala khaja spelling. RES-039 remains incomplete and is deferred to 8 October for an attributed equivalence, detailed anatomy and local preparation; proceed independently to RES-044. No local review or recipe testing claimed.
+
+## Palm-food anatomy and markets
+
+General haustorium development is now sourced from primary research. Matching the user’s exact specimen and local khaja/gaja names remains open. Flour methods have inconsistent sieve sizes; fresh-food nutrition and shelf life are unestablished. Current Odisha prices, traded quantities and exports were not found in this bounded search. Festival and TNAU project pages need original-content retrieval on8October.

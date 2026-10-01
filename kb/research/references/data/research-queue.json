@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T21:50:57.277209+00:00",
+  "updated_at": "2026-10-01T22:01:16.891147+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1675,10 +1675,10 @@
       "done_when": "Save attributed everyday-food entries and connections for the supplied foods; identify tala khaja seed stage through a named local or documentary account, preserving uncertainty and source scope.",
       "target": "food/everyday-food-culture.md",
       "status": "blocked",
-      "attempts": 3,
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T21:38:31.291164+00:00",
-      "next_step": "Preserve user clarification: later/final seed-food stage, different from ice apple. Seek documentary khaja/gaja equivalence and detailed preparation after8October; continue independently with RES-044.",
+      "last_worked_at": "2026-10-01T22:01:16.891147+00:00",
+      "next_step": "Use existing anatomy and Odisha field study; seek village-attributed names and fresh-food preparation/market records. Retain8October retry for inaccessible festival/official project pages; continue independent RES-044.",
       "evidence_outputs": [
         "sources/food-badi-sasmita2017.md",
         "sources/food-soul-pritisha2024.md",
@@ -1698,10 +1698,13 @@
         "sources/food-bela-fmu2023.md",
         "food/bela-pana.md",
         "sources/food-palm-panda2021.md",
-        "food/talagaja.md"
+        "food/talagaja.md",
+        "sources/food-palm-ragul2022.md",
+        "sources/food-palm-flour2019.md",
+        "sources/food-palm-kantio2019.md"
       ],
       "retry_after": "2026-10-08",
-      "blocker": "User intended food stage is clarified; documentary khaja/gaja equivalence, precise anatomy and local/Odia wording remain unverified.",
+      "blocker": "Khaja/gaja equivalence and precise photographed specimen remain unverified; general haustorium anatomy documented. Local preparation and current economics remain open.",
       "attempt_history": [
         {
           "run_id": "2026-10-01-everyday-food",
@@ -1720,6 +1723,13 @@
           "at": "2026-10-01T21:38:31.291164+00:00",
           "outcome": "original_talagaja_seed_stage_and_study_scope_saved_name_equivalence_open",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-palm-anatomy",
+          "at": "2026-10-01T22:01:16.891147+00:00",
+          "trigger": "explicit user request for more information overrides scheduled deferral for new independent sources",
+          "outcome": "anatomy_food_processing_and_attributed_lexical_leads",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -1732,7 +1742,10 @@
           "food/bela-pana.md",
           "sources/food-koli-balasore2020.md",
           "sources/food-palm-panda2021.md",
-          "food/talagaja.md"
+          "food/talagaja.md",
+          "sources/food-palm-ragul2022.md",
+          "sources/food-palm-flour2019.md",
+          "sources/food-palm-kantio2019.md"
         ],
         "project_records": [
           "kb/research/food/pakhala.md",

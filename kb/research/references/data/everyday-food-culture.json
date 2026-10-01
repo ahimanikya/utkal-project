@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:50:57.277209+00:00",
-  "run_id": "2026-10-01-palm-seed",
+  "updated_at": "2026-10-01T22:01:16.891147+00:00",
+  "run_id": "2026-10-01-palm-anatomy",
   "scope": "Attributed everyday-food seed; distinct from the completed fourteen-entry preparation set. Not an inventory of all Odisha foods.",
   "records": [
     {
@@ -223,6 +223,21 @@
           "source_id": "food-palm-panda2021",
           "locator": "Printed p.67 / PDF p.4, fruit and germinated-seed paragraphs",
           "scope": "Historical selected-area field study, April2015–March2018; no exact equivalence to user-supplied tala khaja."
+        },
+        {
+          "source_id": "food-palm-ragul2022",
+          "locator": "Printed pp.500,503,505–507; PDF pp.3,6,8–10",
+          "scope": "Primary seed-development experiment using Tamil Nadu seed material; supports anatomy, not Odisha food prevalence or consumer health outcomes."
+        },
+        {
+          "source_id": "food-palm-flour2019",
+          "locator": "Introduction; Methodology; abstract versus method sieve sizes",
+          "scope": "Andhra Pradesh researcher affiliations; sample collection locality not explicit in inspected method. Raw-consumption description and flour process only. Near-identical Kosmos text is not independent corroboration; numeric and clinical claims not adopted."
+        },
+        {
+          "source_id": "food-palm-kantio2019",
+          "locator": "Entry ଖୁକୁଡି଼ and parenthetical district comparisons",
+          "scope": "Authored lexical account, not a representative linguistic survey or independently reviewed botanical identification. Preserve spellings as reported and do not merge them into canonical aliases."
         }
       ],
       "study_scope": {
@@ -257,7 +272,7 @@
         "summary": "Authors describe opening the seed covering and extracting the edible interior.",
         "cooking_endpoint": null,
         "shelf_life": null,
-        "anatomy": "unresolved; do not equate to haustorium or immature endosperm without further evidence"
+        "anatomy": "Haustorium explains the comparable germinating spongy structure; exact pictured specimen not independently examined."
       },
       "local_review": "pending",
       "recipe_tested": false,
@@ -266,7 +281,39 @@
         "exports": null,
         "scope": "No measured sales or income table in this capture"
       },
-      "next_evidence": "A named local account connecting khaja/gaja spellings and seed stage; documented recipe and present market evidence."
+      "next_evidence": "Village-attributed khaja/gaja names, fresh-food handling/recipe, dated seasonal vendor observations and tested product economics.",
+      "anatomical_comparison": {
+        "name": "haustorium",
+        "source_id": "food-palm-ragul2022",
+        "definition": "Temporary spongy cotyledon-derived structure developing inside the seed and receiving mobilised endosperm reserves.",
+        "geography_of_experiment": "Tamil Nadu",
+        "match_to_user_image": "best_supported_inference_not_specimen_verified",
+        "distinct_from": [
+          "immature endosperm",
+          "cotyledonary sheath / underground seedling"
+        ]
+      },
+      "processing_research": {
+        "source_id": "food-palm-flour2019",
+        "stage": "experimental_flour_preparation",
+        "method_summary": "Collected spongy material dried, milled and refrigerated for analysis.",
+        "home_recipe_validated": false,
+        "shelf_life": null,
+        "method_conflict": "Sieve250µm in abstract versus240µm in method; no correction inferred.",
+        "independent_replicate": false,
+        "related_version_url": "https://kosmospublishers.com/physico-chemical-and-functional-characteristics-of-palmyrah-borassus-flabellifer-l-spongy-haustorium-flour-2/",
+        "nutrition_panel_for_fresh_food": null
+      },
+      "language_leads": {
+        "source_id": "food-palm-kantio2019",
+        "status": "attributed_unverified_local_equivalence",
+        "reported_terms": [
+          "ଖୁକ୍'ଡି଼",
+          "ଖୁଖୁଡ଼",
+          "ଖୁଙ୍କୁଡି଼"
+        ],
+        "caveat": "Account descriptions span seed sprout/interior; locality spelling and anatomical equivalence need review."
+      }
     }
   ],
   "reused_concepts": [
@@ -284,7 +331,7 @@
       "seed_stage": "late/final seed-food stage, as described by the user",
       "equivalence_to_tala_gaja": null,
       "local_odia_review": "pending",
-      "next_action": "Preserve the confirmed intended distinction from ice apple; research exact botanical anatomy, preparation and documentary khaja/gaja name equivalence.",
+      "next_action": "Village-attributed khaja/gaja names, fresh-food handling/recipe, dated seasonal vendor observations and tested product economics.",
       "comparison_candidate": {
         "concept_id": "food/talagaja",
         "source_id": "food-palm-panda2021",
@@ -322,7 +369,18 @@
           "name": "ice apple",
           "basis": "explicit user clarification on 2026-10-01"
         }
-      ]
+      ],
+      "anatomical_comparison": {
+        "name": "haustorium",
+        "source_id": "food-palm-ragul2022",
+        "definition": "Temporary spongy cotyledon-derived structure developing inside the seed and receiving mobilised endosperm reserves.",
+        "geography_of_experiment": "Tamil Nadu",
+        "match_to_user_image": "best_supported_inference_not_specimen_verified",
+        "distinct_from": [
+          "immature endosperm",
+          "cotyledonary sheath / underground seedling"
+        ]
+      }
     }
   ]
 }

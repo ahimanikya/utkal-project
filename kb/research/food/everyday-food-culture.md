@@ -63,3 +63,7 @@ An image supplied in this discussion shows a split dark fibrous covering and a w
 ## Stage distinction clarified by the user
 
 **Tala khaja refers here to the later/final seed-food stage shown in the supplied image, not ice apple.** This identification is attributed to Ahimanikya’s clarification on 1 October 2026. Keep it separate from young-fruit food in the index. The documented Talagaja germinated-seed account remains the comparison for further name and anatomy research.
+
+## Palm-seed research deepened
+
+[The Talagaja comparison](talagaja.md) now explains the haustorium using primary seed-development research, separates young fruit from ripe pulp and seedling foods, and records experimental flour work. Regional words are attributed leads; the user’s tala khaja name remains intact. No current Odisha trade or household nutrition figures established.

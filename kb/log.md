@@ -203,3 +203,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Palm-food stage clarification
 
 [Research receipt](records/palm-stage-2026-10-01.json): User clarified the intended late seed-food stage, distinct from ice apple; exact botanical anatomy remains open. No website release.
+
+## 1 October 2026 · Palm-food anatomy and processing
+
+[Research receipt](records/palm-anatomy-2026-10-01.json): Existing palm-food profile expanded with three sources; regional name and specimen equivalence remain scoped. No website release.

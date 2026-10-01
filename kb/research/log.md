@@ -292,3 +292,7 @@ Recorded the user-supplied image as contextual visual evidence for the tala khaj
 ## 1 October 2026 · Tala khaja stage clarification
 
 Ahimanikya explicitly distinguished the pictured later/final seed-food stage from ice apple. Updated the food index and comparison page with this attributed clarification; documentary name equivalence and botanical anatomy remain open. No independent human review or website publication claimed.
+
+## 1 October 2026 · Palm-food anatomy, names and processing
+
+Expanded the existing Talagaja profile using three sources, distinguishing user testimony, anatomical research, historical Odisha food use and experimental flour. Retained failed fetches and source-version cautions. No statewide economics or clinical claims imported; no website publication.

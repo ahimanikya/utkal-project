@@ -71,3 +71,7 @@ The [tentuli](tentuli-tamarind.md) and [chara](chara-chironji.md) profiles now h
 ## Palm stages and preparation
 
 [Talagaja](talagaja.md) adds a brief field-study use description. The original article separates germinated seed, young-fruit endosperm and ripe-fruit pitha; this is useful ingredient classification, not a tested recipe or verified name equivalence.
+
+## Germinated palm interior
+
+The [Talagaja entry](talagaja.md) distinguishes reported fresh consumption from experimental drying/milling. Laboratory powder results and sprout/tuber recipes cannot be transferred to the fresh seed interior without evidence. Full local recipe and storage validation remain open.

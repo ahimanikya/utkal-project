@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:38:31.291164+00:00",
+  "updated_at": "2026-10-01T22:01:16.891147+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4505,6 +4505,69 @@
       "run_id": "2026-10-01-palm-seed",
       "status": "unavailable",
       "scope": "Direct page cache miss; indexed creator caption retained as lead only, no image downloaded or reused.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-palm-ragul2022",
+      "discovery_url": "https://or.niscpr.res.in/index.php/IJEB/article/view/1671",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "available",
+      "scope": "Primary seed-development experiment using Tamil Nadu seed material; supports anatomy, not Odisha food prevalence or consumer health outcomes.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-palm-flour2019",
+      "discovery_url": "https://annexpublishers.co/full-text/JNH/6103/Physico-Chemical-and-Functional-Characteristics-of-Palmyrah-Borassus-flabellifer-L-Spongy-Haustorium-Flour.php",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "available",
+      "scope": "Andhra Pradesh researcher affiliations; sample collection locality not explicit in inspected method. Raw-consumption description and flour process only. Near-identical Kosmos text is not independent corroboration; numeric and clinical claims not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-palm-kantio2019",
+      "discovery_url": "https://kantiokatha.blogspot.com/2019/07/blog-post_23.html",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "available",
+      "scope": "Authored lexical account, not a representative linguistic survey or independently reviewed botanical identification. Preserve spellings as reported and do not merge them into canonical aliases.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://nopr.niscpr.res.in/bitstream/123456789/60086/1/IJEB%2060%20%2807%29%20498-509.pdf",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "partially_available",
+      "scope": "Web full text available; direct PDF TLS timeout and screenshot failure. No visual inspection claimed.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sciencedirect.com/science/article/pii/S0254629922000291",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "unavailable",
+      "scope": "Direct page unavailable; indexed abstract only. No detailed nutrition or health outcome adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://tnau.ac.in/site/research/wp-content/uploads/sites/60/2023/10/7.-39th-Horticulture-Proceedings-CSM-2023.pdf",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "unavailable",
+      "scope": "Direct PDF unavailable; indexed project plan is a lead, not a completed outcome.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://antarangakalinga.org/କୁଆଁର-ପୁନେଇଁ/",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "unavailable",
+      "scope": "Direct page unavailable; indexed festival ingredient connection remains a lead.",
       "retry_after": "2026-10-08"
     }
   ]
