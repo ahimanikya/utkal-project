@@ -15,7 +15,7 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
- {label:bose.name,category:'People',dek:bose.lead,href:'/'+bose.path+'/',image:bose.assets[bose.hero],regions:[bose.area]},
+ {label:bose.name,category:'People',dek:bose.lead,href:'/'+bose.path+'/',image:{...bose.assets[bose.hero],fit:'cover'},regions:[bose.area]},
  {label:coastalFood.title,category:'Food',dek:coastalFood.lead,href:'/food/puri-coast/',image:foods.assets[coastalFood.hero],regions:['Puri','Konark & Puri']},
  {label:cityFood.title,category:'Food',dek:cityFood.lead,href:'/food/bhubaneswar/',image:foods.assets[cityFood.hero],regions:['Bhubaneswar']},
  {label:cuttackFood.title,category:'Food',dek:cuttackFood.lead,href:'/food/cuttack/',image:foods.assets[cuttackFood.hero],regions:['Cuttack']},
