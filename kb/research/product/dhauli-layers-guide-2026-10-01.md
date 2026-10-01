@@ -30,3 +30,9 @@ Full and coastal builds pass, together with 318 site tests, 10 coastal tests and
 Candidate for review, not deployed. The public coastal edition remains 16 pages.
 
 [Draft PR #12](https://github.com/ahimanikya/utkal-project/pull/12).
+
+## Approved publication
+
+The Founder subsequently approved PR #12. Reviewed head `cc61c88` was merged and deployed at `5ed02c5`. Hosted build and test checks passed. All six live story sections were verified, and actual HTML/text downloads contain all four complete planning notes and their source URLs. HTTPS enforcement and redirects remain verified. Earlier candidate wording records the initial handoff; UTP-WORK-105 is now complete. Direct show/access/facility confirmations and native printing remain separate.
+
+[Publication evidence](../../records/dhauli-publication.json) · [Live guide](https://utkalproject.org/visit/places/dhauli/)

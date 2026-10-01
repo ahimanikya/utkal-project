@@ -106,3 +106,5 @@
 - [Raghurajpur publication](raghurajpur-publication.json) — approved PR #11, live making sequence and journey books.
 
 - [Dhauli layers guide review](dhauli-layers-guide-review.json) — source distinctions and actual journey books.
+
+- [Dhauli publication](dhauli-publication.json) — approved PR #12, live story and journey books.

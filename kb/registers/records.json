@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T00:44:32.875577+00:00",
+  "recorded_at": "2026-10-01T00:56:18.563040+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2865,24 +2865,28 @@
       "id": "UTP-WORK-105",
       "title": "Dhauli historical layers and visitor notebook",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-089",
-      "next_action": "Founder review before publication. Direct current arrangements remain UTP-WORK-097.",
+      "next_action": "Published and verified. Direct current show/access/facility confirmations remain UTP-WORK-097.",
       "blockers": [],
       "refs": [
         "UTP-DEC-089",
         "UTP-REV-065",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-DEC-090",
+        "UTP-REV-066",
+        "UTP-REL-014"
       ],
       "evidence": [
         "research/product/dhauli-layers-guide-2026-10-01.md",
-        "records/dhauli-layers-guide-review.json"
+        "records/dhauli-layers-guide-review.json",
+        "records/dhauli-publication.json"
       ]
     }
   ],
@@ -4667,6 +4671,26 @@
         "research/product/dhauli-layers-guide-2026-10-01.md",
         "records/dhauli-layers-guide-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-090",
+      "title": "Publish approved Dhauli historical layers guide",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Merge and publish reviewed PR 12 at head cc61c88; verify the live guide, actual journey books and retained HTTPS behavior.",
+      "recorded_at": "2026-10-01T00:56:18.563040+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-105",
+        "UTP-REV-065"
+      ],
+      "evidence": [
+        "records/dhauli-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -6232,6 +6256,28 @@
       "evidence": [
         "records/dhauli-layers-guide-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-066",
+      "title": "Approved Dhauli publication and live-book verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and performed release checks; no independent review. Founder publication approval is recorded separately.",
+        "Current show/festival programmes, tickets, both approaches and visitor facilities remain locally unverified.",
+        "Native PDF and physical-device checks remain separate; the public coastal edition remains 16 pages."
+      ],
+      "refs": [
+        "UTP-DEC-090",
+        "UTP-WORK-105"
+      ],
+      "evidence": [
+        "records/dhauli-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -6469,6 +6515,23 @@
         "records/evidence/raghurajpur-publication-2026-10-01/deployment.json"
       ],
       "note": "Approved PR 11 deployed at 46bc14b. Making sequence and four live notes verified; all four notes and source URLs present in actual HTML/text downloads. HTTPS redirects retained."
+    },
+    {
+      "id": "UTP-REL-014",
+      "title": "Dhauli historical layers and visitor notebook published",
+      "status": "published",
+      "authorization": "UTP-DEC-090",
+      "destination": "https://utkalproject.org/visit/places/dhauli/",
+      "refs": [
+        "UTP-DEC-090",
+        "UTP-WORK-105",
+        "UTP-REV-066"
+      ],
+      "evidence": [
+        "records/dhauli-publication.json",
+        "records/evidence/dhauli-publication-2026-10-01/deployment.json"
+      ],
+      "note": "Approved PR 12 deployed at 5ed02c5. Six story sections and four full planning notes verified; actual HTML/text books include all planning sources. HTTPS redirects retained."
     }
   ],
   "sources": [

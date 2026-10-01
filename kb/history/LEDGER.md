@@ -778,3 +778,9 @@ Approved PR #11 is live. Raghurajpur’s cloth-to-picture sequence and four prac
 The Dhauli guide gives ancient inscriptions, the elephant, the modern Peace Pagoda and the river legend their own place. Four planning notes travel into actual downloaded books; current programmes and facilities remain questions for local confirmation.
 
 [Dhauli guide review](../research/product/dhauli-layers-guide-2026-10-01.md). Candidate not deployed.
+
+## UTP-HIS-0125 · Dhauli’s layers travel together
+
+Approved PR #12 is live. Six story sections keep the inscriptions, elephant, modern pagoda and remembered river story distinct. Four practical notes and their sources were verified in actual HTML/text journey books. HTTPS redirects remain working.
+
+[Publication evidence](../records/dhauli-publication.json).
