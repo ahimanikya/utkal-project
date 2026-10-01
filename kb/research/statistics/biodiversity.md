@@ -53,3 +53,5 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^nature-chilika]: [Chilika Ecology and Biodiversity](https://www.chilika.com/chilika-ecology-and-biodiversity.php)
+
+[Nandankanan](../places/nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.

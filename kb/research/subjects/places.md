@@ -44,3 +44,5 @@ Subject membership is editorial classification. It does not establish historical
 [Puri provider research](../visitor-index/puri-providers.md) and [Nimantran Puri](../facilities/nimantran-puri.md) add source-scoped service listings; no current availability asserted.
 
 [Puri journey outline](../visitor-index/puri-journey-outline.md) links existing places through attributed route evidence, with current access and timing still unverified.
+
+[Nandankanan](../places/nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.

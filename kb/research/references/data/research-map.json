@@ -14602,6 +14602,89 @@
         "food-koli-balasore2020"
       ],
       "added_at": "2026-10-01T18:35:46.552469+00:00"
+    },
+    {
+      "id": "sources/nature-nandankanan-ar2025",
+      "title": "Nandankanan Biological Park Annual Report 2024–25",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-nandankanan-ar2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-nandankanan-ar2025"
+      ],
+      "added_at": "2026-10-01T18:46:24.935756+00:00"
+    },
+    {
+      "id": "sources/nature-nandankanan-highlights2025",
+      "title": "Highlights of Nandankanan Biological Park 2025",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-nandankanan-highlights2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-nandankanan-highlights2025"
+      ],
+      "added_at": "2026-10-01T18:46:24.935756+00:00"
+    },
+    {
+      "id": "sources/nature-nandankanan-gharial",
+      "title": "Gharial Breeding at Nandankanan",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-nandankanan-gharial.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-nandankanan-gharial"
+      ],
+      "added_at": "2026-10-01T18:46:24.935756+00:00"
+    },
+    {
+      "id": "sources/nature-nandankanan-tiger",
+      "title": "Conservation Breeding of tiger",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-nandankanan-tiger.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-nandankanan-tiger"
+      ],
+      "added_at": "2026-10-01T18:46:24.935756+00:00"
+    },
+    {
+      "id": "places/nandankanan",
+      "title": "Nandankanan: wildlife, conservation and a public institution",
+      "kind": "Place",
+      "layer": "research_concept",
+      "source_path": "places/nandankanan.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "nature",
+        "places",
+        "history",
+        "economy"
+      ],
+      "source_ids": [
+        "nature-nandankanan-ar2025",
+        "nature-nandankanan-highlights2025",
+        "nature-nandankanan-gharial",
+        "nature-nandankanan-tiger"
+      ],
+      "added_at": "2026-10-01T18:46:24.935756+00:00"
     }
   ],
   "shared_publications": [
@@ -15467,6 +15550,23 @@
       "remaining_scope": "Save an initial source-linked selection of at least ten local fruit names with reported botanical names, provenance and scope; preserve name ambiguities and record the next recipe/locality evidence needed.",
       "status_unchanged": "completed",
       "instruction": "Reuse everyday-food collection; keep source-specific species and names distinct, including Khirakoli ambiguity."
+    },
+    {
+      "task_id": "RES-042",
+      "title": "Nandankanan conservation, history and measured public reach",
+      "source_records": [
+        "subjects/nature.md",
+        "statistics/biodiversity.md",
+        "places/satkosia.md",
+        "places/nandankanan.md",
+        "references/data/nandankanan.json"
+      ],
+      "project_records": [
+        "kb/research/destinations/central-details.json"
+      ],
+      "remaining_scope": "Save a source-linked place entry, at least three comparable annual visitor/revenue observations and dated conservation or inventory evidence; separate partial periods, captive/wild outcomes and unverified superlatives.",
+      "status_unchanged": "completed",
+      "instruction": "Reuse nature and Satkosia context; no pre-existing standalone identity found in the scoped saved-source and tracked-project searches."
     }
   ],
   "rules": [
@@ -15484,8 +15584,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1024,
-    "updated_at": "2026-10-01T18:35:46.552469+00:00",
+    "records_mapped": 1029,
+    "updated_at": "2026-10-01T18:46:24.935756+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -15831,6 +15931,11 @@
       "run_id": "2026-10-01-bela-pana",
       "at": "2026-10-01T18:35:46.552469+00:00",
       "scope": "Bela pana extends RES-039; reused Balasore botanical evidence and everyday collection. Three new accounts; no new duplicate queue task."
+    },
+    {
+      "run_id": "2026-10-01-nandankanan",
+      "at": "2026-10-01T18:46:24.935756+00:00",
+      "scope": "One Nandankanan place and four institutional sources; existing nature/Satkosia links reused."
     }
   ]
 }

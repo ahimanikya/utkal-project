@@ -51,3 +51,5 @@ Subject membership is editorial classification. It does not establish historical
 - [Community ecotourism](../statistics/ecotourism.md) — Visitor and livelihood context; no inferred ecological improvement.
 
 [Koli: local fruit names and varieties](../food/koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
+
+[Nandankanan](../places/nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.

@@ -31,3 +31,5 @@ Destinations, landscapes and heritage sites.
 - [Sambalpur–Bargarh: regional profile](sambalpur-bargarh.md)
 
 - [Odisha Tourism reference](../sources/odisha-tourism-portal.md) — official portal and saved research uses.
+
+[Nandankanan](nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.

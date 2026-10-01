@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T18:35:46.552469+00:00",
+  "updated_at": "2026-10-01T18:46:24.935756+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1816,6 +1816,52 @@
         ],
         "project_records": [
           "kb/research/food/everyday-food-culture.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-042",
+      "order": 16.8,
+      "title": "Nandankanan conservation, history and measured public reach",
+      "done_when": "Save a source-linked place entry, at least three comparable annual visitor/revenue observations and dated conservation or inventory evidence; separate partial periods, captive/wild outcomes and unverified superlatives.",
+      "target": "places/nandankanan.md",
+      "status": "completed",
+      "completion_scope": "Initial bounded profile and five financial-year observations per metric; not a national ranking, welfare assessment or current visitor guide.",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:46:24.935756+00:00",
+      "completed_at": "2026-10-01T18:46:24.935756+00:00",
+      "next_step": "Resolve inventory revision, seek CZA comparisons and programme survival outcomes, then audit visitor access. Reuse the saved reports.",
+      "evidence_outputs": [
+        "sources/nature-nandankanan-ar2025.md",
+        "sources/nature-nandankanan-highlights2025.md",
+        "sources/nature-nandankanan-gharial.md",
+        "sources/nature-nandankanan-tiger.md",
+        "places/nandankanan.md",
+        "references/data/nandankanan.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-nandankanan",
+          "at": "2026-10-01T18:46:24.935756+00:00",
+          "outcome": "bounded_conservation_and_metrics_seed_completed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "subjects/nature.md",
+          "statistics/biodiversity.md",
+          "places/satkosia.md",
+          "places/nandankanan.md",
+          "references/data/nandankanan.json"
+        ],
+        "project_records": [
+          "kb/research/destinations/central-details.json"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"

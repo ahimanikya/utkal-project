@@ -3953,6 +3953,18 @@
       "content_type": "Food",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/nandankanan",
+      "primary_subject": "nature",
+      "secondary_subjects": [
+        "places",
+        "history",
+        "economy"
+      ],
+      "content_type": "Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5577,6 +5589,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects Bela ingredient identification with source-specific local fruit names; this does not classify Bela as a koli cultivar."
+    },
+    {
+      "from": "places/nandankanan",
+      "to": "places/satkosia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the zoo’s gharial work with the documented Satkosia wild-breeding setting; it does not establish survival of released individuals."
+    },
+    {
+      "from": "places/nandankanan",
+      "to": "statistics/biodiversity",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects captive inventories with biodiversity measurement while keeping them distinct from wild-population surveys."
     }
   ],
   "relationship_types": {

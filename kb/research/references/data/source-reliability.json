@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:35:46.552469+00:00",
+  "updated_at": "2026-10-01T18:46:24.935756+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3860,6 +3860,58 @@
       "run_id": "2026-10-01-bela-pana",
       "status": "unavailable",
       "scope": "Browser reports content length too large (72,797,745 bytes). Indexed article title and cultural lead discovered; full text not inspected or treated as a verified source.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "nature-nandankanan-ar2025",
+      "discovery_url": "https://nandankanan.org/images/documents/annual-report-2024-25.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Original downloaded after mobile link 404 and browser root-link failure. Relevant pages visually checked. Duplicated hidden spread text is not a second observation; printed table controls. Publication date unstated.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-nandankanan-highlights2025",
+      "discovery_url": "https://nandankanan.org/images/documents/HIGHLIGHTS-2025.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Image-only PDF; both pages rendered and inspected. Footfall is a partial calendar year. Largest-collection wording is a publisher claim, not independently ranked. Publication date unstated.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-nandankanan-gharial",
+      "discovery_url": "https://nandankanan.org/mobile/page.php?pid=gharial-breeding-at-nandankanan",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Undated page mixes dated history with stale till-date figures. Only dated observations adopted. Releases and hatchlings do not establish survival or a recovered population.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-nandankanan-tiger",
+      "discovery_url": "https://www.nandankanan.org/conservation-breeding-of-tiger.php",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Undated page. Current tiger stock not adopted. Pseudomelanistic colour form kept distinct from a separate species or conservation-outcome metric.",
+      "retry_after": null
+    },
+    {
+      "discovery_url": "https://nandankanan.org/mobile/images/documents/annual-report-2024-25.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "unavailable",
+      "scope": "Mobile annual-report link returns 404; root URL recovered by direct download.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://nandankanan.org/images/documents/HIGHLIGHTS-2024.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "unavailable",
+      "scope": "Browser PDF fetch exceeded size limit (41,246,804 bytes). Not used in the saved series.",
       "retry_after": "2026-10-08"
     }
   ]

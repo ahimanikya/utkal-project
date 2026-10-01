@@ -224,3 +224,7 @@ Added a source-linked local-fruit collection, three primary sources and structur
 ## 1 October 2026 · Bela pana in summer
 
 Added Bela pana to everyday food research with preparation, quantity gaps, a credited richer variation and a dated university festival observation. Reused fruit evidence and extended RES-039. Three new sources; no health, statewide-sales or publication claim.
+
+## 1 October 2026 · Nandankanan
+
+Added one connected nature/place entry, four institutional sources, five-year financial-year series and separate dated inventory/conservation evidence. Visits nearly flat in 2024–25 while nominal receipts rose; partial 2025 data, losses and unresolved ranking/revision claims retained. Relevant PDF pages visually checked. RES-042 bounded seed completed.

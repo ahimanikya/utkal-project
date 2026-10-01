@@ -135,3 +135,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Bela pana in summer
 
 [Research receipt](records/bela-pana-2026-10-01.json): summer-drink method, quantity gaps and a university New Year observation. Measured recipe and local review remain pending; no website release.
+
+## 1 October 2026 · Nandankanan conservation and public reach
+
+[Research receipt](records/nandankanan-2026-10-01.json): five-year visits and receipts, dated animal inventory and conservation work. Ranking and inventory discrepancies remain held; no website release.

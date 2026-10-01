@@ -193,3 +193,7 @@ RES-041 saves twelve selected name-to-taxon records and the Khirakoli overlap, u
 ## Bela pana extension · 1 October 2026
 
 RES-039 now includes a source-attributed summer drink method, a richer variant and an institutional 2023 New Year event record. Existing Balasore botanical evidence reused; Bela and kaitha kept separate. Recipe quantities/testing, local/Odia review and market data remain open. The Odisha Review PDF exceeds browser fetch size; retry 8 October. Tala khaja seed-stage gap remains unchanged.
+
+## Nandankanan seed · 1 October 2026
+
+RES-042 saves five financial years of visits and receipts, a separate 25 December 2025 snapshot and conservation events. Four park publications share institutional provenance. Largest/first claims need comparative or independent evidence; exchange-species discrepancy (27 versus 30) is held. Programme survival, inventory reconciliation, pre-pandemic comparison, current access and media rights remain open. No independent welfare review claimed.
