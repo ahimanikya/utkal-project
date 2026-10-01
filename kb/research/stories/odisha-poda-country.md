@@ -46,3 +46,7 @@ From roasted vegetables and leaf-wrapped delicacies to caramelised sweets—disc
 ## Editorial evidence controls
 
 The [nine-entry evidence collection](../food/poda-and-fire-cooking.md) distinguishes source types, methods and unresolved fields. The linked draft is a proposed tasting narrative, not a traditional fixed menu or an available tour. Do not claim “everything is barbecued”, oldest/largest/best in India, uniquely Odishan leaf cooking, or a common origin for all these foods. Enduri’s steaming and modern enclosed/oven adaptations stay distinct. No recipe testing, human factual review, measured audience response or publication approval is claimed.
+
+## Website adaptation · 1 October 2026
+
+“Odisha cooks with fire” is the proposed website collection title, drawing on this campaign direction. The earlier selected campaign wording remains above. The first candidate uses three real, licensed photographs and links three preparation stories to a saved food-reading journey. No video or bookable tasting tour is implied. See the [collection data](../food/fire-cooking-stories.json).

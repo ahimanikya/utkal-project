@@ -6,6 +6,10 @@ import konark from '../../../../kb/research/destinations/konark.json';
 import chilikaStory from '../../../../kb/research/stories/narratives/chilika.json';
 import bookImages from '../../../../kb/research/destinations/book-images.json';
 export const bookPhotos={
+ 'reading:food/fire-cooking':foods.assets['baigana-bilati-poda'],
+ 'food:baigana-poda':foods.assets['baigana-bilati-poda'],
+ 'food:tomato-poda':foods.assets['pakhala-tomato-poda'],
+ 'food:patrapoda':foods.assets['fish-patrapoda'],
  'reading:food/everyday':foods.assets['badi-chura'],
  'food:ou-khatta':foods.assets['ou-khatta'],
  'food:badi-chura':foods.assets['badi-chura'],
