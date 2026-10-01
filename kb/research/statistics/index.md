@@ -54,3 +54,5 @@ The [nine subject families](../subjects/index.md) connect these statistical page
 - [Homestays](homestays.md) — 28 observations; policy, targets, registry and market evidence.
 
 [Textile and apparel exports](textile-and-apparel-exports.md) — five full fiscal-year observations, including the intervening decline.
+
+- [Ecotourism: income, visitors and community livelihoods](ecotourism.md) — Primary programme series with partial periods and household-income limits preserved.

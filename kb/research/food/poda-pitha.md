@@ -35,3 +35,19 @@ Record a household’s Raja practice and its recipe; dates vary each year.
 [Related knowledge](pitha.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+Fermented rice batter is cooked slowly with sal leaves in an earthen pot; Raja is the festival association. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Poda Pitha heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+**Still to verify:** Document a second attributed preparation and its location; do not infer a standard oven temperature. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Primary-source follow-up · 1 October 2026
+
+Named entries distinguish milk-based khira poda, rice-flour/jaggery poda and sweetened rice–black-gram biri chaula poda. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed pp.23,26,29 / PDF pp.34,37,40. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
+
+Sujata Dehury describes coastal rice-flour/jaggery dough in banana leaves; Sweta Biswal describes lightly seasoned western rice–black-gram batter in sal-leaf parcels. [In Odisha, ‘podo pitha’ is a sentiment — regional accounts](https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html), Coastal and western Odisha paragraphs, 16 June 2023. Accounts reported by Priyadarshini Chatterjee; regional descriptions are attributed, not universal rules or surveyed distribution.
+
+**Remaining question:** Regional accounts are now attributed; confirm finer locality and household differences without equating every rice–black-gram version with western Odisha. Local/Odia review remains pending.

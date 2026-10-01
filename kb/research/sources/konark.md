@@ -24,3 +24,7 @@ resource: "https://whc.unesco.org/en/list/246"
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^konark]: [Sun Temple, Konark](https://whc.unesco.org/en/list/246)
+
+### Ruler attribution checked · 1 October 2026
+
+UNESCO’s Brief synthesis identifies Narasimha Deva I (AD 1238–1264). This is an additional capture of the existing publication; the imported legacy-unesco source is not independent corroboration.

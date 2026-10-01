@@ -24,3 +24,7 @@ resource: "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^gi-rasabali]: [Kendrapara Rasabali — GI application 802](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802)
+
+## Original preparation documents recovered · 1 October 2026
+
+The [May specification](food-rasabali-gi175.md) and [September corrigendum](food-rasabali-corrigendum2023.md) are now captured. They share application 802 provenance; multiple source IDs are not independent confirmation. Internal curdling instructions remain conflicted. This retrieval makes no new current legal-validity claim.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-09-30",
+  "updated_on": "2026-10-01",
   "observation_ids": [
     "homestay-budget2025",
     "homestay-target-units",
@@ -29,7 +29,12 @@
     "homestay-listings2025",
     "homestay-airbnb2025",
     "homestay-pbd-properties2025",
-    "homestay-pbd-rooms2025"
+    "homestay-pbd-rooms2025",
+    "homestay-portal-district-20261001",
+    "homestay-portal-cluster-20261001",
+    "homestay-portal-destination-20261001",
+    "homestay-portal-block-20261001",
+    "homestay-portal-gp-20261001"
   ],
   "master_values": "statistics-atlas.json",
   "source_ids": [
@@ -42,7 +47,10 @@
     "homestay-launch-mar2026",
     "homestay-cycle1-may2026",
     "homestay-market-jan2025",
-    "homestay-amendment-lead"
+    "homestay-amendment-lead",
+    "homestay-portal-area-list",
+    "homestay-wtd2026-connect",
+    "homestay-wtd2026-bytes"
   ],
   "growth_series_established": false,
   "current_rules_consolidated": false,
@@ -54,7 +62,8 @@
     "registry_stock",
     "market_listing",
     "event_inventory",
-    "reported_policy_coverage"
+    "reported_policy_coverage",
+    "portal_configuration_snapshot"
   ],
   "timeline": [
     {
@@ -106,6 +115,58 @@
       "id": "current-demand",
       "status": "no_comparable_series_found",
       "note": "Unknown is not zero; both registrations and listings have incomplete coverage."
+    },
+    {
+      "id": "district-scope-press-versus-portal",
+      "status": "hold_scope_reconciliation",
+      "observation_ids": [
+        "homestay-cycle1-districts",
+        "homestay-portal-district-20261001"
+      ],
+      "note": "May2026 press reports19 districts; October portal returns16 district IDs across19 clusters. Do not calculate decline or claim a corrected legal total without original allocation/amendments."
+    },
+    {
+      "id": "rayagada-portal-versus-amendment-lead",
+      "status": "hold_scope_reconciliation",
+      "source_ids": [
+        "homestay-portal-area-list",
+        "homestay-amendment-lead"
+      ],
+      "note": "Portal contains both Kulusing and Puttasing; secondary July-amendment lead says replacement. Preserve both portal rows; no current eligibility map until original notification reconciled."
+    },
+    {
+      "id": "later-portal-notices",
+      "status": "primary_text_needed",
+      "source_ids": [
+        "homestay-go-portal"
+      ],
+      "note": "Portal title11436, Ammendment17.08.26 and deadline-extension notice visible; no document text, precise legal dates or current application deadline established."
+    },
+    {
+      "id": "wtd2026-provisional-certificate-count",
+      "status": "hold_conflict",
+      "source_ids": [
+        "homestay-wtd2026-connect",
+        "homestay-wtd2026-bytes"
+      ],
+      "reported_values": [
+        {
+          "value": 176,
+          "source_id": "homestay-wtd2026-connect",
+          "capture": "indexed only; direct fetch failed"
+        },
+        {
+          "value": 17,
+          "source_id": "homestay-wtd2026-bytes",
+          "capture": "direct page closing paragraph"
+        }
+      ],
+      "unit": "reported provisional-registration beneficiaries",
+      "event_date": "2026-09-27",
+      "needed_evidence": "Original departmental event release and dated PRC register with certificate-stage definitions.",
+      "note": "Not imported into statistical atlas. Neither count establishes operational units; no independent corroboration claimed.",
+      "retry_after": "2026-10-08",
+      "observation_ids": []
     }
   ],
   "outcome_metrics": [
@@ -178,5 +239,64 @@
       "status": "web_index_read_linked_documents_failed_local_download_timed_out"
     }
   ],
-  "scope": "No personal guest or applicant data collected. Public aggregates only; no operational property recommendations."
+  "scope": "No personal guest or applicant data collected. Public aggregates only; no operational property recommendations.",
+  "portal_snapshots": [
+    {
+      "captured_at": "2026-10-01T09:06:05.436218-07:00",
+      "path": "homestay-portal-areas-20261001.json",
+      "observation_ids": [
+        "homestay-portal-district-20261001",
+        "homestay-portal-cluster-20261001",
+        "homestay-portal-destination-20261001",
+        "homestay-portal-block-20261001",
+        "homestay-portal-gp-20261001"
+      ],
+      "source_id": "homestay-portal-area-list"
+    }
+  ],
+  "reporting_evidence": {
+    "source_id": "homestay-scheme2025",
+    "locator": "Printed pp.27–28 sections7.2–7.3 and p.49 AnnexureX B",
+    "capture": "parsed_text_only; screenshot unavailable",
+    "fields_present": [
+      "operational_status",
+      "rooms_operational",
+      "total_beds",
+      "guest_nights_booked",
+      "annual_revenue",
+      "occupancy_percent",
+      "family_staff",
+      "local_staff",
+      "subsidy_received_to_date"
+    ],
+    "completed_returns_obtained": false,
+    "denominator_limits": [
+      "Guest nights not automatically room nights.",
+      "Revenue not net host income.",
+      "Cumulative subsidy not annual disbursement.",
+      "Listed rooms not room-nights available.",
+      "Blank compliance template not measured outcome."
+    ]
+  },
+  "research_runs": [
+    {
+      "run_id": "2026-10-01-homestay-policy",
+      "at": "2026-10-01T09:06:05.436218-07:00",
+      "task_ids": [
+        "RES-008",
+        "RES-009"
+      ],
+      "outcome": "Portal coverage captured; amendment/allocation retrieval blocked; outcome reporting sources mapped, actual totals unavailable.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "run_id": "2026-10-01-community-tourism",
+      "at": "2026-10-01T09:24:09.614111-07:00",
+      "task_ids": [
+        "RES-009"
+      ],
+      "outcome": "Public-outcome search checkpoint; conflicting17/176 provisional certificates held; SBI MoU remains reported support, not lending or payout. All9 operating outcomes unknown.",
+      "retry_after": "2026-10-08"
+    }
+  ]
 }

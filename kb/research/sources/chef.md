@@ -24,3 +24,7 @@ resource: "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^chef]: [Chef TZac: Odia cuisine is an evolved cuisine](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine)
+
+## Preparation research · 1 October 2026
+
+2019-11-27; Mansita Mishra; Odia Experience menu paragraphs. Contemporary menu, not universal household or current restaurant evidence.

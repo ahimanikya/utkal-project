@@ -23,3 +23,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 
 
 [^macro-slbc-jun2026]: [184th SLBC Odisha meeting agenda — June 2026 quarter](https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf)
+
+## Homestay research link · 1 October 2026
+
+The public portal lists both Kulusing and Puttasing; the reported amendment still requires original-text reconciliation. See the [dated homestay snapshot](../homestays.md) for scope. These are portal place associations, not operational-property counts or verified travel proximity.

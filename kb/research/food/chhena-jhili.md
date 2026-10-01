@@ -35,3 +35,13 @@ Obtain an attributed preparation account and current maker visit details.
 [Related knowledge](../places/puri.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+The overview associates the sweet with Nimapada. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Chenna Jhili heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+The teaching preparation fries shaped chhena mixture, then soaks it in syrup; curd is optional. [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf), Printed p.119 / PDF p.119, item 5. University teaching reference; one described version, not a definitive formula.
+
+**Still to verify:** Check the version with a named Nimapada maker; do not infer current shops, sales or universal shape. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.

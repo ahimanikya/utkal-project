@@ -15,7 +15,14 @@
     "publisher": "Odisha Tourism",
     "source_kind": "Institutional reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_html",
+        "scope": "Food of the Masses and Sweet Relics headings; descriptions only. Medical, universal popularity and uniqueness claims excluded."
+      }
+    ]
   },
   "chef": {
     "id": "chef",
@@ -24,7 +31,14 @@
     "publisher": "Odisha Tourism portal",
     "source_kind": "Hosted chef interview",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_html",
+        "scope": "2019-11-27; Mansita Mishra; Odia Experience menu paragraphs. Contemporary menu, not universal household or current restaurant evidence."
+      }
+    ]
   },
   "food-heritage": {
     "id": "food-heritage",
@@ -33,7 +47,14 @@
     "publisher": "National Council for Hotel Management",
     "source_kind": "Hospitality education reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Odisha festive cuisine passage, page 251, reviewed through search extract."
+    "capture_note": "Odisha festive cuisine passage, page 251, reviewed through search extract.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "indexed_only_full_fetch_unavailable",
+        "scope": "Printed p.251 Enduri passage indexed. Web direct fetch failed; local DNS failed; network retry timed out at 45 seconds. No full-text verification claimed."
+      }
+    ]
   },
   "regional-cuisine": {
     "id": "regional-cuisine",
@@ -42,7 +63,14 @@
     "publisher": "Uttarakhand Open University",
     "source_kind": "Teaching material",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_pdf_text",
+        "scope": "Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; no location reassignment."
+      }
+    ]
   },
   "dahibara-blog": {
     "id": "dahibara-blog",
@@ -78,7 +106,14 @@
     "publisher": "Geographical Indications Registry, India",
     "source_kind": "Primary registry",
     "accessed_on": "2026-09-27",
-    "capture_note": "Application detail record reviewed; authorized-user personal addresses not retained."
+    "capture_note": "Application detail record reviewed; authorized-user personal addresses not retained.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T10:07:30.942202-07:00",
+        "method": "original_application_documents_recovered",
+        "scope": "May specification and September corrigendum; retain internal discrepancy, not a legal-status refresh."
+      }
+    ]
   },
   "gi-kalajeera": {
     "id": "gi-kalajeera",
@@ -183,7 +218,15 @@
     "publisher": "UNESCO World Heritage Centre",
     "source_kind": "Primary heritage register",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "additional_captures": [
+      {
+        "accessed_on": "2026-10-01",
+        "capture_method": "direct_html",
+        "locator": "Outstanding Universal Value, Brief synthesis",
+        "capture_note": "UNESCO places Konark in the reign of Narasimha Deva I, AD 1238–1264. Reuse canonical source ID; legacy-unesco is not independent corroboration."
+      }
+    ]
   },
   "ramsar": {
     "id": "ramsar",
@@ -1597,7 +1640,15 @@
     "source_kind": "Primary Gazette text",
     "published_on": "2025-11-29",
     "accessed_on": "2026-09-30",
-    "capture_note": "Parsed 53-page Gazette inspected at notification, clauses 3.1–3.4, 5.2, 6 and 7. Notification dated 24 November 2025. Later amendments exist; not a consolidated statement of current applicant eligibility. Capacity differs between rooms in section 6 and beds in 7.2."
+    "capture_note": "Parsed 53-page Gazette inspected at notification, clauses 3.1–3.4, 5.2, 6 and 7. Notification dated 24 November 2025. Later amendments exist; not a consolidated statement of current applicant eligibility. Capacity differs between rooms in section 6 and beds in 7.2.",
+    "retrieval_history": [
+      {
+        "checked_at": "2026-10-01T09:06:05.436218-07:00",
+        "run_id": "2026-10-01-homestay-policy",
+        "capture_method": "parsed_pdf_scoped_read",
+        "note": "Scoped parsed re-read of printed pp.27–28 and49: outcome/reporting framework and blank annual declaration. PDF screenshot failed cache retrieval; no new visual verification claimed. A blank reporting form is not a completed return or measured outcome."
+      }
+    ]
   },
   "homestay-guideline-index": {
     "id": "homestay-guideline-index",
@@ -1607,7 +1658,15 @@
     "source_kind": "Primary publication index",
     "published_on": null,
     "accessed_on": "2026-09-30",
-    "capture_note": "Live index inspected; amendment and target links present. Linked PDFs returned fetch errors/timeouts. Index verifies publication availability, not target numbers or amendment substance."
+    "capture_note": "Live index inspected; amendment and target links present. Linked PDFs returned fetch errors/timeouts. Index verifies publication availability, not target numbers or amendment substance.",
+    "retrieval_history": [
+      {
+        "checked_at": "2026-10-01T09:06:05.436218-07:00",
+        "run_id": "2026-10-01-homestay-policy",
+        "capture_method": "direct_html_failed_linked_pdf",
+        "note": "Live index read; April amendment, Cycle-1 target and original scheme links retained. Direct linked PDF retrievals and amendment/target local connection attempts timed out."
+      }
+    ]
   },
   "homestay-gazette-aug2026": {
     "id": "homestay-gazette-aug2026",
@@ -1637,7 +1696,15 @@
     "source_kind": "Official portal; limited capture",
     "published_on": null,
     "accessed_on": "2026-09-30",
-    "capture_note": "Search-index description available, direct page extraction returned no readable lines. No dashboard totals, listings, availability or live eligibility confirmed."
+    "capture_note": "Search-index description available, direct page extraction returned no readable lines. No dashboard totals, listings, availability or live eligibility confirmed.",
+    "retrieval_history": [
+      {
+        "checked_at": "2026-10-01T09:06:05.436218-07:00",
+        "run_id": "2026-10-01-homestay-policy",
+        "capture_method": "browser_public_dom",
+        "note": "Browser read succeeded after web extraction failed. Seven distinct notification titles displayed (duplicated by carousel), including 11436, Ammendment 17.08.26, deadline extension and Rayagada correction. Cycle-1 and August document buttons yielded no readable document in this session. Current cards still say notified-GP residency; legal consolidation remains open."
+      }
+    ]
   },
   "homestay-go-app": {
     "id": "homestay-go-app",
@@ -2120,11 +2187,26 @@
     "resource": "https://www.ucpress.edu/books/six-acres-and-a-third/paper",
     "publisher": "University of California Press",
     "locator": "Title details, translator credits and About the Author",
-    "capture_note": "Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked.",
+    "capture_note": "Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked. A separate saved project capture from 2026-09-30 is reused for the biography; both capture histories are retained.",
     "publication_date": "2005-12",
     "accessed_on": "2026-10-01",
     "capture_method": "indexed_primary_excerpt",
-    "source_kind": "Primary publisher or institutional record"
+    "source_kind": "Primary publisher or institutional record",
+    "capture_history": [
+      {
+        "capture_method": "indexed_primary_excerpt",
+        "capture_note": "Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked.",
+        "accessed_on": "2026-10-01"
+      },
+      {
+        "capture_method": "saved_project_capture",
+        "source_checked_on": "2026-09-30",
+        "reused_on": "2026-10-01",
+        "project_revision": "ef4cbe1496256430874c50cd49e0c56f85d4a7ca",
+        "path": "kb/research/voices/collection.json",
+        "scope": "Publisher synopsis and author note inspected by prior project work. Not newly fetched."
+      }
+    ]
   },
   "creators-yajnaseni": {
     "id": "creators-yajnaseni",
@@ -2160,7 +2242,15 @@
     "publication_date": "2016-01-11",
     "accessed_on": "2026-10-01",
     "capture_method": "direct_html",
-    "source_kind": "Primary publisher or institutional record"
+    "source_kind": "Primary publisher or institutional record",
+    "capture_history": [
+      {
+        "checked_on": "2026-10-01",
+        "url": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/sitakantmahapatra.html",
+        "result": "unavailable_direct_fetch_indexed_excerpt_available",
+        "scope": "Alternative URL direct open failed; reuse saved stable profile and matching indexed excerpt. No update to historical appointments."
+      }
+    ]
   },
   "creators-prafulla-sna": {
     "id": "creators-prafulla-sna",
@@ -2359,5 +2449,1604 @@
     "source_kind": "Hosted first-person travelogue",
     "accessed_on": "2026-10-01",
     "capture_note": "2019 visit published 7 August 2020; locality connections only, not current prices, access or rankings."
+  },
+  "literature-gopinath-life": {
+    "id": "literature-gopinath-life",
+    "title": "Gopinath Mohanty — memorial life sketch",
+    "resource": "https://gopinathmohanty.in/life-sketch/",
+    "publisher": "Gopinath Mohanty memorial website",
+    "locator": "Life sketch; reused project voices/collection.json sections life and more",
+    "capture_note": "Reused the project capture checked 2026-09-30, committed in ef4cbe1. Not a new fetch or independent corroboration. Supports Nagabali/Cuttack, 1914 birth, administrative service from 1938 and early Koraput work. Award-year conflicts not imported.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "saved_project_capture",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-gopinath-books": {
+    "id": "literature-gopinath-books",
+    "title": "Gopinath Mohanty — books and chronology",
+    "resource": "https://gopinathmohanty.in/books/",
+    "publisher": "Gopinath Mohanty memorial website",
+    "locator": "Novel table rows Paraja, Amrutara Santana, Matimatala; language-research section",
+    "capture_note": "Direct HTML bibliography inspected, not linked first-edition scans. Paraja is listed under 1945; original-language identification also supported by Oxford bibliographic reference. Dates are attributed bibliography dates, not first-edition examination.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-paraja-oxford-reference": {
+    "id": "literature-paraja-oxford-reference",
+    "title": "Paraja 1987 — Oxford bibliographic reference",
+    "resource": "https://academic.oup.com/book/35106/chapter/299186110",
+    "publisher": "Oxford University Press; Jean Drèze, Sense and Solidarity",
+    "locator": "References, Mohanty, Gopinath (1987) entry; rendered lines 1964–1972",
+    "capture_note": "Direct reference entry credits Bikram K. Das, translated from Oriya, New Delhi: OUP, 1987. Bibliographic evidence, not the 1987 title page; no ISBN or 1997 translator attribution inferred.",
+    "publication_date": "2019-02-21",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-six-acres-eaa": {
+    "id": "literature-six-acres-eaa",
+    "title": "Teaching colonial India with Six Acres and a Third",
+    "resource": "https://www.educationaboutasia.org/article/id/1629/",
+    "publisher": "Association for Asian Studies; Education About Asia; Peter Samuels",
+    "locator": "Opening bibliographic block and first paragraph, volume 25 issue 1; DOI 10.65959/eaa.1629",
+    "capture_note": "Direct scholarly teaching essay gives 1902 Odia original, Chha Mana Atha Guntha. Secondary literary chronology, not original imprint inspection. Its 1919 death year conflicts with UC Press 1918; translator Jatindra K. Nayak differs from publisher display Jatindra N. Nayak. Both discrepancies retained, not silently harmonised.",
+    "publication_date": "2020-06-10",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-ruined-temple-review": {
+    "id": "literature-ruined-temple-review",
+    "title": "The Ruined Temple — contemporaneous review bibliography",
+    "resource": "https://www.scilet.in/download/KB/KB10.pdf",
+    "publisher": "SCILET; Kavya Bharati; review by Sachidananda Mohanty",
+    "locator": "Printed p. 193, review heading Poetry for Psychic Survival and opening paragraphs",
+    "capture_note": "Indexed institutional PDF excerpt supplies New Delhi: Harper Collins India, 1996, 153 pages and describes a selection. Full PDF fetch failed because content length exceeded tool limit (34,467,491 bytes). Translator and ISBN not verified; review issue date not established.",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_institutional_excerpt",
+    "source_kind": "Publisher, memorial bibliography or institutional scholarly record; see capture scope"
+  },
+  "literature-ray-loc": {
+    "id": "literature-ray-loc",
+    "title": "Pratibha Ray — Library of Congress reading editions",
+    "resource": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/pratibharay.html",
+    "publisher": "Library of Congress",
+    "locator": "Reading item 1; biography major-works paragraph",
+    "capture_note": "Direct page lists Yajnaseni, first edition, Kataka: Nalanda, 1984, LCCN 87901017; biography separately gives Yagnaseni 1985. LCCN link direct fetch failed. Edition-specific 1984 record is usable with this limitation; universal first-publication year remains conflicted. Historical appointments not treated as current.",
+    "capture_method": "direct_html",
+    "publication_date": "2016-01-11",
+    "accessed_on": "2026-10-01",
+    "source_kind": "First-party publisher or cultural institution; scope retained"
+  },
+  "literature-yajnaseni-beb": {
+    "id": "literature-yajnaseni-beb",
+    "title": "Yajnaseni — publisher description with conflicting dates",
+    "resource": "https://www.blackeaglebooks.org/product/jagyaseni/",
+    "publisher": "Black Eagle Books",
+    "locator": "Description paragraph 3",
+    "capture_note": "The same paragraph gives published in 1985 and first edition in 1984. Both preserved as conflict, not resolved by majority vote. Its 110th edition claim is not copies sold, sales revenue, or independently verified edition history. Price, stock and malformed dimensions not imported.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "First-party publisher or cultural institution; scope retained"
+  },
+  "literature-spark-translators": {
+    "id": "literature-spark-translators",
+    "title": "Spark of Light — translators explain their choices",
+    "resource": "https://www.aupress.ca/blog/2017/01/10/sparkoflight/",
+    "publisher": "Athabasca University Press; Karyn Wisselink",
+    "locator": "Sections In Bondage and Pata Dei",
+    "capture_note": "First-party translator reflections independently specify roles within the same publisher family, not independent corroboration of original dates. Jatindra K. Nayak is credited for In Bondage; Ashok K. Mohanty for Pata Dei. Original publication dates for those stories are absent. No story passages, photographs or translation text reproduced.",
+    "capture_method": "direct_html",
+    "publication_date": "2017-01-10",
+    "accessed_on": "2026-10-01",
+    "source_kind": "First-party publisher or cultural institution; scope retained"
+  },
+  "performers-srjan-milestones": {
+    "id": "performers-srjan-milestones",
+    "title": "Kelucharan Mohapatra — Srjan milestones",
+    "resource": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php",
+    "publisher": "Srjan — Guru Kelucharan Mohapatra Odissi Nrityabasa",
+    "locator": "Chronology rows 1924, 1945–1948 and 1993",
+    "capture_note": "First-party institutional chronology, directly inspected. Supports credited theatre episodes and Raghurajpur connection; not original playbills or reviewed recordings. Explicit 1924/1926 birth-year discrepancy retained. Some award dates also differ within page; no new award dates adopted. Performance dates are source-attributed years, not exact premiere dates.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "First-party publisher or cultural institution; scope retained"
+  },
+  "performers-panigrahi-citation": {
+    "id": "performers-panigrahi-citation",
+    "title": "Sanjukta and Raghunath Panigrahi — joint award citation",
+    "resource": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Sanjukta%20%26%20Raghunath%20Panigrahi.pdf",
+    "publisher": "Sangeet Natak Akademi",
+    "locator": "Joint citation: training, All India Radio Cuttack, separate dance/music roles",
+    "capture_note": "Indexed original citation text inspected. Direct PDF fetch failed on both host variants; indexed OCR is not a visual review. Supports Odissi dance and music contribution, teacher relationship and AIR Cuttack connection. No current appointments or measurable worldwide popularity inferred.",
+    "capture_method": "indexed_primary_excerpt",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "First-party publisher or cultural institution; scope retained"
+  },
+  "performers-sna-dance-register": {
+    "id": "performers-sna-dance-register",
+    "title": "Sangeet Natak Akademi — dance award register",
+    "resource": "https://www.sangeetnatak.gov.in/sections/dance",
+    "publisher": "Sangeet Natak Akademi",
+    "locator": "Sanjukta Panigrahi joint-award entry, 1976",
+    "capture_note": "Indexed institutional register associates the joint Sanjukta/Raghunath recognition with 1976. Direct opens failed on two URL variants. Same institution as citation, not an independent corroborating body.",
+    "capture_method": "indexed_primary_excerpt",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "First-party publisher or cultural institution; scope retained"
+  },
+  "performers-ignca-archives": {
+    "id": "performers-ignca-archives",
+    "title": "IGNCA — exhibition of audiovisual archives",
+    "resource": "https://ignca.gov.in/divisionss/media-centre/exhibition-of-audio-visual-archives/",
+    "publisher": "Indira Gandhi National Centre for the Arts",
+    "locator": "Classical Dance list item 111; exhibition/symposium context 28 October 2013",
+    "capture_note": "Direct HTML archive exhibition list names Odissi — Kelucharan Mahapatra. The 2013 exhibition context does not date the recorded performance. A catalogue route, not a verified playable stream or reuse licence; no recording copied.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "First-party publisher or cultural institution; scope retained"
+  },
+  "music-osa-awards-2012": {
+    "id": "music-osa-awards-2012",
+    "title": "OSA lifetime recognition for Sunanda Patnaik and Prafulla Kar",
+    "resource": "https://archive.odishasociety.org/media/newsletters/UtkarsaSeptember2012.pdf",
+    "publisher": "Odisha Society of the Americas",
+    "locator": "September 2012 Utkarsa, PDF pp. 3 and 13–14; Vice President award report",
+    "capture_note": "Direct PDF text inspected; screenshot retrieval failed. First-party evidence for its 2012 lifetime awards and Sunanda as convention chief guest; its biographical assertions are attributed commemorative text. Do not use the report as independent confirmation of national awards, worldwide popularity or career-start dates.",
+    "capture_method": "direct_pdf_text_screenshot_unavailable",
+    "publication_date": "2012-09",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-pib-film-history": {
+    "id": "music-pib-film-history",
+    "title": "75 Years of Odiya Film Making: A Flashback",
+    "resource": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=67399",
+    "publisher": "Press Information Bureau; feature by Kapilas Bhuyan",
+    "locator": "2010-11-22 feature, song/music paragraph beginning Inspired by western music",
+    "capture_note": "Direct HTML inspected. Author dates Prafulla Kar’s debut as film music director to Mamata (1975). PIB expressly labels the views as the author’s, not necessarily PIB’s; government hosting is not a primary film-credit register. No box-office claims imported.",
+    "capture_method": "direct_html",
+    "publication_date": "2010-11-22",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-prafulla-label-profile": {
+    "id": "music-prafulla-label-profile",
+    "title": "Prafulla Kar — Saregama artist profile",
+    "resource": "https://www.saregama.com/artist/prafulla-kar_5841",
+    "publisher": "Saregama India Ltd",
+    "locator": "Artist biography opening; role headings",
+    "capture_note": "Indexed label biography says 2 February 1939; existing Akademi citation says 10 November 1939. Hold exact date unresolved. Direct web fetch failed; alternate public HTML fetch returned 403. Artist-directory membership alone does not assign a role on each track.",
+    "capture_method": "indexed_excerpt_direct_fetch_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-re-mita-label": {
+    "id": "music-re-mita-label",
+    "title": "Re Mita Aa Sangata — label upload credits",
+    "resource": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
+    "publisher": "Saregama Odia / Saregama India Ltd",
+    "locator": "Video description Credits block",
+    "capture_note": "Expanded label description confirms existing artist, music-director and lyricist credits and 29 February 2024 upload date. Player duration 3:35; observed progression from 0:00 to 0:24 while muted. Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
+    "capture_method": "direct_browser_description_and_muted_player_progression",
+    "publication_date": "2024-02-29",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ",
+    "capture_history": [
+      {
+        "capture_method": "indexed_label_description_direct_fetch_unavailable",
+        "capture_note": "Indexed label-channel description: artists Pranab Kishore Patnaik, Sikandar Alam and Others; music director Prafulla Kar; lyricist Sibabrata Das. Upload date 2024-02-29 is not recording date. Direct video-page fetch failed; playback, geographic availability and completeness of unnamed Other credits not verified. No footage or lyrics copied.",
+        "accessed_on": "2026-10-01"
+      }
+    ]
+  },
+  "music-dekhi-label": {
+    "id": "music-dekhi-label",
+    "title": "Dekhi Se Banamalli — label upload credits",
+    "resource": "https://www.youtube.com/watch?v=dzRRMvhO5w8",
+    "publisher": "Saregama Odia / Saregama India Ltd",
+    "locator": "Video description Song Name/Artist/Music Director/Lyricist block",
+    "capture_note": "Indexed label description names Chittaranjan Jena and P. Susheela, music director Prafulla Kar and lyricist Sibabrata Das. Upload date 2024-03-07 is not original release. Direct video-page fetch failed; no playback test or reuse permission established.",
+    "capture_method": "indexed_label_description_direct_fetch_unavailable",
+    "publication_date": "2024-03-07",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-mu-ta-label": {
+    "id": "music-mu-ta-label",
+    "title": "Mu Ta Manisha Marini — Saregama track 80979",
+    "resource": "https://www.saregama.com/song/mu-ta-manisha-marini_80979",
+    "publisher": "Saregama India Ltd",
+    "locator": "Track heading: Album/Singer/Lyricist/Music Director",
+    "capture_note": "Indexed original label entry credits Sikandar Alam, Sibabrata Das and Prafulla Kar respectively; album Mamata (ory). Web and AMP retrieval failed; alternate HTML fetch returned 403. No original recording date or live purchase/playback confirmation.",
+    "capture_method": "indexed_excerpt_direct_fetch_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-kali-qobuz": {
+    "id": "music-kali-qobuz",
+    "title": "Sesa Srabana — distributed Saregama soundtrack",
+    "resource": "https://www.qobuz.com/lu-fr/album/sesa-srabana-original-motion-picture-soundtrack-prafulla-kar/leerea1dwepjb",
+    "publisher": "Qobuz distribution catalogue; label Saregama",
+    "locator": "Track 5 Kali Kapali; album date and phonogram notice",
+    "capture_note": "Indexed distribution entry credits Prafulla Kar as Composer and MainArtist on Kali Kapali; duration 3:17. Album date displayed 1976-12-31, copyright/phonogram 2017; original recording date remains unknown. Direct fetch failed. Do not silently convert MainArtist into a complete vocal/instrumental credit or infer a lyricist. Same label metadata family, not independent corroboration.",
+    "capture_method": "indexed_distribution_metadata_direct_fetch_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-guru-nanak-label": {
+    "id": "music-guru-nanak-label",
+    "title": "Guru Nanak Bhajan — Saregama track 53300",
+    "resource": "https://www.saregama.com/song/guru-nanak-bhajan_53300",
+    "publisher": "Saregama India Ltd",
+    "locator": "Track heading at lines 1439–1444 of captured HTML",
+    "capture_note": "Direct web HTML inspected: singer Sunanda Patnaik; lyricist and music director both Traditional. Purchase choices appear, but no transaction or audio playback tested. A separate terminal fetch returned 403; this does not negate the successful web capture. Traditional is the catalogue credit, not proof of public-domain recording rights or identified authorship.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-sakhi-label": {
+    "id": "music-sakhi-label",
+    "title": "Sakhi Meri Manki — label upload credits",
+    "resource": "https://www.youtube.com/watch?v=qZ6mQuhYLWI",
+    "publisher": "Saregama Hindustani Classical / Saregama India Ltd",
+    "locator": "Video description Credits block",
+    "capture_note": "Indexed verified label-channel description credits artist Sunanda Patnaik and music director/lyricist Traditional. Upload date 2025-12-31 is not recording date. Direct page fetch failed; playback untested. Do not merge similarly titled Ramkali catalogue entries without recording identifiers.",
+    "capture_method": "indexed_label_description_direct_fetch_unavailable",
+    "publication_date": "2025-12-31",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-bhaja-spotify": {
+    "id": "music-bhaja-spotify",
+    "title": "Bhajan — Bhaja Govindam, Sunanda Patnaik",
+    "resource": "https://open.spotify.com/track/4YKzXJgAW5XbJI0GXzxy9y",
+    "publisher": "Spotify distribution catalogue; label Saregama",
+    "locator": "Track heading, album block and copyright notice",
+    "capture_note": "Indexed page credits Sunanda Patnaik, duration 5:15; compilation dated 2006-04-30 with Saregama copyright/phonogram 2006. Direct open returned no extractable text. Composer/lyricist not supplied. Login required for full listening according to page; playback and region not tested. Compilation date not original recording date.",
+    "capture_method": "indexed_distribution_metadata_direct_text_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Label/distribution catalogue, institutional host or first-party award report; scopes differ"
+  },
+  "music-mamata-amazon": {
+    "id": "music-mamata-amazon",
+    "title": "Mamata — Saregama release on Amazon Music",
+    "resource": "https://music.amazon.com.br/albums/B07568VYPJ",
+    "publisher": "Amazon Music distribution catalogue; label Saregama",
+    "locator": "Album heading; track rows 1, 3 and 4; phonogram notice",
+    "capture_note": "Direct HTML inspected. Connects Re Mita Aa Sangata, Mu Ta Manisha Marini and Dekhi Se Banamalli to Mamata. Displays four tracks and 1975-12-31 with phonogram 1975; this platform album date is not an independently verified original recording day. The four-track product is not a complete film-song census. No playback, transaction or regional availability tested. Same Saregama metadata family, not independent corroboration.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Authorised distribution catalogue"
+  },
+  "music-jagannatha-label": {
+    "id": "music-jagannatha-label",
+    "title": "Jagannatha Swami — Sunanda Patnaik label upload",
+    "resource": "https://www.youtube.com/watch?v=3CHPZwy7b0M",
+    "publisher": "Saregama Hindustani Classical / Saregama India Ltd",
+    "locator": "Expanded Credits block; exact publication date; player duration",
+    "publication_date": "2026-01-02",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_browser_description_and_muted_player_progression",
+    "source_kind": "Original label upload",
+    "capture_note": "Artist Sunanda Patnaik; music director and lyricist Traditional. Upload dated 2 January 2026, player duration 5:14. Original recording date unknown. Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted."
+  },
+  "sport-amit-200": {
+    "id": "sport-amit-200",
+    "title": "Amit Rohidas: 200-cap milestone",
+    "resource": "https://www.hockeyindia.org/news/hockey-india-congratulates-amit-rohidas-and-sumit-for-achieving-special-milestones",
+    "publisher": "Hockey India",
+    "locator": "Opening and Amit section, extracted lines 89–94",
+    "capture_note": "200th cap on 24 October 2024 in New Delhi versus Germany; Sundargarh connection and Tokyo/Paris Olympic team bronzes. Historical snapshot, not current caps.",
+    "capture_method": "direct_html",
+    "publication_date": "2024-10-24",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-deep-retirement": {
+    "id": "sport-deep-retirement",
+    "title": "Deep Grace Ekka: international retirement",
+    "resource": "https://www.hockeyindia.org/news/hockey-india-congratulates-deep-grace-ekka-on-a-glorious-career",
+    "publisher": "Hockey India",
+    "locator": "27 January 2024 report, lines 91–96",
+    "capture_note": "Lulkidihi, Sundargarh connection; two Olympics, 2013 junior World Cup bronze and Tokyo fourth place. Retirement is international scope; club participation is not ruled out. No career cap count adopted.",
+    "capture_method": "direct_html",
+    "publication_date": "2024-01-27",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-amit-red-card": {
+    "id": "sport-amit-red-card",
+    "title": "Amit Rohidas: Paris quarter-final red card",
+    "resource": "https://www.fih.hockey/events/the-olympic-games-paris-2024/news/incredible-india-reach-olympic-semi-finals-with-against-all-odds-victory-over-great-britain",
+    "publisher": "International Hockey Federation",
+    "locator": "4 August 2024 report, lines 162–168",
+    "capture_note": "Official report confirms red card and India advancing by shoot-out; no inferred reason, appeal outcome or current sanction.",
+    "capture_method": "direct_html",
+    "publication_date": "2024-08-04",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-jena-wa-guide": {
+    "id": "sport-jena-wa-guide",
+    "title": "Kishore Jena: World Athletics competition guide",
+    "resource": "https://assets.aws.worldathletics.org/document/68267c277f601d37b4222ff2.pdf",
+    "publisher": "World Athletics-hosted competition guide",
+    "locator": "PDF p.38, Kishore Jena panel, honours and personal bests",
+    "capture_note": "Direct PDF text inspected; screenshot retrieval unavailable. Panel records 87.54 m at Hangzhou on 4 October 2023, Asian Games second and 2023 World Championships fifth; born Brahmagiri. Guide is a 2025 snapshot; no current ranking imported.",
+    "capture_method": "direct_pdf_text_screenshot_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-jena-kiit": {
+    "id": "sport-jena-kiit",
+    "title": "Kishore Jena: KIIT Review profile",
+    "resource": "https://news.kiit.ac.in/wp-content/uploads/2023/12/KIIT-Review-November-2023-Issue.pdf",
+    "publisher": "KIIT University",
+    "locator": "November 2023 issue, printed p.09 / PDF p.12",
+    "capture_note": "Institutional magazine identifies Kothasahi and Puri, Odisha; used for attributed regional connection only. Promotional causal narrative and current second-best claims not adopted.",
+    "capture_method": "direct_pdf_text",
+    "publication_date": "2023-11",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-jena-asian-result": {
+    "id": "sport-jena-asian-result",
+    "title": "Hangzhou 2023 men’s javelin final",
+    "resource": "https://worldathletics.org/competition/calendar-results/results/7147637?eventId=10229636",
+    "publisher": "World Athletics",
+    "locator": "Men’s Javelin Throw Final, Kishore Jena row",
+    "capture_note": "Indexed official table: second, 87.54 m. Direct page fetch failed. Same federation evidence family as guide, not independent corroboration.",
+    "capture_method": "indexed_official_table_direct_fetch_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-srabani-wa": {
+    "id": "sport-srabani-wa",
+    "title": "Srabani Nanda: World Athletics profile",
+    "resource": "https://worldathletics.org/athletes/india/srabani-nanda-14334453",
+    "publisher": "World Athletics",
+    "locator": "Personal bests, 200 Metres row",
+    "capture_note": "Indexed official profile lists 23.07 seconds on 26 June 2016. Direct fetch failed. Dynamic ranks are excluded; asterisked non-legal marks in other events not adopted.",
+    "capture_method": "indexed_official_table_direct_fetch_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-srabani-rio": {
+    "id": "sport-srabani-rio",
+    "title": "Rio 2016 women’s 200 m heats",
+    "resource": "https://worldathletics.org/results/olympic-games/2016/the-xxxi-olympic-games-7093747/women/200-metres/heats/result",
+    "publisher": "World Athletics",
+    "locator": "Heat 5, Srabani Nanda row; 15 August 2016",
+    "capture_note": "Indexed official table: 23.58 seconds, sixth in heat, wind −0.1 m/s, no qualification marker. Heat place is not overall Olympic rank. Direct fetch failed.",
+    "capture_method": "indexed_official_table_direct_fetch_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-srabani-odisha-team": {
+    "id": "sport-srabani-odisha-team",
+    "title": "Srabani Nanda: Odisha relay affiliation",
+    "resource": "https://worldathletics.org/competition/calendar-results/results/7211762",
+    "publisher": "World Athletics",
+    "locator": "Indian Championships, Women’s 4x100 Metres Relay Final, Odisha row",
+    "capture_note": "Indexed official team roster lists Srabani Nanda, Mari Mukta, Sukhi Baskey and Manisha Merel under Odisha. Used as competition affiliation evidence, not birthplace. Direct fetch failed; exact event-date header was not recovered and no relay observation is promoted.",
+    "capture_method": "indexed_official_table_direct_fetch_unavailable",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-pramod-ipc": {
+    "id": "sport-pramod-ipc",
+    "title": "Pramod Bhagat: Tokyo 2020 result entry",
+    "resource": "https://www.paralympic.org/pramod-bhagat",
+    "publisher": "International Paralympic Committee",
+    "locator": "Tokyo 2020 table, Men’s Singles SL3, Gold Medal Match, 2021-09-04",
+    "capture_note": "Direct table places Bhagat first in men’s singles SL3 final. Unit ranks in other rows are not used to infer full-event placing. Tokyo 2020 took place in 2021; no current eligibility claim.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-pramod-cas": {
+    "id": "sport-pramod-cas",
+    "title": "CAS 2024/A/10440: Pramod Bhagat v BWF",
+    "resource": "https://www.tas-cas.org/generated/assets/lists/feb900ba-1137-4b78-a9ff-d68af7869087/10440_FINAL_Award__for_publ._.pdf",
+    "publisher": "Court of Arbitration for Sport",
+    "locator": "PDF pp.1, 6 paragraph 33, 70 paragraph 336, 72–73 conclusion and disposition",
+    "capture_note": "Cover identifies Odisha. Decision concerns three whereabouts failures, not a positive-test finding. Eighteen-month ineligibility upheld; operative part notified 27 July 2024, reasoned award dated 5 March 2025. Direct text inspected; screenshot retrieval failed. Do not describe the athlete as currently suspended without a current eligibility check.",
+    "capture_method": "direct_pdf_text_screenshot_unavailable",
+    "publication_date": "2025-03-05",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-padmini-odisha": {
+    "id": "sport-padmini-odisha",
+    "title": "Padmini Rout: Odisha affiliation",
+    "resource": "https://aicf.in/padmini-rout-wrests-sole-lead/",
+    "publisher": "All India Chess Federation",
+    "locator": "Opening paragraph and round-nine report, 22 November 2015",
+    "capture_note": "Direct report identifies Rout with Odisha. Round-nine lead is not the final tournament outcome.",
+    "capture_method": "direct_html",
+    "publication_date": "2015-11-22",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-padmini-asian": {
+    "id": "sport-padmini-asian",
+    "title": "Padmini Rout: 2018 Asian continental title",
+    "resource": "https://old.fide.com/component/content/article/4-tournaments/11328-wei-padmini-wins-asian-continental-championship-2018.html",
+    "publisher": "International Chess Federation",
+    "locator": "19 December 2018 report, women’s division paragraphs",
+    "capture_note": "Direct federation report: women’s winner in Makati; seven points, tied with runner-up but ahead on tie-break. Describes both WGM and IM in different parts; titles not used to infer chronology.",
+    "capture_method": "direct_html",
+    "publication_date": "2018-12-19",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-padmini-world": {
+    "id": "sport-padmini-world",
+    "title": "Padmini Rout: 2018 Women’s World Championship pairing",
+    "resource": "https://ugra2018.fide.com/pairings/",
+    "publisher": "FIDE championship website",
+    "locator": "Round 1, Padmini Rout–Zhansaya Abdumalik",
+    "capture_note": "Direct table gives 1½–2½ first-round match loss. Separate event from December’s Asian continental title; no game scores or copyrighted annotations copied.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "sport-debashis-commonwealth": {
+    "id": "sport-debashis-commonwealth",
+    "title": "Debashis Das: 2018 Commonwealth Chess final table",
+    "resource": "https://aicf.in/commonwealth2018final/",
+    "publisher": "All India Chess Federation",
+    "locator": "Final ranking table, third row; final-round section",
+    "capture_note": "Direct report labels Debashis Das GM, Odisha; third with seven points. Event year 2018; exact publication day not established. Chess championship is not the multi-sport Commonwealth Games. No current rating adopted.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Sport governing body, adjudicator or explicitly attributed institutional profile"
+  },
+  "science-nayak-borlaug": {
+    "id": "science-nayak-borlaug",
+    "title": "Swati Nayak: 2023 Borlaug Field Award",
+    "resource": "https://www.worldfoodprize.org/index.cfm?audienceID=1&nodeID=96788",
+    "publisher": "World Food Prize Foundation",
+    "locator": "2023: Nayak biography, opening and Odisha deployment paragraph; extracted lines 514 and 526",
+    "capture_note": "Award issuer credits Nayak and her team with an Odisha introduction strategy for drought-tolerant rice. This establishes a professional Odisha connection, not birthplace. The Borlaug Field Award is distinct from the World Food Prize; worldwide programme numbers are not Odisha totals.",
+    "capture_method": "direct_html",
+    "publication_date": "2023",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Award issuer, research institution or bibliographic record of original research"
+  },
+  "science-odisha-seed-training": {
+    "id": "science-odisha-seed-training",
+    "title": "Women-led seed production training in Jharsuguda",
+    "resource": "https://news.irri.org/2023/02/bridging-formal-and-informal-seed.html",
+    "publisher": "International Rice Research Institute",
+    "locator": "Opening, training description and team contact; extracted lines 11–21",
+    "capture_note": "IRRI and SEWA held training in Kolabira on 20–21 January 2023 for Jangha Linga Mahila FPC. Nayak is the team contact, not established as article author or trainer. No participant total or measured income gain adopted.",
+    "capture_method": "direct_html",
+    "publication_date": "2023-02-02",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Award issuer, research institution or bibliographic record of original research"
+  },
+  "science-pati-rmrc": {
+    "id": "science-pati-rmrc",
+    "title": "Sanghamitra Pati: institutional biography",
+    "resource": "https://www.rmrcbbsr.gov.in/scientist-lists/dr-mrs-sanghamitra-pati/",
+    "publisher": "ICMR Regional Medical Research Centre, Bhubaneswar",
+    "locator": "Name/appointment panel and Awards and Honour list; extracted lines 41–51 and 162",
+    "capture_note": "Bhubaneswar institutional connection; profile lists the 2018 Samanta Chandra Sekhar Award in Life Sciences from Odisha Bigyan Academy. Institutional self-report, not direct award-issuer register. Profile title is an undated institutional snapshot; personal contacts omitted.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Award issuer, research institution or bibliographic record of original research"
+  },
+  "science-pati-icmr-leadership": {
+    "id": "science-pati-icmr-leadership",
+    "title": "ICMR leadership: Sanghamitra Pati",
+    "resource": "https://www.icmr.gov.in/icmr-leadership?q=SCIENTIST",
+    "publisher": "Indian Council of Medical Research",
+    "locator": "Additional Director General and NIHR Bhubaneswar entries; extracted lines 142–148 and 664–669",
+    "capture_note": "Checked 1 October 2026: Additional Director General and Director-in-charge, additional charge, NIHR Bhubaneswar. Appointment date not established. Kept separate from older RMRC profile title.",
+    "capture_method": "direct_html",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "source_kind": "Award issuer, research institution or bibliographic record of original research"
+  },
+  "science-pati-multimorbidity-2015": {
+    "id": "science-pati-multimorbidity-2015",
+    "title": "Pati and colleagues: Odisha primary-care multimorbidity study",
+    "resource": "https://pubmed.ncbi.nlm.nih.gov/26371265/",
+    "publisher": "US National Library of Medicine / Annals of Family Medicine paper record",
+    "locator": "PMID 26371265; author list, affiliations, citation and Methods abstract",
+    "capture_note": "Indexed original-paper record supports all five author names, DOI and abstract sample of 1,649 adult primary-care patients. Direct response returned no usable text. Patient sample is not statewide prevalence; full methods and recruitment denominators are not reconciled here.",
+    "capture_method": "indexed_record_direct_text_unavailable",
+    "publication_date": "2015-09",
+    "accessed_on": "2026-10-01",
+    "source_kind": "Award issuer, research institution or bibliographic record of original research"
+  },
+  "science-satananda-preprint": {
+    "id": "science-satananda-preprint",
+    "title": "Śatānanda and Bhāsvatī: Panda preprint",
+    "resource": "https://arxiv.org/abs/1904.03661",
+    "publisher": "Sudhira Panda / arXiv",
+    "publication_date": "2019-04-07",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_pdf_text",
+    "locator": "PDF pp.1–3, abstract and contents; arXiv 1904.03661",
+    "capture_note": "Puri association; 1099 work date; eight chapters and 128 verses; centesimal computation, calendars and eclipses. Modern historical interpretation, not manuscript autopsy. Exact birth year, invented-decimal-system and global-first claims not adopted.",
+    "source_kind": "Original research, institutional biography or academy catalogue"
+  },
+  "science-satananda-jahh": {
+    "id": "science-satananda-jahh",
+    "title": "The Bhāsvatī astronomical handbook of Śatānanda",
+    "resource": "https://old.narit.or.th/files/JAHH/2019JAHHvol22/2019JAHH...22..536P.pdf",
+    "publisher": "Sudhira Panda / Journal of Astronomical History and Heritage",
+    "publication_date": "2019",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_journal_direct_fetch_unavailable",
+    "locator": "22(3), pp.536–544; indexed abstract; DOI 10.3724/SP.J.1440-2807.2019.03.12",
+    "capture_note": "Indexed journal abstract dates text to 7 April 1099; year-only timeline adopted. Same author/topic as preprint, not independent corroboration. Direct NARIT, DOI and SciEngine retrieval failed.",
+    "source_kind": "Original research, institutional biography or academy catalogue"
+  },
+  "science-parija-niser": {
+    "id": "science-parija-niser",
+    "title": "P. K. Parija memorial lecture biography",
+    "resource": "https://www.niser.ac.in/~bedanga/endowments.php",
+    "publisher": "Bedangadas Mohanty, NISER-hosted faculty page",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "P. K. Parija Lecture in Life Sciences, extracted lines 76–87",
+    "capture_note": "Memorial biography gives 1891–1978, Balikuda/Jagatsinghpur connection, university leadership and 1955 Padma Bhushan. Faculty-hosted account, not award-issuer register. Cambridge college detail not adopted.",
+    "source_kind": "Original research, institutional biography or academy catalogue",
+    "additional_captures": [
+      {
+        "at": "2026-10-01T07:08:07.809761-07:00",
+        "locator": "Tribikram Pati memorial medal section, lines 24–32",
+        "scope": "1929–2008; Odisha Mathematical Society/Odisha Bigyana Academy and founding IMA chair reported by faculty-hosted memorial. Not independent of the previously saved page. Degree chronology conflicts with IndCat."
+      }
+    ]
+  },
+  "science-parija-ias-papers": {
+    "id": "science-parija-ias-papers",
+    "title": "Prankrishna Parija: academy publication catalogue",
+    "resource": "https://repository.ias.ac.in/view/fellows/Parija%3D3APrankrishna%3D3A%3D3A.html",
+    "publisher": "Indian Academy of Sciences",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_catalogue_direct_fetch_unavailable",
+    "locator": "1928 Blackman–Parija paper and Parija paper entries",
+    "capture_note": "Academy bibliography credits Blackman and Parija on part I (103(726),412–445), and Parija alone on part II (446–490). Same series, distinct paper credits. Full texts not inspected; no measured storage-industry impact adopted.",
+    "source_kind": "Original research, institutional biography or academy catalogue"
+  },
+  "science-ajit-dae": {
+    "id": "science-ajit-dae",
+    "title": "Ajit Kumar Mohanty: Department of Atomic Energy biography",
+    "resource": "https://dae.gov.in/meet-the-secretary/",
+    "publisher": "Department of Atomic Energy",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biography and appointment paragraphs",
+    "capture_note": "Born Odisha 1959; MPC College Baripada 1979, Ravenshaw Cuttack 1981; nuclear-physics collaborations and 1991 INSA Young Scientist Award. Appointment dated 3 May 2023. National work not assigned entirely to Odisha; no current-office claim needed.",
+    "source_kind": "Original research, institutional biography or academy catalogue"
+  },
+  "science-ajit-antineutrino": {
+    "id": "science-ajit-antineutrino",
+    "title": "Possible origin of shoulder in the reactor antineutrino spectrum",
+    "resource": "https://arxiv.org/abs/1711.02801",
+    "publisher": "Ajit Kumar Mohanty / arXiv",
+    "publication_date": "2017-11-08",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_and_pdf_text",
+    "locator": "arXiv v1; PDF p.1 author affiliations and abstract",
+    "capture_note": "PDF affiliates author with SINP, BARC and HBNI, distinguishing the physicist from similarly named scholars. Proposed explanation, not established discovery. Submitted 8 November; PDF internally dated 9 November 2017. Journal publication not established.",
+    "source_kind": "Original research, institutional biography or academy catalogue"
+  },
+  "science-ignca-jyotish-2024": {
+    "id": "science-ignca-jyotish-2024",
+    "title": "Jyotish, Volume 6, Part 1: manuscript catalogue",
+    "resource": "https://ignca.gov.in/PDF_data/Jyotish-Vol-6-Part-1.pdf",
+    "publisher": "Indira Gandhi National Centre for the Arts",
+    "publication_date": "2024",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_pdf_text",
+    "locator": "Publication page PDF p.5; printed p.102 / PDF p.120, entries 883–886",
+    "capture_note": "Four selected Bhāsvatī catalogue records in Pune, Guwahati and Varanasi; catalogue describes IGNCA microfilm holdings and original repositories. Folios, scripts and original era dates retained. Full manuscripts and page image not inspected; screenshot fetch failed.",
+    "source_kind": "Institutional manuscript catalogue or publisher bibliography"
+  },
+  "science-osm-manuscripts": {
+    "id": "science-osm-manuscripts",
+    "title": "Odisha State Museum: manuscript department",
+    "resource": "https://odishamuseum.nic.in/?q=dept/manuscripts",
+    "publisher": "Odisha State Museum",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Department introduction, collection paragraph",
+    "capture_note": "Undated institutional page reports about 37,000 manuscripts across 27 categories including Ganita, Jyotisha and Ayurveda. Publication and inventory reference dates unknown; not a 2026 census or science-only total.",
+    "source_kind": "Institutional manuscript catalogue or publisher bibliography"
+  },
+  "science-osm-collection": {
+    "id": "science-osm-collection",
+    "title": "Odisha State Museum: collection inventory",
+    "resource": "https://www.odishamuseum.nic.in/?q=node/5",
+    "publisher": "Odisha State Museum",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Collection table, row 3 Manuscripts",
+    "capture_note": "Undated table lists 37,273 manuscript artifacts and a 15th–20th-century range. Institution-wide manuscript total, not unique works, authors or scientific texts. Retain separately from the rounded department figure; no growth calculation.",
+    "source_kind": "Institutional manuscript catalogue or publisher bibliography"
+  },
+  "science-osm-ganita-catalogue": {
+    "id": "science-osm-ganita-catalogue",
+    "title": "Odisha State Museum: Ganita catalogue, second result page",
+    "resource": "https://odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=1&q=palm-leaf-g",
+    "publisher": "Odisha State Museum",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Entries G/141, G/43 and G/112 on second result page",
+    "capture_note": "Selected title/catalogue pairs and material preserved. Author fields blank; dates and manuscript scans unread. Catalogue page counts are not converted to folios. Prices and access promises omitted.",
+    "source_kind": "Institutional manuscript catalogue or publisher bibliography"
+  },
+  "science-insa-manuscript-survey-index": {
+    "id": "science-insa-manuscript-survey-index",
+    "title": "INSA bibliography: Odisha astronomy and mathematics manuscript survey",
+    "resource": "https://insaindia.res.in/history-of-science/",
+    "publisher": "Indian National Science Academy",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_bibliography_only",
+    "locator": "Cumulative IJHS index, Deepak Bhattacharya entry",
+    "capture_note": "Lists Select Palm leaf manuscripts in Orissa State Museum, Bhubaneswar on Astronomy and Mathematics, IJHS 43.1 (2008),101–108. Confirms bibliography only. Survey full text unavailable in this run; individual table rows not adopted.",
+    "source_kind": "Institutional manuscript catalogue or publisher bibliography"
+  },
+  "science-pati-summability-1960": {
+    "id": "science-pati-summability-1960",
+    "title": "On the absolute summability factors of infinite series I",
+    "resource": "https://www.jstage.jst.go.jp/article/tmj1949/12/2/12_2_222/_article/-char/ja",
+    "publisher": "Tohoku Mathematical Journal / J-STAGE",
+    "publication_date": "1960",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_pdf_text_with_indexed_metadata",
+    "locator": "12(2), pp.222–232; PDF pp.1–3 and final affiliation; DOI 10.2748/tmj/1178244437",
+    "capture_note": "Credits Tribikram Pati and Z. U. Ahmad, University of Allahabad. Introduction describes a direct proof of a generalised summability-factor result. Web failed but PDF retrieved with curl and text inspected. Mathematical proof not independently verified. 2010 online posting is not original publication year.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-gokulananda-ova": {
+    "id": "science-gokulananda-ova",
+    "title": "Gokulananda Mohapatra: Odia Virtual Academy profile",
+    "resource": "https://ova.gov.in/en/Author?aid=pBJ++OxiP1Y%3D",
+    "publisher": "Odia Virtual Academy, Government of Odisha",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_profile_direct_fetch_unavailable",
+    "locator": "Biographical header, selected books and Baigyanika Gyanakosha paragraph",
+    "capture_note": "Documents Kuansa/Bhadrak connection and science writing. Reports 13 November 1922 birth, 1986 Sahitya award, 2010 Kalinga Award and varying book totals; these claims are quarantined against other evidence. Encyclopaedia title and reported January 2005 two-volume publication retained as attributed metadata. Direct and encoded URL retrieval failed.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-gokulananda-dream-2013": {
+    "id": "science-gokulananda-dream-2013",
+    "title": "Gokulananda Mohapatra: Doyen of popularisation of science in Odiya",
+    "resource": "https://www.indiascienceandtechnology.gov.in/sites/all/themes/vigyan/pdf_file/newsletter_dreams_2047/2013/DreamOctober2013Eng.pdf",
+    "publisher": "Nikhil Mohan Pattnaik / Vigyan Prasar, Dream 2047",
+    "publication_date": "2013-10",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_article_direct_fetch_unavailable",
+    "locator": "Dream 2047, vol.16 no.1, printed p.32, early life and writing paragraphs",
+    "capture_note": "Reports birth 24 May 1922 and death 10 July 2013, Kuansa near Bhadrak, science writing and Odia radio. Describes the atom-bomb manuscript as lost and a coal-tar article in 1946; differs from OVA. Direct web and curl unavailable; no full-issue reading claimed.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-gokulananda-award-register": {
+    "id": "science-gokulananda-award-register",
+    "title": "Odisha Sahitya Academy awarded books and writers: 2011 reference annual",
+    "resource": "https://magazines.odisha.gov.in/orissaannualreference/ORA-2011/pdf/92-99.pdf",
+    "publisher": "Government of Odisha, Odisha Reference Annual",
+    "publication_date": "2011",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_table_direct_fetch_unavailable",
+    "locator": "Printed p.92, 1959–1961 block, row 22",
+    "capture_note": "Lists E Jugara Shrestha Abiskar, Science Literature, Gokulananda Mohapatra under grouped years 1959–1961. Does not isolate an exact award year or book publication date. Direct fetch failed; curl certificate expired. OVA 1986 claim retained as unresolved, not repeated as settled.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-pati-indcat": {
+    "id": "science-pati-indcat",
+    "title": "Tribikram Pati: absolute summability thesis catalogue",
+    "resource": "https://indcat.inflibnet.ac.in/index.php/thesesrequest?id=th_28694",
+    "publisher": "INFLIBNET IndCat",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_catalogue_direct_fetch_unavailable",
+    "locator": "Record th_28694 / MARC 28694",
+    "capture_note": "Catalogue lists a 1956 English thesis and labels degree PhD; NISER memorial gives D.Phil. 1953 and D.Sc. 1956. Degree mapping unresolved; not silently harmonised. Catalogue title prints furier. Direct fetch unavailable.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "science-unesco-kalinga-laureates": {
+    "id": "science-unesco-kalinga-laureates",
+    "title": "UNESCO Kalinga Prize: laureates register",
+    "resource": "https://www.unesco.org/en/prizes/popularization-science/laureates",
+    "publisher": "UNESCO",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "2009 and 2011 entries, full laureate listing",
+    "capture_note": "Register identifies Yash Pal and Trinh Xuan Thuan for 2009 and René Raúl Drucker Colín for 2011. Gokulananda Mohapatra is not listed. Do not label the separate Kalinga Samman as this UNESCO prize; Samman issuer/year still needs original award documentation.",
+    "source_kind": "Original research, institutional biography or institutional catalogue"
+  },
+  "creators-bibhu-roots-cfda": {
+    "id": "creators-bibhu-roots-cfda",
+    "title": "Bibhu Mohapatra on his Roots & His American Dream",
+    "resource": "https://cfda.com/news/bibhu-mohapatra-on-his-roots-his-american-dream/",
+    "publisher": "Council of Fashion Designers of America",
+    "publication_date": "2020-05-27",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Interview: upbringing, brand and heritage questions",
+    "capture_note": "Designer describes birth and upbringing in Rourkela, his mother teaching him sewing, and starting his label in 2008. First-person account hosted by professional association. Retail and manufacturing statements are 2020 vintage, not Odisha export statistics. Michelle Obama visit year differs from the 2026 interview; no date adopted from this account.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-bibhu-cfda-2026": {
+    "id": "creators-bibhu-cfda-2026",
+    "title": "Bibhu Mohapatra on Fashion, the Immigrant Experience, Michelle Obama, and More",
+    "resource": "https://cfda.com/news/bibhu-mohapatra-on-fashion-the-immigrant-experience-michelle-obama-and-more/",
+    "publisher": "CFDA / Rosemary Feitelberg",
+    "publication_date": "2026-06-01",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening event report; Meeting Michelle Obama; Overcoming Challenging Times; What is on the Horizon",
+    "capture_note": "CFDA Curates FashionSpeak Fridays at National Arts Club documents contemporary professional visibility. Interview dates Obama state-visit outfit to 2015, unlike 2020 interview. Records reported 2017 Chapter 11 and restructuring. Proposed return to India/factory is discussion, not realised Odisha investment.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-bibhu-fall-2021": {
+    "id": "creators-bibhu-fall-2021",
+    "title": "Bibhu Mohapatra Fall 2021",
+    "resource": "https://cfda.com/news/bibhu-mohapatra-fall-2021/",
+    "publisher": "CFDA / Marc Karimzadeh",
+    "publication_date": "2021-02-17",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Collection title, dated caption and review; New York Fashion Week / RUNWAY360 tags",
+    "capture_note": "Credited collection with gowns, embroidered guipure dress and vegan-leather coat described by CFDA. Photographs and design rights are not licensed by a public webpage.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-jatin-official": {
+    "id": "creators-jatin-official",
+    "title": "Jatin Das: About the Artist",
+    "resource": "https://www.jatindas.com/about",
+    "publisher": "Jatin Das official website",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biography lines18–23; JD Centre paragraph; Exodus 2020 paragraph",
+    "capture_note": "Artist biography establishes Mayurbhanj birth in December1941 and credits Parliament painting The Journey of India: Mohenjo-Daro to Mahatma Gandhi, inaugurated2001, dimensions7x68ft. Self-reported title/location/date; current public viewing and centre construction status unverified. Undated this-year statements not treated as2026.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-jatin-ngma-2023": {
+    "id": "creators-jatin-ngma-2023",
+    "title": "Ministry of Culture Annual Report 2023–24: Jatin Das retrospective",
+    "resource": "https://culture.gov.in/files/annual_reports_document/Final_English_Annual_Report_23_24_for_Net_29082024.pdf",
+    "publisher": "Ministry of Culture, Government of India",
+    "publication_date": "2024",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_section_direct_fetch_unavailable",
+    "locator": "NGMA Delhi section; heading Jatin Das – A Retrospective 1963-2023; page number unresolved",
+    "capture_note": "Indexed official report records exhibition8November2023–7January2024 at NGMA Delhi. Direct PDF returned502; not a full-report read or fresh2026 event. Recover PDF pagination next retry.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-jagannath-aicon": {
+    "id": "creators-jagannath-aicon",
+    "title": "Jagannath Panda: biography",
+    "resource": "https://www.aiconcontemporary.com/artists/jagannath-panda/biography",
+    "publisher": "Aicon Contemporary",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biography lines12–16",
+    "capture_note": "Gallery records birth1970Bhubaneswar, B.K.College training1991, mixed-media painting/drawing/sculpture and its2020solo exhibition. Undated currently-on-view wording does not establish present availability. Gallery biography is not independent museum accession verification.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-jagannath-milaaya": {
+    "id": "creators-jagannath-milaaya",
+    "title": "Jagannath Panda: selected work and biography",
+    "resource": "https://milaayaartgallery.com/artists/48-jagannath-panda/",
+    "publisher": "Milaaya Art Gallery",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Works: Arch of Metropolis-ii,2025; biography",
+    "capture_note": "Gallery credits named2025work. Medium, dimensions, price, sale and ownership not established. Biography mentions Delhi College of Art whereas Aicon gives B.K.College/MSUniversity; Delhi training not adopted without institutional evidence.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-bagchi-go-kiss": {
+    "id": "creators-bagchi-go-kiss",
+    "title": "Go Kiss the World: Life Lessons for the Young Professional",
+    "resource": "https://www.penguin.co.in/book/go-kiss-the-world/",
+    "publisher": "Penguin Random House India",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Book description lines285–294; author biography347–348",
+    "capture_note": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February 2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication",
+    "additional_captures": [
+      {
+        "accessed_on": "2026-10-01",
+        "locator": "Book description and author biography, paragraphs 285–286 and 347",
+        "capture_note": "Re-read publisher identification of Bagchi as Mindtree cofounder; same publication, not independent corroboration."
+      }
+    ]
+  },
+  "creators-bagchi-chariot": {
+    "id": "creators-bagchi-chariot",
+    "title": "The Day the Chariot Moved: How India Grows at the Grassroots",
+    "resource": "https://www.penguin.co.in/book/the-day-the-chariot-moved/",
+    "publisher": "Penguin Random House India",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Bibliographic block288–294; author biography360–362",
+    "capture_note": "Published product record: Penguin Business hardback July2025, ISBN9780143471257,408pages. Odisha skill-development experience is historical. Publisher bestseller wording is not audited sales data. Product metadata differs from advance catalogue; preserve both vintages.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-bagchi-advance-2025": {
+    "id": "creators-bagchi-advance-2025",
+    "title": "Penguin Adult Publishing April–June 2025 catalogue: Bagchi listing",
+    "resource": "https://cdn.penguin.co.in/wp-content/uploads/2025/04/Adult-Publishing-April-June-2025-Catalogue.pdf",
+    "publisher": "Penguin Random House India",
+    "publication_date": "2025-04",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_catalogue",
+    "locator": "Heading THE DAY THE CHARIOT MOVED HOME; ISBN9780143471257; page number unresolved",
+    "capture_note": "Advance listing uses title ending HOME, June2025 and256pages. Product page for sameISBN gives title withoutHOME, July2025 and408pages. Retain planned metadata separately; use released product record for selected edition. No full catalogue read claimed.",
+    "source_kind": "Primary artist, gallery, publisher, professional association or government publication"
+  },
+  "creators-nandita-roots": {
+    "id": "creators-nandita-roots",
+    "title": "I am still searching for a place to call home",
+    "resource": "https://openthemagazine.com/art-culture/i-am-still-searching-for-a-place-to-call-home/",
+    "publisher": "Nandita Das / Open",
+    "publication_date": "2013-08-08",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Author byline and first-person paragraphs45–53",
+    "capture_note": "Nandita identifies Jatin Das as her Odia father and recalls family visits to Baripada. Born Bombay, raised Delhi: Odisha heritage does not imply Odisha birth. Print subdomain failed; canonical article read.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-nandita-profile": {
+    "id": "creators-nandita-profile",
+    "title": "Nandita Das: profile",
+    "resource": "https://nanditadas.com/profile/",
+    "publisher": "Nandita Das",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biography paragraph on NDI and Zwigato",
+    "capture_note": "Official biography credits direction and dates theatrical release of Zwigato to17March2023; distinct from2022festival vintage. No current streaming availability checked.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-zwigato-official": {
+    "id": "creators-zwigato-official",
+    "title": "Zwigato: story and director note",
+    "resource": "https://nanditadas.com/nandita-das-initiatives/zwigato-copy2/",
+    "publisher": "Nandita Das Initiatives",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Story, director note and festival metadata; lines24–47",
+    "capture_note": "Bhubaneswar setting; Hindi/Odiya;2022festival year; creator describes local Odisha cast participation. Film portrayal is not a labour-market survey; no box-office or quantified economic-impact claim.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-manto-cannes": {
+    "id": "creators-manto-cannes",
+    "title": "Manto: Cannes2018 official selection and credits",
+    "resource": "https://www.festival-cannes.com/en/f/manto/",
+    "publisher": "Festival de Cannes",
+    "publication_date": "2018",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "2018 Un Certain Regard; credits lines15–38",
+    "capture_note": "Nandita Das director and screenplay;112minutes, India/France. Selection is not an award. Credits include cinematography Kartik Vijay, editing Sreekar Prasad, music Zakir Hussain/Sneha Khanwalkar.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-susmita-penguin": {
+    "id": "creators-susmita-penguin",
+    "title": "Children of A Better God: publisher edition and author biography",
+    "resource": "https://www.penguin.co.in/book/children-of-a-better-god/",
+    "publisher": "Penguin Random House India",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Bibliographic block287–293; biography344–346",
+    "capture_note": "Paperback September2010,248pages,ISBN9780143066422; author writes in Odia. Biography gives1993state award; KLF gives1992. Translator absent from captured publisher page; original title-page credit remains open.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-susmita-klf": {
+    "id": "creators-susmita-klf",
+    "title": "Susmita Bagchi: festival speaker biography",
+    "resource": "https://kalingaliteraryfestival.com/speakers/susmita-bagchi/",
+    "publisher": "Kalinga Literary Festival",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biography paragraphs9–20",
+    "capture_note": "Odia writer; identifies Debashishu as source of English Children of a Better God. Reports1992Odisha Sahitya Akademi award versus publisher1993. Undated office, residence, latest-book and bibliography totals not promoted as current facts.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-sona-home": {
+    "id": "creators-sona-home",
+    "title": "Sona Mohapatra: interview",
+    "resource": "https://www.telegraphindia.com/entertainment/sona-mohapatra/cid/408896",
+    "publisher": "The Telegraph",
+    "publication_date": "2012-06-30",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Interview answer to What brings you to Calcutta?",
+    "capture_note": "First-person identification of Odisha as her home state; no birthplace inference.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-rupaiya-label": {
+    "id": "creators-rupaiya-label",
+    "title": "Rupaiya: Satyamev Jayate recording credits",
+    "resource": "https://www.tseries.com/videos/tseries/PLBCF1C8CC187D3EAC/BKzZNLByngU",
+    "publisher": "T-Series",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Song heading and credit block26",
+    "capture_note": "Sona Mohapatra singer and producer for OmGrown Music; Ram Sampath composer; Swanand Kirkire lyricist. Specific recording identity BKzZNLByngU. Text credits inspected; no playback review, metrics or reuse licence claimed.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-sujata-bio": {
+    "id": "creators-sujata-bio",
+    "title": "About Sujata Mohapatra",
+    "resource": "https://sujatamohapatra.org/about-sujata-mohapatra/",
+    "publisher": "Sujata Mohapatra official website",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_biography_direct_fetch_unavailable",
+    "locator": "Opening biographical paragraph",
+    "capture_note": "Indexed artist biography identifies Balasore origin and1968birth year. Direct route failed twice. Retain attributed origin; no exact birth date or full-page inspection claimed.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-sujata-award": {
+    "id": "creators-sujata-award",
+    "title": "Sangeet Natak Akademi Awards for2017: investiture announcement",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1562667",
+    "publisher": "Ministry of Culture / PIB",
+    "publication_date": "2019-02-05",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Dance list23; announcement19–20",
+    "capture_note": "Sujata selected for Odissi award year2017; selection meeting8June2018; investiture scheduled6February2019. Announcement alone does not establish actual ceremony completion;2025PIB separately calls her recipient.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-sujata-jipmer": {
+    "id": "creators-sujata-jipmer",
+    "title": "JIPMER Heritage Club: Odissi concert by Sujata Mohapatra",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2185720",
+    "publisher": "JIPMER / PIB Chennai",
+    "publication_date": "2025-11-03",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Recital report22–23",
+    "capture_note": "Reports actual recital2November2025 at Dr.APJAbdulKalamAuditorium and calls her Sangeet Natak Akademi recipient. No named repertoire, choreographer or accompanying musicians supplied. Institutional event report is not clinical evidence of health benefits.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "creators-sujata-darbar": {
+    "id": "creators-sujata-darbar",
+    "title": "Darbar Festival2018 brochure: dance programme",
+    "resource": "https://darbar.org/wp-content/uploads/2026/02/Darbar-Festival-2018-Barbican-Centre-Brochure.pdf",
+    "publisher": "Darbar Arts Culture Heritage Trust",
+    "publication_date": "2018",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_pdf_text",
+    "locator": "PDF page2, Dancers at Sadlers Wells24–25November",
+    "capture_note": "Names Sujata Mohapatra for Odissi in2018dance programme.2026upload path is not event year. Brochure establishes programming, not attendance or completed performance verification.",
+    "source_kind": "Primary creator testimony, publisher, festival, label or government record"
+  },
+  "business-imfa-history": {
+    "id": "business-imfa-history",
+    "title": "IMFA: origins and leadership",
+    "resource": "https://www.imfa.in/about-us",
+    "publisher": "Indian Metals and Ferro Alloys",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Our Beginnings, timeline and Meet Our Leaders",
+    "capture_note": "Company history dates establishment to 1961, credits Bansidhar and Ila Panda and names Therubali in historical Koraput. Lists Subhrakant Panda as managing director. Founding is not a commissioning date; company superlatives not independently established.",
+    "source_kind": "Company, award issuer, trade association or original reported testimony"
+  },
+  "business-riteshlife-2016": {
+    "id": "business-riteshlife-2016",
+    "title": "Ritesh Agarwal describes his Odisha upbringing",
+    "resource": "https://timesofindia.indiatimes.com/business/startups/people/oyo-rooms-ceo-agarwal-narrates-his-odisha-story/articleshow/53888110.cms",
+    "publisher": "The Times of India",
+    "publication_date": "2016-08-27",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Original event report, paragraphs 1–3",
+    "capture_note": "Reports Agarwal as OYO founder and quotes his account of growing up in Rayagada, Odisha. First-person testimony within a newspaper report; historical company valuations and policy aspirations not reused as current outcomes.",
+    "source_kind": "Company, award issuer, trade association or original reported testimony"
+  },
+  "business-rashmi-iwec": {
+    "id": "business-rashmi-iwec",
+    "title": "IWEC 2022 awardee: Rashmi Sahoo",
+    "resource": "https://iwecawards.com/network/awardees/",
+    "publisher": "IWEC Foundation",
+    "publication_date": "2022",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "2022 recipients, Asia/India, Rashmi Sahoo biography",
+    "capture_note": "Issuer lists Rashmi Sahoo and Bisweswar Foods; founder/director, business began 2014. Also director of family business Om Oil & Flour Mills. Overseas discussions and ambitions are not verified shipments. Biography vintage 2022; page covers several award years.",
+    "source_kind": "Company, award issuer, trade association or original reported testimony"
+  },
+  "business-bisweswar-oasme": {
+    "id": "business-bisweswar-oasme",
+    "title": "OASME product directory: Bisweswar Foods",
+    "resource": "https://oasme.org.in/products.php",
+    "publisher": "Odisha Assembly of Small and Medium Enterprises",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Row 18, Bisweswar Foods Private Limited",
+    "capture_note": "Trade association lists company in Cuttack, Odisha, names Rashmi Sahoo and lists ready-to-cook products, flour and breakfast cereals. Directory is not an audited sales, output or export return. Personal contact details not imported.",
+    "source_kind": "Company, award issuer, trade association or original reported testimony"
+  },
+  "business-subhrakant-ficci-2023": {
+    "id": "business-subhrakant-ficci-2023",
+    "title": "FICCI budget statement: Subhrakant Panda as president",
+    "resource": "https://ficci.in/press_release_details/4650",
+    "publisher": "FICCI",
+    "publication_date": "2023-02-01",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_text_direct_fetch_unavailable",
+    "locator": "Dateline and opening attribution",
+    "capture_note": "Indexed issuer statement dates Subhrakant Panda’s FICCI presidency to this 2023 statement. Direct fetch failed; no current presidency or full tenure dates asserted. Budget-year wording appears inconsistent and is not used.",
+    "source_kind": "Company, award issuer, trade association or original reported testimony"
+  },
+  "business-mindtree-merger": {
+    "id": "business-mindtree-merger",
+    "title": "LTI and Mindtree merger effective date",
+    "resource": "https://www.ltm.com/news-events/press-releases/2022/lti-and-mindtree-to-start-operating-as-a-merged-entity-from-november-14-2022",
+    "publisher": "LTI and Mindtree",
+    "publication_date": "2022-11-14",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening paragraphs and Effective Date",
+    "capture_note": "Original corporate release specifies 14 November 2022 as the effective date for operating as merged LTIMindtree. This records the historical merger, not current legal name, headcount or present leadership.",
+    "source_kind": "Company, award issuer, trade association or original reported testimony"
+  },
+  "public-murmu-cag-bio": {
+    "id": "public-murmu-cag-bio",
+    "title": "Girish Chandra Murmu: archived biographical content on CAG regional page",
+    "resource": "https://cag.gov.in/rti/ranchi/en/page-rti-ranchi-cag-india-rac",
+    "publisher": "Comptroller and Auditor General of India",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biographical paragraphs, especially birthplace, education and IAS batch",
+    "capture_note": "Mayurbhanj origin; Gujarat cadre IAS, 1985 batch; assumed CAG office 8 August 2020. Regional page retains present-tense CAG framing; use central former-CAG register for historical tenure.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-cag-former": {
+    "id": "public-cag-former",
+    "title": "Former Comptrollers and Auditors General: Girish Chandra Murmu",
+    "resource": "https://cag.gov.in/en/former-cag",
+    "publisher": "Comptroller and Auditor General of India",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Former CAG list, Girish Chandra Murmu",
+    "capture_note": "Lists 2020–2024. Resolves stale present-tense regional biography; two pages of the same institution, not independent corroboration.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-droupadi-profile": {
+    "id": "public-droupadi-profile",
+    "title": "Profile of President Droupadi Murmu",
+    "resource": "https://www.presidentofindia.gov.in/profile-0",
+    "publisher": "President’s Secretariat",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Profile opening; Early Life; Public Life",
+    "capture_note": "Uparbeda, Mayurbhanj origin; Rairangpur MLA 2000–2009; Jharkhand governor 2015–2021; sworn in as President on 25 July 2022. Page retrieved 1 October 2026. No family details or unmeasured policy-impact claims imported.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-pk-mishra-appointment": {
+    "id": "public-pk-mishra-appointment",
+    "title": "P. K. Mishra takes over as Principal Secretary to the Prime Minister",
+    "resource": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1584692",
+    "publisher": "Prime Minister’s Office / PIB",
+    "publication_date": "2019-09-11",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Appointment opening, education paragraph and publications",
+    "capture_note": "Dated appointment and 1970 G.M. College/Sambalpur University education. PMIndia carries the same release; not independent confirmation. Historical role, not verification of present appointment.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-pk-mishra-sasakawa": {
+    "id": "public-pk-mishra-sasakawa",
+    "title": "2019 Sasakawa Award laureates",
+    "resource": "https://www.undrr.org/news/un-recognises-excellence-protecting-vulnerable-communities-disaster-risk",
+    "publisher": "UNDRR",
+    "publication_date": "2019-05-16",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening laureate announcement",
+    "capture_note": "Names Pramod Kumar Mishra among three laureates in disaster risk reduction. Issuer evidence of recognition, not a measured Odisha disaster-loss reduction attributable to him.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-biswanath-odisha": {
+    "id": "public-biswanath-odisha",
+    "title": "Biswanath Das: Odisha government biographical entry",
+    "resource": "https://odisha.gov.in/index.php/en/odisha-profile/eminent-personalities/biswanath-das",
+    "publisher": "Government of Odisha",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biographical paragraphs below portrait",
+    "capture_note": "Ganjam public life, Odisha provincial leadership and Uttar Pradesh governorship. The page also says elected to Lok Sabha in 1950; that chronology is quarantined and not used. Assembly chamber labels and exact election dates need original registers.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-biswanath-clpr": {
+    "id": "public-biswanath-clpr",
+    "title": "Biswanath Das: constitutional biography",
+    "resource": "https://www.constitutionofindia.net/members/biswanath-das/",
+    "publisher": "Centre for Law and Policy Research",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Early Life; Contribution to Constitution Making; Later Contributions",
+    "capture_note": "Institutional secondary biography identifies Constituent Assembly representation from Orissa and national roles. Identity is the historical Odisha statesman, not contemporary namesakes. Original source links are leads, not all freshly fetched.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-cad-1949-08-20": {
+    "id": "public-cad-1949-08-20",
+    "title": "Constituent Assembly debate: 20 August 1949",
+    "resource": "https://www.constitutionofindia.net/debates/20-aug-1949/",
+    "publisher": "Constituent Assembly proceedings; digital transcription by CLPR",
+    "publication_date": "1949-08-20",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_transcription",
+    "locator": "Paragraphs 9.120.1–9.120.5, Biswanath Das on draft Article 277",
+    "capture_note": "Primary proceedings through an institutional transcription. Objections concern emergency powers and provincial financial allocations. A recorded intervention does not prove his position prevailed or that he alone authored a constitutional provision. Parliament PDF fetch failed; facsimile comparison remains open.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "public-mahtab-commemoration": {
+    "id": "public-mahtab-commemoration",
+    "title": "Harekrushna Mahtab: 125th birth anniversary and translated essays",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2075570",
+    "publisher": "Ministry of Culture / PIB",
+    "publication_date": "2024-11-21",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Commemorative Releases book list; About Dr Harekrushna Mahtab",
+    "capture_note": "Records Odisha origin, Union Commerce and Industry role and 1962 Lok Sabha election; reports English Gaon Majlis translation by Tarun Kumar Sahu. Princely-state prime-minister wording in this release is quarantined; not adopted as a historical fact. Release date is not necessarily first-edition publication date.",
+    "source_kind": "Official institutional record or explicitly labelled institutional biography/transcription"
+  },
+  "rulers-kharavela-asi": {
+    "id": "rulers-kharavela-asi",
+    "title": "BharatSHRI: Hathigumpha inscription of Kharavela",
+    "resource": "https://bharatshri.asi.gov.in/gallery?lang=en",
+    "publisher": "Archaeological Survey of India",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "BRAHMI INSCRIPTION OF KHARAVELA FROM HATHIGUMPHA; reference EI XX, pp. 71–89",
+    "capture_note": "Institutional epigraph catalogue describes Prakrit/Brahmi royal account through regnal year 13 and a salutation to Jinas. Catalogue dates it to first half of second century BCE; another government page uses first century BCE. Jajpur provenance in this catalogue is withheld as conflicting with the Udayagiri/Bhubaneswar site identity. Royal military/welfare claims are not independent measurements.",
+    "source_kind": "Epigraphic record, institutional heritage interpretation or explicitly labelled historical synthesis"
+  },
+  "rulers-kharavela-caves": {
+    "id": "rulers-kharavela-caves",
+    "title": "Udayagiri and Khandagiri caves: tourism interpretation",
+    "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/udaygiri-and-amp-khandagiri-caves-temple.html",
+    "publisher": "Odisha Tourism",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "About Udayagiri and Khandagiri, Kharavela and Jain caves",
+    "capture_note": "Government heritage interpretation connects Kharavela and Jain caves near Bhubaneswar. Promotional superlatives about power are not adopted. Not an independently dated epigraphic edition.",
+    "source_kind": "Epigraphic record, institutional heritage interpretation or explicitly labelled historical synthesis"
+  },
+  "rulers-art-architecture": {
+    "id": "rulers-art-architecture",
+    "title": "Odisha Tourism: Art and Architecture",
+    "resource": "https://apps.odishatourism.gov.in/art--architecture",
+    "publisher": "Odisha Tourism",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening historical discussion of rock-cut caves and Kharavela",
+    "capture_note": "Uses first century BC for Kharavela; retain as a chronology conflict with ASI catalogue, not as a resolved reign date. Same tourism publisher as cave page, not independent corroboration.",
+    "source_kind": "Epigraphic record, institutional heritage interpretation or explicitly labelled historical synthesis"
+  },
+  "rulers-puri-history": {
+    "id": "rulers-puri-history",
+    "title": "Puri: government historical overview",
+    "resource": "https://odisha.gov.in/index.php/en/odisha-tourism/important-tourist-pointspuri",
+    "publisher": "Government of Odisha",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Historical overview: Chodaganga Dev and present Jagannath Temple",
+    "capture_note": "Attributes the present temple to Chodaganga Dev of the Ganga dynasty in the twelfth century. This is institutional heritage attribution, not proof he alone designed or completed all phases of the complex. Page-update date is not publication date.",
+    "source_kind": "Epigraphic record, institutional heritage interpretation or explicitly labelled historical synthesis"
+  },
+  "rulers-cuttack-charters": {
+    "id": "rulers-cuttack-charters",
+    "title": "Cities and Towns in Early Odisha: A Historical Appraisal",
+    "resource": "https://magazines.odisha.gov.in/orissareview/2021/April/engpdf/entire_book-April-or-2021.pdf",
+    "publisher": "Sarita Nayak; Odisha Review, I&PR Department, Government of Odisha",
+    "publication_date": "2021-04",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_pdf_extract",
+    "locator": "Article pp. 37–52; Cuttack/Nagari plates discussion p. 51",
+    "capture_note": "Indexed text describes Varanasi-Kataka as seat of government in Nagari plates of Anangabhima III, charters from Cuttack and a 1230–31 Purusottama installation. Government-published contributed historical synthesis, not a contemporary charter or formal government finding. Direct whole-issue and article PDF fetches failed; facsimile not inspected. Madalapanji narrative is a separate evidence class.",
+    "source_kind": "Epigraphic record, institutional heritage interpretation or explicitly labelled historical synthesis"
+  },
+  "rulers-kapilesvara-srisailam": {
+    "id": "rulers-kapilesvara-srisailam",
+    "title": "Srisailam Inscription of Kapilesvara, Saka 1382",
+    "resource": "https://ignca.gov.in/Asi_data/50721.pdf",
+    "publisher": "D. C. Sircar; Archaeological Survey of India, Epigraphia Indica XXXVI (1965–1966), published 1970; digitised by IGNCA",
+    "publication_date": "1970",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_visual_inspection",
+    "locator": "Title page PDF p. 6; article no. 10, printed pp. 75–78 = PDF pp. 124–127; article continues to p. 80",
+    "capture_note": "Inspected the introduction and interpretation on pp. 75–78, not the full volume or all transcription pages. Srisailam slab includes Odia and Telugu-character portions; editor equates Saka 1382 with 3 July 1460. Names Gajapati Kapilesvara of Orissa; calls geographical universal-rule epithet hyperbolic. Donation and personal presence are uncertain. Published scholarly edition of inscription; editor interpretations separated from literal royal claims. Download recovered after web size error; 498-page scan has no usable text layer.",
+    "source_kind": "Epigraphic record, institutional heritage interpretation or explicitly labelled historical synthesis"
+  },
+  "rulers-gajapati-name-context": {
+    "id": "rulers-gajapati-name-context",
+    "title": "Sakti Worship During the Suryavamsi Period",
+    "resource": "https://magazines.odisha.gov.in/orissareview/sept-oct2006/engpdf/or-sept-06.pdf",
+    "publisher": "Bharati Pal; Orissa Review, Government of Odisha",
+    "publication_date": "2006-09/2006-10",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_pdf_extract",
+    "locator": "Opening article, printed p. 1",
+    "capture_note": "Uses Kapilendra and Kapilesvara for the founding Suryavamsi Gajapati ruler and discusses inscriptional royal epithets. Used for name/dynastic context; broad conquest and renaissance claims not imported as quantified outcomes. Indexed capture only; not independent corroboration of Sircar where his epigraphic discussion is reused.",
+    "source_kind": "Epigraphic record, institutional heritage interpretation or explicitly labelled historical synthesis"
+  },
+  "science-lmp-twas": {
+    "id": "science-lmp-twas",
+    "title": "Lalit Mohan Patnaik: TWAS fellow directory",
+    "resource": "https://twas.org/directory/patnaik-lalit-mohan",
+    "publisher": "The World Academy of Sciences",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Fellow heading, biodata and Elected field",
+    "capture_note": "Issuer register records 1998 election and Information and Data Sciences & Technologies section. Historical career information is not proof of present employment. Displayed last-update string 02/05/2025 retained without assuming date convention.",
+    "source_kind": "Institutional role/recognition record or explicitly labelled author CV"
+  },
+  "science-lmp-cv": {
+    "id": "science-lmp-cv",
+    "title": "L. M. Patnaik: academy-hosted biodata and publication list",
+    "resource": "https://twas.org/system/files/cv/full_biodata_pdf.23_aug2016.pdf",
+    "publisher": "L. M. Patnaik; hosted by TWAS",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_scoped_visual_read",
+    "locator": "Printed/PDF p.1 education; p.75 entry506; file name carries 23_aug2016",
+    "capture_note": "Self-reported CV hosted by an academy, not an independently audited biography. Visually inspected education table and bibliography entry506. BSc Engineering, Sambalpur University, 1969; 1994 paper credited to M. Srinivas and L.M. Patnaik. Did not read all 87 pages or original paper. Filename date is a vintage clue, not confirmed publication date. Private contact fields are not imported. Alternate TWAS URLs represent the same CV.",
+    "source_kind": "Institutional role/recognition record or explicitly labelled author CV"
+  },
+  "science-lmp-iitbbs": {
+    "id": "science-lmp-iitbbs",
+    "title": "Lalit Mohan Patnaik: IIT Bhubaneswar AHRC adviser",
+    "resource": "https://www.iitbbs.ac.in/index.php/ahrc/ahrc-advisor-prof-lalit-mohan-patnaik/",
+    "publisher": "Indian Institute of Technology Bhubaneswar",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "AI & HPC Research Center, adviser/research collaborator heading and biography",
+    "capture_note": "Institution directly lists adviser and research collaborator role. Page undated, retrieved 1 October 2026; no appointment start inferred. Research interests include architecture, distributed/parallel computing and AI. Undated citation, publication and supervision totals not promoted as current metrics.",
+    "source_kind": "Institutional role/recognition record or explicitly labelled author CV"
+  },
+  "science-lmp-ieee-award": {
+    "id": "science-lmp-ieee-award",
+    "title": "L. M. Patnaik: 1999 Technical Achievement Award",
+    "resource": "https://www.computer.org/profiles/lm-patnaik",
+    "publisher": "IEEE Computer Society",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_issuer_record_direct_fetch_unavailable",
+    "locator": "Award Recipient; 1999 Technical Achievement Award",
+    "capture_note": "Issuer indexed record recognises contributions in parallel, distributed and soft computing. Direct profile failed; alternate award register returned 403. Present-tense DIAT vice-chancellor wording is historical and not used as current employment. No career publication count or sole-invention claim imported.",
+    "source_kind": "Institutional role/recognition record or explicitly labelled author CV"
+  },
+  "science-sm-proceedings": {
+    "id": "science-sm-proceedings",
+    "title": "Speech, Sound and Music Processing: Embracing Research in India",
+    "resource": "https://link.springer.com/book/10.1007/978-3-642-31980-8",
+    "publisher": "Springer",
+    "publication_date": "2012-07-02",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Editors and Affiliations; Bibliographic Information; title subtitle",
+    "capture_note": "Publisher metadata inspected. Conference 9–12 March 2011, Bhubaneswar; print 1 July 2012 and ebook 2 July 2012. Editor and chapter author roles differ. One volume and its chapter are one publication family.",
+    "source_kind": "Publisher record or explicitly labelled biographical source"
+  },
+  "science-sm-speech": {
+    "id": "science-sm-speech",
+    "title": "Adaptive and Iterative Wiener Filter for Oriya Speech Processing Applications",
+    "resource": "https://link.springer.com/chapter/10.1007/978-3-642-31980-8_16",
+    "publisher": "Springer",
+    "publication_date": "2012",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_abstract_and_metadata",
+    "locator": "Abstract; Authors and Affiliations; About this paper",
+    "capture_note": "Abstract and metadata read; subscription full text not read. Chapter navigation/citation adds FRSM 2023 despite 2012 copyright; parent volume explicitly says conference 2011. Quarantine navigation anomaly. Abstract performance percentage not adopted without denominator and original methods.",
+    "source_kind": "Publisher record or explicitly labelled biographical source"
+  },
+  "science-susmita-bio": {
+    "id": "science-susmita-bio",
+    "title": "Susmita Mohanty: author biography",
+    "resource": "https://www.themoonwalker.in/bio.php",
+    "publisher": "Susmita Mohanty",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Biography; paragraph beginning Susmita served as a political appointee",
+    "capture_note": "Self-described career and historical Mo School connection. No audited financial outcomes or unique-world-first claims adopted. Government ISTI profile links this site and repeats biography; not independent corroboration.",
+    "source_kind": "Publisher record or explicitly labelled biographical source"
+  },
+  "science-susmita-isti": {
+    "id": "science-susmita-isti",
+    "title": "Dr. Susmita Mohanty: ISTI profile",
+    "resource": "https://www.indiascienceandtechnology.gov.in/listingpage/dr-susmita-mohanty",
+    "publisher": "India Science, Technology & Innovation portal",
+    "publication_date": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_record_direct_unavailable",
+    "locator": "Indexed profile; Mo School service paragraph; More link",
+    "capture_note": "Indexed government profile inspected; direct fetch failed. Closely parallels personal biography and links to it. Retain historical role only; not independent award, impact or current CEO verification.",
+    "source_kind": "Publisher record or explicitly labelled biographical source"
+  },
+  "science-susmita-newspace": {
+    "id": "science-susmita-newspace",
+    "title": "NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership",
+    "resource": "https://journals.sagepub.com/doi/10.1089/space.2021.0068",
+    "publisher": "New Space; Mary Ann Liebert, now hosted by Sage",
+    "publication_date": "2022-03-08",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_abstract_and_metadata",
+    "locator": "Abstract; Information; Authors and affiliations",
+    "capture_note": "Publisher reports online 8 March 2022 and issue 1 March 2022, volume10 issue1 pp3–13. DOI contains2021 but is not publication date. Abstract read; full text restricted and not read. Historical policy critique is not current market or Odisha investment evidence.",
+    "source_kind": "Publisher record or explicitly labelled biographical source"
+  },
+  "homestay-portal-area-list": {
+    "id": "homestay-portal-area-list",
+    "title": "Go Homestay public notified-area list: 1 October 2026 capture",
+    "resource": "https://gohomestay.odisha.gov.in/api/allowAll/get-notified-gp-list",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official public portal configuration; not a Gazette or operating-property register",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "public_json_and_rendered_table",
+    "locator": "Public Eligible Gram Panchayats modal; district/cluster/destination/block/gp tree",
+    "capture_note": "Entire unauthenticated JSON captured and modal table inspected. Publisher IDs and spellings preserved. Retrieval date is not legal effective date. Portal and API are one source family. Computed inventory counts do not establish operational homestays or Gazette eligibility."
+  },
+  "wildlife-odisha2025-ecotourism": {
+    "id": "wildlife-odisha2025-ecotourism",
+    "title": "Wildlife Odisha 2025: ecotourism income, visitors and community participation",
+    "resource": "https://s3.ap-south-1.amazonaws.com/wildlife.odisha.gov.in/uploads/901bab61-9987-4131-b23e-2fdf2ee5c6db.pdf",
+    "publisher": "State Wildlife Organisation, Forest, Environment and Climate Change Department, Government of Odisha",
+    "published_on": "2025-10-09",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_primary_pdf_visual_table_check",
+    "locator": "Colophon PDF p.4; printed pp.122 and135 (PDF pp.132 and145)",
+    "capture_note": "Public download succeeded after web tool rejected 29.9 MB file. Page135 visually inspected; publication occasion/date on colophon. Programme table is not all Odisha tourism or a homestay series.",
+    "source_kind": "Primary departmental report"
+  },
+  "homestay-wtd2026-connect": {
+    "id": "homestay-wtd2026-connect",
+    "title": "World Tourism Day 2026: reported provisional homestay certificates",
+    "resource": "https://odishaconnect.com/odisha-celebrates-world-tourism-day-2026-with-digital-innovation-and-community-led-tourism/",
+    "publisher": "Odisha Connect",
+    "published_on": "2026-09-27",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_passage_direct_fetch_failed",
+    "locator": "Section 176 Homestay Beneficiaries Receive Certificates",
+    "capture_note": "Indexed passage reports176; direct page failed. Secondary lead only; do not treat as independently verified headcount.",
+    "source_kind": "Secondary event report; unresolved numerical lead"
+  },
+  "homestay-wtd2026-bytes": {
+    "id": "homestay-wtd2026-bytes",
+    "title": "Odisha Signs Pacts To Promote Homestay, Heritage & Adventure Tourism",
+    "resource": "https://odishabytes.com/odisha-signs-pacts-to-promote-homestay-heritage-adventure-tourism/amp/",
+    "publisher": "OdishaBytes",
+    "published_on": "2026-09-28",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_scoped_read",
+    "locator": "Closing paragraph and opening SBI MoU paragraph",
+    "capture_note": "Direct page says17 provisional-certificate beneficiaries, conflicting with176 in indexed Odisha Connect. Shared event coverage may reuse one release; original register/MoU not recovered.",
+    "source_kind": "Secondary event report; unresolved numerical lead"
+  },
+  "debrigarh-jica2017": {
+    "id": "debrigarh-jica2017",
+    "title": "Odisha Forestry Sector Development Project Phase II: supplemental survey, final report (advanced version)",
+    "resource": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+    "publisher": "Japan International Cooperation Agency; Nippon Koei",
+    "published_on": "2017-02",
+    "accessed_on": "2026-10-01",
+    "capture_method": "primary_survey_pdf_visual_check",
+    "locator": "Printed p.4-12 / PDF p.132, Further Considerations; source JICA Survey Team 2016",
+    "capture_note": "Historical facility revenue and management context; not a current payroll or an audited longitudinal income series."
+  },
+  "debrigarh-pmo20260830": {
+    "id": "debrigarh-pmo20260830",
+    "title": "PM’s address in the 137th Episode of Mann Ki Baat",
+    "resource": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-137th-episode-of-mann-ki-baat/",
+    "publisher": "Prime Minister’s Office, Government of India",
+    "published_on": "2026-08-30",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_official_transcript",
+    "locator": "Dhodrokusum/Maithili Bhue passage and dated embedded PMO posts",
+    "capture_note": "Primary evidence of public recognition and an attributed participation statement, not independent enumeration or income evaluation."
+  },
+  "debrigarh-revenue-nie20260405": {
+    "id": "debrigarh-revenue-nie20260405",
+    "title": "Odisha’s Debrigarh raises ecotourism bar, with sightings, record tourist footfall and revenue",
+    "resource": "https://www.newindianexpress.com/states/odisha/2026/Apr/05/odishas-debrigarh-raises-ecotourism-bar-with-sightings-record-tourist-footfall-revenue",
+    "publisher": "The New Indian Express",
+    "published_on": "2026-04-05",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_secondary_html",
+    "locator": "Opening revenue/visitor paragraph",
+    "capture_note": "Reports FY2025–26 revenue ₹6.02 crore and prior-year ₹5.01 crore. Prior-year scope conflicts with the Debrigarh/Hirakud ₹5.11 crore account; growth withheld."
+  },
+  "debrigarh-revenue-op20250405": {
+    "id": "debrigarh-revenue-op20250405",
+    "title": "Community-led ecotourism generates Rs5.11cr revenue",
+    "resource": "https://www.orissapost.com/community-led-ecotourism-generates-rs-5-11cr-revenue/",
+    "publisher": "OrissaPOST, Post News Network",
+    "published_on": "2025-04-05",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_secondary_html",
+    "locator": "Opening paragraphs and attributed DFO statement",
+    "capture_note": "Reports Debrigarh Wildlife Sanctuary and Hirakud Wetland together, with 85 families. Not independent payroll evidence; do not relabel family count as workers or shift its reporting year."
+  },
+  "food-chhenapoda-chef2021": {
+    "id": "food-chhenapoda-chef2021",
+    "title": "CHHENAPODA — Chef Michael’s contemporary recipe",
+    "resource": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+    "publisher": "Chef Michael, hosted by Odisha Tourism",
+    "published_on": "2021-07-29",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_contributor_html",
+    "locator": "Opening account and Chocolate Chhenapoda Recipe",
+    "capture_note": "Primary evidence of the contributor’s own adaptation. Origin, popularity and sales statements are not independently established."
+  },
+  "food-magji-gi178": {
+    "id": "food-magji-gi178",
+    "title": "Dhenkanal Magji — GI Journal 178 specification",
+    "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+    "publisher": "Geographical Indications Registry; application by Dhenkanal Sweets Association",
+    "published_on": "2023-08-31",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text_and_visual",
+    "locator": "Printed/PDF pp.45–50; pp.46–48 visually inspected",
+    "capture_note": "Historical advertised specification, distinct from the later registration certificate. Internal sugar-ratio differences retained; no independent nutrition, shelf-life, origin chronology or sales verification.",
+    "retrieval": {
+      "index_label": "Journal 178, 31/08/2023",
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal",
+      "form": {
+        "FileName": "ipo-docs\\IPIndia_Docs\\GIR\\2023\\Journal_178\\Journal 178.pdf"
+      },
+      "sha256": "7111555bb1e39b94391cc0c410417b53ff0117c10f1271f1e95bae5c6a88156f",
+      "pages": 949,
+      "scope_read": "pp.45–50 only; no authorised-user personal records retained"
+    }
+  },
+  "food-rasabali-gi175": {
+    "id": "food-rasabali-gi175",
+    "title": "Kendrapara Rasabali — GI Journal 175 advertised specification",
+    "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+    "publisher": "Geographical Indications Registry; applicant Kendrapara Rasabali Mistanna Nirmata Sangha",
+    "published_on": "2023-05-31",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "Printed/PDF pp.42–49",
+    "capture_note": "Applicant specification; preserve original and September correction as versions in one source family, not independent corroboration. Origin, health, shelf-life and commercial claims are not independently verified.",
+    "retrieval": {
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal",
+      "form": {
+        "FileName": "ipo-docs\\IPIndia_Docs\\GIR\\2023\\Journal_175\\Journal 175.pdf"
+      },
+      "sha256": "372c401535109192e75f6d1c6bfda0d6baedf41d254c5aaf1100874594a3dce4",
+      "pages": 1616,
+      "scope_read": "Rasabali product specification pp.42–49 only; no authorised-user personal data retained"
+    }
+  },
+  "food-rasabali-corrigendum2023": {
+    "id": "food-rasabali-corrigendum2023",
+    "title": "Kendrapara Rasabali — corrigendum of 29 September 2023",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802",
+    "publisher": "Geographical Indications Registry; application 802",
+    "published_on": "2023-09-29",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "Application document “802 - GI - Corrigenda - 29-09-2023.pdf”, PDF pp.1–8",
+    "capture_note": "Revised applicant specification. Chhena water in specification/ingredients conflicts with vinegar in p.6 method. This is not a tested recipe or current employment census.",
+    "retrieval": {
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+      "form": {
+        "DocumentPath": "802/802 - GI - Corrigenda - 29-09-2023.pdf"
+      },
+      "sha256": "1eec1a2f397854127a6968339e19abdcf129b3d6cca7998a9b1229bad85165ed",
+      "pages": 8,
+      "visually_checked_pages": [
+        1,
+        6
+      ],
+      "family": "GI application 802; revision of Journal 175",
+      "full_journal_capture": {
+        "journal": 181,
+        "pages": 1928,
+        "sha256": "397da4108487c3c31e0c638e8f07edea1f4291eb170952b2527fa1929f010213",
+        "scope": "Complete download parsed; product evidence read from the separately indexed eight-page corrigendum."
+      }
+    }
+  },
+  "food-crri-rice2015": {
+    "id": "food-crri-rice2015",
+    "title": "Traditional Rice Foods: The Rich Heritage of India — Lipi Das",
+    "resource": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+    "publisher": "ICAR-Central Rice Research Institute, Cuttack",
+    "published_on": "2015-04",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "PDF pp.2–6 (credits/preface); printed pp.9,12,19,21,23,24,26,29,31 / PDF pp.20,23,30,32,34,35,37,40,42",
+    "capture_note": "Institutional compilation combining primary and secondary information. Book date is 2015, not the 2023 upload-path year. Entries identify Odisha but do not map district prevalence. No tested recipe, food-safety or nutrition claim adopted.",
+    "retrieval": {
+      "method": "GET",
+      "sha256": "e4d5894ef8492225462e69f4ec5ff76f80ea56c20234ffa2cdb8475bca3c3999",
+      "pages": 134,
+      "discovery": "https://icar-crri.in/book/",
+      "catalogue_location": "row 14, April 2015",
+      "visually_checked_pages": [
+        30
+      ],
+      "previous_unavailable_route": "https://icar-nrri.in/wp-content/uploads/2023/05/final_book_ldas.pdf"
+    }
+  },
+  "food-poda-regions-mint2023": {
+    "id": "food-poda-regions-mint2023",
+    "title": "In Odisha, ‘podo pitha’ is a sentiment — regional accounts",
+    "resource": "https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html",
+    "publisher": "Mint; Priyadarshini Chatterjee",
+    "published_on": "2023-06-16",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Paragraphs quoting Sujata Dehury on coastal Odisha and Sweta Biswal on western Odisha",
+    "capture_note": "Named reported accounts, not a regional prevalence survey. Retain distinct contributors; no universal geography, historical origin or temple-practice inference."
   }
 }

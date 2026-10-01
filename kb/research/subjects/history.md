@@ -33,3 +33,21 @@ Dated archaeological evidence, archival trade records and independently supporte
 Subject membership is editorial classification. It does not establish historical influence, causal effects or current operating availability. The facts above reuse saved research and retain their earlier source checks.
 
 [All subjects](index.md) · [Classification method](../methods/content-classification.md)
+
+## Scientific heritage through time · 1 October 2026
+
+[Utkal’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.
+
+## Science and manuscript heritage · 1 October 2026
+
+[Scientific knowledge preserved in manuscripts](../history/scientific-manuscripts.md) connects preserved mathematical texts, literary-form research leads and the scientist timeline, with explicit attribution gaps.
+
+## Mathematics and Odia science writing · 1 October 2026
+
+[Tribikram Pati](../people/tribikram-pati.md) and [Gokulananda Mohapatra](../people/gokulananda-mohapatra.md) connect mathematical research, science education and Odia writing to credited works. Source conflicts remain visible; neither a journal venue nor an encyclopaedia establishes measured global popularity.
+
+[Utkal’s rulers and royal legacies](../people/rulers-and-royal-legacies.md) — five selected rulers linked to inscriptions, government centres and architectural patronage; political power, contribution and later remembrance remain distinct.
+
+[Lalit Mohan Patnaik](../people/lalit-mohan-patnaik.md) connects Odisha education and institutional collaboration with computing research and a jointly credited publication. Dated recognition, author bibliography and original-paper review remain separate evidence steps.
+
+[Sanghamitra Mohanty](../people/sanghamitra-mohanty.md) and [Susmita Mohanty](../people/susmita-mohanty.md) extend the science collection into computing and space design/policy. Follow their credited-work pages for original publisher records and research limits.

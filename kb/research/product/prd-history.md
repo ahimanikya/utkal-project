@@ -71,3 +71,7 @@ The user asked to expand pages with facts, relate and classify content, and clar
 - The Painted Streets pilot and existing technology decisions remain. There is no new cost, privacy or service dependency. Public website acceptance remains untested and all feature states remain not implemented.
 - Local KB organisation is completed separately from website implementation. Named editorial review and public selection remain outstanding.
 - [Narrative snapshot](versions/prd-0.2.0.md) and [requirements snapshot](../references/data/product-requirements-0.2.0.json); checksums in the [version register](../references/data/prd-version-register.json). No Git commit or deployment is claimed.
+
+## 0.2.1 · 1 October 2026 · Name correction
+
+The user corrected the name to **Utkal**. [Preserved correction snapshot](versions/prd-0.2.1.md). This is a wording correction; prior versions, requirement IDs and approval states are preserved.

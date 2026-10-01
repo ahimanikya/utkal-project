@@ -10,9 +10,10 @@
         "literature"
       ],
       "odisha_connection": {
-        "description": "Odia-language literary contribution, as identified by the award body.",
+        "description": "Odia writer; memorial biography connects Nagabali in Cuttack and administrative work in Koraput.",
         "source_ids": [
-          "creators-jnanpith"
+          "creators-jnanpith",
+          "literature-gopinath-life"
         ]
       },
       "significance_evidence": [
@@ -26,14 +27,32 @@
         }
       ],
       "source_ids": [
-        "creators-jnanpith"
+        "creators-jnanpith",
+        "literature-gopinath-life",
+        "literature-gopinath-books"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
         "works/paraja"
       ],
-      "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null,
+      "biographical_facts": [
+        {
+          "value": "Memorial account: born in Nagabali, Cuttack, 1914; entered administrative service in 1938; early work in Koraput.",
+          "source_ids": [
+            "literature-gopinath-life"
+          ],
+          "locator": "Saved project life sketch"
+        },
+        {
+          "value": "Memorial bibliography lists Paraja (1945), Amrutara Santana (1949), Matimatala (1964).",
+          "source_ids": [
+            "literature-gopinath-books"
+          ],
+          "locator": "Novel table"
+        }
+      ]
     },
     {
       "id": "people/satchidananda-rautroy",
@@ -97,8 +116,24 @@
       "work_ids": [
         "works/ruined-temple-other-poems"
       ],
-      "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null,
+      "biographical_facts": [
+        {
+          "value": "Library of Congress profile gives birth date 17 September 1937 and describes poetry, criticism, essays, travel writing and oral-poetry translation.",
+          "source_ids": [
+            "creators-sitakant-loc"
+          ],
+          "locator": "Author profile, 2016 snapshot"
+        },
+        {
+          "value": "Selected works listed: Ashtapadi (1963), Shabdara akasha (1971), Ara drushya (1981).",
+          "source_ids": [
+            "creators-sitakant-loc"
+          ],
+          "locator": "Works paragraph"
+        }
+      ]
     },
     {
       "id": "people/pratibha-ray",
@@ -156,20 +191,33 @@
         }
       ],
       "source_ids": [
-        "creators-six-acres"
+        "creators-six-acres",
+        "literature-six-acres-eaa"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
         "works/six-acres-and-a-third"
       ],
-      "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null,
+      "biographical_facts": [
+        {
+          "value": "Born near Balasore in 1843; poet, novelist, administrator and printer.",
+          "source_ids": [
+            "creators-six-acres"
+          ],
+          "locator": "Saved project author-note capture, 2026-09-30"
+        }
+      ]
     },
     {
       "id": "people/prafulla-kar",
       "name": "Prafulla Kar",
       "fields": [
-        "music"
+        "music",
+        "composition",
+        "singing",
+        "lyrics"
       ],
       "odisha_connection": {
         "description": "Sangeet Natak Akademi citation records his birth in Puri.",
@@ -184,23 +232,52 @@
           "source_ids": [
             "creators-prafulla-sna"
           ]
+        },
+        {
+          "scope": "diaspora_institutional_recognition",
+          "basis": "OSA records its 2012 lifetime achievement award for his contribution as singer, director, composer and lyricist.",
+          "source_ids": [
+            "music-osa-awards-2012"
+          ]
         }
       ],
       "source_ids": [
-        "creators-prafulla-sna"
+        "creators-prafulla-sna",
+        "music-osa-awards-2012",
+        "music-pib-film-history",
+        "music-prafulla-label-profile",
+        "music-re-mita-label",
+        "music-dekhi-label",
+        "music-mu-ta-label",
+        "music-kali-qobuz"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
-        "works/mamata-film-music"
+        "works/mamata-film-music",
+        "works/re-mita-aa-sangata",
+        "works/dekhi-se-banamalli",
+        "works/mu-ta-manisha-marini",
+        "works/kali-kapali-prafulla"
       ],
       "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "portrait_rights": null,
+      "biographical_notes": [
+        {
+          "topic": "film_music_entry",
+          "statement": "Kapilas Bhuyan’s PIB-hosted 2010 feature dates the music-direction debut to Mamata (1975).",
+          "source_ids": [
+            "music-pib-film-history"
+          ],
+          "scope": "Attributed retrospective, not original film-credit inspection."
+        }
+      ]
     },
     {
       "id": "people/dilip-tirkey",
       "name": "Dilip Tirkey",
       "fields": [
-        "sport"
+        "sport",
+        "hockey"
       ],
       "odisha_connection": {
         "description": "Hockey India connects him to Saunamara in Sundargarh district.",
@@ -226,7 +303,8 @@
       "checked_on": "2026-10-01",
       "work_ids": [],
       "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "portrait_rights": null,
+      "achievement_dataset": "references/data/sports-achievements.json"
     },
     {
       "id": "people/bedangadas-mohanty",
@@ -461,6 +539,1523 @@
       ],
       "publication_status": "research_profile_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/kelucharan-mohapatra",
+      "name": "Kelucharan Mohapatra",
+      "fields": [
+        "dance",
+        "choreography",
+        "theatre"
+      ],
+      "odisha_connection": {
+        "description": "Srjan’s chronology connects him to Raghurajpur, Puri and theatre work in Cuttack.",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_artistic_contribution",
+          "basis": "Named theatre contributions recorded by Srjan; not a fame ranking",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-srjan-milestones",
+        "performers-ignca-archives"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/meerabai-direction-1945",
+        "works/devi-mahadev-performance-1946",
+        "works/dashavatara-sadhava-jhia-1947",
+        "works/aloka-dance-sequence-1948"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/laxmipriya-mohapatra",
+      "name": "Laxmipriya Mohapatra",
+      "fields": [
+        "dance",
+        "theatre"
+      ],
+      "odisha_connection": {
+        "description": "Srjan’s chronology places her performance work with the Annapurna B theatre group in Cuttack.",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_artistic_contribution",
+          "basis": "Named theatre contributions recorded by Srjan; not a fame ranking",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/dashavatara-sadhava-jhia-1947",
+        "works/aloka-dance-sequence-1948"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sanjukta-panigrahi",
+      "name": "Sanjukta Panigrahi",
+      "fields": [
+        "dance",
+        "choreography",
+        "teaching"
+      ],
+      "odisha_connection": {
+        "description": "The Akademi citation documents her contribution to Odisha’s Odissi dance tradition.",
+        "source_ids": [
+          "performers-panigrahi-citation",
+          "performers-sna-dance-register"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "national",
+          "basis": "Joint Sangeet Natak Akademi recognition, 1976; indexed register",
+          "source_ids": [
+            "performers-panigrahi-citation",
+            "performers-sna-dance-register"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-panigrahi-citation",
+        "performers-sna-dance-register"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/raghunath-panigrahi",
+      "name": "Raghunath Panigrahi",
+      "fields": [
+        "music",
+        "singing"
+      ],
+      "odisha_connection": {
+        "description": "The Akademi citation connects his devotional singing career to All India Radio, Cuttack, and Odissi music.",
+        "source_ids": [
+          "performers-panigrahi-citation",
+          "performers-sna-dance-register"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "national",
+          "basis": "Joint Sangeet Natak Akademi recognition, 1976; indexed register",
+          "source_ids": [
+            "performers-panigrahi-citation",
+            "performers-sna-dance-register"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-panigrahi-citation",
+        "performers-sna-dance-register"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sunanda-patnaik",
+      "name": "Sunanda Patnaik",
+      "fields": [
+        "Hindustani vocal music",
+        "devotional singing"
+      ],
+      "odisha_connection": {
+        "description": "The OSA award report identifies her as a Gwalior-gharana singer from Orissa and honours her contribution to Indian classical music.",
+        "source_ids": [
+          "music-osa-awards-2012"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "diaspora_institutional_recognition",
+          "basis": "2012 OSA lifetime achievement award and convention chief guest; not a measure of worldwide popularity.",
+          "source_ids": [
+            "music-osa-awards-2012"
+          ]
+        }
+      ],
+      "source_ids": [
+        "music-osa-awards-2012",
+        "music-guru-nanak-label",
+        "music-sakhi-label",
+        "music-bhaja-spotify",
+        "music-jagannatha-label"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/guru-nanak-bhajan-sunanda",
+        "works/sakhi-meri-manki-sunanda",
+        "works/bhaja-govindam-sunanda",
+        "works/jagannatha-swami-sunanda"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/amit-rohidas",
+      "name": "Amit Rohidas",
+      "fields": [
+        "sport",
+        "hockey"
+      ],
+      "odisha_connection": {
+        "description": "Hockey India identifies Sundargarh, Odisha, and training at Panposh Sports Hostel, Rourkela.",
+        "source_ids": [
+          "sport-amit-200"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_competition",
+          "basis": "Hockey India records his contribution to India’s bronze medals at Tokyo 2020 (held in 2021) and Paris 2024. He reached 200 international caps on 24 October 2024 against Germany in New Delhi. That is a dated milestone, not his current total.",
+          "source_ids": [
+            "sport-amit-red-card"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sport-amit-200",
+        "sport-amit-red-card"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "sport_category": "men",
+      "para_sport": false,
+      "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/deep-grace-ekka",
+      "name": "Deep Grace Ekka",
+      "fields": [
+        "sport",
+        "hockey"
+      ],
+      "odisha_connection": {
+        "description": "Hockey India identifies Lulkidihi village in Sundargarh, Odisha.",
+        "source_ids": [
+          "sport-deep-retirement"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_competition",
+          "basis": "The federation’s retirement profile records two Olympics and her role in the 2013 Women’s Junior World Cup bronze-medal team. India’s women finished fourth at Tokyo 2020, held in 2021.",
+          "source_ids": [
+            "sport-deep-retirement"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sport-deep-retirement"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "sport_category": "women",
+      "para_sport": false,
+      "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/kishore-jena",
+      "name": "Kishore Jena",
+      "fields": [
+        "sport",
+        "athletics"
+      ],
+      "odisha_connection": {
+        "description": "KIIT’s November 2023 institutional profile places him in Kothasahi, Puri, Odisha; the World Athletics guide identifies Brahmagiri as his birthplace.",
+        "source_ids": [
+          "sport-jena-kiit",
+          "sport-jena-wa-guide"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_competition",
+          "basis": "The World Athletics guide records second place at the Hangzhou Asian Games on 4 October 2023 and a javelin personal best of 87.54 m that day. It also records fifth at the Budapest World Championships on 27 August 2023.",
+          "source_ids": [
+            "sport-jena-asian-result"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sport-jena-kiit",
+        "sport-jena-wa-guide",
+        "sport-jena-asian-result"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "sport_category": "men",
+      "para_sport": false,
+      "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/srabani-nanda",
+      "name": "Srabani Nanda",
+      "fields": [
+        "sport",
+        "athletics"
+      ],
+      "odisha_connection": {
+        "description": "World Athletics lists her in an Odisha women’s relay team. This establishes sporting affiliation, not birthplace.",
+        "source_ids": [
+          "sport-srabani-odisha-team"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_competition",
+          "basis": "The official indexed profile lists a 200 m best of 23.07 seconds on 26 June 2016. The Rio 2016 result table records 23.58 seconds and sixth in heat 5 on 15 August, with no progression marker.",
+          "source_ids": [
+            "sport-srabani-wa",
+            "sport-srabani-rio"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sport-srabani-odisha-team",
+        "sport-srabani-wa",
+        "sport-srabani-rio"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "sport_category": "women",
+      "para_sport": false,
+      "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/pramod-bhagat",
+      "name": "Pramod Bhagat",
+      "fields": [
+        "sport",
+        "badminton"
+      ],
+      "odisha_connection": {
+        "description": "The CAS award identifies Pramod Bhagat, Odisha, India, on its cover. It establishes that association, not birthplace.",
+        "source_ids": [
+          "sport-pramod-cas"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_competition",
+          "basis": "The IPC result table records first place in the Tokyo 2020 men’s singles SL3 gold-medal match on 4 September 2021. The event class and actual competition year stay visible.",
+          "source_ids": [
+            "sport-pramod-ipc"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sport-pramod-ipc",
+        "sport-pramod-cas"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "sport_category": "men",
+      "para_sport": true,
+      "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/padmini-rout",
+      "name": "Padmini Rout",
+      "fields": [
+        "sport",
+        "chess"
+      ],
+      "odisha_connection": {
+        "description": "AICF’s 22 November 2015 report explicitly identifies Rout with Odisha.",
+        "source_ids": [
+          "sport-padmini-odisha"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_competition",
+          "basis": "FIDE records her winning the women’s division in Makati in December 2018 with seven points, taking first place on tie-break. This is a continental chess championship title.",
+          "source_ids": [
+            "sport-padmini-asian",
+            "sport-padmini-world"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sport-padmini-odisha",
+        "sport-padmini-asian",
+        "sport-padmini-world"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "sport_category": "women",
+      "para_sport": false,
+      "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/debashis-das",
+      "name": "Debashis Das",
+      "fields": [
+        "sport",
+        "chess"
+      ],
+      "odisha_connection": {
+        "description": "AICF’s 2018 Commonwealth Chess final ranking lists his affiliation as Odisha.",
+        "source_ids": [
+          "sport-debashis-commonwealth"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_competition",
+          "basis": "The federation’s final table places Grandmaster Debashis Das third with seven points. This final standing is distinct from his joint lead before the last round.",
+          "source_ids": [
+            "sport-debashis-commonwealth"
+          ]
+        }
+      ],
+      "source_ids": [
+        "sport-debashis-commonwealth"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "sport_category": "men",
+      "para_sport": false,
+      "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/swati-nayak",
+      "name": "Swati Nayak",
+      "fields": [
+        "agricultural_science",
+        "seed_systems"
+      ],
+      "odisha_connection": {
+        "description": "The award issuer documents her team’s work introducing drought-tolerant rice in Odisha. Birthplace and mother tongue are not established in this capture.",
+        "source_ids": [
+          "science-nayak-borlaug"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_award",
+          "basis": "Recipient of the 2023 Norman E. Borlaug Award for Field Research and Application.",
+          "source_ids": [
+            "science-nayak-borlaug"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-nayak-borlaug",
+        "science-odisha-seed-training"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/odisha-rice-seed-deployment"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sanghamitra-pati",
+      "name": "Sanghamitra Pati",
+      "fields": [
+        "public_health",
+        "epidemiology"
+      ],
+      "odisha_connection": {
+        "description": "Institutional research and leadership in Bhubaneswar; the 2015 paper lists IIPH Bhubaneswar affiliation. This does not establish birthplace or mother tongue.",
+        "source_ids": [
+          "science-pati-rmrc"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "institutional_award_biography",
+          "basis": "Her institutional profile lists the 2018 Samanta Chandra Sekhar Award in Life Sciences; direct award-register confirmation remains open.",
+          "source_ids": [
+            "science-pati-rmrc"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-pati-rmrc",
+        "science-pati-icmr-leadership",
+        "science-pati-multimorbidity-2015"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/odisha-multimorbidity-2015"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/satananda",
+      "name": "Śatānanda (Satananda)",
+      "fields": [
+        "astronomy"
+      ],
+      "odisha_connection": {
+        "description": "Panda’s historical study associates him with Puri (Purusottama), Odisha.",
+        "source_ids": [
+          "science-satananda-preprint"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_contribution_and_institutional_recognition",
+          "basis": "A medieval astronomical handbook covering calendar and celestial calculations. Modern awards do not apply. Exact birth date and court affiliation remain unresolved.",
+          "source_ids": [
+            "science-satananda-preprint",
+            "science-satananda-jahh"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/bhasvati"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "period": "11th century; Bhāsvatī dated 1099 CE"
+    },
+    {
+      "id": "people/prana-krushna-parija",
+      "name": "Prana Krushna Parija",
+      "fields": [
+        "botany"
+      ],
+      "odisha_connection": {
+        "description": "NISER-hosted memorial biography identifies Balikuda, Jagatsinghpur, Odisha.",
+        "source_ids": [
+          "science-parija-niser"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_contribution_and_institutional_recognition",
+          "basis": "The memorial account records university leadership and the 1955 Padma Bhushan. The academy catalogue credits his plant-respiration papers; the award register remains a separate check.",
+          "source_ids": [
+            "science-parija-niser",
+            "science-parija-ias-papers"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-parija-niser",
+        "science-parija-ias-papers"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/parija-apple-respiration-1928"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "period": "1891–1978"
+    },
+    {
+      "id": "people/ajit-kumar-mohanty-physicist",
+      "name": "Ajit Kumar Mohanty — nuclear physicist",
+      "fields": [
+        "nuclear_physics"
+      ],
+      "odisha_connection": {
+        "description": "DAE records Odisha birth and physics education in Baripada and Cuttack.",
+        "source_ids": [
+          "science-ajit-dae"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_contribution_and_institutional_recognition",
+          "basis": "DAE records the 1991 INSA Young Scientist Award and work involving PHENIX and CMS; collaborative experiments are not individual discoveries.",
+          "source_ids": [
+            "science-ajit-dae",
+            "science-ajit-antineutrino"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-ajit-dae",
+        "science-ajit-antineutrino"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/antineutrino-shoulder-2017"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "period": "born 1959; documented work in the 21st century"
+    },
+    {
+      "id": "people/tribikram-pati",
+      "name": "Tribikram Pati",
+      "fields": [
+        "mathematics",
+        "institution building"
+      ],
+      "odisha_connection": {
+        "description": "NISER faculty memorial records leadership of the Odisha Mathematical Society and Odisha Bigyana Academy, and founding chairmanship of IMA, Bhubaneswar. This establishes institutional ties without inferring birthplace.",
+        "source_ids": [
+          "science-parija-niser"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented research and institutional or literary recognition",
+          "basis": "Peer-reviewed mathematics paper jointly credited with Z. U. Ahmad; memorial recognition at NISER.",
+          "source_ids": [
+            "science-parija-niser",
+            "science-pati-summability-1960",
+            "science-pati-indcat"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-parija-niser",
+        "science-pati-summability-1960",
+        "science-pati-indcat"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/pati-summability-1960"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/gokulananda-mohapatra",
+      "name": "Gokulananda Mohapatra",
+      "fields": [
+        "science communication",
+        "chemistry education",
+        "Odia literature"
+      ],
+      "odisha_connection": {
+        "description": "OVA and the Vigyan Prasar memorial identify Kuansa near Bhadrak and work popularising science in Odia.",
+        "source_ids": [
+          "science-gokulananda-ova",
+          "science-gokulananda-dream-2013"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented research and institutional or literary recognition",
+          "basis": "State reference annual lists a science-literature award-winning work; institutional accounts document science writing and educational reference works.",
+          "source_ids": [
+            "science-gokulananda-ova",
+            "science-gokulananda-dream-2013",
+            "science-gokulananda-award-register",
+            "science-unesco-kalinga-laureates"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-gokulananda-ova",
+        "science-gokulananda-dream-2013",
+        "science-gokulananda-award-register",
+        "science-unesco-kalinga-laureates"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/e-jugara-shrestha-abiskar",
+        "works/baigyanika-gyanakosha"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/bibhu-mohapatra",
+      "name": "Bibhu Mohapatra",
+      "fields": [
+        "fashion design",
+        "womenswear"
+      ],
+      "odisha_connection": {
+        "description": "Born and raised in Rourkela, Odisha, as described in his CFDA interview.",
+        "source_ids": [
+          "creators-bibhu-roots-cfda"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented professional recognition and circulation",
+          "basis": "CFDA collection coverage and a dated June2026 CFDA event feature establish professional visibility in the United States.",
+          "source_ids": [
+            "creators-bibhu-roots-cfda",
+            "creators-bibhu-cfda-2026",
+            "creators-bibhu-fall-2021"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-bibhu-roots-cfda",
+        "creators-bibhu-cfda-2026",
+        "creators-bibhu-fall-2021"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/bibhu-fall-2021"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/jatin-das",
+      "name": "Jatin Das",
+      "fields": [
+        "painting",
+        "sculpture",
+        "murals"
+      ],
+      "odisha_connection": {
+        "description": "Official artist biography records birth in Mayurbhanj, Odisha, in December1941.",
+        "source_ids": [
+          "creators-jatin-official"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented professional recognition and circulation",
+          "basis": "Ministry of Culture annual report records NGMA Delhi retrospective8November2023–7January2024; indexed section only.",
+          "source_ids": [
+            "creators-jatin-official",
+            "creators-jatin-ngma-2023"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-jatin-official",
+        "creators-jatin-ngma-2023"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/journey-of-india-jatin-das"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/jagannath-panda",
+      "name": "Jagannath Panda",
+      "fields": [
+        "mixed-media art",
+        "painting",
+        "sculpture"
+      ],
+      "odisha_connection": {
+        "description": "Aicon Contemporary biography identifies birth in Bhubaneswar in1970 and B.K.College of Arts & Crafts training in1991.",
+        "source_ids": [
+          "creators-jagannath-aicon"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented professional recognition and circulation",
+          "basis": "Aicon records its2020solo exhibition; Milaaya gallery lists a named2025artwork. These establish professional circulation, not measured audience size.",
+          "source_ids": [
+            "creators-jagannath-aicon",
+            "creators-jagannath-milaaya"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-jagannath-aicon",
+        "creators-jagannath-milaaya"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/arch-of-metropolis-ii"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/subroto-bagchi",
+      "name": "Subroto Bagchi",
+      "fields": [
+        "nonfiction",
+        "business writing",
+        "public service",
+        "entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "Penguin documents rural/small-town Odisha upbringing, Utkal University education and earlier Odisha government service.",
+        "source_ids": [
+          "creators-bagchi-go-kiss"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented professional recognition and circulation",
+          "basis": "Penguin publishes Go Kiss the World and the July2025 book The Day the Chariot Moved, with identifiable editions.",
+          "source_ids": [
+            "creators-bagchi-go-kiss",
+            "creators-bagchi-chariot",
+            "creators-bagchi-advance-2025"
+          ]
+        },
+        {
+          "scope": "enterprise role",
+          "basis": "Publisher credits Mindtree cofounding.",
+          "source_ids": [
+            "creators-bagchi-go-kiss"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-bagchi-go-kiss",
+        "creators-bagchi-chariot",
+        "creators-bagchi-advance-2025"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/go-kiss-the-world",
+        "works/day-the-chariot-moved"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/nandita-das",
+      "name": "Nandita Das",
+      "fields": [
+        "film direction",
+        "screenwriting",
+        "acting"
+      ],
+      "odisha_connection": {
+        "description": "Her own2013essay records Odia paternal heritage through Jatin Das and childhood visits to Baripada; she was born in Bombay and raised in Delhi.",
+        "source_ids": [
+          "creators-nandita-roots"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented literary, screen or performing contribution",
+          "basis": "Manto selected for Cannes Un Certain Regard2018; Zwigato carries a Bhubaneswar setting and2023theatrical release.",
+          "source_ids": [
+            "creators-nandita-roots",
+            "creators-nandita-profile",
+            "creators-zwigato-official",
+            "creators-manto-cannes"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-nandita-roots",
+        "creators-nandita-profile",
+        "creators-zwigato-official",
+        "creators-manto-cannes"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/manto-film",
+        "works/zwigato-film"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/susmita-bagchi",
+      "name": "Susmita Bagchi",
+      "fields": [
+        "Odia fiction",
+        "English fiction"
+      ],
+      "odisha_connection": {
+        "description": "Penguin and Kalinga Literary Festival identify her sustained writing in Odia; KLF documents an Odisha literary award and public-service connection. Birthplace not established by these captures.",
+        "source_ids": [
+          "creators-susmita-penguin",
+          "creators-susmita-klf"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented literary, screen or performing contribution",
+          "basis": "Named English publisher edition of an Odia novel, festival speaker profile and state literary award attribution.",
+          "source_ids": [
+            "creators-susmita-penguin",
+            "creators-susmita-klf"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-susmita-penguin",
+        "creators-susmita-klf"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/children-of-a-better-god"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sona-mohapatra",
+      "name": "Sona Mohapatra",
+      "fields": [
+        "singing",
+        "music production"
+      ],
+      "odisha_connection": {
+        "description": "Self-identifies Odisha as her home state in a2012interview; birthplace not inferred.",
+        "source_ids": [
+          "creators-sona-home"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented literary, screen or performing contribution",
+          "basis": "T-Series credits her as singer and producer of the Satyamev Jayate recording Rupaiya.",
+          "source_ids": [
+            "creators-sona-home",
+            "creators-rupaiya-label"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-sona-home",
+        "creators-rupaiya-label"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/rupaiya-satyamev-jayate"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sujata-mohapatra",
+      "name": "Sujata Mohapatra",
+      "fields": [
+        "Odissi dance",
+        "dance teaching"
+      ],
+      "odisha_connection": {
+        "description": "Official artist biography identifies Balasore origin; retrieved as indexed text because the direct page failed.",
+        "source_ids": [
+          "creators-sujata-bio"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented literary, screen or performing contribution",
+          "basis": "PIB names her for the2017Sangeet Natak Akademi Odissi award and reports a completed JIPMER recital inNovember2025. Darbar2018brochure supplies international programme evidence.",
+          "source_ids": [
+            "creators-sujata-bio",
+            "creators-sujata-award",
+            "creators-sujata-jipmer",
+            "creators-sujata-darbar"
+          ]
+        }
+      ],
+      "source_ids": [
+        "creators-sujata-bio",
+        "creators-sujata-award",
+        "creators-sujata-jipmer",
+        "creators-sujata-darbar"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/sujata-jipmer-recital-2025"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/ritesh-agarwal",
+      "name": "Ritesh Agarwal",
+      "fields": [
+        "hospitality entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "Reported first-person account of growing up in Rayagada, Odisha; upbringing connection, not an inferred ethnic identity.",
+        "source_ids": [
+          "business-riteshlife-2016"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "OYO founder and speaker at the 2016 Odisha Investor Meet.",
+          "source_ids": [
+            "business-riteshlife-2016"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-riteshlife-2016"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/bansidhar-panda",
+      "name": "Bansidhar Panda",
+      "fields": [
+        "industrial entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "IMFA records his return to Odisha and the enterprise’s beginnings at Therubali.",
+        "source_ids": [
+          "business-imfa-history"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "Industrial founding role in IMFA’s own history.",
+          "source_ids": [
+            "business-imfa-history"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-imfa-history"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/subhrakant-panda",
+      "name": "Subhrakant Panda",
+      "fields": [
+        "industrial leadership"
+      ],
+      "odisha_connection": {
+        "description": "Leadership of IMFA, an enterprise with documented Odisha industrial roots; this record does not establish birthplace or ethnicity.",
+        "source_ids": [
+          "business-imfa-history"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "IMFA managing director in checked company listing; FICCI president in an issuer statement dated 1 February 2023.",
+          "source_ids": [
+            "business-imfa-history",
+            "business-subhrakant-ficci-2023"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-imfa-history",
+        "business-subhrakant-ficci-2023"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/rashmi-sahoo",
+      "name": "Rashmi Sahoo",
+      "fields": [
+        "food processing",
+        "entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "OASME lists Bisweswar Foods in Cuttack, Odisha and names Rashmi Sahoo. Business connection documented; birthplace not established.",
+        "source_ids": [
+          "business-bisweswar-oasme"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented enterprise role or professional recognition",
+          "basis": "Named recipient in the IWEC Foundation’s 2022 award register.",
+          "source_ids": [
+            "business-rashmi-iwec",
+            "business-bisweswar-oasme"
+          ]
+        }
+      ],
+      "source_ids": [
+        "business-rashmi-iwec",
+        "business-bisweswar-oasme"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/girish-chandra-murmu",
+      "name": "Girish Chandra Murmu",
+      "fields": [
+        "civil service",
+        "public audit"
+      ],
+      "odisha_connection": {
+        "description": "Born in Mayurbhanj, Odisha, according to the CAG biography.",
+        "source_ids": [
+          "public-murmu-cag-bio"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "CAG’s central register records national constitutional office during 2020–2024.",
+          "source_ids": [
+            "public-murmu-cag-bio",
+            "public-cag-former"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-murmu-cag-bio",
+        "public-cag-former"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/pramod-kumar-mishra",
+      "name": "Pramod Kumar Mishra (P. K. Mishra)",
+      "fields": [
+        "public administration",
+        "disaster risk reduction"
+      ],
+      "odisha_connection": {
+        "description": "Official appointment biography records G.M. College, Sambalpur University education in 1970; education connection rather than an unverified birthplace claim.",
+        "source_ids": [
+          "public-pk-mishra-appointment"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Dated national appointment and issuer-confirmed 2019 UN Sasakawa recognition.",
+          "source_ids": [
+            "public-pk-mishra-appointment",
+            "public-pk-mishra-sasakawa"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-pk-mishra-appointment",
+        "public-pk-mishra-sasakawa"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/droupadi-murmu",
+      "name": "Droupadi Murmu",
+      "fields": [
+        "legislative service",
+        "constitutional office"
+      ],
+      "odisha_connection": {
+        "description": "President’s official profile records birth in Uparbeda, Mayurbhanj, Odisha and representation of Rairangpur.",
+        "source_ids": [
+          "public-droupadi-profile"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Sworn in as India’s fifteenth President on 25 July 2022; earlier Rairangpur MLA and Jharkhand governor.",
+          "source_ids": [
+            "public-droupadi-profile"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-droupadi-profile"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/biswanath-das",
+      "name": "Biswanath Das — Odisha statesman",
+      "fields": [
+        "constitution making",
+        "legislative service"
+      ],
+      "odisha_connection": {
+        "description": "Ganjam public life and Odisha provincial leadership in state biography; CLPR records Constituent Assembly representation from Orissa.",
+        "source_ids": [
+          "public-biswanath-odisha",
+          "public-biswanath-clpr"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Documented Constituent Assembly intervention on 20 August 1949.",
+          "source_ids": [
+            "public-biswanath-odisha",
+            "public-biswanath-clpr",
+            "public-cad-1949-08-20"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-biswanath-odisha",
+        "public-biswanath-clpr",
+        "public-cad-1949-08-20"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/harekrushna-mahtab",
+      "name": "Harekrushna Mahtab",
+      "fields": [
+        "legislative service",
+        "Union government",
+        "Odia literature"
+      ],
+      "odisha_connection": {
+        "description": "Ministry of Culture biography places his origin in Agarpara, Odisha and documents state public life.",
+        "source_ids": [
+          "public-mahtab-commemoration"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Official commemoration documents Union Commerce and Industry service, a 1962 Lok Sabha election and a 2024 national commemorative event.",
+          "source_ids": [
+            "public-mahtab-commemoration"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-mahtab-commemoration"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/gaon-majlis-english"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/kharavela",
+      "name": "Kharavela",
+      "fields": [
+        "historical rulership",
+        "patronage"
+      ],
+      "odisha_connection": {
+        "description": "The Hathigumpha royal record and Udayagiri–Khandagiri Jain heritage connect him to the Bhubaneswar area.",
+        "source_ids": [
+          "rulers-kharavela-asi",
+          "rulers-kharavela-caves",
+          "rulers-art-architecture"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented historical contribution and surviving heritage",
+          "basis": "Royal account of military and welfare activity through the thirteenth regnal year; surviving inscription and cave heritage.",
+          "source_ids": [
+            "rulers-kharavela-asi",
+            "rulers-kharavela-caves",
+            "rulers-art-architecture"
+          ]
+        }
+      ],
+      "source_ids": [
+        "rulers-kharavela-asi",
+        "rulers-kharavela-caves",
+        "rulers-art-architecture"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/anantavarman-chodaganga",
+      "name": "Anantavarman Chodaganga Deva",
+      "fields": [
+        "historical rulership",
+        "patronage"
+      ],
+      "odisha_connection": {
+        "description": "Government Puri overview associates him with the present Jagannath Temple in Odisha.",
+        "source_ids": [
+          "rulers-puri-history"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented historical contribution and surviving heritage",
+          "basis": "Institutional attribution of a major surviving religious and architectural legacy at Puri.",
+          "source_ids": [
+            "rulers-puri-history"
+          ]
+        }
+      ],
+      "source_ids": [
+        "rulers-puri-history"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/anangabhima-deva-iii",
+      "name": "Anangabhima Deva III",
+      "fields": [
+        "historical rulership",
+        "historical governance"
+      ],
+      "odisha_connection": {
+        "description": "Historical synthesis relates his Nagari plates and royal charters to Varanasi-Kataka/Cuttack.",
+        "source_ids": [
+          "rulers-cuttack-charters"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented historical contribution and surviving heritage",
+          "basis": "Evidence route into Cuttack’s role as an Imperial Ganga seat of government.",
+          "source_ids": [
+            "rulers-cuttack-charters"
+          ]
+        }
+      ],
+      "source_ids": [
+        "rulers-cuttack-charters"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/narasimha-deva-i",
+      "name": "Narasimha Deva I",
+      "fields": [
+        "historical rulership",
+        "patronage"
+      ],
+      "odisha_connection": {
+        "description": "UNESCO places the Konark Sun Temple in his reign in thirteenth-century Orissa.",
+        "source_ids": [
+          "konark"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented historical contribution and surviving heritage",
+          "basis": "Royal-period association with the UNESCO-listed Konark Sun Temple.",
+          "source_ids": [
+            "konark"
+          ]
+        }
+      ],
+      "source_ids": [
+        "konark"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/kapilendra-deva",
+      "name": "Kapilendra Deva (Kapilesvara)",
+      "fields": [
+        "historical rulership",
+        "patronage"
+      ],
+      "odisha_connection": {
+        "description": "Epigraphic edition identifies Gajapati Kapilesvara of Orissa; state historical article uses Kapilendra/Kapilesvara for the dynasty’s founding ruler.",
+        "source_ids": [
+          "rulers-kapilesvara-srisailam",
+          "rulers-gajapati-name-context"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented historical contribution and surviving heritage",
+          "basis": "An inscriptional connection from Odisha’s Gajapati kingship to Srisailam in southern India.",
+          "source_ids": [
+            "rulers-kapilesvara-srisailam",
+            "rulers-gajapati-name-context"
+          ]
+        }
+      ],
+      "source_ids": [
+        "rulers-kapilesvara-srisailam",
+        "rulers-gajapati-name-context"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/lalit-mohan-patnaik",
+      "name": "Lalit Mohan Patnaik",
+      "fields": [
+        "computer science",
+        "computer engineering"
+      ],
+      "odisha_connection": {
+        "description": "Self-reported 1969 Sambalpur University engineering degree in academy-hosted CV; IIT Bhubaneswar directly lists AHRC adviser/research collaborator role. Birthplace and ethnic identity not inferred.",
+        "source_ids": [
+          "science-lmp-cv",
+          "science-lmp-iitbbs"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international academy and computing recognition",
+          "basis": "TWAS election 1998; IEEE Computer Society issuer indexed record of 1999 Technical Achievement Award.",
+          "source_ids": [
+            "science-lmp-twas",
+            "science-lmp-ieee-award"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/adaptive-genetic-algorithms-1994"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sanghamitra-mohanty",
+      "name": "Sanghamitra Mohanty",
+      "fields": [
+        "computer science",
+        "speech processing"
+      ],
+      "odisha_connection": {
+        "description": "Publisher chapter affiliation: Utkal University, Bhubaneswar; editor affiliation: North Orissa University, Baripada. Historical publication context.",
+        "source_ids": [
+          "science-sm-proceedings",
+          "science-sm-speech"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented research and international scholarly publishing",
+          "basis": "Coauthored chapter and coedited proceedings; no award or sole-invention inference.",
+          "source_ids": [
+            "science-sm-proceedings",
+            "science-sm-speech"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/speech-sound-music-2012",
+        "works/odia-speech-wiener-filter-2012"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/susmita-mohanty",
+      "name": "Susmita Mohanty",
+      "fields": [
+        "space design",
+        "space entrepreneurship",
+        "space policy"
+      ],
+      "odisha_connection": {
+        "description": "Historical Mo School chairperson service in Odisha recorded in personal biography and derivative indexed government profile; not an independently verified birthplace.",
+        "source_ids": [
+          "science-susmita-bio",
+          "science-susmita-isti",
+          "science-susmita-newspace"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented space-policy authorship and public service",
+          "basis": "Publisher-credited policy article; biographical Odisha service connection, with source-family limits.",
+          "source_ids": [
+            "science-susmita-bio",
+            "science-susmita-isti",
+            "science-susmita-newspace"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-susmita-bio",
+        "science-susmita-isti",
+        "science-susmita-newspace"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/newspace-india-inspace-2022"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -492,14 +2087,37 @@
           "Satya Mohanty",
           "Jatindra N. Nayak",
           "Paul St.-Pierre"
+        ],
+        "source_ids": [
+          "creators-six-acres"
         ]
       },
       "source_ids": [
-        "creators-six-acres"
+        "creators-six-acres",
+        "literature-six-acres-eaa"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": "Chha Mana Atha Guntha",
+        "publication_year": 1902,
+        "date_status": "attributed_scholarly_chronology_original_imprint_not_inspected",
+        "source_ids": [
+          "literature-six-acres-eaa"
+        ]
+      },
+      "credit_variants": [
+        {
+          "source_id": "creators-six-acres",
+          "name": "Jatindra N. Nayak"
+        },
+        {
+          "source_id": "literature-six-acres-eaa",
+          "name": "Jatindra K. Nayak"
+        }
+      ]
     },
     {
       "id": "works/yajnaseni",
@@ -527,11 +2145,38 @@
         "translator": "Pradip Bhattacharya"
       },
       "source_ids": [
-        "creators-yajnaseni"
+        "creators-yajnaseni",
+        "literature-ray-loc",
+        "literature-yajnaseni-beb"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": "Yajnaseni",
+        "publication_year": null,
+        "date_status": "hold_conflict_1984_1985",
+        "source_ids": [
+          "literature-ray-loc",
+          "literature-yajnaseni-beb"
+        ]
+      },
+      "additional_editions": [
+        {
+          "language": "Odia",
+          "edition_statement": "1. samskarana",
+          "publisher": "Nalanda",
+          "place_as_listed": "Kataka",
+          "year": 1984,
+          "lccn": "87901017",
+          "source_ids": [
+            "literature-ray-loc"
+          ],
+          "evidence_status": "reading_list_entry_lccn_record_fetch_failed",
+          "is_uncontested_original_publication_year": false
+        }
+      ]
     },
     {
       "id": "works/paraja",
@@ -547,23 +2192,53 @@
         }
       ],
       "english_access": {
-        "status": "language_and_translator_pending",
+        "status": "english_translation_documented_1987_1997_edition_link_pending",
         "source_ids": [
-          "creators-paraja"
+          "literature-paraja-oxford-reference"
         ]
       },
       "edition": {
         "publisher": "Oxford University Press",
         "date": "1997-06-01",
         "isbn": "9780195623918",
-        "translator": null
+        "translator": null,
+        "source_ids": [
+          "creators-paraja"
+        ]
       },
       "source_ids": [
-        "creators-paraja"
+        "creators-paraja",
+        "literature-gopinath-books",
+        "literature-paraja-oxford-reference"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": "Paraja",
+        "publication_year": 1945,
+        "date_status": "memorial_bibliography_original_imprint_not_inspected",
+        "source_ids": [
+          "literature-gopinath-books",
+          "literature-paraja-oxford-reference"
+        ]
+      },
+      "additional_editions": [
+        {
+          "publisher": "Oxford University Press",
+          "place": "New Delhi",
+          "year": 1987,
+          "translator": "Bikram K. Das",
+          "language": "English",
+          "isbn": null,
+          "source_ids": [
+            "literature-paraja-oxford-reference"
+          ],
+          "evidence_status": "bibliographic_reference_not_title_page",
+          "relationship_to_1997_listing": "not_verified"
+        }
+      ]
     },
     {
       "id": "works/ruined-temple-other-poems",
@@ -587,15 +2262,33 @@
       "edition": {
         "year": 1996,
         "translator": null,
-        "publisher": null,
-        "isbn": null
+        "publisher": "Harper Collins India",
+        "isbn": null,
+        "place": "New Delhi",
+        "pages": 153,
+        "source_ids": [
+          "creators-sitakant-loc",
+          "literature-ruined-temple-review"
+        ],
+        "metadata_status": "publisher_place_pages_from_indexed_review_full_source_recovery_pending"
       },
       "source_ids": [
-        "creators-sitakant-loc"
+        "creators-sitakant-loc",
+        "literature-ruined-temple-review"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": null,
+        "publication_year": null,
+        "date_status": "selected_poems_original_component_chronology_not_established",
+        "source_ids": [
+          "creators-sitakant-loc",
+          "literature-ruined-temple-review"
+        ]
+      }
     },
     {
       "id": "works/mamata-film-music",
@@ -613,11 +2306,21 @@
       "english_access": null,
       "edition": null,
       "source_ids": [
-        "creators-prafulla-sna"
+        "creators-prafulla-sna",
+        "music-pib-film-history",
+        "music-re-mita-label",
+        "music-dekhi-label",
+        "music-mu-ta-label",
+        "music-mamata-amazon"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "component_work_ids": [
+        "works/re-mita-aa-sangata",
+        "works/dekhi-se-banamalli",
+        "works/mu-ta-manisha-marini"
+      ]
     },
     {
       "id": "works/iffi-2024-sand-tribute",
@@ -779,7 +2482,16 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_title_and_date",
+          "result": "targeted_search_did_not_establish_original_date",
+          "scope": "Publisher PDF text search and targeted author/title queries; library leads do not establish original chronology.",
+          "next_step": "Examine original Odia print edition or journal; existing failed catalogue routes retry after 2026-10-08."
+        }
+      ]
     },
     {
       "id": "works/in-bondage",
@@ -824,7 +2536,8 @@
       },
       "source_ids": [
         "literature-spark-text",
-        "literature-spark-publisher"
+        "literature-spark-publisher",
+        "literature-spark-translators"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": {
@@ -835,7 +2548,18 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_publication_year",
+          "result": "not_found_in_publisher_translator_commentary",
+          "source_ids": [
+            "literature-spark-translators"
+          ],
+          "next_step": "Inspect the original Odia journal or collection imprint."
+        }
+      ]
     },
     {
       "id": "works/pata-dei-story",
@@ -880,7 +2604,8 @@
       },
       "source_ids": [
         "literature-spark-text",
-        "literature-spark-publisher"
+        "literature-spark-publisher",
+        "literature-spark-translators"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": {
@@ -891,7 +2616,18 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_publication_year",
+          "result": "not_found_in_publisher_translator_commentary",
+          "source_ids": [
+            "literature-spark-translators"
+          ],
+          "next_step": "Inspect the original Odia journal or collection imprint."
+        }
+      ]
     },
     {
       "id": "works/the-ring",
@@ -947,7 +2683,16 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_title_and_date",
+          "result": "targeted_search_did_not_establish_original_date",
+          "scope": "Publisher PDF text search and targeted author/title queries; library leads do not establish original chronology.",
+          "next_step": "Examine original Odia print edition or journal; existing failed catalogue routes retry after 2026-10-08."
+        }
+      ]
     },
     {
       "id": "works/spark-of-light",
@@ -1009,6 +2754,1615 @@
       ],
       "author_entries_in_publisher_contents": 26,
       "author_count_scope": "Anthology contents only; not statewide or unique works count"
+    },
+    {
+      "id": "works/meerabai-direction-1945",
+      "title": "Meerabai — direction, 1945",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "director",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1945,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Srjan attributes direction of the Puri production to Kelucharan. This episode is distinct from authorship of the play."
+    },
+    {
+      "id": "works/devi-mahadev-performance-1946",
+      "title": "Devi — Mahadev performance, 1946",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1946,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Srjan records Kelucharan’s Mahadev role with Annapurna B in Cuttack. The record does not credit him as playwright or composer."
+    },
+    {
+      "id": "works/dashavatara-sadhava-jhia-1947",
+      "title": "Dashavatara in Sadhava Jhia — duet, 1947",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        },
+        {
+          "person_id": "people/laxmipriya-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Pankaj Charan Das",
+          "role": "dance_sequence_director",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1947,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The chronology credits Kelucharan and Laxmipriya as dancers and Pankaj Charan Das as director of the sequence. It is not a claim that any of them authored the underlying Dashavatara text."
+    },
+    {
+      "id": "works/aloka-dance-sequence-1948",
+      "title": "Aloka — dance sequence, 1948",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "choreographer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        },
+        {
+          "person_id": "people/laxmipriya-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1948,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The chronology separates Kelucharan’s choreography from Laxmipriya’s performance. It describes a mixed dance style; the sequence is not labelled a pure Odissi premiere here."
+    },
+    {
+      "id": "works/re-mita-aa-sangata",
+      "title": "Re Mita Aa Sangata — label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "music_director",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Pranab Kishore Patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        },
+        {
+          "name": "Sikandar Alam",
+          "role": "artist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        },
+        {
+          "name": "Others (unnamed in label description)",
+          "role": "artist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        },
+        {
+          "name": "Sibabrata Das",
+          "role": "lyricist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-re-mita-label",
+        "music-mamata-amazon"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Mamata",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2024-02-29",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-re-mita-label"
+        ]
+      },
+      "duration_seconds_as_listed": 215,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
+        "provider": "Saregama Odia / Saregama India Ltd",
+        "status": "muted_player_progression_observed_in_current_session",
+        "checked_on": "2026-10-01",
+        "playback_tested": true,
+        "test_scope": "Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
+        "player_positions_observed": [
+          "0:00 / 3:35",
+          "0:03 / 3:35",
+          "0:24 / 3:35 (paused)"
+        ],
+        "audio_listened": false,
+        "entire_recording_reviewed": false,
+        "territory_availability": null,
+        "signed_out_access_tested": false,
+        "reuse_permission": null,
+        "prior_checks": [
+          {
+            "url": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
+            "provider": "Saregama Odia / Saregama India Ltd",
+            "status": "official_label_or_distribution_route_identified_playback_unverified",
+            "checked_on": "2026-10-01",
+            "playback_tested": false,
+            "territory_availability": null,
+            "reuse_permission": null
+          }
+        ]
+      },
+      "scope_note": "A duet credit also includes unnamed Others; the credit list is incomplete.",
+      "is_part_of": "works/mamata-film-music",
+      "is_part_of_source_ids": [
+        "music-mamata-amazon"
+      ]
+    },
+    {
+      "id": "works/dekhi-se-banamalli",
+      "title": "Dekhi Se Banamalli — label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "music_director",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Chittaranjan Jena",
+          "role": "artist",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        },
+        {
+          "name": "P. Susheela",
+          "role": "artist",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        },
+        {
+          "name": "Sibabrata Das",
+          "role": "lyricist",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-dekhi-label",
+        "music-mamata-amazon"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Mamata",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2024-03-07",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-dekhi-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=dzRRMvhO5w8",
+        "provider": "Saregama Odia / Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The two vocal artists and lyricist are distinct from the music director.",
+      "is_part_of": "works/mamata-film-music",
+      "is_part_of_source_ids": [
+        "music-mamata-amazon"
+      ]
+    },
+    {
+      "id": "works/mu-ta-manisha-marini",
+      "title": "Mu Ta Manisha Marini — label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "music_director",
+          "source_ids": [
+            "music-mu-ta-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Sikandar Alam",
+          "role": "singer",
+          "source_ids": [
+            "music-mu-ta-label"
+          ]
+        },
+        {
+          "name": "Sibabrata Das",
+          "role": "lyricist",
+          "source_ids": [
+            "music-mu-ta-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-mu-ta-label",
+        "music-mamata-amazon"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Mamata",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": null,
+        "scope": "not_established",
+        "source_ids": [
+          "music-mu-ta-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.saregama.com/song/mu-ta-manisha-marini_80979",
+        "provider": "Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Indexed label credits are preserved; the full current page could not be retrieved.",
+      "is_part_of": "works/mamata-film-music",
+      "is_part_of_source_ids": [
+        "music-mamata-amazon"
+      ]
+    },
+    {
+      "id": "works/kali-kapali-prafulla",
+      "title": "Kali Kapali — Prafulla Kar catalogue recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "composer_and_main_artist",
+          "source_ids": [
+            "music-kali-qobuz"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-kali-qobuz"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Sesa Srabana",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "1976-12-31",
+        "scope": "platform_album_date_not_recording_date",
+        "source_ids": [
+          "music-kali-qobuz"
+        ]
+      },
+      "duration_seconds_as_listed": 197,
+      "listening_access": {
+        "url": "https://www.qobuz.com/lu-fr/album/sesa-srabana-original-motion-picture-soundtrack-prafulla-kar/leerea1dwepjb",
+        "provider": "Qobuz distribution catalogue; label Saregama",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Qobuz lists Composer and MainArtist; lyricist is not established here. Its 2017 copyright/phonogram notice is retained separately.",
+      "rights_notice_as_listed": "(C) 2017 Saregama (P) 2017 Saregama"
+    },
+    {
+      "id": "works/guru-nanak-bhajan-sunanda",
+      "title": "Guru Nanak Bhajan — Sunanda Patnaik recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "singer",
+          "source_ids": [
+            "music-guru-nanak-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Traditional",
+          "role": "lyricist_as_catalogued",
+          "source_ids": [
+            "music-guru-nanak-label"
+          ]
+        },
+        {
+          "name": "Traditional",
+          "role": "music_director_as_catalogued",
+          "source_ids": [
+            "music-guru-nanak-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-guru-nanak-label"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Sunanda Patnaik",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": null,
+        "scope": "not_established",
+        "source_ids": [
+          "music-guru-nanak-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.saregama.com/song/guru-nanak-bhajan_53300",
+        "provider": "Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Traditional is the label’s credit, not a named author or a recording reuse licence."
+    },
+    {
+      "id": "works/sakhi-meri-manki-sunanda",
+      "title": "Sakhi Meri Manki — Sunanda Patnaik label upload",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-sakhi-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Traditional",
+          "role": "lyricist_as_catalogued",
+          "source_ids": [
+            "music-sakhi-label"
+          ]
+        },
+        {
+          "name": "Traditional",
+          "role": "music_director_as_catalogued",
+          "source_ids": [
+            "music-sakhi-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-sakhi-label"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": null,
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2025-12-31",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-sakhi-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=qZ6mQuhYLWI",
+        "provider": "Saregama Hindustani Classical / Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The label upload is a specific access route; equivalence to other Ramkali or Sakhi Meri Manki catalogue entries remains unestablished."
+    },
+    {
+      "id": "works/bhaja-govindam-sunanda",
+      "title": "Bhajan — Bhaja Govindam, Sunanda Patnaik recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-bhaja-spotify"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-bhaja-spotify"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Classical Music From Orissa Sunanda Patnaik,Vol. 1",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2006-04-30",
+        "scope": "platform_compilation_date_not_recording_date",
+        "source_ids": [
+          "music-bhaja-spotify"
+        ]
+      },
+      "duration_seconds_as_listed": 315,
+      "listening_access": {
+        "url": "https://open.spotify.com/track/4YKzXJgAW5XbJI0GXzxy9y",
+        "provider": "Spotify distribution catalogue; label Saregama",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Spotify gives an artist credit and compilation date. Composer and lyricist are unverified; full listening is sign-in dependent.",
+      "rights_notice_as_listed": "© 2006 Saregama India Ltd; ℗ 2006 Saregama India Ltd"
+    },
+    {
+      "id": "works/jagannatha-swami-sunanda",
+      "title": "Jagannatha Swami — Sunanda Patnaik label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-jagannatha-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Traditional",
+          "role": "music_director_as_catalogued",
+          "source_ids": [
+            "music-jagannatha-label"
+          ]
+        },
+        {
+          "name": "Traditional",
+          "role": "lyricist_as_catalogued",
+          "source_ids": [
+            "music-jagannatha-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-jagannatha-label"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2026-01-02",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-jagannatha-label"
+        ]
+      },
+      "duration_seconds_as_listed": 314,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=3CHPZwy7b0M",
+        "provider": "Saregama Hindustani Classical / Saregama India Ltd",
+        "status": "muted_player_progression_observed_in_current_session",
+        "checked_on": "2026-10-01",
+        "playback_tested": true,
+        "test_scope": "Direct browser inspection of expanded label description and muted player progression in the current signed-in session; not audible listening, complete-recording review, signed-out access or worldwide availability. No media downloaded or reuse rights granted.",
+        "player_positions_observed": [
+          "0:00 / 5:14",
+          "2:03 / 5:14",
+          "2:48 / 5:14 (paused)"
+        ],
+        "audio_listened": false,
+        "entire_recording_reviewed": false,
+        "territory_availability": null,
+        "signed_out_access_tested": false,
+        "reuse_permission": null
+      },
+      "scope_note": "Distinct label recording identity; Traditional preserves the catalogue credit and does not establish public-domain recording rights."
+    },
+    {
+      "id": "works/odisha-rice-seed-deployment",
+      "title": "Odisha rice seed deployment — documented team contribution",
+      "work_type": "documented_field_research_contribution",
+      "creator_links": [
+        {
+          "person_id": "people/swati-nayak",
+          "role": "team strategy contributor, as credited by award issuer; not plant-breeder attribution",
+          "source_ids": [
+            "science-nayak-borlaug"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Nayak’s research team (members not individually identified in this passage)",
+          "role": "joint strategy development",
+          "source_ids": [
+            "science-nayak-borlaug"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-nayak-borlaug",
+        "science-odisha-seed-training"
+      ],
+      "scope_note": "An editorial contribution record, not a named publication or an individual invention. The 2023 Jharsuguda training is contextual evidence, not proof Nayak personally delivered it.",
+      "english_access": null,
+      "edition": null,
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/odisha-multimorbidity-2015",
+      "title": "Prevalence, Correlates, and Outcomes of Multimorbidity Among Patients Attending Primary Care in Odisha, India",
+      "work_type": "research_article",
+      "creator_links": [
+        {
+          "person_id": "people/sanghamitra-pati",
+          "role": "first-listed coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Subhashisa Swain",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        },
+        {
+          "name": "Mohammad Akhtar Hussain",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        },
+        {
+          "name": "Shridhar Kadam",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        },
+        {
+          "name": "Chris Salisbury",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-pati-multimorbidity-2015"
+      ],
+      "english_access": {
+        "language": "English",
+        "status": "indexed bibliographic record and abstract; full text not inspected",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26371265/",
+        "source_ids": [
+          "science-pati-multimorbidity-2015"
+        ]
+      },
+      "edition": {
+        "journal": "Annals of Family Medicine",
+        "volume": 13,
+        "issue": 5,
+        "pages": "446–450",
+        "published": "2015-09",
+        "doi": "10.1370/afm.1843",
+        "pmid": "26371265"
+      },
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "study_scope": {
+        "design": "cross-sectional",
+        "geography": "adult primary-care patients in Odisha, India",
+        "abstract_sample": 1649,
+        "unit": "patients",
+        "publication_period": "2015-09",
+        "fieldwork_period": null,
+        "measure_scope": "22 self-reported chronic conditions; sample description only, no statewide prevalence adopted",
+        "estimate_status": "reported study sample",
+        "price_basis": "not_applicable",
+        "source_ids": [
+          "science-pati-multimorbidity-2015"
+        ]
+      }
+    },
+    {
+      "id": "works/bhasvati",
+      "title": "Bhāsvatī",
+      "work_type": "historical_astronomical_handbook",
+      "creator_links": [
+        {
+          "person_id": "people/satananda",
+          "role": "author",
+          "source_ids": [
+            "science-satananda-preprint",
+            "science-satananda-jahh"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "composition_year": 1099,
+        "date_status": "reported by modern historical study"
+      },
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh",
+        "science-ignca-jyotish-2024"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "manuscript_evidence_pointer": "references/data/science-heritage.json#manuscript_evidence"
+    },
+    {
+      "id": "works/parija-apple-respiration-1928",
+      "title": "Analytic studies in plant respiration. I. The respiration of a population of senescent ripening apples",
+      "work_type": "research_article",
+      "creator_links": [
+        {
+          "person_id": "people/prana-krushna-parija",
+          "role": "coauthor",
+          "source_ids": [
+            "science-parija-ias-papers"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Frederick Frost Blackman",
+          "role": "coauthor",
+          "source_ids": [
+            "science-parija-ias-papers"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "year": 1928,
+        "journal": "Proceedings of the Royal Society of London, Series B",
+        "volume": 103,
+        "issue": 726,
+        "pages": "412–445"
+      },
+      "source_ids": [
+        "science-parija-ias-papers"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/antineutrino-shoulder-2017",
+      "title": "Possible origin of shoulder in the reactor antineutrino spectrum",
+      "work_type": "research_preprint",
+      "creator_links": [
+        {
+          "person_id": "people/ajit-kumar-mohanty-physicist",
+          "role": "author",
+          "source_ids": [
+            "science-ajit-antineutrino"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "arxiv": "1711.02801v1",
+        "submitted": "2017-11-08",
+        "pdf_internal_date": "2017-11-09",
+        "journal_publication": null
+      },
+      "source_ids": [
+        "science-ajit-antineutrino"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/pati-summability-1960",
+      "title": "On the absolute summability factors of infinite series I",
+      "work_type": "research_article",
+      "creator_links": [
+        {
+          "person_id": "people/tribikram-pati",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-summability-1960"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Z. U. Ahmad",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-summability-1960"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English original paper PDF retrieved; proof not independently verified",
+        "source_ids": [
+          "science-pati-summability-1960"
+        ]
+      },
+      "edition": {
+        "year": 1960,
+        "journal": "Tohoku Mathematical Journal, Second Series",
+        "volume": 12,
+        "issue": 2,
+        "pages": "222–232",
+        "doi": "10.2748/tmj/1178244437",
+        "received": "1959-10-16",
+        "revised": "1960-01-06",
+        "online_posting": "2010-03-19"
+      },
+      "source_ids": [
+        "science-pati-summability-1960"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/e-jugara-shrestha-abiskar",
+      "title": "E Jugara Shrestha Abiskar",
+      "work_type": "science_literature",
+      "creator_links": [
+        {
+          "person_id": "people/gokulananda-mohapatra",
+          "role": "author",
+          "source_ids": [
+            "science-gokulananda-award-register"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "publication_year": null,
+        "isbn": null,
+        "award_group_as_listed": "1959–1961",
+        "award_register_row": 22
+      },
+      "source_ids": [
+        "science-gokulananda-award-register"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/baigyanika-gyanakosha",
+      "title": "Baigyanika Gyanakosha",
+      "work_type": "science_encyclopaedia",
+      "creator_links": [
+        {
+          "person_id": "people/gokulananda-mohapatra",
+          "role": "author",
+          "source_ids": [
+            "science-gokulananda-ova"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "publication_date_as_reported": "2005-01",
+        "volume_count_as_reported": 2,
+        "date_status": "attributed OVA biography; original imprint not inspected",
+        "publisher": null,
+        "isbn": null
+      },
+      "source_ids": [
+        "science-gokulananda-ova"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/bibhu-fall-2021",
+      "title": "Bibhu Mohapatra Fall 2021",
+      "work_type": "fashion_collection",
+      "creator_links": [
+        {
+          "person_id": "people/bibhu-mohapatra",
+          "role": "designer",
+          "source_ids": [
+            "creators-bibhu-fall-2021"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "season": "Fall2021",
+        "source_publication_date": "2021-02-17"
+      },
+      "source_ids": [
+        "creators-bibhu-fall-2021"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/journey-of-india-jatin-das",
+      "title": "The Journey of India: Mohenjo-Daro to Mahatma Gandhi",
+      "work_type": "painting",
+      "creator_links": [
+        {
+          "person_id": "people/jatin-das",
+          "role": "artist",
+          "source_ids": [
+            "creators-jatin-official"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "inauguration_year_as_reported": 2001,
+        "dimensions_as_reported": "7 × 68 feet",
+        "location_as_reported": "Indian Parliament, New Delhi"
+      },
+      "source_ids": [
+        "creators-jatin-official"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/arch-of-metropolis-ii",
+      "title": "Arch of Metropolis-ii",
+      "work_type": "artwork",
+      "creator_links": [
+        {
+          "person_id": "people/jagannath-panda",
+          "role": "artist",
+          "source_ids": [
+            "creators-jagannath-milaaya"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "year_as_listed": 2025,
+        "medium": null,
+        "dimensions": null
+      },
+      "source_ids": [
+        "creators-jagannath-milaaya"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/go-kiss-the-world",
+      "title": "Go Kiss the World: Life Lessons for the Young Professional",
+      "work_type": "nonfiction_book",
+      "creator_links": [
+        {
+          "person_id": "people/subroto-bagchi",
+          "role": "author",
+          "source_ids": [
+            "creators-bagchi-go-kiss"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": {
+        "status": "English edition listed by publisher",
+        "source_ids": [
+          "creators-bagchi-go-kiss"
+        ]
+      },
+      "edition": {
+        "publication_date": "2017-02",
+        "imprint": "India Portfolio",
+        "format": "paperback",
+        "isbn": "9780143429548",
+        "pages": 280,
+        "date_scope": "captured edition; not asserted as original first publication"
+      },
+      "source_ids": [
+        "creators-bagchi-go-kiss"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/day-the-chariot-moved",
+      "title": "The Day the Chariot Moved: How India Grows at the Grassroots",
+      "work_type": "nonfiction_book",
+      "creator_links": [
+        {
+          "person_id": "people/subroto-bagchi",
+          "role": "author",
+          "source_ids": [
+            "creators-bagchi-chariot",
+            "creators-bagchi-advance-2025"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": {
+        "status": "English edition listed by publisher",
+        "source_ids": [
+          "creators-bagchi-chariot",
+          "creators-bagchi-advance-2025"
+        ]
+      },
+      "edition": {
+        "publication_date": "2025-07",
+        "imprint": "Penguin Business",
+        "format": "hardback",
+        "isbn": "9780143471257",
+        "pages": 408,
+        "date_scope": "released product listing",
+        "advance_catalogue": {
+          "planned_date": "2025-06",
+          "planned_pages": 256,
+          "title_as_listed": "The Day the Chariot Moved Home",
+          "source_id": "creators-bagchi-advance-2025"
+        }
+      },
+      "source_ids": [
+        "creators-bagchi-chariot",
+        "creators-bagchi-advance-2025"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/manto-film",
+      "title": "Manto",
+      "work_type": "feature_film",
+      "creator_links": [
+        {
+          "person_id": "people/nandita-das",
+          "role": "director and screenwriter",
+          "source_ids": [
+            "creators-manto-cannes"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Kartik Vijay",
+          "role": "director of photography",
+          "source_ids": [
+            "creators-manto-cannes"
+          ]
+        },
+        {
+          "name": "Sreekar Prasad",
+          "role": "editor",
+          "source_ids": [
+            "creators-manto-cannes"
+          ]
+        },
+        {
+          "name": "Zakir Hussain",
+          "role": "music",
+          "source_ids": [
+            "creators-manto-cannes"
+          ]
+        },
+        {
+          "name": "Sneha Khanwalkar",
+          "role": "music",
+          "source_ids": [
+            "creators-manto-cannes"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "production_year": 2018,
+        "festival_section": "Cannes Un Certain Regard2018",
+        "duration_minutes": 112,
+        "production_countries": [
+          "India",
+          "France"
+        ]
+      },
+      "source_ids": [
+        "creators-manto-cannes"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/zwigato-film",
+      "title": "Zwigato",
+      "work_type": "feature_film",
+      "creator_links": [
+        {
+          "person_id": "people/nandita-das",
+          "role": "director",
+          "source_ids": [
+            "creators-zwigato-official",
+            "creators-nandita-profile"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Kapil Sharma",
+          "role": "actor, Manas",
+          "source_ids": [
+            "creators-zwigato-official"
+          ]
+        },
+        {
+          "name": "Shahana Goswami",
+          "role": "actor, Pratima",
+          "source_ids": [
+            "creators-zwigato-official"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "festival_year": 2022,
+        "theatrical_release_date": "2023-03-17",
+        "languages_as_listed": [
+          "Hindi",
+          "Odiya"
+        ],
+        "setting": "Bhubaneswar, Odisha"
+      },
+      "source_ids": [
+        "creators-zwigato-official",
+        "creators-nandita-profile"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/children-of-a-better-god",
+      "title": "Children of a Better God",
+      "work_type": "translated_novel",
+      "creator_links": [
+        {
+          "person_id": "people/susmita-bagchi",
+          "role": "original author",
+          "source_ids": [
+            "creators-susmita-penguin",
+            "creators-susmita-klf"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": {
+        "status": "English translation documented by publisher and festival biography",
+        "source_ids": [
+          "creators-susmita-penguin",
+          "creators-susmita-klf"
+        ]
+      },
+      "edition": {
+        "publication_date": "2010-09",
+        "format": "paperback",
+        "imprint": "India Penguin",
+        "isbn": "9780143066422",
+        "pages": 248,
+        "original_title_as_reported": "Debashishu",
+        "translator": null,
+        "translator_status": "Not credited in captured primary publisher page; verify original edition before assigning role."
+      },
+      "source_ids": [
+        "creators-susmita-penguin",
+        "creators-susmita-klf"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/rupaiya-satyamev-jayate",
+      "title": "Rupaiya — Satyamev Jayate recording",
+      "work_type": "song_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sona-mohapatra",
+          "role": "singer and producer",
+          "source_ids": [
+            "creators-rupaiya-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Ram Sampath",
+          "role": "composer and co-mixer",
+          "source_ids": [
+            "creators-rupaiya-label"
+          ]
+        },
+        {
+          "name": "Swanand Kirkire",
+          "role": "lyricist",
+          "source_ids": [
+            "creators-rupaiya-label"
+          ]
+        },
+        {
+          "name": "Yash Divecha",
+          "role": "recordist and co-mixer",
+          "source_ids": [
+            "creators-rupaiya-label"
+          ]
+        },
+        {
+          "name": "Shon Pinto",
+          "role": "additional arrangements",
+          "source_ids": [
+            "creators-rupaiya-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "recording_platform_id": "BKzZNLByngU",
+        "release_date": null,
+        "label": "T-Series",
+        "production_credit": "Sona Mohapatra for OmGrown Music"
+      },
+      "source_ids": [
+        "creators-rupaiya-label"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/sujata-jipmer-recital-2025",
+      "title": "Sujata Mohapatra: JIPMER Odissi recital, 2025",
+      "work_type": "documented_performance",
+      "creator_links": [
+        {
+          "person_id": "people/sujata-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "creators-sujata-jipmer"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "event_date": "2025-11-02",
+        "report_date": "2025-11-03",
+        "venue": "Dr.APJAbdulKalamAuditorium, JIPMER",
+        "repertoire_titles": null,
+        "choreography_credits": null
+      },
+      "source_ids": [
+        "creators-sujata-jipmer"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/gaon-majlis-english",
+      "title": "Gaon Majlis — English translation",
+      "work_type": "translated_essay_collection",
+      "creator_links": [
+        {
+          "person_id": "people/harekrushna-mahtab",
+          "role": "original author",
+          "source_ids": [
+            "public-mahtab-commemoration"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Tarun Kumar Sahu",
+          "role": "English translator",
+          "source_ids": [
+            "public-mahtab-commemoration"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English translation documented in institutional release; current stock unverified",
+        "source_ids": [
+          "public-mahtab-commemoration"
+        ]
+      },
+      "edition": {
+        "event_release_date": "2024-11-21",
+        "first_publication_date": null,
+        "isbn": null,
+        "publisher": null,
+        "pages": null
+      },
+      "source_ids": [
+        "public-mahtab-commemoration"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/adaptive-genetic-algorithms-1994",
+      "title": "Adaptive probabilities of crossover and mutation in genetic algorithms",
+      "work_type": "research_paper",
+      "creator_links": [
+        {
+          "person_id": "people/lalit-mohan-patnaik",
+          "role": "coauthor",
+          "source_ids": [
+            "science-lmp-cv"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "M. Srinivas",
+          "role": "coauthor; listed first",
+          "source_ids": [
+            "science-lmp-cv"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English bibliographic record; original full text not inspected or access-verified",
+        "source_ids": [
+          "science-lmp-cv"
+        ]
+      },
+      "edition": {
+        "publication_date": "1994-04",
+        "journal": "IEEE Transactions on Systems, Man, and Cybernetics",
+        "volume": 24,
+        "issue": 4,
+        "pages": "656–667",
+        "doi_route": "10.1109/21.286385",
+        "metadata_basis": "CV bibliography entry506; DOI resolves but publisher content challenged access"
+      },
+      "source_ids": [
+        "science-lmp-cv"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/speech-sound-music-2012",
+      "title": "Speech, Sound and Music Processing: Embracing Research in India",
+      "work_type": "edited_proceedings",
+      "creator_links": [
+        {
+          "person_id": "people/sanghamitra-mohanty",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Sølvi Ystad",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        },
+        {
+          "name": "Mitsuko Aramaki",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        },
+        {
+          "name": "Richard Kronland-Martinet",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        },
+        {
+          "name": "Kristoffer Jensen",
+          "role": "coeditor",
+          "source_ids": [
+            "science-sm-proceedings"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English publisher contents and metadata; full book not read",
+        "source_ids": [
+          "science-sm-proceedings"
+        ]
+      },
+      "edition": {
+        "print_publication_date": "2012-07-01",
+        "ebook_publication_date": "2012-07-02",
+        "conference_dates": "2011-03-09/2011-03-12",
+        "conference_location": "Bhubaneswar, India",
+        "print_isbn": "978-3-642-31979-2",
+        "ebook_isbn": "978-3-642-31980-8",
+        "series": "Lecture Notes in Computer Science",
+        "volume": 7172,
+        "doi": "10.1007/978-3-642-31980-8"
+      },
+      "source_ids": [
+        "science-sm-proceedings"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/odia-speech-wiener-filter-2012",
+      "title": "Adaptive and Iterative Wiener Filter for Oriya Speech Processing Applications",
+      "work_type": "research_chapter",
+      "creator_links": [
+        {
+          "person_id": "people/sanghamitra-mohanty",
+          "role": "coauthor",
+          "source_ids": [
+            "science-sm-proceedings",
+            "science-sm-speech"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Basanta Kumar Swain",
+          "role": "coauthor",
+          "source_ids": [
+            "science-sm-speech"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English publisher metadata; chapter/article abstract accessible; full work not read",
+        "source_ids": [
+          "science-sm-proceedings",
+          "science-sm-speech"
+        ]
+      },
+      "edition": {
+        "publication_year": 2012,
+        "pages": "207–214",
+        "container_work_id": "works/speech-sound-music-2012",
+        "doi": "10.1007/978-3-642-31980-8_16",
+        "metadata_anomaly": "Chapter navigation says FRSM2023; parent subtitle says conference2011. No2023 publication inferred."
+      },
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/newspace-india-inspace-2022",
+      "title": "NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership",
+      "work_type": "research_paper",
+      "creator_links": [
+        {
+          "person_id": "people/susmita-mohanty",
+          "role": "author",
+          "source_ids": [
+            "science-susmita-newspace"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": {
+        "status": "English publisher metadata; chapter/article abstract accessible; full work not read",
+        "source_ids": [
+          "science-susmita-newspace"
+        ]
+      },
+      "edition": {
+        "online_publication_date": "2022-03-08",
+        "issue_publication_date": "2022-03-01",
+        "journal": "New Space",
+        "volume": 10,
+        "issue": 1,
+        "pages": "3–13",
+        "doi": "10.1089/space.2021.0068"
+      },
+      "source_ids": [
+        "science-susmita-newspace"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
     }
   ],
   "recognition_rules": {
@@ -1017,7 +4371,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T02:37:51-07:00",
+  "updated_at": "2026-10-01T08:41:20.810084-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -1029,6 +4383,205 @@
       ],
       "new_works": 6,
       "scope": "Five stories plus anthology; original years unresolved for four stories; not six independent books."
+    },
+    {
+      "run_id": "2026-10-01-literature-reuse-continuation",
+      "task_id": "RES-026",
+      "status": "in_progress",
+      "new_people": 0,
+      "expanded_people": [
+        "people/fakir-mohan-senapati",
+        "people/gopinath-mohanty",
+        "people/sitakant-mahapatra"
+      ],
+      "new_works": 0,
+      "enhanced_works": [
+        "works/six-acres-and-a-third",
+        "works/paraja",
+        "works/ruined-temple-other-poems"
+      ],
+      "scope": "Eight profiles deepened across two attempts; original chronology and English-edition completeness remain unfinished. No new person/work identities."
+    },
+    {
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "task_ids": [
+        "RES-026",
+        "RES-027"
+      ],
+      "status": "literature_waiting_for_evidence_music_in_progress",
+      "new_people": 4,
+      "new_works": 4,
+      "scope": "Four attributed theatre episodes, not four independently verified recordings or complete works."
+    },
+    {
+      "run_id": "2026-10-01-music-listening-research",
+      "task_ids": [
+        "RES-027"
+      ],
+      "status": "music_access_checkpoint_in_progress",
+      "new_people": 1,
+      "existing_people_enhanced": 1,
+      "new_works": 7,
+      "scope": "Label/distribution records with role and date distinctions; playback not verified. Twelve performing-arts work records including one soundtrack container are not twelve independent recordings."
+    },
+    {
+      "run_id": "2026-10-01-performing-arts-milestone",
+      "task_ids": [
+        "RES-027"
+      ],
+      "status": "bounded_deliverable_completed",
+      "person_ids": [
+        "people/kelucharan-mohapatra",
+        "people/laxmipriya-mohapatra",
+        "people/sanjukta-panigrahi",
+        "people/raghunath-panigrahi",
+        "people/prafulla-kar",
+        "people/sunanda-patnaik"
+      ],
+      "independent_work_ids": [
+        "works/re-mita-aa-sangata",
+        "works/dekhi-se-banamalli",
+        "works/mu-ta-manisha-marini",
+        "works/kali-kapali-prafulla",
+        "works/guru-nanak-bhajan-sunanda",
+        "works/sakhi-meri-manki-sunanda",
+        "works/bhaja-govindam-sunanda",
+        "works/jagannatha-swami-sunanda",
+        "works/meerabai-direction-1945",
+        "works/devi-mahadev-performance-1946",
+        "works/dashavatara-sadhava-jhia-1947",
+        "works/aloka-dance-sequence-1948"
+      ],
+      "soundtrack_container_excluded": "works/mamata-film-music",
+      "new_works": 1,
+      "muted_player_checks": 2,
+      "scope": "Six practitioner records, four credited stage episodes and eight label/distribution recording records; no claim of exhaustive biographies or twelve available videos."
+    },
+    {
+      "run_id": "2026-10-01-sports-achievements",
+      "task_ids": [
+        "RES-028"
+      ],
+      "status": "bounded_deliverable_completed",
+      "new_people": 7,
+      "existing_people_enhanced": 1,
+      "sports": [
+        "hockey",
+        "athletics",
+        "badminton",
+        "chess"
+      ],
+      "scope": "Eight selected athletes including three women and one para athlete; historical results and dated milestones, not a current rankings service."
+    },
+    {
+      "run_id": "2026-10-01-scientists-first-batch",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "in_progress",
+      "new_people": 2,
+      "new_works": 2,
+      "scope": "Two contemporary profiles; one original-paper record and one explicitly editorial field-contribution record. Six-scientist deliverable unfinished; existing Mohanty and project-native Samanta records reused."
+    },
+    {
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "expanded_historical_scope_in_progress",
+      "new_people": 3,
+      "new_works": 3,
+      "scope": "Medieval astronomy, twentieth-century botany and contemporary nuclear physics; earliest periods and broader disciplines remain open."
+    },
+    {
+      "run_id": "2026-10-01-science-manuscripts",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "manuscript_catalogue_checkpoint",
+      "new_people": 0,
+      "new_works": 0,
+      "scope": "Enhances existing Bhāsvatī with catalogue witnesses; does not create duplicate biographies."
+    },
+    {
+      "run_id": "2026-10-01-science-modern",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "modern_science_checkpoint",
+      "new_people": 2,
+      "new_works": 3,
+      "scope": "Mathematics and Odia science communication; chronology and award conflicts retained."
+    },
+    {
+      "run_id": "2026-10-01-contemporary-creators",
+      "task_ids": [
+        "RES-034"
+      ],
+      "status": "completed_bounded_creators_seed",
+      "new_people": 4,
+      "new_works": 5,
+      "scope": "Explicit user addition; existing Ray/Pattnaik reused, no popularity or export ranking."
+    },
+    {
+      "run_id": "2026-10-01-creative-women",
+      "task_ids": [
+        "RES-035"
+      ],
+      "status": "completed_creative_women_seed",
+      "new_people": 4,
+      "new_works": 5,
+      "scope": "User-requested extension; existing collection enhanced."
+    },
+    {
+      "run_id": "2026-10-01-entrepreneurs",
+      "task_ids": [
+        "RES-036"
+      ],
+      "status": "completed_entrepreneur_seed",
+      "new_people": 4,
+      "new_works": 0,
+      "scope": "Four new people, reused Bagchi, four organizations; companies are not creative works."
+    },
+    {
+      "run_id": "2026-10-01-public-service",
+      "task_ids": [
+        "RES-037"
+      ],
+      "status": "completed_public_service_seed",
+      "new_people": 5,
+      "new_works": 1,
+      "scope": "Roles, contributions and Odisha connections; not a partisan ranking or complete biography."
+    },
+    {
+      "run_id": "2026-10-01-rulers",
+      "task_ids": [
+        "RES-038"
+      ],
+      "status": "completed_ruler_seed",
+      "new_people": 5,
+      "new_works": 0,
+      "scope": "Five selected historical rulers; legacy and power evidence, not an exhaustive king list or measured popularity."
+    },
+    {
+      "run_id": "2026-10-01-science-computing",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "computing_checkpoint",
+      "new_people": 1,
+      "new_works": 1,
+      "scope": "One selected computing researcher and coauthored bibliography; full-paper interpretation remains open."
+    },
+    {
+      "run_id": "2026-10-01-science-women",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "initial_timeline_completed",
+      "new_people": 2,
+      "new_works": 3,
+      "scope": "Computing and space design/policy; selected historical-to-present timeline completed with gaps retained, not a statewide census."
     }
   ],
   "conflicts": [
@@ -1063,6 +4616,156 @@
         }
       ],
       "resolved_value": null
+    },
+    {
+      "person_id": "people/fakir-mohan-senapati",
+      "field": "death_year",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": 1918,
+          "source_id": "creators-six-acres"
+        },
+        {
+          "value": 1919,
+          "source_id": "literature-six-acres-eaa"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "work_id": "works/six-acres-and-a-third",
+      "field": "translator_initial",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": "Jatindra N. Nayak",
+          "source_id": "creators-six-acres"
+        },
+        {
+          "value": "Jatindra K. Nayak",
+          "source_id": "literature-six-acres-eaa"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "work_id": "works/yajnaseni",
+      "field": "original_publication_year",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": 1984,
+          "source_id": "literature-ray-loc",
+          "locator": "Reading item 1, first edition, Nalanda, LCCN 87901017"
+        },
+        {
+          "value": 1985,
+          "source_id": "literature-ray-loc",
+          "locator": "Biography major-works paragraph"
+        },
+        {
+          "value": 1984,
+          "source_id": "literature-yajnaseni-beb",
+          "locator": "Description paragraph 3, first-edition claim"
+        },
+        {
+          "value": 1985,
+          "source_id": "literature-yajnaseni-beb",
+          "locator": "Same paragraph, publication claim"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "person_id": "people/kelucharan-mohapatra",
+      "field": "birth_year",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": 1924,
+          "source_id": "performers-srjan-milestones",
+          "locator": "First chronology row"
+        },
+        {
+          "value": 1926,
+          "source_id": "performers-srjan-milestones",
+          "locator": "Parenthetical official-documents qualification in same row"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "person_id": "people/prafulla-kar",
+      "field": "birth_date",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": "1939-11-10",
+          "source_id": "creators-prafulla-sna",
+          "locator": "Award citation opening, indexed text"
+        },
+        {
+          "value": "1939-02-02",
+          "source_id": "music-prafulla-label-profile",
+          "locator": "Artist biography opening, indexed text"
+        }
+      ],
+      "resolved_value": null,
+      "next_action": "Seek authoritative biographical record; do not resolve by source prestige or frequency."
+    }
+  ],
+  "quarantined_conflicts": [
+    {
+      "id": "bibhu-obama-visit-year",
+      "person_id": "people/bibhu-mohapatra",
+      "field": "event_year",
+      "claims": [
+        {
+          "value": 2016,
+          "source_id": "creators-bibhu-roots-cfda"
+        },
+        {
+          "value": 2015,
+          "source_id": "creators-bibhu-cfda-2026"
+        }
+      ],
+      "resolution": "Withhold exact event year from public summary pending event archive."
+    },
+    {
+      "id": "jagannath-art-education",
+      "person_id": "people/jagannath-panda",
+      "field": "Delhi College of Art training",
+      "source_ids": [
+        "creators-jagannath-aicon",
+        "creators-jagannath-milaaya"
+      ],
+      "resolution": "Milaaya statement not adopted; institutional record needed. Differing lists need not prove mutually exclusive education."
+    },
+    {
+      "id": "bagchi-chariot-advance-vintage",
+      "work_id": "works/day-the-chariot-moved",
+      "source_ids": [
+        "creators-bagchi-chariot",
+        "creators-bagchi-advance-2025"
+      ],
+      "resolution": "SameISBN advance versus released metadata; use released July2025/408pages, retain June/256pages as planned only."
+    },
+    {
+      "id": "susmita-state-award-year",
+      "person_id": "people/susmita-bagchi",
+      "field": "state_literary_award_year",
+      "claims": [
+        {
+          "value": 1993,
+          "source_id": "creators-susmita-penguin"
+        },
+        {
+          "value": 1992,
+          "source_id": "creators-susmita-klf"
+        }
+      ],
+      "resolution": "Exact year withheld pending issuer register. Undated book totals are different vintages, not reconciled current counts."
     }
   ]
 }

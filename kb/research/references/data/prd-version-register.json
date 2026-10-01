@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "current_version": "0.2.0",
+  "current_version": "0.2.1",
   "current_document": "product/prd.md",
   "current_requirements": "references/data/product-requirements.json",
   "history_document": "product/prd-history.md",
@@ -79,6 +79,24 @@
         "DISC-004",
         "CONT-001",
         "CONT-005"
+      ],
+      "retired_requirement_ids": [],
+      "git_revision": null,
+      "release_reference": null
+    },
+    {
+      "version": "0.2.1",
+      "recorded_at": "2026-10-01T06:19:27.387120-07:00",
+      "approval_status": "draft_not_formally_approved",
+      "snapshot": "product/versions/prd-0.2.1.md",
+      "snapshot_sha256": "37e273458b3ea8bb8f6ced2935a8c07483bc73b6a87d47fc33ea8b9836f929ef",
+      "requirements_snapshot": "references/data/product-requirements-0.2.1.json",
+      "requirements_sha256": "809ddf58b331d7e86e314efe30b1bf02fb0d730100b8b5b98c7a4b605093e1c4",
+      "summary": "User-directed Utkal name correction only; behaviour and permanent IDs unchanged.",
+      "added_requirement_ids": [],
+      "changed_requirement_ids": [
+        "CONT-003",
+        "GROW-003"
       ],
       "retired_requirement_ids": [],
       "git_revision": null,

@@ -42,3 +42,36 @@ Subject membership is editorial classification. It does not establish historical
 [Works and English editions](../works/index.md), [sand art](../culture/sand-art.md), [Tarakasi](../culture/cuttack-tarakasi.md) and [garments](../handlooms/garments-and-markets.md) connect creators, traditions and markets.
 
 [Women writers and English reading](../works/spark-of-light.md) connects five selected stories with authors and edition-specific translators. Four new profiles cover Reba Ray, Suprabha Kar, Basanta Kumari Patnaik and Binapani Mohanty; Pratibha Ray’s profile is expanded.
+
+## Credited theatre episodes
+
+- [Meerabai — direction, 1945](../works/meerabai-direction-1945.md)
+- [Devi — Mahadev performance, 1946](../works/devi-mahadev-performance-1946.md)
+- [Dashavatara in Sadhava Jhia — duet, 1947](../works/dashavatara-sadhava-jhia-1947.md)
+- [Aloka — dance sequence, 1948](../works/aloka-dance-sequence-1948.md)
+
+## Music with credits
+
+The [Mamata soundtrack](../works/mamata-film-music.md), [Kali Kapali catalogue recording](../works/kali-kapali-prafulla.md) and [Sunanda Patnaik selections](../people/sunanda-patnaik.md) offer label-linked listening research. A named distribution route is not confirmation of playback in every region.
+
+## A devotional recording
+
+[Jagannatha Swami, credited to Sunanda Patnaik](../works/jagannatha-swami-sunanda.md), connects the arts collection with a label-linked listening route and explicit performer/composition distinctions.
+
+## Science and manuscript heritage · 1 October 2026
+
+[Scientific knowledge preserved in manuscripts](../history/scientific-manuscripts.md) connects preserved mathematical texts, literary-form research leads and the scientist timeline, with explicit attribution gaps.
+
+## Mathematics and Odia science writing · 1 October 2026
+
+[Tribikram Pati](../people/tribikram-pati.md) and [Gokulananda Mohapatra](../people/gokulananda-mohapatra.md) connect mathematical research, science education and Odia writing to credited works. Source conflicts remain visible; neither a journal venue nor an encyclopaedia establishes measured global popularity.
+
+## Contemporary creative lives · 1 October 2026
+
+[Contemporary creators](../people/contemporary-creators.md) connects Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi to five credited creations. Existing Pratibha Ray and Sudarsan Pattnaik profiles are reused. Dated recognition, artistic circulation and economic outcomes remain distinct.
+
+## Women across creative fields · 1 October2026
+
+The [contemporary creators collection](../people/contemporary-creators.md) now includes Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra. Five linked records distinguish films, a translated novel, a song recording and a performance occurrence. Existing Jatin Das, Pratibha Ray and Kelucharan Mohapatra pages are reused for related reading.
+
+[Speech, Sound and Music Processing](../works/speech-sound-music-2012.md) connects scholarly computing with sound and music through an edited proceedings volume; editor and individual author credits remain separate.

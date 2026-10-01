@@ -24,3 +24,7 @@ resource: "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf"
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^regional-cuisine]: [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf)
+
+## Preparation research · 1 October 2026
+
+Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; no location reassignment.

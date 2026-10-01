@@ -32,7 +32,7 @@ These are campaign objectives. Audience response and business impact have not ye
 
 ## Editorial promise
 
-**Utkala · Odisha — more to discover, more to share.**
+**Utkal · Odisha — more to discover, more to share.**
 
 Make Odisha desirable through specific experiences. Let readers see what they could taste, learn, wear, explore or participate in. Use economic achievements when they reinforce confidence in contemporary Odisha. The maritime identity can give a feature depth without requiring every tourism story to become a trade-history lesson.
 

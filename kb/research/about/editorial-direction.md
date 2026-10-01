@@ -1,7 +1,7 @@
 ---
 type: "Editorial Strategy"
-title: "Utkala · Odisha: editorial and visual direction"
-description: "Utkala · Odisha: editorial and visual direction — research and reuse notes."
+title: "Utkal · Odisha: editorial and visual direction"
+description: "Utkal · Odisha: editorial and visual direction — research and reuse notes."
 tags: ["brand", "marketing", "design"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:18:25+00:00"}
@@ -19,13 +19,13 @@ The [tourism campaign proposal](tourism-first-strategy.md) remains one focused c
 
 ## Brand proposition
 
-**Utkala — A living encyclopedia of Odisha**
+**Utkal — A living encyclopedia of Odisha**
 
 **A world of stories, waiting to be shared.**
 
 The name and descriptor are the current [identity proposal](brand-identity.md). The second line is optional campaign copy, not a second brand name.
 
-Use Utkala as the user’s chosen cultural expression and Odisha as the clear contemporary geographic name. Keep Odisha in page titles and search descriptions so audiences can find the work. This is a naming strategy, not a claim that historical territorial boundaries were identical in every period.
+Use Utkal as the user’s chosen cultural expression and Odisha as the clear contemporary geographic name. Keep Odisha in page titles and search descriptions so audiences can find the work. This is a naming strategy, not a claim that historical territorial boundaries were identical in every period.
 
 ## Voice
 
@@ -56,3 +56,7 @@ Use a strong supported detail instead of an unverified superlative. “More to d
 ## Presenting numbers
 
 Follow the [statistics presentation standard](statistics-storytelling.md): one clear takeaway, one main number, a useful comparison and a simple visual. Explain what the measure means. Keep periods, units and material qualifications visible, with deeper evidence on demand.
+
+## Name to use
+
+The user confirmed **Utkal** on 1 October 2026. Use that spelling for this project and assistant-authored references. Preserve exact external titles and quotations.

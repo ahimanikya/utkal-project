@@ -1,0 +1,423 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T05:27:59.980434-07:00",
+  "scope": "Selected athlete results and milestones; not Odisha totals, a complete career census or a current ranking service. Canonical person identities are in people-creations.json. Event and infrastructure atlas records remain separate.",
+  "person_ids": [
+    "people/dilip-tirkey",
+    "people/amit-rohidas",
+    "people/deep-grace-ekka",
+    "people/kishore-jena",
+    "people/srabani-nanda",
+    "people/pramod-bhagat",
+    "people/padmini-rout",
+    "people/debashis-das"
+  ],
+  "sports": [
+    "hockey",
+    "athletics",
+    "badminton",
+    "chess"
+  ],
+  "observations": [
+    {
+      "id": "sport-dilip-caps",
+      "person_id": "people/dilip-tirkey",
+      "event": "India senior men’s hockey career caps",
+      "period": "as reported 2026-06-14",
+      "geography": "India representation",
+      "value": 412,
+      "unit": "international appearances",
+      "rank": null,
+      "stage": "career_total",
+      "classification": null,
+      "source_ids": [
+        "creators-dilip-caps"
+      ],
+      "locators": [
+        {
+          "source_id": "creators-dilip-caps",
+          "locator": "Opening paragraph, 14 June 2026"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Historical record equalled by Manpreet Singh on the source date; no current sole-record-holder claim.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-amit-caps",
+      "person_id": "people/amit-rohidas",
+      "event": "India v Germany bilateral series",
+      "period": "2024-10-24",
+      "geography": "New Delhi, India",
+      "value": 200,
+      "unit": "international appearances",
+      "rank": null,
+      "stage": "career_milestone",
+      "classification": null,
+      "source_ids": [
+        "sport-amit-200"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-amit-200",
+          "locator": "Opening and Amit section, extracted lines 89–94"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Not a current cap total.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-amit-tokyo",
+      "person_id": "people/amit-rohidas",
+      "event": "Olympic men’s hockey",
+      "period": "Tokyo 2020 (held 2021)",
+      "geography": "Tokyo, Japan",
+      "value": null,
+      "unit": "team medal",
+      "rank": 3,
+      "stage": "final_event_placing",
+      "classification": null,
+      "source_ids": [
+        "sport-amit-200"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-amit-200",
+          "locator": "Opening and Amit section, extracted lines 89–94"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Bronze as member of India team; not an individual-event medal.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-amit-paris",
+      "person_id": "people/amit-rohidas",
+      "event": "Olympic men’s hockey",
+      "period": "Paris 2024",
+      "geography": "Paris, France",
+      "value": null,
+      "unit": "team medal",
+      "rank": 3,
+      "stage": "final_event_placing",
+      "classification": null,
+      "source_ids": [
+        "sport-amit-200"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-amit-200",
+          "locator": "Opening and Amit section, extracted lines 89–94"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Bronze as member of India team; not an individual-event medal.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-deep-tokyo",
+      "person_id": "people/deep-grace-ekka",
+      "event": "Olympic women’s hockey",
+      "period": "Tokyo 2020 (held 2021)",
+      "geography": "Tokyo, Japan",
+      "value": null,
+      "unit": "team placing",
+      "rank": 4,
+      "stage": "final_event_placing",
+      "classification": null,
+      "source_ids": [
+        "sport-deep-retirement"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-deep-retirement",
+          "locator": "27 January 2024 report, lines 91–96"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Fourth place; no Olympic medal claimed.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-deep-junior",
+      "person_id": "people/deep-grace-ekka",
+      "event": "Women’s Junior Hockey World Cup",
+      "period": "2013",
+      "geography": "Germany",
+      "value": null,
+      "unit": "team medal",
+      "rank": 3,
+      "stage": "final_event_placing",
+      "classification": null,
+      "source_ids": [
+        "sport-deep-retirement"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-deep-retirement",
+          "locator": "27 January 2024 report, lines 91–96"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Bronze as member of India junior team.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-jena-asian",
+      "person_id": "people/kishore-jena",
+      "event": "Asian Games men’s javelin throw",
+      "period": "2023-10-04",
+      "geography": "Hangzhou, China",
+      "value": 87.54,
+      "unit": "metres",
+      "rank": 2,
+      "stage": "final",
+      "classification": null,
+      "source_ids": [
+        "sport-jena-wa-guide",
+        "sport-jena-asian-result"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-jena-wa-guide",
+          "locator": "PDF p.38, Kishore Jena panel, honours and personal bests"
+        },
+        {
+          "source_id": "sport-jena-asian-result",
+          "locator": "Men’s Javelin Throw Final, Kishore Jena row"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Silver. Same World Athletics evidence family; not two independent confirmations.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-jena-worlds",
+      "person_id": "people/kishore-jena",
+      "event": "World Athletics Championships men’s javelin",
+      "period": "2023-08-27",
+      "geography": "Budapest, Hungary",
+      "value": null,
+      "unit": "event placing",
+      "rank": 5,
+      "stage": "final",
+      "classification": null,
+      "source_ids": [
+        "sport-jena-wa-guide"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-jena-wa-guide",
+          "locator": "PDF p.38, Kishore Jena panel, honours and personal bests"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Fifth place; no medal claimed.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-srabani-best",
+      "person_id": "people/srabani-nanda",
+      "event": "200 m personal-best entry",
+      "period": "2016-06-26",
+      "geography": "Venue not captured in adopted profile extract",
+      "value": 23.07,
+      "unit": "seconds",
+      "rank": null,
+      "stage": "profile_personal_best",
+      "classification": null,
+      "source_ids": [
+        "sport-srabani-wa"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-srabani-wa",
+          "locator": "Personal bests, 200 Metres row"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Indexed source; direct access pending, not a national record.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-srabani-rio",
+      "person_id": "people/srabani-nanda",
+      "event": "Olympic women’s 200 m",
+      "period": "2016-08-15",
+      "geography": "Rio de Janeiro, Brazil",
+      "value": 23.58,
+      "unit": "seconds",
+      "rank": 6,
+      "stage": "heat_5",
+      "classification": null,
+      "source_ids": [
+        "sport-srabani-rio"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-srabani-rio",
+          "locator": "Heat 5, Srabani Nanda row; 15 August 2016"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Sixth in heat, no qualification marker; not sixth overall. Wind −0.1 m/s.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-pramod-tokyo",
+      "person_id": "people/pramod-bhagat",
+      "event": "Paralympic badminton men’s singles",
+      "period": "2021-09-04 (Tokyo 2020)",
+      "geography": "Tokyo, Japan",
+      "value": null,
+      "unit": "gold medal",
+      "rank": 1,
+      "stage": "gold_medal_match",
+      "classification": "SL3",
+      "source_ids": [
+        "sport-pramod-ipc"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-pramod-ipc",
+          "locator": "Tokyo 2020 table, Men’s Singles SL3, Gold Medal Match, 2021-09-04"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Result event class from IPC result table, not a secondary recap.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-padmini-asian",
+      "person_id": "people/padmini-rout",
+      "event": "Asian Continental Chess Championship women’s division",
+      "period": "2018-12",
+      "geography": "Makati, Philippines",
+      "value": 7,
+      "unit": "points",
+      "rank": 1,
+      "stage": "final_standings",
+      "classification": null,
+      "source_ids": [
+        "sport-padmini-asian"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-padmini-asian",
+          "locator": "19 December 2018 report, women’s division paragraphs"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Champion on tie-break; seven points was a tie on score.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-padmini-world",
+      "person_id": "people/padmini-rout",
+      "event": "Women’s World Chess Championship",
+      "period": "2018",
+      "geography": "Khanty-Mansiysk, Russia",
+      "value": 1.5,
+      "unit": "match points",
+      "rank": null,
+      "stage": "round_1",
+      "classification": null,
+      "source_ids": [
+        "sport-padmini-world"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-padmini-world",
+          "locator": "Round 1, Padmini Rout–Zhansaya Abdumalik"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Lost 1.5–2.5 to Zhansaya Abdumalik; separate event from continental title.",
+      "current_rank_claim": false
+    },
+    {
+      "id": "sport-debashis-commonwealth",
+      "person_id": "people/debashis-das",
+      "event": "Commonwealth Chess Championship",
+      "period": "2018",
+      "geography": "Venue not established in adopted final-table extract",
+      "value": 7,
+      "unit": "points",
+      "rank": 3,
+      "stage": "final_standings",
+      "classification": null,
+      "source_ids": [
+        "sport-debashis-commonwealth"
+      ],
+      "locators": [
+        {
+          "source_id": "sport-debashis-commonwealth",
+          "locator": "Final ranking table, third row; final-round section"
+        }
+      ],
+      "retrieved_on": "2026-10-01",
+      "estimate_status": "historical_reported_result_or_milestone",
+      "price_basis": "not_applicable",
+      "scope_note": "Chess championship, not multi-sport Commonwealth Games; final rank after tie-break.",
+      "current_rank_claim": false
+    }
+  ],
+  "disciplinary_context": [
+    {
+      "person_id": "people/amit-rohidas",
+      "period": "2024-08-04",
+      "event": "Paris Olympic quarter-final v Great Britain",
+      "finding": "Red card recorded in official FIH match report.",
+      "source_ids": [
+        "sport-amit-red-card"
+      ],
+      "current_status": null
+    },
+    {
+      "person_id": "people/pramod-bhagat",
+      "period": "Operative part 2024-07-27; reasoned award 2025-03-05",
+      "event": "CAS 2024/A/10440",
+      "finding": "Appeal dismissed; 18-month ineligibility upheld for three whereabouts failures. This is not a positive-test finding.",
+      "source_ids": [
+        "sport-pramod-cas"
+      ],
+      "current_status": null
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "Pramod Bhagat Tokyo event class",
+      "status": "recap_label_not_adopted",
+      "conflicting_url": "https://www.paralympic.org/news/tokyo-2020-takeaways-para-badminton",
+      "details": "Indexed recap labels the Bethell final SL4; IPC athlete result table labels it SL3. Use result table and preserve recap discrepancy; no claim publisher corrected it."
+    }
+  ],
+  "human_review_claimed": false
+}

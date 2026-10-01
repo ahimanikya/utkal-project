@@ -35,3 +35,19 @@ Confirm recipe, steaming process and family festival practice through an attribu
 [Related knowledge](pitha.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+Turmeric leaves, coconut and jaggery connect this pitha with Prathamastami. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Enduri Pitha heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+The indexed account describes rice–black-gram batter and coconut filling, leaf-wrapped and steamed. [Indian Food Heritage](https://nchm.nic.in/sites/default/files/2022-11/Indian_Food_Heritage.pdf), Printed p.251, Enduri pitha/Haladi patra entry. NCHM-hosted hospitality publication, printed p.251; indexed passage only, full PDF retrieval failed.
+
+**Still to verify:** Recover the full passage and an attributed local preparation; preserve Haladi patra as a source-used name pending Odia review. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Primary-source follow-up · 1 October 2026
+
+Enduri/Haldi Patra uses rice–black-gram batter, coconut/paneer filling and turmeric leaves; the parcels are steamed. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed p.19 / PDF p.30. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
+
+**Remaining question:** Full institutional preparation evidence is now recovered from CRRI. The earlier NCHM fetch remains unavailable; local and Odia review of names/variations remains open. Local/Odia review remains pending.

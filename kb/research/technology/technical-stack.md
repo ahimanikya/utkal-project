@@ -1,8 +1,8 @@
 ---
 type: "Technical Architecture"
-title: "Technical stack for Utkala · Odisha"
+title: "Technical stack for Utkal · Odisha"
 description: "Agreed launch stack, data ownership, photo intake, publishing and operating limits."
-tags: ["utkala", "technology", "architecture", "publishing"]
+tags: ["utkal", "technology", "architecture", "publishing"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T16:22:55-07:00"}
 instruction_basis: "User-agreed launch architecture in the Odisha Tourism conversation, 27 September 2026. Future stages are proposals; no deployment or billing change is implied."
@@ -11,7 +11,7 @@ publication_status: "not_reviewed_for_publication"
 sources: [{"id": "astro", "title": "Astro content collections", "resource": "https://docs.astro.build/en/guides/content-collections/"}, {"id": "pagefind", "title": "Pagefind", "resource": "https://pagefind.app/"}, {"id": "pages", "title": "GitHub Pages limits", "resource": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits"}, {"id": "domain", "title": "GitHub Pages custom domains", "resource": "https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site"}, {"id": "firebase", "title": "Firebase pricing plans", "resource": "https://firebase.google.com/docs/projects/billing/firebase-pricing-plans"}, {"id": "formsubmit", "title": "FormSubmit file uploads and delivery", "resource": "https://formsubmit.co/documentation"}, {"id": "formsubmit-free", "title": "FormSubmit free service", "resource": "https://formsubmit.co/"}, {"id": "okf", "title": "Open Knowledge Format 0.2", "resource": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md"}]
 ---
 
-# Technical stack for Utkala · Odisha
+# Technical stack for Utkal · Odisha
 
 ## Agreed direction
 

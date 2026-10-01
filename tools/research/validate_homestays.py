@@ -26,4 +26,31 @@ check(rows['homestay-nidhi-rural2025']['project_stage']=='registry_stock','NIDHI
 for c in a['calculations']:
  if set(c['inputs']) & set(ids):
   for i in c['inputs']:check(rows[i].get('project_stage') not in {'target','policy_rule','policy_ceiling','budget_earmark'},c['id']+': plan/ceiling used in outcome growth')
+# Recompute portal counts from preserved publisher IDs, never from place-name guesses.
+for capture in h.get('portal_snapshots', []):
+ path=D/capture['path'];check(path.is_file(),'Missing portal snapshot')
+ if not path.is_file():continue
+ snapshot=json.loads(path.read_text());flat=[]
+ for obj in snapshot['raw_response']['data']:
+  district=obj['district']
+  for obj2 in district['clusters']:
+   cluster=obj2['cluster']
+   for obj3 in cluster['destinations']:
+    destination=obj3['destination']
+    for obj4 in destination['blocks']:
+     block=obj4['block']
+     for obj5 in block['gps']:
+      gp=obj5['gp'];flat.append({'district_id':district['districtId'],'district_name':district['districtName'],'cluster_id':cluster['clusterId'],'cluster_name':cluster['clusterName'],'destination_id':destination['destinationId'],'destination_name':destination['destinationName'],'block_id':block['blockId'],'block_name':block['blockName'],'gp_id':gp['gpId'],'gp_name':gp['gpName']})
+ check(flat==snapshot['rows'],'Normalized portal rows differ from original hierarchy')
+ counts={key:len({r[key+'_id'] for r in flat}) for key in ['district','cluster','destination','block','gp']}
+ check(counts==snapshot['counts'],'Portal distinct-ID counts mismatch')
+ check(snapshot['source_id'] in s,'Unknown portal source')
+ for key,oid in zip(['district','cluster','destination','block','gp'],capture['observation_ids']):
+  check(oid in rows,'Missing portal atlas observation '+oid)
+  if oid not in rows:continue
+  row=rows[oid];check(row['value']==counts[key],oid+': count mismatch')
+  check(row['project_stage']=='portal_configuration_snapshot',oid+': portal count misclassified as outcome')
+  check(row['source_id']==snapshot['source_id'],oid+': source mismatch')
+ for calculation in a['calculations']:
+  check(not set(calculation['inputs']) & set(capture['observation_ids']),calculation['id']+': portal coverage must not enter growth calculation')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','homestay_observations':len(ids),'unknown_outcome_metrics':sum(m['status']=='not_established' for m in h['outcome_metrics']),'arithmetic_checks':2,'errors':errors,'scope':'Stage and qualifier fields, register references, conflict holds and policy arithmetic; not legal certification, source authentication or proof of demand.'},indent=2));sys.exit(bool(errors))

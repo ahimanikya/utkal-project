@@ -12,7 +12,7 @@ subjects: ["places", "arts"]
 
 # Puri and craft places: a sourced journey outline
 
-**Research outline, checked 1 October 2026.** Connect appliqué in Pipili and Pattachitra in Raghurajpur with Puri's heritage. The order below has a published operator basis; Utkala has not checked it on the ground or established a trip duration, budget or bookable workshop.
+**Research outline, checked 1 October 2026.** Connect appliqué in Pipili and Pattachitra in Raghurajpur with Puri's heritage. The order below has a published operator basis; Utkal has not checked it on the ground or established a trip duration, budget or bookable workshop.
 
 ## Source and sequence
 
@@ -26,7 +26,7 @@ subjects: ["places", "arts"]
 | Pipili → Raghurajpur | Consecutive stops in the same published drive | Exact entrances, road conditions, distance and travel time |
 | Raghurajpur → Puri | Next destination in the published drive | Drop-off, parking, distance and travel time |
 
-These legs are our decomposition of one published sequence, not separately measured journeys. No current bus route, fare, departure or last-mile connection has been verified. The operator's day label and displayed time window are not Utkala's feasibility estimate.
+These legs are our decomposition of one published sequence, not separately measured journeys. No current bus route, fare, departure or last-mile connection has been verified. The operator's day label and displayed time window are not Utkal's feasibility estimate.
 
 [Heritage Tours' different package](https://www.heritagetoursorissa.com/golden-triangle-odisha/) places Pipili on its Konark drive and Raghurajpur after a Puri stay. It offers a separate route example, not confirmation of the combined sequence above. No advertised price is adopted.
 

@@ -1,0 +1,151 @@
+{
+  "schema_version": "0.1",
+  "updated_at": "2026-10-01T07:58:53.605572-07:00",
+  "human_review_claimed": false,
+  "scope": "Selected public figures connected to Odisha; offices and documented contributions, not popularity, endorsement or an exhaustive list.",
+  "person_ids": [
+    "people/girish-chandra-murmu",
+    "people/pramod-kumar-mishra",
+    "people/droupadi-murmu",
+    "people/biswanath-das",
+    "people/harekrushna-mahtab"
+  ],
+  "roles": [
+    {
+      "person_id": "people/girish-chandra-murmu",
+      "role": "Comptroller and Auditor General of India",
+      "role_class": "constitutional_audit_office",
+      "period": "2020–2024",
+      "evidence_status": "historical_tenure",
+      "source_ids": [
+        "public-cag-former"
+      ]
+    },
+    {
+      "person_id": "people/pramod-kumar-mishra",
+      "role": "Principal Secretary to the Prime Minister",
+      "role_class": "appointed_administrative_office",
+      "period": "appointment reported 2019-09-11",
+      "evidence_status": "dated_appointment_not_current_tenure",
+      "source_ids": [
+        "public-pk-mishra-appointment"
+      ]
+    },
+    {
+      "person_id": "people/droupadi-murmu",
+      "role": "Member, Odisha Legislative Assembly, Rairangpur",
+      "role_class": "elected_legislator",
+      "period": "2000–2009",
+      "evidence_status": "historical_tenure",
+      "source_ids": [
+        "public-droupadi-profile"
+      ]
+    },
+    {
+      "person_id": "people/droupadi-murmu",
+      "role": "President of India",
+      "role_class": "constitutional_head_of_state",
+      "period": "sworn in 2022-07-25; profile checked 2026-10-01",
+      "evidence_status": "office_profile_checked",
+      "source_ids": [
+        "public-droupadi-profile"
+      ]
+    },
+    {
+      "person_id": "people/biswanath-das",
+      "role": "Constituent Assembly representative from Orissa",
+      "role_class": "constitution_making",
+      "period": "intervention documented 1949-08-20",
+      "evidence_status": "historical_intervention",
+      "source_ids": [
+        "public-biswanath-clpr",
+        "public-cad-1949-08-20"
+      ]
+    },
+    {
+      "person_id": "people/harekrushna-mahtab",
+      "role": "Union Minister for Commerce and Industry",
+      "role_class": "union_executive_office",
+      "period": "historical; exact tenure not established in this capture",
+      "evidence_status": "historical_biographical_attribution",
+      "source_ids": [
+        "public-mahtab-commemoration"
+      ]
+    },
+    {
+      "person_id": "people/harekrushna-mahtab",
+      "role": "Lok Sabha member",
+      "role_class": "elected_legislator",
+      "period": "1962 election reported in 2024 commemoration",
+      "evidence_status": "historical_biographical_attribution",
+      "source_ids": [
+        "public-mahtab-commemoration"
+      ]
+    }
+  ],
+  "contributions": [
+    {
+      "person_id": "people/pramod-kumar-mishra",
+      "kind": "issuer_recorded_recognition",
+      "date": "2019-05-16",
+      "description": "Named among 2019 UN Sasakawa Award laureates for disaster risk reduction.",
+      "source_ids": [
+        "public-pk-mishra-sasakawa"
+      ]
+    },
+    {
+      "person_id": "people/biswanath-das",
+      "kind": "recorded_debate_intervention",
+      "date": "1949-08-20",
+      "description": "Objections to draft Article 277 on emergency powers and provincial finances. Adoption or sole authorship not inferred.",
+      "locator": "CLPR transcript paragraphs 9.120.1–9.120.5",
+      "source_ids": [
+        "public-cad-1949-08-20"
+      ]
+    }
+  ],
+  "source_issues": [
+    {
+      "id": "gc-murmu-stale-office-language",
+      "person_id": "people/girish-chandra-murmu",
+      "source_ids": [
+        "public-murmu-cag-bio",
+        "public-cag-former"
+      ],
+      "status": "resolved_scope",
+      "resolution": "Regional present tense superseded by central former-holder register, 2020–2024."
+    },
+    {
+      "id": "biswanath-1950-lok-sabha",
+      "person_id": "people/biswanath-das",
+      "source_ids": [
+        "public-biswanath-odisha"
+      ],
+      "status": "quarantined",
+      "resolution": "State page says elected to Lok Sabha in 1950. Withheld pending original parliamentary register; not imported into role chronology."
+    },
+    {
+      "id": "mahtab-princely-state-wording",
+      "person_id": "people/harekrushna-mahtab",
+      "source_ids": [
+        "public-mahtab-commemoration"
+      ],
+      "status": "quarantined",
+      "resolution": "Commemorative release says last Prime Minister of the princely state without a clear state identity. Withheld; verify provincial/state constitutional context in original records."
+    }
+  ],
+  "economic_impact_attributed": false,
+  "next_candidates": [
+    {
+      "name": "Shaktikanta Das",
+      "status": "discovery_only",
+      "next_action": "Establish Odisha upbringing/education from original biography; verify RBI tenure and separately current PMO appointment. No profile added yet."
+    },
+    {
+      "name": "Nandini Satpathy",
+      "status": "discovery_only",
+      "next_action": "Check parliamentary and Union service records, identity map and literary editions."
+    }
+  ],
+  "next_review": "2026-10-08"
+}

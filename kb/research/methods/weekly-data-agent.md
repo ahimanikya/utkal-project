@@ -1,13 +1,13 @@
 ---
 type: "Automation Runbook"
-title: "Utkala weekly data editor"
+title: "Utkal weekly data editor"
 description: "Weekly primary-source monitoring, revision preservation, validation and conditional publication workflow."
 tags: ["automation", "freshness", "data", "publishing"]
 status: "stable"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:46:31-07:00"}
 ---
 
-# Utkala weekly data editor
+# Utkal weekly data editor
 
 The user authorised weekly unattended data collection and updates to the Git repository and website on 27 September 2026. A recurring agent, `utkala-weekly-data-editor`, is active in this task for Sundays at 09:00 America/Los_Angeles. This is a local scheduled agent, not a separately provisioned always-on cloud service.
 

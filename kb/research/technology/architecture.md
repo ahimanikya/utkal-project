@@ -2,7 +2,7 @@
 type: "Architecture Diagram"
 title: "Technical architecture diagrams"
 description: "Launch and future architecture, editable diagrams and public/private data flows."
-tags: ["utkala", "technology", "architecture", "publishing"]
+tags: ["utkal", "technology", "architecture", "publishing"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T16:22:55-07:00"}
 instruction_basis: "User-agreed launch architecture in the Odisha Tourism conversation, 27 September 2026. Future stages are proposals; no deployment or billing change is implied."
@@ -54,7 +54,7 @@ flowchart LR
   U[Future private managed uploads] --> R[Future review service]
   R -->|Proposed Git change, then editorial approval| G
   B --> K[Future public-only AI retrieval index]
-  K --> Q[Future Ask Utkala gateway]
+  K --> Q[Future Ask Utkal gateway]
   Q -->|Cited answer| W
   U --> C[Future private backup and restore]
   R --> C
@@ -79,6 +79,6 @@ Future services must not become an independent master encyclopedia. Private uplo
 | Private records are lost | No promised recovery while private backups are deferred |
 | Future AI lacks evidence | Say the collection cannot answer; do not invent a source |
 
-These diagrams are authored for Utkala · Odisha with AI assistance. They depict application architecture, not historical evidence or a formal OKF conformance certification.
+These diagrams are authored for Utkal · Odisha with AI assistance. They depict application architecture, not historical evidence or a formal OKF conformance certification.
 
 [Stack and responsibilities](technical-stack.md) · [Growth triggers](growth-roadmap.md)

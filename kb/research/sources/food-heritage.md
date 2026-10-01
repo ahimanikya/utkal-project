@@ -24,3 +24,7 @@ resource: "https://nchm.nic.in/sites/default/files/2022-11/Indian_Food_Heritage.
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^food-heritage]: [Indian Food Heritage](https://nchm.nic.in/sites/default/files/2022-11/Indian_Food_Heritage.pdf)
+
+## Preparation research · 1 October 2026
+
+Printed p.251 Enduri passage indexed. Web direct fetch failed; local DNS failed; network retry timed out at 45 seconds. No full-text verification claimed.

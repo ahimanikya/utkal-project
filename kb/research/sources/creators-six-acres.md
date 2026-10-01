@@ -18,3 +18,7 @@ Locator: Title details, translator credits and About the Author.
 Publisher indexed text supplies December 2005 edition, ISBN, translators and Balasore connection. Direct fetch timed out; current stock, territory and rights not checked.
 
 [Original source](https://www.ucpress.edu/books/six-acres-and-a-third/paper).
+
+## Reused project evidence · 1 October 2026
+
+The project’s committed voices collection also records a 30 September direct publisher inspection. Its author-note summary supports Senapati’s writing, administration and printing roles. That saved capture is reused, not represented as a fresh fetch; the source workspace’s earlier timeout remains in the catalogue history.

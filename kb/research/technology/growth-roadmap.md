@@ -2,7 +2,7 @@
 type: "Technology Roadmap"
 title: "Technical growth roadmap"
 description: "Stages, upgrade triggers, cost decisions and acceptance criteria for growth."
-tags: ["utkala", "technology", "architecture", "publishing"]
+tags: ["utkal", "technology", "architecture", "publishing"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T16:22:55-07:00"}
 instruction_basis: "User-agreed launch architecture in the Odisha Tourism conversation, 27 September 2026. Future stages are proposals; no deployment or billing change is implied."
@@ -24,7 +24,7 @@ Keep the public KB in Git at every stage. Add a service when a concrete need app
 | 2 — Improve editorial capacity | Suggested trigger: over 20 pending items for two weeks or manual work exceeds two hours/week | Better private review metadata, templates, contributor guidance and delegated roles within Spark where possible. Measure correction turnaround and failed submissions before buying automation. |
 | 3 — Reliable uploads and automation | Attachment loss, repeated email limits or measurable review burden | Evaluate Blaze + private Storage/Functions. Obtain an acceptable budget before enabling billing. Test permissions, retry-safe saves, upload limits and reviewed Git export; never auto-publish unreviewed content. |
 | 4 — Broader discovery and data | More reviewed districts/languages and repeated cross-topic questions | Expand linked tables, aliases, map-ready places, versioned JSON and optional SQLite downloads. Validate performance on ordinary phones and review Odia language quality. |
-| 5 — Ask Utkala | Search leaves recurring questions unanswered and a viable free option or budget exists | Retrieve only approved passages, show source and contributor credit, pass the existing 15 AI acceptance cases plus English/Odia retrieval tests. No free model or gateway is assumed. |
+| 5 — Ask Utkal | Search leaves recurring questions unanswered and a viable free option or budget exists | Retrieve only approved passages, show source and contributor credit, pass the existing 15 AI acceptance cases plus English/Odia retrieval tests. No free model or gateway is assumed. |
 | Recovery track — independent private recovery | Suitable free export method becomes available, or private records become operationally important | Define owners, retention and a protected independent copy; test database, identity and media restoration as appropriate. Paid private backups remain deferred until a revised decision. |
 
 Recovery can be reviewed before any numbered growth stage. Paid AI, backup and Blaze features are not requirements for the agreed first launch.

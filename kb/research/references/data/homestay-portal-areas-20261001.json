@@ -1,0 +1,1834 @@
+{
+  "schema_version": "1.0",
+  "captured_at": "2026-10-01T09:06:05.436218-07:00",
+  "source_id": "homestay-portal-area-list",
+  "source_url": "https://gohomestay.odisha.gov.in/api/allowAll/get-notified-gp-list",
+  "geography": "Odisha; only areas returned by this portal endpoint",
+  "publication_date": null,
+  "legal_effective_date": null,
+  "stage": "portal_configuration_snapshot",
+  "publication_readiness": "source_checked_editorial_review_pending",
+  "raw_sha256": "be89d706f38122094b0e4970325e60023f4079563953188bcb85c6458a91bef6",
+  "raw_response": {
+    "data": [
+      {
+        "district": {
+          "districtId": 2405,
+          "districtName": "BALESHWAR",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Talasari",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3302,
+                            "blockName": "Bhograi",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 1875,
+                                  "gpName": "Huguli"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 1892,
+                                  "gpName": "Sahabajipur"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Talasari",
+                      "destinationId": 1
+                    }
+                  }
+                ],
+                "clusterId": 1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2414,
+          "districtName": "BARAGADA",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Debrigarh",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3310,
+                            "blockName": "Ambabhona",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 2124,
+                                  "gpName": "Karla"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 2115,
+                                  "gpName": "Lakhanpur"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "block": {
+                            "blockId": 3311,
+                            "blockName": "Attabira",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 2153,
+                                  "gpName": "Paharsrigida"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Debrigarh",
+                      "destinationId": 2
+                    }
+                  }
+                ],
+                "clusterId": 2
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2424,
+          "districtName": "GAJAPATI",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Jeerango RTTM Khasada",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3360,
+                            "blockName": "Mohana",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 3373,
+                                  "gpName": "Jeerango"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 3374,
+                                  "gpName": "Lobarsing"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Jeerango RTTM Khasada",
+                      "destinationId": 6
+                    }
+                  }
+                ],
+                "clusterId": 6
+              }
+            },
+            {
+              "cluster": {
+                "clusterName": "Mahendragiri",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3363,
+                            "blockName": "Rayagada",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 3335,
+                                  "gpName": "Koinpur"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Mahendragiri",
+                      "destinationId": 5
+                    }
+                  }
+                ],
+                "clusterId": 5
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2412,
+          "districtName": "GANJAM",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Sonapur",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3370,
+                            "blockName": "Chikiti",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 3684,
+                                  "gpName": "Ekasingi"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 3686,
+                                  "gpName": "Jhatipadar"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 3670,
+                                  "gpName": "Katuru"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 3697,
+                                  "gpName": "Sonapur"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 3691,
+                                  "gpName": "Surala"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Sonapur",
+                      "destinationId": 7
+                    }
+                  }
+                ],
+                "clusterId": 7
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2420,
+          "districtName": "JAJPUR",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Ratnagiri Udayagiri",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3394,
+                            "blockName": "Badchana",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 4204,
+                                  "gpName": "Gopalpur"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4191,
+                                  "gpName": "Kolanagiri"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4201,
+                                  "gpName": "Majhipada"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "block": {
+                            "blockId": 3395,
+                            "blockName": "Bari",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 4209,
+                                  "gpName": "Amathpur"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4223,
+                                  "gpName": "Dharapur"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4224,
+                                  "gpName": "Gamu"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4218,
+                                  "gpName": "Mahakalpada"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4211,
+                                  "gpName": "Mandari"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4207,
+                                  "gpName": "Ratnagiri"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+                      "destinationId": 8
+                    }
+                  }
+                ],
+                "clusterId": 8
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2408,
+          "districtName": "KANDHAMALA",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Daringbadi",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3424,
+                            "blockName": "Daringibadi",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 4918,
+                                  "gpName": "Daringbadi"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4926,
+                                  "gpName": "Greenbadi"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4920,
+                                  "gpName": "Pliheri"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4921,
+                                  "gpName": "Siangbali"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 4919,
+                                  "gpName": "Sraniketa"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Daringbadi",
+                      "destinationId": 9
+                    }
+                  }
+                ],
+                "clusterId": 9
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2406,
+          "districtName": "KATAKA",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Lalitgiri",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3339,
+                            "blockName": "Mahanga",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 2874,
+                                  "gpName": "Kusupur"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 2903,
+                                  "gpName": "Lalitagiri"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 2878,
+                                  "gpName": "Panaspur"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Lalitgiri under RUL Buddhist Circuit",
+                      "destinationId": 3
+                    }
+                  }
+                ],
+                "clusterId": 3
+              }
+            },
+            {
+              "cluster": {
+                "clusterName": "Satkosia",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3340,
+                            "blockName": "Narasinghpur",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 2919,
+                                  "gpName": "Kamaladiha"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Satkosia",
+                      "destinationId": 4
+                    }
+                  }
+                ],
+                "clusterId": 4
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2418,
+          "districtName": "KENDRAPADA",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Bhitarkanika",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3442,
+                            "blockName": "Rajnagar",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 5260,
+                                  "gpName": "Dangamal"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 5255,
+                                  "gpName": "Gupti"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 5262,
+                                  "gpName": "Hatina"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 5277,
+                                  "gpName": "Khamarsahi"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Bhitarkanika",
+                      "destinationId": 10
+                    }
+                  }
+                ],
+                "clusterId": 10
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2403,
+          "districtName": "KENDUJHAR",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Ghatagaon",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3447,
+                            "blockName": "Ghatgaon",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 5385,
+                                  "gpName": "Mukundapurpatna"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Ghatagaon",
+                      "destinationId": 11
+                    }
+                  }
+                ],
+                "clusterId": 11
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2423,
+          "districtName": "KHORDHA",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Chilika Mangalajodi",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3465,
+                            "blockName": "Tangi",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 5755,
+                                  "gpName": "Mangalajodi"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Chilika Mangalajodi",
+                      "destinationId": 12
+                    }
+                  }
+                ],
+                "clusterId": 12
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2411,
+          "districtName": "KORAPUT",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Koraput",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3478,
+                            "blockName": "Pottangi",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 5899,
+                                  "gpName": "Kotiya"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Deomali",
+                      "destinationId": 13
+                    }
+                  },
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3474,
+                            "blockName": "Lamtaput",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 5939,
+                                  "gpName": "Guneipada"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Duduma Waterfalls",
+                      "destinationId": 15
+                    }
+                  },
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3471,
+                            "blockName": "Koraput",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 5892,
+                                  "gpName": "Lankaput"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Kechela",
+                      "destinationId": 14
+                    }
+                  }
+                ],
+                "clusterId": 13
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2404,
+          "districtName": "MAYURBHANJ",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Similipal East",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3512,
+                            "blockName": "Udala",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 6514,
+                                  "gpName": "Kundabai"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Devkund",
+                      "destinationId": 18
+                    }
+                  },
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3487,
+                            "blockName": "Badasahi",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 6220,
+                                  "gpName": "Pratappur"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Haripur",
+                      "destinationId": 19
+                    }
+                  },
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3506,
+                            "blockName": "Samakhunta",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 6198,
+                                  "gpName": "Kuchilaghati"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Similipal Pithabata Sitakund",
+                      "destinationId": 20
+                    }
+                  }
+                ],
+                "clusterId": 15
+              }
+            },
+            {
+              "cluster": {
+                "clusterName": "Similipal West",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3510,
+                            "blockName": "Thakurmunda",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 6485,
+                                  "gpName": "Padiabeda"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Bhimakunda",
+                      "destinationId": 17
+                    }
+                  },
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3496,
+                            "blockName": "Joshipur",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 6311,
+                                  "gpName": "Dhalabani"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 6300,
+                                  "gpName": "Matiagarh"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 6302,
+                                  "gpName": "Podagarh"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Similipal Jashipur",
+                      "destinationId": 16
+                    }
+                  }
+                ],
+                "clusterId": 14
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2413,
+          "districtName": "PURI",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Chilika Satapada",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3542,
+                            "blockName": "Krushnaprasad",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 7061,
+                                  "gpName": "Pirijipur"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7053,
+                                  "gpName": "Satapada"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Chilika Satapada",
+                      "destinationId": 21
+                    }
+                  }
+                ],
+                "clusterId": 16
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2429,
+          "districtName": "RAYAGADA",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "LSDA Putasing",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3550,
+                            "blockName": "Gunupur",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 7438,
+                                  "gpName": "Abada"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7395,
+                                  "gpName": "Chinasari"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7442,
+                                  "gpName": "Kulusing"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7440,
+                                  "gpName": "Puttasing"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7443,
+                                  "gpName": "Sagada"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7439,
+                                  "gpName": "Tolana"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "LSDA Putasing",
+                      "destinationId": 22
+                    }
+                  }
+                ],
+                "clusterId": 17
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2401,
+          "districtName": "SAMBALPUR",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Sambalpur",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3564,
+                            "blockName": "Naktideul",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 7594,
+                                  "gpName": "Ghosaramal"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7592,
+                                  "gpName": "Naktideul"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7590,
+                                  "gpName": "Similipal"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Bhimamandali",
+                      "destinationId": 24
+                    }
+                  },
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3562,
+                            "blockName": "Kuchinda",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 7580,
+                                  "gpName": "Salebhadi"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Guduguda",
+                      "destinationId": 23
+                    }
+                  }
+                ],
+                "clusterId": 18
+              }
+            }
+          ]
+        }
+      },
+      {
+        "district": {
+          "districtId": 2402,
+          "districtName": "SUNDARAGADA",
+          "clusters": [
+            {
+              "cluster": {
+                "clusterName": "Khandadhar",
+                "destinations": [
+                  {
+                    "destination": {
+                      "blocks": [
+                        {
+                          "block": {
+                            "blockId": 3582,
+                            "blockName": "Lahunipara",
+                            "gps": [
+                              {
+                                "gp": {
+                                  "gpId": 7919,
+                                  "gpName": "Bhutuda"
+                                }
+                              },
+                              {
+                                "gp": {
+                                  "gpId": 7732,
+                                  "gpName": "Talbahali"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "destinationName": "Khandadhar",
+                      "destinationId": 25
+                    }
+                  }
+                ],
+                "clusterId": 19
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "outcome": true,
+    "message": "Data fetched successfully"
+  },
+  "rows": [
+    {
+      "district_id": 2405,
+      "district_name": "BALESHWAR",
+      "cluster_id": 1,
+      "cluster_name": "Talasari",
+      "destination_id": 1,
+      "destination_name": "Talasari",
+      "block_id": 3302,
+      "block_name": "Bhograi",
+      "gp_id": 1875,
+      "gp_name": "Huguli"
+    },
+    {
+      "district_id": 2405,
+      "district_name": "BALESHWAR",
+      "cluster_id": 1,
+      "cluster_name": "Talasari",
+      "destination_id": 1,
+      "destination_name": "Talasari",
+      "block_id": 3302,
+      "block_name": "Bhograi",
+      "gp_id": 1892,
+      "gp_name": "Sahabajipur"
+    },
+    {
+      "district_id": 2414,
+      "district_name": "BARAGADA",
+      "cluster_id": 2,
+      "cluster_name": "Debrigarh",
+      "destination_id": 2,
+      "destination_name": "Debrigarh",
+      "block_id": 3310,
+      "block_name": "Ambabhona",
+      "gp_id": 2124,
+      "gp_name": "Karla"
+    },
+    {
+      "district_id": 2414,
+      "district_name": "BARAGADA",
+      "cluster_id": 2,
+      "cluster_name": "Debrigarh",
+      "destination_id": 2,
+      "destination_name": "Debrigarh",
+      "block_id": 3310,
+      "block_name": "Ambabhona",
+      "gp_id": 2115,
+      "gp_name": "Lakhanpur"
+    },
+    {
+      "district_id": 2414,
+      "district_name": "BARAGADA",
+      "cluster_id": 2,
+      "cluster_name": "Debrigarh",
+      "destination_id": 2,
+      "destination_name": "Debrigarh",
+      "block_id": 3311,
+      "block_name": "Attabira",
+      "gp_id": 2153,
+      "gp_name": "Paharsrigida"
+    },
+    {
+      "district_id": 2424,
+      "district_name": "GAJAPATI",
+      "cluster_id": 6,
+      "cluster_name": "Jeerango RTTM Khasada",
+      "destination_id": 6,
+      "destination_name": "Jeerango RTTM Khasada",
+      "block_id": 3360,
+      "block_name": "Mohana",
+      "gp_id": 3373,
+      "gp_name": "Jeerango"
+    },
+    {
+      "district_id": 2424,
+      "district_name": "GAJAPATI",
+      "cluster_id": 6,
+      "cluster_name": "Jeerango RTTM Khasada",
+      "destination_id": 6,
+      "destination_name": "Jeerango RTTM Khasada",
+      "block_id": 3360,
+      "block_name": "Mohana",
+      "gp_id": 3374,
+      "gp_name": "Lobarsing"
+    },
+    {
+      "district_id": 2424,
+      "district_name": "GAJAPATI",
+      "cluster_id": 5,
+      "cluster_name": "Mahendragiri",
+      "destination_id": 5,
+      "destination_name": "Mahendragiri",
+      "block_id": 3363,
+      "block_name": "Rayagada",
+      "gp_id": 3335,
+      "gp_name": "Koinpur"
+    },
+    {
+      "district_id": 2412,
+      "district_name": "GANJAM",
+      "cluster_id": 7,
+      "cluster_name": "Sonapur",
+      "destination_id": 7,
+      "destination_name": "Sonapur",
+      "block_id": 3370,
+      "block_name": "Chikiti",
+      "gp_id": 3684,
+      "gp_name": "Ekasingi"
+    },
+    {
+      "district_id": 2412,
+      "district_name": "GANJAM",
+      "cluster_id": 7,
+      "cluster_name": "Sonapur",
+      "destination_id": 7,
+      "destination_name": "Sonapur",
+      "block_id": 3370,
+      "block_name": "Chikiti",
+      "gp_id": 3686,
+      "gp_name": "Jhatipadar"
+    },
+    {
+      "district_id": 2412,
+      "district_name": "GANJAM",
+      "cluster_id": 7,
+      "cluster_name": "Sonapur",
+      "destination_id": 7,
+      "destination_name": "Sonapur",
+      "block_id": 3370,
+      "block_name": "Chikiti",
+      "gp_id": 3670,
+      "gp_name": "Katuru"
+    },
+    {
+      "district_id": 2412,
+      "district_name": "GANJAM",
+      "cluster_id": 7,
+      "cluster_name": "Sonapur",
+      "destination_id": 7,
+      "destination_name": "Sonapur",
+      "block_id": 3370,
+      "block_name": "Chikiti",
+      "gp_id": 3697,
+      "gp_name": "Sonapur"
+    },
+    {
+      "district_id": 2412,
+      "district_name": "GANJAM",
+      "cluster_id": 7,
+      "cluster_name": "Sonapur",
+      "destination_id": 7,
+      "destination_name": "Sonapur",
+      "block_id": 3370,
+      "block_name": "Chikiti",
+      "gp_id": 3691,
+      "gp_name": "Surala"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3394,
+      "block_name": "Badchana",
+      "gp_id": 4204,
+      "gp_name": "Gopalpur"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3394,
+      "block_name": "Badchana",
+      "gp_id": 4191,
+      "gp_name": "Kolanagiri"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3394,
+      "block_name": "Badchana",
+      "gp_id": 4201,
+      "gp_name": "Majhipada"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3395,
+      "block_name": "Bari",
+      "gp_id": 4209,
+      "gp_name": "Amathpur"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3395,
+      "block_name": "Bari",
+      "gp_id": 4223,
+      "gp_name": "Dharapur"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3395,
+      "block_name": "Bari",
+      "gp_id": 4224,
+      "gp_name": "Gamu"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3395,
+      "block_name": "Bari",
+      "gp_id": 4218,
+      "gp_name": "Mahakalpada"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3395,
+      "block_name": "Bari",
+      "gp_id": 4211,
+      "gp_name": "Mandari"
+    },
+    {
+      "district_id": 2420,
+      "district_name": "JAJPUR",
+      "cluster_id": 8,
+      "cluster_name": "Ratnagiri Udayagiri",
+      "destination_id": 8,
+      "destination_name": "Ratnagiri Udayagiri under RUL Buddhist Circuit",
+      "block_id": 3395,
+      "block_name": "Bari",
+      "gp_id": 4207,
+      "gp_name": "Ratnagiri"
+    },
+    {
+      "district_id": 2408,
+      "district_name": "KANDHAMALA",
+      "cluster_id": 9,
+      "cluster_name": "Daringbadi",
+      "destination_id": 9,
+      "destination_name": "Daringbadi",
+      "block_id": 3424,
+      "block_name": "Daringibadi",
+      "gp_id": 4918,
+      "gp_name": "Daringbadi"
+    },
+    {
+      "district_id": 2408,
+      "district_name": "KANDHAMALA",
+      "cluster_id": 9,
+      "cluster_name": "Daringbadi",
+      "destination_id": 9,
+      "destination_name": "Daringbadi",
+      "block_id": 3424,
+      "block_name": "Daringibadi",
+      "gp_id": 4926,
+      "gp_name": "Greenbadi"
+    },
+    {
+      "district_id": 2408,
+      "district_name": "KANDHAMALA",
+      "cluster_id": 9,
+      "cluster_name": "Daringbadi",
+      "destination_id": 9,
+      "destination_name": "Daringbadi",
+      "block_id": 3424,
+      "block_name": "Daringibadi",
+      "gp_id": 4920,
+      "gp_name": "Pliheri"
+    },
+    {
+      "district_id": 2408,
+      "district_name": "KANDHAMALA",
+      "cluster_id": 9,
+      "cluster_name": "Daringbadi",
+      "destination_id": 9,
+      "destination_name": "Daringbadi",
+      "block_id": 3424,
+      "block_name": "Daringibadi",
+      "gp_id": 4921,
+      "gp_name": "Siangbali"
+    },
+    {
+      "district_id": 2408,
+      "district_name": "KANDHAMALA",
+      "cluster_id": 9,
+      "cluster_name": "Daringbadi",
+      "destination_id": 9,
+      "destination_name": "Daringbadi",
+      "block_id": 3424,
+      "block_name": "Daringibadi",
+      "gp_id": 4919,
+      "gp_name": "Sraniketa"
+    },
+    {
+      "district_id": 2406,
+      "district_name": "KATAKA",
+      "cluster_id": 3,
+      "cluster_name": "Lalitgiri",
+      "destination_id": 3,
+      "destination_name": "Lalitgiri under RUL Buddhist Circuit",
+      "block_id": 3339,
+      "block_name": "Mahanga",
+      "gp_id": 2874,
+      "gp_name": "Kusupur"
+    },
+    {
+      "district_id": 2406,
+      "district_name": "KATAKA",
+      "cluster_id": 3,
+      "cluster_name": "Lalitgiri",
+      "destination_id": 3,
+      "destination_name": "Lalitgiri under RUL Buddhist Circuit",
+      "block_id": 3339,
+      "block_name": "Mahanga",
+      "gp_id": 2903,
+      "gp_name": "Lalitagiri"
+    },
+    {
+      "district_id": 2406,
+      "district_name": "KATAKA",
+      "cluster_id": 3,
+      "cluster_name": "Lalitgiri",
+      "destination_id": 3,
+      "destination_name": "Lalitgiri under RUL Buddhist Circuit",
+      "block_id": 3339,
+      "block_name": "Mahanga",
+      "gp_id": 2878,
+      "gp_name": "Panaspur"
+    },
+    {
+      "district_id": 2406,
+      "district_name": "KATAKA",
+      "cluster_id": 4,
+      "cluster_name": "Satkosia",
+      "destination_id": 4,
+      "destination_name": "Satkosia",
+      "block_id": 3340,
+      "block_name": "Narasinghpur",
+      "gp_id": 2919,
+      "gp_name": "Kamaladiha"
+    },
+    {
+      "district_id": 2418,
+      "district_name": "KENDRAPADA",
+      "cluster_id": 10,
+      "cluster_name": "Bhitarkanika",
+      "destination_id": 10,
+      "destination_name": "Bhitarkanika",
+      "block_id": 3442,
+      "block_name": "Rajnagar",
+      "gp_id": 5260,
+      "gp_name": "Dangamal"
+    },
+    {
+      "district_id": 2418,
+      "district_name": "KENDRAPADA",
+      "cluster_id": 10,
+      "cluster_name": "Bhitarkanika",
+      "destination_id": 10,
+      "destination_name": "Bhitarkanika",
+      "block_id": 3442,
+      "block_name": "Rajnagar",
+      "gp_id": 5255,
+      "gp_name": "Gupti"
+    },
+    {
+      "district_id": 2418,
+      "district_name": "KENDRAPADA",
+      "cluster_id": 10,
+      "cluster_name": "Bhitarkanika",
+      "destination_id": 10,
+      "destination_name": "Bhitarkanika",
+      "block_id": 3442,
+      "block_name": "Rajnagar",
+      "gp_id": 5262,
+      "gp_name": "Hatina"
+    },
+    {
+      "district_id": 2418,
+      "district_name": "KENDRAPADA",
+      "cluster_id": 10,
+      "cluster_name": "Bhitarkanika",
+      "destination_id": 10,
+      "destination_name": "Bhitarkanika",
+      "block_id": 3442,
+      "block_name": "Rajnagar",
+      "gp_id": 5277,
+      "gp_name": "Khamarsahi"
+    },
+    {
+      "district_id": 2403,
+      "district_name": "KENDUJHAR",
+      "cluster_id": 11,
+      "cluster_name": "Ghatagaon",
+      "destination_id": 11,
+      "destination_name": "Ghatagaon",
+      "block_id": 3447,
+      "block_name": "Ghatgaon",
+      "gp_id": 5385,
+      "gp_name": "Mukundapurpatna"
+    },
+    {
+      "district_id": 2423,
+      "district_name": "KHORDHA",
+      "cluster_id": 12,
+      "cluster_name": "Chilika Mangalajodi",
+      "destination_id": 12,
+      "destination_name": "Chilika Mangalajodi",
+      "block_id": 3465,
+      "block_name": "Tangi",
+      "gp_id": 5755,
+      "gp_name": "Mangalajodi"
+    },
+    {
+      "district_id": 2411,
+      "district_name": "KORAPUT",
+      "cluster_id": 13,
+      "cluster_name": "Koraput",
+      "destination_id": 13,
+      "destination_name": "Deomali",
+      "block_id": 3478,
+      "block_name": "Pottangi",
+      "gp_id": 5899,
+      "gp_name": "Kotiya"
+    },
+    {
+      "district_id": 2411,
+      "district_name": "KORAPUT",
+      "cluster_id": 13,
+      "cluster_name": "Koraput",
+      "destination_id": 15,
+      "destination_name": "Duduma Waterfalls",
+      "block_id": 3474,
+      "block_name": "Lamtaput",
+      "gp_id": 5939,
+      "gp_name": "Guneipada"
+    },
+    {
+      "district_id": 2411,
+      "district_name": "KORAPUT",
+      "cluster_id": 13,
+      "cluster_name": "Koraput",
+      "destination_id": 14,
+      "destination_name": "Kechela",
+      "block_id": 3471,
+      "block_name": "Koraput",
+      "gp_id": 5892,
+      "gp_name": "Lankaput"
+    },
+    {
+      "district_id": 2404,
+      "district_name": "MAYURBHANJ",
+      "cluster_id": 15,
+      "cluster_name": "Similipal East",
+      "destination_id": 18,
+      "destination_name": "Devkund",
+      "block_id": 3512,
+      "block_name": "Udala",
+      "gp_id": 6514,
+      "gp_name": "Kundabai"
+    },
+    {
+      "district_id": 2404,
+      "district_name": "MAYURBHANJ",
+      "cluster_id": 15,
+      "cluster_name": "Similipal East",
+      "destination_id": 19,
+      "destination_name": "Haripur",
+      "block_id": 3487,
+      "block_name": "Badasahi",
+      "gp_id": 6220,
+      "gp_name": "Pratappur"
+    },
+    {
+      "district_id": 2404,
+      "district_name": "MAYURBHANJ",
+      "cluster_id": 15,
+      "cluster_name": "Similipal East",
+      "destination_id": 20,
+      "destination_name": "Similipal Pithabata Sitakund",
+      "block_id": 3506,
+      "block_name": "Samakhunta",
+      "gp_id": 6198,
+      "gp_name": "Kuchilaghati"
+    },
+    {
+      "district_id": 2404,
+      "district_name": "MAYURBHANJ",
+      "cluster_id": 14,
+      "cluster_name": "Similipal West",
+      "destination_id": 17,
+      "destination_name": "Bhimakunda",
+      "block_id": 3510,
+      "block_name": "Thakurmunda",
+      "gp_id": 6485,
+      "gp_name": "Padiabeda"
+    },
+    {
+      "district_id": 2404,
+      "district_name": "MAYURBHANJ",
+      "cluster_id": 14,
+      "cluster_name": "Similipal West",
+      "destination_id": 16,
+      "destination_name": "Similipal Jashipur",
+      "block_id": 3496,
+      "block_name": "Joshipur",
+      "gp_id": 6311,
+      "gp_name": "Dhalabani"
+    },
+    {
+      "district_id": 2404,
+      "district_name": "MAYURBHANJ",
+      "cluster_id": 14,
+      "cluster_name": "Similipal West",
+      "destination_id": 16,
+      "destination_name": "Similipal Jashipur",
+      "block_id": 3496,
+      "block_name": "Joshipur",
+      "gp_id": 6300,
+      "gp_name": "Matiagarh"
+    },
+    {
+      "district_id": 2404,
+      "district_name": "MAYURBHANJ",
+      "cluster_id": 14,
+      "cluster_name": "Similipal West",
+      "destination_id": 16,
+      "destination_name": "Similipal Jashipur",
+      "block_id": 3496,
+      "block_name": "Joshipur",
+      "gp_id": 6302,
+      "gp_name": "Podagarh"
+    },
+    {
+      "district_id": 2413,
+      "district_name": "PURI",
+      "cluster_id": 16,
+      "cluster_name": "Chilika Satapada",
+      "destination_id": 21,
+      "destination_name": "Chilika Satapada",
+      "block_id": 3542,
+      "block_name": "Krushnaprasad",
+      "gp_id": 7061,
+      "gp_name": "Pirijipur"
+    },
+    {
+      "district_id": 2413,
+      "district_name": "PURI",
+      "cluster_id": 16,
+      "cluster_name": "Chilika Satapada",
+      "destination_id": 21,
+      "destination_name": "Chilika Satapada",
+      "block_id": 3542,
+      "block_name": "Krushnaprasad",
+      "gp_id": 7053,
+      "gp_name": "Satapada"
+    },
+    {
+      "district_id": 2429,
+      "district_name": "RAYAGADA",
+      "cluster_id": 17,
+      "cluster_name": "LSDA Putasing",
+      "destination_id": 22,
+      "destination_name": "LSDA Putasing",
+      "block_id": 3550,
+      "block_name": "Gunupur",
+      "gp_id": 7438,
+      "gp_name": "Abada"
+    },
+    {
+      "district_id": 2429,
+      "district_name": "RAYAGADA",
+      "cluster_id": 17,
+      "cluster_name": "LSDA Putasing",
+      "destination_id": 22,
+      "destination_name": "LSDA Putasing",
+      "block_id": 3550,
+      "block_name": "Gunupur",
+      "gp_id": 7395,
+      "gp_name": "Chinasari"
+    },
+    {
+      "district_id": 2429,
+      "district_name": "RAYAGADA",
+      "cluster_id": 17,
+      "cluster_name": "LSDA Putasing",
+      "destination_id": 22,
+      "destination_name": "LSDA Putasing",
+      "block_id": 3550,
+      "block_name": "Gunupur",
+      "gp_id": 7442,
+      "gp_name": "Kulusing"
+    },
+    {
+      "district_id": 2429,
+      "district_name": "RAYAGADA",
+      "cluster_id": 17,
+      "cluster_name": "LSDA Putasing",
+      "destination_id": 22,
+      "destination_name": "LSDA Putasing",
+      "block_id": 3550,
+      "block_name": "Gunupur",
+      "gp_id": 7440,
+      "gp_name": "Puttasing"
+    },
+    {
+      "district_id": 2429,
+      "district_name": "RAYAGADA",
+      "cluster_id": 17,
+      "cluster_name": "LSDA Putasing",
+      "destination_id": 22,
+      "destination_name": "LSDA Putasing",
+      "block_id": 3550,
+      "block_name": "Gunupur",
+      "gp_id": 7443,
+      "gp_name": "Sagada"
+    },
+    {
+      "district_id": 2429,
+      "district_name": "RAYAGADA",
+      "cluster_id": 17,
+      "cluster_name": "LSDA Putasing",
+      "destination_id": 22,
+      "destination_name": "LSDA Putasing",
+      "block_id": 3550,
+      "block_name": "Gunupur",
+      "gp_id": 7439,
+      "gp_name": "Tolana"
+    },
+    {
+      "district_id": 2401,
+      "district_name": "SAMBALPUR",
+      "cluster_id": 18,
+      "cluster_name": "Sambalpur",
+      "destination_id": 24,
+      "destination_name": "Bhimamandali",
+      "block_id": 3564,
+      "block_name": "Naktideul",
+      "gp_id": 7594,
+      "gp_name": "Ghosaramal"
+    },
+    {
+      "district_id": 2401,
+      "district_name": "SAMBALPUR",
+      "cluster_id": 18,
+      "cluster_name": "Sambalpur",
+      "destination_id": 24,
+      "destination_name": "Bhimamandali",
+      "block_id": 3564,
+      "block_name": "Naktideul",
+      "gp_id": 7592,
+      "gp_name": "Naktideul"
+    },
+    {
+      "district_id": 2401,
+      "district_name": "SAMBALPUR",
+      "cluster_id": 18,
+      "cluster_name": "Sambalpur",
+      "destination_id": 24,
+      "destination_name": "Bhimamandali",
+      "block_id": 3564,
+      "block_name": "Naktideul",
+      "gp_id": 7590,
+      "gp_name": "Similipal"
+    },
+    {
+      "district_id": 2401,
+      "district_name": "SAMBALPUR",
+      "cluster_id": 18,
+      "cluster_name": "Sambalpur",
+      "destination_id": 23,
+      "destination_name": "Guduguda",
+      "block_id": 3562,
+      "block_name": "Kuchinda",
+      "gp_id": 7580,
+      "gp_name": "Salebhadi"
+    },
+    {
+      "district_id": 2402,
+      "district_name": "SUNDARAGADA",
+      "cluster_id": 19,
+      "cluster_name": "Khandadhar",
+      "destination_id": 25,
+      "destination_name": "Khandadhar",
+      "block_id": 3582,
+      "block_name": "Lahunipara",
+      "gp_id": 7919,
+      "gp_name": "Bhutuda"
+    },
+    {
+      "district_id": 2402,
+      "district_name": "SUNDARAGADA",
+      "cluster_id": 19,
+      "cluster_name": "Khandadhar",
+      "destination_id": 25,
+      "destination_name": "Khandadhar",
+      "block_id": 3582,
+      "block_name": "Lahunipara",
+      "gp_id": 7732,
+      "gp_name": "Talbahali"
+    }
+  ],
+  "counts": {
+    "district": 16,
+    "cluster": 19,
+    "destination": 25,
+    "block": 27,
+    "gp": 61
+  },
+  "count_method": "Distinct publisher IDs at each hierarchy level; no aliases merged; missing districts not inferred as legally excluded.",
+  "same_source_family": [
+    "homestay-go-portal",
+    "homestay-portal-area-list"
+  ],
+  "not_established": [
+    "Gazette eligibility",
+    "Cycle-1 allocation quantities",
+    "active properties",
+    "application window",
+    "bookable rooms"
+  ],
+  "human_review_claimed": false
+}

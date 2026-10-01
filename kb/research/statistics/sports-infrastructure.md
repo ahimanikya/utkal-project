@@ -43,3 +43,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^enterprise-hockeyindia2023]: [Hockey India 2023 year in review, 31 December 2023](https://www.hockeyindia.org/news/year-in-review-hockey-india-revamps-domestic-circuit-hosts-multiple-international-events-across-different-cities-in-2023)
+
+## Sporting achievements · 1 October 2026
+
+[Eight athlete profiles across four sports](../people/sporting-achievements.md) connect official results with dated Odisha affiliations. Team medals, individual results, career caps, heat positions and chess scores retain their separate meanings. This research collection is not a statewide medal total.

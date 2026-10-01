@@ -1,0 +1,519 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T08:41:20.810084-07:00",
+  "coverage": "Historical Utkal/Odisha connections to the present; selected evidence, not complete census or continuous lineage. Ancient Utkal, Kalinga and modern Odisha boundaries must be established for each record.",
+  "timeline": [
+    {
+      "period": "Before 1099 CE",
+      "person_id": null,
+      "status": "research_gap",
+      "note": "Investigate technical traditions and named scholars through dated manuscripts, inscriptions and archaeology. No securely sourced named scientist for this period has been established in this batch."
+    },
+    {
+      "period": "1099 CE",
+      "person_id": "people/satananda",
+      "work_id": "works/bhasvati",
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh"
+      ],
+      "status": "historical_study_attribution"
+    },
+    {
+      "period": "19th century; Siddhanta Darpana catalogue dated 1899",
+      "person_id": "people/samanta-chandrasekhar",
+      "project_record": "kb/research/people/samanta-chandrasekhar.json",
+      "status": "reuse_project_native_record",
+      "note": "Existing bibliography and birth-date conflict preserved; no new biography or changed website JSON."
+    },
+    {
+      "period": "1928",
+      "person_id": "people/prana-krushna-parija",
+      "work_id": "works/parija-apple-respiration-1928",
+      "source_ids": [
+        "science-parija-niser",
+        "science-parija-ias-papers"
+      ],
+      "status": "bibliographic_capture"
+    },
+    {
+      "period": "1959–1961 award group; reported encyclopaedia 2005",
+      "person_id": "people/gokulananda-mohapatra",
+      "work_ids": [
+        "works/e-jugara-shrestha-abiskar",
+        "works/baigyanika-gyanakosha"
+      ],
+      "source_ids": [
+        "science-gokulananda-award-register",
+        "science-gokulananda-ova"
+      ],
+      "status": "indexed_institutional_evidence_with_conflicts"
+    },
+    {
+      "period": "1960 paper",
+      "person_id": "people/tribikram-pati",
+      "work_id": "works/pati-summability-1960",
+      "source_ids": [
+        "science-pati-summability-1960"
+      ],
+      "status": "original_paper_scoped_read"
+    },
+    {
+      "period": "1994 paper; TWAS election 1998; IEEE award 1999",
+      "person_id": "people/lalit-mohan-patnaik",
+      "work_id": "works/adaptive-genetic-algorithms-1994",
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "status": "institutional_records_and_author_bibliography",
+      "note": "CV education and paper entry inspected; original article not read; IEEE award evidence indexed only."
+    },
+    {
+      "period": "2009 paper; 2021 Infosys Prize",
+      "person_id": "people/bedangadas-mohanty",
+      "work_id": "works/qcd-phase-diagram-2009",
+      "status": "reuse_existing_research",
+      "source_ids": [
+        "creators-bedangadas-infosys",
+        "creators-qcd-paper"
+      ]
+    },
+    {
+      "period": "2012 Odia speech-processing chapter",
+      "person_id": "people/sanghamitra-mohanty",
+      "work_id": "works/odia-speech-wiener-filter-2012",
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "status": "publisher_abstract_and_bibliography",
+      "note": "Source context and shared credit retained; full work not read."
+    },
+    {
+      "period": "2015 paper",
+      "person_id": "people/sanghamitra-pati",
+      "work_id": "works/odisha-multimorbidity-2015",
+      "status": "reuse_existing_research",
+      "source_ids": [
+        "science-pati-multimorbidity-2015"
+      ]
+    },
+    {
+      "period": "2017 preprint; DAE appointment 2023",
+      "person_id": "people/ajit-kumar-mohanty-physicist",
+      "work_id": "works/antineutrino-shoulder-2017",
+      "status": "primary_institution_and_preprint",
+      "source_ids": [
+        "science-ajit-dae",
+        "science-ajit-antineutrino"
+      ]
+    },
+    {
+      "period": "2022 space-policy article",
+      "person_id": "people/susmita-mohanty",
+      "work_id": "works/newspace-india-inspace-2022",
+      "source_ids": [
+        "science-susmita-bio",
+        "science-susmita-isti",
+        "science-susmita-newspace"
+      ],
+      "status": "publisher_abstract_and_bibliography",
+      "note": "Source context and shared credit retained; full work not read."
+    },
+    {
+      "period": "2023 award",
+      "person_id": "people/swati-nayak",
+      "work_id": "works/odisha-rice-seed-deployment",
+      "status": "reuse_existing_research",
+      "source_ids": [
+        "science-nayak-borlaug"
+      ]
+    }
+  ],
+  "research_lanes": [
+    {
+      "era": "ancient and early medieval",
+      "next": "Inspect manuscript catalogues, inscriptions and archaeological research; distinguish named people from collective engineering/navigation practices."
+    },
+    {
+      "era": "medieval to early modern",
+      "next": "Four IGNCA catalogue witnesses and three Odisha Ganita entries saved. Retrieve colophons and original images for attribution; Devīdāsa lead unresolved. Retry unavailable survey and museum detail routes after 2026-10-08."
+    },
+    {
+      "era": "nineteenth and twentieth centuries",
+      "next": "Tribikram Pati and Gokulananda Mohapatra checkpoint saved. Resolve degree, award and birth-date conflicts through original registers; extend chemistry research separately from science writing."
+    },
+    {
+      "era": "contemporary",
+      "next": "Selected computing and space design/policy contributions saved. Follow up primary award/appointment registers and original methods after2026-10-08; further identities require a deduplicated next-cycle task."
+    }
+  ],
+  "human_review_claimed": false,
+  "manuscript_evidence": {
+    "scope": "Selected catalogue descriptions, not a census, manuscript autopsy or independent author identity verification.",
+    "checked_on": "2026-10-01",
+    "collection_page": "history/scientific-manuscripts.md",
+    "bhasvati_witnesses": [
+      {
+        "id": "ignca-jyotish-2024-883",
+        "work_id": "works/bhasvati",
+        "entry_number": 883,
+        "catalogue_identifier": "BI10842",
+        "repository_accession_as_printed": "823/1884-87",
+        "original_repository_as_catalogued": "Bhandarkar Oriental Research Institute, Pune",
+        "representation": "IGNCA microfilm catalogue record",
+        "folios": 12,
+        "material": "paper",
+        "language": "Sanskrit",
+        "script_as_catalogued": "Devanāgarī",
+        "completeness_as_catalogued": "complete",
+        "copy_date_as_catalogued": "Saṁvat 1746",
+        "copy_date_ce": null,
+        "commentator_as_catalogued": null,
+        "author_as_catalogued": "Śatānanda",
+        "manuscript_inspected": false,
+        "source_ids": [
+          "science-ignca-jyotish-2024"
+        ],
+        "locator": "printed p.102 / PDF p.120; entry 883",
+        "publication_year": 2024,
+        "checked_on": "2026-10-01"
+      },
+      {
+        "id": "ignca-jyotish-2024-884",
+        "work_id": "works/bhasvati",
+        "entry_number": 884,
+        "catalogue_identifier": "BI10843",
+        "repository_accession_as_printed": "885/1891-95",
+        "original_repository_as_catalogued": "Bhandarkar Oriental Research Institute, Pune",
+        "representation": "IGNCA microfilm catalogue record",
+        "folios": 6,
+        "material": "paper",
+        "language": "Sanskrit",
+        "script_as_catalogued": "Devanāgarī",
+        "completeness_as_catalogued": "complete",
+        "copy_date_as_catalogued": "Saṁvat 1855",
+        "copy_date_ce": null,
+        "commentator_as_catalogued": null,
+        "author_as_catalogued": "Śatānanda",
+        "manuscript_inspected": false,
+        "source_ids": [
+          "science-ignca-jyotish-2024"
+        ],
+        "locator": "printed p.102 / PDF p.120; entry 884",
+        "publication_year": 2024,
+        "checked_on": "2026-10-01"
+      },
+      {
+        "id": "ignca-jyotish-2024-885",
+        "work_id": "works/bhasvati",
+        "entry_number": 885,
+        "catalogue_identifier": "KS4",
+        "repository_accession_as_printed": "J-4",
+        "original_repository_as_catalogued": "Kamarupa Anusandhan Samiti, Guwahati",
+        "representation": "IGNCA microfilm catalogue record",
+        "folios": 32,
+        "material": "paper",
+        "language": "Sanskrit",
+        "script_as_catalogued": "Asamiyā",
+        "completeness_as_catalogued": "complete",
+        "copy_date_as_catalogued": null,
+        "copy_date_ce": null,
+        "commentator_as_catalogued": "Karirāja Cakravarti",
+        "author_as_catalogued": null,
+        "manuscript_inspected": false,
+        "source_ids": [
+          "science-ignca-jyotish-2024"
+        ],
+        "locator": "printed p.102 / PDF p.120; entry 885",
+        "publication_year": 2024,
+        "checked_on": "2026-10-01"
+      },
+      {
+        "id": "ignca-jyotish-2024-886",
+        "work_id": "works/bhasvati",
+        "entry_number": 886,
+        "catalogue_identifier": "SB34646",
+        "repository_accession_as_printed": "P. S. 41957/A-761",
+        "original_repository_as_catalogued": "Saraswati Bhawan Library, Varanasi",
+        "representation": "IGNCA microfilm catalogue record",
+        "folios": 7,
+        "material": "paper",
+        "language": "Sanskrit",
+        "script_as_catalogued": "Devanāgarī",
+        "completeness_as_catalogued": "incomplete",
+        "copy_date_as_catalogued": null,
+        "copy_date_ce": null,
+        "commentator_as_catalogued": null,
+        "author_as_catalogued": "Śatānanda",
+        "manuscript_inspected": false,
+        "source_ids": [
+          "science-ignca-jyotish-2024"
+        ],
+        "locator": "printed p.102 / PDF p.120; entry 886",
+        "publication_year": 2024,
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "odisha_mathematics_records": [
+      {
+        "id": "osm-g-141",
+        "catalogue_number": "G/141",
+        "title_as_catalogued": "Lilabati Pati Ganita",
+        "material": "Palm Leaf",
+        "author": null,
+        "author_field_status": "blank on captured listing",
+        "language_label_as_catalogued": "oriya sanskrit",
+        "pages_as_catalogued": 204,
+        "unit": "pages as labelled; not converted to folios",
+        "composition_date": null,
+        "copy_date": null,
+        "english_translation": null,
+        "full_text_access_verified": false,
+        "source_ids": [
+          "science-osm-ganita-catalogue"
+        ],
+        "locator": "second result page; G/141",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "id": "osm-g-43",
+        "catalogue_number": "G/43",
+        "title_as_catalogued": "Ganita Chautisha",
+        "material": "Palm Leaf",
+        "author": null,
+        "author_field_status": "blank on captured listing",
+        "language_label_as_catalogued": "oriya sanskrit",
+        "pages_as_catalogued": 22,
+        "unit": "pages as labelled; not converted to folios",
+        "composition_date": null,
+        "copy_date": null,
+        "english_translation": null,
+        "full_text_access_verified": false,
+        "source_ids": [
+          "science-osm-ganita-catalogue"
+        ],
+        "locator": "second result page; G/43",
+        "checked_on": "2026-10-01"
+      },
+      {
+        "id": "osm-g-112",
+        "catalogue_number": "G/112",
+        "title_as_catalogued": "Khadi Pothi",
+        "material": "Palm Leaf",
+        "author": null,
+        "author_field_status": "blank on captured listing",
+        "language_label_as_catalogued": "oriya sanskrit",
+        "pages_as_catalogued": 232,
+        "unit": "pages as labelled; not converted to folios",
+        "composition_date": null,
+        "copy_date": null,
+        "english_translation": null,
+        "full_text_access_verified": false,
+        "source_ids": [
+          "science-osm-ganita-catalogue"
+        ],
+        "locator": "second result page; G/112",
+        "checked_on": "2026-10-01"
+      }
+    ],
+    "collection_observations": [
+      {
+        "id": "science-osm-manuscripts-inventory",
+        "value": 37000,
+        "unit": "manuscripts / manuscript artifacts as labelled",
+        "geography": "Odisha State Museum, Bhubaneswar; institutional collection",
+        "reference_period": null,
+        "publication_date": null,
+        "retrieved_on": "2026-10-01",
+        "estimate_status": "approximate",
+        "source_ids": [
+          "science-osm-manuscripts"
+        ],
+        "publication_status": "dated_inventory_required_for_current_statistic",
+        "comparability": "Different undated pages from one institution; no growth calculation or unique-work/scientific-text total."
+      },
+      {
+        "id": "science-osm-collection-inventory",
+        "value": 37273,
+        "unit": "manuscripts / manuscript artifacts as labelled",
+        "geography": "Odisha State Museum, Bhubaneswar; institutional collection",
+        "reference_period": null,
+        "publication_date": null,
+        "retrieved_on": "2026-10-01",
+        "estimate_status": "as listed",
+        "source_ids": [
+          "science-osm-collection"
+        ],
+        "publication_status": "dated_inventory_required_for_current_statistic",
+        "comparability": "Different undated pages from one institution; no growth calculation or unique-work/scientific-text total."
+      }
+    ]
+  },
+  "quarantined_conflicts": [
+    {
+      "id": "gokulananda-birth-date",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "exact_birth_date",
+      "claims": [
+        {
+          "value": "1922-11-13",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "1922-05-24",
+          "source_id": "science-gokulananda-dream-2013"
+        }
+      ],
+      "public_resolution": "Year 1922 only; exact date unresolved."
+    },
+    {
+      "id": "gokulananda-literary-award",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "award_period",
+      "claims": [
+        {
+          "value": "1986",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "1959–1961 group; selected work row 22",
+          "source_id": "science-gokulananda-award-register"
+        }
+      ],
+      "public_resolution": "Use attributed register group; exact year unresolved."
+    },
+    {
+      "id": "gokulananda-kalinga-identity",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "award_identity_and_year",
+      "claims": [
+        {
+          "value": "Kalinga Award 2010",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "Not listed in UNESCO register; 2011 entry names René Raúl Drucker Colín",
+          "source_id": "science-unesco-kalinga-laureates"
+        }
+      ],
+      "public_resolution": "No UNESCO laureate claim; retrieve separate Kalinga Samman issuer record."
+    },
+    {
+      "id": "gokulananda-first-article",
+      "person_id": "people/gokulananda-mohapatra",
+      "field": "early_atom_bomb_article",
+      "claims": [
+        {
+          "value": "Published in Shankha 1955",
+          "source_id": "science-gokulananda-ova"
+        },
+        {
+          "value": "Initial manuscript lost; follow-up coal-tar article 1946",
+          "source_id": "science-gokulananda-dream-2013"
+        }
+      ],
+      "public_resolution": "No first-in-language or exact publication-year claim."
+    },
+    {
+      "id": "tribikram-degree-chronology",
+      "person_id": "people/tribikram-pati",
+      "field": "degree_1956",
+      "claims": [
+        {
+          "value": "D.Phil. 1953; D.Sc. 1956",
+          "source_id": "science-parija-niser"
+        },
+        {
+          "value": "Thesis 1956 labelled PhD",
+          "source_id": "science-pati-indcat"
+        }
+      ],
+      "public_resolution": "University doctoral register needed; exact degree dates withheld."
+    },
+    {
+      "id": "speech-chapter-conference-navigation",
+      "work_id": "works/odia-speech-wiener-filter-2012",
+      "field": "conference_year_label",
+      "claims": [
+        {
+          "value": "FRSM2023 in chapter navigation/citation",
+          "source_id": "science-sm-speech"
+        },
+        {
+          "value": "FRSM2011, Bhubaneswar 9–12 March2011",
+          "source_id": "science-sm-proceedings"
+        }
+      ],
+      "public_resolution": "Use explicit parent-volume conference dates and 2012 publication; navigation anomaly retained, not a separate2023 work."
+    }
+  ],
+  "contemporary_evidence": [
+    {
+      "person_id": "people/lalit-mohan-patnaik",
+      "odisha_connection_type": [
+        "education",
+        "institutional_collaboration"
+      ],
+      "work_ids": [
+        "works/adaptive-genetic-algorithms-1994"
+      ],
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "full_paper_read": false,
+      "current_citation_count": null,
+      "current_publication_total": null,
+      "measured_economic_impact": null,
+      "identity_warning": "Not merged with younger researcher named Lalit Patnaik; exact birthplace not adopted.",
+      "next_review": "2026-10-08"
+    },
+    {
+      "person_id": "people/sanghamitra-mohanty",
+      "odisha_connection_type": [
+        "publication_affiliation"
+      ],
+      "work_ids": [
+        "works/speech-sound-music-2012",
+        "works/odia-speech-wiener-filter-2012"
+      ],
+      "source_ids": [
+        "science-sm-proceedings",
+        "science-sm-speech"
+      ],
+      "full_paper_read": false,
+      "measured_economic_impact": null,
+      "next_review": "2026-10-08"
+    },
+    {
+      "person_id": "people/susmita-mohanty",
+      "odisha_connection_type": [
+        "historical_public_service"
+      ],
+      "work_ids": [
+        "works/newspace-india-inspace-2022"
+      ],
+      "source_ids": [
+        "science-susmita-bio",
+        "science-susmita-isti",
+        "science-susmita-newspace"
+      ],
+      "full_paper_read": false,
+      "measured_economic_impact": null,
+      "next_review": "2026-10-08"
+    }
+  ],
+  "initial_timeline_completion": {
+    "task_id": "RES-029",
+    "at": "2026-10-01T08:41:20.810084-07:00",
+    "selected_identities": 12,
+    "scope": "Documented cross-era timeline plus explicit attribution gaps; not exhaustive or continuously complete.",
+    "remaining_evidence": "Existing manuscript, biography, award and full-paper gaps remain open."
+  }
+}
