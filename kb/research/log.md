@@ -164,3 +164,7 @@ Added four entrepreneurs/business leaders and four enterprise identities; enhanc
 ## 2026-10-01
 
 Added five public servants/lawmakers, a connected governance collection and the credited English Gaon Majlis record. Preserved distinctions between public administration, elected representation, Constitution-making and constitutional office. Nine sources added; two questionable chronology claims quarantined and stale CAG office language resolved. Research-only update; no website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added five ruler profiles and a connected royal-legacy collection with seven new sources and one reused UNESCO capture. Linked existing Konark and Puri pages. Kept epigraphic claims, institutional heritage attribution and historical synthesis distinct; Kharavela dating/location issues and Srisailam interpretation limits remain visible. No quantitative popularity, empire-area or economic-impact claim added. Research-only update; no human factual review or website publication claimed.

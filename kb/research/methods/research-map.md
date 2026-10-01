@@ -137,3 +137,7 @@ RES-036 adds four people, four organizations, one collection and six source reco
 ### Public-service extension · 1 October 2026
 
 RES-037 adds five people, one translated work, a collection and nine source records; map now 936. Source/project name searches preceded research. Biswanath Das is disambiguated from contemporary namesakes; Mahtab/Mahatab one identity. PMO/PIB republication and CAG regional/central pages are not independent source families.
+
+### Ruler extension · 1 October 2026
+
+RES-038 adds five people, a collection and seven source records; map now 949. Searches found no existing profiles for these identities. Konark, Puri and native Barabati destination records were reused. Narasimha/Narasimhadeva and Kapilendra/Kapilesvara are name variants, not additional people. Shared UNESCO publications and reused epigraphic citations are not independent source families.

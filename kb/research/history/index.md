@@ -10,3 +10,5 @@
 - [Roman connections: why the full paper changes the claim](roman-connection-review.md)
 
 [Knowledge base home](../index.md)
+
+[Utkal’s rulers and royal legacies](../people/rulers-and-royal-legacies.md) — five selected rulers linked to inscriptions, government centres and architectural patronage; political power, contribution and later remembrance remain distinct.

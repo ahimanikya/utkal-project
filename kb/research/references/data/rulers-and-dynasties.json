@@ -1,0 +1,154 @@
+{
+  "schema_version": "0.1",
+  "updated_at": "2026-10-01T08:15:53.740887-07:00",
+  "human_review_claimed": false,
+  "scope": "Selected rulers relevant to Utkal/Odisha; historical geography is not coextensive with the modern state. Counts describe this collection only.",
+  "rulers": [
+    {
+      "person_id": "people/kharavela",
+      "dynasty_label": "Chedi / Mahameghavahana terminology in institutional accounts",
+      "period_scope": "Ancient Kalinga; precise chronology unresolved in this capture",
+      "contribution": "Royal account of military and welfare activity through the thirteenth regnal year; surviving inscription and cave heritage.",
+      "source_ids": [
+        "rulers-kharavela-asi",
+        "rulers-kharavela-caves",
+        "rulers-art-architecture"
+      ],
+      "popularity_measure": null,
+      "territory_area_km2": null,
+      "economic_impact_value": null,
+      "checked_on": "2026-10-01"
+    },
+    {
+      "person_id": "people/anantavarman-chodaganga",
+      "dynasty_label": "Eastern Ganga",
+      "period_scope": "Twelfth-century temple association; complete reign chronology not established here",
+      "contribution": "Institutional attribution of a major surviving religious and architectural legacy at Puri.",
+      "source_ids": [
+        "rulers-puri-history"
+      ],
+      "popularity_measure": null,
+      "territory_area_km2": null,
+      "economic_impact_value": null,
+      "checked_on": "2026-10-01"
+    },
+    {
+      "person_id": "people/anangabhima-deva-iii",
+      "dynasty_label": "Eastern Ganga",
+      "period_scope": "Early thirteenth century; Cuttack records discussed for 1230–31 CE",
+      "contribution": "Evidence route into Cuttack’s role as an Imperial Ganga seat of government.",
+      "source_ids": [
+        "rulers-cuttack-charters"
+      ],
+      "popularity_measure": null,
+      "territory_area_km2": null,
+      "economic_impact_value": null,
+      "checked_on": "2026-10-01"
+    },
+    {
+      "person_id": "people/narasimha-deva-i",
+      "dynasty_label": "Eastern Ganga",
+      "period_scope": "AD 1238–1264, as given by UNESCO",
+      "contribution": "Royal-period association with the UNESCO-listed Konark Sun Temple.",
+      "source_ids": [
+        "konark"
+      ],
+      "popularity_measure": null,
+      "territory_area_km2": null,
+      "economic_impact_value": null,
+      "checked_on": "2026-10-01"
+    },
+    {
+      "person_id": "people/kapilendra-deva",
+      "dynasty_label": "Suryavamsi Gajapati",
+      "period_scope": "Fifteenth century; Srisailam record dated Saka 1382 / 1460 by its editor",
+      "contribution": "An inscriptional connection from Odisha’s Gajapati kingship to Srisailam in southern India.",
+      "source_ids": [
+        "rulers-kapilesvara-srisailam",
+        "rulers-gajapati-name-context"
+      ],
+      "popularity_measure": null,
+      "territory_area_km2": null,
+      "economic_impact_value": null,
+      "checked_on": "2026-10-01"
+    }
+  ],
+  "claims": [
+    {
+      "person_id": "people/kharavela",
+      "evidence_class": "royal_claim_via_institutional_catalogue",
+      "claim": "Catalogue describes campaigns and welfare through regnal year 13.",
+      "source_ids": [
+        "rulers-kharavela-asi"
+      ],
+      "limitation": "Royal account; outcomes and exact chronology require critical edition."
+    },
+    {
+      "person_id": "people/anantavarman-chodaganga",
+      "evidence_class": "institutional_heritage_attribution",
+      "claim": "Puri government guide attributes the present Jagannath Temple to Chodaganga in the twelfth century.",
+      "source_ids": [
+        "rulers-puri-history"
+      ],
+      "limitation": "Does not establish sole design or completion of every phase."
+    },
+    {
+      "person_id": "people/anangabhima-deva-iii",
+      "evidence_class": "historical_synthesis_indexed_capture",
+      "claim": "Nayak discusses Nagari plates and Cuttack as a Ganga seat of government.",
+      "source_ids": [
+        "rulers-cuttack-charters"
+      ],
+      "limitation": "Original charter and PDF facsimile not inspected; indexed p. 51 capture."
+    },
+    {
+      "person_id": "people/narasimha-deva-i",
+      "evidence_class": "institutional_heritage_attribution",
+      "claim": "UNESCO places Konark in the reign AD 1238–1264.",
+      "source_ids": [
+        "konark"
+      ],
+      "limitation": "Site recognition is not a personal popularity ranking."
+    },
+    {
+      "person_id": "people/kapilendra-deva",
+      "evidence_class": "scholarly_epigraphic_edition",
+      "claim": "Srisailam record names Gajapati Kapilesvara of Orissa; editor dates it to Saka 1382 / 1460.",
+      "source_ids": [
+        "rulers-kapilesvara-srisailam"
+      ],
+      "limitation": "Personal presence, donation details and universal-rule geography not established."
+    }
+  ],
+  "source_issues": [
+    {
+      "person_id": "people/kharavela",
+      "status": "quarantined",
+      "issue": "Chronology differs: ASI catalogue second century BCE; Tourism overview first century BCE. ASI Jajpur provenance also conflicts with cave-site identification.",
+      "source_ids": [
+        "rulers-kharavela-asi",
+        "rulers-kharavela-caves",
+        "rulers-art-architecture"
+      ],
+      "resolution": "No exact reign years or Jajpur placement promoted."
+    },
+    {
+      "person_id": "people/kapilendra-deva",
+      "status": "qualified",
+      "issue": "Sircar identifies royal territorial epithet as hyperbolic and personal presence/donation as uncertain.",
+      "source_ids": [
+        "rulers-kapilesvara-srisailam"
+      ],
+      "resolution": "Keep only dated epigraphic connection; no empire-area or donation amount inferred."
+    }
+  ],
+  "popularity_method": "No measured popularity ranking. Future remembrance claims need named traditions, commemorations or reception evidence.",
+  "next_candidates": [
+    "Purushottama Deva",
+    "Prataparudra Deva",
+    "Bhaumakara queens",
+    "Krushna Chandra Gajapati",
+    "Sriram Chandra Bhanja Deo"
+  ],
+  "next_review": "2026-10-08"
+}

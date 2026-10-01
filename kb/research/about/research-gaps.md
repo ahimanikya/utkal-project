@@ -162,3 +162,7 @@ Company founding, current legal identity, present executive role, recognition an
 ### Public-service gaps · 1 October 2026
 
 Compare Biswanath Das’s debate transcript with Parliament facsimile; direct PDF fetches failed. Quarantine state biography’s 1950 Lok Sabha chronology and Mahtab commemoration’s princely-state wording. G.C. Murmu’s stale regional office language is resolved with central 2020–2024 register. Obtain Gaon Majlis English edition identifiers and original legislative/appointment records; retry unavailable sources after 8 October. Shaktikanta Das and Nandini Satpathy remain discovery candidates.
+
+### Ruler-history gaps · 1 October 2026
+
+Original Hathigumpha/Nagari charter editions and Cuttack article facsimile remain open. Kharavela chronology and ASI catalogue district issue are quarantined. Kapilesvara Srisailam introduction/interpretation inspected in EI XXXVI pp. 75–78; personal presence, damaged donation details and territorial extent remain unestablished. Retry failed journal/district routes after 8 October. Add dated reception evidence before calling a ruler popular; never derive empire area from praise titles. Purushottama, Prataparudra, Bhaumakara queens, Krushna Chandra Gajapati and Sriram Chandra Bhanja Deo remain candidates.

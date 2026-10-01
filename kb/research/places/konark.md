@@ -36,3 +36,7 @@ A licensed, credited photograph and a structured destination pilot are now prepa
 [Related knowledge](../culture/konark-dance-festival.md) · [Research standards](../about/research-method.md)
 
 [^konark]: [Sun Temple, Konark](https://whc.unesco.org/en/list/246)
+
+### People behind the historical setting
+
+[Narasimha Deva I](../people/narasimha-deva-i.md) connects this monument to its royal-period history. UNESCO gives his reign as AD 1238–1264. Royal patronage does not replace the contributions of the monument’s makers.

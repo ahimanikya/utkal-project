@@ -45,3 +45,5 @@ Subject membership is editorial classification. It does not establish historical
 ## Mathematics and Odia science writing · 1 October 2026
 
 [Tribikram Pati](../people/tribikram-pati.md) and [Gokulananda Mohapatra](../people/gokulananda-mohapatra.md) connect mathematical research, science education and Odia writing to credited works. Source conflicts remain visible; neither a journal venue nor an encyclopaedia establishes measured global popularity.
+
+[Utkal’s rulers and royal legacies](../people/rulers-and-royal-legacies.md) — five selected rulers linked to inscriptions, government centres and architectural patronage; political power, contribution and later remembrance remain distinct.

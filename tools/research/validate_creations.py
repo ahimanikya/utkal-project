@@ -74,6 +74,20 @@ if public_path.exists():
   check(r['role_class'] in role_classes and bool(r['period']) and bool(r['evidence_status']),'Missing public-office classification or dated scope')
  for r in public['source_issues']:
   check(r['status'] in {'quarantined','resolved_scope'} and bool(r['resolution']),'Unexplained public-service source issue')
+rulers_path=D/'rulers-and-dynasties.json'
+if rulers_path.exists():
+ royal=load('rulers-and-dynasties');selected={r['person_id']:r for r in royal['rulers']}
+ check(len(selected)==len(royal['rulers']) and selected.keys()<=people.keys(),'Duplicate or unresolved ruler identity')
+ check(royal['human_review_claimed'] is False,'Ruler human review needs named provenance')
+ for cid,r in selected.items():
+  check(bool(r['period_scope']) and bool(r['dynasty_label']),'Missing ruler period/dynastic scope '+cid)
+  check(all(r.get(k) is None for k in ['popularity_measure','territory_area_km2','economic_impact_value']),'Unestablished ruler metric converted to number '+cid)
+ for r in royal['rulers']+royal['claims']+royal['source_issues']:
+  cid=r['person_id'];ids=set(r['source_ids'])
+  check(cid in selected and bool(ids) and ids<=sources.keys(),'Unresolved ruler evidence '+cid)
+  if cid in people:check(ids<=set(people[cid]['source_ids']),'Ruler/person evidence disagreement '+cid)
+ classes={'royal_claim_via_institutional_catalogue','institutional_heritage_attribution','historical_synthesis_indexed_capture','scholarly_epigraphic_edition'}
+ for r in royal['claims']:check(r['evidence_class'] in classes and bool(r['limitation']),'Missing ruler evidence class or limitation')
 check(p['human_review_claimed'] is False and e['human_review_claimed'] is False,'Human review needs explicit named provenance')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','people':len(people),'works':len(works),'garment_forms':len(e['garment_forms']),'market_observation_refs':len(e['market_observation_refs']),'errors':errors,'scope':'Referential integrity, explicit credits and missing-value semantics; not independent source verification or public approval.'},indent=2))
 sys.exit(bool(errors))

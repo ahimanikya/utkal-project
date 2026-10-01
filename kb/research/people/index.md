@@ -111,3 +111,15 @@
 - [Harekrushna Mahtab](harekrushna-mahtab.md)
 
 [Public servants and lawmakers](../people/public-servants-and-lawmakers.md) — five selected lives connect Odisha with Constitution-making, Parliament, national administration and constitutional office. Roles, periods and institutional evidence remain separate.
+
+- [Kharavela](kharavela.md)
+
+- [Anantavarman Chodaganga Deva](anantavarman-chodaganga.md)
+
+- [Anangabhima Deva III](anangabhima-deva-iii.md)
+
+- [Narasimha Deva I](narasimha-deva-i.md)
+
+- [Kapilendra Deva (Kapilesvara)](kapilendra-deva.md)
+
+- [Utkal’s rulers and royal legacies](rulers-and-royal-legacies.md)

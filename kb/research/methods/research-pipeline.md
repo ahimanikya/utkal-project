@@ -131,3 +131,7 @@ RES-036 completes the bounded people/enterprise seed. Research audited enterpris
 ### Public-service user extension · 1 October 2026
 
 RES-037 completes the bounded five-person seed. Extend through original debate, parliamentary and appointment records. Resolve quarantined chronology; verify Shaktikanta Das and Nandini Satpathy candidates. RES-029 remains active independently.
+
+### Ruler user extension · 1 October 2026
+
+RES-038 completes the bounded five-person seed. Extend through original Nagari/Hathigumpha editions and independent Gajapati records; verify regional rulers and Bhaumakara queens. RES-029 remains active independently.

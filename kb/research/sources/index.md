@@ -460,3 +460,17 @@
 - [Constituent Assembly debate: 20 August 1949](public-cad-1949-08-20.md)
 
 - [Harekrushna Mahtab: 125th birth anniversary and translated essays](public-mahtab-commemoration.md)
+
+- [BharatSHRI: Hathigumpha inscription of Kharavela](rulers-kharavela-asi.md)
+
+- [Udayagiri and Khandagiri caves: tourism interpretation](rulers-kharavela-caves.md)
+
+- [Odisha Tourism: Art and Architecture](rulers-art-architecture.md)
+
+- [Puri: government historical overview](rulers-puri-history.md)
+
+- [Cities and Towns in Early Odisha: A Historical Appraisal](rulers-cuttack-charters.md)
+
+- [Srisailam Inscription of Kapilesvara, Saka 1382](rulers-kapilesvara-srisailam.md)
+
+- [Sakti Worship During the Suryavamsi Period](rulers-gajapati-name-context.md)

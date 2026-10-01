@@ -71,3 +71,7 @@ Added entrepreneur and business-leader research across hospitality, metals, soft
 ## 2026-10-01
 
 Added five public-service profiles, institutional roles and a translated work. [Bounded receipt](records/public-service-2026-10-01.json). National significance is tied to dated offices, debate and recognition. Source chronology issues retained. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added five ruler profiles, a royal-legacy collection and scoped historical claims. [Bounded receipt](records/rulers-2026-10-01.json). Power, patronage and remembrance distinguished. Source chronology issues and epigraphic interpretation limits retained. No website publication or human factual review claimed.
