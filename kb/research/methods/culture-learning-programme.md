@@ -38,3 +38,7 @@ Two new people profiles, three thematic introductions, an ancient-learning resea
 Resume RES-044 through primary dance archives and Chaurasia recording credits; then progress through RES-045–050. Prior unfinished food and Pala tasks remain intact. Source-dependent tasks can record a specific blocker and move to another eligible task. Keep the established continuing-research automation; do not create a second schedule.
 
 [Structured checkpoint](../references/data/culture-learning.json) · [Full queue](../references/data/research-queue.json).
+
+## Dance and music checkpoint · 1 October 2026
+
+RES-044 has a deeper checkpoint: attributed Odissi development, four regional traditions with credits and a publisher-verified English reading route. Continue original Odia recording credits and representative performance access; the task remains in progress.

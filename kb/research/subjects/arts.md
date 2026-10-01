@@ -81,3 +81,5 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
 
 [Siali fibre](../economy/siali-products.md) connects historical Mankirdia craft evidence to forest-material research; no present-day maker interview is claimed.
+
+[Dance and music connections](../culture/dance-and-music-connections.md) — Follow traditions to credited people, programmes and reading routes, with historical and operational limits retained.

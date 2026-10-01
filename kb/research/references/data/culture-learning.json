@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-01T19:04:12.192294+00:00",
+  "updated_at": "2026-10-01T22:18:16.476238+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -328,5 +328,99 @@
     "RES-049",
     "RES-050"
   ],
-  "human_review_claimed": false
+  "human_review_claimed": false,
+  "dance_checkpoint": {
+    "run_id": "2026-10-01-dance-music",
+    "scope": "Existing Odissi and Chaurasia profiles enhanced; four regional traditions connected to attributed practitioners or programmes.",
+    "odissi_layers": [
+      {
+        "layer": "Mahari and Gotipua",
+        "source_ids": [
+          "dance-raut-interview",
+          "dance-sujata-kelucharan"
+        ],
+        "evidence_class": "attributed_practitioner_accounts"
+      },
+      {
+        "layer": "theatre",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ],
+        "evidence_class": "existing_institutional_chronology_reused"
+      },
+      {
+        "layer": "Jayantika codification",
+        "source_ids": [
+          "dance-raut-interview"
+        ],
+        "evidence_class": "retrospective_interview",
+        "date_as_recalled": "September 1959",
+        "founding_document_inspected": false
+      }
+    ],
+    "regional_records": [
+      {
+        "concept_id": "culture/mayurbhanj-chhau",
+        "source_ids": [
+          "chhau",
+          "dance-battery2024"
+        ],
+        "credit": "Rajesh Sai Babu, choreography; Pritha Ghosh, assistance; Saroj Mohanti, music; Rajesh Sai Babu, costume design",
+        "work_title": "The Chhau Samagam",
+        "date": "2024-08-15",
+        "location": "Rockefeller Park, New York",
+        "stage": "presenter_programme_not_independently_verified_delivery"
+      },
+      {
+        "concept_id": "culture/dalkhai",
+        "source_ids": [
+          "dance-sambalpur-district",
+          "dance-folk-panel2024"
+        ],
+        "credit": "Dhyanananda Panda / PRATIVA (A Tribal Folk Akademy)",
+        "date": "2024-03-01",
+        "date_scope": "register snapshot, not recording date",
+        "locator": "p.255 / PDF33 / entry592",
+        "stage": "administrative_listing",
+        "recording_date": null
+      },
+      {
+        "concept_id": "culture/ghumura",
+        "source_ids": [
+          "dance-kalahandi-district",
+          "dance-folk-panel2024"
+        ],
+        "credit": "Dhyanananda Panda / PRATIVA (A Tribal Folk Akademy)",
+        "date": "2024-03-01",
+        "date_scope": "register snapshot, not recording date",
+        "locator": "p.255 / PDF33 / entry592",
+        "stage": "administrative_listing",
+        "troupe_size": {
+          "min": 18,
+          "max": 20,
+          "unit": "performers per troupe",
+          "period": "undated district description",
+          "source_id": "dance-kalahandi-district",
+          "not_statewide_total": true
+        }
+      },
+      {
+        "concept_id": "culture/ranapa",
+        "source_ids": [
+          "folk",
+          "dance-sna-report2016"
+        ],
+        "credit": "D. Balaram Reddy and Group, Ganjam",
+        "date": "2016-12-15",
+        "location": "Desaj, Gandhi Stadium, Itarsi, Madhya Pradesh",
+        "stage": "organizer_retrospective_report",
+        "locator": "p.32 / PDF32"
+      }
+    ],
+    "media_playback_verified": false,
+    "media_reuse_rights": null,
+    "current_bookings_verified": false,
+    "earnings_or_exports": null,
+    "next_step": "Verify credited Odia recordings by Chaurasia; retrieve additional archival origin evidence and review representative regional performance recordings without inferring reuse rights."
+  }
 }

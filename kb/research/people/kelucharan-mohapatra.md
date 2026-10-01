@@ -6,7 +6,7 @@ tags: ["people-creations", "research"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T04:11:33.006238-07:00"}
 human_review_claimed: false
-sources: [{"id": "performers-srjan-milestones", "title": "Kelucharan Mohapatra — Srjan milestones", "resource": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php"}, {"id": "performers-ignca-archives", "title": "IGNCA — exhibition of audiovisual archives", "resource": "https://ignca.gov.in/divisionss/media-centre/exhibition-of-audio-visual-archives/"}, {"id": "dance-sujata-kelucharan", "title": "About Guru Kelucharan Mohapatra", "resource": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/"}]
+sources: [{"id": "performers-srjan-milestones", "title": "Kelucharan Mohapatra — Srjan milestones", "resource": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php"}, {"id": "performers-ignca-archives", "title": "IGNCA — exhibition of audiovisual archives", "resource": "https://ignca.gov.in/divisionss/media-centre/exhibition-of-audio-visual-archives/"}, {"id": "dance-sujata-kelucharan", "title": "About Guru Kelucharan Mohapatra", "resource": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/"}, {"id": "dance-raut-interview", "title": "In Conversation with Guru Mayadhar Raut: Odissi", "resource": "https://www.sahapedia.org/conversation-guru-mayadhar-raut-odissi"}]
 updated_at: "2026-10-01T04:11:33.006238-07:00"
 subjects: ["people", "arts"]
 ---
@@ -34,3 +34,7 @@ The [IGNCA archive exhibition list](https://ignca.gov.in/divisionss/media-centre
 Sujata Mohapatra’s account adds a practitioner perspective on Gotipua training and Mahari/Gotipua research. It does not resolve the existing birth-year conflict. Continue through dated repertory, collaborators, teaching lineages and credited recordings; preserve the existing performance-specific work records.
 
 [Expanded dance research](../culture/odissi.md).
+
+## A collaborator’s recollection
+
+Mayadhar Raut’s [2018 conversation](https://www.sahapedia.org/conversation-guru-mayadhar-raut-odissi) places Kelucharan beside him at Kala Vikas Kendra and among Jayantika’s collaborators. This adds a fellow practitioner’s account of collective development. It does not resolve Kelucharan’s existing birth-year conflict or replace Srjan’s performance-specific credits.

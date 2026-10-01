@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T22:01:16.891147+00:00",
+  "updated_at": "2026-10-01T22:18:16.476238+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4568,6 +4568,105 @@
       "run_id": "2026-10-01-palm-anatomy",
       "status": "unavailable",
       "scope": "Direct page unavailable; indexed festival ingredient connection remains a lead.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "dance-raut-interview",
+      "discovery_url": "https://www.sahapedia.org/conversation-guru-mayadhar-raut-odissi",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "First-person retrospective testimony; chronology and priority claims are attributed, not independently resolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-sambalpur-district",
+      "discovery_url": "https://sambalpur.odisha.gov.in/en/tourism/culture-Heritage",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "District cultural description; named communities are not an exhaustive distribution or participant census.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-kalahandi-district",
+      "discovery_url": "https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Undated district description; troupe range describes a format, not statewide employment or universal requirements.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-folk-panel2024",
+      "discovery_url": "https://www.indiaculture.gov.in/sites/default/files/pdf/Folk_Dance_as_on_01.03.2024-223-255.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Dated administrative listing links the named practitioner/group to Ghumura and Dalkhai clips. Not a current booking check, authorship claim or evidence of export income. Web PDF text available; screenshot failed and direct download timed out. No visual inspection or clip playback claimed; ambiguous Ghumura video-ID glyph not normalized.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-sna-report2016",
+      "discovery_url": "https://sangeetnatak.gov.in/public/uploads/reports/16427518058387.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Organizer retrospective report credits D. Balaram Reddy and Group, Ganjam, for Ranapa. National-festival participation is not an attendance or earnings measure. Web open failed; original PDF downloaded and page32 visually inspected. Text extraction has encoding defects.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-battery2024",
+      "discovery_url": "https://batterydance.org/aug-15-2024/",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Presenter programme for Rockefeller Park, New York; establishes billed work and credits, not independently confirmed delivery, audience or commercial success. Page incorrectly calls Odisha northeastern in its introduction; geography wording not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-breath-gold-publisher",
+      "discovery_url": "https://www.penguin.co.in/book/breath-of-gold/",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Publisher record for Sathya Saran biography. Metadata and description inspected, not full book; cannot resolve AIR service dates or individual Odia recording credits.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ccrtindia.gov.in/odissi-dance/",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "unavailable",
+      "scope": "Direct web open failed; independent practitioner interview used.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sangeetnatak.gov.in/public/uploads/reports/164275839545378.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "unavailable",
+      "scope": "Direct web open failed; indexed Dalkhai photo is not adequate performer-credit evidence.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sangeetnatak.gov.in/public/uploads/awardees/docs/Janmejoy_Sai_Babu.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "unavailable",
+      "scope": "www and bare-domain opens failed; indexed award citation remains a lead. No new profile based on it.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.newindianexpress.com/amp/story/states/odisha/2025/Aug/13/odisha-ghumura-training-academy-to-stop-fresh-enrolment-over-funds-crunch",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "discovery_only",
+      "scope": "Indexed press lead about training interruption; primary current operating evidence needed. Not asserted as current status.",
       "retry_after": "2026-10-08"
     }
   ]

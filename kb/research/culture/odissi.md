@@ -5,7 +5,7 @@ description: "Odissi — research and reuse notes."
 tags: ["culture", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "odissi", "title": "Odissi Dance", "resource": "https://odishatourism.gov.in/content/tourism/en/experience/themes/odissi-dance.html"}, {"id": "dance-sujata-kelucharan", "title": "About Guru Kelucharan Mohapatra", "resource": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/"}]
+sources: [{"id": "odissi", "title": "Odissi Dance", "resource": "https://odishatourism.gov.in/content/tourism/en/experience/themes/odissi-dance.html"}, {"id": "dance-sujata-kelucharan", "title": "About Guru Kelucharan Mohapatra", "resource": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/"}, {"id": "dance-raut-interview", "title": "In Conversation with Guru Mayadhar Raut: Odissi", "resource": "https://www.sahapedia.org/conversation-guru-mayadhar-raut-odissi"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Odisha"
 aliases: ["Odissi", "odissi"]
@@ -47,3 +47,11 @@ Obtain performance and music rights; use practitioner-reviewed terminology.
 Ancient sculptural evidence, ritual practice, theatre and twentieth-century reconstruction are different layers of evidence. Do not describe Kelucharan as the sole inventor or imply that the modern repertoire has remained unchanged since antiquity. Odisha Tourism’s early-date wording involving “Udayagiri Monastery” needs identity checking against the Jain caves and separate Buddhist site before reuse.
 
 The wider dance programme will also examine Gotipua, Mahari, Mayurbhanj Chhau and regionally named community dances, with credited practitioners and recorded works. Odisha’s dance culture is broader than this Odissi page.
+
+## Distinct traditions and a modern collaborative repertoire
+
+In an edited **2018 interview**, Mayadhar Raut describes Mahari and Gotipua as different practices: he associates Mahari with temple dancers and explains that Gotipua included acrobatic bandha movements. He recalls theatre training, work with Pankaj Charan Das, and later study at Kalakshetra. His account of Jayantika describes practitioners comparing movement with texts and combining selected elements, rather than simply preserving an unchanged repertoire. [Interview and translation](https://www.sahapedia.org/conversation-guru-mayadhar-raut-odissi).
+
+This supports a story with several contributors: temple practice, boy-performer traditions, theatre, teachers, textual study and twentieth-century collaboration. Raut names Kelucharan Mohapatra among the collaborators. His September 1959 Jayantika date remains attributed oral history, not an inspected founding minute. We have not adopted the interview’s uncorroborated claims of being first to introduce particular elements.
+
+The [existing theatre episodes](../people/kelucharan-mohapatra.md) retain their original dates and role credits. Choreography, performance, music and institutional teaching are distinct contributions.

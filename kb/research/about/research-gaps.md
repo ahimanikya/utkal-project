@@ -282,3 +282,7 @@ An original 2015–2018 Odisha study documents Talagaja and its germinated-seed 
 ## Palm-food anatomy and markets
 
 General haustorium development is now sourced from primary research. Matching the user’s exact specimen and local khaja/gaja names remains open. Flour methods have inconsistent sieve sizes; fresh-food nutrition and shelf life are unestablished. Current Odisha prices, traded quantities and exports were not found in this bounded search. Festival and TNAU project pages need original-content retrieval on8October.
+
+## Dance and music checkpoint · 1 October 2026
+
+RES-044 now has attributed origin layers, four regional traditions with named programme/register credits and an English Chaurasia biography route. Original Odia recording credits, founding documents, representative playback, rights, current teaching and practitioner earnings remain open. Ghumura training interruption is a retained lead needing primary follow-up.

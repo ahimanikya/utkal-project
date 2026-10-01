@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T22:01:16.891147+00:00",
+  "updated_at": "2026-10-01T22:18:16.476238+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1957,13 +1957,25 @@
       "done_when": "Extend Odissi origins with distinct Mahari, Gotipua, theatre and revival evidence; document Chaurasia’s Odisha work and four other dance traditions with credited practitioners or works. Preserve unresolved dates and legal media access.",
       "target": "culture/odissi.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T19:04:12.192294+00:00",
-      "next_step": "Extend Odissi origins with distinct Mahari, Gotipua, theatre and revival evidence; document Chaurasia’s Odisha work and four other dance traditions with credited practitioners or works. Preserve unresolved dates and legal media access.",
+      "last_worked_at": "2026-10-01T22:18:16.476238+00:00",
+      "next_step": "Verify credited Odia recordings by Chaurasia; retrieve additional archival origin evidence and review representative regional performance recordings without inferring reuse rights.",
       "evidence_outputs": [
         "culture/odissi.md",
-        "references/data/culture-learning.json"
+        "references/data/culture-learning.json",
+        "sources/dance-raut-interview.md",
+        "sources/dance-sambalpur-district.md",
+        "sources/dance-kalahandi-district.md",
+        "sources/dance-folk-panel2024.md",
+        "sources/dance-sna-report2016.md",
+        "sources/dance-battery2024.md",
+        "sources/music-breath-gold-publisher.md",
+        "culture/dalkhai.md",
+        "culture/ghumura.md",
+        "culture/ranapa.md",
+        "culture/dance-and-music-connections.md",
+        "people/hariprasad-chaurasia.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1973,6 +1985,13 @@
           "at": "2026-10-01T19:04:12.192294+00:00",
           "outcome": "source_backed_starting_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-dance-music",
+          "at": "2026-10-01T22:18:16.476238+00:00",
+          "outcome": "origins_regional_practitioner_and_reading_route_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Original Chaurasia Odia recording credits and representative performance access checks remain open."
         }
       ],
       "reuse_before_research": {
@@ -1980,7 +1999,9 @@
           "culture/odissi.md",
           "people/kelucharan-mohapatra.md",
           "people/hariprasad-chaurasia.md",
-          "references/data/people-creations.json"
+          "references/data/people-creations.json",
+          "culture/dance-and-music-connections.md",
+          "references/data/culture-learning.json"
         ],
         "project_records": [
           "kb/research/destinations/northern-details.json"

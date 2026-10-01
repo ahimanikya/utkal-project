@@ -251,3 +251,7 @@ RES-039 reuses everyday-food and tala-pitha records. One original publication ad
 ## Palm anatomy and processing extension · 1 October 2026
 
 Existing Talagaja, everyday-food and preparation records extended. Three sources cover seed biology, experimental flour and attributed regional words. Similar2019 flour versions are not independent corroboration. No duplicate food identity or new task created.
+
+## Dance and music checkpoint · 1 October 2026
+
+Existing Odissi, Kelucharan, Chaurasia and Mayurbhanj Chhau reused, including native northern destination work. Added three regional-form pages, one collection and seven sources. Existing folk source retained. Two forms share one administrative register; that is not independent corroboration.
