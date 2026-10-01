@@ -6,6 +6,9 @@ import konark from '../../../../kb/research/destinations/konark.json';
 import chilikaStory from '../../../../kb/research/stories/narratives/chilika.json';
 import bookImages from '../../../../kb/research/destinations/book-images.json';
 export const bookPhotos={
+ 'place:balasore':regions.assets.chandipur,
+ 'place:mayurbhanj':regions.assets.barehipani,
+ 'experience:mayurbhanj-chhau':regions.assets['mayurbhanj-chhau'],
  'place:bhubaneswar':regions.assets.mukteswar,
  'experience:bhubaneswar-fresco':regions.assets['fresco-procession'],
  'place:mukteswar':regions.assets['mukteswar-torana'],

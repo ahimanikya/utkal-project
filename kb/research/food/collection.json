@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "checked_on": "2026-09-30",
+  "checked_on": "2026-10-01",
   "status": "editorial_preview",
   "assets": {
     "chhena-poda": {
@@ -54,6 +54,21 @@
       "checked_on": "2026-10-01",
       "alt": "Dahibara and aloodum served together in a leaf bowl in Cuttack.",
       "caption": "Dahibara-aludam, Cuttack · Subhashish Panigrahi, 2011."
+    },
+    "chandipur-context": {
+      "src": "/images/regions/chandipur-sunset.jpg",
+      "width": 1280,
+      "height": 848,
+      "creator": "Nihar.race",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chandipur_Sea_Beach,_Odisha.jpg",
+      "photographed_on": "2012-02-26",
+      "caption": "Chandipur shore, 2012 · setting for a coastal meal, not a restaurant or dish photograph.",
+      "alt": "An orange sun reflected in the wet sand at Chandipur.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Wikimedia 1280px rendition; responsive display may crop the view. Displayed adaptations remain CC BY-SA 4.0.",
+      "kind": "photograph",
+      "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1"
     }
   },
   "sources": {
@@ -61,25 +76,31 @@
       "title": "Odisha Tourism · Chhenapoda, Chef Michael (2021)",
       "url": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
       "inspection": "Chef-authored tourism article inspected. Origin is attributed to this account, not independently established; recipe quantities not copied.",
-      "checked_on": "2026-09-30"
+      "checked_on": "2026-10-01"
     },
     "chhena-leaves": {
       "title": "Odisha Tourism · Chef Tzac on Odia cuisine",
       "url": "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine",
       "inspection": "Interview excerpt inspected for leaf cooking and chhena poda aroma; not a rule for every preparation.",
-      "checked_on": "2026-09-30"
+      "checked_on": "2026-10-01"
     },
     "baripada": {
       "title": "Odisha Tourism · Baripada",
       "url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/baripada.html",
-      "inspection": "Food highlights inspected; no restaurant or live menu verified.",
+      "inspection": "Food highlights inspected; no restaurant or live menu verified. Indexed official text rechecked 1 October 2026; direct page returned a shell/404.",
       "checked_on": "2026-09-30"
     },
     "mudhi-photo": {
       "title": "Sangram Keshari Senapati · Mudhi Mansa photograph",
       "url": "https://commons.wikimedia.org/wiki/File:Mudhi_Mansa.jpg",
       "inspection": "Creator describes his own chicken-curry variation; this is evidence about the depicted serving only.",
-      "checked_on": "2026-09-30"
+      "checked_on": "2026-10-01"
+    },
+    "chandipur": {
+      "title": "Odisha Tourism · Chandipur",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/chandipur.html",
+      "inspection": "Official page inspected 29 September 2026; future access and availability require confirmation. Indexed official text rechecked 1 October 2026; direct page returned a shell/404. No live facilities or opening hours confirmed.",
+      "checked_on": "2026-10-01"
     }
   },
   "pages": [
@@ -162,12 +183,12 @@
       ],
       "related": [
         {
-          "title": "Konark guide",
-          "href": "/knowledge/konark/"
+          "title": "Food along the Puri coast",
+          "href": "/food/puri-coast/#sweet-finish"
         },
         {
-          "title": "Pakhala",
-          "href": "/knowledge/pakhala/"
+          "title": "Mudhi Mansa in Baripada",
+          "href": "/food/mudhi-mansa/"
         }
       ]
     },
@@ -221,7 +242,7 @@
           "title": "Make room for the remembered story",
           "paragraphs": [
             {
-              "text": "We have not established a primary historical account of the dish’s beginnings. Local memories can enrich this page when a speaker, date and context are recorded; an appealing origin story should not become an unattributed fact.",
+              "text": "Ask a willing cook what this pairing means in their home: when they serve it, how they learned it and what they would change. A remembered meal can open a personal history; let the teller choose what to share.",
               "source_ids": [],
               "kind": "editorial_invitation"
             }
@@ -252,6 +273,61 @@
         {
           "title": "Similipal",
           "href": "/visit/places/similipal/"
+        }
+      ]
+    },
+    {
+      "slug": "balasore",
+      "title": "A meal by Chandipur",
+      "odia": "",
+      "lead": "Leave the shoreline with an appetite. Let the kitchen tell you what is good today.",
+      "area": "Chandipur · Balasore",
+      "hero": "chandipur-context",
+      "save_id": "food:chandipur-seafood",
+      "sections": [
+        {
+          "id": "place",
+          "title": "From shore to table",
+          "paragraphs": [
+            {
+              "text": "Odisha Tourism highlights crab and prawns among the food to look for around Chandipur. Begin by asking what the kitchen is serving that day.",
+              "source_ids": [
+                "chandipur"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
+              "text": "Pause over a meal instead of collecting another stop. Ask how your host likes to cook the catch; an answer can make the place more memorable than a menu photograph.",
+              "source_ids": [],
+              "kind": "editorial_invitation"
+            }
+          ]
+        },
+        {
+          "id": "try",
+          "title": "Agree the meal before ordering",
+          "paragraphs": [
+            {
+              "text": "Confirm the portion, current price, preparation and any ingredients you need to avoid. Ask for a vegetarian meal if you prefer; no particular kitchen or menu has been inspected.",
+              "source_ids": [],
+              "kind": "editorial_invitation"
+            },
+            {
+              "text": "Keep your return transport and the day’s beach conditions in mind. A food stop fits around the tide; it does not establish a safe shore route.",
+              "source_ids": [],
+              "kind": "editorial_invitation"
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "title": "Chandipur guide",
+          "href": "/visit/places/chandipur/"
+        },
+        {
+          "title": "Compare a coast or town base",
+          "href": "/visit/stays/balasore-coast/"
         }
       ]
     }

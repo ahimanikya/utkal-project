@@ -11,8 +11,8 @@ const photos=[...new Set([r.hero,...r.items.map(i=>i.asset).filter(Boolean)])].m
 const sourceIds=[...new Set([...r.source_ids,...r.facts.flatMap(f=>f.source_ids),...r.items.flatMap(i=>i.source_ids),...r.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids))])];
 const next=data.regions.find(region=>region.slug===r.next);
 ---
-<Shell title={`${r.title}: places, food & living culture`} description={r.orientation} active="explore" wide related={!["bhubaneswar","puri","cuttack"].includes(r.slug)}>
- {["bhubaneswar","puri","cuttack"].includes(r.slug)?<RegionMagazine region={r}/>:<div class="wrap region-guide">
+<Shell title={`${r.title}: places, food & living culture`} description={r.orientation} active="explore" wide related={!["bhubaneswar","puri","cuttack","balasore","mayurbhanj"].includes(r.slug)}>
+ {["bhubaneswar","puri","cuttack","balasore","mayurbhanj"].includes(r.slug)?<RegionMagazine region={r}/>:<div class="wrap region-guide">
   <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/explore/?topic=Places">Explore Odisha</a><span aria-hidden="true"> / </span><span>{r.title}</span></nav>
   <header class="region-hero">
    <div class="region-opening"><p class="eyebrow">{r.kicker}</p><h1>{r.title}<span lang="or">{r.odia}</span></h1><h2>{r.headline}</h2><p class="lead">{r.lead}</p><SaveJourney id={r.id}/></div>
