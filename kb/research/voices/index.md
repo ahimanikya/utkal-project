@@ -9,3 +9,5 @@ Odia, the literature hub, six literary lives and the Six Acres and a Third readi
 [Current language candidate evidence](../../records/living-languages-review.json) · [Original pilot history](../../records/language-literature-pilot-review.json)
 
 [Culture trails](culture-trails.json) connect places and reading paths. [Journey prototype](../product/culture-journey-prototype.md) records local saving and portable-plan work. Site code lives outside the KB in `projects/site/`; explicit edition selection controls public candidates.
+
+[District language and story model](../../reference/district-language-stories.md) · [Population data](population-2011.json) · [District/destination connections](district-connections.json). Ten language introductions now connect to the Census atlas; earlier counts describe the pilot’s history.

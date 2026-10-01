@@ -34,3 +34,7 @@
 - [Utkal Design System — Kabita Live adaptation proposal](utkal-design-system-proposal.md)
 
 - [Editorial workbench](editorial-workbench.md) — from existing knowledge to the next useful story.
+
+- [Language population atlas](language-population-atlas.md)
+
+- [District language profiles and story connections](district-language-stories.md)

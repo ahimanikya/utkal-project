@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-01T18:28:31.565185+00:00",
+  "status": "implemented_and_programmatically_checked_not_yet_deployed",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "ok",
+  "authorization_context": "Acceptance of the language population atlas following the population-distribution question; broad continuation authorization remains in UTP-DEC-133.",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "route": "/languages/atlas/",
+    "language_profiles": 8,
+    "districts": 30,
+    "language_groups_including_others": 90,
+    "mother_tongue_entries": 205,
+    "features": [
+      "rural and urban counts",
+      "male/female counts",
+      "two clearly distinguished percentage denominators",
+      "district search and numerical sorting",
+      "shareable URL selections",
+      "context-labelled CSV downloads",
+      "statewide group-level multilingualism",
+      "original source workbooks, hashes and rows retained"
+    ]
+  },
+  "checks": {
+    "full_site_tests": 374,
+    "coastal_tests": 55,
+    "page_acceptance": 288,
+    "all_failures": 0,
+    "c16_rows_arithmetically_checked": 21188,
+    "state_and_district_rows": 3415,
+    "source_extraction": "deterministic check passed",
+    "coastal_pages": 72,
+    "discovery_entries": 59,
+    "journey_items": 65
+  },
+  "limitations": [
+    "All population figures are historical Census 2011 returns, not current speaker estimates or ethnicity counts.",
+    "Census classification does not resolve community-preferred naming; Kuvi and Savara mappings carry explicit qualifications.",
+    "Browser administration-policy verification still blocks visual audit; no interactive browser, mobile, print or assistive-technology review claimed.",
+    "No district boundary map or subdistrict interface in this increment; original subdistrict data are retained in the source workbook."
+  ],
+  "evidence": [
+    "reference/language-population-atlas.md",
+    "research/voices/population-2011.json",
+    "records/evidence/language-atlas/page-acceptance.json"
+  ],
+  "next_action": "Complete GitHub checks and publish within the existing continuation authorization; retain specialist and visual-review limitations.",
+  "follow_up": {
+    "recorded_at": "2026-10-01T18:36:23.950624+00:00",
+    "status": "merged_and_published",
+    "publication_record": "language-atlas-publication.json",
+    "limitations": "Candidate review and limits preserved; live delivery recorded separately."
+  }
+}
