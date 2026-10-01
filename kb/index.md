@@ -97,3 +97,5 @@ This directory contains the organizational and working model, roles, work record
 Latest language release: [Languages and Living Voices publication](records/living-languages-publication.json) — approved PR 20, seven introductions live; specialist review remains open.
 
 - [Expanded research import](records/research-sync-2026-10-01.md) — broader subjects, people, creations and dated economic evidence; research-only review candidate.
+
+- [Visitor experience and search readiness](reference/visitor-experience-review.md) — navigation, sharing previews, complete journey checks and one remaining human review queue.
