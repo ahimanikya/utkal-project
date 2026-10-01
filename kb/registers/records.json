@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T15:26:47.881213+00:00",
+  "recorded_at": "2026-10-01T15:41:23.464442+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3625,6 +3625,28 @@
         "records/explore-filter-flow-review.json",
         "records/explore-filter-flow-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-123",
+      "title": "Odisha roots: rasagola and Bose’s Cuttack childhood",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-125",
+      "next_action": "Founder reviews the sourced article revisions; primary-document and specialist follow-ups remain visible.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-125",
+        "UTP-REV-099"
+      ],
+      "evidence": [
+        "records/odisha-roots-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -6115,6 +6137,25 @@
       "evidence": [
         "records/explore-filter-flow-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-125",
+      "title": "Foreground Odisha roots in Rasagola and Bose articles",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "our article should show case how these are rooted with odisha",
+      "scope": "Research and prepare article revisions showing Odisha connections. Exact publication candidate remains subject to Founder review.",
+      "recorded_at": "2026-10-01T15:41:23.464442+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-124"
+      ],
+      "evidence": [
+        "records/odisha-roots-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8458,6 +8499,31 @@
       ],
       "evidence": [
         "records/explore-filter-flow-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-099",
+      "title": "Odisha-rooted article candidate review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant researched, edited and checked this candidate; no independent historical or native-language review claimed.",
+        "OSIC is a GI co-applicant. Its account is explicitly attributed; the cited original temple register and critical literary edition have not been independently inspected. No exact invention date or exclusive-origin verdict asserted.",
+        "Bose’s autobiography is retrospective testimony, read through a digital reproduction hosted by the Rare Book Society of India. School visitor access is not established.",
+        "The Pahala/Salepur travelogue describes a 2019 visit; no current prices, opening hours, seller ranking or image rights inferred.",
+        "No new media. The Puri food cover continues to identify its chhena poda photograph; it is not presented as rasagola.",
+        "Rendered browser checks remain open under the earlier browser security-policy limitation. Normal publication remains noindex."
+      ],
+      "refs": [
+        "UTP-DEC-125",
+        "UTP-WORK-123"
+      ],
+      "evidence": [
+        "records/odisha-roots-review.json"
       ]
     }
   ],

@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-01T15:41:23.464442+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-125",
+  "base_commit": "be4131b",
+  "scope": "Showcase Odisha roots in rasagola and Subhas Chandra Bose narratives.",
+  "changes": [
+    "Expanded the Rasagola KB article around ritual, literature and local makers, with explicit source limits.",
+    "Added a Rasagola section to the existing Puri coastal food article, with end-of-page sources.",
+    "Rewrote Netaji museum opening around Cuttack childhood and added the school/teacher passage based on An Indian Pilgrim.",
+    "Updated the Cuttack collection summary and source trail so the same framing carries into discovery and journey notes.",
+    "Allowed contextual food sections without a save ID; the new ritual passage does not save an unrelated dish. Existing save IDs, routes and photographs retained."
+  ],
+  "verification": {
+    "full_site_tests": 365,
+    "coastal_tests": 44,
+    "page_acceptance": "268 checks across 67 routes passed",
+    "editorial_build_checks": "Both revised articles contain the intended passages and source links; ritual section has no misleading save action; original food photograph remains identified.",
+    "research_validation": "590 concepts indexed; links, source references and preserved import evidence validated."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant researched, edited and checked this candidate; no independent historical or native-language review claimed.",
+    "OSIC is a GI co-applicant. Its account is explicitly attributed; the cited original temple register and critical literary edition have not been independently inspected. No exact invention date or exclusive-origin verdict asserted.",
+    "Bose’s autobiography is retrospective testimony, read through a digital reproduction hosted by the Rare Book Society of India. School visitor access is not established.",
+    "The Pahala/Salepur travelogue describes a 2019 visit; no current prices, opening hours, seller ranking or image rights inferred.",
+    "No new media. The Puri food cover continues to identify its chhena poda photograph; it is not presented as rasagola.",
+    "Rendered browser checks remain open under the earlier browser security-policy limitation. Normal publication remains noindex."
+  ],
+  "evidence": [
+    "records/evidence/odisha-roots/source-review.json",
+    "records/evidence/odisha-roots/site-tests.txt",
+    "records/evidence/odisha-roots/edition-tests.txt",
+    "records/evidence/odisha-roots/page-acceptance.json",
+    "records/evidence/odisha-roots/editorial-build-checks.json"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated"
+  }
+}
