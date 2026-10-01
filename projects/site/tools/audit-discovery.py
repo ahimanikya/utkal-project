@@ -36,7 +36,10 @@ for key in ['title','description']:
  counts=Counter(row[key] for row in rows)
  for row in rows:
   if counts[row[key]]>1:row['errors'].append('duplicate_'+key)
-root=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9');excluded=['/404.html','/journey/']
+selection=json.loads((SITE/'editions/search-candidate.json').read_text())
+selected={p['route'] for p in selection['pages'] if p['decision']=='proposed'}
+if {p['route'] for p in selection['pages']}!=set(scope['routes']):raise SystemExit('Search selection must cover the edition')
+root=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9');excluded=[r for r in scope['routes'] if r not in selected]
 for row in rows:
  if row['route'] not in excluded:ET.SubElement(ET.SubElement(root,'url'),'loc').text='https://utkalproject.org'+row['route']
 ET.ElementTree(root).write(args.output/'sitemap-proposal.xml',encoding='utf-8',xml_declaration=True)

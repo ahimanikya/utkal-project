@@ -41,3 +41,12 @@ The [discovery audit](../records/evidence/visitor-experience/discovery-review.js
 ## Review the candidate
 
 Check a destination, a dish, a writer and a language on a phone and a wide display. Follow a connection, save two ideas, arrange days and download a book. The [review record](../records/visitor-experience-review.json) contains the final checks, screenshots, downloads and limitations. Publication remains a separate Founder decision.
+
+
+## Follow-up: bounded search proposal
+
+The [public-launch readiness candidate](../records/public-launch-readiness-review.json) supersedes the broad 65-URL sitemap proposal above with an explicit 11-page first-search recommendation. Every one of the 67 published routes now has a proposed, held or excluded decision in the website edition's search-candidate file. This is preparation, not Founder editorial acceptance or search activation.
+
+The separate local search-review output contains the proposed sitemap, crawler file and per-page indexing tags. The ordinary coastal build and publication workflow still ship the existing noindex preview. Approval of website refinements alone does not activate search: the Founder must approve the precise search subset and its editorial wording in a subsequent release. Search Console setup/submission is not included.
+
+The proposed crawler file allows access to held pages so their noindex tags can be read. Neither crawler controls nor an omitted sitemap entry make public content private. The store remains absent from the published edition. Google documents these distinctions in its [noindex guidance](https://developers.google.com/search/docs/crawling-indexing/block-indexing) and [sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).

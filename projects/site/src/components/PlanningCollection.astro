@@ -1,4 +1,5 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
 import PlanningPaths from './PlanningPaths.astro';
 import Shell from '../layouts/Shell.astro';
 import SaveJourney from './SaveJourney.astro';
@@ -10,12 +11,12 @@ const cover=c.entries.find(e=>e.id===coverId&&e.photo)||c.entries.find(e=>e.phot
 const groups=[...new Set(c.entries.map(e=>e.group))].sort((a,b)=>areaOrder.indexOf(a)-areaOrder.indexOf(b)).map((area,index)=>({area,id:'area-'+area.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/-$/,''),entries:c.entries.filter(e=>e.group===area)}));
 ---
 <Shell title={c.title} description={c.lead} active="explore" wide related={false}><div class="wrap planning-collection">
-<header class="page-head planning-opening"><div><p class="eyebrow">{c.title} · {c.entries.length} ideas in the collection</p><h1>{c.headline}<br/><em class="highlight">{c.highlight}</em></h1><p class="lead">{c.lead}</p></div>{cover&&<figure><img src={cover.photo.src} width={cover.photo.width} height={cover.photo.height} alt={cover.photo.alt} style={{objectFit:cover.photoFit}} fetchpriority="high"/><figcaption>{cover.photoNote||cover.photo.caption}</figcaption></figure>}</header>
+<header class="page-head planning-opening"><div><p class="eyebrow">{c.title} · {c.entries.length} ideas in the collection</p><h1>{c.headline}<br/><em class="highlight">{c.highlight}</em></h1><p class="lead">{c.lead}</p></div>{cover&&<figure><ResponsiveImage src={cover.photo.src} width={cover.photo.width} height={cover.photo.height} alt={cover.photo.alt} style={{objectFit:cover.photoFit}} fetchpriority="high"/><figcaption>{cover.photoNote||cover.photo.caption}</figcaption></figure>}</header>
 <PlanningPaths current={'/'+c.slug+'/'}/>
 <p class="planning-note">{c.note}</p>
 <nav class="area-links" aria-label="Jump to an area">{groups.map(g=><a href={'#'+g.id}>{g.area} <span>({g.entries.length})</span></a>)}</nav>
 {groups.map(g=><section class="planning-area" id={g.id} aria-labelledby={g.id+'-heading'}><header><p class="eyebrow">{g.entries.length} {g.entries.length===1?'idea':'ideas'} to make your own</p><h2 id={g.id+'-heading'}>{g.area}</h2></header><div class="planning-cards">{g.entries.map(i=><article class="utk-card planning-card">
-{i.photo&&<figure><img src={i.photo.src} width={i.photo.width} height={i.photo.height} alt={i.photo.alt} style={{objectFit:i.photoFit}} loading="lazy"/>{i.photoNote&&<figcaption>{i.photoNote}</figcaption>}</figure>}
+{i.photo&&<figure><ResponsiveImage src={i.photo.src} width={i.photo.width} height={i.photo.height} alt={i.photo.alt} style={{objectFit:i.photoFit}} loading="lazy" sizes="(max-width: 700px) 92vw, (max-width: 1050px) 44vw, 30vw"/>{i.photoNote&&<figcaption>{i.photoNote}</figcaption>}</figure>}
 <div class="planning-copy"><p class="eyebrow">{i.area}</p><h3><a href={i.href}>{i.title} ↗</a></h3><p>{i.summary}</p><SaveJourney id={i.id} quiet/></div></article>)}</div></section>)}
 <section class="planning-questions"><div><p class="eyebrow">Make it useful</p><h2>Before you decide</h2></div><div><ul>{c.questions.map(q=><li>{q}</li>)}</ul><div class="actions"><a class="button utk-button" href="/journey/#preparation">Open my journey checklist →</a><a class="text-link" href="/journey-starters/">Start with a few connected ideas →</a></div></div></section>
 <details class="utk-disclosure planning-credits"><summary>Sources, photographs & research notes</summary><p>These selections reuse the Utkal Project knowledge collection. Each linked entry retains its sources and checked date. Local conditions and individual arrangements still need confirmation.</p><ul>{photos.map(p=><li><a href={p.source}>{p.caption||p.alt}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</li>)}</ul></details>

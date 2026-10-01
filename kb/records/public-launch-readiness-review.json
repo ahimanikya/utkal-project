@@ -1,0 +1,66 @@
+{
+  "recorded_at": "2026-10-01T11:33:13.198254+00:00",
+  "status": "candidate_for_founder_review",
+  "authorization": "UTP-DEC-115",
+  "human_owner": "Ahimanikya Satapathy",
+  "base_commit": "ab40ab6",
+  "scope": "Prepare a bounded first search release, dated practical references, accessible mobile contents and responsive image delivery. Same 67 public routes.",
+  "changes": [
+    "11 proposed search pages; 53 held and three utility/error routes excluded, with an explicit rationale for every published route.",
+    "Separate generated local search build; current coastal publication stays noindex.",
+    "Dated, source-linked practical-arrangement notes on nine existing pages.",
+    "Native mobile contents adopted on place and regional guides, with Escape and chapter-focus handling.",
+    "Responsive WebP variants for 17 existing assets; originals, credit and portable-book metadata retained.",
+    "Design-system lessons and reproducible launch audits recorded."
+  ],
+  "verification": {
+    "full_site_tests": 346,
+    "coastal_tests": 39,
+    "design_system_tests": 6,
+    "page_acceptance": "268 checks across 67 routes passed",
+    "search_candidate": "67 page-specific robots comparisons and 11 exact sitemap URLs passed; default build still noindex",
+    "contrast": "14 normal-text foreground/background token pairs pass 4.5:1; existing shared reduced-motion/forced-colour/focus styles retained",
+    "responsive_images": {
+      "source_images": 17,
+      "original_bytes": 6467109,
+      "medium_variant_bytes": 2288170,
+      "reduction_percent": 64.6,
+      "transformation": "Aspect-preserving resize and WebP encoding, no compositing or generated content"
+    },
+    "practical_references": "Seven official sources checked; six scoped planning notes shown on nine existing routes"
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and checked the candidate; no independent editorial or accessibility review claimed.",
+    "Browser security-policy verification blocked visual/interactive browser checks. Keyboard handlers were tested with synthetic elements; screen-reader, zoom, physical-device and rendered layout checks remain open.",
+    "Source references were read online; no local contacts, site visits, bookings, prices, operating hours or current facility availability were confirmed.",
+    "Image savings compare encoded variants with original files, not measured network requests, Core Web Vitals or perceptual equivalence. Archive photographs and original credit records are preserved.",
+    "The 11-page search selection is a proposal requiring Founder editorial approval. The normal publication output remains noindex; no Search Console submission or indexing activation.",
+    "Research PRs 22 and 24 remain independent open changes; no claims of their approval or publication."
+  ],
+  "evidence": [
+    "records/evidence/public-launch-readiness/search-checks.json",
+    "records/evidence/public-launch-readiness/contrast-checks.json",
+    "records/evidence/public-launch-readiness/responsive-image-report.json",
+    "records/evidence/public-launch-readiness/search-launch-review.json",
+    "records/evidence/public-launch-readiness/page-acceptance.json",
+    "records/evidence/public-launch-readiness/discovery-review.json",
+    "records/evidence/public-launch-readiness/sitemap-proposal.xml",
+    "records/evidence/public-launch-readiness/site-tests.txt",
+    "records/evidence/public-launch-readiness/edition-tests.txt",
+    "records/evidence/public-launch-readiness/design-system-tests.txt"
+  ],
+  "research_scope": [
+    "https://github.com/ahimanikya/utkal-project/pull/22",
+    "https://github.com/ahimanikya/utkal-project/pull/24"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated",
+    "next_action": "Founder reviews the website candidate; search activation remains a separate exact-scope decision."
+  }
+}
