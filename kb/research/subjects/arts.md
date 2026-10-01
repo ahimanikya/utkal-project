@@ -79,3 +79,5 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Pala and its culture](../culture/pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
 
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Siali fibre](../economy/siali-products.md) connects historical Mankirdia craft evidence to forest-material research; no present-day maker interview is claimed.

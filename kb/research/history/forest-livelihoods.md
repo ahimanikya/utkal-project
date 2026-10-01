@@ -22,3 +22,7 @@ subjects: ["history", "food", "economy", "everyday"]
 Research precolonial exchange only where dated documentary or archaeological evidence supports it; then examine colonial forest administration, cooperatives, changes in collector rights, women's enterprise and contemporary processing. Retain oral histories as attributed accounts with consent and provenance; no interviews have been conducted for this entry. Study food preservation, seasonal labour and changing household uses alongside laws and commercial institutions.
 
 [Forest foods](../food/forest-foods.md) · [Markets and livelihoods](../economy/forest-products.md).
+
+## Further historical source
+
+The [SCSTRTI food-knowledge study](../sources/forest-scstrti-foodknowledge.md) offers community-specific descriptions. Its selected sections now inform the honey and siali profiles. Repository filename dates require confirmation; historical accounts are not current interviews or universal practices.

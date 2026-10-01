@@ -57,3 +57,5 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 [Related reading](../food/mohu-honey.md) — Connects honey processing and collector questions while preserving forest-collected versus managed-hive origin.
 
 [Related reading](../food/mahua-mohula.md) — Connects separate flower and seed uses with botanical identity and attributed cultural research.
+
+[Siali: leaves and fibre](siali-products.md) — separates a climber’s identity and community-attributed fibre uses from sal and mahua. Its named product records inherit no statewide market totals.

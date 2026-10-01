@@ -4,7 +4,7 @@ title: "Mohu: honey, collectors and processing"
 description: "Mohu: honey, collectors and processing — names, uses, trade and open questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:28:54.352476+00:00"}
-sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-vasundhara-livelihoods", "title": "Vasundhara: Livelihoods", "resource": "https://vasundharaodisha.org/Welcome/page/Livelihood"}]
+sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-vasundhara-livelihoods", "title": "Vasundhara: Livelihoods", "resource": "https://vasundharaodisha.org/Welcome/page/Livelihood"}, {"id": "forest-scstrti-foodknowledge", "title": "Indigenous Knowledge on Selection, Sustainable Utilization of Local Flora and Fauna for Food by Tribes (PTG) of Odisha: A Potential Resource for Food and Environmental Security", "resource": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf"}]
 human_review_claimed: false
 subjects: ["food", "economy", "nature"]
 ---
@@ -26,3 +26,9 @@ Document named collectors or beekeepers, seasons and places, attributed collecti
 The next market fields are dated collector prices, quantities purchased, processing throughput, quality tests, realised sales and Odisha-origin exports. Product listings and the presence of a processing plant cannot establish these outcomes. No current statewide honey market value or named producer certification has been verified here.
 
 [Forest foods](forest-foods.md) · [Forest-product markets](../economy/forest-products.md).
+
+## A historical, community-specific seasonal account
+
+SCSTRTI's Hill Kharia account in the Similipal context describes honey collection and sale in **March–June** and **October–November** (printed p.28, PDF p.42). It records local distinctions rendered as bada/bhagua mahu and sana mahu; these are not verified bee-species identifications. [SCSTRTI report](https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf).
+
+The file carries a2014 label, but exact publication and fieldwork dates remain unconfirmed. Preserve this as a historical account, not a current Odisha-wide availability calendar. Utkal has not interviewed collectors or verified present collection conditions.

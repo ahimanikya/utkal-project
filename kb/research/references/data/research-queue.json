@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T19:28:54.352476+00:00",
+  "updated_at": "2026-10-01T19:35:04.134564+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2358,15 +2358,15 @@
       "done_when": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
       "target": "economy/forest-products.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": "2026-10-01T19:28:54.352476+00:00",
-      "next_step": "Verify attributed local mahua food preparations, harvest calendars and leaf-product identities; obtain direct evidence for indexed-only leads. Reuse three saved profiles and existing market series.",
+      "last_worked_at": "2026-10-01T19:35:04.134564+00:00",
+      "next_step": "Recover full2016 mahua paper through an independent legitimate institutional route for attributed recipe quantities and sample methods; verify local mahua harvest calendar. Retain honey season as historical; retry failed metadata/garden/company routes on2026-10-08. Other independent product research remains eligible.",
       "evidence_outputs": [
         "food/forest-foods.md",
         "economy/forest-products.md",
@@ -2374,7 +2374,10 @@
         "statistics/forest-products.md",
         "economy/kendu-patra.md",
         "food/mohu-honey.md",
-        "food/mahua-mohula.md"
+        "food/mahua-mohula.md",
+        "economy/siali-products.md",
+        "sources/forest-mahua-food2016.md",
+        "sources/forest-scstrti-foodknowledge.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2389,6 +2392,12 @@
           "run_id": "2026-10-01-forest-product-profiles",
           "at": "2026-10-01T19:28:54.352476+00:00",
           "outcome": "named_profiles_and_user_honey_clarification",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-forest-seasonal",
+          "at": "2026-10-01T19:35:04.134564+00:00",
+          "outcome": "historical_honey_seasons_mahua_formulations_siali_identity",
           "completion_criteria_met": false
         }
       ],
@@ -2405,7 +2414,10 @@
           "references/data/forest-products.json",
           "economy/kendu-patra.md",
           "food/mohu-honey.md",
-          "food/mahua-mohula.md"
+          "food/mahua-mohula.md",
+          "economy/siali-products.md",
+          "sources/forest-mahua-food2016.md",
+          "sources/forest-scstrti-foodknowledge.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

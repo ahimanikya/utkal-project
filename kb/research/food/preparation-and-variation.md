@@ -55,3 +55,7 @@ Next: independent local preparations for chatu patrapoda and ou khatta; finer re
 ## Fourteen-food research set complete · 1 October 2026
 
 [Ou khatta](ou-khatta.md) now distinguishes two preparations by Sasmita and a family meal memory by Julie Acharya Ray. This closes the last attributed-preparation gap in the bounded RES-011 set of six pitha, four everyday dishes and four place-linked sweets. It does not complete statewide coverage, recipe testing, local language review or the resolution of every source conflict. Further poda and locality questions remain in the existing records. Next sequential task: sweets economics (RES-031).
+
+## Mahua food-development reference
+
+[Mahua/mohula](mahua-mohula.md) now links to a2016-issue Odisha study reporting laddu, cake, jam and other formulations. Only the abstract was read; ingredient quantities and procedures remain unavailable here. Do not turn a product list into an invented recipe or describe research formulations as established community traditions.

@@ -32,3 +32,5 @@ Document fruits and kernels, flowers, honey, edible leaves and shoots, tubers an
 ## Named profiles
 
 [Mohu/honey](mohu-honey.md) and [mahua/mohula](mahua-mohula.md) are separate entries. The user confirmed Mohu means honey; mahua flowers and seeds remain distinct product forms. [Kendu patra](../economy/kendu-patra.md) belongs to the related non-food economy.
+
+[Siali products](../economy/siali-products.md) connects plant identity with distinct leaf, fibre and seed uses. The mahua profile now includes attributed food-development research, while the honey profile contains a source-specific historical seasonal account.

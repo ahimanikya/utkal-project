@@ -248,3 +248,7 @@ Added four connected topic pages, five source records, thirteen atlas observatio
 ## 1 October 2026 · Kendu patra, Mohu and mahua
 
 Saved three product profiles and three institutional sources. Recorded the user’s explicit clarification that Mohu means honey; separated mahua flowers, seeds and derived uses. Extended the product register to fifteen entries/leads with evidence states. No additional market totals, interviews, completed deep studies or website publication claimed.
+
+## 1 October2026 · Forest seasonal and preparation research
+
+Resumed earliest in-progress RES-056. Added siali profile and three institutional/publisher sources; enhanced honey with a historical community seasonal account and mahua with research-formulation evidence. Failed fetches recorded separately. No recipe invented, market total added, interview claimed or website publication performed.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:28:54.352476+00:00",
+  "updated_at": "2026-10-01T19:35:04.134564+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -204,6 +204,51 @@
       "reason": "Web fetch timed out; indexed lead not admitted as a full paper or statistical source.",
       "retrieved_on": "2026-10-01",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-food2016",
+      "url": "https://indianjournals.com/article/aet-40-4-004",
+      "status": "partial",
+      "scope": "Abstract only; food-product development is not measured commercial adoption. Districts, survey dates, recipe quantities and consumer-panel methods require full text.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-siali-iisc",
+      "url": "https://indiaflora-ces.iisc.ac.in/EasternGhats/herbsheet.php?cat=4&id=1830",
+      "status": "available",
+      "scope": "Direct institutional flora. Phanera vahlii and Bauhinia vahlii are retained as linked names in the source; general phenology is not a district harvest calendar.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-scstrti-foodknowledge",
+      "url": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf",
+      "status": "available",
+      "scope": "Repository filename labels2014; publication and fieldwork dates unconfirmed. Selected historical community descriptions, not present-day practices or original interviews by Utkal.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://www.statebotanicalgardenodisha.org/plant-details.php?purl=siali",
+      "status": "unavailable",
+      "reason": "Direct fetch returned500 Internal Server Error; independent IISc flora used for identity.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://repository.tribal.gov.in/handle/123456789/74427",
+      "status": "unavailable",
+      "reason": "Repository metadata page unavailable; PDF accessible. Publication/fieldwork dates remain unresolved.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://mdpcl.com/mahua-value-chain",
+      "status": "unavailable",
+      "reason": "Direct fetch unavailable; indexed company claims not admitted as verified enterprise outcomes.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
     }
   ],
   "human_review_claimed": false,
@@ -245,7 +290,8 @@
       "concept_path": "food/mohu-honey.md",
       "source_ids": [
         "forest-sector2025",
-        "forest-vasundhara-livelihoods"
+        "forest-vasundhara-livelihoods",
+        "forest-scstrti-foodknowledge"
       ],
       "evidence_status": "processing_and_programme_evidence",
       "current_procurement_verified": false,
@@ -254,7 +300,10 @@
       "current_price": null,
       "annual_sales_value": null,
       "export_quantity": null,
-      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "seasonal_account_ids": [
+        "hill-kharia-honey-season-scstrti"
+      ]
     },
     {
       "id": "mahua-flower",
@@ -264,7 +313,8 @@
       "concept_path": "food/mahua-mohula.md",
       "source_ids": [
         "forest-vasundhara2001",
-        "forest-mahua-iisc"
+        "forest-mahua-iisc",
+        "forest-mahua-food2016"
       ],
       "evidence_status": "attributed_use_and_botanical_reference",
       "current_procurement_verified": false,
@@ -318,18 +368,21 @@
       "name": "Siali leaves",
       "part_or_material": "leaf",
       "use_class": "non_food",
-      "concept_path": null,
+      "concept_path": "economy/siali-products.md",
       "source_ids": [
-        "forest-vasundhara-livelihoods"
+        "forest-vasundhara-livelihoods",
+        "forest-siali-iisc"
       ],
-      "evidence_status": "organisation_product_listing",
+      "evidence_status": "institutional_flora_identity_and_organisation_trade_listing",
       "current_procurement_verified": false,
       "harvest_origin": null,
       "odisha_season": null,
       "current_price": null,
       "annual_sales_value": null,
       "export_quantity": null,
-      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "botanical_name": "Phanera vahlii",
+      "source_taxonomic_alias": "Bauhinia vahlii"
     },
     {
       "id": "sal-seed",
@@ -493,6 +546,25 @@
       "annual_sales_value": null,
       "export_quantity": null,
       "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "siali-fibre",
+      "name": "Siali fibre",
+      "part_or_material": "fibre",
+      "use_class": "non_food",
+      "concept_path": "economy/siali-products.md",
+      "source_ids": [
+        "forest-scstrti-foodknowledge",
+        "forest-siali-iisc"
+      ],
+      "evidence_status": "historical_community_craft_account",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Obtain named current maker accounts and material/price records; historical account does not establish current commercial output."
     }
   ],
   "update_history": [
@@ -500,6 +572,59 @@
       "run_id": "2026-10-01-forest-product-profiles",
       "at": "2026-10-01T19:28:54.352476+00:00",
       "scope": "Three named profiles and15 product-level entries/leads. User clarified Mohu as honey. No new market totals."
+    },
+    {
+      "run_id": "2026-10-01-forest-seasonal",
+      "at": "2026-10-01T19:35:04.134564+00:00",
+      "scope": "Historical honey seasonal account; mahua food-development abstract; siali botanical identity and fibre profile. No new market totals."
+    }
+  ],
+  "seasonal_accounts": [
+    {
+      "id": "hill-kharia-honey-season-scstrti",
+      "product_id": "mohu-honey",
+      "source_id": "forest-scstrti-foodknowledge",
+      "locator": "Section2.3.4.1, printed p.28 / PDF p.42",
+      "community": "Hill Kharia",
+      "geography": "Similipal context, Mayurbhanj",
+      "period": "Historical account; fieldwork and publication dates unconfirmed; repository filename2014",
+      "month_windows": [
+        [
+          3,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "evidence_status": "historical_community_account",
+      "current_availability_verified": false
+    }
+  ],
+  "preparation_research": [
+    {
+      "id": "mahua-products-aet2016",
+      "product_id": "mahua-flower",
+      "source_id": "forest-mahua-food2016",
+      "issue_year": 2016,
+      "online_publication_date": "2017-02-24",
+      "evidence_status": "publisher_abstract_research_formulations",
+      "reported_products": [
+        "dried flowers",
+        "candied flowers",
+        "glazed flowers",
+        "bar",
+        "ready-to-serve beverage",
+        "squash",
+        "jam",
+        "laddu",
+        "cake"
+      ],
+      "recipe_quantities": null,
+      "survey_dates": null,
+      "commercial_sales_verified": false,
+      "community_tradition_verified": false
     }
   ]
 }

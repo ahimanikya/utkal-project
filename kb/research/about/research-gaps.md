@@ -242,3 +242,7 @@ RES-056–058: ingredient identities/seasons/attributed uses, product markets/co
 ### Named forest products · 1 October 2026
 
 Mohu means honey per user clarification. Three profiles and fifteen product entries/leads are saved. Local seasons, community-attributed preparations, collector prices, current procurement and exports remain open; no new task duplicates added. NIScPR mahua paper timed out; retry2026-10-08.
+
+### RES-056 seasonal checkpoint
+
+A historical Hill Kharia honey calendar and a2016 mahua food-development abstract are saved, with a siali identity/fibre profile. Full recipe methods, current local seasons and SCSTRTI date provenance remain open. Failed garden, repository metadata and producer-company routes have2026-10-08 retries; independent research can continue.

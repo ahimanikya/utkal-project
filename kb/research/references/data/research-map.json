@@ -15416,7 +15416,8 @@
       "source_ids": [
         "forest-mahua-iisc",
         "forest-mahua-tnau",
-        "forest-vasundhara2001"
+        "forest-vasundhara2001",
+        "forest-mahua-food2016"
       ],
       "added_at": "2026-10-01T19:28:54.352476+00:00"
     },
@@ -15436,9 +15437,77 @@
       ],
       "source_ids": [
         "forest-sector2025",
-        "forest-vasundhara-livelihoods"
+        "forest-vasundhara-livelihoods",
+        "forest-scstrti-foodknowledge"
       ],
       "added_at": "2026-10-01T19:28:54.352476+00:00"
+    },
+    {
+      "id": "sources/forest-mahua-food2016",
+      "title": "Post Harvest Practices and Value Addition of Mahua (Madhuca longifolia) Flower in Odisha",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-mahua-food2016.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-mahua-food2016"
+      ],
+      "added_at": "2026-10-01T19:35:04.134564+00:00"
+    },
+    {
+      "id": "sources/forest-siali-iisc",
+      "title": "Phanera vahlii: Digital Flora of Eastern Ghats",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-siali-iisc.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-siali-iisc"
+      ],
+      "added_at": "2026-10-01T19:35:04.134564+00:00"
+    },
+    {
+      "id": "sources/forest-scstrti-foodknowledge",
+      "title": "Indigenous Knowledge on Selection, Sustainable Utilization of Local Flora and Fauna for Food by Tribes (PTG) of Odisha: A Potential Resource for Food and Environmental Security",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-scstrti-foodknowledge.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-scstrti-foodknowledge"
+      ],
+      "added_at": "2026-10-01T19:35:04.134564+00:00"
+    },
+    {
+      "id": "economy/siali-products",
+      "title": "Siali: leaves, fibre and a distinct plant identity",
+      "kind": "Product Profile",
+      "layer": "research_concept",
+      "source_path": "economy/siali-products.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "nature",
+        "arts",
+        "food"
+      ],
+      "source_ids": [
+        "forest-siali-iisc",
+        "forest-scstrti-foodknowledge",
+        "forest-vasundhara-livelihoods"
+      ],
+      "added_at": "2026-10-01T19:35:04.134564+00:00"
     }
   ],
   "shared_publications": [
@@ -16537,7 +16606,10 @@
         "references/data/forest-products.json",
         "economy/kendu-patra.md",
         "food/mohu-honey.md",
-        "food/mahua-mohula.md"
+        "food/mahua-mohula.md",
+        "economy/siali-products.md",
+        "sources/forest-mahua-food2016.md",
+        "sources/forest-scstrti-foodknowledge.md"
       ],
       "project_records": [],
       "remaining_scope": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
@@ -16604,8 +16676,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1073,
-    "updated_at": "2026-10-01T19:28:54.352476+00:00",
+    "records_mapped": 1077,
+    "updated_at": "2026-10-01T19:35:04.134564+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -16981,6 +17053,11 @@
       "run_id": "2026-10-01-forest-product-profiles",
       "at": "2026-10-01T19:28:54.352476+00:00",
       "scope": "Three product profiles and three source identities; existing task IDs and market observations retained; Mohu disambiguated by user."
+    },
+    {
+      "run_id": "2026-10-01-forest-seasonal",
+      "at": "2026-10-01T19:35:04.134564+00:00",
+      "scope": "Siali profile plus three sources; enhanced existing honey and mahua records, retained task status and historical scope."
     }
   ]
 }

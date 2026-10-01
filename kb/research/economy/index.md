@@ -36,3 +36,5 @@ Economic growth and industry comparisons.
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
 
 [Kendu patra](kendu-patra.md) — leaf trade, skilled work and the existing sales series.
+
+[Siali products](siali-products.md) — botanical identity, leaves and community-attributed fibre craft.

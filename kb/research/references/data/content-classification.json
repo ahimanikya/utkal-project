@@ -4154,6 +4154,18 @@
       "content_type": "Product Profile",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/siali-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "arts",
+        "food"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5906,6 +5918,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects separate flower and seed uses with botanical identity and attributed cultural research."
+    },
+    {
+      "from": "economy/siali-products",
+      "to": "food/mahua-mohula",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Disambiguates siali names from the separate Madhuca tree and its flower/seed products."
+    },
+    {
+      "from": "economy/siali-products",
+      "to": "food/mohu-honey",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects forest livelihood research without merging honey with similarly transliterated plant names."
     }
   ],
   "relationship_types": {

@@ -4,7 +4,7 @@ title: "Mahua and mohula: flowers, seeds and changing uses"
 description: "Mahua and mohula: flowers, seeds and changing uses — names, uses, trade and open questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:28:54.352476+00:00"}
-sources: [{"id": "forest-mahua-iisc", "title": "Madhuca longifolia var. latifolia: Herbarium JCB", "resource": "https://indiaflora-ces.iisc.ac.in/FloraPeninsular/herbsheet.php?cat=7&id=8868"}, {"id": "forest-mahua-tnau", "title": "TNAU Agritech: Mahua", "resource": "https://agritech.tnau.ac.in/bio-fuels/Biofuel_Mahua.html"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}]
+sources: [{"id": "forest-mahua-iisc", "title": "Madhuca longifolia var. latifolia: Herbarium JCB", "resource": "https://indiaflora-ces.iisc.ac.in/FloraPeninsular/herbsheet.php?cat=7&id=8868"}, {"id": "forest-mahua-tnau", "title": "TNAU Agritech: Mahua", "resource": "https://agritech.tnau.ac.in/bio-fuels/Biofuel_Mahua.html"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}, {"id": "forest-mahua-food2016", "title": "Post Harvest Practices and Value Addition of Mahua (Madhuca longifolia) Flower in Odisha", "resource": "https://indianjournals.com/article/aet-40-4-004"}]
 human_review_claimed: false
 subjects: ["food", "nature", "economy", "history"]
 ---
@@ -35,3 +35,9 @@ TNAU describes both forest occurrence and cultivation near villages. Consequentl
 Seek attributed harvesting and drying practices, preservation, songs, festivals and household histories by community and place. Compare flowers, seeds, oil and finished-product transactions using dated units, grades, procurement quantities and collector receipts. Odisha-wide turnover and export volumes remain unknown in this profile. [Dated history](../history/forest-livelihoods.md) keeps 2001 publication evidence separate from the age of a tradition.
 
 [Forest foods](forest-foods.md) · [Markets and livelihoods](../economy/forest-products.md).
+
+## Odisha food-processing research · 2016 issue
+
+Bakhara, Bal, Pal, Sahoo and Panda reported surveying mahua post-harvest practices in Odisha and developing foods including candied and glazed flowers, a bar, drinks, squash, jam, laddu and cake. Their affiliations include OUAT's agricultural processing and food-engineering department. The paper appeared in *Agricultural Engineering Today*40(4), pp.22–28; the publisher dates its online release to24 February2017. [Publisher abstract](https://indianjournals.com/article/aet-40-4-004).
+
+This supports a research-and-food-diversity story. It does not establish that these formulations are ancestral recipes, widely sold products or profitable businesses. The abstract supplies no usable recipe quantities or consumer-panel methods; those remain full-text questions. Connect [preparation and variation](preparation-and-variation.md) only when a complete attributed formulation is available.
