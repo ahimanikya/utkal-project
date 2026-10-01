@@ -15821,6 +15821,97 @@
         "forest-balliguda2021"
       ],
       "added_at": "2026-10-01T20:39:09.741844+00:00"
+    },
+    {
+      "id": "sources/forest-ciah-varieties",
+      "title": "ICAR-CIAH Variety Release (AICRP and SVRC)",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-ciah-varieties.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-ciah-varieties"
+      ],
+      "added_at": "2026-10-01T21:20:19.531656+00:00"
+    },
+    {
+      "id": "sources/forest-vasundhara-tamarind",
+      "title": "MSP Denied: Tamarind — A Case Study",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-vasundhara-tamarind.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-vasundhara-tamarind"
+      ],
+      "added_at": "2026-10-01T21:20:19.531656+00:00"
+    },
+    {
+      "id": "sources/forest-chironji-processing2012",
+      "title": "Chironji nut (Buchanania lanzan) processing, present practices and scope",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-chironji-processing2012.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-chironji-processing2012"
+      ],
+      "added_at": "2026-10-01T21:20:19.531656+00:00"
+    },
+    {
+      "id": "food/tentuli-tamarind",
+      "title": "Tentuli: fruit, seed and the collector economy",
+      "kind": "Food Profile",
+      "layer": "research_concept",
+      "source_path": "food/tentuli-tamarind.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "nature",
+        "economy",
+        "everyday"
+      ],
+      "source_ids": [
+        "food-koli-balasore2020",
+        "forest-scstrti-foodknowledge",
+        "forest-vasundhara-tamarind",
+        "forest-ciah-varieties"
+      ],
+      "added_at": "2026-10-01T21:20:19.531656+00:00"
+    },
+    {
+      "id": "food/chara-chironji",
+      "title": "Chara koli and chironji: fruit, seed and kernel",
+      "kind": "Food Profile",
+      "layer": "research_concept",
+      "source_path": "food/chara-chironji.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "nature",
+        "economy",
+        "everyday"
+      ],
+      "source_ids": [
+        "food-koli-balasore2020",
+        "forest-scstrti-foodknowledge",
+        "forest-ciah-varieties",
+        "forest-chironji-processing2012"
+      ],
+      "added_at": "2026-10-01T21:20:19.531656+00:00"
     }
   ],
   "shared_publications": [
@@ -16928,7 +17019,12 @@
         "sources/forest-balliguda2021.md",
         "sources/forest-cysd2002.md",
         "sources/forest-jica2017.md",
-        "economy/sal-products.md"
+        "economy/sal-products.md",
+        "sources/forest-ciah-varieties.md",
+        "sources/forest-vasundhara-tamarind.md",
+        "sources/forest-chironji-processing2012.md",
+        "food/tentuli-tamarind.md",
+        "food/chara-chironji.md"
       ],
       "project_records": [],
       "remaining_scope": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
@@ -16950,7 +17046,9 @@
         "references/data/forest-products.json",
         "economy/kendu-patra.md",
         "food/mohu-honey.md",
-        "food/mahua-mohula.md"
+        "food/mahua-mohula.md",
+        "food/tentuli-tamarind.md",
+        "sources/forest-vasundhara-tamarind.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
@@ -17063,8 +17161,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1096,
-    "updated_at": "2026-10-01T20:39:09.741844+00:00",
+    "records_mapped": 1101,
+    "updated_at": "2026-10-01T21:20:19.531656+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17470,6 +17568,11 @@
       "run_id": "2026-10-01-leaf-craft",
       "at": "2026-10-01T20:39:09.741844+00:00",
       "scope": "Enhanced existing siali identity; sal profile resolves two existing product leads. Three source records; one JICA report has two PDF parts."
+    },
+    {
+      "run_id": "2026-10-01-forest-fruits",
+      "at": "2026-10-01T21:20:19.531656+00:00",
+      "scope": "Tamarind and chara enhance existing product/Koli records. Three sources added; same SCSTRTI and Balasore publications reused without duplicate source IDs."
     }
   ]
 }

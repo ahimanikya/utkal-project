@@ -38,3 +38,5 @@ Document fruits and kernels, flowers, honey, edible leaves and shoots, tubers an
 [Mahua’s local seasonal and cake account](mahua-mohula.md) now distinguishes a documented food preparation from later university product-development work. Historical collection includes both private and forest land.
 
 [Sal](../economy/sal-products.md) and [siali](../economy/siali-products.md) extend the food story to the materials used for wrapping and serving it. Named historical testimony and a local working plan document different practices and seasons; neither establishes present availability.
+
+[Tentuli](tentuli-tamarind.md) and [chara/chironji](chara-chironji.md) now connect local seasons, plant parts, attributed food uses and market questions. Market-lot origin and current income remain unknown.

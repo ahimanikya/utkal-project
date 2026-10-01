@@ -183,3 +183,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Leaf craft and seasonal livelihoods
 
 [Research receipt](records/leaf-craft-2026-10-01.json): Local leaf seasons and named maker account added; present earnings and exports remain unknown. No website release.
+
+## 1 October 2026 · Tentuli and chara food and markets
+
+[Research receipt](records/forest-fruits-2026-10-01.json): Two existing product identities enhanced; historical testimony retained with unresolved date and grade. No website release.

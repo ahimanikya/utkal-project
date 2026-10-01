@@ -235,3 +235,7 @@ Rice trend extension reuses the existing source and register. Historical-table p
 ## Leaf craft extension · 1 October 2026
 
 Existing siali and forest-product identities were reused. Sal now has one profile for two existing material entries. Three primary publications supply distinct local accounts; the JICA cover and appendix remain one source. No new research task or duplicate maker biography was created.
+
+## Forest fruit extension · 1 October 2026
+
+Two profiles deepen existing tamarind/chara product leads. Koli identity and two existing primary studies were reused; only unread fields were researched. Three additional source records distinguish institutional cultivar evidence, historical testimony and an inaccessible processing lead.

@@ -65,3 +65,7 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 ## Leaves are a material economy too
 
 [Sal](sal-products.md) and [siali](siali-products.md) now distinguish tree and climber, leaf and seed/fibre, maker processes and local seasonal accounts. Collection, stitching, pressing and selling need separate measures. Current market totals and exports remain open; the historical craft evidence does not fill those gaps.
+
+## Fruit and kernel value chains
+
+[Tentuli](../food/tentuli-tamarind.md) distinguishes pulp, seeds and sale grades. [Chara/chironji](../food/chara-chironji.md) distinguishes fruit, hard nut and kernel. Historical community-market accounts are saved; processing yields, current prices, realised procurement and exports remain open.

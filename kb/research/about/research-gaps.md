@@ -266,3 +266,7 @@ RES-061 now has consecutive rice observations, five district snapshots and an ab
 ## Leaf craft checkpoint · 1 October 2026
 
 Local sal/siali windows and a named historical maker are documented in RES-056. Nayagarh broad availability and Balliguda peak-quality/prescribed windows cannot be combined into one statewide season. Present operations, collector returns, food-contact performance and environmental comparisons remain open. Next preparation research reuses existing tamarind/chara leads; mahua cooking endpoints and local review remain unresolved.
+
+## Tentuli and chara checkpoint
+
+Local season/use profiles and community-market entries are saved. Full attributed recipes, cooking endpoints and SCSTRTI dates remain unresolved; RES-056 deferred to 8 October with completion criteria intact. A named tamarind sale testimony lacks transaction date and lot grade; do not use it as a present price or net income. TDCCOL tender failed web and certificate-validated download; NIScPR article failed landing/PDF routes. RES-057 retains independent dated payment research.

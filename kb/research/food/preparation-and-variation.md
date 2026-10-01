@@ -63,3 +63,7 @@ Next: independent local preparations for chatu patrapoda and ou khatta; finer re
 ## Mahua preparation account recovered
 
 The [mahua profile](mahua-mohula.md) now records a separate field-study cake description, its source quantities and missing cooking endpoints. This adds an attributed preparation account; it does not fill the unread methods of the earlier food-development paper. The original fourteen-food research set remains preserved.
+
+## Tentuli and chara preparation leads
+
+The [tentuli](tentuli-tamarind.md) and [chara](chara-chironji.md) profiles now hold attributed ingredient-use descriptions. These are not complete recipes. Tamarind-seed gruel tables need local review and clarified cooking endpoints; chara roasting needs a named local account and quantities.

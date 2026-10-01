@@ -272,3 +272,7 @@ Saved rice trend comparisons and chart, selected district context, experimental 
 ## 1 October 2026 · Leaf craft, seasons and makers
 
 RES-056 enhanced siali and added a sal profile from three primary publications. Saved three scoped seasonal accounts and three material-process records, retaining historical dates and unknown current markets. Existing plant/product identities reused. No new interview, human review, statewide total or website publication claimed.
+
+## 1 October 2026 · Tentuli and chara/chironji
+
+Enhanced two existing product identities with profiles, local seasons, attributed historical community-market entries and one scoped collector-sale testimony. Cultivar listings do not establish Odisha planting. Failed original-source retrievals recorded; no current market totals, recipe testing or website publication claimed. RES-056 retains unmet criteria and 8 October retry.

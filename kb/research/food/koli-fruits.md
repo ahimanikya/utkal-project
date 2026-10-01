@@ -52,3 +52,5 @@ Add reviewed Odia spellings, locality, fruit photographs with rights, taste desc
 [Everyday food culture](everyday-food-culture.md) — Connects fruit names and seasonal food knowledge with the existing everyday-food collection; local names do not establish identical botanical species.
 
 [Ekamra Kanan](../places/ekamra-kanan.md) — RPRC’s botanical collections, cactus-claim scope and connections to wild fruits.
+
+[Chara koli and chironji](chara-chironji.md) deepens the existing chara identity with product-form and community-use evidence; it is not an additional fruit species. [Tentuli](tentuli-tamarind.md) adds a separate ingredient profile from the same Balasore publication.

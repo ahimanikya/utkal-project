@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T20:39:09.741844+00:00",
+  "updated_at": "2026-10-01T21:20:19.531656+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2357,16 +2357,16 @@
       "title": "Forest-food identities, seasons and preparation",
       "done_when": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
       "target": "economy/forest-products.md",
-      "status": "in_progress",
-      "attempts": 5,
+      "status": "blocked",
+      "attempts": 6,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": "2026-10-01T20:39:09.741844+00:00",
-      "next_step": "Sal/siali local seasons and material accounts saved. Next verify existing tamarind and chara product leads for forest/cultivated origin and attributed preparation, reusing Koli records. Mahua cooking endpoints and local review remain unresolved; current market evidence stays in RES-057.",
+      "last_worked_at": "2026-10-01T21:20:19.531656+00:00",
+      "next_step": "Tamarind/chara profiles and historical community-market entries saved. Remaining preparation gaps need attributed full recipes, dates and local review; next independent work should advance RES-057 dated collector-payment and procurement records, using the new testimony only within its undated historical scope. Do not retry TDCCOL/NIScPR failures before 2026-10-08.",
       "evidence_outputs": [
         "food/forest-foods.md",
         "economy/forest-products.md",
@@ -2383,10 +2383,15 @@
         "sources/forest-balliguda2021.md",
         "sources/forest-cysd2002.md",
         "sources/forest-jica2017.md",
-        "economy/sal-products.md"
+        "economy/sal-products.md",
+        "sources/forest-ciah-varieties.md",
+        "sources/forest-vasundhara-tamarind.md",
+        "sources/forest-chironji-processing2012.md",
+        "food/tentuli-tamarind.md",
+        "food/chara-chironji.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-08",
+      "blocker": "Full attributed preparation methods and source-date provenance remain unavailable; local recipe review has not occurred. Bounded identity/season/use profiles saved, completion criterion remains unmet.",
       "attempt_history": [
         {
           "run_id": "2026-10-01-forest-products",
@@ -2417,6 +2422,12 @@
           "at": "2026-10-01T20:39:09.741844+00:00",
           "outcome": "leaf_craft_seasons_and_named_historical_maker",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-forest-fruits",
+          "at": "2026-10-01T21:20:19.531656+00:00",
+          "outcome": "tentuli_chara_profiles_and_attributed_market_accounts",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -2441,7 +2452,12 @@
           "sources/forest-balliguda2021.md",
           "sources/forest-cysd2002.md",
           "sources/forest-jica2017.md",
-          "economy/sal-products.md"
+          "economy/sal-products.md",
+          "sources/forest-ciah-varieties.md",
+          "sources/forest-vasundhara-tamarind.md",
+          "sources/forest-chironji-processing2012.md",
+          "food/tentuli-tamarind.md",
+          "food/chara-chironji.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -2454,20 +2470,30 @@
       "title": "Forest-product trade and collector returns",
       "done_when": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
       "target": "economy/forest-products.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": null,
-      "next_step": "Recover2020–21 Panchayati Raj/ORMAS honey purchase report after2026-10-08; independently seek dated collector-payment and realised-sale records. Preserve indexed purchase lead as unverified; reconcile kendu2019–20 source conflict.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-01T21:20:19.531656+00:00",
+      "next_step": "Seek dated primary collector-payment and realised procurement records. Preserve Vasundhara sale testimony as undated and grade-unspecified; recover original policy/TDCCOL tender after 2026-10-08. Keep kendu 2019–20 conflict unresolved.",
+      "evidence_outputs": [
+        "food/tentuli-tamarind.md",
+        "sources/forest-vasundhara-tamarind.md"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-forest-fruits",
+          "at": "2026-10-01T21:20:19.531656+00:00",
+          "outcome": "scoped_historical_sale_testimony_and_original_procurement_fetch_gap",
+          "completion_criteria_met": false
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "food/forest-foods.md",
@@ -2481,7 +2507,9 @@
           "references/data/forest-products.json",
           "economy/kendu-patra.md",
           "food/mohu-honey.md",
-          "food/mahua-mohula.md"
+          "food/mahua-mohula.md",
+          "food/tentuli-tamarind.md",
+          "sources/forest-vasundhara-tamarind.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T20:39:09.741844+00:00",
+  "updated_at": "2026-10-01T21:20:19.531656+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4370,6 +4370,60 @@
       "run_id": "2026-10-01-leaf-craft",
       "status": "available_text_only",
       "scope": "Kandhamal value-chain description, not a current enterprise census or evidence that proposed interventions were delivered. Cover date verified in part 01 of the same report.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ciah-varieties",
+      "discovery_url": "https://www.icar-ciah.org/index.php?do=veriti_relese_svrc&mod=veriti",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "available",
+      "scope": "Undated institutional cultivar list; supports Thar Priya/chironji and Goma Prateek/tamarind names. Does not verify planting, adoption, yields or release dates in Odisha.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-tamarind",
+      "discovery_url": "https://vasundharaodisha.org/upload/pdfFile/b949225825e4667de86b4628a67b57b8.pdf",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "available_text_only",
+      "scope": "Undated publication with April 2023 policy context. Original named collector testimony is primary qualitative evidence; policy and state-production figures are secondary. Precise interview dates, lot grades and sample design unresolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-chironji-processing2012",
+      "discovery_url": "https://nopr.niscpr.res.in/handle/123456789/13445",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "indexed_only",
+      "scope": "Bibliographic/indexed lead only. Do not treat a 2012 general processing account as a current Odisha recipe, machinery census or measured export market.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "discovery_url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "unavailable",
+      "scope": "Direct web fetch failed again; existing indexed scope retained. No values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.tdccodisha.org/upload_image/1649924509_Notice_Advance_tender_v4_03042024.pdf",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "unavailable",
+      "scope": "Web 502; direct download rejected self-signed certificate. No tender values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-scstrti-foodknowledge",
+      "discovery_url": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "available_text_only",
+      "scope": "New char/tentuli passages read. Alternate repository URL and screenshot failed; existing original URL text available. Same publication, not new corroboration.",
       "retry_after": null
     }
   ]

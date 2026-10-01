@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T20:39:09.741844+00:00",
+  "updated_at": "2026-10-01T21:20:19.531656+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -297,6 +297,53 @@
       "scope": "Kandhamal value-chain description, not a current enterprise census or evidence that proposed interventions were delivered. Cover date verified in part 01 of the same report.",
       "retrieved_on": "2026-10-01",
       "retry_after": null
+    },
+    {
+      "source_id": "forest-ciah-varieties",
+      "url": "https://www.icar-ciah.org/index.php?do=veriti_relese_svrc&mod=veriti",
+      "status": "available",
+      "retrieved_on": "2026-10-01",
+      "scope": "Undated institutional cultivar list; supports Thar Priya/chironji and Goma Prateek/tamarind names. Does not verify planting, adoption, yields or release dates in Odisha.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-tamarind",
+      "url": "https://vasundharaodisha.org/upload/pdfFile/b949225825e4667de86b4628a67b57b8.pdf",
+      "status": "available_text_only",
+      "retrieved_on": "2026-10-01",
+      "scope": "Undated publication with April 2023 policy context. Original named collector testimony is primary qualitative evidence; policy and state-production figures are secondary. Precise interview dates, lot grades and sample design unresolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-chironji-processing2012",
+      "url": "https://nopr.niscpr.res.in/handle/123456789/13445",
+      "status": "indexed_only",
+      "retrieved_on": "2026-10-01",
+      "scope": "Bibliographic/indexed lead only. Do not treat a 2012 general processing account as a current Odisha recipe, machinery census or measured export market.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "scope": "Direct web fetch failed again; existing indexed scope retained. No values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.tdccodisha.org/upload_image/1649924509_Notice_Advance_tender_v4_03042024.pdf",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "scope": "Web 502; direct download rejected self-signed certificate. No tender values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-scstrti-foodknowledge",
+      "url": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf",
+      "status": "available_text_only",
+      "retrieved_on": "2026-10-01",
+      "scope": "New char/tentuli passages read. Alternate repository URL and screenshot failed; existing original URL text available. Same publication, not new corroboration.",
+      "retry_after": null
     }
   ],
   "human_review_claimed": false,
@@ -475,37 +522,51 @@
       "name": "Tamarind, seeded and de-seeded",
       "part_or_material": "fruit",
       "use_class": "food",
-      "concept_path": null,
+      "concept_path": "food/tentuli-tamarind.md",
       "source_ids": [
-        "forest-tdcc-mfp"
+        "forest-tdcc-mfp",
+        "food-koli-balasore2020",
+        "forest-scstrti-foodknowledge",
+        "forest-ciah-varieties",
+        "forest-vasundhara-tamarind"
       ],
-      "evidence_status": "indexed_only_product_lead",
+      "evidence_status": "attributed_local_use_and_historical_market_account",
       "current_procurement_verified": false,
       "harvest_origin": null,
       "odisha_season": null,
       "current_price": null,
       "annual_sales_value": null,
       "export_quantity": null,
-      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+      "next_step": "Verify market form, lot origin, named local preparation, dated prices and processing yields; no inference from cultivar listings to Odisha cultivation.",
+      "botanical_name": "Tamarindus indica",
+      "seasonal_account_ids": [
+        "balasore-tentuli2018-2020"
+      ]
     },
     {
       "id": "chara-kernel",
       "name": "Chara / char seed and kernel",
       "part_or_material": "seed_or_kernel_to_disambiguate",
       "use_class": "food_research",
-      "concept_path": "food/koli-fruits.md",
+      "concept_path": "food/chara-chironji.md",
       "source_ids": [
         "food-koli-balasore2020",
-        "forest-vasundhara-livelihoods"
+        "forest-vasundhara-livelihoods",
+        "forest-scstrti-foodknowledge",
+        "forest-ciah-varieties"
       ],
-      "evidence_status": "reuse_botanical_record_verify_trade_form",
+      "evidence_status": "attributed_local_use_and_historical_market_account",
       "current_procurement_verified": false,
       "harvest_origin": null,
       "odisha_season": null,
       "current_price": null,
       "annual_sales_value": null,
       "export_quantity": null,
-      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+      "next_step": "Verify market form, lot origin, named local preparation, dated prices and processing yields; no inference from cultivar listings to Odisha cultivation.",
+      "botanical_name": "Buchanania lanzan",
+      "seasonal_account_ids": [
+        "balasore-chara2018-2020"
+      ]
     },
     {
       "id": "harida",
@@ -655,6 +716,11 @@
       "run_id": "2026-10-01-leaf-craft",
       "at": "2026-10-01T20:39:09.741844+00:00",
       "scope": "Three primary publications; local leaf seasons and material-process accounts. No statewide market values or source aliases counted as corroboration."
+    },
+    {
+      "run_id": "2026-10-01-forest-fruits",
+      "at": "2026-10-01T21:20:19.531656+00:00",
+      "scope": "Two existing product leads developed; seasonal accounts, community-market entries and one scoped historical sale testimony; no statewide income or export estimates."
     }
   ],
   "seasonal_accounts": [
@@ -762,6 +828,40 @@
       "season_type": "reported_abundant_supply",
       "evidence_status": "historical_local_maker_account",
       "species_scope_note": "Season paragraph follows siali account; household also handles sal. Do not interpret as an exclusive species-level phenology record.",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balasore-tentuli2018-2020",
+      "product_id": "tamarind",
+      "source_id": "food-koli-balasore2020",
+      "locator": "Table 1 row 72, printed p.455",
+      "geography": "Basta, Balasore, Nilgiri, Remuna and Bahanaga study area",
+      "period": "Survey January 2018–February 2020; published 25 May 2020",
+      "month_windows": [
+        [
+          1,
+          4
+        ]
+      ],
+      "season_type": "reported_fruiting_period_not_market_availability",
+      "evidence_status": "local_field_study",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balasore-chara2018-2020",
+      "product_id": "chara-kernel",
+      "source_id": "food-koli-balasore2020",
+      "locator": "Table 1 row 15, printed p.451",
+      "geography": "Basta, Balasore, Nilgiri, Remuna and Bahanaga study area",
+      "period": "Survey January 2018–February 2020; published 25 May 2020",
+      "month_windows": [
+        [
+          4,
+          5
+        ]
+      ],
+      "season_type": "reported_fruiting_period_not_market_availability",
+      "evidence_status": "local_field_study",
       "current_availability_verified": false
     }
   ],
@@ -872,6 +972,62 @@
         "trimming or pressing"
       ],
       "current_operation_verified": false
+    }
+  ],
+  "community_market_accounts": [
+    {
+      "id": "scstrti-char-markets",
+      "product_id": "chara-kernel",
+      "source_id": "forest-scstrti-foodknowledge",
+      "locator": "Table 2.16, printed p.49 / PDF p.63",
+      "community": "Juang",
+      "villages": [
+        "Hatisila",
+        "Nadam",
+        "Sarai"
+      ],
+      "product_name_as_reported": "Char Seed / Char Manji",
+      "shelled_kernel_verified": false,
+      "period": "Unresolved; filename includes 2014",
+      "quantity": null,
+      "revenue": null
+    },
+    {
+      "id": "scstrti-tentuli-market",
+      "product_id": "tamarind",
+      "source_id": "forest-scstrti-foodknowledge",
+      "locator": "Table 2.16, printed p.50 / PDF p.64",
+      "community": "Lanjia Saora; source table spelling Langia Saora",
+      "villages": [
+        "Jantar"
+      ],
+      "product_name_as_reported": "Titel / Tentuli",
+      "period": "Unresolved; filename includes 2014",
+      "quantity": null,
+      "revenue": null
+    }
+  ],
+  "collector_testimonies": [
+    {
+      "id": "vasundhara-sitarani-tamarind",
+      "product_id": "tamarind",
+      "source_id": "forest-vasundhara-tamarind",
+      "locator": "PDF p.11, Ground testimonies",
+      "person": "Sitarani Hasda",
+      "geography": "Rairangpur region, Odisha",
+      "sale_quantity": 2,
+      "quantity_unit": "quintal",
+      "sale_receipts": 5000,
+      "receipts_unit": "INR",
+      "price_basis": "Nominal historical reported receipts; costs unknown",
+      "transaction_date": null,
+      "publication_date": null,
+      "context": "Booklet discusses April 2023 policy; exact transaction year not asserted",
+      "product_grade": null,
+      "evidence_status": "publisher_recorded_self_report",
+      "receipt_verified": false,
+      "current_price": false,
+      "human_review_claimed": false
     }
   ]
 }
