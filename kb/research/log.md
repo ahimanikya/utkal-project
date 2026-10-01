@@ -200,3 +200,7 @@ Recovered original Rasabali specification and correction, a 2015 institutional p
 ## Poda Country research · 1 October 2026
 
 Connected nine sourced food examples across direct roasting, leaf parcels, bamboo cooking and baking. Added an attributed home mushroom preparation, five sources, six food nuclei and story/script/poster drafts. Campaign is metaphor; no ranking, venue verification, media production, human review or deployment.
+
+## 1 October 2026 — Campaign wording selected
+
+Ahimanikya rejected the earlier Poda Country name and selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire**. Updated maintained story, poster, video script, navigation and campaign metadata. Stable paths and historical receipts remain unchanged. This records wording approval, not factual review or website publication.

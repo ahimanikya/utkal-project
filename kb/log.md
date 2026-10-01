@@ -107,3 +107,7 @@ Enhanced seven existing food entries with original/corrected Rasabali records, a
 ## 2026-10-01
 
 Connected nine selected poda foods, six new food nuclei and an attributed home mushroom preparation. [Bounded receipt](records/poda-story-2026-10-01.json). Poda Country is an editorial metaphor; no national ranking, unique origin, operating venue or revenue claim. RES-011 remains in progress. No website deployment or human factual review claimed.
+
+## 2026-10-01 — Campaign wording selection
+
+The user selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire**, replacing the earlier campaign name. [Bounded record](records/fire-tagline-2026-10-01.json). Sources, food identities and website content are unchanged.

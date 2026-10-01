@@ -11,7 +11,7 @@ subjects: ["food", "everyday", "arts"]
 
 # Odisha’s poda and fire-cooking traditions
 
-“Odisha: Nation of Barbecue” is a proposed campaign metaphor. The evidence supports a varied poda repertoire; it does not establish an official title, national ranking, exclusive origin or one cooking technique. **Odisha: Poda Country** is the recommended editorial name.
+**Odisha’s Best-Kept Secret — The Art of Cooking with Fire** is the user-selected campaign wording. The evidence supports a varied poda repertoire; it does not establish an official title, national ranking, exclusive origin or one cooking technique. “Best-kept secret” is a creative tag, not a measured awareness finding.
 
 ## A menu connected by heat
 
