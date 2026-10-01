@@ -111,3 +111,7 @@ Connected nine selected poda foods, six new food nuclei and an attributed home m
 ## 2026-10-01 — Campaign wording selection
 
 The user selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire**, replacing the earlier campaign name. [Bounded record](records/fire-tagline-2026-10-01.json). Sources, food identities and website content are unchanged.
+
+## 1 October 2026 · Research stack integration
+
+The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed current integration checks and merged sequentially. PR 35 completes the food research candidate. Both research and website source/navigation records are preserved; local duplicate files are excluded from generated indexes. [Integration receipt](records/research-stack-integration-2026-10-01.json). This is repository integration, not a website deployment or independent factual review.

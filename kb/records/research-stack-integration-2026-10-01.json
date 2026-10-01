@@ -1,0 +1,100 @@
+{
+  "recorded_at": "2026-10-01T17:40:51.854963+00:00",
+  "authorization": {
+    "speaker": "Ahimanikya Satapathy",
+    "quote": "Commit all your PR?",
+    "scope": "Merge this task’s four research PRs after integration and validation; no website deployment."
+  },
+  "reviewer": "Current AI assistant",
+  "independent": false,
+  "integration_order": [
+    22,
+    24,
+    33,
+    35
+  ],
+  "completed_prs": [
+    {
+      "headRefOid": "0c25f169e24545b09d7e8d7baca6c60927c405c6",
+      "mergeCommit": {
+        "oid": "414b56a50449723f162d179edbc1fc88d957d092"
+      },
+      "mergedAt": "2026-10-01T17:32:14Z",
+      "number": 22,
+      "state": "MERGED",
+      "statusCheckRollup": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-10-01T17:31:41Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ahimanikya/utkal-project/actions/runs/36899904585/job/110496170515",
+          "name": "validate",
+          "startedAt": "2026-10-01T17:30:42Z",
+          "status": "COMPLETED",
+          "workflowName": "Review coastal candidate"
+        }
+      ],
+      "url": "https://github.com/ahimanikya/utkal-project/pull/22"
+    },
+    {
+      "headRefOid": "6ee4f6334efd5f0b92d214443c069166ae82bfea",
+      "mergeCommit": {
+        "oid": "20f912c5de7675852980d54f27273eab5e0adaba"
+      },
+      "mergedAt": "2026-10-01T17:35:20Z",
+      "number": 24,
+      "state": "MERGED",
+      "statusCheckRollup": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-10-01T17:34:55Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ahimanikya/utkal-project/actions/runs/36900300191/job/110497495365",
+          "name": "validate",
+          "startedAt": "2026-10-01T17:33:55Z",
+          "status": "COMPLETED",
+          "workflowName": "Review coastal candidate"
+        }
+      ],
+      "url": "https://github.com/ahimanikya/utkal-project/pull/24"
+    },
+    {
+      "headRefOid": "d84b01d335f1d10be0121fc17cb938f2f87ab17e",
+      "mergeCommit": {
+        "oid": "9b6418bd8e1b0e7e44066055b80268cb0db674e8"
+      },
+      "mergedAt": "2026-10-01T17:39:28Z",
+      "number": 33,
+      "state": "MERGED",
+      "statusCheckRollup": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-10-01T17:39:03Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/ahimanikya/utkal-project/actions/runs/36900825630/job/110499253222",
+          "name": "validate",
+          "startedAt": "2026-10-01T17:38:12Z",
+          "status": "COMPLETED",
+          "workflowName": "Review coastal candidate"
+        }
+      ],
+      "url": "https://github.com/ahimanikya/utkal-project/pull/33"
+    }
+  ],
+  "final_pr": {
+    "number": 35,
+    "url": "https://github.com/ahimanikya/utkal-project/pull/35",
+    "status": "Integrated candidate; final CI and merge receipt recorded after this commit."
+  },
+  "resolution": "Preserved both navigation additions and merged source catalogue by stable ID and three-way revision comparison. No competing same-ID edits were found. Rebuilt derived indexes from committed files only.",
+  "failure_retained": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/36900624700",
+    "cause": "An untracked local duplicate was included in the generated catalogue.",
+    "correction": "Regenerated from a clean Git archive; unrelated untracked files untouched. Subsequent PR 33 CI passed."
+  },
+  "limitations": [
+    "Automated checks do not certify every factual claim or replace specialist review.",
+    "Historical reviews and evidence retained.",
+    "Website not deployed by this task."
+  ]
+}
