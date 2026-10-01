@@ -26,3 +26,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Coal series checkpoint · 1 October 2026
 
 [Coal production and resources](coal-production.md) adds fuel-mineral evidence alongside the IBM non-fuel figures. These coverage scopes must remain separate.
+
+## Ore reconciliation checkpoint · 1 October2026
+
+[Ore production](ore-production.md) adds eleven-year state observation coverage and three-year IBM comparison for four ores, including retained source differences.

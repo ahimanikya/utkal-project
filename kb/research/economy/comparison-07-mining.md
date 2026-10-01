@@ -27,3 +27,7 @@ stale_after: "2027-03-01T00:00:00Z"
 ## Coal series checkpoint · 1 October 2026
 
 The [new Coal Directory series](../statistics/coal-production.md) reports 269.363 million tonnes for2024–25, matching this endpoint at two decimals. The2014–15 baseline remains unreconciled; this imported comparison is preserved, not independently reverified.
+
+## Ore reconciliation checkpoint · 1 October2026
+
+The recovered Directorate row now supports121.102 million tonnes in2014–15. Intermediate state and CCO figures differ; neither series replaces the other. [Reconciliation](../statistics/ore-production.md).

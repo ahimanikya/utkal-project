@@ -153,8 +153,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "18fa4e570bd5285f1de41ef2b87b8d98913e91ccaccb633e9f0cd148070624f0",
-    "kb/research/search-index.json": "5f52d104842a6730deb62cd630d32e00bd51001472760dfd9b7249324d7736e3",
+    "kb/research/references/data/source-catalog.json": "ad9c376448fbed83891c9809c73a5e9f9f13b74e8ef3ed1da2bfe6a17fae4157",
+    "kb/research/search-index.json": "e7c66ac328aac1af036fc06b5c1e57c3de9cc291b1be6db4d62adbdc5d9ca82d",
     "kb/research/food/collection.json": "77a7db5fc750b8eb8e6b14eb2a421df178c14a8f8faaef44246487a0d2105a70",
     "kb/research/voices/collection.json": "58acf153507f6e69e0476f3e4944d97733daa798028b121a62488b51424d2b7b",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -1114,7 +1114,15 @@
         "published_on": null,
         "locator": null,
         "capture": "Imported from industry-growth-data.json; numerical calculation rechecked, source not re-opened in this build.",
-        "capture_history": []
+        "capture_history": [
+          {
+            "at": "2026-10-01T23:18:55.981451+00:00",
+            "method": "direct_web_text_and_downloaded_html",
+            "sha256": "a3df6e08a765e1264bc89ce1caba72cf9f7f1a7ef0f1c794370843c1c640b17a",
+            "scope": "Five selected minerals,2014–15 to2024–25, paired production/despatch columns and million-tonne header verified. One page shared by three IDs, not independent corroboration.",
+            "publication_date": null
+          }
+        ]
       },
       "connections": [
         {
@@ -1126,6 +1134,11 @@
           "id": "sources/comparison-6-1",
           "title": "Mining comparison source 1",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/sources/comparison-6-1.md"
+        },
+        {
+          "id": "statistics/ore-production",
+          "title": "Ore production: trends, places and source differences",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/statistics/ore-production.md"
         }
       ],
       "related_source_ids": [
@@ -1156,7 +1169,15 @@
         "published_on": null,
         "locator": null,
         "capture": "Imported from industry-growth-data.json; numerical calculation rechecked, source not re-opened in this build.",
-        "capture_history": []
+        "capture_history": [
+          {
+            "at": "2026-10-01T23:18:55.981451+00:00",
+            "method": "direct_web_text_and_downloaded_html",
+            "sha256": "a3df6e08a765e1264bc89ce1caba72cf9f7f1a7ef0f1c794370843c1c640b17a",
+            "scope": "Five selected minerals,2014–15 to2024–25, paired production/despatch columns and million-tonne header verified. One page shared by three IDs, not independent corroboration.",
+            "publication_date": null
+          }
+        ]
       },
       "connections": [
         {
@@ -1168,6 +1189,11 @@
           "id": "sources/comparison-7-1",
           "title": "Mining comparison source 1",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/sources/comparison-7-1.md"
+        },
+        {
+          "id": "statistics/ore-production",
+          "title": "Ore production: trends, places and source differences",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/statistics/ore-production.md"
         }
       ],
       "related_source_ids": [
@@ -1198,7 +1224,15 @@
         "published_on": null,
         "locator": null,
         "capture": "Imported from industry-growth-data.json; numerical calculation rechecked, source not re-opened in this build.",
-        "capture_history": []
+        "capture_history": [
+          {
+            "at": "2026-10-01T23:18:55.981451+00:00",
+            "method": "direct_web_text_and_downloaded_html",
+            "sha256": "a3df6e08a765e1264bc89ce1caba72cf9f7f1a7ef0f1c794370843c1c640b17a",
+            "scope": "Five selected minerals,2014–15 to2024–25, paired production/despatch columns and million-tonne header verified. One page shared by three IDs, not independent corroboration.",
+            "publication_date": null
+          }
+        ]
       },
       "connections": [
         {
@@ -1210,6 +1244,11 @@
           "id": "sources/comparison-8-1",
           "title": "Mining comparison source 1",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/sources/comparison-8-1.md"
+        },
+        {
+          "id": "statistics/ore-production",
+          "title": "Ore production: trends, places and source differences",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/statistics/ore-production.md"
         }
       ],
       "related_source_ids": [

@@ -15,3 +15,7 @@ Indian Bureau of Mines. Discovery reference for follow-up; yearbook title is not
 [Source](https://www.ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf). Locator: Contents and selected chromite/iron-ore producer-table discovery.
 
 [Mining research](../economy/mining.md).
+
+## Fresh scoped capture · 1 October2026
+
+Original PDF downloaded; selected production/resource and district tables visually inspected. Source table locators and original units are in the atlas and mining programme; the discovery-only note above describes the earlier capture. [Reconciliation](../statistics/ore-production.md).

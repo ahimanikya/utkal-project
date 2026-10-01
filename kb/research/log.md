@@ -308,3 +308,7 @@ RES-044 completed its bounded initial dance/music deliverable: three song chapte
 ## Coal series checkpoint · 1 October 2026
 
 RES-051 remains in progress. Added49 coal observations and four calculations, ten-year observation coverage with five-year growth, dated resource classes and six selected blocks. Preserved decline, flat output, blank cells and older imported baseline. Next: ore series and district identities.
+
+## Ore reconciliation checkpoint · 1 October2026
+
+Ore checkpoint added132 observations and three attributed calculations. Full state table recovered; source differences held, production and despatch separated, resource categories dated and district evidence linked. RES-051 remains in progress; no website release.

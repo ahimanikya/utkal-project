@@ -24,3 +24,7 @@ resource: "https://www.odishaminerals.gov.in/StatisticsReport/DespatchProduction
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^comparison-7-1]: [Mining comparison source 1](https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport)
+
+## Fresh scoped capture · 1 October2026
+
+Original HTML now recovered with paired production/despatch headers. Five selected minerals2014–15 to2024–25 saved under existing source IDs. Shared URL means one evidence family. [Reconciliation](../statistics/ore-production.md).

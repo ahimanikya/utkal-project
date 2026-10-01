@@ -4362,6 +4362,17 @@
       "content_type": "Statistical Topic",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/ore-production",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "governance"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6268,6 +6279,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects dated coal output to separate processing, fiscal, livelihood and environment questions."
+    },
+    {
+      "from": "statistics/ore-production",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects ore quantities and district evidence to separate processing, revenue and livelihood research."
     }
   ],
   "relationship_types": {

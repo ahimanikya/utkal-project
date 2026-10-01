@@ -57,3 +57,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Coal series checkpoint · 1 October 2026
 
 [Coal’s full timeline](../statistics/coal-production.md) now preserves ten annual observations, a five-year comparison, two coalfields’ resource classes and six selected block identities. Ore reconciliation and wider district mapping remain open.
+
+## Ore reconciliation checkpoint · 1 October2026
+
+[Ore series and district links](../statistics/ore-production.md) now distinguish annual production, despatch and dated resources. Disputed IBM/state values remain held; no merged national-share measure.

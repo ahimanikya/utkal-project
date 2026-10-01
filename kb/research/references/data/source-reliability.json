@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T22:57:07.408987+00:00",
+  "updated_at": "2026-10-01T23:18:55.981451+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4785,6 +4785,24 @@
       "status": "unavailable",
       "scope": "Direct web fetch returned Internal Error; not unchanged.",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "comparison-6-1",
+      "discovery_url": "https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport",
+      "checked_at": "2026-10-01T23:18:55.981451+00:00",
+      "run_id": "2026-10-01-ore-series",
+      "status": "available",
+      "scope": "Full source recovered; selected numerical tables inspected. Cross-publisher differences preserved, not resolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-yearbook2024",
+      "discovery_url": "https://www.ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+      "checked_at": "2026-10-01T23:18:55.981451+00:00",
+      "run_id": "2026-10-01-ore-series",
+      "status": "available",
+      "scope": "Full source recovered; selected numerical tables inspected. Cross-publisher differences preserved, not resolved.",
+      "retry_after": null
     }
   ]
 }

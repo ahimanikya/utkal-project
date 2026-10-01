@@ -36,3 +36,7 @@ The public portal groups Deomali, Duduma Waterfalls and Kechela in its Koraput c
 ## Rice farming · 2023–24
 
 The agriculture report records rice crop area of **131.12 thousand hectares**, rice yield **3194 kg/ha**, and rice output **418.74 thousand tonnes**. These are crop-year measures, independent of the banking snapshot above. [Official table, printed p.67](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). [Rice economics](../../economy/rice-economy.md) explains product bases and comparisons.
+
+## Mineral evidence · 1 October2026
+
+IBM’s2023–24 bauxite producer table places NALCO and OMC mine locations in Koraput. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.

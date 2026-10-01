@@ -23,3 +23,7 @@ stale_after: "2027-03-01T00:00:00Z"
 [Stored comparison](../references/data/industry-growth-data.json) · [Calculation method](../methods/growth-calculations.md)
 
 [^comparison-8-1]: [Mining comparison source 1](https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport)
+
+## Ore reconciliation checkpoint · 1 October2026
+
+**Public reuse hold on the five-year growth claim:** the current state report displays146.016 for2019–20, while an older state route displays142.159. The original comparison remains preserved, but its baseline scope/revision is unresolved. [Current evidence](../statistics/ore-production.md).

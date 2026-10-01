@@ -219,3 +219,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Coal production and resource evidence
 
 [Research receipt](records/mining-series-2026-10-01.json): 49 coal observations and four calculations added; ore series and broader district identities remain open. No website release.
+
+## 1 October 2026 · Ore production and source reconciliation
+
+[Research receipt](records/ore-series-2026-10-01.json): 132 observations and three calculations added using existing sources; conflicting publisher values are held and exact mine identities remain open. No website release.

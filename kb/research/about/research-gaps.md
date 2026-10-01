@@ -294,3 +294,7 @@ RES-044’s bounded deliverable is complete. Original AIR and Jayantika dates, o
 ## Coal series checkpoint · 1 October 2026
 
 RES-051 coal checkpoint: ten annual production/share rows, dated geological categories and six selected blocks saved. Ore time series,2014–15 coal baseline, most district/MDO identities and household outcomes remain open. Talabira primary application fetch and OCPL sale PDF unavailable; retry8October. OCPL narrative/table land scopes differ and are held.
+
+## Ore reconciliation checkpoint · 1 October2026
+
+RES-051 now has the state’s paired production/despatch table and IBM ore/resource checks. Iron-ore2019–20 differs even across two state routes; IBM/state quantities differ across recent years. Resource age, producer location and labour-only mine reporting are explicit. Named ore lease/MDO links and source methodology remain open.

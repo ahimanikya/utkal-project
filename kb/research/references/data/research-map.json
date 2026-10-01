@@ -16393,6 +16393,28 @@
         "mining-ocpl-rr"
       ],
       "added_at": "2026-10-01T22:57:07.408987+00:00"
+    },
+    {
+      "id": "statistics/ore-production",
+      "title": "Ore production: trends, places and source differences",
+      "kind": "Statistical Topic",
+      "layer": "research_concept",
+      "source_path": "statistics/ore-production.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "nature",
+        "governance"
+      ],
+      "source_ids": [
+        "comparison-6-1",
+        "comparison-7-1",
+        "comparison-8-1",
+        "mining-ibm-yearbook2024"
+      ],
+      "added_at": "2026-10-01T23:18:55.981451+00:00"
     }
   ],
   "shared_publications": [
@@ -17416,7 +17438,8 @@
         "economy/comparison-07-mining.md",
         "economy/comparison-08-mining.md",
         "references/data/industry-growth-data.json",
-        "statistics/coal-production.md"
+        "statistics/coal-production.md",
+        "statistics/ore-production.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
@@ -17656,8 +17679,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1130,
-    "updated_at": "2026-10-01T22:57:07.408987+00:00",
+    "records_mapped": 1131,
+    "updated_at": "2026-10-01T23:18:55.981451+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -18098,6 +18121,11 @@
       "run_id": "2026-10-01-mining-series",
       "at": "2026-10-01T22:57:07.408987+00:00",
       "scope": "Coal time series and selected identity fields extend existing mining collection; no duplicate imported comparison."
+    },
+    {
+      "run_id": "2026-10-01-ore-series",
+      "at": "2026-10-01T23:18:55.981451+00:00",
+      "scope": "Existing state source aliases and IBM yearbook deepened; one ore reconciliation topic, no independent corroboration claimed from aliases."
     }
   ]
 }

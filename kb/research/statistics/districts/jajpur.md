@@ -23,3 +23,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 
 
 [^macro-slbc-jun2026]: [184th SLBC Odisha meeting agenda — June 2026 quarter](https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf)
+
+## Mineral evidence · 1 October2026
+
+IBM’s2023–24 provisional chromite table records3,126,623 tonnes for Jajpur. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.

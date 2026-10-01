@@ -41,3 +41,7 @@ Six selected block records retain company labels and dated production. Dulanga w
 OCPL locates Manoharpur in Hemgir, Sundargarh. Its [rehabilitation page](https://ocpl.org.in/RandR.asp) includes October 2019 status tables and an objective to double displaced families’ incomes within five years. That objective is not evidence that incomes doubled. Its land figures also differ between narrative and table; reconciliation remains open.
 
 [Mining: minerals, industry and people](../economy/mining.md) — Connects dated coal output to separate processing, fiscal, livelihood and environment questions.
+
+## Ore reconciliation checkpoint · 1 October2026
+
+The recovered state table confirms121.102 million tonnes for2014–15 and269.363 for2024–25. Several intervening years differ from CCO, including237.131 versus239.402 in2023–24. The CCO timeline above remains unchanged; do not splice the two. [Reconciliation](ore-production.md).
