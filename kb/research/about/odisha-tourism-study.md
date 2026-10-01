@@ -1,7 +1,7 @@
 ---
 type: "Reference Study"
 title: "Learning from Odisha Tourism"
-description: "Learning from Odisha Tourism — observed patterns and proposals for Utkala."
+description: "Learning from Odisha Tourism — observed patterns and proposals for Utkal."
 tags: ["tourism", "information-architecture", "reference-study"]
 status: "draft"
 subjects: ["places", "arts", "governance"]
@@ -13,7 +13,7 @@ proposal_status: "Research recommendations; no change to approved scope or imple
 
 # Learning from Odisha Tourism
 
-**Recommendation:** organise the encyclopedia around reusable place, subject, person and evidence records, then offer focused reading paths for people planning a visit. Odisha Tourism demonstrates how discovery can lead into practical planning; Utkala can connect that experience to a broader account of Odisha’s culture, livelihoods and development.
+**Recommendation:** organise the encyclopedia around reusable place, subject, person and evidence records, then offer focused reading paths for people planning a visit. Odisha Tourism demonstrates how discovery can lead into practical planning; Utkal can connect that experience to a broader account of Odisha’s culture, livelihoods and development.
 
 The initial **nine-page sample reviewed on 30 September 2026** was supplemented by the tour-guide directory and a visual icon review the same day: **ten distinct pages in total**, not a whole-site audit. It includes the homepage, road-trip listing and one detail, trail finder, map, handloom theme, Raghurajpur, wayside amenities and artisan stories. Browser inspection covered road cards, expanded trail filters, the map page and the loaded road-trip detail. The other pages were read through HTML extraction. No enquiry, booking, login, location permission or contact submission was performed.
 
@@ -21,7 +21,7 @@ The initial **nine-page sample reviewed on 30 September 2026** was supplemented 
 
 The portal separates discovery, experience, planning, shopping and departmental information. A reader can enter through a destination, a cultural interest or a practical travel task.[^odisha-tourism-portal] This offers a useful model for multiple entrances to shared information.
 
-| Observed pattern | What the sample establishes | What Utkala should learn |
+| Observed pattern | What the sample establishes | What Utkal should learn |
 |---|---|---|
 | Trip cards | Road-trip cards expose duration, covered places, attractions and detail links.[^tourism-roadtrips] | Give readers enough context to decide which guide to open |
 | Planning filters | Opening the trail filters revealed day-type and activity choices and a location/name search; provider/sort controls and loaded cards were visible.[^tourism-trail-finder] | Let visitors narrow by time, interest and place, using fields with known values |
@@ -93,7 +93,7 @@ The practical pattern to adapt is **discover a place → explore experiences →
 
 The [Get a Tour Guide directory](../sources/tourism-guide-directory.md) exposes district/location/city/name search, filter and sorting controls, and a contact-details section.[^tourism-guide-directory] Individual profiles and totals did not populate in the extracted text. The directory is a discovery reference; no guide’s credentials, availability or quality has been verified. Keep a **written travel guide**, a **person working as a tour guide** and a **travel agency** as distinct record types. Link professional profiles to places served, languages, specialisms and sourced credentials; a “most liked” sort is not a quality assessment.
 
-A supplementary browser screenshot of the road-trip summary shows thin outline pictograms grouped by traveller type and terrain, with section tabs and a map below.[^tourism-wild-west-route] This is useful visual shorthand. In the captured narrow view, the small individual pictograms do not have visible text labels; Utkala should pair them with short labels, especially for unfamiliar meanings.
+A supplementary browser screenshot of the road-trip summary shows thin outline pictograms grouped by traveller type and terrain, with section tabs and a map below.[^tourism-wild-west-route] This is useful visual shorthand. In the captured narrow view, the small individual pictograms do not have visible text labels; Utkal should pair them with short labels, especially for unfamiliar meanings.
 
 | Proposed icon family | Example meanings | Presentation rule |
 |---|---|---|

@@ -39,3 +39,7 @@ Odisha Tourism lists free entry, parking and nearby belongings-deposit outlets. 
 The [area evidence register](../references/data/puri-craft-access.json) preserves both hour listings. Toilets, water, step-free access and the exact deposit operator are unknown. Read the [craft corridor](../visitor-index/areas/puri-crafts.md) for separately researched stops; this connection does not establish a route or walking distance.
 
 [Related reading](../visitor-index/areas/puri-crafts.md) — Read separately evidenced regional stops and visitor gaps; no proximity or route inferred.
+
+### Royal patronage
+
+[Anantavarman Chodaganga Deva](../people/anantavarman-chodaganga.md) provides a sourced reading route into the temple’s twelfth-century royal association. Detailed construction phases and later additions remain separate research questions.

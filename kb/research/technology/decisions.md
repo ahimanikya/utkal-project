@@ -2,7 +2,7 @@
 type: "Architecture Decisions"
 title: "Architecture decision register"
 description: "Current decisions, superseded proposals and unresolved implementation inputs."
-tags: ["utkala", "technology", "architecture", "publishing"]
+tags: ["utkal", "technology", "architecture", "publishing"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T16:22:55-07:00"}
 instruction_basis: "User-agreed launch architecture in the Odisha Tourism conversation, 27 September 2026. Future stages are proposals; no deployment or billing change is implied."

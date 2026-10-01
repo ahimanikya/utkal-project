@@ -1,34 +1,34 @@
 {
   "edition": "1.3.0",
   "okf_version": "0.2",
-  "generated_at": "2026-10-01T02:37:51-07:00",
-  "concept_count": 591,
-  "unique_source_urls": 210,
-  "source_records": 231,
+  "generated_at": "2026-10-01T09:06:05.436218-07:00",
+  "concept_count": 797,
+  "unique_source_urls": 325,
+  "source_records": 346,
   "section_counts": {
     "about": 11,
     "cities": 2,
     "collections": 3,
     "culture": 10,
-    "economy": 22,
+    "economy": 26,
     "evidence": 71,
     "facilities": 14,
     "food": 22,
     "handlooms": 11,
-    "history": 8,
+    "history": 9,
     "journeys": 6,
     "methods": 11,
-    "people": 14,
+    "people": 64,
     "places": 23,
-    "product": 5,
-    "sources": 231,
+    "product": 6,
+    "sources": 346,
     "statistics": 75,
     "stories": 8,
     "subjects": 9,
     "technology": 4,
     "trade": 7,
     "visitor-index": 11,
-    "works": 13
+    "works": 48
   },
   "maritime_claims": 36,
   "maritime_metrics": 15,
@@ -58,7 +58,7 @@
     "timeline_events": 15
   },
   "brand_identity": {
-    "name_proposal": "Utkala",
+    "name_proposal": "Utkal",
     "descriptor": "A living encyclopedia of Odisha",
     "raster_concept_assets": 4,
     "adopted": false,
@@ -85,13 +85,13 @@
     "statewide_realised_total_established": false
   },
   "statistical_atlas": {
-    "observations": 390,
+    "observations": 395,
     "topic_groups": 44,
     "district_banking_snapshots": 30,
     "calculations": 14,
     "source_capture_records_added": 44,
     "publication_readiness": {
-      "source_checked_editorial_review_pending": 301,
+      "source_checked_editorial_review_pending": 306,
       "needs_source_table_review": 83,
       "hold_conflict": 6
     },
@@ -100,13 +100,13 @@
   },
   "subject_classification": {
     "subject_families": 9,
-    "classified_concepts": 321,
+    "classified_concepts": 411,
     "expanded_statistical_pages": 42,
-    "explained_reading_links": 154,
+    "explained_reading_links": 182,
     "evidence_basis": "Editorial classification; individual source checks remain in the underlying records."
   },
   "product_requirements": {
-    "current_version": "0.2.0",
+    "current_version": "0.2.1",
     "preserved_versions": 2,
     "requirements": 41,
     "approval_status": "draft_not_formally_approved",
@@ -121,10 +121,17 @@
     }
   },
   "homestays": {
-    "observations": 28,
-    "source_records": 10,
+    "observations": 33,
+    "source_records": 11,
     "public_demand_series_established": false,
-    "current_policy_consolidated": false
+    "current_policy_consolidated": false,
+    "portal_snapshot_counts": {
+      "district": 16,
+      "cluster": 19,
+      "destination": 25,
+      "block": 27,
+      "gp": 61
+    }
   },
   "connected_collections": {
     "regional_profiles": 2,
@@ -141,8 +148,8 @@
     "icon_system_implemented": false
   },
   "research_pipeline": {
-    "queue_tasks": 33,
-    "completed_tasks": 8,
+    "queue_tasks": 38,
+    "completed_tasks": 16,
     "publisher_discovery_pages_checked": 4,
     "monitoring_tracks_seeded": 17,
     "automation_status": "ACTIVE",
@@ -150,19 +157,25 @@
     "cadence": "Every six hours",
     "discovery_feed_records": 18,
     "monitoring_tracks_mapped": 17,
-    "last_run_id": "2026-10-01T092949Z",
-    "last_run_status": "literature_checkpoint_in_progress",
-    "in_progress_task": "RES-026"
+    "last_run_id": "2026-10-01-homestay-policy",
+    "last_run_status": "homestay_evidence_checkpoint",
+    "in_progress_task": "RES-009",
+    "next_task": "RES-009"
   },
   "people_and_creations": {
-    "people": 13,
-    "works": 13,
-    "english_translations_documented": 9,
+    "people": 57,
+    "works": 48,
+    "english_translations_documented": 10,
     "complete_biographies": 0,
     "garment_forms": 13,
     "sweet_specific_export_series_established": false,
     "english_count_scope": "Work records including anthology and component stories; not a count of independent books.",
-    "literature_profiles_deepened": 5
+    "literature_profiles_deepened": 8,
+    "music_recording_routes": 8,
+    "music_playback_verified": 2,
+    "music_playback_scope": "Muted player progression in current signed-in browser session; not audible/full review or global availability.",
+    "sport_profiles": 8,
+    "sport_result_observations": 14
   },
   "scope": "Imported research workspace snapshot, not whole-project totals or current repository/deployment status. See kb/records/research-sync-2026-10-01.json.",
   "integration": {
@@ -177,6 +190,23 @@
     "reviewed_entity_view_overlaps": 8,
     "shared_publication_groups": 10,
     "exact_within_atlas_duplicates": 0,
-    "semantic_deduplication_complete": false
+    "semantic_deduplication_complete": false,
+    "current_map_records": 966
+  },
+  "entrepreneurs_and_businesses": {
+    "selected_people": 5,
+    "new_people": 4,
+    "organizations": 4,
+    "scope": "Collection size, not statewide totals"
+  },
+  "public_service": {
+    "selected_people": 5,
+    "recorded_roles": 7,
+    "scope": "Collection size, not statewide totals"
+  },
+  "rulers_and_dynasties": {
+    "selected_people": 5,
+    "scoped_claims": 5,
+    "scope": "Collection size, not statewide totals or a popularity ranking"
   }
 }

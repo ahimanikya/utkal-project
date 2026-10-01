@@ -15,3 +15,7 @@ Publisher: Department of Tourism, Government of Odisha. Publication: live/undate
 Live index inspected; amendment and target links present. Linked PDFs returned fetch errors/timeouts. Index verifies publication availability, not target numbers or amendment substance.
 
 [Source](https://dot.odisha.gov.in/en/guidelines) · [Homestay statistics](../statistics/homestays.md) · [Support and policy chronology](../economy/homestay-support.md)
+
+## Follow-up · 1 October 2026
+
+The official index remained readable; amendment and Cycle-1 downloads timed out in both web and local connection attempts. Retained as unavailable, not unchanged. A readable public portal area list is a separate evidence object and cannot substitute for the allocation letter.

@@ -24,7 +24,7 @@ The navigation offers attraction and city pages, activities, cultural themes and
 
 These are observed navigation categories, not a verification of every linked page or service. The extracted page includes repeated form/status text and an embedded 404 label; those do not establish an account state or prove that a linked feature works or fails.
 
-## How Utkala can use it
+## How Utkal can use it
 
 - **Places and heritage:** use destination pages as research leads, save exact page citations and connect them to our stable place records.
 - **Culture and makers:** deepen craft, handloom, performance and festival entries while crediting people and checking historical claims against specialist evidence.

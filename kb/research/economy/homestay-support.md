@@ -69,3 +69,15 @@ Record host consent, a stable property ID, operating status, room count and date
 [^homestay-market-jan2025]: [Homestay count grows manifold in Odisha but local experience missing](https://www.newindianexpress.com/states/odisha/2025/Jan/04/homestay-count-grows-manifold-in-odisha-but-local-experience-missing).
 
 [^homestay-amendment-lead]: [Reported July 2026 homestay eligibility amendment](https://teamleaseregtech.com/updates/article/59065/odisha-tourism-amendment-to-homestay-establishment-scheme-2025/).
+
+## Policy reconciliation checkpoint · 1 October 2026
+
+The [official portal](https://gohomestay.odisha.gov.in/) now supplies a readable area table and notice list. Seven distinct titles include “11436”, “Ammendment 17.08.26”, an application-deadline extension and a Rayagada correction. The title date is not independently verified as the notification or effective date. The carousel repeats notices; repeats are not new releases.
+
+The April amendment and Cycle-1 official PDF downloads timed out. Portal document buttons did not produce readable originals in this session. RES-008 therefore remains blocked for text retrieval, with retry on 8 October. Its policy and geographic conflicts are not resolved by the availability of a portal table. The portal still displays GP-residence wording; the July secondary lead reports broader Block residency. Do not give definitive applicant guidance from either alone.
+
+### From a place list to livelihood evidence
+
+RES-009 begins with the 2025 scheme’s own reporting route: printed pp. 27–28 describe programme monitoring; the blank annual declaration at p. 49 asks for operation/closure status, rooms and beds, guest-nights, revenue, occupancy, family/local staff and subsidy received. This establishes potential administrative evidence, not that returns were filed or outcomes achieved. Parsed text was read; no new visual PDF verification is claimed.
+
+Next retrieve aggregate completed returns or departmental progress reports with their reporting period, responding-property denominator, cancellations/closures and revision dates. Guest-nights cannot silently become room-nights; gross revenue cannot become net household income. The [monitoring record](../references/data/homestay-research.json) keeps every unavailable outcome null. The nine missing outcome measures remain open.

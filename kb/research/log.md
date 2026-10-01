@@ -108,3 +108,75 @@ Created first OKF 0.2 research edition. Added food, textile, place and culture c
 ## 2026-10-01
 
 Mapped research and editorial views across both workspaces, added reuse pointers for all 33 tasks and retained source aliases with their provenance. Preserved the duplicate-named earlier community proposal as archival text with a stable deprecated redirect. New map checks and offline search support reuse; no statistical value, source citation ID or website narrative changed.
+
+## 2026-10-01
+
+Continued RES-026 using the research map: deepened three existing writer profiles and three work records; added five scoped bibliographic source records. Preserved original/translation/edition dates and source disagreements. No new people or work identities, no statistical or frozen-ledger edits, no human review claimed. The queue remains in progress.
+
+## 2026-10-01
+
+Continued RES-026 with edition-specific Yajnaseni evidence and translator context; deferred inaccessible original-date work to 8 October. Started RES-027 with four performing-arts people and four credited theatre episodes, seven source records and explicit archive-access limits. Updated classifications, relationships and reuse map. No human review, sales estimate, media rights or website release claimed.
+
+## 2026-10-01
+
+Continued RES-027: added Sunanda Patnaik, enhanced Prafulla Kar, seven recording-specific work records and eleven scoped sources. Connected three songs to the existing Mamata record; separated artist/music-director/lyricist credits and upload/compilation dates. Preserved date conflicts and playback unknowns, updated reuse map, classification and queue. No audio copied, human review or website publication claimed.
+
+## 2026-10-01
+
+Completed the bounded RES-027 performing-arts seed with one additional Sunanda Patnaik recording and two direct browser label/access checks. Preserved muted-only scope, upload versus recording dates and prior failures. Updated canonical and structured records, classification, reuse map, source history and next-task checkpoint; no website release or human review claimed.
+
+## 2026-10-01
+
+Completed RES-028 sports seed: seven new athlete profiles, an enhanced Dilip Tirkey record, an eight-person collection and fourteen scoped observations. Added fifteen publisher records, classification and evidence connections, retained non-medal results and disciplinary context, recorded fetch limitations and next science task. No current-ranking, human-review or website-publication claim.
+
+## 2026-10-01
+
+Saved RES-029 scientists checkpoint: two people, one paper and one explicitly editorial field-contribution record; five source records and a connected science collection. Reused Mohanty and inspected project-native Samanta without duplication. Preserved collaborative credit, failed fetches and patient-sample scope. Six-person task remains unfinished; no human review or website publication claimed.
+
+## 2026-10-01
+
+Expanded RES-029 at the user’s request into Utkala scientific heritage through the present. Added three profiles and three credited works, six sources, a structured timeline and era-based research lanes; preserved existing people and unresolved attributions. Corrected source-only research search display. Local checks and Git review are distinct from website publication.
+
+## 2026-10-01
+
+Corrected maintained project references to **Utkal** following the user’s explicit instruction. Updated science, editorial, current product, technical and campaign wording; PRD 0.2.1 preserves earlier snapshots. Historical source titles, URIs, filesystem paths, automation IDs and previous event logs retain their exact identifiers. No website deployment performed.
+
+## 2026-10-01
+
+Saved a RES-029 manuscript checkpoint: five institutional source records, four Bhāsvatī catalogue witnesses, three Odisha mathematics records and undated museum inventory observations with scope limits. Enhanced the existing work and classified a manuscript collection across history, people and arts. No new people, human review or website publication claimed.
+
+## 2026-10-01
+
+Added Tribikram Pati and Gokulananda Mohapatra with three credited works, six sources and five explicit conflicts. Read the Pati–Ahmad paper’s introduction and retained joint credit; reused the existing NISER source. Indexed biographies and award evidence remain labelled. Expanded RES-029 without completing the broader historical-to-present scope.
+
+## 2026-10-01
+
+Added Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi, five credited creations and a contemporary-creators collection. Saved ten primary publisher/artist/gallery/association/government source records with scoped dates and retrieval limits. Reused Ray/Pattnaik profiles, classified linked reading and recorded three bibliographic/biographical conflicts or vintage distinctions. Completed bounded user addition RES-034; science task RES-029 remains active.
+
+## 2026-10-01
+
+Added Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra with five credited records and twelve sources. Enhanced the existing contemporary-creators collection and reused related profiles. Preserved a literary-award date conflict and missing translator credit. The user explicitly approved the prior prepared PR description; it was applied successfully. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added four entrepreneurs/business leaders and four enterprise identities; enhanced existing Subroto Bagchi profile. Connected people and economy through a source-linked collection. Six source records added; existing publisher capture reused. Preserved founder/executive distinctions, Ila Panda credit, historical recognition and null Odisha impact metrics. Research-only review update; no website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added five public servants/lawmakers, a connected governance collection and the credited English Gaon Majlis record. Preserved distinctions between public administration, elected representation, Constitution-making and constitutional office. Nine sources added; two questionable chronology claims quarantined and stale CAG office language resolved. Research-only update; no website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added five ruler profiles and a connected royal-legacy collection with seven new sources and one reused UNESCO capture. Linked existing Konark and Puri pages. Kept epigraphic claims, institutional heritage attribution and historical synthesis distinct; Kharavela dating/location issues and Srisailam interpretation limits remain visible. No quantitative popularity, empire-area or economic-impact claim added. Research-only update; no human factual review or website publication claimed.
+
+## 2026-10-01
+
+Resumed RES-029: added Lalit Mohan Patnaik and a jointly credited 1994 computing paper. Four institutional/author sources document education, collaboration, recognition and bibliography. CV pages1/75 visually inspected; original paper not read. Stored retrieval failures and retry dates. Historical and women-in-science coverage remains open; no website publication or human factual review claimed.
+
+## 2026-10-01
+
+Completed the initial RES-029 timeline with Sanghamitra Mohanty and Susmita Mohanty, three credited works and five scoped sources. Twelve selected timeline identities include reused project-native Samanta. Conference, print/ebook and issue/online dates distinguished; no full-text or human factual review claimed. New profiles classified across people, history, arts, economy and governance. Next sequential task is RES-008; unresolved scientific evidence retained.
+
+## 2026-10-01
+
+Homestay research enhanced existing records with a primary public portal area snapshot, five derived place-count observations, scoped reporting-field evidence and district links. Preserved all earlier observations and conflicts. RES-008 blocked for original amendment/allocation retrieval; RES-009 outcome evidence mapped and remains in progress. No host-income, occupancy or operating-unit total invented; no human review or website publication claimed.

@@ -1,14 +1,14 @@
 ---
 type: "Project Architecture"
-title: "Utkala · Odisha — a community encyclopedia"
-description: "Utkala · Odisha — a community encyclopedia — community encyclopedia direction."
+title: "Utkal · Odisha — a community encyclopedia"
+description: "Utkal · Odisha — a community encyclopedia — community encyclopedia direction."
 tags: ["encyclopedia", "community", "github", "publishing"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:29:53-07:00"}
 sources: [{"id": "github-forms", "title": "GitHub issue and pull request templates", "resource": "https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates"}, {"id": "github-review-rules", "title": "GitHub protected branches", "resource": "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches"}, {"id": "github-workflow-security", "title": "GitHub Actions secure use", "resource": "https://docs.github.com/en/actions/reference/security/secure-use"}]
 ---
 
-# Utkala · Odisha — a community encyclopedia
+# Utkal · Odisha — a community encyclopedia
 
 The [detailed product requirements](../product/prd.md) now record audiences, scope, acceptance and growth programmes. Its [preserved versions](../product/versions/index.md) retain historical baselines; the initial PRD is a draft, not a claim of formal approval or implementation.
 
@@ -16,7 +16,7 @@ The [detailed product requirements](../product/prd.md) now record audiences, sco
 
 Build a public, community-contributed encyclopedia of Odisha’s places, food, people, skills, history and development. Make its strengths vivid and useful enough that visitors, residents, journalists and government researchers return to it and cite it. Adoption is an ambition, not an achieved endorsement.
 
-The working identity remains **Utkala · Odisha**. GitHub owner: **ahimanikya**, supplied by the user. Suggested repository name: `odisha-encyclopedia`; it has not been created or reserved remotely. The current workspace preserves the existing OKF 0.2 concept paths.
+The working identity remains **Utkal · Odisha**. GitHub owner: **ahimanikya**, supplied by the user. Suggested repository name: `odisha-encyclopedia`; it has not been created or reserved remotely. The current workspace preserves the existing OKF 0.2 concept paths.
 
 ## Three connected experiences
 

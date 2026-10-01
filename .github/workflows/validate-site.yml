@@ -50,6 +50,7 @@ jobs:
           python3 tools/research/validate_collections.py
           python3 tools/research/validate_prd.py
           python3 tools/research/validate_creations.py
+          python3 tools/research/validate_sports.py
           python3 tools/research/validate_research_map.py
       - name: Build and test full draft
         run: |

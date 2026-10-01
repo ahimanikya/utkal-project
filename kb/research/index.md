@@ -1,4 +1,4 @@
-# Utkala · Odisha knowledge base
+# Utkal · Odisha knowledge base
 
 Research edition 1.3.0 · 30 September 2026. Built for compelling, source-backed stories about Odisha in India and globally.
 

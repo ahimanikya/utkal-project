@@ -1,7 +1,7 @@
 ---
 type: "Editorial Template"
 title: "From a place story to a usable trip guide"
-description: "From a place story to a usable trip guide — observed patterns and proposals for Utkala."
+description: "From a place story to a usable trip guide — observed patterns and proposals for Utkal."
 tags: ["tourism", "information-architecture", "reference-study"]
 status: "draft"
 subjects: ["places"]

@@ -81,3 +81,75 @@ Source paths below are relative to this research KB. Project paths are relative 
 The map is a dated inventory, not a substitute for source review. It includes bibliographic source pages and project/product records, not just factual encyclopedia articles. Similar titles or URLs are candidate links, not proof of equivalent claims.
 
 [Research pipeline](research-pipeline.md) · [Research queue](../references/data/research-queue.json) · [People and creations](../people/people-and-creations.md).
+
+### Inventory extension · 1 October 2026
+
+RES-026 added five bibliographic source identities and enhanced three existing people and work records. The original 760-record audit remains the baseline; the searchable inventory now has 765 entries. `current_counts` tracks extensions without rewriting the audit’s historical counts. No duplicate person or book pages were added.
+
+### Performing-arts extension · 1 October 2026
+
+Added seven source records, four people and four scoped theatre episodes. The current inventory has 780 entries; original audit counts are preserved. Individual episodes and their creator roles must not be merged into the underlying play or poem.
+
+### Music-catalogue extension · 1 October 2026
+
+Added eleven sources, one person and seven recording-specific identities; current inventory 799. Existing Mamata and Prafulla Kar records were enhanced. Label pages and label-supplied platform metadata are one evidence family, not independent corroboration. Similarly titled renditions remain separate pending recording identifiers.
+
+### Performing-arts completion extension · 1 October 2026
+
+Appended Jagannatha Swami’s label source and recording identity after a saved-knowledge search found no existing match. Current inventory: 801. Re Mita’s browser evidence enhances its existing source rather than creating an independent corroborator.
+
+### Sports extension · 1 October 2026
+
+Added fifteen source records, seven athlete identities and one collection; enhanced the existing Dilip Tirkey profile. Current inventory: 824. Candidate spelling Debashish Das resolves to the federation’s Debashis Das identity here. Same-federation guide and result table are one evidence family. Athlete results use sports-achievements.json; event hosting and venue capacity stay in the existing atlas.
+
+### Science extension · 1 October 2026
+
+Added two people, two contribution/work identities, five source records and one collection. Current inventory: 834. PubMed, PMC and coauthor repositories describe one paper, not independent studies. Samanta’s canonical project narrative and JSON were inspected and retained; Mohanty’s existing identity is reused. Queue pointers now include the checkpoint outputs.
+
+### Heritage-to-present science extension · 1 October 2026
+
+Added three people, three works and six source records; current inventory 846. Śatānanda/Satananda are one identity. Ajit Kumar Mohanty’s physicist identity is disambiguated from the psychologist. Panda’s preprint and journal paper are one evidence family. Samanta’s existing project-native JSON is preserved. Fixed plain-text search for source-only records with null project paths.
+
+### Utkal name correction · 1 October 2026
+
+Current maintained titles and queue wording now use Utkal. Added PRD correction snapshot 0.2.1 without changing earlier snapshots or identifiers. Historical logs and source titles retain their original text.
+
+### Scientific manuscript extension · 1 October 2026
+
+Added five source records and one collection; current inventory 853. Reused Bhāsvatī rather than creating a new work for every copy. IGNCA catalogue entries are witnesses from one publication, not independent historical studies. Museum custody and author birthplace remain separate fields. No new scientist identity inferred from empty author fields.
+
+### Modern mathematics and science writing · 1 October 2026
+
+Two people, three works and six sources extend the map to 864. Existing NISER source ID reused for Pati’s memorial section. J-STAGE metadata and PDF represent one paper. Gokulananda Mohapatra/Mahapatra is one identity; no merger with similarly named Das or Mohanty. Five conflicts remain quarantined.
+
+### Contemporary creators · 1 October 2026
+
+Four new identities, five works, one collection and ten source records extend the map to 884. Source and repository-native name searches preceded research; Ray and Pattnaik reused. Bagchi editions are separate from first-publication claims. Several CFDA articles remain one publisher family, not independent corroboration. RES-034 records the explicit user addition; RES-029 remains in progress.
+
+### Creative women extension · 1 October2026
+
+Four people, five work/performance records and twelve sources extend the map to 905. Existing contemporary collection and Jatin Das/Ray/Kelucharan profiles reused. Festival selection is not an award; performer is not automatically choreographer; translated work retains unresolved translator rather than assigning the author that role. Source/project name searches preceded browsing.
+
+### Enterprise extension · 1 October 2026
+
+RES-036 adds four people, four organizations, one collection and six source records; map now 920 records. Bagchi’s existing page and enterprise statistics reused. Source/project searches preceded browsing; this is a dated identity extension, not exhaustive deduplication.
+
+### Public-service extension · 1 October 2026
+
+RES-037 adds five people, one translated work, a collection and nine source records; map now 936. Source/project name searches preceded research. Biswanath Das is disambiguated from contemporary namesakes; Mahtab/Mahatab one identity. PMO/PIB republication and CAG regional/central pages are not independent source families.
+
+### Ruler extension · 1 October 2026
+
+RES-038 adds five people, a collection and seven source records; map now 949. Searches found no existing profiles for these identities. Konark, Puri and native Barabati destination records were reused. Narasimha/Narasimhadeva and Kapilendra/Kapilesvara are name variants, not additional people. Shared UNESCO publications and reused epigraphic citations are not independent source families.
+
+### Computing checkpoint · 1 October 2026
+
+RES-029 adds one person, one coauthored paper and four source records; map now 955. Lalit/name and repository-native searches preceded browsing. Preserve Lalit Mohan Patnaik’s identity separately from younger Lalit Patnaik. Alternate TWAS CV routes and IEEE issuer routes are not independent corroboration.
+
+### Women in computing and space · 1 October 2026
+
+RES-029 adds two identities, three credited works and five source records; map now 965. Source and repository-native name searches preceded browsing. Sanghamitra Mohanty is distinct from Sanghamitra Pati; Susmita Mohanty from Susmita Bagchi. Publisher child records and derivative biographies are not independent corroboration. Initial science timeline completed with gaps retained.
+
+### Homestay policy/operation checkpoint · 1 October 2026
+
+Enhanced existing homestay topics after source and native coastal-verification checks. One public area-source record and dated JSON snapshot added; existing scheme/index/portal IDs reused. RES-008/009 pointers now include policy, metric register and snapshot. No duplicate accommodation collection created. Portal and API are one evidence family.

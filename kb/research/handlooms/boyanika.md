@@ -23,7 +23,7 @@ user_designated_reference: true
 
 Boyanika identifies itself as the state handloom weavers’ cooperative society.[^boyanika]
 
-## Reference site for Utkala
+## Reference site for Utkal
 
 The user selected [Boyanika](https://boyanika.com/) as an ongoing reference on 30 September 2026. Keep it in the research and website-reference set, connected to [Made in Odisha](../collections/made-in-odisha.md).
 

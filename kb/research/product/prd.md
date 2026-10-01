@@ -1,28 +1,28 @@
 ---
 type: "Product Requirements"
-title: "Utkala · Odisha product requirements"
+title: "Utkal · Odisha product requirements"
 description: "Detailed versioned product baseline with scope, audiences, stable requirements, acceptance and historical references."
-tags: ["utkala", "product", "requirements", "history"]
+tags: ["utkal", "product", "requirements", "history"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-30T19:25:24-07:00"}
 instruction_basis: "User direction, 30 September 2026: expand pages with facts, relate and classify content beyond tourism. Prior architecture retained; exact navigation and acceptance details are implementation proposals."
-document_version: "0.2.0"
+document_version: "0.2.1"
 approval_status: "draft_not_formally_approved"
 implementation_status: "not_deployed"
 sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": "../technology/technical-stack.md"}, {"id": "decisions", "title": "Architecture decision register", "resource": "../technology/decisions.md"}, {"id": "editorial", "title": "Community encyclopedia direction", "resource": "../about/community-encyclopedia.md"}]
 ---
 
-# Product requirements: Utkala · Odisha
+# Product requirements: Utkal · Odisha
 
 ## 1. Document control
 
 | Field | Value |
 | --- | --- |
-| PRD version | 0.2.0 |
+| PRD version | 0.2.1 |
 | Recorded | 30 September 2026 |
 | State | Draft scope expansion; not a claim of formal approval or implemented functionality |
 | Product owner | Ahimanikya, as project owner; additional editorial and programme roles unassigned |
-| Working identity | Utkala · Odisha — a community encyclopedia |
+| Working identity | Utkal · Odisha — a community encyclopedia |
 | Canonical record | This OKF concept, `product/prd` |
 | Historical reference | [Frozen v0.1.0](versions/prd-0.1.0.md) and its versioned requirements data |
 | Requirement source | [Machine-readable requirements register](../references/data/product-requirements.json) |
@@ -66,7 +66,7 @@ The [subject directory](../subjects/index.md) and [classification method](../met
 
 Formats include encyclopedia entries, place profiles, person/practitioner profiles, stories/photo essays, oral histories, data explainers, recipes/process accounts, timelines, collections/journeys and individual archive items. Each should allow a quick understanding, deeper exploration and evidence inspection. Qualifications that change a claim remain beside the claim.
 
-Geography, period, language, subject and evidence state are shared dimensions. Current boundaries must not be projected onto historical Odisha/Utkala/Kalinga automatically. One canonical item can appear in multiple gateways without duplicate content masters.
+Geography, period, language, subject and evidence state are shared dimensions. Current boundaries must not be projected onto historical Odisha/Utkal/Kalinga automatically. One canonical item can appear in multiple gateways without duplicate content masters.
 
 ## 6. Launch scope and first complete slice
 
@@ -184,7 +184,7 @@ Acceptance:
 
 **Phase:** launch · **Basis:** user direction · **Responsible role:** Editorial
 
-Preserve Utkala collection credit and original source, photographer, translator and contributor attribution.
+Preserve Utkal collection credit and original source, photographer, translator and contributor attribution.
 
 Acceptance:
 
@@ -512,11 +512,11 @@ Acceptance:
 - No ancestry, caste, ethnicity or religion is inferred from surnames; no DNA intake is introduced.
 - Private evidence stays outside public exports and AI retrieval.
 
-#### GROW-003 — Ask Utkala
+#### GROW-003 — Ask Utkal
 
 **Phase:** deferred · **Basis:** user direction · **Responsible role:** Engineering/editorial
 
-Answer from the approved KB with Utkala and original-source credit, only after a viable free option or agreed budget.
+Answer from the approved KB with Utkal and original-source credit, only after a viable free option or agreed budget.
 
 Acceptance:
 
@@ -632,7 +632,7 @@ Follow the [technical growth roadmap](../technology/growth-roadmap.md). Begin wi
 
 Revisit managed uploads and automation when lost attachments, submission limits or manual burden are measured. Revisit cited AI when search leaves recurring questions unanswered and a viable free integration or revised budget exists. Revisit private recovery when a suitable free export is established or operations require a recovery commitment. Preserve Git/OKF as the public knowledge source across upgrades.
 
-The Heritage & Global Connections Atlas is the public umbrella; the Utkala Lineage & Migration Index is a subset. Investigate movement into and out of Odisha, languages, trade, belief/learning, living culture, objects abroad and contemporary diaspora, with evidence-qualified relationships. Do not treat similarity, commemoration, institutional membership or a surname as proof of lineage or continuous influence.
+The Heritage & Global Connections Atlas is the public umbrella; the Utkal Lineage & Migration Index is a subset. Investigate movement into and out of Odisha, languages, trade, belief/learning, living culture, objects abroad and contemporary diaspora, with evidence-qualified relationships. Do not treat similarity, commemoration, institutional membership or a surname as proof of lineage or continuous influence.
 
 Internships should offer supervised, bounded research and learning, with local contributors and international students able to participate. Partner relationships should begin with concrete mutually useful work. No academic programme, organisation or cultural body is an agreed partner merely because it is a candidate. Outreach and recruitment require actual arrangements and explicit authorisation.
 
@@ -684,3 +684,8 @@ Durable reference points: [community encyclopedia](../about/community-encycloped
 ## Repository integration · 1 October 2026
 
 This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.
+
+
+## Name correction · 1 October 2026
+
+The user confirmed **Utkal**, correcting earlier Utkala wording. Version 0.2.1 updates the name only; requirement IDs, behaviour and approval states remain unchanged. Earlier snapshots retain their original text.

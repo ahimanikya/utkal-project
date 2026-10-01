@@ -5,17 +5,22 @@ description: "Fakir Mohan Senapati — sourced research, relationships and open 
 tags: ["encyclopedia", "people-creations"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T02:25:47-07:00"}
-sources: [{"id": "creators-six-acres", "title": "Six Acres and a Third — publisher edition", "resource": "https://www.ucpress.edu/books/six-acres-and-a-third/paper"}]
+sources: [{"id": "creators-six-acres", "title": "Six Acres and a Third — publisher edition", "resource": "https://www.ucpress.edu/books/six-acres-and-a-third/paper"}, {"id": "literature-six-acres-eaa", "title": "Teaching colonial India with Six Acres and a Third", "resource": "https://www.educationaboutasia.org/article/id/1629/"}]
 human_review_claimed: false
 subjects: ["people", "arts"]
+updated_at: "2026-10-01T03:56:46.827401-07:00"
 ---
 
 # Fakir Mohan Senapati
 
-The UC Press indexed record identifies Fakir Mohan Senapati (1843–1918) as the author of Six Acres and a Third. Its English edition supplies a practical reading route for international audiences. The full publisher page timed out; bibliographic facts here retain the indexed-only capture status.
+Born near Balasore in 1843, Senapati worked across poetry, fiction, administration and printing. This biographical outline reuses the publisher evidence already recorded in the project’s literary collection; it is not a second independent verification.
 
-**Odisha connection:** UC Press biography places his birth near Balasore in Odisha.
+[Six Acres and a Third](../works/six-acres-and-a-third.md) offers an English reading route into his fiction about land and power in colonial Odisha. A scholarly teaching essay dates the Odia original to 1902; the UC Press English paperback is dated December 2005. Those dates describe different publication events.
 
-This is a sourced research nucleus. A fuller biography, Odia spelling review, credited portrait and work-by-work bibliography remain pending.
+## What to explore
 
-[Six Acres and a Third](../works/six-acres-and-a-third.md) — Read a documented work alongside the person’s profile; this is a selected example, not a complete bibliography.
+Editorial reading prompt: follow how a land transaction changes whose account is believed. Connect the novel with [Odisha’s literary people and creations](people-and-creations.md), while treating its fictional setting as a literary world rather than a verified historical dataset.
+
+## Evidence limits
+
+UC Press gives a lifetime of 1843–1918; the new teaching essay prints 1843–1919. The discrepancy is held for source reconciliation, with no newly resolved death year. Translator initials also differ between sources. Full biography, bibliography, Odia spelling and portrait-rights review remain pending. No full-text reading or current stock check is claimed.

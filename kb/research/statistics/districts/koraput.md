@@ -28,3 +28,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Connected reading
 
 - [Koraput: landscape, makers and everyday enterprise](../../places/koraput.md) — Explore the district beyond its banking snapshot.
+
+## Homestay research link · 1 October 2026
+
+The public portal groups Deomali, Duduma Waterfalls and Kechela in its Koraput cluster. See the [dated homestay snapshot](../homestays.md) for scope. These are portal place associations, not operational-property counts or verified travel proximity.

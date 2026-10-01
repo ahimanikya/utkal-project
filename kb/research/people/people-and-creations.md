@@ -51,3 +51,53 @@ Cinema and theatre; Odia-language printing and journalism; manuscripts and libra
 [Sand art](../culture/sand-art.md) — Read an art form with its named practitioners and dated works; shared subject matter alone does not establish influence.
 
 [Women writers and English reading](../works/spark-of-light.md) connects five selected stories with authors and edition-specific translators. Four new profiles cover Reba Ray, Suprabha Kar, Basanta Kumari Patnaik and Binapani Mohanty; Pratibha Ray’s profile is expanded.
+
+## Biography continuation · 1 October 2026
+
+Existing [Fakir Mohan Senapati](fakir-mohan-senapati.md), [Gopinath Mohanty](gopinath-mohanty.md) and [Sitakant Mahapatra](sitakant-mahapatra.md) entries now connect life, places, selected work and reading routes. Together with the earlier women-writer batch, eight profiles have been deepened; this is a project coverage count, not eight complete biographies or a canon of Odisha literature.
+
+## Performing-arts checkpoint · 1 October 2026
+
+Four profiles and four credited theatre episodes connect the Mohapatras and Panigrahis with dance, stage work and music. Institutional recognition and archival presence are retained with their source limits. The programme still needs broader practitioner coverage, twelve credited works/performances and lawful listening/viewing routes; this batch is not its completion.
+
+## Music listening checkpoint · 1 October 2026
+
+Added Sunanda Patnaik, expanded Prafulla Kar and attached seven recording-specific records. Label and distribution routes identify where readers can seek the music; no audio was downloaded or playback verified. The 2012 OSA report gives a concrete diaspora link for both artists. Film, upload, compilation and recording dates remain distinct. Six selected practitioners and twelve performing-arts work records now exist, but the count includes a soundtrack container and does not establish twelve independent recordings; RES-027 remains in progress.
+
+## Performing-arts milestone · 1 October 2026
+
+The bounded RES-027 set now covers **six practitioners and twelve independently scoped works or performances**: four documented stage episodes and eight catalogue recordings. The Mamata soundtrack container is excluded from this count. Two label videos passed a muted-player progression check in the current session. Historical stage records do not thereby acquire surviving video; remaining listening routes, original recording dates, identifiers, biography conflicts and media permissions retain their stated unknowns. This completes the first research set, not an exhaustive discography or editorial approval.
+
+## Sporting achievements · 1 October 2026
+
+[Eight athlete profiles across four sports](../people/sporting-achievements.md) connect official results with dated Odisha affiliations. Team medals, individual results, career caps, heat positions and chess scores retain their separate meanings. This research collection is not a statewide medal total.
+
+## Science connections · 1 October 2026
+
+[Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
+
+## Scientific heritage through time · 1 October 2026
+
+[Utkal’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.
+
+## Mathematics and Odia science writing · 1 October 2026
+
+[Tribikram Pati](../people/tribikram-pati.md) and [Gokulananda Mohapatra](../people/gokulananda-mohapatra.md) connect mathematical research, science education and Odia writing to credited works. Source conflicts remain visible; neither a journal venue nor an encyclopaedia establishes measured global popularity.
+
+## Contemporary creative lives · 1 October 2026
+
+[Contemporary creators](../people/contemporary-creators.md) connects Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi to five credited creations. Existing Pratibha Ray and Sudarsan Pattnaik profiles are reused. Dated recognition, artistic circulation and economic outcomes remain distinct.
+
+## Women across creative fields · 1 October2026
+
+The [contemporary creators collection](../people/contemporary-creators.md) now includes Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra. Five linked records distinguish films, a translated novel, a song recording and a performance occurrence. Existing Jatin Das, Pratibha Ray and Kelucharan Mohapatra pages are reused for related reading.
+
+[Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.
+
+[Public servants and lawmakers](../people/public-servants-and-lawmakers.md) — five selected lives connect Odisha with Constitution-making, Parliament, national administration and constitutional office. Roles, periods and institutional evidence remain separate.
+
+[Utkal’s rulers and royal legacies](../people/rulers-and-royal-legacies.md) — five selected rulers linked to inscriptions, government centres and architectural patronage; political power, contribution and later remembrance remain distinct.
+
+[Lalit Mohan Patnaik](../people/lalit-mohan-patnaik.md) connects Odisha education and institutional collaboration with computing research and a jointly credited publication. Dated recognition, author bibliography and original-paper review remain separate evidence steps.
+
+[Sanghamitra Mohanty](../people/sanghamitra-mohanty.md) and [Susmita Mohanty](../people/susmita-mohanty.md) extend the science collection into computing and space design/policy. Follow their credited-work pages for original publisher records and research limits.

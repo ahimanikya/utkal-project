@@ -19,3 +19,7 @@ Original language: **Odia**. Original publication date: **not established**. A t
 [Read the publisher’s PDF](https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf). The publisher states CC BY-NC-ND 4.0. This catalogue links to the work; it does not copy the story or grant permission for adaptations, commercial reuse or cover images.
 
 [Author](../people/pratibha-ray.md) — Connect the story with its author; translators retain their separate edition credits.
+
+## Chronology search · 1 October 2026
+
+A further author/title search found a library lead in Salvation & Other Stories, but its catalogue fetch failed. This did not establish the original Odia title or date. The saved 2016 anthology edition and translator credit remain the verified reading route.

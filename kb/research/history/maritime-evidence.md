@@ -28,7 +28,7 @@ Read each site’s dated record separately. The 2022 Manikapatna paper’s archa
 
 ## Geographic discipline
 
-Use Utkala · Odisha as the campaign identity. In historical records, retain the source’s Kalinga, Utkal or Odra terminology and time-dependent geography. Do not assign every port of the wider historical east-coast network to today’s Odisha. Treat cultural transmission as a specific, testable proposition: which practice or object, at which place and date, with what evidence of direction?
+Use Utkal · Odisha as the campaign identity. In historical records, retain the source’s Kalinga, Utkal or Odra terminology and time-dependent geography. Do not assign every port of the wider historical east-coast network to today’s Odisha. Treat cultural transmission as a specific, testable proposition: which practice or object, at which place and date, with what evidence of direction?
 
 ## Reusable data
 

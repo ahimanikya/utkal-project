@@ -264,3 +264,233 @@
 - [Binapani Mohanty — Meet the Author](literature-binapani-akademi.md)
 
 - [Early women’s writings in Orissa — library catalogue](literature-early-women-iucat.md)
+
+- [Gopinath Mohanty — memorial life sketch](literature-gopinath-life.md)
+
+- [Gopinath Mohanty — books and chronology](literature-gopinath-books.md)
+
+- [Paraja 1987 — Oxford bibliographic reference](literature-paraja-oxford-reference.md)
+
+- [Teaching colonial India with Six Acres and a Third](literature-six-acres-eaa.md)
+
+- [The Ruined Temple — contemporaneous review bibliography](literature-ruined-temple-review.md)
+
+- [Pratibha Ray — Library of Congress reading editions](literature-ray-loc.md)
+
+- [Yajnaseni — publisher description with conflicting dates](literature-yajnaseni-beb.md)
+
+- [Spark of Light — translators explain their choices](literature-spark-translators.md)
+
+- [Kelucharan Mohapatra — Srjan milestones](performers-srjan-milestones.md)
+
+- [Sanjukta and Raghunath Panigrahi — joint award citation](performers-panigrahi-citation.md)
+
+- [Sangeet Natak Akademi — dance award register](performers-sna-dance-register.md)
+
+- [IGNCA — exhibition of audiovisual archives](performers-ignca-archives.md)
+
+- [OSA lifetime recognition for Sunanda Patnaik and Prafulla Kar](music-osa-awards-2012.md)
+
+- [75 Years of Odiya Film Making: A Flashback](music-pib-film-history.md)
+
+- [Prafulla Kar — Saregama artist profile](music-prafulla-label-profile.md)
+
+- [Re Mita Aa Sangata — label upload credits](music-re-mita-label.md)
+
+- [Dekhi Se Banamalli — label upload credits](music-dekhi-label.md)
+
+- [Mu Ta Manisha Marini — Saregama track 80979](music-mu-ta-label.md)
+
+- [Sesa Srabana — distributed Saregama soundtrack](music-kali-qobuz.md)
+
+- [Guru Nanak Bhajan — Saregama track 53300](music-guru-nanak-label.md)
+
+- [Sakhi Meri Manki — label upload credits](music-sakhi-label.md)
+
+- [Bhajan — Bhaja Govindam, Sunanda Patnaik](music-bhaja-spotify.md)
+
+- [Mamata — Saregama release on Amazon Music](music-mamata-amazon.md)
+
+- [Jagannatha Swami — Sunanda Patnaik label upload](music-jagannatha-label.md)
+
+- [Amit Rohidas: 200-cap milestone](sport-amit-200.md)
+
+- [Deep Grace Ekka: international retirement](sport-deep-retirement.md)
+
+- [Amit Rohidas: Paris quarter-final red card](sport-amit-red-card.md)
+
+- [Kishore Jena: World Athletics competition guide](sport-jena-wa-guide.md)
+
+- [Kishore Jena: KIIT Review profile](sport-jena-kiit.md)
+
+- [Hangzhou 2023 men’s javelin final](sport-jena-asian-result.md)
+
+- [Srabani Nanda: World Athletics profile](sport-srabani-wa.md)
+
+- [Rio 2016 women’s 200 m heats](sport-srabani-rio.md)
+
+- [Srabani Nanda: Odisha relay affiliation](sport-srabani-odisha-team.md)
+
+- [Pramod Bhagat: Tokyo 2020 result entry](sport-pramod-ipc.md)
+
+- [CAS 2024/A/10440: Pramod Bhagat v BWF](sport-pramod-cas.md)
+
+- [Padmini Rout: Odisha affiliation](sport-padmini-odisha.md)
+
+- [Padmini Rout: 2018 Asian continental title](sport-padmini-asian.md)
+
+- [Padmini Rout: 2018 Women’s World Championship pairing](sport-padmini-world.md)
+
+- [Debashis Das: 2018 Commonwealth Chess final table](sport-debashis-commonwealth.md)
+
+- [Swati Nayak: 2023 Borlaug Field Award](science-nayak-borlaug.md)
+
+- [Women-led seed production training in Jharsuguda](science-odisha-seed-training.md)
+
+- [Sanghamitra Pati: institutional biography](science-pati-rmrc.md)
+
+- [ICMR leadership: Sanghamitra Pati](science-pati-icmr-leadership.md)
+
+- [Pati and colleagues: Odisha primary-care multimorbidity study](science-pati-multimorbidity-2015.md)
+
+- [Śatānanda and Bhāsvatī: Panda preprint](science-satananda-preprint.md)
+
+- [The Bhāsvatī astronomical handbook of Śatānanda](science-satananda-jahh.md)
+
+- [P. K. Parija memorial lecture biography](science-parija-niser.md)
+
+- [Prankrishna Parija: academy publication catalogue](science-parija-ias-papers.md)
+
+- [Ajit Kumar Mohanty: Department of Atomic Energy biography](science-ajit-dae.md)
+
+- [Possible origin of shoulder in the reactor antineutrino spectrum](science-ajit-antineutrino.md)
+
+- [Jyotish, Volume 6, Part 1: manuscript catalogue](science-ignca-jyotish-2024.md)
+
+- [Odisha State Museum: manuscript department](science-osm-manuscripts.md)
+
+- [Odisha State Museum: collection inventory](science-osm-collection.md)
+
+- [Odisha State Museum: Ganita catalogue, second result page](science-osm-ganita-catalogue.md)
+
+- [INSA bibliography: Odisha astronomy and mathematics manuscript survey](science-insa-manuscript-survey-index.md)
+
+- [On the absolute summability factors of infinite series I](science-pati-summability-1960.md)
+
+- [Gokulananda Mohapatra: Odia Virtual Academy profile](science-gokulananda-ova.md)
+
+- [Gokulananda Mohapatra: Doyen of popularisation of science in Odiya](science-gokulananda-dream-2013.md)
+
+- [Odisha Sahitya Academy awarded books and writers: 2011 reference annual](science-gokulananda-award-register.md)
+
+- [Tribikram Pati: absolute summability thesis catalogue](science-pati-indcat.md)
+
+- [UNESCO Kalinga Prize: laureates register](science-unesco-kalinga-laureates.md)
+
+- [Bibhu Mohapatra on his Roots & His American Dream](creators-bibhu-roots-cfda.md)
+
+- [Bibhu Mohapatra on Fashion, the Immigrant Experience, Michelle Obama, and More](creators-bibhu-cfda-2026.md)
+
+- [Bibhu Mohapatra Fall 2021](creators-bibhu-fall-2021.md)
+
+- [Jatin Das: About the Artist](creators-jatin-official.md)
+
+- [Ministry of Culture Annual Report 2023–24: Jatin Das retrospective](creators-jatin-ngma-2023.md)
+
+- [Jagannath Panda: biography](creators-jagannath-aicon.md)
+
+- [Jagannath Panda: selected work and biography](creators-jagannath-milaaya.md)
+
+- [Go Kiss the World: Life Lessons for the Young Professional](creators-bagchi-go-kiss.md)
+
+- [The Day the Chariot Moved: How India Grows at the Grassroots](creators-bagchi-chariot.md)
+
+- [Penguin Adult Publishing April–June 2025 catalogue: Bagchi listing](creators-bagchi-advance-2025.md)
+
+- [I am still searching for a place to call home](creators-nandita-roots.md)
+
+- [Nandita Das: profile](creators-nandita-profile.md)
+
+- [Zwigato: story and director note](creators-zwigato-official.md)
+
+- [Manto: Cannes2018 official selection and credits](creators-manto-cannes.md)
+
+- [Children of A Better God: publisher edition and author biography](creators-susmita-penguin.md)
+
+- [Susmita Bagchi: festival speaker biography](creators-susmita-klf.md)
+
+- [Sona Mohapatra: interview](creators-sona-home.md)
+
+- [Rupaiya: Satyamev Jayate recording credits](creators-rupaiya-label.md)
+
+- [About Sujata Mohapatra](creators-sujata-bio.md)
+
+- [Sangeet Natak Akademi Awards for2017: investiture announcement](creators-sujata-award.md)
+
+- [JIPMER Heritage Club: Odissi concert by Sujata Mohapatra](creators-sujata-jipmer.md)
+
+- [Darbar Festival2018 brochure: dance programme](creators-sujata-darbar.md)
+
+- [IMFA: origins and leadership](business-imfa-history.md)
+
+- [Ritesh Agarwal describes his Odisha upbringing](business-riteshlife-2016.md)
+
+- [IWEC 2022 awardee: Rashmi Sahoo](business-rashmi-iwec.md)
+
+- [OASME product directory: Bisweswar Foods](business-bisweswar-oasme.md)
+
+- [FICCI budget statement: Subhrakant Panda as president](business-subhrakant-ficci-2023.md)
+
+- [LTI and Mindtree merger effective date](business-mindtree-merger.md)
+
+- [Girish Chandra Murmu: archived biographical content on CAG regional page](public-murmu-cag-bio.md)
+
+- [Former Comptrollers and Auditors General: Girish Chandra Murmu](public-cag-former.md)
+
+- [Profile of President Droupadi Murmu](public-droupadi-profile.md)
+
+- [P. K. Mishra takes over as Principal Secretary to the Prime Minister](public-pk-mishra-appointment.md)
+
+- [2019 Sasakawa Award laureates](public-pk-mishra-sasakawa.md)
+
+- [Biswanath Das: Odisha government biographical entry](public-biswanath-odisha.md)
+
+- [Biswanath Das: constitutional biography](public-biswanath-clpr.md)
+
+- [Constituent Assembly debate: 20 August 1949](public-cad-1949-08-20.md)
+
+- [Harekrushna Mahtab: 125th birth anniversary and translated essays](public-mahtab-commemoration.md)
+
+- [BharatSHRI: Hathigumpha inscription of Kharavela](rulers-kharavela-asi.md)
+
+- [Udayagiri and Khandagiri caves: tourism interpretation](rulers-kharavela-caves.md)
+
+- [Odisha Tourism: Art and Architecture](rulers-art-architecture.md)
+
+- [Puri: government historical overview](rulers-puri-history.md)
+
+- [Cities and Towns in Early Odisha: A Historical Appraisal](rulers-cuttack-charters.md)
+
+- [Srisailam Inscription of Kapilesvara, Saka 1382](rulers-kapilesvara-srisailam.md)
+
+- [Sakti Worship During the Suryavamsi Period](rulers-gajapati-name-context.md)
+
+- [Lalit Mohan Patnaik: TWAS fellow directory](science-lmp-twas.md)
+
+- [L. M. Patnaik: academy-hosted biodata and publication list](science-lmp-cv.md)
+
+- [Lalit Mohan Patnaik: IIT Bhubaneswar AHRC adviser](science-lmp-iitbbs.md)
+
+- [L. M. Patnaik: 1999 Technical Achievement Award](science-lmp-ieee-award.md)
+
+- [Speech, Sound and Music Processing: Embracing Research in India](science-sm-proceedings.md)
+
+- [Adaptive and Iterative Wiener Filter for Oriya Speech Processing Applications](science-sm-speech.md)
+
+- [Susmita Mohanty: author biography](science-susmita-bio.md)
+
+- [Dr. Susmita Mohanty: ISTI profile](science-susmita-isti.md)
+
+- [NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership](science-susmita-newspace.md)
+
+- [Go Homestay public area-list capture](homestay-portal-area-list.md)

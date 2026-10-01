@@ -129,6 +129,42 @@
 
 - [Research reuse audit](research-reuse-audit-2026-10-01.json)
 
+- [Literature research continuation](literature-research-continuation-2026-10-01.json) — existing biographies and edition gaps, research-only checkpoint.
+
+- [Performing arts first batch](performing-arts-first-batch-2026-10-01.json) — four people, four credited theatre episodes and literature evidence gaps.
+
+- [Music listening research](music-listening-research-2026-10-01.json) — Sunanda Patnaik, Prafulla Kar and seven credited recording records.
+
+- [Performing-arts milestone](performing-arts-milestone-2026-10-01.json) — Six practitioners and twelve credited works, with two scoped browser access checks.
+
+- [Sports research](sports-achievements-2026-10-01.json) — Eight athletes across four sports, with fourteen scoped results and milestones.
+
+- [Scientists checkpoint](scientists-first-batch-2026-10-01.json) — Swati Nayak and Sanghamitra Pati, credited contributions and evidence limits; RES-029 remains in progress.
+
+- [Scientific heritage checkpoint](science-heritage-2026-10-01.json) — Heritage-to-present timeline, three new contributors and three works; RES-029 remains in progress.
+
+- [Utkal name correction](utkal-name-correction-2026-10-01.json) — user-confirmed spelling, maintained references and preserved history.
+
+- [Scientific manuscript checkpoint](science-manuscripts-2026-10-01.json) — Four Bhāsvatī catalogue witnesses and three museum mathematics records; RES-029 remains in progress.
+
+- [Modern science checkpoint](science-modern-2026-10-01.json) — Mathematics and Odia science communication: two contributors, three works and five conflicts; RES-029 remains in progress.
+
+- [Contemporary creators](contemporary-creators-2026-10-01.json) — Four people, five works and related reading; explicit user addition RES-034 complete.
+
+- [Women across creative fields](creative-women-2026-10-01.json) — Four additional people, five credited works/performance records and related reading; RES-035 complete.
+
+- [Entrepreneurs and business leaders](entrepreneurs-2026-10-01.json) — Four new people, existing Bagchi profile enhanced and four linked enterprise identities; RES-036 complete.
+
+- [Public servants and lawmakers](public-service-2026-10-01.json) — Five people, a credited English translation and classified national contributions; RES-037 complete.
+
+- [Utkal rulers and royal legacies](rulers-2026-10-01.json) — Five ruler profiles, scoped historical evidence and reused monument records; RES-038 complete.
+
+- [Computing research checkpoint](science-computing-2026-10-01.json) — One computing researcher and coauthored paper; RES-029 remains in progress.
+
+- [Computing and space research completion](science-women-2026-10-01.json) — Two people and three credited works; initial RES-029 timeline complete, gaps retained.
+
+- [Homestay evidence checkpoint](homestay-policy-2026-10-01.json) — Public portal geography captured; policy amendments unresolved, operational outcomes still unknown.
+
 - [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)
 
 - [Visitor discovery and research review](visitor-research-review.json) · [Research PR integration findings](research-pr-review.json) · [Current review queue](visitor-review-queue.json)

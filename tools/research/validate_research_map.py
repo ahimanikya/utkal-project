@@ -6,7 +6,7 @@ def check(ok,msg):
     if not ok:errors.append(msg)
 ids=[r['id'] for r in m['records']]
 check(len(ids)==len(set(ids)),'Duplicate mapped record ID')
-check(len(ids)==m['counts_at_audit_start']['records_mapped'],'Inventory count mismatch')
+check(len(ids)==m.get('current_counts',m['counts_at_audit_start'])['records_mapped'],'Inventory count mismatch')
 tasks={r['task_id']:r for r in m['task_reuse']}
 check(len(tasks)==len(m['task_reuse']),'Duplicate task mapping')
 check(set(tasks)=={t['id'] for t in q['tasks']},'Unmapped or obsolete task IDs')

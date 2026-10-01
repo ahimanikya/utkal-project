@@ -77,3 +77,73 @@ This imported research describes the source workspace at its recorded dates. Utk
 ## Research reuse audit · 1 October 2026
 
 Read the [research map](research-map.md) and each task’s `reuse_before_research` pointers before browsing. The map includes existing project narratives and source records; only missing, stale or conflicted fields justify repeat research. Task IDs, completion criteria and statuses are preserved.
+
+### Literature continuation · 1 October 2026
+
+RES-026 reused repository-native introductions and deepened three existing biographies and three existing work records. Eight biographies have now been deepened across the two research attempts. The task stays in progress: unresolved original story dates and edition credits prevent the full deliverable. The structured queue records the specific next fields; no duplicate people or book concepts were created.
+
+### Performing-arts continuation · 1 October 2026
+
+RES-026 is deferred to 8 October for unavailable original-journal/title-page evidence; its criteria remain unmet. RES-027 is now in progress with four people and four attributed stage episodes. Continue the saved music task next. The earlier literary in-progress notices describe prior checkpoints, not current priority.
+
+### Music and listening routes · 1 October 2026
+
+RES-027 now links six practitioners and twelve work records, including one soundtrack container. Seven label/distribution recording entries were added in this pass. The task stays in progress to avoid treating the Mamata container and its songs as independent recordings and because representative playback and recording identifiers remain unverified. Continue its explicit next fields before the sport task.
+
+### Performing-arts milestone · 1 October 2026
+
+The bounded RES-027 set now covers **six practitioners and twelve independently scoped works or performances**: four documented stage episodes and eight catalogue recordings. The Mamata soundtrack container is excluded from this count. Two label videos passed a muted-player progression check in the current session. Historical stage records do not thereby acquire surviving video; remaining listening routes, original recording dates, identifiers, biography conflicts and media permissions retain their stated unknowns. This completes the first research set, not an exhaustive discography or editorial approval. Next eligible task: RES-028 sports.
+
+### Sports seed completed · 1 October 2026
+
+RES-028 now contains eight selected athletes across hockey, athletics, badminton and chess, with fourteen result/milestone observations. Seven new profiles enhance the existing Dilip Tirkey record. Women and para sport are included; event classes, team results, heat places and historical discipline findings are retained. Next: RES-029 scientists. Direct athletics fetch retries remain dated follow-up work.
+
+When sports-achievements.json changes, run tools/validate_sports.py with the core, creations and classification validators. Its checks enforce event scope and references; passing them is not independent factual review.
+
+### Scientists checkpoint · 1 October 2026
+
+RES-029 is in progress: Swati Nayak and Sanghamitra Pati profiles connect agriculture and health to documented contributions. Existing Mohanty research and project-native Samanta records were consulted first. Two new profiles are not the six-scientist deliverable. Resume RES-029: enhance the project-native Samanta Chandrasekhar record only for unresolved chronology/instrument fields, retain Mohanty’s existing paper, then research two further scientists (candidate leads Prana Krushna Parija and Ajit Kumar Mohanty) to reach six. Verify Nayak publication-level credits and Pati award-issuer entry/full methods; failed routes retry after 2026-10-08. Do not duplicate project-native Samanta JSON.
+
+### User-expanded scientific-history scope · 1 October 2026
+
+RES-029 now follows heritage to the present, with its original six-person completion criterion preserved in scope_history. Added Śatānanda, Parija and Ajit Kumar Mohanty; the timeline also reuses four existing identities. The earliest period remains an explicit attribution gap. No duplicate automation or completed encyclopedic coverage claimed.
+
+### Scientific manuscripts checkpoint · 1 October 2026
+
+RES-029 remains in progress. Four IGNCA Bhāsvatī witnesses and three museum mathematics records enhance the historical lane. The 2008 survey is bibliographically confirmed but full text unavailable. Continue RES-029 with nineteenth/twentieth-century mathematics and science communication (Tribikram Pati and Gokulananda Mahapatra), then contemporary women and additional disciplines. Reuse the saved manuscript checkpoint; original folios/Devīdāsa attribution remain open and failed routes retry after 2026-10-08.
+
+### Modern science checkpoint · 1 October 2026
+
+RES-029 remains in progress after adding mathematics and science writing. Continue RES-029 with contemporary computing, engineering and women researchers whose Odisha connections can be documented. Reuse the nine mapped identities. Keep historical attribution open; resolve Mohapatra birth/award and Pati degree conflicts through original registers, retrying failed routes after 2026-10-08.
+
+### Contemporary creators user addition · 1 October 2026
+
+RES-034 completes a bounded four-person/five-work seed with classified links. It does not complete RES-026, RES-030 or RES-032. Resume RES-029 next; failed NGMA PDF and Aicon exhibition routes may be retried after8October.
+
+### Creative women user extension · 1 October2026
+
+RES-035 completes the bounded requested extension; RES-029 remains active. Resume RES-029 science work. Further personality candidates Rituraj Mohanty, Paramita Satpathy and Pankaj Sethi require reuse checks and original work/recognition evidence before new profiles. Retry failed biography and edition routes after2026-10-08.
+
+### Entrepreneur user extension · 1 October 2026
+
+RES-036 completes the bounded people/enterprise seed. Research audited enterprise milestones and Odisha-specific operations; verify brand/legal-entity relationships and add further founders after reuse checks. RES-029 remains active independently.
+
+### Public-service user extension · 1 October 2026
+
+RES-037 completes the bounded five-person seed. Extend through original debate, parliamentary and appointment records. Resolve quarantined chronology; verify Shaktikanta Das and Nandini Satpathy candidates. RES-029 remains active independently.
+
+### Ruler user extension · 1 October 2026
+
+RES-038 completes the bounded five-person seed. Extend through original Nagari/Hathigumpha editions and independent Gajapati records; verify regional rulers and Bhaumakara queens. RES-029 remains active independently.
+
+### Computing checkpoint · 1 October 2026
+
+RES-029 remains in progress. Continue with a bounded women-in-computing or engineering contribution, searching existing identities first. Lalit Mohan Patnaik and his 1994 paper are now saved: do not repeat discovery. Retrieve original paper/award page after 2026-10-08; preserve historical gaps and previous conflict retries.
+
+### Initial science timeline completed · 1 October 2026
+
+Proceed to RES-008 homestay policy reconciliation, reusing its saved source and project pointers. RES-029 initial cross-era timeline exists; preserve science gaps for RES-024 next-cycle planning and retry unavailable sources after2026-10-08.
+
+### Homestay continuation · 1 October 2026
+
+RES-008 blocked on original amendments/allocation, retry 8 October. Independent RES-009 started: public outcome evidence map saved, nine measures remain unknown. Continue RES-009 through district/departmental aggregate reporting; do not convert the 61-GP area snapshot into accommodation supply.

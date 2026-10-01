@@ -2,7 +2,7 @@
 type: "Product Governance"
 title: "Maintaining product requirements history"
 description: "Versioning, snapshot preservation, requirement traceability and update checks."
-tags: ["utkala", "product", "requirements", "history"]
+tags: ["utkal", "product", "requirements", "history"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T16:31:36-07:00"}
 instruction_basis: "User requested a detailed PRD for historical reference; product decisions consolidated from the Odisha Tourism conversation through 27 September 2026."

@@ -5,15 +5,16 @@ description: "The Ruined Temple and Other Poems — sourced research, relationsh
 tags: ["encyclopedia", "people-creations"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T02:25:47-07:00"}
-sources: [{"id": "creators-sitakant-loc", "title": "Sitakant Mahapatra — literary recordings", "resource": "https://www.loc.gov/acq/ovop/delhi/salrp/sitakantmahapatra.html"}]
+sources: [{"id": "creators-sitakant-loc", "title": "Sitakant Mahapatra — literary recordings", "resource": "https://www.loc.gov/acq/ovop/delhi/salrp/sitakantmahapatra.html"}, {"id": "literature-ruined-temple-review", "title": "The Ruined Temple — contemporaneous review bibliography", "resource": "https://www.scilet.in/download/KB/KB10.pdf"}]
 human_review_claimed: false
 subjects: ["arts"]
+updated_at: "2026-10-01T03:56:46.827401-07:00"
 ---
 
 # The Ruined Temple and Other Poems
 
-The Library of Congress’s Sitakant Mahapatra profile lists this **1996 English poetry translation**. Translator, publisher and ISBN are not supplied in the captured profile and remain unknown. The same archive links recordings of his Odia poems; no audio files are copied here.
+The Library of Congress lists this 1996 English poetry translation by [Sitakant Mahapatra](../people/sitakant-mahapatra.md). An indexed review by Sachidananda Mohanty supplies New Delhi: Harper Collins India, 1996, 153 pages, and describes a selection of poems rather than an entirely new collection.
 
-Metadata and source links establish a reading or research route. Reproduction rights, live stock and complete work review are not established.
+These additional details are provisional bibliographic evidence from printed page 193 of the [SCILET-hosted review](https://www.scilet.in/download/KB/KB10.pdf). Full PDF retrieval failed because the file exceeded the tool’s content-size limit. Translator credits, ISBN, component poems’ original publication dates and edition-level comparison remain unresolved.
 
-[Creator profile](../people/sitakant-mahapatra.md) — Connect this work with its credited creator; recognition of a person is distinct from sales or impact of this work.
+A poem titled “The Ruined Temple” also appears in other collections. A shared poem title does not make those collections the same book. No full text, image, current stock or rights clearance is supplied here.
