@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-10-01T01:46:15.885834+00:00",
+  "authorization": "UTP-DEC-091",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "changes": [
+    "Nine new planning notes across Bhubaneswar, coastal food and stays, exported with their sources.",
+    "Native Chrome A4/Letter verification and two print-layout fixes.",
+    "Dedicated GA4 service and consent-gated production integration.",
+    "Local-confirmation intake, held-collection technical review and one consolidated backlog entry point."
+  ],
+  "verification": {
+    "site_tests": 321,
+    "coastal_tests": 11,
+    "native_pdf_cases": 6,
+    "full_draft_link_and_image_audit": {
+      "pages": 72,
+      "findings": 0
+    },
+    "responsive_checks": "Five coastal/task routes plus seven held entry pages at 390 and 1440 px; no overflow or broken loaded images.",
+    "contributions": "Zero open GitHub issues; no posting or replies.",
+    "page_checks": 64
+  },
+  "limitations": [
+    "Same AI assistant implemented and checked the work; no independent review or new fluent Odia review.",
+    "All seven coastal guides still need scoped local confirmations; no outreach or field inspection.",
+    "Native Chrome PDFs and responsive viewport samples are not physical-device, screen-reader or physical-printer certification.",
+    "GA4 account and variable exist; production consent/network/Realtime behaviour awaits an approved deployment.",
+    "Held collections remain excluded from the 16-page coastal edition; Store remains deferred."
+  ],
+  "evidence": [
+    "records/evidence/visitor-readiness-2026-10-01/analytics-property-created.png",
+    "records/evidence/visitor-readiness-2026-10-01/analytics-setup.json",
+    "records/evidence/visitor-readiness-2026-10-01/analytics-stream-created.png",
+    "records/evidence/visitor-readiness-2026-10-01/analytics-stream-final.png",
+    "records/evidence/visitor-readiness-2026-10-01/analytics-stream-final.txt",
+    "records/evidence/visitor-readiness-2026-10-01/bhubaneswar-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/build.log",
+    "records/evidence/visitor-readiness-2026-10-01/chilika-desktop.png",
+    "records/evidence/visitor-readiness-2026-10-01/coast-tests.log",
+    "records/evidence/visitor-readiness-2026-10-01/coast.log",
+    "records/evidence/visitor-readiness-2026-10-01/contribution-queue.json",
+    "records/evidence/visitor-readiness-2026-10-01/destinations-balasore-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/destinations-cuttack-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/destinations-mayurbhanj-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/full-draft-audit.json",
+    "records/evidence/visitor-readiness-2026-10-01/held-responsive-checks.json",
+    "records/evidence/visitor-readiness-2026-10-01/journey-a4.pdf",
+    "records/evidence/visitor-readiness-2026-10-01/journey-letter.pdf",
+    "records/evidence/visitor-readiness-2026-10-01/knowledge-chilika-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/languages-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/languages-odia-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/literature-mobile.png",
+    "records/evidence/visitor-readiness-2026-10-01/page-acceptance.json",
+    "records/evidence/visitor-readiness-2026-10-01/photo-book-a4.pdf",
+    "records/evidence/visitor-readiness-2026-10-01/photo-book-letter.pdf",
+    "records/evidence/visitor-readiness-2026-10-01/photo-book.html",
+    "records/evidence/visitor-readiness-2026-10-01/print-matrix.json",
+    "records/evidence/visitor-readiness-2026-10-01/print-text-checks.json",
+    "records/evidence/visitor-readiness-2026-10-01/responsive-checks.json",
+    "records/evidence/visitor-readiness-2026-10-01/tests.log",
+    "records/evidence/visitor-readiness-2026-10-01/text-book-a4.pdf",
+    "records/evidence/visitor-readiness-2026-10-01/text-book-letter.pdf",
+    "records/evidence/visitor-readiness-2026-10-01/text-book.html"
+  ],
+  "handoff": {
+    "status": "preparing_draft_PR",
+    "publication": "not_merged_or_deployed"
+  }
+}

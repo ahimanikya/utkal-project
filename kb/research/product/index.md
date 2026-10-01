@@ -91,3 +91,5 @@ There are 40 requirements: 31 launch, five later and four explicitly deferred. N
 - [Raghurajpur maker guide](raghurajpur-maker-guide-2026-10-01.md) — process, cultural connections and workshop visits.
 
 - [Dhauli: layers of a landscape](dhauli-layers-guide-2026-10-01.md) — inscriptions, elephant, pagoda and visit planning.
+
+- [Visitor readiness and remaining review queue](visitor-readiness-2026-10-01.md).

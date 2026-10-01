@@ -24,3 +24,5 @@ Technical source is `projects/design-system/` at the repository root. This is a 
 - [Magazine family review checkpoint](magazine-family-review.md).
 
 - [City and culture adaptations and review](../research/product/city-culture-review.md).
+
+- [Print and optional-measurement lessons](print-and-consent-lessons.md).

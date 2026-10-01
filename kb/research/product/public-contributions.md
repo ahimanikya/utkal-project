@@ -36,3 +36,7 @@ There are no received contributions recorded by this task. The optional contribu
 ## Release-readiness refinement
 
 The contribution page now offers direct public new-subject and photograph proposal links, independent of existing entry selection and default-branch template availability. The correction tool remains for existing entries. Both paths still require the visitor to review and submit on GitHub. See the [release review](release-preview.md).
+
+## Current channel status · 1 October 2026 UTC
+
+The contribution channel has since been published; the earlier pending-release wording above is historical. See [publication evidence](../../records/contribution-publication.json). This follow-up inspected the open public issue queue and found no open issues; it did not inspect every closed issue or send any reply. The optional contribution register stays unactivated until there is an actual accepted intake record and its human decision; public issue submission is distinct from editorial acceptance. Use the minimum fields already defined in the canonical register when that happens.

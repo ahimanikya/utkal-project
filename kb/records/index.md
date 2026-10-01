@@ -108,3 +108,5 @@
 - [Dhauli layers guide review](dhauli-layers-guide-review.json) — source distinctions and actual journey books.
 
 - [Dhauli publication](dhauli-publication.json) — approved PR #12, live story and journey books.
+
+- [Visitor readiness, native print and analytics self-review](visitor-readiness-review.json).
