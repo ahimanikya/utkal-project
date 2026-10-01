@@ -84,3 +84,6 @@ This directory contains the organizational and working model, roles, work record
 - [Visitor readiness: guides, Chrome PDF checks, analytics and consolidated review](research/product/visitor-readiness-2026-10-01.md)
 
 - [Chilika release candidate](records/chilika-release-review.json) — connected guides, three journey starters, source checks and review evidence.
+
+- [Cuttack collection candidate](records/cuttack-release-review.json) — fort, craft, food, museum and a connected journey.
+- [Odia language and literature candidate](records/odia-literature-release-review.json) — six literary lives and portable reading notes.

@@ -1,0 +1,77 @@
+{
+  "recorded_at": "2026-10-01T06:14:03.361187+00:00",
+  "authorization": "UTP-DEC-100",
+  "status": "pass_with_limitations",
+  "candidate_state": "prepared_not_published",
+  "branch": "codex/cuttack-cultural-release",
+  "base_commit": "8ed6e3e",
+  "title": "Odia language and literary lives",
+  "human_authority": "Ahimanikya Satapathy",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "routes": [
+    "/languages/",
+    "/languages/odia/",
+    "/literature/",
+    "/people/fakir-mohan-senapati/",
+    "/literature/six-acres-and-a-third/",
+    "/people/sarala-das/",
+    "/people/pratibha-ray/",
+    "/people/bhima-bhoi/",
+    "/people/gopinath-mohanty/",
+    "/people/gangadhar-meher/"
+  ],
+  "edition": {
+    "pages": 46,
+    "saveable_ideas": 42,
+    "starters": 7
+  },
+  "verification": {
+    "full_site_tests": 331,
+    "edition_tests": 22,
+    "design_system_tests": 6,
+    "page_acceptance_checks": 184,
+    "responsive_checks": 32,
+    "viewports": [
+      390,
+      1440
+    ],
+    "visual_review": "Sixteen route covers inspected in desktop and phone contact sheets. Mobile stay-area comparison inspected separately; no horizontal overflow across the 32 DOM checks.",
+    "browser_flow": [
+      "Cuttack starter created six unscheduled ideas in a new plan.",
+      "Added a synthetic English/Odia note and Day 1 assignment.",
+      "Downloaded the photo book through the actual UI; four photographs embedded.",
+      "Odia reading starter created four reading choices in another plan.",
+      "Downloaded reading photo book through UI; three photographs embedded.",
+      "Returned to Cuttack and verified the original synthetic note remained."
+    ],
+    "native_pdf": [
+      {
+        "file": "evidence/cuttack-culture-release/cuttack-a4.pdf",
+        "paper": "A4",
+        "pages": 10,
+        "review": "All page thumbnails inspected; no blank pages or obvious clipped content. Stay comparisons, museum checks, maker questions, sources and synthetic note retained."
+      },
+      {
+        "file": "evidence/cuttack-culture-release/odia-reading-letter.pdf",
+        "paper": "Letter",
+        "pages": 8,
+        "review": "All page thumbnails inspected; prompts, edition notes, sources and photo credits retained. Generic trip checklist remains available in reading books."
+      }
+    ],
+    "evidence_directory": "evidence/cuttack-culture-release"
+  },
+  "limitations": [
+    "Prepared and checked by the same AI assistant; no independent review or human approval claimed.",
+    "No field inspection of venues, workshop hosts, accommodation, menus, transport or current access.",
+    "Fluent Odia and specialist literary review remain open; no invented quotes or full copyrighted works reproduced.",
+    "The dated Tarakasi photograph has inconsistent material descriptions; caption explicitly limits it to form. Gopinath Mohanty historical portrait is held from delivery pending rights clarification.",
+    "Native PDF checks use synthetic plans, not physical prints. Long credits can continue onto a sparse final page."
+  ],
+  "next_action": "Founder reviews this package and the associated pull request before merge and publication.",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/17",
+  "implementation_commit": "d58b5fe"
+}

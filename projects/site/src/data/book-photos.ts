@@ -13,6 +13,13 @@ export const bookPhotos={
  'place:puri-beach':regions.assets['puri-beach'],
  'place:cuttack':regions.assets.barabati,
  'place:barabati':regions.assets.barabati,
+ 'experience:cuttack-filigree':regions.assets['cuttack-filigree'],
+ 'experience:cuttack-netaji':regions.assets['cuttack-netaji'],
+ 'food:cuttack-dahibara':foods.assets['cuttack-dahibara'],
+ 'reading:languages/odia':voices.assets.manuscript,
+ 'reading:people/fakir-mohan-senapati':voices.assets.fakir,
+ 'reading:people/sarala-das':{...voices.assets.manuscript,caption:'Contextual Odia manuscript, not an identified Sarala Mahabharata manuscript.'},
+ 'reading:literature/six-acres-and-a-third':{...voices.assets.fakir,caption:'Bust commemorating Fakir Mohan Senapati; not a book cover.'},
  'place:dhauli':regions.assets.dhauli,
  'place:raghurajpur':regions.assets['raghurajpur-artisan'],
  'place:chilika':chilikaStory.image,
@@ -30,6 +37,6 @@ export const bookPhotos={
  'food:konark-chhena-poda':foods.assets['chhena-poda'],
  'food:baripada-mudhi-mansa':foods.assets['mudhi-mansa'],
  'reading:people/pratibha-ray':voices.assets.ray,
- 'reading:people/gopinath-mohanty':voices.assets.gopinath,
+ 'reading:people/gopinath-mohanty':voices.assets['reading-context'],
  'reading:people/bhima-bhoi':voices.assets['bhima-memorial']
 };

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T03:49:48.321301+00:00",
+  "recorded_at": "2026-10-01T06:14:03.361187+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3106,6 +3106,50 @@
         "records/bhubaneswar-backlog-reconciliation.json",
         "records/bhubaneswar-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-110",
+      "title": "Cuttack collection: fort, craft, food, museum, base and journey",
+      "category": "website_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-100",
+      "next_action": "Founder reviews the candidate and PR before merge/publication; local and specialist verification gaps remain recorded.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-100",
+        "UTP-REV-075"
+      ],
+      "evidence": [
+        "records/cuttack-release-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-111",
+      "title": "Odia language, literature and six literary lives",
+      "category": "website_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-100",
+      "next_action": "Founder reviews the candidate and PR before merge/publication; local and specialist verification gaps remain recorded.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-100",
+        "UTP-REV-076"
+      ],
+      "evidence": [
+        "records/odia-literature-release-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -5096,6 +5140,27 @@
       "evidence": [
         "records/bhubaneswar-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-100",
+      "title": "Prepare the Cuttack and Odia cultural collection batch",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Pick all of that and start",
+      "scope": "Prepare the recommended Cuttack guides, journey connections and Odia language/literature follow-up for review. The follow-up “try now” authorizes retrying access and continuing. No new merge or publication approval inferred.",
+      "recorded_at": "2026-10-01T06:14:03.361187+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-110",
+        "UTP-WORK-111"
+      ],
+      "evidence": [
+        "records/cuttack-release-review.json",
+        "records/odia-literature-release-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -6868,6 +6933,54 @@
       ],
       "evidence": [
         "records/bhubaneswar-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-075",
+      "title": "Cuttack collection: fort, craft, food, museum, base and journey · candidate review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Prepared and checked by the same AI assistant; no independent review or human approval claimed.",
+        "No field inspection of venues, workshop hosts, accommodation, menus, transport or current access.",
+        "Fluent Odia and specialist literary review remain open; no invented quotes or full copyrighted works reproduced.",
+        "The dated Tarakasi photograph has inconsistent material descriptions; caption explicitly limits it to form. Gopinath Mohanty historical portrait is held from delivery pending rights clarification.",
+        "Native PDF checks use synthetic plans, not physical prints. Long credits can continue onto a sparse final page."
+      ],
+      "refs": [
+        "UTP-DEC-100",
+        "UTP-WORK-110"
+      ],
+      "evidence": [
+        "records/cuttack-release-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-076",
+      "title": "Odia language, literature and six literary lives · candidate review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Prepared and checked by the same AI assistant; no independent review or human approval claimed.",
+        "No field inspection of venues, workshop hosts, accommodation, menus, transport or current access.",
+        "Fluent Odia and specialist literary review remain open; no invented quotes or full copyrighted works reproduced.",
+        "The dated Tarakasi photograph has inconsistent material descriptions; caption explicitly limits it to form. Gopinath Mohanty historical portrait is held from delivery pending rights clarification.",
+        "Native PDF checks use synthetic plans, not physical prints. Long credits can continue onto a sparse final page."
+      ],
+      "refs": [
+        "UTP-DEC-100",
+        "UTP-WORK-111"
+      ],
+      "evidence": [
+        "records/odia-literature-release-review.json"
       ]
     }
   ],
