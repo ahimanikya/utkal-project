@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:35:04.134564+00:00",
+  "updated_at": "2026-10-01T19:58:15.218126+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -100,7 +100,8 @@
     "forest-products-sold-2024",
     "forest-products-ofdc-web-sales-2020",
     "forest-products-ofdc-web-sold-2020",
-    "forest-products-honey-capacity"
+    "forest-products-honey-capacity",
+    "forest-products-ouat-mahua-unit2021"
   ],
   "conflicts": [
     {
@@ -249,6 +250,29 @@
       "reason": "Direct fetch unavailable; indexed company claims not admitted as verified enterprise outcomes.",
       "retrieved_on": "2026-10-01",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-santhal2016",
+      "url": "https://atr.vsu.edu.ph/article/download/212/202/390",
+      "status": "available_text_only",
+      "scope": "Full PDF text available through web extraction; visual fetch503 and direct download HTTP/2 error. Fieldwork2009, publication2016; paper mixes field and secondary material. Numeric spoilage and medical claims not adopted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ouat2021",
+      "url": "https://ouat.ac.in/wp-content/uploads/2023/05/annual_report_2020-21_3.pdf",
+      "status": "available",
+      "scope": "Selected institutional research highlights. A developed unit is not deployed capacity, factory output or evidence of adoption; no general shelf-life guarantee taken from cookie experiment.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://panchayat.odisha.gov.in/sites/default/files/2024-05/AAR-2020-21_English.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch timed out and direct download timed out at45 seconds. Indexed honey purchase figures are a lead only, not admitted observations.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
     }
   ],
   "human_review_claimed": false,
@@ -314,7 +338,9 @@
       "source_ids": [
         "forest-vasundhara2001",
         "forest-mahua-iisc",
-        "forest-mahua-food2016"
+        "forest-mahua-food2016",
+        "forest-mahua-santhal2016",
+        "forest-ouat2021"
       ],
       "evidence_status": "attributed_use_and_botanical_reference",
       "current_procurement_verified": false,
@@ -323,7 +349,10 @@
       "current_price": null,
       "annual_sales_value": null,
       "export_quantity": null,
-      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "seasonal_account_ids": [
+        "chandbill-mahua-2009"
+      ]
     },
     {
       "id": "mahua-seed",
@@ -577,6 +606,11 @@
       "run_id": "2026-10-01-forest-seasonal",
       "at": "2026-10-01T19:35:04.134564+00:00",
       "scope": "Historical honey seasonal account; mahua food-development abstract; siali botanical identity and fibre profile. No new market totals."
+    },
+    {
+      "run_id": "2026-10-01-mahua-preparation",
+      "at": "2026-10-01T19:58:15.218126+00:00",
+      "scope": "Mahua cake preparation, historical local season, qualitative market context and OUAT batch-capacity observation. Collector prices and current sales remain unresolved."
     }
   ],
   "seasonal_accounts": [
@@ -599,6 +633,24 @@
         ]
       ],
       "evidence_status": "historical_community_account",
+      "current_availability_verified": false
+    },
+    {
+      "id": "chandbill-mahua-2009",
+      "product_id": "mahua-flower",
+      "source_id": "forest-mahua-santhal2016",
+      "locator": "Printed pp.96–97",
+      "community": "Santhal",
+      "geography": "Chandbill, Bangiriposi, Mayurbhanj",
+      "period": "Fieldwork2009; publication2016",
+      "month_windows": [
+        [
+          3,
+          4
+        ]
+      ],
+      "harvest_origin": "Private and forest lands reported",
+      "evidence_status": "historical_local_field_account",
       "current_availability_verified": false
     }
   ],
@@ -625,6 +677,38 @@
       "survey_dates": null,
       "commercial_sales_verified": false,
       "community_tradition_verified": false
+    },
+    {
+      "id": "mahua-cake-chandbill-account",
+      "product_id": "mahua-flower",
+      "source_id": "forest-mahua-santhal2016",
+      "locator": "Printed p.98, Cake",
+      "evidence_status": "published_attributed_preparation",
+      "ingredients": [
+        {
+          "name": "mahua flowers",
+          "quantity": 250,
+          "unit": "g",
+          "moisture_state": "not specified in cake paragraph"
+        },
+        {
+          "name": "rice",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "name": "sal leaves",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "soaking_minutes": 60,
+      "cooking_temperature": null,
+      "cooking_time": null,
+      "method_reference": "food/mahua-mohula.md",
+      "tested_recipe": false,
+      "local_review": "pending",
+      "commercial_sales_verified": false
     }
   ]
 }

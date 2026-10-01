@@ -167,3 +167,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Whole Odisha encyclopedia scope
 
 [Research receipt](records/encyclopedia-scope-2026-10-01.json): user scope mapped to existing subjects and reading paths; geopolitics synthesis queued. No website release.
+
+## 1 October 2026 · Mahua preparation and processing evidence
+
+[Research receipt](records/mahua-preparation-2026-10-01.json): mahua cake and historical local collection season added to existing profile; ORMAS procurement figures remain unverified. No website release.

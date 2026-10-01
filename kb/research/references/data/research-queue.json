@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T19:39:57.358018+00:00",
+  "updated_at": "2026-10-01T19:58:15.218126+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2358,15 +2358,15 @@
       "done_when": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
       "target": "economy/forest-products.md",
       "status": "in_progress",
-      "attempts": 3,
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": "2026-10-01T19:35:04.134564+00:00",
-      "next_step": "Recover full2016 mahua paper through an independent legitimate institutional route for attributed recipe quantities and sample methods; verify local mahua harvest calendar. Retain honey season as historical; retry failed metadata/garden/company routes on2026-10-08. Other independent product research remains eligible.",
+      "last_worked_at": "2026-10-01T19:58:15.218126+00:00",
+      "next_step": "Complete sal/siali local seasonal and attributed preparation/material-use gaps. Mahua recipe still needs cooking endpoints and local review; current market data belongs to RES-057. Do not repeat the recovered2009 field account.",
       "evidence_outputs": [
         "food/forest-foods.md",
         "economy/forest-products.md",
@@ -2377,7 +2377,9 @@
         "food/mahua-mohula.md",
         "economy/siali-products.md",
         "sources/forest-mahua-food2016.md",
-        "sources/forest-scstrti-foodknowledge.md"
+        "sources/forest-scstrti-foodknowledge.md",
+        "sources/forest-mahua-santhal2016.md",
+        "sources/forest-ouat2021.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2399,6 +2401,12 @@
           "at": "2026-10-01T19:35:04.134564+00:00",
           "outcome": "historical_honey_seasons_mahua_formulations_siali_identity",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-mahua-preparation",
+          "at": "2026-10-01T19:58:15.218126+00:00",
+          "outcome": "attributed_cake_and_local_season_recovered",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -2417,7 +2425,9 @@
           "food/mahua-mohula.md",
           "economy/siali-products.md",
           "sources/forest-mahua-food2016.md",
-          "sources/forest-scstrti-foodknowledge.md"
+          "sources/forest-scstrti-foodknowledge.md",
+          "sources/forest-mahua-santhal2016.md",
+          "sources/forest-ouat2021.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -2439,7 +2449,7 @@
         "RES-054"
       ],
       "last_worked_at": null,
-      "next_step": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
+      "next_step": "Recover2020–21 Panchayati Raj/ORMAS honey purchase report after2026-10-08; independently seek dated collector-payment and realised-sale records. Preserve indexed purchase lead as unverified; reconcile kendu2019–20 source conflict.",
       "evidence_outputs": [],
       "retry_after": null,
       "blocker": null,

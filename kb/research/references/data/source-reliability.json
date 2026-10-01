@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:35:04.134564+00:00",
+  "updated_at": "2026-10-01T19:58:15.218126+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4208,6 +4208,33 @@
       "run_id": "2026-10-01-forest-seasonal",
       "status": "unavailable",
       "scope": "Direct fetch unavailable; indexed company claims not admitted as verified enterprise outcomes.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-santhal2016",
+      "discovery_url": "https://atr.vsu.edu.ph/article/download/212/202/390",
+      "checked_at": "2026-10-01T19:58:15.218126+00:00",
+      "run_id": "2026-10-01-mahua-preparation",
+      "status": "available_text_only",
+      "scope": "Full PDF text available through web extraction; visual fetch503 and direct download HTTP/2 error. Fieldwork2009, publication2016; paper mixes field and secondary material. Numeric spoilage and medical claims not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ouat2021",
+      "discovery_url": "https://ouat.ac.in/wp-content/uploads/2023/05/annual_report_2020-21_3.pdf",
+      "checked_at": "2026-10-01T19:58:15.218126+00:00",
+      "run_id": "2026-10-01-mahua-preparation",
+      "status": "available",
+      "scope": "Selected institutional research highlights. A developed unit is not deployed capacity, factory output or evidence of adoption; no general shelf-life guarantee taken from cookie experiment.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://panchayat.odisha.gov.in/sites/default/files/2024-05/AAR-2020-21_English.pdf",
+      "checked_at": "2026-10-01T19:58:15.218126+00:00",
+      "run_id": "2026-10-01-mahua-preparation",
+      "status": "unavailable",
+      "scope": "Web fetch timed out and direct download timed out at45 seconds. Indexed honey purchase figures are a lead only, not admitted observations.",
       "retry_after": "2026-10-08"
     }
   ]

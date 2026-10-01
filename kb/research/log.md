@@ -256,3 +256,7 @@ Resumed earliest in-progress RES-056. Added siali profile and three institutiona
 ## 1 October2026 · Whole Odisha scope
 
 Recorded user’s explicit places/people/food/livelihoods/culture/heritage/literature/science/geopolitics/religion/spirituality scope. Added ten reading lenses, two connected collections and one bounded geopolitics task. Reused saved records; nine stable subjects and PRD baseline retained. No web research, new statistics or website change claimed.
+
+## 1 October2026 · Mahua preparation and research processing
+
+Recovered a separate full field-study text; enhanced mahua preparation, land-origin and seasonal context. Added OUAT research batch-capacity observation. Recorded unavailable visual/download and ORMAS routes without claiming unchanged data. RES-056 remains in progress; no commercial deployment or website publication claimed.

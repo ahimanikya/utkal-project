@@ -219,3 +219,7 @@ RES-056 enhanced existing honey and mahua profiles, added siali and three source
 ### Encyclopedia scope clarification · 1 October2026
 
 Three editorial records make the user’s broad scope visible. Reused literary, science, faith, maritime, mineral and people research. RES-059 adds missing geopolitical synthesis; existing religion tasks and canonical records remain intact. No fresh facts or publication approval inferred.
+
+### Mahua preparation recovery · 1 October2026
+
+Two sources enhance the existing mahua profile. A2009 field account published2016 supplies local collection and preparation context; OUAT2020–21 supplies a research-unit rating. Neither duplicates the earlier food-development abstract. Existing food and task identities retained.

@@ -46,3 +46,5 @@ Direct roasting exposes vegetables to heat before peeling/mashing. Leaf parcels 
 - Recipe quantities, smoke chemistry, nutritional benefits, origin dates, comparative state rankings and economic impact are not established here. No new revenue, export or popularity numbers.
 
 [Structured evidence](../references/data/poda-traditions.json) · [Story and video draft](../stories/odisha-poda-country.md) · [Preparation collection](preparation-and-variation.md).
+
+[Mahua and rice cooked between sal leaves](mahua-mohula.md) offers a source-attributed connection to fire cooking. The paper calls it cake; no unsupported local name, national uniqueness or universal cooking method is inferred.

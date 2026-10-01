@@ -59,3 +59,7 @@ Next: independent local preparations for chatu patrapoda and ou khatta; finer re
 ## Mahua food-development reference
 
 [Mahua/mohula](mahua-mohula.md) now links to a2016-issue Odisha study reporting laddu, cake, jam and other formulations. Only the abstract was read; ingredient quantities and procedures remain unavailable here. Do not turn a product list into an invented recipe or describe research formulations as established community traditions.
+
+## Mahua preparation account recovered
+
+The [mahua profile](mahua-mohula.md) now records a separate field-study cake description, its source quantities and missing cooking endpoints. This adds an attributed preparation account; it does not fill the unread methods of the earlier food-development paper. The original fourteen-food research set remains preserved.

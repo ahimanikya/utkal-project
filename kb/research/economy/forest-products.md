@@ -59,3 +59,5 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 [Related reading](../food/mahua-mohula.md) — Connects separate flower and seed uses with botanical identity and attributed cultural research.
 
 [Siali: leaves and fibre](siali-products.md) — separates a climber’s identity and community-attributed fibre uses from sal and mahua. Its named product records inherit no statewide market totals.
+
+[Mahua preparation and processing](../food/mahua-mohula.md) now connects local historical food practice, qualitative market constraints and a university-developed processing unit. A plant design or batch rating does not establish enterprise sales or collector earnings.

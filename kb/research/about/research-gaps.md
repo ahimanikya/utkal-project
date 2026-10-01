@@ -250,3 +250,7 @@ A historical Hill Kharia honey calendar and a2016 mahua food-development abstrac
 ## Geopolitics and explicit reading areas
 
 RES-059 covers missing geopolitical synthesis through existing maritime/port/mineral/people research and two bounded contemporary cases. Religion/spirituality reuses RES-045 and RES-048–050; literature/science reuse their existing collections. [Scope map](encyclopedia-scope.md) records the user’s full direction. This navigation pass does not mark any deep study completed.
+
+### Forest-food preparation checkpoint
+
+Mahua now has an attributed cake description and historical local harvest window. Practical cooking endpoints, local review and sal/siali seasonal detail remain open in RES-056. ORMAS honey procurement PDF failed two routes; RES-057 retains the unverified lead and2026-10-08 retry. No collector-income estimate inferred.

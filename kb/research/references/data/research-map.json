@@ -15417,7 +15417,9 @@
         "forest-mahua-iisc",
         "forest-mahua-tnau",
         "forest-vasundhara2001",
-        "forest-mahua-food2016"
+        "forest-mahua-food2016",
+        "forest-mahua-santhal2016",
+        "forest-ouat2021"
       ],
       "added_at": "2026-10-01T19:28:54.352476+00:00"
     },
@@ -15556,6 +15558,36 @@
       ],
       "source_ids": [],
       "added_at": "2026-10-01T19:39:57.358018+00:00"
+    },
+    {
+      "id": "sources/forest-mahua-santhal2016",
+      "title": "Traditional and Current Knowledge on the Utilization of Mahua (Madhuca latifolia L.) Flowers by the Santhal Tribe in Similipal Biosphere Reserve, Odisha, India",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-mahua-santhal2016.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-mahua-santhal2016"
+      ],
+      "added_at": "2026-10-01T19:58:15.218126+00:00"
+    },
+    {
+      "id": "sources/forest-ouat2021",
+      "title": "OUAT Annual Report 2020–21",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-ouat2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-ouat2021"
+      ],
+      "added_at": "2026-10-01T19:58:15.218126+00:00"
     }
   ],
   "shared_publications": [
@@ -16657,7 +16689,9 @@
         "food/mahua-mohula.md",
         "economy/siali-products.md",
         "sources/forest-mahua-food2016.md",
-        "sources/forest-scstrti-foodknowledge.md"
+        "sources/forest-scstrti-foodknowledge.md",
+        "sources/forest-mahua-santhal2016.md",
+        "sources/forest-ouat2021.md"
       ],
       "project_records": [],
       "remaining_scope": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
@@ -16741,8 +16775,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1080,
-    "updated_at": "2026-10-01T19:39:57.358018+00:00",
+    "records_mapped": 1082,
+    "updated_at": "2026-10-01T19:58:15.218126+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17128,6 +17162,11 @@
       "run_id": "2026-10-01-encyclopedia-scope",
       "at": "2026-10-01T19:39:57.358018+00:00",
       "scope": "Whole-encyclopedia scope clarification: ten reading areas mapped to nine stable subjects; two explicit collections and one nonduplicate geopolitics task."
+    },
+    {
+      "run_id": "2026-10-01-mahua-preparation",
+      "at": "2026-10-01T19:58:15.218126+00:00",
+      "scope": "Enhanced canonical mahua profile; two independent publications kept distinct; no new food identity or duplicate task."
     }
   ]
 }

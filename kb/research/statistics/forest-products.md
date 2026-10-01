@@ -28,3 +28,7 @@ Quantities sold include arrear stock. These nominal sales are neither collectors
 The same report describes **15 tonnes/year installed honey-processing capacity at Jashipur, Mayurbhanj** (printed p.161). This is capacity, not verified production, utilisation or wild-honey procurement.
 
 [Canonical observations](../references/data/statistics-atlas.json) preserve these boundaries. [Market research](../economy/forest-products.md) explains what remains missing. No statewide forest-food market-size estimate is currently supported here.
+
+## Food-processing research capability
+
+OUAT reports a developed mahua candy/nectar unit rated10 kg per batch in its2020–21 report (printed p.23). [Source](https://ouat.ac.in/wp-content/uploads/2023/05/annual_report_2020-21_3.pdf). This is a research-unit specification, not an operating-factory census, annual output or commercial success. The observation is saved separately from OFDC honey capacity.
