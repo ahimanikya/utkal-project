@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-09-30T23:53:21.553220+00:00",
+  "recorded_at": "2026-10-01T00:02:38.187122+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2809,24 +2809,28 @@
       "id": "UTP-WORK-103",
       "title": "Puri visitor essentials for temple, food, shore and arrival",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-085",
-      "next_action": "Founder review of the candidate PR; direct temple/local confirmations remain WORK-097.",
+      "next_action": "Published and verified. Direct temple and local confirmations remain UTP-WORK-097.",
       "blockers": [],
       "refs": [
         "UTP-DEC-085",
         "UTP-REV-061",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-DEC-086",
+        "UTP-REV-062",
+        "UTP-REL-012"
       ],
       "evidence": [
         "research/product/puri-visitor-essentials-2026-09-30.md",
-        "records/puri-visitor-essentials-review.json"
+        "records/puri-visitor-essentials-review.json",
+        "records/puri-publication.json"
       ]
     }
   ],
@@ -4528,6 +4532,27 @@
         "research/product/puri-visitor-essentials-2026-09-30.md",
         "records/puri-visitor-essentials-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-086",
+      "title": "Publish approved Puri visitor essentials",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish exact reviewed PR #10; verify live guidance, actual portable books and retained HTTPS redirects.",
+      "recorded_at": "2026-10-01T00:02:38.187122+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-103",
+        "UTP-REL-012"
+      ],
+      "evidence": [
+        "records/puri-publication.json",
+        "records/evidence/puri-publication-2026-09-30/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -6003,6 +6028,28 @@
       "evidence": [
         "records/puri-visitor-essentials-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-062",
+      "title": "Puri publication live smoke review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and performed release checks; no independent editorial review.",
+        "Current temple rules and local meal, facility, transport and shore arrangements remain unconfirmed.",
+        "Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview."
+      ],
+      "refs": [
+        "UTP-DEC-086",
+        "UTP-WORK-103"
+      ],
+      "evidence": [
+        "records/puri-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -6206,6 +6253,23 @@
         "records/evidence/konark-publication-2026-09-30/deployment.json"
       ],
       "note": "PR 9 merged at the exact approved head and deployed at 05cd9f6. Live guidance and actual HTML/text books verified. HTTPS enforcement and redirects retained."
+    },
+    {
+      "id": "UTP-REL-012",
+      "title": "Puri temple, food, shore and arrival guidance published",
+      "status": "published",
+      "authorization": "UTP-DEC-086",
+      "destination": "https://utkalproject.org/destinations/puri/",
+      "refs": [
+        "UTP-DEC-086",
+        "UTP-WORK-103",
+        "UTP-REV-062"
+      ],
+      "evidence": [
+        "records/puri-publication.json",
+        "records/evidence/puri-publication-2026-09-30/deployment.json"
+      ],
+      "note": "Approved PR 10 deployed at 084b6cc. All five live notes and source references verified in actual HTML/text downloads. HTTPS redirects retained."
     }
   ],
   "sources": [

@@ -754,3 +754,9 @@ Approved PR #9 is live. Separate monument, museum and ticket guidance is present
 Five Puri planning notes distinguish temple preparation, devotional food, coastal dishes, shore time and arrival. Source-access limits stay visible, and the context carries into downloaded books.
 
 [Puri visitor review](../research/product/puri-visitor-essentials-2026-09-30.md). Candidate not deployed.
+
+## UTP-HIS-0121 · Puri’s practical story travels with the reader
+
+Approved PR #10 is live. Five planning notes and their references were verified on the public page and in actual downloaded HTML/text books. HTTPS redirects remain working. Direct temple/local confirmations remain open.
+
+[Publication evidence](../records/puri-publication.json).

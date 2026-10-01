@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-10-01T00:02:38.187122+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-086",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/10",
+  "approved_head": "c7638b8274ae2c5b58f5609d9ccb666ce281dc9f",
+  "deployed_sha": "084b6cca982e017d37875915b46cbe8500e8b391",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36793810318",
+  "destination": "https://utkalproject.org/destinations/puri/",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "live_checks": {
+    "recorded_at": "2026-10-01T00:01:22.542252+00:00",
+    "page": "https://utkalproject.org/destinations/puri/?release=pr10#visit-notebook",
+    "page_guidance_verified": true,
+    "journey": "UTP PR10 release check",
+    "files": [
+      {
+        "path": "/Users/ahimanikya/Downloads/UTP-PR10-release-check-book-2026-10-01.html",
+        "bytes": 10974,
+        "sha256": "7a3924d33a36619f44a423a78a133a5daab1eeec12ca5260dd358825a7172646",
+        "checks": {
+          "Temple visit · check before joining the queue": true,
+          "Mahaprasad · begin with its meaning": true,
+          "At the table · mustard, prawns or something sweet": true,
+          "Choose your shore moment": true,
+          "Arrive with a return plan": true,
+          "sources": true
+        }
+      },
+      {
+        "path": "/Users/ahimanikya/Downloads/UTP-PR10-release-check-itinerary-2026-10-01.txt",
+        "bytes": 6373,
+        "sha256": "d5f40da0c3293ae442e5a2bdcc3e0dec5f9e58ba0c533c5d944f4cb5aad33c25",
+        "checks": {
+          "Temple visit · check before joining the queue": true,
+          "Mahaprasad · begin with its meaning": true,
+          "At the table · mustard, prawns or something sweet": true,
+          "Choose your shore moment": true,
+          "Arrive with a return plan": true,
+          "sources": true
+        }
+      }
+    ],
+    "physical_print_tested": false
+  },
+  "https_enforced": true,
+  "limitations": [
+    "Same AI assistant implemented and performed release checks; no independent editorial review.",
+    "Current temple rules and local meal, facility, transport and shore arrangements remain unconfirmed.",
+    "Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview."
+  ],
+  "rollback_reference": "05cd9f6f0c50d140120cb1af3915ebb77b9b64ff",
+  "evidence": [
+    "records/evidence/puri-publication-2026-09-30/approval.json",
+    "records/evidence/puri-publication-2026-09-30/deployment.json",
+    "records/evidence/puri-publication-2026-09-30/live-checks.json",
+    "records/evidence/puri-publication-2026-09-30/live-page.txt",
+    "records/evidence/puri-publication-2026-09-30/pages-settings.json",
+    "records/evidence/puri-publication-2026-09-30/redirect-checks.json"
+  ]
+}

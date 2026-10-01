@@ -30,3 +30,9 @@ Full and coastal builds passed, along with 318 site tests, 10 coastal tests and 
 Candidate for Founder review, not deployed. The public coastal scope remains 16 pages; the Store and broader collection remain held. UTP-WORK-097 remains open for direct confirmations; native printing remains UTP-WORK-080.
 
 [Draft PR #10](https://github.com/ahimanikya/utkal-project/pull/10).
+
+## Approved publication
+
+The Founder subsequently approved PR #10. Reviewed head `c7638b8` was merged and deployed at `084b6cc`. Hosted build and test checks passed. All five notes were verified on the live page and in real HTML/text downloads with their sources. HTTPS enforcement and redirects remain verified. Earlier candidate wording records the initial handoff; UTP-WORK-103 is now complete. Direct temple/local confirmation and native printing remain separate.
+
+[Publication evidence](../../records/puri-publication.json) · [Live Puri guide](https://utkalproject.org/destinations/puri/)
