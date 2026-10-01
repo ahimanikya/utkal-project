@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `faea8072403970e851f907f262e00191f81eb3c1735cc8dd870f46216af85d38`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6b6bfb0db0c722bf25e6891bb437ed27b1f872b828d2f1e9215228cf90e4fc82`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -130,7 +130,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-115 · Reconcile and push research edition 1.3.0 | completed | applied | Ahimanikya Satapathy | PR 21 merged. Continue research using the recorded integration boundary; selecting new website content and automation handover are separate work. | — |
 | UTP-WORK-116 · Visitor experience and launch-readiness review | completed | published | Ahimanikya Satapathy | Published under UTP-REL-024. Use the consolidated human review queue for remaining language, local-condition and accessibility work. Search indexing needs a separate decision. | — |
 | UTP-WORK-117 · Dismiss cookie UI after saved choice | completed | published | Ahimanikya Satapathy | Published under UTP-REL-025; preference management remains accessible through Privacy. | — |
-| UTP-WORK-118 · Public-launch readiness and bounded search proposal | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the candidate. Keep visual/device and local-condition review open; approve a precise page subset separately before search activation. | — |
+| UTP-WORK-118 · Public-launch readiness and bounded search proposal | completed | published | Ahimanikya Satapathy | Website refinements published under UTP-REL-026. Search activation remains a separate exact-scope Founder decision; visual/device and local-condition follow-ups remain in the review queue. | — |
 
 ## Pending human review and decisions
 
@@ -188,7 +188,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | Assess remaining experience and accessibility gaps against the current 67-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current 67-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
-| UTP-WORK-118 | Founder reviews the candidate. Keep visual/device and local-condition review open; approve a precise page subset separately before search activation. |
 
 ## Decisions
 
@@ -308,6 +307,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-113 · Remove persistent cookie acceptance interface | approved | Ahimanikya Satapathy | Prepare the requested cookie dismissal fix for review. Publication remains subject to the established Founder gate. |
 | UTP-DEC-114 · Approve and publish PR 25 cookie dismissal | approved | Ahimanikya Satapathy | Direct reply to PR 25 review handoff, approving merge and publication of e14135a2f594fcebf3908b358401b1355c73de0c. |
 | UTP-DEC-115 · Prepare public-launch readiness batch | approved | Ahimanikya Satapathy | Prepare the proposed five-part batch: search-ready page selection, practical information checks, accessibility, image performance, and search-launch review. Does not activate indexing or publish an unreviewed candidate. |
+| UTP-DEC-116 · Approve and publish PR 26 visitor readiness | approved | Ahimanikya Satapathy | Direct reply to PR 26 handoff, approving publication of head 30545a3ee461ce277cc52700551017b783ba572c. Search indexing remains disabled as stated in the handoff. |
 
 ## Reviews
 
@@ -400,6 +400,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-087 | pass_with_limitations | False | Same assistant implemented and checked this change; no independent review claimed.; Browser visual check was blocked because the browser could not verify its admin-enforced security policy. No workaround attempted.; Consent interaction checks execute the actual component script with synthetic DOM, storage and network objects; they do not use production visitor data.; Not deployed; awaiting Founder review of the candidate. |
 | UTP-REV-088 | pass_with_limitations | False | Same assistant implemented and verified the release; no independent review claimed.; Browser visual check remains unavailable due to the browser security-policy verification failure. Live verification uses read-only HTTP and published HTML.; Consent interactions were verified with the actual component script and synthetic DOM/storage/network objects in the candidate and passing deployment tests. |
 | UTP-REV-089 | pass_with_limitations | False | Same assistant implemented and checked the candidate; no independent editorial or accessibility review claimed.; Browser security-policy verification blocked visual/interactive browser checks. Keyboard handlers were tested with synthetic elements; screen-reader, zoom, physical-device and rendered layout checks remain open.; Source references were read online; no local contacts, site visits, bookings, prices, operating hours or current facility availability were confirmed.; Image savings compare encoded variants with original files, not measured network requests, Core Web Vitals or perceptual equivalence. Archive photographs and original credit records are preserved.; The 11-page search selection is a proposal requiring Founder editorial approval. The normal publication output remains noindex; no Search Console submission or indexing activation.; Research PRs 22 and 24 remain independent open changes; no claims of their approval or publication. |
+| UTP-REV-090 | pass_with_limitations | False | Same assistant implemented and verified the release; no independent editorial, accessibility or field review claimed.; Live verification uses read-only HTTP, published markup and image hashes. The browser security-policy issue left visual, screen-reader, zoom and physical-device review open.; Official-source checks do not confirm local arrangements, booking availability or current operation.; Image savings are encoded-byte comparisons, not measured real-user page-speed improvements.; Five locally encoded WebP files differ from the Ubuntu build. All live variants match the exact successful deployment artifact. Decoded comparisons preserve dimensions with mean channel differences below 1.93 on a 0–255 scale; no perceptual-equivalence claim.; Search proposal is not activated. The live site remains noindex, with no served sitemap or Search Console submission. |
 
 ## Publication and application history
 
@@ -430,6 +431,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-023 · Research edition 1.3.0 integrated into main | applied | https://github.com/ahimanikya/utkal-project/commit/e25cb73bea1998b3b4f5f6f35c818af6ef4c4df4 | UTP-DEC-110 |
 | UTP-REL-024 · Visitor experience improvements published | published | https://utkalproject.org/ | UTP-DEC-112 |
 | UTP-REL-025 · Cookie dismissal fix published | published | https://utkalproject.org/ | UTP-DEC-114 |
+| UTP-REL-026 · Visitor readiness improvements published | published | https://utkalproject.org/ | UTP-DEC-116 |
 
 ## Sources and assets
 
@@ -467,7 +469,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-119 | 2026-10-01T08:26:38.838732+00:00 | Founder-approved PR 19 merged and published. All 60 pages, planning navigation, hub save targets, reused image hashes and HTTPS redirect verified. Four older hub work entries now reflect published delivery. | Continue the remaining editorial backlog; specialist and local-condition gaps remain explicit. |
 | UTP-EVT-120 | 2026-10-01T09:22:34.499013+00:00 | Seven English language introductions prepared with original publications, a visual directory, public contribution drafts and portable reading notes. Source, responsive, keyboard and journey checks recorded. | Founder reviews one PR before publication. |
 | UTP-EVT-121 | 2026-10-01T09:53:08.674692+00:00 | Founder-approved PR 20 merged and published. All 67 pages, 61 journey ideas, nine starters, language learning links, image hashes and HTTPS redirect verified. Earlier introduction work entries now reflect publication. | Native-speaker and specialist review remains open under UTP-WORK-016; continue the remaining editorial backlog separately. |
 | UTP-EVT-122 | 2026-10-01T10:15:52.127676+00:00 | Founder supplied the existing repository after requesting a Git push. Research edition 1.3.0 reconciled with earlier import, preserving native records and website code. | Validate and push review branch; no website deployment. |
@@ -477,6 +478,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-126 | 2026-10-01T11:02:47.008110+00:00 | Removed persistent cookie acceptance text and settings strip. Moved preference management to the privacy section with footer access; consent checks pass. | Founder reviews the candidate before publication. |
 | UTP-EVT-127 | 2026-10-01T11:08:52.776626+00:00 | Founder-approved PR 25 merged and published. Persistent cookie acceptance strip removed; Privacy access verified across 67 live pages. | Continue remaining project work from the current register. |
 | UTP-EVT-128 | 2026-10-01T11:33:13.198254+00:00 | Prepared an 11-page search proposal, scoped practical reference notes, shared mobile contents behaviour and responsive image delivery. Ordinary publication remains noindex. | Founder reviews the candidate and outstanding visual/local evidence; search activation is a separate decision. |
+| UTP-EVT-129 | 2026-10-01T12:23:45.213530+00:00 | Founder-approved PR 26 published. All 67 pages retain preview indexing; practical notes, mobile contents and reviewed responsive image files verified live. | Review the 11-page search proposal separately; retain visual/device and local-condition follow-ups. |
 
 ## Deferred extensions
 

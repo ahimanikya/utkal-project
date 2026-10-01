@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T11:33:13.198254+00:00",
+  "recorded_at": "2026-10-01T12:23:45.213530+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3497,22 +3497,26 @@
       "id": "UTP-WORK-118",
       "title": "Public-launch readiness and bounded search proposal",
       "category": "website_experience",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-115",
-      "next_action": "Founder reviews the candidate. Keep visual/device and local-condition review open; approve a precise page subset separately before search activation.",
+      "next_action": "Website refinements published under UTP-REL-026. Search activation remains a separate exact-scope Founder decision; visual/device and local-condition follow-ups remain in the review queue.",
       "blockers": [],
       "refs": [
         "UTP-DEC-115",
-        "UTP-REV-089"
+        "UTP-REV-089",
+        "UTP-DEC-116",
+        "UTP-REV-090",
+        "UTP-REL-026"
       ],
       "evidence": [
-        "records/public-launch-readiness-review.json"
+        "records/public-launch-readiness-review.json",
+        "records/public-launch-readiness-publication.json"
       ]
     }
   ],
@@ -5828,6 +5832,27 @@
       "evidence": [
         "records/public-launch-readiness-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-116",
+      "title": "Approve and publish PR 26 visitor readiness",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Direct reply to PR 26 handoff, approving publication of head 30545a3ee461ce277cc52700551017b783ba572c. Search indexing remains disabled as stated in the handoff.",
+      "recorded_at": "2026-10-01T12:23:45.213530+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-115",
+        "UTP-WORK-118",
+        "UTP-REV-089"
+      ],
+      "evidence": [
+        "records/public-launch-readiness-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -7958,6 +7983,31 @@
       "evidence": [
         "records/public-launch-readiness-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-090",
+      "title": "Visitor readiness publication verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the release; no independent editorial, accessibility or field review claimed.",
+        "Live verification uses read-only HTTP, published markup and image hashes. The browser security-policy issue left visual, screen-reader, zoom and physical-device review open.",
+        "Official-source checks do not confirm local arrangements, booking availability or current operation.",
+        "Image savings are encoded-byte comparisons, not measured real-user page-speed improvements.",
+        "Five locally encoded WebP files differ from the Ubuntu build. All live variants match the exact successful deployment artifact. Decoded comparisons preserve dimensions with mean channel differences below 1.93 on a 0–255 scale; no perceptual-equivalence claim.",
+        "Search proposal is not activated. The live site remains noindex, with no served sitemap or Search Console submission."
+      ],
+      "refs": [
+        "UTP-DEC-116",
+        "UTP-WORK-118"
+      ],
+      "evidence": [
+        "records/public-launch-readiness-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -8413,6 +8463,22 @@
         "records/cookie-dismissal-publication.json"
       ],
       "note": "Approved PR 25 deployed; 67 live pages checked. Preferences remain available in Privacy."
+    },
+    {
+      "id": "UTP-REL-026",
+      "title": "Visitor readiness improvements published",
+      "status": "published",
+      "authorization": "UTP-DEC-116",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-116",
+        "UTP-REV-090",
+        "UTP-WORK-118"
+      ],
+      "evidence": [
+        "records/public-launch-readiness-publication.json"
+      ],
+      "note": "PR 26 published and checked. Indexing remains disabled; the search proposal requires its own activation decision."
     }
   ],
   "sources": [
