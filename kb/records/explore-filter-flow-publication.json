@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-01T15:26:47.881213+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-124",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/30",
+  "approved_head": "d0edc9a72586efdf9e42fc90bfec29f9318e3e96",
+  "deployed_sha": "c05f255982fee693a701ea255a5dec96c058db45",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36883940722",
+  "destination": "https://utkalproject.org/",
+  "scope": "Publish PR 30 reversible Explore filters, contextual counts, single-filter removal and composition-aware search.",
+  "verification": {
+    "approved_tree": "Merged tree matched approved head before dispatch.",
+    "workflow": "Release build, full and coastal tests, and Pages deployment succeeded.",
+    "live_pages": 67,
+    "explore": "54 entries, per-topic initial counts, three initially hidden removal controls, live result status, no-script collection and empty-result guidance verified.",
+    "controller": "The live Explore controller matches the reviewed local build byte-for-byte and includes composition, history and filter handlers. Delivery check only, not live interaction.",
+    "controller_sha256": "c1a183fd128293651971021a4882277c4e2c6fb2c5f4074b26f35ebdec1a22a7",
+    "search": "All 67 pages retain noindex, nofollow; sitemap.xml returns 404."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and verified the release; no independent review claimed.",
+    "Live checks use HTTP, markup and delivered JavaScript bytes. They do not exercise native browser history, focus, composition, rendered layout or assistive technology.",
+    "Earlier browser security-policy verification remains unavailable. Real browser, screen-reader and physical-device checks remain open; controller tests use a synthetic DOM/history harness.",
+    "Search indexing remains disabled; search activation requires a separate decision."
+  ],
+  "evidence": [
+    "records/evidence/explore-filter-flow-publication/deployment.json",
+    "records/evidence/explore-filter-flow-publication/pull-request.json",
+    "records/evidence/explore-filter-flow-publication/live-checks.json"
+  ]
+}

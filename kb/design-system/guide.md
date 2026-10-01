@@ -133,3 +133,20 @@ Use a contextual photograph to invite exploration, preserve full-frame performan
 A language directory is a set of reading choices. Use a relevant manuscript or accurately captioned script specimen where rights permit, and a typographic panel where documentary imagery is absent. Do not invent a community portrait to fill a card. Cards connect language, place and reading intent without treating districts as exclusive language boundaries.
 
 The reading shelf keeps the original resource link, edition, publisher and compilers together. The three-column visual names languages compared by the booklet; it is not a newly translated vocabulary table. Use one closing contribution invitation and keep detailed evidence in the existing end disclosure. Preserve source links and practical prompts in portable reading books. These are site-level applications of existing tokens, not a new shared package release. Evidence: [language review](../records/living-languages-review.json).
+
+## Visitor experience application
+
+A reader needs both a position in the collection and a way into the story. Use one compact breadcrumb before the opening; retain existing regional context instead of adding a second breadcrumb. On phones, a native contents disclosure can keep longer chapter lists out of the opening. Its link order must follow the article, and navigation must work without JavaScript.
+
+Related reading should explain why two entries belong together. Reuse the curated connection and keep one ending rather than adding another generic card block. A connection into a language or food story is not a travel itinerary or a statement about every community member.
+
+Sharing is another view of the page. Prefer its actual credited photograph, preserve contextual captions and descriptive metadata, and retain a clearly labelled brand fallback for subjects without suitable imagery. Metadata-only images must survive the publication export. Test complete visitor paths and downloaded artifacts alongside screenshots. These are applications of the existing foundations; no new core package version is introduced. [Visitor experience review](../reference/visitor-experience-review.md).
+
+
+## Launch-readiness pilot · October 2026
+
+The UTP pilot now reuses responsive image delivery across covers, cards and destination photographs. Keep the original photograph, alt text and source/credit records; generate aspect-preserving WebP sizes at build time. Describe the rendered width through `sizes`, prioritize the opening image and lazy-load supporting images. A smaller encoded file is a delivery improvement, not proof of faster real-device rendering or unchanged perceived quality. Original images remain available to sharing metadata and portable books.
+
+Mobile contents should use a native disclosure. Escape closes it and returns focus to its summary. Choosing a chapter closes it, moves focus to the chapter heading and preserves native fragment navigation; modified clicks retain browser behaviour. Apply the same pattern to place and regional guides as to cultural stories. Retain the shared reduced-motion, forced-colour and visible-focus styles.
+
+The launch candidate checks 14 token foreground/background pairs at normal-text contrast, but this is not a screen-reader or rendered-page accessibility certification. Browser security-policy verification blocked visual testing for this batch. Physical-device, screen-reader, zoom and visual composition checks remain open. See the [launch review](../records/public-launch-readiness-review.json).

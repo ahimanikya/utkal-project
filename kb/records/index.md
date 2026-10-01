@@ -128,3 +128,9 @@
 - [Research sync approval and merge](research-sync-merge.json)
 
 - [Research reuse audit](research-reuse-audit-2026-10-01.json)
+
+- [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)
+
+- [Visitor discovery and research review](visitor-research-review.json) · [Research PR integration findings](research-pr-review.json) · [Current review queue](visitor-review-queue.json)
+
+- [Visitor discovery publication](visitor-research-publication.json) — approved PR 34, live homepage and connected reading checks.

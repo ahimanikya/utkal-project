@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-01T10:42:09.598636+00:00",
+  "status": "candidate_for_founder_review",
+  "authorization": "UTP-DEC-111",
+  "human_owner": "Ahimanikya Satapathy",
+  "base_commit": "e25cb73",
+  "scope": "Visitor flow, connected reading, subject-specific sharing metadata, complete journey verification, backlog reconciliation and search-launch proposal. Same 67 routes, 61 saveable ideas and nine starters.",
+  "changes": [
+    "Contextual breadcrumbs on destination, food, language and literary pages",
+    "Native mobile contents for food and cultural stories",
+    "Curated food-to-language connections and clearer cultural onward paths",
+    "Existing subject images used in sharing previews and retained in export",
+    "Metadata audit in CI and non-served sitemap proposal",
+    "45 older next actions clarified; four human-review groups plus separate launch/brand/research decisions",
+    "Design-system lessons recorded"
+  ],
+  "verification": {
+    "site_tests": 334,
+    "edition_tests": 34,
+    "design_system_tests": 6,
+    "page_acceptance": "268 / 268 across 67 pages",
+    "responsive": "18 openings across six families at 390, 820 and 1440px; one visible h1, no horizontal overflow or broken completed images. Before/after screenshots visually inspected.",
+    "navigation": "Phone native contents opened; six 48px links; Reading shelf followed with target 24px below viewport top. Breadcrumbs checked without duplicating existing visitor-detail breadcrumb.",
+    "journey": "Saved Mudhi Mansa, followed new Santali connection, saved reading, assigned two dated days, retained English/Odia notes after reload.",
+    "downloads": "Actual HTML, text and photo-book files received. Dates, both ideas, Odia/English notes and source links verified. Photo book includes embedded photograph and credit, no script; rendered at 820px with no overflow.",
+    "metadata": "67 unique titles/descriptions, valid canonical and local image assets; 25 distinct sharing images. 65-route proposed sitemap excludes 404 and personal journey.",
+    "backlog": "45 older next actions reconciled with historical status retained and a consolidated human review queue."
+  },
+  "limitations": [
+    "Same assistant implemented and checked this candidate; no independent review claimed.",
+    "Native-speaker, specialist, current local-condition, physical-device and screen-reader reviews remain open.",
+    "Synthetic journey checked at a separate local origin; no production visitor data modified.",
+    "No new native PDF or physical print check; print implementation unchanged.",
+    "Search-engine indexing and social-platform rendering/cropping not verified. The sitemap proposal is not served and preview indexing controls remain.",
+    "No new route, store publication, deployment, contributor appointment or outreach."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "evidence": [
+    "records/evidence/visitor-experience/before-responsive.json",
+    "records/evidence/visitor-experience/after-responsive.json",
+    "records/evidence/visitor-experience/after-contact-sheet.jpg",
+    "records/evidence/visitor-experience/contents-ui.json",
+    "records/evidence/visitor-experience/journey-ui.json",
+    "records/evidence/visitor-experience/download-checks.json",
+    "records/evidence/visitor-experience/downloaded-book.html",
+    "records/evidence/visitor-experience/downloaded-photo-book.html",
+    "records/evidence/visitor-experience/downloaded-itinerary.txt",
+    "records/evidence/visitor-experience/downloaded-book-preview.png",
+    "records/evidence/visitor-experience/page-acceptance.json",
+    "records/evidence/visitor-experience/discovery-review.json",
+    "records/evidence/visitor-experience/sitemap-proposal.xml",
+    "records/evidence/visitor-experience/site-tests.txt",
+    "records/evidence/visitor-experience/edition-tests.txt",
+    "records/evidence/visitor-experience/design-system-tests.txt",
+    "records/visitor-backlog-reconciliation.json",
+    "records/visitor-review-queue.json",
+    "reference/visitor-experience-review.md"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "approval": "Founder review of exact PR candidate required"
+  },
+  "integration_note": "Reconciled approved research-integration record commit ef4cbe1 before review. Visitor decision/event/history IDs moved to DEC-111, EVT-124 and HIS-0145; no website code changed by the merge.",
+  "pull_request": {
+    "url": "https://github.com/ahimanikya/utkal-project/pull/23",
+    "status": "draft",
+    "implementation_commit": "a591de822a54b3ee4a61d2a9d54d892a32c4fb78"
+  },
+  "publication_followup": {
+    "recorded_at": "2026-10-01T10:54:47.428210+00:00",
+    "status": "published_preview",
+    "authorization": "UTP-DEC-112",
+    "evidence": "records/visitor-experience-publication.json",
+    "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36851557601",
+    "deployed_sha": "1482fc07c89c06adeacf63493cdd8193b328b9d9"
+  }
+}

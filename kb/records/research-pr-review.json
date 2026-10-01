@@ -1,0 +1,309 @@
+{
+  "recorded_at": "2026-10-01T16:47:43.833358+00:00",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "scope": "Bounded structure, provenance and integration review of three exact research heads. No merges, rebases, rule adoption or public content imports.",
+  "snapshots": [
+    {
+      "number": 22,
+      "url": "https://github.com/ahimanikya/utkal-project/pull/22",
+      "head": "2f1cc5694d5302e4936d336898c6e9bef9c27eec",
+      "base_branch": "main",
+      "checks": [
+        {
+          "validator": "validate",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr22-validate.txt"
+        },
+        {
+          "validator": "validate_creations",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr22-validate_creations.txt"
+        },
+        {
+          "validator": "validate_homestays",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr22-validate_homestays.txt"
+        },
+        {
+          "validator": "validate_research_map",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr22-validate_research_map.txt"
+        },
+        {
+          "validator": "validate_statistics",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr22-validate_statistics.txt"
+        }
+      ],
+      "integration_comparison": {
+        "main": "493f5be",
+        "method": "Read-only three-argument git merge-tree from the merge base; conflict markers inspected. This is a comparison to current main, not the eventual sequential merge result.",
+        "conflicts": [
+          {
+            "path": "kb/index.md",
+            "excerpt": [
+              " - [Expanded research import](records/research-sync-2026-10-01.md) — broader subjects, people, creations and dated economic evidence; research-only review candidate.",
+              " ",
+              "+<<<<<<< .our",
+              " - [Visitor experience and search readiness](reference/visitor-experience-review.md) — navigation, sharing previews, complete journey checks and one remaining human review queue.",
+              " ",
+              " Visitor experience release: [PR 23 publication evidence](records/visitor-experience-publication.json). Search indexing remains disabled.",
+              " ",
+              " - [Odisha Roots stories and publication](records/odisha-roots-features-publication.json) — illustrated Rasagola and Bose stories, portable notes and source limits.",
+              "+=======",
+              "+- [Research map and reuse](research/methods/research-map.md) — cross-workspace coverage, checked overlaps and evidence pointers for all research tasks."
+            ]
+          },
+          {
+            "path": "kb/records/index.md",
+            "excerpt": [
+              " - [Research sync approval and merge](research-sync-merge.json)",
+              " ",
+              "+<<<<<<< .our",
+              " - [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)",
+              "+=======",
+              "+- [Research reuse audit](research-reuse-audit-2026-10-01.json)",
+              "+>>>>>>> .their",
+              "added in remote",
+              "  their  100644 a250312917bab50bb1cb699d78a23fdd253cd86d kb/records/research-reuse-audit-2026-10-01.json",
+              "@@ -0,0 +1,25 @@"
+            ]
+          }
+        ]
+      },
+      "decision": "hold_for_integration_and_founder_review"
+    },
+    {
+      "number": 24,
+      "url": "https://github.com/ahimanikya/utkal-project/pull/24",
+      "head": "c4365b0c8efdb67da84443495ddcf5fe538fcc93",
+      "base_branch": "codex/research-reuse-map",
+      "checks": [
+        {
+          "validator": "validate",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr24-validate.txt"
+        },
+        {
+          "validator": "validate_creations",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr24-validate_creations.txt"
+        },
+        {
+          "validator": "validate_homestays",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr24-validate_homestays.txt"
+        },
+        {
+          "validator": "validate_research_map",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr24-validate_research_map.txt"
+        },
+        {
+          "validator": "validate_sports",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr24-validate_sports.txt"
+        },
+        {
+          "validator": "validate_statistics",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr24-validate_statistics.txt"
+        }
+      ],
+      "integration_comparison": {
+        "main": "493f5be",
+        "method": "Read-only three-argument git merge-tree from the merge base; conflict markers inspected. This is a comparison to current main, not the eventual sequential merge result.",
+        "conflicts": [
+          {
+            "path": "kb/index.md",
+            "excerpt": [
+              " - [Expanded research import](records/research-sync-2026-10-01.md) — broader subjects, people, creations and dated economic evidence; research-only review candidate.",
+              " ",
+              "+<<<<<<< .our",
+              " - [Visitor experience and search readiness](reference/visitor-experience-review.md) — navigation, sharing previews, complete journey checks and one remaining human review queue.",
+              " ",
+              " Visitor experience release: [PR 23 publication evidence](records/visitor-experience-publication.json). Search indexing remains disabled.",
+              " ",
+              " - [Odisha Roots stories and publication](records/odisha-roots-features-publication.json) — illustrated Rasagola and Bose stories, portable notes and source limits.",
+              "+=======",
+              "+- [Research map and reuse](research/methods/research-map.md) — cross-workspace coverage, checked overlaps and evidence pointers for all research tasks."
+            ]
+          },
+          {
+            "path": "kb/records/index.md",
+            "excerpt": [
+              " - [Research sync approval and merge](research-sync-merge.json)",
+              " ",
+              "+<<<<<<< .our",
+              " - [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)",
+              "+=======",
+              "+- [Research reuse audit](research-reuse-audit-2026-10-01.json)",
+              "+",
+              "+- [Literature research continuation](literature-research-continuation-2026-10-01.json) — existing biographies and edition gaps, research-only checkpoint.",
+              "+",
+              "+- [Performing arts first batch](performing-arts-first-batch-2026-10-01.json) — four people, four credited theatre episodes and literature evidence gaps."
+            ]
+          },
+          {
+            "path": "kb/research/references/data/source-catalog.json",
+            "excerpt": [
+              "     \"source_kind\": \"Publisher edition or institutional catalogue\"",
+              "   },",
+              "+<<<<<<< .our",
+              "   \"rasagola-osic\": {",
+              "     \"id\": \"rasagola-osic\",",
+              "     \"title\": \"OSIC E-News, July 2019, pp. 3–4\",",
+              "@@ -2359,5 +2415,1407 @@",
+              "     \"source_kind\": \"Hosted first-person travelogue\",",
+              "     \"accessed_on\": \"2026-10-01\",",
+              "     \"capture_note\": \"2019 visit published 7 August 2020; locality connections only, not current prices, access or rankings.\""
+            ]
+          }
+        ]
+      },
+      "decision": "hold_for_integration_and_founder_review"
+    },
+    {
+      "number": 33,
+      "url": "https://github.com/ahimanikya/utkal-project/pull/33",
+      "head": "6b3acff806c8d24ffeae0743103c304e29b69bbb",
+      "base_branch": "codex/literature-research-continuation",
+      "checks": [
+        {
+          "validator": "validate",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr33-validate.txt"
+        },
+        {
+          "validator": "validate_creations",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr33-validate_creations.txt"
+        },
+        {
+          "validator": "validate_homestays",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr33-validate_homestays.txt"
+        },
+        {
+          "validator": "validate_research_map",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr33-validate_research_map.txt"
+        },
+        {
+          "validator": "validate_sports",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr33-validate_sports.txt"
+        },
+        {
+          "validator": "validate_statistics",
+          "exit_code": 0,
+          "output": "records/evidence/visitor-research/utkal-pr33-validate_statistics.txt"
+        }
+      ],
+      "integration_comparison": {
+        "main": "493f5be",
+        "method": "Read-only three-argument git merge-tree from the merge base; conflict markers inspected. This is a comparison to current main, not the eventual sequential merge result.",
+        "conflicts": [
+          {
+            "path": "kb/index.md",
+            "excerpt": [
+              " - [Expanded research import](records/research-sync-2026-10-01.md) — broader subjects, people, creations and dated economic evidence; research-only review candidate.",
+              " ",
+              "+<<<<<<< .our",
+              " - [Visitor experience and search readiness](reference/visitor-experience-review.md) — navigation, sharing previews, complete journey checks and one remaining human review queue.",
+              " ",
+              " Visitor experience release: [PR 23 publication evidence](records/visitor-experience-publication.json). Search indexing remains disabled.",
+              " ",
+              " - [Odisha Roots stories and publication](records/odisha-roots-features-publication.json) — illustrated Rasagola and Bose stories, portable notes and source limits.",
+              "+=======",
+              "+- [Research map and reuse](research/methods/research-map.md) — cross-workspace coverage, checked overlaps and evidence pointers for all research tasks."
+            ]
+          },
+          {
+            "path": "kb/records/index.md",
+            "excerpt": [
+              " - [Research sync approval and merge](research-sync-merge.json)",
+              " ",
+              "+<<<<<<< .our",
+              " - [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)",
+              "+=======",
+              "+- [Research reuse audit](research-reuse-audit-2026-10-01.json)",
+              "+",
+              "+- [Literature research continuation](literature-research-continuation-2026-10-01.json) — existing biographies and edition gaps, research-only checkpoint.",
+              "+",
+              "+- [Performing arts first batch](performing-arts-first-batch-2026-10-01.json) — four people, four credited theatre episodes and literature evidence gaps."
+            ]
+          },
+          {
+            "path": "kb/research/references/data/source-catalog.json",
+            "excerpt": [
+              "     \"source_kind\": \"Publisher edition or institutional catalogue\"",
+              "   },",
+              "+<<<<<<< .our",
+              "   \"rasagola-osic\": {",
+              "     \"id\": \"rasagola-osic\",",
+              "     \"title\": \"OSIC E-News, July 2019, pp. 3–4\",",
+              "@@ -2359,5 +2415,1443 @@",
+              "     \"source_kind\": \"Hosted first-person travelogue\",",
+              "     \"accessed_on\": \"2026-10-01\",",
+              "     \"capture_note\": \"2019 visit published 7 August 2020; locality connections only, not current prices, access or rankings.\""
+            ]
+          }
+        ]
+      },
+      "decision": "hold_for_integration_and_founder_review"
+    }
+  ],
+  "findings": [
+    {
+      "priority": "integration_required",
+      "subject": "Preserve current and incoming KB navigation",
+      "detail": "All three comparisons produce conflicts in kb/index.md and kb/records/index.md. Reconcile links to retain current releases and incoming research, then regenerate derived catalogues and indexes. Do not accept one whole side."
+    },
+    {
+      "priority": "integration_required",
+      "subject": "Preserve source IDs and evidence",
+      "detail": "PR 24 and PR 33 comparisons also conflict in kb/research/references/data/source-catalog.json. Combine source records by stable ID, inspect any same-ID differences and rerun all research validators after integration. Current website citations and incoming research references both matter."
+    },
+    {
+      "priority": "review_boundary",
+      "subject": "Research structure is not editorial acceptance",
+      "detail": "All 17 available validator runs pass on isolated snapshots. These checks do not validate every claim, translation, source licence or live URL; the 342-file PR 24 received a bounded sample review, not line-by-line factual certification."
+    },
+    {
+      "priority": "preserve_qualification",
+      "subject": "Community tourism and homestay counts",
+      "detail": "PR 33 distinguishes 2025–26 partial-year observations from complete years, programme-wide tourism from location-specific outcomes, and allocation rules from actual wages. Preserve those qualifications. The 17-versus-176 provisional-certificate conflict is unresolved; neither is a verified operating-homestay total."
+    },
+    {
+      "priority": "preserve_provenance",
+      "subject": "Reuse map and naming proposal",
+      "detail": "PR 22 maps prior research and queues reuse; PR 24 expands candidates and proposes Utkal naming consistency with exceptions for historical sources. Those AGENTS changes are reviewed proposals here, not adopted instructions."
+    }
+  ],
+  "sampled_records": [
+    "PR 22: kb/records/research-reuse-audit-2026-10-01.json, reuse query and validation tools, research map structure.",
+    "PR 24: kb/records/homestay-policy-2026-10-01.json, source-catalog and collection validation, naming and workflow diffs.",
+    "PR 33: kb/records/community-tourism-2026-10-01.json, ecotourism-livelihoods dataset and statistics validator changes."
+  ],
+  "integration_order": [
+    22,
+    24,
+    33
+  ],
+  "recommended_next_steps": [
+    "Reconcile PR 22 with current main, regenerate indexes, run current full validation and obtain Founder approval for its exact result.",
+    "After PR 22 lands, update PR 24 against the new main; preserve source-catalog additions from both lines, regenerate derived data, rerun validation and obtain review.",
+    "Then update PR 33 against the integrated main and repeat checks. Keep research adoption distinct from selecting claims for the website."
+  ],
+  "limitations": [
+    "No independent historian, native-language reader or specialist review.",
+    "Sources sampled through repository captures were not independently retrieved anew in this batch.",
+    "PR 22 has a historical successful CI run; PR 24 and PR 33 had no check runs on their stacked bases. Workflow targets main; run current validation on each integrated candidate.",
+    "Read-only merge comparison does not establish that subsequent sequential merges will have identical conflicts."
+  ]
+}

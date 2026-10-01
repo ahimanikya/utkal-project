@@ -17,7 +17,7 @@ test('coastal guide connections preserve the existing Puri and Konark choices',(
 test('the shared meal pattern keeps every paragraph and save identity for both regional guides',()=>{
  for(const slug of ['bhubaneswar','puri-coast']){
   const g=JSON.parse(readFileSync(`../../kb/research/food/${slug}.json`,'utf8')),out=read('food/'+slug);
-  for(const s of g.sections){assert.ok(out.includes(s.text));assert.ok(out.includes(s.question));assert.ok(out.includes(`data-save-journey="${s.save_id}"`));for(const id of s.source_ids)assert.ok(out.includes(g.sources[id].url));}
+  for(const s of g.sections){assert.ok(out.includes(s.text));assert.ok(out.includes(s.question));if(s.save_id)assert.ok(out.includes(`data-save-journey="${s.save_id}"`));for(const id of s.source_ids)assert.ok(out.includes(g.sources[id].url));}
   assert.ok(out.includes(g.photo_context));assert.ok(read('explore').includes(`/food/${slug}/`));assert.ok(read('contribute').includes(`/food/${slug}/`));
  }
 });

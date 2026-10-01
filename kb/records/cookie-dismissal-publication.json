@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-01T11:08:52.776626+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-114",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/25",
+  "approved_head": "e14135a2f594fcebf3908b358401b1355c73de0c",
+  "deployed_sha": "775dafb2965c475b96acbd6e80a352555f0b4041",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36853271974",
+  "destination": "https://utkalproject.org/",
+  "scope": "Cookie prompt and success text dismiss after choice; preference management moves to Privacy.",
+  "verification": [
+    "Approved PR tree matched the merged main tree before dispatch.",
+    "Publication workflow completed successfully including site and coastal tests.",
+    "All 67 live pages returned HTTP 200, omit the old success text and settings strip, and include a Privacy link.",
+    "Only How to use contains the preference-management button; initial prompts remain hidden until consent logic evaluates."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and verified the release; no independent review claimed.",
+    "Browser visual check remains unavailable due to the browser security-policy verification failure. Live verification uses read-only HTTP and published HTML.",
+    "Consent interactions were verified with the actual component script and synthetic DOM/storage/network objects in the candidate and passing deployment tests."
+  ],
+  "evidence": [
+    "records/evidence/cookie-dismissal-publication/deployment.json",
+    "records/evidence/cookie-dismissal-publication/live-checks.json",
+    "records/evidence/cookie-dismissal-publication/pull-request.json"
+  ]
+}
