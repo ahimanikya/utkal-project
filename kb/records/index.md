@@ -100,3 +100,5 @@
 - [Puri visitor essentials review](puri-visitor-essentials-review.json) — sources, layout review and actual books.
 
 - [Puri visitor essentials publication](puri-publication.json) — approved PR #10, live books and retained HTTPS checks.
+
+- [Raghurajpur maker guide review](raghurajpur-maker-guide-review.json) — sources, responsive sequence and actual journey books.

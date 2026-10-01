@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T00:02:38.187122+00:00",
+  "recorded_at": "2026-10-01T00:18:34.965470+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2832,6 +2832,30 @@
         "records/puri-visitor-essentials-review.json",
         "records/puri-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-104",
+      "title": "Raghurajpur making story and workshop visitor guide",
+      "category": "website_quality",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-087",
+      "next_action": "Founder review of the candidate before publication; direct local confirmations remain UTP-WORK-097.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-087",
+        "UTP-REV-063",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/raghurajpur-maker-guide-2026-10-01.md",
+        "records/raghurajpur-maker-guide-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -4553,6 +4577,27 @@
         "records/puri-publication.json",
         "records/evidence/puri-publication-2026-09-30/approval.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-087",
+      "title": "Prepare Raghurajpur maker guide for review",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go",
+      "scope": "Develop the proposed Raghurajpur making story, cultural connections, workshop guidance and journey-book context; check layouts and prepare a reviewable PR. Publication remains separate.",
+      "recorded_at": "2026-10-01T00:18:34.965470+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-104",
+        "UTP-WORK-097"
+      ],
+      "evidence": [
+        "research/product/raghurajpur-maker-guide-2026-10-01.md",
+        "records/raghurajpur-maker-guide-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -6049,6 +6094,29 @@
       ],
       "evidence": [
         "records/puri-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-063",
+      "title": "Raghurajpur maker guide candidate review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Named makers, appointments, demonstration/performance fees, photography permissions, access and current facilities remain unconfirmed.",
+        "The government process describes a tradition, not every contemporary artist or material. The PIB feature is dated 2014.",
+        "Same assistant researched, implemented and reviewed. No independent editorial acceptance.",
+        "390px and 1440px iframe section specimens inspected; surrounding sections hidden only in the temporary layout specimen. No physical-device or native PDF verification."
+      ],
+      "refs": [
+        "UTP-DEC-087",
+        "UTP-WORK-104"
+      ],
+      "evidence": [
+        "records/raghurajpur-maker-guide-review.json"
       ]
     }
   ],
