@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `dc40db7fe3c1357a0d5212491ae826b61e364ec7d401fea1b5e77a6c68b5e769`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `10f2e28ce54524d13685d1b316190d09ba7377a05c210d846e63040da05eff60`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -142,7 +142,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-127 · Illustrated Enduri and Poda pitha stories with visitor connections | completed | published | Ahimanikya Satapathy | Two food stories live and connected to discovery and portable journeys. Retain local/Odia review; no reviewed venue or tested recipe implied. | — |
 | UTP-WORK-128 · Map 500 existing records into a read-only editorial workbench | completed | applied | Ahimanikya Satapathy | Use the internal workbench to choose and extend existing research. Regenerate after canonical data changes; specialist review and newer unselected records remain separate. | — |
 | UTP-WORK-129 · Connect language stories to Census population distribution | completed | published | Ahimanikya Satapathy | Obtain community naming and visual review; extend to subdistricts and a sourced boundary map as separate work. | — |
-| UTP-WORK-130 · Turn population data into district and language story connections | in_progress | reviewed | Ahimanikya Satapathy | Complete release and retain community and visual review as open checks. | — |
+| UTP-WORK-130 · Turn population data into district and language story connections | completed | published | Ahimanikya Satapathy | Implementation delivered. Obtain community naming and visual review; extend specific literary histories and authorised listening material as separate work. | — |
 
 ## Pending human review and decisions
 
@@ -491,6 +491,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-033 · Illustrated homepage discovery and reading connections published | published | https://utkalproject.org/ | UTP-DEC-131 |
 | UTP-REL-034 · Enduri and Poda food stories published; editorial workbench applied | published | https://utkalproject.org/ | UTP-DEC-133 |
 | UTP-REL-035 · Census 2011 language population atlas published | published | https://utkalproject.org/languages/atlas/ | UTP-DEC-134 |
+| UTP-REL-036 · District language profiles and two language stories published | published | https://utkalproject.org/languages/districts/ | UTP-DEC-135 |
 
 ## Sources and assets
 
@@ -528,7 +529,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-141 | 2026-10-01T16:26:51.073904+00:00 | Founder-approved PR 32 published. Live checks cover 69 pages, feature text and links, three image hashes and portable exports using live journey data. | Retain original-document, specialist and browser review requirements; await the next work scope. |
 | UTP-EVT-142 | 2026-10-01T16:48:51.874336+00:00 | Prepared shared illustrated homepage picks and reading connections, reviewed three research snapshots, and reconciled the visitor queue. Browser navigation remains blocked by policy verification. | Founder reviews candidate; resolve research integration and actual visual checks separately. |
 | UTP-EVT-143 | 2026-10-01T17:00:19.889928+00:00 | Founder-approved PR 34 merged; merged tree matches approved head and CI passed. Automatic approval review rejected production dispatch and explicit deployment confirmation is pending. | Obtain explicit deployment confirmation, then publish and verify the approved website. |
 | UTP-EVT-144 | 2026-10-01T17:11:18.004303+00:00 | Founder explicitly authorized deployment after the earlier automatic-review block. PR 34 content is published; all 69 live pages, homepage selection, cross-links, image hashes and indexing boundaries passed delivery checks. | Retain visual/specialist review and integrate research only through its separate review sequence. |
@@ -538,6 +538,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-148 | 2026-10-01T18:28:31.565185+00:00 | Connected eight language profiles to a source-preserving Census 2011 atlas covering 30 districts. All group and district counts reconcile; community naming and browser visual review remain open. | Complete remote checks and record actual publication separately. |
 | UTP-EVT-149 | 2026-10-01T18:36:23.950624+00:00 | PR 40 merged and deployed at 7a60b001cd5defe8f51d43e7154ba631fcc280b6. All 72 page responses, atlas source data, eight profile connections and delivered scripts checked; 92 live checks passed. | Continue from naming, community context and visual-review gaps; do not treat Census grouping as identity adjudication. |
 | UTP-EVT-150 | 2026-10-01T19:23:39.108404+00:00 | Prepared 30 historical district profiles, two source-led language introductions, a multilingual explainer and five visitor-guide connections. Arithmetic and integration checks pass; browser and specialist limits remain explicit. | Complete remote checks and save release evidence. |
+| UTP-EVT-151 | 2026-10-01T19:31:37.644224+00:00 | PR 41 merged and deployed. All 106 live page responses, 30 district identities, new language mappings, multilingual figures, 63 Explore entries, 67 journey items and five guide connections verified. | Continue from explicit community naming, literary depth and visual-review gaps. |
 
 ## Deferred extensions
 

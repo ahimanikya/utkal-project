@@ -3809,23 +3809,25 @@
       "id": "UTP-WORK-130",
       "title": "Turn population data into district and language story connections",
       "category": "language_data_and_stories",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-135",
-      "next_action": "Complete release and retain community and visual review as open checks.",
+      "next_action": "Implementation delivered. Obtain community naming and visual review; extend specific literary histories and authorised listening material as separate work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-135",
-        "UTP-REV-109"
+        "UTP-REV-109",
+        "UTP-REL-036"
       ],
       "evidence": [
         "records/district-languages-review.json",
-        "reference/district-language-stories.md"
+        "reference/district-language-stories.md",
+        "records/district-languages-publication.json"
       ]
     }
   ],
@@ -9761,6 +9763,22 @@
         "records/language-atlas-publication.json"
       ],
       "note": "Delivered within existing continuation authorization. Historical data, source classifications and specialist/visual review limitations retained."
+    },
+    {
+      "id": "UTP-REL-036",
+      "title": "District language profiles and two language stories published",
+      "status": "published",
+      "authorization": "UTP-DEC-135",
+      "destination": "https://utkalproject.org/languages/districts/",
+      "refs": [
+        "UTP-DEC-135",
+        "UTP-WORK-130",
+        "UTP-REV-109"
+      ],
+      "evidence": [
+        "records/district-languages-publication.json"
+      ],
+      "note": "34 new routes published within the Founder’s approved continuation scope. Visual/community review remains open; historical data is not current visitor communication guidance."
     }
   ],
   "sources": [

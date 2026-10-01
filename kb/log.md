@@ -127,3 +127,7 @@ Prepared the [language population atlas](reference/language-population-atlas.md)
 ## 2026-10-01
 
 Prepared [district language profiles and story connections](reference/district-language-stories.md). Thirty data profiles, Sambalpuri and Desia introductions, multilingual context and five destination connections; [review and limitations](records/district-languages-review.json).
+
+## 2026-10-01
+
+[District profiles and language stories published](records/district-languages-publication.json) through PR 41. Verified 106 live page responses, 30 district profiles and five destination connections; community and visual review limits retained.
