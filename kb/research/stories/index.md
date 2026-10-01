@@ -12,3 +12,5 @@
 [Knowledge base home](../index.md)
 
 - [Narrative candidates](narratives/index.md) — structured story drafts for the website.
+
+- [Odisha: Poda Country](odisha-poda-country.md) — story, poster and video-script drafts, with an evidence collection.

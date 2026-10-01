@@ -196,3 +196,7 @@ Deepened six pitha, four everyday dishes and four place-linked sweets. Added Che
 ## 1 October 2026 — Food primary-source follow-up
 
 Recovered original Rasabali specification and correction, a 2015 institutional pitha reference, and attributed coastal/western poda accounts. Enhanced seven existing foods. Held inconsistent curdling instructions and undated economic claims; no new statewide statistics, frozen-ledger edits, recipe tests, human review or website deployment.
+
+## Poda Country research · 1 October 2026
+
+Connected nine sourced food examples across direct roasting, leaf parcels, bamboo cooking and baking. Added an attributed home mushroom preparation, five sources, six food nuclei and story/script/poster drafts. Campaign is metaphor; no ranking, venue verification, media production, human review or deployment.

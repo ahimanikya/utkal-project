@@ -103,3 +103,7 @@ Deepened fourteen existing food entries and added a preparation collection. [Bou
 ## 2026-10-01
 
 Enhanced seven existing food entries with original/corrected Rasabali records, an institutional rice-food book and attributed regional accounts. [Bounded receipt](records/food-primary-followup-2026-10-01.json). Rasabali’s curdling instructions remain conflicted; undated seller/maker claims are held for economics research. RES-011 remains in progress. No website deployment or human factual review claimed.
+
+## 2026-10-01
+
+Connected nine selected poda foods, six new food nuclei and an attributed home mushroom preparation. [Bounded receipt](records/poda-story-2026-10-01.json). Poda Country is an editorial metaphor; no national ranking, unique origin, operating venue or revenue claim. RES-011 remains in progress. No website deployment or human factual review claimed.

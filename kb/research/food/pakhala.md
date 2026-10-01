@@ -46,3 +46,5 @@ The 2019 menu adds curd and a ginger–mustard tempering. [Chef TZac: Odia cuisi
 **Still to verify:** Research fresh versus fermented naming and regional versions; do not adopt the tourism page’s heat-stroke or nerve-vitamin claims. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+[Poda and fire cooking](poda-and-fire-cooking.md) — Compare attributed food preparations and method boundaries; no common origin, culinary ranking or venue availability inferred.

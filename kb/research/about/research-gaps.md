@@ -194,3 +194,7 @@ Fourteen existing entries deepened. RES-011 remains in progress: named regional 
 ## Food primary-source follow-up · 1 October 2026
 
 Recovered Rasabali original/corrigendum and the 2015 CRRI book. Enduri steaming is now supported by full institutional text; the prior NCHM failure remains a separate capture. RES-011 still needs chatu/ou local variation evidence. Rasabali corrected curdling wording conflicts internally. Its undated seller/maker claims are held for RES-031 with no current employment or sales inference.
+
+## Poda story gaps · 1 October 2026
+
+Nine selected foods now linked. Fine local/community bamboo and chicken accounts, sukhua and vegetable leads remain missing; CCRT retry 8 October. RFP steamed chhena-poda wording held against baked description. No national barbecue ranking, prevalence, sales or exports established.

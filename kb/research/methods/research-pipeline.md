@@ -163,3 +163,7 @@ RES-011 now has fourteen attributed entry extensions and a technique collection.
 ## Food primary-source follow-up · 1 October 2026
 
 RES-011 continues with seven existing foods enhanced. Original Rasabali and CRRI passages are now reusable; next bounded work is chatu/ou attributed local preparation. RES-031 points to the held Rasabali economic claims. Continue the existing food review branch/PR35; no new review stack or website deployment.
+
+## Poda story extension · 1 October 2026
+
+User requested the barbecue/poda connection. RES-011 preserves original criteria and now links the bounded collection/story extension. Chatu home account recovered; Ou remains next. Existing PR35 is the review destination.

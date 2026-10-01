@@ -51,3 +51,13 @@ Named entries distinguish milk-based khira poda, rice-flour/jaggery poda and swe
 Sujata Dehury describes coastal rice-flour/jaggery dough in banana leaves; Sweta Biswal describes lightly seasoned western rice–black-gram batter in sal-leaf parcels. [In Odisha, ‘podo pitha’ is a sentiment — regional accounts](https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html), Coastal and western Odisha paragraphs, 16 June 2023. Accounts reported by Priyadarshini Chatterjee; regional descriptions are attributed, not universal rules or surveyed distribution.
 
 **Remaining question:** Regional accounts are now attributed; confirm finer locality and household differences without equating every rice–black-gram version with western Odisha. Local/Odia review remains pending.
+
+## Poda story connection · 1 October 2026
+
+Coastal and western accounts distinguish banana-leaf rice-flour/jaggery dough from sal-leaf rice–black-gram parcels. [In Odisha, ‘podo pitha’ is a sentiment — regional accounts](https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html), Sujata Dehury and Sweta Biswal regional accounts.
+
+Reuse of saved attributed regional accounts; versions are not universal rules.
+
+**To establish:** Local variants remain open; CRRI book versions already captured separately.
+
+[Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.

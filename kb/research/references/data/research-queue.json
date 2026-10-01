@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T10:07:30.942202-07:00",
+  "updated_at": "2026-10-01T10:15:52.301620-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -844,10 +844,10 @@
       "done_when": "Deepen six pitha, four everyday dishes and four place-linked sweets with attributed preparation and variation sources; leave Odia/local review pending.",
       "target": "food/index.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T10:07:30.942202-07:00",
-      "next_step": "Seek attributed local preparations for chatu patrapoda and ou khatta, using the existing accounts first. Rasabali original/corrigendum and CRRI pitha passages are captured; do not re-fetch them. Preserve unresolved curdling wording, regional scope and local/Odia review. NCHM retry after 8 October only if it adds distinct evidence.",
+      "last_worked_at": "2026-10-01T10:15:52.301620-07:00",
+      "next_step": "Deepen Ou khatta with an attributed Odisha preparation; retain existing scope conflict. Poda story has nine linked foods; next extensions need credited community/local evidence for bamboo/chicken and verified sukhua/vegetable leads. Local/Odia review pending.",
       "evidence_outputs": [
         "food/preparation-and-variation.md",
         "references/data/food-preparations.json",
@@ -870,7 +870,21 @@
         "sources/food-rasabali-gi175.md",
         "sources/food-rasabali-corrigendum2023.md",
         "sources/food-crri-rice2015.md",
-        "sources/food-poda-regions-mint2023.md"
+        "sources/food-poda-regions-mint2023.md",
+        "references/data/poda-traditions.json",
+        "sources/food-patrapoda-lopa2024.md",
+        "sources/food-baigana-sasmita2020.md",
+        "sources/food-tomato-oriyarasoi2015.md",
+        "sources/food-nimantran-menu2023.md",
+        "sources/food-bamboo-tnie2017.md",
+        "food/baigana-poda.md",
+        "food/tomato-poda.md",
+        "food/machha-patrapoda.md",
+        "food/chingudi-patrapoda.md",
+        "food/kukuda-patrapoda.md",
+        "food/baunsa-poda-mansa.md",
+        "food/poda-and-fire-cooking.md",
+        "stories/odisha-poda-country.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -879,7 +893,10 @@
           "food/index.md",
           "visitor-index/food-catalog.md",
           "food/preparation-and-variation.md",
-          "references/data/food-preparations.json"
+          "references/data/food-preparations.json",
+          "food/poda-and-fire-cooking.md",
+          "references/data/poda-traditions.json",
+          "stories/odisha-poda-country.md"
         ],
         "project_records": [
           "kb/research/destinations/coastal-edition-copy.json",
@@ -902,6 +919,21 @@
           "outcome": "seven_foods_enhanced_original_rasabali_and_rice_food_book_recovered",
           "completion_criteria_met": false,
           "reason": "Chatu/ou local variation evidence remains incomplete; primary Rasabali and Enduri evidence gaps closed within saved scope."
+        },
+        {
+          "run_id": "2026-10-01-poda-story",
+          "at": "2026-10-01T10:15:52.301620-07:00",
+          "outcome": "poda_collection_and_story_saved_chatu_account_enhanced",
+          "completion_criteria_met": false,
+          "reason": "User-requested extension complete as a sourced draft; Ou preparation and local review remain open."
+        }
+      ],
+      "scope_extensions": [
+        {
+          "at": "2026-10-01T10:15:52.301620-07:00",
+          "user_request": "Find facts and connect Odisha as Nation of Barbecue through poda foods.",
+          "run_id": "2026-10-01-poda-story",
+          "scope": "Poda research collection and clearly labelled campaign metaphor; original completion criteria preserved."
         }
       ]
     },

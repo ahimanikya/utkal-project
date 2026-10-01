@@ -172,3 +172,5 @@
 - [Food preparation checkpoint](food-preparations-2026-10-01.json) — Fourteen existing food entries, attributed variants and original Magji specification.
 
 - [Food preparation checkpoint](food-primary-followup-2026-10-01.json) — Seven existing entries enhanced; original/corrected Rasabali records and the 2015 rice-food book.
+
+- [Poda Country research and story](poda-story-2026-10-01.json) — Nine linked poda foods, method boundaries and a source-backed campaign draft.

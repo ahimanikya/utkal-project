@@ -511,3 +511,9 @@
 - [Kendrapara Rasabali — corrigendum of 29 September 2023](food-rasabali-corrigendum2023.md)
 - [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](food-crri-rice2015.md)
 - [In Odisha, ‘podo pitha’ is a sentiment — regional accounts](food-poda-regions-mint2023.md)
+
+- [Patrapoda, Paturi and Bhapa — Away in the Kitchen](food-patrapoda-lopa2024.md)
+- [Baigana Poda — Mashed Roasted Eggplant in Odia Style](food-baigana-sasmita2020.md)
+- [Roasted Tomato Salsa (aka Bilati Baigana poda from Odisha)](food-tomato-oriyarasoi2015.md)
+- [Nimantran Sambalpur operation and maintenance RFP — food descriptions](food-nimantran-menu2023.md)
+- [The Tribal bamboo delicacy from Araku Valley](food-bamboo-tnie2017.md)
