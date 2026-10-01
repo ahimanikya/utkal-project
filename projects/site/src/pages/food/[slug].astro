@@ -2,12 +2,15 @@
 import MagazineArticle from '../../components/MagazineArticle.astro';
 import Shell from '../../layouts/Shell.astro';
 import {allowsPage} from '../../data/edition';
+import connections from '../../../../../kb/research/related-discoveries.json';
+import {discoveryEntries} from '../../data/discovery';
 import collection from '../../../../../kb/research/food/collection.json';
 export function getStaticPaths(){return collection.pages.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
 const photo=collection.assets[entry.hero];
 const sources=[...new Set(entry.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids)))];
-const links=entry.related.filter(link=>allowsPage(link.href)).concat([{title:'Open my journey',href:'/journey/'}]);
+const linked=connections.links.filter(link=>link.from==='/food/'+entry.slug+'/').map(link=>({href:link.to,title:discoveryEntries.find(item=>item.href===link.to)?.label||link.to,reason:link.reason}));
+const links=[...new Map([...entry.related,...linked].filter(link=>allowsPage(link.href)).map(link=>[link.href,link])).values(),{title:'Open my journey',href:'/journey/'}];
 ---
 <Shell title={entry.title} description={entry.lead} active="explore" wide related={false}>
  <MagazineArticle kind="food" title={entry.title} odia={entry.odia} eyebrow={'A taste of Odisha · '+entry.area} deck={[entry.lead]} photo={photo} saveId={entry.save_id} sections={entry.sections} links={links} startLabel="Meet the dish" footline="A taste to remember. A question to take with you.">
