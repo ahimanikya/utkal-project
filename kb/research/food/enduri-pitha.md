@@ -51,3 +51,5 @@ The indexed account describes rice–black-gram batter and coconut filling, leaf
 Enduri/Haldi Patra uses rice–black-gram batter, coconut/paneer filling and turmeric leaves; the parcels are steamed. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed p.19 / PDF p.30. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
 
 **Remaining question:** Full institutional preparation evidence is now recovered from CRRI. The earlier NCHM fetch remains unavailable; local and Odia review of names/variations remains open. Local/Odia review remains pending.
+
+[Poda and fire cooking](poda-and-fire-cooking.md) — Compare attributed food preparations and method boundaries; no common origin, culinary ranking or venue availability inferred.

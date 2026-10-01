@@ -45,3 +45,13 @@ Chef Michael describes sugar/jaggery versions, links the sweet to Nayagarh, and 
 **Still to verify:** Separate the contemporary adaptation from historical origin claims; obtain a documented local maker account. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Poda story connection · 1 October 2026
+
+Odisha Tourism describes sweetened chhena baked with sal leaves in an earthen oven. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Chennapoda heading.
+
+Reuse of institutional overview; modern oven versions need no direct flame.
+
+**To establish:** RFP p.54 instead says steamed; that conflicting wording is held, not adopted.
+
+[Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.

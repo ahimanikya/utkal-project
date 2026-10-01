@@ -169,3 +169,7 @@ Enhanced fourteen existing food identities after source and project-native reuse
 ## Food primary-source follow-up · 1 October 2026
 
 Added four source records and enhanced seven existing foods, without new dish identities. Original/corrected GI application 802 documents share provenance; old NRRI and current CRRI URLs refer to one book. Economic reuse pointers now carry the undated Rasabali leads to RES-031. Coverage remains a dated map, not exhaustive semantic deduplication.
+
+## Poda extension · 1 October 2026
+
+Five sources and six absent food nuclei added; three existing food identities reused. One evidence collection and one clearly labelled editorial story. Source families and adaptations retained; no exhaustive semantic-deduplication claim.

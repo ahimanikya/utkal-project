@@ -2432,24 +2432,6 @@
     "capture_note": "Direct fetch failed (cache miss). Indexed contents supplies Reba Ray 1876–1957, conflicting with AU Press 1875–1957. No birth year selected. Original-title pairing for The Vigil is a lead; edition-level identity and original publication date remain unverified.",
     "source_kind": "Publisher edition or institutional catalogue"
   },
-  "rasagola-osic": {
-    "id": "rasagola-osic",
-    "title": "OSIC E-News, July 2019, pp. 3–4",
-    "resource": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf",
-    "publisher": "Odisha Small Industries Corporation",
-    "source_kind": "GI co-applicant publication",
-    "accessed_on": "2026-10-01",
-    "capture_note": "Registry record, OSIC account and dated hosted travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected."
-  },
-  "rasagola-market-travelogue": {
-    "id": "rasagola-market-travelogue",
-    "title": "A short trip to a Sweets Wonderland in Odisha",
-    "resource": "https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha",
-    "publisher": "Odisha Tourism portal",
-    "source_kind": "Hosted first-person travelogue",
-    "accessed_on": "2026-10-01",
-    "capture_note": "2019 visit published 7 August 2020; locality connections only, not current prices, access or rankings."
-  },
   "literature-gopinath-life": {
     "id": "literature-gopinath-life",
     "title": "Gopinath Mohanty — memorial life sketch",
@@ -4048,5 +4030,91 @@
     "capture_method": "direct_html",
     "locator": "Paragraphs quoting Sujata Dehury on coastal Odisha and Sweta Biswal on western Odisha",
     "capture_note": "Named reported accounts, not a regional prevalence survey. Retain distinct contributors; no universal geography, historical origin or temple-practice inference."
+  },
+  "food-patrapoda-lopa2024": {
+    "id": "food-patrapoda-lopa2024",
+    "title": "Patrapoda, Paturi and Bhapa — Away in the Kitchen",
+    "resource": "https://www.awayinthekitchen.com/post/patrapoda-daba-puda-paturi-and-bhapa-odia-and-bengali-ways-of-cooking-food-wrapped-in-leaves",
+    "publisher": "Lopa (Lopamudra), Away in the Kitchen",
+    "published_on": "2024-03-04",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Regional Context; cooking methods; simultaneous fish/mushroom example; Recipe",
+    "capture_note": "Contributor’s own home preparation; updated 21 March 2024. Broad origin/community assertions are not independently established. Modern griddle and enclosed cooking must remain distinct from direct-fire roasting.",
+    "author_identity_source": {
+      "resource": "https://www.awayinthekitchen.com/about",
+      "scope": "Lopa identifies herself as Lopamudra and the website author; parents from Odisha. No current residence or unrelated biography adopted."
+    }
+  },
+  "food-baigana-sasmita2020": {
+    "id": "food-baigana-sasmita2020",
+    "title": "Baigana Poda — Mashed Roasted Eggplant in Odia Style",
+    "resource": "https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/",
+    "publisher": "Sasmita, First Timer Cook",
+    "published_on": "2020-03-28",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Ingredients and making procedure; recipe card",
+    "capture_note": "Contributor’s own recipe; page updated 28 April 2021. Supports flame-roasted eggplant and pakhala serving association, not household prevalence or exclusive origin."
+  },
+  "food-tomato-oriyarasoi2015": {
+    "id": "food-tomato-oriyarasoi2015",
+    "title": "Roasted Tomato Salsa (aka Bilati Baigana poda from Odisha)",
+    "resource": "https://www.oriyarasoi.com/2015/11/roasted-tomato-salsa-aka-bilati-baigana.html",
+    "publisher": "Oriyarasoi / Sweta Biswal",
+    "published_on": "2015-11-18",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening technique paragraph and preparation",
+    "capture_note": "Primary contributor recipe. Salsa is the author’s analogy, not evidence of historical transmission from or to Mexico."
+  },
+  "food-nimantran-menu2023": {
+    "id": "food-nimantran-menu2023",
+    "title": "Nimantran Sambalpur operation and maintenance RFP — food descriptions",
+    "resource": "https://odishatourism.gov.in/content/dam/tourism/home/tender-document/RFP_O%26M_of_Nimantaran_Sambalpur.pdf",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "published_on": "2023-03-07",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text_and_visual",
+    "locator": "RFP 3347; printed/PDF pp.53–54, menu items",
+    "capture_note": "Historical procurement menu, not a current serving menu, community ethnography or restaurant operating verification. Its steamed chhena-poda wording conflicts with other sources; quarantine that description.",
+    "retrieval": {
+      "sha256": "8383fe4522e9f33b9a6af6d22da84b89d339af3e65308ea2661f3051e23f24a8",
+      "pages": 54,
+      "visually_checked_pages": [
+        53
+      ],
+      "scope": "Menu pp.53–54 and issue date; no bid contacts retained."
+    }
+  },
+  "food-bamboo-tnie2017": {
+    "id": "food-bamboo-tnie2017",
+    "title": "The Tribal bamboo delicacy from Araku Valley",
+    "resource": "https://www.newindianexpress.com/cities/hyderabad/2017/Dec/01/the-tribal-bamboo-delicacy-from-araku-valley-1716171.html",
+    "publisher": "Sabyasachi Roy Chaudhuri, The New Indian Express",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening two paragraphs; author and updated timestamp",
+    "capture_note": "Reported Odisha/Andhra connection and Baunsa Poda Mansha name. Detailed later preparation concerns Araku/Hyderabad; do not relocate it to an Odisha community. Page says updated 2 December 2017; URL contains 1 December.",
+    "updated_on": "2017-12-02"
+  },
+  "rasagola-osic": {
+    "id": "rasagola-osic",
+    "title": "OSIC E-News, July 2019, pp. 3–4",
+    "resource": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf",
+    "publisher": "Odisha Small Industries Corporation",
+    "source_kind": "GI co-applicant publication",
+    "accessed_on": "2026-10-01",
+    "capture_note": "Registry record, OSIC account and dated hosted travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected."
+  },
+  "rasagola-market-travelogue": {
+    "id": "rasagola-market-travelogue",
+    "title": "A short trip to a Sweets Wonderland in Odisha",
+    "resource": "https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha",
+    "publisher": "Odisha Tourism portal",
+    "source_kind": "Hosted first-person travelogue",
+    "accessed_on": "2026-10-01",
+    "capture_note": "2019 visit published 7 August 2020; locality connections only, not current prices, access or rankings."
   }
 }

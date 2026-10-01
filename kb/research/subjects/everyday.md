@@ -65,3 +65,5 @@ Subject membership is editorial classification. It does not establish historical
 ## Science connections · 1 October 2026
 
 [Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
+
+[Poda traditions](../food/poda-and-fire-cooking.md) connect attributed home cooking with a food story; no household prevalence inferred.

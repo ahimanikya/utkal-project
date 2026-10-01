@@ -47,3 +47,7 @@ Seven of the existing entries now have additional evidence. The [2015 rice-food 
 [Rasabali](kendrapara-rasabali.md) now preserves both the original GI specification and September correction. Conflicting curdling instructions remain visible. Undated seller/maker claims are held as economics leads, with no sales or exports inferred. Earlier checkpoints above describe the evidence available at that time.
 
 Next: independent local preparations for chatu patrapoda and ou khatta; finer regional attribution where supported. Recipe testing and local/Odia review remain pending.
+
+## Poda story extension · 1 October 2026
+
+[Poda and fire cooking](poda-and-fire-cooking.md) connects existing pitha, cheese and mushroom entries with six new scoped food nuclei. Chatu now has Lopa’s own home preparation alongside the chef-menu account; locality review remains open. Ou khatta remains the next distinct preparation gap.
