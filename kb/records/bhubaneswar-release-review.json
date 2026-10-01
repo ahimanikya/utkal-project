@@ -1,0 +1,191 @@
+{
+  "recorded_at": "2026-10-01T03:38:51.244476+00:00",
+  "authorization": "UTP-DEC-098",
+  "status": "pass_with_limitations",
+  "candidate_state": "prepared_not_published",
+  "branch": "codex/bhubaneswar-release",
+  "base_commit": "400ffb3",
+  "human_authority": "Ahimanikya Satapathy",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "deliverables": [
+    {
+      "name": "Mukteswar guide",
+      "route": "/visit/places/mukteswar/",
+      "result": "Credited full torana photograph, sourced architecture, respectful visit guidance and saveable detail in the book."
+    },
+    {
+      "name": "A meal in Bhubaneswar",
+      "route": "/food/bhubaneswar/",
+      "result": "Dalma, pakhala and chhena poda; existing IDs retained. Pakhala resolves to the available city section. Puri food photograph labelled with its actual context."
+    },
+    {
+      "name": "City stay-area guide",
+      "route": "/visit/stays/bhubaneswar/",
+      "result": "Old Town/Ekamra, Janpath/central city and arrival-focused options; comparisons preserved offline."
+    },
+    {
+      "name": "Fresco archive",
+      "route": "/stories/bhubaneswar-fresco/",
+      "result": "166 original credited art photographs and thumbnails retained byte-for-byte; search, viewer, sharing, dated archive wording, city navigation, journey save and consent-gated analytics integrated. Eight-image reading fallback retained without exposing the held essay route."
+    },
+    {
+      "name": "City journey starter",
+      "route": "/journey-starters/#bhubaneswar-stone-painted-streets",
+      "result": "Six unscheduled ideas in a separate journey; existing journeys retained."
+    }
+  ],
+  "edition": {
+    "pages": 30,
+    "saveable_ideas": 28,
+    "starters": 5,
+    "new_pages": 4,
+    "archive_photos": 166,
+    "archive_default_selection": 161,
+    "archive_alternates": 5
+  },
+  "verification": {
+    "full_site_tests": 331,
+    "edition_tests": 18,
+    "design_system_tests": 6,
+    "page_acceptance_checks": 120,
+    "responsive_checks": 12,
+    "viewports": [
+      390,
+      1440
+    ],
+    "visual_review": "Six route covers reviewed on phone and desktop; city phone screenshot recaptured after viewport settled. Mobile viewer inspected with image containment and wrapping controls.",
+    "browser_flow": [
+      "Gallery search found A World Within the Wall and opened the original image with dated photographer metadata.",
+      "Featured selection and next-photo navigation worked.",
+      "Gallery save enabled and confirmed.",
+      "City starter created a separate six-item plan and retained the earlier synthetic gallery-only journey.",
+      "Synthetic city-base note added in English/Odia; city base assigned to Day 1.",
+      "Photo book downloaded through UI and opened in Chrome with four embedded images."
+    ],
+    "native_pdf": {
+      "browser": "Chrome",
+      "paper": "A4",
+      "pages": 14,
+      "sample": "Six city ideas, one day assignment, synthetic English/Odia note, four photographs.",
+      "review": "All page thumbnails inspected; no blank pages or obvious clipped content. Page 3 inspected larger for the Odia note. Stay comparisons, questions, sources and credits retained.",
+      "limitations": "No physical print check; Letter coverage remains in the earlier visitor-readiness matrix."
+    },
+    "source_checks": "evidence/bhubaneswar-release/source-checks.json",
+    "archive_integrity": "All 332 art image/thumbnail files match the preserved import hashes; six unrelated event photographs excluded.",
+    "backlog_reconciliation": {
+      "updated_records": 22,
+      "closed_duplicate": "UTP-WORK-033",
+      "evidence": "bhubaneswar-backlog-reconciliation.json"
+    }
+  },
+  "limitations": [
+    "Same assistant implemented and reviewed; no independent editorial or rights-clearance claim.",
+    "No property inspection, field visit, current menu, timetable, price or accessibility confirmation.",
+    "Mural artists, exact streets and current mural survival remain unverified.",
+    "Fluent Odia proofreading remains outstanding.",
+    "Archive originals are preserved and credited; no new public reuse licence is granted.",
+    "The candidate is not deployed. Founder review and approval precede production publication."
+  ],
+  "evidence_files": [
+    {
+      "path": "evidence/bhubaneswar-release/build-manifest.json",
+      "sha256": "66240fc4f39fd6816f8a27f46d6a0c93507da656026112729bfe00ecd23dddd4"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/city-book-a4.pdf",
+      "sha256": "c5949564d092935a6db2466925613d774de7ae781e91c239c1c660f83a7987da"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/city-book.html",
+      "sha256": "a1806dd34a684781825641a171c3b180132817e5da30e66f74345d83924db0f6"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/destinations-bhubaneswar-1440.png",
+      "sha256": "c3e88266203355608102d3f7fd13f30de9ba21e1ee3fc3bf2f40e2ea33a6fcea"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/destinations-bhubaneswar-390.png",
+      "sha256": "06a49a842b715e4827227d760cdf9a19523700138dfe7e238418fcee27192098"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/edition-tests.txt",
+      "sha256": "6a4e03db4d3713334bcb816bc8f021444092c83e19aab2656bf1320cb06e9dbc"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/food-bhubaneswar-1440.png",
+      "sha256": "f6f56b7a5249fbe9762f040f5e20433416addd984d5c194b2bdde89fed1293c3"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/food-bhubaneswar-390.png",
+      "sha256": "4a670befaf4fe6d56f3479f49b7960b6c162f28f2311eb095fa8c5f3415afea7"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/fresco-viewer-mobile.png",
+      "sha256": "a95b1612a327f9fbe7067b146fcc57908c858b144cb777519e06589deeaebe8a"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/full-tests.txt",
+      "sha256": "1150017267ca29e74a750c24f81427c5c7cc1b9d0f3b8d10b9c9d7ae8b94e02a"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/journey-starters-1440.png",
+      "sha256": "5f6d4bbfe139b9f4af712d504785a7fbabe24a1a1a9445fc5aeb70e76b74849d"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/journey-starters-390.png",
+      "sha256": "5a6deb76a3853ef7b2d232bc19603ef0dc2e8c0146dab35a5defa4699135f7ec"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/journey-ui.txt",
+      "sha256": "259868968a714cc3740be69a39dc64702e745e515674699586d1318f618635c1"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/page-acceptance.json",
+      "sha256": "41d96bc06e5fcfabc0c6bc1df801afb5d287435e70a9f7327b94060303700858"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/responsive-checks.json",
+      "sha256": "a00a08b6fc03742a4070002153addfda145343afb77b1c3e7b7cb8bad87fe44a"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/source-checks.json",
+      "sha256": "30442a1baf00b015fa5447173d9d0fb937f4d86c374b44fa5589b84bfb523202"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/stories-bhubaneswar-fresco-1440.png",
+      "sha256": "0018d61bf6b130c684cfc508537b7296cdd68f404f4fa6ed4639456342484c71"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/stories-bhubaneswar-fresco-390.png",
+      "sha256": "fd60c91bc973b9f248b7dd12d0bc56adb3139e22a54cee12814f8d9ce8b6a2ec"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/visit-places-mukteswar-1440.png",
+      "sha256": "6c8e857cc6200ea28ef96836ef8cf7230c0f31d5c2c5c3c2caa7f3cb31cfe3e7"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/visit-places-mukteswar-390.png",
+      "sha256": "4486a92cdccdee530e8e7e218010da2510d133828166206e6048cec4fdc701cc"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/visit-stays-bhubaneswar-1440.png",
+      "sha256": "b61c810174bf860cb4120e182dc2f9f4817dfef93342e0749cab2aac0db0da90"
+    },
+    {
+      "path": "evidence/bhubaneswar-release/visit-stays-bhubaneswar-390.png",
+      "sha256": "6877d02e7560bc871610d0400cfe4c51a8b4980f479fc6b8b758e34beb484915"
+    }
+  ],
+  "github_review": {
+    "pull_request": "https://github.com/ahimanikya/utkal-project/pull/16",
+    "state": "draft_awaiting_founder_review",
+    "implementation_commit": "689925a57690f172edd24802367dd10f520cb508",
+    "implementation_validation": "https://github.com/ahimanikya/utkal-project/actions/runs/36811631256",
+    "implementation_validation_status": "success",
+    "note": "This follow-up records the implementation check and review link; no merge or publication."
+  }
+}

@@ -3,11 +3,35 @@ import html from "../../../gallery/fresco.generated.html?raw";
 import systemCSS from '../../../../../design-system/styles/utkal.css?inline';
 import galleryCSS from '../../../styles/fresco-system.css?inline';
 import designSystem from '../../../../../design-system/package.json';
-// Keep the archive's viewer and catalogue; apply shared tokens and local fonts
-// through Vite so font URLs remain bundled and source photographs stay untouched.
-const integrated=html.replace('</head>',`<meta name="utkal-design-system" content="${designSystem.version}"><style>${systemCSS}\n${galleryCSS}</style></head>`).replace('<body>','<body class="utk">');
+import Analytics from '../../../components/Analytics.astro';
+import {journeyCatalog} from '../../../data/journey-catalog';
+import {allowsStarter,isCoastalEdition} from '../../../data/edition';
+import selection from '../../../../../../kb/research/journey-starters.json';
+import photos from '../../../../../../kb/collections/bhubaneswar-fresco/catalog.json';
+const encode=value=>JSON.stringify(value).replaceAll('<','\\u003c');
+const journey=encode({catalog:journeyCatalog,starters:selection.starters.filter(s=>allowsStarter(s.id))});
+const canonical=new URL('/stories/bhubaneswar-fresco/',Astro.site).href;
+const title='Bhubaneswar’s Painted Streets · Utkal Project';
+const description='Walk through Bhubaneswar’s painted streets in February 2009. Photographs by Ahimanikya Satapathy, with cultural connections, sources and a preserved archive.';
+const socialImage=new URL('photos/IMG_1262.JPG',canonical).href;
+// Declare dynamic viewer assets explicitly so the edition exporter retains only
+// the 166 art photographs and thumbnails, never the unrelated event files.
+const assets=encode(photos.flatMap(p=>[{src:`photos/${p.file}`},{src:p.thumb}]));
+let archive=html.replace('href="#gallery-main"','href="#main"').replace('id="gallery-main"','id="main"');
+if(isCoastalEdition){
+ archive=archive.replace(/<noscript>[\s\S]*?<\/noscript>/,'<noscript>The interactive viewer needs JavaScript. Read the illustrated selection below.</noscript>');
+ archive=archive.replace('<a href="/stories/bhubaneswar-fresco/story/">Read the photographic essay</a>','<a href="#story-selection">Read the photographic selection</a>');
+}
+// Keep the archive’s viewer and original catalogue; add the shared site services.
+const integrated=archive.replace('</head>',`<link rel="canonical" href="${canonical}"><meta property="og:url" content="${canonical}"><meta name="referrer" content="no-referrer"><meta property="og:image" content="${socialImage}"><meta property="og:image:alt" content="A procession painted on a red Bhubaneswar wall, photographed in February 2009."><meta property="og:image:width" content="1600"><meta property="og:image:height" content="1200"><meta name="utkal-design-system" content="${designSystem.version}"><style>${systemCSS}\n${galleryCSS}</style></head>`).replace(/<meta property="og:description"[^>]*>/,`<meta property="og:description" content="${description}">`).replace('<body>','<body class="utk">').replace('<img id="large" alt="">','<img id="large" alt="" width="1600" height="1200">');
+const mainEnd=integrated.indexOf('</main>');
 const bodyEnd=integrated.lastIndexOf('</body>');
 ---
-<Fragment set:html={integrated.slice(0,bodyEnd)} />
+<Fragment set:html={integrated.slice(0,mainEnd)} />
+{isCoastalEdition&&<section id="story-selection" class="fresco-selection" aria-labelledby="selection-title"><details><summary id="selection-title">Eight photographs to linger over</summary><p>A February 2009 photographic selection. Captions are editorial readings; mural artists and present condition remain unverified.</p><div>{photos.filter(p=>p.featured).map(p=><figure><img src={`photos/${p.file}`} alt={p.title} width={p.width} height={p.height} loading="lazy"/><figcaption><h2>{p.displayTitle}</h2><p>{p.caption}</p><small>Photograph: {p.photographer} · February 2009</small></figcaption></figure>)}</div></details></section>}
+<Fragment set:html={integrated.slice(mainEnd,bodyEnd)} />
+<Analytics canonical={canonical} title={title}/>
+<script is:inline type="application/json" id="gallery-assets" set:html={assets}/>
+<script is:inline type="application/json" id="journey-data" set:html={journey}/>
 <script>import "../../../scripts/journey";</script>
 <Fragment set:html={integrated.slice(bodyEnd)} />
