@@ -81,3 +81,7 @@ Read the [research map](research-map.md) and each task’s `reuse_before_researc
 ### Literature continuation · 1 October 2026
 
 RES-026 reused repository-native introductions and deepened three existing biographies and three existing work records. Eight biographies have now been deepened across the two research attempts. The task stays in progress: unresolved original story dates and edition credits prevent the full deliverable. The structured queue records the specific next fields; no duplicate people or book concepts were created.
+
+### Performing-arts continuation · 1 October 2026
+
+RES-026 is deferred to 8 October for unavailable original-journal/title-page evidence; its criteria remain unmet. RES-027 is now in progress with four people and four attributed stage episodes. Continue the saved music task next. The earlier literary in-progress notices describe prior checkpoints, not current priority.

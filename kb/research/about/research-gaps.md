@@ -114,3 +114,7 @@ The [research map](../methods/research-map.md) links existing literary lives, de
 ### Literature reuse continuation · 1 October 2026
 
 Paraja now has attributed 1945 chronology and separate 1987 translation evidence, while the 1997 publisher listing remains unmapped at edition level. Six Acres now has attributed 1902 chronology, with death-year and translator-initial discrepancies quarantined. Ruined Temple publisher/place/page details are indexed-review evidence only; translator and ISBN remain unknown. Failed library/PDF routes are recorded for retry after 8 October. Eight profiles deepened does not satisfy RES-026’s remaining original-date and edition requirements.
+
+### Literature and performing arts · 1 October 2026
+
+The Library of Congress lists a 1984 Nalanda Yajnaseni edition yet gives 1985 in its biography; Black Eagle Books also prints both dates. Keep the edition-specific evidence and conflict. Original dates for four anthology stories remain unresolved after bounded searches. RES-026 retries on 8 October. Performing arts now needs recording-level credits/access, broader practitioners and original playbill corroboration; Srjan explicitly gives conflicting 1924/1926 birth years for Kelucharan. No historical archive listing is a verified stream.

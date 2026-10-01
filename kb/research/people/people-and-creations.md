@@ -55,3 +55,7 @@ Cinema and theatre; Odia-language printing and journalism; manuscripts and libra
 ## Biography continuation · 1 October 2026
 
 Existing [Fakir Mohan Senapati](fakir-mohan-senapati.md), [Gopinath Mohanty](gopinath-mohanty.md) and [Sitakant Mahapatra](sitakant-mahapatra.md) entries now connect life, places, selected work and reading routes. Together with the earlier women-writer batch, eight profiles have been deepened; this is a project coverage count, not eight complete biographies or a canon of Odisha literature.
+
+## Performing-arts checkpoint · 1 October 2026
+
+Four profiles and four credited theatre episodes connect the Mohapatras and Panigrahis with dance, stage work and music. Institutional recognition and archival presence are retained with their source limits. The programme still needs broader practitioner coverage, twelve credited works/performances and lawful listening/viewing routes; this batch is not its completion.

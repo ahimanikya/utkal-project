@@ -326,11 +326,11 @@
       "title": "Odia literature and English reading catalogue",
       "done_when": "Deepen at least eight writer/poet biographies spanning periods and genders; attach at least ten works with original language/date and verified English edition/translator/publisher identifiers or an explicit unsuccessful search.",
       "target": "works/index.md",
-      "status": "in_progress",
-      "attempts": 2,
+      "status": "blocked",
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T03:56:46.827401-07:00",
-      "next_step": "Continue existing work records: reconcile Yajnaseni original-date conflict; establish original dates for The Vigil, In Bondage, Pata Dei and The Ring; seek Ruined Temple title-page translator/ISBN and Paraja 1987/1997 edition relationship. Eight selected biographies now deepened across two attempts, but ten-work chronology/edition completeness not met. Reuse saved project and source evidence; respect 8 October retries for unchanged failed routes.",
+      "last_worked_at": "2026-10-01T04:11:33.006238-07:00",
+      "next_step": "On/after 8 October, resume original Odia imprint/journal and library-record research. Reuse 1984 Nalanda reading-list entry LCCN 87901017 without erasing 1985 variants. Preserve ten-work/edition completion criteria; no literature completion claimed.",
       "evidence_outputs": [
         "works/spark-of-light.md",
         "references/data/people-creations.json",
@@ -342,8 +342,8 @@
         "works/six-acres-and-a-third.md",
         "works/ruined-temple-other-poems.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-08",
+      "blocker": "Original Odia story chronology, conflicting Yajnaseni date, and edition-level credits require unavailable catalogue/title-page or original-journal evidence; bounded alternate searches recorded.",
       "attempt_history": [
         {
           "run_id": "2026-10-01T092949Z",
@@ -364,6 +364,13 @@
           "new_person_or_work_identities": 0,
           "completion_criteria_met": false,
           "remaining": "Continue existing work records: reconcile Yajnaseni original-date conflict; establish original dates for The Vigil, In Bondage, Pata Dei and The Ring; seek Ruined Temple title-page translator/ISBN and Paraja 1987/1997 edition relationship. Eight selected biographies now deepened across two attempts, but ten-work chronology/edition completeness not met. Reuse saved project and source evidence; respect 8 October retries for unchanged failed routes."
+        },
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "at": "2026-10-01T04:11:33.006238-07:00",
+          "outcome": "evidence_checkpoint_deferred_to_retry",
+          "completion_criteria_met": false,
+          "remaining": "Original Odia story chronology, conflicting Yajnaseni date, and edition-level credits require unavailable catalogue/title-page or original-journal evidence; bounded alternate searches recorded."
         }
       ],
       "reuse_before_research": {
@@ -387,12 +394,22 @@
       "title": "Music and performing-arts creators",
       "done_when": "Research six musicians, dancers or theatre practitioners and twelve credited works/performances; distinguish composer, lyricist, singer, choreographer and performer; record legal listening/viewing sources.",
       "target": "people/people-and-creations.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Research six musicians, dancers or theatre practitioners and twelve credited works/performances; distinguish composer, lyricist, singer, choreographer and performer; record legal listening/viewing sources.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-01T04:11:33.006238-07:00",
+      "next_step": "Deepen the existing Prafulla Kar profile and add at least one more practitioner, preferably women or theatre/musical traditions beyond this dance cluster; find seven more credited works/performances beyond Mamata and four theatre episodes, plus verifiable lawful listening/viewing routes. Keep performer/composer/lyricist/choreographer/director roles separate.",
+      "evidence_outputs": [
+        "people/kelucharan-mohapatra.md",
+        "people/laxmipriya-mohapatra.md",
+        "people/sanjukta-panigrahi.md",
+        "people/raghunath-panigrahi.md",
+        "works/meerabai-direction-1945.md",
+        "works/devi-mahadev-performance-1946.md",
+        "works/dashavatara-sadhava-jhia-1947.md",
+        "works/aloka-dance-sequence-1948.md",
+        "references/data/people-creations.json"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
@@ -406,7 +423,18 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "at": "2026-10-01T04:11:33.006238-07:00",
+          "outcome": "useful_checkpoint",
+          "new_people": 4,
+          "new_credited_performance_episodes": 4,
+          "completion_criteria_met": false,
+          "listening_viewing_scope": "IGNCA institutional catalogue route found; no playable recording verified."
+        }
+      ]
     },
     {
       "id": "RES-028",

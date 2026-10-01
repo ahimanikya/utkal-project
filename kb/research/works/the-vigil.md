@@ -19,3 +19,7 @@ Original language: **Odia**. Original publication date: **not established**. A t
 [Read the publisher’s PDF](https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf). The publisher states CC BY-NC-ND 4.0. This catalogue links to the work; it does not copy the story or grant permission for adaptations, commercial reuse or cover images.
 
 [Author](../people/suprabha-kar.md) — Connect the story with its author; translators retain their separate edition credits.
+
+## Chronology search · 1 October 2026
+
+A further author/title search and publisher-PDF text search did not establish an original Odia publication date. The saved Pratikhya title pairing remains a catalogue lead; the anthology’s 2016 date is not the original story date.

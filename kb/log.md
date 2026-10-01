@@ -19,3 +19,7 @@ Added the [research reuse map](research/methods/research-map.md) at the Founderâ
 ## 2026-10-01
 
 Continued RES-026 by reusing project literary introductions and enhancing three biographies and three work records. Five scoped sources added; original/translated/edition dates retained separately. [Bounded receipt](records/literature-research-continuation-2026-10-01.json). Shared operating register reconciliation is deferred to avoid competing with the active visitor-experience task. No website change or human approval claimed.
+
+## 2026-10-01
+
+Continued literature evidence and began RES-027 performing arts. Added four people and four scoped theatre episodes; recording access remains unverified. Literature date conflicts are preserved with a retry checkpoint. [Bounded receipt](records/performing-arts-first-batch-2026-10-01.json). Shared operating registers left untouched to preserve concurrent work. No website change or human approval claimed.

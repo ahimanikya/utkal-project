@@ -35,3 +35,7 @@ Obtain performance and music rights; use practitioner-reviewed terminology.
 [Related knowledge](konark-dance-festival.md) · [Research standards](../about/research-method.md)
 
 [^odissi]: [Odissi Dance](https://odishatourism.gov.in/content/tourism/en/experience/themes/odissi-dance.html)
+
+## People, roles and archives
+
+[Kelucharan Mohapatra](../people/kelucharan-mohapatra.md), [Laxmipriya Mohapatra](../people/laxmipriya-mohapatra.md), [Sanjukta Panigrahi](../people/sanjukta-panigrahi.md) and [Raghunath Panigrahi](../people/raghunath-panigrahi.md) offer specific research paths through choreography, performance, teaching and music. Early mixed-style theatre episodes remain distinct from later Odissi repertoire. Archival listings do not establish a current public performance or reusable recording.

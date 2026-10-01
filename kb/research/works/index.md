@@ -31,3 +31,11 @@ Original-language publication years remain unresolved for several entries. The 2
 The existing records now separate [Six Acres](six-acres-and-a-third.md)’s 1902 Odia chronology from its 2005 English paperback, and [Paraja](paraja.md)’s 1945 bibliography date from 1987 translation evidence and the separate 1997 listing. [The Ruined Temple](ruined-temple-other-poems.md) has provisional publisher/place/page metadata with its failed full-source fetch recorded.
 
 Next: resolve Yajnaseni’s original-date discrepancy, the four story dates still missing from the anthology route, and the poetry collection’s translator/ISBN. These are enhancements to existing records, not reasons to start duplicate book pages.
+
+- [Meerabai — direction, 1945](meerabai-direction-1945.md)
+
+- [Devi — Mahadev performance, 1946](devi-mahadev-performance-1946.md)
+
+- [Dashavatara in Sadhava Jhia — duet, 1947](dashavatara-sadhava-jhia-1947.md)
+
+- [Aloka — dance sequence, 1948](aloka-dance-sequence-1948.md)

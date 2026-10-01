@@ -274,3 +274,17 @@
 - [Teaching colonial India with Six Acres and a Third](literature-six-acres-eaa.md)
 
 - [The Ruined Temple — contemporaneous review bibliography](literature-ruined-temple-review.md)
+
+- [Pratibha Ray — Library of Congress reading editions](literature-ray-loc.md)
+
+- [Yajnaseni — publisher description with conflicting dates](literature-yajnaseni-beb.md)
+
+- [Spark of Light — translators explain their choices](literature-spark-translators.md)
+
+- [Kelucharan Mohapatra — Srjan milestones](performers-srjan-milestones.md)
+
+- [Sanjukta and Raghunath Panigrahi — joint award citation](performers-panigrahi-citation.md)
+
+- [Sangeet Natak Akademi — dance award register](performers-sna-dance-register.md)
+
+- [IGNCA — exhibition of audiovisual archives](performers-ignca-archives.md)

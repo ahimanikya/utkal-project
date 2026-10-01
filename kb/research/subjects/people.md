@@ -56,3 +56,10 @@ Subject membership is editorial classification. It does not establish historical
 [People and creations](../people/people-and-creations.md) adds named writers, music, sports and science profiles with explicit Odisha connections.
 
 [Women writers and English reading](../works/spark-of-light.md) connects five selected stories with authors and edition-specific translators. Four new profiles cover Reba Ray, Suprabha Kar, Basanta Kumari Patnaik and Binapani Mohanty; Pratibha Ray’s profile is expanded.
+
+## Performing arts
+
+- [Kelucharan Mohapatra](../people/kelucharan-mohapatra.md)
+- [Laxmipriya Mohapatra](../people/laxmipriya-mohapatra.md)
+- [Sanjukta Panigrahi](../people/sanjukta-panigrahi.md)
+- [Raghunath Panigrahi](../people/raghunath-panigrahi.md)

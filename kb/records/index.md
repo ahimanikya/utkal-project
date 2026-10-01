@@ -130,3 +130,5 @@
 - [Research reuse audit](research-reuse-audit-2026-10-01.json)
 
 - [Literature research continuation](literature-research-continuation-2026-10-01.json) — existing biographies and edition gaps, research-only checkpoint.
+
+- [Performing arts first batch](performing-arts-first-batch-2026-10-01.json) — four people, four credited theatre episodes and literature evidence gaps.

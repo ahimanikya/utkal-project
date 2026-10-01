@@ -42,3 +42,10 @@ Subject membership is editorial classification. It does not establish historical
 [Works and English editions](../works/index.md), [sand art](../culture/sand-art.md), [Tarakasi](../culture/cuttack-tarakasi.md) and [garments](../handlooms/garments-and-markets.md) connect creators, traditions and markets.
 
 [Women writers and English reading](../works/spark-of-light.md) connects five selected stories with authors and edition-specific translators. Four new profiles cover Reba Ray, Suprabha Kar, Basanta Kumari Patnaik and Binapani Mohanty; Pratibha Ray’s profile is expanded.
+
+## Credited theatre episodes
+
+- [Meerabai — direction, 1945](../works/meerabai-direction-1945.md)
+- [Devi — Mahadev performance, 1946](../works/devi-mahadev-performance-1946.md)
+- [Dashavatara in Sadhava Jhia — duet, 1947](../works/dashavatara-sadhava-jhia-1947.md)
+- [Aloka — dance sequence, 1948](../works/aloka-dance-sequence-1948.md)

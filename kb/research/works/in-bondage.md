@@ -5,9 +5,10 @@ description: "In Bondage — sources, editions and open questions."
 tags: ["encyclopedia", "literature"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T02:37:51-07:00"}
-sources: [{"id": "literature-spark-text", "title": "Spark of Light — edition and contributor notes", "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf"}, {"id": "literature-spark-publisher", "title": "Spark of Light — publisher catalogue", "resource": "https://www.aupress.ca/books/120262-spark-of-light/"}]
+sources: [{"id": "literature-spark-text", "title": "Spark of Light — edition and contributor notes", "resource": "https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf"}, {"id": "literature-spark-publisher", "title": "Spark of Light — publisher catalogue", "resource": "https://www.aupress.ca/books/120262-spark-of-light/"}, {"id": "literature-spark-translators", "title": "Spark of Light — translators explain their choices", "resource": "https://www.aupress.ca/blog/2017/01/10/sparkoflight/"}]
 human_review_claimed: false
 subjects: ["arts"]
+updated_at: "2026-10-01T04:11:33.006238-07:00"
 ---
 
 # In Bondage
@@ -19,3 +20,7 @@ Original language: **Odia**. Original publication date: **not established**. A t
 [Read the publisher’s PDF](https://www.aupress.ca/app/uploads/120262_99Z_Henitiuk_Kar_2016-Spark_of_Light.pdf). The publisher states CC BY-NC-ND 4.0. This catalogue links to the work; it does not copy the story or grant permission for adaptations, commercial reuse or cover images.
 
 [Author](../people/basanta-kumari-patnaik.md) — Connect the story with its author; translators retain their separate edition credits.
+
+## Translator’s perspective
+
+The [publisher’s 2017 commentary](https://www.aupress.ca/blog/2017/01/10/sparkoflight/) credits **Jatindra K. Nayak** and discusses the translation. It does not supply the original Odia publication date. This adds creator context without converting a translation date into an original date.

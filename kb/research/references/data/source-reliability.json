@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T03:56:46.827401-07:00",
+  "updated_at": "2026-10-01T04:11:33.006238-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1113,6 +1113,10 @@
     {
       "run_id": "2026-10-01-literature-reuse-continuation",
       "scope": "Existing literature biographies and edition gaps; no weekly release or statistical updates."
+    },
+    {
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "scope": "Literary edition gaps followed by independent performing-arts batch; no weekly statistical release checks."
     }
   ],
   "supplemental_discovery_routes": [
@@ -1303,6 +1307,126 @@
       "run_id": "2026-10-01-literature-reuse-continuation",
       "status": "unavailable_direct_fetch",
       "scope": "502; alternate local fetch DNS failure. Indexed chronology is a lead, not fresh full-source verification.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-ray-loc",
+      "discovery_url": "https://www.loc.gov/acq/overseas-offices/delhi/salrp/pratibharay.html",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "available",
+      "scope": "Direct page lists Yajnaseni, first edition, Kataka: Nalanda, 1984, LCCN 87901017; biography separately gives Yagnaseni 1985. LCCN link direct fetch failed. Edition-specific 1984 record is usable with this limitation; universal first-publication year remains conflicted. Historical appointments not treated as current.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-yajnaseni-beb",
+      "discovery_url": "https://www.blackeaglebooks.org/product/jagyaseni/",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "available",
+      "scope": "The same paragraph gives published in 1985 and first edition in 1984. Both preserved as conflict, not resolved by majority vote. Its 110th edition claim is not copies sold, sales revenue, or independently verified edition history. Price, stock and malformed dimensions not imported.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "literature-spark-translators",
+      "discovery_url": "https://www.aupress.ca/blog/2017/01/10/sparkoflight/",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "available",
+      "scope": "First-party translator reflections independently specify roles within the same publisher family, not independent corroboration of original dates. Jatindra K. Nayak is credited for In Bondage; Ashok K. Mohanty for Pata Dei. Original publication dates for those stories are absent. No story passages, photographs or translation text reproduced.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "performers-srjan-milestones",
+      "discovery_url": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "available",
+      "scope": "First-party institutional chronology, directly inspected. Supports credited theatre episodes and Raghurajpur connection; not original playbills or reviewed recordings. Explicit 1924/1926 birth-year discrepancy retained. Some award dates also differ within page; no new award dates adopted. Performance dates are source-attributed years, not exact premiere dates.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "performers-panigrahi-citation",
+      "discovery_url": "https://sangeetnatak.gov.in/public/uploads/awardees/docs/Sanjukta%20%26%20Raghunath%20Panigrahi.pdf",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "unavailable_direct_fetch_indexed_excerpt_saved",
+      "scope": "Indexed original citation text inspected. Direct PDF fetch failed on both host variants; indexed OCR is not a visual review. Supports Odissi dance and music contribution, teacher relationship and AIR Cuttack connection. No current appointments or measurable worldwide popularity inferred.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "performers-sna-dance-register",
+      "discovery_url": "https://www.sangeetnatak.gov.in/sections/dance",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "unavailable_direct_fetch_indexed_excerpt_saved",
+      "scope": "Indexed institutional register associates the joint Sanjukta/Raghunath recognition with 1976. Direct opens failed on two URL variants. Same institution as citation, not an independent corroborating body.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "performers-ignca-archives",
+      "discovery_url": "https://ignca.gov.in/divisionss/media-centre/exhibition-of-audio-visual-archives/",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "available",
+      "scope": "Direct HTML archive exhibition list names Odissi — Kelucharan Mahapatra. The 2013 exhibition context does not date the recorded performance. A catalogue route, not a verified playable stream or reuse licence; no recording copied.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://pratibharay.com/",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct home-page fetch internal error; author-site bibliography unavailable in this pass.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://lccn.loc.gov/87901017",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Linked LCCN fetch failed; parent reading-list entry available.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ci.nii.ac.jp/ncid/BA90600734",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Cache miss; Salvation & Other Stories lead not promoted to original-date evidence.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://srjan.com/Odissi_laxmipriyamohapatra.php",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct fetch failed; milestone chronology supplies bounded performance evidence instead.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ignca.gov.in/PDF_data/Report_by_Uppal_Banerjee_Annexure.pdf",
+      "checked_at": "2026-10-01T04:11:33.006238-07:00",
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct fetch failed; indexed Sanjukta recording lead lacks sufficient item-level details.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

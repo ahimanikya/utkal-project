@@ -112,3 +112,7 @@ Mapped research and editorial views across both workspaces, added reuse pointers
 ## 2026-10-01
 
 Continued RES-026 using the research map: deepened three existing writer profiles and three work records; added five scoped bibliographic source records. Preserved original/translation/edition dates and source disagreements. No new people or work identities, no statistical or frozen-ledger edits, no human review claimed. The queue remains in progress.
+
+## 2026-10-01
+
+Continued RES-026 with edition-specific Yajnaseni evidence and translator context; deferred inaccessible original-date work to 8 October. Started RES-027 with four performing-arts people and four credited theatre episodes, seven source records and explicit archive-access limits. Updated classifications, relationships and reuse map. No human review, sales estimate, media rights or website release claimed.

@@ -506,6 +506,143 @@
       ],
       "publication_status": "research_profile_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/kelucharan-mohapatra",
+      "name": "Kelucharan Mohapatra",
+      "fields": [
+        "dance",
+        "choreography",
+        "theatre"
+      ],
+      "odisha_connection": {
+        "description": "Srjan’s chronology connects him to Raghurajpur, Puri and theatre work in Cuttack.",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_artistic_contribution",
+          "basis": "Named theatre contributions recorded by Srjan; not a fame ranking",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-srjan-milestones",
+        "performers-ignca-archives"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/meerabai-direction-1945",
+        "works/devi-mahadev-performance-1946",
+        "works/dashavatara-sadhava-jhia-1947",
+        "works/aloka-dance-sequence-1948"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/laxmipriya-mohapatra",
+      "name": "Laxmipriya Mohapatra",
+      "fields": [
+        "dance",
+        "theatre"
+      ],
+      "odisha_connection": {
+        "description": "Srjan’s chronology places her performance work with the Annapurna B theatre group in Cuttack.",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_artistic_contribution",
+          "basis": "Named theatre contributions recorded by Srjan; not a fame ranking",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/dashavatara-sadhava-jhia-1947",
+        "works/aloka-dance-sequence-1948"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sanjukta-panigrahi",
+      "name": "Sanjukta Panigrahi",
+      "fields": [
+        "dance",
+        "choreography",
+        "teaching"
+      ],
+      "odisha_connection": {
+        "description": "The Akademi citation documents her contribution to Odisha’s Odissi dance tradition.",
+        "source_ids": [
+          "performers-panigrahi-citation",
+          "performers-sna-dance-register"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "national",
+          "basis": "Joint Sangeet Natak Akademi recognition, 1976; indexed register",
+          "source_ids": [
+            "performers-panigrahi-citation",
+            "performers-sna-dance-register"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-panigrahi-citation",
+        "performers-sna-dance-register"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/raghunath-panigrahi",
+      "name": "Raghunath Panigrahi",
+      "fields": [
+        "music",
+        "singing"
+      ],
+      "odisha_connection": {
+        "description": "The Akademi citation connects his devotional singing career to All India Radio, Cuttack, and Odissi music.",
+        "source_ids": [
+          "performers-panigrahi-citation",
+          "performers-sna-dance-register"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "national",
+          "basis": "Joint Sangeet Natak Akademi recognition, 1976; indexed register",
+          "source_ids": [
+            "performers-panigrahi-citation",
+            "performers-sna-dance-register"
+          ]
+        }
+      ],
+      "source_ids": [
+        "performers-panigrahi-citation",
+        "performers-sna-dance-register"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -595,11 +732,38 @@
         "translator": "Pradip Bhattacharya"
       },
       "source_ids": [
-        "creators-yajnaseni"
+        "creators-yajnaseni",
+        "literature-ray-loc",
+        "literature-yajnaseni-beb"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "original": {
+        "language": "Odia",
+        "title": "Yajnaseni",
+        "publication_year": null,
+        "date_status": "hold_conflict_1984_1985",
+        "source_ids": [
+          "literature-ray-loc",
+          "literature-yajnaseni-beb"
+        ]
+      },
+      "additional_editions": [
+        {
+          "language": "Odia",
+          "edition_statement": "1. samskarana",
+          "publisher": "Nalanda",
+          "place_as_listed": "Kataka",
+          "year": 1984,
+          "lccn": "87901017",
+          "source_ids": [
+            "literature-ray-loc"
+          ],
+          "evidence_status": "reading_list_entry_lccn_record_fetch_failed",
+          "is_uncontested_original_publication_year": false
+        }
+      ]
     },
     {
       "id": "works/paraja",
@@ -895,7 +1059,16 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_title_and_date",
+          "result": "targeted_search_did_not_establish_original_date",
+          "scope": "Publisher PDF text search and targeted author/title queries; library leads do not establish original chronology.",
+          "next_step": "Examine original Odia print edition or journal; existing failed catalogue routes retry after 2026-10-08."
+        }
+      ]
     },
     {
       "id": "works/in-bondage",
@@ -940,7 +1113,8 @@
       },
       "source_ids": [
         "literature-spark-text",
-        "literature-spark-publisher"
+        "literature-spark-publisher",
+        "literature-spark-translators"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": {
@@ -951,7 +1125,18 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_publication_year",
+          "result": "not_found_in_publisher_translator_commentary",
+          "source_ids": [
+            "literature-spark-translators"
+          ],
+          "next_step": "Inspect the original Odia journal or collection imprint."
+        }
+      ]
     },
     {
       "id": "works/pata-dei-story",
@@ -996,7 +1181,8 @@
       },
       "source_ids": [
         "literature-spark-text",
-        "literature-spark-publisher"
+        "literature-spark-publisher",
+        "literature-spark-translators"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": {
@@ -1007,7 +1193,18 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_publication_year",
+          "result": "not_found_in_publisher_translator_commentary",
+          "source_ids": [
+            "literature-spark-translators"
+          ],
+          "next_step": "Inspect the original Odia journal or collection imprint."
+        }
+      ]
     },
     {
       "id": "works/the-ring",
@@ -1063,7 +1260,16 @@
         ],
         "commercial_or_derivative_permission_obtained": false
       },
-      "live_stock": null
+      "live_stock": null,
+      "research_notes": [
+        {
+          "run_id": "2026-10-01-performing-arts-first-batch",
+          "field": "original_title_and_date",
+          "result": "targeted_search_did_not_establish_original_date",
+          "scope": "Publisher PDF text search and targeted author/title queries; library leads do not establish original chronology.",
+          "next_step": "Examine original Odia print edition or journal; existing failed catalogue routes retry after 2026-10-08."
+        }
+      ]
     },
     {
       "id": "works/spark-of-light",
@@ -1125,6 +1331,176 @@
       ],
       "author_entries_in_publisher_contents": 26,
       "author_count_scope": "Anthology contents only; not statewide or unique works count"
+    },
+    {
+      "id": "works/meerabai-direction-1945",
+      "title": "Meerabai — direction, 1945",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "director",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1945,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Srjan attributes direction of the Puri production to Kelucharan. This episode is distinct from authorship of the play."
+    },
+    {
+      "id": "works/devi-mahadev-performance-1946",
+      "title": "Devi — Mahadev performance, 1946",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1946,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Srjan records Kelucharan’s Mahadev role with Annapurna B in Cuttack. The record does not credit him as playwright or composer."
+    },
+    {
+      "id": "works/dashavatara-sadhava-jhia-1947",
+      "title": "Dashavatara in Sadhava Jhia — duet, 1947",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        },
+        {
+          "person_id": "people/laxmipriya-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Pankaj Charan Das",
+          "role": "dance_sequence_director",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1947,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The chronology credits Kelucharan and Laxmipriya as dancers and Pankaj Charan Das as director of the sequence. It is not a claim that any of them authored the underlying Dashavatara text."
+    },
+    {
+      "id": "works/aloka-dance-sequence-1948",
+      "title": "Aloka — dance sequence, 1948",
+      "work_type": "theatre_performance_episode",
+      "creator_links": [
+        {
+          "person_id": "people/kelucharan-mohapatra",
+          "role": "choreographer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        },
+        {
+          "person_id": "people/laxmipriya-mohapatra",
+          "role": "performer",
+          "source_ids": [
+            "performers-srjan-milestones"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "performance": {
+        "year": 1948,
+        "date_precision": "year",
+        "date_status": "attributed_institutional_chronology",
+        "source_ids": [
+          "performers-srjan-milestones"
+        ]
+      },
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "viewing_access": {
+        "status": "recording_not_established",
+        "url": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The chronology separates Kelucharan’s choreography from Laxmipriya’s performance. It describes a mixed dance style; the sequence is not labelled a pure Odissi premiere here."
     }
   ],
   "recognition_rules": {
@@ -1133,7 +1509,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T03:56:46.827401-07:00",
+  "updated_at": "2026-10-01T04:11:33.006238-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -1163,6 +1539,17 @@
         "works/ruined-temple-other-poems"
       ],
       "scope": "Eight profiles deepened across two attempts; original chronology and English-edition completeness remain unfinished. No new person/work identities."
+    },
+    {
+      "run_id": "2026-10-01-performing-arts-first-batch",
+      "task_ids": [
+        "RES-026",
+        "RES-027"
+      ],
+      "status": "literature_waiting_for_evidence_music_in_progress",
+      "new_people": 4,
+      "new_works": 4,
+      "scope": "Four attributed theatre episodes, not four independently verified recordings or complete works."
     }
   ],
   "conflicts": [
@@ -1226,6 +1613,52 @@
         {
           "value": "Jatindra K. Nayak",
           "source_id": "literature-six-acres-eaa"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "work_id": "works/yajnaseni",
+      "field": "original_publication_year",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": 1984,
+          "source_id": "literature-ray-loc",
+          "locator": "Reading item 1, first edition, Nalanda, LCCN 87901017"
+        },
+        {
+          "value": 1985,
+          "source_id": "literature-ray-loc",
+          "locator": "Biography major-works paragraph"
+        },
+        {
+          "value": 1984,
+          "source_id": "literature-yajnaseni-beb",
+          "locator": "Description paragraph 3, first-edition claim"
+        },
+        {
+          "value": 1985,
+          "source_id": "literature-yajnaseni-beb",
+          "locator": "Same paragraph, publication claim"
+        }
+      ],
+      "resolved_value": null
+    },
+    {
+      "person_id": "people/kelucharan-mohapatra",
+      "field": "birth_year",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": 1924,
+          "source_id": "performers-srjan-milestones",
+          "locator": "First chronology row"
+        },
+        {
+          "value": 1926,
+          "source_id": "performers-srjan-milestones",
+          "locator": "Parenthetical official-documents qualification in same row"
         }
       ],
       "resolved_value": null

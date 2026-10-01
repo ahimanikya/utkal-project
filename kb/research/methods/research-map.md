@@ -85,3 +85,7 @@ The map is a dated inventory, not a substitute for source review. It includes bi
 ### Inventory extension · 1 October 2026
 
 RES-026 added five bibliographic source identities and enhanced three existing people and work records. The original 760-record audit remains the baseline; the searchable inventory now has 765 entries. `current_counts` tracks extensions without rewriting the audit’s historical counts. No duplicate person or book pages were added.
+
+### Performing-arts extension · 1 October 2026
+
+Added seven source records, four people and four scoped theatre episodes. The current inventory has 780 entries; original audit counts are preserved. Individual episodes and their creator roles must not be merged into the underlying play or poem.
