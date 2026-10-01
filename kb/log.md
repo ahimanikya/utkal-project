@@ -119,3 +119,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Ou khatta preparation milestone
 
 [Research receipt](records/ou-khatta-2026-10-01.json): two versions by Sasmita and a family memory deepen one existing entry. The bounded fourteen-food preparation set is complete; local/Odia review and source conflicts remain open. Research-only candidate, no website deployment.
+
+## 1 October 2026 · Everyday food culture
+
+[Research receipt](records/everyday-food-2026-10-01.json): badi chura, sukhua, tala pitha and rice-water preparations join the existing mushroom identity. Tala khaja remains a palm-seed naming follow-up. Research candidate, not a website release.

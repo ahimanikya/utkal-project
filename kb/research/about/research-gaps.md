@@ -202,3 +202,7 @@ Nine selected foods now linked. Fine local/community bamboo and chicken accounts
 ### Ou khatta and food milestone · 1 October 2026
 
 Two attributed Sasmita preparations and Julie Acharya Ray’s family memory close the last preparation gap for RES-011. District distribution, local/Odia review, recipe testing and the university’s Assam-labelled passage remain open. No health, shelf-life, statewide ritual or exclusivity claim was imported. Failed Oriyarasoi full-page and Commons step-five routes are recorded for retry after 8 October; neither is needed to substantiate the saved versions.
+
+## Everyday food extension · 1 October 2026
+
+RES-039 saves five new food entries and a connected collection, reusing chatu patrapoda and pakhala. Six attributed sources cover preservation, ripe palm fruit, rice-water terminology and a dried-fish producer case. The user clarified tala khaja as seed produce; seed stage and local name equivalence remain unresolved. RES-039 stays in progress. No tested recipe, local interview, health claim, statewide market total or export measurement is asserted. The dated map is extended, not an exhaustive semantic audit.

@@ -59,3 +59,5 @@ Subject membership is editorial classification. It does not establish historical
 [How Odisha cooks](../food/preparation-and-variation.md) — connects preparation techniques to attributed versions; local and language review remain open.
 
 [Odisha’s poda traditions](../food/poda-and-fire-cooking.md) connect everyday accompaniments, leaf parcels and sweets; [Odisha’s Best-Kept Secret](../stories/odisha-poda-country.md) is the related campaign draft.
+
+[Odisha’s everyday food culture](../food/everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.

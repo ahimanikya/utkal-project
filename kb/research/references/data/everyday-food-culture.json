@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T18:07:08.675156+00:00",
+  "run_id": "2026-10-01-everyday-food",
+  "scope": "Attributed everyday-food seed; distinct from the completed fourteen-entry preparation set. Not an inventory of all Odisha foods.",
+  "records": [
+    {
+      "concept_id": "food/badi-chura",
+      "name": "Badi chura",
+      "aliases": [
+        "Badi chura",
+        "Badi choora"
+      ],
+      "food_kind": "condiment",
+      "technique_theme": "preserving and crushing",
+      "source_accounts": [
+        {
+          "source_id": "food-badi-sasmita2017",
+          "locator": "Introduction; method steps 1–6",
+          "scope": "Contributor preparation; updated 28 April 2021. No storage-life, health or statewide prevalence claim."
+        },
+        {
+          "source_id": "food-soul-pritisha2024",
+          "locator": "Pakhala accompaniments; closing torani paragraph",
+          "scope": "Government-hosted personal food account, not an official nutrition standard or survey. This torani version is not a definition of every rice-water preparation."
+        }
+      ],
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "Not measured by these sources"
+      },
+      "next_evidence": "District versions, makers, seasonal drying calendars and dated prices remain to be collected."
+    },
+    {
+      "concept_id": "food/sukhua",
+      "name": "Sukhua",
+      "aliases": [
+        "Sukhua",
+        "Sukhua machha"
+      ],
+      "food_kind": "preserved ingredient family",
+      "technique_theme": "drying and cooking",
+      "source_accounts": [
+        {
+          "source_id": "food-sukhua-tripathy",
+          "locator": "Contributor credit; ingredients and preparation",
+          "scope": "One named preparation within a dried-fish family. Fish species, publication date, locality and market totals remain unverified."
+        },
+        {
+          "source_id": "food-worldfish-drying2025",
+          "locator": "Premalata Behera and Maa Women’s Self-Help Group case; processing and marketing paragraphs",
+          "scope": "Institutional project case; not statewide business, export or net-income evidence. Promotional framing retained as source context, not independent impact evaluation."
+        }
+      ],
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "Not measured by these sources"
+      },
+      "next_evidence": "Verify local fish names and species, coastal/inland variations, producer groups, dated prices and actual shipments. Recipes and online listings do not establish exports."
+    },
+    {
+      "concept_id": "food/tala-pitha",
+      "name": "Tala pitha",
+      "aliases": [
+        "Tala pitha",
+        "Tala poda pitha"
+      ],
+      "food_kind": "seasonal preparation family",
+      "technique_theme": "ripe palm fruit preparations",
+      "source_accounts": [
+        {
+          "source_id": "food-tala-manaswini2018",
+          "locator": "Title, ripe-fruit description and creator credit",
+          "scope": "Maker credit and fruit stage supported. Embedded preparation video not inspected; do not extend this method to every tala pitha or infer a statewide season calendar."
+        }
+      ],
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "Not measured by these sources"
+      },
+      "next_evidence": "Obtain directly documented recipes, grain/fibre ingredients, local names and season windows. Embedded video was not inspected."
+    },
+    {
+      "concept_id": "food/torani",
+      "name": "Torani and torani pani",
+      "aliases": [
+        "Torani",
+        "Torani pani"
+      ],
+      "food_kind": "rice-water food and drink terminology",
+      "technique_theme": "meal liquids",
+      "source_accounts": [
+        {
+          "source_id": "food-soul-pritisha2024",
+          "locator": "Pakhala accompaniments; closing torani paragraph",
+          "scope": "Government-hosted personal food account, not an official nutrition standard or survey. This torani version is not a definition of every rice-water preparation."
+        }
+      ],
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "Not measured by these sources"
+      },
+      "next_evidence": "Verify district and household terminology, rice-water base and seasoning. No health benefit, safe fermentation duration or current serving venue established."
+    },
+    {
+      "concept_id": "food/torani-kanji",
+      "name": "Torani kanji",
+      "aliases": [
+        "Torani kanji"
+      ],
+      "food_kind": "cooked dish",
+      "technique_theme": "boiling and tempering",
+      "source_accounts": [
+        {
+          "source_id": "food-torani-sasmita2019",
+          "locator": "Introduction; recipe ingredients and instructions",
+          "scope": "Attributed cooked dish; updated 28 April 2021. Not an interchangeable name for a drink; no fermentation safety or health guidance adopted."
+        }
+      ],
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "Not measured by these sources"
+      },
+      "next_evidence": "Collect independent household/local variants, source-language terminology and grain-to-liquid process distinctions; recipe testing remains pending."
+    }
+  ],
+  "reused_concepts": [
+    "food/chatu-patrapoda",
+    "food/pakhala",
+    "food/poda-pitha"
+  ],
+  "unresolved_names": [
+    {
+      "name": "tala khaja",
+      "user_clarification": "khaja is seed produce",
+      "clarified_on": "2026-10-01",
+      "evidence_class": "user_supplied_research_lead",
+      "food_family": "palm-seed food",
+      "seed_stage": null,
+      "equivalence_to_tala_gaja": null,
+      "local_odia_review": "pending",
+      "next_action": "Find an attributed local account naming the seed stage and preparation; retain user spelling."
+    }
+  ]
+}

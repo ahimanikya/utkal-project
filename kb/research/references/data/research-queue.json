@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T17:48:26.965906+00:00",
+  "updated_at": "2026-10-01T18:07:08.675156+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1663,6 +1663,58 @@
           "kb/research/destinations/konark.json",
           "kb/research/destinations/central-details.json",
           "kb/research/places/konark.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-039",
+      "order": 16.5,
+      "title": "Everyday food culture and palm-seed names",
+      "done_when": "Save attributed everyday-food entries and connections for the supplied foods; identify tala khaja seed stage through a named local or documentary account, preserving uncertainty and source scope.",
+      "target": "food/everyday-food-culture.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:07:08.675156+00:00",
+      "next_step": "Resolve tala khaja seed stage and local name from documentary evidence; use the user clarification as a lead, not independent verification. Extend existing records before adding more foods.",
+      "evidence_outputs": [
+        "sources/food-badi-sasmita2017.md",
+        "sources/food-soul-pritisha2024.md",
+        "sources/food-torani-sasmita2019.md",
+        "sources/food-sukhua-tripathy.md",
+        "sources/food-tala-manaswini2018.md",
+        "sources/food-worldfish-drying2025.md",
+        "food/badi-chura.md",
+        "food/sukhua.md",
+        "food/tala-pitha.md",
+        "food/torani.md",
+        "food/torani-kanji.md",
+        "food/everyday-food-culture.md",
+        "references/data/everyday-food-culture.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-everyday-food",
+          "at": "2026-10-01T18:07:08.675156+00:00",
+          "outcome": "five_food_entries_and_collection_saved_seed_identity_pending",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/everyday-food-culture.md",
+          "food/chatu-patrapoda.md",
+          "food/pakhala.md",
+          "food/poda-pitha.md",
+          "references/data/everyday-food-culture.json"
+        ],
+        "project_records": [
+          "kb/research/food/pakhala.md",
+          "kb/research/food/chatu-patrapoda.md"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"

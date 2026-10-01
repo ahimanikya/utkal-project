@@ -48,3 +48,5 @@ The 2019 menu adds curd and a ginger–mustard tempering. [Chef TZac: Odia cuisi
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
 
 [Poda and fire cooking](poda-and-fire-cooking.md) — Compare attributed food preparations and method boundaries; no common origin, culinary ranking or venue availability inferred.
+
+[Odisha’s everyday food culture](everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
