@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T12:40:52.812732+00:00",
+  "recorded_at": "2026-10-01T12:51:36.198186+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3523,22 +3523,26 @@
       "id": "UTP-WORK-119",
       "title": "First-edition editorial and reader-flow review",
       "category": "website_experience",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-117",
-      "next_action": "Founder reviews the candidate; browser, language and local-condition checks remain open. Search activation requires a separate exact-scope decision.",
+      "next_action": "Approved refinements published under UTP-REL-027. Retain browser, local-condition and Odia review follow-ups; search activation requires its own bounded decision.",
       "blockers": [],
       "refs": [
         "UTP-DEC-117",
-        "UTP-REV-091"
+        "UTP-REV-091",
+        "UTP-DEC-118",
+        "UTP-REV-092",
+        "UTP-REL-027"
       ],
       "evidence": [
-        "records/first-edition-editorial-review.json"
+        "records/first-edition-editorial-review.json",
+        "records/first-edition-editorial-publication.json"
       ]
     }
   ],
@@ -5892,6 +5896,27 @@
       "evidence": [
         "records/first-edition-editorial-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-118",
+      "title": "Approve and publish PR 27 editorial refinements",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Direct reply to PR 27 review handoff, approving head 39eda37bf34ff1bd0f29d156d9bde3b844fcddee for publication. Search indexing remains disabled.",
+      "recorded_at": "2026-10-01T12:51:36.198186+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-117",
+        "UTP-WORK-119",
+        "UTP-REV-091"
+      ],
+      "evidence": [
+        "records/first-edition-editorial-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -8072,6 +8097,29 @@
       "evidence": [
         "records/first-edition-editorial-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-092",
+      "title": "Editorial refinement publication verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Implementation and verification by the same assistant; no independent review claimed.",
+        "Live verification uses read-only HTTP and markup. Browser security-policy verification was unavailable during candidate review; visual, keyboard, screen-reader and device checks remain open.",
+        "No local arrangements or field conditions verified. Odia scanned-edition and translation review remains open.",
+        "Search indexing remains disabled; proposed search scope has not been activated."
+      ],
+      "refs": [
+        "UTP-DEC-118",
+        "UTP-WORK-119"
+      ],
+      "evidence": [
+        "records/first-edition-editorial-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -8543,6 +8591,22 @@
         "records/public-launch-readiness-publication.json"
       ],
       "note": "PR 26 published and checked. Indexing remains disabled; the search proposal requires its own activation decision."
+    },
+    {
+      "id": "UTP-REL-027",
+      "title": "Guide-flow and literary-reference refinements published",
+      "status": "published",
+      "authorization": "UTP-DEC-118",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-118",
+        "UTP-REV-092",
+        "UTP-WORK-119"
+      ],
+      "evidence": [
+        "records/first-edition-editorial-publication.json"
+      ],
+      "note": "PR 27 published and checked. Search activation, visual and local-language follow-ups remain separate."
     }
   ],
   "sources": [
