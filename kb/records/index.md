@@ -170,3 +170,5 @@
 - [Debrigarh primary-source checkpoint](debrigarh-primary-2026-10-01.json) — Historical JICA revenue, official community recognition and unresolved modern revenue scope.
 
 - [Food preparation checkpoint](food-preparations-2026-10-01.json) — Fourteen existing food entries, attributed variants and original Magji specification.
+
+- [Food preparation checkpoint](food-primary-followup-2026-10-01.json) — Seven existing entries enhanced; original/corrected Rasabali records and the 2015 rice-food book.

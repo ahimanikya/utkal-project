@@ -190,3 +190,7 @@ JICA’s 2017 survey supplies historical facility revenue and a 2016 EDC-managem
 ## Food preparation checkpoint · 1 October 2026
 
 Fourteen existing entries deepened. RES-011 remains in progress: named regional variation and Rasabali’s original GI method/corrigendum need work. NCHM full PDF failed retrieval; Enduri steaming detail remains indexed-only, retry 8 October. Magji journal pp.45–48 has differing sugar ratios; Ou teaching reference has an Assam-labelled passage. Local/Odia review, tested quantities, commercial totals and current serving venues remain unestablished.
+
+## Food primary-source follow-up · 1 October 2026
+
+Recovered Rasabali original/corrigendum and the 2015 CRRI book. Enduri steaming is now supported by full institutional text; the prior NCHM failure remains a separate capture. RES-011 still needs chatu/ou local variation evidence. Rasabali corrected curdling wording conflicts internally. Its undated seller/maker claims are held for RES-031 with no current employment or sales inference.

@@ -165,3 +165,7 @@ Enhanced the existing place and livelihood dataset with four source records; no 
 ## Food preparation extension · 1 October 2026
 
 Enhanced fourteen existing food identities after source and project-native reuse checks. Added two bibliographic sources and one connected collection; no duplicate dishes. Same publication and government-hosted republication are not independent corroboration. New structured preparation accounts retain source scope and unknown regional fields.
+
+## Food primary-source follow-up · 1 October 2026
+
+Added four source records and enhanced seven existing foods, without new dish identities. Original/corrected GI application 802 documents share provenance; old NRRI and current CRRI URLs refer to one book. Economic reuse pointers now carry the undated Rasabali leads to RES-031. Coverage remains a dated map, not exhaustive semantic deduplication.

@@ -192,3 +192,7 @@ Added eight place-specific observations and four sources to the existing case. V
 ## 1 October 2026 — Food preparations and variations
 
 Deepened six pitha, four everyday dishes and four place-linked sweets. Added Chef Michael’s attributed adaptation and recovered Magji’s original GI specification. Preserved internal quantity differences, indexed-only Enduri evidence and Ou geography uncertainty. No atlas observations, frozen evidence, sales totals or website content changed; local/Odia review remains pending.
+
+## 1 October 2026 — Food primary-source follow-up
+
+Recovered original Rasabali specification and correction, a 2015 institutional pitha reference, and attributed coastal/western poda accounts. Enhanced seven existing foods. Held inconsistent curdling instructions and undated economic claims; no new statewide statistics, frozen-ledger edits, recipe tests, human review or website deployment.

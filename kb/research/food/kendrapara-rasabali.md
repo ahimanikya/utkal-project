@@ -45,3 +45,15 @@ The 2019 menu serves fried chhena in sweetened condensed milk. [Chef TZac: Odia 
 **Still to verify:** Obtain the original GI method and a credited Kendrapara preparation; restaurant wording is not the GI standard. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Primary-source follow-up · 1 October 2026
+
+The May 2023 specification describes ghee-fried chhena in reduced sweetened milk; its early method includes semolina and a central hole. [Kendrapara Rasabali — GI Journal 175 advertised specification](https://search.ipindia.gov.in/IPOJournal/Journal/GIR), Printed/PDF pp.42–43,46–48. Historical applicant specification; read with September correction, not as the final sole recipe.
+
+The September correction replaces lemon juice with chhena water in the opening method, removes semolina there, and describes round tikkis without a hole instruction. Its later method still says vinegar. [Kendrapara Rasabali — corrigendum of 29 September 2023](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802), PDF pp.1–2,5–6. Same applicant/registry source family; unresolved internal discrepancy is held separately. No inference that a hole is legally prohibited.
+
+**Remaining question:** Seek an original clarification of chhena-water versus vinegar instructions and a credited maker account; do not silently harmonise the correction. Local/Odia review remains pending.
+
+## Sweets-economy research lead
+
+The 2023 applicant specification reports nearly 300 sweet shopkeepers selling Rasabali and more than 600 people making it in Kendrapara district (Journal 175 p.49; repeated in the September correction, PDF p.8). The reference period and method are absent. These are held historical applicant claims, not current employment totals; seller and maker counts must not be added. [Original documents](../sources/food-rasabali-corrigendum2023.md). Revenue and exports remain unknown; [RES-031](../economy/rasagola-and-sweets.md) owns follow-up.

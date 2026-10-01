@@ -506,3 +506,8 @@
 
 - [CHHENAPODA — Chef Michael’s contemporary recipe](food-chhenapoda-chef2021.md)
 - [Dhenkanal Magji — GI Journal 178 specification](food-magji-gi178.md)
+
+- [Kendrapara Rasabali — GI Journal 175 advertised specification](food-rasabali-gi175.md)
+- [Kendrapara Rasabali — corrigendum of 29 September 2023](food-rasabali-corrigendum2023.md)
+- [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](food-crri-rice2015.md)
+- [In Odisha, ‘podo pitha’ is a sentiment — regional accounts](food-poda-regions-mint2023.md)

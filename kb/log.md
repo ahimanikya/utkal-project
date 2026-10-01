@@ -99,3 +99,7 @@ Added eight Debrigarh observations and four source records. [Bounded receipt](re
 ## 2026-10-01
 
 Deepened fourteen existing food entries and added a preparation collection. [Bounded receipt](records/food-preparations-2026-10-01.json). Magji’s original GI document is recovered; internal recipe differences and incomplete regional/local evidence remain visible. RES-011 remains in progress. No website deployment or human factual review claimed.
+
+## 2026-10-01
+
+Enhanced seven existing food entries with original/corrected Rasabali records, an institutional rice-food book and attributed regional accounts. [Bounded receipt](records/food-primary-followup-2026-10-01.json). Rasabali’s curdling instructions remain conflicted; undated seller/maker claims are held for economics research. RES-011 remains in progress. No website deployment or human factual review claimed.

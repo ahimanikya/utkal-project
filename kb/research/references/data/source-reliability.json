@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T09:51:37.390675-07:00",
+  "updated_at": "2026-10-01T10:07:30.942202-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1189,6 +1189,10 @@
     {
       "run_id": "2026-10-01-food-preparations",
       "scope": "Food preparation passages; failed full NCHM fetch recorded; GI journal recovered after incomplete first transfer."
+    },
+    {
+      "run_id": "2026-10-01-food-primary-followup",
+      "scope": "Original Rasabali/correction, CRRI book and attributed regional accounts; old NRRI URL unavailable, replacement publisher route captured."
     }
   ],
   "supplemental_discovery_routes": [
@@ -3441,6 +3445,54 @@
       "run_id": "2026-10-01-food-preparations",
       "status": "available_registry_route",
       "scope": "Registry points to Journal 178. Existing certificate record reused, no fresh legal conclusion."
+    },
+    {
+      "source_id": "food-rasabali-gi175",
+      "discovery_url": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "Printed/PDF pp.42–49; Applicant specification; preserve original and September correction as versions in one source family, not independent corroboration. Origin, health, shelf-life and commercial claims are not independently verified."
+    },
+    {
+      "source_id": "food-rasabali-corrigendum2023",
+      "discovery_url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "Application document “802 - GI - Corrigenda - 29-09-2023.pdf”, PDF pp.1–8; Revised applicant specification. Chhena water in specification/ingredients conflicts with vinegar in p.6 method. This is not a tested recipe or current employment census."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "discovery_url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "PDF pp.2–6 (credits/preface); printed pp.9,12,19,21,23,24,26,29,31 / PDF pp.20,23,30,32,34,35,37,40,42; Institutional compilation combining primary and secondary information. Book date is 2015, not the 2023 upload-path year. Entries identify Odisha but do not map district prevalence. No tested recipe, food-safety or nutrition claim adopted."
+    },
+    {
+      "source_id": "food-poda-regions-mint2023",
+      "discovery_url": "https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "Paragraphs quoting Sujata Dehury on coastal Odisha and Sweta Biswal on western Odisha; Named reported accounts, not a regional prevalence survey. Retain distinct contributors; no universal geography, historical origin or temple-practice inference."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "discovery_url": "https://icar-nrri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "unavailable",
+      "scope": "Web 502 and DNS failure; book recovered via current CRRI catalogue and publisher URL. Not unchanged."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "discovery_url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "web_fetch_timeout_download_succeeded",
+      "scope": "Browser extraction timed out; direct download completed, 134 pages parsed, selected entries read and Enduri page visually checked."
     }
   ]
 }

@@ -39,3 +39,11 @@ Regional distribution, household measurements, preferred Odia names and demonstr
 Magji’s original specification is now available, but its internal sugar proportions differ. Enduri’s new steaming detail remains indexed-only because the hospitality PDF could not be retrieved. The collection retains those limits rather than silently turning them into recipe instructions.
 
 [Structured preparation register](../references/data/food-preparations.json) keeps each account, locator, scope and unresolved question together. [Rasagola and sweets economics](../economy/rasagola-and-sweets.md) owns the separate sales/export questions. No commercial totals, health claims or serving venues were added here.
+
+## Follow-up: original records and regional voices · 1 October 2026
+
+Seven of the existing entries now have additional evidence. The [2015 rice-food book](../sources/food-crri-rice2015.md) supplies full preparation passages for six pitha, including Enduri; its new capture resolves the earlier reliance on an indexed-only steaming description without claiming that the unavailable NCHM PDF was recovered. [Poda pitha](poda-pitha.md) now separates named book versions and attributed coastal/western accounts.
+
+[Rasabali](kendrapara-rasabali.md) now preserves both the original GI specification and September correction. Conflicting curdling instructions remain visible. Undated seller/maker claims are held as economics leads, with no sales or exports inferred. Earlier checkpoints above describe the evidence available at that time.
+
+Next: independent local preparations for chatu patrapoda and ou khatta; finer regional attribution where supported. Recipe testing and local/Odia review remain pending.

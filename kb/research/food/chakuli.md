@@ -45,3 +45,9 @@ The teaching version combines rice and urad; its equal-parts formula is source-s
 **Still to verify:** Verify household ratios, texture names and regional attribution with credited cooks. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Primary-source follow-up · 1 October 2026
+
+The book contrasts onion-and-herb chakuli with a simpler rice–black-gram saru chakuli; both are pan-cooked. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed pp.12,31 / PDF pp.23,42. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
+
+**Remaining question:** Obtain credited district or household attribution; the book does not map either version to a district. Local/Odia review remains pending.

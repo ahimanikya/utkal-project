@@ -106,7 +106,14 @@
     "publisher": "Geographical Indications Registry, India",
     "source_kind": "Primary registry",
     "accessed_on": "2026-09-27",
-    "capture_note": "Application detail record reviewed; authorized-user personal addresses not retained."
+    "capture_note": "Application detail record reviewed; authorized-user personal addresses not retained.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T10:07:30.942202-07:00",
+        "method": "original_application_documents_recovered",
+        "scope": "May specification and September corrigendum; retain internal discrepancy, not a legal-status refresh."
+      }
+    ]
   },
   "gi-kalajeera": {
     "id": "gi-kalajeera",
@@ -3938,5 +3945,90 @@
       "pages": 949,
       "scope_read": "pp.45–50 only; no authorised-user personal records retained"
     }
+  },
+  "food-rasabali-gi175": {
+    "id": "food-rasabali-gi175",
+    "title": "Kendrapara Rasabali — GI Journal 175 advertised specification",
+    "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+    "publisher": "Geographical Indications Registry; applicant Kendrapara Rasabali Mistanna Nirmata Sangha",
+    "published_on": "2023-05-31",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "Printed/PDF pp.42–49",
+    "capture_note": "Applicant specification; preserve original and September correction as versions in one source family, not independent corroboration. Origin, health, shelf-life and commercial claims are not independently verified.",
+    "retrieval": {
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal",
+      "form": {
+        "FileName": "ipo-docs\\IPIndia_Docs\\GIR\\2023\\Journal_175\\Journal 175.pdf"
+      },
+      "sha256": "372c401535109192e75f6d1c6bfda0d6baedf41d254c5aaf1100874594a3dce4",
+      "pages": 1616,
+      "scope_read": "Rasabali product specification pp.42–49 only; no authorised-user personal data retained"
+    }
+  },
+  "food-rasabali-corrigendum2023": {
+    "id": "food-rasabali-corrigendum2023",
+    "title": "Kendrapara Rasabali — corrigendum of 29 September 2023",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802",
+    "publisher": "Geographical Indications Registry; application 802",
+    "published_on": "2023-09-29",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "Application document “802 - GI - Corrigenda - 29-09-2023.pdf”, PDF pp.1–8",
+    "capture_note": "Revised applicant specification. Chhena water in specification/ingredients conflicts with vinegar in p.6 method. This is not a tested recipe or current employment census.",
+    "retrieval": {
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+      "form": {
+        "DocumentPath": "802/802 - GI - Corrigenda - 29-09-2023.pdf"
+      },
+      "sha256": "1eec1a2f397854127a6968339e19abdcf129b3d6cca7998a9b1229bad85165ed",
+      "pages": 8,
+      "visually_checked_pages": [
+        1,
+        6
+      ],
+      "family": "GI application 802; revision of Journal 175",
+      "full_journal_capture": {
+        "journal": 181,
+        "pages": 1928,
+        "sha256": "397da4108487c3c31e0c638e8f07edea1f4291eb170952b2527fa1929f010213",
+        "scope": "Complete download parsed; product evidence read from the separately indexed eight-page corrigendum."
+      }
+    }
+  },
+  "food-crri-rice2015": {
+    "id": "food-crri-rice2015",
+    "title": "Traditional Rice Foods: The Rich Heritage of India — Lipi Das",
+    "resource": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+    "publisher": "ICAR-Central Rice Research Institute, Cuttack",
+    "published_on": "2015-04",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "PDF pp.2–6 (credits/preface); printed pp.9,12,19,21,23,24,26,29,31 / PDF pp.20,23,30,32,34,35,37,40,42",
+    "capture_note": "Institutional compilation combining primary and secondary information. Book date is 2015, not the 2023 upload-path year. Entries identify Odisha but do not map district prevalence. No tested recipe, food-safety or nutrition claim adopted.",
+    "retrieval": {
+      "method": "GET",
+      "sha256": "e4d5894ef8492225462e69f4ec5ff76f80ea56c20234ffa2cdb8475bca3c3999",
+      "pages": 134,
+      "discovery": "https://icar-crri.in/book/",
+      "catalogue_location": "row 14, April 2015",
+      "visually_checked_pages": [
+        30
+      ],
+      "previous_unavailable_route": "https://icar-nrri.in/wp-content/uploads/2023/05/final_book_ldas.pdf"
+    }
+  },
+  "food-poda-regions-mint2023": {
+    "id": "food-poda-regions-mint2023",
+    "title": "In Odisha, ‘podo pitha’ is a sentiment — regional accounts",
+    "resource": "https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html",
+    "publisher": "Mint; Priyadarshini Chatterjee",
+    "published_on": "2023-06-16",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Paragraphs quoting Sujata Dehury on coastal Odisha and Sweta Biswal on western Odisha",
+    "capture_note": "Named reported accounts, not a regional prevalence survey. Retain distinct contributors; no universal geography, historical origin or temple-practice inference."
   }
 }

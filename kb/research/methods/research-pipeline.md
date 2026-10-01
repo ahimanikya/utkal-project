@@ -159,3 +159,7 @@ RES-010 saved historical primary revenue and national recognition, but modern ac
 ## Food preparation checkpoint · 1 October 2026
 
 RES-011 now has fourteen attributed entry extensions and a technique collection. Resume the saved gaps in regional variants and original Rasabali evidence; do not repeat the recovered Magji journal or existing tourism descriptions. Completion remains false. This food batch uses its own review branch; community-tourism PR #33 is unchanged.
+
+## Food primary-source follow-up · 1 October 2026
+
+RES-011 continues with seven existing foods enhanced. Original Rasabali and CRRI passages are now reusable; next bounded work is chatu/ou attributed local preparation. RES-031 points to the held Rasabali economic claims. Continue the existing food review branch/PR35; no new review stack or website deployment.
