@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T00:18:34.965470+00:00",
+  "recorded_at": "2026-10-01T00:33:49.893382+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2837,24 +2837,28 @@
       "id": "UTP-WORK-104",
       "title": "Raghurajpur making story and workshop visitor guide",
       "category": "website_quality",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-087",
-      "next_action": "Founder review of the candidate before publication; direct local confirmations remain UTP-WORK-097.",
+      "next_action": "Published and verified. Direct maker/local confirmations remain UTP-WORK-097.",
       "blockers": [],
       "refs": [
         "UTP-DEC-087",
         "UTP-REV-063",
-        "UTP-WORK-097"
+        "UTP-WORK-097",
+        "UTP-DEC-088",
+        "UTP-REV-064",
+        "UTP-REL-013"
       ],
       "evidence": [
         "research/product/raghurajpur-maker-guide-2026-10-01.md",
-        "records/raghurajpur-maker-guide-review.json"
+        "records/raghurajpur-maker-guide-review.json",
+        "records/raghurajpur-publication.json"
       ]
     }
   ],
@@ -4598,6 +4602,26 @@
         "research/product/raghurajpur-maker-guide-2026-10-01.md",
         "records/raghurajpur-maker-guide-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-088",
+      "title": "Publish approved Raghurajpur maker guide",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish reviewed PR 11 at head 7e8f886, then verify the live guide, actual journey books and retained HTTPS behavior.",
+      "recorded_at": "2026-10-01T00:33:49.893382+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-104",
+        "UTP-REV-063"
+      ],
+      "evidence": [
+        "records/raghurajpur-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -6118,6 +6142,28 @@
       "evidence": [
         "records/raghurajpur-maker-guide-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-064",
+      "title": "Approved Raghurajpur publication and live-book verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and performed release checks; no independent review. Founder publication approval is recorded separately.",
+        "Named maker arrangements, demonstration/performance fees, permissions, access and facilities still require local confirmation.",
+        "Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview."
+      ],
+      "refs": [
+        "UTP-DEC-088",
+        "UTP-WORK-104"
+      ],
+      "evidence": [
+        "records/raghurajpur-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -6338,6 +6384,23 @@
         "records/evidence/puri-publication-2026-09-30/deployment.json"
       ],
       "note": "Approved PR 10 deployed at 084b6cc. All five live notes and source references verified in actual HTML/text downloads. HTTPS redirects retained."
+    },
+    {
+      "id": "UTP-REL-013",
+      "title": "Raghurajpur making story and workshop guide published",
+      "status": "published",
+      "authorization": "UTP-DEC-088",
+      "destination": "https://utkalproject.org/visit/places/raghurajpur/",
+      "refs": [
+        "UTP-DEC-088",
+        "UTP-WORK-104",
+        "UTP-REV-064"
+      ],
+      "evidence": [
+        "records/raghurajpur-publication.json",
+        "records/evidence/raghurajpur-publication-2026-10-01/deployment.json"
+      ],
+      "note": "Approved PR 11 deployed at 46bc14b. Making sequence and four live notes verified; all four notes and source URLs present in actual HTML/text downloads. HTTPS redirects retained."
     }
   ],
   "sources": [

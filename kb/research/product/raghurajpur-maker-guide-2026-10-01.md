@@ -30,3 +30,9 @@ The actual desktop section was inspected, followed by 390px and 1440px iframe sp
 Candidate for Founder review, not deployed. Coastal public scope remains 16 pages. UTP-WORK-097 remains open for direct confirmations; native printing remains UTP-WORK-080.
 
 [Draft PR #11](https://github.com/ahimanikya/utkal-project/pull/11).
+
+## Approved publication
+
+The Founder subsequently approved PR #11. Reviewed head `7e8f886` was merged and deployed at `46bc14b`. Hosted build and test checks passed. The live making sequence and all four planning notes were verified; actual HTML/text downloads contain the complete notes and source URLs. HTTPS enforcement and redirects remain verified. Earlier candidate wording records the initial handoff; UTP-WORK-104 is now complete. Direct maker/local confirmations and native printing remain separate.
+
+[Publication evidence](../../records/raghurajpur-publication.json) · [Live guide](https://utkalproject.org/visit/places/raghurajpur/)

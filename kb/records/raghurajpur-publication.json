@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-10-01T00:33:49.893382+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-088",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/11",
+  "approved_head": "7e8f886f5a554bd8fe8d3941453b0c7def5e6b46",
+  "deployed_sha": "46bc14be768cf1e70a8636bc59df4db0f11dc516",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36796458267",
+  "destination": "https://utkalproject.org/visit/places/raghurajpur/",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "live_checks": {
+    "recorded_at": "2026-10-01T00:32:43.892518+00:00",
+    "page": "https://utkalproject.org/visit/places/raghurajpur/?release=pr11",
+    "page_guidance_verified": true,
+    "making_sequence_verified": true,
+    "journey": "UTP PR11 release check",
+    "files": [
+      {
+        "file": "UTP-PR11-release-check-itinerary-2026-10-01.txt",
+        "bytes": 4726,
+        "sha256": "36d3dc0e1f91b81cd132c484cb12195e6ce8d9d978803a1f6f821d44ef7f9868",
+        "checks": {
+          "From cloth to a story": true,
+          "A workshop is a working place": true,
+          "Make room for dance, by arrangement": true,
+          "Check the path and the way back": true,
+          "sources": true
+        }
+      },
+      {
+        "file": "UTP-PR11-release-check-book-2026-10-01.html",
+        "bytes": 8982,
+        "sha256": "ce621ec778b3e9813f7c98f44c149816464cb86bdb5cf9d2f63ad5ab7abfac6b",
+        "checks": {
+          "From cloth to a story": true,
+          "A workshop is a working place": true,
+          "Make room for dance, by arrangement": true,
+          "Check the path and the way back": true,
+          "sources": true
+        }
+      }
+    ],
+    "physical_print_tested": false
+  },
+  "https_enforced": true,
+  "limitations": [
+    "Same AI assistant implemented and performed release checks; no independent review. Founder publication approval is recorded separately.",
+    "Named maker arrangements, demonstration/performance fees, permissions, access and facilities still require local confirmation.",
+    "Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview."
+  ],
+  "rollback_reference": "084b6cca982e017d37875915b46cbe8500e8b391",
+  "evidence": [
+    "records/evidence/raghurajpur-publication-2026-10-01/approval.json",
+    "records/evidence/raghurajpur-publication-2026-10-01/deployment.json",
+    "records/evidence/raghurajpur-publication-2026-10-01/live-checks.json",
+    "records/evidence/raghurajpur-publication-2026-10-01/live-making.png",
+    "records/evidence/raghurajpur-publication-2026-10-01/live-page.txt",
+    "records/evidence/raghurajpur-publication-2026-10-01/pages-settings.json",
+    "records/evidence/raghurajpur-publication-2026-10-01/redirect-checks.json"
+  ]
+}

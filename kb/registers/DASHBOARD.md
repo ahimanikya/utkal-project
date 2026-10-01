@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e55eba08759b0e9cd467478e2e033df75364365f7363d686f0bc6cee49aee23d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b052a21f06b79a864dc45405e0ecb3e5e21b9ba538cecf49f49dd0464d790391`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -116,7 +116,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-101 · Preserve contribution draft protection until a copy is kept | completed | published | Ahimanikya Satapathy | Published under UTP-DEC-082 / UTP-REL-010. Live text download and acknowledgement verified; HTTPS repair tracked separately. | — |
 | UTP-WORK-102 · Separate Konark monument, museum and official ticket planning | completed | published | Ahimanikya Satapathy | Published and verified. Follow remaining local checks under UTP-WORK-097. | — |
 | UTP-WORK-103 · Puri visitor essentials for temple, food, shore and arrival | completed | published | Ahimanikya Satapathy | Published and verified. Direct temple and local confirmations remain UTP-WORK-097. | — |
-| UTP-WORK-104 · Raghurajpur making story and workshop visitor guide | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the candidate before publication; direct local confirmations remain UTP-WORK-097. | — |
+| UTP-WORK-104 · Raghurajpur making story and workshop visitor guide | completed | published | Ahimanikya Satapathy | Published and verified. Direct maker/local confirmations remain UTP-WORK-097. | — |
 
 ## Pending human review and decisions
 
@@ -186,7 +186,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-091 | The coastal subset is published under UTP-REL-006. Review remaining scope against the reconciliation record; held routes, broader content and editorial acceptance are not approved by that release. Native PDF remains UTP-WORK-080. |
 | UTP-WORK-097 | Use the seven-guide coastal-verification queue: record dated scoped evidence from the relevant custodian or provider and separate Founder acceptance. Official directory inspected; no outreach or local inspection undertaken. |
-| UTP-WORK-104 | Founder review of the candidate before publication; direct local confirmations remain UTP-WORK-097. |
 
 ## Decisions
 
@@ -278,6 +277,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-085 · Prepare Puri visitor essentials for review | approved | Ahimanikya Satapathy | Research Puri temple, food, beach and arrival guidance; integrate practical notes with journey books; inspect narrow/wide layouts and prepare a reviewable PR. Publication remains separate. |
 | UTP-DEC-086 · Publish approved Puri visitor essentials | approved | Ahimanikya Satapathy | Merge and publish exact reviewed PR #10; verify live guidance, actual portable books and retained HTTPS redirects. |
 | UTP-DEC-087 · Prepare Raghurajpur maker guide for review | approved | Ahimanikya Satapathy | Develop the proposed Raghurajpur making story, cultural connections, workshop guidance and journey-book context; check layouts and prepare a reviewable PR. Publication remains separate. |
+| UTP-DEC-088 · Publish approved Raghurajpur maker guide | approved | Ahimanikya Satapathy | Merge and publish reviewed PR 11 at head 7e8f886, then verify the live guide, actual journey books and retained HTTPS behavior. |
 
 ## Reviews
 
@@ -344,6 +344,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-061 | pass_with_limitations | False | Temple administration site was inaccessible; current entry, dress, belongings, gate and ritual arrangements remain unconfirmed.; No named kitchen, Mahaprasad distribution, fare, transfer, facility or local shore condition verified.; Same assistant researched, implemented and reviewed. No independent editorial acceptance.; 390px and 1440px iframe layout specimens inspected in the in-app browser; no physical-device or native PDF verification. |
 | UTP-REV-062 | pass_with_limitations | False | Same AI assistant implemented and performed release checks; no independent editorial review.; Current temple rules and local meal, facility, transport and shore arrangements remain unconfirmed.; Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview. |
 | UTP-REV-063 | pass_with_limitations | False | Named makers, appointments, demonstration/performance fees, photography permissions, access and current facilities remain unconfirmed.; The government process describes a tradition, not every contemporary artist or material. The PIB feature is dated 2014.; Same assistant researched, implemented and reviewed. No independent editorial acceptance.; 390px and 1440px iframe section specimens inspected; surrounding sections hidden only in the temporary layout specimen. No physical-device or native PDF verification. |
+| UTP-REV-064 | pass_with_limitations | False | Same AI assistant implemented and performed release checks; no independent review. Founder publication approval is recorded separately.; Named maker arrangements, demonstration/performance fees, permissions, access and facilities still require local confirmation.; Native PDF and physical-device checks remain separate; public scope remains the 16-page coastal preview. |
 
 ## Publication and application history
 
@@ -361,6 +362,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-010 · Contribution draft copy protection published | published | https://utkalproject.org/ | UTP-DEC-082 |
 | UTP-REL-011 · Konark monument, museum and ticket guidance published | published | https://utkalproject.org/knowledge/konark/ | UTP-DEC-084 |
 | UTP-REL-012 · Puri temple, food, shore and arrival guidance published | published | https://utkalproject.org/destinations/puri/ | UTP-DEC-086 |
+| UTP-REL-013 · Raghurajpur making story and workshop guide published | published | https://utkalproject.org/visit/places/raghurajpur/ | UTP-DEC-088 |
 
 ## Sources and assets
 
@@ -398,7 +400,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-091 | 2026-09-30T22:28:01.551950+00:00 | Actual current HTML/text files verified after fresh page load; prior-version exports preserved in comparison evidence. Prepared adjacent honest download feedback. Hosting unchanged; native print choice pending. | Founder review before UI publication; native PDF and hosting remain separate. |
 | UTP-EVT-092 | 2026-09-30T22:35:48.079917+00:00 | Founder-approved PR 7 merged at the exact reviewed head and deployed. Fresh-page feedback and actual HTML/text downloads verified. | Native PDF, certificate provisioning and local-service verification remain separately tracked. |
 | UTP-EVT-093 | 2026-09-30T22:51:45.596681+00:00 | Prepared current-version draft acknowledgement and retained leave-page protection after download requests; actual file and keyboard interactions verified. | Founder review before publication; HTTPS repair remains separate. |
 | UTP-EVT-094 | 2026-09-30T23:05:14.151800+00:00 | Published approved PR 8 and verified a real draft download plus acknowledgement. Reset and restored custom domain; DNS eligibility passes but certificate provisioning remains pending. | Complete HTTPS enforcement once GitHub certificate becomes available. |
@@ -408,6 +409,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-098 | 2026-09-30T23:53:21.553220+00:00 | Five Puri planning notes prepared from official food, beach and arrival sources. Current temple rules remain unconfirmed after source-access failures. Layout specimens and actual HTML/text exports reviewed. | Founder review before publication. |
 | UTP-EVT-099 | 2026-10-01T00:02:38.187122+00:00 | Approved PR 10 merged and published. Live Puri guidance, actual HTML/text books and retained HTTPS redirects verified. | Direct temple/local confirmations and native-PDF checks remain separately tracked. |
 | UTP-EVT-100 | 2026-10-01T00:18:34.965470+00:00 | Three-stage making sequence and four notebook stops prepared from official sources. Actual books and responsive specimens inspected; current maker arrangements remain unconfirmed. | Founder review before publication. |
+| UTP-EVT-101 | 2026-10-01T00:33:49.893382+00:00 | Approved PR 11 merged and published. Live making sequence, four notebook notes, actual HTML/text books and HTTPS redirects verified. | Direct maker/local confirmations and native-PDF checks remain separately tracked. |
 
 ## Deferred extensions
 

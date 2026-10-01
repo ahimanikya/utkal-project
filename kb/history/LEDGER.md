@@ -766,3 +766,9 @@ Approved PR #10 is live. Five planning notes and their references were verified 
 Three stages invite the reader to see a painting take shape, then meet its maker with curiosity and permission. Four practical notes carry that context into actual downloaded books. Current appointments and facilities remain questions for local confirmation.
 
 [Raghurajpur maker guide review](../research/product/raghurajpur-maker-guide-2026-10-01.md). Candidate not deployed.
+
+## UTP-HIS-0123 · The making becomes part of the journey
+
+Approved PR #11 is live. Raghurajpur’s cloth-to-picture sequence and four practical notes now travel from the page into actual HTML/text journey books. HTTPS redirects remain working. Direct maker arrangements and facilities still need local confirmation.
+
+[Publication evidence](../records/raghurajpur-publication.json).
