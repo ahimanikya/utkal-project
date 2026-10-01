@@ -36,3 +36,5 @@ Foods, ingredients and culinary story opportunities.
 [Poda and fire cooking](poda-and-fire-cooking.md) — nine selected foods across four editorial method families.
 
 [Odisha’s everyday food culture](everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
+
+[Koli: local fruit names and varieties](koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.

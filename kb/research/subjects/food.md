@@ -61,3 +61,5 @@ Subject membership is editorial classification. It does not establish historical
 [Odisha’s poda traditions](../food/poda-and-fire-cooking.md) connect everyday accompaniments, leaf parcels and sweets; [Odisha’s Best-Kept Secret](../stories/odisha-poda-country.md) is the related campaign draft.
 
 [Odisha’s everyday food culture](../food/everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
+
+[Koli: local fruit names and varieties](../food/koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.

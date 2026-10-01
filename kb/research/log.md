@@ -216,3 +216,7 @@ Created badi chura, sukhua, tala pitha, torani and torani kanji entries and a co
 ## 1 October 2026 · Pala and its culture
 
 Added a performing-tradition overview, six sources, five dated performer/presentation examples, archive routes and a 2025 gathering record. Institutional PDF excerpts remain explicitly provisional. RES-040 checkpoint saved with local/Odia and biography follow-up. No human review, reused media or website publication claimed.
+
+## 1 October 2026 · Koli varieties
+
+Added a source-linked local-fruit collection, three primary sources and structured name/season evidence. Twelve selected mappings and one separate naming conflict preserved; no unsupported species merge or statewide count. RES-041’s bounded seed is complete; local review and recipes remain research follow-ups.

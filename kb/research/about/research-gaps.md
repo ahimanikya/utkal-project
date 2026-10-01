@@ -210,3 +210,7 @@ RES-039 saves five new food entries and a connected collection, reusing chatu pa
 ## Pala research checkpoint · 1 October 2026
 
 User-requested RES-040 adds Pala as an arts/everyday-life topic, six source records and structured performance/archive evidence. Existing source and repository-native searches found no Pala identity. The 2012 review preserves named women performers and separates Pala from Daskathia. Foundation pages share provenance; the award biography has a likely derivative foundation version. Two government PDFs remain indexed-only, retry 8 October. Origin chronology, local roles, biographies, recordings/rights and livelihoods need further evidence; no current troupe or audience totals asserted.
+
+## Koli fruit-name seed · 1 October 2026
+
+RES-041 saves twelve selected name-to-taxon records and the Khirakoli overlap, using RPRC and original research. Names and seasons retain source scope; no statewide variety total, accepted-taxonomy claim, health effect or export measurement. Local/Odia review, specimen reconciliation and attributed recipes remain open. Existing everyday-food identity reused.

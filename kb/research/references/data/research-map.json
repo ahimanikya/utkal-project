@@ -14470,6 +14470,72 @@
         "pala-narthaki-utsav2012"
       ],
       "added_at": "2026-10-01T18:19:13.030991+00:00"
+    },
+    {
+      "id": "sources/food-koli-rprc",
+      "title": "Wild Edible Fruit Garden",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-koli-rprc.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-koli-rprc"
+      ],
+      "added_at": "2026-10-01T18:27:31.885197+00:00"
+    },
+    {
+      "id": "sources/food-koli-balasore2020",
+      "title": "Ethnobotanical exploration of wild edible fruits of Balasore district in Odisha, India",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-koli-balasore2020.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-koli-balasore2020"
+      ],
+      "added_at": "2026-10-01T18:27:31.885197+00:00"
+    },
+    {
+      "id": "sources/food-koli-pectin2020",
+      "title": "Physicochemical Characterization of Pectin Extracted from Six Wild Edible Fruits in Odisha, India",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-koli-pectin2020.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-koli-pectin2020"
+      ],
+      "added_at": "2026-10-01T18:27:31.885197+00:00"
+    },
+    {
+      "id": "food/koli-fruits",
+      "title": "Koli: Odisha’s local fruit names and varieties",
+      "kind": "Food Collection",
+      "layer": "research_concept",
+      "source_path": "food/koli-fruits.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "nature",
+        "everyday"
+      ],
+      "source_ids": [
+        "food-koli-rprc",
+        "food-koli-balasore2020",
+        "food-koli-pectin2020"
+      ],
+      "added_at": "2026-10-01T18:27:31.885197+00:00"
     }
   ],
   "shared_publications": [
@@ -15318,6 +15384,21 @@
       "remaining_scope": "Create a sourced Pala overview, performance/artist and archive links; recover full institutional format and award evidence, retain origin questions and identify follow-up for women performers, local practice and livelihoods.",
       "status_unchanged": "in_progress",
       "instruction": "Explicit user extension; no existing Pala identity found. Reuse performance framework; do not reopen completed RES-027 or count derivative biographies as independent evidence."
+    },
+    {
+      "task_id": "RES-041",
+      "title": "Koli fruit diversity and local names",
+      "source_records": [
+        "food/everyday-food-culture.md",
+        "food/koli-fruits.md",
+        "references/data/koli-fruits.json"
+      ],
+      "project_records": [
+        "kb/research/food/everyday-food-culture.md"
+      ],
+      "remaining_scope": "Save an initial source-linked selection of at least ten local fruit names with reported botanical names, provenance and scope; preserve name ambiguities and record the next recipe/locality evidence needed.",
+      "status_unchanged": "completed",
+      "instruction": "Reuse everyday-food collection; keep source-specific species and names distinct, including Khirakoli ambiguity."
     }
   ],
   "rules": [
@@ -15335,8 +15416,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1016,
-    "updated_at": "2026-10-01T18:19:13.030991+00:00",
+    "records_mapped": 1020,
+    "updated_at": "2026-10-01T18:27:31.885197+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -15672,6 +15753,11 @@
       "run_id": "2026-10-01-pala",
       "at": "2026-10-01T18:19:13.030991+00:00",
       "scope": "One performing-tradition identity and six sources; existing arts/people links reused. No comprehensive semantic audit claimed."
+    },
+    {
+      "run_id": "2026-10-01-koli",
+      "at": "2026-10-01T18:27:31.885197+00:00",
+      "scope": "One local-fruit collection and three primary sources; no pre-existing fruit identity found in saved source/project searches."
     }
   ]
 }

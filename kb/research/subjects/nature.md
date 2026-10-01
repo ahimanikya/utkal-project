@@ -49,3 +49,5 @@ Subject membership is editorial classification. It does not establish historical
 [^nature-forest-pib]: [Parliament Question: Steps To Bring More Area Under Green Cover, 6 February 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100254&lang=2&reg=48)
 
 - [Community ecotourism](../statistics/ecotourism.md) — Visitor and livelihood context; no inferred ecological improvement.
+
+[Koli: local fruit names and varieties](../food/koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.

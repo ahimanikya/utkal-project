@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T18:19:13.030991+00:00",
+  "updated_at": "2026-10-01T18:27:31.885197+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1761,6 +1761,49 @@
         "project_records": [
           "kb/research/culture/odissi.md",
           "kb/research/people/people-and-creations.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-041",
+      "order": 16.7,
+      "title": "Koli fruit diversity and local names",
+      "done_when": "Save an initial source-linked selection of at least ten local fruit names with reported botanical names, provenance and scope; preserve name ambiguities and record the next recipe/locality evidence needed.",
+      "target": "food/koli-fruits.md",
+      "status": "completed",
+      "completion_scope": "Twelve selected mappings and a separately held Khirakoli name cluster. Not a comprehensive flora, taxonomic revision or tested recipe collection.",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:27:31.885197+00:00",
+      "completed_at": "2026-10-01T18:27:31.885197+00:00",
+      "next_step": "Enhance the existing collection with local/Odia and botanical review, credited recipes and market observations; do not repeat the saved names search.",
+      "evidence_outputs": [
+        "sources/food-koli-rprc.md",
+        "sources/food-koli-balasore2020.md",
+        "sources/food-koli-pectin2020.md",
+        "food/koli-fruits.md",
+        "references/data/koli-fruits.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-koli",
+          "at": "2026-10-01T18:27:31.885197+00:00",
+          "outcome": "bounded_fruit_name_seed_completed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/everyday-food-culture.md",
+          "food/koli-fruits.md",
+          "references/data/koli-fruits.json"
+        ],
+        "project_records": [
+          "kb/research/food/everyday-food-culture.md"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"

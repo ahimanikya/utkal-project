@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:19:13.030991+00:00",
+  "updated_at": "2026-10-01T18:27:31.885197+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3788,6 +3788,42 @@
       "run_id": "2026-10-01-pala",
       "status": "unavailable",
       "scope": "Direct route failed; award PDF discovered separately.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-koli-rprc",
+      "discovery_url": "https://rprcbbsr.in/researchanddevelopment/conservation/wildediblefruitgarden",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "available",
+      "scope": "Undated body; footer updated 29 July 2026 is not a survey date. Garden holdings are not a census of Odisha fruit species. Source-reported names are not current taxonomic adjudications.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-koli-balasore2020",
+      "discovery_url": "https://www.botanyjournals.com/assets/archives/2020/vol5issue3/5-3-106-999.pdf",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "available",
+      "scope": "Survey January 2018–February 2020 in Basta, Balasore, Nilgiri, Remuna and Bahanaga. District study, not statewide season or current market availability. PDF text retrieved; requested page screenshots failed. Medicinal-use claims are not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-koli-pectin2020",
+      "discovery_url": "https://www.foodandnutritionjournal.org/volume8number2/physicochemical-characterization-of-pectin-extracted-from-six-wild-edible-fruits-in-odisha-india/",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "available",
+      "scope": "RPRC-affiliated research. Table season is source-specific; lab potential does not establish commercial output, revenue, exports or a clinical benefit.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-koli-balasore2020",
+      "discovery_url": "https://www.botanyjournals.com/assets/archives/2020/vol5issue3/5-3-106-999.pdf",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "unavailable",
+      "scope": "PDF screenshots for zero-based pages 7 and 8 failed. Full PDF text is separately available; no visual verification claimed.",
       "retry_after": "2026-10-08"
     }
   ]

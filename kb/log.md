@@ -127,3 +127,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Pala and community performance
 
 [Research receipt](records/pala-2026-10-01.json): connected Pala overview, named performances and archive routes. Two institutional PDFs remain indexed-only; biographies and local practice need follow-up. Research candidate, no website publication.
+
+## 1 October 2026 · Koli fruit diversity
+
+[Research receipt](records/koli-2026-10-01.json): selected names, reported botanical identities and source-specific seasons. Khirakoli overlap remains open. Locality review and recipes are follow-ups; no website release.
