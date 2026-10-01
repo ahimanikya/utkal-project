@@ -187,3 +187,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Tasar candidate](records/tasar-story-review.json): material and place story with three licensed documentary photographs, district reading connections and a five-idea textile journey. Gopalpur distinguished from the coastal town at cluster level. Candidate has 122 public pages; published baseline remains 121. Browser/local review and wider RES-012 research remain open.
+
+## 2026-10-01
+
+[Tasar story published](records/tasar-story-publication.json) after Founder approval of PR 46. Tasar and the five-idea textile journey are live; current backlog baseline advanced to 122 pages with earlier snapshots and remaining review limitations preserved.
