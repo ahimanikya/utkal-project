@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {pageContext,sharingImage} from '../src/lib/page-context.mjs';
 test('reading and travel breadcrumbs point to the right collection without self-links',()=>{
- for(const [path,parent] of [['/languages/kui/','/languages/'],['/people/bhima-bhoi/','/literature/'],['/food/chhena-poda/','/food/'],['/knowledge/chilika/','/destinations/']]){
+ for(const [path,parent] of [['/people/subhas-chandra-bose/','/destinations/cuttack/'],['/languages/kui/','/languages/'],['/people/bhima-bhoi/','/literature/'],['/food/chhena-poda/','/food/'],['/knowledge/chilika/','/destinations/']]){
   const trail=pageContext(path,'Title');assert.equal(trail[1].href,parent);assert.equal(trail.at(-1).current,true);assert.equal(trail.filter(i=>i.href===path).length,1);
  }
  assert.equal(pageContext('/languages/','Languages').length,2);

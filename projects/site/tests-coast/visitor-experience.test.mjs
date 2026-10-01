@@ -3,14 +3,14 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 const read=p=>readFileSync(`dist-coast${p}index.html`,'utf8');
 test('food, language and literary pages have a single contextual return path',()=>{
- for(const [path,parent] of [['/food/chhena-poda/','/food/'],['/languages/kui/','/languages/'],['/people/pratibha-ray/','/literature/']]){
+ for(const [path,parent] of [['/people/subhas-chandra-bose/','/destinations/cuttack/'],['/food/chhena-poda/','/food/'],['/languages/kui/','/languages/'],['/people/pratibha-ray/','/literature/']]){
   const html=read(path);const breadcrumbs=html.match(/<nav[^>]*aria-label="Breadcrumb"[^>]*>(.*?)<\/nav>/g)||[];
   assert.equal(breadcrumbs.length,1);assert.ok(breadcrumbs[0].includes(`href="${parent}"`));assert.ok(breadcrumbs[0].includes('aria-current="page"'));
  }
  assert.equal((read('/visit/stays/balasore-coast/').match(/aria-label="Breadcrumb"/g)||[]).length,1);
 });
 test('social images are retained in the deployable edition and match documented subjects',()=>{
- for(const path of ['/food/chhena-poda/','/destinations/mayurbhanj/','/languages/odia/','/people/fakir-mohan-senapati/']){
+ for(const path of ['/food/odisha-rasagola/','/people/subhas-chandra-bose/','/food/chhena-poda/','/destinations/mayurbhanj/','/languages/odia/','/people/fakir-mohan-senapati/']){
   const html=read(path),image=html.match(/property="og:image" content="([^"]+)"/)[1];
   assert.ok(!image.includes('coast-illustration'));assert.ok(existsSync('dist-coast'+new URL(image).pathname));assert.ok(html.includes('src="'+new URL(image).pathname+'"'));
  }
