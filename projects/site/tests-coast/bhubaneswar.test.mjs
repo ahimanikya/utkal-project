@@ -19,7 +19,7 @@ test('new guides expose stable choices, scoped links and truthful photo context'
  const food=read('/food/bhubaneswar/');
  assert.ok(food.includes('data-save-journey="food:pakhala"'));assert.ok(food.includes('photographed in Puri'));
  assert.equal(data.catalog.find(i=>i.id==='food:pakhala').href,'/food/bhubaneswar/#pakhala');
- assert.ok(!food.includes('href="/food/chhena-poda/"'));
+ assert.ok(food.includes('href="/food/chhena-poda/"'));
  assert.ok(read('/visit/places/mukteswar/').includes('Andrew Moore'));
  assert.ok(read('/visit/stays/bhubaneswar/').includes('not an accommodation'));
 });

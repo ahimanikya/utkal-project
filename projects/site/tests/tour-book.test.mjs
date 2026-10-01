@@ -41,8 +41,9 @@ test('new destination detail claims have evidence and preserve the existing save
  const records=JSON.parse(readFileSync('../../kb/research/destinations/northern-details.json','utf8')).records;
  const regions=JSON.parse(readFileSync('../../kb/research/destinations/regions.json','utf8'));
  for(const r of records){
-  const html=readFileSync(`dist/visit/places/${r.slug}/index.html`,'utf8');
-  assert.ok(html.includes(`data-save-journey="place:${r.slug}"`));
+  const html=readFileSync(`dist/visit/${r.kind}/${r.slug}/index.html`,'utf8');
+  const item=regions.regions.flatMap(region=>region.items).find(i=>i.detail_href===`/visit/${r.kind}/${r.slug}/`);
+  assert.ok(item,r.slug);assert.ok(html.includes(`data-save-journey="${item.id}"`));
   assert.ok(html.includes(`/destinations/${r.parent}/`));
   for(const section of r.sections)if(section.kind==='sourced_summary'){assert.ok(section.sources.length);for(const id of section.sources)assert.ok(regions.sources[id]&&r.sources.includes(id));}
   for(const id of r.gallery||[])assert.ok(html.includes(regions.assets[id].creator)&&html.includes(regions.assets[id].license_url));

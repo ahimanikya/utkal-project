@@ -18,16 +18,16 @@
     },
     {
       "id": "northern-stories",
-      "title": "Northern stories",
-      "lead": "Open a northern chapter through Balasore, Chandipur and Mayurbhanj, with two reading companions.",
-      "type": "Places & reading",
+      "title": "Balasore · tides and tales",
+      "lead": "Watch Chandipur’s changing shore, leave time for a meal, compare a base and carry a Fakir Mohan reading companion. Set your own dates after checking tides and transfers.",
+      "type": "Coast, food & reading",
       "cover": "place:chandipur",
       "items": [
         "place:balasore",
         "place:chandipur",
-        "place:mayurbhanj",
-        "reading:people/fakir-mohan-senapati",
-        "reading:languages/santali"
+        "food:chandipur-seafood",
+        "stay:balasore-coast",
+        "reading:people/fakir-mohan-senapati"
       ]
     },
     {
@@ -125,6 +125,20 @@
         "food:cuttack-dahibara",
         "experience:cuttack-netaji",
         "stay:cuttack"
+      ]
+    },
+    {
+      "id": "mayurbhanj-forest-culture",
+      "title": "Mayurbhanj · forest, rhythm and a meal",
+      "lead": "Research the forest, a welcome to Chhau, a Baripada meal and a suitable base. These are separate ideas to arrange around current opening notices and actual performance dates.",
+      "type": "Nature, culture & food",
+      "cover": "place:similipal",
+      "items": [
+        "place:mayurbhanj",
+        "place:similipal",
+        "experience:mayurbhanj-chhau",
+        "food:baripada-mudhi-mansa",
+        "stay:similipal-camps"
       ]
     }
   ]

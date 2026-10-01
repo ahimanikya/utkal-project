@@ -1,0 +1,87 @@
+{
+  "status": "candidate_for_founder_review",
+  "authorization": "UTP-DEC-103",
+  "scope": "Ten routes covering northern destinations, visitor details, two bases and three food stories. Two journey starters; reconcile older delivered work without claiming specialist review.",
+  "human_owner": "Ahimanikya Satapathy",
+  "acceptance": [
+    "Sources and media rights recorded",
+    "Candidate edition has no broken local links",
+    "Visit questions and sources survive offline export",
+    "Responsive browser review",
+    "Reviewable PR; no deployment"
+  ],
+  "limitations": [
+    "Same assistant implemented and checked the candidate; no independent review claimed.",
+    "No field inspection, confirmed performance calendar, reviewed kitchen, hotel inspection or fluent Odia proofreading.",
+    "Official indexed text used for Chandipur, Baripada and handicraft where direct pages returned shell/404. The reserve reopening date was not confirmed.",
+    "Food origins remain attributed accounts; the Mudhi Mansa photograph depicts a home-cooked chicken variation.",
+    "Native Chrome PDF checks are not physical prints. Mayurbhanj Letter has a sparse final credits page; books from local previews link to the local preview origin.",
+    "Sabai and Balaramgadi remain contextual ideas within the region guides; no separate photographed subpage or visit arrangement is claimed. Seven further language profiles, disputed portrait, store and AI chat remain held."
+  ],
+  "recorded_at": "2026-10-01T07:32:36.229326+00:00",
+  "routes": [
+    "/destinations/balasore/",
+    "/destinations/mayurbhanj/",
+    "/visit/places/chandipur/",
+    "/visit/places/similipal/",
+    "/visit/experiences/mayurbhanj-chhau/",
+    "/visit/stays/balasore-coast/",
+    "/visit/stays/similipal-gateways/",
+    "/food/chhena-poda/",
+    "/food/mudhi-mansa/",
+    "/food/balasore/"
+  ],
+  "edition": {
+    "pages": 56,
+    "saveable_ideas": 54,
+    "starters": 9
+  },
+  "changes": [
+    "Use shared magazine composition for Balasore, Mayurbhanj and all three food profiles.",
+    "Add Chhau experience, two stay-area comparisons and Chandipur meal guide; develop existing Chandipur, Similipal and dish drafts.",
+    "Two separate five-idea starters; retain stable IDs and personal plans. New practical notes and sources travel into offline books.",
+    "Add licensed Chhau performance photograph and preserve real-photo context and provenance.",
+    "Reconcile thirteen earlier work entries against delivered releases or this consolidated candidate."
+  ],
+  "verification": {
+    "full_site_tests": 331,
+    "edition_tests": 25,
+    "design_system_tests": 6,
+    "edition_validation": "56 selected pages, local links/fragments/assets, noindex, catalogue and held-content boundary passed.",
+    "responsive": "20 checks: ten page openings at 390 and 1440 px. All covers loaded, no horizontal overflow; screenshot contact sheets inspected. Phone stay comparison inspected.",
+    "journey_ui": "Created both starters as separate plans. Original Balasore synthetic English/Odia note and day assignment retained after switching.",
+    "downloads": "Two actual downloaded photo books inspected, each with three embedded photos; expected notes, base choices, closure context and sources present.",
+    "native_print": "Balasore A4: 7 pages. Mayurbhanj Letter: 10 pages. Every page reviewed; no blank pages or obvious clipped text. Sparse final credits page retained.",
+    "prior_failures": "Updated tests that assumed all northern details were places or that Similipal was held; corrected starter ordering to match canonical source order. Final runs pass."
+  },
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "evidence": [
+    "records/northern-image-provenance.json",
+    "records/northern-backlog-reconciliation.json",
+    "records/evidence/northern-release/source-checks.json",
+    "records/evidence/northern-release/responsive.json",
+    "records/evidence/northern-release/download-checks.json",
+    "records/evidence/northern-release/print-checks.json",
+    "records/evidence/northern-release/site-tests.txt",
+    "records/evidence/northern-release/edition-tests.txt",
+    "records/evidence/northern-release/design-system-tests.txt",
+    "records/evidence/northern-release/covers-390.jpg",
+    "records/evidence/northern-release/covers-1440.jpg",
+    "records/evidence/northern-release/stay-comparison-phone.png",
+    "records/evidence/northern-release/balasore-photo-book.html",
+    "records/evidence/northern-release/mayurbhanj-photo-book.html",
+    "records/evidence/northern-release/balasore-A4.pdf",
+    "records/evidence/northern-release/mayurbhanj-Letter.pdf",
+    "records/evidence/northern-release/balasore-print-review.jpg",
+    "records/evidence/northern-release/mayurbhanj-print-review.jpg"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "approval": "Founder review of exact PR candidate required"
+  },
+  "design_learning": "Food pages reuse the existing magazine component with an explicit opening label and scoped onward links. Contextual landscape photography is clearly distinguished from dishes, rooms and specific venues. No new parallel design system introduced."
+}

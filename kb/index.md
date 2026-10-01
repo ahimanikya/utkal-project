@@ -85,5 +85,7 @@ This directory contains the organizational and working model, roles, work record
 
 - [Chilika release candidate](records/chilika-release-review.json) — connected guides, three journey starters, source checks and review evidence.
 
-- [Cuttack collection candidate](records/cuttack-release-review.json) — fort, craft, food, museum and a connected journey.
-- [Odia language and literature candidate](records/odia-literature-release-review.json) — six literary lives and portable reading notes.
+- [Cuttack collection review and publication](records/cuttack-release-review.json) — fort, craft, food, museum and a connected journey.
+- [Odia language and literature review and publication](records/odia-literature-release-review.json) — six literary lives and portable reading notes.
+
+- [Northern collection candidate](records/northern-release-review.json) — Balasore, Mayurbhanj, food, two bases and portable journey books.

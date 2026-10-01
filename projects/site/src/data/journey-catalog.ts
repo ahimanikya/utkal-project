@@ -7,6 +7,7 @@ import {bookPhotos} from './book-photos';
 import notes from './selected.json';
 import {pilots,detailRecords,detailUrl,detailSources} from './destination-details';
 import voices from '../../../../kb/research/voices/collection.json';
+import foodCollection from '../../../../kb/research/food/collection.json';
 import cuttackMeal from '../../../../kb/research/food/cuttack.json';
 import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
@@ -14,8 +15,8 @@ const entries=[];
 for(const r of regions.regions){
  const sources=ids=>ids.map(id=>({title:regions.sources[id].title,url:regions.sources[id].url}));
  const href=`/destinations/${r.slug}/`;
- entries.push({id:r.id,title:r.title,kind:'Place',area:r.title,summary:r.orientation,href,checked:regions.checked_on,practical:r.visitor_notes||[],sources:sources([...new Set([...r.source_ids,...(r.visitor_notes||[]).flatMap(n=>n.source_ids)])])});
- for(const i of r.items)entries.push({id:i.id,title:i.title,kind:i.kind,area:r.title,summary:i.summary,href:i.detail_href||href+'#'+i.id.replaceAll(':','-'),checked:regions.checked_on,access:i.tip,sources:sources(i.source_ids)});
+ entries.push({id:r.id,title:r.title,kind:'Place',area:r.title,summary:r.orientation,href,checked:r.checked_on||regions.checked_on,practical:r.visitor_notes||[],sources:sources([...new Set([...r.source_ids,...(r.visitor_notes||[]).flatMap(n=>n.source_ids)])])});
+ for(const i of r.items)entries.push({id:i.id,title:i.title,kind:i.kind,area:r.title,summary:i.summary,href:i.detail_href||href+'#'+i.id.replaceAll(':','-'),checked:r.checked_on||regions.checked_on,access:i.tip,sources:sources(i.source_ids)});
 }
 for(const [slug,pilot] of Object.entries(pilots)){
  const d=pilot.destination, note=notes.find(n=>n.slug===slug);
@@ -37,7 +38,8 @@ export const journeyCatalog=entries.filter(item=>allowsIdea(item.id)).map(origin
  const detail=detailRecords.find(r=>detailUrl(r.kind,r.slug)===item.href);
  const mealGuide=item.id==='food:cuttack-dahibara'?cuttackMeal:cityMeal;
  const meal=mealGuide.sections.find(s=>s.save_id===item.id && ['food:pakhala','food:bhubaneswar-dalma','food:cuttack-dahibara'].includes(item.id));
- const practical=detail && ['chilika','bhubaneswar','cuttack'].includes(detail.parent)?detail.sections.flatMap(s=>[{heading:s.heading,text:s.text},...(s.options||[]).map(o=>({heading:o.area,text:[o.fit,o.transport,o.check].join(' ')}))]):meal?[{heading:meal.prompt,text:meal.question},{heading:'Before ordering',text:mealGuide.closing}]:item.practical;
- const sources=[...new Map([...(item.sources||[]),...(detail && ['chilika','bhubaneswar','cuttack'].includes(detail.parent)?detailSources(detail).map(s=>({title:s.title,url:s.resource})):[]),...(meal?meal.source_ids.map(id=>mealGuide.sources[id]):[]),...(notebook?.planning_sources||[])].map(s=>[s.url,{title:s.title,url:s.url}])).values()];
+ const foodPage=foodCollection.pages.find(p=>p.save_id===item.id);
+ const practical=foodPage?foodPage.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' ')})):detail && ['chilika','bhubaneswar','cuttack','balasore','mayurbhanj'].includes(detail.parent)?detail.sections.flatMap(s=>[{heading:s.heading,text:s.text},...(s.options||[]).map(o=>({heading:o.area,text:[o.fit,o.transport,o.check].join(' ')}))]):meal?[{heading:meal.prompt,text:meal.question},{heading:'Before ordering',text:mealGuide.closing}]:item.practical;
+ const sources=[...new Map([...(item.sources||[]),...(foodPage?[...new Set(foodPage.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids)))].map(id=>foodCollection.sources[id]):[]),...(detail && ['chilika','bhubaneswar','cuttack','balasore','mayurbhanj'].includes(detail.parent)?detailSources(detail).map(s=>({title:s.title,url:s.resource})):[]),...(meal?meal.source_ids.map(id=>mealGuide.sources[id]):[]),...(notebook?.planning_sources||[])].map(s=>[s.url,{title:s.title,url:s.url}])).values()];
  return {...item,sources,practical,visitQuestions:visitQuestions.guides.find(g=>g.save_id===item.id)?.questions,visitNotebook:notebook,aliases:aliases.entries[item.href.split('#')[0]]||[],title:item.kind==='Stay area'&&detail?detail.title:item.title,photo:bookPhotos[item.id]?Object.fromEntries(['src','alt','width','height','caption','creator','license','license_url','source','changes'].map(key=>[key,bookPhotos[item.id][key]])):undefined,planningArea:item.id==='place:mangalajodi'?'Mangalajodi':region,access};
 });
