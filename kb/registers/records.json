@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T15:41:23.464442+00:00",
+  "recorded_at": "2026-10-01T15:54:43.126434+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3630,22 +3630,26 @@
       "id": "UTP-WORK-123",
       "title": "Odisha roots: rasagola and Bose’s Cuttack childhood",
       "category": "editorial_and_website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-125",
-      "next_action": "Founder reviews the sourced article revisions; primary-document and specialist follow-ups remain visible.",
+      "next_action": "Published under UTP-REL-031. Retain original-document, specialist and browser follow-ups; no exclusive-origin verdict implied.",
       "blockers": [],
       "refs": [
         "UTP-DEC-125",
-        "UTP-REV-099"
+        "UTP-REV-099",
+        "UTP-DEC-126",
+        "UTP-REV-100",
+        "UTP-REL-031"
       ],
       "evidence": [
-        "records/odisha-roots-review.json"
+        "records/odisha-roots-review.json",
+        "records/odisha-roots-publication.json"
       ]
     }
   ],
@@ -6156,6 +6160,27 @@
       "evidence": [
         "records/odisha-roots-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-126",
+      "title": "Approve and publish PR 31 Odisha-rooted articles",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "ok",
+      "scope": "Direct affirmative reply to the PR 31 review handoff, approving head 38221841fd8494a144189d387f56783f62d610b2 for publication. Search indexing remains disabled.",
+      "recorded_at": "2026-10-01T15:54:43.126434+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-125",
+        "UTP-WORK-123",
+        "UTP-REV-099"
+      ],
+      "evidence": [
+        "records/odisha-roots-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -8525,6 +8550,32 @@
       "evidence": [
         "records/odisha-roots-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-100",
+      "title": "Odisha-rooted articles publication verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant researched, edited and checked this candidate; no independent historical or native-language review claimed.",
+        "OSIC is a GI co-applicant. Its account is explicitly attributed; the cited original temple register and critical literary edition have not been independently inspected. No exact invention date or exclusive-origin verdict asserted.",
+        "Bose’s autobiography is retrospective testimony, read through a digital reproduction hosted by the Rare Book Society of India. School visitor access is not established.",
+        "The Pahala/Salepur travelogue describes a 2019 visit; no current prices, opening hours, seller ranking or image rights inferred.",
+        "No new media. The Puri food cover continues to identify its chhena poda photograph; it is not presented as rasagola.",
+        "Rendered browser checks remain open under the earlier browser security-policy limitation. Normal publication remains noindex.",
+        "Publication verification checks live HTTP, text and source delivery; it does not independently authenticate historical claims or complete browser visual review."
+      ],
+      "refs": [
+        "UTP-DEC-126",
+        "UTP-WORK-123"
+      ],
+      "evidence": [
+        "records/odisha-roots-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -9060,6 +9111,22 @@
         "records/explore-filter-flow-publication.json"
       ],
       "note": "PR 30 published and delivery checked. Native browser, screen-reader and physical-device checks remain open."
+    },
+    {
+      "id": "UTP-REL-031",
+      "title": "Odisha roots in Rasagola and Bose stories published",
+      "status": "published",
+      "authorization": "UTP-DEC-126",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-126",
+        "UTP-REV-100",
+        "UTP-WORK-123"
+      ],
+      "evidence": [
+        "records/odisha-roots-publication.json"
+      ],
+      "note": "Approved article framing published and delivery checked. Original-document, specialist and browser follow-ups remain open."
     }
   ],
   "sources": [
