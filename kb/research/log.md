@@ -136,3 +136,7 @@ Saved RES-029 scientists checkpoint: two people, one paper and one explicitly ed
 ## 2026-10-01
 
 Expanded RES-029 at the user’s request into Utkala scientific heritage through the present. Added three profiles and three credited works, six sources, a structured timeline and era-based research lanes; preserved existing people and unresolved attributions. Corrected source-only research search display. Local checks and Git review are distinct from website publication.
+
+## 2026-10-01
+
+Corrected maintained project references to **Utkal** following the user’s explicit instruction. Updated science, editorial, current product, technical and campaign wording; PRD 0.2.1 preserves earlier snapshots. Historical source titles, URIs, filesystem paths, automation IDs and previous event logs retain their exact identifiers. No website deployment performed.

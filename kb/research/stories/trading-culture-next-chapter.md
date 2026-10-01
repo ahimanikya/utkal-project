@@ -1,17 +1,17 @@
 ---
 type: "Campaign Concept"
-title: "Utkala: a trading culture, building its next global chapter"
-description: "Utkala: a trading culture, building its next global chapter — evidence, scope and reuse."
+title: "Utkal: a trading culture, building its next global chapter"
+description: "Utkal: a trading culture, building its next global chapter — evidence, scope and reuse."
 tags: ["maritime", "trade"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:14:32+00:00"}
 ---
 
-# Utkala: a trading culture, building its next global chapter
+# Utkal: a trading culture, building its next global chapter
 
 ## Positioning
 
-**Utkala · Odisha**
+**Utkal · Odisha**
 
 **A trading culture. A new global chapter.**
 

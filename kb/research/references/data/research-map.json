@@ -19,7 +19,7 @@
   "records": [
     {
       "id": "about/brand-identity",
-      "title": "Utkala identity: warmth, knowledge and living art",
+      "title": "Utkal identity: warmth, knowledge and living art",
       "kind": "Editorial Brand Proposal",
       "layer": "research_concept",
       "source_path": "about/brand-identity.md",
@@ -31,7 +31,7 @@
     },
     {
       "id": "about/community-encyclopedia 2",
-      "title": "Utkala · Odisha — a community encyclopedia",
+      "title": "Earlier community encyclopedia proposal — preserved history",
       "kind": "Project Architecture",
       "layer": "research_concept",
       "source_path": "about/community-encyclopedia 2.md",
@@ -49,7 +49,7 @@
     },
     {
       "id": "about/community-encyclopedia",
-      "title": "Utkala · Odisha — a community encyclopedia",
+      "title": "Utkal · Odisha — a community encyclopedia",
       "kind": "Project Architecture",
       "layer": "research_concept",
       "source_path": "about/community-encyclopedia.md",
@@ -65,7 +65,7 @@
     },
     {
       "id": "about/editorial-direction",
-      "title": "Utkala · Odisha: editorial and visual direction",
+      "title": "Utkal · Odisha: editorial and visual direction",
       "kind": "Editorial Strategy",
       "layer": "research_concept",
       "source_path": "about/editorial-direction.md",
@@ -2748,7 +2748,7 @@
     },
     {
       "id": "methods/weekly-data-agent",
-      "title": "Utkala weekly data editor",
+      "title": "Utkal weekly data editor",
       "kind": "Automation Runbook",
       "layer": "research_concept",
       "source_path": "methods/weekly-data-agent.md",
@@ -3410,7 +3410,7 @@
     },
     {
       "id": "product/prd",
-      "title": "Utkala · Odisha product requirements",
+      "title": "Utkal · Odisha product requirements",
       "kind": "Product Requirements",
       "layer": "research_concept",
       "source_path": "product/prd.md",
@@ -7956,7 +7956,7 @@
     },
     {
       "id": "stories/trading-culture-next-chapter",
-      "title": "Utkala: a trading culture, building its next global chapter",
+      "title": "Utkal: a trading culture, building its next global chapter",
       "kind": "Campaign Concept",
       "layer": "research_concept",
       "source_path": "stories/trading-culture-next-chapter.md",
@@ -8177,7 +8177,7 @@
     },
     {
       "id": "technology/technical-stack",
-      "title": "Technical stack for Utkala · Odisha",
+      "title": "Technical stack for Utkal · Odisha",
       "kind": "Technical Architecture",
       "layer": "research_concept",
       "source_path": "technology/technical-stack.md",
@@ -11633,6 +11633,23 @@
         "science-ajit-antineutrino"
       ],
       "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "product/versions/prd-0.2.1",
+      "title": "Utkal · Odisha product requirements",
+      "kind": "Product Requirements",
+      "layer": "research_concept",
+      "source_path": "product/versions/prd-0.2.1.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "architecture",
+        "decisions",
+        "editorial"
+      ],
+      "added_at": "2026-10-01T06:19:27.387120-07:00"
     }
   ],
   "shared_publications": [
@@ -12001,7 +12018,7 @@
         "kb/research/people/samanta-chandrasekhar.md",
         "kb/research/people/samanta-chandrasekhar.json"
       ],
-      "remaining_scope": "Build a documented timeline from Utkala’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
+      "remaining_scope": "Build a documented timeline from Utkal’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
       "status_unchanged": "pending",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
@@ -12319,8 +12336,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 846,
-    "updated_at": "2026-10-01T05:54:01.849023-07:00",
+    "records_mapped": 847,
+    "updated_at": "2026-10-01T06:19:27.387120-07:00",
     "scope": "Original audit plus explicit identity extensions."
   },
   "extension_history": [
@@ -12418,6 +12435,12 @@
       ],
       "new_people_or_work_records": 6,
       "new_collection_records": 0
+    },
+    {
+      "run_id": "2026-10-01-utkal-name-correction",
+      "added_source_records": [],
+      "new_people_or_work_records": 0,
+      "new_prd_snapshots": 1
     }
   ]
 }

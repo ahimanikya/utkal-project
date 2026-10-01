@@ -109,3 +109,7 @@ Added two people, two contribution/work identities, five source records and one 
 ### Heritage-to-present science extension · 1 October 2026
 
 Added three people, three works and six source records; current inventory 846. Śatānanda/Satananda are one identity. Ajit Kumar Mohanty’s physicist identity is disambiguated from the psychologist. Panda’s preprint and journal paper are one evidence family. Samanta’s existing project-native JSON is preserved. Fixed plain-text search for source-only records with null project paths.
+
+### Utkal name correction · 1 October 2026
+
+Current maintained titles and queue wording now use Utkal. Added PRD correction snapshot 0.2.1 without changing earlier snapshots or identifiers. Historical logs and source titles retain their original text.

@@ -1,6 +1,6 @@
 # Methods
 
-- [Utkala weekly data editor](weekly-data-agent.md)
+- [Utkal weekly data editor](weekly-data-agent.md)
 
 - [Growth calculations and comparison rules](growth-calculations.md)
 - [Search, reuse and update the knowledge base](local-retrieval.md)

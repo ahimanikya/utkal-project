@@ -19,4 +19,4 @@ subjects: ["people", "history"]
 
 [Selected work](../works/antineutrino-shoulder-2017.md) links the person to a specific contribution. The name is shared by a psychologist and other professionals. This identity is the nuclear physicist associated with BARC/SINP. His selected preprint proposes a possible explanation; no settled discovery or peer-reviewed journal publication is claimed.
 
-[Utkala’s scientific heritage to the present](science-and-contributions.md) places this profile in a developing historical timeline.
+[Utkal’s scientific heritage to the present](science-and-contributions.md) places this profile in a developing historical timeline.

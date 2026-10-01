@@ -19,4 +19,4 @@ subjects: ["people", "history"]
 
 [Selected work](../works/bhasvati.md) links the person to a specific contribution. Use the historical terms astronomer and mathematician. Do not present him as the inventor of the decimal system or claim an unbroken institutional lineage to modern research. The preprint and journal article are one author’s research family.
 
-[Utkala’s scientific heritage to the present](science-and-contributions.md) places this profile in a developing historical timeline.
+[Utkal’s scientific heritage to the present](science-and-contributions.md) places this profile in a developing historical timeline.

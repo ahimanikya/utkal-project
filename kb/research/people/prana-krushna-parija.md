@@ -19,4 +19,4 @@ subjects: ["people", "history"]
 
 [Selected work](../works/parija-apple-respiration-1928.md) links the person to a specific contribution. Preserve Frederick Frost Blackman’s joint credit on part I of the apple-respiration series. Catalogue inclusion and memorial recognition do not establish the economic value of later storage technologies.
 
-[Utkala’s scientific heritage to the present](science-and-contributions.md) places this profile in a developing historical timeline.
+[Utkal’s scientific heritage to the present](science-and-contributions.md) places this profile in a developing historical timeline.

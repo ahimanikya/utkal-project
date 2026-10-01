@@ -11,9 +11,9 @@ updated_at: "2026-10-01T05:54:01.849023-07:00"
 subjects: ["people", "history", "food", "everyday"]
 ---
 
-# Utkala’s scientific heritage to the present
+# Utkal’s scientific heritage to the present
 
-Explore people, ideas, instruments and institutions across time. The historical record needs both named contributors and collective knowledge traditions. Ancient Utkala, Kalinga and present-day Odisha are not interchangeable geographic boundaries; every profile must explain its connection.
+Explore people, ideas, instruments and institutions across time. The historical record needs both named contributors and collective knowledge traditions. Ancient Utkal, Kalinga and present-day Odisha are not interchangeable geographic boundaries; every profile must explain its connection.
 
 | Period or milestone | Person | Contribution to explore |
 |---|---|---|

@@ -78,4 +78,4 @@ The bounded RES-027 set now covers **six practitioners and twelve independently 
 
 ## Scientific heritage through time · 1 October 2026
 
-[Utkala’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.
+[Utkal’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.
