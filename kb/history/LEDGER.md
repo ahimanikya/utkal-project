@@ -760,3 +760,9 @@ Five Puri planning notes distinguish temple preparation, devotional food, coasta
 Approved PR #10 is live. Five planning notes and their references were verified on the public page and in actual downloaded HTML/text books. HTTPS redirects remain working. Direct temple/local confirmations remain open.
 
 [Publication evidence](../records/puri-publication.json).
+
+## UTP-HIS-0122 · Give the making its own time
+
+Three stages invite the reader to see a painting take shape, then meet its maker with curiosity and permission. Four practical notes carry that context into actual downloaded books. Current appointments and facilities remain questions for local confirmation.
+
+[Raghurajpur maker guide review](../research/product/raghurajpur-maker-guide-2026-10-01.md). Candidate not deployed.
