@@ -85,3 +85,7 @@ RES-026 reused repository-native introductions and deepened three existing biogr
 ### Performing-arts continuation · 1 October 2026
 
 RES-026 is deferred to 8 October for unavailable original-journal/title-page evidence; its criteria remain unmet. RES-027 is now in progress with four people and four attributed stage episodes. Continue the saved music task next. The earlier literary in-progress notices describe prior checkpoints, not current priority.
+
+### Music and listening routes · 1 October 2026
+
+RES-027 now links six practitioners and twelve work records, including one soundtrack container. Seven label/distribution recording entries were added in this pass. The task stays in progress to avoid treating the Mamata container and its songs as independent recordings and because representative playback and recording identifiers remain unverified. Continue its explicit next fields before the sport task.

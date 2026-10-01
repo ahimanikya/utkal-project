@@ -288,3 +288,25 @@
 - [Sangeet Natak Akademi — dance award register](performers-sna-dance-register.md)
 
 - [IGNCA — exhibition of audiovisual archives](performers-ignca-archives.md)
+
+- [OSA lifetime recognition for Sunanda Patnaik and Prafulla Kar](music-osa-awards-2012.md)
+
+- [75 Years of Odiya Film Making: A Flashback](music-pib-film-history.md)
+
+- [Prafulla Kar — Saregama artist profile](music-prafulla-label-profile.md)
+
+- [Re Mita Aa Sangata — label upload credits](music-re-mita-label.md)
+
+- [Dekhi Se Banamalli — label upload credits](music-dekhi-label.md)
+
+- [Mu Ta Manisha Marini — Saregama track 80979](music-mu-ta-label.md)
+
+- [Sesa Srabana — distributed Saregama soundtrack](music-kali-qobuz.md)
+
+- [Guru Nanak Bhajan — Saregama track 53300](music-guru-nanak-label.md)
+
+- [Sakhi Meri Manki — label upload credits](music-sakhi-label.md)
+
+- [Bhajan — Bhaja Govindam, Sunanda Patnaik](music-bhaja-spotify.md)
+
+- [Mamata — Saregama release on Amazon Music](music-mamata-amazon.md)

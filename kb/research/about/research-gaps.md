@@ -118,3 +118,7 @@ Paraja now has attributed 1945 chronology and separate 1987 translation evidence
 ### Literature and performing arts · 1 October 2026
 
 The Library of Congress lists a 1984 Nalanda Yajnaseni edition yet gives 1985 in its biography; Black Eagle Books also prints both dates. Keep the edition-specific evidence and conflict. Original dates for four anthology stories remain unresolved after bounded searches. RES-026 retries on 8 October. Performing arts now needs recording-level credits/access, broader practitioners and original playbill corroboration; Srjan explicitly gives conflicting 1924/1926 birth years for Kelucharan. No historical archive listing is a verified stream.
+
+### Music metadata and access · 1 October 2026
+
+Prafulla Kar’s exact birth date differs between the indexed Akademi citation (10 November 1939) and Saregama artist page (2 February 1939); hold unresolved. Label upload, platform album and original recording dates are separate. Seven official label/distribution routes are saved, but playback and regional availability are not verified; repeated direct-fetch failures retry after 8 October. The OSA award report supports its own honours, not all biographical or national-award claims in its commemorative text.

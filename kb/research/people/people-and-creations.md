@@ -59,3 +59,7 @@ Existing [Fakir Mohan Senapati](fakir-mohan-senapati.md), [Gopinath Mohanty](gop
 ## Performing-arts checkpoint · 1 October 2026
 
 Four profiles and four credited theatre episodes connect the Mohapatras and Panigrahis with dance, stage work and music. Institutional recognition and archival presence are retained with their source limits. The programme still needs broader practitioner coverage, twelve credited works/performances and lawful listening/viewing routes; this batch is not its completion.
+
+## Music listening checkpoint · 1 October 2026
+
+Added Sunanda Patnaik, expanded Prafulla Kar and attached seven recording-specific records. Label and distribution routes identify where readers can seek the music; no audio was downloaded or playback verified. The 2012 OSA report gives a concrete diaspora link for both artists. Film, upload, compilation and recording dates remain distinct. Six selected practitioners and twelve performing-arts work records now exist, but the count includes a soundtrack container and does not establish twelve independent recordings; RES-027 remains in progress.

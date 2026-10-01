@@ -116,3 +116,7 @@ Continued RES-026 using the research map: deepened three existing writer profile
 ## 2026-10-01
 
 Continued RES-026 with edition-specific Yajnaseni evidence and translator context; deferred inaccessible original-date work to 8 October. Started RES-027 with four performing-arts people and four credited theatre episodes, seven source records and explicit archive-access limits. Updated classifications, relationships and reuse map. No human review, sales estimate, media rights or website release claimed.
+
+## 2026-10-01
+
+Continued RES-027: added Sunanda Patnaik, enhanced Prafulla Kar, seven recording-specific work records and eleven scoped sources. Connected three songs to the existing Mamata record; separated artist/music-director/lyricist credits and upload/compilation dates. Preserved date conflicts and playback unknowns, updated reuse map, classification and queue. No audio copied, human review or website publication claimed.

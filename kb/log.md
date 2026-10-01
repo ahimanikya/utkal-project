@@ -23,3 +23,7 @@ Continued RES-026 by reusing project literary introductions and enhancing three 
 ## 2026-10-01
 
 Continued literature evidence and began RES-027 performing arts. Added four people and four scoped theatre episodes; recording access remains unverified. Literature date conflicts are preserved with a retry checkpoint. [Bounded receipt](records/performing-arts-first-batch-2026-10-01.json). Shared operating registers left untouched to preserve concurrent work. No website change or human approval claimed.
+
+## 2026-10-01
+
+Continued RES-027 with Sunanda Patnaik, deeper Prafulla Kar context and seven recording-specific entries linked to official label or distribution catalogues. Credits, platform/upload dates and playback unknowns remain explicit. [Bounded receipt](records/music-listening-research-2026-10-01.json). Shared operating registers and original checkout left untouched; no website changes or human approval claimed.

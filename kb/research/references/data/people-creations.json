@@ -214,7 +214,10 @@
       "id": "people/prafulla-kar",
       "name": "Prafulla Kar",
       "fields": [
-        "music"
+        "music",
+        "composition",
+        "singing",
+        "lyrics"
       ],
       "odisha_connection": {
         "description": "Sangeet Natak Akademi citation records his birth in Puri.",
@@ -229,17 +232,45 @@
           "source_ids": [
             "creators-prafulla-sna"
           ]
+        },
+        {
+          "scope": "diaspora_institutional_recognition",
+          "basis": "OSA records its 2012 lifetime achievement award for his contribution as singer, director, composer and lyricist.",
+          "source_ids": [
+            "music-osa-awards-2012"
+          ]
         }
       ],
       "source_ids": [
-        "creators-prafulla-sna"
+        "creators-prafulla-sna",
+        "music-osa-awards-2012",
+        "music-pib-film-history",
+        "music-prafulla-label-profile",
+        "music-re-mita-label",
+        "music-dekhi-label",
+        "music-mu-ta-label",
+        "music-kali-qobuz"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
-        "works/mamata-film-music"
+        "works/mamata-film-music",
+        "works/re-mita-aa-sangata",
+        "works/dekhi-se-banamalli",
+        "works/mu-ta-manisha-marini",
+        "works/kali-kapali-prafulla"
       ],
       "publication_status": "research_nucleus_editorial_review_pending",
-      "portrait_rights": null
+      "portrait_rights": null,
+      "biographical_notes": [
+        {
+          "topic": "film_music_entry",
+          "statement": "Kapilas Bhuyan’s PIB-hosted 2010 feature dates the music-direction debut to Mamata (1975).",
+          "source_ids": [
+            "music-pib-film-history"
+          ],
+          "scope": "Attributed retrospective, not original film-credit inspection."
+        }
+      ]
     },
     {
       "id": "people/dilip-tirkey",
@@ -643,6 +674,43 @@
       "work_ids": [],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/sunanda-patnaik",
+      "name": "Sunanda Patnaik",
+      "fields": [
+        "Hindustani vocal music",
+        "devotional singing"
+      ],
+      "odisha_connection": {
+        "description": "The OSA award report identifies her as a Gwalior-gharana singer from Orissa and honours her contribution to Indian classical music.",
+        "source_ids": [
+          "music-osa-awards-2012"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "diaspora_institutional_recognition",
+          "basis": "2012 OSA lifetime achievement award and convention chief guest; not a measure of worldwide popularity.",
+          "source_ids": [
+            "music-osa-awards-2012"
+          ]
+        }
+      ],
+      "source_ids": [
+        "music-osa-awards-2012",
+        "music-guru-nanak-label",
+        "music-sakhi-label",
+        "music-bhaja-spotify"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/guru-nanak-bhajan-sunanda",
+        "works/sakhi-meri-manki-sunanda",
+        "works/bhaja-govindam-sunanda"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -893,11 +961,21 @@
       "english_access": null,
       "edition": null,
       "source_ids": [
-        "creators-prafulla-sna"
+        "creators-prafulla-sna",
+        "music-pib-film-history",
+        "music-re-mita-label",
+        "music-dekhi-label",
+        "music-mu-ta-label",
+        "music-mamata-amazon"
       ],
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
-      "live_stock": null
+      "live_stock": null,
+      "component_work_ids": [
+        "works/re-mita-aa-sangata",
+        "works/dekhi-se-banamalli",
+        "works/mu-ta-manisha-marini"
+      ]
     },
     {
       "id": "works/iffi-2024-sand-tribute",
@@ -1501,6 +1579,420 @@
         "reuse_permission": null
       },
       "scope_note": "The chronology separates Kelucharan’s choreography from Laxmipriya’s performance. It describes a mixed dance style; the sequence is not labelled a pure Odissi premiere here."
+    },
+    {
+      "id": "works/re-mita-aa-sangata",
+      "title": "Re Mita Aa Sangata — label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "music_director",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Pranab Kishore Patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        },
+        {
+          "name": "Sikandar Alam",
+          "role": "artist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        },
+        {
+          "name": "Others (unnamed in label description)",
+          "role": "artist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        },
+        {
+          "name": "Sibabrata Das",
+          "role": "lyricist",
+          "source_ids": [
+            "music-re-mita-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-re-mita-label",
+        "music-mamata-amazon"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Mamata",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2024-02-29",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-re-mita-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=wd3SLHMTfm8",
+        "provider": "Saregama Odia / Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "A duet credit also includes unnamed Others; the credit list is incomplete.",
+      "is_part_of": "works/mamata-film-music",
+      "is_part_of_source_ids": [
+        "music-mamata-amazon"
+      ]
+    },
+    {
+      "id": "works/dekhi-se-banamalli",
+      "title": "Dekhi Se Banamalli — label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "music_director",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Chittaranjan Jena",
+          "role": "artist",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        },
+        {
+          "name": "P. Susheela",
+          "role": "artist",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        },
+        {
+          "name": "Sibabrata Das",
+          "role": "lyricist",
+          "source_ids": [
+            "music-dekhi-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-dekhi-label",
+        "music-mamata-amazon"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Mamata",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2024-03-07",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-dekhi-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=dzRRMvhO5w8",
+        "provider": "Saregama Odia / Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The two vocal artists and lyricist are distinct from the music director.",
+      "is_part_of": "works/mamata-film-music",
+      "is_part_of_source_ids": [
+        "music-mamata-amazon"
+      ]
+    },
+    {
+      "id": "works/mu-ta-manisha-marini",
+      "title": "Mu Ta Manisha Marini — label recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "music_director",
+          "source_ids": [
+            "music-mu-ta-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Sikandar Alam",
+          "role": "singer",
+          "source_ids": [
+            "music-mu-ta-label"
+          ]
+        },
+        {
+          "name": "Sibabrata Das",
+          "role": "lyricist",
+          "source_ids": [
+            "music-mu-ta-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-mu-ta-label",
+        "music-mamata-amazon"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Mamata",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": null,
+        "scope": "not_established",
+        "source_ids": [
+          "music-mu-ta-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.saregama.com/song/mu-ta-manisha-marini_80979",
+        "provider": "Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Indexed label credits are preserved; the full current page could not be retrieved.",
+      "is_part_of": "works/mamata-film-music",
+      "is_part_of_source_ids": [
+        "music-mamata-amazon"
+      ]
+    },
+    {
+      "id": "works/kali-kapali-prafulla",
+      "title": "Kali Kapali — Prafulla Kar catalogue recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/prafulla-kar",
+          "role": "composer_and_main_artist",
+          "source_ids": [
+            "music-kali-qobuz"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-kali-qobuz"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Sesa Srabana",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "1976-12-31",
+        "scope": "platform_album_date_not_recording_date",
+        "source_ids": [
+          "music-kali-qobuz"
+        ]
+      },
+      "duration_seconds_as_listed": 197,
+      "listening_access": {
+        "url": "https://www.qobuz.com/lu-fr/album/sesa-srabana-original-motion-picture-soundtrack-prafulla-kar/leerea1dwepjb",
+        "provider": "Qobuz distribution catalogue; label Saregama",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Qobuz lists Composer and MainArtist; lyricist is not established here. Its 2017 copyright/phonogram notice is retained separately.",
+      "rights_notice_as_listed": "(C) 2017 Saregama (P) 2017 Saregama"
+    },
+    {
+      "id": "works/guru-nanak-bhajan-sunanda",
+      "title": "Guru Nanak Bhajan — Sunanda Patnaik recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "singer",
+          "source_ids": [
+            "music-guru-nanak-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Traditional",
+          "role": "lyricist_as_catalogued",
+          "source_ids": [
+            "music-guru-nanak-label"
+          ]
+        },
+        {
+          "name": "Traditional",
+          "role": "music_director_as_catalogued",
+          "source_ids": [
+            "music-guru-nanak-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-guru-nanak-label"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Sunanda Patnaik",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": null,
+        "scope": "not_established",
+        "source_ids": [
+          "music-guru-nanak-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.saregama.com/song/guru-nanak-bhajan_53300",
+        "provider": "Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Traditional is the label’s credit, not a named author or a recording reuse licence."
+    },
+    {
+      "id": "works/sakhi-meri-manki-sunanda",
+      "title": "Sakhi Meri Manki — Sunanda Patnaik label upload",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-sakhi-label"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Traditional",
+          "role": "lyricist_as_catalogued",
+          "source_ids": [
+            "music-sakhi-label"
+          ]
+        },
+        {
+          "name": "Traditional",
+          "role": "music_director_as_catalogued",
+          "source_ids": [
+            "music-sakhi-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-sakhi-label"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": null,
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2025-12-31",
+        "scope": "label_upload_date",
+        "source_ids": [
+          "music-sakhi-label"
+        ]
+      },
+      "duration_seconds_as_listed": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=qZ6mQuhYLWI",
+        "provider": "Saregama Hindustani Classical / Saregama India Ltd",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "The label upload is a specific access route; equivalence to other Ramkali or Sakhi Meri Manki catalogue entries remains unestablished."
+    },
+    {
+      "id": "works/bhaja-govindam-sunanda",
+      "title": "Bhajan — Bhaja Govindam, Sunanda Patnaik recording",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/sunanda-patnaik",
+          "role": "artist",
+          "source_ids": [
+            "music-bhaja-spotify"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": null,
+      "source_ids": [
+        "music-bhaja-spotify"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "album_as_listed": "Classical Music From Orissa Sunanda Patnaik,Vol. 1",
+      "recording_date": null,
+      "catalogue_date": {
+        "value": "2006-04-30",
+        "scope": "platform_compilation_date_not_recording_date",
+        "source_ids": [
+          "music-bhaja-spotify"
+        ]
+      },
+      "duration_seconds_as_listed": 315,
+      "listening_access": {
+        "url": "https://open.spotify.com/track/4YKzXJgAW5XbJI0GXzxy9y",
+        "provider": "Spotify distribution catalogue; label Saregama",
+        "status": "official_label_or_distribution_route_identified_playback_unverified",
+        "checked_on": "2026-10-01",
+        "playback_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null
+      },
+      "scope_note": "Spotify gives an artist credit and compilation date. Composer and lyricist are unverified; full listening is sign-in dependent.",
+      "rights_notice_as_listed": "© 2006 Saregama India Ltd; ℗ 2006 Saregama India Ltd"
     }
   ],
   "recognition_rules": {
@@ -1509,7 +2001,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T04:11:33.006238-07:00",
+  "updated_at": "2026-10-01T04:25:30.058557-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -1550,6 +2042,17 @@
       "new_people": 4,
       "new_works": 4,
       "scope": "Four attributed theatre episodes, not four independently verified recordings or complete works."
+    },
+    {
+      "run_id": "2026-10-01-music-listening-research",
+      "task_ids": [
+        "RES-027"
+      ],
+      "status": "music_access_checkpoint_in_progress",
+      "new_people": 1,
+      "existing_people_enhanced": 1,
+      "new_works": 7,
+      "scope": "Label/distribution records with role and date distinctions; playback not verified. Twelve performing-arts work records including one soundtrack container are not twelve independent recordings."
     }
   ],
   "conflicts": [
@@ -1662,6 +2165,25 @@
         }
       ],
       "resolved_value": null
+    },
+    {
+      "person_id": "people/prafulla-kar",
+      "field": "birth_date",
+      "status": "hold_conflict",
+      "claims": [
+        {
+          "value": "1939-11-10",
+          "source_id": "creators-prafulla-sna",
+          "locator": "Award citation opening, indexed text"
+        },
+        {
+          "value": "1939-02-02",
+          "source_id": "music-prafulla-label-profile",
+          "locator": "Artist biography opening, indexed text"
+        }
+      ],
+      "resolved_value": null,
+      "next_action": "Seek authoritative biographical record; do not resolve by source prestige or frequency."
     }
   ]
 }

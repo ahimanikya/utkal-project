@@ -132,3 +132,5 @@
 - [Literature research continuation](literature-research-continuation-2026-10-01.json) — existing biographies and edition gaps, research-only checkpoint.
 
 - [Performing arts first batch](performing-arts-first-batch-2026-10-01.json) — four people, four credited theatre episodes and literature evidence gaps.
+
+- [Music listening research](music-listening-research-2026-10-01.json) — Sunanda Patnaik, Prafulla Kar and seven credited recording records.

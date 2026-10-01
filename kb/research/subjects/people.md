@@ -63,3 +63,7 @@ Subject membership is editorial classification. It does not establish historical
 - [Laxmipriya Mohapatra](../people/laxmipriya-mohapatra.md)
 - [Sanjukta Panigrahi](../people/sanjukta-panigrahi.md)
 - [Raghunath Panigrahi](../people/raghunath-panigrahi.md)
+
+## Vocal music
+
+[Sunanda Patnaik](../people/sunanda-patnaik.md) and [Prafulla Kar](../people/prafulla-kar.md) connect the collection with Hindustani singing, Odia film music and named diaspora recognition.

@@ -39,3 +39,17 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Dashavatara in Sadhava Jhia — duet, 1947](dashavatara-sadhava-jhia-1947.md)
 
 - [Aloka — dance sequence, 1948](aloka-dance-sequence-1948.md)
+
+- [Re Mita Aa Sangata — label recording](re-mita-aa-sangata.md)
+
+- [Dekhi Se Banamalli — label recording](dekhi-se-banamalli.md)
+
+- [Mu Ta Manisha Marini — label recording](mu-ta-manisha-marini.md)
+
+- [Kali Kapali — Prafulla Kar catalogue recording](kali-kapali-prafulla.md)
+
+- [Guru Nanak Bhajan — Sunanda Patnaik recording](guru-nanak-bhajan-sunanda.md)
+
+- [Sakhi Meri Manki — Sunanda Patnaik label upload](sakhi-meri-manki-sunanda.md)
+
+- [Bhajan — Bhaja Govindam, Sunanda Patnaik recording](bhaja-govindam-sunanda.md)

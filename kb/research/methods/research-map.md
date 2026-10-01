@@ -89,3 +89,7 @@ RES-026 added five bibliographic source identities and enhanced three existing p
 ### Performing-arts extension · 1 October 2026
 
 Added seven source records, four people and four scoped theatre episodes. The current inventory has 780 entries; original audit counts are preserved. Individual episodes and their creator roles must not be merged into the underlying play or poem.
+
+### Music-catalogue extension · 1 October 2026
+
+Added eleven sources, one person and seven recording-specific identities; current inventory 799. Existing Mamata and Prafulla Kar records were enhanced. Label pages and label-supplied platform metadata are one evidence family, not independent corroboration. Similarly titled renditions remain separate pending recording identifiers.

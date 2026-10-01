@@ -49,3 +49,7 @@ Subject membership is editorial classification. It does not establish historical
 - [Devi — Mahadev performance, 1946](../works/devi-mahadev-performance-1946.md)
 - [Dashavatara in Sadhava Jhia — duet, 1947](../works/dashavatara-sadhava-jhia-1947.md)
 - [Aloka — dance sequence, 1948](../works/aloka-dance-sequence-1948.md)
+
+## Music with credits
+
+The [Mamata soundtrack](../works/mamata-film-music.md), [Kali Kapali catalogue recording](../works/kali-kapali-prafulla.md) and [Sunanda Patnaik selections](../people/sunanda-patnaik.md) offer label-linked listening research. A named distribution route is not confirmation of playback in every region.
