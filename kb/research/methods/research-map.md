@@ -189,3 +189,7 @@ User-requested RES-040 adds Pala as an arts/everyday-life topic, six source reco
 ## Koli fruit-name seed · 1 October 2026
 
 RES-041 saves twelve selected name-to-taxon records and the Khirakoli overlap, using RPRC and original research. Names and seasons retain source scope; no statewide variety total, accepted-taxonomy claim, health effect or export measurement. Local/Odia review, specimen reconciliation and attributed recipes remain open. Existing everyday-food identity reused.
+
+## Bela pana extension · 1 October 2026
+
+RES-039 now includes a source-attributed summer drink method, a richer variant and an institutional 2023 New Year event record. Existing Balasore botanical evidence reused; Bela and kaitha kept separate. Recipe quantities/testing, local/Odia review and market data remain open. The Odisha Review PDF exceeds browser fetch size; retry 8 October. Tala khaja seed-stage gap remains unchanged.

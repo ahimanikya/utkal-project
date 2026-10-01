@@ -49,3 +49,5 @@ Next collection candidates are saga preparations, ambula and other souring ingre
 [pakhala](pakhala.md) — Connects pakhala with the collection’s documented meal practices; this is editorial context, not a claim of uniform statewide custom.
 
 [Koli: local fruit names and varieties](koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
+
+[Bela pana](bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.

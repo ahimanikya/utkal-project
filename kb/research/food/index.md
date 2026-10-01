@@ -38,3 +38,5 @@ Foods, ingredients and culinary story opportunities.
 [Odisha’s everyday food culture](everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
 
 [Koli: local fruit names and varieties](koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
+
+[Bela pana](bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.

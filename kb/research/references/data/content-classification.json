@@ -3943,6 +3943,16 @@
       "content_type": "Food Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/bela-pana",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Food",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5553,6 +5563,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects fruit names and seasonal food knowledge with the existing everyday-food collection; local names do not establish identical botanical species."
+    },
+    {
+      "from": "food/bela-pana",
+      "to": "food/everyday-food-culture",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a seasonal fruit drink with household food knowledge and documented preparations."
+    },
+    {
+      "from": "food/bela-pana",
+      "to": "food/koli-fruits",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects Bela ingredient identification with source-specific local fruit names; this does not classify Bela as a koli cultivar."
     }
   ],
   "relationship_types": {

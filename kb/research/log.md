@@ -220,3 +220,7 @@ Added a performing-tradition overview, six sources, five dated performer/present
 ## 1 October 2026 · Koli varieties
 
 Added a source-linked local-fruit collection, three primary sources and structured name/season evidence. Twelve selected mappings and one separate naming conflict preserved; no unsupported species merge or statewide count. RES-041’s bounded seed is complete; local review and recipes remain research follow-ups.
+
+## 1 October 2026 · Bela pana in summer
+
+Added Bela pana to everyday food research with preparation, quantity gaps, a credited richer variation and a dated university festival observation. Reused fruit evidence and extended RES-039. Three new sources; no health, statewide-sales or publication claim.

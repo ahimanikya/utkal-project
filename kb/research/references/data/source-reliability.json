@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:27:31.885197+00:00",
+  "updated_at": "2026-10-01T18:35:46.552469+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3824,6 +3824,42 @@
       "run_id": "2026-10-01-koli",
       "status": "unavailable",
       "scope": "PDF screenshots for zero-based pages 7 and 8 failed. Full PDF text is separately available; no visual verification claimed.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-bela-sahoo2021",
+      "discovery_url": "https://rosheighara.wordpress.com/2021/04/16/4-traditional-healthy-drinks-of-odisha/",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "available",
+      "scope": "First-person recipe; updated 17 April 2021. Exact glass volume, sugar amount and pepper quantity unresolved. No clinical claims adopted; author not identity-linked to other Sasmita recipe contributors.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-bela-kugaji2023",
+      "discovery_url": "https://chefreetuudaykugaji.com/blog/2023/03/06/bael-ka-sharbat-bel-ka-sharbatwood-apple-sharbat%EF%BF%BC/",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "available",
+      "scope": "Updated 8 March 2023. Attribution for a richer Bela pana variant only. The measured concentrate recipe below is a broader sharbat recipe, not adopted as the Bela pana formula. No medical or three-month storage claims adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-bela-fmu2023",
+      "discovery_url": "https://fmuniversity.nic.in/getdata?dir=InstituteNews&rid=inewsEvent75_15420231681554279989.pdf",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "available",
+      "scope": "Report dated 14 April 2023: university event at Nuapadhi, Balasore; not a statewide custom survey. Browser cache fetch failed; original PDF downloaded and text extracted successfully. Publication upload date not separately established.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-bela-review2023-lead",
+      "discovery_url": "https://ova.gov.in/ovauploads/IandPRDeptRepository/01012024120615_-0-Odisha-Review-Sept-Oct-2023.pdf",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "unavailable",
+      "scope": "Browser reports content length too large (72,797,745 bytes). Indexed article title and cultural lead discovered; full text not inspected or treated as a verified source.",
       "retry_after": "2026-10-08"
     }
   ]

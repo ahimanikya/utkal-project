@@ -14536,6 +14536,72 @@
         "food-koli-pectin2020"
       ],
       "added_at": "2026-10-01T18:27:31.885197+00:00"
+    },
+    {
+      "id": "sources/food-bela-sahoo2021",
+      "title": "4 traditional , healthy drinks of odisha",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-bela-sahoo2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-bela-sahoo2021"
+      ],
+      "added_at": "2026-10-01T18:35:46.552469+00:00"
+    },
+    {
+      "id": "sources/food-bela-kugaji2023",
+      "title": "Bael Ka Sharbat (Bel Ka Sharbat)(Wood Apple Sharbat)",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-bela-kugaji2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-bela-kugaji2023"
+      ],
+      "added_at": "2026-10-01T18:35:46.552469+00:00"
+    },
+    {
+      "id": "sources/food-bela-fmu2023",
+      "title": "Celebration of 132nd birth anniversary of Baba Saheb Ambedkar and Odia New Year",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-bela-fmu2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-bela-fmu2023"
+      ],
+      "added_at": "2026-10-01T18:35:46.552469+00:00"
+    },
+    {
+      "id": "food/bela-pana",
+      "title": "Bela pana: a summer drink and an Odia New Year connection",
+      "kind": "Food",
+      "layer": "research_concept",
+      "source_path": "food/bela-pana.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "everyday"
+      ],
+      "source_ids": [
+        "food-bela-sahoo2021",
+        "food-bela-kugaji2023",
+        "food-bela-fmu2023",
+        "food-koli-balasore2020"
+      ],
+      "added_at": "2026-10-01T18:35:46.552469+00:00"
     }
   ],
   "shared_publications": [
@@ -15358,7 +15424,9 @@
         "food/chatu-patrapoda.md",
         "food/pakhala.md",
         "food/poda-pitha.md",
-        "references/data/everyday-food-culture.json"
+        "references/data/everyday-food-culture.json",
+        "food/bela-pana.md",
+        "sources/food-koli-balasore2020.md"
       ],
       "project_records": [
         "kb/research/food/pakhala.md",
@@ -15416,8 +15484,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1020,
-    "updated_at": "2026-10-01T18:27:31.885197+00:00",
+    "records_mapped": 1024,
+    "updated_at": "2026-10-01T18:35:46.552469+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -15758,6 +15826,11 @@
       "run_id": "2026-10-01-koli",
       "at": "2026-10-01T18:27:31.885197+00:00",
       "scope": "One local-fruit collection and three primary sources; no pre-existing fruit identity found in saved source/project searches."
+    },
+    {
+      "run_id": "2026-10-01-bela-pana",
+      "at": "2026-10-01T18:35:46.552469+00:00",
+      "scope": "Bela pana extends RES-039; reused Balasore botanical evidence and everyday collection. Three new accounts; no new duplicate queue task."
     }
   ]
 }

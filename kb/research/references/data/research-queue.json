@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T18:27:31.885197+00:00",
+  "updated_at": "2026-10-01T18:35:46.552469+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1675,9 +1675,9 @@
       "done_when": "Save attributed everyday-food entries and connections for the supplied foods; identify tala khaja seed stage through a named local or documentary account, preserving uncertainty and source scope.",
       "target": "food/everyday-food-culture.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T18:07:08.675156+00:00",
+      "last_worked_at": "2026-10-01T18:35:46.552469+00:00",
       "next_step": "Resolve tala khaja seed stage and local name from documentary evidence; use the user clarification as a lead, not independent verification. Extend existing records before adding more foods.",
       "evidence_outputs": [
         "sources/food-badi-sasmita2017.md",
@@ -1692,7 +1692,11 @@
         "food/torani.md",
         "food/torani-kanji.md",
         "food/everyday-food-culture.md",
-        "references/data/everyday-food-culture.json"
+        "references/data/everyday-food-culture.json",
+        "sources/food-bela-sahoo2021.md",
+        "sources/food-bela-kugaji2023.md",
+        "sources/food-bela-fmu2023.md",
+        "food/bela-pana.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1702,6 +1706,12 @@
           "at": "2026-10-01T18:07:08.675156+00:00",
           "outcome": "five_food_entries_and_collection_saved_seed_identity_pending",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-bela-pana",
+          "at": "2026-10-01T18:35:46.552469+00:00",
+          "outcome": "bela_pana_extension_saved_tala_khaja_still_unresolved",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -1710,7 +1720,9 @@
           "food/chatu-patrapoda.md",
           "food/pakhala.md",
           "food/poda-pitha.md",
-          "references/data/everyday-food-culture.json"
+          "references/data/everyday-food-culture.json",
+          "food/bela-pana.md",
+          "sources/food-koli-balasore2020.md"
         ],
         "project_records": [
           "kb/research/food/pakhala.md",

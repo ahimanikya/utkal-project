@@ -131,3 +131,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Koli fruit diversity
 
 [Research receipt](records/koli-2026-10-01.json): selected names, reported botanical identities and source-specific seasons. Khirakoli overlap remains open. Locality review and recipes are follow-ups; no website release.
+
+## 1 October 2026 · Bela pana in summer
+
+[Research receipt](records/bela-pana-2026-10-01.json): summer-drink method, quantity gaps and a university New Year observation. Measured recipe and local review remain pending; no website release.

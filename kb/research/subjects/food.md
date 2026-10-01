@@ -63,3 +63,5 @@ Subject membership is editorial classification. It does not establish historical
 [Odisha’s everyday food culture](../food/everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
 
 [Koli: local fruit names and varieties](../food/koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
+
+[Bela pana](../food/bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
