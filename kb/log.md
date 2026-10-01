@@ -179,3 +179,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Woven in Odisha candidate](records/woven-textile-stories-review.json): Bandha, Khandua and Kotpad stories, four licensed visuals and a saved textile journey. Original Kotpad report recovered; existing URL preserved. Public candidate has 121 pages; published baseline remains 117. Browser/local review and wider RES-012 research remain open.
+
+## 2026-10-01
+
+[Woven in Odisha textile collection published](records/woven-textile-stories-publication.json) after Founder approval of PR 45. Four textile pages and a saved journey are live; current backlog baseline advanced to 121 pages with earlier snapshots and remaining review limitations preserved.
