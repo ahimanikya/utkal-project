@@ -121,3 +121,9 @@ The Founder found the first reference pages jumpy and disorganised. Reusable pat
 ## Magazine family in rc.4
 
 The selected visual magazine direction now provides shared cover, chapter navigation, reading rows and warm chapter styles. Four local references compare a lagoon, a heritage destination, a food and a writer. Mobile navigation uses a native disclosure and the cover places its photograph before the actions. [Review checkpoint and remaining rollout](magazine-family-review.md). Earlier rc.3 statements above record the previous stage.
+
+## Planning hub application · 1 October 2026
+
+The four-hub candidate applies existing tokens and cards through a shared site component; it does not introduce a new core package version. One compact planning navigation connects destinations, food, experiences, stay areas and starters. Group idea cards by area, keep jump links stable and let a single pictured card use the available width. A desktop opening must explicitly escape inherited narrow reading widths; keep reading text measured inside the wider canvas.
+
+Use a contextual photograph to invite exploration, preserve full-frame performance imagery when requested, and label landscape images used for stay-area research. Keep rights and source detail in the closing disclosure. Do not add a second generic related-content ending to a hub. Keyboard paths and real saved-journey continuity are acceptance checks alongside responsive screenshots. Evidence: [planning hub review](../records/planning-hubs-review.json).
