@@ -168,3 +168,7 @@ Added five public servants/lawmakers, a connected governance collection and the 
 ## 2026-10-01
 
 Added five ruler profiles and a connected royal-legacy collection with seven new sources and one reused UNESCO capture. Linked existing Konark and Puri pages. Kept epigraphic claims, institutional heritage attribution and historical synthesis distinct; Kharavela dating/location issues and Srisailam interpretation limits remain visible. No quantitative popularity, empire-area or economic-impact claim added. Research-only update; no human factual review or website publication claimed.
+
+## 2026-10-01
+
+Resumed RES-029: added Lalit Mohan Patnaik and a jointly credited 1994 computing paper. Four institutional/author sources document education, collaboration, recognition and bibliography. CV pages1/75 visually inspected; original paper not read. Stored retrieval failures and retry dates. Historical and women-in-science coverage remains open; no website publication or human factual review claimed.

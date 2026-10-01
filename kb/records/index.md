@@ -158,3 +158,5 @@
 - [Public servants and lawmakers](public-service-2026-10-01.json) — Five people, a credited English translation and classified national contributions; RES-037 complete.
 
 - [Utkal rulers and royal legacies](rulers-2026-10-01.json) — Five ruler profiles, scoped historical evidence and reused monument records; RES-038 complete.
+
+- [Computing research checkpoint](science-computing-2026-10-01.json) — One computing researcher and coauthored paper; RES-029 remains in progress.

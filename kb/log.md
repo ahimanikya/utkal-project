@@ -75,3 +75,7 @@ Added five public-service profiles, institutional roles and a translated work. [
 ## 2026-10-01
 
 Added five ruler profiles, a royal-legacy collection and scoped historical claims. [Bounded receipt](records/rulers-2026-10-01.json). Power, patronage and remembrance distinguished. Source chronology issues and epigraphic interpretation limits retained. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added Lalit Mohan Patnaik and a jointly credited 1994 computing paper. [Bounded receipt](records/science-computing-2026-10-01.json). CV bibliography, institutional roles and dated recognition distinguished; original paper not read. RES-029 remains in progress. No website publication or human factual review claimed.

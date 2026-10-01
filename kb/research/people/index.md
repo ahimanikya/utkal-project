@@ -123,3 +123,5 @@
 - [Kapilendra Deva (Kapilesvara)](kapilendra-deva.md)
 
 - [Utkal’s rulers and royal legacies](rulers-and-royal-legacies.md)
+
+- [Lalit Mohan Patnaik](lalit-mohan-patnaik.md)

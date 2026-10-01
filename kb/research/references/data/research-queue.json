@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T08:15:53.740887-07:00",
+  "updated_at": "2026-10-01T08:27:41.433178-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -545,10 +545,10 @@
       "done_when": "Build a documented timeline from Utkal’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
       "target": "people/people-and-creations.md",
       "status": "in_progress",
-      "attempts": 4,
+      "attempts": 5,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T07:08:07.809761-07:00",
-      "next_step": "Continue RES-029 with contemporary computing, engineering and women researchers whose Odisha connections can be documented. Reuse the nine mapped identities. Keep historical attribution open; resolve Mohapatra birth/award and Pati degree conflicts through original registers, retrying failed routes after 2026-10-08.",
+      "last_worked_at": "2026-10-01T08:27:41.433178-07:00",
+      "next_step": "Continue with a bounded women-in-computing or engineering contribution, searching existing identities first. Lalit Mohan Patnaik and his 1994 paper are now saved: do not repeat discovery. Retrieve original paper/award page after 2026-10-08; preserve historical gaps and previous conflict retries.",
       "evidence_outputs": [
         "people/science-and-contributions.md",
         "people/swati-nayak.md",
@@ -567,7 +567,9 @@
         "people/gokulananda-mohapatra.md",
         "works/pati-summability-1960.md",
         "works/e-jugara-shrestha-abiskar.md",
-        "works/baigyanika-gyanakosha.md"
+        "works/baigyanika-gyanakosha.md",
+        "people/lalit-mohan-patnaik.md",
+        "works/adaptive-genetic-algorithms-1994.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -591,7 +593,9 @@
           "people/gokulananda-mohapatra.md",
           "works/pati-summability-1960.md",
           "works/e-jugara-shrestha-abiskar.md",
-          "works/baigyanika-gyanakosha.md"
+          "works/baigyanika-gyanakosha.md",
+          "people/lalit-mohan-patnaik.md",
+          "works/adaptive-genetic-algorithms-1994.md"
         ],
         "project_records": [
           "kb/research/people/samanta-chandrasekhar.md",
@@ -639,6 +643,15 @@
           "new_people": 2,
           "new_works": 3,
           "conflicts_saved": 5,
+          "retry_after": "2026-10-08"
+        },
+        {
+          "run_id": "2026-10-01-science-computing",
+          "at": "2026-10-01T08:27:41.433178-07:00",
+          "outcome": "computing_checkpoint",
+          "completion_criteria_met": false,
+          "new_people": 1,
+          "new_works": 1,
           "retry_after": "2026-10-08"
         }
       ],

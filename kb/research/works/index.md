@@ -93,3 +93,5 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Sujata Mohapatra: JIPMER Odissi recital,2025](sujata-jipmer-recital-2025.md)
 
 - [Gaon Majlis — English translation](gaon-majlis-english.md)
+
+- [Adaptive genetic algorithms — 1994 paper](adaptive-genetic-algorithms-1994.md)

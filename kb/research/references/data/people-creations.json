@@ -1944,6 +1944,43 @@
       "work_ids": [],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/lalit-mohan-patnaik",
+      "name": "Lalit Mohan Patnaik",
+      "fields": [
+        "computer science",
+        "computer engineering"
+      ],
+      "odisha_connection": {
+        "description": "Self-reported 1969 Sambalpur University engineering degree in academy-hosted CV; IIT Bhubaneswar directly lists AHRC adviser/research collaborator role. Birthplace and ethnic identity not inferred.",
+        "source_ids": [
+          "science-lmp-cv",
+          "science-lmp-iitbbs"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international academy and computing recognition",
+          "basis": "TWAS election 1998; IEEE Computer Society issuer indexed record of 1999 Technical Achievement Award.",
+          "source_ids": [
+            "science-lmp-twas",
+            "science-lmp-ieee-award"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/adaptive-genetic-algorithms-1994"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -4059,6 +4096,50 @@
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
       "live_stock": null
+    },
+    {
+      "id": "works/adaptive-genetic-algorithms-1994",
+      "title": "Adaptive probabilities of crossover and mutation in genetic algorithms",
+      "work_type": "research_paper",
+      "creator_links": [
+        {
+          "person_id": "people/lalit-mohan-patnaik",
+          "role": "coauthor",
+          "source_ids": [
+            "science-lmp-cv"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "M. Srinivas",
+          "role": "coauthor; listed first",
+          "source_ids": [
+            "science-lmp-cv"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English bibliographic record; original full text not inspected or access-verified",
+        "source_ids": [
+          "science-lmp-cv"
+        ]
+      },
+      "edition": {
+        "publication_date": "1994-04",
+        "journal": "IEEE Transactions on Systems, Man, and Cybernetics",
+        "volume": 24,
+        "issue": 4,
+        "pages": "656–667",
+        "doi_route": "10.1109/21.286385",
+        "metadata_basis": "CV bibliography entry506; DOI resolves but publisher content challenged access"
+      },
+      "source_ids": [
+        "science-lmp-cv"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
     }
   ],
   "recognition_rules": {
@@ -4067,7 +4148,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T08:15:53.740887-07:00",
+  "updated_at": "2026-10-01T08:27:41.433178-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -4258,6 +4339,16 @@
       "new_people": 5,
       "new_works": 0,
       "scope": "Five selected historical rulers; legacy and power evidence, not an exhaustive king list or measured popularity."
+    },
+    {
+      "run_id": "2026-10-01-science-computing",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "computing_checkpoint",
+      "new_people": 1,
+      "new_works": 1,
+      "scope": "One selected computing researcher and coauthored bibliography; full-paper interpretation remains open."
     }
   ],
   "conflicts": [

@@ -43,3 +43,7 @@ The [structured timeline and research lanes](../references/data/science-heritage
 ## Mathematics and science in Odia · 1 October 2026
 
 [Tribikram Pati](tribikram-pati.md) adds a jointly credited 1960 mathematics paper. [Gokulananda Mohapatra](gokulananda-mohapatra.md) connects science with Odia literature and encyclopaedic writing. Two new profiles extend the selected timeline to nine identities including project-native Samanta; this is a research count, not a statewide total. Birth-date, degree and award conflicts remain recorded; research, education and science communication are distinct contributions.
+
+## Computing and engineering · 1 October 2026
+
+[Lalit Mohan Patnaik](lalit-mohan-patnaik.md) adds computing to the selected timeline through a Sambalpur education connection, IIT Bhubaneswar collaboration, TWAS election and a jointly credited 1994 paper. The [genetic-algorithms work](../works/adaptive-genetic-algorithms-1994.md) connects recognition with a named publication; bibliography verification does not replace reading its methods. Ten selected identities now appear in this evolving timeline, including project-native Samanta; this is not a statewide count.

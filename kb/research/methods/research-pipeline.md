@@ -135,3 +135,7 @@ RES-037 completes the bounded five-person seed. Extend through original debate, 
 ### Ruler user extension · 1 October 2026
 
 RES-038 completes the bounded five-person seed. Extend through original Nagari/Hathigumpha editions and independent Gajapati records; verify regional rulers and Bhaumakara queens. RES-029 remains active independently.
+
+### Computing checkpoint · 1 October 2026
+
+RES-029 remains in progress. Continue with a bounded women-in-computing or engineering contribution, searching existing identities first. Lalit Mohan Patnaik and his 1994 paper are now saved: do not repeat discovery. Retrieve original paper/award page after 2026-10-08; preserve historical gaps and previous conflict retries.

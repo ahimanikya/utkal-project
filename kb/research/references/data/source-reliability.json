@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T08:15:53.740887-07:00",
+  "updated_at": "2026-10-01T08:27:41.433178-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1165,6 +1165,10 @@
     {
       "run_id": "2026-10-01-rulers",
       "scope": "Requested rulers research; recovered IGNCA PDF visually inspected within saved scope, not weekly monitoring."
+    },
+    {
+      "run_id": "2026-10-01-science-computing",
+      "scope": "Bounded computing researcher and bibliography; not weekly metric monitoring. CV web screenshot failed, binary download and local visual inspection succeeded."
     }
   ],
   "supplemental_discovery_routes": [
@@ -2955,6 +2959,96 @@
       "run_id": "2026-10-01-rulers",
       "status": "unavailable_direct_fetch",
       "scope": "Direct fetch failed; indexed captures, where used, labelled separately. Journal curl routes had TLS certificate failures. No unavailable source called unchanged.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-lmp-twas",
+      "discovery_url": "https://twas.org/directory/patnaik-lalit-mohan",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "available_with_scoped_capture",
+      "scope": "Issuer register records 1998 election and Information and Data Sciences & Technologies section. Historical career information is not proof of present employment. Displayed last-update string 02/05/2025 retained without assuming date convention.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-lmp-cv",
+      "discovery_url": "https://twas.org/system/files/cv/full_biodata_pdf.23_aug2016.pdf",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "available_with_scoped_capture",
+      "scope": "Self-reported CV hosted by an academy, not an independently audited biography. Visually inspected education table and bibliography entry506. BSc Engineering, Sambalpur University, 1969; 1994 paper credited to M. Srinivas and L.M. Patnaik. Did not read all 87 pages or original paper. Filename date is a vintage clue, not confirmed publication date. Private contact fields are not imported. Alternate TWAS URLs represent the same CV.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-lmp-iitbbs",
+      "discovery_url": "https://www.iitbbs.ac.in/index.php/ahrc/ahrc-advisor-prof-lalit-mohan-patnaik/",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "available_with_scoped_capture",
+      "scope": "Institution directly lists adviser and research collaborator role. Page undated, retrieved 1 October 2026; no appointment start inferred. Research interests include architecture, distributed/parallel computing and AI. Undated citation, publication and supervision totals not promoted as current metrics.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-lmp-ieee-award",
+      "discovery_url": "https://www.computer.org/profiles/lm-patnaik",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Issuer indexed record recognises contributions in parallel, distributed and soft computing. Direct profile failed; alternate award register returned 403. Present-tense DIAT vice-chancellor wording is historical and not used as current employment. No career publication count or sole-invention claim imported.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://doi.org/10.1109/21.286385",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "unavailable_direct_fetch",
+      "scope": "Resolved to IEEE document286385; automated-access challenge, no abstract/full paper read.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.computer.org/volunteering/awards/technical-achievement",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "unavailable_direct_fetch",
+      "scope": "403 on direct retrieval; indexed issuer listing only.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.nitrkl.ac.in/docs/Institute/Minutes/BOG/161007220430_1.pdf",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct failed; no degree/alumnus claim imported from this lead.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://nitrkl.ac.in/docs/Institute/Minutes/BOG/161007220430_1.pdf",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "unavailable_direct_fetch",
+      "scope": "Alternate host also unavailable.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://lmpatnaik.in/",
+      "checked_at": "2026-10-01T08:27:41.433178-07:00",
+      "run_id": "2026-10-01-science-computing",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct homepage fetch failed; not used as evidence.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T07:08:07.809761-07:00",
+  "updated_at": "2026-10-01T08:27:41.433178-07:00",
   "coverage": "Historical Utkal/Odisha connections to the present; selected evidence, not complete census or continuous lineage. Ancient Utkal, Kalinga and modern Odisha boundaries must be established for each record.",
   "timeline": [
     {
@@ -95,6 +95,19 @@
         "science-gokulananda-ova"
       ],
       "status": "indexed_institutional_evidence_with_conflicts"
+    },
+    {
+      "period": "1994 paper; TWAS election 1998; IEEE award 1999",
+      "person_id": "people/lalit-mohan-patnaik",
+      "work_id": "works/adaptive-genetic-algorithms-1994",
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "status": "institutional_records_and_author_bibliography",
+      "note": "CV education and paper entry inspected; original article not read; IEEE award evidence indexed only."
     }
   ],
   "research_lanes": [
@@ -397,6 +410,30 @@
         }
       ],
       "public_resolution": "University doctoral register needed; exact degree dates withheld."
+    }
+  ],
+  "contemporary_evidence": [
+    {
+      "person_id": "people/lalit-mohan-patnaik",
+      "odisha_connection_type": [
+        "education",
+        "institutional_collaboration"
+      ],
+      "work_ids": [
+        "works/adaptive-genetic-algorithms-1994"
+      ],
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "full_paper_read": false,
+      "current_citation_count": null,
+      "current_publication_total": null,
+      "measured_economic_impact": null,
+      "identity_warning": "Not merged with younger researcher named Lalit Patnaik; exact birthplace not adopted.",
+      "next_review": "2026-10-08"
     }
   ]
 }

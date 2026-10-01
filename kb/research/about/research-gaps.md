@@ -166,3 +166,7 @@ Compare Biswanath Das’s debate transcript with Parliament facsimile; direct PD
 ### Ruler-history gaps · 1 October 2026
 
 Original Hathigumpha/Nagari charter editions and Cuttack article facsimile remain open. Kharavela chronology and ASI catalogue district issue are quarantined. Kapilesvara Srisailam introduction/interpretation inspected in EI XXXVI pp. 75–78; personal presence, damaged donation details and territorial extent remain unestablished. Retry failed journal/district routes after 8 October. Add dated reception evidence before calling a ruler popular; never derive empire area from praise titles. Purushottama, Prataparudra, Bhaumakara queens, Krushna Chandra Gajapati and Sriram Chandra Bhanja Deo remain candidates.
+
+### Computing evidence limits · 1 October 2026
+
+Patnaik’s 1994 genetic-algorithms paper is currently a CV-verified bibliography, not a full-paper review. IEEE Xplore challenged access; IEEE award profile/register direct routes and NIT Rourkela minutes were unavailable. Retry after 8 October. Preserve undated citation/publication totals as unadopted claims, not fresh indicators. Birthplace, benchmark gains, current employment and measured Odisha impact remain outside this checkpoint.

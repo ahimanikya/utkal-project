@@ -474,3 +474,11 @@
 - [Srisailam Inscription of Kapilesvara, Saka 1382](rulers-kapilesvara-srisailam.md)
 
 - [Sakti Worship During the Suryavamsi Period](rulers-gajapati-name-context.md)
+
+- [Lalit Mohan Patnaik: TWAS fellow directory](science-lmp-twas.md)
+
+- [L. M. Patnaik: academy-hosted biodata and publication list](science-lmp-cv.md)
+
+- [Lalit Mohan Patnaik: IIT Bhubaneswar AHRC adviser](science-lmp-iitbbs.md)
+
+- [L. M. Patnaik: 1999 Technical Achievement Award](science-lmp-ieee-award.md)

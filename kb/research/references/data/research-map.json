@@ -13399,6 +13399,105 @@
         "konark"
       ],
       "added_at": "2026-10-01T08:15:53.740887-07:00"
+    },
+    {
+      "id": "sources/science-lmp-twas",
+      "title": "Lalit Mohan Patnaik: TWAS fellow directory",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-lmp-twas.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-lmp-twas"
+      ],
+      "added_at": "2026-10-01T08:27:41.433178-07:00"
+    },
+    {
+      "id": "sources/science-lmp-cv",
+      "title": "L. M. Patnaik: academy-hosted biodata and publication list",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-lmp-cv.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-lmp-cv"
+      ],
+      "added_at": "2026-10-01T08:27:41.433178-07:00"
+    },
+    {
+      "id": "sources/science-lmp-iitbbs",
+      "title": "Lalit Mohan Patnaik: IIT Bhubaneswar AHRC adviser",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-lmp-iitbbs.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-lmp-iitbbs"
+      ],
+      "added_at": "2026-10-01T08:27:41.433178-07:00"
+    },
+    {
+      "id": "sources/science-lmp-ieee-award",
+      "title": "L. M. Patnaik: 1999 Technical Achievement Award",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-lmp-ieee-award.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-lmp-ieee-award"
+      ],
+      "added_at": "2026-10-01T08:27:41.433178-07:00"
+    },
+    {
+      "id": "people/lalit-mohan-patnaik",
+      "title": "Lalit Mohan Patnaik",
+      "kind": "Person",
+      "layer": "research_concept",
+      "source_path": "people/lalit-mohan-patnaik.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "added_at": "2026-10-01T08:27:41.433178-07:00"
+    },
+    {
+      "id": "works/adaptive-genetic-algorithms-1994",
+      "title": "Adaptive probabilities of crossover and mutation in genetic algorithms",
+      "kind": "Work",
+      "layer": "research_concept",
+      "source_path": "works/adaptive-genetic-algorithms-1994.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-lmp-cv"
+      ],
+      "added_at": "2026-10-01T08:27:41.433178-07:00"
     }
   ],
   "shared_publications": [
@@ -13767,7 +13866,9 @@
         "people/gokulananda-mohapatra.md",
         "works/pati-summability-1960.md",
         "works/e-jugara-shrestha-abiskar.md",
-        "works/baigyanika-gyanakosha.md"
+        "works/baigyanika-gyanakosha.md",
+        "people/lalit-mohan-patnaik.md",
+        "works/adaptive-genetic-algorithms-1994.md"
       ],
       "project_records": [
         "kb/research/people/samanta-chandrasekhar.md",
@@ -14199,8 +14300,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 949,
-    "updated_at": "2026-10-01T08:15:53.740887-07:00",
+    "records_mapped": 955,
+    "updated_at": "2026-10-01T08:27:41.433178-07:00",
     "scope": "Original audit plus explicit identity extensions."
   },
   "extension_history": [
@@ -14432,6 +14533,18 @@
         "places/jagannath-temple-puri"
       ],
       "source_family_note": "Konark/legacy-unesco same publication; Tourism pages same publisher; journal citations of Sircar not independent corroboration."
+    },
+    {
+      "run_id": "2026-10-01-science-computing",
+      "added_source_records": [
+        "science-lmp-twas",
+        "science-lmp-cv",
+        "science-lmp-iitbbs",
+        "science-lmp-ieee-award"
+      ],
+      "new_people_or_work_records": 2,
+      "new_collection_records": 0,
+      "source_family_note": "TWAS directory and hosted CV have different evidence roles; alternate CV URLs are one document. IEEE profile and award register are one issuer family."
     }
   ]
 }
