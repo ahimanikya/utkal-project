@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T01:59:43.640469+00:00",
+  "recorded_at": "2026-10-01T02:13:34.846097+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2154,10 +2154,10 @@
       "title": "Verify native PDF pagination for the journey book",
       "category": "website_quality",
       "status": "completed",
-      "readiness": "applied",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-060",
-      "next_action": "Six native Chromium A4/Letter cases verified and Founder approved the fixes in PR 13. Deployment tracked separately in UTP-WORK-106.",
+      "next_action": "Published and verified. Native PDF evidence retained; local confirmations, fluent-language and broader accessibility review remain separately tracked.",
       "blockers": [],
       "refs": [
         "UTP-WORK-079",
@@ -2165,7 +2165,10 @@
         "UTP-REV-048",
         "UTP-DEC-091",
         "UTP-REV-067",
-        "UTP-DEC-092"
+        "UTP-DEC-092",
+        "UTP-DEC-093",
+        "UTP-REV-068",
+        "UTP-REL-015"
       ],
       "evidence": [
         "records/visitor-flow-review.json",
@@ -2173,7 +2176,8 @@
         "research/product/launch-quality-2026-09-30.md",
         "records/visitor-readiness-review.json",
         "records/evidence/visitor-readiness-2026-10-01/print-matrix.json",
-        "records/visitor-readiness-merge.json"
+        "records/visitor-readiness-merge.json",
+        "records/visitor-readiness-publication.json"
       ]
     },
     {
@@ -2900,30 +2904,32 @@
       "id": "UTP-WORK-106",
       "title": "Visitor readiness: three guides, portable books, analytics and review queue",
       "category": "website_quality",
-      "status": "in_progress",
-      "readiness": "applied",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-091",
-      "next_action": "Merged with Founder approval. Deployment blocked by automatic approval review pending explicit production-deployment confirmation; then verify live consent and GA Realtime.",
-      "blockers": [
-        "Explicit production-deployment confirmation requested after automatic approval review rejection."
-      ],
+      "next_action": "Published and verified. Native PDF evidence retained; local confirmations, fluent-language and broader accessibility review remain separately tracked.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-091",
         "UTP-REV-067",
         "UTP-WORK-080",
         "UTP-WORK-097",
-        "UTP-DEC-092"
+        "UTP-DEC-092",
+        "UTP-DEC-093",
+        "UTP-REV-068",
+        "UTP-REL-015"
       ],
       "evidence": [
         "research/product/visitor-readiness-2026-10-01.md",
         "records/visitor-readiness-review.json",
         "research/technology/analytics.md",
-        "records/visitor-readiness-merge.json"
+        "records/visitor-readiness-merge.json",
+        "records/visitor-readiness-publication.json"
       ]
     }
   ],
@@ -4775,6 +4781,28 @@
       "evidence": [
         "records/visitor-readiness-merge.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-093",
+      "title": "Explicitly deploy visitor-readiness PR 13 with optional analytics",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Explicit approval in response to the request to deploy merged PR 13 to utkalproject.org, including optional consent-based analytics. Resolves the separate production-deployment approval requirement.",
+      "recorded_at": "2026-10-01T02:13:34.846097+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-092",
+        "UTP-WORK-106",
+        "UTP-WORK-080"
+      ],
+      "evidence": [
+        "records/visitor-readiness-publication.json",
+        "records/evidence/visitor-readiness-publication-2026-10-01/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -6389,6 +6417,30 @@
         "records/visitor-readiness-review.json",
         "research/product/visitor-readiness-2026-10-01.md"
       ]
+    },
+    {
+      "id": "UTP-REV-068",
+      "title": "Visitor-readiness live publication and analytics consent verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same AI assistant implemented and verified; no independent review.",
+        "Local confirmations for seven guides, fluent language review, physical-device and broader accessibility checks remain separate.",
+        "Consent checks used synthetic URL/search markers; no personal journey or contribution content was entered. Cookies and browser storage were not directly inspected.",
+        "Realtime includes the synthetic verification visits; those are not organic audience results.",
+        "Six native PDF cases were verified before release; published print CSS was checked, without repeating physical-printer or other-browser checks."
+      ],
+      "refs": [
+        "UTP-DEC-093",
+        "UTP-WORK-106"
+      ],
+      "evidence": [
+        "records/visitor-readiness-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -6643,6 +6695,24 @@
         "records/evidence/dhauli-publication-2026-10-01/deployment.json"
       ],
       "note": "Approved PR 12 deployed at 5ed02c5. Six story sections and four full planning notes verified; actual HTML/text books include all planning sources. HTTPS redirects retained."
+    },
+    {
+      "id": "UTP-REL-015",
+      "title": "Visitor guide, print and optional analytics release",
+      "status": "published",
+      "authorization": "UTP-DEC-093",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-093",
+        "UTP-WORK-106",
+        "UTP-WORK-080",
+        "UTP-REV-068"
+      ],
+      "evidence": [
+        "records/visitor-readiness-publication.json",
+        "records/evidence/visitor-readiness-publication-2026-10-01/deployment.json"
+      ],
+      "note": "Approved PR 13 deployed at be6d1c6. Live guide notes, print stylesheet, consent requests/withdrawal, GA Realtime and HTTPS redirects verified."
     }
   ],
   "sources": [

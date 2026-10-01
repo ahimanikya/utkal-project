@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-01T02:13:34.846097+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-093",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/13",
+  "reviewed_head": "03c19db361dbbf11c271f57ddf6f93bb292b7909",
+  "deployed_sha": "be6d1c640b7b872f020ba8a064208e4249f72f1e",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36804216652",
+  "destination": "https://utkalproject.org/",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "verification": {
+    "live_guides": "All nine new planning notes present across Bhubaneswar, coastal food and stay-area guides.",
+    "print_fix": "Published journey stylesheet contains h4 break-after:avoid; pre-release six-case Chromium PDF evidence retained.",
+    "analytics": "No provider requests before consent; one explicit page_view per tested page, canonical URL without query/fragment, empty referrer; collection endpoint returned 204. Synthetic search produced no observed search event or marker leak.",
+    "withdrawal": "No Google requests after decline/reload or on the next page; no Google script remains after withdrawal.",
+    "realtime": "GA4 showed 1 active user and the homepage with 1 view, plus standard first_visit/session_start events.",
+    "https": "Enforcement true; HTTP and www requests end at canonical HTTPS with 200.",
+    "scope": "16-page coastal edition; noindex and held-collection/Store exclusions retained."
+  },
+  "limitations": [
+    "Same AI assistant implemented and verified; no independent review.",
+    "Local confirmations for seven guides, fluent language review, physical-device and broader accessibility checks remain separate.",
+    "Consent checks used synthetic URL/search markers; no personal journey or contribution content was entered. Cookies and browser storage were not directly inspected.",
+    "Realtime includes the synthetic verification visits; those are not organic audience results.",
+    "Six native PDF cases were verified before release; published print CSS was checked, without repeating physical-printer or other-browser checks."
+  ],
+  "rollback_reference": "5ed02c5a419876a3dd93a2fd2fc482d17e83dbc3",
+  "evidence": [
+    "records/evidence/visitor-readiness-publication-2026-10-01/analytics-consent-checks.json",
+    "records/evidence/visitor-readiness-publication-2026-10-01/analytics-realtime.txt",
+    "records/evidence/visitor-readiness-publication-2026-10-01/approval.json",
+    "records/evidence/visitor-readiness-publication-2026-10-01/deployment.json",
+    "records/evidence/visitor-readiness-publication-2026-10-01/live-consent.png",
+    "records/evidence/visitor-readiness-publication-2026-10-01/live-content.json",
+    "records/evidence/visitor-readiness-publication-2026-10-01/live-search.png",
+    "records/evidence/visitor-readiness-publication-2026-10-01/pages-settings.json",
+    "records/evidence/visitor-readiness-publication-2026-10-01/redirect-checks.json"
+  ]
+}

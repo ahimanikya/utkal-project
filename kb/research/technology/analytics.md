@@ -1,7 +1,7 @@
 ---
 type: "Technical operating record"
 title: "Utkal Analytics: consent and deployment"
-status: "account_created_integration_candidate"
+status: "published_and_verified"
 ---
 
 # Utkal Analytics
@@ -16,7 +16,7 @@ The Founder requested creation if no property existed and authorised terms accep
 | Measurement ID | G-9WJHZGN1EM |
 | Website | https://utkalproject.org |
 | Build setting | GitHub repository variable PUBLIC_GA_MEASUREMENT_ID |
-| State | Account created; site integration awaiting Founder publication approval; no data received at check time. |
+| State | Published with Founder approval; production consent flow and initial GA Realtime receipt verified on 1 October 2026 UTC. |
 
 The measurement ID is public configuration, not a secret. No Firebase, paid upgrade, advertising account link, API secret or BigQuery export was created. Optional account data-sharing choices were left unchecked. Enhanced measurement is off, confirmed by reopening the saved stream. Other administrative retention settings were not separately inspected.
 
@@ -37,3 +37,7 @@ After Founder approval of the reviewed PR, deploy the coastal edition, then chec
 To disable future collection, remove the repository variable and rebuild the approved coastal edition. A variable change alone cannot alter already deployed static pages. Revert this integration for an immediate code rollback through the normal release process.
 
 Implementation follows Google's [basic consent-mode description](https://developers.google.com/tag-platform/security/concepts/consent-mode) and [privacy controls](https://developers.google.com/tag-platform/security/guides/privacy). This record describes implementation choices, not a legal-compliance certification.
+
+## Production verification · 1 October 2026 UTC
+
+The Founder explicitly approved deployment. [Live evidence](../../records/visitor-readiness-publication.json) confirms no Google requests before consent, clean canonical page_view parameters and a 204 collection response after allowing. GA Realtime showed the homepage and one active user. Withdrawal removed the loaded tag; no Google request was observed on reload or the next page. Synthetic search/URL markers did not appear in the observed requests. The test browser was left declined. Earlier pending-release wording above is historical. These synthetic visits are included in the initial analytics totals.

@@ -50,3 +50,7 @@ The full local draft has 72 pages and passed an internal-link/fragment/image-tar
 This candidate retains the 16-page coastal edition, noindex and the existing commercial separation. The external analytics account and repository variable were configured under the specific Founder request. The website candidate is not merged or deployed. Broader routes need their own exact release scope and editorial decision.
 
 [Draft PR 13](https://github.com/ahimanikya/utkal-project/pull/13) contains this review candidate. Review the PR’s latest checks before any release.
+
+## Published · 1 October 2026 UTC
+
+After explicit deployment approval, PR 13 reached the live coastal edition. [Publication evidence](../../records/visitor-readiness-publication.json) confirms all nine planning notes, the journey print rule, consent-gated Analytics, withdrawal and HTTPS redirects. Earlier candidate and pending-deployment notices above describe the review history. Local and language confirmations remain open.

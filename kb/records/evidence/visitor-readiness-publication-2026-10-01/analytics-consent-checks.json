@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-10-01T02:11:41.707Z",
+  "scope": "Production UI actions and tab-scoped network events. Synthetic URL/search markers only; client/session identifiers and request headers not retained.",
+  "before_consent": [],
+  "after_consent": [
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "parameters": {},
+      "syntheticMarkerLeaked": false
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "status": 200,
+      "parameters": {},
+      "syntheticMarkerLeaked": false
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "parameters": {
+        "tid": "G-9WJHZGN1EM",
+        "en": "page_view",
+        "dl": "https://utkalproject.org/",
+        "dt": "Rediscover Utkal. Reimagine Odisha. · Utkal Project",
+        "dr": "",
+        "gcs": "G101",
+        "gcd": "13p3r3p3p7l1"
+      },
+      "syntheticMarkerLeaked": false
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "status": 204,
+      "parameters": {
+        "tid": "G-9WJHZGN1EM",
+        "en": "page_view",
+        "dl": "https://utkalproject.org/",
+        "dt": "Rediscover Utkal. Reimagine Odisha. · Utkal Project",
+        "dr": "",
+        "gcs": "G101",
+        "gcd": "13p3r3p3p7l1"
+      },
+      "syntheticMarkerLeaked": false
+    }
+  ],
+  "explore_and_search": [
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "parameters": {},
+      "syntheticMarkerLeaked": false
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "status": 200,
+      "parameters": {},
+      "syntheticMarkerLeaked": false
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "parameters": {
+        "tid": "G-9WJHZGN1EM",
+        "en": "page_view",
+        "dl": "https://utkalproject.org/explore/",
+        "dt": "Explore the collection · Utkal Project",
+        "dr": "",
+        "gcs": "G101",
+        "gcd": "13p3r3p3p7l1"
+      },
+      "syntheticMarkerLeaked": false
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "status": 204,
+      "parameters": {
+        "tid": "G-9WJHZGN1EM",
+        "en": "page_view",
+        "dl": "https://utkalproject.org/explore/",
+        "dt": "Explore the collection · Utkal Project",
+        "dr": "",
+        "gcs": "G101",
+        "gcd": "13p3r3p3p7l1"
+      },
+      "syntheticMarkerLeaked": false
+    }
+  ],
+  "withdrawal": [],
+  "next_page_after_decline": [],
+  "realtime": "Observed 1 active user, homepage title with 1 view, page_view/first_visit/session_start.",
+  "test_browser_final_choice": "declined",
+  "limitations": [
+    "No real personal notes or contribution contents used.",
+    "Browser cookies/storage were not directly inspected.",
+    "Bounded check, not a comprehensive privacy certification."
+  ]
+}

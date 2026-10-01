@@ -112,3 +112,5 @@
 - [Visitor readiness, native print and analytics self-review](visitor-readiness-review.json).
 
 - [Visitor-readiness approval and merge](visitor-readiness-merge.json) — deployment confirmation pending.
+
+- [Visitor-readiness publication and live consent checks](visitor-readiness-publication.json).
