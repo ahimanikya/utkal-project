@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T09:06:05.436218-07:00",
+  "updated_at": "2026-10-01T09:34:53.344599-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1177,6 +1177,14 @@
     {
       "run_id": "2026-10-01-homestay-policy",
       "scope": "Homestay research checkpoint; public portal configuration, not weekly operational series. Private applicant/guest endpoints not accessed."
+    },
+    {
+      "run_id": "2026-10-01-community-tourism",
+      "scope": "Bounded homestay operating search followed by independent primary ecotourism programme table recovery."
+    },
+    {
+      "run_id": "2026-10-01-debrigarh-primary",
+      "scope": "Debrigarh historical primary survey and attributed official participation; no current payroll found."
     }
   ],
   "supplemental_discovery_routes": [
@@ -2356,7 +2364,7 @@
       "checked_at": "2026-10-01T07:21:41.081660-07:00",
       "run_id": "2026-10-01-contemporary-creators",
       "status": "available_with_scoped_capture",
-      "scope": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
+      "scope": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February 2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
       "retry_after": null,
       "contact_action_performed": false
     },
@@ -3239,6 +3247,116 @@
       "scope": "Indexed national homestay question lead; direct404, no new count imported.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
+    },
+    {
+      "source_id": "wildlife-odisha2025-ecotourism",
+      "discovery_url": "https://s3.ap-south-1.amazonaws.com/wildlife.odisha.gov.in/uploads/901bab61-9987-4131-b23e-2fdf2ee5c6db.pdf",
+      "checked_at": "2026-10-01T09:24:09.614111-07:00",
+      "run_id": "2026-10-01-community-tourism",
+      "status": "available_scoped_primary_pdf",
+      "scope": "Public download succeeded after web tool rejected 29.9 MB file. Page135 visually inspected; publication occasion/date on colophon. Programme table is not all Odisha tourism or a homestay series.",
+      "retry_after": null
+    },
+    {
+      "source_id": "homestay-wtd2026-connect",
+      "discovery_url": "https://odishaconnect.com/odisha-celebrates-world-tourism-day-2026-with-digital-innovation-and-community-led-tourism/",
+      "checked_at": "2026-10-01T09:24:09.614111-07:00",
+      "run_id": "2026-10-01-community-tourism",
+      "status": "indexed_only_direct_unavailable",
+      "scope": "Indexed passage reports176; direct page failed. Secondary lead only; do not treat as independently verified headcount.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "homestay-wtd2026-bytes",
+      "discovery_url": "https://odishabytes.com/odisha-signs-pacts-to-promote-homestay-heritage-adventure-tourism/amp/",
+      "checked_at": "2026-10-01T09:24:09.614111-07:00",
+      "run_id": "2026-10-01-community-tourism",
+      "status": "available_conflicting_secondary",
+      "scope": "Direct page says17 provisional-certificate beneficiaries, conflicting with176 in indexed Odisha Connect. Shared event coverage may reuse one release; original register/MoU not recovered.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://tourism.gov.in/sites/default/files/2025-12/usq.2381%20for%2015.12.2025.pdf",
+      "checked_at": "2026-10-01T09:24:09.614111-07:00",
+      "run_id": "2026-10-01-community-tourism",
+      "status": "unavailable",
+      "scope": "Direct404; indexed parliamentary question mentions community-homestay targets, no usable operating total adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://dot.odisha.gov.in/en/press-release",
+      "checked_at": "2026-10-01T09:24:09.614111-07:00",
+      "run_id": "2026-10-01-community-tourism",
+      "status": "unavailable",
+      "scope": "Direct route inaccessible; not a confirmed empty release archive.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://assembly.odisha.gov.in/",
+      "checked_at": "2026-10-01T09:24:09.614111-07:00",
+      "run_id": "2026-10-01-community-tourism",
+      "status": "unavailable",
+      "scope": "Direct fetch error; search-index discovery did not recover an operating-outcome answer.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://odishatourism.gov.in/content/tourism/en/dot/quickLinks/newsletter.html",
+      "checked_at": "2026-10-01T09:24:09.614111-07:00",
+      "run_id": "2026-10-01-community-tourism",
+      "status": "available_scoped_index",
+      "scope": "Newsletter index through April–June2026 read; no operational homestay totals obtained. Download buttons required subscription; no subscription or external message sent."
+    },
+    {
+      "source_id": "debrigarh-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Historical facility revenue and management context; not a current payroll or an audited longitudinal income series."
+    },
+    {
+      "source_id": "debrigarh-pmo20260830",
+      "discovery_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-137th-episode-of-mann-ki-baat/",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Primary evidence of public recognition and an attributed participation statement, not independent enumeration or income evaluation."
+    },
+    {
+      "source_id": "debrigarh-revenue-nie20260405",
+      "discovery_url": "https://www.newindianexpress.com/states/odisha/2026/Apr/05/odishas-debrigarh-raises-ecotourism-bar-with-sightings-record-tourist-footfall-revenue",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Reports FY2025–26 revenue ₹6.02 crore and prior-year ₹5.01 crore. Prior-year scope conflicts with the Debrigarh/Hirakud ₹5.11 crore account; growth withheld."
+    },
+    {
+      "source_id": "debrigarh-revenue-op20250405",
+      "discovery_url": "https://www.orissapost.com/community-led-ecotourism-generates-rs-5-11cr-revenue/",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Reports Debrigarh Wildlife Sanctuary and Hirakud Wetland together, with 85 families. Not independent payroll evidence; do not relabel family count as workers or shift its reporting year."
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://cza.nic.in/uploads/documents/reports/english/AR_sambalpur_2425.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_out_of_scope",
+      "scope": "Sambalpur Zoo annual report, not Debrigarh income or employment."
+    },
+    {
+      "source_id": "debrigarh-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "web_screenshot_unavailable_local_render_succeeded",
+      "scope": "Web screenshots cache-missed; public PDF downloaded and printed p.4-12 rendered and visually inspected. Local renderer emitted font-cache warnings but readable page produced."
     }
   ]
 }

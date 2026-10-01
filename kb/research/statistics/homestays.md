@@ -105,3 +105,11 @@ The earlier May report above says 19 districts. Keep it as a historical secondar
 Rayagada’s portal rows include both Kulusing and Puttasing, despite the reported replacement amendment. The [policy record](../economy/homestay-support.md) holds this discrepancy. Current eligibility and booking recommendations remain unverified.
 
 [Official public area data](https://gohomestay.odisha.gov.in/api/allowAll/get-notified-gp-list). This is a geography story with a dated scope, not evidence of occupancy, revenue or host-income growth.
+
+## Operating evidence checkpoint · 1 October 2026
+
+World Tourism Day coverage supplies a new lead but conflicting quantities: [Odisha Connect](https://odishaconnect.com/odisha-celebrates-world-tourism-day-2026-with-digital-innovation-and-community-led-tourism/) reports 176 provisional-registration beneficiaries in an indexed passage; [OdishaBytes](https://odishabytes.com/odisha-signs-pacts-to-promote-homestay-heritage-adventure-tourism/amp/) says 17 in its directly read closing paragraph. The event is 27 September 2026. Both counts are held pending an original departmental release/register, outside the headline statistics. The reports may draw on the same event announcement.
+
+OdishaBytes also reports an SBI financing MoU. Its signed terms, loan approvals and disbursements were not obtained. An agreement is not realised lending. No active-property census, completed compliance returns, occupancy or host-income data was recovered in this bounded search. Unknown remains unknown.
+
+[Community ecotourism evidence](../statistics/ecotourism.md) now supplies a separately scoped programme income/visitor series; it does not fill homestay operating gaps.

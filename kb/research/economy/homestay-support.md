@@ -81,3 +81,11 @@ The April amendment and Cycle-1 official PDF downloads timed out. Portal documen
 RES-009 begins with the 2025 scheme’s own reporting route: printed pp. 27–28 describe programme monitoring; the blank annual declaration at p. 49 asks for operation/closure status, rooms and beds, guest-nights, revenue, occupancy, family/local staff and subsidy received. This establishes potential administrative evidence, not that returns were filed or outcomes achieved. Parsed text was read; no new visual PDF verification is claimed.
 
 Next retrieve aggregate completed returns or departmental progress reports with their reporting period, responding-property denominator, cancellations/closures and revision dates. Guest-nights cannot silently become room-nights; gross revenue cannot become net household income. The [monitoring record](../references/data/homestay-research.json) keeps every unavailable outcome null. The nine missing outcome measures remain open.
+
+## Operating evidence checkpoint · 1 October 2026
+
+World Tourism Day coverage supplies a new lead but conflicting quantities: [Odisha Connect](https://odishaconnect.com/odisha-celebrates-world-tourism-day-2026-with-digital-innovation-and-community-led-tourism/) reports 176 provisional-registration beneficiaries in an indexed passage; [OdishaBytes](https://odishabytes.com/odisha-signs-pacts-to-promote-homestay-heritage-adventure-tourism/amp/) says 17 in its directly read closing paragraph. The event is 27 September 2026. Both counts are held pending an original departmental release/register, outside the headline statistics. The reports may draw on the same event announcement.
+
+OdishaBytes also reports an SBI financing MoU. Its signed terms, loan approvals and disbursements were not obtained. An agreement is not realised lending. No active-property census, completed compliance returns, occupancy or host-income data was recovered in this bounded search. Unknown remains unknown.
+
+[Community ecotourism evidence](../statistics/ecotourism.md) now supplies a separately scoped programme income/visitor series; it does not fill homestay operating gaps.

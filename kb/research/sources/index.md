@@ -494,3 +494,12 @@
 - [NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership](science-susmita-newspace.md)
 
 - [Go Homestay public area-list capture](homestay-portal-area-list.md)
+
+- [Wildlife Odisha 2025: ecotourism income, visitors and community participation](wildlife-odisha2025-ecotourism.md)
+- [World Tourism Day 2026: reported provisional homestay certificates](homestay-wtd2026-connect.md)
+- [Odisha Signs Pacts To Promote Homestay, Heritage & Adventure Tourism](homestay-wtd2026-bytes.md)
+
+- [Odisha Forestry Sector Development Project Phase II: supplemental survey, final report (advanced version)](debrigarh-jica2017.md)
+- [PM’s address in the 137th Episode of Mann Ki Baat](debrigarh-pmo20260830.md)
+- [Odisha’s Debrigarh raises ecotourism bar, with sightings, record tourist footfall and revenue](debrigarh-revenue-nie20260405.md)
+- [Community-led ecotourism generates Rs5.11cr revenue](debrigarh-revenue-op20250405.md)

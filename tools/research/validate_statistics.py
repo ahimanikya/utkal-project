@@ -77,6 +77,27 @@ for suffix, statewide_id, extra in (('-deposit', 'macro-deposit-2026', 0),
     if statewide_id in observations:
         check(abs(total - observations[statewide_id]['value']) <= .02, f'{statewide_id}: district aggregate mismatch beyond rounding')
 
+# Community ecotourism uses a separate programme population and partial-year boundary.
+eco_path = ROOT / 'references/data/ecotourism-livelihoods.json'
+if eco_path.exists():
+    eco = json.loads(eco_path.read_text())
+    eco_ids = eco['observation_ids']
+    check(len(eco_ids) == len(set(eco_ids)), 'Duplicate ecotourism observation')
+    check(set(eco_ids) == {i for i, r in observations.items() if r['topic'] == 'Ecotourism'}, 'Ecotourism register mismatch')
+    for row in eco['series']:
+        check(row['indian'] + row['non_indian'] == row['total'], 'Ecotourism visitor total mismatch')
+        for category, oid in row['observation_ids'].items():
+            check(oid in observations, 'Missing ecotourism observation ' + oid)
+            if oid not in observations: continue
+            value = row['income_lakh'] / 100 if category == 'income' else row[category.replace('-', '_')]
+            check(math.isclose(observations[oid]['value'], value), oid + ': capture/value mismatch')
+            check(observations[oid]['period_coverage'] == row['period_coverage'], oid + ': period boundary mismatch')
+    check(sum(s['percent'] for s in eco['allocation_shares']) == 100, 'Ecotourism allocation shares do not sum to100')
+    for c in atlas['calculations']:
+        if set(c['inputs']) & set(eco_ids):
+            check(all(observations[i].get('period_coverage') == 'full' for i in c['inputs']), c['id'] + ': partial period or allocation rule used in growth')
+    check(observations['eco-wl2025-community']['value_qualifier'] == 'more_than', 'Community lower bound became exact')
+
 report = {'result': 'FAIL' if errors else 'PASS', 'observations': len(observations),
           'topics': len({x['topic'] for x in observations.values()}), 'districts': len(districts),
           'calculations': len(calculation_ids),

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-09-30",
-  "scope": "Place-specific press evidence and leads, kept separate from harmonised state statistical series. No counts summed or growth/rank computed.",
+  "updated_on": "2026-10-01",
+  "scope": "Place-specific primary survey, official speech and secondary reporting; separated by vintage, facility scope and denominator. No cross-source growth/rank computed.",
   "observations": [
     {
       "id": "debrigarh-community-nie-20260820",
@@ -82,6 +82,150 @@
       "publication_readiness": "needs_comparator_scope_review",
       "human_reviewed": false,
       "caveat": "Reported comparator only; not a validated statewide ranking."
+    },
+    {
+      "id": "debrigarh-jica-revenue-2009-10",
+      "value": 6.3,
+      "value_qualifier": "exact",
+      "unit": "INR lakh",
+      "period": "FY2009-10",
+      "geography": "Debrigarh eco-complex facilities described by JICA",
+      "metric": "Revenue from eco-complex facilities",
+      "source_id": "debrigarh-jica2017",
+      "locator": "Printed p.4-12 / PDF p.132, Further Considerations; source JICA Survey Team 2016",
+      "evidence_class": "primary_survey_report",
+      "project_stage": "reported_outcome",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "caveat": "Historical facility scope. Not household income, later safari/cruise total or a bridge to 2025–26 revenue.",
+      "price_basis": "Reported monetary value; constant-price basis not specified"
+    },
+    {
+      "id": "debrigarh-jica-revenue-2015-16",
+      "value": 19.3,
+      "value_qualifier": "exact",
+      "unit": "INR lakh",
+      "period": "FY2015-16",
+      "geography": "Debrigarh eco-complex facilities described by JICA",
+      "metric": "Revenue from eco-complex facilities",
+      "source_id": "debrigarh-jica2017",
+      "locator": "Printed p.4-12 / PDF p.132, Further Considerations; source JICA Survey Team 2016",
+      "evidence_class": "primary_survey_report",
+      "project_stage": "reported_outcome",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "caveat": "Historical facility scope. Not household income, later safari/cruise total or a bridge to 2025–26 revenue.",
+      "price_basis": "Reported monetary value; constant-price basis not specified"
+    },
+    {
+      "id": "debrigarh-jica-cottages2016",
+      "value": 5,
+      "value_qualifier": "exact",
+      "unit": "cottages",
+      "period": "2016 survey context; published February 2017",
+      "geography": "Debrigarh eco-complex",
+      "metric": "Cottages described in surveyed eco-complex",
+      "source_id": "debrigarh-jica2017",
+      "locator": "Printed p.4-12 / PDF p.132, Further Considerations; source JICA Survey Team 2016",
+      "evidence_class": "primary_survey_report",
+      "project_stage": "reported_inventory",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "caveat": "Historical physical inventory, not current bookable accommodation.",
+      "price_basis": "not_applicable"
+    },
+    {
+      "id": "debrigarh-pmo-women20260830",
+      "value": 60,
+      "value_qualifier": "more_than",
+      "unit": "women",
+      "period": "Statement on 30 August 2026; enumeration date unstated",
+      "geography": "Debrigarh region conservation activities",
+      "metric": "Women involved in forest conservation",
+      "source_id": "debrigarh-pmo20260830",
+      "locator": "Dhodrokusum/Maithili Bhue passage and dated embedded PMO posts",
+      "evidence_class": "official_speech_attributed_participation",
+      "project_stage": "reported_participation",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "caveat": "Roles include wildlife protection, grassland work and some ecotourism. Not 60 tourism jobs, an audited roster or a wage measure.",
+      "price_basis": "not_applicable"
+    },
+    {
+      "id": "debrigarh-revenue-nie202425",
+      "value": 5.01,
+      "value_qualifier": "exact",
+      "unit": "INR crore",
+      "period": "FY2024–25, retrospectively reported 5 April 2026",
+      "geography": "Debrigarh ecotourism as described in NIE",
+      "metric": "Reported ecotourism revenue",
+      "source_id": "debrigarh-revenue-nie20260405",
+      "locator": "Opening revenue/visitor paragraph",
+      "evidence_class": "attributed_secondary_reporting",
+      "project_stage": "reported_outcome",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "hold_conflict",
+      "human_reviewed": false,
+      "caveat": "Scope bridge to the ₹5.11 crore Debrigarh/Hirakud account unresolved; do not calculate growth.",
+      "price_basis": "Reported monetary value; constant-price basis not specified"
+    },
+    {
+      "id": "debrigarh-revenue-nie202526",
+      "value": 6.02,
+      "value_qualifier": "exact",
+      "unit": "INR crore",
+      "period": "FY2025–26, reported 5 April 2026",
+      "geography": "Debrigarh ecotourism as described in NIE",
+      "metric": "Reported ecotourism revenue",
+      "source_id": "debrigarh-revenue-nie20260405",
+      "locator": "Opening revenue/visitor paragraph",
+      "evidence_class": "attributed_secondary_reporting",
+      "project_stage": "reported_outcome",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "needs_primary_financial_record",
+      "human_reviewed": false,
+      "caveat": "Primary financial ledger not obtained; no current growth or household-income inference.",
+      "price_basis": "Reported monetary value; constant-price basis not specified"
+    },
+    {
+      "id": "debrigarh-hirakud-revenue-op202425",
+      "value": 5.11,
+      "value_qualifier": "exact",
+      "unit": "INR crore",
+      "period": "FY2024–25, reported 5 April 2025",
+      "geography": "Debrigarh Wildlife Sanctuary and Hirakud Wetland combined in report",
+      "metric": "Reported ecotourism revenue",
+      "source_id": "debrigarh-revenue-op20250405",
+      "locator": "Opening paragraphs and attributed DFO statement",
+      "evidence_class": "attributed_secondary_reporting",
+      "project_stage": "reported_outcome",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "hold_conflict",
+      "human_reviewed": false,
+      "caveat": "Combined scope may explain difference with ₹5.01 crore; that explanation is not established.",
+      "price_basis": "Reported monetary value; constant-price basis not specified"
+    },
+    {
+      "id": "debrigarh-hirakud-families-op202425",
+      "value": 85,
+      "value_qualifier": "exact",
+      "unit": "families",
+      "period": "FY2024–25 context, reported 5 April 2025",
+      "geography": "Debrigarh/Hirakud initiatives in report",
+      "metric": "Families described as benefiting from employment",
+      "source_id": "debrigarh-revenue-op20250405",
+      "locator": "Opening paragraphs and attributed DFO statement",
+      "evidence_class": "attributed_secondary_reporting",
+      "project_stage": "reported_outcome",
+      "checked_on": "2026-10-01",
+      "publication_readiness": "needs_primary_employment_record",
+      "human_reviewed": false,
+      "caveat": "Not workers or jobs. Undated clipping separately places 85 families in 2025–26; no source-date repair or growth inference.",
+      "price_basis": "not_applicable"
     }
   ],
   "held_claims": [
@@ -90,6 +234,25 @@
       "source_id": "debrigarh-toi-user-clipping",
       "status": "unverified_ranking",
       "reason": "Dated complete comparator coverage and common definition not available."
+    },
+    {
+      "claim": "Comparable FY2024–25 baseline for Debrigarh revenue growth",
+      "status": "hold_scope_conflict",
+      "observation_ids": [
+        "debrigarh-revenue-nie202425",
+        "debrigarh-hirakud-revenue-op202425"
+      ],
+      "reason": "₹5.01 crore Debrigarh versus ₹5.11 crore Debrigarh/Hirakud; primary component accounts unavailable.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "claim": "Date and scope of 85-family measure",
+      "status": "hold_scope_reconciliation",
+      "observation_ids": [
+        "debrigarh-families-toi-202526",
+        "debrigarh-hirakud-families-op202425"
+      ],
+      "reason": "Dated 2025 report and undated clipping assign different fiscal contexts. Similar quantity does not establish the same observation."
     }
   ],
   "source_leads": [
@@ -104,6 +267,12 @@
       "status": "indexed_only_full_fetch_timeout",
       "checked_on": "2026-09-30",
       "note": "Official Odisha Tourism roadmap surfaced; full document not inspected. No policy or numerical claims imported."
+    },
+    {
+      "url": "https://cza.nic.in/uploads/documents/reports/english/AR_sambalpur_2425.pdf",
+      "status": "available_but_out_of_scope",
+      "checked_on": "2026-10-01",
+      "note": "DFO Hirakud submission covers Sambalpur Zoo and Conservation Centre. Its income/employees cannot substitute for Debrigarh ecotourism accounts."
     }
   ],
   "attachment": {
@@ -111,5 +280,41 @@
     "sha256": "1857a8ae4958ec36b34028e4884d3a2ac8abae78d0081c860da77d91eda47de8",
     "public_export": false
   },
-  "human_review_claimed": false
+  "human_review_claimed": false,
+  "qualitative_evidence": [
+    {
+      "id": "debrigarh-jica-edc2016",
+      "source_id": "debrigarh-jica2017",
+      "period": "2016 survey context",
+      "claim": "The survey describes no EDC engagement at the eco-complex.",
+      "interpretation_limit": "Historical institutional observation; not absence of every form of community work, nor proof of current arrangements."
+    },
+    {
+      "id": "maithili-bhue-national-recognition2026",
+      "source_id": "debrigarh-pmo20260830",
+      "period": "2026-08-30",
+      "claim": "Official address names Maithili Bhue of Dhodrokusum and describes her association with Debrigarh ecotourism.",
+      "interpretation_limit": "Recognition of an attributed account; no formal award, quantified earnings, consent for media reuse or independent causal evaluation established."
+    }
+  ],
+  "research_runs": [
+    {
+      "run_id": "2026-10-01-debrigarh-primary",
+      "at": "2026-10-01T09:34:53.344599-07:00",
+      "new_observation_ids": [
+        "debrigarh-jica-revenue-2009-10",
+        "debrigarh-jica-revenue-2015-16",
+        "debrigarh-jica-cottages2016",
+        "debrigarh-pmo-women20260830",
+        "debrigarh-revenue-nie202425",
+        "debrigarh-revenue-nie202526",
+        "debrigarh-hirakud-revenue-op202425",
+        "debrigarh-hirakud-families-op202425"
+      ],
+      "completion_criteria_met": false,
+      "next_action": "Seek division/EDC component accounts and actual worker/pay denominators after 8 October. Until then continue independent food research RES-011.",
+      "primary_modern_payroll_obtained": false,
+      "primary_current_revenue_ledger_obtained": false
+    }
+  ]
 }

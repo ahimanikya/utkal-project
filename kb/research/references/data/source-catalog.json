@@ -3236,7 +3236,7 @@
     "accessed_on": "2026-10-01",
     "capture_method": "direct_html",
     "locator": "Book description lines285–294; author biography347–348",
-    "capture_note": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
+    "capture_note": "Publisher documents rural/small-town Odisha upbringing and Utkal University connection. Captured paperback edition February 2017, India Portfolio, ISBN9780143429548,280pages. Edition date is not asserted as original first publication. English reading option; stock and full-text rights unknown.",
     "source_kind": "Primary artist, gallery, publisher, professional association or government publication",
     "additional_captures": [
       {
@@ -3797,6 +3797,86 @@
     "capture_method": "public_json_and_rendered_table",
     "locator": "Public Eligible Gram Panchayats modal; district/cluster/destination/block/gp tree",
     "capture_note": "Entire unauthenticated JSON captured and modal table inspected. Publisher IDs and spellings preserved. Retrieval date is not legal effective date. Portal and API are one source family. Computed inventory counts do not establish operational homestays or Gazette eligibility."
+  },
+  "wildlife-odisha2025-ecotourism": {
+    "id": "wildlife-odisha2025-ecotourism",
+    "title": "Wildlife Odisha 2025: ecotourism income, visitors and community participation",
+    "resource": "https://s3.ap-south-1.amazonaws.com/wildlife.odisha.gov.in/uploads/901bab61-9987-4131-b23e-2fdf2ee5c6db.pdf",
+    "publisher": "State Wildlife Organisation, Forest, Environment and Climate Change Department, Government of Odisha",
+    "published_on": "2025-10-09",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_primary_pdf_visual_table_check",
+    "locator": "Colophon PDF p.4; printed pp.122 and135 (PDF pp.132 and145)",
+    "capture_note": "Public download succeeded after web tool rejected 29.9 MB file. Page135 visually inspected; publication occasion/date on colophon. Programme table is not all Odisha tourism or a homestay series.",
+    "source_kind": "Primary departmental report"
+  },
+  "homestay-wtd2026-connect": {
+    "id": "homestay-wtd2026-connect",
+    "title": "World Tourism Day 2026: reported provisional homestay certificates",
+    "resource": "https://odishaconnect.com/odisha-celebrates-world-tourism-day-2026-with-digital-innovation-and-community-led-tourism/",
+    "publisher": "Odisha Connect",
+    "published_on": "2026-09-27",
+    "accessed_on": "2026-10-01",
+    "capture_method": "indexed_passage_direct_fetch_failed",
+    "locator": "Section 176 Homestay Beneficiaries Receive Certificates",
+    "capture_note": "Indexed passage reports176; direct page failed. Secondary lead only; do not treat as independently verified headcount.",
+    "source_kind": "Secondary event report; unresolved numerical lead"
+  },
+  "homestay-wtd2026-bytes": {
+    "id": "homestay-wtd2026-bytes",
+    "title": "Odisha Signs Pacts To Promote Homestay, Heritage & Adventure Tourism",
+    "resource": "https://odishabytes.com/odisha-signs-pacts-to-promote-homestay-heritage-adventure-tourism/amp/",
+    "publisher": "OdishaBytes",
+    "published_on": "2026-09-28",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html_scoped_read",
+    "locator": "Closing paragraph and opening SBI MoU paragraph",
+    "capture_note": "Direct page says17 provisional-certificate beneficiaries, conflicting with176 in indexed Odisha Connect. Shared event coverage may reuse one release; original register/MoU not recovered.",
+    "source_kind": "Secondary event report; unresolved numerical lead"
+  },
+  "debrigarh-jica2017": {
+    "id": "debrigarh-jica2017",
+    "title": "Odisha Forestry Sector Development Project Phase II: supplemental survey, final report (advanced version)",
+    "resource": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+    "publisher": "Japan International Cooperation Agency; Nippon Koei",
+    "published_on": "2017-02",
+    "accessed_on": "2026-10-01",
+    "capture_method": "primary_survey_pdf_visual_check",
+    "locator": "Printed p.4-12 / PDF p.132, Further Considerations; source JICA Survey Team 2016",
+    "capture_note": "Historical facility revenue and management context; not a current payroll or an audited longitudinal income series."
+  },
+  "debrigarh-pmo20260830": {
+    "id": "debrigarh-pmo20260830",
+    "title": "PM’s address in the 137th Episode of Mann Ki Baat",
+    "resource": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-137th-episode-of-mann-ki-baat/",
+    "publisher": "Prime Minister’s Office, Government of India",
+    "published_on": "2026-08-30",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_official_transcript",
+    "locator": "Dhodrokusum/Maithili Bhue passage and dated embedded PMO posts",
+    "capture_note": "Primary evidence of public recognition and an attributed participation statement, not independent enumeration or income evaluation."
+  },
+  "debrigarh-revenue-nie20260405": {
+    "id": "debrigarh-revenue-nie20260405",
+    "title": "Odisha’s Debrigarh raises ecotourism bar, with sightings, record tourist footfall and revenue",
+    "resource": "https://www.newindianexpress.com/states/odisha/2026/Apr/05/odishas-debrigarh-raises-ecotourism-bar-with-sightings-record-tourist-footfall-revenue",
+    "publisher": "The New Indian Express",
+    "published_on": "2026-04-05",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_secondary_html",
+    "locator": "Opening revenue/visitor paragraph",
+    "capture_note": "Reports FY2025–26 revenue ₹6.02 crore and prior-year ₹5.01 crore. Prior-year scope conflicts with the Debrigarh/Hirakud ₹5.11 crore account; growth withheld."
+  },
+  "debrigarh-revenue-op20250405": {
+    "id": "debrigarh-revenue-op20250405",
+    "title": "Community-led ecotourism generates Rs5.11cr revenue",
+    "resource": "https://www.orissapost.com/community-led-ecotourism-generates-rs-5-11cr-revenue/",
+    "publisher": "OrissaPOST, Post News Network",
+    "published_on": "2025-04-05",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_secondary_html",
+    "locator": "Opening paragraphs and attributed DFO statement",
+    "capture_note": "Reports Debrigarh Wildlife Sanctuary and Hirakud Wetland together, with 85 families. Not independent payroll evidence; do not relabel family count as workers or shift its reporting year."
   },
   "rasagola-osic": {
     "id": "rasagola-osic",

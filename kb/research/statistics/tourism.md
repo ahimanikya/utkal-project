@@ -66,3 +66,7 @@ The Ministry's [8 December 2025 release](https://www.pib.gov.in/PressReleasePage
 The state bulletin's saved **53,392** remains unresolved. No correction or definition bridge was found. Keep foreign-growth and affected total-visit headlines on hold. The ministry explicitly separates state visits from international arrivals; neither is a count of unique travellers to Odisha. Follow the annexure's 2020–2024 columns despite a wider period mentioned in surrounding prose.
 
 [Reconciliation evidence](../references/data/tourism-series-reconciliation.json) preserves the checks and failures. [Tourism comparison](../economy/comparison-09-tourism.md) shows why a conflicting component also affects the total; [source recovery](../methods/source-reliability.md) records the remaining document work.
+
+## Community-managed programme evidence
+
+[Ecotourism](ecotourism.md) now has a dated primary income/visitor series. Its narrower programme scope must not be added to statewide tourist-visit totals.

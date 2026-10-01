@@ -1,0 +1,141 @@
+{
+  "id": "debrigarh-primary-2026-10-01",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "User authorized continuing research and routine Git review updates.",
+  "task_ids": [
+    "RES-010"
+  ],
+  "status": "debrigarh_primary_checkpoint",
+  "new_sources": 4,
+  "new_place_observations": 8,
+  "new_atlas_observations": 0,
+  "observation_ids": [
+    "debrigarh-jica-revenue-2009-10",
+    "debrigarh-jica-revenue-2015-16",
+    "debrigarh-jica-cottages2016",
+    "debrigarh-pmo-women20260830",
+    "debrigarh-revenue-nie202425",
+    "debrigarh-revenue-nie202526",
+    "debrigarh-hirakud-revenue-op202425",
+    "debrigarh-hirakud-families-op202425"
+  ],
+  "new_concepts": [
+    "sources/debrigarh-jica2017",
+    "sources/debrigarh-pmo20260830",
+    "sources/debrigarh-revenue-nie20260405",
+    "sources/debrigarh-revenue-op20250405"
+  ],
+  "next_action": "After 8 October seek dated division/EDC accounts separating Debrigarh, Hirakud, accommodation, safari and cruise, plus payroll/worker periods. Reuse historical JICA and PMO recognition without recrawling. Continue independent RES-011 meanwhile.",
+  "source_checks": [
+    {
+      "source_id": "debrigarh-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Historical facility revenue and management context; not a current payroll or an audited longitudinal income series."
+    },
+    {
+      "source_id": "debrigarh-pmo20260830",
+      "discovery_url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-137th-episode-of-mann-ki-baat/",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Primary evidence of public recognition and an attributed participation statement, not independent enumeration or income evaluation."
+    },
+    {
+      "source_id": "debrigarh-revenue-nie20260405",
+      "discovery_url": "https://www.newindianexpress.com/states/odisha/2026/Apr/05/odishas-debrigarh-raises-ecotourism-bar-with-sightings-record-tourist-footfall-revenue",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Reports FY2025–26 revenue ₹6.02 crore and prior-year ₹5.01 crore. Prior-year scope conflicts with the Debrigarh/Hirakud ₹5.11 crore account; growth withheld."
+    },
+    {
+      "source_id": "debrigarh-revenue-op20250405",
+      "discovery_url": "https://www.orissapost.com/community-led-ecotourism-generates-rs-5-11cr-revenue/",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_scoped_capture",
+      "scope": "Reports Debrigarh Wildlife Sanctuary and Hirakud Wetland together, with 85 families. Not independent payroll evidence; do not relabel family count as workers or shift its reporting year."
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://cza.nic.in/uploads/documents/reports/english/AR_sambalpur_2425.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "available_out_of_scope",
+      "scope": "Sambalpur Zoo annual report, not Debrigarh income or employment."
+    },
+    {
+      "source_id": "debrigarh-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_01.pdf",
+      "checked_at": "2026-10-01T09:34:53.344599-07:00",
+      "run_id": "2026-10-01-debrigarh-primary",
+      "status": "web_screenshot_unavailable_local_render_succeeded",
+      "scope": "Web screenshots cache-missed; public PDF downloaded and printed p.4-12 rendered and visually inspected. Local renderer emitted font-cache warnings but readable page produced."
+    }
+  ],
+  "public_site_changes": false,
+  "human_review_claimed": false,
+  "concurrent_work": "Original checkout and shared operating registers untouched; bounded receipt linked.",
+  "files_reconciled": [
+    "kb/research/log.md",
+    "kb/research/statistics/ecotourism.md",
+    "kb/research/methods/research-map.md",
+    "kb/research/methods/research-pipeline.md",
+    "kb/research/places/debrigarh-hirakud.md",
+    "kb/research/about/research-gaps.md",
+    "kb/research/sources/debrigarh-pmo20260830.md",
+    "kb/research/sources/index.md",
+    "kb/research/sources/debrigarh-revenue-nie20260405.md",
+    "kb/research/sources/debrigarh-jica2017.md",
+    "kb/research/sources/debrigarh-revenue-op20250405.md",
+    "kb/research/references/data/debrigarh-livelihoods.json",
+    "kb/research/references/data/content-classification.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/research-queue.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/source-catalog.json"
+  ],
+  "files_changed": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/records/debrigarh-primary-2026-10-01.json",
+    "kb/records/index.md",
+    "kb/research/about/research-gaps.md",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "kb/research/methods/research-map.md",
+    "kb/research/methods/research-pipeline.md",
+    "kb/research/places/debrigarh-hirakud.md",
+    "kb/research/references/data/bundle-summary.json",
+    "kb/research/references/data/classification-validation-report.json",
+    "kb/research/references/data/content-classification.json",
+    "kb/research/references/data/debrigarh-livelihoods.json",
+    "kb/research/references/data/growth-journeys-validation-report.json",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/references/data/maritime-validation-report.json",
+    "kb/research/references/data/research-map-validation-report.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/research-queue.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/validation-report.json",
+    "kb/research/references/data/visitor-index-validation-report.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/debrigarh-jica2017.md",
+    "kb/research/sources/debrigarh-pmo20260830.md",
+    "kb/research/sources/debrigarh-revenue-nie20260405.md",
+    "kb/research/sources/debrigarh-revenue-op20250405.md",
+    "kb/research/sources/index.md",
+    "kb/research/statistics/ecotourism.md"
+  ],
+  "validation": {
+    "research_validators": 12,
+    "result": "PASS",
+    "catalogue": "PASS",
+    "bundle": "PASS",
+    "authority_registers": "PASS"
+  }
+}

@@ -180,3 +180,11 @@ Completed the initial RES-029 timeline with Sanghamitra Mohanty and Susmita Moha
 ## 2026-10-01
 
 Homestay research enhanced existing records with a primary public portal area snapshot, five derived place-count observations, scoped reporting-field evidence and district links. Preserved all earlier observations and conflicts. RES-008 blocked for original amendment/allocation retrieval; RES-009 outcome evidence mapped and remains in progress. No host-income, occupancy or operating-unit total invented; no human review or website publication claimed.
+
+## 1 October 2026 — Community tourism evidence
+
+Saved 47 primary ecotourism observations and 4 full-year comparisons from Wildlife Odisha 2025; retained non-Indian visitor decline and partial-year scope. Homestay17/176 certificate conflict held outside the atlas. RES-009 deferred; RES-010 continues. Existing source records reused, frozen ledger and prior atlas records unchanged. No website publication or human review claimed.
+
+## 1 October 2026 — Debrigarh historical revenue and community recognition
+
+Added eight place-specific observations and four sources to the existing case. Visually checked JICA’s historical revenue passage; recorded the official Maithili Bhue account with conservation-role limits. Recent revenue and family-period differences quarantined. Modern payroll/revenue denominators still pending; retry 8 October. No atlas values, website content or frozen evidence changed.

@@ -62,3 +62,23 @@ Subject reading: [Places](../subjects/places.md), [nature](../subjects/nature.md
 [^debrigarh-nie-20260820]: [The New Indian Express, 20 August 2026](https://www.newindianexpress.com/amp/story/states/odisha/2026/Aug/20/odishas-debrigarh-wildlife-sanctuary-witness-rise-in-visitors-upgraded-infrastructure-gave-push-to-it), closing officer statement.
 
 [^debrigarh-toi-user-clipping]: [User-supplied Times of India clipping: provenance and limitations](../sources/debrigarh-toi-user-clipping.md).
+
+## Programme context · 1 October 2026
+
+The [state ecotourism series](../statistics/ecotourism.md) provides primary programme-wide income, visitor and participation context from Wildlife Odisha 2025. It does not corroborate the local 150-person account or supply Debrigarh payroll. The division’s comparable accounts and role/duration/pay definitions remain the next research step.
+
+## Historical baseline and national recognition · 1 October 2026
+
+A JICA survey published in **February 2017** records revenue from Debrigarh’s eco-complex facilities of **₹6.3 lakh in FY2009–10** and **₹19.3 lakh in FY2015–16**. It describes five cottages and notes no EDC engagement at that time. This is an institutional history to investigate, not evidence that communities had no other role. The historical facility scope cannot be spliced into present safari, cruise or sanctuary-wide revenue. [JICA report, printed p.4-12](https://openjicareport.jica.go.jp/pdf/12284139_01.pdf).
+
+The [Prime Minister’s address of 30 August 2026](https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-137th-episode-of-mann-ki-baat/) names **Maithili Bhue of Dhodrokusum**, describing her involvement in Debrigarh ecotourism. It states that more than 60 women were involved in forest conservation, including wildlife protection, grassland work and some ecotourism. This establishes national recognition of an attributed community story; it is not 60 verified tourism jobs, a formal award or measured household-income growth.
+
+## Why the recent revenue growth headline is on hold
+
+The [New Indian Express, 5 April 2026](https://www.newindianexpress.com/states/odisha/2026/Apr/05/odishas-debrigarh-raises-ecotourism-bar-with-sightings-record-tourist-footfall-revenue) reports ₹6.02 crore for FY2025–26 and ₹5.01 crore for FY2024–25. [OrissaPOST, 5 April 2025](https://www.orissapost.com/community-led-ecotourism-generates-rs-5-11cr-revenue/) reports ₹5.11 crore for Debrigarh and Hirakud Wetland together in FY2024–25. A scope difference could explain this, but no component accounts were obtained; no growth rate is adopted.
+
+The dated OrissaPOST account also reports 85 families in that earlier financial-year context. The user clipping’s 85 families remains separately recorded under 2025–26. These are not silently merged or treated as annual growth.
+
+A Hirakud DFO annual report retrieved from the Central Zoo Authority concerns **Sambalpur Zoo**, so its revenue and staff figures are excluded from this sanctuary case. Current payroll, income distribution and reconciled component accounts remain open.
+
+[Programme-wide ecotourism](../statistics/ecotourism.md) — Read the statewide programme separately; its totals do not establish Debrigarh’s share or household earnings.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T09:06:05.436218-07:00",
+  "updated_at": "2026-10-01T09:34:53.344599-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -736,11 +736,11 @@
       "title": "Homestay operating outcomes",
       "done_when": "Seek active properties, room nights, occupancy, disbursements and host income with denominators; do not substitute registrations or targets.",
       "target": "economy/homestay-support.md",
-      "status": "in_progress",
-      "attempts": 1,
+      "status": "blocked",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T09:06:05.436218-07:00",
-      "next_step": "Seek published aggregate completed annual declarations or departmental progress reports for active units, room nights, occupancy, disbursements and host income. Reuse saved reporting-field map and portal snapshot. Search district tourism/assembly reporting next; public national registry totals are a separate denominator.",
+      "last_worked_at": "2026-10-01T09:24:09.614111-07:00",
+      "next_step": "After 8 October seek original27September event release/PRC register, SBI terms and public aggregate compliance/payment reports. Do not replace unknown operations with certificates or an MoU.",
       "evidence_outputs": [
         "statistics/homestays.md",
         "economy/homestay-support.md",
@@ -748,8 +748,8 @@
         "references/data/homestay-portal-areas-20261001.json",
         "sources/homestay-portal-area-list.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-08",
+      "blocker": "No completed operational returns or primary PRC event register recovered; secondary17/176 conflict.",
       "reuse_before_research": {
         "source_records": [
           "statistics/homestays.md",
@@ -773,6 +773,12 @@
           "outcome": "outcome_evidence_map_checkpoint",
           "completion_criteria_met": false,
           "retry_after": null
+        },
+        {
+          "run_id": "2026-10-01-community-tourism",
+          "at": "2026-10-01T09:24:09.614111-07:00",
+          "outcome": "outcome_search_deferred",
+          "completion_criteria_met": false
         }
       ]
     },
@@ -782,18 +788,31 @@
       "title": "Ecotourism and community livelihoods",
       "done_when": "Seek primary Debrigarh and comparable programme employment and revenue records; separate workers, families, participation and net income.",
       "target": "about/research-gaps.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "blocked",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Seek primary Debrigarh and comparable programme employment and revenue records; separate workers, families, participation and net income.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-01T09:34:53.344599-07:00",
+      "next_step": "After 8 October seek dated division/EDC accounts separating Debrigarh, Hirakud, accommodation, safari and cruise, plus payroll/worker periods. Reuse historical JICA and PMO recognition without recrawling. Continue independent RES-011 meanwhile.",
+      "evidence_outputs": [
+        "statistics/ecotourism.md",
+        "references/data/ecotourism-livelihoods.json",
+        "sources/wildlife-odisha2025-ecotourism.md",
+        "places/debrigarh-hirakud.md",
+        "references/data/debrigarh-livelihoods.json",
+        "sources/debrigarh-jica2017.md",
+        "sources/debrigarh-pmo20260830.md",
+        "sources/debrigarh-revenue-nie20260405.md",
+        "sources/debrigarh-revenue-op20250405.md"
+      ],
+      "retry_after": "2026-10-08",
+      "blocker": "Modern Debrigarh component financial accounts and worker/pay denominators not recovered; FY2024–25 press scope conflict remains.",
       "reuse_before_research": {
         "source_records": [
           "places/debrigarh-hirakud.md",
-          "statistics/tourism.md"
+          "statistics/tourism.md",
+          "statistics/ecotourism.md",
+          "references/data/ecotourism-livelihoods.json",
+          "references/data/debrigarh-livelihoods.json"
         ],
         "project_records": [
           "kb/research/destinations/chilika.json",
@@ -801,7 +820,22 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-community-tourism",
+          "at": "2026-10-01T09:24:09.614111-07:00",
+          "outcome": "primary_programme_series_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-debrigarh-primary",
+          "at": "2026-10-01T09:34:53.344599-07:00",
+          "outcome": "primary_history_and_recognition_saved_current_accounts_deferred",
+          "new_place_observations": 8,
+          "completion_criteria_met": false
+        }
+      ]
     },
     {
       "id": "RES-011",
