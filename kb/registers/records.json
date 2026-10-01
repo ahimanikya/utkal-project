@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T07:32:36.229326+00:00",
+  "recorded_at": "2026-10-01T07:55:20.373089+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3191,22 +3191,26 @@
       "id": "UTP-WORK-112",
       "title": "Balasore–Mayurbhanj connected visitor collection",
       "category": "website_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-103",
-      "next_action": "Founder reviews the northern collection candidate and PR. No deployment performed.",
+      "next_action": "Published as an editorial preview. Carry forward local-condition, fluent Odia and specialist review; reserve reopening remains a current-notice check.",
       "blockers": [],
       "refs": [
         "UTP-DEC-103",
-        "UTP-REV-078"
+        "UTP-REV-078",
+        "UTP-DEC-104",
+        "UTP-REV-079",
+        "UTP-REL-020"
       ],
       "evidence": [
-        "records/northern-release-review.json"
+        "records/northern-release-review.json",
+        "records/northern-publication.json"
       ]
     }
   ],
@@ -5284,6 +5288,28 @@
       "evidence": [
         "records/northern-release-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-104",
+      "title": "Approve and publish PR 18 northern collection",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Direct reply to the PR 18 handoff stating publication awaits approval; authorizes merging and publishing that reviewed candidate at head 16580fa30577556544f542b2bac8ab72dc1d3840.",
+      "recorded_at": "2026-10-01T07:55:20.373089+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-103",
+        "UTP-WORK-112",
+        "UTP-REV-078"
+      ],
+      "evidence": [
+        "records/northern-publication.json",
+        "records/evidence/northern-publication/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -7154,6 +7180,29 @@
       "evidence": [
         "records/northern-release-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-079",
+      "title": "Northern collection live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the release; no independent review claimed.",
+        "No field inspection, fluent Odia proofreading, inspected accommodation or confirmed performance calendar. Reserve reopening remains to be confirmed through current official notices.",
+        "Production checks were read-only. Journey editing, downloaded books and native PDF evidence remains the local candidate checks.",
+        "Preview noindex remains. Seven further language profiles, disputed portrait, store and AI chat remain excluded. Candidate source, image-context and print limitations remain recorded."
+      ],
+      "refs": [
+        "UTP-DEC-104",
+        "UTP-WORK-112"
+      ],
+      "evidence": [
+        "records/northern-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -7500,6 +7549,22 @@
         "records/cuttack-culture-publication.json"
       ],
       "note": "Approved PR 17 published after explicit Yes. All 46 edition pages, three new photograph hashes, catalogue scope and HTTPS redirect verified."
+    },
+    {
+      "id": "UTP-REL-020",
+      "title": "Northern destination and food collection published",
+      "status": "published",
+      "authorization": "UTP-DEC-104",
+      "destination": "https://utkalproject.org/destinations/mayurbhanj/",
+      "refs": [
+        "UTP-DEC-104",
+        "UTP-WORK-112",
+        "UTP-REV-079"
+      ],
+      "evidence": [
+        "records/northern-publication.json"
+      ],
+      "note": "Approved PR 18 deployed at 087b68ca100ced874a03c270b79550fb540a07e1. All 56 edition pages, catalogue scope, new image hash and HTTPS redirect verified."
     }
   ],
   "sources": [

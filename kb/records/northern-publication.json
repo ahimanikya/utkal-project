@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-01T07:55:20.373089+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-104",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/18",
+  "approved_head": "16580fa30577556544f542b2bac8ab72dc1d3840",
+  "deployed_sha": "087b68ca100ced874a03c270b79550fb540a07e1",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/36832809539",
+  "destination": "https://utkalproject.org/destinations/mayurbhanj/",
+  "scope": "Ten northern and food routes published. Edition now contains 56 pages, 54 saveable ideas and nine journey starters.",
+  "verification": [
+    "Publication workflow completed successfully at the recorded revision.",
+    "All 56 edition pages returned HTTP 200 with the expected 54 saveable ideas and nine starters.",
+    "Preview noindex, cookie configuration and held-content boundaries passed live checks.",
+    "The new Chhau image hash matches the reviewed provenance.",
+    "Balasore and Mayurbhanj live DOM and desktop cover screenshots inspected.",
+    "HTTP Mayurbhanj URL redirected to HTTPS with HTTP 200."
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Same assistant implemented and verified the release; no independent review claimed.",
+    "No field inspection, fluent Odia proofreading, inspected accommodation or confirmed performance calendar. Reserve reopening remains to be confirmed through current official notices.",
+    "Production checks were read-only. Journey editing, downloaded books and native PDF evidence remains the local candidate checks.",
+    "Preview noindex remains. Seven further language profiles, disputed portrait, store and AI chat remain excluded. Candidate source, image-context and print limitations remain recorded."
+  ],
+  "evidence": [
+    "records/evidence/northern-publication/approval.json",
+    "records/evidence/northern-publication/deployment.json",
+    "records/evidence/northern-publication/live-checks.json",
+    "records/evidence/northern-publication/mayurbhanj-live.png",
+    "records/evidence/northern-publication/balasore-live.png"
+  ]
+}
