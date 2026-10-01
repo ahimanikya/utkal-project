@@ -3938,6 +3938,31 @@
         "records/craft-backlog-reconciliation.json",
         "records/handmade-craft-stories-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-135",
+      "title": "Woven in Odisha: Bandha, Khandua and Kotpad",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-143",
+      "next_action": "Founder reviews four public-page candidates and the saved textile journey. Published baseline remains REL-040 with 117 pages; candidate has 121. Visual/local review remains open.",
+      "blockers": [
+        "Browser visual review unavailable after admin-policy verification failure.",
+        "Local Odia/craft terminology and maker-access checks remain unverified."
+      ],
+      "refs": [
+        "UTP-DEC-143",
+        "UTP-REV-114"
+      ],
+      "evidence": [
+        "records/woven-textile-stories-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -6783,6 +6808,25 @@
       "evidence": [
         "records/handmade-craft-stories-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-143",
+      "title": "Prepare Woven in Odisha textile stories and saved journey",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Sounds good, let's pick that up",
+      "scope": "Prepare collection and three sourced textile stories, real licensed visuals and an unscheduled saved textile journey. Publication and indexing not implied.",
+      "recorded_at": "2026-10-01T22:59:40.544001+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-142"
+      ],
+      "evidence": [
+        "records/woven-textile-stories-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9484,6 +9528,31 @@
       ],
       "evidence": [
         "records/handmade-craft-stories-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-114",
+      "title": "Woven textile stories and portable journey self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser visual and interactive review remains unavailable after the recorded admin-policy verification failure; no bypass or successful new browser audit claimed.",
+        "Odia spelling, craft terminology and local maker review remain pending. No interview, workshop appointment, live stock, price, fibre purity or certification verified.",
+        "Kotpad uses a labelled, full-frame film release poster. The documentary has not been watched and its streaming availability or reuse rights are not inferred from the poster licence.",
+        "Textile journey is an unscheduled reading/research collection across different regions, not a verified day route.",
+        "Tasar feature, Store, Pala and search indexing remain outside this batch. Broader RES-012 research remains pending.",
+        "Candidate only; no merge, deployment or publication claimed."
+      ],
+      "refs": [
+        "UTP-DEC-143",
+        "UTP-WORK-135"
+      ],
+      "evidence": [
+        "records/woven-textile-stories-review.json"
       ]
     }
   ],

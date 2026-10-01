@@ -519,3 +519,5 @@
 - [The Tribal bamboo delicacy from Araku Valley](food-bamboo-tnie2017.md)
 
 - [NID / D’source — Pipili appliqué making process](pipili-dsource-process.md)
+
+- [Woven in Odisha: bounded source review](textile-story-research.md)

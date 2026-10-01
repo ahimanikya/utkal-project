@@ -1,0 +1,6 @@
+---
+import TextileStory from '../../components/TextileStory.astro';
+import data from '../../../../../kb/research/culture/textile-stories.json';
+const entry=data.pages.find(p=>p.slug==='kotpad');
+---
+<TextileStory entry={entry}/>

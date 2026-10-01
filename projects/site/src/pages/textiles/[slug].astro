@@ -1,0 +1,7 @@
+---
+import TextileStory from '../../components/TextileStory.astro';
+import data from '../../../../../kb/research/culture/textile-stories.json';
+export function getStaticPaths(){return data.pages.filter(p=>p.href.startsWith('/textiles/')).map(entry=>({params:{slug:entry.slug},props:{entry}}));}
+const {entry}=Astro.props;
+---
+<TextileStory entry={entry}/>

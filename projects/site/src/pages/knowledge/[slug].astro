@@ -14,7 +14,7 @@ import konarkDestination from '../../../../../kb/research/destinations/konark.js
 import DestinationContext from '../../components/DestinationContext.astro';
 import DestinationPhoto from '../../components/DestinationPhoto.astro';
 import PhotoJourney from '../../components/PhotoJourney.astro';
-export function getStaticPaths(){return entries.map(entry=>({params:{slug:entry.slug},props:{entry}}));}
+export function getStaticPaths(){return entries.filter(entry=>entry.slug!=='kotpad').map(entry=>({params:{slug:entry.slug},props:{entry}}));}
 const {entry}=Astro.props;
 const reference=['chilika','konark'].includes(entry.slug);
 const pilots={chilika:{story:chilikaStory,destination:chilikaDestination},konark:{story:konarkStory,destination:konarkDestination}};
