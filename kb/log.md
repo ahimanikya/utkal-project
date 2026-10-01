@@ -155,3 +155,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Everyday food story candidate](records/everyday-food-stories-review.json): three photographed dishes and a collection page, connected to Explore and saved journeys. Pala feature drafted with one recovered citation and remaining holds; browser visual review unavailable.
+
+## 2026-10-01
+
+[Everyday Odisha food collection published](records/everyday-food-stories-publication.json) after Founder approval of PR 42. Four pages are live with source and image credits, Explore connections and saved journey notes. Pala and visual/local review follow-ups remain recorded.

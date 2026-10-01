@@ -3858,25 +3858,28 @@
       "id": "UTP-WORK-132",
       "title": "Everyday Odisha table: illustrated food stories and portable reading",
       "category": "editorial_and_website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-137",
-      "next_action": "Review the four-page food candidate; browser visual review remains open. Pala draft held while remaining source, image and terminology checks are resolved.",
+      "next_action": "Food candidate published. Complete browser visual review when policy verification is available; continue the separately held Pala source/media/terminology review.",
       "blockers": [
         "Browser admin-policy verification prevents visual and interactive review.",
         "Pala-specific full-text and media review gaps; no Pala website route added."
       ],
       "refs": [
         "UTP-DEC-137",
-        "UTP-REV-111"
+        "UTP-REV-111",
+        "UTP-DEC-138",
+        "UTP-REL-038"
       ],
       "evidence": [
-        "records/everyday-food-stories-review.json"
+        "records/everyday-food-stories-review.json",
+        "records/everyday-food-stories-publication.json"
       ]
     }
   ],
@@ -6624,6 +6627,26 @@
       ],
       "evidence": [
         "records/everyday-food-stories-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-138",
+      "title": "Publish approved everyday food story batch",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved!",
+      "scope": "Merge PR 42 and publish its four food pages and journey connections. Preserve the disclosed browser review limitation and held Pala draft. No search indexing or Store publication approved.",
+      "recorded_at": "2026-10-01T21:18:57.631126+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-137",
+        "UTP-REV-111"
+      ],
+      "evidence": [
+        "records/everyday-food-stories-publication.json"
       ]
     }
   ],
@@ -9928,6 +9951,22 @@
         "records/food-pala-integration-publication.json"
       ],
       "note": "Both PRs merged after current CI; website rebuilt and verified. Research is in the KB, not automatically promoted to new public-facing articles."
+    },
+    {
+      "id": "UTP-REL-038",
+      "title": "Everyday Odisha table and three food stories published",
+      "status": "published",
+      "authorization": "UTP-DEC-138",
+      "destination": "https://utkalproject.org/food/everyday/",
+      "refs": [
+        "UTP-DEC-138",
+        "UTP-WORK-132",
+        "UTP-REV-111"
+      ],
+      "evidence": [
+        "records/everyday-food-stories-publication.json"
+      ],
+      "note": "Four pages and journey connections live; Pala remains held. Automated delivery checks do not close visual or local/Odia review."
     }
   ],
   "sources": [
