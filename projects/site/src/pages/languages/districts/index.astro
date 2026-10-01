@@ -1,0 +1,14 @@
+---
+import Shell from '../../../layouts/Shell.astro';
+import atlas from '../../../../../../kb/research/voices/population-2011.json';
+import {districtBreakdown,districtHref,count} from '../../../lib/language-atlas.mjs';
+import '../../../styles/language-districts.css';
+const areas=Object.values(atlas.areas).filter(a=>a.code!=='000').sort((a,b)=>a.name.localeCompare(b.name));
+---
+<Shell title="Languages by district · Odisha" description="Start with a place: explore the recorded mother tongues of all 30 Odisha districts in Census 2011, then follow their language stories." active="explore" wide related={false}>
+<article class="district-wrap"><header class="district-intro"><p class="eyebrow">A place has many voices · Census 2011</p><h1>Start with a district.<br/><em>Listen for more than one story.</em></h1><p>Which languages were recorded where? Open a district to see its Census language groups, look inside those groups, and follow the introductions behind the figures.</p></header>
+<p class="district-note">Historical district populations and names from 2011. A mother-tongue return does not tell us every language someone speaks, their ancestry, or the language a visitor can expect from a particular host.</p>
+<div class="district-grid">{areas.map(area=>{const d=districtBreakdown(atlas,area.code);return <article><p class="eyebrow">{count(d.population)} people · 2011</p><h2><a href={districtHref(area)}>{area.name} →</a></h2><p>Largest recorded group: <strong>{d.groups[0].label}</strong> · {d.groups[0].share}.</p><p class="district-small">Open the profile to see individual mother-tongue entries within the groups.</p></article>})}</div>
+<p><a href="/languages/atlas/">Compare one language across districts →</a> · <a href="/languages/multilingual-odisha/">Understand multilingual Odisha →</a></p>
+<details class="mag-article-credits"><summary>Sources & scope</summary><p>Derived from <a href={atlas.sources.c16.url}>Census C-16, Odisha, 2011</a>. District populations sum the mutually exclusive language-group rows, including OTHERS. These pages are historical data profiles, not field reports or present-day language surveys.</p></details></article>
+</Shell>

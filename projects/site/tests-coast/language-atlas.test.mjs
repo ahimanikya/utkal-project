@@ -11,7 +11,7 @@ test('atlas is discoverable with a complete server-rendered table and accessible
  const embedded=JSON.parse(html.match(/id="language-atlas-data"[^>]*>([\s\S]*?)<\/script>/)[1]);assert.equal(Object.keys(embedded.areas).length,31);
  assert.equal(embedded.areas['000'].rows['015043'].values[0],31507158);
 });
-test('eight language stories link their exact Census entries and show historical rather than current counts',()=>{
+test('language stories link their exact Census entries and show historical rather than current counts',()=>{
  for(const [slug,p] of Object.entries(data.profiles)){
   const html=read('/languages/'+slug+'/');assert.ok(html.includes('/languages/atlas/?language='+p.code));assert.match(html,/id="population"/);
   assert.match(html,/not everyone who can speak the language today/);assert.match(html,/Census 2011/);

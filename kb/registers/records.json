@@ -3804,6 +3804,29 @@
         "reference/language-population-atlas.md",
         "records/language-atlas-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-130",
+      "title": "Turn population data into district and language story connections",
+      "category": "language_data_and_stories",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-135",
+      "next_action": "Complete release and retain community and visual review as open checks.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-135",
+        "UTP-REV-109"
+      ],
+      "evidence": [
+        "records/district-languages-review.json",
+        "reference/district-language-stories.md"
+      ]
     }
   ],
   "decisions": [
@@ -6493,6 +6516,26 @@
       "evidence": [
         "records/language-atlas-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-135",
+      "title": "Connect language population to districts, stories and visitor context",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go for it",
+      "scope": "The proposed district profiles, Sambalpuri/Desia introductions, destination connections and multilingual explainer; review when browser policy access is restored. Continue within existing autonomous release authorization; no new spending, outreach or indexing launch.",
+      "recorded_at": "2026-10-01T19:23:39.108404+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-133",
+        "UTP-DEC-134"
+      ],
+      "evidence": [
+        "records/district-languages-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9077,6 +9120,30 @@
       ],
       "evidence": [
         "records/language-atlas-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-109",
+      "title": "District language profiles and stories self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Historical Census 2011 figures, not present-day counts or predictions about an individual host.",
+        "Census labels do not decide identity; community-preferred naming and specialist review remain open.",
+        "Thirty generated data profiles are not thirty field-researched tourism guides. Literary introductions are starting points, not exhaustive histories.",
+        "The browser’s administration-policy verification remains unavailable; no visual, keyboard, mobile, screen-reader or print audit claimed.",
+        "No authorised audio recordings or full literary texts supplied; no current performance or learning-book availability verified."
+      ],
+      "refs": [
+        "UTP-DEC-135",
+        "UTP-WORK-130"
+      ],
+      "evidence": [
+        "records/district-languages-review.json"
       ]
     }
   ],
