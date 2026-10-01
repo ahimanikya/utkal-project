@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-01T00:44:32.875577+00:00",
+  "authorization": "UTP-DEC-089",
+  "status": "pass_with_limitations",
+  "independent": false,
+  "changes": [
+    "Six connected chapters distinguish the 1972 pagoda, ancient inscriptions, elephant sculpture and attributed river legend.",
+    "Four planning stops carry history, event checks and approach/return questions into journey books.",
+    "Existing photographs, layout and quiet page-end sources retained."
+  ],
+  "verification": {
+    "site_tests": 318,
+    "coastal_tests": 10,
+    "page_checks": 64,
+    "visual": "Desktop story and elephant section inspected in browser; no template or CSS changes.",
+    "actual_books": "All four full planning notes and all planning source URLs verified in actual downloaded HTML and text files.",
+    "scope": "16 coastal pages retained; no new route or public deployment."
+  },
+  "limitations": [
+    "The historical source is a draft heritage document; its descriptive sections do not establish current visitor policy or facilities.",
+    "Show/festival operation, language, tickets, access, toilets and transport remain locally unverified.",
+    "Same assistant researched, implemented and reviewed; no independent review. Founder publication approval remains separate.",
+    "Desktop browser flow and actual HTML/text downloads verified; no new physical-device or native-PDF verification."
+  ],
+  "evidence": [
+    "records/evidence/dhauli-layers-guide-2026-10-01/actual-books.json",
+    "records/evidence/dhauli-layers-guide-2026-10-01/build.log",
+    "records/evidence/dhauli-layers-guide-2026-10-01/coast-tests.log",
+    "records/evidence/dhauli-layers-guide-2026-10-01/coast.log",
+    "records/evidence/dhauli-layers-guide-2026-10-01/elephant-section.png",
+    "records/evidence/dhauli-layers-guide-2026-10-01/page-acceptance.json",
+    "records/evidence/dhauli-layers-guide-2026-10-01/page-snapshot.txt",
+    "records/evidence/dhauli-layers-guide-2026-10-01/source-inspection.json",
+    "records/evidence/dhauli-layers-guide-2026-10-01/tests.log"
+  ]
+}
