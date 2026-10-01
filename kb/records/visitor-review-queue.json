@@ -1,5 +1,5 @@
 {
-  "recorded_at": "2026-10-01T10:38:25.462397+00:00",
+  "recorded_at": "2026-10-01T16:47:43.833358+00:00",
   "owner": "Ahimanikya Satapathy",
   "status": "review_queue_not_assignments",
   "basis": "Existing work and publication records; no specialist approvals invented.",
@@ -67,15 +67,17 @@
         "UTP-WORK-090",
         "UTP-WORK-091"
       ],
-      "next_action": "Assess remaining experience and accessibility gaps against the current 67-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open.",
+      "next_action": "Assess remaining experience and accessibility gaps against the current 69-page edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open.",
       "evidence": [
         "records/visitor-experience-review.json",
-        "records/visitor-readiness-publication.json"
+        "records/visitor-readiness-publication.json",
+        "records/odisha-roots-features-publication.json",
+        "records/evidence/visitor-research/browser-attempt.json"
       ],
       "implementation_followups": [
         {
           "work_id": "UTP-WORK-120",
-          "status": "candidate_for_founder_review",
+          "status": "published_preview",
           "evidence": "records/guide-navigation-review.json",
           "scope": "Compact contents on 23 visitor-detail routes and links into collapsed sections; physical-device and screen-reader queue remains open.",
           "publication_followup": {
@@ -107,12 +109,25 @@
         "records/visitor-experience-review.json",
         "reference/knowledge-story-model.md"
       ]
+    },
+    {
+      "key": "historical_originals",
+      "title": "Original documents and historical interpretation",
+      "work_ids": [
+        "UTP-WORK-123",
+        "UTP-WORK-124"
+      ],
+      "next_action": "Locate and inspect the cited temple register and original literary passage/edition for Rasagola. Seek specialist review of the literary dating and Bose’s retrospective memoir interpretation. Published features retain qualified accounts; original-document verification is open.",
+      "evidence": [
+        "records/odisha-roots-features-review.json",
+        "records/odisha-roots-features-publication.json"
+      ]
     }
   ],
   "separate_decisions": [
     {
       "title": "Search indexing",
-      "next_action": "Review sitemap proposal and scope; enabling indexing is not part of this candidate."
+      "next_action": "Existing 11-page indexing proposal remains for separate Founder approval; all 69 published preview pages remain noindex and indexing is not activated."
     },
     {
       "title": "Branding and commercial programmes",
@@ -120,7 +135,16 @@
     },
     {
       "title": "Research integration",
-      "next_action": "PR 21 is merged and recorded as applied under UTP-REL-023. Preserve its research provenance; imported research is not automatic website publication."
+      "next_action": "PR 21 is applied under UTP-REL-023. PRs 22 → 24 → 33 remain separate integration candidates; see exact-head review and conflict findings. Research adoption is not automatic website publication.",
+      "evidence": "records/research-pr-review.json"
     }
-  ]
+  ],
+  "current_published_baseline": {
+    "release": "UTP-REL-032",
+    "evidence": "records/odisha-roots-features-publication.json",
+    "pages": 69,
+    "explore_entries": 56,
+    "saveable_ideas": 63,
+    "indexing": "disabled"
+  }
 }

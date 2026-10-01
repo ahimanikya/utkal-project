@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-01T16:47:43.833358+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-129",
+  "base_commit": "493f5be",
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "changes": [
+    "Shared homepage selection introduces Chilika, Odisha Rasagola and Bose’s Cuttack childhood with responsive real photographs and end-of-page credits.",
+    "Cuttack food links to the childhood feature as well as the museum; Rasagola links to Chhena Poda.",
+    "Bose’s museum image uses place-photo cropping rather than the literary-portrait treatment.",
+    "Exact-head research review records 17 passing snapshot checks, integration conflicts and sequence 22 → 24 → 33.",
+    "Review queue and stale work prompts reconciled to the 69-page published baseline without erasing specialist and browser follow-ups."
+  ],
+  "verification": {
+    "status": "passed_with_limitations",
+    "full_site_tests": 368,
+    "coastal_tests": 50,
+    "page_acceptance": "276 checks across 69 routes passed",
+    "research_snapshot_validator_runs": 17,
+    "search": "11-page proposal remains separate; default edition retains noindex. Indexing/contrast comparison passes.",
+    "browser": "blocked before navigation; no visual/keyboard/mobile review completed",
+    "design_system_tests": 6,
+    "knowledge_bundle": "Register, configuration, catalogue, bundle and research checks passed."
+  },
+  "limitations": [
+    "Browser security-policy verification blocked navigation; actual visual, mobile/wide, keyboard and screen-reader checks remain open.",
+    "Research review sampled records and checked structure/integration; it does not independently verify every factual claim or clear publication rights.",
+    "Research PR conflicts remain for separate integration; no draft AGENTS rules adopted.",
+    "Founder approval of this exact candidate and publication is pending."
+  ],
+  "evidence": [
+    "records/research-pr-review.json",
+    "records/visitor-backlog-update.json",
+    "records/evidence/visitor-research/browser-attempt.json",
+    "records/evidence/visitor-research/site-tests.txt",
+    "records/evidence/visitor-research/edition-tests.txt",
+    "records/evidence/visitor-research/page-acceptance.json",
+    "records/evidence/visitor-research/search-readiness/search-checks.json",
+    "records/evidence/visitor-research/search-readiness/contrast-checks.json"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated"
+  },
+  "pull_request": {
+    "url": "https://github.com/ahimanikya/utkal-project/pull/34",
+    "state": "draft_for_founder_review",
+    "implementation_commit": "b72aea8"
+  }
+}
