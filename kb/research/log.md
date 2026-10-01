@@ -284,3 +284,7 @@ Saved 20 scoped observations, a readable grant-category story and two publisher 
 ## 1 October 2026 · Palm-seed foods
 
 Recovered the original 2021 Talagaja study, distinguished three palm maturity stages and enhanced existing food records. Source scope, 93-person study sample and historical season remain explicit. Exact tala khaja equivalence is held open. No current market estimates, health claims or website publication.
+
+## 1 October 2026 · Palm-seed visual reference
+
+Recorded the user-supplied image as contextual visual evidence for the tala khaja lead, with attachment hash and visible features. Name equivalence and anatomy remain unresolved. No source photograph added to public assets; no website publication.

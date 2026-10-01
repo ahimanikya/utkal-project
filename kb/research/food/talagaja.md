@@ -28,3 +28,7 @@ Ahimanikya identified **tala khaja** as seed produce. That remains a distinct, u
 The [tala pitha entry](tala-pitha.md) covers ripe-fruit preparations. Connecting the two helps explain maturity stages without treating them as interchangeable foods. Current prices, commercial volumes and exports remain unknown.
 
 [Related reading](tala-pitha.md) — Explains distinct maturity stages of palm foods; no equivalence to tala khaja is asserted.
+
+## User-supplied visual reference · 1 October 2026
+
+An image supplied in this discussion shows a split dark fibrous covering and a white interior. In conversation context it clarifies the visual referent for the tala khaja lead; no new caption explicitly identifies the specimen. It is a reference for further local identification, not confirmation of species, germination stage, edible anatomy or khaja/gaja equivalence. The image is retained in the local research workspace; its creator and public reuse rights are unverified.

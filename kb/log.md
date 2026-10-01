@@ -195,3 +195,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Palm-seed stages and food names
 
 [Research receipt](records/palm-seed-2026-10-01.json): Talagaja documented from an original field study; the supplied tala khaja name remains unresolved. No website release.
+
+## 1 October 2026 · Palm-seed visual reference
+
+[Research receipt](records/palm-image-2026-10-01.json): User image referenced by hash and visible features; no photograph published or botanical identity confirmed. No website release.

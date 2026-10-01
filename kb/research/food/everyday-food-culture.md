@@ -55,3 +55,7 @@ Next collection candidates are saga preparations, ambula and other souring ingre
 ## Germinated-seed comparison documented
 
 [Talagaja](talagaja.md) now has an original Odisha field-study account distinguishing germinated seed food from young-fruit endosperm and ripe-fruit pitha. This narrows the research question but does not establish that tala khaja is the same local name. Exact spelling, local attribution and recipe remain open.
+
+## User-supplied visual reference · 1 October 2026
+
+An image supplied in this discussion shows a split dark fibrous covering and a white interior. In conversation context it clarifies the visual referent for the tala khaja lead; no new caption explicitly identifies the specimen. It is a reference for further local identification, not confirmation of species, germination stage, edible anatomy or khaja/gaja equivalence. The image is retained in the local research workspace; its creator and public reuse rights are unverified.

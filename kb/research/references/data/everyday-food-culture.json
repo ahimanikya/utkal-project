@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:38:31.291164+00:00",
+  "updated_at": "2026-10-01T21:48:42.046297+00:00",
   "run_id": "2026-10-01-palm-seed",
   "scope": "Attributed everyday-food seed; distinct from the completed fourteen-entry preparation set. Not an inventory of all Odisha foods.",
   "records": [
@@ -284,11 +284,25 @@
       "seed_stage": null,
       "equivalence_to_tala_gaja": null,
       "local_odia_review": "pending",
-      "next_action": "Confirm exact local spelling and intended seed stage through an attributable documentary/local account; Talagaja is a comparison candidate only.",
+      "next_action": "Use the supplied image to seek attributable local name and seed-stage confirmation. Exact botanical anatomy and khaja/gaja equivalence remain open.",
       "comparison_candidate": {
         "concept_id": "food/talagaja",
         "source_id": "food-palm-panda2021",
         "equivalence": "not_established"
+      },
+      "visual_reference": {
+        "received_on": "2026-10-01",
+        "attachment_basename": "codex-clipboard-c6a40a3d-978e-4768-95cd-ccc7e466001f.png",
+        "sha256": "e6c92a7092a4f0b6b133c0ba69710495adc01b8b642dd49a740b3de9f5c88fe5",
+        "evidence_class": "user_supplied_visual_research_lead",
+        "context": "Image supplied immediately after the Talagaja comparison; association with tala khaja is inferred from conversation context, not an explicit new caption.",
+        "visible_features": "Split dark fibrous covering with white interior exposed.",
+        "species_confirmation": false,
+        "seed_stage_confirmation": false,
+        "local_name_equivalence_confirmed": false,
+        "original_creator_verified": false,
+        "public_reuse_rights": "not_established",
+        "public_image_asset_created": false
       }
     }
   ]
