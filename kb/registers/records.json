@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T13:02:59.327814+00:00",
+  "recorded_at": "2026-10-01T13:20:46.634165+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3549,24 +3549,28 @@
       "id": "UTP-WORK-120",
       "title": "Compact visitor-guide contents and disclosure-aware section links",
       "category": "website_experience",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-119",
-      "next_action": "Founder reviews the candidate; browser and assistive-technology verification remain open.",
+      "next_action": "Published under UTP-REL-028. Keep the wider browser, physical-device and screen-reader review queue open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-119",
         "UTP-REV-093",
         "UTP-WORK-031",
-        "UTP-WORK-032"
+        "UTP-WORK-032",
+        "UTP-DEC-120",
+        "UTP-REV-094",
+        "UTP-REL-028"
       ],
       "evidence": [
-        "records/guide-navigation-review.json"
+        "records/guide-navigation-review.json",
+        "records/guide-navigation-publication.json"
       ]
     }
   ],
@@ -5958,6 +5962,27 @@
       "evidence": [
         "records/guide-navigation-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-120",
+      "title": "Approve and publish PR 28 guide navigation",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Direct reply to PR 28 handoff, approving head 561062eb97ffbf65dd1e0b882a3b27ddf94de2c5 for publication. Search indexing remains disabled.",
+      "recorded_at": "2026-10-01T13:20:46.634165+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-119",
+        "UTP-WORK-120",
+        "UTP-REV-093"
+      ],
+      "evidence": [
+        "records/guide-navigation-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -8184,6 +8209,29 @@
       "evidence": [
         "records/guide-navigation-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-094",
+      "title": "Guide navigation publication verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the release; no independent accessibility review claimed.",
+        "Live checks use HTTP, markup and JavaScript bytes. Browser security-policy verification remained unavailable during candidate review; real keyboard, rendered layout, screen-reader, zoom and device checks remain open.",
+        "Handler tests use synthetic DOM elements and do not establish browser timing or assistive-technology behavior.",
+        "Search indexing remains disabled and the separate proposed search selection is not activated."
+      ],
+      "refs": [
+        "UTP-DEC-120",
+        "UTP-WORK-120"
+      ],
+      "evidence": [
+        "records/guide-navigation-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -8671,6 +8719,22 @@
         "records/first-edition-editorial-publication.json"
       ],
       "note": "PR 27 published and checked. Search activation, visual and local-language follow-ups remain separate."
+    },
+    {
+      "id": "UTP-REL-028",
+      "title": "Compact guide contents and linked disclosures published",
+      "status": "published",
+      "authorization": "UTP-DEC-120",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-120",
+        "UTP-REV-094",
+        "UTP-WORK-120"
+      ],
+      "evidence": [
+        "records/guide-navigation-publication.json"
+      ],
+      "note": "PR 28 published and checked; broader accessibility and browser checks remain open."
     }
   ],
   "sources": [
