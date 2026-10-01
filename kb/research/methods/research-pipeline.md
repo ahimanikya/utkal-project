@@ -103,3 +103,7 @@ When sports-achievements.json changes, run tools/validate_sports.py with the cor
 ### Scientists checkpoint · 1 October 2026
 
 RES-029 is in progress: Swati Nayak and Sanghamitra Pati profiles connect agriculture and health to documented contributions. Existing Mohanty research and project-native Samanta records were consulted first. Two new profiles are not the six-scientist deliverable. Resume RES-029: enhance the project-native Samanta Chandrasekhar record only for unresolved chronology/instrument fields, retain Mohanty’s existing paper, then research two further scientists (candidate leads Prana Krushna Parija and Ajit Kumar Mohanty) to reach six. Verify Nayak publication-level credits and Pati award-issuer entry/full methods; failed routes retry after 2026-10-08. Do not duplicate project-native Samanta JSON.
+
+### User-expanded scientific-history scope · 1 October 2026
+
+RES-029 now follows heritage to the present, with its original six-person completion criterion preserved in scope_history. Added Śatānanda, Parija and Ajit Kumar Mohanty; the timeline also reuses four existing identities. The earliest period remains an explicit attribution gap. No duplicate automation or completed encyclopedic coverage claimed.

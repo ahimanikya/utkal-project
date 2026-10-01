@@ -352,3 +352,15 @@
 - [ICMR leadership: Sanghamitra Pati](science-pati-icmr-leadership.md)
 
 - [Pati and colleagues: Odisha primary-care multimorbidity study](science-pati-multimorbidity-2015.md)
+
+- [Śatānanda and Bhāsvatī: Panda preprint](science-satananda-preprint.md)
+
+- [The Bhāsvatī astronomical handbook of Śatānanda](science-satananda-jahh.md)
+
+- [P. K. Parija memorial lecture biography](science-parija-niser.md)
+
+- [Prankrishna Parija: academy publication catalogue](science-parija-ias-papers.md)
+
+- [Ajit Kumar Mohanty: Department of Atomic Energy biography](science-ajit-dae.md)
+
+- [Possible origin of shoulder in the reactor antineutrino spectrum](science-ajit-antineutrino.md)

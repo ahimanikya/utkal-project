@@ -140,3 +140,5 @@
 - [Sports research](sports-achievements-2026-10-01.json) — Eight athletes across four sports, with fourteen scoped results and milestones.
 
 - [Scientists checkpoint](scientists-first-batch-2026-10-01.json) — Swati Nayak and Sanghamitra Pati, credited contributions and evidence limits; RES-029 remains in progress.
+
+- [Scientific heritage checkpoint](science-heritage-2026-10-01.json) — Heritage-to-present timeline, three new contributors and three works; RES-029 remains in progress.

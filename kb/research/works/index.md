@@ -59,3 +59,9 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Odisha rice seed deployment — documented team contribution](odisha-rice-seed-deployment.md)
 
 - [Prevalence, Correlates, and Outcomes of Multimorbidity Among Patients Attending Primary Care in Odisha, India](odisha-multimorbidity-2015.md)
+
+- [Bhāsvatī](bhasvati.md)
+
+- [Analytic studies in plant respiration. I. The respiration of a population of senescent ripening apples](parija-apple-respiration-1928.md)
+
+- [Possible origin of shoulder in the reactor antineutrino spectrum](antineutrino-shoulder-2017.md)

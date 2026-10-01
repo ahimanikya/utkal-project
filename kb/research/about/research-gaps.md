@@ -134,3 +134,7 @@ Eight selected profiles are a seed, not complete biographies or statewide totals
 ### Science evidence limits · 1 October 2026
 
 Nayak’s award biography credits a team strategy; plant-breeder credit, publication-level authorship and measured Odisha adoption remain open. Pati’s award is supported by her institutional biography, pending the academy register. Her 2015 paper’s indexed abstract gives 1,649 patients; full methods and recruitment denominators remain unread. PMC challenged access, institutional repository fetches and IRRI’s HHAT PDF failed; retry after 8 October. Samanta’s existing project-native birth-date conflict and instrument claims need specialist evidence. RES-029 remains in progress; no statewide health estimate or measured economic benefit was added.
+
+### Scientific heritage gaps · 1 October 2026
+
+No securely sourced named scientist before 1099 CE was established in this batch. This is a coverage gap, not proof that none existed. Check manuscript witnesses, early medicine and technical practice before naming ancient contributors. Śatānanda’s exact birth year, universal priority claims and court association are not adopted. Indexed academy/journal routes need direct retrieval after 8 October. Parija’s award register, Samanta’s chronology, and current affiliations require their own checks. Ancient/medieval, modern research and science communication remain distinct roles.

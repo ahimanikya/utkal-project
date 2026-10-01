@@ -39,3 +39,7 @@ Completed RES-028: eight selected athletes, including women and para sport, and 
 ## 2026-10-01
 
 Saved RES-029 checkpoint: two science profiles, one paper and one editorial field-contribution record. Existing Mohanty and project-native Samanta identities retained. [Bounded receipt](records/scientists-first-batch-2026-10-01.json). No website changes or human approval claimed.
+
+## 2026-10-01
+
+Saved RES-029 checkpoint: three science profiles, three credited works and a heritage-to-present timeline. Existing Mohanty and project-native Samanta identities retained. [Bounded receipt](records/science-heritage-2026-10-01.json). No website changes or human approval claimed.

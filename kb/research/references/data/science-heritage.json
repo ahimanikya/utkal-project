@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T05:54:01.849023-07:00",
+  "coverage": "Historical Utkala/Odisha connections to the present; selected evidence, not complete census or continuous lineage. Ancient Utkala, Kalinga and modern Odisha boundaries must be established for each record.",
+  "timeline": [
+    {
+      "period": "Before 1099 CE",
+      "person_id": null,
+      "status": "research_gap",
+      "note": "Investigate technical traditions and named scholars through dated manuscripts, inscriptions and archaeology. No securely sourced named scientist for this period has been established in this batch."
+    },
+    {
+      "period": "1099 CE",
+      "person_id": "people/satananda",
+      "work_id": "works/bhasvati",
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh"
+      ],
+      "status": "historical_study_attribution"
+    },
+    {
+      "period": "19th century; Siddhanta Darpana catalogue dated 1899",
+      "person_id": "people/samanta-chandrasekhar",
+      "project_record": "kb/research/people/samanta-chandrasekhar.json",
+      "status": "reuse_project_native_record",
+      "note": "Existing bibliography and birth-date conflict preserved; no new biography or changed website JSON."
+    },
+    {
+      "period": "1928",
+      "person_id": "people/prana-krushna-parija",
+      "work_id": "works/parija-apple-respiration-1928",
+      "source_ids": [
+        "science-parija-niser",
+        "science-parija-ias-papers"
+      ],
+      "status": "bibliographic_capture"
+    },
+    {
+      "period": "2009 paper; 2021 Infosys Prize",
+      "person_id": "people/bedangadas-mohanty",
+      "work_id": "works/qcd-phase-diagram-2009",
+      "status": "reuse_existing_research",
+      "source_ids": [
+        "creators-bedangadas-infosys",
+        "creators-qcd-paper"
+      ]
+    },
+    {
+      "period": "2015 paper",
+      "person_id": "people/sanghamitra-pati",
+      "work_id": "works/odisha-multimorbidity-2015",
+      "status": "reuse_existing_research",
+      "source_ids": [
+        "science-pati-multimorbidity-2015"
+      ]
+    },
+    {
+      "period": "2017 preprint; DAE appointment 2023",
+      "person_id": "people/ajit-kumar-mohanty-physicist",
+      "work_id": "works/antineutrino-shoulder-2017",
+      "status": "primary_institution_and_preprint",
+      "source_ids": [
+        "science-ajit-dae",
+        "science-ajit-antineutrino"
+      ]
+    },
+    {
+      "period": "2023 award",
+      "person_id": "people/swati-nayak",
+      "work_id": "works/odisha-rice-seed-deployment",
+      "status": "reuse_existing_research",
+      "source_ids": [
+        "science-nayak-borlaug"
+      ]
+    }
+  ],
+  "research_lanes": [
+    {
+      "era": "ancient and early medieval",
+      "next": "Inspect manuscript catalogues, inscriptions and archaeological research; distinguish named people from collective engineering/navigation practices."
+    },
+    {
+      "era": "medieval to early modern",
+      "next": "Check Bhāsvatī manuscript witnesses and commentaries; names circulating in modern lists are leads, not confirmed Odisha identities."
+    },
+    {
+      "era": "nineteenth and twentieth centuries",
+      "next": "Reuse Samanta; examine Pranakrushna Parija, Tribikram Pati and Gokulananda Mahapatra across research, education and science communication, with distinct roles."
+    },
+    {
+      "era": "contemporary",
+      "next": "Expand mathematics, chemistry, medicine, engineering, computing and women in science using institution profiles and credited publications; verify living affiliations when used."
+    }
+  ],
+  "human_review_claimed": false
+}

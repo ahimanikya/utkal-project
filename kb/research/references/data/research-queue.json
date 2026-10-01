@@ -542,19 +542,26 @@
       "id": "RES-029",
       "order": 12,
       "title": "Scientists and documented contributions",
-      "done_when": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
+      "done_when": "Build a documented timeline from Utkala’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
       "target": "people/people-and-creations.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T05:42:41.942920-07:00",
-      "next_step": "Resume RES-029: enhance the project-native Samanta Chandrasekhar record only for unresolved chronology/instrument fields, retain Mohanty’s existing paper, then research two further scientists (candidate leads Prana Krushna Parija and Ajit Kumar Mohanty) to reach six. Verify Nayak publication-level credits and Pati award-issuer entry/full methods; failed routes retry after 2026-10-08. Do not duplicate project-native Samanta JSON.",
+      "last_worked_at": "2026-10-01T05:54:01.849023-07:00",
+      "next_step": "Continue historical manuscript/attribution lane first; then nineteenth/twentieth-century mathematics, chemistry and science communication, and contemporary women and additional disciplines. Reuse seven mapped scientists, including project-native Samanta. Retry unavailable primary routes after 2026-10-08.",
       "evidence_outputs": [
         "people/science-and-contributions.md",
         "people/swati-nayak.md",
         "people/sanghamitra-pati.md",
         "works/odisha-rice-seed-deployment.md",
-        "works/odisha-multimorbidity-2015.md"
+        "works/odisha-multimorbidity-2015.md",
+        "references/data/science-heritage.json",
+        "people/satananda.md",
+        "people/prana-krushna-parija.md",
+        "people/ajit-kumar-mohanty-physicist.md",
+        "works/bhasvati.md",
+        "works/parija-apple-respiration-1928.md",
+        "works/antineutrino-shoulder-2017.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -566,7 +573,13 @@
           "people/swati-nayak.md",
           "people/sanghamitra-pati.md",
           "works/odisha-rice-seed-deployment.md",
-          "works/odisha-multimorbidity-2015.md"
+          "works/odisha-multimorbidity-2015.md",
+          "people/satananda.md",
+          "people/prana-krushna-parija.md",
+          "people/ajit-kumar-mohanty-physicist.md",
+          "works/bhasvati.md",
+          "works/parija-apple-respiration-1928.md",
+          "works/antineutrino-shoulder-2017.md"
         ],
         "project_records": [
           "kb/research/people/samanta-chandrasekhar.md",
@@ -585,6 +598,23 @@
           "new_works": 2,
           "reused": "Bedangadas Mohanty source record and Samanta Chandrasekhar project-native narrative inspected; neither duplicated.",
           "remaining": "Six-scientist breadth and historical instrument/chronology evidence incomplete."
+        },
+        {
+          "run_id": "2026-10-01-science-heritage-timeline",
+          "at": "2026-10-01T05:54:01.849023-07:00",
+          "outcome": "historical_scope_expanded_checkpoint",
+          "completion_criteria_met": false,
+          "new_people": 3,
+          "new_works": 3,
+          "scope": "User expanded coverage from six-person seed to heritage-to-present timeline; original criterion preserved in scope_history."
+        }
+      ],
+      "scope_history": [
+        {
+          "at": "2026-10-01T05:54:01.849023-07:00",
+          "previous_done_when": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
+          "authorization": "User: We need to find Scientist starting from Utkal heritage till date",
+          "new_done_when": "Build a documented timeline from Utkala’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target."
         }
       ]
     },

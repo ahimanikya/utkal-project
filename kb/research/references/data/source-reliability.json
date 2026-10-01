@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T05:42:41.942920-07:00",
+  "updated_at": "2026-10-01T05:54:01.849023-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1133,6 +1133,10 @@
     {
       "run_id": "2026-10-01-scientists-first-batch",
       "scope": "Scientists checkpoint; no weekly release/revision check."
+    },
+    {
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "scope": "Historical science expansion; not a weekly statistical release check."
     }
   ],
   "supplemental_discovery_routes": [
@@ -1863,6 +1867,126 @@
       "run_id": "2026-10-01-scientists-first-batch",
       "status": "unavailable_direct_fetch",
       "scope": "Direct fetch failed; not used.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-satananda-preprint",
+      "discovery_url": "https://arxiv.org/abs/1904.03661",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "available_with_scoped_capture",
+      "scope": "Puri association; 1099 work date; eight chapters and 128 verses; centesimal computation, calendars and eclipses. Modern historical interpretation, not manuscript autopsy. Exact birth year, invented-decimal-system and global-first claims not adopted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-satananda-jahh",
+      "discovery_url": "https://old.narit.or.th/files/JAHH/2019JAHHvol22/2019JAHH...22..536P.pdf",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Indexed journal abstract dates text to 7 April 1099; year-only timeline adopted. Same author/topic as preprint, not independent corroboration. Direct NARIT, DOI and SciEngine retrieval failed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-parija-niser",
+      "discovery_url": "https://www.niser.ac.in/~bedanga/endowments.php",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "available_with_scoped_capture",
+      "scope": "Memorial biography gives 1891–1978, Balikuda/Jagatsinghpur connection, university leadership and 1955 Padma Bhushan. Faculty-hosted account, not award-issuer register. Cambridge college detail not adopted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-parija-ias-papers",
+      "discovery_url": "https://repository.ias.ac.in/view/fellows/Parija%3D3APrankrishna%3D3A%3D3A.html",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch_indexed_evidence_saved",
+      "scope": "Academy bibliography credits Blackman and Parija on part I (103(726),412–445), and Parija alone on part II (446–490). Same series, distinct paper credits. Full texts not inspected; no measured storage-industry impact adopted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-ajit-dae",
+      "discovery_url": "https://dae.gov.in/meet-the-secretary/",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "available_with_scoped_capture",
+      "scope": "Born Odisha 1959; MPC College Baripada 1979, Ravenshaw Cuttack 1981; nuclear-physics collaborations and 1991 INSA Young Scientist Award. Appointment dated 3 May 2023. National work not assigned entirely to Odisha; no current-office claim needed.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-ajit-antineutrino",
+      "discovery_url": "https://arxiv.org/abs/1711.02801",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "available_with_scoped_capture",
+      "scope": "PDF affiliates author with SINP, BARC and HBNI, distinguishing the physicist from similarly named scholars. Proposed explanation, not established discovery. Submitted 8 November; PDF internally dated 9 November 2017. Journal publication not established.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://doi.org/10.3724/SP.J.1440-2807.2019.03.12",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch",
+      "scope": "Lead or alternative route; no additional claim promoted from failed retrieval.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sciengine.com/parse/pdf/1440-2807/A2D1A260C055425CB24DBF4D4906D790.pdf?attname=A2D1A260C055425CB24DBF4D4906D790.pdf",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch",
+      "scope": "Lead or alternative route; no additional claim promoted from failed retrieval.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://insaindia.res.in/detail/F00-0551",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch",
+      "scope": "Lead or alternative route; no additional claim promoted from failed retrieval.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://barc.gov.in/publications/9789334360721.html",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch",
+      "scope": "Lead or alternative route; no additional claim promoted from failed retrieval.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://utkaluniversity.ac.in/history/",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch",
+      "scope": "Lead or alternative route; no additional claim promoted from failed retrieval.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://makingscience.royalsociety.org/items/rr_37_20/referees-report-by-walter-stiles-on-a-paper-analytic-studies-in-plant-respiration-iithe-respiration-of-apples-in-nitrogen-and-its-relation-to-respiration-in-air-by-p-parija",
+      "checked_at": "2026-10-01T05:54:01.849023-07:00",
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "status": "unavailable_direct_fetch",
+      "scope": "Lead or alternative route; no additional claim promoted from failed retrieval.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

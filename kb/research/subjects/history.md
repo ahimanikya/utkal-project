@@ -33,3 +33,7 @@ Dated archaeological evidence, archival trade records and independently supporte
 Subject membership is editorial classification. It does not establish historical influence, causal effects or current operating availability. The facts above reuse saved research and retain their earlier source checks.
 
 [All subjects](index.md) · [Classification method](../methods/content-classification.md)
+
+## Scientific heritage through time · 1 October 2026
+
+[Utkala’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.

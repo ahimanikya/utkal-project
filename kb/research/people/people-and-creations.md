@@ -75,3 +75,7 @@ The bounded RES-027 set now covers **six practitioners and twelve independently 
 ## Science connections · 1 October 2026
 
 [Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
+
+## Scientific heritage through time · 1 October 2026
+
+[Utkala’s scientific heritage to the present](../people/science-and-contributions.md) now connects medieval astronomy, Parija’s botany and contemporary research. Named contributions and collective technical traditions have separate evidence requirements; earlier periods remain explicit research gaps.

@@ -11431,6 +11431,208 @@
         "science-pati-multimorbidity-2015"
       ],
       "added_at": "2026-10-01T05:42:41.942920-07:00"
+    },
+    {
+      "id": "sources/science-satananda-preprint",
+      "title": "Śatānanda and Bhāsvatī: Panda preprint",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-satananda-preprint.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-satananda-preprint"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "sources/science-satananda-jahh",
+      "title": "The Bhāsvatī astronomical handbook of Śatānanda",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-satananda-jahh.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-satananda-jahh"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "sources/science-parija-niser",
+      "title": "P. K. Parija memorial lecture biography",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-parija-niser.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-parija-niser"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "sources/science-parija-ias-papers",
+      "title": "Prankrishna Parija: academy publication catalogue",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-parija-ias-papers.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-parija-ias-papers"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "sources/science-ajit-dae",
+      "title": "Ajit Kumar Mohanty: Department of Atomic Energy biography",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-ajit-dae.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-ajit-dae"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "sources/science-ajit-antineutrino",
+      "title": "Possible origin of shoulder in the reactor antineutrino spectrum",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/science-ajit-antineutrino.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "science-ajit-antineutrino"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "people/satananda",
+      "title": "Śatānanda (Satananda)",
+      "kind": "Person",
+      "layer": "research_concept",
+      "source_path": "people/satananda.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "people/prana-krushna-parija",
+      "title": "Prana Krushna Parija",
+      "kind": "Person",
+      "layer": "research_concept",
+      "source_path": "people/prana-krushna-parija.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-parija-niser",
+        "science-parija-ias-papers"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "people/ajit-kumar-mohanty-physicist",
+      "title": "Ajit Kumar Mohanty — nuclear physicist",
+      "kind": "Person",
+      "layer": "research_concept",
+      "source_path": "people/ajit-kumar-mohanty-physicist.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-ajit-dae",
+        "science-ajit-antineutrino"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "works/bhasvati",
+      "title": "Bhāsvatī",
+      "kind": "Work",
+      "layer": "research_concept",
+      "source_path": "works/bhasvati.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "works/parija-apple-respiration-1928",
+      "title": "Analytic studies in plant respiration. I. The respiration of a population of senescent ripening apples",
+      "kind": "Work",
+      "layer": "research_concept",
+      "source_path": "works/parija-apple-respiration-1928.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-parija-ias-papers"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
+    },
+    {
+      "id": "works/antineutrino-shoulder-2017",
+      "title": "Possible origin of shoulder in the reactor antineutrino spectrum",
+      "kind": "Work",
+      "layer": "research_concept",
+      "source_path": "works/antineutrino-shoulder-2017.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "science-ajit-antineutrino"
+      ],
+      "added_at": "2026-10-01T05:54:01.849023-07:00"
     }
   ],
   "shared_publications": [
@@ -11787,13 +11989,19 @@
         "people/swati-nayak.md",
         "people/sanghamitra-pati.md",
         "works/odisha-rice-seed-deployment.md",
-        "works/odisha-multimorbidity-2015.md"
+        "works/odisha-multimorbidity-2015.md",
+        "people/satananda.md",
+        "people/prana-krushna-parija.md",
+        "people/ajit-kumar-mohanty-physicist.md",
+        "works/bhasvati.md",
+        "works/parija-apple-respiration-1928.md",
+        "works/antineutrino-shoulder-2017.md"
       ],
       "project_records": [
         "kb/research/people/samanta-chandrasekhar.md",
         "kb/research/people/samanta-chandrasekhar.json"
       ],
-      "remaining_scope": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
+      "remaining_scope": "Build a documented timeline from Utkala’s historical scientific heritage to present-day Odisha-linked scientists: named people, credited works/instruments, explicit geographic connections and evidence limits across eras. Preserve an ancient/early-medieval gap register and distinguish collective technical traditions from named attribution. The original six-person seed is a minimum, not the final coverage target.",
       "status_unchanged": "pending",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
@@ -12111,8 +12319,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 834,
-    "updated_at": "2026-10-01T05:42:41.942920-07:00",
+    "records_mapped": 846,
+    "updated_at": "2026-10-01T05:54:01.849023-07:00",
     "scope": "Original audit plus explicit identity extensions."
   },
   "extension_history": [
@@ -12197,6 +12405,19 @@
       ],
       "new_people_or_work_records": 4,
       "new_collection_records": 1
+    },
+    {
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "added_source_records": [
+        "science-satananda-preprint",
+        "science-satananda-jahh",
+        "science-parija-niser",
+        "science-parija-ias-papers",
+        "science-ajit-dae",
+        "science-ajit-antineutrino"
+      ],
+      "new_people_or_work_records": 6,
+      "new_collection_records": 0
     }
   ]
 }

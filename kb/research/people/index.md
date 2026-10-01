@@ -61,3 +61,9 @@
 - [Sanghamitra Pati](sanghamitra-pati.md)
 
 - [Science and documented contributions](science-and-contributions.md)
+
+- [Śatānanda (Satananda)](satananda.md)
+
+- [Prana Krushna Parija](prana-krushna-parija.md)
+
+- [Ajit Kumar Mohanty — nuclear physicist](ajit-kumar-mohanty-physicist.md)

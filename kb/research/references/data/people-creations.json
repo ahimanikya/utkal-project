@@ -1024,6 +1024,108 @@
       ],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/satananda",
+      "name": "Śatānanda (Satananda)",
+      "fields": [
+        "astronomy"
+      ],
+      "odisha_connection": {
+        "description": "Panda’s historical study associates him with Puri (Purusottama), Odisha.",
+        "source_ids": [
+          "science-satananda-preprint"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_contribution_and_institutional_recognition",
+          "basis": "A medieval astronomical handbook covering calendar and celestial calculations. Modern awards do not apply. Exact birth date and court affiliation remain unresolved.",
+          "source_ids": [
+            "science-satananda-preprint",
+            "science-satananda-jahh"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/bhasvati"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "period": "11th century; Bhāsvatī dated 1099 CE"
+    },
+    {
+      "id": "people/prana-krushna-parija",
+      "name": "Prana Krushna Parija",
+      "fields": [
+        "botany"
+      ],
+      "odisha_connection": {
+        "description": "NISER-hosted memorial biography identifies Balikuda, Jagatsinghpur, Odisha.",
+        "source_ids": [
+          "science-parija-niser"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_contribution_and_institutional_recognition",
+          "basis": "The memorial account records university leadership and the 1955 Padma Bhushan. The academy catalogue credits his plant-respiration papers; the award register remains a separate check.",
+          "source_ids": [
+            "science-parija-niser",
+            "science-parija-ias-papers"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-parija-niser",
+        "science-parija-ias-papers"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/parija-apple-respiration-1928"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "period": "1891–1978"
+    },
+    {
+      "id": "people/ajit-kumar-mohanty-physicist",
+      "name": "Ajit Kumar Mohanty — nuclear physicist",
+      "fields": [
+        "nuclear_physics"
+      ],
+      "odisha_connection": {
+        "description": "DAE records Odisha birth and physics education in Baripada and Cuttack.",
+        "source_ids": [
+          "science-ajit-dae"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented_contribution_and_institutional_recognition",
+          "basis": "DAE records the 1991 INSA Young Scientist Award and work involving PHENIX and CMS; collaborative experiments are not individual discoveries.",
+          "source_ids": [
+            "science-ajit-dae",
+            "science-ajit-antineutrino"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-ajit-dae",
+        "science-ajit-antineutrino"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/antineutrino-shoulder-2017"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "period": "born 1959; documented work in the 21st century"
     }
   ],
   "works": [
@@ -2506,6 +2608,99 @@
           "science-pati-multimorbidity-2015"
         ]
       }
+    },
+    {
+      "id": "works/bhasvati",
+      "title": "Bhāsvatī",
+      "work_type": "historical_astronomical_handbook",
+      "creator_links": [
+        {
+          "person_id": "people/satananda",
+          "role": "author",
+          "source_ids": [
+            "science-satananda-preprint",
+            "science-satananda-jahh"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "composition_year": 1099,
+        "date_status": "reported by modern historical study"
+      },
+      "source_ids": [
+        "science-satananda-preprint",
+        "science-satananda-jahh"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/parija-apple-respiration-1928",
+      "title": "Analytic studies in plant respiration. I. The respiration of a population of senescent ripening apples",
+      "work_type": "research_article",
+      "creator_links": [
+        {
+          "person_id": "people/prana-krushna-parija",
+          "role": "coauthor",
+          "source_ids": [
+            "science-parija-ias-papers"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Frederick Frost Blackman",
+          "role": "coauthor",
+          "source_ids": [
+            "science-parija-ias-papers"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "year": 1928,
+        "journal": "Proceedings of the Royal Society of London, Series B",
+        "volume": 103,
+        "issue": 726,
+        "pages": "412–445"
+      },
+      "source_ids": [
+        "science-parija-ias-papers"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/antineutrino-shoulder-2017",
+      "title": "Possible origin of shoulder in the reactor antineutrino spectrum",
+      "work_type": "research_preprint",
+      "creator_links": [
+        {
+          "person_id": "people/ajit-kumar-mohanty-physicist",
+          "role": "author",
+          "source_ids": [
+            "science-ajit-antineutrino"
+          ]
+        }
+      ],
+      "other_credits": [],
+      "english_access": null,
+      "edition": {
+        "arxiv": "1711.02801v1",
+        "submitted": "2017-11-08",
+        "pdf_internal_date": "2017-11-09",
+        "journal_publication": null
+      },
+      "source_ids": [
+        "science-ajit-antineutrino"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
     }
   ],
   "recognition_rules": {
@@ -2514,7 +2709,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T05:42:41.942920-07:00",
+  "updated_at": "2026-10-01T05:54:01.849023-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -2625,6 +2820,16 @@
       "new_people": 2,
       "new_works": 2,
       "scope": "Two contemporary profiles; one original-paper record and one explicitly editorial field-contribution record. Six-scientist deliverable unfinished; existing Mohanty and project-native Samanta records reused."
+    },
+    {
+      "run_id": "2026-10-01-science-heritage-timeline",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "expanded_historical_scope_in_progress",
+      "new_people": 3,
+      "new_works": 3,
+      "scope": "Medieval astronomy, twentieth-century botany and contemporary nuclear physics; earliest periods and broader disciplines remain open."
     }
   ],
   "conflicts": [
