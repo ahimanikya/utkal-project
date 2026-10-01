@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T17:25:04.237069+00:00",
+  "recorded_at": "2026-10-01T18:07:29.967735+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3711,23 +3711,73 @@
       "id": "UTP-WORK-126",
       "title": "Integrate accumulated research and prepare the next story batch",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-132",
-      "next_action": "Founder reviews the combined research candidate and proposed story sequence. Operating-rule wording, actual page production and publication remain separate.",
+      "next_action": "PR 36 merged after reconciling concurrent source merges. Continue illustrated stories and the internal editorial workbench.",
       "blockers": [],
       "refs": [
         "UTP-DEC-132",
-        "UTP-REV-106"
+        "UTP-REV-106",
+        "UTP-DEC-133"
       ],
       "evidence": [
         "records/research-integration-review.json",
-        "records/next-story-batch.json"
+        "records/next-story-batch.json",
+        "records/research-integration-merge.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-127",
+      "title": "Illustrated Enduri and Poda pitha stories with visitor connections",
+      "category": "editorial_and_website",
+      "status": "completed",
+      "readiness": "published",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-133",
+      "next_action": "Two food stories live and connected to discovery and portable journeys. Retain local/Odia review; no reviewed venue or tested recipe implied.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-133",
+        "UTP-REV-107",
+        "UTP-REL-034"
+      ],
+      "evidence": [
+        "records/editorial-500-review.json",
+        "records/editorial-500-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-128",
+      "title": "Map 500 existing records into a read-only editorial workbench",
+      "category": "editorial_workflow",
+      "status": "completed",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-133",
+      "next_action": "Use the internal workbench to choose and extend existing research. Regenerate after canonical data changes; specialist review and newer unselected records remain separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-133",
+        "UTP-REV-107",
+        "UTP-REL-034"
+      ],
+      "evidence": [
+        "records/editorial-workbench.json",
+        "records/editorial-500-publication.json"
       ]
     }
   ],
@@ -6379,6 +6429,26 @@
       "evidence": [
         "records/research-integration-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-133",
+      "title": "Approve research integration and authorize autonomous next backlog batch",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved - do your next 500 things without asking me permission",
+      "scope": "Approve PR 36 and continue the next backlog work without routine permission questions. This increment prepares two illustrated food stories, connected visitor discovery and a 500-record internal editorial workbench. No spending, new access, outreach, indexing launch or Store launch. Actual checks, remaining reviews and publication evidence remain distinct.",
+      "recorded_at": "2026-10-01T17:57:34.582564+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-126"
+      ],
+      "evidence": [
+        "records/research-integration-merge.json",
+        "records/editorial-500-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8916,6 +8986,31 @@
       "evidence": [
         "records/research-integration-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-107",
+      "title": "Pitha stories and 500-record workbench self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser administration-policy verification still blocks visual audit; no browser, mobile, print or assistive-technology review claimed for this batch.",
+        "Odia terminology and local preparation review remain pending. No kitchen, venue or recipe has been tested.",
+        "Metadata mapping is not a fresh source retrieval or independent verification of all 500 records.",
+        "Literary edition and community-reporting briefs remain pending.",
+        "Indexing stays disabled. Store and the internal workbench remain excluded from the coastal website."
+      ],
+      "refs": [
+        "UTP-DEC-133",
+        "UTP-WORK-127",
+        "UTP-WORK-128"
+      ],
+      "evidence": [
+        "records/editorial-500-review.json"
+      ]
     }
   ],
   "releases": [
@@ -9499,6 +9594,23 @@
         "records/visitor-research-publication.json"
       ],
       "note": "Explicitly approved deployment of PR 34. Live delivery verified; indexing remains disabled and outstanding reviews retained."
+    },
+    {
+      "id": "UTP-REL-034",
+      "title": "Enduri and Poda food stories published; editorial workbench applied",
+      "status": "published",
+      "authorization": "UTP-DEC-133",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-133",
+        "UTP-WORK-127",
+        "UTP-WORK-128",
+        "UTP-REV-107"
+      ],
+      "evidence": [
+        "records/editorial-500-publication.json"
+      ],
+      "note": "Founder authorized autonomous next-batch work without further routine permission. Live delivery verified separately. Internal workbench stays outside public edition; known specialist and visual reviews retained."
     }
   ],
   "sources": [
