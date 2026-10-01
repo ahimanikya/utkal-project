@@ -186,3 +186,15 @@ Homestay provisional-certificate reports conflict 17/176; original event registe
 ## Debrigarh primary-source checkpoint · 1 October 2026
 
 JICA’s 2017 survey supplies historical facility revenue and a 2016 EDC-management observation. PMO’s 30 August 2026 address establishes recognition and attributed conservation participation, not payroll. Recent FY2024–25 ₹5.01/₹5.11 crore scope and 85-family period remain unresolved. RES-010 retries 8 October; independent RES-011 is next. Sambalpur Zoo accounts were excluded from Debrigarh totals.
+
+## Food preparation checkpoint · 1 October 2026
+
+Fourteen existing entries deepened. RES-011 remains in progress: named regional variation and Rasabali’s original GI method/corrigendum need work. NCHM full PDF failed retrieval; Enduri steaming detail remains indexed-only, retry 8 October. Magji journal pp.45–48 has differing sugar ratios; Ou teaching reference has an Assam-labelled passage. Local/Odia review, tested quantities, commercial totals and current serving venues remain unestablished.
+
+## Food primary-source follow-up · 1 October 2026
+
+Recovered Rasabali original/corrigendum and the 2015 CRRI book. Enduri steaming is now supported by full institutional text; the prior NCHM failure remains a separate capture. RES-011 still needs chatu/ou local variation evidence. Rasabali corrected curdling wording conflicts internally. Its undated seller/maker claims are held for RES-031 with no current employment or sales inference.
+
+## Poda story gaps · 1 October 2026
+
+Nine selected foods now linked. Fine local/community bamboo and chicken accounts, sukhua and vegetable leads remain missing; CCRT retry 8 October. RFP steamed chhena-poda wording held against baked description. No national barbecue ranking, prevalence, sales or exports established.

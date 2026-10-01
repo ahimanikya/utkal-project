@@ -15,7 +15,14 @@
     "publisher": "Odisha Tourism",
     "source_kind": "Institutional reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_html",
+        "scope": "Food of the Masses and Sweet Relics headings; descriptions only. Medical, universal popularity and uniqueness claims excluded."
+      }
+    ]
   },
   "chef": {
     "id": "chef",
@@ -24,7 +31,14 @@
     "publisher": "Odisha Tourism portal",
     "source_kind": "Hosted chef interview",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_html",
+        "scope": "2019-11-27; Mansita Mishra; Odia Experience menu paragraphs. Contemporary menu, not universal household or current restaurant evidence."
+      }
+    ]
   },
   "food-heritage": {
     "id": "food-heritage",
@@ -33,7 +47,14 @@
     "publisher": "National Council for Hotel Management",
     "source_kind": "Hospitality education reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Odisha festive cuisine passage, page 251, reviewed through search extract."
+    "capture_note": "Odisha festive cuisine passage, page 251, reviewed through search extract.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "indexed_only_full_fetch_unavailable",
+        "scope": "Printed p.251 Enduri passage indexed. Web direct fetch failed; local DNS failed; network retry timed out at 45 seconds. No full-text verification claimed."
+      }
+    ]
   },
   "regional-cuisine": {
     "id": "regional-cuisine",
@@ -42,7 +63,14 @@
     "publisher": "Uttarakhand Open University",
     "source_kind": "Teaching material",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_pdf_text",
+        "scope": "Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; no location reassignment."
+      }
+    ]
   },
   "dahibara-blog": {
     "id": "dahibara-blog",
@@ -78,7 +106,14 @@
     "publisher": "Geographical Indications Registry, India",
     "source_kind": "Primary registry",
     "accessed_on": "2026-09-27",
-    "capture_note": "Application detail record reviewed; authorized-user personal addresses not retained."
+    "capture_note": "Application detail record reviewed; authorized-user personal addresses not retained.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T10:07:30.942202-07:00",
+        "method": "original_application_documents_recovered",
+        "scope": "May specification and September corrigendum; retain internal discrepancy, not a legal-status refresh."
+      }
+    ]
   },
   "gi-kalajeera": {
     "id": "gi-kalajeera",
@@ -3877,6 +3912,192 @@
     "capture_method": "direct_secondary_html",
     "locator": "Opening paragraphs and attributed DFO statement",
     "capture_note": "Reports Debrigarh Wildlife Sanctuary and Hirakud Wetland together, with 85 families. Not independent payroll evidence; do not relabel family count as workers or shift its reporting year."
+  },
+  "food-chhenapoda-chef2021": {
+    "id": "food-chhenapoda-chef2021",
+    "title": "CHHENAPODA — Chef Michael’s contemporary recipe",
+    "resource": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+    "publisher": "Chef Michael, hosted by Odisha Tourism",
+    "published_on": "2021-07-29",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_contributor_html",
+    "locator": "Opening account and Chocolate Chhenapoda Recipe",
+    "capture_note": "Primary evidence of the contributor’s own adaptation. Origin, popularity and sales statements are not independently established."
+  },
+  "food-magji-gi178": {
+    "id": "food-magji-gi178",
+    "title": "Dhenkanal Magji — GI Journal 178 specification",
+    "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+    "publisher": "Geographical Indications Registry; application by Dhenkanal Sweets Association",
+    "published_on": "2023-08-31",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text_and_visual",
+    "locator": "Printed/PDF pp.45–50; pp.46–48 visually inspected",
+    "capture_note": "Historical advertised specification, distinct from the later registration certificate. Internal sugar-ratio differences retained; no independent nutrition, shelf-life, origin chronology or sales verification.",
+    "retrieval": {
+      "index_label": "Journal 178, 31/08/2023",
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal",
+      "form": {
+        "FileName": "ipo-docs\\IPIndia_Docs\\GIR\\2023\\Journal_178\\Journal 178.pdf"
+      },
+      "sha256": "7111555bb1e39b94391cc0c410417b53ff0117c10f1271f1e95bae5c6a88156f",
+      "pages": 949,
+      "scope_read": "pp.45–50 only; no authorised-user personal records retained"
+    }
+  },
+  "food-rasabali-gi175": {
+    "id": "food-rasabali-gi175",
+    "title": "Kendrapara Rasabali — GI Journal 175 advertised specification",
+    "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+    "publisher": "Geographical Indications Registry; applicant Kendrapara Rasabali Mistanna Nirmata Sangha",
+    "published_on": "2023-05-31",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "Printed/PDF pp.42–49",
+    "capture_note": "Applicant specification; preserve original and September correction as versions in one source family, not independent corroboration. Origin, health, shelf-life and commercial claims are not independently verified.",
+    "retrieval": {
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal",
+      "form": {
+        "FileName": "ipo-docs\\IPIndia_Docs\\GIR\\2023\\Journal_175\\Journal 175.pdf"
+      },
+      "sha256": "372c401535109192e75f6d1c6bfda0d6baedf41d254c5aaf1100874594a3dce4",
+      "pages": 1616,
+      "scope_read": "Rasabali product specification pp.42–49 only; no authorised-user personal data retained"
+    }
+  },
+  "food-rasabali-corrigendum2023": {
+    "id": "food-rasabali-corrigendum2023",
+    "title": "Kendrapara Rasabali — corrigendum of 29 September 2023",
+    "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802",
+    "publisher": "Geographical Indications Registry; application 802",
+    "published_on": "2023-09-29",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "Application document “802 - GI - Corrigenda - 29-09-2023.pdf”, PDF pp.1–8",
+    "capture_note": "Revised applicant specification. Chhena water in specification/ingredients conflicts with vinegar in p.6 method. This is not a tested recipe or current employment census.",
+    "retrieval": {
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+      "form": {
+        "DocumentPath": "802/802 - GI - Corrigenda - 29-09-2023.pdf"
+      },
+      "sha256": "1eec1a2f397854127a6968339e19abdcf129b3d6cca7998a9b1229bad85165ed",
+      "pages": 8,
+      "visually_checked_pages": [
+        1,
+        6
+      ],
+      "family": "GI application 802; revision of Journal 175",
+      "full_journal_capture": {
+        "journal": 181,
+        "pages": 1928,
+        "sha256": "397da4108487c3c31e0c638e8f07edea1f4291eb170952b2527fa1929f010213",
+        "scope": "Complete download parsed; product evidence read from the separately indexed eight-page corrigendum."
+      }
+    }
+  },
+  "food-crri-rice2015": {
+    "id": "food-crri-rice2015",
+    "title": "Traditional Rice Foods: The Rich Heritage of India — Lipi Das",
+    "resource": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+    "publisher": "ICAR-Central Rice Research Institute, Cuttack",
+    "published_on": "2015-04",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text",
+    "locator": "PDF pp.2–6 (credits/preface); printed pp.9,12,19,21,23,24,26,29,31 / PDF pp.20,23,30,32,34,35,37,40,42",
+    "capture_note": "Institutional compilation combining primary and secondary information. Book date is 2015, not the 2023 upload-path year. Entries identify Odisha but do not map district prevalence. No tested recipe, food-safety or nutrition claim adopted.",
+    "retrieval": {
+      "method": "GET",
+      "sha256": "e4d5894ef8492225462e69f4ec5ff76f80ea56c20234ffa2cdb8475bca3c3999",
+      "pages": 134,
+      "discovery": "https://icar-crri.in/book/",
+      "catalogue_location": "row 14, April 2015",
+      "visually_checked_pages": [
+        30
+      ],
+      "previous_unavailable_route": "https://icar-nrri.in/wp-content/uploads/2023/05/final_book_ldas.pdf"
+    }
+  },
+  "food-poda-regions-mint2023": {
+    "id": "food-poda-regions-mint2023",
+    "title": "In Odisha, ‘podo pitha’ is a sentiment — regional accounts",
+    "resource": "https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html",
+    "publisher": "Mint; Priyadarshini Chatterjee",
+    "published_on": "2023-06-16",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Paragraphs quoting Sujata Dehury on coastal Odisha and Sweta Biswal on western Odisha",
+    "capture_note": "Named reported accounts, not a regional prevalence survey. Retain distinct contributors; no universal geography, historical origin or temple-practice inference."
+  },
+  "food-patrapoda-lopa2024": {
+    "id": "food-patrapoda-lopa2024",
+    "title": "Patrapoda, Paturi and Bhapa — Away in the Kitchen",
+    "resource": "https://www.awayinthekitchen.com/post/patrapoda-daba-puda-paturi-and-bhapa-odia-and-bengali-ways-of-cooking-food-wrapped-in-leaves",
+    "publisher": "Lopa (Lopamudra), Away in the Kitchen",
+    "published_on": "2024-03-04",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Regional Context; cooking methods; simultaneous fish/mushroom example; Recipe",
+    "capture_note": "Contributor’s own home preparation; updated 21 March 2024. Broad origin/community assertions are not independently established. Modern griddle and enclosed cooking must remain distinct from direct-fire roasting.",
+    "author_identity_source": {
+      "resource": "https://www.awayinthekitchen.com/about",
+      "scope": "Lopa identifies herself as Lopamudra and the website author; parents from Odisha. No current residence or unrelated biography adopted."
+    }
+  },
+  "food-baigana-sasmita2020": {
+    "id": "food-baigana-sasmita2020",
+    "title": "Baigana Poda — Mashed Roasted Eggplant in Odia Style",
+    "resource": "https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/",
+    "publisher": "Sasmita, First Timer Cook",
+    "published_on": "2020-03-28",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Ingredients and making procedure; recipe card",
+    "capture_note": "Contributor’s own recipe; page updated 28 April 2021. Supports flame-roasted eggplant and pakhala serving association, not household prevalence or exclusive origin."
+  },
+  "food-tomato-oriyarasoi2015": {
+    "id": "food-tomato-oriyarasoi2015",
+    "title": "Roasted Tomato Salsa (aka Bilati Baigana poda from Odisha)",
+    "resource": "https://www.oriyarasoi.com/2015/11/roasted-tomato-salsa-aka-bilati-baigana.html",
+    "publisher": "Oriyarasoi / Sweta Biswal",
+    "published_on": "2015-11-18",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening technique paragraph and preparation",
+    "capture_note": "Primary contributor recipe. Salsa is the author’s analogy, not evidence of historical transmission from or to Mexico."
+  },
+  "food-nimantran-menu2023": {
+    "id": "food-nimantran-menu2023",
+    "title": "Nimantran Sambalpur operation and maintenance RFP — food descriptions",
+    "resource": "https://odishatourism.gov.in/content/dam/tourism/home/tender-document/RFP_O%26M_of_Nimantaran_Sambalpur.pdf",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "published_on": "2023-03-07",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text_and_visual",
+    "locator": "RFP 3347; printed/PDF pp.53–54, menu items",
+    "capture_note": "Historical procurement menu, not a current serving menu, community ethnography or restaurant operating verification. Its steamed chhena-poda wording conflicts with other sources; quarantine that description.",
+    "retrieval": {
+      "sha256": "8383fe4522e9f33b9a6af6d22da84b89d339af3e65308ea2661f3051e23f24a8",
+      "pages": 54,
+      "visually_checked_pages": [
+        53
+      ],
+      "scope": "Menu pp.53–54 and issue date; no bid contacts retained."
+    }
+  },
+  "food-bamboo-tnie2017": {
+    "id": "food-bamboo-tnie2017",
+    "title": "The Tribal bamboo delicacy from Araku Valley",
+    "resource": "https://www.newindianexpress.com/cities/hyderabad/2017/Dec/01/the-tribal-bamboo-delicacy-from-araku-valley-1716171.html",
+    "publisher": "Sabyasachi Roy Chaudhuri, The New Indian Express",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_html",
+    "locator": "Opening two paragraphs; author and updated timestamp",
+    "capture_note": "Reported Odisha/Andhra connection and Baunsa Poda Mansha name. Detailed later preparation concerns Araku/Hyderabad; do not relocate it to an Odisha community. Page says updated 2 December 2017; URL contains 1 December.",
+    "updated_on": "2017-12-02"
   },
   "rasagola-osic": {
     "id": "rasagola-osic",

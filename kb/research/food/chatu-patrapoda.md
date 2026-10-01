@@ -35,3 +35,21 @@ This is an attributed chef example; fieldwork must establish local variants and 
 [Related knowledge](ou-khatta.md) · [Research standards](../about/research-method.md)
 
 [^chef]: [Chef TZac: Odia cuisine is an evolved cuisine](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine)
+
+## Preparation and variations · 1 October 2026
+
+Mushrooms, mustard and chilli are wrapped in sal leaves and charred over fire. A separate prawn preparation uses the same described technique. [Chef TZac: Odia cuisine is an evolved cuisine](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine), Odia Experience menu, third course. Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu.
+
+**Still to verify:** A related technique does not make the prawn dish a mushroom variant; obtain an independent local mushroom recipe. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Poda story connection · 1 October 2026
+
+Lopa documents mustard-seasoned mushroom parcels cooked on a griddle or open fire. [Patrapoda, Paturi and Bhapa — Away in the Kitchen](https://www.awayinthekitchen.com/post/patrapoda-daba-puda-paturi-and-bhapa-odia-and-bengali-ways-of-cooking-food-wrapped-in-leaves), Simultaneous fish/mushroom example; Recipe.
+
+Contributor home version; distinct from the saved 2019 restaurant account.
+
+**To establish:** Specific local/community attribution remains open.
+
+[Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.

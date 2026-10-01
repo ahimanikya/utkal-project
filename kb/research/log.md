@@ -188,3 +188,19 @@ Saved 47 primary ecotourism observations and 4 full-year comparisons from Wildli
 ## 1 October 2026 — Debrigarh historical revenue and community recognition
 
 Added eight place-specific observations and four sources to the existing case. Visually checked JICA’s historical revenue passage; recorded the official Maithili Bhue account with conservation-role limits. Recent revenue and family-period differences quarantined. Modern payroll/revenue denominators still pending; retry 8 October. No atlas values, website content or frozen evidence changed.
+
+## 1 October 2026 — Food preparations and variations
+
+Deepened six pitha, four everyday dishes and four place-linked sweets. Added Chef Michael’s attributed adaptation and recovered Magji’s original GI specification. Preserved internal quantity differences, indexed-only Enduri evidence and Ou geography uncertainty. No atlas observations, frozen evidence, sales totals or website content changed; local/Odia review remains pending.
+
+## 1 October 2026 — Food primary-source follow-up
+
+Recovered original Rasabali specification and correction, a 2015 institutional pitha reference, and attributed coastal/western poda accounts. Enhanced seven existing foods. Held inconsistent curdling instructions and undated economic claims; no new statewide statistics, frozen-ledger edits, recipe tests, human review or website deployment.
+
+## Poda Country research · 1 October 2026
+
+Connected nine sourced food examples across direct roasting, leaf parcels, bamboo cooking and baking. Added an attributed home mushroom preparation, five sources, six food nuclei and story/script/poster drafts. Campaign is metaphor; no ranking, venue verification, media production, human review or deployment.
+
+## 1 October 2026 — Campaign wording selected
+
+Ahimanikya rejected the earlier Poda Country name and selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire**. Updated maintained story, poster, video script, navigation and campaign metadata. Stable paths and historical receipts remain unchanged. This records wording approval, not factual review or website publication.

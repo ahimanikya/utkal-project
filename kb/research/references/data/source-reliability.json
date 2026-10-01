@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T09:34:53.344599-07:00",
+  "updated_at": "2026-10-01T10:15:52.301620-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1185,6 +1185,18 @@
     {
       "run_id": "2026-10-01-debrigarh-primary",
       "scope": "Debrigarh historical primary survey and attributed official participation; no current payroll found."
+    },
+    {
+      "run_id": "2026-10-01-food-preparations",
+      "scope": "Food preparation passages; failed full NCHM fetch recorded; GI journal recovered after incomplete first transfer."
+    },
+    {
+      "run_id": "2026-10-01-food-primary-followup",
+      "scope": "Original Rasabali/correction, CRRI book and attributed regional accounts; old NRRI URL unavailable, replacement publisher route captured."
+    },
+    {
+      "run_id": "2026-10-01-poda-story",
+      "scope": "Poda cooking accounts and campaign research; CCRT fetch unavailable, Nimantran PDF completed after initial DNS failure."
     }
   ],
   "supplemental_discovery_routes": [
@@ -3357,6 +3369,183 @@
       "run_id": "2026-10-01-debrigarh-primary",
       "status": "web_screenshot_unavailable_local_render_succeeded",
       "scope": "Web screenshots cache-missed; public PDF downloaded and printed p.4-12 rendered and visually inspected. Local renderer emitted font-cache warnings but readable page produced."
+    },
+    {
+      "source_id": "food-tourism",
+      "discovery_url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "direct_html",
+      "scope": "Food of the Masses and Sweet Relics headings; descriptions only. Medical, universal popularity and uniqueness claims excluded."
+    },
+    {
+      "source_id": "chef",
+      "discovery_url": "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "direct_html",
+      "scope": "2019-11-27; Mansita Mishra; Odia Experience menu paragraphs. Contemporary menu, not universal household or current restaurant evidence."
+    },
+    {
+      "source_id": "regional-cuisine",
+      "discovery_url": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "direct_pdf_text",
+      "scope": "Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; no location reassignment."
+    },
+    {
+      "source_id": "food-heritage",
+      "discovery_url": "https://nchm.nic.in/sites/default/files/2022-11/Indian_Food_Heritage.pdf",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "indexed_only_full_fetch_unavailable",
+      "scope": "Printed p.251 Enduri passage indexed. Web direct fetch failed; local DNS failed; network retry timed out at 45 seconds. No full-text verification claimed."
+    },
+    {
+      "source_id": "food-chhenapoda-chef2021",
+      "discovery_url": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "available_scoped_capture",
+      "scope": "Primary evidence of the contributor’s own adaptation. Origin, popularity and sales statements are not independently established."
+    },
+    {
+      "source_id": "food-magji-gi178",
+      "discovery_url": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "available_scoped_capture",
+      "scope": "Historical advertised specification, distinct from the later registration certificate. Internal sugar-ratio differences retained; no independent nutrition, shelf-life, origin chronology or sales verification."
+    },
+    {
+      "source_id": "food-magji-gi178",
+      "discovery_url": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "initial_download_incomplete_retry_succeeded",
+      "scope": "First transfer timed out after 45 seconds with a partial file. Second transfer completed; PDF parsed and pp.46–48 visually inspected."
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://agriexchange.apeda.gov.in/Market/MarketNews/bindArchiveNews?page=547",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "available_secondary_discovery_only",
+      "scope": "8 January 2024 item republishes Indian Express; not independent APEDA measurement. Original GI journal used instead."
+    },
+    {
+      "source_id": "gi-rasabali",
+      "discovery_url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "available_index_only_for_new_question",
+      "scope": "Registry metadata inspected; original preparation journal/corrigendum still to recover. No new validity claim."
+    },
+    {
+      "source_id": "gi-magji",
+      "discovery_url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/724",
+      "checked_at": "2026-10-01T09:51:37.390675-07:00",
+      "run_id": "2026-10-01-food-preparations",
+      "status": "available_registry_route",
+      "scope": "Registry points to Journal 178. Existing certificate record reused, no fresh legal conclusion."
+    },
+    {
+      "source_id": "food-rasabali-gi175",
+      "discovery_url": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "Printed/PDF pp.42–49; Applicant specification; preserve original and September correction as versions in one source family, not independent corroboration. Origin, health, shelf-life and commercial claims are not independently verified."
+    },
+    {
+      "source_id": "food-rasabali-corrigendum2023",
+      "discovery_url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "Application document “802 - GI - Corrigenda - 29-09-2023.pdf”, PDF pp.1–8; Revised applicant specification. Chhena water in specification/ingredients conflicts with vinegar in p.6 method. This is not a tested recipe or current employment census."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "discovery_url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "PDF pp.2–6 (credits/preface); printed pp.9,12,19,21,23,24,26,29,31 / PDF pp.20,23,30,32,34,35,37,40,42; Institutional compilation combining primary and secondary information. Book date is 2015, not the 2023 upload-path year. Entries identify Odisha but do not map district prevalence. No tested recipe, food-safety or nutrition claim adopted."
+    },
+    {
+      "source_id": "food-poda-regions-mint2023",
+      "discovery_url": "https://www.livemint.com/mint-lounge/food/odisha-podo-pitha-burnt-cake-111686847809768.html",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "available_scoped_capture",
+      "scope": "Paragraphs quoting Sujata Dehury on coastal Odisha and Sweta Biswal on western Odisha; Named reported accounts, not a regional prevalence survey. Retain distinct contributors; no universal geography, historical origin or temple-practice inference."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "discovery_url": "https://icar-nrri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "unavailable",
+      "scope": "Web 502 and DNS failure; book recovered via current CRRI catalogue and publisher URL. Not unchanged."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "discovery_url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "checked_at": "2026-10-01T10:07:30.942202-07:00",
+      "run_id": "2026-10-01-food-primary-followup",
+      "status": "web_fetch_timeout_download_succeeded",
+      "scope": "Browser extraction timed out; direct download completed, 134 pages parsed, selected entries read and Enduri page visually checked."
+    },
+    {
+      "source_id": "food-patrapoda-lopa2024",
+      "discovery_url": "https://www.awayinthekitchen.com/post/patrapoda-daba-puda-paturi-and-bhapa-odia-and-bengali-ways-of-cooking-food-wrapped-in-leaves",
+      "checked_at": "2026-10-01T10:15:52.301620-07:00",
+      "run_id": "2026-10-01-poda-story",
+      "status": "available_scoped_capture",
+      "scope": "Regional Context; cooking methods; simultaneous fish/mushroom example; Recipe; Contributor’s own home preparation; updated 21 March 2024. Broad origin/community assertions are not independently established. Modern griddle and enclosed cooking must remain distinct from direct-fire roasting."
+    },
+    {
+      "source_id": "food-baigana-sasmita2020",
+      "discovery_url": "https://www.firsttimercook.com/baigana-poda-mashed-roasted-eggplant-in-odia-style/",
+      "checked_at": "2026-10-01T10:15:52.301620-07:00",
+      "run_id": "2026-10-01-poda-story",
+      "status": "available_scoped_capture",
+      "scope": "Ingredients and making procedure; recipe card; Contributor’s own recipe; page updated 28 April 2021. Supports flame-roasted eggplant and pakhala serving association, not household prevalence or exclusive origin."
+    },
+    {
+      "source_id": "food-tomato-oriyarasoi2015",
+      "discovery_url": "https://www.oriyarasoi.com/2015/11/roasted-tomato-salsa-aka-bilati-baigana.html",
+      "checked_at": "2026-10-01T10:15:52.301620-07:00",
+      "run_id": "2026-10-01-poda-story",
+      "status": "available_scoped_capture",
+      "scope": "Opening technique paragraph and preparation; Primary contributor recipe. Salsa is the author’s analogy, not evidence of historical transmission from or to Mexico."
+    },
+    {
+      "source_id": "food-nimantran-menu2023",
+      "discovery_url": "https://odishatourism.gov.in/content/dam/tourism/home/tender-document/RFP_O%26M_of_Nimantaran_Sambalpur.pdf",
+      "checked_at": "2026-10-01T10:15:52.301620-07:00",
+      "run_id": "2026-10-01-poda-story",
+      "status": "available_scoped_capture",
+      "scope": "RFP 3347; printed/PDF pp.53–54, menu items; Historical procurement menu, not a current serving menu, community ethnography or restaurant operating verification. Its steamed chhena-poda wording conflicts with other sources; quarantine that description."
+    },
+    {
+      "source_id": "food-bamboo-tnie2017",
+      "discovery_url": "https://www.newindianexpress.com/cities/hyderabad/2017/Dec/01/the-tribal-bamboo-delicacy-from-araku-valley-1716171.html",
+      "checked_at": "2026-10-01T10:15:52.301620-07:00",
+      "run_id": "2026-10-01-poda-story",
+      "status": "available_scoped_capture",
+      "scope": "Opening two paragraphs; author and updated timestamp; Reported Odisha/Andhra connection and Baunsa Poda Mansha name. Detailed later preparation concerns Araku/Hyderabad; do not relocate it to an Odisha community. Page says updated 2 December 2017; URL contains 1 December."
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ccrtindia.gov.in/wp-content/fellowship_research_project/FlowofOdiaFolklorein21stCentuaryTensionbetweenTraditonandModernity.pdf",
+      "checked_at": "2026-10-01T10:15:52.301620-07:00",
+      "run_id": "2026-10-01-poda-story",
+      "status": "unavailable",
+      "scope": "Web error, sandbox DNS failure, then 50-second network timeout. Indexed bamboo references not adopted.",
+      "retry_after": "2026-10-08"
     }
   ]
 }

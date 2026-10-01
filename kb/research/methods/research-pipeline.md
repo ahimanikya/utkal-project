@@ -155,3 +155,15 @@ RES-009 deferred to 8 October for primary operational/register evidence; conflic
 ## Debrigarh checkpoint · 1 October 2026
 
 RES-010 saved historical primary revenue and national recognition, but modern accounts and employment denominators remain blocked until 8 October. Next eligible task is RES-011 food preparation and variations. No task completion or current-income verification claimed.
+
+## Food preparation checkpoint · 1 October 2026
+
+RES-011 now has fourteen attributed entry extensions and a technique collection. Resume the saved gaps in regional variants and original Rasabali evidence; do not repeat the recovered Magji journal or existing tourism descriptions. Completion remains false. This food batch uses its own review branch; community-tourism PR #33 is unchanged.
+
+## Food primary-source follow-up · 1 October 2026
+
+RES-011 continues with seven existing foods enhanced. Original Rasabali and CRRI passages are now reusable; next bounded work is chatu/ou attributed local preparation. RES-031 points to the held Rasabali economic claims. Continue the existing food review branch/PR35; no new review stack or website deployment.
+
+## Poda story extension · 1 October 2026
+
+User requested the barbecue/poda connection. RES-011 preserves original criteria and now links the bounded collection/story extension. Chatu home account recovered; Ou remains next. Existing PR35 is the review destination.

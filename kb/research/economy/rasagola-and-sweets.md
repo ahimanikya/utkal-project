@@ -47,3 +47,7 @@ A future margin calculator can use explicit user inputs; scenario estimates must
 [Export-promotion source](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2124747) · [Structured open measures](../references/data/creative-economy.json).
 
 [Odisha Rasagola](../food/odisha-rasagola.md) — Read product identity alongside economic questions; a GI record does not measure industry revenue.
+
+## Rasabali evidence lead · 1 October 2026
+
+The [Rasabali preparation follow-up](../food/kendrapara-rasabali.md) captures the original 2023 GI applicant’s seller/maker claims and the correction that repeats them. Their reference period and method are absent; they remain held leads in [the preparation register](../references/data/food-preparations.json), owned by RES-031. No current employment total, revenue or export estimate has been added.

@@ -35,3 +35,19 @@ Differentiate boiled, steamed and other manda variants before writing recipe ins
 [Related knowledge](pitha.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+Rice dumplings are described as boiled, with coconut and jaggery inside. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Sijha Manda heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+A broader pitha list describes steamed manda with coconut-sweetener or chhena fillings. [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf), Printed p.233 / PDF p.233, Manda Pitha entry. University teaching reference; one described version, not a definitive formula.
+
+**Still to verify:** Reconcile boiled/steamed terminology with a cook; the university entry is in a wider regional list, not a named Odisha district. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Primary-source follow-up · 1 October 2026
+
+This manda version steams filled rice dough; cheese is optional in the coconut filling. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed p.24 / PDF p.35. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
+
+**Remaining question:** CRRI explicitly documents steaming, but this does not settle the other source’s boiled terminology or district distribution. Local/Odia review remains pending.

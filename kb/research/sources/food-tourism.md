@@ -24,3 +24,7 @@ resource: "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.h
 This record is a bibliographic reference, not a saved copy of the external page. Related concept documents retain concise extracted knowledge for offline reuse.
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation research · 1 October 2026
+
+Food of the Masses and Sweet Relics headings; descriptions only. Medical, universal popularity and uniqueness claims excluded.

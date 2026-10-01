@@ -1,0 +1,628 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T10:15:52.301620-07:00",
+  "run_id": "2026-10-01-poda-story",
+  "scope": "Fourteen selected existing food identities; attributed preparation accounts and variation questions. Not a census, recipe testing, a nutrition guide or an availability directory.",
+  "records": [
+    {
+      "concept_id": "food/chakuli",
+      "title": "Chakuli pitha",
+      "group": "pitha",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Chakuli Pitha heading",
+          "preparation_or_variation": "Fermented black-gram batter is spread thinly and pan-cooked.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.118 / PDF p.118, item 4",
+          "preparation_or_variation": "The teaching version combines rice and urad; its equal-parts formula is source-specific.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "locator": "Printed pp.12,31 / PDF pp.23,42",
+          "preparation_or_variation": "The book contrasts onion-and-herb chakuli with a simpler rice–black-gram saru chakuli; both are pan-cooked.",
+          "evidence_scope": "Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure."
+        }
+      ],
+      "technique_tags": [
+        "pan_cooking",
+        "fermentation"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Obtain credited district or household attribution; the book does not map either version to a district.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/poda-pitha",
+      "title": "Poda pitha",
+      "group": "pitha",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Poda Pitha heading",
+          "preparation_or_variation": "Fermented rice batter is cooked slowly with sal leaves in an earthen pot; Raja is the festival association.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "locator": "Printed pp.23,26,29 / PDF pp.34,37,40",
+          "preparation_or_variation": "Named entries distinguish milk-based khira poda, rice-flour/jaggery poda and sweetened rice–black-gram biri chaula poda.",
+          "evidence_scope": "Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure."
+        },
+        {
+          "source_id": "food-poda-regions-mint2023",
+          "locator": "Coastal and western Odisha paragraphs, 16 June 2023",
+          "preparation_or_variation": "Sujata Dehury describes coastal rice-flour/jaggery dough in banana leaves; Sweta Biswal describes lightly seasoned western rice–black-gram batter in sal-leaf parcels.",
+          "evidence_scope": "Accounts reported by Priyadarshini Chatterjee; regional descriptions are attributed, not universal rules or surveyed distribution."
+        }
+      ],
+      "technique_tags": [
+        "slow_cooking",
+        "leaf_assisted_cooking"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Regional accounts are now attributed; confirm finer locality and household differences without equating every rice–black-gram version with western Odisha.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/enduri-pitha",
+      "title": "Enduri pitha",
+      "group": "pitha",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Enduri Pitha heading",
+          "preparation_or_variation": "Turmeric leaves, coconut and jaggery connect this pitha with Prathamastami.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "food-heritage",
+          "locator": "Printed p.251, Enduri pitha/Haladi patra entry",
+          "preparation_or_variation": "The indexed account describes rice–black-gram batter and coconut filling, leaf-wrapped and steamed.",
+          "evidence_scope": "NCHM-hosted hospitality publication, printed p.251; indexed passage only, full PDF retrieval failed."
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "locator": "Printed p.19 / PDF p.30",
+          "preparation_or_variation": "Enduri/Haldi Patra uses rice–black-gram batter, coconut/paneer filling and turmeric leaves; the parcels are steamed.",
+          "evidence_scope": "Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure."
+        }
+      ],
+      "technique_tags": [
+        "steaming",
+        "leaf_wrapping"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Full institutional preparation evidence is now recovered from CRRI. The earlier NCHM fetch remains unavailable; local and Odia review of names/variations remains open.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/manda-pitha",
+      "title": "Sijha manda pitha",
+      "group": "pitha",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Sijha Manda heading",
+          "preparation_or_variation": "Rice dumplings are described as boiled, with coconut and jaggery inside.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.233 / PDF p.233, Manda Pitha entry",
+          "preparation_or_variation": "A broader pitha list describes steamed manda with coconut-sweetener or chhena fillings.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "locator": "Printed p.24 / PDF p.35",
+          "preparation_or_variation": "This manda version steams filled rice dough; cheese is optional in the coconut filling.",
+          "evidence_scope": "Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure."
+        }
+      ],
+      "technique_tags": [
+        "boiling",
+        "steaming",
+        "filled_dumpling"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "CRRI explicitly documents steaming, but this does not settle the other source’s boiled terminology or district distribution.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/kakara-pitha",
+      "title": "Kakara pitha",
+      "group": "pitha",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Kakara Pitha heading",
+          "preparation_or_variation": "A fried version uses semolina, coconut and cardamom.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.233 / PDF p.233, Kakara pitha entry",
+          "preparation_or_variation": "Wheat flour or semolina and a sweet coconut filling are alternatives in the teaching account.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "locator": "Printed p.21 / PDF p.32",
+          "preparation_or_variation": "This fried kakara combines rice and refined wheat flour around a sweet coconut filling.",
+          "evidence_scope": "Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure."
+        }
+      ],
+      "technique_tags": [
+        "frying",
+        "filled_dough"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Retain the rice/wheat and semolina versions without inventing their district distribution.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/arisa-pitha",
+      "title": "Arisa pitha",
+      "group": "pitha",
+      "accounts": [
+        {
+          "source_id": "food-heritage",
+          "locator": "Printed p.251, earlier saved festive-cuisine extract",
+          "preparation_or_variation": "The saved research describes fried rice-flour and jaggery pitha. This is reused evidence, not a new full-PDF check.",
+          "evidence_scope": "Prior indexed capture reused; current PDF fetch unavailable."
+        },
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.233 / PDF p.233, Arisa Pitha entry",
+          "preparation_or_variation": "The teaching list allows jaggery or sugar in deep-fried rice-flour pitha.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "locator": "Printed p.9 / PDF p.20",
+          "preparation_or_variation": "Rice flour is combined with jaggery or sugar syrup, shaped and fried in this arisa account.",
+          "evidence_scope": "Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure."
+        }
+      ],
+      "technique_tags": [
+        "frying"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Add credited local/festival attribution; no shelf-life claim adopted from the book.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/pakhala",
+      "title": "Pakhala",
+      "group": "everyday_dish",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Pakhala heading",
+          "preparation_or_variation": "The overview describes rice fermented in water and served with accompaniments.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "chef",
+          "locator": "Odia Experience menu, third course",
+          "preparation_or_variation": "The 2019 menu adds curd and a ginger–mustard tempering.",
+          "evidence_scope": "Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu."
+        }
+      ],
+      "technique_tags": [
+        "soaking",
+        "fermentation"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Research fresh versus fermented naming and regional versions; do not adopt the tourism page’s heat-stroke or nerve-vitamin claims.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/dalma",
+      "title": "Dalma",
+      "group": "everyday_dish",
+      "accounts": [
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.119 / PDF p.119, item 10",
+          "preparation_or_variation": "Lentils and vegetables are boiled together; the teaching example uses toor dal.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        },
+        {
+          "source_id": "chef",
+          "locator": "Odia Experience menu, second course / Habisa Dalma",
+          "preparation_or_variation": "The menu’s Habisa Dalma uses moong, raw banana, arbi and elephant apple.",
+          "evidence_scope": "Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu."
+        }
+      ],
+      "technique_tags": [
+        "boiling",
+        "tempering"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Validate ritual/household distinctions; the restaurant version is not proof of temple practice.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/chatu-patrapoda",
+      "title": "Chatu patrapoda",
+      "group": "everyday_dish",
+      "accounts": [
+        {
+          "source_id": "chef",
+          "locator": "Odia Experience menu, third course",
+          "preparation_or_variation": "Mushrooms, mustard and chilli are wrapped in sal leaves and charred over fire. A separate prawn preparation uses the same described technique.",
+          "evidence_scope": "Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu."
+        },
+        {
+          "source_id": "food-patrapoda-lopa2024",
+          "locator": "Simultaneous fish/mushroom example; Recipe",
+          "preparation_or_variation": "Lopa documents mustard-seasoned mushroom parcels cooked on a griddle or open fire.",
+          "evidence_scope": "Contributor home version; distinct from the saved 2019 restaurant account."
+        }
+      ],
+      "technique_tags": [
+        "leaf_wrapping",
+        "fire_cooking"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Attributed home preparation now recorded; finer locality, community attribution and Odia/local review remain pending.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/ou-khatta",
+      "title": "Ou khatta",
+      "group": "everyday_dish",
+      "accounts": [
+        {
+          "source_id": "chef",
+          "locator": "Odia Experience menu, accompaniment paragraph",
+          "preparation_or_variation": "The menu describes elephant-apple chutney tempered with panch phutana.",
+          "evidence_scope": "Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu."
+        },
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.131 / PDF p.131, Odisha summary; p.292 / PDF p.292, Oou Khatta entry",
+          "preparation_or_variation": "The Odisha summary lists Ouu khatta, but a later elephant-apple/jaggery entry is labelled Assam. That geography is unresolved.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        }
+      ],
+      "technique_tags": [
+        "tempering"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Keep the university’s Assam label visible; do not turn it into an Odisha regional recipe or an exclusivity claim.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/chhena-poda",
+      "title": "Chhena poda",
+      "group": "place_linked_sweet",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Chennapoda heading",
+          "preparation_or_variation": "Sweetened chhena is baked with sal leaves in the described earthen-oven preparation.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "food-chhenapoda-chef2021",
+          "locator": "Opening paragraphs and Chocolate Chhenapoda Recipe",
+          "preparation_or_variation": "Chef Michael describes sugar/jaggery versions, links the sweet to Nayagarh, and offers a chocolate adaptation.",
+          "evidence_scope": "29 July 2021 contributor recipe hosted by Odisha Tourism; origin story is attributed, not independently proven."
+        }
+      ],
+      "technique_tags": [
+        "baking",
+        "leaf_assisted_cooking"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Separate the contemporary adaptation from historical origin claims; obtain a documented local maker account.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/chhena-jhili",
+      "title": "Chhena jhili",
+      "group": "place_linked_sweet",
+      "accounts": [
+        {
+          "source_id": "food-tourism",
+          "locator": "Chenna Jhili heading",
+          "preparation_or_variation": "The overview associates the sweet with Nimapada.",
+          "evidence_scope": "Odisha Tourism institutional overview; no household or regional prevalence established."
+        },
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.119 / PDF p.119, item 5",
+          "preparation_or_variation": "The teaching preparation fries shaped chhena mixture, then soaks it in syrup; curd is optional.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        }
+      ],
+      "technique_tags": [
+        "frying",
+        "syrup_soaking"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Check the version with a named Nimapada maker; do not infer current shops, sales or universal shape.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/kendrapara-rasabali",
+      "title": "Kendrapara Rasabali",
+      "group": "place_linked_sweet",
+      "accounts": [
+        {
+          "source_id": "regional-cuisine",
+          "locator": "Printed p.121 / PDF p.121, item 25",
+          "preparation_or_variation": "The reference links Rasabali to Kendrapara and describes a thick-milk/cardamom finish.",
+          "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        },
+        {
+          "source_id": "chef",
+          "locator": "Odia Experience menu, dessert",
+          "preparation_or_variation": "The 2019 menu serves fried chhena in sweetened condensed milk.",
+          "evidence_scope": "Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu."
+        },
+        {
+          "source_id": "food-rasabali-gi175",
+          "locator": "Printed/PDF pp.42–43,46–48",
+          "preparation_or_variation": "The May 2023 specification describes ghee-fried chhena in reduced sweetened milk; its early method includes semolina and a central hole.",
+          "evidence_scope": "Historical applicant specification; read with September correction, not as the final sole recipe."
+        },
+        {
+          "source_id": "food-rasabali-corrigendum2023",
+          "locator": "PDF pp.1–2,5–6",
+          "preparation_or_variation": "The September correction replaces lemon juice with chhena water in the opening method, removes semolina there, and describes round tikkis without a hole instruction. Its later method still says vinegar.",
+          "evidence_scope": "Same applicant/registry source family; unresolved internal discrepancy is held separately. No inference that a hole is legally prohibited."
+        }
+      ],
+      "technique_tags": [
+        "frying",
+        "milk_soaking"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Seek an original clarification of chhena-water versus vinegar instructions and a credited maker account; do not silently harmonise the correction.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    },
+    {
+      "concept_id": "food/dhenkanal-magji",
+      "title": "Dhenkanal Magji",
+      "group": "place_linked_sweet",
+      "accounts": [
+        {
+          "source_id": "food-magji-gi178",
+          "locator": "Printed/PDF pp.45–50; description, geographical area and method",
+          "preparation_or_variation": "The specification uses pressed buffalo-milk cheese, sugar and cardamom, cooked in a pan and hand-shaped. It identifies Mandar–Sadangi and the wider Dhenkanal production area.",
+          "evidence_scope": "Applicant specification published by the GI Registry; historical production description, not a tested household recipe or independent economic evaluation."
+        }
+      ],
+      "technique_tags": [
+        "pressing",
+        "pan_cooking",
+        "hand_shaping"
+      ],
+      "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
+      "local_review": "pending",
+      "odia_spelling_review": "pending",
+      "tested_recipe": false,
+      "current_serving_venue": null,
+      "open_question": "Reconcile internal sugar proportions with an original clarification and a credited producer; distinguish documented process from origin legends, comparative nutrition and shelf-life claims.",
+      "checked_on": "2026-10-01",
+      "source_status": "attributed_research_local_review_pending"
+    }
+  ],
+  "held_claims": [
+    {
+      "id": "magji-sugar-ratio",
+      "concept_id": "food/dhenkanal-magji",
+      "source_id": "food-magji-gi178",
+      "status": "hold_internal_discrepancy",
+      "unit": "g sugar per kg cheese",
+      "passages": [
+        {
+          "locator": "p.45 specification and p.48 method",
+          "minimum": 400,
+          "maximum": 500
+        },
+        {
+          "locator": "p.46 description",
+          "value": 400
+        },
+        {
+          "locator": "p.47 description",
+          "minimum": 300,
+          "maximum": 400
+        }
+      ],
+      "interpretation": "No single prescriptive quantity selected; not a time series or economic statistic."
+    },
+    {
+      "id": "manda-process",
+      "concept_id": "food/manda-pitha",
+      "status": "terminology_review_pending",
+      "source_ids": [
+        "food-tourism",
+        "regional-cuisine"
+      ],
+      "interpretation": "Boiled and steamed accounts are retained separately; no district attribution inferred."
+    },
+    {
+      "id": "ou-geography",
+      "concept_id": "food/ou-khatta",
+      "status": "scope_review_pending",
+      "source_ids": [
+        "regional-cuisine"
+      ],
+      "interpretation": "Odisha summary p.131 and Assam-labelled preparation p.292 are not silently merged."
+    },
+    {
+      "id": "rasabali-curdling-corrigendum",
+      "concept_id": "food/kendrapara-rasabali",
+      "source_id": "food-rasabali-corrigendum2023",
+      "status": "hold_internal_discrepancy",
+      "passages": [
+        {
+          "locator": "PDF p.1 specification and p.6 ingredients",
+          "curdling_agent": "chhena water"
+        },
+        {
+          "locator": "PDF p.6 method, step 1",
+          "curdling_agent": "vinegar"
+        }
+      ],
+      "interpretation": "Do not choose a definitive curdling instruction or infer legal recipe compliance."
+    }
+  ],
+  "economic_fields": {
+    "revenue": null,
+    "exports": null,
+    "reason": "Preparation and GI evidence do not measure sales or shipments; RES-031 owns sweets economics."
+  },
+  "human_review_claimed": false,
+  "source_revision_history": [
+    {
+      "concept_id": "food/kendrapara-rasabali",
+      "original_source_id": "food-rasabali-gi175",
+      "original_published_on": "2023-05-31",
+      "revision_source_id": "food-rasabali-corrigendum2023",
+      "revision_published_on": "2023-09-29",
+      "captured_on": "2026-10-01",
+      "relationship": "Same application 802; revised passages are not independent corroboration. Prior version retained.",
+      "changes": [
+        {
+          "field": "opening curdling step",
+          "before": "lemon juice",
+          "after": "chhena water",
+          "locators": [
+            "original p.42",
+            "revision p.1"
+          ],
+          "caveat": "Revision p.6 still says vinegar."
+        },
+        {
+          "field": "opening dough/shaping steps",
+          "before": "semolina included; central hole instructed",
+          "after": "semolina and hole instructions omitted from these steps",
+          "locators": [
+            "original p.43",
+            "revision p.2"
+          ],
+          "caveat": "Omission does not establish prohibition."
+        }
+      ]
+    }
+  ],
+  "economic_leads": [
+    {
+      "id": "rasabali-sellers-makers-2023-document",
+      "concept_id": "food/kendrapara-rasabali",
+      "owner_task": "RES-031",
+      "status": "hold_reference_period_and_method_missing",
+      "source_ids": [
+        "food-rasabali-gi175",
+        "food-rasabali-corrigendum2023"
+      ],
+      "locators": [
+        "Journal 175 p.49, Others",
+        "corrigendum PDF p.8, Others"
+      ],
+      "publication_dates": [
+        "2023-05-31",
+        "2023-09-29"
+      ],
+      "retrieved_on": "2026-10-01",
+      "reference_period": null,
+      "geography": "Kendrapara district",
+      "measurements": [
+        {
+          "metric": "sweet shopkeepers selling Rasabali",
+          "value": 300,
+          "qualifier": "nearly",
+          "unit": "shopkeepers"
+        },
+        {
+          "metric": "people engaged in making Rasabali, including women groups",
+          "value": 600,
+          "qualifier": "more_than",
+          "unit": "people"
+        }
+      ],
+      "evidence_class": "applicant_claim_repeated_in_revision",
+      "method": null,
+      "limitations": "Undated applicant counts, not independent census, establishments count, permanent jobs or a current series. Do not add overlapping seller/maker counts or derive revenue/exports.",
+      "price_basis": null,
+      "estimate_status": "attributed approximate counts; method unknown",
+      "project_stage": "not_applicable"
+    }
+  ]
+}

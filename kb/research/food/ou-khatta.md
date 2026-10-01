@@ -35,3 +35,13 @@ Record a cook’s recipe, seasonality and English ingredient identification.
 [Related knowledge](dalma.md) · [Research standards](../about/research-method.md)
 
 [^regional-cuisine]: [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf)
+
+## Preparation and variations · 1 October 2026
+
+The menu describes elephant-apple chutney tempered with panch phutana. [Chef TZac: Odia cuisine is an evolved cuisine](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine), Odia Experience menu, accompaniment paragraph. Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu.
+
+The Odisha summary lists Ouu khatta, but a later elephant-apple/jaggery entry is labelled Assam. That geography is unresolved. [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf), Printed p.131 / PDF p.131, Odisha summary; p.292 / PDF p.292, Oou Khatta entry. University teaching reference; one described version, not a definitive formula.
+
+**Still to verify:** Keep the university’s Assam label visible; do not turn it into an Odisha regional recipe or an exclusivity claim. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.

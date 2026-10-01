@@ -169,6 +169,14 @@
 
 - [Debrigarh primary-source checkpoint](debrigarh-primary-2026-10-01.json) — Historical JICA revenue, official community recognition and unresolved modern revenue scope.
 
+- [Food preparation checkpoint](food-preparations-2026-10-01.json) — Fourteen existing food entries, attributed variants and original Magji specification.
+
+- [Food preparation checkpoint](food-primary-followup-2026-10-01.json) — Seven existing entries enhanced; original/corrected Rasabali records and the 2015 rice-food book.
+
+- [Fire-cooking research and story](poda-story-2026-10-01.json) — Nine linked poda foods, method boundaries and a source-backed campaign draft.
+
+- [Campaign wording selection](fire-tagline-2026-10-01.json) — user-selected tag, subtitle and draft copy updates.
+
 - [Odisha Roots feature review](odisha-roots-features-review.json) · [Approved publication](odisha-roots-features-publication.json)
 
 - [Visitor discovery and research review](visitor-research-review.json) · [Research PR integration findings](research-pr-review.json) · [Current review queue](visitor-review-queue.json)
