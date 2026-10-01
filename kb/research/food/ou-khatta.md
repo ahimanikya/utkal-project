@@ -5,7 +5,7 @@ description: "Ou khatta — research and reuse notes."
 tags: ["food", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "regional-cuisine", "title": "Regional Cuisine of India, BHM-602AT", "resource": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf"}]
+sources: [{"id": "regional-cuisine", "title": "Regional Cuisine of India, BHM-602AT", "resource": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf"}, {"id": "food-ou-sasmita2017", "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish", "resource": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"}, {"id": "food-ou-sasmita2019", "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish", "resource": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"}, {"id": "food-ou-ray2014", "title": "The Month of Kartik in my Mother’s Kitchen", "resource": "https://www.saveur.com/article/travels/kartik-holy-month/"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Odisha"
 aliases: ["Ou khatta", "ou khatta"]
@@ -45,3 +45,18 @@ The Odisha summary lists Ouu khatta, but a later elephant-apple/jaggery entry is
 **Still to verify:** Keep the university’s Assam label visible; do not turn it into an Odisha regional recipe or an exclusivity claim. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## A cook’s two versions and a remembered meal · 1 October 2026
+
+Sasmita identifies Odisha as her home state and documents two versions. Her 2017 sweet preparation uses boiled fruit, jaggery or sugar, seed tempering, ginger and coconut.[^food-ou-sasmita2017] Her 2019 version uses mustard–cumin paste and panch phoron with jaggery; it omits onion and garlic.[^food-ou-sasmita2019] These are two accounts from one author, not independent surveys or district recipes.
+
+Julie Acharya Ray’s 2014 family memoir remembers ou khatta in her mother’s Kartik meal.[^food-ou-ray2014] This connects the dish to one household’s seasonal memory without claiming uniform observance across Odisha. Compare [Dalma](dalma.md). The attributed relish account offers rice and dalma as a serving combination; meal context, not universal ritual prescription.
+
+The university’s Assam-labelled passage remains unresolved. These attributed Odisha accounts do not establish exclusive origin or make that other label an error. Recipe testing, local/Odia review, precise district distribution, current availability and economic totals remain unknown.
+
+
+[^food-ou-sasmita2017]: [Meetha Oou Khatta | Sweet Elephant Apple Relish](https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/) — Sasmita, First Timer Cook, 2017-12-10.
+
+[^food-ou-sasmita2019]: [Khata Meetha Oou | Sweet & Sour Elephant Apple Relish](https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/) — Sasmita, First Timer Cook, 2019-01-04.
+
+[^food-ou-ray2014]: [The Month of Kartik in my Mother’s Kitchen](https://www.saveur.com/article/travels/kartik-holy-month/) — Julie Acharya Ray, Saveur, 2014-10-09.

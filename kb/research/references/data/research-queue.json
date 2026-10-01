@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T10:15:52.301620-07:00",
+  "updated_at": "2026-10-01T17:48:26.965906+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -843,11 +843,11 @@
       "title": "Food names recipes and variations",
       "done_when": "Deepen six pitha, four everyday dishes and four place-linked sweets with attributed preparation and variation sources; leave Odia/local review pending.",
       "target": "food/index.md",
-      "status": "in_progress",
-      "attempts": 3,
+      "status": "completed",
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T10:15:52.301620-07:00",
-      "next_step": "Deepen Ou khatta with an attributed Odisha preparation; retain existing scope conflict. Poda story has nine linked foods; next extensions need credited community/local evidence for bamboo/chicken and verified sukhua/vegetable leads. Local/Odia review pending.",
+      "last_worked_at": "2026-10-01T17:48:26.965906+00:00",
+      "next_step": "RES-031: research Rasagola and sweets economics from existing GI economic leads. Keep Ou district/local review and further poda/community evidence in the coverage backlog; unavailable routes retry after 2026-10-08.",
       "evidence_outputs": [
         "food/preparation-and-variation.md",
         "references/data/food-preparations.json",
@@ -884,7 +884,10 @@
         "food/kukuda-patrapoda.md",
         "food/baunsa-poda-mansa.md",
         "food/poda-and-fire-cooking.md",
-        "stories/odisha-poda-country.md"
+        "stories/odisha-poda-country.md",
+        "sources/food-ou-sasmita2017.md",
+        "sources/food-ou-sasmita2019.md",
+        "sources/food-ou-ray2014.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -896,7 +899,8 @@
           "references/data/food-preparations.json",
           "food/poda-and-fire-cooking.md",
           "references/data/poda-traditions.json",
-          "stories/odisha-poda-country.md"
+          "stories/odisha-poda-country.md",
+          "food/ou-khatta.md"
         ],
         "project_records": [
           "kb/research/destinations/coastal-edition-copy.json",
@@ -926,6 +930,15 @@
           "outcome": "poda_collection_and_story_saved_chatu_account_enhanced",
           "completion_criteria_met": false,
           "reason": "User-requested extension complete as a sourced draft; Ou preparation and local review remain open."
+        },
+        {
+          "run_id": "2026-10-01-ou-khatta",
+          "at": "2026-10-01T17:48:26.965906+00:00",
+          "outcome": "ou_attributed_versions_saved_food_seed_completed",
+          "completion_criteria_met": true,
+          "new_food_identities": 0,
+          "new_source_records": 3,
+          "human_review_claimed": false
         }
       ],
       "scope_extensions": [
@@ -935,7 +948,8 @@
           "run_id": "2026-10-01-poda-story",
           "scope": "Poda research collection and clearly labelled campaign metaphor; original completion criteria preserved."
         }
-      ]
+      ],
+      "completion_scope": "Fourteen selected entries have attributed preparation and variation evidence: six pitha, four everyday dishes, four place-linked sweets. Local/Odia review remains pending as allowed by done_when. Not exhaustive, recipe-tested, or free of retained conflicts."
     },
     {
       "id": "RES-031",

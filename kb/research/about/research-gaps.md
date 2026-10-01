@@ -198,3 +198,7 @@ Recovered Rasabali original/corrigendum and the 2015 CRRI book. Enduri steaming 
 ## Poda story gaps · 1 October 2026
 
 Nine selected foods now linked. Fine local/community bamboo and chicken accounts, sukhua and vegetable leads remain missing; CCRT retry 8 October. RFP steamed chhena-poda wording held against baked description. No national barbecue ranking, prevalence, sales or exports established.
+
+### Ou khatta and food milestone · 1 October 2026
+
+Two attributed Sasmita preparations and Julie Acharya Ray’s family memory close the last preparation gap for RES-011. District distribution, local/Odia review, recipe testing and the university’s Assam-labelled passage remain open. No health, shelf-life, statewide ritual or exclusivity claim was imported. Failed Oriyarasoi full-page and Commons step-five routes are recorded for retry after 8 October; neither is needed to substantiate the saved versions.

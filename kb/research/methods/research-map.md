@@ -173,3 +173,7 @@ Added four source records and enhanced seven existing foods, without new dish id
 ## Poda extension · 1 October 2026
 
 Five sources and six absent food nuclei added; three existing food identities reused. One evidence collection and one clearly labelled editorial story. Source families and adaptations retained; no exhaustive semantic-deduplication claim.
+
+### Ou khatta reuse extension · 1 October 2026
+
+Enhanced the existing Ou identity with three sources after checking the saved recipe register and repository-native food narratives. Two Sasmita pages describe different versions from one author; they are not independent corroboration. Added the canonical Ou page to RES-011 reuse pointers. The initial audit remains dated and unchanged.

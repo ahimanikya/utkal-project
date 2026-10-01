@@ -167,3 +167,7 @@ RES-011 continues with seven existing foods enhanced. Original Rasabali and CRRI
 ## Poda story extension · 1 October 2026
 
 User requested the barbecue/poda connection. RES-011 preserves original criteria and now links the bounded collection/story extension. Chatu home account recovered; Ou remains next. Existing PR35 is the review destination.
+
+### Food preparation milestone · 1 October 2026
+
+RES-011’s fourteen-entry evidence deliverable is complete within its defined scope, including the explicit pending local/Odia review. Ou khatta now has directly retrieved contributor preparations. Retain source conflicts and finer locality/poda follow-ups; next eligible task is RES-031, Rasagola and sweets economics. Do not infer sales or exports from recipes, vendor counts or online availability.

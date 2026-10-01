@@ -115,3 +115,7 @@ The user selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire
 ## 1 October 2026 · Research stack integration
 
 The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed current integration checks and merged sequentially. PR 35 completes the food research candidate. Both research and website source/navigation records are preserved; local duplicate files are excluded from generated indexes. [Integration receipt](records/research-stack-integration-2026-10-01.json). This is repository integration, not a website deployment or independent factual review.
+
+## 1 October 2026 · Ou khatta preparation milestone
+
+[Research receipt](records/ou-khatta-2026-10-01.json): two versions by Sasmita and a family memory deepen one existing entry. The bounded fourteen-food preparation set is complete; local/Odia review and source conflicts remain open. Research-only candidate, no website deployment.

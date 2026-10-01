@@ -26,7 +26,7 @@ Fourteen entries now connect names to preparation accounts: six pitha, four ever
 - [Pakhala](pakhala.md) — soaking, fermentation.
 - [Dalma](dalma.md) — boiling, tempering.
 - [Chatu patrapoda](chatu-patrapoda.md) — leaf wrapping, fire cooking.
-- [Ou khatta](ou-khatta.md) — tempering.
+- [Ou khatta](ou-khatta.md) — boiling, tempering and simmering.
 - [Chhena poda](chhena-poda.md) — baking, leaf assisted cooking.
 - [Chhena jhili](chhena-jhili.md) — frying, syrup soaking.
 - [Kendrapara Rasabali](kendrapara-rasabali.md) — frying, milk soaking.
@@ -51,3 +51,7 @@ Next: independent local preparations for chatu patrapoda and ou khatta; finer re
 ## Poda story extension · 1 October 2026
 
 [Poda and fire cooking](poda-and-fire-cooking.md) connects existing pitha, cheese and mushroom entries with six new scoped food nuclei. Chatu now has Lopa’s own home preparation alongside the chef-menu account; locality review remains open. Ou khatta remains the next distinct preparation gap.
+
+## Fourteen-food research set complete · 1 October 2026
+
+[Ou khatta](ou-khatta.md) now distinguishes two preparations by Sasmita and a family meal memory by Julie Acharya Ray. This closes the last attributed-preparation gap in the bounded RES-011 set of six pitha, four everyday dishes and four place-linked sweets. It does not complete statewide coverage, recipe testing, local language review or the resolution of every source conflict. Further poda and locality questions remain in the existing records. Next sequential task: sweets economics (RES-031).
