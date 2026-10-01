@@ -18,3 +18,7 @@ Imported source-workspace statements about absent hosting, initial identity prop
 [Browse new subjects](../research/subjects/index.md) · [People and creations](../research/people/people-and-creations.md) · [Literature checkpoint](../research/works/spark-of-light.md).
 
 The existing scheduled research process continues from its source-workspace queue. This import does not silently move or duplicate that automation. Future syncs must compare against this receipt and preserve repository edits before pushing a review branch.
+
+## Applied to main
+
+The Founder approved this candidate. PR 21 merged on 1 October 2026 at commit `e25cb73bea1998b3b4f5f6f35c818af6ef4c4df4`. See the [approval and merge receipt](research-sync-merge.json). The preparation details above remain historical; new research has not been deployed to the website.

@@ -124,3 +124,5 @@
 - [Odia literature collection review](odia-literature-release-review.json) — language, six literary lives, reading prompts and offline books.
 
 - [Research sync — 1 October 2026](research-sync-2026-10-01.md)
+
+- [Research sync approval and merge](research-sync-merge.json)

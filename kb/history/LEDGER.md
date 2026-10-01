@@ -788,3 +788,7 @@ Approved PR #12 is live. Six story sections keep the inscriptions, elephant, mod
 ## UTP-HIS-0143 · The research joins its existing home
 
 The expanded research collection is reconciled with the existing project, preserving its newer stories and operating records. [Research sync receipt](../records/research-sync-2026-10-01.md). This is a Git review candidate, not a website release.
+
+## UTP-HIS-0144 · The expanded research is part of the project
+
+Founder-approved PR 21 is merged into main. The [merge receipt](../records/research-sync-merge.json) records the reviewed revision, passing checks and merge commit. No website deployment was performed.
