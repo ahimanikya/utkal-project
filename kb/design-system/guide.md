@@ -127,3 +127,9 @@ The selected visual magazine direction now provides shared cover, chapter naviga
 The four-hub candidate applies existing tokens and cards through a shared site component; it does not introduce a new core package version. One compact planning navigation connects destinations, food, experiences, stay areas and starters. Group idea cards by area, keep jump links stable and let a single pictured card use the available width. A desktop opening must explicitly escape inherited narrow reading widths; keep reading text measured inside the wider canvas.
 
 Use a contextual photograph to invite exploration, preserve full-frame performance imagery when requested, and label landscape images used for stay-area research. Keep rights and source detail in the closing disclosure. Do not add a second generic related-content ending to a hub. Keyboard paths and real saved-journey continuity are acceptance checks alongside responsive screenshots. Evidence: [planning hub review](../records/planning-hubs-review.json).
+
+## Language collection application · 1 October 2026
+
+A language directory is a set of reading choices. Use a relevant manuscript or accurately captioned script specimen where rights permit, and a typographic panel where documentary imagery is absent. Do not invent a community portrait to fill a card. Cards connect language, place and reading intent without treating districts as exclusive language boundaries.
+
+The reading shelf keeps the original resource link, edition, publisher and compilers together. The three-column visual names languages compared by the booklet; it is not a newly translated vocabulary table. Use one closing contribution invitation and keep detailed evidence in the existing end disclosure. Preserve source links and practical prompts in portable reading books. These are site-level applications of existing tokens, not a new shared package release. Evidence: [language review](../records/living-languages-review.json).

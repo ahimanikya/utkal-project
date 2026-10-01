@@ -31,7 +31,7 @@ test('northern guidance, stay comparisons and source links survive both offline 
 test('regional pages link every new guide and photographs retain their actual context',()=>{
  for(const [parent,paths] of Object.entries({balasore:['/visit/places/chandipur/','/visit/stays/balasore-coast/','/food/balasore/'],mayurbhanj:['/visit/places/similipal/','/visit/stays/similipal-gateways/','/visit/experiences/mayurbhanj-chhau/','/food/mudhi-mansa/']})){
   const html=read('/destinations/'+parent+'/');for(const path of paths)assert.ok(html.includes(`href="${path}"`),path);
-  assert.ok(html.includes('mag-cover'));assert.ok(!html.includes('href="/languages/santali/"'));
+  assert.ok(html.includes('mag-cover'));if(parent==='mayurbhanj')assert.ok(html.includes('href="/languages/santali/"'));
  }
  assert.ok(read('/food/mudhi-mansa/').includes('home-cooked variation'));
  assert.ok(read('/visit/stays/similipal-gateways/').includes('not a camp or room'));

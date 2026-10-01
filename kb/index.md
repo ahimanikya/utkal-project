@@ -91,3 +91,5 @@ This directory contains the organizational and working model, roles, work record
 - [Northern collection review and publication](records/northern-release-review.json) — Balasore, Mayurbhanj, food, two bases and portable journey books.
 
 - [Planning hubs review and publication](records/planning-hubs-review.json) — destination, food, experience and stay-area discovery with connected journey navigation.
+
+- [Languages and Living Voices candidate](research/product/living-languages.md) — seven introductions, original learning publications and speaker contribution proposals.
