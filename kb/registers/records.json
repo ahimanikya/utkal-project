@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T13:59:27.137226+00:00",
+  "recorded_at": "2026-10-01T14:10:10.794355+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3577,22 +3577,26 @@
       "id": "UTP-WORK-121",
       "title": "Responsive collection and onward-story images",
       "category": "website_experience",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-121",
-      "next_action": "Founder reviews image-delivery candidate. Browser/network and visual checks remain unverified; publication requires approval.",
+      "next_action": "Published under UTP-REL-029. Keep browser visual and measured network-performance review open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-121",
-        "UTP-REV-095"
+        "UTP-REV-095",
+        "UTP-DEC-122",
+        "UTP-REV-096",
+        "UTP-REL-029"
       ],
       "evidence": [
-        "records/collection-images-review.json"
+        "records/collection-images-review.json",
+        "records/collection-images-publication.json"
       ]
     }
   ],
@@ -6022,6 +6026,27 @@
       "evidence": [
         "records/collection-images-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-122",
+      "title": "Approve and publish PR 29 collection images",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "approved",
+      "scope": "Direct reply to PR 29 handoff, approving head fcbb5c03e16141823740085e9c416df2f52449d4 for publication. Search indexing remains disabled.",
+      "recorded_at": "2026-10-01T14:10:10.794355+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-121",
+        "UTP-WORK-121",
+        "UTP-REV-095"
+      ],
+      "evidence": [
+        "records/collection-images-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -8296,6 +8321,30 @@
       "evidence": [
         "records/collection-images-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-096",
+      "title": "Collection images publication verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the release; no independent review claimed.",
+        "Live verification uses HTTP, markup and encoded image bytes. Browser visual and network-performance review remains open because the earlier browser security-policy blocker is unresolved.",
+        "Smaller encoded files do not establish measured page speed, browser-selected transfer or perceptual equivalence.",
+        "Existing source, language and local-verification limitations remain; no new photographs or rights claims.",
+        "Search indexing remains disabled; search activation needs a separate decision."
+      ],
+      "refs": [
+        "UTP-DEC-122",
+        "UTP-WORK-121"
+      ],
+      "evidence": [
+        "records/collection-images-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -8799,6 +8848,22 @@
         "records/guide-navigation-publication.json"
       ],
       "note": "PR 28 published and checked; broader accessibility and browser checks remain open."
+    },
+    {
+      "id": "UTP-REL-029",
+      "title": "Responsive collection and onward-story images published",
+      "status": "published",
+      "authorization": "UTP-DEC-122",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-122",
+        "UTP-REV-096",
+        "UTP-WORK-121"
+      ],
+      "evidence": [
+        "records/collection-images-publication.json"
+      ],
+      "note": "PR 29 published and checked; browser visual and measured performance review remains open."
     }
   ],
   "sources": [
