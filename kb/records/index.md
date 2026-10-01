@@ -138,3 +138,5 @@
 - [Performing-arts milestone](performing-arts-milestone-2026-10-01.json) — Six practitioners and twelve credited works, with two scoped browser access checks.
 
 - [Sports research](sports-achievements-2026-10-01.json) — Eight athletes across four sports, with fourteen scoped results and milestones.
+
+- [Scientists checkpoint](scientists-first-batch-2026-10-01.json) — Swati Nayak and Sanghamitra Pati, credited contributions and evidence limits; RES-029 remains in progress.

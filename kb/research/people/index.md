@@ -55,3 +55,9 @@
 - [Debashis Das](debashis-das.md)
 
 - [Odisha’s sporting achievements](sporting-achievements.md)
+
+- [Swati Nayak](swati-nayak.md)
+
+- [Sanghamitra Pati](sanghamitra-pati.md)
+
+- [Science and documented contributions](science-and-contributions.md)

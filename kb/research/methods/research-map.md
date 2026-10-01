@@ -101,3 +101,7 @@ Appended Jagannatha Swami’s label source and recording identity after a saved-
 ### Sports extension · 1 October 2026
 
 Added fifteen source records, seven athlete identities and one collection; enhanced the existing Dilip Tirkey profile. Current inventory: 824. Candidate spelling Debashish Das resolves to the federation’s Debashis Das identity here. Same-federation guide and result table are one evidence family. Athlete results use sports-achievements.json; event hosting and venue capacity stay in the existing atlas.
+
+### Science extension · 1 October 2026
+
+Added two people, two contribution/work identities, five source records and one collection. Current inventory: 834. PubMed, PMC and coauthor repositories describe one paper, not independent studies. Samanta’s canonical project narrative and JSON were inspected and retained; Mohanty’s existing identity is reused. Queue pointers now include the checkpoint outputs.

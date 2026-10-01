@@ -342,3 +342,13 @@
 - [Padmini Rout: 2018 Women’s World Championship pairing](sport-padmini-world.md)
 
 - [Debashis Das: 2018 Commonwealth Chess final table](sport-debashis-commonwealth.md)
+
+- [Swati Nayak: 2023 Borlaug Field Award](science-nayak-borlaug.md)
+
+- [Women-led seed production training in Jharsuguda](science-odisha-seed-training.md)
+
+- [Sanghamitra Pati: institutional biography](science-pati-rmrc.md)
+
+- [ICMR leadership: Sanghamitra Pati](science-pati-icmr-leadership.md)
+
+- [Pati and colleagues: Odisha primary-care multimorbidity study](science-pati-multimorbidity-2015.md)

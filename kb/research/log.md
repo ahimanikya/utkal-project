@@ -128,3 +128,7 @@ Completed the bounded RES-027 performing-arts seed with one additional Sunanda P
 ## 2026-10-01
 
 Completed RES-028 sports seed: seven new athlete profiles, an enhanced Dilip Tirkey record, an eight-person collection and fourteen scoped observations. Added fifteen publisher records, classification and evidence connections, retained non-medal results and disciplinary context, recorded fetch limitations and next science task. No current-ranking, human-review or website-publication claim.
+
+## 2026-10-01
+
+Saved RES-029 scientists checkpoint: two people, one paper and one explicitly editorial field-contribution record; five source records and a connected science collection. Reused Mohanty and inspected project-native Samanta without duplication. Preserved collaborative credit, failed fetches and patient-sample scope. Six-person task remains unfinished; no human review or website publication claimed.

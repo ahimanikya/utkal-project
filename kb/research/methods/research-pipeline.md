@@ -99,3 +99,7 @@ The bounded RES-027 set now covers **six practitioners and twelve independently 
 RES-028 now contains eight selected athletes across hockey, athletics, badminton and chess, with fourteen result/milestone observations. Seven new profiles enhance the existing Dilip Tirkey record. Women and para sport are included; event classes, team results, heat places and historical discipline findings are retained. Next: RES-029 scientists. Direct athletics fetch retries remain dated follow-up work.
 
 When sports-achievements.json changes, run tools/validate_sports.py with the core, creations and classification validators. Its checks enforce event scope and references; passing them is not independent factual review.
+
+### Scientists checkpoint · 1 October 2026
+
+RES-029 is in progress: Swati Nayak and Sanghamitra Pati profiles connect agriculture and health to documented contributions. Existing Mohanty research and project-native Samanta records were consulted first. Two new profiles are not the six-scientist deliverable. Resume RES-029: enhance the project-native Samanta Chandrasekhar record only for unresolved chronology/instrument fields, retain Mohanty’s existing paper, then research two further scientists (candidate leads Prana Krushna Parija and Ajit Kumar Mohanty) to reach six. Verify Nayak publication-level credits and Pati award-issuer entry/full methods; failed routes retry after 2026-10-08. Do not duplicate project-native Samanta JSON.

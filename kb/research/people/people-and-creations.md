@@ -71,3 +71,7 @@ The bounded RES-027 set now covers **six practitioners and twelve independently 
 ## Sporting achievements · 1 October 2026
 
 [Eight athlete profiles across four sports](../people/sporting-achievements.md) connect official results with dated Odisha affiliations. Team medals, individual results, career caps, heat positions and chess scores retain their separate meanings. This research collection is not a statewide medal total.
+
+## Science connections · 1 October 2026
+
+[Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.

@@ -544,18 +544,29 @@
       "title": "Scientists and documented contributions",
       "done_when": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
       "target": "people/people-and-creations.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Research six scientists across historical and contemporary fields; verify Odisha connection, publications/instruments/discoveries and institutional awards; retain collaborative credit and avoid patent-to-impact inference.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-01T05:42:41.942920-07:00",
+      "next_step": "Resume RES-029: enhance the project-native Samanta Chandrasekhar record only for unresolved chronology/instrument fields, retain Mohanty’s existing paper, then research two further scientists (candidate leads Prana Krushna Parija and Ajit Kumar Mohanty) to reach six. Verify Nayak publication-level credits and Pati award-issuer entry/full methods; failed routes retry after 2026-10-08. Do not duplicate project-native Samanta JSON.",
+      "evidence_outputs": [
+        "people/science-and-contributions.md",
+        "people/swati-nayak.md",
+        "people/sanghamitra-pati.md",
+        "works/odisha-rice-seed-deployment.md",
+        "works/odisha-multimorbidity-2015.md"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
         "source_records": [
           "people/bedangadas-mohanty.md",
-          "works/qcd-phase-diagram-2009.md"
+          "works/qcd-phase-diagram-2009.md",
+          "people/science-and-contributions.md",
+          "people/swati-nayak.md",
+          "people/sanghamitra-pati.md",
+          "works/odisha-rice-seed-deployment.md",
+          "works/odisha-multimorbidity-2015.md"
         ],
         "project_records": [
           "kb/research/people/samanta-chandrasekhar.md",
@@ -563,7 +574,19 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-scientists-first-batch",
+          "at": "2026-10-01T05:42:41.942920-07:00",
+          "outcome": "checkpoint_saved",
+          "completion_criteria_met": false,
+          "new_people": 2,
+          "new_works": 2,
+          "reused": "Bedangadas Mohanty source record and Samanta Chandrasekhar project-native narrative inspected; neither duplicated.",
+          "remaining": "Six-scientist breadth and historical instrument/chronology evidence incomplete."
+        }
+      ]
     },
     {
       "id": "RES-008",

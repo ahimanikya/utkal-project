@@ -55,3 +55,7 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Bhajan — Bhaja Govindam, Sunanda Patnaik recording](bhaja-govindam-sunanda.md)
 
 - [Jagannatha Swami — Sunanda Patnaik label recording](jagannatha-swami-sunanda.md)
+
+- [Odisha rice seed deployment — documented team contribution](odisha-rice-seed-deployment.md)
+
+- [Prevalence, Correlates, and Outcomes of Multimorbidity Among Patients Attending Primary Care in Odisha, India](odisha-multimorbidity-2015.md)

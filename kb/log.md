@@ -35,3 +35,7 @@ Completed the bounded RES-027 set with a Jagannatha Swami recording and two dire
 ## 2026-10-01
 
 Completed RES-028: eight selected athletes, including women and para sport, and fourteen dated results/milestones. Historical sanctions, non-medal results and source-access limits remain visible. [Bounded receipt](records/sports-achievements-2026-10-01.json). Shared operating registers and original checkout left untouched; no website changes or human approval claimed.
+
+## 2026-10-01
+
+Saved RES-029 checkpoint: two science profiles, one paper and one editorial field-contribution record. Existing Mohanty and project-native Samanta identities retained. [Bounded receipt](records/scientists-first-batch-2026-10-01.json). No website changes or human approval claimed.

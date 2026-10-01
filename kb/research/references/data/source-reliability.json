@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T05:27:59.980434-07:00",
+  "updated_at": "2026-10-01T05:42:41.942920-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1129,6 +1129,10 @@
     {
       "run_id": "2026-10-01-sports-achievements",
       "scope": "Sports historical-result research; no weekly statistical release check."
+    },
+    {
+      "run_id": "2026-10-01-scientists-first-batch",
+      "scope": "Scientists checkpoint; no weekly release/revision check."
     }
   ],
   "supplemental_discovery_routes": [
@@ -1759,6 +1763,106 @@
       "run_id": "2026-10-01-sports-achievements",
       "status": "unavailable_direct_fetch",
       "scope": "Governor speech lead not promoted; direct fetch failed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-nayak-borlaug",
+      "discovery_url": "https://www.worldfoodprize.org/index.cfm?audienceID=1&nodeID=96788",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "available_with_scoped_capture",
+      "scope": "Award issuer credits Nayak and her team with an Odisha introduction strategy for drought-tolerant rice. This establishes a professional Odisha connection, not birthplace. The Borlaug Field Award is distinct from the World Food Prize; worldwide programme numbers are not Odisha totals.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-odisha-seed-training",
+      "discovery_url": "https://news.irri.org/2023/02/bridging-formal-and-informal-seed.html",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "available_with_scoped_capture",
+      "scope": "IRRI and SEWA held training in Kolabira on 20–21 January 2023 for Jangha Linga Mahila FPC. Nayak is the team contact, not established as article author or trainer. No participant total or measured income gain adopted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-pati-rmrc",
+      "discovery_url": "https://www.rmrcbbsr.gov.in/scientist-lists/dr-mrs-sanghamitra-pati/",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "available_with_scoped_capture",
+      "scope": "Bhubaneswar institutional connection; profile lists the 2018 Samanta Chandra Sekhar Award in Life Sciences from Odisha Bigyan Academy. Institutional self-report, not direct award-issuer register. Profile title is an undated institutional snapshot; personal contacts omitted.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-pati-icmr-leadership",
+      "discovery_url": "https://www.icmr.gov.in/icmr-leadership?q=SCIENTIST",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "available_with_scoped_capture",
+      "scope": "Checked 1 October 2026: Additional Director General and Director-in-charge, additional charge, NIHR Bhubaneswar. Appointment date not established. Kept separate from older RMRC profile title.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "science-pati-multimorbidity-2015",
+      "discovery_url": "https://pubmed.ncbi.nlm.nih.gov/26371265/",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "unavailable_direct_text_indexed_evidence_saved",
+      "scope": "Indexed original-paper record supports all five author names, DOI and abstract sample of 1,649 adult primary-care patients. Direct response returned no usable text. Patient sample is not statewide prevalence; full methods and recruitment denominators are not reconciled here.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4569452/",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Access challenge; full text not read.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://research-information.bris.ac.uk/en/publications/prevalence-correlates-and-outcomes-of-multimorbidity-among-patien/",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct fetch failed; indexed citation matches PMID 26371265, not independent evidence.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://research-repository.uwa.edu.au/en/publications/prevalence-correlates-and-outcomes-of-multimorbidity-among-patien/",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct fetch failed; same paper, not independent evidence.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://books.irri.org/HHAT-Workshop-Report.pdf",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Web fetch failed and direct download timed out after 30 seconds; coeditor lead not promoted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.icmr.gov.in/icmrobject/custom_data/pdf/MERA-India-Newsletter/Issue_22_August_2022.pdf",
+      "checked_at": "2026-10-01T05:42:41.942920-07:00",
+      "run_id": "2026-10-01-scientists-first-batch",
+      "status": "unavailable_direct_fetch",
+      "scope": "Direct fetch failed; not used.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

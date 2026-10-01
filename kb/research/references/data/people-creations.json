@@ -957,6 +957,73 @@
       "sport_category": "men",
       "para_sport": false,
       "achievement_dataset": "references/data/sports-achievements.json"
+    },
+    {
+      "id": "people/swati-nayak",
+      "name": "Swati Nayak",
+      "fields": [
+        "agricultural_science",
+        "seed_systems"
+      ],
+      "odisha_connection": {
+        "description": "The award issuer documents her team’s work introducing drought-tolerant rice in Odisha. Birthplace and mother tongue are not established in this capture.",
+        "source_ids": [
+          "science-nayak-borlaug"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "international_award",
+          "basis": "Recipient of the 2023 Norman E. Borlaug Award for Field Research and Application.",
+          "source_ids": [
+            "science-nayak-borlaug"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-nayak-borlaug",
+        "science-odisha-seed-training"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/odisha-rice-seed-deployment"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/sanghamitra-pati",
+      "name": "Sanghamitra Pati",
+      "fields": [
+        "public_health",
+        "epidemiology"
+      ],
+      "odisha_connection": {
+        "description": "Institutional research and leadership in Bhubaneswar; the 2015 paper lists IIPH Bhubaneswar affiliation. This does not establish birthplace or mother tongue.",
+        "source_ids": [
+          "science-pati-rmrc"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "institutional_award_biography",
+          "basis": "Her institutional profile lists the 2018 Samanta Chandra Sekhar Award in Life Sciences; direct award-register confirmation remains open.",
+          "source_ids": [
+            "science-pati-rmrc"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-pati-rmrc",
+        "science-pati-icmr-leadership",
+        "science-pati-multimorbidity-2015"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/odisha-multimorbidity-2015"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -2325,6 +2392,120 @@
         "reuse_permission": null
       },
       "scope_note": "Distinct label recording identity; Traditional preserves the catalogue credit and does not establish public-domain recording rights."
+    },
+    {
+      "id": "works/odisha-rice-seed-deployment",
+      "title": "Odisha rice seed deployment — documented team contribution",
+      "work_type": "documented_field_research_contribution",
+      "creator_links": [
+        {
+          "person_id": "people/swati-nayak",
+          "role": "team strategy contributor, as credited by award issuer; not plant-breeder attribution",
+          "source_ids": [
+            "science-nayak-borlaug"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Nayak’s research team (members not individually identified in this passage)",
+          "role": "joint strategy development",
+          "source_ids": [
+            "science-nayak-borlaug"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-nayak-borlaug",
+        "science-odisha-seed-training"
+      ],
+      "scope_note": "An editorial contribution record, not a named publication or an individual invention. The 2023 Jharsuguda training is contextual evidence, not proof Nayak personally delivered it.",
+      "english_access": null,
+      "edition": null,
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
+    },
+    {
+      "id": "works/odisha-multimorbidity-2015",
+      "title": "Prevalence, Correlates, and Outcomes of Multimorbidity Among Patients Attending Primary Care in Odisha, India",
+      "work_type": "research_article",
+      "creator_links": [
+        {
+          "person_id": "people/sanghamitra-pati",
+          "role": "first-listed coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Subhashisa Swain",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        },
+        {
+          "name": "Mohammad Akhtar Hussain",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        },
+        {
+          "name": "Shridhar Kadam",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        },
+        {
+          "name": "Chris Salisbury",
+          "role": "coauthor",
+          "source_ids": [
+            "science-pati-multimorbidity-2015"
+          ]
+        }
+      ],
+      "source_ids": [
+        "science-pati-multimorbidity-2015"
+      ],
+      "english_access": {
+        "language": "English",
+        "status": "indexed bibliographic record and abstract; full text not inspected",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26371265/",
+        "source_ids": [
+          "science-pati-multimorbidity-2015"
+        ]
+      },
+      "edition": {
+        "journal": "Annals of Family Medicine",
+        "volume": 13,
+        "issue": 5,
+        "pages": "446–450",
+        "published": "2015-09",
+        "doi": "10.1370/afm.1843",
+        "pmid": "26371265"
+      },
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "study_scope": {
+        "design": "cross-sectional",
+        "geography": "adult primary-care patients in Odisha, India",
+        "abstract_sample": 1649,
+        "unit": "patients",
+        "publication_period": "2015-09",
+        "fieldwork_period": null,
+        "measure_scope": "22 self-reported chronic conditions; sample description only, no statewide prevalence adopted",
+        "estimate_status": "reported study sample",
+        "price_basis": "not_applicable",
+        "source_ids": [
+          "science-pati-multimorbidity-2015"
+        ]
+      }
     }
   ],
   "recognition_rules": {
@@ -2333,7 +2514,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T05:27:59.980434-07:00",
+  "updated_at": "2026-10-01T05:42:41.942920-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -2434,6 +2615,16 @@
         "chess"
       ],
       "scope": "Eight selected athletes including three women and one para athlete; historical results and dated milestones, not a current rankings service."
+    },
+    {
+      "run_id": "2026-10-01-scientists-first-batch",
+      "task_ids": [
+        "RES-029"
+      ],
+      "status": "in_progress",
+      "new_people": 2,
+      "new_works": 2,
+      "scope": "Two contemporary profiles; one original-paper record and one explicitly editorial field-contribution record. Six-scientist deliverable unfinished; existing Mohanty and project-native Samanta records reused."
     }
   ],
   "conflicts": [

@@ -130,3 +130,7 @@ RES-027’s six-person/twelve-work seed is complete. Re Mita and Jagannatha Swam
 ### Sports evidence limits · 1 October 2026
 
 Eight selected profiles are a seed, not complete biographies or statewide totals. Several World Athletics pages provided indexed tables but failed direct fetching; retry after 8 October. Srabani’s Odisha connection is competition affiliation, not verified birthplace. Pramod’s historical whereabouts decision does not establish current eligibility; a conflicting IPC recap class is quarantined in the sports dataset. Preserve Deep Grace’s international-retirement scope. Career totals, records, chess ratings, media rights and present eligibility need separate dated checks.
+
+### Science evidence limits · 1 October 2026
+
+Nayak’s award biography credits a team strategy; plant-breeder credit, publication-level authorship and measured Odisha adoption remain open. Pati’s award is supported by her institutional biography, pending the academy register. Her 2015 paper’s indexed abstract gives 1,649 patients; full methods and recruitment denominators remain unread. PMC challenged access, institutional repository fetches and IRRI’s HHAT PDF failed; retry after 8 October. Samanta’s existing project-native birth-date conflict and instrument claims need specialist evidence. RES-029 remains in progress; no statewide health estimate or measured economic benefit was added.

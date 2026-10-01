@@ -51,3 +51,7 @@ Subject membership is editorial classification. It does not establish historical
 [Nimantran Puri](../facilities/nimantran-puri.md) is a named Odia-cuisine venue lead; dish-level serving evidence remains unknown.
 
 [Rasagola and sweets economics](../economy/rasagola-and-sweets.md) connects existing sweet records to milk, enterprise, logistics and export-evidence questions.
+
+## Science connections · 1 October 2026
+
+[Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
