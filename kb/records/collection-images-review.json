@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-01T13:59:27.137226+00:00",
+  "status": "candidate_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-121",
+  "base_commit": "2b41911",
+  "scope": "Extend responsive delivery to collection discovery and onward reading, completing missing raster coverage without changing content or composition.",
+  "changes": [
+    "Explore cards and four onward-story panels use the existing responsive component with layout-specific sizes.",
+    "Added 12 existing raster sources: 11 missing Explore images plus the Konark wheel reused by an onward panel.",
+    "Generated addresses now derive from encoded image bytes rather than the whole configuration; unrelated source-list additions cannot change existing rendition addresses.",
+    "Retained originals, dimensions, alt text, credit, book metadata and SVG script sample; only referenced responsive files enter the coastal publication.",
+    "Recorded image-delivery and caching lesson in the design system."
+  ],
+  "verification": {
+    "full_site_tests": 356,
+    "coastal_tests": 43,
+    "page_acceptance": "268 checks across 67 routes passed",
+    "responsive_sources": 29,
+    "responsive_variants": 82,
+    "explore_raster_sources": 24,
+    "onward_panels": 4,
+    "integrity": "Every reported derivative matches its byte digest and filename, stays within source size, and preserves proportions. Publication contains exactly the referenced derivative set.",
+    "originals": "Git diff contains no changes under projects/site/public; credit and book records unchanged.",
+    "search": "67 default/candidate comparisons and 11 proposed sitemap URLs passed; normal output remains noindex."
+  },
+  "byte_comparison": {
+    "scope": "Unique raster sources on Explore; encoded bytes only. SVG excluded; no network timing, browser-selected transfer or perceptual-equivalence measurement.",
+    "source_count": 24,
+    "original_bytes": 6352214,
+    "small_variant_bytes": 753094,
+    "medium_variant_bytes": 2385214,
+    "small_reduction_percent": 88.1,
+    "medium_reduction_percent": 62.5
+  },
+  "findings": [
+    {
+      "issue": "First onward-panel check found the Konark wheel lacked responsive choices because it comes from the tour-book asset set.",
+      "resolution": "Added that existing source to the rendition manifest and reran the full build/test and coastal checks.",
+      "initial_evidence": "records/evidence/collection-images/initial-edition-tests.txt",
+      "final_evidence": "records/evidence/collection-images/edition-tests.txt"
+    }
+  ],
+  "reviewer": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Implementation and verification by the same assistant; no independent review claimed.",
+    "No new browser visual or network-performance verification. Earlier browser security-policy blocker remains unresolved; no alternate browser bypass attempted.",
+    "Byte reductions compare encoded files; visitor selection depends on viewport, pixel density, browser and caching. No page-speed or perceptual-equivalence claim.",
+    "Derivative filenames change once with the byte-based naming scheme. Published HTML uses the matching build-generated addresses; original fallbacks and photo/book identities remain.",
+    "No new photographs, crops, AI images, licences, source claims or public routes. Existing image provenance and editorial limitations remain.",
+    "Normal publication remains noindex; search activation is a separate decision."
+  ],
+  "evidence": [
+    "records/evidence/collection-images/site-tests.txt",
+    "records/evidence/collection-images/edition-tests.txt",
+    "records/evidence/collection-images/initial-edition-tests.txt",
+    "records/evidence/collection-images/page-acceptance.json",
+    "records/evidence/collection-images/responsive-image-report.json",
+    "records/evidence/collection-images/explore-byte-comparison.json"
+  ],
+  "publication": {
+    "status": "not_deployed",
+    "indexing": "not_activated"
+  }
+}

@@ -210,3 +210,12 @@ Use the compact native contents disclosure on place, experience and stay-area de
 A link into a collapsed panel should reveal only the panel and its enclosing disclosures. Handle initial links, repeated links and browser history; decode IDs without treating them as selectors. Keep modified clicks, downloads, external links and new tabs native. On initial arrival, reveal and position the target without taking keyboard focus. Leave unrelated panels closed, and respect reduced-motion styles.
 
 [Guide navigation candidate](../records/guide-navigation-review.json) records source/build tests and the outstanding browser check. This is a UTP implementation lesson, not a shared-package release or a completed accessibility audit.
+
+
+## Deliver collection images for their actual space
+
+Use the shared responsive-image component for Explore cards and onward-story photographs, with sizes matched to the layout’s breakpoints. Keep original paths as fallbacks, natural dimensions, captions, alt text, licences and end credits. Small script SVGs remain vectors. Portable-book assets retain their existing identities and credits; an on-page reuse may offer responsive derivatives without changing the book.
+
+Name generated image assets from their encoded bytes. Adding an unrelated image must not change the address of an existing rendition, and different encoder output must not masquerade under the same address. Export only renditions referenced by the selected publication pages. Compare encoded byte totals explicitly; that comparison does not measure visitor speed, browser-selected requests or perceptual equivalence.
+
+[Collection image-delivery review](../records/collection-images-review.json) records coverage, byte comparisons and the missing onward-image case found by the regression check. Visual and physical-device review remains open.

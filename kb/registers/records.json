@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T13:20:46.634165+00:00",
+  "recorded_at": "2026-10-01T13:59:27.137226+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3572,6 +3572,28 @@
         "records/guide-navigation-review.json",
         "records/guide-navigation-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-121",
+      "title": "Responsive collection and onward-story images",
+      "category": "website_experience",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-121",
+      "next_action": "Founder reviews image-delivery candidate. Browser/network and visual checks remain unverified; publication requires approval.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-121",
+        "UTP-REV-095"
+      ],
+      "evidence": [
+        "records/collection-images-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -5983,6 +6005,23 @@
       "evidence": [
         "records/guide-navigation-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-121",
+      "title": "Continue website backlog after PR 28",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "ok, goahead",
+      "scope": "Prepare the next bounded website improvement for review. Does not publish the new candidate or activate indexing.",
+      "recorded_at": "2026-10-01T13:59:27.137226+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "records/collection-images-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8231,6 +8270,31 @@
       ],
       "evidence": [
         "records/guide-navigation-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-095",
+      "title": "Collection image integrity and delivery checks",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Implementation and verification by the same assistant; no independent review claimed.",
+        "No new browser visual or network-performance verification. Earlier browser security-policy blocker remains unresolved; no alternate browser bypass attempted.",
+        "Byte reductions compare encoded files; visitor selection depends on viewport, pixel density, browser and caching. No page-speed or perceptual-equivalence claim.",
+        "Derivative filenames change once with the byte-based naming scheme. Published HTML uses the matching build-generated addresses; original fallbacks and photo/book identities remain.",
+        "No new photographs, crops, AI images, licences, source claims or public routes. Existing image provenance and editorial limitations remain.",
+        "Normal publication remains noindex; search activation is a separate decision."
+      ],
+      "refs": [
+        "UTP-DEC-121",
+        "UTP-WORK-121"
+      ],
+      "evidence": [
+        "records/collection-images-review.json"
       ]
     }
   ],
