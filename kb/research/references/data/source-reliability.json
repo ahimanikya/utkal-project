@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T20:19:47.401985+00:00",
+  "updated_at": "2026-10-01T20:39:09.741844+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4344,6 +4344,33 @@
       "status": "unavailable",
       "scope": "Web fetch timeout. Search excerpt is a lead only.",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-balliguda2021",
+      "discovery_url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_831468672.pdf",
+      "checked_at": "2026-10-01T20:39:09.741844+00:00",
+      "run_id": "2026-10-01-leaf-craft",
+      "status": "available_text_only",
+      "scope": "Division-specific descriptive account and management prescriptions; no measured current harvest, trade total or statewide calendar. Repeated passages later in the same plan are not corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-cysd2002",
+      "discovery_url": "https://assets.publishing.service.gov.uk/media/57a08d48e5274a31e0001784/cysd-orissa-2714.pdf",
+      "checked_at": "2026-10-01T20:39:09.741844+00:00",
+      "run_id": "2026-10-01-leaf-craft",
+      "status": "available_text_only",
+      "scope": "Published historical maker case: Rajani Majhi, Satajhari, Nayagarh. Publication day unresolved; filename mentions January 2003. Projected earnings are not realised income and are not imported.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_02.pdf",
+      "checked_at": "2026-10-01T20:39:09.741844+00:00",
+      "run_id": "2026-10-01-leaf-craft",
+      "status": "available_text_only",
+      "scope": "Kandhamal value-chain description, not a current enterprise census or evidence that proposed interventions were delivered. Cover date verified in part 01 of the same report.",
+      "retry_after": null
     }
   ]
 }

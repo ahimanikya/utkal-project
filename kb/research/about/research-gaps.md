@@ -262,3 +262,7 @@ RES-060–062 now cover dated cultivation, culinary uses, comparable series, pro
 ## 1 October 2026 · Rice trends and returns
 
 RES-061 now has consecutive rice observations, five district snapshots and an abstract-level experimental economics case. Full cost definitions, farmer representativeness and procurement payment reconciliation remain open. Official cost-survey fetch failed twice; retry 2026-10-08.
+
+## Leaf craft checkpoint · 1 October 2026
+
+Local sal/siali windows and a named historical maker are documented in RES-056. Nayagarh broad availability and Balliguda peak-quality/prescribed windows cannot be combined into one statewide season. Present operations, collector returns, food-contact performance and environmental comparisons remain open. Next preparation research reuses existing tamarind/chara leads; mahua cooking endpoints and local review remain unresolved.

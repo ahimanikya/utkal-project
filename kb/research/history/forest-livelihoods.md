@@ -26,3 +26,7 @@ Research precolonial exchange only where dated documentary or archaeological evi
 ## Further historical source
 
 The [SCSTRTI food-knowledge study](../sources/forest-scstrti-foodknowledge.md) offers community-specific descriptions. Its selected sections now inform the honey and siali profiles. Repository filename dates require confirmation; historical accounts are not current interviews or universal practices.
+
+## Leaf craft and agricultural seasons
+
+The [siali profile](../economy/siali-products.md) now links a published 2002 Nayagarh maker case to a 2017 Kandhamal value-chain description. They show why household craft, farming and trade should be researched together. These are separate historical contexts, not a time series or a current livelihood census.

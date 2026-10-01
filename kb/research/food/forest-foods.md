@@ -36,3 +36,5 @@ Document fruits and kernels, flowers, honey, edible leaves and shoots, tubers an
 [Siali products](../economy/siali-products.md) connects plant identity with distinct leaf, fibre and seed uses. The mahua profile now includes attributed food-development research, while the honey profile contains a source-specific historical seasonal account.
 
 [Mahua’s local seasonal and cake account](mahua-mohula.md) now distinguishes a documented food preparation from later university product-development work. Historical collection includes both private and forest land.
+
+[Sal](../economy/sal-products.md) and [siali](../economy/siali-products.md) extend the food story to the materials used for wrapping and serving it. Named historical testimony and a local working plan document different practices and seasons; neither establishes present availability.

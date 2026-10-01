@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:58:15.218126+00:00",
+  "updated_at": "2026-10-01T20:39:09.741844+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -273,6 +273,30 @@
       "reason": "Web fetch timed out and direct download timed out at45 seconds. Indexed honey purchase figures are a lead only, not admitted observations.",
       "retrieved_on": "2026-10-01",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-balliguda2021",
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_831468672.pdf",
+      "status": "available_text_only",
+      "scope": "Division-specific descriptive account and management prescriptions; no measured current harvest, trade total or statewide calendar. Repeated passages later in the same plan are not corroboration.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-cysd2002",
+      "url": "https://assets.publishing.service.gov.uk/media/57a08d48e5274a31e0001784/cysd-orissa-2714.pdf",
+      "status": "available_text_only",
+      "scope": "Published historical maker case: Rajani Majhi, Satajhari, Nayagarh. Publication day unresolved; filename mentions January 2003. Projected earnings are not realised income and are not imported.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-jica2017",
+      "url": "https://openjicareport.jica.go.jp/pdf/12284139_02.pdf",
+      "status": "available_text_only",
+      "scope": "Kandhamal value-chain description, not a current enterprise census or evidence that proposed interventions were delivered. Cover date verified in part 01 of the same report.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
     }
   ],
   "human_review_claimed": false,
@@ -378,10 +402,12 @@
       "name": "Sal leaves",
       "part_or_material": "leaf",
       "use_class": "non_food",
-      "concept_path": null,
+      "concept_path": "economy/sal-products.md",
       "source_ids": [
         "forest-vasundhara-livelihoods",
-        "forest-kendujhar2018"
+        "forest-kendujhar2018",
+        "forest-balliguda2021",
+        "forest-cysd2002"
       ],
       "evidence_status": "organisation_and_study_product_listing",
       "current_procurement_verified": false,
@@ -390,7 +416,11 @@
       "current_price": null,
       "annual_sales_value": null,
       "export_quantity": null,
-      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "botanical_name": "Shorea robusta",
+      "seasonal_account_ids": [
+        "balliguda-sal-leaf2021"
+      ]
     },
     {
       "id": "siali-leaf",
@@ -400,7 +430,10 @@
       "concept_path": "economy/siali-products.md",
       "source_ids": [
         "forest-vasundhara-livelihoods",
-        "forest-siali-iisc"
+        "forest-siali-iisc",
+        "forest-balliguda2021",
+        "forest-cysd2002",
+        "forest-jica2017"
       ],
       "evidence_status": "institutional_flora_identity_and_organisation_trade_listing",
       "current_procurement_verified": false,
@@ -411,16 +444,21 @@
       "export_quantity": null,
       "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
       "botanical_name": "Phanera vahlii",
-      "source_taxonomic_alias": "Bauhinia vahlii"
+      "source_taxonomic_alias": "Bauhinia vahlii",
+      "seasonal_account_ids": [
+        "balliguda-siali-peak2021",
+        "satajhari-leaf-craft2002"
+      ]
     },
     {
       "id": "sal-seed",
       "name": "Sal seeds",
       "part_or_material": "seed",
       "use_class": "oilseed_research",
-      "concept_path": null,
+      "concept_path": "economy/sal-products.md",
       "source_ids": [
-        "forest-vasundhara-livelihoods"
+        "forest-vasundhara-livelihoods",
+        "forest-balliguda2021"
       ],
       "evidence_status": "organisation_product_listing",
       "current_procurement_verified": false,
@@ -429,7 +467,8 @@
       "current_price": null,
       "annual_sales_value": null,
       "export_quantity": null,
-      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "botanical_name": "Shorea robusta"
     },
     {
       "id": "tamarind",
@@ -611,6 +650,11 @@
       "run_id": "2026-10-01-mahua-preparation",
       "at": "2026-10-01T19:58:15.218126+00:00",
       "scope": "Mahua cake preparation, historical local season, qualitative market context and OUAT batch-capacity observation. Collector prices and current sales remain unresolved."
+    },
+    {
+      "run_id": "2026-10-01-leaf-craft",
+      "at": "2026-10-01T20:39:09.741844+00:00",
+      "scope": "Three primary publications; local leaf seasons and material-process accounts. No statewide market values or source aliases counted as corroboration."
     }
   ],
   "seasonal_accounts": [
@@ -651,6 +695,73 @@
       ],
       "harvest_origin": "Private and forest lands reported",
       "evidence_status": "historical_local_field_account",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balliguda-siali-peak2021",
+      "product_id": "siali-leaf",
+      "source_id": "forest-balliguda2021",
+      "locator": "Printed p.199 / PDF p.261",
+      "community": null,
+      "geography": "Balliguda Forest Division",
+      "period": "Working plan 2021–22 to 2030–31; account observation year unspecified",
+      "month_windows": [
+        [
+          10,
+          12
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "season_type": "described_peak_quality_and_availability",
+      "evidence_status": "division_working_plan_description",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balliguda-sal-leaf2021",
+      "product_id": "sal-leaf",
+      "source_id": "forest-balliguda2021",
+      "locator": "Printed p.200 / PDF p.262",
+      "community": null,
+      "geography": "Balliguda Forest Division",
+      "period": "Working plan 2021–22 to 2030–31",
+      "month_windows": [
+        [
+          9,
+          12
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "season_type": "recommended_collection_window",
+      "evidence_status": "management_prescription_not_observed_harvest",
+      "current_availability_verified": false
+    },
+    {
+      "id": "satajhari-leaf-craft2002",
+      "product_id": "siali-leaf",
+      "source_id": "forest-cysd2002",
+      "locator": "Printed p.26 / PDF p.27",
+      "community": "Rajani Majhi maker case; no ethnic identity inferred from surname",
+      "geography": "Satajhari, Nayagarh",
+      "period": "Fieldwork February–April 2002",
+      "month_windows": [
+        [
+          5,
+          12
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "season_type": "reported_abundant_supply",
+      "evidence_status": "historical_local_maker_account",
+      "species_scope_note": "Season paragraph follows siali account; household also handles sal. Do not interpret as an exclusive species-level phenology record.",
       "current_availability_verified": false
     }
   ],
@@ -709,6 +820,58 @@
       "tested_recipe": false,
       "local_review": "pending",
       "commercial_sales_verified": false
+    }
+  ],
+  "material_process_accounts": [
+    {
+      "id": "balliguda-siali-plate2021",
+      "product_id": "siali-leaf",
+      "source_id": "forest-balliguda2021",
+      "locator": "Printed p.199 / PDF p.261",
+      "drying_days_range": [
+        2,
+        3
+      ],
+      "leaves_per_plate_range": [
+        5,
+        6
+      ],
+      "plates_per_bundle": 80,
+      "joining_material": "thin bamboo slivers",
+      "scope": "Described division practice; not a measured enterprise production rate",
+      "kitchen_tested": false
+    },
+    {
+      "id": "satajhari-leaf-stitching2002",
+      "product_ids": [
+        "siali-leaf",
+        "sal-leaf"
+      ],
+      "source_id": "forest-cysd2002",
+      "locator": "Printed p.26 / PDF p.27",
+      "attributed_person": "Rajani Majhi",
+      "geography": "Satajhari, Nayagarh",
+      "period": "Fieldwork February–April 2002",
+      "siali_method": "sewing machine",
+      "sal_method": "hand stitching with bamboo sticks",
+      "new_interview": false
+    },
+    {
+      "id": "kandhamal-siali-chain2017",
+      "product_id": "siali-leaf",
+      "source_id": "forest-jica2017",
+      "locator": "Attachment 6.9.3-13–14 / part 02 PDF pp.216–217",
+      "geography": "Kandhamal value-chain context",
+      "period": "Report February 2017; precise case observation date unconfirmed",
+      "stages": [
+        "collection",
+        "stitching",
+        "drying",
+        "bundling",
+        "trading",
+        "trimming or pressing"
+      ],
+      "current_operation_verified": false
     }
   ]
 }

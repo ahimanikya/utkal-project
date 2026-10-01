@@ -231,3 +231,7 @@ RES-060–062 reuse Kalajeera, agriculture observations and rice seed deployment
 ## 1 October 2026 · Rice trends and returns
 
 Rice trend extension reuses the existing source and register. Historical-table precision variants are linked, not treated as independent evidence. RES-061 now has saved trend and experimental-economics pointers.
+
+## Leaf craft extension · 1 October 2026
+
+Existing siali and forest-product identities were reused. Sal now has one profile for two existing material entries. Three primary publications supply distinct local accounts; the JICA cover and appendix remain one source. No new research task or duplicate maker biography was created.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T20:19:47.401985+00:00",
+  "updated_at": "2026-10-01T20:39:09.741844+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2358,15 +2358,15 @@
       "done_when": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
       "target": "economy/forest-products.md",
       "status": "in_progress",
-      "attempts": 4,
+      "attempts": 5,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": "2026-10-01T19:58:15.218126+00:00",
-      "next_step": "Complete sal/siali local seasonal and attributed preparation/material-use gaps. Mahua recipe still needs cooking endpoints and local review; current market data belongs to RES-057. Do not repeat the recovered2009 field account.",
+      "last_worked_at": "2026-10-01T20:39:09.741844+00:00",
+      "next_step": "Sal/siali local seasons and material accounts saved. Next verify existing tamarind and chara product leads for forest/cultivated origin and attributed preparation, reusing Koli records. Mahua cooking endpoints and local review remain unresolved; current market evidence stays in RES-057.",
       "evidence_outputs": [
         "food/forest-foods.md",
         "economy/forest-products.md",
@@ -2379,7 +2379,11 @@
         "sources/forest-mahua-food2016.md",
         "sources/forest-scstrti-foodknowledge.md",
         "sources/forest-mahua-santhal2016.md",
-        "sources/forest-ouat2021.md"
+        "sources/forest-ouat2021.md",
+        "sources/forest-balliguda2021.md",
+        "sources/forest-cysd2002.md",
+        "sources/forest-jica2017.md",
+        "economy/sal-products.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2407,6 +2411,12 @@
           "at": "2026-10-01T19:58:15.218126+00:00",
           "outcome": "attributed_cake_and_local_season_recovered",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-leaf-craft",
+          "at": "2026-10-01T20:39:09.741844+00:00",
+          "outcome": "leaf_craft_seasons_and_named_historical_maker",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -2427,7 +2437,11 @@
           "sources/forest-mahua-food2016.md",
           "sources/forest-scstrti-foodknowledge.md",
           "sources/forest-mahua-santhal2016.md",
-          "sources/forest-ouat2021.md"
+          "sources/forest-ouat2021.md",
+          "sources/forest-balliguda2021.md",
+          "sources/forest-cysd2002.md",
+          "sources/forest-jica2017.md",
+          "economy/sal-products.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

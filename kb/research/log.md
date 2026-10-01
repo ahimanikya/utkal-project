@@ -268,3 +268,7 @@ Added connected rice and economic reading pages,21 named register entries, five 
 ## 1 October 2026 · Rice trends and returns
 
 Saved rice trend comparisons and chart, selected district context, experimental cost/return evidence and explicit procurement arithmetic checks. Negative years and precision variants retained. RES-061 remains in progress; no website publication or human review claimed.
+
+## 1 October 2026 · Leaf craft, seasons and makers
+
+RES-056 enhanced siali and added a sal profile from three primary publications. Saved three scoped seasonal accounts and three material-process records, retaining historical dates and unknown current markets. Existing plant/product identities reused. No new interview, human review, statewide total or website publication claimed.

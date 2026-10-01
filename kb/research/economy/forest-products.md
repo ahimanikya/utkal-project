@@ -61,3 +61,7 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 [Siali: leaves and fibre](siali-products.md) — separates a climber’s identity and community-attributed fibre uses from sal and mahua. Its named product records inherit no statewide market totals.
 
 [Mahua preparation and processing](../food/mahua-mohula.md) now connects local historical food practice, qualitative market constraints and a university-developed processing unit. A plant design or batch rating does not establish enterprise sales or collector earnings.
+
+## Leaves are a material economy too
+
+[Sal](sal-products.md) and [siali](siali-products.md) now distinguish tree and climber, leaf and seed/fibre, maker processes and local seasonal accounts. Collection, stitching, pressing and selling need separate measures. Current market totals and exports remain open; the historical craft evidence does not fill those gaps.

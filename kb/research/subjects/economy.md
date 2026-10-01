@@ -87,3 +87,5 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
 
 [Rice economics](../economy/rice-economy.md) connects crop production, procurement, milling and the missing evidence for producer returns.
+
+[Sal products](../economy/sal-products.md) — Leaf craft and a distinct seed chain, linked to local seasonal evidence.

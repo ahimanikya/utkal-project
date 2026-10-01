@@ -179,3 +179,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Rice trends and farmer returns
 
 [Research receipt](records/rice-trends-2026-10-01.json): Historical series and experimental economics added; payment reconciliation and full cost definitions remain unresolved. No website release.
+
+## 1 October 2026 · Leaf craft and seasonal livelihoods
+
+[Research receipt](records/leaf-craft-2026-10-01.json): Local leaf seasons and named maker account added; present earnings and exports remain unknown. No website release.

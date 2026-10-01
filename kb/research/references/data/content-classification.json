@@ -4222,6 +4222,18 @@
       "content_type": "Statistical Story",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/sal-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "arts",
+        "food"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6023,6 +6035,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects statewide crop trends with economic definitions; higher yield alone does not establish higher farmer profit."
+    },
+    {
+      "from": "economy/sal-products",
+      "to": "economy/siali-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Distinguishes leaf-plate materials and connects shared processing questions; does not imply identical seasons, makers or economic outcomes."
     }
   ],
   "relationship_types": {
