@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:23:15.175549+00:00",
+  "updated_at": "2026-10-01T19:28:54.352476+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -173,8 +173,333 @@
       "reason": "Direct web full-text fetch returned Internal Error. Abstract remains available; this is not unchanged.",
       "retrieved_on": "2026-10-01",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-iisc",
+      "url": "https://indiaflora-ces.iisc.ac.in/FloraPeninsular/herbsheet.php?cat=7&id=8868",
+      "status": "available",
+      "scope": "Institutional flora identity record. General phenology is not an Odisha district harvest calendar; synonyms retain source taxonomy. No images or bulk content reproduced.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-mahua-tnau",
+      "url": "https://agritech.tnau.ac.in/bio-fuels/Biofuel_Mahua.html",
+      "status": "available",
+      "scope": "Undated extension page, broad Indian scope. Used for seed-oil/soap and cultivation distinctions, not Odisha yields, prices, safety instructions or statewide flowering dates.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-livelihoods",
+      "url": "https://vasundharaodisha.org/Welcome/page/Livelihood",
+      "status": "available",
+      "scope": "Undated organisational self-report, not independent impact evaluation. Used for product and women-producer-group research leads; old forest-area and undated group counts not adopted as current statistics.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://nopr.niscpr.res.in/bitstream/123456789/15545/1/JSIR%2072%281%29%2062-69.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch timed out; indexed lead not admitted as a full paper or statistical source.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
     }
   ],
   "human_review_claimed": false,
-  "website_publication": false
+  "website_publication": false,
+  "name_clarifications": [
+    {
+      "input": "Mohu",
+      "meaning": "Honey",
+      "odia": "ମହୁ",
+      "basis": "User explicitly selected Honey (ମହୁ) in this conversation on2026-10-01",
+      "scope": "Meaning intended by this user; not an independent linguistic review",
+      "separate_from": "mahua-mohula"
+    }
+  ],
+  "products": [
+    {
+      "id": "kendu-patra",
+      "name": "Kendu patra",
+      "part_or_material": "leaf",
+      "use_class": "non_food",
+      "concept_path": "economy/kendu-patra.md",
+      "source_ids": [
+        "forest-ofdc-kendu"
+      ],
+      "evidence_status": "institutional_product_identity",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "mohu-honey",
+      "name": "Mohu / honey",
+      "part_or_material": "bee product",
+      "use_class": "food",
+      "concept_path": "food/mohu-honey.md",
+      "source_ids": [
+        "forest-sector2025",
+        "forest-vasundhara-livelihoods"
+      ],
+      "evidence_status": "processing_and_programme_evidence",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "mahua-flower",
+      "name": "Mahua / mohula flowers",
+      "part_or_material": "flower",
+      "use_class": "food_and_beverage_uses",
+      "concept_path": "food/mahua-mohula.md",
+      "source_ids": [
+        "forest-vasundhara2001",
+        "forest-mahua-iisc"
+      ],
+      "evidence_status": "attributed_use_and_botanical_reference",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "mahua-seed",
+      "name": "Mahua / mohula seed",
+      "part_or_material": "seed",
+      "use_class": "oilseed_uses",
+      "concept_path": "food/mahua-mohula.md",
+      "source_ids": [
+        "forest-mahua-tnau",
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "general_use_and_indexed_procurement_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "sal-leaf",
+      "name": "Sal leaves",
+      "part_or_material": "leaf",
+      "use_class": "non_food",
+      "concept_path": null,
+      "source_ids": [
+        "forest-vasundhara-livelihoods",
+        "forest-kendujhar2018"
+      ],
+      "evidence_status": "organisation_and_study_product_listing",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "siali-leaf",
+      "name": "Siali leaves",
+      "part_or_material": "leaf",
+      "use_class": "non_food",
+      "concept_path": null,
+      "source_ids": [
+        "forest-vasundhara-livelihoods"
+      ],
+      "evidence_status": "organisation_product_listing",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "sal-seed",
+      "name": "Sal seeds",
+      "part_or_material": "seed",
+      "use_class": "oilseed_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-vasundhara-livelihoods"
+      ],
+      "evidence_status": "organisation_product_listing",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "tamarind",
+      "name": "Tamarind, seeded and de-seeded",
+      "part_or_material": "fruit",
+      "use_class": "food",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "chara-kernel",
+      "name": "Chara / char seed and kernel",
+      "part_or_material": "seed_or_kernel_to_disambiguate",
+      "use_class": "food_research",
+      "concept_path": "food/koli-fruits.md",
+      "source_ids": [
+        "food-koli-balasore2020",
+        "forest-vasundhara-livelihoods"
+      ],
+      "evidence_status": "reuse_botanical_record_verify_trade_form",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "harida",
+      "name": "Harida",
+      "part_or_material": "fruit",
+      "use_class": "botanical_ingredient_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "bahada",
+      "name": "Bahada",
+      "part_or_material": "fruit",
+      "use_class": "botanical_ingredient_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "karanja-seed",
+      "name": "Karanja seed",
+      "part_or_material": "seed",
+      "use_class": "oilseed_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "kusum-seed",
+      "name": "Kusum seed",
+      "part_or_material": "seed",
+      "use_class": "oilseed_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "lac",
+      "name": "Lac",
+      "part_or_material": "resinous_insect_product",
+      "use_class": "non_food_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "hill-broom",
+      "name": "Hill broom",
+      "part_or_material": "plant_material_species_unverified",
+      "use_class": "non_food",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    }
+  ],
+  "update_history": [
+    {
+      "run_id": "2026-10-01-forest-product-profiles",
+      "at": "2026-10-01T19:28:54.352476+00:00",
+      "scope": "Three named profiles and15 product-level entries/leads. User clarified Mohu as honey. No new market totals."
+    }
+  ]
 }

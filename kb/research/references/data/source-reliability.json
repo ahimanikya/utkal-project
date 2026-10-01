@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T19:23:15.175549+00:00",
+  "updated_at": "2026-10-01T19:28:54.352476+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4119,6 +4119,41 @@
       "run_id": "2026-10-01-forest-products",
       "status": "unavailable",
       "scope": "Direct page unavailable (502/Internal Error). Indexed product list is a discovery lead; malformed/duplicate entries and current procurement count not verified.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-iisc",
+      "discovery_url": "https://indiaflora-ces.iisc.ac.in/FloraPeninsular/herbsheet.php?cat=7&id=8868",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "available",
+      "scope": "Institutional flora identity record. General phenology is not an Odisha district harvest calendar; synonyms retain source taxonomy. No images or bulk content reproduced.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-mahua-tnau",
+      "discovery_url": "https://agritech.tnau.ac.in/bio-fuels/Biofuel_Mahua.html",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "available",
+      "scope": "Undated extension page, broad Indian scope. Used for seed-oil/soap and cultivation distinctions, not Odisha yields, prices, safety instructions or statewide flowering dates.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-livelihoods",
+      "discovery_url": "https://vasundharaodisha.org/Welcome/page/Livelihood",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "available",
+      "scope": "Undated organisational self-report, not independent impact evaluation. Used for product and women-producer-group research leads; old forest-area and undated group counts not adopted as current statistics.",
+      "retry_after": null
+    },
+    {
+      "discovery_url": "https://nopr.niscpr.res.in/bitstream/123456789/15545/1/JSIR%2072%281%29%2062-69.pdf",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "unavailable",
+      "scope": "Web fetch timed out; indexed lead not admitted as a full paper or statistical source.",
       "retry_after": "2026-10-08"
     }
   ]

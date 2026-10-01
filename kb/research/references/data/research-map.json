@@ -15332,6 +15332,113 @@
         "forest-ofdc-kendu"
       ],
       "added_at": "2026-10-01T19:23:15.175549+00:00"
+    },
+    {
+      "id": "sources/forest-mahua-iisc",
+      "title": "Madhuca longifolia var. latifolia: Herbarium JCB",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-mahua-iisc.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-mahua-iisc"
+      ],
+      "added_at": "2026-10-01T19:28:54.352476+00:00"
+    },
+    {
+      "id": "sources/forest-mahua-tnau",
+      "title": "TNAU Agritech: Mahua",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-mahua-tnau.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-mahua-tnau"
+      ],
+      "added_at": "2026-10-01T19:28:54.352476+00:00"
+    },
+    {
+      "id": "sources/forest-vasundhara-livelihoods",
+      "title": "Vasundhara: Livelihoods",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-vasundhara-livelihoods.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-vasundhara-livelihoods"
+      ],
+      "added_at": "2026-10-01T19:28:54.352476+00:00"
+    },
+    {
+      "id": "economy/kendu-patra",
+      "title": "Kendu patra: a leaf, skilled work and trade",
+      "kind": "Product Profile",
+      "layer": "research_concept",
+      "source_path": "economy/kendu-patra.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "everyday",
+        "nature"
+      ],
+      "source_ids": [
+        "forest-ofdc-kendu",
+        "forest-sector2025"
+      ],
+      "added_at": "2026-10-01T19:28:54.352476+00:00"
+    },
+    {
+      "id": "food/mahua-mohula",
+      "title": "Mahua and mohula: flowers, seeds and changing uses",
+      "kind": "Product Profile",
+      "layer": "research_concept",
+      "source_path": "food/mahua-mohula.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "nature",
+        "economy",
+        "history"
+      ],
+      "source_ids": [
+        "forest-mahua-iisc",
+        "forest-mahua-tnau",
+        "forest-vasundhara2001"
+      ],
+      "added_at": "2026-10-01T19:28:54.352476+00:00"
+    },
+    {
+      "id": "food/mohu-honey",
+      "title": "Mohu: honey, collectors and processing",
+      "kind": "Product Profile",
+      "layer": "research_concept",
+      "source_path": "food/mohu-honey.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy",
+        "nature"
+      ],
+      "source_ids": [
+        "forest-sector2025",
+        "forest-vasundhara-livelihoods"
+      ],
+      "added_at": "2026-10-01T19:28:54.352476+00:00"
     }
   ],
   "shared_publications": [
@@ -16427,7 +16534,10 @@
         "food/chatu-patrapoda.md",
         "food/ou-khatta.md",
         "statistics/forests.md",
-        "references/data/forest-products.json"
+        "references/data/forest-products.json",
+        "economy/kendu-patra.md",
+        "food/mohu-honey.md",
+        "food/mahua-mohula.md"
       ],
       "project_records": [],
       "remaining_scope": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
@@ -16446,7 +16556,10 @@
         "food/chatu-patrapoda.md",
         "food/ou-khatta.md",
         "statistics/forests.md",
-        "references/data/forest-products.json"
+        "references/data/forest-products.json",
+        "economy/kendu-patra.md",
+        "food/mohu-honey.md",
+        "food/mahua-mohula.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
@@ -16465,7 +16578,10 @@
         "food/chatu-patrapoda.md",
         "food/ou-khatta.md",
         "statistics/forests.md",
-        "references/data/forest-products.json"
+        "references/data/forest-products.json",
+        "economy/kendu-patra.md",
+        "food/mohu-honey.md",
+        "food/mahua-mohula.md"
       ],
       "project_records": [],
       "remaining_scope": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
@@ -16488,8 +16604,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1067,
-    "updated_at": "2026-10-01T19:23:15.175549+00:00",
+    "records_mapped": 1073,
+    "updated_at": "2026-10-01T19:28:54.352476+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -16860,6 +16976,11 @@
       "run_id": "2026-10-01-forest-products",
       "at": "2026-10-01T19:23:15.175549+00:00",
       "scope": "Forest foods, markets and history; reuse food identities, add13 scoped observations with4 held conflicting records and3 bounded follow-ups."
+    },
+    {
+      "run_id": "2026-10-01-forest-product-profiles",
+      "at": "2026-10-01T19:28:54.352476+00:00",
+      "scope": "Three product profiles and three source identities; existing task IDs and market observations retained; Mohu disambiguated by user."
     }
   ]
 }

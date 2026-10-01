@@ -40,3 +40,5 @@ Foods, ingredients and culinary story opportunities.
 [Koli: local fruit names and varieties](koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
 
 [Bela pana](bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
+
+[Mohu/honey](mohu-honey.md) · [Mahua/mohula](mahua-mohula.md) — named forest-product profiles, with supply origin and local season still requiring verification.

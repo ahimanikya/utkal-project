@@ -244,3 +244,7 @@ Added a twelve-angle mining hub, five bounded tasks, three source records and ni
 ## 1 October2026 · Forest food, markets and history
 
 Added four connected topic pages, five source records, thirteen atlas observations (four held conflicting records) and three bounded follow-ups. Reused Koli and recipe records. Visually checked kendu table headers; retained sales decline, inventory scope, capacity/output distinction and unknown current prices. No complete market census, community interviews or website publication.
+
+## 1 October 2026 · Kendu patra, Mohu and mahua
+
+Saved three product profiles and three institutional sources. Recorded the user’s explicit clarification that Mohu means honey; separated mahua flowers, seeds and derived uses. Extended the product register to fifteen entries/leads with evidence states. No additional market totals, interviews, completed deep studies or website publication claimed.

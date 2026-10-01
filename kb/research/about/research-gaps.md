@@ -238,3 +238,7 @@ RES-051–055 cover dated resources/production, district identities, local proce
 ## Forest foods and consumables · 1 October2026
 
 RES-056–058: ingredient identities/seasons/attributed uses, product markets/collector returns, and history/rights/ecology. Current procurement and exports remain unknown. Reconcile OFDC2019–20 figures and the2001 study geography; retry TDCCOL and2018 full text on2026-10-08. [First checkpoint](../economy/forest-products.md).
+
+### Named forest products · 1 October 2026
+
+Mohu means honey per user clarification. Three profiles and fifteen product entries/leads are saved. Local seasons, community-attributed preparations, collector prices, current procurement and exports remain open; no new task duplicates added. NIScPR mahua paper timed out; retry2026-10-08.

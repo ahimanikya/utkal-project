@@ -155,3 +155,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Forest food, markets and livelihood history
 
 [Research receipt](records/forest-products-2026-10-01.json): forest foods, kendu sales and honey capacity; three deeper studies remain open. No website release.
+
+## 1 October 2026 · Named forest products and honey clarification
+
+[Research receipt](records/forest-product-profiles-2026-10-01.json): three named product profiles and user-confirmed honey meaning; existing research tasks remain open. No website release.

@@ -4120,6 +4120,40 @@
       "content_type": "Statistical Topic",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/kendu-patra",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "everyday",
+        "nature"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/mahua-mohula",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "economy",
+        "history"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/mohu-honey",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "economy",
+        "nature"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5851,6 +5885,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects research on land and livelihoods; no causal effect of a named mine is asserted."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "economy/kendu-patra",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the leaf commodity to the saved market series; leaf sales do not describe edible fruit."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "food/mohu-honey",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects honey processing and collector questions while preserving forest-collected versus managed-hive origin."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "food/mahua-mohula",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects separate flower and seed uses with botanical identity and attributed cultural research."
     }
   ],
   "relationship_types": {

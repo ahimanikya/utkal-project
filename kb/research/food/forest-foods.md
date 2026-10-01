@@ -28,3 +28,7 @@ Document fruits and kernels, flowers, honey, edible leaves and shoots, tubers an
 [Preparation and variation](preparation-and-variation.md) remains the recipe home. Add reliable, attributed versions there when available; do not publish identification-dependent wild-food instructions from a common name alone. Monetary sales cannot capture every food's household or cultural value.
 
 [Markets and non-food products](../economy/forest-products.md) · [Historical evidence](../history/forest-livelihoods.md).
+
+## Named profiles
+
+[Mohu/honey](mohu-honey.md) and [mahua/mohula](mahua-mohula.md) are separate entries. The user confirmed Mohu means honey; mahua flowers and seeds remain distinct product forms. [Kendu patra](../economy/kendu-patra.md) belongs to the related non-food economy.

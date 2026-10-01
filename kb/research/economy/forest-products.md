@@ -42,3 +42,18 @@ Product-level TDCCOL/Van Dhan procurement and realised sales; collector payments
 [Related reading](../statistics/forests.md) — Provides land-cover context; forest area does not estimate product yields or household income.
 
 [Related reading](../economy/mining.md) — Connects research on land and livelihoods; no causal effect of a named mine is asserted.
+
+## Named products · 1 October 2026
+
+Start with [kendu patra](kendu-patra.md), [Mohu/honey](../food/mohu-honey.md) and [mahua/mohula](../food/mahua-mohula.md). The structured register now separates flowers, seeds and leaf products rather than treating one tree as one market commodity.
+
+Vasundhara's own livelihood account names sal leaves, siali leaves, sal seeds, char seeds, mahua and honey among products sold through the collectives it supports. It describes women-member producer groups and business unions. The page is undated; we use it to identify products and research routes, not a current count of enterprises or an independent income-impact claim. [Organisation account](https://vasundharaodisha.org/Welcome/page/Livelihood).
+
+Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are additional leads from the previously saved, indexed TDCCOL list. Each needs direct product-level verification; inclusion is not evidence of current buying, a market size or exports. Bamboo, cane, gums and other materials remain in the broader research groups.
+
+
+[Related reading](../economy/kendu-patra.md) — Connects the leaf commodity to the saved market series; leaf sales do not describe edible fruit.
+
+[Related reading](../food/mohu-honey.md) — Connects honey processing and collector questions while preserving forest-collected versus managed-hive origin.
+
+[Related reading](../food/mahua-mohula.md) — Connects separate flower and seed uses with botanical identity and attributed cultural research.

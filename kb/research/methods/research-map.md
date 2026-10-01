@@ -207,3 +207,7 @@ RES-043 distinguishes RPRC’s attributed Asia-largest cactus collection from an
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
 
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+### Forest-product identities · 1 October 2026
+
+Added kendu-patra, Mohu/honey and mahua/mohula profiles and three sources. The user clarified Mohu as honey. Reused existing sales and plant-processing observations; RES-056–058 now point to these records. Fifteen product entries include unverified leads and are not a statewide inventory.
