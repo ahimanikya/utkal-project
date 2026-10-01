@@ -50,3 +50,5 @@ Add reviewed Odia spellings, locality, fruit photographs with rights, taste desc
 **The small fruits that mark the seasons.** A proposed series could follow a verified fruit from its local name and harvest to a household preparation and village market. Photographs, interviews and recipes have not yet been produced.
 
 [Everyday food culture](everyday-food-culture.md) — Connects fruit names and seasonal food knowledge with the existing everyday-food collection; local names do not establish identical botanical species.
+
+[Ekamra Kanan](../places/ekamra-kanan.md) — RPRC’s botanical collections, cactus-claim scope and connections to wild fruits.

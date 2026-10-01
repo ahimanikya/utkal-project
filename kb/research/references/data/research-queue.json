@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T18:46:24.935756+00:00",
+  "updated_at": "2026-10-01T18:51:46.210268+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1862,6 +1862,52 @@
         ],
         "project_records": [
           "kb/research/destinations/central-details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-043",
+      "order": 16.9,
+      "title": "Ekamra Kanan botanical collections and largest-claim scope",
+      "done_when": "Save a primary-source place entry and distinguish park-area claims from cactus collections; preserve collection units, missing inventory dates and any competing claim definitions.",
+      "target": "places/ekamra-kanan.md",
+      "status": "completed",
+      "completion_scope": "Bounded institutional profile and claim check; no independent Asia ranking, current accession audit or visitor guide.",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:51:46.210268+00:00",
+      "completed_at": "2026-10-01T18:51:46.210268+00:00",
+      "next_step": "Reconcile collection vintages, campus boundaries and visitor hours; document plant-to-ritual and research connections.",
+      "evidence_outputs": [
+        "sources/nature-rprc-cacti.md",
+        "sources/nature-rprc-garden.md",
+        "sources/nature-rprc-history.md",
+        "sources/nature-panchkula-cactus.md",
+        "places/ekamra-kanan.md",
+        "references/data/ekamra-kanan.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-ekamra-kanan",
+          "at": "2026-10-01T18:51:46.210268+00:00",
+          "outcome": "bounded_botanical_profile_and_claim_check_completed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/koli-fruits.md",
+          "sources/food-koli-rprc.md",
+          "places/nandankanan.md",
+          "places/ekamra-kanan.md",
+          "references/data/ekamra-kanan.json"
+        ],
+        "project_records": [
+          "kb/research/food/koli-fruits.md"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"

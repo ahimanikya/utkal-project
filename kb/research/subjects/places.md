@@ -46,3 +46,5 @@ Subject membership is editorial classification. It does not establish historical
 [Puri journey outline](../visitor-index/puri-journey-outline.md) links existing places through attributed route evidence, with current access and timing still unverified.
 
 [Nandankanan](../places/nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.
+
+[Ekamra Kanan](../places/ekamra-kanan.md) — RPRC’s botanical collections, cactus-claim scope and connections to wild fruits.

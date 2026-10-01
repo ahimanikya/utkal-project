@@ -14685,6 +14685,90 @@
         "nature-nandankanan-tiger"
       ],
       "added_at": "2026-10-01T18:46:24.935756+00:00"
+    },
+    {
+      "id": "sources/nature-rprc-cacti",
+      "title": "Cacti",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-rprc-cacti.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-rprc-cacti"
+      ],
+      "added_at": "2026-10-01T18:51:46.210268+00:00"
+    },
+    {
+      "id": "sources/nature-rprc-garden",
+      "title": "Botanical Garden",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-rprc-garden.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-rprc-garden"
+      ],
+      "added_at": "2026-10-01T18:51:46.210268+00:00"
+    },
+    {
+      "id": "sources/nature-rprc-history",
+      "title": "History",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-rprc-history.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-rprc-history"
+      ],
+      "added_at": "2026-10-01T18:51:46.210268+00:00"
+    },
+    {
+      "id": "sources/nature-panchkula-cactus",
+      "title": "Cactus Garden, Panchkula",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/nature-panchkula-cactus.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "nature-panchkula-cactus"
+      ],
+      "added_at": "2026-10-01T18:51:46.210268+00:00"
+    },
+    {
+      "id": "places/ekamra-kanan",
+      "title": "Ekamra Kanan: botanical collections and plant research",
+      "kind": "Place",
+      "layer": "research_concept",
+      "source_path": "places/ekamra-kanan.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "nature",
+        "places",
+        "food",
+        "everyday"
+      ],
+      "source_ids": [
+        "nature-rprc-cacti",
+        "nature-rprc-garden",
+        "nature-rprc-history",
+        "nature-panchkula-cactus",
+        "food-koli-rprc"
+      ],
+      "added_at": "2026-10-01T18:51:46.210268+00:00"
     }
   ],
   "shared_publications": [
@@ -15567,6 +15651,23 @@
       "remaining_scope": "Save a source-linked place entry, at least three comparable annual visitor/revenue observations and dated conservation or inventory evidence; separate partial periods, captive/wild outcomes and unverified superlatives.",
       "status_unchanged": "completed",
       "instruction": "Reuse nature and Satkosia context; no pre-existing standalone identity found in the scoped saved-source and tracked-project searches."
+    },
+    {
+      "task_id": "RES-043",
+      "title": "Ekamra Kanan botanical collections and largest-claim scope",
+      "source_records": [
+        "food/koli-fruits.md",
+        "sources/food-koli-rprc.md",
+        "places/nandankanan.md",
+        "places/ekamra-kanan.md",
+        "references/data/ekamra-kanan.json"
+      ],
+      "project_records": [
+        "kb/research/food/koli-fruits.md"
+      ],
+      "remaining_scope": "Save a primary-source place entry and distinguish park-area claims from cactus collections; preserve collection units, missing inventory dates and any competing claim definitions.",
+      "status_unchanged": "completed",
+      "instruction": "Reuse RPRC wild-fruit evidence. No pre-existing place identity found in scoped source/project searches; garden collection claims are not park-area rankings."
     }
   ],
   "rules": [
@@ -15584,8 +15685,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1029,
-    "updated_at": "2026-10-01T18:46:24.935756+00:00",
+    "records_mapped": 1034,
+    "updated_at": "2026-10-01T18:51:46.210268+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -15936,6 +16037,11 @@
       "run_id": "2026-10-01-nandankanan",
       "at": "2026-10-01T18:46:24.935756+00:00",
       "scope": "One Nandankanan place and four institutional sources; existing nature/Satkosia links reused."
+    },
+    {
+      "run_id": "2026-10-01-ekamra-kanan",
+      "at": "2026-10-01T18:51:46.210268+00:00",
+      "scope": "One Ekamra Kanan place, three RPRC pages and one official comparison; existing RPRC wild-fruit source reused."
     }
   ]
 }

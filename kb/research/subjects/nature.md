@@ -53,3 +53,5 @@ Subject membership is editorial classification. It does not establish historical
 [Koli: local fruit names and varieties](../food/koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
 
 [Nandankanan](../places/nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.
+
+[Ekamra Kanan](../places/ekamra-kanan.md) — RPRC’s botanical collections, cactus-claim scope and connections to wild fruits.

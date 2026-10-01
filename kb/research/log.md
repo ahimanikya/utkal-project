@@ -228,3 +228,7 @@ Added Bela pana to everyday food research with preparation, quantity gaps, a cre
 ## 1 October 2026 · Nandankanan
 
 Added one connected nature/place entry, four institutional sources, five-year financial-year series and separate dated inventory/conservation evidence. Visits nearly flat in 2024–25 while nominal receipts rose; partial 2025 data, losses and unresolved ranking/revision claims retained. Relevant PDF pages visually checked. RES-042 bounded seed completed.
+
+## 1 October 2026 · Ekamra Kanan
+
+Added a botanical place profile, four source records and scoped collection data. Preserved cactus-collection attribution and the different Panchkula garden definition; withheld park-area ranking, undated annual attendance and contradictory opening times. Connected existing koli and Nandankanan research. RES-043 bounded seed completed.

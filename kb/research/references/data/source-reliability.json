@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:46:24.935756+00:00",
+  "updated_at": "2026-10-01T18:51:46.210268+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3913,6 +3913,42 @@
       "status": "unavailable",
       "scope": "Browser PDF fetch exceeded size limit (41,246,804 bytes). Not used in the saved series.",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "nature-rprc-cacti",
+      "discovery_url": "https://rprcbbsr.in/researchanddevelopment/conservation/cacti",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Undated collection: species/varieties is a mixed unit, not a species-only census. Asia-largest is RPRC’s claim; no comparative inventory supplied.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-rprc-garden",
+      "discovery_url": "https://www.rprcbbsr.in/facilities/botanicalgarden",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Undated collection counts; footer reviewed 23 September 2026 does not date the inventory. Opening-hours passages conflict; no live visitor guidance adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-rprc-history",
+      "discovery_url": "https://www.rprcbbsr.in/about-us/history",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Institutional history dates establishment to 1985 and describes evolution from recreational garden to research centre. Footer date is not an observation date.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-panchkula-cactus",
+      "discovery_url": "https://panchkula.nic.in/tourist-place/cactus-garden/",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Comparison of claim definitions only: outdoor landscaped cacti-and-succulents garden differs from RPRC’s cactus species/varieties collection. Neither page provides a harmonized Asia-wide inventory.",
+      "retry_after": null
     }
   ]
 }

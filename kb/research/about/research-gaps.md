@@ -222,3 +222,7 @@ RES-039 now includes a source-attributed summer drink method, a richer variant a
 ## Nandankanan seed · 1 October 2026
 
 RES-042 saves five financial years of visits and receipts, a separate 25 December 2025 snapshot and conservation events. Four park publications share institutional provenance. Largest/first claims need comparative or independent evidence; exchange-species discrepancy (27 versus 30) is held. Programme survival, inventory reconciliation, pre-pandemic comparison, current access and media rights remain open. No independent welfare review claimed.
+
+## Ekamra Kanan claim check · 1 October 2026
+
+RES-043 distinguishes RPRC’s attributed Asia-largest cactus collection from an unsupported Asia-biggest park claim. Eight undated collection figures retain mixed units; comparative taxonomy and dates, park boundaries and opening-hour contradictions remain open. Existing wild-fruit evidence reused; no independent ranking or current visitor readiness claimed.

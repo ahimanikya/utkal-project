@@ -3965,6 +3965,18 @@
       "content_type": "Place",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/ekamra-kanan",
+      "primary_subject": "nature",
+      "secondary_subjects": [
+        "places",
+        "food",
+        "everyday"
+      ],
+      "content_type": "Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -5603,6 +5615,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects captive inventories with biodiversity measurement while keeping them distinct from wild-population surveys."
+    },
+    {
+      "from": "places/ekamra-kanan",
+      "to": "food/koli-fruits",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects RPRC’s plant-conservation setting to the already sourced local-fruit names; it is not proof of current harvest or serving availability."
+    },
+    {
+      "from": "places/ekamra-kanan",
+      "to": "places/nandankanan",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects two distinct institutions for nature learning around Bhubaneswar; their gardens, inventories and visitor figures remain separate."
     }
   ],
   "relationship_types": {

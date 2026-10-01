@@ -33,3 +33,5 @@ Destinations, landscapes and heritage sites.
 - [Odisha Tourism reference](../sources/odisha-tourism-portal.md) — official portal and saved research uses.
 
 [Nandankanan](nandankanan.md) — dated zoo attendance, revenue, animal inventory and conservation evidence; no unverified largest ranking.
+
+[Ekamra Kanan](ekamra-kanan.md) — RPRC’s botanical collections, cactus-claim scope and connections to wild fruits.

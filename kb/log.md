@@ -139,3 +139,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Nandankanan conservation and public reach
 
 [Research receipt](records/nandankanan-2026-10-01.json): five-year visits and receipts, dated animal inventory and conservation work. Ranking and inventory discrepancies remain held; no website release.
+
+## 1 October 2026 · Ekamra Kanan botanical research
+
+[Research receipt](records/ekamra-kanan-2026-10-01.json): botanical collections and an attributed cactus claim; whole-park ranking unsupported, current inventory dates and opening hours unresolved. No website release.
