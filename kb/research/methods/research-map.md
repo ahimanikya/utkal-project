@@ -133,3 +133,7 @@ Four people, five work/performance records and twelve sources extend the map to 
 ### Enterprise extension · 1 October 2026
 
 RES-036 adds four people, four organizations, one collection and six source records; map now 920 records. Bagchi’s existing page and enterprise statistics reused. Source/project searches preceded browsing; this is a dated identity extension, not exhaustive deduplication.
+
+### Public-service extension · 1 October 2026
+
+RES-037 adds five people, one translated work, a collection and nine source records; map now 936. Source/project name searches preceded research. Biswanath Das is disambiguated from contemporary namesakes; Mahtab/Mahatab one identity. PMO/PIB republication and CAG regional/central pages are not independent source families.

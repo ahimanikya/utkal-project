@@ -442,3 +442,21 @@
 - [FICCI budget statement: Subhrakant Panda as president](business-subhrakant-ficci-2023.md)
 
 - [LTI and Mindtree merger effective date](business-mindtree-merger.md)
+
+- [Girish Chandra Murmu: archived biographical content on CAG regional page](public-murmu-cag-bio.md)
+
+- [Former Comptrollers and Auditors General: Girish Chandra Murmu](public-cag-former.md)
+
+- [Profile of President Droupadi Murmu](public-droupadi-profile.md)
+
+- [P. K. Mishra takes over as Principal Secretary to the Prime Minister](public-pk-mishra-appointment.md)
+
+- [2019 Sasakawa Award laureates](public-pk-mishra-sasakawa.md)
+
+- [Biswanath Das: Odisha government biographical entry](public-biswanath-odisha.md)
+
+- [Biswanath Das: constitutional biography](public-biswanath-clpr.md)
+
+- [Constituent Assembly debate: 20 August 1949](public-cad-1949-08-20.md)
+
+- [Harekrushna Mahtab: 125th birth anniversary and translated essays](public-mahtab-commemoration.md)

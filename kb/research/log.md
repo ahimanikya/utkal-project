@@ -160,3 +160,7 @@ Added Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra with five
 ## 2026-10-01
 
 Added four entrepreneurs/business leaders and four enterprise identities; enhanced existing Subroto Bagchi profile. Connected people and economy through a source-linked collection. Six source records added; existing publisher capture reused. Preserved founder/executive distinctions, Ila Panda credit, historical recognition and null Odisha impact metrics. Research-only review update; no website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added five public servants/lawmakers, a connected governance collection and the credited English Gaon Majlis record. Preserved distinctions between public administration, elected representation, Constitution-making and constitutional office. Nine sources added; two questionable chronology claims quarantined and stale CAG office language resolved. Research-only update; no website publication or human factual review claimed.

@@ -158,3 +158,7 @@ Susmita Bagchi’s state literary award is dated1992by KLF and1993by Penguin; or
 ### Enterprise biography gaps · 1 October 2026
 
 Company founding, current legal identity, present executive role, recognition and Odisha economic impact require separate evidence. FICCI’s 2023 statement is indexed-only after failed retrieval; retry after 8 October. Verify Ila Panda’s institutional record, OYO corporate identity, brand/legal-entity relationships around Rashmi Sahoo, and audited Odisha unit revenue/jobs/investment before adding figures. Further candidates require primary evidence and reuse checks.
+
+### Public-service gaps · 1 October 2026
+
+Compare Biswanath Das’s debate transcript with Parliament facsimile; direct PDF fetches failed. Quarantine state biography’s 1950 Lok Sabha chronology and Mahtab commemoration’s princely-state wording. G.C. Murmu’s stale regional office language is resolved with central 2020–2024 register. Obtain Gaon Majlis English edition identifiers and original legislative/appointment records; retry unavailable sources after 8 October. Shaktikanta Das and Nandini Satpathy remain discovery candidates.

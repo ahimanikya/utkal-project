@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T07:47:25.368283-07:00",
+  "updated_at": "2026-10-01T07:58:53.605572-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1358,6 +1358,52 @@
           "statistics/entrepreneurship-skills.md",
           "statistics/enterprise-finance.md",
           "economy/index.md"
+        ],
+        "project_records": [
+          "kb/research/voices/collection.json",
+          "kb/research/culture/odia-literature-and-literary-lives.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-037",
+      "order": 37,
+      "title": "Public servants and lawmakers with national significance",
+      "done_when": "Add five absent public-service/lawmaker identities, a connected collection and one credited English work; preserve role distinctions, dated national significance, source issues and validated structured links.",
+      "target": "people/public-servants-and-lawmakers.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T07:58:53.605572-07:00",
+      "next_step": "Extend through original debate, parliamentary and appointment records. Resolve quarantined chronology; verify Shaktikanta Das and Nandini Satpathy candidates. RES-029 remains active independently.",
+      "evidence_outputs": [
+        "people/girish-chandra-murmu.md",
+        "people/pramod-kumar-mishra.md",
+        "people/droupadi-murmu.md",
+        "people/biswanath-das.md",
+        "people/harekrushna-mahtab.md",
+        "works/gaon-majlis-english.md",
+        "people/public-servants-and-lawmakers.md",
+        "references/data/public-service.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-public-service",
+          "at": "2026-10-01T07:58:53.605572-07:00",
+          "outcome": "completed_bounded_public_service_seed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "people/people-and-creations.md",
+          "references/data/people-creations.json",
+          "subjects/governance.md",
+          "statistics/public-finance-audit.md"
         ],
         "project_records": [
           "kb/research/voices/collection.json",

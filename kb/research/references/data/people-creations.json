@@ -1623,6 +1623,168 @@
       "work_ids": [],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/girish-chandra-murmu",
+      "name": "Girish Chandra Murmu",
+      "fields": [
+        "civil service",
+        "public audit"
+      ],
+      "odisha_connection": {
+        "description": "Born in Mayurbhanj, Odisha, according to the CAG biography.",
+        "source_ids": [
+          "public-murmu-cag-bio"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "CAG’s central register records national constitutional office during 2020–2024.",
+          "source_ids": [
+            "public-murmu-cag-bio",
+            "public-cag-former"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-murmu-cag-bio",
+        "public-cag-former"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/pramod-kumar-mishra",
+      "name": "Pramod Kumar Mishra (P. K. Mishra)",
+      "fields": [
+        "public administration",
+        "disaster risk reduction"
+      ],
+      "odisha_connection": {
+        "description": "Official appointment biography records G.M. College, Sambalpur University education in 1970; education connection rather than an unverified birthplace claim.",
+        "source_ids": [
+          "public-pk-mishra-appointment"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Dated national appointment and issuer-confirmed 2019 UN Sasakawa recognition.",
+          "source_ids": [
+            "public-pk-mishra-appointment",
+            "public-pk-mishra-sasakawa"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-pk-mishra-appointment",
+        "public-pk-mishra-sasakawa"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/droupadi-murmu",
+      "name": "Droupadi Murmu",
+      "fields": [
+        "legislative service",
+        "constitutional office"
+      ],
+      "odisha_connection": {
+        "description": "President’s official profile records birth in Uparbeda, Mayurbhanj, Odisha and representation of Rairangpur.",
+        "source_ids": [
+          "public-droupadi-profile"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Sworn in as India’s fifteenth President on 25 July 2022; earlier Rairangpur MLA and Jharkhand governor.",
+          "source_ids": [
+            "public-droupadi-profile"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-droupadi-profile"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/biswanath-das",
+      "name": "Biswanath Das — Odisha statesman",
+      "fields": [
+        "constitution making",
+        "legislative service"
+      ],
+      "odisha_connection": {
+        "description": "Ganjam public life and Odisha provincial leadership in state biography; CLPR records Constituent Assembly representation from Orissa.",
+        "source_ids": [
+          "public-biswanath-odisha",
+          "public-biswanath-clpr"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Documented Constituent Assembly intervention on 20 August 1949.",
+          "source_ids": [
+            "public-biswanath-odisha",
+            "public-biswanath-clpr",
+            "public-cad-1949-08-20"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-biswanath-odisha",
+        "public-biswanath-clpr",
+        "public-cad-1949-08-20"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/harekrushna-mahtab",
+      "name": "Harekrushna Mahtab",
+      "fields": [
+        "legislative service",
+        "Union government",
+        "Odia literature"
+      ],
+      "odisha_connection": {
+        "description": "Ministry of Culture biography places his origin in Agarpara, Odisha and documents state public life.",
+        "source_ids": [
+          "public-mahtab-commemoration"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented national office, constitutional contribution or institutional recognition",
+          "basis": "Official commemoration documents Union Commerce and Industry service, a 1962 Lok Sabha election and a 2024 national commemorative event.",
+          "source_ids": [
+            "public-mahtab-commemoration"
+          ]
+        }
+      ],
+      "source_ids": [
+        "public-mahtab-commemoration"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/gaon-majlis-english"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -3696,6 +3858,48 @@
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
       "live_stock": null
+    },
+    {
+      "id": "works/gaon-majlis-english",
+      "title": "Gaon Majlis — English translation",
+      "work_type": "translated_essay_collection",
+      "creator_links": [
+        {
+          "person_id": "people/harekrushna-mahtab",
+          "role": "original author",
+          "source_ids": [
+            "public-mahtab-commemoration"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Tarun Kumar Sahu",
+          "role": "English translator",
+          "source_ids": [
+            "public-mahtab-commemoration"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "English translation documented in institutional release; current stock unverified",
+        "source_ids": [
+          "public-mahtab-commemoration"
+        ]
+      },
+      "edition": {
+        "event_release_date": "2024-11-21",
+        "first_publication_date": null,
+        "isbn": null,
+        "publisher": null,
+        "pages": null
+      },
+      "source_ids": [
+        "public-mahtab-commemoration"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null
     }
   ],
   "recognition_rules": {
@@ -3704,7 +3908,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T07:47:25.368283-07:00",
+  "updated_at": "2026-10-01T07:58:53.605572-07:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -3875,6 +4079,16 @@
       "new_people": 4,
       "new_works": 0,
       "scope": "Four new people, reused Bagchi, four organizations; companies are not creative works."
+    },
+    {
+      "run_id": "2026-10-01-public-service",
+      "task_ids": [
+        "RES-037"
+      ],
+      "status": "completed_public_service_seed",
+      "new_people": 5,
+      "new_works": 1,
+      "scope": "Roles, contributions and Odisha connections; not a partisan ranking or complete biography."
     }
   ],
   "conflicts": [

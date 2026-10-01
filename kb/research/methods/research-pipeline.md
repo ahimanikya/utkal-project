@@ -127,3 +127,7 @@ RES-035 completes the bounded requested extension; RES-029 remains active. Resum
 ### Entrepreneur user extension · 1 October 2026
 
 RES-036 completes the bounded people/enterprise seed. Research audited enterprise milestones and Odisha-specific operations; verify brand/legal-entity relationships and add further founders after reuse checks. RES-029 remains active independently.
+
+### Public-service user extension · 1 October 2026
+
+RES-037 completes the bounded five-person seed. Extend through original debate, parliamentary and appointment records. Resolve quarantined chronology; verify Shaktikanta Das and Nandini Satpathy candidates. RES-029 remains active independently.

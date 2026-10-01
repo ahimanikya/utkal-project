@@ -91,3 +91,5 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Rupaiya — Satyamev Jayate recording](rupaiya-satyamev-jayate.md)
 
 - [Sujata Mohapatra: JIPMER Odissi recital,2025](sujata-jipmer-recital-2025.md)
+
+- [Gaon Majlis — English translation](gaon-majlis-english.md)

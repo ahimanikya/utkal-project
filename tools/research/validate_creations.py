@@ -58,6 +58,22 @@ if business_path.exists():
   if r['organization_id'] in orgs:check(ids<=set(orgs[r['organization_id']]['source_ids']),'Company/role evidence disagreement '+str(pair))
  for r in b.get('additional_credits',[]):
   check(r['organization_id'] in orgs and bool(r['name']) and bool(r['role']) and bool(r['source_ids']) and set(r['source_ids'])<=sources.keys(),'Unresolved additional enterprise credit')
+public_path=D/'public-service.json'
+if public_path.exists():
+ public=load('public-service')
+ selected=set(public['person_ids'])
+ check(len(selected)==len(public['person_ids']) and selected<=people.keys(),'Duplicate or unresolved public-service identity')
+ check(public['human_review_claimed'] is False,'Public-service human review needs named provenance')
+ role_classes={'constitutional_audit_office','appointed_administrative_office','elected_legislator','constitutional_head_of_state','constitution_making','union_executive_office'}
+ for r in public['roles']+public['contributions']+public['source_issues']:
+  cid=r['person_id'];ids=set(r['source_ids'])
+  check(cid in selected,'Unselected public-service person '+cid)
+  check(bool(ids) and ids<=sources.keys(),'Missing public-service evidence '+cid)
+  if cid in people:check(ids<=set(people[cid]['source_ids']),'Public-service evidence absent from person '+cid)
+ for r in public['roles']:
+  check(r['role_class'] in role_classes and bool(r['period']) and bool(r['evidence_status']),'Missing public-office classification or dated scope')
+ for r in public['source_issues']:
+  check(r['status'] in {'quarantined','resolved_scope'} and bool(r['resolution']),'Unexplained public-service source issue')
 check(p['human_review_claimed'] is False and e['human_review_claimed'] is False,'Human review needs explicit named provenance')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','people':len(people),'works':len(works),'garment_forms':len(e['garment_forms']),'market_observation_refs':len(e['market_observation_refs']),'errors':errors,'scope':'Referential integrity, explicit credits and missing-value semantics; not independent source verification or public approval.'},indent=2))
 sys.exit(bool(errors))

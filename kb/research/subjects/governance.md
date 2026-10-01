@@ -42,3 +42,5 @@ Subject membership is editorial classification. It does not establish historical
 
 
 [Explore Odisha progress](../collections/progress.md) for connected reading across places, people and dated evidence.
+
+[Public servants and lawmakers](../people/public-servants-and-lawmakers.md) — five selected lives connect Odisha with Constitution-making, Parliament, national administration and constitutional office. Roles, periods and institutional evidence remain separate.

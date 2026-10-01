@@ -67,3 +67,7 @@ Added Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra, five cre
 ## 2026-10-01
 
 Added entrepreneur and business-leader research across hospitality, metals, software and food processing. [Bounded receipt](records/entrepreneurs-2026-10-01.json). Founder/executive roles, dates and unknown Odisha economic-impact metrics remain explicit. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Added five public-service profiles, institutional roles and a translated work. [Bounded receipt](records/public-service-2026-10-01.json). National significance is tied to dated offices, debate and recognition. Source chronology issues retained. No website publication or human factual review claimed.

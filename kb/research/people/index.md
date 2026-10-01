@@ -99,3 +99,15 @@
 - [Rashmi Sahoo](rashmi-sahoo.md)
 
 [Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.
+
+- [Girish Chandra Murmu](girish-chandra-murmu.md)
+
+- [Pramod Kumar Mishra (P. K. Mishra)](pramod-kumar-mishra.md)
+
+- [Droupadi Murmu](droupadi-murmu.md)
+
+- [Biswanath Das — Odisha statesman](biswanath-das.md)
+
+- [Harekrushna Mahtab](harekrushna-mahtab.md)
+
+[Public servants and lawmakers](../people/public-servants-and-lawmakers.md) — five selected lives connect Odisha with Constitution-making, Parliament, national administration and constitutional office. Roles, periods and institutional evidence remain separate.

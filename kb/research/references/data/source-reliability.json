@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T07:47:25.368283-07:00",
+  "updated_at": "2026-10-01T07:58:53.605572-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1157,6 +1157,10 @@
     {
       "run_id": "2026-10-01-entrepreneurs",
       "scope": "User-requested business personalities research, not weekly metric monitoring."
+    },
+    {
+      "run_id": "2026-10-01-public-service",
+      "scope": "Requested public figures research, not weekly monitoring."
     }
   ],
   "supplemental_discovery_routes": [
@@ -2647,6 +2651,126 @@
       "run_id": "2026-10-01-entrepreneurs",
       "status": "unavailable_direct_fetch",
       "scope": "Discovery route failed or returned challenge; no full-page capture claimed. Other sources support the saved bounded facts.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-murmu-cag-bio",
+      "discovery_url": "https://cag.gov.in/rti/ranchi/en/page-rti-ranchi-cag-india-rac",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Mayurbhanj origin; Gujarat cadre IAS, 1985 batch; assumed CAG office 8 August 2020. Regional page retains present-tense CAG framing; use central former-CAG register for historical tenure.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-cag-former",
+      "discovery_url": "https://cag.gov.in/en/former-cag",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Lists 2020–2024. Resolves stale present-tense regional biography; two pages of the same institution, not independent corroboration.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-droupadi-profile",
+      "discovery_url": "https://www.presidentofindia.gov.in/profile-0",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Uparbeda, Mayurbhanj origin; Rairangpur MLA 2000–2009; Jharkhand governor 2015–2021; sworn in as President on 25 July 2022. Page retrieved 1 October 2026. No family details or unmeasured policy-impact claims imported.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-pk-mishra-appointment",
+      "discovery_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1584692",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Dated appointment and 1970 G.M. College/Sambalpur University education. PMIndia carries the same release; not independent confirmation. Historical role, not verification of present appointment.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-pk-mishra-sasakawa",
+      "discovery_url": "https://www.undrr.org/news/un-recognises-excellence-protecting-vulnerable-communities-disaster-risk",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Names Pramod Kumar Mishra among three laureates in disaster risk reduction. Issuer evidence of recognition, not a measured Odisha disaster-loss reduction attributable to him.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-biswanath-odisha",
+      "discovery_url": "https://odisha.gov.in/index.php/en/odisha-profile/eminent-personalities/biswanath-das",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Ganjam public life, Odisha provincial leadership and Uttar Pradesh governorship. The page also says elected to Lok Sabha in 1950; that chronology is quarantined and not used. Assembly chamber labels and exact election dates need original registers.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-biswanath-clpr",
+      "discovery_url": "https://www.constitutionofindia.net/members/biswanath-das/",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Institutional secondary biography identifies Constituent Assembly representation from Orissa and national roles. Identity is the historical Odisha statesman, not contemporary namesakes. Original source links are leads, not all freshly fetched.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-cad-1949-08-20",
+      "discovery_url": "https://www.constitutionofindia.net/debates/20-aug-1949/",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Primary proceedings through an institutional transcription. Objections concern emergency powers and provincial financial allocations. A recorded intervention does not prove his position prevailed or that he alone authored a constitutional provision. Parliament PDF fetch failed; facsimile comparison remains open.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "public-mahtab-commemoration",
+      "discovery_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2075570",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "available_with_scoped_capture",
+      "scope": "Records Odisha origin, Union Commerce and Industry role and 1962 Lok Sabha election; reports English Gaon Majlis translation by Tarun Kumar Sahu. Princely-state prime-minister wording in this release is quarantined; not adopted as a historical fact. Release date is not necessarily first-edition publication date.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://assembly.odisha.gov.in/Details.aspx?page=ChiefMinister%2FLate+Biswanath+Das.HTML",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "unavailable_direct_fetch",
+      "scope": "Original route failed; no facsimile comparison or full original PDF read claimed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://eparlib.sansad.in/bitstream/123456789/763026/1/cad_20-08-1949.pdf",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "unavailable_direct_fetch",
+      "scope": "Original route failed; no facsimile comparison or full original PDF read claimed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://sansad.in/uploads/const_Assmbly_Debates_Volume2_25_January1947_446c4d0ebd.pdf",
+      "checked_at": "2026-10-01T07:58:53.605572-07:00",
+      "run_id": "2026-10-01-public-service",
+      "status": "unavailable_direct_fetch",
+      "scope": "Original route failed; no facsimile comparison or full original PDF read claimed.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }
