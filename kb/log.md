@@ -119,3 +119,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2026-10-01
 
 Prepared the [language population atlas](reference/language-population-atlas.md), preserving original Census 2011 tables and connecting eight language stories to district comparisons. [Checks and limitations](records/language-atlas-review.json). Delivery will be recorded separately.
+
+## 2026-10-01
+
+[Language atlas published](records/language-atlas-publication.json) through PR 40. Verified 72 live page responses and eight profile connections. Historical year and community/visual review limitations retained.

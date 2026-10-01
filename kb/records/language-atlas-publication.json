@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-01T18:36:23.950624+00:00",
+  "status": "published_preview",
+  "authorization": "UTP-DEC-134",
+  "continuation_authorization": "UTP-DEC-133",
+  "human_authority": "Ahimanikya Satapathy",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/40",
+  "candidate_head": "68b8d7f9a0fa430e7e0175f492848bd569439799",
+  "merge_commit": "7a60b001cd5defe8f51d43e7154ba631fcc280b6",
+  "deployment_head": "7a60b001cd5defe8f51d43e7154ba631fcc280b6",
+  "deployment_url": "https://github.com/ahimanikya/utkal-project/actions/runs/36907661067",
+  "website": "https://utkalproject.org/languages/atlas/",
+  "live_checks": {
+    "passed": true,
+    "checks": 92,
+    "pages": 72,
+    "discovery_entries": 59,
+    "language_profiles": 8,
+    "year": 2011
+  },
+  "remaining_reviews": [
+    "All population figures are historical Census 2011 returns, not current speaker estimates or ethnicity counts.",
+    "Census classification does not resolve community-preferred naming; Kuvi and Savara mappings carry explicit qualifications.",
+    "Browser administration-policy verification still blocks visual audit; no interactive browser, mobile, print or assistive-technology review claimed.",
+    "No district boundary map or subdistrict interface in this increment; original subdistrict data are retained in the source workbook."
+  ],
+  "evidence": [
+    "records/language-atlas-review.json",
+    "records/evidence/language-atlas/live.json",
+    "records/evidence/language-atlas/deployment.json",
+    "records/evidence/language-atlas/pull-request.json"
+  ]
+}

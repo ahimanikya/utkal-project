@@ -3784,23 +3784,25 @@
       "id": "UTP-WORK-129",
       "title": "Connect language stories to Census population distribution",
       "category": "language_data",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-134",
-      "next_action": "Publish tested historical atlas, then retain naming and visual review tasks.",
+      "next_action": "Obtain community naming and visual review; extend to subdistricts and a sourced boundary map as separate work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-134",
-        "UTP-REV-108"
+        "UTP-REV-108",
+        "UTP-REL-035"
       ],
       "evidence": [
         "records/language-atlas-review.json",
-        "reference/language-population-atlas.md"
+        "reference/language-population-atlas.md",
+        "records/language-atlas-publication.json"
       ]
     }
   ],
@@ -9676,6 +9678,22 @@
         "records/editorial-500-publication.json"
       ],
       "note": "Founder authorized autonomous next-batch work without further routine permission. Live delivery verified separately. Internal workbench stays outside public edition; known specialist and visual reviews retained."
+    },
+    {
+      "id": "UTP-REL-035",
+      "title": "Census 2011 language population atlas published",
+      "status": "published",
+      "authorization": "UTP-DEC-134",
+      "destination": "https://utkalproject.org/languages/atlas/",
+      "refs": [
+        "UTP-DEC-134",
+        "UTP-WORK-129",
+        "UTP-REV-108"
+      ],
+      "evidence": [
+        "records/language-atlas-publication.json"
+      ],
+      "note": "Delivered within existing continuation authorization. Historical data, source classifications and specialist/visual review limitations retained."
     }
   ],
   "sources": [
