@@ -13809,6 +13809,53 @@
         "debrigarh-revenue-op20250405"
       ],
       "added_at": "2026-10-01T09:34:53.344599-07:00"
+    },
+    {
+      "id": "sources/food-chhenapoda-chef2021",
+      "title": "CHHENAPODA — Chef Michael’s contemporary recipe",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-chhenapoda-chef2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-chhenapoda-chef2021"
+      ],
+      "added_at": "2026-10-01T09:51:37.390675-07:00"
+    },
+    {
+      "id": "sources/food-magji-gi178",
+      "title": "Dhenkanal Magji — GI Journal 178 specification",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-magji-gi178.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "food-magji-gi178"
+      ],
+      "added_at": "2026-10-01T09:51:37.390675-07:00"
+    },
+    {
+      "id": "food/preparation-and-variation",
+      "title": "How Odisha cooks: preparations and variations",
+      "kind": "Food Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/preparation-and-variation.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "arts",
+        "everyday"
+      ],
+      "source_ids": [],
+      "added_at": "2026-10-01T09:51:37.390675-07:00"
     }
   ],
   "shared_publications": [
@@ -14253,7 +14300,9 @@
       "title": "Food names recipes and variations",
       "source_records": [
         "food/index.md",
-        "visitor-index/food-catalog.md"
+        "visitor-index/food-catalog.md",
+        "food/preparation-and-variation.md",
+        "references/data/food-preparations.json"
       ],
       "project_records": [
         "kb/research/destinations/coastal-edition-copy.json",
@@ -14630,8 +14679,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 974,
-    "updated_at": "2026-10-01T09:34:53.344599-07:00",
+    "records_mapped": 977,
+    "updated_at": "2026-10-01T09:51:37.390675-07:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -14918,6 +14967,16 @@
       ],
       "new_people_or_work_records": 0,
       "source_family_note": "Speech records recognition; later press reports may quote the same official. No independent employment enumeration."
+    },
+    {
+      "run_id": "2026-10-01-food-preparations",
+      "added_source_records": [
+        "food-chhenapoda-chef2021",
+        "food-magji-gi178"
+      ],
+      "new_food_identities": 0,
+      "enhanced_existing_foods": 14,
+      "source_family_note": "Government-hosted contributor articles remain attributed accounts; APEDA news republication is not independent corroboration. GI journal and application metadata share registry provenance."
     }
   ]
 }

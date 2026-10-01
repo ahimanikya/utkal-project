@@ -155,3 +155,7 @@ RES-009 deferred to 8 October for primary operational/register evidence; conflic
 ## Debrigarh checkpoint · 1 October 2026
 
 RES-010 saved historical primary revenue and national recognition, but modern accounts and employment denominators remain blocked until 8 October. Next eligible task is RES-011 food preparation and variations. No task completion or current-income verification claimed.
+
+## Food preparation checkpoint · 1 October 2026
+
+RES-011 now has fourteen attributed entry extensions and a technique collection. Resume the saved gaps in regional variants and original Rasabali evidence; do not repeat the recovered Magji journal or existing tourism descriptions. Completion remains false. This food batch uses its own review branch; community-tourism PR #33 is unchanged.

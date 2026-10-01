@@ -503,3 +503,6 @@
 - [PM’s address in the 137th Episode of Mann Ki Baat](debrigarh-pmo20260830.md)
 - [Odisha’s Debrigarh raises ecotourism bar, with sightings, record tourist footfall and revenue](debrigarh-revenue-nie20260405.md)
 - [Community-led ecotourism generates Rs5.11cr revenue](debrigarh-revenue-op20250405.md)
+
+- [CHHENAPODA — Chef Michael’s contemporary recipe](food-chhenapoda-chef2021.md)
+- [Dhenkanal Magji — GI Journal 178 specification](food-magji-gi178.md)

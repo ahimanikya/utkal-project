@@ -186,3 +186,7 @@ Homestay provisional-certificate reports conflict 17/176; original event registe
 ## Debrigarh primary-source checkpoint · 1 October 2026
 
 JICA’s 2017 survey supplies historical facility revenue and a 2016 EDC-management observation. PMO’s 30 August 2026 address establishes recognition and attributed conservation participation, not payroll. Recent FY2024–25 ₹5.01/₹5.11 crore scope and 85-family period remain unresolved. RES-010 retries 8 October; independent RES-011 is next. Sambalpur Zoo accounts were excluded from Debrigarh totals.
+
+## Food preparation checkpoint · 1 October 2026
+
+Fourteen existing entries deepened. RES-011 remains in progress: named regional variation and Rasabali’s original GI method/corrigendum need work. NCHM full PDF failed retrieval; Enduri steaming detail remains indexed-only, retry 8 October. Magji journal pp.45–48 has differing sugar ratios; Ou teaching reference has an Assam-labelled passage. Local/Odia review, tested quantities, commercial totals and current serving venues remain unestablished.

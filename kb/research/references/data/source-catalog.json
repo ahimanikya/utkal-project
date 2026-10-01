@@ -15,7 +15,14 @@
     "publisher": "Odisha Tourism",
     "source_kind": "Institutional reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_html",
+        "scope": "Food of the Masses and Sweet Relics headings; descriptions only. Medical, universal popularity and uniqueness claims excluded."
+      }
+    ]
   },
   "chef": {
     "id": "chef",
@@ -24,7 +31,14 @@
     "publisher": "Odisha Tourism portal",
     "source_kind": "Hosted chef interview",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_html",
+        "scope": "2019-11-27; Mansita Mishra; Odia Experience menu paragraphs. Contemporary menu, not universal household or current restaurant evidence."
+      }
+    ]
   },
   "food-heritage": {
     "id": "food-heritage",
@@ -33,7 +47,14 @@
     "publisher": "National Council for Hotel Management",
     "source_kind": "Hospitality education reference",
     "accessed_on": "2026-09-27",
-    "capture_note": "Odisha festive cuisine passage, page 251, reviewed through search extract."
+    "capture_note": "Odisha festive cuisine passage, page 251, reviewed through search extract.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "indexed_only_full_fetch_unavailable",
+        "scope": "Printed p.251 Enduri passage indexed. Web direct fetch failed; local DNS failed; network retry timed out at 45 seconds. No full-text verification claimed."
+      }
+    ]
   },
   "regional-cuisine": {
     "id": "regional-cuisine",
@@ -42,7 +63,14 @@
     "publisher": "Uttarakhand Open University",
     "source_kind": "Teaching material",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted web extract reviewed; full source not archived."
+    "capture_note": "Targeted web extract reviewed; full source not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-01T09:51:37.390675-07:00",
+        "method": "direct_pdf_text",
+        "scope": "Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; no location reassignment."
+      }
+    ]
   },
   "dahibara-blog": {
     "id": "dahibara-blog",
@@ -3877,5 +3905,38 @@
     "capture_method": "direct_secondary_html",
     "locator": "Opening paragraphs and attributed DFO statement",
     "capture_note": "Reports Debrigarh Wildlife Sanctuary and Hirakud Wetland together, with 85 families. Not independent payroll evidence; do not relabel family count as workers or shift its reporting year."
+  },
+  "food-chhenapoda-chef2021": {
+    "id": "food-chhenapoda-chef2021",
+    "title": "CHHENAPODA — Chef Michael’s contemporary recipe",
+    "resource": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+    "publisher": "Chef Michael, hosted by Odisha Tourism",
+    "published_on": "2021-07-29",
+    "accessed_on": "2026-10-01",
+    "capture_method": "direct_contributor_html",
+    "locator": "Opening account and Chocolate Chhenapoda Recipe",
+    "capture_note": "Primary evidence of the contributor’s own adaptation. Origin, popularity and sales statements are not independently established."
+  },
+  "food-magji-gi178": {
+    "id": "food-magji-gi178",
+    "title": "Dhenkanal Magji — GI Journal 178 specification",
+    "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR",
+    "publisher": "Geographical Indications Registry; application by Dhenkanal Sweets Association",
+    "published_on": "2023-08-31",
+    "accessed_on": "2026-10-01",
+    "capture_method": "downloaded_pdf_text_and_visual",
+    "locator": "Printed/PDF pp.45–50; pp.46–48 visually inspected",
+    "capture_note": "Historical advertised specification, distinct from the later registration certificate. Internal sugar-ratio differences retained; no independent nutrition, shelf-life, origin chronology or sales verification.",
+    "retrieval": {
+      "index_label": "Journal 178, 31/08/2023",
+      "method": "POST",
+      "endpoint": "https://search.ipindia.gov.in/IPOJournal/Journal/ViewJournal",
+      "form": {
+        "FileName": "ipo-docs\\IPIndia_Docs\\GIR\\2023\\Journal_178\\Journal 178.pdf"
+      },
+      "sha256": "7111555bb1e39b94391cc0c410417b53ff0117c10f1271f1e95bae5c6a88156f",
+      "pages": 949,
+      "scope_read": "pp.45–50 only; no authorised-user personal records retained"
+    }
   }
 }

@@ -36,3 +36,13 @@ Document fresh and fermented variants with cooks; identify every accompaniment.
 [Related knowledge](dalma.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://apps.odishatourism.gov.in/the-taste-of-odisha)
+
+## Preparation and variations · 1 October 2026
+
+The overview describes rice fermented in water and served with accompaniments. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Pakhala heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+The 2019 menu adds curd and a ginger–mustard tempering. [Chef TZac: Odia cuisine is an evolved cuisine](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine), Odia Experience menu, third course. Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu.
+
+**Still to verify:** Research fresh versus fermented naming and regional versions; do not adopt the tourism page’s heat-stroke or nerve-vitamin claims. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.

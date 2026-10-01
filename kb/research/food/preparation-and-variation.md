@@ -1,0 +1,41 @@
+---
+type: "Food Research Collection"
+title: "How Odisha cooks: preparations and variations"
+description: "Fourteen existing foods connected by technique, source and unanswered local questions."
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-10-01T09:51:37.390675-07:00"}
+sources: []
+human_review_claimed: false
+---
+
+# How Odisha cooks: preparations and variations
+
+Fourteen entries now connect names to preparation accounts: six pitha, four everyday dishes and four place-linked sweets. These are the bounds of this research batch, not a count of Odisha’s foods. Explore the linked entries for ingredients, sources and differences; their versions are attributed rather than prescribed as one authentic recipe.
+
+## Pitha: follow the cooking method
+
+- [Chakuli pitha](chakuli.md) — pan cooking, fermentation.
+- [Poda pitha](poda-pitha.md) — slow cooking, leaf assisted cooking.
+- [Enduri pitha](enduri-pitha.md) — steaming, leaf wrapping.
+- [Sijha manda pitha](manda-pitha.md) — boiling, steaming, filled dumpling.
+- [Kakara pitha](kakara-pitha.md) — frying, filled dough.
+- [Arisa pitha](arisa-pitha.md) — frying.
+
+## Everyday dishes and sweets
+
+- [Pakhala](pakhala.md) — soaking, fermentation.
+- [Dalma](dalma.md) — boiling, tempering.
+- [Chatu patrapoda](chatu-patrapoda.md) — leaf wrapping, fire cooking.
+- [Ou khatta](ou-khatta.md) — tempering.
+- [Chhena poda](chhena-poda.md) — baking, leaf assisted cooking.
+- [Chhena jhili](chhena-jhili.md) — frying, syrup soaking.
+- [Kendrapara Rasabali](kendrapara-rasabali.md) — frying, milk soaking.
+- [Dhenkanal Magji](dhenkanal-magji.md) — pressing, pan cooking, hand shaping.
+
+## What still needs a cook’s voice
+
+Regional distribution, household measurements, preferred Odia names and demonstrated variations remain open. A contributor recipe hosted by a government portal retains its author’s scope. A restaurant interpretation does not establish temple practice. No field interview, recipe test or human language review has been invented.
+
+Magji’s original specification is now available, but its internal sugar proportions differ. Enduri’s new steaming detail remains indexed-only because the hospitality PDF could not be retrieved. The collection retains those limits rather than silently turning them into recipe instructions.
+
+[Structured preparation register](../references/data/food-preparations.json) keeps each account, locator, scope and unresolved question together. [Rasagola and sweets economics](../economy/rasagola-and-sweets.md) owns the separate sales/export questions. No commercial totals, health claims or serving venues were added here.

@@ -35,3 +35,13 @@ Record regional flour and filling variations.
 [Related knowledge](pitha.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+A fried version uses semolina, coconut and cardamom. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Kakara Pitha heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+Wheat flour or semolina and a sweet coconut filling are alternatives in the teaching account. [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf), Printed p.233 / PDF p.233, Kakara pitha entry. University teaching reference; one described version, not a definitive formula.
+
+**Still to verify:** Locate each flour version geographically; no district distribution or one authentic formula established. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.

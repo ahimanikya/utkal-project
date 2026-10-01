@@ -35,3 +35,13 @@ Confirm batter, accompaniments and local spelling with the featured cook.
 [Related knowledge](pitha.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+Fermented black-gram batter is spread thinly and pan-cooked. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Chakuli Pitha heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+The teaching version combines rice and urad; its equal-parts formula is source-specific. [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf), Printed p.118 / PDF p.118, item 4. University teaching reference; one described version, not a definitive formula.
+
+**Still to verify:** Verify household ratios, texture names and regional attribution with credited cooks. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.

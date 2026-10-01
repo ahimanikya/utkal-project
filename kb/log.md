@@ -95,3 +95,7 @@ Saved47 ecotourism observations and4 full-year comparisons from Wildlife Odisha2
 ## 2026-10-01
 
 Added eight Debrigarh observations and four source records. [Bounded receipt](records/debrigarh-primary-2026-10-01.json). Historical facility receipts and official conservation participation remain separate from current income and employment. Modern accounts remain open; RES-010 retries 8 October and RES-011 is next. PR #24 and website content are unchanged.
+
+## 2026-10-01
+
+Deepened fourteen existing food entries and added a preparation collection. [Bounded receipt](records/food-preparations-2026-10-01.json). Magji’s original GI document is recovered; internal recipe differences and incomplete regional/local evidence remain visible. RES-011 remains in progress. No website deployment or human factual review claimed.

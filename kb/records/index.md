@@ -168,3 +168,5 @@
 - [Community tourism research checkpoint](community-tourism-2026-10-01.json) — Primary ecotourism series recovered; homestay provisional-registration conflict held.
 
 - [Debrigarh primary-source checkpoint](debrigarh-primary-2026-10-01.json) — Historical JICA revenue, official community recognition and unresolved modern revenue scope.
+
+- [Food preparation checkpoint](food-preparations-2026-10-01.json) — Fourteen existing food entries, attributed variants and original Magji specification.

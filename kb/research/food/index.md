@@ -30,3 +30,5 @@ Foods, ingredients and culinary story opportunities.
 ## Illustrated website candidates
 
 [Structured collection](collection.json) contains source-backed Chhena Poda and Mudhi Mansa introductions, media provenance and publication status. Earlier research notes above remain historical source material. [Implementation review](../product/visitor-polish.md).
+
+[How Odisha cooks](preparation-and-variation.md) — preparation accounts, techniques and variation questions for fourteen existing foods.

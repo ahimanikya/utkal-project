@@ -35,3 +35,13 @@ Record one attributed recipe and regional variations; avoid a single definitive 
 [Related knowledge](pakhala.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+Lentils and vegetables are boiled together; the teaching example uses toor dal. [Regional Cuisine of India, BHM-602AT](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf), Printed p.119 / PDF p.119, item 10. University teaching reference; one described version, not a definitive formula.
+
+The menu’s Habisa Dalma uses moong, raw banana, arbi and elephant apple. [Chef TZac: Odia cuisine is an evolved cuisine](https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine), Odia Experience menu, second course / Habisa Dalma. Mansita Mishra’s 27 November 2019 account of a chef and restaurant menu; contemporary interpretation, not a universal or current menu.
+
+**Still to verify:** Validate ritual/household distinctions; the restaurant version is not proof of temple practice. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.

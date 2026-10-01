@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T09:34:53.344599-07:00",
+  "updated_at": "2026-10-01T09:51:37.390675-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -843,18 +843,39 @@
       "title": "Food names recipes and variations",
       "done_when": "Deepen six pitha, four everyday dishes and four place-linked sweets with attributed preparation and variation sources; leave Odia/local review pending.",
       "target": "food/index.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen six pitha, four everyday dishes and four place-linked sweets with attributed preparation and variation sources; leave Odia/local review pending.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-01T09:51:37.390675-07:00",
+      "next_step": "Recover Rasabali GI Journal 175 and corrigendum; deepen named regional variations for poda, enduri, chatu and ou without repeating captured food descriptions. NCHM PDF retry after 8 October; local/Odia review remains pending.",
+      "evidence_outputs": [
+        "food/preparation-and-variation.md",
+        "references/data/food-preparations.json",
+        "food/chakuli.md",
+        "food/poda-pitha.md",
+        "food/enduri-pitha.md",
+        "food/manda-pitha.md",
+        "food/kakara-pitha.md",
+        "food/arisa-pitha.md",
+        "food/pakhala.md",
+        "food/dalma.md",
+        "food/chatu-patrapoda.md",
+        "food/ou-khatta.md",
+        "food/chhena-poda.md",
+        "food/chhena-jhili.md",
+        "food/kendrapara-rasabali.md",
+        "food/dhenkanal-magji.md",
+        "sources/food-chhenapoda-chef2021.md",
+        "sources/food-magji-gi178.md"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
         "source_records": [
           "food/index.md",
-          "visitor-index/food-catalog.md"
+          "visitor-index/food-catalog.md",
+          "food/preparation-and-variation.md",
+          "references/data/food-preparations.json"
         ],
         "project_records": [
           "kb/research/destinations/coastal-edition-copy.json",
@@ -862,7 +883,16 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-food-preparations",
+          "at": "2026-10-01T09:51:37.390675-07:00",
+          "outcome": "fourteen_existing_food_entries_deepened",
+          "completion_criteria_met": false,
+          "reason": "Named regional variation evidence remains incomplete; original Rasabali method and full NCHM passage still missing."
+        }
+      ]
     },
     {
       "id": "RES-031",

@@ -35,3 +35,11 @@ Record a household’s Raja practice and its recipe; dates vary each year.
 [Related knowledge](pitha.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Preparation and variations · 1 October 2026
+
+Fermented rice batter is cooked slowly with sal leaves in an earthen pot; Raja is the festival association. [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html), Poda Pitha heading. Odisha Tourism institutional overview; no household or regional prevalence established.
+
+**Still to verify:** Document a second attributed preparation and its location; do not infer a standard oven temperature. Odia and local review remain pending.
+
+[Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.

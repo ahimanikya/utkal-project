@@ -161,3 +161,7 @@ Reused homestay, Debrigarh and project-native destination records. Added one pri
 ## Debrigarh source extension · 1 October 2026
 
 Enhanced the existing place and livelihood dataset with four source records; no duplicate place or person concept created. Historical facility receipts, contemporary recognition and recent press accounts have separate scopes. Existing statewide ecotourism evidence is reused.
+
+## Food preparation extension · 1 October 2026
+
+Enhanced fourteen existing food identities after source and project-native reuse checks. Added two bibliographic sources and one connected collection; no duplicate dishes. Same publication and government-hosted republication are not independent corroboration. New structured preparation accounts retain source scope and unknown regional fields.
