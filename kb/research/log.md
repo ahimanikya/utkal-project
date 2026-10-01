@@ -312,3 +312,7 @@ RES-051 remains in progress. Added49 coal observations and four calculations, te
 ## Ore reconciliation checkpoint · 1 October2026
 
 Ore checkpoint added132 observations and three attributed calculations. Full state table recovered; source differences held, production and despatch separated, resource categories dated and district evidence linked. RES-051 remains in progress; no website release.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+Added NALCO mine-to-processing checkpoint: 50 scoped observations, four calculations, six site/project identities and five explained supply links. Preserved source limits, adverse outcomes and project stages. RES-051 remains in progress; RES-052 has reuse pointers. No website release.

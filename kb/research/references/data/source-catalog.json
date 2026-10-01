@@ -5238,5 +5238,40 @@
     "locator": "Overview; October2019 displacement/land tables; sustainable livelihood objectives",
     "capture_method": "direct_web_text",
     "capture_note": "Direct web text. Used for Hemgir/Sundargarh location and attributed livelihood objective, not independently verified current outcomes. Main narrative and October2019 land table differ; land totals not adopted."
+  },
+  "mining-nalco-refinery": {
+    "id": "mining-nalco-refinery",
+    "title": "NALCO Alumina Refinery: operations and transport",
+    "resource": "https://nalcoindia.com/business/operation/alumina-refinery/",
+    "publisher": "National Aluminium Company Limited",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "locator": "Opening operation description: mine conveyor, refinery, Angul smelter and Visakhapatnam rail links.",
+    "capture_method": "downloaded_original_html",
+    "capture_note": "Company reporting; not independent field verification. Dates, scopes and project stages retained."
+  },
+  "mining-nalco-ar2026": {
+    "id": "mining-nalco-ar2026",
+    "title": "NALCO 45th Annual Report 2025–26",
+    "resource": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+    "publisher": "National Aluminium Company Limited",
+    "published_on": "2026-08-07",
+    "accessed_on": "2026-10-01",
+    "locator": "Selected Directors’ Report, BRSR and five-year tables; printed pages 12–14, 59, 74, 88, 93, 97, 102, 105, 296; PDF pages = printed +20.",
+    "capture_method": "downloaded_pdf_extract_and_visual_table_check",
+    "capture_note": "Company reporting; not independent field verification. Dates, scopes and project stages retained.",
+    "publication_date_basis": "Posted date on original annual-reports listing; report includes dated post-year-end project developments.",
+    "sha256": "4c9b97844771ca234658df8ea8d58da8576ffb93a8b665020067d61c8c6193c6"
+  },
+  "mining-dbl-pottangi": {
+    "id": "mining-dbl-pottangi",
+    "title": "Pottangi Bauxite Mine: developer project record",
+    "resource": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/",
+    "publisher": "Dilip Buildcon Limited",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "locator": "Project description, status and agreement parties.",
+    "capture_method": "direct_web_text",
+    "capture_note": "Company reporting; not independent field verification. Dates, scopes and project stages retained."
   }
 }

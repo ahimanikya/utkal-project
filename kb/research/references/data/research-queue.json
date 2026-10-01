@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T23:18:55.981451+00:00",
+  "updated_at": "2026-10-01T23:35:36.358411+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2264,13 +2264,13 @@
       "done_when": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 3,
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-015"
       ],
-      "last_worked_at": "2026-10-01T23:18:55.981451+00:00",
-      "next_step": "Resolve source-scope differences through methodology/revision notes; extend named ore-mine-to-district identities and permit stages. Retry unresolved methods with primary publisher after 8 October 2026; no invented explanation.",
+      "last_worked_at": "2026-10-01T23:35:36.358411+00:00",
+      "next_step": "Extend selected mine identities to OMC Kodingamali and Utkal Alumina Baphlimali through original mine and plant records. Reuse NALCO chain for RES-052; unresolved source definitions/permits retry 2026-10-08.",
       "evidence_outputs": [
         "economy/mining.md",
         "statistics/minerals-and-mining.md",
@@ -2278,7 +2278,11 @@
         "sources/mining-coal-directory2025.md",
         "sources/mining-ocpl-rr.md",
         "statistics/coal-production.md",
-        "statistics/ore-production.md"
+        "statistics/ore-production.md",
+        "economy/bauxite-to-aluminium.md",
+        "sources/mining-nalco-ar2026.md",
+        "sources/mining-nalco-refinery.md",
+        "sources/mining-dbl-pottangi.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2300,6 +2304,12 @@
           "at": "2026-10-01T23:18:55.981451+00:00",
           "outcome": "ore_series_recovered_conflicts_retained",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-mining-value-chain",
+          "at": "2026-10-01T23:35:36.358411+00:00",
+          "outcome": "named_bauxite_mines_and_processing_checkpoint",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -2312,7 +2322,8 @@
           "economy/comparison-08-mining.md",
           "references/data/industry-growth-data.json",
           "statistics/coal-production.md",
-          "statistics/ore-production.md"
+          "statistics/ore-production.md",
+          "economy/bauxite-to-aluminium.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -2348,7 +2359,8 @@
           "statistics/industrial-production.md",
           "references/data/investment-tracker.json",
           "statistics/ports.md",
-          "journeys/rare-earths.md"
+          "journeys/rare-earths.md",
+          "economy/bauxite-to-aluminium.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

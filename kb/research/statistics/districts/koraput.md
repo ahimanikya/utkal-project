@@ -40,3 +40,7 @@ The agriculture report records rice crop area of **131.12 thousand hectares**, r
 ## Mineral evidence · 1 October2026
 
 IBM’s2023–24 bauxite producer table places NALCO and OMC mine locations in Koraput. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+[The NALCO chain](../../economy/bauxite-to-aluminium.md) connects Panchpatmali, Damanjodi and the Pottangi development project. Company-wide headcounts do not establish Koraput jobs.

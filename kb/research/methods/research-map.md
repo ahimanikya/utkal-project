@@ -267,3 +267,7 @@ RES-051 enhanced existing mining concepts; added one coal topic and two source r
 ## Ore reconciliation checkpoint · 1 October2026
 
 RES-051 reused comparison-6-1/7-1/8-1 as aliases of one state table and extended mining-ibm-yearbook2024 beyond discovery. One new topic links132 new scoped observations; no new source ID or frozen-ledger rewrite.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+Existing NALCO excavation/capex records, IBM district links and mining programme reused. One connected case and three source records added; corporate report/page are one publisher family. Existing task IDs retained; RES-052 can reuse this case.

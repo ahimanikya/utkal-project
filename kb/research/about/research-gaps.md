@@ -298,3 +298,7 @@ RES-051 coal checkpoint: ten annual production/share rows, dated geological cate
 ## Ore reconciliation checkpoint · 1 October2026
 
 RES-051 now has the state’s paired production/despatch table and IBM ore/resource checks. Iron-ore2019–20 differs even across two state routes; IBM/state quantities differ across recent years. Resource age, producer location and labour-only mine reporting are explicit. Named ore lease/MDO links and source methodology remain open.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+RES-051 now has selected NALCO mine/lease and MDO identities, and a reusable processing case for RES-052. Original permits, current Pottangi production/R&R, plant/local employment and local procurement remain open. The five-year bauxite row is held for definition reconciliation; source-methodology retry remains 8 October.

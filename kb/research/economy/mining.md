@@ -61,3 +61,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Ore reconciliation checkpoint · 1 October2026
 
 [Ore series and district links](../statistics/ore-production.md) now distinguish annual production, despatch and dated resources. Disputed IBM/state values remain held; no merged national-share measure.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+[Bauxite to aluminium](bauxite-to-aluminium.md) now joins selected named mines, processing and transport links to dated work and community evidence. Company totals, targets and unresolved fields remain explicit.

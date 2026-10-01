@@ -73,3 +73,7 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 ## From sale proceeds to worker support
 
 [The payment evidence](../statistics/forest-products.md) adds dated kendu welfare statements and a separately labelled compassionate-grant table. These belong to the non-food forest economy. TDCCOL product procurement and actual collector payments still need accessible original statements; tenders, targets and indexed tables are not realised purchases.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+[Mining and livelihood links](bauxite-to-aluminium.md) preserves NALCO’s reported honey/ginger project descriptions. Beneficiary counts do not measure collector earnings or market sales.

@@ -45,3 +45,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^enterprise-nalco2026]: [NALCO Production and Financial Highlights FY2025–26](https://nalcoindia.com/company/our-growth-story/production-financial-highlights/)
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+[NALCO’s processing chain](../economy/bauxite-to-aluminium.md) adds five annual observations for hydrate, aluminium and sales. The ambiguous bauxite production-table row is held separately from existing excavation observations.

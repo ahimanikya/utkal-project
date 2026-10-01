@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T23:18:55.981451+00:00",
+  "updated_at": "2026-10-01T23:35:36.358411+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4803,6 +4803,54 @@
       "status": "available",
       "scope": "Full source recovered; selected numerical tables inspected. Cross-publisher differences preserved, not resolved.",
       "retry_after": null
+    },
+    {
+      "source_id": "mining-nalco-ar2026",
+      "discovery_url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "available",
+      "scope": "Selected Directors’ Report, BRSR and five-year tables; printed pages 12–14, 59, 74, 88, 93, 97, 102, 105, 296; PDF pages = printed +20.",
+      "retry_after": null,
+      "access_history": "NALCO web-reader502 routes recovered by original download; DBL direct page available."
+    },
+    {
+      "source_id": "mining-nalco-refinery",
+      "discovery_url": "https://nalcoindia.com/business/operation/alumina-refinery/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "available",
+      "scope": "Opening operation description: mine conveyor, refinery, Angul smelter and Visakhapatnam rail links.",
+      "retry_after": null,
+      "access_history": "NALCO web-reader502 routes recovered by original download; DBL direct page available."
+    },
+    {
+      "source_id": "mining-dbl-pottangi",
+      "discovery_url": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "available",
+      "scope": "Project description, status and agreement parties.",
+      "retry_after": null,
+      "access_history": "NALCO web-reader502 routes recovered by original download; DBL direct page available."
+    },
+    {
+      "source_id": "mining-nalco-ar2026",
+      "discovery_url": "https://nalcoindia.com/business/operation/bauxite-mines/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "unavailable",
+      "scope": "Web-reader502; report substituted only for separately identified facts.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "enterprise-nalco2026",
+      "discovery_url": "https://nalcoindia.com/company/our-growth-story/production-financial-highlights/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "unavailable",
+      "scope": "Web-reader502; report substituted only for separately identified facts.",
+      "retry_after": "2026-10-08"
     }
   ]
 }

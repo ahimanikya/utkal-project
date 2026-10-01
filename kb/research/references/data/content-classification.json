@@ -4373,6 +4373,18 @@
       "content_type": "Statistical Topic",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/bauxite-to-aluminium",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places",
+        "everyday",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6286,6 +6298,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects ore quantities and district evidence to separate processing, revenue and livelihood research."
+    },
+    {
+      "from": "economy/bauxite-to-aluminium",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects named mineral-processing relationships to separate public revenue, work and community questions."
     }
   ],
   "relationship_types": {
