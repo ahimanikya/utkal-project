@@ -267,6 +267,23 @@
       "sha256": "e540b6300e5d414d2d6e507b6c37024e4bcc8ea8f2061bde538b8ecc51ea9dcf",
       "bytes": 192524,
       "inspection": "Description, creator and licence inspected; downloaded image visually reviewed. Image metadata is not evidence of current access or an exact historical sitting date."
+    },
+    "reading-context": {
+      "src": "/assets/language-literature/odia-manuscript.webp",
+      "width": 1600,
+      "height": 1200,
+      "alt": "An Odia palm-leaf manuscript beside a metal writing stylus.",
+      "caption": "An Odia manuscript and stylus at Gyana Mandira, Koraput. A contextual writing image, not a manuscript by the profiled writer.",
+      "creator": "Prateek Pattanaik",
+      "source": "https://commons.wikimedia.org/wiki/File:Palm_Leaf_Manuscript_in_Odia_and_Lekhani.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Full-frame resize and WebP compression for delivery; original retained. No generated or removed elements. Displayed adaptations retain the source licence.",
+      "kind": "photograph",
+      "sha256": "6561796f9ff2dad7377570df6353d06ed617ca36ef0a5f2d3e5f91f0a9fa0812",
+      "original_src": "/assets/language-literature/odia-manuscript.jpg",
+      "original_sha256": "deb051bf87c70aa75bcdf41c0b27f4a8de04fe8c9b8c83074a18705a021fad13",
+      "bytes": 202426
     }
   },
   "pages": [
@@ -275,7 +292,7 @@
       "title": "Languages of Odisha",
       "kicker": "Living voices · shared landscapes",
       "lead": "A place is also made of the words people carry. Begin with Odia, then follow the other voices that make Odisha home.",
-      "hero_asset": "script",
+      "hero_asset": "manuscript",
       "sections": [
         {
           "id": "many-voices",
@@ -394,7 +411,8 @@
       "roster_note": "Language-labelled resources in SCSTRTI’s catalogue; full Utkal profiles are being researched. This is a starting selection, not a complete inventory.",
       "roster_sources": [
         "scstrti"
-      ]
+      ],
+      "hero_caption": "An Odia manuscript and stylus. One writing tradition within Odisha’s many living languages."
     },
     {
       "path": "languages/odia",
@@ -473,7 +491,21 @@
           "href": "/people/fakir-mohan-senapati/"
         }
       ],
-      "card_heading": "Follow the words"
+      "card_heading": "Follow the words",
+      "reading_notes": [
+        {
+          "heading": "Many forms, many worlds",
+          "text": "Follow a writer into a work, then return to the language with something new to listen for. Our literature collection begins that journey."
+        },
+        {
+          "heading": "A starting point for learning",
+          "text": "The next layer will add reviewed pronunciation, phrases and recordings by speakers. This first page makes no claim to be a complete history or a language course."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
+        }
+      ]
     },
     {
       "path": "languages/santali",
@@ -674,10 +706,11 @@
           "title": "Gopinath Mohanty",
           "href": "/people/gopinath-mohanty/",
           "text": "A landscape holds more than a view. Follow a novelist into the lives, speech and unequal choices that give a place its human depth.",
-          "asset": "gopinath",
+          "asset": "reading-context",
           "source_ids": [
             "gopinath-life"
-          ]
+          ],
+          "image_note": "Contextual manuscript photograph; not the writer’s manuscript."
         },
         {
           "title": "Gangadhar Meher",
@@ -834,7 +867,21 @@
           "href": "/destinations/balasore/"
         }
       ],
-      "card_heading": "From the writer to the work"
+      "card_heading": "From the writer to the work",
+      "reading_notes": [
+        {
+          "heading": "Begin with one novel",
+          "text": "As you read, ask whose explanation you trust, who benefits from a transaction, and where humour changes the meaning of a scene. These are our reading prompts, not quotations from Senapati."
+        },
+        {
+          "heading": "Balasore: a place behind the pages",
+          "text": "Before a visit, look for a locally recommended edition or a conversation with a bookseller. Ask which of his stories readers return to, and why. Museum access, memorial opening times and a walking route still need research."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
+        }
+      ]
     },
     {
       "path": "literature/six-acres-and-a-third",
@@ -905,7 +952,21 @@
           "href": "https://www.ucpress.edu/books/six-acres-and-a-third/paper"
         }
       ],
-      "hero_caption": "Fakir Mohan Senapati commemorated in a bust. This is an author image, not the novel’s cover."
+      "hero_caption": "Fakir Mohan Senapati commemorated in a bust. This is an author image, not the novel’s cover.",
+      "reading_notes": [
+        {
+          "heading": "Take a question into the story",
+          "text": "Who gets to describe what happened? What does owning land mean to different people? Where does a joke expose something serious? Keep those questions beside you as you read."
+        },
+        {
+          "heading": "Take a question into the story",
+          "text": "This introductory note draws on the publisher’s description, not a completed close reading. No text from the novel is reproduced here."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
+        }
+      ]
     },
     {
       "path": "languages/kui",
@@ -1278,7 +1339,21 @@
           "href": "https://odisha.gov.in/en/odisha-profile/odia-classics/sarala-mahabharata/odia-classic-data"
         }
       ],
-      "hero_caption": "An Odia palm-leaf manuscript at Gyana Mandira library, Koraput. A writing-tradition photograph, not an identified Sarala Mahabharata manuscript."
+      "hero_caption": "An Odia palm-leaf manuscript at Gyana Mandira library, Koraput. A writing-tradition photograph, not an identified Sarala Mahabharata manuscript.",
+      "reading_notes": [
+        {
+          "heading": "An epic in Odia",
+          "text": "An epic retelling invites a useful question: what does a familiar story become when readers meet it through another language and literary world?"
+        },
+        {
+          "heading": "Begin with Sarala Mahabharata",
+          "text": "Choose a section with an Odia reader. Compare a character’s choices or a remembered episode, keeping interpretation separate from the words on the page. This profile is not a completed comparison of editions."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
+        }
+      ]
     },
     {
       "path": "people/pratibha-ray",
@@ -1380,6 +1455,20 @@
           "title": "Explore the author’s account of adaptations",
           "href": "https://pratibharay.com/works-adopted-for-filmstelevision-dance/"
         }
+      ],
+      "reading_notes": [
+        {
+          "heading": "A doorway through Jajnaseni",
+          "text": "Try this reading question: whose choices move to the centre when a story is told through someone previously seen from the outside? The question is our invitation, not a quotation from the novel."
+        },
+        {
+          "heading": "Choose an edition deliberately",
+          "text": "Look for the translator and publication details when selecting a translation. The sources used here differ on the novel’s early publication date, so we leave that date unresolved rather than merge edition histories. No full text or quotation is reproduced."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
+        }
       ]
     },
     {
@@ -1475,6 +1564,20 @@
           "title": "Read the Sahitya Akademi monograph",
           "href": "https://sahitya-akademi.gov.in/pdf/Bhima-Bhoi.pdf"
         }
+      ],
+      "reading_notes": [
+        {
+          "heading": "A voice of compassion",
+          "text": "Read slowly. Which lines address the divine, and which turn our attention back towards another person? This is an invitation to read, not a quotation from the poet."
+        },
+        {
+          "heading": "Begin with Stuti Chintamani",
+          "text": "Use a named edition and keep the translator’s credit beside any translation. Recordings and accurately checked Odia excerpts can deepen this page in a later editorial pass."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
+        }
       ]
     },
     {
@@ -1482,7 +1585,7 @@
       "title": "Gopinath Mohanty",
       "kicker": "Literary lives · Odia writing",
       "lead": "A landscape holds more than a view. Follow a novelist into the lives, speech and unequal choices that give a place its human depth.",
-      "hero_asset": "gopinath",
+      "hero_asset": "reading-context",
       "sections": [
         {
           "id": "life",
@@ -1569,6 +1672,10 @@
         {
           "title": "Languages of Odisha",
           "href": "/languages/"
+        },
+        {
+          "href": "/destinations/cuttack/",
+          "title": "Explore the Cuttack connection"
         }
       ],
       "external_links": [
@@ -1579,6 +1686,21 @@
         {
           "title": "Find the OUP edition of Paraja",
           "href": "https://india.oup.com/product/paraja-9780195623918"
+        }
+      ],
+      "hero_caption": "An Odia manuscript and stylus at Gyana Mandira, Koraput. A contextual writing image, not a manuscript by the profiled writer.",
+      "reading_notes": [
+        {
+          "heading": "From Nagabali to Koraput",
+          "text": "Carry that connection as a reading question: how does someone’s work in a place shape what they notice—and what might their perspective leave out?"
+        },
+        {
+          "heading": "A doorway through Paraja",
+          "text": "A novel is a crafted literary world. Read it alongside present-day voices from the communities concerned, rather than treating its characters as a guide to every person you meet."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
         }
       ]
     },
@@ -1939,6 +2061,13 @@
               "kind": "sourced_summary"
             },
             {
+              "text": "Sambalpur district lists Pranaya Ballari, Kichaka Badha and Indumati among his works. Ask a library or bookseller for a reliable edition of one title, with an introduction that explains its literary setting.",
+              "source_ids": [
+                "gangadhar-sambalpur"
+              ],
+              "kind": "sourced_summary"
+            },
+            {
               "text": "Choose a reliable edition with a named editor or translator. Follow one scene and ask what its sound, images and point of view make you feel. Keep a translation’s interpretation distinct from the original words.",
               "source_ids": [],
               "kind": "editorial_invitation"
@@ -1994,6 +2123,20 @@
         {
           "title": "Read the district’s biographical note",
           "href": "https://sambalpur.odisha.gov.in/en/about-district/eminent-personalities"
+        }
+      ],
+      "reading_notes": [
+        {
+          "heading": "A beginning in Barpali",
+          "text": "Hold craft and poetry together as a reading question. How does attention—to a line, a pattern, a rhythm—change what we notice? This comparison is our invitation, not a statement attributed to the poet."
+        },
+        {
+          "heading": "An old story can become a new poem",
+          "text": "Choose a reliable edition with a named editor or translator. Follow one scene and ask what its sound, images and point of view make you feel. Keep a translation’s interpretation distinct from the original words."
+        },
+        {
+          "heading": "Keep an edition note",
+          "text": "Record the title, author, editor or translator, publisher and language of the edition you choose. These introductions do not replace the work itself."
         }
       ]
     }

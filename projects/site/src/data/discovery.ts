@@ -7,6 +7,7 @@ import notes from './selected.json';
 import voices from '../../../../kb/research/voices/collection.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 import coastalFood from '../../../../kb/research/food/puri-coast.json';
+import cuttackFood from '../../../../kb/research/food/cuttack.json';
 import cityFood from '../../../../kb/research/food/bhubaneswar.json';
 import foods from '../../../../kb/research/food/collection.json';
 import {detailRecords,detailUrl,detailPhoto} from './destination-details';
@@ -15,6 +16,7 @@ const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/ju
 const collectionEntries=[
  {label:coastalFood.title,category:'Food',dek:coastalFood.lead,href:'/food/puri-coast/',image:foods.assets[coastalFood.hero],regions:['Puri','Konark & Puri']},
  {label:cityFood.title,category:'Food',dek:cityFood.lead,href:'/food/bhubaneswar/',image:foods.assets[cityFood.hero],regions:['Bhubaneswar']},
+ {label:cuttackFood.title,category:'Food',dek:cuttackFood.lead,href:'/food/cuttack/',image:foods.assets[cuttackFood.hero],regions:['Cuttack']},
  ...regions.regions.map(r=>({label:r.title,category:'Places',dek:r.orientation,href:`/destinations/${r.slug}/`,image:regions.assets[r.hero],regions:[r.title]})),
  ...detailRecords.map(r=>({label:r.title,category:r.kind==='places'?'Places':r.kind==='stays'?'Stay areas':'Experiences',dek:r.lead,href:detailUrl(r.kind,r.slug),image:detailPhoto(r),regions:[r.parent==='konark'?'Konark & Puri':r.parent==='chilika'?'Chilika':regions.regions.find(region=>region.slug===r.parent)?.title||'Across Odisha']})),
  {label:'Places, voices & stories',category:'Literature',dek:'Cultural reading trails through Chilika, Balasore and Mayurbhanj.',href:'/stories/culture-trails/',regions:['Chilika','Balasore','Mayurbhanj']},

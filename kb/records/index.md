@@ -118,3 +118,7 @@
 - [Simple cookie message review](cookie-message-review.json).
 
 - [Simple cookie message publication](cookie-message-publication.json).
+
+- [Cuttack collection review](cuttack-release-review.json) — six connected guides, photographed subjects and a city journey.
+
+- [Odia literature collection review](odia-literature-release-review.json) — language, six literary lives, reading prompts and offline books.

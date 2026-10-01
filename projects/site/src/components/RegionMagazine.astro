@@ -26,7 +26,7 @@ const hero=data.assets[r.hero],story=r.sections.find(s=>s.id==='stories');
 const photos=[...new Set([r.hero,...r.items.map(i=>i.asset).filter(Boolean)])].map(id=>data.assets[id]);
 const sourceIds=[...new Set([...r.source_ids,...r.facts.flatMap(f=>f.source_ids),...r.items.flatMap(i=>i.source_ids),...r.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids)),...(r.visitor_notes||[]).flatMap(n=>n.source_ids)])];
 const pictured=r.items.filter(i=>i.asset),other=r.items.filter(i=>!i.asset),next=data.regions.find(region=>region.slug===r.next);
-const further=connections.links.filter(link=>link.from===`/destinations/${r.slug}/`&&!r.items.some(i=>i.link?.href===link.to)&&link.to!==`/destinations/${next.slug}/`).map(link=>({...link,title:discoveryEntries.find(e=>e.href===link.to)?.label||link.to}));
+const further=connections.links.filter(link=>allowsPage(link.to)&&link.from===`/destinations/${r.slug}/`&&!r.items.some(i=>i.link?.href===link.to)&&link.to!==`/destinations/${next.slug}/`).map(link=>({...link,title:discoveryEntries.find(e=>e.href===link.to)?.label||link.to}));
 ---
 <div class="utk-magazine utk-magazine--region">
  <MagazineCover title={r.title} odia={r.odia} eyebrow={r.kicker} deck={[r.headline]} photo={hero} saveId={r.id} startHref="#stories" startLabel="Meet the place" footline={r.lead}/>
