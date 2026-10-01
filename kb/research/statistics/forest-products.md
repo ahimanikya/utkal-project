@@ -32,3 +32,24 @@ The same report describes **15 tonnes/year installed honey-processing capacity a
 ## Food-processing research capability
 
 OUAT reports a developed mahua candy/nectar unit rated10 kg per batch in its2020–21 report (printed p.23). [Source](https://ouat.ac.in/wp-content/uploads/2023/05/annual_report_2020-21_3.pdf). This is a research-unit specification, not an operating-factory census, annual output or commercial success. The observation is saved separately from OFDC honey capacity.
+
+## Worker welfare: preserve the payment year and scope
+
+The 2025 report records **₹250.75 crore distributed during 2023 for crop year 2022**, to more than eight lakh beneficiaries. It separately records **₹108.60 crore of bonuses and incentives during 2024 for crop year 2023**, to about nine lakh beneficiaries. The descriptions cover different benefit scopes; do not calculate a like-for-like decline or average worker earnings from them. [Printed p.150](https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf).
+
+The [live welfare portal](https://kenduleaves.odisha.gov.in/welfare-measures), updated 9 September 2026, now displays ₹250.39 crore for year 2022, ₹116.07 crore for 2023 and ₹100.69 crore for 2024. Its year basis is unspecified. The older search-indexed snapshot contains different values again. These are held as a scope/vintage conflict, not silently substituted into the older report.
+
+## A separately labelled grant table
+
+| Financial year | Reported grant records | Total amount, ₹crore |
+| --- | ---: | ---: |
+| 2023–24 | 587 | 11.235 |
+| 2024–25 | 1,216 | 24.060 |
+| 2025–26 | 1,235 | 24.635 |
+| 2026–27, partial; cutoff unstated | 257 | 5.130 |
+
+Source: [Compassionate Grant table](https://kenduleaves.odisha.gov.in/welfare-measures), read 1 October 2026. Amounts above convert the original rupees by dividing by 10,000,000. These death/permanent-disability welfare records must not be presented as distinct people, all worker benefits or household income. A higher grant total is not inherently a better wellbeing outcome. Partial 2026–27 must not be compared with complete years.
+
+## An additional original vintage for the sales discrepancy
+
+OFDC's 2020–21 annual report gives **262,581 quintals** in the FY2019–20 comparative sales column (printed p.17), equivalent to 2.62581 lakh quintals. The page was visually checked. This supports an additional precise historical observation but does not reconcile the existing 2.625/2.621 lakh totals or ₹399.09/₹399.14 crore sales values. Keep the original conflict open. [Annual report](https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf).

@@ -4258,6 +4258,17 @@
       "content_type": "Food Profile",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/forest-worker-support",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "everyday",
+        "governance"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6080,6 +6091,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects a named ingredient to plant-part, season and collector-market questions; does not establish current income or exports."
+    },
+    {
+      "from": "stories/forest-worker-support",
+      "to": "statistics/forest-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains how payment categories differ; does not infer typical earnings or improved wellbeing from a grant total."
     }
   ],
   "relationship_types": {

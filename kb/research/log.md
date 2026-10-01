@@ -276,3 +276,7 @@ RES-056 enhanced siali and added a sal profile from three primary publications. 
 ## 1 October 2026 · Tentuli and chara/chironji
 
 Enhanced two existing product identities with profiles, local seasons, attributed historical community-market entries and one scoped collector-sale testimony. Cultivar listings do not establish Odisha planting. Failed original-source retrievals recorded; no current market totals, recipe testing or website publication claimed. RES-056 retains unmet criteria and 8 October retry.
+
+## 1 October 2026 · Forest-worker payments
+
+Saved 20 scoped observations, a readable grant-category story and two publisher sources. Original OFDC comparative table visually checked; welfare scope conflicts preserved. Failed procurement/rate sources recorded without admitting search snippets. No website publication or independent payment audit claimed.

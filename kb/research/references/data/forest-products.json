@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:20:19.531656+00:00",
+  "updated_at": "2026-10-01T21:29:27.391557+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -101,7 +101,27 @@
     "forest-products-ofdc-web-sales-2020",
     "forest-products-ofdc-web-sold-2020",
     "forest-products-honey-capacity",
-    "forest-products-ouat-mahua-unit2021"
+    "forest-products-ouat-mahua-unit2021",
+    "forest-welfare-report-2023-amount",
+    "forest-welfare-report-2023-beneficiaries",
+    "forest-welfare-report-2024-amount",
+    "forest-welfare-report-2024-beneficiaries",
+    "forest-welfare-web-2018",
+    "forest-welfare-web-2019",
+    "forest-welfare-web-2020",
+    "forest-welfare-web-2021",
+    "forest-welfare-web-2022",
+    "forest-welfare-web-2023",
+    "forest-welfare-web-2024",
+    "forest-compassionate-2023-24-count",
+    "forest-compassionate-2023-24-amount",
+    "forest-compassionate-2024-25-count",
+    "forest-compassionate-2024-25-amount",
+    "forest-compassionate-2025-26-count",
+    "forest-compassionate-2025-26-amount",
+    "forest-compassionate-2026-27-count",
+    "forest-compassionate-2026-27-amount",
+    "forest-ofdc-ar2021-sold2019"
   ],
   "conflicts": [
     {
@@ -120,6 +140,43 @@
       "source_id": "forest-vasundhara2001",
       "status": "unresolved",
       "reason": "TitleSundergarh versus executive-summarySambalpur; no district statistic adopted."
+    },
+    {
+      "id": "kendu-welfare-vintages2026",
+      "source_ids": [
+        "forest-sector2025",
+        "forest-kl-welfare2026"
+      ],
+      "status": "unresolved",
+      "issue": "2025 report payment/crop-year statements, direct September 2026 portal year table and June-indexed snapshot differ in totals and scope. Do not join into a comparable growth series.",
+      "observation_ids": [
+        "forest-welfare-report-2023-amount",
+        "forest-welfare-report-2023-beneficiaries",
+        "forest-welfare-report-2024-amount",
+        "forest-welfare-report-2024-beneficiaries",
+        "forest-welfare-web-2018",
+        "forest-welfare-web-2019",
+        "forest-welfare-web-2020",
+        "forest-welfare-web-2021",
+        "forest-welfare-web-2022",
+        "forest-welfare-web-2023",
+        "forest-welfare-web-2024"
+      ],
+      "resolution_needed": "Dated category-level distribution accounts and explicit definition of portal Year."
+    },
+    {
+      "id": "kendu-annual-report-quantity2019",
+      "source_ids": [
+        "forest-sector2025",
+        "forest-ofdc-kendu",
+        "forest-ofdc-ar2021"
+      ],
+      "status": "unresolved",
+      "issue": "Original comparative sales total 262581 quintals adds a third vintage; existing 2.625 and 2.621 lakh values remain unresolved. Money conflict unchanged.",
+      "observation_ids": [
+        "forest-ofdc-ar2021-sold2019"
+      ],
+      "resolution_needed": "Matching revised comparative schedule or publisher reconciliation."
     }
   ],
   "task_ids": [
@@ -344,6 +401,57 @@
       "retrieved_on": "2026-10-01",
       "scope": "New char/tentuli passages read. Alternate repository URL and screenshot failed; existing original URL text available. Same publication, not new corroboration.",
       "retry_after": null
+    },
+    {
+      "source_id": "forest-kl-welfare2026",
+      "url": "https://kenduleaves.odisha.gov.in/welfare-measures",
+      "status": "available",
+      "scope": "Direct page text differs from search-indexed June snapshot. Welfare table year basis is unspecified; retain it separately from report payment/crop years. Compassionate-grant counts are records, not verified distinct people.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-ar2021",
+      "url": "https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf",
+      "status": "available",
+      "scope": "Original PDF downloaded through publisher listing; printed p.17 visually checked. Audited financial statements accompany the report, but this does not independently audit every narrative/table. FY2019–20 quantity is an additional unresolved vintage.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/en/publication/annual-reports",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out. Indexed successors are leads only.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-07/Annual%20Activity%20Report_2023-24_2.pdf",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out; no procurement figures imported.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://kenduleaves.odisha.gov.in/admin/data/ckeditor/images/Notification%20No-2587%20Dtd-%2013_02_2024-%20Enhancement%20of%20Kerry%20Price.pdf",
+      "status": "unavailable",
+      "scope": "Web and direct connection timed out; indexed rates not admitted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://trifed.tribal.gov.in/en/node/683",
+      "status": "unavailable",
+      "scope": "Web timeout; no current centres, procurement or product outcomes admitted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A2534/lang%3A",
+      "status": "unavailable",
+      "scope": "Web unavailable; indexed division-payment lead not adopted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
     }
   ],
   "human_review_claimed": false,
@@ -721,6 +829,11 @@
       "run_id": "2026-10-01-forest-fruits",
       "at": "2026-10-01T21:20:19.531656+00:00",
       "scope": "Two existing product leads developed; seasonal accounts, community-market entries and one scoped historical sale testimony; no statewide income or export estimates."
+    },
+    {
+      "run_id": "2026-10-01-forest-payments",
+      "at": "2026-10-01T21:29:27.391557+00:00",
+      "scope": "20 observations: historical payment statements, held portal welfare series, fiscal-year grant totals and original comparative sales quantity. No unverified procurement adopted."
     }
   ],
   "seasonal_accounts": [

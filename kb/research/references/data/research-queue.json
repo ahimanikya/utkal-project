@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T21:20:19.531656+00:00",
+  "updated_at": "2026-10-01T21:29:27.391557+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2471,18 +2471,22 @@
       "done_when": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
       "target": "economy/forest-products.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": "2026-10-01T21:20:19.531656+00:00",
-      "next_step": "Seek dated primary collector-payment and realised procurement records. Preserve Vasundhara sale testimony as undated and grade-unspecified; recover original policy/TDCCOL tender after 2026-10-08. Keep kendu 2019–20 conflict unresolved.",
+      "last_worked_at": "2026-10-01T21:29:27.391557+00:00",
+      "next_step": "Reconcile welfare table year/category definitions and original OFDC FY2019–20 quantity 262581 quintals against saved alternatives. Retrieve dated TDCCOL procurement/payment tables from original annual reports after 2026-10-08; no indexed figures admitted. Compassionate grants are a separate category, not collector earnings.",
       "evidence_outputs": [
         "food/tentuli-tamarind.md",
-        "sources/forest-vasundhara-tamarind.md"
+        "sources/forest-vasundhara-tamarind.md",
+        "sources/forest-kl-welfare2026.md",
+        "sources/forest-ofdc-ar2021.md",
+        "stories/forest-worker-support.md",
+        "statistics/forest-products.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2491,6 +2495,12 @@
           "run_id": "2026-10-01-forest-fruits",
           "at": "2026-10-01T21:20:19.531656+00:00",
           "outcome": "scoped_historical_sale_testimony_and_original_procurement_fetch_gap",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-forest-payments",
+          "at": "2026-10-01T21:29:27.391557+00:00",
+          "outcome": "payment_and_grant_tables_original_sales_quantity_conflicts_retained",
           "completion_criteria_met": false
         }
       ],
@@ -2509,7 +2519,10 @@
           "food/mohu-honey.md",
           "food/mahua-mohula.md",
           "food/tentuli-tamarind.md",
-          "sources/forest-vasundhara-tamarind.md"
+          "sources/forest-vasundhara-tamarind.md",
+          "sources/forest-kl-welfare2026.md",
+          "sources/forest-ofdc-ar2021.md",
+          "stories/forest-worker-support.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

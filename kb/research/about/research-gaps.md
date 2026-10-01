@@ -270,3 +270,7 @@ Local sal/siali windows and a named historical maker are documented in RES-056. 
 ## Tentuli and chara checkpoint
 
 Local season/use profiles and community-market entries are saved. Full attributed recipes, cooking endpoints and SCSTRTI dates remain unresolved; RES-056 deferred to 8 October with completion criteria intact. A named tamarind sale testimony lacks transaction date and lot grade; do not use it as a present price or net income. TDCCOL tender failed web and certificate-validated download; NIScPR article failed landing/PDF routes. RES-057 retains independent dated payment research.
+
+## Forest-payment scope conflicts
+
+RES-057 retains differing welfare vintages/year bases and a third FY2019–20 sales-quantity observation from OFDC’s original report. Grant records do not measure household earnings. Original TDCCOL annual-report and rate-notification routes failed; retry 8 October. Accessible grant totals are saved separately, with the current year marked partial.

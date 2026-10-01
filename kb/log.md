@@ -187,3 +187,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Tentuli and chara food and markets
 
 [Research receipt](records/forest-fruits-2026-10-01.json): Two existing product identities enhanced; historical testimony retained with unresolved date and grade. No website release.
+
+## 1 October 2026 · Forest-worker support and payment evidence
+
+[Research receipt](records/forest-payments-2026-10-01.json): Twenty dated observations added; grants separated from earnings, welfare and OFDC conflicts retained. No website release.

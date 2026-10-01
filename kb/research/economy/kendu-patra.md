@@ -24,3 +24,7 @@ Follow collection, sorting, drying, grading, storage and sale through named plac
 District and division collection volumes; quality grades; dates and units of payments; plucker and binder earnings; seasonal employment; cooperatives and women workers; storage losses; actual export shipments. Identify whether a measure counts people, worker-days, bundles or weight. Keep tobacco-wrapper commerce clearly classified as non-food.
 
 [Forest products](forest-products.md) · [Forest livelihood history](../history/forest-livelihoods.md).
+
+## Payment evidence added
+
+[Worker welfare and compassionate grants](../statistics/forest-products.md) now separate distribution year, crop year and financial year. Historical payment statements, a newer portal table and the original OFDC comparative sales quantity are retained with their scope conflicts. Procurement prices and bonus announcements do not prove what each worker received.

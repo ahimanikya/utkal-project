@@ -15912,6 +15912,55 @@
         "forest-chironji-processing2012"
       ],
       "added_at": "2026-10-01T21:20:19.531656+00:00"
+    },
+    {
+      "id": "sources/forest-kl-welfare2026",
+      "title": "Kendu Leaf Organisation: Welfare Measures",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-kl-welfare2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-kl-welfare2026"
+      ],
+      "added_at": "2026-10-01T21:29:27.391557+00:00"
+    },
+    {
+      "id": "sources/forest-ofdc-ar2021",
+      "title": "OFDC 58th Annual Report 2020–21",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-ofdc-ar2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-ofdc-ar2021"
+      ],
+      "added_at": "2026-10-01T21:29:27.391557+00:00"
+    },
+    {
+      "id": "stories/forest-worker-support",
+      "title": "Forest work: understanding the support behind the trade",
+      "kind": "Evidence Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/forest-worker-support.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "everyday",
+        "governance"
+      ],
+      "source_ids": [
+        "forest-kl-welfare2026"
+      ],
+      "added_at": "2026-10-01T21:29:27.391557+00:00"
     }
   ],
   "shared_publications": [
@@ -17048,7 +17097,10 @@
         "food/mohu-honey.md",
         "food/mahua-mohula.md",
         "food/tentuli-tamarind.md",
-        "sources/forest-vasundhara-tamarind.md"
+        "sources/forest-vasundhara-tamarind.md",
+        "sources/forest-kl-welfare2026.md",
+        "sources/forest-ofdc-ar2021.md",
+        "stories/forest-worker-support.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
@@ -17161,8 +17213,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1101,
-    "updated_at": "2026-10-01T21:20:19.531656+00:00",
+    "records_mapped": 1104,
+    "updated_at": "2026-10-01T21:29:27.391557+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -17573,6 +17625,11 @@
       "run_id": "2026-10-01-forest-fruits",
       "at": "2026-10-01T21:20:19.531656+00:00",
       "scope": "Tamarind and chara enhance existing product/Koli records. Three sources added; same SCSTRTI and Balasore publications reused without duplicate source IDs."
+    },
+    {
+      "run_id": "2026-10-01-forest-payments",
+      "at": "2026-10-01T21:29:27.391557+00:00",
+      "scope": "Original 2025 report reused; new live welfare and OFDC annual-report vintages preserved separately. No repeated publication treated as corroboration."
     }
   ]
 }

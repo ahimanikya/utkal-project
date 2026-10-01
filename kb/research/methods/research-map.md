@@ -239,3 +239,7 @@ Existing siali and forest-product identities were reused. Sal now has one profil
 ## Forest fruit extension · 1 October 2026
 
 Two profiles deepen existing tamarind/chara product leads. Koli identity and two existing primary studies were reused; only unread fields were researched. Three additional source records distinguish institutional cultivar evidence, historical testimony and an inaccessible processing lead.
+
+## Forest-payment extension · 1 October 2026
+
+Existing forest statistics enhanced, reusing the 2025 report. Two new publisher sources distinguish live welfare figures from an original annual-report comparative. The readable story links to canonical statistics; no duplicate kendu profile or task.

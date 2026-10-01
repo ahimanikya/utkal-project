@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:20:19.531656+00:00",
+  "updated_at": "2026-10-01T21:29:27.391557+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4425,6 +4425,69 @@
       "status": "available_text_only",
       "scope": "New char/tentuli passages read. Alternate repository URL and screenshot failed; existing original URL text available. Same publication, not new corroboration.",
       "retry_after": null
+    },
+    {
+      "source_id": "forest-kl-welfare2026",
+      "discovery_url": "https://kenduleaves.odisha.gov.in/welfare-measures",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "available",
+      "scope": "Direct page text differs from search-indexed June snapshot. Welfare table year basis is unspecified; retain it separately from report payment/crop years. Compassionate-grant counts are records, not verified distinct people.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-ar2021",
+      "discovery_url": "https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "available",
+      "scope": "Original PDF downloaded through publisher listing; printed p.17 visually checked. Audited financial statements accompany the report, but this does not independently audit every narrative/table. FY2019–20 quantity is an additional unresolved vintage.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://stsc.odisha.gov.in/en/publication/annual-reports",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out. Indexed successors are leads only.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://stsc.odisha.gov.in/sites/default/files/2024-07/Annual%20Activity%20Report_2023-24_2.pdf",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out; no procurement figures imported.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://kenduleaves.odisha.gov.in/admin/data/ckeditor/images/Notification%20No-2587%20Dtd-%2013_02_2024-%20Enhancement%20of%20Kerry%20Price.pdf",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web and direct connection timed out; indexed rates not admitted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://trifed.tribal.gov.in/en/node/683",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web timeout; no current centres, procurement or product outcomes admitted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A2534/lang%3A",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web unavailable; indexed division-payment lead not adopted.",
+      "retry_after": "2026-10-08"
     }
   ]
 }

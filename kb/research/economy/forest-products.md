@@ -69,3 +69,7 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 ## Fruit and kernel value chains
 
 [Tentuli](../food/tentuli-tamarind.md) distinguishes pulp, seeds and sale grades. [Chara/chironji](../food/chara-chironji.md) distinguishes fruit, hard nut and kernel. Historical community-market accounts are saved; processing yields, current prices, realised procurement and exports remain open.
+
+## From sale proceeds to worker support
+
+[The payment evidence](../statistics/forest-products.md) adds dated kendu welfare statements and a separately labelled compassionate-grant table. These belong to the non-food forest economy. TDCCOL product procurement and actual collector payments still need accessible original statements; tenders, targets and indexed tables are not realised purchases.
