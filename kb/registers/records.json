@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T11:02:47.008110+00:00",
+  "recorded_at": "2026-10-01T11:08:52.776626+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3471,22 +3471,26 @@
       "id": "UTP-WORK-117",
       "title": "Dismiss cookie UI after saved choice",
       "category": "website_experience",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-113",
-      "next_action": "Founder reviews the cookie-interface candidate before publication.",
+      "next_action": "Published under UTP-REL-025; preference management remains accessible through Privacy.",
       "blockers": [],
       "refs": [
         "UTP-DEC-113",
-        "UTP-REV-087"
+        "UTP-REV-087",
+        "UTP-DEC-114",
+        "UTP-REV-088",
+        "UTP-REL-025"
       ],
       "evidence": [
-        "records/cookie-dismissal-review.json"
+        "records/cookie-dismissal-review.json",
+        "records/cookie-dismissal-publication.json"
       ]
     }
   ],
@@ -5764,6 +5768,27 @@
       "evidence": [
         "records/cookie-dismissal-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-114",
+      "title": "Approve and publish PR 25 cookie dismissal",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "Approved",
+      "scope": "Direct reply to PR 25 review handoff, approving merge and publication of e14135a2f594fcebf3908b358401b1355c73de0c.",
+      "recorded_at": "2026-10-01T11:08:52.776626+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-113",
+        "UTP-WORK-117",
+        "UTP-REV-087"
+      ],
+      "evidence": [
+        "records/cookie-dismissal-publication.json"
+      ]
     }
   ],
   "requirements": [
@@ -7847,6 +7872,28 @@
       "evidence": [
         "records/cookie-dismissal-review.json"
       ]
+    },
+    {
+      "id": "UTP-REV-088",
+      "title": "Cookie dismissal live verification",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and verified the release; no independent review claimed.",
+        "Browser visual check remains unavailable due to the browser security-policy verification failure. Live verification uses read-only HTTP and published HTML.",
+        "Consent interactions were verified with the actual component script and synthetic DOM/storage/network objects in the candidate and passing deployment tests."
+      ],
+      "refs": [
+        "UTP-DEC-114",
+        "UTP-WORK-117"
+      ],
+      "evidence": [
+        "records/cookie-dismissal-publication.json"
+      ]
     }
   ],
   "releases": [
@@ -8286,6 +8333,22 @@
         "records/visitor-experience-publication.json"
       ],
       "note": "Approved PR 23 published and verified across 67 pages, metadata, 25 image hashes, navigation and HTTPS. Indexing remains disabled."
+    },
+    {
+      "id": "UTP-REL-025",
+      "title": "Cookie dismissal fix published",
+      "status": "published",
+      "authorization": "UTP-DEC-114",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-114",
+        "UTP-REV-088",
+        "UTP-WORK-117"
+      ],
+      "evidence": [
+        "records/cookie-dismissal-publication.json"
+      ],
+      "note": "Approved PR 25 deployed; 67 live pages checked. Preferences remain available in Privacy."
     }
   ],
   "sources": [
