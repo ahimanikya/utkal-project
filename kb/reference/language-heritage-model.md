@@ -81,3 +81,7 @@ Tracked as **UTP-WORK-016**. Current delivery is the KB model and research queue
 ## Founder clarification: languages and literary lives
 
 The public hub is proposed as **Languages of Odisha**, with each language receiving substantive coverage. **Odia Literature & Literary Lives** is a dedicated linked collection of writers, works and their cultural influence. See the [literature collection plan and initial personality queue](../research/culture/odia-literature-and-literary-lives.md). This extends the existing domain rather than treating other languages as a translation feature or collapsing their literature into Odia.
+
+## Delivery update · 1 October 2026
+
+The original model and research queue above are preserved as the design history. Odia and the first literature collection are now in the public preview. Seven additional **English introductions** are prepared under [UTP-WORK-114](../research/product/living-languages.md), with original publication checks and a public contribution-proposal path. Their evidence does not confer native-speaker or specialist endorsement. Newly authored language phrases, pronunciation, translations and recordings remain held for the appropriate language and rights review. No complete history or community representation is claimed. Founder review controls whether this bounded candidate is published.

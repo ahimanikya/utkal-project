@@ -62,7 +62,8 @@ test('public contribution copy distinguishes GitHub visibility from encyclopedia
 test('new-subject and photo handoffs retain public context without a pre-existing entry',()=>{
  const out=html('/contribute/').replaceAll('&amp;','&');
  const urls=[...out.matchAll(/href="(https:\/\/github\.com\/ahimanikya\/utkal-project\/issues\/new\?[^" ]+)"/g)].map(m=>new URL(m[1]));
- assert.equal(urls.length,2);
+ assert.equal(urls.length,3);
+ assert.ok(urls.some(u=>u.searchParams.get('title').startsWith('[Language]')));
  assert.ok(urls.some(u=>u.searchParams.get('title').startsWith('[Knowledge]')));
  assert.ok(urls.some(u=>u.searchParams.get('title').startsWith('[Photo]')));
  for(const url of urls){assert.ok(url.searchParams.get('body').includes('public'));assert.ok(!url.searchParams.has('assignees'));}
