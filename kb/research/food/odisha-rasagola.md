@@ -1,39 +1,49 @@
 ---
 type: "Food"
 title: "Odisha Rasagola"
-description: "Odisha Rasagola — research and reuse notes."
+description: "Rasagola in Odisha: ritual, literature, makers and a named regional identity."
 tags: ["food", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "gi-rasagola", "title": "Odisha Rasagola — GI application 612", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612"}]
-verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
+sources: [{"id": "gi-rasagola", "title": "Odisha Rasagola — GI application 612", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612"}, {"id": "rasagola-osic", "title": "OSIC E-News, July 2019, pp. 3–4", "resource": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf"}, {"id": "rasagola-market-travelogue", "title": "A short trip to a Sweets Wonderland in Odisha", "resource": "https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha"}]
+verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}, {"by": "Current AI assistant", "at": "2026-10-01T15:37:40.825682+00:00"}]
 geography: "Odisha"
 aliases: ["Odisha Rasagola", "odisha rasagola"]
-verification_scope: "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals."
+verification_scope: "Registry record, OSIC account and dated hosted travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected."
 stale_after: "2027-03-27T00:00:00Z"
-readiness: "Research nucleus; feature needs local detail and media"
+readiness: "Odisha-rooted editorial candidate; maker interviews and original-document checks remain open."
 ---
 
 # Odisha Rasagola
 
-## Sourced knowledge
+**A sweet can carry a place’s memory.** Follow rasagola through Odisha’s ritual life, literary references and sweet-making communities.
 
-GI application 612 is listed as registered; certificate dated 29 July 2019.[^gi-rasagola]
+## A homecoming in Puri
 
-## Story opportunity
+OSIC describes rasagola’s offering to Lakshmi on Jagannath’s behalf at Niladri Bije and cites the temple’s 1955 Record of Rights. The ritual belongs to devotional tradition; it is not a dated account of invention.[^rasagola-osic]
 
-Build a geographically named sweet collection with makers’ voices.
+## A thread through Odia literature
 
-*Editorial proposal; audience response has not been measured.*
+The same publication identifies a rasagola reference in Balaram Das’s Dandi Ramayana. We have inspected OSIC’s account, not independently collated the original passage or dated its earliest manuscript witness.[^rasagola-osic]
 
-## Next research
+## Meet the places that keep making it
 
-GI registration does not establish every origin story or authenticate every seller.
+A travelogue hosted by Odisha Tourism describes Pahala’s roadside sweet market between Bhubaneswar and Cuttack and mentions Salepur’s rasagola tradition. These are connections for future maker-led stories; the account concerns a 2019 visit, not verified present-day hours, prices or vendor quality.[^rasagola-market-travelogue]
+
+Ask a maker what they learned, who taught them, and what they want the next generation to remember. Photograph the making with permission. Record their account as testimony, with their name and date, rather than treating one shop’s story as the history of every rasagola.
+
+## A named Odisha identity
+
+The GI Registry lists Odisha Rasagola under application 612, with a certificate dated 29 July 2019. Odisha’s named product and cultural connections deserve explicit recognition. Registration alone does not settle every competing account of the sweet’s first invention.[^gi-rasagola]
+
+## Research still to do
+
+Inspect the cited temple record and a critical edition of Dandi Ramayana; record editions, page references and dates. Add consented maker interviews from Pahala and Salepur, with properly licensed images. Keep ritual, documentary evidence and oral testimony distinct.
 
 ## Connections
 
-[Related knowledge](mahaprasad.md) · [Research standards](../about/research-method.md)
+[Mahaprasad](mahaprasad.md) · [Rasagola economics](../economy/rasagola-and-sweets.md) · [Research standards](../about/research-method.md)
 
 [^gi-rasagola]: [Odisha Rasagola — GI application 612](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612)
-
-[Rasagola economics](../economy/rasagola-and-sweets.md) connects this product identity with the next research on production, enterprise, logistics and exports; no market-size estimate established.
+[^rasagola-osic]: [OSIC E-News, July 2019, pp. 3–4](https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf)
+[^rasagola-market-travelogue]: [A short trip to a Sweets Wonderland in Odisha](https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha)
