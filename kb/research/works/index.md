@@ -81,3 +81,13 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Go Kiss the World: Life Lessons for the Young Professional](go-kiss-the-world.md)
 
 - [The Day the Chariot Moved: How India Grows at the Grassroots](day-the-chariot-moved.md)
+
+- [Manto](manto-film.md)
+
+- [Zwigato](zwigato-film.md)
+
+- [Children of a Better God](children-of-a-better-god.md)
+
+- [Rupaiya — Satyamev Jayate recording](rupaiya-satyamev-jayate.md)
+
+- [Sujata Mohapatra: JIPMER Odissi recital,2025](sujata-jipmer-recital-2025.md)

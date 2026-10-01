@@ -81,3 +81,11 @@
 - [Subroto Bagchi](subroto-bagchi.md)
 
 - [Contemporary creators connected to Odisha](contemporary-creators.md)
+
+- [Nandita Das](nandita-das.md)
+
+- [Susmita Bagchi](susmita-bagchi.md)
+
+- [Sona Mohapatra](sona-mohapatra.md)
+
+- [Sujata Mohapatra](sujata-mohapatra.md)

@@ -87,3 +87,7 @@ The bounded RES-027 set now covers **six practitioners and twelve independently 
 ## Contemporary creative lives · 1 October 2026
 
 [Contemporary creators](../people/contemporary-creators.md) connects Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi to five credited creations. Existing Pratibha Ray and Sudarsan Pattnaik profiles are reused. Dated recognition, artistic circulation and economic outcomes remain distinct.
+
+## Women across creative fields · 1 October2026
+
+The [contemporary creators collection](../people/contemporary-creators.md) now includes Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra. Five linked records distinguish films, a translated novel, a song recording and a performance occurrence. Existing Jatin Das, Pratibha Ray and Kelucharan Mohapatra pages are reused for related reading.

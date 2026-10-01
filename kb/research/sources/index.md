@@ -406,3 +406,27 @@
 - [The Day the Chariot Moved: How India Grows at the Grassroots](creators-bagchi-chariot.md)
 
 - [Penguin Adult Publishing April–June 2025 catalogue: Bagchi listing](creators-bagchi-advance-2025.md)
+
+- [I am still searching for a place to call home](creators-nandita-roots.md)
+
+- [Nandita Das: profile](creators-nandita-profile.md)
+
+- [Zwigato: story and director note](creators-zwigato-official.md)
+
+- [Manto: Cannes2018 official selection and credits](creators-manto-cannes.md)
+
+- [Children of A Better God: publisher edition and author biography](creators-susmita-penguin.md)
+
+- [Susmita Bagchi: festival speaker biography](creators-susmita-klf.md)
+
+- [Sona Mohapatra: interview](creators-sona-home.md)
+
+- [Rupaiya: Satyamev Jayate recording credits](creators-rupaiya-label.md)
+
+- [About Sujata Mohapatra](creators-sujata-bio.md)
+
+- [Sangeet Natak Akademi Awards for2017: investiture announcement](creators-sujata-award.md)
+
+- [JIPMER Heritage Club: Odissi concert by Sujata Mohapatra](creators-sujata-jipmer.md)
+
+- [Darbar Festival2018 brochure: dance programme](creators-sujata-darbar.md)

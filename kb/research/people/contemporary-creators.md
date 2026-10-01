@@ -31,3 +31,14 @@ Odisha’s creative story includes people working across Indian cities and overs
 [Garments and markets](../handlooms/garments-and-markets.md) distinguishes clothing forms, textile techniques and trade evidence. A designer’s Odisha origins do not establish Odisha manufacture or exports. [Works](../works/index.md) provides named creations and language or edition details.
 
 The next extension should improve coverage of women and newer creative voices, using identified works and original institutional or publisher records. No portrait, artwork or book text has been copied under an assumed licence. Current exhibition access, prices and stock require separate checks.
+
+## Film, music, dance and fiction · 1 October 2026
+
+| Creator | Documented connection | Explore a contribution |
+|---|---|---|
+| [Nandita Das](nandita-das.md) | Baripada family heritage; Bhubaneswar film setting | [Manto](../works/manto-film.md), Cannes 2018 selection; [Zwigato](../works/zwigato-film.md) |
+| [Susmita Bagchi](susmita-bagchi.md) | Odia literature | [Children of a Better God](../works/children-of-a-better-god.md), English edition |
+| [Sona Mohapatra](sona-mohapatra.md) | Self-described Odisha home-state connection | [Rupaiya](../works/rupaiya-satyamev-jayate.md), singer and producer |
+| [Sujata Mohapatra](sujata-mohapatra.md) | Balasore origin in artist biography | [JIPMER 2025 recital](../works/sujata-jipmer-recital-2025.md); 2017 Odissi award |
+
+These additions broaden the existing collection rather than create another personality index. Roles, heritage, birthplace and institutional recognition are separate fields. Eight newly researched creators across the two batches are a collection count, not a statewide total. Susmita’s award-year conflict and missing translator credit remain visible.

@@ -152,3 +152,7 @@ Added Tribikram Pati and Gokulananda Mohapatra with three credited works, six so
 ## 2026-10-01
 
 Added Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi, five credited creations and a contemporary-creators collection. Saved ten primary publisher/artist/gallery/association/government source records with scoped dates and retrieval limits. Reused Ray/Pattnaik profiles, classified linked reading and recorded three bibliographic/biographical conflicts or vintage distinctions. Completed bounded user addition RES-034; science task RES-029 remains active.
+
+## 2026-10-01
+
+Added Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra with five credited records and twelve sources. Enhanced the existing contemporary-creators collection and reused related profiles. Preserved a literary-award date conflict and missing translator credit. The user explicitly approved the prior prepared PR description; it was applied successfully. No website publication or human factual review claimed.

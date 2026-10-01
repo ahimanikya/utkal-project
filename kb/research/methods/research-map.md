@@ -125,3 +125,7 @@ Two people, three works and six sources extend the map to 864. Existing NISER so
 ### Contemporary creators · 1 October 2026
 
 Four new identities, five works, one collection and ten source records extend the map to 884. Source and repository-native name searches preceded research; Ray and Pattnaik reused. Bagchi editions are separate from first-publication claims. Several CFDA articles remain one publisher family, not independent corroboration. RES-034 records the explicit user addition; RES-029 remains in progress.
+
+### Creative women extension · 1 October2026
+
+Four people, five work/performance records and twelve sources extend the map to 905. Existing contemporary collection and Jatin Das/Ray/Kelucharan profiles reused. Festival selection is not an award; performer is not automatically choreographer; translated work retains unresolved translator rather than assigning the author that role. Source/project name searches preceded browsing.

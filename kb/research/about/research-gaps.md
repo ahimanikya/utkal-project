@@ -150,3 +150,7 @@ Pati’s degree dates differ between memorial and thesis catalogue. Mohapatra’
 ### Contemporary creator evidence · 1 October 2026
 
 Need Parliament inventory for the Das painting, NGMA report pagination, direct dated Aicon exhibition details and institutional education records for Panda. Resolve the Obama-visit year disagreement with original event evidence. Retain Bagchi advance catalogue metadata separately from the released edition. None of these profiles supplies audited sales, art prices or Odisha-origin garment exports. Women and newer creative voices merit a further bounded addition after reuse checks.
+
+### Creative women gaps · 1 October2026
+
+Susmita Bagchi’s state literary award is dated1992by KLF and1993by Penguin; original issuer record needed. Children of a Better God needs verified translator/imprint credit. Sujata’s official biography failed direct retrieval; indexed origin is labelled. No current popularity, sales, royalties, book stock, streaming access or image rights are inferred. Rituraj Mohanty, Paramita Satpathy and Pankaj Sethi are future candidates, not verified additions in this run.

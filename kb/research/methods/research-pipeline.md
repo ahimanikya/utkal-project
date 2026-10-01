@@ -119,3 +119,7 @@ RES-029 remains in progress after adding mathematics and science writing. Contin
 ### Contemporary creators user addition · 1 October 2026
 
 RES-034 completes a bounded four-person/five-work seed with classified links. It does not complete RES-026, RES-030 or RES-032. Resume RES-029 next; failed NGMA PDF and Aicon exhibition routes may be retried after8October.
+
+### Creative women user extension · 1 October2026
+
+RES-035 completes the bounded requested extension; RES-029 remains active. Resume RES-029 science work. Further personality candidates Rituraj Mohanty, Paramita Satpathy and Pankaj Sethi require reuse checks and original work/recognition evidence before new profiles. Retry failed biography and edition routes after2026-10-08.

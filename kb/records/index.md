@@ -150,3 +150,5 @@
 - [Modern science checkpoint](science-modern-2026-10-01.json) — Mathematics and Odia science communication: two contributors, three works and five conflicts; RES-029 remains in progress.
 
 - [Contemporary creators](contemporary-creators-2026-10-01.json) — Four people, five works and related reading; explicit user addition RES-034 complete.
+
+- [Women across creative fields](creative-women-2026-10-01.json) — Four additional people, five credited works/performance records and related reading; RES-035 complete.

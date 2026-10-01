@@ -59,3 +59,7 @@ Saved RES-029 checkpoint: Tribikram Pati and Gokulananda Mohapatra, three credit
 ## 2026-10-01
 
 Added Bibhu Mohapatra, Jatin Das, Jagannath Panda and Subroto Bagchi, five credited works and related reading. [Bounded receipt](records/contemporary-creators-2026-10-01.json). Existing Ray/Pattnaik profiles reused. Science research remains active. No website publication or human review claimed.
+
+## 2026-10-01
+
+Added Nandita Das, Susmita Bagchi, Sona Mohapatra and Sujata Mohapatra, five credited records and related reading. [Bounded receipt](records/creative-women-2026-10-01.json). Existing creator collection enhanced. Previous PR-description block resolved by explicit user approval. No website publication or human factual review claimed.
