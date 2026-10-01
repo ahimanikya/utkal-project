@@ -1,3 +1,4 @@
+import everyday from '../../../../kb/research/food/everyday-stories.json';
 import bose from '../../../../kb/research/people/subhas-chandra-bose.json';
 import editionCopy from '../../../../kb/research/destinations/coastal-edition-copy.json';
 import {allowsPage,isCoastalEdition} from './edition';
@@ -15,6 +16,7 @@ import {detailRecords,detailUrl,detailPhoto} from './destination-details';
 const locations={chilika:['Chilika'],konark:['Konark & Puri'],kotpad:['Koraput'],pakhala:['Across Odisha'],'boita-bandana':['Across Odisha']};
 const voiceAreas={'languages/ho':['Mayurbhanj','Keonjhar','Angul'],'languages/juang':['Keonjhar','Angul','Dhenkanal'],'languages/koya':['Malkangiri'],'people/gangadhar-meher':['Bargarh'],'people/fakir-mohan-senapati':['Balasore'],'people/pratibha-ray':['Jagatsinghpur'],'people/bhima-bhoi':['Sambalpur & Subarnapur'],'people/gopinath-mohanty':['Cuttack','Koraput'],'languages/kui':['Kandhamal'],'languages/kuvi':['Rayagada'],'languages/saora':['Southern Odisha'],'languages/santali':['Mayurbhanj']};
 const collectionEntries=[
+ {label:everyday.title,category:"Food",dek:everyday.lead,href:"/food/everyday/",image:foods.assets[everyday.hero],regions:["Across Odisha"]},
  {label:'Languages by district',category:'Languages',dek:'Start with a place: compare Census 2011 mother tongues across all 30 districts and follow the stories behind the numbers.',href:'/languages/districts/',regions:['Across Odisha']},
  {label:'Multilingual Odisha',category:'Languages',dek:'A mother tongue is one question. Explore additional languages and the limits of population statistics.',href:'/languages/multilingual-odisha/',regions:['Across Odisha']},
  {label:'Languages of Odisha · population atlas',category:'Languages',dek:'Explore Census 2011 mother-tongue counts across 30 districts, with rural and urban comparisons.',href:'/languages/atlas/',image:voices.assets.manuscript,regions:['Across Odisha']},

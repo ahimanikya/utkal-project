@@ -56,3 +56,7 @@ Recover the two government PDFs; verify performer biographies and women’s part
 [odissi](odissi.md) — Related reading on Odisha’s performance traditions; no claim that the two forms are identical.
 
 [people and creations](../people/people-and-creations.md) — Connects named performers with the existing people-and-works research framework; performance credit is not a completed biography.
+
+## Source recovery follow-up · 1 October 2026
+
+The Behera award citation has now been retrieved and its one-page text checked. The earlier indexed-only limitation is resolved for that citation alone; see its [updated source record](../sources/pala-sna-behera2009.md). Dash’s 2011 paper remains a full-text gap: direct retrieval encountered an expired TLS certificate, and the search service could not fetch the full issue. No certificate check was disabled. A [feature draft](pala-feature-draft.json) is prepared for editorial development; it is not included in the public website edition.
