@@ -174,3 +174,7 @@ Patnaik’s 1994 genetic-algorithms paper is currently a CV-verified bibliograph
 ### Computing and space follow-up · 1 October 2026
 
 RES-029’s initial twelve-identity timeline is complete; scientific coverage is not exhaustive. Retrieve original Mo School appointment/tenure records, Sanghamitra Mohanty’s institutional biography and full research methods after 8 October. Utkal/Sri Sri University biography routes and ISTI direct fetch were unavailable; publisher affiliations and explicitly attributed personal biography are the current scope. Springer chapter navigation has a 2023 conference-label anomaly against parent 2011 dates; retain both captures. Abstract percentage improvements, historical national space-market estimates and biographical fundraising totals remain outside public statistics. Confirm additional awards with original issuers before adoption. RES-024 must retain these gaps alongside earlier manuscript and biography conflicts.
+
+### Homestay scope reconciliation · 1 October 2026
+
+Public portal snapshot has 16 district IDs / 19 clusters / 61 GP IDs. May press report says 19 districts; do not infer comparable change. Rayagada lists both Kulusing/Puttasing; original amendment needed. Later notice titles 11436 and Ammendment 17.08.26 and application extension remain unread. Original rooms/beds conflict held. Blank reporting form identifies administrative fields, but no completed operational returns, occupancy denominators or net-income data obtained. Retry unavailable policy documents 8 October; RES-009 continues independently.

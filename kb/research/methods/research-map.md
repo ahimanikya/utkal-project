@@ -149,3 +149,7 @@ RES-029 adds one person, one coauthored paper and four source records; map now 9
 ### Women in computing and space · 1 October 2026
 
 RES-029 adds two identities, three credited works and five source records; map now 965. Source and repository-native name searches preceded browsing. Sanghamitra Mohanty is distinct from Sanghamitra Pati; Susmita Mohanty from Susmita Bagchi. Publisher child records and derivative biographies are not independent corroboration. Initial science timeline completed with gaps retained.
+
+### Homestay policy/operation checkpoint · 1 October 2026
+
+Enhanced existing homestay topics after source and native coastal-verification checks. One public area-source record and dated JSON snapshot added; existing scheme/index/portal IDs reused. RES-008/009 pointers now include policy, metric register and snapshot. No duplicate accommodation collection created. Portal and API are one evidence family.

@@ -95,3 +95,13 @@ Definitions, evidence status and publication-readiness fields remain in the [sta
 [^homestay-market-jan2025]: [Homestay count grows manifold in Odisha but local experience missing](https://www.newindianexpress.com/states/odisha/2025/Jan/04/homestay-count-grows-manifold-in-odisha-but-local-experience-missing).
 
 [^homestay-nidhi2025]: [One India, One Registration Initiative under NIDHI Portal](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155162&lang=2&reg=48).
+
+## Portal geography: a new dated snapshot · 1 October 2026
+
+**61 Gram Panchayats, grouped into 19 clusters across 16 districts**, appear in the public Go Homestay area list captured today. These are calculated counts of distinct publisher IDs in a place list, not homestays built or open. The [saved table](../references/data/homestay-portal-areas-20261001.json) also preserves destination and block relationships.
+
+The earlier May report above says 19 districts. Keep it as a historical secondary claim: the current portal has multiple clusters within some districts. Without the original allocation and amendment texts, this difference cannot establish a reduction, a reporting correction or definitive legal coverage.
+
+Rayagada’s portal rows include both Kulusing and Puttasing, despite the reported replacement amendment. The [policy record](../economy/homestay-support.md) holds this discrepancy. Current eligibility and booking recommendations remain unverified.
+
+[Official public area data](https://gohomestay.odisha.gov.in/api/allowAll/get-notified-gp-list). This is a geography story with a dated scope, not evidence of occupancy, revenue or host-income growth.

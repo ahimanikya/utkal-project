@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T08:41:20.810084-07:00",
+  "updated_at": "2026-10-01T09:06:05.436218-07:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1173,6 +1173,10 @@
     {
       "run_id": "2026-10-01-science-women",
       "scope": "Two identity records and three scholarly works. HTML abstracts/metadata only; no full-text or weekly-series verification."
+    },
+    {
+      "run_id": "2026-10-01-homestay-policy",
+      "scope": "Homestay research checkpoint; public portal configuration, not weekly operational series. Private applicant/guest endpoints not accessed."
     }
   ],
   "supplemental_discovery_routes": [
@@ -3123,6 +3127,116 @@
       "run_id": "2026-10-01-science-women",
       "status": "unavailable_direct_fetch",
       "scope": "Discovery lead; direct fetch failed. No biographical claim promoted from this route. Publisher historical affiliations used instead.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "homestay-portal-area-list",
+      "discovery_url": "https://gohomestay.odisha.gov.in/api/allowAll/get-notified-gp-list",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "available_with_scoped_capture",
+      "scope": "Complete public area JSON and rendered table read; place IDs only.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "homestay-go-portal",
+      "discovery_url": "https://gohomestay.odisha.gov.in/",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "available_browser_public_dom",
+      "scope": "Text-only fetch failed; browser notice list and area modal read. Document buttons gave no readable file.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "homestay-guideline-index",
+      "discovery_url": "https://dot.odisha.gov.in/en/guidelines",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "available_with_scoped_capture",
+      "scope": "Index readable; linked amendment/allocation failed.",
+      "retry_after": null,
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "homestay-scheme2025",
+      "discovery_url": "https://dot.odisha.gov.in/sites/default/files/2026-01/5549%20TOURISM%20%20Deptt_0.pdf",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "available_parsed_text_visual_unavailable",
+      "scope": "Scoped reporting-form/monitoring read; screenshot cache failed; blank form only.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": "homestay-gazette-aug2026",
+      "discovery_url": "https://egazette.odisha.gov.in/extraordinary_archival_dept/70/1",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "unavailable_direct_fetch",
+      "scope": "Timeout; do not overwrite prior metadata capture or call unchanged.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://dot.odisha.gov.in/sites/default/files/2026-05/1611%20TOURISM%20DEPTT..pdf",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "unavailable_direct_fetch",
+      "scope": "Web fetch timeout; local connection timeout.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://dot.odisha.gov.in/sites/default/files/2026-05/homestay.pdf",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "unavailable_direct_fetch",
+      "scope": "Web fetch timeout; local connection timeout.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://dot.odisha.gov.in/sites/default/files/2026-01/5549%20TOURISM%20%20Deptt.pdf",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "unavailable_direct_fetch",
+      "scope": "Alternative scheme route failed; existing _0 route parsed.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://teamleaseregtech.com/fileviewer/?f=",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "unavailable_direct_fetch",
+      "scope": "Public document link from secondary lead returned500; no account or gated access attempted.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://tourism.gov.in/sites/default/files/2025-12/usq.73%20for%2001.12.2025.pdf",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "unavailable_direct_fetch",
+      "scope": "Indexed national homestay question lead; direct404, no new count imported.",
+      "retry_after": "2026-10-08",
+      "contact_action_performed": false
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://tourism.gov.in/sites/default/files/2025-12/usq.1420%20for%2011.12.2025.pdf",
+      "checked_at": "2026-10-01T09:06:05.436218-07:00",
+      "run_id": "2026-10-01-homestay-policy",
+      "status": "unavailable_direct_fetch",
+      "scope": "Indexed national homestay question lead; direct404, no new count imported.",
       "retry_after": "2026-10-08",
       "contact_action_performed": false
     }

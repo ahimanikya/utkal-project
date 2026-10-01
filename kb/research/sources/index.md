@@ -492,3 +492,5 @@
 - [Dr. Susmita Mohanty: ISTI profile](science-susmita-isti.md)
 
 - [NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership](science-susmita-newspace.md)
+
+- [Go Homestay public area-list capture](homestay-portal-area-list.md)

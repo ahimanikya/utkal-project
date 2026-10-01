@@ -83,3 +83,7 @@ Added Lalit Mohan Patnaik and a jointly credited 1994 computing paper. [Bounded 
 ## 2026-10-01
 
 Added Sanghamitra Mohanty and Susmita Mohanty with three credited works. [Bounded receipt](records/science-women-2026-10-01.json). Publication-era affiliations, self-described public service and publisher metadata distinguished; full works not read. Initial RES-029 timeline complete; RES-008 next. No website publication or human factual review claimed.
+
+## 2026-10-01
+
+Enhanced homestay research with a dated government portal place list and five derived counts. [Bounded receipt](records/homestay-policy-2026-10-01.json).16 districts/19 clusters/61 GPs describe the portal, not operating units. Original amendment/allocation retrieval remains blocked; RES-009 outcome research continues. No website publication claimed.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T08:41:20.810084-07:00",
+  "updated_at": "2026-10-01T09:06:05.436218-07:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -692,24 +692,43 @@
       "title": "Homestay policy reconciliation",
       "done_when": "Retrieve amendments and Cycle-1 tables; resolve or hold rooms versus beds and geographic scope conflicts.",
       "target": "statistics/homestays.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "blocked",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Retrieve amendments and Cycle-1 tables; resolve or hold rooms versus beds and geographic scope conflicts.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-01T09:06:05.436218-07:00",
+      "next_step": "Retry original April/later amendments and Cycle-1 allocation after2026-10-08. Reuse public portal snapshot; reconcile16 districts/19 clusters and Kulusing/Puttasing without inferring legal coverage. Continue independent RES-009 meanwhile.",
+      "evidence_outputs": [
+        "statistics/homestays.md",
+        "economy/homestay-support.md",
+        "references/data/homestay-research.json",
+        "references/data/homestay-portal-areas-20261001.json",
+        "sources/homestay-portal-area-list.md"
+      ],
+      "retry_after": "2026-10-08",
+      "blocker": "Original amendment and allocation texts unavailable; policy/geographic conflicts unresolved.",
       "reuse_before_research": {
         "source_records": [
-          "statistics/homestays.md"
+          "statistics/homestays.md",
+          "economy/homestay-support.md",
+          "references/data/homestay-research.json",
+          "references/data/homestay-portal-areas-20261001.json",
+          "sources/homestay-portal-area-list.md"
         ],
         "project_records": [
           "kb/research/destinations/coastal-verification-queue.json"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-homestay-policy",
+          "at": "2026-10-01T09:06:05.436218-07:00",
+          "outcome": "policy_blocked_with_portal_checkpoint",
+          "completion_criteria_met": false,
+          "retry_after": "2026-10-08"
+        }
+      ]
     },
     {
       "id": "RES-009",
@@ -717,18 +736,28 @@
       "title": "Homestay operating outcomes",
       "done_when": "Seek active properties, room nights, occupancy, disbursements and host income with denominators; do not substitute registrations or targets.",
       "target": "economy/homestay-support.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Seek active properties, room nights, occupancy, disbursements and host income with denominators; do not substitute registrations or targets.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-01T09:06:05.436218-07:00",
+      "next_step": "Seek published aggregate completed annual declarations or departmental progress reports for active units, room nights, occupancy, disbursements and host income. Reuse saved reporting-field map and portal snapshot. Search district tourism/assembly reporting next; public national registry totals are a separate denominator.",
+      "evidence_outputs": [
+        "statistics/homestays.md",
+        "economy/homestay-support.md",
+        "references/data/homestay-research.json",
+        "references/data/homestay-portal-areas-20261001.json",
+        "sources/homestay-portal-area-list.md"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
         "source_records": [
           "statistics/homestays.md",
-          "visitor-index/facility-catalog.md"
+          "visitor-index/facility-catalog.md",
+          "economy/homestay-support.md",
+          "references/data/homestay-research.json",
+          "references/data/homestay-portal-areas-20261001.json",
+          "sources/homestay-portal-area-list.md"
         ],
         "project_records": [
           "kb/research/destinations/visit-questions.json",
@@ -736,7 +765,16 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-homestay-policy",
+          "at": "2026-10-01T09:06:05.436218-07:00",
+          "outcome": "outcome_evidence_map_checkpoint",
+          "completion_criteria_met": false,
+          "retry_after": null
+        }
+      ]
     },
     {
       "id": "RES-010",

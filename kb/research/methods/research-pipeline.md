@@ -143,3 +143,7 @@ RES-029 remains in progress. Continue with a bounded women-in-computing or engin
 ### Initial science timeline completed · 1 October 2026
 
 Proceed to RES-008 homestay policy reconciliation, reusing its saved source and project pointers. RES-029 initial cross-era timeline exists; preserve science gaps for RES-024 next-cycle planning and retry unavailable sources after2026-10-08.
+
+### Homestay continuation · 1 October 2026
+
+RES-008 blocked on original amendments/allocation, retry 8 October. Independent RES-009 started: public outcome evidence map saved, nine measures remain unknown. Continue RES-009 through district/departmental aggregate reporting; do not convert the 61-GP area snapshot into accommodation supply.

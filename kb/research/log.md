@@ -176,3 +176,7 @@ Resumed RES-029: added Lalit Mohan Patnaik and a jointly credited 1994 computing
 ## 2026-10-01
 
 Completed the initial RES-029 timeline with Sanghamitra Mohanty and Susmita Mohanty, three credited works and five scoped sources. Twelve selected timeline identities include reused project-native Samanta. Conference, print/ebook and issue/online dates distinguished; no full-text or human factual review claimed. New profiles classified across people, history, arts, economy and governance. Next sequential task is RES-008; unresolved scientific evidence retained.
+
+## 2026-10-01
+
+Homestay research enhanced existing records with a primary public portal area snapshot, five derived place-count observations, scoped reporting-field evidence and district links. Preserved all earlier observations and conflicts. RES-008 blocked for original amendment/allocation retrieval; RES-009 outcome evidence mapped and remains in progress. No host-income, occupancy or operating-unit total invented; no human review or website publication claimed.

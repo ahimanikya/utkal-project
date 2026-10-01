@@ -13670,6 +13670,21 @@
         "science-susmita-newspace"
       ],
       "added_at": "2026-10-01T08:41:20.810084-07:00"
+    },
+    {
+      "id": "sources/homestay-portal-area-list",
+      "title": "Go Homestay public notified-area list: 1 October 2026 capture",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/homestay-portal-area-list.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "homestay-portal-area-list"
+      ],
+      "added_at": "2026-10-01T09:06:05.436218-07:00"
     }
   ],
   "shared_publications": [
@@ -14059,7 +14074,11 @@
       "task_id": "RES-008",
       "title": "Homestay policy reconciliation",
       "source_records": [
-        "statistics/homestays.md"
+        "statistics/homestays.md",
+        "economy/homestay-support.md",
+        "references/data/homestay-research.json",
+        "references/data/homestay-portal-areas-20261001.json",
+        "sources/homestay-portal-area-list.md"
       ],
       "project_records": [
         "kb/research/destinations/coastal-verification-queue.json"
@@ -14073,7 +14092,11 @@
       "title": "Homestay operating outcomes",
       "source_records": [
         "statistics/homestays.md",
-        "visitor-index/facility-catalog.md"
+        "visitor-index/facility-catalog.md",
+        "economy/homestay-support.md",
+        "references/data/homestay-research.json",
+        "references/data/homestay-portal-areas-20261001.json",
+        "sources/homestay-portal-area-list.md"
       ],
       "project_records": [
         "kb/research/destinations/visit-questions.json",
@@ -14480,9 +14503,9 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 965,
-    "updated_at": "2026-10-01T08:41:20.810084-07:00",
-    "scope": "Original audit plus explicit identity extensions."
+    "records_mapped": 966,
+    "updated_at": "2026-10-01T09:06:05.436218-07:00",
+    "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
     {
@@ -14738,6 +14761,15 @@
       "new_people_or_work_records": 5,
       "new_collection_records": 0,
       "source_family_note": "Springer book/chapter form one publication family; ISTI biography points to personal site and is not independent corroboration."
+    },
+    {
+      "run_id": "2026-10-01-homestay-policy",
+      "added_source_records": [
+        "homestay-portal-area-list"
+      ],
+      "new_people_or_work_records": 0,
+      "new_collection_records": 0,
+      "source_family_note": "Go Homestay UI and public API are one source family; the snapshot is not a second allocation notification."
     }
   ]
 }

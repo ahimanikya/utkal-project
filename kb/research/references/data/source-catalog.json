@@ -1605,7 +1605,15 @@
     "source_kind": "Primary Gazette text",
     "published_on": "2025-11-29",
     "accessed_on": "2026-09-30",
-    "capture_note": "Parsed 53-page Gazette inspected at notification, clauses 3.1–3.4, 5.2, 6 and 7. Notification dated 24 November 2025. Later amendments exist; not a consolidated statement of current applicant eligibility. Capacity differs between rooms in section 6 and beds in 7.2."
+    "capture_note": "Parsed 53-page Gazette inspected at notification, clauses 3.1–3.4, 5.2, 6 and 7. Notification dated 24 November 2025. Later amendments exist; not a consolidated statement of current applicant eligibility. Capacity differs between rooms in section 6 and beds in 7.2.",
+    "retrieval_history": [
+      {
+        "checked_at": "2026-10-01T09:06:05.436218-07:00",
+        "run_id": "2026-10-01-homestay-policy",
+        "capture_method": "parsed_pdf_scoped_read",
+        "note": "Scoped parsed re-read of printed pp.27–28 and49: outcome/reporting framework and blank annual declaration. PDF screenshot failed cache retrieval; no new visual verification claimed. A blank reporting form is not a completed return or measured outcome."
+      }
+    ]
   },
   "homestay-guideline-index": {
     "id": "homestay-guideline-index",
@@ -1615,7 +1623,15 @@
     "source_kind": "Primary publication index",
     "published_on": null,
     "accessed_on": "2026-09-30",
-    "capture_note": "Live index inspected; amendment and target links present. Linked PDFs returned fetch errors/timeouts. Index verifies publication availability, not target numbers or amendment substance."
+    "capture_note": "Live index inspected; amendment and target links present. Linked PDFs returned fetch errors/timeouts. Index verifies publication availability, not target numbers or amendment substance.",
+    "retrieval_history": [
+      {
+        "checked_at": "2026-10-01T09:06:05.436218-07:00",
+        "run_id": "2026-10-01-homestay-policy",
+        "capture_method": "direct_html_failed_linked_pdf",
+        "note": "Live index read; April amendment, Cycle-1 target and original scheme links retained. Direct linked PDF retrievals and amendment/target local connection attempts timed out."
+      }
+    ]
   },
   "homestay-gazette-aug2026": {
     "id": "homestay-gazette-aug2026",
@@ -1645,7 +1661,15 @@
     "source_kind": "Official portal; limited capture",
     "published_on": null,
     "accessed_on": "2026-09-30",
-    "capture_note": "Search-index description available, direct page extraction returned no readable lines. No dashboard totals, listings, availability or live eligibility confirmed."
+    "capture_note": "Search-index description available, direct page extraction returned no readable lines. No dashboard totals, listings, availability or live eligibility confirmed.",
+    "retrieval_history": [
+      {
+        "checked_at": "2026-10-01T09:06:05.436218-07:00",
+        "run_id": "2026-10-01-homestay-policy",
+        "capture_method": "browser_public_dom",
+        "note": "Browser read succeeded after web extraction failed. Seven distinct notification titles displayed (duplicated by carousel), including 11436, Ammendment 17.08.26, deadline extension and Rayagada correction. Cycle-1 and August document buttons yielded no readable document in this session. Current cards still say notified-GP residency; legal consolidation remains open."
+      }
+    ]
   },
   "homestay-go-app": {
     "id": "homestay-go-app",
@@ -3761,5 +3785,17 @@
     "locator": "Abstract; Information; Authors and affiliations",
     "capture_note": "Publisher reports online 8 March 2022 and issue 1 March 2022, volume10 issue1 pp3–13. DOI contains2021 but is not publication date. Abstract read; full text restricted and not read. Historical policy critique is not current market or Odisha investment evidence.",
     "source_kind": "Publisher record or explicitly labelled biographical source"
+  },
+  "homestay-portal-area-list": {
+    "id": "homestay-portal-area-list",
+    "title": "Go Homestay public notified-area list: 1 October 2026 capture",
+    "resource": "https://gohomestay.odisha.gov.in/api/allowAll/get-notified-gp-list",
+    "publisher": "Department of Tourism, Government of Odisha",
+    "source_kind": "Official public portal configuration; not a Gazette or operating-property register",
+    "published_on": null,
+    "accessed_on": "2026-10-01",
+    "capture_method": "public_json_and_rendered_table",
+    "locator": "Public Eligible Gram Panchayats modal; district/cluster/destination/block/gp tree",
+    "capture_note": "Entire unauthenticated JSON captured and modal table inspected. Publisher IDs and spellings preserved. Retrieval date is not legal effective date. Portal and API are one source family. Computed inventory counts do not establish operational homestays or Gazette eligibility."
   }
 }

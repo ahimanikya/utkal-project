@@ -77,3 +77,5 @@ Subject membership is editorial classification. It does not establish historical
 [Entrepreneurs and business leaders](../people/entrepreneurs-and-business-leaders.md) — selected people, companies, Odisha connections and documented professional recognition. Existing profiles and statewide statistics are reused.
 
 [Susmita Mohanty](../people/susmita-mohanty.md) provides a reading route between space enterprise, policy authorship and historical Odisha public service. This relationship is editorial context, not a claim of measured economic impact.
+
+The [homestay research](../statistics/homestays.md) connects the programme’s geographic footprint with the evidence needed to measure host livelihoods.
