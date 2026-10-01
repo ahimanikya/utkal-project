@@ -3,7 +3,7 @@ const sections = [
  ['/food/', 'Food & flavours'], ['/destinations/', 'Destinations'],
 ];
 export function pageContext(path, title) {
- const section = sections.find(([href]) => path.startsWith(href))
+ const section = (path === '/people/subhas-chandra-bose/' ? ['/destinations/cuttack/', 'Cuttack'] : null) || sections.find(([href]) => path.startsWith(href))
   || (path.startsWith('/people/') ? sections[1] : null)
   || (['/knowledge/chilika/', '/knowledge/konark/'].includes(path) ? sections[3] : null);
  if (!section) return [];

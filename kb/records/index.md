@@ -126,3 +126,5 @@
 - [Research sync — 1 October 2026](research-sync-2026-10-01.md)
 
 - [Research sync approval and merge](research-sync-merge.json)
+
+- [Odisha Roots feature candidate and checks](odisha-roots-features-review.json)

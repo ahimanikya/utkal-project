@@ -9,7 +9,7 @@ sources: [{"id": "gi-rasagola", "title": "Odisha Rasagola — GI application 612
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}, {"by": "Current AI assistant", "at": "2026-10-01T15:37:40.825682+00:00"}]
 geography: "Odisha"
 aliases: ["Odisha Rasagola", "odisha rasagola"]
-verification_scope: "Registry record, OSIC account and dated hosted travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected."
+verification_scope: "Registry record, GI Journal 116 p. 10, OSIC account and dated hosted travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected."
 stale_after: "2027-03-27T00:00:00Z"
 readiness: "Odisha-rooted editorial candidate; maker interviews and original-document checks remain open."
 ---
@@ -35,6 +35,12 @@ Ask a maker what they learned, who taught them, and what they want the next gene
 ## A named Odisha identity
 
 The GI Registry lists Odisha Rasagola under application 612, with a certificate dated 29 July 2019. Odisha’s named product and cultural connections deserve explicit recognition. Registration alone does not settle every competing account of the sweet’s first invention.[^gi-rasagola]
+
+## The filed historical statement
+
+The registry’s GI Journal 116, dated 27 March 2019, was retrieved and its page 10 visually inspected on 1 October 2026. It cites the temple Record of Rights, Part III, under the Law Department notification of 12 October 1955, and identifies the Ayodhya Kanda hospitality episode in Dandi Ramayana. This is the application’s statement of evidence, not an inspection of the original record or a critical literary edition. The journal is available through “612 - GI - Journal Copy - 27-03-2019” in the registry document list.[^gi-rasagola]
+
+A separately sourced, author-released public-domain Pahala rasagola photograph now supports the website feature. Its image metadata is recorded in [the food collection](collection.json); a photograph does not establish an origin claim.
 
 ## Research still to do
 

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T15:54:43.126434+00:00",
+  "recorded_at": "2026-10-01T16:15:57.356758+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -3651,6 +3651,28 @@
         "records/odisha-roots-review.json",
         "records/odisha-roots-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-124",
+      "title": "Illustrated Odisha Roots stories and journey integration",
+      "category": "editorial_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-127",
+      "next_action": "Review the feature candidate and evidence. Publication awaits explicit Founder approval. Original-document, specialist and browser follow-ups remain open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-127",
+        "UTP-REV-101"
+      ],
+      "evidence": [
+        "records/odisha-roots-features-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -6181,6 +6203,25 @@
       "evidence": [
         "records/odisha-roots-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-127",
+      "title": "Prepare Odisha Roots feature batch",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "go for it",
+      "scope": "Approve the proposed next batch of Rasagola and Bose feature stories, licensed photographs, discovery and journey links, and further archival investigation. Prepare one reviewable PR; publication remains a later Founder gate.",
+      "recorded_at": "2026-10-01T16:15:57.356758+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-126"
+      ],
+      "evidence": [
+        "records/odisha-roots-features-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -8575,6 +8616,31 @@
       ],
       "evidence": [
         "records/odisha-roots-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-101",
+      "title": "Odisha Roots feature candidate self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant researched, wrote and checked this candidate; no independent historical or native-language review claimed.",
+        "GI Journal 116 p. 10 is the filed historical account. The cited original temple register, critical literary edition and earliest manuscript witness remain uninspected. No exclusive-origin verdict or precise invention date asserted.",
+        "Bose’s memoir is retrospective testimony read through a digital reproduction. School access and current museum operations remain unconfirmed.",
+        "Pahala/Salepur links come from a dated 2019 visit account; no current seller recommendation or food-service inspection.",
+        "New photographs are later documentary views with creator licences; none depicts an authenticated historical event.",
+        "Browser visual and native PDF checks remain open under the earlier browser security-policy limitation. Automated build checks do not establish rendered visual quality."
+      ],
+      "refs": [
+        "UTP-DEC-127",
+        "UTP-WORK-124"
+      ],
+      "evidence": [
+        "records/odisha-roots-features-review.json"
       ]
     }
   ],
