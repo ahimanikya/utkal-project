@@ -67,3 +67,5 @@ Subject membership is editorial classification. It does not establish historical
 [Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
 
 [Poda traditions](../food/poda-and-fire-cooking.md) connect attributed home cooking with a food story; no household prevalence inferred.
+
+[Odisha’s everyday food culture](../food/everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.

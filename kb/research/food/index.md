@@ -34,3 +34,5 @@ Foods, ingredients and culinary story opportunities.
 [How Odisha cooks](preparation-and-variation.md) — preparation accounts, techniques and variation questions for fourteen existing foods.
 
 [Poda and fire cooking](poda-and-fire-cooking.md) — nine selected foods across four editorial method families.
+
+[Odisha’s everyday food culture](everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.

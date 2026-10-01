@@ -173,3 +173,11 @@ Added four source records and enhanced seven existing foods, without new dish id
 ## Poda extension · 1 October 2026
 
 Five sources and six absent food nuclei added; three existing food identities reused. One evidence collection and one clearly labelled editorial story. Source families and adaptations retained; no exhaustive semantic-deduplication claim.
+
+### Ou khatta reuse extension · 1 October 2026
+
+Enhanced the existing Ou identity with three sources after checking the saved recipe register and repository-native food narratives. Two Sasmita pages describe different versions from one author; they are not independent corroboration. Added the canonical Ou page to RES-011 reuse pointers. The initial audit remains dated and unchanged.
+
+## Everyday food extension · 1 October 2026
+
+RES-039 saves five new food entries and a connected collection, reusing chatu patrapoda and pakhala. Six attributed sources cover preservation, ripe palm fruit, rice-water terminology and a dried-fish producer case. The user clarified tala khaja as seed produce; seed stage and local name equivalence remain unresolved. RES-039 stays in progress. No tested recipe, local interview, health claim, statewide market total or export measurement is asserted. The dated map is extended, not an exhaustive semantic audit.

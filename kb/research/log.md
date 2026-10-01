@@ -204,3 +204,11 @@ Connected nine sourced food examples across direct roasting, leaf parcels, bambo
 ## 1 October 2026 — Campaign wording selected
 
 Ahimanikya rejected the earlier Poda Country name and selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire**. Updated maintained story, poster, video script, navigation and campaign metadata. Stable paths and historical receipts remain unchanged. This records wording approval, not factual review or website publication.
+
+## 1 October 2026 · Ou khatta closes the first food preparation set
+
+Enhanced the existing Ou khatta entry with two versions by Sasmita and a credited family meal memory. Three sources and retrieval limits are saved; the Assam-label conflict and all local/Odia review remain explicit. RES-011’s bounded fourteen-food deliverable is complete; RES-031 sweets economics is next. No new food identity, economic observation, human review or website publication is claimed.
+
+## 1 October 2026 · Everyday food culture
+
+Created badi chura, sukhua, tala pitha, torani and torani kanji entries and a connected everyday-food collection. Reused the existing mushroom entry with the requested name order. Preserved the user’s palm-seed clarification separately from verified source accounts. Six source records, structured data, classifications and RES-039 checkpoint added. Local/Odia review remains pending; no website release.

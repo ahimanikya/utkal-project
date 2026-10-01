@@ -116,6 +116,14 @@ The user selected **Odisha’s Best-Kept Secret — The Art of Cooking with Fire
 
 The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed current integration checks and merged sequentially. PR 35 completes the food research candidate. Both research and website source/navigation records are preserved; local duplicate files are excluded from generated indexes. [Integration receipt](records/research-stack-integration-2026-10-01.json). This is repository integration, not a website deployment or independent factual review.
 
+## 1 October 2026 · Ou khatta preparation milestone
+
+[Research receipt](records/ou-khatta-2026-10-01.json): two versions by Sasmita and a family memory deepen one existing entry. The bounded fourteen-food preparation set is complete; local/Odia review and source conflicts remain open. Research-only candidate, no website deployment.
+
+## 1 October 2026 · Everyday food culture
+
+[Research receipt](records/everyday-food-2026-10-01.json): badi chura, sukhua, tala pitha and rice-water preparations join the existing mushroom identity. Tala khaja remains a palm-seed naming follow-up. Research candidate, not a website release.
+
 ## 2026-10-01
 
 Prepared the [language population atlas](reference/language-population-atlas.md), preserving original Census 2011 tables and connecting eight language stories to district comparisons. [Checks and limitations](records/language-atlas-review.json). Delivery will be recorded separately.

@@ -167,3 +167,11 @@ RES-011 continues with seven existing foods enhanced. Original Rasabali and CRRI
 ## Poda story extension · 1 October 2026
 
 User requested the barbecue/poda connection. RES-011 preserves original criteria and now links the bounded collection/story extension. Chatu home account recovered; Ou remains next. Existing PR35 is the review destination.
+
+### Food preparation milestone · 1 October 2026
+
+RES-011’s fourteen-entry evidence deliverable is complete within its defined scope, including the explicit pending local/Odia review. Ou khatta now has directly retrieved contributor preparations. Retain source conflicts and finer locality/poda follow-ups; next eligible task is RES-031, Rasagola and sweets economics. Do not infer sales or exports from recipes, vendor counts or online availability.
+
+## Everyday food extension · 1 October 2026
+
+RES-039 saves five new food entries and a connected collection, reusing chatu patrapoda and pakhala. Six attributed sources cover preservation, ripe palm fruit, rice-water terminology and a dried-fish producer case. The user clarified tala khaja as seed produce; seed stage and local name equivalence remain unresolved. RES-039 stays in progress. No tested recipe, local interview, health claim, statewide market total or export measurement is asserted. The dated map is extended, not an exhaustive semantic audit.

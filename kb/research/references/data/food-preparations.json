@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T10:15:52.301620-07:00",
-  "run_id": "2026-10-01-poda-story",
+  "updated_at": "2026-10-01T17:48:26.965906+00:00",
+  "run_id": "2026-10-01-ou-khatta",
   "scope": "Fourteen selected existing food identities; attributed preparation accounts and variation questions. Not a census, recipe testing, a nutrition guide or an availability directory.",
   "records": [
     {
@@ -335,17 +335,37 @@
           "locator": "Printed p.131 / PDF p.131, Odisha summary; p.292 / PDF p.292, Oou Khatta entry",
           "preparation_or_variation": "The Odisha summary lists Ouu khatta, but a later elephant-apple/jaggery entry is labelled Assam. That geography is unresolved.",
           "evidence_scope": "University teaching reference; one described version, not a definitive formula."
+        },
+        {
+          "source_id": "food-ou-sasmita2017",
+          "locator": "Odia home-state introduction; ingredients, method and notes",
+          "preparation_or_variation": "Sasmita boils elephant-apple pieces, then cooks them with sweetener and a seed tempering; ginger and coconut distinguish this version.",
+          "evidence_scope": "Contributor’s own Odia preparation, updated 28 April 2021; no measured district prevalence, universal ritual rule, health benefit or recipe test established."
+        },
+        {
+          "source_id": "food-ou-sasmita2019",
+          "locator": "Introduction and recipe card, instructions 1–14",
+          "preparation_or_variation": "Sasmita’s later version adds mustard–cumin paste and jaggery to precooked elephant apple with panch phoron; onion and garlic are omitted.",
+          "evidence_scope": "Same author/source family as her 2017 version, updated 28 April 2021. Two preparations, not two independent confirmations of statewide practice."
+        },
+        {
+          "source_id": "food-ou-ray2014",
+          "locator": "Family meal passage ending with ou khatta",
+          "preparation_or_variation": "Ray remembers ou khatta among the dishes her mother served during Kartik.",
+          "evidence_scope": "First-person family memory; supports one meal context, not statewide vegetarian observance, temple practice or a full recipe."
         }
       ],
       "technique_tags": [
-        "tempering"
+        "boiling",
+        "tempering",
+        "simmering"
       ],
       "classification_basis": "Editorial grouping of the cited descriptions, not an exhaustive recipe taxonomy.",
       "local_review": "pending",
       "odia_spelling_review": "pending",
       "tested_recipe": false,
       "current_serving_venue": null,
-      "open_question": "Keep the university’s Assam label visible; do not turn it into an Odisha regional recipe or an exclusivity claim.",
+      "open_question": "District/household attribution, recipe testing and local/Odia review remain open. Preserve the university Assam label; Odisha accounts do not prove exclusive origin.",
       "checked_on": "2026-10-01",
       "source_status": "attributed_research_local_review_pending"
     },

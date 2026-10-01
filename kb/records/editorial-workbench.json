@@ -26,29 +26,44 @@
     },
     "with_flags": 228,
     "mapped_pages": 10,
-    "newer_records_outside_frozen_selection": 12
+    "newer_records_outside_frozen_selection": 27
   },
   "additional_ids": [
+    "source:food-badi-sasmita2017",
     "source:food-baigana-sasmita2020",
     "source:food-bamboo-tnie2017",
     "source:food-nimantran-menu2023",
+    "source:food-ou-ray2014",
+    "source:food-ou-sasmita2017",
+    "source:food-ou-sasmita2019",
     "source:food-patrapoda-lopa2024",
+    "source:food-soul-pritisha2024",
+    "source:food-sukhua-tripathy",
+    "source:food-tala-manaswini2018",
     "source:food-tomato-oriyarasoi2015",
+    "source:food-torani-sasmita2019",
+    "source:food-worldfish-drying2025",
+    "subject:food/badi-chura",
     "subject:food/baigana-poda",
     "subject:food/baunsa-poda-mansa",
     "subject:food/chingudi-patrapoda",
+    "subject:food/everyday-food-culture",
     "subject:food/kukuda-patrapoda",
     "subject:food/machha-patrapoda",
     "subject:food/poda-and-fire-cooking",
-    "subject:food/tomato-poda"
+    "subject:food/sukhua",
+    "subject:food/tala-pitha",
+    "subject:food/tomato-poda",
+    "subject:food/torani",
+    "subject:food/torani-kanji"
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "4ca5b63c235b12356b2b660566029aacbfaefb49e5e177b8436ca1c772aacff0",
-    "kb/research/search-index.json": "0959275ff56790d0e88367b38a93eadffe5708da983eb271896036139c08f137",
+    "kb/research/references/data/source-catalog.json": "cc31b03299efd861ce7d01241d5bd5858f0a6d0de466b7a589cbaa84655d7da2",
+    "kb/research/search-index.json": "47545201fd3dc4cc88e46e8abd5129c5b34aa62ae5709f6c22626f2bb9b881c3",
     "kb/research/food/collection.json": "77a7db5fc750b8eb8e6b14eb2a421df178c14a8f8faaef44246487a0d2105a70",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
-    "kb/research/references/data/food-preparations.json": "cb8cba1bc002718a6783ba10bfd5c90b05f8069a67b4f642c506873885d56788",
+    "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
     "projects/site/editions/coast.json": "3ed48896c7b58c9e00ce57a65a47e6c67dc0fc624dd0124e1e0db77f84bab2cd"
   },
   "records": [
@@ -16119,7 +16134,7 @@
         "record_status": "draft",
         "recorded_scope": "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals.",
         "readiness": "Research nucleus; feature needs local detail and media",
-        "source_connections": 2,
+        "source_connections": 5,
         "held_claims": [
           {
             "id": "ou-geography",
@@ -16139,6 +16154,21 @@
           "url": "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine"
         },
         {
+          "id": "food-ou-ray2014",
+          "title": "The Month of Kartik in my Mother’s Kitchen",
+          "url": "https://www.saveur.com/article/travels/kartik-holy-month/"
+        },
+        {
+          "id": "food-ou-sasmita2017",
+          "title": "Meetha Oou Khatta | Sweet Elephant Apple Relish",
+          "url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/"
+        },
+        {
+          "id": "food-ou-sasmita2019",
+          "title": "Khata Meetha Oou | Sweet & Sour Elephant Apple Relish",
+          "url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/"
+        },
+        {
           "id": "regional-cuisine",
           "title": "Regional Cuisine of India, BHM-602AT",
           "url": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf"
@@ -16152,7 +16182,7 @@
         "Odia terminology review pending"
       ],
       "next_actions": [
-        "Keep the university’s Assam label visible; do not turn it into an Odisha regional recipe or an exclusivity claim.",
+        "District/household attribution, recipe testing and local/Odia review remain open. Preserve the university Assam label; Odisha accounts do not prove exclusive origin.",
         "Record a cook’s recipe, seasonality and English ingredient identification.",
         "Compare the existing website treatment and source metadata before drafting; secure correctly identified, reusable media for any new feature."
       ],

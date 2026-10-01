@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T10:15:52.301620-07:00",
+  "updated_at": "2026-10-01T18:07:08.675156+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3545,6 +3545,141 @@
       "run_id": "2026-10-01-poda-story",
       "status": "unavailable",
       "scope": "Web error, sandbox DNS failure, then 50-second network timeout. Indexed bamboo references not adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-ou-sasmita2017",
+      "discovery_url": "https://www.firsttimercook.com/meetha-oou-khatta-sweet-elephant-apple-relish/",
+      "checked_at": "2026-10-01T17:48:26.965906+00:00",
+      "run_id": "2026-10-01-ou-khatta",
+      "status": "available",
+      "scope": "Contributor’s own Odia preparation, updated 28 April 2021; no measured district prevalence, universal ritual rule, health benefit or recipe test established.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-ou-sasmita2019",
+      "discovery_url": "https://www.firsttimercook.com/khata-meetha-oou-sweet-sour-elephant-apple-relish/",
+      "checked_at": "2026-10-01T17:48:26.965906+00:00",
+      "run_id": "2026-10-01-ou-khatta",
+      "status": "available",
+      "scope": "Same author/source family as her 2017 version, updated 28 April 2021. Two preparations, not two independent confirmations of statewide practice.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-ou-ray2014",
+      "discovery_url": "https://www.saveur.com/article/travels/kartik-holy-month/",
+      "checked_at": "2026-10-01T17:48:26.965906+00:00",
+      "run_id": "2026-10-01-ou-khatta",
+      "status": "available",
+      "scope": "First-person family memory; supports one meal context, not statewide vegetarian observance, temple practice or a full recipe.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.oriyarasoi.com/2013/10/aau-oou-khatta.html",
+      "checked_at": "2026-10-01T17:48:26.965906+00:00",
+      "run_id": "2026-10-01-ou-khatta",
+      "status": "unavailable",
+      "scope": "Direct web fetch returned 429; indexed lead only, no new recipe adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://commons.wikimedia.org/wiki/File:Ou_Khota_recipe_-_step_5_-_garnishing_Ou_khota_with_ground_coconut.jpg",
+      "checked_at": "2026-10-01T17:48:26.965906+00:00",
+      "run_id": "2026-10-01-ou-khatta",
+      "status": "unavailable",
+      "scope": "Direct web retrieval error; other photograph metadata only used as discovery, no media downloaded or rights clearance claimed.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://firsttimercook.com/2017/12/meetha-oou-khatta-sweet-elephant-apple-relish.html",
+      "checked_at": "2026-10-01T17:48:26.965906+00:00",
+      "run_id": "2026-10-01-ou-khatta",
+      "status": "unavailable",
+      "scope": "Legacy URL cache miss; current canonical permalink recovered in same run.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-badi-sasmita2017",
+      "discovery_url": "https://www.firsttimercook.com/badi-chura/",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "available",
+      "scope": "Contributor preparation; updated 28 April 2021. No storage-life, health or statewide prevalence claim.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-soul-pritisha2024",
+      "discovery_url": "https://apps.odishatourism.gov.in/blog-detail/the-soul-food-of-odisha",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "available",
+      "scope": "Government-hosted personal food account, not an official nutrition standard or survey. This torani version is not a definition of every rice-water preparation.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-torani-sasmita2019",
+      "discovery_url": "https://www.firsttimercook.com/torani-kanji-soup-of-fermented-rice-water-with-vegetables/",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "available",
+      "scope": "Attributed cooked dish; updated 28 April 2021. Not an interchangeable name for a drink; no fermentation safety or health guidance adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-sukhua-tripathy",
+      "discovery_url": "https://odiarecipes.com/details.php?htid=76",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "available",
+      "scope": "One named preparation within a dried-fish family. Fish species, publication date, locality and market totals remain unverified.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-tala-manaswini2018",
+      "discovery_url": "https://www.gapuphotography.com/2018/06/Tala-Pitha.html",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "available",
+      "scope": "Maker credit and fruit stage supported. Embedded preparation video not inspected; do not extend this method to every tala pitha or infer a statewide season calendar.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-worldfish-drying2025",
+      "discovery_url": "https://worldfishcenter.org/impact-story/traditions-triumph-premalatas-success-solar-dried-fish-odisha",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "available",
+      "scope": "Institutional project case; not statewide business, export or net-income evidence. Promotional framing retained as source context, not independent impact evaluation.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.odiarecipes.com/details.php?htid=76",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "unavailable",
+      "scope": "Timed out; non-www source recovered.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://firsttimercook.com/2019/01/torani-kanji-soup-of-fermented-rice-water-with-vegetables.html",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "unavailable",
+      "scope": "Legacy route failed; current canonical permalink recovered.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://commons.wikimedia.org/wiki/File:Tala_gaja_(Endosperm_of_ripen_palm),_Baleswar,_Odisha_2013.jpg",
+      "checked_at": "2026-10-01T18:07:08.675156+00:00",
+      "run_id": "2026-10-01-everyday-food",
+      "status": "unavailable",
+      "scope": "Full page unavailable; indexed photo label is a lead, no name equivalence or image reuse adopted.",
       "retry_after": "2026-10-08"
     }
   ]
