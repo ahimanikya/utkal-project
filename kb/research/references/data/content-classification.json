@@ -4577,6 +4577,18 @@
       "content_type": "Story Draft",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/dmf-from-funds-to-services",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "governance",
+        "everyday",
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6749,6 +6761,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects a company trade example to Odisha’s broader mineral-processing research without treating it as a statewide total."
+    },
+    {
+      "from": "economy/dmf-from-funds-to-services",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects mining-area project funding to sector service questions; does not establish a causal effect on statewide outcomes."
+    },
+    {
+      "from": "economy/dmf-from-funds-to-services",
+      "to": "statistics/health",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects mining-area project funding to sector service questions; does not establish a causal effect on statewide outcomes."
+    },
+    {
+      "from": "economy/dmf-from-funds-to-services",
+      "to": "statistics/education",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects mining-area project funding to sector service questions; does not establish a causal effect on statewide outcomes."
     }
   ],
   "relationship_types": {

@@ -231,3 +231,7 @@ Continue independent RES-052 Rourkela and NALCO plant-workforce evidence using s
 ## Industrial employment checkpoint ·2October2026 UTC
 
 RES-052 checkpoint deferred to9October. Seek original current unit workforce returns and historical NALCO question711 (28November2011) via Parliament archive; old route returned HTML. Reuse saved2015 RSP answer and NALCO apprenticeship passage. Next independent task RES-053 mining revenues and DMF outcomes; search existing public-finance/DMF observations before browsing.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+Continue RES-053 with original actual mining-receipt accounts and remaining CAG Chapters III/V/VI/VII, reusing the downloaded163-page PDF. Four audit project cases and six district tables are already saved; do not repeat them. Seek district project IDs and dated restoration/handover evidence. Source percentage and eight-hostel cost discrepancies retry9October; they do not block independent receipt research.

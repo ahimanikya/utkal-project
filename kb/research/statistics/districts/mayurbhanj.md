@@ -31,3 +31,7 @@ The public portal distinguishes Similipal East and Similipal West clusters. See 
 ## Rice farming · 2023–24
 
 The agriculture report records rice crop area of **301.11 thousand hectares**, rice yield **2522 kg/ha**, and rice output **759.29 thousand tonnes**. These are crop-year measures, independent of the banking snapshot above. [Official table, printed p.67](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). [Rice economics](../../economy/rice-economy.md) explains product bases and comparisons.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.

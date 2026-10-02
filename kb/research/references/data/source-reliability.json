@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T17:52:03.569038+00:00",
+  "updated_at": "2026-10-02T18:51:18.740435+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6082,6 +6082,13 @@
       "run_id": "2026-10-02-mining-employment",
       "status": "unavailable",
       "scope": "Web reader cache miss; search snippet only.2010 headcount not imported."
+    },
+    {
+      "discovery_url": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf",
+      "checked_at": "2026-10-02T18:51:18.740435+00:00",
+      "run_id": "2026-10-02-mining-dmf",
+      "status": "available_after_fallback",
+      "scope": "Web reader inaccessible; direct original PDF retrieved. Full file saved; selected subsections and visual pages checked. Reuses existing source ID, not independent corroboration."
     }
   ]
 }

@@ -62,3 +62,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 [Higher-education evidence](../culture/universities-and-learning.md) now links 18 UGC identity checks, dated NIRF scores/rank bands and six institutional graduate cohorts. These remain in culture-learning.json as the canonical record and are not duplicated as statewide atlas totals.
 
 [Related reading](../culture/universities-and-learning.md) — Adds institutional higher-education outcomes while school-system observations remain separate.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.

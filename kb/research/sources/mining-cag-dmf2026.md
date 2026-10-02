@@ -15,3 +15,7 @@ Comptroller and Auditor General of India. Audit covers 2015–16 to 2023–24. A
 [Source](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf). Locator: Executive summary printed pp. ix–x (PDF pp. 15–16); preface p. vii.
 
 [Mining research](../economy/mining.md).
+
+## Expanded original-document inspection · 2 October 2026
+
+The original163-page PDF was recovered by direct publisher download after the web reader failed. Sections5.1,6.5.1 and6.6.1–6.6.6 were inspected, with key tables/project pages visually checked. The entire file is saved in working evidence, but full chapter review remains incomplete. Government responses are reproduced by CAG, not independently retrieved letters. See [district and project interpretation](../economy/dmf-from-funds-to-services.md) for scope, source inconsistencies and dated operating findings.

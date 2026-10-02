@@ -18448,6 +18448,26 @@
         "mining-rsp-parliament-2015"
       ],
       "added_at": "2026-10-02T17:52:03.569038+00:00"
+    },
+    {
+      "id": "economy/dmf-from-funds-to-services",
+      "title": "Mining-area funds: from allocations to working services",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/dmf-from-funds-to-services.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance",
+        "everyday",
+        "places"
+      ],
+      "source_ids": [
+        "mining-cag-dmf2026"
+      ],
+      "added_at": "2026-10-02T18:51:18.740435+00:00"
     }
   ],
   "shared_publications": [
@@ -19620,9 +19640,11 @@
         "statistics/minerals-and-mining.md",
         "references/data/mining-programme.json",
         "evidence/f05.md",
-        "statistics/minerals-and-mining.md",
         "statistics/health.md",
-        "statistics/education.md"
+        "statistics/education.md",
+        "economy/dmf-from-funds-to-services.md",
+        "references/data/mining-dmf.json",
+        "sources/mining-cag-dmf2026.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
@@ -19838,8 +19860,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1234,
-    "updated_at": "2026-10-02T17:52:03.569038+00:00",
+    "records_mapped": 1235,
+    "updated_at": "2026-10-02T18:51:18.740435+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20418,6 +20440,11 @@
     {
       "run_id": "2026-10-01-tasar-story",
       "scope": "Existing tussar-centres identity extended with material context, cluster-level Gopalpur disambiguation and three documentary images. Reader story added to existing textile collection; no full RES-012 completion or current maker/product verification claimed."
+    },
+    {
+      "run_id": "2026-10-02-mining-dmf",
+      "at": "2026-10-02T18:51:18.740435+00:00",
+      "scope": "One synthesis record; one existing CAG publication reused for district and project evidence. No new independent source claimed."
     }
   ]
 }

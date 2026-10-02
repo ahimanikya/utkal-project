@@ -97,3 +97,5 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Paddy procurement payments](../stories/rice-procurement-payments.md) connects farming with public purchasing while keeping farmer profit and payment categories distinct.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+[Mining-area funds and services](../economy/dmf-from-funds-to-services.md) — dated project evidence connects finance, places and everyday services without equating spending with outcomes.

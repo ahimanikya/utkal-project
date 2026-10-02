@@ -35,3 +35,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Industrial work: dates and categories
 
 [Rourkela’s historical employment record](../../economy/rourkela-steel-chain.md) now distinguishes manpower, project contract workers and other contract work at 1 April 2015. This strengthens the historical record without supplying a current plant employment total.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.

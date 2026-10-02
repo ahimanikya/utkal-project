@@ -373,3 +373,7 @@ Four original source identities extend existing IMFA record; annual-report obser
 ## Industrial employment checkpoint ·2October2026 UTC
 
 One original parliamentary answer extends existing Rourkela record; NALCO apprenticeship is reused source scope. No independent corroboration or duplicate company identities claimed.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+Existing CAG source expanded through selected subsections. One new synthesis page, no duplicate primary-source identity or claim of independent corroboration.
