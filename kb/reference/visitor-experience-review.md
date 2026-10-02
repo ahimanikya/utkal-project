@@ -50,3 +50,8 @@ The [public-launch readiness candidate](../records/public-launch-readiness-revie
 The separate local search-review output contains the proposed sitemap, crawler file and per-page indexing tags. The ordinary coastal build and publication workflow still ship the existing noindex preview. Approval of website refinements alone does not activate search: the Founder must approve the precise search subset and its editorial wording in a subsequent release. Search Console setup/submission is not included.
 
 The proposed crawler file allows access to held pages so their noindex tags can be read. Neither crawler controls nor an omitted sitemap entry make public content private. The store remains absent from the published edition. Google documents these distinctions in its [noindex guidance](https://developers.google.com/search/docs/crawling-indexing/block-indexing) and [sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+
+
+## Follow-up: coastal flow and real browser review
+
+The [visitor-flow candidate](../records/visitor-flow-polish-review.json) records the next review against published release UTP-REL-046: six destination guides at three browser widths, two shared notebook smoke checks, keyboard navigation and actual two-day tour-book downloads. Shorter openings retain their detailed guidance and source links in native disclosures and portable books. The design-system README captures the composition and image-loading lessons. This candidate awaits Founder publication review; the wider visual, physical-device, screen-reader and local-confirmation queue stays open.

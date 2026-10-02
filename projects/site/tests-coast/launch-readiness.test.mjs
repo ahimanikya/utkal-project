@@ -45,7 +45,7 @@ test('every published visitor-detail page uses compact mobile contents with orde
   for(const target of targets){const position=html.indexOf('id="'+target+'"');assert.ok(position>previous,route+' '+target);previous=position;}
  }
 });
-test('practical notes stay inside their guide before the notebook, onward links and credits',()=>{
+test('practical notes stay in one planning section before onward links and credits',()=>{
  const notes=JSON.parse(readFileSync('../../kb/research/destinations/visit-readiness.json','utf8')).notes;
  const expected=notes.flatMap(n=>n.routes);
  for(const route of routes){
@@ -54,7 +54,9 @@ test('practical notes stay inside their guide before the notebook, onward links 
   if(!expected.includes(route))continue;
   const position=matches[0].index;
   assert.ok(html.lastIndexOf('<article class="mag-content"',position)>=0,route);
-  for(const end of ['id="visit-notebook"','id="connect-visit"','id="collection-onward"','id="sources-credits"','id="sources"']){
+  const notebook=html.indexOf('id="visit-notebook"');
+  if(notebook>=0){assert.ok(notebook<position,route);assert.ok(html.indexOf('</section>',notebook)>position,route);}
+  for(const end of ['id="connect-visit"','id="collection-onward"','id="sources-credits"','id="sources"']){
    const next=html.indexOf(end);if(next>=0)assert.ok(position<next,route+' '+end);
   }
   assert.match(html,/Official references checked 2026-10-01/);

@@ -67,3 +67,9 @@ Keep source artwork intact and create smaller delivery assets. Supply intrinsic 
 ## Font delivery in rc.5
 
 The full variable fonts now ship as WOFF2, with original TTFs and OFL licences preserved. No glyph or language subsetting was performed. The conversion check compares character maps, glyph order, variable axes, shaping tables and names after decompression. Recreate files with `tools/media/compress-fonts.py` from the repository root using FontTools with WOFF support; this is an asset-maintenance operation, not a new build dependency. The site and review gallery consume the shared version.
+
+## Lessons from the coastal visitor-flow review
+
+Keep the story, practical choices and optional depth in a deliberate reading order. Give the visit notebook a direct contents link and keep current-arrangement notes inside that planning section. Show a short invitation and preparation paragraph first; use labelled native disclosures for longer guidance without dropping it from the portable book. This is a composition lesson, not a new mandatory component sequence.
+
+Check keyboard focus in a real browser: when a contents menu closes, native fragment navigation must land on a focusable destination, not reset to the document body. For uncropped photographs, retain an explicit aspect-ratio fallback before loading as well as intrinsic width and height. Review actual viewport widths and scroll to load lazy images before calling an image broken. The six-guide audit covered 390, 1440 and 1920 CSS pixels; physical-device and screen-reader review remain separate. Shared package version stays rc.5; implementation is in UTP's adapters.

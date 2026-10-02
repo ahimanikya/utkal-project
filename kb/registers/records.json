@@ -2210,7 +2210,7 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-051",
-      "next_action": "Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open.",
+      "next_action": "Six coastal guides have responsive/browser and journey evidence in WORK-141, awaiting Founder publication review. Continue the remaining 122-page visual scope and physical-device/screen-reader review; do not treat the bounded audit as full completion.",
       "blockers": [],
       "refs": [
         "UTP-DEC-051",
@@ -2220,7 +2220,8 @@
         "UTP-WORK-077",
         "UTP-DEC-054",
         "UTP-WORK-079",
-        "UTP-WORK-116"
+        "UTP-WORK-116",
+        "UTP-WORK-141"
       ],
       "evidence": [
         "research/product/visitor-planning-batch.md",
@@ -2229,7 +2230,8 @@
         "design-system/story-patterns.md",
         "research/product/city-culture-review.md",
         "research/product/visitor-readiness-2026-10-01.md",
-        "records/visitor-experience-review.json"
+        "records/visitor-experience-review.json",
+        "records/visitor-flow-polish-review.json"
       ]
     },
     {
@@ -4104,6 +4106,30 @@
       "evidence": [
         "records/coastal-practical-review.json",
         "records/coastal-practical-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-141",
+      "title": "Coastal visitor flow, keyboard and image polish",
+      "category": "website_design_followup",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-155",
+      "next_action": "Founder review of the tested candidate and screenshots before publication. Keep broader device, screen-reader and local-arrangement review open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-155",
+        "UTP-WORK-075",
+        "UTP-REV-119",
+        "UTP-REL-046"
+      ],
+      "evidence": [
+        "records/visitor-flow-polish-review.json"
       ]
     }
   ],
@@ -7198,6 +7224,26 @@
       "evidence": [
         "records/coastal-practical-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-155",
+      "title": "Prepare the coastal visitor-flow polish batch",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Go ahead",
+      "scope": "Implement the proposed browser, reading-flow, journey, keyboard and image review batch. Present a tested candidate for separate Founder publication review.",
+      "recorded_at": "2026-10-02T05:53:53.655471+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-141",
+        "UTP-WORK-075"
+      ],
+      "evidence": [
+        "records/visitor-flow-polish-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -10020,6 +10066,31 @@
       ],
       "evidence": [
         "records/coastal-practical-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-119",
+      "title": "Visitor-flow browser and portable-book self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser checks use emulated viewport sizes, not physical devices or a screen reader. No new native PDF pagination check was performed.",
+        "Six destination pages received the responsive audit; two other notebook pages received shared-component and media smoke checks. The wider 122-page visual review remains open.",
+        "Photographs and source claims were reused, not newly field-verified. Current transport, access, meals, workshop and accommodation arrangements remain unconfirmed.",
+        "The browser download-event waiter timed out; the UI-triggered files were nevertheless present in Downloads and their exact bytes/content were checked.",
+        "The Search Console sitemap-processing issue remains open and was not changed by this visitor-flow batch.",
+        "Publication requires a separate Founder decision. Store and other held routes remain excluded; the eleven-route search scope is unchanged."
+      ],
+      "refs": [
+        "UTP-DEC-155",
+        "UTP-WORK-141"
+      ],
+      "evidence": [
+        "records/visitor-flow-polish-review.json"
       ]
     }
   ],
