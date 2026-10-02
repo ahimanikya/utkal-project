@@ -350,3 +350,7 @@ Original ASI epigraphy now read; four grants scoped with conflicting dates retai
 ## KISS records and account vintages · 2 October2026 UTC
 
 RES-047 deferred to9October. FY2023–24 original accounts and alumni certificate recovered, but parent founding certificate and separate audit opinion remain absent. Mixed-vintage/society notes and offsetting income-component differences need reconciliation. No modern absence or misconduct inferred.
+
+## Yogini heritage · 2 October 2026 UTC
+
+RES-049 bounded comparative deliverable complete. Hirapur ninth/early-tenth-century dating differs by publisher; founder epigraphy remains needed. Ranipur-Jharial inventory categories total66 against stated65; no corrected/current count adopted. Follow original textual editions, stone identification and dated practitioner accounts. These gaps do not establish absence of evidence elsewhere.

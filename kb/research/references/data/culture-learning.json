@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-02T05:39:12.280267+00:00",
+  "updated_at": "2026-10-02T06:43:56.947430+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -2533,6 +2533,157 @@
       "asci_comparison": "Certificate predates2022 ASCI observation about alumni records/association. Institutional/operational scope may differ; no contradiction resolution or current absence inferred."
     },
     "separate_audit_opinion_recovered": false,
+    "human_review_claimed": false
+  },
+  "yogini_checkpoint": {
+    "run_id": "2026-10-02-yogini-traditions",
+    "checked_on": "2026-10-02",
+    "observations": [
+      {
+        "id": "hirapur-style-date",
+        "concept_id": "places/hirapur-yogini",
+        "field": "attributed_construction_period",
+        "value": "early tenth century CE",
+        "unit": null,
+        "source_id": "faith-hirapur-ignca",
+        "locator": "pp.2–3 sections5,8",
+        "evidence_class": "stylistic_interpretation_conflicts_with_tourism_ninth_century",
+        "retrieved_on": "2026-10-02",
+        "survey_date": null,
+        "publication_date": null,
+        "geography": "Odisha, India; site-specific",
+        "price_basis": "not_applicable",
+        "current_operational_status": null
+      },
+      {
+        "id": "hirapur-materials",
+        "concept_id": "places/hirapur-yogini",
+        "field": "materials",
+        "value": {
+          "structure": "sandstone",
+          "interior_images": "black chlorite"
+        },
+        "unit": null,
+        "source_id": "faith-hirapur-ignca",
+        "locator": "p.3 section10",
+        "evidence_class": "inventory_description",
+        "retrieved_on": "2026-10-02",
+        "survey_date": null,
+        "publication_date": null,
+        "geography": "Odisha, India; site-specific",
+        "price_basis": "not_applicable",
+        "current_operational_status": null
+      },
+      {
+        "id": "ranipur-date",
+        "concept_id": "places/ranipur-jharial-yogini",
+        "field": "attributed_construction_period",
+        "value": "early tenth century CE; broader ninth–tenth range",
+        "unit": null,
+        "source_id": "faith-ranipur-ignca",
+        "locator": "p.2 section5",
+        "evidence_class": "inventory_attribution_not_epigraphic_date",
+        "retrieved_on": "2026-10-02",
+        "survey_date": null,
+        "publication_date": null,
+        "geography": "Odisha, India; site-specific",
+        "price_basis": "not_applicable",
+        "current_operational_status": null
+      },
+      {
+        "id": "ranipur-outer-diameter",
+        "concept_id": "places/ranipur-jharial-yogini",
+        "field": "external_diameter",
+        "value": 16.6,
+        "unit": "metres",
+        "source_id": "faith-ranipur-ignca",
+        "locator": "p.3 section9",
+        "evidence_class": "inventory_measurement",
+        "retrieved_on": "2026-10-02",
+        "survey_date": null,
+        "publication_date": null,
+        "geography": "Odisha, India; site-specific",
+        "price_basis": "not_applicable",
+        "current_operational_status": null
+      },
+      {
+        "id": "ranipur-inner-diameter",
+        "concept_id": "places/ranipur-jharial-yogini",
+        "field": "internal_diameter",
+        "value": 13.6,
+        "unit": "metres",
+        "source_id": "faith-ranipur-ignca",
+        "locator": "p.3 section9",
+        "evidence_class": "inventory_measurement",
+        "retrieved_on": "2026-10-02",
+        "survey_date": null,
+        "publication_date": null,
+        "geography": "Odisha, India; site-specific",
+        "price_basis": "not_applicable",
+        "current_operational_status": null
+      },
+      {
+        "id": "ranipur-image-count",
+        "concept_id": "places/ranipur-jharial-yogini",
+        "field": "niche_inventory",
+        "value": {
+          "stated_total": 65,
+          "well_preserved": 48,
+          "broken_or_stones": 11,
+          "missing": 7,
+          "category_sum": 66
+        },
+        "unit": "niches",
+        "source_id": "faith-ranipur-ignca",
+        "locator": "p.3 section9",
+        "evidence_class": "quarantined_internal_arithmetic_conflict",
+        "retrieved_on": "2026-10-02",
+        "survey_date": null,
+        "publication_date": null,
+        "geography": "Odisha, India; site-specific",
+        "price_basis": "not_applicable",
+        "current_operational_status": null
+      }
+    ],
+    "tradition_contexts": {
+      "yogini": "Divine-figure category appearing in multiple traditions, not one denomination.",
+      "shakta_shaiva": "Goddess-centred emphasis and Shiva imagery overlap at these sites; no exclusive classification inferred.",
+      "buddhist_vajrayana": "Shared Yogini terminology and text traditions documented by Hatley; no site-specific Buddhist identity established.",
+      "source_ids": [
+        "faith-hirapur-ignca",
+        "faith-ranipur-ignca",
+        "faith-hatley-yoginis2020"
+      ]
+    },
+    "textual_hypothesis": {
+      "source_id": "faith-soas-yoginis2021",
+      "scholar": "Shaman Hatley",
+      "report_author": "Sabbi Lall",
+      "event_date": "2020-10-21",
+      "report_date": "2021-01-14",
+      "claim": "Possible Devipurana/Hirapur iconographic parallels, not a demonstrated construction blueprint.",
+      "evidence_class": "institutional_report_of_scholarly_interpretation",
+      "original_text_inspected": false,
+      "video_watched": false
+    },
+    "source_families": [
+      [
+        "faith-hirapur-ignca",
+        "faith-ranipur-ignca"
+      ],
+      [
+        "faith-hatley-yoginis2020",
+        "faith-soas-yoginis2021"
+      ]
+    ],
+    "source_family_note": "Same IGNCA inventory programme; Hatley introduction and lecture report share scholarship. Neither pairing constitutes independent corroboration.",
+    "open_questions": [
+      "Foundation epigraphy and Hiradevi attribution",
+      "Ranipur-Jharial sculpture inventory and stone identification",
+      "Devipurana edition and passage-level comparison",
+      "Current practitioner accounts and site access",
+      "Specific Buddhist/Jagannath connections"
+    ],
     "human_review_claimed": false
   }
 }

@@ -54,3 +54,7 @@ RES-045 bounded criteria are complete: original excavation/inscription publicati
 ## University evidence milestone · 2 October 2026 UTC
 
 RES-046 selected-institution criteria complete.18 existing identities checked in UGC, with statutory cases and dated NIRF comparisons. Six self-reported graduate cohorts retain scope and limitations. RES-047 next, reusing these records for the Achyuta Samanta/KIIT/KISS journey.
+
+## Yogini evidence milestone · 2 October 2026 UTC
+
+RES-049 bounded criteria complete: two original archaeological inventories, two distinct place records and an attributed comparison of traditions. Earlier table is the initial programme snapshot; current queue is authoritative. Foundation chronology, sculpture-count reconciliation, direct textual passages and present practice remain research gaps. Continue RES-050.

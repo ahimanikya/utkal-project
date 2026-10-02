@@ -29,3 +29,7 @@ Existing RES-045 and RES-048–050 retain their IDs and completion criteria. Fur
 [Whole encyclopedia scope](../about/encyclopedia-scope.md).
 
 [Related reading](../culture/mahima-dharma.md) — Connects a named tradition to the wider faith collection while preserving its own history and literature.
+
+## Yogini architecture and religious contexts
+
+[Hirapur](../places/hirapur-yogini.md) and [Ranipur-Jharial](../places/ranipur-jharial-yogini.md) now have distinct archaeological evidence records. [Read the comparative account](../culture/tantric-traditions.md), including attributed dates, sculpture-count limits and the distinction between Shaiva/Shakta and Buddhist contexts.

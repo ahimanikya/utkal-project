@@ -61,3 +61,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Jagannath origins
 
 [Read the narrative and inscription timeline](../history/jagannath-origins.md): religious texts, temple patronage, language and food-support records retain distinct evidence labels.
+
+## Yogini architecture and religious contexts
+
+[Hirapur](../places/hirapur-yogini.md) and [Ranipur-Jharial](../places/ranipur-jharial-yogini.md) now have distinct archaeological evidence records. [Read the comparative account](../culture/tantric-traditions.md), including attributed dates, sculpture-count limits and the distinction between Shaiva/Shakta and Buddhist contexts.

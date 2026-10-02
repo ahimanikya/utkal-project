@@ -364,3 +364,7 @@ RES-048: original ASI inscription edition inspected; four grant observations and
 ## KISS records and account vintages · 2 October2026 UTC
 
 RES-047: eight earlier-vintage financial observations, two offsetting income differences, original alumni registration and held society-date lead saved. Twelve-check validation follows; no task completion or website release claimed.
+
+## Yogini heritage · 2 October 2026 UTC
+
+RES-049 saved two archaeological site records, four source records and six scoped observations. Existing Tantric collection expanded; exact-date and count conflicts retained. Bounded criteria complete; validation and Git review follow, with no website publication claimed.

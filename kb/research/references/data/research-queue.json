@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T05:39:12.280267+00:00",
+  "updated_at": "2026-10-02T06:43:56.947430+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2304,14 +2304,20 @@
       "title": "Yogini and Tantric traditions: sites and textual evidence",
       "done_when": "Research Hirapur and Ranipur-Jharial with archaeological sources; distinguish Shakta/Shaiva, Yogini and Buddhist Vajrayana contexts and attribute each proposed connection. Preserve uncertainty over patronage, dates and living practice.",
       "target": "culture/tantric-traditions.md",
-      "status": "pending",
-      "attempts": 1,
+      "status": "completed",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T19:04:12.192294+00:00",
-      "next_step": "Research Hirapur and Ranipur-Jharial with archaeological sources; distinguish Shakta/Shaiva, Yogini and Buddhist Vajrayana contexts and attribute each proposed connection. Preserve uncertainty over patronage, dates and living practice.",
+      "last_worked_at": "2026-10-02T06:43:56.947430+00:00",
+      "next_step": "Bounded two-site/context deliverable complete. Continue RES-050 Mahima Dharma and Bhima Bhoi after reuse checks. Further Yogini work: original foundation epigraphy, reconcile image inventory, inspect Devipurana passages and dated practitioner accounts; do not repeat these inventory captures.",
       "evidence_outputs": [
         "culture/tantric-traditions.md",
-        "references/data/culture-learning.json"
+        "references/data/culture-learning.json",
+        "sources/faith-hirapur-ignca.md",
+        "sources/faith-ranipur-ignca.md",
+        "sources/faith-hatley-yoginis2020.md",
+        "sources/faith-soas-yoginis2021.md",
+        "places/hirapur-yogini.md",
+        "places/ranipur-jharial-yogini.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2321,18 +2327,32 @@
           "at": "2026-10-01T19:04:12.192294+00:00",
           "outcome": "source_backed_starting_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-yogini-traditions",
+          "at": "2026-10-02T06:43:56.947430+00:00",
+          "outcome": "two_site_archaeological_and_attributed_context_deliverable",
+          "completion_criteria_met": true,
+          "scope": "Two original inventories, distinct traditions and attributed textual hypothesis; exact patronage/dates, counts and current practice remain open, as required by the task."
         }
       ],
       "reuse_before_research": {
         "source_records": [
           "culture/tantric-traditions.md",
           "history/buddhist-learning.md",
-          "places/jagannath-temple-puri.md"
+          "places/jagannath-temple-puri.md",
+          "sources/faith-hirapur-ignca.md",
+          "sources/faith-ranipur-ignca.md",
+          "sources/faith-hatley-yoginis2020.md",
+          "sources/faith-soas-yoginis2021.md",
+          "places/hirapur-yogini.md",
+          "places/ranipur-jharial-yogini.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "completed_at": "2026-10-02T06:43:56.947430+00:00"
     },
     {
       "id": "RES-050",

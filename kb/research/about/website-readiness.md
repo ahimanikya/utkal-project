@@ -121,3 +121,7 @@ Jagannath origin timeline and food-patronage connection are research drafts. No 
 ## KISS records and account vintages · 2 October2026 UTC
 
 Existing institution-building story now exposes account-vintage and note-scope limits. The total comparison is unchanged; component-level growth and causal-impact claims remain held. No public release.
+
+## Yogini heritage · 2 October 2026 UTC
+
+Yogini collection and two place drafts now have institutional archaeological sources and attributed interpretive context. Exact date/patron claims, surviving-image headlines and current ritual/access details remain held. Image rights and public release are not established.

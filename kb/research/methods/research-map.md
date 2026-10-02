@@ -319,3 +319,7 @@ Jagannath synthesis reuses existing place/ruler/Mahaprasad pages and native Ragh
 ## KISS records and account vintages · 2 October2026 UTC
 
 Two source identities enhance existing Samanta/story pages. Alumni society registration is a distinct entity from school/university founding. Original FY2023–24 and later comparative figures are preserved as separate vintages.
+
+## Yogini heritage · 2 October 2026 UTC
+
+Four source identities and two distinct place records added after source and repository-native searches. Existing Tantric/Buddhist pages reused. IGNCA inventory family and Hatley scholarship family are explicit; repeated publication is not independent confirmation.

@@ -183,3 +183,7 @@ User-requested RES-040 adds Pala as an arts/everyday-life topic, six source reco
 ## KISS records and account vintages · 2 October2026 UTC
 
 RES-047 checkpoint saved and deferred to9October for primary evidence gaps. RES-040 and RES-048 also have future retries. Continue RES-049 Yogini/Tantric source research next, searching its reuse pointers first.
+
+## Yogini heritage · 2 October 2026 UTC
+
+RES-049 bounded two-site/context deliverable complete, with unresolved dates, patronage, counts and practice preserved. Next eligible task is RES-050 Mahima Dharma and Bhima Bhoi; inspect native literary reuse pointers before browsing.

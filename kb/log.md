@@ -275,3 +275,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · KISS records and account vintages
 
 [Research receipt](records/kiss-registration-2026-10-02.json): Two original source records and eight earlier-vintage observations enhance existing institutional pages. RES-047 deferred to9October for founding/audit and community evidence; RES-049 is next eligible. No website release.
+
+## 2 October 2026 · Yogini sites and religious contexts
+
+[Research receipt](records/yogini-traditions-2026-10-02.json): Two heritage places, four source records and six scoped observations enrich the existing Tantric collection. RES-049 bounded criteria complete; RES-050 is next eligible. Dates, sculpture counts and current practice remain qualified. No website release.

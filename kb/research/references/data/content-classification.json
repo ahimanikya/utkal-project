@@ -4485,6 +4485,28 @@
       "content_type": "Historical Synthesis",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/hirapur-yogini",
+      "primary_subject": "places",
+      "secondary_subjects": [
+        "history",
+        "arts"
+      ],
+      "content_type": "Heritage Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/ranipur-jharial-yogini",
+      "primary_subject": "places",
+      "secondary_subjects": [
+        "history",
+        "arts"
+      ],
+      "content_type": "Heritage Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6531,6 +6553,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects dated temple inscriptions to the existing place account while preserving visitor-access uncertainty."
+    },
+    {
+      "from": "places/hirapur-yogini",
+      "to": "culture/tantric-traditions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the Hirapur inventory to the comparative Yogini account without treating stylistic dating as a foundation inscription."
+    },
+    {
+      "from": "places/ranipur-jharial-yogini",
+      "to": "culture/tantric-traditions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the Ranipur-Jharial inventory to the comparative Yogini account while retaining its unresolved image count."
     }
   ],
   "relationship_types": {

@@ -15075,7 +15075,11 @@
         "places"
       ],
       "source_ids": [
-        "faith-hirapur-tourism"
+        "faith-hirapur-tourism",
+        "faith-hirapur-ignca",
+        "faith-ranipur-ignca",
+        "faith-hatley-yoginis2020",
+        "faith-soas-yoginis2021"
       ],
       "added_at": "2026-10-01T19:04:12.192294+00:00"
     },
@@ -17434,6 +17438,117 @@
         "education-kiss-alumni-certificate2017"
       ],
       "added_at": "2026-10-02T05:39:12.280267+00:00"
+    },
+    {
+      "id": "sources/faith-hirapur-ignca",
+      "title": "Chausathi Yogini Temple, Hirapura: heritage inventory OR/KDA/13",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/faith-hirapur-ignca.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "faith-hirapur-ignca"
+      ],
+      "added_at": "2026-10-02T06:43:56.947430+00:00"
+    },
+    {
+      "id": "sources/faith-ranipur-ignca",
+      "title": "Chausathi Yogini Temple, Ranipur-Jharial: heritage inventory OR/BLG-07",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/faith-ranipur-ignca.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "faith-ranipur-ignca"
+      ],
+      "added_at": "2026-10-02T06:43:56.947430+00:00"
+    },
+    {
+      "id": "sources/faith-hatley-yoginis2020",
+      "title": "Yoginīs: introduction and bibliography structure",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/faith-hatley-yoginis2020.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "faith-hatley-yoginis2020"
+      ],
+      "added_at": "2026-10-02T06:43:56.947430+00:00"
+    },
+    {
+      "id": "sources/faith-soas-yoginis2021",
+      "title": "In search of Yoginīs",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/faith-soas-yoginis2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "faith-soas-yoginis2021"
+      ],
+      "added_at": "2026-10-02T06:43:56.947430+00:00"
+    },
+    {
+      "id": "places/hirapur-yogini",
+      "title": "Hirapur: a circle of goddesses",
+      "kind": "Heritage Place",
+      "layer": "research_concept",
+      "source_path": "places/hirapur-yogini.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "places",
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "faith-hirapur-ignca",
+        "faith-hirapur-tourism"
+      ],
+      "added_at": "2026-10-02T06:43:56.947430+00:00"
+    },
+    {
+      "id": "places/ranipur-jharial-yogini",
+      "title": "Ranipur-Jharial: Yoginis around a dancing Shiva",
+      "kind": "Heritage Place",
+      "layer": "research_concept",
+      "source_path": "places/ranipur-jharial-yogini.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "places",
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "faith-ranipur-ignca"
+      ],
+      "added_at": "2026-10-02T06:43:56.947430+00:00"
     }
   ],
   "shared_publications": [
@@ -18459,7 +18574,13 @@
       "source_records": [
         "culture/tantric-traditions.md",
         "history/buddhist-learning.md",
-        "places/jagannath-temple-puri.md"
+        "places/jagannath-temple-puri.md",
+        "sources/faith-hirapur-ignca.md",
+        "sources/faith-ranipur-ignca.md",
+        "sources/faith-hatley-yoginis2020.md",
+        "sources/faith-soas-yoginis2021.md",
+        "places/hirapur-yogini.md",
+        "places/ranipur-jharial-yogini.md"
       ],
       "project_records": [],
       "remaining_scope": "Research Hirapur and Ranipur-Jharial with archaeological sources; distinguish Shakta/Shaiva, Yogini and Buddhist Vajrayana contexts and attribute each proposed connection. Preserve uncertainty over patronage, dates and living practice.",
@@ -18752,8 +18873,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1184,
-    "updated_at": "2026-10-02T05:39:12.280267+00:00",
+    "records_mapped": 1190,
+    "updated_at": "2026-10-02T06:43:56.947430+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19264,6 +19385,11 @@
       "run_id": "2026-10-02-kiss-registration",
       "at": "2026-10-02T05:39:12.280267+00:00",
       "scope": "Two source identities enrich existing founder/story records; account vintages retained separately and alumni legal entity distinguished."
+    },
+    {
+      "run_id": "2026-10-02-yogini-traditions",
+      "at": "2026-10-02T06:43:56.947430+00:00",
+      "scope": "Existing Tantric collection enriched; two distinct place identities and four sources added after source/native searches. Dated map extension, not exhaustive semantic deduplication."
     }
   ]
 }

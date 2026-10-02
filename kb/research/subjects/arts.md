@@ -83,3 +83,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Siali fibre](../economy/siali-products.md) connects historical Mankirdia craft evidence to forest-material research; no present-day maker interview is claimed.
 
 [Dance and music connections](../culture/dance-and-music-connections.md) — Follow traditions to credited people, programmes and reading routes, with historical and operational limits retained.
+
+## Yogini architecture and religious contexts
+
+[Hirapur](../places/hirapur-yogini.md) and [Ranipur-Jharial](../places/ranipur-jharial-yogini.md) now have distinct archaeological evidence records. [Read the comparative account](../culture/tantric-traditions.md), including attributed dates, sculpture-count limits and the distinction between Shaiva/Shakta and Buddhist contexts.
