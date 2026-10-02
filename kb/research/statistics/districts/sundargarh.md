@@ -39,3 +39,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Mining-area services: follow the project
 
 [DMF funds and functioning services](../../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Completed-project funds and certificates · 2 October 2026
+
+[The district DMF evidence](../../economy/dmf-from-funds-to-services.md) now includes Table5.3 unreturned completed-project balances and Table5.4 utilisation certificates as ofMarch2024. These administrative records are neither current bank balances nor evidence of working services; source discrepancies remain visible.

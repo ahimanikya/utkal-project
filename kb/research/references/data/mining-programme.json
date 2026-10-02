@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T19:55:38.366580+00:00",
+  "updated_at": "2026-10-02T20:22:56.636615+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2235,6 +2235,17 @@
       "VII"
     ],
     "observations_added": 16,
+    "completion_criteria_met": false
+  },
+  "dmf_finance_checkpoint": {
+    "run_id": "2026-10-02-dmf-collection-finance",
+    "dataset": "references/data/mining-dmf.json",
+    "complete_chapters": [
+      "III",
+      "V",
+      "VII"
+    ],
+    "observations_added": 24,
     "completion_criteria_met": false
   }
 }

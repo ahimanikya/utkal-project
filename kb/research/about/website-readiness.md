@@ -181,3 +181,7 @@ New mining-receipts story is source-checked draft; positive five-year growth and
 ## DMF livelihoods and monitoring · 2 October 2026 UTC
 
 Four additional historical livelihood cases connect training, a market/cafe and managed apiculture to DMF. All current operation remains unknown; placement and honey disputes are visible. No publication or human review claimed.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Collection/finance story distinguishes actual audit-reported recovery from promised refund, unreturned balance, unsupported remittance and modelled interest. Full ChaptersIII/V inspected. No current service, human review or website publication claim.

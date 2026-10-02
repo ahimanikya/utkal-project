@@ -50,3 +50,7 @@ Six observations span five elapsed years. The audit summaries derive from Financ
 **Held claim:** the 2024–25 audit PDF gives OMC's dividend as ₹4,233 crore on p.17 and ₹4,223 crore on pp.32–33. Neither company-specific figure is promoted until reconciled. This does not turn the separate all-state dividend total into an OMC figure.
 
 Next: reconcile detailed royalty/auction receipt subheads, then finish the DMF audit chapters and seek dated handover and service records. Current functioning services, human review and website publication remain unverified.
+
+## From collections to documented use · 2 October 2026
+
+[The DMF evidence](dmf-from-funds-to-services.md) now distinguishes audit-reported recovery, unreturned completed-project balances and utilisation certificates. Fund eligibility disputes, record differences and foregone interest are different findings, not an additive loss total. Current resolution remains open.

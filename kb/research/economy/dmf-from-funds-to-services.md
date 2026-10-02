@@ -78,3 +78,29 @@ For each project, the next evidence to seek is a stable project ID, sanctioned p
 Connects managed-hive livelihood evidence with the honey value chain; it does not establish wild-honey output or export sales. [Mohu: honey](../food/mohu-honey.md).
 
 Connects project training evidence with employment statistics; it does not measure current statewide jobs. [Employment](../statistics/employment.md) · [Skills and enterprise](../statistics/entrepreneurship-skills.md).
+
+## Collections: checks can bring money back
+
+**₹11.06 lakh was deposited after audit flagged missing bank credits in August–September 2025.** CAG records 13 cases involving three lessees in Baripada and Koira, relating to earlier 2019–23 payment records. This is a reported recovery, not a promise or a total recovery of every issue in the report. [Section3.2.3.2, printed p.15](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+The wider collection chapter distinguishes incorrect assessment, unlevied interest, discrepancies between records and payments with inadequate supporting documents. Its ₹40.74 crore ledger difference was unreconciled at March 2025; the ₹14.92 crore doubtful-remittance category is not proof that all those payments failed. The government described ongoing reconciliation and directions to pay. These categories cannot be added into one “money lost” headline.
+
+## Completed projects can still have money to return
+
+**₹470.25 crore remained with implementing agencies after completion of 1,535 projects**, across Jajpur, Keonjhar and Sundargarh, as of 31 March 2024. The government said in January 2026 that efforts were being made to secure refunds. That statement does not establish repayment. Unreturned balances are distinct from missing cash, current spending capacity and evidence that a service works. [Table5.3, printed p.36](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+| District | Completed projects with balances | Unreturned amount, ₹ crore |
+|---|---:|---:|
+| Jajpur | 359 | 30.84 |
+| Keonjhar | 370 | 63.81 |
+| Sundargarh | 806 | 375.60 |
+
+These are three sampled districts at a historical date. Displayed releases minus expenditure differ from the reported total balance by ₹0.01 crore; source figures are retained. A separate interest total fails to reconcile with its footnote and is withheld.
+
+## A certificate is another checkpoint
+
+A utilisation certificate records a funding claim; it does not by itself establish a functioning service. The six sampled DMFs reported expenditure of ₹10,092.53 crore and certificates covering ₹9,545.65 crore by March 2024. Their ₹546.88 crore difference is **net**: Jajpur and Sundargarh had certificates above reported expenditure, while four districts had certificates below it. Calling the net difference a clean total of “missing money” would be wrong. [Table5.4, printed p.40](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+The Sundargarh row prints an excess of ₹183.41 crore although its displayed amounts differ by ₹183.51 crore; the inconsistent gap is held. CAG also records government claims that some bank differences were reconciled, but says supporting records were not provided. Claims, audit findings and subsequent proof remain separate in our evidence.
+
+Chapters III and V are now fully read alongside Chapter VII. [Annual state mining receipts](mining-receipts.md) explain the larger fiscal context; the district ledger here follows different funds and stages. From assessment to bank credit, project spending, handover and actual use, each step needs its own dated evidence. Original recovery slips, remaining project sections and present service records remain to be checked.

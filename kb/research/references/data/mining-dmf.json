@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T19:55:38.366580+00:00",
+  "updated_at": "2026-10-02T20:22:56.636615+00:00",
   "run_id": "2026-10-02-mining-dmf",
   "source_id": "mining-cag-dmf2026",
   "sample_districts": [
@@ -156,7 +156,31 @@
     "dmf-sundargarh-honey-output-reply",
     "dmf-slmc-meetings2017-23",
     "dmf-report-delay-audit",
-    "dmf-report-delay-annual"
+    "dmf-report-delay-annual",
+    "dmf-collection-rate-assessment",
+    "dmf-collection-interest-not-levied",
+    "dmf-collection-ledger-variation",
+    "dmf-collection-unsupported-remittance",
+    "dmf-collection-suspected-short",
+    "dmf-collection-works-short",
+    "dmf-collection-extraction-demand",
+    "dmf-collection-quarry-permits",
+    "dmf-collection-recovery",
+    "dmf-unreturned-jajpur-2024",
+    "dmf-unreturned-keonjhar-2024",
+    "dmf-unreturned-sundargarh-2024",
+    "dmf-unreturned-three-total-2024",
+    "dmf-unreturned-projects-2024",
+    "dmf-uc-dhenkanal-2024",
+    "dmf-uc-jajpur-2024",
+    "dmf-uc-keonjhar-2024",
+    "dmf-uc-mayurbhanj-2024",
+    "dmf-uc-nabarangpur-2024",
+    "dmf-uc-sundargarh-2024",
+    "dmf-uc-six-total-2024",
+    "dmf-uc-net-gap-2024",
+    "dmf-unreturned-interest-source-total",
+    "dmf-uc-sundargarh-source-excess"
   ],
   "reused_observation_ids": [
     "mining-dmf-contributions-2024",
@@ -375,6 +399,29 @@
       "locator": "6.6.8(ii), printed65",
       "treatment": "1208 total versus618 across three institutes plus15IHM not reconciled in passage. No full-programme employment rate.",
       "retry_after": "2026-10-09"
+    },
+    {
+      "id": "dmf-unreturned-interest-footnote",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "5.4.1 printed36/PDF72, footnote41",
+      "prose_crore": 26.51,
+      "footnote_components_crore": [
+        9.33,
+        1.5,
+        12.29
+      ],
+      "component_sum_crore": 23.12,
+      "treatment": "Aggregate withheld pending publisher/source reconciliation. No claim that component sum is authoritative correction.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "id": "dmf-sundargarh-uc-excess",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "5.7 Table5.4 printed40/PDF76",
+      "printed_excess_crore": 183.41,
+      "difference_of_displayed_amounts_crore": 183.51,
+      "treatment": "Printed gap held; raw expenditure and certificate figures retained with scope; aggregate net gap separately reconciles.",
+      "retry_after": "2026-10-09"
     }
   ],
   "human_review_claimed": false,
@@ -444,8 +491,10 @@
     "sundargarh": "2025-03-22"
   },
   "review_coverage": {
-    "updated_at": "2026-10-02T19:55:38.366580+00:00",
+    "updated_at": "2026-10-02T20:22:56.636615+00:00",
     "complete_chapters": [
+      "III",
+      "V",
       "VII"
     ],
     "complete_subsections": [
@@ -461,7 +510,298 @@
       "6.6.9",
       "6.6.10"
     ],
-    "remaining": "Full ChaptersIII/V and unreviewed ChapterVI subsections; original supporting district records remain missing.",
+    "remaining": "Remaining ChapterVI sections and linked appendices; original project records/current operating evidence; royalty/auction receipt split.",
     "not_full_report_review": true
-  }
+  },
+  "collection_findings": {
+    "source_id": "mining-cag-dmf2026",
+    "findings": [
+      {
+        "id": "rate-assessment",
+        "observation_id": "dmf-collection-rate-assessment",
+        "section": "3.2.1, printed12/PDF44",
+        "finding": "Two assessment categories6.13+4.27; not established current debt balance.",
+        "amount_crore": 10.4,
+        "stage": "assessed_short_collection",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "interest-not-levied",
+        "observation_id": "dmf-collection-interest-not-levied",
+        "section": "3.2.2, printed12–13/PDF44–45",
+        "finding": "Audit computation of unlevied interest, not principal shortfall or recovered money.",
+        "amount_crore": 9.33,
+        "stage": "audit_assessed_interest",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "ledger-variation",
+        "observation_id": "dmf-collection-ledger-variation",
+        "section": "3.2.3.1, printed13/PDF45",
+        "finding": "Assessment records927.28crore versus audited DMF accounts886.54crore. Difference requires reconciliation; not proved loss.",
+        "amount_crore": 40.74,
+        "stage": "unreconciled_variation",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "unsupported-remittance",
+        "observation_id": "dmf-collection-unsupported-remittance",
+        "section": "3.2.3.2, printed14/PDF46",
+        "finding": "Genuineness could not be verified because irrelevant documents were uploaded; not proven nonpayment.",
+        "amount_crore": 14.92,
+        "stage": "doubtful_remittance",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "suspected-short",
+        "observation_id": "dmf-collection-suspected-short",
+        "section": "3.2.3.2, printed14–15/PDF46–47",
+        "finding": "Uploaded7.09crore versus5.52crore in bank statements. Preserve audit qualification; overlaps16.49crore aggregate with14.92 category.",
+        "amount_crore": 1.57,
+        "stage": "suspected_short_remittance",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "works-short",
+        "observation_id": "dmf-collection-works-short",
+        "section": "3.2.4 Table3.1, printed16/PDF48",
+        "finding": "Table source4438.08lakh; recoverable4607.93lakh less recovered169.85lakh. Later recovery unknown.",
+        "amount_crore": 44.3808,
+        "stage": "assessed_short_recovery",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "extraction-demand",
+        "observation_id": "dmf-collection-extraction-demand",
+        "section": "3.2.5, printed17/PDF49",
+        "finding": "Audit-assessed demand shortfall; not a verified current receivable or actual recovery.",
+        "amount_crore": 9.06,
+        "stage": "short_demand",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "quarry-permits",
+        "observation_id": "dmf-collection-quarry-permits",
+        "section": "3.2.6, printed17–18/PDF49–50",
+        "finding": "Source53.73lakh. Preserve assessment and collection scope rather than royalty-only reading.",
+        "amount_crore": 0.5373,
+        "stage": "assessed_short_collection",
+        "source_id": "mining-cag-dmf2026"
+      },
+      {
+        "id": "recovery",
+        "observation_id": "dmf-collection-recovery",
+        "section": "3.2.3.2, printed15/PDF47",
+        "finding": "CAG reports deposits in the months audit raised issue. Not independently obtained bank receipts; not recoveries of all other findings.",
+        "amount_crore": 0.1106,
+        "stage": "reported_recovery",
+        "source_id": "mining-cag-dmf2026"
+      }
+    ],
+    "government_responses": {
+      "3.2.1": "Government January2026 said collection would comply with ODMF rules; no quantified recovery evidenced.",
+      "3.2.2": "Government January2026 promised rule compliance; audit retained non-levy.",
+      "3.2.3": "Government January2026 described ongoing reconciliation using CA firms; Joda November2025 said lessees directed to pay. Supporting reconciliations/receipts not separately recovered.",
+      "3.2.4": "Government January2026 cited difficulties following transfer of minor-mineral responsibility; audit retained non-compliance finding.",
+      "3.2.5": "Government January2026 promised rule compliance; audit retained short-assessment finding.",
+      "3.2.6": "Government January2026 promised rule compliance; audit noted someFY2023–24 higher-rate demands/collections, without a complete recovery statement."
+    },
+    "aggregation_rule": "No grand loss/arrears sum. Categories differ and may overlap;16.49 is14.92+1.57, not additional. Recovery0.1106crore stands separately.",
+    "legal_scope": "Rules/rates are audit-period interpretation reproduced from report; no present compliance advice."
+  },
+  "completed_project_balances": {
+    "as_of": "2024-03-31",
+    "unit": "INR crore",
+    "rows": [
+      {
+        "district": "jajpur",
+        "projects": 359,
+        "released_crore": 285.69,
+        "utilised_crore": 254.85,
+        "unreturned_crore": 30.84,
+        "observation_id": "dmf-unreturned-jajpur-2024"
+      },
+      {
+        "district": "keonjhar",
+        "projects": 370,
+        "released_crore": 380.5,
+        "utilised_crore": 316.69,
+        "unreturned_crore": 63.81,
+        "observation_id": "dmf-unreturned-keonjhar-2024"
+      },
+      {
+        "district": "sundargarh",
+        "projects": 806,
+        "released_crore": 1749.25,
+        "utilised_crore": 1373.64,
+        "unreturned_crore": 375.6,
+        "observation_id": "dmf-unreturned-sundargarh-2024"
+      }
+    ],
+    "total_unreturned_crore": 470.25,
+    "completed_projects": 1535,
+    "source_id": "mining-cag-dmf2026",
+    "locator": "5.4.1 Table5.3, printed36/PDF72",
+    "rounding_note": "Displayed aggregate releases2415.44 less expenditure1945.18 gives470.26, while reported balance470.25. Sundargarh difference0.01crore similarly present. Source values retained; no authoritative correction inferred.",
+    "government_response": "January2026: efforts being made to ensure refunds. Promise does not establish bank credits."
+  },
+  "utilisation_certificates": {
+    "as_of": "2024-03-31",
+    "rows": [
+      {
+        "district": "dhenkanal",
+        "expenditure_observation_id": "dmf-dhenkanal-expenditure-2024",
+        "certificate_observation_id": "dmf-uc-dhenkanal-2024",
+        "utilised_crore": 44.14,
+        "certified_crore": 4.26,
+        "source_gap_crore_positive_means_shortfall": 39.88,
+        "calculated_gap_crore": 39.88,
+        "source_gap_status": "matches_displayed_amounts"
+      },
+      {
+        "district": "jajpur",
+        "expenditure_observation_id": "dmf-jajpur-expenditure-2024",
+        "certificate_observation_id": "dmf-uc-jajpur-2024",
+        "utilised_crore": 1164.42,
+        "certified_crore": 1177.19,
+        "source_gap_crore_positive_means_shortfall": -12.77,
+        "calculated_gap_crore": -12.77,
+        "source_gap_status": "matches_displayed_amounts"
+      },
+      {
+        "district": "keonjhar",
+        "expenditure_observation_id": "dmf-keonjhar-expenditure-2024",
+        "certificate_observation_id": "dmf-uc-keonjhar-2024",
+        "utilised_crore": 4410.1,
+        "certified_crore": 3711.29,
+        "source_gap_crore_positive_means_shortfall": 698.81,
+        "calculated_gap_crore": 698.81,
+        "source_gap_status": "matches_displayed_amounts"
+      },
+      {
+        "district": "mayurbhanj",
+        "expenditure_observation_id": "dmf-mayurbhanj-expenditure-2024",
+        "certificate_observation_id": "dmf-uc-mayurbhanj-2024",
+        "utilised_crore": 85.99,
+        "certified_crore": 81.92,
+        "source_gap_crore_positive_means_shortfall": 4.07,
+        "calculated_gap_crore": 4.07,
+        "source_gap_status": "matches_displayed_amounts"
+      },
+      {
+        "district": "nabarangpur",
+        "expenditure_observation_id": "dmf-nabarangpur-expenditure-2024",
+        "certificate_observation_id": "dmf-uc-nabarangpur-2024",
+        "utilised_crore": 1.17,
+        "certified_crore": 0.77,
+        "source_gap_crore_positive_means_shortfall": 0.4,
+        "calculated_gap_crore": 0.4,
+        "source_gap_status": "matches_displayed_amounts"
+      },
+      {
+        "district": "sundargarh",
+        "expenditure_observation_id": "dmf-sundargarh-expenditure-2024",
+        "certificate_observation_id": "dmf-uc-sundargarh-2024",
+        "utilised_crore": 4386.71,
+        "certified_crore": 4570.22,
+        "source_gap_crore_positive_means_shortfall": -183.41,
+        "calculated_gap_crore": -183.51,
+        "source_gap_status": "hold_conflict"
+      }
+    ],
+    "source_id": "mining-cag-dmf2026",
+    "locator": "5.7 Table5.4, printed40/PDF76",
+    "reported_utilised_total_crore": 10092.53,
+    "reused_expenditure_observation_id": "mining-dmf-spending-sample-2024",
+    "reported_certificate_total_crore": 9545.65,
+    "net_gap_crore": 546.88,
+    "interpretation": "Net gap includes districts with certificates exceeding reported spending; not a gross missing-certificate or proven-loss total.",
+    "government_response": "No specific government reply; Jajpur and Keonjhar DMFs said reminders and follow-up meetings would be used."
+  },
+  "financial_management_review": [
+    {
+      "section": "5.1",
+      "finding": "Existing district collection/release/expenditure tables reused; source percentage discrepancy remains held.",
+      "response_and_limit": "No new resolution claimed.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.2",
+      "finding": "Audit models94crore foregone interest, including84.51crore Keonjhar comparison; it is not cash removed. Narrative reference2015–24 differs from Keonjhar window2016–January2025. No blended new observation or investment advice.",
+      "response_and_limit": "Government cited prudent decisions in fluctuating markets and positive returns; CAG retained concern over absent uniform investment policy.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.3.1",
+      "finding": "Additional MGNREGS wages171.79crore and separate0.10crore CMRF transfer questioned as eligible DMF use.",
+      "response_and_limit": "January2026: non-admissible activities to be reimbursed from line-department budgets; no bank-credit proof.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.3.2",
+      "finding": "ITDA Sundargarh miscellaneous expenditure1.0236crore questioned as unapproved use of project funds.",
+      "response_and_limit": "January2026: explanations sought from ITDA; recovery not established.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.3.3",
+      "finding": "25.01crore within99.81crore administrative expenditure questioned for non-administrative purposes. Potential overlap with specific vehicle examples means do not aggregate.",
+      "response_and_limit": "January2026: police-vehicle cost recouped; other activities defended as education/IEC. CAG rejected eligibility argument.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.3.4",
+      "finding": "2.65crore COVID incentives questioned for funding source, not denial that healthcare staff received payments.",
+      "response_and_limit": "January2026: to be recouped from CMRF; not an established recovery.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.3.5",
+      "finding": "Vehicle approval failures;4.63crore Sundargarh principal reported returned July2021;22.53lakh foregone interest separately discussed.",
+      "response_and_limit": "January2026: interest would be recouped. Jajpur cited trustee approval; CAG required state approval.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.4",
+      "finding": "Completed-project unreturned balances and interest; Table5.3/footnote inconsistencies retained.",
+      "response_and_limit": "January2026: efforts to obtain refunds; present completion unknown.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.5.1",
+      "finding": "Cash-book/bank difference10.92crore at Chandikhole requires investigation; not a verified finding of theft.",
+      "response_and_limit": "January2026: government said records updated and reconciled; CAG said supporting reconciliation not furnished.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.5.2",
+      "finding": "3.26crore contractor deductions transferred to other official accounts; source records a further discrepancy needing investigation. Not addable to5.5.1 without overlap reconciliation.",
+      "response_and_limit": "January2026: government said difference reconciled; supporting statements not furnished to CAG.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.6",
+      "finding": "52.09crore tax refund not availed for historical FY2017–18 toFY2019–20 after registration delays. Not a current tax-recovery determination.",
+      "response_and_limit": "Government said Sundargarh pursued refund; no response for Jajpur/Keonjhar. Audit retained non-fulfilment finding.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    },
+    {
+      "section": "5.7",
+      "finding": "Certificate controls include both under- and over-reporting relative to expenditure.",
+      "response_and_limit": "No specific government response; two DMFs described follow-up plans.",
+      "source_id": "mining-cag-dmf2026",
+      "current_resolution": "unknown_except_explicit_historical_recovery"
+    }
+  ]
 }

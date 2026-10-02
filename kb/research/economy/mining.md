@@ -97,3 +97,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Annual public receipts · 2 October 2026
 
 [Mining receipts over five elapsed years](mining-receipts.md) adds an audited actual series, recent decline and separate budget/coal/dividend categories. It provides context for DMF services without claiming that annual state receipts equal cumulative DMF funds or caused specific outcomes.
+
+## From collections to documented use · 2 October 2026
+
+[The DMF evidence](dmf-from-funds-to-services.md) now distinguishes audit-reported recovery, unreturned completed-project balances and utilisation certificates. Fund eligibility disputes, record differences and foregone interest are different findings, not an additive loss total. Current resolution remains open.

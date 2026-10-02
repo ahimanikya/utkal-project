@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T19:55:38.366580+00:00",
+  "updated_at": "2026-10-02T20:22:56.636615+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2785,13 +2785,13 @@
       "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 3,
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-018"
       ],
-      "last_worked_at": "2026-10-02T19:55:38.366580+00:00",
-      "next_step": "Reuse complete ChapterVII and livelihood sections6.6.8–6.6.10 now saved. Next read full CAG ChapterIII on contribution collection and ChapterV financial management, then remaining ChapterVI sections. Obtain original project IDs and service/handover evidence where accessible. Subhead receipt split and source conflicts remain open; district portal failures and specific conflicts retry9October.",
+      "last_worked_at": "2026-10-02T20:22:56.636615+00:00",
+      "next_step": "Reuse completed ChaptersIII/V/VII and existing district finance tables. Next inspect remaining ChapterVI sections6.1–6.4,6.5.2–6.5.5,6.6.7 and6.6.11–6.6.15, plus relevant appendices. Preserve suspected/unreconciled/modeled/recovered distinctions; seek original dated handover and operation evidence where available. Source conflicts and portal retries remain9October.",
       "evidence_outputs": [
         "economy/dmf-from-funds-to-services.md",
         "references/data/mining-dmf.json",
@@ -2804,7 +2804,7 @@
         "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
-      "blocker": "Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing.",
+      "blocker": "Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete.",
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-dmf",
@@ -2826,6 +2826,13 @@
           "outcome": "full_monitoring_chapter_and_four_livelihood_cases",
           "completion_criteria_met": false,
           "remaining": "Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing."
+        },
+        {
+          "run_id": "2026-10-02-dmf-collection-finance",
+          "at": "2026-10-02T20:22:56.636615+00:00",
+          "outcome": "complete_collection_and_finance_chapters",
+          "completion_criteria_met": false,
+          "remaining": "Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete."
         }
       ],
       "reuse_before_research": {
@@ -2897,6 +2904,22 @@
           "topic": "District DMF portal and original outcome records",
           "retry_after": "2026-10-09",
           "gap": "Annual-report portal timed out; PMU tender page502. Present restoration, registers and project operations unverified.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-unreturned-interest-footnote",
+          "retry_after": "2026-10-09",
+          "gap": "Aggregate withheld pending publisher/source reconciliation. No claim that component sum is authoritative correction.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-sundargarh-uc-excess",
+          "retry_after": "2026-10-09",
+          "gap": "Printed gap held; raw expenditure and certificate figures retained with scope; aggregate net gap separately reconciles.",
           "source_ids": [
             "mining-cag-dmf2026"
           ]

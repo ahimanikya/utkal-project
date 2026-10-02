@@ -410,3 +410,7 @@ Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and 
 ## DMF livelihoods and monitoring · 2 October 2026 UTC
 
 Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing. Placement versions, honey periods and cohort scope kept unresolved; current portal retrieval failures retry9October.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete. New interest and certificate-gap discrepancies retry9October.

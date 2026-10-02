@@ -385,3 +385,7 @@ Two original-document identities and one synthesis added. Audit summaries and Fi
 ## DMF livelihoods and monitoring · 2 October 2026 UTC
 
 Existing CAG identity reused; existing honey and skills pages enhanced. Full ChapterVII and sections6.6.8–6.6.10 captured without duplicate topics.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+Existing CAG identity, DMF collection and three district pages enhanced; prior fund-stage observations reused. No independent corroboration claimed.

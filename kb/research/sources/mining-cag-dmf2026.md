@@ -23,3 +23,7 @@ The original163-page PDF was recovered by direct publisher download after the we
 ## Livelihood and monitoring extension · 2 October 2026
 
 Full ChapterVII, sections7.1–7.6, printed77–81/PDF117–121; complete livelihood subsections6.6.8–6.6.10, printed64–69/PDF102–107. Text fully read; PDF102–104,107,119,121 visually checked. Other remaining chapters not claimed reviewed. The saved original was reused; no fresh download or independent corroboration claimed. Government responses are reproduced by CAG. Placement versions, honey reporting periods and a Keonjhar cohort denominator remain unreconciled. Current district portal checks failed and cannot verify remediation.
+
+## Collection and finance extension · 2 October 2026
+
+Complete Chapters III (printed pp.11–18 / PDF43–50) and V (printed pp.29–40 / PDF65–76), including reproduced government responses. Tables3.1,5.3,5.4 and recovery passage visually checked. Linked appendices not fully reviewed. Reused original, not an independent verification. Recovery of11.06lakh is CAG-reported. New interest-footnote and Sundargarh certificate-gap conflicts are retained; recovery promises and modelled foregone interest are distinct from received cash.

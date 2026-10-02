@@ -426,3 +426,7 @@ RES-053 receipt checkpoint: 23 observations, two comparisons, six-year actual se
 ## DMF livelihoods and monitoring · 2 October 2026 UTC
 
 RES-053: full ChapterVII and three livelihood subsections read; four cases and 16 observations added to existing DMF collection. Government responses preserved, three evidence-scope issues held. Failed portal retrievals remain unavailable. No website release.
+
+## DMF collections and financial management · 2 October 2026 UTC
+
+RES-053: full ChaptersIII/V and government responses read; 24 new observations, completed-project balance and certificate tables saved. Two new source discrepancies held; no aggregate loss headline. Local draft; no website release.

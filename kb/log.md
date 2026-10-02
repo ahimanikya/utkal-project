@@ -431,3 +431,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 2 October 2026 · DMF livelihoods and monitoring
 
 [Research receipt](records/dmf-livelihood-monitoring-2026-10-02.json): Four livelihood cases connect skills, honey and assets with actual-use evidence and government responses. Full monitoring chapter read; current remediation unknown and district fetch failures recorded. RES-053 continues with remaining audit chapters and original service records. No website release.
+
+## 2 October 2026 · DMF collection and financial management
+
+[Research receipt](records/dmf-collection-finance-2026-10-02.json): Complete collection and finance chapters distinguish recovered funds, unreturned balances, accounting differences, promises and modelled interest. Source conflicts held. RES-053 continues with remaining project sections, appendices and original service records. No website release.
