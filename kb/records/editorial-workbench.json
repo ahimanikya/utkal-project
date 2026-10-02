@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 10,
-    "newer_records_outside_frozen_selection": 178
+    "newer_records_outside_frozen_selection": 183
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -174,11 +174,16 @@
     "source:rice-samant2023",
     "source:rice-yadav-landraces2026",
     "source:sweets-apeda-query-routes",
+    "source:sweets-dhenkanal-book-lead2021",
     "source:sweets-industry-size-lead",
     "source:sweets-kamadhenu-sdg2026",
     "source:sweets-khordha-census2001",
     "source:sweets-korakhai-makers2016",
+    "source:sweets-magji-maker2024",
+    "source:sweets-nabard-support-lead2024",
     "source:sweets-pahala-study2023",
+    "source:sweets-rasabali-maker2023",
+    "source:sweets-sisir-market2026",
     "subject:food/badi-chura",
     "subject:food/baigana-poda",
     "subject:food/baunsa-poda-mansa",
@@ -210,8 +215,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "f76b2a7159fec304d6d12e93bd2a71998ce09700019fa8a0b5c6f27c27e2369f",
-    "kb/research/search-index.json": "b55b9ad6ab64ff65fd6bab258b58b1944a57f4be35bddafef7727de6c8822c8f",
+    "kb/research/references/data/source-catalog.json": "7b5a89598aa1704c5e74324cbb06c4b40c34e1a710109c6cfc608ff298d06629",
+    "kb/research/search-index.json": "d40a83bed1da94f0692626c74405d3145768ed1630dfb135066375f9ad380765",
     "kb/research/food/collection.json": "77a7db5fc750b8eb8e6b14eb2a421df178c14a8f8faaef44246487a0d2105a70",
     "kb/research/voices/collection.json": "58acf153507f6e69e0476f3e4944d97733daa798028b121a62488b51424d2b7b",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -15881,7 +15886,7 @@
         "record_status": "draft",
         "recorded_scope": "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals.",
         "readiness": "Research nucleus; feature needs local detail and media",
-        "source_connections": 2,
+        "source_connections": 4,
         "held_claims": [
           {
             "id": "magji-sugar-ratio",
@@ -15919,6 +15924,16 @@
           "id": "gi-magji",
           "title": "Dhenkanal Magji — GI application 724",
           "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/724"
+        },
+        {
+          "id": "sweets-dhenkanal-book-lead2021",
+          "title": "Dhenkanal history book launch — bibliographic lead",
+          "url": "https://www.localnewsodia.com/35485dhenkanal-district-history-book-launch/"
+        },
+        {
+          "id": "sweets-magji-maker2024",
+          "title": "Dhenkanal Magji: attributed confectioner account",
+          "url": "https://interviewtimes.net/dhenkanal-magji-gets-gi-tag/"
         }
       ],
       "related_source_ids": [],
@@ -16072,7 +16087,7 @@
         "record_status": "draft",
         "recorded_scope": "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals.",
         "readiness": "Research nucleus; feature needs local detail and media",
-        "source_connections": 5,
+        "source_connections": 8,
         "held_claims": [
           {
             "id": "rasabali-curdling-corrigendum",
@@ -16118,6 +16133,21 @@
           "id": "regional-cuisine",
           "title": "Regional Cuisine of India, BHM-602AT",
           "url": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf"
+        },
+        {
+          "id": "sweets-nabard-support-lead2024",
+          "title": "NABARD GI support: Rasabali evidence lead",
+          "url": "https://www.nabard.org/irreport2023-24/pdf/Nabard-Impact-Report-2023-24.pdf"
+        },
+        {
+          "id": "sweets-rasabali-maker2023",
+          "title": "Kendrapara Rasabali: makers on GI recognition",
+          "url": "https://www.newindianexpress.com/odisha/2023/Oct/04/kendraparas-famous-rasabali-gets-gi-tag-2620736.html"
+        },
+        {
+          "id": "sweets-sisir-market2026",
+          "title": "Sisir Saras 2026: Rasabali among featured products",
+          "url": "https://www.newindianexpress.com/cities/bhubaneswar/2026/Jan/16/stalls-selling-gi-tagged-products-major-crowd-puller-at-sisir-saras"
         }
       ],
       "related_source_ids": [],

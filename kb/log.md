@@ -291,3 +291,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Sweet makers and historical town commerce
 
 [Research receipt](records/sweet-makers-2026-10-02.json): Existing Jhili and Korakhai entries are extended with three attributed maker credits, the Census town commodity listing for1999 and a quarantined2016 market lead. Two source records added; university source reused. RES-031 remains in progress, with Magji histories and Rasabali dated accounts next. No current market or international shipment total and no website release.
+
+## 2 October 2026 · Sweet histories and market evidence
+
+[Research receipt](records/sweet-history-2026-10-02.json): Existing Magji and Rasabali entries gain two maker credits and dated Sisir Saras participation. Original books and NABARD financial tables remain unavailable; whole-fair turnover is kept separate. Five source/lead records added. RES-031 remains in progress with a 9 October retry. Independent handloom research RES-012 is next. No website release.

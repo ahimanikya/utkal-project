@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T09:44:47.633511+00:00",
+  "updated_at": "2026-10-02T10:43:57.786283+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -958,10 +958,10 @@
       "done_when": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
       "target": "economy/rasagola-and-sweets.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-02T09:44:47.633511+00:00",
-      "next_step": "Follow Magji original cited histories (Adhunika Dhenkanal Itihas p.230; Abibhakta Dhenkanal Itihas p.291) and dated Rasabali producer accounts. Reuse Jhili maker attribution, 1999 Korakhai town listing and quarantined 2016 press estimates. Seek accounts/shipments or record bounded unavailability; retry Kamadhenu SDG and Industries full captures after 2026-10-09, Korakhai market-method lead after 2026-10-16.",
+      "last_worked_at": "2026-10-02T10:43:57.786283+00:00",
+      "next_step": "On/after 9 October recover cited Magji book pages, complete NABARD support table and Kamadhenu SDG case; seek dated Rasabali producer accounts and product-level shipments. Reuse all six sweet entries, maker credits and Sisir2026 scope check. Until retry, continue earliest independent eligible task RES-012 handloom techniques, makers and sales.",
       "evidence_outputs": [
         "economy/rasagola-and-sweets.md",
         "references/data/sweets-economy.json",
@@ -974,10 +974,17 @@
         "food/chhena-jhili.md",
         "food/korakhai.md",
         "sources/sweets-khordha-census2001.md",
-        "sources/sweets-korakhai-makers2016.md"
+        "sources/sweets-korakhai-makers2016.md",
+        "food/dhenkanal-magji.md",
+        "food/kendrapara-rasabali.md",
+        "sources/sweets-magji-maker2024.md",
+        "sources/sweets-rasabali-maker2023.md",
+        "sources/sweets-dhenkanal-book-lead2021.md",
+        "sources/sweets-sisir-market2026.md",
+        "sources/sweets-nabard-support-lead2024.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-09",
+      "blocker": "Original Magji history books and dated producer accounts unlocated; full NABARD/Kamadhenu documents unavailable. Evidence gaps do not prevent independent handloom research.",
       "reuse_before_research": {
         "source_records": [
           "economy/rasagola-and-sweets.md",
@@ -996,7 +1003,13 @@
           "food/korakhai.md",
           "sources/sweets-khordha-census2001.md",
           "sources/sweets-korakhai-makers2016.md",
-          "sources/regional-cuisine.md"
+          "sources/regional-cuisine.md",
+          "food/dhenkanal-magji.md",
+          "sources/sweets-magji-maker2024.md",
+          "sources/sweets-rasabali-maker2023.md",
+          "sources/sweets-dhenkanal-book-lead2021.md",
+          "sources/sweets-sisir-market2026.md",
+          "sources/sweets-nabard-support-lead2024.md"
         ],
         "project_records": [
           "kb/research/food/odisha-rasagola.md",
@@ -1019,6 +1032,13 @@
           "outcome": "jhili_korakhai_maker_and_historical_trade_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Magji original histories, Rasabali dated accounts and six-sweet market/shipment evidence or scoped unavailability."
+        },
+        {
+          "run_id": "2026-10-02-sweet-history",
+          "at": "2026-10-02T10:43:57.786283+00:00",
+          "outcome": "magji_rasabali_history_and_market_checkpoint_with_retry",
+          "completion_criteria_met": false,
+          "remaining": "Original histories, dated enterprise accounts and held document recovery; gaps and retry saved."
         }
       ]
     },

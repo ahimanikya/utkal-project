@@ -5,7 +5,7 @@ description: "Kendrapara Rasabali — research and reuse notes."
 tags: ["food", "kendrapara"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "gi-rasabali", "title": "Kendrapara Rasabali — GI application 802", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802"}, {"id": "food-rasabali-corrigendum2023", "title": "Kendrapara Rasabali — corrigendum of 29 September 2023", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802"}]
+sources: [{"id": "gi-rasabali", "title": "Kendrapara Rasabali — GI application 802", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802"}, {"id": "food-rasabali-corrigendum2023", "title": "Kendrapara Rasabali — corrigendum of 29 September 2023", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802"}, {"id": "sweets-rasabali-maker2023", "title": "Kendrapara Rasabali: makers on GI recognition", "resource": "https://www.newindianexpress.com/odisha/2023/Oct/04/kendraparas-famous-rasabali-gets-gi-tag-2620736.html"}, {"id": "sweets-sisir-market2026", "title": "Sisir Saras 2026: Rasabali among featured products", "resource": "https://www.newindianexpress.com/cities/bhubaneswar/2026/Jan/16/stalls-selling-gi-tagged-products-major-crowd-puller-at-sisir-saras"}, {"id": "sweets-nabard-support-lead2024", "title": "NABARD GI support: Rasabali evidence lead", "resource": "https://www.nabard.org/irreport2023-24/pdf/Nabard-Impact-Report-2023-24.pdf"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Kendrapara"
 aliases: ["Kendrapara Rasabali", "kendrapara rasabali"]
@@ -61,3 +61,13 @@ The 2023 applicant specification reports nearly 300 sweet shopkeepers selling Ra
 ## Ritual and livelihood context
 
 The already retrieved September 2023 applicant correction associates Rasabali with offerings to Baladevjew in Kendrapara (PDF p.2). This is an applicant’s cultural account; the page does not independently date the sweet’s origin. Its district seller/maker claims on p.8 still lack a reference period and method. [Saved correction](../sources/food-rasabali-corrigendum2023.md). The [sweets-economy register](../references/data/sweets-economy.json) keeps these distinctions visible.
+
+## Makers and a dated market connection
+
+An October 2023 report names **Souri Sahoo** as a Rasabali maker and **Baishava Panda** as the makers’ association president. Their comments describe expectations following GI recognition; they provide no measured price rise or export growth. [Dated report](https://www.newindianexpress.com/odisha/2023/Oct/04/kendraparas-famous-rasabali-gets-gi-tag-2620736.html).
+
+In January 2026, Rasabali stalls were listed among featured products at **Sisir Saras in Bhubaneswar**, in reporting attributed to ORMAS officials. [16 January report](https://www.newindianexpress.com/cities/bhubaneswar/2026/Jan/16/stalls-selling-gi-tagged-products-major-crowd-puller-at-sisir-saras). This connects Kendrapara’s sweet with a wider selling venue at a stated time. The article’s turnover figure covers the entire fair and cannot be presented as Rasabali revenue.
+
+A [NABARD support-table lead](https://www.nabard.org/irreport2023-24/pdf/Nabard-Impact-Report-2023-24.pdf) remains held: complete pages could not be retrieved, and the indexed row has an apparent state-label problem. No grant amount, current producer count, product turnover or shipment quantity is established. The [shared evidence register](../references/data/sweets-economy.json) preserves the precise gaps.
+
+[Related economic research](../economy/rasagola-and-sweets.md) — Dated market participation connects a place-based sweet with enterprise research without assigning whole-fair turnover to the product.

@@ -5,7 +5,7 @@ description: "Dhenkanal Magji — research and reuse notes."
 tags: ["food", "dhenkanal"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "gi-magji", "title": "Dhenkanal Magji — GI application 724", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/724"}, {"id": "food-magji-gi178", "title": "Dhenkanal Magji — GI Journal 178 specification", "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR"}]
+sources: [{"id": "gi-magji", "title": "Dhenkanal Magji — GI application 724", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/724"}, {"id": "food-magji-gi178", "title": "Dhenkanal Magji — GI Journal 178 specification", "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR"}, {"id": "sweets-magji-maker2024", "title": "Dhenkanal Magji: attributed confectioner account", "resource": "https://interviewtimes.net/dhenkanal-magji-gets-gi-tag/"}, {"id": "sweets-dhenkanal-book-lead2021", "title": "Dhenkanal history book launch — bibliographic lead", "resource": "https://www.localnewsodia.com/35485dhenkanal-district-history-book-launch/"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Dhenkanal"
 aliases: ["Dhenkanal Magji", "dhenkanal magji"]
@@ -51,3 +51,13 @@ The same journal gives sugar quantities of 400–500 g per kg cheese on pp.45/48
 The saved 2023 specification names **Dhenkanal Sweets Association** as applicant and OUAT as facilitator (p.45). It links production to Mandar–Sadangi in Gondia and cites Pramod Kumar Mishra’s *Adhunika Dhenkanal Itihas* p.230 and *Abibhakta Dhenkanal Itihas* p.291 (p.47). Those books have not been inspected here. The accompanying saint-origin story is an attributed tradition, not verified chronology. [Original specification](../sources/food-magji-gi178.md).
 
 This gives the [economic research](../economy/rasagola-and-sweets.md) a named institutional lead without treating association membership, GI status or historical descriptions as measured production or sales.
+
+## A family craft, with an open history trail
+
+A January 2024 report quotes **Hrushikesh Sahoo of Sadangi** describing Magji making by his grandfather, father and himself. This is a credited family account, not an independently dated origin history. [Interview Times, 4 January 2024](https://interviewtimes.net/dhenkanal-magji-gets-gi-tag/).
+
+A [14 August 2021 Odia report](https://www.localnewsodia.com/35485dhenkanal-district-history-book-launch/) describes the launch of a Pramod Kumar Mishra history of undivided Dhenkanal. It offers a route toward the books cited by the GI applicant, but does not establish an edition match or verify their cited pages. The saint-origin story and a claimed Fakir Mohan Senapati–John Beams gift remain unverified accounts in that specification. No original book scan was located in this bounded search.
+
+Current shop operation, sales and international shipments remain unknown. [Research gaps and retry plan](../references/data/sweets-economy.json).
+
+[Related economic research](../economy/rasagola-and-sweets.md) — A named family account connects sweet-making knowledge with livelihood research; its economic value remains unmeasured.

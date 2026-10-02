@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T09:44:47.633511+00:00",
-  "run_id": "2026-10-02-sweet-makers",
+  "updated_at": "2026-10-02T10:43:57.786283+00:00",
+  "run_id": "2026-10-02-sweet-history",
   "scope": "Six selected sweet identities and bounded economic evidence; not a statewide market census.",
   "observations": [
     {
@@ -214,6 +214,18 @@
       "metric_definition": null,
       "sampling_method": null,
       "treatment": "Government-hosted news claim held; not a verified annual turnover, output or value-added total."
+    },
+    {
+      "id": "sisir-turnover-scope",
+      "source_id": "sweets-sisir-market2026",
+      "locator": "Whole-fair fifth-day turnover paragraph",
+      "reported_value": 2.75,
+      "unit": "INR crore",
+      "period": "2026-01-14 as Wednesday/Makar Sankranti in report",
+      "geography": "Sisir Saras fair, Bhubaneswar",
+      "price_basis": "nominal as reported",
+      "scope": "All participating products, not a Rasabali sales figure.",
+      "treatment": "Excluded from sweet observations; organiser return not retrieved. No apportionment or annualisation."
     }
   ],
   "provisional_leads": [
@@ -257,6 +269,18 @@
       "scope": "Reporter estimates without named statistical source, fieldwork period or measurement method. Historical leads only, not current prices, verified output or revenue. Do not annualise or multiply into market size.",
       "retry_after": "2026-10-16",
       "next_action": "Seek dated merchant or municipal records; original method unknown. No contact or interview conducted by Utkal."
+    },
+    {
+      "id": "rasabali-nabard-support",
+      "source_id": "sweets-nabard-support-lead2024",
+      "evidence_status": "indexed_only_full_documents_unavailable",
+      "observation_period": null,
+      "geography_conflict": "Indexed row lists Maharashtra against Kendrapara Rasabali; original page not visually verified.",
+      "support_amount": null,
+      "unit": null,
+      "scope": "Do not infer product revenue, employment, grant amount or correct the publisher geography silently.",
+      "retry_after": "2026-10-09",
+      "next_action": "Retrieve complete table and unit heading; seek original correction or supported state mapping before any numeric use."
     }
   ],
   "coverage": [
@@ -291,17 +315,22 @@
     {
       "concept_id": "food/kendrapara-rasabali",
       "place_context": "Kendrapara; Baladevjew temple",
-      "checkpoint": "Applicant cultural account reused; near300 sellers/more600 makers remain undated claims, not employment census.",
+      "checkpoint": "Named maker expectations and January2026 market-event participation added. Seller/maker claims remain undated; NABARD support table unavailable/conflicted; no product turnover recovered.",
       "source_ids": [
-        "food-rasabali-corrigendum2023"
+        "food-rasabali-corrigendum2023",
+        "sweets-rasabali-maker2023",
+        "sweets-sisir-market2026",
+        "sweets-nabard-support-lead2024"
       ]
     },
     {
       "concept_id": "food/dhenkanal-magji",
       "place_context": "Mandar–Sadangi, Gondia; Dhenkanal",
-      "checkpoint": "Applicant association and bibliography extended; original cited histories and producer accounts not examined.",
+      "checkpoint": "Named maker family account added; original cited history books unlocated. No dated enterprise accounts or shipments recovered.",
       "source_ids": [
-        "food-magji-gi178"
+        "food-magji-gi178",
+        "sweets-magji-maker2024",
+        "sweets-dhenkanal-book-lead2021"
       ]
     },
     {
@@ -378,6 +407,38 @@
       "evidence_class": "maker_testimony_via_named_reporter",
       "reported_on": "2016-10-14",
       "business_current_status": null
+    },
+    {
+      "id": "hrushikesh-sahoo-magji",
+      "name": "Hrushikesh Sahoo",
+      "place": "Sadangi, Dhenkanal",
+      "concept_id": "food/dhenkanal-magji",
+      "role": "confectioner describing family practice",
+      "source_ids": [
+        "sweets-magji-maker2024"
+      ],
+      "locator": "Named maker statement",
+      "evidence_class": "maker_testimony_via_publisher",
+      "reported_on": "2024-01-04",
+      "family_account": "He says his grandfather and father also prepared Magji.",
+      "foundation_date": null,
+      "business_current_status": null,
+      "qualification": "Reported family recollection; no independently dated genealogy, sales or origin proof."
+    },
+    {
+      "id": "souri-sahoo-rasabali",
+      "name": "Souri Sahoo",
+      "place": "Kendrapara",
+      "concept_id": "food/kendrapara-rasabali",
+      "role": "Rasabali maker quoted on GI expectations",
+      "source_ids": [
+        "sweets-rasabali-maker2023"
+      ],
+      "locator": "Closing paragraph",
+      "evidence_class": "maker_testimony_via_publisher",
+      "reported_on": "2023-10-04",
+      "business_current_status": null,
+      "qualification": "Hoped-for market visibility and price improvement; no measured change."
     }
   ],
   "historical_trade_records": [
@@ -410,6 +471,74 @@
       "run_id": "2026-10-02-sweet-makers",
       "at": "2026-10-02T09:44:47.633511+00:00",
       "change": "Added three attributed maker credits, one scoped historical trade record and a quarantined 2016 market lead; earlier observations and conflicts retained."
+    },
+    {
+      "run_id": "2026-10-02-sweet-history",
+      "at": "2026-10-02T10:43:57.786283+00:00",
+      "change": "Two attributed maker credits, institutional role, dated market event, bibliographic lead and held support-table lead added; no new verified economic quantity."
+    }
+  ],
+  "institutional_roles": [
+    {
+      "name": "Baishava Panda",
+      "role": "association president as identified in report",
+      "organization": "Kendrapara Rasabali Makers’ Association",
+      "reported_on": "2023-10-04",
+      "source_ids": [
+        "sweets-rasabali-maker2023"
+      ],
+      "locator": "Association statement",
+      "current_role": null,
+      "scope": "Reported advocacy, not a business census or proof of achieved export growth."
+    }
+  ],
+  "market_events": [
+    {
+      "id": "rasabali-sisir2026",
+      "concept_id": "food/kendrapara-rasabali",
+      "event": "Sisir Saras Mela 2026",
+      "place": "Exhibition Ground, Bhubaneswar",
+      "period": "January 2026",
+      "publication_date": "2026-01-16",
+      "source_ids": [
+        "sweets-sisir-market2026"
+      ],
+      "locator": "ORMAS-attributed featured-product paragraph",
+      "evidence_class": "organiser_statement_via_news_report",
+      "project_stage": "reported_event_participation",
+      "product_sales_quantity": null,
+      "product_sales_value": null,
+      "shipments": null,
+      "scope": "Rasabali listed among featured stalls; whole-event turnover is not Rasabali turnover. No current availability inferred."
+    }
+  ],
+  "bibliographic_leads": [
+    {
+      "id": "magji-cited-histories",
+      "source_ids": [
+        "food-magji-gi178",
+        "sweets-dhenkanal-book-lead2021"
+      ],
+      "cited_author": "Pramod Kumar Mishra",
+      "cited_titles": [
+        {
+          "title": "Adhunika Dhenkanal Itihas",
+          "page": 230
+        },
+        {
+          "title": "Abibhakta Dhenkanal Itihas",
+          "page": 291
+        }
+      ],
+      "original_books_read": false,
+      "edition_identifiers": null,
+      "lead": "2021-08-14 local report of an Abibhakta Dhenkanal district-history book launch; exact edition equivalence not established.",
+      "held_claims": [
+        "Saint-origin chronology",
+        "Fakir Mohan Senapati/John Beams gift anecdote as relayed by GI applicant"
+      ],
+      "retry_after": "2026-10-09",
+      "next_action": "Locate title/copyright pages and cited pages through district cultural/library catalogue; no outreach performed."
     }
   ]
 }

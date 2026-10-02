@@ -746,7 +746,12 @@
         "food-rasabali-corrigendum2023",
         "sweets-khordha-census2001",
         "sweets-korakhai-makers2016",
-        "regional-cuisine"
+        "regional-cuisine",
+        "sweets-magji-maker2024",
+        "sweets-rasabali-maker2023",
+        "sweets-dhenkanal-book-lead2021",
+        "sweets-sisir-market2026",
+        "sweets-nabard-support-lead2024"
       ]
     },
     {
@@ -2052,7 +2057,9 @@
       "subject_ids": [],
       "source_ids": [
         "gi-magji",
-        "food-magji-gi178"
+        "food-magji-gi178",
+        "sweets-magji-maker2024",
+        "sweets-dhenkanal-book-lead2021"
       ]
     },
     {
@@ -2109,7 +2116,10 @@
       "subject_ids": [],
       "source_ids": [
         "gi-rasabali",
-        "food-rasabali-corrigendum2023"
+        "food-rasabali-corrigendum2023",
+        "sweets-rasabali-maker2023",
+        "sweets-sisir-market2026",
+        "sweets-nabard-support-lead2024"
       ]
     },
     {
@@ -17731,7 +17741,9 @@
       ],
       "source_ids": [
         "sweets-pahala-study2023",
-        "sweets-khordha-census2001"
+        "sweets-khordha-census2001",
+        "sweets-magji-maker2024",
+        "sweets-sisir-market2026"
       ],
       "added_at": "2026-10-02T08:45:40.027103+00:00"
     },
@@ -17770,6 +17782,96 @@
         "sweets-korakhai-makers2016"
       ],
       "added_at": "2026-10-02T09:44:47.633511+00:00"
+    },
+    {
+      "id": "sources/sweets-magji-maker2024",
+      "title": "Dhenkanal Magji: attributed confectioner account",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-magji-maker2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-magji-maker2024"
+      ],
+      "added_at": "2026-10-02T10:43:57.786283+00:00"
+    },
+    {
+      "id": "sources/sweets-rasabali-maker2023",
+      "title": "Kendrapara Rasabali: makers on GI recognition",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-rasabali-maker2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-rasabali-maker2023"
+      ],
+      "added_at": "2026-10-02T10:43:57.786283+00:00"
+    },
+    {
+      "id": "sources/sweets-dhenkanal-book-lead2021",
+      "title": "Dhenkanal history book launch — bibliographic lead",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-dhenkanal-book-lead2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-dhenkanal-book-lead2021"
+      ],
+      "added_at": "2026-10-02T10:43:57.786283+00:00"
+    },
+    {
+      "id": "sources/sweets-sisir-market2026",
+      "title": "Sisir Saras 2026: Rasabali among featured products",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-sisir-market2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-sisir-market2026"
+      ],
+      "added_at": "2026-10-02T10:43:57.786283+00:00"
+    },
+    {
+      "id": "sources/sweets-nabard-support-lead2024",
+      "title": "NABARD GI support: Rasabali evidence lead",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-nabard-support-lead2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-nabard-support-lead2024"
+      ],
+      "added_at": "2026-10-02T10:43:57.786283+00:00"
     }
   ],
   "shared_publications": [
@@ -18250,7 +18352,13 @@
         "food/korakhai.md",
         "sources/sweets-khordha-census2001.md",
         "sources/sweets-korakhai-makers2016.md",
-        "sources/regional-cuisine.md"
+        "sources/regional-cuisine.md",
+        "food/dhenkanal-magji.md",
+        "sources/sweets-magji-maker2024.md",
+        "sources/sweets-rasabali-maker2023.md",
+        "sources/sweets-dhenkanal-book-lead2021.md",
+        "sources/sweets-sisir-market2026.md",
+        "sources/sweets-nabard-support-lead2024.md"
       ],
       "project_records": [
         "kb/research/food/odisha-rasagola.md",
@@ -19112,8 +19220,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1201,
-    "updated_at": "2026-10-02T09:44:47.633511+00:00",
+    "records_mapped": 1206,
+    "updated_at": "2026-10-02T10:43:57.786283+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19644,6 +19752,11 @@
       "run_id": "2026-10-02-sweet-makers",
       "at": "2026-10-02T09:44:47.633511+00:00",
       "scope": "Two new source identities; existing food/story identities extended. Maker credits within shared sweets dataset; no duplicate biographies. UOU sections and Census repeated tables are single publications, not independent corroboration."
+    },
+    {
+      "run_id": "2026-10-02-sweet-history",
+      "at": "2026-10-02T10:43:57.786283+00:00",
+      "scope": "Five source/lead identities; existing two food entries and story expanded. GI applicant records reused; news mirrors and same-publisher NABARD lists are not independent financial corroboration. Maker credits remain in shared data."
     }
   ]
 }

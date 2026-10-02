@@ -380,3 +380,7 @@ RES-031: original Pahala economic paper inspected; five scoped observations, ing
 ## Sweet makers and town commerce · 2 October 2026 UTC
 
 RES-031 checkpoint: three attributed maker credits, one 1999 Korakhai town commodity record and a quarantined 2016 market lead added. Original Census PDF downloaded and table visually checked; existing university source expanded. Two source pages added, existing narratives/classification extended. No current total, export shipment, human review or website release claimed.
+
+## Sweet histories and market evidence · 2 October 2026 UTC
+
+RES-031: two maker credits, a reported association role, one January2026 market event and a historical-book lead added. NABARD full fetches unavailable; support amounts held. Five source/lead records, existing food/story pages and explained relationships updated. Earlier observations retained. No new verified sales/export total or website publication.

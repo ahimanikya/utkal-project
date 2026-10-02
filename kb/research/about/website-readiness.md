@@ -137,3 +137,7 @@ Pahala supply-chain story drafted with study scope. Full enterprise lead and cur
 ## Sweet makers and town commerce · 2 October 2026 UTC
 
 Existing Jhili/Korakhai entries and the sweets story now connect makers with historical commerce. All remain research drafts: no current vendor endorsement, verified market totals, media rights or human review established. Git research review is separate from website publication.
+
+## Sweet histories and market evidence · 2 October 2026 UTC
+
+Magji and Rasabali now have attributed maker context and a dated fair connection in research drafts. Do not convert GI expectations or whole-fair revenue into product growth. Original books, grant table, local review and current operation remain unverified; no website release.

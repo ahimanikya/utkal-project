@@ -341,3 +341,7 @@ The repository-native `kb/research/food/odisha-rasagola.md` has a richer ritual/
 ## Sweet makers and town commerce · 2 October 2026 UTC
 
 RES-031 adds two source identities and extends existing food/economy/story pages. Three maker credits remain within shared sweets data. The university’s two recipe sections and Census repeated tables count as single publications; no exhaustive deduplication claim.
+
+## Sweet histories and market evidence · 2 October 2026 UTC
+
+Five source/lead identities extend existing sweets entries and shared maker credits. Local history book launch is not its text; APEDA news mirrors are not independent corroboration. New relationships connect food and economic research with explicit limits.

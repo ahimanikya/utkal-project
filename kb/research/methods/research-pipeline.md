@@ -199,3 +199,7 @@ RES-031 checkpoint saved and remains the next eligible continuation. Deepen Nima
 ## Sweet makers and town commerce · 2 October 2026 UTC
 
 RES-031 continues with Magji original histories and Rasabali dated producer accounts. Jhili and Korakhai checkpoint saved; reuse before browsing. Retry dates remain attached to inaccessible or method-limited evidence. No need to repeat current maker searches next run.
+
+## Sweet histories and market evidence · 2 October 2026 UTC
+
+RES-031 remains in progress with retry9October for original books and unavailable support/enterprise documents. Its useful local checkpoint is preserved. Next independent eligible task: RES-012 handloom techniques, makers and sales; use existing textile/source records before browsing.
