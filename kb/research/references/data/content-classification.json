@@ -4474,6 +4474,17 @@
       "content_type": "Statistical Story",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/jagannath-origins",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "places",
+        "food"
+      ],
+      "content_type": "Historical Synthesis",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6513,6 +6524,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Links a scoped institutional financial statement to founder history without equating spending with social impact."
+    },
+    {
+      "from": "history/jagannath-origins",
+      "to": "places/jagannath-temple-puri",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects dated temple inscriptions to the existing place account while preserving visitor-access uncertainty."
     }
   ],
   "relationship_types": {

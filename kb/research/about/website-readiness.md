@@ -113,3 +113,7 @@ Institution-building story draft adds a university-only financial scale with dat
 ## KISS student outcomes · 2 October 2026 UTC
 
 The existing institution-building story now has a separate dated PG tuition-support card. No expense-per-student calculation, employment guarantee or independently audited social-impact claim. ASCI model estimate stays outside public headlines.
+
+## Jagannath origins · 2 October 2026 UTC
+
+Jagannath origin timeline and food-patronage connection are research drafts. No village-transfer chronology, modern kitchen output, craft income, access change or publication approval established.

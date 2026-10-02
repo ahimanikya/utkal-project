@@ -311,3 +311,7 @@ Existing Achyuta Samanta identity enhanced. Four source publications and one rel
 ## KISS student outcomes · 2 October 2026 UTC
 
 Five distinct publications enhance existing Samanta/university/story identities. Institutional AQAR and NIRF share provenance; duplicate Part B tables are not second observations. ASCI scope is commissioned/institution-engaged; the qualitative paper remains abstract-only.
+
+## Jagannath origins · 2 October 2026 UTC
+
+Jagannath synthesis reuses existing place/ruler/Mahaprasad pages and native Raghurajpur destination material. Three source identities added. ASI scan and mirror transcription are the same edition; separate Purana chapters are one narrative family.

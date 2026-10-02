@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-02T04:53:55.437429+00:00",
+  "updated_at": "2026-10-02T05:26:54.280049+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -2165,6 +2165,163 @@
     },
     "audit_scope": "AQAR describes annual external financial audits; no separate audit opinion or independent student-outcome assurance recovered. Prior signed accounts remain unchanged.",
     "next_step": "Recover founding/registration original and independent full-text study; inspect separate audit opinion. New sources answer scoped student counts, not longitudinal impact.",
+    "human_review_claimed": false
+  },
+  "jagannath_origins_checkpoint": {
+    "run_id": "2026-10-02-jagannath-origins",
+    "checked_on": "2026-10-02",
+    "observations": [
+      {
+        "id": "puri-ei30-inscription-1",
+        "evidence_class": "epigraphic_edition",
+        "date_original": "Saka 1147; Anka 15",
+        "date_ce_editor": "1225-06-26",
+        "date_status": "Sircar conversion; no independent recalculation",
+        "donor": "Suru-senapati",
+        "land": [
+          {
+            "value": 3,
+            "unit": "vati"
+          }
+        ],
+        "purpose": [
+          "milk",
+          "clarified butter",
+          "rice",
+          "curds"
+        ],
+        "locator": "printed p.198; PDF p.275",
+        "source_id": "faith-puri-inscriptions-ei30",
+        "geography": "Patalesvara shrine within Jagannath temple complex, Puri, Odisha",
+        "retrieved_on": "2026-10-02",
+        "modern_area_conversion": null,
+        "monetary_value": null,
+        "price_basis": "not_applicable",
+        "estimate_status": "historical grant as interpreted by editor; not current holdings"
+      },
+      {
+        "id": "puri-ei30-inscription-2",
+        "evidence_class": "epigraphic_edition",
+        "date_original": "Saka 1158; Anka 29",
+        "date_ce_editor": "1237-01-05",
+        "date_status": "Sircar conversion; no independent recalculation",
+        "donor": "Khanda, son of Chandana; described as footman",
+        "land": [
+          {
+            "value": 2,
+            "unit": "vati"
+          },
+          {
+            "value": 5,
+            "unit": "mana_land"
+          }
+        ],
+        "purpose": [
+          "offerings to Purusottama"
+        ],
+        "locator": "printed p.199; PDF p.276",
+        "source_id": "faith-puri-inscriptions-ei30",
+        "geography": "Patalesvara shrine within Jagannath temple complex, Puri, Odisha",
+        "retrieved_on": "2026-10-02",
+        "modern_area_conversion": null,
+        "monetary_value": null,
+        "price_basis": "not_applicable",
+        "estimate_status": "historical grant as interpreted by editor; not current holdings"
+      },
+      {
+        "id": "puri-ei30-inscription-3",
+        "evidence_class": "epigraphic_edition",
+        "date_original": "Saka 1158; Anka 29",
+        "date_ce_editor": null,
+        "date_status": "quarantined_exact_day: weekday mismatch and differing lunar-day wording across pp.199–200",
+        "donor": "Kirttivasa or Krittivasa-nayaka",
+        "land": [
+          {
+            "value": 1,
+            "unit": "vati",
+            "locality": "Kuranga"
+          },
+          {
+            "value": 1,
+            "unit": "vati",
+            "locality": "Murada"
+          }
+        ],
+        "purpose": [
+          "offerings to Purusottama"
+        ],
+        "locator": "printed pp.199–200; PDF pp.276–277",
+        "source_id": "faith-puri-inscriptions-ei30",
+        "geography": "Patalesvara shrine within Jagannath temple complex, Puri, Odisha",
+        "retrieved_on": "2026-10-02",
+        "modern_area_conversion": null,
+        "monetary_value": null,
+        "price_basis": "not_applicable",
+        "estimate_status": "historical grant as interpreted by editor; not current holdings"
+      },
+      {
+        "id": "puri-ei30-inscription-4",
+        "evidence_class": "epigraphic_edition",
+        "date_original": "Saka 1158; Anka 31",
+        "date_ce_editor": null,
+        "date_status": "quarantined_exact_day: weekday discrepancy noted by editor",
+        "donor": "Suru-senapati",
+        "land": [
+          {
+            "value": 1,
+            "unit": "vati"
+          },
+          {
+            "value": 10,
+            "unit": "mana_land"
+          }
+        ],
+        "purpose": [
+          "rice supply",
+          "flowers"
+        ],
+        "locator": "printed pp.199–200; PDF pp.276–277",
+        "source_id": "faith-puri-inscriptions-ei30",
+        "geography": "Patalesvara shrine within Jagannath temple complex, Puri, Odisha",
+        "retrieved_on": "2026-10-02",
+        "modern_area_conversion": null,
+        "monetary_value": null,
+        "price_basis": "not_applicable",
+        "estimate_status": "historical grant as interpreted by editor; not current holdings"
+      }
+    ],
+    "narrative": {
+      "source_id": "faith-skanda-purusottama-tagare",
+      "evidence_class": "religious_text_translation",
+      "persons": [
+        "Indradyumna",
+        "Vidyapati",
+        "Visvavasu"
+      ],
+      "deity": "Nilamadhava",
+      "date_ce": null,
+      "version_scope": "Chapters 7–9 only; no conflation with other retellings",
+      "critical_edition_inspected": false
+    },
+    "critical_edition_lead": {
+      "source_id": "faith-gold-critical-edition-lead",
+      "year": 2002,
+      "full_text_inspected": false
+    },
+    "construction": {
+      "source_id": "rulers-puri-history",
+      "period": "twelfth century",
+      "attribution": "Anantavarman Chodaganga",
+      "evidence_class": "government_historical_overview",
+      "first_worship_date": null
+    },
+    "quarantine": [
+      "Village-to-temple transfer date/route not established",
+      "Record 3 and 4 exact dates conflicted in edition",
+      "Rice weight and daily-frequency interpretation tentative; no kg/day adopted",
+      "Puri workforce, sales, procurement totals and uninterrupted continuity unknown"
+    ],
+    "source_family_note": "ASI scan and WhatIsIndia transcription are one edition; Wisdomlib chapters are one translated text, not independent witnesses.",
     "human_review_claimed": false
   }
 }

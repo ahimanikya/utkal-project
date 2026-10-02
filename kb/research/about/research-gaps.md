@@ -342,3 +342,7 @@ RES-047 remains in progress: school/society founding conflict, KISS student deno
 ## KISS student outcomes · 2 October 2026 UTC
 
 KISS PG/PhD stocks, annual doctoral completions and 2023–24 AQAR outcomes recovered. Matched entry cohorts, placement retention, original founding records and separate audit opinion remain missing. Finnan publisher abstract is available; full text and a second ethnographic article failed, retry 9 October.
+
+## Jagannath origins · 2 October 2026 UTC
+
+Original ASI epigraphy now read; four grants scoped with conflicting dates retained. A critical textual edition remains unread. Gold 2002 identified by Penn; 1912 edition linked by UT Austin. Retry access 9 October; modern kitchen/craft economy needs independent denominators.

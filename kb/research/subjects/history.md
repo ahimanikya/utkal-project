@@ -57,3 +57,7 @@ Subject membership is editorial classification. It does not establish historical
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
 
 [Buddhist learning and Pushpagiri](../history/buddhist-learning.md) connects a credited traveller text, excavated monastic names and the [Langudi identification](../places/langudi.md), retaining distinct evidence classes.
+
+## Jagannath origins
+
+[Read the narrative and inscription timeline](../history/jagannath-origins.md): religious texts, temple patronage, language and food-support records retain distinct evidence labels.

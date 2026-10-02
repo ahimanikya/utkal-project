@@ -356,3 +356,7 @@ RES-047 checkpoint: original KISS school/university separation; KIIT continuatio
 ## KISS student outcomes · 2 October 2026 UTC
 
 RES-047 student checkpoint: 22 scoped observations, dated institutional outcomes, original ASCI methods and a qualitative research route. Unmatched higher-study cohort and historical alumni-record criticism retained. Task remains in progress.
+
+## Jagannath origins · 2 October 2026 UTC
+
+RES-048: original ASI inscription edition inspected; four grant observations and separately attributed Purana narrative saved. Critical-edition full text remains open; no task completion or human review claimed.

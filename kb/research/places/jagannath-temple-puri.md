@@ -5,7 +5,7 @@ description: "Shree Jagannath Temple, Puri — visitor index research."
 tags: ["visitor-index"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:24:11-07:00"}
-sources: [{"id": "visitor-jagannath", "title": "Shree Jagannath Temple", "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple"}, {"id": "puri-temple-tourism-guidance", "title": "Jagannath Temple — Odisha Tourism visitor guidance", "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html"}, {"id": "puri-religious-shrines-directory", "title": "Religious Shrines — Odisha Tourism directory", "resource": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/religious-shrines.html"}, {"id": "faith-kantilo-district", "title": "Kantilo Nilamadhab", "resource": "https://nayagarh.odisha.gov.in/en/tourism/tourist-places/kantilo-nilamadhab"}]
+sources: [{"id": "visitor-jagannath", "title": "Shree Jagannath Temple", "resource": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple"}, {"id": "puri-temple-tourism-guidance", "title": "Jagannath Temple — Odisha Tourism visitor guidance", "resource": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/jagannath-temple.html"}, {"id": "puri-religious-shrines-directory", "title": "Religious Shrines — Odisha Tourism directory", "resource": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/religious-shrines.html"}, {"id": "faith-kantilo-district", "title": "Kantilo Nilamadhab", "resource": "https://nayagarh.odisha.gov.in/en/tourism/tourist-places/kantilo-nilamadhab"}, {"id": "faith-puri-inscriptions-ei30", "title": "Puri inscriptions of Anangabhima III: Sircar’s epigraphic edition", "resource": "https://ignca.gov.in/Asi_data/35546.pdf"}, {"id": "faith-skanda-purusottama-tagare", "title": "Skanda Purana: Purusottama-ksetra-mahatmya, chapters 7–9", "resource": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc370727.html"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T01:24:11-07:00"}]
 verification_scope: "Narrow sourced paragraph checked against the described web extract; no human, field or operating verification."
 geography: "Puri"
@@ -53,3 +53,7 @@ Nayagarh district’s [Kantilo Nilamadhab description](https://nayagarh.odisha.g
 3. **The present temple:** extend the existing Chodaganga and Anangabhima records through construction phases, patronage and later additions.
 
 “From village to temple” remains a research question, not a settled origin claim. The existing access-hours conflict stays unresolved; historical work does not refresh visitor information.
+
+## Jagannath evidence checkpoint · 2 October 2026 UTC
+
+The [origins timeline](../history/jagannath-origins.md) now separates the Nilamadhava narrative from four edited thirteenth-century inscriptions in the Patalesvara shrine. A 1225 grant supports food offerings; two later records have calendar conflicts. This advances historical evidence, not current access verification.
