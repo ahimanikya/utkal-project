@@ -354,3 +354,7 @@ RES-047 deferred to9October. FY2023–24 original accounts and alumni certificat
 ## Yogini heritage · 2 October 2026 UTC
 
 RES-049 bounded comparative deliverable complete. Hirapur ninth/early-tenth-century dating differs by publisher; founder epigraphy remains needed. Ranipur-Jharial inventory categories total66 against stated65; no corrected/current count adopted. Follow original textual editions, stone identification and dated practitioner accounts. These gaps do not establish absence of evidence elsewhere.
+
+## Mahima Dharma and English reading · 2 October2026 UTC
+
+RES-050 bounded context/reading deliverable complete. Exact biography, primary founder chronology, critical Odia editions and present practices remain open. NBT translation and anthology chapters are catalogue-verified but unread. Utkal journal returned403; direct NBT certificate validation failed and web screenshot was unavailable; web text supplied scoped bibliographic evidence. Retry relevant failed routes after9October.

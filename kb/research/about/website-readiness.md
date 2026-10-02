@@ -125,3 +125,7 @@ Existing institution-building story now exposes account-vintage and note-scope l
 ## Yogini heritage · 2 October 2026 UTC
 
 Yogini collection and two place drafts now have institutional archaeological sources and attributed interpretive context. Exact date/patron claims, surviving-image headlines and current ritual/access details remain held. Image rights and public release are not established.
+
+## Mahima Dharma and English reading · 2 October2026 UTC
+
+Existing Bhima Bhoi narrative preserved; Mahima collection and Stuti Chintamani work page add historical context and credited editions. No poem republication rights, current stock, follower count, ritual access or website release established.

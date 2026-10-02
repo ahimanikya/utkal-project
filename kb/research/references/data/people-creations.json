@@ -4693,6 +4693,75 @@
         "test_scope": "First chapter only sampled00:05→00:07→00:25 in current signed-in session; other timestamps read from label description."
       },
       "scope_note": "Label credits the duo; institution identifies its members. No isolated flute-player credit or sole-composer claim. Three chapter records share one upload; not three albums or independent evidence sources."
+    },
+    {
+      "id": "works/stuti-chintamani",
+      "title": "Stuti Chintamani",
+      "work_type": "devotional_poetry",
+      "creator_links": [],
+      "other_credits": [
+        {
+          "name": "Bhima Bhoi",
+          "role": "author",
+          "source_ids": [
+            "bhima-akademi",
+            "literature-nbt-stuti2026"
+          ]
+        },
+        {
+          "name": "Satyananda Swain",
+          "role": "English translator of NBT2024 edition",
+          "source_ids": [
+            "literature-nbt-stuti2026"
+          ]
+        }
+      ],
+      "existing_author_reference": {
+        "dataset": "repository-native kb/research/voices/collection.json",
+        "page_path": "people/bhima-bhoi",
+        "map_id": "voice:people/bhima-bhoi",
+        "reason": "Reuse existing person identity; do not create a second biography to satisfy a local person/work join."
+      },
+      "english_access": {
+        "language": "English",
+        "translator": "Satyananda Swain",
+        "publisher": "National Book Trust, India",
+        "year": 2024,
+        "pages": 302,
+        "isbn13": "9789357438629",
+        "url": "https://www.nbtindia.gov.in/books_detail__1__aadan-pradan__8680__gems-of-soulful-prayer-stuti-chintamani-of-bhima-bhoi.nbt",
+        "status": "publisher_catalogue_verified_full_translation_unread",
+        "source_ids": [
+          "literature-nbt-stuti2026"
+        ]
+      },
+      "edition": {
+        "original_language": "Odia",
+        "original_composition_date": null,
+        "complete_text_collated": false
+      },
+      "selected_translation_route": {
+        "container": "A Critical Analysis of Bhima Bhoi and the Mahima Cult",
+        "editor": "Nishamani Kar",
+        "translator": "Gagan Behari Das",
+        "chapter": 5,
+        "scope": "selected cantos",
+        "isbn13": "9781666955576",
+        "publication_date": "2024-05-16",
+        "source_ids": [
+          "literature-kar-mahima2024"
+        ],
+        "full_text_read": false
+      },
+      "source_ids": [
+        "bhima-akademi",
+        "faith-beltz-bhima2003",
+        "literature-nbt-stuti2026",
+        "literature-kar-mahima2024"
+      ],
+      "checked_on": "2026-10-02",
+      "full_text_reuse_rights": null,
+      "live_stock": null
     }
   ],
   "recognition_rules": {
@@ -4701,7 +4770,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-02T05:39:12.280267+00:00",
+  "updated_at": "2026-10-02T07:42:49.321114+00:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",

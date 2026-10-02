@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-02T06:43:56.947430+00:00",
+  "updated_at": "2026-10-02T07:42:49.321114+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -2683,6 +2683,82 @@
       "Devipurana edition and passage-level comparison",
       "Current practitioner accounts and site access",
       "Specific Buddhist/Jagannath connections"
+    ],
+    "human_review_claimed": false
+  },
+  "mahima_checkpoint": {
+    "run_id": "2026-10-02-mahima-dharma",
+    "checked_on": "2026-10-02",
+    "canonical_person": {
+      "dataset": "repository-native kb/research/voices/collection.json",
+      "page_path": "people/bhima-bhoi",
+      "map_id": "voice:people/bhima-bhoi"
+    },
+    "work_id": "works/stuti-chintamani",
+    "historical_observations": [
+      {
+        "id": "mahima-gosain-death-mahapatra",
+        "value": 1876,
+        "unit": "year_CE",
+        "claim": "Mahima Gosain death as narrated by Mahapatra",
+        "locator": "printedp.12/PDFp.19",
+        "source_id": "bhima-akademi",
+        "estimate_status": "historical_synthesis_attribution",
+        "original_event_record_inspected": false
+      },
+      {
+        "id": "khaliapali-activity-mahapatra",
+        "value": 1877,
+        "unit": "year_CE",
+        "claim": "Khaliapali ashram activity from this year in Mahapatra account",
+        "locator": "printedp.13/PDFp.20",
+        "source_id": "bhima-akademi",
+        "estimate_status": "historical_synthesis_attribution",
+        "original_event_record_inspected": false
+      }
+    ],
+    "terminology": {
+      "alekha": "indescribable",
+      "nirakara": "formless",
+      "source_id": "bhima-akademi",
+      "locator": "printedp.18/PDFp.25",
+      "scope": "Attributed theological vocabulary; no equivalence with all Buddhist sunya doctrines."
+    },
+    "fieldwork_provenance": {
+      "researcher": "Johannes Beltz",
+      "period": "2000–2001",
+      "source_id": "faith-beltz-bhima2003",
+      "locator": "printedp.231/PDFp.3",
+      "utkal_interviews_conducted": false,
+      "current_representativeness": null
+    },
+    "biography_treatment": {
+      "birth_date": null,
+      "birthplace": null,
+      "blindness_history": null,
+      "basis": "Competing scholarly/hagiographic accounts retained; nineteenth-century context only.",
+      "community_background": "Kandha/Kondh attributed in sources; genealogy not independently established.",
+      "source_ids": [
+        "bhima-akademi",
+        "faith-beltz-bhima2003"
+      ]
+    },
+    "chronology_hold": {
+      "claim": "Mahima Swami birth in1826",
+      "source_id": "bhima-akademi",
+      "locator": "printedp.19/PDFp.26",
+      "status": "not_adopted_as_verified_birth_date",
+      "reason": "Qualified in monograph; original documentary basis not recovered."
+    },
+    "source_families": [
+      [
+        "bhima-akademi",
+        "native voices source bhima-akademi"
+      ],
+      [
+        "literature-nbt-stuti2026",
+        "NBT product8680"
+      ]
     ],
     "human_review_claimed": false
   }

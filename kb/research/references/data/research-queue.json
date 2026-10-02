@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T06:43:56.947430+00:00",
+  "updated_at": "2026-10-02T07:42:49.321114+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2360,14 +2360,18 @@
       "title": "Mahima Dharma, Bhima Bhoi and English reading routes",
       "done_when": "Reuse the existing literary introduction; inspect historical scholarship on Mahima Swami, Alekh, Joranda and Khaliapali, reconcile Bhima Bhoi biography conflicts, and identify credited works and English editions without inventing interviews.",
       "target": "culture/mahima-dharma.md",
-      "status": "pending",
-      "attempts": 1,
+      "status": "completed",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T19:04:12.192294+00:00",
-      "next_step": "Reuse the existing literary introduction; inspect historical scholarship on Mahima Swami, Alekh, Joranda and Khaliapali, reconcile Bhima Bhoi biography conflicts, and identify credited works and English editions without inventing interviews.",
+      "last_worked_at": "2026-10-02T07:42:49.321114+00:00",
+      "next_step": "Bounded historical/reading-route deliverable complete. Continue RES-031 sweets economics after its reuse checks. Later Mahima work: inspect NBT translation and critical Odia editions, primary founder chronology and dated practitioner evidence. Retry unavailable Utkal journal/direct NBT capture after9October only if those gaps require them.",
       "evidence_outputs": [
         "culture/mahima-dharma.md",
-        "references/data/culture-learning.json"
+        "references/data/culture-learning.json",
+        "sources/faith-beltz-bhima2003.md",
+        "sources/literature-nbt-stuti2026.md",
+        "sources/literature-kar-mahima2024.md",
+        "works/stuti-chintamani.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2377,13 +2381,24 @@
           "at": "2026-10-01T19:04:12.192294+00:00",
           "outcome": "source_backed_starting_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-mahima-dharma",
+          "at": "2026-10-02T07:42:49.321114+00:00",
+          "outcome": "historical_context_and_credited_english_routes_saved",
+          "completion_criteria_met": true,
+          "scope": "Existing literary identity reused; original historical scholarship inspected, biography conflicts reconciled as attributed uncertainty, named works and editions identified. No claim all biography conflicts are resolved."
         }
       ],
       "reuse_before_research": {
         "source_records": [
           "culture/mahima-dharma.md",
           "sources/bhima-akademi.md",
-          "works/index.md"
+          "works/index.md",
+          "sources/faith-beltz-bhima2003.md",
+          "sources/literature-nbt-stuti2026.md",
+          "sources/literature-kar-mahima2024.md",
+          "works/stuti-chintamani.md"
         ],
         "project_records": [
           "kb/research/voices/collection.json",
@@ -2391,7 +2406,8 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "completed_at": "2026-10-02T07:42:49.321114+00:00"
     },
     {
       "id": "RES-051",

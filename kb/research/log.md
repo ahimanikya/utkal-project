@@ -368,3 +368,7 @@ RES-047: eight earlier-vintage financial observations, two offsetting income dif
 ## Yogini heritage · 2 October 2026 UTC
 
 RES-049 saved two archaeological site records, four source records and six scoped observations. Existing Tantric collection expanded; exact-date and count conflicts retained. Bounded criteria complete; validation and Git review follow, with no website publication claimed.
+
+## Mahima Dharma and English reading · 2 October2026 UTC
+
+RES-050: original Mahapatra/Beltz scholarship inspected within stated scope; NBT2024 translator/edition and2024 anthology selected-canto credits saved. Existing literary identity reused. Local validation and Git review follow; no human review or website publication claimed.

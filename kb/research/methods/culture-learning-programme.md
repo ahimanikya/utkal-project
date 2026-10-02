@@ -58,3 +58,7 @@ RES-046 selected-institution criteria complete.18 existing identities checked in
 ## Yogini evidence milestone · 2 October 2026 UTC
 
 RES-049 bounded criteria complete: two original archaeological inventories, two distinct place records and an attributed comparison of traditions. Earlier table is the initial programme snapshot; current queue is authoritative. Foundation chronology, sculpture-count reconciliation, direct textual passages and present practice remain research gaps. Continue RES-050.
+
+## Mahima and Bhima Bhoi milestone · 2 October2026 UTC
+
+RES-050 bounded criteria complete: historical context, attributed biography conflicts and credited English reading routes. Original full translations and present practice remain future work. The initial programme table is historical; current queue holds status. Continue RES-031.

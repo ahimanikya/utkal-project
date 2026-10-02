@@ -279,3 +279,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Yogini sites and religious contexts
 
 [Research receipt](records/yogini-traditions-2026-10-02.json): Two heritage places, four source records and six scoped observations enrich the existing Tantric collection. RES-049 bounded criteria complete; RES-050 is next eligible. Dates, sculpture counts and current practice remain qualified. No website release.
+
+## 2 October 2026 · Mahima Dharma and Bhima Bhoi reading routes
+
+[Research receipt](records/mahima-dharma-2026-10-02.json): The existing Bhima Bhoi literary identity is reused. Three new source records, an expanded Akademi inspection and a credited Stuti Chintamani work record enrich the Mahima collection. RES-050 bounded criteria complete; RES-031 sweets economics is next eligible. Biography conflicts, fieldwork dates and unread full editions remain explicit. No website release.

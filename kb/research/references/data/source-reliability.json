@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T06:43:56.947430+00:00",
+  "updated_at": "2026-10-02T07:42:49.321114+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5540,6 +5540,72 @@
       "run_id": "2026-10-02-yogini-traditions",
       "status": "available",
       "scope": "Institutional event report, not the lecture transcript or primary Sanskrit text. Hirapur/Devipurana iconographic parallels remain a reported scholarly hypothesis. Shares Hatley’s scholarship with the Oxford entry; not independent corroboration. Linked video not watched."
+    },
+    {
+      "discovery_url": "https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/138250/Beltz_035.pdf?isAllowed=y&sequence=1",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "PDF downloaded; selected sections inspected."
+    },
+    {
+      "discovery_url": "https://sahitya-akademi.gov.in/pdf/Bhima-Bhoi.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "PDF downloaded; selected sections inspected."
+    },
+    {
+      "discovery_url": "https://ddceutkal.ac.in/Journal/Search_Journal_2013_Vol-I.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "unavailable",
+      "scope": "HTTP Error 403: Forbidden",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.nbtindia.gov.in/writereaddata/attachment/monday-march-30-202612-20-05-pmenglish-general-catalogue-2026.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "unavailable",
+      "scope": "Direct Python HTTPS fetch failed: certificate verification reported expired certificate. Do not disable TLS; web-reader route checked separately.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.nbtindia.gov.in/writereaddata/attachment/monday-march-30-202612-20-05-pmenglish-general-catalogue-2026.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "Web-reader catalogue textp.22 available; screenshot returned cache-miss error. No visual check claimed."
+    },
+    {
+      "discovery_url": "https://www.nbtindia.gov.in/books_detail__1__aadan-pradan__8680__gems-of-soulful-prayer-stuti-chintamani-of-bhima-bhoi.nbt",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "Publisher edition metadata only; no purchase or current-stock claim."
+    },
+    {
+      "discovery_url": "https://www.bloomsbury.com/uk/critical-analysis-of-bhima-bhoi-and-the-mahima-cult-9781666955576/",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "UK publisher credits/contents/edition inspected; US route failed web-reader retrieval."
+    },
+    {
+      "discovery_url": "https://www.bloomsbury.com/us/critical-analysis-of-bhima-bhoi-and-the-mahima-cult-9781666955576/",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "unavailable",
+      "scope": "Web-reader internal error; UK route succeeded.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://relbib.de/Record/357743598",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "Original volume bibliographic year2003 confirmed."
     }
   ]
 }

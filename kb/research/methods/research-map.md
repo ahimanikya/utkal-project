@@ -323,3 +323,7 @@ Two source identities enhance existing Samanta/story pages. Alumni society regis
 ## Yogini heritage · 2 October 2026 UTC
 
 Four source identities and two distinct place records added after source and repository-native searches. Existing Tantric/Buddhist pages reused. IGNCA inventory family and Hatley scholarship family are explicit; repeated publication is not independent confirmation.
+
+## Mahima Dharma and English reading · 2 October2026 UTC
+
+One work and three source identities extend existing Mahima and repository-native Bhima Bhoi knowledge. No second person biography. Original monograph reinspection expands scope; catalogue/product and shared scholarly references do not constitute independent corroboration.

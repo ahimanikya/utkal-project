@@ -65,3 +65,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Yogini architecture and religious contexts
 
 [Hirapur](../places/hirapur-yogini.md) and [Ranipur-Jharial](../places/ranipur-jharial-yogini.md) now have distinct archaeological evidence records. [Read the comparative account](../culture/tantric-traditions.md), including attributed dates, sculpture-count limits and the distinction between Shaiva/Shakta and Buddhist contexts.
+
+## Mahima Dharma and a credited reading route
+
+[Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.

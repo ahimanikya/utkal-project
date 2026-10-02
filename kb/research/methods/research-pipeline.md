@@ -187,3 +187,7 @@ RES-047 checkpoint saved and deferred to9October for primary evidence gaps. RES-
 ## Yogini heritage · 2 October 2026 UTC
 
 RES-049 bounded two-site/context deliverable complete, with unresolved dates, patronage, counts and practice preserved. Next eligible task is RES-050 Mahima Dharma and Bhima Bhoi; inspect native literary reuse pointers before browsing.
+
+## Mahima Dharma and English reading · 2 October2026 UTC
+
+RES-050 bounded deliverable completed with biographical uncertainty retained. Next eligible pending task: RES-031 Rasagola and sweets economics. Preserve future retries for earlier blocked tasks.

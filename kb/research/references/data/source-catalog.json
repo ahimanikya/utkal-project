@@ -4589,7 +4589,15 @@
     "capture_method": "reused_project_capture",
     "locator": "Printed pp. 1–2, 12–13, 27–28, as recorded in project voices catalogue",
     "capture_note": "Reused scoped capture checked 30 September 2026 in kb/research/voices/collection.json, source bhima-akademi. Not freshly fetched or independently verified; preserves biographical uncertainty.",
-    "evidence_class": "reused_publisher_monograph_capture"
+    "evidence_class": "reused_publisher_monograph_capture",
+    "inspection_history": [
+      {
+        "at": "2026-10-02T07:42:49.321114+00:00",
+        "scope": "Expanded original PDF inspection: imprint PDFp.6; printedpp.11–20 for founder/Joranda/Khaliapali/Alekha, with keypp.12–13 visually checked. Prior native literary introduction reused, not independent corroboration.",
+        "edition": "1983 first publication;2017 reprint;ISBN9788126053261",
+        "sha256": "fe0aec00ae422499b2454352841cfc42f1177019f16c97456667b2dc47846696"
+      }
+    ]
   },
   "faith-hirapur-tourism": {
     "id": "faith-hirapur-tourism",
@@ -5830,5 +5838,41 @@
     "capture_note": "Undated archaeological inventory, not an original foundation inscription. Early tenth-century dating is explicitly based on architecture and sculpture; Bhaumakara attribution is the inventory’s interpretation. Its living-temple label and condition are historical observations of unknown survey date, not a current inspection. Key pp.2–3 visually checked. National surviving-temple total not adopted.",
     "capture_method": "original_PDF_text_and_visual_read",
     "capture_sha256": "bc69ba9d7602081f60a467f1878c65869774039c25880e57a09d933fb7cdbe80"
+  },
+  "faith-beltz-bhima2003": {
+    "id": "faith-beltz-bhima2003",
+    "title": "Bhima Bhoi: The Making of a Modern Saint",
+    "resource": "https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/138250/Beltz_035.pdf?isAllowed=y&sequence=1",
+    "publisher": "Johannes Beltz; chapter in Antony Copley (ed.), Hinduism in Public and Private, Oxford University Press; permitted repository copy at University of Tübingen",
+    "published_on": "2003",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.230–253; PDF pp.2–25. Sources/fieldwork pp.230–232; origins/blindness pp.232–238; orders pp.244–245 and note29 p.251.",
+    "capture_note": "Selected chapter sections inspected. Fieldwork belongs to Beltz in2000–2001, not Utkal. Hagiographic narratives are evidence of remembrance and interpretation, not verified miracles or birth records. Original volume year confirmed in RelBib record357743598.",
+    "capture_method": "original_PDF_selected_sections",
+    "capture_sha256": "de94d2c4c2fd79db85b3f0e8d298fcd2c9140293259dcf17b7eb86063da4a440",
+    "edition_catalogue": "https://relbib.de/Record/357743598"
+  },
+  "literature-nbt-stuti2026": {
+    "id": "literature-nbt-stuti2026",
+    "title": "NBT English Catalogue 2026: Stuti Chintamani of Bhima Bhoi",
+    "resource": "https://www.nbtindia.gov.in/writereaddata/attachment/monday-march-30-202612-20-05-pmenglish-general-catalogue-2026.pdf",
+    "publisher": "National Book Trust, India",
+    "published_on": "2026",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed/PDF p.22; corresponding NBT product record8680",
+    "capture_note": "Catalogue credits Bhima Bhoi as author and Satyananda Swain as translator,2024,302pages,ISBN9789357438629. Product record labels English/first edition. Catalogue text inspected in web reader; screenshot failed and direct download failed certificate verification. Translation full text not inspected; no stock, current price or rights claim.",
+    "capture_method": "publisher_web_text",
+    "related_resource": "https://www.nbtindia.gov.in/books_detail__1__aadan-pradan__8680__gems-of-soulful-prayer-stuti-chintamani-of-bhima-bhoi.nbt"
+  },
+  "literature-kar-mahima2024": {
+    "id": "literature-kar-mahima2024",
+    "title": "A Critical Analysis of Bhima Bhoi and the Mahima Cult",
+    "resource": "https://www.bloomsbury.com/uk/critical-analysis-of-bhima-bhoi-and-the-mahima-cult-9781666955576/",
+    "publisher": "Nishamani Kar (anthology editor); Lexington Books / Bloomsbury publisher catalogue",
+    "published_on": "2024-05-16",
+    "accessed_on": "2026-10-02",
+    "locator": "Contributor credits, contents chapters5–6, product details",
+    "capture_note": "Publisher catalogue inspected, not chapter full texts. Gagan Behari Das credited for selected Stuti Chintamani cantos; Satya Siladitya Kar for transcreation of selected bhajans. ISBN9781666955576,218pages,first hardback edition. Selection is not the complete Stuti Chintamani.",
+    "capture_method": "publisher_web_text"
   }
 }

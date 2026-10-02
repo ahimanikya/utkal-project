@@ -15099,7 +15099,10 @@
       ],
       "source_ids": [
         "faith-mahima-president-2024",
-        "bhima-akademi"
+        "bhima-akademi",
+        "faith-beltz-bhima2003",
+        "literature-nbt-stuti2026",
+        "literature-kar-mahima2024"
       ],
       "added_at": "2026-10-01T19:04:12.192294+00:00"
     },
@@ -17549,6 +17552,81 @@
         "faith-ranipur-ignca"
       ],
       "added_at": "2026-10-02T06:43:56.947430+00:00"
+    },
+    {
+      "id": "sources/faith-beltz-bhima2003",
+      "title": "Bhima Bhoi: The Making of a Modern Saint",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/faith-beltz-bhima2003.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "faith-beltz-bhima2003"
+      ],
+      "added_at": "2026-10-02T07:42:49.321114+00:00"
+    },
+    {
+      "id": "sources/literature-nbt-stuti2026",
+      "title": "NBT English Catalogue 2026: Stuti Chintamani of Bhima Bhoi",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/literature-nbt-stuti2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "literature-nbt-stuti2026"
+      ],
+      "added_at": "2026-10-02T07:42:49.321114+00:00"
+    },
+    {
+      "id": "sources/literature-kar-mahima2024",
+      "title": "A Critical Analysis of Bhima Bhoi and the Mahima Cult",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/literature-kar-mahima2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "history",
+        "arts"
+      ],
+      "source_ids": [
+        "literature-kar-mahima2024"
+      ],
+      "added_at": "2026-10-02T07:42:49.321114+00:00"
+    },
+    {
+      "id": "works/stuti-chintamani",
+      "title": "Stuti Chintamani: prayer, compassion and English reading routes",
+      "kind": "Literary Work",
+      "layer": "research_concept",
+      "source_path": "works/stuti-chintamani.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "history"
+      ],
+      "source_ids": [
+        "bhima-akademi",
+        "faith-beltz-bhima2003",
+        "literature-nbt-stuti2026",
+        "literature-kar-mahima2024"
+      ],
+      "added_at": "2026-10-02T07:42:49.321114+00:00"
     }
   ],
   "shared_publications": [
@@ -18593,7 +18671,11 @@
       "source_records": [
         "culture/mahima-dharma.md",
         "sources/bhima-akademi.md",
-        "works/index.md"
+        "works/index.md",
+        "sources/faith-beltz-bhima2003.md",
+        "sources/literature-nbt-stuti2026.md",
+        "sources/literature-kar-mahima2024.md",
+        "works/stuti-chintamani.md"
       ],
       "project_records": [
         "kb/research/voices/collection.json",
@@ -18873,8 +18955,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1190,
-    "updated_at": "2026-10-02T06:43:56.947430+00:00",
+    "records_mapped": 1194,
+    "updated_at": "2026-10-02T07:42:49.321114+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19390,6 +19472,11 @@
       "run_id": "2026-10-02-yogini-traditions",
       "at": "2026-10-02T06:43:56.947430+00:00",
       "scope": "Existing Tantric collection enriched; two distinct place identities and four sources added after source/native searches. Dated map extension, not exhaustive semantic deduplication."
+    },
+    {
+      "run_id": "2026-10-02-mahima-dharma",
+      "at": "2026-10-02T07:42:49.321114+00:00",
+      "scope": "Reused native Bhima Bhoi literary identity; added one work and three source records. NBT catalogue/product are one publisher family; monograph reinspection is not independent evidence."
     }
   ]
 }
