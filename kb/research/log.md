@@ -352,3 +352,7 @@ RES-046 bounded selected-institution deliverable complete:18 UGC identities, ori
 ## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
 
 RES-047 checkpoint: original KISS school/university separation; KIIT continuation text; historical Parliament service; 16 signed university financial observations across two years. Other-income decline retained. Outcomes and founding conflict remain open.
+
+## KISS student outcomes · 2 October 2026 UTC
+
+RES-047 student checkpoint: 22 scoped observations, dated institutional outcomes, original ASCI methods and a qualitative research route. Unmatched higher-study cohort and historical alumni-record criticism retained. Task remains in progress.

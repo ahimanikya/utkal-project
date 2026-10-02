@@ -14993,7 +14993,12 @@
         "education-kiss-notification2017",
         "education-kiit-notification2017",
         "people-samanta-sansad17",
-        "education-kiss-accounts2025"
+        "education-kiss-accounts2025",
+        "education-kiss-nirf2025",
+        "education-kiss-aqar2024",
+        "education-kiss-asci2022",
+        "education-kiss-annual2022",
+        "education-finnan-childhood2017"
       ],
       "added_at": "2026-10-01T19:04:12.192294+00:00"
     },
@@ -17227,6 +17232,96 @@
         "education-kiss-notification2017"
       ],
       "added_at": "2026-10-02T03:01:31.707510+00:00"
+    },
+    {
+      "id": "sources/education-kiss-nirf2025",
+      "title": "KISS: NIRF 2025 SDG Institution submission",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-kiss-nirf2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-kiss-nirf2025"
+      ],
+      "added_at": "2026-10-02T04:53:55.437429+00:00"
+    },
+    {
+      "id": "sources/education-kiss-aqar2024",
+      "title": "KISS: Annual Quality Assurance Report 2023–2024",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-kiss-aqar2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-kiss-aqar2024"
+      ],
+      "added_at": "2026-10-02T04:53:55.437429+00:00"
+    },
+    {
+      "id": "sources/education-kiss-asci2022",
+      "title": "ASCI assessment of KISS activities and SDGs",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-kiss-asci2022.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-kiss-asci2022"
+      ],
+      "added_at": "2026-10-02T04:53:55.437429+00:00"
+    },
+    {
+      "id": "sources/education-kiss-annual2022",
+      "title": "KISS Deemed to be University annual report 2021–2022",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-kiss-annual2022.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-kiss-annual2022"
+      ],
+      "added_at": "2026-10-02T04:53:55.437429+00:00"
+    },
+    {
+      "id": "sources/education-finnan-childhood2017",
+      "title": "Living in the present while imagining the future",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-finnan-childhood2017.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-finnan-childhood2017"
+      ],
+      "added_at": "2026-10-02T04:53:55.437429+00:00"
     }
   ],
   "shared_publications": [
@@ -18212,7 +18307,12 @@
         "sources/education-kiit-notification2017.md",
         "sources/people-samanta-sansad17.md",
         "sources/education-kiss-accounts2025.md",
-        "stories/institution-building-evidence.md"
+        "stories/institution-building-evidence.md",
+        "sources/education-kiss-nirf2025.md",
+        "sources/education-kiss-aqar2024.md",
+        "sources/education-kiss-asci2022.md",
+        "sources/education-kiss-annual2022.md",
+        "sources/education-finnan-childhood2017.md"
       ],
       "project_records": [],
       "remaining_scope": "Extend personal chronology using independent records; inspect KIIT/KISS status notifications, reconcile founding stages, and obtain dated student or graduate outcomes with denominators and audited scope. Preserve institutional self-reporting and community perspectives.",
@@ -18534,8 +18634,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1173,
-    "updated_at": "2026-10-02T03:01:31.707510+00:00",
+    "records_mapped": 1178,
+    "updated_at": "2026-10-02T04:53:55.437429+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19031,6 +19131,11 @@
       "run_id": "2026-10-02-samanta-journey",
       "at": "2026-10-02T03:01:31.707510+00:00",
       "scope": "Existing Samanta identity enhanced; four publication records, one story. KIIT cohorts reused, not duplicated."
+    },
+    {
+      "run_id": "2026-10-02-kiss-outcomes",
+      "at": "2026-10-02T04:53:55.437429+00:00",
+      "scope": "Five source publications added to existing person, university and story pages; repeated AQAR pages and shared institutional submissions not counted as independent evidence."
     }
   ]
 }

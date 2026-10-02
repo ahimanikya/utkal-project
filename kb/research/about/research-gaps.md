@@ -338,3 +338,7 @@ RES-046 selected identity/comparison deliverable complete. Current 18 UGC checks
 ## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
 
 RES-047 remains in progress: school/society founding conflict, KISS student denominators, separate audit opinion and independent community perspectives unresolved. KISS original grant, KIIT continuation text, Parliament service and signed university finances now saved; do not repeat these searches.
+
+## KISS student outcomes · 2 October 2026 UTC
+
+KISS PG/PhD stocks, annual doctoral completions and 2023–24 AQAR outcomes recovered. Matched entry cohorts, placement retention, original founding records and separate audit opinion remain missing. Finnan publisher abstract is available; full text and a second ethnographic article failed, retry 9 October.

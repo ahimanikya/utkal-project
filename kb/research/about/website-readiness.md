@@ -109,3 +109,7 @@ A dated university story is ready for editorial selection, with rank declines an
 ## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
 
 Institution-building story draft adds a university-only financial scale with dates and accounting limits. Requires editorial selection; no impact audit, human review or website publication claimed.
+
+## KISS student outcomes · 2 October 2026 UTC
+
+The existing institution-building story now has a separate dated PG tuition-support card. No expense-per-student calculation, employment guarantee or independently audited social-impact claim. ASCI model estimate stays outside public headlines.

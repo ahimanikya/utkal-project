@@ -307,3 +307,7 @@ Enhanced the existing 18 institution directory and two 2025 rank observations; a
 ## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
 
 Existing Achyuta Samanta identity enhanced. Four source publications and one related story added; prior KIIT cohorts referenced by IDs. Ministry instruments, institutional accounts and Parliament biography have different scopes, not interchangeable corroboration.
+
+## KISS student outcomes · 2 October 2026 UTC
+
+Five distinct publications enhance existing Samanta/university/story identities. Institutional AQAR and NIRF share provenance; duplicate Part B tables are not second observations. ASCI scope is commissioned/institution-engaged; the qualitative paper remains abstract-only.

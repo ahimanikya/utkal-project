@@ -263,3 +263,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Samanta, KIIT and KISS evidence
 
 [Research receipt](records/samanta-journey-2026-10-02.json): Four new source publications, sixteen scoped financial observations and one story. RES-047 remains in progress; founding stages and KISS student outcomes remain open. No website release.
+
+## 2 October 2026 · KISS student outcomes
+
+[Research receipt](records/kiss-outcomes-2026-10-02.json): Five source publications and twenty-two scoped student observations added to existing pages. RES-047 remains in progress; founding records, audit opinion and full-text participant research remain open. No website release.

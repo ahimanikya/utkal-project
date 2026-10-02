@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T03:01:31.707510+00:00",
+  "updated_at": "2026-10-02T04:53:55.437429+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2165,10 +2165,10 @@
       "done_when": "Extend personal chronology using independent records; inspect KIIT/KISS status notifications, reconcile founding stages, and obtain dated student or graduate outcomes with denominators and audited scope. Preserve institutional self-reporting and community perspectives.",
       "target": "people/achyuta-samanta.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-02T03:01:31.707510+00:00",
-      "next_step": "Resume KISS student cohorts and denominators; obtain separate audit opinion/accounting basis and independent community perspectives. Reconcile 1992/1993 school/society records. Reuse 2017 notifications, parliamentary extract, 16 university financial observations and prior KIIT cohorts.",
+      "last_worked_at": "2026-10-02T04:53:55.437429+00:00",
+      "next_step": "KISS student denominators and outcomes now saved. Next inspect original society/school registration and separate audit opinion through new primary routes; reuse AQAR/NIRF/ASCI/annual-report captures. Obtain full-text Finnan study through lawful library/author route; failed publisher URLs retry 9 October. Do not repeat the completed count extraction.",
       "evidence_outputs": [
         "people/achyuta-samanta.md",
         "references/data/culture-learning.json",
@@ -2177,7 +2177,12 @@
         "sources/people-samanta-sansad17.md",
         "sources/education-kiss-accounts2025.md",
         "stories/institution-building-evidence.md",
-        "references/data/people-creations.json"
+        "references/data/people-creations.json",
+        "sources/education-kiss-nirf2025.md",
+        "sources/education-kiss-aqar2024.md",
+        "sources/education-kiss-asci2022.md",
+        "sources/education-kiss-annual2022.md",
+        "sources/education-finnan-childhood2017.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2194,6 +2199,13 @@
           "outcome": "legal_parliamentary_and_financial_checkpoint",
           "completion_criteria_met": false,
           "remaining": "KISS student outcomes, independent community perspectives, original founding stages and separate audit opinion."
+        },
+        {
+          "run_id": "2026-10-02-kiss-outcomes",
+          "at": "2026-10-02T04:53:55.437429+00:00",
+          "outcome": "student_denominators_and_assessment_scope_saved",
+          "completion_criteria_met": false,
+          "remaining": "Original founding documents, separate audit opinion, full-text participant research and longitudinal outcome assurance."
         }
       ],
       "reuse_before_research": {
@@ -2209,7 +2221,12 @@
           "sources/education-kiit-notification2017.md",
           "sources/people-samanta-sansad17.md",
           "sources/education-kiss-accounts2025.md",
-          "stories/institution-building-evidence.md"
+          "stories/institution-building-evidence.md",
+          "sources/education-kiss-nirf2025.md",
+          "sources/education-kiss-aqar2024.md",
+          "sources/education-kiss-asci2022.md",
+          "sources/education-kiss-annual2022.md",
+          "sources/education-finnan-childhood2017.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

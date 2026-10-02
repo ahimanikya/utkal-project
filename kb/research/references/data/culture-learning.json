@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-02T03:01:31.707510+00:00",
+  "updated_at": "2026-10-02T04:53:55.437429+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -1788,6 +1788,383 @@
       "Independent community perspectives and education-impact evaluation missing",
       "Separate financial audit opinion and accounting basis need review"
     ],
+    "human_review_claimed": false
+  },
+  "kiss_outcomes_checkpoint": {
+    "run_id": "2026-10-02-kiss-outcomes",
+    "checked_on": "2026-10-02",
+    "observations": [
+      {
+        "id": "kiss-nirf2025-pg_male",
+        "metric": "nirf2025-pg_male",
+        "value": 400,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_female",
+        "metric": "nirf2025-pg_female",
+        "value": 548,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_total",
+        "metric": "nirf2025-pg_total",
+        "value": 948,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_within_state",
+        "metric": "nirf2025-pg_within_state",
+        "value": 601,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_outside_state",
+        "metric": "nirf2025-pg_outside_state",
+        "value": 347,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_outside_country",
+        "metric": "nirf2025-pg_outside_country",
+        "value": 0,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_full_tuition_institution_funds",
+        "metric": "nirf2025-pg_full_tuition_institution_funds",
+        "value": 948,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_full_tuition_government",
+        "metric": "nirf2025-pg_full_tuition_government",
+        "value": 0,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_full_tuition_private_bodies",
+        "metric": "nirf2025-pg_full_tuition_private_bodies",
+        "value": 0,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-pg_without_full_tuition_reimbursement",
+        "metric": "nirf2025-pg_without_full_tuition_reimbursement",
+        "value": 0,
+        "unit": "students",
+        "period": "2025 submission; PG stock census day not specified",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, Total Actual Student Strength, PG [2 Year Program(s)]",
+        "scope": "All years of two-year PG programmes; stock, not new admissions, graduating class or whole KISS school/Foundation. Fee field concerns tuition only.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-phd_fulltime_stock",
+        "metric": "nirf2025-phd_fulltime_stock",
+        "value": 267,
+        "unit": "students",
+        "period": "Pursuing through 2023–24; excludes 2024–25 admissions",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, PhD Student Details",
+        "scope": "Doctoral stock, not cohort entry count.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-phd_completions-2021-22",
+        "metric": "nirf2025-phd_completions-2021-22",
+        "value": 3,
+        "unit": "students",
+        "period": "2021-22",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, full-time PhD graduates row",
+        "scope": "Annual completions from different entry cohorts; cannot divide by current doctoral stock to infer completion probability.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-phd_completions-2022-23",
+        "metric": "nirf2025-phd_completions-2022-23",
+        "value": 5,
+        "unit": "students",
+        "period": "2022-23",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, full-time PhD graduates row",
+        "scope": "Annual completions from different entry cohorts; cannot divide by current doctoral stock to infer completion probability.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-nirf2025-phd_completions-2023-24",
+        "metric": "nirf2025-phd_completions-2023-24",
+        "value": 8,
+        "unit": "students",
+        "period": "2023-24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-nirf2025",
+        "locator": "p.1, full-time PhD graduates row",
+        "scope": "Annual completions from different entry cohorts; cannot divide by current doctoral stock to infer completion probability.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-aqar2024-students",
+        "metric": "aqar2024-students",
+        "value": 1215,
+        "unit": "students",
+        "period": "2023–24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-aqar2024",
+        "locator": "p.8,2.1",
+        "scope": "All university students in report year",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-aqar2024-outgoing_final_year",
+        "metric": "aqar2024-outgoing_final_year",
+        "value": 426,
+        "unit": "students",
+        "period": "2023–24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-aqar2024",
+        "locator": "p.8,2.2",
+        "scope": "Outgoing/final-year students",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-aqar2024-appeared",
+        "metric": "aqar2024-appeared",
+        "value": 426,
+        "unit": "students",
+        "period": "2023–24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-aqar2024",
+        "locator": "p.8,2.3",
+        "scope": "University examination appearances as reported",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-aqar2024-passed_final_year",
+        "metric": "aqar2024-passed_final_year",
+        "value": 426,
+        "unit": "students",
+        "period": "2023–24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-aqar2024",
+        "locator": "p.23,2.6.3.1",
+        "scope": "Final-year passes; not entry-cohort completion rate",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-aqar2024-placements",
+        "metric": "aqar2024-placements",
+        "value": 218,
+        "unit": "students",
+        "period": "2023–24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-aqar2024",
+        "locator": "p.44,5.2.2",
+        "scope": "Number of placements of outgoing students; person-level deduplication, employment quality and retention not verified",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-aqar2024-higher_education_previous_batch",
+        "metric": "aqar2024-higher_education_previous_batch",
+        "value": 34,
+        "unit": "students",
+        "period": "2023–24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-aqar2024",
+        "locator": "p.44,5.2.3",
+        "scope": "Previous graduating batch; do not add to this-year placements",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-aqar2024-exam_qualifiers",
+        "metric": "aqar2024-exam_qualifiers",
+        "value": 10,
+        "unit": "students",
+        "period": "2023–24",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-aqar2024",
+        "locator": "p.44,5.2.1.1",
+        "scope": "Qualified in named competitive-exam categories; no attempt denominator",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      },
+      {
+        "id": "kiss-annual2022-first_convocation_recipients",
+        "metric": "annual2022-first_convocation_recipients",
+        "value": 143,
+        "unit": "students",
+        "period": "2019 and 2020 graduating batches combined; reported in 2021–22 annual report",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "source_id": "education-kiss-annual2022",
+        "locator": "p.28, first convocation",
+        "scope": "Two batches combined; no entrant denominator or exact ceremony date established in extracted account.",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "institution_reported; not independently audited",
+        "price_basis": "not_applicable"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "calculation": "400 + 548 = 948; 601 + 347 = 948",
+        "scope": "Within NIRF PG stock row"
+      },
+      {
+        "calculation": "948 PG + 267 PhD = 1,215 AQAR students",
+        "scope": "Numerical agreement across same-institution submissions; no independent corroboration or proof of matched census dates."
+      }
+    ],
+    "held_derived_rates": [
+      "218 placements / 426 outgoing students: no verified common person-level denominator",
+      "426 passes / 426 appearances: not entry-cohort graduation or dropout rate",
+      "34 higher-study students belong to previous graduating batch; do not combine with current placements"
+    ],
+    "assessment": {
+      "source_id": "education-kiss-asci2022",
+      "field_visit": "2022-07-25/2022-07-30",
+      "scope_and_sample_agreed_with_KISS": true,
+      "survey_respondents": {
+        "faculty_staff": 243,
+        "major_vendors": 17
+      },
+      "model": "simplified Caffrey-Isaacs ACE",
+      "geography": "Bhubaneswar Municipal Corporation",
+      "reported_local_business_volume": {
+        "value": 10156.83,
+        "unit": "INR lakh",
+        "locator": "PDF p.43, Table3.1",
+        "reference_financial_year": null,
+        "price_basis": "not established in reviewed passages",
+        "publication_status": "hold_from_public_headline",
+        "reason": "Modelled gross business volume; period, boundary, assumptions and counterfactual unresolved. Not additive to saved university expenses, not GDP or audited net impact."
+      },
+      "historical_limitation": {
+        "finding": "Alumni records/association described as absent; Alumni Engagement graded 2",
+        "locator": "PDF p.55, printed p.49",
+        "current_absence_claim": false
+      },
+      "beneficiary_focus_groups": "Reported in July 2022 field-visit itinerary; not interviews conducted by Utkal."
+    },
+    "community_research": {
+      "source_id": "education-finnan-childhood2017",
+      "type": "qualitative_interviews_publisher_abstract_only",
+      "ages": [
+        9,
+        15
+      ],
+      "setting": "Residential and government day schools in Odisha",
+      "sample_size": null,
+      "fieldwork_dates": null,
+      "funding_and_affiliation_independence_verified": false,
+      "use": "Research about school experience and future aspirations; no direct quotes or claims of consensus."
+    },
+    "founding_history": {
+      "source_id": "education-kiss-annual2022",
+      "reported_span": "1992–93",
+      "original_registration_inspected": false,
+      "existing_conflict_resolved": false
+    },
+    "audit_scope": "AQAR describes annual external financial audits; no separate audit opinion or independent student-outcome assurance recovered. Prior signed accounts remain unchanged.",
+    "next_step": "Recover founding/registration original and independent full-text study; inspect separate audit opinion. New sources answer scoped student counts, not longitudinal impact.",
     "human_review_claimed": false
   }
 }
