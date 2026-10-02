@@ -402,3 +402,7 @@ Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope r
 ## Employment and supplier follow-up · 2 October 2026
 
 The Founder selected this follow-up before the previous retry date. Existing company workforce IDs were reused. New source-scoped supplier disclosures and refinery/smelter work volumes strengthen RES-052; they do not resolve current plant headcount. RSP social-account claims await underlying returns and community corroboration. [Evidence and next questions](../references/data/mining-programme.json). No public story publication is claimed.
+
+## Mining and community services · 2026-10-02
+
+RES-053 now has a six-DMF financial sample and four named case bundles with dated audit findings/replies. Remaining: exact state receipt crosswalk, remaining relevant audit chapters, later functioning evidence, positive comparison cases and community outcomes. No present-day failure prevalence inferred.

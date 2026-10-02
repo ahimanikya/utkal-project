@@ -377,3 +377,7 @@ One original parliamentary answer extends existing Rourkela record; NALCO appren
 ## Employment and supplier follow-up · 2 October 2026
 
 The Founder selected this follow-up before the previous retry date. Existing company workforce IDs were reused. New source-scoped supplier disclosures and refinery/smelter work volumes strengthen RES-052; they do not resolve current plant headcount. RSP social-account claims await underlying returns and community corroboration. [Evidence and next questions](../references/data/mining-programme.json). No public story publication is claimed.
+
+## Mining and community services · 2026-10-02
+
+RES-053 reuses both CAG source identities, F05 and four existing DMF observations. One new Directorate source and one connected synthesis are added. Four case bundles are recorded in the existing mining programme rather than duplicate place/institution profiles.

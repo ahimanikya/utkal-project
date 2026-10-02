@@ -416,3 +416,7 @@ RES-052: four historical Rourkela employment observations and one NALCO annual a
 ## 2026-10-02
 
 Employment/supplier follow-up: three source records and nine observations; existing NALCO workforce IDs reused. Two social-account disclosures remain pending source-table review. Original NALCO procurement/work-volume tables visually checked. Current plant headcount and realised supplier outcomes remain open.
+
+## 2026-10-02 · Mineral revenues and community services
+
+Saved actual/estimate receipt distinctions, six-DMF sample and four dated case bundles with government replies. 48 new observations; previous906 observation records preserved. One original-table percentage discrepancy recorded. RES-053 remains in progress; no public website publication.

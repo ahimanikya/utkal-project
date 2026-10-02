@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 11,
-    "newer_records_outside_frozen_selection": 210
+    "newer_records_outside_frozen_selection": 211
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -150,6 +150,7 @@
     "source:mining-cag-dmf2026",
     "source:mining-coal-directory2025",
     "source:mining-dbl-pottangi",
+    "source:mining-directorate-revenue",
     "source:mining-hindalco-baphlimali",
     "source:mining-ibm-kodingamali2024",
     "source:mining-ibm-march2025",
@@ -242,8 +243,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "062df8358875ce9d01d061f5d0ef1150a54e3b3194e3adcda67c61190d08bad2",
-    "kb/research/search-index.json": "03d1e549905311cd9904da487dc66164dd033b1f0caf174716db493df5ad28b0",
+    "kb/research/references/data/source-catalog.json": "519037493308646c2b85e4d5b01b73c245cae7cbcc963f1537ba7e44e0290d0e",
+    "kb/research/search-index.json": "0131798300ed2dcf1716d6a2d3211357eff5d9f48fe89df4be5c796e2e4c2876",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -7897,9 +7898,23 @@
         "published_on": null,
         "locator": null,
         "capture": "Fresh full HTML reading of selected capital expenditure, liabilities, deficit and audit-adjustment paragraphs. Not all linked chart data extracted.",
-        "capture_history": []
+        "capture_history": [
+          {
+            "source_id": "macro-cag-fy2025",
+            "checked_at": "2026-10-02T19:41:47.932986+00:00",
+            "resource": "https://www.digitalreports.cag.gov.in/states/odisha/SFAR-Odisha-2024-25.pdf",
+            "sha256": "ebe26c618a18177b928136f06e584ece7516b804a320c41c24a0265d0c44d422",
+            "locator": "Original PDF p.35 / printed p.15, Table1.7, actuals and BE/RE columns.",
+            "scope": "Selected original evidence; no whole-report audit or independent human review."
+          }
+        ]
       },
       "connections": [
+        {
+          "id": "economy/dmf-community-outcomes",
+          "title": "From mineral revenues to working community services",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/economy/dmf-community-outcomes.md"
+        },
         {
           "id": "sources/macro-cag-fy2025",
           "title": "Odisha State Finances Audit Report 2024–25 — Chapter 1",

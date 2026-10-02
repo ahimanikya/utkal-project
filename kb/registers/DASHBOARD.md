@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `87de3fbd75626d6bfa82556a79d047fda0594b5d62fce6a330739f22318318bb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0f58d28955f7a35cee922e976268288490b5c67776dde6d965612ab55da5cd73`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -158,6 +158,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-143 · Consolidate research and complete the site-wide browser review programme | completed | published | Ahimanikya Satapathy | Batch merged and published; 500 bounded review/integration items recorded. Continue newer research PR 60 and physical-device, screen-reader, specialist and Search Console follow-ups. | — |
 | UTP-WORK-144 · Integrate mining and manufacturing research from PR 60 | completed | applied | Ahimanikya Satapathy | Integration complete. RES-052 retains its source follow-up and current employment/supplier evidence gaps. | — |
 | UTP-WORK-145 · Strengthen employment and local supplier evidence | completed | applied | Ahimanikya Satapathy | Checkpoint merged. RES-052 remains in progress with explicit current-headcount and supplier-outcome evidence needs; no outreach sent. | — |
+| UTP-WORK-146 · Connect mining receipts, district funds and working services | in_progress | reviewed | Ahimanikya Satapathy | Validate and integrate the bounded checkpoint; retain unfinished RES-053 evidence needs. | — |
 
 ## Pending human review and decisions
 
@@ -381,6 +382,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-159 · Autonomous implementation and publication of the next 500 bounded work and review items | approved | Ahimanikya Satapathy | Implement, test, merge and publish the next bounded batch without repeated routine permission requests. Existing held commercial scope and source qualifications remain intact; no human authority or specialist approval is delegated to AI. |
 | UTP-DEC-160 · Integrate PR 60 mining and manufacturing research | approved | Ahimanikya Satapathy | Review, reconcile, validate and merge the proposed mining/manufacturing research integration. Preserve draft/source limitations; no new website publication in this research-only scope. |
 | UTP-DEC-161 · Employment and supplier evidence follow-up | approved | Ahimanikya Satapathy | Research the proposed current-employment and local-supplier gaps and save a validated KB update. Existing authorization permits routine Git delivery. Public story publication, outreach and spending are outside this batch. |
+| UTP-DEC-162 · Trace mining revenues and DMF community outcomes | approved | Ahimanikya Satapathy | Approved proposed mining revenue and DMF research; routine KB Git delivery under existing authorization. No outreach, spending or public website story publication. |
 
 ## Reviews
 
@@ -507,6 +509,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-121 | pass_with_limitations | False | This is 488 browser review cases plus 12 integration/delivery work items, not 500 new features or 500 independently verified articles.; The browser cases check layout overflow and DOM semantics; they are not a complete visual, keyboard, screen-reader or physical-device accessibility certification.; Research was consolidated with original qualifications. Unread sources, contradictory accounts, language review and current local arrangements remain open.; Search Console processing is not established by successful live HTTP checks. Store and held commercial pages remain excluded. |
 | UTP-REV-122 | pass_with_limitations | False | Source attributions and existing research qualifications reviewed; this is not an independent rereading of all original PDFs or human specialist sign-off.; RES-052 remains in progress with a 9 October evidence follow-up. Current employment, local supplier and mine-to-plant allocation gaps remain.; Research integration does not add public website pages or deploy a website change. |
 | UTP-REV-123 | pass_with_limitations | False | Current plant payroll and unique-person methodology not recovered. Unit work volume and corporate totals do not fill this gap.; RSP social-account claims remain pending underlying source records and independent community evidence.; Selected NALCO pages visually checked; not a full audit or human specialist review. No public website publication. |
+| UTP-REV-124 | pass_with_limitations | False | Selected original sections read; not complete audit review.; No current-operation evidence or independent community testimony recovered. Four problem-case bundles cannot establish statewide failure prevalence.; 0.73crore receipt difference retained;79.69/76.69 source discrepancy explicit. |
 
 ## Publication and application history
 
@@ -600,7 +603,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-180 | 2026-10-02T05:53:53.655471+00:00 | Browser access restored. Six guides reviewed at 390/1440/1920 widths. Notebook openings shortened; mobile fragment focus and repeated-jump alignment corrected; uncropped hero gets ratio fallback. Actual two-day tour-book downloads preserve Odia notes and practical links. 383 site tests, 76 coastal tests and 488 page checks pass. | Present candidate PR and screenshots to Founder; publication and wider human review remain separate. |
 | UTP-EVT-181 | 2026-10-02T13:53:38.817898+00:00 | Founder approved PR #53. Exact reviewed head merged and deployed successfully. Live HTTP checks confirm all six revised notebooks, deployed keyboard focus/alignment code, eleven sitemap routes and preserved ownership response. | Continue separately scoped wider review and Search Console processing follow-up. |
 | UTP-EVT-182 | 2026-10-02T14:09:39.538267+00:00 | Six cultural pages reviewed at 390/1440/1920 widths. Maker covers separate subject and story subtitle, preserve full images and gain category trails. Four other maker pages pass mobile smoke checks. 459 tests and 488 page checks pass. | Present candidate PR for Founder review. Wider visual and human review remain open. |
 | UTP-EVT-183 | 2026-10-02T14:33:37.057142+00:00 | Founder approved PR #59. Exact reviewed revision merged and deployed successfully. Live HTTP checks confirm ten cultural pages, new maker headings/subtitles and category trails, deployed styles, eleven sitemap routes and ownership response. | Continue separately scoped wider visual and human review; Search Console processing remains open. |
@@ -610,6 +612,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-187 | 2026-10-02T18:29:45.656472+00:00 | PR 62 merged after automated validation. Twelve entries and 44 observations joined main. Dependent ore total remains held; historical employment and current payroll remain distinct. No website deployment. | Keep unresolved evidence follow-ups open. |
 | UTP-EVT-188 | 2026-10-02T19:10:21.927198+00:00 | Three source identities and nine observations added. All previous observation fields and holds retained. Visual checks distinguish workdays, headcount, annual training and purchase orders. Current unit headcount unresolved. | Complete Git review delivery; retain RES-052 follow-ups. |
 | UTP-EVT-189 | 2026-10-02T19:13:31.867247+00:00 | PR64 merged after automated checks; three source records and nine observations added with limitations. All897 earlier observations preserved. Public website unchanged. | Keep RES-052 outstanding evidence needs visible. |
+| UTP-EVT-190 | 2026-10-02T19:43:20.772661+00:00 | Added48 observations and one connected synthesis from two reused CAG sources and one new Directorate table. Six district funds and four named case bundles retain audit dates and government replies. Prior906 observations preserved. | Validate and deliver KB checkpoint; retain full audit/current service/outcome follow-ups. |
 
 ## Deferred extensions
 

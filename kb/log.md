@@ -427,3 +427,7 @@ Three source identities and nine observations added. Existing company counts and
 ### 2026-10-02T19:13:31.867247+00:00 · Employment/supplier checkpoint merged
 
 PR64 passed GitHub validation and merged. [Evidence](records/employment-suppliers-2026-10-02.json). No website deployment or outreach. RES-052 remains in progress.
+
+## 2026-10-02 · Mineral revenues and community services
+
+Saved actual/estimate receipt distinctions, six-DMF sample and four dated case bundles with government replies. 48 new observations; previous906 observation records preserved. One original-table percentage discrepancy recorded. RES-053 remains in progress; no public website publication.

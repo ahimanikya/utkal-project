@@ -89,3 +89,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Industrial work: dates and categories
 
 [Rourkela’s historical employment record](rourkela-steel-chain.md) now distinguishes manpower, project contract workers and other contract work at 1 April 2015. This strengthens the historical record without supplying a current plant employment total.
+
+## Mining and community services · 2026-10-02
+
+[From mineral revenues to working community services](dmf-community-outcomes.md) links actual state receipts, six audited DMF districts and four named case bundles. Construction completion, operating service and community benefit remain distinct. Government replies and original-table discrepancies are retained; current operation and resident outcomes remain open.

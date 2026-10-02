@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T17:52:03.569038+00:00",
+  "updated_at": "2026-10-02T19:41:47.932986+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2797,27 +2797,44 @@
       "title": "Mining revenues and DMF outcomes",
       "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "target": "economy/mining.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-018"
       ],
-      "last_worked_at": null,
-      "next_step": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-02T19:41:47.932986+00:00",
+      "next_step": "Reconcile exact receipt heads; finish remaining relevant CAG sections; recover post-January2026 operation records for the four cases and balanced community outcomes.",
+      "evidence_outputs": [
+        "sources/mining-directorate-revenue.md",
+        "economy/dmf-community-outcomes.md",
+        "references/data/mining-programme.json",
+        "references/data/statistics-atlas.json"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-02-mining-community-outcomes",
+          "at": "2026-10-02T19:41:47.932986+00:00",
+          "outcome": "actual_receipts_six_dmf_sample_four_case_bundles",
+          "completion_criteria_met": false,
+          "remaining": "Reconcile exact receipt heads; finish remaining relevant CAG sections; recover post-January2026 operation records for the four cases and balanced community outcomes."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "economy/mining.md",
           "statistics/minerals-and-mining.md",
           "references/data/mining-programme.json",
           "evidence/f05.md",
-          "statistics/minerals-and-mining.md",
           "statistics/health.md",
-          "statistics/education.md"
+          "statistics/education.md",
+          "sources/mining-directorate-revenue.md",
+          "economy/dmf-community-outcomes.md",
+          "sources/mining-cag-dmf2026.md",
+          "sources/macro-cag-fy2025.md",
+          "statistics/public-finance-audit.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

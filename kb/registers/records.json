@@ -4236,6 +4236,28 @@
       "evidence": [
         "records/employment-suppliers-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-146",
+      "title": "Connect mining receipts, district funds and working services",
+      "category": "research",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-162",
+      "next_action": "Validate and integrate the bounded checkpoint; retain unfinished RES-053 evidence needs.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-162",
+        "UTP-REV-124"
+      ],
+      "evidence": [
+        "records/mining-community-outcomes-2026-10-02.json"
+      ]
     }
   ],
   "decisions": [
@@ -7466,6 +7488,25 @@
       "evidence": [
         "records/employment-suppliers-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-162",
+      "title": "Trace mining revenues and DMF community outcomes",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "sounds good, lets do that",
+      "scope": "Approved proposed mining revenue and DMF research; routine KB Git delivery under existing authorization. No outreach, spending or public website story publication.",
+      "recorded_at": "2026-10-02T19:43:20.772661+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-146"
+      ],
+      "evidence": [
+        "records/mining-community-outcomes-2026-10-02.json"
+      ]
     }
   ],
   "requirements": [
@@ -10407,6 +10448,28 @@
       ],
       "evidence": [
         "records/employment-suppliers-2026-10-02.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-124",
+      "title": "DMF evidence and denominator self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Selected original sections read; not complete audit review.",
+        "No current-operation evidence or independent community testimony recovered. Four problem-case bundles cannot establish statewide failure prevalence.",
+        "0.73crore receipt difference retained;79.69/76.69 source discrepancy explicit."
+      ],
+      "refs": [
+        "UTP-DEC-162",
+        "UTP-WORK-146"
+      ],
+      "evidence": [
+        "records/mining-community-outcomes-2026-10-02.json"
       ]
     }
   ],
