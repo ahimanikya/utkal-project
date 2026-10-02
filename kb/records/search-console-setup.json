@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T02:14:55.666899+00:00",
-  "status": "verification_file_live_awaiting_founder",
+  "status": "sitemap_submitted_awaiting_indexing_review",
   "authorization": "UTP-DEC-151",
   "human_owner": "Ahimanikya Satapathy",
   "approval_quote": "OK, go",
@@ -13,19 +13,20 @@
     "Confirmed the connected browser was discoverable.",
     "Attempted Search Console navigation through the existing supported browser connection.",
     "Preserved the published eleven-page indexing policy and existing sitemap.",
-    "Founder-supplied verification response deployed and exact live content confirmed."
+    "Founder-supplied verification response deployed and exact live content confirmed.",
+    "Founder reported completion of the ownership-verification step.",
+    "Founder relayed Google confirmation: Sitemap submitted successfully."
   ],
   "not_completed": [
-    "Existing Google property/account status could not be inspected.",
-    "Ownership verification not performed.",
-    "Sitemap submission not performed.",
+    "Google account ownership and sitemap reports have not been independently inspected by the assistant.",
     "Actual Google indexing status not inspected."
   ],
-  "next_action": "Founder should click Verify in the open Google ownership dialog, then report the result. Sitemap submission and actual indexing inspection remain pending.",
-  "release_baseline": "UTP-REL-044",
+  "next_action": "When Search Console has processed the sitemap, review its fetch status and discovered URL count, then inspect indexing of the eleven approved URLs. Obtain Founder-provided report or use supported browser access when available; no monitoring scheduled.",
+  "release_baseline": "UTP-REL-045",
   "evidence": [
     "records/first-search-launch-publication.json",
-    "records/search-console-verification-file.json"
+    "records/search-console-verification-file.json",
+    "records/search-console-submission.json"
   ],
-  "updated_at": "2026-10-02T02:52:24.562605+00:00"
+  "updated_at": "2026-10-02T02:59:07.163891+00:00"
 }

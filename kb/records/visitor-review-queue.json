@@ -136,13 +136,14 @@
   "separate_decisions": [
     {
       "title": "Search indexing",
-      "next_action": "The eleven-page search scope remains live. Google verification file published under UTP-REL-045; Founder must click Verify and report the result. Sitemap submission and actual Google indexing inspection remain pending under WORK-139.",
+      "next_action": "Founder confirmed Google accepted the sitemap submission. Eleven-page search scope remains unchanged. Next review sitemap processing and actual indexing reports under WORK-139; submission is not proof of indexing.",
       "evidence": [
         "records/first-search-launch-review.json",
         "reference/first-search-launch.md",
         "records/first-search-launch-publication.json",
         "records/search-console-setup.json",
-        "records/search-console-verification-file.json"
+        "records/search-console-verification-file.json",
+        "records/search-console-submission.json"
       ]
     },
     {
@@ -168,7 +169,7 @@
     "indexable_pages": 11,
     "noindex_pages": 111
   },
-  "updated_at": "2026-10-02T02:52:24.562605+00:00",
+  "updated_at": "2026-10-02T02:59:07.163891+00:00",
   "publication_followups": [
     {
       "release": "UTP-REL-035",

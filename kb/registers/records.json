@@ -4056,17 +4056,17 @@
       "id": "UTP-WORK-139",
       "title": "Search Console ownership, sitemap and indexing status",
       "category": "website_operations",
-      "status": "blocked",
-      "readiness": "approved",
+      "status": "awaiting_review",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-151",
-      "next_action": "Founder should click Verify in the open Google ownership dialog, then report the result. Sitemap submission and actual indexing inspection remain pending.",
+      "next_action": "When Search Console has processed the sitemap, review its fetch status and discovered URL count, then inspect indexing of the eleven approved URLs. Obtain Founder-provided report or use supported browser access when available; no monitoring scheduled.",
       "blockers": [
-        "Navigation denied before account access: the browser security check could not verify the admin-enforced policy."
+        "Assistant browser policy verification remains unavailable; Founder completed the manual setup steps. Actual indexing report remains uninspected."
       ],
       "refs": [
         "UTP-DEC-151",
@@ -4076,7 +4076,8 @@
       ],
       "evidence": [
         "records/search-console-setup.json",
-        "records/search-console-verification-file.json"
+        "records/search-console-verification-file.json",
+        "records/search-console-submission.json"
       ]
     }
   ],

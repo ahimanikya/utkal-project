@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `04f72e4290e560b7df73f681aa234d5e54c64886fa55895dd03e818785f359a6`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c358bebdd4021bb90c6d778e68d89c4a035b96c4ef0e973d4a35f32d355e7503`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -151,7 +151,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-136 · Tasar: the silk before the sari | completed | applied | Ahimanikya Satapathy | Textile collection published; browser visual review, Odia/craft terminology and named-maker arrangements remain open. | Browser visual review unavailable after admin-policy verification failure.; Local Odia/craft terminology and maker-access checks remain unverified. |
 | UTP-WORK-137 · Textile review follow-up and specialist brief | completed | applied | Ahimanikya Satapathy | Textile note fixes published and specialist brief adopted. Actual browser, Odia and maker reviews remain open in the linked consolidated queue. | Browser navigation stopped at an admin-policy verification failure. No rendered layout, keyboard, zoom, screenshot or interactive saved-trip review completed.; No Odia reader or textile maker has been appointed, contacted or represented as having reviewed the stories. |
 | UTP-WORK-138 · First search launch candidate and controlled publication | completed | applied | Ahimanikya Satapathy | The approved eleven-page search scope is live. Search Console ownership/submission, actual indexing reports and browser/social preview review remain follow-ups. | Browser visual and social preview inspection unavailable. |
-| UTP-WORK-139 · Search Console ownership, sitemap and indexing status | blocked | approved | Ahimanikya Satapathy | Founder should click Verify in the open Google ownership dialog, then report the result. Sitemap submission and actual indexing inspection remain pending. | Navigation denied before account access: the browser security check could not verify the admin-enforced policy. |
+| UTP-WORK-139 · Search Console ownership, sitemap and indexing status | awaiting_review | applied | Ahimanikya Satapathy | When Search Console has processed the sitemap, review its fetch status and discovered URL count, then inspect indexing of the eleven approved URLs. Obtain Founder-provided report or use supported browser access when available; no monitoring scheduled. | Assistant browser policy verification remains unavailable; Founder completed the manual setup steps. Actual indexing report remains uninspected. |
 
 ## Pending human review and decisions
 
@@ -209,6 +209,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
+| UTP-WORK-139 | When Search Console has processed the sitemap, review its fetch status and discovered URL count, then inspect indexing of the eleven approved URLs. Obtain Founder-provided report or use supported browser access when available; no monitoring scheduled. |
 
 ## Decisions
 
@@ -572,7 +573,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-162 | 2026-10-01T23:22:28.394280+00:00 | Tasar story prepared with three licensed documentary photographs, Gopalpur geography clarified at cluster level, district reading connections and a five-idea saved textile journey. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
 | UTP-EVT-163 | 2026-10-01T23:32:26.644864+00:00 | Approved PR 46 merged and deployed. Tasar story, licensed documentary photographs, district connections and expanded saved journey verified live; 258 response/data checks passed across the 122-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-164 | 2026-10-02T01:10:20.409554+00:00 | Browser review remained blocked by admin-policy verification. Source inspection found generic poster and obsolete review wording in textile notes; prepared bounded corrections and a specialist review sheet. Automated checks pass; no human or rendered review claimed. | Founder candidate review; retain actual visual, Odia and maker checks. |
 | UTP-EVT-165 | 2026-10-02T01:35:57.802300+00:00 | Approved PR 47 merged and deployed. Corrected textile notes and unchanged saved-journey data verified live; 42 response/data checks passed on the five textile pages and held routes within the 122-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
@@ -582,6 +582,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-169 | 2026-10-02T02:14:55.666899+00:00 | Founder authorized Search Console follow-up. Supported browser navigation was denied by an unavailable admin-policy verification check before account access; no ownership or sitemap action was performed. Removed the superseded approval-pending blocker from completed WORK-138. | Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control. |
 | UTP-EVT-170 | 2026-10-02T02:39:42.696262+00:00 | Founder supplied the requested Google HTML verification file. Prepared an exact-content publication exception without expanding editorial routes or the eleven-URL sitemap. | Deploy and verify the exact public response, then ask Founder to complete Google verification. |
 | UTP-EVT-171 | 2026-10-02T02:52:24.562605+00:00 | PR 49 merged and deployed after checks. Supplied Google response matches live bytes; all 122 editorial page directives and the eleven-URL sitemap passed live checks. Account ownership and sitemap submission remain unconfirmed. | Founder should click Verify in the open Google ownership dialog, then report the result. Sitemap submission and actual indexing inspection remain pending. |
+| UTP-EVT-172 | 2026-10-02T02:59:07.163891+00:00 | Recorded the Founder-relayed Google sitemap-submission success. Manual setup is reported complete; actual indexing remains unverified. No assistant monitor or scheduled task was created. | Review sitemap processing and indexing reports when available; preserve the approved eleven-page scope. |
 
 ## Deferred extensions
 
