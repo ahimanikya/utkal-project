@@ -259,3 +259,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Universities and graduate evidence
 
 [Research receipt](records/universities-2026-10-02.json): Eighteen existing UGC identities checked; six graduate cohorts and dated rank/score comparisons added. RES-046 selected-institution criteria complete; RES-047 next. No website release.
+
+## 2 October 2026 · Samanta, KIIT and KISS evidence
+
+[Research receipt](records/samanta-journey-2026-10-02.json): Four new source publications, sixteen scoped financial observations and one story. RES-047 remains in progress; founding stages and KISS student outcomes remain open. No website release.

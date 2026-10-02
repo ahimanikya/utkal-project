@@ -14989,7 +14989,11 @@
       "source_ids": [
         "education-kiit-history",
         "education-kiss-history",
-        "education-dhe-universities"
+        "education-dhe-universities",
+        "education-kiss-notification2017",
+        "education-kiit-notification2017",
+        "people-samanta-sansad17",
+        "education-kiss-accounts2025"
       ],
       "added_at": "2026-10-01T19:04:12.192294+00:00"
     },
@@ -15020,7 +15024,11 @@
         "education-nirf-band2024",
         "education-nirf-band2025",
         "education-soa-nirf2025",
-        "education-kiit-nirf2025"
+        "education-kiit-nirf2025",
+        "education-kiss-notification2017",
+        "education-kiit-notification2017",
+        "people-samanta-sansad17",
+        "education-kiss-accounts2025"
       ],
       "added_at": "2026-10-01T19:04:12.192294+00:00"
     },
@@ -17127,6 +17135,98 @@
         "education-kiit-nirf2025"
       ],
       "added_at": "2026-10-02T02:48:58.849144+00:00"
+    },
+    {
+      "id": "sources/education-kiss-notification2017",
+      "title": "KISS deemed-university notification, 25 August 2017",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-kiss-notification2017.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-kiss-notification2017"
+      ],
+      "added_at": "2026-10-02T03:01:31.707510+00:00"
+    },
+    {
+      "id": "sources/education-kiit-notification2017",
+      "title": "KIIT deemed-status continuation notification, May 2017",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-kiit-notification2017.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-kiit-notification2017"
+      ],
+      "added_at": "2026-10-02T03:01:31.707510+00:00"
+    },
+    {
+      "id": "sources/people-samanta-sansad17",
+      "title": "Digital Sansad: Achyutananda Samanta, 17th Lok Sabha biography",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/people-samanta-sansad17.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "people-samanta-sansad17"
+      ],
+      "added_at": "2026-10-02T03:01:31.707510+00:00"
+    },
+    {
+      "id": "sources/education-kiss-accounts2025",
+      "title": "KISS Deemed to be University: FY 2024–25 financial statements",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/education-kiss-accounts2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday"
+      ],
+      "source_ids": [
+        "education-kiss-accounts2025"
+      ],
+      "added_at": "2026-10-02T03:01:31.707510+00:00"
+    },
+    {
+      "id": "stories/institution-building-evidence",
+      "title": "Institution building, measured one stage at a time",
+      "kind": "Statistical Story",
+      "layer": "research_concept",
+      "source_path": "stories/institution-building-evidence.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "people",
+        "everyday",
+        "economy"
+      ],
+      "source_ids": [
+        "education-kiss-accounts2025",
+        "education-kiss-notification2017"
+      ],
+      "added_at": "2026-10-02T03:01:31.707510+00:00"
     }
   ],
   "shared_publications": [
@@ -18107,7 +18207,12 @@
         "culture/universities-and-learning.md",
         "sources/education-ugc-register2026.md",
         "sources/education-ugc-deemed2026.md",
-        "sources/education-kiit-nirf2025.md"
+        "sources/education-kiit-nirf2025.md",
+        "sources/education-kiss-notification2017.md",
+        "sources/education-kiit-notification2017.md",
+        "sources/people-samanta-sansad17.md",
+        "sources/education-kiss-accounts2025.md",
+        "stories/institution-building-evidence.md"
       ],
       "project_records": [],
       "remaining_scope": "Extend personal chronology using independent records; inspect KIIT/KISS status notifications, reconcile founding stages, and obtain dated student or graduate outcomes with denominators and audited scope. Preserve institutional self-reporting and community perspectives.",
@@ -18429,8 +18534,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1168,
-    "updated_at": "2026-10-02T02:48:58.849144+00:00",
+    "records_mapped": 1173,
+    "updated_at": "2026-10-02T03:01:31.707510+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -18921,6 +19026,11 @@
       "run_id": "2026-10-02-universities",
       "at": "2026-10-02T02:48:58.849144+00:00",
       "scope": "Existing18university identities enhanced; no duplicate institution profiles. Twelve distinct source records and one public story added; NIRF and UGC source families retained."
+    },
+    {
+      "run_id": "2026-10-02-samanta-journey",
+      "at": "2026-10-02T03:01:31.707510+00:00",
+      "scope": "Existing Samanta identity enhanced; four publication records, one story. KIIT cohorts reused, not duplicated."
     }
   ]
 }

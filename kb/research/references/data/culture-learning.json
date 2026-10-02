@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-02T02:48:58.849144+00:00",
+  "updated_at": "2026-10-02T03:01:31.707510+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -581,7 +581,7 @@
         "KIIT timeline associates KISS start with 1992",
         "KISS narrative: 1993; milestone heading: 1992–1993"
       ],
-      "next_action": "Identify society, school-opening and university-status stages from original dated records."
+      "next_action": "School/society chronology remains unresolved. Original 2017 university grant now inspected; cannot settle 1992/1993 school founding."
     },
     {
       "field": "kelucharan_birth_year",
@@ -749,6 +749,47 @@
       "status": "available",
       "checked_on": "2026-10-02",
       "result": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "url": "https://university.kiss.ac.in/docs/IIQA/KISS-DU-NOTIFICATION-DT-25.08.2017.pdf",
+      "status": "available",
+      "result": "Original five-page scan; pages 1–4 visually read. Provisional five-year de-novo grant after UGC reported conditions fulfilled, including documentary de-linking from the school. Seven departments named. The historical review condition is not evidence of present non-compliance or withdrawal; reuse the current UGC register separately.",
+      "source_id": "education-kiss-notification2017"
+    },
+    {
+      "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/Notification17052017.pdf",
+      "status": "available_with_capture_limits",
+      "result": "Publisher PDF text available through web reader; direct download returned 404 and screenshot failed. Exact day illegible in retrieved text. Recites original 16 February 2004 grant, then extends status five years effective 16 February 2014 subject to conditions. Historical review observations are not current deficiencies. Original 2004 instrument not separately inspected.",
+      "source_id": "education-kiit-notification2017"
+    },
+    {
+      "url": "https://sansad.in/ls/members/biography/4993?from=members",
+      "status": "available_with_capture_limits",
+      "result": "Indexed official-page extract read; direct page reader yielded no body. Rajya Sabha 2018–2019, elected 17th Lok Sabha May 2019, Kandhamal, Odisha. Records use Achyutananda Samanta. Historical service only: onwards entries do not establish a current office. Parliament is an independent publisher from KIIT/KISS, but member-supplied biographical claims are not independently audited.",
+      "source_id": "people-samanta-sansad17"
+    },
+    {
+      "url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2024-25.pdf",
+      "status": "available",
+      "result": "Nine-page signed financial statements. Page 2 visually checked against scan; OCR omits most amounts. Financial signature and dated statements do not establish an independently verified education-impact audit. No separate audit opinion established in this capture. University entity only; not combined KIIT, KISS school or Foundation accounts.",
+      "source_id": "education-kiss-accounts2025"
+    },
+    {
+      "url": "https://www.eci.gov.in/eci-backend/public/all_files/GE-2024-statistical-report/33-Constituency-Wise-Detailed-Result.pdf",
+      "status": "unavailable",
+      "result": "Direct download HTTP 406; no election totals adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2024-25.pdf",
+      "status": "unavailable_then_recovered",
+      "result": "Default-client HTTP 403; browser User-Agent retry succeeded."
+    },
+    {
+      "url": "https://university.kiss.ac.in/about/accredition-ranking/nirf-2026/",
+      "status": "unavailable",
+      "result": "Web reader cache miss; no 2026 outcomes inferred.",
+      "retry_after": "2026-10-09"
     }
   ],
   "reuse": [
@@ -1393,5 +1434,360 @@
       "IIT/NIT/NISER/IISER/AIIMS require separate statutory and campus identities before wider comparisons.",
       "KIIT submission first-year admissions exceed listed intake for the three selected cohorts; reconcile scope before utilisation/completion-rate calculations."
     ]
+  },
+  "samanta_checkpoint": {
+    "run_id": "2026-10-02-samanta-journey",
+    "checked_on": "2026-10-02",
+    "status": "partial_deliverable",
+    "legal_events": [
+      {
+        "institution": "KISS",
+        "date": "2017-08-25",
+        "source_id": "education-kiss-notification2017",
+        "locator": "p.2 paras 6–8",
+        "event": "Provisional five-year deemed status under de-novo category after stated compliance; school de-linking documented as a condition fulfilled.",
+        "school_separate_from_university": true,
+        "department_count_at_grant": 7,
+        "current_review_status_from_this_document": null
+      },
+      {
+        "institution": "KIIT",
+        "date": "2017-05",
+        "effective_from": "2014-02-16",
+        "duration_years": 5,
+        "source_id": "education-kiit-notification2017",
+        "locator": "pp.1–2",
+        "event": "Conditional continuation; recalls original 2004-02-16 grant.",
+        "exact_notification_day_verified": false,
+        "current_deficiencies_inferred": false
+      }
+    ],
+    "parliamentary_events": [
+      {
+        "person": "people/achyuta-samanta",
+        "publisher_name": "Achyutananda Samanta",
+        "period": "2018–2019",
+        "event": "Member of Rajya Sabha",
+        "source_id": "people-samanta-sansad17"
+      },
+      {
+        "person": "people/achyuta-samanta",
+        "period": "May 2019",
+        "event": "Elected to 17th Lok Sabha; Kandhamal, Odisha",
+        "source_id": "people-samanta-sansad17"
+      }
+    ],
+    "financial_observations": [
+      {
+        "id": "kissdu-fy2025-grants_and_donations",
+        "metric": "grants_and_donations",
+        "value": 221618507,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; grants and donations; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-grants_and_donations",
+        "metric": "grants_and_donations",
+        "value": 205876675,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; grants and donations; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2025-other_income",
+        "metric": "other_income",
+        "value": 30404788,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; other income; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-other_income",
+        "metric": "other_income",
+        "value": 34293824,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; other income; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2025-total_revenue",
+        "metric": "total_revenue",
+        "value": 252023295,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; total revenue; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-total_revenue",
+        "metric": "total_revenue",
+        "value": 240170499,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; total revenue; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2025-employee_benefits",
+        "metric": "employee_benefits",
+        "value": 114219876,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; employee benefits; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-employee_benefits",
+        "metric": "employee_benefits",
+        "value": 91868833,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; employee benefits; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2025-finance_costs",
+        "metric": "finance_costs",
+        "value": 74121,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; finance costs; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-finance_costs",
+        "metric": "finance_costs",
+        "value": 71604,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; finance costs; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2025-depreciation_amortisation",
+        "metric": "depreciation_amortisation",
+        "value": 32954423,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; depreciation amortisation; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-depreciation_amortisation",
+        "metric": "depreciation_amortisation",
+        "value": 40879988,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; depreciation amortisation; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2025-other_expenses",
+        "metric": "other_expenses",
+        "value": 104774875,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; other expenses; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-other_expenses",
+        "metric": "other_expenses",
+        "value": 107350073,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; other expenses; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2025-total_expenses",
+        "metric": "total_expenses",
+        "value": 252023295,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2024–25",
+        "period_end": "2025-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; total expenses; year ended 31 March 2025 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      },
+      {
+        "id": "kissdu-fy2024-total_expenses",
+        "metric": "total_expenses",
+        "value": 240170499,
+        "unit": "INR",
+        "price_basis": "nominal",
+        "period": "FY 2023–24",
+        "period_end": "2024-03-31",
+        "geography": "KISS Deemed to be University, Bhubaneswar, Odisha",
+        "entity_scope": "University only; not school/Foundation/KIIT combined",
+        "source_id": "education-kiss-accounts2025",
+        "locator": "PDF p.2; total expenses; year ended 31 March 2024 column",
+        "publication_date": "2025-10-03",
+        "retrieved_on": "2026-10-02",
+        "estimate_status": "published_signed_financial_statement",
+        "audit_scope": "Signatures inspected; no separate audit opinion or educational-outcome assurance established."
+      }
+    ],
+    "surplus_line": {
+      "2025": "dash in source",
+      "2024": "dash in source",
+      "arithmetic_revenue_minus_expense": 0,
+      "source_id": "education-kiss-accounts2025",
+      "not_transcribed_as_reported_zero": true
+    },
+    "reused_graduate_cohort_ids": [
+      "nirf2025-0356-ug4-2021",
+      "nirf2025-0356-ug4-2022",
+      "nirf2025-0356-ug4-2023"
+    ],
+    "derived": [
+      {
+        "metric": "total_expenses_nominal_change_percent",
+        "value": 4.935159001355949,
+        "formula": "(FY2024–25 / FY2023–24 - 1) * 100",
+        "input_ids": [
+          "kissdu-fy2025-total_expenses",
+          "kissdu-fy2024-total_expenses"
+        ],
+        "not_impact_or_cash_spending": true
+      }
+    ],
+    "financial_reconciliation": {
+      "FY2023–24_expense_component_sum": 240170498,
+      "FY2023–24_reported_total": 240170499,
+      "difference_INR": 1,
+      "status": "unresolved_source_rounding_or_error; retain published values; do not silently reconcile"
+    },
+    "open_questions": [
+      "1992/1993 school/society founding stages unresolved",
+      "KISS student cohorts and denominators not yet captured",
+      "Original 2004 KIIT notification and later KISS confirmation review not retrieved",
+      "Independent community perspectives and education-impact evaluation missing",
+      "Separate financial audit opinion and accounting basis need review"
+    ],
+    "human_review_claimed": false
   }
 }

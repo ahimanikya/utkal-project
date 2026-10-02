@@ -105,3 +105,7 @@ Buddhist-learning narrative now has an original excavation/inscription report, c
 ## Universities and graduate evidence · 2 October 2026 UTC
 
 A dated university story is ready for editorial selection, with rank declines and cohort limits visible. Current admissions advice, independent employment audit and website publication are not claimed.
+
+## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
+
+Institution-building story draft adds a university-only financial scale with dates and accounting limits. Requires editorial selection; no impact audit, human review or website publication claimed.

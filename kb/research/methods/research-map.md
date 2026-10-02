@@ -303,3 +303,7 @@ Reused existing Buddhist-learning, Udayagiri, Ratnagiri, Lalitgiri and circuit s
 ## Universities and graduate evidence · 2 October 2026 UTC
 
 Enhanced the existing 18 institution directory and two 2025 rank observations; added 2024 comparators, Utkal rank bands and six cohorts without duplicating statewide atlas data. New source identities are distinct publications; shared UGC/NIRF publishers do not provide independent corroboration.
+
+## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
+
+Existing Achyuta Samanta identity enhanced. Four source publications and one related story added; prior KIIT cohorts referenced by IDs. Ministry instruments, institutional accounts and Parliament biography have different scopes, not interchangeable corroboration.

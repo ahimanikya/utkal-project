@@ -4463,6 +4463,17 @@
       "content_type": "Statistical Story",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/institution-building-evidence",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "everyday",
+        "economy"
+      ],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6495,6 +6506,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Adds institutional higher-education outcomes while school-system observations remain separate."
+    },
+    {
+      "from": "stories/institution-building-evidence",
+      "to": "people/achyuta-samanta",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Links a scoped institutional financial statement to founder history without equating spending with social impact."
     }
   ],
   "relationship_types": {

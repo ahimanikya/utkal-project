@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T02:48:58.849144+00:00",
+  "updated_at": "2026-10-02T03:01:31.707510+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2164,14 +2164,20 @@
       "title": "Achyuta Samanta, KIIT and KISS: stages and outcomes",
       "done_when": "Extend personal chronology using independent records; inspect KIIT/KISS status notifications, reconcile founding stages, and obtain dated student or graduate outcomes with denominators and audited scope. Preserve institutional self-reporting and community perspectives.",
       "target": "people/achyuta-samanta.md",
-      "status": "pending",
-      "attempts": 1,
+      "status": "in_progress",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T19:04:12.192294+00:00",
-      "next_step": "Extend personal chronology using independent records; inspect KIIT/KISS status notifications, reconcile founding stages, and obtain dated student or graduate outcomes with denominators and audited scope. Preserve institutional self-reporting and community perspectives.",
+      "last_worked_at": "2026-10-02T03:01:31.707510+00:00",
+      "next_step": "Resume KISS student cohorts and denominators; obtain separate audit opinion/accounting basis and independent community perspectives. Reconcile 1992/1993 school/society records. Reuse 2017 notifications, parliamentary extract, 16 university financial observations and prior KIIT cohorts.",
       "evidence_outputs": [
         "people/achyuta-samanta.md",
-        "references/data/culture-learning.json"
+        "references/data/culture-learning.json",
+        "sources/education-kiss-notification2017.md",
+        "sources/education-kiit-notification2017.md",
+        "sources/people-samanta-sansad17.md",
+        "sources/education-kiss-accounts2025.md",
+        "stories/institution-building-evidence.md",
+        "references/data/people-creations.json"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2181,6 +2187,13 @@
           "at": "2026-10-01T19:04:12.192294+00:00",
           "outcome": "source_backed_starting_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-samanta-journey",
+          "at": "2026-10-02T03:01:31.707510+00:00",
+          "outcome": "legal_parliamentary_and_financial_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "KISS student outcomes, independent community perspectives, original founding stages and separate audit opinion."
         }
       ],
       "reuse_before_research": {
@@ -2191,7 +2204,12 @@
           "culture/universities-and-learning.md",
           "sources/education-ugc-register2026.md",
           "sources/education-ugc-deemed2026.md",
-          "sources/education-kiit-nirf2025.md"
+          "sources/education-kiit-nirf2025.md",
+          "sources/education-kiss-notification2017.md",
+          "sources/education-kiit-notification2017.md",
+          "sources/people-samanta-sansad17.md",
+          "sources/education-kiss-accounts2025.md",
+          "stories/institution-building-evidence.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

@@ -334,3 +334,7 @@ RES-045 bounded source-review deliverable complete. Langudi identification remai
 ## Universities and graduate evidence · 2 October 2026 UTC
 
 RES-046 selected identity/comparison deliverable complete. Current 18 UGC checks recovered; original statutory sources and six institutional cohorts saved. Annual methodological comparability, public/central/private matched outcomes, programme approvals,2026 rankings and the KIIT admission/intake scope question remain open. Central Act IndiaCode routes failed; university-hosted original Gazette available.
+
+## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
+
+RES-047 remains in progress: school/society founding conflict, KISS student denominators, separate audit opinion and independent community perspectives unresolved. KISS original grant, KIIT continuation text, Parliament service and signed university finances now saved; do not repeat these searches.

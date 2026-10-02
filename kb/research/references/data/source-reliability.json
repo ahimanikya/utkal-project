@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T02:48:58.849144+00:00",
+  "updated_at": "2026-10-02T03:01:31.707510+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5273,6 +5273,57 @@
       "run_id": "2026-10-02-universities",
       "status": "available",
       "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/IIQA/KISS-DU-NOTIFICATION-DT-25.08.2017.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available",
+      "scope": "Original five-page scan; pages 1–4 visually read. Provisional five-year de-novo grant after UGC reported conditions fulfilled, including documentary de-linking from the school. Seven departments named. The historical review condition is not evidence of present non-compliance or withdrawal; reuse the current UGC register separately."
+    },
+    {
+      "discovery_url": "https://www.education.gov.in/sites/upload_files/mhrd/files/Notification17052017.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available_with_capture_limits",
+      "scope": "Publisher PDF text available through web reader; direct download returned 404 and screenshot failed. Exact day illegible in retrieved text. Recites original 16 February 2004 grant, then extends status five years effective 16 February 2014 subject to conditions. Historical review observations are not current deficiencies. Original 2004 instrument not separately inspected."
+    },
+    {
+      "discovery_url": "https://sansad.in/ls/members/biography/4993?from=members",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available_with_capture_limits",
+      "scope": "Indexed official-page extract read; direct page reader yielded no body. Rajya Sabha 2018–2019, elected 17th Lok Sabha May 2019, Kandhamal, Odisha. Records use Achyutananda Samanta. Historical service only: onwards entries do not establish a current office. Parliament is an independent publisher from KIIT/KISS, but member-supplied biographical claims are not independently audited."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2024-25.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available",
+      "scope": "Nine-page signed financial statements. Page 2 visually checked against scan; OCR omits most amounts. Financial signature and dated statements do not establish an independently verified education-impact audit. No separate audit opinion established in this capture. University entity only; not combined KIIT, KISS school or Foundation accounts."
+    },
+    {
+      "discovery_url": "https://www.eci.gov.in/eci-backend/public/all_files/GE-2024-statistical-report/33-Constituency-Wise-Detailed-Result.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "unavailable",
+      "scope": "Direct download HTTP 406; no election totals adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2024-25.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "unavailable_then_recovered",
+      "scope": "Default-client HTTP 403; browser User-Agent retry succeeded."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/about/accredition-ranking/nirf-2026/",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "unavailable",
+      "scope": "Web reader cache miss; no 2026 outcomes inferred.",
+      "retry_after": "2026-10-09"
     }
   ]
 }

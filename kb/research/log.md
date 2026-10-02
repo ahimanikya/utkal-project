@@ -348,3 +348,7 @@ RES-045 bounded deliverable completed: ASI2007 excavation/inscription evidence a
 ## Universities and graduate evidence · 2 October 2026 UTC
 
 RES-046 bounded selected-institution deliverable complete:18 UGC identities, original statutory cases, three deemed dates, two-year ranking/component comparisons, two Utkal bands and six graduate cohorts. Source-led story saved; RES-047 next.
+
+## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
+
+RES-047 checkpoint: original KISS school/university separation; KIIT continuation text; historical Parliament service; 16 signed university financial observations across two years. Other-income decline retained. Outcomes and founding conflict remain open.
