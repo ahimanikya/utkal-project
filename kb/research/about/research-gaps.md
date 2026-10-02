@@ -346,3 +346,7 @@ KISS PG/PhD stocks, annual doctoral completions and 2023–24 AQAR outcomes reco
 ## Jagannath origins · 2 October 2026 UTC
 
 Original ASI epigraphy now read; four grants scoped with conflicting dates retained. A critical textual edition remains unread. Gold 2002 identified by Penn; 1912 edition linked by UT Austin. Retry access 9 October; modern kitchen/craft economy needs independent denominators.
+
+## KISS records and account vintages · 2 October2026 UTC
+
+RES-047 deferred to9October. FY2023–24 original accounts and alumni certificate recovered, but parent founding certificate and separate audit opinion remain absent. Mixed-vintage/society notes and offsetting income-component differences need reconciliation. No modern absence or misconduct inferred.

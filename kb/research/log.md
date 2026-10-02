@@ -360,3 +360,7 @@ RES-047 student checkpoint: 22 scoped observations, dated institutional outcomes
 ## Jagannath origins · 2 October 2026 UTC
 
 RES-048: original ASI inscription edition inspected; four grant observations and separately attributed Purana narrative saved. Critical-edition full text remains open; no task completion or human review claimed.
+
+## KISS records and account vintages · 2 October2026 UTC
+
+RES-047: eight earlier-vintage financial observations, two offsetting income differences, original alumni registration and held society-date lead saved. Twelve-check validation follows; no task completion or website release claimed.

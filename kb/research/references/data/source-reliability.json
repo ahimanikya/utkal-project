@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T05:26:54.280049+00:00",
+  "updated_at": "2026-10-02T05:39:12.280267+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5461,6 +5461,57 @@
       "status": "unavailable",
       "scope": "PDF link returned web-reader internal error; catalogue/OCR access does not establish PDF access.",
       "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2023-24.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Original PDF retrieved; only stated scope reviewed."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Alumni/MoU_KAA.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Original PDF retrieved; only stated scope reviewed."
+    },
+    {
+      "discovery_url": "https://iti.kiit.ac.in/wp-content/uploads/2021/05/web21112014.dget-ref.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "unavailable",
+      "scope": "HTTP Error 403: Forbidden",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://kiss.ac.in/wp-content/uploads/2023/03/KISS-Alumni-Certificate.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Original PDF retrieved; only stated scope reviewed."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/about/moa/",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "unavailable",
+      "scope": "Page retrieved but no MoA document text or link recovered; not unchanged.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/about/accounts/",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Listing read; no separate audit-opinion link found in inspected listing. Does not prove no audit exists."
+    },
+    {
+      "discovery_url": "https://kiss.ac.in/accountability/",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Direct HTML retrieved after web-reader failure; no original society certificate recovered."
     }
   ]
 }

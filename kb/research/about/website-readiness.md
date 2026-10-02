@@ -117,3 +117,7 @@ The existing institution-building story now has a separate dated PG tuition-supp
 ## Jagannath origins · 2 October 2026 UTC
 
 Jagannath origin timeline and food-patronage connection are research drafts. No village-transfer chronology, modern kitchen output, craft income, access change or publication approval established.
+
+## KISS records and account vintages · 2 October2026 UTC
+
+Existing institution-building story now exposes account-vintage and note-scope limits. The total comparison is unchanged; component-level growth and causal-impact claims remain held. No public release.

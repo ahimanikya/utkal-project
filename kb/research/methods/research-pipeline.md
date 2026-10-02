@@ -179,3 +179,7 @@ RES-039 saves five new food entries and a connected collection, reusing chatu pa
 ## Pala research checkpoint · 1 October 2026
 
 User-requested RES-040 adds Pala as an arts/everyday-life topic, six source records and structured performance/archive evidence. Existing source and repository-native searches found no Pala identity. The 2012 review preserves named women performers and separates Pala from Daskathia. Foundation pages share provenance; the award biography has a likely derivative foundation version. Two government PDFs remain indexed-only, retry 8 October. Origin chronology, local roles, biographies, recordings/rights and livelihoods need further evidence; no current troupe or audience totals asserted.
+
+## KISS records and account vintages · 2 October2026 UTC
+
+RES-047 checkpoint saved and deferred to9October for primary evidence gaps. RES-040 and RES-048 also have future retries. Continue RES-049 Yogini/Tantric source research next, searching its reuse pointers first.

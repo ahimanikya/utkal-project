@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T05:26:54.280049+00:00",
+  "updated_at": "2026-10-02T05:39:12.280267+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2164,11 +2164,11 @@
       "title": "Achyuta Samanta, KIIT and KISS: stages and outcomes",
       "done_when": "Extend personal chronology using independent records; inspect KIIT/KISS status notifications, reconcile founding stages, and obtain dated student or graduate outcomes with denominators and audited scope. Preserve institutional self-reporting and community perspectives.",
       "target": "people/achyuta-samanta.md",
-      "status": "in_progress",
-      "attempts": 3,
+      "status": "blocked",
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": "2026-10-02T04:53:55.437429+00:00",
-      "next_step": "KISS student denominators and outcomes now saved. Next inspect original society/school registration and separate audit opinion through new primary routes; reuse AQAR/NIRF/ASCI/annual-report captures. Obtain full-text Finnan study through lawful library/author route; failed publisher URLs retry 9 October. Do not repeat the completed count extraction.",
+      "last_worked_at": "2026-10-02T05:39:12.280267+00:00",
+      "next_step": "Retry original registration, audit-opinion and full-text community routes on9October. Reuse saved FY2023–24 accounts and2017 alumni certificate; do not repeat student-count extraction. Continue RES-049 independently while RES-040/048 retries are not due.",
       "evidence_outputs": [
         "people/achyuta-samanta.md",
         "references/data/culture-learning.json",
@@ -2182,10 +2182,12 @@
         "sources/education-kiss-aqar2024.md",
         "sources/education-kiss-asci2022.md",
         "sources/education-kiss-annual2022.md",
-        "sources/education-finnan-childhood2017.md"
+        "sources/education-finnan-childhood2017.md",
+        "sources/education-kiss-accounts2024.md",
+        "sources/education-kiss-alumni-certificate2017.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-09",
+      "blocker": "Original parent-society/school certificate, separate audit opinion and lawful full-text community study remain unavailable. New note-scope and financial-vintage differences require original clarification; do not infer resolution.",
       "attempt_history": [
         {
           "run_id": "2026-10-01-culture-learning",
@@ -2206,6 +2208,13 @@
           "outcome": "student_denominators_and_assessment_scope_saved",
           "completion_criteria_met": false,
           "remaining": "Original founding documents, separate audit opinion, full-text participant research and longitudinal outcome assurance."
+        },
+        {
+          "run_id": "2026-10-02-kiss-registration",
+          "at": "2026-10-02T05:39:12.280267+00:00",
+          "outcome": "original_accounts_and_alumni_certificate_saved_with_scope_conflicts",
+          "completion_criteria_met": false,
+          "remaining": "Original parent-society/school certificate, separate audit opinion and lawful full-text community study remain unavailable. New note-scope and financial-vintage differences require original clarification; do not infer resolution."
         }
       ],
       "reuse_before_research": {
@@ -2226,7 +2235,9 @@
           "sources/education-kiss-aqar2024.md",
           "sources/education-kiss-asci2022.md",
           "sources/education-kiss-annual2022.md",
-          "sources/education-finnan-childhood2017.md"
+          "sources/education-finnan-childhood2017.md",
+          "sources/education-kiss-accounts2024.md",
+          "sources/education-kiss-alumni-certificate2017.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

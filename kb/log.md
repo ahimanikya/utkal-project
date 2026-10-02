@@ -271,3 +271,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Jagannath origins
 
 [Research receipt](records/jagannath-origins-2026-10-02.json): Three source records, four historical grants and an origins synthesis linked to existing pages. RES-048 remains in progress; critical textual edition and construction chronology remain open. No website release.
+
+## 2 October 2026 · KISS records and account vintages
+
+[Research receipt](records/kiss-registration-2026-10-02.json): Two original source records and eight earlier-vintage observations enhance existing institutional pages. RES-047 deferred to9October for founding/audit and community evidence; RES-049 is next eligible. No website release.

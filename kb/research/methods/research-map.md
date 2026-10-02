@@ -315,3 +315,7 @@ Five distinct publications enhance existing Samanta/university/story identities.
 ## Jagannath origins · 2 October 2026 UTC
 
 Jagannath synthesis reuses existing place/ruler/Mahaprasad pages and native Raghurajpur destination material. Three source identities added. ASI scan and mirror transcription are the same edition; separate Purana chapters are one narrative family.
+
+## KISS records and account vintages · 2 October2026 UTC
+
+Two source identities enhance existing Samanta/story pages. Alumni society registration is a distinct entity from school/university founding. Original FY2023–24 and later comparative figures are preserved as separate vintages.
