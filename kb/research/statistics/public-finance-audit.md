@@ -60,3 +60,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^macro-cag-fy2025]: [Odisha State Finances Audit Report 2024–25 — Chapter 1](https://www.digitalreports.cag.gov.in/odisha/chapter/1?from=app-1.2)
+
+## Mining and community services · 2026-10-02
+
+[Mining receipt reconciliation](../economy/dmf-community-outcomes.md) extends the existing CAG source with original Table1.7. Two rounded accounting heads are kept separate from dividends, DMF funds and the legacy2026–27 budget estimate.

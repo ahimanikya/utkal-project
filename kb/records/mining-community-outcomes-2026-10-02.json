@@ -1,0 +1,126 @@
+{
+  "run_id": "2026-10-02-mining-community-outcomes",
+  "at": "2026-10-02T19:41:47.932986+00:00",
+  "status": "validated_research_checkpoint",
+  "authorization_quote": "sounds good, lets do that",
+  "human_owner": "Ahimanikya Satapathy",
+  "new_source_ids": [
+    "mining-directorate-revenue"
+  ],
+  "reused_source_ids": [
+    "mining-cag-dmf2026",
+    "macro-cag-fy2025",
+    "legacy-budget"
+  ],
+  "new_observations": 48,
+  "observation_ids": [
+    "mining-sfar-nonferrous-2023-24-actual",
+    "mining-sfar-nonferrous-2024-25-be",
+    "mining-sfar-nonferrous-2024-25-re",
+    "mining-sfar-nonferrous-2024-25-actual",
+    "mining-sfar-coal-2023-24-actual",
+    "mining-sfar-coal-2024-25-be",
+    "mining-sfar-coal-2024-25-re",
+    "mining-sfar-coal-2024-25-actual",
+    "mining-directorate-collected-2023-24",
+    "dmf-dhenkanal-collection-2024",
+    "dmf-dhenkanal-sanctioned-2024",
+    "dmf-dhenkanal-released-2024",
+    "dmf-dhenkanal-utilised-2024",
+    "dmf-dhenkanal-completed-2024",
+    "dmf-jajpur-collection-2024",
+    "dmf-jajpur-sanctioned-2024",
+    "dmf-jajpur-released-2024",
+    "dmf-jajpur-utilised-2024",
+    "dmf-jajpur-completed-2024",
+    "dmf-keonjhar-collection-2024",
+    "dmf-keonjhar-sanctioned-2024",
+    "dmf-keonjhar-released-2024",
+    "dmf-keonjhar-utilised-2024",
+    "dmf-keonjhar-completed-2024",
+    "dmf-mayurbhanj-collection-2024",
+    "dmf-mayurbhanj-sanctioned-2024",
+    "dmf-mayurbhanj-released-2024",
+    "dmf-mayurbhanj-utilised-2024",
+    "dmf-mayurbhanj-completed-2024",
+    "dmf-nabarangpur-collection-2024",
+    "dmf-nabarangpur-sanctioned-2024",
+    "dmf-nabarangpur-released-2024",
+    "dmf-nabarangpur-utilised-2024",
+    "dmf-nabarangpur-completed-2024",
+    "dmf-sundargarh-collection-2024",
+    "dmf-sundargarh-sanctioned-2024",
+    "dmf-sundargarh-released-2024",
+    "dmf-sundargarh-utilised-2024",
+    "dmf-sundargarh-completed-2024",
+    "dmf-collections-sample-2024",
+    "dmf-interest-sample-2024",
+    "dmf-released-sample-2024",
+    "dmf-completed-sample-2024",
+    "dmf-sanctioned-projects-sample-2024",
+    "dmf-keonjhar-nicu-picu-cost",
+    "dmf-deogan-hostels-cost",
+    "dmf-sundargarh-digital-medical-records-cost",
+    "dmf-vyasanagar-market-cafe-cost"
+  ],
+  "previous_observations": 906,
+  "new_research_entries": 2,
+  "source_captures": [
+    {
+      "source_id": "mining-cag-dmf2026",
+      "checked_at": "2026-10-02T19:41:47.932986+00:00",
+      "resource": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf",
+      "sha256": "e7af4a6bb071df183518d50d7794af2f1616f72227c918cae6cededb49154ac5",
+      "locator": "Printed pp.29–31, Tables5.1–5.2; §§6.6.1–6.6.6 and6.6.9; ChapterVII pp.77–81; selected §3.2.1 context.",
+      "scope": "Selected original evidence; no whole-report audit or independent human review."
+    },
+    {
+      "source_id": "macro-cag-fy2025",
+      "checked_at": "2026-10-02T19:41:47.932986+00:00",
+      "resource": "https://www.digitalreports.cag.gov.in/states/odisha/SFAR-Odisha-2024-25.pdf",
+      "sha256": "ebe26c618a18177b928136f06e584ece7516b804a320c41c24a0265d0c44d422",
+      "locator": "Original PDF p.35 / printed p.15, Table1.7, actuals and BE/RE columns.",
+      "scope": "Selected original evidence; no whole-report audit or independent human review."
+    },
+    {
+      "source_id": "mining-directorate-revenue",
+      "checked_at": "2026-10-02T19:41:47.932986+00:00",
+      "resource": "https://www.odishaminerals.gov.in/ResourceStatistics/MineralRevenueNew",
+      "sha256": "b49f2a87c889eff2216899afb8f9f264c9f4f9cba805cda97e394f7d84878c4b",
+      "locator": "Mineral Revenue, Figures in Crore Rupees, FY2023–2024 row",
+      "scope": "Selected original evidence; no whole-report audit or independent human review."
+    }
+  ],
+  "source_discrepancies": {
+    "utilisation_of_releases_percent": 76.6865870106187,
+    "utilisation_of_sanctions_percent": 48.18007095828051,
+    "completed_share_percent": 55.577860625179234,
+    "source_discrepancy": "§5.1 prose79.69%; Table5.1 total76.69%. Table matches raw-amount calculation; prose not silently corrected.",
+    "table5_2_unit": "Project counts despite printed rupee-crore heading; column labels and adjacent narrative confirm counts."
+  },
+  "completion_criteria_met": false,
+  "human_review_claimed": false,
+  "website_publication": false,
+  "local_odia_review": "pending",
+  "next_evidence": [
+    "Reconcile head-level finance accounts with Directorate collection series; retain0.73crore difference.",
+    "Read remaining relevant CAG collection/planning/fund-management/implementation chapter sections, with replies, before claiming full audit review.",
+    "Recover post-January2026 operating evidence for named cases; add positive/control cases without selecting only audit failures.",
+    "Seek published outcome data and affected-community testimony; no contact authorized or sent in this batch."
+  ],
+  "validation": {
+    "research_validators": "12 passed",
+    "scope_arithmetic": "passed: all906 earlier observations unchanged; all district financial and project totals reconcile",
+    "editorial_workbench": "passed",
+    "catalogue": "passed",
+    "bundle": "passed",
+    "authority_registers": "passed",
+    "diff": "passed",
+    "remote_ci": "pending"
+  },
+  "retrieval_notes": [
+    "CAG PDF failed web extraction; official curl download and pypdf text succeeded.",
+    "Rendered DMF PDF pages65–66 and SFAR PDF page35 inspected for table labels/units.",
+    "Bounded official-domain searches did not recover later matched operation evidence; search snippets not promoted to facts."
+  ]
+}

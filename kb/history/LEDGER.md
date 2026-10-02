@@ -808,3 +808,9 @@ The Founder authorized integrating the mining and manufacturing research. Rourke
 ## UTP-HIS-0199 · Counting work without inventing workers
 
 The Founder selected employment and supplier follow-ups. Unit working-day totals and local order disclosures strengthened the research, while current plant headcounts stayed unresolved. Orders, payments and jobs kept their distinct meanings. [Research checkpoint](../records/employment-suppliers-2026-10-02.json).
+
+## UTP-HIS-0200 · From money spent to services that work
+
+The Founder asked to trace mining revenues into communities. The evidence showed why a completed building and a working service need separate records. Research retained government replies, the audit’s own percentage discrepancy and the questions only later operation records and residents can answer.
+
+[Checkpoint](../records/mining-community-outcomes-2026-10-02.json). Research only; no human review or public story publication claimed.

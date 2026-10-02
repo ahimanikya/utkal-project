@@ -173,3 +173,7 @@ Historical Rourkela workforce and company-wide NALCO apprenticeship added with e
 ## Employment and supplier follow-up · 2 October 2026
 
 The Founder selected this follow-up before the previous retry date. Existing company workforce IDs were reused. New source-scoped supplier disclosures and refinery/smelter work volumes strengthen RES-052; they do not resolve current plant headcount. RSP social-account claims await underlying returns and community corroboration. [Evidence and next questions](../references/data/mining-programme.json). No public story publication is claimed.
+
+## Mining and community services · 2026-10-02
+
+DMF community-service research remains a draft. Source-reading and arithmetic checks do not approve a public allegation or establish current operation. Retain government replies, date limits, selection bias and the distinction between completion and outcomes.

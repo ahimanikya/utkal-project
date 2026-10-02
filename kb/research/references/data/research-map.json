@@ -18502,6 +18502,44 @@
         "mining-rsp-relocation2026"
       ],
       "added_at": "2026-10-02T19:07:56.044516+00:00"
+    },
+    {
+      "id": "sources/mining-directorate-revenue",
+      "title": "Odisha Directorate of Mines and Geology: mineral revenue collected",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-directorate-revenue.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-directorate-revenue"
+      ],
+      "added_at": "2026-10-02T19:41:47.932986+00:00"
+    },
+    {
+      "id": "economy/dmf-community-outcomes",
+      "title": "From mineral revenues to working community services",
+      "kind": "Research synthesis",
+      "layer": "research_concept",
+      "source_path": "economy/dmf-community-outcomes.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-cag-dmf2026",
+        "macro-cag-fy2025",
+        "mining-directorate-revenue"
+      ],
+      "added_at": "2026-10-02T19:41:47.932986+00:00"
     }
   ],
   "shared_publications": [
@@ -19677,14 +19715,19 @@
         "statistics/minerals-and-mining.md",
         "references/data/mining-programme.json",
         "evidence/f05.md",
-        "statistics/minerals-and-mining.md",
         "statistics/health.md",
-        "statistics/education.md"
+        "statistics/education.md",
+        "sources/mining-directorate-revenue.md",
+        "economy/dmf-community-outcomes.md",
+        "sources/mining-cag-dmf2026.md",
+        "sources/macro-cag-fy2025.md",
+        "statistics/public-finance-audit.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
-      "status_unchanged": "pending",
-      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+      "status_unchanged": "in_progress",
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
+      "next_evidence": "Reconcile exact receipt heads; finish remaining relevant CAG sections; recover post-January2026 operation records for the four cases and balanced community outcomes."
     },
     {
       "task_id": "RES-054",
@@ -19895,8 +19938,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1237,
-    "updated_at": "2026-10-02T19:07:56.044516+00:00",
+    "records_mapped": 1239,
+    "updated_at": "2026-10-02T19:41:47.932986+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20479,6 +20522,10 @@
     {
       "run_id": "2026-10-02-employment-suppliers",
       "scope": "Existing mining/steel/aluminium/supplier records extended; three source identities, nine observations. Reused existing NALCO workforce IDs; company family and uncorroborated social posts explicit."
+    },
+    {
+      "run_id": "2026-10-02-mining-community-outcomes",
+      "scope": "One source and one synthesis extend existing mining and CAG identities; six DMFs, four case bundles, no duplicate observation identities."
     }
   ]
 }

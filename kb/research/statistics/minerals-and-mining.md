@@ -34,3 +34,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Baphlimali returns · 2 October2026 UTC
 
 [Baphlimali’s mine-level return](../economy/bauxite-mine-identities.md) adds FY2024–25 output and DMF payment evidence. A mine’s payment is not district spending or a statewide total.
+
+## Mining and community services · 2026-10-02
+
+[Receipts, six DMFs and four case bundles](../economy/dmf-community-outcomes.md) adds actual/BE/RE scope, Tables5.1–5.2 and selected implementation findings. The existing48.18% uses sanctions;76.69% uses releases. Neither is a statewide benefit measure. All30DMF contributions and six-DMF collections including interest have different scopes.
