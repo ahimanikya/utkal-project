@@ -435,7 +435,3 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 2 October 2026 · District entrepreneurship research
 
 [Research receipt](records/district-business-opportunities-2026-10-02.json): established an opportunity research layer and portable business-book requirements. Thirty district coverage records, five hypotheses, first Koraput brief; no completed feasibility plans or website release.
-
-## 2 October 2026 · District entrepreneurship research
-
-[Research receipt](records/district-business-opportunities-2026-10-02.json): established an opportunity research layer and portable business-book requirements. Thirty district coverage records, five hypotheses, first Koraput brief; no completed feasibility plans or website release.
