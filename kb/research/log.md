@@ -418,3 +418,7 @@ RES-052: four historical Rourkela employment observations and one NALCO annual a
 RES-053: six district tables, four project cases and 56 new observations from the existing CAG source. Source arithmetic/scope inconsistencies retained; source dashes remain unknown. Task incomplete; next receipts and remaining audit sections. No website release.
 
 The destination integration review’s hold on IMFA’s combined ore total was carried back into the source KB with its existing provenance and unchanged value.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+RES-053 receipt checkpoint: 23 observations, two comparisons, six-year actual series and latest minor heads. Conflicting OMC dividend held. Coal, forecasts and DMF remain distinct. No website release.

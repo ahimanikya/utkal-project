@@ -423,3 +423,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 2 October 2026 · DMF funds and functioning services
 
 [Research receipt](records/mining-dmf-2026-10-02.json): Six district fund tables and four project cases distinguish spending, completion, operation and funding eligibility. CAG-reproduced government responses and source conflicts are preserved. RES-053 continues with receipts and remaining audit sections. No website release.
+
+## 2 October 2026 · Mining receipts and public finances
+
+[Research receipt](records/mining-receipts-2026-10-02.json): Six annual actual observations and minor heads distinguish nominal growth, recent decline, budgets, coal and dividends. Source conflict held; RES-053 continues with detailed subheads and remaining DMF audit sections. No website release.

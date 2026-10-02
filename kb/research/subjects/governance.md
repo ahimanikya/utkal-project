@@ -52,3 +52,5 @@ Subject membership is editorial classification. It does not establish historical
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
 
 [Mining-area funds and services](../economy/dmf-from-funds-to-services.md) — dated project evidence connects finance, places and everyday services without equating spending with outcomes.
+
+[Mining receipts and public finances](../economy/mining-receipts.md) — six annual actual observations, budget distinctions and the separate question of local services.

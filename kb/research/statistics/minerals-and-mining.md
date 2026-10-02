@@ -38,3 +38,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Mining-area services: follow the project
 
 [DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Annual public receipts · 2 October 2026
+
+[Mining receipts over five elapsed years](../economy/mining-receipts.md) adds an audited actual series, recent decline and separate budget/coal/dividend categories. It provides context for DMF services without claiming that annual state receipts equal cumulative DMF funds or caused specific outcomes.

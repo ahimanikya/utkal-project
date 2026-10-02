@@ -18468,6 +18468,56 @@
         "mining-cag-dmf2026"
       ],
       "added_at": "2026-10-02T18:51:18.740435+00:00"
+    },
+    {
+      "id": "sources/mining-cag-fy2024",
+      "title": "Odisha State Finances Audit Report 2023–24: non-tax receipts",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-cag-fy2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-cag-fy2024"
+      ],
+      "added_at": "2026-10-02T19:42:23.004076+00:00"
+    },
+    {
+      "id": "sources/mining-finance-accounts2025",
+      "title": "Odisha Finance Accounts 2024–25 Volume II: mining receipt heads",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-finance-accounts2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-finance-accounts2025"
+      ],
+      "added_at": "2026-10-02T19:42:23.004076+00:00"
+    },
+    {
+      "id": "economy/mining-receipts",
+      "title": "Mining receipts: five years of growth, with volatility visible",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/mining-receipts.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-cag-fy2024",
+        "macro-cag-fy2025",
+        "mining-finance-accounts2025"
+      ],
+      "added_at": "2026-10-02T19:42:23.004076+00:00"
     }
   ],
   "shared_publications": [
@@ -19644,7 +19694,11 @@
         "statistics/education.md",
         "economy/dmf-from-funds-to-services.md",
         "references/data/mining-dmf.json",
-        "sources/mining-cag-dmf2026.md"
+        "sources/mining-cag-dmf2026.md",
+        "sources/mining-cag-fy2024.md",
+        "sources/mining-finance-accounts2025.md",
+        "economy/mining-receipts.md",
+        "references/data/mining-receipts.json"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
@@ -19860,8 +19914,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1235,
-    "updated_at": "2026-10-02T18:51:18.740435+00:00",
+    "records_mapped": 1238,
+    "updated_at": "2026-10-02T19:42:23.004076+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20445,6 +20499,11 @@
       "run_id": "2026-10-02-mining-dmf",
       "at": "2026-10-02T18:51:18.740435+00:00",
       "scope": "One synthesis record; one existing CAG publication reused for district and project evidence. No new independent source claimed."
+    },
+    {
+      "run_id": "2026-10-02-mining-receipts",
+      "at": "2026-10-02T19:42:23.004076+00:00",
+      "scope": "Two new primary-document identities and one synthesis. Existing FY2025 audit reused; accounts and audit share underlying data."
     }
   ]
 }

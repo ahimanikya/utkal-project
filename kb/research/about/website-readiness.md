@@ -173,3 +173,7 @@ Historical Rourkela workforce and company-wide NALCO apprenticeship added with e
 ## DMF project checkpoint · 2 October 2026 UTC
 
 DMF synthesis draft retains district sample scope, dated service observations and government responses. Current operation, human review and publication remain unverified.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+New mining-receipts story is source-checked draft; positive five-year growth and latest decline remain together. Human editorial review and website publication not established.

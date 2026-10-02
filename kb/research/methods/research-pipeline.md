@@ -235,3 +235,7 @@ RES-052 checkpoint deferred to9October. Seek original current unit workforce ret
 ## DMF project checkpoint · 2 October 2026 UTC
 
 Continue RES-053 with original actual mining-receipt accounts and remaining CAG Chapters III/V/VI/VII, reusing the downloaded163-page PDF. Four audit project cases and six district tables are already saved; do not repeat them. Seek district project IDs and dated restoration/handover evidence. Source percentage and eight-hostel cost discrepancies retry9October; they do not block independent receipt research.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+Reuse mining-receipts.json and the saved Finance Accounts. Reconcile detailed receipt subheads if available; otherwise continue remaining CAG DMF Chapters III/V/VI/VII and original district handover/current-service records. Do not repeat the six-year aggregate series or four existing project cases.

@@ -402,3 +402,7 @@ Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope r
 ## DMF project checkpoint · 2 October 2026 UTC
 
 Actual state mining receipts and remaining relevant audit chapters/appendices still need reconciliation. Current project operations and original response/handover records unknown. Continue independent actual-receipt research; two source discrepancies retry9October.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and current service/handover records remain incomplete. OMC dividend source discrepancy retained for9October retry.

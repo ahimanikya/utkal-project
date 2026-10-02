@@ -4589,6 +4589,16 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/mining-receipts",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6782,6 +6792,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects mining-area project funding to sector service questions; does not establish a causal effect on statewide outcomes."
+    },
+    {
+      "from": "economy/mining-receipts",
+      "to": "economy/dmf-from-funds-to-services",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects state receipt history to mining-area service evidence; the reading relationship does not establish earmarking or causation."
     }
   ],
   "relationship_types": {

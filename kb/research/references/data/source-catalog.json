@@ -1208,7 +1208,16 @@
     "publisher": "Comptroller and Auditor General of India",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh full HTML reading of selected capital expenditure, liabilities, deficit and audit-adjustment paragraphs. Not all linked chart data extracted."
+    "capture_note": "Fresh full HTML reading of selected capital expenditure, liabilities, deficit and audit-adjustment paragraphs. Not all linked chart data extracted.",
+    "scope_extensions": [
+      {
+        "checked_on": "2026-10-02",
+        "resource": "https://cag.gov.in/uploads/download_audit_report/2025/SFAR-2024-25-Report-No.-3-of-2026-069cbae94884dd2.54030841.pdf",
+        "capture_sha256": "ebe26c618a18177b928136f06e584ece7516b804a320c41c24a0265d0c44d422",
+        "scope": "Printed pp.15–17 / PDF35–37, Table1.7 and Charts1.12–1.13; OMC discrepancy versus printed pp.32–33 / PDF52–53. Selected pages, not whole report.",
+        "independent_corroboration": false
+      }
+    ]
   },
   "macro-oes-appendix2026": {
     "id": "macro-oes-appendix2026",
@@ -6345,5 +6354,29 @@
     "capture_note": "Original two-page parliamentary answer; table visually checked. Historical manpower column separate from contract workers; no resident, unique annual-job or current-employment claim. 2025 upload directory is not publication date.",
     "capture_method": "original_pdf_text_and_visual_check",
     "capture_sha256": "6f2d881f7af18836a6240b2fd72a4e1a63fa27644f3d17e8a3cfe36298f2e52d"
+  },
+  "mining-cag-fy2024": {
+    "id": "mining-cag-fy2024",
+    "title": "Odisha State Finances Audit Report 2023–24: non-tax receipts",
+    "resource": "https://cag.gov.in/webroot/uploads/download_audit_report/2024/7.1-Chapter-2_-Odisha-SFAR-067ee25805077d3.32203862.pdf",
+    "publisher": "Comptroller and Auditor General of India",
+    "source_kind": "Primary audited government accounts",
+    "accessed_on": "2026-10-02",
+    "publication_date": null,
+    "publication_date_note": "Exact publication day not established; reporting period retained separately. URL directory and search crawl dates are not publication dates.",
+    "capture_note": "Chapter2, printed p.24 / PDF8, Table2.5: annual actuals FY2019–20 to2023–24.",
+    "capture_sha256": "b77681fed351b198d02040afd2a5b32545aa6552ce1b74ad623ad7a784334912"
+  },
+  "mining-finance-accounts2025": {
+    "id": "mining-finance-accounts2025",
+    "title": "Odisha Finance Accounts 2024–25 Volume II: mining receipt heads",
+    "resource": "https://cag.gov.in/uploads/state_accounts_report/account-report-Finance-Accounts-Volume-II-06937f8dc9af9d3-86399595.pdf",
+    "publisher": "Comptroller and Auditor General of India",
+    "source_kind": "Primary audited government accounts",
+    "accessed_on": "2026-10-02",
+    "publication_date": null,
+    "publication_date_note": "Exact publication day not established; reporting period retained separately. URL directory and search crawl dates are not publication dates.",
+    "capture_note": "VolumeII, Statement14, printed pp.108–109 / PDF38–39, heads0803 and0853; p.125 / PDF55 explanations. Cover confirms Odisha. Selected receipt pages, not all968 pages.",
+    "capture_sha256": "60c950200d8a33cf988668c3b6668e29deb7584ff7809ae3a2fd6bbd891fc8ca"
   }
 }

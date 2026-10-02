@@ -52,3 +52,7 @@ Next: original actual mining-receipt accounts, the remaining relevant audit chap
 [Mining overview](mining.md) · [Mining statistics](../statistics/minerals-and-mining.md) · [Health](../statistics/health.md) · [Education](../statistics/education.md). These reading links explain related questions, not a causal relationship between DMF spending and statewide outcomes.
 
 Connects mining-area project funding to sector service questions; does not establish a causal effect on statewide outcomes.
+
+## Annual public receipts · 2 October 2026
+
+[Mining receipts over five elapsed years](mining-receipts.md) adds an audited actual series, recent decline and separate budget/coal/dividend categories. It provides context for DMF services without claiming that annual state receipts equal cumulative DMF funds or caused specific outcomes.

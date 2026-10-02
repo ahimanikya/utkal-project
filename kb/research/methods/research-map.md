@@ -377,3 +377,7 @@ One original parliamentary answer extends existing Rourkela record; NALCO appren
 ## DMF project checkpoint · 2 October 2026 UTC
 
 Existing CAG source expanded through selected subsections. One new synthesis page, no duplicate primary-source identity or claim of independent corroboration.
+
+## Mining receipts checkpoint · 2 October 2026 UTC
+
+Two original-document identities and one synthesis added. Audit summaries and Finance Accounts overlap; they do not provide independent measurements.
