@@ -136,14 +136,15 @@
   "separate_decisions": [
     {
       "title": "Search indexing",
-      "next_action": "Correction: the supplied Search Console screenshot shows Blogspot, not Utkal. Utkal sitemap submission remains unconfirmed. Select the Utkal property and submit its sitemap, then review processing and indexing under WORK-139. The live eleven-page scope is unchanged.",
+      "next_action": "Latest screenshot confirms Utkal sitemap submission, but Google reports Could not fetch. Direct HTTPS response is 200 with valid XML, eleven approved URLs and allowed crawling. Inspect the detailed Google error under WORK-139; indexing remains unverified.",
       "evidence": [
         "records/first-search-launch-review.json",
         "reference/first-search-launch.md",
         "records/first-search-launch-publication.json",
         "records/search-console-setup.json",
         "records/search-console-verification-file.json",
-        "records/search-console-submission.json"
+        "records/search-console-submission.json",
+        "records/search-console-fetch-diagnosis.json"
       ]
     },
     {
@@ -169,7 +170,7 @@
     "indexable_pages": 11,
     "noindex_pages": 111
   },
-  "updated_at": "2026-10-02T03:00:45.576278+00:00",
+  "updated_at": "2026-10-02T03:03:10.136358+00:00",
   "publication_followups": [
     {
       "release": "UTP-REL-035",

@@ -4064,9 +4064,9 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-151",
-      "next_action": "Select https://utkalproject.org/ in the top-left property selector, then inspect or submit sitemap.xml for that property.",
+      "next_action": "Open the submitted sitemap row and inspect the detailed fetch error. If needed use URL Inspection live test for the exact sitemap URL, following Google guidance.",
       "blockers": [
-        "Assistant browser policy verification remains unavailable. Screenshot shows Blogspot; Utkal sitemap submission and indexing remain unconfirmed."
+        "Search Console reports Could not fetch for Utkal sitemap; direct HTTPS/XML/robots checks pass. Google-side details require Founder screenshot or restored supported browser access."
       ],
       "refs": [
         "UTP-DEC-151",
@@ -4077,7 +4077,8 @@
       "evidence": [
         "records/search-console-setup.json",
         "records/search-console-verification-file.json",
-        "records/search-console-submission.json"
+        "records/search-console-submission.json",
+        "records/search-console-fetch-diagnosis.json"
       ]
     }
   ],

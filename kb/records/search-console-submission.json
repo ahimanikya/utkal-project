@@ -1,7 +1,7 @@
 {
   "recorded_at": "2026-10-02T02:59:07.163891+00:00",
   "occurred_at": null,
-  "status": "utkal_submission_unconfirmed",
+  "status": "utkal_submission_confirmed_fetch_failed",
   "site": "https://utkalproject.org/",
   "sitemap": "https://utkalproject.org/sitemap.xml",
   "source": {
@@ -11,7 +11,7 @@
   },
   "scope": "Founder relayed Google Search Console success after the verification-file deployment and sitemap-submission handoff.",
   "ownership_verification": "Founder previously replied Done to the Verify instruction; success dialog not independently inspected.",
-  "submission": "Earlier Founder-relayed success message preserved above; property attribution was unverified and is superseded by this correction.",
+  "submission": "Latest Founder screenshot explicitly shows https://utkalproject.org/ and a submitted /sitemap.xml row. Submission is confirmed; Google reports Could not fetch.",
   "indexing": "Not yet inspected; submission success is not evidence that the eleven URLs have been indexed.",
   "automation": "No assistant monitoring or scheduled task created.",
   "evidence": [
@@ -27,5 +27,6 @@
     "discovered_pages": 0,
     "conclusion": "The screenshot concerns Blogspot. The prior success message did not identify a property, so successful Utkal sitemap submission is not established.",
     "next_action": "Select https://utkalproject.org/ in the top-left property selector, then inspect or submit sitemap.xml for that property."
-  }
+  },
+  "latest_evidence": "records/search-console-fetch-diagnosis.json"
 }
