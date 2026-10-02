@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0a7f15ac0b0489029da86d7dd8f03ccbd0f8a845e1baa8fd0cb7ca8f5c735891`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `52666a423fab8a141159c3d04af59cfd5c5b6b9ab6548d12dfa58a365351ecb7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -87,7 +87,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-072 · Things-to-do planning collection | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
 | UTP-WORK-073 · Stay-area planning collection | completed | published | Ahimanikya Satapathy | Planning hub delivery is published under UTP-REL-021. Continue source/local-condition and specialist review in the underlying editorial work; no duplicate hub release is pending. | — |
 | UTP-WORK-074 · Personal preparation checklist and exports | completed | published | Ahimanikya Satapathy | Delivered in approved coastal preview UTP-REL-006. Native PDF remains UTP-WORK-080; editorial and local-service checks remain UTP-WORK-097. | — |
-| UTP-WORK-075 · Broader inner-page visual review and refinement | in_progress | draft | Ahimanikya Satapathy | Six cultural pages reviewed at three widths, with four additional maker-page mobile checks; UTP-REL-048 is published. Continue remaining visual scope and physical-device/screen-reader review. | — |
+| UTP-WORK-075 · Broader inner-page visual review and refinement | in_progress | draft | Ahimanikya Satapathy | All 122 current routes now have 320/768/1920 overflow and structure checks under WORK-143, plus 31 scrolling-table keyboard checks. Continue deeper visual review, remaining keyboard journeys, physical devices and screen readers; do not repeat this bounded browser coverage as unfinished work. | — |
 | UTP-WORK-076 · Media and meaning design-system foundation | awaiting_review | reviewed | Ahimanikya Satapathy | Review the guidance and gallery specimen; apply the foundation through the inner-page refinement and future entity-specific media briefs. Assess whether each destination story gives a distinctive reason to visit, a memorable detail worth sharing and a useful planning step. | — |
 | UTP-WORK-077 · Three storytelling reference pages and design-system rc.3 | awaiting_review | reviewed | Ahimanikya Satapathy | Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. | — |
 | UTP-WORK-078 · Compare three destination page design directions | completed | approved | Ahimanikya Satapathy | Direction A selected. Review its local Chilika implementation under WORK-077 before wider adoption. | — |
@@ -155,7 +155,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-140 · Six coastal guides: arrival, access, food and stays | completed | published | Ahimanikya Satapathy | Delivery complete. Retain local operating and visual review follow-ups in the visitor review queue; no further publication of this batch is pending. | — |
 | UTP-WORK-141 · Coastal visitor flow, keyboard and image polish | completed | published | Ahimanikya Satapathy | Approved implementation published and six live guides verified. Wider device, screen-reader and local-arrangement reviews remain scoped follow-ups. | — |
 | UTP-WORK-142 · Cultural reading-flow review and maker cover refinement | completed | published | Ahimanikya Satapathy | Approved implementation published and ten live pages verified. Wider visual, physical-device, screen-reader and specialist reviews remain scoped follow-ups. | — |
-| UTP-WORK-143 · Consolidate research and complete the site-wide browser review programme | in_progress | applied | Ahimanikya Satapathy | Complete validation, merge and publish under existing batch approval; preserve remaining human and Google processing follow-ups. | — |
+| UTP-WORK-143 · Consolidate research and complete the site-wide browser review programme | completed | published | Ahimanikya Satapathy | Batch merged and published; 500 bounded review/integration items recorded. Continue newer research PR 60 and physical-device, screen-reader, specialist and Search Console follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -554,6 +554,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-046 · Six coastal practical visitor guides published | published | https://utkalproject.org/ | UTP-DEC-154 |
 | UTP-REL-047 · Coastal visitor-flow refinements published | published | https://utkalproject.org/ | UTP-DEC-156 |
 | UTP-REL-048 · Cultural reading-flow refinements published | published | https://utkalproject.org/ | UTP-DEC-158 |
+| UTP-REL-049 · Research integration and site-wide quality programme published | published | https://utkalproject.org/ | UTP-DEC-159 |
 
 ## Sources and assets
 
@@ -591,7 +592,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-175 | 2026-10-02T03:11:47.032560+00:00 | Founder screenshot confirms Google LIVE TEST can access the exact Utkal sitemap URL. Earlier fetch failure remains historical evidence; successful sitemap processing and editorial-page indexing are not yet established. | Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled. |
 | UTP-EVT-176 | 2026-10-02T04:31:29.481419+00:00 | Founder reports persistent sitemap failure. All four DNS-published addresses return identical valid sitemap and crawl-allowing robots responses. Recorded homepage indexed screenshot with historical robots warning. Cached rules are a hypothesis, not an established cause; no speculative code or DNS changes applied. | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
 | UTP-EVT-177 | 2026-10-02T04:58:15.128694+00:00 | Prepared 24 practical choices within six existing visit notebooks, with scoped official-source leads and portable-book links. Checks pending; no local verification or publication claimed. | Validate candidate and submit for Founder review. |
 | UTP-EVT-178 | 2026-10-02T05:01:57.235311+00:00 | 382 site tests, 75 coastal tests and 488 page-acceptance checks passed. Fixed a held Konark stay link; six practical guides and safe reading links survive portable export. 122-page edition and 11-route search scope preserved. Browser visual and local operating checks remain open. | Submit candidate PR for Founder review. |
@@ -601,6 +601,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-182 | 2026-10-02T14:09:39.538267+00:00 | Six cultural pages reviewed at 390/1440/1920 widths. Maker covers separate subject and story subtitle, preserve full images and gain category trails. Four other maker pages pass mobile smoke checks. 459 tests and 488 page checks pass. | Present candidate PR for Founder review. Wider visual and human review remain open. |
 | UTP-EVT-183 | 2026-10-02T14:33:37.057142+00:00 | Founder approved PR #59. Exact reviewed revision merged and deployed successfully. Live HTTP checks confirm ten cultural pages, new maker headings/subtitles and category trails, deployed styles, eleven sitemap routes and ownership response. | Continue separately scoped wider visual and human review; Search Console processing remains open. |
 | UTP-EVT-184 | 2026-10-02T14:53:29.177795+00:00 | Founder authorized autonomous completion. Integrated 46 research commits locally while preserving later website and recovered-source records. Completed 366 responsive and 122 page-structure browser cases. Twelve integration/delivery items are tracked separately from the checks. | Finish validation and publication. |
+| UTP-EVT-185 | 2026-10-02T15:09:51.214433+00:00 | Authorized batch delivered through PR 61 and successful Pages deployment. Recorded 488 browser review cases and twelve integration/delivery items separately. Preserved source recoveries, integrated 206 additional research entries and reconciled seven redundant research PRs. All 125 live file checks and responsive image checks pass. | Continue the newer research stack and remaining human/source/Google follow-ups. |
 
 ## Deferred extensions
 

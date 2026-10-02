@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T14:53:29.177795+00:00",
+  "recorded_at": "2026-10-02T15:09:51.214433+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2210,7 +2210,7 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-051",
-      "next_action": "Six cultural pages reviewed at three widths, with four additional maker-page mobile checks; UTP-REL-048 is published. Continue remaining visual scope and physical-device/screen-reader review.",
+      "next_action": "All 122 current routes now have 320/768/1920 overflow and structure checks under WORK-143, plus 31 scrolling-table keyboard checks. Continue deeper visual review, remaining keyboard journeys, physical devices and screen readers; do not repeat this bounded browser coverage as unfinished work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-051",
@@ -2232,7 +2232,8 @@
         "research/product/visitor-readiness-2026-10-01.md",
         "records/visitor-experience-review.json",
         "records/visitor-flow-polish-review.json",
-        "records/culture-flow-review.json"
+        "records/culture-flow-review.json",
+        "records/autonomous-site-quality-publication.json"
       ]
     },
     {
@@ -4167,24 +4168,26 @@
       "id": "UTP-WORK-143",
       "title": "Consolidate research and complete the site-wide browser review programme",
       "category": "website_quality_and_research_integration",
-      "status": "in_progress",
-      "readiness": "applied",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-159",
-      "next_action": "Complete validation, merge and publish under existing batch approval; preserve remaining human and Google processing follow-ups.",
+      "next_action": "Batch merged and published; 500 bounded review/integration items recorded. Continue newer research PR 60 and physical-device, screen-reader, specialist and Search Console follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-159",
         "UTP-WORK-075",
         "UTP-WORK-142",
-        "UTP-REV-121"
+        "UTP-REV-121",
+        "UTP-REL-049"
       ],
       "evidence": [
-        "records/autonomous-site-quality.json"
+        "records/autonomous-site-quality.json",
+        "records/autonomous-site-quality-publication.json"
       ]
     }
   ],
@@ -11099,6 +11102,22 @@
         "records/culture-flow-publication.json"
       ],
       "note": "Approved PR #59 deployed. Ten live pages, maker styles, category trails, eleven sitemap routes and ownership response verified. Wider human review and Google processing remain open."
+    },
+    {
+      "id": "UTP-REL-049",
+      "title": "Research integration and site-wide quality programme published",
+      "status": "published",
+      "authorization": "UTP-DEC-159",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-159",
+        "UTP-WORK-143",
+        "UTP-REV-121"
+      ],
+      "evidence": [
+        "records/autonomous-site-quality-publication.json"
+      ],
+      "note": "PR 61 merged and Pages deployment succeeded. 125 live files and all referenced responsive derivatives verified; research qualifications and eleven-route search scope retained."
     }
   ],
   "sources": [

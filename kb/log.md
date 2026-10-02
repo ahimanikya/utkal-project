@@ -391,3 +391,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2 October 2026 · Autonomous integration and wider browser review
 
 [Batch record](records/autonomous-site-quality.json): Founder authorized implementation through publication without repeated routine approvals. Forty-six accumulated research commits are integrated with existing source-recovery evidence preserved. The 500-item programme separates 488 route/viewport and structure checks from twelve integration/delivery items. No new research claim or specialist approval is inferred from passing software checks. Publication validation is in progress.
+
+## 2 October 2026 · Integration and quality programme published
+
+[UTP-REL-049](records/autonomous-site-quality-publication.json) records the approved merge, successful deployment, 125 live-file checks and all referenced responsive-image checks. The 500-item register is complete as 488 review cases and twelve integration/delivery items. Research is integrated, not automatically promoted into new public stories. Source, language, device and Google processing limitations remain explicit.
