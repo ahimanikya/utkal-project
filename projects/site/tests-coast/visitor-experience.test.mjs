@@ -53,3 +53,20 @@ test('six coastal practical guides and their reading links survive edition pruni
   }
  }
 });
+
+test('guide contents lead directly to one notebook while optional detail stays in the page',()=>{
+ const notes=JSON.parse(readFileSync('../../kb/research/destinations/visit-notebooks.json','utf8')).notebooks;
+ for(const note of notes){
+  const html=read(note.route);
+  assert.equal((html.match(/id="visit-notebook"/g)||[]).length,1,note.route);
+  const panel=html.match(/<details[^>]*id="visit-details"[^>]*>([\s\S]*?)<\/details>/);
+  assert.ok(panel,note.route);assert.doesNotMatch(panel[0].split('>')[0],/\sopen(?:\s|=|$)/);
+  for(const stop of note.planning_stops||[])assert.ok(panel[1].includes(stop.heading),note.route+' '+stop.heading);
+  if(note.practical_choices){
+   for(const pattern of [/<nav[^>]*story-contents-desktop[^>]*>([\s\S]*?)<\/nav>/,/<details[^>]*story-contents-mobile[^>]*>([\s\S]*?)<\/details>/]){
+    const contents=html.match(pattern);assert.ok(contents,note.route);assert.ok(contents[1].includes('href="#visit-notebook"'),note.route);
+   }
+   assert.ok(html.indexOf('id="practical-choices"')<html.indexOf('id="visit-details"'),note.route);
+  }
+ }
+});

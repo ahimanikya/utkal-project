@@ -19,7 +19,7 @@ const chapterId=story.voice?'poems-songs':'history';
 ---
 <div class="utk-magazine">
   <MagazineCover title={layout.title} odia={layout.odia} eyebrow={layout.eyebrow} deck={layout.deck} photo={story.image} caption={story.image.short_caption||story.image.caption} saveId={d.id} startHref={'#'+chapterId} startLabel="Read the story" footline={layout.footline}/>
-  <MagazineContents links={[{href:"#"+chapterId,label:"The story"},{href:"#things-to-do",label:layout.choicesLabel},...(story.history?[{href:"#poems-songs",label:"Culture & stories"}]:[]),{href:"#food",label:"At the table"},{href:"#plan-visit",label:"Plan a visit"}]}/>
+  <MagazineContents links={[{href:"#"+chapterId,label:"The story"},{href:"#things-to-do",label:layout.choicesLabel},...(story.history?[{href:"#poems-songs",label:"Culture & stories"}]:[]),{href:"#food",label:"At the table"},{href:"#plan-visit",label:"Plan a visit"},{href:"#visit-notebook",label:"Visit notebook"}]}/>
   <article class="mag-content">
     <section class:list={['mag-chapter mag-story',{'mag-story--history':!!story.history}]} id={chapterId} aria-labelledby="mag-story-title" data-source-ids={(story.voice?.sources||story.history.sources).join(' ')}>
       <div class="mag-chapter-label" aria-hidden="true"><span>01</span><p class="eyebrow">{layout.storyKicker}</p></div>
@@ -56,6 +56,7 @@ const chapterId=story.voice?'poems-songs':'history';
         <section id="stay"><h3>Stay</h3><div><p>{d.stay_note}</p><details class="mag-disclosure"><summary>Explore the stay areas</summary>{d.bases.map(item=><article id={item.id.replaceAll(':','-')} data-source-ids={item.sources.join(' ')}><h4>{item.title}</h4><p>{item.text}</p><a href={allowsPage(item.detail_href)?item.detail_href:'/visit/stays/puri-coast/'}>Explore this stay area ↗</a><SaveJourney id={item.id} quiet /></article>)}</details></div></section>
       </div>
     </section>
+   <VisitNotebook/>
    <VisitReadiness/>
     <div class="mag-further">
       <details class="mag-disclosure" id="expectations"><summary>Good to know before you go</summary><h3>{d.expectations.heading}</h3><dl>{[['A good fit for',d.expectations.strength],['Plan around',d.expectations.constraint],['Do',d.expectations.do],['Avoid',d.expectations.avoid]].map(([title,text])=><div><dt>{title}</dt><dd>{text}</dd></div>)}</dl><h3>{d.planning.heading}</h3><p>{d.planning.text}</p></details>
@@ -63,7 +64,6 @@ const chapterId=story.voice?'poems-songs':'history';
       {(!isCoastalEdition||entry.slug==='chilika')&&<details class="mag-disclosure"><summary>Take a photographic journey around {layout.title}</summary><PhotoJourney destination={d} story={story}/></details>}
       <details class="mag-disclosure"><summary>Keep reading · places, language and literature</summary><CultureConnections path={'/knowledge/'+entry.slug+'/'} /><div class="mag-reading-links">{d.related.filter(item=>allowsPage(item.href)).map(item=><div><h3><a href={item.href}>{item.title} →</a></h3><p>{item.text}</p></div>)}</div></details>
     </div>
-    <VisitNotebook/>
     {entry.slug==='konark'&&<CollectionOnward path="/knowledge/konark/"/>}
     <StorySources story={story} destination={d} sources={sources} evidenceUses={evidenceUses}/>
     <p class="mag-status">Editorial draft · awaiting Founder review.</p>

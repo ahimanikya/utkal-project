@@ -1,0 +1,157 @@
+{
+  "recorded_at": "2026-10-02T05:53:53.655471+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "human_owner": "Ahimanikya Satapathy",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "authorization": "UTP-DEC-155",
+  "authorization_quote": "Go ahead",
+  "baseline_release": "UTP-REL-046",
+  "baseline_commit": "fbf95f5",
+  "scope": {
+    "responsive_routes": [
+      "/knowledge/chilika/",
+      "/knowledge/konark/",
+      "/destinations/bhubaneswar/",
+      "/destinations/puri/",
+      "/visit/places/dhauli/",
+      "/visit/places/raghurajpur/"
+    ],
+    "shared_notebook_smoke_routes": [
+      "/food/puri-coast/",
+      "/visit/stays/puri-coast/"
+    ],
+    "public_editorial_pages": 122,
+    "indexable_pages": 11,
+    "new_pages": 0
+  },
+  "changes": [
+    "Short notebook opening, practical choices first, longer planning stops in a native disclosure; all data remains in the page and portable books.",
+    "Direct notebook contents links and one current-arrangements block within the planning section.",
+    "Mobile contents preserve a focusable fragment target and realign/refocus after the menu closes, including repeated selection of the same fragment.",
+    "Uncropped hero uses the source aspect ratio as a pre-load fallback.",
+    "Design-system README records composition, real-browser keyboard and uncropped-image lessons. Package version unchanged.",
+    "Previous publication record gains an additive counts summary from its existing scope, fixing a backlog-consistency test without altering historical evidence."
+  ],
+  "notebook_visible_word_comparison": [
+    {
+      "route": "/knowledge/chilika/",
+      "before_words": 154,
+      "after_words": 120
+    },
+    {
+      "route": "/knowledge/konark/",
+      "before_words": 311,
+      "after_words": 120
+    },
+    {
+      "route": "/destinations/bhubaneswar/",
+      "before_words": 300,
+      "after_words": 121
+    },
+    {
+      "route": "/destinations/puri/",
+      "before_words": 481,
+      "after_words": 119
+    },
+    {
+      "route": "/visit/places/dhauli/",
+      "before_words": 326,
+      "after_words": 120
+    },
+    {
+      "route": "/visit/places/raghurajpur/",
+      "before_words": 352,
+      "after_words": 120
+    }
+  ],
+  "checks": {
+    "browser": "Codex In-app Browser; access restored for public and localhost pages in this session",
+    "responsive_cases": 18,
+    "actual_widths": [
+      390,
+      1440,
+      1920
+    ],
+    "horizontal_overflow_cases": 0,
+    "h1_and_notebook": "one each in every responsive case",
+    "media": "After scrolling eight notebook pages at 390 CSS pixels, all rendered main-content images loaded and retained alt text and figure captions. Closed Chilika photo-journey images remain intentionally unloaded; no broken-image inference made.",
+    "keyboard": "Fresh and repeated notebook links land on its h2 at 24px from viewport top with visible focus. Tab reaches the practical summary, Enter expands it, Escape returns to contents summary.",
+    "journey": "On isolated port 4352: Explore search → Chilika → save → My journey → assign Day 1 → add Odia note → add Puri using place suggestions → assign Day 2 → reload. Both days and the note persist.",
+    "downloads": [
+      {
+        "filename": "Coast-review-test-journey-book-2026-10-02.html",
+        "bytes": 19255,
+        "sha256": "df9697a3d9f57080cf3416786f53d83eba83b8f2bf35339c8420df8fbabe3c94",
+        "odia_note_preserved": true,
+        "two_days": true,
+        "two_places": true,
+        "embedded_photos": 0,
+        "practical_notes": true,
+        "source_links": true
+      },
+      {
+        "filename": "Coast-review-test-journey-itinerary-2026-10-02.txt",
+        "bytes": 12525,
+        "sha256": "e9205e4fe545e35947d89b4936c083e7234ec61cf83f2ff46c2e2d0c728939d6",
+        "odia_note_preserved": true,
+        "two_days": true,
+        "two_places": true,
+        "embedded_photos": 0,
+        "practical_notes": true,
+        "source_links": true
+      },
+      {
+        "filename": "Coast-review-test-journey-photo-book-2026-10-02.html",
+        "bytes": 267261,
+        "sha256": "a0df05be2c8b49d6bfd62627df7c85954fba155def19d6c7247b2ee748a949cc",
+        "odia_note_preserved": true,
+        "two_days": true,
+        "two_places": true,
+        "embedded_photos": 2,
+        "practical_notes": true,
+        "source_links": true
+      }
+    ],
+    "site_tests": {
+      "passed": 383,
+      "failed": 0
+    },
+    "coastal_tests": {
+      "passed": 76,
+      "failed": 0
+    },
+    "page_acceptance": {
+      "passed": 488,
+      "total": 488
+    },
+    "publication_build": "122 editorial pages; eleven indexable; 111 noindex; ownership file retained",
+    "launch_readiness": "eleven sitemap URLs and fourteen contrast pairs pass",
+    "search_shortlist": "eleven pages pass"
+  },
+  "evidence": [
+    "records/evidence/visitor-flow-polish/before-responsive.json",
+    "records/evidence/visitor-flow-polish/final-responsive.json",
+    "records/evidence/visitor-flow-polish/keyboard-final.json",
+    "records/evidence/visitor-flow-polish/media-after.json",
+    "records/evidence/visitor-flow-polish/downloads.json",
+    "records/evidence/visitor-flow-polish/before-puri-notebook-wide.jpg",
+    "records/evidence/visitor-flow-polish/after-puri-notebook-wide.jpg",
+    "records/evidence/visitor-flow-polish/after-chilika-notebook-mobile.jpg",
+    "records/evidence/visitor-flow-polish/journey-after.txt"
+  ],
+  "limitations": [
+    "Browser checks use emulated viewport sizes, not physical devices or a screen reader. No new native PDF pagination check was performed.",
+    "Six destination pages received the responsive audit; two other notebook pages received shared-component and media smoke checks. The wider 122-page visual review remains open.",
+    "Photographs and source claims were reused, not newly field-verified. Current transport, access, meals, workshop and accommodation arrangements remain unconfirmed.",
+    "The browser download-event waiter timed out; the UI-triggered files were nevertheless present in Downloads and their exact bytes/content were checked.",
+    "The Search Console sitemap-processing issue remains open and was not changed by this visitor-flow batch.",
+    "Publication requires a separate Founder decision. Store and other held routes remain excluded; the eleven-route search scope is unchanged."
+  ],
+  "publication": {
+    "status": "awaiting_founder_review"
+  }
+}
