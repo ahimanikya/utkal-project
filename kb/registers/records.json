@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T05:21:50.119187+00:00",
+  "recorded_at": "2026-10-02T13:53:38.817898+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2210,7 +2210,7 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-051",
-      "next_action": "Six coastal guides have responsive/browser and journey evidence in WORK-141, awaiting Founder publication review. Continue the remaining 122-page visual scope and physical-device/screen-reader review; do not treat the bounded audit as full completion.",
+      "next_action": "Six coastal guides have responsive/browser and journey evidence published under REL-047. Continue the remaining 122-page visual scope and physical-device/screen-reader review; the bounded audit does not complete this wider work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-051",
@@ -4112,24 +4112,27 @@
       "id": "UTP-WORK-141",
       "title": "Coastal visitor flow, keyboard and image polish",
       "category": "website_design_followup",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-155",
-      "next_action": "Founder review of the tested candidate and screenshots before publication. Keep broader device, screen-reader and local-arrangement review open.",
+      "next_action": "Approved implementation published and six live guides verified. Wider device, screen-reader and local-arrangement reviews remain scoped follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-155",
         "UTP-WORK-075",
         "UTP-REV-119",
-        "UTP-REL-046"
+        "UTP-REL-046",
+        "UTP-DEC-156",
+        "UTP-REL-047"
       ],
       "evidence": [
-        "records/visitor-flow-polish-review.json"
+        "records/visitor-flow-polish-review.json",
+        "records/visitor-flow-polish-publication.json"
       ]
     }
   ],
@@ -7243,6 +7246,26 @@
       ],
       "evidence": [
         "records/visitor-flow-polish-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-156",
+      "title": "Publish the approved coastal visitor-flow refinements",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish PR #53 at reviewed head 83800d5e568705414fbf6bdaf40c5acfcfda1a63. Preserve the 122-page edition, eleven-route search scope and held commercial pages.",
+      "recorded_at": "2026-10-02T13:53:38.817898+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-141",
+        "UTP-REV-119"
+      ],
+      "evidence": [
+        "records/visitor-flow-polish-publication.json"
       ]
     }
   ],
@@ -10883,6 +10906,22 @@
         "records/coastal-practical-publication.json"
       ],
       "note": "24 notes verified across six live guides. Downloadable tour-book links tested in candidate and deployment. Local confirmation, visual review and Google processing remain open."
+    },
+    {
+      "id": "UTP-REL-047",
+      "title": "Coastal visitor-flow refinements published",
+      "status": "published",
+      "authorization": "UTP-DEC-156",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-156",
+        "UTP-WORK-141",
+        "UTP-REV-119"
+      ],
+      "evidence": [
+        "records/visitor-flow-polish-publication.json"
+      ],
+      "note": "Approved PR #53 deployed. Six live notebooks, deployed focus/alignment code, eleven sitemap routes and ownership response verified. Wider review and Google processing remain open."
     }
   ],
   "sources": [
