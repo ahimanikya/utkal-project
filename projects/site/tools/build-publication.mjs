@@ -8,7 +8,7 @@ export async function buildPublication(site){
  const plan=publicationPlan(policy,selection,scope.routes,records.decisions);
  // This one ownership-verification response is not an editorial page or sitemap entry.
  const verificationName='googleeb3b0703307157d1.html';
- const verificationSource=new URL('public/'+verificationName,site);
+ const verificationSource=new URL('verification/'+verificationName,site);
  if(!(await lstat(verificationSource)).isFile()||(await lstat(verificationSource)).isSymbolicLink())throw Error('Verification source must be a regular file');
  const verification=await readFile(verificationSource);
  if(verification.toString()!==`google-site-verification: ${verificationName}`)throw Error('Unexpected Google verification content');

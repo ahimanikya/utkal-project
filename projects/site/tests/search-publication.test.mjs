@@ -28,20 +28,20 @@ test('preview, limited launch and withdrawal keep the correct crawler boundaries
 test('publication assembly preserves source and media, removes stale sitemap and rejects stray HTML or symlinks',async()=>{
  const dir=await mkdtemp(join(tmpdir(),'utkal-search-test-')),site=pathToFileURL(join(dir,'projects/site/'));
  try{
-  for(const p of ['projects/site/editions','projects/site/public','projects/site/dist-coast/journey','kb/registers'])await mkdir(join(dir,p),{recursive:true});
+  for(const p of ['projects/site/editions','projects/site/verification','projects/site/dist-coast/journey','kb/registers'])await mkdir(join(dir,p),{recursive:true});
   const write=(p,d)=>writeFile(new URL(p,site),typeof d==='string'?d:JSON.stringify(d));
   const sel={status:'proposed_not_approved',origin:selection.origin,pages:[{route:'/',decision:'proposed',reason:'Test home'},{route:'/journey/',decision:'exclude',reason:'Test utility'}]};
   const verificationName='googleeb3b0703307157d1.html';
   const verification=`google-site-verification: ${verificationName}`;
-  await write('public/'+verificationName,verification);
+  await write('verification/'+verificationName,verification);
   const config={version:1,mode:'limited',routes:['/'],approval:decision.id};
   await write('editions/coast.json',{routes:['/','/journey/']});await write('editions/search-candidate.json',sel);await write('editions/search-publication.json',config);await write('../../kb/registers/records.json',{decisions:[{...decision,search_routes:['/']}]});
   await write('dist-coast/index.html',html);await write('dist-coast/journey/index.html',html);await write('dist-coast/photo.webp','media-bytes');
   await buildPublication(site);assert.match(await readFile(new URL('dist-publish/index.html',site),'utf8'),/content="index, follow"/);assert.match(await readFile(new URL('dist-publish/journey/index.html',site),'utf8'),/content="noindex, follow"/);assert.equal(await readFile(new URL('dist-coast/index.html',site),'utf8'),html);assert.equal(await readFile(new URL('dist-publish/photo.webp',site),'utf8'),'media-bytes');
   assert.equal(await readFile(new URL('dist-publish/'+verificationName,site),'utf8'),verification);
   assert.ok(!(await readFile(new URL('dist-publish/sitemap.xml',site),'utf8')).includes(verificationName));
-  await write('public/'+verificationName,'<script>Unexpected HTML</script>');await assert.rejects(buildPublication(site),/Unexpected Google verification content/);
-  await write('public/'+verificationName,verification);
+  await write('verification/'+verificationName,'<script>Unexpected HTML</script>');await assert.rejects(buildPublication(site),/Unexpected Google verification content/);
+  await write('verification/'+verificationName,verification);
   await write('editions/search-publication.json',{...config,mode:'withdrawn'});await buildPublication(site);await assert.rejects(readFile(new URL('dist-publish/sitemap.xml',site)),{code:'ENOENT'});assert.match(await readFile(new URL('dist-publish/robots.txt',site),'utf8'),/Allow: \//);
   await write('dist-coast/stray.html',html);await assert.rejects(buildPublication(site),/Unexpected HTML/);await rm(new URL('dist-coast/stray.html',site));
   await symlink(new URL('dist-coast/photo.webp',site),new URL('dist-coast/alias.webp',site));await assert.rejects(buildPublication(site),/symlinks/);
