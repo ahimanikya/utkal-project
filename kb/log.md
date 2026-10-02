@@ -195,3 +195,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## Textile review follow-up
 
 [Source review and copy candidate](records/textile-followup-review.json) and [specialist review sheet](reference/textile-specialist-review.md) prepared after Founder continuation. Browser review remains blocked; no language or maker review claimed. Published baseline remains REL-042.
+
+## 2026-10-01
+
+[Textile review notes published](records/textile-followup-publication.json) after Founder approval of PR 47. Corrected notes are live across the five textile pages and the specialist brief is adopted in the KB; the current published edition remains 122 pages with earlier snapshots and remaining review limitations preserved.
