@@ -303,3 +303,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Handloom techniques and maker credits
 
 [Research receipt](records/handloom-makers-2026-10-02.json): IGNCA-hosted Ghose2017 and IHB sheets deepen technique descriptions; state register and MHA announcement support four named awardee connections. Joda misclassification, botanical and origin overclaims held. Original Habaspuri report and current cooperative/maker links remain open; sales retry unchanged. No website release.
+
+## 2 October 2026 · Handloom cooperative and creation evidence
+
+[Research receipt](records/handloom-cooperatives-2026-10-02.json): Original weaver directory links five cooperatives and three creations; departmental list dated 1 September 2026 names registration organizations. Berhampuri technique recovered; Panika award year and Habaspuri chronology conflicts held. Current operation and comparable sales remain open. No website release.

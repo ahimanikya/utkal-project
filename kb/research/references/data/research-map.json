@@ -2295,7 +2295,9 @@
         "weaving-centres",
         "handloom-product-range",
         "handloom-mapping2017",
-        "handloom-berhampur-tourism-conflict"
+        "handloom-berhampur-tourism-conflict",
+        "handloom-gi-list-2026",
+        "handloom-weaver-directory"
       ]
     },
     {
@@ -2314,7 +2316,9 @@
         "handloom-product-range",
         "handloom-ihb-bomkai",
         "handloom-mapping2017",
-        "handloom-odisha-awardees"
+        "handloom-odisha-awardees",
+        "handloom-gi-list-2026",
+        "handloom-weaver-directory"
       ]
     },
     {
@@ -2367,7 +2371,9 @@
         "handloom-odisha-awardees",
         "handloom-padma2018",
         "handloom-berhampur-tourism-conflict",
-        "handloom-tribal-crafts-lead"
+        "handloom-tribal-crafts-lead",
+        "handloom-weaver-directory",
+        "handloom-gi-list-2026"
       ]
     },
     {
@@ -2384,7 +2390,9 @@
         "weaving-centres",
         "boyanika",
         "handloom-mapping2017",
-        "handloom-tribal-crafts-lead"
+        "handloom-tribal-crafts-lead",
+        "handloom-gi-list-2026",
+        "handloom-weaver-directory"
       ]
     },
     {
@@ -2402,7 +2410,9 @@
         "handloom-boyanika-khandua",
         "handloom-product-range",
         "handloom-ihb-khandua",
-        "handloom-odisha-awardees"
+        "handloom-odisha-awardees",
+        "handloom-gi-list-2026",
+        "handloom-weaver-directory"
       ]
     },
     {
@@ -2420,7 +2430,9 @@
         "handloom-boyanika70-2026",
         "weaving-centres",
         "handloom-odisha-awardees",
-        "handloom-padma2018"
+        "handloom-padma2018",
+        "handloom-gi-list-2026",
+        "handloom-weaver-directory"
       ]
     },
     {
@@ -2451,7 +2463,9 @@
         "odisha-gis",
         "handloom-boyanika-sambalpuri",
         "weaving-centres",
-        "handloom-odisha-awardees"
+        "handloom-odisha-awardees",
+        "handloom-gi-list-2026",
+        "handloom-weaver-directory"
       ]
     },
     {
@@ -18037,7 +18051,8 @@
         "handloom-boyanika70-2026",
         "handloom-ihb-bomkai",
         "handloom-ihb-khandua",
-        "handloom-mapping2017"
+        "handloom-mapping2017",
+        "handloom-weaver-directory"
       ],
       "added_at": "2026-10-02T11:46:26.258680+00:00"
     },
@@ -18166,6 +18181,44 @@
         "handloom-tribal-crafts-lead"
       ],
       "added_at": "2026-10-02T12:44:35.236920+00:00"
+    },
+    {
+      "id": "sources/handloom-weaver-directory",
+      "title": "Odisha weaver and cooperative product directory",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-weaver-directory.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-weaver-directory"
+      ],
+      "added_at": "2026-10-02T13:48:24.585819+00:00"
+    },
+    {
+      "id": "sources/handloom-gi-list-2026",
+      "title": "GI handloom products and named organizations — as at 1 September 2026",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-gi-list-2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-gi-list-2026"
+      ],
+      "added_at": "2026-10-02T13:48:24.585819+00:00"
     }
   ],
   "shared_publications": [
@@ -18684,7 +18737,9 @@
         "sources/handloom-odisha-awardees.md",
         "sources/handloom-padma2018.md",
         "sources/handloom-berhampur-tourism-conflict.md",
-        "sources/handloom-tribal-crafts-lead.md"
+        "sources/handloom-tribal-crafts-lead.md",
+        "sources/handloom-weaver-directory.md",
+        "sources/handloom-gi-list-2026.md"
       ],
       "project_records": [
         "kb/research/destinations/central-details.json"
@@ -19530,8 +19585,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1220,
-    "updated_at": "2026-10-02T12:44:35.236920+00:00",
+    "records_mapped": 1222,
+    "updated_at": "2026-10-02T13:48:24.585819+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20077,6 +20132,11 @@
       "run_id": "2026-10-02-handloom-makers",
       "at": "2026-10-02T12:44:35.236920+00:00",
       "scope": "Seven source/lead identities extend existing handloom pages and shared maker credits. No duplicate person biography. Overlapping IHB/compendium/Ghose wording not independent corroboration."
+    },
+    {
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "at": "2026-10-02T13:48:24.585819+00:00",
+      "scope": "Two primary PDF records extend existing six traditions and shared creator records. Canonical URL/hash avoids multiplying GI versions; this is no claim of exhaustive deduplication."
     }
   ]
 }

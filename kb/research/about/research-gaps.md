@@ -361,7 +361,7 @@ RES-050 bounded context/reading deliverable complete. Exact biography, primary f
 
 ## Sweets economics checkpoint · 2 October 2026 UTC
 
-RES-031 remains in progress. Pahala paper has unresolved revenue arithmetic, retailer percentages and GI-date mismatch; market extrapolation held. Kamadhenu SDG and Industries news full captures unavailable; indexed figures held, retry9October. Primary maker/history evidence for Jhili and Korakhai, original Magji histories and dated Rasabali accounts remain open. No sweet-specific shipments or statewide market totals established.
+RES-031 remains in progress. Pahala paper has unresolved revenue arithmetic, retailer percentages and GI-date mismatch; market extrapolation held. Kamadhenu SDG and Industries news full captures unavailable; indexed figures held, retry 9 October. Primary maker/history evidence for Jhili and Korakhai, original Magji histories and dated Rasabali accounts remain open. No sweet-specific shipments or statewide market totals established.
 
 ## Sweet makers and town commerce · 2 October 2026 UTC
 
@@ -373,8 +373,12 @@ RES-031 Magji/Rasabali checkpoint adds maker testimony and a January2026 market 
 
 ## Handloom market checkpoint · 2 October 2026 UTC
 
-RES-012: six-tradition matrix and three seller specimens captured. Individual makers, detailed Bomkai/Habaspuri/Berhampuri construction and comparable annual sales remain incomplete. Full department/survey PDFs unavailable; retry9October. Institutional turnover lacks period. Continue independent maker/technique work next run.
+RES-012: six-tradition matrix and three seller specimens captured. Individual makers, detailed Bomkai/Habaspuri/Berhampuri construction and comparable annual sales remain incomplete. Full department/survey PDFs unavailable; retry 9 October. Institutional turnover lacks period. Continue independent maker/technique work next run.
 
 ## Handloom techniques and makers · 2 October 2026 UTC
 
 RES-012 gains four technique clarifications and four place-associated awardee credits. Current maker/cooperative operation, Berhampuri construction and comparable annual sales remain open. Habaspuri original report unavailable; revival/cooperative lead held until9October. Joda misclassification, botanical species and global ikat-origin claims excluded.
+
+## Handloom cooperatives and creations · 2 October 2026 UTC
+
+Five cooperative-product routes, six registration-organization mappings and three named creations now documented. Berhampuri three-shuttle gap narrowed. Current operations, comparable sales, photo rights and Habaspuri formation chronology remain open; RES-012 retry 9 October. Next eligible independent task RES-052.

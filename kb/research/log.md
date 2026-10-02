@@ -392,3 +392,7 @@ RES-012 adds six-tradition market matrix, three dated retrievals of seller speci
 ## Handloom techniques and makers · 2 October 2026 UTC
 
 RES-012: full IGNCA-hosted Ghose2017 report recovered; IHB sheets deepen techniques, four named awardee credits added, and seven source/lead records saved. Tourism joda classification and broader source overclaims quarantined. Existing seller specimens/financial holds preserved. No website release.
+
+## Handloom cooperatives and creations · 2 October 2026 UTC
+
+Recovered original Odisha weaver directory and September2026 departmental GI list. Added five cooperative routes, six registration-organization mappings, three credited creation examples and two women maker credits. Berhampuri construction documented; Panika award-year and Habaspuri formation conflicts held. No website publication.

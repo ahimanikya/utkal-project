@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T12:44:35.236920+00:00",
+  "updated_at": "2026-10-02T13:48:24.585819+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1049,10 +1049,10 @@
       "done_when": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
       "target": "handlooms/index.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-02T12:44:35.236920+00:00",
-      "next_step": "Continue official cooperative/registered-user evidence for six traditions and stronger Berhampuri loom construction; verify piece-level creator links where available. Reuse 2017 mapping study, IHB sheets and four saved awardee credits. Habaspuri original report and sales PDF retry9October; completion criteria not yet met.",
+      "last_worked_at": "2026-10-02T13:48:24.585819+00:00",
+      "next_step": "On9October recover comparable cooperative/department annual sales tables and original Habaspuri study; reconcile2012 GI association with indexed2013 formation claim. Check current operating records separately. Until retry, continue earliest eligible independent pending task RES-052; do not re-research the saved directory or six traditions.",
       "evidence_outputs": [
         "handlooms/garments-and-markets.md",
         "handlooms/boyanika.md",
@@ -1070,10 +1070,12 @@
         "sources/handloom-odisha-awardees.md",
         "sources/handloom-padma2018.md",
         "sources/handloom-berhampur-tourism-conflict.md",
-        "sources/handloom-tribal-crafts-lead.md"
+        "sources/handloom-tribal-crafts-lead.md",
+        "sources/handloom-weaver-directory.md",
+        "sources/handloom-gi-list-2026.md"
       ],
-      "retry_after": null,
-      "blocker": "Comparable sales tables and original Habaspuri report remain unavailable, retry9October. Current cooperative/maker and Berhampuri loom evidence can proceed independently.",
+      "retry_after": "2026-10-09",
+      "blocker": "Comparable sales tables remain unavailable and current operations lack evidence. Techniques, dated institutional routes and three creation examples now documented; original Habaspuri formation chronology conflicted.",
       "reuse_before_research": {
         "source_records": [
           "handlooms/index.md",
@@ -1094,7 +1096,9 @@
           "sources/handloom-odisha-awardees.md",
           "sources/handloom-padma2018.md",
           "sources/handloom-berhampur-tourism-conflict.md",
-          "sources/handloom-tribal-crafts-lead.md"
+          "sources/handloom-tribal-crafts-lead.md",
+          "sources/handloom-weaver-directory.md",
+          "sources/handloom-gi-list-2026.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json"
@@ -1116,6 +1120,13 @@
           "outcome": "techniques_and_named_awardees_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Current maker/cooperative routes, Berhampuri construction, original Habaspuri report and comparable sales."
+        },
+        {
+          "run_id": "2026-10-02-handloom-cooperatives",
+          "at": "2026-10-02T13:48:24.585819+00:00",
+          "outcome": "cooperative_routes_and_creation_attribution_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Comparable sales and current operating evidence; retry9October."
         }
       ]
     },

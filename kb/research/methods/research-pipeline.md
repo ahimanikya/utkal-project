@@ -202,12 +202,16 @@ RES-031 continues with Magji original histories and Rasabali dated producer acco
 
 ## Sweet histories and market evidence · 2 October 2026 UTC
 
-RES-031 remains in progress with retry9October for original books and unavailable support/enterprise documents. Its useful local checkpoint is preserved. Next independent eligible task: RES-012 handloom techniques, makers and sales; use existing textile/source records before browsing.
+RES-031 remains in progress with retry 9 October for original books and unavailable support/enterprise documents. Its useful local checkpoint is preserved. Next independent eligible task: RES-012 handloom techniques, makers and sales; use existing textile/source records before browsing.
 
 ## Handloom market checkpoint · 2 October 2026 UTC
 
-RES-012 checkpoint: six-tradition coverage matrix, three product specifications and institutional market story. Resume missing technique/maker fields next run; sales document subtask retry9October. Completion criteria not yet met.
+RES-012 checkpoint: six-tradition coverage matrix, three product specifications and institutional market story. Resume missing technique/maker fields next run; sales document subtask retry 9 October. Completion criteria not yet met.
 
 ## Handloom techniques and makers · 2 October 2026 UTC
 
-RES-012 remains in progress after technique/awardee checkpoint. Next: cooperative/registered-user and Berhampuri construction evidence; failed RTI, IHB directory and original Habaspuri report retry9October. Saved financial retry unchanged.
+RES-012 remains in progress after technique/awardee checkpoint. Next: cooperative/registered-user and Berhampuri construction evidence; failed RTI, IHB directory and original Habaspuri report retry 9 October. Saved financial retry unchanged.
+
+## Handloom cooperatives and creations · 2 October 2026 UTC
+
+RES-012 checkpoint saved with 9 October retry for remaining financial/original-document gaps. Earliest eligible independent pending task is RES-052. No further same-source handloom discovery needed before the dated retry.

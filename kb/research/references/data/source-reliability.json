@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T12:44:35.236920+00:00",
+  "updated_at": "2026-10-02T13:48:24.585819+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5926,6 +5926,43 @@
       "status": "unavailable",
       "scope": "Compendium mirror404; no original retrieved.",
       "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "available",
+      "scope": "Full 31-page original recovered. Selected tables and product descriptions visually checked. Publication/fieldwork date unstated; URL timestamp and search age are not dates. Directory links makers/cooperatives and illustrated examples, not current operating status or seller stock. Panika Padma year2017 conflicts with MHA2018 and is excluded. Personal contacts and photographs not republished."
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/104GIregisteredHandloomProducts.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "available",
+      "scope": "Full 7-page original recovered; pp.1,4,5 visually checked. Document heading is as on01.09.2026 despite old104GI filename and stale indexed rows. Preserve downloaded hash and actual row numbers. Departmental list of registrations and named organizations, not renewal certificate, authorized-user list or evidence of current trading. No current GI validity conclusion."
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/information_handlooms/Details%20of%20102GI%20registered%20Handloom%20Products%20under%20GI%20ACT%2C%201999%20%28as%20on%2015.03.2023_removed.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "unavailable",
+      "scope": "Web fetch timed out. Recovered newer original through104GI URL; old indexed rows not adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://textiles.odisha.gov.in/page.php?link=eobnoDn8XmQu%24loFv%24CL37%24cXeP02128XrZ7fBLWkBw_",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "unavailable",
+      "scope": "Marketing/SERIFED page web fetch timed out. Search preview used only as discovery, no new facts adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/104GIregisteredHandloomProducts.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "available_after_fallback",
+      "scope": "Web fetch502; direct publisher download succeeded. PDF heading1September2026 differs from stale search version and104GI filename; use actual captured rows/hash."
     }
   ]
 }

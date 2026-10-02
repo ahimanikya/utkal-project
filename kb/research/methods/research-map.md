@@ -353,3 +353,7 @@ Six existing textile identities enhanced, six source records and one story added
 ## Handloom techniques and makers · 2 October 2026 UTC
 
 Seven new source/lead records deepen existing textile identities. Ghose2017 recovered as a full document; selected pages reviewed. IHB/compendium overlapping prose treated as a shared family. Maker credits stay in the shared dataset without duplicate biographies.
+
+## Handloom cooperatives and creations · 2 October 2026 UTC
+
+Two downloaded primary PDFs extend existing identities; actual GI heading1September2026 and hash retained despite stale filename/indexed version. No duplicate biographies. Five cooperative routes and three works point to precise rows/pages.

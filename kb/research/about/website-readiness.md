@@ -149,3 +149,7 @@ Handloom research draft connects six traditions with production places and quali
 ## Handloom techniques and makers · 2 October 2026 UTC
 
 Existing handloom drafts now explain technique differences and credit four named awardees. No product-level maker link, workshop availability or new sales total established. Berhampur joda tourism conflict recorded; human review and image rights remain pending. No website publication.
+
+## Handloom cooperatives and creations · 2 October 2026 UTC
+
+Handloom drafts gain original directory attributions and a words-woven-into-cloth story. Directory and registration listings do not verify current orders or visits. No image licence, human review or website release claimed.

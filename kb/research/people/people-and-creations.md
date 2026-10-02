@@ -113,3 +113,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Weaving lives: evidence before biographies
 
 [Handloom maker credits](../handlooms/garments-and-markets.md) now preserve four named awardee connections. These are scoped credits, with no invented life histories or current business claims.
+
+## Textile creators: stronger work-level credits
+
+[Handloom research](../handlooms/garments-and-markets.md) now connects Swarnalata Meher, Debaki Meher and Sarat Kumar Patra with three illustrated directory examples. Existing identities and shared records are reused; these are not newly invented biographies or interviews.
