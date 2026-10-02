@@ -1,0 +1,70 @@
+{
+  "run_id": "2026-10-02-mining-steel",
+  "at": "2026-10-02T14:47:52.786173+00:00",
+  "scope": "Rourkela historical ore route, three crude-steel observations, two unit-profit observations and two NALCO supplier-purchase observations. RES-052 remains in progress; plant payroll and the chromite chain remain open.",
+  "tasks": [
+    "RES-052"
+  ],
+  "task_status": "useful_checkpoint_task_in_progress",
+  "new_source_ids": [
+    "mining-sail-ar2026",
+    "mining-rsp-ec-march2026",
+    "mining-btk-pfr2021"
+  ],
+  "reused_source_ids": [
+    "mining-nalco-ar2026",
+    "business-imfa-history"
+  ],
+  "human_review_claimed": false,
+  "local_odia_review": "pending",
+  "website_publication": false,
+  "validation": {
+    "research_validators": 12,
+    "result": "PASS",
+    "catalogue": "PASS",
+    "bundle": "PASS",
+    "authority_registers": "PASS",
+    "scope": "Clean committed snapshot plus explicit research changes; unrelated local duplicate copies excluded."
+  },
+  "files_changed": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/records/editorial-workbench.json",
+    "kb/records/mining-steel-2026-10-02.json",
+    "kb/research/about/research-gaps.md",
+    "kb/research/about/website-readiness.md",
+    "kb/research/economy/bauxite-to-aluminium.md",
+    "kb/research/economy/mining.md",
+    "kb/research/economy/rourkela-steel-chain.md",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "kb/research/methods/research-map.md",
+    "kb/research/methods/research-pipeline.md",
+    "kb/research/references/data/bundle-summary.json",
+    "kb/research/references/data/classification-validation-report.json",
+    "kb/research/references/data/content-classification.json",
+    "kb/research/references/data/growth-journeys-validation-report.json",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/references/data/maritime-validation-report.json",
+    "kb/research/references/data/mining-programme.json",
+    "kb/research/references/data/research-map-validation-report.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/research-queue.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/statistics-atlas.json",
+    "kb/research/references/data/statistics-validation-report.json",
+    "kb/research/references/data/validation-report.json",
+    "kb/research/references/data/visitor-index-validation-report.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/mining-btk-pfr2021.md",
+    "kb/research/sources/mining-nalco-ar2026.md",
+    "kb/research/sources/mining-rsp-ec-march2026.md",
+    "kb/research/sources/mining-sail-ar2026.md",
+    "kb/research/statistics/districts/angul.md",
+    "kb/research/statistics/districts/koraput.md",
+    "kb/research/statistics/districts/sundargarh.md",
+    "kb/research/statistics/industrial-production.md",
+    "kb/research/stories/minerals-and-local-suppliers.md"
+  ]
+}

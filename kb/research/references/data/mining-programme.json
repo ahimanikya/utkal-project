@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T00:49:26.791780+00:00",
+  "updated_at": "2026-10-02T14:47:52.786173+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -1918,6 +1918,106 @@
       "Scanned EC annexure including original CTO not readable in text; no current permit verification."
     ],
     "retry_after": "2026-10-08",
+    "human_review_claimed": false
+  },
+  "processing_work_checkpoint": {
+    "run_id": "2026-10-02-mining-steel",
+    "at": "2026-10-02T14:47:52.786173+00:00",
+    "task": "RES-052",
+    "source_ids": [
+      "mining-sail-ar2026",
+      "mining-rsp-ec-march2026",
+      "mining-btk-pfr2021",
+      "mining-nalco-ar2026"
+    ],
+    "observation_ids": [
+      "rsp-crude-2023-24",
+      "rsp-crude-2024-25",
+      "rsp-crude-2025-26",
+      "rsp-pbt-2024-25",
+      "rsp-pbt-2025-26",
+      "nalco-odisha-mse-procurement-2025-26",
+      "nalco-all-mse-procurement-2025-26"
+    ],
+    "chain_status": [
+      {
+        "chain": "Panchpatmali–Damanjodi–Angul",
+        "status": "reuse_saved_chain_add_state_supplier_procurement",
+        "local_jobs": "unresolved"
+      },
+      {
+        "chain": "Barsua valley–Rourkela",
+        "status": "dated_existing_route_description_plus_plant_records",
+        "source_id": "mining-btk-pfr2021",
+        "locator": "printed p.28; PDF p.32",
+        "current_dispatch_tonnes": null,
+        "direct_jobs": null,
+        "contract_jobs": null,
+        "local_supplier_purchases": null
+      },
+      {
+        "chain": "Odisha chromite–ferrochrome",
+        "status": "next_bounded_research",
+        "reuse_source_id": "business-imfa-history"
+      }
+    ],
+    "held_fields": [
+      {
+        "field": "RSP workforce",
+        "source_id": "mining-rsp-ec-march2026",
+        "locator": "PDF p.15",
+        "reported_health_check_categories": {
+          "2025-26": {
+            "permanent_employee": 9872,
+            "contractual_worker": 10803,
+            "cisf_and_others": 385,
+            "total": 21060
+          },
+          "2024-25": {
+            "permanent_employee": 10864,
+            "contractual_worker": 14386,
+            "cisf_and_others": 636,
+            "total": 25886
+          },
+          "2023-24": {
+            "permanent_employee": 11151,
+            "contractual_worker": 8999,
+            "cisf_and_others": 590,
+            "total": 20740
+          }
+        },
+        "treatment": "Health-check-up disclosure, not adopted as employment headcount or growth. Counts and adverse changes retained without causal inference."
+      },
+      {
+        "field": "Expansion additional jobs and cost",
+        "source_id": "mining-btk-pfr2021",
+        "locator": "printed p.2 / PDF p.6",
+        "additional_positions": 1133,
+        "estimated_cost_inr_crore": 2740.88,
+        "stage": "June2021 proposal",
+        "treatment": "No realised investment or jobs inferred."
+      },
+      {
+        "field": "Carbon-budget model",
+        "source_id": "mining-rsp-ec-march2026",
+        "locator": "PDF pp.26–27",
+        "treatment": "Future production targets and assumed80% tree survival excluded from realised outcomes. Historical output needs production-return cross-check."
+      }
+    ],
+    "calculations": [
+      {
+        "id": "nalco-odisha-share-of-mse-procurement-2025-26",
+        "inputs": [
+          "nalco-odisha-mse-procurement-2025-26",
+          "nalco-all-mse-procurement-2025-26"
+        ],
+        "operation": "share_pct",
+        "value": 45.04261226293907,
+        "unit": "percent",
+        "interpretation": "Odisha-based share of NALCO MSE purchases only; denominator is not all company procurement or all Odisha business sales."
+      }
+    ],
+    "completion_criteria_met": false,
     "human_review_claimed": false
   }
 }

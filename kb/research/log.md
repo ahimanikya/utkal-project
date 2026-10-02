@@ -396,3 +396,7 @@ RES-012: full IGNCA-hosted Ghose2017 report recovered; IHB sheets deepen techniq
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Recovered original Odisha weaver directory and September2026 departmental GI list. Added five cooperative routes, six registration-organization mappings, three credited creation examples and two women maker credits. Berhampuri construction documented; Panika award-year and Habaspuri formation conflicts held. No website publication.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+RES-052: three SAIL original documents captured; Rourkela output/PBT and NALCO MSE purchases add seven observations and three calculations. Health checks and proposed expansion remain separate from employment outcomes. Supplier story prepared; no website release.

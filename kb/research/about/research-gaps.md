@@ -382,3 +382,7 @@ RES-012 gains four technique clarifications and four place-associated awardee cr
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Five cooperative-product routes, six registration-organization mappings and three named creations now documented. Berhampuri three-shuttle gap narrowed. Current operations, comparable sales, photo rights and Habaspuri formation chronology remain open; RES-012 retry 9 October. Next eligible independent task RES-052.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+RES-052 now adds Rourkela plant records and NALCO Odisha MSE purchases. Third chromite-to-ferrochrome chain remains next. Payroll/contract headcounts, local supplier disaggregation and exact current mine-to-plant despatch remain open; health-check table not used as jobs.

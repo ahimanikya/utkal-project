@@ -4545,6 +4545,28 @@
       "content_type": "Story Draft",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/rourkela-steel-chain",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places",
+        "everyday",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/minerals-and-local-suppliers",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6696,6 +6718,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Named award records connect weaving traditions with credited people, without turning recognition into present workshop availability."
+    },
+    {
+      "from": "economy/rourkela-steel-chain",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects plant and supplier evidence to the broader mining programme without equating company results with household benefits."
+    },
+    {
+      "from": "stories/minerals-and-local-suppliers",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects plant and supplier evidence to the broader mining programme without equating company results with household benefits."
     }
   ],
   "relationship_types": {

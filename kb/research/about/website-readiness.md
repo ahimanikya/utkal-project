@@ -153,3 +153,7 @@ Existing handloom drafts now explain technique differences and credit four named
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Handloom drafts gain original directory attributions and a words-woven-into-cloth story. Directory and registration listings do not verify current orders or visits. No image licence, human review or website release claimed.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+New draft supplier story has a defined fiscal year, purchasing denominator and source. Rourkela page retains near-flat output, distinct profit recovery and workforce limits. No website release, human review or supplier interview claimed.

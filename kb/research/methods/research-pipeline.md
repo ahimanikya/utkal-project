@@ -215,3 +215,7 @@ RES-012 remains in progress after technique/awardee checkpoint. Next: cooperativ
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 RES-012 checkpoint saved with 9 October retry for remaining financial/original-document gaps. Earliest eligible independent pending task is RES-052. No further same-source handloom discovery needed before the dated retry.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+Resume RES-052 next with chromite-to-ferrochrome, using saved IMFA history before original annual-report research. Rourkela/NALCO checkpoint is useful but three-chain employment/supplier completion criteria remain unmet.

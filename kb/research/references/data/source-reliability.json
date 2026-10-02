@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T13:48:24.585819+00:00",
+  "updated_at": "2026-10-02T14:47:52.786173+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5963,6 +5963,41 @@
       "run_id": "2026-10-02-handloom-cooperatives",
       "status": "available_after_fallback",
       "scope": "Web fetch502; direct publisher download succeeded. PDF heading1September2026 differs from stale search version and104GI filename; use actual captured rows/hash."
+    },
+    {
+      "discovery_url": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available",
+      "scope": "Full original downloaded; selected plant-performance, company-workforce and location sections reviewed. RSP PBT is a plant/unit accounting result; SAIL workforce and MSE figures are company-wide, not Odisha totals. Company best-ever narrative is not a substitute for metric-specific output history."
+    },
+    {
+      "discovery_url": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available",
+      "scope": "Company compliance statement, not a regulator audit. Carbon-budget row combines historical and future target values: only FY2023–24 to FY2025–26 historical columns captured as reported. Units printed MTPA; annual historical quantities shown as million tonnes in derived display. Health-check table is not payroll/headcount; tree survival is an assumption, not a census."
+    },
+    {
+      "discovery_url": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available",
+      "scope": "Applicant-authored proposed expansion. Existing Barsua rail connection to Rourkela is described in p.28; future capacities, costs and additional jobs are proposals. No current shipment quantity, expansion commissioning or contemporary workforce verified."
+    },
+    {
+      "discovery_url": "https://www.sail.co.in/en/investors-relation/annual-reports",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available_after_fallback",
+      "scope": "Web timeout; direct HTML succeeded and supplied report link."
+    },
+    {
+      "discovery_url": "https://www.sail.co.in/index.php/en/plants/about-rourkela-steel-plant",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available_after_fallback",
+      "scope": "Web timeout; direct HTML succeeded. Used as original compliance-document entrance."
     }
   ]
 }

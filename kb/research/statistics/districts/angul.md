@@ -27,3 +27,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Mine-to-processing checkpoint · 1 October 2026
 
 [The NALCO chain](../../economy/bauxite-to-aluminium.md) links Angul’s smelter to Damanjodi. Wage geography, safety and physical output retain their different denominators.
+
+## Connected industrial evidence
+
+[NALCO’s Odisha-based supplier purchases](../../stories/minerals-and-local-suppliers.md) add a state-level enterprise connection. They are not allocated to this district.

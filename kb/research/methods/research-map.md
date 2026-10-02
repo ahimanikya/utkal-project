@@ -357,3 +357,7 @@ Seven new source/lead records deepen existing textile identities. Ghose2017 reco
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Two downloaded primary PDFs extend existing identities; actual GI heading1September2026 and hash retained despite stale filename/indexed version. No duplicate biographies. Five cooperative routes and three works point to precise rows/pages.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+Three primary sources and two synthesis/story records added for RES-052. NALCO p.56 extends existing source scope; repeated annual/compliance reports are one corporate evidence family.

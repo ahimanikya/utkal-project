@@ -4,7 +4,7 @@ title: "Odisha mining: minerals, industry and people"
 description: "Odisha mining: minerals, industry and people — scoped evidence and research questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:12:14.031317+00:00"}
-sources: [{"id": "mining-ibm-march2025", "title": "Monthly Statistics of Mineral Production, March 2025", "resource": "https://www.ibm.gov.in/writereaddata/files/1748864652683d8e8cdc8f1MSMP_MARCH25FINAL.pdf"}, {"id": "mining-cag-dmf2026", "title": "PMKKKY and District Mineral Foundations in Odisha: Report 7 of 2026", "resource": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf"}, {"id": "mining-ibm-yearbook2024", "title": "Indian Minerals Yearbook 2024", "resource": "https://www.ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"}]
+sources: [{"id": "mining-ibm-march2025", "title": "Monthly Statistics of Mineral Production, March 2025", "resource": "https://www.ibm.gov.in/writereaddata/files/1748864652683d8e8cdc8f1MSMP_MARCH25FINAL.pdf"}, {"id": "mining-cag-dmf2026", "title": "PMKKKY and District Mineral Foundations in Odisha: Report 7 of 2026", "resource": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf"}, {"id": "mining-ibm-yearbook2024", "title": "Indian Minerals Yearbook 2024", "resource": "https://www.ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf"}, {"id": "mining-sail-ar2026", "title": "SAIL Annual Report 2025–26", "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf"}, {"id": "mining-rsp-ec-march2026", "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026", "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf"}]
 human_review_claimed: false
 subjects: ["economy", "governance", "nature", "everyday"]
 ---
@@ -73,3 +73,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Baphlimali returns · 2 October2026 UTC
 
 [Baphlimali’s annual return](bauxite-mine-identities.md) adds realised output, captive dispatch, payments and employment denominators. Permission layers and rehabilitation scopes remain separate.
+
+## Processing and supplier checkpoint · 2 October 2026
+
+[Rourkela’s steel chain](rourkela-steel-chain.md) adds plant-specific financial and historical production-table evidence with work-count limits. [NALCO’s supplier story](../stories/minerals-and-local-suppliers.md) uses a newly read section of the saved annual report. RES-052 remains incomplete: chromite-to-ferrochrome is the next chain, with plant payroll and local-supplier evidence still open.

@@ -50,3 +50,9 @@ Safety remains part of the story: the company reports zero worker fatalities in 
 [Detailed evidence and open fields](../references/data/mining-programme.json) · [Mining overview](mining.md) · [Industrial production](../statistics/industrial-production.md) · [Koraput](../statistics/districts/koraput.md) · [Angul](../statistics/districts/angul.md) · [Honey and forest livelihoods](forest-products.md).
 
 [Mining overview](mining.md) — Connects named mineral-processing relationships to separate public revenue, work and community questions.
+
+## Local suppliers: a new reading of the saved report
+
+NALCO reports **₹652.19 crore** of goods/services purchases from Odisha-based MSEs in 2025–26, within₹1,447.94 crore of all-location MSE procurement. This is about45.04% of that MSE total, not a share of all company purchasing. Purchases do not measure supplier profit or employment. [Saved annual report, printed p.56 / PDF p.76, section 19(a)](https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf).
+
+This extends the inspected scope of the same original report; it is not independent corroboration. [A readable supplier story](../stories/minerals-and-local-suppliers.md).

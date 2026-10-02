@@ -307,3 +307,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Handloom cooperative and creation evidence
 
 [Research receipt](records/handloom-cooperatives-2026-10-02.json): Original weaver directory links five cooperatives and three creations; departmental list dated 1 September 2026 names registration organizations. Berhampuri technique recovered; Panika award year and Habaspuri chronology conflicts held. Current operation and comparable sales remain open. No website release.
+
+## 2 October 2026 · Mineral processing and local suppliers
+
+[Research receipt](records/mining-steel-2026-10-02.json): Rourkela steel production and profit are recorded separately; its health-check table is not counted as payroll. NALCO reports Odisha-based MSE purchases of ₹652.19 crore in FY2025–26. Historical Barsua rail linkage is sourced; proposed expansion remains a proposal. RES-052 remains in progress. No website release.
