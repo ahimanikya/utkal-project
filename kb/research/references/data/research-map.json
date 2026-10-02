@@ -15691,7 +15691,9 @@
       "source_ids": [
         "rice-mssrf-tulasa",
         "rice-crri-releases",
-        "rice-nrri-aromatic2022"
+        "rice-nrri-aromatic2022",
+        "rice-yadav-landraces2026",
+        "rice-irri-kalahandi2020"
       ],
       "added_at": "2026-10-01T20:10:23.860704+00:00"
     },
@@ -16679,6 +16681,65 @@
         "forest-pib-vandhan2021"
       ],
       "added_at": "2026-10-02T01:11:51.135341+00:00"
+    },
+    {
+      "id": "sources/rice-yadav-landraces2026",
+      "title": "Preserving agrobiodiversity: socio-cultural and economic drivers of landrace conservation in Odisha, India",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-yadav-landraces2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "people",
+        "nature"
+      ],
+      "source_ids": [
+        "rice-yadav-landraces2026"
+      ],
+      "added_at": "2026-10-02T01:39:07.455735+00:00"
+    },
+    {
+      "id": "sources/rice-irri-kalahandi2020",
+      "title": "Women farmers take a significant step towards seed security in Odisha",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-irri-kalahandi2020.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy",
+        "people"
+      ],
+      "source_ids": [
+        "rice-irri-kalahandi2020"
+      ],
+      "added_at": "2026-10-02T01:39:07.455735+00:00"
+    },
+    {
+      "id": "stories/rice-kept-for-taste",
+      "title": "Rice kept for taste, seed saved for tomorrow",
+      "kind": "Evidence Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/rice-kept-for-taste.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "people",
+        "economy"
+      ],
+      "source_ids": [
+        "rice-mssrf-tulasa",
+        "rice-yadav-landraces2026",
+        "rice-irri-kalahandi2020"
+      ],
+      "added_at": "2026-10-02T01:39:07.455735+00:00"
     }
   ],
   "shared_publications": [
@@ -17896,7 +17957,10 @@
         "food/koraput-kalajeera-rice.md",
         "statistics/agriculture.md",
         "works/odisha-rice-seed-deployment.md",
-        "references/data/rice-economy.json"
+        "references/data/rice-economy.json",
+        "sources/rice-yadav-landraces2026.md",
+        "sources/rice-irri-kalahandi2020.md",
+        "stories/rice-kept-for-taste.md"
       ],
       "project_records": [],
       "remaining_scope": "Extend the rice register with sourced local names, dated district cultivation evidence and attributed food uses for a bounded selection; distinguish landraces, improved selections and release recommendations. Preserve existing Kalajeera identity and unknown acreage.",
@@ -17954,8 +18018,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1145,
-    "updated_at": "2026-10-02T01:11:51.135341+00:00",
+    "records_mapped": 1148,
+    "updated_at": "2026-10-02T01:39:07.455735+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -18421,6 +18485,11 @@
       "run_id": "2026-10-02-forest-trade-followup",
       "at": "2026-10-02T01:11:51.135341+00:00",
       "scope": "Two original institutional sources and one scoped story. Existing forest products, payment and OFDC records enhanced; five named cluster leads retain unknown current status."
+    },
+    {
+      "run_id": "2026-10-02-rice-place-food",
+      "at": "2026-10-02T01:39:07.455735+00:00",
+      "scope": "Existing21 rice identities retained. New culinary names saved as attributed uses with unresolved accession identity; Tulasa source date corrected without a duplicate source."
     }
   ]
 }

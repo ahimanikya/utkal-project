@@ -314,3 +314,7 @@ Baphlimali original annual-return/compliance text recovered. Complex employment 
 ## Forest trade follow-up · 2 October 2026 UTC
 
 Van Dhan parliamentary baseline and named historical clusters recovered. Recent STSC PDF and TDCC routes unavailable; product procurement, collector payments, women ownership and current operations remain unknown. Retry 8 October. Kendu 2019–20 and welfare-year conflicts remain held.
+
+## Rice, place and food · 2 October 2026 UTC
+
+Bounded rice place/food deliverable saved. Original Sambad date is attributed through MSSRF, not independently fetched. Food-use study has unknown fieldwork dates, name/accession gaps and sampling inconsistencies; health claims excluded. Current variety acreage, Odia spellings, named-cook recipes and prices remain open.

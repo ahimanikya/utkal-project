@@ -328,3 +328,7 @@ Added 21 Baphlimali annual-return/compliance observations. Stock arithmetic reco
 ## Forest trade follow-up · 2 October 2026 UTC
 
 Added 10 observations: historical Van Dhan totals and exact OFDC accounting components. Five named cluster leads retain unknown current operation and receipts. New primary-route failures recorded. RES-057 checkpoint saved with 8 October retry; completion criteria not met. Local research candidate; no website publication.
+
+## Rice, place and food · 2 October 2026 UTC
+
+RES-060 bounded deliverable completed: seven existing entries enhanced, nine attributed food-use records and seven historical observations. Existing varieties, statistics and frozen ledger preserved. Two primary routes unavailable; current economics remains RES-061.

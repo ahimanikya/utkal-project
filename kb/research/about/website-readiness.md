@@ -85,3 +85,7 @@ The expanded mining baseline is a research candidate. Baphlimali output/payment 
 ## Forest trade follow-up · 2 October 2026 UTC
 
 A dated Van Dhan story candidate and OFDC allocation explanation are available. The national comparison is December 2023 programme reporting, not current leadership. Editorial review remains pending; no website publication.
+
+## Rice, place and food · 2 October 2026 UTC
+
+Rice seed-to-food story candidate available with historical dates and participant attribution. Local/Odia review, current suppliers, tested recipes and portrait rights remain open. No website deployment.

@@ -283,3 +283,7 @@ Enhanced existing Baphlimali concept and structured mine identity. Two original 
 ## Forest trade follow-up · 2 October 2026 UTC
 
 Enhanced existing forest-product and worker-support concepts; added two original sources, a scoped enterprise story and five named leads. Saved OFDC report reused without claiming independent corroboration. Newer indexed figures remain outside the evidence ledger.
+
+## Rice, place and food · 2 October 2026 UTC
+
+Extended seven existing rice records and nine name-level food-use accounts. Two new sources; existing Tulasa source corrected with revision history. No duplicate genotype, person biography or new research task.

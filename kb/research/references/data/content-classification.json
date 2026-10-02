@@ -4408,6 +4408,17 @@
       "content_type": "Evidence Story Draft",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-kept-for-taste",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "people",
+        "economy"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6349,6 +6360,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects named historical enterprises to product research without claiming current operation."
+    },
+    {
+      "from": "stories/rice-kept-for-taste",
+      "to": "food/rice-varieties",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects source-attributed names, food uses and historical cultivation without assuming identical seed accessions."
+    },
+    {
+      "from": "stories/rice-kept-for-taste",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates seed production, grain sales and farmer returns."
     }
   ],
   "relationship_types": {

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T01:11:51.135341+00:00",
+  "updated_at": "2026-10-02T01:39:07.455735+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5038,6 +5038,46 @@
       "status": "available",
       "scope": "Paragraphs naming Mayurbhanj clusters, Anchalika Khandadhar and Ban Durga",
       "capture_method": "primary_publisher_html"
+    },
+    {
+      "discovery_url": "https://mssrf.org/projects/multi-varietal-trial-rice-under-lowland-and-medium-land-conditions-selected-tribal",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "unavailable",
+      "scope": "JavaScript gate; search snippet not admitted as a measured outcome.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.mssrf.org/wp-content/uploads/2023/08/MSSRF-Annual-Report-2022-23_Final.pdf",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "unavailable",
+      "scope": "Web reader unavailable; direct download returned HTML, not a PDF. No report figures admitted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "source_id": "rice-yadav-landraces2026",
+      "discovery_url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "available",
+      "scope": "Sections2.2 and3.2; Tables6–7"
+    },
+    {
+      "source_id": "rice-irri-kalahandi2020",
+      "discovery_url": "https://news.irri.org/2020/05/women-farmers-take-significant-step.html",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "available",
+      "scope": "Paragraphs describing2019 production and named seed classes"
+    },
+    {
+      "source_id": "rice-mssrf-tulasa",
+      "discovery_url": "https://www.mssrf.org/our-stories/more-than-70-landraces-of-paddy-varieties-have-been-conserved-by-tulasa",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "available",
+      "scope": "Cultivation paragraph and final original-publication credit"
     }
   ]
 }

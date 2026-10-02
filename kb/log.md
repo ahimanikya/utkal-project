@@ -239,3 +239,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Forest trade and community enterprises
 
 [Research receipt](records/forest-trade-followup-2026-10-02.json): 10 observations added; cumulative programme sales and accounting allocations scoped. RES-057 remains unfinished; product-level procurement and collector receipts await original records. No website release.
+
+## 2 October 2026 · Rice, place and food
+
+[Research receipt](records/rice-place-food-2026-10-02.json): Seven historical observations and nine food-use records added. RES-060 bounded deliverable complete; current acreage, seed identity and farmer returns remain follow-ups. No website release.

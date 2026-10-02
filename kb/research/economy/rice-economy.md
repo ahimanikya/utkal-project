@@ -57,3 +57,7 @@ This is a study-period experimental comparison. The full itemised cost basis and
 ## Procurement payment reconciliation remains open
 
 Matching the saved 2023–24 procurement volume with that year’s common/Grade-A MSP gives a simple MSP-only range of ₹15,475–15,617 crore. The department’s₹16,883.03-crore payment claim sits outside that range. Payment dates, adjustments and coverage must be reconciled; the calculation is a diagnostic, not a replacement payment total. [Matching MSP release](https://www.pib.gov.in/newsite/erelcontent.aspx?relid=244453&reg=3&lang=2). The partial 2024–25 quantity/payment pair also fails a simple matched-rate check. Both remain held in the register.
+
+## Seed production is its own market
+
+[The Kalahandi seed-enterprise case](../food/rice-varieties.md) adds dated collective production and named seed classes. Seed output does not establish completed sales or member earnings. Variety-specific output, processing costs, realised seed prices and payment records remain the next economic questions.

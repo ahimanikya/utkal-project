@@ -71,3 +71,5 @@ Subject membership is editorial classification. It does not establish historical
 [Rice varieties and seed keepers](../food/rice-varieties.md) connects farming traditions, plant science and food evidence.
 
 [Tentuli](../food/tentuli-tamarind.md) and [chara/chironji](../food/chara-chironji.md) — Ingredients, seasons, community knowledge and distinct traded forms.
+
+[Rice kept for taste](../stories/rice-kept-for-taste.md) links documented food preferences to named cultivation and seed-enterprise accounts. Historical evidence is separate from current availability.
