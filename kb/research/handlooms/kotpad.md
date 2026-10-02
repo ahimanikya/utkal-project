@@ -5,7 +5,7 @@ description: "Kotpad textiles — research and reuse notes."
 tags: ["handlooms", "koraput"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "kotpad-textiles", "title": "Sustainability in the Handloom Traditions of India", "resource": "https://handlooms.nic.in/assets/img/EBOOK/Sustainability%20in%20the%20Handloom%20Traditions%20of%20India.pdf", "inspection": "Indexed Kotpad Handlooms section inspected; direct PDF retrieval failed. Institutional description only; no maker interview or product certification verified."}, {"id": "handloom-boyanika70-2026", "title": "Boyanika: seventy-year institutional account", "resource": "https://boyanika.com/boyanika-wear-your-heritage/"}, {"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}]
+sources: [{"id": "kotpad-textiles", "title": "Sustainability in the Handloom Traditions of India", "resource": "https://handlooms.nic.in/assets/img/EBOOK/Sustainability%20in%20the%20Handloom%20Traditions%20of%20India.pdf", "inspection": "Indexed Kotpad Handlooms section inspected; direct PDF retrieval failed. Institutional description only; no maker interview or product certification verified."}, {"id": "handloom-boyanika70-2026", "title": "Boyanika: seventy-year institutional account", "resource": "https://boyanika.com/boyanika-wear-your-heritage/"}, {"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}, {"id": "handloom-odisha-awardees", "title": "Odisha handloom awardee register", "resource": "https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata"}, {"id": "handloom-padma2018", "title": "Padma Awards 2018 — Ministry of Home Affairs press note", "resource": "https://knowindia.india.gov.in/assets/doc/PadmaAwards2018.pdf"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}, {"by": "Current AI assistant", "at": "2026-09-29T02:25:24.019692+00:00", "scope": "Indexed Kotpad Handlooms section inspected; direct PDF retrieval failed. Institutional description only; no maker interview or product certification verified."}]
 geography: "Koraput"
 aliases: ["Kotpad textiles", "kotpad"]
@@ -46,3 +46,9 @@ Boyanika route: institutional collection mention. This identifies a research rou
 [Six-tradition market comparison](garments-and-markets.md) connects textile identity with market evidence. Tradition-level revenue and exports remain unknown.
 
 [Related market evidence](garments-and-markets.md) — Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions.
+
+## A named weaving-life research connection
+
+The [Odisha department award register](https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata) lists **Gobardhan Panika**, associated with Kotpad, Koraput, for 2004. Register spelling Gobardhan Panikar; 2018 MHA list prints Gobaradhan Panika. Spelling variants retained; no current commission availability. The [25 January 2018 MHA announcement](https://knowindia.india.gov.in/assets/doc/PadmaAwards2018.pdf) also lists him for Padma Shri in Art-Weaving, Odisha (PDF p.3, serial58).
+
+[Maker credits and unresolved attribution](../references/data/handloom-markets.json).

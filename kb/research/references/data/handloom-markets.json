@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T11:46:26.258680+00:00",
-  "run_id": "2026-10-02-handloom-markets",
+  "updated_at": "2026-10-02T12:44:35.236920+00:00",
+  "run_id": "2026-10-02-handloom-makers",
   "scope": "Six existing textile identities linked to technique evidence, geography and dated seller discovery; not a completed provenance certification or annual sales series.",
   "human_review_claimed": false,
   "traditions": [
@@ -31,11 +31,13 @@
       "concept_id": "handlooms/bomkai",
       "name": "Bomkai",
       "production_geography": "Sonepur and Boudh are department-listed production centres.",
-      "technique_evidence": "Woven threadwork; cotton warp/weft in specimen. Detailed construction still pending.",
+      "technique_evidence": "Three-shuttle border; extra warp in border and extra weft in body/pallu, using dobby/jacquard/jala.",
       "source_ids": [
         "handloom-boyanika-bomkai",
         "weaving-centres",
-        "handloom-product-range"
+        "handloom-product-range",
+        "handloom-ihb-bomkai",
+        "handloom-mapping2017"
       ],
       "seller_route": {
         "organization": "Boyanika",
@@ -48,17 +50,19 @@
       "individual_maker": null,
       "tradition_sales": null,
       "tradition_exports": null,
-      "next_research": "Origin-village chronology and supplementary-weft technical evidence still pending."
+      "next_research": "Recover named current makers, piece-level provenance and cooperative routes; comparable sales still pending.",
+      "technique_locator": "IHB p.1; Ghose PDF p.67"
     },
     {
       "concept_id": "handlooms/khandua",
       "name": "Khandua",
       "production_geography": "Nuapatna / Cuttack; eastern clusters in seller description.",
-      "technique_evidence": "Ikat silk with temple borders; specimen lists Malda silk in warp and weft.",
+      "technique_evidence": "Weft yarn is tied and dyed before weaving; IHB distinguishes warp tie-dyed border from weft tie-dyed pallu.",
       "source_ids": [
         "handloom-boyanika-khandua",
         "weaving-centres",
-        "handloom-product-range"
+        "handloom-product-range",
+        "handloom-ihb-khandua"
       ],
       "seller_route": {
         "organization": "Boyanika",
@@ -71,7 +75,8 @@
       "individual_maker": null,
       "tradition_sales": null,
       "tradition_exports": null,
-      "next_research": "Do not infer silk was grown in Odisha or that this commercial piece is temple cloth."
+      "next_research": "Recover named current makers, piece-level provenance and cooperative routes; comparable sales still pending.",
+      "technique_locator": "IHB PDF p.1"
     },
     {
       "concept_id": "handlooms/kotpad",
@@ -100,10 +105,11 @@
       "concept_id": "handlooms/habaspuri",
       "name": "Habaspuri",
       "production_geography": "Kalahandi",
-      "technique_evidence": "Technique remains unverified in this checkpoint.",
+      "technique_evidence": "Extra-warp temple motifs along border; extra-weft pallu motifs; pit/frame loom with dobby.",
       "source_ids": [
         "boyanika",
-        "weaving-centres"
+        "weaving-centres",
+        "handloom-mapping2017"
       ],
       "seller_route": {
         "organization": "Boyanika",
@@ -116,17 +122,20 @@
       "individual_maker": null,
       "tradition_sales": null,
       "tradition_exports": null,
-      "next_research": "Homepage mention is not a product listing; current makers and construction pending."
+      "next_research": "Recover named current makers, piece-level provenance and cooperative routes; comparable sales still pending.",
+      "technique_locator": "Ghose PDF p.68"
     },
     {
       "concept_id": "handlooms/berhampuri-patta",
       "name": "Berhampuri Patta",
       "production_geography": "Berhampur / Ganjam",
-      "technique_evidence": "Department identifies silk saree/joda; construction remains pending.",
+      "technique_evidence": "Silk textile with kumbha/phoda motifs; joda identified as men’s textile, not bangles. Loom construction still needs stronger evidence.",
       "source_ids": [
         "handloom-boyanika70-2026",
         "weaving-centres",
-        "handloom-product-range"
+        "handloom-product-range",
+        "handloom-mapping2017",
+        "handloom-berhampur-tourism-conflict"
       ],
       "seller_route": {
         "organization": "Boyanika",
@@ -139,7 +148,8 @@
       "individual_maker": null,
       "tradition_sales": null,
       "tradition_exports": null,
-      "next_research": "Border construction and named current maker still pending."
+      "next_research": "Recover piece-level maker attribution and cooperative route; preserve tradition versus individual specimen. Berhampuri loom construction remains open.",
+      "technique_locator": "Ghose PDF p.67; conflicting tourism Joda paragraph"
     }
   ],
   "product_specimens": [
@@ -273,6 +283,11 @@
       "at": "2026-10-02T11:46:26.258680+00:00",
       "run_id": "2026-10-02-handloom-markets",
       "change": "Initial six-tradition coverage checkpoint; three seller specimens and explicit financial-evidence gaps."
+    },
+    {
+      "at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "change": "Four technique clarifications, four place-associated maker/award credits, one held Habaspuri lead, and three source conflicts. No new economic totals or live seller availability."
     }
   ],
   "store_discovery": {
@@ -290,5 +305,162 @@
     "product_stock": null,
     "links_to_products_do_not_establish_stock": true
   },
-  "sales_recovery_note": "Search discovery suggested different FY2024–25 totals across a survey and a ministerial news report. Neither full primary table was recovered; no comparison adopted. SeeUtkal is project output, not independent corroboration. Source IDs for the existing survey are reused, not counted as separate evidence."
+  "sales_recovery_note": "Search discovery suggested different FY2024–25 totals across a survey and a ministerial news report. Neither full primary table was recovered; no comparison adopted. SeeUtkal is project output, not independent corroboration. Source IDs for the existing survey are reused, not counted as separate evidence.",
+  "technique_revision_history": [
+    {
+      "at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "change": "Replaced four missing/partial technique fields with attributed source descriptions. Original snapshot remains in Git at 27733d4; all three seller specimens retained unchanged.",
+      "previous_run": "2026-10-02-handloom-markets"
+    }
+  ],
+  "maker_credits": [
+    {
+      "id": "surendra-meher",
+      "name": "Surendra Meher",
+      "place": "Barpali, Bargarh",
+      "related_concept_id": "handlooms/sambalpuri-bandha",
+      "relationship_basis": "named_weaver_in_associated_production_centre",
+      "recognition": [
+        {
+          "award": "National Award",
+          "year": 1991,
+          "source_id": "handloom-odisha-awardees",
+          "locator": "Bargarh row3"
+        }
+      ],
+      "source_ids": [
+        "handloom-odisha-awardees"
+      ],
+      "scope": "Place-associated awardee; exact Sambalpuri product attribution requires full central award record.",
+      "piece_attribution": null,
+      "current_workshop_status": null,
+      "income": null,
+      "interview_by_utkal": false
+    },
+    {
+      "id": "chakrapani-patra",
+      "name": "Chakrapani Patra",
+      "place": "Bomkoi/Bomkai, Ganjam",
+      "related_concept_id": "handlooms/bomkai",
+      "relationship_basis": "named_weaver_in_associated_production_centre",
+      "recognition": [
+        {
+          "award": "National Award",
+          "year": 1986,
+          "source_id": "handloom-odisha-awardees",
+          "locator": "Berhampur row1"
+        }
+      ],
+      "source_ids": [
+        "handloom-odisha-awardees"
+      ],
+      "scope": "Place-associated National Awardee; no current workshop or survival status inferred from old state register.",
+      "piece_attribution": null,
+      "current_workshop_status": null,
+      "income": null,
+      "interview_by_utkal": false
+    },
+    {
+      "id": "sarat-kumar-patra",
+      "name": "Sarat Kumar Patra",
+      "place": "Nuapatna, Cuttack",
+      "related_concept_id": "handlooms/khandua",
+      "relationship_basis": "named_weaver_in_associated_production_centre",
+      "recognition": [
+        {
+          "award": "National Award",
+          "year": 1993,
+          "source_id": "handloom-odisha-awardees",
+          "locator": "Athagarh row2"
+        }
+      ],
+      "source_ids": [
+        "handloom-odisha-awardees"
+      ],
+      "scope": "Register prints Sarat Ku. Patra; location connects him to the weaving centre, not a particular Khandua SKU.",
+      "piece_attribution": null,
+      "current_workshop_status": null,
+      "income": null,
+      "interview_by_utkal": false
+    },
+    {
+      "id": "gobardhan-panika",
+      "name": "Gobardhan Panika",
+      "place": "Kotpad, Koraput",
+      "related_concept_id": "handlooms/kotpad",
+      "relationship_basis": "named_weaver_in_associated_production_centre",
+      "recognition": [
+        {
+          "award": "National Award",
+          "year": 2004,
+          "source_id": "handloom-odisha-awardees",
+          "locator": "Koraput row3"
+        },
+        {
+          "award": "Padma Shri",
+          "year": 2018,
+          "source_id": "handloom-padma2018",
+          "locator": "PDF p.3 serial58",
+          "announcement_date": "2018-01-25"
+        }
+      ],
+      "source_ids": [
+        "handloom-odisha-awardees",
+        "handloom-padma2018"
+      ],
+      "scope": "Register spelling Gobardhan Panikar; 2018 MHA list prints Gobaradhan Panika. Spelling variants retained; no current commission availability.",
+      "piece_attribution": null,
+      "current_workshop_status": null,
+      "income": null,
+      "interview_by_utkal": false
+    }
+  ],
+  "maker_leads": [
+    {
+      "name": "Ugrasen Meher",
+      "place": "Chicheiguda, Kalahandi",
+      "related_concept_id": "handlooms/habaspuri",
+      "source_id": "handloom-tribal-crafts-lead",
+      "locator": "Indexed printed p.130",
+      "claim_status": "indexed_account_pending_original_context",
+      "reported_role": "master weaver credited with revival",
+      "date": null,
+      "adopted_as_verified_biography": false,
+      "cooperative_lead": "Chicheiguda handloom cooperative; claimed 2013 formation unverified against registration record",
+      "retry_after": "2026-10-09",
+      "next_action": "Recover report title, date and full passage, then original cooperative registration/current record."
+    }
+  ],
+  "source_conflicts": [
+    {
+      "id": "berhampur-joda-classification",
+      "source_ids": [
+        "handloom-berhampur-tourism-conflict",
+        "handloom-mapping2017",
+        "kotpad-textiles"
+      ],
+      "claim_in_conflict": "Tourism page describes joda as bridal bangles; textile sources describe a men’s textile.",
+      "treatment": "Bangles wording excluded. Use attributed textile description; do not silently fix publisher text or adopt its associated technique/origin narrative.",
+      "resolved_for_use": "textile interpretation used with source attribution; publisher inconsistency remains recorded"
+    },
+    {
+      "id": "kotpad-dye-botany",
+      "source_ids": [
+        "handloom-mapping2017",
+        "kotpad-textiles"
+      ],
+      "claim_in_conflict": "Ghose p.68 calls Aal rubia tinctoria; other institutional accounts use aul-root terminology and a municipal page identifies Morinda citrifolia.",
+      "treatment": "No scientific species name adopted. Retain aul-root vernacular only pending botanical/technical reference.",
+      "discovery_url": "https://sujogportal.odisha.gov.in/kotpad/city/history/"
+    },
+    {
+      "id": "ikat-origin-generalisation",
+      "source_ids": [
+        "handloom-mapping2017"
+      ],
+      "claim_in_conflict": "Report p.68 asserts ikat originated in Odisha without evidence reviewed here establishing global priority.",
+      "treatment": "Not used; technique description does not establish national/global invention priority."
+    }
+  ]
 }

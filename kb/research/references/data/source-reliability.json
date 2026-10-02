@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T11:46:26.258680+00:00",
+  "updated_at": "2026-10-02T12:44:35.236920+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5827,6 +5827,104 @@
       "run_id": "2026-10-02-handloom-markets",
       "status": "unavailable",
       "scope": "Full original PDF unavailable by web/direct retrieval; no numeric adoption; retry9October.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ignca.gov.in/PDF_data/Report_Mapping_Indian_Textiles.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "Full 288-page PDF recovered after resumed download; selected pages extracted, pp.67–68 visually inspected. Attribution to this report, not original fieldwork by Utkal. Bomkai wording overlaps IHB/official compendium; not independent corroboration. Universal ikat-origin assertion and Kotpad dye species withheld."
+    },
+    {
+      "discovery_url": "https://www.indiahandloombrand.gov.in/pages/downloadFile/bomkai-saree.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "One-page original text available. Screenshot timed out. Describes three shuttles, extra warp/weft and Ganjam origin with later Sonepur introduction; undated quantities not current evidence. Final sentence truncated in source; not completed by inference."
+    },
+    {
+      "discovery_url": "https://www.indiahandloombrand.gov.in/pages/downloadFile/khandua-saree.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "One-page original text available. Yarn tying/dyeing and border/pallu distinction used. Undated loom percentages excluded; commercial product and temple-service history remain distinct."
+    },
+    {
+      "discovery_url": "https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "Historical named award records, not an operating maker directory. English names in Odia page; spellings preserved. Private contact details not reproduced. Location alone does not establish exact award-winning product."
+    },
+    {
+      "discovery_url": "https://knowindia.india.gov.in/assets/doc/PadmaAwards2018.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "Names Gobaradhan Panika, Art-Weaving, Odisha. Announcement/approved conferment list; not a ceremony-date record. Text available; screenshot cache miss."
+    },
+    {
+      "discovery_url": "https://www.incredibleindia.gov.in/en/odisha/berhampur-patta-phoda-kumbha-saree-and-joda",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "conflicted",
+      "scope": "Tourism text calls joda bridal bangles and mixes fabric tie-dye with loom description. Joda classification conflicts with IGNCA and saved Development Commissioner textile source. Not adopted as garment/technique evidence; no historical royal chronology inferred."
+    },
+    {
+      "discovery_url": "https://repository.tribal.gov.in/bitstream/123456789/74023/1/SCST_2020_research_0116.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Full primary PDF timed out; alternate repository URL returned404. Indexed account credits Ugrasen Meher and mentions Chicheiguda cooperative, but report date and fieldwork context unresolved. Lead only; family counts, revival chronology and cooperative operating status withheld.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://repository.tribal.gov.in/upload/bitstream/123456789/60886/1/SCST_2020_research_0116.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Alternate URL404; same report, not corroboration.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A2069/lang%3A",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Berhampur cooperative RTI manual web timeout; no registrations adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.indiahandloombrand.gov.in/members/user_list",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Registered-user directory web timeout; no current certification/availability inferred.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/award_details/National%20Awardees%20list%20as%20on%2001.05.2024.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Full PDF timeout; indexed weaving-skill rows are discovery leads, not adopted exact product credits.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handicrafts.nic.in/CmsUpload/12222017102212GI%20BOOK%20FINAL%202-5-17_resized.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Full compendium timeout; overlaps IHB text, not additional corroboration.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://nift.ac.in/gandhinagar/sites/gandhinagar/files/2024-01/GI%20BOOK.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Compendium mirror404; no original retrieved.",
       "retry_after": "2026-10-09"
     }
   ]

@@ -207,3 +207,7 @@ RES-031 remains in progress with retry9October for original books and unavailabl
 ## Handloom market checkpoint · 2 October 2026 UTC
 
 RES-012 checkpoint: six-tradition coverage matrix, three product specifications and institutional market story. Resume missing technique/maker fields next run; sales document subtask retry9October. Completion criteria not yet met.
+
+## Handloom techniques and makers · 2 October 2026 UTC
+
+RES-012 remains in progress after technique/awardee checkpoint. Next: cooperative/registered-user and Berhampuri construction evidence; failed RTI, IHB directory and original Habaspuri report retry9October. Saved financial retry unchanged.

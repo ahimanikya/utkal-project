@@ -145,3 +145,7 @@ Magji and Rasabali now have attributed maker context and a dated fair connection
 ## Handloom market checkpoint · 2 October 2026 UTC
 
 Handloom research draft connects six traditions with production places and qualified seller routes. Three specimen specifications and a seventy-year Boyanika story are ready for editorial review, not publication. No live stock, maker endorsement, media licence, annual growth or export outcome established.
+
+## Handloom techniques and makers · 2 October 2026 UTC
+
+Existing handloom drafts now explain technique differences and credit four named awardees. No product-level maker link, workshop availability or new sales total established. Berhampur joda tourism conflict recorded; human review and image rights remain pending. No website publication.

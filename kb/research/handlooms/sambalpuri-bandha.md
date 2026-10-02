@@ -5,7 +5,7 @@ description: "Sambalpuri Bandha — research and reuse notes."
 tags: ["handlooms", "western-odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "odisha-gis", "title": "Geographical indications of Odisha", "resource": "https://magazines.odisha.gov.in/Orissareview/2020/Apr-May/engpdf/GIs.pdf"}, {"id": "handloom-boyanika-sambalpuri", "title": "Boyanika Sambalpuri specimen 6967/A/BO/78", "resource": "https://boyanika.com/product/black-dark-red-cotton-handloom-sambalpuri-saree/"}, {"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}]
+sources: [{"id": "odisha-gis", "title": "Geographical indications of Odisha", "resource": "https://magazines.odisha.gov.in/Orissareview/2020/Apr-May/engpdf/GIs.pdf"}, {"id": "handloom-boyanika-sambalpuri", "title": "Boyanika Sambalpuri specimen 6967/A/BO/78", "resource": "https://boyanika.com/product/black-dark-red-cotton-handloom-sambalpuri-saree/"}, {"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}, {"id": "handloom-odisha-awardees", "title": "Odisha handloom awardee register", "resource": "https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Western Odisha"
 aliases: ["Sambalpuri Bandha", "sambalpuri bandha"]
@@ -45,3 +45,9 @@ Boyanika route: product specification. SKU 6967/A/BO/78. This identifies a resea
 [Six-tradition market comparison](garments-and-markets.md) connects textile identity with market evidence. Tradition-level revenue and exports remain unknown.
 
 [Related market evidence](garments-and-markets.md) — Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions.
+
+## A named weaving-life research connection
+
+The [Odisha department award register](https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata) lists **Surendra Meher**, associated with Barpali, Bargarh, for 1991. Place-associated awardee; exact Sambalpuri product attribution requires full central award record.
+
+[Maker credits and unresolved attribution](../references/data/handloom-markets.json).

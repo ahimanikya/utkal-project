@@ -388,3 +388,7 @@ RES-031: two maker credits, a reported association role, one January2026 market 
 ## Handloom market checkpoint · 2 October 2026 UTC
 
 RES-012 adds six-tradition market matrix, three dated retrievals of seller specifications, a Boyanika seventy-year story and six source records. Unavailable economic reports and unperiodised turnover held; no annual growth calculated. Classifications, relationships and queue updated; no website publication.
+
+## Handloom techniques and makers · 2 October 2026 UTC
+
+RES-012: full IGNCA-hosted Ghose2017 report recovered; IHB sheets deepen techniques, four named awardee credits added, and seven source/lead records saved. Tourism joda classification and broader source overclaims quarantined. Existing seller specimens/financial holds preserved. No website release.

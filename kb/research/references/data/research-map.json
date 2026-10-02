@@ -2293,7 +2293,9 @@
         "weaving-tourism",
         "handloom-boyanika70-2026",
         "weaving-centres",
-        "handloom-product-range"
+        "handloom-product-range",
+        "handloom-mapping2017",
+        "handloom-berhampur-tourism-conflict"
       ]
     },
     {
@@ -2309,7 +2311,10 @@
       "source_ids": [
         "weaving-centres",
         "handloom-boyanika-bomkai",
-        "handloom-product-range"
+        "handloom-product-range",
+        "handloom-ihb-bomkai",
+        "handloom-mapping2017",
+        "handloom-odisha-awardees"
       ]
     },
     {
@@ -2355,7 +2360,14 @@
         "handloom-boyanika-sambalpuri",
         "handloom-boyanika-bomkai",
         "handloom-boyanika-khandua",
-        "handloom-product-range"
+        "handloom-product-range",
+        "handloom-mapping2017",
+        "handloom-ihb-bomkai",
+        "handloom-ihb-khandua",
+        "handloom-odisha-awardees",
+        "handloom-padma2018",
+        "handloom-berhampur-tourism-conflict",
+        "handloom-tribal-crafts-lead"
       ]
     },
     {
@@ -2370,7 +2382,9 @@
       "subject_ids": [],
       "source_ids": [
         "weaving-centres",
-        "boyanika"
+        "boyanika",
+        "handloom-mapping2017",
+        "handloom-tribal-crafts-lead"
       ]
     },
     {
@@ -2386,7 +2400,9 @@
       "source_ids": [
         "weaving-centres",
         "handloom-boyanika-khandua",
-        "handloom-product-range"
+        "handloom-product-range",
+        "handloom-ihb-khandua",
+        "handloom-odisha-awardees"
       ]
     },
     {
@@ -2402,7 +2418,9 @@
       "source_ids": [
         "kotpad-textiles",
         "handloom-boyanika70-2026",
-        "weaving-centres"
+        "weaving-centres",
+        "handloom-odisha-awardees",
+        "handloom-padma2018"
       ]
     },
     {
@@ -2432,7 +2450,8 @@
       "source_ids": [
         "odisha-gis",
         "handloom-boyanika-sambalpuri",
-        "weaving-centres"
+        "weaving-centres",
+        "handloom-odisha-awardees"
       ]
     },
     {
@@ -18015,9 +18034,138 @@
         "economy"
       ],
       "source_ids": [
-        "handloom-boyanika70-2026"
+        "handloom-boyanika70-2026",
+        "handloom-ihb-bomkai",
+        "handloom-ihb-khandua",
+        "handloom-mapping2017"
       ],
       "added_at": "2026-10-02T11:46:26.258680+00:00"
+    },
+    {
+      "id": "sources/handloom-mapping2017",
+      "title": "Mapping Indian Textiles — Ruchira Ghose",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-mapping2017.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "handloom-mapping2017"
+      ],
+      "added_at": "2026-10-02T12:44:35.236920+00:00"
+    },
+    {
+      "id": "sources/handloom-ihb-bomkai",
+      "title": "India Handloom Brand: Bomkai Saree",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-ihb-bomkai.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "handloom-ihb-bomkai"
+      ],
+      "added_at": "2026-10-02T12:44:35.236920+00:00"
+    },
+    {
+      "id": "sources/handloom-ihb-khandua",
+      "title": "India Handloom Brand: Khandua Saree",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-ihb-khandua.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "handloom-ihb-khandua"
+      ],
+      "added_at": "2026-10-02T12:44:35.236920+00:00"
+    },
+    {
+      "id": "sources/handloom-odisha-awardees",
+      "title": "Odisha handloom awardee register",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-odisha-awardees.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "handloom-odisha-awardees"
+      ],
+      "added_at": "2026-10-02T12:44:35.236920+00:00"
+    },
+    {
+      "id": "sources/handloom-padma2018",
+      "title": "Padma Awards 2018 — Ministry of Home Affairs press note",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-padma2018.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "handloom-padma2018"
+      ],
+      "added_at": "2026-10-02T12:44:35.236920+00:00"
+    },
+    {
+      "id": "sources/handloom-berhampur-tourism-conflict",
+      "title": "Berhampur tourism description — held classification conflict",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-berhampur-tourism-conflict.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "handloom-berhampur-tourism-conflict"
+      ],
+      "added_at": "2026-10-02T12:44:35.236920+00:00"
+    },
+    {
+      "id": "sources/handloom-tribal-crafts-lead",
+      "title": "Tribal crafts study — Habaspuri maker lead",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-tribal-crafts-lead.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "source_ids": [
+        "handloom-tribal-crafts-lead"
+      ],
+      "added_at": "2026-10-02T12:44:35.236920+00:00"
     }
   ],
   "shared_publications": [
@@ -18529,7 +18677,14 @@
         "sources/handloom-boyanika-bomkai.md",
         "sources/handloom-boyanika-khandua.md",
         "sources/handloom-product-range.md",
-        "stories/handlooms-from-loom-to-market.md"
+        "stories/handlooms-from-loom-to-market.md",
+        "sources/handloom-mapping2017.md",
+        "sources/handloom-ihb-bomkai.md",
+        "sources/handloom-ihb-khandua.md",
+        "sources/handloom-odisha-awardees.md",
+        "sources/handloom-padma2018.md",
+        "sources/handloom-berhampur-tourism-conflict.md",
+        "sources/handloom-tribal-crafts-lead.md"
       ],
       "project_records": [
         "kb/research/destinations/central-details.json"
@@ -19375,8 +19530,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1213,
-    "updated_at": "2026-10-02T11:46:26.258680+00:00",
+    "records_mapped": 1220,
+    "updated_at": "2026-10-02T12:44:35.236920+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19917,6 +20072,11 @@
       "run_id": "2026-10-02-handloom-markets",
       "at": "2026-10-02T11:46:26.258680+00:00",
       "scope": "Six new primary publisher source identities and one story; six existing tradition concepts enhanced without duplicating atlas census/export values. Boyanika pages are one institutional publisher, not independent corroboration."
+    },
+    {
+      "run_id": "2026-10-02-handloom-makers",
+      "at": "2026-10-02T12:44:35.236920+00:00",
+      "scope": "Seven source/lead identities extend existing handloom pages and shared maker credits. No duplicate person biography. Overlapping IHB/compendium/Ghose wording not independent corroboration."
     }
   ]
 }

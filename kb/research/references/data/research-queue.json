@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T11:46:26.258680+00:00",
+  "updated_at": "2026-10-02T12:44:35.236920+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1049,10 +1049,10 @@
       "done_when": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
       "target": "handlooms/index.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-02T11:46:26.258680+00:00",
-      "next_step": "Resume missing Habaspuri and Berhampuri construction, Bomkai technical evidence and credited makers/cooperative routes for all six traditions. Reuse three saved Boyanika specimens and matrix. Sales PDF retry 9 October; do not refetch before then without a new route. Task incomplete until six traditions and comparable sales evidence meet done_when.",
+      "last_worked_at": "2026-10-02T12:44:35.236920+00:00",
+      "next_step": "Continue official cooperative/registered-user evidence for six traditions and stronger Berhampuri loom construction; verify piece-level creator links where available. Reuse 2017 mapping study, IHB sheets and four saved awardee credits. Habaspuri original report and sales PDF retry9October; completion criteria not yet met.",
       "evidence_outputs": [
         "handlooms/garments-and-markets.md",
         "handlooms/boyanika.md",
@@ -1063,10 +1063,17 @@
         "sources/handloom-boyanika-bomkai.md",
         "sources/handloom-boyanika-khandua.md",
         "sources/handloom-product-range.md",
-        "stories/handlooms-from-loom-to-market.md"
+        "stories/handlooms-from-loom-to-market.md",
+        "sources/handloom-mapping2017.md",
+        "sources/handloom-ihb-bomkai.md",
+        "sources/handloom-ihb-khandua.md",
+        "sources/handloom-odisha-awardees.md",
+        "sources/handloom-padma2018.md",
+        "sources/handloom-berhampur-tourism-conflict.md",
+        "sources/handloom-tribal-crafts-lead.md"
       ],
       "retry_after": null,
-      "blocker": "Sales PDFs unavailable; retry that evidence on 9 October. Independent technique/maker work remains eligible.",
+      "blocker": "Comparable sales tables and original Habaspuri report remain unavailable, retry9October. Current cooperative/maker and Berhampuri loom evidence can proceed independently.",
       "reuse_before_research": {
         "source_records": [
           "handlooms/index.md",
@@ -1080,7 +1087,14 @@
           "sources/handloom-boyanika-bomkai.md",
           "sources/handloom-boyanika-khandua.md",
           "sources/handloom-product-range.md",
-          "stories/handlooms-from-loom-to-market.md"
+          "stories/handlooms-from-loom-to-market.md",
+          "sources/handloom-mapping2017.md",
+          "sources/handloom-ihb-bomkai.md",
+          "sources/handloom-ihb-khandua.md",
+          "sources/handloom-odisha-awardees.md",
+          "sources/handloom-padma2018.md",
+          "sources/handloom-berhampur-tourism-conflict.md",
+          "sources/handloom-tribal-crafts-lead.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json"
@@ -1095,6 +1109,13 @@
           "outcome": "six_tradition_matrix_and_three_specimens_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Technical construction, named makers and comparable annual sales; PDF retry9October."
+        },
+        {
+          "run_id": "2026-10-02-handloom-makers",
+          "at": "2026-10-02T12:44:35.236920+00:00",
+          "outcome": "techniques_and_named_awardees_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Current maker/cooperative routes, Berhampuri construction, original Habaspuri report and comparable sales."
         }
       ]
     },

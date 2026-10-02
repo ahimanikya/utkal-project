@@ -349,3 +349,7 @@ Five source/lead identities extend existing sweets entries and shared maker cred
 ## Handloom market checkpoint · 2 October 2026 UTC
 
 Six existing textile identities enhanced, six source records and one story added. Repository-native central destination details consulted; no matching textile research found. Existing census and broad textile export observations reused by reference. Multiple Boyanika pages are one publisher, not independent corroboration.
+
+## Handloom techniques and makers · 2 October 2026 UTC
+
+Seven new source/lead records deepen existing textile identities. Ghose2017 recovered as a full document; selected pages reviewed. IHB/compendium overlapping prose treated as a shared family. Maker credits stay in the shared dataset without duplicate biographies.

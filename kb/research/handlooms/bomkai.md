@@ -5,7 +5,7 @@ description: "Bomkai — research and reuse notes."
 tags: ["handlooms", "sonepur-and-boudh-production-centres"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}, {"id": "handloom-boyanika-bomkai", "title": "Boyanika Bomkai specimen 6981/A/BO/76", "resource": "https://boyanika.com/product/dark-green-red-cotton-handloom-bomkai-saree/"}, {"id": "handloom-product-range", "title": "Odisha department: handloom product range", "resource": "https://handloom.odisha.gov.in/en/handloomtab/product-range"}]
+sources: [{"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}, {"id": "handloom-boyanika-bomkai", "title": "Boyanika Bomkai specimen 6981/A/BO/76", "resource": "https://boyanika.com/product/dark-green-red-cotton-handloom-bomkai-saree/"}, {"id": "handloom-product-range", "title": "Odisha department: handloom product range", "resource": "https://handloom.odisha.gov.in/en/handloomtab/product-range"}, {"id": "handloom-ihb-bomkai", "title": "India Handloom Brand: Bomkai Saree", "resource": "https://www.indiahandloombrand.gov.in/pages/downloadFile/bomkai-saree.pdf"}, {"id": "handloom-mapping2017", "title": "Mapping Indian Textiles — Ruchira Ghose", "resource": "https://ignca.gov.in/PDF_data/Report_Mapping_Indian_Textiles.pdf"}, {"id": "handloom-odisha-awardees", "title": "Odisha handloom awardee register", "resource": "https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Sonepur and Boudh production centres"
 aliases: ["Bomkai", "bomkai"]
@@ -45,3 +45,13 @@ Boyanika route: product specification. SKU 6981/A/BO/76. This identifies a resea
 [Six-tradition market comparison](garments-and-markets.md) connects textile identity with market evidence. Tradition-level revenue and exports remain unknown.
 
 [Related market evidence](garments-and-markets.md) — Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions.
+
+## Construction evidence · 2 October 2026
+
+Three-shuttle border; extra warp in border and extra weft in body/pallu, using dobby/jacquard/jala. [India Handloom Brand: Bomkai Saree](https://www.indiahandloombrand.gov.in/pages/downloadFile/bomkai-saree.pdf), IHB p.1. This is a source-attributed technique description, not certification of every marketed piece.
+
+## A named weaving-life research connection
+
+The [Odisha department award register](https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata) lists **Chakrapani Patra**, associated with Bomkoi/Bomkai, Ganjam, for 1986. Place-associated National Awardee; no current workshop or survival status inferred from old state register.
+
+[Maker credits and unresolved attribution](../references/data/handloom-markets.json).

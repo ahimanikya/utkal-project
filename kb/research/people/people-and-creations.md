@@ -109,3 +109,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Mahima Dharma and a credited reading route
 
 [Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.
+
+## Weaving lives: evidence before biographies
+
+[Handloom maker credits](../handlooms/garments-and-markets.md) now preserve four named awardee connections. These are scoped credits, with no invented life histories or current business claims.

@@ -374,3 +374,7 @@ RES-031 Magji/Rasabali checkpoint adds maker testimony and a January2026 market 
 ## Handloom market checkpoint · 2 October 2026 UTC
 
 RES-012: six-tradition matrix and three seller specimens captured. Individual makers, detailed Bomkai/Habaspuri/Berhampuri construction and comparable annual sales remain incomplete. Full department/survey PDFs unavailable; retry9October. Institutional turnover lacks period. Continue independent maker/technique work next run.
+
+## Handloom techniques and makers · 2 October 2026 UTC
+
+RES-012 gains four technique clarifications and four place-associated awardee credits. Current maker/cooperative operation, Berhampuri construction and comparable annual sales remain open. Habaspuri original report unavailable; revival/cooperative lead held until9October. Joda misclassification, botanical species and global ikat-origin claims excluded.

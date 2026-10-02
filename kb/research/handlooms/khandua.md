@@ -5,7 +5,7 @@ description: "Khandua and Nuapatna — research and reuse notes."
 tags: ["handlooms", "nuapatna"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}, {"id": "handloom-boyanika-khandua", "title": "Boyanika Khandua specimen 7928/A/BO/113", "resource": "https://boyanika.com/product/deep-moss-green-dark-red-silk-handloom-khandua-saree/"}, {"id": "handloom-product-range", "title": "Odisha department: handloom product range", "resource": "https://handloom.odisha.gov.in/en/handloomtab/product-range"}]
+sources: [{"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}, {"id": "handloom-boyanika-khandua", "title": "Boyanika Khandua specimen 7928/A/BO/113", "resource": "https://boyanika.com/product/deep-moss-green-dark-red-silk-handloom-khandua-saree/"}, {"id": "handloom-product-range", "title": "Odisha department: handloom product range", "resource": "https://handloom.odisha.gov.in/en/handloomtab/product-range"}, {"id": "handloom-ihb-khandua", "title": "India Handloom Brand: Khandua Saree", "resource": "https://www.indiahandloombrand.gov.in/pages/downloadFile/khandua-saree.pdf"}, {"id": "handloom-odisha-awardees", "title": "Odisha handloom awardee register", "resource": "https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Nuapatna"
 aliases: ["Khandua and Nuapatna", "khandua"]
@@ -45,3 +45,13 @@ Boyanika route: product specification. SKU 7928/A/BO/113. This identifies a rese
 [Six-tradition market comparison](garments-and-markets.md) connects textile identity with market evidence. Tradition-level revenue and exports remain unknown.
 
 [Related market evidence](garments-and-markets.md) — Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions.
+
+## Construction evidence · 2 October 2026
+
+Weft yarn is tied and dyed before weaving; IHB distinguishes warp tie-dyed border from weft tie-dyed pallu. [India Handloom Brand: Khandua Saree](https://www.indiahandloombrand.gov.in/pages/downloadFile/khandua-saree.pdf), IHB PDF p.1. This is a source-attributed technique description, not certification of every marketed piece.
+
+## A named weaving-life research connection
+
+The [Odisha department award register](https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata) lists **Sarat Kumar Patra**, associated with Nuapatna, Cuttack, for 1993. Register prints Sarat Ku. Patra; location connects him to the weaving centre, not a particular Khandua SKU.
+
+[Maker credits and unresolved attribution](../references/data/handloom-markets.json).
