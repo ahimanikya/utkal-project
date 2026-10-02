@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `acc692c0abcce329b96de815610792af4666bc86543571659914c952fd9bc2d7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `24ef7429350de50f5f7aecc496c116594fcf5be8bb6b4cdff011471b0d48196c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -386,6 +386,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-162 · Trace mining revenues and DMF community outcomes | approved | Ahimanikya Satapathy | Approved proposed mining revenue and DMF research; routine KB Git delivery under existing authorization. No outreach, spending or public website story publication. |
 | UTP-DEC-163 · Approve merged mining and DMF research checkpoint | approved | Ahimanikya Satapathy | Founder acceptance of the reported PR65 research checkpoint. Existing source limitations and RES-053 follow-ups remain. This approval does not attest independent factual verification or authorize public story publication. |
 | UTP-DEC-164 · Continue DMF audit reading and service follow-up | approved | Ahimanikya Satapathy | Approved the proposed audit and four-case research follow-up; routine KB validation and Git integration under existing authorization. |
+| UTP-DEC-165 · Approve merged DMF audit and service follow-up | approved | Ahimanikya Satapathy | Founder acceptance of the reported PR66 research follow-up. Financial conflicts and current service/outcome evidence remain open under RES-053; this acceptance does not claim independent factual verification or public story publication. |
 
 ## Reviews
 
@@ -609,7 +610,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-185 | 2026-10-02T15:09:51.214433+00:00 | Authorized batch delivered through PR 61 and successful Pages deployment. Recorded 488 browser review cases and twelve integration/delivery items separately. Preserved source recoveries, integrated 206 additional research entries and reconciled seven redundant research PRs. All 125 live file checks and responsive image checks pass. | Continue the newer research stack and remaining human/source/Google follow-ups. |
 | UTP-EVT-186 | 2026-10-02T18:23:08.583818+00:00 | Pinned four PR 60 commits; reconciled newer main records, held the dependent IMFA total, and validated source/observation preservation. No website change. | Complete remote CI and merge. |
 | UTP-EVT-187 | 2026-10-02T18:29:45.656472+00:00 | PR 62 merged after automated validation. Twelve entries and 44 observations joined main. Dependent ore total remains held; historical employment and current payroll remain distinct. No website deployment. | Keep unresolved evidence follow-ups open. |
 | UTP-EVT-188 | 2026-10-02T19:10:21.927198+00:00 | Three source identities and nine observations added. All previous observation fields and holds retained. Visual checks distinguish workdays, headcount, annual training and purchase orders. Current unit headcount unresolved. | Complete Git review delivery; retain RES-052 follow-ups. |
@@ -619,6 +619,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-192 | 2026-10-02T19:54:47.971793+00:00 | Founder approved the merged PR65 mining and DMF research checkpoint. Source limitations and outstanding service/outcome evidence remain recorded. | RES-053: finish relevant audit reading and seek newer evidence of service operation and community benefit. |
 | UTP-EVT-193 | 2026-10-02T20:31:43.120207+00:00 | Finished scoped chapter reading, corrected sampling description, held six conflicting observations without changing values, and distinguished Parliament schedules from opening dates. | Validate and integrate; retain current-service and reconciliation questions. |
 | UTP-EVT-194 | 2026-10-02T20:38:42.915138+00:00 | PR66 integrated after local checks and GitHub CI passed; 954 numerical values preserved, six observations held for source conflict. | Pursue documented reconciliation and service-evidence gaps; do not infer operating status from absent records. |
+| UTP-EVT-195 | 2026-10-02T20:41:23.471470+00:00 | Founder approved the merged PR66 DMF research follow-up. | Retain and pursue RES-053 financial reconciliation and current-service/community evidence gaps. |
 
 ## Deferred extensions
 
