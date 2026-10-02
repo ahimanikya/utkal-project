@@ -431,3 +431,7 @@ PR64 passed GitHub validation and merged. [Evidence](records/employment-supplier
 ## 2026-10-02 · Mineral revenues and community services
 
 Saved actual/estimate receipt distinctions, six-DMF sample and four dated case bundles with government replies. 48 new observations; previous906 observation records preserved. One original-table percentage discrepancy recorded. RES-053 remains in progress; no public website publication.
+
+## 2026-10-02 · DMF audit and service follow-up
+
+Completed the scoped audit reading, recorded conflicting tables and corrected the sampling description. One parliamentary source added; six existing observations held with original values intact. No current-operation claim established for four case bundles; no website publication. [Record](records/dmf-service-followup-2026-10-02.json).

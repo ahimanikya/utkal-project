@@ -4259,6 +4259,28 @@
       "evidence": [
         "records/mining-community-outcomes-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-147",
+      "title": "Finish scoped DMF audit reading and investigate current services",
+      "category": "research",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-164",
+      "next_action": "Integrate validated bounded checkpoint; retain RES-053 reconciliation and current-service gaps.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-164",
+        "UTP-REV-125"
+      ],
+      "evidence": [
+        "records/dmf-service-followup-2026-10-02.json"
+      ]
     }
   ],
   "decisions": [
@@ -7529,6 +7551,25 @@
       "evidence": [
         "records/mining-community-outcomes-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-164",
+      "title": "Continue DMF audit reading and service follow-up",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's go",
+      "scope": "Approved the proposed audit and four-case research follow-up; routine KB validation and Git integration under existing authorization.",
+      "recorded_at": "2026-10-02T20:31:43.120207+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-147"
+      ],
+      "evidence": [
+        "records/dmf-service-followup-2026-10-02.json"
+      ]
     }
   ],
   "requirements": [
@@ -10492,6 +10533,28 @@
       ],
       "evidence": [
         "records/mining-community-outcomes-2026-10-02.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-125",
+      "title": "DMF source conflicts and service evidence self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No present-day operating or community outcome evidence established for the four cases.",
+        "Financial table conflict and exact revenue crosswalk remain unresolved.",
+        "Source reading is not independent re-audit or exhaustive appendix review."
+      ],
+      "refs": [
+        "UTP-DEC-164",
+        "UTP-WORK-147"
+      ],
+      "evidence": [
+        "records/dmf-service-followup-2026-10-02.json"
       ]
     }
   ],

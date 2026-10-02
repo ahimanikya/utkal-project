@@ -381,3 +381,7 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 RES-053 reuses both CAG source identities, F05 and four existing DMF observations. One new Directorate source and one connected synthesis are added. Four case bundles are recorded in the existing mining programme rather than duplicate place/institution profiles.
+
+### DMF service follow-up · 2 October 2026
+
+Reused the existing CAG source and four case identities. Added one original parliamentary construction schedule, whose dates are planned rather than actual. Relevant audit chapters are now read; six existing observations carry a documented conflict hold after Table 4.1 differed from Table 5.1. No additional numerical observations or duplicate facility profiles. RES-053 remains open for reconciliation, current operation and community evidence.

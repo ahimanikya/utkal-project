@@ -18540,6 +18540,24 @@
         "mining-directorate-revenue"
       ],
       "added_at": "2026-10-02T19:41:47.932986+00:00"
+    },
+    {
+      "id": "sources/mining-npcc-rs2970-2023",
+      "title": "Rajya Sabha question 2970: NPCC completed and ongoing projects, 27 March 2023",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-npcc-rs2970-2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-npcc-rs2970-2023"
+      ],
+      "added_at": "2026-10-02T20:29:38.611603+00:00"
     }
   ],
   "shared_publications": [
@@ -19721,13 +19739,19 @@
         "economy/dmf-community-outcomes.md",
         "sources/mining-cag-dmf2026.md",
         "sources/macro-cag-fy2025.md",
-        "statistics/public-finance-audit.md"
+        "statistics/public-finance-audit.md",
+        "sources/mining-npcc-rs2970-2023.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "status_unchanged": "in_progress",
       "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
-      "next_evidence": "Reconcile exact receipt heads; finish remaining relevant CAG sections; recover post-January2026 operation records for the four cases and balanced community outcomes."
+      "next_evidence": [
+        "Obtain reconciled/clarified Table 4.1 versus Table 5.1 figures; retain source-specific values and holds until then.",
+        "Recover post-January 2026, facility-matched commissioning, staffing and service-use records for the four case bundles.",
+        "Find dated published beneficiary/community evidence and a broader outcome sample; functioning alone does not establish impact.",
+        "Complete the finance-accounting head crosswalk for the retained 0.73 crore revenue difference."
+      ]
     },
     {
       "task_id": "RES-054",
@@ -19938,8 +19962,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1239,
-    "updated_at": "2026-10-02T19:41:47.932986+00:00",
+    "records_mapped": 1240,
+    "updated_at": "2026-10-02T20:29:38.611603+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20526,6 +20550,10 @@
     {
       "run_id": "2026-10-02-mining-community-outcomes",
       "scope": "One source and one synthesis extend existing mining and CAG identities; six DMFs, four case bundles, no duplicate observation identities."
+    },
+    {
+      "run_id": "2026-10-02-dmf-service-followup",
+      "scope": "Reused CAG and four existing case identities; added one Parliament schedule source, no duplicate facility profiles or new statistical observations. Six existing observations held for source conflict."
     }
   ]
 }

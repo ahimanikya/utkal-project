@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T19:41:47.932986+00:00",
-  "run_id": "2026-10-02-mining-community-outcomes",
+  "updated_at": "2026-10-02T20:29:38.611603+00:00",
+  "run_id": "2026-10-02-dmf-service-followup",
   "angles": [
     {
       "id": "minerals",
@@ -2605,7 +2605,7 @@
         "cost_observation_id": "dmf-vyasanagar-market-cafe-cost"
       }
     ],
-    "scope": "Six purposively selected audit DMFs; four named case bundles, not a random impact evaluation or statewide failure rate.",
+    "scope": "§1.5 describes risk-stratified random selection using collection, spending and tribal-population parameters, plus Mayurbhanj added following fraud-related media reports. Block selection mixes highest project counts and random selection; Gram Panchayats were randomly selected. The four extracted problem-case bundles are not a random sample of all projects and cannot estimate statewide failure prevalence.",
     "receipt_reconciliation": {
       "source_ids": [
         "macro-cag-fy2025",
@@ -2631,6 +2631,278 @@
       "Read remaining relevant CAG collection/planning/fund-management/implementation chapter sections, with replies, before claiming full audit review.",
       "Recover post-January2026 operating evidence for named cases; add positive/control cases without selecting only audit failures.",
       "Seek published outcome data and affected-community testimony; no contact authorized or sent in this batch."
+    ],
+    "completion_criteria_met": false,
+    "human_review_claimed": false,
+    "website_publication": false,
+    "subsequent_corrections": [
+      {
+        "at": "2026-10-02T20:29:38.611603+00:00",
+        "run_id": "2026-10-02-dmf-service-followup",
+        "field": "scope",
+        "previous_description": "Six purposively selected audit DMFs",
+        "correction": "§1.5 describes risk-stratified random selection using collection, spending and tribal-population parameters, plus Mayurbhanj added following fraud-related media reports. Block selection mixes highest project counts and random selection; Gram Panchayats were randomly selected. The four extracted problem-case bundles are not a random sample of all projects and cannot estimate statewide failure prevalence.",
+        "financial_use_note": "See dmf_service_followup.table_conflict before reusing checkpoint totals or ratios."
+      }
+    ]
+  },
+  "dmf_service_followup": {
+    "run_id": "2026-10-02-dmf-service-followup",
+    "checked_at": "2026-10-02T20:29:38.611603+00:00",
+    "source_checks": [
+      {
+        "source_id": "mining-cag-dmf2026",
+        "checked_at": "2026-10-02T20:29:38.611603+00:00",
+        "resource": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf",
+        "sha256": "e7af4a6bb071df183518d50d7794af2f1616f72227c918cae6cededb49154ac5",
+        "locator": "§1.5 and Chapters III–VIII, cumulative reading coverage; Table 4.1 printed p. 24 / PDF p. 58 visually checked",
+        "scope": "Source reading, not independent re-audit or present-day inspection."
+      },
+      {
+        "source_id": "mining-npcc-rs2970-2023",
+        "checked_at": "2026-10-02T20:29:38.611603+00:00",
+        "resource": "https://sansad.in/getFile/annex/259/AU2970.pdf?source=pqars",
+        "sha256": "eaf5af2d4c45ac3c86e5729463447dd9a4f351fb3859bfc012ca6fe8139a1c1e",
+        "locator": "Answer p. 1; Annexure IV heading p. 5; rows 193 and 213, PDF p. 12",
+        "scope": "Source reading, not independent re-audit or present-day inspection."
+      }
+    ],
+    "reading_coverage": [
+      {
+        "section": "§1.5",
+        "printed_pages": "4–6",
+        "scope": "Audit design, selection and government-response process"
+      },
+      {
+        "section": "Chapter III",
+        "printed_pages": "11–18",
+        "scope": "Collection and reconciliation findings, including government replies"
+      },
+      {
+        "section": "Chapter IV",
+        "printed_pages": "19–28",
+        "scope": "Plans, affected areas/people and project approval; Table 4.1 visually checked"
+      },
+      {
+        "section": "Chapter V",
+        "printed_pages": "29–40",
+        "scope": "Fund management, expenditure, recoveries and utilisation certificates; builds on earlier Tables 5.1–5.2 review"
+      },
+      {
+        "section": "Chapter VI",
+        "printed_pages": "41–75",
+        "scope": "Implementation findings and replies, including all four case bundles and functional stadium context"
+      },
+      {
+        "section": "Chapter VII",
+        "printed_pages": "77–81",
+        "scope": "Monitoring and transparency; retained earlier complete chapter reading"
+      },
+      {
+        "section": "Chapter VIII",
+        "printed_pages": "83–90",
+        "scope": "Conclusion and recommendations"
+      }
+    ],
+    "reading_limits": "Chapters III–VIII and §1.5 read across this and prior captures. Not an exhaustive appendix review, verification of underlying vouchers, legal re-audit or independent field visit. Chapters I–II outside §1.5 not claimed complete.",
+    "sampling_correction": "§1.5 describes risk-stratified random selection using collection, spending and tribal-population parameters, plus Mayurbhanj added following fraud-related media reports. Block selection mixes highest project counts and random selection; Gram Panchayats were randomly selected. The four extracted problem-case bundles are not a random sample of all projects and cannot estimate statewide failure prevalence.",
+    "table_conflict": {
+      "id": "dmf-table4-1-vs5-1",
+      "source_id": "mining-cag-dmf2026",
+      "status": "unresolved_source_internal_conflict",
+      "period": "FY2015–16 to FY2023–24",
+      "unit": "INR crore",
+      "locators": {
+        "table4_1": "Printed p. 24 / PDF p. 58",
+        "table5_1": "Printed p. 29 / PDF p. 65"
+      },
+      "rows": [
+        {
+          "geography": "Six test-checked DMFs",
+          "metric": "Funds released",
+          "table4_1": 13160.84,
+          "table5_1": 13160.75,
+          "difference": 0.09
+        },
+        {
+          "geography": "Six test-checked DMFs",
+          "metric": "Funds utilised",
+          "table4_1": 10104.28,
+          "table5_1": 10092.53,
+          "difference": 11.75
+        },
+        {
+          "geography": "Dhenkanal DMF",
+          "metric": "Funds released",
+          "table4_1": 56.48,
+          "table5_1": 56.39,
+          "difference": 0.09
+        },
+        {
+          "geography": "Dhenkanal DMF",
+          "metric": "Funds utilised",
+          "table4_1": 55.89,
+          "table5_1": 44.14,
+          "difference": 11.75
+        },
+        {
+          "geography": "Jajpur DMF",
+          "metric": "Funds utilised",
+          "table4_1": 1164.43,
+          "table5_1": 1164.42,
+          "difference": 0.01
+        }
+      ],
+      "table4_1_row_sum_check": {
+        "expenditure_row_sum": 10104.29,
+        "printed_total": 10104.28,
+        "difference": 0.01,
+        "interpretation": "Possible rounding or source error; not resolved."
+      },
+      "policy": "Retain both printed versions. Do not replace Table 5.1 silently or promote either as reconciled. Table 5.4 repeats Table 5.1 amounts within the same report; that is not independent corroboration."
+    },
+    "affected_observation_ids": [
+      "mining-dmf-spending-sample-2024",
+      "mining-dmf-utilisation-sample-2024",
+      "dmf-released-sample-2024",
+      "dmf-dhenkanal-released-2024",
+      "dmf-dhenkanal-utilised-2024",
+      "dmf-jajpur-utilised-2024"
+    ],
+    "case_results": [
+      {
+        "case_id": "dmf-keonjhar-nicu-picu",
+        "checked_at": "2026-10-02T20:29:38.611603+00:00",
+        "audit_source_id": "mining-cag-dmf2026",
+        "last_verified_basis": "Audit observations in2024–25 and government repliesJanuary2026; not a liveOctober2026 inspection",
+        "current_operation": "not_verified",
+        "community_outcome": "not_established",
+        "next_evidence": "Dated commissioning and duty-roster records, de-identified admission/service aggregates and independent patient/community accounts.",
+        "search_result": "Bed-inventory lead for Dharanidhar Medical College is not a verified match to the DHH DMF units; no commissioning, staff or admissions record recovered.",
+        "lead_ids": [
+          "keonjhar-beds",
+          "keonjhar-sitemap",
+          "dmf-keonjhar-portal"
+        ]
+      },
+      {
+        "case_id": "dmf-deogan-hostels",
+        "checked_at": "2026-10-02T20:29:38.611603+00:00",
+        "audit_source_id": "mining-cag-dmf2026",
+        "last_verified_basis": "Audit observations in2024–25 and government repliesJanuary2026; not a liveOctober2026 inspection",
+        "current_operation": "not_verified",
+        "community_outcome": "not_established",
+        "next_evidence": "Utility connections, handover/occupation certificates, staffing and anonymised occupancy by term.",
+        "search_result": "No matched later utility, handover or occupancy record recovered in bounded official-site searches. Same-named villages and older Deogan Ashram School stories were not treated as this Sukinda boys/girls hostel bundle.",
+        "lead_ids": [
+          "dmf-jajpur-portal"
+        ]
+      },
+      {
+        "case_id": "dmf-sundargarh-digital-medical-records",
+        "checked_at": "2026-10-02T20:29:38.611603+00:00",
+        "audit_source_id": "mining-cag-dmf2026",
+        "last_verified_basis": "Audit observations in2024–25 and government repliesJanuary2026; not a liveOctober2026 inspection",
+        "current_operation": "not_verified",
+        "community_outcome": "not_established",
+        "next_evidence": "System migration/asset redeployment records and dated evidence of records successfully used in care; do not infer all healthcare at these hospitals stopped.",
+        "search_result": "Historical digital-record proposal and a general PMU tender do not verify restoration, migration or routine use at the three named hospitals.",
+        "lead_ids": [
+          "sundargarh-annual2017",
+          "sundargarh-pmu2026",
+          "dmf-sundargarh-portal"
+        ]
+      },
+      {
+        "case_id": "dmf-vyasanagar-market-cafe",
+        "checked_at": "2026-10-02T20:29:38.611603+00:00",
+        "audit_source_id": "mining-cag-dmf2026",
+        "last_verified_basis": "Audit observations in2024–25 and government repliesJanuary2026; not a liveOctober2026 inspection",
+        "current_operation": "not_verified",
+        "community_outcome": "not_established",
+        "next_evidence": "Allotment and opening records, dated activity, tenant/SHG revenue and beneficiary testimony, with costs split by facility.",
+        "search_result": "Original Parliament reply adds a dated planning record, not current operation. Café title must not be confused with Mission Shakti Cinema or other SHG facilities.",
+        "lead_ids": [
+          "dmf-jajpur-portal"
+        ],
+        "additional_source_ids": [
+          "mining-npcc-rs2970-2023"
+        ],
+        "planning_dates": [
+          {
+            "facility": "Wholesale market, Vyasanagar",
+            "row": 193,
+            "scheduled_completion": "2023-04-27"
+          },
+          {
+            "facility": "Mission Shakti Café, Vyasanagar",
+            "row": 213,
+            "scheduled_completion": "2023-11-25"
+          }
+        ],
+        "planning_date_scope": "Annexure IV of reply dated 27 March 2023; dates scheduled, not actual. No shared project ID independently established. Same name/locality/client supports a candidate match only."
+      }
+    ],
+    "search_leads": [
+      {
+        "id": "keonjhar-beds",
+        "resource": "https://gmchkeonjhar.odisha.gov.in/ipd_departments_unit_wise_bed_distribution_details/",
+        "status": "discovery_only_body_unavailable",
+        "reason": "Search index lists NICU/PICU beds, but direct web retrieval failed and shell request timed out. No dated operating record or match to the DMF equipment. Counts not promoted."
+      },
+      {
+        "id": "keonjhar-sitemap",
+        "resource": "https://gmchkeonjhar.odisha.gov.in/sitemap/",
+        "status": "discovery_only_body_unavailable",
+        "reason": "Clinical-material link candidate; web and shell retrieval timed out. Footer/index crawl dates are not service dates."
+      },
+      {
+        "id": "sundargarh-annual2017",
+        "resource": "https://dmf.odisha.gov.in/portal/uploads/publication_documents/DMF7261688631587.pdf",
+        "status": "historical_search_lead_only",
+        "reason": "Indexed as Annual Report 2017–18; description of a digital-record proposal cannot establish post-2026 use. Full document not reviewed."
+      },
+      {
+        "id": "sundargarh-pmu2026",
+        "resource": "https://sundargarh.odisha.gov.in/en/tender/rfp-selection-agency-establishment-and-running-programme-management-unit-district-mineral",
+        "status": "tender_search_lead_only",
+        "reason": "2026 PMU procurement is not an award, working medical-record system or service outcome. Full tender not reviewed."
+      },
+      {
+        "id": "dmf-jajpur-portal",
+        "resource": "https://dmf.odisha.gov.in/district/JAJPUR",
+        "status": "retrieval_failed",
+        "reason": "Direct web retrieval returned internal error; absence of a captured update does not establish no remediation."
+      },
+      {
+        "id": "dmf-keonjhar-portal",
+        "resource": "https://dmf.odisha.gov.in/district/KEONJHAR",
+        "status": "retrieval_failed",
+        "reason": "Direct web retrieval returned internal error; absence of a captured update does not establish no remediation."
+      },
+      {
+        "id": "dmf-sundargarh-portal",
+        "resource": "https://dmf.odisha.gov.in/district/SUNDARGARH",
+        "status": "retrieval_failed",
+        "reason": "Direct web retrieval returned internal error; absence of a captured update does not establish no remediation."
+      }
+    ],
+    "search_limit": "Bounded public web and official-domain retrieval. Not all public records searched; unsuccessful retrieval is not proof of continued closure. No outreach or personal patient/student data collected.",
+    "functional_asset_context": {
+      "source_id": "mining-cag-dmf2026",
+      "name": "Birsa Munda International Hockey Stadium, Rourkela",
+      "locator": "§6.5.1, printed p. 46 / PDF p. 84",
+      "functionality": "CAG recorded functional at joint verification in January 2025.",
+      "eligibility": "CAG separately challenged eligibility of DMF expenditure and benefit to mining-affected residents.",
+      "government_reply": "January 2026: critical project in larger public interest, with Sports and Youth Services permission.",
+      "audit_response": "CAG said that department could not authorize this use of DMF funds.",
+      "interpretation": "Operation, funding eligibility, beneficiary access and impact are distinct questions. This is contextual evidence, not a control group or proof of community benefit."
+    },
+    "next_evidence": [
+      "Obtain reconciled/clarified Table 4.1 versus Table 5.1 figures; retain source-specific values and holds until then.",
+      "Recover post-January 2026, facility-matched commissioning, staffing and service-use records for the four case bundles.",
+      "Find dated published beneficiary/community evidence and a broader outcome sample; functioning alone does not establish impact.",
+      "Complete the finance-accounting head crosswalk for the retained 0.73 crore revenue difference."
     ],
     "completion_criteria_met": false,
     "human_review_claimed": false,

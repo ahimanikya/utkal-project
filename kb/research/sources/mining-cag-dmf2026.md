@@ -19,3 +19,9 @@ Comptroller and Auditor General of India. Audit covers 2015–16 to 2023–24. A
 ## Mining and community services · 2026-10-02
 
 Original PDF reinspection: Tables5.1–5.2 (printed pp.29–30 / PDF pp.65–66) visually checked; complete selected paragraphs6.6.1–6.6.6 and6.6.9, plus ChapterVII pp.77–81 and collection context3.2.1 read. Government repliesJanuary2026 retained. Prose79.69% differs from Table5.1’s76.69%; raw expenditure/releases give76.69%. Table5.2’s rupee heading conflicts with count columns/narrative. Neither discrepancy silently changed. Remaining audit sections still need reading. [Community-service cases](../economy/dmf-community-outcomes.md).
+
+## Follow-up · 2 October 2026
+
+The earlier selected-section capture above is historical. Cumulative reading now covers §1.5 and Chapters III–VIII, including government replies and recommendations. Appendices and underlying vouchers have not been exhaustively reviewed. The original sampling description combines stratified random selection with an additional risk-based district; the earlier blanket “purposive” description is corrected in structured history.
+
+Table 4.1 (printed p. 24 / PDF p. 58, visually checked) conflicts with Table 5.1 for Dhenkanal/Jajpur and sample totals. Six existing observations retain values but carry a conflict hold. [Full comparison and four case follow-ups](../economy/dmf-community-outcomes.md). Newer operating status and community outcomes remain unverified. The stadium example in §6.5.1 distinguishes recorded operation from disputed DMF funding eligibility.
