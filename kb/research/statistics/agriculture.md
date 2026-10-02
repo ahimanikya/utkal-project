@@ -70,3 +70,15 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Science connections · 1 October 2026
 
 [Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
+
+[Rice economics](../economy/rice-economy.md) adds a 2023–24 production baseline and KMS procurement/price evidence with rice and paddy kept separate. Exact observations are in the atlas; current variety-level prices and profit remain unknown.
+
+[Rice’s comparable historical trend](../stories/rice-productivity.md) now retains consecutive annual observations and adverse years. [Rice economics](../economy/rice-economy.md) separates those crop measures from experimental returns and unresolved procurement payments.
+
+## Regional cost evidence · 2 October 2026 UTC
+
+[The paddy cost case](../stories/rice-income-after-costs.md) adds eight source-located observations. Survey/valuation year remains unspecified, so these do not enter time-series comparisons or statewide farmer-income totals. The source reports costs including family labour and land; source definition conflicts remain visible in the rice register.
+
+## Procurement payment scope · 2 October 2026 UTC
+
+The [rice payment story](../stories/rice-procurement-payments.md) adds the later department report with eleven scoped observations. Its 2023–24 MSP amount agrees with the saved volume at common MSP after rounding. The 2024–25 payment includes assistance; do not calculate like-for-like growth against MSP alone. Seasonal seller counts remain separate, and financial-year physical totals are not marketing-year revisions.

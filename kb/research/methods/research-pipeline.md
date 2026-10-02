@@ -179,3 +179,39 @@ RES-039 saves five new food entries and a connected collection, reusing chatu pa
 ## Pala research checkpoint · 1 October 2026
 
 User-requested RES-040 adds Pala as an arts/everyday-life topic, six source records and structured performance/archive evidence. Existing source and repository-native searches found no Pala identity. The 2012 review preserves named women performers and separates Pala from Daskathia. Foundation pages share provenance; the award biography has a likely derivative foundation version. Two government PDFs remain indexed-only, retry 8 October. Origin chronology, local roles, biographies, recordings/rights and livelihoods need further evidence; no current troupe or audience totals asserted.
+
+## KISS records and account vintages · 2 October2026 UTC
+
+RES-047 checkpoint saved and deferred to9October for primary evidence gaps. RES-040 and RES-048 also have future retries. Continue RES-049 Yogini/Tantric source research next, searching its reuse pointers first.
+
+## Yogini heritage · 2 October 2026 UTC
+
+RES-049 bounded two-site/context deliverable complete, with unresolved dates, patronage, counts and practice preserved. Next eligible task is RES-050 Mahima Dharma and Bhima Bhoi; inspect native literary reuse pointers before browsing.
+
+## Mahima Dharma and English reading · 2 October2026 UTC
+
+RES-050 bounded deliverable completed with biographical uncertainty retained. Next eligible pending task: RES-031 Rasagola and sweets economics. Preserve future retries for earlier blocked tasks.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+RES-031 checkpoint saved and remains the next eligible continuation. Deepen Nimapada Jhili and Old Town Korakhai, then original Magji histories and Rasabali accounts. Unavailable SDG/Industries captures deferred to9October; no need to wait on them before independent work within this task.
+
+## Sweet makers and town commerce · 2 October 2026 UTC
+
+RES-031 continues with Magji original histories and Rasabali dated producer accounts. Jhili and Korakhai checkpoint saved; reuse before browsing. Retry dates remain attached to inaccessible or method-limited evidence. No need to repeat current maker searches next run.
+
+## Sweet histories and market evidence · 2 October 2026 UTC
+
+RES-031 remains in progress with retry 9 October for original books and unavailable support/enterprise documents. Its useful local checkpoint is preserved. Next independent eligible task: RES-012 handloom techniques, makers and sales; use existing textile/source records before browsing.
+
+## Handloom market checkpoint · 2 October 2026 UTC
+
+RES-012 checkpoint: six-tradition coverage matrix, three product specifications and institutional market story. Resume missing technique/maker fields next run; sales document subtask retry 9 October. Completion criteria not yet met.
+
+## Handloom techniques and makers · 2 October 2026 UTC
+
+RES-012 remains in progress after technique/awardee checkpoint. Next: cooperative/registered-user and Berhampuri construction evidence; failed RTI, IHB directory and original Habaspuri report retry 9 October. Saved financial retry unchanged.
+
+## Handloom cooperatives and creations · 2 October 2026 UTC
+
+RES-012 checkpoint saved with 9 October retry for remaining financial/original-document gaps. Earliest eligible independent pending task is RES-052. No further same-source handloom discovery needed before the dated retry.

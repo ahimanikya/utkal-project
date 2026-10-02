@@ -18,3 +18,7 @@ Textile traditions, production places and buying research.
 [Garment forms, traditions and markets](garments-and-markets.md)
 
 [Woven in Odisha story data](../culture/textile-stories.json) · [Technique and source follow-up](../sources/textile-story-research.md). Three stories prepared for editorial review; live maker access and the broader RES-012 research remain open.
+
+## Techniques, makers and markets
+
+[Six-tradition evidence comparison](garments-and-markets.md) · [Boyanika’s institutional journey](boyanika.md) · [Story draft: from loom to market](../stories/handlooms-from-loom-to-market.md). Three seller specimens now distinguish fibre and technique; maker attribution and comparable annual sales remain open.

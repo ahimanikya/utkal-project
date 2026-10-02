@@ -1,0 +1,86 @@
+[
+  {
+    "check": "draft-build",
+    "command": "npm run build",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 11.5
+  },
+  {
+    "check": "site-tests",
+    "command": "npm test",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 1.36
+  },
+  {
+    "check": "coast-build",
+    "command": "npm run build:coast",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 13.41
+  },
+  {
+    "check": "coast-tests",
+    "command": "npm run test:coast",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 1.32
+  },
+  {
+    "check": "coast-audit",
+    "command": "python3 tools/audit-coast.py",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 1.05
+  },
+  {
+    "check": "discovery-audit",
+    "command": "python3 tools/audit-discovery.py",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 0.43
+  },
+  {
+    "check": "search-review",
+    "command": "node tools/prepare-search-review.mjs",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 0.48
+  },
+  {
+    "check": "launch-audit",
+    "command": "python3 tools/audit-launch-readiness.py",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 0.47
+  },
+  {
+    "check": "publication-build",
+    "command": "npm run build:publication",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 0.6
+  },
+  {
+    "check": "shortlist-audit",
+    "command": "python3 tools/audit-search-shortlist.py",
+    "directory": "projects/site",
+    "exit_code": 0,
+    "seconds": 0.48
+  },
+  {
+    "check": "design-gallery",
+    "command": "npm run review",
+    "directory": "projects/design-system",
+    "exit_code": 0,
+    "seconds": 1.25
+  },
+  {
+    "check": "design-tests",
+    "command": "npm test",
+    "directory": "projects/design-system",
+    "exit_code": 0,
+    "seconds": 0.36
+  }
+]

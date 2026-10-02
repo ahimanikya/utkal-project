@@ -15,3 +15,7 @@ Explore Odisha as a place to live, learn, work, create and visit. These nine fam
 [Statistical atlas](../statistics/index.md) · [Visitor collection](../visitor-index/index.md) · [Knowledge home](../index.md)
 
 [Connected collections](../collections/index.md): Made in Odisha, Life in Odisha and dated progress cards.
+
+## Read across subjects
+
+The [whole-encyclopedia scope](../about/encyclopedia-scope.md) makes ten reading areas explicit: places, people, food, economy/livelihoods, culture, heritage, literature, science, geopolitics, and religion/spirituality. [Odisha in the world](../collections/odisha-and-world.md) and [religion and spirituality](../collections/religion-and-spirituality.md) connect existing records across subject boundaries.

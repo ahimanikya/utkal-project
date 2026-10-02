@@ -565,7 +565,9 @@
       ],
       "source_ids": [
         "performers-srjan-milestones",
-        "performers-ignca-archives"
+        "performers-ignca-archives",
+        "dance-sujata-kelucharan",
+        "dance-raut-interview"
       ],
       "checked_on": "2026-10-01",
       "work_ids": [
@@ -2056,6 +2058,120 @@
       ],
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null
+    },
+    {
+      "id": "people/hariprasad-chaurasia",
+      "name": "Hariprasad Chaurasia",
+      "fields": [
+        "Hindustani flute",
+        "music teaching",
+        "film music direction"
+      ],
+      "odisha_connection": {
+        "description": "AIR Cuttack career and Bhubaneswar Gurukul; birthplace recorded as Allahabad, not an assertion of Odia identity.",
+        "source_ids": [
+          "music-chaurasia-gurukul",
+          "music-gurukul-events"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented institutional connection",
+          "basis": "AIR Cuttack career and Bhubaneswar Gurukul; birthplace recorded as Allahabad, not an assertion of Odia identity.",
+          "source_ids": [
+            "music-chaurasia-gurukul",
+            "music-gurukul-events"
+          ]
+        }
+      ],
+      "source_ids": [
+        "music-chaurasia-gurukul",
+        "music-gurukul-events",
+        "music-breath-gold-publisher",
+        "music-gapa-label",
+        "music-chaurasia-cinemaazi"
+      ],
+      "checked_on": "2026-10-01",
+      "work_ids": [
+        "works/e-banara-chai-gapa-label",
+        "works/jaya-jadu-nandan-gapa-label",
+        "works/saathi-re-jaa-kahi-gapa-label"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "reading_routes": [
+        {
+          "title": "Breath of Gold: Hariprasad Chaurasia",
+          "author": "Sathya Saran",
+          "subject_person_id": "people/hariprasad-chaurasia",
+          "language": "English",
+          "imprint": "Ebury Press",
+          "edition_date": "2019-12",
+          "format": "hardback",
+          "isbn": "9780670092512",
+          "pages": 288,
+          "source_ids": [
+            "music-breath-gold-publisher"
+          ],
+          "full_text_inspected": false,
+          "book_price_or_stock_verified": false
+        }
+      ]
+    },
+    {
+      "id": "people/achyuta-samanta",
+      "name": "Achyuta Samanta",
+      "fields": [
+        "education institutions",
+        "social entrepreneurship"
+      ],
+      "odisha_connection": {
+        "description": "Kalarabanka upbringing in KISS institutional account; founding of Odisha-based KIIT and KISS.",
+        "source_ids": [
+          "education-kiit-history",
+          "education-kiss-history",
+          "education-dhe-universities"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented institutional connection",
+          "basis": "Kalarabanka upbringing in KISS institutional account; founding of Odisha-based KIIT and KISS.",
+          "source_ids": [
+            "education-kiit-history",
+            "education-kiss-history",
+            "education-dhe-universities"
+          ]
+        },
+        {
+          "scope": "national parliamentary service",
+          "basis": "Official biography records Rajya Sabha 2018–2019 and election to 17th Lok Sabha in May 2019 for Kandhamal; historical service, not current office.",
+          "source_ids": [
+            "people-samanta-sansad17"
+          ]
+        }
+      ],
+      "source_ids": [
+        "education-kiit-history",
+        "education-kiss-history",
+        "education-dhe-universities",
+        "education-kiss-notification2017",
+        "education-kiit-notification2017",
+        "people-samanta-sansad17",
+        "education-kiss-accounts2025",
+        "education-kiss-nirf2025",
+        "education-kiss-aqar2024",
+        "education-kiss-asci2022",
+        "education-kiss-annual2022",
+        "education-finnan-childhood2017",
+        "education-kiss-accounts2024",
+        "education-kiss-alumni-certificate2017"
+      ],
+      "checked_on": "2026-10-02",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null,
+      "research_checkpoint": "references/data/culture-learning.json#/kiss_outcomes_checkpoint"
     }
   ],
   "works": [
@@ -4363,6 +4479,289 @@
       "checked_on": "2026-10-01",
       "full_text_reuse_rights": null,
       "live_stock": null
+    },
+    {
+      "id": "works/e-banara-chai-gapa-label",
+      "title": "E Banara Chai — Saregama label chapter",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/hariprasad-chaurasia",
+          "role": "joint_music_director_as_member_of_Bhuban-Hari",
+          "source_ids": [
+            "music-gapa-label",
+            "music-chaurasia-cinemaazi"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Bhubaneswar Mishra",
+          "role": "joint_music_director_as_member_of_Bhuban-Hari",
+          "source_ids": [
+            "music-gapa-label",
+            "music-chaurasia-cinemaazi"
+          ]
+        },
+        {
+          "name": "Gurukrushna Goswami",
+          "role": "lyricist",
+          "source_ids": [
+            "music-gapa-label"
+          ]
+        },
+        {
+          "name": "Amit Kumar",
+          "role": "singer",
+          "source_ids": [
+            "music-gapa-label"
+          ]
+        },
+        {
+          "name": "Suman Kalyanpur",
+          "role": "singer",
+          "source_ids": [
+            "music-gapa-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "container_title": "Gapa Helebi Sata",
+        "container_kind": "three_song_label_video",
+        "upload_date": "2023-11-01",
+        "chapter_start_seconds": 5
+      },
+      "source_ids": [
+        "music-gapa-label",
+        "music-chaurasia-cinemaazi"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "recording_date": null,
+      "original_release_date": null,
+      "isrc": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=75AQNxffwqA&t=5s",
+        "provider": "Saregama Odia",
+        "status": "first_chapter_muted_progression_observed",
+        "playback_tested": true,
+        "audio_listened": false,
+        "entire_recording_reviewed": false,
+        "signed_out_access_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null,
+        "test_scope": "First chapter only sampled00:05→00:07→00:25 in current signed-in session; other timestamps read from label description."
+      },
+      "scope_note": "Label credits the duo; institution identifies its members. No isolated flute-player credit or sole-composer claim. Three chapter records share one upload; not three albums or independent evidence sources."
+    },
+    {
+      "id": "works/jaya-jadu-nandan-gapa-label",
+      "title": "Jaya Jadu Nandan — Saregama label chapter",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/hariprasad-chaurasia",
+          "role": "joint_music_director_as_member_of_Bhuban-Hari",
+          "source_ids": [
+            "music-gapa-label",
+            "music-chaurasia-cinemaazi"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Bhubaneswar Mishra",
+          "role": "joint_music_director_as_member_of_Bhuban-Hari",
+          "source_ids": [
+            "music-gapa-label",
+            "music-chaurasia-cinemaazi"
+          ]
+        },
+        {
+          "name": "Gurukrushna Goswami",
+          "role": "lyricist",
+          "source_ids": [
+            "music-gapa-label"
+          ]
+        },
+        {
+          "name": "Suman Kalyanpur",
+          "role": "singer",
+          "source_ids": [
+            "music-gapa-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "container_title": "Gapa Helebi Sata",
+        "container_kind": "three_song_label_video",
+        "upload_date": "2023-11-01",
+        "chapter_start_seconds": 196
+      },
+      "source_ids": [
+        "music-gapa-label",
+        "music-chaurasia-cinemaazi"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "recording_date": null,
+      "original_release_date": null,
+      "isrc": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=75AQNxffwqA&t=196s",
+        "provider": "Saregama Odia",
+        "status": "chapter_and_credits_verified_not_individually_played",
+        "playback_tested": false,
+        "audio_listened": false,
+        "entire_recording_reviewed": false,
+        "signed_out_access_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null,
+        "test_scope": "First chapter only sampled00:05→00:07→00:25 in current signed-in session; other timestamps read from label description."
+      },
+      "scope_note": "Label credits the duo; institution identifies its members. No isolated flute-player credit or sole-composer claim. Three chapter records share one upload; not three albums or independent evidence sources."
+    },
+    {
+      "id": "works/saathi-re-jaa-kahi-gapa-label",
+      "title": "Saathi Re Jaa Kahi — Saregama label chapter",
+      "work_type": "catalogued_music_recording",
+      "creator_links": [
+        {
+          "person_id": "people/hariprasad-chaurasia",
+          "role": "joint_music_director_as_member_of_Bhuban-Hari",
+          "source_ids": [
+            "music-gapa-label",
+            "music-chaurasia-cinemaazi"
+          ]
+        }
+      ],
+      "other_credits": [
+        {
+          "name": "Bhubaneswar Mishra",
+          "role": "joint_music_director_as_member_of_Bhuban-Hari",
+          "source_ids": [
+            "music-gapa-label",
+            "music-chaurasia-cinemaazi"
+          ]
+        },
+        {
+          "name": "Gurukrushna Goswami",
+          "role": "lyricist",
+          "source_ids": [
+            "music-gapa-label"
+          ]
+        },
+        {
+          "name": "Suman Kalyanpur",
+          "role": "singer",
+          "source_ids": [
+            "music-gapa-label"
+          ]
+        }
+      ],
+      "english_access": null,
+      "edition": {
+        "container_title": "Gapa Helebi Sata",
+        "container_kind": "three_song_label_video",
+        "upload_date": "2023-11-01",
+        "chapter_start_seconds": 395
+      },
+      "source_ids": [
+        "music-gapa-label",
+        "music-chaurasia-cinemaazi"
+      ],
+      "checked_on": "2026-10-01",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "recording_date": null,
+      "original_release_date": null,
+      "isrc": null,
+      "listening_access": {
+        "url": "https://www.youtube.com/watch?v=75AQNxffwqA&t=395s",
+        "provider": "Saregama Odia",
+        "status": "chapter_and_credits_verified_not_individually_played",
+        "playback_tested": false,
+        "audio_listened": false,
+        "entire_recording_reviewed": false,
+        "signed_out_access_tested": false,
+        "territory_availability": null,
+        "reuse_permission": null,
+        "test_scope": "First chapter only sampled00:05→00:07→00:25 in current signed-in session; other timestamps read from label description."
+      },
+      "scope_note": "Label credits the duo; institution identifies its members. No isolated flute-player credit or sole-composer claim. Three chapter records share one upload; not three albums or independent evidence sources."
+    },
+    {
+      "id": "works/stuti-chintamani",
+      "title": "Stuti Chintamani",
+      "work_type": "devotional_poetry",
+      "creator_links": [],
+      "other_credits": [
+        {
+          "name": "Bhima Bhoi",
+          "role": "author",
+          "source_ids": [
+            "bhima-akademi",
+            "literature-nbt-stuti2026"
+          ]
+        },
+        {
+          "name": "Satyananda Swain",
+          "role": "English translator of NBT2024 edition",
+          "source_ids": [
+            "literature-nbt-stuti2026"
+          ]
+        }
+      ],
+      "existing_author_reference": {
+        "dataset": "repository-native kb/research/voices/collection.json",
+        "page_path": "people/bhima-bhoi",
+        "map_id": "voice:people/bhima-bhoi",
+        "reason": "Reuse existing person identity; do not create a second biography to satisfy a local person/work join."
+      },
+      "english_access": {
+        "language": "English",
+        "translator": "Satyananda Swain",
+        "publisher": "National Book Trust, India",
+        "year": 2024,
+        "pages": 302,
+        "isbn13": "9789357438629",
+        "url": "https://www.nbtindia.gov.in/books_detail__1__aadan-pradan__8680__gems-of-soulful-prayer-stuti-chintamani-of-bhima-bhoi.nbt",
+        "status": "publisher_catalogue_verified_full_translation_unread",
+        "source_ids": [
+          "literature-nbt-stuti2026"
+        ]
+      },
+      "edition": {
+        "original_language": "Odia",
+        "original_composition_date": null,
+        "complete_text_collated": false
+      },
+      "selected_translation_route": {
+        "container": "A Critical Analysis of Bhima Bhoi and the Mahima Cult",
+        "editor": "Nishamani Kar",
+        "translator": "Gagan Behari Das",
+        "chapter": 5,
+        "scope": "selected cantos",
+        "isbn13": "9781666955576",
+        "publication_date": "2024-05-16",
+        "source_ids": [
+          "literature-kar-mahima2024"
+        ],
+        "full_text_read": false
+      },
+      "source_ids": [
+        "bhima-akademi",
+        "faith-beltz-bhima2003",
+        "literature-nbt-stuti2026",
+        "literature-kar-mahima2024"
+      ],
+      "checked_on": "2026-10-02",
+      "full_text_reuse_rights": null,
+      "live_stock": null
     }
   ],
   "recognition_rules": {
@@ -4371,7 +4770,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-01T08:41:20.810084-07:00",
+  "updated_at": "2026-10-02T07:42:49.321114+00:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -4582,6 +4981,16 @@
       "new_people": 2,
       "new_works": 3,
       "scope": "Computing and space design/policy; selected historical-to-present timeline completed with gaps retained, not a statewide census."
+    },
+    {
+      "run_id": "2026-10-01-music-credits",
+      "task_ids": [
+        "RES-044"
+      ],
+      "status": "bounded_dance_music_deliverable_completed",
+      "new_people": 0,
+      "new_works": 3,
+      "scope": "Three label chapters share one upload; only first sampled. Dance link available but performer identification remains register-attributed."
     }
   ],
   "conflicts": [

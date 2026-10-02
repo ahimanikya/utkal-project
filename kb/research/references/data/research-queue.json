@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T18:19:13.030991+00:00",
+  "updated_at": "2026-10-02T13:48:24.585819+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -957,14 +957,34 @@
       "title": "Rasagola and sweets economics",
       "done_when": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
       "target": "economy/rasagola-and-sweets.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-02T10:43:57.786283+00:00",
+      "next_step": "On/after 9 October recover cited Magji book pages, complete NABARD support table and Kamadhenu SDG case; seek dated Rasabali producer accounts and product-level shipments. Reuse all six sweet entries, maker credits and Sisir2026 scope check. Until retry, continue earliest independent eligible task RES-012 handloom techniques, makers and sales.",
+      "evidence_outputs": [
+        "economy/rasagola-and-sweets.md",
+        "references/data/sweets-economy.json",
+        "references/data/creative-economy.json",
+        "sources/sweets-pahala-study2023.md",
+        "sources/sweets-kamadhenu-sdg2026.md",
+        "sources/sweets-industry-size-lead.md",
+        "sources/sweets-apeda-query-routes.md",
+        "stories/sweets-from-milk-to-market.md",
+        "food/chhena-jhili.md",
+        "food/korakhai.md",
+        "sources/sweets-khordha-census2001.md",
+        "sources/sweets-korakhai-makers2016.md",
+        "food/dhenkanal-magji.md",
+        "food/kendrapara-rasabali.md",
+        "sources/sweets-magji-maker2024.md",
+        "sources/sweets-rasabali-maker2023.md",
+        "sources/sweets-dhenkanal-book-lead2021.md",
+        "sources/sweets-sisir-market2026.md",
+        "sources/sweets-nabard-support-lead2024.md"
+      ],
+      "retry_after": "2026-10-09",
+      "blocker": "Original Magji history books and dated producer accounts unlocated; full NABARD/Kamadhenu documents unavailable. Evidence gaps do not prevent independent handloom research.",
       "reuse_before_research": {
         "source_records": [
           "economy/rasagola-and-sweets.md",
@@ -972,12 +992,55 @@
           "food/odisha-rasagola.md",
           "references/data/food-preparations.json",
           "food/kendrapara-rasabali.md",
-          "sources/food-rasabali-corrigendum2023.md"
+          "sources/food-rasabali-corrigendum2023.md",
+          "references/data/sweets-economy.json",
+          "sources/sweets-pahala-study2023.md",
+          "sources/sweets-kamadhenu-sdg2026.md",
+          "sources/sweets-industry-size-lead.md",
+          "sources/sweets-apeda-query-routes.md",
+          "stories/sweets-from-milk-to-market.md",
+          "food/chhena-jhili.md",
+          "food/korakhai.md",
+          "sources/sweets-khordha-census2001.md",
+          "sources/sweets-korakhai-makers2016.md",
+          "sources/regional-cuisine.md",
+          "food/dhenkanal-magji.md",
+          "sources/sweets-magji-maker2024.md",
+          "sources/sweets-rasabali-maker2023.md",
+          "sources/sweets-dhenkanal-book-lead2021.md",
+          "sources/sweets-sisir-market2026.md",
+          "sources/sweets-nabard-support-lead2024.md"
         ],
-        "project_records": [],
+        "project_records": [
+          "kb/research/food/odisha-rasagola.md",
+          "kb/research/food/collection.json"
+        ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-02-sweets-economy",
+          "at": "2026-10-02T08:45:40.027103+00:00",
+          "outcome": "pahala_economic_study_and_six_sweet_evidence_map_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Six-sweet maker/history depth, dated enterprise accounts and shipment evidence or documented scoped unavailability."
+        },
+        {
+          "run_id": "2026-10-02-sweet-makers",
+          "at": "2026-10-02T09:44:47.633511+00:00",
+          "outcome": "jhili_korakhai_maker_and_historical_trade_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Magji original histories, Rasabali dated accounts and six-sweet market/shipment evidence or scoped unavailability."
+        },
+        {
+          "run_id": "2026-10-02-sweet-history",
+          "at": "2026-10-02T10:43:57.786283+00:00",
+          "outcome": "magji_rasabali_history_and_market_checkpoint_with_retry",
+          "completion_criteria_met": false,
+          "remaining": "Original histories, dated enterprise accounts and held document recovery; gaps and retry saved."
+        }
+      ]
     },
     {
       "id": "RES-012",
@@ -985,19 +1048,57 @@
       "title": "Handloom techniques makers and sales",
       "done_when": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
       "target": "handlooms/index.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-02T13:48:24.585819+00:00",
+      "next_step": "On9October recover comparable cooperative/department annual sales tables and original Habaspuri study; reconcile2012 GI association with indexed2013 formation claim. Check current operating records separately. Until retry, continue earliest eligible independent pending task RES-052; do not re-research the saved directory or six traditions.",
+      "evidence_outputs": [
+        "handlooms/garments-and-markets.md",
+        "handlooms/boyanika.md",
+        "references/data/handloom-markets.json",
+        "sources/handloom-boyanika70-2026.md",
+        "sources/handloom-boyanika-stores.md",
+        "sources/handloom-boyanika-sambalpuri.md",
+        "sources/handloom-boyanika-bomkai.md",
+        "sources/handloom-boyanika-khandua.md",
+        "sources/handloom-product-range.md",
+        "stories/handlooms-from-loom-to-market.md",
+        "sources/handloom-mapping2017.md",
+        "sources/handloom-ihb-bomkai.md",
+        "sources/handloom-ihb-khandua.md",
+        "sources/handloom-odisha-awardees.md",
+        "sources/handloom-padma2018.md",
+        "sources/handloom-berhampur-tourism-conflict.md",
+        "sources/handloom-tribal-crafts-lead.md",
+        "sources/handloom-weaver-directory.md",
+        "sources/handloom-gi-list-2026.md"
+      ],
+      "retry_after": "2026-10-09",
+      "blocker": "Comparable sales tables remain unavailable and current operations lack evidence. Techniques, dated institutional routes and three creation examples now documented; original Habaspuri formation chronology conflicted.",
       "reuse_before_research": {
         "source_records": [
           "handlooms/index.md",
           "handlooms/boyanika.md",
-          "statistics/craft-livelihoods.md"
+          "statistics/craft-livelihoods.md",
+          "handlooms/garments-and-markets.md",
+          "references/data/handloom-markets.json",
+          "sources/handloom-boyanika70-2026.md",
+          "sources/handloom-boyanika-stores.md",
+          "sources/handloom-boyanika-sambalpuri.md",
+          "sources/handloom-boyanika-bomkai.md",
+          "sources/handloom-boyanika-khandua.md",
+          "sources/handloom-product-range.md",
+          "stories/handlooms-from-loom-to-market.md",
+          "sources/handloom-mapping2017.md",
+          "sources/handloom-ihb-bomkai.md",
+          "sources/handloom-ihb-khandua.md",
+          "sources/handloom-odisha-awardees.md",
+          "sources/handloom-padma2018.md",
+          "sources/handloom-berhampur-tourism-conflict.md",
+          "sources/handloom-tribal-crafts-lead.md",
+          "sources/handloom-weaver-directory.md",
+          "sources/handloom-gi-list-2026.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json",
@@ -1007,7 +1108,30 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-02-handloom-markets",
+          "at": "2026-10-02T11:46:26.258680+00:00",
+          "outcome": "six_tradition_matrix_and_three_specimens_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Technical construction, named makers and comparable annual sales; PDF retry9October."
+        },
+        {
+          "run_id": "2026-10-02-handloom-makers",
+          "at": "2026-10-02T12:44:35.236920+00:00",
+          "outcome": "techniques_and_named_awardees_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Current maker/cooperative routes, Berhampuri construction, original Habaspuri report and comparable sales."
+        },
+        {
+          "run_id": "2026-10-02-handloom-cooperatives",
+          "at": "2026-10-02T13:48:24.585819+00:00",
+          "outcome": "cooperative_routes_and_creation_attribution_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Comparable sales and current operating evidence; retry9October."
+        }
+      ]
     },
     {
       "id": "RES-030",
@@ -1683,11 +1807,11 @@
       "title": "Everyday food culture and palm-seed names",
       "done_when": "Save attributed everyday-food entries and connections for the supplied foods; identify tala khaja seed stage through a named local or documentary account, preserving uncertainty and source scope.",
       "target": "food/everyday-food-culture.md",
-      "status": "in_progress",
-      "attempts": 1,
+      "status": "blocked",
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T18:07:08.675156+00:00",
-      "next_step": "Resolve tala khaja seed stage and local name from documentary evidence; use the user clarification as a lead, not independent verification. Extend existing records before adding more foods.",
+      "last_worked_at": "2026-10-01T22:01:16.891147+00:00",
+      "next_step": "Use existing anatomy and Odisha field study; seek village-attributed names and fresh-food preparation/market records. Retain8October retry for inaccessible festival/official project pages; continue independent RES-044.",
       "evidence_outputs": [
         "sources/food-badi-sasmita2017.md",
         "sources/food-soul-pritisha2024.md",
@@ -1701,15 +1825,43 @@
         "food/torani.md",
         "food/torani-kanji.md",
         "food/everyday-food-culture.md",
-        "references/data/everyday-food-culture.json"
+        "references/data/everyday-food-culture.json",
+        "sources/food-bela-sahoo2021.md",
+        "sources/food-bela-kugaji2023.md",
+        "sources/food-bela-fmu2023.md",
+        "food/bela-pana.md",
+        "sources/food-palm-panda2021.md",
+        "food/talagaja.md",
+        "sources/food-palm-ragul2022.md",
+        "sources/food-palm-flour2019.md",
+        "sources/food-palm-kantio2019.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-08",
+      "blocker": "Khaja/gaja equivalence and precise photographed specimen remain unverified; general haustorium anatomy documented. Local preparation and current economics remain open.",
       "attempt_history": [
         {
           "run_id": "2026-10-01-everyday-food",
           "at": "2026-10-01T18:07:08.675156+00:00",
           "outcome": "five_food_entries_and_collection_saved_seed_identity_pending",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-bela-pana",
+          "at": "2026-10-01T18:35:46.552469+00:00",
+          "outcome": "bela_pana_extension_saved_tala_khaja_still_unresolved",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-palm-seed",
+          "at": "2026-10-01T21:38:31.291164+00:00",
+          "outcome": "original_talagaja_seed_stage_and_study_scope_saved_name_equivalence_open",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-palm-anatomy",
+          "at": "2026-10-01T22:01:16.891147+00:00",
+          "trigger": "explicit user request for more information overrides scheduled deferral for new independent sources",
+          "outcome": "anatomy_food_processing_and_attributed_lexical_leads",
           "completion_criteria_met": false
         }
       ],
@@ -1719,7 +1871,14 @@
           "food/chatu-patrapoda.md",
           "food/pakhala.md",
           "food/poda-pitha.md",
-          "references/data/everyday-food-culture.json"
+          "references/data/everyday-food-culture.json",
+          "food/bela-pana.md",
+          "sources/food-koli-balasore2020.md",
+          "sources/food-palm-panda2021.md",
+          "food/talagaja.md",
+          "sources/food-palm-ragul2022.md",
+          "sources/food-palm-flour2019.md",
+          "sources/food-palm-kantio2019.md"
         ],
         "project_records": [
           "kb/research/food/pakhala.md",
@@ -1727,7 +1886,21 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "clarification_history": [
+        {
+          "run_id": "2026-10-01-palm-image",
+          "at": "2026-10-01T21:48:42.046297+00:00",
+          "type": "user_image_reference",
+          "scope": "Visual reference supplied; no new identity, local spelling or preparation confirmation."
+        },
+        {
+          "run_id": "2026-10-01-palm-stage",
+          "at": "2026-10-01T21:50:57.277209+00:00",
+          "type": "user_stage_distinction",
+          "scope": "User explicitly identifies later/final seed-food stage, distinct from ice apple. Precise anatomy and documentary khaja/gaja equivalence remain open."
+        }
+      ]
     },
     {
       "id": "RES-040",
@@ -1771,6 +1944,1278 @@
           "kb/research/culture/odissi.md",
           "kb/research/people/people-and-creations.md"
         ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-041",
+      "order": 16.7,
+      "title": "Koli fruit diversity and local names",
+      "done_when": "Save an initial source-linked selection of at least ten local fruit names with reported botanical names, provenance and scope; preserve name ambiguities and record the next recipe/locality evidence needed.",
+      "target": "food/koli-fruits.md",
+      "status": "completed",
+      "completion_scope": "Twelve selected mappings and a separately held Khirakoli name cluster. Not a comprehensive flora, taxonomic revision or tested recipe collection.",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:27:31.885197+00:00",
+      "completed_at": "2026-10-01T18:27:31.885197+00:00",
+      "next_step": "Enhance the existing collection with local/Odia and botanical review, credited recipes and market observations; do not repeat the saved names search.",
+      "evidence_outputs": [
+        "sources/food-koli-rprc.md",
+        "sources/food-koli-balasore2020.md",
+        "sources/food-koli-pectin2020.md",
+        "food/koli-fruits.md",
+        "references/data/koli-fruits.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-koli",
+          "at": "2026-10-01T18:27:31.885197+00:00",
+          "outcome": "bounded_fruit_name_seed_completed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/everyday-food-culture.md",
+          "food/koli-fruits.md",
+          "references/data/koli-fruits.json"
+        ],
+        "project_records": [
+          "kb/research/food/everyday-food-culture.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-042",
+      "order": 16.8,
+      "title": "Nandankanan conservation, history and measured public reach",
+      "done_when": "Save a source-linked place entry, at least three comparable annual visitor/revenue observations and dated conservation or inventory evidence; separate partial periods, captive/wild outcomes and unverified superlatives.",
+      "target": "places/nandankanan.md",
+      "status": "completed",
+      "completion_scope": "Initial bounded profile and five financial-year observations per metric; not a national ranking, welfare assessment or current visitor guide.",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:46:24.935756+00:00",
+      "completed_at": "2026-10-01T18:46:24.935756+00:00",
+      "next_step": "Resolve inventory revision, seek CZA comparisons and programme survival outcomes, then audit visitor access. Reuse the saved reports.",
+      "evidence_outputs": [
+        "sources/nature-nandankanan-ar2025.md",
+        "sources/nature-nandankanan-highlights2025.md",
+        "sources/nature-nandankanan-gharial.md",
+        "sources/nature-nandankanan-tiger.md",
+        "places/nandankanan.md",
+        "references/data/nandankanan.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-nandankanan",
+          "at": "2026-10-01T18:46:24.935756+00:00",
+          "outcome": "bounded_conservation_and_metrics_seed_completed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "subjects/nature.md",
+          "statistics/biodiversity.md",
+          "places/satkosia.md",
+          "places/nandankanan.md",
+          "references/data/nandankanan.json"
+        ],
+        "project_records": [
+          "kb/research/destinations/central-details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-043",
+      "order": 16.9,
+      "title": "Ekamra Kanan botanical collections and largest-claim scope",
+      "done_when": "Save a primary-source place entry and distinguish park-area claims from cactus collections; preserve collection units, missing inventory dates and any competing claim definitions.",
+      "target": "places/ekamra-kanan.md",
+      "status": "completed",
+      "completion_scope": "Bounded institutional profile and claim check; no independent Asia ranking, current accession audit or visitor guide.",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T18:51:46.210268+00:00",
+      "completed_at": "2026-10-01T18:51:46.210268+00:00",
+      "next_step": "Reconcile collection vintages, campus boundaries and visitor hours; document plant-to-ritual and research connections.",
+      "evidence_outputs": [
+        "sources/nature-rprc-cacti.md",
+        "sources/nature-rprc-garden.md",
+        "sources/nature-rprc-history.md",
+        "sources/nature-panchkula-cactus.md",
+        "places/ekamra-kanan.md",
+        "references/data/ekamra-kanan.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-ekamra-kanan",
+          "at": "2026-10-01T18:51:46.210268+00:00",
+          "outcome": "bounded_botanical_profile_and_claim_check_completed",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/koli-fruits.md",
+          "sources/food-koli-rprc.md",
+          "places/nandankanan.md",
+          "places/ekamra-kanan.md",
+          "references/data/ekamra-kanan.json"
+        ],
+        "project_records": [
+          "kb/research/food/koli-fruits.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-044",
+      "order": 16.91,
+      "title": "Dance origins, practitioners and Odisha music connections",
+      "done_when": "Extend Odissi origins with distinct Mahari, Gotipua, theatre and revival evidence; document Chaurasia’s Odisha work and four other dance traditions with credited practitioners or works. Preserve unresolved dates and legal media access.",
+      "target": "culture/odissi.md",
+      "status": "completed",
+      "attempts": 3,
+      "dependencies": [],
+      "last_worked_at": "2026-10-01T22:40:02.923935+00:00",
+      "next_step": "Bounded initial deliverable complete; retain original chronology, discography/ISRC, individual performer and rights gaps for next-cycle research.",
+      "evidence_outputs": [
+        "culture/odissi.md",
+        "references/data/culture-learning.json",
+        "sources/dance-raut-interview.md",
+        "sources/dance-sambalpur-district.md",
+        "sources/dance-kalahandi-district.md",
+        "sources/dance-folk-panel2024.md",
+        "sources/dance-sna-report2016.md",
+        "sources/dance-battery2024.md",
+        "sources/music-breath-gold-publisher.md",
+        "culture/dalkhai.md",
+        "culture/ghumura.md",
+        "culture/ranapa.md",
+        "culture/dance-and-music-connections.md",
+        "people/hariprasad-chaurasia.md",
+        "sources/music-gapa-label.md",
+        "sources/music-chaurasia-cinemaazi.md",
+        "sources/dance-red-lotus2017.md",
+        "sources/music-gapa-apple.md",
+        "works/e-banara-chai-gapa-label.md",
+        "works/jaya-jadu-nandan-gapa-label.md",
+        "works/saathi-re-jaa-kahi-gapa-label.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-culture-learning",
+          "at": "2026-10-01T19:04:12.192294+00:00",
+          "outcome": "source_backed_starting_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-dance-music",
+          "at": "2026-10-01T22:18:16.476238+00:00",
+          "outcome": "origins_regional_practitioner_and_reading_route_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Original Chaurasia Odia recording credits and representative performance access checks remain open."
+        },
+        {
+          "run_id": "2026-10-01-music-credits",
+          "at": "2026-10-01T22:40:02.923935+00:00",
+          "outcome": "bounded_deliverable_completed_with_preserved_gaps",
+          "completion_criteria_met": true
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "culture/odissi.md",
+          "people/kelucharan-mohapatra.md",
+          "people/hariprasad-chaurasia.md",
+          "references/data/people-creations.json",
+          "culture/dance-and-music-connections.md",
+          "references/data/culture-learning.json",
+          "works/e-banara-chai-gapa-label.md",
+          "works/jaya-jadu-nandan-gapa-label.md",
+          "works/saathi-re-jaa-kahi-gapa-label.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/northern-details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-01T22:40:02.923935+00:00",
+      "completion_evidence": {
+        "origins": "Existing Mahari/Gotipua practitioner accounts, Srjan theatre chronology and Raut revival interview",
+        "odisha_music_work": "AIR Cuttack, Bhubaneswar teaching/event and three label chapters joined to attributed duo identity",
+        "four_other_traditions": "Chhau, Dalkhai, Ghumura, Ranapa pages with named programme/register credits",
+        "dates_and_media": "Conflicts, original dates, limited playback and unknown rights preserved; no claim of full discography or independently reviewed history"
+      }
+    },
+    {
+      "id": "RES-045",
+      "order": 16.92,
+      "title": "Buddhist history and ancient learning: Pushpagiri evidence",
+      "done_when": "Inspect an original excavation/inscription publication and a credited Xuanzang translation; distinguish site identities and contested interpretations. Connect a dated Buddhist chronology without invented institutional rankings or enrolment.",
+      "target": "history/buddhist-learning.md",
+      "status": "completed",
+      "attempts": 2,
+      "dependencies": [],
+      "last_worked_at": "2026-10-02T02:18:39.272261+00:00",
+      "next_step": "Bounded criteria met through ASI original excavation/inscription report and Li Rongxi translation. Preserve Langudi disagreement; future deepening should inspect original1997/1998 inscription editions and later reassessments. Proceed to RES-046.",
+      "evidence_outputs": [
+        "history/buddhist-learning.md",
+        "references/data/culture-learning.json",
+        "sources/history-asi-udayagiri2007.md",
+        "sources/history-xuanzang-li1996.md",
+        "places/langudi.md",
+        "places/udayagiri-buddhist.md",
+        "stories/buddhist-odisha.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-culture-learning",
+          "at": "2026-10-01T19:04:12.192294+00:00",
+          "outcome": "source_backed_starting_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-buddhist-learning",
+          "at": "2026-10-02T02:18:39.272261+00:00",
+          "outcome": "primary_excavation_translation_and_dated_chronology",
+          "completion_criteria_met": true,
+          "acceptance_scope": "Original Udayagiri excavation/inscription publication and credited traveller translation inspected; identities and contested Langudi interpretations distinguished. No consensus, comprehensive history or specialist review claimed."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "history/buddhist-learning.md",
+          "places/ratnagiri.md",
+          "places/lalitgiri.md",
+          "places/udayagiri-buddhist.md",
+          "sources/buddhist.md",
+          "sources/history-asi-udayagiri2007.md",
+          "sources/history-xuanzang-li1996.md",
+          "places/langudi.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-02T02:18:39.272261+00:00"
+    },
+    {
+      "id": "RES-046",
+      "order": 16.93,
+      "title": "Current universities and comparable higher-education evidence",
+      "done_when": "Verify selected public, private, central and deemed institution identities against UGC and Acts; add dated strengths and comparable rank/score/outcome records. Separate institutes, campus locations, programme approval and institutional status.",
+      "target": "culture/universities-and-learning.md",
+      "status": "completed",
+      "attempts": 2,
+      "dependencies": [],
+      "last_worked_at": "2026-10-02T02:48:58.849144+00:00",
+      "next_step": "Bounded selected-institution criteria met:18UGC identity matches, original Acts/notification for state/central/private cases, three deemed dates, dated category/component scores and six outcome cohorts. Expand discipline and public/central outcomes later;2026ranking check remains8October. Proceed to RES-047, reusing these identities and cohorts.",
+      "evidence_outputs": [
+        "culture/universities-and-learning.md",
+        "references/data/culture-learning.json",
+        "sources/education-ugc-register2026.md",
+        "sources/education-ugc-deemed2026.md",
+        "sources/education-utkal-act1989.md",
+        "sources/education-cutm-act2010.md",
+        "sources/education-cutm-established2010.md",
+        "sources/education-cutm-ugc2013.md",
+        "sources/education-central-act2009.md",
+        "sources/education-nirf-university-2024.md",
+        "sources/education-nirf-band2024.md",
+        "sources/education-nirf-band2025.md",
+        "sources/education-soa-nirf2025.md",
+        "sources/education-kiit-nirf2025.md",
+        "stories/odisha-university-evidence.md",
+        "people/achyuta-samanta.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-culture-learning",
+          "at": "2026-10-01T19:04:12.192294+00:00",
+          "outcome": "source_backed_starting_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-universities",
+          "at": "2026-10-02T02:48:58.849144+00:00",
+          "outcome": "ugc_identity_statutory_dates_and_comparable_outcome_checkpoint",
+          "completion_criteria_met": true,
+          "acceptance_scope": "Selected identities across legal categories and dated score/rank/outcome records; no exhaustive institutions, programme approval or independently audited jobs claim."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "culture/universities-and-learning.md",
+          "statistics/education.md",
+          "references/data/culture-learning.json",
+          "sources/education-ugc-register2026.md",
+          "sources/education-ugc-deemed2026.md",
+          "sources/education-utkal-act1989.md",
+          "sources/education-cutm-act2010.md",
+          "sources/education-cutm-established2010.md",
+          "sources/education-cutm-ugc2013.md",
+          "sources/education-central-act2009.md",
+          "sources/education-nirf-university-2024.md",
+          "sources/education-nirf-band2024.md",
+          "sources/education-nirf-band2025.md",
+          "sources/education-soa-nirf2025.md",
+          "sources/education-kiit-nirf2025.md",
+          "stories/odisha-university-evidence.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-02T02:48:58.849144+00:00"
+    },
+    {
+      "id": "RES-047",
+      "order": 16.94,
+      "title": "Achyuta Samanta, KIIT and KISS: stages and outcomes",
+      "done_when": "Extend personal chronology using independent records; inspect KIIT/KISS status notifications, reconcile founding stages, and obtain dated student or graduate outcomes with denominators and audited scope. Preserve institutional self-reporting and community perspectives.",
+      "target": "people/achyuta-samanta.md",
+      "status": "blocked",
+      "attempts": 4,
+      "dependencies": [],
+      "last_worked_at": "2026-10-02T05:39:12.280267+00:00",
+      "next_step": "Retry original registration, audit-opinion and full-text community routes on9October. Reuse saved FY2023–24 accounts and2017 alumni certificate; do not repeat student-count extraction. Continue RES-049 independently while RES-040/048 retries are not due.",
+      "evidence_outputs": [
+        "people/achyuta-samanta.md",
+        "references/data/culture-learning.json",
+        "sources/education-kiss-notification2017.md",
+        "sources/education-kiit-notification2017.md",
+        "sources/people-samanta-sansad17.md",
+        "sources/education-kiss-accounts2025.md",
+        "stories/institution-building-evidence.md",
+        "references/data/people-creations.json",
+        "sources/education-kiss-nirf2025.md",
+        "sources/education-kiss-aqar2024.md",
+        "sources/education-kiss-asci2022.md",
+        "sources/education-kiss-annual2022.md",
+        "sources/education-finnan-childhood2017.md",
+        "sources/education-kiss-accounts2024.md",
+        "sources/education-kiss-alumni-certificate2017.md"
+      ],
+      "retry_after": "2026-10-09",
+      "blocker": "Original parent-society/school certificate, separate audit opinion and lawful full-text community study remain unavailable. New note-scope and financial-vintage differences require original clarification; do not infer resolution.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-culture-learning",
+          "at": "2026-10-01T19:04:12.192294+00:00",
+          "outcome": "source_backed_starting_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-samanta-journey",
+          "at": "2026-10-02T03:01:31.707510+00:00",
+          "outcome": "legal_parliamentary_and_financial_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "KISS student outcomes, independent community perspectives, original founding stages and separate audit opinion."
+        },
+        {
+          "run_id": "2026-10-02-kiss-outcomes",
+          "at": "2026-10-02T04:53:55.437429+00:00",
+          "outcome": "student_denominators_and_assessment_scope_saved",
+          "completion_criteria_met": false,
+          "remaining": "Original founding documents, separate audit opinion, full-text participant research and longitudinal outcome assurance."
+        },
+        {
+          "run_id": "2026-10-02-kiss-registration",
+          "at": "2026-10-02T05:39:12.280267+00:00",
+          "outcome": "original_accounts_and_alumni_certificate_saved_with_scope_conflicts",
+          "completion_criteria_met": false,
+          "remaining": "Original parent-society/school certificate, separate audit opinion and lawful full-text community study remain unavailable. New note-scope and financial-vintage differences require original clarification; do not infer resolution."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "people/achyuta-samanta.md",
+          "references/data/people-creations.json",
+          "references/data/culture-learning.json",
+          "culture/universities-and-learning.md",
+          "sources/education-ugc-register2026.md",
+          "sources/education-ugc-deemed2026.md",
+          "sources/education-kiit-nirf2025.md",
+          "sources/education-kiss-notification2017.md",
+          "sources/education-kiit-notification2017.md",
+          "sources/people-samanta-sansad17.md",
+          "sources/education-kiss-accounts2025.md",
+          "stories/institution-building-evidence.md",
+          "sources/education-kiss-nirf2025.md",
+          "sources/education-kiss-aqar2024.md",
+          "sources/education-kiss-asci2022.md",
+          "sources/education-kiss-annual2022.md",
+          "sources/education-finnan-childhood2017.md",
+          "sources/education-kiss-accounts2024.md",
+          "sources/education-kiss-alumni-certificate2017.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-048",
+      "order": 16.95,
+      "title": "Jagannath origins: tradition, evidence and temple phases",
+      "done_when": "Build separate source-linked accounts of Nilamadhava/Visvavasu/Indradyumna traditions and dated temple history; inspect at least one critical textual edition and one epigraphic or archaeological source. Do not turn a village-origin hypothesis into established chronology.",
+      "target": "places/jagannath-temple-puri.md",
+      "status": "in_progress",
+      "attempts": 2,
+      "dependencies": [],
+      "last_worked_at": "2026-10-02T05:26:54.280049+00:00",
+      "next_step": "Reuse saved Sircar scan and Tagare chapters. Recover/read Gold 2002 critical edition through lawful university/library route, inspect 1912 edition apparatus, then Ganga construction charter and Madala Panji chronology. Full critical text remains uninspected; retry source access 2026-10-09. Continue independent eligible tasks when this access gap blocks progress.",
+      "evidence_outputs": [
+        "places/jagannath-temple-puri.md",
+        "references/data/culture-learning.json",
+        "sources/faith-puri-inscriptions-ei30.md",
+        "sources/faith-skanda-purusottama-tagare.md",
+        "sources/faith-gold-critical-edition-lead.md",
+        "history/jagannath-origins.md"
+      ],
+      "retry_after": "2026-10-09",
+      "blocker": "Critical textual edition identified in Penn catalogue but full text not recovered; translation alone does not meet completion criterion.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-culture-learning",
+          "at": "2026-10-01T19:04:12.192294+00:00",
+          "outcome": "source_backed_starting_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-jagannath-origins",
+          "at": "2026-10-02T05:26:54.280049+00:00",
+          "outcome": "original_epigraphy_and_narrative_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Read a critical textual edition; reconcile construction chronology with charter and chronicle editions."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "places/jagannath-temple-puri.md",
+          "people/anantavarman-chodaganga.md",
+          "people/anangabhima-deva-iii.md",
+          "food/mahaprasad.md",
+          "sources/faith-puri-inscriptions-ei30.md",
+          "sources/faith-skanda-purusottama-tagare.md",
+          "sources/faith-gold-critical-edition-lead.md",
+          "history/jagannath-origins.md"
+        ],
+        "project_records": [
+          "kb/research/destinations/central-details.json"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-049",
+      "order": 16.96,
+      "title": "Yogini and Tantric traditions: sites and textual evidence",
+      "done_when": "Research Hirapur and Ranipur-Jharial with archaeological sources; distinguish Shakta/Shaiva, Yogini and Buddhist Vajrayana contexts and attribute each proposed connection. Preserve uncertainty over patronage, dates and living practice.",
+      "target": "culture/tantric-traditions.md",
+      "status": "completed",
+      "attempts": 2,
+      "dependencies": [],
+      "last_worked_at": "2026-10-02T06:43:56.947430+00:00",
+      "next_step": "Bounded two-site/context deliverable complete. Continue RES-050 Mahima Dharma and Bhima Bhoi after reuse checks. Further Yogini work: original foundation epigraphy, reconcile image inventory, inspect Devipurana passages and dated practitioner accounts; do not repeat these inventory captures.",
+      "evidence_outputs": [
+        "culture/tantric-traditions.md",
+        "references/data/culture-learning.json",
+        "sources/faith-hirapur-ignca.md",
+        "sources/faith-ranipur-ignca.md",
+        "sources/faith-hatley-yoginis2020.md",
+        "sources/faith-soas-yoginis2021.md",
+        "places/hirapur-yogini.md",
+        "places/ranipur-jharial-yogini.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-culture-learning",
+          "at": "2026-10-01T19:04:12.192294+00:00",
+          "outcome": "source_backed_starting_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-yogini-traditions",
+          "at": "2026-10-02T06:43:56.947430+00:00",
+          "outcome": "two_site_archaeological_and_attributed_context_deliverable",
+          "completion_criteria_met": true,
+          "scope": "Two original inventories, distinct traditions and attributed textual hypothesis; exact patronage/dates, counts and current practice remain open, as required by the task."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "culture/tantric-traditions.md",
+          "history/buddhist-learning.md",
+          "places/jagannath-temple-puri.md",
+          "sources/faith-hirapur-ignca.md",
+          "sources/faith-ranipur-ignca.md",
+          "sources/faith-hatley-yoginis2020.md",
+          "sources/faith-soas-yoginis2021.md",
+          "places/hirapur-yogini.md",
+          "places/ranipur-jharial-yogini.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-02T06:43:56.947430+00:00"
+    },
+    {
+      "id": "RES-050",
+      "order": 16.97,
+      "title": "Mahima Dharma, Bhima Bhoi and English reading routes",
+      "done_when": "Reuse the existing literary introduction; inspect historical scholarship on Mahima Swami, Alekh, Joranda and Khaliapali, reconcile Bhima Bhoi biography conflicts, and identify credited works and English editions without inventing interviews.",
+      "target": "culture/mahima-dharma.md",
+      "status": "completed",
+      "attempts": 2,
+      "dependencies": [],
+      "last_worked_at": "2026-10-02T07:42:49.321114+00:00",
+      "next_step": "Bounded historical/reading-route deliverable complete. Continue RES-031 sweets economics after its reuse checks. Later Mahima work: inspect NBT translation and critical Odia editions, primary founder chronology and dated practitioner evidence. Retry unavailable Utkal journal/direct NBT capture after9October only if those gaps require them.",
+      "evidence_outputs": [
+        "culture/mahima-dharma.md",
+        "references/data/culture-learning.json",
+        "sources/faith-beltz-bhima2003.md",
+        "sources/literature-nbt-stuti2026.md",
+        "sources/literature-kar-mahima2024.md",
+        "works/stuti-chintamani.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-culture-learning",
+          "at": "2026-10-01T19:04:12.192294+00:00",
+          "outcome": "source_backed_starting_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-mahima-dharma",
+          "at": "2026-10-02T07:42:49.321114+00:00",
+          "outcome": "historical_context_and_credited_english_routes_saved",
+          "completion_criteria_met": true,
+          "scope": "Existing literary identity reused; original historical scholarship inspected, biography conflicts reconciled as attributed uncertainty, named works and editions identified. No claim all biography conflicts are resolved."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "culture/mahima-dharma.md",
+          "sources/bhima-akademi.md",
+          "works/index.md",
+          "sources/faith-beltz-bhima2003.md",
+          "sources/literature-nbt-stuti2026.md",
+          "sources/literature-kar-mahima2024.md",
+          "works/stuti-chintamani.md"
+        ],
+        "project_records": [
+          "kb/research/voices/collection.json",
+          "kb/research/culture/odia-literature-and-literary-lives.md"
+        ],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-02T07:42:49.321114+00:00"
+    },
+    {
+      "id": "RES-051",
+      "order": 17.1,
+      "title": "Mining baseline and district identity map",
+      "done_when": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
+      "target": "economy/mining.md",
+      "status": "completed",
+      "attempts": 6,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015"
+      ],
+      "last_worked_at": "2026-10-02T00:49:26.791780+00:00",
+      "next_step": "Baseline deliverable exists: attributed ore/coal series, dated resources, selected mine identities and source aliases with differences held. Follow up methodology, original permits, boundaries and complex tables after2026-10-08. RES-052 reuses processing/work evidence; resume earliest eligible existing in-progress RES-057 next.",
+      "evidence_outputs": [
+        "economy/mining.md",
+        "statistics/minerals-and-mining.md",
+        "references/data/mining-programme.json",
+        "sources/mining-coal-directory2025.md",
+        "sources/mining-ocpl-rr.md",
+        "statistics/coal-production.md",
+        "statistics/ore-production.md",
+        "economy/bauxite-to-aluminium.md",
+        "sources/mining-nalco-ar2026.md",
+        "sources/mining-nalco-refinery.md",
+        "sources/mining-dbl-pottangi.md",
+        "economy/bauxite-mine-identities.md",
+        "sources/mining-ibm-kodingamali2024.md",
+        "sources/mining-asi-baphlimali2026.md",
+        "sources/mining-hindalco-baphlimali.md",
+        "sources/mining-asi-baphlimali-news2026.md",
+        "sources/mining-baphlimali-g1-2025.md",
+        "sources/mining-baphlimali-ec-sep2025.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-mining-programme",
+          "at": "2026-10-01T19:12:14.031317+00:00",
+          "outcome": "national_contribution_and_dmf_baseline_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-mining-series",
+          "at": "2026-10-01T22:57:07.408987+00:00",
+          "outcome": "coal_series_resources_and_selected_blocks_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-ore-series",
+          "at": "2026-10-01T23:18:55.981451+00:00",
+          "outcome": "ore_series_recovered_conflicts_retained",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-mining-value-chain",
+          "at": "2026-10-01T23:35:36.358411+00:00",
+          "outcome": "named_bauxite_mines_and_processing_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-bauxite-sites",
+          "at": "2026-10-01T23:52:46.441614+00:00",
+          "outcome": "two_bauxite_identities_output_and_certification_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-baphlimali-returns",
+          "at": "2026-10-02T00:49:26.791780+00:00",
+          "outcome": "baseline_deliverable_with_explicit_scope_limits",
+          "completion_criteria_met": true,
+          "acceptance_evidence": {
+            "series": "statistics/coal-production.md and statistics/ore-production.md preserve five/ten-year series and conflicting vintages",
+            "resources": "mining-programme.json coal_checkpoint and ore_checkpoint preserve dated resource categories",
+            "identities": "selected coal blocks, NALCO sites, Kodingamali and Baphlimali with source IDs",
+            "reconciliation": "Source differences recorded and quarantined; no harmonised statewide series or verified current permits claimed"
+          }
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "economy/comparison-06-mining.md",
+          "economy/comparison-07-mining.md",
+          "economy/comparison-08-mining.md",
+          "references/data/industry-growth-data.json",
+          "statistics/coal-production.md",
+          "statistics/ore-production.md",
+          "economy/bauxite-to-aluminium.md",
+          "economy/bauxite-mine-identities.md",
+          "sources/mining-baphlimali-g1-2025.md",
+          "sources/mining-baphlimali-ec-sep2025.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-02T00:49:26.791780+00:00",
+      "follow_up_gaps": {
+        "retry_after": "2026-10-08",
+        "items": [
+          "State/IBM methodology and vintage differences",
+          "Scanned CTO and original cadastral boundaries",
+          "Complex employment table visual review",
+          "Comparable rehabilitation definitions",
+          "Named OMC buyers and local workforce/supplier evidence"
+        ]
+      }
+    },
+    {
+      "id": "RES-052",
+      "order": 17.2,
+      "title": "Mining-to-manufacturing and work",
+      "done_when": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-016",
+        "RES-017",
+        "RES-018",
+        "RES-020"
+      ],
+      "last_worked_at": null,
+      "next_step": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "statistics/industrial-production.md",
+          "references/data/investment-tracker.json",
+          "statistics/ports.md",
+          "journeys/rare-earths.md",
+          "economy/bauxite-to-aluminium.md",
+          "economy/bauxite-mine-identities.md",
+          "sources/mining-baphlimali-g1-2025.md",
+          "sources/mining-baphlimali-ec-sep2025.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-053",
+      "order": 17.3,
+      "title": "Mining revenues and DMF outcomes",
+      "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-018"
+      ],
+      "last_worked_at": null,
+      "next_step": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "evidence/f05.md",
+          "statistics/minerals-and-mining.md",
+          "statistics/health.md",
+          "statistics/education.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-054",
+      "order": 17.4,
+      "title": "Mine environments, rights, safety and restoration",
+      "done_when": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-019"
+      ],
+      "last_worked_at": null,
+      "next_step": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "statistics/air-quality.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-055",
+      "order": 17.5,
+      "title": "Mining history and future-materials research",
+      "done_when": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
+      "target": "economy/mining.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-020"
+      ],
+      "last_worked_at": null,
+      "next_step": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "economy/mining.md",
+          "statistics/minerals-and-mining.md",
+          "references/data/mining-programme.json",
+          "journeys/rare-earths.md",
+          "people/people-and-creations.md",
+          "history/index.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-056",
+      "order": 11.6,
+      "title": "Forest-food identities, seasons and preparation",
+      "done_when": "Add sourced product profiles with species/part/place/season, community-attributed history and preparation; preserve wild/cultivated ambiguity and reuse Koli/recipe records.",
+      "target": "economy/forest-products.md",
+      "status": "blocked",
+      "attempts": 6,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-039",
+        "RES-041",
+        "RES-054"
+      ],
+      "last_worked_at": "2026-10-01T21:20:19.531656+00:00",
+      "next_step": "Tamarind/chara profiles and historical community-market entries saved. Remaining preparation gaps need attributed full recipes, dates and local review; next independent work should advance RES-057 dated collector-payment and procurement records, using the new testimony only within its undated historical scope. Do not retry TDCCOL/NIScPR failures before 2026-10-08.",
+      "evidence_outputs": [
+        "food/forest-foods.md",
+        "economy/forest-products.md",
+        "history/forest-livelihoods.md",
+        "statistics/forest-products.md",
+        "economy/kendu-patra.md",
+        "food/mohu-honey.md",
+        "food/mahua-mohula.md",
+        "economy/siali-products.md",
+        "sources/forest-mahua-food2016.md",
+        "sources/forest-scstrti-foodknowledge.md",
+        "sources/forest-mahua-santhal2016.md",
+        "sources/forest-ouat2021.md",
+        "sources/forest-balliguda2021.md",
+        "sources/forest-cysd2002.md",
+        "sources/forest-jica2017.md",
+        "economy/sal-products.md",
+        "sources/forest-ciah-varieties.md",
+        "sources/forest-vasundhara-tamarind.md",
+        "sources/forest-chironji-processing2012.md",
+        "food/tentuli-tamarind.md",
+        "food/chara-chironji.md"
+      ],
+      "retry_after": "2026-10-08",
+      "blocker": "Full attributed preparation methods and source-date provenance remain unavailable; local recipe review has not occurred. Bounded identity/season/use profiles saved, completion criterion remains unmet.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-forest-products",
+          "at": "2026-10-01T19:23:15.175549+00:00",
+          "outcome": "first_market_and_history_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-forest-product-profiles",
+          "at": "2026-10-01T19:28:54.352476+00:00",
+          "outcome": "named_profiles_and_user_honey_clarification",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-forest-seasonal",
+          "at": "2026-10-01T19:35:04.134564+00:00",
+          "outcome": "historical_honey_seasons_mahua_formulations_siali_identity",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-mahua-preparation",
+          "at": "2026-10-01T19:58:15.218126+00:00",
+          "outcome": "attributed_cake_and_local_season_recovered",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-leaf-craft",
+          "at": "2026-10-01T20:39:09.741844+00:00",
+          "outcome": "leaf_craft_seasons_and_named_historical_maker",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-forest-fruits",
+          "at": "2026-10-01T21:20:19.531656+00:00",
+          "outcome": "tentuli_chara_profiles_and_attributed_market_accounts",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/forest-foods.md",
+          "economy/forest-products.md",
+          "history/forest-livelihoods.md",
+          "statistics/forest-products.md",
+          "food/koli-fruits.md",
+          "food/chatu-patrapoda.md",
+          "food/ou-khatta.md",
+          "statistics/forests.md",
+          "references/data/forest-products.json",
+          "economy/kendu-patra.md",
+          "food/mohu-honey.md",
+          "food/mahua-mohula.md",
+          "economy/siali-products.md",
+          "sources/forest-mahua-food2016.md",
+          "sources/forest-scstrti-foodknowledge.md",
+          "sources/forest-mahua-santhal2016.md",
+          "sources/forest-ouat2021.md",
+          "sources/forest-balliguda2021.md",
+          "sources/forest-cysd2002.md",
+          "sources/forest-jica2017.md",
+          "economy/sal-products.md",
+          "sources/forest-ciah-varieties.md",
+          "sources/forest-vasundhara-tamarind.md",
+          "sources/forest-chironji-processing2012.md",
+          "food/tentuli-tamarind.md",
+          "food/chara-chironji.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-057",
+      "order": 17.6,
+      "title": "Forest-product trade and collector returns",
+      "done_when": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
+      "target": "economy/forest-products.md",
+      "status": "blocked",
+      "attempts": 3,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-039",
+        "RES-041",
+        "RES-054"
+      ],
+      "last_worked_at": "2026-10-02T01:11:51.135341+00:00",
+      "next_step": "On8October retry the saved primary report/payment routes. Reuse historical Van Dhan comparison and five cluster leads; obtain product-level procurement, completed sales and collector receipts without allocating programme totals to products. Meanwhile continue earliest independent eligible task RES-060.",
+      "evidence_outputs": [
+        "food/tentuli-tamarind.md",
+        "sources/forest-vasundhara-tamarind.md",
+        "sources/forest-kl-welfare2026.md",
+        "sources/forest-ofdc-ar2021.md",
+        "stories/forest-worker-support.md",
+        "statistics/forest-products.md",
+        "sources/forest-loksabha1179-2023.md",
+        "sources/forest-pib-vandhan2021.md",
+        "stories/van-dhan-enterprises.md"
+      ],
+      "retry_after": "2026-10-08",
+      "blocker": "Current TDCC procurement/payment and departmental report routes unavailable; original2019–20 conflict and welfare year bases unresolved.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-forest-fruits",
+          "at": "2026-10-01T21:20:19.531656+00:00",
+          "outcome": "scoped_historical_sale_testimony_and_original_procurement_fetch_gap",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-01-forest-payments",
+          "at": "2026-10-01T21:29:27.391557+00:00",
+          "outcome": "payment_and_grant_tables_original_sales_quantity_conflicts_retained",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-forest-trade-followup",
+          "at": "2026-10-02T01:11:51.135341+00:00",
+          "outcome": "historical_programme_sales_and_ofdc_allocation_checkpoint_current_routes_unavailable",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/forest-foods.md",
+          "economy/forest-products.md",
+          "history/forest-livelihoods.md",
+          "statistics/forest-products.md",
+          "food/koli-fruits.md",
+          "food/chatu-patrapoda.md",
+          "food/ou-khatta.md",
+          "statistics/forests.md",
+          "references/data/forest-products.json",
+          "economy/kendu-patra.md",
+          "food/mohu-honey.md",
+          "food/mahua-mohula.md",
+          "food/tentuli-tamarind.md",
+          "sources/forest-vasundhara-tamarind.md",
+          "sources/forest-kl-welfare2026.md",
+          "sources/forest-ofdc-ar2021.md",
+          "stories/forest-worker-support.md",
+          "sources/forest-loksabha1179-2023.md",
+          "sources/forest-pib-vandhan2021.md",
+          "stories/van-dhan-enterprises.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-058",
+      "order": 17.7,
+      "title": "Forest livelihood history, rights and ecological change",
+      "done_when": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
+      "target": "economy/forest-products.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-039",
+        "RES-041",
+        "RES-054"
+      ],
+      "last_worked_at": null,
+      "next_step": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "food/forest-foods.md",
+          "economy/forest-products.md",
+          "history/forest-livelihoods.md",
+          "statistics/forest-products.md",
+          "food/koli-fruits.md",
+          "food/chatu-patrapoda.md",
+          "food/ou-khatta.md",
+          "statistics/forests.md",
+          "references/data/forest-products.json",
+          "economy/kendu-patra.md",
+          "food/mohu-honey.md",
+          "food/mahua-mohula.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-059",
+      "order": 17.8,
+      "title": "Odisha in the world: geopolitical evidence and synthesis",
+      "done_when": "Build a source-linked research synthesis for historical maritime relations and two contemporary trade/policy cases; distinguish measured trade, institutional roles and attributed strategic interpretation. Reuse existing port/mineral/people evidence; retain disagreements and missing scope.",
+      "target": "collections/odisha-and-world.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-017",
+        "RES-020",
+        "RES-037",
+        "RES-038",
+        "RES-052"
+      ],
+      "last_worked_at": null,
+      "next_step": "Search saved maritime/port/mineral evidence; choose two bounded contemporary cases with original sources before making strategic claims.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "collections/odisha-and-world.md",
+          "history/maritime-evidence.md",
+          "trade/connection-matrix.md",
+          "statistics/ports.md",
+          "economy/mining.md",
+          "journeys/rare-earths.md",
+          "people/public-servants-and-lawmakers.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-060",
+      "order": 17.9,
+      "title": "Rice varieties, cultivation and seed keepers",
+      "done_when": "Extend the rice register with sourced local names, dated district cultivation evidence and attributed food uses for a bounded selection; distinguish landraces, improved selections and release recommendations. Preserve existing Kalajeera identity and unknown acreage.",
+      "target": "food/rice-varieties.md",
+      "status": "completed",
+      "attempts": 2,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015",
+        "RES-029"
+      ],
+      "last_worked_at": "2026-10-02T01:39:07.455735+00:00",
+      "next_step": "Bounded deliverable complete: seven existing entries enhanced, dated Koraput/Kalahandi evidence and nine source-attributed food-use leads. Follow up Odia names, seed-accession identity and current cultivation without duplicating the register. Resume RES-061 on costs and procurement settlement.",
+      "evidence_outputs": [
+        "food/rice-varieties.md",
+        "economy/rice-economy.md",
+        "food/koraput-kalajeera-rice.md",
+        "statistics/agriculture.md",
+        "works/odisha-rice-seed-deployment.md",
+        "references/data/rice-economy.json",
+        "sources/rice-yadav-landraces2026.md",
+        "sources/rice-irri-kalahandi2020.md",
+        "stories/rice-kept-for-taste.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-rice-research",
+          "at": "2026-10-01T20:10:23.860704+00:00",
+          "outcome": "starting_register_and_economics_saved",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-rice-place-food",
+          "at": "2026-10-02T01:39:07.455735+00:00",
+          "outcome": "bounded_variety_place_and_food_deliverable",
+          "completion_criteria_met": true,
+          "acceptance_scope": "Source-reported names and historical cultivation/seed evidence, with food-use names separated from unresolved genetic identity. No comprehensive census, current acreage, tested recipes or Odia review claimed."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/rice-varieties.md",
+          "economy/rice-economy.md",
+          "food/koraput-kalajeera-rice.md",
+          "statistics/agriculture.md",
+          "works/odisha-rice-seed-deployment.md",
+          "references/data/rice-economy.json",
+          "sources/rice-yadav-landraces2026.md",
+          "sources/rice-irri-kalahandi2020.md",
+          "stories/rice-kept-for-taste.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-02T01:39:07.455735+00:00"
+    },
+    {
+      "id": "RES-061",
+      "order": 18.1,
+      "title": "Rice economics: crop, procurement and farmer returns",
+      "done_when": "Build comparable five-/ten-year rice area, output and yield series; reconcile procurement payment scope and document at least one clearly defined Odisha cost/return case. Retain price bases, marketing years and adverse years.",
+      "target": "economy/rice-economy.md",
+      "status": "blocked",
+      "attempts": 3,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015",
+        "RES-029"
+      ],
+      "last_worked_at": "2026-10-02T02:06:44.053750+00:00",
+      "next_step": "Later2023–24 payment aggregate reconciled to common MSP. Recover settlement coverage for partial2024–25 and small2024–25 full-year difference; obtain paddy cost-study survey year. Reuse new2025–26 report before browsing; retry unavailable settlement route2026-10-09. Defer remaining evidence gaps until retry; proceed to RES-045 independently.",
+      "evidence_outputs": [
+        "sources/rice-samant2023.md",
+        "sources/rice-pib-msp2023.md",
+        "stories/rice-productivity.md",
+        "references/data/rice-economy.json",
+        "sources/rice-sahoo-cost2023.md",
+        "stories/rice-income-after-costs.md",
+        "sources/rice-fscw2026.md",
+        "stories/rice-procurement-payments.md"
+      ],
+      "retry_after": "2026-10-09",
+      "blocker": "Remaining criteria require matched settlement evidence absent from the reviewed reports/payment link and an explicit paddy survey year. Aggregate2023–24 reconciliation is saved; no further independent reconciliation supported by these sources.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-01-rice-trends",
+          "at": "2026-10-01T20:19:47.401985+00:00",
+          "outcome": "trend_and_scoped_economics_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-rice-cost-returns",
+          "at": "2026-10-02T01:52:06.804669+00:00",
+          "outcome": "full_text_cost_case_with_period_and_definition_holds",
+          "completion_criteria_met": false,
+          "remaining": "Procurement payment reconciliation and explicit paddy survey/valuation year remain open."
+        },
+        {
+          "run_id": "2026-10-02-rice-procurement",
+          "at": "2026-10-02T02:06:44.053750+00:00",
+          "outcome": "later_primary_report_and_aggregate_reconciliation",
+          "completion_criteria_met": false,
+          "remaining": "Settlement-level partial-period reconciliation and cost-study survey year unresolved."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "food/rice-varieties.md",
+          "economy/rice-economy.md",
+          "food/koraput-kalajeera-rice.md",
+          "statistics/agriculture.md",
+          "works/odisha-rice-seed-deployment.md",
+          "references/data/rice-economy.json",
+          "sources/rice-samant2023.md",
+          "sources/rice-pib-msp2023.md",
+          "stories/rice-productivity.md",
+          "sources/rice-sahoo-cost2023.md",
+          "stories/rice-income-after-costs.md",
+          "sources/rice-fscw2026.md",
+          "stories/rice-procurement-payments.md"
+        ],
+        "project_records": [],
+        "audit_date": "2026-10-01",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-062",
+      "order": 18.2,
+      "title": "Distinctive rice markets and attributable trade",
+      "done_when": "Document origin-attributed rice trade evidence and one dated producer-to-retail case where available; retain explicit evidence gaps when export origin or farm returns cannot be established. Separate GI, promotion, listing and actual sales.",
+      "target": "economy/rice-economy.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-015",
+        "RES-029"
+      ],
+      "last_worked_at": null,
+      "next_step": "Start from Kalajeera records, seek producer sales and shipment records; never infer exports from retail availability.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "food/rice-varieties.md",
+          "economy/rice-economy.md",
+          "food/koraput-kalajeera-rice.md",
+          "statistics/agriculture.md",
+          "works/odisha-rice-seed-deployment.md",
+          "references/data/rice-economy.json"
+        ],
+        "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
       }
@@ -1889,6 +3334,11 @@
         "RES-032",
         "RES-033"
       ]
+    },
+    {
+      "at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "scope": "User-requested rice research added as three bounded tasks; prior task IDs and order retained."
     }
   ],
   "deduplication_policy": "Read methods/research-map.md and each task’s reuse_before_research before browsing. A publication reused by several IDs is not independent corroboration. Keep source/edition/scope and review states.",

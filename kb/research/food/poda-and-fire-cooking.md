@@ -50,3 +50,5 @@ Direct roasting exposes vegetables to heat before peeling/mashing. Leaf parcels 
 ## Website candidate · 1 October 2026
 
 The [fire-cooking collection](fire-cooking-stories.json) selects vegetable roasting and mushroom, fish and prawn leaf-parcel accounts for the first illustrated website batch, connected to existing baked-food stories. [Page data](collection.json) retains named sources and accurate photo captions. The wider nine-entry research scope remains separate; unresolved chicken and bamboo accounts are not promoted into verified visit or menu suggestions.
+
+[Mahua and rice cooked between sal leaves](mahua-mohula.md) offers a source-attributed connection to fire cooking. The paper calls it cake; no unsupported local name, national uniqueness or universal cooking method is inferred.

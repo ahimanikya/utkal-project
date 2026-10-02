@@ -75,9 +75,11 @@
         "UTP-WORK-090",
         "UTP-WORK-091",
         "UTP-WORK-137",
-        "UTP-WORK-141"
+        "UTP-WORK-141",
+        "UTP-WORK-142",
+        "UTP-WORK-143"
       ],
-      "next_action": "WORK-141 is published under REL-047: six guides at three browser widths, two shared notebook smoke checks, keyboard fixes and actual portable-book downloads. Continue the wider 122-page, physical-device and screen-reader queue; this bounded implementation is complete.",
+      "next_action": "REL-048 cultural layout work is published. WORK-143 has completed DOM/overflow checks across all 122 routes at 320, 768 and 1920 pixels. Continue physical-device, full keyboard, screen-reader and deeper visual review; successful browser cases are not human accessibility certification.",
       "evidence": [
         "records/visitor-experience-review.json",
         "records/visitor-readiness-publication.json",
@@ -86,7 +88,9 @@
         "reference/textile-specialist-review.md",
         "records/textile-followup-review.json",
         "records/visitor-flow-polish-review.json",
-        "records/visitor-flow-polish-publication.json"
+        "records/visitor-flow-polish-publication.json",
+        "records/culture-flow-publication.json",
+        "records/autonomous-site-quality.json"
       ],
       "implementation_followups": [
         {
@@ -158,10 +162,11 @@
     },
     {
       "title": "Research integration",
-      "next_action": "Accumulated research integrated under WORK-126 through approved PR 36. Continue source-scoped story work; original-document, local and language reviews remain open.",
+      "next_action": "Earlier research was integrated through PR 36. WORK-143 consolidates the newer accumulated stack through handloom cooperative evidence. Source-scoped story development and unresolved original-document, language and local reviews remain open.",
       "evidence": [
         "records/research-integration-merge.json",
-        "records/fire-cooking-stories-publication.json"
+        "records/fire-cooking-stories-publication.json",
+        "records/autonomous-site-quality.json"
       ]
     }
   ],
@@ -175,7 +180,7 @@
     "indexable_pages": 11,
     "noindex_pages": 111
   },
-  "updated_at": "2026-10-02T13:53:38.817898+00:00",
+  "updated_at": "2026-10-02T14:53:29.177795+00:00",
   "publication_followups": [
     {
       "release": "UTP-REL-035",
@@ -225,7 +230,7 @@
     {
       "release": "UTP-REL-045",
       "evidence": "records/search-console-verification-file.json",
-      "scope": "Ownership-verification response live; eleven-page search scope unchanged. Google verification and submission await Founder action because browser account access remains blocked."
+      "scope": "Ownership-verification file is published. Founder submitted the sitemap and supplied a successful live test; Sitemaps processing still reports a fetch problem in the last available evidence."
     },
     {
       "release": "UTP-REL-046",
@@ -236,6 +241,11 @@
       "release": "UTP-REL-047",
       "evidence": "records/visitor-flow-polish-publication.json",
       "scope": "Visitor-flow batch published. Wider visual, device, screen-reader and local-confirmation reviews remain open."
+    },
+    {
+      "release": "UTP-REL-048",
+      "evidence": "records/culture-flow-publication.json",
+      "scope": "Cultural reading-flow improvements published. Wider browser checks are now recorded in WORK-143; specialist review remains separate."
     }
   ]
 }

@@ -5,7 +5,7 @@ description: "Boyanika — research and reuse notes."
 tags: ["handlooms", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "boyanika", "title": "Boyanika", "resource": "https://boyanika.com/"}]
+sources: [{"id": "boyanika", "title": "Boyanika", "resource": "https://boyanika.com/"}, {"id": "handloom-boyanika70-2026", "title": "Boyanika: seventy-year institutional account", "resource": "https://boyanika.com/boyanika-wear-your-heritage/"}, {"id": "handloom-boyanika-stores", "title": "Boyanika store directory", "resource": "https://boyanika.com/store-location/"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Odisha"
 aliases: ["Boyanika", "boyanika"]
@@ -58,3 +58,11 @@ Check individual product provenance, availability, shipping and seller terms at 
 ## Product-form research · 1 October 2026
 
 A fresh homepage navigation check feeds the [garment and market index](garments-and-markets.md). Readymade categories include kurtis, waistcoats, kurtas, shirts and jackets; scarves, shawls and stoles have separate categories. These are advertised forms, not confirmed stock, production volumes or exports.
+
+## Seventy years of a market institution
+
+Boyanika’s 14 May 2026 anniversary account dates its seventieth anniversary to 5 May 2026 and describes a network of 40 retail outlets. These are the cooperative’s own institutional claims. Its directory lists locations in Odisha, Kolkata and New Delhi; this research has not checked current opening or individual stock. [Anniversary account](https://boyanika.com/boyanika-wear-your-heritage/) · [Directory](https://boyanika.com/store-location/).
+
+A turnover claim in the account has no stated financial year. Keep it separate from an annual growth story. Export promotion and diaspora reach do not establish measured shipments.
+
+[Market research](garments-and-markets.md) connects named traditions with product specifications and explicitly incomplete economic evidence.

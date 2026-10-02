@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:19:13.030991+00:00",
+  "updated_at": "2026-10-02T13:48:24.585819+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -3789,6 +3789,2180 @@
       "status": "unavailable",
       "scope": "Direct route failed; award PDF discovered separately.",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-koli-rprc",
+      "discovery_url": "https://rprcbbsr.in/researchanddevelopment/conservation/wildediblefruitgarden",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "available",
+      "scope": "Undated body; footer updated 29 July 2026 is not a survey date. Garden holdings are not a census of Odisha fruit species. Source-reported names are not current taxonomic adjudications.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-koli-balasore2020",
+      "discovery_url": "https://www.botanyjournals.com/assets/archives/2020/vol5issue3/5-3-106-999.pdf",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "available",
+      "scope": "Survey January 2018–February 2020 in Basta, Balasore, Nilgiri, Remuna and Bahanaga. District study, not statewide season or current market availability. PDF text retrieved; requested page screenshots failed. Medicinal-use claims are not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-koli-pectin2020",
+      "discovery_url": "https://www.foodandnutritionjournal.org/volume8number2/physicochemical-characterization-of-pectin-extracted-from-six-wild-edible-fruits-in-odisha-india/",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "available",
+      "scope": "RPRC-affiliated research. Table season is source-specific; lab potential does not establish commercial output, revenue, exports or a clinical benefit.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-koli-balasore2020",
+      "discovery_url": "https://www.botanyjournals.com/assets/archives/2020/vol5issue3/5-3-106-999.pdf",
+      "checked_at": "2026-10-01T18:27:31.885197+00:00",
+      "run_id": "2026-10-01-koli",
+      "status": "unavailable",
+      "scope": "PDF screenshots for zero-based pages 7 and 8 failed. Full PDF text is separately available; no visual verification claimed.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-bela-sahoo2021",
+      "discovery_url": "https://rosheighara.wordpress.com/2021/04/16/4-traditional-healthy-drinks-of-odisha/",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "available",
+      "scope": "First-person recipe; updated 17 April 2021. Exact glass volume, sugar amount and pepper quantity unresolved. No clinical claims adopted; author not identity-linked to other Sasmita recipe contributors.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-bela-kugaji2023",
+      "discovery_url": "https://chefreetuudaykugaji.com/blog/2023/03/06/bael-ka-sharbat-bel-ka-sharbatwood-apple-sharbat%EF%BF%BC/",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "available",
+      "scope": "Updated 8 March 2023. Attribution for a richer Bela pana variant only. The measured concentrate recipe below is a broader sharbat recipe, not adopted as the Bela pana formula. No medical or three-month storage claims adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-bela-fmu2023",
+      "discovery_url": "https://fmuniversity.nic.in/getdata?dir=InstituteNews&rid=inewsEvent75_15420231681554279989.pdf",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "available",
+      "scope": "Report dated 14 April 2023: university event at Nuapadhi, Balasore; not a statewide custom survey. Browser cache fetch failed; original PDF downloaded and text extracted successfully. Publication upload date not separately established.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-bela-review2023-lead",
+      "discovery_url": "https://ova.gov.in/ovauploads/IandPRDeptRepository/01012024120615_-0-Odisha-Review-Sept-Oct-2023.pdf",
+      "checked_at": "2026-10-01T18:35:46.552469+00:00",
+      "run_id": "2026-10-01-bela-pana",
+      "status": "unavailable",
+      "scope": "Browser reports content length too large (72,797,745 bytes). Indexed article title and cultural lead discovered; full text not inspected or treated as a verified source.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "nature-nandankanan-ar2025",
+      "discovery_url": "https://nandankanan.org/images/documents/annual-report-2024-25.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Original downloaded after mobile link 404 and browser root-link failure. Relevant pages visually checked. Duplicated hidden spread text is not a second observation; printed table controls. Publication date unstated.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-nandankanan-highlights2025",
+      "discovery_url": "https://nandankanan.org/images/documents/HIGHLIGHTS-2025.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Image-only PDF; both pages rendered and inspected. Footfall is a partial calendar year. Largest-collection wording is a publisher claim, not independently ranked. Publication date unstated.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-nandankanan-gharial",
+      "discovery_url": "https://nandankanan.org/mobile/page.php?pid=gharial-breeding-at-nandankanan",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Undated page mixes dated history with stale till-date figures. Only dated observations adopted. Releases and hatchlings do not establish survival or a recovered population.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-nandankanan-tiger",
+      "discovery_url": "https://www.nandankanan.org/conservation-breeding-of-tiger.php",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "available",
+      "scope": "Undated page. Current tiger stock not adopted. Pseudomelanistic colour form kept distinct from a separate species or conservation-outcome metric.",
+      "retry_after": null
+    },
+    {
+      "discovery_url": "https://nandankanan.org/mobile/images/documents/annual-report-2024-25.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "unavailable",
+      "scope": "Mobile annual-report link returns 404; root URL recovered by direct download.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://nandankanan.org/images/documents/HIGHLIGHTS-2024.pdf",
+      "checked_at": "2026-10-01T18:46:24.935756+00:00",
+      "run_id": "2026-10-01-nandankanan",
+      "status": "unavailable",
+      "scope": "Browser PDF fetch exceeded size limit (41,246,804 bytes). Not used in the saved series.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "nature-rprc-cacti",
+      "discovery_url": "https://rprcbbsr.in/researchanddevelopment/conservation/cacti",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Undated collection: species/varieties is a mixed unit, not a species-only census. Asia-largest is RPRC’s claim; no comparative inventory supplied.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-rprc-garden",
+      "discovery_url": "https://www.rprcbbsr.in/facilities/botanicalgarden",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Undated collection counts; footer reviewed 23 September 2026 does not date the inventory. Opening-hours passages conflict; no live visitor guidance adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-rprc-history",
+      "discovery_url": "https://www.rprcbbsr.in/about-us/history",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Institutional history dates establishment to 1985 and describes evolution from recreational garden to research centre. Footer date is not an observation date.",
+      "retry_after": null
+    },
+    {
+      "source_id": "nature-panchkula-cactus",
+      "discovery_url": "https://panchkula.nic.in/tourist-place/cactus-garden/",
+      "checked_at": "2026-10-01T18:51:46.210268+00:00",
+      "run_id": "2026-10-01-ekamra-kanan",
+      "status": "available",
+      "scope": "Comparison of claim definitions only: outdoor landscaped cacti-and-succulents garden differs from RPRC’s cactus species/varieties collection. Neither page provides a harmonized Asia-wide inventory.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-chaurasia-gurukul",
+      "discovery_url": "https://vrindabangurukul.com/pt-hariprasad-chaurasia/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Artist institution biography. Supports Allahabad birth and AIR Cuttack career; 1957 starting year retained as attributed, with a differing 1958 press account unresolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-gurukul-events",
+      "discovery_url": "https://vrindabangurukul.com/events/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Institutional chronology of Bhubaneswar opening. Does not establish current courses, fees, enrolment or media rights.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-sujata-kelucharan",
+      "discovery_url": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Practitioner and family-associated account of Gotipua, Mahari and teaching; not independent resolution of the existing 1924/1926 birth-year conflict.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-kiit-history",
+      "discovery_url": "https://kiit.ac.in/about/history/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Institutional retrospective, not audited outcomes. KISS start associated with 1992 here conflicts with its own 1993 narrative.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-kiss-history",
+      "discovery_url": "https://kissnew.kiss.ac.in/our-story-milestones/",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Institutional self-description. No adoption of largest claims, animated counters, beneficiary totals or causal impact claims.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-dhe-universities",
+      "discovery_url": "https://dhe.odisha.gov.in/en/universities/list-of-univerisities-in-odisha",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Undated administrative directory; selected identities and categories only. May retain old names/URLs; not a complete current operating or UGC-recognition audit.",
+      "retry_after": null
+    },
+    {
+      "source_id": "education-nirf-university-2025",
+      "discovery_url": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "2025 University category only. Direct 2026 candidate URL failed; no claim that a 2026 release does not exist or that these are current ranks.",
+      "retry_after": null
+    },
+    {
+      "source_id": "faith-kantilo-district",
+      "discovery_url": "https://nayagarh.odisha.gov.in/en/tourism/tourist-places/kantilo-nilamadhab",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Supports location and religious association with Jagannath. Does not date a deity transfer or prove village-to-temple chronology.",
+      "retry_after": null
+    },
+    {
+      "source_id": "faith-hirapur-tourism",
+      "discovery_url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/chausathi-yogini.html",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Attributions of date and patronage remain publisher attributions. Nationwide surviving-temple count and speculative ritual explanations not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "faith-mahima-president-2024",
+      "discovery_url": "https://presidentofindia.nic.in/press_releases/president-india-addresses-meeting-mahima-cult",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Speech evidence for public interpretation of Mahima Gosein and Bhima Bhoi; not a critical chronology or religious census.",
+      "retry_after": null
+    },
+    {
+      "source_id": "history-jajpur-buddhist-exhibit",
+      "discovery_url": "https://artsandculture.google.com/story/the-buddhist-heritage-of-jajpur-jajpur/NwWh9wDVsCTFtg?hl=en",
+      "checked_at": "2026-10-01T19:04:12.192294+00:00",
+      "run_id": "2026-10-01-culture-learning",
+      "status": "available",
+      "scope": "Curated secondary interpretation, not an excavation report. Langudi identification is attributed; regional priority, travel flows and exact chronology require primary archaeology.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-march2025",
+      "discovery_url": "https://www.ibm.gov.in/writereaddata/files/1748864652683d8e8cdc8f1MSMP_MARCH25FINAL.pdf",
+      "checked_at": "2026-10-01T19:12:14.031317+00:00",
+      "run_id": "2026-10-01-mining-programme",
+      "status": "available",
+      "scope": "2024–25 full-year highlights in the March 2025 vintage. Subject to later revisions; excludes fuel/atomic/minor minerals for value comparison. Not a current-release claim.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-cag-dmf2026",
+      "discovery_url": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf",
+      "checked_at": "2026-10-01T19:12:14.031317+00:00",
+      "run_id": "2026-10-01-mining-programme",
+      "status": "available",
+      "scope": "Audit covers 2015–16 to 2023–24. All-30-DMF figures and six test-checked DMFs have different scopes. Listing dated 28 September 2026; full report not exhaustively read.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-yearbook2024",
+      "discovery_url": "https://www.ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+      "checked_at": "2026-10-01T19:12:14.031317+00:00",
+      "run_id": "2026-10-01-mining-programme",
+      "status": "available",
+      "scope": "Discovery reference for follow-up; yearbook title is not the year of every resource or production table. No additional numeric observation admitted from this capture.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-sector2025",
+      "discovery_url": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "available",
+      "scope": "Selected tables, with kendu headers visually checked. Fiscal-year sale figures differ from crop-year series elsewhere; not latest-release verification.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-kendu",
+      "discovery_url": "https://www.odishafdc.com/kenduleaf.php",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "available",
+      "scope": "Undated page; history only, not fresh current production. 2019–20 sale value399.14 differs from2025 report399.09; both retained for reconciliation.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "discovery_url": "https://ideas.repec.org/a/ags/injagm/399613.html",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "partial",
+      "scope": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-vasundhara2001",
+      "discovery_url": "https://www.fao.org/4/ad352t/AD352T06.htm",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "available",
+      "scope": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "discovery_url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "checked_at": "2026-10-01T19:23:15.175549+00:00",
+      "run_id": "2026-10-01-forest-products",
+      "status": "unavailable",
+      "scope": "Direct page unavailable (502/Internal Error). Indexed product list is a discovery lead; malformed/duplicate entries and current procurement count not verified.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-iisc",
+      "discovery_url": "https://indiaflora-ces.iisc.ac.in/FloraPeninsular/herbsheet.php?cat=7&id=8868",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "available",
+      "scope": "Institutional flora identity record. General phenology is not an Odisha district harvest calendar; synonyms retain source taxonomy. No images or bulk content reproduced.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-mahua-tnau",
+      "discovery_url": "https://agritech.tnau.ac.in/bio-fuels/Biofuel_Mahua.html",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "available",
+      "scope": "Undated extension page, broad Indian scope. Used for seed-oil/soap and cultivation distinctions, not Odisha yields, prices, safety instructions or statewide flowering dates.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-livelihoods",
+      "discovery_url": "https://vasundharaodisha.org/Welcome/page/Livelihood",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "available",
+      "scope": "Undated organisational self-report, not independent impact evaluation. Used for product and women-producer-group research leads; old forest-area and undated group counts not adopted as current statistics.",
+      "retry_after": null
+    },
+    {
+      "discovery_url": "https://nopr.niscpr.res.in/bitstream/123456789/15545/1/JSIR%2072%281%29%2062-69.pdf",
+      "checked_at": "2026-10-01T19:28:54.352476+00:00",
+      "run_id": "2026-10-01-forest-product-profiles",
+      "status": "unavailable",
+      "scope": "Web fetch timed out; indexed lead not admitted as a full paper or statistical source.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-food2016",
+      "discovery_url": "https://indianjournals.com/article/aet-40-4-004",
+      "checked_at": "2026-10-01T19:35:04.134564+00:00",
+      "run_id": "2026-10-01-forest-seasonal",
+      "status": "partial",
+      "scope": "Abstract only; food-product development is not measured commercial adoption. Districts, survey dates, recipe quantities and consumer-panel methods require full text.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-siali-iisc",
+      "discovery_url": "https://indiaflora-ces.iisc.ac.in/EasternGhats/herbsheet.php?cat=4&id=1830",
+      "checked_at": "2026-10-01T19:35:04.134564+00:00",
+      "run_id": "2026-10-01-forest-seasonal",
+      "status": "available",
+      "scope": "Direct institutional flora. Phanera vahlii and Bauhinia vahlii are retained as linked names in the source; general phenology is not a district harvest calendar.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-scstrti-foodknowledge",
+      "discovery_url": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf",
+      "checked_at": "2026-10-01T19:35:04.134564+00:00",
+      "run_id": "2026-10-01-forest-seasonal",
+      "status": "available",
+      "scope": "Repository filename labels2014; publication and fieldwork dates unconfirmed. Selected historical community descriptions, not present-day practices or original interviews by Utkal.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.statebotanicalgardenodisha.org/plant-details.php?purl=siali",
+      "checked_at": "2026-10-01T19:35:04.134564+00:00",
+      "run_id": "2026-10-01-forest-seasonal",
+      "status": "unavailable",
+      "scope": "Direct fetch returned500 Internal Server Error; independent IISc flora used for identity.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://repository.tribal.gov.in/handle/123456789/74427",
+      "checked_at": "2026-10-01T19:35:04.134564+00:00",
+      "run_id": "2026-10-01-forest-seasonal",
+      "status": "unavailable",
+      "scope": "Repository metadata page unavailable; PDF accessible. Publication/fieldwork dates remain unresolved.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://mdpcl.com/mahua-value-chain",
+      "checked_at": "2026-10-01T19:35:04.134564+00:00",
+      "run_id": "2026-10-01-forest-seasonal",
+      "status": "unavailable",
+      "scope": "Direct fetch unavailable; indexed company claims not admitted as verified enterprise outcomes.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-santhal2016",
+      "discovery_url": "https://atr.vsu.edu.ph/article/download/212/202/390",
+      "checked_at": "2026-10-01T19:58:15.218126+00:00",
+      "run_id": "2026-10-01-mahua-preparation",
+      "status": "available_text_only",
+      "scope": "Full PDF text available through web extraction; visual fetch503 and direct download HTTP/2 error. Fieldwork2009, publication2016; paper mixes field and secondary material. Numeric spoilage and medical claims not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ouat2021",
+      "discovery_url": "https://ouat.ac.in/wp-content/uploads/2023/05/annual_report_2020-21_3.pdf",
+      "checked_at": "2026-10-01T19:58:15.218126+00:00",
+      "run_id": "2026-10-01-mahua-preparation",
+      "status": "available",
+      "scope": "Selected institutional research highlights. A developed unit is not deployed capacity, factory output or evidence of adoption; no general shelf-life guarantee taken from cookie experiment.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://panchayat.odisha.gov.in/sites/default/files/2024-05/AAR-2020-21_English.pdf",
+      "checked_at": "2026-10-01T19:58:15.218126+00:00",
+      "run_id": "2026-10-01-mahua-preparation",
+      "status": "unavailable",
+      "scope": "Web fetch timed out and direct download timed out at45 seconds. Indexed honey purchase figures are a lead only, not admitted observations.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-oas2024",
+      "discovery_url": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Primary PDF text checked. Separate area, rice and paddy columns; physical quantities, not revenue. Direct PDF download timed out; web text available.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-fscw2025",
+      "discovery_url": "https://www.foododisha.in/Download/annual-activity-glance-24-25.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Downloaded original report; Annexure I visually checked. KMS 2023–24 annual procurement differs from the partial KMS 2024–25 snapshot dated17 January2025. Release date not established.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-crri-releases",
+      "discovery_url": "https://icar-crri.in/released-varieties/",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Undated institutional list. Release/recommendation evidence, not current acreage or realised yields. Selected variety names and ecologies only.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-nrri-aromatic2022",
+      "discovery_url": "https://icar-crri.in/wp-content/uploads/2023/07/NRRI-Research-Bulletin-39.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "November2022 bulletin; pureline pedigrees and release/notification distinctions. Alternate official icar-nrri.in URL failed502; this mirror is the same publication, not independent corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-mssrf-tulasa",
+      "discovery_url": "https://www.mssrf.org/our-stories/more-than-70-landraces-of-paddy-varieties-have-been-conserved-by-tulasa",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "available",
+      "scope": "Undated institutional field profile. Documents a local conservation/cultivation account, not a current statewide inventory; identities and local spellings need follow-up.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://icar-nrri.in/wp-content/uploads/2023/07/NRRI-Research-Bulletin-39.pdf",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "unavailable",
+      "scope": "502; official old-domain publication retrieved instead",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://foododisha.in/index.htm?GL=home",
+      "checked_at": "2026-10-01T20:10:23.860704+00:00",
+      "run_id": "2026-10-01-rice-research",
+      "status": "partial",
+      "scope": "Indexed2025–26 annual-report link failed; direct homepage capture lacks that link. Current report not verified.2024–25 report downloaded separately.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-oas2024",
+      "discovery_url": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "partial",
+      "scope": "Historical and district tables read through primary PDF web text; direct file download timed out. No visual verification claimed.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "rice-samant2023",
+      "discovery_url": "https://epubs.icar.org.in/index.php/OIJR/article/view/138554",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "available",
+      "scope": "2019–20 and2020–21 coastal Odisha experiment, three replications. Abstract available; full itemised cost basis not obtained. Experimental means are not statewide earnings or a current forecast.",
+      "retry_after": null
+    },
+    {
+      "source_id": "rice-pib-msp2023",
+      "discovery_url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=244453&reg=3&lang=2",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "available",
+      "scope": "Historical national policy rates applied only to the matching marketing year. All-India cost basis in the release is not an Odisha farm cost observation.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://desagri.gov.in/document-report/cost-of-cultivation-production-and-related-data-2021-22/",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "unavailable",
+      "scope": "Web and direct fetch timed out; no cost dataset values admitted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://desagri.gov.in/wp-content/uploads/2024/04/FHP-Publication-for-the-Year-2022-23.pdf",
+      "checked_at": "2026-10-01T20:19:47.401985+00:00",
+      "run_id": "2026-10-01-rice-trends",
+      "status": "unavailable",
+      "scope": "Web fetch timeout. Search excerpt is a lead only.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-balliguda2021",
+      "discovery_url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_831468672.pdf",
+      "checked_at": "2026-10-01T20:39:09.741844+00:00",
+      "run_id": "2026-10-01-leaf-craft",
+      "status": "available_text_only",
+      "scope": "Division-specific descriptive account and management prescriptions; no measured current harvest, trade total or statewide calendar. Repeated passages later in the same plan are not corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-cysd2002",
+      "discovery_url": "https://assets.publishing.service.gov.uk/media/57a08d48e5274a31e0001784/cysd-orissa-2714.pdf",
+      "checked_at": "2026-10-01T20:39:09.741844+00:00",
+      "run_id": "2026-10-01-leaf-craft",
+      "status": "available_text_only",
+      "scope": "Published historical maker case: Rajani Majhi, Satajhari, Nayagarh. Publication day unresolved; filename mentions January 2003. Projected earnings are not realised income and are not imported.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-jica2017",
+      "discovery_url": "https://openjicareport.jica.go.jp/pdf/12284139_02.pdf",
+      "checked_at": "2026-10-01T20:39:09.741844+00:00",
+      "run_id": "2026-10-01-leaf-craft",
+      "status": "available_text_only",
+      "scope": "Kandhamal value-chain description, not a current enterprise census or evidence that proposed interventions were delivered. Cover date verified in part 01 of the same report.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ciah-varieties",
+      "discovery_url": "https://www.icar-ciah.org/index.php?do=veriti_relese_svrc&mod=veriti",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "available",
+      "scope": "Undated institutional cultivar list; supports Thar Priya/chironji and Goma Prateek/tamarind names. Does not verify planting, adoption, yields or release dates in Odisha.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-tamarind",
+      "discovery_url": "https://vasundharaodisha.org/upload/pdfFile/b949225825e4667de86b4628a67b57b8.pdf",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "available_text_only",
+      "scope": "Undated publication with April 2023 policy context. Original named collector testimony is primary qualitative evidence; policy and state-production figures are secondary. Precise interview dates, lot grades and sample design unresolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-chironji-processing2012",
+      "discovery_url": "https://nopr.niscpr.res.in/handle/123456789/13445",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "indexed_only",
+      "scope": "Bibliographic/indexed lead only. Do not treat a 2012 general processing account as a current Odisha recipe, machinery census or measured export market.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "discovery_url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "unavailable",
+      "scope": "Direct web fetch failed again; existing indexed scope retained. No values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.tdccodisha.org/upload_image/1649924509_Notice_Advance_tender_v4_03042024.pdf",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "unavailable",
+      "scope": "Web 502; direct download rejected self-signed certificate. No tender values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-scstrti-foodknowledge",
+      "discovery_url": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf",
+      "checked_at": "2026-10-01T21:20:19.531656+00:00",
+      "run_id": "2026-10-01-forest-fruits",
+      "status": "available_text_only",
+      "scope": "New char/tentuli passages read. Alternate repository URL and screenshot failed; existing original URL text available. Same publication, not new corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-kl-welfare2026",
+      "discovery_url": "https://kenduleaves.odisha.gov.in/welfare-measures",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "available",
+      "scope": "Direct page text differs from search-indexed June snapshot. Welfare table year basis is unspecified; retain it separately from report payment/crop years. Compassionate-grant counts are records, not verified distinct people.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-ar2021",
+      "discovery_url": "https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "available",
+      "scope": "Original PDF downloaded through publisher listing; printed p.17 visually checked. Audited financial statements accompany the report, but this does not independently audit every narrative/table. FY2019–20 quantity is an additional unresolved vintage.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://stsc.odisha.gov.in/en/publication/annual-reports",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out. Indexed successors are leads only.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://stsc.odisha.gov.in/sites/default/files/2024-07/Annual%20Activity%20Report_2023-24_2.pdf",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out; no procurement figures imported.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://kenduleaves.odisha.gov.in/admin/data/ckeditor/images/Notification%20No-2587%20Dtd-%2013_02_2024-%20Enhancement%20of%20Kerry%20Price.pdf",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web and direct connection timed out; indexed rates not admitted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://trifed.tribal.gov.in/en/node/683",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web timeout; no current centres, procurement or product outcomes admitted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A2534/lang%3A",
+      "checked_at": "2026-10-01T21:29:27.391557+00:00",
+      "run_id": "2026-10-01-forest-payments",
+      "status": "unavailable",
+      "scope": "Web unavailable; indexed division-payment lead not adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-palm-panda2021",
+      "discovery_url": "https://reference-global.com/article/10.2478/arls-2021-0031",
+      "checked_at": "2026-10-01T21:38:31.291164+00:00",
+      "run_id": "2026-10-01-palm-seed",
+      "status": "available",
+      "scope": "Original publisher PDF recovered via citation_pdf_url after web unsupported content-type; p.67 visually inspected; landing tabs are aliases, not corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://commons.wikimedia.org/wiki/File:Tala_gaja_(Endosperm_of_ripen_palm),_Baleswar,_Odisha_2013.jpg",
+      "checked_at": "2026-10-01T21:38:31.291164+00:00",
+      "run_id": "2026-10-01-palm-seed",
+      "status": "unavailable",
+      "scope": "Direct page cache miss; indexed creator caption retained as lead only, no image downloaded or reused.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "food-palm-ragul2022",
+      "discovery_url": "https://or.niscpr.res.in/index.php/IJEB/article/view/1671",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "available",
+      "scope": "Primary seed-development experiment using Tamil Nadu seed material; supports anatomy, not Odisha food prevalence or consumer health outcomes.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-palm-flour2019",
+      "discovery_url": "https://annexpublishers.co/full-text/JNH/6103/Physico-Chemical-and-Functional-Characteristics-of-Palmyrah-Borassus-flabellifer-L-Spongy-Haustorium-Flour.php",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "available",
+      "scope": "Andhra Pradesh researcher affiliations; sample collection locality not explicit in inspected method. Raw-consumption description and flour process only. Near-identical Kosmos text is not independent corroboration; numeric and clinical claims not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "food-palm-kantio2019",
+      "discovery_url": "https://kantiokatha.blogspot.com/2019/07/blog-post_23.html",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "available",
+      "scope": "Authored lexical account, not a representative linguistic survey or independently reviewed botanical identification. Preserve spellings as reported and do not merge them into canonical aliases.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://nopr.niscpr.res.in/bitstream/123456789/60086/1/IJEB%2060%20%2807%29%20498-509.pdf",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "partially_available",
+      "scope": "Web full text available; direct PDF TLS timeout and screenshot failure. No visual inspection claimed.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sciencedirect.com/science/article/pii/S0254629922000291",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "unavailable",
+      "scope": "Direct page unavailable; indexed abstract only. No detailed nutrition or health outcome adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://tnau.ac.in/site/research/wp-content/uploads/sites/60/2023/10/7.-39th-Horticulture-Proceedings-CSM-2023.pdf",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "unavailable",
+      "scope": "Direct PDF unavailable; indexed project plan is a lead, not a completed outcome.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://antarangakalinga.org/କୁଆଁର-ପୁନେଇଁ/",
+      "checked_at": "2026-10-01T22:01:16.891147+00:00",
+      "run_id": "2026-10-01-palm-anatomy",
+      "status": "unavailable",
+      "scope": "Direct page unavailable; indexed festival ingredient connection remains a lead.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "dance-raut-interview",
+      "discovery_url": "https://www.sahapedia.org/conversation-guru-mayadhar-raut-odissi",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "First-person retrospective testimony; chronology and priority claims are attributed, not independently resolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-sambalpur-district",
+      "discovery_url": "https://sambalpur.odisha.gov.in/en/tourism/culture-Heritage",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "District cultural description; named communities are not an exhaustive distribution or participant census.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-kalahandi-district",
+      "discovery_url": "https://kalahandi.odisha.gov.in/en/tourism/culture-Heritage",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Undated district description; troupe range describes a format, not statewide employment or universal requirements.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-folk-panel2024",
+      "discovery_url": "https://www.indiaculture.gov.in/sites/default/files/pdf/Folk_Dance_as_on_01.03.2024-223-255.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Dated administrative listing links the named practitioner/group to Ghumura and Dalkhai clips. Not a current booking check, authorship claim or evidence of export income. Web PDF text available; screenshot failed and direct download timed out. No visual inspection or clip playback claimed; ambiguous Ghumura video-ID glyph not normalized.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-sna-report2016",
+      "discovery_url": "https://sangeetnatak.gov.in/public/uploads/reports/16427518058387.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Organizer retrospective report credits D. Balaram Reddy and Group, Ganjam, for Ranapa. National-festival participation is not an attendance or earnings measure. Web open failed; original PDF downloaded and page32 visually inspected. Text extraction has encoding defects.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-battery2024",
+      "discovery_url": "https://batterydance.org/aug-15-2024/",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Presenter programme for Rockefeller Park, New York; establishes billed work and credits, not independently confirmed delivery, audience or commercial success. Page incorrectly calls Odisha northeastern in its introduction; geography wording not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-breath-gold-publisher",
+      "discovery_url": "https://www.penguin.co.in/book/breath-of-gold/",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "available",
+      "scope": "Publisher record for Sathya Saran biography. Metadata and description inspected, not full book; cannot resolve AIR service dates or individual Odia recording credits.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ccrtindia.gov.in/odissi-dance/",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "unavailable",
+      "scope": "Direct web open failed; independent practitioner interview used.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sangeetnatak.gov.in/public/uploads/reports/164275839545378.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "unavailable",
+      "scope": "Direct web open failed; indexed Dalkhai photo is not adequate performer-credit evidence.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.sangeetnatak.gov.in/public/uploads/awardees/docs/Janmejoy_Sai_Babu.pdf",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "unavailable",
+      "scope": "www and bare-domain opens failed; indexed award citation remains a lead. No new profile based on it.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.newindianexpress.com/amp/story/states/odisha/2025/Aug/13/odisha-ghumura-training-academy-to-stop-fresh-enrolment-over-funds-crunch",
+      "checked_at": "2026-10-01T22:18:16.476238+00:00",
+      "run_id": "2026-10-01-dance-music",
+      "status": "discovery_only",
+      "scope": "Indexed press lead about training interruption; primary current operating evidence needed. Not asserted as current status.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "music-gapa-label",
+      "discovery_url": "https://www.youtube.com/watch?v=75AQNxffwqA",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "First-party label credits directly read in browser. Muted player progressed from00:05 to00:07 to00:25; only first song sampled, no complete or audible review. Upload date is not original recording or film-release date.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-chaurasia-cinemaazi",
+      "discovery_url": "https://cinemaazi.com/people/pandit-hariprasad-chaurasia-1",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "Institutional secondary synthesis identifies Bhuban-Hari as Bhubaneswar Mishra and Hariprasad Chaurasia. Not an original session sheet; page cites artist website now redirecting to Gurukul. Web text contains a subscription notice; only returned extract used, no subscription bypass. Samaya chronology and broad popularity statements not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": "dance-red-lotus2017",
+      "discovery_url": "https://www.youtube.com/watch?v=1-krCpUX6TE",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "Government panel links this URL as Dalkhai under PRATIVA; uploader page itself gives no description or performer credits. Muted player progressed00:00→00:03→00:39, not a full or audible performance review. Artist identity and dance classification still rely on the register.",
+      "retry_after": null
+    },
+    {
+      "source_id": "music-gapa-apple",
+      "discovery_url": "https://music.apple.com/us/album/gapa-helebi-sata-original-motion-picture-soundtrack/1370043900",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "available",
+      "scope": "Catalogue presents two songs, July16,1976 and phonogram year2017. Preserve as one catalogue edition, not an original-release certificate. Label video has three song chapters; editions/containers differ and are not independent historical corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://music.amazon.com/albums/B0756988KH",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "unavailable",
+      "scope": "Indexed metadata only; direct open failed. Exact date not adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://cinemaazi.com/public/people/pandit-hariprasad-chaurasia-1",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "unavailable",
+      "scope": "Public-prefixed route failed; canonical people route returned extract with subscription notice. No paywall bypass.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.youtube.com/watch?v=75AQNxffwqA",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "recovered_in_browser",
+      "scope": "Web fetch failed; browser recovered label description and limited muted playback.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://www.youtube.com/watch?v=1-krCpUX6TE",
+      "checked_at": "2026-10-01T22:40:02.923935+00:00",
+      "run_id": "2026-10-01-music-credits",
+      "status": "recovered_in_browser",
+      "scope": "Web fetch failed; browser recovered page and limited muted playback.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-coal-directory2025",
+      "discovery_url": "https://coal.gov.in/sites/default/files/2024-03/28-11-2025a-stc.pdf",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "available",
+      "scope": "Original PDF downloaded and extracted; production, resource and mine table pages visually checked. Publication date from Coal Controller directory listing. MT means million tonnes. Geological resource table credits GSI; not an economically recoverable inventory.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ocpl-rr",
+      "discovery_url": "https://ocpl.org.in/RandR.asp",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "available",
+      "scope": "Direct web text. Used for Hemgir/Sundargarh location and attributed livelihood objective, not independently verified current outcomes. Main narrative and October2019 land table differ; land totals not adopted.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://coal.gov.in/sites/default/files/2024-03/28-11-2025a-stc.pdf",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "recovered",
+      "scope": "Web tool size-limit failure; original PDF subsequently downloaded, extracted and relevant table pages visually checked.",
+      "retry_after": null
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://environmentclearance.nic.in/auth/FORM_A_PDF.aspx?cat_id=IA%2FOR%2FCMIN%2F75826%2F2018&pid=New",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "unavailable",
+      "scope": "502 Bad Gateway; Talabira district match remains unverified in this capture.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": null,
+      "discovery_url": "https://ocpl.org.in/PDF/COAL_SALE_NOTICE_NEWS_PAPER07-11-2024.pdf",
+      "checked_at": "2026-10-01T22:57:07.408987+00:00",
+      "run_id": "2026-10-01-mining-series",
+      "status": "unavailable",
+      "scope": "Direct web fetch returned Internal Error; not unchanged.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "comparison-6-1",
+      "discovery_url": "https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport",
+      "checked_at": "2026-10-01T23:18:55.981451+00:00",
+      "run_id": "2026-10-01-ore-series",
+      "status": "available",
+      "scope": "Full source recovered; selected numerical tables inspected. Cross-publisher differences preserved, not resolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-yearbook2024",
+      "discovery_url": "https://www.ibm.gov.in/writereaddata/files/177426215469c1178a48453IMYB_2024_EBookFinal.pdf",
+      "checked_at": "2026-10-01T23:18:55.981451+00:00",
+      "run_id": "2026-10-01-ore-series",
+      "status": "available",
+      "scope": "Full source recovered; selected numerical tables inspected. Cross-publisher differences preserved, not resolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-nalco-ar2026",
+      "discovery_url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "available",
+      "scope": "Selected Directors’ Report, BRSR and five-year tables; printed pages 12–14, 59, 74, 88, 93, 97, 102, 105, 296; PDF pages = printed +20.",
+      "retry_after": null,
+      "access_history": "NALCO web-reader502 routes recovered by original download; DBL direct page available."
+    },
+    {
+      "source_id": "mining-nalco-refinery",
+      "discovery_url": "https://nalcoindia.com/business/operation/alumina-refinery/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "available",
+      "scope": "Opening operation description: mine conveyor, refinery, Angul smelter and Visakhapatnam rail links.",
+      "retry_after": null,
+      "access_history": "NALCO web-reader502 routes recovered by original download; DBL direct page available."
+    },
+    {
+      "source_id": "mining-dbl-pottangi",
+      "discovery_url": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "available",
+      "scope": "Project description, status and agreement parties.",
+      "retry_after": null,
+      "access_history": "NALCO web-reader502 routes recovered by original download; DBL direct page available."
+    },
+    {
+      "source_id": "mining-nalco-ar2026",
+      "discovery_url": "https://nalcoindia.com/business/operation/bauxite-mines/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "unavailable",
+      "scope": "Web-reader502; report substituted only for separately identified facts.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "enterprise-nalco2026",
+      "discovery_url": "https://nalcoindia.com/company/our-growth-story/production-financial-highlights/",
+      "checked_at": "2026-10-01T23:35:36.358411+00:00",
+      "run_id": "2026-10-01-mining-value-chain",
+      "status": "unavailable",
+      "scope": "Web-reader502; report substituted only for separately identified facts.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-ibm-kodingamali2024",
+      "discovery_url": "https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "PDF pp.1–5; inspection 12 September 2024, row3p production and row5d rehabilitation.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-asi-baphlimali2026",
+      "discovery_url": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "PDF pp.1–4,8,14–18; January2026 audit, March2026 submission, May2026 certificate.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-hindalco-baphlimali",
+      "discovery_url": "https://www.hindalco.com/about-us/operations/baphlimali-bauxite-mines",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "Header capacity8.5MTPA versus body7.0MTPA; end-use refinery and conveyor description.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-asi-baphlimali-news2026",
+      "discovery_url": "https://aluminium-stewardship.org/asi-certifies-baphlimali-bauxite-mines-of-utkal-international-limited-against-performance-standard-v3-1",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available",
+      "scope": "Certification scope, capacity and nine minor non-conformances.",
+      "retry_after": null
+    },
+    {
+      "source_id": "mining-ibm-kodingamali2024",
+      "discovery_url": "https://environmentclearance.nic.in/auth/FORM_A_PDF.aspx?cat_id=IA%2FOR%2FMIN%2F143523%2F2020",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "unavailable",
+      "scope": "Direct web reader internal error; indexed snippet is discovery only. Discovery route for the same mine, not a successful capture of the IBM record.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-hindalco-baphlimali",
+      "discovery_url": "https://www.hindalco.com/sustainability/regulatory-compliances",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "conflicted",
+      "scope": "Baphlimali-labelled link133 resolves to Bimarla/GumlaJharkhand; indexed and direct page lists differ. Utkal report link193 returned internal error.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-hindalco-baphlimali",
+      "discovery_url": "https://www.hindalco.com/Upload/PDF/eccr-bimarla-bauxite-mine-oct25-to-mar26.pdf",
+      "checked_at": "2026-10-01T23:52:46.441614+00:00",
+      "run_id": "2026-10-01-bauxite-sites",
+      "status": "available_wrong_scope",
+      "scope": "Cover checked: Bimarla,Gumla,Jharkhand. Not Baphlimali; excluded.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-baphlimali-g1-2025",
+      "discovery_url": "https://www.hindalco.com/Upload/PDF/baphlimali-form-g1-annual-return-2024-25.pdf",
+      "checked_at": "2026-10-02T00:49:26.791780+00:00",
+      "run_id": "2026-10-02-baphlimali-returns",
+      "status": "available_text_only",
+      "scope": "Company-filed annual return; PDF pp.1–4,6,12–13. Signed25June2025; posting date unknown.",
+      "retry_after": "2026-10-08",
+      "access_history": [
+        {
+          "method": "web_reader_pdf_text",
+          "status": "available"
+        },
+        {
+          "method": "direct_download",
+          "status": "unavailable",
+          "reason": "HTTP406"
+        },
+        {
+          "method": "web_screenshot",
+          "status": "unavailable",
+          "reason": "cache-miss"
+        }
+      ]
+    },
+    {
+      "source_id": "mining-baphlimali-ec-sep2025",
+      "discovery_url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+      "checked_at": "2026-10-02T00:49:26.791780+00:00",
+      "run_id": "2026-10-02-baphlimali-returns",
+      "status": "available_text_only",
+      "scope": "Company compliance report; PDF pp.2,4,11,16,41,44,46. Scanned consent annexure pp.81ff not readable in this capture.",
+      "retry_after": "2026-10-08",
+      "access_history": [
+        {
+          "method": "web_reader_pdf_text",
+          "status": "available"
+        },
+        {
+          "method": "direct_download",
+          "status": "unavailable",
+          "reason": "HTTP406"
+        },
+        {
+          "method": "scanned_annexure_text",
+          "status": "unavailable",
+          "reason": "Scanned CTO pages not exposed as readable text"
+        }
+      ]
+    },
+    {
+      "discovery_url": "https://kenduleaves.odisha.gov.in/production-sale",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web fetch failed; direct fetch timed out after35seconds.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://www.tdccodisha.org/whats_new.php",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web HTTP502; direct fetch failed TLS certificate validation. No bypass used.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web HTTP502; existing unavailable route, not new verification.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://stsc.odisha.gov.in/sites/default/files/2026-02/Annual%20Activity%20Report%202025-26_0.pdf",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web reader rejected oversized response; direct fetch timed out after45seconds.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://stsc.odisha.gov.in/sites/default/files/2025-04/Annual%20Activity%20Report%202024-25.pdf",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web timeout; direct fetch timed out after45seconds. Indexed report values remain discovery leads only.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://trifed.tribal.gov.in/en/Odisha",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web timeout.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://tdccodisha.org/upload_image/1916149893_E-_Auction_Notice_1764%2C_dated_21.10.2024_for_Sale_of_Tamarind_procured_Crop_2024_Under_MSP_Scheme_TDCC.pdf",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web cache-miss; an auction notice would not establish a completed sale.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-loksabha1179-2023",
+      "discovery_url": "https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "available",
+      "scope": "PDF pp.1,3; annexure Odisha row20 and total row",
+      "capture_method": "primary_pdf_text_and_local_visual_check"
+    },
+    {
+      "source_id": "forest-pib-vandhan2021",
+      "discovery_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1715921",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "available",
+      "scope": "Paragraphs naming Mayurbhanj clusters, Anchalika Khandadhar and Ban Durga",
+      "capture_method": "primary_publisher_html"
+    },
+    {
+      "discovery_url": "https://mssrf.org/projects/multi-varietal-trial-rice-under-lowland-and-medium-land-conditions-selected-tribal",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "unavailable",
+      "scope": "JavaScript gate; search snippet not admitted as a measured outcome.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.mssrf.org/wp-content/uploads/2023/08/MSSRF-Annual-Report-2022-23_Final.pdf",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "unavailable",
+      "scope": "Web reader unavailable; direct download returned HTML, not a PDF. No report figures admitted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "source_id": "rice-yadav-landraces2026",
+      "discovery_url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "available",
+      "scope": "Sections2.2 and3.2; Tables6–7"
+    },
+    {
+      "source_id": "rice-irri-kalahandi2020",
+      "discovery_url": "https://news.irri.org/2020/05/women-farmers-take-significant-step.html",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "available",
+      "scope": "Paragraphs describing2019 production and named seed classes"
+    },
+    {
+      "source_id": "rice-mssrf-tulasa",
+      "discovery_url": "https://www.mssrf.org/our-stories/more-than-70-landraces-of-paddy-varieties-have-been-conserved-by-tulasa",
+      "checked_at": "2026-10-02T01:39:07.455735+00:00",
+      "run_id": "2026-10-02-rice-place-food",
+      "status": "available",
+      "scope": "Cultivation paragraph and final original-publication credit"
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "available",
+      "scope": "Web-reader cache miss recovered by direct original PDF download;10 pages parsed, Tables5–7 visually checked."
+    },
+    {
+      "discovery_url": "https://desagri.gov.in/document-report/cost-of-cultivation-production-and-related-data-2021-22/",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "unavailable",
+      "scope": "Web reader timed out; direct request also timed out after35 seconds. No data admitted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ouat.ac.in/or/publication/",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "available",
+      "scope": "Official publication listing accessible, but requested2023 crop-cost book not located. Third-party mirror excluded."
+    },
+    {
+      "discovery_url": "https://epubs.icar.org.in/index.php/OIJR/article/view/138554",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "available",
+      "scope": "Existing original abstract rechecked; full itemised cost text not recovered. No duplicate observations."
+    },
+    {
+      "discovery_url": "https://foododisha.in/Download/annual-activity-glance-25-26.pdf",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "available",
+      "scope": "Original scanned56-page report recovered by direct download; selected procurement pages visually checked. Prior web-reader failure retained as route history."
+    },
+    {
+      "discovery_url": "https://www.foododisha.in/Download/annual-activity-glance-23-24.pdf",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "available",
+      "scope": "Original40-page scanned report downloaded after web-reader size limit. Budget pp.25–27 inspected; no numeric observations admitted from this edition."
+    },
+    {
+      "discovery_url": "https://www.foododisha.in/TransparencyPortal.asp?GL=TransparencyPortal",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "partial",
+      "scope": "Index accessible; farmerwise payment link returns to same index, not settlement records.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ppas.pdsodisha.gov.in/procurementStatusReportPPAS",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "partial",
+      "scope": "Public KMS/season selector visible; web reader supplied no aggregate records. No claim of unchanged values.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/47",
+      "checked_at": "2026-10-02T02:18:39.272261+00:00",
+      "run_id": "2026-10-02-buddhist-learning",
+      "status": "available",
+      "scope": "Web reader size limit recovered by original PDF download; text and selected page images reviewed."
+    },
+    {
+      "discovery_url": "https://bdkamerica.org/download/1865",
+      "checked_at": "2026-10-02T02:18:39.272261+00:00",
+      "run_id": "2026-10-02-buddhist-learning",
+      "status": "available",
+      "scope": "Web reader unsupported content type recovered by publisher PDF download; title and Uḍa passage checked."
+    },
+    {
+      "discovery_url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp46202",
+      "checked_at": "2026-10-02T02:18:39.272261+00:00",
+      "run_id": "2026-10-02-buddhist-learning",
+      "status": "unavailable",
+      "scope": "Catalogue open timed out; no scan acquired from this route. Credited publisher translation obtained separately.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.ugc.gov.in/universitydetails/Getuniversity_details?unitypeID=0",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "HTML category pages omit dynamic rows; public endpoint from linked JavaScript returned institution records. Selected18identities checked."
+    },
+    {
+      "discovery_url": "https://deemed.ugc.ac.in/Home/ListOfDeemedToBeUniversity",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Named deemed-status rows and DOE dates read."
+    },
+    {
+      "discovery_url": "https://utkaluniversity.ac.in/act/",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Web reader failed; direct download resolved original Act link."
+    },
+    {
+      "discovery_url": "https://www.indiacode.nic.in/bitstream/123456789/2080/7/a2009-25.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "unavailable",
+      "scope": "Web reader error and direct read timeout; alternate IndiaCode path also timed out. Original Gazette recovered from Central University of Punjab.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2025/SDGRanking.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "unavailable",
+      "scope": "Candidate discovery URL failed; no finding inferred.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/acts-statutes-ordinances/",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Web reader available; direct page download403. Linked Gazette and UGC PDFs downloaded and selected pages reviewed."
+    },
+    {
+      "discovery_url": "https://utkaluniversity.ac.in/wp-content/uploads/2021/03/University-Act.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/wp-content/uploads/2024/11/1355.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/wp-content/uploads/2024/11/2160.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/wp-content/uploads/2024/11/4992496_CenturianUniversity.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cup.edu.in/sites/default/files/Documents/Gazette.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking150.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2025/UniversityRanking150.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0363.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0356.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/IIQA/KISS-DU-NOTIFICATION-DT-25.08.2017.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available",
+      "scope": "Original five-page scan; pages 1–4 visually read. Provisional five-year de-novo grant after UGC reported conditions fulfilled, including documentary de-linking from the school. Seven departments named. The historical review condition is not evidence of present non-compliance or withdrawal; reuse the current UGC register separately."
+    },
+    {
+      "discovery_url": "https://www.education.gov.in/sites/upload_files/mhrd/files/Notification17052017.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available_with_capture_limits",
+      "scope": "Publisher PDF text available through web reader; direct download returned 404 and screenshot failed. Exact day illegible in retrieved text. Recites original 16 February 2004 grant, then extends status five years effective 16 February 2014 subject to conditions. Historical review observations are not current deficiencies. Original 2004 instrument not separately inspected."
+    },
+    {
+      "discovery_url": "https://sansad.in/ls/members/biography/4993?from=members",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available_with_capture_limits",
+      "scope": "Indexed official-page extract read; direct page reader yielded no body. Rajya Sabha 2018–2019, elected 17th Lok Sabha May 2019, Kandhamal, Odisha. Records use Achyutananda Samanta. Historical service only: onwards entries do not establish a current office. Parliament is an independent publisher from KIIT/KISS, but member-supplied biographical claims are not independently audited."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2024-25.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "available",
+      "scope": "Nine-page signed financial statements. Page 2 visually checked against scan; OCR omits most amounts. Financial signature and dated statements do not establish an independently verified education-impact audit. No separate audit opinion established in this capture. University entity only; not combined KIIT, KISS school or Foundation accounts."
+    },
+    {
+      "discovery_url": "https://www.eci.gov.in/eci-backend/public/all_files/GE-2024-statistical-report/33-Constituency-Wise-Detailed-Result.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "unavailable",
+      "scope": "Direct download HTTP 406; no election totals adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2024-25.pdf",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "unavailable_then_recovered",
+      "scope": "Default-client HTTP 403; browser User-Agent retry succeeded."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/about/accredition-ranking/nirf-2026/",
+      "checked_at": "2026-10-02T03:01:31.707510+00:00",
+      "run_id": "2026-10-02-samanta-journey",
+      "status": "unavailable",
+      "scope": "Web reader cache miss; no 2026 outcomes inferred.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/about/annual-reports/",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "available",
+      "scope": "Source retrieved; selected relevant sections read, not a complete factual audit."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Criteria-6/6.5.2_IQAC_Activities/ASCI%20Report.pdf",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "available",
+      "scope": "Source retrieved; selected relevant sections read, not a complete factual audit."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Annual_Reports/2021-22-KISS-DU-Annual-Report.pdf",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "available",
+      "scope": "Source retrieved; selected relevant sections read, not a complete factual audit."
+    },
+    {
+      "discovery_url": "https://journals.sagepub.com/doi/pdf/10.1177/2043610616671070",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "unavailable",
+      "scope": "HTTP Error 403: Forbidden",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/SSR/AQAR_2023-24.pdf",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "available",
+      "scope": "Source retrieved; selected relevant sections read, not a complete factual audit."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/NIRF/SDG_Institutions.pdf",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "available",
+      "scope": "Source retrieved; selected relevant sections read, not a complete factual audit."
+    },
+    {
+      "discovery_url": "https://journals.sagepub.com/doi/full/10.1177/2043610616671070",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "unavailable",
+      "scope": "Web reader inaccessible",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.tandfonline.com/doi/full/10.1080/17457823.2022.2072690",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "unavailable",
+      "scope": "Web reader HTTP403; no full-text findings adopted",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://journals.sagepub.com/doi/abs/10.1177/2043610616671070",
+      "checked_at": "2026-10-02T04:53:55.437429+00:00",
+      "run_id": "2026-10-02-kiss-outcomes",
+      "status": "available",
+      "scope": "Publisher abstract and bibliographic header only"
+    },
+    {
+      "discovery_url": "https://ignca.gov.in/Asi_data/35546.pdf",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Selected source sections retrieved; not complete audit."
+    },
+    {
+      "discovery_url": "https://whatisindia.com/inscriptions/epigraphica_indica/vol30_1953-1954/sircar130.html",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Selected source sections retrieved; not complete audit."
+    },
+    {
+      "discovery_url": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc370727.html",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Selected source sections retrieved; not complete audit."
+    },
+    {
+      "discovery_url": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc370729.html",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Selected source sections retrieved; not complete audit."
+    },
+    {
+      "discovery_url": "https://ignca.gov.in/Asi_data/35546.pdf",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Direct fetch succeeded after web-reader failure; original scan selected pages visually read"
+    },
+    {
+      "discovery_url": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc370728.html",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Online translation read, not critical edition"
+    },
+    {
+      "discovery_url": "https://www.southasia.upenn.edu/graduate/phds",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "University bibliographic record only; full text not recovered"
+    },
+    {
+      "discovery_url": "https://sites.utexas.edu/sanskrit/resources/dharmasastra/tirthacintamani-of-vacaspati-misra/",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Edition bibliography and scan link; apparatus not inspected"
+    },
+    {
+      "discovery_url": "https://archive.org/details/in.ernet.dli.2015.383597/page/n1/mode/2up",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "available",
+      "scope": "Catalogue and OCR accessible; PDF link failed in web reader, no critical apparatus established"
+    },
+    {
+      "discovery_url": "https://archive.org/download/in.ernet.dli.2015.383597/2015.383597.Tirthacintamani.pdf",
+      "checked_at": "2026-10-02T05:26:54.280049+00:00",
+      "run_id": "2026-10-02-jagannath-origins",
+      "status": "unavailable",
+      "scope": "PDF link returned web-reader internal error; catalogue/OCR access does not establish PDF access.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Accounts/Balance_Sheets/KISSDU_FY_2023-24.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Original PDF retrieved; only stated scope reviewed."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/docs/Alumni/MoU_KAA.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Original PDF retrieved; only stated scope reviewed."
+    },
+    {
+      "discovery_url": "https://iti.kiit.ac.in/wp-content/uploads/2021/05/web21112014.dget-ref.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "unavailable",
+      "scope": "HTTP Error 403: Forbidden",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://kiss.ac.in/wp-content/uploads/2023/03/KISS-Alumni-Certificate.pdf",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Original PDF retrieved; only stated scope reviewed."
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/about/moa/",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "unavailable",
+      "scope": "Page retrieved but no MoA document text or link recovered; not unchanged.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://university.kiss.ac.in/about/accounts/",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Listing read; no separate audit-opinion link found in inspected listing. Does not prove no audit exists."
+    },
+    {
+      "discovery_url": "https://kiss.ac.in/accountability/",
+      "checked_at": "2026-10-02T05:39:12.280267+00:00",
+      "run_id": "2026-10-02-kiss-registration",
+      "status": "available",
+      "scope": "Direct HTML retrieved after web-reader failure; no original society certificate recovered."
+    },
+    {
+      "discovery_url": "https://ignca.gov.in/asi_reports/orkhurda040.pdf",
+      "checked_at": "2026-10-02T06:43:56.947430+00:00",
+      "run_id": "2026-10-02-yogini-traditions",
+      "status": "available",
+      "scope": "Original four-page PDF retrieved; key pages visually checked. Undated inventory, not current conditions."
+    },
+    {
+      "discovery_url": "https://ignca.gov.in/asi_reports/orbolangir001.pdf",
+      "checked_at": "2026-10-02T06:43:56.947430+00:00",
+      "run_id": "2026-10-02-yogini-traditions",
+      "status": "available",
+      "scope": "Original four-page PDF retrieved; key pages visually checked. Undated inventory, not current conditions."
+    },
+    {
+      "discovery_url": "https://academic.oup.com/reference/62357/reference-article-abstract/554513529",
+      "checked_at": "2026-10-02T06:43:56.947430+00:00",
+      "run_id": "2026-10-02-yogini-traditions",
+      "status": "available",
+      "scope": "Only the openly accessible introduction and contents were read. Scholar-authored framing of Shaiva and Buddhist Yogini traditions, not a translation of a ritual text or evidence that a particular Odisha temple was Buddhist. Full subscription bibliography not inspected."
+    },
+    {
+      "discovery_url": "https://blogs.soas.ac.uk/yoga-studies/2021/01/14/in-search-of-yoginis/",
+      "checked_at": "2026-10-02T06:43:56.947430+00:00",
+      "run_id": "2026-10-02-yogini-traditions",
+      "status": "available",
+      "scope": "Institutional event report, not the lecture transcript or primary Sanskrit text. Hirapur/Devipurana iconographic parallels remain a reported scholarly hypothesis. Shares Hatley’s scholarship with the Oxford entry; not independent corroboration. Linked video not watched."
+    },
+    {
+      "discovery_url": "https://publikationen.uni-tuebingen.de/xmlui/bitstream/handle/10900/138250/Beltz_035.pdf?isAllowed=y&sequence=1",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "PDF downloaded; selected sections inspected."
+    },
+    {
+      "discovery_url": "https://sahitya-akademi.gov.in/pdf/Bhima-Bhoi.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "PDF downloaded; selected sections inspected."
+    },
+    {
+      "discovery_url": "https://ddceutkal.ac.in/Journal/Search_Journal_2013_Vol-I.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "unavailable",
+      "scope": "HTTP Error 403: Forbidden",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.nbtindia.gov.in/writereaddata/attachment/monday-march-30-202612-20-05-pmenglish-general-catalogue-2026.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "unavailable",
+      "scope": "Direct Python HTTPS fetch failed: certificate verification reported expired certificate. Do not disable TLS; web-reader route checked separately.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.nbtindia.gov.in/writereaddata/attachment/monday-march-30-202612-20-05-pmenglish-general-catalogue-2026.pdf",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "Web-reader catalogue textp.22 available; screenshot returned cache-miss error. No visual check claimed."
+    },
+    {
+      "discovery_url": "https://www.nbtindia.gov.in/books_detail__1__aadan-pradan__8680__gems-of-soulful-prayer-stuti-chintamani-of-bhima-bhoi.nbt",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "Publisher edition metadata only; no purchase or current-stock claim."
+    },
+    {
+      "discovery_url": "https://www.bloomsbury.com/uk/critical-analysis-of-bhima-bhoi-and-the-mahima-cult-9781666955576/",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "UK publisher credits/contents/edition inspected; US route failed web-reader retrieval."
+    },
+    {
+      "discovery_url": "https://www.bloomsbury.com/us/critical-analysis-of-bhima-bhoi-and-the-mahima-cult-9781666955576/",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "unavailable",
+      "scope": "Web-reader internal error; UK route succeeded.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://relbib.de/Record/357743598",
+      "checked_at": "2026-10-02T07:42:49.321114+00:00",
+      "run_id": "2026-10-02-mahima-dharma",
+      "status": "available",
+      "scope": "Original volume bibliographic year2003 confirmed."
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://industries.odisha.gov.in/news/rasagola-makers-odisha-seek-government-support-wider-reach",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Original file downloaded."
+    },
+    {
+      "discovery_url": "https://industries.odisha.gov.in/news/rasagola-makers-odisha-seek-government-support-wider-reach",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error timed out>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error timed out>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Web text and local original PDF; four pages read, pp.2307–2308 visually inspected."
+    },
+    {
+      "discovery_url": "https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "Full web document failed; indexed cover and p.26 lead only. No page visual review.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://industries.odisha.gov.in/news/rasagola-makers-odisha-seek-government-support-wider-reach",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "Web open failed; indexed news lead only.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://apeda.gov.in/exporter-directory",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Interface only; no exporter rows recovered."
+    },
+    {
+      "discovery_url": "https://agriexchange.apeda.gov.in/IndiaExport/Home/SearchFilters",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Commodity taxonomy only; no sweet-specific export table."
+    },
+    {
+      "discovery_url": "https://censusindia.gov.in/nada/index.php/catalog/44136/download/47792/DH_21_2001_KHO.pdf",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Original PDF downloaded, sha256 saved, Statement VI visually verified; web PDF/catalog routes unavailable before successful direct fetch."
+    },
+    {
+      "discovery_url": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Original PDF fresh capture, pp.119 and179–180 text; p.179 visually inspected; source identity reused."
+    },
+    {
+      "discovery_url": "https://www.mycitylinks.in/odishas-sweet-crunchy-delight-named-kora-khai-best-places-to-avail-it-in-old-town-area",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Dated original reporting read; quantitative estimates quarantined."
+    },
+    {
+      "discovery_url": "https://inditales.com/prachi-valley-odisha-heritage-trail/",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Travelogue read for discovery; not adopted as additional origin corroboration."
+    },
+    {
+      "discovery_url": "https://censusindia.gov.in/nada/index.php/catalog/44136",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "unavailable",
+      "scope": "Web catalogue open internal error; original linked PDF successfully retrieved directly. No catalogue publication date invented.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://interviewtimes.net/dhenkanal-magji-gets-gi-tag/",
+      "checked_at": "2026-10-02T10:43:57.786283+00:00",
+      "run_id": "2026-10-02-sweet-history",
+      "status": "available",
+      "scope": "Original HTML read after web open failed; hash saved."
+    },
+    {
+      "discovery_url": "https://www.newindianexpress.com/odisha/2023/Oct/04/kendraparas-famous-rasabali-gets-gi-tag-2620736.html",
+      "checked_at": "2026-10-02T10:43:57.786283+00:00",
+      "run_id": "2026-10-02-sweet-history",
+      "status": "available",
+      "scope": "Named maker expectations, not measured outcomes."
+    },
+    {
+      "discovery_url": "https://www.localnewsodia.com/35485dhenkanal-district-history-book-launch/",
+      "checked_at": "2026-10-02T10:43:57.786283+00:00",
+      "run_id": "2026-10-02-sweet-history",
+      "status": "available",
+      "scope": "Odia launch report; original books unlocated, no page-content verification."
+    },
+    {
+      "discovery_url": "https://www.newindianexpress.com/cities/bhubaneswar/2026/Jan/16/stalls-selling-gi-tagged-products-major-crowd-puller-at-sisir-saras",
+      "checked_at": "2026-10-02T10:43:57.786283+00:00",
+      "run_id": "2026-10-02-sweet-history",
+      "status": "available",
+      "scope": "ORMAS-attributed event participation; whole-fair turnover separated."
+    },
+    {
+      "discovery_url": "https://www.nabard.org/irreport2023-24/pdf/Nabard-Impact-Report-2023-24.pdf",
+      "checked_at": "2026-10-02T10:43:57.786283+00:00",
+      "run_id": "2026-10-02-sweet-history",
+      "status": "unavailable",
+      "scope": "Web internal error; direct HTTPS timed out after30seconds. Indexed p142 only; units and apparent state conflict held.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.nabard.org/auth/writereaddata/tender/1609240228pub_1007241125491048.pdf",
+      "checked_at": "2026-10-02T10:43:57.786283+00:00",
+      "run_id": "2026-10-02-sweet-history",
+      "status": "unavailable",
+      "scope": "Web internal error; direct HTTPS timed out after25seconds. Indexed same-publisher listing only.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://boyanika.com/boyanika-wear-your-heritage/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Institutional self-report. Seventy-year milestone dated 5 May 2026. Turnover has no financial period or category breakdown; not comparable annual evidence."
+    },
+    {
+      "discovery_url": "https://boyanika.com/store-location/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Undated directory read on retrieval date. Addresses are publisher listings; operation, hours, accessibility and product stock not independently verified."
+    },
+    {
+      "discovery_url": "https://boyanika.com/product/black-dark-red-cotton-handloom-sambalpuri-saree/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Seller describes yarn tie-dye and western clusters; cotton warp/weft applies to this SKU. Indexed stock is not live availability. Individual maker not credited."
+    },
+    {
+      "discovery_url": "https://boyanika.com/product/dark-green-red-cotton-handloom-bomkai-saree/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Seller describes woven threadwork and cotton warp/weft for this SKU; detailed supplementary-weft construction not established by this page. Individual maker not credited."
+    },
+    {
+      "discovery_url": "https://boyanika.com/product/deep-moss-green-dark-red-silk-handloom-khandua-saree/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Seller describes ikat silk and temple borders; Malda silk warp/weft is specimen-specific, not local fibre-origin proof. Individual maker not credited."
+    },
+    {
+      "discovery_url": "https://handloom.odisha.gov.in/en/handloomtab/product-range",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Production geography and product forms only. Undated loom counts and production potential excluded from current output or revenue measures."
+    },
+    {
+      "discovery_url": "https://textiles.odisha.gov.in/Uploads/201773126675.pdf",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "unavailable",
+      "scope": "Full original PDF unavailable by web/direct retrieval; no numeric adoption; retry9October.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "unavailable",
+      "scope": "Full original PDF unavailable by web/direct retrieval; no numeric adoption; retry9October.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://finance.odisha.gov.in/sites/default/files/2025-02/Economic%20Survey%202024-25%20-Full%20Document_1.pdf",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "unavailable",
+      "scope": "Full original PDF unavailable by web/direct retrieval; no numeric adoption; retry9October.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ignca.gov.in/PDF_data/Report_Mapping_Indian_Textiles.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "Full 288-page PDF recovered after resumed download; selected pages extracted, pp.67–68 visually inspected. Attribution to this report, not original fieldwork by Utkal. Bomkai wording overlaps IHB/official compendium; not independent corroboration. Universal ikat-origin assertion and Kotpad dye species withheld."
+    },
+    {
+      "discovery_url": "https://www.indiahandloombrand.gov.in/pages/downloadFile/bomkai-saree.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "One-page original text available. Screenshot timed out. Describes three shuttles, extra warp/weft and Ganjam origin with later Sonepur introduction; undated quantities not current evidence. Final sentence truncated in source; not completed by inference."
+    },
+    {
+      "discovery_url": "https://www.indiahandloombrand.gov.in/pages/downloadFile/khandua-saree.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "One-page original text available. Yarn tying/dyeing and border/pallu distinction used. Undated loom percentages excluded; commercial product and temple-service history remain distinct."
+    },
+    {
+      "discovery_url": "https://handloom.odisha.gov.in/or/publication/major-achievements/jaataiya-paurasakaara-paraapata",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "Historical named award records, not an operating maker directory. English names in Odia page; spellings preserved. Private contact details not reproduced. Location alone does not establish exact award-winning product."
+    },
+    {
+      "discovery_url": "https://knowindia.india.gov.in/assets/doc/PadmaAwards2018.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "available",
+      "scope": "Names Gobaradhan Panika, Art-Weaving, Odisha. Announcement/approved conferment list; not a ceremony-date record. Text available; screenshot cache miss."
+    },
+    {
+      "discovery_url": "https://www.incredibleindia.gov.in/en/odisha/berhampur-patta-phoda-kumbha-saree-and-joda",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "conflicted",
+      "scope": "Tourism text calls joda bridal bangles and mixes fabric tie-dye with loom description. Joda classification conflicts with IGNCA and saved Development Commissioner textile source. Not adopted as garment/technique evidence; no historical royal chronology inferred."
+    },
+    {
+      "discovery_url": "https://repository.tribal.gov.in/bitstream/123456789/74023/1/SCST_2020_research_0116.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Full primary PDF timed out; alternate repository URL returned404. Indexed account credits Ugrasen Meher and mentions Chicheiguda cooperative, but report date and fieldwork context unresolved. Lead only; family counts, revival chronology and cooperative operating status withheld.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://repository.tribal.gov.in/upload/bitstream/123456789/60886/1/SCST_2020_research_0116.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Alternate URL404; same report, not corroboration.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A2069/lang%3A",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Berhampur cooperative RTI manual web timeout; no registrations adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.indiahandloombrand.gov.in/members/user_list",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Registered-user directory web timeout; no current certification/availability inferred.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/award_details/National%20Awardees%20list%20as%20on%2001.05.2024.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Full PDF timeout; indexed weaving-skill rows are discovery leads, not adopted exact product credits.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handicrafts.nic.in/CmsUpload/12222017102212GI%20BOOK%20FINAL%202-5-17_resized.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Full compendium timeout; overlaps IHB text, not additional corroboration.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://nift.ac.in/gandhinagar/sites/gandhinagar/files/2024-01/GI%20BOOK.pdf",
+      "checked_at": "2026-10-02T12:44:35.236920+00:00",
+      "run_id": "2026-10-02-handloom-makers",
+      "status": "unavailable",
+      "scope": "Compendium mirror404; no original retrieved.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "available",
+      "scope": "Full 31-page original recovered. Selected tables and product descriptions visually checked. Publication/fieldwork date unstated; URL timestamp and search age are not dates. Directory links makers/cooperatives and illustrated examples, not current operating status or seller stock. Panika Padma year2017 conflicts with MHA2018 and is excluded. Personal contacts and photographs not republished."
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/104GIregisteredHandloomProducts.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "available",
+      "scope": "Full 7-page original recovered; pp.1,4,5 visually checked. Document heading is as on01.09.2026 despite old104GI filename and stale indexed rows. Preserve downloaded hash and actual row numbers. Departmental list of registrations and named organizations, not renewal certificate, authorized-user list or evidence of current trading. No current GI validity conclusion."
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/information_handlooms/Details%20of%20102GI%20registered%20Handloom%20Products%20under%20GI%20ACT%2C%201999%20%28as%20on%2015.03.2023_removed.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "unavailable",
+      "scope": "Web fetch timed out. Recovered newer original through104GI URL; old indexed rows not adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://textiles.odisha.gov.in/page.php?link=eobnoDn8XmQu%24loFv%24CL37%24cXeP02128XrZ7fBLWkBw_",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "unavailable",
+      "scope": "Marketing/SERIFED page web fetch timed out. Search preview used only as discovery, no new facts adopted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://handlooms.gov.in/assets/img/104GIregisteredHandloomProducts.pdf",
+      "checked_at": "2026-10-02T13:48:24.585819+00:00",
+      "run_id": "2026-10-02-handloom-cooperatives",
+      "status": "available_after_fallback",
+      "scope": "Web fetch502; direct publisher download succeeded. PDF heading1September2026 differs from stale search version and104GI filename; use actual captured rows/hash."
     }
   ]
 }

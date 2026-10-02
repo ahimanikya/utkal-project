@@ -55,3 +55,23 @@ Next: independent local preparations for chatu patrapoda and ou khatta; finer re
 ## Fourteen-food research set complete · 1 October 2026
 
 [Ou khatta](ou-khatta.md) now distinguishes two preparations by Sasmita and a family meal memory by Julie Acharya Ray. This closes the last attributed-preparation gap in the bounded RES-011 set of six pitha, four everyday dishes and four place-linked sweets. It does not complete statewide coverage, recipe testing, local language review or the resolution of every source conflict. Further poda and locality questions remain in the existing records. Next sequential task: sweets economics (RES-031).
+
+## Mahua food-development reference
+
+[Mahua/mohula](mahua-mohula.md) now links to a2016-issue Odisha study reporting laddu, cake, jam and other formulations. Only the abstract was read; ingredient quantities and procedures remain unavailable here. Do not turn a product list into an invented recipe or describe research formulations as established community traditions.
+
+## Mahua preparation account recovered
+
+The [mahua profile](mahua-mohula.md) now records a separate field-study cake description, its source quantities and missing cooking endpoints. This adds an attributed preparation account; it does not fill the unread methods of the earlier food-development paper. The original fourteen-food research set remains preserved.
+
+## Tentuli and chara preparation leads
+
+The [tentuli](tentuli-tamarind.md) and [chara](chara-chironji.md) profiles now hold attributed ingredient-use descriptions. These are not complete recipes. Tamarind-seed gruel tables need local review and clarified cooking endpoints; chara roasting needs a named local account and quantities.
+
+## Palm stages and preparation
+
+[Talagaja](talagaja.md) adds a brief field-study use description. The original article separates germinated seed, young-fruit endosperm and ripe-fruit pitha; this is useful ingredient classification, not a tested recipe or verified name equivalence.
+
+## Germinated palm interior
+
+The [Talagaja entry](talagaja.md) distinguishes reported fresh consumption from experimental drying/milling. Laboratory powder results and sprout/tuber recipes cannot be transferred to the fresh seed interior without evidence. Full local recipe and storage validation remain open.

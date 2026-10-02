@@ -207,3 +207,187 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-02
 
 [First search launch published](records/first-search-launch-publication.json) after Founder approval of PR 48. Eleven pages allow indexing, 111 retain noindex, and the exact sitemap and all live page directives passed delivery checks. Search Console, actual indexing and previously disclosed specialist/browser reviews remain open.
+
+## 1 October 2026 · Koli fruit diversity
+
+[Research receipt](records/koli-2026-10-01.json): selected names, reported botanical identities and source-specific seasons. Khirakoli overlap remains open. Locality review and recipes are follow-ups; no website release.
+
+## 1 October 2026 · Bela pana in summer
+
+[Research receipt](records/bela-pana-2026-10-01.json): summer-drink method, quantity gaps and a university New Year observation. Measured recipe and local review remain pending; no website release.
+
+## 1 October 2026 · Nandankanan conservation and public reach
+
+[Research receipt](records/nandankanan-2026-10-01.json): five-year visits and receipts, dated animal inventory and conservation work. Ranking and inventory discrepancies remain held; no website release.
+
+## 1 October 2026 · Ekamra Kanan botanical research
+
+[Research receipt](records/ekamra-kanan-2026-10-01.json): botanical collections and an attributed cactus claim; whole-park ranking unsupported, current inventory dates and opening hours unresolved. No website release.
+
+## 1 October 2026 · Dance, learning and religious traditions
+
+[Research receipt](records/culture-learning-2026-10-01.json): two people, university categories, dated rankings and connected cultural-history research; seven deeper tasks remain open. No website release.
+
+## 1 October 2026 · Mining, industry and local outcomes
+
+[Research receipt](records/mining-programme-2026-10-01.json): national production shares, chromite decline and audited DMF scopes; five deeper mining tasks remain open. No website release.
+
+## 1 October 2026 · Forest food, markets and livelihood history
+
+[Research receipt](records/forest-products-2026-10-01.json): forest foods, kendu sales and honey capacity; three deeper studies remain open. No website release.
+
+## 1 October 2026 · Named forest products and honey clarification
+
+[Research receipt](records/forest-product-profiles-2026-10-01.json): three named product profiles and user-confirmed honey meaning; existing research tasks remain open. No website release.
+
+## 1 October 2026 · Forest seasons, food research and siali
+
+[Research receipt](records/forest-seasonal-2026-10-01.json): historical honey season, mahua research formulations and siali profile; RES-056 remains open. No website release.
+
+## 1 October 2026 · Whole Odisha encyclopedia scope
+
+[Research receipt](records/encyclopedia-scope-2026-10-01.json): user scope mapped to existing subjects and reading paths; geopolitics synthesis queued. No website release.
+
+## 1 October 2026 · Mahua preparation and processing evidence
+
+[Research receipt](records/mahua-preparation-2026-10-01.json): mahua cake and historical local collection season added to existing profile; ORMAS procurement figures remain unverified. No website release.
+
+## 1 October 2026 · Rice varieties and economics
+
+[Research receipt](records/rice-research-2026-10-01.json): Variety identities and economic baselines added; farmer returns and exports remain unresolved. No website release.
+
+## 1 October 2026 · Rice trends and farmer returns
+
+[Research receipt](records/rice-trends-2026-10-01.json): Historical series and experimental economics added; payment reconciliation and full cost definitions remain unresolved. No website release.
+
+## 1 October 2026 · Leaf craft and seasonal livelihoods
+
+[Research receipt](records/leaf-craft-2026-10-01.json): Local leaf seasons and named maker account added; present earnings and exports remain unknown. No website release.
+
+## 1 October 2026 · Tentuli and chara food and markets
+
+[Research receipt](records/forest-fruits-2026-10-01.json): Two existing product identities enhanced; historical testimony retained with unresolved date and grade. No website release.
+
+## 1 October 2026 · Forest-worker support and payment evidence
+
+[Research receipt](records/forest-payments-2026-10-01.json): Twenty dated observations added; grants separated from earnings, welfare and OFDC conflicts retained. No website release.
+
+## 1 October 2026 · Palm-seed stages and food names
+
+[Research receipt](records/palm-seed-2026-10-01.json): Talagaja documented from an original field study; the supplied tala khaja name remains unresolved. No website release.
+
+## 1 October 2026 · Palm-seed visual reference
+
+[Research receipt](records/palm-image-2026-10-01.json): User image referenced by hash and visible features; no photograph published or botanical identity confirmed. No website release.
+
+## 1 October 2026 · Palm-food stage clarification
+
+[Research receipt](records/palm-stage-2026-10-01.json): User clarified the intended late seed-food stage, distinct from ice apple; exact botanical anatomy remains open. No website release.
+
+## 1 October 2026 · Palm-food anatomy and processing
+
+[Research receipt](records/palm-anatomy-2026-10-01.json): Existing palm-food profile expanded with three sources; regional name and specimen equivalence remain scoped. No website release.
+
+## 1 October 2026 · Dance and music connections
+
+[Research receipt](records/dance-music-2026-10-01.json): Existing dance and music records expanded; regional forms linked to credited practitioners and programmes. No website release.
+
+## 1 October 2026 · Odia music credits
+
+[Research receipt](records/music-credits-2026-10-01.json): Three credited Odia songs linked to Chaurasia; scoped media checks and unresolved edition dates preserved. No website release.
+
+## 1 October 2026 · Coal production and resource evidence
+
+[Research receipt](records/mining-series-2026-10-01.json): 49 coal observations and four calculations added; ore series and broader district identities remain open. No website release.
+
+## 1 October 2026 · Ore production and source reconciliation
+
+[Research receipt](records/ore-series-2026-10-01.json): 132 observations and three calculations added using existing sources; conflicting publisher values are held and exact mine identities remain open. No website release.
+
+## 1 October 2026 · NALCO mine-to-processing case
+
+[Research receipt](records/mining-value-chain-2026-10-01.json): 50 observations, four calculations and six site/project identities added; company job totals, uncertain bauxite definitions and planned commissioning remain explicitly scoped. No website release.
+
+## 1 October 2026 · Kodingamali and Baphlimali evidence
+
+[Research receipt](records/bauxite-sites-2026-10-01.json): 15 observations, two mine identities and one evidenced supply link added; capacity, certification scope, minor audit findings and source mismatches retained. No website release.
+
+## 2 October 2026 · Baphlimali annual return and mining baseline
+
+[Research receipt](records/baphlimali-returns-2026-10-02.json): 21 observations added; stock arithmetic reconciled, person-days and payments scoped. RES-051 baseline deliverable complete; current permissions and unresolved comparisons remain follow-up work. No website release.
+
+## 2 October 2026 · Forest trade and community enterprises
+
+[Research receipt](records/forest-trade-followup-2026-10-02.json): 10 observations added; cumulative programme sales and accounting allocations scoped. RES-057 remains unfinished; product-level procurement and collector receipts await original records. No website release.
+
+## 2 October 2026 · Rice, place and food
+
+[Research receipt](records/rice-place-food-2026-10-02.json): Seven historical observations and nine food-use records added. RES-060 bounded deliverable complete; current acreage, seed identity and farmer returns remain follow-ups. No website release.
+
+## 2 October 2026 · Rice costs and returns
+
+[Research receipt](records/rice-cost-returns-2026-10-02.json): Eight observations and a full-text regional cost case added. RES-061 remains in progress: procurement scope and survey year need reconciliation. No website release.
+
+## 2 October 2026 · Paddy procurement payments
+
+[Research receipt](records/rice-procurement-2026-10-02.json): Eleven observations and later government report added. The2023–24 aggregate matches the common MSP after rounding. Remaining settlement/study-year evidence deferred to9October; RES-045 next. No website release.
+
+## 2 October 2026 · Buddhist learning and Pushpagiri
+
+[Research receipt](records/buddhist-learning-2026-10-02.json): Nine typed historical claims and six chronology entries added. RES-045 bounded primary-source criteria complete; Langudi disagreement retained. RES-046 next. No website release.
+
+## 2 October 2026 · Universities and graduate evidence
+
+[Research receipt](records/universities-2026-10-02.json): Eighteen existing UGC identities checked; six graduate cohorts and dated rank/score comparisons added. RES-046 selected-institution criteria complete; RES-047 next. No website release.
+
+## 2 October 2026 · Samanta, KIIT and KISS evidence
+
+[Research receipt](records/samanta-journey-2026-10-02.json): Four new source publications, sixteen scoped financial observations and one story. RES-047 remains in progress; founding stages and KISS student outcomes remain open. No website release.
+
+## 2 October 2026 · KISS student outcomes
+
+[Research receipt](records/kiss-outcomes-2026-10-02.json): Five source publications and twenty-two scoped student observations added to existing pages. RES-047 remains in progress; founding records, audit opinion and full-text participant research remain open. No website release.
+
+## 2 October 2026 · Jagannath origins
+
+[Research receipt](records/jagannath-origins-2026-10-02.json): Three source records, four historical grants and an origins synthesis linked to existing pages. RES-048 remains in progress; critical textual edition and construction chronology remain open. No website release.
+
+## 2 October 2026 · KISS records and account vintages
+
+[Research receipt](records/kiss-registration-2026-10-02.json): Two original source records and eight earlier-vintage observations enhance existing institutional pages. RES-047 deferred to9October for founding/audit and community evidence; RES-049 is next eligible. No website release.
+
+## 2 October 2026 · Yogini sites and religious contexts
+
+[Research receipt](records/yogini-traditions-2026-10-02.json): Two heritage places, four source records and six scoped observations enrich the existing Tantric collection. RES-049 bounded criteria complete; RES-050 is next eligible. Dates, sculpture counts and current practice remain qualified. No website release.
+
+## 2 October 2026 · Mahima Dharma and Bhima Bhoi reading routes
+
+[Research receipt](records/mahima-dharma-2026-10-02.json): The existing Bhima Bhoi literary identity is reused. Three new source records, an expanded Akademi inspection and a credited Stuti Chintamani work record enrich the Mahima collection. RES-050 bounded criteria complete; RES-031 sweets economics is next eligible. Biography conflicts, fieldwork dates and unread full editions remain explicit. No website release.
+
+## 2 October 2026 · Sweets economics and supply-chain evidence
+
+[Research receipt](records/sweets-economy-2026-10-02.json): Six sweet identities are reused. The original Pahala study adds scoped evidence and flagged arithmetic; the Kamadhenu enterprise remains an indexed lead. Four source/discovery records and a story draft are added. RES-031 remains in progress; named maker histories and dated market evidence are next. No statewide turnover or shipment total established. No website release.
+
+## 2 October 2026 · Sweet makers and historical town commerce
+
+[Research receipt](records/sweet-makers-2026-10-02.json): Existing Jhili and Korakhai entries are extended with three attributed maker credits, the Census town commodity listing for1999 and a quarantined2016 market lead. Two source records added; university source reused. RES-031 remains in progress, with Magji histories and Rasabali dated accounts next. No current market or international shipment total and no website release.
+
+## 2 October 2026 · Sweet histories and market evidence
+
+[Research receipt](records/sweet-history-2026-10-02.json): Existing Magji and Rasabali entries gain two maker credits and dated Sisir Saras participation. Original books and NABARD financial tables remain unavailable; whole-fair turnover is kept separate. Five source/lead records added. RES-031 remains in progress with a 9 October retry. Independent handloom research RES-012 is next. No website release.
+
+## 2 October 2026 · Handloom market evidence
+
+[Research receipt](records/handloom-markets-2026-10-02.json): six existing textile traditions now connect to production geography and qualified seller routes. Three product specifications and a seventy-year Boyanika story added. Unperiodised turnover and unavailable original annual tables remain held; RES-012 continues with maker and technique research. No website release.
+
+## 2 October 2026 · Handloom techniques and maker credits
+
+[Research receipt](records/handloom-makers-2026-10-02.json): IGNCA-hosted Ghose2017 and IHB sheets deepen technique descriptions; state register and MHA announcement support four named awardee connections. Joda misclassification, botanical and origin overclaims held. Original Habaspuri report and current cooperative/maker links remain open; sales retry unchanged. No website release.
+
+## 2 October 2026 · Handloom cooperative and creation evidence
+
+[Research receipt](records/handloom-cooperatives-2026-10-02.json): Original weaver directory links five cooperatives and three creations; departmental list dated 1 September 2026 names registration organizations. Berhampuri technique recovered; Panika award year and Habaspuri chronology conflicts held. Current operation and comparable sales remain open. No website release.
+
+## 2 October 2026 · Autonomous integration and wider browser review
+
+[Batch record](records/autonomous-site-quality.json): Founder authorized implementation through publication without repeated routine approvals. Forty-six accumulated research commits are integrated with existing source-recovery evidence preserved. The 500-item programme separates 488 route/viewport and structure checks from twelve integration/delivery items. No new research claim or specialist approval is inferred from passing software checks. Publication validation is in progress.

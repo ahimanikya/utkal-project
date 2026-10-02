@@ -1,0 +1,1504 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02T01:11:51.135341+00:00",
+  "run_id": "2026-10-01-forest-products",
+  "scope": "First checkpoint; not comprehensive market census or completed history",
+  "product_groups": [
+    {
+      "id": "fruits",
+      "title": "Fruits and kernels",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "flowers",
+      "title": "Flowers and food uses",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "honey",
+      "title": "Honey and wax",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "leaves",
+      "title": "Leaf products",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "oilseeds",
+      "title": "Oilseeds",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "resins",
+      "title": "Gums, resins and lac",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "fibres",
+      "title": "Bamboo, cane, fibres and brooms",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "kendu",
+      "title": "Non-food kendu leaves",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    },
+    {
+      "id": "wild-food-identities",
+      "title": "Edible greens, shoots, tubers and identified fungi",
+      "status": "research_group",
+      "species_identity": null,
+      "harvest_origin": null,
+      "current_price": null,
+      "export_quantity": null
+    }
+  ],
+  "observation_dataset": "statistics-atlas.json",
+  "observation_ids": [
+    "forest-products-sales-2020",
+    "forest-products-sold-2020",
+    "forest-products-sales-2021",
+    "forest-products-sold-2021",
+    "forest-products-sales-2022",
+    "forest-products-sold-2022",
+    "forest-products-sales-2023",
+    "forest-products-sold-2023",
+    "forest-products-sales-2024",
+    "forest-products-sold-2024",
+    "forest-products-ofdc-web-sales-2020",
+    "forest-products-ofdc-web-sold-2020",
+    "forest-products-honey-capacity",
+    "forest-products-ouat-mahua-unit2021",
+    "forest-welfare-report-2023-amount",
+    "forest-welfare-report-2023-beneficiaries",
+    "forest-welfare-report-2024-amount",
+    "forest-welfare-report-2024-beneficiaries",
+    "forest-welfare-web-2018",
+    "forest-welfare-web-2019",
+    "forest-welfare-web-2020",
+    "forest-welfare-web-2021",
+    "forest-welfare-web-2022",
+    "forest-welfare-web-2023",
+    "forest-welfare-web-2024",
+    "forest-compassionate-2023-24-count",
+    "forest-compassionate-2023-24-amount",
+    "forest-compassionate-2024-25-count",
+    "forest-compassionate-2024-25-amount",
+    "forest-compassionate-2025-26-count",
+    "forest-compassionate-2025-26-amount",
+    "forest-compassionate-2026-27-count",
+    "forest-compassionate-2026-27-amount",
+    "forest-ofdc-ar2021-sold2019",
+    "forest-vandhan-2023-odisha-sales",
+    "forest-vandhan-2023-india-sales",
+    "forest-vandhan-2023-odisha-sanctioned",
+    "forest-vandhan-2023-odisha-beneficiaries",
+    "forest-ofdc-allocation2021-sales",
+    "forest-ofdc-allocation2021-working-fund",
+    "forest-ofdc-allocation2021-fdt",
+    "forest-ofdc-allocation2021-selling",
+    "forest-ofdc-allocation2021-financing",
+    "forest-ofdc-allocation2021-royalty-kldf"
+  ],
+  "conflicts": [
+    {
+      "id": "kendu-2019-vintages",
+      "observation_ids": [
+        "forest-products-sales-2020",
+        "forest-products-sold-2020",
+        "forest-products-ofdc-web-sales-2020",
+        "forest-products-ofdc-web-sold-2020"
+      ],
+      "status": "unresolved",
+      "reason": "Same fiscal-year labels; report and webpage sale/quantity values differ. No revision provenance established."
+    },
+    {
+      "id": "vasundhara2001-districts",
+      "source_id": "forest-vasundhara2001",
+      "status": "unresolved",
+      "reason": "TitleSundergarh versus executive-summarySambalpur; no district statistic adopted."
+    },
+    {
+      "id": "kendu-welfare-vintages2026",
+      "source_ids": [
+        "forest-sector2025",
+        "forest-kl-welfare2026"
+      ],
+      "status": "unresolved",
+      "issue": "2025 report payment/crop-year statements, direct September 2026 portal year table and June-indexed snapshot differ in totals and scope. Do not join into a comparable growth series.",
+      "observation_ids": [
+        "forest-welfare-report-2023-amount",
+        "forest-welfare-report-2023-beneficiaries",
+        "forest-welfare-report-2024-amount",
+        "forest-welfare-report-2024-beneficiaries",
+        "forest-welfare-web-2018",
+        "forest-welfare-web-2019",
+        "forest-welfare-web-2020",
+        "forest-welfare-web-2021",
+        "forest-welfare-web-2022",
+        "forest-welfare-web-2023",
+        "forest-welfare-web-2024"
+      ],
+      "resolution_needed": "Dated category-level distribution accounts and explicit definition of portal Year."
+    },
+    {
+      "id": "kendu-annual-report-quantity2019",
+      "source_ids": [
+        "forest-sector2025",
+        "forest-ofdc-kendu",
+        "forest-ofdc-ar2021"
+      ],
+      "status": "unresolved",
+      "issue": "Original comparative sales total 262581 quintals adds a third vintage; existing 2.625 and 2.621 lakh values remain unresolved. Money conflict unchanged.",
+      "observation_ids": [
+        "forest-ofdc-ar2021-sold2019"
+      ],
+      "resolution_needed": "Matching revised comparative schedule or publisher reconciliation."
+    }
+  ],
+  "task_ids": [
+    "RES-056",
+    "RES-057",
+    "RES-058"
+  ],
+  "source_checks": [
+    {
+      "source_id": "forest-sector2025",
+      "status": "available",
+      "scope": "Selected tables, with kendu headers visually checked. Fiscal-year sale figures differ from crop-year series elsewhere; not latest-release verification.",
+      "url": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-kendu",
+      "status": "available",
+      "scope": "Undated page; history only, not fresh current production. 2019–20 sale value399.14 differs from2025 report399.09; both retained for reconciliation.",
+      "url": "https://www.odishafdc.com/kenduleaf.php",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "status": "partial",
+      "scope": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate.",
+      "url": "https://ideas.repec.org/a/ags/injagm/399613.html",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-vasundhara2001",
+      "status": "available",
+      "scope": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews.",
+      "url": "https://www.fao.org/4/ad352t/AD352T06.htm",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "status": "unavailable",
+      "scope": "Direct page unavailable (502/Internal Error). Indexed product list is a discovery lead; malformed/duplicate entries and current procurement count not verified.",
+      "url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://ageconsearch.umn.edu/record/399613/files/IJAM%2032%20%283%29%20_%20Collection%20and%20marketing%20of%20Non-Timber-pages-120-121.pdf",
+      "status": "unavailable",
+      "reason": "Direct web full-text fetch returned Internal Error. Abstract remains available; this is not unchanged.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-iisc",
+      "url": "https://indiaflora-ces.iisc.ac.in/FloraPeninsular/herbsheet.php?cat=7&id=8868",
+      "status": "available",
+      "scope": "Institutional flora identity record. General phenology is not an Odisha district harvest calendar; synonyms retain source taxonomy. No images or bulk content reproduced.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-mahua-tnau",
+      "url": "https://agritech.tnau.ac.in/bio-fuels/Biofuel_Mahua.html",
+      "status": "available",
+      "scope": "Undated extension page, broad Indian scope. Used for seed-oil/soap and cultivation distinctions, not Odisha yields, prices, safety instructions or statewide flowering dates.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-livelihoods",
+      "url": "https://vasundharaodisha.org/Welcome/page/Livelihood",
+      "status": "available",
+      "scope": "Undated organisational self-report, not independent impact evaluation. Used for product and women-producer-group research leads; old forest-area and undated group counts not adopted as current statistics.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://nopr.niscpr.res.in/bitstream/123456789/15545/1/JSIR%2072%281%29%2062-69.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch timed out; indexed lead not admitted as a full paper or statistical source.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-food2016",
+      "url": "https://indianjournals.com/article/aet-40-4-004",
+      "status": "partial",
+      "scope": "Abstract only; food-product development is not measured commercial adoption. Districts, survey dates, recipe quantities and consumer-panel methods require full text.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-siali-iisc",
+      "url": "https://indiaflora-ces.iisc.ac.in/EasternGhats/herbsheet.php?cat=4&id=1830",
+      "status": "available",
+      "scope": "Direct institutional flora. Phanera vahlii and Bauhinia vahlii are retained as linked names in the source; general phenology is not a district harvest calendar.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-scstrti-foodknowledge",
+      "url": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf",
+      "status": "available",
+      "scope": "Repository filename labels2014; publication and fieldwork dates unconfirmed. Selected historical community descriptions, not present-day practices or original interviews by Utkal.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://www.statebotanicalgardenodisha.org/plant-details.php?purl=siali",
+      "status": "unavailable",
+      "reason": "Direct fetch returned500 Internal Server Error; independent IISc flora used for identity.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://repository.tribal.gov.in/handle/123456789/74427",
+      "status": "unavailable",
+      "reason": "Repository metadata page unavailable; PDF accessible. Publication/fieldwork dates remain unresolved.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://mdpcl.com/mahua-value-chain",
+      "status": "unavailable",
+      "reason": "Direct fetch unavailable; indexed company claims not admitted as verified enterprise outcomes.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-mahua-santhal2016",
+      "url": "https://atr.vsu.edu.ph/article/download/212/202/390",
+      "status": "available_text_only",
+      "scope": "Full PDF text available through web extraction; visual fetch503 and direct download HTTP/2 error. Fieldwork2009, publication2016; paper mixes field and secondary material. Numeric spoilage and medical claims not adopted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ouat2021",
+      "url": "https://ouat.ac.in/wp-content/uploads/2023/05/annual_report_2020-21_3.pdf",
+      "status": "available",
+      "scope": "Selected institutional research highlights. A developed unit is not deployed capacity, factory output or evidence of adoption; no general shelf-life guarantee taken from cookie experiment.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://panchayat.odisha.gov.in/sites/default/files/2024-05/AAR-2020-21_English.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch timed out and direct download timed out at45 seconds. Indexed honey purchase figures are a lead only, not admitted observations.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-balliguda2021",
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_831468672.pdf",
+      "status": "available_text_only",
+      "scope": "Division-specific descriptive account and management prescriptions; no measured current harvest, trade total or statewide calendar. Repeated passages later in the same plan are not corroboration.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-cysd2002",
+      "url": "https://assets.publishing.service.gov.uk/media/57a08d48e5274a31e0001784/cysd-orissa-2714.pdf",
+      "status": "available_text_only",
+      "scope": "Published historical maker case: Rajani Majhi, Satajhari, Nayagarh. Publication day unresolved; filename mentions January 2003. Projected earnings are not realised income and are not imported.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-jica2017",
+      "url": "https://openjicareport.jica.go.jp/pdf/12284139_02.pdf",
+      "status": "available_text_only",
+      "scope": "Kandhamal value-chain description, not a current enterprise census or evidence that proposed interventions were delivered. Cover date verified in part 01 of the same report.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ciah-varieties",
+      "url": "https://www.icar-ciah.org/index.php?do=veriti_relese_svrc&mod=veriti",
+      "status": "available",
+      "retrieved_on": "2026-10-01",
+      "scope": "Undated institutional cultivar list; supports Thar Priya/chironji and Goma Prateek/tamarind names. Does not verify planting, adoption, yields or release dates in Odisha.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-vasundhara-tamarind",
+      "url": "https://vasundharaodisha.org/upload/pdfFile/b949225825e4667de86b4628a67b57b8.pdf",
+      "status": "available_text_only",
+      "retrieved_on": "2026-10-01",
+      "scope": "Undated publication with April 2023 policy context. Original named collector testimony is primary qualitative evidence; policy and state-production figures are secondary. Precise interview dates, lot grades and sample design unresolved.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-chironji-processing2012",
+      "url": "https://nopr.niscpr.res.in/handle/123456789/13445",
+      "status": "indexed_only",
+      "retrieved_on": "2026-10-01",
+      "scope": "Bibliographic/indexed lead only. Do not treat a 2012 general processing account as a current Odisha recipe, machinery census or measured export market.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-tdcc-mfp",
+      "url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "scope": "Direct web fetch failed again; existing indexed scope retained. No values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.tdccodisha.org/upload_image/1649924509_Notice_Advance_tender_v4_03042024.pdf",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "scope": "Web 502; direct download rejected self-signed certificate. No tender values adopted.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-scstrti-foodknowledge",
+      "url": "https://repository.tribal.gov.in/bitstream/123456789/74427/1/SCST_2014_research_0338.pdf",
+      "status": "available_text_only",
+      "retrieved_on": "2026-10-01",
+      "scope": "New char/tentuli passages read. Alternate repository URL and screenshot failed; existing original URL text available. Same publication, not new corroboration.",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-kl-welfare2026",
+      "url": "https://kenduleaves.odisha.gov.in/welfare-measures",
+      "status": "available",
+      "scope": "Direct page text differs from search-indexed June snapshot. Welfare table year basis is unspecified; retain it separately from report payment/crop years. Compassionate-grant counts are records, not verified distinct people.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "source_id": "forest-ofdc-ar2021",
+      "url": "https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf",
+      "status": "available",
+      "scope": "Original PDF downloaded through publisher listing; printed p.17 visually checked. Audited financial statements accompany the report, but this does not independently audit every narrative/table. FY2019–20 quantity is an additional unresolved vintage.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": null
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/en/publication/annual-reports",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out. Indexed successors are leads only.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2024-07/Annual%20Activity%20Report_2023-24_2.pdf",
+      "status": "unavailable",
+      "scope": "Web unavailable; direct connection timed out; no procurement figures imported.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://kenduleaves.odisha.gov.in/admin/data/ckeditor/images/Notification%20No-2587%20Dtd-%2013_02_2024-%20Enhancement%20of%20Kerry%20Price.pdf",
+      "status": "unavailable",
+      "scope": "Web and direct connection timed out; indexed rates not admitted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://trifed.tribal.gov.in/en/node/683",
+      "status": "unavailable",
+      "scope": "Web timeout; no current centres, procurement or product outcomes admitted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A2534/lang%3A",
+      "status": "unavailable",
+      "scope": "Web unavailable; indexed division-payment lead not adopted.",
+      "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://kenduleaves.odisha.gov.in/production-sale",
+      "status": "unavailable",
+      "scope": "Web fetch failed; direct fetch timed out after35seconds.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.tdccodisha.org/whats_new.php",
+      "status": "unavailable",
+      "scope": "Web HTTP502; direct fetch failed TLS certificate validation. No bypass used.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "status": "unavailable",
+      "scope": "Web HTTP502; existing unavailable route, not new verification.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2026-02/Annual%20Activity%20Report%202025-26_0.pdf",
+      "status": "unavailable",
+      "scope": "Web reader rejected oversized response; direct fetch timed out after45seconds.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2025-04/Annual%20Activity%20Report%202024-25.pdf",
+      "status": "unavailable",
+      "scope": "Web timeout; direct fetch timed out after45seconds. Indexed report values remain discovery leads only.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://trifed.tribal.gov.in/en/Odisha",
+      "status": "unavailable",
+      "scope": "Web timeout.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://tdccodisha.org/upload_image/1916149893_E-_Auction_Notice_1764%2C_dated_21.10.2024_for_Sale_of_Tamarind_procured_Crop_2024_Under_MSP_Scheme_TDCC.pdf",
+      "status": "unavailable",
+      "scope": "Web cache-miss; an auction notice would not establish a completed sale.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    }
+  ],
+  "human_review_claimed": false,
+  "website_publication": false,
+  "name_clarifications": [
+    {
+      "input": "Mohu",
+      "meaning": "Honey",
+      "odia": "ମହୁ",
+      "basis": "User explicitly selected Honey (ମହୁ) in this conversation on2026-10-01",
+      "scope": "Meaning intended by this user; not an independent linguistic review",
+      "separate_from": "mahua-mohula"
+    }
+  ],
+  "products": [
+    {
+      "id": "kendu-patra",
+      "name": "Kendu patra",
+      "part_or_material": "leaf",
+      "use_class": "non_food",
+      "concept_path": "economy/kendu-patra.md",
+      "source_ids": [
+        "forest-ofdc-kendu"
+      ],
+      "evidence_status": "institutional_product_identity",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "mohu-honey",
+      "name": "Mohu / honey",
+      "part_or_material": "bee product",
+      "use_class": "food",
+      "concept_path": "food/mohu-honey.md",
+      "source_ids": [
+        "forest-sector2025",
+        "forest-vasundhara-livelihoods",
+        "forest-scstrti-foodknowledge"
+      ],
+      "evidence_status": "processing_and_programme_evidence",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "seasonal_account_ids": [
+        "hill-kharia-honey-season-scstrti"
+      ]
+    },
+    {
+      "id": "mahua-flower",
+      "name": "Mahua / mohula flowers",
+      "part_or_material": "flower",
+      "use_class": "food_and_beverage_uses",
+      "concept_path": "food/mahua-mohula.md",
+      "source_ids": [
+        "forest-vasundhara2001",
+        "forest-mahua-iisc",
+        "forest-mahua-food2016",
+        "forest-mahua-santhal2016",
+        "forest-ouat2021"
+      ],
+      "evidence_status": "attributed_use_and_botanical_reference",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "seasonal_account_ids": [
+        "chandbill-mahua-2009"
+      ]
+    },
+    {
+      "id": "mahua-seed",
+      "name": "Mahua / mohula seed",
+      "part_or_material": "seed",
+      "use_class": "oilseed_uses",
+      "concept_path": "food/mahua-mohula.md",
+      "source_ids": [
+        "forest-mahua-tnau",
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "general_use_and_indexed_procurement_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "sal-leaf",
+      "name": "Sal leaves",
+      "part_or_material": "leaf",
+      "use_class": "non_food",
+      "concept_path": "economy/sal-products.md",
+      "source_ids": [
+        "forest-vasundhara-livelihoods",
+        "forest-kendujhar2018",
+        "forest-balliguda2021",
+        "forest-cysd2002"
+      ],
+      "evidence_status": "organisation_and_study_product_listing",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "botanical_name": "Shorea robusta",
+      "seasonal_account_ids": [
+        "balliguda-sal-leaf2021"
+      ]
+    },
+    {
+      "id": "siali-leaf",
+      "name": "Siali leaves",
+      "part_or_material": "leaf",
+      "use_class": "non_food",
+      "concept_path": "economy/siali-products.md",
+      "source_ids": [
+        "forest-vasundhara-livelihoods",
+        "forest-siali-iisc",
+        "forest-balliguda2021",
+        "forest-cysd2002",
+        "forest-jica2017"
+      ],
+      "evidence_status": "institutional_flora_identity_and_organisation_trade_listing",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "botanical_name": "Phanera vahlii",
+      "source_taxonomic_alias": "Bauhinia vahlii",
+      "seasonal_account_ids": [
+        "balliguda-siali-peak2021",
+        "satajhari-leaf-craft2002"
+      ]
+    },
+    {
+      "id": "sal-seed",
+      "name": "Sal seeds",
+      "part_or_material": "seed",
+      "use_class": "oilseed_research",
+      "concept_path": "economy/sal-products.md",
+      "source_ids": [
+        "forest-vasundhara-livelihoods",
+        "forest-balliguda2021"
+      ],
+      "evidence_status": "organisation_product_listing",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred.",
+      "botanical_name": "Shorea robusta"
+    },
+    {
+      "id": "tamarind",
+      "name": "Tamarind, seeded and de-seeded",
+      "part_or_material": "fruit",
+      "use_class": "food",
+      "concept_path": "food/tentuli-tamarind.md",
+      "source_ids": [
+        "forest-tdcc-mfp",
+        "food-koli-balasore2020",
+        "forest-scstrti-foodknowledge",
+        "forest-ciah-varieties",
+        "forest-vasundhara-tamarind"
+      ],
+      "evidence_status": "attributed_local_use_and_historical_market_account",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify market form, lot origin, named local preparation, dated prices and processing yields; no inference from cultivar listings to Odisha cultivation.",
+      "botanical_name": "Tamarindus indica",
+      "seasonal_account_ids": [
+        "balasore-tentuli2018-2020"
+      ]
+    },
+    {
+      "id": "chara-kernel",
+      "name": "Chara / char seed and kernel",
+      "part_or_material": "seed_or_kernel_to_disambiguate",
+      "use_class": "food_research",
+      "concept_path": "food/chara-chironji.md",
+      "source_ids": [
+        "food-koli-balasore2020",
+        "forest-vasundhara-livelihoods",
+        "forest-scstrti-foodknowledge",
+        "forest-ciah-varieties"
+      ],
+      "evidence_status": "attributed_local_use_and_historical_market_account",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify market form, lot origin, named local preparation, dated prices and processing yields; no inference from cultivar listings to Odisha cultivation.",
+      "botanical_name": "Buchanania lanzan",
+      "seasonal_account_ids": [
+        "balasore-chara2018-2020"
+      ]
+    },
+    {
+      "id": "harida",
+      "name": "Harida",
+      "part_or_material": "fruit",
+      "use_class": "botanical_ingredient_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "bahada",
+      "name": "Bahada",
+      "part_or_material": "fruit",
+      "use_class": "botanical_ingredient_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "karanja-seed",
+      "name": "Karanja seed",
+      "part_or_material": "seed",
+      "use_class": "oilseed_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "kusum-seed",
+      "name": "Kusum seed",
+      "part_or_material": "seed",
+      "use_class": "oilseed_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "lac",
+      "name": "Lac",
+      "part_or_material": "resinous_insect_product",
+      "use_class": "non_food_research",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "hill-broom",
+      "name": "Hill broom",
+      "part_or_material": "plant_material_species_unverified",
+      "use_class": "non_food",
+      "concept_path": null,
+      "source_ids": [
+        "forest-tdcc-mfp"
+      ],
+      "evidence_status": "indexed_only_product_lead",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Verify local identity, form, place, season and dated product-level market evidence; no medicinal efficacy inferred."
+    },
+    {
+      "id": "siali-fibre",
+      "name": "Siali fibre",
+      "part_or_material": "fibre",
+      "use_class": "non_food",
+      "concept_path": "economy/siali-products.md",
+      "source_ids": [
+        "forest-scstrti-foodknowledge",
+        "forest-siali-iisc"
+      ],
+      "evidence_status": "historical_community_craft_account",
+      "current_procurement_verified": false,
+      "harvest_origin": null,
+      "odisha_season": null,
+      "current_price": null,
+      "annual_sales_value": null,
+      "export_quantity": null,
+      "next_step": "Obtain named current maker accounts and material/price records; historical account does not establish current commercial output."
+    }
+  ],
+  "update_history": [
+    {
+      "run_id": "2026-10-01-forest-product-profiles",
+      "at": "2026-10-01T19:28:54.352476+00:00",
+      "scope": "Three named profiles and15 product-level entries/leads. User clarified Mohu as honey. No new market totals."
+    },
+    {
+      "run_id": "2026-10-01-forest-seasonal",
+      "at": "2026-10-01T19:35:04.134564+00:00",
+      "scope": "Historical honey seasonal account; mahua food-development abstract; siali botanical identity and fibre profile. No new market totals."
+    },
+    {
+      "run_id": "2026-10-01-mahua-preparation",
+      "at": "2026-10-01T19:58:15.218126+00:00",
+      "scope": "Mahua cake preparation, historical local season, qualitative market context and OUAT batch-capacity observation. Collector prices and current sales remain unresolved."
+    },
+    {
+      "run_id": "2026-10-01-leaf-craft",
+      "at": "2026-10-01T20:39:09.741844+00:00",
+      "scope": "Three primary publications; local leaf seasons and material-process accounts. No statewide market values or source aliases counted as corroboration."
+    },
+    {
+      "run_id": "2026-10-01-forest-fruits",
+      "at": "2026-10-01T21:20:19.531656+00:00",
+      "scope": "Two existing product leads developed; seasonal accounts, community-market entries and one scoped historical sale testimony; no statewide income or export estimates."
+    },
+    {
+      "run_id": "2026-10-01-forest-payments",
+      "at": "2026-10-01T21:29:27.391557+00:00",
+      "scope": "20 observations: historical payment statements, held portal welfare series, fiscal-year grant totals and original comparative sales quantity. No unverified procurement adopted."
+    },
+    {
+      "run_id": "2026-10-02-forest-trade-followup",
+      "at": "2026-10-02T01:11:51.135341+00:00",
+      "scope": "Historical Van Dhan comparison and five named cluster leads; exact OFDC allocation arithmetic. Product-level sales/payments remain unresolved."
+    }
+  ],
+  "seasonal_accounts": [
+    {
+      "id": "hill-kharia-honey-season-scstrti",
+      "product_id": "mohu-honey",
+      "source_id": "forest-scstrti-foodknowledge",
+      "locator": "Section2.3.4.1, printed p.28 / PDF p.42",
+      "community": "Hill Kharia",
+      "geography": "Similipal context, Mayurbhanj",
+      "period": "Historical account; fieldwork and publication dates unconfirmed; repository filename2014",
+      "month_windows": [
+        [
+          3,
+          6
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "evidence_status": "historical_community_account",
+      "current_availability_verified": false
+    },
+    {
+      "id": "chandbill-mahua-2009",
+      "product_id": "mahua-flower",
+      "source_id": "forest-mahua-santhal2016",
+      "locator": "Printed pp.96–97",
+      "community": "Santhal",
+      "geography": "Chandbill, Bangiriposi, Mayurbhanj",
+      "period": "Fieldwork2009; publication2016",
+      "month_windows": [
+        [
+          3,
+          4
+        ]
+      ],
+      "harvest_origin": "Private and forest lands reported",
+      "evidence_status": "historical_local_field_account",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balliguda-siali-peak2021",
+      "product_id": "siali-leaf",
+      "source_id": "forest-balliguda2021",
+      "locator": "Printed p.199 / PDF p.261",
+      "community": null,
+      "geography": "Balliguda Forest Division",
+      "period": "Working plan 2021–22 to 2030–31; account observation year unspecified",
+      "month_windows": [
+        [
+          10,
+          12
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "season_type": "described_peak_quality_and_availability",
+      "evidence_status": "division_working_plan_description",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balliguda-sal-leaf2021",
+      "product_id": "sal-leaf",
+      "source_id": "forest-balliguda2021",
+      "locator": "Printed p.200 / PDF p.262",
+      "community": null,
+      "geography": "Balliguda Forest Division",
+      "period": "Working plan 2021–22 to 2030–31",
+      "month_windows": [
+        [
+          9,
+          12
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "season_type": "recommended_collection_window",
+      "evidence_status": "management_prescription_not_observed_harvest",
+      "current_availability_verified": false
+    },
+    {
+      "id": "satajhari-leaf-craft2002",
+      "product_id": "siali-leaf",
+      "source_id": "forest-cysd2002",
+      "locator": "Printed p.26 / PDF p.27",
+      "community": "Rajani Majhi maker case; no ethnic identity inferred from surname",
+      "geography": "Satajhari, Nayagarh",
+      "period": "Fieldwork February–April 2002",
+      "month_windows": [
+        [
+          5,
+          12
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "season_type": "reported_abundant_supply",
+      "evidence_status": "historical_local_maker_account",
+      "species_scope_note": "Season paragraph follows siali account; household also handles sal. Do not interpret as an exclusive species-level phenology record.",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balasore-tentuli2018-2020",
+      "product_id": "tamarind",
+      "source_id": "food-koli-balasore2020",
+      "locator": "Table 1 row 72, printed p.455",
+      "geography": "Basta, Balasore, Nilgiri, Remuna and Bahanaga study area",
+      "period": "Survey January 2018–February 2020; published 25 May 2020",
+      "month_windows": [
+        [
+          1,
+          4
+        ]
+      ],
+      "season_type": "reported_fruiting_period_not_market_availability",
+      "evidence_status": "local_field_study",
+      "current_availability_verified": false
+    },
+    {
+      "id": "balasore-chara2018-2020",
+      "product_id": "chara-kernel",
+      "source_id": "food-koli-balasore2020",
+      "locator": "Table 1 row 15, printed p.451",
+      "geography": "Basta, Balasore, Nilgiri, Remuna and Bahanaga study area",
+      "period": "Survey January 2018–February 2020; published 25 May 2020",
+      "month_windows": [
+        [
+          4,
+          5
+        ]
+      ],
+      "season_type": "reported_fruiting_period_not_market_availability",
+      "evidence_status": "local_field_study",
+      "current_availability_verified": false
+    }
+  ],
+  "preparation_research": [
+    {
+      "id": "mahua-products-aet2016",
+      "product_id": "mahua-flower",
+      "source_id": "forest-mahua-food2016",
+      "issue_year": 2016,
+      "online_publication_date": "2017-02-24",
+      "evidence_status": "publisher_abstract_research_formulations",
+      "reported_products": [
+        "dried flowers",
+        "candied flowers",
+        "glazed flowers",
+        "bar",
+        "ready-to-serve beverage",
+        "squash",
+        "jam",
+        "laddu",
+        "cake"
+      ],
+      "recipe_quantities": null,
+      "survey_dates": null,
+      "commercial_sales_verified": false,
+      "community_tradition_verified": false
+    },
+    {
+      "id": "mahua-cake-chandbill-account",
+      "product_id": "mahua-flower",
+      "source_id": "forest-mahua-santhal2016",
+      "locator": "Printed p.98, Cake",
+      "evidence_status": "published_attributed_preparation",
+      "ingredients": [
+        {
+          "name": "mahua flowers",
+          "quantity": 250,
+          "unit": "g",
+          "moisture_state": "not specified in cake paragraph"
+        },
+        {
+          "name": "rice",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "name": "sal leaves",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "soaking_minutes": 60,
+      "cooking_temperature": null,
+      "cooking_time": null,
+      "method_reference": "food/mahua-mohula.md",
+      "tested_recipe": false,
+      "local_review": "pending",
+      "commercial_sales_verified": false
+    }
+  ],
+  "material_process_accounts": [
+    {
+      "id": "balliguda-siali-plate2021",
+      "product_id": "siali-leaf",
+      "source_id": "forest-balliguda2021",
+      "locator": "Printed p.199 / PDF p.261",
+      "drying_days_range": [
+        2,
+        3
+      ],
+      "leaves_per_plate_range": [
+        5,
+        6
+      ],
+      "plates_per_bundle": 80,
+      "joining_material": "thin bamboo slivers",
+      "scope": "Described division practice; not a measured enterprise production rate",
+      "kitchen_tested": false
+    },
+    {
+      "id": "satajhari-leaf-stitching2002",
+      "product_ids": [
+        "siali-leaf",
+        "sal-leaf"
+      ],
+      "source_id": "forest-cysd2002",
+      "locator": "Printed p.26 / PDF p.27",
+      "attributed_person": "Rajani Majhi",
+      "geography": "Satajhari, Nayagarh",
+      "period": "Fieldwork February–April 2002",
+      "siali_method": "sewing machine",
+      "sal_method": "hand stitching with bamboo sticks",
+      "new_interview": false
+    },
+    {
+      "id": "kandhamal-siali-chain2017",
+      "product_id": "siali-leaf",
+      "source_id": "forest-jica2017",
+      "locator": "Attachment 6.9.3-13–14 / part 02 PDF pp.216–217",
+      "geography": "Kandhamal value-chain context",
+      "period": "Report February 2017; precise case observation date unconfirmed",
+      "stages": [
+        "collection",
+        "stitching",
+        "drying",
+        "bundling",
+        "trading",
+        "trimming or pressing"
+      ],
+      "current_operation_verified": false
+    }
+  ],
+  "community_market_accounts": [
+    {
+      "id": "scstrti-char-markets",
+      "product_id": "chara-kernel",
+      "source_id": "forest-scstrti-foodknowledge",
+      "locator": "Table 2.16, printed p.49 / PDF p.63",
+      "community": "Juang",
+      "villages": [
+        "Hatisila",
+        "Nadam",
+        "Sarai"
+      ],
+      "product_name_as_reported": "Char Seed / Char Manji",
+      "shelled_kernel_verified": false,
+      "period": "Unresolved; filename includes 2014",
+      "quantity": null,
+      "revenue": null
+    },
+    {
+      "id": "scstrti-tentuli-market",
+      "product_id": "tamarind",
+      "source_id": "forest-scstrti-foodknowledge",
+      "locator": "Table 2.16, printed p.50 / PDF p.64",
+      "community": "Lanjia Saora; source table spelling Langia Saora",
+      "villages": [
+        "Jantar"
+      ],
+      "product_name_as_reported": "Titel / Tentuli",
+      "period": "Unresolved; filename includes 2014",
+      "quantity": null,
+      "revenue": null
+    }
+  ],
+  "collector_testimonies": [
+    {
+      "id": "vasundhara-sitarani-tamarind",
+      "product_id": "tamarind",
+      "source_id": "forest-vasundhara-tamarind",
+      "locator": "PDF p.11, Ground testimonies",
+      "person": "Sitarani Hasda",
+      "geography": "Rairangpur region, Odisha",
+      "sale_quantity": 2,
+      "quantity_unit": "quintal",
+      "sale_receipts": 5000,
+      "receipts_unit": "INR",
+      "price_basis": "Nominal historical reported receipts; costs unknown",
+      "transaction_date": null,
+      "publication_date": null,
+      "context": "Booklet discusses April 2023 policy; exact transaction year not asserted",
+      "product_grade": null,
+      "evidence_status": "publisher_recorded_self_report",
+      "receipt_verified": false,
+      "current_price": false,
+      "human_review_claimed": false
+    }
+  ],
+  "trade_followup_checkpoint": {
+    "run_id": "2026-10-02-forest-trade-followup",
+    "retrieved_at": "2026-10-02T01:11:51.135341+00:00",
+    "source_ids": [
+      "forest-loksabha1179-2023",
+      "forest-pib-vandhan2021",
+      "forest-ofdc-ar2021"
+    ],
+    "observation_ids": [
+      "forest-vandhan-2023-odisha-sales",
+      "forest-vandhan-2023-india-sales",
+      "forest-vandhan-2023-odisha-sanctioned",
+      "forest-vandhan-2023-odisha-beneficiaries",
+      "forest-ofdc-allocation2021-sales",
+      "forest-ofdc-allocation2021-working-fund",
+      "forest-ofdc-allocation2021-fdt",
+      "forest-ofdc-allocation2021-selling",
+      "forest-ofdc-allocation2021-financing",
+      "forest-ofdc-allocation2021-royalty-kldf"
+    ],
+    "parliamentary_comparison": {
+      "source_id": "forest-loksabha1179-2023",
+      "locator": "PDF p.3, full annexure",
+      "source_unit": "INR lakh",
+      "rows": [
+        {
+          "geography": "Andhra Pradesh",
+          "sales": 278.477
+        },
+        {
+          "geography": "Arunachal Pradesh",
+          "sales": 6.17
+        },
+        {
+          "geography": "Assam",
+          "sales": 360.47
+        },
+        {
+          "geography": "Chhattisgarh",
+          "sales": 753.04
+        },
+        {
+          "geography": "Dadra & Nagar Haveli and Daman & Diu",
+          "sales": 5
+        },
+        {
+          "geography": "Goa",
+          "sales": 31.6
+        },
+        {
+          "geography": "Gujarat",
+          "sales": 6
+        },
+        {
+          "geography": "Himachal Pradesh",
+          "sales": 7.7
+        },
+        {
+          "geography": "Jammu & Kashmir",
+          "sales": 0
+        },
+        {
+          "geography": "Ladakh",
+          "sales": 0
+        },
+        {
+          "geography": "Jharkhand",
+          "sales": 44.4
+        },
+        {
+          "geography": "Karnataka",
+          "sales": 24.27
+        },
+        {
+          "geography": "Kerala",
+          "sales": 7.91
+        },
+        {
+          "geography": "Madhya Pradesh",
+          "sales": 130.31
+        },
+        {
+          "geography": "Maharashtra",
+          "sales": 97.32
+        },
+        {
+          "geography": "Manipur",
+          "sales": 303.55
+        },
+        {
+          "geography": "Meghalaya",
+          "sales": 14.71
+        },
+        {
+          "geography": "Mizoram",
+          "sales": 295.71
+        },
+        {
+          "geography": "Nagaland",
+          "sales": 409.02
+        },
+        {
+          "geography": "Odisha",
+          "sales": 1072.01
+        },
+        {
+          "geography": "Rajasthan",
+          "sales": 117.43
+        },
+        {
+          "geography": "Sikkim",
+          "sales": 15.84
+        },
+        {
+          "geography": "Tamil Nadu",
+          "sales": 93.24
+        },
+        {
+          "geography": "Telangana",
+          "sales": 0
+        },
+        {
+          "geography": "Tripura",
+          "sales": 17.91
+        },
+        {
+          "geography": "Uttar Pradesh",
+          "sales": 6.97
+        },
+        {
+          "geography": "Uttarakhand",
+          "sales": 3.89
+        },
+        {
+          "geography": "West Bengal",
+          "sales": 0
+        }
+      ],
+      "published_total": 4102.95,
+      "sum_of_displayed_rows": 4102.947,
+      "rounding_difference": -0.0029999999997016857,
+      "ranking": {
+        "odisha_position": 1,
+        "comparison_universe": "28 listed state/UT rows",
+        "basis": "reported cumulative programme sales; no current ranking"
+      },
+      "odisha_share_of_published_total_percent": 26.127786105119487,
+      "calculation": "1072.01 / 4102.95 * 100",
+      "caveat": "Includes MFP and non-MFP. Uses published rounded total; not a statewide forest-market share or income estimate."
+    },
+    "ofdc_allocation": {
+      "source_id": "forest-ofdc-ar2021",
+      "locator": "Printed p.83, Note26(b)",
+      "sale_proceeds_INR": 4608417021,
+      "components": [
+        {
+          "key": "working-fund",
+          "label": "Working-fund advance released to Forest Department",
+          "value_INR": 2700271422,
+          "payment_stage": "released_advance"
+        },
+        {
+          "key": "fdt",
+          "label": "Forest development tax payable",
+          "value_INR": 0,
+          "payment_stage": "payable"
+        },
+        {
+          "key": "selling",
+          "label": "OFDC selling commission",
+          "value_INR": 412046335,
+          "payment_stage": "commission_allocation"
+        },
+        {
+          "key": "financing",
+          "label": "OFDC additional commission on financing",
+          "value_INR": 32005428,
+          "payment_stage": "commission_allocation"
+        },
+        {
+          "key": "royalty-kldf",
+          "label": "Royalty/KLDF payable to Forest Department",
+          "value_INR": 1464093836,
+          "payment_stage": "payable"
+        }
+      ],
+      "sum_components_INR": 4608417021,
+      "reconciles": true,
+      "collector_receipts": null,
+      "comment": "Cash advance to department is not verified receipt by collectors. Fiscal-year accounts cover multiple crop years. Existing2019–20 sales and quantity conflict remains open."
+    },
+    "unknown_fields": [
+      "Product-level realised procurement and sales",
+      "Collector payments, costs and net earnings",
+      "Current operation and women ownership of named clusters",
+      "Current state-origin export quantities",
+      "Reconciliation of2019–20 sales and welfare year bases"
+    ],
+    "human_review_claimed": false
+  },
+  "producer_group_leads": [
+    {
+      "id": "luguburu-vdvkc",
+      "name": "Luguburu VDVKC",
+      "district": "Mayurbhanj",
+      "product_scope_group": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "maa-dharithri-vdvkc",
+      "name": "Maa Dharithri VDVKC",
+      "district": "Mayurbhanj",
+      "product_scope_group": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "bhimakund-vdvkc",
+      "name": "Bhimakund VDVKC",
+      "district": "Mayurbhanj",
+      "product_scope_group": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "anchalika-khandadhar-vdvkc",
+      "name": "Anchalika Khandadhar VDVKC",
+      "district": "Keonjhar",
+      "planned_products": [
+        "mango preparations",
+        "turmeric powder",
+        "mustard oil"
+      ],
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "ban-durga-vdvkc",
+      "name": "Ban Durga VDVKC",
+      "district": null,
+      "planned_products": [
+        "deseeded tamarind",
+        "tamarind cake",
+        "sal shampoo",
+        "packed char seeds"
+      ],
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    }
+  ],
+  "producer_group_product_scopes": [
+    {
+      "id": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "collective_inputs": [
+        "sal leaves",
+        "sal seeds",
+        "kusum seeds",
+        "wild honey"
+      ],
+      "collective_planned_products": [
+        "sal-leaf plates and cups",
+        "kusum oil",
+        "processed honey"
+      ],
+      "caveat": "Source lists products collectively for three clusters; do not assign every product to every cluster."
+    }
+  ]
+}

@@ -10,7 +10,7 @@ sources: [{"id": "macro-slbc-jun2026", "title": "184th SLBC Odisha meeting agend
 
 # Koraput — district banking
 
-Banking snapshot only. Other district fields remain unfilled until sourced.
+Banking and rice snapshots retain their separate dates and measurement scopes.
 
 - **Bank deposits: 10,408.96 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
 - **Bank advances utilised: 7,201.91 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
@@ -32,3 +32,19 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Homestay research link · 1 October 2026
 
 The public portal groups Deomali, Duduma Waterfalls and Kechela in its Koraput cluster. See the [dated homestay snapshot](../homestays.md) for scope. These are portal place associations, not operational-property counts or verified travel proximity.
+
+## Rice farming · 2023–24
+
+The agriculture report records rice crop area of **131.12 thousand hectares**, rice yield **3194 kg/ha**, and rice output **418.74 thousand tonnes**. These are crop-year measures, independent of the banking snapshot above. [Official table, printed p.67](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). [Rice economics](../../economy/rice-economy.md) explains product bases and comparisons.
+
+## Mineral evidence · 1 October2026
+
+IBM’s2023–24 bauxite producer table places NALCO and OMC mine locations in Koraput. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+[The NALCO chain](../../economy/bauxite-to-aluminium.md) connects Panchpatmali, Damanjodi and the Pottangi development project. Company-wide headcounts do not establish Koraput jobs.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+[Kodingamali](../../economy/bauxite-mine-identities.md) adds five annual ROM observations. The IBM district register is not a complete mine-boundary map.

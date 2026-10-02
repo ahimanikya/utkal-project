@@ -21,3 +21,7 @@ Ripe fruit pulp and palm-seed foods require separate records. The user identifie
 Obtain directly documented recipes, grain/fibre ingredients, local names and season windows. Embedded video was not inspected.
 
 [Everyday food culture](everyday-food-culture.md) connects this entry to ingredients, meal relationships and makers.
+
+## Ripe-fruit and rice-flour evidence
+
+[Panda and colleagues, printed p.67](https://reference-global.com/download/article/10.2478/arls-2021-0031.pdf) document ripe palm-fruit material mixed with rice flour for pitha in their 2015–2018 study. This extends the ingredient evidence but supplies no measured recipe. [Talagaja](talagaja.md) is the separate germinated-seed food in that account; the user’s tala khaja name remains unresolved.

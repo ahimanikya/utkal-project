@@ -61,3 +61,17 @@ Subject membership is editorial classification. It does not establish historical
 [Odisha’s poda traditions](../food/poda-and-fire-cooking.md) connect everyday accompaniments, leaf parcels and sweets; [Odisha’s Best-Kept Secret](../stories/odisha-poda-country.md) is the related campaign draft.
 
 [Odisha’s everyday food culture](../food/everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
+
+[Koli: local fruit names and varieties](../food/koli-fruits.md) — source-specific plant names, seasons and unresolved local-name overlap.
+
+[Bela pana](../food/bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+[Rice varieties and seed keepers](../food/rice-varieties.md) connects farming traditions, plant science and food evidence.
+
+[Tentuli](../food/tentuli-tamarind.md) and [chara/chironji](../food/chara-chironji.md) — Ingredients, seasons, community knowledge and distinct traded forms.
+
+[Rice kept for taste](../stories/rice-kept-for-taste.md) links documented food preferences to named cultivation and seed-enterprise accounts. Historical evidence is separate from current availability.
+
+[From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.

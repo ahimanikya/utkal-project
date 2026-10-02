@@ -10,7 +10,7 @@ sources: [{"id": "macro-slbc-jun2026", "title": "184th SLBC Odisha meeting agend
 
 # Kalahandi — district banking
 
-Banking snapshot only. Other district fields remain unfilled until sourced.
+Banking and rice snapshots retain their separate dates and measurement scopes.
 
 - **Bank deposits: 8,264.95 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
 - **Bank advances utilised: 11,936.31 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
@@ -23,3 +23,15 @@ Banking geography is not household wealth, district GDP or project investment. R
 
 
 [^macro-slbc-jun2026]: [184th SLBC Odisha meeting agenda — June 2026 quarter](https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf)
+
+## Rice farming · 2023–24
+
+The agriculture report records rice crop area of **255.76 thousand hectares**, rice yield **3019 kg/ha**, and rice output **772.1 thousand tonnes**. These are crop-year measures, independent of the banking snapshot above. [Official table, printed p.67](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). [Rice economics](../../economy/rice-economy.md) explains product bases and comparisons.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+[Baphlimali](../../economy/bauxite-mine-identities.md) has a lease portion in Kalahandi according to its audit overview. No district production split is inferred.
+
+## Baphlimali returns · 2 October2026 UTC
+
+[Baphlimali boundary questions](../../economy/bauxite-mine-identities.md) retain the Kalahandi public-hearing section separately; no mine-total allocation or local job share is inferred.

@@ -48,3 +48,5 @@ Subject membership is editorial classification. It does not establish historical
 [Utkal’s rulers and royal legacies](../people/rulers-and-royal-legacies.md) — five selected rulers linked to inscriptions, government centres and architectural patronage; political power, contribution and later remembrance remain distinct.
 
 [Susmita Mohanty](../people/susmita-mohanty.md) provides a reading route between space enterprise, policy authorship and historical Odisha public service. This relationship is editorial context, not a claim of measured economic impact.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).

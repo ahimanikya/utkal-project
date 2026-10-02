@@ -101,3 +101,7 @@ Next: resolve Yajnaseni’s original-date discrepancy, the four story dates stil
 - [Adaptive and Iterative Wiener Filter for Oriya Speech Processing Applications](odia-speech-wiener-filter-2012.md)
 
 - [NewSpace India and Indian National Space Promotion and Authorization Centre: A Fledgling and Critical Partnership](newspace-india-inspace-2022.md)
+
+## Mahima Dharma and a credited reading route
+
+[Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.

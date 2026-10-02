@@ -10,7 +10,7 @@ sources: [{"id": "macro-slbc-jun2026", "title": "184th SLBC Odisha meeting agend
 
 # Mayurbhanj — district banking
 
-Banking snapshot only. Other district fields remain unfilled until sourced.
+Banking and rice snapshots retain their separate dates and measurement scopes.
 
 - **Bank deposits: 19,832.53 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
 - **Bank advances utilised: 10,044.22 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
@@ -27,3 +27,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Homestay research link · 1 October 2026
 
 The public portal distinguishes Similipal East and Similipal West clusters. See the [dated homestay snapshot](../homestays.md) for scope. These are portal place associations, not operational-property counts or verified travel proximity.
+
+## Rice farming · 2023–24
+
+The agriculture report records rice crop area of **301.11 thousand hectares**, rice yield **2522 kg/ha**, and rice output **759.29 thousand tonnes**. These are crop-year measures, independent of the banking snapshot above. [Official table, printed p.67](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). [Rice economics](../../economy/rice-economy.md) explains product bases and comparisons.

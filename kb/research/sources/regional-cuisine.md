@@ -28,3 +28,7 @@ This record is a bibliographic reference, not a saved copy of the external page.
 ## Preparation research · 1 October 2026
 
 Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; no location reassignment.
+
+## Additional capture · 2 October 2026
+
+The original 344-page PDF adds a named maker attribution on printed/PDF p.179, item 15: Aartabandhu Sahoo of Shyam Sundarpur, Nimapara. This is a teaching reference’s attribution, not archival proof of an invention date. The earlier p.119 recipe remains valid; both passages belong to the same publication. Its unspecified overseas-spread sentence establishes no shipments. See [Chhena jhili](../food/chhena-jhili.md).

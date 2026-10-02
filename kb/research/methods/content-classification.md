@@ -27,3 +27,7 @@ Every related-reading relationship has source and target concept IDs, an editori
 When a topic changes, update its explanation and related reading alongside the classification register. Do not refresh its source-check date merely because navigation changed. A public site must still select approved entries; this research catalogue is not a publication allowlist.
 
 Run `tools/validate_classification.py`, `tools/reindex.py` and `tools/validate.py`. Check that each classified concept exists, subjects are valid, every statistical topic is covered and related links have explanations. The readable pages are local content; public filtering and search still require website implementation.
+
+## Cross-cutting reading areas · 1 October2026
+
+`reading_lenses` in the classification register maps the user’s explicit encyclopedia scope to stable subject IDs and existing entry paths. These editorial views preserve the nine subject families and canonical records. They add visibility to literature, science, geopolitics, religion and spirituality without reclassifying all of them as tourism or economic activity. [Scope](../about/encyclopedia-scope.md).

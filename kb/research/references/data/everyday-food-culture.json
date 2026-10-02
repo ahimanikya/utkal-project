@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T18:07:08.675156+00:00",
-  "run_id": "2026-10-01-everyday-food",
+  "updated_at": "2026-10-01T22:01:16.891147+00:00",
+  "run_id": "2026-10-01-palm-anatomy",
   "scope": "Attributed everyday-food seed; distinct from the completed fourteen-entry preparation set. Not an inventory of all Odisha foods.",
   "records": [
     {
@@ -78,6 +78,11 @@
           "source_id": "food-tala-manaswini2018",
           "locator": "Title, ripe-fruit description and creator credit",
           "scope": "Maker credit and fruit stage supported. Embedded preparation video not inspected; do not extend this method to every tala pitha or infer a statewide season calendar."
+        },
+        {
+          "source_id": "food-palm-panda2021",
+          "locator": "Printed p.67 / PDF p.4, ripe-fruit paragraph",
+          "scope": "Rice-flour connection; no measured recipe or cooking endpoint."
         }
       ],
       "local_review": "pending",
@@ -137,6 +142,178 @@
         "scope": "Not measured by these sources"
       },
       "next_evidence": "Collect independent household/local variants, source-language terminology and grain-to-liquid process distinctions; recipe testing remains pending."
+    },
+    {
+      "concept_id": "food/bela-pana",
+      "name": "Bela pana",
+      "aliases": [
+        "Bela pana",
+        "Bael drink"
+      ],
+      "food_kind": "seasonal fruit drink",
+      "technique_theme": "pulping and straining",
+      "ingredient_identity": {
+        "local_name": "Bela",
+        "botanical_name_as_reported": "Aegle marmelos",
+        "source_id": "food-koli-balasore2020",
+        "locator": "Table 1 row 1, p.450",
+        "distinct_from": "Kaitha / Limonia acidissima; Table 1 row 42"
+      },
+      "source_accounts": [
+        {
+          "source_id": "food-bela-sahoo2021",
+          "locator": "Section 1: Bael (Aegle marmelos) juice; ingredients and method",
+          "scope": "First-person recipe; updated 17 April 2021. Exact glass volume, sugar amount and pepper quantity unresolved. No clinical claims adopted; author not identity-linked to other Sasmita recipe contributors."
+        },
+        {
+          "source_id": "food-bela-kugaji2023",
+          "locator": "Introductory Odisha comparison paragraph",
+          "scope": "Updated 8 March 2023. Attribution for a richer Bela pana variant only. The measured concentrate recipe below is a broader sharbat recipe, not adopted as the Bela pana formula. No medical or three-month storage claims adopted."
+        },
+        {
+          "source_id": "food-bela-fmu2023",
+          "locator": "Single-page event report, first paragraph",
+          "scope": "Report dated 14 April 2023: university event at Nuapadhi, Balasore; not a statewide custom survey. Browser cache fetch failed; original PDF downloaded and text extracted successfully. Publication upload date not separately established."
+        }
+      ],
+      "preparation": {
+        "source_id": "food-bela-sahoo2021",
+        "status": "attributed_method_quantity_gaps",
+        "yield_as_reported": "five glasses; volume unspecified",
+        "ingredients_as_reported": {
+          "bael_fruit": "one",
+          "water": "five glasses",
+          "sugar_or_mishri": null,
+          "black_pepper": "small tablespoon in list; pinch per serving in method"
+        },
+        "method_summary": "Sweeten water, mix in fruit pulp, separate seeds, strain, finish with pepper; optional ice.",
+        "quantity_conflict": "Pepper list versus serving instruction; do not silently normalise.",
+        "timing_minutes": null,
+        "shelf_life": null
+      },
+      "cultural_observation": {
+        "source_id": "food-bela-fmu2023",
+        "date": "2023-04-14",
+        "place": "Nuapadhi campus, Fakir Mohan University, Balasore",
+        "event": "Odia New Year / Maha Bishuba Sankranti",
+        "observation": "Bela pana served at the event",
+        "statewide_participation": null
+      },
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "Not measured by these sources"
+      },
+      "next_evidence": "Measured household recipe, locality/Odia review, festival source follow-up and dated vendor data."
+    },
+    {
+      "concept_id": "food/talagaja",
+      "name": "Talagaja",
+      "aliases": [
+        "Talagaja",
+        "Tala gaja"
+      ],
+      "food_kind": "germinated palm-seed food",
+      "technique_theme": "seed maturity and germination",
+      "botanical_name_as_reported": "Borassus flabellifer L.",
+      "source_accounts": [
+        {
+          "source_id": "food-palm-panda2021",
+          "locator": "Printed p.67 / PDF p.4, fruit and germinated-seed paragraphs",
+          "scope": "Historical selected-area field study, April2015–March2018; no exact equivalence to user-supplied tala khaja."
+        },
+        {
+          "source_id": "food-palm-ragul2022",
+          "locator": "Printed pp.500,503,505–507; PDF pp.3,6,8–10",
+          "scope": "Primary seed-development experiment using Tamil Nadu seed material; supports anatomy, not Odisha food prevalence or consumer health outcomes."
+        },
+        {
+          "source_id": "food-palm-flour2019",
+          "locator": "Introduction; Methodology; abstract versus method sieve sizes",
+          "scope": "Andhra Pradesh researcher affiliations; sample collection locality not explicit in inspected method. Raw-consumption description and flour process only. Near-identical Kosmos text is not independent corroboration; numeric and clinical claims not adopted."
+        },
+        {
+          "source_id": "food-palm-kantio2019",
+          "locator": "Entry ଖୁକୁଡି଼ and parenthetical district comparisons",
+          "scope": "Authored lexical account, not a representative linguistic survey or independently reviewed botanical identification. Preserve spellings as reported and do not merge them into canonical aliases."
+        }
+      ],
+      "study_scope": {
+        "fieldwork_start": "2015-04",
+        "fieldwork_end": "2018-03",
+        "interviewees": 93,
+        "interviewee_unit": "people interviewed; purposive study sample",
+        "districts_as_reported": [
+          "Balasore",
+          "Bhadrak",
+          "Jajpur",
+          "Kendrapara",
+          "Jagatsinghpur",
+          "Cuttack",
+          "Puri",
+          "Khurdha",
+          "Ganjam",
+          "Gajapati"
+        ],
+        "individual_food_locality": null
+      },
+      "season": {
+        "months": [
+          10,
+          11
+        ],
+        "stage": "germination of mature seed",
+        "scope": "author-reported historical study window; not statewide current availability"
+      },
+      "preparation": {
+        "status": "brief_attributed_use_only",
+        "summary": "Authors describe opening the seed covering and extracting the edible interior.",
+        "cooking_endpoint": null,
+        "shelf_life": null,
+        "anatomy": "Haustorium explains the comparable germinating spongy structure; exact pictured specimen not independently examined."
+      },
+      "local_review": "pending",
+      "recipe_tested": false,
+      "economics": {
+        "revenue": null,
+        "exports": null,
+        "scope": "No measured sales or income table in this capture"
+      },
+      "next_evidence": "Village-attributed khaja/gaja names, fresh-food handling/recipe, dated seasonal vendor observations and tested product economics.",
+      "anatomical_comparison": {
+        "name": "haustorium",
+        "source_id": "food-palm-ragul2022",
+        "definition": "Temporary spongy cotyledon-derived structure developing inside the seed and receiving mobilised endosperm reserves.",
+        "geography_of_experiment": "Tamil Nadu",
+        "match_to_user_image": "best_supported_inference_not_specimen_verified",
+        "distinct_from": [
+          "immature endosperm",
+          "cotyledonary sheath / underground seedling"
+        ]
+      },
+      "processing_research": {
+        "source_id": "food-palm-flour2019",
+        "stage": "experimental_flour_preparation",
+        "method_summary": "Collected spongy material dried, milled and refrigerated for analysis.",
+        "home_recipe_validated": false,
+        "shelf_life": null,
+        "method_conflict": "Sieve250µm in abstract versus240µm in method; no correction inferred.",
+        "independent_replicate": false,
+        "related_version_url": "https://kosmospublishers.com/physico-chemical-and-functional-characteristics-of-palmyrah-borassus-flabellifer-l-spongy-haustorium-flour-2/",
+        "nutrition_panel_for_fresh_food": null
+      },
+      "language_leads": {
+        "source_id": "food-palm-kantio2019",
+        "status": "attributed_unverified_local_equivalence",
+        "reported_terms": [
+          "ଖୁକ୍'ଡି଼",
+          "ଖୁଖୁଡ଼",
+          "ଖୁଙ୍କୁଡି଼"
+        ],
+        "caveat": "Account descriptions span seed sprout/interior; locality spelling and anatomical equivalence need review."
+      }
     }
   ],
   "reused_concepts": [
@@ -147,14 +324,63 @@
   "unresolved_names": [
     {
       "name": "tala khaja",
-      "user_clarification": "khaja is seed produce",
+      "user_clarification": "Seed produce in the later/final food stage, distinct from ice apple; clarified by Ahimanikya with the supplied image.",
       "clarified_on": "2026-10-01",
       "evidence_class": "user_supplied_research_lead",
       "food_family": "palm-seed food",
-      "seed_stage": null,
+      "seed_stage": "late/final seed-food stage, as described by the user",
       "equivalence_to_tala_gaja": null,
       "local_odia_review": "pending",
-      "next_action": "Find an attributed local account naming the seed stage and preparation; retain user spelling."
+      "next_action": "Village-attributed khaja/gaja names, fresh-food handling/recipe, dated seasonal vendor observations and tested product economics.",
+      "comparison_candidate": {
+        "concept_id": "food/talagaja",
+        "source_id": "food-palm-panda2021",
+        "equivalence": "not_established"
+      },
+      "visual_reference": {
+        "received_on": "2026-10-01",
+        "attachment_basename": "codex-clipboard-c6a40a3d-978e-4768-95cd-ccc7e466001f.png",
+        "sha256": "e6c92a7092a4f0b6b133c0ba69710495adc01b8b642dd49a740b3de9f5c88fe5",
+        "evidence_class": "user_supplied_visual_research_lead",
+        "context": "User supplied this image, then explicitly clarified that it represents the last food stage, different from ice apple.",
+        "visible_features": "Split dark fibrous covering with white interior exposed.",
+        "species_confirmation": false,
+        "seed_stage_confirmation": "user_reported_late_stage; independent_botanical_confirmation_pending",
+        "local_name_equivalence_confirmed": false,
+        "original_creator_verified": false,
+        "public_reuse_rights": "not_established",
+        "public_image_asset_created": false
+      },
+      "clarification_history": [
+        {
+          "date": "2026-10-01",
+          "quote": "khaja is seed produce",
+          "basis": "user_statement"
+        },
+        {
+          "date": "2026-10-01",
+          "quote": "This the last cycle of the food - different than ice apple",
+          "basis": "user_statement_following_image"
+        }
+      ],
+      "seed_stage_evidence": "user_attributed_clarification; precise botanical anatomy not independently confirmed",
+      "distinct_from": [
+        {
+          "name": "ice apple",
+          "basis": "explicit user clarification on 2026-10-01"
+        }
+      ],
+      "anatomical_comparison": {
+        "name": "haustorium",
+        "source_id": "food-palm-ragul2022",
+        "definition": "Temporary spongy cotyledon-derived structure developing inside the seed and receiving mobilised endosperm reserves.",
+        "geography_of_experiment": "Tamil Nadu",
+        "match_to_user_image": "best_supported_inference_not_specimen_verified",
+        "distinct_from": [
+          "immature endosperm",
+          "cotyledonary sheath / underground seedling"
+        ]
+      }
     }
   ]
 }

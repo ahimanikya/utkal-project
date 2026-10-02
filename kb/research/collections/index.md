@@ -9,3 +9,5 @@ Follow a subject across Odisha’s places, people and evidence. Each page keeps 
 - [Sambalpur–Bargarh](../places/sambalpur-bargarh.md) — a regional reading path across two distinct districts.
 
 [Nine subjects](../subjects/index.md) · [Visitor collection](../visitor-index/index.md) · [Knowledge home](../index.md)
+
+[Odisha in the world](odisha-and-world.md) · [Religion and spirituality](religion-and-spirituality.md) — research entrances across the stable subjects.

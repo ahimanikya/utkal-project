@@ -5,7 +5,7 @@ description: "Pakhala — research and reuse notes."
 tags: ["food", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://apps.odishatourism.gov.in/the-taste-of-odisha", "inspection": "Pakhala section inspected. The earlier URL returned a 404 page; health assertions are not adopted."}]
+sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://apps.odishatourism.gov.in/the-taste-of-odisha", "inspection": "Pakhala section inspected. The earlier URL returned a 404 page; health assertions are not adopted."}, {"id": "rice-yadav-landraces2026", "title": "Preserving agrobiodiversity: socio-cultural and economic drivers of landrace conservation in Odisha, India", "resource": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}, {"by": "Current AI assistant", "at": "2026-09-29T02:25:24.019692+00:00", "scope": "Replacement Odisha Tourism cuisine page text inspected, Pakhala section. Culinary description only; promotional health claims excluded."}]
 geography: "Odisha"
 aliases: ["Pakhala", "pakhala"]
@@ -50,3 +50,7 @@ The 2019 menu adds curd and a ginger–mustard tempering. [Chef TZac: Odia cuisi
 [Poda and fire cooking](poda-and-fire-cooking.md) — Compare attributed food preparations and method boundaries; no common origin, culinary ranking or venue availability inferred.
 
 [Odisha’s everyday food culture](everyday-food-culture.md) — badi chura, sukhua, palm-fruit pitha, rice-water preparations and the existing leaf-cooked mushroom entry.
+
+## Rice preferences reported by farmers
+
+A 2026 participatory study records Bahal, Bojni, Bhajna and Kalahans in relation to pakhala among its selected western Odisha participants. [Table6](https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full). These are attributed preferences, not a single compulsory rice variety or a statewide recipe rule. The [rice collection](rice-varieties.md) preserves the sample scope and unresolved seed identities.

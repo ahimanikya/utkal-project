@@ -81,3 +81,19 @@ Subject membership is editorial classification. It does not establish historical
 The [homestay research](../statistics/homestays.md) connects the programme’s geographic footprint with the evidence needed to measure host livelihoods.
 
 - [Ecotourism](../statistics/ecotourism.md) — Reported programme income and community allocation rules, distinct from net household earnings.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+[Rice economics](../economy/rice-economy.md) connects crop production, procurement, milling and the missing evidence for producer returns.
+
+[Sal products](../economy/sal-products.md) — Leaf craft and a distinct seed chain, linked to local seasonal evidence.
+
+[Forest products and local enterprise](../stories/van-dhan-enterprises.md) connects a dated programme-sales comparison to named community-processing leads; turnover is separate from collector income.
+
+[Rice income after costs](../stories/rice-income-after-costs.md) explains gross value and C2 net income through a regional study, with period and representativeness limits.
+
+[Paddy procurement payments](../stories/rice-procurement-payments.md) connects farming with public purchasing while keeping farmer profit and payment categories distinct.
+
+[From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.

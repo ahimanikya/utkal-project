@@ -20,7 +20,9 @@ const entries=selected.map(item=>{
     return {text:rawParagraph.replace(/\[\^[^\]]+\]/g,'').replace(/\s*\n\s*/g,' ').trim(),sources:citations};
   });
   const text=paragraphs.map(paragraph=>paragraph.text).join('\n\n');
-  return {...item,text,paragraphs,sources,review:'Draft · Founder review pending',href:'/knowledge/'+item.slug+'/'};
+  const citedIds=new Set(paragraphs.flatMap(paragraph=>paragraph.sources));
+  const publishedSources=sources.filter(source=>citedIds.has(source.id));
+  return {...item,text,paragraphs,sources:publishedSources,review:'Draft · Founder review pending',href:'/knowledge/'+item.slug+'/'};
 });
 writeFileSync(new URL('../src/data/selected.json',import.meta.url),JSON.stringify(entries,null,2)+'\n');
 console.log('Prepared '+entries.length+' explicitly selected research notes; no automatic full-KB export.');

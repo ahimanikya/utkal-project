@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-01",
+  "updated_on": "2026-10-02",
   "scope": "Editorial subject classification of canonical knowledge, evidence and story entries; excludes sources, methods, product/technology governance and generic coverage pages. Does not grant public-release approval.",
   "subjects": [
     {
@@ -1189,7 +1189,9 @@
     {
       "concept_id": "handlooms/bomkai",
       "primary_subject": "arts",
-      "secondary_subjects": [],
+      "secondary_subjects": [
+        "people"
+      ],
       "content_type": "Textile",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
@@ -1213,7 +1215,9 @@
     {
       "concept_id": "handlooms/khandua",
       "primary_subject": "arts",
-      "secondary_subjects": [],
+      "secondary_subjects": [
+        "people"
+      ],
       "content_type": "Textile",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
@@ -1221,7 +1225,9 @@
     {
       "concept_id": "handlooms/kotpad",
       "primary_subject": "arts",
-      "secondary_subjects": [],
+      "secondary_subjects": [
+        "people"
+      ],
       "content_type": "Textile",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
@@ -1237,7 +1243,9 @@
     {
       "concept_id": "handlooms/sambalpuri-bandha",
       "primary_subject": "arts",
-      "secondary_subjects": [],
+      "secondary_subjects": [
+        "people"
+      ],
       "content_type": "Textile",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
@@ -1545,7 +1553,9 @@
     {
       "concept_id": "places/udayagiri-buddhist",
       "primary_subject": "places",
-      "secondary_subjects": [],
+      "secondary_subjects": [
+        "history"
+      ],
       "content_type": "Place",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
@@ -3932,6 +3942,609 @@
       "content_type": "Performing Tradition",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/koli-fruits",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Food Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/bela-pana",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Food",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/nandankanan",
+      "primary_subject": "nature",
+      "secondary_subjects": [
+        "places",
+        "history",
+        "economy"
+      ],
+      "content_type": "Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/ekamra-kanan",
+      "primary_subject": "nature",
+      "secondary_subjects": [
+        "places",
+        "food",
+        "everyday"
+      ],
+      "content_type": "Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/hariprasad-chaurasia",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "arts"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/achyuta-samanta",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/universities-and-learning",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/buddhist-learning",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/tantric-traditions",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "arts",
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/mahima-dharma",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "people",
+        "arts"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "methods/culture-learning-programme",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "arts",
+        "everyday",
+        "people"
+      ],
+      "content_type": "Research Methodology",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/mining",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "governance",
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/minerals-and-mining",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "governance",
+        "everyday"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/forest-foods",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/forest-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/forest-livelihoods",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "food",
+        "economy",
+        "everyday"
+      ],
+      "content_type": "Historical Research",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/forest-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "nature"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/kendu-patra",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "everyday",
+        "nature"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/mahua-mohula",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "economy",
+        "history"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/mohu-honey",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "economy",
+        "nature"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/siali-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "arts",
+        "food"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "collections/odisha-and-world",
+      "primary_subject": "governance",
+      "secondary_subjects": [
+        "economy",
+        "history",
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "collections/religion-and-spirituality",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "people",
+        "arts"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/rice-varieties",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "people",
+        "economy"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/rice-economy",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-productivity",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/sal-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "arts",
+        "food"
+      ],
+      "content_type": "Product Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/tentuli-tamarind",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "economy",
+        "everyday"
+      ],
+      "content_type": "Food Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/chara-chironji",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "economy",
+        "everyday"
+      ],
+      "content_type": "Food Profile",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/forest-worker-support",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "everyday",
+        "governance"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/talagaja",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "nature",
+        "everyday"
+      ],
+      "content_type": "Food",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/dalkhai",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Cultural Practice",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/ghumura",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Cultural Practice",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/ranapa",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "everyday"
+      ],
+      "content_type": "Cultural Practice",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/dance-and-music-connections",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people",
+        "everyday"
+      ],
+      "content_type": "Cultural Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "works/e-banara-chai-gapa-label",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Work",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "works/jaya-jadu-nandan-gapa-label",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Work",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "works/saathi-re-jaa-kahi-gapa-label",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Work",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/coal-production",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "governance"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/ore-production",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "nature",
+        "governance"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/bauxite-to-aluminium",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places",
+        "everyday",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/bauxite-mine-identities",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places",
+        "governance",
+        "everyday"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/van-dhan-enterprises",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "everyday",
+        "governance"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-kept-for-taste",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "people",
+        "economy"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-income-after-costs",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "people"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-procurement-payments",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "governance"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/langudi",
+      "primary_subject": "places",
+      "secondary_subjects": [
+        "history"
+      ],
+      "content_type": "Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/odisha-university-evidence",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/institution-building-evidence",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "everyday",
+        "economy"
+      ],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/jagannath-origins",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "places",
+        "food"
+      ],
+      "content_type": "Historical Synthesis",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/hirapur-yogini",
+      "primary_subject": "places",
+      "secondary_subjects": [
+        "history",
+        "arts"
+      ],
+      "content_type": "Heritage Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/ranipur-jharial-yogini",
+      "primary_subject": "places",
+      "secondary_subjects": [
+        "history",
+        "arts"
+      ],
+      "content_type": "Heritage Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "works/stuti-chintamani",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "history"
+      ],
+      "content_type": "Literary Work",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/sweets-from-milk-to-market",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/handlooms-from-loom-to-market",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -3979,7 +4592,9 @@
     "sports-infrastructure": "everyday",
     "Homestays": "economy",
     "Textile and apparel exports": "economy",
-    "Ecotourism": "economy"
+    "Ecotourism": "economy",
+    "Minerals and mining": "economy",
+    "Forest products": "economy"
   },
   "relationships": [
     {
@@ -5535,9 +6150,710 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects named performers with the existing people-and-works research framework; performance credit is not a completed biography."
+    },
+    {
+      "from": "food/koli-fruits",
+      "to": "food/everyday-food-culture",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects fruit names and seasonal food knowledge with the existing everyday-food collection; local names do not establish identical botanical species."
+    },
+    {
+      "from": "food/bela-pana",
+      "to": "food/everyday-food-culture",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a seasonal fruit drink with household food knowledge and documented preparations."
+    },
+    {
+      "from": "food/bela-pana",
+      "to": "food/koli-fruits",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects Bela ingredient identification with source-specific local fruit names; this does not classify Bela as a koli cultivar."
+    },
+    {
+      "from": "places/nandankanan",
+      "to": "places/satkosia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the zoo’s gharial work with the documented Satkosia wild-breeding setting; it does not establish survival of released individuals."
+    },
+    {
+      "from": "places/nandankanan",
+      "to": "statistics/biodiversity",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects captive inventories with biodiversity measurement while keeping them distinct from wild-population surveys."
+    },
+    {
+      "from": "places/ekamra-kanan",
+      "to": "food/koli-fruits",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects RPRC’s plant-conservation setting to the already sourced local-fruit names; it is not proof of current harvest or serving availability."
+    },
+    {
+      "from": "places/ekamra-kanan",
+      "to": "places/nandankanan",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects two distinct institutions for nature learning around Bhubaneswar; their gardens, inventories and visitor figures remain separate."
+    },
+    {
+      "from": "people/hariprasad-chaurasia",
+      "to": "culture/odissi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects distinct music and dance traditions through Odisha’s performing-arts context; it does not classify Hindustani flute as Odissi music."
+    },
+    {
+      "from": "people/achyuta-samanta",
+      "to": "culture/universities-and-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a founder’s attributed history to institutional categories and dated comparisons; association alone does not measure educational impact."
+    },
+    {
+      "from": "culture/mahima-dharma",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Offers comparative reading about distinct religious and learning traditions; no common origin or doctrinal equivalence is asserted."
+    },
+    {
+      "from": "culture/tantric-traditions",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Points to questions about Buddhist Vajrayana while keeping Buddhist and Yogini/Shakta histories distinct."
+    },
+    {
+      "from": "economy/mining",
+      "to": "statistics/minerals-and-mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the broad mining questions to dated national contribution and fund-use measures, without claiming causal local benefits."
+    },
+    {
+      "from": "economy/mining",
+      "to": "journeys/rare-earths",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuses the rare-earth processing record while keeping capacity, actual output and proposals separate."
+    },
+    {
+      "from": "economy/mining",
+      "to": "statistics/industrial-production",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Links ore extraction to plant-level output research; mineral and processed-metal quantities must not be summed."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "food/forest-foods",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects commodity research to household uses and ingredient identities; forest origin requires its own evidence."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "history/forest-livelihoods",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Adds dated institutional and community-study context without dating the origin of traditions."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "statistics/forests",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Provides land-cover context; forest area does not estimate product yields or household income."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects research on land and livelihoods; no causal effect of a named mine is asserted."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "economy/kendu-patra",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the leaf commodity to the saved market series; leaf sales do not describe edible fruit."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "food/mohu-honey",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects honey processing and collector questions while preserving forest-collected versus managed-hive origin."
+    },
+    {
+      "from": "economy/forest-products",
+      "to": "food/mahua-mohula",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects separate flower and seed uses with botanical identity and attributed cultural research."
+    },
+    {
+      "from": "economy/siali-products",
+      "to": "food/mahua-mohula",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Disambiguates siali names from the separate Madhuca tree and its flower/seed products."
+    },
+    {
+      "from": "economy/siali-products",
+      "to": "food/mohu-honey",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects forest livelihood research without merging honey with similarly transliterated plant names."
+    },
+    {
+      "from": "collections/odisha-and-world",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Links materials research to questions about trade and policy; no strategic outcome is inferred from mineral occurrence."
+    },
+    {
+      "from": "collections/religion-and-spirituality",
+      "to": "culture/mahima-dharma",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a named tradition to the wider faith collection while preserving its own history and literature."
+    },
+    {
+      "from": "food/mahua-mohula",
+      "to": "food/poda-and-fire-cooking",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects one attributed leaf-and-fire preparation to the broader technique collection; does not establish a shared origin or universal method."
+    },
+    {
+      "from": "food/rice-varieties",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects variety identity and seed keeping to economic measures without assuming a price premium or causal income gain."
+    },
+    {
+      "from": "stories/rice-productivity",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects statewide crop trends with economic definitions; higher yield alone does not establish higher farmer profit."
+    },
+    {
+      "from": "economy/sal-products",
+      "to": "economy/siali-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Distinguishes leaf-plate materials and connects shared processing questions; does not imply identical seasons, makers or economic outcomes."
+    },
+    {
+      "from": "food/tentuli-tamarind",
+      "to": "economy/forest-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a named ingredient to plant-part, season and collector-market questions; does not establish current income or exports."
+    },
+    {
+      "from": "food/chara-chironji",
+      "to": "economy/forest-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a named ingredient to plant-part, season and collector-market questions; does not establish current income or exports."
+    },
+    {
+      "from": "stories/forest-worker-support",
+      "to": "statistics/forest-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains how payment categories differ; does not infer typical earnings or improved wellbeing from a grant total."
+    },
+    {
+      "from": "food/talagaja",
+      "to": "food/tala-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains distinct maturity stages of palm foods; no equivalence to tala khaja is asserted."
+    },
+    {
+      "from": "culture/dance-and-music-connections",
+      "to": "culture/odissi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects practitioner testimony to the existing account of Odissi development."
+    },
+    {
+      "from": "culture/dance-and-music-connections",
+      "to": "culture/mayurbhanj-chhau",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a regional tradition to a credited international programme."
+    },
+    {
+      "from": "culture/dance-and-music-connections",
+      "to": "culture/dalkhai",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a community dance to occasions and a named research route."
+    },
+    {
+      "from": "culture/dance-and-music-connections",
+      "to": "culture/ghumura",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects Kalahandi festival practice to its documented practitioner register."
+    },
+    {
+      "from": "culture/dance-and-music-connections",
+      "to": "culture/ranapa",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects Ganjam performance culture to a dated national-festival record."
+    },
+    {
+      "from": "culture/dance-and-music-connections",
+      "to": "people/hariprasad-chaurasia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects Odisha career and teaching evidence to an English reading route."
+    },
+    {
+      "from": "works/e-banara-chai-gapa-label",
+      "to": "people/hariprasad-chaurasia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the label’s joint music-direction credit to the documented duo identity."
+    },
+    {
+      "from": "works/jaya-jadu-nandan-gapa-label",
+      "to": "people/hariprasad-chaurasia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the label’s joint music-direction credit to the documented duo identity."
+    },
+    {
+      "from": "works/saathi-re-jaa-kahi-gapa-label",
+      "to": "people/hariprasad-chaurasia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the label’s joint music-direction credit to the documented duo identity."
+    },
+    {
+      "from": "statistics/coal-production",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects dated coal output to separate processing, fiscal, livelihood and environment questions."
+    },
+    {
+      "from": "statistics/ore-production",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects ore quantities and district evidence to separate processing, revenue and livelihood research."
+    },
+    {
+      "from": "economy/bauxite-to-aluminium",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects named mineral-processing relationships to separate public revenue, work and community questions."
+    },
+    {
+      "from": "economy/bauxite-mine-identities",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects mine identities and reported output to separate work, permissions and community questions."
+    },
+    {
+      "from": "stories/van-dhan-enterprises",
+      "to": "statistics/forest-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains the programme denominator and separates turnover from collector receipts."
+    },
+    {
+      "from": "stories/van-dhan-enterprises",
+      "to": "economy/forest-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects named historical enterprises to product research without claiming current operation."
+    },
+    {
+      "from": "stories/rice-kept-for-taste",
+      "to": "food/rice-varieties",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects source-attributed names, food uses and historical cultivation without assuming identical seed accessions."
+    },
+    {
+      "from": "stories/rice-kept-for-taste",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates seed production, grain sales and farmer returns."
+    },
+    {
+      "from": "stories/rice-income-after-costs",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the regional cost case with procurement, seed enterprises and unresolved payment scope."
+    },
+    {
+      "from": "stories/rice-income-after-costs",
+      "to": "statistics/agriculture",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Keeps historical case values separate from statewide production trends."
+    },
+    {
+      "from": "stories/rice-procurement-payments",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains the payment reconciliation and the difference between marketing and financial years."
+    },
+    {
+      "from": "stories/rice-procurement-payments",
+      "to": "stories/rice-income-after-costs",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains why procurement payments do not measure farm profit."
+    },
+    {
+      "from": "places/langudi",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Places the proposed identification beside the traveller passage and independently named monasteries."
+    },
+    {
+      "from": "history/buddhist-learning",
+      "to": "places/langudi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates the proposed Pushpagiri identification from the named Udayagiri monasteries."
+    },
+    {
+      "from": "places/udayagiri-buddhist",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the excavated names with the traveller account while retaining separate site identities."
+    },
+    {
+      "from": "stories/buddhist-odisha",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Provides the chronology and separates excavation from literary testimony."
+    },
+    {
+      "from": "stories/odisha-university-evidence",
+      "to": "culture/universities-and-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains legal categories, institutional scope and comparison limits."
+    },
+    {
+      "from": "culture/universities-and-learning",
+      "to": "people/achyuta-samanta",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates institutional legal milestones from a founder’s biography."
+    },
+    {
+      "from": "statistics/education",
+      "to": "culture/universities-and-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Adds institutional higher-education outcomes while school-system observations remain separate."
+    },
+    {
+      "from": "stories/institution-building-evidence",
+      "to": "people/achyuta-samanta",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Links a scoped institutional financial statement to founder history without equating spending with social impact."
+    },
+    {
+      "from": "history/jagannath-origins",
+      "to": "places/jagannath-temple-puri",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects dated temple inscriptions to the existing place account while preserving visitor-access uncertainty."
+    },
+    {
+      "from": "places/hirapur-yogini",
+      "to": "culture/tantric-traditions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the Hirapur inventory to the comparative Yogini account without treating stylistic dating as a foundation inscription."
+    },
+    {
+      "from": "places/ranipur-jharial-yogini",
+      "to": "culture/tantric-traditions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the Ranipur-Jharial inventory to the comparative Yogini account while retaining its unresolved image count."
+    },
+    {
+      "from": "works/stuti-chintamani",
+      "to": "culture/mahima-dharma",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a named work and its credited English editions to Mahima Dharma without treating a publisher listing as a full textual review."
+    },
+    {
+      "from": "stories/sweets-from-milk-to-market",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the story to scoped economic research, preserving sample limits and unresolved market totals."
+    },
+    {
+      "from": "food/korakhai",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Historical town commerce and dated maker reporting connect cultural food knowledge with economic research."
+    },
+    {
+      "from": "food/chhena-jhili",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Maker attribution adds credit while dated enterprise accounts remain an open economic question."
+    },
+    {
+      "from": "food/dhenkanal-magji",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A named family account connects sweet-making knowledge with livelihood research; its economic value remains unmeasured."
+    },
+    {
+      "from": "food/kendrapara-rasabali",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Dated market participation connects a place-based sweet with enterprise research without assigning whole-fair turnover to the product."
+    },
+    {
+      "from": "handlooms/sambalpuri-bandha",
+      "to": "handlooms/garments-and-markets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions."
+    },
+    {
+      "from": "handlooms/bomkai",
+      "to": "handlooms/garments-and-markets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions."
+    },
+    {
+      "from": "handlooms/khandua",
+      "to": "handlooms/garments-and-markets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions."
+    },
+    {
+      "from": "handlooms/kotpad",
+      "to": "handlooms/garments-and-markets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions."
+    },
+    {
+      "from": "handlooms/habaspuri",
+      "to": "handlooms/garments-and-markets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions."
+    },
+    {
+      "from": "handlooms/berhampuri-patta",
+      "to": "handlooms/garments-and-markets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions."
+    },
+    {
+      "from": "handlooms/garments-and-markets",
+      "to": "people/people-and-creations",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Named award records connect weaving traditions with credited people, without turning recognition into present workshop availability."
     }
   ],
   "relationship_types": {
     "related_reading": "Editorial context only; not a source-backed causal, historical, supply-chain or proximity relationship."
-  }
+  },
+  "reading_lenses": [
+    {
+      "id": "places",
+      "title": "Places",
+      "description": "Landscapes, cities, villages, districts and their everyday lives.",
+      "subject_ids": [
+        "places"
+      ],
+      "entry_paths": [
+        "places/index.md",
+        "subjects/places.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "people",
+      "title": "People",
+      "description": "Creators, scientists, workers, entrepreneurs, public figures and communities.",
+      "subject_ids": [
+        "people"
+      ],
+      "entry_paths": [
+        "people/people-and-creations.md",
+        "people/public-servants-and-lawmakers.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "description": "Ingredients, recipes, household knowledge, seasons and food businesses.",
+      "subject_ids": [
+        "food",
+        "everyday"
+      ],
+      "entry_paths": [
+        "food/index.md",
+        "food/forest-foods.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "livelihoods",
+      "title": "Economy and livelihoods",
+      "description": "How Odisha creates value: production, processing, services, work, trade and enterprise.",
+      "subject_ids": [
+        "economy",
+        "everyday"
+      ],
+      "entry_paths": [
+        "economy/index.md",
+        "people/entrepreneurs-and-business-leaders.md",
+        "statistics/index.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "culture",
+      "title": "Culture",
+      "description": "Living arts, language, performance, craft, festivals and changing practices.",
+      "subject_ids": [
+        "arts",
+        "people"
+      ],
+      "entry_paths": [
+        "culture/index.md",
+        "handlooms/index.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "heritage",
+      "title": "History and heritage",
+      "description": "Rulers, monuments, manuscripts, institutions, archaeology and historical change.",
+      "subject_ids": [
+        "history",
+        "places"
+      ],
+      "entry_paths": [
+        "history/index.md",
+        "people/rulers-and-royal-legacies.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "literature",
+      "title": "Literature",
+      "description": "Poets, writers, works, translations, editions and ways to read them.",
+      "subject_ids": [
+        "arts",
+        "people",
+        "history"
+      ],
+      "entry_paths": [
+        "works/index.md",
+        "people/people-and-creations.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "science",
+      "title": "Science and knowledge",
+      "description": "Scientific work, credited discoveries, manuscripts, universities and research institutions.",
+      "subject_ids": [
+        "people",
+        "everyday",
+        "economy"
+      ],
+      "entry_paths": [
+        "people/science-and-contributions.md",
+        "methods/culture-learning-programme.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "geopolitics",
+      "title": "Geopolitics and Odisha in the world",
+      "description": "Historical power, maritime connections, national policy, strategic infrastructure and global economic relationships.",
+      "subject_ids": [
+        "governance",
+        "history",
+        "economy"
+      ],
+      "entry_paths": [
+        "collections/odisha-and-world.md",
+        "history/maritime-evidence.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    },
+    {
+      "id": "faith",
+      "title": "Religion and spirituality",
+      "description": "Living faiths, philosophy, devotion, sacred literature, institutions, practices and their histories.",
+      "subject_ids": [
+        "history",
+        "people",
+        "arts"
+      ],
+      "entry_paths": [
+        "collections/religion-and-spirituality.md",
+        "culture/mahima-dharma.md"
+      ],
+      "basis": "user_scope_clarification_2026-10-01",
+      "meaning": "Cross-cutting navigation; does not change factual evidence or publication status"
+    }
+  ]
 }

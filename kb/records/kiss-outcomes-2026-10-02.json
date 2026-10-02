@@ -1,0 +1,74 @@
+{
+  "run_id": "2026-10-02-kiss-outcomes",
+  "at": "2026-10-02T04:53:55.437429+00:00",
+  "scope": "KISS university student denominators, reported outcomes, assessment methods and qualitative research scope.",
+  "tasks": [
+    "RES-047"
+  ],
+  "task_status": "in_progress_checkpoint",
+  "new_source_ids": [
+    "education-kiss-nirf2025",
+    "education-kiss-aqar2024",
+    "education-kiss-asci2022",
+    "education-kiss-annual2022",
+    "education-finnan-childhood2017"
+  ],
+  "reused_source_ids": [
+    "education-kiss-notification2017",
+    "education-kiss-accounts2025",
+    "education-kiit-nirf2025"
+  ],
+  "human_review_claimed": false,
+  "local_odia_review": "pending",
+  "website_publication": false,
+  "validation": {
+    "research_validators": 12,
+    "result": "PASS",
+    "catalogue": "PASS",
+    "bundle": "PASS",
+    "authority_registers": "PASS",
+    "scope": "Clean committed snapshot plus explicit research changes; unrelated local duplicate copies excluded."
+  },
+  "files_changed": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/records/editorial-workbench.json",
+    "kb/records/kiss-outcomes-2026-10-02.json",
+    "kb/research/about/research-gaps.md",
+    "kb/research/about/website-readiness.md",
+    "kb/research/culture/universities-and-learning.md",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "kb/research/methods/research-map.md",
+    "kb/research/people/achyuta-samanta.md",
+    "kb/research/references/data/bundle-summary.json",
+    "kb/research/references/data/culture-learning.json",
+    "kb/research/references/data/growth-journeys-validation-report.json",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/references/data/maritime-validation-report.json",
+    "kb/research/references/data/people-creations.json",
+    "kb/research/references/data/research-map-validation-report.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/research-queue.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/validation-report.json",
+    "kb/research/references/data/visitor-index-validation-report.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/education-finnan-childhood2017.md",
+    "kb/research/sources/education-kiss-annual2022.md",
+    "kb/research/sources/education-kiss-aqar2024.md",
+    "kb/research/sources/education-kiss-asci2022.md",
+    "kb/research/sources/education-kiss-nirf2025.md",
+    "kb/research/stories/institution-building-evidence.md",
+    "projects/site/tests/editorial.test.mjs",
+    "projects/site/tools/select-content.mjs"
+  ],
+  "review_followup": {
+    "initial_ci": "https://github.com/ahimanikya/utkal-project/actions/runs/36966705666",
+    "finding": "Research checks passed; website test failed because an uncited Pakhala research source lacked public inspection metadata.",
+    "fix": "Export only sources cited in the explicitly selected Sourced knowledge paragraphs; retain all sources in the canonical KB.",
+    "local_check": "Five selected notes have exactly cited sources and inspection metadata.",
+    "remote_recheck": "pending"
+  }
+}

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T14:33:37.057142+00:00",
+  "recorded_at": "2026-10-02T14:53:29.177795+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4162,6 +4162,30 @@
         "records/culture-flow-review.json",
         "records/culture-flow-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-143",
+      "title": "Consolidate research and complete the site-wide browser review programme",
+      "category": "website_quality_and_research_integration",
+      "status": "in_progress",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-159",
+      "next_action": "Complete validation, merge and publish under existing batch approval; preserve remaining human and Google processing follow-ups.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-159",
+        "UTP-WORK-075",
+        "UTP-WORK-142",
+        "UTP-REV-121"
+      ],
+      "evidence": [
+        "records/autonomous-site-quality.json"
+      ]
     }
   ],
   "decisions": [
@@ -7335,6 +7359,25 @@
       "evidence": [
         "records/culture-flow-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-159",
+      "title": "Autonomous implementation and publication of the next 500 bounded work and review items",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "ok what next - go do the next 500 things on your own without asking me permission - I am approving everything you need till then",
+      "scope": "Implement, test, merge and publish the next bounded batch without repeated routine permission requests. Existing held commercial scope and source qualifications remain intact; no human authority or specialist approval is delegated to AI.",
+      "recorded_at": "2026-10-02T14:53:29.177795+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-143"
+      ],
+      "evidence": [
+        "records/autonomous-site-quality.json"
+      ]
     }
   ],
   "requirements": [
@@ -10206,6 +10249,32 @@
       ],
       "evidence": [
         "records/culture-flow-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-121",
+      "title": "Site-wide browser and integrated research self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "This is 488 browser review cases plus 12 integration/delivery work items, not 500 new features or 500 independently verified articles.",
+        "The browser cases check layout overflow and DOM semantics; they are not a complete visual, keyboard, screen-reader or physical-device accessibility certification.",
+        "Research was consolidated with original qualifications. Unread sources, contradictory accounts, language review and current local arrangements remain open.",
+        "Search Console processing is not established by successful live HTTP checks. Store and held commercial pages remain excluded."
+      ],
+      "refs": [
+        "UTP-DEC-159",
+        "UTP-WORK-143"
+      ],
+      "evidence": [
+        "records/autonomous-site-quality.json",
+        "records/evidence/autonomous-site-quality/site-validation.json",
+        "records/evidence/autonomous-site-quality/knowledge-validation.json",
+        "records/evidence/autonomous-site-quality/research-validation.json"
       ]
     }
   ],

@@ -5,7 +5,7 @@ description: "Mahaprasad at Puri — research and reuse notes."
 tags: ["food", "puri"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"}]
+sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"}, {"id": "faith-puri-inscriptions-ei30", "title": "Puri inscriptions of Anangabhima III: Sircar’s epigraphic edition", "resource": "https://ignca.gov.in/Asi_data/35546.pdf"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Puri"
 aliases: ["Mahaprasad at Puri", "mahaprasad"]
@@ -35,3 +35,7 @@ Obtain an authoritative account of ritual context, access and appropriate photog
 [Related knowledge](../places/puri.md) · [Research standards](../about/research-method.md)
 
 [^food-tourism]: [The Taste of Odisha](https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html)
+
+## Jagannath evidence checkpoint · 2 October 2026 UTC
+
+A 1225 record edited by D. C. Sircar documents land supporting offerings of milk, ghee, rice and curds to Purusottama. This links food and patronage in the historical record; it does not prove an unchanged modern menu, current meal count or revenue. [Edition, printed p.198; PDF p.275](https://ignca.gov.in/Asi_data/35546.pdf). [Full historical context](../history/jagannath-origins.md).

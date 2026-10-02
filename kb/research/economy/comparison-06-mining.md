@@ -23,3 +23,7 @@ stale_after: "2027-03-01T00:00:00Z"
 [Stored comparison](../references/data/industry-growth-data.json) · [Calculation method](../methods/growth-calculations.md)
 
 [^comparison-6-1]: [Mining comparison source 1](https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport)
+
+## Ore reconciliation checkpoint · 1 October2026
+
+Fresh state-table capture:9.192→17.934 million tonnes,2014–15 to2024–25, agrees with the rounded imported endpoints. [Full source and scope comparison](../statistics/ore-production.md).
