@@ -387,3 +387,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2 October 2026 · Handloom cooperative and creation evidence
 
 [Research receipt](records/handloom-cooperatives-2026-10-02.json): Original weaver directory links five cooperatives and three creations; departmental list dated 1 September 2026 names registration organizations. Berhampuri technique recovered; Panika award year and Habaspuri chronology conflicts held. Current operation and comparable sales remain open. No website release.
+
+## 2 October 2026 · Autonomous integration and wider browser review
+
+[Batch record](records/autonomous-site-quality.json): Founder authorized implementation through publication without repeated routine approvals. Forty-six accumulated research commits are integrated with existing source-recovery evidence preserved. The 500-item programme separates 488 route/viewport and structure checks from twelve integration/delivery items. No new research claim or specialist approval is inferred from passing software checks. Publication validation is in progress.

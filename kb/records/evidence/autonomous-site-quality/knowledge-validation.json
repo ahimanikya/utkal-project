@@ -1,0 +1,38 @@
+[
+  {
+    "command": "python3 tools/registers.py --check",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 tools/catalog.py --check",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 tools/check_bundle.py",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 tools/test_registers.py",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 tools/test_config.py",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 tools/editorial/build_workbench.py --check",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 tools/editorial/test_workbench.py",
+    "exit_code": 0
+  },
+  {
+    "command": "/Users/ahimanikya/.nvm/versions/node/v24.15.0/bin/node --test projects/editorial-workbench/workbench.test.mjs",
+    "exit_code": 0
+  },
+  {
+    "command": "python3 tools/languages/build_atlas.py --check",
+    "exit_code": 0
+  }
+]
