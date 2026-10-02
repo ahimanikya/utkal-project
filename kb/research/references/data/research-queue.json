@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T07:42:49.321114+00:00",
+  "updated_at": "2026-10-02T08:45:40.027103+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -957,12 +957,21 @@
       "title": "Rasagola and sweets economics",
       "done_when": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
       "target": "economy/rasagola-and-sweets.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-02T08:45:40.027103+00:00",
+      "next_step": "Continue six-sweet maker/history and market depth, prioritising Nimapada Chhena Jhili and Old Town Korakhai with primary institutional or credited maker evidence; follow original Magji histories and Rasabali account periods. Reuse the Pahala study and its quarantined arithmetic; retry full Kamadhenu SDG case study and Industries news after 2026-10-09. Seek actual dated shipments; no statewide estimate.",
+      "evidence_outputs": [
+        "economy/rasagola-and-sweets.md",
+        "references/data/sweets-economy.json",
+        "references/data/creative-economy.json",
+        "sources/sweets-pahala-study2023.md",
+        "sources/sweets-kamadhenu-sdg2026.md",
+        "sources/sweets-industry-size-lead.md",
+        "sources/sweets-apeda-query-routes.md",
+        "stories/sweets-from-milk-to-market.md"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
@@ -972,12 +981,30 @@
           "food/odisha-rasagola.md",
           "references/data/food-preparations.json",
           "food/kendrapara-rasabali.md",
-          "sources/food-rasabali-corrigendum2023.md"
+          "sources/food-rasabali-corrigendum2023.md",
+          "references/data/sweets-economy.json",
+          "sources/sweets-pahala-study2023.md",
+          "sources/sweets-kamadhenu-sdg2026.md",
+          "sources/sweets-industry-size-lead.md",
+          "sources/sweets-apeda-query-routes.md",
+          "stories/sweets-from-milk-to-market.md"
         ],
-        "project_records": [],
+        "project_records": [
+          "kb/research/food/odisha-rasagola.md",
+          "kb/research/food/collection.json"
+        ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-02-sweets-economy",
+          "at": "2026-10-02T08:45:40.027103+00:00",
+          "outcome": "pahala_economic_study_and_six_sweet_evidence_map_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Six-sweet maker/history depth, dated enterprise accounts and shipment evidence or documented scoped unavailability."
+        }
+      ]
     },
     {
       "id": "RES-012",

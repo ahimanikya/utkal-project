@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02T08:45:40.027103+00:00",
+  "run_id": "2026-10-02-sweets-economy",
+  "scope": "Six selected sweet identities and bounded economic evidence; not a statewide market census.",
+  "observations": [
+    {
+      "id": "pahala-retailer-sample",
+      "metric": "retailer_interviews",
+      "value": 10,
+      "unit": "retailers",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2306, Materials and Methods",
+      "scope": "Sample size, not total enterprises or representative statewide survey.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-consumer-sample",
+      "metric": "consumer_interviews",
+      "value": 200,
+      "unit": "consumers",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2306, Materials and Methods",
+      "scope": "Roadside commuters/customers; sampling dates and selection detail absent.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-batch-ingredients",
+      "metric": "listed_ingredient_cost",
+      "value": 2000,
+      "unit": "INR per described 20 kg batch",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "nominal INR as reported; not inflation-adjusted",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2307, Table 1",
+      "scope": "Ingredients only; not full cost or profit. Labour, fuel, packaging, transport, depreciation and wastage not costed in this table.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-chhena-input",
+      "metric": "chhena_input_for_described_batch",
+      "value": 10,
+      "unit": "kg",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2307, Table 1",
+      "scope": "Described batch output 20 kg; not audited actual daily production or a universal recipe.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-consumer-shelf-life-rank",
+      "metric": "short_shelf_life_concern_rank",
+      "value": 1,
+      "unit": "rank",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2308, Table 2",
+      "scope": "Garret score 76 is a ranking score, not 76% of consumers. No measured shelf-life duration established.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    }
+  ],
+  "study_cost_breakdown": {
+    "source_id": "sweets-pahala-study2023",
+    "locator": "p.2307 Table 1",
+    "rows": [
+      {
+        "ingredient": "chhena",
+        "quantity_kg": 10,
+        "price_inr_per_kg": 140,
+        "cost_inr": 1400
+      },
+      {
+        "ingredient": "rava",
+        "quantity_kg": 2,
+        "price_inr_per_kg": 50,
+        "cost_inr": 100
+      },
+      {
+        "ingredient": "cardamom powder",
+        "quantity_kg": 0.25,
+        "price_inr_per_kg": 1200,
+        "cost_inr": 300
+      },
+      {
+        "ingredient": "sugar",
+        "quantity_kg": 5,
+        "price_inr_per_kg": 40,
+        "cost_inr": 200
+      }
+    ],
+    "reported_output_kg": 20,
+    "listed_total_inr": 2000,
+    "full_cost": false,
+    "recipe_tested": false
+  },
+  "relationships": [
+    {
+      "from": "Niali chhena producers",
+      "to": "Pahala sweet makers/retailers",
+      "type": "study_reported_supply",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "pp.2306–2307, Figure 2",
+      "period": null
+    },
+    {
+      "from": "Pahala sweet makers/retailers",
+      "to": [
+        "Sambalpur",
+        "Rourkela",
+        "Rayagada",
+        "West Bengal"
+      ],
+      "type": "study_reported_market_reach",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "pp.2306–2307",
+      "shipment_quantity": null,
+      "customs_exports": false,
+      "scope": "Places listed by authors, not a dated consignment ledger or international exports."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "pahala-revenue-arithmetic",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "p.2307 right column",
+      "reported_quantity_kg": 10,
+      "reported_price_range_inr_per_kg": [
+        150,
+        200
+      ],
+      "reported_revenue_range_inr": [
+        3000,
+        4000
+      ],
+      "arithmetic_for_stated_quantity_inr": [
+        1500,
+        2000
+      ],
+      "held_cluster_revenue_range_inr_per_day": [
+        165000,
+        220000
+      ],
+      "treatment": "Quarantine author revenue extrapolation. Do not silently change 10 kg to 20 kg; no annualisation or statewide expansion."
+    },
+    {
+      "id": "pahala-retailer-percentages",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "p.2306 sample; p.2307 Figure 3",
+      "reported_sample": 10,
+      "reported_percentages": [
+        45,
+        25,
+        30
+      ],
+      "treatment": "45% and25% do not map to whole-person counts in a simple unweighted sample of10. Weighting/alternate denominator not described; retain qualitative constraints only."
+    },
+    {
+      "id": "pahala-gi-date",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "p.2306 Materials and Methods",
+      "reported_date": "2019-02-19",
+      "registry_certificate_date": "2019-07-29",
+      "registry_source_id": "gi-rasagola",
+      "treatment": "Retain existing registry certificate date; the paper is not the GI chronology authority."
+    },
+    {
+      "id": "industry-5500-crore",
+      "source_id": "sweets-industry-size-lead",
+      "reported_value": 5500,
+      "comparison": "over",
+      "unit": "INR crore",
+      "period": null,
+      "metric_definition": null,
+      "sampling_method": null,
+      "treatment": "Government-hosted news claim held; not a verified annual turnover, output or value-added total."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "kamadhenu-case-study",
+      "source_id": "sweets-kamadhenu-sdg2026",
+      "concept_id": "food/chhena-poda",
+      "place": "Tendabadi village, Daspalla block, Nayagarh",
+      "enterprise": "Kamadhenu Utpadaka Gosthi",
+      "evidence_status": "indexed_primary_passage_full_document_unavailable",
+      "publication_date": "2026-01",
+      "observation_period": null,
+      "candidate_values": {
+        "formation": "2020-12",
+        "members_women": 24,
+        "initial_daily_output_kg": 10,
+        "later_daily_output_kg": 50,
+        "initial_investment_inr": 200000,
+        "listed_selling_price_inr_per_kg": 180,
+        "reported_monthly_revenue_inr": 270000,
+        "reported_monthly_net_profit_inr": 160000
+      },
+      "scope": "All candidate values quarantined together; no audit, precise baseline/end period, cost coverage or per-member income established. Do not headline fivefold growth before full-page review.",
+      "retry_after": "2026-10-09",
+      "next_action": "Recover full p.26 and cover, then establish reporting dates and profit definition."
+    }
+  ],
+  "coverage": [
+    {
+      "concept_id": "food/odisha-rasagola",
+      "place_context": "Pahala; Niali chhena supply; Salepur display reference",
+      "checkpoint": "Original Pahala study extends market relationships; named businesses and current sales still absent.",
+      "source_ids": [
+        "sweets-pahala-study2023",
+        "gi-rasagola",
+        "sweets-pib-20250427"
+      ]
+    },
+    {
+      "concept_id": "food/chhena-poda",
+      "place_context": "Nayagarh association; Tendabadi enterprise lead",
+      "checkpoint": "Existing attributed preparation reused; indexed enterprise figures not promoted to verified observations.",
+      "source_ids": [
+        "sweets-kamadhenu-sdg2026",
+        "food-tourism"
+      ]
+    },
+    {
+      "concept_id": "food/chhena-jhili",
+      "place_context": "Nimapada",
+      "checkpoint": "Existing preparation/place record reused; named-maker origin evidence and dated enterprise accounts remain to research.",
+      "source_ids": [
+        "food-tourism"
+      ]
+    },
+    {
+      "concept_id": "food/kendrapara-rasabali",
+      "place_context": "Kendrapara; Baladevjew temple",
+      "checkpoint": "Applicant cultural account reused; near300 sellers/more600 makers remain undated claims, not employment census.",
+      "source_ids": [
+        "food-rasabali-corrigendum2023"
+      ]
+    },
+    {
+      "concept_id": "food/dhenkanal-magji",
+      "place_context": "Mandar–Sadangi, Gondia; Dhenkanal",
+      "checkpoint": "Applicant association and bibliography extended; original cited histories and producer accounts not examined.",
+      "source_ids": [
+        "food-magji-gi178"
+      ]
+    },
+    {
+      "concept_id": "food/korakhai",
+      "place_context": "Lingaraj temple area, Bhubaneswar Old Town",
+      "checkpoint": "Existing rice-based sweet record reused; maker history and sales evidence still absent.",
+      "source_ids": [
+        "food-tourism"
+      ]
+    }
+  ],
+  "export_check": {
+    "source_ids": [
+      "sweets-apeda-query-routes",
+      "sweets-pib-20250427"
+    ],
+    "interfaces_available": true,
+    "shipment_rows_recovered": false,
+    "quantities": null,
+    "values": null,
+    "destinations": null,
+    "not_zero_exports": true,
+    "next_action": "Find dated product-specific returns or shipment releases with Odisha manufacture and destination; broad commodity totals and registration lists insufficient."
+  },
+  "human_review_claimed": false
+}

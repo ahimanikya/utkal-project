@@ -283,3 +283,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Mahima Dharma and Bhima Bhoi reading routes
 
 [Research receipt](records/mahima-dharma-2026-10-02.json): The existing Bhima Bhoi literary identity is reused. Three new source records, an expanded Akademi inspection and a credited Stuti Chintamani work record enrich the Mahima collection. RES-050 bounded criteria complete; RES-031 sweets economics is next eligible. Biography conflicts, fieldwork dates and unread full editions remain explicit. No website release.
+
+## 2 October 2026 · Sweets economics and supply-chain evidence
+
+[Research receipt](records/sweets-economy-2026-10-02.json): Six sweet identities are reused. The original Pahala study adds scoped evidence and flagged arithmetic; the Kamadhenu enterprise remains an indexed lead. Four source/discovery records and a story draft are added. RES-031 remains in progress; named maker histories and dated market evidence are next. No statewide turnover or shipment total established. No website release.

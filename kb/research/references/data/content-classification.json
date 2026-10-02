@@ -4517,6 +4517,16 @@
       "content_type": "Literary Work",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/sweets-from-milk-to-market",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6584,6 +6594,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects a named work and its credited English editions to Mahima Dharma without treating a publisher listing as a full textual review."
+    },
+    {
+      "from": "stories/sweets-from-milk-to-market",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the story to scoped economic research, preserving sample limits and unresolved market totals."
     }
   ],
   "relationship_types": {

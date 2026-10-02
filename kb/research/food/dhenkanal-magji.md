@@ -5,7 +5,7 @@ description: "Dhenkanal Magji — research and reuse notes."
 tags: ["food", "dhenkanal"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "gi-magji", "title": "Dhenkanal Magji — GI application 724", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/724"}]
+sources: [{"id": "gi-magji", "title": "Dhenkanal Magji — GI application 724", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/724"}, {"id": "food-magji-gi178", "title": "Dhenkanal Magji — GI Journal 178 specification", "resource": "https://search.ipindia.gov.in/IPOJournal/Journal/GIR"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Dhenkanal"
 aliases: ["Dhenkanal Magji", "dhenkanal magji"]
@@ -45,3 +45,9 @@ The same journal gives sugar quantities of 400–500 g per kg cheese on pp.45/48
 **Still to verify:** Reconcile internal sugar proportions with an original clarification and a credited producer; distinguish documented process from origin legends, comparative nutrition and shelf-life claims. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## Makers and historical references
+
+The saved 2023 specification names **Dhenkanal Sweets Association** as applicant and OUAT as facilitator (p.45). It links production to Mandar–Sadangi in Gondia and cites Pramod Kumar Mishra’s *Adhunika Dhenkanal Itihas* p.230 and *Abibhakta Dhenkanal Itihas* p.291 (p.47). Those books have not been inspected here. The accompanying saint-origin story is an attributed tradition, not verified chronology. [Original specification](../sources/food-magji-gi178.md).
+
+This gives the [economic research](../economy/rasagola-and-sweets.md) a named institutional lead without treating association membership, GI status or historical descriptions as measured production or sales.

@@ -737,7 +737,13 @@
       ],
       "source_ids": [
         "sweets-pib-20250427",
-        "gi-rasagola"
+        "gi-rasagola",
+        "sweets-pahala-study2023",
+        "sweets-kamadhenu-sdg2026",
+        "sweets-industry-size-lead",
+        "sweets-apeda-query-routes",
+        "food-magji-gi178",
+        "food-rasabali-corrigendum2023"
       ]
     },
     {
@@ -1998,7 +2004,8 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "sweets-kamadhenu-sdg2026"
       ]
     },
     {
@@ -2040,7 +2047,8 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "gi-magji"
+        "gi-magji",
+        "food-magji-gi178"
       ]
     },
     {
@@ -2096,7 +2104,8 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "gi-rasabali"
+        "gi-rasabali",
+        "food-rasabali-corrigendum2023"
       ]
     },
     {
@@ -2180,7 +2189,8 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "gi-rasagola"
+        "gi-rasagola",
+        "sweets-pahala-study2023"
       ]
     },
     {
@@ -17627,6 +17637,96 @@
         "literature-kar-mahima2024"
       ],
       "added_at": "2026-10-02T07:42:49.321114+00:00"
+    },
+    {
+      "id": "sources/sweets-pahala-study2023",
+      "title": "Supply Chain of Pahala Rasagola in Odisha",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-pahala-study2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "added_at": "2026-10-02T08:45:40.027103+00:00"
+    },
+    {
+      "id": "sources/sweets-kamadhenu-sdg2026",
+      "title": "Kamadhenu Utpadaka Gosthi — government enterprise case-study lead",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-kamadhenu-sdg2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "sweets-kamadhenu-sdg2026"
+      ],
+      "added_at": "2026-10-02T08:45:40.027103+00:00"
+    },
+    {
+      "id": "sources/sweets-industry-size-lead",
+      "title": "Rasagola makers seek government support — market-size claim lead",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-industry-size-lead.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "sweets-industry-size-lead"
+      ],
+      "added_at": "2026-10-02T08:45:40.027103+00:00"
+    },
+    {
+      "id": "sources/sweets-apeda-query-routes",
+      "title": "APEDA export evidence routes for sweets",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-apeda-query-routes.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "sweets-apeda-query-routes"
+      ],
+      "added_at": "2026-10-02T08:45:40.027103+00:00"
+    },
+    {
+      "id": "stories/sweets-from-milk-to-market",
+      "title": "From milk to market: the work behind a sweet",
+      "kind": "Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/sweets-from-milk-to-market.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "added_at": "2026-10-02T08:45:40.027103+00:00"
     }
   ],
   "shared_publications": [
@@ -18096,9 +18196,18 @@
         "food/odisha-rasagola.md",
         "references/data/food-preparations.json",
         "food/kendrapara-rasabali.md",
-        "sources/food-rasabali-corrigendum2023.md"
+        "sources/food-rasabali-corrigendum2023.md",
+        "references/data/sweets-economy.json",
+        "sources/sweets-pahala-study2023.md",
+        "sources/sweets-kamadhenu-sdg2026.md",
+        "sources/sweets-industry-size-lead.md",
+        "sources/sweets-apeda-query-routes.md",
+        "stories/sweets-from-milk-to-market.md"
       ],
-      "project_records": [],
+      "project_records": [
+        "kb/research/food/odisha-rasagola.md",
+        "kb/research/food/collection.json"
+      ],
       "remaining_scope": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
       "status_unchanged": "pending",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
@@ -18955,8 +19064,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1194,
-    "updated_at": "2026-10-02T07:42:49.321114+00:00",
+    "records_mapped": 1199,
+    "updated_at": "2026-10-02T08:45:40.027103+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19477,6 +19586,11 @@
       "run_id": "2026-10-02-mahima-dharma",
       "at": "2026-10-02T07:42:49.321114+00:00",
       "scope": "Reused native Bhima Bhoi literary identity; added one work and three source records. NBT catalogue/product are one publisher family; monograph reinspection is not independent evidence."
+    },
+    {
+      "run_id": "2026-10-02-sweets-economy",
+      "at": "2026-10-02T08:45:40.027103+00:00",
+      "scope": "Six existing sweet identities reused; four source/discovery records and one story draft added. Pahala paper mirrors are one study; GI saved specifications reused; indexed leads not independent verified measurements. Repository-native Rasagola narrative and food collection inspected during reconciliation and preserved; queue pointers now include them."
     }
   ]
 }

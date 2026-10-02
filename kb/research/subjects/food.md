@@ -73,3 +73,5 @@ Subject membership is editorial classification. It does not establish historical
 [Tentuli](../food/tentuli-tamarind.md) and [chara/chironji](../food/chara-chironji.md) — Ingredients, seasons, community knowledge and distinct traded forms.
 
 [Rice kept for taste](../stories/rice-kept-for-taste.md) links documented food preferences to named cultivation and seed-enterprise accounts. Historical evidence is separate from current availability.
+
+[From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.

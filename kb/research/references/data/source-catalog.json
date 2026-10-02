@@ -5874,5 +5874,55 @@
     "locator": "Contributor credits, contents chapters5–6, product details",
     "capture_note": "Publisher catalogue inspected, not chapter full texts. Gagan Behari Das credited for selected Stuti Chintamani cantos; Satya Siladitya Kar for transcreation of selected bhajans. ISBN9781666955576,218pages,first hardback edition. Selection is not the complete Stuti Chintamani.",
     "capture_method": "publisher_web_text"
+  },
+  "sweets-apeda-query-routes": {
+    "id": "sweets-apeda-query-routes",
+    "title": "APEDA export evidence routes for sweets",
+    "resource": "https://apeda.gov.in/exporter-directory",
+    "publisher": "Agricultural and Processed Food Products Export Development Authority",
+    "published_on": null,
+    "accessed_on": "2026-10-02",
+    "locator": "Exporter directory form and AgriExchange product filter",
+    "capture_note": "Directory/filter interfaces inspected; no exporter return rows or sweet-specific shipment table retrieved. Broad commodity categories cannot establish Odisha-origin Rasagola exports.",
+    "capture_method": "web_interface_text",
+    "related_resources": [
+      "https://agriexchange.apeda.gov.in/IndiaExport/Home/SearchFilters",
+      "https://itrack.apeda.gov.in/onlineregistration/Directory_ExpList_Web.aspx"
+    ]
+  },
+  "sweets-industry-size-lead": {
+    "id": "sweets-industry-size-lead",
+    "title": "Rasagola makers seek government support — market-size claim lead",
+    "resource": "https://industries.odisha.gov.in/news/rasagola-makers-odisha-seek-government-support-wider-reach",
+    "publisher": "Industries Department, Government of Odisha; news-hosting page",
+    "published_on": null,
+    "accessed_on": "2026-10-02",
+    "locator": "Indexed article body: industry-size sentence and Mitha hub request",
+    "capture_note": "Indexed text only; web open failed and direct HTTPS timed out. Government hosting does not establish a statistical survey. INR5500 crore claim has no established reference period, measurement method or source attribution. Not adopted as market size.",
+    "capture_method": "indexed_news_lead_only"
+  },
+  "sweets-pahala-study2023": {
+    "id": "sweets-pahala-study2023",
+    "title": "Supply Chain of Pahala Rasagola in Odisha",
+    "resource": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+    "publisher": "Abinash Sahoo, Shakti Ranjan Panigrahy and Arpita Mohapatra; Economic Affairs 68(4), 2305–2308",
+    "published_on": "2023-12",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.2306–2308 / PDF pp.2–4; Table 1, Figure 3 and Table 2",
+    "capture_note": "Full four-page original paper read; table and figure pages visually checked. Fieldwork dates absent. Revenue arithmetic, retailer-percentage denominator and GI-date discrepancies are held; no cluster revenue estimate or food-safety guidance adopted.",
+    "capture_method": "original_pdf_text_and_visual",
+    "capture_sha256": "cf069f0098523309088a41baf2258ac9d76cca754e2b5132609754da73bca8e7",
+    "doi": "10.46852/0424-2513.4.2023.37"
+  },
+  "sweets-kamadhenu-sdg2026": {
+    "id": "sweets-kamadhenu-sdg2026",
+    "title": "Kamadhenu Utpadaka Gosthi — government enterprise case-study lead",
+    "resource": "https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf",
+    "publisher": "State SDG & ADP Cell, Planning & Convergence Department, Government of Odisha",
+    "published_on": "2026-01",
+    "accessed_on": "2026-10-02",
+    "locator": "Indexed cover and printed p.26, Aspirational, Sustainable Snippets of Success from the Heartland, Vol.2",
+    "capture_note": "Indexed primary-publisher passages only. Full PDF failed web retrieval and direct HTTPS timed out. Publication month is not the observation period. Candidate numbers are quarantined pending complete-page review and accounting-period clarification.",
+    "capture_method": "indexed_primary_passages_only"
   }
 }

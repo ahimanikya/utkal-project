@@ -5,7 +5,7 @@ description: "Kendrapara Rasabali — research and reuse notes."
 tags: ["food", "kendrapara"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "gi-rasabali", "title": "Kendrapara Rasabali — GI application 802", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802"}]
+sources: [{"id": "gi-rasabali", "title": "Kendrapara Rasabali — GI application 802", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802"}, {"id": "food-rasabali-corrigendum2023", "title": "Kendrapara Rasabali — corrigendum of 29 September 2023", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Kendrapara"
 aliases: ["Kendrapara Rasabali", "kendrapara rasabali"]
@@ -57,3 +57,7 @@ The September correction replaces lemon juice with chhena water in the opening m
 ## Sweets-economy research lead
 
 The 2023 applicant specification reports nearly 300 sweet shopkeepers selling Rasabali and more than 600 people making it in Kendrapara district (Journal 175 p.49; repeated in the September correction, PDF p.8). The reference period and method are absent. These are held historical applicant claims, not current employment totals; seller and maker counts must not be added. [Original documents](../sources/food-rasabali-corrigendum2023.md). Revenue and exports remain unknown; [RES-031](../economy/rasagola-and-sweets.md) owns follow-up.
+
+## Ritual and livelihood context
+
+The already retrieved September 2023 applicant correction associates Rasabali with offerings to Baladevjew in Kendrapara (PDF p.2). This is an applicant’s cultural account; the page does not independently date the sweet’s origin. Its district seller/maker claims on p.8 still lack a reference period and method. [Saved correction](../sources/food-rasabali-corrigendum2023.md). The [sweets-economy register](../references/data/sweets-economy.json) keeps these distinctions visible.

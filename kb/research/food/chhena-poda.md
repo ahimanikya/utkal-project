@@ -5,7 +5,7 @@ description: "Chhena poda — research and reuse notes."
 tags: ["food", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"}]
+sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"}, {"id": "sweets-kamadhenu-sdg2026", "title": "Kamadhenu Utpadaka Gosthi — government enterprise case-study lead", "resource": "https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Odisha"
 aliases: ["Chhena poda", "chhena poda"]
@@ -55,3 +55,7 @@ Reuse of institutional overview; modern oven versions need no direct flame.
 **To establish:** RFP p.54 instead says steamed; that conflicting wording is held, not adopted.
 
 [Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.
+
+## Women’s enterprise research lead
+
+An indexed government case study names Kamadhenu Utpadaka Gosthi at Tendabadi, Daspalla, as a chhenapoda enterprise. The full document was unavailable, so its figures are held for verification in the [sweets-economy register](../references/data/sweets-economy.json). This adds a named research lead to the Nayagarh association; it does not establish the dish’s inventor, current business operation or a tested recipe. [SDG volume 2, January 2026, indexed p.26](https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf).

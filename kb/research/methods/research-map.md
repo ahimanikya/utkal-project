@@ -327,3 +327,13 @@ Four source identities and two distinct place records added after source and rep
 ## Mahima Dharma and English reading · 2 October2026 UTC
 
 One work and three source identities extend existing Mahima and repository-native Bhima Bhoi knowledge. No second person biography. Original monograph reinspection expands scope; catalogue/product and shared scholarly references do not constitute independent corroboration.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+Four source/discovery identities and one story draft extend six existing sweet entries; no duplicate food or maker biographies. Saved GI specifications are reused with their original provenance. Same-paper web/PDF copies are not independent corroboration.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+Four source/discovery identities and one story draft extend six existing sweet entries; no duplicate food or maker biographies. Saved GI specifications are reused with their original provenance. Same-paper web/PDF copies are not independent corroboration.
+
+The repository-native `kb/research/food/odisha-rasagola.md` has a richer ritual/literary narrative and saved OSIC/travelogue sources. This batch preserves it and adds the economic section; RES-031 pointers now include that page and `food/collection.json`. This extension corrects an incomplete reuse entrance in the dated map.

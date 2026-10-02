@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T07:42:49.321114+00:00",
+  "updated_at": "2026-10-02T08:45:40.027103+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5606,6 +5606,82 @@
       "run_id": "2026-10-02-mahima-dharma",
       "status": "available",
       "scope": "Original volume bibliographic year2003 confirmed."
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://industries.odisha.gov.in/news/rasagola-makers-odisha-seek-government-support-wider-reach",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Original file downloaded."
+    },
+    {
+      "discovery_url": "https://industries.odisha.gov.in/news/rasagola-makers-odisha-seek-government-support-wider-reach",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error timed out>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "<urlopen error timed out>",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Web text and local original PDF; four pages read, pp.2307–2308 visually inspected."
+    },
+    {
+      "discovery_url": "https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "Full web document failed; indexed cover and p.26 lead only. No page visual review.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://industries.odisha.gov.in/news/rasagola-makers-odisha-seek-government-support-wider-reach",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "unavailable",
+      "scope": "Web open failed; indexed news lead only.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://apeda.gov.in/exporter-directory",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Interface only; no exporter rows recovered."
+    },
+    {
+      "discovery_url": "https://agriexchange.apeda.gov.in/IndiaExport/Home/SearchFilters",
+      "checked_at": "2026-10-02T08:45:40.027103+00:00",
+      "run_id": "2026-10-02-sweets-economy",
+      "status": "available",
+      "scope": "Commodity taxonomy only; no sweet-specific export table."
     }
   ]
 }

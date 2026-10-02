@@ -358,3 +358,7 @@ RES-049 bounded comparative deliverable complete. Hirapur ninth/early-tenth-cent
 ## Mahima Dharma and English reading · 2 October2026 UTC
 
 RES-050 bounded context/reading deliverable complete. Exact biography, primary founder chronology, critical Odia editions and present practices remain open. NBT translation and anthology chapters are catalogue-verified but unread. Utkal journal returned403; direct NBT certificate validation failed and web screenshot was unavailable; web text supplied scoped bibliographic evidence. Retry relevant failed routes after9October.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+RES-031 remains in progress. Pahala paper has unresolved revenue arithmetic, retailer percentages and GI-date mismatch; market extrapolation held. Kamadhenu SDG and Industries news full captures unavailable; indexed figures held, retry9October. Primary maker/history evidence for Jhili and Korakhai, original Magji histories and dated Rasabali accounts remain open. No sweet-specific shipments or statewide market totals established.

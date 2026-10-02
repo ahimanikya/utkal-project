@@ -5,7 +5,7 @@ description: "Rasagola in Odisha: ritual, literature, makers and a named regiona
 tags: ["food", "odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "gi-rasagola", "title": "Odisha Rasagola — GI application 612", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612"}, {"id": "rasagola-osic", "title": "OSIC E-News, July 2019, pp. 3–4", "resource": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf"}, {"id": "rasagola-market-travelogue", "title": "A short trip to a Sweets Wonderland in Odisha", "resource": "https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha"}]
+sources: [{"id": "gi-rasagola", "title": "Odisha Rasagola — GI application 612", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612"}, {"id": "rasagola-osic", "title": "OSIC E-News, July 2019, pp. 3–4", "resource": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf"}, {"id": "rasagola-market-travelogue", "title": "A short trip to a Sweets Wonderland in Odisha", "resource": "https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha"}, {"id": "sweets-pahala-study2023", "title": "Supply Chain of Pahala Rasagola in Odisha", "resource": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}, {"by": "Current AI assistant", "at": "2026-10-01T15:37:40.825682+00:00"}]
 geography: "Odisha"
 aliases: ["Odisha Rasagola", "odisha rasagola"]
@@ -53,3 +53,7 @@ Inspect the cited temple record and a critical edition of Dandi Ramayana; record
 [^gi-rasagola]: [Odisha Rasagola — GI application 612](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612)
 [^rasagola-osic]: [OSIC E-News, July 2019, pp. 3–4](https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf)
 [^rasagola-market-travelogue]: [A short trip to a Sweets Wonderland in Odisha](https://apps.odishatourism.gov.in/blog-detail/a-short-trip-to-a-sweets-wonderland-in-odisha)
+
+## From milk to market
+
+A 2023 original study links Niali’s chhena supply to Pahala’s sweet shops and describes markets within Odisha and in West Bengal. Its ten retailer interviews are a sample, not an enterprise census. The [economic record](../economy/rasagola-and-sweets.md) retains the study’s limits and arithmetic conflicts. [Original study, pp.2306–2308](https://ndpublisher.in/admin/issues/EAv68n5z11.pdf). No current sales or export total established.

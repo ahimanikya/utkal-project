@@ -129,3 +129,7 @@ Yogini collection and two place drafts now have institutional archaeological sou
 ## Mahima Dharma and English reading · 2 October2026 UTC
 
 Existing Bhima Bhoi narrative preserved; Mahima collection and Stuti Chintamani work page add historical context and credited editions. No poem republication rights, current stock, follower count, ritual access or website release established.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+Pahala supply-chain story drafted with study scope. Full enterprise lead and current economics remain unresolved; no rights-cleared maker media, human review or website publication. Indexed figures and conflicted revenue are withheld from headlines.

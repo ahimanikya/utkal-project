@@ -191,3 +191,7 @@ RES-049 bounded two-site/context deliverable complete, with unresolved dates, pa
 ## Mahima Dharma and English reading · 2 October2026 UTC
 
 RES-050 bounded deliverable completed with biographical uncertainty retained. Next eligible pending task: RES-031 Rasagola and sweets economics. Preserve future retries for earlier blocked tasks.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+RES-031 checkpoint saved and remains the next eligible continuation. Deepen Nimapada Jhili and Old Town Korakhai, then original Magji histories and Rasabali accounts. Unavailable SDG/Industries captures deferred to9October; no need to wait on them before independent work within this task.

@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 10,
-    "newer_records_outside_frozen_selection": 172
+    "newer_records_outside_frozen_selection": 176
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -173,6 +173,10 @@
     "source:rice-sahoo-cost2023",
     "source:rice-samant2023",
     "source:rice-yadav-landraces2026",
+    "source:sweets-apeda-query-routes",
+    "source:sweets-industry-size-lead",
+    "source:sweets-kamadhenu-sdg2026",
+    "source:sweets-pahala-study2023",
     "subject:food/badi-chura",
     "subject:food/baigana-poda",
     "subject:food/baunsa-poda-mansa",
@@ -204,8 +208,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "293e32bd032a66f575a9fc4249b23c6fbffed84df0db41da88660c0f91f9723f",
-    "kb/research/search-index.json": "aebd0cba05957b8eee41d36383fd452129c927972518152d15f1afb44be287c1",
+    "kb/research/references/data/source-catalog.json": "288dc6b95fe789c6a8e008dca920efdd28d6006e4596f5a2af23dee4395bda67",
+    "kb/research/search-index.json": "ceb22f4bb9609901442a4c962cbd934d0a3285520f826771d7435202af9fdf75",
     "kb/research/food/collection.json": "77a7db5fc750b8eb8e6b14eb2a421df178c14a8f8faaef44246487a0d2105a70",
     "kb/research/voices/collection.json": "58acf153507f6e69e0476f3e4944d97733daa798028b121a62488b51424d2b7b",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -4307,6 +4311,11 @@
       },
       "connections": [
         {
+          "id": "economy/rasagola-and-sweets",
+          "title": "Rasagola economics and Odisha’s sweets",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/economy/rasagola-and-sweets.md"
+        },
+        {
           "id": "food/dhenkanal-magji",
           "title": "Dhenkanal Magji",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/food/dhenkanal-magji.md"
@@ -4388,6 +4397,11 @@
         "capture_history": []
       },
       "connections": [
+        {
+          "id": "economy/rasagola-and-sweets",
+          "title": "Rasagola economics and Odisha’s sweets",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/economy/rasagola-and-sweets.md"
+        },
         {
           "id": "food/kendrapara-rasabali",
           "title": "Kendrapara Rasabali",
@@ -15729,7 +15743,7 @@
         "record_status": "draft",
         "recorded_scope": "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals.",
         "readiness": "Research nucleus; feature needs local detail and media",
-        "source_connections": 2,
+        "source_connections": 3,
         "held_claims": []
       },
       "connections": [
@@ -15742,6 +15756,11 @@
           "id": "food-tourism",
           "title": "The Taste of Odisha",
           "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"
+        },
+        {
+          "id": "sweets-kamadhenu-sdg2026",
+          "title": "Kamadhenu Utpadaka Gosthi — government enterprise case-study lead",
+          "url": "https://sdg.odisha.gov.in/uploads/6052f16a-22b0-4ee3-9d98-0e6672b77ba3_1e128a94-3ef5-4bc8-80dc-fce54e1db29e.pdf"
         }
       ],
       "related_source_ids": [],
@@ -16309,7 +16328,7 @@
         "record_status": "draft",
         "recorded_scope": "Registry record, GI Journal 116 p. 10, OSIC account and dated hosted travelogue inspected; original temple records and a critical edition of the cited poem remain uninspected.",
         "readiness": "Odisha-rooted editorial candidate; maker interviews and original-document checks remain open.",
-        "source_connections": 3,
+        "source_connections": 4,
         "held_claims": []
       },
       "connections": [
@@ -16327,6 +16346,11 @@
           "id": "rasagola-osic",
           "title": "OSIC E-News, July 2019, pp. 3–4",
           "url": "https://admin.osicltd.in/Siteupdate/Event/AUG19.pdf"
+        },
+        {
+          "id": "sweets-pahala-study2023",
+          "title": "Supply Chain of Pahala Rasagola in Odisha",
+          "url": "https://ndpublisher.in/admin/issues/EAv68n5z11.pdf"
         }
       ],
       "related_source_ids": [],
