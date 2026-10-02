@@ -3994,6 +3994,32 @@
         "records/tasar-story-review.json",
         "records/tasar-story-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-137",
+      "title": "Textile review follow-up and specialist brief",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-147",
+      "next_action": "Review the limited endnote correction and specialist brief. Browser review remains blocked; actual language/maker responses remain pending.",
+      "blockers": [
+        "Browser navigation stopped at an admin-policy verification failure. No rendered layout, keyboard, zoom, screenshot or interactive saved-trip review completed.",
+        "No Odia reader or textile maker has been appointed, contacted or represented as having reviewed the stories."
+      ],
+      "refs": [
+        "UTP-DEC-147",
+        "UTP-REV-116"
+      ],
+      "evidence": [
+        "records/textile-followup-review.json",
+        "reference/textile-specialist-review.md"
+      ]
     }
   ],
   "decisions": [
@@ -6917,6 +6943,25 @@
       "evidence": [
         "records/tasar-story-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-147",
+      "title": "Continue textile review and prepare specialist handoff",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, let's pick that up",
+      "scope": "Continue outstanding Tasar/textile review. Source-level corrections and review preparation are authorised; no specialist confirmation or publication implied.",
+      "recorded_at": "2026-10-02T01:10:20.409554+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-146"
+      ],
+      "evidence": [
+        "records/textile-followup-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9668,6 +9713,29 @@
       ],
       "evidence": [
         "records/tasar-story-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-116",
+      "title": "Textile follow-up source and build self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser navigation stopped at an admin-policy verification failure. No rendered layout, keyboard, zoom, screenshot or interactive saved-trip review completed.",
+        "No Odia reader or textile maker has been appointed, contacted or represented as having reviewed the stories.",
+        "Review sheet reuses the existing source trail; no new historical, linguistic, botanical or workshop findings.",
+        "Candidate notes only; no new publication or indexing approval. Published baseline remains REL-042."
+      ],
+      "refs": [
+        "UTP-DEC-147",
+        "UTP-WORK-137"
+      ],
+      "evidence": [
+        "records/textile-followup-review.json"
       ]
     }
   ],

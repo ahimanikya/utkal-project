@@ -191,3 +191,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Tasar story published](records/tasar-story-publication.json) after Founder approval of PR 46. Tasar and the five-idea textile journey are live; current backlog baseline advanced to 122 pages with earlier snapshots and remaining review limitations preserved.
+
+## Textile review follow-up
+
+[Source review and copy candidate](records/textile-followup-review.json) and [specialist review sheet](reference/textile-specialist-review.md) prepared after Founder continuation. Browser review remains blocked; no language or maker review claimed. Published baseline remains REL-042.
