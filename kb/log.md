@@ -423,3 +423,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ### 2026-10-02T19:10:21.927198+00:00 · Employment and supplier research checkpoint
 
 Three source identities and nine observations added. Existing company counts and holds preserved. Original NALCO tables visually checked; RSP account disclosures remain pending stronger records. [Review evidence](records/employment-suppliers-2026-10-02.json).
+
+### 2026-10-02T19:13:31.867247+00:00 · Employment/supplier checkpoint merged
+
+PR64 passed GitHub validation and merged. [Evidence](records/employment-suppliers-2026-10-02.json). No website deployment or outreach. RES-052 remains in progress.

@@ -43,7 +43,7 @@
     "General searches found company totals and recruitment/tender notices; these did not resolve current unit workforce.",
     "No outreach messages sent; no private employee records collected."
   ],
-  "status": "research_candidate",
+  "status": "merged_research_checkpoint",
   "authorization_quote": "Let's pick that",
   "human_owner": "Ahimanikya Satapathy",
   "local_odia_review": "pending",
@@ -56,7 +56,7 @@
     "catalogue": "passed",
     "bundle": "passed",
     "diff": "passed",
-    "remote_ci": "pending"
+    "remote_ci": "passed"
   },
   "source_captures": [
     {
@@ -85,5 +85,12 @@
     "all_previous_fields_retained": true,
     "only_existing_observation_extension": "scope_reviews on nalco-chain-non-permanent-workers",
     "all_prior_holds_retained": true
+  },
+  "delivery": {
+    "url": "https://github.com/ahimanikya/utkal-project/pull/64",
+    "reviewed_head": "ca476f6bd3e5a7f2bd51df190fa518fbf2cb6862",
+    "merge_commit": "1b0d41ff2d4ac5f0491470433b166fec5327c4b7",
+    "merged_at": "2026-10-02T19:13:28Z",
+    "website_changed": false
   }
 }

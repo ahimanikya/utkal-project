@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `289a1852240e5e5765239554bf957e2d6f1f7ffe296b17345af8155f3e8c720e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `87de3fbd75626d6bfa82556a79d047fda0594b5d62fce6a330739f22318318bb`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -157,7 +157,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-142 · Cultural reading-flow review and maker cover refinement | completed | published | Ahimanikya Satapathy | Approved implementation published and ten live pages verified. Wider visual, physical-device, screen-reader and specialist reviews remain scoped follow-ups. | — |
 | UTP-WORK-143 · Consolidate research and complete the site-wide browser review programme | completed | published | Ahimanikya Satapathy | Batch merged and published; 500 bounded review/integration items recorded. Continue newer research PR 60 and physical-device, screen-reader, specialist and Search Console follow-ups. | — |
 | UTP-WORK-144 · Integrate mining and manufacturing research from PR 60 | completed | applied | Ahimanikya Satapathy | Integration complete. RES-052 retains its source follow-up and current employment/supplier evidence gaps. | — |
-| UTP-WORK-145 · Strengthen employment and local supplier evidence | completed | reviewed | Ahimanikya Satapathy | Deliver this bounded checkpoint through Git review. RES-052 remains in progress; request aggregate unit returns only after separately authorized outreach. | — |
+| UTP-WORK-145 · Strengthen employment and local supplier evidence | completed | applied | Ahimanikya Satapathy | Checkpoint merged. RES-052 remains in progress with explicit current-headcount and supplier-outcome evidence needs; no outreach sent. | — |
 
 ## Pending human review and decisions
 
@@ -562,6 +562,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-048 · Cultural reading-flow refinements published | published | https://utkalproject.org/ | UTP-DEC-158 |
 | UTP-REL-049 · Research integration and site-wide quality programme published | published | https://utkalproject.org/ | UTP-DEC-159 |
 | UTP-REL-050 · Mining and manufacturing research integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-160 |
+| UTP-REL-051 · Employment and supplier evidence checkpoint integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-161 |
 
 ## Sources and assets
 
@@ -599,7 +600,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-179 | 2026-10-02T05:21:50.119187+00:00 | Founder approved PR #51. Merged exact validated head, deployed successfully and verified all 24 choices across six live guides. Eleven sitemap routes, crawler policy and ownership response remain intact. | Retain scoped local, visual and Google processing follow-ups; this delivery is complete. |
 | UTP-EVT-180 | 2026-10-02T05:53:53.655471+00:00 | Browser access restored. Six guides reviewed at 390/1440/1920 widths. Notebook openings shortened; mobile fragment focus and repeated-jump alignment corrected; uncropped hero gets ratio fallback. Actual two-day tour-book downloads preserve Odia notes and practical links. 383 site tests, 76 coastal tests and 488 page checks pass. | Present candidate PR and screenshots to Founder; publication and wider human review remain separate. |
 | UTP-EVT-181 | 2026-10-02T13:53:38.817898+00:00 | Founder approved PR #53. Exact reviewed head merged and deployed successfully. Live HTTP checks confirm all six revised notebooks, deployed keyboard focus/alignment code, eleven sitemap routes and preserved ownership response. | Continue separately scoped wider review and Search Console processing follow-up. |
 | UTP-EVT-182 | 2026-10-02T14:09:39.538267+00:00 | Six cultural pages reviewed at 390/1440/1920 widths. Maker covers separate subject and story subtitle, preserve full images and gain category trails. Four other maker pages pass mobile smoke checks. 459 tests and 488 page checks pass. | Present candidate PR for Founder review. Wider visual and human review remain open. |
@@ -609,6 +609,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-186 | 2026-10-02T18:23:08.583818+00:00 | Pinned four PR 60 commits; reconciled newer main records, held the dependent IMFA total, and validated source/observation preservation. No website change. | Complete remote CI and merge. |
 | UTP-EVT-187 | 2026-10-02T18:29:45.656472+00:00 | PR 62 merged after automated validation. Twelve entries and 44 observations joined main. Dependent ore total remains held; historical employment and current payroll remain distinct. No website deployment. | Keep unresolved evidence follow-ups open. |
 | UTP-EVT-188 | 2026-10-02T19:10:21.927198+00:00 | Three source identities and nine observations added. All previous observation fields and holds retained. Visual checks distinguish workdays, headcount, annual training and purchase orders. Current unit headcount unresolved. | Complete Git review delivery; retain RES-052 follow-ups. |
+| UTP-EVT-189 | 2026-10-02T19:13:31.867247+00:00 | PR64 merged after automated checks; three source records and nine observations added with limitations. All897 earlier observations preserved. Public website unchanged. | Keep RES-052 outstanding evidence needs visible. |
 
 ## Deferred extensions
 

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T19:10:21.927198+00:00",
+  "recorded_at": "2026-10-02T19:13:31.867247+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4219,18 +4219,19 @@
       "title": "Strengthen employment and local supplier evidence",
       "category": "research",
       "status": "completed",
-      "readiness": "reviewed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-161",
-      "next_action": "Deliver this bounded checkpoint through Git review. RES-052 remains in progress; request aggregate unit returns only after separately authorized outreach.",
+      "next_action": "Checkpoint merged. RES-052 remains in progress with explicit current-headcount and supplier-outcome evidence needs; no outreach sent.",
       "blockers": [],
       "refs": [
         "UTP-DEC-161",
-        "UTP-REV-123"
+        "UTP-REV-123",
+        "UTP-REL-051"
       ],
       "evidence": [
         "records/employment-suppliers-2026-10-02.json"
@@ -11262,6 +11263,22 @@
         "records/mining-integration-merge.json"
       ],
       "note": "PR 62 merged after CI passed; pinned PR 60 ancestry preserved. Repository research release only; website unchanged."
+    },
+    {
+      "id": "UTP-REL-051",
+      "title": "Employment and supplier evidence checkpoint integrated",
+      "status": "applied",
+      "authorization": "UTP-DEC-161",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/kb",
+      "refs": [
+        "UTP-WORK-145",
+        "UTP-REV-123",
+        "UTP-DEC-161"
+      ],
+      "evidence": [
+        "records/employment-suppliers-2026-10-02.json"
+      ],
+      "note": "PR64 merged after CI passed. Three sources and nine observations; no public website change. Current unit headcounts remain unresolved."
     }
   ],
   "sources": [
