@@ -3919,5 +3919,11 @@
     "source": "Official actions repositories and release action.yml inspected on 2026-10-02",
     "limit": "Remote workflow execution still required."
   },
-  "citation_export": "Selected note exports filter source metadata to source IDs cited in exported paragraphs; tested by editorial.test.mjs."
+  "citation_export": "Selected note exports filter source metadata to source IDs cited in exported paragraphs; tested by editorial.test.mjs.",
+  "ci_followup": {
+    "initial_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37023388746",
+    "result": "failed",
+    "cause": "Queue wording update omitted the historical research integration state asserted by the existing regression check. Local tests preceded that queue edit.",
+    "fix": "Retain the completed PR 36 integration statement alongside the newer WORK-143 scope; rerun coastal tests after the record edit."
+  }
 }
