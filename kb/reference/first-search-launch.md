@@ -1,12 +1,12 @@
 ---
 type: Search launch review
 title: First search launch
-status: candidate_for_founder_review
+status: approved_pending_deployment
 ---
 
 # First search launch
 
-Prepare eleven existing pages to become eligible for search. The website has 122 public pages; publishing a page and approving it for search are separate decisions. This candidate keeps the actual publication mode at **preview**, with zero indexable pages. No search service has been contacted or configured.
+Prepare eleven existing pages to become eligible for search. The website has 122 public pages; publishing a page and approving it for search are separate decisions. The Founder approved this exact scope in UTP-DEC-150. Publication mode is now **limited**; deployment and live verification are pending. No search service has been contacted or configured.
 
 ## Proposed pages
 
@@ -40,7 +40,7 @@ The normal coastal build remains an unindexed input. A new assembly step copies 
 
 | Mode | Page directives | Crawler file and sitemap |
 | --- | --- | --- |
-| preview | Every page stays noindex, nofollow. | Crawling blocked; no sitemap. This is the current setting. |
+| preview | Every page stays noindex, nofollow. | Crawling blocked; no sitemap. This was the preparation setting. |
 | limited | The eleven selected pages use index, follow; the other 111 use noindex, follow. | Crawling allowed so excluded pages’ noindex tags can be read; sitemap contains only the eleven URLs. |
 | withdrawn | Every page uses noindex, follow. | Crawling stays allowed so removal instructions remain readable; sitemap removed. |
 
@@ -58,6 +58,6 @@ For a later approved withdrawal, use `withdrawn` with the original approval refe
 
 ## Review still open
 
-Founder approval of this search scope is pending. Browser review remains blocked by the previously recorded admin-policy verification failure. No new rendered, keyboard, physical-device, screen-reader or social-platform preview check is claimed. Existing language, historical and local-condition limitations remain visible with their stories. Store, Pala and unpublished routes stay absent; personal journey and contribution pages stay excluded from search.
+Founder approval of this search scope is recorded in UTP-DEC-150. Browser review remains blocked by the previously recorded admin-policy verification failure. No new rendered, keyboard, physical-device, screen-reader or social-platform preview check is claimed. Existing language, historical and local-condition limitations remain visible with their stories. Store, Pala and unpublished routes stay absent; personal journey and contribution pages stay excluded from search.
 
 [Candidate evidence](../records/first-search-launch-review.json) · [Current visitor review queue](../records/visitor-review-queue.json)

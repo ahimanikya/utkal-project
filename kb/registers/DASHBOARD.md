@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `846f98a936e185a0ca121529fdabeef7414d4f4a69e00508c0dfbba306de7425`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ce5068e01828f411d627f7c6d14383fc8f93f4dbda6c346594b03c323eda5f22`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -362,6 +362,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-147 · Continue textile review and prepare specialist handoff | approved | Ahimanikya Satapathy | Continue outstanding Tasar/textile review. Source-level corrections and review preparation are authorised; no specialist confirmation or publication implied. |
 | UTP-DEC-148 · Publish approved textile notes and review brief | approved | Ahimanikya Satapathy | Merge PR 47 and publish the corrected textile media/review notes; adopt the specialist review brief in the KB. Preserve disclosed visual/local review limitations; no indexing or Store release approved. |
 | UTP-DEC-149 · Prepare the first bounded search launch | approved | Ahimanikya Satapathy | Reassess eleven existing shortlisted pages, check metadata/images/links and prepare selective search publication. This authorizes preparation; activation follows review of the concrete candidate. |
+| UTP-DEC-150 · Approve the eleven-page search launch | approved | Ahimanikya Satapathy | Activate the exact eleven-page search launch, merge PR 48 after validation, and publish. The other 111 pages retain noindex. Search Console and actual search-engine indexing remain follow-ups. |
 
 ## Reviews
 
@@ -567,7 +568,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-157 | 2026-10-01T21:43:39.904893+00:00 | Approved PR 43 merged and deployed. Four food pages, licensed photographs, discovery and journey connections verified live; 173 response/data checks pass across the 114-page edition. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-158 | 2026-10-01T22:03:22.898250+00:00 | Three illustrated craft pages and a saved craft starter prepared; existing Raghurajpur and Cuttack guides connected. Backlog current views reconciled to the last published 114-page release, with prior states preserved. Automated checks pass; visual/local review remains open. | Founder candidate review; no publication claimed. |
 | UTP-EVT-159 | 2026-10-01T22:14:57.293928+00:00 | Approved PR 44 merged and deployed. Three craft pages, licensed photographs and saved journey verified live; 201 response/data checks passed across the 117-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-160 | 2026-10-01T22:59:40.544001+00:00 | Woven in Odisha collection and Bandha, Khandua and Kotpad stories prepared with four licensed visuals and a saved reading journey. Kotpad original report recovered and canonical address preserved. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
@@ -577,6 +577,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-164 | 2026-10-02T01:10:20.409554+00:00 | Browser review remained blocked by admin-policy verification. Source inspection found generic poster and obsolete review wording in textile notes; prepared bounded corrections and a specialist review sheet. Automated checks pass; no human or rendered review claimed. | Founder candidate review; retain actual visual, Odia and maker checks. |
 | UTP-EVT-165 | 2026-10-02T01:35:57.802300+00:00 | Approved PR 47 merged and deployed. Corrected textile notes and unchanged saved-journey data verified live; 42 response/data checks passed on the five textile pages and held routes within the 122-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-166 | 2026-10-02T01:49:48.646869+00:00 | Eleven-page shortlist reassessed; metadata and link graph checked; search publication assembly and readable noindex withdrawal prepared. Actual publication mode remains preview. | Founder candidate review before recording exact-route activation approval. |
+| UTP-EVT-167 | 2026-10-02T02:03:03.781276+00:00 | Recorded Founder approval of PR 48 and activated its exact eleven-route search policy. Deployment and live verification are pending. | Validate the approved artifact, merge and deploy, then verify live page directives and crawler files. |
 
 ## Deferred extensions
 
