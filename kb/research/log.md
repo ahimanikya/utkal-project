@@ -424,3 +424,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 2026-10-02 · DMF audit and service follow-up
 
 Completed the scoped audit reading, recorded conflicting tables and corrected the sampling description. One parliamentary source added; six existing observations held with original values intact. No current-operation claim established for four case bundles; no website publication. [Record](../records/dmf-service-followup-2026-10-02.json).
+
+## 2026-10-02 · DMF accounting basis and record needs
+
+Two original sources add higher-precision receipts and annual district context. The residual receipt difference is ₹0.20 crore; district cumulative conflicts and all four current-service questions remain open. Two observations added, prior 954 preserved. Prepared focused record questions without outreach.

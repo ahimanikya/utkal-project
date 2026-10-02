@@ -385,3 +385,7 @@ RES-053 reuses both CAG source identities, F05 and four existing DMF observation
 ### DMF service follow-up · 2 October 2026
 
 Reused the existing CAG source and four case identities. Added one original parliamentary construction schedule, whose dates are planned rather than actual. Relevant audit chapters are now read; six existing observations carry a documented conflict hold after Table 4.1 differed from Table 5.1. No additional numerical observations or duplicate facility profiles. RES-053 remains open for reconciliation, current operation and community evidence.
+
+### DMF accounting-basis follow-up · 2 October 2026
+
+Added original Finance Accounts 2023–24 Volume I and Lok Sabha answer 2607 (11 December 2024). Two receipt rows improve precision without replacing the earlier 954 observations. District annual data remains separate from CAG cumulative data. Four facility identities reused; six focused record questions prepared and not sent. Repeated unavailable-source searches should await new evidence or a restored endpoint.

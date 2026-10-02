@@ -1,0 +1,160 @@
+{
+  "run_id": "2026-10-02-dmf-record-reconciliation",
+  "at": "2026-10-02T20:54:18.878669+00:00",
+  "status": "validated_for_integration",
+  "authorization_quote": "go",
+  "human_owner": "Ahimanikya Satapathy",
+  "new_source_ids": [
+    "mining-fa2023-24-vol1",
+    "mining-dmf-ls2607-2024"
+  ],
+  "new_observations": 2,
+  "previous_observations": 954,
+  "new_research_entries": 2,
+  "source_checks": [
+    {
+      "source_id": "mining-fa2023-24-vol1",
+      "checked_at": "2026-10-02T20:54:18.878669+00:00",
+      "resource": "https://cag.gov.in/uploads/state_accounts_report/account-report-VOLUME-I-067543d68930668-29495091.pdf",
+      "sha256": "c6e1eff72d1ad2be2dda898db9fbc9fd82e84b3b59f8b14b8ac689bac6a8be8d",
+      "locator": "Statement 3, printed p. 10 / PDF p. 28, FY2023–24 actual receipt column",
+      "scope": "Original two-decimal figures, distinct from whole-crore SFAR restatement. Selected receipt table and Odisha/edition identity visually checked; not a full-volume re-audit."
+    },
+    {
+      "source_id": "mining-dmf-ls2607-2024",
+      "checked_at": "2026-10-02T20:54:18.878669+00:00",
+      "resource": "https://sansad.in/getFile/loksabhaquestions/annex/183/AU2607_PMWTX6.pdf?source=pqals",
+      "sha256": "892cb00e7d933adc4041f5076238de9c8ac1ce5a863ffec370b1d8309463d477",
+      "locator": "Answer PDF p. 1; Annexures I–II, PDF pp. 2–3",
+      "scope": "Annual collection/allocation/expenditure and March 2024 balance figures. FY2024–25 is through October only. Allocation is not relabelled release; interest coverage and a reconciliation to CAG cumulative figures are not supplied."
+    }
+  ],
+  "receipt_bridge": {
+    "status": "higher_precision_comparison_not_exact_reconciliation",
+    "source_ids": [
+      "mining-fa2023-24-vol1",
+      "macro-cag-fy2025",
+      "mining-directorate-revenue"
+    ],
+    "period": "FY2023-24",
+    "unit": "INR crore",
+    "finance_accounts_nonferrous": 45045.55,
+    "finance_accounts_coal": 1350.52,
+    "finance_accounts_sum": 46396.07,
+    "sfar_whole_crore_sum": 46397,
+    "directorate_collection": 46396.27,
+    "whole_crore_sum_minus_finance_sum": 0.93,
+    "directorate_minus_finance_sum": 0.2,
+    "whole_crore_sum_minus_directorate": 0.73,
+    "interpretation": "The Finance Accounts heads round individually to the retained SFAR figures. This explains the 0.93 crore effect of summing rounded heads. The Directorate remains 0.20 crore higher than their two-decimal sum; source coverage, adjustments and accounting reconciliation remain unverified. No missing-money or exact-agreement claim."
+  },
+  "comparison_limitations": [
+    {
+      "district": "Dhenkanal",
+      "finding": "Three available full-year expenditure rows sum to 21.19 crore; prior FY2015–16 to FY2020–21 rows and a common accounting basis are absent. Cannot adjudicate cumulative 44.14 versus 55.89."
+    },
+    {
+      "district": "Sundargarh",
+      "three_year_expenditure_sum": 4491.22,
+      "cag_cumulative_expenditure": 4386.71,
+      "excess_of_shorter_period_over_cag": 104.51,
+      "finding": "FY2021–22 through FY2023–24 rows already exceed the longer CAG cumulative amount. Definition/vintage/revision reconciliation is needed before combining these sources; no cash-loss conclusion."
+    }
+  ],
+  "record_requests": [
+    {
+      "id": "receipt-head-bridge",
+      "record_holders": "Directorate of Mines and Geology and Principal Accountant General (A&E), Odisha",
+      "records_needed": [
+        "FY2023–24 Directorate collection schedule by accounting head and any adjustments/reconciliation to Finance Accounts Statement 3."
+      ],
+      "question": "What scope or adjustment explains Directorate 46,396.27 versus the two-head Finance Accounts sum 46,396.07 crore?",
+      "sent": false
+    },
+    {
+      "id": "dmf-table-conflict",
+      "record_holders": "CAG report record holder; Planning and Convergence Department; Dhenkanal and Jajpur DMFs",
+      "records_needed": [
+        "Underlying as-of-March-2024 district statements used for Tables 4.1 and 5.1.",
+        "Any published corrigendum or dated reconciliation identifying revised figures and treatment of implementing-agency advances/UCs."
+      ],
+      "question": "Which figures reconcile the Table 4.1/5.1 differences, and do annual Parliament figures use the same basis?",
+      "sent": false
+    },
+    {
+      "id": "dmf-keonjhar-nicu-picu",
+      "record_holders": "CDM&PHO, Keonjhar / hospital asset custodian and DMF",
+      "records_needed": [
+        "Asset identifiers for the DMF-funded equipment installed March 2022.",
+        "Commissioning date, unit staff deployment and monthly de-identified admissions/service counts after January 2026."
+      ],
+      "question": "Are the specific audited units operating, and what service records establish this?",
+      "sent": false
+    },
+    {
+      "id": "dmf-deogan-hostels",
+      "record_holders": "R&B Division Panikoili; BDO Sukinda; receiving Education authority",
+      "records_needed": [
+        "Building/project identifiers, utility connection and handover/occupation certificates.",
+        "Staff provision and anonymised occupancy by term after January 2026."
+      ],
+      "question": "Are both buildings in the July 2022 completion bundle occupied and serving the intended students?",
+      "sent": false
+    },
+    {
+      "id": "dmf-sundargarh-digital-medical-records",
+      "record_holders": "CDM&PHO Sundargarh and custodians at DHH, SDH Bonai and Government Hospital Rourkela",
+      "records_needed": [
+        "System restoration, migration or asset-redeployment records matched to the 2019 installation.",
+        "Dated aggregate successful record-use/service logs after January 2026."
+      ],
+      "question": "Was the audited system restored or replaced, and which original assets are being used?",
+      "sent": false
+    },
+    {
+      "id": "dmf-vyasanagar-market-cafe",
+      "record_holders": "KNDA and Jajpur DMF; relevant implementing and receiving agencies",
+      "records_needed": [
+        "Separate project IDs and actual completion, handover, allotment and opening dates.",
+        "Dated tenant/SHG occupancy and aggregate trading/service evidence after January 2026."
+      ],
+      "question": "Are both facilities active, and who is using them? Distinguish planned dates from opening dates.",
+      "sent": false
+    }
+  ],
+  "search_leads": [
+    {
+      "resource": "https://dmf.odisha.gov.in/portal/uploads/publication_documents/DMF4821743061799.pdf",
+      "status": "unavailable",
+      "scope": "Jajpur 2023–24 accounts candidate; web retrieval and 40-second shell download timed out. Search-extracted rupee values not promoted."
+    },
+    {
+      "resource": "https://dmf.odisha.gov.in/portal/uploads/publication_documents/DMF6361743061198.pdf",
+      "status": "unavailable",
+      "scope": "Jajpur 2022–23 annual report candidate, including café title; 40-second download timed out. No actual operation inferred."
+    },
+    {
+      "resource": "https://gmchkeonjhar.odisha.gov.in/infrastructure/",
+      "status": "discovery_only_body_unavailable",
+      "scope": "Search index describes general ICU/SICU/SNCU at DHH campus; direct retrieval timed out. No match to specific DMF NICU/PICU equipment, staff or service counts."
+    },
+    {
+      "resource": "https://sundergarh.dhhodisha.in/index.php/dhq/english_black/sundergarh",
+      "status": "discovery_only_body_unavailable",
+      "scope": "Indexed OeHMIS link with January 2022 last-modified label; direct retrieval failed. A navigation link cannot establish migration/restoration of audited system."
+    }
+  ],
+  "completion_criteria_met": false,
+  "human_review_claimed": false,
+  "website_publication": false,
+  "validation": {
+    "research_validators": "12 passed",
+    "scope_arithmetic": "passed: prior 954 observations unchanged; two higher-precision rows added; district and receipt differences verified",
+    "editorial_workbench": "passed",
+    "catalogue": "passed",
+    "bundle": "passed",
+    "authority_registers": "passed",
+    "diff": "passed",
+    "remote_ci": "pending"
+  }
+}
