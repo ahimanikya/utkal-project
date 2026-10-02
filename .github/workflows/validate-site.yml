@@ -79,6 +79,8 @@ jobs:
           python3 tools/audit-discovery.py
           node tools/prepare-search-review.mjs
           python3 tools/audit-launch-readiness.py
+          npm run build:publication
+          python3 tools/audit-search-shortlist.py
         working-directory: projects/site
       - name: Save coastal files for review
         uses: actions/upload-artifact@v4

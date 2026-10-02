@@ -199,3 +199,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2026-10-01
 
 [Textile review notes published](records/textile-followup-publication.json) after Founder approval of PR 47. Corrected notes are live across the five textile pages and the specialist brief is adopted in the KB; the current published edition remains 122 pages with earlier snapshots and remaining review limitations preserved.
+
+## First search launch candidate
+
+[Eleven-page search review](records/first-search-launch-review.json): updated metadata, checked sharing images and internal connections, and prepared explicit publication/withdrawal modes. All current public pages remain unindexed. [Review and activation guide](reference/first-search-launch.md).

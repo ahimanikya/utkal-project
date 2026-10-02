@@ -25,7 +25,7 @@ const {title='Rediscover Utkal. Reimagine Odisha.', description='A growing, shar
 const pagePath=Astro.url.pathname==='/404/'?'/404.html':Astro.url.pathname;
 const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]||description):description;
 const canonical=new URL(pagePath,Astro.site).href;
-const pageTitle=title.endsWith(' · Utkal Project')?title:title+' · Utkal Project';
+const pageTitle=(isCoastalEdition&&pageDescriptions.titles?.[pagePath])||(title.endsWith(' · Utkal Project')?title:title+' · Utkal Project');
 const discoveryEntry=discoveryEntries.find(entry=>entry.href===pagePath);
 const sharePhoto=sharingImage(discoveryEntry?.image);
 const socialImage=new URL(sharePhoto.src,Astro.site).href;

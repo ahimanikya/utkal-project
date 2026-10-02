@@ -41,9 +41,10 @@ jobs:
       - run: npm test
       - run: npm run build:coast
       - run: npm run test:coast
+      - run: npm run build:publication
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: projects/site/dist-coast
+          path: projects/site/dist-publish
 
   deploy:
     needs: build
