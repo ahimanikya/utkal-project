@@ -1,14 +1,14 @@
 ---
 type: Search launch review
 title: First search launch
-status: approved_pending_deployment
+status: published
 ---
 
 # First search launch
 
-Prepare eleven existing pages to become eligible for search. The website has 122 public pages; publishing a page and approving it for search are separate decisions. The Founder approved this exact scope in UTP-DEC-150. Publication mode is now **limited**; deployment and live verification are pending. No search service has been contacted or configured.
+Eleven existing pages are now eligible for search. The website has 122 public pages; publishing a page and approving it for search are separate decisions. The Founder approved this exact scope in UTP-DEC-150. Publication mode is **limited**; deployment and live verification passed under [UTP-REL-044](../records/first-search-launch-publication.json). No search service has been contacted or configured.
 
-## Proposed pages
+## Approved pages
 
 The shortlist preserves the existing proposal. This is an editorial scope assessment using the current pages and recorded sources, not fresh verification of every historical or practical claim.
 

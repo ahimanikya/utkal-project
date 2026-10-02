@@ -203,3 +203,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## First search launch candidate
 
 [Eleven-page search review](records/first-search-launch-review.json): updated metadata, checked sharing images and internal connections, and prepared explicit publication/withdrawal modes. All current public pages remain unindexed. [Review and activation guide](reference/first-search-launch.md).
+
+## 2026-10-02
+
+[First search launch published](records/first-search-launch-publication.json) after Founder approval of PR 48. Eleven pages allow indexing, 111 retain noindex, and the exact sitemap and all live page directives passed delivery checks. Search Console, actual indexing and previously disclosed specialist/browser reviews remain open.
