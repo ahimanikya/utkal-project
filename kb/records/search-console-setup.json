@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T02:14:55.666899+00:00",
-  "status": "sitemap_submitted_awaiting_indexing_review",
+  "status": "utkal_submission_unconfirmed",
   "authorization": "UTP-DEC-151",
   "human_owner": "Ahimanikya Satapathy",
   "approval_quote": "OK, go",
@@ -15,18 +15,29 @@
     "Preserved the published eleven-page indexing policy and existing sitemap.",
     "Founder-supplied verification response deployed and exact live content confirmed.",
     "Founder reported completion of the ownership-verification step.",
-    "Founder relayed Google confirmation: Sitemap submitted successfully."
+    "Founder relayed a submission-success message, but its property was unspecified. Later screenshot shows the Blogspot property."
   ],
   "not_completed": [
-    "Google account ownership and sitemap reports have not been independently inspected by the assistant.",
-    "Actual Google indexing status not inspected."
+    "Utkal property ownership has not been independently inspected.",
+    "Sitemap submission for https://utkalproject.org/ remains unconfirmed.",
+    "Actual Utkal indexing status not inspected."
   ],
-  "next_action": "When Search Console has processed the sitemap, review its fetch status and discovered URL count, then inspect indexing of the eleven approved URLs. Obtain Founder-provided report or use supported browser access when available; no monitoring scheduled.",
+  "next_action": "Select https://utkalproject.org/ in the top-left property selector, then inspect or submit sitemap.xml for that property.",
   "release_baseline": "UTP-REL-045",
   "evidence": [
     "records/first-search-launch-publication.json",
     "records/search-console-verification-file.json",
     "records/search-console-submission.json"
   ],
-  "updated_at": "2026-10-02T02:59:07.163891+00:00"
+  "updated_at": "2026-10-02T03:00:45.576278+00:00",
+  "submission_correction": {
+    "recorded_at": "2026-10-02T03:00:45.576278+00:00",
+    "source": "Founder-supplied Search Console screenshot in current conversation",
+    "observed_property": "http://ahimanikya.blogspot.com/",
+    "observed_sitemap": "/sitemap.xml",
+    "observed_fetch_status": "Couldn't fetch",
+    "discovered_pages": 0,
+    "conclusion": "The screenshot concerns Blogspot. The prior success message did not identify a property, so successful Utkal sitemap submission is not established.",
+    "next_action": "Select https://utkalproject.org/ in the top-left property selector, then inspect or submit sitemap.xml for that property."
+  }
 }
