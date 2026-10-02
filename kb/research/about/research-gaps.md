@@ -398,3 +398,7 @@ Mine workforce category definitions and production scope unresolved; plant direc
 ## Industrial employment checkpoint ·2October2026 UTC
 
 Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope reconciliation, mine-to-plant allocations and plant/local supplier boundaries still missing. Historical2015 RSP evidence cannot substitute for current observations. Retry9October; proceed with independent RES-053.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+Actual state mining receipts and remaining relevant audit chapters/appendices still need reconciliation. Current project operations and original response/handover records unknown. Continue independent actual-receipt research; two source discrepancies retry9October.

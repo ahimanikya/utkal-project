@@ -34,3 +34,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Baphlimali returns · 2 October2026 UTC
 
 [Baphlimali’s mine-level return](../economy/bauxite-mine-identities.md) adds FY2024–25 output and DMF payment evidence. A mine’s payment is not district spending or a statewide total.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.

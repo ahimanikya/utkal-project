@@ -59,3 +59,7 @@ Mine manpower tables are captured but held for clarification. The template defin
 Sukinda’s submitted ROM is 269,075 tonnes against 273,802 in the annual report. Both are retained, and the earlier growth calculation is quarantined. Mahagiri’s general field rounds to the annual-report value but differs from its underground ROM field. [Detailed captures and holds](../references/data/mining-programme.json).
 
 Integration review: the annual report’s combined ore figure is also held for reconciliation because it includes the disputed Sukinda component. The reported value remains preserved; no revised total is inferred by mixing the annual report with the mine templates.
+
+## Integration review carried forward · 2 October 2026
+
+The reported combined ore total of810,612tonnes for FY2025–26 inherits the hold on its Sukinda component. The source value is retained, but it is not a reconciled production total. The main-repository integration review and original revision history are preserved in the atlas; no replacement total is inferred.

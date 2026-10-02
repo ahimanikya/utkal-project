@@ -412,3 +412,9 @@ RES-052: four original documents; 11 observations added (seven held). Sukinda an
 ## Industrial employment checkpoint ·2October2026 UTC
 
 RES-052: four historical Rourkela employment observations and one NALCO annual apprenticeship observation added. Current plant jobs remain unresolved; original NALCO parliamentary PDF unavailable. Retry9October, next independent task RES-053. No website release.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+RES-053: six district tables, four project cases and 56 new observations from the existing CAG source. Source arithmetic/scope inconsistencies retained; source dashes remain unknown. Task incomplete; next receipts and remaining audit sections. No website release.
+
+The destination integration review’s hold on IMFA’s combined ore total was carried back into the source KB with its existing provenance and unchanged value.

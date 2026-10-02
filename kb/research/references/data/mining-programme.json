@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T17:52:03.569038+00:00",
+  "updated_at": "2026-10-02T18:51:18.740435+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2209,5 +2209,16 @@
     ],
     "completion_criteria_met": false,
     "human_review_claimed": false
+  },
+  "dmf_checkpoint": {
+    "run_id": "2026-10-02-mining-dmf",
+    "dataset": "references/data/mining-dmf.json",
+    "source_ids": [
+      "mining-cag-dmf2026"
+    ],
+    "observations_added": 56,
+    "projects": 4,
+    "districts": 6,
+    "completion_criteria_met": false
   }
 }

@@ -419,3 +419,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ### 2026-10-02T18:29:45.656472+00:00 · Mining research integrated
 
 PR 62 merged after CI passed. Twelve research entries and 44 observations added; nine new observations remain held. PR 60’s pinned ancestry is preserved. No website deployment. [Merge receipt](records/mining-integration-merge.json).
+
+## 2 October 2026 · DMF funds and functioning services
+
+[Research receipt](records/mining-dmf-2026-10-02.json): Six district fund tables and four project cases distinguish spending, completion, operation and funding eligibility. CAG-reproduced government responses and source conflicts are preserved. RES-053 continues with receipts and remaining audit sections. No website release.

@@ -169,3 +169,7 @@ Mine employment claims and Sukinda output comparison held. Kalinganagar transfer
 ## Industrial employment checkpoint ·2October2026 UTC
 
 Historical Rourkela workforce and company-wide NALCO apprenticeship added with explicit dates/categories. No current plant job headline, human review or website release.
+
+## DMF project checkpoint · 2 October 2026 UTC
+
+DMF synthesis draft retains district sample scope, dated service observations and government responses. Current operation, human review and publication remain unverified.

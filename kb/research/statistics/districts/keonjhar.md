@@ -27,3 +27,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Mineral evidence · 1 October2026
 
 IBM’s2023–24 provisional chromite table uses Kendujhar and records21,331 tonnes; source spelling is retained. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.

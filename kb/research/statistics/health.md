@@ -58,3 +58,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Science connections · 1 October 2026
 
 [Science and documented contributions](../people/science-and-contributions.md) connects rice seed systems and public-health research with named contributors and credited teams. A contribution record, a patient sample and statewide economic or health outcomes have different scopes.
+
+## Mining-area services: follow the project
+
+[DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
