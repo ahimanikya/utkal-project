@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-10-02T14:09:39.538267+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "human_owner": "Ahimanikya Satapathy",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "authorization": "UTP-DEC-157",
+  "authorization_quote": "ok, go ahead",
+  "baseline_commit": "4799fd4",
+  "baseline_release": "UTP-REL-047",
+  "scope": {
+    "responsive_routes": [
+      "/food/chhena-poda/",
+      "/food/odisha-rasagola/",
+      "/people/pratibha-ray/",
+      "/languages/odia/",
+      "/crafts/pattachitra/",
+      "/textiles/khandua/"
+    ],
+    "shared_maker_smoke_routes": [
+      "/crafts/pipili-applique/",
+      "/textiles/sambalpuri-bandha/",
+      "/textiles/tasar/",
+      "/knowledge/kotpad/"
+    ],
+    "public_editorial_pages": 122,
+    "indexable_pages": 11,
+    "new_pages": 0
+  },
+  "findings": [
+    "Khandua’s long editorial title occupied 581px of heading height at 1280px viewport width. The revised subject heading and Odia name occupy 133px; the complete subtitle remains below in earth-coloured type.",
+    "Craft and textile category breadcrumbs were absent, including the canonical Kotpad story under /knowledge/.",
+    "Pattachitra referred to a photograph below, although the chapter photograph precedes its text.",
+    "The two food pages, Odia language page and Pratibha Ray biography retained usable subject-specific layouts; no redesign was imposed."
+  ],
+  "changes": [
+    "Explicit cover_title and cover_subtitle fields for maker stories; metadata, discovery titles and save IDs stay intact.",
+    "Scoped maker cover style uses reading-size introductions, complete artwork and restrained titles.",
+    "Category trails for crafts and textiles, with Kotpad explicitly mapped to textiles; existing literary and destination mappings retained.",
+    "Pattachitra photo reference made position-independent.",
+    "Design-system lesson recorded; no Blueprint adoption or package version change."
+  ],
+  "checks": {
+    "site_tests_passed": 383,
+    "coastal_tests_passed": 76,
+    "page_acceptance_passed": 488,
+    "responsive_cases": 18,
+    "widths": [
+      390,
+      1440,
+      1920
+    ],
+    "horizontal_overflow_cases": 0,
+    "missing_contents_targets": 0,
+    "keyboard": "Six selected contents links activated with Enter; native menu closes and focus moves to the correct visible heading.",
+    "images": "All eight main-content images across the six routes loaded after scrolling. Seven descriptive images retain alt text and captions; one redundant literature-card image is intentionally decorative.",
+    "publication": "122 editorial pages; eleven indexable; 111 noindex; Store excluded; ownership file retained.",
+    "launch_readiness": "Eleven sitemap URLs and fourteen contrast pairs pass.",
+    "search_shortlist": "Eleven pages pass."
+  },
+  "evidence": [
+    "records/evidence/culture-flow-review/responsive.json",
+    "records/evidence/culture-flow-review/keyboard.json",
+    "records/evidence/culture-flow-review/media.json",
+    "records/evidence/culture-flow-review/shared-maker-smoke.json",
+    "records/evidence/culture-flow-review/before-khandua.jpg",
+    "records/evidence/culture-flow-review/after-khandua-1280.jpg",
+    "records/evidence/culture-flow-review/before-pattachitra-mobile.jpg",
+    "records/evidence/culture-flow-review/after-pattachitra-mobile.jpg",
+    "records/evidence/culture-flow-review/after-pattachitra-chapter-mobile.jpg"
+  ],
+  "limitations": [
+    "Six principal routes received responsive checks; four additional maker pages received mobile smoke checks. The wider 122-page visual review remains open.",
+    "Emulated browser widths and keyboard checks are not physical-device or screen-reader review.",
+    "Existing photographs and claims were reused. Local language, maker and specialist review remain open.",
+    "The Search Console sitemap-processing issue remains open. This batch does not change crawl policy or indexing scope.",
+    "Publication requires a separate Founder approval of this candidate."
+  ],
+  "publication": {
+    "status": "awaiting_founder_review"
+  }
+}

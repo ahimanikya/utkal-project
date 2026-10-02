@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T13:53:38.817898+00:00",
+  "recorded_at": "2026-10-02T14:09:39.538267+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2210,7 +2210,7 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-051",
-      "next_action": "Six coastal guides have responsive/browser and journey evidence published under REL-047. Continue the remaining 122-page visual scope and physical-device/screen-reader review; the bounded audit does not complete this wider work.",
+      "next_action": "Six cultural pages reviewed at three widths, with four additional maker-page mobile checks, under UTP-WORK-142. Candidate awaits Founder review. Continue remaining visual scope and physical-device/screen-reader review; coastal UTP-REL-047 stays published.",
       "blockers": [],
       "refs": [
         "UTP-DEC-051",
@@ -2231,7 +2231,8 @@
         "research/product/city-culture-review.md",
         "research/product/visitor-readiness-2026-10-01.md",
         "records/visitor-experience-review.json",
-        "records/visitor-flow-polish-review.json"
+        "records/visitor-flow-polish-review.json",
+        "records/culture-flow-review.json"
       ]
     },
     {
@@ -4133,6 +4134,30 @@
       "evidence": [
         "records/visitor-flow-polish-review.json",
         "records/visitor-flow-polish-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-142",
+      "title": "Cultural reading-flow review and maker cover refinement",
+      "category": "website_design_followup",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-157",
+      "next_action": "Founder review of the candidate PR and responsive evidence; publish only after approval.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-157",
+        "UTP-WORK-075",
+        "UTP-REV-120",
+        "UTP-REL-047"
+      ],
+      "evidence": [
+        "records/culture-flow-review.json"
       ]
     }
   ],
@@ -7267,6 +7292,26 @@
       "evidence": [
         "records/visitor-flow-polish-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-157",
+      "title": "Prepare the next bounded cultural reading-flow review",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "ok, go ahead",
+      "scope": "Continue the website backlog with a bounded visual review and implementation candidate. Publication remains separately gated.",
+      "recorded_at": "2026-10-02T14:09:39.538267+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-142",
+        "UTP-WORK-075"
+      ],
+      "evidence": [
+        "records/culture-flow-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -10114,6 +10159,30 @@
       ],
       "evidence": [
         "records/visitor-flow-polish-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-120",
+      "title": "Cultural reading-flow browser and build self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Six principal routes received responsive checks; four additional maker pages received mobile smoke checks. The wider 122-page visual review remains open.",
+        "Emulated browser widths and keyboard checks are not physical-device or screen-reader review.",
+        "Existing photographs and claims were reused. Local language, maker and specialist review remain open.",
+        "The Search Console sitemap-processing issue remains open. This batch does not change crawl policy or indexing scope.",
+        "Publication requires a separate Founder approval of this candidate."
+      ],
+      "refs": [
+        "UTP-DEC-157",
+        "UTP-WORK-142"
+      ],
+      "evidence": [
+        "records/culture-flow-review.json"
       ]
     }
   ],

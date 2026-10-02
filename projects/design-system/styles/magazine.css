@@ -124,3 +124,11 @@
 .utk-magazine .mag-history-note .mag-metrics{display:block;margin-block:24px}
 .utk-magazine .mag-history-note .mag-metrics dt{max-width:24ch;font-size:14px}
 .utk-magazine .mag-history-note .mag-metrics dd{margin:8px 0 0;font:56px/1 var(--uds-type-display);color:var(--uds-colour-sea)}
+
+/* Maker stories distinguish the subject from its editorial subtitle. */
+.utk .utk-magazine--maker .mag-cover h1{font-size:clamp(44px,5vw,78px);letter-spacing:-.035em;overflow-wrap:anywhere}
+.utk-magazine .mag-cover-subtitle{font:italic clamp(25px,2.5vw,36px)/1.25 var(--uds-type-display);color:var(--uds-colour-earth);margin-top:18px;text-wrap:balance}
+.utk-magazine--maker .mag-cover{padding-top:28px}
+.utk-magazine--maker .mag-deck{font:22px/1.65 var(--uds-type-reading);max-width:46ch}
+.utk-magazine--maker .mag-cover figure img{object-fit:contain;aspect-ratio:auto;max-height:530px;background:var(--uds-colour-surface)}
+@media(max-width:700px){.utk .utk-magazine--maker .mag-cover h1{font-size:44px}.utk-magazine--maker .mag-deck{font-size:19px}.utk-magazine--maker .mag-cover figure img{max-height:350px}.utk-magazine--maker .mag-cover{padding-top:20px}}
