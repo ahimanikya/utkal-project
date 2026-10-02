@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T02:39:42.696262+00:00",
-  "status": "prepared_for_deployment",
+  "status": "published_awaiting_google_verification",
   "authorization": "UTP-DEC-152",
   "filename": "googleeb3b0703307157d1.html",
   "sha256": "a7709cd7493cc73e37dfd56a9e053a88fdec2108df72371c20b85e15236c11cc",
@@ -10,6 +10,29 @@
   "implementation": "Publication assembly copies only the exact expected verification response after validating its bytes; normal editorial route filtering and sitemap scope are unchanged.",
   "ownership_status": "Not verified yet; Founder must click Verify after live delivery is confirmed.",
   "evidence": [
-    "records/search-console-setup.json"
-  ]
+    "records/search-console-setup.json",
+    "records/evidence/search-console-verification/merge.json",
+    "records/evidence/search-console-verification/deployment.json",
+    "records/evidence/search-console-verification/live.json"
+  ],
+  "published_at": "2026-10-02T02:52:24.562605+00:00",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/49",
+  "merge_commit": "65677db2e2ac513c643a938828b5dfd4d39dc5bd",
+  "deployment_url": "https://github.com/ahimanikya/utkal-project/actions/runs/36957392419",
+  "counts": {
+    "public_pages": 122,
+    "indexable_pages": 11,
+    "noindex_pages": 111,
+    "discovery_entries": 79,
+    "journey_items": 83,
+    "verification_responses": 1
+  },
+  "validation": {
+    "site_tests": 380,
+    "coastal_tests": 74,
+    "live_pages_checked": 122,
+    "verification_exact_match": true,
+    "sitemap_urls": 11,
+    "ci_fix": "Initial full-draft checks treated the public HTML verification file as a story. Moved its source to a dedicated verification directory and copy it only during publication assembly; checks passed after correction."
+  }
 }

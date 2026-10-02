@@ -4064,16 +4064,19 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-151",
-      "next_action": "Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control.",
+      "next_action": "Founder should click Verify in the open Google ownership dialog, then report the result. Sitemap submission and actual indexing inspection remain pending.",
       "blockers": [
         "Navigation denied before account access: the browser security check could not verify the admin-enforced policy."
       ],
       "refs": [
         "UTP-DEC-151",
-        "UTP-REL-044"
+        "UTP-REL-044",
+        "UTP-DEC-152",
+        "UTP-REL-045"
       ],
       "evidence": [
-        "records/search-console-setup.json"
+        "records/search-console-setup.json",
+        "records/search-console-verification-file.json"
       ]
     }
   ],
@@ -10688,6 +10691,21 @@
         "records/first-search-launch-publication.json"
       ],
       "note": "Eleven approved pages allow indexing; 111 public pages retain noindex, follow. Exact eleven-URL sitemap and readable crawler controls verified live. Actual search-engine indexing is not yet verified."
+    },
+    {
+      "id": "UTP-REL-045",
+      "title": "Google ownership-verification response published",
+      "status": "published",
+      "authorization": "UTP-DEC-152",
+      "destination": "https://utkalproject.org/googleeb3b0703307157d1.html",
+      "refs": [
+        "UTP-DEC-152",
+        "UTP-WORK-139"
+      ],
+      "evidence": [
+        "records/search-console-verification-file.json"
+      ],
+      "note": "Exact supplied response confirmed over HTTPS; 122 editorial page directives and eleven-URL sitemap preserved. Google ownership verification and sitemap submission are not yet confirmed."
     }
   ],
   "sources": [
