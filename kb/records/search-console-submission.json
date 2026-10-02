@@ -1,7 +1,7 @@
 {
   "recorded_at": "2026-10-02T02:59:07.163891+00:00",
   "occurred_at": null,
-  "status": "utkal_submission_confirmed_fetch_failed",
+  "status": "submitted_google_live_test_available",
   "site": "https://utkalproject.org/",
   "sitemap": "https://utkalproject.org/sitemap.xml",
   "source": {
@@ -28,5 +28,14 @@
     "conclusion": "The screenshot concerns Blogspot. The prior success message did not identify a property, so successful Utkal sitemap submission is not established.",
     "next_action": "Select https://utkalproject.org/ in the top-left property selector, then inspect or submit sitemap.xml for that property."
   },
-  "latest_evidence": "records/search-console-fetch-diagnosis.json"
+  "latest_evidence": "records/search-console-fetch-diagnosis.json",
+  "live_test_follow_up": {
+    "recorded_at": "2026-10-02T03:11:47.032560+00:00",
+    "source": "Founder-supplied Search Console LIVE TEST screenshot",
+    "url": "https://utkalproject.org/sitemap.xml",
+    "test_time_displayed": "Oct 1, 2026, 8:10 PM",
+    "result": "URL is available to Google",
+    "page_availability": "Page can be indexed",
+    "limits": "Confirms availability in this live test; does not establish Sitemaps report processing success, discovered URL count, or indexing of the eleven editorial pages."
+  }
 }

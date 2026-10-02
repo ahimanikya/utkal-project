@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T03:03:10.136358+00:00",
-  "status": "google_fetch_failure_site_checks_pass",
+  "status": "google_live_test_available_processing_pending",
   "screenshot_evidence": {
     "property": "https://utkalproject.org/",
     "sitemap": "/sitemap.xml",
@@ -20,6 +20,15 @@
     "robots": "User-agent: *; Allow: /; Sitemap: https://utkalproject.org/sitemap.xml"
   },
   "limit": "Successful delivery from this client does not prove Googlebot can fetch it. Cause is not yet established.",
-  "next_action": "Open the submitted sitemap row and inspect the detailed fetch error. If needed use URL Inspection live test for the exact sitemap URL, following Google guidance.",
-  "guidance": "https://support.google.com/webmasters/answer/7451001?hl=en-GB"
+  "next_action": "Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled.",
+  "guidance": "https://support.google.com/webmasters/answer/7451001?hl=en-GB",
+  "live_test_follow_up": {
+    "recorded_at": "2026-10-02T03:11:47.032560+00:00",
+    "source": "Founder-supplied Search Console LIVE TEST screenshot",
+    "url": "https://utkalproject.org/sitemap.xml",
+    "test_time_displayed": "Oct 1, 2026, 8:10 PM",
+    "result": "URL is available to Google",
+    "page_availability": "Page can be indexed",
+    "limits": "Confirms availability in this live test; does not establish Sitemaps report processing success, discovered URL count, or indexing of the eleven editorial pages."
+  }
 }

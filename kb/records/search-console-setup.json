@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T02:14:55.666899+00:00",
-  "status": "submitted_google_fetch_failed",
+  "status": "google_live_test_available_processing_pending",
   "authorization": "UTP-DEC-151",
   "human_owner": "Ahimanikya Satapathy",
   "approval_quote": "OK, go",
@@ -16,13 +16,14 @@
     "Founder-supplied verification response deployed and exact live content confirmed.",
     "Founder reported completion of the ownership-verification step.",
     "Founder relayed a submission-success message, but its property was unspecified. Later screenshot shows the Blogspot property.",
-    "New Founder screenshot confirms the Utkal property has a submitted sitemap row. Current Google status: Could not fetch."
+    "New Founder screenshot confirms the Utkal property has a submitted sitemap row. Current Google status: Could not fetch.",
+    "Founder screenshot of Google LIVE TEST confirms the sitemap URL is available to Google."
   ],
   "not_completed": [
-    "Successful Google fetch/processing remains unconfirmed; investigate its detailed error.",
-    "Actual Utkal indexing status not inspected."
+    "Sitemaps report processing success and discovery of the eleven approved URLs remain unconfirmed.",
+    "Actual indexing of the eleven editorial pages remains uninspected."
   ],
-  "next_action": "Open the submitted sitemap row and inspect the detailed fetch error. If needed use URL Inspection live test for the exact sitemap URL, following Google guidance.",
+  "next_action": "Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled.",
   "release_baseline": "UTP-REL-045",
   "evidence": [
     "records/first-search-launch-publication.json",
@@ -30,7 +31,7 @@
     "records/search-console-submission.json",
     "records/search-console-fetch-diagnosis.json"
   ],
-  "updated_at": "2026-10-02T03:03:10.136358+00:00",
+  "updated_at": "2026-10-02T03:11:47.032560+00:00",
   "submission_correction": {
     "recorded_at": "2026-10-02T03:00:45.576278+00:00",
     "source": "Founder-supplied Search Console screenshot in current conversation",
