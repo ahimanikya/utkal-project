@@ -4064,9 +4064,9 @@
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-151",
-      "next_action": "Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled.",
+      "next_action": "Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing.",
       "blockers": [
-        "Google live test confirms sitemap availability; processing and editorial-page indexing reports remain pending. Assistant account access remains unavailable."
+        "Sitemaps report still fails despite successful Google live test and consistent public endpoint checks. Processing cause and refreshed crawl state remain unverified."
       ],
       "refs": [
         "UTP-DEC-151",

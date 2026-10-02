@@ -136,7 +136,7 @@
   "separate_decisions": [
     {
       "title": "Search indexing",
-      "next_action": "Google live-test screenshot confirms sitemap availability. Submission is confirmed; Sitemaps report processing and actual indexing of eleven approved pages remain to be checked under WORK-139.",
+      "next_action": "Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing.",
       "evidence": [
         "records/first-search-launch-review.json",
         "reference/first-search-launch.md",
@@ -170,7 +170,7 @@
     "indexable_pages": 11,
     "noindex_pages": 111
   },
-  "updated_at": "2026-10-02T03:11:47.032560+00:00",
+  "updated_at": "2026-10-02T04:31:29.481419+00:00",
   "publication_followups": [
     {
       "release": "UTP-REL-035",

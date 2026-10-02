@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T03:03:10.136358+00:00",
-  "status": "google_live_test_available_processing_pending",
+  "status": "persistent_sitemap_report_failure_live_checks_pass",
   "screenshot_evidence": {
     "property": "https://utkalproject.org/",
     "sitemap": "/sitemap.xml",
@@ -20,7 +20,7 @@
     "robots": "User-agent: *; Allow: /; Sitemap: https://utkalproject.org/sitemap.xml"
   },
   "limit": "Successful delivery from this client does not prove Googlebot can fetch it. Cause is not yet established.",
-  "next_action": "Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled.",
+  "next_action": "Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing.",
   "guidance": "https://support.google.com/webmasters/answer/7451001?hl=en-GB",
   "live_test_follow_up": {
     "recorded_at": "2026-10-02T03:11:47.032560+00:00",
@@ -30,5 +30,91 @@
     "result": "URL is available to Google",
     "page_availability": "Page can be indexed",
     "limits": "Confirms availability in this live test; does not establish Sitemaps report processing success, discovered URL count, or indexing of the eleven editorial pages."
+  },
+  "delivery_recheck": {
+    "recorded_at": "2026-10-02T04:31:29.481419+00:00",
+    "trigger": "Founder reports Sitemap could not be read after another attempt.",
+    "dns_a": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153"
+    ],
+    "dns_aaaa": [],
+    "endpoint_checks": [
+      {
+        "ip": "185.199.108.153",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "sha256": "8cda3f421b83cb3003c63fa096a632255a05c64aab4d8bcbadd09d51455e343d",
+        "robots": null
+      },
+      {
+        "ip": "185.199.108.153",
+        "path": "/robots.txt",
+        "status": 200,
+        "sha256": "96b76fd5cf2d53f26aca45b7b0dcb6b6802722b810e070ce4aaae05628dad2a5",
+        "robots": "User-agent: *\nAllow: /\nSitemap: https://utkalproject.org/sitemap.xml\n"
+      },
+      {
+        "ip": "185.199.109.153",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "sha256": "8cda3f421b83cb3003c63fa096a632255a05c64aab4d8bcbadd09d51455e343d",
+        "robots": null
+      },
+      {
+        "ip": "185.199.109.153",
+        "path": "/robots.txt",
+        "status": 200,
+        "sha256": "96b76fd5cf2d53f26aca45b7b0dcb6b6802722b810e070ce4aaae05628dad2a5",
+        "robots": "User-agent: *\nAllow: /\nSitemap: https://utkalproject.org/sitemap.xml\n"
+      },
+      {
+        "ip": "185.199.110.153",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "sha256": "8cda3f421b83cb3003c63fa096a632255a05c64aab4d8bcbadd09d51455e343d",
+        "robots": null
+      },
+      {
+        "ip": "185.199.110.153",
+        "path": "/robots.txt",
+        "status": 200,
+        "sha256": "96b76fd5cf2d53f26aca45b7b0dcb6b6802722b810e070ce4aaae05628dad2a5",
+        "robots": "User-agent: *\nAllow: /\nSitemap: https://utkalproject.org/sitemap.xml\n"
+      },
+      {
+        "ip": "185.199.111.153",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "sha256": "8cda3f421b83cb3003c63fa096a632255a05c64aab4d8bcbadd09d51455e343d",
+        "robots": null
+      },
+      {
+        "ip": "185.199.111.153",
+        "path": "/robots.txt",
+        "status": 200,
+        "sha256": "96b76fd5cf2d53f26aca45b7b0dcb6b6802722b810e070ce4aaae05628dad2a5",
+        "robots": "User-agent: *\nAllow: /\nSitemap: https://utkalproject.org/sitemap.xml\n"
+      }
+    ],
+    "xml_valid_and_exact_approved_urls": 11,
+    "result": "All eight HTTPS endpoint/path checks returned 200 with identical contents per path. No current delivery inconsistency found from this client.",
+    "hypothesis": "A previously cached blocking robots rule or delayed processing is plausible, not proven. Google live-test success does not establish Sitemaps processing success.",
+    "sources": [
+      "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec#caching",
+      "https://support.google.com/webmasters/answer/7451001?hl=en"
+    ],
+    "site_changes": "None; no present defect was identified."
+  },
+  "homepage_report": {
+    "source": "Earlier Founder-supplied URL Inspection screenshot",
+    "url": "https://utkalproject.org/",
+    "indexing": "Page is indexed",
+    "warning": "Indexed, though blocked by robots.txt",
+    "last_crawl_displayed": "Sep 30, 2026, 3:10:33 PM",
+    "indexing_request": "Indexing requested",
+    "limit": "Stored report predates the approved search activation; refreshed crawl results not inspected."
   }
 }

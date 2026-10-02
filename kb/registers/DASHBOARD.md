@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fef5770a5224d1757d99b59aa9863fa05b2880a8277b0b12b8e626a2607bf850`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1235fc2fe1af3767dee1248140a0b1a5cc99aeee6c991d5eaf04fe6c8bf32703`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -151,7 +151,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-136 · Tasar: the silk before the sari | completed | applied | Ahimanikya Satapathy | Textile collection published; browser visual review, Odia/craft terminology and named-maker arrangements remain open. | Browser visual review unavailable after admin-policy verification failure.; Local Odia/craft terminology and maker-access checks remain unverified. |
 | UTP-WORK-137 · Textile review follow-up and specialist brief | completed | applied | Ahimanikya Satapathy | Textile note fixes published and specialist brief adopted. Actual browser, Odia and maker reviews remain open in the linked consolidated queue. | Browser navigation stopped at an admin-policy verification failure. No rendered layout, keyboard, zoom, screenshot or interactive saved-trip review completed.; No Odia reader or textile maker has been appointed, contacted or represented as having reviewed the stories. |
 | UTP-WORK-138 · First search launch candidate and controlled publication | completed | applied | Ahimanikya Satapathy | The approved eleven-page search scope is live. Search Console ownership/submission, actual indexing reports and browser/social preview review remain follow-ups. | Browser visual and social preview inspection unavailable. |
-| UTP-WORK-139 · Search Console ownership, sitemap and indexing status | awaiting_review | applied | Ahimanikya Satapathy | Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled. | Google live test confirms sitemap availability; processing and editorial-page indexing reports remain pending. Assistant account access remains unavailable. |
+| UTP-WORK-139 · Search Console ownership, sitemap and indexing status | awaiting_review | applied | Ahimanikya Satapathy | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. | Sitemaps report still fails despite successful Google live test and consistent public endpoint checks. Processing cause and refreshed crawl state remain unverified. |
 
 ## Pending human review and decisions
 
@@ -209,7 +209,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-090 | Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
-| UTP-WORK-139 | Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled. |
+| UTP-WORK-139 | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
 
 ## Decisions
 
@@ -573,7 +573,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-166 | 2026-10-02T01:49:48.646869+00:00 | Eleven-page shortlist reassessed; metadata and link graph checked; search publication assembly and readable noindex withdrawal prepared. Actual publication mode remains preview. | Founder candidate review before recording exact-route activation approval. |
 | UTP-EVT-167 | 2026-10-02T02:03:03.781276+00:00 | Recorded Founder approval of PR 48 and activated its exact eleven-route search policy. Deployment and live verification are pending. | Validate the approved artifact, merge and deploy, then verify live page directives and crawler files. |
 | UTP-EVT-168 | 2026-10-02T02:10:37.844144+00:00 | Approved PR 48 merged and deployed. All 122 live page directives and canonicals, exact eleven-URL sitemap, crawler access, eleven-page metadata and three held routes verified. Search Console and actual indexing are not claimed. | Follow up on Search Console and actual indexing while preserving the eleven-page scope and open specialist/browser reviews. |
 | UTP-EVT-169 | 2026-10-02T02:14:55.666899+00:00 | Founder authorized Search Console follow-up. Supported browser navigation was denied by an unavailable admin-policy verification check before account access; no ownership or sitemap action was performed. Removed the superseded approval-pending blocker from completed WORK-138. | Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control. |
@@ -583,6 +582,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-173 | 2026-10-02T03:00:45.576278+00:00 | Corrected premature attribution of the generic success message to Utkal. Founder screenshot shows Blogspot sitemap could not be fetched; Utkal submission is unconfirmed. Prior message and events retained as history. | Select https://utkalproject.org/ in the top-left property selector, then inspect or submit sitemap.xml for that property. |
 | UTP-EVT-174 | 2026-10-02T03:03:10.136358+00:00 | New screenshot confirms Utkal sitemap submission with Google fetch failure. Live HTTPS response 200, application/xml, parsed exact eleven approved URLs and current robots allow crawling. Cause unknown; no speculative website change applied. | Open the submitted sitemap row and inspect the detailed fetch error. If needed use URL Inspection live test for the exact sitemap URL, following Google guidance. |
 | UTP-EVT-175 | 2026-10-02T03:11:47.032560+00:00 | Founder screenshot confirms Google LIVE TEST can access the exact Utkal sitemap URL. Earlier fetch failure remains historical evidence; successful sitemap processing and editorial-page indexing are not yet established. | Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled. |
+| UTP-EVT-176 | 2026-10-02T04:31:29.481419+00:00 | Founder reports persistent sitemap failure. All four DNS-published addresses return identical valid sitemap and crawl-allowing robots responses. Recorded homepage indexed screenshot with historical robots warning. Cached rules are a hypothesis, not an established cause; no speculative code or DNS changes applied. | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
 
 ## Deferred extensions
 

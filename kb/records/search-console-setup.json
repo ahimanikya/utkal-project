@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T02:14:55.666899+00:00",
-  "status": "google_live_test_available_processing_pending",
+  "status": "sitemap_processing_pending_after_successful_live_test",
   "authorization": "UTP-DEC-151",
   "human_owner": "Ahimanikya Satapathy",
   "approval_quote": "OK, go",
@@ -17,13 +17,14 @@
     "Founder reported completion of the ownership-verification step.",
     "Founder relayed a submission-success message, but its property was unspecified. Later screenshot shows the Blogspot property.",
     "New Founder screenshot confirms the Utkal property has a submitted sitemap row. Current Google status: Could not fetch.",
-    "Founder screenshot of Google LIVE TEST confirms the sitemap URL is available to Google."
+    "Founder screenshot of Google LIVE TEST confirms the sitemap URL is available to Google.",
+    "Founder screenshot shows homepage indexed with a Sep 30 robots-blocked crawl warning and a new indexing request; direct recheck confirms all four published addresses now allow crawling."
   ],
   "not_completed": [
-    "Sitemaps report processing success and discovery of the eleven approved URLs remain unconfirmed.",
-    "Actual indexing of the eleven editorial pages remains uninspected."
+    "Sitemaps report still fails according to Founder; successful processing is not confirmed.",
+    "Updated homepage crawl result and indexing of the other ten approved pages remain unverified."
   ],
-  "next_action": "Keep the submitted sitemap in place. Review its processing report later; inspect the homepage separately for page indexing. No assistant monitoring is scheduled.",
+  "next_action": "Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing.",
   "release_baseline": "UTP-REL-045",
   "evidence": [
     "records/first-search-launch-publication.json",
@@ -31,7 +32,7 @@
     "records/search-console-submission.json",
     "records/search-console-fetch-diagnosis.json"
   ],
-  "updated_at": "2026-10-02T03:11:47.032560+00:00",
+  "updated_at": "2026-10-02T04:31:29.481419+00:00",
   "submission_correction": {
     "recorded_at": "2026-10-02T03:00:45.576278+00:00",
     "source": "Founder-supplied Search Console screenshot in current conversation",
