@@ -1,0 +1,63 @@
+{
+  "run_id": "2026-10-02-forest-trade-followup",
+  "at": "2026-10-02T01:11:51.135341+00:00",
+  "scope": "Forest trade: historical Van Dhan sales, named enterprise leads and scoped OFDC proceeds allocation.",
+  "tasks": [
+    "RES-057"
+  ],
+  "task_status": "checkpoint_with_primary_access_gaps",
+  "new_source_ids": [
+    "forest-loksabha1179-2023",
+    "forest-pib-vandhan2021"
+  ],
+  "reused_source_ids": [
+    "forest-ofdc-ar2021"
+  ],
+  "human_review_claimed": false,
+  "local_odia_review": "pending",
+  "website_publication": false,
+  "validation": {
+    "research_validators": 12,
+    "result": "PASS",
+    "catalogue": "PASS",
+    "bundle": "PASS",
+    "authority_registers": "PASS",
+    "scope": "Clean committed snapshot plus explicit research changes; unrelated local duplicate copies excluded."
+  },
+  "files_changed": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/records/editorial-workbench.json",
+    "kb/records/forest-trade-followup-2026-10-02.json",
+    "kb/research/about/research-gaps.md",
+    "kb/research/about/website-readiness.md",
+    "kb/research/economy/forest-products.md",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "kb/research/methods/research-map.md",
+    "kb/research/references/data/bundle-summary.json",
+    "kb/research/references/data/classification-validation-report.json",
+    "kb/research/references/data/content-classification.json",
+    "kb/research/references/data/forest-products.json",
+    "kb/research/references/data/growth-journeys-validation-report.json",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/references/data/maritime-validation-report.json",
+    "kb/research/references/data/research-map-validation-report.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/research-queue.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/statistics-atlas.json",
+    "kb/research/references/data/statistics-validation-report.json",
+    "kb/research/references/data/validation-report.json",
+    "kb/research/references/data/visitor-index-validation-report.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/forest-loksabha1179-2023.md",
+    "kb/research/sources/forest-ofdc-ar2021.md",
+    "kb/research/sources/forest-pib-vandhan2021.md",
+    "kb/research/statistics/forest-products.md",
+    "kb/research/stories/forest-worker-support.md",
+    "kb/research/stories/van-dhan-enterprises.md",
+    "kb/research/subjects/economy.md"
+  ]
+}

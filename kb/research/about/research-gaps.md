@@ -310,3 +310,7 @@ RES-051: Kodingamali and Baphlimali identities added. Original Baphlimali annual
 ## Baphlimali returns · 2 October2026 UTC
 
 Baphlimali original annual-return/compliance text recovered. Complex employment columns, original scanned CTO, cadastral district boundaries and rehabilitation definitions require follow-up on8October. ROM stock arithmetic reconciles; original state/IBM production differences remain held. Company payments do not establish DMF project outcomes.
+
+## Forest trade follow-up · 2 October 2026 UTC
+
+Van Dhan parliamentary baseline and named historical clusters recovered. Recent STSC PDF and TDCC routes unavailable; product procurement, collector payments, women ownership and current operations remain unknown. Retry 8 October. Kendu 2019–20 and welfare-year conflicts remain held.

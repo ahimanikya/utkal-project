@@ -279,3 +279,7 @@ Added two named bauxite identities through one connected concept and four source
 ## Baphlimali returns · 2 October2026 UTC
 
 Enhanced existing Baphlimali concept and structured mine identity. Two original company records add output/payment/work scope; no duplicate mine profile. Company annual return and compliance narrative share provenance. ASI is a separate certification purpose, not interchangeable workforce corroboration.
+
+## Forest trade follow-up · 2 October 2026 UTC
+
+Enhanced existing forest-product and worker-support concepts; added two original sources, a scoped enterprise story and five named leads. Saved OFDC report reused without claiming independent corroboration. Newer indexed figures remain outside the evidence ledger.

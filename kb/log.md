@@ -235,3 +235,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Baphlimali annual return and mining baseline
 
 [Research receipt](records/baphlimali-returns-2026-10-02.json): 21 observations added; stock arithmetic reconciled, person-days and payments scoped. RES-051 baseline deliverable complete; current permissions and unresolved comparisons remain follow-up work. No website release.
+
+## 2 October 2026 · Forest trade and community enterprises
+
+[Research receipt](records/forest-trade-followup-2026-10-02.json): 10 observations added; cumulative programme sales and accounting allocations scoped. RES-057 remains unfinished; product-level procurement and collector receipts await original records. No website release.

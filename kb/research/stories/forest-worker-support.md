@@ -25,3 +25,5 @@ This is one specific form of support associated with death or permanent disabili
 These rows are categories to distinguish, not an additive flow diagram. A larger compassionate-grant amount does not by itself show improved wellbeing. The [evidence view](../statistics/forest-products.md) retains prior years, the incomplete current year and unresolved totals elsewhere. An effective story should credit the people and explain the programme without confusing assistance with prosperity.
 
 [Related reading](../statistics/forest-products.md) — Explains how payment categories differ; does not infer typical earnings or improved wellbeing from a grant total.
+
+[The sale-proceeds allocation](../statistics/forest-products.md) now shows why advances, commissions and payable balances must remain separate from verified worker receipts. [Van Dhan enterprise reporting](van-dhan-enterprises.md) provides a different programme measure, with its historical date visible.

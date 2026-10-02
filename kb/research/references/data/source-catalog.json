@@ -5027,7 +5027,15 @@
     "published_on": null,
     "locator": "Printed p.17 / PDF p.18, operational performance; printed p.8 / PDF p.9, kendu trade",
     "capture_note": "Original PDF downloaded through publisher listing; printed p.17 visually checked. Audited financial statements accompany the report, but this does not independently audit every narrative/table. FY2019–20 quantity is an additional unresolved vintage.",
-    "capture_method": "downloaded_pdf_with_selected_visual_check"
+    "capture_method": "downloaded_pdf_with_selected_visual_check",
+    "additional_captures": [
+      {
+        "retrieved_on": "2026-10-02",
+        "locator": "Printed p.83 / PDF p.84, Note26(b)",
+        "method": "saved_original_pdf_reused_and_page_visually_checked",
+        "scope": "FY2020–21 sales allocation covers receipts from crop years2016–2020; no new independent corroboration claimed."
+      }
+    ]
   },
   "food-palm-panda2021": {
     "id": "food-palm-panda2021",
@@ -5344,5 +5352,28 @@
     "capture_method": "primary_publisher_pdf_text_via_web_reader",
     "capture_note": "Text available. Direct PDF download returned HTTP406; FormG1 screenshots returned cache-miss. No local PDF or visual table verification claimed. Company-filed, not regulator endorsement.",
     "publication_date_basis": "Signature date, not demonstrated posting date."
+  },
+  "forest-loksabha1179-2023": {
+    "id": "forest-loksabha1179-2023",
+    "title": "Lok Sabha question 1179: economic development of tribal communities",
+    "resource": "https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals",
+    "publisher": "Ministry of Tribal Affairs, Government of India",
+    "published_on": "2023-12-11",
+    "accessed_on": "2026-10-02",
+    "locator": "PDF pp.1,3; annexure Odisha row20 and total row",
+    "capture_method": "primary_pdf_text_and_local_visual_check",
+    "capture_note": "Publisher PDF saved locally; annexure visually checked. Answer date is 11December2023, not the date suggested by an unrelated discovery index.",
+    "local_capture_sha256": "1fa5ea4b80ed3295906d3a530555c06a66c730c3798270488a968b12352ad2f2"
+  },
+  "forest-pib-vandhan2021": {
+    "id": "forest-pib-vandhan2021",
+    "title": "Benefiting the tribal livelihoods of Odisha through the Van Dhan Yojana",
+    "resource": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1715921",
+    "publisher": "Ministry of Tribal Affairs, Government of India",
+    "published_on": "2021-05-04",
+    "accessed_on": "2026-10-02",
+    "locator": "Paragraphs naming Mayurbhanj clusters, Anchalika Khandadhar and Ban Durga",
+    "capture_method": "primary_publisher_html",
+    "capture_note": "Historical programme account. Product plans and early production language do not establish current operation, product sales or collector earnings."
   }
 }

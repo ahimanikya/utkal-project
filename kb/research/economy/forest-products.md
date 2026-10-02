@@ -4,7 +4,7 @@ title: "Forest products: household use, markets and livelihoods"
 description: "Forest products: household use, markets and livelihoods — evidence, context and open questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:23:15.175549+00:00"}
-sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}, {"id": "forest-kendujhar2018", "title": "Collection and marketing of Non-Timber forest products in Kendujhar District of Odisha", "resource": "https://ideas.repec.org/a/ags/injagm/399613.html"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}, {"id": "forest-tdcc-mfp", "title": "TDCCOL MSP on MFP product listing", "resource": "https://www.tdccodisha.org/MSPonMFP.php"}]
+sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}, {"id": "forest-kendujhar2018", "title": "Collection and marketing of Non-Timber forest products in Kendujhar District of Odisha", "resource": "https://ideas.repec.org/a/ags/injagm/399613.html"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}, {"id": "forest-tdcc-mfp", "title": "TDCCOL MSP on MFP product listing", "resource": "https://www.tdccodisha.org/MSPonMFP.php"}, {"id": "forest-pib-vandhan2021", "title": "Benefiting the tribal livelihoods of Odisha through the Van Dhan Yojana", "resource": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1715921"}]
 human_review_claimed: false
 subjects: ["economy", "food", "nature", "everyday"]
 ---
@@ -77,3 +77,17 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 ## Mine-to-processing checkpoint · 1 October 2026
 
 [Mining and livelihood links](bauxite-to-aluminium.md) preserves NALCO’s reported honey/ginger project descriptions. Beneficiary counts do not measure collector earnings or market sales.
+
+## Named enterprise leads and reported sales · 2 October 2026 UTC
+
+[The Van Dhan story](../stories/van-dhan-enterprises.md) now has a dated parliamentary sales comparison. To connect it to people and products, the [ministry's 2021 account](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1715921) supplies these leads:
+
+| Named cluster or group | Place stated | Activity described in the historical plan |
+| --- | --- | --- |
+| Luguburu, Maa Dharithri and Bhimakund | Mayurbhanj | Collectively: sal-leaf plates/cups, kusum oil and processed wild honey |
+| Anchalika Khandadhar | Keonjhar | Mango preparations, turmeric powder and mustard oil |
+| Ban Durga | Not specified in the cited paragraph | Tamarind processing, sal shampoo and packed char seeds |
+
+Do not distribute the collective product list to each Mayurbhanj cluster. Current operation, women ownership, product sales and collector payments are unknown. These five named leads are a research list, not a census. Programme aggregate sales cannot be assigned to them.
+
+The next evidence sought is a dated procurement ledger, completed-sale statement and actual collector-payment record for the same product, grade and period. Recent departmental PDFs and TDCC pages failed retrieval; index snippets and auction notices remain leads. Retry on 8 October, retaining the accessible historical evidence.

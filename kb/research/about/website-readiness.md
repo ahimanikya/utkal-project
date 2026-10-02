@@ -81,3 +81,7 @@ This imported research describes the source workspace at its recorded dates. Utk
 ## Baphlimali returns · 2 October2026 UTC
 
 The expanded mining baseline is a research candidate. Baphlimali output/payment wording has original company attribution; complex employment tables and permission/rehabilitation comparisons retain holds. No website pages were deployed by this research run.
+
+## Forest trade follow-up · 2 October 2026 UTC
+
+A dated Van Dhan story candidate and OFDC allocation explanation are available. The national comparison is December 2023 programme reporting, not current leadership. Editorial review remains pending; no website publication.

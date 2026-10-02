@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T21:29:27.391557+00:00",
+  "updated_at": "2026-10-02T01:11:51.135341+00:00",
   "run_id": "2026-10-01-forest-products",
   "scope": "First checkpoint; not comprehensive market census or completed history",
   "product_groups": [
@@ -121,7 +121,17 @@
     "forest-compassionate-2025-26-amount",
     "forest-compassionate-2026-27-count",
     "forest-compassionate-2026-27-amount",
-    "forest-ofdc-ar2021-sold2019"
+    "forest-ofdc-ar2021-sold2019",
+    "forest-vandhan-2023-odisha-sales",
+    "forest-vandhan-2023-india-sales",
+    "forest-vandhan-2023-odisha-sanctioned",
+    "forest-vandhan-2023-odisha-beneficiaries",
+    "forest-ofdc-allocation2021-sales",
+    "forest-ofdc-allocation2021-working-fund",
+    "forest-ofdc-allocation2021-fdt",
+    "forest-ofdc-allocation2021-selling",
+    "forest-ofdc-allocation2021-financing",
+    "forest-ofdc-allocation2021-royalty-kldf"
   ],
   "conflicts": [
     {
@@ -451,6 +461,55 @@
       "status": "unavailable",
       "scope": "Web unavailable; indexed division-payment lead not adopted.",
       "retrieved_on": "2026-10-01",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://kenduleaves.odisha.gov.in/production-sale",
+      "status": "unavailable",
+      "scope": "Web fetch failed; direct fetch timed out after35seconds.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.tdccodisha.org/whats_new.php",
+      "status": "unavailable",
+      "scope": "Web HTTP502; direct fetch failed TLS certificate validation. No bypass used.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "status": "unavailable",
+      "scope": "Web HTTP502; existing unavailable route, not new verification.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2026-02/Annual%20Activity%20Report%202025-26_0.pdf",
+      "status": "unavailable",
+      "scope": "Web reader rejected oversized response; direct fetch timed out after45seconds.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://stsc.odisha.gov.in/sites/default/files/2025-04/Annual%20Activity%20Report%202024-25.pdf",
+      "status": "unavailable",
+      "scope": "Web timeout; direct fetch timed out after45seconds. Indexed report values remain discovery leads only.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://trifed.tribal.gov.in/en/Odisha",
+      "status": "unavailable",
+      "scope": "Web timeout.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://tdccodisha.org/upload_image/1916149893_E-_Auction_Notice_1764%2C_dated_21.10.2024_for_Sale_of_Tamarind_procured_Crop_2024_Under_MSP_Scheme_TDCC.pdf",
+      "status": "unavailable",
+      "scope": "Web cache-miss; an auction notice would not establish a completed sale.",
+      "retrieved_on": "2026-10-02",
       "retry_after": "2026-10-08"
     }
   ],
@@ -834,6 +893,11 @@
       "run_id": "2026-10-01-forest-payments",
       "at": "2026-10-01T21:29:27.391557+00:00",
       "scope": "20 observations: historical payment statements, held portal welfare series, fiscal-year grant totals and original comparative sales quantity. No unverified procurement adopted."
+    },
+    {
+      "run_id": "2026-10-02-forest-trade-followup",
+      "at": "2026-10-02T01:11:51.135341+00:00",
+      "scope": "Historical Van Dhan comparison and five named cluster leads; exact OFDC allocation arithmetic. Product-level sales/payments remain unresolved."
     }
   ],
   "seasonal_accounts": [
@@ -1141,6 +1205,300 @@
       "receipt_verified": false,
       "current_price": false,
       "human_review_claimed": false
+    }
+  ],
+  "trade_followup_checkpoint": {
+    "run_id": "2026-10-02-forest-trade-followup",
+    "retrieved_at": "2026-10-02T01:11:51.135341+00:00",
+    "source_ids": [
+      "forest-loksabha1179-2023",
+      "forest-pib-vandhan2021",
+      "forest-ofdc-ar2021"
+    ],
+    "observation_ids": [
+      "forest-vandhan-2023-odisha-sales",
+      "forest-vandhan-2023-india-sales",
+      "forest-vandhan-2023-odisha-sanctioned",
+      "forest-vandhan-2023-odisha-beneficiaries",
+      "forest-ofdc-allocation2021-sales",
+      "forest-ofdc-allocation2021-working-fund",
+      "forest-ofdc-allocation2021-fdt",
+      "forest-ofdc-allocation2021-selling",
+      "forest-ofdc-allocation2021-financing",
+      "forest-ofdc-allocation2021-royalty-kldf"
+    ],
+    "parliamentary_comparison": {
+      "source_id": "forest-loksabha1179-2023",
+      "locator": "PDF p.3, full annexure",
+      "source_unit": "INR lakh",
+      "rows": [
+        {
+          "geography": "Andhra Pradesh",
+          "sales": 278.477
+        },
+        {
+          "geography": "Arunachal Pradesh",
+          "sales": 6.17
+        },
+        {
+          "geography": "Assam",
+          "sales": 360.47
+        },
+        {
+          "geography": "Chhattisgarh",
+          "sales": 753.04
+        },
+        {
+          "geography": "Dadra & Nagar Haveli and Daman & Diu",
+          "sales": 5
+        },
+        {
+          "geography": "Goa",
+          "sales": 31.6
+        },
+        {
+          "geography": "Gujarat",
+          "sales": 6
+        },
+        {
+          "geography": "Himachal Pradesh",
+          "sales": 7.7
+        },
+        {
+          "geography": "Jammu & Kashmir",
+          "sales": 0
+        },
+        {
+          "geography": "Ladakh",
+          "sales": 0
+        },
+        {
+          "geography": "Jharkhand",
+          "sales": 44.4
+        },
+        {
+          "geography": "Karnataka",
+          "sales": 24.27
+        },
+        {
+          "geography": "Kerala",
+          "sales": 7.91
+        },
+        {
+          "geography": "Madhya Pradesh",
+          "sales": 130.31
+        },
+        {
+          "geography": "Maharashtra",
+          "sales": 97.32
+        },
+        {
+          "geography": "Manipur",
+          "sales": 303.55
+        },
+        {
+          "geography": "Meghalaya",
+          "sales": 14.71
+        },
+        {
+          "geography": "Mizoram",
+          "sales": 295.71
+        },
+        {
+          "geography": "Nagaland",
+          "sales": 409.02
+        },
+        {
+          "geography": "Odisha",
+          "sales": 1072.01
+        },
+        {
+          "geography": "Rajasthan",
+          "sales": 117.43
+        },
+        {
+          "geography": "Sikkim",
+          "sales": 15.84
+        },
+        {
+          "geography": "Tamil Nadu",
+          "sales": 93.24
+        },
+        {
+          "geography": "Telangana",
+          "sales": 0
+        },
+        {
+          "geography": "Tripura",
+          "sales": 17.91
+        },
+        {
+          "geography": "Uttar Pradesh",
+          "sales": 6.97
+        },
+        {
+          "geography": "Uttarakhand",
+          "sales": 3.89
+        },
+        {
+          "geography": "West Bengal",
+          "sales": 0
+        }
+      ],
+      "published_total": 4102.95,
+      "sum_of_displayed_rows": 4102.947,
+      "rounding_difference": -0.0029999999997016857,
+      "ranking": {
+        "odisha_position": 1,
+        "comparison_universe": "28 listed state/UT rows",
+        "basis": "reported cumulative programme sales; no current ranking"
+      },
+      "odisha_share_of_published_total_percent": 26.127786105119487,
+      "calculation": "1072.01 / 4102.95 * 100",
+      "caveat": "Includes MFP and non-MFP. Uses published rounded total; not a statewide forest-market share or income estimate."
+    },
+    "ofdc_allocation": {
+      "source_id": "forest-ofdc-ar2021",
+      "locator": "Printed p.83, Note26(b)",
+      "sale_proceeds_INR": 4608417021,
+      "components": [
+        {
+          "key": "working-fund",
+          "label": "Working-fund advance released to Forest Department",
+          "value_INR": 2700271422,
+          "payment_stage": "released_advance"
+        },
+        {
+          "key": "fdt",
+          "label": "Forest development tax payable",
+          "value_INR": 0,
+          "payment_stage": "payable"
+        },
+        {
+          "key": "selling",
+          "label": "OFDC selling commission",
+          "value_INR": 412046335,
+          "payment_stage": "commission_allocation"
+        },
+        {
+          "key": "financing",
+          "label": "OFDC additional commission on financing",
+          "value_INR": 32005428,
+          "payment_stage": "commission_allocation"
+        },
+        {
+          "key": "royalty-kldf",
+          "label": "Royalty/KLDF payable to Forest Department",
+          "value_INR": 1464093836,
+          "payment_stage": "payable"
+        }
+      ],
+      "sum_components_INR": 4608417021,
+      "reconciles": true,
+      "collector_receipts": null,
+      "comment": "Cash advance to department is not verified receipt by collectors. Fiscal-year accounts cover multiple crop years. Existing2019–20 sales and quantity conflict remains open."
+    },
+    "unknown_fields": [
+      "Product-level realised procurement and sales",
+      "Collector payments, costs and net earnings",
+      "Current operation and women ownership of named clusters",
+      "Current state-origin export quantities",
+      "Reconciliation of2019–20 sales and welfare year bases"
+    ],
+    "human_review_claimed": false
+  },
+  "producer_group_leads": [
+    {
+      "id": "luguburu-vdvkc",
+      "name": "Luguburu VDVKC",
+      "district": "Mayurbhanj",
+      "product_scope_group": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "maa-dharithri-vdvkc",
+      "name": "Maa Dharithri VDVKC",
+      "district": "Mayurbhanj",
+      "product_scope_group": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "bhimakund-vdvkc",
+      "name": "Bhimakund VDVKC",
+      "district": "Mayurbhanj",
+      "product_scope_group": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "anchalika-khandadhar-vdvkc",
+      "name": "Anchalika Khandadhar VDVKC",
+      "district": "Keonjhar",
+      "planned_products": [
+        "mango preparations",
+        "turmeric powder",
+        "mustard oil"
+      ],
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    },
+    {
+      "id": "ban-durga-vdvkc",
+      "name": "Ban Durga VDVKC",
+      "district": null,
+      "planned_products": [
+        "deseeded tamarind",
+        "tamarind cake",
+        "sal shampoo",
+        "packed char seeds"
+      ],
+      "source_id": "forest-pib-vandhan2021",
+      "reported_on": "2021-05-04",
+      "evidence_stage": "historical_programme_plan",
+      "current_operating_status": null,
+      "realised_sales": null,
+      "collector_payments": null,
+      "women_ownership": null
+    }
+  ],
+  "producer_group_product_scopes": [
+    {
+      "id": "mayurbhanj-three-clusters",
+      "source_id": "forest-pib-vandhan2021",
+      "collective_inputs": [
+        "sal leaves",
+        "sal seeds",
+        "kusum seeds",
+        "wild honey"
+      ],
+      "collective_planned_products": [
+        "sal-leaf plates and cups",
+        "kusum oil",
+        "processed honey"
+      ],
+      "caveat": "Source lists products collectively for three clusters; do not assign every product to every cluster."
     }
   ]
 }

@@ -15287,7 +15287,10 @@
         "forest-ofdc-kendu",
         "forest-kendujhar2018",
         "forest-vasundhara2001",
-        "forest-tdcc-mfp"
+        "forest-tdcc-mfp",
+        "forest-loksabha1179-2023",
+        "forest-pib-vandhan2021",
+        "forest-ofdc-ar2021"
       ],
       "added_at": "2026-10-01T19:23:15.175549+00:00"
     },
@@ -15329,7 +15332,10 @@
       ],
       "source_ids": [
         "forest-sector2025",
-        "forest-ofdc-kendu"
+        "forest-ofdc-kendu",
+        "forest-loksabha1179-2023",
+        "forest-pib-vandhan2021",
+        "forest-ofdc-ar2021"
       ],
       "added_at": "2026-10-01T19:23:15.175549+00:00"
     },
@@ -16617,6 +16623,62 @@
         "mining-baphlimali-ec-sep2025"
       ],
       "added_at": "2026-10-02T00:49:26.791780+00:00"
+    },
+    {
+      "id": "sources/forest-loksabha1179-2023",
+      "title": "Lok Sabha question 1179: economic development of tribal communities",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-loksabha1179-2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "forest-loksabha1179-2023"
+      ],
+      "added_at": "2026-10-02T01:11:51.135341+00:00"
+    },
+    {
+      "id": "sources/forest-pib-vandhan2021",
+      "title": "Benefiting the tribal livelihoods of Odisha through the Van Dhan Yojana",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/forest-pib-vandhan2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "everyday"
+      ],
+      "source_ids": [
+        "forest-pib-vandhan2021"
+      ],
+      "added_at": "2026-10-02T01:11:51.135341+00:00"
+    },
+    {
+      "id": "stories/van-dhan-enterprises",
+      "title": "Forest products, local enterprise: a documented Odisha strength",
+      "kind": "Evidence Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/van-dhan-enterprises.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "everyday",
+        "governance"
+      ],
+      "source_ids": [
+        "forest-loksabha1179-2023",
+        "forest-pib-vandhan2021"
+      ],
+      "added_at": "2026-10-02T01:11:51.135341+00:00"
     }
   ],
   "shared_publications": [
@@ -17776,7 +17838,10 @@
         "sources/forest-vasundhara-tamarind.md",
         "sources/forest-kl-welfare2026.md",
         "sources/forest-ofdc-ar2021.md",
-        "stories/forest-worker-support.md"
+        "stories/forest-worker-support.md",
+        "sources/forest-loksabha1179-2023.md",
+        "sources/forest-pib-vandhan2021.md",
+        "stories/van-dhan-enterprises.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile OFDC2019–20 conflict; obtain dated TDCCOL/Van Dhan product-level procurement, realised sales and collector payments. Add costs, processing and exports only when evidenced.",
@@ -17889,8 +17954,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1142,
-    "updated_at": "2026-10-02T00:49:26.791780+00:00",
+    "records_mapped": 1145,
+    "updated_at": "2026-10-02T01:11:51.135341+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -18351,6 +18416,11 @@
       "run_id": "2026-10-02-baphlimali-returns",
       "at": "2026-10-02T00:49:26.791780+00:00",
       "scope": "Existing mine record enhanced from two original company documents; no duplicate identity or invented current permission."
+    },
+    {
+      "run_id": "2026-10-02-forest-trade-followup",
+      "at": "2026-10-02T01:11:51.135341+00:00",
+      "scope": "Two original institutional sources and one scoped story. Existing forest products, payment and OFDC records enhanced; five named cluster leads retain unknown current status."
     }
   ]
 }

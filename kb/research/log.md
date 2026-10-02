@@ -324,3 +324,7 @@ Bauxite-site checkpoint: 15 observations, two mine identities, one evidenced sup
 ## Baphlimali returns · 2 October2026 UTC
 
 Added 21 Baphlimali annual-return/compliance observations. Stock arithmetic reconciled; person-days, daily averages, captive dispatch and statutory payments separated. Download/visual failures recorded; complex tables and conflicts remain held. RES-051 baseline deliverable assessed complete with explicit follow-up gaps; next eligible existing research task RES-057. Local research release, no website publication.
+
+## Forest trade follow-up · 2 October 2026 UTC
+
+Added 10 observations: historical Van Dhan totals and exact OFDC accounting components. Five named cluster leads retain unknown current operation and receipts. New primary-route failures recorded. RES-057 checkpoint saved with 8 October retry; completion criteria not met. Local research candidate; no website publication.

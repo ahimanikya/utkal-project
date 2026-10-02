@@ -4,7 +4,7 @@ title: "Forest products: what the market numbers measure"
 description: "Forest products: what the market numbers measure — evidence, context and open questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:23:15.175549+00:00"}
-sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}]
+sources: [{"id": "forest-sector2025", "title": "Highlights of Odisha Forestry Sector 2025", "resource": "https://odishaforest.in/admin/data/documents/publication_file_1151142053.pdf"}, {"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}, {"id": "forest-loksabha1179-2023", "title": "Lok Sabha question 1179: economic development of tribal communities", "resource": "https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals"}]
 human_review_claimed: false
 subjects: ["economy", "food", "nature"]
 ---
@@ -53,3 +53,23 @@ Source: [Compassionate Grant table](https://kenduleaves.odisha.gov.in/welfare-me
 ## An additional original vintage for the sales discrepancy
 
 OFDC's 2020–21 annual report gives **262,581 quintals** in the FY2019–20 comparative sales column (printed p.17), equivalent to 2.62581 lakh quintals. The page was visually checked. This supports an additional precise historical observation but does not reconcile the existing 2.625/2.621 lakh totals or ₹399.09/₹399.14 crore sales values. Keep the original conflict open. [Annual report](https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf).
+
+## Van Dhan: a dated national comparison · 2 October 2026 UTC
+
+The [11 December 2023 parliamentary reply](https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals) reports **₹10.7201 crore** in cumulative Odisha Van Dhan sales, **170 sanctioned centres** and **50,094 beneficiaries**. Odisha's reported sales are the highest of the annexure's 28 state/UT rows and about **26.1%** of its ₹41.0295 crore total. These are programme figures, including MFP and non-MFP activities; they are neither annual sales nor the whole forest economy. The exact common reporting cutoff is unstated.
+
+The annexure was visually checked. A newer departmental report was located but could not be retrieved; its indexed figures have not been substituted. No growth calculation connects incompatible reporting snapshots. [Readable story](../stories/van-dhan-enterprises.md).
+
+## Kendu accounts: where the sale proceeds are allocated
+
+OFDC's FY2020–21 accounts report **₹460.8417021 crore** realised sales in Note26(b), covering receipts from 2016–2020 crops. The allocation reconciles exactly in original rupees:
+
+| Accounting component | ₹crore, rounded | Payment status |
+| --- | ---: | --- |
+| Working-fund advance to Forest Department | 270.03 | Released to department |
+| Selling commission | 41.20 | Commission allocation |
+| Additional financing commission | 3.20 | Commission allocation |
+| Royalty/KLDF | 146.41 | Payable to department |
+| Forest development tax | 0.00 | Payable category |
+
+[Annual report, printed p.83 / PDF p.84](https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf), visually checked. Exact values are retained in the structured register. A payable balance is not proof of cash payment; working funds are not a verified sum received by collectors. Do not add these components to welfare grants. The FY2019–20 conflict remains unresolved.

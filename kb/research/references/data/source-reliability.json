@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T00:49:26.791780+00:00",
+  "updated_at": "2026-10-02T01:11:51.135341+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4964,6 +4964,80 @@
           "reason": "Scanned CTO pages not exposed as readable text"
         }
       ]
+    },
+    {
+      "discovery_url": "https://kenduleaves.odisha.gov.in/production-sale",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web fetch failed; direct fetch timed out after35seconds.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://www.tdccodisha.org/whats_new.php",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web HTTP502; direct fetch failed TLS certificate validation. No bypass used.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://www.tdccodisha.org/MSPonMFP.php",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web HTTP502; existing unavailable route, not new verification.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://stsc.odisha.gov.in/sites/default/files/2026-02/Annual%20Activity%20Report%202025-26_0.pdf",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web reader rejected oversized response; direct fetch timed out after45seconds.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://stsc.odisha.gov.in/sites/default/files/2025-04/Annual%20Activity%20Report%202024-25.pdf",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web timeout; direct fetch timed out after45seconds. Indexed report values remain discovery leads only.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://trifed.tribal.gov.in/en/Odisha",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web timeout.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "discovery_url": "https://tdccodisha.org/upload_image/1916149893_E-_Auction_Notice_1764%2C_dated_21.10.2024_for_Sale_of_Tamarind_procured_Crop_2024_Under_MSP_Scheme_TDCC.pdf",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "unavailable",
+      "scope": "Web cache-miss; an auction notice would not establish a completed sale.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "forest-loksabha1179-2023",
+      "discovery_url": "https://sansad.in/getFile/loksabhaquestions/annex/1714/AU1179.pdf?source=pqals",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "available",
+      "scope": "PDF pp.1,3; annexure Odisha row20 and total row",
+      "capture_method": "primary_pdf_text_and_local_visual_check"
+    },
+    {
+      "source_id": "forest-pib-vandhan2021",
+      "discovery_url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1715921",
+      "checked_at": "2026-10-02T01:11:51.135341+00:00",
+      "run_id": "2026-10-02-forest-trade-followup",
+      "status": "available",
+      "scope": "Paragraphs naming Mayurbhanj clusters, Anchalika Khandadhar and Ban Durga",
+      "capture_method": "primary_publisher_html"
     }
   ]
 }

@@ -13,3 +13,7 @@ human_review_claimed: false
 Odisha Forest Development Corporation Limited. Original PDF downloaded through publisher listing; printed p.17 visually checked. Audited financial statements accompany the report, but this does not independently audit every narrative/table. FY2019–20 quantity is an additional unresolved vintage.
 
 Printed p.17 / PDF p.18, operational performance; printed p.8 / PDF p.9, kendu trade. [Original source](https://www.odishafdc.com/annual_report/Annual_Report_2021.pdf).
+
+## Additional saved-source check · 2 October 2026 UTC
+
+Printed p.83 / PDF p.84, Note26(b), visually checked from the previously downloaded original. Exact FY2020–21 sale-proceeds allocation added; financial-year and crop-year scope preserved. Reusing this report is not independent corroboration.
