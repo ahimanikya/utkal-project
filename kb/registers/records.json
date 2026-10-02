@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T18:23:08.583818+00:00",
+  "recorded_at": "2026-10-02T18:29:45.656472+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4194,7 +4194,7 @@
       "id": "UTP-WORK-144",
       "title": "Integrate mining and manufacturing research from PR 60",
       "category": "research_integration",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
@@ -4202,14 +4202,16 @@
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-160",
-      "next_action": "Run GitHub checks and merge the reconciled candidate under the current authorization. Keep RES-052 evidence gaps open.",
+      "next_action": "Integration complete. RES-052 retains its source follow-up and current employment/supplier evidence gaps.",
       "blockers": [],
       "refs": [
         "UTP-DEC-160",
-        "UTP-REV-122"
+        "UTP-REV-122",
+        "UTP-REL-050"
       ],
       "evidence": [
-        "records/mining-integration-review.json"
+        "records/mining-integration-review.json",
+        "records/mining-integration-merge.json"
       ]
     }
   ],
@@ -11181,6 +11183,22 @@
         "records/autonomous-site-quality-publication.json"
       ],
       "note": "PR 61 merged and Pages deployment succeeded. 125 live files and all referenced responsive derivatives verified; research qualifications and eleven-route search scope retained."
+    },
+    {
+      "id": "UTP-REL-050",
+      "title": "Mining and manufacturing research integrated",
+      "status": "applied",
+      "authorization": "UTP-DEC-160",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/kb",
+      "refs": [
+        "UTP-DEC-160",
+        "UTP-WORK-144",
+        "UTP-REV-122"
+      ],
+      "evidence": [
+        "records/mining-integration-merge.json"
+      ],
+      "note": "PR 62 merged after CI passed; pinned PR 60 ancestry preserved. Repository research release only; website unchanged."
     }
   ],
   "sources": [

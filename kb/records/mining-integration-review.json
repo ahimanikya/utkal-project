@@ -1,6 +1,6 @@
 {
   "recorded_at": "2026-10-02T18:23:08.583818+00:00",
-  "status": "validated_candidate",
+  "status": "merged",
   "authorization": "UTP-DEC-160",
   "authorization_quote": "Go ahead",
   "context": "User authorized proceeding with the explicitly proposed PR 60 mining/manufacturing integration after approving the previous batch.",
@@ -26,7 +26,7 @@
     "catalogue": "passed",
     "bundle": "passed",
     "focused_preservation_and_scope": "passed",
-    "github_ci": "pending"
+    "github_ci": "passed"
   },
   "limitations": [
     "Source attributions and existing research qualifications reviewed; this is not an independent rereading of all original PDFs or human specialist sign-off.",
@@ -37,5 +37,6 @@
     "records/evidence/mining-integration/validation.json",
     "records/evidence/mining-integration/map-after-reconciliation.log",
     "records/evidence/mining-integration/focused-review.json"
-  ]
+  ],
+  "merge_receipt": "records/mining-integration-merge.json"
 }

@@ -415,3 +415,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2 October 2026 · Mining research integration review
 
 [Integration review](records/mining-integration-review.json): four PR 60 commits add twelve research concepts, nine source records and forty-four observations. The combined ore total now inherits the component conflict hold. Current plant employment and allocation gaps remain open; this is a knowledge-base integration, not website publication.
+
+### 2026-10-02T18:29:45.656472+00:00 · Mining research integrated
+
+PR 62 merged after CI passed. Twelve research entries and 44 observations added; nine new observations remain held. PR 60’s pinned ancestry is preserved. No website deployment. [Merge receipt](records/mining-integration-merge.json).

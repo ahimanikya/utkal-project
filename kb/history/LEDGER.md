@@ -798,3 +798,9 @@ Founder-approved PR 21 is merged into main. The [merge receipt](../records/resea
 The Founder authorized a larger autonomous batch. Accumulated research became part of the main knowledge base, with 1,053 indexed research entries. The website received route-wide browser checks and a refreshed deployment pipeline. The record distinguishes 488 checks from twelve integration/delivery items, and keeps human cultural review open. Speed did not turn source limitations into facts.
 
 [Release evidence](../records/autonomous-site-quality-publication.json). Founder: Ahimanikya Satapathy. Recorded 2026-10-02T15:09:51.214433+00:00.
+
+## UTP-HIS-0198 · Industry joins the story, with its limits visible
+
+The Founder authorized integrating the mining and manufacturing research. Rourkela steel, NALCO suppliers and apprenticeships, and IMFA chromite joined the main knowledge base. A combined ore total inherited its disputed component’s hold. The project gained evidence without presenting historical jobs or training counts as today’s employment. The public website did not change.
+
+[Integration evidence](../records/mining-integration-merge.json). Recorded 2026-10-02T18:29:45.656472+00:00.
