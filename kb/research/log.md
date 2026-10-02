@@ -340,3 +340,7 @@ RES-061 checkpoint: full-text regional paddy case captured and Tables5–7 visua
 ## Paddy procurement reconciliation · 2 October 2026 UTC
 
 RES-061: recovered2025–26 scanned government report, visually checked relevant pages, added eleven observations and a payment story. Later2023–24 payment reconciles arithmetically. Remaining task criteria await settlement scope and study year; retry 9 October. Independent research proceeds to RES-045.
+
+## Buddhist learning and Pushpagiri · 2 October 2026 UTC
+
+RES-045 bounded deliverable completed: ASI2007 excavation/inscription evidence and Li Rongxi1996 translation inspected. Nine typed claims and six chronology entries saved. Langudi dispute and missing primary plates retained; RES-046 next.

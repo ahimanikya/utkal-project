@@ -295,3 +295,7 @@ Extended existing rice economics with one original study, eight observations and
 ## Paddy procurement reconciliation · 2 October 2026 UTC
 
 Recovered one later original department report and reused saved procurement quantity/MSP records. Added two concepts; preserved earlier vintages and unresolved partial-snapshot date.
+
+## Buddhist learning and Pushpagiri · 2 October 2026 UTC
+
+Reused existing Buddhist-learning, Udayagiri, Ratnagiri, Lalitgiri and circuit story. Added Langudi as a separate identity and two source records; no duplicate universe of site counts or invented university.

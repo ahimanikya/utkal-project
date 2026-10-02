@@ -46,3 +46,7 @@ RES-044 has a deeper checkpoint: attributed Odissi development, four regional tr
 ## Music credits and access milestone · 1 October 2026
 
 RES-044 initial deliverable completed with scoped credits and media limits. Cultural tasks RES-045–050 remain pending; the sequential rule resumes earliest eligible in-progress RES-051 before selecting another pending task.
+
+## Buddhist-learning milestone · 2 October 2026 UTC
+
+RES-045 bounded criteria are complete: original excavation/inscription publication, credited Xuanzang translation, dated sequence and disputed site identification recorded. Specialist reassessment remains open. RES-046 is the next independent task.

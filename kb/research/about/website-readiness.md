@@ -97,3 +97,7 @@ A draft rice-cost story distinguishes gross value from income after C2 costs. Hi
 ## Paddy procurement reconciliation · 2 October 2026 UTC
 
 Draft combined paddy-payment story added with KMS and category visible. Eleven observations include seasonal quantities and seller counts. No payment growth percentage, statewide farm profit, unique annual farmer count or website deployment claimed.
+
+## Buddhist learning and Pushpagiri · 2 October 2026 UTC
+
+Buddhist-learning narrative now has an original excavation/inscription report, credited English translation and dated chronology. Source-backed seal story available; specialist/Odia review, image rights and current visitor access remain unverified. No website publication.

@@ -326,3 +326,7 @@ RES-061 now has a full-text regional C2 cost case. Paddy survey/valuation year a
 ## Paddy procurement reconciliation · 2 October 2026 UTC
 
 The later 2025–26 report is now available locally and visually reviewed for procurement. Its 2023–24 MSP payment 15475.18 crore matches saved quantity at common MSP after rounding. The earlier 16883.03 crore claim remains in history without an erratum explanation. Partial-period settlements, a 1.1285 crore 2024–25 diagnostic difference and the cost-study year remain open. Payment-link route returns to its index; retry 9 October.
+
+## Buddhist learning and Pushpagiri · 2 October 2026 UTC
+
+RES-045 bounded source-review deliverable complete. Langudi identification remains attributed and contested in the reviewed2007 report. Original Mukherjee1997/1998 plates and later reassessments remain follow-ups. Country-level literary counts cannot establish university enrolment, exact regional population or modern boundaries.

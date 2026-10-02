@@ -251,3 +251,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Paddy procurement payments
 
 [Research receipt](records/rice-procurement-2026-10-02.json): Eleven observations and later government report added. The2023–24 aggregate matches the common MSP after rounding. Remaining settlement/study-year evidence deferred to9October; RES-045 next. No website release.
+
+## 2 October 2026 · Buddhist learning and Pushpagiri
+
+[Research receipt](records/buddhist-learning-2026-10-02.json): Nine typed historical claims and six chronology entries added. RES-045 bounded primary-source criteria complete; Langudi disagreement retained. RES-046 next. No website release.

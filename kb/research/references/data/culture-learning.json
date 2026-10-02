@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "run_id": "2026-10-01-culture-learning",
-  "updated_at": "2026-10-01T22:40:02.923935+00:00",
+  "updated_at": "2026-10-02T02:18:39.272261+00:00",
   "scope": "Bounded first checkpoint across user-requested subjects; no complete regional history or current institutional census.",
   "canonical_people_dataset": "people-creations.json",
   "university_selection": [
@@ -256,11 +256,14 @@
     },
     {
       "field": "pushpagiri_identity_and_significance",
-      "status": "interpretation_pending_primary_review",
+      "status": "primary_excavation_and_translation_reviewed; Langudi_identity_remains_interpretive",
       "source_ids": [
-        "history-jajpur-buddhist-exhibit"
+        "history-jajpur-buddhist-exhibit",
+        "history-asi-udayagiri2007",
+        "history-xuanzang-li1996"
       ],
-      "next_action": "Read excavation, inscription and travel-text editions; no highest-ranking ancient university claim."
+      "next_action": "Read original Langudi inscription editions and later archaeological reassessments before asserting consensus. Do not convert Odra monk count into Pushpagiri enrolment.",
+      "prior_status": "interpretation_pending_primary_review"
     },
     {
       "field": "jagannath_village_origin",
@@ -292,6 +295,25 @@
       "checked_on": "2026-10-01",
       "result": "web retrieval returned Internal Error; not unchanged and not proof of nonexistence",
       "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/47",
+      "status": "available",
+      "checked_on": "2026-10-02",
+      "result": "Web reader size limit recovered by original PDF download; text and selected page images reviewed."
+    },
+    {
+      "url": "https://bdkamerica.org/download/1865",
+      "status": "available",
+      "checked_on": "2026-10-02",
+      "result": "Web reader unsupported content type recovered by publisher PDF download; title and Uḍa passage checked."
+    },
+    {
+      "url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp46202",
+      "status": "unavailable",
+      "checked_on": "2026-10-02",
+      "result": "Catalogue open timed out; no scan acquired from this route. Credited publisher translation obtained separately.",
+      "retry_after": "2026-10-09"
     }
   ],
   "reuse": [
@@ -317,6 +339,18 @@
         "education-kiss-history"
       ],
       "scope": "Founder-associated institutions; not independent outcome audits."
+    },
+    {
+      "source_ids": [
+        "history-asi-udayagiri2007"
+      ],
+      "scope": "Langudi quotations within this report are dependent on the cited Mukherjee/Pradhan publications, not independent epigraphic confirmation."
+    },
+    {
+      "source_ids": [
+        "history-xuanzang-li1996"
+      ],
+      "scope": "Publisher landing page and PDF same edition; Beal and Li are translations of the same underlying account."
     }
   ],
   "task_ids": [
@@ -483,5 +517,191 @@
       "attendance": null,
       "income": null
     }
-  ]
+  ],
+  "buddhist_learning_checkpoint": {
+    "run_id": "2026-10-02-buddhist-learning",
+    "at": "2026-10-02T02:18:39.272261+00:00",
+    "claims": [
+      {
+        "id": "udayagiri2-monastery-name",
+        "source_id": "history-asi-udayagiri2007",
+        "evidence_class": "excavation_epigraphy",
+        "site": "Udayagiri-2",
+        "claim": "Monastery identified as Simhaprastha Mahavihara through inscribed seals/sealings.",
+        "locator": "p.123; p.141 entries3,6,8,14; accession117,123,138,193",
+        "credit": "Report: Bimal Bandyopadhyay; readings: Snigdha Tripathy",
+        "limit": "Individual readings are fragmentary; no fresh independent decipherment claimed."
+      },
+      {
+        "id": "udayagiri1-monastery-name",
+        "source_id": "history-asi-udayagiri2007",
+        "evidence_class": "prior_excavation_synthesis_in_report",
+        "site": "Udayagiri-1",
+        "claim": "Earlier excavations identified Madhavapura Mahavihara through seals.",
+        "locator": "p.1",
+        "limit": "Distinct excavation area/name within Udayagiri; not Pushpagiri or the Jain Udayagiri caves."
+      },
+      {
+        "id": "udayagiri2-occupation",
+        "source_id": "history-asi-udayagiri2007",
+        "evidence_class": "archaeological_interpretation",
+        "site": "Udayagiri-2",
+        "claim": "Report broadly dates the remains to c.eighth–twelfth centuries CE, with the monastery described from eighth/ninth to early twelfth.",
+        "locator": "p.41",
+        "limit": "Debris prevented a clean stratigraphic sequence; no exact foundation year or unbroken institutional continuity established."
+      },
+      {
+        "id": "udayagiri2-votive-stupas",
+        "source_id": "history-asi-udayagiri2007",
+        "evidence_class": "excavation_recovery_count",
+        "site": "Udayagiri-2",
+        "value": 25,
+        "unit": "stone votive stupas recovered",
+        "period": "1997–2000 excavation campaign",
+        "locator": "p.123",
+        "limit": "Excavation recovery count, not every stupa at the site or in Odisha."
+      },
+      {
+        "id": "xuanzang-odra-monasteries",
+        "source_id": "history-xuanzang-li1996",
+        "evidence_class": "translated_historical_account",
+        "geography": "Uḍa/Odra as described in the text",
+        "value": 100,
+        "qualifier": "more_than",
+        "unit": "monasteries",
+        "period": "seventh-century account; translation1996",
+        "locator": "Fascicle X,p.269",
+        "limit": "Country-level literary statement, not Pushpagiri institutions or a modern census."
+      },
+      {
+        "id": "xuanzang-odra-monks",
+        "source_id": "history-xuanzang-li1996",
+        "evidence_class": "translated_historical_account",
+        "geography": "Uḍa/Odra as described in the text",
+        "value": 10000,
+        "qualifier": "more_than",
+        "unit": "monks",
+        "period": "seventh-century account; translation1996",
+        "locator": "Fascicle X,p.269",
+        "limit": "Not students enrolled at Pushpagiri; contemporary state boundaries cannot be assumed."
+      },
+      {
+        "id": "xuanzang-pushpagiri",
+        "source_id": "history-xuanzang-li1996",
+        "evidence_class": "translated_historical_account",
+        "claim": "Pushpagiri is named separately as a mountain monastery in the southwestern part of Uḍa.",
+        "locator": "Fascicle X,pp.269–270",
+        "limit": "Passage does not give enrolment, foundation year, university rank or modern coordinates; marvels are religious narrative."
+      },
+      {
+        "id": "langudi-identification-proposal",
+        "source_id": "history-asi-udayagiri2007",
+        "evidence_class": "quoted_scholarly_interpretation",
+        "claim": "Mukherjee’s fragmentary inscription readings and Pradhan’s excavations are presented as supporting the Langudi–Pushpagiri identification.",
+        "locator": "pp.13–15",
+        "limit": "Original Langudi articles/plates not directly inspected; quote chain is not new corroboration."
+      },
+      {
+        "id": "langudi-identification-reservation",
+        "source_id": "history-asi-udayagiri2007",
+        "evidence_class": "author_field_observation_and_interpretation",
+        "claim": "Bandyopadhyay describes a3December1999 visit and concludes that identification needs deeper study.",
+        "locator": "pp.15–17",
+        "limit": "Dated scholarly reservation, not a claim that no later evidence exists or a current universal verdict."
+      }
+    ],
+    "chronology": [
+      {
+        "period": "Seventh century CE",
+        "event": "Xuanzang’s account describes learning in Uḍa and names Pushpagiri.",
+        "source_id": "history-xuanzang-li1996",
+        "locator": "pp.269–270",
+        "evidence_class": "translated_historical_account"
+      },
+      {
+        "period": "c.eighth–twelfth centuries CE",
+        "event": "Broad occupation range assigned to Udayagiri-2 in the excavation report.",
+        "source_id": "history-asi-udayagiri2007",
+        "locator": "p.41",
+        "evidence_class": "archaeological_interpretation"
+      },
+      {
+        "period": "1958–1961",
+        "event": "Ratnagiri excavations under Debala Mitra recalled in the report preface.",
+        "source_id": "history-asi-udayagiri2007",
+        "locator": "Preface,p.v",
+        "evidence_class": "excavation_history"
+      },
+      {
+        "period": "1985–86 to1988–89",
+        "event": "Four earlier Udayagiri excavation seasons; Madhavapura identification.",
+        "source_id": "history-asi-udayagiri2007",
+        "locator": "p.1",
+        "evidence_class": "excavation_history"
+      },
+      {
+        "period": "1997–2000",
+        "event": "Udayagiri-2 campaign recovered evidence for Simhaprastha.",
+        "source_id": "history-asi-udayagiri2007",
+        "locator": "Title,foreword,pp.123,141",
+        "evidence_class": "excavation_history"
+      },
+      {
+        "period": "2007",
+        "event": "ASI publishes the Udayagiri-2 excavation report.",
+        "source_id": "history-asi-udayagiri2007",
+        "locator": "Title/copyright pages",
+        "evidence_class": "publication_date"
+      }
+    ],
+    "identities": [
+      {
+        "id": "langudi",
+        "path": "places/langudi.md",
+        "pushpagiri_relationship": "proposed_identification_with_documented_disagreement"
+      },
+      {
+        "id": "ratnagiri",
+        "path": "places/ratnagiri.md",
+        "pushpagiri_relationship": "not_merged"
+      },
+      {
+        "id": "lalitgiri",
+        "path": "places/lalitgiri.md",
+        "pushpagiri_relationship": "not_merged"
+      },
+      {
+        "id": "udayagiri-buddhist",
+        "path": "places/udayagiri-buddhist.md",
+        "excavation_areas": [
+          "Madhavapura / Udayagiri-1",
+          "Simhaprastha / Udayagiri-2"
+        ],
+        "pushpagiri_relationship": "not_merged"
+      }
+    ],
+    "not_established": [
+      "University ranking or enrolment at Pushpagiri",
+      "Single institutional administration across the modern Buddhist circuit",
+      "Langudi foundation by Emperor Ashoka",
+      "Resolution of fragmentary inscription chronology",
+      "Current site access or media rights"
+    ],
+    "follow_up_publications": [
+      {
+        "author": "B.N. Mukherjee",
+        "title": "Two Early Brahmi Inscriptions From The Langudi Hill Area (Orissa)",
+        "publication": "Utkala PradeepaI(1997),pp.15–16",
+        "status": "cited_in_ASI_not_directly_inspected"
+      },
+      {
+        "author": "B.N. Mukherjee",
+        "title": "An Early Inscription From The Langudi Hill Area",
+        "publication": "Utkala PradeepaII(1)(1998),pp.1–4",
+        "status": "cited_in_ASI_not_directly_inspected"
+      }
+    ],
+    "review_status": "source_checked_editorial_and_epigraphist_review_pending",
+    "human_review_claimed": false
+  }
 }

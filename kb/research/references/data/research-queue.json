@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T02:06:44.053750+00:00",
+  "updated_at": "2026-10-02T02:18:39.272261+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2039,14 +2039,19 @@
       "title": "Buddhist history and ancient learning: Pushpagiri evidence",
       "done_when": "Inspect an original excavation/inscription publication and a credited Xuanzang translation; distinguish site identities and contested interpretations. Connect a dated Buddhist chronology without invented institutional rankings or enrolment.",
       "target": "history/buddhist-learning.md",
-      "status": "pending",
-      "attempts": 1,
+      "status": "completed",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T19:04:12.192294+00:00",
-      "next_step": "Inspect an original excavation/inscription publication and a credited Xuanzang translation; distinguish site identities and contested interpretations. Connect a dated Buddhist chronology without invented institutional rankings or enrolment.",
+      "last_worked_at": "2026-10-02T02:18:39.272261+00:00",
+      "next_step": "Bounded criteria met through ASI original excavation/inscription report and Li Rongxi translation. Preserve Langudi disagreement; future deepening should inspect original1997/1998 inscription editions and later reassessments. Proceed to RES-046.",
       "evidence_outputs": [
         "history/buddhist-learning.md",
-        "references/data/culture-learning.json"
+        "references/data/culture-learning.json",
+        "sources/history-asi-udayagiri2007.md",
+        "sources/history-xuanzang-li1996.md",
+        "places/langudi.md",
+        "places/udayagiri-buddhist.md",
+        "stories/buddhist-odisha.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2056,6 +2061,13 @@
           "at": "2026-10-01T19:04:12.192294+00:00",
           "outcome": "source_backed_starting_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-buddhist-learning",
+          "at": "2026-10-02T02:18:39.272261+00:00",
+          "outcome": "primary_excavation_translation_and_dated_chronology",
+          "completion_criteria_met": true,
+          "acceptance_scope": "Original Udayagiri excavation/inscription publication and credited traveller translation inspected; identities and contested Langudi interpretations distinguished. No consensus, comprehensive history or specialist review claimed."
         }
       ],
       "reuse_before_research": {
@@ -2064,12 +2076,16 @@
           "places/ratnagiri.md",
           "places/lalitgiri.md",
           "places/udayagiri-buddhist.md",
-          "sources/buddhist.md"
+          "sources/buddhist.md",
+          "sources/history-asi-udayagiri2007.md",
+          "sources/history-xuanzang-li1996.md",
+          "places/langudi.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "completed_at": "2026-10-02T02:18:39.272261+00:00"
     },
     {
       "id": "RES-046",

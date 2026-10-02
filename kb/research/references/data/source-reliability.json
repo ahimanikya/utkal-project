@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T02:06:44.053750+00:00",
+  "updated_at": "2026-10-02T02:18:39.272261+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5136,6 +5136,28 @@
       "run_id": "2026-10-02-rice-procurement",
       "status": "partial",
       "scope": "Public KMS/season selector visible; web reader supplied no aggregate records. No claim of unchanged values.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/47",
+      "checked_at": "2026-10-02T02:18:39.272261+00:00",
+      "run_id": "2026-10-02-buddhist-learning",
+      "status": "available",
+      "scope": "Web reader size limit recovered by original PDF download; text and selected page images reviewed."
+    },
+    {
+      "discovery_url": "https://bdkamerica.org/download/1865",
+      "checked_at": "2026-10-02T02:18:39.272261+00:00",
+      "run_id": "2026-10-02-buddhist-learning",
+      "status": "available",
+      "scope": "Web reader unsupported content type recovered by publisher PDF download; title and Uḍa passage checked."
+    },
+    {
+      "discovery_url": "https://onlinebooks.library.upenn.edu/webbin/book/lookupid?key=olbp46202",
+      "checked_at": "2026-10-02T02:18:39.272261+00:00",
+      "run_id": "2026-10-02-buddhist-learning",
+      "status": "unavailable",
+      "scope": "Catalogue open timed out; no scan acquired from this route. Credited publisher translation obtained separately.",
       "retry_after": "2026-10-09"
     }
   ]

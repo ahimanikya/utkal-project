@@ -1545,7 +1545,9 @@
     {
       "concept_id": "places/udayagiri-buddhist",
       "primary_subject": "places",
-      "secondary_subjects": [],
+      "secondary_subjects": [
+        "history"
+      ],
       "content_type": "Place",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
@@ -4441,6 +4443,16 @@
       "content_type": "Evidence Story Draft",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "places/langudi",
+      "primary_subject": "places",
+      "secondary_subjects": [
+        "history"
+      ],
+      "content_type": "Place",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6424,6 +6436,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Explains why procurement payments do not measure farm profit."
+    },
+    {
+      "from": "places/langudi",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Places the proposed identification beside the traveller passage and independently named monasteries."
+    },
+    {
+      "from": "history/buddhist-learning",
+      "to": "places/langudi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates the proposed Pushpagiri identification from the named Udayagiri monasteries."
+    },
+    {
+      "from": "places/udayagiri-buddhist",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the excavated names with the traveller account while retaining separate site identities."
+    },
+    {
+      "from": "stories/buddhist-odisha",
+      "to": "history/buddhist-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Provides the chronology and separates excavation from literary testimony."
     }
   ],
   "relationship_types": {
