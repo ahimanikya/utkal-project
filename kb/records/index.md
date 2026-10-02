@@ -190,3 +190,5 @@
 - [Pitha stories and editorial workbench applied](editorial-500-publication.json) — PR 38, live delivery and retained review gaps.
 
 - [Six coastal guides: practical choices and portable books](coastal-practical-review.json) — candidate checks and remaining local verification.
+
+- [Six coastal practical guides published](coastal-practical-publication.json) — PR #51, deployment and live delivery evidence.

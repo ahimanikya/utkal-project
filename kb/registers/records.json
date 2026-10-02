@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T05:01:57.235311+00:00",
+  "recorded_at": "2026-10-02T05:21:50.119187+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4085,22 +4085,25 @@
       "id": "UTP-WORK-140",
       "title": "Six coastal guides: arrival, access, food and stays",
       "category": "website_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-153",
-      "next_action": "Founder review of the six practical guides and portable-book additions; publish only after candidate approval. Local confirmations and visual review remain open.",
+      "next_action": "Delivery complete. Retain local operating and visual review follow-ups in the visitor review queue; no further publication of this batch is pending.",
       "blockers": [],
       "refs": [
         "UTP-DEC-153",
-        "UTP-REL-045"
+        "UTP-REL-045",
+        "UTP-DEC-154",
+        "UTP-REL-046"
       ],
       "evidence": [
-        "records/coastal-practical-review.json"
+        "records/coastal-practical-review.json",
+        "records/coastal-practical-publication.json"
       ]
     }
   ],
@@ -7174,6 +7177,26 @@
       ],
       "evidence": [
         "records/coastal-practical-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-154",
+      "title": "Publish approved coastal practical visitor guides",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge and publish PR #51 at reviewed head 03bc7ddd77b0a0fc635459570300db62ff5d027c: 24 practical notes across six existing guides and portable-book links. Preserve 122 editorial pages and eleven-route search scope.",
+      "recorded_at": "2026-10-02T05:21:50.119187+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-140",
+        "UTP-REV-118"
+      ],
+      "evidence": [
+        "records/coastal-practical-publication.json"
       ]
     }
   ],
@@ -10773,6 +10796,22 @@
         "records/search-console-verification-file.json"
       ],
       "note": "Exact supplied response confirmed over HTTPS; 122 editorial page directives and eleven-URL sitemap preserved. Google ownership verification and sitemap submission are not yet confirmed."
+    },
+    {
+      "id": "UTP-REL-046",
+      "title": "Six coastal practical visitor guides published",
+      "status": "published",
+      "authorization": "UTP-DEC-154",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-154",
+        "UTP-WORK-140",
+        "UTP-REV-118"
+      ],
+      "evidence": [
+        "records/coastal-practical-publication.json"
+      ],
+      "note": "24 notes verified across six live guides. Downloadable tour-book links tested in candidate and deployment. Local confirmation, visual review and Google processing remain open."
     }
   ],
   "sources": [

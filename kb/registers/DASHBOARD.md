@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `18653660ee440ac19e041c2f597fee7eaf1b1dccbdf99ee6aa3f87bf91c725bf`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b729415151ad080aa907667a56b4f4434c1483ca701e5e94666671a411f389ea`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -152,7 +152,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-137 · Textile review follow-up and specialist brief | completed | applied | Ahimanikya Satapathy | Textile note fixes published and specialist brief adopted. Actual browser, Odia and maker reviews remain open in the linked consolidated queue. | Browser navigation stopped at an admin-policy verification failure. No rendered layout, keyboard, zoom, screenshot or interactive saved-trip review completed.; No Odia reader or textile maker has been appointed, contacted or represented as having reviewed the stories. |
 | UTP-WORK-138 · First search launch candidate and controlled publication | completed | applied | Ahimanikya Satapathy | The approved eleven-page search scope is live. Search Console ownership/submission, actual indexing reports and browser/social preview review remain follow-ups. | Browser visual and social preview inspection unavailable. |
 | UTP-WORK-139 · Search Console ownership, sitemap and indexing status | awaiting_review | applied | Ahimanikya Satapathy | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. | Sitemaps report still fails despite successful Google live test and consistent public endpoint checks. Processing cause and refreshed crawl state remain unverified. |
-| UTP-WORK-140 · Six coastal guides: arrival, access, food and stays | awaiting_review | reviewed | Ahimanikya Satapathy | Founder review of the six practical guides and portable-book additions; publish only after candidate approval. Local confirmations and visual review remain open. | — |
+| UTP-WORK-140 · Six coastal guides: arrival, access, food and stays | completed | published | Ahimanikya Satapathy | Delivery complete. Retain local operating and visual review follow-ups in the visitor review queue; no further publication of this batch is pending. | — |
 
 ## Pending human review and decisions
 
@@ -211,7 +211,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-140 | Founder review of the six practical guides and portable-book additions; publish only after candidate approval. Local confirmations and visual review remain open. |
 
 ## Decisions
 
@@ -369,6 +368,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-151 · Proceed with Search Console setup and indexing verification | approved | Ahimanikya Satapathy | Check existing Search Console property, verify ownership if accessible, submit the approved eleven-page sitemap, and inspect available indexing status. Do not expand the approved search scope. |
 | UTP-DEC-152 · Publish supplied Google ownership-verification file | approved | Ahimanikya Satapathy | Following authorization of Search Console setup, the Founder supplied googleeb3b0703307157d1.html in response to the request to attach the file for website deployment. Add and deploy that exact verification response; preserve the eleven-page search scope. The Founder completes verification in Search Console. |
 | UTP-DEC-153 · Prepare six coastal practical visitor guides | approved | Ahimanikya Satapathy | Prepare the proposed practical-information batch for Bhubaneswar, Dhauli, Puri, Raghurajpur, Konark and Chilika using existing research and bounded fresh verification. Publication remains Founder gated. |
+| UTP-DEC-154 · Publish approved coastal practical visitor guides | approved | Ahimanikya Satapathy | Merge and publish PR #51 at reviewed head 03bc7ddd77b0a0fc635459570300db62ff5d027c: 24 practical notes across six existing guides and portable-book links. Preserve 122 editorial pages and eleven-route search scope. |
 
 ## Reviews
 
@@ -540,6 +540,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-043 · Textile review notes published | published | https://utkalproject.org/textiles/ | UTP-DEC-148 |
 | UTP-REL-044 · Eleven-page search launch published | published | https://utkalproject.org/ | UTP-DEC-150 |
 | UTP-REL-045 · Google ownership-verification response published | published | https://utkalproject.org/googleeb3b0703307157d1.html | UTP-DEC-152 |
+| UTP-REL-046 · Six coastal practical visitor guides published | published | https://utkalproject.org/ | UTP-DEC-154 |
 
 ## Sources and assets
 
@@ -577,7 +578,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-169 | 2026-10-02T02:14:55.666899+00:00 | Founder authorized Search Console follow-up. Supported browser navigation was denied by an unavailable admin-policy verification check before account access; no ownership or sitemap action was performed. Removed the superseded approval-pending blocker from completed WORK-138. | Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control. |
 | UTP-EVT-170 | 2026-10-02T02:39:42.696262+00:00 | Founder supplied the requested Google HTML verification file. Prepared an exact-content publication exception without expanding editorial routes or the eleven-URL sitemap. | Deploy and verify the exact public response, then ask Founder to complete Google verification. |
 | UTP-EVT-171 | 2026-10-02T02:52:24.562605+00:00 | PR 49 merged and deployed after checks. Supplied Google response matches live bytes; all 122 editorial page directives and the eleven-URL sitemap passed live checks. Account ownership and sitemap submission remain unconfirmed. | Founder should click Verify in the open Google ownership dialog, then report the result. Sitemap submission and actual indexing inspection remain pending. |
 | UTP-EVT-172 | 2026-10-02T02:59:07.163891+00:00 | Recorded the Founder-relayed Google sitemap-submission success. Manual setup is reported complete; actual indexing remains unverified. No assistant monitor or scheduled task was created. | Review sitemap processing and indexing reports when available; preserve the approved eleven-page scope. |
@@ -587,6 +587,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-176 | 2026-10-02T04:31:29.481419+00:00 | Founder reports persistent sitemap failure. All four DNS-published addresses return identical valid sitemap and crawl-allowing robots responses. Recorded homepage indexed screenshot with historical robots warning. Cached rules are a hypothesis, not an established cause; no speculative code or DNS changes applied. | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
 | UTP-EVT-177 | 2026-10-02T04:58:15.128694+00:00 | Prepared 24 practical choices within six existing visit notebooks, with scoped official-source leads and portable-book links. Checks pending; no local verification or publication claimed. | Validate candidate and submit for Founder review. |
 | UTP-EVT-178 | 2026-10-02T05:01:57.235311+00:00 | 382 site tests, 75 coastal tests and 488 page-acceptance checks passed. Fixed a held Konark stay link; six practical guides and safe reading links survive portable export. 122-page edition and 11-route search scope preserved. Browser visual and local operating checks remain open. | Submit candidate PR for Founder review. |
+| UTP-EVT-179 | 2026-10-02T05:21:50.119187+00:00 | Founder approved PR #51. Merged exact validated head, deployed successfully and verified all 24 choices across six live guides. Eleven sitemap routes, crawler policy and ownership response remain intact. | Retain scoped local, visual and Google processing follow-ups; this delivery is complete. |
 
 ## Deferred extensions
 
