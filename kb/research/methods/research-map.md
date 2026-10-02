@@ -369,3 +369,7 @@ Existing IMFA company and people identities enhanced, one annual-report source a
 ## Plant records and scope reconciliation · 2 October 2026 UTC
 
 Four original source identities extend existing IMFA record; annual-report observation retained with revision history. Dependent Sukinda calculation preserved in quarantine, not silently deleted.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+One original parliamentary answer extends existing Rourkela record; NALCO apprenticeship is reused source scope. No independent corroboration or duplicate company identities claimed.

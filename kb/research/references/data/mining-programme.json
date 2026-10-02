@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T16:49:35.236954+00:00",
+  "updated_at": "2026-10-02T17:52:03.569038+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2162,6 +2162,51 @@
       ],
       "scope": "Government-issued letter hosted by company; no independent original-portal retrieval or October operating check. Not KNR1 status."
     },
+    "completion_criteria_met": false,
+    "human_review_claimed": false
+  },
+  "employment_checkpoint": {
+    "run_id": "2026-10-02-mining-employment",
+    "at": "2026-10-02T17:52:03.569038+00:00",
+    "observation_ids": [
+      "rsp-2015-manpower",
+      "rsp-2015-contract-projects",
+      "rsp-2015-contract-others",
+      "rsp-2015-contract-total",
+      "nalco-apprentice-trainees-2025-26"
+    ],
+    "new_source_ids": [
+      "mining-rsp-parliament-2015"
+    ],
+    "reused_source_ids": [
+      "mining-nalco-ar2026",
+      "mining-sail-ar2026",
+      "mining-rsp-ec-march2026"
+    ],
+    "rsp_scope": "Historical1April2015 parliamentary snapshot; contract projects5346 plus others3721 equals9067. No current jobs trend from health checks.",
+    "nalco_scope": "925 apprentices duringFY2025–26; no unit allocation or permanent placements. Existing workforce reused, not duplicated.",
+    "source_checks": [
+      {
+        "url": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf",
+        "status": "available_after_fallback",
+        "scope": "Web reader502; direct original download recovered two-page PDF. Page2 visually checked; published6May2015, snapshot1April2015."
+      },
+      {
+        "url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+        "status": "reused_saved_capture",
+        "scope": "Existing report searched first; p.49 apprentice annual engagement inspected. Plant payroll split still missing; no new whole-company workforce observations duplicated."
+      },
+      {
+        "url": "https://rsdebate.nic.in/bitstream/123456789/600115/2/PQ_224_28112011_U711_p234_p235.pdf",
+        "status": "unavailable",
+        "scope": "Web fetch timed out; direct request returned Parliament HTML rather than PDF. Indexed2011 unit-contract numbers not imported. Retry9October2026 via original question archive."
+      },
+      {
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=69688",
+        "status": "unavailable",
+        "scope": "Web reader cache miss; search snippet only.2010 headcount not imported."
+      }
+    ],
     "completion_criteria_met": false,
     "human_review_claimed": false
   }

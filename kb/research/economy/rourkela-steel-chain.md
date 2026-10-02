@@ -4,7 +4,7 @@ title: "Rourkela: ore, steel and the evidence for work"
 description: "Rourkela: ore, steel and the evidence for work — dated evidence, relationships and limits."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-02T14:47:52.786173+00:00"}
-sources: [{"id": "mining-sail-ar2026", "title": "SAIL Annual Report 2025–26", "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf"}, {"id": "mining-rsp-ec-march2026", "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026", "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf"}, {"id": "mining-btk-pfr2021", "title": "Barsua–Taldih–Kalta expansion pre-feasibility report, June 2021", "resource": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf"}]
+sources: [{"id": "mining-sail-ar2026", "title": "SAIL Annual Report 2025–26", "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf"}, {"id": "mining-rsp-ec-march2026", "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026", "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf"}, {"id": "mining-btk-pfr2021", "title": "Barsua–Taldih–Kalta expansion pre-feasibility report, June 2021", "resource": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf"}, {"id": "mining-rsp-parliament-2015", "title": "SAIL plant manpower and contract workers: Rajya Sabha answer 1184, 6 May 2015", "resource": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf"}]
 subjects: ["economy", "places", "everyday", "governance"]
 human_review_claimed: false
 ---
@@ -51,3 +51,16 @@ Direct/contract employment, local-supplier purchases and shipment quantities rem
 [Mining programme](mining.md) · [Existing bauxite chain](bauxite-to-aluminium.md) · [Detailed observations and boundaries](../references/data/mining-programme.json) · [Sundargarh](../statistics/districts/sundargarh.md).
 
 [Mining research](mining.md) — Connects plant and supplier evidence to the broader mining programme without equating company results with household benefits.
+
+## The people behind an expansion: a historical snapshot
+
+**Rourkela reported 9,067 contract workers on 1 April 2015.** Of these, 5,346 were assigned to projects and 3,721 to other works and non-works activities. The same table separately lists 16,939 under manpower. These categories show why an industrial employment story needs to distinguish building projects from other plant work. [Ministry of Steel, parliamentary answer 6 May 2015, p.2](https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf).
+
+| Source category | People at 1 April 2015 |
+|---|---:|
+| Manpower |16,939|
+| Contract workers: projects |5,346|
+| Contract workers: others |3,721|
+| Contract workers: total |9,067|
+
+The two contract components sum to the contract total; they must not be added again. This is a historical snapshot, not current employment or 9,067 newly created jobs. It gives no local-resident share. The 2026 health-check table has a different purpose and cannot provide a valid employment trend from this baseline. Current plant workforce, contractor definitions and local supplier spending remain unresolved.

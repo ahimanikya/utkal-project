@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T16:49:35.236954+00:00",
+  "updated_at": "2026-10-02T17:52:03.569038+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6054,6 +6054,34 @@
       "run_id": "2026-10-02-mining-plant-records",
       "status": "available_after_fallback",
       "scope": "Plain-text web page returned no results; public read-only catalogue API yielded records. Three scans needed local OCR; sandbox OCR failed, permitted local retry succeeded. Failed extraction is not unchanged data."
+    },
+    {
+      "discovery_url": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "available_after_fallback",
+      "scope": "Web reader502; direct original download recovered two-page PDF. Page2 visually checked; published6May2015, snapshot1April2015."
+    },
+    {
+      "discovery_url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "reused_saved_capture",
+      "scope": "Existing report searched first; p.49 apprentice annual engagement inspected. Plant payroll split still missing; no new whole-company workforce observations duplicated."
+    },
+    {
+      "discovery_url": "https://rsdebate.nic.in/bitstream/123456789/600115/2/PQ_224_28112011_U711_p234_p235.pdf",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "unavailable",
+      "scope": "Web fetch timed out; direct request returned Parliament HTML rather than PDF. Indexed2011 unit-contract numbers not imported. Retry9October2026 via original question archive."
+    },
+    {
+      "discovery_url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=69688",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "unavailable",
+      "scope": "Web reader cache miss; search snippet only.2010 headcount not imported."
     }
   ]
 }

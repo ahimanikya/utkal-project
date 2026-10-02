@@ -165,3 +165,7 @@ IMFA trade story drafted with country-market and turnover boundaries. Internatio
 ## Plant records and scope reconciliation · 2 October 2026 UTC
 
 Mine employment claims and Sukinda output comparison held. Kalinganagar transfer scope and Choudwar Unit-II ratios now documented. No human review or website release.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+Historical Rourkela workforce and company-wide NALCO apprenticeship added with explicit dates/categories. No current plant job headline, human review or website release.

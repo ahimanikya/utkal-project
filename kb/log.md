@@ -319,3 +319,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Plant records and scope reconciliation
 
 [Research receipt](records/mining-plant-records-2026-10-02.json): Choudwar furnace input ratios and Kalinganagar clearance-transfer scope captured. Mine workforce categories and production differences held; the previous Sukinda comparison is quarantined with its original arithmetic preserved. RES-052 continues independently with Rourkela/NALCO; IMFA scope retry is 9 October. No website release.
+
+## 2 October 2026 · Industrial employment: historical snapshots and apprenticeships
+
+[Research receipt](records/mining-employment-2026-10-02.json): Rourkela parliamentary categories are dated 1 April 2015. NALCO apprentices are company-wide engagements during FY2025–26, not permanent placements. Current plant employment remains open; RES-052 retries 9 October and RES-053 is next. No website release.

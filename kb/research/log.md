@@ -408,3 +408,7 @@ RES-052: original IMFA 2025–26 report captured with public API discovery route
 ## Plant records and scope reconciliation · 2 October 2026 UTC
 
 RES-052: four original documents; 11 observations added (seven held). Sukinda annual-report output flagged and dependent comparison quarantined with history. September KNR2 transfer limited to implemented furnaces; mine self-assessments not treated as independent audits. No website release.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+RES-052: four historical Rourkela employment observations and one NALCO annual apprenticeship observation added. Current plant jobs remain unresolved; original NALCO parliamentary PDF unavailable. Retry9October, next independent task RES-053. No website release.

@@ -394,3 +394,7 @@ Three chain narratives available, but plant-specific work, despatch allocations 
 ## Plant records and scope reconciliation · 2 October 2026 UTC
 
 Mine workforce category definitions and production scope unresolved; plant direct/contract payroll and Odisha supplier purchases remain incomplete. IMFA reconciliation retry9October; proceed independently with Rourkela/NALCO.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope reconciliation, mine-to-plant allocations and plant/local supplier boundaries still missing. Historical2015 RSP evidence cannot substitute for current observations. Retry9October; proceed with independent RES-053.

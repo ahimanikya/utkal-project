@@ -227,3 +227,7 @@ Use IMFA statutory-compliance listings for Therubali, Choudwar, Kalinganagar and
 ## Plant records and scope reconciliation · 2 October 2026 UTC
 
 Continue independent RES-052 Rourkela and NALCO plant-workforce evidence using saved annual/compliance reports before browsing. IMFA mine reconciliation subtask retries 9 October; exact gap: Sukinda annual273802 versus template269075 tonnes, Mahagiri general versus ROM and local workforce subtotals. Use original returns/corrections if available; do not repeat the four saved plant/mine documents or promote held values.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+RES-052 checkpoint deferred to9October. Seek original current unit workforce returns and historical NALCO question711 (28November2011) via Parliament archive; old route returned HTML. Reuse saved2015 RSP answer and NALCO apprenticeship passage. Next independent task RES-053 mining revenues and DMF outcomes; search existing public-finance/DMF observations before browsing.

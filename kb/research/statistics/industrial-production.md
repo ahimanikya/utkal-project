@@ -61,3 +61,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Plant-record checkpoint
 
 [IMFA’s reconciled record](../economy/company-imfa.md) distinguishes Kalinganagar clearance transfer, Choudwar furnace input ratios and held mine workforce/output data. No employment total or expanded capacity is inferred from these records.
+
+## Industrial work: dates and categories
+
+[Rourkela’s historical employment record](../economy/rourkela-steel-chain.md) now distinguishes manpower, project contract workers and other contract work at 1 April 2015. This strengthens the historical record without supplying a current plant employment total.

@@ -18299,7 +18299,8 @@
       "source_ids": [
         "mining-sail-ar2026",
         "mining-rsp-ec-march2026",
-        "mining-btk-pfr2021"
+        "mining-btk-pfr2021",
+        "mining-rsp-parliament-2015"
       ],
       "added_at": "2026-10-02T14:47:52.786173+00:00"
     },
@@ -18428,6 +18429,25 @@
         "mining-imfa-knr2-2026"
       ],
       "added_at": "2026-10-02T16:49:35.236954+00:00"
+    },
+    {
+      "id": "sources/mining-rsp-parliament-2015",
+      "title": "SAIL plant manpower and contract workers: Rajya Sabha answer 1184, 6 May 2015",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-rsp-parliament-2015.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance",
+        "history"
+      ],
+      "source_ids": [
+        "mining-rsp-parliament-2015"
+      ],
+      "added_at": "2026-10-02T17:52:03.569038+00:00"
     }
   ],
   "shared_publications": [
@@ -19574,7 +19594,9 @@
         "sources/mining-imfa-choudwar-2026.md",
         "sources/mining-imfa-sukinda-2026.md",
         "sources/mining-imfa-mahagiri-2026.md",
-        "sources/mining-imfa-knr2-2026.md"
+        "sources/mining-imfa-knr2-2026.md",
+        "sources/mining-rsp-parliament-2015.md",
+        "sources/mining-nalco-ar2026.md"
       ],
       "project_records": [],
       "remaining_scope": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
@@ -19807,8 +19829,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1233,
-    "updated_at": "2026-10-02T16:49:35.236954+00:00",
+    "records_mapped": 1234,
+    "updated_at": "2026-10-02T17:52:03.569038+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20374,6 +20396,11 @@
       "run_id": "2026-10-02-mining-plant-records",
       "at": "2026-10-02T16:49:35.236954+00:00",
       "scope": "Four distinct original plant/mine records; same company family, not independent corroboration. Existing company identity enhanced."
+    },
+    {
+      "run_id": "2026-10-02-mining-employment",
+      "at": "2026-10-02T17:52:03.569038+00:00",
+      "scope": "One new historical parliamentary source enhances existing Rourkela identity. NALCO apprenticeship reuses original annual report; no duplicate workforce series."
     }
   ]
 }
