@@ -91,3 +91,5 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Sal products](../economy/sal-products.md) — Leaf craft and a distinct seed chain, linked to local seasonal evidence.
 
 [Forest products and local enterprise](../stories/van-dhan-enterprises.md) connects a dated programme-sales comparison to named community-processing leads; turnover is separate from collector income.
+
+[Rice income after costs](../stories/rice-income-after-costs.md) explains gross value and C2 net income through a regional study, with period and representativeness limits.

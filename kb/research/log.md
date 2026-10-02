@@ -332,3 +332,7 @@ Added 10 observations: historical Van Dhan totals and exact OFDC accounting comp
 ## Rice, place and food · 2 October 2026 UTC
 
 RES-060 bounded deliverable completed: seven existing entries enhanced, nine attributed food-use records and seven historical observations. Existing varieties, statistics and frozen ledger preserved. Two primary routes unavailable; current economics remains RES-061.
+
+## Rice costs and returns · 2 October 2026 UTC
+
+RES-061 checkpoint: full-text regional paddy case captured and Tables5–7 visually checked. Eight observations, defined C2 costs and source/period qualifications retained. Procurement settlement and survey year remain open; task is not marked complete.

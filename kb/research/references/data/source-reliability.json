@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T01:39:07.455735+00:00",
+  "updated_at": "2026-10-02T01:52:06.804669+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5078,6 +5078,35 @@
       "run_id": "2026-10-02-rice-place-food",
       "status": "available",
       "scope": "Cultivation paragraph and final original-publication credit"
+    },
+    {
+      "discovery_url": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "available",
+      "scope": "Web-reader cache miss recovered by direct original PDF download;10 pages parsed, Tables5–7 visually checked."
+    },
+    {
+      "discovery_url": "https://desagri.gov.in/document-report/cost-of-cultivation-production-and-related-data-2021-22/",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "unavailable",
+      "scope": "Web reader timed out; direct request also timed out after35 seconds. No data admitted.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ouat.ac.in/or/publication/",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "available",
+      "scope": "Official publication listing accessible, but requested2023 crop-cost book not located. Third-party mirror excluded."
+    },
+    {
+      "discovery_url": "https://epubs.icar.org.in/index.php/OIJR/article/view/138554",
+      "checked_at": "2026-10-02T01:52:06.804669+00:00",
+      "run_id": "2026-10-02-rice-cost-returns",
+      "status": "available",
+      "scope": "Existing original abstract rechecked; full itemised cost text not recovered. No duplicate observations."
     }
   ]
 }

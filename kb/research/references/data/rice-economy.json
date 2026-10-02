@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-02T01:39:07.455735+00:00",
+  "updated_at": "2026-10-02T01:52:06.804669+00:00",
   "scope": "Starting rice identities and economic evidence, not an exhaustive Odisha variety census or completed market study",
   "varieties": [
     {
@@ -590,7 +590,15 @@
     "rice-adarsh2019-farmers",
     "rice-adarsh2019-seed-output",
     "rice-adarsh2019-kharif-area",
-    "rice-adarsh2019-rabi-area"
+    "rice-adarsh2019-rabi-area",
+    "rice-sahoo2023-gross",
+    "rice-sahoo2023-main",
+    "rice-sahoo2023-byproduct",
+    "rice-sahoo2023-a2",
+    "rice-sahoo2023-c2",
+    "rice-sahoo2023-net",
+    "rice-sahoo2023-yield",
+    "rice-sahoo2023-family-labour"
   ],
   "reused_observation_ids": [
     "nature-rice-2020-21",
@@ -786,6 +794,31 @@
       "reason": "Web reader unavailable; direct download returned HTML, not a PDF. No report figures admitted.",
       "retrieved_on": "2026-10-02",
       "retry_after": "2026-10-09"
+    },
+    {
+      "url": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf",
+      "status": "available",
+      "reason": "Web-reader cache miss recovered by direct original PDF download;10 pages parsed, Tables5–7 visually checked.",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "url": "https://desagri.gov.in/document-report/cost-of-cultivation-production-and-related-data-2021-22/",
+      "status": "unavailable",
+      "reason": "Web reader timed out; direct request also timed out after35 seconds. No data admitted.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "url": "https://ouat.ac.in/or/publication/",
+      "status": "available",
+      "reason": "Official publication listing accessible, but requested2023 crop-cost book not located. Third-party mirror excluded.",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "url": "https://epubs.icar.org.in/index.php/OIJR/article/view/138554",
+      "status": "available",
+      "reason": "Existing original abstract rechecked; full itemised cost text not recovered. No duplicate observations.",
+      "retrieved_on": "2026-10-02"
     }
   ],
   "gaps": [
@@ -811,6 +844,11 @@
       "run_id": "2026-10-02-rice-place-food",
       "at": "2026-10-02T01:39:07.455735+00:00",
       "scope": "Seven existing rice identities enhanced; nine attributed food-use leads remain separate from accession identity. Historical cultivation and women-led seed enterprise evidence retained."
+    },
+    {
+      "run_id": "2026-10-02-rice-cost-returns",
+      "at": "2026-10-02T01:52:06.804669+00:00",
+      "scope": "Added full-text regional paddy cost/return case; period ambiguity and conflicting ratio/cost definitions retained. Procurement reconciliation remains open."
     }
   ],
   "production_series": {
@@ -1078,6 +1116,86 @@
       "finding": "Transplanting had higher yield while direct seeding had higher reported net return; economics need more than yield.",
       "full_text_review": false,
       "representative_statewide": false
+    },
+    {
+      "id": "sahoo-north-eastern-ghats-paddy",
+      "source_id": "rice-sahoo-cost2023",
+      "evidence_class": "regional_cost_study_full_text",
+      "period": "Historical paddy case; survey year unspecified; published March 2023",
+      "study_context_year": "2018–19 for secondary context tables; not asserted as paddy survey year",
+      "geography": "North Eastern Ghats agro-climatic zone, Odisha",
+      "study_sample": {
+        "farmers": 120,
+        "clusters": 6,
+        "farmers_per_cluster": 20,
+        "districts_count": 4,
+        "paddy_specific_farmers": null,
+        "cluster_names": null,
+        "method": "Ten CCS farmers plus ten additional farmers per cluster, probability proportional to size; interviews based on recall and OUAT cost-scheme data."
+      },
+      "observation_ids": [
+        "rice-sahoo2023-gross",
+        "rice-sahoo2023-main",
+        "rice-sahoo2023-byproduct",
+        "rice-sahoo2023-a2",
+        "rice-sahoo2023-c2",
+        "rice-sahoo2023-net",
+        "rice-sahoo2023-yield",
+        "rice-sahoo2023-family-labour"
+      ],
+      "cost_definition": "C2 is B2 plus imputed family labour under the authors’ definitions; B2 includes rental land value and B1 includes owned-capital interest. A2 is not a cash-only cost.",
+      "gross_definition_used": "Table7 main product72750 + by-product6300 =79050 rupees/ha; methods formula gives main product only, so the actual table composition is retained explicitly.",
+      "full_text_review": true,
+      "visual_table_review": true,
+      "representative_statewide": false,
+      "price_basis": "Nominal source valuations; year unresolved",
+      "arithmetic_checks": [
+        {
+          "formula": "72750 + 6300",
+          "result": 79050,
+          "unit": "INR/hectare",
+          "status": "matches gross table"
+        },
+        {
+          "formula": "79050 - 41013.10",
+          "result": 38036.9,
+          "unit": "INR/hectare",
+          "status": "matches reported farm business income; not adopted as all-cost net profit"
+        },
+        {
+          "formula": "79050 - 64908.43",
+          "result": 14141.57,
+          "source_reported": 14141.58,
+          "unit": "INR/hectare",
+          "status": "0.01 rounding difference retained; underlying Table5 precision plus land valuation is consistent with source rounding"
+        },
+        {
+          "formula": "79050 / 64908.43",
+          "result": 1.2178695432935291,
+          "unit": "ratio",
+          "source_reported": 1.217869637,
+          "status": "matches within displayed precision"
+        }
+      ],
+      "held_fields": [
+        {
+          "field": "Primary paddy survey and price year",
+          "reason": "2018–19 is explicit for context and ragi Table8; no explicit date in paddy Tables5–7 or interview description."
+        },
+        {
+          "field": "Returns over variable cost",
+          "reason": "Methods define gross minus A1, Table7 instead subtracts Table5 total variable cost including family labour. Do not merge the two measures."
+        },
+        {
+          "field": "Paddy C3 exact value",
+          "reason": "Table6 gives71399.23; displayed C2 ×1.1 gives71399.273. C3 not used for public margin."
+        },
+        {
+          "field": "Ragi benefit-cost ratio",
+          "reason": "Same paper gives0.875267778, apparently cost/gross, unlike stated gross/C2 and paddy ratio. Excluded from cross-crop comparisons."
+        }
+      ],
+      "finding": "Reported gross79050/ha and C2 net14141.58/ha are different economic measures. Neither is present-day statewide farmer income."
     }
   ],
   "visuals": [
@@ -1303,5 +1421,13 @@
       "Specific recipes tested by named cooks",
       "Farmgate prices, actual sales and farmer costs"
     ]
+  },
+  "cost_return_checkpoint": {
+    "run_id": "2026-10-02-rice-cost-returns",
+    "source_ids": [
+      "rice-sahoo-cost2023"
+    ],
+    "procurement_status": "Unresolved; saved department report supplies no matched settlement reconciliation. Existing held payment claims preserved.",
+    "next_step": "Recover matched procurement settlement/adjustment records and explicit paddy survey/valuation year; retry Ministry cost data on2026-10-09."
   }
 }

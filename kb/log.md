@@ -243,3 +243,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Rice, place and food
 
 [Research receipt](records/rice-place-food-2026-10-02.json): Seven historical observations and nine food-use records added. RES-060 bounded deliverable complete; current acreage, seed identity and farmer returns remain follow-ups. No website release.
+
+## 2 October 2026 · Rice costs and returns
+
+[Research receipt](records/rice-cost-returns-2026-10-02.json): Eight observations and a full-text regional cost case added. RES-061 remains in progress: procurement scope and survey year need reconciliation. No website release.

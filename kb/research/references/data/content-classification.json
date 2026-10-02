@@ -4419,6 +4419,17 @@
       "content_type": "Evidence Story Draft",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-income-after-costs",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "people"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6374,6 +6385,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Separates seed production, grain sales and farmer returns."
+    },
+    {
+      "from": "stories/rice-income-after-costs",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the regional cost case with procurement, seed enterprises and unresolved payment scope."
+    },
+    {
+      "from": "stories/rice-income-after-costs",
+      "to": "statistics/agriculture",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Keeps historical case values separate from statewide production trends."
     }
   ],
   "relationship_types": {

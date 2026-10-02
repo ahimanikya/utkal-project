@@ -287,3 +287,7 @@ Enhanced existing forest-product and worker-support concepts; added two original
 ## Rice, place and food · 2 October 2026 UTC
 
 Extended seven existing rice records and nine name-level food-use accounts. Two new sources; existing Tulasa source corrected with revision history. No duplicate genotype, person biography or new research task.
+
+## Rice costs and returns · 2 October 2026 UTC
+
+Extended existing rice economics with one original study, eight observations and a linked cost story. No repeat production-series extraction or duplicate mirror corroboration.

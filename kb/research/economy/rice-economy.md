@@ -4,7 +4,7 @@ title: "Odisha’s rice economy: from paddy to value"
 description: "A sourced starting account of rice production, procurement and milling, with price bases and open profitability questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T20:10:23.860704+00:00"}
-sources: [{"id": "rice-oas2024", "title": "Odisha Agriculture Statistics 2023–24", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf"}, {"id": "rice-fscw2025", "title": "Food Supplies and Consumer Welfare Annual Activities Report 2024–25", "resource": "https://www.foododisha.in/Download/annual-activity-glance-24-25.pdf"}]
+sources: [{"id": "rice-oas2024", "title": "Odisha Agriculture Statistics 2023–24", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf"}, {"id": "rice-fscw2025", "title": "Food Supplies and Consumer Welfare Annual Activities Report 2024–25", "resource": "https://www.foododisha.in/Download/annual-activity-glance-24-25.pdf"}, {"id": "rice-sahoo-cost2023", "title": "Study of Cropping Pattern and Profitability Analysis of Major Crops of North Eastern Ghats Agro-Climatic Zone of Odisha", "resource": "https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf"}]
 human_review_claimed: false
 subjects: ["economy", "food", "governance"]
 ---
@@ -42,7 +42,7 @@ A retail premium is not the farmer’s premium. Farm receipts minus clearly defi
 
 The report’s partial KMS 2024–25 payment/quantity snapshot and its KMS 2023–24 aggregate payment claim need reconciliation before any rupee-scale market headline. These are saved as held claims in the [register](../references/data/rice-economy.json). The 2025–26 report link failed to open; this edition is a historical baseline, not a claim that procurement is current to 2026.
 
-Next work: a comparable five-/ten-year production series; district patterns; farmer cost and margin evidence; premium-variety transactions and attributable exports. [Rice identities and seed keepers](../food/rice-varieties.md) provide the cultural and agricultural context.
+Comparable production series and district snapshots are saved below. Next work: matched procurement settlements, dated farmer cost evidence, premium-variety transactions and attributable exports. [Rice identities and seed keepers](../food/rice-varieties.md) provide the cultural and agricultural context.
 
 ## Comparable trends: growth with setbacks
 
@@ -61,3 +61,11 @@ Matching the saved 2023–24 procurement volume with that year’s common/Grade-
 ## Seed production is its own market
 
 [The Kalahandi seed-enterprise case](../food/rice-varieties.md) adds dated collective production and named seed classes. Seed output does not establish completed sales or member earnings. Variety-specific output, processing costs, realised seed prices and payment records remain the next economic questions.
+
+## What remains after growing the rice?
+
+A regional study published in March 2023 reports **₹79,050/ha gross income** and **₹14,141.58/ha net income after C2 costs** for its paddy case. C2 includes valued family labour, land and owned-capital costs. Its A2 cost of ₹41,013.10/ha also includes depreciation and owned inputs; it is not simply cash spending. [Sahoo and colleagues, Tables 5–7](https://ndpublisher.in/countpdfdownload.php?id=5788&pdf=EAv68n1p.pdf).
+
+The full study sampled 120 farmers across six clusters; the paddy-specific sample and survey year are unclear. Context tables use 2018–19, which we have not assigned to the paddy case. These nominal historical values cannot be extrapolated to statewide farmer profit or compared with current MSP as a margin.
+
+[The short cost story](../stories/rice-income-after-costs.md) explains the difference between gross value and net income. The [structured case](../references/data/rice-economy.json) retains rounding differences and conflicting definitions. The existing Samant experimental case remains separately identified.

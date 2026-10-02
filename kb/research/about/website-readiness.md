@@ -89,3 +89,7 @@ A dated Van Dhan story candidate and OFDC allocation explanation are available. 
 ## Rice, place and food · 2 October 2026 UTC
 
 Rice seed-to-food story candidate available with historical dates and participant attribution. Local/Odia review, current suppliers, tested recipes and portrait rights remain open. No website deployment.
+
+## Rice costs and returns · 2 October 2026 UTC
+
+A draft rice-cost story distinguishes gross value from income after C2 costs. Historical case, unresolved survey year and non-statewide scope remain visible. No website publication or human review claimed.

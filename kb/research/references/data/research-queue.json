@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T01:39:07.455735+00:00",
+  "updated_at": "2026-10-02T01:52:06.804669+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2839,19 +2839,21 @@
       "done_when": "Build comparable five-/ten-year rice area, output and yield series; reconcile procurement payment scope and document at least one clearly defined Odisha cost/return case. Retain price bases, marketing years and adverse years.",
       "target": "economy/rice-economy.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-015",
         "RES-029"
       ],
-      "last_worked_at": "2026-10-01T20:19:47.401985+00:00",
-      "next_step": "Reconcile procurement payment timing and scope using settlement records; recover full experimental cost definition or official cost survey. Historical series and five district snapshots are saved; avoid re-extracting them.",
+      "last_worked_at": "2026-10-02T01:52:06.804669+00:00",
+      "next_step": "Full-text regional C2 case saved, with survey year unresolved. Reconcile procurement payments against marketing-year quantities, settlement dates and adjustments; recover paddy study year. Ministry cost-data retry2026-10-09. Do not duplicate existing historical series.",
       "evidence_outputs": [
         "sources/rice-samant2023.md",
         "sources/rice-pib-msp2023.md",
         "stories/rice-productivity.md",
-        "references/data/rice-economy.json"
+        "references/data/rice-economy.json",
+        "sources/rice-sahoo-cost2023.md",
+        "stories/rice-income-after-costs.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2861,6 +2863,13 @@
           "at": "2026-10-01T20:19:47.401985+00:00",
           "outcome": "trend_and_scoped_economics_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-rice-cost-returns",
+          "at": "2026-10-02T01:52:06.804669+00:00",
+          "outcome": "full_text_cost_case_with_period_and_definition_holds",
+          "completion_criteria_met": false,
+          "remaining": "Procurement payment reconciliation and explicit paddy survey/valuation year remain open."
         }
       ],
       "reuse_before_research": {
@@ -2873,7 +2882,9 @@
           "references/data/rice-economy.json",
           "sources/rice-samant2023.md",
           "sources/rice-pib-msp2023.md",
-          "stories/rice-productivity.md"
+          "stories/rice-productivity.md",
+          "sources/rice-sahoo-cost2023.md",
+          "stories/rice-income-after-costs.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

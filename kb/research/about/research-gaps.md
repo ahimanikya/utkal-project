@@ -318,3 +318,7 @@ Van Dhan parliamentary baseline and named historical clusters recovered. Recent 
 ## Rice, place and food · 2 October 2026 UTC
 
 Bounded rice place/food deliverable saved. Original Sambad date is attributed through MSSRF, not independently fetched. Food-use study has unknown fieldwork dates, name/accession gaps and sampling inconsistencies; health claims excluded. Current variety acreage, Odia spellings, named-cook recipes and prices remain open.
+
+## Rice costs and returns · 2 October 2026 UTC
+
+RES-061 now has a full-text regional C2 cost case. Paddy survey/valuation year and paddy-specific sample remain unclear;2018–19 contextual tables cannot establish them. Procurement payment reconciliation remains unresolved. Ministry cost2021–22 route timed out; retry9October2026. Source ratio/definition conflicts are retained, not silently corrected.

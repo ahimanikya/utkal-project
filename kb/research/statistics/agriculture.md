@@ -74,3 +74,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 [Rice economics](../economy/rice-economy.md) adds a 2023–24 production baseline and KMS procurement/price evidence with rice and paddy kept separate. Exact observations are in the atlas; current variety-level prices and profit remain unknown.
 
 [Rice’s comparable historical trend](../stories/rice-productivity.md) now retains consecutive annual observations and adverse years. [Rice economics](../economy/rice-economy.md) separates those crop measures from experimental returns and unresolved procurement payments.
+
+## Regional cost evidence · 2 October 2026 UTC
+
+[The paddy cost case](../stories/rice-income-after-costs.md) adds eight source-located observations. Survey/valuation year remains unspecified, so these do not enter time-series comparisons or statewide farmer-income totals. The source reports costs including family labour and land; source definition conflicts remain visible in the rice register.

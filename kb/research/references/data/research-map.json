@@ -15713,7 +15713,8 @@
       ],
       "source_ids": [
         "rice-oas2024",
-        "rice-fscw2025"
+        "rice-fscw2025",
+        "rice-sahoo-cost2023"
       ],
       "added_at": "2026-10-01T20:10:23.860704+00:00"
     },
@@ -16740,6 +16741,43 @@
         "rice-irri-kalahandi2020"
       ],
       "added_at": "2026-10-02T01:39:07.455735+00:00"
+    },
+    {
+      "id": "sources/rice-sahoo-cost2023",
+      "title": "Study of Cropping Pattern and Profitability Analysis of Major Crops of North Eastern Ghats Agro-Climatic Zone of Odisha",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/rice-sahoo-cost2023.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "rice-sahoo-cost2023"
+      ],
+      "added_at": "2026-10-02T01:52:06.804669+00:00"
+    },
+    {
+      "id": "stories/rice-income-after-costs",
+      "title": "What remains after growing the rice?",
+      "kind": "Evidence Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/rice-income-after-costs.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "food",
+        "people"
+      ],
+      "source_ids": [
+        "rice-sahoo-cost2023"
+      ],
+      "added_at": "2026-10-02T01:52:06.804669+00:00"
     }
   ],
   "shared_publications": [
@@ -17979,7 +18017,9 @@
         "references/data/rice-economy.json",
         "sources/rice-samant2023.md",
         "sources/rice-pib-msp2023.md",
-        "stories/rice-productivity.md"
+        "stories/rice-productivity.md",
+        "sources/rice-sahoo-cost2023.md",
+        "stories/rice-income-after-costs.md"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable five-/ten-year rice area, output and yield series; reconcile procurement payment scope and document at least one clearly defined Odisha cost/return case. Retain price bases, marketing years and adverse years.",
@@ -18018,8 +18058,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1148,
-    "updated_at": "2026-10-02T01:39:07.455735+00:00",
+    "records_mapped": 1150,
+    "updated_at": "2026-10-02T01:52:06.804669+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -18490,6 +18530,11 @@
       "run_id": "2026-10-02-rice-place-food",
       "at": "2026-10-02T01:39:07.455735+00:00",
       "scope": "Existing21 rice identities retained. New culinary names saved as attributed uses with unresolved accession identity; Tulasa source date corrected without a duplicate source."
+    },
+    {
+      "run_id": "2026-10-02-rice-cost-returns",
+      "at": "2026-10-02T01:52:06.804669+00:00",
+      "scope": "New full-text regional cost case linked to existing rice economics; original paper and mirrors treated as one source family."
     }
   ]
 }
