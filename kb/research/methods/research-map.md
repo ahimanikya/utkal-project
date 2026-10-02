@@ -345,3 +345,7 @@ RES-031 adds two source identities and extends existing food/economy/story pages
 ## Sweet histories and market evidence · 2 October 2026 UTC
 
 Five source/lead identities extend existing sweets entries and shared maker credits. Local history book launch is not its text; APEDA news mirrors are not independent corroboration. New relationships connect food and economic research with explicit limits.
+
+## Handloom market checkpoint · 2 October 2026 UTC
+
+Six existing textile identities enhanced, six source records and one story added. Repository-native central destination details consulted; no matching textile research found. Existing census and broad textile export observations reused by reference. Multiple Boyanika pages are one publisher, not independent corroboration.

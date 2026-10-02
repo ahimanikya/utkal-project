@@ -370,3 +370,7 @@ Jhili now has a university-attributed maker and Korakhai has dated maker reporti
 ## Sweet histories and market evidence · 2 October 2026 UTC
 
 RES-031 Magji/Rasabali checkpoint adds maker testimony and a January2026 market event. Original cited books remain unlocated despite English/Odia title searches; launch report is a lead only. NABARD original PDFs timed out; apparent indexed geography problem and amounts held. No dated product accounts or shipments recovered. Retry9October; proceed independently to RES-012.
+
+## Handloom market checkpoint · 2 October 2026 UTC
+
+RES-012: six-tradition matrix and three seller specimens captured. Individual makers, detailed Bomkai/Habaspuri/Berhampuri construction and comparable annual sales remain incomplete. Full department/survey PDFs unavailable; retry9October. Institutional turnover lacks period. Continue independent maker/technique work next run.

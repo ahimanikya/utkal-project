@@ -5,7 +5,7 @@ description: "Sambalpuri Bandha — research and reuse notes."
 tags: ["handlooms", "western-odisha"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "odisha-gis", "title": "Geographical indications of Odisha", "resource": "https://magazines.odisha.gov.in/Orissareview/2020/Apr-May/engpdf/GIs.pdf"}]
+sources: [{"id": "odisha-gis", "title": "Geographical indications of Odisha", "resource": "https://magazines.odisha.gov.in/Orissareview/2020/Apr-May/engpdf/GIs.pdf"}, {"id": "handloom-boyanika-sambalpuri", "title": "Boyanika Sambalpuri specimen 6967/A/BO/78", "resource": "https://boyanika.com/product/black-dark-red-cotton-handloom-sambalpuri-saree/"}, {"id": "weaving-centres", "title": "Important handloom centres", "resource": "https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Western Odisha"
 aliases: ["Sambalpuri Bandha", "sambalpuri bandha"]
@@ -35,3 +35,13 @@ Verify present registry status, technique and maker attribution for each feature
 [Related knowledge](bargarh.md) · [Research standards](../about/research-method.md)
 
 [^odisha-gis]: [Geographical indications of Odisha](https://magazines.odisha.gov.in/Orissareview/2020/Apr-May/engpdf/GIs.pdf)
+
+## Technique and market evidence · 2 October 2026
+
+Yarn tie-dye (Bandha/ikat); specimen cotton warp and weft. Bargarh, Barpali and Sonepur [Boyanika Sambalpuri specimen 6967/A/BO/78](https://boyanika.com/product/black-dark-red-cotton-handloom-sambalpuri-saree/) · [Important handloom centres](https://handloom.odisha.gov.in/en/handloomtab/important-handloom-centers).
+
+Boyanika route: product specification. SKU 6967/A/BO/78. This identifies a research route; current stock and fulfilment are unverified. Individual maker and piece-level provenance absent.
+
+[Six-tradition market comparison](garments-and-markets.md) connects textile identity with market evidence. Tradition-level revenue and exports remain unknown.
+
+[Related market evidence](garments-and-markets.md) — Textile identity connects with market routes while maker provenance and financial outcomes remain separate evidence questions.

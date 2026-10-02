@@ -91,3 +91,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Mahima Dharma and a credited reading route
 
 [Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.
+
+## Handloom market pathways
+
+[Six traditions and seller evidence](../handlooms/garments-and-markets.md) · [From loom to market](../stories/handlooms-from-loom-to-market.md). Technique, garment form, fibre and maker credit are distinct fields.

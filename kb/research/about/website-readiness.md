@@ -141,3 +141,7 @@ Existing Jhili/Korakhai entries and the sweets story now connect makers with his
 ## Sweet histories and market evidence · 2 October 2026 UTC
 
 Magji and Rasabali now have attributed maker context and a dated fair connection in research drafts. Do not convert GI expectations or whole-fair revenue into product growth. Original books, grant table, local review and current operation remain unverified; no website release.
+
+## Handloom market checkpoint · 2 October 2026 UTC
+
+Handloom research draft connects six traditions with production places and qualified seller routes. Three specimen specifications and a seventy-year Boyanika story are ready for editorial review, not publication. No live stock, maker endorsement, media licence, annual growth or export outcome established.

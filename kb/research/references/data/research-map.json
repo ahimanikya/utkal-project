@@ -2290,7 +2290,10 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "weaving-tourism"
+        "weaving-tourism",
+        "handloom-boyanika70-2026",
+        "weaving-centres",
+        "handloom-product-range"
       ]
     },
     {
@@ -2304,7 +2307,9 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "weaving-centres"
+        "weaving-centres",
+        "handloom-boyanika-bomkai",
+        "handloom-product-range"
       ]
     },
     {
@@ -2318,7 +2323,9 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "boyanika"
+        "boyanika",
+        "handloom-boyanika70-2026",
+        "handloom-boyanika-stores"
       ]
     },
     {
@@ -2342,7 +2349,13 @@
         "odisha-gis",
         "textile-pib-20260324",
         "textile-ogd-20241231",
-        "connect-handloom2019"
+        "connect-handloom2019",
+        "handloom-boyanika70-2026",
+        "handloom-boyanika-stores",
+        "handloom-boyanika-sambalpuri",
+        "handloom-boyanika-bomkai",
+        "handloom-boyanika-khandua",
+        "handloom-product-range"
       ]
     },
     {
@@ -2356,7 +2369,8 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "weaving-centres"
+        "weaving-centres",
+        "boyanika"
       ]
     },
     {
@@ -2370,7 +2384,9 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "weaving-centres"
+        "weaving-centres",
+        "handloom-boyanika-khandua",
+        "handloom-product-range"
       ]
     },
     {
@@ -2384,7 +2400,9 @@
       "copy_state": "adapted_or_changed",
       "subject_ids": [],
       "source_ids": [
-        "kotpad-textiles"
+        "kotpad-textiles",
+        "handloom-boyanika70-2026",
+        "weaving-centres"
       ]
     },
     {
@@ -2412,7 +2430,9 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "odisha-gis"
+        "odisha-gis",
+        "handloom-boyanika-sambalpuri",
+        "weaving-centres"
       ]
     },
     {
@@ -17872,6 +17892,132 @@
         "sweets-nabard-support-lead2024"
       ],
       "added_at": "2026-10-02T10:43:57.786283+00:00"
+    },
+    {
+      "id": "sources/handloom-boyanika70-2026",
+      "title": "Boyanika: seventy-year institutional account",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-boyanika70-2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-boyanika70-2026"
+      ],
+      "added_at": "2026-10-02T11:46:26.258680+00:00"
+    },
+    {
+      "id": "sources/handloom-boyanika-stores",
+      "title": "Boyanika store directory",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-boyanika-stores.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-boyanika-stores"
+      ],
+      "added_at": "2026-10-02T11:46:26.258680+00:00"
+    },
+    {
+      "id": "sources/handloom-boyanika-sambalpuri",
+      "title": "Boyanika Sambalpuri specimen 6967/A/BO/78",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-boyanika-sambalpuri.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-boyanika-sambalpuri"
+      ],
+      "added_at": "2026-10-02T11:46:26.258680+00:00"
+    },
+    {
+      "id": "sources/handloom-boyanika-bomkai",
+      "title": "Boyanika Bomkai specimen 6981/A/BO/76",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-boyanika-bomkai.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-boyanika-bomkai"
+      ],
+      "added_at": "2026-10-02T11:46:26.258680+00:00"
+    },
+    {
+      "id": "sources/handloom-boyanika-khandua",
+      "title": "Boyanika Khandua specimen 7928/A/BO/113",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-boyanika-khandua.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-boyanika-khandua"
+      ],
+      "added_at": "2026-10-02T11:46:26.258680+00:00"
+    },
+    {
+      "id": "sources/handloom-product-range",
+      "title": "Odisha department: handloom product range",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/handloom-product-range.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-product-range"
+      ],
+      "added_at": "2026-10-02T11:46:26.258680+00:00"
+    },
+    {
+      "id": "stories/handlooms-from-loom-to-market",
+      "title": "Seventy years, from loom to market",
+      "kind": "Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/handlooms-from-loom-to-market.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "arts",
+        "economy"
+      ],
+      "source_ids": [
+        "handloom-boyanika70-2026"
+      ],
+      "added_at": "2026-10-02T11:46:26.258680+00:00"
     }
   ],
   "shared_publications": [
@@ -18374,7 +18520,16 @@
       "source_records": [
         "handlooms/index.md",
         "handlooms/boyanika.md",
-        "statistics/craft-livelihoods.md"
+        "statistics/craft-livelihoods.md",
+        "handlooms/garments-and-markets.md",
+        "references/data/handloom-markets.json",
+        "sources/handloom-boyanika70-2026.md",
+        "sources/handloom-boyanika-stores.md",
+        "sources/handloom-boyanika-sambalpuri.md",
+        "sources/handloom-boyanika-bomkai.md",
+        "sources/handloom-boyanika-khandua.md",
+        "sources/handloom-product-range.md",
+        "stories/handlooms-from-loom-to-market.md"
       ],
       "project_records": [
         "kb/research/destinations/central-details.json"
@@ -19220,8 +19375,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1206,
-    "updated_at": "2026-10-02T10:43:57.786283+00:00",
+    "records_mapped": 1213,
+    "updated_at": "2026-10-02T11:46:26.258680+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19757,6 +19912,11 @@
       "run_id": "2026-10-02-sweet-history",
       "at": "2026-10-02T10:43:57.786283+00:00",
       "scope": "Five source/lead identities; existing two food entries and story expanded. GI applicant records reused; news mirrors and same-publisher NABARD lists are not independent financial corroboration. Maker credits remain in shared data."
+    },
+    {
+      "run_id": "2026-10-02-handloom-markets",
+      "at": "2026-10-02T11:46:26.258680+00:00",
+      "scope": "Six new primary publisher source identities and one story; six existing tradition concepts enhanced without duplicating atlas census/export values. Boyanika pages are one institutional publisher, not independent corroboration."
     }
   ]
 }

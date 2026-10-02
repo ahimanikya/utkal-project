@@ -203,3 +203,7 @@ RES-031 continues with Magji original histories and Rasabali dated producer acco
 ## Sweet histories and market evidence · 2 October 2026 UTC
 
 RES-031 remains in progress with retry9October for original books and unavailable support/enterprise documents. Its useful local checkpoint is preserved. Next independent eligible task: RES-012 handloom techniques, makers and sales; use existing textile/source records before browsing.
+
+## Handloom market checkpoint · 2 October 2026 UTC
+
+RES-012 checkpoint: six-tradition coverage matrix, three product specifications and institutional market story. Resume missing technique/maker fields next run; sales document subtask retry9October. Completion criteria not yet met.

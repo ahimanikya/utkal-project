@@ -295,3 +295,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Sweet histories and market evidence
 
 [Research receipt](records/sweet-history-2026-10-02.json): Existing Magji and Rasabali entries gain two maker credits and dated Sisir Saras participation. Original books and NABARD financial tables remain unavailable; whole-fair turnover is kept separate. Five source/lead records added. RES-031 remains in progress with a 9 October retry. Independent handloom research RES-012 is next. No website release.
+
+## 2 October 2026 · Handloom market evidence
+
+[Research receipt](records/handloom-markets-2026-10-02.json): six existing textile traditions now connect to production geography and qualified seller routes. Three product specifications and a seventy-year Boyanika story added. Unperiodised turnover and unavailable original annual tables remain held; RES-012 continues with maker and technique research. No website release.

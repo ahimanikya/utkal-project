@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T10:43:57.786283+00:00",
+  "updated_at": "2026-10-02T11:46:26.258680+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1048,26 +1048,55 @@
       "title": "Handloom techniques makers and sales",
       "done_when": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
       "target": "handlooms/index.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen six traditions with technique, production geography, official cooperative/seller routes and comparable sales evidence; separate provenance and live stock.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-02T11:46:26.258680+00:00",
+      "next_step": "Resume missing Habaspuri and Berhampuri construction, Bomkai technical evidence and credited makers/cooperative routes for all six traditions. Reuse three saved Boyanika specimens and matrix. Sales PDF retry 9 October; do not refetch before then without a new route. Task incomplete until six traditions and comparable sales evidence meet done_when.",
+      "evidence_outputs": [
+        "handlooms/garments-and-markets.md",
+        "handlooms/boyanika.md",
+        "references/data/handloom-markets.json",
+        "sources/handloom-boyanika70-2026.md",
+        "sources/handloom-boyanika-stores.md",
+        "sources/handloom-boyanika-sambalpuri.md",
+        "sources/handloom-boyanika-bomkai.md",
+        "sources/handloom-boyanika-khandua.md",
+        "sources/handloom-product-range.md",
+        "stories/handlooms-from-loom-to-market.md"
+      ],
       "retry_after": null,
-      "blocker": null,
+      "blocker": "Sales PDFs unavailable; retry that evidence on 9 October. Independent technique/maker work remains eligible.",
       "reuse_before_research": {
         "source_records": [
           "handlooms/index.md",
           "handlooms/boyanika.md",
-          "statistics/craft-livelihoods.md"
+          "statistics/craft-livelihoods.md",
+          "handlooms/garments-and-markets.md",
+          "references/data/handloom-markets.json",
+          "sources/handloom-boyanika70-2026.md",
+          "sources/handloom-boyanika-stores.md",
+          "sources/handloom-boyanika-sambalpuri.md",
+          "sources/handloom-boyanika-bomkai.md",
+          "sources/handloom-boyanika-khandua.md",
+          "sources/handloom-product-range.md",
+          "stories/handlooms-from-loom-to-market.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json"
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-02-handloom-markets",
+          "at": "2026-10-02T11:46:26.258680+00:00",
+          "outcome": "six_tradition_matrix_and_three_specimens_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Technical construction, named makers and comparable annual sales; PDF retry9October."
+        }
+      ]
     },
     {
       "id": "RES-030",

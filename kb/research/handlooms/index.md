@@ -16,3 +16,7 @@ Textile traditions, production places and buying research.
 [Knowledge base home](../index.md)
 
 [Garment forms, traditions and markets](garments-and-markets.md)
+
+## Techniques, makers and markets
+
+[Six-tradition evidence comparison](garments-and-markets.md) · [Boyanika’s institutional journey](boyanika.md) · [Story draft: from loom to market](../stories/handlooms-from-loom-to-market.md). Three seller specimens now distinguish fibre and technique; maker attribution and comparable annual sales remain open.

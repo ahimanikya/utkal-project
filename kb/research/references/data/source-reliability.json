@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T10:43:57.786283+00:00",
+  "updated_at": "2026-10-02T11:46:26.258680+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5761,6 +5761,72 @@
       "run_id": "2026-10-02-sweet-history",
       "status": "unavailable",
       "scope": "Web internal error; direct HTTPS timed out after25seconds. Indexed same-publisher listing only.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://boyanika.com/boyanika-wear-your-heritage/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Institutional self-report. Seventy-year milestone dated 5 May 2026. Turnover has no financial period or category breakdown; not comparable annual evidence."
+    },
+    {
+      "discovery_url": "https://boyanika.com/store-location/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Undated directory read on retrieval date. Addresses are publisher listings; operation, hours, accessibility and product stock not independently verified."
+    },
+    {
+      "discovery_url": "https://boyanika.com/product/black-dark-red-cotton-handloom-sambalpuri-saree/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Seller describes yarn tie-dye and western clusters; cotton warp/weft applies to this SKU. Indexed stock is not live availability. Individual maker not credited."
+    },
+    {
+      "discovery_url": "https://boyanika.com/product/dark-green-red-cotton-handloom-bomkai-saree/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Seller describes woven threadwork and cotton warp/weft for this SKU; detailed supplementary-weft construction not established by this page. Individual maker not credited."
+    },
+    {
+      "discovery_url": "https://boyanika.com/product/deep-moss-green-dark-red-silk-handloom-khandua-saree/",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Seller describes ikat silk and temple borders; Malda silk warp/weft is specimen-specific, not local fibre-origin proof. Individual maker not credited."
+    },
+    {
+      "discovery_url": "https://handloom.odisha.gov.in/en/handloomtab/product-range",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "available",
+      "scope": "Production geography and product forms only. Undated loom counts and production potential excluded from current output or revenue measures."
+    },
+    {
+      "discovery_url": "https://textiles.odisha.gov.in/Uploads/201773126675.pdf",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "unavailable",
+      "scope": "Full original PDF unavailable by web/direct retrieval; no numeric adoption; retry9October.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "unavailable",
+      "scope": "Full original PDF unavailable by web/direct retrieval; no numeric adoption; retry9October.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://finance.odisha.gov.in/sites/default/files/2025-02/Economic%20Survey%202024-25%20-Full%20Document_1.pdf",
+      "checked_at": "2026-10-02T11:46:26.258680+00:00",
+      "run_id": "2026-10-02-handloom-markets",
+      "status": "unavailable",
+      "scope": "Full original PDF unavailable by web/direct retrieval; no numeric adoption; retry9October.",
       "retry_after": "2026-10-09"
     }
   ]

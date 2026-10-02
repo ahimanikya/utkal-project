@@ -384,3 +384,7 @@ RES-031 checkpoint: three attributed maker credits, one 1999 Korakhai town commo
 ## Sweet histories and market evidence · 2 October 2026 UTC
 
 RES-031: two maker credits, a reported association role, one January2026 market event and a historical-book lead added. NABARD full fetches unavailable; support amounts held. Five source/lead records, existing food/story pages and explained relationships updated. Earlier observations retained. No new verified sales/export total or website publication.
+
+## Handloom market checkpoint · 2 October 2026 UTC
+
+RES-012 adds six-tradition market matrix, three dated retrievals of seller specifications, a Boyanika seventy-year story and six source records. Unavailable economic reports and unperiodised turnover held; no annual growth calculated. Classifications, relationships and queue updated; no website publication.
