@@ -820,3 +820,9 @@ The Founder asked to trace mining revenues into communities. The evidence showed
 Reading the wider audit exposed conflicting totals and a more nuanced sampling method. A Parliament schedule then showed why a date beside a building is not necessarily its opening date. The project kept those distinctions and left current operation unknown where records could not answer.
 
 [Follow-up](../records/dmf-service-followup-2026-10-02.json). Research only; no independent human review claimed.
+
+## UTP-HIS-0202 · More precision, clearer questions
+
+The original Finance Accounts separated rounding from a remaining revenue difference. A Parliament table then showed why even official district figures need matching definitions before comparison. Where public pages could not answer the operating questions, the project named the exact records needed and kept uncertainty visible.
+
+[Evidence](../records/dmf-record-reconciliation-2026-10-02.json). Research only.

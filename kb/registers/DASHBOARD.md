@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `24ef7429350de50f5f7aecc496c116594fcf5be8bb6b4cdff011471b0d48196c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0f4e2eb11edebd7fce01f58f5f1c80167841f4c09df2182ad7e521f30c6c9577`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -160,6 +160,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-145 · Strengthen employment and local supplier evidence | completed | applied | Ahimanikya Satapathy | Checkpoint merged. RES-052 remains in progress with explicit current-headcount and supplier-outcome evidence needs; no outreach sent. | — |
 | UTP-WORK-146 · Connect mining receipts, district funds and working services | completed | applied | Ahimanikya Satapathy | Bounded checkpoint merged. RES-053 remains in progress for remaining audit sections, exact receipt reconciliation, newer operating records and community outcomes. | — |
 | UTP-WORK-147 · Finish scoped DMF audit reading and investigate current services | completed | applied | Ahimanikya Satapathy | Bounded follow-up merged. RES-053 remains open for conflicting financial totals, exact receipt crosswalk, matched current operation and community outcomes. | — |
+| UTP-WORK-148 · Compare original accounts and specify missing facility records | in_progress | reviewed | Ahimanikya Satapathy | Integrate validated comparison; future work depends on named reconciliation and facility records. | — |
 
 ## Pending human review and decisions
 
@@ -387,6 +388,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-163 · Approve merged mining and DMF research checkpoint | approved | Ahimanikya Satapathy | Founder acceptance of the reported PR65 research checkpoint. Existing source limitations and RES-053 follow-ups remain. This approval does not attest independent factual verification or authorize public story publication. |
 | UTP-DEC-164 · Continue DMF audit reading and service follow-up | approved | Ahimanikya Satapathy | Approved the proposed audit and four-case research follow-up; routine KB validation and Git integration under existing authorization. |
 | UTP-DEC-165 · Approve merged DMF audit and service follow-up | approved | Ahimanikya Satapathy | Founder acceptance of the reported PR66 research follow-up. Financial conflicts and current service/outcome evidence remain open under RES-053; this acceptance does not claim independent factual verification or public story publication. |
+| UTP-DEC-166 · Continue financial and facility evidence reconciliation | approved | Ahimanikya Satapathy | Approved proposed follow-up on conflicting figures and newer facility records. Routine KB delivery under standing authorization; no outreach or paid application. |
 
 ## Reviews
 
@@ -515,6 +517,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-123 | pass_with_limitations | False | Current plant payroll and unique-person methodology not recovered. Unit work volume and corporate totals do not fill this gap.; RSP social-account claims remain pending underlying source records and independent community evidence.; Selected NALCO pages visually checked; not a full audit or human specialist review. No public website publication. |
 | UTP-REV-124 | pass_with_limitations | False | Selected original sections read; not complete audit review.; No current-operation evidence or independent community testimony recovered. Four problem-case bundles cannot establish statewide failure prevalence.; 0.73crore receipt difference retained;79.69/76.69 source discrepancy explicit. |
 | UTP-REV-125 | pass_with_limitations | False | No present-day operating or community outcome evidence established for the four cases.; Financial table conflict and exact revenue crosswalk remain unresolved.; Source reading is not independent re-audit or exhaustive appendix review. |
+| UTP-REV-126 | pass_with_limitations | False | The remaining 0.20 crore receipt difference has no verified accounting crosswalk.; District annual and cumulative series are not reconciled; six existing conflict holds retained.; Current operation and beneficiary outcomes remain unverified; record questions unsent. |
 
 ## Publication and application history
 
@@ -610,7 +613,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-186 | 2026-10-02T18:23:08.583818+00:00 | Pinned four PR 60 commits; reconciled newer main records, held the dependent IMFA total, and validated source/observation preservation. No website change. | Complete remote CI and merge. |
 | UTP-EVT-187 | 2026-10-02T18:29:45.656472+00:00 | PR 62 merged after automated validation. Twelve entries and 44 observations joined main. Dependent ore total remains held; historical employment and current payroll remain distinct. No website deployment. | Keep unresolved evidence follow-ups open. |
 | UTP-EVT-188 | 2026-10-02T19:10:21.927198+00:00 | Three source identities and nine observations added. All previous observation fields and holds retained. Visual checks distinguish workdays, headcount, annual training and purchase orders. Current unit headcount unresolved. | Complete Git review delivery; retain RES-052 follow-ups. |
 | UTP-EVT-189 | 2026-10-02T19:13:31.867247+00:00 | PR64 merged after automated checks; three source records and nine observations added with limitations. All897 earlier observations preserved. Public website unchanged. | Keep RES-052 outstanding evidence needs visible. |
@@ -620,6 +622,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-193 | 2026-10-02T20:31:43.120207+00:00 | Finished scoped chapter reading, corrected sampling description, held six conflicting observations without changing values, and distinguished Parliament schedules from opening dates. | Validate and integrate; retain current-service and reconciliation questions. |
 | UTP-EVT-194 | 2026-10-02T20:38:42.915138+00:00 | PR66 integrated after local checks and GitHub CI passed; 954 numerical values preserved, six observations held for source conflict. | Pursue documented reconciliation and service-evidence gaps; do not infer operating status from absent records. |
 | UTP-EVT-195 | 2026-10-02T20:41:23.471470+00:00 | Founder approved the merged PR66 DMF research follow-up. | Retain and pursue RES-053 financial reconciliation and current-service/community evidence gaps. |
+| UTP-EVT-196 | 2026-10-02T20:56:04.342494+00:00 | Compared original Finance Accounts and Parliament district tables; added two higher-precision observations and six unsent record questions. | Validate bounded findings; obtain named reconciliation and operating records rather than repeat identical searches. |
 
 ## Deferred extensions
 

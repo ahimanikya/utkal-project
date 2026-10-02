@@ -18558,6 +18558,42 @@
         "mining-npcc-rs2970-2023"
       ],
       "added_at": "2026-10-02T20:29:38.611603+00:00"
+    },
+    {
+      "id": "sources/mining-fa2023-24-vol1",
+      "title": "Odisha Finance Accounts 2023–24, Volume I",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-fa2023-24-vol1.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-fa2023-24-vol1"
+      ],
+      "added_at": "2026-10-02T20:54:18.878669+00:00"
+    },
+    {
+      "id": "sources/mining-dmf-ls2607-2024",
+      "title": "Lok Sabha question 2607: District Mineral Fund in Odisha, 11 December 2024",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-dmf-ls2607-2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-dmf-ls2607-2024"
+      ],
+      "added_at": "2026-10-02T20:54:18.878669+00:00"
     }
   ],
   "shared_publications": [
@@ -19740,17 +19776,16 @@
         "sources/mining-cag-dmf2026.md",
         "sources/macro-cag-fy2025.md",
         "statistics/public-finance-audit.md",
-        "sources/mining-npcc-rs2970-2023.md"
+        "sources/mining-npcc-rs2970-2023.md",
+        "sources/mining-fa2023-24-vol1.md",
+        "sources/mining-dmf-ls2607-2024.md"
       ],
       "project_records": [],
       "remaining_scope": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "status_unchanged": "in_progress",
       "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
       "next_evidence": [
-        "Obtain reconciled/clarified Table 4.1 versus Table 5.1 figures; retain source-specific values and holds until then.",
-        "Recover post-January 2026, facility-matched commissioning, staffing and service-use records for the four case bundles.",
-        "Find dated published beneficiary/community evidence and a broader outcome sample; functioning alone does not establish impact.",
-        "Complete the finance-accounting head crosswalk for the retained 0.73 crore revenue difference."
+        "Obtain named reconciliation and facility records in mining-programme.dmf_record_reconciliation.record_requests. Higher-precision receipt gap is 0.20 crore; six DMF holds remain. Avoid repeating unavailable-source searches without a new record or restored endpoint."
       ]
     },
     {
@@ -19962,8 +19997,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1240,
-    "updated_at": "2026-10-02T20:29:38.611603+00:00",
+    "records_mapped": 1242,
+    "updated_at": "2026-10-02T20:54:18.878669+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20554,6 +20589,10 @@
     {
       "run_id": "2026-10-02-dmf-service-followup",
       "scope": "Reused CAG and four existing case identities; added one Parliament schedule source, no duplicate facility profiles or new statistical observations. Six existing observations held for source conflict."
+    },
+    {
+      "run_id": "2026-10-02-dmf-record-reconciliation",
+      "scope": "Two original source editions, two higher-precision receipt observations; existing four case identities reused. Source-specific precision is not extra additive revenue."
     }
   ]
 }

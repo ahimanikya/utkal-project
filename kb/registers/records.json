@@ -4282,6 +4282,28 @@
       "evidence": [
         "records/dmf-service-followup-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-148",
+      "title": "Compare original accounts and specify missing facility records",
+      "category": "research",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-166",
+      "next_action": "Integrate validated comparison; future work depends on named reconciliation and facility records.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-166",
+        "UTP-REV-126"
+      ],
+      "evidence": [
+        "records/dmf-record-reconciliation-2026-10-02.json"
+      ]
     }
   ],
   "decisions": [
@@ -7592,6 +7614,25 @@
       "evidence": [
         "records/dmf-service-followup-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-166",
+      "title": "Continue financial and facility evidence reconciliation",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "go",
+      "scope": "Approved proposed follow-up on conflicting figures and newer facility records. Routine KB delivery under standing authorization; no outreach or paid application.",
+      "recorded_at": "2026-10-02T20:56:04.342494+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-148"
+      ],
+      "evidence": [
+        "records/dmf-record-reconciliation-2026-10-02.json"
+      ]
     }
   ],
   "requirements": [
@@ -10577,6 +10618,28 @@
       ],
       "evidence": [
         "records/dmf-service-followup-2026-10-02.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-126",
+      "title": "Receipt precision and district accounting-basis self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "The remaining 0.20 crore receipt difference has no verified accounting crosswalk.",
+        "District annual and cumulative series are not reconciled; six existing conflict holds retained.",
+        "Current operation and beneficiary outcomes remain unverified; record questions unsent."
+      ],
+      "refs": [
+        "UTP-DEC-166",
+        "UTP-WORK-148"
+      ],
+      "evidence": [
+        "records/dmf-record-reconciliation-2026-10-02.json"
       ]
     }
   ],

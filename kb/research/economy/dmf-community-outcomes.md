@@ -26,7 +26,9 @@ The original CAG State Finances Audit Report 2024–25, Table 1.7 (printed p. 15
 |Non-ferrous mining and metallurgical industries|45,046|48,600|46,600|41,052|
 |Coal and lignite|1,351|832|2,560|1,015|
 
-The sum of these two actual-receipt heads is 46,397 in 2023–24 and 42,067 in 2024–25. These are our sums of rounded source rows, not newly reported statewide totals. The Directorate’s 2023–24 mining collection series reports 46,396.27. The 0.73 crore difference is compatible with rounding in magnitude but the accounting-head bridge has not been established; retain both vintages and definitions. Dividends are excluded. Do not interpret the government’s non-ferrous accounting label as a list of non-ferrous commodities only.
+The sum of these two actual-receipt heads is 46,397 in 2023–24 and 42,067 in 2024–25. These are our sums of rounded source rows, not newly reported statewide totals. The Directorate’s 2023–24 mining collection series reports 46,396.27. The original comparison differs by 0.73 crore. A higher-precision Finance Accounts check below separates the rounding effect from a remaining 0.20 crore difference; the accounting-head bridge is still unverified. Dividends are excluded. Do not interpret the government’s non-ferrous accounting label as a list of non-ferrous commodities only.
+
+The original [Finance Accounts 2023–24, Volume I](../sources/mining-fa2023-24-vol1.md), Statement 3 (printed p. 10 / PDF p. 28), reports **45,045.55** for non-ferrous mining and metallurgical industries and **1,350.52** for coal/lignite. Their sum is **46,396.07 crore**. Each head rounds to the SFAR figure above. Summing the whole-crore heads adds 0.93 crore relative to this two-decimal sum; the Directorate's 46,396.27 is 0.20 crore above it. That residual requires an accounting reconciliation or scope explanation. It is not evidence of missing funds. Preserve each source edition rather than replacing the rounded historical observations.
 
 The legacy [F05](../evidence/f05.md) figure of 53,000 crore is a 2026–27 **budget estimate**. It remains intact and cannot establish actual collections or a realised increase over 2024–25.
 
@@ -62,6 +64,19 @@ Original Table 4.1 (printed p. 24 / PDF p. 58), inspected visually, gives differ
 |Jajpur utilised|1,164.43|1,164.42|
 
 Dhenkanal accounts for the ₹11.75 crore difference between printed expenditure totals. Table 4.1's district expenditure rows sum to ₹10,104.29 crore, ₹0.01 crore above its printed total; rounding or a source error is possible but unconfirmed. Table 5.4 repeats Table 5.1 amounts within the same report and is not independent corroboration. Six affected observations retain their original values and now carry a publication hold; this includes the ratio derived from the disputed expenditure. These differences do not themselves establish missing money.
+
+## A second district series needs its own definitions
+
+The original [Lok Sabha answer of 11 December 2024](../sources/mining-dmf-ls2607-2024.md) supplies annual district collection, **allocation** and expenditure, plus a March 2024 balance table. It does not explain interest coverage or reconcile its figures to CAG. Allocation must not be renamed release, and a balance must not be reconstructed from unrelated totals.
+
+|District expenditure, ₹ crore|FY2021–22|FY2022–23|FY2023–24|Three-year sum|
+|---|---:|---:|---:|---:|
+|Dhenkanal|10.28|4.81|6.10|21.19|
+|Sundargarh (source: Sundergarh)|1,449.14|1,989.52|1,052.56|4,491.22|
+
+Dhenkanal's three-year subtotal lacks the earlier years needed to assess either cumulative CAG figure. Sundargarh's subtotal already exceeds CAG's longer FY2015–16 to FY2023–24 figure of 4,386.71 by 104.51 crore. That is a warning against combining unreconciled definitions or vintages, not a finding of cash loss. The original answer's FY2024–25 column ends in October 2024 and must not be compared as a full year. Six selected district extracts and their source labels are retained in the structured programme, separately from the CAG sample.
+
+A bounded official-domain search recovered no matching corrigendum for the CAG table conflict; this does not prove that none exists. The six existing conflict holds remain.
 
 ## How the audit selected its sample
 
@@ -124,6 +139,12 @@ A bounded public-record search on 2 October 2026 did not recover a later, facili
 
 The parliamentary list supports a candidate match by name, locality and client; a shared project identifier remains unverified. The café's scheduled date happens to match the later government handover date, but those are different claims. The market's schedule must not overwrite the audit's earlier handover account. Direct district-portal retrievals also failed; search snippets and recent crawl dates were not promoted to current facts. The structured follow-up preserves these retrieval limits.
 
+### Next records, rather than another identical search
+
+Further attempts to retrieve the Jajpur 2023–24 accounts, its 2022–23 annual report and the Keonjhar infrastructure page failed. A general hospital-service description and an old OeHMIS navigation link do not verify the audited equipment or digital system. None of the four case bundles has newly established current operation or beneficiary outcomes.
+
+The structured programme now has six **unsent** record questions: the receipt-head reconciliation; the conflicting DMF tables and Parliament accounting basis; and one request for each facility bundle. They identify the relevant record holders and the exact documents needed—asset/project identifiers, actual commissioning/handover dates, staff and utilities, and de-identified service or occupancy counts. No outreach or application has been sent. Revisit a case when one of these records, a dated operating update or a restored source endpoint becomes available; repeated search failure is not new evidence of closure.
+
 ## An operating asset can still raise a different question
 
 In §6.5.1 (printed p. 46 / PDF p. 84), CAG records Birsa Munda International Hockey Stadium as functional during January 2025 verification, while separately questioning DMF funding eligibility and benefit to mining-affected residents. Government's January 2026 reply cited larger public interest and Sports and Youth Services permission; CAG said that department could not authorize this use of DMF funds.
@@ -144,6 +165,8 @@ Chapter VII records weak public disclosure and absent asset registers in the aud
 - [Parliament construction schedule](../sources/mining-npcc-rs2970-2023.md): Annexure IV, rows 193/213; planned dates only.
 - [CAG State Finances](../sources/macro-cag-fy2025.md): original PDF Table 1.7.
 - [Directorate revenue table](../sources/mining-directorate-revenue.md): collection-series scope.
+- [Finance Accounts 2023–24](../sources/mining-fa2023-24-vol1.md): higher-precision receipt heads.
+- [Lok Sabha DMF reply](../sources/mining-dmf-ls2607-2024.md): annual district figures and dated balances.
 - [Mining research](mining.md) · [Minerals and mining statistics](../statistics/minerals-and-mining.md) · [Public finance audit](../statistics/public-finance-audit.md).
 - [Structured cases, amounts and follow-ups](../references/data/mining-programme.json) · [Observation atlas](../references/data/statistics-atlas.json).
 
