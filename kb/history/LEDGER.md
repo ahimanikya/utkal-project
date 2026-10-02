@@ -814,3 +814,9 @@ The Founder selected employment and supplier follow-ups. Unit working-day totals
 The Founder asked to trace mining revenues into communities. The evidence showed why a completed building and a working service need separate records. Research retained government replies, the audit’s own percentage discrepancy and the questions only later operation records and residents can answer.
 
 [Checkpoint](../records/mining-community-outcomes-2026-10-02.json). Research only; no human review or public story publication claimed.
+
+## UTP-HIS-0201 · The table and the building both need a second look
+
+Reading the wider audit exposed conflicting totals and a more nuanced sampling method. A Parliament schedule then showed why a date beside a building is not necessarily its opening date. The project kept those distinctions and left current operation unknown where records could not answer.
+
+[Follow-up](../records/dmf-service-followup-2026-10-02.json). Research only; no independent human review claimed.

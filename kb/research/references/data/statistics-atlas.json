@@ -8490,11 +8490,24 @@
       "locator": "Executive summary pp. ix–x; paragraph 1.1",
       "evidence_status": "audit_reported",
       "definition": "Cumulative spending by March 2024, not measured service outcomes.",
-      "caveat": "Test-checked districts: Dhenkanal, Jajpur, Keonjhar, Mayurbhanj, Nabarangpur, Sundargarh. Sample scope must not be extrapolated statewide.",
+      "caveat": "Test-checked districts: Dhenkanal, Jajpur, Keonjhar, Mayurbhanj, Nabarangpur, Sundargarh. Sample scope must not be extrapolated statewide. Table 4.1 differs from Table 5.1 for Dhenkanal/Jajpur expenditure and sample totals. This value is a retained source-specific report, not a reconciled total; derived ratios are conditional on Table 5.1. See mining-programme.dmf_service_followup.table_conflict.",
       "research_batch": "mining-programme",
-      "checked_on": "2026-10-01",
-      "publication_readiness": "source_checked_editorial_review_pending",
-      "human_reviewed": false
+      "checked_on": "2026-10-02",
+      "publication_readiness": "hold_conflict",
+      "human_reviewed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-02T20:29:38.611603+00:00",
+          "run_id": "2026-10-02-dmf-service-followup",
+          "reason": "Newly inspected Table 4.1 conflicts with Table 5.1; reported value retained, unqualified publication held.",
+          "previous_fields": {
+            "publication_readiness": "source_checked_editorial_review_pending",
+            "caveat": "Test-checked districts: Dhenkanal, Jajpur, Keonjhar, Mayurbhanj, Nabarangpur, Sundargarh. Sample scope must not be extrapolated statewide.",
+            "checked_on": "2026-10-01"
+          }
+        }
+      ],
+      "conflict_id": "dmf-table4-1-vs5-1"
     },
     {
       "id": "mining-dmf-utilisation-sample-2024",
@@ -8508,11 +8521,24 @@
       "locator": "Executive summary pp. ix–x; paragraph 1.1",
       "evidence_status": "audit_reported",
       "definition": "Denominator is sanctioned amount, not receipts including interest.",
-      "caveat": "Test-checked districts: Dhenkanal, Jajpur, Keonjhar, Mayurbhanj, Nabarangpur, Sundargarh. Sample scope must not be extrapolated statewide.",
+      "caveat": "Test-checked districts: Dhenkanal, Jajpur, Keonjhar, Mayurbhanj, Nabarangpur, Sundargarh. Sample scope must not be extrapolated statewide. Table 4.1 differs from Table 5.1 for Dhenkanal/Jajpur expenditure and sample totals. This value is a retained source-specific report, not a reconciled total; derived ratios are conditional on Table 5.1. See mining-programme.dmf_service_followup.table_conflict.",
       "research_batch": "mining-programme",
-      "checked_on": "2026-10-01",
-      "publication_readiness": "source_checked_editorial_review_pending",
-      "human_reviewed": false
+      "checked_on": "2026-10-02",
+      "publication_readiness": "hold_conflict",
+      "human_reviewed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-02T20:29:38.611603+00:00",
+          "run_id": "2026-10-02-dmf-service-followup",
+          "reason": "Newly inspected Table 4.1 conflicts with Table 5.1; reported value retained, unqualified publication held.",
+          "previous_fields": {
+            "publication_readiness": "source_checked_editorial_review_pending",
+            "caveat": "Test-checked districts: Dhenkanal, Jajpur, Keonjhar, Mayurbhanj, Nabarangpur, Sundargarh. Sample scope must not be extrapolated statewide.",
+            "checked_on": "2026-10-01"
+          }
+        }
+      ],
+      "conflict_id": "dmf-table4-1-vs5-1"
     },
     {
       "id": "forest-products-sales-2020",
@@ -18141,15 +18167,28 @@
       "source_id": "mining-cag-dmf2026",
       "locator": "Printed p.29 / PDF p.65 Table5.1, Dhenkanal row",
       "definition": "Cumulative audit table; collection includes interest at sample level. Stage-specific value, not annual flow.",
-      "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone.",
+      "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone. Table 4.1 differs from Table 5.1 for Dhenkanal/Jajpur expenditure and sample totals. This value is a retained source-specific report, not a reconciled total; derived ratios are conditional on Table 5.1. See mining-programme.dmf_service_followup.table_conflict.",
       "evidence_status": "audit_reported",
       "checked_on": "2026-10-02",
-      "publication_readiness": "source_checked_editorial_review_pending",
+      "publication_readiness": "hold_conflict",
       "human_reviewed": false,
       "research_batch": "2026-10-02-mining-community-outcomes",
       "price_basis": "nominal",
       "period_coverage": "cumulative_audit_period",
-      "estimate_status": "actual"
+      "estimate_status": "actual",
+      "revision_history": [
+        {
+          "at": "2026-10-02T20:29:38.611603+00:00",
+          "run_id": "2026-10-02-dmf-service-followup",
+          "reason": "Newly inspected Table 4.1 conflicts with Table 5.1; reported value retained, unqualified publication held.",
+          "previous_fields": {
+            "publication_readiness": "source_checked_editorial_review_pending",
+            "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone.",
+            "checked_on": "2026-10-02"
+          }
+        }
+      ],
+      "conflict_id": "dmf-table4-1-vs5-1"
     },
     {
       "id": "dmf-dhenkanal-utilised-2024",
@@ -18162,15 +18201,28 @@
       "source_id": "mining-cag-dmf2026",
       "locator": "Printed p.29 / PDF p.65 Table5.1, Dhenkanal row",
       "definition": "Cumulative audit table; collection includes interest at sample level. Stage-specific value, not annual flow.",
-      "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone.",
+      "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone. Table 4.1 differs from Table 5.1 for Dhenkanal/Jajpur expenditure and sample totals. This value is a retained source-specific report, not a reconciled total; derived ratios are conditional on Table 5.1. See mining-programme.dmf_service_followup.table_conflict.",
       "evidence_status": "audit_reported",
       "checked_on": "2026-10-02",
-      "publication_readiness": "source_checked_editorial_review_pending",
+      "publication_readiness": "hold_conflict",
       "human_reviewed": false,
       "research_batch": "2026-10-02-mining-community-outcomes",
       "price_basis": "nominal",
       "period_coverage": "cumulative_audit_period",
-      "estimate_status": "actual"
+      "estimate_status": "actual",
+      "revision_history": [
+        {
+          "at": "2026-10-02T20:29:38.611603+00:00",
+          "run_id": "2026-10-02-dmf-service-followup",
+          "reason": "Newly inspected Table 4.1 conflicts with Table 5.1; reported value retained, unqualified publication held.",
+          "previous_fields": {
+            "publication_readiness": "source_checked_editorial_review_pending",
+            "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone.",
+            "checked_on": "2026-10-02"
+          }
+        }
+      ],
+      "conflict_id": "dmf-table4-1-vs5-1"
     },
     {
       "id": "dmf-dhenkanal-completed-2024",
@@ -18267,15 +18319,28 @@
       "source_id": "mining-cag-dmf2026",
       "locator": "Printed p.29 / PDF p.65 Table5.1, Jajpur row",
       "definition": "Cumulative audit table; collection includes interest at sample level. Stage-specific value, not annual flow.",
-      "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone.",
+      "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone. Table 4.1 differs from Table 5.1 for Dhenkanal/Jajpur expenditure and sample totals. This value is a retained source-specific report, not a reconciled total; derived ratios are conditional on Table 5.1. See mining-programme.dmf_service_followup.table_conflict.",
       "evidence_status": "audit_reported",
       "checked_on": "2026-10-02",
-      "publication_readiness": "source_checked_editorial_review_pending",
+      "publication_readiness": "hold_conflict",
       "human_reviewed": false,
       "research_batch": "2026-10-02-mining-community-outcomes",
       "price_basis": "nominal",
       "period_coverage": "cumulative_audit_period",
-      "estimate_status": "actual"
+      "estimate_status": "actual",
+      "revision_history": [
+        {
+          "at": "2026-10-02T20:29:38.611603+00:00",
+          "run_id": "2026-10-02-dmf-service-followup",
+          "reason": "Newly inspected Table 4.1 conflicts with Table 5.1; reported value retained, unqualified publication held.",
+          "previous_fields": {
+            "publication_readiness": "source_checked_editorial_review_pending",
+            "caveat": "Sample not statewide; sanctions may exceed contemporaneous collections. No inference of fraud, cash balance, household transfer or service effectiveness from this row alone.",
+            "checked_on": "2026-10-02"
+          }
+        }
+      ],
+      "conflict_id": "dmf-table4-1-vs5-1"
     },
     {
       "id": "dmf-jajpur-completed-2024",
@@ -18771,15 +18836,28 @@
       "source_id": "mining-cag-dmf2026",
       "locator": "Printed pp.29–30 / PDF pp.65–66 Table5.1",
       "definition": "Aggregate for Dhenkanal, Jajpur, Keonjhar, Mayurbhanj, Nabarangpur and Sundargarh.",
-      "caveat": "Not statewide. Collection includes interest; project completion is not functioning-service or welfare-outcome evidence.",
+      "caveat": "Not statewide. Collection includes interest; project completion is not functioning-service or welfare-outcome evidence. Table 4.1 differs from Table 5.1 for Dhenkanal/Jajpur expenditure and sample totals. This value is a retained source-specific report, not a reconciled total; derived ratios are conditional on Table 5.1. See mining-programme.dmf_service_followup.table_conflict.",
       "evidence_status": "audit_reported",
       "checked_on": "2026-10-02",
-      "publication_readiness": "source_checked_editorial_review_pending",
+      "publication_readiness": "hold_conflict",
       "human_reviewed": false,
       "research_batch": "2026-10-02-mining-community-outcomes",
       "price_basis": "nominal",
       "period_coverage": "cumulative_audit_period",
-      "estimate_status": "actual"
+      "estimate_status": "actual",
+      "revision_history": [
+        {
+          "at": "2026-10-02T20:29:38.611603+00:00",
+          "run_id": "2026-10-02-dmf-service-followup",
+          "reason": "Newly inspected Table 4.1 conflicts with Table 5.1; reported value retained, unqualified publication held.",
+          "previous_fields": {
+            "publication_readiness": "source_checked_editorial_review_pending",
+            "caveat": "Not statewide. Collection includes interest; project completion is not functioning-service or welfare-outcome evidence.",
+            "checked_on": "2026-10-02"
+          }
+        }
+      ],
+      "conflict_id": "dmf-table4-1-vs5-1"
     },
     {
       "id": "dmf-completed-sample-2024",
@@ -20046,7 +20124,8 @@
     "mining-nalco-sd2025",
     "mining-rsp-subplac2026",
     "mining-rsp-relocation2026",
-    "mining-directorate-revenue"
+    "mining-directorate-revenue",
+    "mining-npcc-rs2970-2023"
   ],
   "human_review_claimed": false,
   "updated_on": "2026-10-02",

@@ -32,7 +32,7 @@ The legacy [F05](../evidence/f05.md) figure of 53,000 crore is a 2026–27 **bud
 
 ## Six district funds, one explicit audit period
 
-CAG Report 7 of 2026 covers 2015–16 to 2023–24, with later field checks and January 2026 replies. Table 5.1 reports collections **including interest** in this six-DMF sample; do not compare them directly with the existing all 30 DMF leaseholder-contribution total. Amounts below are cumulative ₹ crore.
+CAG Report 7 of 2026 covers 2015–16 to 2023–24, with later field checks and January 2026 replies. Table 5.1 reports collections **including interest** in this six-DMF sample; do not compare them directly with the existing all 30 DMF leaseholder-contribution total. Amounts below reproduce Table 5.1 in cumulative ₹ crore. **The Dhenkanal/Jajpur expenditure and sample release/expenditure figures conflict with Table 4.1; retain them as source-specific values pending clarification.**
 
 |DMF|Collection incl. interest|Sanctioned|Released|Utilised|Completed / sanctioned projects|
 |---|---:|---:|---:|---:|---:|
@@ -43,11 +43,29 @@ CAG Report 7 of 2026 covers 2015–16 to 2023–24, with later field checks and 
 |Nabarangpur|2.47|1.17|1.17|1.17|7 / 7|
 |Sundargarh|7,717.87|8,193.42|5,788.32|4,386.71|5,108 / 6,470|
 
-For these six DMFs, collections including interest were 22,568.17 crore, sanctions 20,947.52 crore, releases 13,160.75 crore and expenditure 10,092.53 crore. Interest included in collections was 1,772.66 crore. These stages must not be summed.
+In Table 5.1, collections including interest for these six DMFs were 22,568.17 crore, sanctions 20,947.52 crore, releases 13,160.75 crore and expenditure 10,092.53 crore. Interest included in collections was 1,772.66 crore. These stages must not be summed.
 
-Expenditure was 48.18% of sanctions and 76.69% of releases. The original §5.1 prose says 79.69%, while Table 5.1 says 76.69%; the raw amounts support the latter. This discrepancy is preserved in the structured record. Table 5.2 also carries a rupee heading over project-count columns: use the column labels and accompanying narrative, not that heading, for units.
+Using Table 5.1 amounts, expenditure is 48.18% of sanctions and 76.69% of releases. These ratios inherit the unresolved cross-table conflict below. The original §5.1 prose says 79.69%, while Table 5.1 says 76.69%; the raw amounts support the latter. This discrepancy is preserved in the structured record. Table 5.2 also carries a rupee heading over project-count columns: use the column labels and accompanying narrative, not that heading, for units.
 
 The sample reports 9,690 completed projects from 17,435 sanctioned (55.58%); 6,551 were ongoing and 1,194 not started/dropped. Completion says nothing by itself about staffing, utilities, sustained use or residents’ welfare. These six districts were audit-selected; neither their spending ratio nor these selected failures estimates all Odisha DMFs.
+
+## The report contains conflicting totals
+
+Original Table 4.1 (printed p. 24 / PDF p. 58), inspected visually, gives different amounts for the same district funds and audit period. We have not established a reason for the differences.
+
+|Measure, ₹ crore|Table 4.1|Table 5.1|
+|---|---:|---:|
+|Six-DMF funds released|13,160.84|13,160.75|
+|Six-DMF funds utilised|10,104.28|10,092.53|
+|Dhenkanal released|56.48|56.39|
+|Dhenkanal utilised|55.89|44.14|
+|Jajpur utilised|1,164.43|1,164.42|
+
+Dhenkanal accounts for the ₹11.75 crore difference between printed expenditure totals. Table 4.1's district expenditure rows sum to ₹10,104.29 crore, ₹0.01 crore above its printed total; rounding or a source error is possible but unconfirmed. Table 5.4 repeats Table 5.1 amounts within the same report and is not independent corroboration. Six affected observations retain their original values and now carry a publication hold; this includes the ratio derived from the disputed expenditure. These differences do not themselves establish missing money.
+
+## How the audit selected its sample
+
+Section 1.5 describes risk-stratified random district selection using collections, expenditure and tribal population, with Mayurbhanj additionally selected following media reports of fraud. Block selection combines the highest project counts with random selection; Gram Panchayats were randomly selected. This corrects the earlier structured checkpoint's blanket description as “purposively selected.” The four problem-case bundles below still cannot estimate the prevalence of failure across all projects.
 
 ## Four cases: completion, use and the reply
 
@@ -93,17 +111,37 @@ Joint verification November 2024 found intended beneficiary allotments absent an
 
 **Next evidence:** Allotment and opening records, dated activity, tenant/SHG revenue and beneficiary testimony, with costs split by facility. Current operation in October 2026 is unverified. Locator: §6.6.9, printed p. 66 / PDF p. 104.
 
+## Follow-up search: what remains unverified
+
+A bounded public-record search on 2 October 2026 did not recover a later, facility-matched operating record for any of the four bundles. This means current status is unknown; it does not mean the facilities are still closed.
+
+|Case|What the follow-up established|Evidence still needed|
+|---|---|---|
+|Keonjhar NICU/PICU|An official medical-college bed-listing lead appeared in search, but its page could not be retrieved and the units were not matched to the DMF equipment. Bed counts alone would not establish care delivered.|Commissioning, staff deployment and de-identified service counts tied to those units.|
+|Deogan hostels|No matched later utility, handover or occupancy record recovered. Same-named villages and older hostel stories cannot safely be substituted.|Utility connections, handover and anonymised term occupancy for the Sukinda buildings.|
+|Sundargarh digital records|An old annual-report lead and a general PMU tender do not establish restoration or migration of the three-hospital system.|Dated migration/redeployment record and evidence of routine use in care.|
+|Vyasanagar market/café|The original [27 March 2023 Parliament reply](../sources/mining-npcc-rs2970-2023.md) lists **scheduled** completion of the market on 27 April 2023 and café on 25 November 2023. These are not opening dates.|Facility identifiers, allotments, trading activity and beneficiary evidence after the audit.|
+
+The parliamentary list supports a candidate match by name, locality and client; a shared project identifier remains unverified. The café's scheduled date happens to match the later government handover date, but those are different claims. The market's schedule must not overwrite the audit's earlier handover account. Direct district-portal retrievals also failed; search snippets and recent crawl dates were not promoted to current facts. The structured follow-up preserves these retrieval limits.
+
+## An operating asset can still raise a different question
+
+In §6.5.1 (printed p. 46 / PDF p. 84), CAG records Birsa Munda International Hockey Stadium as functional during January 2025 verification, while separately questioning DMF funding eligibility and benefit to mining-affected residents. Government's January 2026 reply cited larger public interest and Sports and Youth Services permission; CAG said that department could not authorize this use of DMF funds.
+
+This is useful context, not a control group: **operation, funding eligibility, beneficiary access and community impact are separate questions.** A service can operate while its funding is disputed; a completed building can have eligible funding while still awaiting staff or utilities.
+
 ## What would establish benefit?
 
 A completed hostel needs functioning water/electricity, staff and evidence of occupation. An ICU needs staff and evidence of care delivered. A market needs occupied stalls and trading activity. A digital system needs evidence of use in care. These are proposed verification fields, not findings that the evidence already supplies.
 
 For each case retain: stable identity and geography; funding source; sanction/release/expenditure dates; completion and handover records; operation dates; maintenance/staffing; de-identified service counts; intended and actual beneficiary scope; and attributed community accounts. An outcome claim needs an appropriate baseline/comparison and cannot be inferred solely from use. Never collect identifiable patient or student records for this research.
 
-Chapter VII records weak public disclosure and absent asset registers in the audited sample. January 2026 replies describe training and progressive asset-register compilation; these are reported responses, not independently verified remediation. The present reading covers the selected original sections and responses listed in the source capture, not every audit chapter.
+Chapter VII records weak public disclosure and absent asset registers in the audited sample. January 2026 replies describe training and progressive asset-register compilation; these are reported responses, not independently verified remediation. The cumulative reading now covers §1.5 and Chapters III–VIII (collection, planning, fund management, implementation, monitoring, conclusions and recommendations). Appendices have not been exhaustively reviewed; this is source reading, not an independent re-audit.
 
 ## Sources and connected knowledge
 
-- [CAG DMF audit](../sources/mining-cag-dmf2026.md): Tables 5.1–5.2, selected §6.6 cases and Chapter VII.
+- [CAG DMF audit](../sources/mining-cag-dmf2026.md): §1.5 and Chapters III–VIII; Tables 4.1 and 5.1–5.2 retain their discrepancies.
+- [Parliament construction schedule](../sources/mining-npcc-rs2970-2023.md): Annexure IV, rows 193/213; planned dates only.
 - [CAG State Finances](../sources/macro-cag-fy2025.md): original PDF Table 1.7.
 - [Directorate revenue table](../sources/mining-directorate-revenue.md): collection-series scope.
 - [Mining research](mining.md) · [Minerals and mining statistics](../statistics/minerals-and-mining.md) · [Public finance audit](../statistics/public-finance-audit.md).

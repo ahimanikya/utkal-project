@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `66c2ae0bdeb2787ec0932806410417901046a3b1037903acb7b8a47ece17f8b8`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `af8accc8573679045a9823475c2585d98f6fa51feb03df9799c3dde04d041b3d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -159,6 +159,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-144 · Integrate mining and manufacturing research from PR 60 | completed | applied | Ahimanikya Satapathy | Integration complete. RES-052 retains its source follow-up and current employment/supplier evidence gaps. | — |
 | UTP-WORK-145 · Strengthen employment and local supplier evidence | completed | applied | Ahimanikya Satapathy | Checkpoint merged. RES-052 remains in progress with explicit current-headcount and supplier-outcome evidence needs; no outreach sent. | — |
 | UTP-WORK-146 · Connect mining receipts, district funds and working services | completed | applied | Ahimanikya Satapathy | Bounded checkpoint merged. RES-053 remains in progress for remaining audit sections, exact receipt reconciliation, newer operating records and community outcomes. | — |
+| UTP-WORK-147 · Finish scoped DMF audit reading and investigate current services | in_progress | reviewed | Ahimanikya Satapathy | Integrate validated bounded checkpoint; retain RES-053 reconciliation and current-service gaps. | — |
 
 ## Pending human review and decisions
 
@@ -384,6 +385,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-161 · Employment and supplier evidence follow-up | approved | Ahimanikya Satapathy | Research the proposed current-employment and local-supplier gaps and save a validated KB update. Existing authorization permits routine Git delivery. Public story publication, outreach and spending are outside this batch. |
 | UTP-DEC-162 · Trace mining revenues and DMF community outcomes | approved | Ahimanikya Satapathy | Approved proposed mining revenue and DMF research; routine KB Git delivery under existing authorization. No outreach, spending or public website story publication. |
 | UTP-DEC-163 · Approve merged mining and DMF research checkpoint | approved | Ahimanikya Satapathy | Founder acceptance of the reported PR65 research checkpoint. Existing source limitations and RES-053 follow-ups remain. This approval does not attest independent factual verification or authorize public story publication. |
+| UTP-DEC-164 · Continue DMF audit reading and service follow-up | approved | Ahimanikya Satapathy | Approved the proposed audit and four-case research follow-up; routine KB validation and Git integration under existing authorization. |
 
 ## Reviews
 
@@ -511,6 +513,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-122 | pass_with_limitations | False | Source attributions and existing research qualifications reviewed; this is not an independent rereading of all original PDFs or human specialist sign-off.; RES-052 remains in progress with a 9 October evidence follow-up. Current employment, local supplier and mine-to-plant allocation gaps remain.; Research integration does not add public website pages or deploy a website change. |
 | UTP-REV-123 | pass_with_limitations | False | Current plant payroll and unique-person methodology not recovered. Unit work volume and corporate totals do not fill this gap.; RSP social-account claims remain pending underlying source records and independent community evidence.; Selected NALCO pages visually checked; not a full audit or human specialist review. No public website publication. |
 | UTP-REV-124 | pass_with_limitations | False | Selected original sections read; not complete audit review.; No current-operation evidence or independent community testimony recovered. Four problem-case bundles cannot establish statewide failure prevalence.; 0.73crore receipt difference retained;79.69/76.69 source discrepancy explicit. |
+| UTP-REV-125 | pass_with_limitations | False | No present-day operating or community outcome evidence established for the four cases.; Financial table conflict and exact revenue crosswalk remain unresolved.; Source reading is not independent re-audit or exhaustive appendix review. |
 
 ## Publication and application history
 
@@ -605,7 +608,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-183 | 2026-10-02T14:33:37.057142+00:00 | Founder approved PR #59. Exact reviewed revision merged and deployed successfully. Live HTTP checks confirm ten cultural pages, new maker headings/subtitles and category trails, deployed styles, eleven sitemap routes and ownership response. | Continue separately scoped wider visual and human review; Search Console processing remains open. |
 | UTP-EVT-184 | 2026-10-02T14:53:29.177795+00:00 | Founder authorized autonomous completion. Integrated 46 research commits locally while preserving later website and recovered-source records. Completed 366 responsive and 122 page-structure browser cases. Twelve integration/delivery items are tracked separately from the checks. | Finish validation and publication. |
 | UTP-EVT-185 | 2026-10-02T15:09:51.214433+00:00 | Authorized batch delivered through PR 61 and successful Pages deployment. Recorded 488 browser review cases and twelve integration/delivery items separately. Preserved source recoveries, integrated 206 additional research entries and reconciled seven redundant research PRs. All 125 live file checks and responsive image checks pass. | Continue the newer research stack and remaining human/source/Google follow-ups. |
 | UTP-EVT-186 | 2026-10-02T18:23:08.583818+00:00 | Pinned four PR 60 commits; reconciled newer main records, held the dependent IMFA total, and validated source/observation preservation. No website change. | Complete remote CI and merge. |
@@ -615,6 +617,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-190 | 2026-10-02T19:43:20.772661+00:00 | Added48 observations and one connected synthesis from two reused CAG sources and one new Directorate table. Six district funds and four named case bundles retain audit dates and government replies. Prior906 observations preserved. | Validate and deliver KB checkpoint; retain full audit/current service/outcome follow-ups. |
 | UTP-EVT-191 | 2026-10-02T19:53:02.067988+00:00 | PR65 merged after automated checks. Prior906 observations preserved;48 added. Named case bundles retain government replies and date limits. No website publication. | Continue RES-053 only against the remaining evidence gaps. |
 | UTP-EVT-192 | 2026-10-02T19:54:47.971793+00:00 | Founder approved the merged PR65 mining and DMF research checkpoint. Source limitations and outstanding service/outcome evidence remain recorded. | RES-053: finish relevant audit reading and seek newer evidence of service operation and community benefit. |
+| UTP-EVT-193 | 2026-10-02T20:31:43.120207+00:00 | Finished scoped chapter reading, corrected sampling description, held six conflicting observations without changing values, and distinguished Parliament schedules from opening dates. | Validate and integrate; retain current-service and reconciliation questions. |
 
 ## Deferred extensions
 
