@@ -93,3 +93,7 @@ Rice seed-to-food story candidate available with historical dates and participan
 ## Rice costs and returns · 2 October 2026 UTC
 
 A draft rice-cost story distinguishes gross value from income after C2 costs. Historical case, unresolved survey year and non-statewide scope remain visible. No website publication or human review claimed.
+
+## Paddy procurement reconciliation · 2 October 2026 UTC
+
+Draft combined paddy-payment story added with KMS and category visible. Eleven observations include seasonal quantities and seller counts. No payment growth percentage, statewide farm profit, unique annual farmer count or website deployment claimed.

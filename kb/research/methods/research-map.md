@@ -264,9 +264,9 @@ Three song identities added after saved-knowledge/name searches. Existing Chaura
 
 RES-051 enhanced existing mining concepts; added one coal topic and two source records after saved-knowledge searches. Directory production, resource and block tables share one publication; OCPL’s current page contains historical2019 data. Six selected blocks are not statewide coverage.
 
-## Ore reconciliation checkpoint · 1 October2026
+## Ore reconciliation checkpoint · 1 October 2026
 
-RES-051 reused comparison-6-1/7-1/8-1 as aliases of one state table and extended mining-ibm-yearbook2024 beyond discovery. One new topic links132 new scoped observations; no new source ID or frozen-ledger rewrite.
+RES-051 reused comparison-6-1/7-1/8-1 as aliases of one state table and extended mining-ibm-yearbook 2024 beyond discovery. One new topic links132 new scoped observations; no new source ID or frozen-ledger rewrite.
 
 ## Mine-to-processing checkpoint · 1 October 2026
 
@@ -276,7 +276,7 @@ Existing NALCO excavation/capex records, IBM district links and mining programme
 
 Added two named bauxite identities through one connected concept and four source records. Reused IBM producer-district entries and NALCO processing research. Same ASI certification across report/announcement is one evidence family, not independent corroboration.
 
-## Baphlimali returns · 2 October2026 UTC
+## Baphlimali returns · 2 October 2026 UTC
 
 Enhanced existing Baphlimali concept and structured mine identity. Two original company records add output/payment/work scope; no duplicate mine profile. Company annual return and compliance narrative share provenance. ASI is a separate certification purpose, not interchangeable workforce corroboration.
 
@@ -291,3 +291,7 @@ Extended seven existing rice records and nine name-level food-use accounts. Two 
 ## Rice costs and returns · 2 October 2026 UTC
 
 Extended existing rice economics with one original study, eight observations and a linked cost story. No repeat production-series extraction or duplicate mirror corroboration.
+
+## Paddy procurement reconciliation · 2 October 2026 UTC
+
+Recovered one later original department report and reused saved procurement quantity/MSP records. Added two concepts; preserved earlier vintages and unresolved partial-snapshot date.

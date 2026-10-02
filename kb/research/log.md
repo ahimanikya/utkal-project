@@ -336,3 +336,7 @@ RES-060 bounded deliverable completed: seven existing entries enhanced, nine att
 ## Rice costs and returns · 2 October 2026 UTC
 
 RES-061 checkpoint: full-text regional paddy case captured and Tables5–7 visually checked. Eight observations, defined C2 costs and source/period qualifications retained. Procurement settlement and survey year remain open; task is not marked complete.
+
+## Paddy procurement reconciliation · 2 October 2026 UTC
+
+RES-061: recovered2025–26 scanned government report, visually checked relevant pages, added eleven observations and a payment story. Later2023–24 payment reconciles arithmetically. Remaining task criteria await settlement scope and study year; retry 9 October. Independent research proceeds to RES-045.

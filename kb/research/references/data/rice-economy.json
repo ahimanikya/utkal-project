@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-02T01:52:06.804669+00:00",
+  "updated_at": "2026-10-02T02:06:44.053750+00:00",
   "scope": "Starting rice identities and economic evidence, not an exhaustive Odisha variety census or completed market study",
   "varieties": [
     {
@@ -598,7 +598,18 @@
     "rice-sahoo2023-c2",
     "rice-sahoo2023-net",
     "rice-sahoo2023-yield",
-    "rice-sahoo2023-family-labour"
+    "rice-sahoo2023-family-labour",
+    "rice-procurement-kharif2025",
+    "rice-procurement-rabi2025",
+    "rice-sellers-kharif2025",
+    "rice-sellers-rabi2025",
+    "rice-msp-paid2024-later",
+    "rice-msp-assistance-paid2025",
+    "rice-millers2025",
+    "rice-msp-common2026",
+    "rice-msp-grade-a2026",
+    "rice-assistance2026",
+    "rice-procurement-fy2025"
   ],
   "reused_observation_ids": [
     "nature-rice-2020-21",
@@ -664,7 +675,7 @@
           "description": "MSP payment claimed"
         }
       ],
-      "status": "held_after_arithmetic_scope_check",
+      "status": "later_full_year_payment_reconciled_to_common_rate; earlier_claim_and_partial_snapshot_retained_on_hold",
       "reason": "No verified reconciliation to volumes and applicable rates; do not headline market value or profit.",
       "reconciliation_checks": [
         {
@@ -692,7 +703,59 @@
           "reported_payment_crore": 6516.28,
           "interpretation": "Partial-period narrative payment is below simple quantity-times-MSP range; settlement scope not known."
         }
-      ]
+      ],
+      "status_history": [
+        {
+          "at": "2026-10-02T02:06:44.053750+00:00",
+          "prior_status": "held_after_arithmetic_scope_check",
+          "reason": "Later primary report recovered; no earlier observations removed."
+        }
+      ],
+      "later_report_checkpoint": {
+        "run_id": "2026-10-02-rice-procurement",
+        "at": "2026-10-02T02:06:44.053750+00:00",
+        "source_id": "rice-fscw2026",
+        "full_year_2023_24": {
+          "later_payment_crore": 15475.18,
+          "prior_payment_crore": 16883.03,
+          "prior_source_id": "rice-fscw2025",
+          "later_locator": "p.29",
+          "quantity_tonnes": 7088950,
+          "quantity_observation_id": "rice-procurement2024",
+          "common_msp_INR_quintal": 2183,
+          "formula": "7088950 ×10 ×2183 /10000000",
+          "calculated_crore": 15475.17785,
+          "rounding_precision_crore": 0.01,
+          "result": "Later figure agrees after rounding. Prefer later report with explicit provenance; cause of prior discrepancy and formal erratum unknown. No independent bank-settlement verification."
+        },
+        "full_year_2024_25": {
+          "kharif_tonnes": 7345707,
+          "rabi_tonnes": 1918528,
+          "derived_total_tonnes": 9264235,
+          "source_rounded_total_lakh_tonnes": 92.64,
+          "total_locator": "p.10 seasonal totals; p.26 KMS summary",
+          "reported_MSP_plus_input_assistance_crore": 28718,
+          "formula_at_common_combined_rate": "9264235 ×10 ×(2300+800)/10000000",
+          "calculated_crore": 28719.1285,
+          "difference_crore": 1.1285,
+          "result": "Combined reported payment is close but not an exact quantity-times-rate match. No settlement adjustment or payment completion inferred; retain reported payment separately."
+        },
+        "period_rule": "KMS runs1October–30September and includes kharif and rabi; FY runs1April–31March. FY physical86.30LMT is not a revision to KMS92.64LMT.",
+        "farmer_rule": "Seasonal seller counts may overlap; no unique annual farmer count derived.",
+        "comparison_rule": "2023–24 MSP-only and2024–25 MSP plus input assistance are different categories; no like-for-like payment growth rate."
+      }
+    },
+    {
+      "id": "fscw2026-partial-snapshot-date-and-season",
+      "source_id": "rice-fscw2026",
+      "status": "held",
+      "locator": "p.8 (PDF10)",
+      "issues": [
+        "KMS2025–26 snapshot printed as13.01.2025, before this marketing year starts; do not silently correct to2026.",
+        "Page8 labels73.43LMT as KMS2024–25 total, whereas p.10 distinguishes kharif73,45,707tonnes and rabi19,18,528tonnes; p.26 explicitly gives full KMS92.64LMT. Treat page8 wording as season/scope ambiguity.",
+        "Partial payment3816.26crore and19.94LMT pair lacks matched settlement scope. Excluded from public totals."
+      ],
+      "retry_after": "2026-10-09"
     }
   ],
   "source_checks": [
@@ -819,6 +882,33 @@
       "status": "available",
       "reason": "Existing original abstract rechecked; full itemised cost text not recovered. No duplicate observations.",
       "retrieved_on": "2026-10-02"
+    },
+    {
+      "url": "https://foododisha.in/Download/annual-activity-glance-25-26.pdf",
+      "source_id": "rice-fscw2026",
+      "status": "available",
+      "scope": "Original scanned56-page report recovered by direct download; selected procurement pages visually checked. Prior web-reader failure retained as route history.",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "url": "https://www.foododisha.in/Download/annual-activity-glance-23-24.pdf",
+      "status": "available",
+      "scope": "Original40-page scanned report downloaded after web-reader size limit. Budget pp.25–27 inspected; no numeric observations admitted from this edition.",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "url": "https://www.foododisha.in/TransparencyPortal.asp?GL=TransparencyPortal",
+      "status": "partial",
+      "scope": "Index accessible; farmerwise payment link returns to same index, not settlement records.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "url": "https://ppas.pdsodisha.gov.in/procurementStatusReportPPAS",
+      "status": "partial",
+      "scope": "Public KMS/season selector visible; web reader supplied no aggregate records. No claim of unchanged values.",
+      "retrieved_on": "2026-10-02",
+      "retry_after": "2026-10-09"
     }
   ],
   "gaps": [
@@ -849,6 +939,11 @@
       "run_id": "2026-10-02-rice-cost-returns",
       "at": "2026-10-02T01:52:06.804669+00:00",
       "scope": "Added full-text regional paddy cost/return case; period ambiguity and conflicting ratio/cost definitions retained. Procurement reconciliation remains open."
+    },
+    {
+      "run_id": "2026-10-02-rice-procurement",
+      "at": "2026-10-02T02:06:44.053750+00:00",
+      "scope": "Recovered later government report, reconciled2023–24 aggregate to common MSP, separated2024–25 seasonal/annual/FY scope and payment categories. Earlier claims and fresh partial-date conflict preserved."
     }
   ],
   "production_series": {
@@ -1429,5 +1524,38 @@
     ],
     "procurement_status": "Unresolved; saved department report supplies no matched settlement reconciliation. Existing held payment claims preserved.",
     "next_step": "Recover matched procurement settlement/adjustment records and explicit paddy survey/valuation year; retry Ministry cost data on2026-10-09."
+  },
+  "procurement_reconciliation": {
+    "run_id": "2026-10-02-rice-procurement",
+    "at": "2026-10-02T02:06:44.053750+00:00",
+    "source_id": "rice-fscw2026",
+    "full_year_2023_24": {
+      "later_payment_crore": 15475.18,
+      "prior_payment_crore": 16883.03,
+      "prior_source_id": "rice-fscw2025",
+      "later_locator": "p.29",
+      "quantity_tonnes": 7088950,
+      "quantity_observation_id": "rice-procurement2024",
+      "common_msp_INR_quintal": 2183,
+      "formula": "7088950 ×10 ×2183 /10000000",
+      "calculated_crore": 15475.17785,
+      "rounding_precision_crore": 0.01,
+      "result": "Later figure agrees after rounding. Prefer later report with explicit provenance; cause of prior discrepancy and formal erratum unknown. No independent bank-settlement verification."
+    },
+    "full_year_2024_25": {
+      "kharif_tonnes": 7345707,
+      "rabi_tonnes": 1918528,
+      "derived_total_tonnes": 9264235,
+      "source_rounded_total_lakh_tonnes": 92.64,
+      "total_locator": "p.10 seasonal totals; p.26 KMS summary",
+      "reported_MSP_plus_input_assistance_crore": 28718,
+      "formula_at_common_combined_rate": "9264235 ×10 ×(2300+800)/10000000",
+      "calculated_crore": 28719.1285,
+      "difference_crore": 1.1285,
+      "result": "Combined reported payment is close but not an exact quantity-times-rate match. No settlement adjustment or payment completion inferred; retain reported payment separately."
+    },
+    "period_rule": "KMS runs1October–30September and includes kharif and rabi; FY runs1April–31March. FY physical86.30LMT is not a revision to KMS92.64LMT.",
+    "farmer_rule": "Seasonal seller counts may overlap; no unique annual farmer count derived.",
+    "comparison_rule": "2023–24 MSP-only and2024–25 MSP plus input assistance are different categories; no like-for-like payment growth rate."
   }
 }

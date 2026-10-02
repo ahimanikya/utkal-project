@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T01:52:06.804669+00:00",
+  "updated_at": "2026-10-02T02:06:44.053750+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5107,6 +5107,36 @@
       "run_id": "2026-10-02-rice-cost-returns",
       "status": "available",
       "scope": "Existing original abstract rechecked; full itemised cost text not recovered. No duplicate observations."
+    },
+    {
+      "discovery_url": "https://foododisha.in/Download/annual-activity-glance-25-26.pdf",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "available",
+      "scope": "Original scanned56-page report recovered by direct download; selected procurement pages visually checked. Prior web-reader failure retained as route history."
+    },
+    {
+      "discovery_url": "https://www.foododisha.in/Download/annual-activity-glance-23-24.pdf",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "available",
+      "scope": "Original40-page scanned report downloaded after web-reader size limit. Budget pp.25–27 inspected; no numeric observations admitted from this edition."
+    },
+    {
+      "discovery_url": "https://www.foododisha.in/TransparencyPortal.asp?GL=TransparencyPortal",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "partial",
+      "scope": "Index accessible; farmerwise payment link returns to same index, not settlement records.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://ppas.pdsodisha.gov.in/procurementStatusReportPPAS",
+      "checked_at": "2026-10-02T02:06:44.053750+00:00",
+      "run_id": "2026-10-02-rice-procurement",
+      "status": "partial",
+      "scope": "Public KMS/season selector visible; web reader supplied no aggregate records. No claim of unchanged values.",
+      "retry_after": "2026-10-09"
     }
   ]
 }

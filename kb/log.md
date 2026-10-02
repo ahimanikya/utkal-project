@@ -247,3 +247,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Rice costs and returns
 
 [Research receipt](records/rice-cost-returns-2026-10-02.json): Eight observations and a full-text regional cost case added. RES-061 remains in progress: procurement scope and survey year need reconciliation. No website release.
+
+## 2 October 2026 · Paddy procurement payments
+
+[Research receipt](records/rice-procurement-2026-10-02.json): Eleven observations and later government report added. The2023–24 aggregate matches the common MSP after rounding. Remaining settlement/study-year evidence deferred to9October; RES-045 next. No website release.

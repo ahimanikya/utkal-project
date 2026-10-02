@@ -78,3 +78,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Regional cost evidence · 2 October 2026 UTC
 
 [The paddy cost case](../stories/rice-income-after-costs.md) adds eight source-located observations. Survey/valuation year remains unspecified, so these do not enter time-series comparisons or statewide farmer-income totals. The source reports costs including family labour and land; source definition conflicts remain visible in the rice register.
+
+## Procurement payment scope · 2 October 2026 UTC
+
+The [rice payment story](../stories/rice-procurement-payments.md) adds the later department report with eleven scoped observations. Its 2023–24 MSP amount agrees with the saved volume at common MSP after rounding. The 2024–25 payment includes assistance; do not calculate like-for-like growth against MSP alone. Seasonal seller counts remain separate, and financial-year physical totals are not marketing-year revisions.

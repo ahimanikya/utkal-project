@@ -295,7 +295,7 @@ RES-044’s bounded deliverable is complete. Original AIR and Jayantika dates, o
 
 RES-051 coal checkpoint: ten annual production/share rows, dated geological categories and six selected blocks saved. Ore time series,2014–15 coal baseline, most district/MDO identities and household outcomes remain open. Talabira primary application fetch and OCPL sale PDF unavailable; retry8October. OCPL narrative/table land scopes differ and are held.
 
-## Ore reconciliation checkpoint · 1 October2026
+## Ore reconciliation checkpoint · 1 October 2026
 
 RES-051 now has the state’s paired production/despatch table and IBM ore/resource checks. Iron-ore2019–20 differs even across two state routes; IBM/state quantities differ across recent years. Resource age, producer location and labour-only mine reporting are explicit. Named ore lease/MDO links and source methodology remain open.
 
@@ -307,7 +307,7 @@ RES-051 now has selected NALCO mine/lease and MDO identities, and a reusable pro
 
 RES-051: Kodingamali and Baphlimali identities added. Original Baphlimali annual-return and EC-report URLs recovered from the audit remain the next bounded check. Current permits, district boundaries, buyers, direct/contract/local employment and corrective-action closure remain open. Mislinked Bimarla evidence excluded; failed expansion-form retrieval retry8October.
 
-## Baphlimali returns · 2 October2026 UTC
+## Baphlimali returns · 2 October 2026 UTC
 
 Baphlimali original annual-return/compliance text recovered. Complex employment columns, original scanned CTO, cadastral district boundaries and rehabilitation definitions require follow-up on8October. ROM stock arithmetic reconciles; original state/IBM production differences remain held. Company payments do not establish DMF project outcomes.
 
@@ -321,4 +321,8 @@ Bounded rice place/food deliverable saved. Original Sambad date is attributed th
 
 ## Rice costs and returns · 2 October 2026 UTC
 
-RES-061 now has a full-text regional C2 cost case. Paddy survey/valuation year and paddy-specific sample remain unclear;2018–19 contextual tables cannot establish them. Procurement payment reconciliation remains unresolved. Ministry cost2021–22 route timed out; retry9October2026. Source ratio/definition conflicts are retained, not silently corrected.
+RES-061 now has a full-text regional C2 cost case. Paddy survey/valuation year and paddy-specific sample remain unclear;2018–19 contextual tables cannot establish them. Procurement payment reconciliation remains unresolved. Ministry cost2021–22 route timed out; retry 9 October 2026. Source ratio/definition conflicts are retained, not silently corrected.
+
+## Paddy procurement reconciliation · 2 October 2026 UTC
+
+The later 2025–26 report is now available locally and visually reviewed for procurement. Its 2023–24 MSP payment 15475.18 crore matches saved quantity at common MSP after rounding. The earlier 16883.03 crore claim remains in history without an erratum explanation. Partial-period settlements, a 1.1285 crore 2024–25 diagnostic difference and the cost-study year remain open. Payment-link route returns to its index; retry 9 October.

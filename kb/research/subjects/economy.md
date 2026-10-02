@@ -93,3 +93,5 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Forest products and local enterprise](../stories/van-dhan-enterprises.md) connects a dated programme-sales comparison to named community-processing leads; turnover is separate from collector income.
 
 [Rice income after costs](../stories/rice-income-after-costs.md) explains gross value and C2 net income through a regional study, with period and representativeness limits.
+
+[Paddy procurement payments](../stories/rice-procurement-payments.md) connects farming with public purchasing while keeping farmer profit and payment categories distinct.

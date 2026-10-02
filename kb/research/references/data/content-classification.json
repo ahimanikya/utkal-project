@@ -4430,6 +4430,17 @@
       "content_type": "Evidence Story Draft",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/rice-procurement-payments",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "governance"
+      ],
+      "content_type": "Evidence Story Draft",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6399,6 +6410,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Keeps historical case values separate from statewide production trends."
+    },
+    {
+      "from": "stories/rice-procurement-payments",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains the payment reconciliation and the difference between marketing and financial years."
+    },
+    {
+      "from": "stories/rice-procurement-payments",
+      "to": "stories/rice-income-after-costs",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains why procurement payments do not measure farm profit."
     }
   ],
   "relationship_types": {
