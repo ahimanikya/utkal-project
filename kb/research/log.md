@@ -376,3 +376,7 @@ RES-050: original Mahapatra/Beltz scholarship inspected within stated scope; NBT
 ## Sweets economics checkpoint · 2 October 2026 UTC
 
 RES-031: original Pahala economic paper inspected; five scoped observations, ingredient table and four held claims saved. Six-sweet coverage map, provisional Kamadhenu enterprise lead and supply-chain story added. No statewide revenue or shipment total. Validation and Git review follow; no website publication.
+
+## Sweet makers and town commerce · 2 October 2026 UTC
+
+RES-031 checkpoint: three attributed maker credits, one 1999 Korakhai town commodity record and a quarantined 2016 market lead added. Original Census PDF downloaded and table visually checked; existing university source expanded. Two source pages added, existing narratives/classification extended. No current total, export shipment, human review or website release claimed.

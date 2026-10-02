@@ -69,6 +69,13 @@
         "at": "2026-10-01T09:51:37.390675-07:00",
         "method": "direct_pdf_text",
         "scope": "Printed/PDF pp.118–121, 131, 233 and 292. The p.292 Assam label is retained; no location reassignment."
+      },
+      {
+        "at": "2026-10-02T09:44:47.633511+00:00",
+        "method": "direct_pdf_text_and_visual",
+        "scope": "Fresh original 344-page PDF; printed/PDFp.179 item 15 read and visually checked for Aartabandhu Sahoo attribution. p.119 earlier recipe also confirmed; these are two sections of the same publication, not independent sources. Current title Regional Cuisines of India –II. Publication date unstated; PDF creation metadata 2020-04-18 not treated as publication date.",
+        "capture_sha256": "2157d6182b9fab52e69c83b51a433737270fcbb72f32e230d7ca8c19761938d5",
+        "retrieved_url": "https://www.uou.ac.in/sites/default/files/slm/BHM-602AT.pdf"
       }
     ]
   },
@@ -5924,5 +5931,31 @@
     "locator": "Indexed cover and printed p.26, Aspirational, Sustainable Snippets of Success from the Heartland, Vol.2",
     "capture_note": "Indexed primary-publisher passages only. Full PDF failed web retrieval and direct HTTPS timed out. Publication month is not the observation period. Candidate numbers are quarantined pending complete-page review and accounting-period clarification.",
     "capture_method": "indexed_primary_passages_only"
+  },
+  "sweets-korakhai-makers2016": {
+    "id": "sweets-korakhai-makers2016",
+    "title": "Korakhai makers in Bhubaneswar Old Town — 2016 reporting",
+    "resource": "https://www.mycitylinks.in/odishas-sweet-crunchy-delight-named-kora-khai-best-places-to-avail-it-in-old-town-area",
+    "publisher": "Sheela Pattanayak, MyCityLinks",
+    "published_on": "2016-10-14",
+    "accessed_on": "2026-10-02",
+    "locator": "Article paragraphs naming Rama Sahoo and Subash Sahu; market estimates paragraphs",
+    "capture_note": "Original attributed local reporting, including maker testimony. Historical identities only; current ownership and operations unknown. Unattributed market estimates retained as leads, not official totals. No first-inventor or oldest-shop superlative adopted.",
+    "capture_method": "original_web_article_text"
+  },
+  "sweets-khordha-census2001": {
+    "id": "sweets-khordha-census2001",
+    "title": "Khordha District Census Handbook 2001 — town commodity directory",
+    "resource": "https://censusindia.gov.in/nada/index.php/catalog/44136/download/47792/DH_21_2001_KHO.pdf",
+    "publisher": "Directorate of Census Operations, Orissa; Census of India",
+    "published_on": null,
+    "accessed_on": "2026-10-02",
+    "locator": "Printed p.499 / PDF p.197, Statement VI; printed pp.63, 78, 492 / PDF pp.90,105,190",
+    "capture_note": "Original PDF downloaded; commodity table visually checked. Statement VI reference year 1999; analytical Table 47 heading says 2001. Preserve distinct headings, not two observations or growth. Out of town is not evidence of international export; no value, quantity or destination. Foreword dated 2006-10-17 is not an established publication date.",
+    "capture_method": "original_pdf_text_and_visual",
+    "capture_sha256": "79f81cdbadb5f6e959d793912ab88e670fdb15e917fffb321e2e860f006638ee",
+    "reference_period": "1999 for Statement VI",
+    "edition": "Census of India 2001",
+    "publication_date_note": "Foreword 17 October 2006; PDF metadata 2013 is a file-processing date."
   }
 }

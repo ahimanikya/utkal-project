@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T08:45:40.027103+00:00",
-  "run_id": "2026-10-02-sweets-economy",
+  "updated_at": "2026-10-02T09:44:47.633511+00:00",
+  "run_id": "2026-10-02-sweet-makers",
   "scope": "Six selected sweet identities and bounded economic evidence; not a statewide market census.",
   "observations": [
     {
@@ -239,6 +239,24 @@
       "scope": "All candidate values quarantined together; no audit, precise baseline/end period, cost coverage or per-member income established. Do not headline fivefold growth before full-page review.",
       "retry_after": "2026-10-09",
       "next_action": "Recover full p.26 and cover, then establish reporting dates and profit definition."
+    },
+    {
+      "id": "korakhai-market2016",
+      "source_id": "sweets-korakhai-makers2016",
+      "publication_date": "2016-10-14",
+      "observation_period": null,
+      "candidate_values": {
+        "old_town_shops_approx": 25,
+        "bhubaneswar_sales_quintals_per_day_approx": 5,
+        "old_town_sales_quintals_per_day_approx": 2,
+        "price_range_inr_per_kg": [
+          180,
+          220
+        ]
+      },
+      "scope": "Reporter estimates without named statistical source, fieldwork period or measurement method. Historical leads only, not current prices, verified output or revenue. Do not annualise or multiply into market size.",
+      "retry_after": "2026-10-16",
+      "next_action": "Seek dated merchant or municipal records; original method unknown. No contact or interview conducted by Utkal."
     }
   ],
   "coverage": [
@@ -264,9 +282,10 @@
     {
       "concept_id": "food/chhena-jhili",
       "place_context": "Nimapada",
-      "checkpoint": "Existing preparation/place record reused; named-maker origin evidence and dated enterprise accounts remain to research.",
+      "checkpoint": "University credits Aartabandhu Sahoo; origin date, enterprise accounts and current operation remain unknown.",
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "regional-cuisine"
       ]
     },
     {
@@ -288,9 +307,11 @@
     {
       "concept_id": "food/korakhai",
       "place_context": "Lingaraj temple area, Bhubaneswar Old Town",
-      "checkpoint": "Existing rice-based sweet record reused; maker history and sales evidence still absent.",
+      "checkpoint": "1999 town commodity listing and 2016 named-maker reporting added. Press market estimates held; present-day accounts and shipments unknown.",
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "sweets-khordha-census2001",
+        "sweets-korakhai-makers2016"
       ]
     }
   ],
@@ -307,5 +328,88 @@
     "not_zero_exports": true,
     "next_action": "Find dated product-specific returns or shipment releases with Odisha manufacture and destination; broad commodity totals and registration lists insufficient."
   },
-  "human_review_claimed": false
+  "human_review_claimed": false,
+  "maker_credits": [
+    {
+      "id": "aartabandhu-sahoo-jhili",
+      "name": "Aartabandhu Sahoo",
+      "place": "Shyam Sundarpur village, Nimapara, Puri district",
+      "concept_id": "food/chhena-jhili",
+      "role": "credited with starting preparation",
+      "source_ids": [
+        "regional-cuisine"
+      ],
+      "locator": "Printed/PDFp.179, item 15",
+      "evidence_class": "institutional_teaching_attribution",
+      "invention_date": null,
+      "business_current_status": null,
+      "qualification": "No dated archival origin proof; no claim of exclusive authorship or quantified overseas sales."
+    },
+    {
+      "id": "rama-sahoo-korakhai",
+      "name": "Rama Sahoo",
+      "enterprise": "Baya Baba Kora Khai",
+      "place": "Bhubaneswar Old Town",
+      "concept_id": "food/korakhai",
+      "role": "reported founder",
+      "source_ids": [
+        "sweets-korakhai-makers2016"
+      ],
+      "locator": "Paragraph beginning Founded by Rama Sahoo",
+      "evidence_class": "original_local_reporting",
+      "reported_on": "2016-10-14",
+      "foundation_date": null,
+      "business_current_status": null
+    },
+    {
+      "id": "subash-sahu-korakhai",
+      "name": "Subash Sahu",
+      "enterprise": "Jagat Bikhyat Korakhai",
+      "enterprise_aliases": [
+        "Jagat Bikhayat Kora Khai"
+      ],
+      "place": "Bhubaneswar Old Town",
+      "concept_id": "food/korakhai",
+      "role": "interviewed owner in 2016 report",
+      "source_ids": [
+        "sweets-korakhai-makers2016"
+      ],
+      "locator": "Named owner interview",
+      "evidence_class": "maker_testimony_via_named_reporter",
+      "reported_on": "2016-10-14",
+      "business_current_status": null
+    }
+  ],
+  "historical_trade_records": [
+    {
+      "id": "bhubaneswar-korakhai1999",
+      "concept_id": "food/korakhai",
+      "source_ids": [
+        "sweets-khordha-census2001"
+      ],
+      "locator": "Printedp.499/PDFp.197, Statement VI, Bhubaneswar(M.Corp.) row; scope pp63,78,492",
+      "geography": "Bhubaneswar Municipal Corporation, historical directory boundary",
+      "period": "1999",
+      "publication_date": null,
+      "edition": "Census of India 2001",
+      "record_type": "administrative_commodity_listing",
+      "commodity_manufactured": "Kora Khai",
+      "commodity_exported_out_of_town": "Korakhai",
+      "international_exports_established": false,
+      "quantity": null,
+      "value": null,
+      "destinations": null,
+      "price_basis": "not_applicable",
+      "estimate_status": "directory_listing_not_economic_estimate",
+      "project_stage": "historical_record",
+      "qualification": "Table 47 analytical heading2001 repeats the listing; not an independent observation. Positions in the three-item list do not establish a monetary or volume ranking. Town directory information collected from Executive Officers for statutory towns, BDOs for census towns (p78)."
+    }
+  ],
+  "revision_history": [
+    {
+      "run_id": "2026-10-02-sweet-makers",
+      "at": "2026-10-02T09:44:47.633511+00:00",
+      "change": "Added three attributed maker credits, one scoped historical trade record and a quarantined 2016 market lead; earlier observations and conflicts retained."
+    }
+  ]
 }

@@ -743,7 +743,10 @@
         "sweets-industry-size-lead",
         "sweets-apeda-query-routes",
         "food-magji-gi178",
-        "food-rasabali-corrigendum2023"
+        "food-rasabali-corrigendum2023",
+        "sweets-khordha-census2001",
+        "sweets-korakhai-makers2016",
+        "regional-cuisine"
       ]
     },
     {
@@ -1990,7 +1993,8 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "regional-cuisine"
       ]
     },
     {
@@ -2119,7 +2123,9 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "sweets-khordha-census2001",
+        "sweets-korakhai-makers2016"
       ]
     },
     {
@@ -17724,9 +17730,46 @@
         "economy"
       ],
       "source_ids": [
-        "sweets-pahala-study2023"
+        "sweets-pahala-study2023",
+        "sweets-khordha-census2001"
       ],
       "added_at": "2026-10-02T08:45:40.027103+00:00"
+    },
+    {
+      "id": "sources/sweets-khordha-census2001",
+      "title": "Khordha District Census Handbook 2001 — town commodity directory",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-khordha-census2001.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-khordha-census2001"
+      ],
+      "added_at": "2026-10-02T09:44:47.633511+00:00"
+    },
+    {
+      "id": "sources/sweets-korakhai-makers2016",
+      "title": "Korakhai makers in Bhubaneswar Old Town — 2016 reporting",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/sweets-korakhai-makers2016.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "food",
+        "economy"
+      ],
+      "source_ids": [
+        "sweets-korakhai-makers2016"
+      ],
+      "added_at": "2026-10-02T09:44:47.633511+00:00"
     }
   ],
   "shared_publications": [
@@ -18202,7 +18245,12 @@
         "sources/sweets-kamadhenu-sdg2026.md",
         "sources/sweets-industry-size-lead.md",
         "sources/sweets-apeda-query-routes.md",
-        "stories/sweets-from-milk-to-market.md"
+        "stories/sweets-from-milk-to-market.md",
+        "food/chhena-jhili.md",
+        "food/korakhai.md",
+        "sources/sweets-khordha-census2001.md",
+        "sources/sweets-korakhai-makers2016.md",
+        "sources/regional-cuisine.md"
       ],
       "project_records": [
         "kb/research/food/odisha-rasagola.md",
@@ -19064,8 +19112,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1199,
-    "updated_at": "2026-10-02T08:45:40.027103+00:00",
+    "records_mapped": 1201,
+    "updated_at": "2026-10-02T09:44:47.633511+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -19591,6 +19639,11 @@
       "run_id": "2026-10-02-sweets-economy",
       "at": "2026-10-02T08:45:40.027103+00:00",
       "scope": "Six existing sweet identities reused; four source/discovery records and one story draft added. Pahala paper mirrors are one study; GI saved specifications reused; indexed leads not independent verified measurements. Repository-native Rasagola narrative and food collection inspected during reconciliation and preserved; queue pointers now include them."
+    },
+    {
+      "run_id": "2026-10-02-sweet-makers",
+      "at": "2026-10-02T09:44:47.633511+00:00",
+      "scope": "Two new source identities; existing food/story identities extended. Maker credits within shared sweets dataset; no duplicate biographies. UOU sections and Census repeated tables are single publications, not independent corroboration."
     }
   ]
 }

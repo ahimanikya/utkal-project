@@ -337,3 +337,7 @@ Four source/discovery identities and one story draft extend six existing sweet e
 Four source/discovery identities and one story draft extend six existing sweet entries; no duplicate food or maker biographies. Saved GI specifications are reused with their original provenance. Same-paper web/PDF copies are not independent corroboration.
 
 The repository-native `kb/research/food/odisha-rasagola.md` has a richer ritual/literary narrative and saved OSIC/travelogue sources. This batch preserves it and adds the economic section; RES-031 pointers now include that page and `food/collection.json`. This extension corrects an incomplete reuse entrance in the dated map.
+
+## Sweet makers and town commerce · 2 October 2026 UTC
+
+RES-031 adds two source identities and extends existing food/economy/story pages. Three maker credits remain within shared sweets data. The university’s two recipe sections and Census repeated tables count as single publications; no exhaustive deduplication claim.

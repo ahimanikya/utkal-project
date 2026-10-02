@@ -362,3 +362,7 @@ RES-050 bounded context/reading deliverable complete. Exact biography, primary f
 ## Sweets economics checkpoint · 2 October 2026 UTC
 
 RES-031 remains in progress. Pahala paper has unresolved revenue arithmetic, retailer percentages and GI-date mismatch; market extrapolation held. Kamadhenu SDG and Industries news full captures unavailable; indexed figures held, retry9October. Primary maker/history evidence for Jhili and Korakhai, original Magji histories and dated Rasabali accounts remain open. No sweet-specific shipments or statewide market totals established.
+
+## Sweet makers and town commerce · 2 October 2026 UTC
+
+Jhili now has a university-attributed maker and Korakhai has dated maker reporting plus a historical town trade listing. Origin dates, current business status, accounts and actual international shipments remain unknown. Korakhai 2016 market estimates lack methods and stay held. Magji original histories and Rasabali dated producer evidence are the next bounded continuation.

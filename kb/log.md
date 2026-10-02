@@ -287,3 +287,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Sweets economics and supply-chain evidence
 
 [Research receipt](records/sweets-economy-2026-10-02.json): Six sweet identities are reused. The original Pahala study adds scoped evidence and flagged arithmetic; the Kamadhenu enterprise remains an indexed lead. Four source/discovery records and a story draft are added. RES-031 remains in progress; named maker histories and dated market evidence are next. No statewide turnover or shipment total established. No website release.
+
+## 2 October 2026 · Sweet makers and historical town commerce
+
+[Research receipt](records/sweet-makers-2026-10-02.json): Existing Jhili and Korakhai entries are extended with three attributed maker credits, the Census town commodity listing for1999 and a quarantined2016 market lead. Two source records added; university source reused. RES-031 remains in progress, with Magji histories and Rasabali dated accounts next. No current market or international shipment total and no website release.

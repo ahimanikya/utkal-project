@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T08:45:40.027103+00:00",
+  "updated_at": "2026-10-02T09:44:47.633511+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -958,10 +958,10 @@
       "done_when": "Deepen six sweets through makers/places/cultural history and seek dated production, enterprise, employment, sales and actual shipment/destination evidence. Document unavailable measures; build no invented statewide estimate. Reuse RES-011 recipes.",
       "target": "economy/rasagola-and-sweets.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-02T08:45:40.027103+00:00",
-      "next_step": "Continue six-sweet maker/history and market depth, prioritising Nimapada Chhena Jhili and Old Town Korakhai with primary institutional or credited maker evidence; follow original Magji histories and Rasabali account periods. Reuse the Pahala study and its quarantined arithmetic; retry full Kamadhenu SDG case study and Industries news after 2026-10-09. Seek actual dated shipments; no statewide estimate.",
+      "last_worked_at": "2026-10-02T09:44:47.633511+00:00",
+      "next_step": "Follow Magji original cited histories (Adhunika Dhenkanal Itihas p.230; Abibhakta Dhenkanal Itihas p.291) and dated Rasabali producer accounts. Reuse Jhili maker attribution, 1999 Korakhai town listing and quarantined 2016 press estimates. Seek accounts/shipments or record bounded unavailability; retry Kamadhenu SDG and Industries full captures after 2026-10-09, Korakhai market-method lead after 2026-10-16.",
       "evidence_outputs": [
         "economy/rasagola-and-sweets.md",
         "references/data/sweets-economy.json",
@@ -970,7 +970,11 @@
         "sources/sweets-kamadhenu-sdg2026.md",
         "sources/sweets-industry-size-lead.md",
         "sources/sweets-apeda-query-routes.md",
-        "stories/sweets-from-milk-to-market.md"
+        "stories/sweets-from-milk-to-market.md",
+        "food/chhena-jhili.md",
+        "food/korakhai.md",
+        "sources/sweets-khordha-census2001.md",
+        "sources/sweets-korakhai-makers2016.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -987,7 +991,12 @@
           "sources/sweets-kamadhenu-sdg2026.md",
           "sources/sweets-industry-size-lead.md",
           "sources/sweets-apeda-query-routes.md",
-          "stories/sweets-from-milk-to-market.md"
+          "stories/sweets-from-milk-to-market.md",
+          "food/chhena-jhili.md",
+          "food/korakhai.md",
+          "sources/sweets-khordha-census2001.md",
+          "sources/sweets-korakhai-makers2016.md",
+          "sources/regional-cuisine.md"
         ],
         "project_records": [
           "kb/research/food/odisha-rasagola.md",
@@ -1003,6 +1012,13 @@
           "outcome": "pahala_economic_study_and_six_sweet_evidence_map_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Six-sweet maker/history depth, dated enterprise accounts and shipment evidence or documented scoped unavailability."
+        },
+        {
+          "run_id": "2026-10-02-sweet-makers",
+          "at": "2026-10-02T09:44:47.633511+00:00",
+          "outcome": "jhili_korakhai_maker_and_historical_trade_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Magji original histories, Rasabali dated accounts and six-sweet market/shipment evidence or scoped unavailability."
         }
       ]
     },

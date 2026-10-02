@@ -5,7 +5,7 @@ description: "Chhena jhili — research and reuse notes."
 tags: ["food", "nimapada"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
-sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"}]
+sources: [{"id": "food-tourism", "title": "The Taste of Odisha", "resource": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html"}, {"id": "regional-cuisine", "title": "Regional Cuisine of India, BHM-602AT", "resource": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf"}]
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Nimapada"
 aliases: ["Chhena jhili", "chhena jhili"]
@@ -45,3 +45,11 @@ The teaching preparation fries shaped chhena mixture, then soaks it in syrup; cu
 **Still to verify:** Check the version with a named Nimapada maker; do not infer current shops, sales or universal shape. Odia and local review remain pending.
 
 [Preparation collection](preparation-and-variation.md) — Compare techniques and attributed versions across the existing food entries.
+
+## A credited maker
+
+Uttarakhand Open University’s teaching reference credits **Aartabandhu Sahoo of Shyam Sundarpur, Nimapara**, with starting preparation of chhena jhili. [Printed/PDF p.179, item 15](https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf). This gives the sweet a named maker connection; an invention date and independently documented business history remain unknown. The reference supplies no shipment quantities for its overseas-spread statement.
+
+Its detailed preparation on pp.179–180 and the shorter p.119 version already saved are sections of one publication. They are not independent corroboration. Current shop ownership, opening hours, prices and sales have not been checked. [Maker credits and market evidence](../references/data/sweets-economy.json).
+
+[Related economic research](../economy/rasagola-and-sweets.md) — Maker attribution adds credit while dated enterprise accounts remain an open economic question.

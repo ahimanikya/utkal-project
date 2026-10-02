@@ -133,3 +133,7 @@ Existing Bhima Bhoi narrative preserved; Mahima collection and Stuti Chintamani 
 ## Sweets economics checkpoint · 2 October 2026 UTC
 
 Pahala supply-chain story drafted with study scope. Full enterprise lead and current economics remain unresolved; no rights-cleared maker media, human review or website publication. Indexed figures and conflicted revenue are withheld from headlines.
+
+## Sweet makers and town commerce · 2 October 2026 UTC
+
+Existing Jhili/Korakhai entries and the sweets story now connect makers with historical commerce. All remain research drafts: no current vendor endorsement, verified market totals, media rights or human review established. Git research review is separate from website publication.

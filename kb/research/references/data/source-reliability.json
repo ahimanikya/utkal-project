@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T08:45:40.027103+00:00",
+  "updated_at": "2026-10-02T09:44:47.633511+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5682,6 +5682,42 @@
       "run_id": "2026-10-02-sweets-economy",
       "status": "available",
       "scope": "Commodity taxonomy only; no sweet-specific export table."
+    },
+    {
+      "discovery_url": "https://censusindia.gov.in/nada/index.php/catalog/44136/download/47792/DH_21_2001_KHO.pdf",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Original PDF downloaded, sha256 saved, Statement VI visually verified; web PDF/catalog routes unavailable before successful direct fetch."
+    },
+    {
+      "discovery_url": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Original PDF fresh capture, pp.119 and179–180 text; p.179 visually inspected; source identity reused."
+    },
+    {
+      "discovery_url": "https://www.mycitylinks.in/odishas-sweet-crunchy-delight-named-kora-khai-best-places-to-avail-it-in-old-town-area",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Dated original reporting read; quantitative estimates quarantined."
+    },
+    {
+      "discovery_url": "https://inditales.com/prachi-valley-odisha-heritage-trail/",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "available",
+      "scope": "Travelogue read for discovery; not adopted as additional origin corroboration."
+    },
+    {
+      "discovery_url": "https://censusindia.gov.in/nada/index.php/catalog/44136",
+      "checked_at": "2026-10-02T09:44:47.633511+00:00",
+      "run_id": "2026-10-02-sweet-makers",
+      "status": "unavailable",
+      "scope": "Web catalogue open internal error; original linked PDF successfully retrieved directly. No catalogue publication date invented.",
+      "retry_after": "2026-10-09"
     }
   ]
 }
