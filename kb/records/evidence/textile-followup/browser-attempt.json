@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-10-02T01:07:28.310030+00:00",
+  "status": "blocked",
+  "skill": "browser:control-in-app-browser",
+  "requested_scope": [
+    "Tasar and Woven in Odisha visual review",
+    "mobile and wide-screen reading flow",
+    "saved textile journey interaction"
+  ],
+  "attempt": "Reused existing in-app browser handle; listed tabs and attempted direct navigation to https://utkalproject.org/textiles/tasar/.",
+  "error": "Browser Use could not complete this action because a browser security check was unavailable. Reason: The admin-enforced policy could not be verified, so access was not granted.",
+  "response": "Stopped browser actions. No alternate browser, indirect fetch-based rendering or security-control workaround used. Source-code review and ordinary build tests continued as distinct checks.",
+  "not_tested": [
+    "rendered visual layout",
+    "keyboard navigation",
+    "200 percent zoom",
+    "mobile and wide-screen screenshots",
+    "interactive saved-trip and download flow",
+    "physical device or screen reader"
+  ]
+}

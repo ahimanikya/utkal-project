@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-02T01:10:20.409554+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "authorization_quote": "OK, let's pick that up",
+  "human_owner": "Ahimanikya Satapathy",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": [
+    "Source-level review of collection and four textile stories",
+    "Correct shared endnote so film-poster wording appears only on the story using a poster",
+    "Distinguish Founder editorial direction from uncompleted specialist review",
+    "Prepare a page-specific language/maker review sheet and link it into the current review queue"
+  ],
+  "completed": [
+    "Inspected shared cover, article chapters, contents, image metadata and existing correction-draft entry points in source code. No rendered-layout conclusion drawn.",
+    "Preserved all approved narrative, images, sources, journey IDs and publication boundaries.",
+    "Generated HTML confirms revised notices, exact displayed Odia names and existing page-specific correction links."
+  ],
+  "checks": {
+    "site_tests_passed": 377,
+    "edition_tests_passed": 74,
+    "page_acceptance_passed": 488,
+    "source_checks": "pass",
+    "browser": "blocked",
+    "odia_reader": "not_performed",
+    "local_maker": "not_performed"
+  },
+  "limitations": [
+    "Browser navigation stopped at an admin-policy verification failure. No rendered layout, keyboard, zoom, screenshot or interactive saved-trip review completed.",
+    "No Odia reader or textile maker has been appointed, contacted or represented as having reviewed the stories.",
+    "Review sheet reuses the existing source trail; no new historical, linguistic, botanical or workshop findings.",
+    "Candidate notes only; no new publication or indexing approval. Published baseline remains REL-042."
+  ],
+  "evidence": [
+    "records/evidence/textile-followup/browser-attempt.json",
+    "records/evidence/textile-followup/source-checks.json",
+    "reference/textile-specialist-review.md"
+  ],
+  "next_action": "Founder reviews the small website-copy candidate. Actual browser and specialist review remain open; the sheet records what to check when the appropriate person or browser access is available."
+}
