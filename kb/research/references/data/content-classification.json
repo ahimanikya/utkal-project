@@ -4577,6 +4577,18 @@
       "content_type": "Story Draft",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/koraput-business-opportunities",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places",
+        "food",
+        "people"
+      ],
+      "content_type": "Opportunity Research",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6749,6 +6761,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects a company trade example to Odisha’s broader mineral-processing research without treating it as a statewide total."
+    },
+    {
+      "from": "economy/koraput-business-opportunities",
+      "to": "places/koraput",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Local assets explain why these hypotheses were selected; they do not establish demand."
+    },
+    {
+      "from": "economy/koraput-business-opportunities",
+      "to": "food/koraput-coffee",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Coffee identity anchors supply research, not current supply or profit."
+    },
+    {
+      "from": "economy/koraput-business-opportunities",
+      "to": "economy/homestay-support",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Policy conditions and unresolved amendments remain separate from applicant eligibility."
     }
   ],
   "relationship_types": {

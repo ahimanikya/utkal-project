@@ -18540,6 +18540,111 @@
         "mining-directorate-revenue"
       ],
       "added_at": "2026-10-02T19:41:47.932986+00:00"
+    },
+    {
+      "id": "sources/enterprise-goplus-manual",
+      "title": "GO PLUS user manual and land search guidance",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-goplus-manual.md",
+      "project_path": "kb/research/sources/enterprise-goplus-manual.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-goplus-manual"
+      ]
+    },
+    {
+      "id": "sources/enterprise-goswift-lead",
+      "title": "GO SWIFT single-window portal",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-goswift-lead.md",
+      "project_path": "kb/research/sources/enterprise-goswift-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-goswift-lead"
+      ]
+    },
+    {
+      "id": "sources/enterprise-msme-profiles-lead",
+      "title": "MSME Project Profile catalogue",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-msme-profiles-lead.md",
+      "project_path": "kb/research/sources/enterprise-msme-profiles-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-msme-profiles-lead"
+      ]
+    },
+    {
+      "id": "product/district-business-opportunities",
+      "title": "Build a business in Odisha: district opportunity programme",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "product/district-business-opportunities.md",
+      "project_path": "kb/research/product/district-business-opportunities.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": []
+    },
+    {
+      "id": "methods/business-opportunity-research",
+      "title": "Researching district business opportunities",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "methods/business-opportunity-research.md",
+      "project_path": "kb/research/methods/business-opportunity-research.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": []
+    },
+    {
+      "id": "product/business-project-book-template",
+      "title": "My Odisha business: project-book template",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "product/business-project-book-template.md",
+      "project_path": "kb/research/product/business-project-book-template.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": []
+    },
+    {
+      "id": "economy/koraput-business-opportunities",
+      "title": "Koraput: from local assets to business questions",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "economy/koraput-business-opportunities.md",
+      "project_path": "kb/research/economy/koraput-business-opportunities.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": []
+    },
+    {
+      "id": "product/versions/prd-0.3.0",
+      "title": "Utkal · Odisha product requirements",
+      "kind": "Opportunity research or governance",
+      "layer": "research_concept",
+      "source_path": "product/versions/prd-0.3.0.md",
+      "project_path": "kb/research/product/versions/prd-0.3.0.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": []
     }
   ],
   "shared_publications": [
@@ -19921,6 +20026,105 @@
       "remaining_scope": "Document origin-attributed rice trade evidence and one dated producer-to-retail case where available; retain explicit evidence gaps when export origin or farm returns cannot be established. Separate GI, promotion, listing and actual sales.",
       "status_unchanged": "pending",
       "instruction": "Extend saved rice fields; no duplicate Kalajeera concept or production observations."
+    },
+    {
+      "task_id": "RES-063",
+      "title": "District business research framework",
+      "source_records": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json"
+      ],
+      "project_records": [
+        "kb/specs/knowledge-to-work.md",
+        "kb/research/product/destination-and-tour-book.md",
+        "kb/research/places/koraput.md",
+        "kb/research/places/sambalpur-bargarh.md"
+      ],
+      "remaining_scope": "Define a reusable opportunity model, all-district coverage register, project-book template and versioned requirements without fabricated readiness.",
+      "status_unchanged": "completed",
+      "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence."
+    },
+    {
+      "task_id": "RES-064",
+      "title": "Koraput business dossier: one coffee model",
+      "source_records": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json",
+        "economy/koraput-business-opportunities.md",
+        "food/koraput-coffee.md",
+        "food/koraput-kalajeera-rice.md",
+        "economy/homestay-support.md"
+      ],
+      "project_records": [
+        "kb/specs/knowledge-to-work.md",
+        "kb/research/product/destination-and-tour-book.md",
+        "kb/research/places/koraput.md",
+        "kb/research/places/sambalpur-bargarh.md"
+      ],
+      "remaining_scope": "Document one precisely scoped coffee business model with original producer/supply evidence, buyer/demand evidence or explicit gap, permission research, premises route, people institutions and dated financial inputs or nulls; save a sourced starter dossier.",
+      "status_unchanged": "in_progress",
+      "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence."
+    },
+    {
+      "task_id": "RES-065",
+      "title": "Bargarh business dossier: maker-linked services",
+      "source_records": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json",
+        "places/sambalpur-bargarh.md",
+        "handlooms/sambalpuri-bandha.md",
+        "references/data/handloom-markets.json"
+      ],
+      "project_records": [
+        "kb/specs/knowledge-to-work.md",
+        "kb/research/product/destination-and-tour-book.md",
+        "kb/research/places/koraput.md",
+        "kb/research/places/sambalpur-bargarh.md"
+      ],
+      "remaining_scope": "Document one maker-linked textile service model with buyer/producer evidence, sourcing and consent gaps, compliance/premises routes and attributable unit economics or explicit missing inputs.",
+      "status_unchanged": "pending",
+      "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence."
+    },
+    {
+      "task_id": "RES-066",
+      "title": "Puri business dossier: a visitor or food service",
+      "source_records": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json",
+        "visitor-index/puri-journey-outline.md",
+        "economy/rasagola-and-sweets.md"
+      ],
+      "project_records": [
+        "kb/specs/knowledge-to-work.md",
+        "kb/research/product/destination-and-tour-book.md",
+        "kb/research/places/koraput.md",
+        "kb/research/places/sambalpur-bargarh.md"
+      ],
+      "remaining_scope": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
+      "status_unchanged": "pending",
+      "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence."
+    },
+    {
+      "task_id": "RES-067",
+      "title": "District business coverage: next evidence-led batch",
+      "source_records": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json"
+      ],
+      "project_records": [
+        "kb/specs/knowledge-to-work.md",
+        "kb/research/product/destination-and-tour-book.md",
+        "kb/research/places/koraput.md",
+        "kb/research/places/sambalpur-bargarh.md"
+      ],
+      "remaining_scope": "Assess coverage gaps after the three pilots; select three additional districts including interior/service/industrial contexts and deliver non-duplicative sourced opportunity briefs.",
+      "status_unchanged": "pending",
+      "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence."
     }
   ],
   "rules": [
@@ -19938,8 +20142,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1239,
-    "updated_at": "2026-10-02T19:41:47.932986+00:00",
+    "records_mapped": 1247,
+    "updated_at": "2026-10-02T20:40:37.286473+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20526,6 +20730,11 @@
     {
       "run_id": "2026-10-02-mining-community-outcomes",
       "scope": "One source and one synthesis extend existing mining and CAG identities; six DMFs, four case bundles, no duplicate observation identities."
+    },
+    {
+      "run_id": "2026-10-02-district-business-opportunities",
+      "at": "2026-10-02T20:40:37.286473+00:00",
+      "scope": "New business opportunity layer reuses district/product identities and repository-native journey-book requirements. Three portal/source routes, five hypotheses; no completed feasibility claims."
     }
   ]
 }

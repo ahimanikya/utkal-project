@@ -420,3 +420,7 @@ Employment/supplier follow-up: three source records and nine observations; exist
 ## 2026-10-02 · Mineral revenues and community services
 
 Saved actual/estimate receipt distinctions, six-DMF sample and four dated case bundles with government replies. 48 new observations; previous906 observation records preserved. One original-table percentage discrepancy recorded. RES-053 remains in progress; no public website publication.
+
+## 2 October 2026 · District business opportunities
+
+Added a sourced research framework, all30district coverage register, five hypotheses across three pilots, project-book template and PRD0.3.0 with ENT-001–004. RES-063 completed; RES-064 coffee dossier started. Reused district and native tour-book knowledge. GO PLUS manual read; two official portal fetches unavailable. No site, land, revenue, job or loan outcome invented; no website change.

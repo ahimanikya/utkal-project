@@ -9,7 +9,7 @@ instruction_basis: "User direction, 30 September 2026: expand pages with facts, 
 document_version: "0.3.0"
 approval_status: "draft_not_formally_approved"
 implementation_status: "not_deployed"
-sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": "../technology/technical-stack.md"}, {"id": "decisions", "title": "Architecture decision register", "resource": "../technology/decisions.md"}, {"id": "editorial", "title": "Community encyclopedia direction", "resource": "../about/community-encyclopedia.md"}]
+sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": "../../technology/technical-stack.md"}, {"id": "decisions", "title": "Architecture decision register", "resource": "../../technology/decisions.md"}, {"id": "editorial", "title": "Community encyclopedia direction", "resource": "../../about/community-encyclopedia.md"}]
 ---
 
 # Product requirements: Utkal · Odisha
@@ -24,9 +24,9 @@ sources: [{"id": "architecture", "title": "Agreed technical stack", "resource": 
 | Product owner | Ahimanikya, as project owner; additional editorial and programme roles unassigned |
 | Working identity | Utkal · Odisha — a community encyclopedia |
 | Canonical record | This OKF concept, `product/prd` |
-| Historical reference | [Frozen v0.1.0](versions/prd-0.1.0.md) and its versioned requirements data |
-| Requirement source | [Machine-readable requirements register](../references/data/product-requirements.json) |
-| Related design | [Technical stack](../technology/technical-stack.md), [diagrams](../technology/architecture.md), [growth roadmap](../technology/growth-roadmap.md), [decisions](../technology/decisions.md) |
+| Historical reference | [Frozen v0.1.0](../versions/prd-0.1.0.md) and its versioned requirements data |
+| Requirement source | [Machine-readable requirements register](../../references/data/product-requirements.json) |
+| Related design | [Technical stack](../../technology/technical-stack.md), [diagrams](../../technology/architecture.md), [growth roadmap](../../technology/growth-roadmap.md), [decisions](../../technology/decisions.md) |
 
 This PRD describes what the product must achieve and how completion will be evaluated. Technical design records how it may be built. Earlier suggestions remain historical context; the latest user-agreed scope governs launch. Criteria marked `implementation_proposal` are design proposals, not separately approved user instructions. All feature acceptance tests remain unexecuted.
 
@@ -62,7 +62,7 @@ These are design hypotheses based on project direction, not completed audience r
 
 Proposed top-level navigation: **Subjects · Places · Odisha in Numbers · Stories · Contribute**. Food, handlooms and tourism remain featured collections within the shared subject structure. Keep search, language status, About, sources/editorial standards, credits, corrections, reuse terms and contact readily available. Global Connections can be reached through history, people and trade as it becomes ready. Programme information belongs under Contribute, with truthful availability and relationship status.
 
-The [subject directory](../subjects/index.md) and [classification method](../methods/content-classification.md) define nine subject families underpinning these gateways: places/geography; history/heritage; people/languages/communities; arts/living traditions; food/farming; nature/environment; everyday life/human development; economy/livelihoods/infrastructure; governance/public life. These are coverage categories, not nine mandatory menu items or an obligation to publish empty sections.
+The [subject directory](../../subjects/index.md) and [classification method](../../methods/content-classification.md) define nine subject families underpinning these gateways: places/geography; history/heritage; people/languages/communities; arts/living traditions; food/farming; nature/environment; everyday life/human development; economy/livelihoods/infrastructure; governance/public life. These are coverage categories, not nine mandatory menu items or an obligation to publish empty sections.
 
 Formats include encyclopedia entries, place profiles, person/practitioner profiles, stories/photo essays, oral histories, data explainers, recipes/process accounts, timelines, collections/journeys and individual archive items. Each should allow a quick understanding, deeper exploration and evidence inspection. Qualifications that change a claim remain beside the claim.
 
@@ -628,7 +628,7 @@ The UI must state missing translation, unavailable submissions and evidence gaps
 
 ## 12. Growth sequencing and upgrade gates
 
-Follow the [technical growth roadmap](../technology/growth-roadmap.md). Begin with a useful collection and manual editorial flow. Expand editorial capacity and regional/language coverage before adding infrastructure merely for anticipated scale.
+Follow the [technical growth roadmap](../../technology/growth-roadmap.md). Begin with a useful collection and manual editorial flow. Expand editorial capacity and regional/language coverage before adding infrastructure merely for anticipated scale.
 
 Revisit managed uploads and automation when lost attachments, submission limits or manual burden are measured. Revisit cited AI when search leaves recurring questions unanswered and a viable free integration or revised budget exists. Revisit private recovery when a suitable free export is established or operations require a recovery commitment. Preserve Git/OKF as the public knowledge source across upgrades.
 
@@ -669,21 +669,17 @@ Ahimanikya is the known project owner. Additional roles remain unassigned. AI ca
 
 ## 15. Historical record and maintenance
 
-Preserve [v0.1.0](versions/prd-0.1.0.md) as the first written PRD baseline, even though it remains draft. Its requirements snapshot is frozen separately. Subsequent material changes create a new version, record changed/added/retired IDs and rationale, and update the current pointer. Never recycle a requirement ID or silently relabel a deferred feature as launch scope.
+Preserve [v0.1.0](../versions/prd-0.1.0.md) as the first written PRD baseline, even though it remains draft. Its requirements snapshot is frozen separately. Subsequent material changes create a new version, record changed/added/retired IDs and rationale, and update the current pointer. Never recycle a requirement ID or silently relabel a deferred feature as launch scope.
 
-The [history](prd-history.md) records the sequence leading to this baseline; the [maintenance procedure](prd-maintenance.md) defines future changes. There were no earlier formal PRD versions—earlier architecture proposals are not backdated into invented PRD approvals. Preserve approval state separately from completion and public release.
+The [history](../prd-history.md) records the sequence leading to this baseline; the [maintenance procedure](../prd-maintenance.md) defines future changes. There were no earlier formal PRD versions—earlier architecture proposals are not backdated into invented PRD approvals. Preserve approval state separately from completion and public release.
 
-The [version register](../references/data/prd-version-register.json) stores snapshot checksums. Checksums detect changes; enforcement remains a repository/workflow responsibility. Once the Git remote exists, use actual commits/tags for stronger historical references rather than inventing commit IDs now. Release notes should cite the PRD version implemented and any explicit exceptions.
+The [version register](../../references/data/prd-version-register.json) stores snapshot checksums. Checksums detect changes; enforcement remains a repository/workflow responsibility. Once the Git remote exists, use actual commits/tags for stronger historical references rather than inventing commit IDs now. Release notes should cite the PRD version implemented and any explicit exceptions.
 
 ## 16. Basis and references
 
 This is a synthesis of the user's conversation and the existing local planning/OKF material, not new independent research or a newly verified pricing quote. The product/audience, information architecture, atlas, internship and analytics proposals were consulted from the Odisha Tourism planning workspace. Current launch decisions supersede earlier alternatives.
 
-Durable reference points: [community encyclopedia](../about/community-encyclopedia.md), [tourism-first audience strategy](../about/tourism-first-strategy.md), [research method](../about/research-method.md), [website readiness](../about/website-readiness.md), [statistics storytelling](../about/statistics-storytelling.md), [architecture decisions](../technology/decisions.md) and [growth roadmap](../technology/growth-roadmap.md).
-
-## Repository integration · 1 October 2026
-
-This imported research describes the source workspace at its recorded dates. Utkal Project already has a repository and a published preview; current authority, implementation and release status are held in [project records](../../records/index.md) and [the operating dashboard](../../registers/DASHBOARD.md). This sync adds research for review; it does not deploy these additions or replace implemented website addenda. The scheduled research queue continues in its existing workspace pending a separate canonical-workflow handover.
+Durable reference points: [community encyclopedia](../../about/community-encyclopedia.md), [tourism-first audience strategy](../../about/tourism-first-strategy.md), [research method](../../about/research-method.md), [website readiness](../../about/website-readiness.md), [statistics storytelling](../../about/statistics-storytelling.md), [architecture decisions](../../technology/decisions.md) and [growth roadmap](../../technology/growth-roadmap.md).
 
 
 ## Name correction · 1 October 2026
@@ -692,7 +688,7 @@ The user confirmed **Utkal**, correcting earlier Utkala wording. Version 0.2.1 u
 
 ## 17. District entrepreneurship · version 0.3.0
 
-The user requested district/locality business research and downloadable starter plans on 2 October 2026. The [programme](district-business-opportunities.md) adds this direction; acceptance details and pilot selection remain proposed. This is a research and future product scope extension, not a declaration that the existing website lacks already released features. Current implementation records remain authoritative. Reuse repository-native destination and tour-book models; no paid service or private backend is introduced.
+The user requested district/locality business research and downloadable starter plans on 2 October 2026. The [programme](../district-business-opportunities.md) adds this direction; acceptance details and pilot selection remain proposed. This is a research and future product scope extension, not a declaration that the existing website lacks already released features. Current implementation records remain authoritative. Reuse repository-native destination and tour-book models; no paid service or private backend is introduced.
 
 #### ENT-001 — District opportunity discovery
 

@@ -97,3 +97,7 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Paddy procurement payments](../stories/rice-procurement-payments.md) connects farming with public purchasing while keeping farmer profit and payment categories distinct.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+## Business opportunities by district
+
+[Entrepreneurship programme](../product/district-business-opportunities.md) connects place knowledge with demand, premises, people and permissions research. [Koraput pilot](../economy/koraput-business-opportunities.md) contains hypotheses, not verified returns.

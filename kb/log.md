@@ -431,3 +431,11 @@ PR64 passed GitHub validation and merged. [Evidence](records/employment-supplier
 ## 2026-10-02 · Mineral revenues and community services
 
 Saved actual/estimate receipt distinctions, six-DMF sample and four dated case bundles with government replies. 48 new observations; previous906 observation records preserved. One original-table percentage discrepancy recorded. RES-053 remains in progress; no public website publication.
+
+## 2 October 2026 · District entrepreneurship research
+
+[Research receipt](records/district-business-opportunities-2026-10-02.json): established an opportunity research layer and portable business-book requirements. Thirty district coverage records, five hypotheses, first Koraput brief; no completed feasibility plans or website release.
+
+## 2 October 2026 · District entrepreneurship research
+
+[Research receipt](records/district-business-opportunities-2026-10-02.json): established an opportunity research layer and portable business-book requirements. Thirty district coverage records, five hypotheses, first Koraput brief; no completed feasibility plans or website release.

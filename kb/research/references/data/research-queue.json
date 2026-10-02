@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T19:41:47.932986+00:00",
+  "updated_at": "2026-10-02T20:40:37.286473+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3333,6 +3333,246 @@
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
       }
+    },
+    {
+      "id": "RES-063",
+      "order": 0.1,
+      "title": "District business research framework",
+      "done_when": "Define a reusable opportunity model, all-district coverage register, project-book template and versioned requirements without fabricated readiness.",
+      "target": "product/district-business-opportunities.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": "2026-10-02T20:40:37.286473+00:00",
+      "next_step": "Framework delivered; proceed with RES-064.",
+      "evidence_outputs": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "at": "2026-10-02T20:40:37.286473+00:00",
+          "run_id": "2026-10-02-district-business-opportunities",
+          "result": "framework_complete",
+          "next_step": "Framework delivered; proceed with RES-064."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-064",
+      "order": 0.2,
+      "title": "Koraput business dossier: one coffee model",
+      "done_when": "Document one precisely scoped coffee business model with original producer/supply evidence, buyer/demand evidence or explicit gap, permission research, premises route, people institutions and dated financial inputs or nulls; save a sourced starter dossier.",
+      "target": "economy/koraput-business-opportunities.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": "2026-10-02T20:40:37.286473+00:00",
+      "next_step": "Find original coffee producer/supply records; choose retail, packing or tasting as one model; then establish applicability and evidence gaps. No blanket homestay eligibility advice.",
+      "evidence_outputs": [
+        "product/district-business-opportunities.md",
+        "methods/business-opportunity-research.md",
+        "references/data/business-opportunities.json",
+        "economy/koraput-business-opportunities.md"
+      ],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [
+        {
+          "at": "2026-10-02T20:40:37.286473+00:00",
+          "run_id": "2026-10-02-district-business-opportunities",
+          "result": "initial_hypotheses_saved",
+          "next_step": "Find original coffee producer/supply records; choose retail, packing or tasting as one model; then establish applicability and evidence gaps. No blanket homestay eligibility advice."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json",
+          "economy/koraput-business-opportunities.md",
+          "food/koraput-coffee.md",
+          "food/koraput-kalajeera-rice.md",
+          "economy/homestay-support.md"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-065",
+      "order": 0.3,
+      "title": "Bargarh business dossier: maker-linked services",
+      "done_when": "Document one maker-linked textile service model with buyer/producer evidence, sourcing and consent gaps, compliance/premises routes and attributable unit economics or explicit missing inputs.",
+      "target": "product/district-business-opportunities.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [
+        "RES-064"
+      ],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": null,
+      "next_step": "Reuse textile/cooperative research and test a specific paid service problem before projecting sales.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json",
+          "places/sambalpur-bargarh.md",
+          "handlooms/sambalpuri-bandha.md",
+          "references/data/handloom-markets.json"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-066",
+      "order": 0.4,
+      "title": "Puri business dossier: a visitor or food service",
+      "done_when": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
+      "target": "product/district-business-opportunities.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [
+        "RES-065"
+      ],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": null,
+      "next_step": "Reuse destination, food and service records; narrow one model with evidence of a paying customer.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json",
+          "visitor-index/puri-journey-outline.md",
+          "economy/rasagola-and-sweets.md"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      }
+    },
+    {
+      "id": "RES-067",
+      "order": 0.5,
+      "title": "District business coverage: next evidence-led batch",
+      "done_when": "Assess coverage gaps after the three pilots; select three additional districts including interior/service/industrial contexts and deliver non-duplicative sourced opportunity briefs.",
+      "target": "product/district-business-opportunities.md",
+      "status": "pending",
+      "attempts": 0,
+      "dependencies": [
+        "RES-064",
+        "RES-065",
+        "RES-066"
+      ],
+      "related_existing_tasks": [
+        "RES-008",
+        "RES-009",
+        "RES-013",
+        "RES-014",
+        "RES-032",
+        "RES-052",
+        "RES-062"
+      ],
+      "last_worked_at": null,
+      "next_step": "Use actual pilot gaps to select the next districts; do not populate attractive claims without evidence.",
+      "evidence_outputs": [],
+      "retry_after": null,
+      "blocker": null,
+      "attempt_history": [],
+      "reuse_before_research": {
+        "source_records": [
+          "product/district-business-opportunities.md",
+          "methods/business-opportunity-research.md",
+          "references/data/business-opportunities.json"
+        ],
+        "project_records": [
+          "kb/specs/knowledge-to-work.md",
+          "kb/research/product/destination-and-tour-book.md",
+          "kb/research/places/koraput.md",
+          "kb/research/places/sambalpur-bargarh.md"
+        ],
+        "audit_date": "2026-10-02",
+        "map": "references/data/research-map.json"
+      }
     }
   ],
   "queue_revision_history": [
@@ -3453,6 +3693,11 @@
       "at": "2026-10-01T20:10:23.860704+00:00",
       "run_id": "2026-10-01-rice-research",
       "scope": "User-requested rice research added as three bounded tasks; prior task IDs and order retained."
+    },
+    {
+      "at": "2026-10-02T20:40:37.286473+00:00",
+      "run_id": "2026-10-02-district-business-opportunities",
+      "scope": "User-directed entrepreneurship programme added as RES-063–067 at priority0.1–0.5; prior task IDs, status and history retained. RES-064 resumes first among eligible in-progress tasks."
     }
   ],
   "deduplication_policy": "Read methods/research-map.md and each task’s reuse_before_research before browsing. A publication reused by several IDs is not independent corroboration. Keep source/edition/scope and review states.",

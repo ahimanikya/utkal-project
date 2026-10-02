@@ -406,3 +406,7 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 RES-053 now has a six-DMF financial sample and four named case bundles with dated audit findings/replies. Remaining: exact state receipt crosswalk, remaining relevant audit chapters, later functioning evidence, positive comparison cases and community outcomes. No present-day failure prevalence inferred.
+
+## District entrepreneurship · 2 October 2026
+
+The [programme](../product/district-business-opportunities.md) needs buyer evidence, current activity/site-specific permissions, quoted costs, viable premises and confirmed people/partner capacity. RES-064 begins Koraput coffee. GO SWIFT and MSME profile direct retrieval failed; retry9October2026. Existing homestay amendment gaps remain unresolved. Thirty district coverage rows are project tracking, not thirty researched business markets.
