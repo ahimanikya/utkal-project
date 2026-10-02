@@ -188,3 +188,5 @@
 - [Editorial 500 delivery record](editorial-500-review.json) · [Frozen selection](editorial-workbench-selection.json) · [Generated assessments](editorial-workbench.json) · [Pitha photo provenance](pitha-image-provenance.json)
 
 - [Pitha stories and editorial workbench applied](editorial-500-publication.json) — PR 38, live delivery and retained review gaps.
+
+- [Six coastal guides: practical choices and portable books](coastal-practical-review.json) — candidate checks and remaining local verification.

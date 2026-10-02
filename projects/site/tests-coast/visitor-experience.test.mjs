@@ -40,3 +40,16 @@ test('edition pruning retains a metadata-only sharing asset and still removes un
   assert.equal(result.status,0,result.stderr);assert.ok(existsSync(join(dir,'dist-coast/images/share.jpg')));assert.ok(!existsSync(join(dir,'dist-coast/images/held.jpg')));
  }finally{rmSync(dir,{recursive:true,force:true});}
 });
+
+test('six coastal practical guides and their reading links survive edition pruning',()=>{
+ const notes=JSON.parse(readFileSync('../../kb/research/destinations/visit-notebooks.json','utf8')).notebooks.filter(n=>n.practical_choices);
+ assert.equal(notes.length,6);
+ for(const note of notes){
+  const html=read(note.route);
+  assert.equal((html.match(/id="practical-choices"/g)||[]).length,1);
+  for(const choice of note.practical_choices.items)for(const link of choice.links){
+   assert.ok(html.includes('href="'+link.href+'"'),note.route+' '+link.href);
+   if(link.href.startsWith('/'))assert.ok(existsSync('dist-coast'+link.href+'index.html'));
+  }
+ }
+});
