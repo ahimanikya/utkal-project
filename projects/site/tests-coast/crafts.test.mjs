@@ -50,7 +50,9 @@ test('backlog uses the published release and preserves previous review states',(
  const publication=JSON.parse(readFileSync('../../kb/'+q.current_published_baseline.evidence));
  assert.equal(q.current_published_baseline.pages,publication.counts.public_pages);
  assert.equal(q.current_published_baseline.saveable_ideas,publication.counts.journey_items);
- assert.equal(q.current_published_baseline.indexing,'disabled');assert.deepEqual(reconciliation.status_changes,[]);
+ assert.equal(q.current_published_baseline.indexable_pages,publication.counts.indexable_pages);
+ assert.equal(q.current_published_baseline.noindex_pages,publication.counts.noindex_pages);
+ assert.equal(q.current_published_baseline.indexing,`limited_${publication.counts.indexable_pages}_pages`);assert.deepEqual(reconciliation.status_changes,[]);
  const records=JSON.parse(readFileSync('../../kb/registers/records.json'));
  for(const previous of reconciliation.changed_work_next_actions){const current=records.work.find(w=>w.id===previous.id);assert.equal(current.status,previous.status);assert.ok(!current.next_action.includes('current 69-page'));}
  assert.ok(q.separate_decisions.find(d=>d.title==='Research integration').next_action.includes('integrated'));

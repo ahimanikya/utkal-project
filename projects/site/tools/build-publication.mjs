@@ -6,6 +6,12 @@ export async function buildPublication(site){
  const read=async path=>JSON.parse(await readFile(new URL(path,site),'utf8'));
  const scope=await read('editions/coast.json'),selection=await read('editions/search-candidate.json'),policy=await read('editions/search-publication.json'),records=await read('../../kb/registers/records.json');
  const plan=publicationPlan(policy,selection,scope.routes,records.decisions);
+ // This one ownership-verification response is not an editorial page or sitemap entry.
+ const verificationName='googleeb3b0703307157d1.html';
+ const verificationSource=new URL('public/'+verificationName,site);
+ if(!(await lstat(verificationSource)).isFile()||(await lstat(verificationSource)).isSymbolicLink())throw Error('Verification source must be a regular file');
+ const verification=await readFile(verificationSource);
+ if(verification.toString()!==`google-site-verification: ${verificationName}`)throw Error('Unexpected Google verification content');
  const input=new URL('dist-coast/',site),output=new URL('dist-publish/',site);
  const files=[];
  async function walk(dir,prefix=''){
@@ -27,6 +33,7 @@ export async function buildPublication(site){
  await writeFile(new URL('robots.txt',output),controls.robots);
  await rm(new URL('sitemap.xml',output),{force:true});
  if(controls.sitemap)await writeFile(new URL('sitemap.xml',output),controls.sitemap);
+ await writeFile(new URL(verificationName,output),verification);
  await mkdir(new URL('.astro/',site),{recursive:true});
  await writeFile(new URL('.astro/publication-plan.json',site),JSON.stringify({...plan,public_pages:pages.length,output:fileURLToPath(output)},null,2)+'\n');
  return plan;
