@@ -411,3 +411,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2 October 2026 · Industrial employment: historical snapshots and apprenticeships
 
 [Research receipt](records/mining-employment-2026-10-02.json): Rourkela parliamentary categories are dated 1 April 2015. NALCO apprentices are company-wide engagements during FY2025–26, not permanent placements. Current plant employment remains open; RES-052 retries 9 October and RES-053 is next. No website release.
+
+## 2 October 2026 · Mining research integration review
+
+[Integration review](records/mining-integration-review.json): four PR 60 commits add twelve research concepts, nine source records and forty-four observations. The combined ore total now inherits the component conflict hold. Current plant employment and allocation gaps remain open; this is a knowledge-base integration, not website publication.

@@ -17176,13 +17176,23 @@
       "locator": "Printed p.51 / PDF27, Operations",
       "evidence_status": "company-reported-outcome",
       "definition": "Company total, equal to Sukinda plus Mahagiri in p.40.",
-      "caveat": "Included mine rows must not be added again to this total; ore is not ferrochrome.",
+      "caveat": "Included mine rows must not be added again to this total; ore is not ferrochrome. Integration review: the reported total includes the held Sukinda annual-report figure. Retain as an attributed source value, but hold use as a reconciled production total until mine scope is resolved. No alternative total is calculated from incompatible records.",
       "checked_on": "2026-10-02",
-      "publication_readiness": "source_checked_editorial_review_pending",
+      "publication_readiness": "hold_conflict",
       "human_reviewed": false,
       "research_batch": "2026-10-02-chromite-chain",
       "price_basis": "not_applicable",
-      "estimate_status": "reported"
+      "estimate_status": "reported",
+      "revision_history": [
+        {
+          "at": "2026-10-02T18:20:40.002149+00:00",
+          "run_id": "2026-10-02-mining-integration",
+          "previous_publication_readiness": "source_checked_editorial_review_pending",
+          "previous_caveat": "Included mine rows must not be added again to this total; ore is not ferrochrome.",
+          "value_changed": false,
+          "reason": "Integration review: the company total equals the component mine figures, including the held Sukinda value. Reconciliation must cover the total as well; no replacement total is inferred."
+        }
+      ]
     },
     {
       "id": "imfa-msme-input-share-2024-25",
