@@ -177,3 +177,7 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 DMF community-service research remains a draft. Source-reading and arithmetic checks do not approve a public allegation or establish current operation. Retain government replies, date limits, selection bias and the distinction between completion and outcomes.
+
+## Coffee business checkpoint · 2 October2026
+
+[Retail brief](../economy/koraput-coffee-retail.md) is a research draft with primary national food-business criteria and explicit local gaps. No completed financial plan, endorsement, human review or website release.

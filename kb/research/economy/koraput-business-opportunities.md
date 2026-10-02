@@ -41,3 +41,7 @@ Follow public DIC, producer/cooperative, training and district institutional rec
 - Local assets explain why these hypotheses were selected; they do not establish demand.
 - Coffee identity anchors supply research, not current supply or profit.
 - Policy conditions and unresolved amendments remain separate from applicant eligibility.
+
+## Coffee model checkpoint · 2 October2026
+
+The [first detailed brief](koraput-coffee-retail.md) now scopes OPP-KOR-001 to offline resale of original sealed packs. Roasting, repacking, drinks and online sales remain separate models. It records primary FSSAI criteria, two state crop estimates, institutional and supplier leads, one seller operating limitation and missing premises/demand/cost evidence. RES-064 continues; no completed feasibility or profitability claim.

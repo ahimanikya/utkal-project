@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T19:41:47.932986+00:00",
+  "updated_at": "2026-10-02T21:02:54.578939+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -542,6 +542,186 @@
       "next_action": "Use publisher Documents/Publications route when available; retrieve Odisha district compendium with survey vintage and definitions.",
       "retry_after": "2026-10-08T03:30:54Z",
       "run_id": "2026-10-01T033054Z"
+    },
+    {
+      "source_id": "coffee-board-production2026",
+      "discovery_url": "https://coffeeboard.gov.in/coffee-statistics.html",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Odisha total470MT for2025–26 final estimate and550MT for2026–27 post-blossom estimate. State aggregates, not Koraput alone or quantities offered to a buyer. No realised growth calculation.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Production in Major States/Districts, Odisha row; 2025–26 Final Estimate and 2026–27 Post Blossom Estimate. Odisha total470MT for2025–26 final estimate and550MT for2026–27 post-blossom estimate. State aggregates, not Koraput alone or quantities offered to a buyer. No realised growth calculation."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-board-extension",
+      "discovery_url": "https://coffeeboard.gov.in/extension.html",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Identifies Koraput Technology Evaluation Centre as a demonstration farm and describes grower extension support. Undated area/grower counts are excluded from current statistics; training slots and commercial processing access not established.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Extension services in non-traditional states, B) Odisha. Identifies Koraput Technology Evaluation Centre as a demonstration farm and describes grower extension support. Undated area/grower counts are excluded from current statistics; training slots and commercial processing access not established."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-fssai-order2026",
+      "discovery_url": "https://www.fssai.gov.in/upload/advisories/2026/03/69b4054bb6cd6Order%20dated%2013thMarch2026_Revised%20Turnover%20threshold.pdf",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Turnover thresholds effective1April2026; original four-page PDF downloaded and English order p1 visually inspected. Bilingual copies are one instrument; not independent corroboration.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Order dated13March2026, PDFp1, paragraphs3–5. Turnover thresholds effective1April2026; original four-page PDF downloaded and English order p1 visually inspected. Bilingual copies are one instrument; not independent corroboration."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-foscos-eligibility2026",
+      "discovery_url": "https://foscos.fssai.gov.in/assets/docs/Revised_2ndApril2026KindofBusinessEligibility.pdf",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Nine-page PDF downloaded; p6 visually inspected. Retail thresholds and annual fee table recorded for scoped offline resale. E-commerce, repacking, roasting and prepared drinks need their own applicability assessment. Same regulatory publisher family as order.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "PDFp6 Retailer and E-Commerce rows; fee basis on p1; footer updated01April2026. Nine-page PDF downloaded; p6 visually inspected. Retail thresholds and annual fee table recorded for scoped offline resale. E-commerce, repacking, roasting and prepared drinks need their own applicability assessment. Same regulatory publisher family as order."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-dic-directory",
+      "discovery_url": "https://rtiodisha.gov.in/Departments/82",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Confirms institutional identity and locality only. Detail link fetch failed; current officer, address, service hours and appointment availability remain unverified.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "MSME department list, District Industries Centre Jeypore Koraput, code822001. Confirms institutional identity and locality only. Detail link fetch failed; current officer, address, service hours and appointment availability remain unverified."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-kdf-value-chain",
+      "discovery_url": "https://kalingadesiagro.org/",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Self-published account of Koraput processing and grower–roaster facilitation. A lead for sourcing research, not independent capacity, farmer-impact, exclusivity or available-supplier verification.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Our Commitment and Our Impact sections. Self-published account of Koraput processing and grower–roaster facilitation. A lead for sourcing research, not independent capacity, farmer-impact, exclusivity or available-supplier verification."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-dreamhill-catalogue",
+      "discovery_url": "https://dreamhillcoffee.com/",
+      "listing_status": "accessed_with_operating_limitation",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Seller describes Koraput origin and displays named products; site explicitly says orders will not be considered during maintenance. Product-detail fetch failed. No pack-size price, current stock, wholesale margin, fulfilment or visits adopted.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Top maintenance notice; Explore Our Coffees; origin narrative. Seller describes Koraput origin and displays named products; site explicitly says orders will not be considered during maintenance. Product-detail fetch failed. No pack-size price, current stock, wholesale margin, fulfilment or visits adopted."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-tdcc-tender-lead",
+      "discovery_url": "https://tdccodisha.org/upload_image/424950285_Green_Coffee_Online_Tender_Document.pdf",
+      "listing_status": "unavailable",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Underlying tender not read. Indexed text mentions2024; not a current sale or supply offer. Retry9October2026.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": "2026-10-09",
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Indexed tender result; bare-host502 and www-host retrieval failure. Underlying tender not read. Indexed text mentions2024; not a current sale or supply offer. Retry9October2026."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-koraput-plan-lead",
+      "discovery_url": "https://koraput.odisha.gov.in/sites/default/files/2024-05/odop.pdf",
+      "listing_status": "unavailable",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Original contents not recovered; historical indexed profile cannot establish current schemes, land or skills. Retry9October2026.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": "2026-10-09",
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Indexed opening describes action plan2023–24; webtimeout and directdownload connection reset. Original contents not recovered; historical indexed profile cannot establish current schemes, land or skills. Retry9October2026."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-cultivation-cost-study-lead",
+      "discovery_url": "https://desagri.gov.in/wp-content/uploads/2024/04/2018-19-COMPARATIVE-ECONOMICS-OF-COFFEE-CULTIVATION-IN-VISAKHAPATNAM-AND-KORAPUT-DISTRICTS.pdf",
+      "listing_status": "unavailable",
+      "checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "scope": "Discovery only. Survey year, sampled producers and cost/return tables not read. Even if recovered, cultivation economics would not substitute for retail margins. Retry9October2026.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": "2026-10-09",
+      "capture_history": [
+        {
+          "run_id": "2026-10-02-koraput-coffee-retail",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "scope": "Search identifies Study151; original PDF fetch502. Discovery only. Survey year, sampled producers and cost/return tables not read. Even if recovered, cultivation economics would not substitute for retail margins. Retry9October2026."
+        }
+      ]
     }
   ],
   "tracks": [

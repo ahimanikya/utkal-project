@@ -235,3 +235,7 @@ RES-052 checkpoint deferred to9October. Seek original current unit workforce ret
 ## Mining and community services · 2026-10-02
 
 RES-053 selected by the Founder. Receipts/sample/case checkpoint saved; full audit reading, current operation and community outcomes remain in progress. No contact or public website publication in this batch.
+
+## Coffee retail checkpoint · 2 October2026
+
+RES-064 remains earliest in-progress. Reuse the scoped retail brief and FSSAI originals; next resolve one supplier/pack, locality-specific permissions and cost evidence. Unavailable TDCC tender, district plan and cultivation study retry9October. No repeated same-run retrieval or fabricated margin.

@@ -385,3 +385,7 @@ RES-053 reuses both CAG source identities, F05 and four existing DMF observation
 ## District entrepreneurship · 2 October 2026
 
 RES-063–067 build an opportunity layer over existing districts, coffee/rice, handlooms, homestays and native destination/tour-book records. Three official portal routes recorded, two unavailable after bounded retries. New business hypotheses do not duplicate product identities or establish demand.
+
+## Coffee business checkpoint · 2 October2026
+
+RES-064 narrows existing OPP-KOR-001 and coffee identity. Ten source/lead records and one brief added; state observations stay in the atlas. Coffee Board pages share institutional provenance; FSSAI order/table are related instruments, not independent corroboration. Supplier claims are attributed and maintenance limitation preserved.

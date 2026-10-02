@@ -424,3 +424,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 2 October 2026 · District business opportunities
 
 Added a sourced research framework, all30district coverage register, five hypotheses across three pilots, project-book template and PRD0.3.0 with ENT-001–004. RES-063 completed; RES-064 coffee dossier started. Reused district and native tour-book knowledge. GO PLUS manual read; two official portal fetches unavailable. No site, land, revenue, job or loan outcome invented; no website change.
+
+## 2 October2026 · Koraput coffee retail evidence
+
+Narrowed OPP-KOR-001 to offline sealed-pack resale. Captured two state production estimates, primary April2026 retailer thresholds/fees, institution and attributed supplier leads. One seller says website orders will not be considered; three originals remain unavailable. RES-064 continues; private costs and demand remain null.

@@ -410,3 +410,7 @@ RES-053 now has a six-DMF financial sample and four named case bundles with date
 ## District entrepreneurship · 2 October 2026
 
 The [programme](../product/district-business-opportunities.md) needs buyer evidence, current activity/site-specific permissions, quoted costs, viable premises and confirmed people/partner capacity. RES-064 begins Koraput coffee. GO SWIFT and MSME profile direct retrieval failed; retry9October2026. Existing homestay amendment gaps remain unresolved. Thirty district coverage rows are project tracking, not thirty researched business markets.
+
+## Koraput coffee business · 2 October2026
+
+[Sealed-pack retail brief](../economy/koraput-coffee-retail.md): demand, traceable orderable pack, wholesale terms, rent, complete local permissions and margins remain unknown. Seller maintenance notice retained. Coffee product-basis definition and district supply require further evidence. Three inaccessible original documents retained as leads with retry9October.

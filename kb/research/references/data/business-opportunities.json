@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-02T20:40:37.286473+00:00",
+  "updated_at": "2026-10-02T21:02:54.578939+00:00",
   "scope": "District opportunity research; not a ranking, investment recommendation or inventory of available land/jobs",
   "programme": "product/district-business-opportunities",
   "method": "methods/business-opportunity-research",
@@ -199,26 +199,133 @@
     {
       "id": "OPP-KOR-001",
       "district_id": "koraput",
-      "title": "Traceable coffee retail, packing or tasting",
-      "evidence_state": "hypothesis",
+      "title": "Offline resale of original sealed coffee packs",
+      "evidence_state": "desk_researched",
       "hypothesis_basis": "Editorial business question grounded in linked saved place/product records; not validated demand",
       "canonical_references": [
         "food/koraput-coffee",
-        "places/koraput"
+        "places/koraput",
+        "economy/koraput-coffee-retail"
       ],
       "customer_hypothesis": "Visitors or external buyers; separate markets to test",
       "demand_evidence": null,
-      "premises_options": [],
-      "regulatory_requirements": [],
-      "people_options": [],
+      "premises_options": [
+        {
+          "route": "leased_retail_unit_or_agreed_shop_counter",
+          "site_id": null,
+          "rent": null,
+          "availability_status": "unknown",
+          "permitted_use": "unverified",
+          "land_acquisition_assumed": false
+        }
+      ],
+      "regulatory_requirements": [
+        {
+          "id": "food-retailer-foscos2026",
+          "activity_trigger": "Offline retail of food procured for resale to end user",
+          "authority": "FSSAI/appropriate registration or licensing authority",
+          "source_ids": [
+            "enterprise-fssai-order2026",
+            "enterprise-foscos-eligibility2026"
+          ],
+          "locator": "Order p1; eligibility p6, fee heading p1",
+          "effective_date": "2026-04-01",
+          "checked_at": "2026-10-02T21:02:54.578939+00:00",
+          "geography": "India",
+          "bands": [
+            {
+              "turnover_min_exclusive_INR": null,
+              "turnover_max_inclusive_INR": 15000000,
+              "category": "Registration",
+              "annual_fee_INR": 100
+            },
+            {
+              "turnover_min_exclusive_INR": 15000000,
+              "turnover_max_inclusive_INR": 500000000,
+              "category": "State licence",
+              "annual_fee_INR": 5000
+            },
+            {
+              "turnover_min_exclusive_INR": 500000000,
+              "turnover_max_inclusive_INR": null,
+              "category": "Central licence",
+              "annual_fee_INR": 7500
+            }
+          ],
+          "applicability": "Starting category for defined research model; no applicant-specific determination",
+          "documents": null,
+          "application_status": "not_applied",
+          "renewal_or_validity": "Not determined in this scoped capture; recheck current application guidance",
+          "unresolved_questions": [
+            "Complete entity/activity/site assessment",
+            "Local trade and premises permission",
+            "Shops/employment and fire applicability",
+            "Food hygiene and packaged-goods obligations",
+            "Tax and any additional selling-channel requirements"
+          ]
+        }
+      ],
+      "people_options": [
+        {
+          "institution": "Coffee Board Koraput Technology Evaluation Centre",
+          "source_id": "coffee-board-extension",
+          "role": "Demonstration/extension lead",
+          "availability_status": "unknown",
+          "relationship_status": "not_agreed"
+        },
+        {
+          "institution": "District Industries Centre Jeypore Koraput",
+          "source_id": "enterprise-dic-directory",
+          "public_code": "822001",
+          "role": "Business-support enquiry route",
+          "availability_status": "unknown",
+          "relationship_status": "not_agreed"
+        }
+      ],
       "capital_cost": null,
       "operating_cost": null,
       "revenue": null,
       "profit": null,
-      "source_checked_at": null,
+      "source_checked_at": "2026-10-02T21:02:54.578939+00:00",
       "created_at": "2026-10-02T20:40:37.286473+00:00",
       "publication_status": "research_draft",
-      "next_action": "Research missing fields through the assigned queue task; retain unknowns."
+      "next_action": "Confirm one orderable pack and supply provenance, then locality-specific permissions and quotations; no projected margin without inputs.",
+      "model_scope": {
+        "activity": "offline retail of original sealed supplier-branded packs",
+        "geography": "Koraput district; locality and site unselected",
+        "excluded_activities": [
+          "roasting",
+          "grinding",
+          "repacking",
+          "own-brand manufacture",
+          "prepared drinks",
+          "online selling",
+          "export"
+        ],
+        "status": "research_choice_not_operating_business"
+      },
+      "production_context_observation_ids": [
+        "coffee-odisha-production-2025-26",
+        "coffee-odisha-production-2026-27"
+      ],
+      "supplier_leads": [
+        {
+          "name": "Kalinga DESIAGRO Foundation",
+          "source_id": "coffee-kdf-value-chain",
+          "claim_scope": "Self-reported processing and grower–roaster facilitation",
+          "availability_status": "unknown",
+          "partnership_status": "not_agreed"
+        },
+        {
+          "name": "Dream Hill Coffee",
+          "source_id": "coffee-dreamhill-catalogue",
+          "claim_scope": "Seller describes Koraput-origin catalogue",
+          "availability_status": "website_notice_says_orders_not_considered",
+          "wholesale_terms": null,
+          "pack_price": null,
+          "partnership_status": "not_agreed"
+        }
+      ]
     },
     {
       "id": "OPP-KOR-002",
@@ -423,6 +530,17 @@
     {
       "at": "2026-10-02T20:40:37.286473+00:00",
       "scope": "Initial structure and hypotheses; no completed business plan, profit or investment totals."
+    },
+    {
+      "at": "2026-10-02T21:02:54.578939+00:00",
+      "run_id": "2026-10-02-koraput-coffee-retail",
+      "opportunity_id": "OPP-KOR-001",
+      "prior_fields": {
+        "title": "Traceable coffee retail, packing or tasting",
+        "evidence_state": "hypothesis",
+        "source_checked_at": null
+      },
+      "scope": "Narrowed to offline sealed-pack resale; primary regulation and state context, attributed supplier/institution leads; demand and private cost inputs remain null."
     }
   ]
 }
