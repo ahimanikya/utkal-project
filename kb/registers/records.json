@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T14:09:39.538267+00:00",
+  "recorded_at": "2026-10-02T14:33:37.057142+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -2210,7 +2210,7 @@
       "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
       "authorization": "UTP-DEC-051",
-      "next_action": "Six cultural pages reviewed at three widths, with four additional maker-page mobile checks, under UTP-WORK-142. Candidate awaits Founder review. Continue remaining visual scope and physical-device/screen-reader review; coastal UTP-REL-047 stays published.",
+      "next_action": "Six cultural pages reviewed at three widths, with four additional maker-page mobile checks; UTP-REL-048 is published. Continue remaining visual scope and physical-device/screen-reader review.",
       "blockers": [],
       "refs": [
         "UTP-DEC-051",
@@ -4140,24 +4140,27 @@
       "id": "UTP-WORK-142",
       "title": "Cultural reading-flow review and maker cover refinement",
       "category": "website_design_followup",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "name": "Current AI assistant",
         "kind": "ai_assistant"
       },
       "authorization": "UTP-DEC-157",
-      "next_action": "Founder review of the candidate PR and responsive evidence; publish only after approval.",
+      "next_action": "Approved implementation published and ten live pages verified. Wider visual, physical-device, screen-reader and specialist reviews remain scoped follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-157",
         "UTP-WORK-075",
         "UTP-REV-120",
-        "UTP-REL-047"
+        "UTP-REL-047",
+        "UTP-DEC-158",
+        "UTP-REL-048"
       ],
       "evidence": [
-        "records/culture-flow-review.json"
+        "records/culture-flow-review.json",
+        "records/culture-flow-publication.json"
       ]
     }
   ],
@@ -7311,6 +7314,26 @@
       ],
       "evidence": [
         "records/culture-flow-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-158",
+      "title": "Publish the approved cultural reading-flow refinements",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish PR #59 at reviewed head 43ea19d224ebc98702924b19f3145c843ee3031d. Preserve the 122-page edition, eleven-route search scope and held commercial pages.",
+      "recorded_at": "2026-10-02T14:33:37.057142+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-142",
+        "UTP-REV-120"
+      ],
+      "evidence": [
+        "records/culture-flow-publication.json"
       ]
     }
   ],
@@ -10991,6 +11014,22 @@
         "records/visitor-flow-polish-publication.json"
       ],
       "note": "Approved PR #53 deployed. Six live notebooks, deployed focus/alignment code, eleven sitemap routes and ownership response verified. Wider review and Google processing remain open."
+    },
+    {
+      "id": "UTP-REL-048",
+      "title": "Cultural reading-flow refinements published",
+      "status": "published",
+      "authorization": "UTP-DEC-158",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-158",
+        "UTP-WORK-142",
+        "UTP-REV-120"
+      ],
+      "evidence": [
+        "records/culture-flow-publication.json"
+      ],
+      "note": "Approved PR #59 deployed. Ten live pages, maker styles, category trails, eleven sitemap routes and ownership response verified. Wider human review and Google processing remain open."
     }
   ],
   "sources": [
