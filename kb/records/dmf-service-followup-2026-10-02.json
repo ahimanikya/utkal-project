@@ -1,7 +1,7 @@
 {
   "run_id": "2026-10-02-dmf-service-followup",
   "at": "2026-10-02T20:29:38.611603+00:00",
-  "status": "validated_for_integration",
+  "status": "merged_research_checkpoint",
   "authorization_quote": "Let's go",
   "human_owner": "Ahimanikya Satapathy",
   "reused_source_ids": [
@@ -267,6 +267,11 @@
     "bundle": "passed",
     "authority_registers": "passed",
     "diff": "passed",
-    "remote_ci": "pending"
-  }
+    "remote_ci": "passed"
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/66",
+  "merge_commit": "c4c1b905fbc30b245f8b008dcfad3260d3d60f87",
+  "merged_at": "2026-10-02T20:37:50Z",
+  "validated_head": "1a8cce4cc4ef87c8d431a2f9494bb9bdcd3bf04c",
+  "remote_ci": "https://github.com/ahimanikya/utkal-project/actions/runs/37061577120"
 }

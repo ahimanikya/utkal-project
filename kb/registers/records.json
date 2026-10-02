@@ -4264,19 +4264,20 @@
       "id": "UTP-WORK-147",
       "title": "Finish scoped DMF audit reading and investigate current services",
       "category": "research",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-164",
-      "next_action": "Integrate validated bounded checkpoint; retain RES-053 reconciliation and current-service gaps.",
+      "next_action": "Bounded follow-up merged. RES-053 remains open for conflicting financial totals, exact receipt crosswalk, matched current operation and community outcomes.",
       "blockers": [],
       "refs": [
         "UTP-DEC-164",
-        "UTP-REV-125"
+        "UTP-REV-125",
+        "UTP-REL-053"
       ],
       "evidence": [
         "records/dmf-service-followup-2026-10-02.json"
@@ -11443,6 +11444,22 @@
         "records/mining-community-outcomes-2026-10-02.json"
       ],
       "note": "PR65 merged after CI passed.48 observations, six-DMF sample, four case bundles and source discrepancies retained. Research only; current service outcomes remain open."
+    },
+    {
+      "id": "UTP-REL-053",
+      "title": "DMF audit and service follow-up integrated",
+      "status": "applied",
+      "authorization": "UTP-DEC-164",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/kb",
+      "refs": [
+        "UTP-WORK-147",
+        "UTP-REV-125",
+        "UTP-DEC-164"
+      ],
+      "evidence": [
+        "records/dmf-service-followup-2026-10-02.json"
+      ],
+      "note": "PR66 merged after CI passed. Relevant audit reading complete, six scoped conflict holds and one Parliament schedule source recorded. Current service and outcome evidence remains unresolved; no website story publication."
     }
   ],
   "sources": [

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `af8accc8573679045a9823475c2585d98f6fa51feb03df9799c3dde04d041b3d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `acc692c0abcce329b96de815610792af4666bc86543571659914c952fd9bc2d7`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -159,7 +159,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-144 · Integrate mining and manufacturing research from PR 60 | completed | applied | Ahimanikya Satapathy | Integration complete. RES-052 retains its source follow-up and current employment/supplier evidence gaps. | — |
 | UTP-WORK-145 · Strengthen employment and local supplier evidence | completed | applied | Ahimanikya Satapathy | Checkpoint merged. RES-052 remains in progress with explicit current-headcount and supplier-outcome evidence needs; no outreach sent. | — |
 | UTP-WORK-146 · Connect mining receipts, district funds and working services | completed | applied | Ahimanikya Satapathy | Bounded checkpoint merged. RES-053 remains in progress for remaining audit sections, exact receipt reconciliation, newer operating records and community outcomes. | — |
-| UTP-WORK-147 · Finish scoped DMF audit reading and investigate current services | in_progress | reviewed | Ahimanikya Satapathy | Integrate validated bounded checkpoint; retain RES-053 reconciliation and current-service gaps. | — |
+| UTP-WORK-147 · Finish scoped DMF audit reading and investigate current services | completed | applied | Ahimanikya Satapathy | Bounded follow-up merged. RES-053 remains open for conflicting financial totals, exact receipt crosswalk, matched current operation and community outcomes. | — |
 
 ## Pending human review and decisions
 
@@ -571,6 +571,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-050 · Mining and manufacturing research integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-160 |
 | UTP-REL-051 · Employment and supplier evidence checkpoint integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-161 |
 | UTP-REL-052 · Mining revenues and DMF service checkpoint integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-162 |
+| UTP-REL-053 · DMF audit and service follow-up integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-164 |
 
 ## Sources and assets
 
@@ -608,7 +609,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-184 | 2026-10-02T14:53:29.177795+00:00 | Founder authorized autonomous completion. Integrated 46 research commits locally while preserving later website and recovered-source records. Completed 366 responsive and 122 page-structure browser cases. Twelve integration/delivery items are tracked separately from the checks. | Finish validation and publication. |
 | UTP-EVT-185 | 2026-10-02T15:09:51.214433+00:00 | Authorized batch delivered through PR 61 and successful Pages deployment. Recorded 488 browser review cases and twelve integration/delivery items separately. Preserved source recoveries, integrated 206 additional research entries and reconciled seven redundant research PRs. All 125 live file checks and responsive image checks pass. | Continue the newer research stack and remaining human/source/Google follow-ups. |
 | UTP-EVT-186 | 2026-10-02T18:23:08.583818+00:00 | Pinned four PR 60 commits; reconciled newer main records, held the dependent IMFA total, and validated source/observation preservation. No website change. | Complete remote CI and merge. |
 | UTP-EVT-187 | 2026-10-02T18:29:45.656472+00:00 | PR 62 merged after automated validation. Twelve entries and 44 observations joined main. Dependent ore total remains held; historical employment and current payroll remain distinct. No website deployment. | Keep unresolved evidence follow-ups open. |
@@ -618,6 +618,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-191 | 2026-10-02T19:53:02.067988+00:00 | PR65 merged after automated checks. Prior906 observations preserved;48 added. Named case bundles retain government replies and date limits. No website publication. | Continue RES-053 only against the remaining evidence gaps. |
 | UTP-EVT-192 | 2026-10-02T19:54:47.971793+00:00 | Founder approved the merged PR65 mining and DMF research checkpoint. Source limitations and outstanding service/outcome evidence remain recorded. | RES-053: finish relevant audit reading and seek newer evidence of service operation and community benefit. |
 | UTP-EVT-193 | 2026-10-02T20:31:43.120207+00:00 | Finished scoped chapter reading, corrected sampling description, held six conflicting observations without changing values, and distinguished Parliament schedules from opening dates. | Validate and integrate; retain current-service and reconciliation questions. |
+| UTP-EVT-194 | 2026-10-02T20:38:42.915138+00:00 | PR66 integrated after local checks and GitHub CI passed; 954 numerical values preserved, six observations held for source conflict. | Pursue documented reconciliation and service-evidence gaps; do not infer operating status from absent records. |
 
 ## Deferred extensions
 
