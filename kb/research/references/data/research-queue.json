@@ -2661,7 +2661,7 @@
       "done_when": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 4,
+      "attempts": 5,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-016",
@@ -2669,8 +2669,8 @@
         "RES-018",
         "RES-020"
       ],
-      "last_worked_at": "2026-10-02T17:52:03.569038+00:00",
-      "next_step": "RES-052 checkpoint deferred to9October. Seek original current unit workforce returns and historical NALCO question711 (28November2011) via Parliament archive; old route returned HTML. Reuse saved2015 RSP answer and NALCO apprenticeship passage. Next independent task RES-053 mining revenues and DMF outcomes; search existing public-finance/DMF observations before browsing.",
+      "last_worked_at": "2026-10-02T19:07:56.044516+00:00",
+      "next_step": "Current user explicitly selected this follow-up before the earlier retry date. Supplier disclosures and unit work-volume evidence added. Obtain aggregate current plant headcount and procurement-return evidence specified in employment_supplier_checkpoint; retain 9 October retry for unresolved original returns.",
       "evidence_outputs": [
         "sources/mining-sail-ar2026.md",
         "sources/mining-rsp-ec-march2026.md",
@@ -2686,10 +2686,13 @@
         "sources/mining-imfa-sukinda-2026.md",
         "sources/mining-imfa-mahagiri-2026.md",
         "sources/mining-imfa-knr2-2026.md",
-        "sources/mining-rsp-parliament-2015.md"
+        "sources/mining-rsp-parliament-2015.md",
+        "sources/mining-nalco-sd2025.md",
+        "sources/mining-rsp-subplac2026.md",
+        "sources/mining-rsp-relocation2026.md"
       ],
       "retry_after": "2026-10-09",
-      "blocker": "Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope reconciliation, mine-to-plant allocations and plant/local supplier boundaries still missing. Historical2015 RSP evidence cannot substitute for current observations.",
+      "blocker": "Current unit headcount, local-resident share, paid supplier outcomes and social-post documentary corroboration remain unresolved. Unit man-days and corporate totals do not close these gaps.",
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-steel",
@@ -2718,6 +2721,13 @@
           "outcome": "historical_employment_and_apprenticeship_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope reconciliation, mine-to-plant allocations and plant/local supplier boundaries still missing. Historical2015 RSP evidence cannot substitute for current observations."
+        },
+        {
+          "run_id": "2026-10-02-employment-suppliers",
+          "at": "2026-10-02T19:07:56.044516+00:00",
+          "outcome": "supplier_disclosures_and_unit_work_volume",
+          "completion_criteria_met": false,
+          "remaining": "Current unit headcount, local-resident share, paid supplier outcomes and social-post documentary corroboration remain unresolved. Unit man-days and corporate totals do not close these gaps."
         }
       ],
       "reuse_before_research": {
@@ -2747,7 +2757,10 @@
           "sources/mining-imfa-mahagiri-2026.md",
           "sources/mining-imfa-knr2-2026.md",
           "sources/mining-rsp-parliament-2015.md",
-          "sources/mining-nalco-ar2026.md"
+          "sources/mining-nalco-ar2026.md",
+          "sources/mining-nalco-sd2025.md",
+          "sources/mining-rsp-subplac2026.md",
+          "sources/mining-rsp-relocation2026.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

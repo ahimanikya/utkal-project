@@ -412,3 +412,7 @@ RES-052: four original documents; 11 observations added (seven held). Sukinda an
 ## Industrial employment checkpoint ·2October2026 UTC
 
 RES-052: four historical Rourkela employment observations and one NALCO annual apprenticeship observation added. Current plant jobs remain unresolved; original NALCO parliamentary PDF unavailable. Retry9October, next independent task RES-053. No website release.
+
+## 2026-10-02
+
+Employment/supplier follow-up: three source records and nine observations; existing NALCO workforce IDs reused. Two social-account disclosures remain pending source-table review. Original NALCO procurement/work-volume tables visually checked. Current plant headcount and realised supplier outcomes remain open.

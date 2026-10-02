@@ -419,3 +419,7 @@ Prepared [district language profiles and story connections](reference/district-l
 ### 2026-10-02T18:29:45.656472+00:00 · Mining research integrated
 
 PR 62 merged after CI passed. Twelve research entries and 44 observations added; nine new observations remain held. PR 60’s pinned ancestry is preserved. No website deployment. [Merge receipt](records/mining-integration-merge.json).
+
+### 2026-10-02T19:10:21.927198+00:00 · Employment and supplier research checkpoint
+
+Three source identities and nine observations added. Existing company counts and holds preserved. Original NALCO tables visually checked; RSP account disclosures remain pending stronger records. [Review evidence](records/employment-suppliers-2026-10-02.json).

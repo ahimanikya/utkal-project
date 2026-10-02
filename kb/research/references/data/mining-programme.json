@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T17:52:03.569038+00:00",
+  "updated_at": "2026-10-02T19:07:56.044516+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2209,5 +2209,51 @@
     ],
     "completion_criteria_met": false,
     "human_review_claimed": false
+  },
+  "employment_supplier_checkpoint": {
+    "run_id": "2026-10-02-employment-suppliers",
+    "at": "2026-10-02T19:07:56.044516+00:00",
+    "new_source_ids": [
+      "mining-nalco-sd2025",
+      "mining-rsp-subplac2026",
+      "mining-rsp-relocation2026"
+    ],
+    "reused_source_ids": [
+      "mining-nalco-ar2026",
+      "mining-rsp-parliament-2015",
+      "mining-rsp-ec-march2026"
+    ],
+    "observation_ids": [
+      "rsp-odisha-lssi-orders-1984-85",
+      "rsp-odisha-lssi-orders-2025-26",
+      "rsp-relocation-contract-placements-jun2026",
+      "nalco-odisha-mse-procurement-2024-25",
+      "nalco-all-mse-procurement-2024-25",
+      "nalco-refinery-employees-workdays-2024-25",
+      "nalco-refinery-contractors-workdays-2024-25",
+      "nalco-smelter-employees-workdays-2024-25",
+      "nalco-smelter-contractors-workdays-2024-25"
+    ],
+    "reused_observation_ids": [
+      "nalco-chain-non-permanent-workers",
+      "nalco-chain-manpower",
+      "nalco-odisha-mse-procurement-2025-26",
+      "nalco-all-mse-procurement-2025-26"
+    ],
+    "completion_criteria_met": false,
+    "human_review_claimed": false,
+    "scope": "Supplier disclosures and FY2024–25 unit work volume. Current plant headcount and unique-person definition remain missing. Social-account claims require stronger documentary evidence.",
+    "next_evidence": [
+      "RSP and NALCO payroll/contractor aggregate snapshots by named unit, date and deduplication definition; no personal payroll requested.",
+      "RSP FY2025–26 order/paid-invoice reconciliation, Odisha supplier definition and unit-wise list.",
+      "NALCO supplier purchases split by receiving plant, with Odisha location definition and comparable prior-year basis.",
+      "Relocation placement cohort tenure, wages and retention, plus independent resident evidence."
+    ],
+    "retrieval_notes": [
+      "Web PDF reads returned 502/timeout; system curl retrieved NALCO originals after Python certificate-store failures.",
+      "SAIL 2025 handbook downloaded but image-based text extraction yielded no workforce table; not treated as evidence.",
+      "General searches found company totals and recruitment/tender notices; these did not resolve current unit workforce.",
+      "No outreach messages sent; no private employee records collected."
+    ]
   }
 }

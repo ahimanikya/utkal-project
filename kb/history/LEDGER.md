@@ -804,3 +804,7 @@ The Founder authorized a larger autonomous batch. Accumulated research became pa
 The Founder authorized integrating the mining and manufacturing research. Rourkela steel, NALCO suppliers and apprenticeships, and IMFA chromite joined the main knowledge base. A combined ore total inherited its disputed component’s hold. The project gained evidence without presenting historical jobs or training counts as today’s employment. The public website did not change.
 
 [Integration evidence](../records/mining-integration-merge.json). Recorded 2026-10-02T18:29:45.656472+00:00.
+
+## UTP-HIS-0199 · Counting work without inventing workers
+
+The Founder selected employment and supplier follow-ups. Unit working-day totals and local order disclosures strengthened the research, while current plant headcounts stayed unresolved. Orders, payments and jobs kept their distinct meanings. [Research checkpoint](../records/employment-suppliers-2026-10-02.json).

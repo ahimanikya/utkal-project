@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T18:29:45.656472+00:00",
+  "recorded_at": "2026-10-02T19:10:21.927198+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4213,6 +4213,28 @@
         "records/mining-integration-review.json",
         "records/mining-integration-merge.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-145",
+      "title": "Strengthen employment and local supplier evidence",
+      "category": "research",
+      "status": "completed",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-161",
+      "next_action": "Deliver this bounded checkpoint through Git review. RES-052 remains in progress; request aggregate unit returns only after separately authorized outreach.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-161",
+        "UTP-REV-123"
+      ],
+      "evidence": [
+        "records/employment-suppliers-2026-10-02.json"
+      ]
     }
   ],
   "decisions": [
@@ -7424,6 +7446,25 @@
       "evidence": [
         "records/mining-integration-review.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-161",
+      "title": "Employment and supplier evidence follow-up",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's pick that",
+      "scope": "Research the proposed current-employment and local-supplier gaps and save a validated KB update. Existing authorization permits routine Git delivery. Public story publication, outreach and spending are outside this batch.",
+      "recorded_at": "2026-10-02T19:10:21.927198+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-145"
+      ],
+      "evidence": [
+        "records/employment-suppliers-2026-10-02.json"
+      ]
     }
   ],
   "requirements": [
@@ -10343,6 +10384,28 @@
       ],
       "evidence": [
         "records/mining-integration-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-123",
+      "title": "Employment/supplier evidence self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Current plant payroll and unique-person methodology not recovered. Unit work volume and corporate totals do not fill this gap.",
+        "RSP social-account claims remain pending underlying source records and independent community evidence.",
+        "Selected NALCO pages visually checked; not a full audit or human specialist review. No public website publication."
+      ],
+      "refs": [
+        "UTP-DEC-161",
+        "UTP-WORK-145"
+      ],
+      "evidence": [
+        "records/employment-suppliers-2026-10-02.json"
       ]
     }
   ],
