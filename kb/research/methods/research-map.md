@@ -357,3 +357,19 @@ Seven new source/lead records deepen existing textile identities. Ghose2017 reco
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Two downloaded primary PDFs extend existing identities; actual GI heading1September2026 and hash retained despite stale filename/indexed version. No duplicate biographies. Five cooperative routes and three works point to precise rows/pages.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+Three primary sources and two synthesis/story records added for RES-052. NALCO p.56 extends existing source scope; repeated annual/compliance reports are one corporate evidence family.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+Existing IMFA company and people identities enhanced, one annual-report source and one story added. One corporate report supports all new rows; it is not multiple independent sources.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Four original source identities extend existing IMFA record; annual-report observation retained with revision history. Dependent Sukinda calculation preserved in quarantine, not silently deleted.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+One original parliamentary answer extends existing Rourkela record; NALCO apprenticeship is reused source scope. No independent corroboration or duplicate company identities claimed.

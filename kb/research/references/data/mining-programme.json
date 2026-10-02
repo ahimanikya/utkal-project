@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T00:49:26.791780+00:00",
+  "updated_at": "2026-10-02T17:52:03.569038+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -1918,6 +1918,296 @@
       "Scanned EC annexure including original CTO not readable in text; no current permit verification."
     ],
     "retry_after": "2026-10-08",
+    "human_review_claimed": false
+  },
+  "processing_work_checkpoint": {
+    "run_id": "2026-10-02-mining-steel",
+    "at": "2026-10-02T14:47:52.786173+00:00",
+    "task": "RES-052",
+    "source_ids": [
+      "mining-sail-ar2026",
+      "mining-rsp-ec-march2026",
+      "mining-btk-pfr2021",
+      "mining-nalco-ar2026"
+    ],
+    "observation_ids": [
+      "rsp-crude-2023-24",
+      "rsp-crude-2024-25",
+      "rsp-crude-2025-26",
+      "rsp-pbt-2024-25",
+      "rsp-pbt-2025-26",
+      "nalco-odisha-mse-procurement-2025-26",
+      "nalco-all-mse-procurement-2025-26"
+    ],
+    "chain_status": [
+      {
+        "chain": "Panchpatmali–Damanjodi–Angul",
+        "status": "reuse_saved_chain_add_state_supplier_procurement",
+        "local_jobs": "unresolved"
+      },
+      {
+        "chain": "Barsua valley–Rourkela",
+        "status": "dated_existing_route_description_plus_plant_records",
+        "source_id": "mining-btk-pfr2021",
+        "locator": "printed p.28; PDF p.32",
+        "current_dispatch_tonnes": null,
+        "direct_jobs": null,
+        "contract_jobs": null,
+        "local_supplier_purchases": null
+      },
+      {
+        "chain": "Odisha chromite–ferrochrome",
+        "status": "next_bounded_research",
+        "reuse_source_id": "business-imfa-history"
+      }
+    ],
+    "held_fields": [
+      {
+        "field": "RSP workforce",
+        "source_id": "mining-rsp-ec-march2026",
+        "locator": "PDF p.15",
+        "reported_health_check_categories": {
+          "2025-26": {
+            "permanent_employee": 9872,
+            "contractual_worker": 10803,
+            "cisf_and_others": 385,
+            "total": 21060
+          },
+          "2024-25": {
+            "permanent_employee": 10864,
+            "contractual_worker": 14386,
+            "cisf_and_others": 636,
+            "total": 25886
+          },
+          "2023-24": {
+            "permanent_employee": 11151,
+            "contractual_worker": 8999,
+            "cisf_and_others": 590,
+            "total": 20740
+          }
+        },
+        "treatment": "Health-check-up disclosure, not adopted as employment headcount or growth. Counts and adverse changes retained without causal inference."
+      },
+      {
+        "field": "Expansion additional jobs and cost",
+        "source_id": "mining-btk-pfr2021",
+        "locator": "printed p.2 / PDF p.6",
+        "additional_positions": 1133,
+        "estimated_cost_inr_crore": 2740.88,
+        "stage": "June2021 proposal",
+        "treatment": "No realised investment or jobs inferred."
+      },
+      {
+        "field": "Carbon-budget model",
+        "source_id": "mining-rsp-ec-march2026",
+        "locator": "PDF pp.26–27",
+        "treatment": "Future production targets and assumed80% tree survival excluded from realised outcomes. Historical output needs production-return cross-check."
+      }
+    ],
+    "calculations": [
+      {
+        "id": "nalco-odisha-share-of-mse-procurement-2025-26",
+        "inputs": [
+          "nalco-odisha-mse-procurement-2025-26",
+          "nalco-all-mse-procurement-2025-26"
+        ],
+        "operation": "share_pct",
+        "value": 45.04261226293907,
+        "unit": "percent",
+        "interpretation": "Odisha-based share of NALCO MSE purchases only; denominator is not all company procurement or all Odisha business sales."
+      }
+    ],
+    "completion_criteria_met": false,
+    "human_review_claimed": false
+  },
+  "chromite_checkpoint": {
+    "run_id": "2026-10-02-chromite-chain",
+    "at": "2026-10-02T15:50:42.674333+00:00",
+    "source_id": "mining-imfa-ar2026",
+    "observation_ids": [
+      "imfa-production-2024-25",
+      "imfa-production-2025-26",
+      "imfa-domestic-sales-2024-25",
+      "imfa-domestic-sales-2025-26",
+      "imfa-international-sales-2024-25",
+      "imfa-international-sales-2025-26",
+      "imfa-sukinda-ore-2024-25",
+      "imfa-sukinda-ore-2025-26",
+      "imfa-mahagiri-ore-2024-25",
+      "imfa-mahagiri-ore-2025-26",
+      "imfa-total-ore-2024-25",
+      "imfa-total-ore-2025-26",
+      "imfa-msme-input-share-2024-25",
+      "imfa-msme-input-share-2025-26",
+      "imfa-india-input-share-2024-25",
+      "imfa-india-input-share-2025-26",
+      "imfa-employees-2026",
+      "imfa-permanent-workers-2026",
+      "imfa-other-workers-2026",
+      "imfa-export-turnover-share-2025-26",
+      "imfa-international-markets-2025-26"
+    ],
+    "chain": "Sukinda/Mahagiri captive ore → IMFA Odisha ferrochrome facilities → domestic/international industrial sales",
+    "chain_evidence_locator": "Printed pp.4,40,51",
+    "site_allocation_verified": false,
+    "plant_workforce_verified": false,
+    "odisha_supplier_share": null,
+    "project_stages": [
+      {
+        "project": "Kalinganagar acquired unit KNR2",
+        "stage": "company_reports_acquisition_completed_and_production_started",
+        "transaction_period": "2026-02",
+        "start_scope": "Within two weeks of completion, per MD p.14"
+      },
+      {
+        "project": "Kalinganagar greenfield KNR1 and additional acquired-unit furnace",
+        "stage": "forward_looking_in_annual_report",
+        "current_october_commissioning_verified": false
+      }
+    ],
+    "held_claims": [
+      {
+        "claim": "Largest producer/global rank",
+        "reason": "Company promotional superlative; independent comparable ranking absent."
+      },
+      {
+        "claim": "All extracted ore used captively means no stock difference",
+        "reason": "Captive-use statement does not reconcile inventory, mine output or shipment timing."
+      },
+      {
+        "claim": "Company workers are Odisha-local jobs",
+        "reason": "Entity includes national offices; plant/residence split absent."
+      },
+      {
+        "claim": "Historical Business India reprint production and expansion figures",
+        "reason": "Secondary reprint not independent company disclosure; annual report used for dated observations."
+      }
+    ],
+    "completion_criteria_met": false
+  },
+  "plant_records_checkpoint": {
+    "run_id": "2026-10-02-mining-plant-records",
+    "at": "2026-10-02T16:49:35.236954+00:00",
+    "observation_ids": [
+      "imfa-ccp-2-ore-intensity-2024-25",
+      "imfa-ccp-2-ore-intensity-2025-26",
+      "imfa-ccp-3-ore-intensity-2024-25",
+      "imfa-ccp-3-ore-intensity-2025-26",
+      "imfa-sukinda-star-manpower-local-2026",
+      "imfa-sukinda-star-manpower-total-2026",
+      "imfa-mahagiri-star-manpower-local-2026",
+      "imfa-mahagiri-star-manpower-total-2026",
+      "imfa-sukinda-star-rom-2026",
+      "imfa-mahagiri-star-general-2026",
+      "imfa-mahagiri-star-rom-2026"
+    ],
+    "source_ids": [
+      "mining-imfa-choudwar-2026",
+      "mining-imfa-sukinda-2026",
+      "mining-imfa-mahagiri-2026",
+      "mining-imfa-knr2-2026"
+    ],
+    "workforce_rows": {
+      "sukinda": {
+        "local_total": 598,
+        "overall_total": 1170,
+        "local_skilled": 400,
+        "skilled_total": 573,
+        "local_unskilled": 198,
+        "unskilled_total": 226
+      },
+      "mahagiri": {
+        "local_total": 477,
+        "overall_total": 839,
+        "local_skilled": 464,
+        "skilled_total": 601,
+        "local_unskilled": 31,
+        "unskilled_total": 31
+      }
+    },
+    "workforce_treatment": "Held. Local means from the State, not a host village. No direct/contract split or comparable snapshot; Mahagiri495 local category sum differs from477 stated total; Sukinda799 skilled/unskilled denominator sum differs from1170 total.",
+    "production_conflicts": [
+      {
+        "site": "Sukinda",
+        "annual_report": 273802,
+        "self_assessment_general_and_rom": 269075,
+        "unit": "tonnes",
+        "period": "FY2025-26",
+        "difference": 4727,
+        "resolution": "unresolved",
+        "retry_after": "2026-10-09"
+      },
+      {
+        "site": "Mahagiri",
+        "self_assessment_general": 536809.68,
+        "self_assessment_rom": 524752.61,
+        "annual_report_rounded": 536810,
+        "unit": "tonnes",
+        "period": "FY2025-26",
+        "resolution": "scope unresolved; annual/general agreement is not independent corroboration",
+        "retry_after": "2026-10-09"
+      }
+    ],
+    "knr2_transfer": {
+      "source_id": "mining-imfa-knr2-2026",
+      "letter_date": "2026-09-04",
+      "posted_on": "2026-09-22",
+      "ec_identification": "EC26A1005OR5601389T",
+      "proposal": "IA/OR/IND1/584536/2026",
+      "asset_transfer_effective_date_reported": "2026-02-27",
+      "implemented_facility": "4 x16.5 MVA only",
+      "not_implemented": [
+        "1 x33 MVA proposed furnace",
+        "67.5 MW proposed CPP"
+      ],
+      "scope": "Government-issued letter hosted by company; no independent original-portal retrieval or October operating check. Not KNR1 status."
+    },
+    "completion_criteria_met": false,
+    "human_review_claimed": false
+  },
+  "employment_checkpoint": {
+    "run_id": "2026-10-02-mining-employment",
+    "at": "2026-10-02T17:52:03.569038+00:00",
+    "observation_ids": [
+      "rsp-2015-manpower",
+      "rsp-2015-contract-projects",
+      "rsp-2015-contract-others",
+      "rsp-2015-contract-total",
+      "nalco-apprentice-trainees-2025-26"
+    ],
+    "new_source_ids": [
+      "mining-rsp-parliament-2015"
+    ],
+    "reused_source_ids": [
+      "mining-nalco-ar2026",
+      "mining-sail-ar2026",
+      "mining-rsp-ec-march2026"
+    ],
+    "rsp_scope": "Historical1April2015 parliamentary snapshot; contract projects5346 plus others3721 equals9067. No current jobs trend from health checks.",
+    "nalco_scope": "925 apprentices duringFY2025–26; no unit allocation or permanent placements. Existing workforce reused, not duplicated.",
+    "source_checks": [
+      {
+        "url": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf",
+        "status": "available_after_fallback",
+        "scope": "Web reader502; direct original download recovered two-page PDF. Page2 visually checked; published6May2015, snapshot1April2015."
+      },
+      {
+        "url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+        "status": "reused_saved_capture",
+        "scope": "Existing report searched first; p.49 apprentice annual engagement inspected. Plant payroll split still missing; no new whole-company workforce observations duplicated."
+      },
+      {
+        "url": "https://rsdebate.nic.in/bitstream/123456789/600115/2/PQ_224_28112011_U711_p234_p235.pdf",
+        "status": "unavailable",
+        "scope": "Web fetch timed out; direct request returned Parliament HTML rather than PDF. Indexed2011 unit-contract numbers not imported. Retry9October2026 via original question archive."
+      },
+      {
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=69688",
+        "status": "unavailable",
+        "scope": "Web reader cache miss; search snippet only.2010 headcount not imported."
+      }
+    ],
+    "completion_criteria_met": false,
     "human_review_claimed": false
   }
 }

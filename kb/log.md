@@ -395,3 +395,19 @@ Prepared [district language profiles and story connections](reference/district-l
 ## 2 October 2026 · Integration and quality programme published
 
 [UTP-REL-049](records/autonomous-site-quality-publication.json) records the approved merge, successful deployment, 125 live-file checks and all referenced responsive-image checks. The 500-item register is complete as 488 review cases and twelve integration/delivery items. Research is integrated, not automatically promoted into new public stories. Source, language, device and Google processing limitations remain explicit.
+
+## 2 October 2026 · Mineral processing and local suppliers
+
+[Research receipt](records/mining-steel-2026-10-02.json): Rourkela steel production and profit are recorded separately; its health-check table is not counted as payroll. NALCO reports Odisha-based MSE purchases of ₹652.19 crore in FY2025–26. Historical Barsua rail linkage is sourced; proposed expansion remains a proposal. RES-052 remains in progress. No website release.
+
+## 2 October 2026 · Chromite-to-ferrochrome trade and work
+
+[Research receipt](records/chromite-chain-2026-10-02.json): The original IMFA annual report connects captive ore and Odisha processing to domestic and international markets. Output and sales are separate; falling international sales and Sukinda ore retained. Company-wide workforce and supplier shares are not assigned to Odisha plants. RES-052 remains in progress. No website release.
+
+## 2 October 2026 · Plant records and scope reconciliation
+
+[Research receipt](records/mining-plant-records-2026-10-02.json): Choudwar furnace input ratios and Kalinganagar clearance-transfer scope captured. Mine workforce categories and production differences held; the previous Sukinda comparison is quarantined with its original arithmetic preserved. RES-052 continues independently with Rourkela/NALCO; IMFA scope retry is 9 October. No website release.
+
+## 2 October 2026 · Industrial employment: historical snapshots and apprenticeships
+
+[Research receipt](records/mining-employment-2026-10-02.json): Rourkela parliamentary categories are dated 1 April 2015. NALCO apprentices are company-wide engagements during FY2025–26, not permanent placements. Current plant employment remains open; RES-052 retries 9 October and RES-053 is next. No website release.

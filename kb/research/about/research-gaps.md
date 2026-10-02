@@ -382,3 +382,19 @@ RES-012 gains four technique clarifications and four place-associated awardee cr
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Five cooperative-product routes, six registration-organization mappings and three named creations now documented. Berhampuri three-shuttle gap narrowed. Current operations, comparable sales, photo rights and Habaspuri formation chronology remain open; RES-012 retry 9 October. Next eligible independent task RES-052.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+RES-052 now adds Rourkela plant records and NALCO Odisha MSE purchases. Third chromite-to-ferrochrome chain remains next. Payroll/contract headcounts, local supplier disaggregation and exact current mine-to-plant despatch remain open; health-check table not used as jobs.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+Three chain narratives available, but plant-specific work, despatch allocations and local supplier boundaries remain incomplete. Next: plant compliance records; do not repeat company annual-report discovery.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Mine workforce category definitions and production scope unresolved; plant direct/contract payroll and Odisha supplier purchases remain incomplete. IMFA reconciliation retry9October; proceed independently with Rourkela/NALCO.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope reconciliation, mine-to-plant allocations and plant/local supplier boundaries still missing. Historical2015 RSP evidence cannot substitute for current observations. Retry9October; proceed with independent RES-053.

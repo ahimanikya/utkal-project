@@ -153,3 +153,19 @@ Existing handloom drafts now explain technique differences and credit four named
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Handloom drafts gain original directory attributions and a words-woven-into-cloth story. Directory and registration listings do not verify current orders or visits. No image licence, human review or website release claimed.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+New draft supplier story has a defined fiscal year, purchasing denominator and source. Rourkela page retains near-flat output, distinct profit recovery and workforce limits. No website release, human review or supplier interview claimed.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+IMFA trade story drafted with country-market and turnover boundaries. International sales decline retained; current commissioning, plant jobs, local suppliers and human review remain open. No website release.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Mine employment claims and Sukinda output comparison held. Kalinganagar transfer scope and Choudwar Unit-II ratios now documented. No human review or website release.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+Historical Rourkela workforce and company-wide NALCO apprenticeship added with explicit dates/categories. No current plant job headline, human review or website release.

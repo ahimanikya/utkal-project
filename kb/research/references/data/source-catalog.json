@@ -5302,7 +5302,20 @@
     "capture_method": "downloaded_pdf_extract_and_visual_table_check",
     "capture_note": "Company reporting; not independent field verification. Dates, scopes and project stages retained.",
     "publication_date_basis": "Posted date on original annual-reports listing; report includes dated post-year-end project developments.",
-    "sha256": "4c9b97844771ca234658df8ea8d58da8576ffb93a8b665020067d61c8c6193c6"
+    "sha256": "4c9b97844771ca234658df8ea8d58da8576ffb93a8b665020067d61c8c6193c6",
+    "scope_extensions": [
+      {
+        "checked_on": "2026-10-02",
+        "run_id": "2026-10-02-mining-steel",
+        "locator": "Printed p.56, PDF p.76, section19(a); visually checked saved original",
+        "scope": "Odisha-based MSE procurement and all-location MSE total. Reuse of same annual report, not independent corroboration. Adjacent61.56% wording not used as Odisha share."
+      },
+      {
+        "checked_on": "2026-10-02",
+        "locator": "Printed p.49 / PDF p.69, section9.2; visual check",
+        "scope": "925 apprentice trainees engaged during FY2025–26; company scope and annual period, not plant headcount or jobs placed. Same original report, not independent corroboration."
+      }
+    ]
   },
   "mining-dbl-pottangi": {
     "id": "mining-dbl-pottangi",
@@ -6190,5 +6203,138 @@
     "capture_note": "Full 7-page original recovered; pp.1,4,5 visually checked. Document heading is as on01.09.2026 despite old104GI filename and stale indexed rows. Preserve downloaded hash and actual row numbers. Departmental list of registrations and named organizations, not renewal certificate, authorized-user list or evidence of current trading. No current GI validity conclusion.",
     "capture_method": "downloaded_pdf_selected_pages_visually_checked",
     "capture_sha256": "75b749635aef809b6a80a46e61c469fe9514b8cfd62cc159061f3788f02943e1"
+  },
+  "mining-btk-pfr2021": {
+    "id": "mining-btk-pfr2021",
+    "title": "Barsua–Taldih–Kalta expansion pre-feasibility report, June 2021",
+    "resource": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf",
+    "publisher": "SAIL-RMD; hosted on MoEFCC environmental-clearance portal",
+    "published_on": "2021-06",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.1–3,28 (PDF pp.5–7,32)",
+    "capture_note": "Applicant-authored proposed expansion. Existing Barsua rail connection to Rourkela is described in p.28; future capacities, costs and additional jobs are proposals. No current shipment quantity, expansion commissioning or contemporary workforce verified.",
+    "capture_method": "downloaded_pdf_selected_sections",
+    "capture_sha256": "1a70e36d9295967cf494e2e3e24fd4d2046dcb1508aad3f9e16c6c580c316c5e"
+  },
+  "mining-rsp-ec-march2026": {
+    "id": "mining-rsp-ec-march2026",
+    "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026",
+    "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf",
+    "publisher": "SAIL, Rourkela Steel Plant",
+    "published_on": "2026-05-05",
+    "accessed_on": "2026-10-02",
+    "locator": "PDF pp.1,15,26–27; pp.15,27 visually checked",
+    "capture_note": "Company compliance statement, not a regulator audit. Carbon-budget row combines historical and future target values: only FY2023–24 to FY2025–26 historical columns captured as reported. Units printed MTPA; annual historical quantities shown as million tonnes in derived display. Health-check table is not payroll/headcount; tree survival is an assumption, not a census.",
+    "capture_method": "downloaded_pdf_selected_sections",
+    "capture_sha256": "2696f3d251da5660b04e6a5c9cbb1805d62a2356fce532c8bfd30a7d071357bf"
+  },
+  "mining-sail-ar2026": {
+    "id": "mining-sail-ar2026",
+    "title": "SAIL Annual Report 2025–26",
+    "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf",
+    "publisher": "SAIL",
+    "published_on": null,
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.20,26,66,266 (PDF+2); financial table p.66 visually checked",
+    "capture_note": "Full original downloaded; selected plant-performance, company-workforce and location sections reviewed. RSP PBT is a plant/unit accounting result; SAIL workforce and MSE figures are company-wide, not Odisha totals. Company best-ever narrative is not a substitute for metric-specific output history.",
+    "capture_method": "downloaded_pdf_selected_sections",
+    "capture_sha256": "c71a6fef0c077b5214d75a67a1eb56c86079b279d2a9278d26fc071695b3913b"
+  },
+  "mining-imfa-ar2026": {
+    "id": "mining-imfa-ar2026",
+    "title": "IMFA Annual Report 2025–26",
+    "resource": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf",
+    "publisher": "Indian Metals and Ferro Alloys Limited",
+    "published_on": "2026-07-13",
+    "publication_date_basis": "Publisher annual-report catalogue PostDate; directors report signed 27 May 2026",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.4–7,14–15,40,50–51,57–59,97; PDF spreads 4,5,9,22,27,30,31,50",
+    "capture_method": "original_pdf_download_selected_sections_text_and_visual",
+    "capture_sha256": "76e403539924a9e0a4620853fc032d14ae44b821ce820ef42809be00427ed18d",
+    "capture_note": "Original served by publisher PDF route discovered from public annual-report API. Production/sales, workforce and supplier tables visually checked on PDF spreads22,31,50. Standalone BRSR; no assurance listed on p.57. Company-wide workforce and sourcing are not Odisha plant totals. Capacity and forecasts are not actual output.",
+    "discovery_url": "https://www.imfa.in/investors/reports-library?uid=AnnualReports",
+    "discovery_request": {
+      "url": "https://www.imfa.in/api/strapi?action=handleInvestorsByCategory",
+      "method": "POST",
+      "body": {
+        "uids": [
+          "AnnualReports"
+        ]
+      },
+      "scope": "Public read-only listing used by website"
+    },
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"
+  },
+  "mining-imfa-sukinda-2026": {
+    "id": "mining-imfa-sukinda-2026",
+    "title": "Evaluation Template for Star Rating of Sukinda Mines (Chromite) Mining Leases for FY-2025-26",
+    "resource": "https://www.imfa.in/api/pdf/SukindaMinesStarRating202526.pdf/Sukinda_Mines_Star_Rating202526_907f7142d9.pdf",
+    "publisher": "Indian Metals and Ferro Alloys Limited",
+    "published_on": null,
+    "posted_on": "2026-09-08",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.1,3,10,11,31 / PDF pp.2,4,11,12,32; pp.11,32 visually checked",
+    "capture_note": "Lessee-submitted evaluation template; not an awarded star rating or independent audit. Workforce category denominators unclear; general/ROM output conflicts with annual report.",
+    "capture_method": "original_pdf_selected_pages; OCR plus visual checks for scans",
+    "capture_sha256": "40c3afd05236109f64155abb77959237651aac0efe69314f4514ffae5c0c942e",
+    "discovery_url": "https://www.imfa.in/investors/statutory-compliances",
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/Sukinda_Mines_Star_Rating202526_907f7142d9.pdf"
+  },
+  "mining-imfa-mahagiri-2026": {
+    "id": "mining-imfa-mahagiri-2026",
+    "title": "Evaluation Template for Star Rating of Mahagiri Mines (Chromite) Mining Leases for FY-2025-26",
+    "resource": "https://www.imfa.in/api/pdf/MahagiriMinesStarRating202526.pdf/Mahagiri_Mines_Star_Rating202526_e5c85f9972.pdf",
+    "publisher": "Indian Metals and Ferro Alloys Limited",
+    "published_on": null,
+    "posted_on": "2026-09-08",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.1,3,10,28 / PDF pp.2,4,11,29; pp.4,11,29 visually checked",
+    "capture_note": "Lessee-submitted evaluation template; not an awarded star rating. Local-workforce subtotal conflicts internally; general output and underground ROM rows differ.",
+    "capture_method": "original_pdf_selected_pages; OCR plus visual checks for scans",
+    "capture_sha256": "934d1b04c73f4ae939dce3020c286ee567b394056128ef98ba9e2a8444ed6d8c",
+    "discovery_url": "https://www.imfa.in/investors/statutory-compliances",
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/Mahagiri_Mines_Star_Rating202526_e5c85f9972.pdf"
+  },
+  "mining-imfa-choudwar-2026": {
+    "id": "mining-imfa-choudwar-2026",
+    "title": "Environmental statement of High Carbon Ferro Chrome/Charge Chrome Plant, Unit-II (2X30) MVA Furnace for FY 2025-26",
+    "resource": "https://www.imfa.in/api/pdf/EnvironmentalStatementUnitII202526.pdf/Environmental_Statement_Unit_II_202526_4e5b4b9277.pdf",
+    "publisher": "Indian Metals and Ferro Alloys Limited",
+    "published_on": "2026-09-14",
+    "posted_on": "2026-09-14",
+    "accessed_on": "2026-10-02",
+    "locator": "PDF pp.1–3; p.3 raw-material table visually checked",
+    "capture_note": "Company Form V for Unit-II only, not all Choudwar operations. Capacity and input/output ratios are not annual output or employment.",
+    "capture_method": "original_pdf_selected_pages; OCR plus visual checks for scans",
+    "capture_sha256": "ccd8053bcc131437c1dec282814627c6248c93bf80320f114658e10bcb661ad6",
+    "discovery_url": "https://www.imfa.in/investors/statutory-compliances",
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/Environmental_Statement_Unit_II_202526_4e5b4b9277.pdf"
+  },
+  "mining-imfa-knr2-2026": {
+    "id": "mining-imfa-knr2-2026",
+    "title": "Environmental Clearance for the Ferro Alloy Plant (Submerged Arc Furnace 4x16.5 MVA) at Kanchrigaon & Chandia, Tehsil Sukinda, District Jajpur, Odisha, from M/s. Tata Steel Ltd to M/s. Indian Metals & Ferro Alloys Limited (IMFA)",
+    "resource": "https://www.imfa.in/api/pdf/IA_OR_IND1_04092026.pdf/IA_OR_IND_1_04092026_a1432f31b5.pdf",
+    "publisher": "MoEFCC; copy hosted by IMFA",
+    "published_on": "2026-09-04",
+    "posted_on": "2026-09-22",
+    "accessed_on": "2026-10-02",
+    "locator": "PDF pp.1–4; Annexure I p.4 visually checked",
+    "capture_note": "Ministry clearance-transfer letter hosted by company; original government portal copy not independently fetched. Transfer covers implemented 4x16.5 MVA only; no expansion commissioning inferred.",
+    "capture_method": "original_pdf_selected_pages; OCR plus visual checks for scans",
+    "capture_sha256": "8ff6a6a5aa86d5d09e0106c3751e76a93bd34d0af0672a8d4a2eb19b7441dfb8",
+    "discovery_url": "https://www.imfa.in/investors/statutory-compliances",
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/IA_OR_IND_1_04092026_a1432f31b5.pdf"
+  },
+  "mining-rsp-parliament-2015": {
+    "id": "mining-rsp-parliament-2015",
+    "title": "SAIL plant manpower and contract workers: Rajya Sabha answer 1184, 6 May 2015",
+    "resource": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf",
+    "publisher": "Ministry of Steel, Government of India",
+    "published_on": "2015-05-06",
+    "accessed_on": "2026-10-02",
+    "locator": "PDF p.2, answer (c), Rourkela row; snapshot 1 April 2015",
+    "capture_note": "Original two-page parliamentary answer; table visually checked. Historical manpower column separate from contract workers; no resident, unique annual-job or current-employment claim. 2025 upload directory is not publication date.",
+    "capture_method": "original_pdf_text_and_visual_check",
+    "capture_sha256": "6f2d881f7af18836a6240b2fd72a4e1a63fa27644f3d17e8a3cfe36298f2e52d"
   }
 }

@@ -27,3 +27,11 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Coal series checkpoint · 1 October 2026
 
 [The coal research](../coal-production.md) links Manoharpur’s reported production to OCPL’s Hemgir/Sundargarh location account. Its October2019 rehabilitation records do not establish current household outcomes.
+
+## Connected industrial evidence
+
+[Rourkela’s steel case](../../economy/rourkela-steel-chain.md) connects the district to plant evidence and a dated Barsua transport description. Current mine-to-plant quantities and local jobs remain open.
+
+## Industrial work: dates and categories
+
+[Rourkela’s historical employment record](../../economy/rourkela-steel-chain.md) now distinguishes manpower, project contract workers and other contract work at 1 April 2015. This strengthens the historical record without supplying a current plant employment total.
