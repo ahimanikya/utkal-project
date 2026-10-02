@@ -361,3 +361,7 @@ Two downloaded primary PDFs extend existing identities; actual GI heading1Septem
 ## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
 
 Three primary sources and two synthesis/story records added for RES-052. NALCO p.56 extends existing source scope; repeated annual/compliance reports are one corporate evidence family.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+Existing IMFA company and people identities enhanced, one annual-report source and one story added. One corporate report supports all new rows; it is not multiple independent sources.

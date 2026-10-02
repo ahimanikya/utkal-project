@@ -157,3 +157,7 @@ Handloom drafts gain original directory attributions and a words-woven-into-clot
 ## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
 
 New draft supplier story has a defined fiscal year, purchasing denominator and source. Rourkela page retains near-flat output, distinct profit recovery and workforce limits. No website release, human review or supplier interview claimed.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+IMFA trade story drafted with country-market and turnover boundaries. International sales decline retained; current commissioning, plant jobs, local suppliers and human review remain open. No website release.

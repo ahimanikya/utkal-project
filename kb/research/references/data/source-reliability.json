@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T14:47:52.786173+00:00",
+  "updated_at": "2026-10-02T15:50:42.674333+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5998,6 +5998,27 @@
       "run_id": "2026-10-02-mining-steel",
       "status": "available_after_fallback",
       "scope": "Web timeout; direct HTML succeeded. Used as original compliance-document entrance."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf",
+      "checked_at": "2026-10-02T15:50:42.674333+00:00",
+      "run_id": "2026-10-02-chromite-chain",
+      "status": "available",
+      "scope": "Downloaded original, selected pages read and three table spreads visually checked."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/investors/reports-library?uid=AnnualReports",
+      "checked_at": "2026-10-02T15:50:42.674333+00:00",
+      "run_id": "2026-10-02-chromite-chain",
+      "status": "available_after_fallback",
+      "scope": "Plain text omitted report list; direct HTML and public read-only API recovered original report. Initial sandbox DNS failed; permitted network retry succeeded."
+    },
+    {
+      "discovery_url": "https://imfa-website.vercel.app/investors",
+      "checked_at": "2026-10-02T15:50:42.674333+00:00",
+      "run_id": "2026-10-02-chromite-chain",
+      "status": "unavailable",
+      "scope": "Web fetch timeout; no factual claims taken from this mirror."
     }
   ]
 }

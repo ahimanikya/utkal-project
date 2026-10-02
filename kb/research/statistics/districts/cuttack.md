@@ -23,3 +23,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 
 
 [^macro-slbc-jun2026]: [184th SLBC Odisha meeting agenda — June 2026 quarter](https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf)
+
+## Connected ferrochrome research
+
+[IMFA’s chain](../../economy/company-imfa.md) connects Odisha mining and processing places. Entity-wide sales, employment and supplier totals are not assigned to this district. Named mine output retains its site boundary.

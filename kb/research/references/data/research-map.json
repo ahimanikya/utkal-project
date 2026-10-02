@@ -7620,7 +7620,8 @@
         "economy"
       ],
       "source_ids": [
-        "enterprise-nalco2026"
+        "enterprise-nalco2026",
+        "mining-imfa-ar2026"
       ]
     },
     {
@@ -12914,7 +12915,8 @@
         "people"
       ],
       "source_ids": [
-        "business-imfa-history"
+        "business-imfa-history",
+        "mining-imfa-ar2026"
       ],
       "added_at": "2026-10-01T07:47:25.368283-07:00"
     },
@@ -15266,7 +15268,8 @@
       "source_ids": [
         "mining-ibm-march2025",
         "mining-cag-dmf2026",
-        "mining-ibm-yearbook2024"
+        "mining-ibm-yearbook2024",
+        "mining-imfa-ar2026"
       ],
       "added_at": "2026-10-01T19:12:14.031317+00:00"
     },
@@ -18313,6 +18316,42 @@
         "mining-nalco-ar2026"
       ],
       "added_at": "2026-10-02T14:47:52.786173+00:00"
+    },
+    {
+      "id": "sources/mining-imfa-ar2026",
+      "title": "IMFA Annual Report 2025–26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-imfa-ar2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-imfa-ar2026"
+      ],
+      "added_at": "2026-10-02T15:50:42.674333+00:00"
+    },
+    {
+      "id": "stories/odisha-ferrochrome-markets",
+      "title": "Odisha’s ferrochrome reaches industrial markets abroad",
+      "kind": "Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/odisha-ferrochrome-markets.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "mining-imfa-ar2026"
+      ],
+      "added_at": "2026-10-02T15:50:42.674333+00:00"
     }
   ],
   "shared_publications": [
@@ -19452,7 +19491,10 @@
         "sources/mining-btk-pfr2021.md",
         "economy/rourkela-steel-chain.md",
         "stories/minerals-and-local-suppliers.md",
-        "sources/business-imfa-history.md"
+        "sources/business-imfa-history.md",
+        "sources/mining-imfa-ar2026.md",
+        "stories/odisha-ferrochrome-markets.md",
+        "economy/company-imfa.md"
       ],
       "project_records": [],
       "remaining_scope": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
@@ -19685,8 +19727,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1227,
-    "updated_at": "2026-10-02T14:47:52.786173+00:00",
+    "records_mapped": 1229,
+    "updated_at": "2026-10-02T15:50:42.674333+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20242,6 +20284,11 @@
       "run_id": "2026-10-02-mining-steel",
       "at": "2026-10-02T14:47:52.786173+00:00",
       "scope": "Three source records and two new synthesis/story identities; NALCO source reused, no duplicate publisher corroboration."
+    },
+    {
+      "run_id": "2026-10-02-chromite-chain",
+      "at": "2026-10-02T15:50:42.674333+00:00",
+      "scope": "Existing company and founder identities reused; one original annual-report identity and one trade story added."
     }
   ]
 }

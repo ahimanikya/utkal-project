@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T14:47:52.786173+00:00",
+  "updated_at": "2026-10-02T15:50:42.674333+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2019,5 +2019,70 @@
     ],
     "completion_criteria_met": false,
     "human_review_claimed": false
+  },
+  "chromite_checkpoint": {
+    "run_id": "2026-10-02-chromite-chain",
+    "at": "2026-10-02T15:50:42.674333+00:00",
+    "source_id": "mining-imfa-ar2026",
+    "observation_ids": [
+      "imfa-production-2024-25",
+      "imfa-production-2025-26",
+      "imfa-domestic-sales-2024-25",
+      "imfa-domestic-sales-2025-26",
+      "imfa-international-sales-2024-25",
+      "imfa-international-sales-2025-26",
+      "imfa-sukinda-ore-2024-25",
+      "imfa-sukinda-ore-2025-26",
+      "imfa-mahagiri-ore-2024-25",
+      "imfa-mahagiri-ore-2025-26",
+      "imfa-total-ore-2024-25",
+      "imfa-total-ore-2025-26",
+      "imfa-msme-input-share-2024-25",
+      "imfa-msme-input-share-2025-26",
+      "imfa-india-input-share-2024-25",
+      "imfa-india-input-share-2025-26",
+      "imfa-employees-2026",
+      "imfa-permanent-workers-2026",
+      "imfa-other-workers-2026",
+      "imfa-export-turnover-share-2025-26",
+      "imfa-international-markets-2025-26"
+    ],
+    "chain": "Sukinda/Mahagiri captive ore → IMFA Odisha ferrochrome facilities → domestic/international industrial sales",
+    "chain_evidence_locator": "Printed pp.4,40,51",
+    "site_allocation_verified": false,
+    "plant_workforce_verified": false,
+    "odisha_supplier_share": null,
+    "project_stages": [
+      {
+        "project": "Kalinganagar acquired unit KNR2",
+        "stage": "company_reports_acquisition_completed_and_production_started",
+        "transaction_period": "2026-02",
+        "start_scope": "Within two weeks of completion, per MD p.14"
+      },
+      {
+        "project": "Kalinganagar greenfield KNR1 and additional acquired-unit furnace",
+        "stage": "forward_looking_in_annual_report",
+        "current_october_commissioning_verified": false
+      }
+    ],
+    "held_claims": [
+      {
+        "claim": "Largest producer/global rank",
+        "reason": "Company promotional superlative; independent comparable ranking absent."
+      },
+      {
+        "claim": "All extracted ore used captively means no stock difference",
+        "reason": "Captive-use statement does not reconcile inventory, mine output or shipment timing."
+      },
+      {
+        "claim": "Company workers are Odisha-local jobs",
+        "reason": "Entity includes national offices; plant/residence split absent."
+      },
+      {
+        "claim": "Historical Business India reprint production and expansion figures",
+        "reason": "Secondary reprint not independent company disclosure; annual report used for dated observations."
+      }
+    ],
+    "completion_criteria_met": false
   }
 }

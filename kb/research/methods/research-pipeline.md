@@ -219,3 +219,7 @@ RES-012 checkpoint saved with 9 October retry for remaining financial/original-d
 ## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
 
 Resume RES-052 next with chromite-to-ferrochrome, using saved IMFA history before original annual-report research. Rourkela/NALCO checkpoint is useful but three-chain employment/supplier completion criteria remain unmet.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+Use IMFA statutory-compliance listings for Therubali, Choudwar, Kalinganagar and mine-level employment/output; seek plant payroll/contract and Odisha supplier evidence. Reuse mining-imfa-ar2026 before fetching; no repeat of annual report. Then RSP plant employment and NALCO plant-local gaps. Keep completed acquisition separate from post-report commissioning checks.

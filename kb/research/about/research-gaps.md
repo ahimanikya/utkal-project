@@ -386,3 +386,7 @@ Five cooperative-product routes, six registration-organization mappings and thre
 ## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
 
 RES-052 now adds Rourkela plant records and NALCO Odisha MSE purchases. Third chromite-to-ferrochrome chain remains next. Payroll/contract headcounts, local supplier disaggregation and exact current mine-to-plant despatch remain open; health-check table not used as jobs.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+Three chain narratives available, but plant-specific work, despatch allocations and local supplier boundaries remain incomplete. Next: plant compliance records; do not repeat company annual-report discovery.

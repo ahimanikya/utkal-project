@@ -400,3 +400,7 @@ Recovered original Odisha weaver directory and September2026 departmental GI lis
 ## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
 
 RES-052: three SAIL original documents captured; Rourkela output/PBT and NALCO MSE purchases add seven observations and three calculations. Health checks and proposed expansion remain separate from employment outcomes. Supplier story prepared; no website release.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+RES-052: original IMFA 2025–26 report captured with public API discovery route. Added 21 scoped observations and five comparisons, including falling international sales and Sukinda output. Chain established at company level; task remains in progress. No website release.

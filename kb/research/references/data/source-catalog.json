@@ -6234,5 +6234,30 @@
     "capture_note": "Full original downloaded; selected plant-performance, company-workforce and location sections reviewed. RSP PBT is a plant/unit accounting result; SAIL workforce and MSE figures are company-wide, not Odisha totals. Company best-ever narrative is not a substitute for metric-specific output history.",
     "capture_method": "downloaded_pdf_selected_sections",
     "capture_sha256": "c71a6fef0c077b5214d75a67a1eb56c86079b279d2a9278d26fc071695b3913b"
+  },
+  "mining-imfa-ar2026": {
+    "id": "mining-imfa-ar2026",
+    "title": "IMFA Annual Report 2025–26",
+    "resource": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf",
+    "publisher": "Indian Metals and Ferro Alloys Limited",
+    "published_on": "2026-07-13",
+    "publication_date_basis": "Publisher annual-report catalogue PostDate; directors report signed 27 May 2026",
+    "accessed_on": "2026-10-02",
+    "locator": "Printed pp.4–7,14–15,40,50–51,57–59,97; PDF spreads 4,5,9,22,27,30,31,50",
+    "capture_method": "original_pdf_download_selected_sections_text_and_visual",
+    "capture_sha256": "76e403539924a9e0a4620853fc032d14ae44b821ce820ef42809be00427ed18d",
+    "capture_note": "Original served by publisher PDF route discovered from public annual-report API. Production/sales, workforce and supplier tables visually checked on PDF spreads22,31,50. Standalone BRSR; no assurance listed on p.57. Company-wide workforce and sourcing are not Odisha plant totals. Capacity and forecasts are not actual output.",
+    "discovery_url": "https://www.imfa.in/investors/reports-library?uid=AnnualReports",
+    "discovery_request": {
+      "url": "https://www.imfa.in/api/strapi?action=handleInvestorsByCategory",
+      "method": "POST",
+      "body": {
+        "uids": [
+          "AnnualReports"
+        ]
+      },
+      "scope": "Public read-only listing used by website"
+    },
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"
   }
 }
