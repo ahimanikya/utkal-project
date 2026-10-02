@@ -7620,7 +7620,8 @@
         "economy"
       ],
       "source_ids": [
-        "enterprise-nalco2026"
+        "enterprise-nalco2026",
+        "mining-imfa-ar2026"
       ]
     },
     {
@@ -12914,7 +12915,12 @@
         "people"
       ],
       "source_ids": [
-        "business-imfa-history"
+        "business-imfa-history",
+        "mining-imfa-ar2026",
+        "mining-imfa-choudwar-2026",
+        "mining-imfa-sukinda-2026",
+        "mining-imfa-mahagiri-2026",
+        "mining-imfa-knr2-2026"
       ],
       "added_at": "2026-10-01T07:47:25.368283-07:00"
     },
@@ -15266,7 +15272,8 @@
       "source_ids": [
         "mining-ibm-march2025",
         "mining-cag-dmf2026",
-        "mining-ibm-yearbook2024"
+        "mining-ibm-yearbook2024",
+        "mining-imfa-ar2026"
       ],
       "added_at": "2026-10-01T19:12:14.031317+00:00"
     },
@@ -18219,6 +18226,228 @@
         "handloom-gi-list-2026"
       ],
       "added_at": "2026-10-02T13:48:24.585819+00:00"
+    },
+    {
+      "id": "sources/mining-sail-ar2026",
+      "title": "SAIL Annual Report 2025–26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-sail-ar2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-sail-ar2026"
+      ],
+      "added_at": "2026-10-02T14:47:52.786173+00:00"
+    },
+    {
+      "id": "sources/mining-rsp-ec-march2026",
+      "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-rsp-ec-march2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-rsp-ec-march2026"
+      ],
+      "added_at": "2026-10-02T14:47:52.786173+00:00"
+    },
+    {
+      "id": "sources/mining-btk-pfr2021",
+      "title": "Barsua–Taldih–Kalta expansion pre-feasibility report, June 2021",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-btk-pfr2021.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-btk-pfr2021"
+      ],
+      "added_at": "2026-10-02T14:47:52.786173+00:00"
+    },
+    {
+      "id": "economy/rourkela-steel-chain",
+      "title": "Rourkela: ore, steel and the evidence for work",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/rourkela-steel-chain.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "places",
+        "everyday",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-sail-ar2026",
+        "mining-rsp-ec-march2026",
+        "mining-btk-pfr2021",
+        "mining-rsp-parliament-2015"
+      ],
+      "added_at": "2026-10-02T14:47:52.786173+00:00"
+    },
+    {
+      "id": "stories/minerals-and-local-suppliers",
+      "title": "Beyond the metal: Odisha’s small suppliers",
+      "kind": "Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/minerals-and-local-suppliers.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "everyday"
+      ],
+      "source_ids": [
+        "mining-nalco-ar2026"
+      ],
+      "added_at": "2026-10-02T14:47:52.786173+00:00"
+    },
+    {
+      "id": "sources/mining-imfa-ar2026",
+      "title": "IMFA Annual Report 2025–26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-imfa-ar2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-imfa-ar2026"
+      ],
+      "added_at": "2026-10-02T15:50:42.674333+00:00"
+    },
+    {
+      "id": "stories/odisha-ferrochrome-markets",
+      "title": "Odisha’s ferrochrome reaches industrial markets abroad",
+      "kind": "Story Draft",
+      "layer": "research_concept",
+      "source_path": "stories/odisha-ferrochrome-markets.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "mining-imfa-ar2026"
+      ],
+      "added_at": "2026-10-02T15:50:42.674333+00:00"
+    },
+    {
+      "id": "sources/mining-imfa-choudwar-2026",
+      "title": "Environmental statement of High Carbon Ferro Chrome/Charge Chrome Plant, Unit-II (2X30) MVA Furnace for FY 2025-26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-imfa-choudwar-2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-imfa-choudwar-2026"
+      ],
+      "added_at": "2026-10-02T16:49:35.236954+00:00"
+    },
+    {
+      "id": "sources/mining-imfa-sukinda-2026",
+      "title": "Evaluation Template for Star Rating of Sukinda Mines (Chromite) Mining Leases for FY-2025-26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-imfa-sukinda-2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-imfa-sukinda-2026"
+      ],
+      "added_at": "2026-10-02T16:49:35.236954+00:00"
+    },
+    {
+      "id": "sources/mining-imfa-mahagiri-2026",
+      "title": "Evaluation Template for Star Rating of Mahagiri Mines (Chromite) Mining Leases for FY-2025-26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-imfa-mahagiri-2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-imfa-mahagiri-2026"
+      ],
+      "added_at": "2026-10-02T16:49:35.236954+00:00"
+    },
+    {
+      "id": "sources/mining-imfa-knr2-2026",
+      "title": "Environmental Clearance for the Ferro Alloy Plant (Submerged Arc Furnace 4x16.5 MVA) at Kanchrigaon & Chandia, Tehsil Sukinda, District Jajpur, Odisha, from M/s. Tata Steel Ltd to M/s. Indian Metals & Ferro Alloys Limited (IMFA)",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-imfa-knr2-2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-imfa-knr2-2026"
+      ],
+      "added_at": "2026-10-02T16:49:35.236954+00:00"
+    },
+    {
+      "id": "sources/mining-rsp-parliament-2015",
+      "title": "SAIL plant manpower and contract workers: Rajya Sabha answer 1184, 6 May 2015",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-rsp-parliament-2015.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance",
+        "history"
+      ],
+      "source_ids": [
+        "mining-rsp-parliament-2015"
+      ],
+      "added_at": "2026-10-02T17:52:03.569038+00:00"
     }
   ],
   "shared_publications": [
@@ -19361,7 +19590,22 @@
         "economy/bauxite-to-aluminium.md",
         "economy/bauxite-mine-identities.md",
         "sources/mining-baphlimali-g1-2025.md",
-        "sources/mining-baphlimali-ec-sep2025.md"
+        "sources/mining-baphlimali-ec-sep2025.md",
+        "sources/mining-sail-ar2026.md",
+        "sources/mining-rsp-ec-march2026.md",
+        "sources/mining-btk-pfr2021.md",
+        "economy/rourkela-steel-chain.md",
+        "stories/minerals-and-local-suppliers.md",
+        "sources/business-imfa-history.md",
+        "sources/mining-imfa-ar2026.md",
+        "stories/odisha-ferrochrome-markets.md",
+        "economy/company-imfa.md",
+        "sources/mining-imfa-choudwar-2026.md",
+        "sources/mining-imfa-sukinda-2026.md",
+        "sources/mining-imfa-mahagiri-2026.md",
+        "sources/mining-imfa-knr2-2026.md",
+        "sources/mining-rsp-parliament-2015.md",
+        "sources/mining-nalco-ar2026.md"
       ],
       "project_records": [],
       "remaining_scope": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
@@ -19594,8 +19838,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1222,
-    "updated_at": "2026-10-02T13:48:24.585819+00:00",
+    "records_mapped": 1234,
+    "updated_at": "2026-10-02T17:52:03.569038+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20146,6 +20390,26 @@
       "run_id": "2026-10-02-handloom-cooperatives",
       "at": "2026-10-02T13:48:24.585819+00:00",
       "scope": "Two primary PDF records extend existing six traditions and shared creator records. Canonical URL/hash avoids multiplying GI versions; this is no claim of exhaustive deduplication."
+    },
+    {
+      "run_id": "2026-10-02-mining-steel",
+      "at": "2026-10-02T14:47:52.786173+00:00",
+      "scope": "Three source records and two new synthesis/story identities; NALCO source reused, no duplicate publisher corroboration."
+    },
+    {
+      "run_id": "2026-10-02-chromite-chain",
+      "at": "2026-10-02T15:50:42.674333+00:00",
+      "scope": "Existing company and founder identities reused; one original annual-report identity and one trade story added."
+    },
+    {
+      "run_id": "2026-10-02-mining-plant-records",
+      "at": "2026-10-02T16:49:35.236954+00:00",
+      "scope": "Four distinct original plant/mine records; same company family, not independent corroboration. Existing company identity enhanced."
+    },
+    {
+      "run_id": "2026-10-02-mining-employment",
+      "at": "2026-10-02T17:52:03.569038+00:00",
+      "scope": "One new historical parliamentary source enhances existing Rourkela identity. NALCO apprenticeship reuses original annual report; no duplicate workforce series."
     },
     {
       "run_id": "2026-10-01-woven-stories",

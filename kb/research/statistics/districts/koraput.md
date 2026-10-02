@@ -48,3 +48,7 @@ IBM’s2023–24 bauxite producer table places NALCO and OMC mine locations in K
 ## Bauxite-site checkpoint · 1 October 2026
 
 [Kodingamali](../../economy/bauxite-mine-identities.md) adds five annual ROM observations. The IBM district register is not a complete mine-boundary map.
+
+## Connected industrial evidence
+
+[NALCO’s Odisha-based supplier purchases](../../stories/minerals-and-local-suppliers.md) add a state-level enterprise connection. They are not allocated to this district.

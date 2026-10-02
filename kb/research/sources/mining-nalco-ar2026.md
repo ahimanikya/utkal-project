@@ -18,3 +18,11 @@ Scope checked: Selected Directors’ Report, BRSR and five-year tables; printed 
 Method: downloaded_pdf_extract_and_visual_table_check. Original report tables were checked where noted; all statements remain publisher-reported. NALCO report and operating webpage share corporate provenance. The developer page supports contractual identity but retains an older target. No current permit, independent livelihood impact or completed expansion is certified.
 
 [Connected case](../economy/bauxite-to-aluminium.md).
+
+## Scope extension · 2 October 2026
+
+The saved original was reused to inspect printed p.56 / PDF p.76, section 19(a), including a visual check. Odisha-based and all-location MSE purchases were captured separately. No new source or independent verification event is implied by reading another page of the same report.
+
+## Additional inspected scope ·2October2026
+
+Printed p.49 / PDF p.69, section9.2 visually checked:925 apprentice trainees engaged duringFY2025–26. Retain company/annual scope; no placement outcome or unit allocation. Same saved publication, no fresh independent verification. [Context](../economy/bauxite-to-aluminium.md).

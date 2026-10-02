@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `52666a423fab8a141159c3d04af59cfd5c5b6b9ab6548d12dfa58a365351ecb7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8df1b361b7ae6afdd43ae17a5a75d5a6e563a74c059b6b0318f9cff7c9316011`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -156,6 +156,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-141 · Coastal visitor flow, keyboard and image polish | completed | published | Ahimanikya Satapathy | Approved implementation published and six live guides verified. Wider device, screen-reader and local-arrangement reviews remain scoped follow-ups. | — |
 | UTP-WORK-142 · Cultural reading-flow review and maker cover refinement | completed | published | Ahimanikya Satapathy | Approved implementation published and ten live pages verified. Wider visual, physical-device, screen-reader and specialist reviews remain scoped follow-ups. | — |
 | UTP-WORK-143 · Consolidate research and complete the site-wide browser review programme | completed | published | Ahimanikya Satapathy | Batch merged and published; 500 bounded review/integration items recorded. Continue newer research PR 60 and physical-device, screen-reader, specialist and Search Console follow-ups. | — |
+| UTP-WORK-144 · Integrate mining and manufacturing research from PR 60 | in_progress | applied | Ahimanikya Satapathy | Run GitHub checks and merge the reconciled candidate under the current authorization. Keep RES-052 evidence gaps open. | — |
 
 ## Pending human review and decisions
 
@@ -377,6 +378,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-157 · Prepare the next bounded cultural reading-flow review | approved | Ahimanikya Satapathy | Continue the website backlog with a bounded visual review and implementation candidate. Publication remains separately gated. |
 | UTP-DEC-158 · Publish the approved cultural reading-flow refinements | approved | Ahimanikya Satapathy | Merge and publish PR #59 at reviewed head 43ea19d224ebc98702924b19f3145c843ee3031d. Preserve the 122-page edition, eleven-route search scope and held commercial pages. |
 | UTP-DEC-159 · Autonomous implementation and publication of the next 500 bounded work and review items | approved | Ahimanikya Satapathy | Implement, test, merge and publish the next bounded batch without repeated routine permission requests. Existing held commercial scope and source qualifications remain intact; no human authority or specialist approval is delegated to AI. |
+| UTP-DEC-160 · Integrate PR 60 mining and manufacturing research | approved | Ahimanikya Satapathy | Review, reconcile, validate and merge the proposed mining/manufacturing research integration. Preserve draft/source limitations; no new website publication in this research-only scope. |
 
 ## Reviews
 
@@ -501,6 +503,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-119 | pass_with_limitations | False | Browser checks use emulated viewport sizes, not physical devices or a screen reader. No new native PDF pagination check was performed.; Six destination pages received the responsive audit; two other notebook pages received shared-component and media smoke checks. The wider 122-page visual review remains open.; Photographs and source claims were reused, not newly field-verified. Current transport, access, meals, workshop and accommodation arrangements remain unconfirmed.; The browser download-event waiter timed out; the UI-triggered files were nevertheless present in Downloads and their exact bytes/content were checked.; The Search Console sitemap-processing issue remains open and was not changed by this visitor-flow batch.; Publication requires a separate Founder decision. Store and other held routes remain excluded; the eleven-route search scope is unchanged. |
 | UTP-REV-120 | pass_with_limitations | False | Six principal routes received responsive checks; four additional maker pages received mobile smoke checks. The wider 122-page visual review remains open.; Emulated browser widths and keyboard checks are not physical-device or screen-reader review.; Existing photographs and claims were reused. Local language, maker and specialist review remain open.; The Search Console sitemap-processing issue remains open. This batch does not change crawl policy or indexing scope.; Publication requires a separate Founder approval of this candidate. |
 | UTP-REV-121 | pass_with_limitations | False | This is 488 browser review cases plus 12 integration/delivery work items, not 500 new features or 500 independently verified articles.; The browser cases check layout overflow and DOM semantics; they are not a complete visual, keyboard, screen-reader or physical-device accessibility certification.; Research was consolidated with original qualifications. Unread sources, contradictory accounts, language review and current local arrangements remain open.; Search Console processing is not established by successful live HTTP checks. Store and held commercial pages remain excluded. |
+| UTP-REV-122 | pass_with_limitations | False | Source attributions and existing research qualifications reviewed; this is not an independent rereading of all original PDFs or human specialist sign-off.; RES-052 remains in progress with a 9 October evidence follow-up. Current employment, local supplier and mine-to-plant allocation gaps remain.; Research integration does not add public website pages or deploy a website change. |
 
 ## Publication and application history
 
@@ -592,7 +595,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-176 | 2026-10-02T04:31:29.481419+00:00 | Founder reports persistent sitemap failure. All four DNS-published addresses return identical valid sitemap and crawl-allowing robots responses. Recorded homepage indexed screenshot with historical robots warning. Cached rules are a hypothesis, not an established cause; no speculative code or DNS changes applied. | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
 | UTP-EVT-177 | 2026-10-02T04:58:15.128694+00:00 | Prepared 24 practical choices within six existing visit notebooks, with scoped official-source leads and portable-book links. Checks pending; no local verification or publication claimed. | Validate candidate and submit for Founder review. |
 | UTP-EVT-178 | 2026-10-02T05:01:57.235311+00:00 | 382 site tests, 75 coastal tests and 488 page-acceptance checks passed. Fixed a held Konark stay link; six practical guides and safe reading links survive portable export. 122-page edition and 11-route search scope preserved. Browser visual and local operating checks remain open. | Submit candidate PR for Founder review. |
 | UTP-EVT-179 | 2026-10-02T05:21:50.119187+00:00 | Founder approved PR #51. Merged exact validated head, deployed successfully and verified all 24 choices across six live guides. Eleven sitemap routes, crawler policy and ownership response remain intact. | Retain scoped local, visual and Google processing follow-ups; this delivery is complete. |
@@ -602,6 +604,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-183 | 2026-10-02T14:33:37.057142+00:00 | Founder approved PR #59. Exact reviewed revision merged and deployed successfully. Live HTTP checks confirm ten cultural pages, new maker headings/subtitles and category trails, deployed styles, eleven sitemap routes and ownership response. | Continue separately scoped wider visual and human review; Search Console processing remains open. |
 | UTP-EVT-184 | 2026-10-02T14:53:29.177795+00:00 | Founder authorized autonomous completion. Integrated 46 research commits locally while preserving later website and recovered-source records. Completed 366 responsive and 122 page-structure browser cases. Twelve integration/delivery items are tracked separately from the checks. | Finish validation and publication. |
 | UTP-EVT-185 | 2026-10-02T15:09:51.214433+00:00 | Authorized batch delivered through PR 61 and successful Pages deployment. Recorded 488 browser review cases and twelve integration/delivery items separately. Preserved source recoveries, integrated 206 additional research entries and reconciled seven redundant research PRs. All 125 live file checks and responsive image checks pass. | Continue the newer research stack and remaining human/source/Google follow-ups. |
+| UTP-EVT-186 | 2026-10-02T18:23:08.583818+00:00 | Pinned four PR 60 commits; reconciled newer main records, held the dependent IMFA total, and validated source/observation preservation. No website change. | Complete remote CI and merge. |
 
 ## Deferred extensions
 

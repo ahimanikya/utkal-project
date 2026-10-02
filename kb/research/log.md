@@ -396,3 +396,19 @@ RES-012: full IGNCA-hosted Ghose2017 report recovered; IHB sheets deepen techniq
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 Recovered original Odisha weaver directory and September2026 departmental GI list. Added five cooperative routes, six registration-organization mappings, three credited creation examples and two women maker credits. Berhampuri construction documented; Panika award-year and Habaspuri formation conflicts held. No website publication.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+RES-052: three SAIL original documents captured; Rourkela output/PBT and NALCO MSE purchases add seven observations and three calculations. Health checks and proposed expansion remain separate from employment outcomes. Supplier story prepared; no website release.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+RES-052: original IMFA 2025–26 report captured with public API discovery route. Added 21 scoped observations and five comparisons, including falling international sales and Sukinda output. Chain established at company level; task remains in progress. No website release.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+RES-052: four original documents; 11 observations added (seven held). Sukinda annual-report output flagged and dependent comparison quarantined with history. September KNR2 transfer limited to implemented furnaces; mine self-assessments not treated as independent audits. No website release.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+RES-052: four historical Rourkela employment observations and one NALCO annual apprenticeship observation added. Current plant jobs remain unresolved; original NALCO parliamentary PDF unavailable. Retry9October, next independent task RES-053. No website release.

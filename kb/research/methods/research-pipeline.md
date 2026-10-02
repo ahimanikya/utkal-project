@@ -215,3 +215,19 @@ RES-012 remains in progress after technique/awardee checkpoint. Next: cooperativ
 ## Handloom cooperatives and creations · 2 October 2026 UTC
 
 RES-012 checkpoint saved with 9 October retry for remaining financial/original-document gaps. Earliest eligible independent pending task is RES-052. No further same-source handloom discovery needed before the dated retry.
+
+## Mining-to-manufacturing checkpoint · 2 October 2026 UTC
+
+Resume RES-052 next with chromite-to-ferrochrome, using saved IMFA history before original annual-report research. Rourkela/NALCO checkpoint is useful but three-chain employment/supplier completion criteria remain unmet.
+
+## Chromite chain checkpoint · 2 October 2026 UTC
+
+Use IMFA statutory-compliance listings for Therubali, Choudwar, Kalinganagar and mine-level employment/output; seek plant payroll/contract and Odisha supplier evidence. Reuse mining-imfa-ar2026 before fetching; no repeat of annual report. Then RSP plant employment and NALCO plant-local gaps. Keep completed acquisition separate from post-report commissioning checks.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Continue independent RES-052 Rourkela and NALCO plant-workforce evidence using saved annual/compliance reports before browsing. IMFA mine reconciliation subtask retries 9 October; exact gap: Sukinda annual273802 versus template269075 tonnes, Mahagiri general versus ROM and local workforce subtotals. Use original returns/corrections if available; do not repeat the four saved plant/mine documents or promote held values.
+
+## Industrial employment checkpoint ·2October2026 UTC
+
+RES-052 checkpoint deferred to9October. Seek original current unit workforce returns and historical NALCO question711 (28November2011) via Parliament archive; old route returned HTML. Reuse saved2015 RSP answer and NALCO apprenticeship passage. Next independent task RES-053 mining revenues and DMF outcomes; search existing public-finance/DMF observations before browsing.

@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-02T18:23:08.583818+00:00",
+  "status": "validated_candidate",
+  "authorization": "UTP-DEC-160",
+  "authorization_quote": "Go ahead",
+  "context": "User authorized proceeding with the explicitly proposed PR 60 mining/manufacturing integration after approving the previous batch.",
+  "human_owner": "Ahimanikya Satapathy",
+  "source_pr": "https://github.com/ahimanikya/utkal-project/pull/60",
+  "pinned_source_head": "fafd7ebbeb480f6ae79bf4a3a2e7702b9feb096d",
+  "base_main": "dd8a59b1f225586431d0e155d2083dbd9fb4dbe9",
+  "counts": {
+    "research_commits": 4,
+    "new_research_entries": 12,
+    "research_entries_total": 1065,
+    "new_sources": 9,
+    "new_observations": 44,
+    "held_new_observations": 9
+  },
+  "findings": [
+    "The combined IMFA ore total depended on the held Sukinda component but lacked a matching hold; now held with value and prior status preserved.",
+    "Merge reconciliation retained both mining research and later published site history. Three pre-existing task reuse pointers were restored in the research map from the canonical queue."
+  ],
+  "validation": {
+    "research_validators": "all 12 passed after map reconciliation",
+    "workbench": "passed",
+    "catalogue": "passed",
+    "bundle": "passed",
+    "focused_preservation_and_scope": "passed",
+    "github_ci": "pending"
+  },
+  "limitations": [
+    "Source attributions and existing research qualifications reviewed; this is not an independent rereading of all original PDFs or human specialist sign-off.",
+    "RES-052 remains in progress with a 9 October evidence follow-up. Current employment, local supplier and mine-to-plant allocation gaps remain.",
+    "Research integration does not add public website pages or deploy a website change."
+  ],
+  "evidence": [
+    "records/evidence/mining-integration/validation.json",
+    "records/evidence/mining-integration/map-after-reconciliation.log",
+    "records/evidence/mining-integration/focused-review.json"
+  ]
+}

@@ -39,3 +39,7 @@ IBM’s2023–24 bauxite producer table places Utkal Alumina mine location in Ra
 ## Baphlimali returns · 2 October2026 UTC
 
 [Baphlimali follow-up](../../economy/bauxite-mine-identities.md) supplies mine-level output and work-day evidence. District allocation and residents’ employment remain unverified.
+
+## Connected ferrochrome research
+
+[IMFA’s chain](../../economy/company-imfa.md) connects Odisha mining and processing places. Entity-wide sales, employment and supplier totals are not assigned to this district. Named mine output retains its site boundary.

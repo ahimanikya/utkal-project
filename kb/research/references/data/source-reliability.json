@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T13:48:24.585819+00:00",
+  "updated_at": "2026-10-02T17:52:03.569038+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5963,6 +5963,125 @@
       "run_id": "2026-10-02-handloom-cooperatives",
       "status": "available_after_fallback",
       "scope": "Web fetch502; direct publisher download succeeded. PDF heading1September2026 differs from stale search version and104GI filename; use actual captured rows/hash."
+    },
+    {
+      "discovery_url": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available",
+      "scope": "Full original downloaded; selected plant-performance, company-workforce and location sections reviewed. RSP PBT is a plant/unit accounting result; SAIL workforce and MSE figures are company-wide, not Odisha totals. Company best-ever narrative is not a substitute for metric-specific output history."
+    },
+    {
+      "discovery_url": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available",
+      "scope": "Company compliance statement, not a regulator audit. Carbon-budget row combines historical and future target values: only FY2023–24 to FY2025–26 historical columns captured as reported. Units printed MTPA; annual historical quantities shown as million tonnes in derived display. Health-check table is not payroll/headcount; tree survival is an assumption, not a census."
+    },
+    {
+      "discovery_url": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available",
+      "scope": "Applicant-authored proposed expansion. Existing Barsua rail connection to Rourkela is described in p.28; future capacities, costs and additional jobs are proposals. No current shipment quantity, expansion commissioning or contemporary workforce verified."
+    },
+    {
+      "discovery_url": "https://www.sail.co.in/en/investors-relation/annual-reports",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available_after_fallback",
+      "scope": "Web timeout; direct HTML succeeded and supplied report link."
+    },
+    {
+      "discovery_url": "https://www.sail.co.in/index.php/en/plants/about-rourkela-steel-plant",
+      "checked_at": "2026-10-02T14:47:52.786173+00:00",
+      "run_id": "2026-10-02-mining-steel",
+      "status": "available_after_fallback",
+      "scope": "Web timeout; direct HTML succeeded. Used as original compliance-document entrance."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf",
+      "checked_at": "2026-10-02T15:50:42.674333+00:00",
+      "run_id": "2026-10-02-chromite-chain",
+      "status": "available",
+      "scope": "Downloaded original, selected pages read and three table spreads visually checked."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/investors/reports-library?uid=AnnualReports",
+      "checked_at": "2026-10-02T15:50:42.674333+00:00",
+      "run_id": "2026-10-02-chromite-chain",
+      "status": "available_after_fallback",
+      "scope": "Plain text omitted report list; direct HTML and public read-only API recovered original report. Initial sandbox DNS failed; permitted network retry succeeded."
+    },
+    {
+      "discovery_url": "https://imfa-website.vercel.app/investors",
+      "checked_at": "2026-10-02T15:50:42.674333+00:00",
+      "run_id": "2026-10-02-chromite-chain",
+      "status": "unavailable",
+      "scope": "Web fetch timeout; no factual claims taken from this mirror."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/EnvironmentalStatementUnitII202526.pdf/Environmental_Statement_Unit_II_202526_4e5b4b9277.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Company Form V for Unit-II only, not all Choudwar operations. Capacity and input/output ratios are not annual output or employment."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/SukindaMinesStarRating202526.pdf/Sukinda_Mines_Star_Rating202526_907f7142d9.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Lessee-submitted evaluation template; not an awarded star rating or independent audit. Workforce category denominators unclear; general/ROM output conflicts with annual report."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/MahagiriMinesStarRating202526.pdf/Mahagiri_Mines_Star_Rating202526_e5c85f9972.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Lessee-submitted evaluation template; not an awarded star rating. Local-workforce subtotal conflicts internally; general output and underground ROM rows differ."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/IA_OR_IND1_04092026.pdf/IA_OR_IND_1_04092026_a1432f31b5.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Ministry clearance-transfer letter hosted by company; original government portal copy not independently fetched. Transfer covers implemented 4x16.5 MVA only; no expansion commissioning inferred."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/investors/statutory-compliances",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available_after_fallback",
+      "scope": "Plain-text web page returned no results; public read-only catalogue API yielded records. Three scans needed local OCR; sandbox OCR failed, permitted local retry succeeded. Failed extraction is not unchanged data."
+    },
+    {
+      "discovery_url": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "available_after_fallback",
+      "scope": "Web reader502; direct original download recovered two-page PDF. Page2 visually checked; published6May2015, snapshot1April2015."
+    },
+    {
+      "discovery_url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "reused_saved_capture",
+      "scope": "Existing report searched first; p.49 apprentice annual engagement inspected. Plant payroll split still missing; no new whole-company workforce observations duplicated."
+    },
+    {
+      "discovery_url": "https://rsdebate.nic.in/bitstream/123456789/600115/2/PQ_224_28112011_U711_p234_p235.pdf",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "unavailable",
+      "scope": "Web fetch timed out; direct request returned Parliament HTML rather than PDF. Indexed2011 unit-contract numbers not imported. Retry9October2026 via original question archive."
+    },
+    {
+      "discovery_url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=69688",
+      "checked_at": "2026-10-02T17:52:03.569038+00:00",
+      "run_id": "2026-10-02-mining-employment",
+      "status": "unavailable",
+      "scope": "Web reader cache miss; search snippet only.2010 headcount not imported."
     }
   ]
 }

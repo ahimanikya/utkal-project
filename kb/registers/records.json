@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-02T15:09:51.214433+00:00",
+  "recorded_at": "2026-10-02T18:23:08.583818+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4189,6 +4189,28 @@
         "records/autonomous-site-quality.json",
         "records/autonomous-site-quality-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-144",
+      "title": "Integrate mining and manufacturing research from PR 60",
+      "category": "research_integration",
+      "status": "in_progress",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-160",
+      "next_action": "Run GitHub checks and merge the reconciled candidate under the current authorization. Keep RES-052 evidence gaps open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-160",
+        "UTP-REV-122"
+      ],
+      "evidence": [
+        "records/mining-integration-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -7381,6 +7403,25 @@
       "evidence": [
         "records/autonomous-site-quality.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-160",
+      "title": "Integrate PR 60 mining and manufacturing research",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Go ahead",
+      "scope": "Review, reconcile, validate and merge the proposed mining/manufacturing research integration. Preserve draft/source limitations; no new website publication in this research-only scope.",
+      "recorded_at": "2026-10-02T18:23:08.583818+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-144"
+      ],
+      "evidence": [
+        "records/mining-integration-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -10278,6 +10319,28 @@
         "records/evidence/autonomous-site-quality/site-validation.json",
         "records/evidence/autonomous-site-quality/knowledge-validation.json",
         "records/evidence/autonomous-site-quality/research-validation.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-122",
+      "title": "Mining integration and evidence-boundary self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Source attributions and existing research qualifications reviewed; this is not an independent rereading of all original PDFs or human specialist sign-off.",
+        "RES-052 remains in progress with a 9 October evidence follow-up. Current employment, local supplier and mine-to-plant allocation gaps remain.",
+        "Research integration does not add public website pages or deploy a website change."
+      ],
+      "refs": [
+        "UTP-DEC-160",
+        "UTP-WORK-144"
+      ],
+      "evidence": [
+        "records/mining-integration-review.json"
       ]
     }
   ],
