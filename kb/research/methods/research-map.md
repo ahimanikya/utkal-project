@@ -373,3 +373,7 @@ Four original source identities extend existing IMFA record; annual-report obser
 ## Industrial employment checkpoint ·2October2026 UTC
 
 One original parliamentary answer extends existing Rourkela record; NALCO apprenticeship is reused source scope. No independent corroboration or duplicate company identities claimed.
+
+## Employment and supplier follow-up · 2 October 2026
+
+The Founder selected this follow-up before the previous retry date. Existing company workforce IDs were reused. New source-scoped supplier disclosures and refinery/smelter work volumes strengthen RES-052; they do not resolve current plant headcount. RSP social-account claims await underlying returns and community corroboration. [Evidence and next questions](../references/data/mining-programme.json). No public story publication is claimed.

@@ -18448,6 +18448,60 @@
         "mining-rsp-parliament-2015"
       ],
       "added_at": "2026-10-02T17:52:03.569038+00:00"
+    },
+    {
+      "id": "sources/mining-nalco-sd2025",
+      "title": "NALCO 14th Sustainable Development Report 2024–25",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-nalco-sd2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-nalco-sd2025"
+      ],
+      "added_at": "2026-10-02T19:07:56.044516+00:00"
+    },
+    {
+      "id": "sources/mining-rsp-subplac2026",
+      "title": "Rourkela Steel Plant: 58th Sub-PLAC meeting and local purchase orders",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-rsp-subplac2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-rsp-subplac2026"
+      ],
+      "added_at": "2026-10-02T19:07:56.044516+00:00"
+    },
+    {
+      "id": "sources/mining-rsp-relocation2026",
+      "title": "Rourkela Steel Plant: relocation and contractual placements update",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-rsp-relocation2026.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-rsp-relocation2026"
+      ],
+      "added_at": "2026-10-02T19:07:56.044516+00:00"
     }
   ],
   "shared_publications": [
@@ -19605,7 +19659,10 @@
         "sources/mining-imfa-mahagiri-2026.md",
         "sources/mining-imfa-knr2-2026.md",
         "sources/mining-rsp-parliament-2015.md",
-        "sources/mining-nalco-ar2026.md"
+        "sources/mining-nalco-ar2026.md",
+        "sources/mining-nalco-sd2025.md",
+        "sources/mining-rsp-subplac2026.md",
+        "sources/mining-rsp-relocation2026.md"
       ],
       "project_records": [],
       "remaining_scope": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
@@ -19838,8 +19895,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1234,
-    "updated_at": "2026-10-02T17:52:03.569038+00:00",
+    "records_mapped": 1237,
+    "updated_at": "2026-10-02T19:07:56.044516+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20418,6 +20475,10 @@
     {
       "run_id": "2026-10-01-tasar-story",
       "scope": "Existing tussar-centres identity extended with material context, cluster-level Gopalpur disambiguation and three documentary images. Reader story added to existing textile collection; no full RES-012 completion or current maker/product verification claimed."
+    },
+    {
+      "run_id": "2026-10-02-employment-suppliers",
+      "scope": "Existing mining/steel/aluminium/supplier records extended; three source identities, nine observations. Reused existing NALCO workforce IDs; company family and uncorroborated social posts explicit."
     }
   ]
 }

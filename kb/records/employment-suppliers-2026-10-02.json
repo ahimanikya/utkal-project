@@ -1,0 +1,89 @@
+{
+  "run_id": "2026-10-02-employment-suppliers",
+  "at": "2026-10-02T19:07:56.044516+00:00",
+  "new_source_ids": [
+    "mining-nalco-sd2025",
+    "mining-rsp-subplac2026",
+    "mining-rsp-relocation2026"
+  ],
+  "reused_source_ids": [
+    "mining-nalco-ar2026",
+    "mining-rsp-parliament-2015",
+    "mining-rsp-ec-march2026"
+  ],
+  "observation_ids": [
+    "rsp-odisha-lssi-orders-1984-85",
+    "rsp-odisha-lssi-orders-2025-26",
+    "rsp-relocation-contract-placements-jun2026",
+    "nalco-odisha-mse-procurement-2024-25",
+    "nalco-all-mse-procurement-2024-25",
+    "nalco-refinery-employees-workdays-2024-25",
+    "nalco-refinery-contractors-workdays-2024-25",
+    "nalco-smelter-employees-workdays-2024-25",
+    "nalco-smelter-contractors-workdays-2024-25"
+  ],
+  "reused_observation_ids": [
+    "nalco-chain-non-permanent-workers",
+    "nalco-chain-manpower",
+    "nalco-odisha-mse-procurement-2025-26",
+    "nalco-all-mse-procurement-2025-26"
+  ],
+  "completion_criteria_met": false,
+  "human_review_claimed": false,
+  "scope": "Supplier disclosures and FY2024–25 unit work volume. Current plant headcount and unique-person definition remain missing. Social-account claims require stronger documentary evidence.",
+  "next_evidence": [
+    "RSP and NALCO payroll/contractor aggregate snapshots by named unit, date and deduplication definition; no personal payroll requested.",
+    "RSP FY2025–26 order/paid-invoice reconciliation, Odisha supplier definition and unit-wise list.",
+    "NALCO supplier purchases split by receiving plant, with Odisha location definition and comparable prior-year basis.",
+    "Relocation placement cohort tenure, wages and retention, plus independent resident evidence."
+  ],
+  "retrieval_notes": [
+    "Web PDF reads returned 502/timeout; system curl retrieved NALCO originals after Python certificate-store failures.",
+    "SAIL 2025 handbook downloaded but image-based text extraction yielded no workforce table; not treated as evidence.",
+    "General searches found company totals and recruitment/tender notices; these did not resolve current unit workforce.",
+    "No outreach messages sent; no private employee records collected."
+  ],
+  "status": "research_candidate",
+  "authorization_quote": "Let's pick that",
+  "human_owner": "Ahimanikya Satapathy",
+  "local_odia_review": "pending",
+  "website_publication": false,
+  "new_observations": 9,
+  "new_research_entries": 3,
+  "validation": {
+    "research_validators": "12 passed",
+    "editorial_workbench": "passed",
+    "catalogue": "passed",
+    "bundle": "passed",
+    "diff": "passed",
+    "remote_ci": "pending"
+  },
+  "source_captures": [
+    {
+      "source_id": "mining-nalco-sd2025",
+      "resource": "https://nalcoindia.com/wp-content/uploads/2026/03/NALCO-SD-Report-2025-Final.pdf",
+      "sha256": "e1eceb1cdacb8aa9637a8bdec5d8173c969985bfa20df07b0a94388fb600e1f9",
+      "locator": "Printed pp.41,78–80 / PDF pp.43,80–82; pp.41 and79 visually checked"
+    },
+    {
+      "source_id": "mining-rsp-subplac2026",
+      "resource": "https://www.linkedin.com/posts/sail-rourkela-steel-plant-rsp_58th-sub-plac-meeting-at-sail-rourkela-steel-activity-7483134001054904321-2g9a",
+      "sha256": null,
+      "locator": "Post narrative describing 14 July 2026 meeting; Odisha-based LSSI purchase-order paragraph"
+    },
+    {
+      "source_id": "mining-rsp-relocation2026",
+      "resource": "https://www.linkedin.com/posts/sail-rourkela-steel-plant-rsp_rourkela-steel-plant-disburses-more-than-activity-7467924117074202624-wEdn",
+      "sha256": null,
+      "locator": "Post paragraphs headed relocation compensation; June 2026 narrative"
+    }
+  ],
+  "preservation_check": {
+    "previous_observations": 897,
+    "all_prior_values_retained": true,
+    "prior_holds_retained": true,
+    "all_previous_fields_retained": true,
+    "only_existing_observation_extension": "scope_reviews on nalco-chain-non-permanent-workers",
+    "all_prior_holds_retained": true
+  }
+}

@@ -4,7 +4,7 @@ title: "From Koraput’s bauxite to Angul’s aluminium"
 description: "From Koraput’s bauxite to Angul’s aluminium — source-linked evidence and limitations."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T23:35:36.358411+00:00"}
-sources: [{"id": "mining-nalco-ar2026", "title": "NALCO 45th Annual Report 2025–26", "resource": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf"}, {"id": "mining-nalco-refinery", "title": "NALCO Alumina Refinery: operations and transport", "resource": "https://nalcoindia.com/business/operation/alumina-refinery/"}, {"id": "mining-dbl-pottangi", "title": "Pottangi Bauxite Mine: developer project record", "resource": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/"}]
+sources: [{"id": "mining-nalco-ar2026", "title": "NALCO 45th Annual Report 2025–26", "resource": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf"}, {"id": "mining-nalco-refinery", "title": "NALCO Alumina Refinery: operations and transport", "resource": "https://nalcoindia.com/business/operation/alumina-refinery/"}, {"id": "mining-dbl-pottangi", "title": "Pottangi Bauxite Mine: developer project record", "resource": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/"}, {"id": "mining-nalco-sd2025", "title": "NALCO 14th Sustainable Development Report 2024–25", "resource": "https://nalcoindia.com/wp-content/uploads/2026/03/NALCO-SD-Report-2025-Final.pdf"}]
 human_review_claimed: false
 subjects: ["economy", "places", "everyday", "governance"]
 ---
@@ -62,3 +62,16 @@ This extends the inspected scope of the same original report; it is not independ
 NALCO reports **925 apprentice trainees engaged during 2025–26**, up to 31 March 2026. This is a company-wide annual engagement figure, not the number appointed to permanent jobs, a placement result, or an Odisha-only count. The report does not allocate it between Damanjodi, Angul and other locations. [Same saved annual report, printed p.49 / PDF p.69, section9.2](https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf).
 
 This reading extends the existing source; it does not add independent corroboration. The report’s 9,284 employee-training figure also must not replace the 4,864 on-roll workforce: annual training participation and payroll headcount measure different things. Current unit-level payroll and contractor counts remain open.
+
+## Work volume gives a plant view, not a headcount
+
+NALCO’s FY2024–25 injury-statistics table reports these working-day volumes:
+
+| Unit | Employee man-days | Contractor labour man-days |
+|---|---:|---:|
+| Alumina refinery, Damanjodi | 376,561 | 1,854,408 |
+| Aluminium smelter, Angul | 489,800 | 1,308,875 |
+
+Employee rows include executives and non-executives. Do not divide by an assumed working year to invent a count of people. [Report, printed p.79](../sources/mining-nalco-sd2025.md).
+
+The existing **16,722** company-wide non-permanent-worker observation is reused. The annual report’s BRSR calls its table year-end details, while printed p.49 describes the same number as contractor workers engaged during March 2026. Neither passage supplies a plant split or unique-person method. Current unit payroll and local-resident shares remain missing.

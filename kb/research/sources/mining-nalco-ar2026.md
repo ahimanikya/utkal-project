@@ -26,3 +26,7 @@ The saved original was reused to inspect printed p.56 / PDF p.76, section 19(a),
 ## Additional inspected scope ·2October2026
 
 Printed p.49 / PDF p.69, section9.2 visually checked:925 apprentice trainees engaged duringFY2025–26. Retain company/annual scope; no placement outcome or unit allocation. Same saved publication, no fresh independent verification. [Context](../economy/bauxite-to-aluminium.md).
+
+## Workforce wording cross-check · 2 October 2026
+
+Printed pp.49 and59 visually rechecked from a fresh publisher download. The BRSR table labels year-end details; the training section describes 16,722 contractor workers engaged during March. Existing observation retained with both locators and a scope review; no duplicate or new plant-level count. Printed p.56 procurement figures also visually rechecked.

@@ -169,3 +169,7 @@ Mine employment claims and Sukinda output comparison held. Kalinganagar transfer
 ## Industrial employment checkpoint ·2October2026 UTC
 
 Historical Rourkela workforce and company-wide NALCO apprenticeship added with explicit dates/categories. No current plant job headline, human review or website release.
+
+## Employment and supplier follow-up · 2 October 2026
+
+The Founder selected this follow-up before the previous retry date. Existing company workforce IDs were reused. New source-scoped supplier disclosures and refinery/smelter work volumes strengthen RES-052; they do not resolve current plant headcount. RSP social-account claims await underlying returns and community corroboration. [Evidence and next questions](../references/data/mining-programme.json). No public story publication is claimed.

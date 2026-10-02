@@ -398,3 +398,7 @@ Mine workforce category definitions and production scope unresolved; plant direc
 ## Industrial employment checkpoint ·2October2026 UTC
 
 Current Rourkela/NALCO plant payroll and contractor snapshots, IMFA mine scope reconciliation, mine-to-plant allocations and plant/local supplier boundaries still missing. Historical2015 RSP evidence cannot substitute for current observations. Retry9October; proceed with independent RES-053.
+
+## Employment and supplier follow-up · 2 October 2026
+
+The Founder selected this follow-up before the previous retry date. Existing company workforce IDs were reused. New source-scoped supplier disclosures and refinery/smelter work volumes strengthen RES-052; they do not resolve current plant headcount. RSP social-account claims await underlying returns and community corroboration. [Evidence and next questions](../references/data/mining-programme.json). No public story publication is claimed.
