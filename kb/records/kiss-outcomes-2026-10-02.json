@@ -60,6 +60,15 @@
     "kb/research/sources/education-kiss-aqar2024.md",
     "kb/research/sources/education-kiss-asci2022.md",
     "kb/research/sources/education-kiss-nirf2025.md",
-    "kb/research/stories/institution-building-evidence.md"
-  ]
+    "kb/research/stories/institution-building-evidence.md",
+    "projects/site/tests/editorial.test.mjs",
+    "projects/site/tools/select-content.mjs"
+  ],
+  "review_followup": {
+    "initial_ci": "https://github.com/ahimanikya/utkal-project/actions/runs/36966705666",
+    "finding": "Research checks passed; website test failed because an uncited Pakhala research source lacked public inspection metadata.",
+    "fix": "Export only sources cited in the explicitly selected Sourced knowledge paragraphs; retain all sources in the canonical KB.",
+    "local_check": "Five selected notes have exactly cited sources and inspection metadata.",
+    "remote_recheck": "pending"
+  }
 }

@@ -9,6 +9,8 @@ test('each published note paragraph retains its KB citations and excludes propos
     const raw=readFileSync('../../kb/research/'+note.path,'utf8');
     const section=raw.match(/## Sourced knowledge\s+([\s\S]*?)(?=\n##|$)/)[1].trim();
     const originals=section.split(/\n\s*\n/);
+    const citedIds=[...new Set([...section.matchAll(/\[\^([^\]]+)\]/g)].map(match=>match[1]))].sort();
+    assert.deepEqual(note.sources.map(source=>source.id).sort(),citedIds,`${note.slug}: export only sources cited by selected paragraphs`);
     const html=readFileSync('dist/knowledge/'+note.slug+'/index.html','utf8');
     const rendered=[...html.matchAll(/<p class="knowledge-text"[^>]*>([\s\S]*?)<\/p>/g)].map(match=>match[1]);
     assert.equal(note.paragraphs.length,originals.length,note.slug);
