@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T23:52:46.441614+00:00",
+  "updated_at": "2026-10-02T00:49:26.791780+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -356,7 +356,28 @@
     "bauxite-sites-kodingamali-rehabilitation-proposed",
     "bauxite-sites-baphlimali-capacity",
     "bauxite-sites-baphlimali-people",
-    "bauxite-sites-baphlimali-women"
+    "bauxite-sites-baphlimali-women",
+    "baphlimali-return-rom-output-2024-25",
+    "baphlimali-return-rom-opening-2024-25",
+    "baphlimali-return-rom-closing-2024-25",
+    "baphlimali-return-graded-output-2024-25",
+    "baphlimali-return-graded-dispatch-2024-25",
+    "baphlimali-return-royalty-2024-25",
+    "baphlimali-return-dmf-2024-25",
+    "baphlimali-return-nmet-2024-25",
+    "baphlimali-return-direct-days-2024-25",
+    "baphlimali-return-contract-days-2024-25",
+    "baphlimali-return-total-days-2024-25",
+    "baphlimali-return-daily-average-2024-25",
+    "baphlimali-return-daily-women-2024-25",
+    "baphlimali-return-maximum-2024-25",
+    "baphlimali-return-wages-2024-25",
+    "baphlimali-return-supervisors-2024-25",
+    "baphlimali-return-lease-area-2025",
+    "baphlimali-return-reclaimed-area-2025",
+    "baphlimali-return-backfilled-sep2025",
+    "baphlimali-return-afforested-sep2025",
+    "baphlimali-return-cto-capacity-sep2025"
   ],
   "task_ids": [
     "RES-051",
@@ -502,6 +523,18 @@
       "retrieved_on": "2026-10-01",
       "status": "available_wrong_scope",
       "reason": "Cover checked: Bimarla,Gumla,Jharkhand. Not Baphlimali; excluded."
+    },
+    {
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-form-g1-annual-return-2024-25.pdf",
+      "retrieved_on": "2026-10-02",
+      "status": "available_text_only",
+      "reason": "Original publisher PDF text retrieved through web reader; direct download HTTP406; no file checksum or visual verification."
+    },
+    {
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+      "retrieved_on": "2026-10-02",
+      "status": "available_text_only",
+      "reason": "Original publisher PDF text retrieved through web reader; direct download HTTP406; no file checksum or visual verification."
     }
   ],
   "human_review_claimed": false,
@@ -1721,20 +1754,27 @@
       {
         "field": "Baphlimali compliance link",
         "resolution": "Link133 under Baphlimali in retrieved compliance index led to Bimarla PDF, confirmed cover names GumlaJharkhand. Excluded from Odisha evidence."
+      },
+      {
+        "field": "Permission layers follow-up",
+        "source_id": "mining-baphlimali-ec-sep2025",
+        "resolution": "October2capture finds company-reported CTO8.0MTPA asofSeptember2025 alongside EC8.5MTPA. Old7.0body remains separate; no current permit claim."
       }
     ],
     "next_evidence_routes": [
       {
         "url": "https://www.hindalco.com/Upload/PDF/baphlimali-form-g1-annual-return-2024-25.pdf",
         "discovered_in": "ASI audit PDFp.6",
-        "status": "not_fetched",
-        "purpose": "Original realised production, dispatch and employment fields"
+        "status": "text_retrieved_download_unavailable",
+        "purpose": "Original realised production, dispatch and employment fields",
+        "capture_run": "2026-10-02-baphlimali-returns"
       },
       {
         "url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
         "discovered_in": "ASI audit PDFp.6",
-        "status": "not_fetched",
-        "purpose": "Original permit and mine-boundary scope; preserve literal2205inURL"
+        "status": "text_retrieved_download_unavailable",
+        "purpose": "Original permit and mine-boundary scope; preserve literal2205inURL",
+        "capture_run": "2026-10-02-baphlimali-returns"
       }
     ],
     "open_fields": [
@@ -1745,6 +1785,139 @@
       "Corrective-action closure from subsequent audit",
       "Comparable household livelihood income before/after projects"
     ],
+    "human_review_claimed": false
+  },
+  "baphlimali_return_checkpoint": {
+    "run_id": "2026-10-02-baphlimali-returns",
+    "retrieved_at": "2026-10-02T00:49:26.791780+00:00",
+    "source_ids": [
+      "mining-baphlimali-g1-2025",
+      "mining-baphlimali-ec-sep2025"
+    ],
+    "observation_ids": [
+      "baphlimali-return-rom-output-2024-25",
+      "baphlimali-return-rom-opening-2024-25",
+      "baphlimali-return-rom-closing-2024-25",
+      "baphlimali-return-graded-output-2024-25",
+      "baphlimali-return-graded-dispatch-2024-25",
+      "baphlimali-return-royalty-2024-25",
+      "baphlimali-return-dmf-2024-25",
+      "baphlimali-return-nmet-2024-25",
+      "baphlimali-return-direct-days-2024-25",
+      "baphlimali-return-contract-days-2024-25",
+      "baphlimali-return-total-days-2024-25",
+      "baphlimali-return-daily-average-2024-25",
+      "baphlimali-return-daily-women-2024-25",
+      "baphlimali-return-maximum-2024-25",
+      "baphlimali-return-wages-2024-25",
+      "baphlimali-return-supervisors-2024-25",
+      "baphlimali-return-lease-area-2025",
+      "baphlimali-return-reclaimed-area-2025",
+      "baphlimali-return-backfilled-sep2025",
+      "baphlimali-return-afforested-sep2025",
+      "baphlimali-return-cto-capacity-sep2025"
+    ],
+    "identity": {
+      "mine_code": "07ORI27001",
+      "ibm_registration": "IBM/75/2011",
+      "operator": "Utkal Alumina International Limited",
+      "registered_location": "Kashipur, Rayagada, Odisha",
+      "lease_deed_execution_as_reported": "1998-02-17",
+      "lease_term_years_as_reported": 50,
+      "source_id": "mining-baphlimali-g1-2025",
+      "locator": "PDF pp.1–2",
+      "interpretation": "Lease execution date is distinct from ASI grant-year1997; no exact current expiry derived."
+    },
+    "supply_link_update": {
+      "from": "baphlimali",
+      "to": "utkal-alumina-refinery",
+      "consignee_as_reported": "Utkal Alumina International limited",
+      "nature": "captive_consumption",
+      "quantity_tonnes": 7657000,
+      "period": "2024-25",
+      "source_id": "mining-baphlimali-g1-2025",
+      "locator": "PDF p.13, PartVI row5",
+      "caveat": "Named legal consignee supports existing audit-described refinery route; dispatch is not paid external sale or exports."
+    },
+    "arithmetic_checks": [
+      {
+        "expression": "245127 + 7657426 - 7657000",
+        "result": 245553,
+        "unit": "tonnes",
+        "interpretation": "ROM stock balance reconciles to closing stock; grade-wise production426tonnes below ROM retained, not treated as clerical error."
+      },
+      {
+        "expression": "9763 + 193300",
+        "result": 203063,
+        "unit": "person-days",
+        "interpretation": "Direct plus contract days, not headcounts."
+      },
+      {
+        "expression": "203063 / 365",
+        "result": 556.3369863013698,
+        "rounded_reported": 556.3,
+        "unit": "average daily persons",
+        "interpretation": "Table internal arithmetic; no independent worker verification."
+      },
+      {
+        "expression": "642173879 / 10000000",
+        "result": 64.2173879,
+        "unit": "INR crore",
+        "interpretation": "Display conversion for current-year DMF payment."
+      }
+    ],
+    "permission_layers": [
+      {
+        "kind": "EC as cited by company",
+        "capacity_mtpa": 8.5,
+        "reference": "J-11015/650/2007-IA.II(M)",
+        "date": "2009-02-19",
+        "locator": "EC report PDFp.2"
+      },
+      {
+        "kind": "CTO as cited by company",
+        "capacity_mtpa": 8.0,
+        "reference": "3859/IND-I-CON-5450; consent order2765",
+        "date": "2025-02-25",
+        "reported_valid_to": "2027-03-31",
+        "locator": "EC report PDFp.11; original annexure not text-readable"
+      }
+    ],
+    "held_comparisons": [
+      {
+        "field": "rehabilitation",
+        "values": [
+          "FormG1 160.624ha reclaimed-rehabilitated at31March2025",
+          "EC 166.88ha backfilled and112.16ha afforested at30September2025",
+          "ASI105ha rehabilitated in January2026 audit overview"
+        ],
+        "resolution": "Different labels, dates and unresolved spatial scopes; do not infer increase/decrease or restoration success."
+      },
+      {
+        "field": "workforce",
+        "values": [
+          "FormG1 daily average556.3 in FY2024–25",
+          "ASI approximate1017people in January2026 audit",
+          "EC public-hearing response341engaged/employed including18buffer-zone in Kalahandi section"
+        ],
+        "resolution": "Distinct denominators and geographic ambiguity. Last count retained as scoped discovery in this checkpoint, not admitted as local headcount or growth."
+      },
+      {
+        "field": "district area",
+        "values": [
+          "Annual-return lease1388.740ha",
+          "EC Rayagada public-hearing heading1338.74ha, PDFp.16",
+          "EC Kalahandi public-hearing heading492.82ha, PDFp.41"
+        ],
+        "resolution": "Do not add section headings or infer district shares; obtain lease polygon/original approval boundaries."
+      }
+    ],
+    "access_limits": [
+      "Both original PDFs readable as web text; direct downloads HTTP406.",
+      "FormG1 screenshots failed cache-miss; complex employment table stays needs_source_table_review.",
+      "Scanned EC annexure including original CTO not readable in text; no current permit verification."
+    ],
+    "retry_after": "2026-10-08",
     "human_review_claimed": false
   }
 }

@@ -31,3 +31,7 @@ The agriculture report records rice crop area of **255.76 thousand hectares**, r
 ## Bauxite-site checkpoint · 1 October 2026
 
 [Baphlimali](../../economy/bauxite-mine-identities.md) has a lease portion in Kalahandi according to its audit overview. No district production split is inferred.
+
+## Baphlimali returns · 2 October2026 UTC
+
+[Baphlimali boundary questions](../../economy/bauxite-mine-identities.md) retain the Kalahandi public-hearing section separately; no mine-total allocation or local job share is inferred.

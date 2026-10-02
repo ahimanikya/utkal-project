@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T23:52:46.441614+00:00",
+  "updated_at": "2026-10-02T00:49:26.791780+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -4914,6 +4914,56 @@
       "status": "available_wrong_scope",
       "scope": "Cover checked: Bimarla,Gumla,Jharkhand. Not Baphlimali; excluded.",
       "retry_after": "2026-10-08"
+    },
+    {
+      "source_id": "mining-baphlimali-g1-2025",
+      "discovery_url": "https://www.hindalco.com/Upload/PDF/baphlimali-form-g1-annual-return-2024-25.pdf",
+      "checked_at": "2026-10-02T00:49:26.791780+00:00",
+      "run_id": "2026-10-02-baphlimali-returns",
+      "status": "available_text_only",
+      "scope": "Company-filed annual return; PDF pp.1–4,6,12–13. Signed25June2025; posting date unknown.",
+      "retry_after": "2026-10-08",
+      "access_history": [
+        {
+          "method": "web_reader_pdf_text",
+          "status": "available"
+        },
+        {
+          "method": "direct_download",
+          "status": "unavailable",
+          "reason": "HTTP406"
+        },
+        {
+          "method": "web_screenshot",
+          "status": "unavailable",
+          "reason": "cache-miss"
+        }
+      ]
+    },
+    {
+      "source_id": "mining-baphlimali-ec-sep2025",
+      "discovery_url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+      "checked_at": "2026-10-02T00:49:26.791780+00:00",
+      "run_id": "2026-10-02-baphlimali-returns",
+      "status": "available_text_only",
+      "scope": "Company compliance report; PDF pp.2,4,11,16,41,44,46. Scanned consent annexure pp.81ff not readable in this capture.",
+      "retry_after": "2026-10-08",
+      "access_history": [
+        {
+          "method": "web_reader_pdf_text",
+          "status": "available"
+        },
+        {
+          "method": "direct_download",
+          "status": "unavailable",
+          "reason": "HTTP406"
+        },
+        {
+          "method": "scanned_annexure_text",
+          "status": "unavailable",
+          "reason": "Scanned CTO pages not exposed as readable text"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-01T23:52:46.441614+00:00",
+  "updated_at": "2026-10-02T00:49:26.791780+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2263,14 +2263,14 @@
       "title": "Mining baseline and district identity map",
       "done_when": "Reconcile five- or ten-year ore/coal series and dated resource classifications; map selected mine/district identities and source aliases, retaining production-vintage differences.",
       "target": "economy/mining.md",
-      "status": "in_progress",
-      "attempts": 5,
+      "status": "completed",
+      "attempts": 6,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-015"
       ],
-      "last_worked_at": "2026-10-01T23:52:46.441614+00:00",
-      "next_step": "Read Baphlimali FY2024–25 FormG1 and EC report URLs recovered from ASI audit, reconcile realised output and district/lease scope; then checkpoint remaining original-permit and source-definition gaps with retry dates and move to RES-052 processing/jobs. Reuse both bauxite cases.",
+      "last_worked_at": "2026-10-02T00:49:26.791780+00:00",
+      "next_step": "Baseline deliverable exists: attributed ore/coal series, dated resources, selected mine identities and source aliases with differences held. Follow up methodology, original permits, boundaries and complex tables after2026-10-08. RES-052 reuses processing/work evidence; resume earliest eligible existing in-progress RES-057 next.",
       "evidence_outputs": [
         "economy/mining.md",
         "statistics/minerals-and-mining.md",
@@ -2287,7 +2287,9 @@
         "sources/mining-ibm-kodingamali2024.md",
         "sources/mining-asi-baphlimali2026.md",
         "sources/mining-hindalco-baphlimali.md",
-        "sources/mining-asi-baphlimali-news2026.md"
+        "sources/mining-asi-baphlimali-news2026.md",
+        "sources/mining-baphlimali-g1-2025.md",
+        "sources/mining-baphlimali-ec-sep2025.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2321,6 +2323,18 @@
           "at": "2026-10-01T23:52:46.441614+00:00",
           "outcome": "two_bauxite_identities_output_and_certification_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-baphlimali-returns",
+          "at": "2026-10-02T00:49:26.791780+00:00",
+          "outcome": "baseline_deliverable_with_explicit_scope_limits",
+          "completion_criteria_met": true,
+          "acceptance_evidence": {
+            "series": "statistics/coal-production.md and statistics/ore-production.md preserve five/ten-year series and conflicting vintages",
+            "resources": "mining-programme.json coal_checkpoint and ore_checkpoint preserve dated resource categories",
+            "identities": "selected coal blocks, NALCO sites, Kodingamali and Baphlimali with source IDs",
+            "reconciliation": "Source differences recorded and quarantined; no harmonised statewide series or verified current permits claimed"
+          }
         }
       ],
       "reuse_before_research": {
@@ -2335,11 +2349,24 @@
           "statistics/coal-production.md",
           "statistics/ore-production.md",
           "economy/bauxite-to-aluminium.md",
-          "economy/bauxite-mine-identities.md"
+          "economy/bauxite-mine-identities.md",
+          "sources/mining-baphlimali-g1-2025.md",
+          "sources/mining-baphlimali-ec-sep2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-02T00:49:26.791780+00:00",
+      "follow_up_gaps": {
+        "retry_after": "2026-10-08",
+        "items": [
+          "State/IBM methodology and vintage differences",
+          "Scanned CTO and original cadastral boundaries",
+          "Complex employment table visual review",
+          "Comparable rehabilitation definitions",
+          "Named OMC buyers and local workforce/supplier evidence"
+        ]
       }
     },
     {
@@ -2373,7 +2400,9 @@
           "statistics/ports.md",
           "journeys/rare-earths.md",
           "economy/bauxite-to-aluminium.md",
-          "economy/bauxite-mine-identities.md"
+          "economy/bauxite-mine-identities.md",
+          "sources/mining-baphlimali-g1-2025.md",
+          "sources/mining-baphlimali-ec-sep2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

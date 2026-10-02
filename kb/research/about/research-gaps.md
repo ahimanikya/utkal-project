@@ -306,3 +306,7 @@ RES-051 now has selected NALCO mine/lease and MDO identities, and a reusable pro
 ## Bauxite-site checkpoint · 1 October 2026
 
 RES-051: Kodingamali and Baphlimali identities added. Original Baphlimali annual-return and EC-report URLs recovered from the audit remain the next bounded check. Current permits, district boundaries, buyers, direct/contract/local employment and corrective-action closure remain open. Mislinked Bimarla evidence excluded; failed expansion-form retrieval retry8October.
+
+## Baphlimali returns · 2 October2026 UTC
+
+Baphlimali original annual-return/compliance text recovered. Complex employment columns, original scanned CTO, cadastral district boundaries and rehabilitation definitions require follow-up on8October. ROM stock arithmetic reconciles; original state/IBM production differences remain held. Company payments do not establish DMF project outcomes.

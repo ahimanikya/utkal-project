@@ -30,3 +30,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Ore reconciliation checkpoint · 1 October2026
 
 [Ore production](ore-production.md) adds eleven-year state observation coverage and three-year IBM comparison for four ores, including retained source differences.
+
+## Baphlimali returns · 2 October2026 UTC
+
+[Baphlimali’s mine-level return](../economy/bauxite-mine-identities.md) adds FY2024–25 output and DMF payment evidence. A mine’s payment is not district spending or a statewide total.

@@ -69,3 +69,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Bauxite-site checkpoint · 1 October 2026
 
 [Kodingamali and Baphlimali](bauxite-mine-identities.md) adds regulator-recorded output and a separate mine-to-refinery certification case. Capacity and audit findings retain their scope.
+
+## Baphlimali returns · 2 October2026 UTC
+
+[Baphlimali’s annual return](bauxite-mine-identities.md) adds realised output, captive dispatch, payments and employment denominators. Permission layers and rehabilitation scopes remain separate.

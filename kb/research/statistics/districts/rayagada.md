@@ -35,3 +35,7 @@ IBM’s2023–24 bauxite producer table places Utkal Alumina mine location in Ra
 ## Bauxite-site checkpoint · 1 October 2026
 
 [Baphlimali](../../economy/bauxite-mine-identities.md) links mining to the Utkal Alumina refinery and a dated ASI audit; the refinery is outside that certificate’s scope.
+
+## Baphlimali returns · 2 October2026 UTC
+
+[Baphlimali follow-up](../../economy/bauxite-mine-identities.md) supplies mine-level output and work-day evidence. District allocation and residents’ employment remain unverified.

@@ -231,3 +231,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 1 October 2026 · Kodingamali and Baphlimali evidence
 
 [Research receipt](records/bauxite-sites-2026-10-01.json): 15 observations, two mine identities and one evidenced supply link added; capacity, certification scope, minor audit findings and source mismatches retained. No website release.
+
+## 2 October 2026 · Baphlimali annual return and mining baseline
+
+[Research receipt](records/baphlimali-returns-2026-10-02.json): 21 observations added; stock arithmetic reconciled, person-days and payments scoped. RES-051 baseline deliverable complete; current permissions and unresolved comparisons remain follow-up work. No website release.

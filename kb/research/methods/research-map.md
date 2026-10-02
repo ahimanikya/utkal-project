@@ -275,3 +275,7 @@ Existing NALCO excavation/capex records, IBM district links and mining programme
 ## Bauxite-site checkpoint · 1 October 2026
 
 Added two named bauxite identities through one connected concept and four source records. Reused IBM producer-district entries and NALCO processing research. Same ASI certification across report/announcement is one evidence family, not independent corroboration.
+
+## Baphlimali returns · 2 October2026 UTC
+
+Enhanced existing Baphlimali concept and structured mine identity. Two original company records add output/payment/work scope; no duplicate mine profile. Company annual return and compliance narrative share provenance. ASI is a separate certification purpose, not interchangeable workforce corroboration.

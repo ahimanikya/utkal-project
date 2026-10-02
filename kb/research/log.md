@@ -320,3 +320,7 @@ Added NALCO mine-to-processing checkpoint: 50 scoped observations, four calculat
 ## Bauxite-site checkpoint · 1 October 2026
 
 Bauxite-site checkpoint: 15 observations, two mine identities, one evidenced supply link and scoped certification record. Flat output and adverse audit findings retained; mislinked non-Odisha report excluded. RES-051 remains in progress. Website unchanged.
+
+## Baphlimali returns · 2 October2026 UTC
+
+Added 21 Baphlimali annual-return/compliance observations. Stock arithmetic reconciled; person-days, daily averages, captive dispatch and statutory payments separated. Download/visual failures recorded; complex tables and conflicts remain held. RES-051 baseline deliverable assessed complete with explicit follow-up gaps; next eligible existing research task RES-057. Local research release, no website publication.
