@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `325cecdb71deab85277da6871749f186f226e86aa02b82ac42a5664cfd9afc0a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1817dde1d14521a6461e404c0894e0583c8f4f4d2b230b8f4cce9fd00d6192d4`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -150,7 +150,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-135 · Woven in Odisha: Bandha, Khandua and Kotpad | completed | applied | Ahimanikya Satapathy | Textile collection published; browser visual review, Odia/craft terminology and named-maker arrangements remain open. | Browser visual review unavailable after admin-policy verification failure.; Local Odia/craft terminology and maker-access checks remain unverified. |
 | UTP-WORK-136 · Tasar: the silk before the sari | completed | applied | Ahimanikya Satapathy | Textile collection published; browser visual review, Odia/craft terminology and named-maker arrangements remain open. | Browser visual review unavailable after admin-policy verification failure.; Local Odia/craft terminology and maker-access checks remain unverified. |
 | UTP-WORK-137 · Textile review follow-up and specialist brief | completed | applied | Ahimanikya Satapathy | Textile note fixes published and specialist brief adopted. Actual browser, Odia and maker reviews remain open in the linked consolidated queue. | Browser navigation stopped at an admin-policy verification failure. No rendered layout, keyboard, zoom, screenshot or interactive saved-trip review completed.; No Odia reader or textile maker has been appointed, contacted or represented as having reviewed the stories. |
-| UTP-WORK-138 · First search launch candidate and controlled publication | completed | applied | Ahimanikya Satapathy | The approved eleven-page search scope is live. Search Console ownership/submission, actual indexing reports and browser/social preview review remain follow-ups. | Final search activation approval pending.; Browser visual and social preview inspection unavailable. |
+| UTP-WORK-138 · First search launch candidate and controlled publication | completed | applied | Ahimanikya Satapathy | The approved eleven-page search scope is live. Search Console ownership/submission, actual indexing reports and browser/social preview review remain follow-ups. | Browser visual and social preview inspection unavailable. |
+| UTP-WORK-139 · Search Console ownership, sitemap and indexing status | blocked | approved | Ahimanikya Satapathy | Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control. | Navigation denied before account access: the browser security check could not verify the admin-enforced policy. |
 
 ## Pending human review and decisions
 
@@ -362,6 +363,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-148 · Publish approved textile notes and review brief | approved | Ahimanikya Satapathy | Merge PR 47 and publish the corrected textile media/review notes; adopt the specialist review brief in the KB. Preserve disclosed visual/local review limitations; no indexing or Store release approved. |
 | UTP-DEC-149 · Prepare the first bounded search launch | approved | Ahimanikya Satapathy | Reassess eleven existing shortlisted pages, check metadata/images/links and prepare selective search publication. This authorizes preparation; activation follows review of the concrete candidate. |
 | UTP-DEC-150 · Approve the eleven-page search launch | approved | Ahimanikya Satapathy | Activate the exact eleven-page search launch, merge PR 48 after validation, and publish. The other 111 pages retain noindex. Search Console and actual search-engine indexing remain follow-ups. |
+| UTP-DEC-151 · Proceed with Search Console setup and indexing verification | approved | Ahimanikya Satapathy | Check existing Search Console property, verify ownership if accessible, submit the approved eleven-page sitemap, and inspect available indexing status. Do not expand the approved search scope. |
 
 ## Reviews
 
@@ -568,7 +570,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-159 | 2026-10-01T22:14:57.293928+00:00 | Approved PR 44 merged and deployed. Three craft pages, licensed photographs and saved journey verified live; 201 response/data checks passed across the 117-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-160 | 2026-10-01T22:59:40.544001+00:00 | Woven in Odisha collection and Bandha, Khandua and Kotpad stories prepared with four licensed visuals and a saved reading journey. Kotpad original report recovered and canonical address preserved. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
 | UTP-EVT-161 | 2026-10-01T23:08:43.755713+00:00 | Approved PR 45 merged and deployed. Four textile pages, licensed photographs and a labelled film poster, plus saved journey verified live; 237 response/data checks passed across the 121-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-162 | 2026-10-01T23:22:28.394280+00:00 | Tasar story prepared with three licensed documentary photographs, Gopalpur geography clarified at cluster level, district reading connections and a five-idea saved textile journey. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
@@ -578,6 +579,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-166 | 2026-10-02T01:49:48.646869+00:00 | Eleven-page shortlist reassessed; metadata and link graph checked; search publication assembly and readable noindex withdrawal prepared. Actual publication mode remains preview. | Founder candidate review before recording exact-route activation approval. |
 | UTP-EVT-167 | 2026-10-02T02:03:03.781276+00:00 | Recorded Founder approval of PR 48 and activated its exact eleven-route search policy. Deployment and live verification are pending. | Validate the approved artifact, merge and deploy, then verify live page directives and crawler files. |
 | UTP-EVT-168 | 2026-10-02T02:10:37.844144+00:00 | Approved PR 48 merged and deployed. All 122 live page directives and canonicals, exact eleven-URL sitemap, crawler access, eleven-page metadata and three held routes verified. Search Console and actual indexing are not claimed. | Follow up on Search Console and actual indexing while preserving the eleven-page scope and open specialist/browser reviews. |
+| UTP-EVT-169 | 2026-10-02T02:14:55.666899+00:00 | Founder authorized Search Console follow-up. Supported browser navigation was denied by an unavailable admin-policy verification check before account access; no ownership or sitemap action was performed. Removed the superseded approval-pending blocker from completed WORK-138. | Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control. |
 
 ## Deferred extensions
 

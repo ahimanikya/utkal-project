@@ -4038,7 +4038,6 @@
       "authorization": "UTP-DEC-149",
       "next_action": "The approved eleven-page search scope is live. Search Console ownership/submission, actual indexing reports and browser/social preview review remain follow-ups.",
       "blockers": [
-        "Final search activation approval pending.",
         "Browser visual and social preview inspection unavailable."
       ],
       "refs": [
@@ -4051,6 +4050,30 @@
         "records/first-search-launch-review.json",
         "reference/first-search-launch.md",
         "records/first-search-launch-publication.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-139",
+      "title": "Search Console ownership, sitemap and indexing status",
+      "category": "website_operations",
+      "status": "blocked",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-151",
+      "next_action": "Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control.",
+      "blockers": [
+        "Navigation denied before account access: the browser security check could not verify the admin-enforced policy."
+      ],
+      "refs": [
+        "UTP-DEC-151",
+        "UTP-REL-044"
+      ],
+      "evidence": [
+        "records/search-console-setup.json"
       ]
     }
   ],
@@ -7065,6 +7088,26 @@
       ],
       "evidence": [
         "records/evidence/first-search-launch/approval.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-151",
+      "title": "Proceed with Search Console setup and indexing verification",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, go",
+      "scope": "Check existing Search Console property, verify ownership if accessible, submit the approved eleven-page sitemap, and inspect available indexing status. Do not expand the approved search scope.",
+      "recorded_at": "2026-10-02T02:14:55.666899+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-150",
+        "UTP-REL-044"
+      ],
+      "evidence": [
+        "records/search-console-setup.json"
       ]
     }
   ],

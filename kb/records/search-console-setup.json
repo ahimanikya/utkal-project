@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-02T02:14:55.666899+00:00",
+  "status": "blocked_before_account_access",
+  "authorization": "UTP-DEC-151",
+  "human_owner": "Ahimanikya Satapathy",
+  "approval_quote": "OK, go",
+  "target": "https://search.google.com/search-console",
+  "site": "https://utkalproject.org/",
+  "sitemap": "https://utkalproject.org/sitemap.xml",
+  "scope": "Check existing Search Console property, verify ownership if accessible, submit the approved eleven-page sitemap, and inspect available indexing status. Do not expand the approved search scope.",
+  "browser_result": "Navigation denied before account access: the browser security check could not verify the admin-enforced policy.",
+  "completed": [
+    "Confirmed the connected browser was discoverable.",
+    "Attempted Search Console navigation through the existing supported browser connection.",
+    "Preserved the published eleven-page indexing policy and existing sitemap."
+  ],
+  "not_completed": [
+    "Existing Google property/account status could not be inspected.",
+    "Ownership verification not performed.",
+    "Sitemap submission not performed.",
+    "Actual Google indexing status not inspected."
+  ],
+  "next_action": "Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control.",
+  "release_baseline": "UTP-REL-044",
+  "evidence": [
+    "records/first-search-launch-publication.json"
+  ]
+}
