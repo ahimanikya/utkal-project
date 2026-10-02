@@ -81,3 +81,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Chromite-to-ferrochrome checkpoint · 2 October 2026
 
 [IMFA’s existing company entry](company-imfa.md) now connects two named mines, Odisha processing and domestic/international sales. Company-wide workforce and supplier shares remain separate from plant-local measures. The three-chain research is still incomplete for plant jobs and suppliers.
+
+## Plant-record checkpoint
+
+[IMFA’s reconciled record](company-imfa.md) distinguishes Kalinganagar clearance transfer, Choudwar furnace input ratios and held mine workforce/output data. No employment total or expanded capacity is inferred from these records.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T15:50:42.674333+00:00",
+  "updated_at": "2026-10-02T16:49:35.236954+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2652,7 +2652,7 @@
       "done_when": "Build three evidenced Odisha mineral-to-processing chains; capture plant-level output, direct/contract jobs and local supplier evidence. Reuse investment and freight observations from RES-016/017; do not count proposals or national-company totals as Odisha outcomes.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-016",
@@ -2660,8 +2660,8 @@
         "RES-018",
         "RES-020"
       ],
-      "last_worked_at": "2026-10-02T15:50:42.674333+00:00",
-      "next_step": "Use IMFA statutory-compliance listings for Therubali, Choudwar, Kalinganagar and mine-level employment/output; seek plant payroll/contract and Odisha supplier evidence. Reuse mining-imfa-ar2026 before fetching; no repeat of annual report. Then RSP plant employment and NALCO plant-local gaps. Keep completed acquisition separate from post-report commissioning checks.",
+      "last_worked_at": "2026-10-02T16:49:35.236954+00:00",
+      "next_step": "Continue independent RES-052 Rourkela and NALCO plant-workforce evidence using saved annual/compliance reports before browsing. IMFA mine reconciliation subtask retries 9 October; exact gap: Sukinda annual273802 versus template269075 tonnes, Mahagiri general versus ROM and local workforce subtotals. Use original returns/corrections if available; do not repeat the four saved plant/mine documents or promote held values.",
       "evidence_outputs": [
         "sources/mining-sail-ar2026.md",
         "sources/mining-rsp-ec-march2026.md",
@@ -2672,10 +2672,14 @@
         "references/data/mining-programme.json",
         "sources/mining-imfa-ar2026.md",
         "stories/odisha-ferrochrome-markets.md",
-        "economy/company-imfa.md"
+        "economy/company-imfa.md",
+        "sources/mining-imfa-choudwar-2026.md",
+        "sources/mining-imfa-sukinda-2026.md",
+        "sources/mining-imfa-mahagiri-2026.md",
+        "sources/mining-imfa-knr2-2026.md"
       ],
       "retry_after": null,
-      "blocker": "Three chain narratives available, but plant-specific work, despatch allocations and local supplier boundaries remain incomplete.",
+      "blocker": "Mine workforce category definitions and production scope unresolved; plant direct/contract payroll and Odisha supplier purchases remain incomplete.",
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-steel",
@@ -2690,6 +2694,13 @@
           "outcome": "chromite_chain_company_scope_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Three chain narratives available, but plant-specific work, despatch allocations and local supplier boundaries remain incomplete."
+        },
+        {
+          "run_id": "2026-10-02-mining-plant-records",
+          "at": "2026-10-02T16:49:35.236954+00:00",
+          "outcome": "plant_records_and_scope_conflicts_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Mine workforce category definitions and production scope unresolved; plant direct/contract payroll and Odisha supplier purchases remain incomplete."
         }
       ],
       "reuse_before_research": {
@@ -2713,12 +2724,30 @@
           "sources/business-imfa-history.md",
           "sources/mining-imfa-ar2026.md",
           "stories/odisha-ferrochrome-markets.md",
-          "economy/company-imfa.md"
+          "economy/company-imfa.md",
+          "sources/mining-imfa-choudwar-2026.md",
+          "sources/mining-imfa-sukinda-2026.md",
+          "sources/mining-imfa-mahagiri-2026.md",
+          "sources/mining-imfa-knr2-2026.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "evidence_followups": [
+        {
+          "topic": "IMFA mine output/workforce scope reconciliation",
+          "retry_after": "2026-10-09",
+          "gap": "Mine workforce category definitions and production scope unresolved; plant direct/contract payroll and Odisha supplier purchases remain incomplete.",
+          "source_ids": [
+            "mining-imfa-choudwar-2026",
+            "mining-imfa-sukinda-2026",
+            "mining-imfa-mahagiri-2026",
+            "mining-imfa-knr2-2026"
+          ],
+          "independent_next_work": "Rourkela/NALCO workforce"
+        }
+      ]
     },
     {
       "id": "RES-053",

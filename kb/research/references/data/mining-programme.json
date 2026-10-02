@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T15:50:42.674333+00:00",
+  "updated_at": "2026-10-02T16:49:35.236954+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2084,5 +2084,85 @@
       }
     ],
     "completion_criteria_met": false
+  },
+  "plant_records_checkpoint": {
+    "run_id": "2026-10-02-mining-plant-records",
+    "at": "2026-10-02T16:49:35.236954+00:00",
+    "observation_ids": [
+      "imfa-ccp-2-ore-intensity-2024-25",
+      "imfa-ccp-2-ore-intensity-2025-26",
+      "imfa-ccp-3-ore-intensity-2024-25",
+      "imfa-ccp-3-ore-intensity-2025-26",
+      "imfa-sukinda-star-manpower-local-2026",
+      "imfa-sukinda-star-manpower-total-2026",
+      "imfa-mahagiri-star-manpower-local-2026",
+      "imfa-mahagiri-star-manpower-total-2026",
+      "imfa-sukinda-star-rom-2026",
+      "imfa-mahagiri-star-general-2026",
+      "imfa-mahagiri-star-rom-2026"
+    ],
+    "source_ids": [
+      "mining-imfa-choudwar-2026",
+      "mining-imfa-sukinda-2026",
+      "mining-imfa-mahagiri-2026",
+      "mining-imfa-knr2-2026"
+    ],
+    "workforce_rows": {
+      "sukinda": {
+        "local_total": 598,
+        "overall_total": 1170,
+        "local_skilled": 400,
+        "skilled_total": 573,
+        "local_unskilled": 198,
+        "unskilled_total": 226
+      },
+      "mahagiri": {
+        "local_total": 477,
+        "overall_total": 839,
+        "local_skilled": 464,
+        "skilled_total": 601,
+        "local_unskilled": 31,
+        "unskilled_total": 31
+      }
+    },
+    "workforce_treatment": "Held. Local means from the State, not a host village. No direct/contract split or comparable snapshot; Mahagiri495 local category sum differs from477 stated total; Sukinda799 skilled/unskilled denominator sum differs from1170 total.",
+    "production_conflicts": [
+      {
+        "site": "Sukinda",
+        "annual_report": 273802,
+        "self_assessment_general_and_rom": 269075,
+        "unit": "tonnes",
+        "period": "FY2025-26",
+        "difference": 4727,
+        "resolution": "unresolved",
+        "retry_after": "2026-10-09"
+      },
+      {
+        "site": "Mahagiri",
+        "self_assessment_general": 536809.68,
+        "self_assessment_rom": 524752.61,
+        "annual_report_rounded": 536810,
+        "unit": "tonnes",
+        "period": "FY2025-26",
+        "resolution": "scope unresolved; annual/general agreement is not independent corroboration",
+        "retry_after": "2026-10-09"
+      }
+    ],
+    "knr2_transfer": {
+      "source_id": "mining-imfa-knr2-2026",
+      "letter_date": "2026-09-04",
+      "posted_on": "2026-09-22",
+      "ec_identification": "EC26A1005OR5601389T",
+      "proposal": "IA/OR/IND1/584536/2026",
+      "asset_transfer_effective_date_reported": "2026-02-27",
+      "implemented_facility": "4 x16.5 MVA only",
+      "not_implemented": [
+        "1 x33 MVA proposed furnace",
+        "67.5 MW proposed CPP"
+      ],
+      "scope": "Government-issued letter hosted by company; no independent original-portal retrieval or October operating check. Not KNR1 status."
+    },
+    "completion_criteria_met": false,
+    "human_review_claimed": false
   }
 }

@@ -315,3 +315,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Chromite-to-ferrochrome trade and work
 
 [Research receipt](records/chromite-chain-2026-10-02.json): The original IMFA annual report connects captive ore and Odisha processing to domestic and international markets. Output and sales are separate; falling international sales and Sukinda ore retained. Company-wide workforce and supplier shares are not assigned to Odisha plants. RES-052 remains in progress. No website release.
+
+## 2 October 2026 · Plant records and scope reconciliation
+
+[Research receipt](records/mining-plant-records-2026-10-02.json): Choudwar furnace input ratios and Kalinganagar clearance-transfer scope captured. Mine workforce categories and production differences held; the previous Sukinda comparison is quarantined with its original arithmetic preserved. RES-052 continues independently with Rourkela/NALCO; IMFA scope retry is 9 October. No website release.

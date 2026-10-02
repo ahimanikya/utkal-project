@@ -365,3 +365,7 @@ Three primary sources and two synthesis/story records added for RES-052. NALCO p
 ## Chromite chain checkpoint · 2 October 2026 UTC
 
 Existing IMFA company and people identities enhanced, one annual-report source and one story added. One corporate report supports all new rows; it is not multiple independent sources.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Four original source identities extend existing IMFA record; annual-report observation retained with revision history. Dependent Sukinda calculation preserved in quarantine, not silently deleted.

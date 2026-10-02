@@ -390,3 +390,7 @@ RES-052 now adds Rourkela plant records and NALCO Odisha MSE purchases. Third ch
 ## Chromite chain checkpoint · 2 October 2026 UTC
 
 Three chain narratives available, but plant-specific work, despatch allocations and local supplier boundaries remain incomplete. Next: plant compliance records; do not repeat company annual-report discovery.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Mine workforce category definitions and production scope unresolved; plant direct/contract payroll and Odisha supplier purchases remain incomplete. IMFA reconciliation retry9October; proceed independently with Rourkela/NALCO.

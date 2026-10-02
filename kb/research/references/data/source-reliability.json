@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T15:50:42.674333+00:00",
+  "updated_at": "2026-10-02T16:49:35.236954+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6019,6 +6019,41 @@
       "run_id": "2026-10-02-chromite-chain",
       "status": "unavailable",
       "scope": "Web fetch timeout; no factual claims taken from this mirror."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/EnvironmentalStatementUnitII202526.pdf/Environmental_Statement_Unit_II_202526_4e5b4b9277.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Company Form V for Unit-II only, not all Choudwar operations. Capacity and input/output ratios are not annual output or employment."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/SukindaMinesStarRating202526.pdf/Sukinda_Mines_Star_Rating202526_907f7142d9.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Lessee-submitted evaluation template; not an awarded star rating or independent audit. Workforce category denominators unclear; general/ROM output conflicts with annual report."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/MahagiriMinesStarRating202526.pdf/Mahagiri_Mines_Star_Rating202526_e5c85f9972.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Lessee-submitted evaluation template; not an awarded star rating. Local-workforce subtotal conflicts internally; general output and underground ROM rows differ."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/api/pdf/IA_OR_IND1_04092026.pdf/IA_OR_IND_1_04092026_a1432f31b5.pdf",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available",
+      "scope": "Ministry clearance-transfer letter hosted by company; original government portal copy not independently fetched. Transfer covers implemented 4x16.5 MVA only; no expansion commissioning inferred."
+    },
+    {
+      "discovery_url": "https://www.imfa.in/investors/statutory-compliances",
+      "checked_at": "2026-10-02T16:49:35.236954+00:00",
+      "run_id": "2026-10-02-mining-plant-records",
+      "status": "available_after_fallback",
+      "scope": "Plain-text web page returned no results; public read-only catalogue API yielded records. Three scans needed local OCR; sandbox OCR failed, permitted local retry succeeded. Failed extraction is not unchanged data."
     }
   ]
 }

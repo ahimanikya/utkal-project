@@ -223,3 +223,7 @@ Resume RES-052 next with chromite-to-ferrochrome, using saved IMFA history befor
 ## Chromite chain checkpoint · 2 October 2026 UTC
 
 Use IMFA statutory-compliance listings for Therubali, Choudwar, Kalinganagar and mine-level employment/output; seek plant payroll/contract and Odisha supplier evidence. Reuse mining-imfa-ar2026 before fetching; no repeat of annual report. Then RSP plant employment and NALCO plant-local gaps. Keep completed acquisition separate from post-report commissioning checks.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Continue independent RES-052 Rourkela and NALCO plant-workforce evidence using saved annual/compliance reports before browsing. IMFA mine reconciliation subtask retries 9 October; exact gap: Sukinda annual273802 versus template269075 tonnes, Mahagiri general versus ROM and local workforce subtotals. Use original returns/corrections if available; do not repeat the four saved plant/mine documents or promote held values.

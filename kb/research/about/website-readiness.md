@@ -161,3 +161,7 @@ New draft supplier story has a defined fiscal year, purchasing denominator and s
 ## Chromite chain checkpoint · 2 October 2026 UTC
 
 IMFA trade story drafted with country-market and turnover boundaries. International sales decline retained; current commissioning, plant jobs, local suppliers and human review remain open. No website release.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+Mine employment claims and Sukinda output comparison held. Kalinganagar transfer scope and Choudwar Unit-II ratios now documented. No human review or website release.

@@ -404,3 +404,7 @@ RES-052: three SAIL original documents captured; Rourkela output/PBT and NALCO M
 ## Chromite chain checkpoint · 2 October 2026 UTC
 
 RES-052: original IMFA 2025–26 report captured with public API discovery route. Added 21 scoped observations and five comparisons, including falling international sales and Sukinda output. Chain established at company level; task remains in progress. No website release.
+
+## Plant records and scope reconciliation · 2 October 2026 UTC
+
+RES-052: four original documents; 11 observations added (seven held). Sukinda annual-report output flagged and dependent comparison quarantined with history. September KNR2 transfer limited to implemented furnaces; mine self-assessments not treated as independent audits. No website release.

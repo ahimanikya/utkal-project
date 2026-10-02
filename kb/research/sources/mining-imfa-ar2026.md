@@ -18,3 +18,7 @@ The file contains two printed pages per PDF spread. Reviewed printed pp.4–7,14
 The annual-report catalogue was absent from plain-text web extraction. The publisher's public listing API supplied the original asset and date; archived HTML, listing and file checksum support retrieval. Earlier catalogue dates before the relevant year-end appear suspect and are not used for historical chronology.
 
 [Company and chain](../economy/company-imfa.md) · [Trade story](../stories/odisha-ferrochrome-markets.md).
+
+## Scope reconciliation · 2 October 2026
+
+The Sukinda FY2025–26 output observation and dependent comparison are held against a different value in the mine submission. Annual-report values are preserved, not replaced. Mahagiri general output rounds to the annual-report row, but the mine template gives a different ROM field. [Plant and mine reconciliation](../economy/company-imfa.md).
