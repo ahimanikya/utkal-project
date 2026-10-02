@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1817dde1d14521a6461e404c0894e0583c8f4f4d2b230b8f4cce9fd00d6192d4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `02a2ea1a9064a2ce3bfc8c1b8552178831b5e6baee68defed16060f1ffefdc88`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -364,6 +364,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-149 · Prepare the first bounded search launch | approved | Ahimanikya Satapathy | Reassess eleven existing shortlisted pages, check metadata/images/links and prepare selective search publication. This authorizes preparation; activation follows review of the concrete candidate. |
 | UTP-DEC-150 · Approve the eleven-page search launch | approved | Ahimanikya Satapathy | Activate the exact eleven-page search launch, merge PR 48 after validation, and publish. The other 111 pages retain noindex. Search Console and actual search-engine indexing remain follow-ups. |
 | UTP-DEC-151 · Proceed with Search Console setup and indexing verification | approved | Ahimanikya Satapathy | Check existing Search Console property, verify ownership if accessible, submit the approved eleven-page sitemap, and inspect available indexing status. Do not expand the approved search scope. |
+| UTP-DEC-152 · Publish supplied Google ownership-verification file | approved | Ahimanikya Satapathy | Following authorization of Search Console setup, the Founder supplied googleeb3b0703307157d1.html in response to the request to attach the file for website deployment. Add and deploy that exact verification response; preserve the eleven-page search scope. The Founder completes verification in Search Console. |
 
 ## Reviews
 
@@ -570,7 +571,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-160 | 2026-10-01T22:59:40.544001+00:00 | Woven in Odisha collection and Bandha, Khandua and Kotpad stories prepared with four licensed visuals and a saved reading journey. Kotpad original report recovered and canonical address preserved. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
 | UTP-EVT-161 | 2026-10-01T23:08:43.755713+00:00 | Approved PR 45 merged and deployed. Four textile pages, licensed photographs and a labelled film poster, plus saved journey verified live; 237 response/data checks passed across the 121-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
 | UTP-EVT-162 | 2026-10-01T23:22:28.394280+00:00 | Tasar story prepared with three licensed documentary photographs, Gopalpur geography clarified at cluster level, district reading connections and a five-idea saved textile journey. Automated checks pass; browser/local review remains open. | Founder candidate review; no publication claimed. |
 | UTP-EVT-163 | 2026-10-01T23:32:26.644864+00:00 | Approved PR 46 merged and deployed. Tasar story, licensed documentary photographs, district connections and expanded saved journey verified live; 258 response/data checks passed across the 122-page edition. Current queue updated without closing specialist review. | Preserve visual/local review follow-ups and the held Pala draft. |
@@ -580,6 +580,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-167 | 2026-10-02T02:03:03.781276+00:00 | Recorded Founder approval of PR 48 and activated its exact eleven-route search policy. Deployment and live verification are pending. | Validate the approved artifact, merge and deploy, then verify live page directives and crawler files. |
 | UTP-EVT-168 | 2026-10-02T02:10:37.844144+00:00 | Approved PR 48 merged and deployed. All 122 live page directives and canonicals, exact eleven-URL sitemap, crawler access, eleven-page metadata and three held routes verified. Search Console and actual indexing are not claimed. | Follow up on Search Console and actual indexing while preserving the eleven-page scope and open specialist/browser reviews. |
 | UTP-EVT-169 | 2026-10-02T02:14:55.666899+00:00 | Founder authorized Search Console follow-up. Supported browser navigation was denied by an unavailable admin-policy verification check before account access; no ownership or sitemap action was performed. Removed the superseded approval-pending blocker from completed WORK-138. | Founder can open Search Console directly and report the ownership-verification state for utkalproject.org, or restore supported browser policy verification. Resume authorized setup when access is available; do not bypass the security control. |
+| UTP-EVT-170 | 2026-10-02T02:39:42.696262+00:00 | Founder supplied the requested Google HTML verification file. Prepared an exact-content publication exception without expanding editorial routes or the eleven-URL sitemap. | Deploy and verify the exact public response, then ask Founder to complete Google verification. |
 
 ## Deferred extensions
 
