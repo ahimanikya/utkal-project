@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T02:18:39.272261+00:00",
+  "updated_at": "2026-10-02T02:48:58.849144+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -5159,6 +5159,120 @@
       "status": "unavailable",
       "scope": "Catalogue open timed out; no scan acquired from this route. Credited publisher translation obtained separately.",
       "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.ugc.gov.in/universitydetails/Getuniversity_details?unitypeID=0",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "HTML category pages omit dynamic rows; public endpoint from linked JavaScript returned institution records. Selected18identities checked."
+    },
+    {
+      "discovery_url": "https://deemed.ugc.ac.in/Home/ListOfDeemedToBeUniversity",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Named deemed-status rows and DOE dates read."
+    },
+    {
+      "discovery_url": "https://utkaluniversity.ac.in/act/",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Web reader failed; direct download resolved original Act link."
+    },
+    {
+      "discovery_url": "https://www.indiacode.nic.in/bitstream/123456789/2080/7/a2009-25.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "unavailable",
+      "scope": "Web reader error and direct read timeout; alternate IndiaCode path also timed out. Original Gazette recovered from Central University of Punjab.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2025/SDGRanking.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "unavailable",
+      "scope": "Candidate discovery URL failed; no finding inferred.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/acts-statutes-ordinances/",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Web reader available; direct page download403. Linked Gazette and UGC PDFs downloaded and selected pages reviewed."
+    },
+    {
+      "discovery_url": "https://utkaluniversity.ac.in/wp-content/uploads/2021/03/University-Act.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/wp-content/uploads/2024/11/1355.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/wp-content/uploads/2024/11/2160.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cutm.ac.in/wp-content/uploads/2024/11/4992496_CenturianUniversity.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://cup.edu.in/sites/default/files/Documents/Gazette.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2024/UniversityRanking150.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/Rankings/2025/UniversityRanking150.html",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0363.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
+    },
+    {
+      "discovery_url": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0356.pdf",
+      "checked_at": "2026-10-02T02:48:58.849144+00:00",
+      "run_id": "2026-10-02-universities",
+      "status": "available",
+      "scope": "Original source retrieved; capture scope in source catalogue."
     }
   ]
 }

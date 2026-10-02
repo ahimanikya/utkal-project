@@ -4546,7 +4546,14 @@
     "capture_method": "direct_html",
     "locator": "IR-O-U-0363 and IR-O-U-0356; Rank and Score columns",
     "capture_note": "2025 University category only. Direct 2026 candidate URL failed; no claim that a 2026 release does not exist or that these are current ranks.",
-    "evidence_class": "ranking_release"
+    "evidence_class": "ranking_release",
+    "capture_history": [
+      {
+        "accessed_on": "2026-10-02",
+        "scope": "Two existing rows checked; parameter scores read for both institutions",
+        "sha256": "14736ef1157b961aeeea81933a322d5f6b7bacc9212f95a50476e38b34a79cd4"
+      }
+    ]
   },
   "education-kiss-history": {
     "id": "education-kiss-history",
@@ -5471,5 +5478,147 @@
       "isbn": "978-1-886439-02-3",
       "publisher_landing_page": "https://www.bdkamerica.org/product/the-great-tang-dynasty-record-of-the-western-regions/"
     }
+  },
+  "education-soa-nirf2025": {
+    "id": "education-soa-nirf2025",
+    "title": "SOA: NIRF2025 submitted data, University category",
+    "resource": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0363.pdf",
+    "publisher": "SOA institutional submission hosted by Ministry of Education, NIRF",
+    "published_on": "2025",
+    "accessed_on": "2026-10-02",
+    "locator": "PDF page2, UG[4Years] placement and higher studies; graduating years2021–22 to2023–24",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Institution-reported cohorts, not independently audited employment. Four-year programmes aggregate disciplines. Median annual salary is only among placed graduates; not all students or guaranteed pay.",
+    "capture_sha256": "9edd91b515f63e34018a12243489879eeecdb49638676d59c0c57958643410c1"
+  },
+  "education-ugc-deemed2026": {
+    "id": "education-ugc-deemed2026",
+    "title": "UGC: List of Deemed to be Universities",
+    "resource": "https://deemed.ugc.ac.in/Home/ListOfDeemedToBeUniversity",
+    "publisher": "University Grants Commission",
+    "published_on": null,
+    "accessed_on": "2026-10-02",
+    "locator": "KIIT, SOA and KISS rows; DOE column",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "DOE dates reproduced as registry dates for deemed status, not society or school founding. Same publisher as the general register; not independent corroboration.",
+    "capture_sha256": "35c1d8f5b02615a04c1588a9bf3a139fe6dcc5a04c886cecda0deb8805e3f0c1"
+  },
+  "education-nirf-band2025": {
+    "id": "education-nirf-band2025",
+    "title": "India Rankings2025: University band101–150",
+    "resource": "https://www.nirfindia.org/Rankings/2025/UniversityRanking150.html",
+    "publisher": "Ministry of Education, NIRF",
+    "published_on": "2025",
+    "accessed_on": "2026-10-02",
+    "locator": "Utkal University row",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Same published band as2024 does not prove unchanged underlying score or exact rank."
+  },
+  "education-nirf-university-2024": {
+    "id": "education-nirf-university-2024",
+    "title": "India Rankings2024: University",
+    "resource": "https://www.nirfindia.org/Rankings/2024/UniversityRanking.html",
+    "publisher": "Ministry of Education, NIRF",
+    "published_on": "2024",
+    "accessed_on": "2026-10-02",
+    "locator": "IR-O-U-0363 and IR-O-U-0356; total score/rank and TLR,RPC,GO,OI,Perception tables",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "2024 University category. Published scores and ranks are distinct; annual methodology and pool effects prevent a causal improvement claim.",
+    "capture_sha256": "43fb6f1c3291beab0cde56b3b13ff1a1bb37cc2a945d8160b6186f22d8906341"
+  },
+  "education-cutm-ugc2013": {
+    "id": "education-cutm-ugc2013",
+    "title": "UGC approval of Centurion compliance report, October2013",
+    "resource": "https://cutm.ac.in/wp-content/uploads/2024/11/4992496_CenturianUniversity.pdf",
+    "publisher": "University Grants Commission; university-hosted scan",
+    "published_on": "2013-10",
+    "accessed_on": "2026-10-02",
+    "locator": "Letter8-28/2010(CPP-I/PU), first PDF page; Commission meeting1October2013",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "First-page letter inspected visually; approves compliance report following2011visit. Does not prove every current programme or the promotional one-of-eleven claim. Remaining inspection annexes not fully reviewed.",
+    "capture_sha256": "f3d363f171363395922c4c0a99324ee38c29b63df989f0cf2145eddafb8846c7"
+  },
+  "education-utkal-act1989": {
+    "id": "education-utkal-act1989",
+    "title": "The Orissa Universities Act, 1989: Utkal-hosted text",
+    "resource": "https://utkaluniversity.ac.in/wp-content/uploads/2021/03/University-Act.pdf",
+    "publisher": "Odisha legislature; copy hosted by Utkal University",
+    "published_on": "1989",
+    "accessed_on": "2026-10-02",
+    "locator": "Section 3(1)(i), PDF page 4",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Historical statutory identity referring to Utkal University Act1966. Not a consolidation of all later amendments or a current jurisdiction map.",
+    "capture_sha256": "f54f7ce514e6118f6e9d6402c6667ed85a908b82a52ba308a09e8700e59b2b8a"
+  },
+  "education-ugc-register2026": {
+    "id": "education-ugc-register2026",
+    "title": "UGC public university register: selected Odisha identities",
+    "resource": "https://www.ugc.gov.in/universitydetails/Getuniversity_details?unitypeID=0",
+    "publisher": "University Grants Commission",
+    "published_on": null,
+    "accessed_on": "2026-10-02",
+    "locator": "Named rows / persistent ID; uni_type, state and status fields",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Public JSON endpoint used by UGC university-details webpage, identified from its linked unijs.js. Extract only institutional fields; current retrieval is not a dated release or programme approval.",
+    "capture_sha256": "c1ced51e77659578c67de48902e81257bfc7ec8371e55ad7440428e746f533e3"
+  },
+  "education-central-act2009": {
+    "id": "education-central-act2009",
+    "title": "Central Universities Act, 2009: original Gazette",
+    "resource": "https://cup.edu.in/sites/default/files/Documents/Gazette.pdf",
+    "publisher": "Ministry of Law and Justice; Central University of Punjab-hosted Gazette",
+    "published_on": "2009-03-20",
+    "accessed_on": "2026-10-02",
+    "locator": "Sections1(2),3(4); First Schedule serial9, PDF pages1,3,17",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Original statute names Central University of Orissa. Current UGC record uses Odisha. Original statute is historical identity evidence, not a claim that all later provisions remain unchanged.",
+    "capture_sha256": "873df5785c076acce4668a13c9f70c291206c3c9609c0aeefc8b9fe153a30012"
+  },
+  "education-nirf-band2024": {
+    "id": "education-nirf-band2024",
+    "title": "India Rankings2024: University band101–150",
+    "resource": "https://www.nirfindia.org/Rankings/2024/UniversityRanking150.html",
+    "publisher": "Ministry of Education, NIRF",
+    "published_on": "2024",
+    "accessed_on": "2026-10-02",
+    "locator": "Utkal University row",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Alphabetical band listing, not exact rank101,150 or a hidden score."
+  },
+  "education-cutm-established2010": {
+    "id": "education-cutm-established2010",
+    "title": "Centurion establishment notification, Gazette2160",
+    "resource": "https://cutm.ac.in/wp-content/uploads/2024/11/2160.pdf",
+    "publisher": "Odisha Higher Education Department; university-hosted copy",
+    "published_on": "2010-12-24",
+    "accessed_on": "2026-10-02",
+    "locator": "Notification37484-I(B)-HE-UM-25/2010/H.E.,23December2010; PDF page1",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Notification establishes university effective23December2010 under section6(1). Publication24December is a separate event.",
+    "capture_sha256": "bd062cadb2f21e2fcd9dce72c6ec6c523ed1796da9c7759032b3a181ba5291dc"
+  },
+  "education-kiit-nirf2025": {
+    "id": "education-kiit-nirf2025",
+    "title": "KIIT: NIRF2025 submitted data, University category",
+    "resource": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0356.pdf",
+    "publisher": "KIIT institutional submission hosted by Ministry of Education, NIRF",
+    "published_on": "2025",
+    "accessed_on": "2026-10-02",
+    "locator": "PDF page2, UG[4Years] placement and higher studies; graduating years2021–22 to2023–24",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Institution-reported cohorts; minimum-time graduates, placement and higher-study columns kept separate. Admissions exceed stated intake in selected rows; preserve and flag, do not infer a regulatory violation.",
+    "capture_sha256": "5a98475fca719526edf8a10f19b1f3b45a37fdf37b02b31d86935ea6c1f67c00"
+  },
+  "education-cutm-act2010": {
+    "id": "education-cutm-act2010",
+    "title": "Centurion University of Technology and Management, Orissa Act, 2010",
+    "resource": "https://cutm.ac.in/wp-content/uploads/2024/11/1355.pdf",
+    "publisher": "Odisha Law Department; university-hosted Gazette copy",
+    "published_on": "2010-08-27",
+    "accessed_on": "2026-10-02",
+    "locator": "Gazette1355; preamble, sections1 and6; PDF pages1,7",
+    "capture_method": "original_public_html_or_pdf; selected PDF tables visually reviewed",
+    "capture_note": "Act4of2010: self-financed private institution. Assent25August and publication27August are distinct from notification establishing the university.",
+    "capture_sha256": "8b584360851882de2382d382a7580a0af564c13e6755b2d1904ac452ad28e07b"
   }
 }

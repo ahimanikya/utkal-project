@@ -299,3 +299,7 @@ Recovered one later original department report and reused saved procurement quan
 ## Buddhist learning and Pushpagiri · 2 October 2026 UTC
 
 Reused existing Buddhist-learning, Udayagiri, Ratnagiri, Lalitgiri and circuit story. Added Langudi as a separate identity and two source records; no duplicate universe of site counts or invented university.
+
+## Universities and graduate evidence · 2 October 2026 UTC
+
+Enhanced the existing 18 institution directory and two 2025 rank observations; added 2024 comparators, Utkal rank bands and six cohorts without duplicating statewide atlas data. New source identities are distinct publications; shared UGC/NIRF publishers do not provide independent corroboration.

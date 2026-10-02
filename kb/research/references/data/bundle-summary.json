@@ -1,10 +1,10 @@
 {
   "edition": "1.3.0",
   "okf_version": "0.2",
-  "generated_at": "2026-10-02T02:18:39.272261+00:00",
-  "concept_count": 986,
-  "unique_source_urls": 448,
-  "source_records": 470,
+  "generated_at": "2026-10-02T02:48:58.849144+00:00",
+  "concept_count": 999,
+  "unique_source_urls": 460,
+  "source_records": 482,
   "section_counts": {
     "about": 12,
     "cities": 2,
@@ -21,9 +21,9 @@
     "people": 66,
     "places": 26,
     "product": 6,
-    "sources": 470,
+    "sources": 482,
     "statistics": 80,
-    "stories": 15,
+    "stories": 16,
     "subjects": 9,
     "technology": 4,
     "trade": 7,
@@ -151,7 +151,7 @@
   },
   "research_pipeline": {
     "queue_tasks": 62,
-    "completed_tasks": 24,
+    "completed_tasks": 25,
     "publisher_discovery_pages_checked": 4,
     "monitoring_tracks_seeded": 17,
     "automation_status": "ACTIVE",
@@ -159,14 +159,14 @@
     "cadence": "Every six hours",
     "discovery_feed_records": 18,
     "monitoring_tracks_mapped": 17,
-    "last_run_id": "2026-10-02-buddhist-learning",
-    "last_run_status": "bounded_buddhist_learning_complete",
+    "last_run_id": "2026-10-02-universities",
+    "last_run_status": "bounded_university_evidence_complete",
     "in_progress_task": null,
-    "next_task": "RES-046",
+    "next_task": "RES-047",
     "task_status_counts": {
-      "completed": 24,
+      "completed": 25,
       "blocked": 8,
-      "pending": 29,
+      "pending": 28,
       "in_progress": 1
     }
   },
@@ -199,7 +199,7 @@
     "shared_publication_groups": 10,
     "exact_within_atlas_duplicates": 0,
     "semantic_deduplication_complete": false,
-    "current_map_records": 1155
+    "current_map_records": 1168
   },
   "entrepreneurs_and_businesses": {
     "selected_people": 5,
@@ -409,5 +409,10 @@
     "typed_claims": 9,
     "chronology_entries": 6,
     "scope": "Bounded primary-source checkpoint; no enrolment, rankings or consensus claim"
+  },
+  "universities": {
+    "selected_ugc_identities": 18,
+    "graduate_cohorts": 6,
+    "scope": "Selected institutions; no statewide totals or programme approval."
   }
 }

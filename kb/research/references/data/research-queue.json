@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T02:18:39.272261+00:00",
+  "updated_at": "2026-10-02T02:48:58.849144+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2093,14 +2093,28 @@
       "title": "Current universities and comparable higher-education evidence",
       "done_when": "Verify selected public, private, central and deemed institution identities against UGC and Acts; add dated strengths and comparable rank/score/outcome records. Separate institutes, campus locations, programme approval and institutional status.",
       "target": "culture/universities-and-learning.md",
-      "status": "pending",
-      "attempts": 1,
+      "status": "completed",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-01T19:04:12.192294+00:00",
-      "next_step": "Verify selected public, private, central and deemed institution identities against UGC and Acts; add dated strengths and comparable rank/score/outcome records. Separate institutes, campus locations, programme approval and institutional status.",
+      "last_worked_at": "2026-10-02T02:48:58.849144+00:00",
+      "next_step": "Bounded selected-institution criteria met:18UGC identity matches, original Acts/notification for state/central/private cases, three deemed dates, dated category/component scores and six outcome cohorts. Expand discipline and public/central outcomes later;2026ranking check remains8October. Proceed to RES-047, reusing these identities and cohorts.",
       "evidence_outputs": [
         "culture/universities-and-learning.md",
-        "references/data/culture-learning.json"
+        "references/data/culture-learning.json",
+        "sources/education-ugc-register2026.md",
+        "sources/education-ugc-deemed2026.md",
+        "sources/education-utkal-act1989.md",
+        "sources/education-cutm-act2010.md",
+        "sources/education-cutm-established2010.md",
+        "sources/education-cutm-ugc2013.md",
+        "sources/education-central-act2009.md",
+        "sources/education-nirf-university-2024.md",
+        "sources/education-nirf-band2024.md",
+        "sources/education-nirf-band2025.md",
+        "sources/education-soa-nirf2025.md",
+        "sources/education-kiit-nirf2025.md",
+        "stories/odisha-university-evidence.md",
+        "people/achyuta-samanta.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2110,18 +2124,39 @@
           "at": "2026-10-01T19:04:12.192294+00:00",
           "outcome": "source_backed_starting_checkpoint",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-02-universities",
+          "at": "2026-10-02T02:48:58.849144+00:00",
+          "outcome": "ugc_identity_statutory_dates_and_comparable_outcome_checkpoint",
+          "completion_criteria_met": true,
+          "acceptance_scope": "Selected identities across legal categories and dated score/rank/outcome records; no exhaustive institutions, programme approval or independently audited jobs claim."
         }
       ],
       "reuse_before_research": {
         "source_records": [
           "culture/universities-and-learning.md",
           "statistics/education.md",
-          "references/data/culture-learning.json"
+          "references/data/culture-learning.json",
+          "sources/education-ugc-register2026.md",
+          "sources/education-ugc-deemed2026.md",
+          "sources/education-utkal-act1989.md",
+          "sources/education-cutm-act2010.md",
+          "sources/education-cutm-established2010.md",
+          "sources/education-cutm-ugc2013.md",
+          "sources/education-central-act2009.md",
+          "sources/education-nirf-university-2024.md",
+          "sources/education-nirf-band2024.md",
+          "sources/education-nirf-band2025.md",
+          "sources/education-soa-nirf2025.md",
+          "sources/education-kiit-nirf2025.md",
+          "stories/odisha-university-evidence.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "completed_at": "2026-10-02T02:48:58.849144+00:00"
     },
     {
       "id": "RES-047",
@@ -2152,7 +2187,11 @@
         "source_records": [
           "people/achyuta-samanta.md",
           "references/data/people-creations.json",
-          "references/data/culture-learning.json"
+          "references/data/culture-learning.json",
+          "culture/universities-and-learning.md",
+          "sources/education-ugc-register2026.md",
+          "sources/education-ugc-deemed2026.md",
+          "sources/education-kiit-nirf2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

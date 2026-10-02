@@ -50,3 +50,7 @@ RES-044 initial deliverable completed with scoped credits and media limits. Cult
 ## Buddhist-learning milestone · 2 October 2026 UTC
 
 RES-045 bounded criteria are complete: original excavation/inscription publication, credited Xuanzang translation, dated sequence and disputed site identification recorded. Specialist reassessment remains open. RES-046 is the next independent task.
+
+## University evidence milestone · 2 October 2026 UTC
+
+RES-046 selected-institution criteria complete.18 existing identities checked in UGC, with statutory cases and dated NIRF comparisons. Six self-reported graduate cohorts retain scope and limitations. RES-047 next, reusing these records for the Achyuta Samanta/KIIT/KISS journey.

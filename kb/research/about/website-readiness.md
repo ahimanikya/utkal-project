@@ -101,3 +101,7 @@ Draft combined paddy-payment story added with KMS and category visible. Eleven o
 ## Buddhist learning and Pushpagiri · 2 October 2026 UTC
 
 Buddhist-learning narrative now has an original excavation/inscription report, credited English translation and dated chronology. Source-backed seal story available; specialist/Odia review, image rights and current visitor access remain unverified. No website publication.
+
+## Universities and graduate evidence · 2 October 2026 UTC
+
+A dated university story is ready for editorial selection, with rank declines and cohort limits visible. Current admissions advice, independent employment audit and website publication are not claimed.

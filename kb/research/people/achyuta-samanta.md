@@ -4,7 +4,7 @@ title: "Achyuta Samanta: education-building journey"
 description: "Achyuta Samanta: education-building journey — sourced starting record and further questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:04:12.192294+00:00"}
-sources: [{"id": "education-kiit-history", "title": "History of KIIT", "resource": "https://kiit.ac.in/about/history/"}, {"id": "education-kiss-history", "title": "Our Story & Milestones", "resource": "https://kissnew.kiss.ac.in/our-story-milestones/"}, {"id": "education-dhe-universities", "title": "List of Universities in Odisha", "resource": "https://dhe.odisha.gov.in/en/universities/list-of-univerisities-in-odisha"}]
+sources: [{"id": "education-kiit-history", "title": "History of KIIT", "resource": "https://kiit.ac.in/about/history/"}, {"id": "education-kiss-history", "title": "Our Story & Milestones", "resource": "https://kissnew.kiss.ac.in/our-story-milestones/"}, {"id": "education-dhe-universities", "title": "List of Universities in Odisha", "resource": "https://dhe.odisha.gov.in/en/universities/list-of-univerisities-in-odisha"}, {"id": "education-ugc-deemed2026", "title": "UGC: List of Deemed to be Universities", "resource": "https://deemed.ugc.ac.in/Home/ListOfDeemedToBeUniversity"}]
 human_review_claimed: false
 subjects: ["people", "everyday"]
 ---
@@ -22,3 +22,7 @@ Next: verify legal notifications, an independently sourced personal chronology, 
 [Universities](../culture/universities-and-learning.md) provides categories and a dated ranking example.
 
 [Related reading](../culture/universities-and-learning.md) — Connects a founder’s attributed history to institutional categories and dated comparisons; association alone does not measure educational impact.
+
+## University status and earlier institutional history
+
+The UGC deemed-university register records KIIT’s date as 16 February 2004 and KISS’s as 25 August 2017. These concern university status; the earlier 1992/1993 KISS school/society chronology remains unresolved. [UGC register](https://deemed.ugc.ac.in/Home/ListOfDeemedToBeUniversity). [Related institutional evidence](../culture/universities-and-learning.md) separates current identities, status dates and reported student outcomes.

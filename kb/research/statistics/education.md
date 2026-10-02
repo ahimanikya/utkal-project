@@ -5,7 +5,7 @@ description: "Education — source-linked research, scope and reuse notes."
 tags: ["statistics", "education"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
-sources: [{"id": "people-nfhs6", "title": "National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets", "resource": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf"}, {"id": "people-udise2025", "title": "UDISE+ 2024–25 Report: Existing Structure", "resource": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf"}]
+sources: [{"id": "people-nfhs6", "title": "National Family Health Survey (NFHS-6), 2023–2024: Fact Sheets", "resource": "https://www.nfhsiips.in/nfhsuser/assets/National%20Family%20Health%20Survey%20(NFHS-6)%202023-2024%20Fact%20Sheets.pdf"}, {"id": "people-udise2025", "title": "UDISE+ 2024–25 Report: Existing Structure", "resource": "https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf"}, {"id": "education-ugc-register2026", "title": "UGC public university register: selected Odisha identities", "resource": "https://www.ugc.gov.in/universitydetails/Getuniversity_details?unitypeID=0"}, {"id": "education-soa-nirf2025", "title": "SOA: NIRF2025 submitted data, University category", "resource": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0363.pdf"}, {"id": "education-kiit-nirf2025", "title": "KIIT: NIRF2025 submitted data, University category", "resource": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/University/IR-O-U-0356.pdf"}]
 subjects: ["everyday", "people"]
 updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
@@ -58,3 +58,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 [^people-udise2025]: [UDISE+ 2024–25 Report: Existing Structure](https://dashboard.udiseplus.gov.in/report2025/static/media/UDISE%2B2024_25_Booklet_existing.118ba29d4773e6372f72.pdf)
 
 [Universities and learning](../culture/universities-and-learning.md) adds higher-education categories and a clearly dated NIRF example; school-system observations here remain separate.
+
+[Higher-education evidence](../culture/universities-and-learning.md) now links 18 UGC identity checks, dated NIRF scores/rank bands and six institutional graduate cohorts. These remain in culture-learning.json as the canonical record and are not duplicated as statewide atlas totals.
+
+[Related reading](../culture/universities-and-learning.md) — Adds institutional higher-education outcomes while school-system observations remain separate.

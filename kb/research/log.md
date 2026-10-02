@@ -344,3 +344,7 @@ RES-061: recovered2025–26 scanned government report, visually checked relevant
 ## Buddhist learning and Pushpagiri · 2 October 2026 UTC
 
 RES-045 bounded deliverable completed: ASI2007 excavation/inscription evidence and Li Rongxi1996 translation inspected. Nine typed claims and six chronology entries saved. Langudi dispute and missing primary plates retained; RES-046 next.
+
+## Universities and graduate evidence · 2 October 2026 UTC
+
+RES-046 bounded selected-institution deliverable complete:18 UGC identities, original statutory cases, three deemed dates, two-year ranking/component comparisons, two Utkal bands and six graduate cohorts. Source-led story saved; RES-047 next.

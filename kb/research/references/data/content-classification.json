@@ -4453,6 +4453,16 @@
       "content_type": "Place",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/odisha-university-evidence",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6464,6 +6474,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Provides the chronology and separates excavation from literary testimony."
+    },
+    {
+      "from": "stories/odisha-university-evidence",
+      "to": "culture/universities-and-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains legal categories, institutional scope and comparison limits."
+    },
+    {
+      "from": "culture/universities-and-learning",
+      "to": "people/achyuta-samanta",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates institutional legal milestones from a founder’s biography."
+    },
+    {
+      "from": "statistics/education",
+      "to": "culture/universities-and-learning",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Adds institutional higher-education outcomes while school-system observations remain separate."
     }
   ],
   "relationship_types": {

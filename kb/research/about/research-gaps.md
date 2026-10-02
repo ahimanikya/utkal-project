@@ -330,3 +330,7 @@ The later 2025–26 report is now available locally and visually reviewed for pr
 ## Buddhist learning and Pushpagiri · 2 October 2026 UTC
 
 RES-045 bounded source-review deliverable complete. Langudi identification remains attributed and contested in the reviewed2007 report. Original Mukherjee1997/1998 plates and later reassessments remain follow-ups. Country-level literary counts cannot establish university enrolment, exact regional population or modern boundaries.
+
+## Universities and graduate evidence · 2 October 2026 UTC
+
+RES-046 selected identity/comparison deliverable complete. Current 18 UGC checks recovered; original statutory sources and six institutional cohorts saved. Annual methodological comparability, public/central/private matched outcomes, programme approvals,2026 rankings and the KIIT admission/intake scope question remain open. Central Act IndiaCode routes failed; university-hosted original Gazette available.

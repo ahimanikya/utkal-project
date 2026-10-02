@@ -255,3 +255,7 @@ The user requested merging this task’s research PRs. PRs 22, 24 and 33 passed 
 ## 2 October 2026 · Buddhist learning and Pushpagiri
 
 [Research receipt](records/buddhist-learning-2026-10-02.json): Nine typed historical claims and six chronology entries added. RES-045 bounded primary-source criteria complete; Langudi disagreement retained. RES-046 next. No website release.
+
+## 2 October 2026 · Universities and graduate evidence
+
+[Research receipt](records/universities-2026-10-02.json): Eighteen existing UGC identities checked; six graduate cohorts and dated rank/score comparisons added. RES-046 selected-institution criteria complete; RES-047 next. No website release.
