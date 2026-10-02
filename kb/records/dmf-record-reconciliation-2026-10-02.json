@@ -1,7 +1,7 @@
 {
   "run_id": "2026-10-02-dmf-record-reconciliation",
   "at": "2026-10-02T20:54:18.878669+00:00",
-  "status": "validated_for_integration",
+  "status": "merged_research_checkpoint",
   "authorization_quote": "go",
   "human_owner": "Ahimanikya Satapathy",
   "new_source_ids": [
@@ -155,6 +155,11 @@
     "bundle": "passed",
     "authority_registers": "passed",
     "diff": "passed",
-    "remote_ci": "pending"
-  }
+    "remote_ci": "passed"
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/68",
+  "merge_commit": "a52794bd50639469e09970efd87870f8ca3d7554",
+  "merged_at": "2026-10-02T21:00:49Z",
+  "validated_head": "e1d16b2623ff0caa9df34062d638f4aa08de5305",
+  "remote_ci": "https://github.com/ahimanikya/utkal-project/actions/runs/37063999782"
 }

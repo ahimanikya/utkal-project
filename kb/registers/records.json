@@ -4287,19 +4287,20 @@
       "id": "UTP-WORK-148",
       "title": "Compare original accounts and specify missing facility records",
       "category": "research",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-166",
-      "next_action": "Integrate validated comparison; future work depends on named reconciliation and facility records.",
+      "next_action": "Bounded comparison merged. RES-053 awaits named reconciliation and facility records; retain source conflicts and unknown current outcomes.",
       "blockers": [],
       "refs": [
         "UTP-DEC-166",
-        "UTP-REV-126"
+        "UTP-REV-126",
+        "UTP-REL-054"
       ],
       "evidence": [
         "records/dmf-record-reconciliation-2026-10-02.json"
@@ -11544,6 +11545,22 @@
         "records/dmf-service-followup-2026-10-02.json"
       ],
       "note": "PR66 merged after CI passed. Relevant audit reading complete, six scoped conflict holds and one Parliament schedule source recorded. Current service and outcome evidence remains unresolved; no website story publication."
+    },
+    {
+      "id": "UTP-REL-054",
+      "title": "Mining receipt and DMF accounting-basis comparison integrated",
+      "status": "applied",
+      "authorization": "UTP-DEC-166",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/kb",
+      "refs": [
+        "UTP-WORK-148",
+        "UTP-REV-126",
+        "UTP-DEC-166"
+      ],
+      "evidence": [
+        "records/dmf-record-reconciliation-2026-10-02.json"
+      ],
+      "note": "PR68 merged after CI passed. Two original sources and two higher-precision receipt rows; prior 954 observations unchanged. Six unsent record questions specify remaining dependencies. Research only."
     }
   ],
   "sources": [
