@@ -126,7 +126,7 @@ Two people, three works and six sources extend the map to 864. Existing NISER so
 
 Four new identities, five works, one collection and ten source records extend the map to 884. Source and repository-native name searches preceded research; Ray and Pattnaik reused. Bagchi editions are separate from first-publication claims. Several CFDA articles remain one publisher family, not independent corroboration. RES-034 records the explicit user addition; RES-029 remains in progress.
 
-### Creative women extension · 1 October2026
+### Creative women extension · 1 October 2026
 
 Four people, five work/performance records and twelve sources extend the map to 905. Existing contemporary collection and Jatin Das/Ray/Kelucharan profiles reused. Festival selection is not an award; performer is not automatically choreographer; translated work retains unresolved translator rather than assigning the author that role. Source/project name searches preceded browsing.
 
@@ -185,3 +185,175 @@ RES-039 saves five new food entries and a connected collection, reusing chatu pa
 ## Pala research checkpoint · 1 October 2026
 
 User-requested RES-040 adds Pala as an arts/everyday-life topic, six source records and structured performance/archive evidence. Existing source and repository-native searches found no Pala identity. The 2012 review preserves named women performers and separates Pala from Daskathia. Foundation pages share provenance; the award biography has a likely derivative foundation version. Two government PDFs remain indexed-only, retry 8 October. Origin chronology, local roles, biographies, recordings/rights and livelihoods need further evidence; no current troupe or audience totals asserted.
+
+## Koli fruit-name seed · 1 October 2026
+
+RES-041 saves twelve selected name-to-taxon records and the Khirakoli overlap, using RPRC and original research. Names and seasons retain source scope; no statewide variety total, accepted-taxonomy claim, health effect or export measurement. Local/Odia review, specimen reconciliation and attributed recipes remain open. Existing everyday-food identity reused.
+
+## Bela pana extension · 1 October 2026
+
+RES-039 now includes a source-attributed summer drink method, a richer variant and an institutional 2023 New Year event record. Existing Balasore botanical evidence reused; Bela and kaitha kept separate. Recipe quantities/testing, local/Odia review and market data remain open. The Odisha Review PDF exceeds browser fetch size; retry 8 October. Tala khaja seed-stage gap remains unchanged.
+
+## Nandankanan seed · 1 October 2026
+
+RES-042 saves five financial years of visits and receipts, a separate 25 December 2025 snapshot and conservation events. Four park publications share institutional provenance. Largest/first claims need comparative or independent evidence; exchange-species discrepancy (27 versus 30) is held. Programme survival, inventory reconciliation, pre-pandemic comparison, current access and media rights remain open. No independent welfare review claimed.
+
+## Ekamra Kanan claim check · 1 October 2026
+
+RES-043 distinguishes RPRC’s attributed Asia-largest cactus collection from an unsupported Asia-biggest park claim. Eight undated collection figures retain mixed units; comparative taxonomy and dates, park boundaries and opening-hour contradictions remain open. Existing wild-fruit evidence reused; no independent ranking or current visitor readiness claimed.
+
+[Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+### Forest-product identities · 1 October 2026
+
+Added kendu-patra, Mohu/honey and mahua/mohula profiles and three sources. The user clarified Mohu as honey. Reused existing sales and plant-processing observations; RES-056–058 now point to these records. Fifteen product entries include unverified leads and are not a statewide inventory.
+
+### Seasonal forest research · 1 October 2026
+
+RES-056 enhanced existing honey and mahua profiles, added siali and three source records. Botanical identities, historical descriptions and research-developed foods retain separate evidence classes. No new market statistics or duplicate task IDs.
+
+### Encyclopedia scope clarification · 1 October 2026
+
+Three editorial records make the user’s broad scope visible. Reused literary, science, faith, maritime, mineral and people research. RES-059 adds missing geopolitical synthesis; existing religion tasks and canonical records remain intact. No fresh facts or publication approval inferred.
+
+### Mahua preparation recovery · 1 October 2026
+
+Two sources enhance the existing mahua profile. A2009 field account published 2016 supplies local collection and preparation context; OUAT 2020–21 supplies a research-unit rating. Neither duplicates the earlier food-development abstract. Existing food and task identities retained.
+
+### Rice extension · 1 October 2026
+
+RES-060–062 reuse Kalajeera, agriculture observations and rice seed deployment. New register separates21 named identities by evidence type. Bulletin and old-domain release page are institutional sources, not independent verification of the same statement. Only missing fields are scheduled.
+
+## 1 October 2026 · Rice trends and returns
+
+Rice trend extension reuses the existing source and register. Historical-table precision variants are linked, not treated as independent evidence. RES-061 now has saved trend and experimental-economics pointers.
+
+## Leaf craft extension · 1 October 2026
+
+Existing siali and forest-product identities were reused. Sal now has one profile for two existing material entries. Three primary publications supply distinct local accounts; the JICA cover and appendix remain one source. No new research task or duplicate maker biography was created.
+
+## Forest fruit extension · 1 October 2026
+
+Two profiles deepen existing tamarind/chara product leads. Koli identity and two existing primary studies were reused; only unread fields were researched. Three additional source records distinguish institutional cultivar evidence, historical testimony and an inaccessible processing lead.
+
+## Forest-payment extension · 1 October 2026
+
+Existing forest statistics enhanced, reusing the 2025 report. Two new publisher sources distinguish live welfare figures from an original annual-report comparative. The readable story links to canonical statistics; no duplicate kendu profile or task.
+
+## Palm-seed identity extension · 1 October 2026
+
+RES-039 reuses everyday-food and tala-pitha records. One original publication adds a Talagaja comparison and historical season/study scope. Tala khaja remains unresolved; publisher tabs are a single source. No new research task created.
+
+## Palm anatomy and processing extension · 1 October 2026
+
+Existing Talagaja, everyday-food and preparation records extended. Three sources cover seed biology, experimental flour and attributed regional words. Similar2019 flour versions are not independent corroboration. No duplicate food identity or new task created.
+
+## Dance and music checkpoint · 1 October 2026
+
+Existing Odissi, Kelucharan, Chaurasia and Mayurbhanj Chhau reused, including native northern destination work. Added three regional-form pages, one collection and seven sources. Existing folk source retained. Two forms share one administrative register; that is not independent corroboration.
+
+## Music credits and access milestone · 1 October 2026
+
+Three song identities added after saved-knowledge/name searches. Existing Chaurasia and Dalkhai reused. Label video and distribution metadata share provenance; catalogue editions are not additional independent works.
+
+## Coal series checkpoint · 1 October 2026
+
+RES-051 enhanced existing mining concepts; added one coal topic and two source records after saved-knowledge searches. Directory production, resource and block tables share one publication; OCPL’s current page contains historical2019 data. Six selected blocks are not statewide coverage.
+
+## Ore reconciliation checkpoint · 1 October 2026
+
+RES-051 reused comparison-6-1/7-1/8-1 as aliases of one state table and extended mining-ibm-yearbook 2024 beyond discovery. One new topic links132 new scoped observations; no new source ID or frozen-ledger rewrite.
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+Existing NALCO excavation/capex records, IBM district links and mining programme reused. One connected case and three source records added; corporate report/page are one publisher family. Existing task IDs retained; RES-052 can reuse this case.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+Added two named bauxite identities through one connected concept and four source records. Reused IBM producer-district entries and NALCO processing research. Same ASI certification across report/announcement is one evidence family, not independent corroboration.
+
+## Baphlimali returns · 2 October 2026 UTC
+
+Enhanced existing Baphlimali concept and structured mine identity. Two original company records add output/payment/work scope; no duplicate mine profile. Company annual return and compliance narrative share provenance. ASI is a separate certification purpose, not interchangeable workforce corroboration.
+
+## Forest trade follow-up · 2 October 2026 UTC
+
+Enhanced existing forest-product and worker-support concepts; added two original sources, a scoped enterprise story and five named leads. Saved OFDC report reused without claiming independent corroboration. Newer indexed figures remain outside the evidence ledger.
+
+## Rice, place and food · 2 October 2026 UTC
+
+Extended seven existing rice records and nine name-level food-use accounts. Two new sources; existing Tulasa source corrected with revision history. No duplicate genotype, person biography or new research task.
+
+## Rice costs and returns · 2 October 2026 UTC
+
+Extended existing rice economics with one original study, eight observations and a linked cost story. No repeat production-series extraction or duplicate mirror corroboration.
+
+## Paddy procurement reconciliation · 2 October 2026 UTC
+
+Recovered one later original department report and reused saved procurement quantity/MSP records. Added two concepts; preserved earlier vintages and unresolved partial-snapshot date.
+
+## Buddhist learning and Pushpagiri · 2 October 2026 UTC
+
+Reused existing Buddhist-learning, Udayagiri, Ratnagiri, Lalitgiri and circuit story. Added Langudi as a separate identity and two source records; no duplicate universe of site counts or invented university.
+
+## Universities and graduate evidence · 2 October 2026 UTC
+
+Enhanced the existing 18 institution directory and two 2025 rank observations; added 2024 comparators, Utkal rank bands and six cohorts without duplicating statewide atlas data. New source identities are distinct publications; shared UGC/NIRF publishers do not provide independent corroboration.
+
+## Samanta, KIIT and KISS checkpoint · 2 October 2026 UTC
+
+Existing Achyuta Samanta identity enhanced. Four source publications and one related story added; prior KIIT cohorts referenced by IDs. Ministry instruments, institutional accounts and Parliament biography have different scopes, not interchangeable corroboration.
+
+## KISS student outcomes · 2 October 2026 UTC
+
+Five distinct publications enhance existing Samanta/university/story identities. Institutional AQAR and NIRF share provenance; duplicate Part B tables are not second observations. ASCI scope is commissioned/institution-engaged; the qualitative paper remains abstract-only.
+
+## Jagannath origins · 2 October 2026 UTC
+
+Jagannath synthesis reuses existing place/ruler/Mahaprasad pages and native Raghurajpur destination material. Three source identities added. ASI scan and mirror transcription are the same edition; separate Purana chapters are one narrative family.
+
+## KISS records and account vintages · 2 October2026 UTC
+
+Two source identities enhance existing Samanta/story pages. Alumni society registration is a distinct entity from school/university founding. Original FY2023–24 and later comparative figures are preserved as separate vintages.
+
+## Yogini heritage · 2 October 2026 UTC
+
+Four source identities and two distinct place records added after source and repository-native searches. Existing Tantric/Buddhist pages reused. IGNCA inventory family and Hatley scholarship family are explicit; repeated publication is not independent confirmation.
+
+## Mahima Dharma and English reading · 2 October2026 UTC
+
+One work and three source identities extend existing Mahima and repository-native Bhima Bhoi knowledge. No second person biography. Original monograph reinspection expands scope; catalogue/product and shared scholarly references do not constitute independent corroboration.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+Four source/discovery identities and one story draft extend six existing sweet entries; no duplicate food or maker biographies. Saved GI specifications are reused with their original provenance. Same-paper web/PDF copies are not independent corroboration.
+
+## Sweets economics checkpoint · 2 October 2026 UTC
+
+Four source/discovery identities and one story draft extend six existing sweet entries; no duplicate food or maker biographies. Saved GI specifications are reused with their original provenance. Same-paper web/PDF copies are not independent corroboration.
+
+The repository-native `kb/research/food/odisha-rasagola.md` has a richer ritual/literary narrative and saved OSIC/travelogue sources. This batch preserves it and adds the economic section; RES-031 pointers now include that page and `food/collection.json`. This extension corrects an incomplete reuse entrance in the dated map.
+
+## Sweet makers and town commerce · 2 October 2026 UTC
+
+RES-031 adds two source identities and extends existing food/economy/story pages. Three maker credits remain within shared sweets data. The university’s two recipe sections and Census repeated tables count as single publications; no exhaustive deduplication claim.
+
+## Sweet histories and market evidence · 2 October 2026 UTC
+
+Five source/lead identities extend existing sweets entries and shared maker credits. Local history book launch is not its text; APEDA news mirrors are not independent corroboration. New relationships connect food and economic research with explicit limits.
+
+## Handloom market checkpoint · 2 October 2026 UTC
+
+Six existing textile identities enhanced, six source records and one story added. Repository-native central destination details consulted; no matching textile research found. Existing census and broad textile export observations reused by reference. Multiple Boyanika pages are one publisher, not independent corroboration.
+
+## Handloom techniques and makers · 2 October 2026 UTC
+
+Seven new source/lead records deepen existing textile identities. Ghose2017 recovered as a full document; selected pages reviewed. IHB/compendium overlapping prose treated as a shared family. Maker credits stay in the shared dataset without duplicate biographies.
+
+## Handloom cooperatives and creations · 2 October 2026 UTC
+
+Two downloaded primary PDFs extend existing identities; actual GI heading1September2026 and hash retained despite stale filename/indexed version. No duplicate biographies. Five cooperative routes and three works point to precise rows/pages.

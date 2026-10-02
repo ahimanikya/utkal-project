@@ -1,0 +1,544 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02T10:43:57.786283+00:00",
+  "run_id": "2026-10-02-sweet-history",
+  "scope": "Six selected sweet identities and bounded economic evidence; not a statewide market census.",
+  "observations": [
+    {
+      "id": "pahala-retailer-sample",
+      "metric": "retailer_interviews",
+      "value": 10,
+      "unit": "retailers",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2306, Materials and Methods",
+      "scope": "Sample size, not total enterprises or representative statewide survey.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-consumer-sample",
+      "metric": "consumer_interviews",
+      "value": 200,
+      "unit": "consumers",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2306, Materials and Methods",
+      "scope": "Roadside commuters/customers; sampling dates and selection detail absent.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-batch-ingredients",
+      "metric": "listed_ingredient_cost",
+      "value": 2000,
+      "unit": "INR per described 20 kg batch",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "nominal INR as reported; not inflation-adjusted",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2307, Table 1",
+      "scope": "Ingredients only; not full cost or profit. Labour, fuel, packaging, transport, depreciation and wastage not costed in this table.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-chhena-input",
+      "metric": "chhena_input_for_described_batch",
+      "value": 10,
+      "unit": "kg",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2307, Table 1",
+      "scope": "Described batch output 20 kg; not audited actual daily production or a universal recipe.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    },
+    {
+      "id": "pahala-consumer-shelf-life-rank",
+      "metric": "short_shelf_life_concern_rank",
+      "value": 1,
+      "unit": "rank",
+      "geography": "Pahala study area, Odisha",
+      "period": null,
+      "period_note": "Fieldwork dates not stated; publication December 2023 is not the survey period.",
+      "price_basis": "not_applicable",
+      "estimate_status": "author_reported_case_study",
+      "project_stage": "observed_study_account_not_current_outcome",
+      "source_ids": [
+        "sweets-pahala-study2023"
+      ],
+      "source_locator": "p.2308, Table 2",
+      "scope": "Garret score 76 is a ranking score, not 76% of consumers. No measured shelf-life duration established.",
+      "publication_status": "research_with_visible_qualifications",
+      "retrieved_on": "2026-10-02"
+    }
+  ],
+  "study_cost_breakdown": {
+    "source_id": "sweets-pahala-study2023",
+    "locator": "p.2307 Table 1",
+    "rows": [
+      {
+        "ingredient": "chhena",
+        "quantity_kg": 10,
+        "price_inr_per_kg": 140,
+        "cost_inr": 1400
+      },
+      {
+        "ingredient": "rava",
+        "quantity_kg": 2,
+        "price_inr_per_kg": 50,
+        "cost_inr": 100
+      },
+      {
+        "ingredient": "cardamom powder",
+        "quantity_kg": 0.25,
+        "price_inr_per_kg": 1200,
+        "cost_inr": 300
+      },
+      {
+        "ingredient": "sugar",
+        "quantity_kg": 5,
+        "price_inr_per_kg": 40,
+        "cost_inr": 200
+      }
+    ],
+    "reported_output_kg": 20,
+    "listed_total_inr": 2000,
+    "full_cost": false,
+    "recipe_tested": false
+  },
+  "relationships": [
+    {
+      "from": "Niali chhena producers",
+      "to": "Pahala sweet makers/retailers",
+      "type": "study_reported_supply",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "pp.2306–2307, Figure 2",
+      "period": null
+    },
+    {
+      "from": "Pahala sweet makers/retailers",
+      "to": [
+        "Sambalpur",
+        "Rourkela",
+        "Rayagada",
+        "West Bengal"
+      ],
+      "type": "study_reported_market_reach",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "pp.2306–2307",
+      "shipment_quantity": null,
+      "customs_exports": false,
+      "scope": "Places listed by authors, not a dated consignment ledger or international exports."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "pahala-revenue-arithmetic",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "p.2307 right column",
+      "reported_quantity_kg": 10,
+      "reported_price_range_inr_per_kg": [
+        150,
+        200
+      ],
+      "reported_revenue_range_inr": [
+        3000,
+        4000
+      ],
+      "arithmetic_for_stated_quantity_inr": [
+        1500,
+        2000
+      ],
+      "held_cluster_revenue_range_inr_per_day": [
+        165000,
+        220000
+      ],
+      "treatment": "Quarantine author revenue extrapolation. Do not silently change 10 kg to 20 kg; no annualisation or statewide expansion."
+    },
+    {
+      "id": "pahala-retailer-percentages",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "p.2306 sample; p.2307 Figure 3",
+      "reported_sample": 10,
+      "reported_percentages": [
+        45,
+        25,
+        30
+      ],
+      "treatment": "45% and25% do not map to whole-person counts in a simple unweighted sample of10. Weighting/alternate denominator not described; retain qualitative constraints only."
+    },
+    {
+      "id": "pahala-gi-date",
+      "source_id": "sweets-pahala-study2023",
+      "locator": "p.2306 Materials and Methods",
+      "reported_date": "2019-02-19",
+      "registry_certificate_date": "2019-07-29",
+      "registry_source_id": "gi-rasagola",
+      "treatment": "Retain existing registry certificate date; the paper is not the GI chronology authority."
+    },
+    {
+      "id": "industry-5500-crore",
+      "source_id": "sweets-industry-size-lead",
+      "reported_value": 5500,
+      "comparison": "over",
+      "unit": "INR crore",
+      "period": null,
+      "metric_definition": null,
+      "sampling_method": null,
+      "treatment": "Government-hosted news claim held; not a verified annual turnover, output or value-added total."
+    },
+    {
+      "id": "sisir-turnover-scope",
+      "source_id": "sweets-sisir-market2026",
+      "locator": "Whole-fair fifth-day turnover paragraph",
+      "reported_value": 2.75,
+      "unit": "INR crore",
+      "period": "2026-01-14 as Wednesday/Makar Sankranti in report",
+      "geography": "Sisir Saras fair, Bhubaneswar",
+      "price_basis": "nominal as reported",
+      "scope": "All participating products, not a Rasabali sales figure.",
+      "treatment": "Excluded from sweet observations; organiser return not retrieved. No apportionment or annualisation."
+    }
+  ],
+  "provisional_leads": [
+    {
+      "id": "kamadhenu-case-study",
+      "source_id": "sweets-kamadhenu-sdg2026",
+      "concept_id": "food/chhena-poda",
+      "place": "Tendabadi village, Daspalla block, Nayagarh",
+      "enterprise": "Kamadhenu Utpadaka Gosthi",
+      "evidence_status": "indexed_primary_passage_full_document_unavailable",
+      "publication_date": "2026-01",
+      "observation_period": null,
+      "candidate_values": {
+        "formation": "2020-12",
+        "members_women": 24,
+        "initial_daily_output_kg": 10,
+        "later_daily_output_kg": 50,
+        "initial_investment_inr": 200000,
+        "listed_selling_price_inr_per_kg": 180,
+        "reported_monthly_revenue_inr": 270000,
+        "reported_monthly_net_profit_inr": 160000
+      },
+      "scope": "All candidate values quarantined together; no audit, precise baseline/end period, cost coverage or per-member income established. Do not headline fivefold growth before full-page review.",
+      "retry_after": "2026-10-09",
+      "next_action": "Recover full p.26 and cover, then establish reporting dates and profit definition."
+    },
+    {
+      "id": "korakhai-market2016",
+      "source_id": "sweets-korakhai-makers2016",
+      "publication_date": "2016-10-14",
+      "observation_period": null,
+      "candidate_values": {
+        "old_town_shops_approx": 25,
+        "bhubaneswar_sales_quintals_per_day_approx": 5,
+        "old_town_sales_quintals_per_day_approx": 2,
+        "price_range_inr_per_kg": [
+          180,
+          220
+        ]
+      },
+      "scope": "Reporter estimates without named statistical source, fieldwork period or measurement method. Historical leads only, not current prices, verified output or revenue. Do not annualise or multiply into market size.",
+      "retry_after": "2026-10-16",
+      "next_action": "Seek dated merchant or municipal records; original method unknown. No contact or interview conducted by Utkal."
+    },
+    {
+      "id": "rasabali-nabard-support",
+      "source_id": "sweets-nabard-support-lead2024",
+      "evidence_status": "indexed_only_full_documents_unavailable",
+      "observation_period": null,
+      "geography_conflict": "Indexed row lists Maharashtra against Kendrapara Rasabali; original page not visually verified.",
+      "support_amount": null,
+      "unit": null,
+      "scope": "Do not infer product revenue, employment, grant amount or correct the publisher geography silently.",
+      "retry_after": "2026-10-09",
+      "next_action": "Retrieve complete table and unit heading; seek original correction or supported state mapping before any numeric use."
+    }
+  ],
+  "coverage": [
+    {
+      "concept_id": "food/odisha-rasagola",
+      "place_context": "Pahala; Niali chhena supply; Salepur display reference",
+      "checkpoint": "Original Pahala study extends market relationships; named businesses and current sales still absent.",
+      "source_ids": [
+        "sweets-pahala-study2023",
+        "gi-rasagola",
+        "sweets-pib-20250427"
+      ]
+    },
+    {
+      "concept_id": "food/chhena-poda",
+      "place_context": "Nayagarh association; Tendabadi enterprise lead",
+      "checkpoint": "Existing attributed preparation reused; indexed enterprise figures not promoted to verified observations.",
+      "source_ids": [
+        "sweets-kamadhenu-sdg2026",
+        "food-tourism"
+      ]
+    },
+    {
+      "concept_id": "food/chhena-jhili",
+      "place_context": "Nimapada",
+      "checkpoint": "University credits Aartabandhu Sahoo; origin date, enterprise accounts and current operation remain unknown.",
+      "source_ids": [
+        "food-tourism",
+        "regional-cuisine"
+      ]
+    },
+    {
+      "concept_id": "food/kendrapara-rasabali",
+      "place_context": "Kendrapara; Baladevjew temple",
+      "checkpoint": "Named maker expectations and January2026 market-event participation added. Seller/maker claims remain undated; NABARD support table unavailable/conflicted; no product turnover recovered.",
+      "source_ids": [
+        "food-rasabali-corrigendum2023",
+        "sweets-rasabali-maker2023",
+        "sweets-sisir-market2026",
+        "sweets-nabard-support-lead2024"
+      ]
+    },
+    {
+      "concept_id": "food/dhenkanal-magji",
+      "place_context": "Mandar–Sadangi, Gondia; Dhenkanal",
+      "checkpoint": "Named maker family account added; original cited history books unlocated. No dated enterprise accounts or shipments recovered.",
+      "source_ids": [
+        "food-magji-gi178",
+        "sweets-magji-maker2024",
+        "sweets-dhenkanal-book-lead2021"
+      ]
+    },
+    {
+      "concept_id": "food/korakhai",
+      "place_context": "Lingaraj temple area, Bhubaneswar Old Town",
+      "checkpoint": "1999 town commodity listing and 2016 named-maker reporting added. Press market estimates held; present-day accounts and shipments unknown.",
+      "source_ids": [
+        "food-tourism",
+        "sweets-khordha-census2001",
+        "sweets-korakhai-makers2016"
+      ]
+    }
+  ],
+  "export_check": {
+    "source_ids": [
+      "sweets-apeda-query-routes",
+      "sweets-pib-20250427"
+    ],
+    "interfaces_available": true,
+    "shipment_rows_recovered": false,
+    "quantities": null,
+    "values": null,
+    "destinations": null,
+    "not_zero_exports": true,
+    "next_action": "Find dated product-specific returns or shipment releases with Odisha manufacture and destination; broad commodity totals and registration lists insufficient."
+  },
+  "human_review_claimed": false,
+  "maker_credits": [
+    {
+      "id": "aartabandhu-sahoo-jhili",
+      "name": "Aartabandhu Sahoo",
+      "place": "Shyam Sundarpur village, Nimapara, Puri district",
+      "concept_id": "food/chhena-jhili",
+      "role": "credited with starting preparation",
+      "source_ids": [
+        "regional-cuisine"
+      ],
+      "locator": "Printed/PDFp.179, item 15",
+      "evidence_class": "institutional_teaching_attribution",
+      "invention_date": null,
+      "business_current_status": null,
+      "qualification": "No dated archival origin proof; no claim of exclusive authorship or quantified overseas sales."
+    },
+    {
+      "id": "rama-sahoo-korakhai",
+      "name": "Rama Sahoo",
+      "enterprise": "Baya Baba Kora Khai",
+      "place": "Bhubaneswar Old Town",
+      "concept_id": "food/korakhai",
+      "role": "reported founder",
+      "source_ids": [
+        "sweets-korakhai-makers2016"
+      ],
+      "locator": "Paragraph beginning Founded by Rama Sahoo",
+      "evidence_class": "original_local_reporting",
+      "reported_on": "2016-10-14",
+      "foundation_date": null,
+      "business_current_status": null
+    },
+    {
+      "id": "subash-sahu-korakhai",
+      "name": "Subash Sahu",
+      "enterprise": "Jagat Bikhyat Korakhai",
+      "enterprise_aliases": [
+        "Jagat Bikhayat Kora Khai"
+      ],
+      "place": "Bhubaneswar Old Town",
+      "concept_id": "food/korakhai",
+      "role": "interviewed owner in 2016 report",
+      "source_ids": [
+        "sweets-korakhai-makers2016"
+      ],
+      "locator": "Named owner interview",
+      "evidence_class": "maker_testimony_via_named_reporter",
+      "reported_on": "2016-10-14",
+      "business_current_status": null
+    },
+    {
+      "id": "hrushikesh-sahoo-magji",
+      "name": "Hrushikesh Sahoo",
+      "place": "Sadangi, Dhenkanal",
+      "concept_id": "food/dhenkanal-magji",
+      "role": "confectioner describing family practice",
+      "source_ids": [
+        "sweets-magji-maker2024"
+      ],
+      "locator": "Named maker statement",
+      "evidence_class": "maker_testimony_via_publisher",
+      "reported_on": "2024-01-04",
+      "family_account": "He says his grandfather and father also prepared Magji.",
+      "foundation_date": null,
+      "business_current_status": null,
+      "qualification": "Reported family recollection; no independently dated genealogy, sales or origin proof."
+    },
+    {
+      "id": "souri-sahoo-rasabali",
+      "name": "Souri Sahoo",
+      "place": "Kendrapara",
+      "concept_id": "food/kendrapara-rasabali",
+      "role": "Rasabali maker quoted on GI expectations",
+      "source_ids": [
+        "sweets-rasabali-maker2023"
+      ],
+      "locator": "Closing paragraph",
+      "evidence_class": "maker_testimony_via_publisher",
+      "reported_on": "2023-10-04",
+      "business_current_status": null,
+      "qualification": "Hoped-for market visibility and price improvement; no measured change."
+    }
+  ],
+  "historical_trade_records": [
+    {
+      "id": "bhubaneswar-korakhai1999",
+      "concept_id": "food/korakhai",
+      "source_ids": [
+        "sweets-khordha-census2001"
+      ],
+      "locator": "Printedp.499/PDFp.197, Statement VI, Bhubaneswar(M.Corp.) row; scope pp63,78,492",
+      "geography": "Bhubaneswar Municipal Corporation, historical directory boundary",
+      "period": "1999",
+      "publication_date": null,
+      "edition": "Census of India 2001",
+      "record_type": "administrative_commodity_listing",
+      "commodity_manufactured": "Kora Khai",
+      "commodity_exported_out_of_town": "Korakhai",
+      "international_exports_established": false,
+      "quantity": null,
+      "value": null,
+      "destinations": null,
+      "price_basis": "not_applicable",
+      "estimate_status": "directory_listing_not_economic_estimate",
+      "project_stage": "historical_record",
+      "qualification": "Table 47 analytical heading2001 repeats the listing; not an independent observation. Positions in the three-item list do not establish a monetary or volume ranking. Town directory information collected from Executive Officers for statutory towns, BDOs for census towns (p78)."
+    }
+  ],
+  "revision_history": [
+    {
+      "run_id": "2026-10-02-sweet-makers",
+      "at": "2026-10-02T09:44:47.633511+00:00",
+      "change": "Added three attributed maker credits, one scoped historical trade record and a quarantined 2016 market lead; earlier observations and conflicts retained."
+    },
+    {
+      "run_id": "2026-10-02-sweet-history",
+      "at": "2026-10-02T10:43:57.786283+00:00",
+      "change": "Two attributed maker credits, institutional role, dated market event, bibliographic lead and held support-table lead added; no new verified economic quantity."
+    }
+  ],
+  "institutional_roles": [
+    {
+      "name": "Baishava Panda",
+      "role": "association president as identified in report",
+      "organization": "Kendrapara Rasabali Makers’ Association",
+      "reported_on": "2023-10-04",
+      "source_ids": [
+        "sweets-rasabali-maker2023"
+      ],
+      "locator": "Association statement",
+      "current_role": null,
+      "scope": "Reported advocacy, not a business census or proof of achieved export growth."
+    }
+  ],
+  "market_events": [
+    {
+      "id": "rasabali-sisir2026",
+      "concept_id": "food/kendrapara-rasabali",
+      "event": "Sisir Saras Mela 2026",
+      "place": "Exhibition Ground, Bhubaneswar",
+      "period": "January 2026",
+      "publication_date": "2026-01-16",
+      "source_ids": [
+        "sweets-sisir-market2026"
+      ],
+      "locator": "ORMAS-attributed featured-product paragraph",
+      "evidence_class": "organiser_statement_via_news_report",
+      "project_stage": "reported_event_participation",
+      "product_sales_quantity": null,
+      "product_sales_value": null,
+      "shipments": null,
+      "scope": "Rasabali listed among featured stalls; whole-event turnover is not Rasabali turnover. No current availability inferred."
+    }
+  ],
+  "bibliographic_leads": [
+    {
+      "id": "magji-cited-histories",
+      "source_ids": [
+        "food-magji-gi178",
+        "sweets-dhenkanal-book-lead2021"
+      ],
+      "cited_author": "Pramod Kumar Mishra",
+      "cited_titles": [
+        {
+          "title": "Adhunika Dhenkanal Itihas",
+          "page": 230
+        },
+        {
+          "title": "Abibhakta Dhenkanal Itihas",
+          "page": 291
+        }
+      ],
+      "original_books_read": false,
+      "edition_identifiers": null,
+      "lead": "2021-08-14 local report of an Abibhakta Dhenkanal district-history book launch; exact edition equivalence not established.",
+      "held_claims": [
+        "Saint-origin chronology",
+        "Fakir Mohan Senapati/John Beams gift anecdote as relayed by GI applicant"
+      ],
+      "retry_after": "2026-10-09",
+      "next_action": "Locate title/copyright pages and cited pages through district cultural/library catalogue; no outreach performed."
+    }
+  ]
+}

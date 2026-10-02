@@ -35,3 +35,5 @@ Document producer, growing conditions and sensory description; avoid nutrition a
 [Related knowledge](../places/koraput.md) · [Research standards](../about/research-method.md)
 
 [^gi-kalajeera]: [Koraput Kalajeera Rice — GI application 814](https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/814)
+
+[Rice variety collection](rice-varieties.md) distinguishes Kalajeera from the improved selection Nua Kalajeera; current GI validity, seed identity and commercial volumes are separate verification tasks.

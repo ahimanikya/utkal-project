@@ -17,3 +17,7 @@ Fresh indexed official production and finance bullet list; direct open returned 
 Verification applies to the extracted indicators only. No human review is claimed.
 
 [^enterprise-nalco2026]: [NALCO Production and Financial Highlights FY2025–26](https://nalcoindia.com/company/our-growth-story/production-financial-highlights/)
+
+## Supplementary verification · 1 October 2026
+
+The 45th annual report confirms the rounded excavation figures in its chairman message (PDF12). Its five-year Bauxite table aligns instead with the 2025–26 transportation headline; do not replace the excavation series. [Processing case](../economy/bauxite-to-aluminium.md).

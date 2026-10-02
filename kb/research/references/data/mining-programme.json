@@ -1,0 +1,1923 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-02T00:49:26.791780+00:00",
+  "run_id": "2026-10-01-mining-programme",
+  "angles": [
+    {
+      "id": "minerals",
+      "title": "Minerals and geology",
+      "question": "Which minerals occur where, with what dated reserve/resource classifications?",
+      "publisher_targets": "IBM National Mineral Inventory, GSI, Directorate of Mines and Geology",
+      "interpretation_rule": "Stock estimates are not annual output or economically recoverable reserves.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "production",
+      "title": "Production and national position",
+      "question": "How have coal, iron ore, bauxite, chromite, manganese and other minerals changed over five and ten years?",
+      "publisher_targets": "IBM, Coal Controller, Odisha production/despatch returns",
+      "interpretation_rule": "Match units, grade, coverage and revision vintage; retain falls and interruptions.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "processing",
+      "title": "Processing and manufacturing",
+      "question": "How much ore is beneficiated, refined or made into metal and finished products inside Odisha?",
+      "publisher_targets": "Plant annual reports, Ministry of Steel, NALCO, OMC, company disclosures",
+      "interpretation_rule": "Mine output, refinery output, metal production and installed capacity cannot be added.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "public-money",
+      "title": "Revenue and public finances",
+      "question": "What do royalties, auction premiums and other receipts contribute, and how volatile are they?",
+      "publisher_targets": "Odisha Finance Accounts, budgets, Directorate revenue returns, CAG",
+      "interpretation_rule": "Separate actual receipts, revised estimates and budgets; do not label all mining receipts royalty.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "local-benefits",
+      "title": "Mining-area development",
+      "question": "What do DMF projects deliver in health, water, schooling and livelihoods?",
+      "publisher_targets": "District DMF accounts, completion records, CAG, district outcome data",
+      "interpretation_rule": "Collection, sanction, transfer, expenditure, completion and functioning service are distinct.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "work",
+      "title": "Jobs, skills and small businesses",
+      "question": "Who works in mines, plants, transport and supplier firms, under what employment conditions?",
+      "publisher_targets": "DGMS, labour statistics, enterprise reports, procurement disclosures",
+      "interpretation_rule": "Direct workers, contractors, indirect jobs and promised jobs need separate denominators.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "trade",
+      "title": "Trade and transport",
+      "question": "Where do minerals and metals go through railways, ports and domestic supply chains?",
+      "publisher_targets": "Railway freight records, port cargo reports, DGCIS/state-origin exports",
+      "interpretation_rule": "Cargo handled in an Odisha port is not necessarily produced in Odisha.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "communities",
+      "title": "Land, rights and communities",
+      "question": "How do acquisition, resettlement, consent, forest rights and local livelihoods affect mining communities?",
+      "publisher_targets": "Gram Sabha records, district orders, primary judgments and community scholarship",
+      "interpretation_rule": "Attribute contested claims and decisions; no invented consultations or blanket community views.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "environment",
+      "title": "Air, water, forests and health",
+      "question": "What do site monitoring records show about dust, water, waste, forests and exposure?",
+      "publisher_targets": "OSPCB/CPCB, PARIVESH clearances, compliance reports, peer-reviewed measurements",
+      "interpretation_rule": "Ambient concentrations and health outcomes require location, time and causal caution.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "restoration",
+      "title": "Safety and mine closure",
+      "question": "What happens during operation, closure and restoration, and what liabilities remain?",
+      "publisher_targets": "DGMS, IBM inspections, approved closure plans and financial assurance records",
+      "interpretation_rule": "Approval or plantation area alone does not prove safety or ecological recovery.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "governance",
+      "title": "Ownership and accountability",
+      "question": "Who owns and operates each lease; what is its current stage and compliance history?",
+      "publisher_targets": "Lease/auction registers, IBM, CAG, court decisions",
+      "interpretation_rule": "Auction winner, leaseholder, operator and corporate group are different identities.",
+      "status": "research_scope_not_completed"
+    },
+    {
+      "id": "future",
+      "title": "Industrial history and future materials",
+      "question": "How did mining towns develop, and what could recycling, research and critical minerals change?",
+      "publisher_targets": "Archives, institutional histories, CSIR-IMMT, IREL and project outcome records",
+      "interpretation_rule": "Preserve established production versus experiments, proposals and future scenarios.",
+      "status": "research_scope_not_completed"
+    }
+  ],
+  "observation_dataset": "statistics-atlas.json",
+  "observation_ids": [
+    "mining-value-share-2025",
+    "mining-iron-share-2025",
+    "mining-bauxite-share-2025",
+    "mining-chromite-2025",
+    "mining-chromite-change-2025",
+    "mining-dmf-contributions-2024",
+    "mining-dmf-sanctions-sample-2024",
+    "mining-dmf-spending-sample-2024",
+    "mining-dmf-utilisation-sample-2024",
+    "coal-cco-output-2015-16",
+    "coal-cco-share-2015-16",
+    "coal-cco-output-2016-17",
+    "coal-cco-share-2016-17",
+    "coal-cco-output-2017-18",
+    "coal-cco-share-2017-18",
+    "coal-cco-output-2018-19",
+    "coal-cco-share-2018-19",
+    "coal-cco-output-2019-20",
+    "coal-cco-share-2019-20",
+    "coal-cco-output-2020-21",
+    "coal-cco-share-2020-21",
+    "coal-cco-output-2021-22",
+    "coal-cco-share-2021-22",
+    "coal-cco-output-2022-23",
+    "coal-cco-share-2022-23",
+    "coal-cco-output-2023-24",
+    "coal-cco-share-2023-24",
+    "coal-cco-output-2024-25",
+    "coal-cco-share-2024-25",
+    "coal-cco-india-2024-25",
+    "coal-resource-ib-river-proved-2025",
+    "coal-resource-ib-river-indicated-2025",
+    "coal-resource-ib-river-inferred-2025",
+    "coal-resource-ib-river-total-2025",
+    "coal-resource-talcher-proved-2025",
+    "coal-resource-talcher-indicated-2025",
+    "coal-resource-talcher-inferred-2025",
+    "coal-resource-talcher-total-2025",
+    "coal-resource-odisha-proved-2025",
+    "coal-resource-odisha-indicated-2025",
+    "coal-resource-odisha-inferred-2025",
+    "coal-resource-odisha-total-2025",
+    "coal-block-dulanga-2022-23",
+    "coal-block-dulanga-2023-24",
+    "coal-block-dulanga-2024-25",
+    "coal-block-manoharpur-2022-23",
+    "coal-block-manoharpur-2023-24",
+    "coal-block-manoharpur-2024-25",
+    "coal-block-talabira-ii-iii-2022-23",
+    "coal-block-talabira-ii-iii-2023-24",
+    "coal-block-talabira-ii-iii-2024-25",
+    "coal-block-utkal-d-2023-24",
+    "coal-block-utkal-d-2024-25",
+    "coal-block-utkal-c-2023-24",
+    "coal-block-utkal-c-2024-25",
+    "coal-block-jamkhani-2022-23",
+    "coal-block-jamkhani-2023-24",
+    "coal-block-jamkhani-2024-25",
+    "ore-state-bauxite-production-2024-25",
+    "ore-state-bauxite-despatch-2024-25",
+    "ore-state-bauxite-production-2023-24",
+    "ore-state-bauxite-despatch-2023-24",
+    "ore-state-bauxite-production-2022-23",
+    "ore-state-bauxite-despatch-2022-23",
+    "ore-state-bauxite-production-2021-22",
+    "ore-state-bauxite-despatch-2021-22",
+    "ore-state-bauxite-production-2020-21",
+    "ore-state-bauxite-despatch-2020-21",
+    "ore-state-bauxite-production-2019-20",
+    "ore-state-bauxite-despatch-2019-20",
+    "ore-state-bauxite-production-2018-19",
+    "ore-state-bauxite-despatch-2018-19",
+    "ore-state-bauxite-production-2017-18",
+    "ore-state-bauxite-despatch-2017-18",
+    "ore-state-bauxite-production-2016-17",
+    "ore-state-bauxite-despatch-2016-17",
+    "ore-state-bauxite-production-2015-16",
+    "ore-state-bauxite-despatch-2015-16",
+    "ore-state-bauxite-production-2014-15",
+    "ore-state-bauxite-despatch-2014-15",
+    "ore-state-chromite-production-2024-25",
+    "ore-state-chromite-despatch-2024-25",
+    "ore-state-chromite-production-2023-24",
+    "ore-state-chromite-despatch-2023-24",
+    "ore-state-chromite-production-2022-23",
+    "ore-state-chromite-despatch-2022-23",
+    "ore-state-chromite-production-2021-22",
+    "ore-state-chromite-despatch-2021-22",
+    "ore-state-chromite-production-2020-21",
+    "ore-state-chromite-despatch-2020-21",
+    "ore-state-chromite-production-2019-20",
+    "ore-state-chromite-despatch-2019-20",
+    "ore-state-chromite-production-2018-19",
+    "ore-state-chromite-despatch-2018-19",
+    "ore-state-chromite-production-2017-18",
+    "ore-state-chromite-despatch-2017-18",
+    "ore-state-chromite-production-2016-17",
+    "ore-state-chromite-despatch-2016-17",
+    "ore-state-chromite-production-2015-16",
+    "ore-state-chromite-despatch-2015-16",
+    "ore-state-chromite-production-2014-15",
+    "ore-state-chromite-despatch-2014-15",
+    "ore-state-coal-production-2024-25",
+    "ore-state-coal-despatch-2024-25",
+    "ore-state-coal-production-2023-24",
+    "ore-state-coal-despatch-2023-24",
+    "ore-state-coal-production-2022-23",
+    "ore-state-coal-despatch-2022-23",
+    "ore-state-coal-production-2021-22",
+    "ore-state-coal-despatch-2021-22",
+    "ore-state-coal-production-2020-21",
+    "ore-state-coal-despatch-2020-21",
+    "ore-state-coal-production-2019-20",
+    "ore-state-coal-despatch-2019-20",
+    "ore-state-coal-production-2018-19",
+    "ore-state-coal-despatch-2018-19",
+    "ore-state-coal-production-2017-18",
+    "ore-state-coal-despatch-2017-18",
+    "ore-state-coal-production-2016-17",
+    "ore-state-coal-despatch-2016-17",
+    "ore-state-coal-production-2015-16",
+    "ore-state-coal-despatch-2015-16",
+    "ore-state-coal-production-2014-15",
+    "ore-state-coal-despatch-2014-15",
+    "ore-state-iron-ore-production-2024-25",
+    "ore-state-iron-ore-despatch-2024-25",
+    "ore-state-iron-ore-production-2023-24",
+    "ore-state-iron-ore-despatch-2023-24",
+    "ore-state-iron-ore-production-2022-23",
+    "ore-state-iron-ore-despatch-2022-23",
+    "ore-state-iron-ore-production-2021-22",
+    "ore-state-iron-ore-despatch-2021-22",
+    "ore-state-iron-ore-production-2020-21",
+    "ore-state-iron-ore-despatch-2020-21",
+    "ore-state-iron-ore-production-2019-20",
+    "ore-state-iron-ore-despatch-2019-20",
+    "ore-state-iron-ore-production-2018-19",
+    "ore-state-iron-ore-despatch-2018-19",
+    "ore-state-iron-ore-production-2017-18",
+    "ore-state-iron-ore-despatch-2017-18",
+    "ore-state-iron-ore-production-2016-17",
+    "ore-state-iron-ore-despatch-2016-17",
+    "ore-state-iron-ore-production-2015-16",
+    "ore-state-iron-ore-despatch-2015-16",
+    "ore-state-iron-ore-production-2014-15",
+    "ore-state-iron-ore-despatch-2014-15",
+    "ore-state-manganese-production-2024-25",
+    "ore-state-manganese-despatch-2024-25",
+    "ore-state-manganese-production-2023-24",
+    "ore-state-manganese-despatch-2023-24",
+    "ore-state-manganese-production-2022-23",
+    "ore-state-manganese-despatch-2022-23",
+    "ore-state-manganese-production-2021-22",
+    "ore-state-manganese-despatch-2021-22",
+    "ore-state-manganese-production-2020-21",
+    "ore-state-manganese-despatch-2020-21",
+    "ore-state-manganese-production-2019-20",
+    "ore-state-manganese-despatch-2019-20",
+    "ore-state-manganese-production-2018-19",
+    "ore-state-manganese-despatch-2018-19",
+    "ore-state-manganese-production-2017-18",
+    "ore-state-manganese-despatch-2017-18",
+    "ore-state-manganese-production-2016-17",
+    "ore-state-manganese-despatch-2016-17",
+    "ore-state-manganese-production-2015-16",
+    "ore-state-manganese-despatch-2015-16",
+    "ore-state-manganese-production-2014-15",
+    "ore-state-manganese-despatch-2014-15",
+    "ore-ibm2024-bauxite-2021-22",
+    "ore-ibm2024-bauxite-2022-23",
+    "ore-ibm2024-bauxite-2023-24",
+    "ore-ibm2024-iron-ore-2021-22",
+    "ore-ibm2024-iron-ore-2022-23",
+    "ore-ibm2024-iron-ore-2023-24",
+    "ore-ibm2024-chromite-2021-22",
+    "ore-ibm2024-chromite-2022-23",
+    "ore-ibm2024-chromite-2023-24",
+    "ore-ibm2024-manganese-2021-22",
+    "ore-ibm2024-manganese-2022-23",
+    "ore-ibm2024-manganese-2023-24",
+    "ore-resource-bauxite-reserves-2020",
+    "ore-resource-bauxite-remaining-resources-2020",
+    "ore-resource-bauxite-total-resources-2020",
+    "ore-resource-iron-ore-haematite-reserves-2020",
+    "ore-resource-iron-ore-haematite-remaining-resources-2020",
+    "ore-resource-iron-ore-haematite-total-resources-2020",
+    "ore-chromite-jajpur-2022-23",
+    "ore-chromite-kendujhar-2022-23",
+    "ore-chromite-jajpur-2023-24",
+    "ore-chromite-kendujhar-2023-24",
+    "nalco-chain-hydrate-2025-26",
+    "nalco-chain-hydrate-2024-25",
+    "nalco-chain-hydrate-2023-24",
+    "nalco-chain-hydrate-2022-23",
+    "nalco-chain-hydrate-2021-22",
+    "nalco-chain-aluminium-2025-26",
+    "nalco-chain-aluminium-2024-25",
+    "nalco-chain-aluminium-2023-24",
+    "nalco-chain-aluminium-2022-23",
+    "nalco-chain-aluminium-2021-22",
+    "nalco-chain-alumina-exports-2025-26",
+    "nalco-chain-alumina-exports-2024-25",
+    "nalco-chain-alumina-exports-2023-24",
+    "nalco-chain-alumina-exports-2022-23",
+    "nalco-chain-alumina-exports-2021-22",
+    "nalco-chain-aluminium-exports-2025-26",
+    "nalco-chain-aluminium-exports-2024-25",
+    "nalco-chain-aluminium-exports-2023-24",
+    "nalco-chain-aluminium-exports-2022-23",
+    "nalco-chain-aluminium-exports-2021-22",
+    "nalco-chain-aluminium-domestic-2025-26",
+    "nalco-chain-aluminium-domestic-2024-25",
+    "nalco-chain-aluminium-domestic-2023-24",
+    "nalco-chain-aluminium-domestic-2022-23",
+    "nalco-chain-aluminium-domestic-2021-22",
+    "nalco-chain-export-value-2025-26",
+    "nalco-chain-export-value-2024-25",
+    "nalco-chain-export-value-2023-24",
+    "nalco-chain-export-value-2022-23",
+    "nalco-chain-export-value-2021-22",
+    "nalco-chain-bauxite-table-2025-26",
+    "nalco-chain-bauxite-table-2024-25",
+    "nalco-chain-bauxite-table-2023-24",
+    "nalco-chain-bauxite-table-2022-23",
+    "nalco-chain-bauxite-table-2021-22",
+    "nalco-chain-permanent-employees",
+    "nalco-chain-permanent-workers",
+    "nalco-chain-non-permanent-workers",
+    "nalco-chain-manpower",
+    "nalco-chain-women-on-roll",
+    "nalco-chain-manpower-prior",
+    "nalco-chain-semiurban-wages-2025-26",
+    "nalco-chain-semiurban-wages-2024-25",
+    "nalco-chain-markets-2025-26",
+    "nalco-chain-worker-fatalities-current",
+    "nalco-chain-worker-fatalities-prior",
+    "nalco-chain-smelter-recordable",
+    "nalco-chain-cpp-recordable",
+    "nalco-chain-pottangi-conveyor-paf",
+    "nalco-chain-pottangi-water-paf",
+    "bauxite-sites-kodingamali-actual-2019-20",
+    "bauxite-sites-kodingamali-proposed-2019-20",
+    "bauxite-sites-kodingamali-actual-2020-21",
+    "bauxite-sites-kodingamali-proposed-2020-21",
+    "bauxite-sites-kodingamali-actual-2021-22",
+    "bauxite-sites-kodingamali-proposed-2021-22",
+    "bauxite-sites-kodingamali-actual-2022-23",
+    "bauxite-sites-kodingamali-proposed-2022-23",
+    "bauxite-sites-kodingamali-actual-2023-24",
+    "bauxite-sites-kodingamali-proposed-2023-24",
+    "bauxite-sites-kodingamali-rehabilitation-actual",
+    "bauxite-sites-kodingamali-rehabilitation-proposed",
+    "bauxite-sites-baphlimali-capacity",
+    "bauxite-sites-baphlimali-people",
+    "bauxite-sites-baphlimali-women",
+    "baphlimali-return-rom-output-2024-25",
+    "baphlimali-return-rom-opening-2024-25",
+    "baphlimali-return-rom-closing-2024-25",
+    "baphlimali-return-graded-output-2024-25",
+    "baphlimali-return-graded-dispatch-2024-25",
+    "baphlimali-return-royalty-2024-25",
+    "baphlimali-return-dmf-2024-25",
+    "baphlimali-return-nmet-2024-25",
+    "baphlimali-return-direct-days-2024-25",
+    "baphlimali-return-contract-days-2024-25",
+    "baphlimali-return-total-days-2024-25",
+    "baphlimali-return-daily-average-2024-25",
+    "baphlimali-return-daily-women-2024-25",
+    "baphlimali-return-maximum-2024-25",
+    "baphlimali-return-wages-2024-25",
+    "baphlimali-return-supervisors-2024-25",
+    "baphlimali-return-lease-area-2025",
+    "baphlimali-return-reclaimed-area-2025",
+    "baphlimali-return-backfilled-sep2025",
+    "baphlimali-return-afforested-sep2025",
+    "baphlimali-return-cto-capacity-sep2025"
+  ],
+  "task_ids": [
+    "RES-051",
+    "RES-052",
+    "RES-053",
+    "RES-054",
+    "RES-055"
+  ],
+  "reuse_existing": [
+    "industry-growth-data.json",
+    "investment-tracker.json",
+    "growth-journeys.json"
+  ],
+  "source_checks": [
+    {
+      "url": "https://dmf.odisha.gov.in/",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "reason": "Direct web retrieval returned Internal Error; not unchanged.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.odishaminerals.gov.in/sites/Mines/Revenue_Royalty.aspx?GL=revenue&PL=1",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "reason": "Direct web retrieval returned Internal Error; not unchanged.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport",
+      "status": "partial",
+      "retrieved_on": "2026-10-01",
+      "scope": "Page shell retrieved; no populated selected-period table verified. Existing source IDs comparison-6-1/7-1/8-1 are aliases of this publisher page, not independent corroboration."
+    },
+    {
+      "url": "https://coal.gov.in/sites/default/files/2024-03/28-11-2025a-stc.pdf",
+      "status": "recovered",
+      "retrieved_on": "2026-10-01",
+      "reason": "Web tool size-limit failure; original PDF subsequently downloaded, extracted and relevant table pages visually checked."
+    },
+    {
+      "url": "https://environmentclearance.nic.in/auth/FORM_A_PDF.aspx?cat_id=IA%2FOR%2FCMIN%2F75826%2F2018&pid=New",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "reason": "502 Bad Gateway; Talabira district match remains unverified in this capture.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://ocpl.org.in/PDF/COAL_SALE_NOTICE_NEWS_PAPER07-11-2024.pdf",
+      "status": "unavailable",
+      "retrieved_on": "2026-10-01",
+      "reason": "Direct web fetch returned Internal Error; not unchanged.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://www.odishaminerals.gov.in/StatisticsReport/DespatchProductionReport",
+      "status": "recovered",
+      "retrieved_on": "2026-10-01",
+      "reason": "Full paired table returned and original HTML downloaded; previous shell-only capture retained as history."
+    },
+    {
+      "url": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "recovered",
+      "reason": "Web reader502; originalPDF downloaded and selected tables visually checked."
+    },
+    {
+      "url": "https://nalcoindia.com/business/operation/alumina-refinery/",
+      "retrieved_on": "2026-10-01",
+      "status": "recovered",
+      "reason": "Web reader502; originalHTML downloaded."
+    },
+    {
+      "url": "https://dilipbuildcon.com/project/pottangi-bauxite-mine/",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "Original developer page read; timing is an undated target."
+    },
+    {
+      "url": "https://nalcoindia.com/business/operation/bauxite-mines/",
+      "retrieved_on": "2026-10-01",
+      "status": "unavailable",
+      "reason": "Web reader502; no direct second fetch in this batch. Original annual report supplies the saved scope."
+    },
+    {
+      "url": "https://nalcoindia.com/company/our-growth-story/production-financial-highlights/",
+      "retrieved_on": "2026-10-01",
+      "status": "unavailable",
+      "reason": "Web reader502; existing indexed evidence retained, annual report used for narrow supplementary verification."
+    },
+    {
+      "url": "https://nalcoindia.com/wp-content/uploads/2025/09/44th-Annual-Report-2024-25-NALCO.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "unavailable",
+      "reason": "Web reader internal fetch error; no original full-text adoption from these routes. Used separately retrieved latest annual report instead.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://nalcoindia.com/wp-content/uploads/2026/03/NALCO-SD-Report-2025-Final.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "unavailable",
+      "reason": "Web reader internal fetch error; no original full-text adoption from these routes. Used separately retrieved latest annual report instead.",
+      "retry_after": "2026-10-08"
+    },
+    {
+      "url": "https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "PDF pp.1–5; inspection 12 September 2024, row3p production and row5d rehabilitation."
+    },
+    {
+      "url": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "PDF pp.1–4,8,14–18; January2026 audit, March2026 submission, May2026 certificate."
+    },
+    {
+      "url": "https://www.hindalco.com/about-us/operations/baphlimali-bauxite-mines",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "Header capacity8.5MTPA versus body7.0MTPA; end-use refinery and conveyor description."
+    },
+    {
+      "url": "https://aluminium-stewardship.org/asi-certifies-baphlimali-bauxite-mines-of-utkal-international-limited-against-performance-standard-v3-1",
+      "retrieved_on": "2026-10-01",
+      "status": "available",
+      "reason": "Certification scope, capacity and nine minor non-conformances."
+    },
+    {
+      "url": "https://environmentclearance.nic.in/auth/FORM_A_PDF.aspx?cat_id=IA%2FOR%2FMIN%2F143523%2F2020",
+      "retrieved_on": "2026-10-01",
+      "status": "unavailable",
+      "reason": "Direct web reader internal error; indexed snippet is discovery only."
+    },
+    {
+      "url": "https://www.hindalco.com/sustainability/regulatory-compliances",
+      "retrieved_on": "2026-10-01",
+      "status": "conflicted",
+      "reason": "Baphlimali-labelled link133 resolves to Bimarla/GumlaJharkhand; indexed and direct page lists differ. Utkal report link193 returned internal error."
+    },
+    {
+      "url": "https://www.hindalco.com/Upload/PDF/eccr-bimarla-bauxite-mine-oct25-to-mar26.pdf",
+      "retrieved_on": "2026-10-01",
+      "status": "available_wrong_scope",
+      "reason": "Cover checked: Bimarla,Gumla,Jharkhand. Not Baphlimali; excluded."
+    },
+    {
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-form-g1-annual-return-2024-25.pdf",
+      "retrieved_on": "2026-10-02",
+      "status": "available_text_only",
+      "reason": "Original publisher PDF text retrieved through web reader; direct download HTTP406; no file checksum or visual verification."
+    },
+    {
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+      "retrieved_on": "2026-10-02",
+      "status": "available_text_only",
+      "reason": "Original publisher PDF text retrieved through web reader; direct download HTTP406; no file checksum or visual verification."
+    }
+  ],
+  "human_review_claimed": false,
+  "website_publication": false,
+  "coal_checkpoint": {
+    "run_id": "2026-10-01-mining-series",
+    "source_id": "mining-coal-directory2025",
+    "series": [
+      {
+        "period": "2015-16",
+        "production_observation": "coal-cco-output-2015-16",
+        "share_observation": "coal-cco-share-2015-16"
+      },
+      {
+        "period": "2016-17",
+        "production_observation": "coal-cco-output-2016-17",
+        "share_observation": "coal-cco-share-2016-17"
+      },
+      {
+        "period": "2017-18",
+        "production_observation": "coal-cco-output-2017-18",
+        "share_observation": "coal-cco-share-2017-18"
+      },
+      {
+        "period": "2018-19",
+        "production_observation": "coal-cco-output-2018-19",
+        "share_observation": "coal-cco-share-2018-19"
+      },
+      {
+        "period": "2019-20",
+        "production_observation": "coal-cco-output-2019-20",
+        "share_observation": "coal-cco-share-2019-20"
+      },
+      {
+        "period": "2020-21",
+        "production_observation": "coal-cco-output-2020-21",
+        "share_observation": "coal-cco-share-2020-21"
+      },
+      {
+        "period": "2021-22",
+        "production_observation": "coal-cco-output-2021-22",
+        "share_observation": "coal-cco-share-2021-22"
+      },
+      {
+        "period": "2022-23",
+        "production_observation": "coal-cco-output-2022-23",
+        "share_observation": "coal-cco-share-2022-23"
+      },
+      {
+        "period": "2023-24",
+        "production_observation": "coal-cco-output-2023-24",
+        "share_observation": "coal-cco-share-2023-24"
+      },
+      {
+        "period": "2024-25",
+        "production_observation": "coal-cco-output-2024-25",
+        "share_observation": "coal-cco-share-2024-25"
+      }
+    ],
+    "calculations": [
+      "coal-cco-five-year-growth",
+      "coal-cco-last-year-growth",
+      "coal-cco-2019-decline",
+      "coal-cco-2023-share-dip"
+    ],
+    "resource_inventory": [
+      {
+        "coalfield_id": "ib-river",
+        "observation_ids": [
+          "coal-resource-ib-river-proved-2025",
+          "coal-resource-ib-river-indicated-2025",
+          "coal-resource-ib-river-inferred-2025",
+          "coal-resource-ib-river-total-2025"
+        ],
+        "classification_system": "Publisher categories: proved, indicated, inferred; preserve geological-resource table title despite Reserve column heading."
+      },
+      {
+        "coalfield_id": "talcher",
+        "observation_ids": [
+          "coal-resource-talcher-proved-2025",
+          "coal-resource-talcher-indicated-2025",
+          "coal-resource-talcher-inferred-2025",
+          "coal-resource-talcher-total-2025"
+        ],
+        "classification_system": "Publisher categories: proved, indicated, inferred; preserve geological-resource table title despite Reserve column heading."
+      },
+      {
+        "coalfield_id": "odisha",
+        "observation_ids": [
+          "coal-resource-odisha-proved-2025",
+          "coal-resource-odisha-indicated-2025",
+          "coal-resource-odisha-inferred-2025",
+          "coal-resource-odisha-total-2025"
+        ],
+        "classification_system": "Publisher categories: proved, indicated, inferred; preserve geological-resource table title despite Reserve column heading."
+      }
+    ],
+    "selected_blocks": [
+      {
+        "id": "dulanga",
+        "name_as_published": "Dulanga",
+        "company_as_published": "NTPC",
+        "company_relationship": "Company column in production return, not independently verified MDO or current corporate identity",
+        "state": "Odisha",
+        "district": null,
+        "subdistrict": null,
+        "district_source_id": null,
+        "stage": "production_reported_in_2024-25",
+        "current_operating_status": null,
+        "observation_ids": [
+          "coal-block-dulanga-2022-23",
+          "coal-block-dulanga-2023-24",
+          "coal-block-dulanga-2024-25"
+        ],
+        "blank_periods": [],
+        "source_id": "mining-coal-directory2025"
+      },
+      {
+        "id": "manoharpur",
+        "name_as_published": "Manoharpur",
+        "company_as_published": "OCPL",
+        "company_relationship": "Company column in production return, not independently verified MDO or current corporate identity",
+        "state": "Odisha",
+        "district": "Sundargarh",
+        "subdistrict": "Hemgir",
+        "district_source_id": "mining-ocpl-rr",
+        "stage": "production_reported_in_2024-25",
+        "current_operating_status": null,
+        "observation_ids": [
+          "coal-block-manoharpur-2022-23",
+          "coal-block-manoharpur-2023-24",
+          "coal-block-manoharpur-2024-25"
+        ],
+        "blank_periods": [],
+        "source_id": "mining-coal-directory2025"
+      },
+      {
+        "id": "talabira-ii-iii",
+        "name_as_published": "Talabira II & III",
+        "company_as_published": "NLCIL",
+        "company_relationship": "Company column in production return, not independently verified MDO or current corporate identity",
+        "state": "Odisha",
+        "district": null,
+        "subdistrict": null,
+        "district_source_id": null,
+        "stage": "production_reported_in_2024-25",
+        "current_operating_status": null,
+        "observation_ids": [
+          "coal-block-talabira-ii-iii-2022-23",
+          "coal-block-talabira-ii-iii-2023-24",
+          "coal-block-talabira-ii-iii-2024-25"
+        ],
+        "blank_periods": [],
+        "source_id": "mining-coal-directory2025"
+      },
+      {
+        "id": "utkal-d",
+        "name_as_published": "Utkal D",
+        "company_as_published": "NALCO",
+        "company_relationship": "Company column in production return, not independently verified MDO or current corporate identity",
+        "state": "Odisha",
+        "district": null,
+        "subdistrict": null,
+        "district_source_id": null,
+        "stage": "production_reported_in_2024-25",
+        "current_operating_status": null,
+        "observation_ids": [
+          "coal-block-utkal-d-2023-24",
+          "coal-block-utkal-d-2024-25"
+        ],
+        "blank_periods": [
+          "2022-23"
+        ],
+        "source_id": "mining-coal-directory2025"
+      },
+      {
+        "id": "utkal-c",
+        "name_as_published": "Utkal C",
+        "company_as_published": "JSPL",
+        "company_relationship": "Company column in production return, not independently verified MDO or current corporate identity",
+        "state": "Odisha",
+        "district": null,
+        "subdistrict": null,
+        "district_source_id": null,
+        "stage": "production_reported_in_2024-25",
+        "current_operating_status": null,
+        "observation_ids": [
+          "coal-block-utkal-c-2023-24",
+          "coal-block-utkal-c-2024-25"
+        ],
+        "blank_periods": [
+          "2022-23"
+        ],
+        "source_id": "mining-coal-directory2025"
+      },
+      {
+        "id": "jamkhani",
+        "name_as_published": "Jamkhani",
+        "company_as_published": "VEDANTA",
+        "company_relationship": "Company column in production return, not independently verified MDO or current corporate identity",
+        "state": "Odisha",
+        "district": null,
+        "subdistrict": null,
+        "district_source_id": null,
+        "stage": "production_reported_in_2024-25",
+        "current_operating_status": null,
+        "observation_ids": [
+          "coal-block-jamkhani-2022-23",
+          "coal-block-jamkhani-2023-24",
+          "coal-block-jamkhani-2024-25"
+        ],
+        "blank_periods": [],
+        "source_id": "mining-coal-directory2025"
+      }
+    ],
+    "reconciliation": [
+      {
+        "existing_record": "economy/comparison-07-mining.md",
+        "period": "2024-25",
+        "prior_value": 269.36,
+        "new_value": 269.363,
+        "unit": "million tonnes",
+        "finding": "Matches when rounded to two decimals; not independent corroboration since source reporting lineage may overlap."
+      },
+      {
+        "period": "2014-15",
+        "prior_value": 121.1,
+        "status": "not_reconciled",
+        "reason": "Current directory ten annual observations start2015-16, a nine-year endpoint span. Do not infer2014-15 or recreate a ten-year rate."
+      }
+    ],
+    "scope": "49 new scoped observations; six selected blocks are not a census. Ore series still pending.",
+    "remaining": "Recover comparable iron ore, bauxite, chromite and manganese annual tables; verify further district aliases, lease/MDO identities and 2014-15 coal baseline."
+  },
+  "ore_checkpoint": {
+    "run_id": "2026-10-01-ore-series",
+    "state_series": {
+      "bauxite": [
+        {
+          "period": "2024-25",
+          "production_id": "ore-state-bauxite-production-2024-25",
+          "despatch_id": "ore-state-bauxite-despatch-2024-25"
+        },
+        {
+          "period": "2023-24",
+          "production_id": "ore-state-bauxite-production-2023-24",
+          "despatch_id": "ore-state-bauxite-despatch-2023-24"
+        },
+        {
+          "period": "2022-23",
+          "production_id": "ore-state-bauxite-production-2022-23",
+          "despatch_id": "ore-state-bauxite-despatch-2022-23"
+        },
+        {
+          "period": "2021-22",
+          "production_id": "ore-state-bauxite-production-2021-22",
+          "despatch_id": "ore-state-bauxite-despatch-2021-22"
+        },
+        {
+          "period": "2020-21",
+          "production_id": "ore-state-bauxite-production-2020-21",
+          "despatch_id": "ore-state-bauxite-despatch-2020-21"
+        },
+        {
+          "period": "2019-20",
+          "production_id": "ore-state-bauxite-production-2019-20",
+          "despatch_id": "ore-state-bauxite-despatch-2019-20"
+        },
+        {
+          "period": "2018-19",
+          "production_id": "ore-state-bauxite-production-2018-19",
+          "despatch_id": "ore-state-bauxite-despatch-2018-19"
+        },
+        {
+          "period": "2017-18",
+          "production_id": "ore-state-bauxite-production-2017-18",
+          "despatch_id": "ore-state-bauxite-despatch-2017-18"
+        },
+        {
+          "period": "2016-17",
+          "production_id": "ore-state-bauxite-production-2016-17",
+          "despatch_id": "ore-state-bauxite-despatch-2016-17"
+        },
+        {
+          "period": "2015-16",
+          "production_id": "ore-state-bauxite-production-2015-16",
+          "despatch_id": "ore-state-bauxite-despatch-2015-16"
+        },
+        {
+          "period": "2014-15",
+          "production_id": "ore-state-bauxite-production-2014-15",
+          "despatch_id": "ore-state-bauxite-despatch-2014-15"
+        }
+      ],
+      "chromite": [
+        {
+          "period": "2024-25",
+          "production_id": "ore-state-chromite-production-2024-25",
+          "despatch_id": "ore-state-chromite-despatch-2024-25"
+        },
+        {
+          "period": "2023-24",
+          "production_id": "ore-state-chromite-production-2023-24",
+          "despatch_id": "ore-state-chromite-despatch-2023-24"
+        },
+        {
+          "period": "2022-23",
+          "production_id": "ore-state-chromite-production-2022-23",
+          "despatch_id": "ore-state-chromite-despatch-2022-23"
+        },
+        {
+          "period": "2021-22",
+          "production_id": "ore-state-chromite-production-2021-22",
+          "despatch_id": "ore-state-chromite-despatch-2021-22"
+        },
+        {
+          "period": "2020-21",
+          "production_id": "ore-state-chromite-production-2020-21",
+          "despatch_id": "ore-state-chromite-despatch-2020-21"
+        },
+        {
+          "period": "2019-20",
+          "production_id": "ore-state-chromite-production-2019-20",
+          "despatch_id": "ore-state-chromite-despatch-2019-20"
+        },
+        {
+          "period": "2018-19",
+          "production_id": "ore-state-chromite-production-2018-19",
+          "despatch_id": "ore-state-chromite-despatch-2018-19"
+        },
+        {
+          "period": "2017-18",
+          "production_id": "ore-state-chromite-production-2017-18",
+          "despatch_id": "ore-state-chromite-despatch-2017-18"
+        },
+        {
+          "period": "2016-17",
+          "production_id": "ore-state-chromite-production-2016-17",
+          "despatch_id": "ore-state-chromite-despatch-2016-17"
+        },
+        {
+          "period": "2015-16",
+          "production_id": "ore-state-chromite-production-2015-16",
+          "despatch_id": "ore-state-chromite-despatch-2015-16"
+        },
+        {
+          "period": "2014-15",
+          "production_id": "ore-state-chromite-production-2014-15",
+          "despatch_id": "ore-state-chromite-despatch-2014-15"
+        }
+      ],
+      "coal": [
+        {
+          "period": "2024-25",
+          "production_id": "ore-state-coal-production-2024-25",
+          "despatch_id": "ore-state-coal-despatch-2024-25"
+        },
+        {
+          "period": "2023-24",
+          "production_id": "ore-state-coal-production-2023-24",
+          "despatch_id": "ore-state-coal-despatch-2023-24"
+        },
+        {
+          "period": "2022-23",
+          "production_id": "ore-state-coal-production-2022-23",
+          "despatch_id": "ore-state-coal-despatch-2022-23"
+        },
+        {
+          "period": "2021-22",
+          "production_id": "ore-state-coal-production-2021-22",
+          "despatch_id": "ore-state-coal-despatch-2021-22"
+        },
+        {
+          "period": "2020-21",
+          "production_id": "ore-state-coal-production-2020-21",
+          "despatch_id": "ore-state-coal-despatch-2020-21"
+        },
+        {
+          "period": "2019-20",
+          "production_id": "ore-state-coal-production-2019-20",
+          "despatch_id": "ore-state-coal-despatch-2019-20"
+        },
+        {
+          "period": "2018-19",
+          "production_id": "ore-state-coal-production-2018-19",
+          "despatch_id": "ore-state-coal-despatch-2018-19"
+        },
+        {
+          "period": "2017-18",
+          "production_id": "ore-state-coal-production-2017-18",
+          "despatch_id": "ore-state-coal-despatch-2017-18"
+        },
+        {
+          "period": "2016-17",
+          "production_id": "ore-state-coal-production-2016-17",
+          "despatch_id": "ore-state-coal-despatch-2016-17"
+        },
+        {
+          "period": "2015-16",
+          "production_id": "ore-state-coal-production-2015-16",
+          "despatch_id": "ore-state-coal-despatch-2015-16"
+        },
+        {
+          "period": "2014-15",
+          "production_id": "ore-state-coal-production-2014-15",
+          "despatch_id": "ore-state-coal-despatch-2014-15"
+        }
+      ],
+      "iron-ore": [
+        {
+          "period": "2024-25",
+          "production_id": "ore-state-iron-ore-production-2024-25",
+          "despatch_id": "ore-state-iron-ore-despatch-2024-25"
+        },
+        {
+          "period": "2023-24",
+          "production_id": "ore-state-iron-ore-production-2023-24",
+          "despatch_id": "ore-state-iron-ore-despatch-2023-24"
+        },
+        {
+          "period": "2022-23",
+          "production_id": "ore-state-iron-ore-production-2022-23",
+          "despatch_id": "ore-state-iron-ore-despatch-2022-23"
+        },
+        {
+          "period": "2021-22",
+          "production_id": "ore-state-iron-ore-production-2021-22",
+          "despatch_id": "ore-state-iron-ore-despatch-2021-22"
+        },
+        {
+          "period": "2020-21",
+          "production_id": "ore-state-iron-ore-production-2020-21",
+          "despatch_id": "ore-state-iron-ore-despatch-2020-21"
+        },
+        {
+          "period": "2019-20",
+          "production_id": "ore-state-iron-ore-production-2019-20",
+          "despatch_id": "ore-state-iron-ore-despatch-2019-20"
+        },
+        {
+          "period": "2018-19",
+          "production_id": "ore-state-iron-ore-production-2018-19",
+          "despatch_id": "ore-state-iron-ore-despatch-2018-19"
+        },
+        {
+          "period": "2017-18",
+          "production_id": "ore-state-iron-ore-production-2017-18",
+          "despatch_id": "ore-state-iron-ore-despatch-2017-18"
+        },
+        {
+          "period": "2016-17",
+          "production_id": "ore-state-iron-ore-production-2016-17",
+          "despatch_id": "ore-state-iron-ore-despatch-2016-17"
+        },
+        {
+          "period": "2015-16",
+          "production_id": "ore-state-iron-ore-production-2015-16",
+          "despatch_id": "ore-state-iron-ore-despatch-2015-16"
+        },
+        {
+          "period": "2014-15",
+          "production_id": "ore-state-iron-ore-production-2014-15",
+          "despatch_id": "ore-state-iron-ore-despatch-2014-15"
+        }
+      ],
+      "manganese": [
+        {
+          "period": "2024-25",
+          "production_id": "ore-state-manganese-production-2024-25",
+          "despatch_id": "ore-state-manganese-despatch-2024-25"
+        },
+        {
+          "period": "2023-24",
+          "production_id": "ore-state-manganese-production-2023-24",
+          "despatch_id": "ore-state-manganese-despatch-2023-24"
+        },
+        {
+          "period": "2022-23",
+          "production_id": "ore-state-manganese-production-2022-23",
+          "despatch_id": "ore-state-manganese-despatch-2022-23"
+        },
+        {
+          "period": "2021-22",
+          "production_id": "ore-state-manganese-production-2021-22",
+          "despatch_id": "ore-state-manganese-despatch-2021-22"
+        },
+        {
+          "period": "2020-21",
+          "production_id": "ore-state-manganese-production-2020-21",
+          "despatch_id": "ore-state-manganese-despatch-2020-21"
+        },
+        {
+          "period": "2019-20",
+          "production_id": "ore-state-manganese-production-2019-20",
+          "despatch_id": "ore-state-manganese-despatch-2019-20"
+        },
+        {
+          "period": "2018-19",
+          "production_id": "ore-state-manganese-production-2018-19",
+          "despatch_id": "ore-state-manganese-despatch-2018-19"
+        },
+        {
+          "period": "2017-18",
+          "production_id": "ore-state-manganese-production-2017-18",
+          "despatch_id": "ore-state-manganese-despatch-2017-18"
+        },
+        {
+          "period": "2016-17",
+          "production_id": "ore-state-manganese-production-2016-17",
+          "despatch_id": "ore-state-manganese-despatch-2016-17"
+        },
+        {
+          "period": "2015-16",
+          "production_id": "ore-state-manganese-production-2015-16",
+          "despatch_id": "ore-state-manganese-despatch-2015-16"
+        },
+        {
+          "period": "2014-15",
+          "production_id": "ore-state-manganese-production-2014-15",
+          "despatch_id": "ore-state-manganese-despatch-2014-15"
+        }
+      ]
+    },
+    "ibm_observation_ids": [
+      "ore-ibm2024-bauxite-2021-22",
+      "ore-ibm2024-bauxite-2022-23",
+      "ore-ibm2024-bauxite-2023-24",
+      "ore-ibm2024-iron-ore-2021-22",
+      "ore-ibm2024-iron-ore-2022-23",
+      "ore-ibm2024-iron-ore-2023-24",
+      "ore-ibm2024-chromite-2021-22",
+      "ore-ibm2024-chromite-2022-23",
+      "ore-ibm2024-chromite-2023-24",
+      "ore-ibm2024-manganese-2021-22",
+      "ore-ibm2024-manganese-2022-23",
+      "ore-ibm2024-manganese-2023-24"
+    ],
+    "resource_observation_ids": [
+      "ore-resource-bauxite-reserves-2020",
+      "ore-resource-bauxite-remaining-resources-2020",
+      "ore-resource-bauxite-total-resources-2020",
+      "ore-resource-iron-ore-haematite-reserves-2020",
+      "ore-resource-iron-ore-haematite-remaining-resources-2020",
+      "ore-resource-iron-ore-haematite-total-resources-2020"
+    ],
+    "district_observation_ids": [
+      "ore-chromite-jajpur-2022-23",
+      "ore-chromite-kendujhar-2022-23",
+      "ore-chromite-jajpur-2023-24",
+      "ore-chromite-kendujhar-2023-24"
+    ],
+    "producer_district_links": [
+      {
+        "mineral": "bauxite",
+        "producer_as_published": "National Aluminium Co. Ltd.",
+        "district_as_published": "Koraput",
+        "source_id": "mining-ibm-yearbook2024",
+        "period": "2023-24",
+        "locator": "Bauxite Table2, printed436/PDF451",
+        "relationship": "Producer table location of mine; not office-address geography",
+        "mine_name": null,
+        "mdo": null,
+        "current_operating_status": null
+      },
+      {
+        "mineral": "bauxite",
+        "producer_as_published": "Utkal Alumina International Ltd.",
+        "district_as_published": "Rayagada",
+        "source_id": "mining-ibm-yearbook2024",
+        "period": "2023-24",
+        "locator": "Bauxite Table2, printed436/PDF451",
+        "relationship": "Producer table location of mine; not office-address geography",
+        "mine_name": null,
+        "mdo": null,
+        "current_operating_status": null
+      },
+      {
+        "mineral": "bauxite",
+        "producer_as_published": "The Orissa Mining Corporation Limited",
+        "district_as_published": "Koraput",
+        "source_id": "mining-ibm-yearbook2024",
+        "period": "2023-24",
+        "locator": "Bauxite Table2, printed436/PDF451",
+        "relationship": "Producer table location of mine; not office-address geography",
+        "mine_name": null,
+        "mdo": null,
+        "current_operating_status": null
+      }
+    ],
+    "reconciliation": [
+      {
+        "mineral": "bauxite",
+        "period": "2021-22",
+        "state_observation": "ore-state-bauxite-production-2021-22",
+        "ibm_observation": "ore-ibm2024-bauxite-2021-22",
+        "status": "agrees_at_displayed_precision",
+        "difference_million_tonnes": -0.00039599999999850866,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "bauxite",
+        "period": "2022-23",
+        "state_observation": "ore-state-bauxite-production-2022-23",
+        "ibm_observation": "ore-ibm2024-bauxite-2022-23",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 0.0986799999999981,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "bauxite",
+        "period": "2023-24",
+        "state_observation": "ore-state-bauxite-production-2023-24",
+        "ibm_observation": "ore-ibm2024-bauxite-2023-24",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": -0.052966999999998876,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "iron-ore",
+        "period": "2021-22",
+        "state_observation": "ore-state-iron-ore-production-2021-22",
+        "ibm_observation": "ore-ibm2024-iron-ore-2021-22",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 10.572000000000003,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "iron-ore",
+        "period": "2022-23",
+        "state_observation": "ore-state-iron-ore-production-2022-23",
+        "ibm_observation": "ore-ibm2024-iron-ore-2022-23",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 14.329000000000008,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "iron-ore",
+        "period": "2023-24",
+        "state_observation": "ore-state-iron-ore-production-2023-24",
+        "ibm_observation": "ore-ibm2024-iron-ore-2023-24",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 20.07499999999999,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "chromite",
+        "period": "2021-22",
+        "state_observation": "ore-state-chromite-production-2021-22",
+        "ibm_observation": "ore-ibm2024-chromite-2021-22",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": -0.012624999999999886,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "chromite",
+        "period": "2022-23",
+        "state_observation": "ore-state-chromite-production-2022-23",
+        "ibm_observation": "ore-ibm2024-chromite-2022-23",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 0.12671100000000024,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "chromite",
+        "period": "2023-24",
+        "state_observation": "ore-state-chromite-production-2023-24",
+        "ibm_observation": "ore-ibm2024-chromite-2023-24",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 0.012046000000000223,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "manganese",
+        "period": "2021-22",
+        "state_observation": "ore-state-manganese-production-2021-22",
+        "ibm_observation": "ore-ibm2024-manganese-2021-22",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 0.0014089999999999936,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "manganese",
+        "period": "2022-23",
+        "state_observation": "ore-state-manganese-production-2022-23",
+        "ibm_observation": "ore-ibm2024-manganese-2022-23",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": -0.006217999999999946,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "manganese",
+        "period": "2023-24",
+        "state_observation": "ore-state-manganese-production-2023-24",
+        "ibm_observation": "ore-ibm2024-manganese-2023-24",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 0.00814400000000004,
+        "resolution": "No causal explanation established; both originals retained. Different publishers are not interchangeable."
+      },
+      {
+        "mineral": "coal",
+        "period": "2024-25",
+        "state_observation": "ore-state-coal-production-2024-25",
+        "cco_observation": "coal-cco-output-2024-25",
+        "status": "same_value",
+        "difference_million_tonnes": 0.0,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2023-24",
+        "state_observation": "ore-state-coal-production-2023-24",
+        "cco_observation": "coal-cco-output-2023-24",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": -2.2709999999999866,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2022-23",
+        "state_observation": "ore-state-coal-production-2022-23",
+        "cco_observation": "coal-cco-output-2022-23",
+        "status": "same_value",
+        "difference_million_tonnes": 0.0,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2021-22",
+        "state_observation": "ore-state-coal-production-2021-22",
+        "cco_observation": "coal-cco-output-2021-22",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": -0.09799999999998477,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2020-21",
+        "state_observation": "ore-state-coal-production-2020-21",
+        "cco_observation": "coal-cco-output-2020-21",
+        "status": "same_value",
+        "difference_million_tonnes": 0.0,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2019-20",
+        "state_observation": "ore-state-coal-production-2019-20",
+        "cco_observation": "coal-cco-output-2019-20",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": -0.21599999999997976,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2018-19",
+        "state_observation": "ore-state-coal-production-2018-19",
+        "cco_observation": "coal-cco-output-2018-19",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 1.0779999999999745,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2017-18",
+        "state_observation": "ore-state-coal-production-2017-18",
+        "cco_observation": "coal-cco-output-2017-18",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 0.05500000000000682,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2016-17",
+        "state_observation": "ore-state-coal-production-2016-17",
+        "cco_observation": "coal-cco-output-2016-17",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 1.3309999999999889,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "coal",
+        "period": "2015-16",
+        "state_observation": "ore-state-coal-production-2015-16",
+        "cco_observation": "coal-cco-output-2015-16",
+        "status": "unresolved_publisher_vintage_or_scope_difference",
+        "difference_million_tonnes": 0.009999999999990905,
+        "resolution": "Retain CCO series and its existing calculations; do not substitute state values."
+      },
+      {
+        "mineral": "iron-ore",
+        "period": "2019-20",
+        "state_observation": "ore-state-iron-ore-production-2019-20",
+        "older_route": "https://www.odishaminerals.gov.in/StatisticsReport/DespatchProduction",
+        "older_displayed_value": 142.159,
+        "unit": "million tonnes",
+        "status": "unresolved_same_publisher_route_difference",
+        "resolution": "Do not call the older route independent corroboration or certify the five-year growth rate yet."
+      },
+      {
+        "mineral": "chromite",
+        "period": "2024-25",
+        "state_observation": "ore-state-chromite-production-2024-25",
+        "earlier_ibm_observation": "mining-chromite-2025",
+        "status": "unresolved_different_release_vintages",
+        "resolution": "State3.187 versus March2025 IBM3.026; preserve both, no merged value or blended trend."
+      }
+    ],
+    "calculation_ids": [
+      "ore-state-bauxite-2014-15-to-2024-25",
+      "ore-state-bauxite-2019-20-to-2024-25",
+      "ore-state-iron-ore-2014-15-to-2024-25"
+    ],
+    "publication_rules": [
+      "Do not divide a state-series numerator by an IBM national denominator.",
+      "Hold disputed observations from public harmonised claims.",
+      "Do not treat company address as mine location or producer as MDO."
+    ],
+    "next_step": "Resolve source-scope differences through methodology/revision notes; extend named ore-mine-to-district identities and permit stages. Retry unresolved methods with primary publisher after 8 October 2026; no invented explanation."
+  },
+  "value_chain_checkpoint": {
+    "run_id": "2026-10-01-mining-value-chain",
+    "as_of_retrieval": "2026-10-01",
+    "case": "NALCO bauxite-to-aluminium",
+    "source_ids": [
+      "mining-nalco-ar2026",
+      "mining-nalco-refinery",
+      "mining-dbl-pottangi"
+    ],
+    "nodes": [
+      {
+        "id": "panchpatmali-central-north",
+        "name": "Panchpatmali Central and North Block",
+        "kind": "bauxite_mine",
+        "district": "Koraput",
+        "lessee_operator": "NALCO",
+        "mdo": null,
+        "stage": "operating_reported",
+        "lease_valid_to_company_reported": "2032-11-16",
+        "locator": "Annual report p.12/PDF32; existing IBM producer district in ore checkpoint",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-nalco-refinery"
+        ],
+        "checked_on": "2026-10-01",
+        "independent_permit_register_check": false
+      },
+      {
+        "id": "panchpatmali-south",
+        "name": "Panchpatmali South Block",
+        "kind": "bauxite_mine",
+        "district": "Koraput",
+        "lessee_operator": "NALCO",
+        "mdo": null,
+        "stage": "operating_reported",
+        "lease_valid_to_company_reported": "2029-07-19",
+        "locator": "Annual report p.12/PDF32; existing IBM producer district in ore checkpoint",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-nalco-refinery"
+        ],
+        "checked_on": "2026-10-01",
+        "independent_permit_register_check": false
+      },
+      {
+        "id": "damanjodi-refinery",
+        "name": "Damanjodi alumina refinery",
+        "kind": "refinery",
+        "district": "Koraput",
+        "operator": "NALCO",
+        "stage": "operating_reported",
+        "locator": "Refinery page; annual report p.59/PDF79; p.88/PDF108 names districts",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-nalco-refinery"
+        ],
+        "checked_on": "2026-10-01",
+        "independent_permit_register_check": false
+      },
+      {
+        "id": "angul-smelter",
+        "name": "Angul aluminium smelter",
+        "source_alias": "Anugola",
+        "kind": "smelter",
+        "district": "Angul",
+        "operator": "NALCO",
+        "stage": "operating_reported",
+        "locator": "Annual report p.59/PDF79 and p.88/PDF108",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-nalco-refinery"
+        ],
+        "checked_on": "2026-10-01",
+        "independent_permit_register_check": false
+      },
+      {
+        "id": "visakhapatnam-port-facility",
+        "name": "NALCO Visakhapatnam port facility",
+        "kind": "port_facility",
+        "state": "Andhra Pradesh",
+        "stage": "operating_reported",
+        "locator": "Refinery page; annual report chairman message PDF12",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-nalco-refinery"
+        ],
+        "checked_on": "2026-10-01",
+        "independent_permit_register_check": false
+      },
+      {
+        "id": "pottangi-bauxite",
+        "name": "Pottangi bauxite mine",
+        "kind": "bauxite_mine_project",
+        "district": "Koraput",
+        "lessee": "NALCO",
+        "mdo": "Dilip Buildcon Limited",
+        "spv": "DBL Pottangi Bauxite Mines Private Limited",
+        "stage": "development_company_reported_production_not_verified",
+        "mdo_appointment_date_company_reported": "2025-12-09",
+        "mdo_contract_years": 25,
+        "planned_production_start": "FY2026-27 Q4 (January–March2027)",
+        "locator": "Annual report p.14/PDF34 and p.88/PDF108; DBL project page",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-dbl-pottangi"
+        ],
+        "checked_on": "2026-10-01",
+        "independent_permit_register_check": false
+      }
+    ],
+    "links": [
+      {
+        "from": "panchpatmali-central-north",
+        "to": "damanjodi-refinery",
+        "material": "bauxite",
+        "relationship": "captive_supply",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-nalco-refinery"
+        ],
+        "locator": "p.12/PDF32; refinery operation page",
+        "mode_note": "Refinery page describes a 14.6 km conveyor for Panchpatmali collectively; no block-specific split."
+      },
+      {
+        "from": "panchpatmali-south",
+        "to": "damanjodi-refinery",
+        "material": "bauxite",
+        "relationship": "captive_supply",
+        "source_ids": [
+          "mining-nalco-ar2026"
+        ],
+        "locator": "p.12/PDF32",
+        "mode_note": "Additional crushing/conveying project p.13 remains under implementation."
+      },
+      {
+        "from": "damanjodi-refinery",
+        "to": "angul-smelter",
+        "material": "alumina",
+        "relationship": "rail_supply",
+        "source_ids": [
+          "mining-nalco-refinery"
+        ],
+        "locator": "Opening operation description"
+      },
+      {
+        "from": "damanjodi-refinery",
+        "to": "visakhapatnam-port-facility",
+        "material": "surplus alumina",
+        "relationship": "rail_to_export_port",
+        "source_ids": [
+          "mining-nalco-refinery"
+        ],
+        "locator": "Opening operation description"
+      },
+      {
+        "from": "pottangi-bauxite",
+        "to": "damanjodi-refinery",
+        "material": "bauxite",
+        "relationship": "planned_supply_for_expansion",
+        "source_ids": [
+          "mining-nalco-ar2026",
+          "mining-dbl-pottangi"
+        ],
+        "locator": "p.14/PDF34 and project description"
+      }
+    ],
+    "observation_ids": [
+      "nalco-chain-hydrate-2025-26",
+      "nalco-chain-hydrate-2024-25",
+      "nalco-chain-hydrate-2023-24",
+      "nalco-chain-hydrate-2022-23",
+      "nalco-chain-hydrate-2021-22",
+      "nalco-chain-aluminium-2025-26",
+      "nalco-chain-aluminium-2024-25",
+      "nalco-chain-aluminium-2023-24",
+      "nalco-chain-aluminium-2022-23",
+      "nalco-chain-aluminium-2021-22",
+      "nalco-chain-alumina-exports-2025-26",
+      "nalco-chain-alumina-exports-2024-25",
+      "nalco-chain-alumina-exports-2023-24",
+      "nalco-chain-alumina-exports-2022-23",
+      "nalco-chain-alumina-exports-2021-22",
+      "nalco-chain-aluminium-exports-2025-26",
+      "nalco-chain-aluminium-exports-2024-25",
+      "nalco-chain-aluminium-exports-2023-24",
+      "nalco-chain-aluminium-exports-2022-23",
+      "nalco-chain-aluminium-exports-2021-22",
+      "nalco-chain-aluminium-domestic-2025-26",
+      "nalco-chain-aluminium-domestic-2024-25",
+      "nalco-chain-aluminium-domestic-2023-24",
+      "nalco-chain-aluminium-domestic-2022-23",
+      "nalco-chain-aluminium-domestic-2021-22",
+      "nalco-chain-export-value-2025-26",
+      "nalco-chain-export-value-2024-25",
+      "nalco-chain-export-value-2023-24",
+      "nalco-chain-export-value-2022-23",
+      "nalco-chain-export-value-2021-22",
+      "nalco-chain-bauxite-table-2025-26",
+      "nalco-chain-bauxite-table-2024-25",
+      "nalco-chain-bauxite-table-2023-24",
+      "nalco-chain-bauxite-table-2022-23",
+      "nalco-chain-bauxite-table-2021-22",
+      "nalco-chain-permanent-employees",
+      "nalco-chain-permanent-workers",
+      "nalco-chain-non-permanent-workers",
+      "nalco-chain-manpower",
+      "nalco-chain-women-on-roll",
+      "nalco-chain-manpower-prior",
+      "nalco-chain-semiurban-wages-2025-26",
+      "nalco-chain-semiurban-wages-2024-25",
+      "nalco-chain-markets-2025-26",
+      "nalco-chain-worker-fatalities-current",
+      "nalco-chain-worker-fatalities-prior",
+      "nalco-chain-smelter-recordable",
+      "nalco-chain-cpp-recordable",
+      "nalco-chain-pottangi-conveyor-paf",
+      "nalco-chain-pottangi-water-paf"
+    ],
+    "calculation_ids": [
+      "nalco-chain-hydrate-change-2024-25-2025-26",
+      "nalco-chain-aluminium-change-2024-25-2025-26",
+      "nalco-chain-export-value-change-2024-25-2025-26",
+      "nalco-chain-aluminium-domestic-change-2021-22-2025-26"
+    ],
+    "conflicts_and_limits": [
+      {
+        "field": "Pottangi commencement",
+        "sources": [
+          "mining-nalco-ar2026",
+          "mining-dbl-pottangi"
+        ],
+        "values": [
+          "Annual report: production expected Q4 FY2026-27",
+          "Undated DBL page: operations targeted mid-2026; On-Going"
+        ],
+        "resolution": "Both are plans/project status; neither verifies commercial production. Retain annual-report date and route original commissioning evidence."
+      },
+      {
+        "field": "Bauxite definition",
+        "resolution": "Five-year production table differs from excavation highlights; its FY26 quantity aligns with rounded transportation. Retain five held observations, no merged series."
+      },
+      {
+        "field": "Workforce geography",
+        "resolution": "Company headcounts cannot be labelled Odisha-resident jobs. Wage-share locality footnote is narrower evidence."
+      },
+      {
+        "field": "Safety boundary",
+        "resolution": "BRSR p.74 covers own operations. Value-chain partner aggregate p.105 is based on selected external entities and mixed vintages described p.102; do not attribute its fatalities to NALCO sites."
+      },
+      {
+        "field": "Panchpatmali capacity",
+        "resolution": "Chairman message uses 68.25 lakh TPA while a discovered SD report describes three-block combined99.75; no combined capacity adopted without block scope reconciliation.",
+        "discovery_url": "https://nalcoindia.com/wp-content/uploads/2026/03/NALCO-SD-Report-2025-Final.pdf",
+        "discovery_status": "indexed_excerpt_only_direct_open_failed"
+      }
+    ],
+    "community_links": [
+      {
+        "kind": "CSR livelihood project, company reported",
+        "topic": "honey",
+        "place_as_reported": "Tabhapodar and Talagadti, Bijaghati Panchayata",
+        "reported_beneficiaries": "Around 20 women",
+        "source_id": "mining-nalco-ar2026",
+        "locator": "p.97/PDF117, row50",
+        "income_or_sales_change": null
+      },
+      {
+        "kind": "CSR livelihood project, company reported",
+        "topic": "ginger processing",
+        "reported_units": 6,
+        "reported_beneficiaries": "Around30 women",
+        "source_id": "mining-nalco-ar2026",
+        "locator": "p.97/PDF117, row53",
+        "income_or_sales_change": null
+      }
+    ],
+    "open_fields": [
+      "Original lease/consent documents and current register status",
+      "Company headcounts by plant and local residence",
+      "Odisha supplier procurement values and payment terms",
+      "Named household income or enterprise turnover before/after support",
+      "Pottangi actual production commissioning and R&R updates"
+    ],
+    "human_review_claimed": false
+  },
+  "bauxite_sites_checkpoint": {
+    "run_id": "2026-10-01-bauxite-sites",
+    "as_of_retrieval": "2026-10-01",
+    "source_ids": [
+      "mining-ibm-kodingamali2024",
+      "mining-asi-baphlimali2026",
+      "mining-hindalco-baphlimali",
+      "mining-asi-baphlimali-news2026"
+    ],
+    "observation_ids": [
+      "bauxite-sites-kodingamali-actual-2019-20",
+      "bauxite-sites-kodingamali-proposed-2019-20",
+      "bauxite-sites-kodingamali-actual-2020-21",
+      "bauxite-sites-kodingamali-proposed-2020-21",
+      "bauxite-sites-kodingamali-actual-2021-22",
+      "bauxite-sites-kodingamali-proposed-2021-22",
+      "bauxite-sites-kodingamali-actual-2022-23",
+      "bauxite-sites-kodingamali-proposed-2022-23",
+      "bauxite-sites-kodingamali-actual-2023-24",
+      "bauxite-sites-kodingamali-proposed-2023-24",
+      "bauxite-sites-kodingamali-rehabilitation-actual",
+      "bauxite-sites-kodingamali-rehabilitation-proposed",
+      "bauxite-sites-baphlimali-capacity",
+      "bauxite-sites-baphlimali-people",
+      "bauxite-sites-baphlimali-women"
+    ],
+    "mine_identities": [
+      {
+        "id": "kodingamali",
+        "operator": "Odisha Mining Corporation Limited",
+        "mine_code": "07ORI09005",
+        "registration": "IBM/4269/2011",
+        "district_register_entry": "Koraput",
+        "lease_area_ha": 428.075,
+        "lease_date": "2017-01-10",
+        "opening_date": "2018-02-02",
+        "type": "non_captive_opencast_fully_mechanised",
+        "source_id": "mining-ibm-kodingamali2024",
+        "locator": "PDF pp.1–2",
+        "buyers": null,
+        "boundary_caveat": "Register district is not proof of lease polygon wholly within that district. Older OMC tender found in search suggests Koraput/Rayagada; full boundary check pending."
+      },
+      {
+        "id": "baphlimali",
+        "operator": "Utkal Alumina International Limited",
+        "parent": "Hindalco Industries Limited",
+        "district_scope": "Rayagada; audit overview also describes lease portion in Kalahandi",
+        "source_id": "mining-asi-baphlimali2026",
+        "locator": "PDF p.4",
+        "commercial_mining_start_year": 2012,
+        "current_lease_register_verified": false
+      }
+    ],
+    "supply_links": [
+      {
+        "from": "baphlimali",
+        "to": "utkal-alumina-refinery",
+        "material": "bauxite",
+        "mode": "covered conveyor",
+        "source_ids": [
+          "mining-asi-baphlimali2026",
+          "mining-hindalco-baphlimali"
+        ],
+        "locator": "Audit PDFp.4 and company operations page",
+        "length_caveat": "Audit18km, company18.5km: retain approximate/vintage distinction; no precise reconciled route adopted."
+      }
+    ],
+    "certification": {
+      "entity": "Baphlimali Bauxite Mines",
+      "certificate_number": "557",
+      "standard": "ASI Performance Standard V3.1 (2023)",
+      "issued_on": "2026-05-19",
+      "expires_on": "2029-05-18",
+      "audit_dates": [
+        "2026-01-19",
+        "2026-01-22"
+      ],
+      "audit_report_submitted": "2026-03-31",
+      "auditor": "CETIZION Verifica",
+      "scope": "Planning, mining, processing and conveyor transportation of bauxite",
+      "excluded": "Alumina refinery explicitly outside certification scope",
+      "next_audit_date_as_reported": "2027-09-19",
+      "source_id": "mining-asi-baphlimali2026",
+      "announcement_source_id": "mining-asi-baphlimali-news2026",
+      "minor_nonconformance_criteria": [
+        "3.4a-f",
+        "5.1a-b",
+        "5.3b-e",
+        "6.1a-f",
+        "9.3a-i",
+        "10.3a-c",
+        "10.7a-c",
+        "10.8a-c",
+        "11.1b-e"
+      ],
+      "corrective_action_closure_verified": false,
+      "interpretation": "Nine minor findings retained; certificate is not a blanket no-impact or compliance guarantee. Under10.3 audit found no forced labour, but insufficient Modern Slavery Statement coverage. Do not turn the criterion heading into an allegation."
+    },
+    "conflicts_and_limits": [
+      {
+        "field": "Baphlimali capacity",
+        "values": [
+          "Dated ASI audit8.5MTPA",
+          "Undated Hindalco header8.5MTPA",
+          "Same company page body7.0MTPA"
+        ],
+        "resolution": "Use8.5only as dated audit-reported capacity; do not overwrite old page or infer actual output."
+      },
+      {
+        "field": "Kodingamali permitted expansion",
+        "resolution": "Inspection for FY2023–24 cites EC3MTPA versus miningplan6MTPA. No claim about October2026permit. Expansion-form direct fetch failed."
+      },
+      {
+        "field": "Baphlimali compliance link",
+        "resolution": "Link133 under Baphlimali in retrieved compliance index led to Bimarla PDF, confirmed cover names GumlaJharkhand. Excluded from Odisha evidence."
+      },
+      {
+        "field": "Permission layers follow-up",
+        "source_id": "mining-baphlimali-ec-sep2025",
+        "resolution": "October2capture finds company-reported CTO8.0MTPA asofSeptember2025 alongside EC8.5MTPA. Old7.0body remains separate; no current permit claim."
+      }
+    ],
+    "next_evidence_routes": [
+      {
+        "url": "https://www.hindalco.com/Upload/PDF/baphlimali-form-g1-annual-return-2024-25.pdf",
+        "discovered_in": "ASI audit PDFp.6",
+        "status": "text_retrieved_download_unavailable",
+        "purpose": "Original realised production, dispatch and employment fields",
+        "capture_run": "2026-10-02-baphlimali-returns"
+      },
+      {
+        "url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+        "discovered_in": "ASI audit PDFp.6",
+        "status": "text_retrieved_download_unavailable",
+        "purpose": "Original permit and mine-boundary scope; preserve literal2205inURL",
+        "capture_run": "2026-10-02-baphlimali-returns"
+      }
+    ],
+    "open_fields": [
+      "Current original mine permits and district polygon boundaries",
+      "Baphlimali annual realised production and dispatch",
+      "Kodingamali named buyers and realised destinations",
+      "Direct/contract workforce split and local residence",
+      "Corrective-action closure from subsequent audit",
+      "Comparable household livelihood income before/after projects"
+    ],
+    "human_review_claimed": false
+  },
+  "baphlimali_return_checkpoint": {
+    "run_id": "2026-10-02-baphlimali-returns",
+    "retrieved_at": "2026-10-02T00:49:26.791780+00:00",
+    "source_ids": [
+      "mining-baphlimali-g1-2025",
+      "mining-baphlimali-ec-sep2025"
+    ],
+    "observation_ids": [
+      "baphlimali-return-rom-output-2024-25",
+      "baphlimali-return-rom-opening-2024-25",
+      "baphlimali-return-rom-closing-2024-25",
+      "baphlimali-return-graded-output-2024-25",
+      "baphlimali-return-graded-dispatch-2024-25",
+      "baphlimali-return-royalty-2024-25",
+      "baphlimali-return-dmf-2024-25",
+      "baphlimali-return-nmet-2024-25",
+      "baphlimali-return-direct-days-2024-25",
+      "baphlimali-return-contract-days-2024-25",
+      "baphlimali-return-total-days-2024-25",
+      "baphlimali-return-daily-average-2024-25",
+      "baphlimali-return-daily-women-2024-25",
+      "baphlimali-return-maximum-2024-25",
+      "baphlimali-return-wages-2024-25",
+      "baphlimali-return-supervisors-2024-25",
+      "baphlimali-return-lease-area-2025",
+      "baphlimali-return-reclaimed-area-2025",
+      "baphlimali-return-backfilled-sep2025",
+      "baphlimali-return-afforested-sep2025",
+      "baphlimali-return-cto-capacity-sep2025"
+    ],
+    "identity": {
+      "mine_code": "07ORI27001",
+      "ibm_registration": "IBM/75/2011",
+      "operator": "Utkal Alumina International Limited",
+      "registered_location": "Kashipur, Rayagada, Odisha",
+      "lease_deed_execution_as_reported": "1998-02-17",
+      "lease_term_years_as_reported": 50,
+      "source_id": "mining-baphlimali-g1-2025",
+      "locator": "PDF pp.1–2",
+      "interpretation": "Lease execution date is distinct from ASI grant-year1997; no exact current expiry derived."
+    },
+    "supply_link_update": {
+      "from": "baphlimali",
+      "to": "utkal-alumina-refinery",
+      "consignee_as_reported": "Utkal Alumina International limited",
+      "nature": "captive_consumption",
+      "quantity_tonnes": 7657000,
+      "period": "2024-25",
+      "source_id": "mining-baphlimali-g1-2025",
+      "locator": "PDF p.13, PartVI row5",
+      "caveat": "Named legal consignee supports existing audit-described refinery route; dispatch is not paid external sale or exports."
+    },
+    "arithmetic_checks": [
+      {
+        "expression": "245127 + 7657426 - 7657000",
+        "result": 245553,
+        "unit": "tonnes",
+        "interpretation": "ROM stock balance reconciles to closing stock; grade-wise production426tonnes below ROM retained, not treated as clerical error."
+      },
+      {
+        "expression": "9763 + 193300",
+        "result": 203063,
+        "unit": "person-days",
+        "interpretation": "Direct plus contract days, not headcounts."
+      },
+      {
+        "expression": "203063 / 365",
+        "result": 556.3369863013698,
+        "rounded_reported": 556.3,
+        "unit": "average daily persons",
+        "interpretation": "Table internal arithmetic; no independent worker verification."
+      },
+      {
+        "expression": "642173879 / 10000000",
+        "result": 64.2173879,
+        "unit": "INR crore",
+        "interpretation": "Display conversion for current-year DMF payment."
+      }
+    ],
+    "permission_layers": [
+      {
+        "kind": "EC as cited by company",
+        "capacity_mtpa": 8.5,
+        "reference": "J-11015/650/2007-IA.II(M)",
+        "date": "2009-02-19",
+        "locator": "EC report PDFp.2"
+      },
+      {
+        "kind": "CTO as cited by company",
+        "capacity_mtpa": 8.0,
+        "reference": "3859/IND-I-CON-5450; consent order2765",
+        "date": "2025-02-25",
+        "reported_valid_to": "2027-03-31",
+        "locator": "EC report PDFp.11; original annexure not text-readable"
+      }
+    ],
+    "held_comparisons": [
+      {
+        "field": "rehabilitation",
+        "values": [
+          "FormG1 160.624ha reclaimed-rehabilitated at31March2025",
+          "EC 166.88ha backfilled and112.16ha afforested at30September2025",
+          "ASI105ha rehabilitated in January2026 audit overview"
+        ],
+        "resolution": "Different labels, dates and unresolved spatial scopes; do not infer increase/decrease or restoration success."
+      },
+      {
+        "field": "workforce",
+        "values": [
+          "FormG1 daily average556.3 in FY2024–25",
+          "ASI approximate1017people in January2026 audit",
+          "EC public-hearing response341engaged/employed including18buffer-zone in Kalahandi section"
+        ],
+        "resolution": "Distinct denominators and geographic ambiguity. Last count retained as scoped discovery in this checkpoint, not admitted as local headcount or growth."
+      },
+      {
+        "field": "district area",
+        "values": [
+          "Annual-return lease1388.740ha",
+          "EC Rayagada public-hearing heading1338.74ha, PDFp.16",
+          "EC Kalahandi public-hearing heading492.82ha, PDFp.41"
+        ],
+        "resolution": "Do not add section headings or infer district shares; obtain lease polygon/original approval boundaries."
+      }
+    ],
+    "access_limits": [
+      "Both original PDFs readable as web text; direct downloads HTTP406.",
+      "FormG1 screenshots failed cache-miss; complex employment table stays needs_source_table_review.",
+      "Scanned EC annexure including original CTO not readable in text; no current permit verification."
+    ],
+    "retry_after": "2026-10-08",
+    "human_review_claimed": false
+  }
+}

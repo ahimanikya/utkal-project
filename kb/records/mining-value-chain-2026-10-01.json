@@ -1,0 +1,66 @@
+{
+  "run_id": "2026-10-01-mining-value-chain",
+  "at": "2026-10-01T23:35:36.358411+00:00",
+  "scope": "NALCO named mines, processing and transport relationships, workforce scope, markets and development stages.",
+  "tasks": [
+    "RES-051"
+  ],
+  "task_status": "continuation_checkpoint",
+  "new_source_ids": [
+    "mining-nalco-ar2026",
+    "mining-nalco-refinery",
+    "mining-dbl-pottangi"
+  ],
+  "reused_source_ids": [
+    "enterprise-nalco2026",
+    "mining-ibm-yearbook2024"
+  ],
+  "human_review_claimed": false,
+  "local_odia_review": "pending",
+  "website_publication": false,
+  "validation": {
+    "research_validators": 12,
+    "result": "PASS",
+    "catalogue": "PASS",
+    "bundle": "PASS",
+    "authority_registers": "PASS",
+    "scope": "Clean committed snapshot plus explicit research changes; unrelated local duplicate copies excluded."
+  },
+  "files_changed": [
+    "kb/catalog.json",
+    "kb/log.md",
+    "kb/records/editorial-workbench.json",
+    "kb/records/mining-value-chain-2026-10-01.json",
+    "kb/research/about/research-gaps.md",
+    "kb/research/economy/bauxite-to-aluminium.md",
+    "kb/research/economy/forest-products.md",
+    "kb/research/economy/mining.md",
+    "kb/research/log.md",
+    "kb/research/manifest-sha256.json",
+    "kb/research/methods/research-map.md",
+    "kb/research/references/data/bundle-summary.json",
+    "kb/research/references/data/classification-validation-report.json",
+    "kb/research/references/data/content-classification.json",
+    "kb/research/references/data/growth-journeys-validation-report.json",
+    "kb/research/references/data/imported-research-scope.json",
+    "kb/research/references/data/maritime-validation-report.json",
+    "kb/research/references/data/mining-programme.json",
+    "kb/research/references/data/research-map-validation-report.json",
+    "kb/research/references/data/research-map.json",
+    "kb/research/references/data/research-queue.json",
+    "kb/research/references/data/source-catalog.json",
+    "kb/research/references/data/source-reliability.json",
+    "kb/research/references/data/statistics-atlas.json",
+    "kb/research/references/data/statistics-validation-report.json",
+    "kb/research/references/data/validation-report.json",
+    "kb/research/references/data/visitor-index-validation-report.json",
+    "kb/research/search-index.json",
+    "kb/research/sources/enterprise-nalco2026.md",
+    "kb/research/sources/mining-dbl-pottangi.md",
+    "kb/research/sources/mining-nalco-ar2026.md",
+    "kb/research/sources/mining-nalco-refinery.md",
+    "kb/research/statistics/districts/angul.md",
+    "kb/research/statistics/districts/koraput.md",
+    "kb/research/statistics/industrial-production.md"
+  ]
+}

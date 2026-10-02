@@ -44,3 +44,11 @@ This is a research collection, not a current travel-booking directory. Statement
 - [Language and literature website pilot](voices/index.md) — illustrated language, writer and work introductions.
 
 [Research map and reuse rules](methods/research-map.md) — inspect existing research and project narratives before starting a new source search.
+
+[Dance, learning and religious traditions research programme](methods/culture-learning-programme.md).
+
+[Mining: minerals, industry and people](economy/mining.md).
+
+[Forest foods and products](economy/forest-products.md).
+
+[The whole Odisha encyclopedia](about/encyclopedia-scope.md) · [Odisha in the world](collections/odisha-and-world.md) · [Religion and spirituality](collections/religion-and-spirituality.md).

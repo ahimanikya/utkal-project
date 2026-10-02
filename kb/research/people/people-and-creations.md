@@ -103,3 +103,17 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Sanghamitra Mohanty](../people/sanghamitra-mohanty.md) and [Susmita Mohanty](../people/susmita-mohanty.md) extend the science collection into computing and space design/policy. Follow their credited-work pages for original publisher records and research limits.
 
 [Pala and its culture](../culture/pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
+
+[Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+## Mahima Dharma and a credited reading route
+
+[Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.
+
+## Weaving lives: evidence before biographies
+
+[Handloom maker credits](../handlooms/garments-and-markets.md) now preserve four named awardee connections. These are scoped credits, with no invented life histories or current business claims.
+
+## Textile creators: stronger work-level credits
+
+[Handloom research](../handlooms/garments-and-markets.md) now connects Swarnalata Meher, Debaki Meher and Sarat Kumar Patra with three illustrated directory examples. Existing identities and shared records are reused; these are not newly invented biographies or interviews.

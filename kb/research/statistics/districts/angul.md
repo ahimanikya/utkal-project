@@ -23,3 +23,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 
 
 [^macro-slbc-jun2026]: [184th SLBC Odisha meeting agenda — June 2026 quarter](https://slbcorissa.com/wp-content/uploads/2026/09/Total-Agenda-184th-SLBC-Meeting.compressed.pdf)
+
+## Mine-to-processing checkpoint · 1 October 2026
+
+[The NALCO chain](../../economy/bauxite-to-aluminium.md) links Angul’s smelter to Damanjodi. Wage geography, safety and physical output retain their different denominators.

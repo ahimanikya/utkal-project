@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-01T18:51:46.210268+00:00",
+  "run_id": "2026-10-01-ekamra-kanan",
+  "concept_id": "places/ekamra-kanan",
+  "observations": [
+    {
+      "id": "ekamra-cactus_collection",
+      "metric": "cactus_collection",
+      "value": 1050,
+      "unit": "species/varieties",
+      "source_id": "nature-rprc-cacti",
+      "locator": "Collection paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    },
+    {
+      "id": "ekamra-developed_cacti",
+      "metric": "developed_cacti",
+      "value": 200,
+      "unit": "varieties/hybrids, approximately",
+      "source_id": "nature-rprc-cacti",
+      "locator": "Collection paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    },
+    {
+      "id": "ekamra-fragrance_garden",
+      "metric": "fragrance_garden",
+      "value": 72,
+      "unit": "species",
+      "source_id": "nature-rprc-garden",
+      "locator": "Fragrance paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    },
+    {
+      "id": "ekamra-hibiscus_garden",
+      "metric": "hibiscus_garden",
+      "value": 52,
+      "unit": "varieties",
+      "source_id": "nature-rprc-garden",
+      "locator": "Hibiscus paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    },
+    {
+      "id": "ekamra-rose_garden",
+      "metric": "rose_garden",
+      "value": 1000,
+      "unit": "varieties, approximately",
+      "source_id": "nature-rprc-garden",
+      "locator": "Rose paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    },
+    {
+      "id": "ekamra-threatened_plant_garden",
+      "metric": "threatened_plant_garden",
+      "value": 32,
+      "unit": "species, publisher designation",
+      "source_id": "nature-rprc-garden",
+      "locator": "RET paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    },
+    {
+      "id": "ekamra-palmetum",
+      "metric": "palmetum",
+      "value": 54,
+      "unit": "types of tropical palms",
+      "source_id": "nature-rprc-garden",
+      "locator": "Palmetum paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    },
+    {
+      "id": "ekamra-jagannath_vatika",
+      "metric": "jagannath_vatika",
+      "value": 125,
+      "unit": "species",
+      "source_id": "nature-rprc-garden",
+      "locator": "Jagannath Vatika paragraph",
+      "geography": "RPRC / Ekamra Kanan, Bhubaneswar",
+      "observation_date": null,
+      "retrieved_on": "2026-10-01",
+      "status": "undated_institutional_description",
+      "scope": "Do not sum overlapping collections or convert varieties/hybrids/types into species. No current inventory audit."
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "Asia’s biggest park",
+      "status": "unsupported_by_checked_sources",
+      "scope": "No park-area ranking established; cactus collection claim cannot support this wording."
+    },
+    {
+      "claim": "Asia’s largest cactus collection",
+      "status": "attributed_publisher_claim_not_independently_ranked",
+      "source_id": "nature-rprc-cacti",
+      "comparison_source_id": "nature-panchkula-cactus",
+      "scope": "Different botanical groups, taxonomic units, display settings and undated counts prevent a direct ranking."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "opening_hours",
+      "source_id": "nature-rprc-garden",
+      "accounts": [
+        "Introduction: 08:00–18:00 summer; 08:00–17:00 winter",
+        "Visiting Hours & Rates: 05:30–20:30; morning walk 05:30–08:30"
+      ],
+      "status": "unresolved; current visitor hours withheld"
+    }
+  ],
+  "source_families": [
+    {
+      "source_ids": [
+        "nature-rprc-cacti",
+        "nature-rprc-garden",
+        "nature-rprc-history",
+        "food-koli-rprc"
+      ],
+      "relationship": "Same institution; distinct pages are not independent corroboration."
+    }
+  ],
+  "park_area": {
+    "value": null,
+    "unit": "acres",
+    "reason": "Precise campus versus public garden boundary not established from inspected primary pages."
+  },
+  "current_visitor_hours": null,
+  "annual_attendance": {
+    "value": null,
+    "reason": "Publisher says over two lakh annually without a reporting year; not admitted as a dated statistical observation."
+  },
+  "next_research": [
+    "Dated botanical accession inventory and taxonomy",
+    "Campus/public-garden boundary and surveyed area",
+    "Compare cactus-only counts under consistent definitions",
+    "Resolve visitor hours and check dated notices before itinerary publication",
+    "Jagannath Vatika plant-to-ritual documentation",
+    "Named researchers, publications and plant conservation outcomes"
+  ]
+}

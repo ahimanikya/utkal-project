@@ -12,3 +12,7 @@
 [Knowledge base home](../index.md)
 
 [Utkal’s rulers and royal legacies](../people/rulers-and-royal-legacies.md) — five selected rulers linked to inscriptions, government centres and architectural patronage; political power, contribution and later remembrance remain distinct.
+
+[Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.

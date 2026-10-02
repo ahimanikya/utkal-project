@@ -27,3 +27,15 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Homestay research link · 1 October 2026
 
 The public portal lists both Kulusing and Puttasing; the reported amendment still requires original-text reconciliation. See the [dated homestay snapshot](../homestays.md) for scope. These are portal place associations, not operational-property counts or verified travel proximity.
+
+## Mineral evidence · 1 October2026
+
+IBM’s2023–24 bauxite producer table places Utkal Alumina mine location in Rayagada. [Ore research](../ore-production.md) records scope; production is not a measure of local income or current lease status.
+
+## Bauxite-site checkpoint · 1 October 2026
+
+[Baphlimali](../../economy/bauxite-mine-identities.md) links mining to the Utkal Alumina refinery and a dated ASI audit; the refinery is outside that certificate’s scope.
+
+## Baphlimali returns · 2 October2026 UTC
+
+[Baphlimali follow-up](../../economy/bauxite-mine-identities.md) supplies mine-level output and work-day evidence. District allocation and residents’ employment remain unverified.

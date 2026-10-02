@@ -77,3 +77,21 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Speech, Sound and Music Processing](../works/speech-sound-music-2012.md) connects scholarly computing with sound and music through an edited proceedings volume; editor and individual author credits remain separate.
 
 [Pala and its culture](../culture/pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
+
+[Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Siali fibre](../economy/siali-products.md) connects historical Mankirdia craft evidence to forest-material research; no present-day maker interview is claimed.
+
+[Dance and music connections](../culture/dance-and-music-connections.md) — Follow traditions to credited people, programmes and reading routes, with historical and operational limits retained.
+
+## Yogini architecture and religious contexts
+
+[Hirapur](../places/hirapur-yogini.md) and [Ranipur-Jharial](../places/ranipur-jharial-yogini.md) now have distinct archaeological evidence records. [Read the comparative account](../culture/tantric-traditions.md), including attributed dates, sculpture-count limits and the distinction between Shaiva/Shakta and Buddhist contexts.
+
+## Mahima Dharma and a credited reading route
+
+[Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.
+
+## Handloom market pathways
+
+[Six traditions and seller evidence](../handlooms/garments-and-markets.md) · [From loom to market](../stories/handlooms-from-loom-to-market.md). Technique, garment form, fibre and maker credit are distinct fields.

@@ -51,3 +51,21 @@ Subject membership is editorial classification. It does not establish historical
 [Lalit Mohan Patnaik](../people/lalit-mohan-patnaik.md) connects Odisha education and institutional collaboration with computing research and a jointly credited publication. Dated recognition, author bibliography and original-paper review remain separate evidence steps.
 
 [Sanghamitra Mohanty](../people/sanghamitra-mohanty.md) and [Susmita Mohanty](../people/susmita-mohanty.md) extend the science collection into computing and space design/policy. Follow their credited-work pages for original publisher records and research limits.
+
+[Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+[Buddhist learning and Pushpagiri](../history/buddhist-learning.md) connects a credited traveller text, excavated monastic names and the [Langudi identification](../places/langudi.md), retaining distinct evidence classes.
+
+## Jagannath origins
+
+[Read the narrative and inscription timeline](../history/jagannath-origins.md): religious texts, temple patronage, language and food-support records retain distinct evidence labels.
+
+## Yogini architecture and religious contexts
+
+[Hirapur](../places/hirapur-yogini.md) and [Ranipur-Jharial](../places/ranipur-jharial-yogini.md) now have distinct archaeological evidence records. [Read the comparative account](../culture/tantric-traditions.md), including attributed dates, sculpture-count limits and the distinction between Shaiva/Shakta and Buddhist contexts.
+
+## Mahima Dharma and a credited reading route
+
+[Stuti Chintamani](../works/stuti-chintamani.md) now records named English editions and translators. [Mahima Dharma](../culture/mahima-dharma.md) connects them to Joranda, Khaliapali and attributed historical scholarship while reusing the existing Bhima Bhoi literary profile.

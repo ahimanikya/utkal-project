@@ -10,7 +10,7 @@ sources: [{"id": "macro-slbc-jun2026", "title": "184th SLBC Odisha meeting agend
 
 # Bargarh — district banking
 
-Banking snapshot only. Other district fields remain unfilled until sourced.
+Banking and rice snapshots retain their separate dates and measurement scopes.
 
 - **Bank deposits: 11,768.67 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
 - **Bank advances utilised: 9,484.63 INR crore** — 2026-06-30.[^macro-slbc-jun2026]
@@ -28,3 +28,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Connected reading
 
 - [Sambalpur–Bargarh: cloth, communities and regional enterprise](../../places/sambalpur-bargarh.md) — Read the regional context while retaining separate district statistics.
+
+## Rice farming · 2023–24
+
+The agriculture report records rice crop area of **350.97 thousand hectares**, rice yield **3322 kg/ha**, and rice output **1165.92 thousand tonnes**. These are crop-year measures, independent of the banking snapshot above. [Official table, printed p.67](https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf). [Rice economics](../../economy/rice-economy.md) explains product bases and comparisons.
