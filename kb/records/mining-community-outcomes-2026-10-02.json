@@ -1,7 +1,7 @@
 {
   "run_id": "2026-10-02-mining-community-outcomes",
   "at": "2026-10-02T19:41:47.932986+00:00",
-  "status": "validated_research_checkpoint",
+  "status": "merged_research_checkpoint",
   "authorization_quote": "sounds good, lets do that",
   "human_owner": "Ahimanikya Satapathy",
   "new_source_ids": [
@@ -116,11 +116,16 @@
     "bundle": "passed",
     "authority_registers": "passed",
     "diff": "passed",
-    "remote_ci": "pending"
+    "remote_ci": "passed"
   },
   "retrieval_notes": [
     "CAG PDF failed web extraction; official curl download and pypdf text succeeded.",
     "Rendered DMF PDF pages65–66 and SFAR PDF page35 inspected for table labels/units.",
     "Bounded official-domain searches did not recover later matched operation evidence; search snippets not promoted to facts."
-  ]
+  ],
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/65",
+  "merge_commit": "9df2f60c2f132ad33f1aa7ec8c6f30416f7e6ca7",
+  "merged_at": "2026-10-02T19:52:35Z",
+  "validated_head": "8170cb35a1bfb4e42afd46fb54c77567bbf90b45",
+  "remote_ci": "https://github.com/ahimanikya/utkal-project/actions/runs/37056522062"
 }

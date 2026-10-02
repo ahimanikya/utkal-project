@@ -4241,19 +4241,20 @@
       "id": "UTP-WORK-146",
       "title": "Connect mining receipts, district funds and working services",
       "category": "research",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-162",
-      "next_action": "Validate and integrate the bounded checkpoint; retain unfinished RES-053 evidence needs.",
+      "next_action": "Bounded checkpoint merged. RES-053 remains in progress for remaining audit sections, exact receipt reconciliation, newer operating records and community outcomes.",
       "blockers": [],
       "refs": [
         "UTP-DEC-162",
-        "UTP-REV-124"
+        "UTP-REV-124",
+        "UTP-REL-052"
       ],
       "evidence": [
         "records/mining-community-outcomes-2026-10-02.json"
@@ -11342,6 +11343,22 @@
         "records/employment-suppliers-2026-10-02.json"
       ],
       "note": "PR64 merged after CI passed. Three sources and nine observations; no public website change. Current unit headcounts remain unresolved."
+    },
+    {
+      "id": "UTP-REL-052",
+      "title": "Mining revenues and DMF service checkpoint integrated",
+      "status": "applied",
+      "authorization": "UTP-DEC-162",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/kb",
+      "refs": [
+        "UTP-WORK-146",
+        "UTP-REV-124",
+        "UTP-DEC-162"
+      ],
+      "evidence": [
+        "records/mining-community-outcomes-2026-10-02.json"
+      ],
+      "note": "PR65 merged after CI passed.48 observations, six-DMF sample, four case bundles and source discrepancies retained. Research only; current service outcomes remain open."
     }
   ],
   "sources": [
