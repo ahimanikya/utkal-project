@@ -2,12 +2,12 @@
 import ResponsiveImage from './ResponsiveImage.astro';
 import MagazineContents from './MagazineContents.astro';
 import MagazineCover from './MagazineCover.astro';
-const {kind,title,odia,eyebrow,deck,photo,caption,saveId,sections,links=[],footline,startLabel,chapterLabel,sectionPhotos={}}=Astro.props;
+const {kind,title,subtitle,odia,eyebrow,deck,photo,caption,saveId,sections,links=[],footline,startLabel,chapterLabel,sectionPhotos={}}=Astro.props;
 const warmId=kind==='food'?'origin':'paraja';
 const sectionLinks=id=>kind==='person'?links.filter(link=>id==='paraja'?link.href.includes('oup.com'):id==='listen'?!link.href.includes('oup.com'):false):[];
 ---
-<div class:list={['utk-magazine','utk-magazine--'+kind]}>
- <MagazineCover title={title} odia={odia} eyebrow={eyebrow} deck={deck} photo={photo} caption={caption} saveId={saveId} startHref={'#'+sections[0].id} startLabel={startLabel||(kind==='food'?'Meet the sweet':'Meet the writer')} footline={footline}/>
+<div class:list={['utk-magazine','utk-magazine--'+kind,{'utk-magazine--maker':kind==='culture'}]}>
+ <MagazineCover title={title} subtitle={subtitle} odia={odia} eyebrow={eyebrow} deck={deck} photo={photo} caption={caption} saveId={saveId} startHref={'#'+sections[0].id} startLabel={startLabel||(kind==='food'?'Meet the sweet':'Meet the writer')} footline={footline}/>
  <MagazineContents links={sections.map(section=>({href:'#'+section.id,label:section.title}))}/>
  <article class="mag-content">
   <div class="mag-article-chapters">{sections.map((section,index)=><section id={section.id} class:list={['mag-reading-section',{'mag-reading-section--warm':section.id===warmId}]}>

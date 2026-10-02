@@ -1,11 +1,12 @@
 const sections = [
  ['/languages/', 'Languages of Odisha'], ['/literature/', 'Odia literature'],
+ ['/crafts/', 'Crafts of Odisha'], ['/textiles/', 'Woven in Odisha'],
  ['/food/', 'Food & flavours'], ['/destinations/', 'Destinations'],
 ];
 export function pageContext(path, title) {
- const section = (path === '/people/subhas-chandra-bose/' ? ['/destinations/cuttack/', 'Cuttack'] : null) || sections.find(([href]) => path.startsWith(href))
-  || (path.startsWith('/people/') ? sections[1] : null)
-  || (['/knowledge/chilika/', '/knowledge/konark/'].includes(path) ? sections[3] : null);
+ const section = (path === '/knowledge/kotpad/' ? ['/textiles/', 'Woven in Odisha'] : null) || (path === '/people/subhas-chandra-bose/' ? ['/destinations/cuttack/', 'Cuttack'] : null) || sections.find(([href]) => path.startsWith(href))
+  || (path.startsWith('/people/') ? sections.find(([href])=>href==='/literature/') : null)
+  || (['/knowledge/chilika/', '/knowledge/konark/'].includes(path) ? sections.find(([href])=>href==='/destinations/') : null);
  if (!section) return [];
  return [{href:'/explore/',label:'Explore'}, ...(section[0] === path ? [] : [{href:section[0],label:section[1]}]), {href:path,label:title,current:true}];
 }
