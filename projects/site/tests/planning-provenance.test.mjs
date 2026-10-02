@@ -43,3 +43,41 @@ test('portable print style lets the user choose A4 or Letter and preserves long 
  assert.match(book,/break-after:avoid/);
  assert.match(book,/break-inside:avoid/);
 });
+
+test('six coastal guides retain practical decisions, reading links and qualifications in both portable formats',()=>{
+ const notes=notebooks.filter(note=>note.practical_choices);
+ const scope=JSON.parse(readFileSync('editions/coast.json','utf8'));
+ assert.equal(notes.length,6);
+ for(const note of notes){
+  assert.deepEqual(note.practical_choices.items.map(i=>i.key),['arrival','access','food','stay']);
+  const html=readFileSync('dist'+note.route+'index.html','utf8');
+  const plan={version:1,title:'Practical visit',items:[{id:note.save_id,day:1,notes:''}]};
+  const book=buildTourBook(plan,catalog),text=buildTextItinerary(plan,catalog);
+  assert.ok(html.includes('id="practical-choices"'));
+  for(const output of [html,book])assert.ok(output.includes(escapeHTML(note.practical_choices.note)));
+  assert.ok(text.includes(note.practical_choices.note));
+  for(const choice of note.practical_choices.items){
+   assert.ok(['source_context_with_editorial_advice','editorial_planning_suggestion'].includes(choice.basis));
+   for(const url of choice.source_urls)assert.ok(note.planning_sources.some(s=>s.url===url),url);
+   for(const output of [html,book])assert.ok(output.includes(escapeHTML(choice.text)),note.route+' practical text');
+   assert.ok(text.includes(choice.text));
+   for(const link of choice.links){
+    if(link.href.startsWith('/'))assert.ok(scope.routes.includes(link.href),link.href+' must remain available');
+    assert.ok(html.includes('href="'+escapeHTML(link.href)+'"'));
+    const url=new URL(link.href,'https://utkalproject.org').href;
+    assert.ok(book.includes('href="'+escapeHTML(url)+'"'));
+    assert.ok(text.includes(url));
+   }
+  }
+ }
+});
+
+test('portable practical links escape labels and reject executable URLs',()=>{
+ const note=structuredClone(notebooks.find(n=>n.practical_choices));
+ note.practical_choices.items[0].links=[{label:'<img src=x onerror=alert(1)>',href:'javascript:alert(1)'},{label:'A & B',href:'/knowledge/chilika/'}];
+ const entry={...catalog.find(x=>x.id===note.save_id),visitNotebook:note};
+ const plan={version:1,title:'Links',items:[{id:entry.id,day:1,notes:''}]};
+ const html=buildTourBook(plan,[entry]),text=buildTextItinerary(plan,[entry]);
+ assert.ok(!html.includes('javascript:'));assert.ok(!text.includes('javascript:'));assert.ok(!html.includes('<img src=x'));
+ assert.ok(html.includes('>A &amp; B</a>'));assert.ok(text.includes('A & B — https://utkalproject.org/knowledge/chilika/'));
+});

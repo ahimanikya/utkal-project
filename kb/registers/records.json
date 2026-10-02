@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-01T18:07:29.967735+00:00",
+  "recorded_at": "2026-10-02T05:01:57.235311+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4080,6 +4080,28 @@
         "records/search-console-submission.json",
         "records/search-console-fetch-diagnosis.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-140",
+      "title": "Six coastal guides: arrival, access, food and stays",
+      "category": "website_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-153",
+      "next_action": "Founder review of the six practical guides and portable-book additions; publish only after candidate approval. Local confirmations and visual review remain open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-153",
+        "UTP-REL-045"
+      ],
+      "evidence": [
+        "records/coastal-practical-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -7134,6 +7156,25 @@
       "evidence": [
         "records/search-console-verification-file.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-153",
+      "title": "Prepare six coastal practical visitor guides",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Siounds good, let's do it",
+      "scope": "Prepare the proposed practical-information batch for Bhubaneswar, Dhauli, Puri, Raghurajpur, Konark and Chilika using existing research and bounded fresh verification. Publication remains Founder gated.",
+      "recorded_at": "2026-10-02T04:58:15.128694+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-140"
+      ],
+      "evidence": [
+        "records/coastal-practical-review.json"
+      ]
     }
   ],
   "requirements": [
@@ -9932,6 +9973,30 @@
       ],
       "evidence": [
         "records/first-search-launch-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-118",
+      "title": "Coastal practical choices and portable-book self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new local contact, site or property inspection, meal booking, transport timetable or available room confirmed. Existing local-confirmation queue remains open.",
+        "Konark hours conflict remains visible; temple and museum remain separate ticket choices.",
+        "Provider directory evidence is a lead, not a quality endorsement or current operating guarantee. Some direct pages failed; these failures are recorded.",
+        "No new visual, keyboard, screen-reader, physical-device or native print review; browser access remains blocked by the recorded policy-verification failure.",
+        "Search Console processing remains a separate open issue. This batch does not change robots, sitemap scope or Google ownership verification."
+      ],
+      "refs": [
+        "UTP-DEC-153",
+        "UTP-WORK-140"
+      ],
+      "evidence": [
+        "records/coastal-practical-review.json"
       ]
     }
   ],

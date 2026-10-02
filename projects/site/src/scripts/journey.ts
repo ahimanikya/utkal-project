@@ -79,7 +79,17 @@ function renderPrint(){
    const item=catalog.get(saved.id),section=node('section');section.append(node('h3',item?.title||'Unavailable item: '+saved.id));
    if(item){section.append(node('p',`${item.kind} · ${item.area}`),node('p',item.summary),node('p',item.access||''),node('p',`Research checked ${item.checked}. Editorial preview.`));const a=node('a',new URL(item.href,location.origin).href) as HTMLAnchorElement;a.href=item.href;section.append(a);for(const s of item.sources)references.set(s.url,s.title);}
    else section.append(node('p','This saved ID is no longer in the current collection. Its notes have been preserved.'));
-   for(const note of [...(item?.practical||[]),...visitPrompts(item)]){const practical=node('div');practical.append(node('h4',note.heading),node('p',note.text));section.append(practical);}
+   for(const note of [...(item?.practical||[]),...visitPrompts(item)]){
+    const practical=node('div');practical.append(node('h4',note.heading),node('p',note.text));
+    if(note.links?.length){
+     const links=node('ul');
+     for(const link of note.links){
+      try{const url=new URL(link.href,location.origin);if(!['https:','http:'].includes(url.protocol))continue;const li=node('li'),a=node('a',link.label) as HTMLAnchorElement;a.href=url.href;li.append(a);links.append(li);}catch{/* Ignore malformed reading links. */}
+     }
+     if(links.children.length)practical.append(links);
+    }
+    section.append(practical);
+   }
    if(includeNotes()&&saved.notes)section.append(node('p',saved.notes,'print-notes'));print.append(section);
   }
  }

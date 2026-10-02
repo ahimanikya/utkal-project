@@ -1,0 +1,117 @@
+{
+  "recorded_at": "2026-10-02T04:58:15.128694+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "human_owner": "Ahimanikya Satapathy",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "authorization": "UTP-DEC-153",
+  "authorization_quote": "Siounds good, let's do it",
+  "scope": {
+    "routes": [
+      "/destinations/bhubaneswar/",
+      "/visit/places/dhauli/",
+      "/knowledge/konark/",
+      "/destinations/puri/",
+      "/visit/places/raghurajpur/",
+      "/knowledge/chilika/"
+    ],
+    "practical_choices": 24,
+    "categories": [
+      "arrival",
+      "access",
+      "food",
+      "stay"
+    ],
+    "baseline_release": "UTP-REL-045",
+    "public_editorial_pages": 122,
+    "indexable_pages": 11,
+    "new_pages": 0,
+    "delivery": "Native disclosure within existing visit notebooks; HTML and text tour books retain copy and useful links."
+  },
+  "research_reuse": [
+    "research/methods/research-map.md",
+    "research/references/data/research-queue.json",
+    "research/references/data/puri-provider-research.json",
+    "research/facilities/panthanivas-puri.md",
+    "research/facilities/nimantran-puri.md",
+    "research/destinations/visit-notebooks.json",
+    "research/destinations/chilika.json",
+    "research/destinations/konark.json"
+  ],
+  "fresh_source_checks": [
+    {
+      "url": "https://aai.aero/en/airports/bhubaneswar",
+      "result": "Official airport identity read; pickup, fare and schedules not verified."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/bhubaneswar.html",
+      "result": "Getting There section supports train and air gateways; no schedule or transfer claims."
+    },
+    {
+      "url": "https://visit.bhubaneswar.me/stay/government-accommodations/panthanivas-otdc",
+      "result": "Municipal listing read: Lewis Road property and Odia-food restaurant. Promotional price/quality claims not copied."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/temples-monuments/konark.html",
+      "result": "Getting There read: Puri Junction, Bhubaneswar airport, road onward. No frequency or duration copied."
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/page/hotel-and-accommodation",
+      "result": "Indexed primary listing names Yatrinivas/Yatriniwas Konark. Direct fetch failed. Used as listing lead only."
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/accommodations/yatrinivas-konark",
+      "result": "Fetch failed; not used as a working property link."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/plan/food-accommodation/otdc.html",
+      "result": "Returned soft 404 page. Not adopted as an accommodation reference."
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/konark",
+      "result": "Indexed rail gateway corroboration; direct fetch timed out. Tourism Getting There used for reader link."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html",
+      "result": "Accommodation paragraph read: Barkul, Rambha, Rajhans and Mangalajodi leads. Excluded unrelated accommodation cards and unsupported superlative wildlife claims."
+    }
+  ],
+  "checks": {
+    "full_build_pages": 135,
+    "site_tests": {
+      "passed": 382,
+      "failed": 0
+    },
+    "coastal_tests": {
+      "passed": 75,
+      "failed": 0
+    },
+    "page_acceptance": {
+      "passed": 488,
+      "total": 488
+    },
+    "publication_build": "limited mode; 11 indexable editorial routes, 122 editorial pages; ownership response retained",
+    "discovery_audit": "pass on draft coastal input; input remains noindex, publication artifact applies approved scope",
+    "launch_readiness": "all candidate/default indexing comparisons, 11 sitemap URLs and 14 contrast pairs passed",
+    "search_shortlist": "11 reviewed pages pass",
+    "bundle": "956 concepts, 3799 links; no errors",
+    "regression_found_and_fixed": "Replaced held /visit/stays/konark/ link with published /visit/stays/puri-coast/ before candidate creation. Portable links reject executable URLs and escape labels."
+  },
+  "limitations": [
+    "No new local contact, site or property inspection, meal booking, transport timetable or available room confirmed. Existing local-confirmation queue remains open.",
+    "Konark hours conflict remains visible; temple and museum remain separate ticket choices.",
+    "Provider directory evidence is a lead, not a quality endorsement or current operating guarantee. Some direct pages failed; these failures are recorded.",
+    "No new visual, keyboard, screen-reader, physical-device or native print review; browser access remains blocked by the recorded policy-verification failure.",
+    "Search Console processing remains a separate open issue. This batch does not change robots, sitemap scope or Google ownership verification."
+  ],
+  "publication": {
+    "status": "not_published",
+    "gate": "Founder review of concrete candidate",
+    "search_scope_unchanged": true,
+    "store_held": true
+  },
+  "validated_at": "2026-10-02T05:01:57.235311+00:00"
+}
