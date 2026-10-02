@@ -1,0 +1,75 @@
+{
+  "recorded_at": "2026-10-02T01:49:48.646869+00:00",
+  "status": "candidate_ready_with_review_limits",
+  "authorization_quote": "OK, let's pick these and work on it",
+  "human_owner": "Ahimanikya Satapathy",
+  "prepared_by": {
+    "name": "Current AI assistant",
+    "kind": "ai_assistant"
+  },
+  "independent_review": false,
+  "scope": {
+    "shortlist_routes": [
+      "/destinations/bhubaneswar/",
+      "/visit/places/dhauli/",
+      "/knowledge/konark/",
+      "/destinations/puri/",
+      "/visit/places/raghurajpur/",
+      "/",
+      "/about/",
+      "/founder/",
+      "/how-to-use/",
+      "/knowledge/chilika/",
+      "/stories/bhubaneswar-fresco/"
+    ],
+    "metadata_changes": [
+      "Homepage description broadened to actual collection",
+      "Chilika description names the lake and story subjects",
+      "Subject-specific search titles for home, Chilika, Dhauli and Raghurajpur"
+    ],
+    "delivery": "Separate publication artifact controlled by preview, limited or withdrawn mode; exact route set tied to actual Founder decision record. Workflow keeps existing main-branch, actor and publication-approval gates.",
+    "published_baseline": "UTP-REL-043",
+    "public_pages": 122,
+    "discovery_entries": 79,
+    "journey_items": 83
+  },
+  "checks": {
+    "site_tests": 380,
+    "edition_tests": 74,
+    "page_acceptance": 488,
+    "shortlist_metadata_and_link_graph": "11 pass; reachable from home",
+    "sharing_image_dimensions": "11 pass; original assets retained",
+    "preview_delivery": "682 files byte-identical to tested coastal input; zero indexable pages",
+    "activation_and_withdrawal": "Synthetic fixture tests pass for exact route approval, human authority field, held utility, noindex visibility on withdrawal, immutable baseline, stale sitemap removal, unexpected HTML and symlink rejection",
+    "bundle": "Checked separately by repository validators"
+  },
+  "limitations": [
+    "Actual search activation requires an explicit Founder decision for the exact eleven routes; current mode remains preview and no approval reference is set.",
+    "Shortlist assessment reuses current content and the existing publication/source records; not fresh verification of every historical claim or local arrangement.",
+    "Browser access remains blocked by the recorded admin-policy verification failure. No new visual, social-platform crop, keyboard, device or screen-reader review claimed.",
+    "Search Console ownership, sitemap submission and actual search-engine indexing are not configured or verified. A sitemap and eligible page directives cannot guarantee indexing or ranking.",
+    "Other 111 public pages would remain noindex in limited mode. Store, Pala and the separate Fresco essay remain outside the public edition. Existing specialist reviews remain open."
+  ],
+  "references": [
+    {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+      "use": "Crawler access needed to read noindex; consulted during this batch."
+    },
+    {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "use": "Selected canonical sitemap URLs and no indexing guarantee."
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/title-link",
+      "use": "Descriptive page titles; search engines may choose different title links."
+    }
+  ],
+  "evidence": [
+    "records/evidence/first-search-launch/shortlist.json",
+    "records/evidence/first-search-launch/images.json",
+    "records/evidence/first-search-launch/search-controls.json",
+    "records/evidence/first-search-launch/delivery-checks.json",
+    "reference/first-search-launch.md"
+  ],
+  "next_action": "Founder reviews the eleven-page search scope and implementation. Approval to activate must be recorded with exact search_routes before changing publication mode and deploying."
+}

@@ -9,7 +9,8 @@
     "preview": "astro preview --host 127.0.0.1",
     "test": "node --test tests/*.test.mjs",
     "build:coast": "node tools/build-coast.mjs",
-    "test:coast": "node --test tests-coast/*.test.mjs"
+    "test:coast": "node --test tests-coast/*.test.mjs",
+    "build:publication": "node tools/build-publication.mjs"
   },
   "dependencies": {
     "astro": "7.3.5",

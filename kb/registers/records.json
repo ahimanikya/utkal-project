@@ -4023,6 +4023,32 @@
         "reference/textile-specialist-review.md",
         "records/textile-followup-publication.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-138",
+      "title": "First search launch candidate and controlled publication",
+      "category": "editorial_and_website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "authorization": "UTP-DEC-149",
+      "next_action": "Founder reviews exact eleven routes. Current artifact is still unindexed; record explicit scope approval before activation. Search Console and browser verification remain separate.",
+      "blockers": [
+        "Final search activation approval pending.",
+        "Browser visual and social preview inspection unavailable."
+      ],
+      "refs": [
+        "UTP-DEC-149",
+        "UTP-REV-117"
+      ],
+      "evidence": [
+        "records/first-search-launch-review.json",
+        "reference/first-search-launch.md"
+      ]
     }
   ],
   "decisions": [
@@ -6985,6 +7011,58 @@
       "evidence": [
         "records/textile-followup-publication.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-149",
+      "title": "Prepare the first bounded search launch",
+      "status": "approved",
+      "actor": {
+        "name": "Ahimanikya Satapathy",
+        "kind": "human"
+      },
+      "quote": "OK, let's pick these and work on it",
+      "scope": "Reassess eleven existing shortlisted pages, check metadata/images/links and prepare selective search publication. This authorizes preparation; activation follows review of the concrete candidate.",
+      "recorded_at": "2026-10-02T01:49:48.646869+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-148"
+      ],
+      "evidence": [
+        "records/first-search-launch-review.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-150",
+      "title": "Approve the eleven-page search launch",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "search_routes": [
+        "/destinations/bhubaneswar/",
+        "/visit/places/dhauli/",
+        "/knowledge/konark/",
+        "/destinations/puri/",
+        "/visit/places/raghurajpur/",
+        "/",
+        "/about/",
+        "/founder/",
+        "/how-to-use/",
+        "/knowledge/chilika/",
+        "/stories/bhubaneswar-fresco/"
+      ],
+      "scope": "Activate the exact eleven-page search launch, merge PR 48 after validation, and publish. The other 111 pages retain noindex. Search Console and actual search-engine indexing remain follow-ups.",
+      "recorded_at": "2026-10-02T02:03:03.781276+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-149",
+        "UTP-REV-117"
+      ],
+      "evidence": [
+        "records/evidence/first-search-launch/approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -9759,6 +9837,30 @@
       ],
       "evidence": [
         "records/textile-followup-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-117",
+      "title": "First search launch source and delivery self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "name": "Current AI assistant",
+        "kind": "ai_assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Actual search activation requires an explicit Founder decision for the exact eleven routes; current mode remains preview and no approval reference is set.",
+        "Shortlist assessment reuses current content and the existing publication/source records; not fresh verification of every historical claim or local arrangement.",
+        "Browser access remains blocked by the recorded admin-policy verification failure. No new visual, social-platform crop, keyboard, device or screen-reader review claimed.",
+        "Search Console ownership, sitemap submission and actual search-engine indexing are not configured or verified. A sitemap and eligible page directives cannot guarantee indexing or ranking.",
+        "Other 111 public pages would remain noindex in limited mode. Store, Pala and the separate Fresco essay remain outside the public edition. Existing specialist reviews remain open."
+      ],
+      "refs": [
+        "UTP-DEC-149",
+        "UTP-WORK-138"
+      ],
+      "evidence": [
+        "records/first-search-launch-review.json"
       ]
     }
   ],

@@ -33,4 +33,4 @@ for bg in ['sea','earth']:
  a,b=sorted([lum(tokens['on-action']),lum(tokens[bg])]);ratio=(b+.05)/(a+.05);pairs.append({'foreground':'on-action','background':bg,'contrast':round(ratio,2),'normal_text_pass':ratio>=4.5})
 assert all(p['normal_text_pass'] for p in pairs)
 (ep/'contrast-checks.json').write_text(json.dumps({'scope':'Token pairs only; not a rendered-page or WCAG conformance certification','pairs':pairs},indent=2)+'\n')
-assert not errors;print('All candidate/default indexing comparisons, 11 sitemap URLs, 14 contrast pairs passed.')
+assert not errors;print(f'All candidate/default indexing comparisons, {len(urls)} sitemap URLs, {len(pairs)} contrast pairs passed.')
