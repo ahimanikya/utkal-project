@@ -56,3 +56,25 @@ Connects mining-area project funding to sector service questions; does not estab
 ## Annual public receipts · 2 October 2026
 
 [Mining receipts over five elapsed years](mining-receipts.md) adds an audited actual series, recent decline and separate budget/coal/dividend categories. It provides context for DMF services without claiming that annual state receipts equal cumulative DMF funds or caused specific outcomes.
+
+## Livelihoods: follow training and assets into actual use
+
+The same mining-area funds support skills and livelihoods. The audit offers a small positive example: **all 15 IHM candidates in the cited Keonjhar-funded cohort were reported employed during 2018–24**. This remains an audit-reported outcome: the passage also says DMF placement-verification records were absent. It is neither a current job count nor a statewide success rate. [Section6.6.8, printed pp.64–66](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+| Case | What the audit records | Government response and evidence limit |
+|---|---|---|
+| Jajpur mining-sector skills | 210 STT trainees; November 2023 DMF verification confirmed 79 placements. Provider lists claimed 148 and later 152. | Government cited a later accepted report of 160; CAG found supporting verification absent. Keep every stage, without adding claims or treating the newest claim as verified. The ₹2.54 crore payment covers STT and RPL together. |
+| Vyasanagar market and Mission Shakti cafe | Combined ₹6.39 crore construction, handovers in 2023, but November 2024 visit found assets unused and unallotted to beneficiaries. | Government cited25November 2023 handover to KNDA. Handover is distinct from customers, sales or working livelihoods; current operation unknown. |
+| Sundargarh apiculture | Training reported for 2,650 people; a 3 March 2025 visit to three Rajgangpur SHGs found unused boxes. | Government described a committee for training, collection and marketing. Its 1,500 kg production figure and the audit-cited 1,681 kg have unresolved period/scope differences. Neither is an Odisha honey-market total. |
+
+Sources: [sections6.6.8–6.6.10, printed pp.64–69](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf). The honey programme used managed hives; it is not evidence about all wild-honey collectors. Training attendance and equipment supply do not establish income. No cost-per-STT-trainee, overall Keonjhar placement rate, statewide honey yield or current cafe availability is derived.
+
+## What an outcome record needs
+
+Chapter VII was read in full. It documents historical gaps in public project details, delayed annual reports and missing asset registers across the six-district sample. The government said asset registers were being compiled and staff trained; the audit retained its findings. A missing register means verification is incomplete, not proof that every asset does not exist. Portal observations were made on individual dates between December 2024 and April 2025, not today. [Chapter VII, printed pp.77–81](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+For each project, the next evidence to seek is a stable project ID, sanctioned purpose, money released and spent, completion record, receiving agency, and a dated record of actual use. Jobs need placement and retention records; honey needs dated production and completed sales; a cafe needs operation and beneficiary evidence. These are Utkal's research requirements, not a claim that the supporting records have been obtained.
+
+Connects managed-hive livelihood evidence with the honey value chain; it does not establish wild-honey output or export sales. [Mohu: honey](../food/mohu-honey.md).
+
+Connects project training evidence with employment statistics; it does not measure current statewide jobs. [Employment](../statistics/employment.md) · [Skills and enterprise](../statistics/entrepreneurship-skills.md).

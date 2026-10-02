@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T19:42:23.004076+00:00",
+  "updated_at": "2026-10-02T19:55:38.366580+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2225,6 +2225,16 @@
     "run_id": "2026-10-02-mining-receipts",
     "dataset": "references/data/mining-receipts.json",
     "observations_added": 23,
+    "completion_criteria_met": false
+  },
+  "dmf_monitoring_checkpoint": {
+    "run_id": "2026-10-02-dmf-livelihood-monitoring",
+    "dataset": "references/data/mining-dmf.json",
+    "additional_cases": 4,
+    "complete_chapters": [
+      "VII"
+    ],
+    "observations_added": 16,
     "completion_criteria_met": false
   }
 }

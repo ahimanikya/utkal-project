@@ -19,3 +19,7 @@ Comptroller and Auditor General of India. Audit covers 2015–16 to 2023–24. A
 ## Expanded original-document inspection · 2 October 2026
 
 The original163-page PDF was recovered by direct publisher download after the web reader failed. Sections5.1,6.5.1 and6.6.1–6.6.6 were inspected, with key tables/project pages visually checked. The entire file is saved in working evidence, but full chapter review remains incomplete. Government responses are reproduced by CAG, not independently retrieved letters. See [district and project interpretation](../economy/dmf-from-funds-to-services.md) for scope, source inconsistencies and dated operating findings.
+
+## Livelihood and monitoring extension · 2 October 2026
+
+Full ChapterVII, sections7.1–7.6, printed77–81/PDF117–121; complete livelihood subsections6.6.8–6.6.10, printed64–69/PDF102–107. Text fully read; PDF102–104,107,119,121 visually checked. Other remaining chapters not claimed reviewed. The saved original was reused; no fresh download or independent corroboration claimed. Government responses are reproduced by CAG. Placement versions, honey reporting periods and a Keonjhar cohort denominator remain unreconciled. Current district portal checks failed and cannot verify remediation.

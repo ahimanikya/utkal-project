@@ -239,3 +239,7 @@ Continue RES-053 with original actual mining-receipt accounts and remaining CAG 
 ## Mining receipts checkpoint · 2 October 2026 UTC
 
 Reuse mining-receipts.json and the saved Finance Accounts. Reconcile detailed receipt subheads if available; otherwise continue remaining CAG DMF Chapters III/V/VI/VII and original district handover/current-service records. Do not repeat the six-year aggregate series or four existing project cases.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Reuse complete ChapterVII and livelihood sections6.6.8–6.6.10 now saved. Next read full CAG ChapterIII on contribution collection and ChapterV financial management, then remaining ChapterVI sections. Obtain original project IDs and service/handover evidence where accessible. Subhead receipt split and source conflicts remain open; district portal failures and specific conflicts retry9October.

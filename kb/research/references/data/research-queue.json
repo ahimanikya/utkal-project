@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T19:42:23.004076+00:00",
+  "updated_at": "2026-10-02T19:55:38.366580+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2785,13 +2785,13 @@
       "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-018"
       ],
-      "last_worked_at": "2026-10-02T19:42:23.004076+00:00",
-      "next_step": "Reuse mining-receipts.json and the saved Finance Accounts. Reconcile detailed receipt subheads if available; otherwise continue remaining CAG DMF Chapters III/V/VI/VII and original district handover/current-service records. Do not repeat the six-year aggregate series or four existing project cases.",
+      "last_worked_at": "2026-10-02T19:55:38.366580+00:00",
+      "next_step": "Reuse complete ChapterVII and livelihood sections6.6.8–6.6.10 now saved. Next read full CAG ChapterIII on contribution collection and ChapterV financial management, then remaining ChapterVI sections. Obtain original project IDs and service/handover evidence where accessible. Subhead receipt split and source conflicts remain open; district portal failures and specific conflicts retry9October.",
       "evidence_outputs": [
         "economy/dmf-from-funds-to-services.md",
         "references/data/mining-dmf.json",
@@ -2799,10 +2799,12 @@
         "sources/mining-cag-fy2024.md",
         "sources/mining-finance-accounts2025.md",
         "economy/mining-receipts.md",
-        "references/data/mining-receipts.json"
+        "references/data/mining-receipts.json",
+        "food/mohu-honey.md",
+        "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
-      "blocker": "Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and current service/handover records remain incomplete.",
+      "blocker": "Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing.",
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-dmf",
@@ -2817,6 +2819,13 @@
           "outcome": "six_year_actual_receipts_and_latest_minor_heads",
           "completion_criteria_met": false,
           "remaining": "Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and current service/handover records remain incomplete."
+        },
+        {
+          "run_id": "2026-10-02-dmf-livelihood-monitoring",
+          "at": "2026-10-02T19:55:38.366580+00:00",
+          "outcome": "full_monitoring_chapter_and_four_livelihood_cases",
+          "completion_criteria_met": false,
+          "remaining": "Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing."
         }
       ],
       "reuse_before_research": {
@@ -2833,7 +2842,11 @@
           "sources/mining-cag-fy2024.md",
           "sources/mining-finance-accounts2025.md",
           "economy/mining-receipts.md",
-          "references/data/mining-receipts.json"
+          "references/data/mining-receipts.json",
+          "food/mohu-honey.md",
+          "statistics/employment.md",
+          "statistics/entrepreneurship-skills.md",
+          "economy/forest-products.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -2854,6 +2867,38 @@
           "gap": "SFAR2024–25 printed17 gives4233; printed32–33 gives4223 crore. Company-specific value held.",
           "source_ids": [
             "macro-cag-fy2025"
+          ]
+        },
+        {
+          "topic": "jajpur-placement-evidence-vintages",
+          "retry_after": "2026-10-09",
+          "gap": "Preserve148,79,152,160 as different dated claims/verification stages. Later160 does not override79 without records; current placements unknown.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "sundargarh-honey-output-scope",
+          "retry_after": "2026-10-09",
+          "gap": "1681kg OLM-derived and1500kg government-reply figures have unresolved periods. Report described2022–24 yet submitted January2024. Source1.26% not promoted; no canonical production/yield/revenue series.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "keonjhar-training-cohort-scope",
+          "retry_after": "2026-10-09",
+          "gap": "1208 total versus618 across three institutes plus15IHM not reconciled in passage. No full-programme employment rate.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "District DMF portal and original outcome records",
+          "retry_after": "2026-10-09",
+          "gap": "Annual-report portal timed out; PMU tender page502. Present restoration, registers and project operations unverified.",
+          "source_ids": [
+            "mining-cag-dmf2026"
           ]
         }
       ]

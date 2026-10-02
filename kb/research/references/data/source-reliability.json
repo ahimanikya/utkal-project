@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T19:42:23.004076+00:00",
+  "updated_at": "2026-10-02T19:55:38.366580+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6117,6 +6117,27 @@
       "run_id": "2026-10-02-mining-receipts",
       "status": "rejected_wrong_geography",
       "scope": "Downloaded discovery candidate identifies Himachal Pradesh in text; excluded from Odisha evidence. Correct Odisha VolumeII retrieved and cover checked."
+    },
+    {
+      "discovery_url": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf",
+      "checked_at": "2026-10-02T19:55:38.366580+00:00",
+      "run_id": "2026-10-02-dmf-livelihood-monitoring",
+      "status": "saved_original_reused",
+      "scope": "Full ChapterVII, sections7.1–7.6, printed77–81/PDF117–121; complete livelihood subsections6.6.8–6.6.10, printed64–69/PDF102–107. Text fully read; PDF102–104,107,119,121 visually checked. Other remaining chapters not claimed reviewed."
+    },
+    {
+      "discovery_url": "https://dmf.odisha.gov.in/district/SUNDARGARH/publication/annual_report",
+      "checked_at": "2026-10-02T19:55:38.366580+00:00",
+      "run_id": "2026-10-02-dmf-livelihood-monitoring",
+      "status": "unavailable",
+      "scope": "Web open timed out. Indexed empty listing is not proof of missing reports or unchanged portal; no present remediation conclusion."
+    },
+    {
+      "discovery_url": "https://sundargarh.odisha.gov.in/en/tender/rfp-selection-agency-establishment-and-running-programme-management-unit-district-mineral",
+      "checked_at": "2026-10-02T19:55:38.366580+00:00",
+      "run_id": "2026-10-02-dmf-livelihood-monitoring",
+      "status": "unavailable",
+      "scope": "Web open returned502. Search-index RFP lead dated20March2026 is not an awarded contract or functioning PMU."
     }
   ]
 }

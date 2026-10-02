@@ -406,3 +406,7 @@ Actual state mining receipts and remaining relevant audit chapters/appendices st
 ## Mining receipts checkpoint · 2 October 2026 UTC
 
 Royalty/auction-premium split, remaining relevant DMF chapters, project IDs and current service/handover records remain incomplete. OMC dividend source discrepancy retained for9October retry.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Full ChaptersIII/V and remaining ChapterVI; separate royalty/auction receipts; original project and current operating evidence still missing. Placement versions, honey periods and cohort scope kept unresolved; current portal retrieval failures retry9October.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T18:51:18.740435+00:00",
+  "updated_at": "2026-10-02T19:55:38.366580+00:00",
   "run_id": "2026-10-02-mining-dmf",
   "source_id": "mining-cag-dmf2026",
   "sample_districts": [
@@ -140,7 +140,23 @@
     "dmf-project-keonjhar-dhh-nicu-picu-expenditure",
     "dmf-project-sundargarh-digital-medical-records-expenditure",
     "dmf-project-deogan-hostels-expenditure",
-    "dmf-project-birsa-munda-hockey-dmf-expenditure"
+    "dmf-project-birsa-munda-hockey-dmf-expenditure",
+    "dmf-jajpur-skills-trained",
+    "dmf-jajpur-skills-claimed-oct",
+    "dmf-jajpur-skills-confirmed-nov",
+    "dmf-jajpur-skills-claimed-dec",
+    "dmf-jajpur-skills-reply",
+    "dmf-jajpur-skills-expenditure",
+    "dmf-keonjhar-ihm-enrolled",
+    "dmf-keonjhar-ihm-placed",
+    "dmf-vyasanagar-cafe-market-cost",
+    "dmf-sundargarh-honey-target",
+    "dmf-sundargarh-honey-trained",
+    "dmf-sundargarh-honey-output-audit",
+    "dmf-sundargarh-honey-output-reply",
+    "dmf-slmc-meetings2017-23",
+    "dmf-report-delay-audit",
+    "dmf-report-delay-annual"
   ],
   "reused_observation_ids": [
     "mining-dmf-contributions-2024",
@@ -224,6 +240,98 @@
       "source_id": "mining-cag-dmf2026",
       "government_reply_provenance": "Response reproduced in CAG report, not separately retrieved government letter",
       "human_review_claimed": false
+    },
+    {
+      "id": "jajpur-skills-stt-rpl",
+      "title": "Jajpur mining-sector skills programmes",
+      "district": "jajpur",
+      "locator": "Section6.6.8(i), printed64–66 / PDF102–104",
+      "expenditure_crore": 2.54,
+      "expenditure_scope": "Combined STT/RPL programmes; no per-STT-trainee cost derived",
+      "completion_evidence": "210 STT candidates reported trained November2022–December2023; training completion is not placement.",
+      "service_observation_date": "2023-11",
+      "service_status_at_observation": "79 placements confirmed in DMF verification as reported by CAG",
+      "claim_history": [
+        {
+          "at": "2023-10",
+          "claimed_placements": 148,
+          "claimant": "training provider"
+        },
+        {
+          "at": "2023-11",
+          "confirmed_placements": 79,
+          "claimant": "DMF verification reproduced in audit"
+        },
+        {
+          "at": "2023-12",
+          "claimed_placements": 152,
+          "claimant": "training provider revised list"
+        },
+        {
+          "at": null,
+          "claimed_placements": 160,
+          "claimant": "government reply reproduced in audit"
+        }
+      ],
+      "government_reply_date": null,
+      "government_reply": "Said an updated report showing160 placements was accepted after scrutiny. Exact reply date not printed in subsection.",
+      "audit_rejoinder": "CAG said payment was made without further supporting placement-verification records.",
+      "current_service_status": "unknown",
+      "source_id": "mining-cag-dmf2026",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "keonjhar-ihm-skills",
+      "title": "Keonjhar DMF-sponsored IHM training cohort",
+      "district": "keonjhar",
+      "locator": "Section6.6.8(ii), printed65–66 / PDF103–104",
+      "completion_evidence": "CAG reports15 enrolled IHM candidates and all15 employed during2018–24; no independent placement-verification record recovered.",
+      "service_observation_date": null,
+      "service_status_at_observation": "historical reported placement; retention and current employment unknown",
+      "government_reply_date": null,
+      "government_reply": "Training intended to equip local youth with skills relevant to the local economy.",
+      "audit_rejoinder": "Broader programme lacked placement-verification records and some institutes missed targets; IHM is explicitly the positive small-cohort exception.",
+      "scope_limit": "Source discusses1208 aggregate,618 in three institutes and15 at IHM without reconciling cohorts in this passage. Do not derive whole-programme placement rate or sum these as exhaustive partitions.",
+      "current_service_status": "unknown",
+      "source_id": "mining-cag-dmf2026",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "vyasanagar-cafe-market",
+      "title": "Vyasanagar wholesale market and Mission Shakti cafe",
+      "district": "jajpur",
+      "locator": "Section6.6.9, printed66 / PDF104",
+      "expenditure_crore": 6.39,
+      "expenditure_scope": "Combined cost for two assets, not cafe alone",
+      "completion_evidence": "CAG reports completion and handovers in February/November2023. Underlying certificates not separately recovered.",
+      "service_observation_date": "2024-11",
+      "service_status_at_observation": "not_allotted_to_beneficiaries_and_unused_at_joint_visit",
+      "government_reply_date": "2026-01",
+      "government_reply": "Said construction completed and facility handed to KNDA on25November2023 for operation and management.",
+      "audit_rejoinder": "CAG retained non-use finding despite handover.",
+      "current_service_status": "unknown",
+      "source_id": "mining-cag-dmf2026",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "sundargarh-apiculture",
+      "title": "Sundargarh DMF managed-hive apiculture programme",
+      "district": "sundargarh",
+      "locator": "Section6.6.10, printed66–69 / PDF104–107",
+      "completion_evidence": "Training reported for2650 people February–March2021; procurement and incomplete colony delivery documented. No successful livelihood completion asserted.",
+      "service_observation_date": "2025-03-03",
+      "service_status_at_observation": "three SHGs in Rajgangpur joint visit had unused boxes; not a statewide sample",
+      "government_reply_date": "2026-01",
+      "government_reply": "Reported1500kg output and41.26% colony survival; said committee formed for mobilisation, training, collection and marketing. Output period unspecified.",
+      "audit_rejoinder": "Retained concerns about training, incomplete colony supply, maintenance payments and oversight.",
+      "scope_limit": "Audit cites1681kg from OLM report described as2022–24 but submitted January2024, and survival base10100 versus delivery10187. Government reports1500kg. Period/population reconciliation unresolved; no canonical yield or market-sales figure.",
+      "current_service_status": "unknown",
+      "source_id": "mining-cag-dmf2026",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
     }
   ],
   "conflicts": [
@@ -246,8 +354,114 @@
       "stated_combined_idle_crore": 11.78,
       "treatment": "Component sum11.26 does not reconcile to stated11.78; additional component/scope not established. Aggregate withheld; this eight-hostel group is not the separate Deogan case.",
       "retry_after": "2026-10-09"
+    },
+    {
+      "id": "jajpur-placement-evidence-vintages",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.6.8(i), printed64–66",
+      "treatment": "Preserve148,79,152,160 as different dated claims/verification stages. Later160 does not override79 without records; current placements unknown.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "id": "sundargarh-honey-output-scope",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.6.10, printed69",
+      "treatment": "1681kg OLM-derived and1500kg government-reply figures have unresolved periods. Report described2022–24 yet submitted January2024. Source1.26% not promoted; no canonical production/yield/revenue series.",
+      "retry_after": "2026-10-09"
+    },
+    {
+      "id": "keonjhar-training-cohort-scope",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.6.8(ii), printed65",
+      "treatment": "1208 total versus618 across three institutes plus15IHM not reconciled in passage. No full-programme employment rate.",
+      "retry_after": "2026-10-09"
     }
   ],
   "human_review_claimed": false,
-  "website_publication": false
+  "website_publication": false,
+  "monitoring_findings": [
+    {
+      "section": "7.1",
+      "locator": "Printed77–78 / PDF117–118",
+      "finding": "17 SLMC meetings; integrated PMU plan not implemented, some CEO appointments absent as of April2025, and portal/WAMIS linkage not done as of January2026.",
+      "government_reply_and_audit_context": "Government said observations noted and compliance efforts would follow.",
+      "government_reply_date": "2026-01",
+      "source_id": "mining-cag-dmf2026",
+      "current_remediation_status": "unknown"
+    },
+    {
+      "section": "7.2",
+      "locator": "Printed78 / PDF118",
+      "finding": "Six sampled DMFs had historical shortfalls in trustee and executive committee meetings.",
+      "government_reply_and_audit_context": "Government described shortfalls as situational, not negligence; CAG retained the delay/monitoring risk.",
+      "government_reply_date": "2026-01",
+      "source_id": "mining-cag-dmf2026",
+      "current_remediation_status": "unknown"
+    },
+    {
+      "section": "7.3",
+      "locator": "Printed79 / PDF119",
+      "finding": "Historical delays in annual audit reports and activity reports; maximum1077 and1942days respectively.",
+      "government_reply_and_audit_context": "Government accepted observations and cited exceptional unavoidable circumstances; promised compliance efforts.",
+      "government_reply_date": "2026-01",
+      "source_id": "mining-cag-dmf2026",
+      "current_remediation_status": "unknown"
+    },
+    {
+      "section": "7.4",
+      "locator": "Printed79–80 / PDF119–120",
+      "finding": "Portal checks on district-specific dates in December2024–April2025 found incomplete affected-area, financial and project information. No current portal-completeness conclusion follows.",
+      "government_reply_and_audit_context": "Government cited repeated staff training; CAG said uploads remained incomplete.",
+      "government_reply_date": "2026-01",
+      "source_id": "mining-cag-dmf2026",
+      "current_remediation_status": "unknown"
+    },
+    {
+      "section": "7.5",
+      "locator": "Printed80–81 / PDF120–121",
+      "finding": "Sampled implementing agencies and DMFs lacked asset registers according to audit. This creates evidence gaps; it does not prove every asset is absent.",
+      "government_reply_and_audit_context": "Government said registers were being compiled and instructions issued for a consolidated register.",
+      "government_reply_date": "2026-01",
+      "source_id": "mining-cag-dmf2026",
+      "current_remediation_status": "unknown"
+    },
+    {
+      "section": "7.6",
+      "locator": "Printed81 / PDF121",
+      "finding": "Records in five minor-mineral circles were not furnished during October2024–May2025 audit following administrative transfer; transactions could not be verified.",
+      "government_reply_and_audit_context": "No government reply reproduced in this subsection.",
+      "government_reply_date": null,
+      "source_id": "mining-cag-dmf2026",
+      "current_remediation_status": "unknown"
+    }
+  ],
+  "portal_observation_dates": {
+    "dhenkanal": "2025-01-15",
+    "jajpur": "2024-12-12",
+    "keonjhar": "2025-04-01",
+    "mayurbhanj": "2025-03-24",
+    "nabarangpur": "2025-04-29",
+    "sundargarh": "2025-03-22"
+  },
+  "review_coverage": {
+    "updated_at": "2026-10-02T19:55:38.366580+00:00",
+    "complete_chapters": [
+      "VII"
+    ],
+    "complete_subsections": [
+      "5.1",
+      "6.5.1",
+      "6.6.1",
+      "6.6.2",
+      "6.6.3",
+      "6.6.4",
+      "6.6.5",
+      "6.6.6",
+      "6.6.8",
+      "6.6.9",
+      "6.6.10"
+    ],
+    "remaining": "Full ChaptersIII/V and unreviewed ChapterVI subsections; original supporting district records remain missing.",
+    "not_full_report_review": true
+  }
 }

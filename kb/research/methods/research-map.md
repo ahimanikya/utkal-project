@@ -381,3 +381,7 @@ Existing CAG source expanded through selected subsections. One new synthesis pag
 ## Mining receipts checkpoint · 2 October 2026 UTC
 
 Two original-document identities and one synthesis added. Audit summaries and Finance Accounts overlap; they do not provide independent measurements.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Existing CAG identity reused; existing honey and skills pages enhanced. Full ChapterVII and sections6.6.8–6.6.10 captured without duplicate topics.

@@ -422,3 +422,7 @@ The destination integration review’s hold on IMFA’s combined ore total was c
 ## Mining receipts checkpoint · 2 October 2026 UTC
 
 RES-053 receipt checkpoint: 23 observations, two comparisons, six-year actual series and latest minor heads. Conflicting OMC dividend held. Coal, forecasts and DMF remain distinct. No website release.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+RES-053: full ChapterVII and three livelihood subsections read; four cases and 16 observations added to existing DMF collection. Government responses preserved, three evidence-scope issues held. Failed portal retrievals remain unavailable. No website release.

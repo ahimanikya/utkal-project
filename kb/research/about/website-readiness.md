@@ -177,3 +177,7 @@ DMF synthesis draft retains district sample scope, dated service observations an
 ## Mining receipts checkpoint · 2 October 2026 UTC
 
 New mining-receipts story is source-checked draft; positive five-year growth and latest decline remain together. Human editorial review and website publication not established.
+
+## DMF livelihoods and monitoring · 2 October 2026 UTC
+
+Four additional historical livelihood cases connect training, a market/cafe and managed apiculture to DMF. All current operation remains unknown; placement and honey disputes are visible. No publication or human review claimed.
