@@ -4310,19 +4310,20 @@
       "id": "UTP-WORK-149",
       "title": "Build four scoped mining land and people studies",
       "category": "research",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-168",
-      "next_action": "Integrate validated research checkpoint under existing authorization; retain RES-054 evidence gaps.",
+      "next_action": "Scoped case-study checkpoint merged. RES-054 retains original monitoring, implementation and ecological-recovery evidence follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-168",
-        "UTP-REV-127"
+        "UTP-REV-127",
+        "UTP-REL-055"
       ],
       "evidence": [
         "records/mining-land-people-2026-10-03.json"
@@ -11645,6 +11646,22 @@
         "records/dmf-record-reconciliation-2026-10-02.json"
       ],
       "note": "PR68 merged after CI passed. Two original sources and two higher-precision receipt rows; prior 954 observations unchanged. Six unsent record questions specify remaining dependencies. Research only."
+    },
+    {
+      "id": "UTP-REL-055",
+      "title": "Mining land, rights, safety and restoration checkpoint integrated",
+      "status": "applied",
+      "authorization": "UTP-DEC-168",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/kb",
+      "refs": [
+        "UTP-WORK-149",
+        "UTP-REV-127",
+        "UTP-DEC-168"
+      ],
+      "evidence": [
+        "records/mining-land-people-2026-10-03.json"
+      ],
+      "note": "PR69 merged after CI passed. Four scoped cases and three new source identities; all956 earlier observations unchanged. Research only, not public website story publication or completion of all RES-054 evidence needs."
     }
   ],
   "sources": [

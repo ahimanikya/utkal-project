@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3e5d6af9572925385836dc365d836f7fa409bddec6facf361c31102a7aa5cde5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f3fe6d4b639d651a72e56b5e2bb454c0af0981b4197210e740dcb21a9ad1482c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -161,7 +161,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-146 · Connect mining receipts, district funds and working services | completed | applied | Ahimanikya Satapathy | Bounded checkpoint merged. RES-053 remains in progress for remaining audit sections, exact receipt reconciliation, newer operating records and community outcomes. | — |
 | UTP-WORK-147 · Finish scoped DMF audit reading and investigate current services | completed | applied | Ahimanikya Satapathy | Bounded follow-up merged. RES-053 remains open for conflicting financial totals, exact receipt crosswalk, matched current operation and community outcomes. | — |
 | UTP-WORK-148 · Compare original accounts and specify missing facility records | completed | applied | Ahimanikya Satapathy | Bounded comparison merged. RES-053 awaits named reconciliation and facility records; retain source conflicts and unknown current outcomes. | — |
-| UTP-WORK-149 · Build four scoped mining land and people studies | in_progress | reviewed | Ahimanikya Satapathy | Integrate validated research checkpoint under existing authorization; retain RES-054 evidence gaps. | — |
+| UTP-WORK-149 · Build four scoped mining land and people studies | completed | applied | Ahimanikya Satapathy | Scoped case-study checkpoint merged. RES-054 retains original monitoring, implementation and ecological-recovery evidence follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -581,6 +581,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-052 · Mining revenues and DMF service checkpoint integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-162 |
 | UTP-REL-053 · DMF audit and service follow-up integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-164 |
 | UTP-REL-054 · Mining receipt and DMF accounting-basis comparison integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-166 |
+| UTP-REL-055 · Mining land, rights, safety and restoration checkpoint integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-168 |
 
 ## Sources and assets
 
@@ -618,7 +619,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-190 | 2026-10-02T19:43:20.772661+00:00 | Added48 observations and one connected synthesis from two reused CAG sources and one new Directorate table. Six district funds and four named case bundles retain audit dates and government replies. Prior906 observations preserved. | Validate and deliver KB checkpoint; retain full audit/current service/outcome follow-ups. |
 | UTP-EVT-191 | 2026-10-02T19:53:02.067988+00:00 | PR65 merged after automated checks. Prior906 observations preserved;48 added. Named case bundles retain government replies and date limits. No website publication. | Continue RES-053 only against the remaining evidence gaps. |
 | UTP-EVT-192 | 2026-10-02T19:54:47.971793+00:00 | Founder approved the merged PR65 mining and DMF research checkpoint. Source limitations and outstanding service/outcome evidence remain recorded. | RES-053: finish relevant audit reading and seek newer evidence of service operation and community benefit. |
 | UTP-EVT-193 | 2026-10-02T20:31:43.120207+00:00 | Finished scoped chapter reading, corrected sampling description, held six conflicting observations without changing values, and distinguished Parliament schedules from opening dates. | Validate and integrate; retain current-service and reconciliation questions. |
@@ -628,6 +628,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-197 | 2026-10-02T21:01:33.418861+00:00 | PR68 integrated after local checks and GitHub CI passed; 956 observations, including 954 earlier records preserved. | Obtain named records to resolve remaining receipt, district accounting and facility-use gaps. No outreach sent. |
 | UTP-EVT-198 | 2026-10-03T06:18:01.447765+00:00 | Founder approved the merged PR68 mining accounting-basis comparison. | Retain named reconciliation and facility-record dependencies; no outreach sent. |
 | UTP-EVT-199 | 2026-10-03T07:42:12.281122+00:00 | Four bounded case studies connect monitoring, rights, safety and restoration; three new source identities, prior statistical observations unchanged. | Validate and integrate; obtain the specified original and implementation records. |
+| UTP-EVT-200 | 2026-10-03T07:49:13.664438+00:00 | PR69 integrated after local and GitHub checks passed; four cases and shared evidence model added, all956 prior statistical observations unchanged. | Obtain named original and implementation records; preserve uncertainty about current outcomes. |
 
 ## Deferred extensions
 
