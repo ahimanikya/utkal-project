@@ -430,3 +430,7 @@ Exact route, guide credentials, access/permissions, Puri-specific price, seasona
 ## Puri current applicability and tariff gap · 3 October 2026
 
 National programme documents do not resolve local route permissions. Current amendment chain, intake/concessions, supplier credential validity, price per party/person and paid monthly bookings remain unverified. Empty-directory and quote-only findings are retained.
+
+## Puri applicant-specific gaps · 3 October 2026
+
+National 2020 startup recognition criteria recovered from NIDHI; current amendment chain and selected-business fit remain unresolved. Puri tariff row is not a confirmed walking-service classification. State original resolution and SUJOG live page retry 10 October; prices, paid seasonality and route consent remain absent.

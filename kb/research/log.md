@@ -444,3 +444,7 @@ Original coffee reports could not be recovered; kept candidates and retry dates 
 ## Puri guide training and public-price research · 3 October 2026
 
 Added official IITF booklet/FAQ and two Puri price-discovery records. Preserved national certification versus local authorization, programme fees versus business costs, and advertised season versus paid demand. Monetary customer prices remain unknown. No outreach or website publication.
+
+## Puri permissions and desk milestone · 3 October 2026
+
+Recovered the NIDHI-linked national recognition original and separated its startup criteria from local licensing. Reused Puri tariff rows; recorded state-form limits and an inaccessible RTI instrument lead. RES-066 desk deliverable completed, without a feasibility, permission or website claim.

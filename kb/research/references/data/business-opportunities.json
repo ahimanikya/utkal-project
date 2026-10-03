@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-03T07:31:30.882298+00:00",
+  "updated_at": "2026-10-03T07:47:50.114066+00:00",
   "scope": "District opportunity research; not a ranking, investment recommendation or inventory of available land/jobs",
   "programme": "product/district-business-opportunities",
   "method": "methods/business-opportunity-research",
@@ -676,7 +676,7 @@
       "id": "OPP-PUR-001",
       "district_id": "puri",
       "title": "Pre-booked outdoor heritage-walk service",
-      "evidence_state": "hypothesis",
+      "evidence_state": "desk_researched",
       "hypothesis_basis": "Editorial business question grounded in linked saved place/product records; not validated demand",
       "canonical_references": [
         "visitor-index/puri-journey-outline",
@@ -762,6 +762,81 @@
             "Photography/group assembly",
             "Insurance/tax/employment applicability"
           ]
+        },
+        {
+          "activity": "Municipal category for proposed outdoor walking business",
+          "source_ids": [
+            "enterprise-sujog-tariff",
+            "enterprise-sujog-documents",
+            "enterprise-sujog-manual"
+          ],
+          "authority": "Puri ULB / SUJOG, subject to exact premises jurisdiction",
+          "applicability": "unresolved_for_selected_service",
+          "tariff_evidence": {
+            "tenant_id": "od.puri",
+            "trade_type": "Commission Agents and Adthidar Airline Travel Agency",
+            "licence_type": "PERMANENT",
+            "application_types": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "rate_raw": 2000,
+            "currency": null,
+            "charge_period": null,
+            "effective_date": null,
+            "current_payable_total": null,
+            "locator": "PDF p623",
+            "financial_model_input": false
+          },
+          "approval": "not_applied"
+        },
+        {
+          "activity": "National tourism-service-provider recognition",
+          "source_id": "enterprise-national-recognition2020",
+          "authority": "Ministry of Tourism",
+          "scheme_nature": "voluntary",
+          "instrument_date": "2020-12-08",
+          "cover_operation_date": "2021-01-01",
+          "portal_link_checked_at": "2026-10-03T07:47:50.114066+00:00",
+          "category": "Green Shoots / Start Ups",
+          "geography": "Rest of India criteria; proposed Odisha business applicability unconfirmed",
+          "criteria": {
+            "paid_up_capital_INR": 100000,
+            "capital_trust_exemption_in_document": true,
+            "minimum_prior_turnover": "Nil",
+            "minimum_prior_operational_experience": "Nil",
+            "minimum_staff": 2,
+            "staff_minimum_education": "10+2 or equivalent",
+            "specialist_staff_minimum": 1,
+            "specialist_qualification": "Specified tourism/travel qualification or Basic IITFC",
+            "office_space_requirement": "No requirement subject to local-government compliance",
+            "validity_years": 3,
+            "renewable_in_same_category": false
+          },
+          "local_registration_document_exception": "Startup application proof exemption only; not a local-compliance exemption",
+          "guide_clause": "Section 16(ii) distinguishes protected monuments and relevant destination authorities; individual/site permission remains separate",
+          "locators": [
+            "PDF pp3–5",
+            "PDF p8 section 7(iii)(a)",
+            "PDF pp10–12 sections 12 and 16"
+          ],
+          "current_amendment_chain_verified": false,
+          "approval": "not_applied",
+          "financial_model_input": false
+        },
+        {
+          "activity": "State travel/excursion-agency recognition",
+          "source_ids": [
+            "enterprise-odisha-agent-registration",
+            "enterprise-odisha-recognition-rti-lead"
+          ],
+          "authority": "Odisha Tourism; indexed Tourist Services and Publicity section",
+          "instrument_lead": "Resolution 603/TSM dated 16 January 2001; original unrecovered",
+          "applicability": "unresolved",
+          "account_registration_is_recognition": false,
+          "current_fee": null,
+          "approval": "not_applied",
+          "retry_after": "2026-10-10"
         }
       ],
       "people_options": [
@@ -794,10 +869,10 @@
       "operating_cost": null,
       "revenue": null,
       "profit": null,
-      "source_checked_at": "2026-10-03T07:31:30.882298+00:00",
+      "source_checked_at": "2026-10-03T07:47:50.114066+00:00",
       "created_at": "2026-10-02T20:40:37.286473+00:00",
       "publication_status": "research_draft",
-      "next_action": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized.",
+      "next_action": "Desk dossier complete. Retry state recognition instrument, municipal live-page recovery and separate 2023 OTDC source on 10 October. Resolve exact route/category/fees, written price and paid seasonality through original evidence or later explicitly authorized local participation.",
       "model_scope": {
         "geography": "Puri town; exact route unselected",
         "activity": "Outdoor guided heritage interpretation",
@@ -997,6 +1072,15 @@
       "opportunity_id": "OPP-PUR-001",
       "prior_next_action": "Recover separate2023 OTDC instrument; verify current guide/agency route; find priced Puri-specific offer and seasonal demand evidence. Do not contact providers or infer guaranteed Puri walks.",
       "scope": "National training evidence and Puri offer/empty-directory checks; no observed demand, customer tariff, permission or financial projection added."
+    },
+    {
+      "at": "2026-10-03T07:47:50.114066+00:00",
+      "run_id": "2026-10-03-puri-permissions",
+      "opportunity_id": "OPP-PUR-001",
+      "prior_state": "hypothesis",
+      "new_state": "desk_researched",
+      "prior_next_action": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized.",
+      "scope": "Bounded desk milestone with national original, reused municipal tariff and unresolved state rule/current applicability; no feasibility or local approval."
     }
   ]
 }

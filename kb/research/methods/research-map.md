@@ -405,3 +405,7 @@ Five source identities and one Puri dossier added; existing guide/operator and n
 ## Puri certification and offer extension · 3 October 2026
 
 Four source identities added to the existing dossier. National booklet and FAQ share programme provenance; commercial source claims remain attributed. No new business or duplicate supplier recommendation.
+
+## Puri permission layers · 3 October 2026
+
+Three source identities added; SUJOG tariff/docs/manual reused. NIDHI links a recovered 2020 national instrument; its broken Ministry counterpart is the same publication. RTI resolution remains a lead.

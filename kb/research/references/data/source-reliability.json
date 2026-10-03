@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T07:31:30.882298+00:00",
+  "updated_at": "2026-10-03T07:47:50.114066+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -1123,6 +1123,60 @@
           "scope": "Find your Puri tour guide: No verified listings yet; 0 of 0 shown. Accessible web extraction displays zero guide listings despite generic text about published starting prices. No actual tariff or named credential-verified guide was recovered. This is a negative directory result, not evidence that Puri has no guides or demand. The www direct fetch failed certificate verification; no bypass used. No booking or enquiry submitted."
         }
       ]
+    },
+    {
+      "source_id": "enterprise-national-recognition2020",
+      "discovery_url": "https://nidhi.tourism.gov.in/uploads/gallery/1673603369.pdf",
+      "listing_status": "accessed_original_visual",
+      "checked_at": "2026-10-03T07:47:50.114066+00:00",
+      "scope": "Office memorandum dated 8 December 2020 says operation from 1 January 2021; enclosed guideline heading states revision from 8 December 2020. Recognition is voluntary (section 16(vi)). Green Shoots/Start Ups has nil prior turnover/operational-experience requirements, rest-of-India paid-up capital INR 1 lakh (trust exemption noted), and two 10+2 staff, one with a specified tourism qualification or Basic IITFC. No office-space requirement under this category remains subject to local-government rules. Section 7(iii)(a) waives submission of local-registration proof for this category, not local compliance. Startup recognition lasts three years, with no renewal in that category; transition is to Experienced. Section 16(ii) retains site-authority guide conditions. Source remains linked in the current portal; no complete later amendment audit or selected-business eligibility confirmed. Rendered original PDF pp1–12 inspected; OCR failed and later annexures not reviewed.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-puri-permissions",
+          "checked_at": "2026-10-03T07:47:50.114066+00:00",
+          "scope": "24-page PDF: cover p1; definitions/eligibility pp2–5; application pp8–9; validity pp10–11; guiding and voluntary nature p12. Office memorandum dated 8 December 2020 says operation from 1 January 2021; enclosed guideline heading states revision from 8 December 2020. Recognition is voluntary (section 16(vi)). Green Shoots/Start Ups has nil prior turnover/operational-experience requirements, rest-of-India paid-up capital INR 1 lakh (trust exemption noted), and two 10+2 staff, one with a specified tourism qualification or Basic IITFC. No office-space requirement under this category remains subject to local-government rules. Section 7(iii)(a) waives submission of local-registration proof for this category, not local compliance. Startup recognition lasts three years, with no renewal in that category; transition is to Experienced. Section 16(ii) retains site-authority guide conditions. Source remains linked in the current portal; no complete later amendment audit or selected-business eligibility confirmed. Rendered original PDF pp1–12 inspected; OCR failed and later annexures not reviewed."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-odisha-agent-registration",
+      "discovery_url": "https://odishatourism.gov.in/content/tourism/en/dot/quickLinks/travel-agent-registration.html",
+      "listing_status": "accessed_form_only",
+      "checked_at": "2026-10-03T07:47:50.114066+00:00",
+      "scope": "Public registration form recovered. No recognition order, current eligibility rule, fee schedule or guide licence appears in the inspected form. Embedded success text is interface boilerplate, not evidence of a submitted or approved application. No fields completed, account created, login or application submitted. Portal account registration cannot establish recognition or route access.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-puri-permissions",
+          "checked_at": "2026-10-03T07:47:50.114066+00:00",
+          "scope": "Register Here form: enterprise/contact/location/address/password/captcha fields; generic success/error dialogs. Public registration form recovered. No recognition order, current eligibility rule, fee schedule or guide licence appears in the inspected form. Embedded success text is interface boilerplate, not evidence of a submitted or approved application. No fields completed, account created, login or application submitted. Portal account registration cannot establish recognition or route access."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-odisha-recognition-rti-lead",
+      "discovery_url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A68/lang%3A",
+      "listing_status": "indexed_only_direct_unavailable",
+      "checked_at": "2026-10-03T07:47:50.114066+00:00",
+      "scope": "Indexed departmental manual references Resolution 603/TSM dated 16 January 2001 beside excursion-agency/tourism-project approval guidelines and assigns travel/excursion-agency recognition work to the Tourist Services and Publicity section. Full manual fetch failed and the resolution itself was not recovered. Retain as a historical instrument-discovery lead only; no current requirement, fee, applicability or contact officer verified. Retry original evidence 10 October 2026.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": "2026-10-10",
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-puri-permissions",
+          "checked_at": "2026-10-03T07:47:50.114066+00:00",
+          "scope": "Manual 5 row 6; allocation of work, Tourist Services and Publicity Seat III. Indexed departmental manual references Resolution 603/TSM dated 16 January 2001 beside excursion-agency/tourism-project approval guidelines and assigns travel/excursion-agency recognition work to the Tourist Services and Publicity section. Full manual fetch failed and the resolution itself was not recovered. Retain as a historical instrument-discovery lead only; no current requirement, fee, applicability or contact officer verified. Retry original evidence 10 October 2026."
+        }
+      ]
     }
   ],
   "tracks": [
@@ -1898,6 +1952,37 @@
       "status": "screenshot_unavailable",
       "scope": "Web PDF text available; screenshots of PDF pages 4 and 7 failed. No visual inspection claimed.",
       "retry_after": "2026-10-10"
+    },
+    {
+      "run_id": "2026-10-03-puri-permissions",
+      "checked_at": "2026-10-03T07:47:50.114066+00:00",
+      "discovery_url": "https://www.tourism.gov.in/sites/default/files/2020-12/Tour%20Opertaors%20Revised%20Guidelines.pdf",
+      "status": "unavailable",
+      "scope": "HTTP Error 404: Not Found. Alternate original NIDHI copy recovered; no changed/unchanged claim.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "run_id": "2026-10-03-puri-permissions",
+      "checked_at": "2026-10-03T07:47:50.114066+00:00",
+      "discovery_url": "https://sujog.odisha.gov.in/tl",
+      "status": "unavailable",
+      "scope": "HTTP Error 404: Not Found",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "run_id": "2026-10-03-puri-permissions",
+      "checked_at": "2026-10-03T07:47:50.114066+00:00",
+      "discovery_url": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A68/lang%3A",
+      "status": "unavailable",
+      "scope": "<urlopen error timed out>",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "run_id": "2026-10-03-puri-permissions",
+      "checked_at": "2026-10-03T07:47:50.114066+00:00",
+      "discovery_url": "https://sujog.odisha.gov.in/Deshboard/images/Trade%20Tariff.pdf",
+      "status": "saved_original_reused",
+      "scope": "Puri PDF p623 visually inspected; raw category not a verified walk-business fee."
     }
   ],
   "supplemental_discovery_routes": [

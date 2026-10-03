@@ -455,3 +455,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 3 October 2026 · Puri training and price research
 
 [Research receipt](records/puri-guide-prices-2026-10-03.json): extended the Puri dossier with national training stages and fee scope, quote-only supplier evidence and an empty-directory check. Local authority and paid-demand gaps remain. No website change.
+
+## 3 October 2026 · Puri permissions and desk milestone
+
+[Research receipt](records/puri-permissions-2026-10-03.json): completed the bounded desk dossier with national recognition criteria and a reused Puri tariff, preserving unknown legal applicability, paid demand and costs. No website change.

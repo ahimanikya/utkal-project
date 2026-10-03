@@ -23,3 +23,9 @@ For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each sho
 Additional scoped inspection 3 October 2026: PDF p78 visually checked. Tenant od.bargarh, PERMANENT NEW/RENEWAL Photo Studio/Shop & Articles rows each show raw Rate 500; UOM/range NULL. Photo Colour Lab (Studio) is separate at 2000. Currency, period, effective date and applicability to a mobile catalogue service remain unknown. No current total payable fee.
 
 [Bargarh service dossier](../economy/bargarh-textile-catalogue-service.md). The earlier Koraput-only scope above describes the preceding capture.
+
+## Puri extension · 3 October 2026
+
+Reused the original downloaded file (SHA256 `1fd5765aa7feb4d18b8105bea068199d3cdfbffc63be715edb68cf6ad3222942`). PDF p623 visually checked: tenant `od.puri`, PERMANENT NEW and RENEWAL, trade type **Commission Agents and Adthidar Airline Travel Agency**, raw Rate **2000**, UOM/range fields NULL. This compound label is retained exactly; it is not a verified classification for a walking guide. Currency, charging period, effective date and current payable total remain unknown. Do not turn this row into a ₹2,000 annual licence recommendation.
+
+[Puri business dossier](../economy/puri-heritage-walk-service.md). The same statewide publication supplies the earlier Koraput/Bargarh scopes; these are not independent corroborations.

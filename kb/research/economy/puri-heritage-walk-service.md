@@ -5,13 +5,13 @@ description: "A defined visitor-service hypothesis with historical procurement e
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-03T07:12:33.313215+00:00"}
 subjects: ["economy", "places", "history", "governance"]
-sources: [{"id": "enterprise-otdc-walk-rfq2022", "title": "OTDC heritage-walk RFQ dated 14 September 2022", "resource": "https://odishatourism.gov.in/content/dam/tourism/home/tender-document/RFQ.pdf"}, {"id": "enterprise-puri-walk-offer", "title": "I Love Jagannath: advertised Puri heritage-walk service", "resource": "https://ilovejagannath.com/heritage-walk"}, {"id": "puri-guide-app-directory", "title": "Odisha Tourism alternate tour-guide directory", "resource": "https://apps.odishatourism.gov.in/find-tour-guide"}, {"id": "puri-approved-operators", "title": "Approved Tour Operators — Puri entries", "resource": "https://dot.odisha.gov.in/en/tourism-department-info-planner/approved-tour-operators"}, {"id": "puri-heritage-golden-triangle", "title": "Heritage Tours — Golden Triangle itinerary", "resource": "https://www.heritagetoursorissa.com/golden-triangle-odisha/"}, {"id": "enterprise-iitf-booklet", "title": "IITF/IITG: national certification booklet", "resource": "https://www.iitf.gov.in/IITF-Booklet.pdf"}, {"id": "enterprise-iitf-faq", "title": "IITFC FAQ: programme fee and badge stages", "resource": "https://iitf.gov.in/local/staticpage/view.php?lang=en&page=IITFC-FAQ"}, {"id": "enterprise-puri-sanatan-walk", "title": "Sanatan Sahoo: advertised Puri Heritage Walk", "resource": "https://indiatourguidesanatan.com/puri-heritage-walk/"}, {"id": "enterprise-puri-sacred-directory", "title": "SacredPuri: empty guide-directory pricing lead", "resource": "https://sacredpuri.com/tour-guide"}]
+sources: [{"id": "enterprise-otdc-walk-rfq2022", "title": "OTDC heritage-walk RFQ dated 14 September 2022", "resource": "https://odishatourism.gov.in/content/dam/tourism/home/tender-document/RFQ.pdf"}, {"id": "enterprise-puri-walk-offer", "title": "I Love Jagannath: advertised Puri heritage-walk service", "resource": "https://ilovejagannath.com/heritage-walk"}, {"id": "puri-guide-app-directory", "title": "Odisha Tourism alternate tour-guide directory", "resource": "https://apps.odishatourism.gov.in/find-tour-guide"}, {"id": "puri-approved-operators", "title": "Approved Tour Operators — Puri entries", "resource": "https://dot.odisha.gov.in/en/tourism-department-info-planner/approved-tour-operators"}, {"id": "puri-heritage-golden-triangle", "title": "Heritage Tours — Golden Triangle itinerary", "resource": "https://www.heritagetoursorissa.com/golden-triangle-odisha/"}, {"id": "enterprise-iitf-booklet", "title": "IITF/IITG: national certification booklet", "resource": "https://www.iitf.gov.in/IITF-Booklet.pdf"}, {"id": "enterprise-iitf-faq", "title": "IITFC FAQ: programme fee and badge stages", "resource": "https://iitf.gov.in/local/staticpage/view.php?lang=en&page=IITFC-FAQ"}, {"id": "enterprise-puri-sanatan-walk", "title": "Sanatan Sahoo: advertised Puri Heritage Walk", "resource": "https://indiatourguidesanatan.com/puri-heritage-walk/"}, {"id": "enterprise-puri-sacred-directory", "title": "SacredPuri: empty guide-directory pricing lead", "resource": "https://sacredpuri.com/tour-guide"}, {"id": "enterprise-national-recognition2020", "title": "National tourism-service recognition: startup route and local-permission boundary", "resource": "https://nidhi.tourism.gov.in/uploads/gallery/1673603369.pdf"}, {"id": "enterprise-odisha-agent-registration", "title": "Odisha Tourism travel-agent portal registration: scope check", "resource": "https://odishatourism.gov.in/content/tourism/en/dot/quickLinks/travel-agent-registration.html"}, {"id": "enterprise-odisha-recognition-rti-lead", "title": "Tourism Department RTI manual: excursion-agency rule reference", "resource": "https://rtiodisha.gov.in/Pages/printAllManual/office_id%3A68/lang%3A"}, {"id": "enterprise-sujog-tariff", "title": "SUJOG: trade tariff, Koraput rows", "resource": "https://sujog.odisha.gov.in/Deshboard/images/Trade%20Tariff.pdf"}, {"id": "enterprise-sujog-documents", "title": "SUJOG: documents for a new trade licence", "resource": "https://sujog.odisha.gov.in/Deshboard/images/List%20of%20Documents%20required%20for%20new%20Trade%20License.pdf"}, {"id": "enterprise-sujog-manual", "title": "SUJOG: citizen trade-licence manual, version 1.1", "resource": "https://sujog.odisha.gov.in/Deshboard/images/SUJOG_TL_Citizen%20User%20Manual.pdf"}]
 human_review_claimed: false
 ---
 
 # Puri: a pre-booked outdoor heritage-walk service
 
-**Research checkpoint · 3 October 2026.** OPP-PUR-001; RES-066 remains in progress. No priced, approved or bookable Utkal service is offered.
+**Desk-research milestone · 3 October 2026.** OPP-PUR-001 is desk_researched; RES-066 has completed its bounded desk deliverable. Local permissions, paid demand and financial feasibility remain unresolved. No priced, approved or bookable Utkal service is offered.
 
 ## Customer problem and business hypothesis
 
@@ -60,9 +60,9 @@ Reuse the existing Puri visitor-essentials work: temple-policy conflicts, meals,
 
 Revenue, costs, contribution, break-even and profit remain blank. A contract's guaranteed walks or security deposit is not a new entrant's earnings or startup budget. Model only after a specific offer, permission route and cost evidence exist.
 
-## Next bounded research
+## Initial next steps, before the follow-ups below
 
-Recover the 2023 OTDC instrument without merging vintages; establish current guide/agency applicability for this exact activity; look for an attributable Puri-specific offer with price and inclusions. Seek seasonal demand only from suitable published evidence or later authorized local participation. RES-066 is not complete.
+Recover the 2023 OTDC instrument without merging vintages; establish current guide/agency applicability for this exact activity; look for an attributable Puri-specific offer with price and inclusions. Seek seasonal demand only from suitable published evidence or later authorized local participation. At that checkpoint, RES-066 was not complete.
 
 ## Connected reading
 
@@ -93,3 +93,36 @@ The Sanatan page's year-round label is a seller's advertised season. It does not
 ### Next evidence to obtain
 
 The next desk batch should resolve Puri municipal classification and the current state/national recognition instruments for this precisely scoped outdoor service. The unavailable 2023 OTDC document retains its 10 October retry. Route-specific permissions, a dated price with party size and inclusions, and a monthly paid-booking series remain separate gaps. Local contact or fieldwork requires a later explicit outreach instruction; none occurred here. Financial totals remain blank.
+
+## Desk-research milestone · 3 October 2026
+
+**RES-066's bounded desk dossier is complete; OPP-PUR-001 is desk_researched.** Earlier in-progress notices record earlier checkpoints. The customer problem, supplier leads, seasonality gap, premises choices, permission boundaries and financial gaps are documented. This is not a locally checked or ready-to-launch business plan.
+
+### Four questions before choosing how to operate
+
+| Layer | What we can establish | What still needs confirmation |
+| --- | --- | --- |
+| Municipal business classification | SUJOG provides premises/document and application routes; its Puri tariff contains a compound airline-travel-agency category | Whether this outdoor walking service fits that category, the correct ULB/premises treatment and current payable charges |
+| State tourism-business recognition | Odisha Tourism has an online registration form; the departmental RTI index points to an older recognition instrument | Account registration is not a recognition certificate; recover the original state rule and amendments |
+| National business recognition | The NIDHI-linked Ministry guidelines include a voluntary startup category | Whether the chosen entity/activity qualifies under current terms; this does not replace local compliance |
+| Individual guide and each stop | Reuse IITF/IITG credential research; the recognition instrument also distinguishes protected monuments and site-authority conditions | Current credential validity, selected route/stop access, private-host consent and any special restrictions |
+
+### A national recognition route for newcomers
+
+The [Ministry's 2020 instrument currently linked by NIDHI](../sources/enterprise-national-recognition2020.md) provides a **Green Shoots / Start Ups** category. Its eligibility table requires no prior turnover or operating experience. For the rest-of-India category, it lists ₹1 lakh paid-up capital, subject to the stated trust exemption, and at least two staff with 10+2 qualifications; one must have a listed tourism qualification or Basic IITFC. These are recognition criteria, not a minimum investment estimate for every guide business.
+
+The startup column has no office-space requirement, subject to local-government rules. Its application-document exception for local-registration proof does not waive those rules. Recognition lasts three years, with transition to the Experienced category rather than renewal as a startup. Current amendments and applicability still require confirmation. The document's cover gives 1 January 2021 as the operation date; its enclosed heading gives 8 December 2020 as the revision date.
+
+This creates a useful comparison for further research: operating as an individual guide, working through an existing operator, or forming a business seeking recognition may involve different responsibilities and costs. No option has been approved or chosen for a real applicant.
+
+### Local classification remains a decision gap
+
+The [saved SUJOG tariff](../sources/enterprise-sujog-tariff.md), PDF p623, lists `od.puri` under “Commission Agents and Adthidar Airline Travel Agency” with raw Rate 2000 for permanent new and renewal applications. The table does not establish the currency, charge period, effective date or fit with a heritage walk. It is not adopted as a payable fee.
+
+Reuse the [document categories](../sources/enterprise-sujog-documents.md) and [citizen manual](../sources/enterprise-sujog-manual.md): premises evidence and entered trade details matter; provisional and final certificates are distinct stages. No particular premises is available or approved. No blanket exemption for a home office or mobile business has been established.
+
+The [Odisha Tourism form](../sources/enterprise-odisha-agent-registration.md) proves an online registration route, not a recognition decision. The [RTI rule pointer](../sources/enterprise-odisha-recognition-rti-lead.md) remains a lead pending original recovery. State requirements cannot be inferred from the national scheme's voluntary character.
+
+### Follow-up and release boundary
+
+Recover the state instrument and unavailable original municipal service page on 10 October; retain the separate 2023 OTDC retry. A later authorized local enquiry should describe one exact route and business model, and seek written classification, permission and fee applicability. Provider price per party/person, monthly paid bookings, consent and costs remain unknown. No interviews, applications, booking tests or financial projections occurred. A public startup checklist must retain these gaps until resolved.

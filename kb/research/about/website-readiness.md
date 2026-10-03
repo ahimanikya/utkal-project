@@ -197,3 +197,7 @@ Municipal PDFs and a seller comparator enhance the draft [retail brief](../econo
 ## Puri training and offer checkpoint · 3 October 2026
 
 The [Puri dossier](../economy/puri-heritage-walk-service.md) adds official training references and attributed supplier leads. Neither published training fees nor an advertised walk establishes a licensed, priced Utkal product. No live booking or website publication.
+
+## Puri desk milestone · 3 October 2026
+
+The [Puri business dossier](../economy/puri-heritage-walk-service.md) is desk-researched with all unknowns retained. Voluntary national recognition, municipal licensing, state registration and individual/site permissions are distinct. No complete current applicant checklist, viable return or website publication.

@@ -19113,7 +19113,13 @@
         "enterprise-iitf-booklet",
         "enterprise-iitf-faq",
         "enterprise-puri-sanatan-walk",
-        "enterprise-puri-sacred-directory"
+        "enterprise-puri-sacred-directory",
+        "enterprise-national-recognition2020",
+        "enterprise-odisha-agent-registration",
+        "enterprise-odisha-recognition-rti-lead",
+        "enterprise-sujog-tariff",
+        "enterprise-sujog-documents",
+        "enterprise-sujog-manual"
       ]
     },
     {
@@ -19170,6 +19176,48 @@
       "subject_ids": [],
       "source_ids": [
         "enterprise-puri-sacred-directory"
+      ]
+    },
+    {
+      "id": "sources/enterprise-national-recognition2020",
+      "title": "National tourism-service recognition: startup route and local-permission boundary",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-national-recognition2020.md",
+      "project_path": "kb/research/sources/enterprise-national-recognition2020.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-national-recognition2020"
+      ]
+    },
+    {
+      "id": "sources/enterprise-odisha-agent-registration",
+      "title": "Odisha Tourism travel-agent portal registration: scope check",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-odisha-agent-registration.md",
+      "project_path": "kb/research/sources/enterprise-odisha-agent-registration.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-odisha-agent-registration"
+      ]
+    },
+    {
+      "id": "sources/enterprise-odisha-recognition-rti-lead",
+      "title": "Tourism Department RTI manual: excursion-agency rule reference",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-odisha-recognition-rti-lead.md",
+      "project_path": "kb/research/sources/enterprise-odisha-recognition-rti-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-odisha-recognition-rti-lead"
       ]
     }
   ],
@@ -20660,7 +20708,13 @@
         "sources/enterprise-iitf-booklet.md",
         "sources/enterprise-iitf-faq.md",
         "sources/enterprise-puri-sanatan-walk.md",
-        "sources/enterprise-puri-sacred-directory.md"
+        "sources/enterprise-puri-sacred-directory.md",
+        "sources/enterprise-national-recognition2020.md",
+        "sources/enterprise-odisha-agent-registration.md",
+        "sources/enterprise-odisha-recognition-rti-lead.md",
+        "sources/enterprise-sujog-tariff.md",
+        "sources/enterprise-sujog-documents.md",
+        "sources/enterprise-sujog-manual.md"
       ],
       "project_records": [
         "kb/specs/knowledge-to-work.md",
@@ -20670,8 +20724,9 @@
         "kb/research/product/puri-visitor-essentials-2026-09-30.md"
       ],
       "remaining_scope": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
-      "status_unchanged": "in_progress",
-      "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence."
+      "status_unchanged": "completed",
+      "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence.",
+      "follow_up_scope": "Desk dossier complete. Retry state recognition instrument, municipal live-page recovery and separate 2023 OTDC source on 10 October. Resolve exact route/category/fees, written price and paid seasonality through original evidence or later explicitly authorized local participation."
     },
     {
       "task_id": "RES-067",
@@ -20707,8 +20762,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1282,
-    "updated_at": "2026-10-03T07:31:30.882298+00:00",
+    "records_mapped": 1285,
+    "updated_at": "2026-10-03T07:47:50.114066+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21325,6 +21380,11 @@
       "at": "2026-10-03T07:31:30.882298+00:00",
       "run_id": "2026-10-03-puri-guide-prices",
       "scope": "Four new identities extend existing Puri dossier. IITF booklet and FAQ share one programme provenance; they are not independent corroboration. Supplier claims do not verify credentials."
+    },
+    {
+      "at": "2026-10-03T07:47:50.114066+00:00",
+      "run_id": "2026-10-03-puri-permissions",
+      "scope": "Three source identities extend Puri; SUJOG tariff reused at a new page, not duplicated. National NIDHI copy and broken Ministry URL are one instrument, not corroboration. RES-066 desk scope complete."
     }
   ]
 }

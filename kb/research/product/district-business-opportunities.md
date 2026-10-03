@@ -75,3 +75,7 @@ For rules, schemes, vacancies, quotations and supplier availability, use short r
 ## Puri service checkpoint · 3 October 2026
 
 [OPP-PUR-001](../economy/puri-heritage-walk-service.md) is narrowed to a pre-booked outdoor walk; RES-066 remains in progress. Coffee source recovery is deferred with saved retry dates.
+
+## Puri desk research milestone · 3 October 2026
+
+RES-066 completes a bounded [outdoor-walk dossier](../economy/puri-heritage-walk-service.md). Its evidence state is desk_researched; financial projections and local checks remain absent. Original national startup criteria and local applicability gaps inform later project-book work.

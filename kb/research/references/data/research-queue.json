@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T07:31:30.882298+00:00",
+  "updated_at": "2026-10-03T07:47:50.114066+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3585,8 +3585,8 @@
       "title": "Puri business dossier: a visitor or food service",
       "done_when": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
       "target": "economy/puri-heritage-walk-service.md",
-      "status": "in_progress",
-      "attempts": 2,
+      "status": "completed",
+      "attempts": 3,
       "dependencies": [
         "RES-065"
       ],
@@ -3599,8 +3599,8 @@
         "RES-052",
         "RES-062"
       ],
-      "last_worked_at": "2026-10-03T07:31:30.882298+00:00",
-      "next_step": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized.",
+      "last_worked_at": "2026-10-03T07:47:50.114066+00:00",
+      "next_step": "Desk dossier complete. Retry state recognition instrument, municipal live-page recovery and separate 2023 OTDC source on 10 October. Resolve exact route/category/fees, written price and paid seasonality through original evidence or later explicitly authorized local participation.",
       "evidence_outputs": [
         "sources/enterprise-otdc-walk-rfq2022.md",
         "sources/enterprise-puri-walk-offer.md",
@@ -3609,7 +3609,10 @@
         "sources/enterprise-iitf-booklet.md",
         "sources/enterprise-iitf-faq.md",
         "sources/enterprise-puri-sanatan-walk.md",
-        "sources/enterprise-puri-sacred-directory.md"
+        "sources/enterprise-puri-sacred-directory.md",
+        "sources/enterprise-national-recognition2020.md",
+        "sources/enterprise-odisha-agent-registration.md",
+        "sources/enterprise-odisha-recognition-rti-lead.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -3627,6 +3630,13 @@
           "result": "training_and_offer_checkpoint",
           "scope": "Official national programme references distinguished from local authorisation; seller price on request and empty directory recorded. No paid-demand series or current comprehensive permission path.",
           "next_step": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized."
+        },
+        {
+          "at": "2026-10-03T07:47:50.114066+00:00",
+          "run_id": "2026-10-03-puri-permissions",
+          "result": "bounded_desk_dossier_completed",
+          "scope": "Defined desk dossier exists and covers all done_when fields, including explicitly unresolved demand, prices and local legal applicability. No locally checked or feasible business claim.",
+          "next_step": "Desk dossier complete. Retry state recognition instrument, municipal live-page recovery and separate 2023 OTDC source on 10 October. Resolve exact route/category/fees, written price and paid seasonality through original evidence or later explicitly authorized local participation."
         }
       ],
       "reuse_before_research": {
@@ -3644,7 +3654,13 @@
           "sources/enterprise-iitf-booklet.md",
           "sources/enterprise-iitf-faq.md",
           "sources/enterprise-puri-sanatan-walk.md",
-          "sources/enterprise-puri-sacred-directory.md"
+          "sources/enterprise-puri-sacred-directory.md",
+          "sources/enterprise-national-recognition2020.md",
+          "sources/enterprise-odisha-agent-registration.md",
+          "sources/enterprise-odisha-recognition-rti-lead.md",
+          "sources/enterprise-sujog-tariff.md",
+          "sources/enterprise-sujog-documents.md",
+          "sources/enterprise-sujog-manual.md"
         ],
         "project_records": [
           "kb/specs/knowledge-to-work.md",
@@ -3655,7 +3671,9 @@
         ],
         "audit_date": "2026-10-02",
         "map": "references/data/research-map.json"
-      }
+      },
+      "completed_at": "2026-10-03T07:47:50.114066+00:00",
+      "completion_scope": "Defined desk dossier exists and covers all done_when fields, including explicitly unresolved demand, prices and local legal applicability. No locally checked or feasible business claim."
     },
     {
       "id": "RES-067",
