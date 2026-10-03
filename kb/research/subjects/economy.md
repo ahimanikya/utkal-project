@@ -101,3 +101,7 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Business opportunities by district
 
 [Entrepreneurship programme](../product/district-business-opportunities.md) connects place knowledge with demand, premises, people and permissions research. [Koraput pilot](../economy/koraput-business-opportunities.md) contains hypotheses, not verified returns.
+
+## Maker-linked services · 3 October 2026
+
+[Bargarh catalogue service](../economy/bargarh-textile-catalogue-service.md) is a business research draft linked to arts and place records; no profitability assertion.

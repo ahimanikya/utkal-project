@@ -243,3 +243,7 @@ RES-064 remains earliest in-progress. Reuse the scoped retail brief and FSSAI or
 ## Coffee pack and municipal checkpoint · 3 October 2026
 
 RES-064 remains in progress. Reuse the 250 g retail comparator and downloaded tariff (Koraput PDF p501). Next: original supplier/batch evidence and tariff applicability; separate local quotations and demand. New unavailable DARPG and TDCC routes retry 10 October; earlier 9 October retries unchanged.
+
+## Bargarh desk milestone · 3 October 2026
+
+RES-065 completed its defined desk dossier, selected as an independent next item at user request. Removed its sequencing-only dependency on still-in-progress RES-064, retaining the history. Cooperative website retry10 October2026; local consent, prices and demand remain unknown.

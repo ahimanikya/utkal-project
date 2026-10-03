@@ -67,3 +67,7 @@ The continuing research queue now includes RES-063–067. RES-063 establishes th
 For rules, schemes, vacancies, quotations and supplier availability, use short review intervals and recheck before a book presents them as current. Historical context retains its original date. The weekly editor can monitor confirmed public releases later; it must not certify an entrepreneur's individual eligibility. Measure coverage and useful exports separately from verified business launches or jobs.
 
 [PRD](prd.md) · [Research method](../methods/business-opportunity-research.md) · [Koraput first brief](../economy/koraput-business-opportunities.md)
+
+## Bargarh desk dossier · 3 October 2026
+
+[OPP-BAR-001](../economy/bargarh-textile-catalogue-service.md) now has a bounded desk dossier. RES-065 is complete at this scope; demand validation, permission and financial gaps remain open. RES-064 coffee research remains in progress.

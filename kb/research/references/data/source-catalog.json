@@ -6605,7 +6605,13 @@
     "accessed_on": "2026-10-03",
     "publication_date": null,
     "capture_note": "759-page file; header PDF p1 and Koraput Tea Dust & Coffee rows PDF p501 visually checked. For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated.",
-    "capture_sha256": "1fd5765aa7feb4d18b8105bea068199d3cdfbffc63be715edb68cf6ad3222942"
+    "capture_sha256": "1fd5765aa7feb4d18b8105bea068199d3cdfbffc63be715edb68cf6ad3222942",
+    "capture_history": [
+      {
+        "at": "2026-10-03T06:28:03.412029+00:00",
+        "scope": "Additional scoped inspection3 October2026: PDF p78 visually checked. Tenant od.bargarh, PERMANENT NEW/RENEWAL Photo Studio/Shop & Articles rows each show raw Rate500; UOM/range NULL. Photo Colour Lab (Studio) is separate at2000. Currency, period, effective date and applicability to a mobile catalogue service remain unknown. No current total payable fee."
+      }
+    ]
   },
   "coffee-tdcc-retail-lead": {
     "id": "coffee-tdcc-retail-lead",
@@ -6652,5 +6658,62 @@
     "publication_date": "2023-06-21",
     "capture_note": "Version history PDF p2; printed pp8–16 / PDF pp9–17; PDF pp10 and17 visually checked. Version history identifies v1.1 as second draft. Application uses trade type, subtype and unit; fee calculated from entered details. Payment enables provisional certificate; final certificate follows departmental approval. A 2023 interface manual is not a current approval guarantee or proof of complete compliance. No login, application or payment performed.",
     "capture_sha256": "a65de924e7c3bd3757c1e4c4d0df44ff094f51aa5cb42093959827df2e929063"
+  },
+  "enterprise-boyanika-tenders": {
+    "id": "enterprise-boyanika-tenders",
+    "title": "Boyanika: photography procurement index",
+    "resource": "https://boyanika.com/tender-page/",
+    "publisher": "Boyanika",
+    "source_kind": "Source Research",
+    "access_status": "accessed",
+    "accessed_on": "2026-10-03",
+    "publication_date": null,
+    "capture_note": "Rows for professional agency and thematic product photoshoot. Lists issue/deadline dates 20 May–22 June 2026 and 25 June–15 July 2026. Both published submission deadlines have passed. Index and linked PDFs belong to one buyer; they are not independent market corroboration. No award, executed contract value, new extension or payment was established."
+  },
+  "enterprise-boyanika-thematic2026": {
+    "id": "enterprise-boyanika-thematic2026",
+    "title": "Boyanika: thematic product photography EOI",
+    "resource": "https://boyanika.com/wp-content/uploads/2026/07/PHOTOGRAPHY-EOI.pdf",
+    "publisher": "Boyanika",
+    "source_kind": "Source Research",
+    "access_status": "accessed_scoped",
+    "accessed_on": "2026-10-03",
+    "publication_date": "2026-06-25",
+    "capture_note": "PDF p3 dates; pp4–7 scope and eligibility; pp10–11 location/security. Image-only p7 visually read. Separate thematic instrument, deadline15 July2026, involving celebrities/models. Page7 specifies minimum average annual turnover INR4 crore over FY2023–24 to FY2025–26 and prior experience. Page11 performance security INR50,000 includes EMD. Do not merge its terms with EOI1233 or add overlapping deliverable tables. Contract amount and award unknown. Initial web-reader failure recovered by direct PDF download.",
+    "capture_sha256": "213bf3d4b88d173b5b9be62e81625f1eb267bdf5314ceda4a0cdec538ce7b3aa"
+  },
+  "enterprise-sambalpuri-site-lead": {
+    "id": "enterprise-sambalpuri-site-lead",
+    "title": "Sambalpuri Bastralaya: direct website retrieval lead",
+    "resource": "https://www.sambalpuribastralaya.com/",
+    "publisher": "Sambalpuri Bastralaya website lead",
+    "source_kind": "Source Research",
+    "access_status": "unavailable_content",
+    "accessed_on": "2026-10-03",
+    "publication_date": null,
+    "capture_note": "Direct web read: Welcome / Loading shell. Substantive original cooperative content was not recovered. Current supplier onboarding, photography purchasing, catalogue ownership and institutional confirmation remain unknown. Retry10 October2026; failed retrieval is not unchanged."
+  },
+  "enterprise-bargarh-odop": {
+    "id": "enterprise-bargarh-odop",
+    "title": "Bargarh ODOP: textile production and support routes",
+    "resource": "https://bargarh.odisha.gov.in/or/node/82054",
+    "publisher": "Bargarh district administration / Deputy Director of Textiles",
+    "source_kind": "Source Research",
+    "access_status": "accessed_with_scope_conflicts",
+    "accessed_on": "2026-10-03",
+    "publication_date": null,
+    "capture_note": "ONE DISTRICT ONE PRODUCT; SAMBALPURI BASTRALAYA; testing lab; institutional support; supplier list. District account describes Sambalpuri Bastralaya supplying raw materials, collecting finished textiles and marketing through outlets/agents. Lists DDT, DIC, ORMAS and a textile-testing facility; current third-party access/fees unknown. Weaver counts 38,298 and more than39,000 lack reconciled scope/vintage. Approximate annual turnover INR64 crore lacks FY. Quarantine these figures from current statistics. Footer18 June2026 is not their observation period."
+  },
+  "enterprise-boyanika-agency2026": {
+    "id": "enterprise-boyanika-agency2026",
+    "title": "Boyanika: photography, AV and social-media agency EOI",
+    "resource": "https://boyanika.com/wp-content/uploads/2026/06/EOI-1233.pdf",
+    "publisher": "Boyanika",
+    "source_kind": "Source Research",
+    "access_status": "accessed_scoped",
+    "accessed_on": "2026-10-03",
+    "publication_date": "2026-05-20",
+    "capture_note": "PDF p3 date; pp6–7 scope/eligibility; p11 location; p12 security. Pages6,7,12 visually checked. EOI1233 seeks an agency: ten images per product, alongside video, design and social services. FY2024–25 turnover minimum INR25 lakh and prior assignments required. Bhubaneswar manager required. Performance security INR5 lakh includes EMD. These are historical bid requirements, not service prices, startup costs or universal legal thresholds; no award proved.",
+    "capture_sha256": "098c4a14408f719f3f05550ad553b5a5292a6e70291e20fa0fc1b068a0925c5c"
   }
 }

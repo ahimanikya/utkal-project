@@ -393,3 +393,7 @@ RES-064 narrows existing OPP-KOR-001 and coffee identity. Ten source/lead record
 ## Coffee source extension · 3 October 2026
 
 Eight source/lead identities extend RES-064; the existing coffee and business pages are reused. One SUJOG publication family supplies document, interface and tariff scopes. Seller attribution does not independently verify the producer; the legacy domain is quarantined.
+
+## Bargarh service extension · 3 October 2026
+
+RES-065 reuses handloom/place and SUJOG records. Five new source identities and one dossier; two Boyanika procurement instruments share one buyer. This extends the dated map, not an exhaustive semantic audit.

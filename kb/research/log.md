@@ -432,3 +432,7 @@ Narrowed OPP-KOR-001 to offline sealed-pack resale. Captured two state productio
 ## Coffee pack, municipal guidance and source reliability · 3 October 2026
 
 Enhanced OPP-KOR-001 with a dated retail offer, municipal document alternatives, a 2023 interface manual and a scoped tariff row. Recovered the oversized tariff via direct download. Preserved unavailable original producer/support routes and excluded an unrelated domain redirect. RES-064 stays in progress; margins remain unknown.
+
+## Bargarh textile service dossier · 3 October 2026
+
+Completed RES-065 bounded desk deliverable using original Boyanika procurement and district producer evidence. Preserved the two tender scopes, municipal tariff uncertainty, conflicting undated population counts and null financials. No interviews, applications, asset licensing or website change.

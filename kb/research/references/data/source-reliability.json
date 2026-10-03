@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T06:10:28.669467+00:00",
+  "updated_at": "2026-10-03T06:28:03.412029+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -781,7 +781,7 @@
       "source_id": "enterprise-sujog-tariff",
       "discovery_url": "https://sujog.odisha.gov.in/Deshboard/images/Trade%20Tariff.pdf",
       "listing_status": "accessed_scoped",
-      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "checked_at": "2026-10-03T06:28:03.412029+00:00",
       "scope": "For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated.",
       "publication_cadence": "not_established",
       "next_release_date": null,
@@ -792,6 +792,11 @@
           "run_id": "2026-10-03-koraput-coffee-supply",
           "checked_at": "2026-10-03T06:10:28.669467+00:00",
           "scope": "759-page file; header PDF p1 and Koraput Tea Dust & Coffee rows PDF p501 visually checked. For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated."
+        },
+        {
+          "run_id": "2026-10-03-bargarh-catalogue-service",
+          "checked_at": "2026-10-03T06:28:03.412029+00:00",
+          "scope": "Additional scoped inspection3 October2026: PDF p78 visually checked. Tenant od.bargarh, PERMANENT NEW/RENEWAL Photo Studio/Shop & Articles rows each show raw Rate500; UOM/range NULL. Photo Colour Lab (Studio) is separate at2000. Currency, period, effective date and applicability to a mobile catalogue service remain unknown. No current total payable fee."
         }
       ]
     },
@@ -864,6 +869,96 @@
           "run_id": "2026-10-03-koraput-coffee-supply",
           "checked_at": "2026-10-03T06:10:28.669467+00:00",
           "scope": "Indexed About TDCCOL and TDCC Retail Outlets sections; bare-host error and www-host timeout. Publisher index associates Adisha with TDCCOL and lists an outlet near Chandan Pokhari, Koraput. Direct content unavailable; retain as institutional provenance lead, not current stock, operating hours, distribution authorization or completed producer verification. Original outlet/product confirmation remains open; retry 10 October 2026."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-boyanika-tenders",
+      "discovery_url": "https://boyanika.com/tender-page/",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-03T06:28:03.412029+00:00",
+      "scope": "Lists issue/deadline dates 20 May–22 June 2026 and 25 June–15 July 2026. Both published submission deadlines have passed. Index and linked PDFs belong to one buyer; they are not independent market corroboration. No award, executed contract value, new extension or payment was established.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-bargarh-catalogue-service",
+          "checked_at": "2026-10-03T06:28:03.412029+00:00",
+          "scope": "Rows for professional agency and thematic product photoshoot. Lists issue/deadline dates 20 May–22 June 2026 and 25 June–15 July 2026. Both published submission deadlines have passed. Index and linked PDFs belong to one buyer; they are not independent market corroboration. No award, executed contract value, new extension or payment was established."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-boyanika-agency2026",
+      "discovery_url": "https://boyanika.com/wp-content/uploads/2026/06/EOI-1233.pdf",
+      "listing_status": "accessed_scoped",
+      "checked_at": "2026-10-03T06:28:03.412029+00:00",
+      "scope": "EOI1233 seeks an agency: ten images per product, alongside video, design and social services. FY2024–25 turnover minimum INR25 lakh and prior assignments required. Bhubaneswar manager required. Performance security INR5 lakh includes EMD. These are historical bid requirements, not service prices, startup costs or universal legal thresholds; no award proved.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-bargarh-catalogue-service",
+          "checked_at": "2026-10-03T06:28:03.412029+00:00",
+          "scope": "PDF p3 date; pp6–7 scope/eligibility; p11 location; p12 security. Pages6,7,12 visually checked. EOI1233 seeks an agency: ten images per product, alongside video, design and social services. FY2024–25 turnover minimum INR25 lakh and prior assignments required. Bhubaneswar manager required. Performance security INR5 lakh includes EMD. These are historical bid requirements, not service prices, startup costs or universal legal thresholds; no award proved."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-boyanika-thematic2026",
+      "discovery_url": "https://boyanika.com/wp-content/uploads/2026/07/PHOTOGRAPHY-EOI.pdf",
+      "listing_status": "accessed_scoped",
+      "checked_at": "2026-10-03T06:28:03.412029+00:00",
+      "scope": "Separate thematic instrument, deadline15 July2026, involving celebrities/models. Page7 specifies minimum average annual turnover INR4 crore over FY2023–24 to FY2025–26 and prior experience. Page11 performance security INR50,000 includes EMD. Do not merge its terms with EOI1233 or add overlapping deliverable tables. Contract amount and award unknown. Initial web-reader failure recovered by direct PDF download.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-bargarh-catalogue-service",
+          "checked_at": "2026-10-03T06:28:03.412029+00:00",
+          "scope": "PDF p3 dates; pp4–7 scope and eligibility; pp10–11 location/security. Image-only p7 visually read. Separate thematic instrument, deadline15 July2026, involving celebrities/models. Page7 specifies minimum average annual turnover INR4 crore over FY2023–24 to FY2025–26 and prior experience. Page11 performance security INR50,000 includes EMD. Do not merge its terms with EOI1233 or add overlapping deliverable tables. Contract amount and award unknown. Initial web-reader failure recovered by direct PDF download."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-bargarh-odop",
+      "discovery_url": "https://bargarh.odisha.gov.in/or/node/82054",
+      "listing_status": "accessed_with_scope_conflicts",
+      "checked_at": "2026-10-03T06:28:03.412029+00:00",
+      "scope": "District account describes Sambalpuri Bastralaya supplying raw materials, collecting finished textiles and marketing through outlets/agents. Lists DDT, DIC, ORMAS and a textile-testing facility; current third-party access/fees unknown. Weaver counts 38,298 and more than39,000 lack reconciled scope/vintage. Approximate annual turnover INR64 crore lacks FY. Quarantine these figures from current statistics. Footer18 June2026 is not their observation period.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-bargarh-catalogue-service",
+          "checked_at": "2026-10-03T06:28:03.412029+00:00",
+          "scope": "ONE DISTRICT ONE PRODUCT; SAMBALPURI BASTRALAYA; testing lab; institutional support; supplier list. District account describes Sambalpuri Bastralaya supplying raw materials, collecting finished textiles and marketing through outlets/agents. Lists DDT, DIC, ORMAS and a textile-testing facility; current third-party access/fees unknown. Weaver counts 38,298 and more than39,000 lack reconciled scope/vintage. Approximate annual turnover INR64 crore lacks FY. Quarantine these figures from current statistics. Footer18 June2026 is not their observation period."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-sambalpuri-site-lead",
+      "discovery_url": "https://www.sambalpuribastralaya.com/",
+      "listing_status": "unavailable_content",
+      "checked_at": "2026-10-03T06:28:03.412029+00:00",
+      "scope": "Substantive original cooperative content was not recovered. Current supplier onboarding, photography purchasing, catalogue ownership and institutional confirmation remain unknown. Retry10 October2026; failed retrieval is not unchanged.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": "2026-10-10",
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-bargarh-catalogue-service",
+          "checked_at": "2026-10-03T06:28:03.412029+00:00",
+          "scope": "Direct web read: Welcome / Loading shell. Substantive original cooperative content was not recovered. Current supplier onboarding, photography purchasing, catalogue ownership and institutional confirmation remain unknown. Retry10 October2026; failed retrieval is not unchanged."
         }
       ]
     }
@@ -1570,6 +1665,13 @@
       "discovery_url": "https://sujog.odisha.gov.in/tl",
       "status": "indexed_only",
       "scope": "Direct open produced JavaScript shell. Indexed service statistics and average fees are not used as Koraput outcomes or applicant fees."
+    },
+    {
+      "run_id": "2026-10-03-bargarh-catalogue-service",
+      "checked_at": "2026-10-03T06:28:03.412029+00:00",
+      "discovery_url": "https://boyanika.com/wp-content/uploads/2026/07/PHOTOGRAPHY-EOI.pdf",
+      "status": "web_unavailable_recovered_direct_pdf",
+      "scope": "Web-reader internal error; direct original PDF downloaded and image-only eligibility page visually inspected."
     }
   ],
   "supplemental_discovery_routes": [

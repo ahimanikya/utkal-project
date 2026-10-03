@@ -65,3 +65,7 @@ Add source-checked district education, health, agricultural production, work and
 - [Made in Odisha](../collections/made-in-odisha.md) — Connect textile traditions with maker attribution and livelihood research.
 - [Bargarh — district banking](../statistics/districts/bargarh.md) — Keep Bargarh’s financial observations attached to its own district.
 - [Sambalpur — district banking](../statistics/districts/sambalpur.md) — Keep Sambalpur’s financial observations attached to its own district.
+
+## Bargarh business dossier · 3 October 2026
+
+[Photography and catalogue services](../economy/bargarh-textile-catalogue-service.md) connect existing textile records to a scoped enterprise hypothesis. Town tariff research is not districtwide; no available studio or confirmed client.

@@ -18922,6 +18922,102 @@
       "source_ids": [
         "coffee-tdcc-retail-lead"
       ]
+    },
+    {
+      "id": "sources/enterprise-boyanika-tenders",
+      "title": "Boyanika: photography procurement index",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-boyanika-tenders.md",
+      "project_path": "kb/research/sources/enterprise-boyanika-tenders.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-boyanika-tenders"
+      ]
+    },
+    {
+      "id": "sources/enterprise-boyanika-agency2026",
+      "title": "Boyanika: photography, AV and social-media agency EOI",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-boyanika-agency2026.md",
+      "project_path": "kb/research/sources/enterprise-boyanika-agency2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-boyanika-agency2026"
+      ]
+    },
+    {
+      "id": "sources/enterprise-boyanika-thematic2026",
+      "title": "Boyanika: thematic product photography EOI",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-boyanika-thematic2026.md",
+      "project_path": "kb/research/sources/enterprise-boyanika-thematic2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-boyanika-thematic2026"
+      ]
+    },
+    {
+      "id": "sources/enterprise-bargarh-odop",
+      "title": "Bargarh ODOP: textile production and support routes",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-bargarh-odop.md",
+      "project_path": "kb/research/sources/enterprise-bargarh-odop.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-bargarh-odop"
+      ]
+    },
+    {
+      "id": "sources/enterprise-sambalpuri-site-lead",
+      "title": "Sambalpuri Bastralaya: direct website retrieval lead",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-sambalpuri-site-lead.md",
+      "project_path": "kb/research/sources/enterprise-sambalpuri-site-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-sambalpuri-site-lead"
+      ]
+    },
+    {
+      "id": "economy/bargarh-textile-catalogue-service",
+      "title": "Bargarh: a textile photography and catalogue service",
+      "kind": "Opportunity Research",
+      "layer": "research_concept",
+      "source_path": "economy/bargarh-textile-catalogue-service.md",
+      "project_path": "kb/research/economy/bargarh-textile-catalogue-service.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "economy",
+        "arts",
+        "places",
+        "governance"
+      ],
+      "source_ids": [
+        "enterprise-boyanika-tenders",
+        "enterprise-boyanika-agency2026",
+        "enterprise-boyanika-thematic2026",
+        "enterprise-bargarh-odop",
+        "enterprise-sambalpuri-site-lead",
+        "enterprise-sujog-tariff",
+        "enterprise-sujog-documents",
+        "enterprise-sujog-manual"
+      ]
     }
   ],
   "shared_publications": [
@@ -20373,7 +20469,13 @@
         "references/data/business-opportunities.json",
         "places/sambalpur-bargarh.md",
         "handlooms/sambalpuri-bandha.md",
-        "references/data/handloom-markets.json"
+        "references/data/handloom-markets.json",
+        "sources/enterprise-boyanika-tenders.md",
+        "sources/enterprise-boyanika-agency2026.md",
+        "sources/enterprise-boyanika-thematic2026.md",
+        "sources/enterprise-bargarh-odop.md",
+        "sources/enterprise-sambalpuri-site-lead.md",
+        "economy/bargarh-textile-catalogue-service.md"
       ],
       "project_records": [
         "kb/specs/knowledge-to-work.md",
@@ -20439,8 +20541,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1266,
-    "updated_at": "2026-10-03T06:10:28.669467+00:00",
+    "records_mapped": 1272,
+    "updated_at": "2026-10-03T06:28:03.412029+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21042,6 +21144,11 @@
       "at": "2026-10-03T06:10:28.669467+00:00",
       "run_id": "2026-10-03-koraput-coffee-supply",
       "scope": "Existing coffee opportunity enhanced; eight new source/lead identities. SUJOG pages share provenance; seller and producer attribution are not independent corroboration. No exhaustive semantic audit claimed."
+    },
+    {
+      "at": "2026-10-03T06:28:03.412029+00:00",
+      "run_id": "2026-10-03-bargarh-catalogue-service",
+      "scope": "Five new source identities and one dossier; existing handloom identities and municipal tariff reused. Two tenders are one buyer, not independent market corroboration."
     }
   ]
 }

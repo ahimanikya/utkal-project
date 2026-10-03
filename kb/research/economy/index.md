@@ -38,3 +38,7 @@ Economic growth and industry comparisons.
 [Kendu patra](kendu-patra.md) — leaf trade, skilled work and the existing sales series.
 
 [Siali products](siali-products.md) — botanical identity, leaves and community-attributed fibre craft.
+
+## Bargarh service research · 3 October 2026
+
+[Textile photography and catalogue service](bargarh-textile-catalogue-service.md): historical institutional purchasing evidence, producer routes and missing local economics.

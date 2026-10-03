@@ -185,3 +185,7 @@ DMF community-service research remains a draft. Source-reading and arithmetic ch
 ## Coffee opportunity checkpoint · 3 October 2026
 
 Municipal PDFs and a seller comparator enhance the draft [retail brief](../economy/koraput-coffee-retail.md). No applicant approval, verified wholesale supplier, completed business plan, human review or website release.
+
+## Bargarh desk milestone · 3 October 2026
+
+[Bargarh service dossier](../economy/bargarh-textile-catalogue-service.md) is research-ready for review with explicit missing economics. No active tender invitation, confirmed client, human review, finance-ready plan or website publication.

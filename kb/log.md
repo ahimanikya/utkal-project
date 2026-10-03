@@ -443,3 +443,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 3 October 2026 · Coffee supply and municipal research
 
 [Research receipt](records/koraput-coffee-supply-2026-10-03.json): added a seller pack comparator and scoped Koraput municipal evidence; rejected an unrelated domain redirect. No local demand, margins, current premises or completed business plan. No website change.
+
+## 3 October 2026 · Bargarh textile service research
+
+[Research receipt](records/bargarh-catalogue-service-2026-10-03.json): added original buyer specifications, producer routes and scoped Bargarh municipal evidence. Local customers, prices, permissions and returns remain unknown. No website change.

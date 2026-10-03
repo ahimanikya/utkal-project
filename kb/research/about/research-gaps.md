@@ -418,3 +418,7 @@ The [programme](../product/district-business-opportunities.md) needs buyer evide
 ## Coffee supply and fee interpretation · 3 October 2026
 
 A retail listing now has a defined pack and date, but invoice/producer traceability, wholesale terms, actual delivery and local demand are unknown. Koraput tariff has raw rate1000 without established currency/period/effective date. Do not turn it into annual or total startup cost. Legacy coffee domain redirects to unrelated content and is excluded.
+
+## Bargarh service gaps · 3 October 2026
+
+Historical Boyanika specifications support a service category, not local willingness to pay. Missing: cooperative purchasing route, permissions, current tariff applicability, quotations and paid trial. ODOP population/turnover figures have unresolved scope/vintage. Original cooperative site content unavailable; retry10 October2026.

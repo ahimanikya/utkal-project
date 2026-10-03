@@ -17,3 +17,9 @@ Access: **accessed_scoped**. Locator: 759-page file; header PDF p1 and Koraput T
 For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated.
 
 [Coffee business research](../economy/koraput-coffee-retail.md). No outreach, purchase, application or human review.
+
+## Bargarh extension · 3 October 2026
+
+Additional scoped inspection 3 October 2026: PDF p78 visually checked. Tenant od.bargarh, PERMANENT NEW/RENEWAL Photo Studio/Shop & Articles rows each show raw Rate 500; UOM/range NULL. Photo Colour Lab (Studio) is separate at 2000. Currency, period, effective date and applicability to a mobile catalogue service remain unknown. No current total payable fee.
+
+[Bargarh service dossier](../economy/bargarh-textile-catalogue-service.md). The earlier Koraput-only scope above describes the preceding capture.
