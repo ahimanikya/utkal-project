@@ -52,3 +52,7 @@ IBM’s2023–24 bauxite producer table places NALCO and OMC mine locations in K
 ## Connected industrial evidence
 
 [NALCO’s Odisha-based supplier purchases](../../stories/minerals-and-local-suppliers.md) add a state-level enterprise connection. They are not allocated to this district.
+
+## Kodingamali environmental work · 3 October 2026
+
+Kodingamali records 3,750 saplings planted in FY2023–24 alongside backfilling and topsoil reuse. Counts measure reported work; no survival or district-wide recovery is inferred. [Read the mine study](../../economy/bauxite-mine-identities.md).

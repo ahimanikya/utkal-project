@@ -65,3 +65,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Seedlings, planting and surviving trees · 3 October 2026
 
 [The Jajpur DMF project record](../economy/dmf-from-funds-to-services.md) distinguishes raising, public distribution and departmental planting from survival and forest-cover change. Missing distribution records and an unreconciled target balance remain open. No carbon benefit, mortality rate or increase in Odisha forest cover is inferred.
+
+## Kodingamali environmental work · 3 October 2026
+
+Mine planting belongs beside the forest story, with separate units and boundaries: reported saplings do not establish survival, statewide forest cover or carbon gains. [Read the mine study](../economy/bauxite-mine-identities.md).

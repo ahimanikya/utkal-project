@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T13:36:01.706450+00:00",
+  "updated_at": "2026-10-03T14:37:24.315461+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6204,6 +6204,30 @@
       "run_id": "2026-10-03-niyamgiri-rights",
       "status": "not_located_in_bounded_search",
       "scope": "Government-domain queries found the court report and parliamentary answer but not original resolutions or later order. This is not an unchanged finding and not proof the records do not exist."
+    },
+    {
+      "source_id": "mining-ibm-kodingamali2024",
+      "url": "https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf",
+      "status": "saved_capture_reused",
+      "checked_on": "2026-10-03",
+      "capture_sha256": "216825fc05837fc9dda496427dae28d5c4f211f463b3f45e2a69226200252aef",
+      "locator": "PDF pp.5–7, rows5b–d,6b–f,8f–i",
+      "scope": "Absent environmental fields extracted and visually verified from original saved PDF. Original retrieval1October2026, inspection12September2024; no new release check.",
+      "run_id": "2026-10-03-kodingamali-environment",
+      "checked_at": "2026-10-03T14:37:24.315461+00:00"
+    },
+    {
+      "query": "site.omcltd.in Kodingamali environmental monitoring compliance2024 2025; site.ospcboard.odisha.gov.in Kodingamali environmental monitoring",
+      "status": "site_readings_not_located_in_bounded_search",
+      "checked_on": "2026-10-03",
+      "scope": "Search returned statewide monitoring index, hearing executive-summary and OCMMS consent leads. No mine-specific laboratory readings verified. Search snippets are not observations; follow-up document identities remain unverified.",
+      "discovery_urls": [
+        "https://ospcboard.odisha.gov.in/environmental-monitoring-data/",
+        "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1650720787_151141108.pdf"
+      ],
+      "retry_after": "2026-10-10",
+      "run_id": "2026-10-03-kodingamali-environment",
+      "checked_at": "2026-10-03T14:37:24.315461+00:00"
     }
   ]
 }

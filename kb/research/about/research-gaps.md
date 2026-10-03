@@ -429,7 +429,7 @@ Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV pl
 
 ## DMF appendix reconciliation · 3 October 2026
 
-Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October. AppendixIIIinputs,Vtotals,VIcasecoverage,VIIprecision andIXmoneyprecision remain held or qualified; retry10October.
+Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October. AppendixIIIinputs,Vtotals,VIcasecoverage,VIIprecision andIXmoneyprecision remain held or qualified; retry 10 October.
 
 ## DMF planning and desk milestone · 3 October 2026
 
@@ -437,4 +437,8 @@ DefinedRES-053 desk scope complete, not all evidence gaps closed. NewTable4.1 sc
 
 ## Niyamgiri rights checkpoint · 3 October 2026
 
-Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved. Original minutes, attendance and later order retry10October; no currentlegal-status inference.
+Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved. Original minutes, attendance and later order retry 10 October; no currentlegal-status inference.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Site monitoring readings, safety and measured ecological recovery remain incomplete; Kodingamali category/cost scope unresolved. Readings, survival/species, original PMCP/cost ledger follow-up 10 October; safety/closure work remains eligible now.

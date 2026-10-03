@@ -454,3 +454,7 @@ RES-053 defined desk deliverable completed: fullChapterIV and governmentresponse
 ## Niyamgiri rights checkpoint · 3 October 2026
 
 RES-054 started: Niyamgiri court and Parliament originals, four scoped observations, one rights case. Judicial directions, minister-reported decisions and unresolved original minutes separated. Monitoring/safety/restoration remain incomplete. No websitepublication.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+RES-054 checkpoint: reused saved IBM original, visually checked pp.5–7, added seven work/plantation observations and enhanced two held rehabilitation records. Retained cost/category ambiguities and unknown monitoring outcomes. Task remains in progress; no website release.

@@ -459,3 +459,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · Niyamgiri community-rights checkpoint
 
 [Research receipt](records/mining-rights-2026-10-03.json): A separate proposed-mine identity links court directions and minister-reported village decisions, preserving disputed positions and original-record gaps. RES-054 continues with monitoring, safety and restoration. No website release.
+
+## 3 October 2026 · Kodingamali environmental-work checkpoint
+
+[Research receipt](records/kodingamali-environment-2026-10-03.json): The existing mine identity gains planting, backfill and topsoil figures from the saved original. Scope and cost ambiguities are retained. RES-054 continues with safety and measured recovery. No website release.

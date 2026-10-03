@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T13:36:01.706450+00:00",
+  "updated_at": "2026-10-03T14:37:24.315461+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2327,6 +2327,15 @@
     "site_cases": 1,
     "observations_added": 4,
     "new_sources": 2,
+    "completion_criteria_met": false
+  },
+  "kodingamali_environment_checkpoint": {
+    "run_id": "2026-10-03-kodingamali-environment",
+    "task_id": "RES-054",
+    "dataset": "references/data/mining-environment-rights.json",
+    "observations_added": 7,
+    "observations_enhanced": 2,
+    "reused_sources": 1,
     "completion_criteria_met": false
   }
 }

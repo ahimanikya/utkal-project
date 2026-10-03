@@ -58,3 +58,23 @@ The work table separates 9,763 direct and 193,300 contract **person-days**. Its 
 The compliance report distinguishes **8.5 MTPA EC capacity from 8.0 MTPA operating consent**, citing an order valid through 31 March 2027. Its scanned consent annexure was not readable, so this remains the company’s September 2025 account. [Compliance report, PDF pp.2,11](https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf).
 
 Backfilled, afforested and reclaimed-rehabilitated areas also have different labels and dates. District-area headings do not reconcile to one lease total. Both comparisons are held. Direct PDF downloads failed; readable publisher text supports this checkpoint, with no visual or human review claimed.
+
+## Kodingamali: what restoration work can tell us · 3 October 2026
+
+**3,750 saplings planted in FY2023–24** is the clearest planting measure in IBM’s report. Its actual-column baseline of 17,357 plus those additions reconciles to the cumulative count of 21,107. This describes reported planting; the report does not supply a survival survey. [IBM, PDF pp.5,7, rows6b and8f](https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf).
+
+| Work reported for FY2023–24 | Actual | Interpretation |
+|---|---:|---|
+| Mined-out area under backfilling | 12.98 hectares | Physical work, not proof of ecological recovery |
+| Topsoil reused for restoration/rehabilitation | 56,845 cubic metres | Reuse volume, not a soil-quality measurement |
+| Saplings planted during the year | 3,750 | Planting count, not surviving mature trees |
+
+The corresponding row5b backfilling plan was 12.95 hectares, and row5c topsoil-use plan was 60,500 cubic metres. Both actual work and the shortfall against the topsoil plan remain visible. These are dated inspection figures, not a current environmental rating. [PDF p.5, rows5b–c](https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf).
+
+The 8.80 hectares labelled total reclaimed and rehabilitated remains a separate held measure: annual/cumulative scope is unresolved. Worked-bench, backfilled-area and waste-land afforestation have different table headings. Their 0, 1.9 and 0 hectare entries cannot be added or turned into a single greening rate. The watch-and-care cost row also needs clarification before comparison; its raw values are preserved in the [structured case](../references/data/mining-environment-rights.json).
+
+The report records monitoring and road sprinkling, but these rows contain no pollutant readings or sample details. Its favourable comment concerns the landscape’s appearance during the inspection. Neither statement establishes clean air, safe water or absence of ecological harm. [PDF pp.6–7, rows6e,8h–i](https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf).
+
+[Forest evidence](../statistics/forests.md): Connects reported mine planting with forest measurement while keeping planting counts distinct from survival, forest cover and ecological recovery.
+
+Next evidence: dated monitoring annexures, plantation survival/species records, area-category definitions and the cost ledger. No human review or current operational verification is claimed.

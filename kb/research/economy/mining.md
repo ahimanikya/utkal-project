@@ -109,3 +109,7 @@ The [funds-to-services study](dmf-from-funds-to-services.md) completes its defin
 ## Niyamgiri rights checkpoint · 3 October 2026
 
 Community and religious rights are part of the mining evidence alongside finance and production. [Read the dated case](niyamgiri-rights-and-mining.md).
+
+## Kodingamali environmental work · 3 October 2026
+
+Kodingamali now links reported environmental work to the mine-output story. The historical inspection provides planting/backfilling figures, while measured ecological recovery remains unknown. [Read the mine study](bauxite-mine-identities.md).

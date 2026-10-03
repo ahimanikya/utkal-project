@@ -270,4 +270,8 @@ RES-053 defined desk deliverable complete. Next eligible task RES-054: mine envi
 
 ## Niyamgiri rights checkpoint · 3 October 2026
 
-Niyamgiri rights checkpoint saved; do not repeat court/Parliament captures. Next: one site-specific monitoring/restoration study using saved IBM Kodingamali and Baphlimali records, followed by regulator safety/closure evidence. Original Niyamgiri resolutions/later Ministry order retry10October.
+Niyamgiri rights checkpoint saved; do not repeat court/Parliament captures. Next: one site-specific monitoring/restoration study using saved IBM Kodingamali and Baphlimali records, followed by regulator safety/closure evidence. Original Niyamgiri resolutions/later Ministry order retry 10 October.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Kodingamali saved IBM environmental work captured without duplicating mine identity or production. Next: one regulator mine-safety/accident or closure case with explicit period and denominator; then Baphlimali measured monitoring. Kodingamali original monitoring/PMCP/cost records and Niyamgiri originals retry 10 October.

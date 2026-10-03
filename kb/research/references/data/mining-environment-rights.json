@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T13:36:01.706450+00:00",
-  "run_id": "2026-10-03-niyamgiri-rights",
-  "scope": "Selected Odisha mine-related environment, rights, safety and restoration evidence. First checkpoint is a historical rights case; not a complete site or permission inventory.",
+  "updated_at": "2026-10-03T14:37:24.315461+00:00",
+  "run_id": "2026-10-03-kodingamali-environment",
+  "scope": "Selected Odisha mine-related environment, rights, safety and restoration evidence. Historical Niyamgiri rights case and Kodingamali annual-work inspection; not a complete site or permission inventory.",
   "sites": [
     {
       "id": "niyamgiri-proposed-bauxite",
@@ -111,6 +111,81 @@
         "No inferred actual deforestation, restoration or avoided-carbon total from proposal area.",
         "No quantified business loss, local income or export effect."
       ]
+    },
+    {
+      "id": "kodingamali-bauxite",
+      "title": "Kodingamali: reported environmental work in FY2023–24",
+      "canonical_page": "economy/bauxite-mine-identities.md",
+      "mine_code": "07ORI09005",
+      "districts": [
+        "koraput"
+      ],
+      "geography_scope": "Koraput register entry; no new lease-boundary inference",
+      "operator": "Odisha Mining Corporation",
+      "inspection_date": "2024-09-12",
+      "reporting_period": "2023-24",
+      "source_ids": [
+        "mining-ibm-kodingamali2024"
+      ],
+      "evidence_class": "regulator_inspection_report",
+      "current_permission_status": "unknown",
+      "current_operation_status": "unknown",
+      "observation_ids": [
+        "kodingamali-environment-backfill-actual",
+        "kodingamali-environment-backfill-proposed",
+        "kodingamali-environment-topsoil-used",
+        "kodingamali-environment-topsoil-proposed",
+        "kodingamali-environment-saplings-year",
+        "kodingamali-environment-plantation-baseline",
+        "kodingamali-environment-plants-cumulative"
+      ],
+      "plantation_reconciliation": {
+        "baseline": 17357,
+        "annual_additions": 3750,
+        "cumulative": 21107,
+        "difference": 0,
+        "formula": "17357 + 3750 = 21107",
+        "source_rows": "6b and8f",
+        "independent_corroboration": false,
+        "limits": "Counts are not survival or ecological recovery measures."
+      },
+      "monitoring_outcomes": null,
+      "mine_safety_outcomes": null,
+      "closure_or_ecological_recovery": null,
+      "monitoring_statement": {
+        "locator": "PDF p.6 row6e; p.7 row8i",
+        "scope": "Report states statutory monitoring and preventive measures; no readings, sampling locations/dates, laboratory results or limits provided in these rows.",
+        "dust_control": "Road water sprinkling reported, row8h.",
+        "visual_inspection": "No adverse aesthetic impact observed during mine visit, row8i. Not a general pollution/no-harm finding."
+      },
+      "unresolved_categories": [
+        {
+          "locator": "PDF pp.5–6 rows6b,6c,6d",
+          "status": "hold_scope_comparison",
+          "details": "Worked-bench afforestation0ha; backfilled-area afforestation1.9ha; waste-land afforestation0ha and area rehabilitated1.9ha. Different category headings; no sum, overall greening rate or assumed contradiction."
+        },
+        {
+          "locator": "PDF p.5 rows5b,5d,6c",
+          "status": "hold_scope_comparison",
+          "details": "Backfill actual12.98ha, total reclaimed/rehabilitated8.80ha, proposedbackfill12.95ha versus proposedvoidfilling12.98ha. Existing8.8/12.92ha observations retain hold_conflict until annual/cumulative basis clarified."
+        },
+        {
+          "locator": "PDF p.5 row6b(vi)",
+          "status": "hold_conflict",
+          "metric": "Watch and care cost during the year",
+          "unit": "INR",
+          "price_basis": "Nominal rupees as printed; scope unresolved",
+          "proposed_as_printed": 997500,
+          "actual_as_printed": 78514993,
+          "details": "Large unexplained cost/scope difference. No spending-performance claim; ledger or publisher clarification required."
+        }
+      ],
+      "unsupported_extensions": [
+        "No sapling-survival percentage, biodiversity gain or carbon estimate.",
+        "No mine-wide pollution compliance from a generic monitoring statement.",
+        "No completed mine closure or restoration percentage from backfilled/rehabilitated categories.",
+        "No assumption that historical operating conditions remain current."
+      ]
     }
   ],
   "source_checks": [
@@ -142,6 +217,26 @@
       "status": "not_located_in_bounded_search",
       "scope": "Government-domain queries found the court report and parliamentary answer but not original resolutions or later order. This is not an unchanged finding and not proof the records do not exist.",
       "retry_after": "2026-10-10"
+    },
+    {
+      "source_id": "mining-ibm-kodingamali2024",
+      "url": "https://ibm.gov.in/writereaddata/files/172965925667188178a68e6MCDR_Inspection_Report_202324_KBM.pdf",
+      "status": "saved_capture_reused",
+      "checked_on": "2026-10-03",
+      "capture_sha256": "216825fc05837fc9dda496427dae28d5c4f211f463b3f45e2a69226200252aef",
+      "locator": "PDF pp.5–7, rows5b–d,6b–f,8f–i",
+      "scope": "Absent environmental fields extracted and visually verified from original saved PDF. Original retrieval1October2026, inspection12September2024; no new release check."
+    },
+    {
+      "query": "site.omcltd.in Kodingamali environmental monitoring compliance2024 2025; site.ospcboard.odisha.gov.in Kodingamali environmental monitoring",
+      "status": "site_readings_not_located_in_bounded_search",
+      "checked_on": "2026-10-03",
+      "scope": "Search returned statewide monitoring index, hearing executive-summary and OCMMS consent leads. No mine-specific laboratory readings verified. Search snippets are not observations; follow-up document identities remain unverified.",
+      "discovery_urls": [
+        "https://ospcboard.odisha.gov.in/environmental-monitoring-data/",
+        "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1650720787_151141108.pdf"
+      ],
+      "retry_after": "2026-10-10"
     }
   ],
   "evidence_gaps": [
@@ -153,7 +248,12 @@
     {
       "topic": "Monitoring, safety and measured restoration",
       "retry_after": null,
-      "gap": "Next independent RES-054 batch: reuse IBM Kodingamali/Baphlimali captures and seek regulator monitoring, accident/inquiry and closure evidence with site/period boundaries."
+      "gap": "Kodingamali work-output checkpoint saved. Next independent batch: regulator mine-safety/accident and closure evidence; retain Baphlimali monitoring follow-up and Kodingamali raw-readings retry."
+    },
+    {
+      "topic": "Kodingamali readings, area categories and watch/care ledger",
+      "retry_after": "2026-10-10",
+      "gap": "Obtain monitoring annexures with samples/limits, original PMCP category definitions and cost ledger. Saved IBM report lacks measured pollutant/survival outcomes; hearing/consent search leads remain unverified."
     }
   ],
   "human_review_claimed": false,
@@ -162,6 +262,13 @@
     "niyamgiri-rights-proposed-forest-area",
     "niyamgiri-rights-villages-deciding-against",
     "niyamgiri-rights-rayagada-villages",
-    "niyamgiri-rights-kalahandi-villages"
+    "niyamgiri-rights-kalahandi-villages",
+    "kodingamali-environment-backfill-actual",
+    "kodingamali-environment-backfill-proposed",
+    "kodingamali-environment-topsoil-used",
+    "kodingamali-environment-topsoil-proposed",
+    "kodingamali-environment-saplings-year",
+    "kodingamali-environment-plantation-baseline",
+    "kodingamali-environment-plants-cumulative"
   ]
 }

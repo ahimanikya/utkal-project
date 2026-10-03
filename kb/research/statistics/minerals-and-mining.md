@@ -70,3 +70,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Niyamgiri rights checkpoint · 3 October 2026
 
 Four scoped observations distinguish proposed forest area from reported village decisions. No statewide vote, deforestation or restoration total is inferred. [Read the dated case](../economy/niyamgiri-rights-and-mining.md).
+
+## Kodingamali environmental work · 3 October 2026
+
+Seven dated work-output observations extend the existing mine identity; two rehabilitation observations remain held. Plantation counts, area categories and monitoring outcomes remain distinct. [Read the mine study](../economy/bauxite-mine-identities.md).

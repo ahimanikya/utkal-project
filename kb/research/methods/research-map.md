@@ -413,3 +413,7 @@ FullChapterIV joined to existingCAGsource andAppendicesVIII/IX. Sukrangi housing
 ## Niyamgiri rights checkpoint · 3 October 2026
 
 Niyamgiri proposed mine now has a separate canonical identity; court directions and parliamentary report serve different evidence roles. Baphlimali and the two refineries remain distinct. Existing source records reused for futuremonitoring work.
+
+## Kodingamali environmental-work checkpoint · 3 October 2026
+
+Existing mine identity and original IBM source extended; no new duplicate source or production observations. Seven absent work-output fields captured; two rehabilitation holds preserved.
