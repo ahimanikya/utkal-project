@@ -239,3 +239,7 @@ RES-053 selected by the Founder. Receipts/sample/case checkpoint saved; full aud
 ## Coffee retail checkpoint · 2 October2026
 
 RES-064 remains earliest in-progress. Reuse the scoped retail brief and FSSAI originals; next resolve one supplier/pack, locality-specific permissions and cost evidence. Unavailable TDCC tender, district plan and cultivation study retry9October. No repeated same-run retrieval or fabricated margin.
+
+## Coffee pack and municipal checkpoint · 3 October 2026
+
+RES-064 remains in progress. Reuse the 250 g retail comparator and downloaded tariff (Koraput PDF p501). Next: original supplier/batch evidence and tariff applicability; separate local quotations and demand. New unavailable DARPG and TDCC routes retry 10 October; earlier 9 October retries unchanged.

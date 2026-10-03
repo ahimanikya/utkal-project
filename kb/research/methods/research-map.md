@@ -389,3 +389,7 @@ RES-063–067 build an opportunity layer over existing districts, coffee/rice, h
 ## Coffee business checkpoint · 2 October2026
 
 RES-064 narrows existing OPP-KOR-001 and coffee identity. Ten source/lead records and one brief added; state observations stay in the atlas. Coffee Board pages share institutional provenance; FSSAI order/table are related instruments, not independent corroboration. Supplier claims are attributed and maintenance limitation preserved.
+
+## Coffee source extension · 3 October 2026
+
+Eight source/lead identities extend RES-064; the existing coffee and business pages are reused. One SUJOG publication family supplies document, interface and tariff scopes. Seller attribution does not independently verify the producer; the legacy domain is quarantined.

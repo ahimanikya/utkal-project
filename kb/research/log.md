@@ -428,3 +428,7 @@ Added a sourced research framework, all30district coverage register, five hypoth
 ## 2 October2026 · Koraput coffee retail evidence
 
 Narrowed OPP-KOR-001 to offline sealed-pack resale. Captured two state production estimates, primary April2026 retailer thresholds/fees, institution and attributed supplier leads. One seller says website orders will not be considered; three originals remain unavailable. RES-064 continues; private costs and demand remain null.
+
+## Coffee pack, municipal guidance and source reliability · 3 October 2026
+
+Enhanced OPP-KOR-001 with a dated retail offer, municipal document alternatives, a 2023 interface manual and a scoped tariff row. Recovered the oversized tariff via direct download. Preserved unavailable original producer/support routes and excluded an unrelated domain redirect. RES-064 stays in progress; margins remain unknown.

@@ -1,0 +1,19 @@
+---
+type: "Source Research"
+title: "SUJOG: trade tariff, Koraput rows"
+description: "For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated."
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-10-03T06:10:28.669467+00:00"}
+sources: [{"id": "enterprise-sujog-tariff", "title": "SUJOG: trade tariff, Koraput rows", "resource": "https://sujog.odisha.gov.in/Deshboard/images/Trade%20Tariff.pdf"}]
+human_review_claimed: false
+---
+
+# SUJOG: trade tariff, Koraput rows
+
+Publisher: Odisha Housing and Urban Development Department / SUJOG. Checked 3 October 2026. Publication date: unknown.
+
+Access: **accessed_scoped**. Locator: 759-page file; header PDF p1 and Koraput Tea Dust & Coffee rows PDF p501 visually checked.
+
+For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated.
+
+[Coffee business research](../economy/koraput-coffee-retail.md). No outreach, purchase, application or human review.

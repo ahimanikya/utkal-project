@@ -439,3 +439,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 2 October2026 · Koraput coffee retail research
 
 [Research receipt](records/koraput-coffee-retail-2026-10-02.json): scoped offline resale of sealed packs; captured primary regulatory criteria and state production estimates with supplier/institution limits. No local demand, margins, current premises or completed business plan. No website change.
+
+## 3 October 2026 · Coffee supply and municipal research
+
+[Research receipt](records/koraput-coffee-supply-2026-10-03.json): added a seller pack comparator and scoped Koraput municipal evidence; rejected an unrelated domain redirect. No local demand, margins, current premises or completed business plan. No website change.

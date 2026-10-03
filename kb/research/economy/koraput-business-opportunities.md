@@ -45,3 +45,7 @@ Follow public DIC, producer/cooperative, training and district institutional rec
 ## Coffee model checkpoint · 2 October2026
 
 The [first detailed brief](koraput-coffee-retail.md) now scopes OPP-KOR-001 to offline resale of original sealed packs. Roasting, repacking, drinks and online sales remain separate models. It records primary FSSAI criteria, two state crop estimates, institutional and supplier leads, one seller operating limitation and missing premises/demand/cost evidence. RES-064 continues; no completed feasibility or profitability claim.
+
+## Coffee supply and local-permission checkpoint · 3 October 2026
+
+The [retail brief](koraput-coffee-retail.md) adds one dated 250 g seller offer and Koraput-town municipal document/tariff evidence. Retail price is not a wholesale quote; current fees and producer traceability remain open.

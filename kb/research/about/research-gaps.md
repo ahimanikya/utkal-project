@@ -414,3 +414,7 @@ The [programme](../product/district-business-opportunities.md) needs buyer evide
 ## Koraput coffee business · 2 October2026
 
 [Sealed-pack retail brief](../economy/koraput-coffee-retail.md): demand, traceable orderable pack, wholesale terms, rent, complete local permissions and margins remain unknown. Seller maintenance notice retained. Coffee product-basis definition and district supply require further evidence. Three inaccessible original documents retained as leads with retry9October.
+
+## Coffee supply and fee interpretation · 3 October 2026
+
+A retail listing now has a defined pack and date, but invoice/producer traceability, wholesale terms, actual delivery and local demand are unknown. Koraput tariff has raw rate1000 without established currency/period/effective date. Do not turn it into annual or total startup cost. Legacy coffee domain redirects to unrelated content and is excluded.

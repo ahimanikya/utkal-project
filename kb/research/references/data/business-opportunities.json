@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-02T21:02:54.578939+00:00",
+  "updated_at": "2026-10-03T06:10:28.669467+00:00",
   "scope": "District opportunity research; not a ranking, investment recommendation or inventory of available land/jobs",
   "programme": "product/district-business-opportunities",
   "method": "methods/business-opportunity-research",
@@ -263,6 +263,64 @@
             "Food hygiene and packaged-goods obligations",
             "Tax and any additional selling-channel requirements"
           ]
+        },
+        {
+          "id": "koraput-municipal-trade-research",
+          "authority": "Koraput urban local body / SUJOG route subject to premises jurisdiction",
+          "source_ids": [
+            "enterprise-sujog-documents",
+            "enterprise-sujog-manual",
+            "enterprise-sujog-tariff",
+            "enterprise-sujog-ulbs"
+          ],
+          "geography": "Koraput town example, not districtwide",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "activity_trigger": "proposed sealed-pack coffee retail",
+          "applicability": "category and premises-specific determination pending",
+          "documents": {
+            "applicant_identity_alternatives": [
+              "Voter ID",
+              "Driving licence",
+              "PAN",
+              "Passport"
+            ],
+            "premises_proof_alternatives": [
+              "Lease document",
+              "ROR certificate",
+              "Rent deed",
+              "Property registration",
+              "General or special power of attorney"
+            ],
+            "source_locator": "new licence document PDF p1"
+          },
+          "tariff_evidence": {
+            "tenant_id": "od.koraput",
+            "trade_type": "Tea Dust & Coffee",
+            "licence_type": "PERMANENT",
+            "application_types": [
+              "NEW",
+              "RENEWAL"
+            ],
+            "rate_raw": 1000,
+            "currency": null,
+            "charge_period": null,
+            "UOM_raw": "NULL",
+            "range_raw": [
+              "NULL",
+              "NULL"
+            ],
+            "effective_date": null,
+            "source_locator": "Trade Tariff PDF p501; header p1",
+            "actual_payable_fee": null
+          },
+          "provisional_and_final_distinct": true,
+          "application_status": "not_applied",
+          "unresolved_questions": [
+            "Exact category for sealed-pack resale",
+            "Current fee currency, period, amendments and extra charges",
+            "Premises jurisdiction and lawful building use",
+            "Shops/employment, packaged-goods, tax and other activity obligations"
+          ]
         }
       ],
       "people_options": [
@@ -286,13 +344,13 @@
       "operating_cost": null,
       "revenue": null,
       "profit": null,
-      "source_checked_at": "2026-10-02T21:02:54.578939+00:00",
+      "source_checked_at": "2026-10-03T06:10:28.669467+00:00",
       "created_at": "2026-10-02T20:40:37.286473+00:00",
       "publication_status": "research_draft",
-      "next_action": "Confirm one orderable pack and supply provenance, then locality-specific permissions and quotations; no projected margin without inputs.",
+      "next_action": "Continue original producer/batch traceability and current Koraput tariff applicability; retain retail comparator separately from supplier cost. Reuse recovered 759-page tariff at PDF p501; no repeat full download. Local demand and quotations remain absent.",
       "model_scope": {
         "activity": "offline retail of original sealed supplier-branded packs",
-        "geography": "Koraput district; locality and site unselected",
+        "geography": "Koraput town municipal research example, Koraput district; premises unselected",
         "excluded_activities": [
           "roasting",
           "grinding",
@@ -324,6 +382,45 @@
           "wholesale_terms": null,
           "pack_price": null,
           "partnership_status": "not_agreed"
+        },
+        {
+          "name": "Odisha Desi Haat",
+          "source_id": "coffee-odh-pack",
+          "claim_scope": "Seller attributes Adisha 250 g whole beans to TDCCOL and Koraput origin",
+          "availability_status": "listing_has_cart_control_fulfilment_unverified",
+          "wholesale_terms": null,
+          "partnership_status": "not_agreed",
+          "supply_provenance": "seller_attribution_not_batch_verified"
+        }
+      ],
+      "retail_comparators": [
+        {
+          "id": "koraput-odh-whole-bean-250g-20261003",
+          "source_id": "coffee-odh-pack",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "product": "Adisha Koraput coffee beans",
+          "form": "whole roasted beans, seller description",
+          "pack_mass_g": 250,
+          "listed_price_INR": 420,
+          "tax_basis": "seller says inclusive",
+          "shipping_basis": "calculated at checkout; unknown",
+          "price_kind": "public_retail_listing_not_supplier_quote",
+          "availability": "cart_control_visible_no_checkout_or_delivery_test",
+          "producer_attribution": "TDCCOL per seller; not independently verified",
+          "origin_attribution": "Koraput per seller",
+          "financial_model_input": false,
+          "sales_volume": null,
+          "geography": "online seller offer; does not measure Koraput town demand"
+        }
+      ],
+      "excluded_routes": [
+        {
+          "url": "https://koraputcoffee.org/",
+          "source_id": "coffee-legacy-domain-check",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "reason": "unrelated_gambling_redirect",
+          "recommend_to_reader": false,
+          "cause": "unknown"
         }
       ]
     },
@@ -541,6 +638,13 @@
         "source_checked_at": null
       },
       "scope": "Narrowed to offline sealed-pack resale; primary regulation and state context, attributed supplier/institution leads; demand and private cost inputs remain null."
+    },
+    {
+      "at": "2026-10-03T06:10:28.669467+00:00",
+      "run_id": "2026-10-03-koraput-coffee-supply",
+      "opportunity_id": "OPP-KOR-001",
+      "prior_next_action": "Confirm one orderable pack and supply provenance, then locality-specific permissions and quotations; no projected margin without inputs.",
+      "scope": "One dated pack comparator; Koraput municipal document/fee leads; unusable legacy domain excluded. No fulfilled supply, investment cost or profitability established."
     }
   ]
 }

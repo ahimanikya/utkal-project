@@ -181,3 +181,7 @@ DMF community-service research remains a draft. Source-reading and arithmetic ch
 ## Coffee business checkpoint · 2 October2026
 
 [Retail brief](../economy/koraput-coffee-retail.md) is a research draft with primary national food-business criteria and explicit local gaps. No completed financial plan, endorsement, human review or website release.
+
+## Coffee opportunity checkpoint · 3 October 2026
+
+Municipal PDFs and a seller comparator enhance the draft [retail brief](../economy/koraput-coffee-retail.md). No applicant approval, verified wholesale supplier, completed business plan, human review or website release.

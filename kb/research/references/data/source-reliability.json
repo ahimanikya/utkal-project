@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T21:02:54.578939+00:00",
+  "updated_at": "2026-10-03T06:10:28.669467+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -722,6 +722,150 @@
           "scope": "Search identifies Study151; original PDF fetch502. Discovery only. Survey year, sampled producers and cost/return tables not read. Even if recovered, cultivation economics would not substitute for retail margins. Retry9October2026."
         }
       ]
+    },
+    {
+      "source_id": "coffee-odh-pack",
+      "discovery_url": "https://odishadesihaat.com/products/koraput-coffee-beans",
+      "listing_status": "accessed_seller_claim",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "Seller lists Adisha whole beans, 250 g, at INR 420 including taxes, with shipping calculated at checkout and an add-to-cart control. It attributes production to TDCCOL and origin to Koraput. These are seller claims; no purchase, fulfilled order, wholesale quote, batch label or producer authorization checked. Page includes both positive and negative reviews; neither establishes representative demand or quality. Organic/fair-trade, health, producer-impact and export claims are not adopted.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "Product selector; Product Details; footer. Seller lists Adisha whole beans, 250 g, at INR 420 including taxes, with shipping calculated at checkout and an add-to-cart control. It attributes production to TDCCOL and origin to Koraput. These are seller claims; no purchase, fulfilled order, wholesale quote, batch label or producer authorization checked. Page includes both positive and negative reviews; neither establishes representative demand or quality. Organic/fair-trade, health, producer-impact and export claims are not adopted."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-sujog-documents",
+      "discovery_url": "https://sujog.odisha.gov.in/Deshboard/images/List%20of%20Documents%20required%20for%20new%20Trade%20License.pdf",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "Two mandatory categories: applicant identity (voter ID, driving licence, PAN or passport) and premises/ownership proof (lease, ROR, rent deed, property registration or power of attorney). These are alternatives within categories, not a demand for every listed document. Original downloaded; no applicant information submitted.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "One-page document table, visually checked. Two mandatory categories: applicant identity (voter ID, driving licence, PAN or passport) and premises/ownership proof (lease, ROR, rent deed, property registration or power of attorney). These are alternatives within categories, not a demand for every listed document. Original downloaded; no applicant information submitted."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-sujog-manual",
+      "discovery_url": "https://sujog.odisha.gov.in/Deshboard/images/SUJOG_TL_Citizen%20User%20Manual.pdf",
+      "listing_status": "accessed",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "Version history identifies v1.1 as second draft. Application uses trade type, subtype and unit; fee calculated from entered details. Payment enables provisional certificate; final certificate follows departmental approval. A 2023 interface manual is not a current approval guarantee or proof of complete compliance. No login, application or payment performed.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "Version history PDF p2; printed pp8–16 / PDF pp9–17; PDF pp10 and17 visually checked. Version history identifies v1.1 as second draft. Application uses trade type, subtype and unit; fee calculated from entered details. Payment enables provisional certificate; final certificate follows departmental approval. A 2023 interface manual is not a current approval guarantee or proof of complete compliance. No login, application or payment performed."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-sujog-tariff",
+      "discovery_url": "https://sujog.odisha.gov.in/Deshboard/images/Trade%20Tariff.pdf",
+      "listing_status": "accessed_scoped",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "759-page file; header PDF p1 and Koraput Tea Dust & Coffee rows PDF p501 visually checked. For tenant od.koraput, PERMANENT NEW and RENEWAL Tea Dust & Coffee rows each show Rate 1000, with UOM and range fields NULL. Adjacent Tea and Coffee Shop is a separate category with the same raw rate. Currency, charging period, effective date and exact category applicability are not established by the table. No total payable fee or annual fee asserted. Web reader rejected file size; direct download recovered the PDF. Other municipalities were not validated."
+        }
+      ]
+    },
+    {
+      "source_id": "enterprise-sujog-ulbs",
+      "discovery_url": "https://sujog.odisha.gov.in/ulbs",
+      "listing_status": "indexed_only",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "Indexed list names Jeypore, Koraput, Kotpad and Sunabeda under Koraput district. This is routing discovery, not current service validation, a districtwide tariff, or proof that a selected premises falls inside municipal limits.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "Indexed Koraput section; direct web open returned JavaScript shell. Indexed list names Jeypore, Koraput, Kotpad and Sunabeda under Koraput district. This is routing discovery, not current service validation, a districtwide tariff, or proof that a selected premises falls inside municipal limits."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-legacy-domain-check",
+      "discovery_url": "https://koraputcoffee.org/",
+      "listing_status": "rejected_unrelated_redirect",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "A legacy company-profile link led to unrelated gambling content on 3 October 2026. Exclude from buying, supplier and visitor recommendations. Cause and domain ownership are unknown; no claim of a confirmed compromise. Do not follow the destination links or treat its content as coffee evidence.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": null,
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "Direct web open redirected to ikhedutportalgujarat.com with unrelated gambling text. A legacy company-profile link led to unrelated gambling content on 3 October 2026. Exclude from buying, supplier and visitor recommendations. Cause and domain ownership are unknown; no claim of a confirmed compromise. Do not follow the destination links or treat its content as coffee evidence."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-darpg-ric-lead",
+      "discovery_url": "https://darpg.gov.in/sites/default/files/D1_S1_1_Odisa_ShriKeerthi%20Vasan_0.pdf",
+      "listing_status": "unavailable",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "Original presentation not recovered. No production, employment, sales or operational figures adopted. Retry 10 October 2026; no claim that the programme is absent.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": "2026-10-10",
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "Indexed presentation mentions Adisha and Koraput Coffee outlets; web error and direct download HTTP404. Original presentation not recovered. No production, employment, sales or operational figures adopted. Retry 10 October 2026; no claim that the programme is absent."
+        }
+      ]
+    },
+    {
+      "source_id": "coffee-tdcc-retail-lead",
+      "discovery_url": "https://tdccodisha.org/",
+      "listing_status": "indexed_only_direct_unavailable",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "scope": "Publisher index associates Adisha with TDCCOL and lists an outlet near Chandan Pokhari, Koraput. Direct content unavailable; retain as institutional provenance lead, not current stock, operating hours, distribution authorization or completed producer verification. Original outlet/product confirmation remains open; retry 10 October 2026.",
+      "publication_cadence": "not_established",
+      "next_release_date": null,
+      "revision_policy": "not_established",
+      "retry_after": "2026-10-10",
+      "capture_history": [
+        {
+          "run_id": "2026-10-03-koraput-coffee-supply",
+          "checked_at": "2026-10-03T06:10:28.669467+00:00",
+          "scope": "Indexed About TDCCOL and TDCC Retail Outlets sections; bare-host error and www-host timeout. Publisher index associates Adisha with TDCCOL and lists an outlet near Chandan Pokhari, Koraput. Direct content unavailable; retain as institutional provenance lead, not current stock, operating hours, distribution authorization or completed producer verification. Original outlet/product confirmation remains open; retry 10 October 2026."
+        }
+      ]
     }
   ],
   "tracks": [
@@ -1419,6 +1563,13 @@
       "checked_at": "2026-10-02T19:41:47.932986+00:00",
       "status": "available_selected_scope",
       "scope": "Mineral Revenue, Figures in Crore Rupees, FY2023–2024 row Selected original evidence; no whole-report audit or independent human review."
+    },
+    {
+      "run_id": "2026-10-03-koraput-coffee-supply",
+      "checked_at": "2026-10-03T06:10:28.669467+00:00",
+      "discovery_url": "https://sujog.odisha.gov.in/tl",
+      "status": "indexed_only",
+      "scope": "Direct open produced JavaScript shell. Indexed service statistics and average fees are not used as Koraput outcomes or applicant fees."
     }
   ],
   "supplemental_discovery_routes": [
