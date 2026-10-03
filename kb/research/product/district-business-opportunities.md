@@ -79,3 +79,7 @@ For rules, schemes, vacancies, quotations and supplier availability, use short r
 ## Puri desk research milestone · 3 October 2026
 
 RES-066 completes a bounded [outdoor-walk dossier](../economy/puri-heritage-walk-service.md). Its evidence state is desk_researched; financial projections and local checks remain absent. Original national startup criteria and local applicability gaps inform later project-book work.
+
+## First portable research guide · 3 October 2026
+
+[Puri heritage-walk business starter](puri-business-starter-guide.md): nine pages, source-linked permission boundaries, provider leads and blank fillable worksheets. This is the first research-guide artifact, not a completed feasibility plan or website export feature.

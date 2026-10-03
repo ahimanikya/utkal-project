@@ -409,3 +409,7 @@ Four source identities added to the existing dossier. National booklet and FAQ s
 ## Puri permission layers · 3 October 2026
 
 Three source identities added; SUJOG tariff/docs/manual reused. NIDHI links a recovered 2020 national instrument; its broken Ministry counterpart is the same publication. RTI resolution remains a lead.
+
+## Puri portable guide · 3 October 2026
+
+[The Puri starter guide](../product/puri-business-starter-guide.md) is a derivative of the existing dossier, not a second market study. Its edition manifest reuses source IDs and preserves unresolved viability.

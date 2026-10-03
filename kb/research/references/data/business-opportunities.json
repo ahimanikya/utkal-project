@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-03T07:47:50.114066+00:00",
+  "updated_at": "2026-10-03T08:18:31.574837+00:00",
   "scope": "District opportunity research; not a ranking, investment recommendation or inventory of available land/jobs",
   "programme": "product/district-business-opportunities",
   "method": "methods/business-opportunity-research",
@@ -925,6 +925,14 @@
           "Any separate Puri/state/route authorization"
         ],
         "legal_advice_or_licence": false
+      },
+      "research_guide": {
+        "artifact_id": "BOOK-PUR-001",
+        "concept_id": "product/puri-business-starter-guide",
+        "edition": "0.1",
+        "status": "research_draft",
+        "path": "references/exports/puri-heritage-walk-starter-v0.1.pdf",
+        "financial_viability_verified": false
       }
     }
   ],
@@ -1081,6 +1089,11 @@
       "new_state": "desk_researched",
       "prior_next_action": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized.",
       "scope": "Bounded desk milestone with national original, reused municipal tariff and unresolved state rule/current applicability; no feasibility or local approval."
+    },
+    {
+      "at": "2026-10-03T08:18:31.574837+00:00",
+      "run_id": "2026-10-03-puri-starter-guide",
+      "scope": "Packaged existing Puri dossier as a blank fillable research guide. No change to desk_researched or completed task scope."
     }
   ]
 }

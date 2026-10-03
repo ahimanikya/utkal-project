@@ -448,3 +448,7 @@ Added official IITF booklet/FAQ and two Puri price-discovery records. Preserved 
 ## Puri permissions and desk milestone · 3 October 2026
 
 Recovered the NIDHI-linked national recognition original and separated its startup criteria from local licensing. Reused Puri tariff rows; recorded state-form limits and an inaccessible RTI instrument lead. RES-066 desk deliverable completed, without a feasibility, permission or website claim.
+
+## Puri downloadable business starter · 3 October 2026
+
+Created a nine-page source-linked research PDF with 26 blank fillable fields, manual finances and a demand-testing sequence. Reused the existing dossier without new source claims. Rendered pages inspected; populated scratch copy saved/reopened and canonical fields verified. No human review, business approval or website publication.

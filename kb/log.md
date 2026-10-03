@@ -459,3 +459,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 3 October 2026 · Puri permissions and desk milestone
 
 [Research receipt](records/puri-permissions-2026-10-03.json): completed the bounded desk dossier with national recognition criteria and a reused Puri tariff, preserving unknown legal applicability, paid demand and costs. No website change.
+
+## 3 October 2026 · Puri downloadable business starter
+
+[Research receipt](records/puri-starter-guide-2026-10-03.json): created a nine-page guide with 26 blank fields, linked evidence and a manual financial worksheet. Saved and reopened test fields; no website change.

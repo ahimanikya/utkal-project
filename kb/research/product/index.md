@@ -97,3 +97,5 @@ There are 41 requirements: 32 launch, five later and four explicitly deferred. N
 
 - [District business opportunities](district-business-opportunities.md) — research programme and portable project-book direction.
 - [Business project-book template](business-project-book-template.md) — reusable chapters; implementation pending.
+
+- [Puri business starter guide](puri-business-starter-guide.md) - a dated PDF and fillable investigation worksheet.

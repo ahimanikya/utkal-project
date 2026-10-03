@@ -69,3 +69,7 @@ Record demand shortfall, seasonality, input price, access, supply reliability, c
 Include stable concept/source IDs, URLs, exact locators, edition/retrieval dates, calculation inputs and revision log. Keep a short public citation list in the main book and optional detailed evidence. Personal documents, bank details and negotiation notes are never part of the public research repository.
 
 [Business programme](district-business-opportunities.md)
+
+## Worked research-guide format
+
+[Puri heritage-walk starter v0.1](puri-business-starter-guide.md) demonstrates the template as a dated PDF with blank interactive fields. Business figures remain unknown and personal copies remain private.

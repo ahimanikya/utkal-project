@@ -126,3 +126,7 @@ The [Odisha Tourism form](../sources/enterprise-odisha-agent-registration.md) pr
 ### Follow-up and release boundary
 
 Recover the state instrument and unavailable original municipal service page on 10 October; retain the separate 2023 OTDC retry. A later authorized local enquiry should describe one exact route and business model, and seek written classification, permission and fee applicability. Provider price per party/person, monthly paid bookings, consent and costs remain unknown. No interviews, applications, booking tests or financial projections occurred. A public startup checklist must retain these gaps until resolved.
+
+## Downloadable starter guide · 3 October 2026
+
+The [Puri business starter guide](../product/puri-business-starter-guide.md) packages this dossier into nine pages with 26 blank fillable fields. It reuses the saved evidence; no new demand, price, permission or feasibility claim is added. The financial worksheet uses one private-party departure and manual calculations. Keep completed copies private.
