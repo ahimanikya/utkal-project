@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T20:22:56.636615+00:00",
+  "updated_at": "2026-10-03T08:32:04.483334+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2246,6 +2246,21 @@
       "VII"
     ],
     "observations_added": 24,
+    "completion_criteria_met": false
+  },
+  "dmf_implementation_checkpoint": {
+    "run_id": "2026-10-03-dmf-implementation",
+    "dataset": "references/data/mining-dmf.json",
+    "sections": [
+      "6.1",
+      "6.2",
+      "6.3",
+      "6.4",
+      "6.5.2",
+      "6.5.3"
+    ],
+    "observations_added": 24,
+    "project_cases_added": 3,
     "completion_criteria_met": false
   }
 }

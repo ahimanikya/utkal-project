@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-02T20:22:56.636615+00:00",
+  "updated_at": "2026-10-03T08:32:04.483334+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2785,13 +2785,13 @@
       "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 4,
+      "attempts": 5,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-018"
       ],
-      "last_worked_at": "2026-10-02T20:22:56.636615+00:00",
-      "next_step": "Reuse completed ChaptersIII/V/VII and existing district finance tables. Next inspect remaining ChapterVI sections6.1–6.4,6.5.2–6.5.5,6.6.7 and6.6.11–6.6.15, plus relevant appendices. Preserve suspected/unreconciled/modeled/recovered distinctions; seek original dated handover and operation evidence where available. Source conflicts and portal retries remain9October.",
+      "last_worked_at": "2026-10-03T08:32:04.483334+00:00",
+      "next_step": "Reuse completed ChaptersIII/V/VII and ChapterVI sections already captured. Next read6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; then seek original/current project evidence and royalty/auction split. Known portal/conflict retries remain9October. Do not repeat this implementation-control/park batch.",
       "evidence_outputs": [
         "economy/dmf-from-funds-to-services.md",
         "references/data/mining-dmf.json",
@@ -2804,7 +2804,7 @@
         "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
-      "blocker": "Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete.",
+      "blocker": "ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split.",
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-dmf",
@@ -2833,6 +2833,13 @@
           "outcome": "complete_collection_and_finance_chapters",
           "completion_criteria_met": false,
           "remaining": "Remaining ChapterVI sections and relevant appendices, detailed royalty/auction receipt split, original project records and current service status still incomplete."
+        },
+        {
+          "run_id": "2026-10-03-dmf-implementation",
+          "at": "2026-10-03T08:32:04.483334+00:00",
+          "outcome": "implementation_controls_and_park_portfolio_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split."
         }
       ],
       "reuse_before_research": {

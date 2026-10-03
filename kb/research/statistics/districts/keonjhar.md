@@ -35,3 +35,7 @@ IBM’s2023–24 provisional chromite table uses Kendujhar and records21,331 ton
 ## Completed-project funds and certificates · 2 October 2026
 
 [The district DMF evidence](../../economy/dmf-from-funds-to-services.md) now includes Table5.3 unreturned completed-project balances and Table5.4 utilisation certificates as ofMarch2024. These administrative records are neither current bank balances nor evidence of working services; source discrepancies remain visible.
+
+## Park completion and operating evidence · 3 October 2026
+
+[The DMF service record](../../economy/dmf-from-funds-to-services.md) now preserves the 126-project Jajpur/Keonjhar portfolio, its January 2025 spending and March 2025 non-completion finding. Thirteen audit visits and the full portfolio are different scopes. Government completion/staffing instructions are not verified opening records; current operation remains unknown.

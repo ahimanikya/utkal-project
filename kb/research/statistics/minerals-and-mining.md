@@ -46,3 +46,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## From collections to documented use · 2 October 2026
 
 [The DMF evidence](../economy/dmf-from-funds-to-services.md) now distinguishes audit-reported recovery, unreturned completed-project balances and utilisation certificates. Fund eligibility disputes, record differences and foregone interest are different findings, not an additive loss total. Current resolution remains open.
+
+## Implementation controls and service readiness · 3 October 2026
+
+[DMF project research](../economy/dmf-from-funds-to-services.md) adds dated park, school-equipment, museum-procurement and worker-kit evidence. Monetary stages and historical operating status remain separate; no current loss total, site availability or employment growth is inferred.

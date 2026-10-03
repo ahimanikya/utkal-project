@@ -247,3 +247,7 @@ Reuse complete ChapterVII and livelihood sections6.6.8–6.6.10 now saved. Next 
 ## DMF collections and financial management · 2 October 2026 UTC
 
 Reuse completed ChaptersIII/V/VII and existing district finance tables. Next inspect remaining ChapterVI sections6.1–6.4,6.5.2–6.5.5,6.6.7 and6.6.11–6.6.15, plus relevant appendices. Preserve suspected/unreconciled/modeled/recovered distinctions; seek original dated handover and operation evidence where available. Source conflicts and portal retries remain9October.
+
+## DMF implementation and park readiness · 3 October 2026
+
+Reuse completed ChaptersIII/V/VII and ChapterVI sections already captured. Next read6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; then seek original/current project evidence and royalty/auction split. Known portal/conflict retries remain9October. Do not repeat this implementation-control/park batch.

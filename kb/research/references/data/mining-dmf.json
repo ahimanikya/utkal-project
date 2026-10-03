@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T20:22:56.636615+00:00",
+  "updated_at": "2026-10-03T08:32:04.483334+00:00",
   "run_id": "2026-10-02-mining-dmf",
   "source_id": "mining-cag-dmf2026",
   "sample_districts": [
@@ -180,7 +180,31 @@
     "dmf-uc-six-total-2024",
     "dmf-uc-net-gap-2024",
     "dmf-unreturned-interest-source-total",
-    "dmf-uc-sundargarh-source-excess"
+    "dmf-uc-sundargarh-source-excess",
+    "dmf-pmu-keonjhar-tds",
+    "dmf-pmu-jajpur-tds",
+    "dmf-sundargarh-delayed-projects",
+    "dmf-sundargarh-delay-compensation",
+    "dmf-keonjhar-osic-projects",
+    "dmf-keonjhar-osic-releases",
+    "dmf-keonjhar-osic-delay",
+    "dmf-keonjhar-osic-excess-service",
+    "dmf-dokra-museum-estimate",
+    "dmf-sundargarh-split-school-estimate",
+    "dmf-sundargarh-split-packages",
+    "dmf-parjang-untendered-works",
+    "dmf-parjang-untendered-value",
+    "dmf-sundargarh-ppe-workers",
+    "dmf-sundargarh-ppe-spend",
+    "dmf-parks-projects",
+    "dmf-parks-sanctions",
+    "dmf-parks-releases",
+    "dmf-parks-spending",
+    "dmf-parks-completed-functional",
+    "dmf-other-ineligible-projects",
+    "dmf-other-ineligible-sanctions",
+    "dmf-other-ineligible-releases",
+    "dmf-other-ineligible-spending"
   ],
   "reused_observation_ids": [
     "mining-dmf-contributions-2024",
@@ -356,6 +380,57 @@
       "source_id": "mining-cag-dmf2026",
       "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
       "human_review_claimed": false
+    },
+    {
+      "id": "keonjhar-osic-school-equipment",
+      "title": "Keonjhar school furniture and science-equipment projects",
+      "district": "keonjhar",
+      "locator": "6.2–6.3 printed43–44/PDF81–82",
+      "completion_evidence": "Ten projects remained ongoing April2025 despite scheduled completions March2020–January2024.",
+      "service_observation_date": "2025-04",
+      "service_status_at_observation": "Ongoing project status; school-equipment use not established.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Balance funds refunded, government said; no refund amount stated. Service charges defended as valid agreements.",
+      "audit_rejoinder": "Refund of unspent balance does not resolve delay penalties; excess-service-charge objection retained.",
+      "scope_limit": "173.73crore released is not cost of missing assets or quantified learning loss.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "dhenkanal-dokra-museum-procurement",
+      "title": "Dokra Museum construction procurement at Patrabhag",
+      "district": "dhenkanal",
+      "locator": "6.4 printed44/PDF82",
+      "completion_evidence": "Report describes departmental execution after splitting estimate into three packages; no completion/handover date given.",
+      "service_observation_date": null,
+      "service_status_at_observation": "Unknown; procurement description does not establish an open museum.",
+      "government_reply_date": "2026-01",
+      "government_reply": "No reply recorded to6.4.",
+      "audit_rejoinder": "Irregular splitting/non-tendering finding retained.",
+      "scope_limit": "30lakh is estimated cost. No visitor hours, current availability, museum collection or artisan-income claim.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "jajpur-keonjhar-rural-parks",
+      "title": "Rural parks, van vatikas and eco-retreat portfolio",
+      "district": "jajpur_and_keonjhar",
+      "locator": "6.5.3(i) printed48–50/PDF86–88",
+      "completion_evidence": "126 projects reported not completed/made functional March2025;13 visited January–March2025.",
+      "service_observation_date": "2025-03",
+      "service_status_at_observation": "None completed/made functional in cited portfolio according to audit; current operation unknown.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Instructions issued to complete components and deploy staff/maintenance agencies.",
+      "audit_rejoinder": "Funding eligibility objection remains separate from completion.",
+      "scope_limit": "51.71crore spending as ofJanuary2025. Not all Odisha parks, nor a fresh inspection of126projects. Photo labels identify Bhanda, Rajia, Chingudiapal and Ashokjhar; they do not establish present visitor readiness.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
     }
   ],
   "conflicts": [
@@ -491,7 +566,7 @@
     "sundargarh": "2025-03-22"
   },
   "review_coverage": {
-    "updated_at": "2026-10-02T20:22:56.636615+00:00",
+    "updated_at": "2026-10-03T08:32:04.483334+00:00",
     "complete_chapters": [
       "III",
       "V",
@@ -508,9 +583,15 @@
       "6.6.6",
       "6.6.8",
       "6.6.9",
-      "6.6.10"
+      "6.6.10",
+      "6.1",
+      "6.2",
+      "6.3",
+      "6.4",
+      "6.5.2",
+      "6.5.3"
     ],
-    "remaining": "Remaining ChapterVI sections and linked appendices; original project records/current operating evidence; royalty/auction receipt split.",
+    "remaining": "ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split.",
     "not_full_report_review": true
   },
   "collection_findings": {
@@ -803,5 +884,85 @@
       "source_id": "mining-cag-dmf2026",
       "current_resolution": "unknown_except_explicit_historical_recovery"
     }
-  ]
+  ],
+  "implementation_controls_review": {
+    "run_id": "2026-10-03-dmf-implementation",
+    "observations": [
+      "dmf-pmu-keonjhar-tds",
+      "dmf-pmu-jajpur-tds",
+      "dmf-sundargarh-delayed-projects",
+      "dmf-sundargarh-delay-compensation",
+      "dmf-keonjhar-osic-projects",
+      "dmf-keonjhar-osic-releases",
+      "dmf-keonjhar-osic-delay",
+      "dmf-keonjhar-osic-excess-service",
+      "dmf-dokra-museum-estimate",
+      "dmf-sundargarh-split-school-estimate",
+      "dmf-sundargarh-split-packages",
+      "dmf-parjang-untendered-works",
+      "dmf-parjang-untendered-value",
+      "dmf-sundargarh-ppe-workers",
+      "dmf-sundargarh-ppe-spend",
+      "dmf-parks-projects",
+      "dmf-parks-sanctions",
+      "dmf-parks-releases",
+      "dmf-parks-spending",
+      "dmf-parks-completed-functional",
+      "dmf-other-ineligible-projects",
+      "dmf-other-ineligible-sanctions",
+      "dmf-other-ineligible-releases",
+      "dmf-other-ineligible-spending"
+    ],
+    "findings": [
+      {
+        "section": "6.1",
+        "finding": "PMU tax deductions absent in two different periods.",
+        "government_response_and_audit_limit": "Government said income tax is now deducted and GST steps will be taken with competent authority; no dated full remediation evidence or supplier tax-payment reconciliation.",
+        "response_date": "not stated in subsection",
+        "source_id": "mining-cag-dmf2026",
+        "current_resolution": "unknown"
+      },
+      {
+        "section": "6.2",
+        "finding": "Late works and unrealised contractual compensation.",
+        "government_response_and_audit_limit": "Government cited pandemic challenges for one implementing agency and refund of OSIC balance. CAG said a balance refund does not settle failure to impose delay penalties.",
+        "response_date": "2026-01",
+        "source_id": "mining-cag-dmf2026",
+        "current_resolution": "unknown"
+      },
+      {
+        "section": "6.3",
+        "finding": "Service charges above audit-cited historical policy ceiling.",
+        "government_response_and_audit_limit": "Government defended valid contractual agreements and Trust Board approval; CAG retained excess-charge finding.",
+        "response_date": "2026-01",
+        "source_id": "mining-cag-dmf2026",
+        "current_resolution": "unknown"
+      },
+      {
+        "section": "6.4",
+        "finding": "Splitting and departmental execution without required tender process in audit.",
+        "government_response_and_audit_limit": "No government response recorded. No inference of fraud or present-day procurement threshold.",
+        "response_date": "2026-01",
+        "source_id": "mining-cag-dmf2026",
+        "current_resolution": "unknown"
+      },
+      {
+        "section": "6.5.2",
+        "finding": "PPE/essential kits supplied using DMF funds; audit disputes occupier-versus-DMF responsibility.",
+        "government_response_and_audit_limit": "Government cited mining-affected worker welfare; CAG retained eligibility objection. No current legal interpretation supplied by Utkal.",
+        "response_date": "2026-01",
+        "source_id": "mining-cag-dmf2026",
+        "current_resolution": "unknown"
+      },
+      {
+        "section": "6.5.3",
+        "finding": "Two differently scoped portfolios have eligibility and completion concerns.",
+        "government_response_and_audit_limit": "Government said instructions issued for remaining non-structural components, staff and maintenance agencies; CAG retained funding-eligibility objection. Instructions are not completed remediation.",
+        "response_date": "2026-01",
+        "source_id": "mining-cag-dmf2026",
+        "current_resolution": "unknown"
+      }
+    ],
+    "aggregation_rule": "No combined financial-loss headline. Tax deductions, estimated work cost, releases, penalties, service charges and eligibility disputes have different definitions and may overlap."
+  }
 }

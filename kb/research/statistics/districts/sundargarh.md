@@ -43,3 +43,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Completed-project funds and certificates · 2 October 2026
 
 [The district DMF evidence](../../economy/dmf-from-funds-to-services.md) now includes Table5.3 unreturned completed-project balances and Table5.4 utilisation certificates as ofMarch2024. These administrative records are neither current bank balances nor evidence of working services; source discrepancies remain visible.
+
+## Delivery, contract terms and worker welfare · 3 October 2026
+
+[The DMF evidence](../../economy/dmf-from-funds-to-services.md) distinguishes delayed-project compensation, splitting of school works and historical PPE supply. It retains the government responses and audit qualifications; kit supply is neither new employment nor evidence of injury reduction.

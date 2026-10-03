@@ -1,7 +1,7 @@
 ---
 type: "Research Collection"
 title: "Mining-area funds: from allocations to working services"
-description: "Six district fund-stage records and four dated project cases distinguish spending, completion, service operation and funding eligibility."
+description: "Dated district fund records and project cases distinguish spending, completion, service operation and funding eligibility."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-02T18:51:18.740435+00:00"}
 sources: [{"id": "mining-cag-dmf2026", "title": "PMKKKY and District Mineral Foundations in Odisha: Report 7 of 2026", "resource": "https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf"}]
@@ -104,3 +104,24 @@ A utilisation certificate records a funding claim; it does not by itself establi
 The Sundargarh row prints an excess of ₹183.41 crore although its displayed amounts differ by ₹183.51 crore; the inconsistent gap is held. CAG also records government claims that some bank differences were reconciled, but says supporting records were not provided. Claims, audit findings and subsequent proof remain separate in our evidence.
 
 Chapters III and V are now fully read alongside Chapter VII. [Annual state mining receipts](mining-receipts.md) explain the larger fiscal context; the district ledger here follows different funds and stages. From assessment to bank credit, project spending, handover and actual use, each step needs its own dated evidence. Original recovery slips, remaining project sections and present service records remain to be checked.
+
+## From a funded park to a place people can use · 3 October 2026
+
+**₹51.71 crore had been spent on a 126-project park and eco-retreat portfolio by January 2025; CAG reported none completed or made functional by March 2025.** The portfolio covers 52 projects in Jajpur and 74 in Keonjhar. This is a historical audit finding about these projects, not a claim that Odisha has no working parks. [Section 6.5.3(i), printed pp.48–50](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+Sanctions of ₹101.17 crore, releases of ₹65.37 crore and expenditure of ₹51.71 crore describe different stages and dates. Audit visits to 13 projects found unfinished planting, gym equipment, water systems or building work. The 13 visits are a subset of the portfolio, not ground inspection of all 126 by Utkal. In January 2026, government said instructions had been issued to complete remaining components and arrange staff and maintenance. That reply does not establish that the sites subsequently opened. CAG also retained a separate objection to DMF funding eligibility.
+
+A second portfolio of 122 projects in Dhenkanal, Nabarangpur and Sundargarh had ₹16.54 crore reported expenditure by March 2024 and a funding-eligibility objection. Do not transfer the first portfolio's zero-functional finding to this different group. Current operating status remains unknown in both records.
+
+## Procurement and payments are different outcome checks
+
+| Historical case | What was established | Response and interpretation |
+|---|---|---|
+| Sundargarh delayed works | 1,475 projects completed with delays in four implementing agencies; ₹74.09 crore compensation assessed as unrealised at the source's January 2024 cutoff. | Government cited pandemic challenges for one agency. This is not a verified current receivable or a blanket finding about every district project. |
+| Keonjhar school equipment | Ten OSIC projects remained ongoing in April 2025; ₹173.73 crore released and ₹3.47 crore delay penalty assessed as unrealised. | Government said balance funds were refunded. CAG distinguished a refund from a contractual penalty; no refund amount is supplied. |
+| Dokra Museum, Patrabhag | A ₹30 lakh estimate was split into three ₹10 lakh works for departmental execution. | Audit questioned procurement; no government reply was recorded. This does not establish final expenditure or an open museum. |
+| Sundargarh PPE and essential kits | CAG reports supply to 44,120 workers/labourers and ₹59.13 crore expenditure during November 2021–December 2023. | Government cited worker welfare; audit disputed the funding responsibility. The count is not new jobs or independently verified unique recipients. |
+
+[Sections 6.1–6.4 and 6.5.2, printed pp.41–47](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf). The audit also records undeducted PMU tax amounts in two different periods, disputed excess OSIC service charges, and work-splitting examples. These are separately typed in the [evidence dataset](../references/data/mining-dmf.json). Taxes, estimated costs, releases, penalties and eligibility disputes must not be added into an invented loss total. Historical rules are reported as CAG's audit basis, not current compliance advice.
+
+For future research, a promising link is between cultural infrastructure and a functioning local economy: the museum case needs a completion record, collection and visitor evidence before it can support a destination or business claim. The park cases need dated opening, staffing and maintenance evidence. These are questions to investigate, not observed new outcomes.

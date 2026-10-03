@@ -185,3 +185,7 @@ Four additional historical livelihood cases connect training, a market/cafe and 
 ## DMF collections and financial management · 2 October 2026 UTC
 
 Collection/finance story distinguishes actual audit-reported recovery from promised refund, unreturned balance, unsupported remittance and modelled interest. Full ChaptersIII/V inspected. No current service, human review or website publication claim.
+
+## DMF implementation and park readiness · 3 October 2026
+
+DMF synthesis now connects park/museum service readiness with procurement evidence. Keep current opening, supplier and human review unverified; no website release.

@@ -27,3 +27,7 @@ Full ChapterVII, sections7.1–7.6, printed77–81/PDF117–121; complete liveli
 ## Collection and finance extension · 2 October 2026
 
 Complete Chapters III (printed pp.11–18 / PDF43–50) and V (printed pp.29–40 / PDF65–76), including reproduced government responses. Tables3.1,5.3,5.4 and recovery passage visually checked. Linked appendices not fully reviewed. Reused original, not an independent verification. Recovery of11.06lakh is CAG-reported. New interest-footnote and Sundargarh certificate-gap conflicts are retained; recovery promises and modelled foregone interest are distinct from received cash.
+
+## Implementation extension · 3 October 2026
+
+Complete sections 6.1–6.4 (printed41–44/PDF79–82) and 6.5.2–6.5.3 (printed46–50/PDF84–88), including reproduced government responses. Numeric passages on PDF80–82 and85–87 visually inspected. Remaining ChapterVI and appendices not claimed complete. The saved original is reused, not freshly fetched. Preserved the different project portfolios, period cutoffs, government statements and audit rejoinders. No current operation or legal applicability has been established.

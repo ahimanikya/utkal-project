@@ -27,3 +27,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Mining-area services: follow the project
 
 [DMF funds and functioning services](../../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Cultural infrastructure needs operating evidence · 3 October 2026
+
+[The DMF evidence](../../economy/dmf-from-funds-to-services.md) identifies Dokra Museum construction at Patrabhag, Saptasajya GP, in an audit procurement case. The ₹30 lakh figure is an estimate; no opening date or public facility availability has been verified. This is a research lead, not a visitor recommendation.
