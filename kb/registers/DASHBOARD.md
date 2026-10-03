@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `350cd43507035e55581c999feaf8b44add1b3fad1f02e99d2f0e2fefaa268401`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3f949608cd527ee51465f6e8ade27fd217ce06b60a9368dad6a5ecb69d6194da`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -389,6 +389,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-164 · Continue DMF audit reading and service follow-up | approved | Ahimanikya Satapathy | Approved the proposed audit and four-case research follow-up; routine KB validation and Git integration under existing authorization. |
 | UTP-DEC-165 · Approve merged DMF audit and service follow-up | approved | Ahimanikya Satapathy | Founder acceptance of the reported PR66 research follow-up. Financial conflicts and current service/outcome evidence remain open under RES-053; this acceptance does not claim independent factual verification or public story publication. |
 | UTP-DEC-166 · Continue financial and facility evidence reconciliation | approved | Ahimanikya Satapathy | Approved proposed follow-up on conflicting figures and newer facility records. Routine KB delivery under standing authorization; no outreach or paid application. |
+| UTP-DEC-167 · Approve merged mining accounting-basis comparison | approved | Ahimanikya Satapathy | Founder acceptance of PR68 and its research findings. Financial reconciliation and facility-use evidence remain open under RES-053. Record questions remain unsent; no independent factual verification or website story publication is implied. |
 
 ## Reviews
 
@@ -614,7 +615,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-188 | 2026-10-02T19:10:21.927198+00:00 | Three source identities and nine observations added. All previous observation fields and holds retained. Visual checks distinguish workdays, headcount, annual training and purchase orders. Current unit headcount unresolved. | Complete Git review delivery; retain RES-052 follow-ups. |
 | UTP-EVT-189 | 2026-10-02T19:13:31.867247+00:00 | PR64 merged after automated checks; three source records and nine observations added with limitations. All897 earlier observations preserved. Public website unchanged. | Keep RES-052 outstanding evidence needs visible. |
 | UTP-EVT-190 | 2026-10-02T19:43:20.772661+00:00 | Added48 observations and one connected synthesis from two reused CAG sources and one new Directorate table. Six district funds and four named case bundles retain audit dates and government replies. Prior906 observations preserved. | Validate and deliver KB checkpoint; retain full audit/current service/outcome follow-ups. |
 | UTP-EVT-191 | 2026-10-02T19:53:02.067988+00:00 | PR65 merged after automated checks. Prior906 observations preserved;48 added. Named case bundles retain government replies and date limits. No website publication. | Continue RES-053 only against the remaining evidence gaps. |
@@ -624,6 +624,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-195 | 2026-10-02T20:41:23.471470+00:00 | Founder approved the merged PR66 DMF research follow-up. | Retain and pursue RES-053 financial reconciliation and current-service/community evidence gaps. |
 | UTP-EVT-196 | 2026-10-02T20:56:04.342494+00:00 | Compared original Finance Accounts and Parliament district tables; added two higher-precision observations and six unsent record questions. | Validate bounded findings; obtain named reconciliation and operating records rather than repeat identical searches. |
 | UTP-EVT-197 | 2026-10-02T21:01:33.418861+00:00 | PR68 integrated after local checks and GitHub CI passed; 956 observations, including 954 earlier records preserved. | Obtain named records to resolve remaining receipt, district accounting and facility-use gaps. No outreach sent. |
+| UTP-EVT-198 | 2026-10-03T06:18:01.447765+00:00 | Founder approved the merged PR68 mining accounting-basis comparison. | Retain named reconciliation and facility-record dependencies; no outreach sent. |
 
 ## Deferred extensions
 
