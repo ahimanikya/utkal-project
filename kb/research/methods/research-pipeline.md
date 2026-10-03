@@ -247,3 +247,7 @@ RES-064 remains in progress. Reuse the 250 g retail comparator and downloaded ta
 ## Bargarh desk milestone · 3 October 2026
 
 RES-065 completed its defined desk dossier, selected as an independent next item at user request. Removed its sequencing-only dependency on still-in-progress RES-064, retaining the history. Cooperative website retry10 October2026; local consent, prices and demand remain unknown.
+
+## Coffee deferral and Puri checkpoint · 3 October 2026
+
+RES-064 blocked on original-source recovery and local evidence, retry 10 October; prior source-specific 9 October dates retained. Proceeded to eligible RES-066, now in progress. Next: current guide/agency route, a priced Puri-specific offer and seasonality.

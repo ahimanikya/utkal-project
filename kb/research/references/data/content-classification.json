@@ -4613,6 +4613,18 @@
       "content_type": "Opportunity Research",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/puri-heritage-walk-service",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places",
+        "history",
+        "governance"
+      ],
+      "content_type": "Opportunity Research",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6841,6 +6853,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Separates the Bargarh service hypothesis from the wider place record."
+    },
+    {
+      "from": "economy/puri-heritage-walk-service",
+      "to": "visitor-index/puri-providers",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuses named service leads without claiming current credentials, consent or availability."
+    },
+    {
+      "from": "economy/puri-heritage-walk-service",
+      "to": "visitor-index/puri-journey-outline",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Keeps the earlier multi-stop road journey separate from a proposed town walking service."
+    },
+    {
+      "from": "economy/puri-heritage-walk-service",
+      "to": "places/puri",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Grounds the business question in place knowledge without treating visitor appeal as proven demand."
     }
   ],
   "relationship_types": {

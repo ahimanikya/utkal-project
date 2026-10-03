@@ -397,3 +397,7 @@ Eight source/lead identities extend RES-064; the existing coffee and business pa
 ## Bargarh service extension · 3 October 2026
 
 RES-065 reuses handloom/place and SUJOG records. Five new source identities and one dossier; two Boyanika procurement instruments share one buyer. This extends the dated map, not an exhaustive semantic audit.
+
+## Puri and coffee reuse · 3 October 2026
+
+Five source identities and one Puri dossier added; existing guide/operator and native visitor-essential records reused. Indexed coffee report candidates remain held. 2022 OTDC terms are not2023 or current terms.

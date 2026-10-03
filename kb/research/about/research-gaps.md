@@ -422,3 +422,7 @@ A retail listing now has a defined pack and date, but invoice/producer traceabil
 ## Bargarh service gaps · 3 October 2026
 
 Historical Boyanika specifications support a service category, not local willingness to pay. Missing: cooperative purchasing route, permissions, current tariff applicability, quotations and paid trial. ODOP population/turnover figures have unresolved scope/vintage. Original cooperative site content unavailable; retry10 October2026.
+
+## Puri walking-service gaps · 3 October 2026
+
+Exact route, guide credentials, access/permissions, Puri-specific price, seasonal paid demand and costs unknown. 2023 OTDC original unavailable, retry 10 October. Coffee indexed sales/marketing leads cannot verify a current pack or supply terms.

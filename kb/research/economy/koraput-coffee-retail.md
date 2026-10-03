@@ -95,3 +95,9 @@ RES-064 remains in progress. The farm-cost study discovered in the agriculture r
 - [Koraput coffee](../food/koraput-coffee.md) — Preserves the food identity while the business case tests customers, supply and costs.
 - [Agriculture statistics](../statistics/agriculture.md) — Keeps state production estimates separate from a district business's available stock.
 - [Project-book template](../product/business-project-book-template.md) — Supplies the remaining chapters without manufacturing financial inputs.
+
+## Original-publisher recovery checkpoint · 3 October 2026
+
+Indexed departmental reports provide new provenance leads: [2019–20, printed p55](../sources/coffee-stsc-report2019-lead.md) describes TDCCOL marketing Koraput Coffee; [2024–25, printed pp58–59](../sources/coffee-stsc-report2024-lead.md) discusses coffee units and a historical sales figure. Full originals could not be recovered, so these remain held candidates. Brand marketing, growing, roasting, packing and selling are distinct roles; the present 250 g pack still needs its own label/invoice evidence.
+
+The [branding EOI](../sources/coffee-tdcc-brand-eoi-lead.md) also remains unread. None resolves current wholesale supply, licensing fees or local paid demand. RES-064 is deferred for original-source recovery on 10 October 2026; previously scheduled 9 October source retries remain. Continue independent Puri research meanwhile. No sales or margin observation added.

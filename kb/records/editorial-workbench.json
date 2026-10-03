@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 11,
-    "newer_records_outside_frozen_selection": 237
+    "newer_records_outside_frozen_selection": 242
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -38,6 +38,9 @@
     "source:coffee-kdf-value-chain",
     "source:coffee-legacy-domain-check",
     "source:coffee-odh-pack",
+    "source:coffee-stsc-report2019-lead",
+    "source:coffee-stsc-report2024-lead",
+    "source:coffee-tdcc-brand-eoi-lead",
     "source:coffee-tdcc-retail-lead",
     "source:coffee-tdcc-tender-lead",
     "source:dance-battery2024",
@@ -85,6 +88,8 @@
     "source:enterprise-goswift-lead",
     "source:enterprise-koraput-plan-lead",
     "source:enterprise-msme-profiles-lead",
+    "source:enterprise-otdc-walk-rfq2022",
+    "source:enterprise-puri-walk-offer",
     "source:enterprise-sambalpuri-site-lead",
     "source:enterprise-sujog-documents",
     "source:enterprise-sujog-manual",
@@ -269,8 +274,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "6e977720bc3765ce39d796d5da0985f9992d9ed15c53a2d8f228384daef6fcf2",
-    "kb/research/search-index.json": "5ab8b72a03f1844f77a5a2671e847b9e02363e26300bafdd7df22969992a29a4",
+    "kb/research/references/data/source-catalog.json": "81df8293e3da12a8446d441a5d6528ba7583616fefdaaf06e004a0c7c04ba028",
+    "kb/research/search-index.json": "73a10e65d758f6dd7c2525192bc7d0f3ee4a8ee0b8800c330d33af0c47d859bc",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -11370,6 +11375,11 @@
       },
       "connections": [
         {
+          "id": "economy/puri-heritage-walk-service",
+          "title": "Puri: a pre-booked outdoor heritage-walk service",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/economy/puri-heritage-walk-service.md"
+        },
+        {
           "id": "sources/puri-approved-operators",
           "title": "Approved Tour Operators — Puri entries",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/sources/puri-approved-operators.md"
@@ -11406,6 +11416,11 @@
       },
       "connections": [
         {
+          "id": "economy/puri-heritage-walk-service",
+          "title": "Puri: a pre-booked outdoor heritage-walk service",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/economy/puri-heritage-walk-service.md"
+        },
+        {
           "id": "sources/puri-guide-app-directory",
           "title": "Odisha Tourism alternate tour-guide directory",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/sources/puri-guide-app-directory.md"
@@ -11441,6 +11456,11 @@
         "capture_history": []
       },
       "connections": [
+        {
+          "id": "economy/puri-heritage-walk-service",
+          "title": "Puri: a pre-booked outdoor heritage-walk service",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/economy/puri-heritage-walk-service.md"
+        },
         {
           "id": "sources/puri-heritage-golden-triangle",
           "title": "Heritage Tours — Golden Triangle itinerary",

@@ -71,3 +71,7 @@ For rules, schemes, vacancies, quotations and supplier availability, use short r
 ## Bargarh desk dossier · 3 October 2026
 
 [OPP-BAR-001](../economy/bargarh-textile-catalogue-service.md) now has a bounded desk dossier. RES-065 is complete at this scope; demand validation, permission and financial gaps remain open. RES-064 coffee research remains in progress.
+
+## Puri service checkpoint · 3 October 2026
+
+[OPP-PUR-001](../economy/puri-heritage-walk-service.md) is narrowed to a pre-booked outdoor walk; RES-066 remains in progress. Coffee source recovery is deferred with saved retry dates.

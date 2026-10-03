@@ -436,3 +436,7 @@ Enhanced OPP-KOR-001 with a dated retail offer, municipal document alternatives,
 ## Bargarh textile service dossier · 3 October 2026
 
 Completed RES-065 bounded desk deliverable using original Boyanika procurement and district producer evidence. Preserved the two tender scopes, municipal tariff uncertainty, conflicting undated population counts and null financials. No interviews, applications, asset licensing or website change.
+
+## Coffee recovery and Puri service checkpoint · 3 October 2026
+
+Original coffee reports could not be recovered; kept candidates and retry dates without adopting sales figures. Advanced independent RES-066 using 2022 OTDC text and a commercial offer, preserving Bhubaneswar/Puri and tender/actual-demand distinctions. No outreach or website publication.

@@ -42,3 +42,7 @@ Economic growth and industry comparisons.
 ## Bargarh service research · 3 October 2026
 
 [Textile photography and catalogue service](bargarh-textile-catalogue-service.md): historical institutional purchasing evidence, producer routes and missing local economics.
+
+## Puri visitor-service question · 3 October 2026
+
+[Outdoor heritage-walk service](puri-heritage-walk-service.md): historical institutional specification and explicit customer, permission and cost gaps.

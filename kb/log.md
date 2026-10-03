@@ -447,3 +447,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 3 October 2026 · Bargarh textile service research
 
 [Research receipt](records/bargarh-catalogue-service-2026-10-03.json): added original buyer specifications, producer routes and scoped Bargarh municipal evidence. Local customers, prices, permissions and returns remain unknown. No website change.
+
+## 3 October 2026 · Puri service research checkpoint
+
+[Research receipt](records/puri-walk-checkpoint-2026-10-03.json): narrowed a Puri outdoor walking-service model with historical institutional specifications and explicit demand/permission/cost gaps; deferred unavailable coffee originals. No website change.

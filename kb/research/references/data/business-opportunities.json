@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-03T06:28:03.412029+00:00",
+  "updated_at": "2026-10-03T07:12:33.313215+00:00",
   "scope": "District opportunity research; not a ranking, investment recommendation or inventory of available land/jobs",
   "programme": "product/district-business-opportunities",
   "method": "methods/business-opportunity-research",
@@ -347,7 +347,7 @@
       "source_checked_at": "2026-10-03T06:10:28.669467+00:00",
       "created_at": "2026-10-02T20:40:37.286473+00:00",
       "publication_status": "research_draft",
-      "next_action": "Continue original producer/batch traceability and current Koraput tariff applicability; retain retail comparator separately from supplier cost. Reuse recovered 759-page tariff at PDF p501; no repeat full download. Local demand and quotations remain absent.",
+      "next_action": "Original-source recovery retry 10 October 2026; prior 9 October retries retained. Pack manufacturer/roaster/invoice, wholesale quote and local fee/demand require further evidence.",
       "model_scope": {
         "activity": "offline retail of original sealed supplier-branded packs",
         "geography": "Koraput town municipal research example, Koraput district; premises unselected",
@@ -421,6 +421,19 @@
           "reason": "unrelated_gambling_redirect",
           "recommend_to_reader": false,
           "cause": "unknown"
+        }
+      ],
+      "held_source_candidates": [
+        {
+          "source_id": "coffee-stsc-report2024-lead",
+          "metric": "Total sales of Koraput Coffee units",
+          "period": "FY 2023–24",
+          "value": 1.64,
+          "unit": "INR crore",
+          "geography": "Units aggregate; not established as Koraput district only",
+          "status": "indexed_candidate_original_unrecovered",
+          "adopted_observation": false,
+          "financial_model_input": false
         }
       ]
     },
@@ -662,26 +675,112 @@
     {
       "id": "OPP-PUR-001",
       "district_id": "puri",
-      "title": "Food, craft and visitor services",
+      "title": "Pre-booked outdoor heritage-walk service",
       "evidence_state": "hypothesis",
       "hypothesis_basis": "Editorial business question grounded in linked saved place/product records; not validated demand",
       "canonical_references": [
         "visitor-index/puri-journey-outline",
-        "economy/rasagola-and-sweets"
+        "economy/rasagola-and-sweets",
+        "economy/puri-heritage-walk-service"
       ],
-      "customer_hypothesis": "Visitors and local operators; exact problem and off-season demand untested",
-      "demand_evidence": null,
-      "premises_options": [],
-      "regulatory_requirements": [],
-      "people_options": [],
+      "customer_hypothesis": "Visitors staying in Puri; direct bookings or agreed local hotel/operator referral, untested",
+      "demand_evidence": {
+        "source_ids": [
+          "enterprise-otdc-walk-rfq2022",
+          "enterprise-puri-walk-offer"
+        ],
+        "classification": "historical_institutional_intent_and_seller_offer_not_paid_demand",
+        "observed_paying_customers": null,
+        "seasonal_booking_series": null,
+        "offer_price": null,
+        "procurement_scope": {
+          "issued": "2022-09-14",
+          "deadline": "2022-09-21",
+          "guaranteed_destination": "Bhubaneswar",
+          "possible_additional_destination": "Puri",
+          "expected_walks_per_year": 80,
+          "minimum_guaranteed_walks_per_year": 30,
+          "applies_to_proposed_business": false,
+          "award_or_delivery_verified": false,
+          "locator": "PDF pp1–3,5"
+        },
+        "excluded_transfer": "Bhubaneswar panel season/duration not Puri evidence"
+      },
+      "premises_options": [
+        {
+          "type": "Permitted home office",
+          "available_property": null,
+          "permission": "unverified",
+          "cost": null
+        },
+        {
+          "type": "Agreed existing-business meeting/referral arrangement",
+          "available_property": null,
+          "permission": "unverified",
+          "cost": null
+        }
+      ],
+      "regulatory_requirements": [
+        {
+          "activity": "Outdoor walking service on an unselected route",
+          "source_id": "enterprise-otdc-walk-rfq2022",
+          "source_scope": "historical_contract_requires_permissions_not_current_general_law",
+          "applicability": "unresolved",
+          "current_fee": null,
+          "approval": "not_applied",
+          "questions": [
+            "Guide/agency recognition",
+            "Municipal classification",
+            "Route jurisdiction and private access",
+            "Photography/group assembly",
+            "Insurance/tax/employment applicability"
+          ]
+        }
+      ],
+      "people_options": [
+        {
+          "role": "Local guide",
+          "source_id": "puri-guide-app-directory",
+          "availability": null,
+          "credentials_current": null,
+          "rate": null,
+          "consent": "not_obtained"
+        },
+        {
+          "role": "Operator/referral partner",
+          "source_id": "puri-approved-operators",
+          "availability": null,
+          "partnership": "not_agreed"
+        }
+      ],
       "capital_cost": null,
       "operating_cost": null,
       "revenue": null,
       "profit": null,
-      "source_checked_at": null,
+      "source_checked_at": "2026-10-03T07:12:33.313215+00:00",
       "created_at": "2026-10-02T20:40:37.286473+00:00",
       "publication_status": "research_draft",
-      "next_action": "Research missing fields through the assigned queue task; retain unknowns."
+      "next_action": "Recover separate2023 OTDC instrument; verify current guide/agency route; find priced Puri-specific offer and seasonal demand evidence. Do not contact providers or infer guaranteed Puri walks.",
+      "model_scope": {
+        "geography": "Puri town; exact route unselected",
+        "activity": "Outdoor guided heritage interpretation",
+        "excluded": [
+          "Guaranteed temple entry",
+          "Ritual services",
+          "Food sales",
+          "Transport",
+          "Craft workshops"
+        ],
+        "stage": "research_hypothesis_not_bookable"
+      },
+      "financial_input_gaps": [
+        "Defined selling price",
+        "Monthly paid bookings",
+        "Guide time/rate",
+        "Referral and payment fees",
+        "Route and office costs",
+        "Cancellations and refunds"
+      ]
     }
   ],
   "source_routes": [
@@ -816,6 +915,11 @@
       "prior_state": "hypothesis",
       "new_state": "desk_researched",
       "scope": "Bounded desk dossier; buyer solicitation is not local demand. Cost/revenue/profit remain null."
+    },
+    {
+      "at": "2026-10-03T07:12:33.313215+00:00",
+      "run_id": "2026-10-03-puri-walk-checkpoint",
+      "scope": "Coffee original-source candidates held after failed retrieval; independent Puri model narrowed. No adopted sales observation or financial projection."
     }
   ]
 }

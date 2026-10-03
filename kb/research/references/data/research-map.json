@@ -19018,6 +19018,99 @@
         "enterprise-sujog-documents",
         "enterprise-sujog-manual"
       ]
+    },
+    {
+      "id": "sources/coffee-stsc-report2019-lead",
+      "title": "STSC 2019–20 report: coffee marketing provenance lead",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/coffee-stsc-report2019-lead.md",
+      "project_path": "kb/research/sources/coffee-stsc-report2019-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "coffee-stsc-report2019-lead"
+      ]
+    },
+    {
+      "id": "sources/coffee-stsc-report2024-lead",
+      "title": "STSC 2024–25 report: coffee units and sales lead",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/coffee-stsc-report2024-lead.md",
+      "project_path": "kb/research/sources/coffee-stsc-report2024-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "coffee-stsc-report2024-lead"
+      ]
+    },
+    {
+      "id": "sources/coffee-tdcc-brand-eoi-lead",
+      "title": "TDCCOL coffee-brand agency EOI: retrieval lead",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/coffee-tdcc-brand-eoi-lead.md",
+      "project_path": "kb/research/sources/coffee-tdcc-brand-eoi-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "coffee-tdcc-brand-eoi-lead"
+      ]
+    },
+    {
+      "id": "sources/enterprise-otdc-walk-rfq2022",
+      "title": "OTDC heritage-walk RFQ dated 14 September 2022",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-otdc-walk-rfq2022.md",
+      "project_path": "kb/research/sources/enterprise-otdc-walk-rfq2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-otdc-walk-rfq2022"
+      ]
+    },
+    {
+      "id": "sources/enterprise-puri-walk-offer",
+      "title": "I Love Jagannath: advertised Puri heritage-walk service",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-puri-walk-offer.md",
+      "project_path": "kb/research/sources/enterprise-puri-walk-offer.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-puri-walk-offer"
+      ]
+    },
+    {
+      "id": "economy/puri-heritage-walk-service",
+      "title": "Puri: a pre-booked outdoor heritage-walk service",
+      "kind": "Opportunity Research",
+      "layer": "research_concept",
+      "source_path": "economy/puri-heritage-walk-service.md",
+      "project_path": "kb/research/economy/puri-heritage-walk-service.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "economy",
+        "places",
+        "history",
+        "governance"
+      ],
+      "source_ids": [
+        "enterprise-otdc-walk-rfq2022",
+        "enterprise-puri-walk-offer",
+        "puri-guide-app-directory",
+        "puri-approved-operators",
+        "puri-heritage-golden-triangle"
+      ]
     }
   ],
   "shared_publications": [
@@ -20448,7 +20541,10 @@
         "sources/enterprise-sujog-ulbs.md",
         "sources/coffee-legacy-domain-check.md",
         "sources/coffee-darpg-ric-lead.md",
-        "sources/coffee-tdcc-retail-lead.md"
+        "sources/coffee-tdcc-retail-lead.md",
+        "sources/coffee-stsc-report2019-lead.md",
+        "sources/coffee-stsc-report2024-lead.md",
+        "sources/coffee-tdcc-brand-eoi-lead.md"
       ],
       "project_records": [
         "kb/specs/knowledge-to-work.md",
@@ -20495,13 +20591,19 @@
         "methods/business-opportunity-research.md",
         "references/data/business-opportunities.json",
         "visitor-index/puri-journey-outline.md",
-        "economy/rasagola-and-sweets.md"
+        "economy/rasagola-and-sweets.md",
+        "sources/enterprise-otdc-walk-rfq2022.md",
+        "sources/enterprise-puri-walk-offer.md",
+        "economy/puri-heritage-walk-service.md",
+        "visitor-index/puri-providers.md",
+        "places/puri.md"
       ],
       "project_records": [
         "kb/specs/knowledge-to-work.md",
         "kb/research/product/destination-and-tour-book.md",
         "kb/research/places/koraput.md",
-        "kb/research/places/sambalpur-bargarh.md"
+        "kb/research/places/sambalpur-bargarh.md",
+        "kb/research/product/puri-visitor-essentials-2026-09-30.md"
       ],
       "remaining_scope": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
       "status_unchanged": "pending",
@@ -20541,8 +20643,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1272,
-    "updated_at": "2026-10-03T06:28:03.412029+00:00",
+    "records_mapped": 1278,
+    "updated_at": "2026-10-03T07:12:33.313215+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21149,6 +21251,11 @@
       "at": "2026-10-03T06:28:03.412029+00:00",
       "run_id": "2026-10-03-bargarh-catalogue-service",
       "scope": "Five new source identities and one dossier; existing handloom identities and municipal tariff reused. Two tenders are one buyer, not independent market corroboration."
+    },
+    {
+      "at": "2026-10-03T07:12:33.313215+00:00",
+      "run_id": "2026-10-03-puri-walk-checkpoint",
+      "scope": "Coffee leads held; Puri reuses native visitor essentials and provider identities. OTDC2022 and unread2023 editions kept distinct, not independent corroboration."
     }
   ]
 }

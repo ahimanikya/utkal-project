@@ -189,3 +189,7 @@ Municipal PDFs and a seller comparator enhance the draft [retail brief](../econo
 ## Bargarh desk milestone · 3 October 2026
 
 [Bargarh service dossier](../economy/bargarh-textile-catalogue-service.md) is research-ready for review with explicit missing economics. No active tender invitation, confirmed client, human review, finance-ready plan or website publication.
+
+## Puri research checkpoint · 3 October 2026
+
+[Outdoor walk dossier](../economy/puri-heritage-walk-service.md) remains a hypothesis. Historical OTDC procurement is not guaranteed Puri work; no route approval, booking, financial return or website update.
