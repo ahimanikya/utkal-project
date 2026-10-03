@@ -62,3 +62,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Mining-area services: follow the project
 
 [DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Mining-funded health and mobility · 3 October 2026
+
+[The DMF service study](../economy/dmf-from-funds-to-services.md) now distinguishes mobile-clinic credential checks, patient-attendant meals, COVID bed reservations and wheelchair distribution. Historical payment or supply is not proof of patients served or current operation. Government responses are retained; the COVID total has an unresolved payment-period mismatch.

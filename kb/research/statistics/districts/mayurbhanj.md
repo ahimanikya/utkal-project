@@ -35,3 +35,7 @@ The agriculture report records rice crop area of **301.11 thousand hectares**, r
 ## Mining-area services: follow the project
 
 [DMF funds and functioning services](../../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Health and education delivery evidence · 3 October 2026
+
+The DMF study records school-furniture supply during July–September2021 at a reported cost of ₹12.35crore. This funding-eligibility audit case does not measure present furniture use or learning outcomes. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).

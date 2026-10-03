@@ -47,3 +47,7 @@ IBM’s2023–24 provisional chromite table records3,126,623 tonnes for Jajpur. 
 ## Park completion and operating evidence · 3 October 2026
 
 [The DMF service record](../../economy/dmf-from-funds-to-services.md) now preserves the 126-project Jajpur/Keonjhar portfolio, its January 2025 spending and March 2025 non-completion finding. Thirteen audit visits and the full portfolio are different scopes. Government completion/staffing instructions are not verified opening records; current operation remains unknown.
+
+## Health and education delivery evidence · 3 October 2026
+
+Medical-coaching cohorts now have a source-reported examination result, distinct from college admissions and careers. COVID hospital payments and school-furniture supply retain their own periods and caveats. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).

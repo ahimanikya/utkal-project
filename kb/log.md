@@ -439,3 +439,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · DMF implementation and park readiness
 
 [Research receipt](records/dmf-implementation-2026-10-03.json): Further implementation sections distinguish procurement controls, park completion, funding eligibility and government response. Historical dates preserved. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF health, education and inclusion
+
+[Research receipt](records/dmf-health-education-2026-10-03.json): Health, education and disability-service evidence distinguishes spending, assets, people served and outcomes. Government replies and dated scope conflicts retained. RES-053 continues with remaining project sections, appendices and original service records. No website release.

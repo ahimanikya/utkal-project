@@ -50,3 +50,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Implementation controls and service readiness · 3 October 2026
 
 [DMF project research](../economy/dmf-from-funds-to-services.md) adds dated park, school-equipment, museum-procurement and worker-kit evidence. Monetary stages and historical operating status remain separate; no current loss total, site availability or employment growth is inferred.
+
+## Mining funds and human outcomes · 3 October 2026
+
+[Health, education and disability-service cases](../economy/dmf-from-funds-to-services.md) add historical checks of credentials, payments, examinations, equipment and distribution. Unresolved time scopes and portfolio overlaps are held; no statewide impact estimate or present operating claim follows from these sampled cases.

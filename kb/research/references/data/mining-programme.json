@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T08:32:04.483334+00:00",
+  "updated_at": "2026-10-03T09:38:20.498540+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2261,6 +2261,19 @@
     ],
     "observations_added": 24,
     "project_cases_added": 3,
+    "completion_criteria_met": false
+  },
+  "dmf_health_education_checkpoint": {
+    "run_id": "2026-10-03-dmf-health-education",
+    "dataset": "references/data/mining-dmf.json",
+    "sections": [
+      "6.5.4",
+      "6.5.5",
+      "6.6.7"
+    ],
+    "observations_added": 36,
+    "project_cases_added": 5,
+    "existing_project_cases_enhanced": 1,
     "completion_criteria_met": false
   }
 }

@@ -47,3 +47,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Delivery, contract terms and worker welfare · 3 October 2026
 
 [The DMF evidence](../../economy/dmf-from-funds-to-services.md) distinguishes delayed-project compensation, splitting of school works and historical PPE supply. It retains the government responses and audit qualifications; kit supply is neither new employment nor evidence of injury reduction.
+
+## Health and education delivery evidence · 3 October 2026
+
+Mobile-clinic credential checks and COVID hospital payments extend the health-service record. Promised action is not verified correction; cash periods differ from hospital engagement dates. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).

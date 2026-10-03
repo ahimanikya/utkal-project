@@ -251,3 +251,7 @@ Reuse completed ChaptersIII/V/VII and existing district finance tables. Next ins
 ## DMF implementation and park readiness · 3 October 2026
 
 Reuse completed ChaptersIII/V/VII and ChapterVI sections already captured. Next read6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; then seek original/current project evidence and royalty/auction split. Known portal/conflict retries remain9October. Do not repeat this implementation-control/park batch.
+
+## DMF health, education and inclusion · 3 October 2026
+
+Reuse completed ChaptersIII/V/VII and captured ChapterVI sections. Next read6.6.11–6.6.15 and relevant appendices, then original/current project outcomes and royalty/auction receipt split. Existing portal/conflict retries9October; new period/date/portfolio holds10October. Do not repeat health/education/wheelchair capture.

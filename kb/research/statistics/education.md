@@ -66,3 +66,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Mining-area services: follow the project
 
 [DMF funds and functioning services](../economy/dmf-from-funds-to-services.md) connects six district funding records with dated health, education and sports cases. Audit-sample completion, spending and operating observations are different measures; none establishes current statewide service outcomes.
+
+## Mining-funded education: selection, equipment and outcomes · 3 October 2026
+
+[The DMF service study](../economy/dmf-from-funds-to-services.md) links selected students for Curtin mining study, Jajpur medical-coaching results, uniforms and school furniture. Five selections do not establish five degrees; six examination qualifiers do not establish admissions or medical careers. Furniture portfolio overlap remains unverified. Funding eligibility is a separate historical audit question from educational value.

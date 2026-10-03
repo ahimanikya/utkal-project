@@ -31,3 +31,7 @@ Complete Chapters III (printed pp.11–18 / PDF43–50) and V (printed pp.29–4
 ## Implementation extension · 3 October 2026
 
 Complete sections 6.1–6.4 (printed41–44/PDF79–82) and 6.5.2–6.5.3 (printed46–50/PDF84–88), including reproduced government responses. Numeric passages on PDF80–82 and85–87 visually inspected. Remaining ChapterVI and appendices not claimed complete. The saved original is reused, not freshly fetched. Preserved the different project portfolios, period cutoffs, government statements and audit rejoinders. No current operation or legal applicability has been established.
+
+## Health, education and inclusion extension · 3 October 2026
+
+Complete sections 6.5.4.1–6.5.4.3 and 6.5.5.1–6.5.5.4 (printed50–57/PDF88–95) plus 6.6.7 (printed63/PDF101). Numeric tables/passages visually checked on PDF88,90,92–95,101. Saved original reused; no fresh fetch, current fieldwork or independent corroboration. Government replies remain attributed to the report. Held the COVID payment-period mismatch, a literal January20216 reply-date typo and unresolved overlap between seven- and ten-project furniture portfolios. Current service outcomes are not established.

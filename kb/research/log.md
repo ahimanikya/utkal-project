@@ -434,3 +434,7 @@ RES-053: full ChaptersIII/V and government responses read; 24 new observations, 
 ## DMF implementation and park readiness · 3 October 2026
 
 RES-053: six implementation subsections read; 24 observations and three project cases saved. Government responses and historical dates retained; current services unknown. No website release.
+
+## DMF health, education and inclusion · 3 October 2026
+
+RES-053: health6.5.4,education6.5.5 andwheelchairs6.6.7 read. Added36 observations,five cases and one existing case extension. Historical government responses retained, conflicts held,current outcomes unknown. No website release.

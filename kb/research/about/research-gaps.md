@@ -418,3 +418,7 @@ Remaining ChapterVI sections and relevant appendices, detailed royalty/auction r
 ## DMF implementation and park readiness · 3 October 2026
 
 ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split.
+
+## DMF health, education and inclusion · 3 October 2026
+
+ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split. New gaps: COVID cash-period mismatch, literal government reply-date typo, furniture portfolio overlap and actual student/device-user outcomes.

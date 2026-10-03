@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T08:32:04.483334+00:00",
+  "updated_at": "2026-10-03T09:38:20.498540+00:00",
   "run_id": "2026-10-02-mining-dmf",
   "source_id": "mining-cag-dmf2026",
   "sample_districts": [
@@ -204,7 +204,43 @@
     "dmf-other-ineligible-projects",
     "dmf-other-ineligible-sanctions",
     "dmf-other-ineligible-releases",
-    "dmf-other-ineligible-spending"
+    "dmf-other-ineligible-spending",
+    "dmf-sundargarh-mmv-officers",
+    "dmf-sundargarh-mmv-credentials",
+    "dmf-sundargarh-mmv-questioned-charges",
+    "dmf-keonjhar-attendant-meals-sanction",
+    "dmf-keonjhar-attendant-meals-release",
+    "dmf-keonjhar-attendant-meals-utilisation",
+    "dmf-keonjhar-attendant-meals-balance",
+    "dmf-covid-jajpur-payment",
+    "dmf-covid-sundargarh-payment",
+    "dmf-covid-keonjhar-payment",
+    "dmf-covid-three-district-total",
+    "dmf-covid-sundargarh-eligible-audit",
+    "dmf-covid-sundargarh-gap",
+    "dmf-curtin-students-selected",
+    "dmf-curtin-funds-released",
+    "dmf-curtin-utilisation",
+    "dmf-curtin-unspent",
+    "dmf-curtin-potential-interest",
+    "dmf-keonjhar-uniforms-sanction",
+    "dmf-keonjhar-uniforms-release",
+    "dmf-keonjhar-uniforms-uc",
+    "dmf-keonjhar-uniforms-balance",
+    "dmf-jajpur-coaching-students",
+    "dmf-jajpur-coaching-qualified",
+    "dmf-jajpur-coaching-spend",
+    "dmf-keonjhar-furniture-seven-projects",
+    "dmf-keonjhar-furniture-seven-releases",
+    "dmf-keonjhar-furniture-seven-uc",
+    "dmf-keonjhar-furniture-seven-balance",
+    "dmf-jajpur-furniture-cost",
+    "dmf-mayurbhanj-furniture-cost",
+    "dmf-furniture-three-district-total",
+    "dmf-keonjhar-wheelchairs-supplied",
+    "dmf-keonjhar-wheelchairs-payment",
+    "dmf-keonjhar-wheelchairs-idle",
+    "dmf-keonjhar-wheelchairs-idle-cost"
   ],
   "reused_observation_ids": [
     "mining-dmf-contributions-2024",
@@ -396,7 +432,29 @@
       "source_id": "mining-cag-dmf2026",
       "current_service_status": "unknown",
       "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
-      "human_review_claimed": false
+      "human_review_claimed": false,
+      "furniture_portfolio_extension": {
+        "locator": "6.5.5.4 printed55–57/PDF93–95",
+        "projects": 7,
+        "releases_crore": 138.77,
+        "uc_crore": 100.51,
+        "uc_date": "2023-11",
+        "unspent_crore": 38.26,
+        "inspection_dates": [
+          "2025-04-17",
+          "2025-04-22"
+        ],
+        "visited_hostels": [
+          "Telkoi",
+          "Lahanda",
+          "Talachampei"
+        ],
+        "finding": "Furniture stored in classrooms, uninstalled at intended locations; hostel handover pending.",
+        "government_reply_date": "2026-01",
+        "government_reply": "High School Transformation needs and authorised funds to enhance learning environment.",
+        "audit_rejoinder": "CAG said5Tstate budget should bear expenditure.",
+        "scope_limit": "Relationship to original ten-project173.73crore portfolio and separate eight-hostel construction case unverified; do not aggregate."
+      }
     },
     {
       "id": "dhenkanal-dokra-museum-procurement",
@@ -427,6 +485,91 @@
       "government_reply": "Instructions issued to complete components and deploy staff/maintenance agencies.",
       "audit_rejoinder": "Funding eligibility objection remains separate from completion.",
       "scope_limit": "51.71crore spending as ofJanuary2025. Not all Odisha parks, nor a fresh inspection of126projects. Photo labels identify Bhanda, Rajia, Chingudiapal and Ashokjhar; they do not establish present visitor readiness.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "sundargarh-mobile-medical-vans",
+      "title": "Sundargarh mobile medical van services",
+      "district": "sundargarh",
+      "locator": "6.5.4.1 printed50–51/PDF88–89",
+      "completion_evidence": "15vans in2017–18,25in2018–19to2023–24;78officers engaged over period.",
+      "service_observation_date": "2025-05",
+      "service_status_at_observation": "Historical service programme with nine credential mismatches; no present credential or service-quality conclusion.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Government accepted observation; action to be initiated by CDMO.",
+      "audit_rejoinder": "CAG recorded credential-check failure and questioned7.44crore charges.",
+      "scope_limit": "No completed remediation, patient count or outcomes established.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "three-district-covid-bed-reservations",
+      "title": "COVID hospital-bed reservations in three districts",
+      "district": "jajpur_sundargarh_keonjhar",
+      "locator": "6.5.4.3 Table6.2 printed52–53/PDF90–91",
+      "completion_evidence": "Hospital engagement and payments recorded; no occupancy/outcome data.",
+      "service_observation_date": "2023-06",
+      "service_status_at_observation": "Payments and reserved capacity are not patients treated.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Government said decisions involved Health Department consultation and Trust Board approval.",
+      "audit_rejoinder": "Consultation records not furnished; audit retained eligibility objection and sought reconciliation of10.60crore difference.",
+      "scope_limit": "145.06crore aggregate has mixed payment periods.10.60crore is nested withinSundargarh109.45crore; no verified recovery.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "keonjhar-curtin-mining-study",
+      "title": "Keonjhar engineering students selected for Curtin mining study",
+      "district": "keonjhar",
+      "locator": "6.5.5.1 printed53–54/PDF91–92",
+      "completion_evidence": "Five students selected; funding/UC records, no verified enrolment or graduation.",
+      "service_observation_date": "2024-12",
+      "service_status_at_observation": "Student outcome unknown.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Government cited local youth empowerment, good faith and Sustainable Development Goals.",
+      "audit_rejoinder": "Audit retained DMF funding-eligibility objection and absence of initialBoT/ECapproval.",
+      "scope_limit": "6.06crore released,2.57crore UCs,3.49crore term-deposit balance are different stages; potential interest is a model.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "jajpur-medical-coaching",
+      "title": "Jajpur private medical entrance coaching cohorts",
+      "district": "jajpur",
+      "locator": "6.5.5.3 printed54–55/PDF92–93",
+      "completion_evidence": "437students coached, six reported qualified entrance examination across cited cohorts.",
+      "service_observation_date": null,
+      "service_status_at_observation": "Reported examination qualification; no verified admission, degrees or jobs.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Government cited sponsorship of meritorious economically weaker students followingOPTCLHRrequest.",
+      "audit_rejoinder": "Audit said request did not establish DMF eligibility.",
+      "scope_limit": "No candidates fromSukinda/Danagadi finding applies only2018–19, not all437students.4.30crore is rounded expenditure.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "keonjhar-arc-wheelchairs",
+      "title": "Motorised wheelchairs at Keonjhar Advanced Rehabilitation Centre",
+      "district": "keonjhar",
+      "locator": "6.6.7 printed63/PDF101",
+      "completion_evidence": "3150supplied;1061idle at21February2025 physical inspection.",
+      "service_observation_date": "2025-02-21",
+      "service_status_at_observation": "Audit found idle stock and no documented needs assessment; current distribution unknown.",
+      "government_reply_date": null,
+      "government_reply": "Government described mobility and inclusion benefits and a developmental investment; reply date not stated in subsection.",
+      "audit_rejoinder": "Audit retained absence of assessed need and1061idle devices.",
+      "scope_limit": "Onward transfers toBDOs are not final distribution.3150minus1061must not be used as beneficiary count.",
       "source_id": "mining-cag-dmf2026",
       "current_service_status": "unknown",
       "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
@@ -497,6 +640,29 @@
       "difference_of_displayed_amounts_crore": 183.51,
       "treatment": "Printed gap held; raw expenditure and certificate figures retained with scope; aggregate net gap separately reconciles.",
       "retry_after": "2026-10-09"
+    },
+    {
+      "id": "dmf-covid-payment-periods",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.5.4.3 Table6.2 printed52–53/PDF90–91",
+      "treatment": "Opening narrativeApril2020–March2022 differs from Sundargarh cashbookSeptember2020–June2023. Retain amounts with separate engagement/cash periods; aggregate held from common-period headline.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-uniforms-government-reply-date",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.5.5.2 printed54/PDF92",
+      "raw_date": "January 20216",
+      "normalized_date": null,
+      "treatment": "Visual check confirms printed typo. Reply substance retained; no silent normalization toJanuary2026.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-keonjhar-furniture-portfolios",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.2–6.3 and6.5.5.4",
+      "treatment": "Seven-project138.77crore furniture and ten-project173.73crore furniture/equipment scopes may overlap. Reuse existing OSIC identity; no subset assumption or combined total.",
+      "retry_after": "2026-10-10"
     }
   ],
   "human_review_claimed": false,
@@ -566,7 +732,7 @@
     "sundargarh": "2025-03-22"
   },
   "review_coverage": {
-    "updated_at": "2026-10-03T08:32:04.483334+00:00",
+    "updated_at": "2026-10-03T09:38:20.498540+00:00",
     "complete_chapters": [
       "III",
       "V",
@@ -589,9 +755,12 @@
       "6.3",
       "6.4",
       "6.5.2",
-      "6.5.3"
+      "6.5.3",
+      "6.5.4",
+      "6.5.5",
+      "6.6.7"
     ],
-    "remaining": "ChapterVI 6.5.4–6.5.5,6.6.7,6.6.11–6.6.15 and relevant appendices; original/current project evidence and royalty/auction receipt split.",
+    "remaining": "ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split.",
     "not_full_report_review": true
   },
   "collection_findings": {
@@ -964,5 +1133,64 @@
       }
     ],
     "aggregation_rule": "No combined financial-loss headline. Tax deductions, estimated work cost, releases, penalties, service charges and eligibility disputes have different definitions and may overlap."
+  },
+  "health_education_review": {
+    "run_id": "2026-10-03-dmf-health-education",
+    "observations": [
+      "dmf-sundargarh-mmv-officers",
+      "dmf-sundargarh-mmv-credentials",
+      "dmf-sundargarh-mmv-questioned-charges",
+      "dmf-keonjhar-attendant-meals-sanction",
+      "dmf-keonjhar-attendant-meals-release",
+      "dmf-keonjhar-attendant-meals-utilisation",
+      "dmf-keonjhar-attendant-meals-balance",
+      "dmf-covid-jajpur-payment",
+      "dmf-covid-sundargarh-payment",
+      "dmf-covid-keonjhar-payment",
+      "dmf-covid-three-district-total",
+      "dmf-covid-sundargarh-eligible-audit",
+      "dmf-covid-sundargarh-gap",
+      "dmf-curtin-students-selected",
+      "dmf-curtin-funds-released",
+      "dmf-curtin-utilisation",
+      "dmf-curtin-unspent",
+      "dmf-curtin-potential-interest",
+      "dmf-keonjhar-uniforms-sanction",
+      "dmf-keonjhar-uniforms-release",
+      "dmf-keonjhar-uniforms-uc",
+      "dmf-keonjhar-uniforms-balance",
+      "dmf-jajpur-coaching-students",
+      "dmf-jajpur-coaching-qualified",
+      "dmf-jajpur-coaching-spend",
+      "dmf-keonjhar-furniture-seven-projects",
+      "dmf-keonjhar-furniture-seven-releases",
+      "dmf-keonjhar-furniture-seven-uc",
+      "dmf-keonjhar-furniture-seven-balance",
+      "dmf-jajpur-furniture-cost",
+      "dmf-mayurbhanj-furniture-cost",
+      "dmf-furniture-three-district-total",
+      "dmf-keonjhar-wheelchairs-supplied",
+      "dmf-keonjhar-wheelchairs-payment",
+      "dmf-keonjhar-wheelchairs-idle",
+      "dmf-keonjhar-wheelchairs-idle-cost"
+    ],
+    "other_findings": [
+      {
+        "section": "6.5.4.2",
+        "government_reply_date": "2026-01",
+        "government_reply": "Urgent need for free nutritious meals for patient attendants.",
+        "audit_position": "DMF funding eligibility disputed, not whether meals have social value.",
+        "current_resolution": "unknown"
+      },
+      {
+        "section": "6.5.5.2",
+        "government_reply_date": null,
+        "government_reply_date_raw": "January 20216",
+        "government_reply": "Address a barrier to secondary education and support transition from upper primary.",
+        "audit_position": "Expenditure should be met from state budget rather than DMF.",
+        "current_resolution": "unknown"
+      }
+    ],
+    "aggregation_rule": "No combined loss total or current service claim; distinguish eligibility, money, certificates and outcomes."
   }
 }

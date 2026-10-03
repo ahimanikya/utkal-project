@@ -393,3 +393,7 @@ Existing CAG identity, DMF collection and three district pages enhanced; prior f
 ## DMF implementation and park readiness · 3 October 2026
 
 Existing DMF and district records enhanced. One saved CAG publication supplies all new observations; no new or independently corroborating source claimed.
+
+## DMF health, education and inclusion · 3 October 2026
+
+Extended existing CAG source and subject/district identities. Existing OSIC furniture record enhanced to avoid duplicate project identity; relationship between7and10project scopes remains unresolved.
