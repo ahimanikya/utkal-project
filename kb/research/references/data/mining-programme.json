@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T07:42:12.281122+00:00",
-  "run_id": "2026-10-03-mining-land-people",
+  "updated_at": "2026-10-03T08:06:11.256094+00:00",
+  "run_id": "2026-10-03-mining-evidence-followup",
   "angles": [
     {
       "id": "minerals",
@@ -3485,6 +3485,233 @@
     "completion_criteria_met": false,
     "remaining_scope": "Original monitoring tables, subsequent rights decisions, incident corrective action and measured ecological recovery remain unverified.",
     "no_new_atlas_observations": true,
+    "human_review_claimed": false,
+    "website_publication": false
+  },
+  "environment_evidence_followup": {
+    "run_id": "2026-10-03-mining-evidence-followup",
+    "checked_at": "2026-10-03T08:06:11.256094+00:00",
+    "source_checks": [
+      {
+        "source_id": "mining-cgwb-sukinda2025-annex",
+        "checked_at": "2026-10-03T08:06:11.256094+00:00",
+        "resource": "https://www.greentribunal.gov.in/sites/default/files/news_updates/1779080964.pdf",
+        "method": "annex_scan_selected_visual_review",
+        "locator": "Annex 7, PDF pp.54–75; report pp.3,5,7–10 at PDF pp.60,62,64–67",
+        "scope": "Applicant-filed scan in Kailash Chandra Nayak v State of Odisha (2026 application number blank on cover). Not the Mantu Das OA73/2024/EZ judgment. Government hosting does not endorse allegations or authenticate the copy. Table4 post-monsoon rows sum to56, printed total50; numerical interpretation held.",
+        "sha256": "bdbbc00ed4f1b9f76a5d5d6af8cd3cdca258cbe48164547bf4f9a9e268cbdd2f"
+      },
+      {
+        "source_id": "mining-ibm-baphlimali2024",
+        "checked_at": "2026-10-03T08:06:11.256094+00:00",
+        "resource": "https://ibm.gov.in/writereaddata/files/1730094169671f24593db2aMCDR_of_Baphlimali_Bauxite_Mine_of_NALCO.pdf",
+        "method": "official_pdf_text_and_selected_visual_review",
+        "locator": "PDF pp.1,5–6; mine code07ORI27001; rows5b,5d,6b–6d",
+        "scope": "Document identifies Utkal Alumina International Ltd despite NALCO in URL filename. Regulator-reported work and cumulative labels retained separately; not evidence of final closure or ecological recovery, or the specific later audit cited by ASI.",
+        "sha256": "2d54684bad495caa355b7754ca3a73e42ada47c79ab658bb4909e2b2b8036620"
+      },
+      {
+        "source_id": "mining-coal-safety49-agenda",
+        "checked_at": "2026-10-03T08:06:11.256094+00:00",
+        "resource": "https://coal.nic.in/sites/default/files/2025-02/10-02-2025c-wn.pdf",
+        "method": "official_pdf_text_and_selected_visual_review",
+        "locator": "PDF/printed p.59, AgendaIV(a), row5",
+        "scope": "Matches the already-recorded Bharatpur/MCL tipper fatality. Same incident, not an additional death or independent incident investigation. Company-level action summaries do not verify removal of this site-specific hazard.",
+        "sha256": "47f62d20342facf80051ca95ba453759edf3d48120968cc41b188491b5e3c549"
+      },
+      {
+        "source_id": "mining-xaxa-niyamgiri2014",
+        "checked_at": "2026-10-03T08:06:11.256094+00:00",
+        "resource": "https://tribal.nic.in/downloads/other-important-reports/XaxaCommitteeReportMay-June2014.pdf",
+        "method": "official_pdf_search_index_excerpt_only",
+        "locator": "Printed p.353, footnote356",
+        "scope": "Indexed official report text states all twelve Palli Sabhas rejected mining; footnote356 cites state-provided English translations on file with committee. Full PDF download and web open timed out; no visual review, hash, signed original minutes or final ministry order retrieved."
+      }
+    ],
+    "sukinda_cgwb": {
+      "source_id": "mining-cgwb-sukinda2025-annex",
+      "study_year": 2024,
+      "report_edition": "June2025",
+      "threshold": {
+        "analyte": "Cr(VI)",
+        "operator": ">",
+        "value": 0.05,
+        "unit": "mg/L",
+        "role": "report comparison threshold; not a discharge-permit determination"
+      },
+      "sampling": "Post-monsoon targeted mainly earlier elevated sites plus nearby additions; not representative matched seasonal populations.",
+      "table4_rows": [
+        {
+          "source_label": "DW",
+          "source_kind": "dug well",
+          "pre_samples": 28,
+          "pre_above_threshold": 0,
+          "post_samples": 1,
+          "post_above_threshold": 0
+        },
+        {
+          "source_label": "BW",
+          "source_kind": "bore well",
+          "pre_samples": 11,
+          "pre_above_threshold": 0,
+          "post_samples": 5,
+          "post_above_threshold": 0
+        },
+        {
+          "source_label": "HP",
+          "source_kind": "hand pump",
+          "pre_samples": 99,
+          "pre_above_threshold": 20,
+          "post_samples": 31,
+          "post_above_threshold": 18
+        },
+        {
+          "source_label": "Damsala Nala",
+          "source_kind": "surface water",
+          "pre_samples": 23,
+          "pre_above_threshold": 9,
+          "post_samples": 4,
+          "post_above_threshold": 2
+        },
+        {
+          "source_label": "Mine pit",
+          "source_kind": "mine water",
+          "pre_samples": 2,
+          "pre_above_threshold": 2,
+          "post_samples": 2,
+          "post_above_threshold": 2
+        },
+        {
+          "source_label": "Pond",
+          "source_kind": "surface water",
+          "pre_samples": 5,
+          "pre_above_threshold": 0,
+          "post_samples": 0,
+          "post_above_threshold": 0
+        },
+        {
+          "source_label": "ETP-inlet",
+          "source_kind": "untreated process water",
+          "pre_samples": 6,
+          "pre_above_threshold": 6,
+          "post_samples": 6,
+          "post_above_threshold": 6
+        },
+        {
+          "source_label": "ETP-outlet",
+          "source_kind": "treated process water",
+          "pre_samples": 6,
+          "pre_above_threshold": 0,
+          "post_samples": 6,
+          "post_above_threshold": 0
+        },
+        {
+          "source_label": "WTP",
+          "source_kind": "water treatment plant",
+          "pre_samples": 1,
+          "pre_above_threshold": 0,
+          "post_samples": 0,
+          "post_above_threshold": 0
+        },
+        {
+          "source_label": "Spring",
+          "source_kind": "spring",
+          "pre_samples": 2,
+          "pre_above_threshold": 0,
+          "post_samples": 1,
+          "post_above_threshold": 0
+        }
+      ],
+      "printed_totals": {
+        "pre_samples": 183,
+        "pre_above_threshold": 37,
+        "post_samples": 50,
+        "post_above_threshold": 28
+      },
+      "computed_row_totals": {
+        "pre_samples": 183,
+        "pre_above_threshold": 37,
+        "post_samples": 56,
+        "post_above_threshold": 28
+      },
+      "readiness": "hold_conflict",
+      "conflicts": [
+        "Post-monsoon component sum56 differs from printed50; preserved without correction.",
+        "Table1 categories HP131/river26/ETP-outlet6 differ from Table4 seasonal sums130/27/12.",
+        "Table3 lists39 location rows with seasonal readings; do not treat these as39 unique affected people or a population-prevalence numerator."
+      ],
+      "limits": [
+        "Groundwater, surface water and process water must not be pooled as drinking-water prevalence.",
+        "BDL means below detection, not zero.",
+        "No disease causation or exclusive source attribution established.",
+        "Report recommendations are not implementation evidence."
+      ],
+      "next_evidence": [
+        "Authenticated CGWB report/laboratory tables and clarification of denominators/categories.",
+        "Original Mantu Das order and dated well-closure/alternative-supply records."
+      ]
+    },
+    "baphlimali_ibm": {
+      "source_id": "mining-ibm-baphlimali2024",
+      "inspection_date": "2024-09-10",
+      "mine_code": "07ORI27001",
+      "operator": "Utkal Alumina International Ltd",
+      "annual_period": "FY2023–24",
+      "backfill_ha": {
+        "proposed": 17.28,
+        "actual": 17.45,
+        "locator": "5b"
+      },
+      "afforestation_ha": {
+        "proposed": 29.51,
+        "actual": 30.2,
+        "locator": "6b"
+      },
+      "reported_total_reclaimed_ha": 141.204,
+      "reported_total_rehabilitated_ha": 88.75,
+      "total_locator": "5d across pp.5–6",
+      "limits": [
+        "Annual work differs from reported cumulative totals; do not sum reclaimed and rehabilitated categories.",
+        "Not a comparable ecological-recovery series with later returns or ASI figures.",
+        "No survival cohort, native biodiversity recovery or final-closure certificate verified."
+      ],
+      "next_evidence": [
+        "Georeferenced category crosswalk and independent recovery measurements.",
+        "Exact government rehabilitation audit cited by ASI and vehicle-emissions corrective closure."
+      ]
+    },
+    "niyamgiri_followup": {
+      "source_id": "mining-xaxa-niyamgiri2014",
+      "reported_meetings": {
+        "from": "2013-07-18",
+        "to": "2013-08-19",
+        "hamlets": 12,
+        "outcome": "all twelve rejected the proposed mining"
+      },
+      "provenance": "Committee account based on state-provided English translations on file, footnote356; indexed excerpt only.",
+      "next_evidence": [
+        "Signed resolutions, observer certifications, original final ministry decision and later orders."
+      ],
+      "current_permission_status": "not_assessed"
+    },
+    "bharatpur_match": {
+      "source_id": "mining-coal-safety49-agenda",
+      "matches_existing_case": "bharatpur-haul-road",
+      "match_fields": {
+        "mine": "Bharatpur OC",
+        "operator": "MCL",
+        "incident_date": "2023-03-14",
+        "cause_label": "Tipper",
+        "fatalities": 1
+      },
+      "additional_incidents": 0,
+      "corrective_action_verified": false,
+      "next_evidence": [
+        "Mine-specific action-taken/inspection closure matched to14March2023 incident."
+      ]
+    },
+    "completion_criteria_met": false,
+    "new_atlas_observations": 0,
     "human_review_claimed": false,
     "website_publication": false
   }

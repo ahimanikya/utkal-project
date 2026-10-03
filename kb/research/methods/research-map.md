@@ -393,3 +393,7 @@ Added original Finance Accounts 2023–24 Volume I and Lok Sabha answer 2607 (11
 ### Mining impact cases · 3 October 2026
 
 RES-054 reuses Baphlimali records and existing air data, adding three source identities and one connected collection. The July2026 Sukinda tribunal mirror remains a discovery lead. No atlas observations added; earlier observations preserved. Follow-ups require original tables, implementation records and measured recovery.
+
+### Mining evidence follow-up · 3 October 2026
+
+Four source identities extend the existing land-and-people collection. An NGT applicant annex is not a judgment; a committee account is not signed village minutes. Table4 row/total conflict held. RES-054 remains open for named source clarification and implementation records.

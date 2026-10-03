@@ -4328,6 +4328,28 @@
       "evidence": [
         "records/mining-land-people-2026-10-03.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-150",
+      "title": "Recover original mining evidence and preserve unresolved outcomes",
+      "category": "research",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-169",
+      "next_action": "Deliver validated research checkpoint; RES-054 original-record and implementation gaps remain open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-169",
+        "UTP-REV-128"
+      ],
+      "evidence": [
+        "records/mining-evidence-followup-2026-10-03.json"
+      ]
     }
   ],
   "decisions": [
@@ -7697,6 +7719,25 @@
       "evidence": [
         "records/mining-land-people-2026-10-03.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-169",
+      "title": "Follow original mining study and implementation records",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "go ahead",
+      "scope": "RES-054 evidence follow-up and routine KB integration under standing authorization; no outreach or public story publication.",
+      "recorded_at": "2026-10-03T08:07:02.965859+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-150"
+      ],
+      "evidence": [
+        "records/mining-evidence-followup-2026-10-03.json"
+      ]
     }
   ],
   "requirements": [
@@ -10726,6 +10767,28 @@
       ],
       "evidence": [
         "records/mining-land-people-2026-10-03.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-128",
+      "title": "Mining evidence and sample-denominator self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "CGWB copy is an applicant annex; post-monsoon totals conflict.",
+        "Niyamgiri committee capture limited to indexed official excerpt.",
+        "Site-specific corrective completion and ecological recovery remain unverified."
+      ],
+      "refs": [
+        "UTP-DEC-169",
+        "UTP-WORK-150"
+      ],
+      "evidence": [
+        "records/mining-evidence-followup-2026-10-03.json"
       ]
     }
   ],

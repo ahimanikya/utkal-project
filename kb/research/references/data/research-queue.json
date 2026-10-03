@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T07:42:12.281122+00:00",
+  "updated_at": "2026-10-03T08:06:11.256094+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2868,19 +2868,23 @@
       "done_when": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-019"
       ],
-      "last_worked_at": "2026-10-03T07:42:12.281122+00:00",
-      "next_step": "Obtain original Sukinda NGT/CGWB tables and monitoring records; Niyamgiri resolutions/final decision; Bharatpur action-taken record; Baphlimali rehabilitation audits and measured recovery. Reuse four cases; no invented current outcomes.",
+      "last_worked_at": "2026-10-03T08:06:11.256094+00:00",
+      "next_step": "Clarify CGWB Table4 post-monsoon56 versus printed50 and source-category totals; obtain original Mantu Das order/action records, signed Niyamgiri resolutions/final ministry order, mine-specific Bharatpur remedy evidence, and Baphlimali area crosswalk/recovery/emissions closure. Avoid repeating unchanged unavailable searches.",
       "evidence_outputs": [
         "sources/mining-sukurangi-eia-summary.md",
         "sources/mining-niyamgiri-scr2013.md",
         "sources/mining-dgms-bharatpur-2024.md",
         "economy/mining-land-and-people.md",
-        "references/data/mining-programme.json"
+        "references/data/mining-programme.json",
+        "sources/mining-cgwb-sukinda2025-annex.md",
+        "sources/mining-ibm-baphlimali2024.md",
+        "sources/mining-coal-safety49-agenda.md",
+        "sources/mining-xaxa-niyamgiri2014.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -2891,6 +2895,13 @@
           "outcome": "four_scoped_cases_and_source_role_model",
           "completion_criteria_met": false,
           "remaining": "Obtain original Sukinda NGT/CGWB tables and monitoring records; Niyamgiri resolutions/final decision; Bharatpur action-taken record; Baphlimali rehabilitation audits and measured recovery. Reuse four cases; no invented current outcomes."
+        },
+        {
+          "run_id": "2026-10-03-mining-evidence-followup",
+          "at": "2026-10-03T08:06:11.256094+00:00",
+          "outcome": "four_source_followup_with_denominator_hold",
+          "completion_criteria_met": false,
+          "remaining": "Clarify CGWB Table4 post-monsoon56 versus printed50 and source-category totals; obtain original Mantu Das order/action records, signed Niyamgiri resolutions/final ministry order, mine-specific Bharatpur remedy evidence, and Baphlimali area crosswalk/recovery/emissions closure. Avoid repeating unchanged unavailable searches."
         }
       ],
       "reuse_before_research": {
@@ -2903,7 +2914,11 @@
           "sources/mining-niyamgiri-scr2013.md",
           "sources/mining-dgms-bharatpur-2024.md",
           "economy/mining-land-and-people.md",
-          "economy/bauxite-mine-identities.md"
+          "economy/bauxite-mine-identities.md",
+          "sources/mining-cgwb-sukinda2025-annex.md",
+          "sources/mining-ibm-baphlimali2024.md",
+          "sources/mining-coal-safety49-agenda.md",
+          "sources/mining-xaxa-niyamgiri2014.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

@@ -832,3 +832,9 @@ The original Finance Accounts separated rounding from a remaining revenue differ
 The mining collection moved beyond output and revenue to water, community decisions, a worker safety incident and the meaning of restoration. Different records answered different questions; the project kept promises, observations and recovery separate.
 
 [Evidence](../records/mining-land-people-2026-10-03.json). Research only.
+
+## UTP-HIS-0204 · When the rows disagree with the total
+
+Following the original groundwater study revealed a sample-total conflict that a summary could conceal. The project kept the discrepancy visible, while a regulator inspection and committee account strengthened the mining histories without pretending that evidence of work proved recovery.
+
+[Evidence](../records/mining-evidence-followup-2026-10-03.json). Research only.
