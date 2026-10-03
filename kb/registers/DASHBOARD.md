@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `69f3665577f893e6e6a1bb1084b2514d74883efb28b063049ee8ee438f9cc569`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `031defb812617695031c3821e0143992417e8abfee76a671deb7e5c8860a6b95`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -394,6 +394,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-167 · Approve merged mining accounting-basis comparison | approved | Ahimanikya Satapathy | Founder acceptance of PR68 and its research findings. Financial reconciliation and facility-use evidence remain open under RES-053. Record questions remain unsent; no independent factual verification or website story publication is implied. |
 | UTP-DEC-168 · Research mine environments, rights, safety and restoration | approved | Ahimanikya Satapathy | RES-054 bounded research and routine KB delivery under standing authorization. No outreach or public website story publication. |
 | UTP-DEC-169 · Follow original mining study and implementation records | approved | Ahimanikya Satapathy | RES-054 evidence follow-up and routine KB integration under standing authorization; no outreach or public story publication. |
+| UTP-DEC-170 · Approve merged mining evidence follow-up | approved | Ahimanikya Satapathy | Founder acceptance of PR70 and its bounded research checkpoint. RES-054 evidence gaps and numerical holds remain open; approval does not establish independent source verification or public website story publication. |
 
 ## Reviews
 
@@ -623,7 +624,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-193 | 2026-10-02T20:31:43.120207+00:00 | Finished scoped chapter reading, corrected sampling description, held six conflicting observations without changing values, and distinguished Parliament schedules from opening dates. | Validate and integrate; retain current-service and reconciliation questions. |
 | UTP-EVT-194 | 2026-10-02T20:38:42.915138+00:00 | PR66 integrated after local checks and GitHub CI passed; 954 numerical values preserved, six observations held for source conflict. | Pursue documented reconciliation and service-evidence gaps; do not infer operating status from absent records. |
 | UTP-EVT-195 | 2026-10-02T20:41:23.471470+00:00 | Founder approved the merged PR66 DMF research follow-up. | Retain and pursue RES-053 financial reconciliation and current-service/community evidence gaps. |
 | UTP-EVT-196 | 2026-10-02T20:56:04.342494+00:00 | Compared original Finance Accounts and Parliament district tables; added two higher-precision observations and six unsent record questions. | Validate bounded findings; obtain named reconciliation and operating records rather than repeat identical searches. |
@@ -633,6 +633,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-200 | 2026-10-03T07:49:13.664438+00:00 | PR69 integrated after local and GitHub checks passed; four cases and shared evidence model added, all956 prior statistical observations unchanged. | Obtain named original and implementation records; preserve uncertainty about current outcomes. |
 | UTP-EVT-201 | 2026-10-03T08:07:02.965859+00:00 | Four source records extend four case histories; groundwater denominator conflict preserved, no new atlas observations. | Validate and integrate; retain source clarification and implementation follow-ups. |
 | UTP-EVT-202 | 2026-10-03T08:13:52.715304+00:00 | PR70 integrated after local and GitHub checks passed; four source records extend case histories with explicit source roles and unresolved sample totals. | Pursue named clarification and implementation records when new evidence is available; no unsupported outcome claims. |
+| UTP-EVT-203 | 2026-10-03T08:20:20.347145+00:00 | Founder approved the merged PR70 mining evidence follow-up. | Retain RES-054 source clarification and implementation dependencies; research drafts remain unpublished. |
 
 ## Deferred extensions
 
