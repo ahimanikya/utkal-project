@@ -43,3 +43,7 @@ IBM’s2023–24 provisional chromite table uses Kendujhar and records21,331 ton
 ## Health and education delivery evidence · 3 October 2026
 
 Wheelchair stock, Curtin study selection and school-furniture installation extend the existing DMF study. Dated supply and certificates remain separate from verified people served, completed degrees or learning outcomes. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Mining funds and public priorities · 3 October 2026
+
+CAG Table4.2 reports **60.11%** of this district DMF’s allocations directed to high-priority sectors duringFY2015–16 toFY2023–24. This is a historical allocation share, not a completion or service-delivery rate. [The six-district study](../../economy/dmf-from-funds-to-services.md) preserves government responses, source qualifications and dated project evidence.

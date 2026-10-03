@@ -194,3 +194,30 @@ The ₹9.33 crore interest figure reconciles at subtotal level, but an underlyin
 The final appendices clarify two further distinctions. The ₹9.49 crore flexi-account comparison is a counterfactual interest calculation, not cash proven missing. The ₹43.94 crore doctor-remuneration finding compares payments with audit-cited prescribed rates; it is not evidence of fictitious doctors or absent treatment. Government described recruitment difficulty in remote areas and urgent specialist needs; CAG retained its objection to higher pay without a declared policy. The 181 engagements in the appendix are a historical programme count, not today's district workforce. [Appendices X–XI and section 6.6.2, printed pp.109–110 and59](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
 
 Village-coverage and approval tables have been captured for the next planning review. Their interpretation will remain on hold until the full Chapter IV discussion and government responses have been read. See the [appendix reconciliation record](../references/data/mining-dmf.json) for exact units, source values, checks and unresolved questions.
+
+## Where mining funds were directed · 3 October 2026
+
+**87.58% of Sundargarh’s DMF allocations in the audited FY2015–16 to FY2023–24 period went to high-priority sectors.** These include drinking water, health, education, environment, welfare, skills and sanitation. This describes the allocation of funds, not completed services or measured improvements in people’s lives. [CAG Table 4.2, printed p.25](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+| District DMF | High-priority share of allocations |
+|---|---:|
+| Sundargarh | 87.58% |
+| Dhenkanal | 82.38% |
+| Mayurbhanj | 76.77% |
+| Keonjhar | 60.11% |
+| Nabarangpur | 48.72% |
+| Jajpur | 45.49% |
+
+The six districts form an audit sample, not a statewide ranking. CAG compared these allocations with the historical 60% benchmark it cited and flagged Jajpur and Nabarangpur. In its January 2026 response, government said the ₹566.71 crore Tomaka–Mangalpur Road project was on hold and Jajpur would prioritise high-priority projects; Nabarangpur cited local and tribal livelihood needs. We have not verified a subsequent reallocation. Minor precision differences between tables remain in the evidence record, without changing existing sanction values.
+
+### Which villages benefited matters too
+
+In Keonjhar and Sundargarh, the audit recorded **488 directly affected and 96 indirectly affected villages without a DMF project**, alongside 2,224 projects costing ₹983.32 crore in 976 villages classified by the source as non-affected during FY2015–16 to FY2023–24. This is about DMF coverage under historical classifications; it does not mean uncovered villages received no other government services. Government cited block-level public interest and prioritisation of affected villages; CAG retained its coverage finding. [Section 4.3.5 and Appendix VIII, printed pp.22–23,107](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+Planning also requires identifying people, maintaining plans and recording approvals. Government acknowledged gaps in annual and long-term plans and said directions had been issued. Those directions are not evidence that plans were completed. The new Sukrangi housing case records 18 identified families, a ₹90 lakh sanction and an October 2023 release, with houses still unconstructed in the report’s January 2026 account. It is separate from the Mankedia colony at Kusumundia; present construction status remains unknown. [Sections 4.2 and4.3.4, printed pp.19–20,22](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+Some approval and utilisation figures need further reconciliation: the report gives inconsistent EC meeting dates, different Dhenkanal financial values, and conflicting affected-area identification statements. We retain these as attributed findings with government responses and withhold unqualified headlines until original records resolve them.
+
+### Desk research milestone and remaining evidence
+
+The defined mining-receipts and DMF desk study is complete: a six-year actual-receipts series, six-district fund-stage sample, 23 dated project/programme cases, full relevant Chapters III–VII and supporting appendices are linked in the KB. Completion and observed function remain separate fields; several completed assets were not delivering their intended service at inspection. Appendix checks cover selected arithmetic, not every source row. This milestone does not certify current operations, resolve every source discrepancy or constitute human editorial approval. Follow-ups retain their 9–10 October retry dates. Next research: mine environments, rights, safety and restoration.

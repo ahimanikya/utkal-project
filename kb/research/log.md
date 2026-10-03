@@ -446,3 +446,7 @@ RES-053: completed remaining ChapterVI sections6.6.11–6.6.15; added32 observat
 ## DMF appendix reconciliation · 3 October 2026
 
 RES-053: AppendixI–XI text reviewed, selected totals reconciled; eight existing observations enhanced, two held. No new duplicate statistics. ChapterIV/current evidence still pending; no website release.
+
+## DMF planning and desk milestone · 3 October 2026
+
+RES-053 defined desk deliverable completed: fullChapterIV and governmentresponses;19new scoped observations,23total project/programme cases. Six district allocation shares andadversecoverage evidence retained; conflicts quarantined. NextRES-054. No websitepublication.

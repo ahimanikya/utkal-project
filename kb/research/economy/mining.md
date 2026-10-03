@@ -101,3 +101,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## From collections to documented use · 2 October 2026
 
 [The DMF evidence](dmf-from-funds-to-services.md) now distinguishes audit-reported recovery, unreturned completed-project balances and utilisation certificates. Fund eligibility disputes, record differences and foregone interest are different findings, not an additive loss total. Current resolution remains open.
+
+## DMF desk evidence milestone · 3 October 2026
+
+The [funds-to-services study](dmf-from-funds-to-services.md) completes its defined desk scope with six-district finance/planning evidence and23dated project/programme cases, linked to the [actual mining-receipts series](mining-receipts.md). Current operations, source conflicts and revenue-subhead disaggregation remain explicit follow-ups. The next research batch concerns mine environments, rights, safety and restoration.

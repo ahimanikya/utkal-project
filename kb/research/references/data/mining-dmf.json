@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T11:35:43.176414+00:00",
+  "updated_at": "2026-10-03T12:39:03.201902+00:00",
   "run_id": "2026-10-02-mining-dmf",
   "source_id": "mining-cag-dmf2026",
   "sample_districts": [
@@ -272,7 +272,26 @@
     "dmf-koira-mandaps-completed",
     "dmf-koira-mandaps-completed-cost",
     "dmf-koira-mandaps-not-intended-use",
-    "dmf-koira-mandaps-affected-cost"
+    "dmf-koira-mandaps-affected-cost",
+    "dmf-jajpur-high-priority-allocation-share",
+    "dmf-jajpur-high-priority-allocation",
+    "dmf-nabarangpur-high-priority-allocation-share",
+    "dmf-nabarangpur-high-priority-allocation",
+    "dmf-dhenkanal-high-priority-allocation-share",
+    "dmf-dhenkanal-high-priority-allocation",
+    "dmf-keonjhar-high-priority-allocation-share",
+    "dmf-keonjhar-high-priority-allocation",
+    "dmf-mayurbhanj-high-priority-allocation-share",
+    "dmf-mayurbhanj-high-priority-allocation",
+    "dmf-sundargarh-high-priority-allocation-share",
+    "dmf-sundargarh-high-priority-allocation",
+    "dmf-planning-direct-villages-uncovered",
+    "dmf-planning-indirect-villages-uncovered",
+    "dmf-planning-nonaffected-villages-covered",
+    "dmf-planning-nonaffected-projects",
+    "dmf-planning-nonaffected-expenditure",
+    "dmf-sukrangi-families",
+    "dmf-sukrangi-housing-sanction"
   ],
   "reused_observation_ids": [
     "mining-dmf-contributions-2024",
@@ -708,6 +727,23 @@
       "current_service_status": "unknown",
       "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
       "human_review_claimed": false
+    },
+    {
+      "id": "jajpur-sukrangi-resettlement",
+      "title": "Sukrangi housing for affected Kaliapani families",
+      "district": "jajpur",
+      "locator": "4.3.4 printed22/PDF56",
+      "completion_evidence": "Houses not constructed as of January2026 in the report; no completion or handover record obtained.",
+      "service_observation_date": "2026-01",
+      "service_status_at_observation": "Housing not constructed;18 identified families not rehabilitated through this housing project.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Accepted observation; DMFs will identify, prepare and maintain lists of affected people for resettlement.",
+      "audit_rejoinder": "Identification should have followed establishment of DMFs; houses remained unconstructed.",
+      "scope_limit": "18families identified2023–24;90lakh sanctioned, funds released11October2023. Families are not a verified house count. Separate from87-house Mankedia colony at Kusumundia.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
     }
   ],
   "conflicts": [
@@ -853,6 +889,34 @@
       "locator": "AppendixIX printed108/PDF152",
       "treatment": "Count difference3269minus2512=757. Money row sum9733.36 differsfromprinted9733.37 by0.01crore; printed aggregate subtraction gives2751.78 versusprinted2751.79. Amount difference is not the value of757unauthorised projects. Hold interpretation pendingfull4.3.8andresponse; retain0.01crore sourceprecision disagreement.",
       "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-planning-table41-scope",
+      "locator": "Table4.1 printed24/PDF58 versusTable5.1 printed30/PDF66",
+      "treatment": "Dhenkanal4.1release56.48/use55.89 versus5.1release56.39/expenditure44.14; Jajpur4.1use1164.43 versus5.1expenditure1164.42. Dhenkanal notidentified in4.1cell but identified in4.3.1. Preserve raw, hold cross-table replacement/aggregate. Common-category percentages30.67/22.67 match utilisation denominator although prose says sanctioned amount.",
+      "source_id": "mining-cag-dmf2026",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-planning-map-chronology",
+      "locator": "4.3.1 printed20–21/PDF54–55",
+      "treatment": "Keonjhar source61monthdelay afterOctober2017 instructions versus governmentNovember2017 list supply date unresolved. Do not repair dates or derive current coverage.",
+      "source_id": "mining-cag-dmf2026",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-planning-approval-chronology",
+      "locator": "4.3.8 printed26–27/PDF60–61",
+      "treatment": "14ECmeetings throughJanuary2024 in initial passage versus noBoT/ECmeeting afterNovember2022 in rejoinder. Hold unqualified757project headline pending minutes and project IDs; government disputes lackofapproval. AppendixIX0.01crore precision issues retained, moneydifference notvalueof757projects.",
+      "source_id": "mining-cag-dmf2026",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-planning-allocation-precision",
+      "locator": "Table4.2 printed25/PDF59 versusTable5.1",
+      "treatment": "Table4.2 Jajpur2848.76/Mayurbhanj109.16 versus sanctions2848.77/109.17 elsewhere; Keonjhar components9733.36 versusprintedtotal9733.37. Preserve table-specific allocation denominator, no revised sanctions or combined precise total.",
+      "source_id": "mining-cag-dmf2026",
+      "retry_after": "2026-10-10"
     }
   ],
   "human_review_claimed": false,
@@ -922,12 +986,13 @@
     "sundargarh": "2025-03-22"
   },
   "review_coverage": {
-    "updated_at": "2026-10-03T11:35:43.176414+00:00",
+    "updated_at": "2026-10-03T12:39:03.201902+00:00",
     "complete_chapters": [
       "III",
+      "IV",
       "V",
-      "VII",
-      "VI"
+      "VI",
+      "VII"
     ],
     "complete_subsections": [
       "5.1",
@@ -956,7 +1021,7 @@
       "6.6.14",
       "6.6.15"
     ],
-    "remaining": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October.",
+    "remaining": "Defined desk deliverable complete. Original project IDs/current service evidence, royalty/auction disaggregation and source conflicts remain follow-ups; retries9–10October. No all-report/all-row verification claim.",
     "not_full_report_review": true,
     "appendices_text_reviewed": [
       "I",
@@ -1753,7 +1818,7 @@
         "locator": "AppendixVIII printed107/PDF151",
         "period": "FY2015–16 toFY2023–24",
         "geography": "Keonjhar andSundargarh",
-        "review_status": "held_pending_chapter_iv_context",
+        "review_status": "context_checked_historical_coverage",
         "raw_source_values": {
           "money_unit": "INR crore",
           "keonjhar": {
@@ -1780,8 +1845,14 @@
           }
         },
         "reconciliation": "Two districtrows sum3921villages;488directlyaffected and96indirectlyaffected notcovered;2224projects/983.32crore in source-classified nonaffected villages.",
-        "limits": "Capture only; publication pending full4.3.5 context andgovernmentresponse. Classification notcurrent exposure,censuspopulation or proof residents received no other services. No new public atlas metric yet.",
-        "related_observation_ids": [],
+        "limits": "Full4.3.5 and4.4 context/replies now read. Historical village classification; noDMFproject is not no other governmentservice. Samepublication, not independent corroboration.",
+        "related_observation_ids": [
+          "dmf-planning-direct-villages-uncovered",
+          "dmf-planning-indirect-villages-uncovered",
+          "dmf-planning-nonaffected-villages-covered",
+          "dmf-planning-nonaffected-projects",
+          "dmf-planning-nonaffected-expenditure"
+        ],
         "human_review_claimed": false
       },
       {
@@ -1790,7 +1861,7 @@
         "locator": "AppendixIX printed108/PDF152",
         "period": "Trust Board/EC meeting series; calendar dates absent from appendix",
         "geography": "Keonjhar DMF",
-        "review_status": "held_pending_chapter_iv_context",
+        "review_status": "hold_conflict",
         "raw_source_values": {
           "money_unit": "INR crore",
           "board_approved_projects": 2480,
@@ -1817,7 +1888,7 @@
           ]
         },
         "reconciliation": "Count difference3269minus2512=757. Money row sum9733.36 differsfromprinted9733.37 by0.01crore; printed aggregate subtraction gives2751.78 versusprinted2751.79.",
-        "limits": "Amount difference is not the value of757unauthorised projects. Hold interpretation pendingfull4.3.8andresponse; retain0.01crore sourceprecision disagreement.",
+        "limits": "Full4.3.8 andresponse now read. Approvalmeeting chronology conflicts and government disputes conclusion; original minutes needed. Moneydifference is not costof757projects. Precision disagreement retained.",
         "related_observation_ids": [],
         "human_review_claimed": false
       },
@@ -1896,6 +1967,217 @@
     ],
     "review_scope": "AppendicesI–XI includingIV(A)/(B), printed93–110/PDF137–154: all appendix text inspected, selected aggregate/row arithmetic reconciled. PDF138–140,142,146–148,152,154 visually checked. Not a complete recalculation of every row, date, statutory rate or bank record. Reused saved original, not a fresh publisher fetch or independent corroboration.",
     "new_statistical_observations": 0,
+    "independent_corroboration": false
+  },
+  "planning_review": {
+    "run_id": "2026-10-03-dmf-planning",
+    "checked_at": "2026-10-03T12:39:03.201902+00:00",
+    "source_id": "mining-cag-dmf2026",
+    "scope": "Full Chapter IV, printed pp.19–28 / PDF53–62: text read including government responses and audit rejoinders. Numeric pages PDF56–61 visually inspected. Appendix VIII/IX contextualised. Saved original reused; no fresh publisher fetch or independent corroboration.",
+    "period": "FY2015–16 to FY2023–24",
+    "money_unit": "INR crore unless explicitly lakh",
+    "findings": [
+      {
+        "id": "accounting-procedures",
+        "locator": "4.1 printed19/PDF53",
+        "finding": "Detailed accounting procedures/formats and investment guidelines not notified in audit. Institutional mechanismOctober2017 and fund-flow memorandumAugust2020 did exist.",
+        "government_reply": "No specific reply in this subsection; do not infer absence of all governance."
+      },
+      {
+        "id": "plans",
+        "locator": "4.2 printed19–20/PDF53–54",
+        "finding": "Six sampled DMFs sanctioned projects without Perspective/Master plans. The2015–23 cohort excludesFY2023–24:12992projects,16681.82crore sanctioned; asofMarch2024,3350ongoing with10964.21crore sanctions,543notstarted with257.70crore sanctions,42dropped with108.55crore sanctions after60lakh spending. No new atlas totals duplicate the existing six-district2015–24 portfolio.",
+        "government_reply": "January2026: major DMFs lacked annual/long-term plans; directions issued to prepare. Directions do not prove completed plans."
+      },
+      {
+        "id": "affected-areas",
+        "locator": "4.3.1 printed20–21/PDF54–55",
+        "finding": "Five identified areasAugust2016–August2018 with7–30month delays; Nabarangpur not identified. OnlyKeonjhar/Sundargarh ORSAC updates reported. Mapping chronology and Dhenkanal Table4.1 conflict held below.",
+        "government_reply": "January2026: Jajpur askedORSAC April/May2025; Keonjhar/Sundargarh lists furnishedNovember2017/October2022. Historical mapping, not current boundary verification."
+      },
+      {
+        "id": "affected-people",
+        "locator": "4.3.2 printed21/PDF55",
+        "finding": "OnlyJajpur amongsix had identified affected people during2015–24. This is a register finding, not proof other public support never occurred.",
+        "government_reply": "January2026: identification ongoing."
+      },
+      {
+        "id": "endowment",
+        "locator": "4.3.3 printed21–22/PDF55–56",
+        "finding": "Six sampled DMFs had not created endowment funds. Existing contributions/interest totals reused. The quoted historical rule says a reasonable sum may be kept; CAG describes required funds. Preserve attribution, not a new current legal interpretation.",
+        "government_reply": "January2026: committee formed to recommend modalities; creation not established."
+      },
+      {
+        "id": "village-coverage",
+        "locator": "4.3.5 printed22–23/PDF56–57; AppendixVIII",
+        "finding": "Two district rows reconcile488direct/96indirect uncovered villages and976nonaffected villages receiving2224projects with983.32crore spent. Ostali/Biswanathpur inspected27November2024 and Lata9April2025:49proposals2016–17to2022–23, none implemented, no rejection reasons recorded.",
+        "government_reply": "January2026:622projects sanctionedHemgir;12block-level implementations in public interest; Keonjhar prioritising affected villages. CAG retained uncovered-village observation. Do not equate622 here with620proposals in4.3.8."
+      },
+      {
+        "id": "common-category",
+        "locator": "4.3.6 printed23–25/PDF57–59",
+        "finding": "CAG questioned a common-affected category absent from cited historical rules. Table4.1 totals and denominator wording are conflicted; retained as raw capture below. No current compliance ratio calculated.",
+        "government_reply": "January2026: directedDMFs to maintain prescribed ratios; rebalancing not verified."
+      },
+      {
+        "id": "high-priority",
+        "locator": "4.3.7 printed25–26/PDF59–60",
+        "finding": "Six Table4.2 district allocation shares recorded including below-source-benchmark Jajpur45.49% andNabarangpur48.72%. Allocation is not utilisation. The60%benchmark is the report’s historical framework, not certified current law.",
+        "government_reply": "January2026: accepted observation; Jajpur566.71crore Tomaka–Mangalpur Road onhold, EC to prioritise high-priority projects; Nabarangpur cited local needs and tribal livelihoods. Neither reallocation nor permanent cancellation established."
+      },
+      {
+        "id": "approvals",
+        "locator": "4.3.8 printed26–27/PDF60–61; AppendixIX",
+        "finding": "Keonjhar:2480BoT+32EC approvals against3269sanctions gives757audit-reported gap. Chronology held below.170post-facto approvals329.80crore (6days–24months), including44/164.82crore after6months. ScheduledAreas:2704projects8718.08crore requiredGramSabha;1730/2984.28crore reported executed withoutapproval. Sundargarh5/102.71crore withoutBoT;620Hemgir proposalsJune2022 notconsidered,26others withoutGramSabha. These cohorts can overlap; no combined violation/loss total.",
+        "government_reply": "January2026: Keonjhar said all projects had dueBoTapproval; Sundargarh cited prior, recurring, urgent/seasonal cases. CAG disagreed. Original minutes/project registers not retrieved."
+      },
+      {
+        "id": "prioritisation",
+        "locator": "4.4 printed27–28/PDF61–62",
+        "finding": "19departmentalDMFcells existed; district proposals did not follow described department→P&C supportcell→DMFchair prioritisation route. Repeats village-coverage evidence rather than a new count. Historical workflow only.",
+        "government_reply": "January2026: holistic development, equitable outreach, consultations and approvals; CAG retained process/eligibility objection."
+      }
+    ],
+    "high_priority_allocations": [
+      {
+        "district": "jajpur",
+        "total_projects": 6414,
+        "total_allocation_crore": 2848.76,
+        "high_priority_projects": 4000,
+        "high_priority_allocation_crore": 1295.81,
+        "high_priority_share_percent": 45.49,
+        "other_priority_projects": 2414,
+        "other_priority_allocation_crore": 1552.95,
+        "other_priority_share_percent": 54.51
+      },
+      {
+        "district": "nabarangpur",
+        "total_projects": 7,
+        "total_allocation_crore": 1.17,
+        "high_priority_projects": 4,
+        "high_priority_allocation_crore": 0.57,
+        "high_priority_share_percent": 48.72,
+        "other_priority_projects": 3,
+        "other_priority_allocation_crore": 0.6,
+        "other_priority_share_percent": 51.28
+      },
+      {
+        "district": "dhenkanal",
+        "total_projects": 623,
+        "total_allocation_crore": 61.62,
+        "high_priority_projects": 460,
+        "high_priority_allocation_crore": 50.76,
+        "high_priority_share_percent": 82.38,
+        "other_priority_projects": 163,
+        "other_priority_allocation_crore": 10.86,
+        "other_priority_share_percent": 17.62
+      },
+      {
+        "district": "keonjhar",
+        "total_projects": 3269,
+        "total_allocation_crore": 9733.37,
+        "high_priority_projects": 2588,
+        "high_priority_allocation_crore": 5851.1,
+        "high_priority_share_percent": 60.11,
+        "other_priority_projects": 681,
+        "other_priority_allocation_crore": 3882.26,
+        "other_priority_share_percent": 39.89
+      },
+      {
+        "district": "mayurbhanj",
+        "total_projects": 652,
+        "total_allocation_crore": 109.16,
+        "high_priority_projects": 602,
+        "high_priority_allocation_crore": 83.8,
+        "high_priority_share_percent": 76.77,
+        "other_priority_projects": 50,
+        "other_priority_allocation_crore": 25.36,
+        "other_priority_share_percent": 23.23
+      },
+      {
+        "district": "sundargarh",
+        "total_projects": 6470,
+        "total_allocation_crore": 8193.42,
+        "high_priority_projects": 5613,
+        "high_priority_allocation_crore": 7175.45,
+        "high_priority_share_percent": 87.58,
+        "other_priority_projects": 857,
+        "other_priority_allocation_crore": 1017.97,
+        "other_priority_share_percent": 12.42
+      }
+    ],
+    "table41_raw_capture": {
+      "rows": [
+        {
+          "district": "jajpur",
+          "sanctioned": 2848.77,
+          "released": 1514.89,
+          "utilised": 1164.43,
+          "direct": 426.11,
+          "indirect": 507.02,
+          "common": 231.3
+        },
+        {
+          "district": "keonjhar",
+          "sanctioned": 9733.37,
+          "released": 5701.34,
+          "utilised": 4410.1,
+          "direct": 2395.71,
+          "indirect": 661.61,
+          "common": 1352.78
+        },
+        {
+          "district": "mayurbhanj",
+          "sanctioned": 109.17,
+          "released": 98.64,
+          "utilised": 85.99,
+          "direct": 72.26,
+          "indirect": 13.73,
+          "common": 0
+        },
+        {
+          "district": "sundargarh",
+          "sanctioned": 8193.42,
+          "released": 5788.32,
+          "utilised": 4386.71,
+          "direct": 2583.67,
+          "indirect": 808.38,
+          "common": 994.65
+        },
+        {
+          "district": "dhenkanal",
+          "sanctioned": 61.62,
+          "released": 56.48,
+          "utilised": 55.89,
+          "direct": null,
+          "indirect": null,
+          "common": null
+        },
+        {
+          "district": "nabarangpur",
+          "sanctioned": 1.17,
+          "released": 1.17,
+          "utilised": 1.17,
+          "direct": null,
+          "indirect": null,
+          "common": null
+        }
+      ],
+      "printed_totals": {
+        "sanctioned": 20947.52,
+        "released": 13160.84,
+        "utilised": 10104.28,
+        "direct": 5477.75,
+        "indirect": 1990.72,
+        "common": 2578.73
+      },
+      "publication_readiness": "hold_conflict",
+      "common_projects": 1114,
+      "common_sanctions": 4541.66,
+      "common_utilisation": 2578.73
+    },
+    "government_reply_provenance": "January2026 responses reproduced by CAG; original letters not retrieved",
+    "human_review_claimed": false,
     "independent_corroboration": false
   }
 }

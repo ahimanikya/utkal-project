@@ -43,3 +43,7 @@ The DMF study records school-furniture supply during July–September2021 at a r
 ## Infrastructure and sustained service · 3 October 2026
 
 Three-block lighting evidence now retains July2024 reports of1713defunct lights out of2320installed. The audit monetary assessment is modelled service value, not cash loss; later restoration is unverified. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Mining funds and public priorities · 3 October 2026
+
+CAG Table4.2 reports **76.77%** of this district DMF’s allocations directed to high-priority sectors duringFY2015–16 toFY2023–24. This is a historical allocation share, not a completion or service-delivery rate. [The six-district study](../../economy/dmf-from-funds-to-services.md) preserves government responses, source qualifications and dated project evidence.

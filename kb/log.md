@@ -451,3 +451,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · DMF appendix reconciliation
 
 [Research receipt](records/dmf-appendices-2026-10-03.json): Supporting appendices enrich existing observations without duplication. Works-collection and quarry-demand aggregates held; original values and review history preserved. Selected checks do not validate every source row. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF planning and desk milestone
+
+[Research receipt](records/dmf-planning-2026-10-03.json): FullChapterIV joins historical allocations, village coverage, approvals and responses to saved funding/service evidence. RES-053 desk deliverable complete; current records and source conflicts remain open with retries. NextRES-054. No website release.

@@ -263,3 +263,7 @@ ChapterVI now complete across saved batches; do not repeat project sections. Nex
 ## DMF appendix reconciliation · 3 October 2026
 
 AppendicesI–XI text reviewed and selected arithmetic reconciled; do not repeat captured totals. Next readfullChapterIV and governmentresponses, joining AppendixVIII/IX before publishing planning claims. Then original/current service outcomes and royalty/auction receipt split. Retain source-specific retries9–10October.
+
+## DMF planning and desk milestone · 3 October 2026
+
+RES-053 defined desk deliverable complete. Next eligible task RES-054: mine environments, rights, safety and restoration. Retry original/current service records and unresolved source conflicts9–10October; royalty/auction split remains a separate follow-up. Reuse saved CAG chapters and do not re-count their figures.

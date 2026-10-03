@@ -62,3 +62,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Appendix reconciliation and claim controls · 3 October 2026
 
 [DMF research](../economy/dmf-from-funds-to-services.md) now links eight existing collection observations to their supporting appendices without adding duplicate statistics. Two collection figures are held pending reconciliation. Exact rupee totals, rounded body figures, assessed liabilities and actual recoveries remain separate; planning tables await full ChapterIV context.
+
+## Allocation is one stage of the story · 3 October 2026
+
+[DMF planning evidence](../economy/dmf-from-funds-to-services.md) adds six district high-priority allocation shares, including Sundargarh87.58% and Jajpur45.49% forFY2015–16 toFY2023–24. Allocation is not spending or service delivery. Village coverage uses the two-district historical audit sample; precise Table4.1 comparisons and meeting chronology remain held.

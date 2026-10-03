@@ -55,3 +55,7 @@ Mobile-clinic credential checks and COVID hospital payments extend the health-se
 ## Infrastructure and sustained service · 3 October 2026
 
 Hemgiri sanitation, high-mast lighting and Koira community-hall cases now connect capital works to operating arrangements and maintenance. Historical audit observations are not current service availability. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Mining funds and public priorities · 3 October 2026
+
+CAG Table4.2 reports **87.58%** of this district DMF’s allocations directed to high-priority sectors duringFY2015–16 toFY2023–24. This is a historical allocation share, not a completion or service-delivery rate. [The six-district study](../../economy/dmf-from-funds-to-services.md) preserves government responses, source qualifications and dated project evidence.

@@ -55,3 +55,7 @@ Medical-coaching cohorts now have a source-reported examination result, distinct
 ## Infrastructure and sustained service · 3 October 2026
 
 The settlement-colony case retains a reported ₹15.12lakh contractor penalty recovery alongside incomplete housing. Seedling distribution is kept distinct from surviving trees; chronology and stock-balance questions remain open. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Mining funds and public priorities · 3 October 2026
+
+CAG Table4.2 reports **45.49%** of this district DMF’s allocations directed to high-priority sectors duringFY2015–16 toFY2023–24. This is a historical allocation share, not a completion or service-delivery rate. [The six-district study](../../economy/dmf-from-funds-to-services.md) preserves government responses, source qualifications and dated project evidence.

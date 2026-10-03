@@ -405,3 +405,7 @@ Six cases extend the existing DMF collection; existing sanitation and forest pag
 ## DMF appendix reconciliation · 3 October 2026
 
 Existing CAG source reused across body/appendices; eight observations enriched rather than duplicated. All13appendix components catalogued; selected arithmetic verification does not validate every source row.
+
+## DMF planning and desk milestone · 3 October 2026
+
+FullChapterIV joined to existingCAGsource andAppendicesVIII/IX. Sukrangi housing distinct fromKusumundia Mankedia colony. Existing fund totals reused; newallocation/coverage measures scoped. No new independent corroboration.

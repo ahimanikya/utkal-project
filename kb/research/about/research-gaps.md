@@ -430,3 +430,7 @@ Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV pl
 ## DMF appendix reconciliation · 3 October 2026
 
 Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October. AppendixIIIinputs,Vtotals,VIcasecoverage,VIIprecision andIXmoneyprecision remain held or qualified; retry10October.
+
+## DMF planning and desk milestone · 3 October 2026
+
+DefinedRES-053 desk scope complete, not all evidence gaps closed. NewTable4.1 scope/denominator, mapping/meeting chronology andallocation precision questions retained with10Octoberretry. Current project records retain9Octoberretry; royalty/auction split separatefollow-up.

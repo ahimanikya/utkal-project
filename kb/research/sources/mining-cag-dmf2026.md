@@ -43,3 +43,7 @@ Complete sections 6.6.11–6.6.15, printed70–75/PDF108–113; numeric passages
 ## Appendix reconciliation · 3 October 2026
 
 AppendicesI–XI includingIV(A)/(B), printed93–110/PDF137–154: all appendix text inspected, selected aggregate/row arithmetic reconciled. PDF138–140,142,146–148,152,154 visually checked. Not a complete recalculation of every row, date, statutory rate or bank record. Reused saved original, not a fresh publisher fetch or independent corroboration. All13appendix components catalogued. Eight existing observations enhanced; no duplicate statistic or new source identity. Works/quarry-demand aggregates held; date, subtotal and precision issues retained. Planning interpretation awaits fullChapterIV and responses.
+
+## Planning and institutional arrangements · 3 October 2026
+
+Full Chapter IV, printed pp.19–28 / PDF53–62: text read including government responses and audit rejoinders. Numeric pages PDF56–61 visually inspected. Appendix VIII/IX contextualised. Saved original reused; no fresh publisher fetch or independent corroboration. Six district allocation rows, village coverage, government replies and a separate Sukrangi housing case added. Table4.1 finance/scope, mapping chronology, approval-meeting chronology and Table4.2 precision remain qualified or held. Relevant ChaptersIII–VII now read across saved batches; this is not an all-report or all-row validation claim.

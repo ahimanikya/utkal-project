@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T11:35:43.176414+00:00",
+  "updated_at": "2026-10-03T12:39:25.107567+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2304,5 +2304,20 @@
     "observations_enhanced": 8,
     "existing_observations_held": 2,
     "completion_criteria_met": false
+  },
+  "dmf_planning_checkpoint": {
+    "run_id": "2026-10-03-dmf-planning",
+    "dataset": "references/data/mining-dmf.json",
+    "project_cases": 23,
+    "observations_added": 19,
+    "chapters_text_reviewed": [
+      "III",
+      "IV",
+      "V",
+      "VI",
+      "VII"
+    ],
+    "completion_criteria_met": true,
+    "scope": "Defined RES-053 desk study; current services and conflicts unresolved."
   }
 }

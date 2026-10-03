@@ -201,3 +201,7 @@ Infrastructure cases are historical research drafts. Current facility operation,
 ## DMF appendix reconciliation · 3 October 2026
 
 Works-collection and quarry-demand observations now held from headline use. Values preserved with reviewhistory; no current recovery, independent bank evidence, humanreview or websitepublication claimed.
+
+## DMF planning and desk milestone · 3 October 2026
+
+Planning evidence supports a qualified historical allocation story; current service delivery not established. Six district shares andadverse villagecoverage retained. Unresolved Table4.1/approval assertions held. No humanreview orwebsitepublication.

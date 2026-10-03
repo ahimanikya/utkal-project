@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T11:35:43.176414+00:00",
+  "updated_at": "2026-10-03T12:39:25.107567+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2784,14 +2784,14 @@
       "title": "Mining revenues and DMF outcomes",
       "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "target": "economy/mining.md",
-      "status": "in_progress",
-      "attempts": 8,
+      "status": "completed",
+      "attempts": 9,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-018"
       ],
-      "last_worked_at": "2026-10-03T11:35:43.176414+00:00",
-      "next_step": "AppendicesI–XI text reviewed and selected arithmetic reconciled; do not repeat captured totals. Next readfullChapterIV and governmentresponses, joining AppendixVIII/IX before publishing planning claims. Then original/current service outcomes and royalty/auction receipt split. Retain source-specific retries9–10October.",
+      "last_worked_at": "2026-10-03T12:39:25.107567+00:00",
+      "next_step": "RES-053 defined desk deliverable complete. Next eligible task RES-054: mine environments, rights, safety and restoration. Retry original/current service records and unresolved source conflicts9–10October; royalty/auction split remains a separate follow-up. Reuse saved CAG chapters and do not re-count their figures.",
       "evidence_outputs": [
         "economy/dmf-from-funds-to-services.md",
         "references/data/mining-dmf.json",
@@ -2804,7 +2804,7 @@
         "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
-      "blocker": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October.",
+      "blocker": null,
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-dmf",
@@ -2861,6 +2861,13 @@
           "outcome": "appendix_reconciliation_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October."
+        },
+        {
+          "run_id": "2026-10-03-dmf-planning",
+          "at": "2026-10-03T12:39:25.107567+00:00",
+          "outcome": "planning_review_and_defined_desk_deliverable_complete",
+          "completion_criteria_met": true,
+          "remaining": "Original/current evidence and conflicts remain follow-ups; no feasibility, current compliance or human-review approval."
         }
       ],
       "reuse_before_research": {
@@ -3015,8 +3022,74 @@
           "source_ids": [
             "mining-cag-dmf2026"
           ]
+        },
+        {
+          "topic": "dmf-planning-table41-scope",
+          "retry_after": "2026-10-10",
+          "gap": "Dhenkanal4.1release56.48/use55.89 versus5.1release56.39/expenditure44.14; Jajpur4.1use1164.43 versus5.1expenditure1164.42. Dhenkanal notidentified in4.1cell but identified in4.3.1. Preserve raw, hold cross-table replacement/aggregate. Common-category percentages30.67/22.67 match utilisation denominator although prose says sanctioned amount.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-map-chronology",
+          "retry_after": "2026-10-10",
+          "gap": "Keonjhar source61monthdelay afterOctober2017 instructions versus governmentNovember2017 list supply date unresolved. Do not repair dates or derive current coverage.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-approval-chronology",
+          "retry_after": "2026-10-10",
+          "gap": "14ECmeetings throughJanuary2024 in initial passage versus noBoT/ECmeeting afterNovember2022 in rejoinder. Hold unqualified757project headline pending minutes and project IDs; government disputes lackofapproval. AppendixIX0.01crore precision issues retained, moneydifference notvalueof757projects.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-planning-allocation-precision",
+          "retry_after": "2026-10-10",
+          "gap": "Table4.2 Jajpur2848.76/Mayurbhanj109.16 versus sanctions2848.77/109.17 elsewhere; Keonjhar components9733.36 versusprintedtotal9733.37. Preserve table-specific allocation denominator, no revised sanctions or combined precise total.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "Separate royalty and auction-premium receipts",
+          "retry_after": "2026-10-10",
+          "gap": "Saved actual-receipts minor-head categories do not establish a clean royalty/auction-premium split. Seek original detailed departmental receipts; preserve total actual series.",
+          "source_ids": [
+            "mining-finance-accounts2025"
+          ]
         }
-      ]
+      ],
+      "completed_at": "2026-10-03T12:39:25.107567+00:00",
+      "completion_evidence": {
+        "scope": "Bounded desk deliverable; no current operating certification or human review",
+        "criteria": [
+          {
+            "criterion": "Actual public receipts reconciled",
+            "evidence": "references/data/mining-receipts.json; economy/mining-receipts.md",
+            "result": "Six-year actual series and Finance Accounts categories retained; royalty/auction split unresolved."
+          },
+          {
+            "criterion": "District DMF sample",
+            "evidence": "references/data/mining-dmf.json district_rows and planning_review",
+            "result": "Six district fund stages and priority allocations; conflicting tables preserved."
+          },
+          {
+            "criterion": "Full relevant CAG chapters and responses",
+            "evidence": "references/data/mining-dmf.json review_coverage",
+            "result": "ChaptersIII–VII full text; appendicesI–XI text, selected arithmetic. Responses attributed to CAG, not independently retrieved letters."
+          },
+          {
+            "criterion": "At least three project completion/function links where available",
+            "evidence": "references/data/mining-dmf.json projects",
+            "result": "23 cases with separate completion and observed-function fields, including keonjhar-dhh-nicu-picu, deogan-hostels and birsa-munda-hockey-dmf. Functioning and nonfunctioning evidence retained; current status unknown."
+          }
+        ]
+      }
     },
     {
       "id": "RES-054",
