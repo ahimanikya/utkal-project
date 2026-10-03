@@ -5,7 +5,7 @@ description: "A defined visitor-service hypothesis with historical procurement e
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-03T07:12:33.313215+00:00"}
 subjects: ["economy", "places", "history", "governance"]
-sources: [{"id": "enterprise-otdc-walk-rfq2022", "title": "OTDC heritage-walk RFQ dated 14 September 2022", "resource": "https://odishatourism.gov.in/content/dam/tourism/home/tender-document/RFQ.pdf"}, {"id": "enterprise-puri-walk-offer", "title": "I Love Jagannath: advertised Puri heritage-walk service", "resource": "https://ilovejagannath.com/heritage-walk"}, {"id": "puri-guide-app-directory", "title": "Odisha Tourism alternate tour-guide directory", "resource": "https://apps.odishatourism.gov.in/find-tour-guide"}, {"id": "puri-approved-operators", "title": "Approved Tour Operators — Puri entries", "resource": "https://dot.odisha.gov.in/en/tourism-department-info-planner/approved-tour-operators"}, {"id": "puri-heritage-golden-triangle", "title": "Heritage Tours — Golden Triangle itinerary", "resource": "https://www.heritagetoursorissa.com/golden-triangle-odisha/"}]
+sources: [{"id": "enterprise-otdc-walk-rfq2022", "title": "OTDC heritage-walk RFQ dated 14 September 2022", "resource": "https://odishatourism.gov.in/content/dam/tourism/home/tender-document/RFQ.pdf"}, {"id": "enterprise-puri-walk-offer", "title": "I Love Jagannath: advertised Puri heritage-walk service", "resource": "https://ilovejagannath.com/heritage-walk"}, {"id": "puri-guide-app-directory", "title": "Odisha Tourism alternate tour-guide directory", "resource": "https://apps.odishatourism.gov.in/find-tour-guide"}, {"id": "puri-approved-operators", "title": "Approved Tour Operators — Puri entries", "resource": "https://dot.odisha.gov.in/en/tourism-department-info-planner/approved-tour-operators"}, {"id": "puri-heritage-golden-triangle", "title": "Heritage Tours — Golden Triangle itinerary", "resource": "https://www.heritagetoursorissa.com/golden-triangle-odisha/"}, {"id": "enterprise-iitf-booklet", "title": "IITF/IITG: national certification booklet", "resource": "https://www.iitf.gov.in/IITF-Booklet.pdf"}, {"id": "enterprise-iitf-faq", "title": "IITFC FAQ: programme fee and badge stages", "resource": "https://iitf.gov.in/local/staticpage/view.php?lang=en&page=IITFC-FAQ"}, {"id": "enterprise-puri-sanatan-walk", "title": "Sanatan Sahoo: advertised Puri Heritage Walk", "resource": "https://indiatourguidesanatan.com/puri-heritage-walk/"}, {"id": "enterprise-puri-sacred-directory", "title": "SacredPuri: empty guide-directory pricing lead", "resource": "https://sacredpuri.com/tour-guide"}]
 human_review_claimed: false
 ---
 
@@ -71,3 +71,25 @@ Recover the 2023 OTDC instrument without merging vintages; establish current gui
 - [Puri place record](../places/puri.md) — Grounds the business question in place knowledge without treating visitor appeal as proven demand.
 
 [District business programme](../product/district-business-opportunities.md) · [Research method](../methods/business-opportunity-research.md)
+
+## Training and price evidence · 3 October 2026 follow-up
+
+The [national IITF/IITG booklet](../sources/enterprise-iitf-booklet.md) distinguishes basic tourist facilitation from specialist guiding. Basic certification precedes IITG registration. Its training and verification sequence means an online course-completion certificate alone is not a completed guide credential. The document is dated 2021 with later modifications visible; a complete current amendment chain has not been recovered.
+
+The [official FAQ](../sources/enterprise-iitf-faq.md) publishes **₹2,000 for the Basic programme alone** and keeps examination fees separate. This is a training reference, not the cost of opening this business, an all-in certification price or a Puri guide's customer fee. The booklet and FAQ differ in process detail and exemption coverage; retain their editions and confirm the applicable intake requirements before relying on fees or concessions.
+
+For hiring, record the individual’s certificate category, issuer, identifier and validity from an authoritative record, plus their language and route knowledge. For self-training, confirm current eligibility, stages, assessment, concessions and all charges. Neither route by itself establishes municipal registration, authority over a private stop or temple access.
+
+### What the public offer search actually found
+
+| Source | Puri-specific offer | Price evidence | Remaining limitation |
+| --- | --- | --- | --- |
+| [Sanatan Sahoo](../sources/enterprise-puri-sanatan-walk.md) | Private half-day walk through sahis, with akhada and matha themes | On request; no monetary tariff | Supplier credential, exact route, group basis, inclusions and permissions unverified |
+| [SacredPuri](../sources/enterprise-puri-sacred-directory.md) | Directory landing page; extraction shows zero listings | No price recovered | Generic pricing text is not an offer; absence here does not measure the whole market |
+| [Earlier I Love Jagannath record](../sources/enterprise-puri-walk-offer.md) | Puri appears among marketed destinations | No visible tariff | Bhubaneswar summary duration/season cannot be transferred |
+
+The Sanatan page's year-round label is a seller's advertised season. It does not establish monthly departures or willingness to pay. Its easy-walk label does not establish accessibility. No quoted price was requested and no credential claim was promoted to verified status.
+
+### Next evidence to obtain
+
+The next desk batch should resolve Puri municipal classification and the current state/national recognition instruments for this precisely scoped outdoor service. The unavailable 2023 OTDC document retains its 10 October retry. Route-specific permissions, a dated price with party size and inclusions, and a monthly paid-booking series remain separate gaps. Local contact or fieldwork requires a later explicit outreach instruction; none occurred here. Financial totals remain blank.

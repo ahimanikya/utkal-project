@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-03T07:12:33.313215+00:00",
+  "updated_at": "2026-10-03T07:31:30.882298+00:00",
   "scope": "District opportunity research; not a ranking, investment recommendation or inventory of available land/jobs",
   "programme": "product/district-business-opportunities",
   "method": "methods/business-opportunity-research",
@@ -687,7 +687,9 @@
       "demand_evidence": {
         "source_ids": [
           "enterprise-otdc-walk-rfq2022",
-          "enterprise-puri-walk-offer"
+          "enterprise-puri-walk-offer",
+          "enterprise-puri-sanatan-walk",
+          "enterprise-puri-sacred-directory"
         ],
         "classification": "historical_institutional_intent_and_seller_offer_not_paid_demand",
         "observed_paying_customers": null,
@@ -704,7 +706,32 @@
           "award_or_delivery_verified": false,
           "locator": "PDF pp1–3,5"
         },
-        "excluded_transfer": "Bhubaneswar panel season/duration not Puri evidence"
+        "excluded_transfer": "Bhubaneswar panel season/duration not Puri evidence",
+        "offer_checks": [
+          {
+            "source_id": "enterprise-puri-sanatan-walk",
+            "checked_at": "2026-10-03T07:31:30.882298+00:00",
+            "geography": "Puri town",
+            "duration_label": "Half Day",
+            "service_type": "Private Guided",
+            "season_label": "All Year",
+            "season_class": "seller_advertisement_not_observed_demand",
+            "price_status": "on_request",
+            "price": null,
+            "price_unit": null,
+            "party_size": null,
+            "current_availability": null,
+            "credentials_independently_verified": false,
+            "route_permissions_verified": false
+          },
+          {
+            "source_id": "enterprise-puri-sacred-directory",
+            "checked_at": "2026-10-03T07:31:30.882298+00:00",
+            "listing_count_in_extraction": 0,
+            "price": null,
+            "scope": "One directory extraction only; not total Puri supply"
+          }
+        ]
       },
       "premises_options": [
         {
@@ -751,16 +778,26 @@
           "source_id": "puri-approved-operators",
           "availability": null,
           "partnership": "not_agreed"
+        },
+        {
+          "role": "Advertised local walking-service provider",
+          "public_professional_name": "Sanatan Sahoo",
+          "source_id": "enterprise-puri-sanatan-walk",
+          "availability": null,
+          "credentials_current": null,
+          "rate": null,
+          "consent": "not_obtained",
+          "partnership": "not_agreed"
         }
       ],
       "capital_cost": null,
       "operating_cost": null,
       "revenue": null,
       "profit": null,
-      "source_checked_at": "2026-10-03T07:12:33.313215+00:00",
+      "source_checked_at": "2026-10-03T07:31:30.882298+00:00",
       "created_at": "2026-10-02T20:40:37.286473+00:00",
       "publication_status": "research_draft",
-      "next_action": "Recover separate2023 OTDC instrument; verify current guide/agency route; find priced Puri-specific offer and seasonal demand evidence. Do not contact providers or infer guaranteed Puri walks.",
+      "next_action": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized.",
       "model_scope": {
         "geography": "Puri town; exact route unselected",
         "activity": "Outdoor guided heritage interpretation",
@@ -780,7 +817,40 @@
         "Referral and payment fees",
         "Route and office costs",
         "Cancellations and refunds"
-      ]
+      ],
+      "training_evidence": {
+        "source_ids": [
+          "enterprise-iitf-booklet",
+          "enterprise-iitf-faq"
+        ],
+        "provenance_family": "iitf-national-programme",
+        "geography": "India national scheme; Puri business applicability unresolved",
+        "booklet_heading_date": "2021-01-11",
+        "latest_consolidation_date": null,
+        "basic_precedes_IITG": true,
+        "OCC_is_final_badge": false,
+        "programme_fee_reference": {
+          "value": 2000,
+          "unit": "INR per Basic programme enrolment",
+          "price_basis": "published non-personalised fee reference",
+          "publication_date": null,
+          "retrieved_at": "2026-10-03T07:31:30.882298+00:00",
+          "source_id": "enterprise-iitf-faq",
+          "locator": "General FAQ Q5 and Q15",
+          "examination_included": false,
+          "personal_payable_total": null,
+          "current_intake_verified": false,
+          "financial_model_input": false
+        },
+        "unresolved": [
+          "Complete latest amendment chain",
+          "FAQ/booklet process differences",
+          "Individual concession eligibility",
+          "Current intake and total charges",
+          "Any separate Puri/state/route authorization"
+        ],
+        "legal_advice_or_licence": false
+      }
     }
   ],
   "source_routes": [
@@ -920,6 +990,13 @@
       "at": "2026-10-03T07:12:33.313215+00:00",
       "run_id": "2026-10-03-puri-walk-checkpoint",
       "scope": "Coffee original-source candidates held after failed retrieval; independent Puri model narrowed. No adopted sales observation or financial projection."
+    },
+    {
+      "at": "2026-10-03T07:31:30.882298+00:00",
+      "run_id": "2026-10-03-puri-guide-prices",
+      "opportunity_id": "OPP-PUR-001",
+      "prior_next_action": "Recover separate2023 OTDC instrument; verify current guide/agency route; find priced Puri-specific offer and seasonal demand evidence. Do not contact providers or infer guaranteed Puri walks.",
+      "scope": "National training evidence and Puri offer/empty-directory checks; no observed demand, customer tariff, permission or financial projection added."
     }
   ]
 }

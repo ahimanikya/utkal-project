@@ -440,3 +440,7 @@ Completed RES-065 bounded desk deliverable using original Boyanika procurement a
 ## Coffee recovery and Puri service checkpoint · 3 October 2026
 
 Original coffee reports could not be recovered; kept candidates and retry dates without adopting sales figures. Advanced independent RES-066 using 2022 OTDC text and a commercial offer, preserving Bhubaneswar/Puri and tender/actual-demand distinctions. No outreach or website publication.
+
+## Puri guide training and public-price research · 3 October 2026
+
+Added official IITF booklet/FAQ and two Puri price-discovery records. Preserved national certification versus local authorization, programme fees versus business costs, and advertised season versus paid demand. Monetary customer prices remain unknown. No outreach or website publication.

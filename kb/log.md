@@ -451,3 +451,7 @@ Saved actual/estimate receipt distinctions, six-DMF sample and four dated case b
 ## 3 October 2026 · Puri service research checkpoint
 
 [Research receipt](records/puri-walk-checkpoint-2026-10-03.json): narrowed a Puri outdoor walking-service model with historical institutional specifications and explicit demand/permission/cost gaps; deferred unavailable coffee originals. No website change.
+
+## 3 October 2026 · Puri training and price research
+
+[Research receipt](records/puri-guide-prices-2026-10-03.json): extended the Puri dossier with national training stages and fee scope, quote-only supplier evidence and an empty-directory check. Local authority and paid-demand gaps remain. No website change.

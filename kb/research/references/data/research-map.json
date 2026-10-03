@@ -19109,7 +19109,67 @@
         "enterprise-puri-walk-offer",
         "puri-guide-app-directory",
         "puri-approved-operators",
-        "puri-heritage-golden-triangle"
+        "puri-heritage-golden-triangle",
+        "enterprise-iitf-booklet",
+        "enterprise-iitf-faq",
+        "enterprise-puri-sanatan-walk",
+        "enterprise-puri-sacred-directory"
+      ]
+    },
+    {
+      "id": "sources/enterprise-iitf-booklet",
+      "title": "IITF/IITG: national certification booklet",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-iitf-booklet.md",
+      "project_path": "kb/research/sources/enterprise-iitf-booklet.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-iitf-booklet"
+      ]
+    },
+    {
+      "id": "sources/enterprise-iitf-faq",
+      "title": "IITFC FAQ: programme fee and badge stages",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-iitf-faq.md",
+      "project_path": "kb/research/sources/enterprise-iitf-faq.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-iitf-faq"
+      ]
+    },
+    {
+      "id": "sources/enterprise-puri-sanatan-walk",
+      "title": "Sanatan Sahoo: advertised Puri Heritage Walk",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-puri-sanatan-walk.md",
+      "project_path": "kb/research/sources/enterprise-puri-sanatan-walk.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-puri-sanatan-walk"
+      ]
+    },
+    {
+      "id": "sources/enterprise-puri-sacred-directory",
+      "title": "SacredPuri: empty guide-directory pricing lead",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/enterprise-puri-sacred-directory.md",
+      "project_path": "kb/research/sources/enterprise-puri-sacred-directory.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "enterprise-puri-sacred-directory"
       ]
     }
   ],
@@ -20596,7 +20656,11 @@
         "sources/enterprise-puri-walk-offer.md",
         "economy/puri-heritage-walk-service.md",
         "visitor-index/puri-providers.md",
-        "places/puri.md"
+        "places/puri.md",
+        "sources/enterprise-iitf-booklet.md",
+        "sources/enterprise-iitf-faq.md",
+        "sources/enterprise-puri-sanatan-walk.md",
+        "sources/enterprise-puri-sacred-directory.md"
       ],
       "project_records": [
         "kb/specs/knowledge-to-work.md",
@@ -20606,7 +20670,7 @@
         "kb/research/product/puri-visitor-essentials-2026-09-30.md"
       ],
       "remaining_scope": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
-      "status_unchanged": "pending",
+      "status_unchanged": "in_progress",
       "instruction": "Reuse canonical district, industry and destination records; research only missing business-specific evidence."
     },
     {
@@ -20643,8 +20707,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1278,
-    "updated_at": "2026-10-03T07:12:33.313215+00:00",
+    "records_mapped": 1282,
+    "updated_at": "2026-10-03T07:31:30.882298+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21256,6 +21320,11 @@
       "at": "2026-10-03T07:12:33.313215+00:00",
       "run_id": "2026-10-03-puri-walk-checkpoint",
       "scope": "Coffee leads held; Puri reuses native visitor essentials and provider identities. OTDC2022 and unread2023 editions kept distinct, not independent corroboration."
+    },
+    {
+      "at": "2026-10-03T07:31:30.882298+00:00",
+      "run_id": "2026-10-03-puri-guide-prices",
+      "scope": "Four new identities extend existing Puri dossier. IITF booklet and FAQ share one programme provenance; they are not independent corroboration. Supplier claims do not verify credentials."
     }
   ]
 }

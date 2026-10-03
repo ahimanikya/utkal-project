@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T07:12:33.313215+00:00",
+  "updated_at": "2026-10-03T07:31:30.882298+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3586,7 +3586,7 @@
       "done_when": "Choose one precise customer problem and document seasonal demand evidence, local suppliers, permission/site applicability, premises options and sourced costs or unresolved gaps.",
       "target": "economy/puri-heritage-walk-service.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [
         "RES-065"
       ],
@@ -3599,13 +3599,17 @@
         "RES-052",
         "RES-062"
       ],
-      "last_worked_at": "2026-10-03T07:12:33.313215+00:00",
-      "next_step": "Recover separate2023 OTDC instrument; verify current guide/agency route; find priced Puri-specific offer and seasonal demand evidence. Do not contact providers or infer guaranteed Puri walks.",
+      "last_worked_at": "2026-10-03T07:31:30.882298+00:00",
+      "next_step": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized.",
       "evidence_outputs": [
         "sources/enterprise-otdc-walk-rfq2022.md",
         "sources/enterprise-puri-walk-offer.md",
         "economy/puri-heritage-walk-service.md",
-        "references/data/business-opportunities.json"
+        "references/data/business-opportunities.json",
+        "sources/enterprise-iitf-booklet.md",
+        "sources/enterprise-iitf-faq.md",
+        "sources/enterprise-puri-sanatan-walk.md",
+        "sources/enterprise-puri-sacred-directory.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -3616,6 +3620,13 @@
           "result": "scoped_walk_checkpoint",
           "scope": "Independent eligible task after RES-064 source deferral. 2022 OTDC source and seller offering with geography/vintage limits; no paid demand or complete current permissions.",
           "next_step": "Recover separate2023 OTDC instrument; verify current guide/agency route; find priced Puri-specific offer and seasonal demand evidence. Do not contact providers or infer guaranteed Puri walks."
+        },
+        {
+          "at": "2026-10-03T07:31:30.882298+00:00",
+          "run_id": "2026-10-03-puri-guide-prices",
+          "result": "training_and_offer_checkpoint",
+          "scope": "Official national programme references distinguished from local authorisation; seller price on request and empty directory recorded. No paid-demand series or current comprehensive permission path.",
+          "next_step": "Check current Puri municipal classification and guide/agency recognition instruments for the outdoor service. Keep 2023 OTDC retry on 10 October. Price with party basis, route permissions and paid seasonality remain unknown; no provider contact authorized."
         }
       ],
       "reuse_before_research": {
@@ -3629,7 +3640,11 @@
           "sources/enterprise-puri-walk-offer.md",
           "economy/puri-heritage-walk-service.md",
           "visitor-index/puri-providers.md",
-          "places/puri.md"
+          "places/puri.md",
+          "sources/enterprise-iitf-booklet.md",
+          "sources/enterprise-iitf-faq.md",
+          "sources/enterprise-puri-sanatan-walk.md",
+          "sources/enterprise-puri-sacred-directory.md"
         ],
         "project_records": [
           "kb/specs/knowledge-to-work.md",

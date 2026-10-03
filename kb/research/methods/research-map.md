@@ -401,3 +401,7 @@ RES-065 reuses handloom/place and SUJOG records. Five new source identities and 
 ## Puri and coffee reuse · 3 October 2026
 
 Five source identities and one Puri dossier added; existing guide/operator and native visitor-essential records reused. Indexed coffee report candidates remain held. 2022 OTDC terms are not2023 or current terms.
+
+## Puri certification and offer extension · 3 October 2026
+
+Four source identities added to the existing dossier. National booklet and FAQ share programme provenance; commercial source claims remain attributed. No new business or duplicate supplier recommendation.

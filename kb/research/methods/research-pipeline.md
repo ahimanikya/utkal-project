@@ -251,3 +251,7 @@ RES-065 completed its defined desk dossier, selected as an independent next item
 ## Coffee deferral and Puri checkpoint · 3 October 2026
 
 RES-064 blocked on original-source recovery and local evidence, retry 10 October; prior source-specific 9 October dates retained. Proceeded to eligible RES-066, now in progress. Next: current guide/agency route, a priced Puri-specific offer and seasonality.
+
+## Puri training and pricing checkpoint · 3 October 2026
+
+RES-066 remains in progress: national certificate stages and fee scope saved; Puri supplier price remains on request, and one directory has no listings. Next bounded batch: Puri municipal and recognition instruments. Paid seasonal demand and costs remain unknown.

@@ -426,3 +426,7 @@ Historical Boyanika specifications support a service category, not local willing
 ## Puri walking-service gaps · 3 October 2026
 
 Exact route, guide credentials, access/permissions, Puri-specific price, seasonal paid demand and costs unknown. 2023 OTDC original unavailable, retry 10 October. Coffee indexed sales/marketing leads cannot verify a current pack or supply terms.
+
+## Puri current applicability and tariff gap · 3 October 2026
+
+National programme documents do not resolve local route permissions. Current amendment chain, intake/concessions, supplier credential validity, price per party/person and paid monthly bookings remain unverified. Empty-directory and quote-only findings are retained.
