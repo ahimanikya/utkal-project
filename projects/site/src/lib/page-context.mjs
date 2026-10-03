@@ -1,4 +1,5 @@
 const sections = [
+ ['/global-connections/', 'Global Connections'],
  ['/languages/', 'Languages of Odisha'], ['/literature/', 'Odia literature'],
  ['/crafts/', 'Crafts of Odisha'], ['/textiles/', 'Woven in Odisha'],
  ['/food/', 'Food & flavours'], ['/destinations/', 'Destinations'],

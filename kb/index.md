@@ -111,3 +111,5 @@ Visitor experience release: [PR 23 publication evidence](records/visitor-experie
 - [Editorial workbench](reference/editorial-workbench.md) — 500 traceable metadata assessments and the next illustrated food stories.
 
 - [Cultural reading-flow review](records/culture-flow-review.json) — six-page responsive review and maker-cover refinements; [published as UTP-REL-048](records/culture-flow-publication.json).
+
+- [Global Connections: section and future initiative](specs/global-connections.md)

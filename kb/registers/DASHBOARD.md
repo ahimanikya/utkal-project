@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `031defb812617695031c3821e0143992417e8abfee76a671deb7e5c8860a6b95`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2aa9fbaaa9d212e3d6bce0391c04ba84fd9da39294e900fda5736f4380309dd2`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -163,6 +163,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-148 · Compare original accounts and specify missing facility records | completed | applied | Ahimanikya Satapathy | Bounded comparison merged. RES-053 awaits named reconciliation and facility records; retain source conflicts and unknown current outcomes. | — |
 | UTP-WORK-149 · Build four scoped mining land and people studies | completed | applied | Ahimanikya Satapathy | Scoped case-study checkpoint merged. RES-054 retains original monitoring, implementation and ecological-recovery evidence follow-ups. | — |
 | UTP-WORK-150 · Recover original mining evidence and preserve unresolved outcomes | completed | applied | Ahimanikya Satapathy | Evidence follow-up checkpoint merged. RES-054 remains in progress for denominator clarification, original decisions, corrective completion and measured recovery. | — |
+| UTP-WORK-151 · Global Connections section and Indian-city comparison | in_progress | reviewed | Ahimanikya Satapathy | Finish publication checks and deliver the section; retain BMC register and activity verification as future work. | — |
 
 ## Pending human review and decisions
 
@@ -395,6 +396,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-168 · Research mine environments, rights, safety and restoration | approved | Ahimanikya Satapathy | RES-054 bounded research and routine KB delivery under standing authorization. No outreach or public website story publication. |
 | UTP-DEC-169 · Follow original mining study and implementation records | approved | Ahimanikya Satapathy | RES-054 evidence follow-up and routine KB integration under standing authorization; no outreach or public story publication. |
 | UTP-DEC-170 · Approve merged mining evidence follow-up | approved | Ahimanikya Satapathy | Founder acceptance of PR70 and its bounded research checkpoint. RES-054 evidence gaps and numerical holds remain open; approval does not establish independent source verification or public website story publication. |
+| UTP-DEC-171 · Create Global Connections within Utkal Project | approved | Ahimanikya Satapathy | Build the website section and comparison under existing routine delivery authorization. Separate initiative, commitments and outreach remain deferred. Direction approval does not certify every research finding. |
 
 ## Reviews
 
@@ -526,6 +528,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-126 | pass_with_limitations | False | The remaining 0.20 crore receipt difference has no verified accounting crosswalk.; District annual and cumulative series are not reconciled; six existing conflict holds retained.; Current operation and beneficiary outcomes remain unverified; record questions unsent. |
 | UTP-REV-127 | pass_with_limitations | False | EIA and DGMS available as publisher text; direct PDFs and visual checks unavailable.; New Sukinda court mirror remains a discovery lead; no figures adopted.; Subsequent rights decisions, remedial actions and ecological recovery unverified. |
 | UTP-REV-128 | pass_with_limitations | False | CGWB copy is an applicant annex; post-monsoon totals conflict.; Niyamgiri committee capture limited to indexed official excerpt.; Site-specific corrective completion and ecological recovery remain unverified. |
+| UTP-REV-129 | pass_with_limitations | False | City comparisons have unequal source coverage; counts are explicitly scoped.; No independent audit of current programmes or complete Odisha municipal register. |
 
 ## Publication and application history
 
@@ -624,7 +627,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-194 | 2026-10-02T20:38:42.915138+00:00 | PR66 integrated after local checks and GitHub CI passed; 954 numerical values preserved, six observations held for source conflict. | Pursue documented reconciliation and service-evidence gaps; do not infer operating status from absent records. |
 | UTP-EVT-195 | 2026-10-02T20:41:23.471470+00:00 | Founder approved the merged PR66 DMF research follow-up. | Retain and pursue RES-053 financial reconciliation and current-service/community evidence gaps. |
 | UTP-EVT-196 | 2026-10-02T20:56:04.342494+00:00 | Compared original Finance Accounts and Parliament district tables; added two higher-precision observations and six unsent record questions. | Validate bounded findings; obtain named reconciliation and operating records rather than repeat identical searches. |
 | UTP-EVT-197 | 2026-10-02T21:01:33.418861+00:00 | PR68 integrated after local checks and GitHub CI passed; 956 observations, including 954 earlier records preserved. | Obtain named records to resolve remaining receipt, district accounting and facility-use gaps. No outreach sent. |
@@ -634,6 +636,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-201 | 2026-10-03T08:07:02.965859+00:00 | Four source records extend four case histories; groundwater denominator conflict preserved, no new atlas observations. | Validate and integrate; retain source clarification and implementation follow-ups. |
 | UTP-EVT-202 | 2026-10-03T08:13:52.715304+00:00 | PR70 integrated after local and GitHub checks passed; four source records extend case histories with explicit source roles and unresolved sample totals. | Pursue named clarification and implementation records when new evidence is available; no unsupported outcome claims. |
 | UTP-EVT-203 | 2026-10-03T08:20:20.347145+00:00 | Founder approved the merged PR70 mining evidence follow-up. | Retain RES-054 source clarification and implementation dependencies; research drafts remain unpublished. |
+| UTP-EVT-204 | 2026-10-03T13:36:12.489673+00:00 | Built Global Connections section with six-city comparison, eleven traceable sources and a deferred-initiative operating brief. | Verify delivery; obtain fuller agreement and activity evidence in future work. |
 
 ## Deferred extensions
 
