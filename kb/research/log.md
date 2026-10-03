@@ -432,3 +432,7 @@ Two original sources add higher-precision receipts and annual district context. 
 ## 2026-10-03 · Mining, land and people
 
 Added four bounded case studies, three source records and a reusable evidence model. Rights decisions, monitoring claims, incident prevention and restoration outcomes remain distinct. RES-054 stays in progress for named original-record and implementation checks. No website publication or outreach.
+
+## 2026-10-03 · Mining evidence follow-up
+
+Recovered a CGWB annex scan and IBM inspection; linked a committee account of Niyamgiri decisions and matched the Bharatpur incident in a ministry agenda. Source roles and unresolved sample totals remain explicit. Four new source records; existing956 atlas observations unchanged. RES-054 remains in progress; no public website story publication.

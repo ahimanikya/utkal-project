@@ -4,7 +4,7 @@ title: "Mining, land and people: four bounded case studies"
 description: "Monitoring, rights, haul-road safety and restoration with source roles and outcome gaps kept explicit."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-03T07:42:12.281122+00:00"}
-sources: [{"id": "mining-sukurangi-eia-summary", "title": "Sukurangi expansion EIA–EMP executive summary", "resource": "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1743680703_1499134296.pdf"}, {"id": "mining-niyamgiri-scr2013", "title": "Orissa Mining Corporation v Ministry of Environment & Forest: 18 April 2013", "resource": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf"}, {"id": "mining-dgms-bharatpur-2024", "title": "DGMS safety alert 07/2024: Bharatpur tipper accident", "resource": "https://www.dgms.gov.in/writereaddata/UploadFile/ROAD_14052024.pdf"}, {"id": "mining-asi-baphlimali2026", "title": "Baphlimali ASI certificate 557 and initial audit report", "resource": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf"}]
+sources: [{"id": "mining-sukurangi-eia-summary", "title": "Sukurangi expansion EIA–EMP executive summary", "resource": "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1743680703_1499134296.pdf"}, {"id": "mining-niyamgiri-scr2013", "title": "Orissa Mining Corporation v Ministry of Environment & Forest: 18 April 2013", "resource": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf"}, {"id": "mining-dgms-bharatpur-2024", "title": "DGMS safety alert 07/2024: Bharatpur tipper accident", "resource": "https://www.dgms.gov.in/writereaddata/UploadFile/ROAD_14052024.pdf"}, {"id": "mining-asi-baphlimali2026", "title": "Baphlimali ASI certificate 557 and initial audit report", "resource": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf"}, {"id": "mining-cgwb-sukinda2025-annex", "title": "CGWB Sukinda groundwater study: June 2025 annex copy", "resource": "https://www.greentribunal.gov.in/sites/default/files/news_updates/1779080964.pdf"}, {"id": "mining-ibm-baphlimali2024", "title": "IBM Baphlimali MCDR inspection: 10 September 2024", "resource": "https://ibm.gov.in/writereaddata/files/1730094169671f24593db2aMCDR_of_Baphlimali_Bauxite_Mine_of_NALCO.pdf"}, {"id": "mining-coal-safety49-agenda", "title": "49th Standing Committee on Safety in Coal Mines: agenda", "resource": "https://coal.nic.in/sites/default/files/2025-02/10-02-2025c-wn.pdf"}, {"id": "mining-xaxa-niyamgiri2014", "title": "Xaxa Committee report: Niyamgiri Palli Sabha account", "resource": "https://tribal.nic.in/downloads/other-important-reports/XaxaCommitteeReportMay-June2014.pdf"}]
 human_review_claimed: false
 subjects: ["economy", "governance", "places", "everyday"]
 ---
@@ -57,3 +57,55 @@ The planting-count wording is ambiguous, and the reported survival percentage la
 A future public narrative should connect these records to consented local voices. It should not invent testimony, collapse communities into a single opinion or use a celebratory industrial image as evidence of an outcome. No outreach or interviews were performed for this batch.
 
 [Mining programme](mining.md) · [DMF community outcomes](dmf-community-outcomes.md) · [Research source method](../methods/source-reliability.md).
+
+## Evidence follow-up · 3 October 2026
+
+### Sukinda: an annexed study, with a denominator conflict
+
+A scan of CGWB's June 2025 study was recovered as Annex 7 of a 2026 applicant filing, Kailash Chandra Nayak v State of Odisha. This is a different proceeding from the Mantu Das judgment lead. The scan supplies the study's own pages; NGT hosting does not turn the petition's allegations into tribunal findings or certify the annex. [Capture and provenance](../sources/mining-cgwb-sukinda2025-annex.md).
+
+Report p. 3 describes 183 pre-monsoon and 50 post-monsoon samples collected in 2024. Follow-up sites were selected mainly because earlier chromium(VI) readings were elevated, with some nearby additions. These are not comparable representative seasonal samples. The study includes groundwater, rivers, ponds, mine pits and treatment plants.
+
+Table 4 (report p. 8 / PDF p. 65) is transcribed below. Above-threshold counts refer to Cr(VI)>0.05 mg/L as used in the report, not a finding of discharge-permit violation.
+
+|Source|Pre samples|Pre above threshold|Post samples|Post above threshold|
+|---|---:|---:|---:|---:|
+|DW|28|0|1|0|
+|BW|11|0|5|0|
+|HP|99|20|31|18|
+|Damsala Nala|23|9|4|2|
+|Mine pit|2|2|2|2|
+|Pond|5|0|0|0|
+|ETP-inlet|6|6|6|6|
+|ETP-outlet|6|0|6|0|
+|WTP|1|0|0|0|
+|Spring|2|0|1|0|
+|Printed total|183|37|50|28|
+|Sum of component rows|183|37|56|28|
+
+**Numerical interpretation is held.** Post-monsoon rows sum to 56, not the printed 50. Table 1 also uses different hand-pump, river and ETP-outlet totals from the seasonal sums in Table 4. Preserve the printed data; request clarification rather than silently adjust a cell. Table 3's 39 location rows include repeat seasonal readings and different water types, not 39 affected people. No prevalence percentage or contamination trend is calculated, and no figures enter the statistics atlas.
+
+The report's suggested geogenic explanation is its interpretation, not proof that all contamination has one cause or that every operator is exonerated. Its recommendations include alternative safe-water supply, closure of contaminated wells, periodic testing and treatment-system maintenance. Completion remains unverified. Below detection is not zero, and a dated sampled result is not a current drinking-water assurance. The original Sukurangi EIA laboratory-table gap remains separate.
+
+### Baphlimali: a regulator inspection adds a dated work record
+
+IBM inspected the mine on 10 September 2024. The document identifies Utkal Alumina International Ltd and mine code 07ORI27001, despite a filename containing NALCO. Read the document identity, not the filename. [IBM report, pp.1,5–6](../sources/mining-ibm-baphlimali2024.md).
+
+|Measure|Proposed FY2023–24|Actual FY2023–24|
+|---|---:|---:|
+|Backfilled area, row 5b|17.28 ha|17.45 ha|
+|Afforestation, row 6b|29.51 ha|30.20 ha|
+
+Row 5d separately reports total reclaimed area 141.204 ha and rehabilitated area 88.75 ha. These may overlap and must not be added. This is regulator-reported work, not proof of native ecological recovery or final closure. The inspection is not established as the exact later government audit mentioned by ASI. Later company and certification area figures retain their original dates and definitions.
+
+### Niyamgiri: a government committee records the village decisions
+
+The 2014 Xaxa Committee report says all twelve Palli Sabhas, held 18 July–19 August 2013, rejected the proposed mining. Footnote 356 cites state-provided English translations of resolutions held by the committee. This is a government committee's account; we have not inspected the signed village originals. Retrieval is limited to an indexed excerpt of the official PDF. [Report p. 353 and capture limits](../sources/mining-xaxa-niyamgiri2014.md).
+
+The signed resolutions, observer certifications and original final ministry decision remain the next records; no current permission conclusion is drawn.
+
+### Bharatpur: the same incident appears in the ministry agenda
+
+The 49th coal-safety committee agenda lists Bharatpur OC/MCL, 14 March 2023, a tipper incident and one fatality. This matches the existing DGMS case; it adds no new death to any total. [Agenda IV(a), p.59, row 5](../sources/mining-coal-safety49-agenda.md).
+
+The agenda's general company-level action summaries do not verify that the specific roadside hazard was removed. The mine-specific action-taken or inspection-closure record remains missing; absence from this search does not establish that no action occurred.

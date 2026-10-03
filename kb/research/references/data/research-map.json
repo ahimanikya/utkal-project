@@ -18666,9 +18666,85 @@
         "mining-sukurangi-eia-summary",
         "mining-niyamgiri-scr2013",
         "mining-dgms-bharatpur-2024",
-        "mining-asi-baphlimali2026"
+        "mining-asi-baphlimali2026",
+        "mining-cgwb-sukinda2025-annex",
+        "mining-ibm-baphlimali2024",
+        "mining-coal-safety49-agenda",
+        "mining-xaxa-niyamgiri2014"
       ],
       "added_at": "2026-10-03T07:42:12.281122+00:00"
+    },
+    {
+      "id": "sources/mining-cgwb-sukinda2025-annex",
+      "title": "CGWB Sukinda groundwater study: June 2025 annex copy",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-cgwb-sukinda2025-annex.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-cgwb-sukinda2025-annex"
+      ],
+      "added_at": "2026-10-03T08:07:02.965859+00:00"
+    },
+    {
+      "id": "sources/mining-ibm-baphlimali2024",
+      "title": "IBM Baphlimali MCDR inspection: 10 September 2024",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-ibm-baphlimali2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-ibm-baphlimali2024"
+      ],
+      "added_at": "2026-10-03T08:07:02.965859+00:00"
+    },
+    {
+      "id": "sources/mining-coal-safety49-agenda",
+      "title": "49th Standing Committee on Safety in Coal Mines: agenda",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-coal-safety49-agenda.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-coal-safety49-agenda"
+      ],
+      "added_at": "2026-10-03T08:07:02.965859+00:00"
+    },
+    {
+      "id": "sources/mining-xaxa-niyamgiri2014",
+      "title": "Xaxa Committee report: Niyamgiri Palli Sabha account",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-xaxa-niyamgiri2014.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-xaxa-niyamgiri2014"
+      ],
+      "added_at": "2026-10-03T08:07:02.965859+00:00"
     }
   ],
   "shared_publications": [
@@ -19875,14 +19951,18 @@
         "sources/mining-niyamgiri-scr2013.md",
         "sources/mining-dgms-bharatpur-2024.md",
         "economy/mining-land-and-people.md",
-        "economy/bauxite-mine-identities.md"
+        "economy/bauxite-mine-identities.md",
+        "sources/mining-cgwb-sukinda2025-annex.md",
+        "sources/mining-ibm-baphlimali2024.md",
+        "sources/mining-coal-safety49-agenda.md",
+        "sources/mining-xaxa-niyamgiri2014.md"
       ],
       "project_records": [],
       "remaining_scope": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
       "status_unchanged": "in_progress",
       "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
       "next_evidence": [
-        "Obtain original Sukinda NGT/CGWB tables and monitoring records; Niyamgiri resolutions/final decision; Bharatpur action-taken record; Baphlimali rehabilitation audits and measured recovery. Reuse four cases; no invented current outcomes."
+        "Clarify CGWB Table4 post-monsoon56 versus printed50 and source-category totals; obtain original Mantu Das order/action records, signed Niyamgiri resolutions/final ministry order, mine-specific Bharatpur remedy evidence, and Baphlimali area crosswalk/recovery/emissions closure. Avoid repeating unchanged unavailable searches."
       ]
     },
     {
@@ -20080,8 +20160,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1246,
-    "updated_at": "2026-10-03T07:42:12.281122+00:00",
+    "records_mapped": 1250,
+    "updated_at": "2026-10-03T08:07:02.965859+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20680,6 +20760,10 @@
     {
       "run_id": "2026-10-03-mining-land-people",
       "scope": "Three source identities, one connected collection, four scoped cases; Baphlimali reused. No new statistical observations or completed outcome claims."
+    },
+    {
+      "run_id": "2026-10-03-mining-evidence-followup",
+      "scope": "Four source identities extend existing cases; CGWB denominator conflict held, no new atlas observations."
     }
   ]
 }
