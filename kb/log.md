@@ -439,3 +439,7 @@ Completed the scoped audit reading, recorded conflicting tables and corrected th
 ## 2026-10-02 · DMF accounting basis and record needs
 
 Two original sources add higher-precision receipts and annual district context. The residual receipt difference is ₹0.20 crore; district cumulative conflicts and all four current-service questions remain open. Two observations added, prior 954 preserved. Prepared focused record questions without outreach.
+
+## 2026-10-03 · Mining, land and people
+
+Added four bounded case studies, three source records and a reusable evidence model. Rights decisions, monitoring claims, incident prevention and restoration outcomes remain distinct. RES-054 stays in progress for named original-record and implementation checks. No website publication or outreach.

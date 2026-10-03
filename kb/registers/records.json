@@ -4305,6 +4305,28 @@
       "evidence": [
         "records/dmf-record-reconciliation-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-149",
+      "title": "Build four scoped mining land and people studies",
+      "category": "research",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-168",
+      "next_action": "Integrate validated research checkpoint under existing authorization; retain RES-054 evidence gaps.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-168",
+        "UTP-REV-127"
+      ],
+      "evidence": [
+        "records/mining-land-people-2026-10-03.json"
+      ]
     }
   ],
   "decisions": [
@@ -7655,6 +7677,25 @@
       "evidence": [
         "records/dmf-record-reconciliation-2026-10-02.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-168",
+      "title": "Research mine environments, rights, safety and restoration",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Sounds good, let's pick these",
+      "scope": "RES-054 bounded research and routine KB delivery under standing authorization. No outreach or public website story publication.",
+      "recorded_at": "2026-10-03T07:42:12.281122+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-149"
+      ],
+      "evidence": [
+        "records/mining-land-people-2026-10-03.json"
+      ]
     }
   ],
   "requirements": [
@@ -10662,6 +10703,28 @@
       ],
       "evidence": [
         "records/dmf-record-reconciliation-2026-10-02.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-127",
+      "title": "Mine impact source-role and scope self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "EIA and DGMS available as publisher text; direct PDFs and visual checks unavailable.",
+        "New Sukinda court mirror remains a discovery lead; no figures adopted.",
+        "Subsequent rights decisions, remedial actions and ecological recovery unverified."
+      ],
+      "refs": [
+        "UTP-DEC-168",
+        "UTP-WORK-149"
+      ],
+      "evidence": [
+        "records/mining-land-people-2026-10-03.json"
       ]
     }
   ],

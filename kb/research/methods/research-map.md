@@ -389,3 +389,7 @@ Reused the existing CAG source and four case identities. Added one original parl
 ### DMF accounting-basis follow-up · 2 October 2026
 
 Added original Finance Accounts 2023–24 Volume I and Lok Sabha answer 2607 (11 December 2024). Two receipt rows improve precision without replacing the earlier 954 observations. District annual data remains separate from CAG cumulative data. Four facility identities reused; six focused record questions prepared and not sent. Repeated unavailable-source searches should await new evidence or a restored endpoint.
+
+### Mining impact cases · 3 October 2026
+
+RES-054 reuses Baphlimali records and existing air data, adding three source identities and one connected collection. The July2026 Sukinda tribunal mirror remains a discovery lead. No atlas observations added; earlier observations preserved. Follow-ups require original tables, implementation records and measured recovery.

@@ -93,3 +93,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## Mining and community services · 2026-10-02
 
 [From mineral revenues to working community services](dmf-community-outcomes.md) links actual state receipts, six audited DMF districts and four named case bundles. Construction completion, operating service and community benefit remain distinct. Government replies and original-table discrepancies are retained; current operation and resident outcomes remain open.
+
+## Land, rights, safety and restoration · 3 October 2026
+
+[Four scoped cases](mining-land-and-people.md) connect Sukurangi monitoring, Niyamgiri rights, Bharatpur haul-road safety and Baphlimali rehabilitation. Reported findings, decisions and actual outcomes remain separate; original monitoring and implementation/recovery records still need follow-up.
