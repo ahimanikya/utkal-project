@@ -153,3 +153,32 @@ Jajpur's reported ₹17.03 crore supply and Mayurbhanj's ₹12.35 crore supply f
 The separate Keonjhar uniform/textbook scheme has ₹10.32 crore released and ₹9.33 crore in certificates. Government's secondary-school transition rationale is retained, but its reply date is printed **“January 20216”**; the normalized date remains unknown. [Section 6.5.5.2, printed p.54](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
 
 These historical cases connect [health](../statistics/health.md), [education](../statistics/education.md) and mining-funded services. Future evidence should follow the chain from approval to expenditure, completed assets, people served and sustained results. Public eligibility conclusions require current rules; this record reports CAG's historical findings and the responses it reproduces.
+
+## Infrastructure needs an operating plan · 3 October 2026
+
+**A completed building becomes a public service when people can use it.** CAG records 19 garbage-storage units completed in Hemgiri block during May–December 2022 at a cost of ₹1.61 crore. The report says the units remained abandoned because operating arrangements and staffing funds were missing. Its late-2024 physical checks covered the block unit and four GP units; that is a sample, not a visit to every unit. Government said in January 2026 that action would be taken to make them functional. Later operation is still unverified. [Section 6.6.11, printed pp.70–71](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+The same service question connects housing, lighting and community facilities:
+
+| Place and programme | What the historical record establishes | What remains unknown |
+|---|---|---|
+| Kusumundia, Sukinda: Mankedia settlement colony | 87 houses were planned. Work worth ₹2.81 crore, including GST, had been executed when the contractor stopped in April 2021. The colony was incomplete at the 31 December 2024 visit. A ₹15.12 lakh contractor penalty was recovered in February 2023. | Government subsequently described phased implementation after reapproval. Actual restart, completion and occupation need dated evidence. |
+| Sundargarh high-mast lighting | 860 systems were installed during July 2020–June 2022. CAG combines reports and inspections identifying 34 systems with full or partial faults. | Current repairs and service status. Government's promise to blacklist the agency is not evidence of completed blacklisting. |
+| Mayurbhanj lighting in three blocks | Of 2,320 installed lights, 1,713 were reported defunct by the BDOs in July 2024. | Whether later repair instructions restored service. These are three programme blocks, not all lights in the district or state. |
+| Koira community halls | Eight mandaps were reported completed; five GP locations were visited in November 2024. Four facilities were not serving their intended purpose, including one used as an ITI hostel. | Current community access, maintenance and user-fee receipts. Alternate hostel use must not be described as no use at all. |
+
+[Sections 6.6.12–6.6.13 and 6.6.15, printed pp.71–75](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf). Mayurbhanj's ₹5.53 crore audit assessment is a model of lost lighting service over two years of a five-year assured period. It is different from the ₹17.20 crore payment for installation, a repair bill or cash proven missing. Recovery, spending and modelled service value must remain separate.
+
+### Seedlings are the beginning of a forest story
+
+Jajpur DMF released ₹8.48 crore for eight seedling projects, with ₹8.13 crore reported spent on raising seedlings by March 2021. Later records describe public distribution and departmental planting. **Neither measure establishes how many trees survived.** For 7,29,034 eighteen-month seedlings, distribution documentation was absent; CAG questioned ₹2.54 crore associated with them. Government said documentation gaps were being addressed. Missing records do not prove that seedlings died or never existed. [Section 6.6.14, printed p.74](https://cag.gov.in/webroot/uploads/download_audit_report/2026/Report-No.-7-of-the-year-2026_PMKKKY-06aba7c29ed78b2.53467972.pdf).
+
+The public-distribution count of 13,29,033 and departmental-planting count of 6,28,567 do not fully reconcile the 20-lakh target; the status of the remaining 42,400 is unspecified. Keep that gap open, without inventing mortality or a forest-cover gain. DFO Cuttack implemented the work for the Jajpur programme; the office location does not move the project to Cuttack district.
+
+Two timeline claims are also held: the settlement passage's “six years” since April 2021 does not fit its stated inspection/reply dates, and the mandap passage mixes approval vintages and an unresolved inactivity duration. Original dates and government responses remain visible in the [evidence record](../references/data/mining-dmf.json).
+
+These cases connect [sanitation and everyday services](../statistics/urban-sanitation.md) with [forest evidence](../statistics/forests.md). For entrepreneurship research, they suggest questions about operations, maintenance and survival monitoring. They do not establish an open tender, available contract, budget or buyer willing to pay.
+
+Links mining-funded asset delivery to sanitation and maintenance questions; rural Hemgiri is not an urban indicator or statewide outcome.
+
+Links seedling project evidence to forest-measurement definitions; distribution is not surviving trees, carbon removal or forest-cover change.

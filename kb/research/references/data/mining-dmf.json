@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T09:38:20.498540+00:00",
+  "updated_at": "2026-10-03T10:35:29.342463+00:00",
   "run_id": "2026-10-02-mining-dmf",
   "source_id": "mining-cag-dmf2026",
   "sample_districts": [
@@ -240,7 +240,39 @@
     "dmf-keonjhar-wheelchairs-supplied",
     "dmf-keonjhar-wheelchairs-payment",
     "dmf-keonjhar-wheelchairs-idle",
-    "dmf-keonjhar-wheelchairs-idle-cost"
+    "dmf-keonjhar-wheelchairs-idle-cost",
+    "dmf-hemgiri-garbage-units",
+    "dmf-hemgiri-garbage-sanction",
+    "dmf-hemgiri-garbage-cost",
+    "dmf-mankedia-planned-houses",
+    "dmf-mankedia-project-estimate",
+    "dmf-mankedia-work-executed",
+    "dmf-mankedia-penalty-recovered",
+    "dmf-sundargarh-hmis-installed",
+    "dmf-sundargarh-hmis-paid",
+    "dmf-sundargarh-hmis-faults",
+    "dmf-sundargarh-hmis-affected-cost",
+    "dmf-mayurbhanj-lights-planned",
+    "dmf-mayurbhanj-lights-agreed-cost",
+    "dmf-mayurbhanj-lights-installed",
+    "dmf-mayurbhanj-lights-paid",
+    "dmf-mayurbhanj-lights-defunct",
+    "dmf-mayurbhanj-lights-modelled-loss",
+    "dmf-jajpur-seedling-projects",
+    "dmf-jajpur-seedling-releases",
+    "dmf-jajpur-seedling-spend",
+    "dmf-jajpur-six-month-distributed",
+    "dmf-jajpur-eighteen-month-target",
+    "dmf-jajpur-eighteen-month-distributed",
+    "dmf-jajpur-seedlings-undocumented",
+    "dmf-jajpur-seedlings-planted",
+    "dmf-jajpur-seedlings-questioned-cost",
+    "dmf-koira-mandaps-planned",
+    "dmf-koira-mandaps-proposal-cost",
+    "dmf-koira-mandaps-completed",
+    "dmf-koira-mandaps-completed-cost",
+    "dmf-koira-mandaps-not-intended-use",
+    "dmf-koira-mandaps-affected-cost"
   ],
   "reused_observation_ids": [
     "mining-dmf-contributions-2024",
@@ -574,6 +606,108 @@
       "current_service_status": "unknown",
       "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
       "human_review_claimed": false
+    },
+    {
+      "id": "hemgiri-garbage-storage",
+      "title": "Hemgiri garbage-storage units",
+      "district": "sundargarh",
+      "locator": "6.6.11 printed70–71/PDF108–109",
+      "completion_evidence": "19units completedMay–December2022 for1.61crore; audit reports allabandoned.",
+      "service_observation_date": "2024-12-02",
+      "service_status_at_observation": "Block unit andfourGPunits visited27November–2December2024; no staffing/O&Mfunds; currentstatusunknown.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Action will be taken to make units functional.",
+      "audit_rejoinder": "Promise does not establish operating service. Funding source deviations separate from nonfunctionality.",
+      "scope_limit": "Five visitedlocations versus19-unit portfolio; no waste throughput or all-unit inspection claim.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "jajpur-mankedia-settlement",
+      "title": "Mankedia settlement colony atKusumundia",
+      "district": "jajpur",
+      "locator": "6.6.12 printed71–72/PDF109–110",
+      "completion_evidence": "87houses planned; contractor stoppedApril2021 after2.81crorework includingGST; colony incomplete at31December2024visit.",
+      "service_observation_date": "2024-12-31",
+      "service_status_at_observation": "Incomplete at audit visit; contemporary occupation/restart unknown.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Project not abandoned; phased implementation following reapproval and fund release.",
+      "audit_rejoinder": "Audit said work had not restarted. Its six-year duration conflicts with statedApril2021stoppage and is held.",
+      "scope_limit": "15.12lakh recoveredFebruary2023 is actual audit-reported penalty; not completed housing. Kusumdia photo spelling retained as alias, notduplicateplace.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "sundargarh-high-mast-maintenance",
+      "title": "Sundargarh high-mast lighting maintenance",
+      "district": "sundargarh",
+      "locator": "6.6.13 printed72–74/PDF110–112",
+      "completion_evidence": "860installedJuly2020–June2022;34faulty/partlyfunctioning percombined2023–25reports.",
+      "service_observation_date": null,
+      "service_status_at_observation": "Datedmixed reports, notone current survey.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Notice issued toGreen; agency will be blacklisted.",
+      "audit_rejoinder": "Five-year warranty remedy notenforced in audit. Completedrepair/blacklisting notverified.",
+      "scope_limit": "Government replyJanuary2026. Avoidpresent supplier status or statewide failure rate.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "mayurbhanj-streetlight-maintenance",
+      "title": "Mayurbhanj three-block streetlight maintenance",
+      "district": "mayurbhanj",
+      "locator": "6.6.13 printed72–74/PDF110–112",
+      "completion_evidence": "2320installed of2351planned;1713reporteddefunctJuly2024.",
+      "service_observation_date": "2024-07",
+      "service_status_at_observation": "BDOreported failures inKusumi,Rairangpur,Jashipur; currentrepairunknown.",
+      "government_reply_date": "2026-01",
+      "government_reply": "OSICintimated to repair lights.",
+      "audit_rejoinder": "5.53crore is proportionalmodel oflost service overtwo offive years, notcashloss.",
+      "scope_limit": "Do not equate instructionswithrepair or installationwithfunctioning.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "jajpur-seedling-plantation",
+      "title": "Jajpur DMF seedling raising and plantation",
+      "district": "jajpur",
+      "locator": "6.6.14 printed74/PDF112",
+      "completion_evidence": "Eightprojects;8.13crorespent asofMarch2021. Distribution2021–23 andplantingFY2021–23 recorded separately.",
+      "service_observation_date": null,
+      "service_status_at_observation": "No measured survival, canopy gain or carbon outcome.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Aimed at improvedtreecover; documentation gaps being addressed.",
+      "audit_rejoinder": "729034seedlings lackdistributionrecords; audit questioned2.54crore.",
+      "scope_limit": "Public distribution is not verifiedplanting; target2million notfullyreconciled bysource. DFOCuttack isimplementer, notprojectdistrict.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
+    },
+    {
+      "id": "koira-kalyan-mandaps",
+      "title": "Koira Kalyan Mandap community facilities",
+      "district": "sundargarh",
+      "locator": "6.6.15 printed75/PDF113",
+      "completion_evidence": "Eightcompleted asofAugust2019; fiveGPsvisitedNovember2024.",
+      "service_observation_date": "2024-11",
+      "service_status_at_observation": "Fournotused asintended; oneoperated asITIhostel, notempty.",
+      "government_reply_date": "2026-01",
+      "government_reply": "Will furnish reply afterobtaining BDOresponse.",
+      "audit_rejoinder": "Twoabandoned/unauthoriseduse; Kalta lackedwater/power; Koira usedforhostel.",
+      "scope_limit": "Nineplanned,eightcompleted,fivevisited,fournotintendeduse aredifferentscopes. No currentfeeincome, bookingavailability or confirmedrepair.",
+      "source_id": "mining-cag-dmf2026",
+      "current_service_status": "unknown",
+      "government_reply_provenance": "Reproduced in CAG report; original government letters not retrieved",
+      "human_review_claimed": false
     }
   ],
   "conflicts": [
@@ -663,6 +797,27 @@
       "locator": "6.2–6.3 and6.5.5.4",
       "treatment": "Seven-project138.77crore furniture and ten-project173.73crore furniture/equipment scopes may overlap. Reuse existing OSIC identity; no subset assumption or combined total.",
       "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-mankedia-delay-duration",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.6.12 printed71–72/PDF109–110",
+      "treatment": "Audit says six years sinceApril2021stoppage, inconsistent withDecember2024inspection andJanuary2026reply. Dates retained; six-year-duration headline withheld. Government phased-implementation claim remains unverified.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-jajpur-seedling-balance",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.6.14 printed74/PDF112",
+      "treatment": "1329033publicdistribution +628567departmentplanting =1957600 versus2000000target; residual42400 has unexplained status in passage. No inferred deaths, missing assets or authoritative correction. Distribution and planting remain distinct measures.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-koira-mandap-timeline",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "6.6.15 printed75/PDF113",
+      "treatment": "April2017/October2022approval vintages, August2019completion and claimedtwo-to-nine-year inactivity are not reconciled atprojectlevel. Retain rawdates; do not derive a duration headline or assume laterapproval covers allcompletedfacilities.",
+      "retry_after": "2026-10-10"
     }
   ],
   "human_review_claimed": false,
@@ -732,11 +887,12 @@
     "sundargarh": "2025-03-22"
   },
   "review_coverage": {
-    "updated_at": "2026-10-03T09:38:20.498540+00:00",
+    "updated_at": "2026-10-03T10:35:29.342463+00:00",
     "complete_chapters": [
       "III",
       "V",
-      "VII"
+      "VII",
+      "VI"
     ],
     "complete_subsections": [
       "5.1",
@@ -758,9 +914,14 @@
       "6.5.3",
       "6.5.4",
       "6.5.5",
-      "6.6.7"
+      "6.6.7",
+      "6.6.11",
+      "6.6.12",
+      "6.6.13",
+      "6.6.14",
+      "6.6.15"
     ],
-    "remaining": "ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split.",
+    "remaining": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved.",
     "not_full_report_review": true
   },
   "collection_findings": {
@@ -1192,5 +1353,50 @@
       }
     ],
     "aggregation_rule": "No combined loss total or current service claim; distinguish eligibility, money, certificates and outcomes."
+  },
+  "infrastructure_review": {
+    "run_id": "2026-10-03-dmf-infrastructure",
+    "observations": [
+      "dmf-hemgiri-garbage-units",
+      "dmf-hemgiri-garbage-sanction",
+      "dmf-hemgiri-garbage-cost",
+      "dmf-mankedia-planned-houses",
+      "dmf-mankedia-project-estimate",
+      "dmf-mankedia-work-executed",
+      "dmf-mankedia-penalty-recovered",
+      "dmf-sundargarh-hmis-installed",
+      "dmf-sundargarh-hmis-paid",
+      "dmf-sundargarh-hmis-faults",
+      "dmf-sundargarh-hmis-affected-cost",
+      "dmf-mayurbhanj-lights-planned",
+      "dmf-mayurbhanj-lights-agreed-cost",
+      "dmf-mayurbhanj-lights-installed",
+      "dmf-mayurbhanj-lights-paid",
+      "dmf-mayurbhanj-lights-defunct",
+      "dmf-mayurbhanj-lights-modelled-loss",
+      "dmf-jajpur-seedling-projects",
+      "dmf-jajpur-seedling-releases",
+      "dmf-jajpur-seedling-spend",
+      "dmf-jajpur-six-month-distributed",
+      "dmf-jajpur-eighteen-month-target",
+      "dmf-jajpur-eighteen-month-distributed",
+      "dmf-jajpur-seedlings-undocumented",
+      "dmf-jajpur-seedlings-planted",
+      "dmf-jajpur-seedlings-questioned-cost",
+      "dmf-koira-mandaps-planned",
+      "dmf-koira-mandaps-proposal-cost",
+      "dmf-koira-mandaps-completed",
+      "dmf-koira-mandaps-completed-cost",
+      "dmf-koira-mandaps-not-intended-use",
+      "dmf-koira-mandaps-affected-cost"
+    ],
+    "sections": [
+      "6.6.11",
+      "6.6.12",
+      "6.6.13",
+      "6.6.14",
+      "6.6.15"
+    ],
+    "aggregation_rule": "No shared loss total: actual contractor recovery, completed asset cost, unsupported records and modelled lost service are different financial concepts."
   }
 }

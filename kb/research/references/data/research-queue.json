@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T09:38:20.498540+00:00",
+  "updated_at": "2026-10-03T10:35:29.342463+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2785,13 +2785,13 @@
       "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 6,
+      "attempts": 7,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-018"
       ],
-      "last_worked_at": "2026-10-03T09:38:20.498540+00:00",
-      "next_step": "Reuse completed ChaptersIII/V/VII and captured ChapterVI sections. Next read6.6.11–6.6.15 and relevant appendices, then original/current project outcomes and royalty/auction receipt split. Existing portal/conflict retries9October; new period/date/portfolio holds10October. Do not repeat health/education/wheelchair capture.",
+      "last_worked_at": "2026-10-03T10:35:29.342463+00:00",
+      "next_step": "ChapterVI now complete across saved batches; do not repeat project sections. Next inspect relevant appendicesI–XI and reconcile with saved ChapterIII/V/VI observations; verify ChapterIV planning review coverage. Then original/current service outcomes and royalty/auction split. Existing source retries9–10October retained.",
       "evidence_outputs": [
         "economy/dmf-from-funds-to-services.md",
         "references/data/mining-dmf.json",
@@ -2804,7 +2804,7 @@
         "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
-      "blocker": "ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split.",
+      "blocker": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved.",
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-dmf",
@@ -2847,6 +2847,13 @@
           "outcome": "health_education_and_inclusion_checkpoint",
           "completion_criteria_met": false,
           "remaining": "ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outcomes and royalty/auction receipt split."
+        },
+        {
+          "run_id": "2026-10-03-dmf-infrastructure",
+          "at": "2026-10-03T10:35:29.342463+00:00",
+          "outcome": "chapter_vi_complete_infrastructure_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved."
         }
       ],
       "reuse_before_research": {
@@ -2934,6 +2941,30 @@
           "topic": "dmf-sundargarh-uc-excess",
           "retry_after": "2026-10-09",
           "gap": "Printed gap held; raw expenditure and certificate figures retained with scope; aggregate net gap separately reconciles.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-mankedia-delay-duration",
+          "retry_after": "2026-10-10",
+          "gap": "Audit says six years sinceApril2021stoppage, inconsistent withDecember2024inspection andJanuary2026reply. Dates retained; six-year-duration headline withheld. Government phased-implementation claim remains unverified.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-jajpur-seedling-balance",
+          "retry_after": "2026-10-10",
+          "gap": "1329033publicdistribution +628567departmentplanting =1957600 versus2000000target; residual42400 has unexplained status in passage. No inferred deaths, missing assets or authoritative correction. Distribution and planting remain distinct measures.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-koira-mandap-timeline",
+          "retry_after": "2026-10-10",
+          "gap": "April2017/October2022approval vintages, August2019completion and claimedtwo-to-nine-year inactivity are not reconciled atprojectlevel. Retain rawdates; do not derive a duration headline or assume laterapproval covers allcompletedfacilities.",
           "source_ids": [
             "mining-cag-dmf2026"
           ]

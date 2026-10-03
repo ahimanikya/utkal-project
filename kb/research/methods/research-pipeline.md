@@ -255,3 +255,7 @@ Reuse completed ChaptersIII/V/VII and ChapterVI sections already captured. Next 
 ## DMF health, education and inclusion · 3 October 2026
 
 Reuse completed ChaptersIII/V/VII and captured ChapterVI sections. Next read6.6.11–6.6.15 and relevant appendices, then original/current project outcomes and royalty/auction receipt split. Existing portal/conflict retries9October; new period/date/portfolio holds10October. Do not repeat health/education/wheelchair capture.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+ChapterVI now complete across saved batches; do not repeat project sections. Next inspect relevant appendicesI–XI and reconcile with saved ChapterIII/V/VI observations; verify ChapterIV planning review coverage. Then original/current service outcomes and royalty/auction split. Existing source retries9–10October retained.

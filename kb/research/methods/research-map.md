@@ -397,3 +397,7 @@ Existing DMF and district records enhanced. One saved CAG publication supplies a
 ## DMF health, education and inclusion · 3 October 2026
 
 Extended existing CAG source and subject/district identities. Existing OSIC furniture record enhanced to avoid duplicate project identity; relationship between7and10project scopes remains unresolved.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+Six cases extend the existing DMF collection; existing sanitation and forest pages receive explained related-reading links. Kusumundia/Kusumdia remain one source-local settlement identity pending name verification.

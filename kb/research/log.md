@@ -438,3 +438,7 @@ RES-053: six implementation subsections read; 24 observations and three project 
 ## DMF health, education and inclusion · 3 October 2026
 
 RES-053: health6.5.4,education6.5.5 andwheelchairs6.6.7 read. Added36 observations,five cases and one existing case extension. Historical government responses retained, conflicts held,current outcomes unknown. No website release.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+RES-053: completed remaining ChapterVI sections6.6.11–6.6.15; added32 observations and six cases. Actual recovered penalty, asset cost and modelled service loss stay distinct. Appendices and current outcomes remain. No website release.

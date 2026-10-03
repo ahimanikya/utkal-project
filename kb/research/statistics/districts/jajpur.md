@@ -51,3 +51,7 @@ IBM’s2023–24 provisional chromite table records3,126,623 tonnes for Jajpur. 
 ## Health and education delivery evidence · 3 October 2026
 
 Medical-coaching cohorts now have a source-reported examination result, distinct from college admissions and careers. COVID hospital payments and school-furniture supply retain their own periods and caveats. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Infrastructure and sustained service · 3 October 2026
+
+The settlement-colony case retains a reported ₹15.12lakh contractor penalty recovery alongside incomplete housing. Seedling distribution is kept distinct from surviving trees; chronology and stock-balance questions remain open. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).

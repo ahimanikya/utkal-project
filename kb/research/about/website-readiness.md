@@ -193,3 +193,7 @@ DMF synthesis now connects park/museum service readiness with procurement eviden
 ## DMF health, education and inclusion · 3 October 2026
 
 DMF health/education/inclusion evidence is structured and source-linked. Current operation and human review remain unknown; five new cases are research records, not approved public endorsements. No website release.
+
+## DMF infrastructure and forest evidence · 3 October 2026
+
+Infrastructure cases are historical research drafts. Current facility operation, repair, occupancy, plant survival and editorial review remain unknown. No website release.

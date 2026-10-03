@@ -39,3 +39,7 @@ The agriculture report records rice crop area of **301.11 thousand hectares**, r
 ## Health and education delivery evidence · 3 October 2026
 
 The DMF study records school-furniture supply during July–September2021 at a reported cost of ₹12.35crore. This funding-eligibility audit case does not measure present furniture use or learning outcomes. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).
+
+## Infrastructure and sustained service · 3 October 2026
+
+Three-block lighting evidence now retains July2024 reports of1713defunct lights out of2320installed. The audit monetary assessment is modelled service value, not cash loss; later restoration is unverified. See [DMF funds to services](../../economy/dmf-from-funds-to-services.md).

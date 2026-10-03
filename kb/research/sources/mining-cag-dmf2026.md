@@ -35,3 +35,7 @@ Complete sections 6.1–6.4 (printed41–44/PDF79–82) and 6.5.2–6.5.3 (print
 ## Health, education and inclusion extension · 3 October 2026
 
 Complete sections 6.5.4.1–6.5.4.3 and 6.5.5.1–6.5.5.4 (printed50–57/PDF88–95) plus 6.6.7 (printed63/PDF101). Numeric tables/passages visually checked on PDF88,90,92–95,101. Saved original reused; no fresh fetch, current fieldwork or independent corroboration. Government replies remain attributed to the report. Held the COVID payment-period mismatch, a literal January20216 reply-date typo and unresolved overlap between seven- and ten-project furniture portfolios. Current service outcomes are not established.
+
+## Infrastructure and afforestation extension · 3 October 2026
+
+Complete sections 6.6.11–6.6.15, printed70–75/PDF108–113; numeric passages and footnotes on PDF109–113 visually checked. This finishes the remaining ChapterVI sections across saved batches; appendices remain to be inspected. Saved original reused, no fresh fetch or independent corroboration. Retained actual contractor recovery separately from asset costs and modelled lighting-service loss. Held housing/mandap duration claims and the unexplained seedling target balance. Government promises are not verified remediation.
