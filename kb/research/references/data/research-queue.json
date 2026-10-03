@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T10:35:29.342463+00:00",
+  "updated_at": "2026-10-03T11:35:43.176414+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -2785,13 +2785,13 @@
       "done_when": "Reconcile actual public receipts and a district DMF sample; inspect full relevant CAG chapters and government responses, link at least three projects to completion and functioning-service evidence where available.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 7,
+      "attempts": 8,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-018"
       ],
-      "last_worked_at": "2026-10-03T10:35:29.342463+00:00",
-      "next_step": "ChapterVI now complete across saved batches; do not repeat project sections. Next inspect relevant appendicesI–XI and reconcile with saved ChapterIII/V/VI observations; verify ChapterIV planning review coverage. Then original/current service outcomes and royalty/auction split. Existing source retries9–10October retained.",
+      "last_worked_at": "2026-10-03T11:35:43.176414+00:00",
+      "next_step": "AppendicesI–XI text reviewed and selected arithmetic reconciled; do not repeat captured totals. Next readfullChapterIV and governmentresponses, joining AppendixVIII/IX before publishing planning claims. Then original/current service outcomes and royalty/auction receipt split. Retain source-specific retries9–10October.",
       "evidence_outputs": [
         "economy/dmf-from-funds-to-services.md",
         "references/data/mining-dmf.json",
@@ -2804,7 +2804,7 @@
         "statistics/entrepreneurship-skills.md"
       ],
       "retry_after": null,
-      "blocker": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved.",
+      "blocker": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October.",
       "attempt_history": [
         {
           "run_id": "2026-10-02-mining-dmf",
@@ -2854,6 +2854,13 @@
           "outcome": "chapter_vi_complete_infrastructure_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved."
+        },
+        {
+          "run_id": "2026-10-03-dmf-appendices",
+          "at": "2026-10-03T11:35:43.176414+00:00",
+          "outcome": "appendix_reconciliation_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October."
         }
       ],
       "reuse_before_research": {
@@ -2965,6 +2972,46 @@
           "topic": "dmf-koira-mandap-timeline",
           "retry_after": "2026-10-10",
           "gap": "April2017/October2022approval vintages, August2019completion and claimedtwo-to-nine-year inactivity are not reconciled atprojectlevel. Retain rawdates; do not derive a duration headline or assume laterapproval covers allcompletedfacilities.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-iii-inputs",
+          "retry_after": "2026-10-10",
+          "gap": "Total is an audit-reported interest figure; this does not independently validate underlying date/rate calculation. Principal subtotal and date inputs held; no publisher correction assumed. Interest subtotals sum93254230rupees and round9.33crore. Joda principal groups sum916965415, versus printed16965415; other principal subtotals reconcile grand total only with group sum. The Keonjhar row has payment preceding its printed due date despite27days delay.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-v-works-total",
+          "retry_after": "2026-10-10",
+          "gap": "Appendix printed due lesscollection=443776581, differing6553rupees fromprintedshort443770028. Dhenkanal due rows sum105928713,6553below printedsubtotal; row sum lesscollection matches101414882. Body4438.08lakh=443808000rupees,37972above appendixshorttotal. Existing body/table total held; original record needed.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-vi-demand-scope",
+          "retry_after": "2026-10-10",
+          "gap": "First nine short-demand entries sum90648386; the two non-demanded rows printzero shortdemand despite33800179chargeable. Fullcolumn subtraction gives124448566, while displayedshortpluslasttwochargeable=124448565; retainone-rupeeroundingdifference. Do not present9.06crore as fullyreconciled all11case shortfall or replace it with a new12.44crore claim. Two rows extendthroughFY2024–25; avoid uniform2015–24 scope.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-vii-precision",
+          "retry_after": "2026-10-10",
+          "gap": "9138518minus3764788=5373730=53.7373lakh. Bodyreports53.73lakh, a730rupee precision difference; ordinary rounding to two decimals would be53.74. Retain printed body value and exact appendix separately without silently correcting it. No claim every royalty/quantityrow independently recalculated.",
+          "source_ids": [
+            "mining-cag-dmf2026"
+          ]
+        },
+        {
+          "topic": "dmf-appendix-ix-money-precision",
+          "retry_after": "2026-10-10",
+          "gap": "Count difference3269minus2512=757. Money row sum9733.36 differsfromprinted9733.37 by0.01crore; printed aggregate subtraction gives2751.78 versusprinted2751.79. Amount difference is not the value of757unauthorised projects. Hold interpretation pendingfull4.3.8andresponse; retain0.01crore sourceprecision disagreement.",
           "source_ids": [
             "mining-cag-dmf2026"
           ]

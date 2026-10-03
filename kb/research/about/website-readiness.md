@@ -197,3 +197,7 @@ DMF health/education/inclusion evidence is structured and source-linked. Current
 ## DMF infrastructure and forest evidence · 3 October 2026
 
 Infrastructure cases are historical research drafts. Current facility operation, repair, occupancy, plant survival and editorial review remain unknown. No website release.
+
+## DMF appendix reconciliation · 3 October 2026
+
+Works-collection and quarry-demand observations now held from headline use. Values preserved with reviewhistory; no current recovery, independent bank evidence, humanreview or websitepublication claimed.

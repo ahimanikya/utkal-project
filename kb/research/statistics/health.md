@@ -66,3 +66,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Mining-funded health and mobility · 3 October 2026
 
 [The DMF service study](../economy/dmf-from-funds-to-services.md) now distinguishes mobile-clinic credential checks, patient-attendant meals, COVID bed reservations and wheelchair distribution. Historical payment or supply is not proof of patients served or current operation. Government responses are retained; the COVID total has an unresolved payment-period mismatch.
+
+## Doctor remuneration and healthcare delivery · 3 October 2026
+
+[The DMF appendix review](../economy/dmf-from-funds-to-services.md) retains a historical remuneration-policy comparison alongside government explanations of remote-area recruitment difficulty. It is not evidence of fictitious employment, current doctor availability or patient outcomes. Appendix2015–24 and bodyJanuary2018–March2024 scopes remain visible.

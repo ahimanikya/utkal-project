@@ -426,3 +426,7 @@ ChapterVI6.6.11–6.6.15 and relevant appendices; original/current project outco
 ## DMF infrastructure and forest evidence · 3 October 2026
 
 Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved. New holds: settlement/mandap duration claims and unexplained seedling target balance. Retry10October.
+
+## DMF appendix reconciliation · 3 October 2026
+
+Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October. AppendixIIIinputs,Vtotals,VIcasecoverage,VIIprecision andIXmoneyprecision remain held or qualified; retry10October.

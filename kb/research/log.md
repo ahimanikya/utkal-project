@@ -442,3 +442,7 @@ RES-053: health6.5.4,education6.5.5 andwheelchairs6.6.7 read. Added36 observatio
 ## DMF infrastructure and forest evidence · 3 October 2026
 
 RES-053: completed remaining ChapterVI sections6.6.11–6.6.15; added32 observations and six cases. Actual recovered penalty, asset cost and modelled service loss stay distinct. Appendices and current outcomes remain. No website release.
+
+## DMF appendix reconciliation · 3 October 2026
+
+RES-053: AppendixI–XI text reviewed, selected totals reconciled; eight existing observations enhanced, two held. No new duplicate statistics. ChapterIV/current evidence still pending; no website release.

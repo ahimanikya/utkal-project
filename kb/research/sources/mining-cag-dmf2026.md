@@ -39,3 +39,7 @@ Complete sections 6.5.4.1–6.5.4.3 and 6.5.5.1–6.5.5.4 (printed50–57/PDF88�
 ## Infrastructure and afforestation extension · 3 October 2026
 
 Complete sections 6.6.11–6.6.15, printed70–75/PDF108–113; numeric passages and footnotes on PDF109–113 visually checked. This finishes the remaining ChapterVI sections across saved batches; appendices remain to be inspected. Saved original reused, no fresh fetch or independent corroboration. Retained actual contractor recovery separately from asset costs and modelled lighting-service loss. Held housing/mandap duration claims and the unexplained seedling target balance. Government promises are not verified remediation.
+
+## Appendix reconciliation · 3 October 2026
+
+AppendicesI–XI includingIV(A)/(B), printed93–110/PDF137–154: all appendix text inspected, selected aggregate/row arithmetic reconciled. PDF138–140,142,146–148,152,154 visually checked. Not a complete recalculation of every row, date, statutory rate or bank record. Reused saved original, not a fresh publisher fetch or independent corroboration. All13appendix components catalogued. Eight existing observations enhanced; no duplicate statistic or new source identity. Works/quarry-demand aggregates held; date, subtotal and precision issues retained. Planning interpretation awaits fullChapterIV and responses.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T10:35:29.342463+00:00",
+  "updated_at": "2026-10-03T11:35:43.176414+00:00",
   "run_id": "2026-10-02-mining-dmf",
   "source_id": "mining-cag-dmf2026",
   "sample_districts": [
@@ -818,6 +818,41 @@
       "locator": "6.6.15 printed75/PDF113",
       "treatment": "April2017/October2022approval vintages, August2019completion and claimedtwo-to-nine-year inactivity are not reconciled atprojectlevel. Retain rawdates; do not derive a duration headline or assume laterapproval covers allcompletedfacilities.",
       "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-appendix-iii-inputs",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "AppendixIII printed95–96/PDF139–140",
+      "treatment": "Total is an audit-reported interest figure; this does not independently validate underlying date/rate calculation. Principal subtotal and date inputs held; no publisher correction assumed. Interest subtotals sum93254230rupees and round9.33crore. Joda principal groups sum916965415, versus printed16965415; other principal subtotals reconcile grand total only with group sum. The Keonjhar row has payment preceding its printed due date despite27days delay.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-appendix-v-works-total",
+      "source_id": "mining-cag-dmf2026",
+      "retry_after": "2026-10-10",
+      "locator": "AppendixV printed103/PDF147 versusTable3.1 printed16/PDF48",
+      "treatment": "Appendix printed due lesscollection=443776581, differing6553rupees fromprintedshort443770028. Dhenkanal due rows sum105928713,6553below printedsubtotal; row sum lesscollection matches101414882. Body4438.08lakh=443808000rupees,37972above appendixshorttotal. Existing body/table total held; original record needed."
+    },
+    {
+      "id": "dmf-appendix-vi-demand-scope",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "AppendixVI printed104/PDF148 versus3.2.5 printed17/PDF49",
+      "treatment": "First nine short-demand entries sum90648386; the two non-demanded rows printzero shortdemand despite33800179chargeable. Fullcolumn subtraction gives124448566, while displayedshortpluslasttwochargeable=124448565; retainone-rupeeroundingdifference. Do not present9.06crore as fullyreconciled all11case shortfall or replace it with a new12.44crore claim. Two rows extendthroughFY2024–25; avoid uniform2015–24 scope.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-appendix-vii-precision",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "AppendixVII printed105–106/PDF149–150 versus3.2.6 printed18/PDF50",
+      "treatment": "9138518minus3764788=5373730=53.7373lakh. Bodyreports53.73lakh, a730rupee precision difference; ordinary rounding to two decimals would be53.74. Retain printed body value and exact appendix separately without silently correcting it. No claim every royalty/quantityrow independently recalculated.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "id": "dmf-appendix-ix-money-precision",
+      "source_id": "mining-cag-dmf2026",
+      "locator": "AppendixIX printed108/PDF152",
+      "treatment": "Count difference3269minus2512=757. Money row sum9733.36 differsfromprinted9733.37 by0.01crore; printed aggregate subtraction gives2751.78 versusprinted2751.79. Amount difference is not the value of757unauthorised projects. Hold interpretation pendingfull4.3.8andresponse; retain0.01crore sourceprecision disagreement.",
+      "retry_after": "2026-10-10"
     }
   ],
   "human_review_claimed": false,
@@ -887,7 +922,7 @@
     "sundargarh": "2025-03-22"
   },
   "review_coverage": {
-    "updated_at": "2026-10-03T10:35:29.342463+00:00",
+    "updated_at": "2026-10-03T11:35:43.176414+00:00",
     "complete_chapters": [
       "III",
       "V",
@@ -921,8 +956,24 @@
       "6.6.14",
       "6.6.15"
     ],
-    "remaining": "Relevant appendicesI–XI need a bounded reconciliation pass; check ChapterIV planning coverage before claiming all relevant chapters complete. Original/current project outcomes and royalty/auction receipt split remain unresolved.",
-    "not_full_report_review": true
+    "remaining": "Read fullChapterIV planning and institutional arrangements with government responses; contextualise AppendixVIII/IX. Original/current service outcomes and royalty/auction receipt split remain unresolved; source-specific retries9–10October.",
+    "not_full_report_review": true,
+    "appendices_text_reviewed": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "IV-A",
+      "IV-B",
+      "V",
+      "VI",
+      "VII",
+      "VIII",
+      "IX",
+      "X",
+      "XI"
+    ],
+    "appendix_review_scope": "All appendix text read; selected arithmetic verified and conflicts saved. Noteveryrow/date recalculated."
   },
   "collection_findings": {
     "source_id": "mining-cag-dmf2026",
@@ -934,7 +985,12 @@
         "finding": "Two assessment categories6.13+4.27; not established current debt balance.",
         "amount_crore": 10.4,
         "stage": "assessed_short_collection",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixII printed94/PDF138",
+          "status": "aggregate_reconciles",
+          "scope": "Historical assessed short collection, not present receivable or new recovery. Same publication as3.2.1."
+        }
       },
       {
         "id": "interest-not-levied",
@@ -943,7 +999,12 @@
         "finding": "Audit computation of unlevied interest, not principal shortfall or recovered money.",
         "amount_crore": 9.33,
         "stage": "audit_assessed_interest",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixIII printed95–96/PDF139–140",
+          "status": "aggregate_reconciles_inputs_conflicted",
+          "scope": "Total is an audit-reported interest figure; this does not independently validate underlying date/rate calculation. Principal subtotal and date inputs held; no publisher correction assumed."
+        }
       },
       {
         "id": "ledger-variation",
@@ -952,7 +1013,12 @@
         "finding": "Assessment records927.28crore versus audited DMF accounts886.54crore. Difference requires reconciliation; not proved loss.",
         "amount_crore": 40.74,
         "stage": "unreconciled_variation",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixIV printed97–98/PDF141–142",
+          "status": "aggregate_reconciles",
+          "scope": "Different ledgers, not money proven lost; no per-company allegation beyond attributed historical source."
+        }
       },
       {
         "id": "unsupported-remittance",
@@ -961,7 +1027,12 @@
         "finding": "Genuineness could not be verified because irrelevant documents were uploaded; not proven nonpayment.",
         "amount_crore": 14.92,
         "stage": "doubtful_remittance",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixIV(A) printed99–101/PDF143–145",
+          "status": "table_total_checked_no_bank_retrieval",
+          "scope": "Bank-column zeros are source notation under a verification/documentation finding; do not infer that all39payments definitively never occurred. No independent bank statements obtained."
+        }
       },
       {
         "id": "suspected-short",
@@ -970,7 +1041,12 @@
         "finding": "Uploaded7.09crore versus5.52crore in bank statements. Preserve audit qualification; overlaps16.49crore aggregate with14.92 category.",
         "amount_crore": 1.57,
         "stage": "suspected_short_remittance",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixIV(B) printed102/PDF146",
+          "status": "aggregate_reconciles",
+          "scope": "Suspected short remittance, not adjudicated loss or new recovery. Does not identify the separate13cases of11.06lakh recovery."
+        }
       },
       {
         "id": "works-short",
@@ -979,7 +1055,12 @@
         "finding": "Table source4438.08lakh; recoverable4607.93lakh less recovered169.85lakh. Later recovery unknown.",
         "amount_crore": 44.3808,
         "stage": "assessed_short_recovery",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixV printed103/PDF147 versusTable3.1 printed16/PDF48",
+          "status": "hold_conflict",
+          "scope": "Preserve all source vintages/units; no authoritative repaired total. Existing44.3808crore observation held pending original ledger/publisher reconciliation."
+        }
       },
       {
         "id": "extraction-demand",
@@ -988,7 +1069,12 @@
         "finding": "Audit-assessed demand shortfall; not a verified current receivable or actual recovery.",
         "amount_crore": 9.06,
         "stage": "short_demand",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixVI printed104/PDF148 versus3.2.5 printed17/PDF49",
+          "status": "hold_conflict",
+          "scope": "Do not present9.06crore as fullyreconciled all11case shortfall or replace it with a new12.44crore claim. Two rows extendthroughFY2024–25; avoid uniform2015–24 scope."
+        }
       },
       {
         "id": "quarry-permits",
@@ -997,7 +1083,12 @@
         "finding": "Source53.73lakh. Preserve assessment and collection scope rather than royalty-only reading.",
         "amount_crore": 0.5373,
         "stage": "assessed_short_collection",
-        "source_id": "mining-cag-dmf2026"
+        "source_id": "mining-cag-dmf2026",
+        "appendix_reconciliation": {
+          "locator": "AppendixVII printed105–106/PDF149–150 versus3.2.6 printed18/PDF50",
+          "status": "aggregate_reconciles_precision_note",
+          "scope": "Retain printed body value and exact appendix separately without silently correcting it. No claim every royalty/quantityrow independently recalculated."
+        }
       },
       {
         "id": "recovery",
@@ -1398,5 +1489,413 @@
       "6.6.15"
     ],
     "aggregation_rule": "No shared loss total: actual contractor recovery, completed asset cost, unsupported records and modelled lost service are different financial concepts."
+  },
+  "appendix_review": {
+    "run_id": "2026-10-03-dmf-appendices",
+    "checked_at": "2026-10-03T11:35:43.176414+00:00",
+    "records": [
+      {
+        "id": "I",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixI printed93/PDF137",
+        "period": "AuditFY2015–16 toFY2023–24",
+        "geography": "Selected Odisha implementing agencies",
+        "review_status": "scope_checked",
+        "raw_source_values": {
+          "declared_implementing_units": 32,
+          "unit": "test-checked implementing agency units"
+        },
+        "reconciliation": "Source lists department/office types and their locations; no independent recount asserted where grouped office names are ambiguous.",
+        "limits": "Sample frame, not all Odisha agencies or districts. Office location does not necessarily equal project location.",
+        "related_observation_ids": [],
+        "human_review_claimed": false
+      },
+      {
+        "id": "II",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixII printed94/PDF138",
+        "period": "Quarter-endingDecember2016,March2017,June/September2021",
+        "geography": "Four mining lessees in cited collection cases",
+        "review_status": "aggregate_reconciles",
+        "raw_source_values": {
+          "unit": "INR",
+          "differential_rows": [
+            44898387,
+            7107843,
+            9247903,
+            34338789,
+            6298112,
+            2086718
+          ],
+          "category_subtotals": [
+            61254133,
+            42723619
+          ],
+          "grand_total": 103977752
+        },
+        "reconciliation": "Row differences sum103977752rupees =10.3977752crore, consistent with existing rounded10.40crore.",
+        "limits": "Historical assessed short collection, not present receivable or new recovery. Same publication as3.2.1.",
+        "related_observation_ids": [
+          "dmf-collection-rate-assessment"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "III",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixIII printed95–96/PDF139–140",
+        "period": "ContributionsJanuary2016 and2020–21; payment/calculationdates2021–2024",
+        "geography": "Joda,Keonjhar,Baripada and listed lessees",
+        "review_status": "aggregate_reconciles_inputs_conflicted",
+        "raw_source_values": {
+          "unit": "INR",
+          "interest_subtotals": [
+            41101449,
+            576394,
+            3562135,
+            35603805,
+            12410447
+          ],
+          "interest_total": 93254230,
+          "joda_principal_printed_subtotal": 16965415,
+          "joda_principal_group_totals": [
+            235598411,
+            18253013,
+            28395553,
+            129138072,
+            257417167,
+            239682791,
+            8480408
+          ],
+          "grand_principal_printed": 1004975501,
+          "keonjhar_august2021_row": {
+            "due_date_raw": "13.11.2021",
+            "paid_date_raw": "12.10.2021",
+            "delay_days_printed": 27,
+            "interest_rupees": 167418
+          }
+        },
+        "reconciliation": "Interest subtotals sum93254230rupees and round9.33crore. Joda principal groups sum916965415, versus printed16965415; other principal subtotals reconcile grand total only with group sum. The Keonjhar row has payment preceding its printed due date despite27days delay.",
+        "limits": "Total is an audit-reported interest figure; this does not independently validate underlying date/rate calculation. Principal subtotal and date inputs held; no publisher correction assumed.",
+        "related_observation_ids": [
+          "dmf-collection-interest-not-levied"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "IV",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixIV printed97–98/PDF141–142",
+        "period": "MixedFY2016–17,2019–20,2020–21,2022–23,2023–24 rows; one row lacks repeatedyear",
+        "geography": "Koira andJoda mining circles",
+        "review_status": "aggregate_reconciles",
+        "raw_source_values": {
+          "unit": "INR",
+          "ca_receipts": 8865383201,
+          "assessment_receipts": 9272833116,
+          "difference": 407449915,
+          "circle_differences": [
+            177291514,
+            230158401
+          ]
+        },
+        "reconciliation": "9272833116minus8865383201=407449915; circle differences reconcile. Existing40.74crore is rounded.",
+        "limits": "Different ledgers, not money proven lost; no per-company allegation beyond attributed historical source.",
+        "related_observation_ids": [
+          "dmf-collection-ledger-variation"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "IV-A",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixIV(A) printed99–101/PDF143–145",
+        "period": "FY2016–17 toFY2023–24 citedrows",
+        "geography": "Koira,Rourkela,Joda mining circles",
+        "review_status": "table_total_checked_no_bank_retrieval",
+        "raw_source_values": {
+          "rows": 39,
+          "unit": "INR",
+          "i3ms_total": 149217606,
+          "bank_column_printed_total": 0,
+          "questioned_remittance_total": 149217606
+        },
+        "reconciliation": "Table totals correspond to rounded14.92crore. Remarks distinguish irrelevant uploads from absent supporting documents.",
+        "limits": "Bank-column zeros are source notation under a verification/documentation finding; do not infer that all39payments definitively never occurred. No independent bank statements obtained.",
+        "related_observation_ids": [
+          "dmf-collection-unsupported-remittance"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "IV-B",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixIV(B) printed102/PDF146",
+        "period": "FY2016–17 toFY2020–21",
+        "geography": "Rourkela andJoda mining circles",
+        "review_status": "aggregate_reconciles",
+        "raw_source_values": {
+          "rows": 11,
+          "unit": "INR",
+          "i3ms_total": 70901812,
+          "bank_statement_total": 55199516,
+          "suspected_short_total": 15702296
+        },
+        "reconciliation": "70901812minus55199516=15702296, consistent with rounded1.57crore.",
+        "limits": "Suspected short remittance, not adjudicated loss or new recovery. Does not identify the separate13cases of11.06lakh recovery.",
+        "related_observation_ids": [
+          "dmf-collection-suspected-short"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "V",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixV printed103/PDF147 versusTable3.1 printed16/PDF48",
+        "period": "FY2022–23 andFY2023–24",
+        "geography": "23works divisions inMayurbhanj,Dhenkanal,Nabarangpur,Keonjhar,Sundargarh",
+        "review_status": "hold_conflict",
+        "raw_source_values": {
+          "unit": "INR",
+          "appendix_royalty": 1536003153,
+          "appendix_dmf_due": 460800946,
+          "appendix_collected": 17024365,
+          "appendix_short_total": 443770028,
+          "body_table_short_lakh": 4438.08,
+          "dhenkanal_due_printed_subtotal": 105935266,
+          "dhenkanal_due_rows": [
+            3395253,
+            64017341,
+            17756423,
+            13007246,
+            6906079,
+            846371
+          ],
+          "dhenkanal_collected": 4513831,
+          "dhenkanal_short_printed": 101414882
+        },
+        "reconciliation": "Appendix printed due lesscollection=443776581, differing6553rupees fromprintedshort443770028. Dhenkanal due rows sum105928713,6553below printedsubtotal; row sum lesscollection matches101414882. Body4438.08lakh=443808000rupees,37972above appendixshorttotal.",
+        "limits": "Preserve all source vintages/units; no authoritative repaired total. Existing44.3808crore observation held pending original ledger/publisher reconciliation.",
+        "related_observation_ids": [
+          "dmf-collection-works-short"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "VI",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixVI printed104/PDF148 versus3.2.5 printed17/PDF49",
+        "period": "RowsFY2015–16 toFY2024–25; bodydescribes2015–24",
+        "geography": "Jajpur,Nabarangpur,Baripada,Keonjhar mining offices",
+        "review_status": "hold_conflict",
+        "raw_source_values": {
+          "unit": "INR",
+          "row_count": 11,
+          "dmf_chargeable_printed": 169772772,
+          "dmf_demanded_printed": 45324206,
+          "short_demand_printed": 90648386,
+          "last_two_rows_chargeable": [
+            29561503,
+            4238676
+          ],
+          "last_two_rows_demanded": [
+            0,
+            0
+          ],
+          "last_two_rows_short_column": [
+            0,
+            0
+          ],
+          "first_nine_short_rows": [
+            73235136,
+            4396030,
+            12270200,
+            453456,
+            75400,
+            20481,
+            44985,
+            74805,
+            77893
+          ]
+        },
+        "reconciliation": "First nine short-demand entries sum90648386; the two non-demanded rows printzero shortdemand despite33800179chargeable. Fullcolumn subtraction gives124448566, while displayedshortpluslasttwochargeable=124448565; retainone-rupeeroundingdifference.",
+        "limits": "Do not present9.06crore as fullyreconciled all11case shortfall or replace it with a new12.44crore claim. Two rows extendthroughFY2024–25; avoid uniform2015–24 scope.",
+        "related_observation_ids": [
+          "dmf-collection-extraction-demand"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "VII",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixVII printed105–106/PDF149–150 versus3.2.6 printed18/PDF50",
+        "period": "Quarry permitsFY2020–21 toFY2023–24",
+        "geography": "Keonjhar,Dhenkanal,Nabarangpur,Baripada mining offices",
+        "review_status": "aggregate_reconciles_precision_note",
+        "raw_source_values": {
+          "unit": "INR",
+          "permits": 26,
+          "dmf_due": 9138518,
+          "dmf_paid": 3764788,
+          "short_realisation": 5373730,
+          "body_short_lakh": 53.73
+        },
+        "reconciliation": "9138518minus3764788=5373730=53.7373lakh. Bodyreports53.73lakh, a730rupee precision difference; ordinary rounding to two decimals would be53.74.",
+        "limits": "Retain printed body value and exact appendix separately without silently correcting it. No claim every royalty/quantityrow independently recalculated.",
+        "related_observation_ids": [
+          "dmf-collection-quarry-permits"
+        ],
+        "human_review_claimed": false
+      },
+      {
+        "id": "VIII",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixVIII printed107/PDF151",
+        "period": "FY2015–16 toFY2023–24",
+        "geography": "Keonjhar andSundargarh",
+        "review_status": "held_pending_chapter_iv_context",
+        "raw_source_values": {
+          "money_unit": "INR crore",
+          "keonjhar": {
+            "all_villages": 2190,
+            "directly_affected": 595,
+            "indirectly_affected": 0,
+            "nonaffected": 1595,
+            "directly_affected_not_covered": 256,
+            "indirectly_affected_not_covered": 0,
+            "nonaffected_covered": 500,
+            "projects_in_nonaffected": 981,
+            "spent_in_nonaffected": 452.0
+          },
+          "sundargarh": {
+            "all_villages": 1731,
+            "directly_affected": 891,
+            "indirectly_affected": 314,
+            "nonaffected": 526,
+            "directly_affected_not_covered": 232,
+            "indirectly_affected_not_covered": 96,
+            "nonaffected_covered": 476,
+            "projects_in_nonaffected": 1243,
+            "spent_in_nonaffected": 531.32
+          }
+        },
+        "reconciliation": "Two districtrows sum3921villages;488directlyaffected and96indirectlyaffected notcovered;2224projects/983.32crore in source-classified nonaffected villages.",
+        "limits": "Capture only; publication pending full4.3.5 context andgovernmentresponse. Classification notcurrent exposure,censuspopulation or proof residents received no other services. No new public atlas metric yet.",
+        "related_observation_ids": [],
+        "human_review_claimed": false
+      },
+      {
+        "id": "IX",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixIX printed108/PDF152",
+        "period": "Trust Board/EC meeting series; calendar dates absent from appendix",
+        "geography": "Keonjhar DMF",
+        "review_status": "held_pending_chapter_iv_context",
+        "raw_source_values": {
+          "money_unit": "INR crore",
+          "board_approved_projects": 2480,
+          "board_plus_ec_projects": 2512,
+          "sanctioned_projects": 3269,
+          "board_approved_amount": 12441.73,
+          "board_plus_ec_amount": 12485.15,
+          "sanctioned_amount_printed": 9733.37,
+          "board_amount_difference_printed": 2708.37,
+          "combined_difference_printed": 2751.79,
+          "sanctioned_amount_rows": [
+            0,
+            758,
+            1530.54,
+            112.32,
+            1.9,
+            1016.48,
+            1474.83,
+            924.76,
+            820.34,
+            1481.71,
+            1595.43,
+            17.05
+          ]
+        },
+        "reconciliation": "Count difference3269minus2512=757. Money row sum9733.36 differsfromprinted9733.37 by0.01crore; printed aggregate subtraction gives2751.78 versusprinted2751.79.",
+        "limits": "Amount difference is not the value of757unauthorised projects. Hold interpretation pendingfull4.3.8andresponse; retain0.01crore sourceprecision disagreement.",
+        "related_observation_ids": [],
+        "human_review_claimed": false
+      },
+      {
+        "id": "X",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixX printed109/PDF153 and5.2 printed31–32/PDF67–68",
+        "period": "FY2015–16 toFY2023–24",
+        "geography": "Nabarangpur,Dhenkanal,Mayurbhanj DMFs",
+        "review_status": "aggregate_reconciles_counterfactual",
+        "raw_source_values": {
+          "unit": "INR",
+          "actual_interest": 93040961,
+          "modelled_flexi_interest": 187943865,
+          "difference": 94902904,
+          "model_rate_percent": 6.75
+        },
+        "reconciliation": "187943865minus93040961=94902904, rounded9.49crore.",
+        "limits": "Source counterfactual usingminimum balances andrate, not cash lost or money availabletoday; separate fromKeonjhar84.51crore model. Account numbers intentionally not duplicated.",
+        "related_observation_ids": [],
+        "human_review_claimed": false
+      },
+      {
+        "id": "XI",
+        "source_id": "mining-cag-dmf2026",
+        "locator": "AppendixXI printed110/PDF154 and6.6.2 printed59/PDF97",
+        "period": "Appendixheading2015–24; body engagementJanuary2018–March2024",
+        "geography": "Sundargarh andKeonjhar",
+        "review_status": "aggregate_reconciles_scope_qualified",
+        "raw_source_values": {
+          "unit": "INR",
+          "rows": [
+            {
+              "district": "Sundargarh",
+              "category": "Specialist",
+              "count": 28,
+              "due": 88936632,
+              "paid": 288350000,
+              "excess": 199413368
+            },
+            {
+              "district": "Keonjhar",
+              "category": "Specialist",
+              "count": 55,
+              "due": 86474270,
+              "paid": 252002015,
+              "excess": 165527745
+            },
+            {
+              "district": "Sundargarh",
+              "category": "MBBS/Dental",
+              "count": 40,
+              "due": 90755668,
+              "paid": 132042600,
+              "excess": 41286932
+            },
+            {
+              "district": "Keonjhar",
+              "category": "MBBS/Dental",
+              "count": 58,
+              "due": 69838389,
+              "paid": 103047484,
+              "excess": 33209095
+            }
+          ],
+          "count_total": 181,
+          "due_total": 336004959,
+          "paid_total": 775442099,
+          "excess_total": 439437140
+        },
+        "reconciliation": "Fourrow sums and775442099minus336004959=439437140reconcile; rounded43.94crore.",
+        "limits": "Pay-policy audit comparison, not ghostemployees ormoneyfornohealthcare. GovernmentJanuary2026 citedremote recruitmentdifficulty/urgentspecialists; CAGretained lackofdeclared remunerationpolicy. Notcurrent doctorheadcount,salaryadvice orpatientoutcomes.",
+        "related_observation_ids": [],
+        "human_review_claimed": false
+      }
+    ],
+    "review_scope": "AppendicesI–XI includingIV(A)/(B), printed93–110/PDF137–154: all appendix text inspected, selected aggregate/row arithmetic reconciled. PDF138–140,142,146–148,152,154 visually checked. Not a complete recalculation of every row, date, statutory rate or bank record. Reused saved original, not a fresh publisher fetch or independent corroboration.",
+    "new_statistical_observations": 0,
+    "independent_corroboration": false
   }
 }

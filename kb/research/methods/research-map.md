@@ -401,3 +401,7 @@ Extended existing CAG source and subject/district identities. Existing OSIC furn
 ## DMF infrastructure and forest evidence · 3 October 2026
 
 Six cases extend the existing DMF collection; existing sanitation and forest pages receive explained related-reading links. Kusumundia/Kusumdia remain one source-local settlement identity pending name verification.
+
+## DMF appendix reconciliation · 3 October 2026
+
+Existing CAG source reused across body/appendices; eight observations enriched rather than duplicated. All13appendix components catalogued; selected arithmetic verification does not validate every source row.

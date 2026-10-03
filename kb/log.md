@@ -447,3 +447,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · DMF infrastructure and forest evidence
 
 [Research receipt](records/dmf-infrastructure-2026-10-03.json): Infrastructure and afforestation evidence distinguishes completed assets from operating services and seedlings from surviving trees. Actual recovery and modelled service loss remain distinct; chronology gaps held. RES-053 continues with remaining project sections, appendices and original service records. No website release.
+
+## 3 October 2026 · DMF appendix reconciliation
+
+[Research receipt](records/dmf-appendices-2026-10-03.json): Supporting appendices enrich existing observations without duplication. Works-collection and quarry-demand aggregates held; original values and review history preserved. Selected checks do not validate every source row. RES-053 continues with remaining project sections, appendices and original service records. No website release.
