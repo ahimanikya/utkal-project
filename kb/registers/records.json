@@ -4333,19 +4333,20 @@
       "id": "UTP-WORK-150",
       "title": "Recover original mining evidence and preserve unresolved outcomes",
       "category": "research",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-169",
-      "next_action": "Deliver validated research checkpoint; RES-054 original-record and implementation gaps remain open.",
+      "next_action": "Evidence follow-up checkpoint merged. RES-054 remains in progress for denominator clarification, original decisions, corrective completion and measured recovery.",
       "blockers": [],
       "refs": [
         "UTP-DEC-169",
-        "UTP-REV-128"
+        "UTP-REV-128",
+        "UTP-REL-056"
       ],
       "evidence": [
         "records/mining-evidence-followup-2026-10-03.json"
@@ -11725,6 +11726,22 @@
         "records/mining-land-people-2026-10-03.json"
       ],
       "note": "PR69 merged after CI passed. Four scoped cases and three new source identities; all956 earlier observations unchanged. Research only, not public website story publication or completion of all RES-054 evidence needs."
+    },
+    {
+      "id": "UTP-REL-056",
+      "title": "Mining evidence follow-up integrated",
+      "status": "applied",
+      "authorization": "UTP-DEC-169",
+      "destination": "https://github.com/ahimanikya/utkal-project/tree/main/kb",
+      "refs": [
+        "UTP-WORK-150",
+        "UTP-REV-128",
+        "UTP-DEC-169"
+      ],
+      "evidence": [
+        "records/mining-evidence-followup-2026-10-03.json"
+      ],
+      "note": "PR70 merged after CI passed. Four source records extend existing cases; groundwater row/total conflict retained, all956 atlas observations unchanged. Research only; no public story publication or claim that RES-054 is complete."
     }
   ],
   "sources": [

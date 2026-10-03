@@ -1,7 +1,7 @@
 {
   "run_id": "2026-10-03-mining-evidence-followup",
   "at": "2026-10-03T08:07:02.965859+00:00",
-  "status": "validated_research_checkpoint",
+  "status": "merged_research_checkpoint",
   "authorization_quote": "go ahead",
   "human_owner": "Ahimanikya Satapathy",
   "new_source_ids": [
@@ -60,6 +60,12 @@
     "bundle": "passed",
     "source_scope_and_prior_observation_preservation": "passed",
     "independent_review": false,
-    "evidence": "records/evidence/mining-evidence-followup/"
-  }
+    "evidence": "records/evidence/mining-evidence-followup/",
+    "remote_ci": "passed"
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/70",
+  "merge_commit": "e934d7d7cb164b0a87ed279e4f2965309772875e",
+  "merged_at": "2026-10-03T08:13:11Z",
+  "validated_head": "00de7160ea3855bb4566c85c280f978a61186f3b",
+  "remote_ci": "https://github.com/ahimanikya/utkal-project/actions/runs/37108834724"
 }
