@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-02T20:54:18.878669+00:00",
-  "run_id": "2026-10-02-dmf-record-reconciliation",
+  "updated_at": "2026-10-03T07:42:12.281122+00:00",
+  "run_id": "2026-10-03-mining-land-people",
   "angles": [
     {
       "id": "minerals",
@@ -3294,6 +3294,197 @@
     "request_status": "Prepared research questions only. No messages, RTI application, fees or outreach sent.",
     "retry_policy": "Avoid repeating the same failed searches. Next useful evidence is the named source record, a restored document endpoint or a dated correction/operating update.",
     "completion_criteria_met": false,
+    "human_review_claimed": false,
+    "website_publication": false
+  },
+  "environment_rights_safety_checkpoint": {
+    "run_id": "2026-10-03-mining-land-people",
+    "checked_at": "2026-10-03T07:42:12.281122+00:00",
+    "source_checks": [
+      {
+        "source_id": "mining-sukurangi-eia-summary",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1743680703_1499134296.pdf",
+        "method": "publisher_pdf_web_text_only",
+        "locator": "Executive summary PDF pp. 3, 8–10, sections 3.1.2 and 3.1.6",
+        "scope": "18-page proponent summary; publisher-hosting is not regulatory endorsement. Direct download timed out; screenshot retrieval failed. Original laboratory tables and visual review unavailable. No concentration observations added."
+      },
+      {
+        "source_id": "mining-niyamgiri-scr2013",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf",
+        "method": "official_report_pdf_text_and_selected_visual_review",
+        "locator": "Printed pp. 945–948, paragraphs 51–63; PDF pp. 33–34; case identity PDF p. 1",
+        "scope": "Official SCR edition supersedes discovery through an explicitly unofficial IELRC mirror for this capture. Operative paragraphs 58–63 visually checked. Not a current-law survey or verification of subsequent Gram Sabha minutes/final ministry decision.",
+        "sha256": "7c391d59dbfb3ae858cfede2a2f435064a59f467407cb723352151ac208b6e3f"
+      },
+      {
+        "source_id": "mining-dgms-bharatpur-2024",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://www.dgms.gov.in/writereaddata/UploadFile/ROAD_14052024.pdf",
+        "method": "publisher_pdf_web_text_only",
+        "locator": "PDF pp. 1–2; site/incident description and recommended practices",
+        "scope": "Direct PDF download timed out; screenshot retrieval failed. Text of original alert identifies mine, owner, incident date and prevention recommendations. No visual review, accident-rate calculation or remedial-action verification claimed."
+      },
+      {
+        "source_id": "mining-asi-baphlimali2026",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+        "sha256": "0589e9c89bad8dd8bf7ba281974f8320a8a20004f63410dd0696ebb6f55f0ef6",
+        "method": "same_pdf_extended_scope_text_and_visual_review",
+        "locator": "PDF pp. 10–11, 13–14; criteria 6.1 and 8.7; overview p. 4 reused",
+        "scope": "Air-monitoring gap and rehabilitation criterion. Visual checks pp. 11,13,14. Plantation wording/unit ambiguity retained; no new atlas figure and no corrective closure inferred."
+      }
+    ],
+    "cases": [
+      {
+        "case_id": "sukurangi-monitoring",
+        "place": "Sukurangi mine, Sukinda, Jajpur",
+        "operator": "Odisha Mining Corporation",
+        "lens": [
+          "water",
+          "air"
+        ],
+        "source_ids": [
+          "mining-sukurangi-eia-summary"
+        ],
+        "evidence_period": "March–May 2022",
+        "evidence_kind": "proponent_baseline_summary",
+        "sample_scope": {
+          "ambient_air_locations": 10,
+          "air_schedule": "twice weekly for 12 weeks; pollutant-specific averaging durations",
+          "surface_water_samples": 3,
+          "groundwater_samples": 6
+        },
+        "claims": [
+          "Summary reports ambient-air compliance.",
+          "Summary reports surface-water chromium exceedances and groundwater aluminium exceedances, yet gives an overall groundwater-compliance conclusion."
+        ],
+        "measured_outcome_status": "raw_tables_not_verified",
+        "conflict_status": "overall_water_conclusion_held",
+        "interpretation_limits": [
+          "No current drinking-water assurance, exposure estimate, disease attribution or all-valley conclusion.",
+          "Total chromium and Cr(VI), surface water and groundwater, and different standards must remain distinct."
+        ],
+        "next_evidence": [
+          "Full station/sample tables with dates, methods and detection limits.",
+          "Regulator monitoring and hearing record, matched to the mine and period."
+        ]
+      },
+      {
+        "case_id": "niyamgiri-rights",
+        "place": "Niyamgiri proposed bauxite project, Kalahandi and Rayagada",
+        "operator": "OMC proposal examined in W.P.(C) 180/2011; distinct from Baphlimali/Utkal Alumina",
+        "lens": [
+          "forest_rights",
+          "religious_rights",
+          "decision_process"
+        ],
+        "source_ids": [
+          "mining-niyamgiri-scr2013"
+        ],
+        "evidence_period": "18 April 2013 judgment",
+        "evidence_kind": "court_directions",
+        "decision_scope": "Gram Sabha determination of affected individual/community and cultural/religious claims, followed by MoEF Stage-II decision in light of those determinations.",
+        "independence_safeguard": "District-Judge-rank observer to certify proceedings independent of government and proponents.",
+        "measured_outcome_status": "subsequent_implementation_not_checked",
+        "interpretation_limits": [
+          "Do not represent the judgment as an automatic mining approval or a statewide blanket veto.",
+          "A historical judgment does not establish current permit status."
+        ],
+        "next_evidence": [
+          "Signed Gram Sabha resolutions and observer certifications.",
+          "Original subsequent ministry decision and any later orders."
+        ]
+      },
+      {
+        "case_id": "bharatpur-haul-road",
+        "place": "Bharatpur Open Cast Project, Angul",
+        "operator": "Mahanadi Coalfields Limited",
+        "lens": [
+          "worker_safety"
+        ],
+        "source_ids": [
+          "mining-dgms-bharatpur-2024"
+        ],
+        "evidence_period": "Incident 2023-03-14; alert 2024-05-13",
+        "evidence_kind": "regulator_incident_alert",
+        "incident": {
+          "fatalities": 1,
+          "affected_role": "contractual tipper operator",
+          "mechanism": "Collision with an abandoned roadside building at a curve; alert reports excessive speed."
+        },
+        "recommended_controls": [
+          "Transport-rule checks and contractor training.",
+          "Road geometry, obstruction removal and warning/speed signs."
+        ],
+        "measured_outcome_status": "subsequent_remediation_not_verified",
+        "interpretation_limits": [
+          "One incident is not an annual fatality total or accident rate.",
+          "A prevention recommendation does not establish implementation."
+        ],
+        "next_evidence": [
+          "Mine-specific action-taken/inspection record matched to this incident.",
+          "Exposure denominator and complete incident register before any rate."
+        ]
+      },
+      {
+        "case_id": "baphlimali-restoration",
+        "place": "Baphlimali mine; Rayagada and Kalahandi lease description",
+        "operator": "Utkal Alumina International Limited",
+        "lens": [
+          "rehabilitation",
+          "closure",
+          "air"
+        ],
+        "source_ids": [
+          "mining-asi-baphlimali2026",
+          "mining-baphlimali-g1-2025",
+          "mining-baphlimali-ec-sep2025"
+        ],
+        "evidence_period": "FY2024–25 return; September 2025 compliance; January 2026 audit / May certificate",
+        "evidence_kind": "company_returns_and_scoped_certification",
+        "existing_area_series_reference": "baphlimali_return_checkpoint; existing atlas observations retained without duplication",
+        "comparison_status": "noncomparable_area_definitions_and_dates",
+        "certification_scope": "Mine and related processing/transport; refinery excluded.",
+        "audit_findings": {
+          "6.1": "minor_non_conformance: mine-vehicle emissions not monitored",
+          "8.7": "conformance: rehabilitation planning and practice"
+        },
+        "measured_outcome_status": "ecological_recovery_and_final_closure_not_established",
+        "plantation_unit_hold": "Audit p.13 attaches a large planting count to a species label; do not reinterpret as unique species or independently verified seedlings. Reported survival percentage lacks a sampling/cohort basis in the summary.",
+        "interpretation_limits": [
+          "Certification is scoped and conditional, not a declaration of no environmental harm.",
+          "Backfill, plantation, rehabilitation and restored ecology are different measures.",
+          "Corrective-action closure and original government rehabilitation audit not verified."
+        ],
+        "next_evidence": [
+          "Government mine-rehabilitation inspection and closure-completion record, if applicable.",
+          "Georeferenced area crosswalk, planting cohorts, survival audits, soil/water and native-biodiversity comparisons.",
+          "Corrective-action evidence for vehicle emissions."
+        ]
+      }
+    ],
+    "research_leads": [
+      {
+        "id": "sukinda-ngt-2026",
+        "resource": "https://www.casemine.com/judgement/in/6a844d3b979ea4201d807c32",
+        "title": "Reproduction of Mantu Das v State of Odisha, OA73/2024/EZ, 10 July 2026",
+        "status": "discovery_lead_original_order_not_retrieved",
+        "scope": "Mirror reproduces CGWB seasonal sampling, state remedial claims and tribunal directions. Post-monsoon selection targets earlier elevated sites; not a random seasonal comparison. Do not import its numerical tables before original order/annexures and visual checks.",
+        "next_evidence": "NGT original judgment; CGWB July2025 affidavit and study tables; subsequent action-taken reports.",
+        "health_attribution": "Keep allegations, medical inquiry and adjudicated findings distinct; no causal mortality claim adopted."
+      },
+      {
+        "resource": "https://ospcboard.odisha.gov.in/wp-content/plugins/publication/uploads/files_1661167621_1881231632.pdf",
+        "status": "unavailable",
+        "scope": "Search-index monitoring-programme lead; web and direct download failed. No station results imported."
+      }
+    ],
+    "status": "scoped_studies_with_primary_followups",
+    "completion_criteria_met": false,
+    "remaining_scope": "Original monitoring tables, subsequent rights decisions, incident corrective action and measured ecological recovery remain unverified.",
+    "no_new_atlas_observations": true,
     "human_review_claimed": false,
     "website_publication": false
   }

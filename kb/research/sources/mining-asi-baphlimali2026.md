@@ -18,3 +18,7 @@ Scope: PDF pp.1–4,8,14–18; January2026 audit, March2026 submission, May2026 
 Original source: [publisher record](https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf). The dated report, issuer announcement and undated company page have different purposes. Do not count an issuer’s report and announcement as independent corroboration. Human/local review remains pending.
 
 [Connected mine profiles](../economy/bauxite-mine-identities.md).
+
+## Extended scope · 3 October 2026
+
+The same PDF was reread at criteria 6.1 and 8.7 (pp.10–11,13–14), with selected visual checks. [Environmental and restoration interpretation](../economy/mining-land-and-people.md) retains the vehicle-emission monitoring gap, planting-unit ambiguity and missing recovery evidence. No extra independent source or new atlas observation is claimed.

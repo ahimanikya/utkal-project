@@ -1,0 +1,92 @@
+{
+  "run_id": "2026-10-03-mining-land-people",
+  "at": "2026-10-03T07:42:12.281122+00:00",
+  "status": "validated_research_checkpoint",
+  "authorization_quote": "Sounds good, let's pick these",
+  "human_owner": "Ahimanikya Satapathy",
+  "new_source_ids": [
+    "mining-sukurangi-eia-summary",
+    "mining-niyamgiri-scr2013",
+    "mining-dgms-bharatpur-2024"
+  ],
+  "reused_sources": [
+    "mining-asi-baphlimali2026",
+    "mining-baphlimali-g1-2025",
+    "mining-baphlimali-ec-sep2025"
+  ],
+  "cases": [
+    "sukurangi-monitoring",
+    "niyamgiri-rights",
+    "bharatpur-haul-road",
+    "baphlimali-restoration"
+  ],
+  "new_observations": 0,
+  "preserved_observations": 956,
+  "new_research_entries": 4,
+  "source_checks": [
+    {
+      "source_id": "mining-sukurangi-eia-summary",
+      "checked_at": "2026-10-03T07:42:12.281122+00:00",
+      "resource": "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1743680703_1499134296.pdf",
+      "method": "publisher_pdf_web_text_only",
+      "locator": "Executive summary PDF pp. 3, 8–10, sections 3.1.2 and 3.1.6",
+      "scope": "18-page proponent summary; publisher-hosting is not regulatory endorsement. Direct download timed out; screenshot retrieval failed. Original laboratory tables and visual review unavailable. No concentration observations added."
+    },
+    {
+      "source_id": "mining-niyamgiri-scr2013",
+      "checked_at": "2026-10-03T07:42:12.281122+00:00",
+      "resource": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf",
+      "method": "official_report_pdf_text_and_selected_visual_review",
+      "locator": "Printed pp. 945–948, paragraphs 51–63; PDF pp. 33–34; case identity PDF p. 1",
+      "scope": "Official SCR edition supersedes discovery through an explicitly unofficial IELRC mirror for this capture. Operative paragraphs 58–63 visually checked. Not a current-law survey or verification of subsequent Gram Sabha minutes/final ministry decision.",
+      "sha256": "7c391d59dbfb3ae858cfede2a2f435064a59f467407cb723352151ac208b6e3f"
+    },
+    {
+      "source_id": "mining-dgms-bharatpur-2024",
+      "checked_at": "2026-10-03T07:42:12.281122+00:00",
+      "resource": "https://www.dgms.gov.in/writereaddata/UploadFile/ROAD_14052024.pdf",
+      "method": "publisher_pdf_web_text_only",
+      "locator": "PDF pp. 1–2; site/incident description and recommended practices",
+      "scope": "Direct PDF download timed out; screenshot retrieval failed. Text of original alert identifies mine, owner, incident date and prevention recommendations. No visual review, accident-rate calculation or remedial-action verification claimed."
+    },
+    {
+      "source_id": "mining-asi-baphlimali2026",
+      "checked_at": "2026-10-03T07:42:12.281122+00:00",
+      "resource": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+      "sha256": "0589e9c89bad8dd8bf7ba281974f8320a8a20004f63410dd0696ebb6f55f0ef6",
+      "method": "same_pdf_extended_scope_text_and_visual_review",
+      "locator": "PDF pp. 10–11, 13–14; criteria 6.1 and 8.7; overview p. 4 reused",
+      "scope": "Air-monitoring gap and rehabilitation criterion. Visual checks pp. 11,13,14. Plantation wording/unit ambiguity retained; no new atlas figure and no corrective closure inferred."
+    }
+  ],
+  "remaining_evidence": {
+    "sukurangi-monitoring": [
+      "Full station/sample tables with dates, methods and detection limits.",
+      "Regulator monitoring and hearing record, matched to the mine and period."
+    ],
+    "niyamgiri-rights": [
+      "Signed Gram Sabha resolutions and observer certifications.",
+      "Original subsequent ministry decision and any later orders."
+    ],
+    "bharatpur-haul-road": [
+      "Mine-specific action-taken/inspection record matched to this incident.",
+      "Exposure denominator and complete incident register before any rate."
+    ],
+    "baphlimali-restoration": [
+      "Government mine-rehabilitation inspection and closure-completion record, if applicable.",
+      "Georeferenced area crosswalk, planting cohorts, survival audits, soil/water and native-biodiversity comparisons.",
+      "Corrective-action evidence for vehicle emissions."
+    ]
+  },
+  "completion_criteria_met": false,
+  "human_review_claimed": false,
+  "website_publication": false,
+  "validation": {
+    "status": "passed_with_limitations",
+    "research_validators": 12,
+    "bundle": "passed",
+    "source_scope_and_prior_observation_preservation": "passed",
+    "independent_review": false,
+    "evidence": "records/evidence/mining-land-people/"
+  }
+}

@@ -826,3 +826,9 @@ Reading the wider audit exposed conflicting totals and a more nuanced sampling m
 The original Finance Accounts separated rounding from a remaining revenue difference. A Parliament table then showed why even official district figures need matching definitions before comparison. Where public pages could not answer the operating questions, the project named the exact records needed and kept uncertainty visible.
 
 [Evidence](../records/dmf-record-reconciliation-2026-10-02.json). Research only.
+
+## UTP-HIS-0203 · A mine is also a neighbour
+
+The mining collection moved beyond output and revenue to water, community decisions, a worker safety incident and the meaning of restoration. Different records answered different questions; the project kept promises, observations and recovery separate.
+
+[Evidence](../records/mining-land-people-2026-10-03.json). Research only.

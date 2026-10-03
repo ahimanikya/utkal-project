@@ -5384,7 +5384,18 @@
     "capture_method": "original_pdf_text_and_visual_check",
     "capture_note": "Issuer/regulator evidence and company profile retained separately. ASI announcement/report are the same certification, not independent corroboration.",
     "sha256": "0589e9c89bad8dd8bf7ba281974f8320a8a20004f63410dd0696ebb6f55f0ef6",
-    "publication_date_basis": "Certificate issue date; report submitted31March2026, audit19–22January2026. Public posting date not established."
+    "publication_date_basis": "Certificate issue date; report submitted31March2026, audit19–22January2026. Public posting date not established.",
+    "capture_history": [
+      {
+        "source_id": "mining-asi-baphlimali2026",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+        "sha256": "0589e9c89bad8dd8bf7ba281974f8320a8a20004f63410dd0696ebb6f55f0ef6",
+        "method": "same_pdf_extended_scope_text_and_visual_review",
+        "locator": "PDF pp. 10–11, 13–14; criteria 6.1 and 8.7; overview p. 4 reused",
+        "scope": "Air-monitoring gap and rehabilitation criterion. Visual checks pp. 11,13,14. Plantation wording/unit ambiguity retained; no new atlas figure and no corrective closure inferred."
+      }
+    ]
   },
   "mining-hindalco-baphlimali": {
     "id": "mining-hindalco-baphlimali",
@@ -6483,6 +6494,74 @@
         "sha256": "892cb00e7d933adc4041f5076238de9c8ac1ce5a863ffec370b1d8309463d477",
         "locator": "Answer PDF p. 1; Annexures I–II, PDF pp. 2–3",
         "scope": "Annual collection/allocation/expenditure and March 2024 balance figures. FY2024–25 is through October only. Allocation is not relabelled release; interest coverage and a reconciliation to CAG cumulative figures are not supplied."
+      }
+    ]
+  },
+  "mining-sukurangi-eia-summary": {
+    "id": "mining-sukurangi-eia-summary",
+    "title": "Sukurangi expansion EIA–EMP executive summary",
+    "resource": "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1743680703_1499134296.pdf",
+    "publisher": "Odisha Mining Corporation; hosted by Odisha State Pollution Control Board",
+    "published_on": null,
+    "period": "March–May 2022 baseline; proposal document includes 2024 permissions",
+    "locator": "Executive summary PDF pp. 3, 8–10, sections 3.1.2 and 3.1.6",
+    "capture_method": "publisher_pdf_web_text_only",
+    "capture_note": "18-page proponent summary; publisher-hosting is not regulatory endorsement. Direct download timed out; screenshot retrieval failed. Original laboratory tables and visual review unavailable. No concentration observations added.",
+    "accessed_on": "2026-10-03",
+    "capture_history": [
+      {
+        "source_id": "mining-sukurangi-eia-summary",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1743680703_1499134296.pdf",
+        "method": "publisher_pdf_web_text_only",
+        "locator": "Executive summary PDF pp. 3, 8–10, sections 3.1.2 and 3.1.6",
+        "scope": "18-page proponent summary; publisher-hosting is not regulatory endorsement. Direct download timed out; screenshot retrieval failed. Original laboratory tables and visual review unavailable. No concentration observations added."
+      }
+    ]
+  },
+  "mining-niyamgiri-scr2013": {
+    "id": "mining-niyamgiri-scr2013",
+    "title": "Orissa Mining Corporation v Ministry of Environment & Forest: 18 April 2013",
+    "resource": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf",
+    "publisher": "Supreme Court of India, Supreme Court Reports",
+    "published_on": "2013-04-18",
+    "period": "Historical judgment; W.P.(C) 180/2011, [2013] 6 SCR 881",
+    "locator": "Printed pp. 945–948, paragraphs 51–63; PDF pp. 33–34; case identity PDF p. 1",
+    "capture_method": "official_report_pdf_text_and_selected_visual_review",
+    "capture_note": "Official SCR edition supersedes discovery through an explicitly unofficial IELRC mirror for this capture. Operative paragraphs 58–63 visually checked. Not a current-law survey or verification of subsequent Gram Sabha minutes/final ministry decision.",
+    "accessed_on": "2026-10-03",
+    "sha256": "7c391d59dbfb3ae858cfede2a2f435064a59f467407cb723352151ac208b6e3f",
+    "capture_history": [
+      {
+        "source_id": "mining-niyamgiri-scr2013",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf",
+        "method": "official_report_pdf_text_and_selected_visual_review",
+        "locator": "Printed pp. 945–948, paragraphs 51–63; PDF pp. 33–34; case identity PDF p. 1",
+        "scope": "Official SCR edition supersedes discovery through an explicitly unofficial IELRC mirror for this capture. Operative paragraphs 58–63 visually checked. Not a current-law survey or verification of subsequent Gram Sabha minutes/final ministry decision.",
+        "sha256": "7c391d59dbfb3ae858cfede2a2f435064a59f467407cb723352151ac208b6e3f"
+      }
+    ]
+  },
+  "mining-dgms-bharatpur-2024": {
+    "id": "mining-dgms-bharatpur-2024",
+    "title": "DGMS safety alert 07/2024: Bharatpur tipper accident",
+    "resource": "https://www.dgms.gov.in/writereaddata/UploadFile/ROAD_14052024.pdf",
+    "publisher": "Directorate General of Mines Safety, Government of India",
+    "published_on": "2024-05-13",
+    "period": "Accident 14 March 2023; alert issued 13 May 2024",
+    "locator": "PDF pp. 1–2; site/incident description and recommended practices",
+    "capture_method": "publisher_pdf_web_text_only",
+    "capture_note": "Direct PDF download timed out; screenshot retrieval failed. Text of original alert identifies mine, owner, incident date and prevention recommendations. No visual review, accident-rate calculation or remedial-action verification claimed.",
+    "accessed_on": "2026-10-03",
+    "capture_history": [
+      {
+        "source_id": "mining-dgms-bharatpur-2024",
+        "checked_at": "2026-10-03T07:42:12.281122+00:00",
+        "resource": "https://www.dgms.gov.in/writereaddata/UploadFile/ROAD_14052024.pdf",
+        "method": "publisher_pdf_web_text_only",
+        "locator": "PDF pp. 1–2; site/incident description and recommended practices",
+        "scope": "Direct PDF download timed out; screenshot retrieval failed. Text of original alert identifies mine, owner, incident date and prevention recommendations. No visual review, accident-rate calculation or remedial-action verification claimed."
       }
     ]
   }

@@ -38,3 +38,5 @@ Economic growth and industry comparisons.
 [Kendu patra](kendu-patra.md) — leaf trade, skilled work and the existing sales series.
 
 [Siali products](siali-products.md) — botanical identity, leaves and community-attributed fibre craft.
+
+[Mining, land and people](mining-land-and-people.md) — four bounded studies and a reusable evidence model.

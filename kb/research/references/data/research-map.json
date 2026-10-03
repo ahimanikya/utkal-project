@@ -18594,6 +18594,81 @@
         "mining-dmf-ls2607-2024"
       ],
       "added_at": "2026-10-02T20:54:18.878669+00:00"
+    },
+    {
+      "id": "sources/mining-sukurangi-eia-summary",
+      "title": "Sukurangi expansion EIA–EMP executive summary",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-sukurangi-eia-summary.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-sukurangi-eia-summary"
+      ],
+      "added_at": "2026-10-03T07:42:12.281122+00:00"
+    },
+    {
+      "id": "sources/mining-niyamgiri-scr2013",
+      "title": "Orissa Mining Corporation v Ministry of Environment & Forest: 18 April 2013",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-niyamgiri-scr2013.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-niyamgiri-scr2013"
+      ],
+      "added_at": "2026-10-03T07:42:12.281122+00:00"
+    },
+    {
+      "id": "sources/mining-dgms-bharatpur-2024",
+      "title": "DGMS safety alert 07/2024: Bharatpur tipper accident",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-dgms-bharatpur-2024.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-dgms-bharatpur-2024"
+      ],
+      "added_at": "2026-10-03T07:42:12.281122+00:00"
+    },
+    {
+      "id": "economy/mining-land-and-people",
+      "title": "Mining, land and people: four bounded case studies",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/mining-land-and-people.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "mining-sukurangi-eia-summary",
+        "mining-niyamgiri-scr2013",
+        "mining-dgms-bharatpur-2024",
+        "mining-asi-baphlimali2026"
+      ],
+      "added_at": "2026-10-03T07:42:12.281122+00:00"
     }
   ],
   "shared_publications": [
@@ -19795,12 +19870,20 @@
         "economy/mining.md",
         "statistics/minerals-and-mining.md",
         "references/data/mining-programme.json",
-        "statistics/air-quality.md"
+        "statistics/air-quality.md",
+        "sources/mining-sukurangi-eia-summary.md",
+        "sources/mining-niyamgiri-scr2013.md",
+        "sources/mining-dgms-bharatpur-2024.md",
+        "economy/mining-land-and-people.md",
+        "economy/bauxite-mine-identities.md"
       ],
       "project_records": [],
       "remaining_scope": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
-      "status_unchanged": "pending",
-      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+      "status_unchanged": "in_progress",
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
+      "next_evidence": [
+        "Obtain original Sukinda NGT/CGWB tables and monitoring records; Niyamgiri resolutions/final decision; Bharatpur action-taken record; Baphlimali rehabilitation audits and measured recovery. Reuse four cases; no invented current outcomes."
+      ]
     },
     {
       "task_id": "RES-055",
@@ -19997,8 +20080,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1242,
-    "updated_at": "2026-10-02T20:54:18.878669+00:00",
+    "records_mapped": 1246,
+    "updated_at": "2026-10-03T07:42:12.281122+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20593,6 +20676,10 @@
     {
       "run_id": "2026-10-02-dmf-record-reconciliation",
       "scope": "Two original source editions, two higher-precision receipt observations; existing four case identities reused. Source-specific precision is not extra additive revenue."
+    },
+    {
+      "run_id": "2026-10-03-mining-land-people",
+      "scope": "Three source identities, one connected collection, four scoped cases; Baphlimali reused. No new statistical observations or completed outcome claims."
     }
   ]
 }
