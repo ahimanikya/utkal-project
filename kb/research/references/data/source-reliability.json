@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T15:37:46.393833+00:00",
+  "updated_at": "2026-10-03T16:38:34.364560+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6273,6 +6273,41 @@
       "retry_after": "2026-10-10",
       "run_id": "2026-10-03-bharatpur-safety",
       "checked_at": "2026-10-03T15:37:46.393833+00:00"
+    },
+    {
+      "source_id": "mining-baphlimali-formv2025",
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-environment-statement-fy2025.pdf",
+      "status": "partially_available",
+      "available": "Publisher PDF web-reader text, selected Parts B,C,F,G",
+      "unavailable": [
+        "Direct downloadHTTP406",
+        "PDF screenshotcachemiss"
+      ],
+      "scope": "No image inspection or local PDF capture. Air concentration period/station/method and µg/Nm3 versus µg/m3 basis unresolved.",
+      "run_id": "2026-10-03-baphlimali-monitoring",
+      "checked_at": "2026-10-03T16:38:34.364560+00:00"
+    },
+    {
+      "source_id": "mining-baphlimali-ec-sep2025",
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+      "status": "partially_available",
+      "available": "Publisher PDF text, monitoring and closure conditions",
+      "unavailable": [
+        "Direct downloadHTTP406",
+        "PDF screenshotcachemiss"
+      ],
+      "scope": "Underlying scanned monitoring annexures remain unverified; no failed retrieval called unchanged.",
+      "run_id": "2026-10-03-baphlimali-monitoring",
+      "checked_at": "2026-10-03T16:38:34.364560+00:00"
+    },
+    {
+      "source_id": "mining-asi-baphlimali2026",
+      "url": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+      "status": "saved_capture_reused",
+      "sha256": "0589e9c89bad8dd8bf7ba281974f8320a8a20004f63410dd0696ebb6f55f0ef6",
+      "scope": "Extended saved audit review, pp.10–14 text and pp.10–13 visual; no independent sampling or current corrective-action audit.",
+      "run_id": "2026-10-03-baphlimali-monitoring",
+      "checked_at": "2026-10-03T16:38:34.364560+00:00"
     }
   ]
 }

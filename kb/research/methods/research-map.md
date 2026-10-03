@@ -421,3 +421,7 @@ Existing mine identity and original IBM source extended; no new duplicate source
 ## Bharatpur safety checkpoint · 3 October 2026
 
 New Bharatpur event identity links two government accounts. Same fatal event counted once; mine code and Angul/Talcher geography retained. Saved production and mining pages reused.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+Baphlimali canonical mine page enhanced. New FormV linked with existing ASI/EC; repeated company production/rehabilitation values not treated as independent evidence.

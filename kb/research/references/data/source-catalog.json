@@ -5417,7 +5417,15 @@
     "capture_method": "original_pdf_text_and_visual_check",
     "capture_note": "Issuer/regulator evidence and company profile retained separately. ASI announcement/report are the same certification, not independent corroboration.",
     "sha256": "0589e9c89bad8dd8bf7ba281974f8320a8a20004f63410dd0696ebb6f55f0ef6",
-    "publication_date_basis": "Certificate issue date; report submitted31March2026, audit19–22January2026. Public posting date not established."
+    "publication_date_basis": "Certificate issue date; report submitted31March2026, audit19–22January2026. Public posting date not established.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-03",
+        "run_id": "2026-10-03-baphlimali-monitoring",
+        "locator": "PDF pp.10–14, criteria5.3b–e,6.1,6.2,7.2,8.1,8.7",
+        "scope": "Saved original PDF reused; pp.10–14 text read, pp.10–13 visually checked. Audit findings and claimed outcomes distinguished; raw monitoring evidence not available."
+      }
+    ]
   },
   "mining-hindalco-baphlimali": {
     "id": "mining-hindalco-baphlimali",
@@ -5461,7 +5469,15 @@
     "locator": "Company compliance report; PDF pp.2,4,11,16,41,44,46. Scanned consent annexure pp.81ff not readable in this capture.",
     "capture_method": "primary_publisher_pdf_text_via_web_reader",
     "capture_note": "Text available. Direct PDF download returned HTTP406; FormG1 screenshots returned cache-miss. No local PDF or visual table verification claimed. Company-filed, not regulator endorsement.",
-    "publication_date_basis": "Publication date unknown; reporting period stated in document."
+    "publication_date_basis": "Publication date unknown; reporting period stated in document.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-03",
+        "run_id": "2026-10-03-baphlimali-monitoring",
+        "locator": "PDF pp.12–14, closureA(xxxiii), general conditionsiii–viii",
+        "scope": "Readable publisher text rechecked for monitoring/closure scope. Direct PDFHTTP406 and screenshotcachemiss; underlying monitoring annexures not visually accessible."
+      }
+    ]
   },
   "mining-baphlimali-g1-2025": {
     "id": "mining-baphlimali-g1-2025",
@@ -6490,5 +6506,16 @@
     "accessed_on": "2026-10-03",
     "capture_method": "original_pdf_targeted_text_and_visual_review",
     "sha256": "1e867ee5a758bdacaf3b2851efcce0c43e3d8205d8a90fc880e865113990cf07"
+  },
+  "mining-baphlimali-formv2025": {
+    "id": "mining-baphlimali-formv2025",
+    "title": "Baphlimali Form V environmental statement, financial year ended31March2025",
+    "resource": "https://www.hindalco.com/Upload/PDF/baphlimali-environment-statement-fy2025.pdf",
+    "publisher": "Utkal Alumina International Limited, hosted by Hindalco",
+    "published_on": null,
+    "accessed_on": "2026-10-03",
+    "locator": "PDF pp.3–8, Parts B,C,F,G; printed pp.2–7",
+    "capture_method": "publisher_pdf_web_reader_text",
+    "capture_note": "Readable original publisher PDF text, thirteen-page document. Relevant water/air/waste/area passages inspected. Direct PDF download failedHTTP406; screenshot failedcachemiss. No local PDF or visual review claimed. Monitoring aggregation and units remain unresolved."
   }
 }

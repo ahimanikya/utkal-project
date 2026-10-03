@@ -18632,6 +18632,20 @@
         "mining-coal-safety-agenda2020",
         "mining-rs-accidents835-2023"
       ]
+    },
+    {
+      "id": "sources/mining-baphlimali-formv2025",
+      "title": "Baphlimali Form V environmental statement, financial year ended31March2025",
+      "kind": "Statistical Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-baphlimali-formv2025.md",
+      "project_path": "kb/research/sources/mining-baphlimali-formv2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-baphlimali-formv2025"
+      ]
     }
   ],
   "shared_publications": [
@@ -19840,13 +19854,14 @@
         "sources/mining-baphlimali-ec-sep2025.md",
         "sources/mining-coal-safety-agenda2020.md",
         "sources/mining-rs-accidents835-2023.md",
-        "economy/bharatpur-mine-safety.md"
+        "economy/bharatpur-mine-safety.md",
+        "sources/mining-baphlimali-formv2025.md"
       ],
       "project_records": [],
       "remaining_scope": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
       "status_unchanged": "pending",
       "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
-      "status_at_extension": "in_progress"
+      "status_at_extension": "blocked"
     },
     {
       "task_id": "RES-055",
@@ -20043,8 +20058,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1245,
-    "updated_at": "2026-10-03T15:37:46.393833+00:00",
+    "records_mapped": 1246,
+    "updated_at": "2026-10-03T16:38:34.364560+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20683,6 +20698,11 @@
       "run_id": "2026-10-03-bharatpur-safety",
       "at": "2026-10-03T15:37:46.393833+00:00",
       "scope": "New Bharatpur safety case after saved research and available repository-native search found no matching case. Two primary publication IDs, one accident identity; no independent inquiry claimed."
+    },
+    {
+      "run_id": "2026-10-03-baphlimali-monitoring",
+      "at": "2026-10-03T16:38:34.364560+00:00",
+      "scope": "Existing Baphlimali identity and ASI/EC sources extended; one absent FormV original added. Production/area series not duplicated; three existing area holds retained."
     }
   ]
 }

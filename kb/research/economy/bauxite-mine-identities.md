@@ -78,3 +78,15 @@ The report records monitoring and road sprinkling, but these rows contain no pol
 [Forest evidence](../statistics/forests.md): Connects reported mine planting with forest measurement while keeping planting counts distinct from survival, forest cover and ecological recovery.
 
 Next evidence: dated monitoring annexures, plantation survival/species records, area-category definitions and the cost ledger. No human review or current operational verification is claimed.
+
+## Baphlimali: measuring the environmental story · 3 October 2026
+
+**The company reports converting 32,200 kg of organic waste to manure in FY2025.** This is input waste handled, not finished compost, revenue or avoided carbon. Its FY2024–25 statement also reports 413 cubic metres/day for industrial uses such as dust suppression and 214 for domestic/other uses. “Nil” process water does not mean the mine uses no water. [FormV, PDF pp.3,6](https://www.hindalco.com/Upload/PDF/baphlimali-environment-statement-fy2025.pdf).
+
+The air rows give PM10 as 39.74 and PM2.5 as 17.88, but sample dates, station coverage and averaging periods are missing from the summary. Printed measurement and comparator units also differ. These figures are held from clean-air comparisons. [FormV, PDF p.4](https://www.hindalco.com/Upload/PDF/baphlimali-environment-statement-fy2025.pdf).
+
+The certification audit reports monitoring results within limits while recording a minor non-conformance for unmonitored mine-vehicle emissions. It describes progressive rehabilitation, but its survival claim lacks the survey denominator/method. The planting-count wording and biodiversity-priority descriptions also need clarification. [ASI audit, PDF pp.10–14](https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf).
+
+[Air-quality evidence](../statistics/air-quality.md): Connects mine monitoring with air-quality statistics while preserving station coverage, averaging periods and incompatible units.
+
+[Detailed case and held claims](../references/data/mining-environment-rights.json) keep the closure-plan timing discrepancy, conflicting area categories and source-access failures visible. This checkpoint establishes neither current compliance nor completed ecological recovery.

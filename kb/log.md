@@ -467,3 +467,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · Bharatpur worker-safety checkpoint
 
 [Research receipt](records/bharatpur-safety-2026-10-03.json): One dated accident identity connects the Ministry agenda and parliamentary row. Same event counted once; recommendations are distinct from implemented corrective action. RES-054 continues with monitoring and closure. No website release.
+
+## 3 October 2026 · Baphlimali monitoring and recovery checkpoint
+
+[Research receipt](records/baphlimali-monitoring-2026-10-03.json): The existing mine study connects reported water/waste handling with audit findings and held measurement/recovery claims. Original tables and denominators remain gaps; RES-054 deferred, independent RES-055 next. No website release.

@@ -462,3 +462,7 @@ RES-054 checkpoint: reused saved IBM original, visually checked pp.5–7, added 
 ## Bharatpur safety checkpoint · 3 October 2026
 
 RES-054 checkpoint: two primary PDFs, three event-count observations and one Bharatpur safety case. Recommendations remain separate from implementation; DGMS fetch failures and original-inquiry retry preserved. Monitoring and closure evidence still pending.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+RES-054 checkpoint: one new FormV source, two extended originals, seven observations and three enhanced area holds. Access failures, audit findings and measurement ambiguities retained; task incomplete and deferred to10October. Independent RES-055 is next.

@@ -15972,7 +15972,15 @@
       "period_coverage": "year_end",
       "estimate_status": "reported",
       "research_batch": "2026-10-02-baphlimali-returns",
-      "visual_source_check": false
+      "visual_source_check": false,
+      "review_history": [
+        {
+          "run_id": "2026-10-03-baphlimali-monitoring",
+          "reviewed_on": "2026-10-03",
+          "result": "hold_retained",
+          "note": "FormV reports160ha backfilled/106ha afforested at31March2025; annual return160.624ha reclaimed-rehabilitated, EC166.88/112.16ha at30September2025 and ASI105ha differ by category/date/scope. No common recovery series or completed closure inferred."
+        }
+      ]
     },
     {
       "id": "baphlimali-return-backfilled-sep2025",
@@ -15994,7 +16002,15 @@
       "period_coverage": "point_in_time",
       "estimate_status": "reported",
       "research_batch": "2026-10-02-baphlimali-returns",
-      "visual_source_check": false
+      "visual_source_check": false,
+      "review_history": [
+        {
+          "run_id": "2026-10-03-baphlimali-monitoring",
+          "reviewed_on": "2026-10-03",
+          "result": "hold_retained",
+          "note": "FormV reports160ha backfilled/106ha afforested at31March2025; annual return160.624ha reclaimed-rehabilitated, EC166.88/112.16ha at30September2025 and ASI105ha differ by category/date/scope. No common recovery series or completed closure inferred."
+        }
+      ]
     },
     {
       "id": "baphlimali-return-afforested-sep2025",
@@ -16016,7 +16032,15 @@
       "period_coverage": "point_in_time",
       "estimate_status": "reported",
       "research_batch": "2026-10-02-baphlimali-returns",
-      "visual_source_check": false
+      "visual_source_check": false,
+      "review_history": [
+        {
+          "run_id": "2026-10-03-baphlimali-monitoring",
+          "reviewed_on": "2026-10-03",
+          "result": "hold_retained",
+          "note": "FormV reports160ha backfilled/106ha afforested at31March2025; annual return160.624ha reclaimed-rehabilitated, EC166.88/112.16ha at30September2025 and ASI105ha differ by category/date/scope. No common recovery series or completed closure inferred."
+        }
+      ]
     },
     {
       "id": "baphlimali-return-cto-capacity-sep2025",
@@ -22822,6 +22846,156 @@
       "research_batch": "2026-10-03-bharatpur-safety",
       "price_basis": "not_applicable",
       "estimate_status": "reported_event_count"
+    },
+    {
+      "id": "baphlimali-monitoring-industrial-water",
+      "topic": "Minerals and mining",
+      "metric": "Industrial water consumption for dust suppression and other uses",
+      "value": 413,
+      "unit": "cubic metres/day",
+      "period": "2024-25",
+      "geography": "Baphlimali mine, Odisha; site evidence, not district/state indicator",
+      "source_id": "mining-baphlimali-formv2025",
+      "locator": "PDF p.3 PartB",
+      "definition": "Reported daily volume, not annual abstraction. Separate from process-water nil and domestic use.",
+      "caveat": "Source-level claim retained. Underlying raw measurement/coverage records and current conditions unverified. No ecological-recovery or legal-compliance inference.",
+      "evidence_status": "company_reported_environmental_statement",
+      "checked_on": "2026-10-03",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "research_batch": "2026-10-03-baphlimali-monitoring",
+      "price_basis": "not_applicable",
+      "estimate_status": "reported",
+      "visual_source_check": false
+    },
+    {
+      "id": "baphlimali-monitoring-domestic-water",
+      "topic": "Minerals and mining",
+      "metric": "Domestic and other water consumption",
+      "value": 214,
+      "unit": "cubic metres/day",
+      "period": "2024-25",
+      "geography": "Baphlimali mine, Odisha; site evidence, not district/state indicator",
+      "source_id": "mining-baphlimali-formv2025",
+      "locator": "PDF p.3 PartB",
+      "definition": "Reported daily volume, not annual abstraction; daily averaging basis not specified.",
+      "caveat": "Source-level claim retained. Underlying raw measurement/coverage records and current conditions unverified. No ecological-recovery or legal-compliance inference.",
+      "evidence_status": "company_reported_environmental_statement",
+      "checked_on": "2026-10-03",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "research_batch": "2026-10-03-baphlimali-monitoring",
+      "price_basis": "not_applicable",
+      "estimate_status": "reported",
+      "visual_source_check": false
+    },
+    {
+      "id": "baphlimali-monitoring-pm10",
+      "topic": "Minerals and mining",
+      "metric": "PM10 concentration as printed in Form V",
+      "value": 39.74,
+      "unit": "micrograms/Nm3 as printed",
+      "period": "2024-25 report; measurement/averaging period unspecified",
+      "geography": "Baphlimali mine, Odisha; site evidence, not district/state indicator",
+      "source_id": "mining-baphlimali-formv2025",
+      "locator": "PDF p.4 PartC",
+      "definition": "No sample dates, station scope or averaging period in this row. Source prints normalised-volume unit while comparator uses µg/m3; compliance comparison held.",
+      "caveat": "Source-level claim retained. Underlying raw measurement/coverage records and current conditions unverified. No ecological-recovery or legal-compliance inference.",
+      "evidence_status": "company_reported_environmental_statement",
+      "checked_on": "2026-10-03",
+      "publication_readiness": "hold_conflict",
+      "human_reviewed": false,
+      "research_batch": "2026-10-03-baphlimali-monitoring",
+      "price_basis": "not_applicable",
+      "estimate_status": "reported",
+      "visual_source_check": false,
+      "hold_reason": "No sample dates, station scope or averaging period in this row. Source prints normalised-volume unit while comparator uses µg/m3; compliance comparison held."
+    },
+    {
+      "id": "baphlimali-monitoring-pm25",
+      "topic": "Minerals and mining",
+      "metric": "PM2.5 concentration as printed in Form V",
+      "value": 17.88,
+      "unit": "micrograms/Nm3 as printed",
+      "period": "2024-25 report; measurement/averaging period unspecified",
+      "geography": "Baphlimali mine, Odisha; site evidence, not district/state indicator",
+      "source_id": "mining-baphlimali-formv2025",
+      "locator": "PDF p.4 PartC",
+      "definition": "No sample dates, station scope or averaging period in this row. Source prints normalised-volume unit while comparator uses µg/m3; compliance comparison held.",
+      "caveat": "Source-level claim retained. Underlying raw measurement/coverage records and current conditions unverified. No ecological-recovery or legal-compliance inference.",
+      "evidence_status": "company_reported_environmental_statement",
+      "checked_on": "2026-10-03",
+      "publication_readiness": "hold_conflict",
+      "human_reviewed": false,
+      "research_batch": "2026-10-03-baphlimali-monitoring",
+      "price_basis": "not_applicable",
+      "estimate_status": "reported",
+      "visual_source_check": false,
+      "hold_reason": "No sample dates, station scope or averaging period in this row. Source prints normalised-volume unit while comparator uses µg/m3; compliance comparison held."
+    },
+    {
+      "id": "baphlimali-monitoring-organic-waste",
+      "topic": "Minerals and mining",
+      "metric": "Organic waste diverted from landfill and converted to manure, company reported",
+      "value": 32200,
+      "unit": "kg",
+      "period": "FY2025 in FY2024-25 statement",
+      "geography": "Baphlimali mine, Odisha; site evidence, not district/state indicator",
+      "source_id": "mining-baphlimali-formv2025",
+      "locator": "PDF p.6 PartF",
+      "definition": "Input waste converted, not weight of finished compost or avoided carbon; mass-balance verification absent.",
+      "caveat": "Source-level claim retained. Underlying raw measurement/coverage records and current conditions unverified. No ecological-recovery or legal-compliance inference.",
+      "evidence_status": "company_reported_environmental_statement",
+      "checked_on": "2026-10-03",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "research_batch": "2026-10-03-baphlimali-monitoring",
+      "price_basis": "not_applicable",
+      "estimate_status": "reported",
+      "visual_source_check": false
+    },
+    {
+      "id": "baphlimali-monitoring-water-intensity-reduction",
+      "topic": "Minerals and mining",
+      "metric": "Approximate reduction in water consumption per tonne of bauxite",
+      "value": 17,
+      "unit": "percent",
+      "period": "Past three years in January2026 audit; endpoints unspecified",
+      "geography": "Baphlimali mine, Odisha; site evidence, not district/state indicator",
+      "source_id": "mining-asi-baphlimali2026",
+      "locator": "PDF p.12 criterion7.2",
+      "definition": "Audit reports approximate reduction but baseline/final intensities, exact years and water boundaries absent. Not reduction in total water consumption.",
+      "caveat": "Source-level claim retained. Underlying raw measurement/coverage records and current conditions unverified. No ecological-recovery or legal-compliance inference.",
+      "evidence_status": "certification_audit_reported",
+      "checked_on": "2026-10-03",
+      "publication_readiness": "hold_conflict",
+      "human_reviewed": false,
+      "research_batch": "2026-10-03-baphlimali-monitoring",
+      "price_basis": "not_applicable",
+      "estimate_status": "approximate_reported",
+      "visual_source_check": true,
+      "hold_reason": "Audit reports approximate reduction but baseline/final intensities, exact years and water boundaries absent. Not reduction in total water consumption."
+    },
+    {
+      "id": "baphlimali-monitoring-air-stations",
+      "topic": "Minerals and mining",
+      "metric": "Ambient air quality stations in core and buffer zones",
+      "value": 8,
+      "unit": "stations",
+      "period": "2025-09-30",
+      "geography": "Baphlimali mine, Odisha; site evidence, not district/state indicator",
+      "source_id": "mining-baphlimali-ec-sep2025",
+      "locator": "PDF p.12 general conditioniii",
+      "definition": "Company reports eight stations and twice-weekly measurements; distinct from three continuous stations described in FormV. Not proof all samples comply.",
+      "caveat": "Source-level claim retained. Underlying raw measurement/coverage records and current conditions unverified. No ecological-recovery or legal-compliance inference.",
+      "evidence_status": "company_reported_environmental_statement",
+      "checked_on": "2026-10-03",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "research_batch": "2026-10-03-baphlimali-monitoring",
+      "price_basis": "not_applicable",
+      "estimate_status": "reported",
+      "visual_source_check": false
     }
   ],
   "calculations": [

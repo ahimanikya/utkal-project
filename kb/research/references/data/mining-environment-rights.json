@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T15:37:46.393833+00:00",
-  "run_id": "2026-10-03-bharatpur-safety",
+  "updated_at": "2026-10-03T16:38:34.364560+00:00",
+  "run_id": "2026-10-03-baphlimali-monitoring",
   "scope": "Selected historical Odisha mine cases: rights, reported environmental work and worker safety. Not a complete current mine/permission inventory.",
   "sites": [
     {
@@ -240,6 +240,105 @@
       "closure_or_ecological_recovery": null,
       "independence_note": "Two government publications can share operator data. Fatality observation stored once.",
       "omitted_scope": "Personal names and individual compensation details not reproduced; no compensation settlement or injury total inferred."
+    },
+    {
+      "id": "baphlimali-monitoring-and-rehabilitation",
+      "title": "Baphlimali: monitoring, rehabilitation and evidence limits",
+      "canonical_page": "economy/bauxite-mine-identities.md",
+      "districts": [
+        "rayagada",
+        "kalahandi"
+      ],
+      "geography_scope": "Lease spans districts; no allocation of site measures to districts.",
+      "operator": "Utkal Alumina International Limited",
+      "source_ids": [
+        "mining-baphlimali-formv2025",
+        "mining-asi-baphlimali2026",
+        "mining-baphlimali-ec-sep2025"
+      ],
+      "observation_ids": [
+        "baphlimali-monitoring-industrial-water",
+        "baphlimali-monitoring-domestic-water",
+        "baphlimali-monitoring-pm10",
+        "baphlimali-monitoring-pm25",
+        "baphlimali-monitoring-organic-waste",
+        "baphlimali-monitoring-water-intensity-reduction",
+        "baphlimali-monitoring-air-stations"
+      ],
+      "current_permission_status": "unknown",
+      "current_operation_status": "unknown",
+      "pollutant_compliance_independently_verified": false,
+      "closure_or_ecological_recovery": null,
+      "audit_findings": [
+        {
+          "criterion": "6.1a–f",
+          "rating": "Minor Non-Conformance",
+          "locator": "ASI PDF pp.10–11",
+          "positive_finding": "Auditor says monitored point-source/ambient results were within limits.",
+          "gap": "Mine-vehicle emissions, including dumpers, not monitored; no claim this proves ambient exceedance."
+        },
+        {
+          "criterion": "5.3b–e",
+          "rating": "Minor Non-Conformance",
+          "locator": "ASI PDF p.10",
+          "gap": "Reduction plan lacks Scope3 measures, reduction targets and annual progress disclosure as described in audit."
+        },
+        {
+          "criterion": "8.7a–i",
+          "rating": "Conformance",
+          "locator": "ASI PDF pp.13–14",
+          "scope": "Progressive rehabilitation plan/practice; not final closure or independently verified ecosystem recovery."
+        }
+      ],
+      "quarantined_claims": [
+        {
+          "claim": "Plantation survival over85percent",
+          "source_id": "mining-asi-baphlimali2026",
+          "locator": "PDF p.13 criterion8.7",
+          "status": "hold_scope",
+          "reason": "Cohort, denominator, survival-survey date and method absent; no exact85percent or number surviving calculated."
+        },
+        {
+          "claim_as_printed": "around 2,76,860 different species planted",
+          "source_id": "mining-asi-baphlimali2026",
+          "locator": "PDF p.13 criterion8.7",
+          "status": "hold_unit_ambiguity",
+          "reason": "Do not interpret as species richness or silently change unit to trees; publisher clarification required."
+        },
+        {
+          "claim": "Low Priority versus Priority location",
+          "source_id": "mining-asi-baphlimali2026",
+          "locator": "PDF p.12 criteria8.1a and8.1b",
+          "status": "hold_conflict",
+          "reason": "Both descriptions occur; underlying TNFD classification not independently reconciled."
+        },
+        {
+          "claim": "Final closure submission: five years in EC condition versus two years in company response",
+          "source_id": "mining-baphlimali-ec-sep2025",
+          "locator": "PDF p.12 A(xxxiii)",
+          "status": "hold_legal_scope",
+          "reason": "Preserve historical statements; original applicable instruments/current legal status unverified. Not a current legal checklist."
+        }
+      ],
+      "area_scope_comparison": {
+        "source_dates_and_values": [
+          "FormV:31March2025,160ha backfilled,106ha afforested",
+          "G1return:31March2025,160.624ha reclaimed-rehabilitated",
+          "EC:30September2025,166.88ha backfilled,112.16ha afforested",
+          "ASI overview:105ha rehabilitated, as-of date unspecified"
+        ],
+        "status": "hold_cross_source_series",
+        "notes": "Nested, differently labelled categories and dates; no sum, common rate or completed closure."
+      },
+      "monitoring_annexure_routes": {
+        "air": "EC AnnexuresIV/V",
+        "water": "EC AnnexuresVII/XIII; ASI points to reportpp.68–77",
+        "noise": "EC AnnexureXVII",
+        "fugitive_dust": "EC AnnexureXX",
+        "personal_dust": "EC AnnexureXXI",
+        "status": "raw_scanned_tables_unverified"
+      },
+      "same_reporting_lineage": "Company FormV and EC are related disclosures. ASI refers to those reports; repeated figures are not independent measurements."
     }
   ],
   "source_checks": [
@@ -328,6 +427,35 @@
       "status": "unavailable",
       "reason": "Web fetch timed out; indexed table not used as verified evidence.",
       "retry_after": "2026-10-10"
+    },
+    {
+      "source_id": "mining-baphlimali-formv2025",
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-environment-statement-fy2025.pdf",
+      "status": "partially_available",
+      "available": "Publisher PDF web-reader text, selected Parts B,C,F,G",
+      "unavailable": [
+        "Direct downloadHTTP406",
+        "PDF screenshotcachemiss"
+      ],
+      "scope": "No image inspection or local PDF capture. Air concentration period/station/method and µg/Nm3 versus µg/m3 basis unresolved."
+    },
+    {
+      "source_id": "mining-baphlimali-ec-sep2025",
+      "url": "https://www.hindalco.com/Upload/PDF/baphlimali-half-yearly-ec-compliance-report-april-2205-sept-2025.pdf",
+      "status": "partially_available",
+      "available": "Publisher PDF text, monitoring and closure conditions",
+      "unavailable": [
+        "Direct downloadHTTP406",
+        "PDF screenshotcachemiss"
+      ],
+      "scope": "Underlying scanned monitoring annexures remain unverified; no failed retrieval called unchanged."
+    },
+    {
+      "source_id": "mining-asi-baphlimali2026",
+      "url": "https://aluminium-stewardship.org/wp-content/uploads/2026/05/ASI-Audit-Report-Utkal-Alumina-International-Limited-Certificate-557-PS.pdf",
+      "status": "saved_capture_reused",
+      "sha256": "0589e9c89bad8dd8bf7ba281974f8320a8a20004f63410dd0696ebb6f55f0ef6",
+      "scope": "Extended saved audit review, pp.10–14 text and pp.10–13 visual; no independent sampling or current corrective-action audit."
     }
   ],
   "evidence_gaps": [
@@ -350,6 +478,11 @@
       "topic": "Bharatpur final inquiry and verified corrective actions",
       "retry_after": "2026-10-10",
       "gap": "DGMS alert/index and historical table unavailable; recover original alert07/2019, final inquiry, restriction/reopening orders and verified corrective-action records. Comparable exposure data absent."
+    },
+    {
+      "topic": "Baphlimali raw monitoring, closure and rehabilitation denominators",
+      "retry_after": "2026-10-10",
+      "gap": "Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held."
     }
   ],
   "human_review_claimed": false,
@@ -368,6 +501,13 @@
     "kodingamali-environment-plants-cumulative",
     "bharatpur-safety-fatalities",
     "bharatpur-safety-people-at-worksite",
-    "bharatpur-safety-escaped-rescued"
+    "bharatpur-safety-escaped-rescued",
+    "baphlimali-monitoring-industrial-water",
+    "baphlimali-monitoring-domestic-water",
+    "baphlimali-monitoring-pm10",
+    "baphlimali-monitoring-pm25",
+    "baphlimali-monitoring-organic-waste",
+    "baphlimali-monitoring-water-intensity-reduction",
+    "baphlimali-monitoring-air-stations"
   ]
 }

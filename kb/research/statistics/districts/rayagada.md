@@ -47,3 +47,7 @@ IBM’s2023–24 bauxite producer table places Utkal Alumina mine location in Ra
 ## Community decisions and mining · 3 October 2026
 
 [The Niyamgiri case](../../economy/niyamgiri-rights-and-mining.md) links the2013court directions to a2015parliamentary report of village decisions. District counts describe that proceeding, not every affected village or today’s permission status.
+
+## Baphlimali monitoring checkpoint · 3 October 2026
+
+[The existing mine study](../../economy/bauxite-mine-identities.md) now distinguishes reported water/waste handling from held pollutant comparisons, audit findings and rehabilitation claims. Site figures are not district air-quality or ecological-recovery measures.

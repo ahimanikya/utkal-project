@@ -279,3 +279,7 @@ Kodingamali saved IBM environmental work captured without duplicating mine ident
 ## Bharatpur safety checkpoint · 3 October 2026
 
 Bharatpur event checkpoint saved; do not duplicate the two government accounts or infer current safety. Next: Baphlimali measured monitoring and closure/restoration evidence using saved sources. DGMS original alert/final inquiry, Kodingamali monitoring/PMCP and Niyamgiri original records retry10October.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+RES-054 checkpoint deferred to10October for original monitoring tables, closure instruments and recovery denominators. Reuse new FormV and extended ASI/EC scope. Next independent eligible task RES-055: mining-town histories, mineral research and future materials; keep current technology/project stages separate.

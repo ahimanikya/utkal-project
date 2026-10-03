@@ -117,3 +117,7 @@ Kodingamali now links reported environmental work to the mine-output story. The 
 ## Worker-safety evidence · 3 October 2026
 
 [The Bharatpur case](bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.
+
+## Baphlimali monitoring checkpoint · 3 October 2026
+
+[The existing mine study](bauxite-mine-identities.md) now distinguishes reported water/waste handling from held pollutant comparisons, audit findings and rehabilitation claims. Site figures are not district air-quality or ecological-recovery measures.

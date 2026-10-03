@@ -446,3 +446,7 @@ Site monitoring readings, safety and measured ecological recovery remain incompl
 ## Bharatpur safety checkpoint · 3 October 2026
 
 Measured monitoring and closure/recovery study incomplete; original safety inquiry and action verification unresolved. DGMS routes timed out; original records retry10October. No missing record treated as unchanged or zero.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held. Retry10October; continue independent RES-055 meanwhile.

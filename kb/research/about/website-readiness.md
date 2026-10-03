@@ -217,3 +217,7 @@ Kodingamali historical work counts are source-checked candidates. No survival, c
 ## Bharatpur safety checkpoint · 3 October 2026
 
 Bharatpur is a source-checked historical safety case, with current risk, final inquiry and implemented recommendations unverified. No human review or website release.
+
+## Baphlimali monitoring and recovery checkpoint · 3 October 2026
+
+Water/waste figures are attributed company claims. Air concentration comparison, survival denominator, planting unit and priority classification remain held; no current-compliance or recovery headline. No human review or website release.
