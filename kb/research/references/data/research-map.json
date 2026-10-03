@@ -18519,6 +18519,71 @@
         "mining-finance-accounts2025"
       ],
       "added_at": "2026-10-02T19:42:23.004076+00:00"
+    },
+    {
+      "id": "sources/mining-niyamgiri-sc2013",
+      "title": "Orissa Mining Corporation v. Ministry of Environment & Forest & Others, [2013]6SCR881",
+      "kind": "Primary Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-niyamgiri-sc2013.md",
+      "project_path": "kb/research/sources/mining-niyamgiri-sc2013.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-niyamgiri-sc2013"
+      ]
+    },
+    {
+      "id": "sources/mining-niyamgiri-rs2015",
+      "title": "Rajya Sabha Unstarred Question1978: Bauxite mining, 13May2015",
+      "kind": "Primary Source",
+      "layer": "research_concept",
+      "source_path": "sources/mining-niyamgiri-rs2015.md",
+      "project_path": "kb/research/sources/mining-niyamgiri-rs2015.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-niyamgiri-rs2015"
+      ]
+    },
+    {
+      "id": "economy/niyamgiri-rights-and-mining",
+      "title": "Niyamgiri: mining decisions, community rights and a sacred landscape",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/niyamgiri-rights-and-mining.md",
+      "project_path": "kb/research/economy/niyamgiri-rights-and-mining.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "governance",
+        "nature",
+        "people",
+        "history",
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "mining-niyamgiri-sc2013",
+        "mining-niyamgiri-rs2015"
+      ]
+    },
+    {
+      "id": "references/data/mining-environment-rights",
+      "title": "Selected mining environment and rights cases",
+      "kind": "Structured research data",
+      "layer": "structured_research_record",
+      "source_path": "references/data/mining-environment-rights.json",
+      "project_path": "kb/research/references/data/mining-environment-rights.json",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-niyamgiri-sc2013",
+        "mining-niyamgiri-rs2015"
+      ]
     }
   ],
   "shared_publications": [
@@ -19717,12 +19782,20 @@
         "economy/mining.md",
         "statistics/minerals-and-mining.md",
         "references/data/mining-programme.json",
-        "statistics/air-quality.md"
+        "statistics/air-quality.md",
+        "economy/niyamgiri-rights-and-mining.md",
+        "references/data/mining-environment-rights.json",
+        "sources/mining-niyamgiri-sc2013.md",
+        "sources/mining-niyamgiri-rs2015.md",
+        "economy/bauxite-mine-identities.md",
+        "sources/mining-ibm-kodingamali2024.md",
+        "sources/mining-baphlimali-ec-sep2025.md"
       ],
       "project_records": [],
       "remaining_scope": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
       "status_unchanged": "pending",
-      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
+      "status_at_extension": "in_progress"
     },
     {
       "task_id": "RES-055",
@@ -19919,8 +19992,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1238,
-    "updated_at": "2026-10-02T19:42:23.004076+00:00",
+    "records_mapped": 1242,
+    "updated_at": "2026-10-03T13:36:01.706450+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20544,6 +20617,11 @@
       "run_id": "2026-10-03-dmf-planning",
       "at": "2026-10-03T12:39:25.107567+00:00",
       "scope": "Existing CAG source extended through fullChapterIV. NewSukrangi housing identity kept distinct fromMankedia colony;19new scoped observations, no duplication of existing fund totals. DefinedRES-053 desk deliverable completed; follow-ups retained."
+    },
+    {
+      "run_id": "2026-10-03-niyamgiri-rights",
+      "at": "2026-10-03T13:36:01.706450+00:00",
+      "scope": "NewNiyamgiri proposed-mine rights case, two primary sources, four scoped observations. Distinct fromBaphlimali/UtkalAlumina and fromLanjigarh refinery permissions. SavedKB and available repository-native records searched; externalSeeUtkal narrative discovered but not treated as independent evidence or overwritten."
     }
   ]
 }

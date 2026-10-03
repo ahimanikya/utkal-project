@@ -35,3 +35,7 @@ The agriculture report records rice crop area of **255.76 thousand hectares**, r
 ## Baphlimali returns · 2 October2026 UTC
 
 [Baphlimali boundary questions](../../economy/bauxite-mine-identities.md) retain the Kalahandi public-hearing section separately; no mine-total allocation or local job share is inferred.
+
+## Community decisions and mining · 3 October 2026
+
+[The Niyamgiri case](../../economy/niyamgiri-rights-and-mining.md) links the2013court directions to a2015parliamentary report of village decisions. District counts describe that proceeding, not every affected village or today’s permission status.

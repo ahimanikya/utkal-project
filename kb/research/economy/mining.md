@@ -105,3 +105,7 @@ Keep useful positive achievements alongside setbacks and unresolved questions. M
 ## DMF desk evidence milestone · 3 October 2026
 
 The [funds-to-services study](dmf-from-funds-to-services.md) completes its defined desk scope with six-district finance/planning evidence and23dated project/programme cases, linked to the [actual mining-receipts series](mining-receipts.md). Current operations, source conflicts and revenue-subhead disaggregation remain explicit follow-ups. The next research batch concerns mine environments, rights, safety and restoration.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Community and religious rights are part of the mining evidence alongside finance and production. [Read the dated case](niyamgiri-rights-and-mining.md).

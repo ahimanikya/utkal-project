@@ -4599,6 +4599,20 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/niyamgiri-rights-and-mining",
+      "primary_subject": "governance",
+      "secondary_subjects": [
+        "nature",
+        "people",
+        "history",
+        "economy",
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6827,6 +6841,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Links seedling project evidence to forest-measurement definitions; distribution is not surviving trees, carbon removal or forest-cover change."
+    },
+    {
+      "from": "economy/niyamgiri-rights-and-mining",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a dated rights decision to the wider mining economy without treating a proposal as production."
+    },
+    {
+      "from": "economy/niyamgiri-rights-and-mining",
+      "to": "economy/forest-products",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects community-resource rights with forest livelihoods without inferring sales or consent for a particular business."
+    },
+    {
+      "from": "economy/niyamgiri-rights-and-mining",
+      "to": "collections/religion-and-spirituality",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the documented worship-rights issue with living traditions without claiming a single belief shared by every community member."
     }
   ],
   "relationship_types": {

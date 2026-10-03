@@ -455,3 +455,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · DMF planning and desk milestone
 
 [Research receipt](records/dmf-planning-2026-10-03.json): FullChapterIV joins historical allocations, village coverage, approvals and responses to saved funding/service evidence. RES-053 desk deliverable complete; current records and source conflicts remain open with retries. NextRES-054. No website release.
+
+## 3 October 2026 · Niyamgiri community-rights checkpoint
+
+[Research receipt](records/mining-rights-2026-10-03.json): A separate proposed-mine identity links court directions and minister-reported village decisions, preserving disputed positions and original-record gaps. RES-054 continues with monitoring, safety and restoration. No website release.

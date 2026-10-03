@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-03T13:36:01.706450+00:00",
+  "run_id": "2026-10-03-niyamgiri-rights",
+  "scope": "Selected Odisha mine-related environment, rights, safety and restoration evidence. First checkpoint is a historical rights case; not a complete site or permission inventory.",
+  "sites": [
+    {
+      "id": "niyamgiri-proposed-bauxite",
+      "title": "Niyamgiri proposed bauxite mining and forest-rights proceedings",
+      "districts": [
+        "rayagada",
+        "kalahandi"
+      ],
+      "entity_relationships": [
+        {
+          "entity": "Orissa Mining Corporation",
+          "role": "Petitioner and named proposed mining proponent in2013judgment"
+        },
+        {
+          "entity": "Sterlite",
+          "role": "Respondent/project participant in2013judgment"
+        },
+        {
+          "entity": "Lanjigarh alumina refinery",
+          "role": "Related but distinct project; do not merge mine and refinery permissions"
+        }
+      ],
+      "not_same_as": [
+        "Baphlimali bauxite mine",
+        "Utkal Alumina refinery"
+      ],
+      "stage_at_evidence_date": "Proposed forest diversion under rights/clearance proceedings; village decisions against mining reported13May2015.",
+      "current_permission_status": "unknown",
+      "current_operation_status": "unknown",
+      "monitoring_outcomes": null,
+      "mine_safety_outcomes": null,
+      "closure_or_ecological_recovery": null,
+      "source_ids": [
+        "mining-niyamgiri-sc2013",
+        "mining-niyamgiri-rs2015"
+      ],
+      "timeline": [
+        {
+          "date": "2010-08-24",
+          "event": "StageIIforest-clearance rejection challenged in the later case",
+          "source_id": "mining-niyamgiri-sc2013",
+          "locator": "paragraph1, printed892/PDF6",
+          "evidence_class": "earlier_order_described_in_judgment",
+          "original_order_retrieved": false
+        },
+        {
+          "date": "2013-04-18",
+          "event": "SupremeCourt directed rights determination and subsequent Ministry decision",
+          "source_id": "mining-niyamgiri-sc2013",
+          "locator": "paragraphs55–63, printed946–948/PDF33–34",
+          "evidence_class": "judicial_direction"
+        },
+        {
+          "date": "2015-05-13",
+          "event": "Minister reported12villageGramSabhas decided against mining,7Rayagada and5Kalahandi",
+          "source_id": "mining-niyamgiri-rs2015",
+          "locator": "Question1978(b), printed237/PDF239",
+          "evidence_class": "government_report_of_village_decisions",
+          "original_resolutions_retrieved": false,
+          "individual_meeting_dates": null
+        }
+      ],
+      "directed_procedure": {
+        "source_id": "mining-niyamgiri-sc2013",
+        "locator": "paragraphs59–62",
+        "fresh_claim_window": "six weeks from judgment",
+        "gram_sabha_decision_window": "three months",
+        "subsequent_ministry_window": "two months after Gram Sabha proceedings",
+        "observer": "Judicial officer of district-judge rank nominated by Chief Justice of High Court of Orissa; required to sign minutes certifying independence.",
+        "scope": "Case-specific historical directions; not observed completion durations or a current legal checklist."
+      },
+      "positions": [
+        {
+          "actor": "OMC/state/Sterlite",
+          "scope": "Counsel submissions recorded inparagraphs16–19; challengedStageIIrefusal, relied on earlier proceedings/claimed compliance and distinguished refinery frommine."
+        },
+        {
+          "actor": "Union government",
+          "scope": "Counsel submission inparagraph20; defended statutory review, conditions andrights concerns."
+        },
+        {
+          "actor": "Court",
+          "scope": "Paragraph50 distinguished mineral ownership; paragraphs55–63 protected consideration of religious/customaryrights and directedGramSabha procedure plusMinistry decision."
+        }
+      ],
+      "claims_snapshot": {
+        "source_id": "mining-niyamgiri-sc2013",
+        "locator": "paragraphs53–54, printed945–946/PDF33",
+        "status": "court_recorded_case_snapshot",
+        "rayagada_individual_received": 185,
+        "rayagada_individual_settled": 145,
+        "rayagada_individual_pending": 40,
+        "rayagada_alternate_rights_acres": 263.5,
+        "kalahandi_individual_settled": 31,
+        "kalahandi_alternate_rights_acres": 61,
+        "kalahandi_community_received": 6,
+        "kalahandi_community_settled": 3,
+        "kalahandi_community_pending": 3,
+        "kalahandi_alternate_community_area_acres": 160.55,
+        "limits": "Claims are not verified counts of distinct people/households or statewide title totals. Individual/community areas not summed; originals not retrieved. Rayagada no community claim received in this case snapshot does not establish absence of community rights."
+      },
+      "unsupported_extensions": [
+        "No claim that the twelve villages represent every affected village.",
+        "No individual-voter unanimity claim from this parliamentary passage.",
+        "No permanent-ban or current operating-status claim.",
+        "No inferred actual deforestation, restoration or avoided-carbon total from proposal area.",
+        "No quantified business loss, local income or export effect."
+      ]
+    }
+  ],
+  "source_checks": [
+    {
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf",
+      "status": "available",
+      "scope": "Official report downloaded; targeted judgment text read, not every cited precedent or every judgment in volume. PDF6,33,34 visually checked. Historical directions and party submissions kept separate; not a current permissions guide.",
+      "retrieval_history": [
+        {
+          "method": "sandbox_curl",
+          "status": "unavailable",
+          "reason": "DNS resolution blocked"
+        },
+        {
+          "method": "authorized_network_download",
+          "status": "available",
+          "capture_sha256": "7c391d59dbfb3ae858cfede2a2f435064a59f467407cb723352151ac208b6e3f"
+        }
+      ]
+    },
+    {
+      "url": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/235/F13.05.2015.pdf",
+      "status": "available",
+      "scope": "Official debate volume downloaded; only Question1978 read. Count passage visually checked onPDF239. Minister reports village decisions; original resolutions and meeting dates not retrieved. Adjacent state production table excluded from this rights batch.",
+      "capture_sha256": "13f05d295187b27abd4eacea8456aaa5995b36e4b06e2a5ee75b726cafc6435a"
+    },
+    {
+      "query": "Primary Ministry order after Niyamgiri village decisions, January2014; original signed resolutions",
+      "status": "not_located_in_bounded_search",
+      "scope": "Government-domain queries found the court report and parliamentary answer but not original resolutions or later order. This is not an unchanged finding and not proof the records do not exist.",
+      "retry_after": "2026-10-10"
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "topic": "Niyamgiri original resolutions and later order",
+      "retry_after": "2026-10-10",
+      "gap": "Original signed minutes, attendance, village-selection basis and later Ministry forest-clearance order not recovered; subsequent case history unreviewed."
+    },
+    {
+      "topic": "Monitoring, safety and measured restoration",
+      "retry_after": null,
+      "gap": "Next independent RES-054 batch: reuse IBM Kodingamali/Baphlimali captures and seek regulator monitoring, accident/inquiry and closure evidence with site/period boundaries."
+    }
+  ],
+  "human_review_claimed": false,
+  "website_publication": false,
+  "observation_ids": [
+    "niyamgiri-rights-proposed-forest-area",
+    "niyamgiri-rights-villages-deciding-against",
+    "niyamgiri-rights-rayagada-villages",
+    "niyamgiri-rights-kalahandi-villages"
+  ]
+}

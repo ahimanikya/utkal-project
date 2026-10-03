@@ -267,3 +267,7 @@ AppendicesI–XI text reviewed and selected arithmetic reconciled; do not repeat
 ## DMF planning and desk milestone · 3 October 2026
 
 RES-053 defined desk deliverable complete. Next eligible task RES-054: mine environments, rights, safety and restoration. Retry original/current service records and unresolved source conflicts9–10October; royalty/auction split remains a separate follow-up. Reuse saved CAG chapters and do not re-count their figures.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Niyamgiri rights checkpoint saved; do not repeat court/Parliament captures. Next: one site-specific monitoring/restoration study using saved IBM Kodingamali and Baphlimali records, followed by regulator safety/closure evidence. Original Niyamgiri resolutions/later Ministry order retry10October.

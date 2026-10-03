@@ -205,3 +205,7 @@ Works-collection and quarry-demand observations now held from headline use. Valu
 ## DMF planning and desk milestone · 3 October 2026
 
 Planning evidence supports a qualified historical allocation story; current service delivery not established. Six district shares andadverse villagecoverage retained. Unresolved Table4.1/approval assertions held. No humanreview orwebsitepublication.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Niyamgiri rights narrative is source-checked research, with reported village decisions separated from judicial directions and current permission. Humaneditorialreview and websitepublication not claimed.

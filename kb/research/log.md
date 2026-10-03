@@ -450,3 +450,7 @@ RES-053: AppendixI–XI text reviewed, selected totals reconciled; eight existin
 ## DMF planning and desk milestone · 3 October 2026
 
 RES-053 defined desk deliverable completed: fullChapterIV and governmentresponses;19new scoped observations,23total project/programme cases. Six district allocation shares andadversecoverage evidence retained; conflicts quarantined. NextRES-054. No websitepublication.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+RES-054 started: Niyamgiri court and Parliament originals, four scoped observations, one rights case. Judicial directions, minister-reported decisions and unresolved original minutes separated. Monitoring/safety/restoration remain incomplete. No websitepublication.

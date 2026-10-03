@@ -66,3 +66,7 @@ The IBM value comparison uses nominal reported production values, not real GSVA 
 ## Allocation is one stage of the story · 3 October 2026
 
 [DMF planning evidence](../economy/dmf-from-funds-to-services.md) adds six district high-priority allocation shares, including Sundargarh87.58% and Jajpur45.49% forFY2015–16 toFY2023–24. Allocation is not spending or service delivery. Village coverage uses the two-district historical audit sample; precise Table4.1 comparisons and meeting chronology remain held.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Four scoped observations distinguish proposed forest area from reported village decisions. No statewide vote, deforestation or restoration total is inferred. [Read the dated case](../economy/niyamgiri-rights-and-mining.md).

@@ -434,3 +434,7 @@ Read fullChapterIV planning and institutional arrangements with government respo
 ## DMF planning and desk milestone · 3 October 2026
 
 DefinedRES-053 desk scope complete, not all evidence gaps closed. NewTable4.1 scope/denominator, mapping/meeting chronology andallocation precision questions retained with10Octoberretry. Current project records retain9Octoberretry; royalty/auction split separatefollow-up.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved. Original minutes, attendance and later order retry10October; no currentlegal-status inference.

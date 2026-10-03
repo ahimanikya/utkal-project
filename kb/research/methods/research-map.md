@@ -409,3 +409,7 @@ Existing CAG source reused across body/appendices; eight observations enriched r
 ## DMF planning and desk milestone · 3 October 2026
 
 FullChapterIV joined to existingCAGsource andAppendicesVIII/IX. Sukrangi housing distinct fromKusumundia Mankedia colony. Existing fund totals reused; newallocation/coverage measures scoped. No new independent corroboration.
+
+## Niyamgiri rights checkpoint · 3 October 2026
+
+Niyamgiri proposed mine now has a separate canonical identity; court directions and parliamentary report serve different evidence roles. Baphlimali and the two refineries remain distinct. Existing source records reused for futuremonitoring work.

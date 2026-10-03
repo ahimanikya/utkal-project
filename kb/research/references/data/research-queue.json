@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T12:39:25.107567+00:00",
+  "updated_at": "2026-10-03T13:36:01.706450+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3097,29 +3097,60 @@
       "title": "Mine environments, rights, safety and restoration",
       "done_when": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
       "target": "economy/mining.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-019"
       ],
-      "last_worked_at": null,
-      "next_step": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-03T13:36:01.706450+00:00",
+      "next_step": "Niyamgiri rights checkpoint saved; do not repeat court/Parliament captures. Next: one site-specific monitoring/restoration study using saved IBM Kodingamali and Baphlimali records, followed by regulator safety/closure evidence. Original Niyamgiri resolutions/later Ministry order retry10October.",
+      "evidence_outputs": [
+        "economy/niyamgiri-rights-and-mining.md",
+        "references/data/mining-environment-rights.json",
+        "sources/mining-niyamgiri-sc2013.md",
+        "sources/mining-niyamgiri-rs2015.md"
+      ],
       "retry_after": null,
-      "blocker": null,
-      "attempt_history": [],
+      "blocker": "Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-03-niyamgiri-rights",
+          "at": "2026-10-03T13:36:01.706450+00:00",
+          "outcome": "niyamgiri_primary_rights_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Monitoring, mine safety and measured restoration case studies remain; Niyamgiri original resolutions/later order unresolved."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "economy/mining.md",
           "statistics/minerals-and-mining.md",
           "references/data/mining-programme.json",
-          "statistics/air-quality.md"
+          "statistics/air-quality.md",
+          "economy/niyamgiri-rights-and-mining.md",
+          "references/data/mining-environment-rights.json",
+          "sources/mining-niyamgiri-sc2013.md",
+          "sources/mining-niyamgiri-rs2015.md",
+          "economy/bauxite-mine-identities.md",
+          "sources/mining-ibm-kodingamali2024.md",
+          "sources/mining-baphlimali-ec-sep2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "evidence_followups": [
+        {
+          "topic": "Niyamgiri original resolutions and later Ministry order",
+          "retry_after": "2026-10-10",
+          "gap": "Original signed minutes, attendance, village-selection basis and later Ministry forest-clearance order not recovered; subsequent case history unreviewed.",
+          "source_ids": [
+            "mining-niyamgiri-sc2013",
+            "mining-niyamgiri-rs2015"
+          ]
+        }
+      ]
     },
     {
       "id": "RES-055",
