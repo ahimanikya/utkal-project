@@ -18646,6 +18646,84 @@
       "source_ids": [
         "mining-baphlimali-formv2025"
       ]
+    },
+    {
+      "id": "sources/mining-immt-history",
+      "title": "CSIR-IMMT institutional history",
+      "kind": "Institutional Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-immt-history.md",
+      "project_path": "kb/research/sources/mining-immt-history.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-immt-history"
+      ]
+    },
+    {
+      "id": "sources/mining-immt-pib2020",
+      "title": "CSIR-IMMT celebrates its 57th Foundation Day",
+      "kind": "Institutional Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-immt-pib2020.md",
+      "project_path": "kb/research/sources/mining-immt-pib2020.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-immt-pib2020"
+      ]
+    },
+    {
+      "id": "sources/mining-immt-sujana-technologies",
+      "title": "M.G. Sujana: institutional profile and technology flowsheets",
+      "kind": "Institutional Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-immt-sujana-technologies.md",
+      "project_path": "kb/research/sources/mining-immt-sujana-technologies.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-immt-sujana-technologies"
+      ]
+    },
+    {
+      "id": "sources/mining-immt-pib2025",
+      "title": "Critical-mineral pilot facilities inaugurated at CSIR-IMMT",
+      "kind": "Institutional Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-immt-pib2025.md",
+      "project_path": "kb/research/sources/mining-immt-pib2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-immt-pib2025"
+      ]
+    },
+    {
+      "id": "economy/minerals-research-immt",
+      "title": "From RRL to IMMT: Odisha’s mineral-research story",
+      "kind": "Research Collection",
+      "layer": "source_research_record",
+      "source_path": "economy/minerals-research-immt.md",
+      "project_path": "kb/research/economy/minerals-research-immt.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "economy",
+        "history",
+        "people",
+        "nature"
+      ],
+      "source_ids": [
+        "mining-immt-history",
+        "mining-immt-pib2020",
+        "mining-immt-sujana-technologies",
+        "mining-immt-pib2025"
+      ]
     }
   ],
   "shared_publications": [
@@ -19872,12 +19950,19 @@
         "references/data/mining-programme.json",
         "journeys/rare-earths.md",
         "people/people-and-creations.md",
-        "history/index.md"
+        "history/index.md",
+        "sources/mining-immt-history.md",
+        "sources/mining-immt-pib2020.md",
+        "sources/mining-immt-sujana-technologies.md",
+        "sources/mining-immt-pib2025.md",
+        "economy/minerals-research-immt.md",
+        "references/data/mining-research-innovation.json"
       ],
       "project_records": [],
       "remaining_scope": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
       "status_unchanged": "pending",
-      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series."
+      "instruction": "Mining-specific deliverable; reuse broader economic task outputs rather than collect competing canonical series.",
+      "status_at_extension": "in_progress"
     },
     {
       "task_id": "RES-056",
@@ -20058,8 +20143,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1246,
-    "updated_at": "2026-10-03T16:38:34.364560+00:00",
+    "records_mapped": 1251,
+    "updated_at": "2026-10-03T21:39:55.313303+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20703,6 +20788,11 @@
       "run_id": "2026-10-03-baphlimali-monitoring",
       "at": "2026-10-03T16:38:34.364560+00:00",
       "scope": "Existing Baphlimali identity and ASI/EC sources extended; one absent FormV original added. Production/area series not duplicated; three existing area holds retained."
+    },
+    {
+      "run_id": "2026-10-03-mineral-research",
+      "at": "2026-10-03T21:39:55.313303+00:00",
+      "scope": "Absent IMMT institutional identity and research-stage evidence added; reused rare-earth journey, no duplicate production series."
     }
   ]
 }

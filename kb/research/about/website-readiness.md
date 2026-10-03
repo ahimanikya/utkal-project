@@ -221,3 +221,7 @@ Bharatpur is a source-checked historical safety case, with current risk, final i
 ## Baphlimali monitoring and recovery checkpoint · 3 October 2026
 
 Water/waste figures are attributed company claims. Air concentration comparison, survival denominator, planting unit and priority classification remain held; no current-compliance or recovery headline. No human review or website release.
+
+## Mineral research checkpoint · 3 October 2026
+
+IMMT history and research-stage page is a source-checked draft. No commercial-output, current-availability or regional-identity inference; human review and public release not claimed.

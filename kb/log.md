@@ -471,3 +471,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · Baphlimali monitoring and recovery checkpoint
 
 [Research receipt](records/baphlimali-monitoring-2026-10-03.json): The existing mine study connects reported water/waste handling with audit findings and held measurement/recovery claims. Original tables and denominators remain gaps; RES-054 deferred, independent RES-055 next. No website release.
+
+## 3 October 2026 · Mineral-research checkpoint
+
+[Research receipt](records/mineral-research-2026-10-03.json): IMMT history connects mineral science with dated bench-scale and pilot stages. RES-055 remains in progress; commercial outcomes and mining-town histories remain open. No website release.

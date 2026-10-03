@@ -1,0 +1,44 @@
+---
+type: "Research Collection"
+title: "From RRL to IMMT: Odisha’s mineral-research story"
+description: "From RRL to IMMT: Odisha’s mineral-research story — scoped sources and unresolved evidence."
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-10-03T21:39:55.313303+00:00"}
+sources: [{"id": "mining-immt-history", "title": "CSIR-IMMT institutional history", "resource": "https://www.immt.res.in/index.php"}, {"id": "mining-immt-pib2020", "title": "CSIR-IMMT celebrates its 57th Foundation Day", "resource": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1662752"}, {"id": "mining-immt-sujana-technologies", "title": "M.G. Sujana: institutional profile and technology flowsheets", "resource": "https://www.immt.res.in/environment-sustainability/department-environment-sustainability"}, {"id": "mining-immt-pib2025", "title": "Critical-mineral pilot facilities inaugurated at CSIR-IMMT", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2145626"}]
+human_review_claimed: false
+subjects: ["economy", "history", "people", "nature"]
+---
+
+# From RRL to IMMT: Odisha’s mineral-research story
+
+**Bhubaneswar has a mineral-research lineage dating to 1964.** CSIR’s Regional Research Laboratory opened on 13 April 1964 and became IMMT on 13 April 2007. [Institute history](https://www.immt.res.in/index.php); [PIB background, 2020](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1662752).
+
+The public story is how Odisha connects mineral resources with scientific capability. Historical research, pilot facilities and market-ready businesses need separate evidence.
+
+## What has reached which stage?
+
+| Work | Source date or table year | Documented stage |
+| --- | --- | --- |
+| Lithium and cobalt from spent batteries | 2025 table row | Bench testing and flowsheet development; institution reports TRL 5 |
+| Alumina and other valuables from fly ash | 2019 table row; undated update | Bench validation; institution reports TRL 5, with pilot testing described as the next step |
+| PMN Phase II, vertical-shaft pilot plant and Sustainable Recycling Centre | 17 July 2025 | Inauguration reported |
+| Marine biomanufacturing collaboration with DBT-ILS | 17 July 2025 | Foundation stone laid |
+| Platinum-group-metal pilot with Odisha Mining Corporation | 17 July 2025 | Described as upcoming |
+
+[Institutional technology table](https://www.immt.res.in/environment-sustainability/department-environment-sustainability); [PIB facilities release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2145626). TRL is the source’s technology-readiness label, not a production quantity. The technology page’s “commercialized” heading does not override its bench-scale descriptions. No throughput, recovery rate, sales, jobs or current operating status is established here.
+
+## Credit the people and distinguish the partners
+
+The technology page is **M.G. Sujana’s institutional profile**, although its URL resembles a department page. It records work at RRL from 1992 and research on industrial residues and water treatment. It lists Excel Industries as funder of the battery process and NALCO for the fly-ash process. This credits documented professional association; it does not establish sole invention, Odia identity or birth in Odisha. [Profile and table](https://www.immt.res.in/environment-sustainability/department-environment-sustainability).
+
+The fly-ash row mentions rare-earth enrichment in a residue. That does not establish a commercial rare-earth product. The separate [rare-earth journey](../journeys/rare-earths.md) connects processing history with emerging materials research while keeping laboratory results, plant capacity and realised output distinct.
+
+## A route for entrepreneurs to investigate
+
+PIB’s 2020 account records a DSIR-supported hub for new materials and chemical processes, intended to support MSMEs and startups. Its existence offers a research lead; present eligibility, fees, licences, access and scale-up economics require fresh confirmation. [Historical hub account](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1662752).
+
+[Science and contributions](../people/science-and-contributions.md) connects institutional work with credited people without inferring regional identity from employment.
+
+[Mining](mining.md) connects research capability with the wider mineral economy without counting laboratory work as industrial production.
+
+[Structured evidence](../references/data/mining-research-innovation.json) preserves project stages, partners and unknown commercial outcomes. Next: documented mining-town histories, additional named contributions, and later evidence of pilot operation. Human editorial review remains pending.

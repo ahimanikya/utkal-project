@@ -466,3 +466,7 @@ RES-054 checkpoint: two primary PDFs, three event-count observations and one Bha
 ## Baphlimali monitoring and recovery checkpoint · 3 October 2026
 
 RES-054 checkpoint: one new FormV source, two extended originals, seven observations and three enhanced area holds. Access failures, audit findings and measurement ambiguities retained; task incomplete and deferred to10October. Independent RES-055 is next.
+
+## Mineral research checkpoint · 3 October 2026
+
+RES-055 in progress: institutional history, four primary sources and nine dated stage records saved. Technology descriptions override broad commercialization heading. Town histories and later outcomes remain; no website release.

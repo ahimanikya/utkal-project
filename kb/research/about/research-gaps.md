@@ -450,3 +450,7 @@ Measured monitoring and closure/recovery study incomplete; original safety inqui
 ## Baphlimali monitoring and recovery checkpoint · 3 October 2026
 
 Recover readable laboratory annexures with sampling dates/stations/averaging, original closure instruments, survival cohort/method, corrected planting unit and TNFD priority basis. FormV/EC binary downloadsHTTP406 and screenshotscachemiss; preserve raw claims as held. Retry10October; continue independent RES-055 meanwhile.
+
+## Mineral research checkpoint · 3 October 2026
+
+RES-055: mining-town histories, research-team credit and later pilot outcomes remain. Technology-page invalid date excluded; retry 10 October. A failed CRTDH history fetch was replaced with a readable PIB history source, not called unchanged.

@@ -4625,6 +4625,18 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/minerals-research-immt",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "history",
+        "people",
+        "nature"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6902,6 +6914,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects mine monitoring with air-quality statistics while preserving station coverage, averaging periods and incompatible units."
+    },
+    {
+      "from": "economy/minerals-research-immt",
+      "to": "journeys/rare-earths",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "connects processing history with emerging materials research while keeping laboratory results, plant capacity and realised output distinct."
+    },
+    {
+      "from": "economy/minerals-research-immt",
+      "to": "people/science-and-contributions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "connects institutional work with credited people without inferring regional identity from employment."
+    },
+    {
+      "from": "economy/minerals-research-immt",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "connects research capability with the wider mineral economy without counting laboratory work as industrial production."
     }
   ],
   "relationship_types": {

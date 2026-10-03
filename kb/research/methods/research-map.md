@@ -425,3 +425,7 @@ New Bharatpur event identity links two government accounts. Same fatal event cou
 ## Baphlimali monitoring and recovery checkpoint · 3 October 2026
 
 Baphlimali canonical mine page enhanced. New FormV linked with existing ASI/EC; repeated company production/rehabilitation values not treated as independent evidence.
+
+## Mineral research checkpoint · 3 October 2026
+
+Searched source and repository research for IMMT/RRL before addition. One canonical institutional page, four sources and a stage dataset added; related rare-earth, mining and science records reused. This is a scoped map extension, not exhaustive deduplication.

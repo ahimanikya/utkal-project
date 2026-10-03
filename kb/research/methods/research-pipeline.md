@@ -283,3 +283,7 @@ Bharatpur event checkpoint saved; do not duplicate the two government accounts o
 ## Baphlimali monitoring and recovery checkpoint · 3 October 2026
 
 RES-054 checkpoint deferred to10October for original monitoring tables, closure instruments and recovery denominators. Reuse new FormV and extended ASI/EC scope. Next independent eligible task RES-055: mining-town histories, mineral research and future materials; keep current technology/project stages separate.
+
+## Mineral research checkpoint · 3 October 2026
+
+Continue RES-055 with source-backed mining-town history and named mineral-research contributions; reuse the new IMMT record and existing rare-earth journey. Seek later pilot outcomes only within dated scope; do not infer commercialisation from inauguration.

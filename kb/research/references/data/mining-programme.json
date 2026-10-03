@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T16:38:34.364560+00:00",
+  "updated_at": "2026-10-03T21:39:55.313303+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2354,6 +2354,14 @@
     "observations_enhanced": 3,
     "new_sources": 1,
     "reused_sources": 2,
+    "completion_criteria_met": false
+  },
+  "research_innovation_checkpoint": {
+    "run_id": "2026-10-03-mineral-research",
+    "task_id": "RES-055",
+    "dataset": "references/data/mining-research-innovation.json",
+    "stage_records": 9,
+    "new_sources": 4,
     "completion_criteria_met": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T16:38:34.364560+00:00",
+  "updated_at": "2026-10-03T21:39:55.313303+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3203,18 +3203,33 @@
       "title": "Mining history and future-materials research",
       "done_when": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
       "target": "economy/mining.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-020"
       ],
-      "last_worked_at": null,
-      "next_step": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-03T21:39:55.313303+00:00",
+      "next_step": "Continue RES-055 with source-backed mining-town history and named mineral-research contributions; reuse the new IMMT record and existing rare-earth journey. Seek later pilot outcomes only within dated scope; do not infer commercialisation from inauguration.",
+      "evidence_outputs": [
+        "sources/mining-immt-history.md",
+        "sources/mining-immt-pib2020.md",
+        "sources/mining-immt-sujana-technologies.md",
+        "sources/mining-immt-pib2025.md",
+        "economy/minerals-research-immt.md",
+        "references/data/mining-research-innovation.json"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-03-mineral-research",
+          "at": "2026-10-03T21:39:55.313303+00:00",
+          "outcome": "institutional_history_and_research_stage_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Mining-town histories, wider credited teams and verified later pilot outcomes remain."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "economy/mining.md",
@@ -3222,7 +3237,13 @@
           "references/data/mining-programme.json",
           "journeys/rare-earths.md",
           "people/people-and-creations.md",
-          "history/index.md"
+          "history/index.md",
+          "sources/mining-immt-history.md",
+          "sources/mining-immt-pib2020.md",
+          "sources/mining-immt-sujana-technologies.md",
+          "sources/mining-immt-pib2025.md",
+          "economy/minerals-research-immt.md",
+          "references/data/mining-research-innovation.json"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

@@ -47,3 +47,7 @@ The corporate page’s approximate 11,000-tonne description and the plant page�
 [^journey-rare-corridor]: [Parliament question: rare earth corridors](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247969&lang=2&reg=3)
 
 [^weekly-rare-aug2026]: [Ministry of Science and Technology, 11 August 2026](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297681&lang=2&reg=3)
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](../economy/minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.

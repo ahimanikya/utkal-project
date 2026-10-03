@@ -121,3 +121,7 @@ Kodingamali now links reported environmental work to the mine-output story. The 
 ## Baphlimali monitoring checkpoint · 3 October 2026
 
 [The existing mine study](bauxite-mine-identities.md) now distinguishes reported water/waste handling from held pollutant comparisons, audit findings and rehabilitation claims. Site figures are not district air-quality or ecological-recovery measures.
+
+## Mineral-research connections · 3 October 2026
+
+[From RRL to IMMT](minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.
