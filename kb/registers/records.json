@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-03T13:36:12.489673+00:00",
+  "recorded_at": "2026-10-03T13:50:09.269445+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4356,19 +4356,20 @@
       "id": "UTP-WORK-151",
       "title": "Global Connections section and Indian-city comparison",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-171",
-      "next_action": "Finish publication checks and deliver the section; retain BMC register and activity verification as future work.",
+      "next_action": "Section published. Future work: obtain complete BMC register, verify proposals and recent activity, then seek approval for partner outreach.",
       "blockers": [],
       "refs": [
         "UTP-DEC-171",
-        "UTP-REV-129"
+        "UTP-REV-129",
+        "UTP-REL-057"
       ],
       "evidence": [
         "records/global-connections-2026-10-03.json"
@@ -11825,6 +11826,22 @@
         "records/mining-evidence-followup-2026-10-03.json"
       ],
       "note": "PR70 merged after CI passed. Four source records extend existing cases; groundwater row/total conflict retained, all956 atlas observations unchanged. Research only; no public story publication or claim that RES-054 is complete."
+    },
+    {
+      "id": "UTP-REL-057",
+      "title": "Global Connections section published",
+      "status": "published",
+      "authorization": "UTP-DEC-171",
+      "destination": "https://utkalproject.org/global-connections/",
+      "refs": [
+        "UTP-DEC-171",
+        "UTP-WORK-151",
+        "UTP-REV-129"
+      ],
+      "evidence": [
+        "records/global-connections-2026-10-03.json"
+      ],
+      "note": "PR71 merged after CI passed; Pages deployment succeeded. Six-city comparison and entry links verified live. Eleven-route search sitemap preserved; new section remains noindex, follow. Separate initiative and external commitments deferred."
     }
   ],
   "sources": [
