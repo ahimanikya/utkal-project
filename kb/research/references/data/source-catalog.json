@@ -6306,7 +6306,15 @@
     "locator": "Printed pp.1–3,28 (PDF pp.5–7,32)",
     "capture_note": "Applicant-authored proposed expansion. Existing Barsua rail connection to Rourkela is described in p.28; future capacities, costs and additional jobs are proposals. No current shipment quantity, expansion commissioning or contemporary workforce verified.",
     "capture_method": "downloaded_pdf_selected_sections",
-    "capture_sha256": "1a70e36d9295967cf494e2e3e24fd4d2046dcb1508aad3f9e16c6c580c316c5e"
+    "capture_sha256": "1a70e36d9295967cf494e2e3e24fd4d2046dcb1508aad3f9e16c6c580c316c5e",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-03",
+        "run_id": "2026-10-03-mining-town-history",
+        "locator": "Printed p.1 (PDF p.5)",
+        "scope": "Saved original report reused for ML130 grant6January1960 and ML162 grant29April1960; applicant-reported historical grants, not proof of current permission."
+      }
+    ]
   },
   "mining-rsp-ec-march2026": {
     "id": "mining-rsp-ec-march2026",
@@ -6563,5 +6571,53 @@
     "capture_method": "original_publisher_html",
     "capture_note": "Dated inauguration, foundation and development claims; no commercial output or 2026 operating inference.",
     "capture_sha256": "2fb979a183eff49e85ef49950d43c515949064601eaac23a1377b726a78b3586"
+  },
+  "mining-dhenkanal-census1961": {
+    "id": "mining-dhenkanal-census1961",
+    "title": "Census of India 1961: Dhenkanal District Census Handbook",
+    "resource": "https://censusindia.gov.in/nada/index.php/catalog/29109/download/32290/21930_1961_DHE.pdf",
+    "publisher": "Superintendent of Census Operations, Orissa; published by Orissa Government Press",
+    "published_on": "1966",
+    "accessed_on": "2026-10-03",
+    "locator": "PDF pp.3,25,74,365; printed pp.4,53,342 Table39",
+    "capture_method": "original_publisher_download_selected_sections",
+    "capture_sha256": "a3c2a71335d387139d573c38dfd996ebc6e3be8d36a152ffad9065cfec0934bc",
+    "capture_note": "Complete 633-page file recovered by resumed download. Selected text and all four relevant page images inspected. Census vintage1961, publication1966; historical district boundaries. Table39 credits Directorate of Mines; p.4 credits adapted GSI notes. Underlying notes/lease deeds not independently retrieved."
+  },
+  "mining-talcher-mcl2019": {
+    "id": "mining-talcher-mcl2019",
+    "title": "Annual Environmental Monitoring Report of Talcher Coalfields, 2018–19",
+    "resource": "https://www.mahanadicoal.in/Environment/pdf/ANNUAL%20REPORT%202018-19%20Talcher.pdf",
+    "publisher": "CMPDI Regional Institute VII; hosted by MCL",
+    "published_on": null,
+    "accessed_on": "2026-10-03",
+    "locator": "PDF pp.1–3; printed p.1, History of Exploration",
+    "capture_method": "original_publisher_download_selected_sections",
+    "capture_sha256": "7162ccea650b9843258abca79a2a5a01575b8dc210e838867a4c97232e61a46a",
+    "capture_note": "Complete 459-page file recovered after resumed download; only cover, contents and historical introduction read. No monitoring tables reviewed. Retrospective history, not original nineteenth-century archive."
+  },
+  "mining-parvati-rebuild2018": {
+    "id": "mining-parvati-rebuild2018",
+    "title": "Rebuilt Blast Furnace-1 Parvati blown in",
+    "resource": "https://www.sail.co.in/en/sail-news/rebuilt-blast-furnace-1-parvati-sail-rourkela-steel-plant-blown",
+    "publisher": "SAIL",
+    "published_on": "2018-05-08",
+    "accessed_on": "2026-10-03",
+    "locator": "Publication time element; opening and historical paragraphs",
+    "capture_method": "original_publisher_download_selected_sections",
+    "capture_sha256": "fa3055eaccd887ff0dc4e497ae6882e5e0dee2eea52497ee74ebd8837a10ff9e",
+    "capture_note": "HTML datetime resolves displayed 05/08/2018 as 8 May. Original firing, dedication and rebuilding are separate events; forecast capacity is not output."
+  },
+  "mining-sail-history": {
+    "id": "mining-sail-history",
+    "title": "SAIL background and history",
+    "resource": "https://www.sail.co.in/en/company/background-history",
+    "publisher": "SAIL",
+    "published_on": null,
+    "accessed_on": "2026-10-03",
+    "locator": "The Precursor; Expanding Horizon (1959–1973)",
+    "capture_method": "original_publisher_download_selected_sections",
+    "capture_sha256": "835c349f64309cf7be9822f9a09b3796f10eb563641990710a68643d8efee2b7",
+    "capture_note": "Original HTML inspected; company retrospective. HSL group quantities must not be assigned to Rourkela."
   }
 }

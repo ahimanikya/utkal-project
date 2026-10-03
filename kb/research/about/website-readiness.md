@@ -225,3 +225,7 @@ Water/waste figures are attributed company claims. Air concentration comparison,
 ## Mineral research checkpoint · 3 October 2026
 
 IMMT history and research-stage page is a source-checked draft. No commercial-output, current-availability or regional-identity inference; human review and public release not claimed.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+Historical town/plant chronology is source-checked draft material. It establishes neither current operations nor visitor access, household benefits or current permission. No human review or website release.

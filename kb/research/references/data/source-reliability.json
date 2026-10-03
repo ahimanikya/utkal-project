@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T21:39:55.313303+00:00",
+  "updated_at": "2026-10-03T22:45:02.059182+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6355,6 +6355,71 @@
       "reason": "Web fetch timeout; direct fetch certificate verification failed. Certificate checks retained; no claim sourced from this failed fetch. Renaming verified through PIB 2020 instead.",
       "run_id": "2026-10-03-mineral-research",
       "checked_at": "2026-10-03T21:39:55.313303+00:00"
+    },
+    {
+      "source_id": "mining-sail-history",
+      "url": "https://www.sail.co.in/en/company/background-history",
+      "status": "available",
+      "scope": "The Precursor; Expanding Horizon (1959–1973)",
+      "capture_sha256": "835c349f64309cf7be9822f9a09b3796f10eb563641990710a68643d8efee2b7",
+      "retrieval_history": "Initial web/direct fetch failed; complete verified-TLS system download succeeded. Partial downloads were not used as complete evidence.",
+      "run_id": "2026-10-03-mining-town-history",
+      "checked_at": "2026-10-03T22:45:02.059182+00:00"
+    },
+    {
+      "source_id": "mining-parvati-rebuild2018",
+      "url": "https://www.sail.co.in/en/sail-news/rebuilt-blast-furnace-1-parvati-sail-rourkela-steel-plant-blown",
+      "status": "available",
+      "scope": "Publication time element; opening and historical paragraphs",
+      "capture_sha256": "fa3055eaccd887ff0dc4e497ae6882e5e0dee2eea52497ee74ebd8837a10ff9e",
+      "retrieval_history": "Initial web/direct fetch failed; complete verified-TLS system download succeeded. Partial downloads were not used as complete evidence.",
+      "run_id": "2026-10-03-mining-town-history",
+      "checked_at": "2026-10-03T22:45:02.059182+00:00"
+    },
+    {
+      "source_id": "mining-talcher-mcl2019",
+      "url": "https://www.mahanadicoal.in/Environment/pdf/ANNUAL%20REPORT%202018-19%20Talcher.pdf",
+      "status": "available",
+      "scope": "PDF pp.1–3; printed p.1, History of Exploration",
+      "capture_sha256": "7162ccea650b9843258abca79a2a5a01575b8dc210e838867a4c97232e61a46a",
+      "retrieval_history": "Initial web/direct fetch failed; complete verified-TLS system download succeeded. Partial downloads were not used as complete evidence.",
+      "run_id": "2026-10-03-mining-town-history",
+      "checked_at": "2026-10-03T22:45:02.059182+00:00"
+    },
+    {
+      "source_id": "mining-dhenkanal-census1961",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/29109/download/32290/21930_1961_DHE.pdf",
+      "status": "available",
+      "scope": "PDF pp.3,25,74,365; printed pp.4,53,342 Table39",
+      "capture_sha256": "a3c2a71335d387139d573c38dfd996ebc6e3be8d36a152ffad9065cfec0934bc",
+      "retrieval_history": "Initial web/direct fetch failed; complete verified-TLS system download succeeded. Partial downloads were not used as complete evidence.",
+      "run_id": "2026-10-03-mining-town-history",
+      "checked_at": "2026-10-03T22:45:02.059182+00:00"
+    },
+    {
+      "url": "https://angul.odisha.gov.in/sites/default/files/2023-05/2019081444.pdf",
+      "status": "unavailable",
+      "reason": "Web502 and direct DNS failure; indexed discovery snippet only. Its Handidhua1921/Deulbera1927 opening claims are not adopted as verified production dates.",
+      "retry_after": "2026-10-10",
+      "run_id": "2026-10-03-mining-town-history",
+      "checked_at": "2026-10-03T22:45:02.059182+00:00"
+    },
+    {
+      "url": "https://www.pib.gov.in/newsite/printrelease.aspx?lang=2&reg=3&relid=179891",
+      "status": "unavailable",
+      "reason": "Web fetch failed; no claim sourced from this page. SAIL original release used instead.",
+      "retry_after": "2026-10-10",
+      "run_id": "2026-10-03-mining-town-history",
+      "checked_at": "2026-10-03T22:45:02.059182+00:00"
+    },
+    {
+      "source_id": "mining-btk-pfr2021",
+      "url": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf",
+      "status": "saved_capture_reused",
+      "scope": "Printed p.1, historical lease dates",
+      "capture_sha256": "1a70e36d9295967cf494e2e3e24fd4d2046dcb1508aad3f9e16c6c580c316c5e",
+      "run_id": "2026-10-03-mining-town-history",
+      "checked_at": "2026-10-03T22:45:02.059182+00:00"
     }
   ]
 }

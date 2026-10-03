@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T21:39:55.313303+00:00",
+  "updated_at": "2026-10-03T22:45:02.059182+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2362,6 +2362,15 @@
     "dataset": "references/data/mining-research-innovation.json",
     "stage_records": 9,
     "new_sources": 4,
+    "completion_criteria_met": false
+  },
+  "town_history_checkpoint": {
+    "run_id": "2026-10-03-mining-town-history",
+    "task_id": "RES-055",
+    "dataset": "references/data/mining-place-history.json",
+    "historical_events": 17,
+    "new_sources": 4,
+    "reused_sources": 1,
     "completion_criteria_met": false
   }
 }

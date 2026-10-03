@@ -429,3 +429,7 @@ Baphlimali canonical mine page enhanced. New FormV linked with existing ASI/EC; 
 ## Mineral research checkpoint · 3 October 2026
 
 Searched source and repository research for IMMT/RRL before addition. One canonical institutional page, four sources and a stage dataset added; related rare-earth, mining and science records reused. This is a scoped map extension, not exhaustive deduplication.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+Reused Rourkela chain, IMMT and BTK source. Added Talcher identity and four original publisher records; chronology event meanings preserved. This is a scoped extension, not exhaustive deduplication.

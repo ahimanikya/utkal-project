@@ -470,3 +470,7 @@ RES-054 checkpoint: one new FormV source, two extended originals, seven observat
 ## Mineral research checkpoint · 3 October 2026
 
 RES-055 in progress: institutional history, four primary sources and nine dated stage records saved. Technology descriptions override broad commercialization heading. Town histories and later outcomes remain; no website release.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+RES-055 checkpoint: Talcher and Rourkela histories connected, four new sources and one saved source reused; seventeen typed historical events. Census vintage1961 and publication1966 separated. Full task remains in progress.

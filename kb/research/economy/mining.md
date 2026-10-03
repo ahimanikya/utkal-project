@@ -125,3 +125,7 @@ Kodingamali now links reported environmental work to the mine-output story. The 
 ## Mineral-research connections · 3 October 2026
 
 [From RRL to IMMT](minerals-research-immt.md) adds institutional history, a named researcher’s professional connection, and dated battery, fly-ash and pilot-facility stages. The evidence does not establish commercial output or current availability.
+
+## Mining-place history · 3 October 2026
+
+[Talcher’s historical chronology](talcher-coal-history.md) distinguishes town, coalfield, lease and production dates. The existing Rourkela record now separates furnace firing, dedication and capacity-phase completion. Historical boundaries and unresolved social-history gaps remain explicit.

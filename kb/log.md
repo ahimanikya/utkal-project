@@ -475,3 +475,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · Mineral-research checkpoint
 
 [Research receipt](records/mineral-research-2026-10-03.json): IMMT history connects mineral science with dated bench-scale and pilot stages. RES-055 remains in progress; commercial outcomes and mining-town histories remain open. No website release.
+
+## 3 October 2026 · Mining-place history checkpoint
+
+[Research receipt](records/mining-town-history-2026-10-03.json): Talcher and Rourkela histories distinguish lease, production, furnace firing and dedication. Social-history and scientific-credit work remains; RES-055 in progress. No website release.

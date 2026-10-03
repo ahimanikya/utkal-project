@@ -4,7 +4,7 @@ title: "Rourkela: ore, steel and the evidence for work"
 description: "Rourkela: ore, steel and the evidence for work — dated evidence, relationships and limits."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-02T14:47:52.786173+00:00"}
-sources: [{"id": "mining-sail-ar2026", "title": "SAIL Annual Report 2025–26", "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf"}, {"id": "mining-rsp-ec-march2026", "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026", "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf"}, {"id": "mining-btk-pfr2021", "title": "Barsua–Taldih–Kalta expansion pre-feasibility report, June 2021", "resource": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf"}, {"id": "mining-rsp-parliament-2015", "title": "SAIL plant manpower and contract workers: Rajya Sabha answer 1184, 6 May 2015", "resource": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf"}]
+sources: [{"id": "mining-sail-ar2026", "title": "SAIL Annual Report 2025–26", "resource": "https://www.sail.co.in/sites/default/files/2026-09/Annual%20Report%20-%202025-26.pdf"}, {"id": "mining-rsp-ec-march2026", "title": "Rourkela Steel Plant EC implementation, October 2025–March 2026", "resource": "https://sail.co.in/sites/default/files/steel-plants/2026-06/5_%20RSPs%20implementation%20status%20of%20conditions%20of%20EC%20received%20for%20HM%204.855%20MTPA%20Proejct%20other%20new%20projects%20Oct.%2C2025%20-%20March%2C%202026.pdf"}, {"id": "mining-btk-pfr2021", "title": "Barsua–Taldih–Kalta expansion pre-feasibility report, June 2021", "resource": "https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf"}, {"id": "mining-rsp-parliament-2015", "title": "SAIL plant manpower and contract workers: Rajya Sabha answer 1184, 6 May 2015", "resource": "https://steel.gov.in/sites/default/files/2025-04/ru1184.pdf"}, {"id": "mining-sail-history", "title": "SAIL background and history", "resource": "https://www.sail.co.in/en/company/background-history"}, {"id": "mining-parvati-rebuild2018", "title": "Rebuilt Blast Furnace-1 Parvati blown in", "resource": "https://www.sail.co.in/en/sail-news/rebuilt-blast-furnace-1-parvati-sail-rourkela-steel-plant-blown"}]
 subjects: ["economy", "places", "everyday", "governance"]
 human_review_claimed: false
 ---
@@ -64,3 +64,17 @@ Direct/contract employment, local-supplier purchases and shipment quantities rem
 | Contract workers: total |9,067|
 
 The two contract components sum to the contract total; they must not be added again. This is a historical snapshot, not current employment or 9,067 newly created jobs. It gives no local-resident share. The 2026 health-check table has a different purpose and cannot provide a valid employment trend from this baseline. Current plant workforce, contractor definitions and local supplier spending remain unresolved.
+
+## Historical milestones: plant, furnace and mine · 3 October 2026
+
+**Rourkela’s first furnace was fired before its ceremonial dedication.** SAIL dates Parvati’s first blowing-in to 24 January 1959 and its dedication by President Rajendra Prasad to 3 February 1959. Its 2018 account records the rebuilt furnace’s blowing-in on 8 May 2018. These are distinct milestones, not three versions of one date. [SAIL release](https://www.sail.co.in/en/sail-news/rebuilt-blast-furnace-1-parvati-sail-rourkela-steel-plant-blown).
+
+SAIL’s history places Hindustan Steel’s formation on 19 January 1954, completion of Rourkela’s first 1 MT phase by December 1961, and commissioning of the Tandem Mill—the last unit of the 1.8 MT phase—in February 1968. These describe corporate formation and capacity-phase completion, not annual output. [SAIL history](https://www.sail.co.in/en/company/background-history).
+
+The saved 2021 mine report adds ML130’s original grant on 6 January 1960 and ML162’s on 29 April 1960. These are applicant-reported grant dates; neither establishes mining start, present permission or lease fulfilment. The existing Barsua rail-route evidence above supplies the documented mine-to-plant connection. [Printed p.1](https://environmentclearance.nic.in/writereaddata/Online/TOR/28_Jun_2021_17124567022642313PFRjune2021.pdf).
+
+[Talcher history](talcher-coal-history.md) connects two industrial histories while preserving coalfield, town, lease and plant-event distinctions.
+
+[IMMT research](minerals-research-immt.md) connects industrial history with later laboratory and pilot stages without assigning research results to steel-plant production.
+
+Current household benefits, worker-settlement histories and displacement outcomes require their own sources. Institutional retrospectives do not replace community testimony or archival land records. [Dated evidence](../references/data/mining-place-history.json).

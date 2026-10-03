@@ -287,3 +287,7 @@ RES-054 checkpoint deferred to10October for original monitoring tables, closure 
 ## Mineral research checkpoint · 3 October 2026
 
 Continue RES-055 with source-backed mining-town history and named mineral-research contributions; reuse the new IMMT record and existing rare-earth journey. Seek later pilot outcomes only within dated scope; do not infer commercialisation from inauguration.
+
+## Talcher and Rourkela history checkpoint · 3 October 2026
+
+Continue RES-055 with credited mineral scientists and technology contributions using existing IMMT and science identities; seek later pilot outcomes only where original evidence exists. Town social histories and unresolved historical attribution/unit questions remain follow-ups; retry source-specific gaps10October.
