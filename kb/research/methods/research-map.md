@@ -417,3 +417,7 @@ Niyamgiri proposed mine now has a separate canonical identity; court directions 
 ## Kodingamali environmental-work checkpoint · 3 October 2026
 
 Existing mine identity and original IBM source extended; no new duplicate source or production observations. Seven absent work-output fields captured; two rehabilitation holds preserved.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+New Bharatpur event identity links two government accounts. Same fatal event counted once; mine code and Angul/Talcher geography retained. Saved production and mining pages reused.

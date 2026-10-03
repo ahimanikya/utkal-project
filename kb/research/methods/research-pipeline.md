@@ -275,3 +275,7 @@ Niyamgiri rights checkpoint saved; do not repeat court/Parliament captures. Next
 ## Kodingamali environmental-work checkpoint · 3 October 2026
 
 Kodingamali saved IBM environmental work captured without duplicating mine identity or production. Next: one regulator mine-safety/accident or closure case with explicit period and denominator; then Baphlimali measured monitoring. Kodingamali original monitoring/PMCP/cost records and Niyamgiri originals retry 10 October.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+Bharatpur event checkpoint saved; do not duplicate the two government accounts or infer current safety. Next: Baphlimali measured monitoring and closure/restoration evidence using saved sources. DGMS original alert/final inquiry, Kodingamali monitoring/PMCP and Niyamgiri original records retry10October.

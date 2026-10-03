@@ -1,7 +1,7 @@
 {
   "edition": "1.3.0",
   "okf_version": "0.2",
-  "generated_at": "2026-10-03T14:37:24.315461+00:00",
+  "generated_at": "2026-10-03T15:37:46.393833+00:00",
   "concept_count": 1069,
   "unique_source_urls": 516,
   "source_records": 538,
@@ -85,13 +85,13 @@
     "statewide_realised_total_established": false
   },
   "statistical_atlas": {
-    "observations": 1138,
+    "observations": 1141,
     "topic_groups": 47,
     "district_banking_snapshots": 30,
     "calculations": 47,
     "source_capture_records_added": 44,
     "publication_readiness": {
-      "source_checked_editorial_review_pending": 965,
+      "source_checked_editorial_review_pending": 968,
       "needs_source_table_review": 91,
       "hold_conflict": 82
     },
@@ -160,8 +160,8 @@
     "cadence": "Every six hours",
     "discovery_feed_records": 18,
     "monitoring_tracks_mapped": 17,
-    "last_run_id": "2026-10-03-kodingamali-environment",
-    "last_run_status": "kodingamali_environment_checkpoint",
+    "last_run_id": "2026-10-03-bharatpur-safety",
+    "last_run_status": "bharatpur_safety_checkpoint",
     "in_progress_task": "RES-054",
     "next_task": "RES-054",
     "task_status_counts": {
@@ -513,6 +513,14 @@
       "observations_added": 7,
       "observations_enhanced": 2,
       "reused_sources": 1,
+      "completion_criteria_met": false
+    },
+    "bharatpur_safety_checkpoint": {
+      "run_id": "2026-10-03-bharatpur-safety",
+      "task_id": "RES-054",
+      "dataset": "references/data/mining-environment-rights.json",
+      "observations_added": 3,
+      "new_sources": 2,
       "completion_criteria_met": false
     }
   },

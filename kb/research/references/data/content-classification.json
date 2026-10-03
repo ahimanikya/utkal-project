@@ -4613,6 +4613,18 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/bharatpur-mine-safety",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "governance",
+        "economy",
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6869,6 +6881,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects reported mine planting with forest measurement while keeping planting counts distinct from survival, forest cover and ecological recovery."
+    },
+    {
+      "from": "economy/bharatpur-mine-safety",
+      "to": "economy/mining",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a dated worker-safety event with the broader mining economy without inferring current risk from output."
+    },
+    {
+      "from": "economy/bharatpur-mine-safety",
+      "to": "statistics/coal-production",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Keeps tonnes produced separate from people harmed and the exposure data needed for safety rates."
     }
   ],
   "relationship_types": {

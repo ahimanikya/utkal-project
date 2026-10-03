@@ -18584,6 +18584,54 @@
         "mining-niyamgiri-sc2013",
         "mining-niyamgiri-rs2015"
       ]
+    },
+    {
+      "id": "sources/mining-coal-safety-agenda2020",
+      "title": "Agenda note for the 44th meeting of the Standing Committee on Safety in Coal Mines, 12 February 2020",
+      "kind": "Primary Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-coal-safety-agenda2020.md",
+      "project_path": "kb/research/sources/mining-coal-safety-agenda2020.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-coal-safety-agenda2020"
+      ]
+    },
+    {
+      "id": "sources/mining-rs-accidents835-2023",
+      "title": "Rajya Sabha Unstarred Question 835: Accidents in coal mines, 11 December 2023",
+      "kind": "Primary Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-rs-accidents835-2023.md",
+      "project_path": "kb/research/sources/mining-rs-accidents835-2023.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-rs-accidents835-2023"
+      ]
+    },
+    {
+      "id": "economy/bharatpur-mine-safety",
+      "title": "Bharatpur: working lives and mine-safety evidence",
+      "kind": "Research Collection",
+      "layer": "source_research_record",
+      "source_path": "economy/bharatpur-mine-safety.md",
+      "project_path": "kb/research/economy/bharatpur-mine-safety.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "everyday",
+        "governance",
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "mining-coal-safety-agenda2020",
+        "mining-rs-accidents835-2023"
+      ]
     }
   ],
   "shared_publications": [
@@ -19789,7 +19837,10 @@
         "sources/mining-niyamgiri-rs2015.md",
         "economy/bauxite-mine-identities.md",
         "sources/mining-ibm-kodingamali2024.md",
-        "sources/mining-baphlimali-ec-sep2025.md"
+        "sources/mining-baphlimali-ec-sep2025.md",
+        "sources/mining-coal-safety-agenda2020.md",
+        "sources/mining-rs-accidents835-2023.md",
+        "economy/bharatpur-mine-safety.md"
       ],
       "project_records": [],
       "remaining_scope": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
@@ -19992,8 +20043,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1242,
-    "updated_at": "2026-10-03T13:36:01.706450+00:00",
+    "records_mapped": 1245,
+    "updated_at": "2026-10-03T15:37:46.393833+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20627,6 +20678,11 @@
       "run_id": "2026-10-03-kodingamali-environment",
       "at": "2026-10-03T14:37:24.315461+00:00",
       "scope": "Extended existing Kodingamali identity and IBM source with seven absent environmental-work fields; source reused, not independent corroboration. Production series not duplicated. Existing rehabilitation holds retained."
+    },
+    {
+      "run_id": "2026-10-03-bharatpur-safety",
+      "at": "2026-10-03T15:37:46.393833+00:00",
+      "scope": "New Bharatpur safety case after saved research and available repository-native search found no matching case. Two primary publication IDs, one accident identity; no independent inquiry claimed."
     }
   ]
 }

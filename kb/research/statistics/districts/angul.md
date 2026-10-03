@@ -31,3 +31,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Connected industrial evidence
 
 [NALCO’s Odisha-based supplier purchases](../../stories/minerals-and-local-suppliers.md) add a state-level enterprise connection. They are not allocated to this district.
+
+## Worker-safety evidence · 3 October 2026
+
+[The Bharatpur case](../../economy/bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.

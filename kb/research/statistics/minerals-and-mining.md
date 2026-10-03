@@ -74,3 +74,7 @@ Four scoped observations distinguish proposed forest area from reported village 
 ## Kodingamali environmental work · 3 October 2026
 
 Seven dated work-output observations extend the existing mine identity; two rehabilitation observations remain held. Plantation counts, area categories and monitoring outcomes remain distinct. [Read the mine study](../economy/bauxite-mine-identities.md).
+
+## Worker-safety evidence · 3 October 2026
+
+[The Bharatpur case](../economy/bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.

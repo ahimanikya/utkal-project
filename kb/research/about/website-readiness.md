@@ -213,3 +213,7 @@ Niyamgiri rights narrative is source-checked research, with reported village dec
 ## Kodingamali environmental-work checkpoint · 3 October 2026
 
 Kodingamali historical work counts are source-checked candidates. No survival, clean-air or ecological-recovery claim is ready from these rows. Local validation and Git review do not constitute website publication.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+Bharatpur is a source-checked historical safety case, with current risk, final inquiry and implemented recommendations unverified. No human review or website release.

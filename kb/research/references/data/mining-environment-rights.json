@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T14:37:24.315461+00:00",
-  "run_id": "2026-10-03-kodingamali-environment",
-  "scope": "Selected Odisha mine-related environment, rights, safety and restoration evidence. Historical Niyamgiri rights case and Kodingamali annual-work inspection; not a complete site or permission inventory.",
+  "updated_at": "2026-10-03T15:37:46.393833+00:00",
+  "run_id": "2026-10-03-bharatpur-safety",
+  "scope": "Selected historical Odisha mine cases: rights, reported environmental work and worker safety. Not a complete current mine/permission inventory.",
   "sites": [
     {
       "id": "niyamgiri-proposed-bauxite",
@@ -186,6 +186,60 @@
         "No completed mine closure or restoration percentage from backfilled/rehabilitated categories.",
         "No assumption that historical operating conditions remain current."
       ]
+    },
+    {
+      "id": "bharatpur-opencast-safety",
+      "title": "Bharatpur opencast mine:23July2019 accident",
+      "canonical_page": "economy/bharatpur-mine-safety.md",
+      "mine_code": "010687",
+      "operator": "Mahanadi Coalfields Limited",
+      "districts": [
+        "angul"
+      ],
+      "geography_scope": "Talcher Coalfields, Angul, as identified in agenda p.51; not Bharatpur district in Rajasthan.",
+      "source_ids": [
+        "mining-coal-safety-agenda2020",
+        "mining-rs-accidents835-2023"
+      ],
+      "evidence_class": "government_published_operator_account_and_parliamentary_report",
+      "event_date": "2019-07-23",
+      "event_time_as_reported": "22:30, third shift",
+      "location_as_reported": "North Quarry floor of Coal SeamII",
+      "observation_ids": [
+        "bharatpur-safety-fatalities",
+        "bharatpur-safety-people-at-worksite",
+        "bharatpur-safety-escaped-rescued"
+      ],
+      "event_reconciliation": {
+        "people_at_immediate_worksite": 13,
+        "escaped_and_rescued": 9,
+        "fatalities": 4,
+        "formula": "9 + 4 = 13",
+        "scope": "Event narrative only; not annual workforce exposure, injury distribution or rate."
+      },
+      "reported_mechanism": "Coal barrier retaining an old overburden dump collapsed; source says specialised geotechnical study needed for conclusive understanding.",
+      "recommendations_status": "Historical recommendations, implementation unknown",
+      "recommendation_themes": [
+        "Site-specific slope/high-wall scientific study",
+        "Recorded slope monitoring and inspections",
+        "Drainage and dump formation controls",
+        "Dump stability in principal-hazard planning"
+      ],
+      "cause_and_liability_status": "Final DGMS inquiry and adjudicated liability not retrieved",
+      "rescue_timeline": {
+        "first_body_recovered": "2019-07-24",
+        "second_and_third_bodies_recovered": "2019-07-26",
+        "fourth_body_recovered": "2019-08-05",
+        "source_locator": "Agenda p.52",
+        "scope": "Reported recovery of people, not ecological restoration."
+      },
+      "current_permission_status": "unknown",
+      "current_operation_status": "unknown",
+      "current_safety_status": "unknown",
+      "monitoring_outcomes": null,
+      "closure_or_ecological_recovery": null,
+      "independence_note": "Two government publications can share operator data. Fatality observation stored once.",
+      "omitted_scope": "Personal names and individual compensation details not reproduced; no compensation settlement or injury total inferred."
     }
   ],
   "source_checks": [
@@ -237,6 +291,43 @@
         "https://ospcboard.odisha.gov.in/wp-content/plugins/hearing/uploads/files_1650720787_151141108.pdf"
       ],
       "retry_after": "2026-10-10"
+    },
+    {
+      "source_id": "mining-coal-safety-agenda2020",
+      "url": "https://www.coal.nic.in/sites/default/files/2020-09/Annexure11022020.pdf",
+      "status": "available",
+      "retrieval_history": [
+        {
+          "method": "web_open",
+          "status": "unavailable",
+          "reason": "Cache miss"
+        },
+        {
+          "method": "authorized_network_download",
+          "status": "available",
+          "sha256": "cd6c1fd2c59c2da876641a41a2d9bc78a6f86d10609fa39680508586689add35"
+        }
+      ],
+      "scope": "86-page original downloaded. Targeted pp.51–53 text read; pp.51–52 visually checked. CIL account in government agenda, not a final DGMS inquiry or proof of recommendations implemented."
+    },
+    {
+      "source_id": "mining-rs-accidents835-2023",
+      "url": "https://sansad.in/getFile/annex/262/AU835.pdf?source=pqars",
+      "status": "available",
+      "sha256": "1e867ee5a758bdacaf3b2851efcce0c43e3d8205d8a90fc880e865113990cf07",
+      "scope": "Original PDF downloaded; answer context and specific Bharatpur row read, row visually checked. Same fatal event as agenda, counted once; common reporting lineage possible, no independent investigation claimed."
+    },
+    {
+      "url": "https://www.dgms.gov.in/UserView?mid=1362",
+      "status": "unavailable",
+      "reason": "Web fetch timed out; direct download timed out after45seconds with no content. Search index identifies Safety Alert07/2019 but full alert not retrieved.",
+      "retry_after": "2026-10-10"
+    },
+    {
+      "url": "https://www.dgms.gov.in/writereaddata/UploadFile/sanket0404_2024.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch timed out; indexed table not used as verified evidence.",
+      "retry_after": "2026-10-10"
     }
   ],
   "evidence_gaps": [
@@ -254,6 +345,11 @@
       "topic": "Kodingamali readings, area categories and watch/care ledger",
       "retry_after": "2026-10-10",
       "gap": "Obtain monitoring annexures with samples/limits, original PMCP category definitions and cost ledger. Saved IBM report lacks measured pollutant/survival outcomes; hearing/consent search leads remain unverified."
+    },
+    {
+      "topic": "Bharatpur final inquiry and verified corrective actions",
+      "retry_after": "2026-10-10",
+      "gap": "DGMS alert/index and historical table unavailable; recover original alert07/2019, final inquiry, restriction/reopening orders and verified corrective-action records. Comparable exposure data absent."
     }
   ],
   "human_review_claimed": false,
@@ -269,6 +365,9 @@
     "kodingamali-environment-topsoil-proposed",
     "kodingamali-environment-saplings-year",
     "kodingamali-environment-plantation-baseline",
-    "kodingamali-environment-plants-cumulative"
+    "kodingamali-environment-plants-cumulative",
+    "bharatpur-safety-fatalities",
+    "bharatpur-safety-people-at-worksite",
+    "bharatpur-safety-escaped-rescued"
   ]
 }

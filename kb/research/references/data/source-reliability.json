@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T14:37:24.315461+00:00",
+  "updated_at": "2026-10-03T15:37:46.393833+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6228,6 +6228,51 @@
       "retry_after": "2026-10-10",
       "run_id": "2026-10-03-kodingamali-environment",
       "checked_at": "2026-10-03T14:37:24.315461+00:00"
+    },
+    {
+      "source_id": "mining-coal-safety-agenda2020",
+      "url": "https://www.coal.nic.in/sites/default/files/2020-09/Annexure11022020.pdf",
+      "status": "available",
+      "retrieval_history": [
+        {
+          "method": "web_open",
+          "status": "unavailable",
+          "reason": "Cache miss"
+        },
+        {
+          "method": "authorized_network_download",
+          "status": "available",
+          "sha256": "cd6c1fd2c59c2da876641a41a2d9bc78a6f86d10609fa39680508586689add35"
+        }
+      ],
+      "scope": "86-page original downloaded. Targeted pp.51–53 text read; pp.51–52 visually checked. CIL account in government agenda, not a final DGMS inquiry or proof of recommendations implemented.",
+      "run_id": "2026-10-03-bharatpur-safety",
+      "checked_at": "2026-10-03T15:37:46.393833+00:00"
+    },
+    {
+      "source_id": "mining-rs-accidents835-2023",
+      "url": "https://sansad.in/getFile/annex/262/AU835.pdf?source=pqars",
+      "status": "available",
+      "sha256": "1e867ee5a758bdacaf3b2851efcce0c43e3d8205d8a90fc880e865113990cf07",
+      "scope": "Original PDF downloaded; answer context and specific Bharatpur row read, row visually checked. Same fatal event as agenda, counted once; common reporting lineage possible, no independent investigation claimed.",
+      "run_id": "2026-10-03-bharatpur-safety",
+      "checked_at": "2026-10-03T15:37:46.393833+00:00"
+    },
+    {
+      "url": "https://www.dgms.gov.in/UserView?mid=1362",
+      "status": "unavailable",
+      "reason": "Web fetch timed out; direct download timed out after45seconds with no content. Search index identifies Safety Alert07/2019 but full alert not retrieved.",
+      "retry_after": "2026-10-10",
+      "run_id": "2026-10-03-bharatpur-safety",
+      "checked_at": "2026-10-03T15:37:46.393833+00:00"
+    },
+    {
+      "url": "https://www.dgms.gov.in/writereaddata/UploadFile/sanket0404_2024.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch timed out; indexed table not used as verified evidence.",
+      "retry_after": "2026-10-10",
+      "run_id": "2026-10-03-bharatpur-safety",
+      "checked_at": "2026-10-03T15:37:46.393833+00:00"
     }
   ]
 }

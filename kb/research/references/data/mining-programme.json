@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T14:37:24.315461+00:00",
+  "updated_at": "2026-10-03T15:37:46.393833+00:00",
   "run_id": "2026-10-01-mining-programme",
   "angles": [
     {
@@ -2336,6 +2336,14 @@
     "observations_added": 7,
     "observations_enhanced": 2,
     "reused_sources": 1,
+    "completion_criteria_met": false
+  },
+  "bharatpur_safety_checkpoint": {
+    "run_id": "2026-10-03-bharatpur-safety",
+    "task_id": "RES-054",
+    "dataset": "references/data/mining-environment-rights.json",
+    "observations_added": 3,
+    "new_sources": 2,
     "completion_criteria_met": false
   }
 }

@@ -463,3 +463,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · Kodingamali environmental-work checkpoint
 
 [Research receipt](records/kodingamali-environment-2026-10-03.json): The existing mine identity gains planting, backfill and topsoil figures from the saved original. Scope and cost ambiguities are retained. RES-054 continues with safety and measured recovery. No website release.
+
+## 3 October 2026 · Bharatpur worker-safety checkpoint
+
+[Research receipt](records/bharatpur-safety-2026-10-03.json): One dated accident identity connects the Ministry agenda and parliamentary row. Same event counted once; recommendations are distinct from implemented corrective action. RES-054 continues with monitoring and closure. No website release.

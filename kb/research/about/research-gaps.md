@@ -442,3 +442,7 @@ Monitoring, mine safety and measured restoration case studies remain; Niyamgiri 
 ## Kodingamali environmental-work checkpoint · 3 October 2026
 
 Site monitoring readings, safety and measured ecological recovery remain incomplete; Kodingamali category/cost scope unresolved. Readings, survival/species, original PMCP/cost ledger follow-up 10 October; safety/closure work remains eligible now.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+Measured monitoring and closure/recovery study incomplete; original safety inquiry and action verification unresolved. DGMS routes timed out; original records retry10October. No missing record treated as unchanged or zero.

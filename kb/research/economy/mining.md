@@ -113,3 +113,7 @@ Community and religious rights are part of the mining evidence alongside finance
 ## Kodingamali environmental work · 3 October 2026
 
 Kodingamali now links reported environmental work to the mine-output story. The historical inspection provides planting/backfilling figures, while measured ecological recovery remains unknown. [Read the mine study](bauxite-mine-identities.md).
+
+## Worker-safety evidence · 3 October 2026
+
+[The Bharatpur case](bharatpur-mine-safety.md) adds a historical accident account. Its four deaths and immediate-worksite population describe one event; they cannot establish a statewide accident rate, present safety status or implemented corrective action.

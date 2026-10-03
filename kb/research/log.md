@@ -458,3 +458,7 @@ RES-054 started: Niyamgiri court and Parliament originals, four scoped observati
 ## Kodingamali environmental-work checkpoint · 3 October 2026
 
 RES-054 checkpoint: reused saved IBM original, visually checked pp.5–7, added seven work/plantation observations and enhanced two held rehabilitation records. Retained cost/category ambiguities and unknown monitoring outcomes. Task remains in progress; no website release.
+
+## Bharatpur safety checkpoint · 3 October 2026
+
+RES-054 checkpoint: two primary PDFs, three event-count observations and one Bharatpur safety case. Recommendations remain separate from implementation; DGMS fetch failures and original-inquiry retry preserved. Monitoring and closure evidence still pending.

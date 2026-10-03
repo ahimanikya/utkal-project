@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T14:37:24.315461+00:00",
+  "updated_at": "2026-10-03T15:37:46.393833+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3098,21 +3098,25 @@
       "done_when": "Create scoped site studies from monitoring, primary rights/consent decisions, safety and closure records. Preserve dates, sample populations, disputed positions and measured recovery versus approvals.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-019"
       ],
-      "last_worked_at": "2026-10-03T14:37:24.315461+00:00",
-      "next_step": "Kodingamali saved IBM environmental work captured without duplicating mine identity or production. Next: one regulator mine-safety/accident or closure case with explicit period and denominator; then Baphlimali measured monitoring. Kodingamali original monitoring/PMCP/cost records and Niyamgiri originals retry10October.",
+      "last_worked_at": "2026-10-03T15:37:46.393833+00:00",
+      "next_step": "Bharatpur event checkpoint saved; do not duplicate the two government accounts or infer current safety. Next: Baphlimali measured monitoring and closure/restoration evidence using saved sources. DGMS original alert/final inquiry, Kodingamali monitoring/PMCP and Niyamgiri original records retry10October.",
       "evidence_outputs": [
         "economy/niyamgiri-rights-and-mining.md",
         "references/data/mining-environment-rights.json",
         "sources/mining-niyamgiri-sc2013.md",
-        "sources/mining-niyamgiri-rs2015.md"
+        "sources/mining-niyamgiri-rs2015.md",
+        "sources/mining-coal-safety-agenda2020.md",
+        "sources/mining-rs-accidents835-2023.md",
+        "economy/bharatpur-mine-safety.md",
+        "economy/bauxite-mine-identities.md"
       ],
       "retry_after": null,
-      "blocker": "Site monitoring readings, safety and measured ecological recovery remain incomplete; Kodingamali category/cost scope unresolved.",
+      "blocker": "Measured monitoring and closure/recovery study incomplete; original safety inquiry and action verification unresolved.",
       "attempt_history": [
         {
           "run_id": "2026-10-03-niyamgiri-rights",
@@ -3127,6 +3131,13 @@
           "outcome": "kodingamali_environmental_work_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Site monitoring readings, safety and measured ecological recovery remain incomplete; Kodingamali category/cost scope unresolved."
+        },
+        {
+          "run_id": "2026-10-03-bharatpur-safety",
+          "at": "2026-10-03T15:37:46.393833+00:00",
+          "outcome": "bharatpur_safety_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Measured monitoring and closure/recovery study incomplete; original safety inquiry and action verification unresolved."
         }
       ],
       "reuse_before_research": {
@@ -3141,7 +3152,10 @@
           "sources/mining-niyamgiri-rs2015.md",
           "economy/bauxite-mine-identities.md",
           "sources/mining-ibm-kodingamali2024.md",
-          "sources/mining-baphlimali-ec-sep2025.md"
+          "sources/mining-baphlimali-ec-sep2025.md",
+          "sources/mining-coal-safety-agenda2020.md",
+          "sources/mining-rs-accidents835-2023.md",
+          "economy/bharatpur-mine-safety.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -3161,6 +3175,11 @@
           "topic": "Kodingamali readings, area categories and watch/care ledger",
           "retry_after": "2026-10-10",
           "gap": "Obtain monitoring annexures with samples/limits, original PMCP category definitions and cost ledger. Saved IBM report lacks measured pollutant/survival outcomes; hearing/consent search leads remain unverified."
+        },
+        {
+          "topic": "Bharatpur final inquiry and verified corrective actions",
+          "retry_after": "2026-10-10",
+          "gap": "DGMS alert/index and historical table unavailable; recover original alert07/2019, final inquiry, restriction/reopening orders and verified corrective-action records. Comparable exposure data absent."
         }
       ]
     },
