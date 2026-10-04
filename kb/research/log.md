@@ -500,3 +500,7 @@ Added 97 annual observations to seven 15-year series with14 matched interval cal
 ## 4 October 2026 · Investment implementation evidence
 
 Added three project identities, six dated stage events and three non-additive financial observations. IMFA reports purchase payment of ₹707.27 crore; asset transfer separated from construction. RES-016 remains in progress; NALCO project case next.
+
+## 4 October 2026 · NALCO implementation checkpoint
+
+Added3 project identities,5 stage events,5 project financial observations and3 company accounting observations. Preserved changing schedules and adverse aggregate CWIP. Project cash expenditure remains unknown; retry11 October, then independent RES-017 next.

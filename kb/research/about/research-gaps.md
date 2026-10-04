@@ -470,3 +470,7 @@ Seven 15-year series and14 matched5/10-year comparisons saved. Original PDF/work
 ## 4 October 2026 · Investment implementation checkpoint
 
 One IMFA cluster now distinguishes asset transfer, unimplemented expansion and greenfield construction. Payment bridge, plant-specific new construction spending, actual commissioning and jobs remain unknown; public-sector cohort next.
+
+## 4 October 2026 · NALCO expenditure boundary
+
+Project estimates and a CWIP expense component are captured, but full project cash spending and current commissioning remain unknown. RES-016 retries11 October; independent RES-017 next.

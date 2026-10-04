@@ -5,7 +5,7 @@ description: "Investment in Odisha — domestic and foreign capital — scope, e
 tags: ["investment", "growth", "monitoring"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:48:44-07:00"}
-sources: [{"id": "investment-survey-full-2026", "title": "Odisha Economic Survey 2025–26, section 5.1.3", "resource": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"}, {"id": "investment-survey-summary-2026", "title": "Odisha Economic Survey 2025–26, executive summary: industrial investment and capital outlay", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}, {"id": "investment-tata-imfa-agreement", "title": "Tata Steel: asset transfer agreement for Jajpur ferro alloy plant", "resource": "https://www.tatasteel.com/media/24981/tata-steel-limited-press-release.pdf"}, {"id": "investment-tata-imfa-completion", "title": "Tata Steel: completed sale of Jajpur ferro alloy plant to IMFA", "resource": "https://www.tatasteel.com/media/25494/bsense.pdf"}, {"id": "mining-imfa-ar2026", "title": "IMFA Annual Report 2025–26", "resource": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"}, {"id": "mining-imfa-knr2-2026", "title": "Environmental Clearance for the Ferro Alloy Plant (Submerged Arc Furnace 4x16.5 MVA) at Kanchrigaon & Chandia, Tehsil Sukinda, District Jajpur, Odisha, from M/s. Tata Steel Ltd to M/s. Indian Metals & Ferro Alloys Limited (IMFA)", "resource": "https://www.imfa.in/api/pdf/IA_OR_IND1_04092026.pdf/IA_OR_IND_1_04092026_a1432f31b5.pdf"}]
+sources: [{"id": "investment-survey-full-2026", "title": "Odisha Economic Survey 2025–26, section 5.1.3", "resource": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"}, {"id": "investment-survey-summary-2026", "title": "Odisha Economic Survey 2025–26, executive summary: industrial investment and capital outlay", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}, {"id": "investment-tata-imfa-agreement", "title": "Tata Steel: asset transfer agreement for Jajpur ferro alloy plant", "resource": "https://www.tatasteel.com/media/24981/tata-steel-limited-press-release.pdf"}, {"id": "investment-tata-imfa-completion", "title": "Tata Steel: completed sale of Jajpur ferro alloy plant to IMFA", "resource": "https://www.tatasteel.com/media/25494/bsense.pdf"}, {"id": "mining-imfa-ar2026", "title": "IMFA Annual Report 2025–26", "resource": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"}, {"id": "mining-imfa-knr2-2026", "title": "Environmental Clearance for the Ferro Alloy Plant (Submerged Arc Furnace 4x16.5 MVA) at Kanchrigaon & Chandia, Tehsil Sukinda, District Jajpur, Odisha, from M/s. Tata Steel Ltd to M/s. Indian Metals & Ferro Alloys Limited (IMFA)", "resource": "https://www.imfa.in/api/pdf/IA_OR_IND1_04092026.pdf/IA_OR_IND_1_04092026_a1432f31b5.pdf"}, {"id": "investment-nalco-ar2025", "title": "NALCO 44th Annual Report 2024–25", "resource": "https://nalcoindia.com/wp-content/uploads/2025/09/44th-Annual-Report-2024-25-NALCO.pdf"}, {"id": "mining-nalco-ar2026", "title": "NALCO 45th Annual Report 2025–26", "resource": "https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf"}]
 ---
 
 # Investment in Odisha — domestic and foreign capital
@@ -79,3 +79,25 @@ The [IMFA company record](../economy/company-imfa.md) supplies the wider product
 Connects the named asset transfer to existing production and workforce evidence; those measures remain separate.
 
 Distinguishes a project-linked acquisition payment from company-wide capital expenditure.
+
+## Damanjodi: follow construction through to production
+
+**NALCO reports that phasewise trials and testing began in June 2026** for its fifth alumina-refinery stream. That is a documented implementation step; stable production remains a target in the captured FY 2025–26 report. The additional1 million-tonne annual capacity is planned capacity, not new output. [Annual report, printed pp. 12–14 / PDF 32–34](https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf).
+
+| Project identity | Earlier dated evidence | Later dated evidence |
+|---|---|---|
+| Damanjodi fifth stream | About75% progress at30 June 2025; January 2026 trials and April 2026 production targeted | Trials/testing began June 2026; production stabilisation targeted H2 FY 2026–27 |
+| South Block crushing/conveying | About89.5% progress at30 June 2025; April 2026 operation targeted | About93% at31 May 2026; October 2026 operation targeted |
+| Pottangi mine | Separate new bauxite source | MDO appointed9 December 2025; operation planned Q3 FY 2026–27 and production Q4 |
+
+The [2024–25 report, printed p. 18 / PDF 20](https://nalcoindia.com/wp-content/uploads/2025/09/44th-Annual-Report-2024-25-NALCO.pdf) and the later report preserve changing schedules from the same company. Trials began later than the older trial target; the production-start and production-stabilisation milestones have different meanings. Dates passing is not proof of completion. These three related assets have separate IDs; repeated announcements do not become extra projects.
+
+### A project estimate is not money already spent
+
+The refinery’s ₹5,677.4 crore projected expenditure remains an estimate. The conveyor’s estimated outlay is ₹483 crore in the older report and ₹496 crore in the later one; the inspected passages do not reconcile scope or price basis. Keep both vintages without calculating a like-for-like overrun.
+
+Standalone note 6.1 records ₹221.19 crore of directly attributable expenses included in refinery-expansion CWIP at31March2026, with ₹207.17 crore comparative. This is a component of capital work in progress, **not the whole project’s spending**. Neither its level nor its change is verified annual cash expenditure. Note 6.A.2 separately reports ₹4,664.84 crore for the combined mines/refinery category overdue or above original cost plans. That adverse aggregate cannot be assigned entirely to this expansion. [Notes, printed pp. 190–191 / PDF 210–211](https://nalcoindia.com/wp-content/uploads/2026/08/45th-Annual-Report-2025-26.pdf).
+
+Company capex, project estimates, asset purchases and CWIP balances remain separate, non-additive measures. New jobs, full project expenditure, financing origin and October operating status remain unknown. The attempted current releases-page fetch failed; it does not establish unchanged status.
+
+[The bauxite-to-aluminium chain](../economy/bauxite-to-aluminium.md) — Connects refinery implementation to its documented raw-material chain; this does not establish local business demand or commissioning.

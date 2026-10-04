@@ -461,3 +461,7 @@ Existing nominal atlas and manufacturing/construction observations reused; new h
 ## 4 October 2026 · Project-stage deduplication
 
 Reused IMFA annual-report and ministry captures; distinct KNR1, KNR2 and expansion IDs avoid same-place conflation. Seller agreement/closing releases are one transaction lineage.
+
+## 4 October 2026 · NALCO project and edition identity
+
+Added FY 2024–25 source identity; fifth stream, alternate conveyor and Pottangi are linked but distinct projects. Both reports share publisher lineage; estimates and CWIP components are not additive.

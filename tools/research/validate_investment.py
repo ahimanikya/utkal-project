@@ -32,4 +32,13 @@ check(green['stage_events'][-1]['stage']=='construction_reported','target dates 
 check(obs['IN05']['value']==610 and obs['IN06']['value']==707.27 and obs['IN07']['value']==25.03,'transaction amounts changed: revisit source and validator')
 check(all(obs[i]['unit']=='INR crore' for i in ['IN05','IN06','IN07']),'transaction unit mismatch')
 check(obs['IN07']['evidence_status']=='asset_acquisition_accounting','assumed working capital mislabeled cash payment')
+# NALCO project estimates and CWIP components must not become cash expenditure.
+nalco_ids=['NALCO-DAMANJODI-FIFTH-STREAM','NALCO-SOUTH-BLOCK-CONVEYOR','NALCO-POTTANGI-MINE']
+for pid in nalco_ids:check(pid in projects,pid+': identity missing')
+check(projects[nalco_ids[0]]['stage_events'][-1]['stage']=='trial_testing_reported','refinery trials promoted to commercial operation')
+check(projects[nalco_ids[1]]['stage_events'][-1]['stage']=='construction_reported','conveyor target promoted to operation')
+check(projects[nalco_ids[2]]['stage_events'][-1]['stage']=='development_operator_appointed','mine development appointment promoted to production')
+check(obs['IN09']['project_id']==obs['IN10']['project_id'],'conveyor estimate vintages split into duplicate projects')
+check(all(obs[i]['evidence_status']=='accounting_balance_component' and obs[i]['period_type']=='point_in_time' for i in ['IN11','IN12']),'CWIP component promoted to cash flow')
+check(obs['IN08']['evidence_status']=='projected_cost','refinery estimate promoted to expenditure')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','project_identities':len(projects),'financial_and_seed_observations':len(obs),'stage_events':len(events),'errors':errors},indent=2));raise SystemExit(bool(errors))

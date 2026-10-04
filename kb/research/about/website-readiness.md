@@ -241,3 +241,7 @@ Longer nominal and real growth stories exist as research drafts. Source table im
 ## 4 October 2026 · Investment story readiness
 
 A source-linked asset-acquisition example is ready for editorial review. It does not establish new statewide capital formation, current operation or a domestic/foreign financing split. No website publication.
+
+## 4 October 2026 · NALCO implementation evidence
+
+Refinery trial/testing and dated supply-project stages are source-checked for editorial review. Commercial operation, supplier demand, local jobs and realised project expenditure are not established; no website release.
