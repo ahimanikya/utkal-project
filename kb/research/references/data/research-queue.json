@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T08:34:31.103772+00:00",
+  "updated_at": "2026-10-04T09:36:32.915635+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1207,19 +1207,41 @@
       "title": "Sand art and other material arts",
       "done_when": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
       "target": "culture/index.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T09:36:32.915635+00:00",
+      "next_step": "Continue RES-032 with Tarakasi and palm-leaf engraving, then stone carving, dhokra and terracotta. Reuse this sand-art checkpoint; source recovery and award-body follow-ups are dated2026-10-11.",
+      "evidence_outputs": [
+        "sources/sand-tourism-newsletter2020.md",
+        "sources/sand-festival-rules2022.md",
+        "sources/sand-festival-rules2025.md",
+        "sources/sand-dda-workshop2022.md",
+        "sources/sand-puri-tiranga2025.md",
+        "sources/sand-festival-landing2025.md",
+        "sources/sand-weymouth-award-lead2025.md",
+        "references/data/material-arts.json",
+        "works/puri-tiranga-sand-2025.md",
+        "culture/sand-art.md",
+        "people/sudarsan-pattnaik.md",
+        "references/data/people-creations.json"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
         "source_records": [
           "culture/sand-art.md",
           "culture/cuttack-tarakasi.md",
-          "people/sudarsan-pattnaik.md"
+          "people/sudarsan-pattnaik.md",
+          "sources/sand-tourism-newsletter2020.md",
+          "sources/sand-festival-rules2022.md",
+          "sources/sand-festival-rules2025.md",
+          "sources/sand-dda-workshop2022.md",
+          "sources/sand-puri-tiranga2025.md",
+          "sources/sand-festival-landing2025.md",
+          "sources/sand-weymouth-award-lead2025.md",
+          "references/data/material-arts.json",
+          "works/puri-tiranga-sand-2025.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json",
@@ -1227,7 +1249,33 @@
         ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-sand-art-evidence",
+          "at": "2026-10-04T09:36:32.915635+00:00",
+          "outcome": "sand_art_events_work_and_fee_terms_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Five other material arts, named practitioners and dated work/recognition evidence."
+        }
+      ],
+      "follow_up_evidence": [
+        {
+          "topic": "Festival originals and outcome records",
+          "retry_after": "2026-10-11",
+          "needed": "Accessible original2019 report and2025 rules, dated artist roster, payments and first-edition archive."
+        },
+        {
+          "topic": "Other artist and award identities",
+          "retry_after": "2026-10-11",
+          "needed": "Manas Kumar Sahoo primary Odisha biography and work credits; original SandWorld award/citation, with prize label and date."
+        },
+        {
+          "topic": "Other material arts",
+          "retry_after": null,
+          "needed": "Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta: named makers, works, techniques and dated recognition; eligible next batch."
+        }
+      ]
     },
     {
       "id": "RES-013",

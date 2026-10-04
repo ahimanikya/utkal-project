@@ -205,3 +205,7 @@ Rice-market additions are source-linked editorial candidates. Seller claims are 
 ## Textile segments · 4 October 2026
 
 Textile segment and product-form additions are editorial candidates; no current stock, handmade export total or shipment asserted. No website release.
+
+## Sand-art checkpoint · 4 October 2026
+
+Sand-art records are editorial candidates. No current itinerary, artist booking, image licence, measured impact or website release. Participation rates and offered fees are not livelihoods.

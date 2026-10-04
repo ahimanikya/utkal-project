@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-04T09:36:32.915635+00:00",
+  "scope": "RES-032 checkpoint: sand art events, work attribution and historical participation terms. Other material arts remain unfinished.",
+  "human_review_claimed": false,
+  "events": [
+    {
+      "id": "sand-chandrabhaga2019",
+      "source_ids": [
+        "sand-tourism-newsletter2020"
+      ],
+      "geography": "Chandrabhaga, Odisha",
+      "period": "December2019",
+      "period_basis": "January2020 issue reviewing previous December; not a new2020 event",
+      "stage": "organizer_reported_outcome",
+      "artist_counts": [
+        {
+          "group": "India",
+          "value": 123,
+          "unit": "participating artists"
+        },
+        {
+          "group": "Each listed overseas country",
+          "value": 1,
+          "unit": "participating artist per country"
+        }
+      ],
+      "countries": [
+        "USA",
+        "Ireland",
+        "Denmark",
+        "Russia",
+        "Canada",
+        "Togo",
+        "Sri Lanka"
+      ],
+      "attendance": null,
+      "artist_payments": null,
+      "scope": "Nearby dance-festival audience figures do not measure sand-festival visitors. No growth series assembled from generic landing-page numbers."
+    },
+    {
+      "id": "sand-dda-azaadi2022",
+      "source_ids": [
+        "sand-dda-workshop2022"
+      ],
+      "geography": "Kalindi Aviral, Delhi",
+      "event_date": "2022-02-19",
+      "stage": "organizer_reported_workshop",
+      "credited_name": "Manas Kumar Sahoo",
+      "role": "workshop guide",
+      "participant_count": {
+        "value": 250,
+        "qualifier": "more_than",
+        "unit": "participants"
+      },
+      "odisha_origin_of_participants": null,
+      "training_outcomes": null,
+      "fees_paid": null,
+      "scope": "Participation count, not certified graduates, Odisha jobs or earnings. Odisha biographical connection needs separate identity evidence."
+    },
+    {
+      "id": "sand-chandrabhaga2025-planned",
+      "source_ids": [
+        "sand-festival-rules2025"
+      ],
+      "geography": "Chandrabhaga, Puri district",
+      "scheduled_dates": [
+        "2025-12-01",
+        "2025-12-05"
+      ],
+      "edition_label": "15th",
+      "stage": "published_invitation",
+      "actual_participants": null,
+      "actual_payments": null,
+      "event_outcome": null
+    }
+  ],
+  "terms": [
+    {
+      "id": "sand-2022-puri-rate",
+      "source_id": "sand-festival-rules2022",
+      "period": "2022 festival",
+      "geography": "Puri artist category",
+      "value": 6000,
+      "unit": "INR per artist per day",
+      "price_basis": "nominal historical invitation rate",
+      "stage": "offered_remuneration",
+      "accommodation": "not offered in this category",
+      "payment_evidence": null
+    },
+    {
+      "id": "sand-2022-other-rate",
+      "source_id": "sand-festival-rules2022",
+      "period": "2022 festival",
+      "geography": "artists other than Puri",
+      "value": 5000,
+      "unit": "INR per artist per day",
+      "price_basis": "nominal historical invitation rate",
+      "stage": "offered_remuneration",
+      "accommodation": "provided per rule",
+      "payment_evidence": null
+    },
+    {
+      "id": "sand-2022-outstate-rule",
+      "source_id": "sand-festival-rules2022",
+      "period": "2022 festival",
+      "geography": "outside Odisha artist category",
+      "value": 5000,
+      "unit": "INR per artist per day",
+      "days": 6,
+      "scope": "Separate overlapping clause; not an additional fee. Accommodation/food wording retained for reconciliation before any package-cost comparison.",
+      "stage": "offered_remuneration",
+      "payment_evidence": null
+    },
+    {
+      "id": "sand-2025-fee",
+      "source_id": "sand-festival-rules2025",
+      "period": "2025 scheduled festival",
+      "value": null,
+      "unit": "INR per artist",
+      "stage": "fee_to_be_communicated_after_selection",
+      "payment_evidence": null
+    }
+  ],
+  "techniques": [
+    {
+      "source_id": "sand-festival-rules2025",
+      "scope": "2025 competition rules only",
+      "requirements": [
+        "Sea-beach sand and water only",
+        "Hand tools; no machinery",
+        "New sculpture according to each daily organizer theme"
+      ],
+      "universal_art_form_definition": false
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "sand-festival-origin",
+      "source_ids": [
+        "sand-festival-landing2025",
+        "sand-festival-rules2022",
+        "sand-festival-rules2025"
+      ],
+      "status": "quarantined",
+      "claim": "Landing page says started2015; dated notices label2022 the12th and2025 the15th.",
+      "resolution": "Do not infer inauguration year from edition arithmetic or adopt2015 uncritically. Original first-edition records needed."
+    },
+    {
+      "id": "sand-generic-headcounts",
+      "source_ids": [
+        "sand-festival-landing2025",
+        "sand-tourism-newsletter2020"
+      ],
+      "status": "scope_not_comparable",
+      "resolution": "Landing-page generic numbers lack matched edition, roster and scope; no comparison with2019 report."
+    }
+  ],
+  "follow_up": [
+    {
+      "topic": "Festival originals and outcome records",
+      "retry_after": "2026-10-11",
+      "needed": "Accessible original2019 report and2025 rules, dated artist roster, payments and first-edition archive."
+    },
+    {
+      "topic": "Other artist and award identities",
+      "retry_after": "2026-10-11",
+      "needed": "Manas Kumar Sahoo primary Odisha biography and work credits; original SandWorld award/citation, with prize label and date."
+    },
+    {
+      "topic": "Other material arts",
+      "retry_after": null,
+      "needed": "Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta: named makers, works, techniques and dated recognition; eligible next batch."
+    }
+  ]
+}

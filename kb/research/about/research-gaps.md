@@ -434,3 +434,7 @@ Rice market follow-ups: obtain a matched producer-to-retail lot and origin-linke
 ## Textile segments · 4 October 2026
 
 Textile follow-up11 October 2026: origin-linked HS, destination, physical quantity, dated shipments and current maker availability. District revenue not maintained in parliamentary answer. No residual attributed to handicrafts.
+
+## Sand-art checkpoint · 4 October 2026
+
+Sand-art source/award recovery retry11October2026. Need original first-edition record, fee receipts, current artist-biography evidence and award-body citation. Direct tourism downloads failed; indexed captures retained. Other material arts are eligible now.

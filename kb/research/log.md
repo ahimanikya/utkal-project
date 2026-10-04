@@ -464,3 +464,7 @@ Completed RES-062 bounded distinctive-rice market dossier. Added four sources an
 ## Textile segments · 4 October 2026
 
 Completed RES-030: recovered28 values, mapped eight product forms, retained nominal garment decline and separate release vintages. No destination or quantity inferred.
+
+## Sand-art checkpoint · 4 October 2026
+
+RES-032 sand-art checkpoint: one dated Puri work,2019 festival participation,2022 Delhi workshop and historical fee terms. Origin chronology quarantined; remaining five material arts unfinished.

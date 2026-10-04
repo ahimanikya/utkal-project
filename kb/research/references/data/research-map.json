@@ -410,7 +410,14 @@
       ],
       "source_ids": [
         "creators-sand-state",
-        "creators-sand-iffi"
+        "creators-sand-iffi",
+        "sand-tourism-newsletter2020",
+        "sand-festival-rules2022",
+        "sand-festival-rules2025",
+        "sand-dda-workshop2022",
+        "sand-puri-tiranga2025",
+        "sand-festival-landing2025",
+        "sand-weymouth-award-lead2025"
       ]
     },
     {
@@ -3091,7 +3098,8 @@
       ],
       "source_ids": [
         "creators-sand-iffi",
-        "creators-sand-state"
+        "creators-sand-state",
+        "sand-puri-tiranga2025"
       ]
     },
     {
@@ -19168,6 +19176,121 @@
       "source_ids": [
         "textile-bargarh-products"
       ]
+    },
+    {
+      "id": "sources/sand-tourism-newsletter2020",
+      "title": "Odisha Unravelled — January 2020 festival report",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/sand-tourism-newsletter2020.md",
+      "project_path": "kb/research/sources/sand-tourism-newsletter2020.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "sand-tourism-newsletter2020"
+      ]
+    },
+    {
+      "id": "sources/sand-festival-rules2022",
+      "title": "International Sand Art Festival — national rules 2022",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/sand-festival-rules2022.md",
+      "project_path": "kb/research/sources/sand-festival-rules2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "sand-festival-rules2022"
+      ]
+    },
+    {
+      "id": "sources/sand-festival-rules2025",
+      "title": "15th International Sand Art Festival — participation invitation",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/sand-festival-rules2025.md",
+      "project_path": "kb/research/sources/sand-festival-rules2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "sand-festival-rules2025"
+      ]
+    },
+    {
+      "id": "sources/sand-dda-workshop2022",
+      "title": "DDA February2022 newsletter — Azaadi Darshan workshop",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/sand-dda-workshop2022.md",
+      "project_path": "kb/research/sources/sand-dda-workshop2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "sand-dda-workshop2022"
+      ]
+    },
+    {
+      "id": "sources/sand-puri-tiranga2025",
+      "title": "Sudarsan Pattnaik — Har Ghar Tiranga sculpture at Puri",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/sand-puri-tiranga2025.md",
+      "project_path": "kb/research/sources/sand-puri-tiranga2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "sand-puri-tiranga2025"
+      ]
+    },
+    {
+      "id": "sources/sand-festival-landing2025",
+      "title": "Odisha Tourism sand festival landing page — chronology conflict",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/sand-festival-landing2025.md",
+      "project_path": "kb/research/sources/sand-festival-landing2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "sand-festival-landing2025"
+      ]
+    },
+    {
+      "id": "sources/sand-weymouth-award-lead2025",
+      "title": "Akashvani reports Pattnaik’s Fred Darrington award",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/sand-weymouth-award-lead2025.md",
+      "project_path": "kb/research/sources/sand-weymouth-award-lead2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "sand-weymouth-award-lead2025"
+      ]
+    },
+    {
+      "id": "works/puri-tiranga-sand-2025",
+      "title": "Puri Har Ghar Tiranga sand sculpture, 2025",
+      "kind": "Work",
+      "layer": "source_research_record",
+      "source_path": "works/puri-tiranga-sand-2025.md",
+      "project_path": "kb/research/works/puri-tiranga-sand-2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "arts",
+        "places"
+      ],
+      "source_ids": [
+        "sand-puri-tiranga2025"
+      ]
     }
   ],
   "shared_publications": [
@@ -19721,14 +19844,23 @@
       "source_records": [
         "culture/sand-art.md",
         "culture/cuttack-tarakasi.md",
-        "people/sudarsan-pattnaik.md"
+        "people/sudarsan-pattnaik.md",
+        "sources/sand-tourism-newsletter2020.md",
+        "sources/sand-festival-rules2022.md",
+        "sources/sand-festival-rules2025.md",
+        "sources/sand-dda-workshop2022.md",
+        "sources/sand-puri-tiranga2025.md",
+        "sources/sand-festival-landing2025.md",
+        "sources/sand-weymouth-award-lead2025.md",
+        "references/data/material-arts.json",
+        "works/puri-tiranga-sand-2025.md"
       ],
       "project_records": [
         "kb/research/destinations/central-details.json",
         "kb/records/cuttack-release-review.json"
       ],
       "remaining_scope": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
-      "status_unchanged": "pending",
+      "status_unchanged": "in_progress",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
     {
@@ -20604,8 +20736,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1275,
-    "updated_at": "2026-10-04T08:34:31.103772+00:00",
+    "records_mapped": 1283,
+    "updated_at": "2026-10-04T09:36:32.915635+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
