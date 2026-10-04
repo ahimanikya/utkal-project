@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T08:15:57.208317+00:00",
+  "recorded_at": "2026-10-04T08:37:18.254965+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4379,7 +4379,7 @@
       "id": "UTP-WORK-152",
       "title": "Twelve Documentary Natural homepage scenes",
       "category": "website",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
@@ -4387,10 +4387,8 @@
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-172",
-      "next_action": "Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable.",
-      "blockers": [
-        "Browser security-policy verification unavailable for local preview."
-      ],
+      "next_action": "Published and verified at utkalproject.org. Optional follow-up: perform desktop/mobile browser visual review when browser policy verification recovers; limitation remains in UTP-REV-130.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-172",
         "UTP-DEC-173",
@@ -4398,7 +4396,8 @@
         "UTP-DEC-175",
         "UTP-DEC-176",
         "UTP-DEC-177",
-        "UTP-REV-130"
+        "UTP-REV-130",
+        "UTP-REL-058"
       ],
       "evidence": [
         "records/home-documentary-natural-2026-10-03.json",
@@ -12015,6 +12014,22 @@
         "records/global-connections-2026-10-03.json"
       ],
       "note": "PR71 merged after CI passed; Pages deployment succeeded. Six-city comparison and entry links verified live. Eleven-route search sitemap preserved; new section remains noindex, follow. Separate initiative and external commitments deferred."
+    },
+    {
+      "id": "UTP-REL-058",
+      "title": "Twelve-scene Human Natural homepage published",
+      "status": "published",
+      "authorization": "UTP-DEC-177",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-177",
+        "UTP-WORK-152",
+        "UTP-REV-130"
+      ],
+      "evidence": [
+        "records/home-art-publication-2026-10-04.json"
+      ],
+      "note": "PR75 merged after all CI checks passed; Pages deployment succeeded. Twelve scene images, 36 responsive variants, both v2 refinements and controller code verified live. Browser layout review remains unavailable and is not claimed."
     }
   ],
   "sources": [

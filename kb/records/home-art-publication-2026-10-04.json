@@ -4,7 +4,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-177",
   "authorization_quote": "apply this too",
-  "status": "release_in_progress",
+  "status": "published",
   "scope": "Homepage art only; no change to editorial routes, indexing policy, contribution destinations or store visibility.",
   "checks": {
     "full_site_tests": "391 passed",
@@ -18,6 +18,316 @@
     "records/home-twelve-scenes-2026-10-04.json",
     "records/home-art-natural-refinements-2026-10-04.json"
   ],
-  "pull_request": null,
-  "deployment": null
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/75",
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37188889200",
+    "conclusion": "success",
+    "head_sha": "82ca8dde8357d760eb577fc84309b794f3f6dd34"
+  },
+  "published_at": "2026-10-04T08:37:18.254965+00:00",
+  "merge_commit": "82ca8dde8357d760eb577fc84309b794f3f6dd34",
+  "ci": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37188566198",
+    "conclusion": "success"
+  },
+  "live_verification": {
+    "homepage_status": 200,
+    "scenes": 12,
+    "images_verified": 48,
+    "refinements": "raja-swing-v2 and reading-veranda-v2 served",
+    "per_visit_controller": "Present in served homepage code. Interactive behaviour covered by unit tests, not live browser test.",
+    "assets": [
+      {
+        "url": "/assets/coast-quiet-crossing-v1.webp",
+        "status": 200,
+        "sha256": "eec9184174922116f6aa885ae03bbf5eb82c0fa94d7b8bb4b15a034c1807d447",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/bandha-loom-v1.webp",
+        "status": 200,
+        "sha256": "7828c689bfde85966677cf6e6da6d43d552ece35d205bdc49847e4b3652f0260",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/forest-path-v1.webp",
+        "status": 200,
+        "sha256": "96a4df494f34f20857bd6223e558513940510186f7f019330bb7f2e4785a07a3",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/hill-morning-v1.webp",
+        "status": 200,
+        "sha256": "7a651fbc8030fa8be266933750478b97159d120eee347a32df8dee6b0011ae36",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/kotpad-dye-courtyard-v1.webp",
+        "status": 200,
+        "sha256": "f45753629bd51cc5900583d7fffc8ec104049edbbb17831a2980607a604df58c",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/odissi-rehearsal-v1.webp",
+        "status": 200,
+        "sha256": "c0cf4cf310ecf1e21c10c52b743d5c140d32811efc1728025e573125d12c6545",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/pakhala-table-v1.webp",
+        "status": 200,
+        "sha256": "6641a67ba4247a58ae38ffd5d5b66c725825fae5f01cbf92926488fa7bea39a7",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/pattachitra-work-v1.webp",
+        "status": 200,
+        "sha256": "1267bc6600e261f8e34544d5b61738cd7b76410df00ad5b783fa03fd561208e7",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/raja-swing-v2.webp",
+        "status": 200,
+        "sha256": "6b27a204ecc749d72fa6469cd86f219de33c552bad8d7de6a314cb516e7dc720",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/reading-veranda-v2.webp",
+        "status": 200,
+        "sha256": "392a210c275f979ab271e770f6e67ec02d0ee709d7201c2d1ae85de14af8a0b3",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/temple-morning-v1.webp",
+        "status": 200,
+        "sha256": "b6c425d4a11bd833b7ffc2a218ef2cda460265bb5ec88b2c76abac2bb927a8f3",
+        "committed_original_match": true
+      },
+      {
+        "url": "/assets/home-art/young-makers-v1.webp",
+        "status": 200,
+        "sha256": "75d1e1e1c74d591ac53f8b270c57fd2a136dc60e7cad57b3d179f8543f3a553e",
+        "committed_original_match": true
+      },
+      {
+        "url": "/images/responsive/02c1e781915e6385-1440.webp",
+        "status": 200,
+        "sha256": "02c1e781915e638535b537f89342656c2deedce70300f08e685b1cba591ecd24",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/0900570886b293cb-960.webp",
+        "status": 200,
+        "sha256": "0900570886b293cb21ea364ba43951b371d90382362acecfa6e6ce623e3e6a6c",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/1ac856ffe91e9109-480.webp",
+        "status": 200,
+        "sha256": "1ac856ffe91e9109050d9725fe60a098f1d5570d5e837f33dcf9a1988f3c5d9c",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/24d09b9e1ee814b1-480.webp",
+        "status": 200,
+        "sha256": "24d09b9e1ee814b1e3f774754aba2ead027f43426e8c3db2ae104abeced1b48f",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/25a423e51bdfd67d-1440.webp",
+        "status": 200,
+        "sha256": "25a423e51bdfd67d4bdab06f61f90f5cdb1ea9d41e9297b59a1da8ddcd45d6fc",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/3153b8edcb7d3e84-960.webp",
+        "status": 200,
+        "sha256": "3153b8edcb7d3e840b83bce68dbc3eb05cde320c282d91cdbb05f9d54eeb960d",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/32df30ef29241139-960.webp",
+        "status": 200,
+        "sha256": "32df30ef2924113986637907d5892b0830c7ae4fb15630c73dcb0530e6c1da91",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/3e33ee44bce1a279-960.webp",
+        "status": 200,
+        "sha256": "3e33ee44bce1a2790b1ad0b219d33906b898f3c75996e0aa8bd5eaa58edb84b7",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/4fb7da799a762233-480.webp",
+        "status": 200,
+        "sha256": "4fb7da799a762233907c3d29459b32c4892439afb1ddc9e7e64c9ba36b9898cc",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/51d9b91034729ce5-960.webp",
+        "status": 200,
+        "sha256": "51d9b91034729ce505dae396dcc2449a3f5d5eaa2899e6da972d0886af614d6e",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/532dac61f1ea0d57-1440.webp",
+        "status": 200,
+        "sha256": "532dac61f1ea0d571a81d48657c4fe6dba3b996f764e9833ce3758fbee6f6582",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/5aadbfbb1d351b36-1440.webp",
+        "status": 200,
+        "sha256": "5aadbfbb1d351b363cd5de019b490c5a3ab3b46d21f22d08bbb11706759adc2f",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/6e8209bfcea5d35e-1440.webp",
+        "status": 200,
+        "sha256": "6e8209bfcea5d35e2b614d2bd36cec469c2444d9eb149d5083aa834165bc8218",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/7210a297af7d4bcc-1440.webp",
+        "status": 200,
+        "sha256": "7210a297af7d4bcc76ff3580bfaa31732f9a5e845109657b359c25d43f9a046f",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/735dc52253173b6e-960.webp",
+        "status": 200,
+        "sha256": "735dc52253173b6eb65515fd8ec6072caf7bd845fe8baa38670d2cdd432b7b14",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/7709f4b4aa26dd76-480.webp",
+        "status": 200,
+        "sha256": "7709f4b4aa26dd762225330e778f1d35c7405278d900fe7b825c89c4e5c5e8ba",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/7b5cc15189a19818-960.webp",
+        "status": 200,
+        "sha256": "7b5cc15189a19818f5d4e4ca149cd496565e07f8f210a520b62032f81d2f4faa",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/7dab339452ed99f4-480.webp",
+        "status": 200,
+        "sha256": "7dab339452ed99f4414c36bd1b0d9ba8ae1edbb6173a5ae9cc2d734b8dd5f816",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/9b33d07eb8c71c68-480.webp",
+        "status": 200,
+        "sha256": "9b33d07eb8c71c68b47ac0c4b5110d7a4f4813928885a52c482462b2d7e95628",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/9b8de78824ae141b-960.webp",
+        "status": 200,
+        "sha256": "9b8de78824ae141b95fbf65682730952cc37aabf55aa12d12ac9bbe1321c5dfd",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/a0fd2543f4b0b449-960.webp",
+        "status": 200,
+        "sha256": "a0fd2543f4b0b449ec66915bf72155003742b5e6174b59c011ee3e582b39c029",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/a986973f9a095074-1440.webp",
+        "status": 200,
+        "sha256": "a986973f9a095074692d1c6429c7df3dc078c0cbb4123f3c4f9af31faa6bc6ea",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/ada5083ca474638f-960.webp",
+        "status": 200,
+        "sha256": "ada5083ca474638f25e00bbb8ad8ea716130d8200fc1790cced1b2a699796102",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/adac5c8ea85b1b90-480.webp",
+        "status": 200,
+        "sha256": "adac5c8ea85b1b901141c42a4b77d1ce67c7b9db3ede49622ced9efc3eca03ce",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/aea84ef2ae3a0f02-480.webp",
+        "status": 200,
+        "sha256": "aea84ef2ae3a0f02e7bd995ebdf0dd7d86f7299b650fd5b903c33dc20c1f1786",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/afede899d98fb36b-1440.webp",
+        "status": 200,
+        "sha256": "afede899d98fb36bb0616384e8a6d61719c2ac65c3812998e022d4d6d6b7e697",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/c6c0c9b4af516974-480.webp",
+        "status": 200,
+        "sha256": "c6c0c9b4af516974ea0b39118de7f7a0a2c894b3bf82164a34a2feba49362b20",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/ccf9c65d5eb49e4a-480.webp",
+        "status": 200,
+        "sha256": "ccf9c65d5eb49e4a7fe019f70690efbdeda7e2770e0170bcce59b8d3f972ff97",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/d2b9ce3deb6e6756-1440.webp",
+        "status": 200,
+        "sha256": "d2b9ce3deb6e675667c3e2e732887324414cf7d2261cf2326e91afd4d4c782b4",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/d77d56e0e28686fa-1440.webp",
+        "status": 200,
+        "sha256": "d77d56e0e28686fa0d8314048554b2ce9038595da90dcae3de7ffc3e5ef0856e",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/d99f4c002d9cf69d-1440.webp",
+        "status": 200,
+        "sha256": "d99f4c002d9cf69d79c8d7b6fe3a95f3d1cc4cb512dde1b13825d6cc2d4a8d70",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/e84d861ac0f32f49-480.webp",
+        "status": 200,
+        "sha256": "e84d861ac0f32f49841e48520c88e2b50d21f2cf863695c0e2d095459c2578b6",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/e8693b5e31a81726-960.webp",
+        "status": 200,
+        "sha256": "e8693b5e31a81726a44380bc77cd60923790eba3f2d6cb49b0c5ea507f3a8f6f",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/eaa2013249e29716-480.webp",
+        "status": 200,
+        "sha256": "eaa2013249e29716e43a3ac84c6a6d1e251efa48c2df5648de4732809820708b",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/f0497a5b0a6334ac-1440.webp",
+        "status": 200,
+        "sha256": "f0497a5b0a6334ac3d85d95273589c6965829219830e9c182fa2649a14f2b131",
+        "committed_original_match": false
+      },
+      {
+        "url": "/images/responsive/fb1c10e19b5825dd-960.webp",
+        "status": 200,
+        "sha256": "fb1c10e19b5825dda222588161b83b67af714056f82ce418c1b0f662280d1a70",
+        "committed_original_match": false
+      }
+    ],
+    "visual_review": "Not performed; browser policy verification remains unavailable.",
+    "verification_note": "Responsive derivative names differ between local macOS and GitHub Linux builds; 12 original file hashes match and all 36 deployed responsive derivatives return valid WebP."
+  },
+  "delivery_note": "Initial Git upload returned HTTP 400; scoped HTTP/1.1 buffered transfer succeeded. No global Git configuration changed."
 }
