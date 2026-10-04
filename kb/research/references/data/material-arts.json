@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T09:36:32.915635+00:00",
-  "scope": "RES-032 checkpoint: sand art events, work attribution and historical participation terms. Other material arts remain unfinished.",
+  "updated_at": "2026-10-04T10:38:52.815078+00:00",
+  "scope": "RES-032 checkpoints: sand art, Cuttack Tarakasi and palm-leaf engraving. Stone carving, dhokra and terracotta remain unfinished.",
   "human_review_claimed": false,
   "events": [
     {
@@ -168,9 +168,111 @@
       "needed": "Manas Kumar Sahoo primary Odisha biography and work credits; original SandWorld award/citation, with prize label and date."
     },
     {
-      "topic": "Other material arts",
+      "topic": "Filigree and palm-leaf evidence recovery",
+      "retry_after": "2026-10-11",
+      "needed": "Original national2015 PDF/state register; Pankaj1994 central citation; named award works and Arun full identity. Current maker business/rights evidence requires primary records or participation."
+    },
+    {
+      "topic": "Remaining material arts",
       "retry_after": null,
-      "needed": "Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta: named makers, works, techniques and dated recognition; eligible next batch."
+      "needed": "Stone carving, dhokra and terracotta: reuse existing people/place records, add techniques, named works and dated recognition. No new broad art-origin claims."
+    }
+  ],
+  "crafts": [
+    {
+      "id": "culture/cuttack-tarakasi",
+      "technique_summary": "Thicker wire outline, fine curled or twisted wire infill, joining and finishing.",
+      "source_ids": [
+        "arts-nid-filigree"
+      ],
+      "locator": "PDF p.8",
+      "product_forms": [
+        "jewellery",
+        "ritual objects",
+        "decorative boats"
+      ],
+      "product_locator": "PDF pp.13–14",
+      "practitioner_ids": [
+        "people/ramesh-behera",
+        "people/pankaj-kumar-sahoo"
+      ],
+      "origin_date": null,
+      "current_GI_validity": null,
+      "annual_revenue": null,
+      "exports": null,
+      "current_workforce": null,
+      "scope": "Undated institutional documentation; product forms are not shipment records."
+    },
+    {
+      "id": "culture/palm-leaf-engraving",
+      "technique_summary": "Prepared strips joined; lines incised and darkened, sometimes with colour or cutwork.",
+      "source_ids": [
+        "arts-nid-palm"
+      ],
+      "locator": "PDF p.9",
+      "practitioner_ids": [
+        "people/laxmidhar-subudhi",
+        "people/biswanath-swain"
+      ],
+      "documented_places": [
+        "Bhubaneswar",
+        "Raghurajpur, Puri"
+      ],
+      "partial_identity": {
+        "name_as_printed": "Shri Arun",
+        "role": "Senior Artist",
+        "organisation": "Creative Arts",
+        "place": "Bhubaneswar",
+        "source_id": "arts-nid-palm",
+        "locator": "PDF p.19",
+        "canonical_person_id": null
+      },
+      "origin_date": null,
+      "annual_revenue": null,
+      "exports": null,
+      "current_workforce": null,
+      "scope": "Page15 western-India comparison excluded; manuscript catalogues are separate evidence."
+    }
+  ],
+  "recognitions": [
+    {
+      "person_id": "people/pankaj-kumar-sahoo",
+      "recognition": "National Award",
+      "award_year": 1994,
+      "ceremony_date": null,
+      "craft": "silver_filigree",
+      "geography": "Cuttack, Odisha",
+      "source_ids": [
+        "arts-state-awards"
+      ],
+      "award_work_id": null,
+      "publication_readiness": "attributed_historical_award_record"
+    },
+    {
+      "person_id": "people/laxmidhar-subudhi",
+      "recognition": "National Award",
+      "award_year": 2015,
+      "ceremony_date": null,
+      "craft": "palm_leaf_engraving",
+      "geography": "Raghurajpur, Puri, Odisha",
+      "source_ids": [
+        "arts-national-awards2015"
+      ],
+      "award_work_id": null,
+      "publication_readiness": "attributed_historical_award_record"
+    },
+    {
+      "person_id": "people/biswanath-swain",
+      "recognition": "National Award",
+      "award_year": 2015,
+      "ceremony_date": null,
+      "craft": "palm_leaf_engraving_and_painting",
+      "geography": "Raghurajpur, Puri, Odisha",
+      "source_ids": [
+        "arts-national-awards2015"
+      ],
+      "award_work_id": null,
+      "publication_readiness": "attributed_historical_award_record"
     }
   ]
 }

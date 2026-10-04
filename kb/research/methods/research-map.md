@@ -429,3 +429,7 @@ RES-030 reuses existing tradition and cooperative identities. Adds the original 
 ## Sand-art checkpoint · 4 October 2026
 
 RES-032 reused sand-art/person/work identities and inspected target-native Cuttack records. Seven source records and one selected work extend missing fields. Government-site location does not convert a broadcaster report into award-body evidence.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+RES-032 reused Cuttack visitor material, Tarakasi and Raghurajpur concepts, plus the saved museum manuscript catalogue. Added missing craft technique/identity fields and four source records. Documentation contacts are not universal object credits; HTML/PDF copies are one lineage.

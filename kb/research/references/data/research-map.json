@@ -307,7 +307,9 @@
         "places"
       ],
       "source_ids": [
-        "creators-tarakasi"
+        "creators-tarakasi",
+        "arts-nid-filigree",
+        "arts-state-awards"
       ]
     },
     {
@@ -19291,6 +19293,152 @@
       "source_ids": [
         "sand-puri-tiranga2025"
       ]
+    },
+    {
+      "id": "sources/arts-nid-filigree",
+      "title": "Silver Filigree — Cuttack, Orissa",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-nid-filigree.md",
+      "project_path": "kb/research/sources/arts-nid-filigree.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-nid-filigree"
+      ]
+    },
+    {
+      "id": "sources/arts-nid-palm",
+      "title": "Palm Leaf Painting — Bhubaneshwar, Orissa",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-nid-palm.md",
+      "project_path": "kb/research/sources/arts-nid-palm.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-nid-palm"
+      ]
+    },
+    {
+      "id": "sources/arts-state-awards",
+      "title": "Odisha Directorate: national handicraft award register",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-state-awards.md",
+      "project_path": "kb/research/sources/arts-state-awards.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-state-awards"
+      ]
+    },
+    {
+      "id": "sources/arts-national-awards2015",
+      "title": "List of National Awards for the year 2015",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-national-awards2015.md",
+      "project_path": "kb/research/sources/arts-national-awards2015.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-national-awards2015"
+      ]
+    },
+    {
+      "id": "people/ramesh-behera",
+      "title": "Ramesh Behera",
+      "kind": "Person",
+      "layer": "source_research_record",
+      "source_path": "people/ramesh-behera.md",
+      "project_path": "kb/research/people/ramesh-behera.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "arts"
+      ],
+      "source_ids": [
+        "arts-nid-filigree"
+      ]
+    },
+    {
+      "id": "people/pankaj-kumar-sahoo",
+      "title": "Pankaj Kumar Sahoo",
+      "kind": "Person",
+      "layer": "source_research_record",
+      "source_path": "people/pankaj-kumar-sahoo.md",
+      "project_path": "kb/research/people/pankaj-kumar-sahoo.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "arts"
+      ],
+      "source_ids": [
+        "arts-state-awards"
+      ]
+    },
+    {
+      "id": "people/laxmidhar-subudhi",
+      "title": "Laxmidhar Subudhi",
+      "kind": "Person",
+      "layer": "source_research_record",
+      "source_path": "people/laxmidhar-subudhi.md",
+      "project_path": "kb/research/people/laxmidhar-subudhi.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "arts"
+      ],
+      "source_ids": [
+        "arts-national-awards2015",
+        "arts-state-awards"
+      ]
+    },
+    {
+      "id": "people/biswanath-swain",
+      "title": "Biswanath Swain",
+      "kind": "Person",
+      "layer": "source_research_record",
+      "source_path": "people/biswanath-swain.md",
+      "project_path": "kb/research/people/biswanath-swain.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "arts"
+      ],
+      "source_ids": [
+        "arts-national-awards2015"
+      ]
+    },
+    {
+      "id": "culture/palm-leaf-engraving",
+      "title": "Palm-leaf engraving: stories cut into a leaf",
+      "kind": "Concept",
+      "layer": "source_research_record",
+      "source_path": "culture/palm-leaf-engraving.md",
+      "project_path": "kb/research/culture/palm-leaf-engraving.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "arts",
+        "people",
+        "history"
+      ],
+      "source_ids": [
+        "arts-nid-palm",
+        "arts-national-awards2015",
+        "arts-state-awards",
+        "science-osm-ganita-catalogue"
+      ]
     }
   ],
   "shared_publications": [
@@ -19853,7 +20001,17 @@
         "sources/sand-festival-landing2025.md",
         "sources/sand-weymouth-award-lead2025.md",
         "references/data/material-arts.json",
-        "works/puri-tiranga-sand-2025.md"
+        "works/puri-tiranga-sand-2025.md",
+        "sources/arts-nid-filigree.md",
+        "sources/arts-nid-palm.md",
+        "sources/arts-state-awards.md",
+        "sources/arts-national-awards2015.md",
+        "people/ramesh-behera.md",
+        "people/pankaj-kumar-sahoo.md",
+        "people/laxmidhar-subudhi.md",
+        "people/biswanath-swain.md",
+        "culture/palm-leaf-engraving.md",
+        "history/scientific-manuscripts.md"
       ],
       "project_records": [
         "kb/research/destinations/central-details.json",
@@ -20736,8 +20894,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1283,
-    "updated_at": "2026-10-04T09:36:32.915635+00:00",
+    "records_mapped": 1292,
+    "updated_at": "2026-10-04T10:38:52.815078+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [

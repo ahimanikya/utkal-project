@@ -438,3 +438,7 @@ Textile follow-up11 October 2026: origin-linked HS, destination, physical quanti
 ## Sand-art checkpoint · 4 October 2026
 
 Sand-art source/award recovery retry11October2026. Need original first-edition record, fee receipts, current artist-biography evidence and award-body citation. Direct tourism downloads failed; indexed captures retained. Other material arts are eligible now.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+Need original2015 central award list, Pankaj Kumar Sahoo1994 citation, named award-winning objects and full identity of the NID contact Arun; retry2026-10-11. Stone carving, dhokra and terracotta eligible next. No income/export/workforce estimates or origin chronology added.

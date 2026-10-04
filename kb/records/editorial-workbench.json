@@ -26,9 +26,13 @@
     },
     "with_flags": 228,
     "mapped_pages": 11,
-    "newer_records_outside_frozen_selection": 253
+    "newer_records_outside_frozen_selection": 261
   },
   "additional_ids": [
+    "source:arts-national-awards2015",
+    "source:arts-nid-filigree",
+    "source:arts-nid-palm",
+    "source:arts-state-awards",
     "source:bhima-akademi",
     "source:dance-battery2024",
     "source:dance-folk-panel2024",
@@ -276,7 +280,11 @@
     "subject:food/torani",
     "subject:food/torani-kanji",
     "subject:people/achyuta-samanta",
+    "subject:people/biswanath-swain",
     "subject:people/hariprasad-chaurasia",
+    "subject:people/laxmidhar-subudhi",
+    "subject:people/pankaj-kumar-sahoo",
+    "subject:people/ramesh-behera",
     "subject:works/e-banara-chai-gapa-label",
     "subject:works/jaya-jadu-nandan-gapa-label",
     "subject:works/puri-tiranga-sand-2025",
@@ -285,8 +293,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "ad5dc21072a97b8692aaa2be50c2d0d519b91f3aadcf5707b4e12aa32d20cf0c",
-    "kb/research/search-index.json": "8ab52f2d65b00e3d1a286cbebb6f3723214d8fd92c6c6a1a5c791f16c2849c95",
+    "kb/research/references/data/source-catalog.json": "3db08b690c948b306849d3218f7a7b8126653af4860704b389f8328381cd7abe",
+    "kb/research/search-index.json": "5ce5c3a4882061cca87ed25ff6773e2e25311583259b043dc824b358bd61e849",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -12981,6 +12989,11 @@
         "capture_history": []
       },
       "connections": [
+        {
+          "id": "culture/palm-leaf-engraving",
+          "title": "Palm-leaf engraving: stories cut into a leaf",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/culture/palm-leaf-engraving.md"
+        },
         {
           "id": "history/scientific-manuscripts",
           "title": "Scientific knowledge preserved in manuscripts",

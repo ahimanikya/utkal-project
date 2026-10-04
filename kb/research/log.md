@@ -468,3 +468,7 @@ Completed RES-030: recovered28 values, mapped eight product forms, retained nomi
 ## Sand-art checkpoint · 4 October 2026
 
 RES-032 sand-art checkpoint: one dated Puri work,2019 festival participation,2022 Delhi workshop and historical fee terms. Origin chronology quarantined; remaining five material arts unfinished.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+RES-032 checkpoint: two material-art practices, four scoped maker profiles and three dated national-award records. Original NID process PDFs checked; award originals unavailable and indexed captures labelled. Other craft forms and named award works remain unfinished.

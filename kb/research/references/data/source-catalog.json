@@ -7061,5 +7061,51 @@
     "locator": "Award report",
     "capture_note": "Public-broadcaster report, not award-body record. SandWorld homepage inspected but did not verify this award; first-Indian superlative and trophy chronology held for original evidence.",
     "capture_method": "secondary_institutional_report"
+  },
+  "arts-state-awards": {
+    "id": "arts-state-awards",
+    "title": "Odisha Directorate: national handicraft award register",
+    "resource": "https://crafts.odisha.gov.in/?page_id=287",
+    "publisher": "Odisha Directorate of Handicrafts",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Row101 Pankaj Kumar Sahoo; row20 Laxmidhar Subudhi",
+    "capture_method": "indexed_primary_text",
+    "capture_note": "Indexed publisher table only; direct web retrieval failed502/internal error. Selected maker, craft, district and award-year fields; personal addresses omitted. The table combines National Awards and National Merit Certificates, which must remain distinct."
+  },
+  "arts-national-awards2015": {
+    "id": "arts-national-awards2015",
+    "title": "List of National Awards for the year 2015",
+    "resource": "https://handicrafts.nic.in/pdf/final_list_national_award_2015.pdf",
+    "publisher": "Development Commissioner (Handicrafts), Ministry of Textiles",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Rows7–8; indexed table headed List of National Awards for the year2015",
+    "capture_method": "indexed_primary_text",
+    "capture_note": "Indexed original-publisher text read. Both www and non-www direct downloads timed out; web screenshot failed. No visual PDF verification. Award year2015, not ceremony date. Exact source spelling Subudhhi retained as alias; state register uses Subudhi."
+  },
+  "arts-nid-palm": {
+    "id": "arts-nid-palm",
+    "title": "Palm Leaf Painting — Bhubaneshwar, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/palm-leaf-painting-bhubaneshwar-orissa/downloads/file/palm-leaf-painting-bhubaneshwar-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.2,9,15–17,19",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_note": "Original PDF retrieved; process p.9 visually checked. Product and contact text extracted. Page15 includes a western-India example, excluded from Odisha object attribution. Arun is an incomplete identity. No publication date or object provenance established.",
+    "capture_sha256": "1bca12260f1d11e301b323f00c8fd76cf989542701c096c6047f387702827484"
+  },
+  "arts-nid-filigree": {
+    "id": "arts-nid-filigree",
+    "title": "Silver Filigree — Cuttack, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/silver-filigree-cuttack-orissa/downloads/file/185_silver_filigree_cuttack_orissa_new.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.8,13–14,16",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_note": "Original PDF retrieved; process p.8 visually checked. Product and maker-credit text extracted from pp.13–14,16. Publication date not established. HTML and PDF are the same documentation family. Unrelated spam links in HTML navigation were excluded.",
+    "capture_sha256": "0aa9e61b76327e11a859eb572a50e43ee7742027215ea16c56abda5fa8bc4316"
   }
 }

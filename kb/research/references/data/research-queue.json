@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T09:36:32.915635+00:00",
+  "updated_at": "2026-10-04T10:38:52.815078+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1208,10 +1208,10 @@
       "done_when": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
       "target": "culture/index.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-04T09:36:32.915635+00:00",
-      "next_step": "Continue RES-032 with Tarakasi and palm-leaf engraving, then stone carving, dhokra and terracotta. Reuse this sand-art checkpoint; source recovery and award-body follow-ups are dated2026-10-11.",
+      "last_worked_at": "2026-10-04T10:38:52.815078+00:00",
+      "next_step": "Continue RES-032 with stone carving, dhokra and terracotta, reusing current maker/place records. Tarakasi and palm-leaf craft/award checkpoint saved; original award retrieval, named works and partial identities remain dated follow-ups for 2026-10-11.",
       "evidence_outputs": [
         "sources/sand-tourism-newsletter2020.md",
         "sources/sand-festival-rules2022.md",
@@ -1224,7 +1224,17 @@
         "works/puri-tiranga-sand-2025.md",
         "culture/sand-art.md",
         "people/sudarsan-pattnaik.md",
-        "references/data/people-creations.json"
+        "references/data/people-creations.json",
+        "sources/arts-nid-filigree.md",
+        "sources/arts-nid-palm.md",
+        "sources/arts-state-awards.md",
+        "sources/arts-national-awards2015.md",
+        "people/ramesh-behera.md",
+        "people/pankaj-kumar-sahoo.md",
+        "people/laxmidhar-subudhi.md",
+        "people/biswanath-swain.md",
+        "culture/palm-leaf-engraving.md",
+        "culture/cuttack-tarakasi.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1241,7 +1251,17 @@
           "sources/sand-festival-landing2025.md",
           "sources/sand-weymouth-award-lead2025.md",
           "references/data/material-arts.json",
-          "works/puri-tiranga-sand-2025.md"
+          "works/puri-tiranga-sand-2025.md",
+          "sources/arts-nid-filigree.md",
+          "sources/arts-nid-palm.md",
+          "sources/arts-state-awards.md",
+          "sources/arts-national-awards2015.md",
+          "people/ramesh-behera.md",
+          "people/pankaj-kumar-sahoo.md",
+          "people/laxmidhar-subudhi.md",
+          "people/biswanath-swain.md",
+          "culture/palm-leaf-engraving.md",
+          "history/scientific-manuscripts.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json",
@@ -1257,6 +1277,13 @@
           "outcome": "sand_art_events_work_and_fee_terms_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Five other material arts, named practitioners and dated work/recognition evidence."
+        },
+        {
+          "run_id": "2026-10-04-filigree-palm-arts",
+          "at": "2026-10-04T10:38:52.815078+00:00",
+          "outcome": "filigree_and_palm_leaf_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Stone carving, dhokra, terracotta and unresolved work-level attribution."
         }
       ],
       "follow_up_evidence": [
@@ -1271,9 +1298,14 @@
           "needed": "Manas Kumar Sahoo primary Odisha biography and work credits; original SandWorld award/citation, with prize label and date."
         },
         {
-          "topic": "Other material arts",
+          "topic": "Filigree and palm-leaf evidence recovery",
+          "retry_after": "2026-10-11",
+          "needed": "Original national2015 PDF/state register; Pankaj1994 central citation; named award works and Arun full identity. Current maker business/rights evidence requires primary records or participation."
+        },
+        {
+          "topic": "Remaining material arts",
           "retry_after": null,
-          "needed": "Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta: named makers, works, techniques and dated recognition; eligible next batch."
+          "needed": "Stone carving, dhokra and terracotta: reuse existing people/place records, add techniques, named works and dated recognition. No new broad art-origin claims."
         }
       ]
     },
