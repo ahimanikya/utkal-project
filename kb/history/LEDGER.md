@@ -970,3 +970,9 @@ Three photographed Balasore chapters connect Chandipur, Fakir Mohan’s literary
 The approved Tides and Tales trail is published with three photographic chapters and the existing five-idea starter. Live delivery and a live-data offline export passed. Visual/native PDF review, local confirmation and Search Console remain open.
 
 [Publication evidence](../records/balasore-trail-publication-2026-10-04.json) · [PR101](https://github.com/ahimanikya/utkal-project/pull/101).
+
+## UTP-HIS-0228 · A forest, a movement and a meal
+
+Three photographed Mayurbhanj chapters connect Similipal, Chhau and a Baripada meal. The five-idea starter is preserved; new books carry selected chapters and credited photographs. Forest-access and performer-led contribution prompts invite dated evidence and consent-aware cultural accounts. The visitor can arrange these experiences across suitable days.
+
+[Candidate evidence](../records/mayurbhanj-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.
