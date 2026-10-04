@@ -4667,22 +4667,25 @@
       "id": "UTP-WORK-160",
       "title": "Balasore illustrated trail and matching tour books",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-192",
-      "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open.",
+      "next_action": "Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-192",
-        "UTP-REV-138"
+        "UTP-REV-138",
+        "UTP-DEC-193",
+        "UTP-REL-066"
       ],
       "evidence": [
-        "records/balasore-illustrated-trail-2026-10-04.json"
+        "records/balasore-illustrated-trail-2026-10-04.json",
+        "records/balasore-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8522,6 +8525,26 @@
       "evidence": [
         "records/balasore-illustrated-trail-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-193",
+      "title": "Publish approved Balasore trail",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved!",
+      "scope": "Merge PR101 and publish the reviewed Balasore trail through Pages.",
+      "recorded_at": "2026-10-04T16:39:23.083724+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-160",
+        "UTP-DEC-192"
+      ],
+      "evidence": [
+        "records/balasore-trail-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11797,7 +11820,8 @@
         "UTP-DEC-192"
       ],
       "evidence": [
-        "records/balasore-illustrated-trail-2026-10-04.json"
+        "records/balasore-illustrated-trail-2026-10-04.json",
+        "records/balasore-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12894,6 +12918,22 @@
         "records/cuttack-trail-publication-2026-10-04.json"
       ],
       "note": "PR98 merged after validation; Pages succeeded. Eleven live routes, four photograph hashes, shared journey data and matching four-chapter offline export checked. Existing search shortlist retained; no browser visual pass claimed."
+    },
+    {
+      "id": "UTP-REL-066",
+      "title": "Balasore · Tides and Tales published",
+      "status": "published",
+      "authorization": "UTP-DEC-193",
+      "destination": "https://utkalproject.org/journey-starters/balasore/",
+      "refs": [
+        "UTP-DEC-193",
+        "UTP-WORK-160",
+        "UTP-REV-138"
+      ],
+      "evidence": [
+        "records/balasore-trail-publication-2026-10-04.json"
+      ],
+      "note": "PR101 merged after validation; Pages succeeded. Ten live routes, three photograph hashes, shared journey data and matching three-chapter offline export checked. Existing search shortlist retained; no browser visual pass claimed."
     }
   ],
   "sources": [

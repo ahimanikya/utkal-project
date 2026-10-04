@@ -964,3 +964,9 @@ The approved Silver and Stories trail is published with four photographic chapte
 Three photographed Balasore chapters connect Chandipur, Fakir Mohan’s literary world and a coastal meal. The five-idea starter is preserved; new books carry selected chapters and credited photographs. Shore and literary contribution prompts invite dated evidence and attributed memories.
 
 [Candidate evidence](../records/balasore-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.
+
+## UTP-HIS-0227 · Balasore joins the journey
+
+The approved Tides and Tales trail is published with three photographic chapters and the existing five-idea starter. Live delivery and a live-data offline export passed. Visual/native PDF review, local confirmation and Search Console remain open.
+
+[Publication evidence](../records/balasore-trail-publication-2026-10-04.json) · [PR101](https://github.com/ahimanikya/utkal-project/pull/101).

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3a721be4188dc82741dfb27b38dac25b6212cadf481250da45ed5e37ff8e77e4`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3c68c6bb8293ee16993ffce332f0a6d1dd023d9a7884bd076de1472f9a2e8827`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -172,7 +172,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-157 · Chilika illustrated trail and gateway-specific tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-158 · Remove AI-generated tags beside website images | completed | applied | Ahimanikya Satapathy | Published and verified across all 124 public-edition pages. Provenance remains in end credits and canonical records. | — |
 | UTP-WORK-159 · Cuttack illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
-| UTP-WORK-160 · Balasore illustrated trail and matching tour books | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. | — |
+| UTP-WORK-160 · Balasore illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -231,7 +231,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-160 | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 
 ## Decisions
 
@@ -428,6 +427,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-190 · Build Cuttack · Silver and Stories | approved | Ahimanikya Satapathy | Implement the proposed Cuttack illustrated trail, practical planning, matching books and local contribution batch. |
 | UTP-DEC-191 · Publish approved Cuttack trail | approved | Ahimanikya Satapathy | Merge PR98 and publish the reviewed Cuttack trail through Pages. |
 | UTP-DEC-192 · Build Balasore · Tides and Tales | approved | Ahimanikya Satapathy | Implement the proposed Balasore illustrated trail, practical planning, matching books and local contribution batch. |
+| UTP-DEC-193 · Publish approved Balasore trail | approved | Ahimanikya Satapathy | Merge PR101 and publish the reviewed Balasore trail through Pages. |
 
 ## Reviews
 
@@ -639,6 +639,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-063 · Chilika illustrated trail published | published | https://utkalproject.org/journey-starters/chilika/ | UTP-DEC-187 |
 | UTP-REL-064 · Image caption cleanup published | published | https://utkalproject.org/ | UTP-DEC-189 |
 | UTP-REL-065 · Cuttack · Silver and Stories published | published | https://utkalproject.org/journey-starters/cuttack/ | UTP-DEC-191 |
+| UTP-REL-066 · Balasore · Tides and Tales published | published | https://utkalproject.org/journey-starters/balasore/ | UTP-DEC-193 |
 
 ## Sources and assets
 
@@ -676,7 +677,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-218 | 2026-10-04T13:00:46.518968+00:00 | Published approved PR86 through Pages after successful validation. The illustrated trail, eight unscheduled ideas, guide return links and documentary photographs were verified over live HTTPS. | Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups. |
 | UTP-EVT-219 | 2026-10-04T14:06:40.618918+00:00 | Prepared portable trail chapters, contextual maker/access/food contribution prompts and a downloadable blank local verification pack. Clarified 32 backlog next actions without closing remaining reviews. Full/coastal 418/81 tests and 492 page checks passed. | Prepare implementation PR; publication and outstanding human/local checks remain separate. |
 | UTP-EVT-220 | 2026-10-04T14:18:37.049274+00:00 | Published approved PR89 through Pages. Live shared trail data, contextual contribution links, exact verification-pack download and three chapter photographs verified; live-data export preserved chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-221 | 2026-10-04T14:45:44.183242+00:00 | Prepared four illustrated Chilika chapters, three separate gateway starters with matching portable-book chapters, reciprocal guide links and boat/birding contribution prompts. Reused licensed photographs and existing source identities. Full/coastal tests passed; visual and local evidence remain open. | Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open. |
@@ -686,6 +686,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-225 | 2026-10-04T16:01:33.011102+00:00 | Prepared four illustrated Cuttack chapters using existing research and licensed photographs, linked the unchanged six-idea starter to matching offline chapters, added planning and contextual contribution links. Automated checks pass; visual and local checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 | UTP-EVT-226 | 2026-10-04T16:11:58.244588+00:00 | Published approved PR98 through Pages. Verified live Cuttack chapters, four photographs, guide links, contribution context and six-idea starter. Live-data offline export embedded four photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-227 | 2026-10-04T16:28:59.744018+00:00 | Prepared three illustrated Balasore chapters, preserving the five-idea starter and adding matching portable-book chapters, shore/literary contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
+| UTP-EVT-228 | 2026-10-04T16:39:23.083724+00:00 | Published approved PR101 through Pages. Verified live Balasore chapters, three photographs, guide links, contribution context and five-idea starter. Live-data offline export embedded three photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 
 ## Deferred extensions
 
