@@ -4662,6 +4662,28 @@
         "records/cuttack-illustrated-trail-2026-10-04.json",
         "records/cuttack-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-160",
+      "title": "Balasore illustrated trail and matching tour books",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-192",
+      "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-192",
+        "UTP-REV-138"
+      ],
+      "evidence": [
+        "records/balasore-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8481,6 +8503,25 @@
       "evidence": [
         "records/cuttack-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-192",
+      "title": "Build Balasore · Tides and Tales",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "ok, lets do that",
+      "scope": "Implement the proposed Balasore illustrated trail, practical planning, matching books and local contribution batch.",
+      "recorded_at": "2026-10-04T16:28:59.744018+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-160"
+      ],
+      "evidence": [
+        "records/balasore-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11733,6 +11774,30 @@
       "evidence": [
         "records/cuttack-illustrated-trail-2026-10-04.json",
         "records/cuttack-trail-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-138",
+      "title": "Balasore illustrated trail implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new browser visual, interactive, physical-device or native PDF pass; the prior administrator-enforced browser security-policy verification failure remains unresolved.",
+        "No local inspection or provider contact. Shore access, dated tides, kitchens, property facilities and transport require confirmation.",
+        "Chandipur recheck used official indexed text after direct retrieval failed. Existing literary evidence reused; no new full-text novel inspection or verified literary walking route.",
+        "The food chapter uses an explicitly captioned shore-context photograph, not a dish or restaurant photograph. The author image is a commemorative bust without a claimed visit location.",
+        "Search Console processing was not rechecked."
+      ],
+      "refs": [
+        "UTP-WORK-160",
+        "UTP-DEC-192"
+      ],
+      "evidence": [
+        "records/balasore-illustrated-trail-2026-10-04.json"
       ]
     }
   ],
