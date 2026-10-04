@@ -441,7 +441,7 @@ Sand-art source/award recovery retry11October2026. Need original first-edition r
 
 ## Tarakasi and palm-leaf checkpoint · 4 October 2026
 
-Need original2015 central award list, Pankaj Kumar Sahoo1994 citation, named award-winning objects and full identity of the NID contact Arun; retry2026-10-11. Stone carving, dhokra and terracotta eligible next. No income/export/workforce estimates or origin chronology added.
+Need original2015 central award list, Pankaj Kumar Sahoo1994 citation, named award-winning objects and full identity of the NID contact Arun; retry 2026-10-11. Stone carving, dhokra and terracotta eligible next. No income/export/workforce estimates or origin chronology added.
 
 ## Stone, metal and clay · 4 October 2026
 
@@ -449,7 +449,7 @@ Named sculptures and clay/dhokra objects with primary creator/date evidence are 
 
 ## Attributed craft works ·4October2026
 
-Commission/accession records and precise Paris temple identity remain missing. INA Manbodh Rana match is provisional; IIC Manbodh Ram is unlinked. Sahoo artist-site fetch unavailable. Work-level and existing source-recovery retries11October; RES-032 not completed.
+Commission/accession records and precise Paris temple identity remain missing. INA Manbodh Rana match is provisional; IIC Manbodh Ram is unlinked. Sahoo artist-site fetch unavailable. Work-level and existing source-recovery retries 11 October; RES-032 not completed.
 
 ## 4 October 2026 · District coverage audit
 
@@ -462,3 +462,7 @@ Historical Census 2011 and NFHS-5 measures are now mapped for three districts; c
 ## 4 October 2026 · Regional survey recovery
 
 NFHS-5 district samples and WHO indicator definitions recovered; nine provisional NFHS-6 nutrition estimates added. Exact child measurement denominators, confidence intervals and district dates remain unknown. DES/SDG recovery retained for RES-018, retry11October.
+
+## 4 October 2026 · Economic time-series checkpoint
+
+Seven 15-year series and14 matched5/10-year comparisons saved. Original PDF/workbook retrieval failed; RES-015 image review retries 11 October. No causal explanation of contractions established.

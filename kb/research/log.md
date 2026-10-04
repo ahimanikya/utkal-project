@@ -492,3 +492,7 @@ RES-014: 24 Census/NFHS district observations checked against original tables; f
 ## 4 October 2026 · NFHS district originals recovered
 
 RES-014 completed: nine newer observations, nine older observations supplemented with methods, nine point-estimate differences. Preserve provisional status and mixed trends; next RES-015.
+
+## 4 October 2026 · Economic time-series research
+
+Added 97 annual observations to seven 15-year series with14 matched interval calculations. Preserved contractions and estimate vintage; original visual verification pending. Next independent task RES-016.

@@ -20527,11 +20527,12 @@
       "source_records": [
         "statistics/economic-size-and-income.md",
         "references/data/industry-growth-data.json",
-        "references/data/statistics-atlas.json"
+        "references/data/statistics-atlas.json",
+        "references/data/economic-time-series.json"
       ],
       "project_records": [],
       "remaining_scope": "Extract consistent annual GSDP/GSVA series for matched five/ten-year intervals with price bases and estimate vintages; retain adverse results.",
-      "status_unchanged": "pending",
+      "status_unchanged": "in_progress",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
     {
@@ -21369,7 +21370,7 @@
   ],
   "current_counts": {
     "records_mapped": 1318,
-    "updated_at": "2026-10-04T14:26:40.438109+00:00",
+    "updated_at": "2026-10-04T14:42:04.663570+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22017,6 +22018,11 @@
       "at": "2026-10-04T14:26:40.438109+00:00",
       "run_id": "2026-10-04-regional-survey-methods",
       "scope": "Enhanced regional baseline identity; linked survey definitions and newer estimates for RES-014/018 without new duplicate concept."
+    },
+    {
+      "at": "2026-10-04T14:42:04.663570+00:00",
+      "run_id": "2026-10-04-gsdp-series",
+      "scope": "Enhanced existing economic narrative and RES-015 reuse pointers; no new duplicate concept or independent-source claim."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T14:26:40.438109+00:00",
+  "updated_at": "2026-10-04T14:42:04.663570+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7037,6 +7037,50 @@
         }
       ],
       "scope": "Three district nutrition and methods research; not a full NFHS or weekly-watch refresh."
+    },
+    {
+      "run_id": "2026-10-04-gsdp-series",
+      "checked_at": "2026-10-04T14:42:04.663570+00:00",
+      "sources": [
+        {
+          "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+          "status": "available",
+          "access_scope": "publisher_indexed_table_extract",
+          "locator": "Tables 1.1 and 1.4, both 2011-12–2017-18 and 2018-19–2025-26 panels",
+          "detail": "Numeric rows, units and estimate headings recovered; no PDF image review."
+        },
+        {
+          "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+          "status": "unavailable",
+          "access_scope": "direct_PDF_download_and_web_open",
+          "detail": "45-second shell timeout; web open timeout."
+        },
+        {
+          "url": "https://finance.odisha.gov.in/sites/default/files/2025-08/OES%202025-26%20Main%20Booklet.pdf",
+          "status": "unavailable",
+          "access_scope": "full_PDF",
+          "detail": "Web size limit 35,142,032 bytes; direct shell timeout55 seconds."
+        },
+        {
+          "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/OES%202026%20WEB%20UPLOAD.pdf",
+          "status": "unavailable",
+          "access_scope": "full_PDF",
+          "detail": "Web size limit; direct connection timeout12 seconds."
+        },
+        {
+          "url": "https://des.odisha.gov.in/data_table/OES_2026.xlsx",
+          "status": "unavailable",
+          "access_scope": "official_tables_download",
+          "detail": "Web timeout and direct connection timeout."
+        },
+        {
+          "url": "https://des.odisha.gov.in/en/pages/data-tables",
+          "status": "available",
+          "access_scope": "official_link_discovery",
+          "detail": "Annual GSDP current, constant and GSVA tables link to OneDrive; links opened but inaccessible to web tool. No workbook values adopted."
+        }
+      ],
+      "scope": "Seven selected macro/sector series; original access failures distinct from available indexed tables. Not a weekly release refresh."
     }
   ]
 }
