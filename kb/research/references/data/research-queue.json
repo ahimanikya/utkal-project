@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T00:30:23.622518+00:00",
+  "updated_at": "2026-10-04T01:27:35.187434+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3203,14 +3203,14 @@
       "title": "Mining history and future-materials research",
       "done_when": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
       "target": "economy/mining.md",
-      "status": "in_progress",
-      "attempts": 3,
+      "status": "completed",
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-020"
       ],
-      "last_worked_at": "2026-10-04T00:30:23.622518+00:00",
-      "next_step": "Continue RES-055 with a bounded original-paper or patent record for Sujana and a check for later operational evidence on the saved2025 IMMT pilots. Reuse existing scientist, work and project identities. If outcome evidence is absent, retain unknowns and close the bounded synthesis with separate dated follow-ups. Town social-history sources and original historical attribution remain follow-ups; retry existing inaccessible originals10October and new publisher/profile conflicts11October.",
+      "last_worked_at": "2026-10-04T01:27:35.187434+00:00",
+      "next_step": "Next eligible independent research: RES-058 forest rights, knowledge and livelihoods. RES-067 remains dependent on blocked RES-064. Resume RES-055 source-specific follow-ups on10–11October using saved identities and evidence; no duplicate scientist or pilot records.",
       "evidence_outputs": [
         "sources/mining-immt-history.md",
         "sources/mining-immt-pib2020.md",
@@ -3231,7 +3231,10 @@
         "people/mamata-mohapatra.md",
         "people/m-g-sujana.md",
         "works/spent-cathodes-review.md",
-        "references/data/people-creations.json"
+        "references/data/people-creations.json",
+        "sources/mining-sujana-ferric2014.md",
+        "sources/mining-immt-canada2026.md",
+        "works/ferric-hydroxide-fluoride.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -3262,6 +3265,13 @@
             "Original work/patent credit for Sujana",
             "Later pilot operating evidence or explicit unresolved outcome hold"
           ]
+        },
+        {
+          "run_id": "2026-10-04-mineral-work-outcomes",
+          "at": "2026-10-04T01:27:35.187434+00:00",
+          "outcome": "bounded_history_people_and_research_synthesis_completed",
+          "completion_criteria_met": true,
+          "remaining": "Source-specific outcomes, full methods and social histories retained as follow-ups; no current operation certified."
         }
       ],
       "reuse_before_research": {
@@ -3292,11 +3302,80 @@
           "people/mamata-mohapatra.md",
           "people/m-g-sujana.md",
           "works/spent-cathodes-review.md",
-          "references/data/people-creations.json"
+          "references/data/people-creations.json",
+          "sources/mining-sujana-ferric2014.md",
+          "sources/mining-immt-canada2026.md",
+          "works/ferric-hydroxide-fluoride.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
+      },
+      "completed_at": "2026-10-04T01:27:35.187434+00:00",
+      "follow_up_evidence": [
+        {
+          "topic": "Pilot identity and operating outcomes",
+          "retry_after": "2026-10-11",
+          "gap": "Obtain project-specific commissioning/trial reports, throughput, recovery and operating periods. May2026 visit supports facility-tour reporting only; do not merge generic names into2025 projects without identity evidence.",
+          "source_ids": [
+            "mining-immt-canada2026",
+            "mining-immt-pib2025"
+          ],
+          "discovery_lead": "https://www.csir.res.in/sites/default/files/2026-05/16_to_30_april_2026.pdf",
+          "lead_scope": "Search-indexed institutional press-clipping compilation mentions20April2026 OMC trial; original technical/operator record not retrieved. Not adopted as measured outcome."
+        },
+        {
+          "topic": "Selected work and profile scope",
+          "retry_after": "2026-10-11",
+          "gap": "Read full2014 article and verify online date; retrieve original patent record/team if needed. Preserve existing Mamata profile and technology-date holds.",
+          "source_ids": [
+            "mining-sujana-ferric2014",
+            "mining-mamata-immt",
+            "mining-immt-sujana-technologies"
+          ]
+        },
+        {
+          "topic": "Mining-town social history and historical source ambiguities",
+          "retry_after": "2026-10-10",
+          "gap": "Worker settlement/displacement/local-enterprise evidence, Talcher1837 attribution and historical tons notation remain unresolved.",
+          "source_ids": [
+            "mining-dhenkanal-census1961",
+            "mining-talcher-mcl2019"
+          ]
+        }
+      ],
+      "completion_evidence": {
+        "scope": "Bounded desk synthesis; unresolved outcome fields explicit, no human review or current operation certification",
+        "criteria": [
+          {
+            "criterion": "Documented town histories",
+            "evidence": [
+              "economy/talcher-coal-history.md",
+              "economy/rourkela-steel-chain.md",
+              "references/data/mining-place-history.json"
+            ],
+            "result": "Dated typed milestones preserve historical geography and source ambiguities."
+          },
+          {
+            "criterion": "People and mineral research",
+            "evidence": [
+              "people/m-g-sujana.md",
+              "people/mamata-mohapatra.md",
+              "works/ferric-hydroxide-fluoride.md",
+              "works/spent-cathodes-review.md"
+            ],
+            "result": "Professional connections and credited selected publications; work/review distinctions explicit."
+          },
+          {
+            "criterion": "Recycling and critical-material stages, reuse rare-earth journey",
+            "evidence": [
+              "economy/minerals-research-immt.md",
+              "references/data/mining-research-innovation.json",
+              "journeys/rare-earths.md"
+            ],
+            "result": "Bench, pilot announcement, inauguration and later facility-tour evidence remain distinct; commercial and precise identity unknowns preserved."
+          }
+        ]
       }
     },
     {

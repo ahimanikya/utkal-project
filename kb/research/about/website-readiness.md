@@ -233,3 +233,7 @@ Historical town/plant chronology is source-checked draft material. It establishe
 ## Mineral-scientist checkpoint · 4 October 2026
 
 Scientist profiles and selected work are source-checked drafts with full coauthor credits. No portrait licence, human biography review, commercial adoption or website release is established.
+
+## Mineral works and later evidence · 4 October 2026
+
+Original abstract supports credited English work and limited experimental scope. Later pilot visit evidence adds no commercial outcome or current operation claim. All new content remains an editorial candidate; no website release.

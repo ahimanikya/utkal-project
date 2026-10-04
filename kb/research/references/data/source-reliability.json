@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T00:30:23.622518+00:00",
+  "updated_at": "2026-10-04T01:27:35.187434+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6470,6 +6470,42 @@
       "retry_after": "2026-10-11",
       "run_id": "2026-10-04-mineral-scientists",
       "checked_at": "2026-10-04T00:30:23.622518+00:00"
+    },
+    {
+      "source_id": "mining-sujana-ferric2014",
+      "url": "https://www.deswater.com/DWT_abstracts/vol_52_34-36/52_34-36_2014_6453.pdf",
+      "status": "available",
+      "scope": "One-page publisher abstract: heading, authors, affiliation, corresponding-author footnote, abstract and journal citation",
+      "capture_sha256": "39a019f047c307a376cf888082c2915bbe34fd2032fc1ba540049863f5c14374",
+      "retrieval_history": "Restricted-network DNS failure followed by successful verified-TLS download. Web PDF cache miss; original PDF recovered.",
+      "run_id": "2026-10-04-mineral-work-outcomes",
+      "checked_at": "2026-10-04T01:27:35.187434+00:00"
+    },
+    {
+      "source_id": "mining-immt-canada2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258794&reg=3&lang=1",
+      "status": "available",
+      "scope": "Paragraph beginning As part of the visit; preceding JDI paragraph",
+      "capture_sha256": "e0d2ecfdc36742970f3311f4993afb5856b691a0dad2fe58b2572e4e52928b0c",
+      "retrieval_history": "Restricted-network DNS failure followed by successful verified-TLS download. Web page also read.",
+      "run_id": "2026-10-04-mineral-work-outcomes",
+      "checked_at": "2026-10-04T01:27:35.187434+00:00"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S001191641000679X",
+      "status": "unavailable",
+      "reason": "Publisher403; separate2011 bauxite paper remains a discovery/bibliographic lead, not adopted as experimental evidence.",
+      "retry_after": "2026-10-11",
+      "run_id": "2026-10-04-mineral-work-outcomes",
+      "checked_at": "2026-10-04T01:27:35.187434+00:00"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19443994.2013.822633",
+      "status": "unavailable",
+      "reason": "Web route inaccessible. Original journal abstract PDF used for the work; online-date snippet not adopted.",
+      "retry_after": "2026-10-11",
+      "run_id": "2026-10-04-mineral-work-outcomes",
+      "checked_at": "2026-10-04T01:27:35.187434+00:00"
     }
   ]
 }

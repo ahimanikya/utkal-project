@@ -483,3 +483,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 4 October 2026 · Mineral-scientist checkpoint
 
 [Research receipt](records/mineral-scientists-2026-10-04.json): Mamata Mohapatra and M.G. Sujana profiles connect to the IMMT research record; review coauthors and grant/visit periods remain explicit. Original-work and pilot-outcome checks remain; RES-055 in progress. No website release.
+
+## 4 October 2026 · Mineral works and later evidence
+
+[Research receipt](records/mineral-work-outcomes-2026-10-04.json): RES-055 bounded synthesis complete: original Sujana–Anand abstract and later pilot-facility visit evidence added. Commercial outcomes and identity joins remain unresolved with dated follow-ups. No website release.

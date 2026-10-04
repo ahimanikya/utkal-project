@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-04T00:30:23.622518+00:00",
+  "updated_at": "2026-10-04T01:27:35.187434+00:00",
   "run_id": "2026-10-03-mineral-research",
   "task_id": "RES-055",
   "canonical_page": "economy/minerals-research-immt.md",
@@ -262,6 +262,34 @@
       "status": "unavailable",
       "reason": "Publisher returned403; discovery snippet not adopted as verified contribution evidence.",
       "retry_after": "2026-10-11"
+    },
+    {
+      "source_id": "mining-sujana-ferric2014",
+      "url": "https://www.deswater.com/DWT_abstracts/vol_52_34-36/52_34-36_2014_6453.pdf",
+      "status": "available",
+      "scope": "One-page publisher abstract: heading, authors, affiliation, corresponding-author footnote, abstract and journal citation",
+      "capture_sha256": "39a019f047c307a376cf888082c2915bbe34fd2032fc1ba540049863f5c14374",
+      "retrieval_history": "Restricted-network DNS failure followed by successful verified-TLS download. Web PDF cache miss; original PDF recovered."
+    },
+    {
+      "source_id": "mining-immt-canada2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2258794&reg=3&lang=1",
+      "status": "available",
+      "scope": "Paragraph beginning As part of the visit; preceding JDI paragraph",
+      "capture_sha256": "e0d2ecfdc36742970f3311f4993afb5856b691a0dad2fe58b2572e4e52928b0c",
+      "retrieval_history": "Restricted-network DNS failure followed by successful verified-TLS download. Web page also read."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S001191641000679X",
+      "status": "unavailable",
+      "reason": "Publisher403; separate2011 bauxite paper remains a discovery/bibliographic lead, not adopted as experimental evidence.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19443994.2013.822633",
+      "status": "unavailable",
+      "reason": "Web route inaccessible. Original journal abstract PDF used for the work; online-date snippet not adopted.",
+      "retry_after": "2026-10-11"
     }
   ],
   "evidence_lineage": "IMMT pages and PIB releases reporting IMMT activities are related institutional accounts, not independent validation.",
@@ -300,6 +328,76 @@
         "end": "2019-06-30",
         "scope": "Visit dates in institutional biography; not grant-period revision"
       }
+    }
+  ],
+  "work_outcome_checkpoint": {
+    "run_id": "2026-10-04-mineral-work-outcomes",
+    "task_ids": [
+      "RES-055"
+    ],
+    "status": "bounded_mining_history_research_deliverable_completed",
+    "new_people": 0,
+    "new_works": 1,
+    "scope": "Original abstract establishes full author credits; dated pilot-facility tour extends evidence without asserting output or exact cross-release project identity."
+  },
+  "later_evidence": [
+    {
+      "id": "immt-pilot-tour-2026-05-07",
+      "source_id": "mining-immt-canada2026",
+      "date": "2026-05-07",
+      "date_scope": "Government release date; report of the delegation visit",
+      "locator": "Paragraph beginning As part of the visit",
+      "geography": "CSIR-IMMT, Bhubaneswar",
+      "evidence_class": "government_visit_report",
+      "stage": "facility_tour_reported",
+      "named_facilities": [
+        "Platinum Group Elements pilot plant",
+        "recycling pilot plant",
+        "seabed minerals pilot plant",
+        "molten salt electrolysis pilot facility"
+      ],
+      "potential_prior_record_ids": [
+        "immt-platinum-group-pilot",
+        "immt-recycling-centre"
+      ],
+      "identity_match_status": "Facility-family overlap; precise equivalence to July2025 project IDs not proven",
+      "commercial_output": null,
+      "throughput": null,
+      "metal_recovery_rate": null,
+      "current_operation_status": "unknown",
+      "checked_on": "2026-10-04"
+    }
+  ],
+  "follow_up_evidence": [
+    {
+      "topic": "Pilot identity and operating outcomes",
+      "retry_after": "2026-10-11",
+      "gap": "Obtain project-specific commissioning/trial reports, throughput, recovery and operating periods. May2026 visit supports facility-tour reporting only; do not merge generic names into2025 projects without identity evidence.",
+      "source_ids": [
+        "mining-immt-canada2026",
+        "mining-immt-pib2025"
+      ],
+      "discovery_lead": "https://www.csir.res.in/sites/default/files/2026-05/16_to_30_april_2026.pdf",
+      "lead_scope": "Search-indexed institutional press-clipping compilation mentions20April2026 OMC trial; original technical/operator record not retrieved. Not adopted as measured outcome."
+    },
+    {
+      "topic": "Selected work and profile scope",
+      "retry_after": "2026-10-11",
+      "gap": "Read full2014 article and verify online date; retrieve original patent record/team if needed. Preserve existing Mamata profile and technology-date holds.",
+      "source_ids": [
+        "mining-sujana-ferric2014",
+        "mining-mamata-immt",
+        "mining-immt-sujana-technologies"
+      ]
+    },
+    {
+      "topic": "Mining-town social history and historical source ambiguities",
+      "retry_after": "2026-10-10",
+      "gap": "Worker settlement/displacement/local-enterprise evidence, Talcher1837 attribution and historical tons notation remain unresolved.",
+      "source_ids": [
+        "mining-dhenkanal-census1961",
+        "mining-talcher-mcl2019"
+      ]
     }
   ]
 }

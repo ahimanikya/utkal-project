@@ -462,3 +462,7 @@ RES-055: community, settlement and displacement history plus wider scientific cr
 ## Mineral-scientist checkpoint · 4 October 2026
 
 RES-055 scientist checkpoint adds two profiles and a selected review. Sujana original publication/patent credit and later pilot outcomes remain. Mamata rank/chronology conflicts held; publisher403 and profile discrepancies retry11October. Town social histories remain separate follow-ups.
+
+## Mineral works and later evidence · 4 October 2026
+
+RES-055 bounded desk synthesis complete; source-specific follow-ups remain10–11October. May2026 visit report does not verify throughput, current operation or precise2025 project identity. Original20April2026 PGM trial/operator report remains a discovery lead. Full2014 paper and online date, patent team, profile conflicts and town social histories remain open.

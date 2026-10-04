@@ -18895,6 +18895,52 @@
       "source_ids": [
         "mining-battery-cathodes-review2022"
       ]
+    },
+    {
+      "id": "sources/mining-sujana-ferric2014",
+      "title": "Ferric hydroxide: preparation, characterisation and fluoride removal studies from water",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-sujana-ferric2014.md",
+      "project_path": "kb/research/sources/mining-sujana-ferric2014.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-sujana-ferric2014"
+      ]
+    },
+    {
+      "id": "sources/mining-immt-canada2026",
+      "title": "High Commissioner of Canada to India Visits CSIR-IMMT to Boost Indo-Canada Collaborations in Critical Minerals",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-immt-canada2026.md",
+      "project_path": "kb/research/sources/mining-immt-canada2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-immt-canada2026"
+      ]
+    },
+    {
+      "id": "works/ferric-hydroxide-fluoride",
+      "title": "Ferric hydroxide: preparation, characterisation and fluoride removal studies from water",
+      "kind": "Work",
+      "layer": "source_research_record",
+      "source_path": "works/ferric-hydroxide-fluoride.md",
+      "project_path": "kb/research/works/ferric-hydroxide-fluoride.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "nature",
+        "economy"
+      ],
+      "source_ids": [
+        "mining-sujana-ferric2014"
+      ]
     }
   ],
   "shared_publications": [
@@ -20142,7 +20188,10 @@
         "people/mamata-mohapatra.md",
         "people/m-g-sujana.md",
         "works/spent-cathodes-review.md",
-        "references/data/people-creations.json"
+        "references/data/people-creations.json",
+        "sources/mining-sujana-ferric2014.md",
+        "sources/mining-immt-canada2026.md",
+        "works/ferric-hydroxide-fluoride.md"
       ],
       "project_records": [],
       "remaining_scope": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
@@ -20329,8 +20378,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1262,
-    "updated_at": "2026-10-04T00:30:23.622518+00:00",
+    "records_mapped": 1265,
+    "updated_at": "2026-10-04T01:27:35.187434+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20989,6 +21038,11 @@
       "run_id": "2026-10-04-mineral-scientists",
       "at": "2026-10-04T00:30:23.622518+00:00",
       "scope": "Searched source and destination identities before adding two scientists and one selected review. Existing Sujana source and IMMT research reused; not exhaustive deduplication."
+    },
+    {
+      "run_id": "2026-10-04-mineral-work-outcomes",
+      "at": "2026-10-04T01:27:35.187434+00:00",
+      "scope": "Existing Sujana and IMMT identities enhanced; one original work and two sources added. Later facility evidence kept separate from unproven project-identity joins."
     }
   ]
 }

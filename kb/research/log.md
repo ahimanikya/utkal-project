@@ -478,3 +478,7 @@ RES-055 checkpoint: Talcher and Rourkela histories connected, four new sources a
 ## Mineral-scientist checkpoint · 4 October 2026
 
 RES-055: added two scientist profiles and one credited English review, with three new sources and one reused original. Grant PI, fellowship visit and corresponding-author roles distinguished. Task remains in progress for bounded original-work/pilot-outcome checks.
+
+## Mineral works and later evidence · 4 October 2026
+
+RES-055 bounded desk synthesis complete. Added a Sujana–Anand experimental paper from its original abstract and a May2026 government facility-tour report. Prior stages unchanged; outcomes and identity joins remain unknown with dated follow-ups.

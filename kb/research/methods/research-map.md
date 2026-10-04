@@ -437,3 +437,7 @@ Reused Rourkela chain, IMMT and BTK source. Added Talcher identity and four orig
 ## Mineral-scientist checkpoint · 4 October 2026
 
 Added Mamata Mohapatra, M.G. Sujana and one selected review after identity search. Reused IMMT/Sujana evidence; three new publisher/funder records. Repeated institutional evidence is not independent corroboration.
+
+## Mineral works and later evidence · 4 October 2026
+
+Existing Sujana and IMMT identities enhanced. Original paper abstract and later government release added; no duplicate publication or inferred project-stage overwrite. Bounded map extension only.

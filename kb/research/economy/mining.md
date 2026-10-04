@@ -129,3 +129,7 @@ Kodingamali now links reported environmental work to the mine-output story. The 
 ## Mining-place history · 3 October 2026
 
 [Talcher’s historical chronology](talcher-coal-history.md) distinguishes town, coalfield, lease and production dates. The existing Rourkela record now separates furnace firing, dedication and capacity-phase completion. Historical boundaries and unresolved social-history gaps remain explicit.
+
+## History and research synthesis · 4 October 2026
+
+[IMMT’s connected research story](minerals-research-immt.md) now joins the Talcher and Rourkela histories with credited scientists, selected English works and dated critical-material facilities. The May2026 facility-tour report extends the historical evidence; output and precise project-identity questions remain open. The bounded RES-055 desk deliverable is complete, with dated follow-ups.
