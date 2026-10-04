@@ -517,3 +517,8 @@ Added28 scoped observations and five comparisons from original ministry tables. 
 ## Sadhaba maritime-science study · 4 October 2026
 
 Created a [Sadhaba maritime-science study](history/sadhaba-maritime-science.md),12 scoped claims,nine source/lead records and11 explicit unknowns. Two original PDFs recovered; inaccessible originals preserved as unavailable. Added related reading and evidence-qualified graph relationships. No human review, fieldwork or website release claimed.
+
+
+## Fisheries history · 4 October2026
+
+Added55 historical fisheries cells, two held alternate totals and ten matched comparisons. Provisional2023–24 retained; annual marine declines visible. Source PDF text available, direct downloads timed out. RES-017 remains in progress; export series next. No website release.

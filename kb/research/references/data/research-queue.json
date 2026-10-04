@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T17:52:37.451849+00:00",
+  "updated_at": "2026-10-04T20:14:45.768141+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1589,15 +1589,19 @@
       "done_when": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
       "target": "statistics/coverage.md",
       "status": "in_progress",
-      "attempts": 1,
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-04T16:55:29.191089+00:00",
-      "next_step": "Continue RES-017 with a matched longer fisheries production series; reuse July2026/February2026 releases and saved rice/company series first. The non-major port total conflict waits until11October; do not duplicate today’s PDF retrieval. Remaining exports and physical manufacturing scope require work.",
+      "last_worked_at": "2026-10-04T20:14:45.768141+00:00",
+      "next_step": "Continue RES-017 with full annual merchandise export values and attribution, then physical manufacturing scope, reusing saved company/rice data. Fisheries historical11-observation series saved; original images/later2024–25 table and rounding reconciliation retry11October. Do not repeat July2026 weekly capture.",
       "evidence_outputs": [
         "statistics/ports.md",
         "sources/trade-basic-port-statistics2025.md",
         "stories/ports-diverging-cargo.md",
-        "references/data/trade-logistics-series.json"
+        "references/data/trade-logistics-series.json",
+        "statistics/fisheries.md",
+        "references/data/fisheries-production-series.json",
+        "sources/fish-directorate-statistics2024.md",
+        "stories/fish-growth-beyond-the-coast.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1611,7 +1615,12 @@
           "stories/ports-diverging-cargo.md",
           "references/data/trade-logistics-series.json",
           "references/data/rice-economy.json",
-          "references/data/economic-time-series.json"
+          "references/data/economic-time-series.json",
+          "references/data/fisheries-production-series.json",
+          "sources/fish-directorate-statistics2024.md",
+          "stories/fish-growth-beyond-the-coast.md",
+          "economy/fishing-and-aquaculture.md",
+          "economy/comparison-01-fisheries.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -1624,6 +1633,15 @@
           "outcome": "port_series_and_internal_total_conflict_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Full exports, manufacturing and fisheries comparability; port total conflict retained."
+        },
+        {
+          "run_id": "2026-10-04-fisheries-series",
+          "at": "2026-10-04T20:14:45.768141+00:00",
+          "outcome": "historical_fisheries_series_checkpoint",
+          "completion_criteria_met": false,
+          "observations_added": 57,
+          "comparisons": 10,
+          "remaining": "Export/physical manufacturing series; fisheries table images and later-vintage reconciliation."
         }
       ]
     },

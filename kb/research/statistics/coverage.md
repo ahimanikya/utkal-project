@@ -97,3 +97,8 @@ People-and-creations research added five observations for broad textile/apparel/
 ## Port-series checkpoint · 4 October2026
 
 RES-017 now has ten annual Dhamra/Gopalpur observations per port and five Paradip vessel-time observations. [Port evidence](ports.md) retains an unresolved2023–24 non-major total conflict. Exports, physical manufacturing and longer fisheries series remain incomplete.
+
+
+## Fisheries history · 4 October2026
+
+RES-017 now includes five eleven-observation fisheries series ending provisional2023–24. Export/physical manufacturing work remains. See [fisheries](fisheries.md).
