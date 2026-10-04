@@ -177,3 +177,7 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 DMF community-service research remains a draft. Source-reading and arithmetic checks do not approve a public allegation or establish current operation. Retain government replies, date limits, selection bias and the distinction between completion and outcomes.
+
+## Forest community-history checkpoint · 4 October 2026
+
+Historical community accounts remain attributed research drafts. No current rights, income, fire-performance certification, interviews or human review claimed.

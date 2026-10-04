@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T08:06:11.256094+00:00",
+  "updated_at": "2026-10-04T02:29:35.227643+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6208,6 +6208,33 @@
       "run_id": "2026-10-02-mining-employment",
       "status": "unavailable",
       "scope": "Web reader cache miss; search snippet only.2010 headcount not imported."
+    },
+    {
+      "source_id": "forest-vasundhara2001",
+      "url": "https://www.fao.org/4/ad352t/AD352T06.htm",
+      "status": "available",
+      "scope": "English chapter: methodology, Sites1–3, conclusions, acknowledgements and footnotes",
+      "capture_sha256": "764796ad653ce210ba2ec6b1bd03db14cf6bc56ddca83956faacc473ca99cf69",
+      "capture_method": "original_FAO_hosted_HTML_download",
+      "run_id": "2026-10-04-forest-history",
+      "checked_at": "2026-10-04T02:29:35.227643+00:00"
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "url": "https://ideas.repec.org/a/ags/injagm/399613.html",
+      "status": "available",
+      "scope": "Publisher-supplied abstract and original-file link; no fieldwork dates supplied.",
+      "run_id": "2026-10-04-forest-history",
+      "checked_at": "2026-10-04T02:29:35.227643+00:00"
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "url": "https://ageconsearch.umn.edu/record/399613/files/IJAM%2032%20%283%29%20_%20Collection%20and%20marketing%20of%20Non-Timber-pages-120-121.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch failed; direct request returned zero bytes despite successful process exit. No PDF content verified.",
+      "retry_after": "2026-10-11",
+      "run_id": "2026-10-04-forest-history",
+      "checked_at": "2026-10-04T02:29:35.227643+00:00"
     }
   ]
 }

@@ -91,3 +91,7 @@ Tamarind, harida, bahada, karanja seed, kusum seed, lac and hill brooms are addi
 Do not distribute the collective product list to each Mayurbhanj cluster. Current operation, women ownership, product sales and collector payments are unknown. These five named leads are a research list, not a census. Programme aggregate sales cannot be assigned to them.
 
 The next evidence sought is a dated procurement ledger, completed-sale statement and actual collector-payment record for the same product, grade and period. Recent departmental PDFs and TDCC pages failed retrieval; index snippets and auction notices remain leads. Retry on 8 October, retaining the accessible historical evidence.
+
+## Community-history connection · 4 October 2026
+
+[Three attributed historical cases](../history/forest-livelihoods.md) connect forest products with community organisation, women’s work and resource-sharing conflicts. Their local historical accounts do not establish present incomes, universal practices or current collection rights.

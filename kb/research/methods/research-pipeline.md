@@ -235,3 +235,7 @@ RES-052 checkpoint deferred to9October. Seek original current unit workforce ret
 ## Mining and community services · 2026-10-02
 
 RES-053 selected by the Founder. Receipts/sample/case checkpoint saved; full audit reading, current operation and community outcomes remain in progress. No contact or public website publication in this batch.
+
+## Forest community-history checkpoint · 4 October 2026
+
+Continue RES-058 with original forest-rights decisions and community-management instruments; reuse Niyamgiri/forest-product records before browsing.2001 case geography resolved by methodology and body, publisher summary discrepancy retained.2018 original download unavailable; retry11October for survey dates. Do not infer FRA titles from1994 JFM.

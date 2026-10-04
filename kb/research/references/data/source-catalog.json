@@ -4776,7 +4776,17 @@
     "published_on": null,
     "capture_method": "institutional_hosted_original_study",
     "locator": "October2001; executive summary and selected case-study context",
-    "capture_note": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews."
+    "capture_note": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-history",
+        "published_period": "2001-10",
+        "locator": "English chapter: methodology, Sites1–3, conclusions, acknowledgements and footnotes",
+        "capture_sha256": "764796ad653ce210ba2ec6b1bd03db14cf6bc56ddca83956faacc473ca99cf69",
+        "scope": "Methodology, site headings, place descriptions and acknowledgements agree on Bolangir, Deogarh and Sundergarh. Summary says Sambalpur. Case-level geography resolved using body; publisher text discrepancy retained. No current district statistics or fresh interviews."
+      }
+    ]
   },
   "forest-tdcc-mfp": {
     "id": "forest-tdcc-mfp",
@@ -4798,7 +4808,16 @@
     "published_on": null,
     "capture_method": "author_publisher_supplied_abstract",
     "locator": "Abstract; DOI10.22004/ag.econ.399613",
-    "capture_note": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate."
+    "capture_note": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-history",
+        "scope": "Abstract and download link revisited. Direct PDF returned zero bytes; publication2018 retained separately from unknown survey dates.",
+        "download_status": "unavailable",
+        "retry_after": "2026-10-11"
+      }
+    ]
   },
   "forest-sector2025": {
     "id": "forest-sector2025",

@@ -397,3 +397,7 @@ RES-054 reuses Baphlimali records and existing air data, adding three source ide
 ### Mining evidence follow-up · 3 October 2026
 
 Four source identities extend the existing land-and-people collection. An NGT applicant annex is not a judgment; a committee account is not signed village minutes. Table4 row/total conflict held. RES-054 remains open for named source clarification and implementation records.
+
+## Forest community-history checkpoint · 4 October 2026
+
+Enhanced existing forest history and two saved source records. One publication remains one evidence lineage; six historical events are not six independent sources. No duplicate place or community profiles.
