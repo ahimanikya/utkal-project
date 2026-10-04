@@ -499,3 +499,7 @@ RES-069 consolidates the dated official state list and current detail snapshots.
 ## GI opportunity extension · 4 October 2026
 
 RES-070 reuses registered inventory and food/textile profiles. The [programme](../economy/gi-opportunity-programme.md) separates new research leads from applications already filed by others; comparisons do not establish eligibility.
+
+## GI specification extension · 4 October 2026
+
+RES-070 enhances existing Puri candidate and comparator identities with two original advertised specifications. Live registry status and journal text answer different questions; neither is independent corroboration of the applicant’s scientific claims.

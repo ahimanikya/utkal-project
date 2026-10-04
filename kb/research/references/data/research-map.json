@@ -20891,6 +20891,63 @@
         "gi-eu-crafts",
         "gi-edii-facilitation"
       ]
+    },
+    {
+      "id": "economy/khaja-gi-comparison",
+      "title": "Khaja GI specifications and evidence needed for Puri",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/khaja-gi-comparison.md",
+      "project_path": "kb/research/economy/khaja-gi-comparison.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-silao-journal2018",
+        "gi-goan-khaje-journal2020"
+      ]
+    },
+    {
+      "id": "sources/gi-silao-journal2018",
+      "title": "Silao Khaja advertised specification in GI Journal 109",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-silao-journal2018.md",
+      "project_path": "kb/research/sources/gi-silao-journal2018.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-silao-journal2018",
+        "gi-goan-khaje-journal2020"
+      ]
+    },
+    {
+      "id": "sources/gi-goan-khaje-journal2020",
+      "title": "Goan Khaje advertised specification in GI Journal 139",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-goan-khaje-journal2020.md",
+      "project_path": "kb/research/sources/gi-goan-khaje-journal2020.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-silao-journal2018",
+        "gi-goan-khaje-journal2020"
+      ]
     }
   ],
   "shared_publications": [
@@ -22491,7 +22548,10 @@
         "sources/gi-wipo-faq.md",
         "sources/gi-fao-approach.md",
         "sources/gi-eu-crafts.md",
-        "sources/gi-edii-facilitation.md"
+        "sources/gi-edii-facilitation.md",
+        "economy/khaja-gi-comparison.md",
+        "sources/gi-silao-journal2018.md",
+        "sources/gi-goan-khaje-journal2020.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -22516,8 +22576,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1371,
-    "updated_at": "2026-10-04T23:24:42.177966+00:00",
+    "records_mapped": 1374,
+    "updated_at": "2026-10-04T23:40:09.509522+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -23230,6 +23290,11 @@
       "at": "2026-10-04T23:24:42.177966+00:00",
       "run_id": "2026-10-04-gi-opportunities",
       "scope": "GI opportunities pilot and dossier pack; no product-identity duplication or legal eligibility conclusion."
+    },
+    {
+      "at": "2026-10-04T23:40:09.509522+00:00",
+      "run_id": "2026-10-04-gi-specifications",
+      "scope": "Two original GI journal specifications; reused existing candidates and application IDs."
     }
   ]
 }

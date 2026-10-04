@@ -18,7 +18,7 @@ This working pack starts preparation; it is not a signed application or a legal 
 | Working candidate | Evidence already reusable | Specific next annexure | Unresolved representation |
 |---|---|---|---|
 | Nimapada chhena jhili (GI-C001) | Tourism association; university preparation and maker credit | Dated name-use chronology with copies/page references; distinguish maker attribution from invention | Producer group and signatory unknown; user’s intended Nimapada name still to confirm |
-| Puri Khaja (GI-C003) | Indexed government cluster and temple-food descriptions | Original cluster record; comparison against Silao/Goan specifications; map of actual making locations | Representative association, mandate and relation to temple suppliers unknown |
+| Puri Khaja (GI-C003) | Indexed government cluster and temple-food descriptions | Original Puri cluster record; Puri technical description against recovered Silao/Goan specifications; map of actual making locations | Representative association, mandate and relation to temple suppliers unknown |
 | Puri gamucha (GI-C004) | User nomination; historical Pipili gamuchha cluster lead | Local-name identification sheet; weave/fibre/design comparison and producer-location evidence | Exact weaving community and candidate boundary unknown |
 | Old Town Korakhai (GI-C008) | Historical Census commodity entry and dated maker reporting | Historical trade/name-use annexure; current maker-validated specification | Eligible applicant and membership unknown |
 
@@ -56,3 +56,7 @@ Record participant’s role and consent; name/spelling used; where and since whe
 
 The Mahaprasad food family first needs a separate scope and custodianship study. List documented foods without turning an entire sacred tradition into one assumed product or claiming every recipe was invented in Puri.
 
+
+## Puri Khaja comparison annexure
+
+[Original GI specification comparison](../economy/khaja-gi-comparison.md) now supplies the Silao and Goa side of the comparison. Puri’s technical specification remains unknown. Preserve the Silao ingredient conflict and exclude unverified food-safety, health and market claims from any proposed recipe or financial plan. This annexure does not complete the Puri dossier.

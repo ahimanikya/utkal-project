@@ -546,3 +546,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## GI opportunity pilot · 4 October 2026
 
 [Programme](economy/gi-opportunity-programme.md):12 research leads, five Indian comparators, global system comparisons and four dossier briefs. Existing filings retained; no applications submitted. RES-070 remains in progress; no producer consent or human review invented.
+
+## Khaja GI specifications · 4 October 2026
+
+[Original specification comparison](economy/khaja-gi-comparison.md) distinguishes layered wheat Silao Khaja from chickpea Goan Khaje. Ingredient conflict and technical/economic claims held. Puri specification and producer mandate remain open; RES-070 continues. No filing or website publication.
