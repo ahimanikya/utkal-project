@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T15:32:02.171885+00:00",
+  "recorded_at": "2026-10-04T15:41:07.542753+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4617,22 +4617,25 @@
       "id": "UTP-WORK-158",
       "title": "Remove AI-generated tags beside website images",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-188",
-      "next_action": "Review and publish the caption cleanup; provenance remains in end credits and project records.",
+      "next_action": "Published and verified across all 124 public-edition pages. Provenance remains in end credits and canonical records.",
       "blockers": [],
       "refs": [
         "UTP-DEC-188",
-        "UTP-REV-136"
+        "UTP-REV-136",
+        "UTP-DEC-189",
+        "UTP-REL-064"
       ],
       "evidence": [
-        "records/image-label-cleanup-2026-10-04.json"
+        "records/image-label-cleanup-2026-10-04.json",
+        "records/image-label-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8394,6 +8397,26 @@
       "evidence": [
         "records/image-label-cleanup-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-189",
+      "title": "Deploy image label cleanup",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "deploy",
+      "scope": "Merge and publish PR96.",
+      "recorded_at": "2026-10-04T15:41:07.542753+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-158",
+        "UTP-DEC-188"
+      ],
+      "evidence": [
+        "records/image-label-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11619,7 +11642,8 @@
         "UTP-DEC-188"
       ],
       "evidence": [
-        "records/image-label-cleanup-2026-10-04.json"
+        "records/image-label-cleanup-2026-10-04.json",
+        "records/image-label-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12684,6 +12708,22 @@
         "records/chilika-trail-publication-2026-10-04.json"
       ],
       "note": "PR93 merged after checks passed; Pages deployment succeeded. Four photographs, three starter choices, ten guide returns and contextual contribution links verified live. Live-data exports carried the selected chapters and excluded private notes. Browser/PDF and local confirmation remain open."
+    },
+    {
+      "id": "UTP-REL-064",
+      "title": "Image caption cleanup published",
+      "status": "published",
+      "authorization": "UTP-DEC-189",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-189",
+        "UTP-WORK-158",
+        "UTP-REV-136"
+      ],
+      "evidence": [
+        "records/image-label-publication-2026-10-04.json"
+      ],
+      "note": "PR96 merged after validation; Pages deployment succeeded. Live HTML audit of 124 pages and 560 image elements found no AI-generated image alt prefixes or figure-caption tags. Homepage provenance retained in end credits; no visual or pixel OCR pass claimed."
     }
   ],
   "sources": [
