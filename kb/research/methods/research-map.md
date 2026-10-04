@@ -495,3 +495,7 @@ Existing rice, livestock, sweets and district concepts extended through one proc
 ## GI inventory extension · 4 October 2026
 
 RES-069 consolidates the dated official state list and current detail snapshots. Reuse [GI inventory](../collections/odisha-gi-products.md) before product research; grouped and logo IDs are explicit. This addition is not a whole-KB semantic deduplication claim.
+
+## GI opportunity extension · 4 October 2026
+
+RES-070 reuses registered inventory and food/textile profiles. The [programme](../economy/gi-opportunity-programme.md) separates new research leads from applications already filed by others; comparisons do not establish eligibility.

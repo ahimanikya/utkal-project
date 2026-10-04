@@ -4905,6 +4905,30 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/gi-opportunity-programme",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "arts",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "product/gi-application-preparation",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "arts",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7442,6 +7466,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "GI recognition does not establish sweets revenue or exports."
+    },
+    {
+      "from": "economy/gi-opportunity-programme",
+      "to": "collections/made-in-odisha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuse product and community research before creating a GI dossier."
+    },
+    {
+      "from": "economy/gi-opportunity-programme",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separate origin recognition from measured food-enterprise outcomes."
     }
   ],
   "relationship_types": {

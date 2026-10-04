@@ -1,0 +1,58 @@
+---
+type: "Research Collection"
+title: "GI application preparation: four initial evidence dossiers"
+description: "GI application preparation: four initial evidence dossiers — research checkpoint, not a submitted application."
+status: "draft"
+generated: {"by": "codex/gpt-6", "at": "2026-10-04T23:24:42.177966+00:00"}
+subjects: ["economy", "food", "arts", "governance"]
+sources: [{"id": "gi-opportunity-registry2026", "title": "IP India application index and nine comparator/pending records", "resource": "https://search.ipindia.gov.in/GIRPublicSearch/"}, {"id": "gi-filing-booklet", "title": "CGPDTM introductory booklet: GI filing evidence", "resource": "https://ipindia.gov.in/storage/content-media/i3ENZcn1Q3LOzL4KtcyZza7Sh1Nx2PDg2PPNif11.pdf"}, {"id": "gi-act-wipolex", "title": "GI Act 1999: producer representation and goods/place link", "resource": "https://www.wipo.int/wipolex/en/legislation/details/2399"}, {"id": "gi-puri-msme2019", "title": "Puri district industrial profile 2019–20: product clusters", "resource": "https://www.msmedicuttack.gov.in/press-release/OtVPvWhJBIPS%20Puri-2019-20.pdf"}, {"id": "gi-temple-food2019", "title": "Odisha Review June–July2019: dry Mahaprasad foods", "resource": "https://magazines.odisha.gov.in/Orissareview/2019/Jun-July/engpdf/Biggest-wonder-of-the-World-55-63.pdf"}, {"id": "gi-eu-quality", "title": "European Commission: PDO, PGI and TSG distinctions", "resource": "https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/geographical-indications-and-quality-schemes-explained_en"}, {"id": "gi-wipo-faq", "title": "WIPO: GI protection and territorial limits", "resource": "https://www.wipo.int/en/web/geographical-indications/faq_geographicalindications"}, {"id": "gi-fao-approach", "title": "FAO approach to sustainable geographical indications", "resource": "https://www.fao.org/geographical-indications/our-approach/en"}, {"id": "gi-eu-crafts", "title": "EUIPO craft and industrial GI system", "resource": "https://www.euipo.europa.eu/it/news/new-eu-system-for-geographical-indications-for-craft-and-industrial-products"}, {"id": "gi-edii-facilitation", "title": "EDII GI facilitation centre with NABARD support", "resource": "https://ediindia.org/project-government/geographical-indications-gi-registrations/"}]
+human_review_claimed: false
+---
+
+# GI application preparation: four initial evidence dossiers
+
+This working pack starts preparation; it is not a signed application or a legal eligibility determination. All four briefs need a confirmed applicant and producer mandate. Use [the programme](../economy/gi-opportunity-programme.md) and [structured register](../references/data/gi-opportunities.json) for sources and status.
+
+## Four initial dossier briefs
+
+| Working candidate | Evidence already reusable | Specific next annexure | Unresolved representation |
+|---|---|---|---|
+| Nimapada chhena jhili (GI-C001) | Tourism association; university preparation and maker credit | Dated name-use chronology with copies/page references; distinguish maker attribution from invention | Producer group and signatory unknown; user’s intended Nimapada name still to confirm |
+| Puri Khaja (GI-C003) | Indexed government cluster and temple-food descriptions | Original cluster record; comparison against Silao/Goan specifications; map of actual making locations | Representative association, mandate and relation to temple suppliers unknown |
+| Puri gamucha (GI-C004) | User nomination; historical Pipili gamuchha cluster lead | Local-name identification sheet; weave/fibre/design comparison and producer-location evidence | Exact weaving community and candidate boundary unknown |
+| Old Town Korakhai (GI-C008) | Historical Census commodity entry and dated maker reporting | Historical trade/name-use annexure; current maker-validated specification | Eligible applicant and membership unknown |
+
+## Evidence annexures to assemble for each candidate
+
+| Annexure | Required contents to investigate | Present state |
+|---|---|---|
+| A — identity | Working name, Odia spelling, variants, exact goods, exclusions and classes | Provisional names only |
+| B — prior rights and applications | Dated registry searches, related applications, marks/conflicts for practitioner review | Initial name screen; not clearance |
+| C — representation | Legal entity documents, producer membership and actual mandate; proposed signatory | Unknown |
+| D — place | Actual production locations; reasoned boundary and appropriately certified map | Unknown |
+| E — history/reputation | Dated primary copies, page references and name-use chronology; attributed oral accounts separately | Some reusable leads; incomplete |
+| F — specification | Materials, steps, measurable characteristics, tolerances and permissible variations | Not agreed with producers |
+| G — geographical link | Explain and evidence why quality, reputation or characteristics connect to this place | Hypotheses only |
+| H — controls | Inspection arrangement, records, traceability, complaints and qualifying-producer participation | Unknown |
+| I — economics | Dated producer/sample counts, quantities, net realization, costs and market routes | Unknown; no targets presented as facts |
+| J — submission | Current form/fee check, complete statement of case, annexure crosswalk and authorized signatures | Not ready; nothing submitted |
+
+The Registry’s introductory booklet (PDF p.13/printed p.12) informed this research checklist. Its own disclaimer means current forms and rules must be checked before filing. This is a dossier structure, not a claim that every listed annexure is a separately mandated official form. [Publisher](https://ipindia.gov.in/storage/content-media/i3ENZcn1Q3LOzL4KtcyZza7Sh1Nx2PDg2PPNif11.pdf).
+
+## Draft statement-of-case scaffold
+
+**Applicant:** unresolved — do not insert Utkal automatically.  
+**Proposed indication and goods:** candidate-specific, pending producer agreement.  
+**Area:** unresolved; attach verified map and boundary rationale.  
+**History and use of name:** insert only sourced statements with annexure/page references.  
+**Quality/reputation-place link:** evidence needed; temple association alone does not establish origin.  
+**Method and specification:** producer-validated technical description pending.  
+**Inspection and participation:** governance and verification arrangements pending.  
+**Representation and signature:** mandate, authorized signatory and declaration pending.
+
+## Field-record template for later authorized participation
+
+Record participant’s role and consent; name/spelling used; where and since when the product is made; source of skills and materials; distinctive steps; variations; documentary records; markets and dated quantities; competing local accounts; permission to cite or photograph. Mark testimony as testimony and record disagreement. No interviews or consultations have occurred in this batch.
+
+The Mahaprasad food family first needs a separate scope and custodianship study. List documented foods without turning an entire sacred tradition into one assumed product or claiming every recipe was invented in Puri.
+

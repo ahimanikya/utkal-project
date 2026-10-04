@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T22:50:11.558328+00:00",
+  "updated_at": "2026-10-04T23:24:42.177966+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -8212,6 +8212,187 @@
         }
       ],
       "retry_after": "2026-10-11"
+    },
+    {
+      "run_id": "2026-10-04-gi-opportunities",
+      "at": "2026-10-04T23:24:42.177966+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-opportunity-registry2026",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/",
+          "status": "available",
+          "scope": "Full HTML name index searched with Nimap/Nimapara, Jhili/Jhilli, Puri, Gamucha/Gamuchha/Gamocha/Gamosa, Mahaprasad, Khaja, Korakhai/Kora Khai, Gaja, Kanti and Arisa; nine individual records captured. No matching candidate name is not proof that no application exists. Registry documents and specifications not recovered."
+        },
+        {
+          "source_id": "gi-filing-booklet",
+          "url": "https://ipindia.gov.in/storage/content-media/i3ENZcn1Q3LOzL4KtcyZza7Sh1Nx2PDg2PPNif11.pdf",
+          "status": "available",
+          "scope": "Undated introductory booklet; PDF p.13 / printed p.12 visually checked. Page1 says this is introductory, not an exact reproduction of law/rules. Used for a preparation checklist only; current forms, fees and rules require a submission-time check."
+        },
+        {
+          "source_id": "gi-act-wipolex",
+          "url": "https://www.wipo.int/wipolex/en/legislation/details/2399",
+          "status": "available",
+          "scope": "Sections2(1)(e),11 and17; WIPO Lex legislative text. Bounded conceptual review, not a full current consolidated legal opinion."
+        },
+        {
+          "source_id": "gi-puri-msme2019",
+          "url": "https://www.msmedicuttack.gov.in/press-release/OtVPvWhJBIPS%20Puri-2019-20.pdf",
+          "status": "indexed_only",
+          "scope": "Indexed table at printed p.10 identifies Puri Khaja and Pipili cotton saree/gamuchha/dhoti-joda clusters. Full fetch failed certificate validation. Historical product association only; counts, current employment and GI boundaries not adopted."
+        },
+        {
+          "source_id": "gi-temple-food2019",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2019/Jun-July/engpdf/Biggest-wonder-of-the-World-55-63.pdf",
+          "status": "indexed_only",
+          "scope": "Indexed printed p.57 associates khaja, gaja and kanti with dry Mahaprasad. Full fetch failed certificate validation. Attributed cultural description; not an origin certificate, exclusive recipe, current menu or temple authorization."
+        },
+        {
+          "source_id": "gi-eu-quality",
+          "url": "https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/geographical-indications-and-quality-schemes-explained_en",
+          "status": "available",
+          "scope": "PDO/PGI/TSG sections and examples Kalamata olive oil, Westfälischer Knochenschinken and Gueuze. Comparative design lessons only; not Indian eligibility rules."
+        },
+        {
+          "source_id": "gi-wipo-faq",
+          "url": "https://www.wipo.int/en/web/geographical-indications/faq_geographicalindications",
+          "status": "available",
+          "scope": "Origin links, producer groups, territorial protection, no worldwide right and no comprehensive global GI search. Not an automatic international filing route for India."
+        },
+        {
+          "source_id": "gi-fao-approach",
+          "url": "https://www.fao.org/geographical-indications/our-approach/en",
+          "status": "available",
+          "scope": "Collective action, value-chain coordination and producer/consumer protection. Programme design reference; no measured Odisha benefits inferred."
+        },
+        {
+          "source_id": "gi-eu-crafts",
+          "url": "https://www.euipo.europa.eu/it/news/new-eu-system-for-geographical-indications-for-craft-and-industrial-products",
+          "status": "indexed_only",
+          "scope": "Indexed official reminder: EUIPO competence from1December2025. Comparative research route; no claim that an Odisha candidate is eligible or protected."
+        },
+        {
+          "source_id": "gi-edii-facilitation",
+          "url": "https://ediindia.org/project-government/geographical-indications-gi-registrations/",
+          "status": "indexed_only",
+          "scope": "Indexed institutional programme description: producer-group formation, application facilitation, legal support and post-registration support. Direct web page unavailable. Institutional model, not an offer of support to Utkal."
+        }
+      ],
+      "application_fetches": [
+        {
+          "application": 2117,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-2117.html",
+          "sha256": "8834528caf2a259ab85a9e29ad1b4b592d46433e5c54614bbe1ae649a4717c92"
+        },
+        {
+          "application": 805,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-805.html",
+          "sha256": "9c123bdc8f47e404afcda2c0a9460442905ed34054231f2f3e790f39bb8dc339"
+        },
+        {
+          "application": 797,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/797",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-797.html",
+          "sha256": "e5e5dddfa19e3792675ea8ebfc36de903c9a5b8cb2c9ab40c4b940d9e314237a"
+        },
+        {
+          "application": 121,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/121",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-121.html",
+          "sha256": "fd6590b3f7bdc4c0cb35c40c56fa8119aaadace9939f3b0460ba0875962ea558"
+        },
+        {
+          "application": 584,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/584",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-584.html",
+          "sha256": "c12e74df31734a489fa6103ef6b383af11f218ed47c942b628c8bdd1779bb0a4"
+        },
+        {
+          "application": 594,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/594",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-594.html",
+          "sha256": "86ebb582ae5b47aca77213ac5765eac30c17bba5b44c7ecb820814cb01b32fb9"
+        },
+        {
+          "application": 682,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/682",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-682.html",
+          "sha256": "27c2bcc121e226856a90aa08e7f6cb916fe12f7f94ffe19274f1c4b100c3b63e"
+        },
+        {
+          "application": 655,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/655",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-655.html",
+          "sha256": "77c80d2cf09b9f520277de97fe2511dae540246e358ea9eebdde1e03d48d0c6d"
+        },
+        {
+          "application": 804,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/804",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-opportunities/app-804.html",
+          "sha256": "e327ff6a1cf60186e3e449fac28d949c03f27aee826c8ec4588b9e2666ffd37f"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "id": "puri-msme",
+          "url": "https://www.msmedicuttack.gov.in/press-release/OtVPvWhJBIPS%20Puri-2019-20.pdf",
+          "http": "000",
+          "exit": 60,
+          "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+          "sha256": null
+        },
+        {
+          "id": "temple-review",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2019/Jun-July/engpdf/Biggest-wonder-of-the-World-55-63.pdf",
+          "http": "000",
+          "exit": 60,
+          "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+          "sha256": null
+        }
+      ],
+      "held_fields": [
+        {
+          "field": "original_puri_documents",
+          "reason": "TLS certificate validation failed; only indexed passages used.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "Mahaprasad_GI_claim",
+          "reason": "Non-government-host tourism-style page claims GI; no corresponding application/certificate established.",
+          "url": "https://liferay.estpl.net/web/guest/mahaprasad",
+          "status": "quarantined",
+          "retry_after": "2026-10-11"
+        }
+      ]
     }
   ]
 }

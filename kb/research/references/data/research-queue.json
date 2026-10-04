@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T22:50:11.558328+00:00",
+  "updated_at": "2026-10-04T23:24:42.177966+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4111,6 +4111,73 @@
         "map": "references/data/research-map.json"
       },
       "selection_basis": "Explicit user request for all Odisha GI items; other in-progress tasks preserved."
+    },
+    {
+      "id": "RES-070",
+      "order": 0.03,
+      "title": "GI candidate discovery, comparison and producer-led application preparation",
+      "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
+      "target": "economy/gi-opportunity-programme.md",
+      "status": "in_progress",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-04T23:24:42.177966+00:00",
+      "next_step": "Deepen Nimapada Jhili/Puri Khaja documentary dossiers and comparator specifications; identify exact Puri gamucha tradition. Broaden district nominations. Actual filing awaits candidate identity, eligible applicant and producer mandate plus complete evidence.",
+      "evidence_outputs": [
+        "economy/gi-opportunity-programme.md",
+        "product/gi-application-preparation.md",
+        "references/data/gi-opportunities.json",
+        "sources/gi-opportunity-registry2026.md",
+        "sources/gi-filing-booklet.md",
+        "sources/gi-act-wipolex.md",
+        "sources/gi-puri-msme2019.md",
+        "sources/gi-temple-food2019.md",
+        "sources/gi-eu-quality.md",
+        "sources/gi-wipo-faq.md",
+        "sources/gi-fao-approach.md",
+        "sources/gi-eu-crafts.md",
+        "sources/gi-edii-facilitation.md"
+      ],
+      "blocker": "No filing-ready applicant/mandate/specification; independent desk research can continue.",
+      "retry_after": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-gi-opportunities",
+          "at": "2026-10-04T23:24:42.177966+00:00",
+          "outcome": "twelve_lead_pilot_five_indian_comparators_four_dossier_briefs",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "collections/odisha-gi-products.md",
+          "references/data/odisha-gi-products.json",
+          "food/chhena-jhili.md",
+          "food/mahaprasad.md",
+          "food/korakhai.md",
+          "handlooms/garments-and-markets.md",
+          "economy/rasagola-and-sweets.md",
+          "economy/gi-opportunity-programme.md",
+          "product/gi-application-preparation.md",
+          "references/data/gi-opportunities.json",
+          "sources/gi-opportunity-registry2026.md",
+          "sources/gi-filing-booklet.md",
+          "sources/gi-act-wipolex.md",
+          "sources/gi-puri-msme2019.md",
+          "sources/gi-temple-food2019.md",
+          "sources/gi-eu-quality.md",
+          "sources/gi-wipo-faq.md",
+          "sources/gi-fao-approach.md",
+          "sources/gi-eu-crafts.md",
+          "sources/gi-edii-facilitation.md"
+        ],
+        "project_records": [
+          "kb/research/sources/odisha-gis.md"
+        ],
+        "audit_date": "2026-10-04",
+        "map": "references/data/research-map.json"
+      },
+      "selection_basis": "Explicit user request for prospective GI discovery and filing support."
     }
   ],
   "queue_revision_history": [
