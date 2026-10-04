@@ -466,3 +466,7 @@ NFHS-5 district samples and WHO indicator definitions recovered; nine provisiona
 ## 4 October 2026 · Economic time-series checkpoint
 
 Seven 15-year series and14 matched5/10-year comparisons saved. Original PDF/workbook retrieval failed; RES-015 image review retries 11 October. No causal explanation of contractions established.
+
+## 4 October 2026 · Investment implementation checkpoint
+
+One IMFA cluster now distinguishes asset transfer, unimplemented expansion and greenfield construction. Payment bridge, plant-specific new construction spending, actual commissioning and jobs remain unknown; public-sector cohort next.

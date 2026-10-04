@@ -457,3 +457,7 @@ Enhanced the existing baseline page and linked RES-014/018 to a reproducible pub
 ## 4 October 2026 · Economic-series reuse
 
 Existing nominal atlas and manufacturing/construction observations reused; new historic and real aggregates linked under RES-015. All share one DES publication lineage.
+
+## 4 October 2026 · Project-stage deduplication
+
+Reused IMFA annual-report and ministry captures; distinct KNR1, KNR2 and expansion IDs avoid same-place conflation. Seller agreement/closing releases are one transaction lineage.

@@ -237,3 +237,7 @@ Original IIPS district tables now support a balanced nutrition story. Values rem
 ## 4 October 2026 · Economic-series readiness
 
 Longer nominal and real growth stories exist as research drafts. Source table images remain unverified; additions retain needs_source_table_review. No website release.
+
+## 4 October 2026 · Investment story readiness
+
+A source-linked asset-acquisition example is ready for editorial review. It does not establish new statewide capital formation, current operation or a domestic/foreign financing split. No website publication.

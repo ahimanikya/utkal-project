@@ -2635,7 +2635,11 @@
       "subject_ids": [],
       "source_ids": [
         "investment-survey-full-2026",
-        "investment-survey-summary-2026"
+        "investment-survey-summary-2026",
+        "investment-tata-imfa-agreement",
+        "investment-tata-imfa-completion",
+        "mining-imfa-ar2026",
+        "mining-imfa-knr2-2026"
       ]
     },
     {
@@ -20540,11 +20544,15 @@
       "title": "Investment implementation evidence",
       "source_records": [
         "references/data/investment-tracker.json",
-        "journeys/investment.md"
+        "journeys/investment.md",
+        "economy/company-imfa.md",
+        "references/data/mining-programme.json",
+        "economy/bauxite-to-aluminium.md",
+        "statistics/company-investment.md"
       ],
       "project_records": [],
       "remaining_scope": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
-      "status_unchanged": "pending",
+      "status_unchanged": "in_progress",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
     {
@@ -21370,7 +21378,7 @@
   ],
   "current_counts": {
     "records_mapped": 1318,
-    "updated_at": "2026-10-04T14:42:04.663570+00:00",
+    "updated_at": "2026-10-04T14:54:26.289090+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22023,6 +22031,11 @@
       "at": "2026-10-04T14:42:04.663570+00:00",
       "run_id": "2026-10-04-gsdp-series",
       "scope": "Enhanced existing economic narrative and RES-015 reuse pointers; no new duplicate concept or independent-source claim."
+    },
+    {
+      "at": "2026-10-04T14:54:26.289090+00:00",
+      "run_id": "2026-10-04-investment-implementation",
+      "scope": "Enhanced existing investment identity; reused IMFA/NALCO context and added RES-016 pointers. Three asset/phase IDs prevent duplicate project accounting."
     }
   ]
 }

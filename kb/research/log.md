@@ -496,3 +496,7 @@ RES-014 completed: nine newer observations, nine older observations supplemented
 ## 4 October 2026 · Economic time-series research
 
 Added 97 annual observations to seven 15-year series with14 matched interval calculations. Preserved contractions and estimate vintage; original visual verification pending. Next independent task RES-016.
+
+## 4 October 2026 · Investment implementation evidence
+
+Added three project identities, six dated stage events and three non-additive financial observations. IMFA reports purchase payment of ₹707.27 crore; asset transfer separated from construction. RES-016 remains in progress; NALCO project case next.

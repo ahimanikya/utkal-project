@@ -45,3 +45,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 
 
 [^enterprise-nalco2026]: [NALCO Production and Financial Highlights FY2025–26](https://nalcoindia.com/company/our-growth-story/production-financial-highlights/)
+
+## From company spending to a named transaction · 4 October 2026
+
+The [IMFA acquisition case](../journeys/investment.md) identifies a payment for a Jajpur asset transfer and preserves its cost components, dates and project boundaries. This supplements the NALCO company-wide observations without treating either as an Odisha-wide capital-expenditure total.

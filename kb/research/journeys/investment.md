@@ -5,7 +5,7 @@ description: "Investment in Odisha — domestic and foreign capital — scope, e
 tags: ["investment", "growth", "monitoring"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:48:44-07:00"}
-sources: [{"id": "investment-survey-full-2026", "title": "Odisha Economic Survey 2025–26, section 5.1.3", "resource": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"}, {"id": "investment-survey-summary-2026", "title": "Odisha Economic Survey 2025–26, executive summary: industrial investment and capital outlay", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}]
+sources: [{"id": "investment-survey-full-2026", "title": "Odisha Economic Survey 2025–26, section 5.1.3", "resource": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf"}, {"id": "investment-survey-summary-2026", "title": "Odisha Economic Survey 2025–26, executive summary: industrial investment and capital outlay", "resource": "https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf"}, {"id": "investment-tata-imfa-agreement", "title": "Tata Steel: asset transfer agreement for Jajpur ferro alloy plant", "resource": "https://www.tatasteel.com/media/24981/tata-steel-limited-press-release.pdf"}, {"id": "investment-tata-imfa-completion", "title": "Tata Steel: completed sale of Jajpur ferro alloy plant to IMFA", "resource": "https://www.tatasteel.com/media/25494/bsense.pdf"}, {"id": "mining-imfa-ar2026", "title": "IMFA Annual Report 2025–26", "resource": "https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"}, {"id": "mining-imfa-knr2-2026", "title": "Environmental Clearance for the Ferro Alloy Plant (Submerged Arc Furnace 4x16.5 MVA) at Kanchrigaon & Chandia, Tehsil Sukinda, District Jajpur, Odisha, from M/s. Tata Steel Ltd to M/s. Indian Metals & Ferro Alloys Limited (IMFA)", "resource": "https://www.imfa.in/api/pdf/IA_OR_IND1_04092026.pdf/IA_OR_IND_1_04092026_a1432f31b5.pdf"}]
 ---
 
 # Investment in Odisha — domestic and foreign capital
@@ -51,3 +51,31 @@ IPICOL and Industries Department project-level implementation definitions and li
 [^investment-survey-full-2026]: [Odisha Economic Survey 2025–26, section 5.1.3](https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf)
 
 [^investment-survey-summary-2026]: [Odisha Economic Survey 2025–26, executive summary: industrial investment and capital outlay](https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf)
+
+## A completed purchase is not the same as a newly built factory
+
+**IMFA reports ₹707.27 crore paid to Tata Steel for the acquired Kalinganagar plant.** This is a useful project-linked payment record for FY2025–26. It records an existing asset changing hands; it cannot be presented as ₹707.27 crore spent building new productive capacity in Odisha. [Buyer annual report, printed p.17 / PDF p.10](https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf).
+
+Three identities prevent the place name “Kalinganagar” from collapsing different projects into one:
+
+| Identity | Evidence and date | What stays unknown |
+|---|---|---|
+| Acquired plant, KNR2 | Agreement 4 November 2025; completed 27 February 2026; four furnaces restarted and some material dispatched in March 2026 | Exact March output, current operation and jobs created |
+| KNR2 fifth furnace | Ministry annexure 4 September 2026: proposed 33-MVA furnace not implemented | Actual construction spending and commissioning |
+| Greenfield plant, KNR1 | Directors report 27 May 2026: advanced construction; June/September pre-commissioning targets | Observed commissioning and project-specific cash spent |
+
+[Tata Steel’s agreement](https://www.tatasteel.com/media/24981/tata-steel-limited-press-release.pdf) and [completion disclosure](https://www.tatasteel.com/media/25494/bsense.pdf) concern the same transaction. They are stage history, not two flows. The buyer’s report identifies the acquired plant as KNR2 and the greenfield plant as KNR1; the [ministry clearance transfer](https://www.imfa.in/api/pdf/IA_OR_IND1_04092026.pdf/IA_OR_IND_1_04092026_a1432f31b5.pdf) limits the implemented scope to the four existing furnaces. Same publisher repeated through different releases is one reporting lineage.
+
+### Reconcile the money before adding anything
+
+The completed transfer’s **₹610 crore base consideration excludes GST and working capital**. Buyer note 45(vi) separately records **₹25.03 crore net working capital assumed, excluding GST**. The ₹707.27 crore payment footnote has a broader stated amount, but the inspected passages do not provide a complete bridge. These are overlapping descriptions/components of one acquisition: do not add them or invent a tax explanation for their difference. [Note 45(vi), printed p.198 / PDF p.101](https://www.imfa.in/api/pdf/IMFAAnnualReportFY2526.pdf/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf).
+
+The Directors’ Report says the acquisition was funded entirely from internal accruals. That documents the immediate funding mechanism; it does not establish a domestic/foreign percentage of the company’s underlying capital. Company-wide capital work in progress covers several projects and is a balance at a date, not this plant’s annual cash expenditure.
+
+The acquired four furnaces represent 100,000 tonnes/year of reported capacity; the separate fifth furnace’s 50,000 tonnes/year remains a plan in the captured evidence. KNR1’s 100,000 tonnes/year also remains planned capacity here. Capacity is not output, and elapsed target dates do not prove completion. These are dated historical observations, not a claim that October operating status was checked.
+
+The [IMFA company record](../economy/company-imfa.md) supplies the wider production, workforce and mining context. The [company-investment page](../statistics/company-investment.md) explains why company-level spending cannot simply become an Odisha total. These are contextual relationships, not proof of investment causation or financial returns.
+
+Connects the named asset transfer to existing production and workforce evidence; those measures remain separate.
+
+Distinguishes a project-linked acquisition payment from company-wide capital expenditure.

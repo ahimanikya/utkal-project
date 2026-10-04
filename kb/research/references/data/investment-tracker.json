@@ -1,7 +1,7 @@
 {
-  "version": "1.0",
-  "checked_on": "2026-09-27",
-  "scope": "Seed measures for broader domestic and foreign investment; not an exhaustive or additive statewide total.",
+  "version": "1.1",
+  "checked_on": "2026-10-04",
+  "scope": "Statewide seed measures plus a bounded IMFA Jajpur project-identity case; not an exhaustive or additive Odisha investment total.",
   "statewide_realised_total": null,
   "observations": [
     {
@@ -71,6 +71,69 @@
       "ownership_split": "not established",
       "checked_on": "2026-09-27",
       "additive": false
+    },
+    {
+      "id": "IN05",
+      "project_id": "IMFA-KNR2-ACQUISITION",
+      "metric": "Base consideration for completed KNR2 asset acquisition",
+      "value": 610,
+      "unit": "INR crore",
+      "price_basis": "nominal transaction amount",
+      "period": "2025-26",
+      "period_type": "financial_year",
+      "transaction_date": "2026-02-27",
+      "evidence_status": "completed_asset_transfer",
+      "source_id": "investment-tata-imfa-completion",
+      "source_locator": "PDF p.1",
+      "geography": "Kalinganagar, Jajpur district, Odisha",
+      "ownership_split": "Project funding reported entirely from internal accruals; domestic/foreign financing share not quantified",
+      "checked_on": "2026-10-04",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "additive": false,
+      "caveat": "Excludes GST and working capital; repeated agreement and closing disclosures are the same transaction. Not greenfield construction expenditure."
+    },
+    {
+      "id": "IN06",
+      "project_id": "IMFA-KNR2-ACQUISITION",
+      "metric": "Purchase consideration reported paid to Tata Steel for KNR2 acquisition",
+      "value": 707.27,
+      "unit": "INR crore",
+      "price_basis": "nominal transaction amount",
+      "period": "2025-26",
+      "period_type": "financial_year",
+      "transaction_date": "2026-02-27",
+      "evidence_status": "company_reported_payment",
+      "source_id": "mining-imfa-ar2026",
+      "source_locator": "Printed p.17 / PDF p.10, liquid-assets footnote",
+      "geography": "Kalinganagar, Jajpur district, Odisha",
+      "ownership_split": "Project funding reported entirely from internal accruals; domestic/foreign financing share not quantified",
+      "checked_on": "2026-10-04",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "additive": false,
+      "caveat": "Buyer reports payment, but inspected footnote does not give a complete tax/working-capital bridge. Existing asset transfer; not new statewide capital formation or money spent on new capacity."
+    },
+    {
+      "id": "IN07",
+      "project_id": "IMFA-KNR2-ACQUISITION",
+      "metric": "Net working capital assumed in KNR2 asset acquisition",
+      "value": 25.03,
+      "unit": "INR crore",
+      "price_basis": "nominal transaction amount",
+      "period": "2025-26",
+      "period_type": "financial_year",
+      "transaction_date": "2026-02-27",
+      "evidence_status": "asset_acquisition_accounting",
+      "source_id": "mining-imfa-ar2026",
+      "source_locator": "Printed p.198 / PDF p.101, note45(vi)",
+      "geography": "Kalinganagar, Jajpur district, Odisha",
+      "ownership_split": "Project funding reported entirely from internal accruals; domestic/foreign financing share not quantified",
+      "checked_on": "2026-10-04",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "additive": false,
+      "caveat": "Excludes GST. Component of the same transaction, not an additional independent investment flow or a verified separate cash payment."
     }
   ],
   "source_variants": [
@@ -89,12 +152,192 @@
       "note": "Less precise executive-summary wording; not a separate flow."
     }
   ],
-  "project_records": [],
+  "project_records": [
+    {
+      "promoter": "Indian Metals & Ferro Alloys Limited",
+      "district": "Jajpur",
+      "state": "Odisha",
+      "sector": "Ferrochrome",
+      "ownership_class": "listed corporate enterprise",
+      "domestic_foreign_funding_split": null,
+      "current_operating_status": "not established as of 2026-10-04",
+      "jobs_created": null,
+      "additive": false,
+      "human_reviewed": false,
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "id": "IMFA-KNR2-ACQUISITION",
+      "name": "Kalinganagar acquired ferro alloy plant (KNR2)",
+      "aliases": [
+        "Tata Steel Jajpur ferro alloy plant sold to IMFA",
+        "Kalinganagar acquired unit KNR2"
+      ],
+      "identity_rule": "Existing asset transfer from Tata Steel; distinct from KNR1 greenfield project and the unimplemented fifth furnace. Acquisition price covers acquired interests, not a per-furnace allocation.",
+      "investment_type": "existing_asset_acquisition",
+      "funding_description": "Directors report p.51: funded entirely from internal accruals; this does not identify a national-origin percentage.",
+      "financial_observation_ids": [
+        "IN05",
+        "IN06",
+        "IN07"
+      ],
+      "actual_new_construction_expenditure": null,
+      "payment_reconciliation": "610 base and25.03 assumed net working capital exclude GST;707.27 reported payment is retained separately. Inspected source does not establish the full bridge; do not label the residual as tax or add all three.",
+      "capacity_records": [
+        {
+          "value": 100000,
+          "unit": "tonnes per annum",
+          "status": "four existing16.5-MVA furnaces switched on March2026",
+          "source_id": "mining-imfa-ar2026",
+          "source_locator": "Printed p.51 / PDF p.27",
+          "actual_output": null
+        }
+      ],
+      "stage_events": [
+        {
+          "id": "knr2-agreement",
+          "date": "2025-11-04",
+          "date_precision": "day",
+          "stage": "agreement_signed",
+          "detail": "Asset transfer agreement at base consideration610crore; closing then expected within3months subject to approvals.",
+          "source_id": "investment-tata-imfa-agreement",
+          "source_locator": "PDF p.2"
+        },
+        {
+          "id": "knr2-completed",
+          "date": "2026-02-27",
+          "date_precision": "day",
+          "stage": "acquisition_completed",
+          "detail": "Seller and buyer report completion; not a second investment after the agreement.",
+          "source_id": "investment-tata-imfa-completion",
+          "source_locator": "PDF p.1"
+        },
+        {
+          "id": "knr2-restart",
+          "date": "2026-03",
+          "date_precision": "month",
+          "stage": "production_and_dispatch_reported",
+          "detail": "Four16.5-MVA furnaces switched on; some material dispatched in March. Exact dates/output not disclosed here.",
+          "source_id": "mining-imfa-ar2026",
+          "source_locator": "Printed p.51 / PDF p.27"
+        },
+        {
+          "id": "knr2-clearance",
+          "date": "2026-09-04",
+          "date_precision": "day",
+          "stage": "clearance_transfer",
+          "detail": "Ministry transferred clearance for implemented four-furnace scope; not confirmation of October production.",
+          "source_id": "mining-imfa-knr2-2026",
+          "source_locator": "PDF pp.2–4"
+        }
+      ],
+      "related_project_ids": [
+        "IMFA-KNR2-FIFTH-FURNACE",
+        "IMFA-KNR1-GREENFIELD"
+      ]
+    },
+    {
+      "promoter": "Indian Metals & Ferro Alloys Limited",
+      "district": "Jajpur",
+      "state": "Odisha",
+      "sector": "Ferrochrome",
+      "ownership_class": "listed corporate enterprise",
+      "domestic_foreign_funding_split": null,
+      "current_operating_status": "not established as of 2026-10-04",
+      "jobs_created": null,
+      "additive": false,
+      "human_reviewed": false,
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "id": "IMFA-KNR2-FIFTH-FURNACE",
+      "name": "KNR2 proposed fifth furnace",
+      "aliases": [
+        "KNR2 additional33-MVA furnace"
+      ],
+      "parent_project_id": "IMFA-KNR2-ACQUISITION",
+      "identity_rule": "Expansion attached to acquired KNR2; do not count as the distinct KNR1 plant or as already operating capacity.",
+      "investment_type": "brownfield_expansion",
+      "funding_description": "Project-specific funding allocation not established.",
+      "financial_observation_ids": [],
+      "actual_new_construction_expenditure": null,
+      "planned_capacity": {
+        "value": 50000,
+        "unit": "tonnes per annum",
+        "source_id": "mining-imfa-ar2026",
+        "source_locator": "Printed p.51 / PDF p.27"
+      },
+      "stage_events": [
+        {
+          "id": "knr2-fifth-clearance",
+          "date": "2026-09-04",
+          "date_precision": "day",
+          "stage": "not_implemented",
+          "detail": "Ministry annexure marks proposed33-MVA furnace and67.5-MW captive power plant not implemented; transfer scope excludes them.",
+          "source_id": "mining-imfa-knr2-2026",
+          "source_locator": "PDF p.4, Annexure I"
+        }
+      ],
+      "related_project_ids": [
+        "IMFA-KNR2-ACQUISITION"
+      ]
+    },
+    {
+      "promoter": "Indian Metals & Ferro Alloys Limited",
+      "district": "Jajpur",
+      "state": "Odisha",
+      "sector": "Ferrochrome",
+      "ownership_class": "listed corporate enterprise",
+      "domestic_foreign_funding_split": null,
+      "current_operating_status": "not established as of 2026-10-04",
+      "jobs_created": null,
+      "additive": false,
+      "human_reviewed": false,
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "id": "IMFA-KNR1-GREENFIELD",
+      "name": "Kalinganagar greenfield ferrochrome project (KNR1)",
+      "aliases": [
+        "KNR1",
+        "IMFA Kalinganagar2x33MVA greenfield project"
+      ],
+      "identity_rule": "New100000-tpa project distinct from acquired KNR2; same place/promoter does not mean same project.",
+      "investment_type": "greenfield_construction",
+      "funding_description": "Separate project financing not reconciled in this batch; company-wide borrowing/CWIP cannot be assigned wholly to this plant.",
+      "financial_observation_ids": [],
+      "actual_new_construction_expenditure": null,
+      "planned_capacity": {
+        "value": 100000,
+        "unit": "tonnes per annum",
+        "source_id": "mining-imfa-ar2026",
+        "source_locator": "Printed p.51 / PDF p.27"
+      },
+      "stage_events": [
+        {
+          "id": "knr1-construction",
+          "date": "2026-05-27",
+          "date_precision": "day_report_date",
+          "stage": "construction_reported",
+          "detail": "Directors report signed27May: advanced construction; pre-commissioning for first furnace scheduled June2026 and second September2026. Targets are not observed commissioning.",
+          "source_id": "mining-imfa-ar2026",
+          "source_locator": "Printed pp.51,56; PDF pp.27,29"
+        }
+      ],
+      "related_project_ids": [
+        "IMFA-KNR2-ACQUISITION"
+      ]
+    }
+  ],
   "aggregation_rule": "No combined total until project identities, periods, stages, scope and overlapping financing have been reconciled.",
   "open_questions": [
     "Meaning of implemented: spending, construction and commissioning breakdown",
     "Domestic/foreign ownership and funding split",
     "Project-level deduplication and actual expenditure",
-    "Comparable five/ten-year series"
+    "Comparable five/ten-year series",
+    "KNR2 payment bridge from base consideration/working capital to reported payment",
+    "KNR1 and KNR2 expansion actual construction spending and observed commissioning",
+    "Public-sector and government project cohort still to add"
+  ],
+  "revision_history": [
+    {
+      "at": "2026-10-04T14:54:26.289090+00:00",
+      "run_id": "2026-10-04-investment-implementation",
+      "change": "Added3project identities and3non-additive financial observations, reusing prior industry evidence; originalIN01–IN04 retained."
+    }
   ]
 }
