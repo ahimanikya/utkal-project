@@ -417,3 +417,7 @@ One new authored Dhani paper mapped after both-workspace searches; four local ca
 ## Odisha in the world · 4 October 2026
 
 Existing historical, port and material records reused. Three source identities added: two primary instruments and one secondary lead held for original confirmation. PIB/port republication remains one lineage.
+
+## Rice markets · 4 October 2026
+
+RES-062 reuses the existing rice identities and Yadav2026 publication. Four newly mapped sources address absent market fields; the same publication is not independent corroboration. Kandhamal catalogue origin is not merged into Koraput GI identity.

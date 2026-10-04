@@ -5502,7 +5502,15 @@
     "accessed_on": "2026-10-02",
     "locator": "Sections2.2 and3.2; Tables6–7",
     "capture_method": "original_publisher_html",
-    "capture_note": "Original participatory research, farmer-perceived attributes. Publication date is not fieldwork date. Selected sites, not statewide prevalence. Health and nutrient assertions are not adopted."
+    "capture_note": "Original participatory research, farmer-perceived attributes. Publication date is not fieldwork date. Selected sites, not statewide prevalence. Health and nutrient assertions are not adopted.",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-rice-markets",
+        "checked_on": "2026-10-04",
+        "locator": "Section 3.4, paragraph beginning In Eastern Odisha; PDF p.11",
+        "scope": "Market-chain paragraph re-read; fieldwork/price observation date and matched grower receipts remain unknown."
+      }
+    ]
   },
   "rice-irri-kalahandi2020": {
     "id": "rice-irri-kalahandi2020",
@@ -6888,5 +6896,53 @@
     "capture_note": "One-page signed facsimile visually read. Designated partners and intended cooperation, not proof of a completed joint venture, delivered volume or continuing agreement.",
     "accessed_on": "2026-10-04",
     "capture_sha256": "c60542ee01e6807d2f20af0cc32b9fa7287da47e28d35d47ca1e6afe4b44bc38"
+  },
+  "rice-cgiar-trade2024": {
+    "id": "rice-cgiar-trade2024",
+    "title": "Drivers of Agrifood System Transformation in Odisha",
+    "resource": "https://cgspace.cgiar.org/server/api/core/bitstreams/5a2723be-0b6d-4b73-af7c-bb61bc42ba97/content",
+    "publisher": "Mishra and colleagues; CGIAR Initiative on National Policies and Strategies",
+    "published_on": "2024",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.27 / PDF p.33, Export markets paragraph",
+    "capture_note": "Original institutional analysis visually read; port-origin attribution gap. Cover says October2024, running footer December2024; month unresolved. No Odisha-specific rice shipment total derived.",
+    "capture_method": "original_PDF_text_and_visual",
+    "capture_sha256": "1f6c3664cda1d1cba95afa658086904d07f4e82a987066b1d6c4ff5fb920db6b"
+  },
+  "rice-apeda-promotion2025": {
+    "id": "rice-apeda-promotion2025",
+    "title": "APEDA Annual Administrative Report 2024–25 — Odisha capacity development",
+    "resource": "https://apeda.gov.in/sites/default/files/annual_report/APEDA_Annual_Report_English_2024_25.pdf",
+    "publisher": "APEDA",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.114 / PDF p.116, Odisha capacity-building table row16",
+    "capture_note": "Original table visually read; dated promotion event, not export execution. Nutritional language in table not adopted as evidence.",
+    "capture_method": "original_PDF_text_and_visual",
+    "capture_sha256": "6cc5e1c941af8c0c563951fa84b11acc9cf0bcf0aec553333b4ebf86289c28b9"
+  },
+  "rice-myefarm-listing": {
+    "id": "rice-myefarm-listing",
+    "title": "Kalajeera Rice — myefarm catalogue",
+    "resource": "https://www.mye.farm/shop/kalajeera-rice",
+    "publisher": "myefarm / Abeja Labs Private Limited",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "District, pack sizes, sourcing and ordering sections",
+    "capture_note": "Seller catalogue snapshot; Kandhamal origin asserted by seller, not verified Koraput GI origin. No displayed price, stock confirmation or completed purchase.",
+    "capture_method": "original_publisher_HTML",
+    "capture_sha256": "ceaf5d36871a797b26e19e41f887914c3b1ddf8dc9ed2b6ed8026962319ef1e8"
+  },
+  "rice-jaivik-products": {
+    "id": "rice-jaivik-products",
+    "title": "Jaivik Sri Farmers Producer Company — products and organisation",
+    "resource": "https://www.jaiviksrifpc.com/",
+    "publisher": "Jaivik Sri Farmers Producer Company",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "About Us and Our products sections",
+    "capture_note": "Producer self-description; commercial interest; no dated rice transaction, audited rice revenue or farmer payment evidence.",
+    "capture_method": "original_publisher_HTML",
+    "capture_sha256": "250963fe728211fd55d74724e829f758a0aa9bb177da632604d35c8f565652cf"
   }
 }

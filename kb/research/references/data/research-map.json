@@ -2163,7 +2163,12 @@
       "copy_state": "byte_identical",
       "subject_ids": [],
       "source_ids": [
-        "gi-kalajeera"
+        "gi-kalajeera",
+        "rice-jaivik-products",
+        "rice-myefarm-listing",
+        "rice-apeda-promotion2025",
+        "rice-cgiar-trade2024",
+        "rice-yadav-landraces2026"
       ]
     },
     {
@@ -15841,7 +15846,12 @@
         "rice-oas2024",
         "rice-fscw2025",
         "rice-sahoo-cost2023",
-        "rice-fscw2026"
+        "rice-fscw2026",
+        "rice-jaivik-products",
+        "rice-myefarm-listing",
+        "rice-apeda-promotion2025",
+        "rice-cgiar-trade2024",
+        "rice-yadav-landraces2026"
       ],
       "added_at": "2026-10-01T20:10:23.860704+00:00"
     },
@@ -19069,6 +19079,62 @@
       "source_ids": [
         "world-japan-suspension-lead2025"
       ]
+    },
+    {
+      "id": "sources/rice-jaivik-products",
+      "title": "Jaivik Sri Farmers Producer Company — products and organisation",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/rice-jaivik-products.md",
+      "project_path": "kb/research/sources/rice-jaivik-products.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-jaivik-products"
+      ]
+    },
+    {
+      "id": "sources/rice-myefarm-listing",
+      "title": "Kalajeera Rice — myefarm catalogue",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/rice-myefarm-listing.md",
+      "project_path": "kb/research/sources/rice-myefarm-listing.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-myefarm-listing"
+      ]
+    },
+    {
+      "id": "sources/rice-apeda-promotion2025",
+      "title": "APEDA Annual Administrative Report 2024–25 — Odisha capacity development",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/rice-apeda-promotion2025.md",
+      "project_path": "kb/research/sources/rice-apeda-promotion2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-apeda-promotion2025"
+      ]
+    },
+    {
+      "id": "sources/rice-cgiar-trade2024",
+      "title": "Drivers of Agrifood System Transformation in Odisha",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/rice-cgiar-trade2024.md",
+      "project_path": "kb/research/sources/rice-cgiar-trade2024.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "rice-cgiar-trade2024"
+      ]
     }
   ],
   "shared_publications": [
@@ -20474,11 +20540,16 @@
         "food/koraput-kalajeera-rice.md",
         "statistics/agriculture.md",
         "works/odisha-rice-seed-deployment.md",
-        "references/data/rice-economy.json"
+        "references/data/rice-economy.json",
+        "references/data/rice-markets.json",
+        "sources/rice-jaivik-products.md",
+        "sources/rice-myefarm-listing.md",
+        "sources/rice-apeda-promotion2025.md",
+        "sources/rice-cgiar-trade2024.md"
       ],
       "project_records": [],
       "remaining_scope": "Document origin-attributed rice trade evidence and one dated producer-to-retail case where available; retain explicit evidence gaps when export origin or farm returns cannot be established. Separate GI, promotion, listing and actual sales.",
-      "status_unchanged": "pending",
+      "status_unchanged": "completed",
       "instruction": "Extend saved rice fields; no duplicate Kalajeera concept or production observations."
     }
   ],
@@ -20497,8 +20568,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1269,
-    "updated_at": "2026-10-04T06:32:22.384782+00:00",
+    "records_mapped": 1273,
+    "updated_at": "2026-10-04T07:35:13.123765+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [

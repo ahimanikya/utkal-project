@@ -197,3 +197,7 @@ The Dhani addition is an attributed historical case. Current operation, income a
 ## Odisha in the world · 4 October 2026
 
 World-connections collection is an editorial candidate. Port traffic, installed capacity, institutional agreements and actual exports remain separate. No current Japan-supply claim, human review or website publication.
+
+## Rice markets · 4 October 2026
+
+Rice-market additions are source-linked editorial candidates. Seller claims are labelled; no live price, certified supplier, current stock, verified farm margin or overseas shipment asserted. Website unchanged.

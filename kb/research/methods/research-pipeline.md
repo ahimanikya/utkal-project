@@ -255,3 +255,7 @@ Resume RES-058 on 11 October for the required 2018 fieldwork dates and original 
 ## Odisha in the world · 4 October 2026
 
 RES-059 bounded synthesis completed. Continue RES-062 distinctive rice markets using existing Kalajeera and rice-economy evidence; retain country/product/port joins and Japan current-status evidence as dated follow-ups.
+
+## Rice markets · 4 October 2026
+
+Continue RES-030 garments and export disaggregation. Rice matched-lot and origin-attributed export gaps remain dated follow-ups for 2026-10-11.

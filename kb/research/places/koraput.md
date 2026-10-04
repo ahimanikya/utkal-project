@@ -63,3 +63,5 @@ Build attributed profiles of willing growers, weavers, food producers and hosts,
 - [Koraput — district banking](../statistics/districts/koraput.md) — Read the full dated banking snapshot without treating credit as district output.
 
 - [Homestay evidence](../statistics/homestays.md) — Read cluster targets separately from operating properties and demand.
+
+[Kalajeera’s route to market](../economy/rice-economy.md) follows domestic-market evidence and the records still needed to establish grower returns and attributable overseas trade.
