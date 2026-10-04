@@ -488,3 +488,7 @@ Fisheries table images, later2024–25 download and one-tonne alternate totals a
 ## Export evidence · 4 October 2026
 
 DEPM2021–22 sector sum differs by34.81 crore; original PDF unavailable. Seafood Figure4.9 has unresolved quantity/value caption. Retry11October; district/product-country origin, benefit and margin evidence remains unknown.
+
+## Manufacturing checkpoint · 4 October 2026
+
+Exact RSP FY2024–25 return, source rounding policy and original CAG p.39 remain open. PDF requests failed; retry11October 2026. Non-metal manufacturing and local supplier orders remain independent next work.

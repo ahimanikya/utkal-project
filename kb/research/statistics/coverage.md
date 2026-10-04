@@ -106,3 +106,7 @@ RES-017 now includes five eleven-observation fisheries series ending provisional
 ## Export evidence · 4 October 2026
 
 [Export sector history](../trade/merchandise-exports.md) now adds matched annual nominal values and explicit attribution limits. Physical manufacturing remains RES-017 work.
+
+## Manufacturing checkpoint · 4 October 2026
+
+[Selected manufacturing products](../economy/manufacturing-output-and-suppliers.md) reuse existing annual output and connect operating ratios. Metals do not represent all manufacturing; non-metal product series remain open.
