@@ -976,3 +976,9 @@ The approved Tides and Tales trail is published with three photographic chapters
 Three photographed Mayurbhanj chapters connect Similipal, Chhau and a Baripada meal. The five-idea starter is preserved; new books carry selected chapters and credited photographs. Forest-access and performer-led contribution prompts invite dated evidence and consent-aware cultural accounts. The visitor can arrange these experiences across suitable days.
 
 [Candidate evidence](../records/mayurbhanj-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.
+
+## UTP-HIS-0229 · Mayurbhanj joins the journey
+
+The approved Forest, Rhythm and a Meal trail is published with three photographic chapters and the existing five-idea starter. Live delivery and a live-data offline export passed. Visual/native PDF review, local confirmation and Search Console remain open.
+
+[Publication evidence](../records/mayurbhanj-trail-publication-2026-10-04.json) · [PR104](https://github.com/ahimanikya/utkal-project/pull/104).

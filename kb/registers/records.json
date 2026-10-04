@@ -4692,22 +4692,25 @@
       "id": "UTP-WORK-161",
       "title": "Mayurbhanj illustrated trail and matching tour books",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-194",
-      "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open.",
+      "next_action": "Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-194",
-        "UTP-REV-139"
+        "UTP-REV-139",
+        "UTP-DEC-195",
+        "UTP-REL-067"
       ],
       "evidence": [
-        "records/mayurbhanj-illustrated-trail-2026-10-04.json"
+        "records/mayurbhanj-illustrated-trail-2026-10-04.json",
+        "records/mayurbhanj-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8586,6 +8589,26 @@
       "evidence": [
         "records/mayurbhanj-illustrated-trail-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-195",
+      "title": "Publish approved Mayurbhanj trail",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge PR104 and publish the reviewed Mayurbhanj trail through Pages.",
+      "recorded_at": "2026-10-04T21:13:39.675521+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-161",
+        "UTP-DEC-194"
+      ],
+      "evidence": [
+        "records/mayurbhanj-trail-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11886,7 +11909,8 @@
         "UTP-DEC-194"
       ],
       "evidence": [
-        "records/mayurbhanj-illustrated-trail-2026-10-04.json"
+        "records/mayurbhanj-illustrated-trail-2026-10-04.json",
+        "records/mayurbhanj-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12999,6 +13023,22 @@
         "records/balasore-trail-publication-2026-10-04.json"
       ],
       "note": "PR101 merged after validation; Pages succeeded. Ten live routes, three photograph hashes, shared journey data and matching three-chapter offline export checked. Existing search shortlist retained; no browser visual pass claimed."
+    },
+    {
+      "id": "UTP-REL-067",
+      "title": "Mayurbhanj · Forest, Rhythm and a Meal published",
+      "status": "published",
+      "authorization": "UTP-DEC-195",
+      "destination": "https://utkalproject.org/journey-starters/mayurbhanj/",
+      "refs": [
+        "UTP-DEC-195",
+        "UTP-WORK-161",
+        "UTP-REV-139"
+      ],
+      "evidence": [
+        "records/mayurbhanj-trail-publication-2026-10-04.json"
+      ],
+      "note": "PR104 merged after validation; Pages succeeded. Ten live routes, three photograph hashes, shared journey data and matching three-chapter offline export checked. Existing search shortlist retained; no browser visual pass claimed."
     }
   ],
   "sources": [
