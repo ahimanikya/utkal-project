@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T02:29:35.227643+00:00",
+  "updated_at": "2026-10-04T03:30:43.162867+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6235,6 +6235,33 @@
       "retry_after": "2026-10-11",
       "run_id": "2026-10-04-forest-history",
       "checked_at": "2026-10-04T02:29:35.227643+00:00"
+    },
+    {
+      "source_id": "forest-jfm-resolution2011",
+      "url": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf",
+      "status": "available",
+      "scope": "PDF pp. 1–4, 6–11, 14, 17–21; clauses 3, 4, 7–14, 16; Annexure B Forms 1–5",
+      "capture_sha256": "abc7c9ba6627b53a09c3fa6ea049059d9ff1671f5cfef60ff88ba263905b1cc5",
+      "visual_check": "unavailable: web screenshots failed; text-based capture only",
+      "run_id": "2026-10-04-forest-rights",
+      "checked_at": "2026-10-04T03:30:43.162867+00:00"
+    },
+    {
+      "source_id": "forest-jfm-publisher",
+      "url": "https://odishaforest.in/forest-management/joint-forest-management",
+      "status": "available",
+      "scope": "Publisher history and links; later amendment pointers only; programme counts not extracted",
+      "run_id": "2026-10-04-forest-rights",
+      "checked_at": "2026-10-04T03:30:43.162867+00:00"
+    },
+    {
+      "url": "https://tribal.nic.in/downloads/FRA/FRAActnRulesBook.pdf",
+      "status": "unavailable",
+      "scope": "Original national Act/rules booklet retrieval",
+      "reason": "Web timeout and direct verified-TLS request timed out after 45 seconds with no usable document. Search snippets not adopted as Act text.",
+      "retry_after": "2026-10-11",
+      "run_id": "2026-10-04-forest-rights",
+      "checked_at": "2026-10-04T03:30:43.162867+00:00"
     }
   ]
 }

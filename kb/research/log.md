@@ -440,3 +440,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## Forest community-history checkpoint · 4 October 2026
 
 RES-058 started: three historical community cases and six dated milestones;2001 case geography resolved, publisher inconsistency preserved.2018 source recovery failed, survey dates unknown. Rights evidence remains open.
+
+## Forest management instruments · 4 October 2026
+
+RES-058 original JFM instrument checkpoint: ten scoped policy provisions and resolution/gazette chronology; linked existing judicial evidence. Later amendments and local instruments remain open. MoTA booklet timed out; no current-law or implementation claim.

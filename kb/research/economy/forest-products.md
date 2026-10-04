@@ -95,3 +95,7 @@ The next evidence sought is a dated procurement ledger, completed-sale statement
 ## Community-history connection · 4 October 2026
 
 [Three attributed historical cases](../history/forest-livelihoods.md) connect forest products with community organisation, women’s work and resource-sharing conflicts. Their local historical accounts do not establish present incomes, universal practices or current collection rights.
+
+## From village management to enterprise evidence
+
+[The historical 2011 JFM provisions](../history/forest-livelihoods.md) connect women’s committee representation, livelihood planning and forest-product marketing. They identify records to seek before describing an enterprise arrangement. A policy benefit share is not a measured collector income, and a model agreement is not local permission.

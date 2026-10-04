@@ -401,3 +401,7 @@ Four source identities extend the existing land-and-people collection. An NGT ap
 ## Forest community-history checkpoint · 4 October 2026
 
 Enhanced existing forest history and two saved source records. One publication remains one evidence lineage; six historical events are not six independent sources. No duplicate place or community profiles.
+
+## Forest management instruments · 4 October 2026
+
+Added original JFM 2011 source and publisher amendment-discovery page. Reused Niyamgiri judgment under source ID mining-niyamgiri-sc2013 and project ID mining-niyamgiri-scr2013; these refer to one original publication. No duplicate court-case concept added.

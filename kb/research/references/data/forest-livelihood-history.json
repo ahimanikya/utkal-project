@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "run_id": "2026-10-04-forest-history",
-  "updated_at": "2026-10-04T02:29:35.227643+00:00",
+  "updated_at": "2026-10-04T03:30:43.162867+00:00",
   "task_id": "RES-058",
   "canonical_page": "history/forest-livelihoods.md",
   "cases": [
@@ -111,6 +111,16 @@
       "locator": "Site1, The KL story",
       "evidence_class": "study_reported_history",
       "checked_on": "2026-10-04"
+    },
+    {
+      "id": "odisha-jfm2011-resolution",
+      "date_as_reported": "2011-09-09",
+      "publication_date": "2011-09-22",
+      "claim": "JFM resolution issued; distinguish resolution and gazette dates.",
+      "source_id": "forest-jfm-resolution2011",
+      "locator": "PDF p. 1 header",
+      "evidence_class": "government_resolution",
+      "checked_on": "2026-10-04"
     }
   ],
   "geography_resolution": {
@@ -150,6 +160,27 @@
       "status": "unavailable",
       "reason": "Web fetch failed; direct request returned zero bytes despite successful process exit. No PDF content verified.",
       "retry_after": "2026-10-11"
+    },
+    {
+      "source_id": "forest-jfm-resolution2011",
+      "url": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf",
+      "status": "available",
+      "scope": "PDF pp. 1–4, 6–11, 14, 17–21; clauses 3, 4, 7–14, 16; Annexure B Forms 1–5",
+      "capture_sha256": "abc7c9ba6627b53a09c3fa6ea049059d9ff1671f5cfef60ff88ba263905b1cc5",
+      "visual_check": "unavailable: web screenshots failed; text-based capture only"
+    },
+    {
+      "source_id": "forest-jfm-publisher",
+      "url": "https://odishaforest.in/forest-management/joint-forest-management",
+      "status": "available",
+      "scope": "Publisher history and links; later amendment pointers only; programme counts not extracted"
+    },
+    {
+      "url": "https://tribal.nic.in/downloads/FRA/FRAActnRulesBook.pdf",
+      "status": "unavailable",
+      "scope": "Original national Act/rules booklet retrieval",
+      "reason": "Web timeout and direct verified-TLS request timed out after 45 seconds with no usable document. Search snippets not adopted as Act text.",
+      "retry_after": "2026-10-11"
     }
   ],
   "scope_limits": [
@@ -172,8 +203,171 @@
       "value": null,
       "reason": "Historical study reports arrangements; primary instruments not retrieved.",
       "retry_after": "2026-10-11"
+    },
+    {
+      "field": "Later JFM amendments and current consolidated applicability",
+      "value": null,
+      "source_id": "forest-jfm-publisher",
+      "reason": "Publisher points to 2015 and 2019 changes; original amendments required before a current procedure guide.",
+      "next_action": "Original amendment discovery in next independent RES-058 batch."
+    },
+    {
+      "field": "National Act/rules original text",
+      "value": null,
+      "reason": "Original MoTA booklet timeout; do not promote snippets to verified statutory text.",
+      "retry_after": "2026-10-11"
     }
   ],
   "human_review_claimed": false,
-  "website_publication": false
+  "website_publication": false,
+  "update_history": [
+    {
+      "run_id": "2026-10-04-forest-rights",
+      "at": "2026-10-04T03:30:43.162867+00:00",
+      "scope": "Historical JFM instrument and evidence distinctions; existing cases preserved."
+    }
+  ],
+  "policy_instruments": [
+    {
+      "id": "odisha-jfm2011",
+      "source_id": "forest-jfm-resolution2011",
+      "resolution_number": "16524-IF-Affn.17/2011/F.& E.",
+      "resolution_date": "2011-09-09",
+      "gazette_number": "2176",
+      "gazette_date": "2011-09-22",
+      "provisions": [
+        {
+          "id": "jfm2011-formation",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 3, PDF p. 4",
+          "claim": "Village adults form the membership; Palli Sabha sends its formation resolution through the Range Officer for divisional registration.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-women",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 4(i)–(ii), PDF p. 4",
+          "claim": "At least half of executive-committee members are to be women; either chairperson or vice-chairperson is to be a woman.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-market-linkage",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 7(vi), PDF p. 7",
+          "claim": "Committee is to seek marketing links for NTFP and other micro-enterprise products with Forest Department support.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-palli-sabha",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 8(i), PDF p. 7",
+          "claim": "Executive committee functions as a Palli Sabha subcommittee for forest, wildlife and environmental protection.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-micro-plan",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 10(iii),(vi)–(vii), PDF pp. 8–9",
+          "claim": "Participatory micro-plan may include beekeeping, mushroom cultivation and other livelihoods; collection proposals consider ecosystem capacity and require the stated scrutiny and approval.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-kendu",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 11(i)(c), PDF p. 9",
+          "claim": "Collection from assigned forest and disposal of kendu leaves remain distinct: disposal follows prevailing government provisions and practices.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-harvest-benefit",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 11(i)(d), PDF pp. 9–10",
+          "claim": "For the specified major/final harvest route, VSS/EDC share is 50 percent of sale price after proportionate harvesting costs; domestic-use produce option is separately specified. This is a rule, not measured earnings.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-transit",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 12, PDF p. 10",
+          "claim": "The document distinguishes within-area permits from transport outside the area requiring a competent forest officer. Historical route only.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-mou",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 14 and Form 5, PDF pp. 11,21",
+          "claim": "Prescribed MoU identifies registration, assigned forest, legal status, boundaries and start date, with committee and Range Officer signatures; blank template is not an executed agreement.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2011-supersession",
+          "source_id": "forest-jfm-resolution2011",
+          "locator": "clause 16, PDF p. 14",
+          "claim": "2011 resolution supersedes the 22 October 2008 resolution while saving previously formed VSSs.",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2011-09-09",
+          "publication_date": "2011-09-22",
+          "geography": "Odisha, as scoped by the resolution",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        }
+      ],
+      "later_versions": "Publisher overview names amendments in 2015 and 2019; original texts not reviewed.",
+      "local_executed_instruments": null,
+      "fra_title_status": null
+    }
+  ],
+  "rights_evidence_reuse": {
+    "source_workspace_source_id": "mining-niyamgiri-sc2013",
+    "project_source_id": "mining-niyamgiri-scr2013",
+    "same_original_publication": true,
+    "original_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf",
+    "locator": "2013 judgment paragraphs 58–63, printed pp. 946–948 / PDF pp. 33–34",
+    "scope": "Reuse existing judicial direction requiring case-specific Gram Sabha consideration followed by Ministry decision; not a fresh source capture or current title. No duplicate judgment profile created."
+  }
 }

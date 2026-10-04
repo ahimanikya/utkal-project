@@ -4,9 +4,9 @@ title: "Forest livelihoods: a documented history"
 description: "Forest livelihoods: a documented history — evidence, context and open questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:23:15.175549+00:00"}
-sources: [{"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}, {"id": "forest-kendujhar2018", "title": "Collection and marketing of Non-Timber forest products in Kendujhar District of Odisha", "resource": "https://ideas.repec.org/a/ags/injagm/399613.html"}]
+sources: [{"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}, {"id": "forest-kendujhar2018", "title": "Collection and marketing of Non-Timber forest products in Kendujhar District of Odisha", "resource": "https://ideas.repec.org/a/ags/injagm/399613.html"}, {"id": "forest-jfm-resolution2011", "title": "Joint Forest Management Resolution, 2011: Orissa Gazette Extraordinary No. 2176", "resource": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf"}, {"id": "forest-jfm-publisher", "title": "Joint Forest Management: Odisha Forest Department publisher overview", "resource": "https://odishaforest.in/forest-management/joint-forest-management"}]
 human_review_claimed: false
-subjects: ["history", "food", "economy", "everyday"]
+subjects: ["history", "food", "economy", "everyday", "governance"]
 ---
 
 # Forest livelihoods: a documented history
@@ -48,3 +48,19 @@ The methodology, case headings and acknowledgements agree on **Sundergarh**. The
 [Forest products](../economy/forest-products.md) connects these community histories with household use and trade without converting historical testimony into present-day income.
 
 [Structured case evidence](../references/data/forest-livelihood-history.json) retains dates, attribution and adverse findings. The separate 2018 Kendujhar survey’s fieldwork dates remain unknown: its linked PDF returned no usable content. Original rights decisions and agreements are the next research step; no new interviews are claimed.
+
+## Women, village institutions and the 2011 resolution
+
+**The 2011 JFM resolution required women to hold at least half of executive-committee seats**, with a woman as either chairperson or vice-chairperson. This is a historical design requirement, not a verified participation rate. The resolution is dated 9 September; the gazette was published on 22 September 2011. [Original, header and clause 4](https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf).
+
+It also joined forest protection with livelihood planning: market links, micro-enterprises, beekeeping and mushroom cultivation appear in its provisions. Kendu collection and disposal are treated separately. Its specified major-harvest benefit share is subject to harvesting costs and the stated process; it cannot be read as income received by a household. [Clauses 7, 10 and 11](https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf).
+
+The appended forms show which records would help verify a local arrangement: formation resolution, divisional registration, forest map and a signed MoU with boundaries and a start date. **A blank form does not establish an agreement for Baghamunda, Suruguda or any other village.** [Forms 1–5](https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf).
+
+The department’s [overview](https://odishaforest.in/forest-management/joint-forest-management) refers to later amendments in 2015 and 2019. Their original texts still need reconciliation before any current procedure guide.
+
+## Different records answer different rights questions
+
+The saved [Niyamgiri judgment, paragraphs 58–63](https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf) provides a separate historical court decision: case-specific Gram Sabha consideration followed by a Ministry decision. The source workspace and project use different IDs for this same judgment; they are one evidence lineage. We reuse it without creating another case or counting it as new corroboration.
+
+JFM organisation records, forest-rights claims/titles and case-specific judicial directions must remain distinguishable. The three 2001 study cases still have no original signed agreements or titles attached here. The national Act/rules booklet fetch timed out, so this checkpoint does not supply a verified current application checklist.

@@ -451,3 +451,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Forest community history
 
 [Research receipt](records/forest-history-2026-10-04.json): RES-058 historical checkpoint: three attributed cases and six milestones; case geography clarified, source conflict preserved. Primary rights evidence and2018 survey dates remain open. No website release.
+
+## 4 October 2026 · Forest management instruments
+
+[Research receipt](records/forest-rights-2026-10-04.json): RES-058 historical policy checkpoint: women’s representation, livelihood planning and local-document requirements. Later amendments, local instruments and study dates remain open. No website release.

@@ -410,3 +410,7 @@ RES-053 now has a six-DMF financial sample and four named case bundles with date
 ## Forest community-history checkpoint · 4 October 2026
 
 RES-058:2001 case geography resolved through methodology and Sites1–3; conflicting summary retained.2018 original returned zero bytes, fieldwork dates remain unknown, retry11October. Original rights decisions and community agreements remain eligible research.
+
+## Forest management instruments · 4 October 2026
+
+RES-058: original 2011 resolution captured, including women’s representation and local agreement forms. Original 2015/2019 amendments remain eligible; signed local agreements and current titles unknown. MoTA original booklet timeout, retry 11 October; 2018 survey-date gap unchanged.

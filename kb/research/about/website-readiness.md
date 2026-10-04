@@ -181,3 +181,7 @@ DMF community-service research remains a draft. Source-reading and arithmetic ch
 ## Forest community-history checkpoint · 4 October 2026
 
 Historical community accounts remain attributed research drafts. No current rights, income, fire-performance certification, interviews or human review claimed.
+
+## Forest management instruments · 4 October 2026
+
+Historical policy provisions are labelled by version. Women’s representation rule is not observed membership, benefit share is not income, and forms do not establish signed agreements or local permissions. No human review or website release.

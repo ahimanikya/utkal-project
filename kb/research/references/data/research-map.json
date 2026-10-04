@@ -18971,6 +18971,34 @@
         "global-sf-bangalore"
       ],
       "added_at": "2026-10-03T13:40:05.334724+00:00"
+    },
+    {
+      "id": "sources/forest-jfm-resolution2011",
+      "title": "Joint Forest Management Resolution, 2011: Orissa Gazette Extraordinary No. 2176",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/forest-jfm-resolution2011.md",
+      "project_path": "kb/research/sources/forest-jfm-resolution2011.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-jfm-resolution2011"
+      ]
+    },
+    {
+      "id": "sources/forest-jfm-publisher",
+      "title": "Joint Forest Management: Odisha Forest Department publisher overview",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/forest-jfm-publisher.md",
+      "project_path": "kb/research/sources/forest-jfm-publisher.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-jfm-publisher"
+      ]
     }
   ],
   "shared_publications": [
@@ -20291,9 +20319,13 @@
         "food/mahua-mohula.md",
         "references/data/forest-livelihood-history.json",
         "sources/forest-vasundhara2001.md",
-        "sources/forest-kendujhar2018.md"
+        "sources/forest-kendujhar2018.md",
+        "sources/forest-jfm-resolution2011.md",
+        "sources/forest-jfm-publisher.md"
       ],
-      "project_records": [],
+      "project_records": [
+        "kb/research/sources/mining-niyamgiri-scr2013.md"
+      ],
       "remaining_scope": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
       "status_unchanged": "pending",
       "instruction": "Reuse food identities and forest statistics. Study absent product/market/history fields only."
@@ -20389,8 +20421,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1262,
-    "updated_at": "2026-10-04T02:29:35.227643+00:00",
+    "records_mapped": 1264,
+    "updated_at": "2026-10-04T03:30:43.162867+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21003,6 +21035,11 @@
       "run_id": "2026-10-04-forest-history",
       "at": "2026-10-04T02:29:35.227643+00:00",
       "scope": "Enhanced existing forest history/source identities; no new source ID or duplicate community profile. Added structured case dataset and task pointer."
+    },
+    {
+      "run_id": "2026-10-04-forest-rights",
+      "at": "2026-10-04T03:30:43.162867+00:00",
+      "scope": "Two source identities added: original JFM resolution and publisher discovery route. Existing Niyamgiri source aliases identified across workspaces; same judgment, no independent corroboration."
     }
   ]
 }

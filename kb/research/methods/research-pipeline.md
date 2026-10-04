@@ -239,3 +239,7 @@ RES-053 selected by the Founder. Receipts/sample/case checkpoint saved; full aud
 ## Forest community-history checkpoint · 4 October 2026
 
 Continue RES-058 with original forest-rights decisions and community-management instruments; reuse Niyamgiri/forest-product records before browsing.2001 case geography resolved by methodology and body, publisher summary discrepancy retained.2018 original download unavailable; retry11October for survey dates. Do not infer FRA titles from1994 JFM.
+
+## Forest management instruments · 4 October 2026
+
+Continue RES-058 with original 2015/2019 JFM amendments and one archival/community-history source; reuse the saved 2011 resolution and Niyamgiri judgment. No repeated study or new judgment identity. MoTA booklet and 2018 study originals retry 11 October; local signed agreements and current titles remain unknown.
