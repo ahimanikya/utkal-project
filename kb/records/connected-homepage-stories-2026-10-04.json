@@ -1,0 +1,396 @@
+{
+  "title": "Connect homepage artwork and story beginnings",
+  "recorded_at": "2026-10-04T11:22:52.481972+00:00",
+  "status": "local_candidate",
+  "authorization": {
+    "id": "UTP-DEC-180",
+    "quote": "OK, let's do that",
+    "scope": "Implement the recommended image-to-story connections, refine all 30 story introductions, and inspect onward discovery and journey links."
+  },
+  "changes": [
+    "Twelve curated artwork-theme connection records, with internal reasons and limits.",
+    "Each slot respects active pins first, then recent-history avoidance, then available theme connections, followed by existing seasonal/regional weighting. When related fresh stories are exhausted, selection widens.",
+    "Homepage waits for artwork resolution before selecting stories. A failed or four-second stalled image uses the static artwork and its matching theme.",
+    "Manual story refresh keeps the artwork still and maintains matching footer credits.",
+    "Thirty original homepage introductions, grounded in the existing linked page content. No quotations or new external factual research added.",
+    "Sarala Das and Pratibha Ray profiles now offer reciprocal epic-storytelling reading links.",
+    "Section heading now reads A place. A taste. A story to carry with you., accommodating both people and living traditions."
+  ],
+  "editorial_data": "research/featured-stories.json",
+  "interpretation_boundary": "AI-generated artwork is an imagined thematic invitation. It does not identify the linked location, maker, dancer, company or depicted textile. Connection reasons are internal editorial metadata.",
+  "source_context": [
+    "research/stories/narratives/chilika.json",
+    "research/stories/narratives/konark.json",
+    "research/destinations/regions.json",
+    "research/food/collection.json",
+    "research/food/puri-coast.json",
+    "research/food/bhubaneswar.json",
+    "research/food/cuttack.json",
+    "research/voices/collection.json",
+    "research/people/subhas-chandra-bose.json",
+    "research/culture/craft-stories.json",
+    "research/culture/textile-stories.json"
+  ],
+  "validation": {
+    "full_build": "pass",
+    "full_tests": 409,
+    "coastal_build": "pass",
+    "coastal_tests": 78,
+    "focused_controller_selection_tests": 24,
+    "onward_audit": [
+      {
+        "href": "/knowledge/chilika/",
+        "onward_routes": [
+          "/visit/experiences/mangalajodi-birdwatching/",
+          "/visit/places/mangalajodi/",
+          "/visit/experiences/kalijai-crossing/",
+          "/visit/places/kalijai/",
+          "/visit/experiences/satapada-boating/",
+          "/visit/places/satapada/",
+          "/visit/stays/mangalajodi/",
+          "/visit/stays/barkul-rambha/",
+          "/visit/stays/rajhans-satapada/",
+          "/knowledge/konark/"
+        ],
+        "journey_link": true,
+        "save_controls": 11
+      },
+      {
+        "href": "/knowledge/konark/",
+        "onward_routes": [
+          "/food/chhena-poda/",
+          "/food/puri-coast/",
+          "/visit/stays/puri-coast/",
+          "/knowledge/chilika/",
+          "/destinations/puri/",
+          "/destinations/bhubaneswar/",
+          "/visit/places/dhauli/",
+          "/visit/places/raghurajpur/"
+        ],
+        "journey_link": true,
+        "save_controls": 5
+      },
+      {
+        "href": "/destinations/bhubaneswar/",
+        "onward_routes": [
+          "/visit/places/mukteswar/",
+          "/visit/places/dhauli/",
+          "/stories/bhubaneswar-fresco/",
+          "/food/bhubaneswar/",
+          "/visit/stays/bhubaneswar/",
+          "/knowledge/konark/",
+          "/destinations/puri/",
+          "/visit/places/raghurajpur/",
+          "/destinations/cuttack/",
+          "/food/everyday/",
+          "/food/fire-cooking/"
+        ],
+        "journey_link": true,
+        "save_controls": 7
+      },
+      {
+        "href": "/destinations/puri/",
+        "onward_routes": [
+          "/visit/places/raghurajpur/",
+          "/food/puri-coast/",
+          "/visit/stays/puri-coast/",
+          "/destinations/bhubaneswar/",
+          "/visit/places/dhauli/",
+          "/knowledge/konark/",
+          "/food/odisha-rasagola/"
+        ],
+        "journey_link": true,
+        "save_controls": 5
+      },
+      {
+        "href": "/destinations/cuttack/",
+        "onward_routes": [
+          "/visit/places/barabati/",
+          "/visit/experiences/cuttack-filigree/",
+          "/food/cuttack/",
+          "/visit/experiences/cuttack-netaji/",
+          "/visit/stays/cuttack/",
+          "/destinations/bhubaneswar/",
+          "/people/gopinath-mohanty/",
+          "/people/subhas-chandra-bose/",
+          "/textiles/khandua/"
+        ],
+        "journey_link": true,
+        "save_controls": 6
+      },
+      {
+        "href": "/destinations/balasore/",
+        "onward_routes": [
+          "/visit/places/chandipur/",
+          "/people/fakir-mohan-senapati/",
+          "/food/balasore/",
+          "/visit/stays/balasore-coast/",
+          "/destinations/mayurbhanj/"
+        ],
+        "journey_link": true,
+        "save_controls": 6
+      },
+      {
+        "href": "/destinations/mayurbhanj/",
+        "onward_routes": [
+          "/visit/places/similipal/",
+          "/visit/experiences/mayurbhanj-chhau/",
+          "/food/mudhi-mansa/",
+          "/visit/stays/similipal-gateways/",
+          "/destinations/balasore/",
+          "/textiles/tasar/"
+        ],
+        "journey_link": true,
+        "save_controls": 6
+      },
+      {
+        "href": "/visit/places/raghurajpur/",
+        "onward_routes": [
+          "/destinations/puri/",
+          "/food/puri-coast/",
+          "/visit/stays/puri-coast/",
+          "/destinations/bhubaneswar/",
+          "/visit/places/dhauli/",
+          "/knowledge/konark/",
+          "/crafts/pattachitra/",
+          "/knowledge/kotpad/"
+        ],
+        "journey_link": true,
+        "save_controls": 2
+      },
+      {
+        "href": "/visit/places/mangalajodi/",
+        "onward_routes": [
+          "/knowledge/chilika/",
+          "/visit/experiences/mangalajodi-birdwatching/",
+          "/visit/stays/mangalajodi/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/visit/places/mukteswar/",
+        "onward_routes": [
+          "/destinations/bhubaneswar/",
+          "/food/bhubaneswar/",
+          "/visit/stays/bhubaneswar/",
+          "/visit/places/dhauli/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/odisha-rasagola/",
+        "onward_routes": [
+          "/food/puri-coast/",
+          "/destinations/cuttack/",
+          "/destinations/bhubaneswar/",
+          "/food/chhena-poda/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/chhena-poda/",
+        "onward_routes": [
+          "/food/fire-cooking/",
+          "/food/poda-pitha/",
+          "/food/enduri-pitha/",
+          "/food/puri-coast/",
+          "/food/mudhi-mansa/",
+          "/knowledge/konark/",
+          "/food/odisha-rasagola/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/mudhi-mansa/",
+        "onward_routes": [
+          "/destinations/mayurbhanj/",
+          "/visit/places/similipal/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/enduri-pitha/",
+        "onward_routes": [
+          "/food/fire-cooking/",
+          "/food/everyday/",
+          "/food/poda-pitha/",
+          "/food/chhena-poda/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/poda-pitha/",
+        "onward_routes": [
+          "/food/fire-cooking/",
+          "/food/everyday/",
+          "/food/enduri-pitha/",
+          "/food/chhena-poda/",
+          "/food/tala-pitha/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/ou-khatta/",
+        "onward_routes": [
+          "/food/everyday/",
+          "/food/badi-chura/",
+          "/food/bhubaneswar/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/badi-chura/",
+        "onward_routes": [
+          "/food/fire-cooking/",
+          "/food/everyday/",
+          "/food/bhubaneswar/",
+          "/food/ou-khatta/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/food/puri-coast/",
+        "onward_routes": [
+          "/destinations/puri/",
+          "/food/odisha-rasagola/",
+          "/food/chhena-poda/",
+          "/visit/places/raghurajpur/",
+          "/visit/stays/puri-coast/"
+        ],
+        "journey_link": true,
+        "save_controls": 6
+      },
+      {
+        "href": "/food/bhubaneswar/",
+        "onward_routes": [
+          "/destinations/bhubaneswar/",
+          "/food/chhena-poda/",
+          "/food/everyday/",
+          "/visit/places/mukteswar/",
+          "/visit/stays/bhubaneswar/",
+          "/food/fire-cooking/"
+        ],
+        "journey_link": true,
+        "save_controls": 3
+      },
+      {
+        "href": "/food/cuttack/",
+        "onward_routes": [
+          "/destinations/cuttack/",
+          "/visit/experiences/cuttack-filigree/",
+          "/visit/experiences/cuttack-netaji/",
+          "/people/subhas-chandra-bose/"
+        ],
+        "journey_link": true,
+        "save_controls": 2
+      },
+      {
+        "href": "/people/subhas-chandra-bose/",
+        "onward_routes": [
+          "/destinations/cuttack/",
+          "/visit/experiences/cuttack-netaji/",
+          "/food/cuttack/",
+          "/food/odisha-rasagola/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/people/fakir-mohan-senapati/",
+        "onward_routes": [
+          "/literature/six-acres-and-a-third/",
+          "/destinations/balasore/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/people/sarala-das/",
+        "onward_routes": [
+          "/people/pratibha-ray/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/people/pratibha-ray/",
+        "onward_routes": [
+          "/people/sarala-das/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/people/bhima-bhoi/",
+        "onward_routes": [
+          "/people/sarala-das/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/people/gopinath-mohanty/",
+        "onward_routes": [
+          "/destinations/cuttack/",
+          "/knowledge/kotpad/",
+          "/people/pratibha-ray/",
+          "/literature/six-acres-and-a-third/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/stories/bhubaneswar-fresco/",
+        "onward_routes": [
+          "/destinations/bhubaneswar/",
+          "/visit/places/dhauli/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/crafts/pattachitra/",
+        "onward_routes": [
+          "/visit/places/raghurajpur/",
+          "/crafts/pipili-applique/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/textiles/khandua/",
+        "onward_routes": [
+          "/textiles/tasar/",
+          "/textiles/sambalpuri-bandha/",
+          "/knowledge/kotpad/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      },
+      {
+        "href": "/knowledge/kotpad/",
+        "onward_routes": [
+          "/textiles/tasar/",
+          "/textiles/sambalpuri-bandha/",
+          "/textiles/khandua/"
+        ],
+        "journey_link": true,
+        "save_controls": 1
+      }
+    ]
+  },
+  "limitations": [
+    "Browser visual review remains unavailable due to administrator-enforced security-policy verification failure. No visual inspection claimed.",
+    "Search Console sitemap processing remains a separate unresolved item under UTP-WORK-139; this batch does not claim a new Google processing check."
+  ],
+  "publication": "Not deployed. Prepare implementation PR for review."
+}

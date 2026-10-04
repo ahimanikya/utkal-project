@@ -28,6 +28,11 @@ export function checkFeaturedDiscovery(directory){
   const options=JSON.parse(home.match(/<script[^>]*data-story-options[^>]*>([\s\S]*?)<\/script>/)[1]);
   assert.equal(templates.length,30);
   assert.equal(options.pool.length,30);
+  assert.equal(options.themes.length,12);
+  for(const theme of options.themes) {
+   assert.ok(theme.preferred.length);
+   for(const href of theme.preferred)assert.ok(options.pool.some(e=>e.href===href));
+  }
   assert.deepEqual(options.pins,config.pins);
   for(const slot of ['place','taste','life'])assert.equal(options.pool.filter(e=>e.slot===slot).length,10);
   for(const [,href,template] of templates){
@@ -35,6 +40,8 @@ export function checkFeaturedDiscovery(directory){
    assert.equal((template.match(/<article[ >]/g)||[]).length,1);
    assert.match(template,/<img\b/);
    assert.match(template,/data-story-credit/);
+   const intro=config.pool.find(e=>e.href===href).intro;
+   assert.ok(intro && template.includes(intro.replaceAll('&','&amp;')),href+' intro');
    assert.match(read(href),/<h1[ >]/);
    for(const [,src] of template.matchAll(/<img[^>]*src="([^"?]+)"/g))
     assert.ok(readFileSync(directory+src).length>0,src);
@@ -42,6 +49,17 @@ export function checkFeaturedDiscovery(directory){
   assert.match(home,/data-another-beginning[^>]*hidden/);
   assert.match(home,/data-featured-credits/);
   assert.match(home,/aria-live="polite"/);
+ });
+ test('every featured story offers a specific onward story and a journey link',()=>{
+  const config=json('../../kb/research/featured-stories.json');
+  for(const {href} of config.pool){
+   const html=read(href);
+   assert.ok(html.includes('href="/journey/"'),href+' journey');
+   assert.ok(html.includes('data-save-journey'),href+' save');
+   const links=[...html.matchAll(/href="(\/(?:knowledge|destinations|visit|food|people|crafts|textiles|literature|stories)\/[^"#?]+\/)"/g)].map(m=>m[1]).filter(link=>link!==href);
+   assert.ok(links.length,href+' onward story');
+   for(const link of new Set(links))assert.match(read(link),/<h1[ >]/);
+  }
  });
  test('a photographed building is not framed as a portrait, while literary portraits remain contained',()=>{
   const home=read('/'),explore=read('/explore/');

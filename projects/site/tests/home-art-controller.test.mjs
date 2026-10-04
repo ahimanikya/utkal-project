@@ -6,7 +6,7 @@ function fixture(count = 12) {
   const caption = {textContent:'Scene 1'};
   const scenes = Array.from({length:count}, (_, i) => {
     const img = {decode:async () => {}};
-    return {dataset:{key:`/art/${i}.webp`,title:`Scene ${i + 1}`},hidden:i !== 0,querySelector:() => img};
+    return {dataset:{key:`/art/${i}.webp`,title:`Scene ${i + 1}`,theme:`Theme ${i}`},hidden:i !== 0,querySelector:() => img};
   });
   const root = {dataset:{},querySelectorAll:() => scenes,querySelector:() => caption};
   return {root,scenes,caption};
@@ -68,4 +68,11 @@ test('single-image and empty collections are safe', async () => {
   await mountHomeArt(h.root,{storage:memory('/art/0.webp'),random:()=>0.9});
   assert.deepEqual(visible(h),[h.scenes[0]]);
   await mountHomeArt(fixture(0).root,{storage:null});
+});
+
+test('the returned theme describes the actual fallback, including a stalled image', async()=>{
+ const h=fixture();h.scenes[7].querySelector().decode=()=>new Promise(()=>{});
+ const theme=await mountHomeArt(h.root,{storage:null,random:()=>0.6,decodeTimeoutMs:1});
+ assert.equal(theme,'Theme 0');assert.equal(h.root.dataset.theme,'Theme 0');
+ assert.deepEqual(visible(h),[h.scenes[0]]);
 });

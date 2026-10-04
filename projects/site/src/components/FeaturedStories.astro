@@ -15,8 +15,8 @@ import {featuredPool,featuredStories,featuredOptions} from '../data/featured-sto
   <script type="application/json" data-story-options set:html={JSON.stringify(featuredOptions).replace(/</g,'\\u003c')}/>
 </div>
 <script>
-  import {mountFeaturedStories} from '../scripts/featured-stories.mjs';
-  document.querySelectorAll('[data-featured-stories]').forEach(root => mountFeaturedStories(root));
+  import {mountHomepageStories} from '../scripts/homepage-stories.mjs';
+  mountHomepageStories(document);
 </script>
 <style>
   .story-discovery-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:28px}

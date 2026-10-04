@@ -886,3 +886,9 @@ The Founder asked that Start with a story should not stay static. A curated plac
 The approved changing story section went live with thirty illustrated entries. Every page load offers a place, taste and life or tradition; another beginning is a deliberate choice while reading. Matching credits and the original fallback remain.
 
 [Publication evidence](../records/story-beginnings-publication-2026-10-04.json) · [PR78](https://github.com/ahimanikya/utkal-project/pull/78). Automated and live HTTP checks passed; browser visual review remains unavailable.
+
+## UTP-HIS-0214 · Let the welcome lead into a story
+
+The Founder approved connecting the changing welcome image with the stories beneath it. Twelve thematic reading paths and thirty refreshed introductions turn the homepage into a more connected invitation, while avoiding false identification of imagined scenes.
+
+[Implementation evidence and onward audit](../records/connected-homepage-stories-2026-10-04.json). Local candidate; browser visual review remains unavailable.

@@ -25,7 +25,7 @@ export function cleanStoryHistory(value, pool, limit = 18) {
   const valid = new Set(pool.map(e => e.href));
   return [...new Set(value.filter(href => typeof href === 'string' && valid.has(href)))].slice(0,limit);
 }
-export function chooseStoryTrio(pool, {pins = [], history = [], day = odishaDay(), random = Math.random} = {}) {
+export function chooseStoryTrio(pool, {pins = [], history = [], day = odishaDay(), random = Math.random, preferred = []} = {}) {
   const selected=[];
   const recent=cleanStoryHistory(history,pool);
   const month=Number(day.slice(5,7));
@@ -38,6 +38,8 @@ export function chooseStoryTrio(pool, {pins = [], history = [], day = odishaDay(
       const unseen=candidates.filter(e=>!recent.includes(e.href));
       const notLast=candidates.filter(e=>!recent.slice(0,3).includes(e.href));
       candidates=unseen.length?unseen:notLast.length?notLast:candidates;
+      const connected=candidates.filter(e=>preferred.includes(e.href));
+      if(connected.length)candidates=connected;
     }
     if (!candidates.length) throw Error('No eligible story for ' + slot);
     const weights=candidates.map(e=>{

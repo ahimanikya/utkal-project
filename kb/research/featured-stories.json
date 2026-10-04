@@ -18,7 +18,8 @@
       "Remember only recently displayed story paths locally; no account, visitor ID or network tracking.",
       "Pins override freshness while active and require an explicit expiry date. Dates and seasonal preferences use the Odisha calendar day (Asia/Kolkata).",
       "Months are editorial preferences, not verified operating dates, festival dates or travel advice.",
-      "The pool reuses existing published illustrated pages. Admission is a deliberate editorial choice, not automatic approval of all KB research."
+      "The pool reuses existing published illustrated pages. Admission is a deliberate editorial choice, not automatic approval of all KB research.",
+      "After pins and recent-repeat avoidance, prefer curated connections to the displayed artwork theme. If these are exhausted, widen the selection. Imagined scenes are thematic invitations, not evidence of the linked place, person or tradition."
     ]
   },
   "pins": [],
@@ -32,49 +33,57 @@
         12,
         1,
         2
-      ]
+      ],
+      "intro": "A poet asks the train to pause. Follow his gaze across Chilika, then choose a shore for your own day by the lagoon."
     },
     {
       "href": "/knowledge/konark/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "One carved wheel can hold your attention for an hour. Look closer at Konark’s stone chariot, then make room for the coast around it."
     },
     {
       "href": "/destinations/bhubaneswar/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Begin at a carved doorway; end with a city still making itself. Find the temples, painted streets and meals that connect its different lives."
     },
     {
       "href": "/destinations/puri/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "A ritual, a shared meal, the sound of the sea. Give each its own moment, and discover a Puri beyond the beach photograph."
     },
     {
       "href": "/destinations/cuttack/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "An old gateway, a silver thread, a bowl of dahibara. Follow the small details into a city with a long memory."
     },
     {
       "href": "/destinations/balasore/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "At Chandipur, the changing tide redraws the view. Carry a story by Fakir Mohan alongside the coast, and let Balasore unfold slowly."
     },
     {
       "href": "/destinations/mayurbhanj/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "A waterfall is one beginning; a dance or a conversation is another. Meet Mayurbhanj through its forest landscapes, living languages and food."
     },
     {
       "href": "/visit/places/raghurajpur/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "The painting catches your eye. The maker’s work holds it. Find a thoughtful way into Raghurajpur’s workshops, stories and traditions."
     },
     {
       "href": "/visit/places/mangalajodi/",
@@ -85,133 +94,269 @@
         12,
         1,
         2
-      ]
+      ],
+      "intro": "A bird becomes more than a distant shape when someone knows its name. Explore a quieter corner of Chilika through local guiding and conservation."
     },
     {
       "href": "/visit/places/mukteswar/",
       "slot": "place",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Before you walk through the arch, stop beneath it. One carved threshold opens a closer way of looking at Bhubaneswar."
     },
     {
       "href": "/food/odisha-rasagola/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "In Puri’s ritual tradition, sweetness welcomes a homecoming. Follow rasagola from that story to Odisha’s sweet-makers—and a small plate of your own."
     },
     {
       "href": "/food/chhena-poda/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Start at the browned edge, then taste the soft centre. Meet a baked chhena sweet, its Nayagarh origin story and the questions to ask its maker."
     },
     {
       "href": "/food/mudhi-mansa/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Light puffed rice meets a rich meat curry. Make room for Baripada’s mudhi mansa, and ask how the person serving it likes to eat it."
     },
     {
       "href": "/food/enduri-pitha/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Unfold a turmeric leaf and meet the sweet centre inside. Enduri pitha offers a small doorway into Prathamastami and family food traditions."
     },
     {
       "href": "/food/poda-pitha/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "The first slice reveals what slow cooking has done. Follow poda pitha into Raja celebrations and the different ways Odisha’s kitchens make it."
     },
     {
       "href": "/food/ou-khatta/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "The little bowl at the edge of the meal may be the one you remember. Meet elephant-apple relish through its sweet-sour character and family accounts."
     },
     {
       "href": "/food/badi-chura/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Dried dumplings become a handful of lively crumbs. Look closer at badi chura, then ask what gives this kitchen’s version its character."
     },
     {
       "href": "/food/puri-coast/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Leave space between the shore and your next stop for a meal. Explore Puri’s food traditions and the questions worth taking to the table."
     },
     {
       "href": "/food/bhubaneswar/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "What vegetables went into today’s dalma? Start with that question, then find pakhala, a little sweetness and a slower lunch in Bhubaneswar."
     },
     {
       "href": "/food/cuttack/",
       "slot": "taste",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Soft fritters, yogurt and spicy potato curry share one bowl. Taste the contrasts in Cuttack’s dahibara aloodum, then follow the city beyond lunch."
     },
     {
       "href": "/people/subhas-chandra-bose/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Before Netaji, there was a boy in Cuttack. Enter through the home, classrooms and teacher he remembered, then follow the story to his birthplace museum."
     },
     {
       "href": "/people/fakir-mohan-senapati/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "How much of a society fits inside an ordinary life? Meet Fakir Mohan, open a novel, and look again at the Balasore behind the pages."
     },
     {
       "href": "/people/sarala-das/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "What changes when an epic speaks the language of home? Begin with Sarala Das’s Odia Mahabharata and follow the story into a literary tradition."
     },
     {
       "href": "/people/pratibha-ray/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "A familiar epic feels different when Draupadi tells it. Meet Pratibha Ray through Jajnaseni, her writing and the questions another voice can open."
     },
     {
       "href": "/people/bhima-bhoi/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Whose suffering do we notice? Approach Bhima Bhoi through compassion, poetry and the thread that leads to his memorial at Khaliapali."
     },
     {
       "href": "/people/gopinath-mohanty/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "A landscape holds lives as well as views. Follow Gopinath Mohanty’s connection with Koraput, then enter Paraja with a reader’s curiosity."
     },
     {
       "href": "/stories/bhubaneswar-fresco/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "What did the city’s painted walls hold in February 2009? Walk through Ahimanikya Satapathy’s photographs and find details worth a second look."
     },
     {
       "href": "/crafts/pattachitra/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Follow one painted line before trying to read the whole picture. Meet the stories, surfaces and makers behind Pattachitra."
     },
     {
       "href": "/textiles/khandua/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Can a poem become cloth? Look at lettering woven into a Gita Govinda Khandua, then follow the thread towards Nuapatna and Puri."
     },
     {
       "href": "/knowledge/kotpad/",
       "slot": "life",
       "enabled": true,
-      "preferred_months": []
+      "preferred_months": [],
+      "intro": "Before the red reaches the loom, there is a story of roots and patient work. Meet Kotpad through dyeing knowledge, weaving and film."
+    }
+  ],
+  "theme_connections": [
+    {
+      "theme": "Coast & maritime heritage",
+      "preferred": [
+        "/knowledge/chilika/",
+        "/destinations/balasore/",
+        "/destinations/puri/",
+        "/visit/places/mangalajodi/",
+        "/food/puri-coast/"
+      ],
+      "reason": "Coastal places and food; an imagined crossing is not a photograph of any named destination."
+    },
+    {
+      "theme": "Temples & architecture",
+      "preferred": [
+        "/knowledge/konark/",
+        "/visit/places/mukteswar/",
+        "/destinations/bhubaneswar/",
+        "/destinations/puri/",
+        "/food/odisha-rasagola/",
+        "/textiles/khandua/"
+      ],
+      "reason": "Carved architecture and documented devotional food or textile connections."
+    },
+    {
+      "theme": "Art & craft",
+      "preferred": [
+        "/visit/places/raghurajpur/",
+        "/crafts/pattachitra/",
+        "/stories/bhubaneswar-fresco/"
+      ],
+      "reason": "Painting, makers and looking closely; the pictured artist is imagined."
+    },
+    {
+      "theme": "Textiles",
+      "preferred": [
+        "/textiles/khandua/",
+        "/knowledge/kotpad/"
+      ],
+      "reason": "Different weaving traditions provide thematic reading, not identification of the imagined cloth."
+    },
+    {
+      "theme": "Food",
+      "preferred": [
+        "/food/badi-chura/",
+        "/food/ou-khatta/",
+        "/food/bhubaneswar/",
+        "/food/enduri-pitha/"
+      ],
+      "reason": "Home meals, accompaniments and cooking traditions; no claim that every dish appears in the image."
+    },
+    {
+      "theme": "Dance & performance",
+      "preferred": [
+        "/visit/places/raghurajpur/",
+        "/people/pratibha-ray/"
+      ],
+      "reason": "The Raghurajpur guide discusses dance traditions; the writer profile discusses performance adaptations. Neither identifies the imagined Odissi dancer."
+    },
+    {
+      "theme": "Forests & wildlife",
+      "preferred": [
+        "/destinations/mayurbhanj/",
+        "/visit/places/mangalajodi/",
+        "/food/mudhi-mansa/"
+      ],
+      "reason": "Nature-focused destinations and Baripada food; forest and wetland habitats remain distinct."
+    },
+    {
+      "theme": "Hills & rural life",
+      "preferred": [
+        "/knowledge/kotpad/",
+        "/people/gopinath-mohanty/"
+      ],
+      "reason": "Existing Koraput textile and literary connections, without assigning an identity to imagined people."
+    },
+    {
+      "theme": "Community traditions",
+      "preferred": [
+        "/knowledge/kotpad/",
+        "/textiles/khandua/",
+        "/visit/places/raghurajpur/"
+      ],
+      "reason": "Shared craft knowledge; only Kotpad is the stated inspiration of the courtyard scene."
+    },
+    {
+      "theme": "Festivals",
+      "preferred": [
+        "/food/poda-pitha/",
+        "/food/enduri-pitha/",
+        "/food/odisha-rasagola/"
+      ],
+      "reason": "Raja has a direct poda-pitha connection; other ritual food traditions broaden reading without conflating festivals."
+    },
+    {
+      "theme": "Language & literature",
+      "preferred": [
+        "/people/fakir-mohan-senapati/",
+        "/people/sarala-das/",
+        "/people/pratibha-ray/",
+        "/people/bhima-bhoi/",
+        "/people/gopinath-mohanty/",
+        "/textiles/khandua/"
+      ],
+      "reason": "Reading, literary voices and a documented poem-to-textile connection."
+    },
+    {
+      "theme": "Contemporary Odisha",
+      "preferred": [
+        "/destinations/bhubaneswar/"
+      ],
+      "reason": "The capital guide introduces a changing city. Current pool has no dedicated technology story; no invented connection to a named company or maker."
     }
   ]
 }

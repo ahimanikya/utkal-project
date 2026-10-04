@@ -1,7 +1,7 @@
 import {chooseStoryTrio,cleanStoryHistory} from '../lib/featured-selection.mjs';
 const historyKey='utkal:story-beginnings:recent';
 function localStorageOrNull(){try{return window.localStorage;}catch{return null;}}
-export function mountFeaturedStories(root,{storage=localStorageOrNull(),random=Math.random,day}={}){
+export function mountFeaturedStories(root,{storage=localStorageOrNull(),random=Math.random,day,theme}={}){
   if(root.dataset.ready)return;
   const options=JSON.parse(root.querySelector('[data-story-options]').textContent);
   const cards=root.querySelector('[data-story-display] .story-card-grid');
@@ -14,7 +14,8 @@ export function mountFeaturedStories(root,{storage=localStorageOrNull(),random=M
   let history=[];
   try{history=cleanStoryHistory(JSON.parse(storage?.getItem(historyKey)||'[]'),options.pool,options.historyLimit);}catch{}
   function show(manual){
-    const trio=chooseStoryTrio(options.pool,{pins:options.pins,history,random,day});
+    const preferred=options.themes?.find(item=>item.theme===theme)?.preferred||[];
+    const trio=chooseStoryTrio(options.pool,{pins:options.pins,history,random,day,preferred});
     const nextCards=trio.map(e=>templates.get(e.href).content.querySelector('article').cloneNode(true));
     const nextCredits=trio.map(e=>templates.get(e.href).content.querySelector('[data-story-credit]').cloneNode(true));
     cards.replaceChildren(...nextCards);

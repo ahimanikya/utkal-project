@@ -5,8 +5,8 @@ function browserStorage() {
   try { return window.localStorage; } catch { return null; }
 }
 
-export async function mountHomeArt(root, {storage = browserStorage(), random = Math.random} = {}) {
-  if (root.dataset.ready) return;
+export async function mountHomeArt(root, {storage = browserStorage(), random = Math.random, decodeTimeoutMs = 4000} = {}) {
+  if (root.dataset.ready) return root.dataset.theme;
   root.dataset.ready = 'true';
   const scenes = [...root.querySelectorAll('[data-scene]')];
   if (!scenes.length) return;
@@ -19,17 +19,24 @@ export async function mountHomeArt(root, {storage = browserStorage(), random = M
   function display(scene) {
     scenes.forEach(candidate => { candidate.hidden = candidate !== scene; });
     caption.textContent = scene.dataset.title;
+    root.dataset.theme = scene.dataset.theme;
   }
-  // Choose once during page setup. There is no timer, animation or later rotation.
+  // Choose once during page setup. There is no animation or rotation timer; the timeout below only handles loading failure.
   const img = chosen.querySelector('img');
   img.loading = 'eager';
   img.fetchPriority = 'high';
   display(chosen);
   let displayed = chosen;
-  try { await img.decode(); } catch {
+  let timeout;
+  try {
+    await Promise.race([img.decode(),new Promise((_,reject)=>{
+      timeout=setTimeout(()=>reject(new Error('Image decode timed out')),decodeTimeoutMs);
+    })]);
+  } catch {
     // The original static artwork is also the no-JavaScript fallback.
     displayed = scenes[0];
     display(displayed);
-  }
+  } finally { clearTimeout(timeout); }
   try { storage?.setItem(lastArtKey, displayed.dataset.key); } catch { /* Still works without storage. */ }
+  return displayed.dataset.theme;
 }
