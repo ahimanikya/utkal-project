@@ -1,0 +1,83 @@
+{
+  "title": "Balasore · Tides and Tales — illustrated trail candidate",
+  "recorded_at": "2026-10-04T16:28:59.744018+00:00",
+  "status": "review_candidate",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "id": "UTP-DEC-192",
+    "quote": "ok, lets do that",
+    "context": "Founder selected the proposed Balasore illustrated story, food and stay links, practical planning, portable book and local contribution batch."
+  },
+  "scope": [
+    "Three photographed chapters: Chandipur’s changing shore, Fakir Mohan’s literary connection and a coastal meal.",
+    "Existing five-idea northern-stories starter preserved; only new plans opt into trail chapters.",
+    "Selected chapters and credited photographs carried into offline books; day selection and removed ideas respected.",
+    "Shore-access and literary-memory prompts added alongside food contributions. Draft review and explicit public GitHub submission preserved.",
+    "Stay comparison and novel introduction linked as planning/reading choices; no booked museum, tide timetable or safe walking distance implied."
+  ],
+  "routes": [
+    "/journey-starters/balasore/"
+  ],
+  "research_reuse": [
+    "research/destinations/northern-details.json",
+    "research/destinations/regions.json",
+    "research/voices/collection.json",
+    "research/food/collection.json",
+    "research/people/fakir-mohan-senapati.md",
+    "research/journey-starters.json"
+  ],
+  "source_checks": [
+    {
+      "id": "chandipur",
+      "title": "Odisha Tourism · Chandipur",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/beaches/chandipur.html",
+      "note": "Official indexed description rechecked on 4 October 2026 for exposed seabed, returning water and Balasore rail arrival. Direct retrieval failed; no dated tide schedule, facilities or transfer times adopted."
+    },
+    {
+      "id": "fakir",
+      "title": "Government of Odisha · Fakir Mohan Senapati",
+      "url": "https://odisha.gov.in/en/odisha-profile/eminent-personalities/fakir-mohan-senapati",
+      "note": "Reused existing project literary research. Full biographical overview inspected. Its evaluative superlatives are not treated as measurable facts."
+    },
+    {
+      "id": "six-acres",
+      "title": "University of California Press · Six Acres and a Third",
+      "url": "https://www.ucpress.edu/books/six-acres-and-a-third/paper",
+      "note": "Reused existing project literary research. Publisher synopsis, author note, edition and translator credits inspected. Full novel not read for this preview; reading prompts are editorial suggestions. This edition lists rights excluding South Asia; local availability is not promised."
+    }
+  ],
+  "image_basis": "Three existing licensed photographs: Chandipur panorama, a commemorative Fakir Mohan bust and a dated shore view for food context. Existing asset records retained; two missing book-photo mappings connected. No new image generation.",
+  "validation": {
+    "full_build_pages": 139,
+    "full_tests_passed": 430,
+    "coastal_pages": 126,
+    "coastal_tests_passed": 84,
+    "page_acceptance_checks": "504/504",
+    "new_behaviour_checks": [
+      "Five starter choices unchanged and previous saved journeys preserved",
+      "Three deduplicated credited photos in illustrated books",
+      "Private notes omitted from shared exports",
+      "Reading-only day export retains literary context without a museum booking",
+      "Removed food stop removes its story chapter",
+      "Stay-only plan does not acquire a photographed accommodation chapter",
+      "Unique headings and starter status, resolved images, guide returns and contextual contribution routes",
+      "Shared journey data in standard and Fresco layouts"
+    ],
+    "search_boundary": "Existing eleven-route indexable shortlist unchanged; new trail explicitly held.",
+    "reviewer": "Current AI assistant",
+    "independent": false
+  },
+  "design_learning": "A place-based trail can include a reading chapter without turning it into a physical stop. Distinct context captions let existing images support food and literary stories without implying an inspected venue.",
+  "publication": {
+    "status": "not_merged_or_deployed",
+    "existing_release": "UTP-REL-065"
+  },
+  "limitations": [
+    "No new browser visual, interactive, physical-device or native PDF pass; the prior administrator-enforced browser security-policy verification failure remains unresolved.",
+    "No local inspection or provider contact. Shore access, dated tides, kitchens, property facilities and transport require confirmation.",
+    "Chandipur recheck used official indexed text after direct retrieval failed. Existing literary evidence reused; no new full-text novel inspection or verified literary walking route.",
+    "The food chapter uses an explicitly captioned shore-context photograph, not a dish or restaurant photograph. The author image is a commemorative bust without a claimed visit location.",
+    "Search Console processing was not rechecked."
+  ],
+  "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open."
+}

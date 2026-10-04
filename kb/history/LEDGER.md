@@ -958,3 +958,9 @@ Four photographic Cuttack chapters connect Barabati, Tarakasi, Bose’s childhoo
 The approved Silver and Stories trail is published with four photographic chapters and the existing six-idea starter. Live delivery and a live-data offline export passed. Visual/native PDF review, local confirmation and Search Console remain open.
 
 [Publication evidence](../records/cuttack-trail-publication-2026-10-04.json) · [PR98](https://github.com/ahimanikya/utkal-project/pull/98).
+
+## UTP-HIS-0226 · A shore and a page, read slowly
+
+Three photographed Balasore chapters connect Chandipur, Fakir Mohan’s literary world and a coastal meal. The five-idea starter is preserved; new books carry selected chapters and credited photographs. Shore and literary contribution prompts invite dated evidence and attributed memories.
+
+[Candidate evidence](../records/balasore-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.
