@@ -1,0 +1,74 @@
+{
+  "title": "Mayurbhanj · Forest, Rhythm and a Meal published",
+  "recorded_at": "2026-10-04T21:13:39.675521+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-195",
+    "quote": "Approved",
+    "context": "Founder approved PR104 for merge and publication."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/104",
+  "approved_head": "749d277b6ccf09f3307df1ca4c152076a9134382",
+  "commit": "561a4ed5b9a2e26ab061243179e4b643ff40b10a",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37218926816",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37235070498",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey-starters/mayurbhanj/",
+  "live_verification": {
+    "checked_at": "2026-10-04T21:13:22.118001+00:00",
+    "scope": "Live HTTPS HTML, JSON and asset hash verification, not browser interaction or visual inspection.",
+    "chapters": 3,
+    "starter_items": 5,
+    "routes_checked": [
+      "/journey-starters/mayurbhanj/",
+      "/destinations/mayurbhanj/",
+      "/visit/places/similipal/",
+      "/visit/experiences/mayurbhanj-chhau/",
+      "/food/mudhi-mansa/",
+      "/journey/",
+      "/stories/bhubaneswar-fresco/",
+      "/journey-starters/",
+      "/contribute/",
+      "/visit/stays/similipal-gateways/"
+    ],
+    "photos": [
+      {
+        "src": "/images/regions/barehipani.jpg",
+        "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/mayurbhanj-chhau.webp",
+        "sha256": "74d69ba8018fd8b389a8872afcabc568ddfcc47dc288338a2b2ed6c39922673a",
+        "status": 200
+      },
+      {
+        "src": "/assets/language-literature/mudhi-mansa.jpg",
+        "sha256": "7d96b934d4d64e38cd20f379e4aa342abe28a8bab2d3fa28305015a5e717edfa",
+        "status": 200
+      }
+    ],
+    "source_credits_present": true,
+    "shared_journey_payload_matches": true,
+    "search_hold_preserved": true,
+    "export_check": {
+      "status": "pass",
+      "chapters": 3,
+      "embedded_photos": 3,
+      "image_bytes": 413201,
+      "private_notes_excluded": true,
+      "context_captions_preserved": true,
+      "scope": "Offline export generated from live JSON and local assets whose hashes match the live files; not a browser download or native PDF test."
+    }
+  },
+  "limitations": [
+    "Live checks inspect delivered HTML, shared JSON and asset hashes, not rendered browser layout.",
+    "Offline export uses live data and matching local assets; no fresh browser download or native PDF review.",
+    "Existing browser-policy verification limitation, local venue/access confirmation and Search Console processing remain open."
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false
+}

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `892e0dc1a417e096d3099db6a7b348c66220197d4e1dff2d7520d5b200317ad7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d93a610584e770372b7608c34c55b9aa5fd4c6c8f2009cbaecc8e8fede40bf22`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -173,7 +173,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-158 · Remove AI-generated tags beside website images | completed | applied | Ahimanikya Satapathy | Published and verified across all 124 public-edition pages. Provenance remains in end credits and canonical records. | — |
 | UTP-WORK-159 · Cuttack illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-160 · Balasore illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
-| UTP-WORK-161 · Mayurbhanj illustrated trail and matching tour books | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. | — |
+| UTP-WORK-161 · Mayurbhanj illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -232,7 +232,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-161 | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 
 ## Decisions
 
@@ -431,6 +430,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-192 · Build Balasore · Tides and Tales | approved | Ahimanikya Satapathy | Implement the proposed Balasore illustrated trail, practical planning, matching books and local contribution batch. |
 | UTP-DEC-193 · Publish approved Balasore trail | approved | Ahimanikya Satapathy | Merge PR101 and publish the reviewed Balasore trail through Pages. |
 | UTP-DEC-194 · Build Mayurbhanj · Forest, Rhythm and a Meal | approved | Ahimanikya Satapathy | Implement the proposed Mayurbhanj illustrated trail, practical planning, matching books and local contribution batch. |
+| UTP-DEC-195 · Publish approved Mayurbhanj trail | approved | Ahimanikya Satapathy | Merge PR104 and publish the reviewed Mayurbhanj trail through Pages. |
 
 ## Reviews
 
@@ -644,6 +644,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-064 · Image caption cleanup published | published | https://utkalproject.org/ | UTP-DEC-189 |
 | UTP-REL-065 · Cuttack · Silver and Stories published | published | https://utkalproject.org/journey-starters/cuttack/ | UTP-DEC-191 |
 | UTP-REL-066 · Balasore · Tides and Tales published | published | https://utkalproject.org/journey-starters/balasore/ | UTP-DEC-193 |
+| UTP-REL-067 · Mayurbhanj · Forest, Rhythm and a Meal published | published | https://utkalproject.org/journey-starters/mayurbhanj/ | UTP-DEC-195 |
 
 ## Sources and assets
 
@@ -681,7 +682,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-220 | 2026-10-04T14:18:37.049274+00:00 | Published approved PR89 through Pages. Live shared trail data, contextual contribution links, exact verification-pack download and three chapter photographs verified; live-data export preserved chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-221 | 2026-10-04T14:45:44.183242+00:00 | Prepared four illustrated Chilika chapters, three separate gateway starters with matching portable-book chapters, reciprocal guide links and boat/birding contribution prompts. Reused licensed photographs and existing source identities. Full/coastal tests passed; visual and local evidence remain open. | Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open. |
 | UTP-EVT-222 | 2026-10-04T15:21:53.087490+00:00 | Published approved PR93 through Pages. Live chapters, photographs, separate gateway choices, ten guide returns and contribution links verified. Live-data exports retained only matching chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-223 | 2026-10-04T15:32:02.171885+00:00 | Removed AI-generated tags beside images and moved homepage provenance to the existing end credits. Kept illustration descriptions, original source credits and internal provenance. | Review the caption cleanup PR for publication. |
@@ -691,6 +691,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-227 | 2026-10-04T16:28:59.744018+00:00 | Prepared three illustrated Balasore chapters, preserving the five-idea starter and adding matching portable-book chapters, shore/literary contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 | UTP-EVT-228 | 2026-10-04T16:39:23.083724+00:00 | Published approved PR101 through Pages. Verified live Balasore chapters, three photographs, guide links, contribution context and five-idea starter. Live-data offline export embedded three photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-229 | 2026-10-04T17:00:08.146247+00:00 | Prepared three photographed Mayurbhanj chapters, preserving the five-idea starter and adding matching portable-book chapters, forest/performance contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
+| UTP-EVT-230 | 2026-10-04T21:13:39.675521+00:00 | Published approved PR104 through Pages. Verified live Mayurbhanj chapters, three photographs, guide links, contribution context and five-idea starter. Live-data offline export embedded three photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 
 ## Deferred extensions
 
