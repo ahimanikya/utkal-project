@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T20:14:45.768141+00:00",
+  "updated_at": "2026-10-04T20:37:12.900086+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7489,6 +7489,71 @@
           "status": "hold_conflict",
           "scope": "One-tonne cross-table difference; may relate to decimal rounding note, but not silently reconciled.",
           "resolution": null,
+          "retry_after": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "run_id": "2026-10-04-export-series",
+      "checked_at": "2026-10-04T20:37:12.900086+00:00",
+      "scope": "Selected export tables and methodology, not a complete current trade-policy or weekly release check.",
+      "sources": [
+        {
+          "source_id": "export-depm-fiveyear2024",
+          "url": "https://depmodisha.nic.in/website/Export/Last_5_years_India_and_Odisha_Export_Data.pdf",
+          "status": "available",
+          "access_scope": "Official indexed table captured; web open returned internal error and direct download timed out after35seconds. No PDF image review. Unit INR crore. Table issue date and page number unverified. Source attribution DGCI&S Kolkata and STPI Bhubaneswar. Separate India total table is outside this capture."
+        },
+        {
+          "source_id": "export-parliament2910-2024",
+          "url": "https://sansad.in/getFile/annex/266/AU2910_uZWU2U.pdf?source=pqars",
+          "status": "available",
+          "access_scope": "Original four-page PDF downloaded; pp1 and3 rendered and visually inspected. Answer20December2024, AnnexureI:20 principal commodities in USD million for FY2023–24. AnnexureII is positive-growth selected, not a balanced full-product time series; not used for trend claims."
+        },
+        {
+          "source_id": "export-dgcis-origin-method",
+          "url": "https://ftddp.dgciskol.gov.in/dgcis/disclaimer.html",
+          "status": "available",
+          "access_scope": "Official disclaimer HTML read. State codes are exporter-reported and not validated by DGCI&S. It also describes missing/misreported codes and mixed-origin shipping bills; page issue date unknown. Current portal index search extract likewise says state/district codes are not validated; direct index fetch failed. These statements do not measure Odisha-specific error rates."
+        },
+        {
+          "source_id": "maritime-exports-2026",
+          "status": "available",
+          "access_scope": "new indexed fields p19 and114 only; original download not retried"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://depmodisha.nic.in/website/Export/Last_5_years_India_and_Odisha_Export_Data.pdf",
+          "status": "unavailable",
+          "methods": [
+            "web open internal error",
+            "direct download35second timeout"
+          ]
+        },
+        {
+          "url": "https://ftddp.dgciskol.gov.in/dgcis/userindex.html",
+          "status": "unavailable",
+          "method": "direct web open; indexed methodology extract available"
+        }
+      ],
+      "conflicts": [
+        {
+          "id": "depm-2021-sector-total",
+          "observation_ids": [
+            "export-depm-merchandise-2021-22",
+            "export-depm-combined-2021-22"
+          ],
+          "status": "hold_conflict",
+          "explanation": "Ten sectors sum127197.66 versus merchandise127232.47;34.81 crore unresolved. Combined total inherits this inconsistency.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "id": "seafood-destination-denominator",
+          "source_id": "maritime-exports-2026",
+          "locator": "Printed p114, Figure4.9 caption",
+          "status": "hold_conflict",
+          "explanation": "Caption still requests identification of quantity/value and revision with attached sheet. No percentages adopted into public story.",
           "retry_after": "2026-10-11"
         }
       ]

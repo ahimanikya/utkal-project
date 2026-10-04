@@ -531,3 +531,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October2026 · Fisheries production history
 
 [Research receipt](records/fisheries-series-2026-10-04.json):Historical production series and ten comparisons saved. Table images and later-vintage reconciliation remain open. No website release.
+
+## 4 October2026 · Export values and attribution
+
+[Research receipt](records/export-series-2026-10-04.json):Export series, product values, destination shares and district research questions saved. Source arithmetic and denominator conflicts remain held. No website release.

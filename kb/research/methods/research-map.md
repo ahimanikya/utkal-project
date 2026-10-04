@@ -475,3 +475,7 @@ RES-068 searched source and repository-native maritime, Boita, Ratnagiri and sci
 ## Fisheries history · 4 October2026
 
 Extended existing fisheries evidence and reused frozen comparison, real GSVA and July2026 capture. One directorate lineage does not become several independent confirmations.
+
+## Export evidence · 4 October 2026
+
+Extended existing trade pages; three country IDs reused. Textile, fisheries and company records retained with distinct definitions; no semantic completeness claimed.

@@ -20154,6 +20154,103 @@
       "source_ids": [
         "fish-directorate-statistics2024"
       ]
+    },
+    {
+      "id": "trade/export-business-questions",
+      "title": "What Odisha exports—and what entrepreneurs still need to know",
+      "kind": "Trade Research",
+      "layer": "research_concept",
+      "source_path": "trade/export-business-questions.md",
+      "project_path": "kb/research/trade/export-business-questions.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "export-depm-fiveyear2024",
+        "export-parliament2910-2024",
+        "export-dgcis-origin-method"
+      ]
+    },
+    {
+      "id": "stories/exports-recovery-and-concentration",
+      "title": "Exports recovered, but the basket remains concentrated",
+      "kind": "Statistical Story",
+      "layer": "research_concept",
+      "source_path": "stories/exports-recovery-and-concentration.md",
+      "project_path": "kb/research/stories/exports-recovery-and-concentration.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy"
+      ],
+      "source_ids": [
+        "export-depm-fiveyear2024",
+        "export-parliament2910-2024",
+        "export-dgcis-origin-method"
+      ]
+    },
+    {
+      "id": "sources/export-depm-fiveyear2024",
+      "title": "Export from Odisha during last five years: 2019–20 to 2023–24",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/export-depm-fiveyear2024.md",
+      "project_path": "kb/research/sources/export-depm-fiveyear2024.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [],
+      "source_ids": [
+        "export-depm-fiveyear2024"
+      ]
+    },
+    {
+      "id": "sources/export-parliament2910-2024",
+      "title": "Value of exports from Odisha: Rajya Sabha question 2910",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/export-parliament2910-2024.md",
+      "project_path": "kb/research/sources/export-parliament2910-2024.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [],
+      "source_ids": [
+        "export-parliament2910-2024"
+      ]
+    },
+    {
+      "id": "sources/export-dgcis-origin-method",
+      "title": "DGCI&S state and district origin attribution limits",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/export-dgcis-origin-method.md",
+      "project_path": "kb/research/sources/export-dgcis-origin-method.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [],
+      "source_ids": [
+        "export-dgcis-origin-method"
+      ]
+    },
+    {
+      "id": "statistics/export-values-and-attribution",
+      "title": "Export values and attribution",
+      "kind": "Statistical Topic",
+      "layer": "research_concept",
+      "source_path": "statistics/export-values-and-attribution.md",
+      "project_path": "kb/research/statistics/export-values-and-attribution.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy"
+      ],
+      "source_ids": [
+        "export-depm-fiveyear2024",
+        "export-parliament2910-2024",
+        "export-dgcis-origin-method"
+      ]
     }
   ],
   "shared_publications": [
@@ -20851,7 +20948,15 @@
         "sources/fish-directorate-statistics2024.md",
         "stories/fish-growth-beyond-the-coast.md",
         "economy/fishing-and-aquaculture.md",
-        "economy/comparison-01-fisheries.md"
+        "economy/comparison-01-fisheries.md",
+        "trade/merchandise-exports.md",
+        "trade/export-destinations.md",
+        "trade/export-business-questions.md",
+        "stories/exports-recovery-and-concentration.md",
+        "references/data/export-series.json",
+        "sources/export-depm-fiveyear2024.md",
+        "sources/export-parliament2910-2024.md",
+        "sources/export-dgcis-origin-method.md"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
@@ -21696,8 +21801,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1336,
-    "updated_at": "2026-10-04T20:14:45.768141+00:00",
+    "records_mapped": 1342,
+    "updated_at": "2026-10-04T20:37:12.900086+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22380,6 +22485,11 @@
       "run_id": "2026-10-04-fisheries-series",
       "at": "2026-10-04T20:14:45.768141+00:00",
       "scope": "Enhanced existing fisheries page; source and story added. Directorate/survey/PIB repeat one administrative lineage, not independent corroboration."
+    },
+    {
+      "run_id": "2026-10-04-export-series",
+      "at": "2026-10-04T20:37:12.900086+00:00",
+      "scope": "Existing merchandise and destination pages enhanced; three maritime country IDs reused rather than duplicated. DEPM/Parliament/survey DGCI&S lineage retained."
     }
   ]
 }

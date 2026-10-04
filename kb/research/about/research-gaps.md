@@ -484,3 +484,7 @@ Project estimates and a CWIP expense component are captured, but full project ca
 ## Fisheries history · 4 October2026
 
 Fisheries table images, later2024–25 download and one-tonne alternate totals await11October. Historical methods consistency, export origin and producer margins remain unknown.
+
+## Export evidence · 4 October 2026
+
+DEPM2021–22 sector sum differs by34.81 crore; original PDF unavailable. Seafood Figure4.9 has unresolved quantity/value caption. Retry11October; district/product-country origin, benefit and margin evidence remains unknown.

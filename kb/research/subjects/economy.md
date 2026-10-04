@@ -102,3 +102,7 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Port-series checkpoint · 4 October2026
 
 [Two ports, different cargo years](../stories/ports-diverging-cargo.md) connects logistics activity with export research while keeping throughput, value, capacity and demand separate.
+
+## Export evidence · 4 October 2026
+
+[Exports recovered, with limits](../stories/exports-recovery-and-concentration.md) links recorded sales to [district business questions](../trade/export-business-questions.md), keeping local benefits unmeasured.

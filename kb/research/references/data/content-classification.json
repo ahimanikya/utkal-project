@@ -4838,6 +4838,32 @@
       "content_type": "Statistical Story",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/exports-recovery-and-concentration",
+      "primary_subject": "economy",
+      "secondary_subjects": [],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "trade/export-business-questions",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places"
+      ],
+      "content_type": "Trade Research",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/export-values-and-attribution",
+      "primary_subject": "economy",
+      "secondary_subjects": [],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -4887,7 +4913,8 @@
     "Textile and apparel exports": "economy",
     "Ecotourism": "economy",
     "Minerals and mining": "economy",
-    "Forest products": "economy"
+    "Forest products": "economy",
+    "Export values and attribution": "economy"
   },
   "relationships": [
     {
@@ -7206,6 +7233,62 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Chilika is a named component in the brackishwater detail table, not the whole inland sector."
+    },
+    {
+      "from": "stories/exports-recovery-and-concentration",
+      "to": "trade/merchandise-exports",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The annual table retains totals, source limitations and the held 2021–22 discrepancy."
+    },
+    {
+      "from": "stories/exports-recovery-and-concentration",
+      "to": "trade/export-destinations",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Country shares do not identify which products or districts supplied a market."
+    },
+    {
+      "from": "stories/exports-recovery-and-concentration",
+      "to": "trade/export-business-questions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Sector scale guides questions; it does not establish buyer demand, jobs or margins."
+    },
+    {
+      "from": "trade/export-business-questions",
+      "to": "economy/rourkela-steel-chain",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Existing plant and supplier evidence gives a place-specific starting point, not a confirmed contract."
+    },
+    {
+      "from": "trade/export-business-questions",
+      "to": "economy/bauxite-to-aluminium",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Mine and plant identities must stay distinct from state export totals."
+    },
+    {
+      "from": "trade/export-business-questions",
+      "to": "handlooms/bargarh",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuse the production and craft context before seeking maker and buyer evidence."
+    },
+    {
+      "from": "trade/export-business-questions",
+      "to": "food/koraput-coffee",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Product identity and local production do not establish export orders or profitable retail demand."
+    },
+    {
+      "from": "trade/export-business-questions",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Crop, procurement and export measures use different products and periods."
     }
   ],
   "relationship_types": {

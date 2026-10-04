@@ -913,7 +913,13 @@
     "publication_date": "2026-02-19",
     "source_kind": "Primary state statistical publication",
     "accessed_on": "2026-09-27",
-    "capture_note": "Targeted indexed section 1.7.1–1.7.5 and chart text reviewed. Web fetch exceeded size limit and direct public download timed out. Full PDF not archived."
+    "capture_note": "Targeted indexed section 1.7.1–1.7.5 and chart text reviewed. Web fetch exceeded size limit and direct public download timed out. Full PDF not archived.",
+    "capture_history": [
+      {
+        "at": "2026-10-04T20:37:12.900086+00:00",
+        "scope": "New indexed fields only: printed p19 section1.7.5 complete ten-country list and Figure1.16; p114 Figure4.9 unresolved quantity/value caption. Previous full-PDF failure/retry retained. No new independent source lineage."
+      }
+    ]
   },
   "maritime-paradip-2026": {
     "id": "maritime-paradip-2026",
@@ -7575,5 +7581,36 @@
     "publication_date_note": "Catalogue date for Fisheries Statistics; file path is May2025. Actual PDF issue/revision date not established.",
     "capture_note": "Official six-page PDF parsed by web reader; selected rows on PDF pages1,3,4 and decimal-total note p6 read. Direct download timed out after35seconds; no local PDF or visual facsimile review claimed. Catalogue HTML available through web reader, direct fetch timed out45seconds. Later2024–25 production listing exists but its download target was not recovered.",
     "source_kind": "Primary administrative statistical table"
+  },
+  "export-parliament2910-2024": {
+    "id": "export-parliament2910-2024",
+    "title": "Value of exports from Odisha: Rajya Sabha question 2910",
+    "resource": "https://sansad.in/getFile/annex/266/AU2910_uZWU2U.pdf?source=pqars",
+    "publisher": "Department of Commerce, Government of India / Rajya Sabha",
+    "accessed_on": "2026-10-04",
+    "publication_date": "2024-12-20",
+    "source_kind": "Primary government statistical or methodological publication",
+    "capture_note": "Original four-page PDF downloaded; pp1 and3 rendered and visually inspected. Answer20December2024, AnnexureI:20 principal commodities in USD million for FY2023–24. AnnexureII is positive-growth selected, not a balanced full-product time series; not used for trend claims.",
+    "sha256": "3e1c080585704225ffe1c5b5d1dbfec9ce7b51894fabe8135f8292ece1c9bc3e"
+  },
+  "export-dgcis-origin-method": {
+    "id": "export-dgcis-origin-method",
+    "title": "DGCI&S state and district origin attribution limits",
+    "resource": "https://ftddp.dgciskol.gov.in/dgcis/disclaimer.html",
+    "publisher": "Directorate General of Commercial Intelligence and Statistics",
+    "accessed_on": "2026-10-04",
+    "publication_date": null,
+    "source_kind": "Primary government statistical or methodological publication",
+    "capture_note": "Official disclaimer HTML read. State codes are exporter-reported and not validated by DGCI&S. It also describes missing/misreported codes and mixed-origin shipping bills; page issue date unknown. Current portal index search extract likewise says state/district codes are not validated; direct index fetch failed. These statements do not measure Odisha-specific error rates."
+  },
+  "export-depm-fiveyear2024": {
+    "id": "export-depm-fiveyear2024",
+    "title": "Export from Odisha during last five years: 2019–20 to 2023–24",
+    "resource": "https://depmodisha.nic.in/website/Export/Last_5_years_India_and_Odisha_Export_Data.pdf",
+    "publisher": "Directorate of Export Promotion and Marketing, Government of Odisha",
+    "accessed_on": "2026-10-04",
+    "publication_date": null,
+    "source_kind": "Primary government statistical or methodological publication",
+    "capture_note": "Official indexed table captured; web open returned internal error and direct download timed out after35seconds. No PDF image review. Unit INR crore. Table issue date and page number unverified. Source attribution DGCI&S Kolkata and STPI Bhubaneswar. Separate India total table is outside this capture."
   }
 }
