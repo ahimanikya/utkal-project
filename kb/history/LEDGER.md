@@ -874,3 +874,9 @@ Following discussion of the Human Natural approach, the Founder approved a final
 The approved Human Natural collection reached the public homepage through PR75. Each new page load chooses one still imagined scene; the two final candid refinements are included. GitHub checks and live file verification passed. Browser layout inspection remains explicitly unverified.
 
 [Publication evidence](../records/home-art-publication-2026-10-04.json) · [PR75](https://github.com/ahimanikya/utkal-project/pull/75).
+
+## UTP-HIS-0212 · Another beginning, every visit
+
+The Founder asked that Start with a story should not stay static. A curated place, taste and living story now offer a fresh beginning on each page load, while the page stays still for reading. An explicit button invites another trio; image credits follow the selected stories.
+
+[Implementation and editorial controls](../records/fresh-story-beginnings-2026-10-04.json). Local candidate; automated checks passed, visual browser review unavailable.

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T08:37:18.254965+00:00",
+  "recorded_at": "2026-10-04T09:08:06.130249+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4407,6 +4407,30 @@
         "records/home-art-natural-refinements-2026-10-04.json",
         "records/home-art-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-153",
+      "title": "Changing homepage story beginnings",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-178",
+      "next_action": "Review the implementation PR; desktop/mobile visual review remains unavailable. Publication is not claimed.",
+      "blockers": [
+        "Browser visual review unavailable due to security-policy verification failure."
+      ],
+      "refs": [
+        "UTP-DEC-178",
+        "UTP-REV-131"
+      ],
+      "evidence": [
+        "records/fresh-story-beginnings-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -7953,6 +7977,25 @@
       "evidence": [
         "records/home-art-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-178",
+      "title": "Make homepage story beginnings change between visits",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "sounds good",
+      "scope": "Implement three curated story cards per visit, repeat avoidance, a manual refresh button and editorial pin/season controls.",
+      "recorded_at": "2026-10-04T09:08:06.130249+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-153"
+      ],
+      "evidence": [
+        "records/fresh-story-beginnings-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11046,6 +11089,26 @@
       ],
       "evidence": [
         "records/home-art-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-131",
+      "title": "Changing story selection and built-page self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser layout and interactive visual review unavailable due to security-policy verification failure."
+      ],
+      "refs": [
+        "UTP-DEC-178",
+        "UTP-WORK-153"
+      ],
+      "evidence": [
+        "records/fresh-story-beginnings-2026-10-04.json"
       ]
     }
   ],

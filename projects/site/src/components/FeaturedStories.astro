@@ -1,0 +1,27 @@
+---
+import StoryCards from './StoryCards.astro';
+import {featuredPool,featuredStories,featuredOptions} from '../data/featured-stories';
+---
+<div data-featured-stories>
+  <div data-story-display><StoryCards entries={featuredStories}/></div>
+  <div class="story-discovery-actions">
+    <button class="utk-button" type="button" data-another-beginning hidden>Show me another beginning <span aria-hidden="true">↻</span></button>
+    <span role="status" aria-live="polite" aria-atomic="true" data-story-status></span>
+  </div>
+  {featuredPool.map(entry=><template data-story-template={entry.href}>
+    <StoryCards entries={[entry]}/>
+    <ul><li data-story-credit><a href={entry.image.source}>{entry.image.caption||entry.image.alt||entry.image.title}</a> · {entry.image.creator} · <a href={entry.image.license_url}>{entry.image.license}</a>. {entry.image.changes}</li></ul>
+  </template>)}
+  <script type="application/json" data-story-options set:html={JSON.stringify(featuredOptions).replace(/</g,'\\u003c')}/>
+</div>
+<script>
+  import {mountFeaturedStories} from '../scripts/featured-stories.mjs';
+  document.querySelectorAll('[data-featured-stories]').forEach(root => mountFeaturedStories(root));
+</script>
+<style>
+  .story-discovery-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:28px}
+  .story-discovery-actions [hidden]{display:none!important}
+  .story-discovery-actions button{cursor:pointer;min-height:44px}
+  .story-discovery-actions button:focus-visible{outline:3px solid var(--sea);outline-offset:4px}
+  [data-story-status]{font-size:14px;color:var(--muted)}
+</style>

@@ -1,0 +1,53 @@
+{
+  "title": "Fresh beginnings for homepage storytelling",
+  "recorded_at": "2026-10-04T09:08:06.130249+00:00",
+  "status": "local_candidate",
+  "authorization": {
+    "decision": "UTP-DEC-178",
+    "quote": "sounds good",
+    "scope": "Implement the proposed changing Start with a story section."
+  },
+  "implementation": {
+    "pool": "research/featured-stories.json",
+    "count": 30,
+    "slots": {
+      "place": 10,
+      "taste": 10,
+      "life": 10
+    },
+    "behaviour": [
+      "Choose one story per slot on page load; remain still until explicit visitor request.",
+      "Avoid the last 18 displayed story paths when the pool permits; retain bounded local history only.",
+      "Prefer a regional connection between place and taste; add seasonal weighting using the Odisha calendar.",
+      "Show me another beginning changes cards and matching footer credits together.",
+      "Preserve the three server-rendered fallback cards when scripting is unavailable.",
+      "Only curated stories within the current published coastal edition are eligible."
+    ],
+    "editorial_controls": {
+      "admission": "Add an enabled pool entry referencing a published, illustrated discovery entry with complete credits. Each slot must have an eligible story.",
+      "preferred_months": "Optional numeric months 1–12; increase weight, never claim opening hours or festival dates.",
+      "pins": "Empty initially. A pin has href, slot, optional starts and mandatory expires (YYYY-MM-DD). Dates are inclusive in Asia/Kolkata. Overlapping pins in a slot fail validation. Expired pins stop applying without a rebuild.",
+      "pin_example": {
+        "href": "/knowledge/chilika/",
+        "slot": "place",
+        "starts": "2026-11-01",
+        "expires": "2026-11-07"
+      },
+      "history_limit": 18
+    },
+    "privacy": "Only locally displayed story paths are stored. No account, network tracking or paid backend added. Storage refusal retains in-memory repeat avoidance.",
+    "deferred": [
+      "Matching stories to the hero image",
+      "Personalized interest profiles"
+    ]
+  },
+  "validation": {
+    "full_build": "pass",
+    "full_site_tests": 405,
+    "coastal_build": "pass",
+    "coastal_tests": 77,
+    "new_selection_controller_tests": 13,
+    "visual_browser_review": "Unavailable: administrator-enforced browser security policy could not be verified. No workaround attempted."
+  },
+  "publication": "Not published by this implementation record. Prepare a reviewable PR; no release recorded."
+}
