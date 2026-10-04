@@ -1,7 +1,7 @@
 {
   "edition": "1.3.0",
   "okf_version": "0.2",
-  "generated_at": "2026-10-04T15:56:49.990348+00:00",
+  "generated_at": "2026-10-04T16:16:56.927432+00:00",
   "concept_count": 1093,
   "unique_source_urls": 566,
   "source_records": 563,
@@ -68,16 +68,17 @@
     "id": "utkala-weekly-data-editor",
     "status": "ACTIVE",
     "tracks": 17,
-    "remote_connected": false,
-    "website_connected": false,
+    "remote_connected": true,
+    "website_connected": true,
     "investment_scope": "domestic and foreign; FDI retained as background",
     "last_run": {
-      "id": "2026-09-27T160140Z",
-      "status": "completed_with_partial_source_availability",
+      "id": "2026-10-04T160437Z",
+      "status": "validated_local_pending_review_publication",
       "local_update": true,
       "git_push": false,
       "website_deployed": false
-    }
+    },
+    "connection_scope": "Existing verified ahimanikya/utkal-project and published website; this weekly update is research-only and does not establish a new deployment."
   },
   "investment_tracker": {
     "observations": 4,
@@ -85,13 +86,13 @@
     "statewide_realised_total_established": false
   },
   "statistical_atlas": {
-    "observations": 1118,
+    "observations": 1151,
     "topic_groups": 47,
     "district_banking_snapshots": 30,
     "calculations": 56,
     "source_capture_records_added": 44,
     "publication_readiness": {
-      "source_checked_editorial_review_pending": 849,
+      "source_checked_editorial_review_pending": 882,
       "needs_source_table_review": 191,
       "hold_conflict": 78
     },

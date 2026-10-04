@@ -515,3 +515,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · NALCO implementation checkpoint
 
 [Research receipt](records/nalco-investment-2026-10-04.json): RES-016 adds three NALCO identities, five stage events and scoped accounting evidence. Construction cash expenditure and current operation remain unknown; retry11October, independent RES-017 next. No website release.
+
+## 4 October2026 · Weekly aviation and schooling data
+
+[Research receipt](records/weekly-data-2026-10-04.json):33 new observations from AAI August2026 and UDISE2025–26. All17 weekly tracks attempted; partial source availability retained. No website release.
