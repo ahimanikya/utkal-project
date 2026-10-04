@@ -982,3 +982,9 @@ Three photographed Mayurbhanj chapters connect Similipal, Chhau and a Baripada m
 The approved Forest, Rhythm and a Meal trail is published with three photographic chapters and the existing five-idea starter. Live delivery and a live-data offline export passed. Visual/native PDF review, local confirmation and Search Console remain open.
 
 [Publication evidence](../records/mayurbhanj-trail-publication-2026-10-04.json) · [PR104](https://github.com/ahimanikya/utkal-project/pull/104).
+
+## UTP-HIS-0230 · Five beginnings, one place to choose
+
+Five illustrated trails can now be compared before the featured story. Interests narrow the choices, while common planning cues help visitors choose a beginning and continue into a saved journey and tour book. Existing stories, source notes and personal journeys retain their context.
+
+[Candidate evidence](../records/find-your-trail-review-2026-10-04.json). Prepared for review; not yet published.

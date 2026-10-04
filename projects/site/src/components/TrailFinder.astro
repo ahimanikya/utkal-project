@@ -1,0 +1,30 @@
+---
+import {trailComparisons,trailInterests} from '../data/trail-comparison';
+import ResponsiveImage from './ResponsiveImage.astro';
+---
+<section id="find-your-trail" class="trail-finder" data-trail-finder aria-labelledby="trail-finder-title">
+ <header><p class="eyebrow">Five ways into Odisha</p><h2 id="trail-finder-title">What draws you <em class="highlight">here?</em></h2><p>Choose what you love, then follow a story. Save its ideas and build a tour book in <a href="/journey/">My journey</a>.</p></header>
+ <div class="interest-buttons" role="group" aria-label="Filter illustrated trails by interest">
+  <button type="button" data-trail-interest="all" aria-pressed="true" aria-controls="trail-comparison-list" disabled>All interests</button>
+  {trailInterests.map(interest=><button type="button" data-trail-interest={interest.id} aria-pressed="false" aria-controls="trail-comparison-list" disabled>{interest.label}</button>)}
+ </div>
+ <p class="trail-count" data-trail-count role="status" aria-live="polite" aria-atomic="true">{trailComparisons.length} trails · All interests</p>
+ <noscript><p>All trails are shown below. Follow any story link to explore it.</p></noscript>
+ <div id="trail-comparison-list" class="comparison-grid">
+ {trailComparisons.map(choice=><article class="comparison-card" data-trail-card data-interests={choice.interests.join(' ')} aria-labelledby={'compare-'+choice.id}>
+  <figure><ResponsiveImage src={choice.photo.src} alt={choice.photo.alt} width={choice.photo.width} height={choice.photo.height} loading="lazy" sizes="(max-width: 760px) 92vw, (max-width: 1400px) 44vw, 600px"/></figure>
+  <div class="comparison-copy"><p class="eyebrow">{choice.chapters} illustrated chapters</p><h3 id={'compare-'+choice.id}>{choice.title}</h3><p class="comparison-summary">{choice.summary}</p>
+   <dl><div><dt>Begin around</dt><dd>{choice.start}</dd></div><div><dt>Getting around</dt><dd>{choice.travel}</dd></div><div><dt>Season & timing</dt><dd>{choice.season}</dd></div><div><dt>Arrange first</dt><dd>{choice.arrange}</dd></div></dl>
+   <a class="text-link" href={choice.href} aria-label={'Read '+choice.title}>Read the illustrated trail →</a>
+  </div>
+ </article>)}
+ </div>
+ <p class="comparison-note">Use these cues to choose a starting point. Check current conditions and arrangements in the linked guides before assigning days. Each saved journey begins with unscheduled ideas.</p>
+</section>
+<script>
+ import {mountTrailFinder} from '../lib/trail-finder.mjs';
+ document.querySelectorAll('[data-trail-finder]').forEach(root=>mountTrailFinder(root,window));
+</script>
+<style>
+ .trail-finder{margin:40px 0 72px;scroll-margin-top:28px}.trail-finder header{max-width:760px}.trail-finder h2{font:clamp(32px,4vw,48px)/1.15 var(--serif);margin:12px 0 20px}.interest-buttons{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 12px}.interest-buttons button{font:inherit;min-height:44px;padding:10px 18px;border:1px solid var(--sea);border-radius:999px;background:var(--paper);color:var(--ink);cursor:pointer}.interest-buttons button[aria-pressed=true]{background:var(--sea);color:var(--paper)}.interest-buttons button:focus-visible{outline:3px solid var(--earth);outline-offset:3px}.interest-buttons button:disabled{cursor:default}.trail-count{font-size:14px;color:var(--muted);min-height:24px;margin-bottom:24px}.comparison-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.comparison-card{min-width:0;border:1px solid var(--line);background:var(--paper);display:flex;flex-direction:column}.comparison-card[hidden]{display:none}.comparison-card figure{margin:0;background:var(--paper)}.comparison-card img{display:block;width:100%;height:auto;aspect-ratio:1.6;object-fit:contain}.comparison-copy{padding:clamp(20px,3vw,32px);display:flex;flex-direction:column;flex:1}.comparison-copy h3{font:clamp(25px,2.5vw,34px)/1.16 var(--serif);margin:12px 0 16px;overflow-wrap:anywhere}.comparison-summary{margin:0 0 22px}.comparison-copy dl{margin:0 0 22px;font-size:15px;flex:1}.comparison-copy dl>div{border-top:1px solid var(--line);padding:12px 0}.comparison-copy dt{font-weight:700;margin:0 0 5px;color:var(--sea)}.comparison-copy dd{margin:0;line-height:1.6}.comparison-copy>a{padding:12px 0;min-height:44px;align-self:flex-start}.comparison-note{max-width:85ch;font-size:15px;color:var(--muted);margin-top:24px}@media(min-width:1700px){.comparison-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:760px){.comparison-grid{grid-template-columns:1fr}.trail-finder{margin:32px 0 48px}.interest-buttons{gap:8px}.interest-buttons button{padding:10px 14px}}
+</style>

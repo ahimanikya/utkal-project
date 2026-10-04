@@ -1,0 +1,61 @@
+{
+  "title": "Find your trail — visual comparison and interest filters",
+  "recorded_at": "2026-10-04T22:37:12.091616+00:00",
+  "status": "review_candidate",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "id": "UTP-DEC-196",
+    "quote": "Sounds good, lets do it",
+    "context": "Founder approved five visual trail comparisons, interest choices, practical planning cues, linked story/save/book flow and placing the comparison before the long featured story."
+  },
+  "scope": [
+    "Five photographed choices: Stone, sea and makers; Chilika; Cuttack; Balasore; Mayurbhanj.",
+    "Heritage, nature, food, crafts and literature filters narrow only the comparison. All links remain readable without JavaScript.",
+    "Consistent starting-area, travel, timing and arrangement cues drawn from the existing five trail records.",
+    "Canonical story titles, URLs and photographs reused; existing starter buttons and saved journeys unchanged.",
+    "Shareable interest URLs preserve other parameters and fragments; Back, reset, unknown values and blocked history changes handled.",
+    "UTP design-pattern learning recorded; no shared-package version or wider adoption claimed."
+  ],
+  "routes": [
+    "/journey-starters/"
+  ],
+  "research_reuse": [
+    "research/destinations/stone-sea-trail.json",
+    "research/destinations/chilika-trail.json",
+    "research/destinations/cuttack-trail.json",
+    "research/destinations/balasore-trail.json",
+    "research/destinations/mayurbhanj-trail.json"
+  ],
+  "research_boundary": "No new external research; editorial synthesis of existing trail guidance. Each comparison stores its source trail path. Dated source notes remain available in the linked stories.",
+  "validation": {
+    "full_build_pages": 140,
+    "full_tests_passed": 438,
+    "coastal_pages": 127,
+    "coastal_tests_passed": 86,
+    "page_acceptance_checks": "508/508",
+    "new_checks": [
+      "Five comparisons precede the long story and resolve to story pages and starter controls",
+      "All cards remain visible in server-rendered HTML without scripting",
+      "Photographs and closing creator/licence credits resolve",
+      "Expected nature, crafts and literary filtering without mutating comparison data",
+      "URL initialisation, reset and Back synchronise pressed controls and results",
+      "Unknown query values fall back to all trails",
+      "Filtering remains functional when history writes fail",
+      "Controller cannot access local journey storage",
+      "Public comparison uses the same journey payload as story pages and My journey"
+    ],
+    "search_boundary": "The approved eleven-route shortlist is unchanged; Journey Starters remains held from indexing.",
+    "reviewer": "Current AI assistant",
+    "independent": false
+  },
+  "publication": {
+    "status": "not_merged_or_deployed",
+    "existing_release": "UTP-REL-067"
+  },
+  "limitations": [
+    "No new rendered-browser, interactive browser, screen-reader, physical-device or native PDF pass. The prior administrator-enforced browser security-policy verification block remains unresolved.",
+    "Planning cues reuse existing trail research. No new local confirmation, transfer-time estimate, accessibility rating or current service availability is claimed.",
+    "Search Console processing was not rechecked."
+  ],
+  "next_action": "Founder reviews the five-trail comparison candidate before merge and publication; rendered visual and assistive-technology checks remain separately open."
+}
