@@ -19027,6 +19027,48 @@
       "source_ids": [
         "forest-dhani-community-history"
       ]
+    },
+    {
+      "id": "sources/world-japan-memorandum2012",
+      "title": "India–Japan memorandum on cooperation in the rare earths industry in India",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/world-japan-memorandum2012.md",
+      "project_path": "kb/research/sources/world-japan-memorandum2012.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "world-japan-memorandum2012"
+      ]
+    },
+    {
+      "id": "sources/world-dae-3202-2022",
+      "title": "Rajya Sabha question 3202: Import of rare earth elements",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/world-dae-3202-2022.md",
+      "project_path": "kb/research/sources/world-dae-3202-2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "world-dae-3202-2022"
+      ]
+    },
+    {
+      "id": "sources/world-japan-suspension-lead2025",
+      "title": "India moves to conserve rare earths, seeks halt to exports to Japan",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/world-japan-suspension-lead2025.md",
+      "project_path": "kb/research/sources/world-japan-suspension-lead2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "world-japan-suspension-lead2025"
+      ]
     }
   ],
   "shared_publications": [
@@ -20370,7 +20412,11 @@
         "statistics/ports.md",
         "economy/mining.md",
         "journeys/rare-earths.md",
-        "people/public-servants-and-lawmakers.md"
+        "people/public-servants-and-lawmakers.md",
+        "references/data/world-connections.json",
+        "sources/world-japan-memorandum2012.md",
+        "sources/world-dae-3202-2022.md",
+        "sources/world-japan-suspension-lead2025.md"
       ],
       "project_records": [],
       "remaining_scope": "Build a source-linked research synthesis for historical maritime relations and two contemporary trade/policy cases; distinguish measured trade, institutional roles and attributed strategic interpretation. Reuse existing port/mineral/people evidence; retain disagreements and missing scope.",
@@ -20451,8 +20497,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1266,
-    "updated_at": "2026-10-04T05:29:15.175559+00:00",
+    "records_mapped": 1269,
+    "updated_at": "2026-10-04T06:32:22.384782+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21080,6 +21126,11 @@
       "run_id": "2026-10-04-forest-dhani",
       "at": "2026-10-04T05:29:15.175559+00:00",
       "scope": "One Dhani source after source/project searches; fourth case in existing history dataset, not a new statewide series or duplicate policy source."
+    },
+    {
+      "run_id": "2026-10-04-world-connections",
+      "at": "2026-10-04T06:32:22.384782+00:00",
+      "scope": "Existing collection, ports and rare-earth identities enhanced. Two primary documents and one quarantined secondary lead added; no duplicate Paradip release."
     }
   ]
 }

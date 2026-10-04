@@ -452,3 +452,7 @@ RES-058: recovered 2015 gazette and 2019 resolution copies from an official work
 ## Dhani community-history checkpoint · 4 October 2026
 
 RES-058: added one historical community case with five dated events and retained adverse findings. Deferred unmet evidence criteria to 11 October; next independent task RES-059. Original cases, amendments and frozen evidence retained.
+
+## Odisha in the world · 4 October 2026
+
+Completed bounded RES-059 synthesis with two modern cases, one new TEU observation and historical evidence reuse. Original 2012/2022 instruments captured and visually checked. Current status and country/product shipment gaps retained.

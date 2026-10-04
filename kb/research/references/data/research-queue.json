@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T05:29:15.175559+00:00",
+  "updated_at": "2026-10-04T06:32:22.384782+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3287,8 +3287,8 @@
       "title": "Odisha in the world: geopolitical evidence and synthesis",
       "done_when": "Build a source-linked research synthesis for historical maritime relations and two contemporary trade/policy cases; distinguish measured trade, institutional roles and attributed strategic interpretation. Reuse existing port/mineral/people evidence; retain disagreements and missing scope.",
       "target": "collections/odisha-and-world.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-017",
@@ -3297,12 +3297,28 @@
         "RES-038",
         "RES-052"
       ],
-      "last_worked_at": null,
-      "next_step": "Search saved maritime/port/mineral evidence; choose two bounded contemporary cases with original sources before making strategic claims.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T06:32:22.384782+00:00",
+      "next_step": "RES-059 bounded synthesis completed. Continue RES-062 distinctive rice markets using existing Kalajeera and rice-economy evidence; retain country/product/port joins and Japan current-status evidence as dated follow-ups.",
+      "evidence_outputs": [
+        "collections/odisha-and-world.md",
+        "references/data/world-connections.json",
+        "statistics/ports.md",
+        "journeys/rare-earths.md",
+        "sources/world-japan-memorandum2012.md",
+        "sources/world-dae-3202-2022.md",
+        "sources/world-japan-suspension-lead2025.md"
+      ],
       "retry_after": null,
       "blocker": null,
-      "attempt_history": [],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-world-connections",
+          "at": "2026-10-04T06:32:22.384782+00:00",
+          "outcome": "historical_synthesis_and_two_modern_cases_delivered",
+          "completion_criteria_met": true,
+          "scope": "Primary port, memorandum and parliamentary evidence; explicit policy, trade and interpretation classes; disagreements and missing scope retained."
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "collections/odisha-and-world.md",
@@ -3311,12 +3327,39 @@
           "statistics/ports.md",
           "economy/mining.md",
           "journeys/rare-earths.md",
-          "people/public-servants-and-lawmakers.md"
+          "people/public-servants-and-lawmakers.md",
+          "references/data/world-connections.json",
+          "sources/world-japan-memorandum2012.md",
+          "sources/world-dae-3202-2022.md",
+          "sources/world-japan-suspension-lead2025.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "follow_up_evidence": [
+        {
+          "id": "world-country-product-origin",
+          "field": "Odisha-origin product-country-year shipments and port routing",
+          "value": null,
+          "next_action": "Seek DEPM/DGCI&S table and matched shipment records; no conversion of destination shares to rupees."
+        },
+        {
+          "id": "world-japan-current-status",
+          "field": "Original 2025 suspension directive and subsequent operating status",
+          "value": null,
+          "source_id": "world-japan-suspension-lead2025",
+          "evidence_status": "secondary_lead_quarantined",
+          "retry_after": "2026-10-11",
+          "next_action": "Seek DAE/IREL original directive or later parliamentary confirmation, agreement scope and actual shipments."
+        },
+        {
+          "id": "world-port-service-current",
+          "field": "Current port services, costs and booking availability",
+          "value": null,
+          "next_action": "Original carrier/terminal schedules and dated quotations required for a business guide."
+        }
+      ]
     },
     {
       "id": "RES-060",

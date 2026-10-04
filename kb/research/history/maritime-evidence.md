@@ -33,3 +33,7 @@ Use Utkal · Odisha as the campaign identity. In historical records, retain the 
 ## Reusable data
 
 The [linked-data method](../methods/maritime-linked-data.md) explains the entity and claim graph. A missing number is stored as missing, never as zero. The [research queue](research-agenda.md) prioritises the remaining trade and historical joins.
+
+## Modern connections, separate evidence · 4 October 2026
+
+[Two contemporary cases](../collections/odisha-and-world.md) connect logistics and materials policy with this history. The relationship is editorial context; it establishes neither continuous ancient routes nor causation.

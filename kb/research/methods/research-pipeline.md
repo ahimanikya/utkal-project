@@ -251,3 +251,7 @@ Continue RES-058 with one archival/community-history source on forest institutio
 ## Dhani community-history checkpoint · 4 October 2026
 
 Resume RES-058 on 11 October for the required 2018 fieldwork dates and original local-instrument gaps. Reuse the four historical cases, original 2011 text and 2015/2019 facsimiles. Community-history extension now saved; do not repeat discovery or mark complete. Meanwhile proceed to independent RES-059 using saved maritime/port/mineral evidence.
+
+## Odisha in the world · 4 October 2026
+
+RES-059 bounded synthesis completed. Continue RES-062 distinctive rice markets using existing Kalajeera and rice-economy evidence; retain country/product/port joins and Japan current-status evidence as dated follow-ups.

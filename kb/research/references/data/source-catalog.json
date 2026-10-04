@@ -1423,7 +1423,14 @@
     "publisher": "Paradip Port Authority",
     "source_kind": "Public institutional statistical source",
     "accessed_on": "2026-09-27",
-    "capture_note": "Fresh indexed official release extract for coastal cargo in FY2024–25."
+    "capture_note": "Fresh indexed official release extract for coastal cargo in FY2024–25.",
+    "scope_extensions": [
+      {
+        "run_id": "2026-10-04-world-connections",
+        "at": "2026-10-04T06:32:22.384782+00:00",
+        "scope": "Direct HTML release paragraph on EXIM container traffic: 12,711 TEUs FY2024–25. Reused existing identity; PIB republication not counted independently."
+      }
+    ]
   },
   "connect-airport2026": {
     "id": "connect-airport2026",
@@ -6844,5 +6851,42 @@
     "capture_note": "Full HTML text read; graphical offence series not digitised. Authors’ historical case account, not an original signed committee instrument, causal evaluation or current operating/legal verification.",
     "accessed_on": "2026-10-04",
     "capture_method": "publisher_html_text"
+  },
+  "world-japan-suspension-lead2025": {
+    "id": "world-japan-suspension-lead2025",
+    "title": "India moves to conserve rare earths, seeks halt to exports to Japan",
+    "resource": "https://www.ibef.org/news/india-moves-to-conserve-rare-earths-seeks-halt-to-exports-to-japan",
+    "publisher": "India Brand Equity Foundation",
+    "published_on": "2025-06-16",
+    "locator": "News body and secondary-research disclaimer",
+    "source_kind": "Secondary institutional news; unresolved primary-evidence lead",
+    "capture_note": "Records a reported request to suspend exports. Original directive, effective scope and later status not retrieved. No shipment quantities or completed suspension adopted as verified.",
+    "accessed_on": "2026-10-04"
+  },
+  "world-dae-3202-2022": {
+    "id": "world-dae-3202-2022",
+    "title": "Rajya Sabha question 3202: Import of rare earth elements",
+    "resource": "https://cdnbbsr.s3waas.gov.in/s35b8e4fd39d9786228649a8a8bec4e008/uploads/2023/02/2023020889-1.pdf",
+    "publisher": "Department of Atomic Energy",
+    "published_on": "2022-03-31",
+    "date_type": "answer date, distinct from upload directory",
+    "locator": "PDF pp.1–2; answer (c) and table heading in (d)",
+    "source_kind": "Original parliamentary answer",
+    "capture_note": "Both pages visually read. Answer distinguishes its use of pact from a company supply agreement for mixed rare-earth chloride. Table is IREL ore mined, not Odisha rare-earth output or exports; no table values adopted.",
+    "accessed_on": "2026-10-04",
+    "capture_sha256": "f5ed66cbdc35ecfb1607c8c6fc67706b7f79b7791a562ce5c55831f281e629b9"
+  },
+  "world-japan-memorandum2012": {
+    "id": "world-japan-memorandum2012",
+    "title": "India–Japan memorandum on cooperation in the rare earths industry in India",
+    "resource": "https://www.mea.gov.in/Portal/LegalTreatiesDoc/JP12B0296.pdf",
+    "publisher": "Ministry of External Affairs; DAE and METI signatories",
+    "published_on": "2012-11-16",
+    "date_type": "signature date; website upload date unknown",
+    "locator": "PDF p.1, clauses 1–5 and signature block",
+    "source_kind": "Original intergovernmental memorandum",
+    "capture_note": "One-page signed facsimile visually read. Designated partners and intended cooperation, not proof of a completed joint venture, delivered volume or continuing agreement.",
+    "accessed_on": "2026-10-04",
+    "capture_sha256": "c60542ee01e6807d2f20af0cc32b9fa7287da47e28d35d47ca1e6afe4b44bc38"
   }
 }

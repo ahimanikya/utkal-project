@@ -50,3 +50,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 [^connect-paradip2025]: [Paradip Port Cements Its Position As Numero Uno among Indian Major Ports, 2 April 2025](https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/)
 
 [^connect-paradip2026]: [Paradip Port Authority: Major Achievements](https://paradipport.gov.in/major-achievements/)
+
+## Container trade in its own unit · 4 October 2026
+
+The 2 April 2025 release reports **12,711 TEUs of EXIM container traffic for FY2024–25**. TEUs are container-size equivalents; the figure is not tonnes, unique physical boxes or Odisha-origin export value. [Source, EXIM paragraph](https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/). The [world-connections synthesis](../collections/odisha-and-world.md) explains why port throughput and producer exports require separate records.

@@ -413,3 +413,7 @@ One Jharsuguda working-plan source added for enclosed amendment facsimiles. Two 
 ## Dhani community-history checkpoint · 4 October 2026
 
 One new authored Dhani paper mapped after both-workspace searches; four local cases now share the existing historical concept. This bounded extension is not exhaustive duplicate detection.
+
+## Odisha in the world · 4 October 2026
+
+Existing historical, port and material records reused. Three source identities added: two primary instruments and one secondary lead held for original confirmation. PIB/port republication remains one lineage.
