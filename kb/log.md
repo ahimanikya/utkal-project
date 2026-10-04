@@ -467,3 +467,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Odisha in the world
 
 [Research receipt](records/world-connections-2026-10-04.json): RES-059 two-case synthesis delivered; historical interpretations, port traffic, capacity and agreements remain separate. Current agreement status and shipment evidence gaps retained. Next RES-062. No website release.
+
+## 4 October 2026 · Distinctive rice markets
+
+[Research receipt](records/rice-markets-2026-10-04.json): RES-062 market dossier delivered; product origin, listings, promotion and shipments remain separate. Matched farmer receipts and export origins remain unknown. Next RES-030. No website release.

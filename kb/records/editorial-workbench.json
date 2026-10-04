@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 11,
-    "newer_records_outside_frozen_selection": 239
+    "newer_records_outside_frozen_selection": 243
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -215,11 +215,15 @@
     "source:pala-sjprf-kabita",
     "source:pala-sna-behera2009",
     "source:people-samanta-sansad17",
+    "source:rice-apeda-promotion2025",
+    "source:rice-cgiar-trade2024",
     "source:rice-crri-releases",
     "source:rice-fscw2025",
     "source:rice-fscw2026",
     "source:rice-irri-kalahandi2020",
+    "source:rice-jaivik-products",
     "source:rice-mssrf-tulasa",
+    "source:rice-myefarm-listing",
     "source:rice-nrri-aromatic2022",
     "source:rice-oas2024",
     "source:rice-pib-msp2023",
@@ -271,8 +275,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "9a231198e2746aea26a42c62d00a60f456040d7759ea4ccc4002186bdab5482a",
-    "kb/research/search-index.json": "e55340c53047abc5310049277c5f7ede9715470d15277dfb67b8a1d86ce6ce3f",
+    "kb/research/references/data/source-catalog.json": "dc01c71f1ac087b57c59f66ff2b0f7ca880e7345bbdb52449fc97c479a06e541",
+    "kb/research/search-index.json": "d2d4d336d00ece4e6d2ce0db88b705a9cf229763d40b4b0910fedf7f41e28f7f",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -16388,7 +16392,7 @@
         "record_status": "draft",
         "recorded_scope": "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals.",
         "readiness": "Research nucleus; feature needs local detail and media",
-        "source_connections": 1,
+        "source_connections": 6,
         "held_claims": []
       },
       "connections": [
@@ -16396,6 +16400,31 @@
           "id": "gi-kalajeera",
           "title": "Koraput Kalajeera Rice — GI application 814",
           "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/814"
+        },
+        {
+          "id": "rice-apeda-promotion2025",
+          "title": "APEDA Annual Administrative Report 2024–25 — Odisha capacity development",
+          "url": "https://apeda.gov.in/sites/default/files/annual_report/APEDA_Annual_Report_English_2024_25.pdf"
+        },
+        {
+          "id": "rice-cgiar-trade2024",
+          "title": "Drivers of Agrifood System Transformation in Odisha",
+          "url": "https://cgspace.cgiar.org/server/api/core/bitstreams/5a2723be-0b6d-4b73-af7c-bb61bc42ba97/content"
+        },
+        {
+          "id": "rice-jaivik-products",
+          "title": "Jaivik Sri Farmers Producer Company — products and organisation",
+          "url": "https://www.jaiviksrifpc.com/"
+        },
+        {
+          "id": "rice-myefarm-listing",
+          "title": "Kalajeera Rice — myefarm catalogue",
+          "url": "https://www.mye.farm/shop/kalajeera-rice"
+        },
+        {
+          "id": "rice-yadav-landraces2026",
+          "title": "Preserving agrobiodiversity: socio-cultural and economic drivers of landrace conservation in Odisha, India",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full"
         }
       ],
       "related_source_ids": [],

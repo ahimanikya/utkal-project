@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T06:32:22.384782+00:00",
+  "updated_at": "2026-10-04T07:35:13.123765+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6372,6 +6372,61 @@
       "scope": "News body and secondary-research disclaimer",
       "run_id": "2026-10-04-world-connections",
       "checked_at": "2026-10-04T06:32:22.384782+00:00"
+    }
+  ],
+  "research_captures": [
+    {
+      "run_id": "2026-10-04-rice-markets",
+      "checked_at": "2026-10-04T07:35:13.123765+00:00",
+      "sources": [
+        {
+          "source_id": "rice-jaivik-products",
+          "url": "https://www.jaiviksrifpc.com/",
+          "status": "available",
+          "scope": "About Us and Our products sections",
+          "capture_sha256": "250963fe728211fd55d74724e829f758a0aa9bb177da632604d35c8f565652cf"
+        },
+        {
+          "source_id": "rice-myefarm-listing",
+          "url": "https://www.mye.farm/shop/kalajeera-rice",
+          "status": "available",
+          "scope": "District, pack sizes, sourcing and ordering sections",
+          "capture_sha256": "ceaf5d36871a797b26e19e41f887914c3b1ddf8dc9ed2b6ed8026962319ef1e8"
+        },
+        {
+          "source_id": "rice-apeda-promotion2025",
+          "url": "https://apeda.gov.in/sites/default/files/annual_report/APEDA_Annual_Report_English_2024_25.pdf",
+          "status": "available",
+          "scope": "Printed p.114 / PDF p.116, Odisha capacity-building table row16",
+          "capture_sha256": "6cc5e1c941af8c0c563951fa84b11acc9cf0bcf0aec553333b4ebf86289c28b9"
+        },
+        {
+          "source_id": "rice-cgiar-trade2024",
+          "url": "https://cgspace.cgiar.org/server/api/core/bitstreams/5a2723be-0b6d-4b73-af7c-bb61bc42ba97/content",
+          "status": "available",
+          "scope": "Printed p.27 / PDF p.33, Export markets paragraph",
+          "capture_sha256": "1f6c3664cda1d1cba95afa658086904d07f4e82a987066b1d6c4ff5fb920db6b"
+        },
+        {
+          "source_id": "rice-yadav-landraces2026",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1769950/full",
+          "status": "available",
+          "scope": "Section 3.4 market-chain paragraph; existing publication reused, not independent corroboration"
+        },
+        {
+          "url": "https://www.mye.farm/shop/kalajeera-rice",
+          "status": "unavailable",
+          "method": "web extractor",
+          "detail": "Internal error; later original HTTPS HTML retrieval succeeded."
+        },
+        {
+          "url": "https://apeda.gov.in/sites/default/files/annual_report/APEDA_Annual_Report_English_2024_25.pdf",
+          "status": "unavailable",
+          "method": "web PDF screenshot",
+          "detail": "Cache miss; original PDF downloaded and page rendered locally."
+        }
+      ],
+      "scope": "Historical and market snapshot capture only; not a weekly revision check."
     }
   ]
 }

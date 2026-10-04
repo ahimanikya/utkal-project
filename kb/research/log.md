@@ -456,3 +456,7 @@ RES-058: added one historical community case with five dated events and retained
 ## Odisha in the world · 4 October 2026
 
 Completed bounded RES-059 synthesis with two modern cases, one new TEU observation and historical evidence reuse. Original 2012/2022 instruments captured and visually checked. Current status and country/product shipment gaps retained.
+
+## Rice markets · 4 October 2026
+
+Completed RES-062 bounded distinctive-rice market dossier. Added four sources and a five-case register, reusing the landrace study. Retained unknown fieldwork/price dates, producer receipts, lot identity and attributable exports. Local research; no human review or website release.

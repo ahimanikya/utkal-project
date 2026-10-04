@@ -426,3 +426,7 @@ RES-058 community-history extension delivered. Required 2018 fieldwork-date and 
 ## Odisha in the world · 4 October 2026
 
 RES-059 bounded synthesis completed with two modern cases. Product/country/origin joins, current services and original 2025 Japan suspension scope remain open; latter retry 11 October. Survey destination denominators and maritime chronology conflicts preserved.
+
+## Rice markets · 4 October 2026
+
+Rice market follow-ups: obtain a matched producer-to-retail lot and origin-linked overseas shipment records after 11 October 2026. Retail ceiling, seller catalogue, promotion event and port volume are separate evidence classes. Public sources inspected do not resolve farmer returns.
