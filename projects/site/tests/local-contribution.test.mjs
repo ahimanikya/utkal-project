@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {localContributionPrompts,localContributionURL} from '../src/lib/local-contribution.mjs';
-test('three local contribution routes preserve page context and open drafts, not issue submissions',()=>{
+test('local contribution routes preserve page context and open drafts, not issue submissions',()=>{
  for(const kind of Object.keys(localContributionPrompts)){
   const url=new URL(localContributionURL(kind,'/destinations/puri/'),'https://utkalproject.org');
   assert.equal(url.pathname,'/contribute/');assert.equal(url.searchParams.get('local'),kind);assert.equal(url.searchParams.get('page'),'/destinations/puri/');assert.equal(url.hash,'#correction-draft');

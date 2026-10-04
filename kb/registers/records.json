@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T14:18:37.049274+00:00",
+  "recorded_at": "2026-10-04T14:45:44.183242+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4587,6 +4587,28 @@
         "records/trail-books-local-evidence-2026-10-04.json",
         "records/trail-books-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-157",
+      "title": "Chilika illustrated trail and gateway-specific tour books",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-186",
+      "next_action": "Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-186",
+        "UTP-REV-135"
+      ],
+      "evidence": [
+        "records/chilika-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8289,6 +8311,25 @@
       "evidence": [
         "records/trail-books-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-186",
+      "title": "Build the illustrated Chilika trail and local contribution paths",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "go",
+      "scope": "Implement the recommended Chilika story chapters, practical planning, portable illustrated books and local contribution questions.",
+      "recorded_at": "2026-10-04T14:45:44.183242+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-157"
+      ],
+      "evidence": [
+        "records/chilika-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11471,6 +11512,29 @@
       "evidence": [
         "records/trail-books-local-evidence-2026-10-04.json",
         "records/trail-books-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-135",
+      "title": "Chilika illustrated trail implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new browser visual, interactive, physical-device or native PDF pass; prior administrator-enforced browser security-policy verification failure remains unresolved.",
+        "No local visits, calls, boat inspections, kitchen or property checks. Access, transport, operating arrangements and availability remain unconfirmed.",
+        "Satapada and nature-camp source checks used official indexed text after direct retrieval failed. Existing food and Kalijai legend evidence reused without claiming fresh primary inspection.",
+        "Search Console processing was not rechecked; current access limitation remains."
+      ],
+      "refs": [
+        "UTP-WORK-157",
+        "UTP-DEC-186"
+      ],
+      "evidence": [
+        "records/chilika-illustrated-trail-2026-10-04.json"
       ]
     }
   ],

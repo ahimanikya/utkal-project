@@ -1,0 +1,103 @@
+{
+  "title": "Chilika, one shore at a time — illustrated trail candidate",
+  "recorded_at": "2026-10-04T14:45:44.183242+00:00",
+  "status": "review_candidate",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "id": "UTP-DEC-186",
+    "quote": "go",
+    "context": "Founder selected the recommended Chilika illustrated trail, practical planning, portable book and local contribution batch."
+  },
+  "purpose": "Connect existing Chilika knowledge to an illustrated reading path and gateway-specific personal tour books.",
+  "scope": [
+    "One dedicated trail page with four photographic chapters: Mangalajodi birds, Kalijai crossing, Satapada and lakeside food.",
+    "Reuse the existing three starter collections without combining them or silently changing saved journeys.",
+    "Chapter selection and offline photographs follow selected ideas, including single-day export and removed items.",
+    "Boat-trip and birding prompts alongside access and food contributions; drafts remain private until the visitor elects to post publicly.",
+    "Generalize trail display, shared journey data and guide return links; preserve the existing Stone, sea and makers trail."
+  ],
+  "routes": [
+    "/journey-starters/chilika/"
+  ],
+  "research_reuse": [
+    "research/destinations/chilika.json",
+    "research/destinations/details.json",
+    "research/stories/narratives/chilika.json",
+    "research/journey-starters.json",
+    "records/chilika-release-review.json"
+  ],
+  "source_checks": [
+    {
+      "id": "mangalajodi-visit",
+      "title": "Mangalajodi — Incredible India",
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/mangalajodi",
+      "note": "Official text read on 4 October 2026 for November–February and birdwatching context; no current guiding arrangement confirmed."
+    },
+    {
+      "id": "barkul-kalijai",
+      "title": "Chilika Barkul Kalijai Narayani and back — Odisha Tourism",
+      "url": "https://apps.odishatourism.gov.in/tour/chilika-barkul-kalijai-narayani-and-back",
+      "note": "Official itinerary page inspected on 4 October 2026 for the Barkul–Kalijai connection; no package price or operating schedule adopted."
+    },
+    {
+      "id": "satapada-visit",
+      "title": "Chilika (Satpada) — Puri district",
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/chilika-satpada",
+      "note": "Official indexed text rechecked on 4 October 2026; direct retrieval failed. Supports the dolphin association, not a guaranteed encounter."
+    },
+    {
+      "id": "chilika-bases",
+      "title": "Chilika Nature Camps — Odisha Tourism, destination guide",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/lakes-waterfalls/chilika-nature-camps.html",
+      "note": "Official indexed text rechecked on 4 October 2026; direct retrieval failed. Accommodation leads, not current facilities or availability."
+    },
+    {
+      "id": "south-odisha-food",
+      "title": "South Odisha brochure — Odisha Tourism, Chilka Lake section",
+      "url": "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/SouthOdisha.pdf",
+      "note": "Existing 1 October 2026 indexed brochure inspection reused; no new PDF retrieval or local menu check."
+    },
+    {
+      "id": "kalijai-legend",
+      "title": "Kalijai legend · Odisha Review, February–March 2012",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/Feb-March/engpdf/79-81.pdf",
+      "note": "Existing project inspection reused for the recorded legend. Belief and literary interpretation remain distinct from a verified event."
+    }
+  ],
+  "image_basis": "Four existing licensed photographs; credits and reuse terms retained at page end and in illustrated books. The Satapada chapter uses an explicitly labelled regional Chilika photograph, not a newly identified view of Satapada.",
+  "validation": {
+    "full_build_pages": 137,
+    "full_tests_passed": 422,
+    "coastal_pages": 124,
+    "coastal_tests_passed": 82,
+    "page_acceptance_checks": "496/496",
+    "new_behaviour_checks": [
+      "Independent gateway starter plans and preserved existing notes",
+      "Only matching chapters/photos in text and HTML books",
+      "Single-day exports and removal/addition of choices",
+      "Private notes excluded from shared exports",
+      "Real guide targets and reciprocal trail links",
+      "Unique headings, IDs and starter status controls",
+      "Shared payload in ordinary and Fresco layouts",
+      "Contextual public-draft links and sensitive-location guidance"
+    ],
+    "initial_findings_resolved": [
+      "Added the new route to the explicit search-hold inventory after the boundary check rejected an unclassified route.",
+      "Updated the full-build expected page count for the added page."
+    ],
+    "reviewer": "Current AI assistant",
+    "independent": false
+  },
+  "publication": {
+    "status": "not_merged_or_deployed",
+    "search": "Existing eleven-route shortlist retained; new route held with noindex.",
+    "existing_release": "UTP-REL-062"
+  },
+  "limitations": [
+    "No new browser visual, interactive, physical-device or native PDF pass; prior administrator-enforced browser security-policy verification failure remains unresolved.",
+    "No local visits, calls, boat inspections, kitchen or property checks. Access, transport, operating arrangements and availability remain unconfirmed.",
+    "Satapada and nature-camp source checks used official indexed text after direct retrieval failed. Existing food and Kalijai legend evidence reused without claiming fresh primary inspection.",
+    "Search Console processing was not rechecked; current access limitation remains."
+  ],
+  "next_action": "Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open."
+}
