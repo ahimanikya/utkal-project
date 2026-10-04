@@ -523,3 +523,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October2026 · Port cargo and logistics
 
 [Research receipt](records/trade-logistics-2026-10-04.json):RES-017 adds28 observations and five comparisons from historical ministry port tables; an internal total conflict remains held. Fisheries series next. No website release.
+
+## 4 October2026 · Sadhaba maritime science
+
+[Research receipt](records/sadhaba-science-2026-10-04.json):Deep study connects historical imagery, navigation reconstruction, later field studies and modern physics. Original field-paper comparison remains open. No website release.

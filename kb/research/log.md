@@ -512,3 +512,8 @@ All17 tracks attempted; partial fetches and existing conflicts retained. Added33
 ## 4 October2026 · RES-017 port-series checkpoint
 
 Added28 scoped observations and five comparisons from original ministry tables. Dhamra/Gopalpur series include adverse years; Paradip vessel time remains a distinct measure. Held conflicting2023–24 non-major totals. RES-017 stays in progress; longer fisheries series next. [Port story](stories/ports-diverging-cargo.md). No website release or human review claimed.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+Created a [Sadhaba maritime-science study](history/sadhaba-maritime-science.md),12 scoped claims,nine source/lead records and11 explicit unknowns. Two original PDFs recovered; inaccessible originals preserved as unavailable. Added related reading and evidence-qualified graph relationships. No human review, fieldwork or website release claimed.

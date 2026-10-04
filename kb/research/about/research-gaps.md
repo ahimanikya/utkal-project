@@ -474,3 +474,8 @@ One IMFA cluster now distinguishes asset transfer, unimplemented expansion and g
 ## 4 October 2026 · NALCO expenditure boundary
 
 Project estimates and a CWIP expense component are captured, but full project cash spending and current commissioning remain unknown. RES-016 retries11 October; independent RES-017 next.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[Sadhaba science](../history/sadhaba-maritime-science.md) is now a substantive desk study. Original1993/1995 retrieval failed;1997 patia contents, manuscript accessions, ancient hull specifications, instruments, provisions and success rates remain unresolved. RES-068 retains these gaps without replacing other queue tasks.

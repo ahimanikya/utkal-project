@@ -4816,6 +4816,17 @@
       "content_type": "Statistical Story",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "history/sadhaba-maritime-science",
+      "primary_subject": "history",
+      "secondary_subjects": [
+        "economy",
+        "people"
+      ],
+      "content_type": "Historical Technology Study",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7135,6 +7146,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Export value and handled cargo are distinct; neither supplies business profit or Odisha-origin attribution for the other."
+    },
+    {
+      "from": "history/sadhaba-maritime-science",
+      "to": "history/maritime-evidence",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Objects, route interpretations and cultural remembrance answer different historical questions."
+    },
+    {
+      "from": "history/sadhaba-maritime-science",
+      "to": "culture/boita-bandana",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Commemoration supplies cultural context; it is not a technical voyage log."
+    },
+    {
+      "from": "history/sadhaba-maritime-science",
+      "to": "people/science-and-contributions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Collective technical practice belongs alongside named scientific contributions, with its own evidence requirements."
+    },
+    {
+      "from": "history/sadhaba-maritime-science",
+      "to": "places/ratnagiri",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The Buddhist site provides context for maritime imagery; site association alone does not identify a merchant fleet."
     }
   ],
   "relationship_types": {

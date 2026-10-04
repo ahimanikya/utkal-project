@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T16:55:29.191089+00:00",
+  "updated_at": "2026-10-04T17:52:37.451849+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7294,6 +7294,134 @@
           "next_action": "Seek publisher correction or original Directorate returns. Do not replace either total with a component sum or compute state growth."
         }
       ]
+    },
+    {
+      "run_id": "2026-10-04-sadhaba-science",
+      "checked_at": "2026-10-04T17:52:37.451849+00:00",
+      "scope": "Sadhaba technology only; not a weekly publisher refresh.",
+      "sources": [
+        {
+          "source_id": "sadhaba-monsoon2006",
+          "url": "https://www.currentscience.ac.in/Volumes/90/06/0864.pdf",
+          "status": "available",
+          "access_scope": "Full original PDF downloaded; selected pages 865–866 and 869–871 visually inspected. Historical synthesis and modern climatology, not voyage logs."
+        },
+        {
+          "source_id": "sadhaba-watercraft-art2018",
+          "url": "https://www.aima-underwater.org.au/app/download/files/get/ajma42.pdf",
+          "status": "available",
+          "access_scope": "Original journal volume downloaded; article text and printed pp.42 and49 visually inspected. Volume date2018; online uploads2020 are not new independent studies."
+        },
+        {
+          "source_id": "sadhaba-southern-boats1995",
+          "url": "https://drs.nio.res.in/drs/bitstream/handle/2264/2389/J_Indian_Ocean_Stud_3_66.pdf?sequence=2",
+          "status": "unavailable",
+          "access_scope": "Indexed institutional text only: opening p.66 and p.72 sections on depth, time and steering. Direct retrieval returned a challenge page, not a PDF. Fieldwork date not established. A similarly titled1999 publication must not be silently substituted."
+        },
+        {
+          "source_id": "sadhaba-chilika-boats1993",
+          "url": "https://drs.nio.res.in/drs/bitstream/handle/2264/2882/J_Mar_Archaeol_4_51.pdf?sequence=2",
+          "status": "unavailable",
+          "access_scope": "Indexed institutional text, especially printed p.52. Original download returned a challenge page. Reported contemporary practice and remembered ancestry remain separate; exact fieldwork dates unknown."
+        },
+        {
+          "source_id": "sadhaba-boats-chapter2015",
+          "url": "https://www.researchgate.net/publication/301522260_Traditional_boats_and_Navigation_in_Odisha",
+          "status": "available",
+          "access_scope": "Author-uploaded full chapter transcription inspected by named sections. Upload20April2016 differs from listed publication2015. Reuses earlier studies; not independent corroboration. Types and scientific timber names require critical comparison."
+        },
+        {
+          "source_id": "sadhaba-patia1997-lead",
+          "url": "https://www.tandfonline.com/toc/rsas20/13/1",
+          "status": "available_listing_only",
+          "access_scope": "Publisher issue listing verified; full article not inspected. Online date11August2010 is separate from issue1997. Bibliographic lead only; no technical measurements imported."
+        },
+        {
+          "source_id": "sadhaba-tides-noaa",
+          "url": "https://oceanservice.noaa.gov/education/tutorial_tides/tides06_variations.html",
+          "status": "available",
+          "access_scope": "Original explanatory page inspected. Modern physical explanation; no evidence of a historical Odisha departure rule."
+        },
+        {
+          "source_id": "sadhaba-stars-nasa",
+          "url": "https://science.nasa.gov/solar-system/what-is-the-north-star-and-how-do-you-find-it/",
+          "status": "available",
+          "access_scope": "Original explanatory page inspected. Modern astronomical context, not evidence that a named Sadhaba navigator used a particular instrument."
+        },
+        {
+          "source_id": "sadhaba-buoyancy-openstax",
+          "url": "https://openstax.org/books/university-physics-volume-1/pages/14-4-archimedes-principle-and-buoyancy",
+          "status": "available",
+          "access_scope": "Original textbook section inspected for physical principles only. No illustration or textbook exercise reproduced; no historical knowledge attribution."
+        }
+      ],
+      "download_history": [
+        {
+          "id": "art2018",
+          "url": "https://www.aima-underwater.org.au/app/download/files/get/ajma42.pdf",
+          "available": true,
+          "bytes": 15650343,
+          "sha256": "e6d5d76cfa31ecdecaa30b91935fbca3f19abf9399115df202911f092f35e416",
+          "error": null,
+          "prior_attempt": {
+            "id": "art2018",
+            "url": "https://www.aima-underwater.org.au/app/download/files/get/ajma42.pdf",
+            "available": false,
+            "bytes": 0,
+            "sha256": null,
+            "error": "t\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: www.aima-underwater.org.au\n"
+          }
+        },
+        {
+          "id": "monsoon2006",
+          "url": "https://www.currentscience.ac.in/Volumes/90/06/0864.pdf",
+          "available": true,
+          "bytes": 6251173,
+          "sha256": "60d122ad14c490bc5f3f6f94a16a1cf0ce44941b0afb4100f4344bfad69b069a",
+          "error": null,
+          "prior_attempt": {
+            "id": "monsoon2006",
+            "url": "https://www.currentscience.ac.in/Volumes/90/06/0864.pdf",
+            "available": false,
+            "bytes": 0,
+            "sha256": null,
+            "error": "ent\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: www.currentscience.ac.in\n"
+          }
+        },
+        {
+          "id": "boats1995",
+          "url": "https://drs.nio.res.in/drs/bitstream/handle/2264/2389/J_Indian_Ocean_Stud_3_66.pdf?sequence=2",
+          "available": false,
+          "bytes": 3540,
+          "sha256": null,
+          "error": "  0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\n100  3540  100  3540    0     0   1696      0  0:00:02  0:00:02 --:--:--  1697\n",
+          "prior_attempt": {
+            "id": "boats1995",
+            "url": "https://drs.nio.res.in/drs/bitstream/handle/2264/2389/J_Indian_Ocean_Stud_3_66.pdf?sequence=2",
+            "available": false,
+            "bytes": 0,
+            "sha256": null,
+            "error": "Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: drs.nio.res.in\n"
+          }
+        },
+        {
+          "id": "chilika1993",
+          "url": "https://drs.nio.res.in/drs/bitstream/handle/2264/2882/J_Mar_Archaeol_4_51.pdf?sequence=2",
+          "available": false,
+          "bytes": 3535,
+          "sha256": null,
+          "error": "  0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0\n100  3535  100  3535    0     0   1802      0  0:00:01  0:00:01 --:--:--  1802\n",
+          "prior_attempt": {
+            "id": "chilika1993",
+            "url": "https://drs.nio.res.in/drs/bitstream/handle/2264/2882/J_Mar_Archaeol_4_51.pdf?sequence=2",
+            "available": false,
+            "bytes": 0,
+            "sha256": null,
+            "error": "Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: drs.nio.res.in\n"
+          }
+        }
+      ],
+      "retry_after": "2026-10-11"
     }
   ]
 }

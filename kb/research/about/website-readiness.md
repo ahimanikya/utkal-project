@@ -245,3 +245,8 @@ A source-linked asset-acquisition example is ready for editorial review. It does
 ## 4 October 2026 · NALCO implementation evidence
 
 Refinery trial/testing and dated supply-project stages are source-checked for editorial review. Commercial operation, supplier demand, local jobs and realised project expenditure are not established; no website release.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[Sadhaba maritime science](../history/sadhaba-maritime-science.md) is a source-linked research draft. No original photographs reproduced, specialist review or public deployment claimed; indexed-only fields remain labelled.
