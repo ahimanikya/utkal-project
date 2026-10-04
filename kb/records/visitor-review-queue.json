@@ -19,9 +19,7 @@
         "UTP-WORK-048",
         "UTP-WORK-049",
         "UTP-WORK-082",
-        "UTP-WORK-097",
-        "UTP-WORK-137",
-        "UTP-WORK-140"
+        "UTP-WORK-097"
       ],
       "next_action": "Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. The Fresco photographic essay remains a separate held scope.",
       "evidence": [
@@ -31,7 +29,12 @@
         "reference/textile-specialist-review.md",
         "records/textile-followup-review.json",
         "records/coastal-practical-review.json"
-      ]
+      ],
+      "delivered_work_ids": [
+        "UTP-WORK-137",
+        "UTP-WORK-140"
+      ],
+      "verification_pack": "research/destinations/stone-sea-local-verification.json"
     },
     {
       "key": "language_and_literature",
@@ -43,8 +46,7 @@
         "UTP-WORK-037",
         "UTP-WORK-038",
         "UTP-WORK-054",
-        "UTP-WORK-081",
-        "UTP-WORK-137"
+        "UTP-WORK-081"
       ],
       "next_action": "Review language names, Odia text, historical claims, editions and cultural interpretation with appropriate readers. Seven English language introductions are published under UTP-REL-022; recordings, new translations and further language profiles remain separate open work.",
       "evidence": [
@@ -52,6 +54,9 @@
         "reference/language-heritage-model.md",
         "reference/textile-specialist-review.md",
         "records/textile-followup-review.json"
+      ],
+      "delivered_work_ids": [
+        "UTP-WORK-137"
       ]
     },
     {
@@ -73,13 +78,9 @@
         "UTP-WORK-085",
         "UTP-WORK-089",
         "UTP-WORK-090",
-        "UTP-WORK-091",
-        "UTP-WORK-137",
-        "UTP-WORK-141",
-        "UTP-WORK-142",
-        "UTP-WORK-143"
+        "UTP-WORK-091"
       ],
-      "next_action": "REL-048 cultural layout work is published. WORK-143 has completed DOM/overflow checks across all 122 routes at 320, 768 and 1920 pixels. Continue physical-device, full keyboard, screen-reader and deeper visual review; successful browser cases are not human accessibility certification.",
+      "next_action": "Review remaining physical-device, screen-reader and visual composition gaps. Earlier bounded browser coverage remains valid for its dated scope; current browser access is blocked. New delivery is not a fresh visual pass.",
       "evidence": [
         "records/visitor-experience-review.json",
         "records/visitor-readiness-publication.json",
@@ -105,6 +106,12 @@
             "remaining": "Real browser, physical-device and screen-reader checks remain open."
           }
         }
+      ],
+      "delivered_work_ids": [
+        "UTP-WORK-137",
+        "UTP-WORK-141",
+        "UTP-WORK-142",
+        "UTP-WORK-143"
       ]
     },
     {
@@ -126,19 +133,21 @@
       "evidence": [
         "records/visitor-experience-review.json",
         "reference/knowledge-story-model.md"
-      ]
+      ],
+      "delivered_work_ids": []
     },
     {
       "key": "historical_originals",
       "title": "Original documents and historical interpretation",
-      "work_ids": [
-        "UTP-WORK-123",
-        "UTP-WORK-124"
-      ],
+      "work_ids": [],
       "next_action": "Locate and inspect the cited temple register and original literary passage/edition for Rasagola. Seek specialist review of the literary dating and Bose’s retrospective memoir interpretation. Published features retain qualified accounts; original-document verification is open.",
       "evidence": [
         "records/odisha-roots-features-review.json",
         "records/odisha-roots-features-publication.json"
+      ],
+      "delivered_work_ids": [
+        "UTP-WORK-123",
+        "UTP-WORK-124"
       ]
     }
   ],
@@ -171,16 +180,17 @@
     }
   ],
   "current_published_baseline": {
-    "release": "UTP-REL-049",
-    "evidence": "records/autonomous-site-quality-publication.json",
-    "pages": 122,
-    "explore_entries": 79,
+    "release": "UTP-REL-061",
+    "evidence": "records/visitor-trail-publication-2026-10-04.json",
+    "pages": 123,
     "saveable_ideas": 83,
+    "starters": 13,
     "indexing": "limited_11_pages",
     "indexable_pages": 11,
-    "noindex_pages": 111
+    "noindex_pages": 112,
+    "basis": "Edition manifest at published PR86; no claim of new visual or Google processing review."
   },
-  "updated_at": "2026-10-02T15:09:51.214433+00:00",
+  "updated_at": "2026-10-04T13:58:33.089891+00:00",
   "publication_followups": [
     {
       "release": "UTP-REL-035",
@@ -251,6 +261,41 @@
       "release": "UTP-REL-049",
       "evidence": "records/autonomous-site-quality-publication.json",
       "scope": "Research integration and broader browser review published. Human review and actual Google processing remain separate; newer PR 60 not included."
+    },
+    {
+      "release": "UTP-REL-057",
+      "evidence": "records/global-connections-2026-10-03.json",
+      "scope": "PR71 merged after CI passed; Pages deployment succeeded. Six-city comparison and entry links verified live. Eleven-route search sitemap preserved; new section remains noindex, follow. Separate initiative and external commitments deferred."
+    },
+    {
+      "release": "UTP-REL-058",
+      "evidence": "records/home-art-publication-2026-10-04.json",
+      "scope": "PR75 merged after all CI checks passed; Pages deployment succeeded. Twelve scene images, 36 responsive variants, both v2 refinements and controller code verified live. Browser layout review remains unavailable and is not claimed."
+    },
+    {
+      "release": "UTP-REL-059",
+      "evidence": "records/story-beginnings-publication-2026-10-04.json",
+      "scope": "PR78 merged after CI passed. Pages build and deployment succeeded. Live pool, controller, templates, button and 30 story destination responses verified. Browser visual review remains unavailable."
+    },
+    {
+      "release": "UTP-REL-060",
+      "evidence": "records/connected-stories-publication-2026-10-04.json",
+      "scope": "PR82 merged after checks passed. Pages build and deployment succeeded. Live twelve theme connections, thirty introductions, controller delivery and reciprocal literary links verified. Browser visual review remains unavailable."
+    },
+    {
+      "release": "UTP-REL-061",
+      "evidence": "records/visitor-trail-publication-2026-10-04.json",
+      "scope": "PR86 merged after checks passed; Pages build and deployment succeeded. Live three chapters, eight starter ideas, eight guide returns and three photographs verified. Eleven-route sitemap preserved. Browser visual review and Search Console remain open."
     }
-  ]
+  ],
+  "previous_published_baseline": {
+    "release": "UTP-REL-049",
+    "evidence": "records/autonomous-site-quality-publication.json",
+    "pages": 122,
+    "explore_entries": 79,
+    "saveable_ideas": 83,
+    "indexing": "limited_11_pages",
+    "indexable_pages": 11,
+    "noindex_pages": 111
+  }
 }

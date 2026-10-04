@@ -7,9 +7,9 @@ export function bookImageBytes(data){
 export function validBookImage(data){const bytes=bookImageBytes(data);return bytes>0&&bytes<=BOOK_IMAGE_LIMITS.perImage;}
 function abortIfNeeded(signal){if(signal?.aborted)throw new DOMException('Photo book cancelled.','AbortError');}
 // IDs from imported plans never supply URLs. All paths come from the curated catalogue.
-export async function collectBookImages(plan,entries,load,{signal,onProgress=()=>{}}={}){
+export async function collectBookImages(plan,entries,load,{signal,onProgress=()=>{},additionalPhotos=[]}={}){
  const catalog=new Map(entries.map(e=>[e.id,e])),images={},skipped=[];let bytes=0,completed=0;
- const photos=[...new Map(plan.items.map(saved=>catalog.get(saved.id)?.photo).filter(Boolean).map(p=>[p.src,p])).values()];
+ const photos=[...new Map([...additionalPhotos,...plan.items.map(saved=>catalog.get(saved.id)?.photo)].filter(Boolean).map(p=>[p.src,p])).values()];
  for(const photo of photos){
   abortIfNeeded(signal);
   if(!localBookPath(photo.src)||Object.keys(images).length>=BOOK_IMAGE_LIMITS.count){skipped.push(photo.src);onProgress({completed:++completed,total:photos.length});continue;}

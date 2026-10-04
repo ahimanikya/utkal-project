@@ -4,6 +4,7 @@ export const MAX_BYTES=1000000;
 export const emptyJourney=()=>({version:1,title:'My Odisha Journey',items:[]});
 export function validateJourney(value){
  if(!value||value.version!==1||typeof value.title!=='string'||value.title.length>120||!Array.isArray(value.items)||value.items.length>100)throw Error('This file is not a supported Utkal journey (version 1, up to 100 ideas).');
+ if(value.storyTrail!==undefined&&(typeof value.storyTrail!=='string'||!/^[a-z0-9][a-z0-9_-]{0,79}$/.test(value.storyTrail)))throw Error('The story trail identifier is invalid. Existing data has not been replaced.');
  const seen=new Set();
  const items=value.items.map(item=>{
   if(!item||typeof item.id!=='string'||!/^[a-z0-9][a-z0-9:/_-]{0,159}$/.test(item.id)||seen.has(item.id)||!Number.isInteger(item.day)||item.day<0||item.day>30||typeof item.notes!=='string'||item.notes.length>3000)throw Error('A journey item is invalid or duplicated. Your existing journey has not been replaced.');
@@ -27,7 +28,7 @@ export function validateJourney(value){
    ids.add(r.id);return {id:r.id,text:r.text,done:r.done};
   });
  }
- return {version:1,title:value.title,items,...(reminders!==undefined?{reminders}:{}),...(dayNotes!==undefined?{dayNotes}:{}),...(value.startDate?{startDate:value.startDate}:{}),...(value.checklist!==undefined?{checklist:[...value.checklist]}:{})};
+ return {version:1,title:value.title,items,...(value.storyTrail?{storyTrail:value.storyTrail}:{}),...(reminders!==undefined?{reminders}:{}),...(dayNotes!==undefined?{dayNotes}:{}),...(value.startDate?{startDate:value.startDate}:{}),...(value.checklist!==undefined?{checklist:[...value.checklist]}:{})};
 }
 export function parseJourney(raw){if(typeof raw!=='string'||new TextEncoder().encode(raw).length>MAX_BYTES)throw Error('Journey files must be smaller than 1 MB.');return validateJourney(JSON.parse(raw));}
 export function loadJourney(storage){

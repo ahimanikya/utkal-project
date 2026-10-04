@@ -14,3 +14,13 @@ test('coastal homepage leads to an illustrated, saveable trail with in-edition g
  assert.ok(section.includes('aria-describedby="starter-status-stone-sea-makers"'));
  assert.ok(section.includes('Every idea begins unscheduled'));
 });
+test('public trail carries curated book chapters, local draft links and the generated field pack',()=>{
+ const page=readFileSync('dist-coast/journey-starters/index.html','utf8');
+ const data=JSON.parse(page.match(/id="journey-data"[^>]*>(.*?)<\/script>/s)[1]);
+ const starter=data.starters.find(s=>s.id==='stone-sea-makers'),trail=data.trails.find(t=>t.starter_id===starter.story_trail);
+ assert.ok(trail);assert.equal(trail.chapters.length,3);
+ for(const chapter of trail.chapters){assert.ok(existsSync('dist-coast'+chapter.photo.src));assert.ok(chapter.ideas.every(id=>data.catalog.some(item=>item.id===id)));}
+ const form=readFileSync('dist-coast/contribute/index.html','utf8');assert.ok(form.includes('id="correction-draft"'));
+ for(const kind of ['maker','access','food'])assert.ok(page.includes('local='+kind));
+ assert.equal(readFileSync('dist-coast/assets/stone-sea-local-verification.txt','utf8'),readFileSync('public/assets/stone-sea-local-verification.txt','utf8'));
+});

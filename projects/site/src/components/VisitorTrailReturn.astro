@@ -1,9 +1,10 @@
 ---
+import LocalContributionLinks from './LocalContributionLinks.astro';
 import trail from '../../../../kb/research/destinations/stone-sea-trail.json';
 import {journeyCatalog} from '../data/journey-catalog';
 import {allowsStarter} from '../data/edition';
 const {path}=Astro.props;
 const isTrailStop=allowsStarter(trail.starter_id)&&trail.chapters.some(chapter=>chapter.ideas.some(id=>journeyCatalog.find(idea=>idea.id===id)?.href.split('#')[0]===path));
 ---
-{isTrailStop&&<aside class="wrap trail-return" aria-label="Continue this journey"><p><span class="eyebrow">Part of a bigger story</span><br/>Pair this discovery with a city, a maker visit and the shore. <a class="text-link" href="/journey-starters/#stone-sea-makers">Follow Stone, sea and makers →</a></p></aside>}
+{isTrailStop&&<aside class="wrap trail-return" aria-label="Continue this journey"><p><span class="eyebrow">Part of a bigger story</span><br/>Pair this discovery with a city, a maker visit and the shore. <a class="text-link" href="/journey-starters/#stone-sea-makers">Follow Stone, sea and makers →</a></p><LocalContributionLinks page={path}/></aside>}
 <style>.trail-return{padding-block:28px;border-top:1px solid var(--line)}.trail-return p{max-width:75ch}.trail-return a{display:inline-block;margin-top:12px}.trail-return .eyebrow{display:inline-block;margin-bottom:0}</style>

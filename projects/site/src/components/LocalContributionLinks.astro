@@ -1,0 +1,6 @@
+---
+import {localContributionPrompts,localContributionURL} from '../lib/local-contribution.mjs';
+const {page}=Astro.props;
+---
+<details class="local-contributions"><summary>Know this place? Help make the guide better.</summary><p>Share a dated observation, a maker recommendation or local food knowledge. Prepare a draft here, then choose whether to post it publicly on GitHub.</p><ul>{Object.entries(localContributionPrompts).map(([kind,prompt])=><li><a href={localContributionURL(kind,page)}>{prompt.label} →</a></li>)}</ul></details>
+<style>.local-contributions{margin:24px 0;font-size:15px;max-width:75ch}.local-contributions summary{cursor:pointer;min-height:44px;padding:10px 0;color:var(--sea)}.local-contributions p{margin:12px 0}.local-contributions ul{display:flex;flex-wrap:wrap;gap:12px 28px;padding-left:20px}.local-contributions a{display:inline-block;padding:8px 0}</style>
