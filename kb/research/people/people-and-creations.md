@@ -125,3 +125,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Stone, metal and clay · 4 October 2026
 
 [Sudarshan Sahoo](sudarshan-sahoo.md), [Ramakanta Mahapatra](ramakanta-mahapatra.md), [Sansari Gadatia](sansari-gadatia.md), [Jayadev Rana](jayadev-rana.md) and [Manabodh Rana](manabodh-rana.md) add sculpture and craft connections. Documentation contacts, awardees and individual object creators remain separate roles.
+
+## Material-art work attribution ·4October2026
+
+[Raghunath Mohapatra](raghunath-mohapatra.md) adds a sculptor and nominated parliamentarian. The [Manabodh Rana profile](manabodh-rana.md) now links a provisionally matched institutional mural record. Three works enter the catalogue with source attribution, unknown dates and unknown current display preserved.

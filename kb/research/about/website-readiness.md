@@ -217,3 +217,7 @@ Filigree/palm-leaf concepts and four maker profiles are research candidates. Ori
 ## Stone, metal and clay · 4 October 2026
 
 Three craft pages, five maker profiles and a collection are research candidates. NID process pages visually checked. Museum foundation is an attributed retrospective account; current operation, bookings and object image rights unknown. Website unchanged.
+
+## Attributed craft works ·4October2026
+
+Three new work records are research candidates, not visitor-operating records. Government biography and institutional catalogue attributions retain their scope. Object images/rights, present displays and commissioning dates unknown. Website unchanged.

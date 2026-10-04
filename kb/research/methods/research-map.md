@@ -437,3 +437,7 @@ RES-032 reused Cuttack visitor material, Tarakasi and Raghurajpur concepts, plus
 ## Stone, metal and clay · 4 October 2026
 
 RES-032 reused prior material-art register, state national-award source and regional record. Seven source records extend absent process/identity fields; five new people identities. Publication copies do not independently corroborate each other; object owner and creator remain separate.
+
+## Attributed craft works ·4October2026
+
+RES-032 reused six practice records and the existing Rana profile; absent work records added for Parliament, Paris and INA Metro. Raghunath Mohapatra is a distinct new sculptor identity, not Raghunath Panigrahi. Same institutional source repeated in several pages is one evidence lineage.

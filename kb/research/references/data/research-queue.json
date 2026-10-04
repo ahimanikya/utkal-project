@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T11:39:04.102615+00:00",
+  "updated_at": "2026-10-04T12:42:08.226031+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1208,10 +1208,10 @@
       "done_when": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
       "target": "culture/index.md",
       "status": "in_progress",
-      "attempts": 3,
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": "2026-10-04T11:39:04.102615+00:00",
-      "next_step": "Continue RES-032 with individually credited sculptures and clay/dhokra works, using original commissioning or holding-institution records. Six practice nuclei are saved; do not repeat process discovery. Inaccessible SIDAC2017 and original award citations retain 2026-10-11 retries.",
+      "last_worked_at": "2026-10-04T12:42:08.226031+00:00",
+      "next_step": "RES-032 checkpoint: three attributed work records saved; remaining commissioning/accession, maker-identity and craft-specific work gaps retry2026-10-11. Continue next eligible independent task RES-013 district evidence coverage, reusing the research map and existing district records.",
       "evidence_outputs": [
         "sources/sand-tourism-newsletter2020.md",
         "sources/sand-festival-rules2022.md",
@@ -1250,10 +1250,18 @@
         "culture/stone-carving.md",
         "culture/dhokra.md",
         "culture/terracotta.md",
-        "culture/material-arts.md"
+        "culture/material-arts.md",
+        "sources/arts-president-nominations2018.md",
+        "sources/arts-rs-mohapatra2021.md",
+        "sources/arts-crt-ina-tiles.md",
+        "sources/arts-iic-clay2016.md",
+        "people/raghunath-mohapatra.md",
+        "works/mohapatra-sun-god-parliament.md",
+        "works/mohapatra-wooden-buddha-paris.md",
+        "works/manabodh-rana-ina-terracotta-mural.md"
       ],
-      "retry_after": null,
-      "blocker": null,
+      "retry_after": "2026-10-11",
+      "blocker": "Original object-level dates/commission records and unresolved maker identity; artist website inaccessible. Six practice nuclei and three attributed works saved, full work-level criterion not met.",
       "reuse_before_research": {
         "source_records": [
           "culture/sand-art.md",
@@ -1294,7 +1302,15 @@
           "culture/dhokra.md",
           "culture/terracotta.md",
           "culture/material-arts.md",
-          "places/sambalpur-bargarh.md"
+          "places/sambalpur-bargarh.md",
+          "sources/arts-president-nominations2018.md",
+          "sources/arts-rs-mohapatra2021.md",
+          "sources/arts-crt-ina-tiles.md",
+          "sources/arts-iic-clay2016.md",
+          "people/raghunath-mohapatra.md",
+          "works/mohapatra-sun-god-parliament.md",
+          "works/mohapatra-wooden-buddha-paris.md",
+          "works/manabodh-rana-ina-terracotta-mural.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json",
@@ -1324,6 +1340,13 @@
           "outcome": "stone_dhokra_terracotta_practices_and_makers",
           "completion_criteria_met": false,
           "remaining": "Individual work attribution and dated exhibition/acquisition evidence; source-specific recovery deferred."
+        },
+        {
+          "run_id": "2026-10-04-attributed-craft-works",
+          "at": "2026-10-04T12:42:08.226031+00:00",
+          "outcome": "named_sculptures_terracotta_mural_exhibition_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Original object-level dates/commission records and unresolved maker identity; artist website inaccessible. Six practice nuclei and three attributed works saved, full work-level criterion not met."
         }
       ],
       "follow_up_evidence": [
@@ -1343,14 +1366,14 @@
           "needed": "Original national2015 PDF/state register; Pankaj1994 central citation; named award works and Arun full identity. Current maker business/rights evidence requires primary records or participation."
         },
         {
-          "topic": "Individual works and institutional histories",
-          "retry_after": null,
-          "needed": "Next bounded batch: original commissioning/holding-institution records for named sculptures, and identifiable maker-attributed clay/dhokra works with dates. Do not substitute product types or collection ownership for creator credit."
-        },
-        {
           "topic": "Original craft award and acquisition records",
           "retry_after": "2026-10-11",
           "needed": "Recover SIDAC2017 facsimile, original state2006 and central1986 citations. Keep personal addresses excluded and acquisition/payment/ownership/creator roles distinct."
+        },
+        {
+          "topic": "Work attribution and identity follow-up",
+          "retry_after": "2026-10-11",
+          "needed": "Original commissioning/accession records for the Parliament Sun God, precise Paris temple and maker identifiers for INA mural/IIC Manbodh Ram. Artist site unavailable; individual Sahoo relief credits and clay/dhokra object dates remain open. Preserve prior filigree/palm and SIDAC retries; no commercial product claims promoted to holdings."
         }
       ]
     },

@@ -2489,10 +2489,13 @@
       ],
       "source_ids": [
         "arts-nid-terracotta",
-        "arts-state-awards"
+        "arts-state-awards",
+        "arts-crt-ina-tiles"
       ],
       "checked_on": "2026-10-04",
-      "work_ids": [],
+      "work_ids": [
+        "works/manabodh-rana-ina-terracotta-mural"
+      ],
       "publication_status": "research_profile_editorial_review_pending",
       "portrait_rights": null,
       "current_practice_status": null,
@@ -2513,6 +2516,11 @@
         {
           "name": "Manabodh Rana",
           "source_id": "arts-state-awards"
+        },
+        {
+          "name": "Manbodh Rana",
+          "source_id": "arts-crt-ina-tiles",
+          "identity_status": "provisional"
         }
       ]
     },
@@ -2557,6 +2565,41 @@
           ]
         }
       ]
+    },
+    {
+      "id": "people/raghunath-mohapatra",
+      "name": "Raghunath Mohapatra",
+      "fields": [
+        "sculpture",
+        "public_service"
+      ],
+      "odisha_connection": {
+        "description": "Rajya Sabha records birth at Sasan Padia, Puri district, Odisha, and work in the state Handicraft Training and Designing Centre.",
+        "source_ids": [
+          "arts-rs-mohapatra2021"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "national",
+          "basis": "Nominated to Rajya Sabha on14July2018; official biography credits sculptures in Parliament and Paris.",
+          "year": 2018,
+          "source_ids": [
+            "arts-president-nominations2018"
+          ]
+        }
+      ],
+      "source_ids": [
+        "arts-president-nominations2018",
+        "arts-rs-mohapatra2021"
+      ],
+      "checked_on": "2026-10-04",
+      "work_ids": [
+        "works/mohapatra-sun-god-parliament",
+        "works/mohapatra-wooden-buddha-paris"
+      ],
+      "publication_status": "research_profile_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -5171,6 +5214,93 @@
       "live_stock": null,
       "event_date": "2025-08-10",
       "date_scope": "report date; exact construction interval not stated"
+    },
+    {
+      "id": "works/mohapatra-sun-god-parliament",
+      "title": "Sun God sculpture — Parliament Central Hall",
+      "work_type": "sculpture",
+      "creator_links": [
+        {
+          "person_id": "people/raghunath-mohapatra",
+          "role": "sculptor",
+          "source_ids": [
+            "arts-president-nominations2018"
+          ]
+        }
+      ],
+      "source_ids": [
+        "arts-president-nominations2018"
+      ],
+      "checked_on": "2026-10-04",
+      "material": "grey sandstone",
+      "reported_location": "Central Hall of Parliament, New Delhi",
+      "location_as_reported_in": "2018-07-14",
+      "creation_date": null,
+      "installation_date": null,
+      "current_display_status": null,
+      "acquisition_price": null,
+      "image_rights": null,
+      "title_status": "descriptive_catalogue_title",
+      "attribution_class": "government_biographical_attribution"
+    },
+    {
+      "id": "works/mohapatra-wooden-buddha-paris",
+      "title": "Wooden Buddha — Paris temple attribution",
+      "work_type": "sculpture",
+      "creator_links": [
+        {
+          "person_id": "people/raghunath-mohapatra",
+          "role": "sculptor",
+          "source_ids": [
+            "arts-president-nominations2018"
+          ]
+        }
+      ],
+      "source_ids": [
+        "arts-president-nominations2018"
+      ],
+      "checked_on": "2026-10-04",
+      "material": "wood",
+      "reported_location": "Buddha Temple, Paris, as named in source",
+      "location_as_reported_in": "2018-07-14",
+      "creation_date": null,
+      "installation_date": null,
+      "current_display_status": null,
+      "acquisition_price": null,
+      "image_rights": null,
+      "title_status": "descriptive_catalogue_title",
+      "attribution_class": "government_biographical_attribution"
+    },
+    {
+      "id": "works/manabodh-rana-ina-terracotta-mural",
+      "title": "Terracotta Tiles — INA Metro gallery mural",
+      "work_type": "mural",
+      "creator_links": [
+        {
+          "person_id": "people/manabodh-rana",
+          "role": "maker",
+          "source_ids": [
+            "arts-crt-ina-tiles"
+          ]
+        }
+      ],
+      "source_ids": [
+        "arts-crt-ina-tiles"
+      ],
+      "checked_on": "2026-10-04",
+      "material": "terracotta",
+      "reported_location": "Craft Gallery: INA Metro, New Delhi, India",
+      "location_as_reported_in": "2018-10",
+      "creation_date": null,
+      "installation_date": null,
+      "current_display_status": null,
+      "acquisition_price": null,
+      "image_rights": null,
+      "title_status": "institutional_catalogue_title",
+      "attribution_class": "institutional_collection_catalogue",
+      "source_creator_name": "Manbodh Rana",
+      "identity_link_status": "provisional_name_craft_geography_match",
+      "identity_limitation": "No unique biographical identifier supplied by object record."
     }
   ],
   "recognition_rules": {
@@ -5179,7 +5309,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-04T11:39:04.102615+00:00",
+  "updated_at": "2026-10-04T12:42:08.226031+00:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",

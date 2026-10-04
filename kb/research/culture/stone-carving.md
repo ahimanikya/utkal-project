@@ -4,7 +4,7 @@ title: "Stone carving: an image revealed by removal"
 description: "Stone carving: an image revealed by removal"
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-04T11:39:04.102615+00:00"}
-sources: [{"id": "arts-nid-stone", "title": "Stone Carving — Bhubaneswar, Orissa", "resource": "https://dsource.in/sites/default/files/resource/stone-carving-bhubaneswar-orissa/downloads/file/stone-carving-bhubaneswar-orissa.pdf"}, {"id": "arts-padma2021", "title": "Padma Awards 2021 announced", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1692337"}, {"id": "arts-sudarshan-museum", "title": "Sudarshan Craft Museum — Incredible India", "resource": "https://www.incredibleindia.gov.in/en/odisha/puri/sudarshan-craft-museum"}]
+sources: [{"id": "arts-nid-stone", "title": "Stone Carving — Bhubaneswar, Orissa", "resource": "https://dsource.in/sites/default/files/resource/stone-carving-bhubaneswar-orissa/downloads/file/stone-carving-bhubaneswar-orissa.pdf"}, {"id": "arts-padma2021", "title": "Padma Awards 2021 announced", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1692337"}, {"id": "arts-sudarshan-museum", "title": "Sudarshan Craft Museum — Incredible India", "resource": "https://www.incredibleindia.gov.in/en/odisha/puri/sudarshan-craft-museum"}, {"id": "arts-president-nominations2018", "title": "President nominates four members to Rajya Sabha", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1538641"}, {"id": "arts-rs-mohapatra2021", "title": "Rajya Sabha obituary reference: Raghunath Mohapatra", "resource": "https://cms.rajyasabha.nic.in/UploadedFiles/Debates/OfficialDebatesDatewise/Floor/254/1972021/F19072021.pdf"}]
 human_review_claimed: false
 subjects: ["arts", "people", "history"]
 ---
@@ -24,3 +24,7 @@ Individual sculptures need titles or clear descriptions, maker credits, material
 [Dhokra](dhokra.md) — Compares subtractive carving with mould-based metal casting, without implying a shared origin.
 
 [Structured craft evidence](../references/data/material-arts.json) · [Material arts collection](material-arts.md).
+
+## From practice to named works
+
+[Raghunath Mohapatra](../people/raghunath-mohapatra.md) connects the credited sculptor with the documented practice; it does not attribute anonymous historic monuments to him. His linked work records preserve the source’s location and material without inventing installation dates.
