@@ -1,0 +1,76 @@
+{
+  "title": "Find your trail published",
+  "recorded_at": "2026-10-04T22:45:13.929181+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-197",
+    "quote": "Approved",
+    "context": "Founder approved PR112 for merge and publication."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/112",
+  "approved_head": "4fcf896ecf6b22348b88e60e53dd18dcc54c5c59",
+  "commit": "fdee529689f5319a62073c3e153240f466e467b1",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37240764554",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37240999804",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey-starters/#find-your-trail",
+  "live_verification": {
+    "checked_at": "2026-10-04T22:44:57.136938+00:00",
+    "scope": "Live HTTPS HTML, shared JSON and asset verification; not rendered browser or interaction testing.",
+    "comparisons": 5,
+    "interest_controls": 6,
+    "all_comparisons_visible_without_scripts": true,
+    "comparison_before_long_story": true,
+    "routes_checked": [
+      "/journey-starters/",
+      "/journey-starters/chilika/",
+      "/journey-starters/cuttack/",
+      "/journey-starters/balasore/",
+      "/journey-starters/mayurbhanj/",
+      "/journey/",
+      "/stories/bhubaneswar-fresco/"
+    ],
+    "photos": [
+      {
+        "src": "/images/regions/mukteswar-torana.jpg",
+        "sha256": "5e99da2e97be858ad291816baa401fa8a57cb6ff8f4d3deb69b00bd3da0be556",
+        "status": 200
+      },
+      {
+        "src": "/images/destinations/mangalajodi.webp",
+        "sha256": "a07dc76946d677bbdef4982bc1e4270c54e570b0685498acaab40d235eb17bfd",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/barabati.jpg",
+        "sha256": "2962f3afd48583940ef59734331cd17ad891e6c2546600daaa3c8ebd044825a8",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/chandipur-panorama.jpg",
+        "sha256": "06e8b1a4852f7cb6726380a4ee934d3a3e5f80ea834d395012f76bfc8548dc4b",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/barehipani.jpg",
+        "sha256": "48936cd341129e6dc21082f88a938d566b133cfc12e7f4bf427d2ecf0823d026",
+        "status": 200
+      }
+    ],
+    "source_credits_present": true,
+    "filter_script_matches_reviewed_build": true,
+    "filter_script_sha256": "d0fdfb27774f9ce0a5b4d6afa7324cfd690b04edd008e89c34ef4aa73f314cfc",
+    "shared_journey_payload_matches": true,
+    "search_hold_preserved": true
+  },
+  "limitations": [
+    "Live checks inspect delivered HTML, shared JSON and asset hashes, not rendered layout or browser interaction.",
+    "Filter behavior is covered by the recorded controller tests; live delivery of the matching script does not establish a native browser or screen-reader pass.",
+    "Existing browser-policy verification limitation, local arrangements and Search Console processing remain open."
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false
+}
