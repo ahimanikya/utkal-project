@@ -60,3 +60,5 @@ The [nine subject families](../subjects/index.md) connect these statistical page
 [Mining and local development](minerals-and-mining.md) — nine scoped observations; current source vintages and audit samples remain visible.
 
 [Forest-product markets](forest-products.md) — kendu sales, a held historical discrepancy and honey-processing capacity.
+
+[District evidence matrix](district-coverage.md) — five-domain research coverage with explicit scope and gaps.

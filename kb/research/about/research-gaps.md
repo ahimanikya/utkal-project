@@ -450,3 +450,7 @@ Named sculptures and clay/dhokra objects with primary creator/date evidence are 
 ## Attributed craft works ·4October2026
 
 Commission/accession records and precise Paris temple identity remain missing. INA Manbodh Rana match is provisional; IIC Manbodh Ram is unlinked. Sahoo artist-site fetch unavailable. Work-level and existing source-recovery retries11October; RES-032 not completed.
+
+## 4 October 2026 · District coverage audit
+
+Comparable district health and learning outcomes remain unmapped in inspected atlas inputs. All 30 banking baselines are reused; local DMF and university cases do not close outcome gaps. RES-014 is next. See [matrix](../statistics/district-coverage.md).

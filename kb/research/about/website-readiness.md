@@ -221,3 +221,7 @@ Three craft pages, five maker profiles and a collection are research candidates.
 ## Attributed craft works ·4October2026
 
 Three new work records are research candidates, not visitor-operating records. Government biography and institutional catalogue attributions retain their scope. Object images/rights, present displays and commissioning dates unknown. Website unchanged.
+
+## 4 October 2026 · District coverage readiness
+
+A 30-district research map now exists locally. Cells are inventory scope, not quality rankings; destination operating status is not inferred. No website release or human review claimed. See [matrix](../statistics/district-coverage.md).

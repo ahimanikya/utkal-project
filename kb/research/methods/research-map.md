@@ -441,3 +441,7 @@ RES-032 reused prior material-art register, state national-award source and regi
 ## Attributed craft works ·4October2026
 
 RES-032 reused six practice records and the existing Rana profile; absent work records added for Parliament, Paris and INA Metro. Raghunath Mohapatra is a distinct new sculptor identity, not Raghunath Panigrahi. Same institutional source repeated in several pages is one evidence lineage.
+
+## 4 October 2026 · District matrix extension
+
+Added statistics/district-coverage and updated RES-013/014 reuse pointers for source and repository-native evidence. Dated bounded audit, not exhaustive semantic deduplication. See [matrix](../statistics/district-coverage.md).

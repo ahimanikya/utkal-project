@@ -279,3 +279,7 @@ Continue RES-032 with individually credited sculptures and clay/dhokra works, us
 ## Attributed craft works ·4October2026
 
 RES-032 checkpoint: three attributed work records saved; remaining commissioning/accession, maker-identity and craft-specific work gaps retry2026-10-11. Continue next eligible independent task RES-013 district evidence coverage, reusing the research map and existing district records.
+
+## 4 October 2026 · RES-013 completed
+
+The bounded five-domain district matrix exists with input fingerprints, exact record pointers and explicit unknowns. No primary sources fetched; continue RES-014. See [matrix](../statistics/district-coverage.md).

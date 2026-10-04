@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T12:42:08.226031+00:00",
+  "updated_at": "2026-10-04T13:43:00.385886+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1383,23 +1383,44 @@
       "title": "District coverage matrix",
       "done_when": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
       "target": "statistics/coverage.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "completed",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T13:43:00.385886+00:00",
+      "next_step": "RES-014: deepen Koraput and Sambalpur–Bargarh using district publications; reuse the district matrix and existing records before collecting missing outcomes.",
+      "evidence_outputs": [
+        "statistics/district-coverage.md",
+        "references/data/district-coverage.json",
+        "tools/validate_district_coverage.py",
+        "statistics/coverage.md"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
         "source_records": [
           "statistics/district-banking.md",
-          "statistics/coverage.md"
+          "statistics/coverage.md",
+          "statistics/district-coverage.md",
+          "references/data/district-coverage.json"
         ],
-        "project_records": [],
-        "audit_date": "2026-10-01",
+        "project_records": [
+          "kb/research/voices/district-connections.json",
+          "kb/research/voices/population-2011.json",
+          "kb/research/destinations/regions.json",
+          "kb/research/references/data/statistics-atlas.json"
+        ],
+        "audit_date": "2026-10-04",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-district-coverage",
+          "at": "2026-10-04T13:43:00.385886+00:00",
+          "outcome": "bounded_30_district_five_domain_matrix",
+          "completion_criteria_met": true,
+          "scope": "Saved evidence audit only; no new source freshness or exhaustive coverage claim."
+        }
+      ]
     },
     {
       "id": "RES-014",
@@ -1420,12 +1441,17 @@
           "places/koraput.md",
           "statistics/districts/koraput.md",
           "statistics/districts/sambalpur.md",
-          "statistics/districts/bargarh.md"
+          "statistics/districts/bargarh.md",
+          "statistics/district-coverage.md",
+          "references/data/district-coverage.json"
         ],
         "project_records": [
-          "kb/research/destinations/regions.json"
+          "kb/research/destinations/regions.json",
+          "kb/research/voices/district-connections.json",
+          "kb/research/voices/population-2011.json",
+          "kb/research/references/data/statistics-atlas.json"
         ],
-        "audit_date": "2026-10-01",
+        "audit_date": "2026-10-04",
         "map": "references/data/research-map.json"
       }
     },

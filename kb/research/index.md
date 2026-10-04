@@ -52,3 +52,5 @@ This is a research collection, not a current travel-booking directory. Statement
 [Forest foods and products](economy/forest-products.md).
 
 [The whole Odisha encyclopedia](about/encyclopedia-scope.md) · [Odisha in the world](collections/odisha-and-world.md) · [Religion and spirituality](collections/religion-and-spirituality.md).
+
+[District evidence matrix](statistics/district-coverage.md) — saved evidence across 30 districts, with local and district scopes kept separate.
