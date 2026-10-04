@@ -213,3 +213,7 @@ Sand-art records are editorial candidates. No current itinerary, artist booking,
 ## Tarakasi and palm-leaf checkpoint · 4 October 2026
 
 Filigree/palm-leaf concepts and four maker profiles are research candidates. Original technique PDFs support concise explanations; award records are indexed-only captures. No seller verification, portrait rights, booking promises, human review or website release.
+
+## Stone, metal and clay · 4 October 2026
+
+Three craft pages, five maker profiles and a collection are research candidates. NID process pages visually checked. Museum foundation is an attributed retrospective account; current operation, bookings and object image rights unknown. Website unchanged.

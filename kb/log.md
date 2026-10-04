@@ -483,3 +483,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Tarakasi and palm-leaf engraving
 
 [Research receipt](records/filigree-palm-arts-2026-10-04.json): RES-032 remains in progress. Technique and maker recognition evidence saved; indexed-only award captures labelled. Continue with stone carving, dhokra and terracotta. No website release.
+
+## 4 October 2026 · Stone, metal and clay
+
+[Research receipt](records/clay-metal-stone-2026-10-04.json): RES-032 remains in progress. Technique and maker evidence saved; SIDAC selection-table lead quarantined. Continue with individually attributed works. No website release.

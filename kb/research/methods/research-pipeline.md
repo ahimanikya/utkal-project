@@ -271,3 +271,7 @@ Continue RES-032 with Tarakasi and palm-leaf engraving, then stone carving, dhok
 ## Tarakasi and palm-leaf checkpoint · 4 October 2026
 
 Continue RES-032 with stone carving, dhokra and terracotta, reusing current maker/place records. Tarakasi and palm-leaf craft/award checkpoint saved; original award retrieval, named works and partial identities remain dated follow-ups for 2026-10-11.
+
+## Stone, metal and clay · 4 October 2026
+
+Continue RES-032 with individually credited sculptures and clay/dhokra works, using original commissioning or holding-institution records. Six practice nuclei are saved; do not repeat process discovery. Inaccessible SIDAC2017 and original award citations retain 2026-10-11 retries.

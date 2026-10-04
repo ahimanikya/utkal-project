@@ -442,3 +442,7 @@ Sand-art source/award recovery retry11October2026. Need original first-edition r
 ## Tarakasi and palm-leaf checkpoint · 4 October 2026
 
 Need original2015 central award list, Pankaj Kumar Sahoo1994 citation, named award-winning objects and full identity of the NID contact Arun; retry2026-10-11. Stone carving, dhokra and terracotta eligible next. No income/export/workforce estimates or origin chronology added.
+
+## Stone, metal and clay · 4 October 2026
+
+Named sculptures and clay/dhokra objects with primary creator/date evidence are next. Original SIDAC2017 selection/acquisition minutes and award citations retry11October. Barpali/Bargarh biography and Sambalpur source labels preserved; no current workforce, export or income estimate added.

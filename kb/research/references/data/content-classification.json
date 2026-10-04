@@ -4639,6 +4639,99 @@
       "content_type": "Concept",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/ramakanta-mahapatra",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "arts"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/sansari-gadatia",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "arts"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/jayadev-rana",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "arts"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/manabodh-rana",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "arts"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/sudarshan-sahoo",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "arts"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/stone-carving",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people",
+        "history"
+      ],
+      "content_type": "Concept",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/dhokra",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people",
+        "economy"
+      ],
+      "content_type": "Concept",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/terracotta",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people",
+        "places"
+      ],
+      "content_type": "Concept",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/material-arts",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "people"
+      ],
+      "content_type": "Concept",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6874,6 +6967,27 @@
       "basis": "editorial_context",
       "explanation": "Compares two forms of intricate line work while keeping their materials, practitioners and histories distinct.",
       "from": "culture/cuttack-tarakasi"
+    },
+    {
+      "from": "culture/stone-carving",
+      "to": "culture/dhokra",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compares subtractive carving with mould-based metal casting, without implying a shared origin."
+    },
+    {
+      "from": "culture/dhokra",
+      "to": "culture/terracotta",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains how clay becomes either a finished fired object or a mould used in metal casting; the two products are not interchangeable."
+    },
+    {
+      "from": "culture/terracotta",
+      "to": "places/sambalpur-bargarh",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the explicitly named maker locality with the regional record, without treating the document title as current district geography."
     }
   ],
   "relationship_types": {

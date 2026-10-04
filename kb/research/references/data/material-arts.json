@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T10:38:52.815078+00:00",
-  "scope": "RES-032 checkpoints: sand art, Cuttack Tarakasi and palm-leaf engraving. Stone carving, dhokra and terracotta remain unfinished.",
+  "updated_at": "2026-10-04T11:39:04.102615+00:00",
+  "scope": "RES-032: six material-art practices have initial coverage; individually credited works and dated exhibition/acquisition evidence remain unfinished.",
   "human_review_claimed": false,
   "events": [
     {
@@ -154,6 +154,31 @@
       ],
       "status": "scope_not_comparable",
       "resolution": "Landing-page generic numbers lack matched edition, roster and scope; no comparison with2019 report."
+    },
+    {
+      "id": "terracotta-source-geography",
+      "source_ids": [
+        "arts-nid-terracotta",
+        "arts-state-awards"
+      ],
+      "status": "source_labels_preserved",
+      "resolution": "Title/contact label Sambalpur retained separately from explicit Barpali, Bargarh biographies; no automatic district remapping."
+    },
+    {
+      "id": "dhokra-alloy-and-origin",
+      "source_ids": [
+        "arts-nid-dhokra"
+      ],
+      "status": "held_unverified",
+      "resolution": "Do not adopt nickel/brass/zinc wording as a verified alloy formulation or Indus analogy as continuous local lineage."
+    },
+    {
+      "id": "sidac2017-table-alignment",
+      "source_ids": [
+        "arts-sidac-selection2017-lead"
+      ],
+      "status": "quarantined",
+      "resolution": "Original inaccessible; shifted indexed columns, conflicting screening/selection headings and ownership role prevent transaction/value or creator attribution."
     }
   ],
   "follow_up": [
@@ -173,9 +198,14 @@
       "needed": "Original national2015 PDF/state register; Pankaj1994 central citation; named award works and Arun full identity. Current maker business/rights evidence requires primary records or participation."
     },
     {
-      "topic": "Remaining material arts",
+      "topic": "Individual works and institutional histories",
       "retry_after": null,
-      "needed": "Stone carving, dhokra and terracotta: reuse existing people/place records, add techniques, named works and dated recognition. No new broad art-origin claims."
+      "needed": "Next bounded batch: original commissioning/holding-institution records for named sculptures, and identifiable maker-attributed clay/dhokra works with dates. Do not substitute product types or collection ownership for creator credit."
+    },
+    {
+      "topic": "Original craft award and acquisition records",
+      "retry_after": "2026-10-11",
+      "needed": "Recover SIDAC2017 facsimile, original state2006 and central1986 citations. Keep personal addresses excluded and acquisition/payment/ownership/creator roles distinct."
     }
   ],
   "crafts": [
@@ -232,6 +262,56 @@
       "exports": null,
       "current_workforce": null,
       "scope": "Page15 western-India comparison excluded; manuscript catalogues are separate evidence."
+    },
+    {
+      "id": "culture/stone-carving",
+      "technique_summary": "Removing stone through rough shaping, finer carving and finishing.",
+      "source_ids": [
+        "arts-nid-stone"
+      ],
+      "locator": "PDF p.13",
+      "practitioner_ids": [
+        "people/ramakanta-mahapatra",
+        "people/sudarshan-sahoo"
+      ],
+      "origin_date": null,
+      "annual_revenue": null,
+      "exports": null,
+      "current_workforce": null,
+      "scope": "Undated institutional account; no universal technical standard, continuous ancient lineage or current earnings inferred."
+    },
+    {
+      "id": "culture/dhokra",
+      "technique_summary": "Wax pattern around clay core; mould, wax removal, metal casting and finishing.",
+      "source_ids": [
+        "arts-nid-dhokra"
+      ],
+      "locator": "PDF p.8",
+      "practitioner_ids": [
+        "people/sansari-gadatia"
+      ],
+      "origin_date": null,
+      "annual_revenue": null,
+      "exports": null,
+      "current_workforce": null,
+      "scope": "Undated institutional account; no universal technical standard, continuous ancient lineage or current earnings inferred."
+    },
+    {
+      "id": "culture/terracotta",
+      "technique_summary": "Clay shaping, drying, firing and finishing; jewellery and toy examples.",
+      "source_ids": [
+        "arts-nid-terracotta"
+      ],
+      "locator": "PDF pp.2,12",
+      "practitioner_ids": [
+        "people/jayadev-rana",
+        "people/manabodh-rana"
+      ],
+      "origin_date": null,
+      "annual_revenue": null,
+      "exports": null,
+      "current_workforce": null,
+      "scope": "Undated institutional account; no universal technical standard, continuous ancient lineage or current earnings inferred."
     }
   ],
   "recognitions": [
@@ -273,6 +353,60 @@
       ],
       "award_work_id": null,
       "publication_readiness": "attributed_historical_award_record"
+    },
+    {
+      "person_id": "people/sansari-gadatia",
+      "recognition": "State Award",
+      "award_year": 2006,
+      "ceremony_date": null,
+      "craft": "dhokra_casting",
+      "geography": "Dhenkanal",
+      "source_ids": [
+        "arts-state-craft-awards"
+      ],
+      "award_work_id": null,
+      "publication_readiness": "attributed_historical_award_record"
+    },
+    {
+      "person_id": "people/manabodh-rana",
+      "recognition": "National Award",
+      "award_year": 1986,
+      "ceremony_date": null,
+      "craft": "terracotta",
+      "geography": "Barpali, Bargarh in the NID biography",
+      "source_ids": [
+        "arts-state-awards"
+      ],
+      "award_work_id": null,
+      "publication_readiness": "attributed_historical_award_record"
+    },
+    {
+      "person_id": "people/sudarshan-sahoo",
+      "recognition": "Padma Vibhushan",
+      "award_year": 2021,
+      "ceremony_date": null,
+      "craft": "sculpture",
+      "geography": "Odisha in the award list; Puri in the museum account",
+      "source_ids": [
+        "arts-padma2021"
+      ],
+      "award_work_id": null,
+      "publication_readiness": "attributed_historical_award_record"
+    }
+  ],
+  "institutional_histories": [
+    {
+      "id": "sudarshan-museum-foundation",
+      "person_id": "people/sudarshan-sahoo",
+      "institution": "Sudarshan Craft Museum",
+      "place": "Puri",
+      "year": 1977,
+      "source_ids": [
+        "arts-sudarshan-museum"
+      ],
+      "evidence_class": "tourism_publisher_retrospective_account",
+      "original_foundation_record": null,
+      "current_operation": null
     }
   ]
 }

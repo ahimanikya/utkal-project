@@ -37,3 +37,5 @@
 [Sand art: dated works, festival participation and historical fee terms](sand-art.md) connects artistic practice with contract evidence without treating attendance or offered rates as income.
 
 [Palm-leaf engraving](palm-leaf-engraving.md) and the expanded [Cuttack Tarakasi record](cuttack-tarakasi.md) connect technique, credited makers and dated recognition. Product examples are not export statistics.
+
+[Material arts: follow the material and credit the maker](material-arts.md) brings six practices together. New stone, dhokra and terracotta pages add process and maker evidence; work-level attribution remains unfinished.

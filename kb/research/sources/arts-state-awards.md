@@ -15,3 +15,7 @@ Indexed publisher table only; direct web retrieval failed502/internal error. Sel
 Locator: Row101 Pankaj Kumar Sahoo; row20 Laxmidhar Subudhi. Consulted 4 October 2026.
 
 [Publisher record](https://crafts.odisha.gov.in/?page_id=287).
+
+## Additional row capture · 4 October 2026
+
+Indexed row135 lists Manabodh Rana, Clay & Terracotta, National Award1986, Barpalli/Sambalpur. Preserve its geography as printed; the NID maker biography separately says Barpali, Bargarh. This adds missing coverage to the same register, not independent corroboration or a successful original fetch.

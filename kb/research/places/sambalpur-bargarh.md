@@ -67,3 +67,5 @@ Add source-checked district education, health, agricultural production, work and
 - [Sambalpur — district banking](../statistics/districts/sambalpur.md) — Keep Sambalpur’s financial observations attached to its own district.
 
 [Garments and household textiles](../handlooms/garments-and-markets.md) connects Bargarh’s documented production range with separate sector export evidence; present stock and product-specific shipments remain unknown.
+
+[Terracotta makers in Barpali](../culture/terracotta.md) — Connects the explicitly named maker locality with the regional record, without treating the document title as current district geography.
