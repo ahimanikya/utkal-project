@@ -1,0 +1,69 @@
+{
+  "title": "Make this journey yours published",
+  "recorded_at": "2026-10-04T23:13:52.469780+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-199",
+    "quote": "Approved",
+    "context": "Founder approved PR115 for merge and publication."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/115",
+  "approved_head": "84cb8e8f9b5f3345a92e4e22b8e5fd895376983f",
+  "commit": "86eb256606abab730256c09f1aaa16222d56aa91",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37242261712",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37242821341",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey/",
+  "live_verification": {
+    "checked_at": "2026-10-04T23:13:41.612592+00:00",
+    "scope": "Live HTTPS HTML, embedded journey data and script/style hashes; not rendered browser or interactive testing.",
+    "routes_checked": [
+      "/journey/",
+      "/",
+      "/journey-starters/",
+      "/journey-starters/mayurbhanj/"
+    ],
+    "heading_and_coach_controls_present": true,
+    "single_add_day_action": true,
+    "existing_privacy_and_recovery_controls_present": true,
+    "shared_journey_payload_matches": true,
+    "assets": [
+      {
+        "path": "/_astro/Shell.astro_astro_type_script_index_0_lang.Cv19HE2A.js",
+        "sha256": "9c94e3f1dde01627702172f316b20567f3f2bd34a1c820c99a280c21958ee3d7",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/Shell.astro_astro_type_script_index_1_lang.BqxKUMJI.js",
+        "sha256": "0e2e1ef6a4070feda272aababc8ca1afc9ff3b6e66c82a74285d9f9c5bc800fe",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/journey.BqIuy6uC.css",
+        "sha256": "54891bb3c420e56cb2a876f477045cd0dbfef4a65894e0d18b86e80ef2c115b3",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/Shell.d3Ts9MjH.css",
+        "sha256": "e6e5e23768aa57a7d17adca41d3f120782e8c2961bf6fd6938b08bfe47fb97ff",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/journey.DHuFeIw7.js",
+        "sha256": "03a3ae4eeedceadfb67c04489855650e85658702af0167324fe8f81826470bf3",
+        "matches_reviewed_build": true
+      }
+    ],
+    "search_hold_preserved": true
+  },
+  "limitations": [
+    "Live delivery checks inspect HTML, embedded JSON and script/style hashes; they do not establish rendered layout or live interaction.",
+    "Automated tests cover planner data, export privacy, undo and conflict handling. Native PDF, screen-reader and physical-device review remain open.",
+    "Prior browser-policy verification limitation and Search Console processing remain open."
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false
+}

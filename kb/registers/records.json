@@ -4742,22 +4742,25 @@
       "id": "UTP-WORK-163",
       "title": "Make this journey yours: guided day planning",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-198",
-      "next_action": "Founder reviews the completed planner candidate before merge and publication; rendered visual and native PDF checks remain separately open.",
+      "next_action": "Published and live-delivery verified. Rendered browser, native PDF, screen-reader and physical-device review and Search Console processing remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-198",
-        "UTP-REV-141"
+        "UTP-REV-141",
+        "UTP-DEC-199",
+        "UTP-REL-069"
       ],
       "evidence": [
-        "records/make-journey-yours-review-2026-10-04.json"
+        "records/make-journey-yours-review-2026-10-04.json",
+        "records/make-journey-yours-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8714,6 +8717,26 @@
       "evidence": [
         "records/make-journey-yours-review-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-199",
+      "title": "Publish approved Make this journey yours planner",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge PR115 and publish the reviewed planner and tour-book summaries through Pages.",
+      "recorded_at": "2026-10-04T23:13:52.469780+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-163",
+        "UTP-DEC-198"
+      ],
+      "evidence": [
+        "records/make-journey-yours-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -12060,7 +12083,8 @@
         "UTP-DEC-198"
       ],
       "evidence": [
-        "records/make-journey-yours-review-2026-10-04.json"
+        "records/make-journey-yours-review-2026-10-04.json",
+        "records/make-journey-yours-publication-2026-10-04.json"
       ]
     }
   ],
@@ -13205,6 +13229,22 @@
         "records/find-your-trail-publication-2026-10-04.json"
       ],
       "note": "PR112 merged after validation; Pages succeeded. Five comparisons, six interest controls, five photograph hashes, the matching filter script, story/save links and shared journey data verified in delivered files. Search shortlist retained; no native browser visual or interaction pass claimed."
+    },
+    {
+      "id": "UTP-REL-069",
+      "title": "Make this journey yours published",
+      "status": "published",
+      "authorization": "UTP-DEC-199",
+      "destination": "https://utkalproject.org/journey/",
+      "refs": [
+        "UTP-DEC-199",
+        "UTP-WORK-163",
+        "UTP-REV-141"
+      ],
+      "evidence": [
+        "records/make-journey-yours-publication-2026-10-04.json"
+      ],
+      "note": "PR115 merged after validation; Pages succeeded. Planner heading, coach controls, single add-day action, privacy/recovery controls, shared journey data and matching script/style assets verified live. Existing search shortlist retained; no rendered browser or native PDF pass claimed."
     }
   ],
   "sources": [
