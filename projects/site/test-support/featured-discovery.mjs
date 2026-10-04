@@ -8,7 +8,8 @@ export function checkFeaturedDiscovery(directory){
   const home=read('/');
   const selection=json('../../kb/research/featured-stories.json').entries;
   assert.deepEqual(selection.map(e=>e.href),['/knowledge/chilika/','/food/odisha-rasagola/','/people/subhas-chandra-bose/']);
-  const cards=home.match(/<div class="story-card-grid"[\s\S]*?<\/section>/)?.[0];
+  const visible=home.replace(/<template\b[^>]*>[\s\S]*?<\/template>/g,'');
+  const cards=visible.match(/<div class="story-card-grid"[\s\S]*?<\/section>/)?.[0];
   assert.ok(cards);assert.equal((cards.match(/<article[ >]/g)||[]).length,3);
   const credits=home.match(/<details[^>]*><summary[^>]*>Story photograph credits<\/summary>[\s\S]*?<\/details>/)?.[0];
   assert.ok(credits);
@@ -19,6 +20,28 @@ export function checkFeaturedDiscovery(directory){
   const food=json('../../kb/research/food/collection.json'),bose=json('../../kb/research/people/subhas-chandra-bose.json'),chilika=json('../../kb/research/stories/narratives/chilika.json');
   for(const asset of [chilika.image,food.assets[food.pages.find(p=>p.slug==='odisha-rasagola').hero],bose.assets[bose.hero]])
    for(const credit of [asset.source,asset.creator,asset.license_url])assert.ok(credits.includes(credit),credit);
+ });
+ test('changing stories have complete inert cards, credit templates and published destinations',()=>{
+  const home=read('/');
+  const config=json('../../kb/research/featured-stories.json');
+  const templates=[...home.matchAll(/<template\b[^>]*data-story-template="([^"]+)"[^>]*>([\s\S]*?)<\/template>/g)];
+  const options=JSON.parse(home.match(/<script[^>]*data-story-options[^>]*>([\s\S]*?)<\/script>/)[1]);
+  assert.equal(templates.length,30);
+  assert.equal(options.pool.length,30);
+  assert.deepEqual(options.pins,config.pins);
+  for(const slot of ['place','taste','life'])assert.equal(options.pool.filter(e=>e.slot===slot).length,10);
+  for(const [,href,template] of templates){
+   assert.ok(options.pool.some(e=>e.href===href));
+   assert.equal((template.match(/<article[ >]/g)||[]).length,1);
+   assert.match(template,/<img\b/);
+   assert.match(template,/data-story-credit/);
+   assert.match(read(href),/<h1[ >]/);
+   for(const [,src] of template.matchAll(/<img[^>]*src="([^"?]+)"/g))
+    assert.ok(readFileSync(directory+src).length>0,src);
+  }
+  assert.match(home,/data-another-beginning[^>]*hidden/);
+  assert.match(home,/data-featured-credits/);
+  assert.match(home,/aria-live="polite"/);
  });
  test('a photographed building is not framed as a portrait, while literary portraits remain contained',()=>{
   const home=read('/'),explore=read('/explore/');
