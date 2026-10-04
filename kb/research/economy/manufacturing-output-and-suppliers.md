@@ -57,3 +57,7 @@ These are research questions, not proven investment opportunities. Procurement v
 - [Export business questions](../trade/export-business-questions.md) — Recorded shipments do not establish a new supplier’s buyer demand.
 
 [Structured series and unresolved fields](../references/data/manufacturing-production-series.json).
+
+## Cement and fertiliser checkpoint · 4 October 2026
+
+[Plant output and district business questions](cement-and-fertiliser-production.md) adds named IFFCO Paradeep and Dalmia Rajgangpur line evidence. Production, sales, power generation and company-wide figures retain distinct scopes; no local jobs or supplier orders are inferred.

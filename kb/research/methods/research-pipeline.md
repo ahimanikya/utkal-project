@@ -321,3 +321,7 @@ Continue RES-017 with physical manufacturing comparison using saved mine/company
 ## Manufacturing checkpoint · 4 October 2026
 
 Continue non-metal manufacturing coverage using official physical product series; reconcile RSP exact production returns and original CAG table on 11 October. Keep current plant jobs, supplier orders and profitability unknown.
+
+## Non-metal production · 4 October 2026
+
+Continue RES-017 with food-processing physical output and agricultural-series reuse; keep plant production, processing capacity, approvals and sales distinct. Recover longer Rajgangpur line series and plant-specific PPL output separately; retry PPL discrepancy after 11 October.

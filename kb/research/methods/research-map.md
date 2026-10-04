@@ -483,3 +483,7 @@ Extended existing trade pages; three country IDs reused. Textile, fisheries and 
 ## Manufacturing checkpoint · 4 October 2026
 
 One synthesis and three source identities extend existing plant/company records. Fifteen physical-output observations reused; audit tables derive from management data, not a second measurement. This is a bounded map extension.
+
+## Non-metal production · 4 October 2026
+
+Existing manufacturing and district pages extended with one synthesis and three publisher identities. IFFCO and PPL are distinct operators. This is a bounded map extension.

@@ -39,3 +39,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Evidence coverage · 4 October 2026
 
 [District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.
+
+## Cement and fertiliser checkpoint · 4 October 2026
+
+[Plant output and district business questions](../../economy/cement-and-fertiliser-production.md) adds named IFFCO Paradeep and Dalmia Rajgangpur line evidence. Production, sales, power generation and company-wide figures retain distinct scopes; no local jobs or supplier orders are inferred.

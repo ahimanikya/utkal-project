@@ -263,3 +263,7 @@ Exports study is a research draft. Parliament pp1/3 visually checked; DEPM and s
 ## Manufacturing checkpoint · 4 October 2026
 
 Manufacturing synthesis remains a draft. The selected SAIL page was checked in the original PDF; CAG additions remain indexed-only and labelled. Reused production data preserve original scope; no factory visits, human review, contract availability or publication claimed.
+
+## Non-metal production · 4 October 2026
+
+Cement/fertiliser study remains a draft. Selected original pages were visually checked; no human review, supplier availability or website publication claimed.
