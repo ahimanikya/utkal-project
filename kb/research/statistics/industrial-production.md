@@ -69,3 +69,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Comparable manufacturing checkpoint · 4 October 2026
 
 [The manufacturing study](../economy/manufacturing-output-and-suppliers.md) reuses 15 existing physical-output observations across NALCO, Rourkela and IMFA, adds operating evidence, and retains different plant/company boundaries. No statewide output, employment or profit total is inferred. [Structured register](../references/data/manufacturing-production-series.json).
+
+## Cement and fertiliser checkpoint · 4 October 2026
+
+[Plant output and district business questions](../economy/cement-and-fertiliser-production.md) adds named IFFCO Paradeep and Dalmia Rajgangpur line evidence. Production, sales, power generation and company-wide figures retain distinct scopes; no local jobs or supplier orders are inferred.

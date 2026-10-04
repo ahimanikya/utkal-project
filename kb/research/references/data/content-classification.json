@@ -4874,6 +4874,16 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/cement-and-fertiliser-production",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7334,6 +7344,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Recorded shipments do not establish a new supplier’s buyer demand."
+    },
+    {
+      "from": "economy/cement-and-fertiliser-production",
+      "to": "economy/manufacturing-output-and-suppliers",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "links metals with these distinct product chains."
+    },
+    {
+      "from": "economy/cement-and-fertiliser-production",
+      "to": "statistics/industrial-production",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "preserves physical output versus economic value added."
+    },
+    {
+      "from": "economy/cement-and-fertiliser-production",
+      "to": "statistics/districts/jagatsinghpur",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "district context does not turn a unit observation into a district total."
+    },
+    {
+      "from": "economy/cement-and-fertiliser-production",
+      "to": "statistics/districts/sundargarh",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "links the cement evidence with the existing district record."
     }
   ],
   "relationship_types": {

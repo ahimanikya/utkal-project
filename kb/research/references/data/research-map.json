@@ -20321,6 +20321,76 @@
       "source_ids": [
         "manufacturing-rsp-page2026"
       ]
+    },
+    {
+      "id": "economy/cement-and-fertiliser-production",
+      "title": "Cement and fertilisers: plant output and district questions",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/cement-and-fertiliser-production.md",
+      "project_path": "kb/research/economy/cement-and-fertiliser-production.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "nonmetal-iffco2026",
+        "nonmetal-dalmia2025",
+        "nonmetal-ppl2026"
+      ]
+    },
+    {
+      "id": "sources/nonmetal-iffco2026",
+      "title": "IFFCO Annual Report 2025–26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/nonmetal-iffco2026.md",
+      "project_path": "kb/research/sources/nonmetal-iffco2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "nonmetal-iffco2026"
+      ]
+    },
+    {
+      "id": "sources/nonmetal-dalmia2025",
+      "title": "Rajgangpur Lines 1, 2 and CPP: Form V for FY2024–25",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/nonmetal-dalmia2025.md",
+      "project_path": "kb/research/sources/nonmetal-dalmia2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "nonmetal-dalmia2025"
+      ]
+    },
+    {
+      "id": "sources/nonmetal-ppl2026",
+      "title": "Paradeep Phosphates Annual Report 2025–26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/nonmetal-ppl2026.md",
+      "project_path": "kb/research/sources/nonmetal-ppl2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "places"
+      ],
+      "source_ids": [
+        "nonmetal-ppl2026"
+      ]
     }
   ],
   "shared_publications": [
@@ -21034,7 +21104,12 @@
         "sources/manufacturing-rsp-page2026.md",
         "economy/bauxite-to-aluminium.md",
         "economy/rourkela-steel-chain.md",
-        "economy/company-imfa.md"
+        "economy/company-imfa.md",
+        "economy/cement-and-fertiliser-production.md",
+        "sources/nonmetal-iffco2026.md",
+        "sources/nonmetal-dalmia2025.md",
+        "sources/nonmetal-ppl2026.md",
+        "references/data/nonmetal-production-series.json"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
@@ -21879,8 +21954,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1346,
-    "updated_at": "2026-10-04T21:06:49.911643+00:00",
+    "records_mapped": 1350,
+    "updated_at": "2026-10-04T21:26:34.708615+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22573,6 +22648,11 @@
       "run_id": "2026-10-04-manufacturing-series",
       "at": "2026-10-04T21:06:49.911643+00:00",
       "scope": "Fifteen existing production observations and five calculations reused. New company annual-report vintage and management-data audit tables are not independent output measurements."
+    },
+    {
+      "run_id": "2026-10-04-nonmetal-production",
+      "at": "2026-10-04T21:26:34.708615+00:00",
+      "scope": "Existing manufacturing and district records extended; IFFCO and PPL kept distinct. Selected publisher tables are not independent audits."
     }
   ]
 }

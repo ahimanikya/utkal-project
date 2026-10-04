@@ -530,3 +530,7 @@ Added65 annual export observations,20 principal products plus two totals and sev
 ## Manufacturing checkpoint · 4 October 2026
 
 Reused 15 production observations and five calculations; added 22 operating/annual-report observations and eight product comparisons. [Study](economy/manufacturing-output-and-suppliers.md). Retrieval and precision limits retained; no human review or website release.
+
+## Non-metal production · 4 October 2026
+
+Added 30 original-page plant observations and 13 comparisons. IFFCO output/sales, Dalmia line boundary and PPL company conflict retained. [Study](economy/cement-and-fertiliser-production.md). No human review or website release.

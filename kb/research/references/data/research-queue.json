@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T21:06:49.911643+00:00",
+  "updated_at": "2026-10-04T21:26:34.708615+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1589,10 +1589,10 @@
       "done_when": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
       "target": "statistics/coverage.md",
       "status": "in_progress",
-      "attempts": 4,
+      "attempts": 5,
       "dependencies": [],
-      "last_worked_at": "2026-10-04T21:06:49.911643+00:00",
-      "next_step": "Continue non-metal manufacturing coverage using official physical product series; reconcile RSP exact production returns and original CAG table on11October. Keep current plant jobs, supplier orders and profitability unknown.",
+      "last_worked_at": "2026-10-04T21:26:34.708615+00:00",
+      "next_step": "Continue RES-017 with food-processing physical output and agricultural-series reuse; keep plant production, processing capacity, approvals and sales distinct. Recover longer Rajgangpur line series and plant-specific PPL output separately; retry PPL discrepancy after 11 October.",
       "evidence_outputs": [
         "statistics/ports.md",
         "sources/trade-basic-port-statistics2025.md",
@@ -1615,7 +1615,12 @@
         "references/data/manufacturing-production-series.json",
         "sources/manufacturing-sail-ar2025.md",
         "sources/manufacturing-cag-bf2025.md",
-        "sources/manufacturing-rsp-page2026.md"
+        "sources/manufacturing-rsp-page2026.md",
+        "economy/cement-and-fertiliser-production.md",
+        "sources/nonmetal-iffco2026.md",
+        "sources/nonmetal-dalmia2025.md",
+        "sources/nonmetal-ppl2026.md",
+        "references/data/nonmetal-production-series.json"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1650,7 +1655,12 @@
           "sources/manufacturing-rsp-page2026.md",
           "economy/bauxite-to-aluminium.md",
           "economy/rourkela-steel-chain.md",
-          "economy/company-imfa.md"
+          "economy/company-imfa.md",
+          "economy/cement-and-fertiliser-production.md",
+          "sources/nonmetal-iffco2026.md",
+          "sources/nonmetal-dalmia2025.md",
+          "sources/nonmetal-ppl2026.md",
+          "references/data/nonmetal-production-series.json"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -1691,6 +1701,15 @@
           "observations_reused": 15,
           "calculations_added": 8,
           "remaining": "Non-metal physical product series; exact RSP returns and original audit table; current local work and orders."
+        },
+        {
+          "run_id": "2026-10-04-nonmetal-production",
+          "at": "2026-10-04T21:26:34.708615+00:00",
+          "outcome": "nonmetal_plant_series_checkpoint",
+          "completion_criteria_met": false,
+          "observations_added": 30,
+          "calculations_added": 13,
+          "remaining": "Food-processing physical output; longer cement series and PPL plant returns; conflicts held."
         }
       ]
     },

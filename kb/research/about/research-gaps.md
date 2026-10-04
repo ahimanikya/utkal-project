@@ -492,3 +492,7 @@ DEPM2021–22 sector sum differs by34.81 crore; original PDF unavailable. Seafoo
 ## Manufacturing checkpoint · 4 October 2026
 
 Exact RSP FY2024–25 return, source rounding policy and original CAG p.39 remain open. PDF requests failed; retry11October 2026. Non-metal manufacturing and local supplier orders remain independent next work.
+
+## Non-metal production · 4 October 2026
+
+PPL company narrative/table conflict and absent plant-specific output held; retry 11 October. Longer Rajgangpur line series and food-processing output remain open.

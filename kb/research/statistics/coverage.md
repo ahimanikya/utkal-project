@@ -110,3 +110,7 @@ RES-017 now includes five eleven-observation fisheries series ending provisional
 ## Manufacturing checkpoint · 4 October 2026
 
 [Selected manufacturing products](../economy/manufacturing-output-and-suppliers.md) reuse existing annual output and connect operating ratios. Metals do not represent all manufacturing; non-metal product series remain open.
+
+## Non-metal production · 4 October 2026
+
+[Cement and fertilisers](../economy/cement-and-fertiliser-production.md) add named plant/line output. Selected plants do not establish statewide manufacturing totals.

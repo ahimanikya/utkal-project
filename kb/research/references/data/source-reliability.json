@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T21:06:49.911643+00:00",
+  "updated_at": "2026-10-04T21:26:34.708615+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7615,6 +7615,89 @@
         ],
         "method": "Initial 45-second download and 150-second resume timed out with partial bytes; final 45-second resume completed. Selected page rendered and checked."
       }
+    },
+    {
+      "run_id": "2026-10-04-nonmetal-production",
+      "checked_at": "2026-10-04T21:26:34.708615+00:00",
+      "scope": "Selected original plant tables and source discrepancy; not a whole-report audit or weekly revision check.",
+      "sources": [
+        {
+          "source_id": "nonmetal-iffco2026",
+          "url": "https://iffco-public-assets.s3.ap-south-1.amazonaws.com/s3fs-public/2026-06/IFFCO-Annual-Report-2025-26-Final.pdf?VersionId=RpetDmg.sOj0OIJmGTpCbHq2d_re54E6",
+          "status": "available",
+          "access_scope": "Original PDF p.56 / printed p.48 and PDF p.138 / printed p.130 visually checked. Captures Paradeep rows only; 2026–27 budget column excluded. Selected pages, not whole-report verification.",
+          "local_capture": "work/nonmetal-production/iffco2026.pdf",
+          "sha256": "4ead763eb8180e01a7bebe8cf8031648de41a9c9c47c6115591f040b7e2d9982",
+          "bytes": 19520268,
+          "pdf_pages_visually_checked": [
+            56,
+            138
+          ]
+        },
+        {
+          "source_id": "nonmetal-dalmia2025",
+          "url": "https://www.dalmiacement.com/assets/pdf/esg/enviroment/plants/compliances/Form%20V%20Environmental%20Statement%20FY%202025%20Dalmia%20Cement%20Bharat%20Ltd%20%28Line%201%20%26%202%29%2C%20Rajgangpur.pdf",
+          "status": "available",
+          "access_scope": "All six scanned pages visually inspected. Quantitative capture limited to PDF p.6 production table; covering letter p.1 establishes Lines 1, 2 and CPP and Sundargarh scope. Company submission, not an independent regulatory audit.",
+          "local_capture": "work/nonmetal-production/dalmia2025.pdf",
+          "sha256": "84c3eb844b19b2dd05d35f230cbdebe582d5cc7b9e23f482861988ee3bbfba21",
+          "bytes": 398401,
+          "pdf_pages_visually_checked": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "source_id": "nonmetal-ppl2026",
+          "url": "https://www.paradeepphosphates.com/uploads/content/paradeep-phosphate-ar-24082026-1.pdf",
+          "status": "available",
+          "access_scope": "Original PDF p.12 / printed pp.20–21 and PDF p.61 / printed p.108 visually checked. Multi-state footprint and internal narrative/table discrepancy only; no company production adopted as Odisha output. Listing names edition; exact publication date not established from filename.",
+          "local_capture": "work/nonmetal-production/ppl2026.pdf",
+          "sha256": "17e9ae16f25e79420fe4fbab2fc021475ee12b122786642d14fdb26a10d19bcb",
+          "bytes": 16364061,
+          "pdf_pages_visually_checked": [
+            12,
+            61
+          ]
+        }
+      ],
+      "failed_fetches": [
+        {
+          "source_id": "nonmetal-iffco2026",
+          "status": "unavailable",
+          "method": "Web reader rejected PDF content length; direct download later succeeded."
+        },
+        {
+          "source_id": "nonmetal-dalmia2025",
+          "status": "unavailable",
+          "method": "Web screenshots returned cache miss; direct download and local rendering later succeeded."
+        },
+        {
+          "source_id": "nonmetal-ppl2026",
+          "status": "unavailable",
+          "method": "Web reader rejected PDF content length; direct download later succeeded."
+        }
+      ],
+      "conflicts": [
+        {
+          "id": "ppl-2026-company-output-discrepancy",
+          "source_id": "nonmetal-ppl2026",
+          "locator": "Printed p.108 / PDF p.61",
+          "status": "hold_conflict",
+          "narrative_value": 3.36,
+          "narrative_unit": "million tonnes",
+          "table_value": 3666516,
+          "table_unit": "tonnes",
+          "period": "2025-26",
+          "explanation": "Original narrative and performance table disagree. No cause or corrected value selected. Both have company scope spanning Odisha and other states; neither becomes Paradeep unit output.",
+          "retry_after": "2026-10-11"
+        }
+      ],
+      "retry_after": "2026-10-11"
     }
   ]
 }
