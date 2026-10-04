@@ -4637,6 +4637,28 @@
         "records/image-label-cleanup-2026-10-04.json",
         "records/image-label-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-159",
+      "title": "Cuttack illustrated trail and matching tour books",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-190",
+      "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-190",
+        "UTP-REV-137"
+      ],
+      "evidence": [
+        "records/cuttack-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8417,6 +8439,25 @@
       "evidence": [
         "records/image-label-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-190",
+      "title": "Build Cuttack · Silver and Stories",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "ok, let's do that",
+      "scope": "Implement the proposed Cuttack illustrated trail, practical planning, matching books and local contribution batch.",
+      "recorded_at": "2026-10-04T16:01:33.011102+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-159"
+      ],
+      "evidence": [
+        "records/cuttack-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11644,6 +11685,30 @@
       "evidence": [
         "records/image-label-cleanup-2026-10-04.json",
         "records/image-label-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-137",
+      "title": "Cuttack illustrated trail implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new browser visual, interactive, physical-device or native PDF pass; the prior administrator-enforced browser security-policy verification failure remains unresolved.",
+        "No local inspection or provider contact. Museum hours, access, workshops, menus and transfer times require confirmation.",
+        "Existing project research reused. The new official Cuttack context check used indexed text; direct district, municipal and tourism-page retrievals failed.",
+        "The Tarakasi photograph has conflicting source material descriptions; its existing caption and the new prompt preserve this limitation.",
+        "Search Console processing was not rechecked."
+      ],
+      "refs": [
+        "UTP-WORK-159",
+        "UTP-DEC-190"
+      ],
+      "evidence": [
+        "records/cuttack-illustrated-trail-2026-10-04.json"
       ]
     }
   ],

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9dfa455bd0eba76a3fa2b53860a7e023194453c9ef29f5424027988d95954bbb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `258e44a1e39645ce531d7efb3f8f6d7b8b023209bd1e0d706f207d2c053e44b9`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -171,6 +171,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-156 · Trail tour books, local contributions and verification readiness | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-157 · Chilika illustrated trail and gateway-specific tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-158 · Remove AI-generated tags beside website images | completed | applied | Ahimanikya Satapathy | Published and verified across all 124 public-edition pages. Provenance remains in end credits and canonical records. | — |
+| UTP-WORK-159 · Cuttack illustrated trail and matching tour books | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. | — |
 
 ## Pending human review and decisions
 
@@ -229,6 +230,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
+| UTP-WORK-159 | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 
 ## Decisions
 
@@ -422,6 +424,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-187 · Publish the illustrated Chilika trail | approved | Ahimanikya Satapathy | Merge and publish PR93, preserving the eleven-route search shortlist and outstanding visual/PDF and local checks. |
 | UTP-DEC-188 · Remove visible AI-generated image tags | approved | Ahimanikya Satapathy | Requested image tag cleanup throughout the website. |
 | UTP-DEC-189 · Deploy image label cleanup | approved | Ahimanikya Satapathy | Merge and publish PR96. |
+| UTP-DEC-190 · Build Cuttack · Silver and Stories | approved | Ahimanikya Satapathy | Implement the proposed Cuttack illustrated trail, practical planning, matching books and local contribution batch. |
 
 ## Reviews
 
@@ -561,6 +564,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-134 | pass_with_limitations | False | Browser visual/interactive review remains unavailable; no new browser or native-PDF pass claimed.; Local pack and contribution prompts are preparation only: no contact, appointment, submitted issue or confirmed local claim.; Search Console processing remains separately unresolved. |
 | UTP-REV-135 | pass_with_limitations | False | No new browser visual, interactive, physical-device or native PDF pass; prior administrator-enforced browser security-policy verification failure remains unresolved.; No local visits, calls, boat inspections, kitchen or property checks. Access, transport, operating arrangements and availability remain unconfirmed.; Satapada and nature-camp source checks used official indexed text after direct retrieval failed. Existing food and Kalijai legend evidence reused without claiming fresh primary inspection.; Search Console processing was not rechecked; current access limitation remains. |
 | UTP-REV-136 | pass_with_limitations | False | No new browser visual review; existing browser security-policy verification limitation remains. |
+| UTP-REV-137 | pass_with_limitations | False | No new browser visual, interactive, physical-device or native PDF pass; the prior administrator-enforced browser security-policy verification failure remains unresolved.; No local inspection or provider contact. Museum hours, access, workshops, menus and transfer times require confirmation.; Existing project research reused. The new official Cuttack context check used indexed text; direct district, municipal and tourism-page retrievals failed.; The Tarakasi photograph has conflicting source material descriptions; its existing caption and the new prompt preserve this limitation.; Search Console processing was not rechecked. |
 
 ## Publication and application history
 
@@ -667,7 +671,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-215 | 2026-10-04T11:22:52.481972+00:00 | Connected twelve artwork themes to curated stories, refined thirty introductions and added two literary onward links. Full/coastal builds and 409/78 tests passed; all thirty pages have journey and specific onward links. | Prepare reviewable PR; browser visual review unavailable and Search Console remains separate. |
 | UTP-EVT-216 | 2026-10-04T12:02:51.910884+00:00 | Published approved PR82 through Pages after successful validation. Live twelve theme connections, thirty revised introductions and reciprocal Sarala Das/Pratibha Ray links match the approved version. | Published and verified at utkalproject.org. Follow up with desktop/mobile visual review when browser policy verification recovers; Search Console remains separate. |
 | UTP-EVT-217 | 2026-10-04T12:50:25.325868+00:00 | Built the three-chapter Stone, sea and makers visitor trail, enabled its eight-idea starter in the public edition, linked eight existing guides back, and recorded a bounded source refresh. Full/coastal builds and 412/79 tests passed. | Review implementation PR; complete desktop/mobile browser review when security policy verification recovers. Search Console remains separate. |
 | UTP-EVT-218 | 2026-10-04T13:00:46.518968+00:00 | Published approved PR86 through Pages after successful validation. The illustrated trail, eight unscheduled ideas, guide return links and documentary photographs were verified over live HTTPS. | Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups. |
@@ -677,6 +680,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-222 | 2026-10-04T15:21:53.087490+00:00 | Published approved PR93 through Pages. Live chapters, photographs, separate gateway choices, ten guide returns and contribution links verified. Live-data exports retained only matching chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-223 | 2026-10-04T15:32:02.171885+00:00 | Removed AI-generated tags beside images and moved homepage provenance to the existing end credits. Kept illustration descriptions, original source credits and internal provenance. | Review the caption cleanup PR for publication. |
 | UTP-EVT-224 | 2026-10-04T15:41:07.542753+00:00 | Published requested image tag cleanup through Pages and verified live HTML across 124 pages and 560 image elements. Image provenance remains in end credits. | Published and verified across all 124 public-edition pages. Provenance remains in end credits and canonical records. |
+| UTP-EVT-225 | 2026-10-04T16:01:33.011102+00:00 | Prepared four illustrated Cuttack chapters using existing research and licensed photographs, linked the unchanged six-idea starter to matching offline chapters, added planning and contextual contribution links. Automated checks pass; visual and local checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 
 ## Deferred extensions
 
