@@ -868,3 +868,9 @@ The Founder asked to complete all twelve themes immediately. The homepage collec
 Following discussion of the Human Natural approach, the Founder approved a final refinement. The reading circle lost its mirrored listening poses; the festival scene became a quieter pause. Warmth stayed while the moments became less arranged for the viewer.
 
 [Refinement evidence](../records/home-art-natural-refinements-2026-10-04.json). Applied locally; v1 images preserved, publication pending.
+
+## UTP-HIS-0211 · Twelve welcomes go live
+
+The approved Human Natural collection reached the public homepage through PR75. Each new page load chooses one still imagined scene; the two final candid refinements are included. GitHub checks and live file verification passed. Browser layout inspection remains explicitly unverified.
+
+[Publication evidence](../records/home-art-publication-2026-10-04.json) · [PR75](https://github.com/ahimanikya/utkal-project/pull/75).

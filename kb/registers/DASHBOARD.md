@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `843064fb71867cbe9f2e266119aa16e5c07265ae9ab0de96599bd90072bb6f68`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f37722d92c12d75ea22993b5ab50d6c812be267243d04392e9d49454e73064ce`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -164,7 +164,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-149 · Build four scoped mining land and people studies | completed | applied | Ahimanikya Satapathy | Scoped case-study checkpoint merged. RES-054 retains original monitoring, implementation and ecological-recovery evidence follow-ups. | — |
 | UTP-WORK-150 · Recover original mining evidence and preserve unresolved outcomes | completed | applied | Ahimanikya Satapathy | Evidence follow-up checkpoint merged. RES-054 remains in progress for denominator clarification, original decisions, corrective completion and measured recovery. | — |
 | UTP-WORK-151 · Global Connections section and Indian-city comparison | completed | published | Ahimanikya Satapathy | Section published. Future work: obtain complete BMC register, verify proposals and recent activity, then seek approval for partner outreach. | — |
-| UTP-WORK-152 · Twelve Documentary Natural homepage scenes | in_progress | applied | Ahimanikya Satapathy | Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable. | Browser security-policy verification unavailable for local preview. |
+| UTP-WORK-152 · Twelve Documentary Natural homepage scenes | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Optional follow-up: perform desktop/mobile browser visual review when browser policy verification recovers; limitation remains in UTP-REV-130. | — |
 
 ## Pending human review and decisions
 
@@ -599,6 +599,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-055 · Mining land, rights, safety and restoration checkpoint integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-168 |
 | UTP-REL-056 · Mining evidence follow-up integrated | applied | https://github.com/ahimanikya/utkal-project/tree/main/kb | UTP-DEC-169 |
 | UTP-REL-057 · Global Connections section published | published | https://utkalproject.org/global-connections/ | UTP-DEC-171 |
+| UTP-REL-058 · Twelve-scene Human Natural homepage published | published | https://utkalproject.org/ | UTP-DEC-177 |
 
 ## Sources and assets
 
@@ -636,7 +637,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-202 | 2026-10-03T08:13:52.715304+00:00 | PR70 integrated after local and GitHub checks passed; four source records extend case histories with explicit source roles and unresolved sample totals. | Pursue named clarification and implementation records when new evidence is available; no unsupported outcome claims. |
 | UTP-EVT-203 | 2026-10-03T08:20:20.347145+00:00 | Founder approved the merged PR70 mining evidence follow-up. | Retain RES-054 source clarification and implementation dependencies; research drafts remain unpublished. |
 | UTP-EVT-204 | 2026-10-03T13:36:12.489673+00:00 | Built Global Connections section with six-city comparison, eleven traceable sources and a deferred-initiative operating brief. | Verify delivery; obtain fuller agreement and activity evidence in future work. |
 | UTP-EVT-205 | 2026-10-03T13:50:09.269445+00:00 | Merged PR71 and verified the successful Global Connections website deployment, six-city comparison, entry links and unchanged search scope. | Founder can review the live section; future research and outreach remain separate work. |
@@ -646,6 +646,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-209 | 2026-10-04T07:30:03.884234+00:00 | Created eleven new scenes and retained one maritime image to cover all twelve approved themes; saved original assets, prompts, web derivatives and local review gallery. One image per visit remains active. | Twelve-scene collection locally integrated; eight controller tests, 76 coastal tests, full build and 48 image-reference checks passed. Artwork gallery ready. Browser layout review remains blocked; not published. |
 | UTP-EVT-210 | 2026-10-04T08:03:02.021461+00:00 | Refined and applied two Human Natural scene edits; updated provenance, web assets and review gallery without replacing original evidence. | Twelve-scene homepage locally applied with candid festival and reading v2 edits. 84 tests and build passed; original images and prompts retained. Complete browser layout review when policy verification recovers; not deployed. |
 | UTP-EVT-211 | 2026-10-04T08:15:57.208317+00:00 | Founder requested application of the prepared collection. Full-site build and 391 tests passed; beginning approved repository release. | Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable. |
+| UTP-EVT-212 | 2026-10-04T08:37:18.254965+00:00 | Published PR75 through the approved Pages workflow after CI passed. Live homepage has twelve scenes, both refined assets and controller code; twelve original checksums and 36 responsive responses verified. | Published and verified at utkalproject.org. Optional follow-up: perform desktop/mobile browser visual review when browser policy verification recovers; limitation remains in UTP-REV-130. |
 
 ## Deferred extensions
 
