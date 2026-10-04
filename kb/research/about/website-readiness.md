@@ -225,3 +225,7 @@ Three new work records are research candidates, not visitor-operating records. G
 ## 4 October 2026 · District coverage readiness
 
 A 30-district research map now exists locally. Cells are inventory scope, not quality rankings; destination operating status is not inferred. No website release or human review claimed. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · Regional baseline checkpoint
+
+24 historical observations and source-linked narrative added. Editorial review remains pending; Git review is separate from website publication.

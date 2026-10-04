@@ -65,3 +65,7 @@ Build attributed profiles of willing growers, weavers, food producers and hosts,
 - [Homestay evidence](../statistics/homestays.md) — Read cluster targets separately from operating properties and demand.
 
 [Kalajeera’s route to market](../economy/rice-economy.md) follows domestic-market evidence and the records still needed to establish grower returns and attributable overseas trade.
+
+## People and livelihoods context · 4 October 2026
+
+[District people and work baselines](../statistics/western-southern-baselines.md) add Census 2011 literacy and recorded work, plus NFHS-5 child nutrition. Current services, skills and enterprise demand need separate evidence; these historical observations are not a tourism or investment ranking.

@@ -484,3 +484,7 @@ RES-032 adds Raghunath Mohapatra, two government-attributed sculptures, a provis
 ## 4 October 2026 · District evidence matrix
 
 Completed RES-013: linked all 30 districts across five research domains. Saved evidence only; no fresh source verification or canonical atlas observation added. Next RES-014. See [matrix](statistics/district-coverage.md).
+
+## 4 October 2026 · Regional baseline checkpoint
+
+RES-014: 24 Census/NFHS district observations checked against original tables; four source documents, three unavailable DES downloads. Current district claims remain withheld.

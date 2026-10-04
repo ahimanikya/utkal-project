@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T13:43:00.385886+00:00",
+  "updated_at": "2026-10-04T14:07:41.814042+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6865,6 +6865,90 @@
       "status": "saved_knowledge_audit_no_fetch",
       "source_checks": [],
       "scope": "Reused saved source and repository-native records with input fingerprints. No publisher availability or freshness asserted."
+    },
+    {
+      "run_id": "2026-10-04-regional-handbooks",
+      "checked_at": "2026-10-04T14:07:41.814042+00:00",
+      "sources": [
+        {
+          "source_id": "regional-koraput-census2011",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/953/download/36680/DH_2011_2129_PART_B_DCHB_KORAPUT.pdf",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_visual",
+          "locator": "Important Statistics, printed p.16, PDF p.23; literacy method PDF p.27",
+          "sha256": "2b4800813e44045e88d182736346c53593904ed658665fc74f7e9449595af4bc"
+        },
+        {
+          "source_id": "regional-sambalpur-census2011",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/969/download/36744/DH_2011_2103_PART_B_DCHB_SAMBALPUR.pdf",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_visual",
+          "locator": "Important Statistics, printed p.18, PDF p.29; literacy method PDF p.33",
+          "sha256": "db062c8f325bf7b877f70475c09418094b31db3c9c16d59660685460894c97b7"
+        },
+        {
+          "source_id": "regional-bargarh-census2011",
+          "url": "https://censusindia.gov.in/nada/index.php/catalog/921/download/36552/DH_2011_2101_PART_B_DCHB_BARGARH.pdf",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_visual",
+          "locator": "Important Statistics, printed p.17, PDF p.26; literacy method PDF p.31",
+          "sha256": "e6cdb116ae394acb9d045d91c6e915e5023b8a02a4b76735ac0baf82db74be40"
+        },
+        {
+          "source_id": "regional-nutrition-ls1060-2022",
+          "url": "https://sansad.in/getFile/loksabhaquestions/annex/179/AU1060.pdf?source=pqals",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_visual",
+          "locator": "Annexure, PDF p.3, Bargarh, Koraput and Sambalpur rows",
+          "sha256": "5f1eb002e43f3f69620baba2b780347b44316f0943224ff26a66816209d03f41"
+        },
+        {
+          "source_id": "macro-des-catalog",
+          "district": "koraput",
+          "url": "https://des.odisha.gov.in/documents/KORAPUT-2024-merged.pdf",
+          "status": "unavailable",
+          "access_scope": "original_pdf_download",
+          "detail": "Official catalogue discovered; web PDF fetch failed and HTTPS download timed out after 40 seconds with zero bytes. No table values adopted.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "source_id": "macro-des-catalog",
+          "district": "sambalpur",
+          "url": "https://des.odisha.gov.in/documents/1786085436_SAMBALPUR-DSHB-2024_merged.pdf",
+          "status": "unavailable",
+          "access_scope": "original_pdf_download",
+          "detail": "Official catalogue discovered; web PDF fetch failed and HTTPS download timed out after 40 seconds with zero bytes. No table values adopted.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "source_id": "macro-des-catalog",
+          "district": "bargarh",
+          "url": "https://des.odisha.gov.in/documents/1786085075_BARAGARH-DSHB-2024.pdf",
+          "status": "unavailable",
+          "access_scope": "original_pdf_download",
+          "detail": "Official catalogue discovered; web PDF fetch failed and HTTPS download timed out after 40 seconds with zero bytes. No table values adopted.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "url": "https://koraput.odisha.gov.in/sites/default/files/2023-07/2018043029.pdf",
+          "status": "unavailable",
+          "access_scope": "HTTPS_download",
+          "detail": "Connection reset; web text was accessible. Original Census catalogue download subsequently recovered and visually verified."
+        },
+        {
+          "url": "https://censusindia.gov.in/2011census/dchb/2129_PART_B_DCHB_KORAPUT.pdf",
+          "status": "unavailable",
+          "access_scope": "HTTPS_download",
+          "detail": "HTTP 404; replacement obtained through catalogue 953."
+        },
+        {
+          "url": "https://bargarh.odisha.gov.in/en/documents/census",
+          "status": "unavailable",
+          "access_scope": "HTTPS_download",
+          "detail": "DNS failure in download route; web index accessible. Original Census catalogue PDF recovered separately."
+        }
+      ],
+      "scope": "Historical district evidence capture; not weekly release monitoring. Separate failed routes from recovered original PDFs."
     }
   ]
 }

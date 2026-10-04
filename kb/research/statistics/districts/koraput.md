@@ -56,3 +56,7 @@ IBM’s2023–24 bauxite producer table places NALCO and OMC mine locations in K
 ## Evidence coverage · 4 October 2026
 
 [District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.
+
+## Historical people and work baseline · 4 October 2026
+
+Census 2011 recorded literacy of **49.21% among residents aged seven and above**, and **693,406 main plus marginal workers**. NFHS-5’s 2019–21 round recorded **43.1% of children under five as stunted**, as reproduced in a 2022 parliamentary reply. These periods and populations differ; none is a current estimate. [Sources, all three nutrition indicators and interpretation limits](../western-southern-baselines.md).

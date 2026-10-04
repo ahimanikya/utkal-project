@@ -4786,6 +4786,18 @@
       "content_type": "Research Coverage Map",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "statistics/western-southern-baselines",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "places",
+        "economy",
+        "governance"
+      ],
+      "content_type": "Statistical Topic",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7063,6 +7075,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "The matrix connects existing district snapshots to a shared research-gap view; it does not imply comparable measurement across domains."
+    },
+    {
+      "from": "statistics/western-southern-baselines",
+      "to": "statistics/district-coverage",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Historical aggregates fill part of three district evidence profiles; this does not establish current service quality."
     }
   ],
   "relationship_types": {

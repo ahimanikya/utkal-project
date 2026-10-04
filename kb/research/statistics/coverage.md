@@ -86,3 +86,5 @@ People-and-creations research added five observations for broad textile/apparel/
 ## District matrix · 4 October 2026
 
 [The 30-district matrix](district-coverage.md) distinguishes district measures, local cases, destination guides, homestay scheme areas and unmapped evidence across five domains. Its declared inputs include repository-native records. It does not convert local projects into district outcomes or missing evidence into zero.
+
+[Koraput, Sambalpur and Bargarh historical baselines](../statistics/western-southern-baselines.md) — literacy, recorded work and child nutrition, with original years and denominators retained.
