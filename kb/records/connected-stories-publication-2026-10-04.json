@@ -1,0 +1,31 @@
+{
+  "title": "Connected homepage stories published",
+  "recorded_at": "2026-10-04T12:02:51.910884+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-181",
+    "quote": "Approved",
+    "context": "Founder approved PR82 after implementation and passing-check summary."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/82",
+  "commit": "61d85ed26ffb2ade5873ac4c3510fa1a2eef6d6c",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37198782847",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37200577084",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/",
+  "live_verification": {
+    "checked_at": "2026-10-04T12:02:05.457694+00:00",
+    "homepage_status": 200,
+    "theme_connections": 12,
+    "introductions_matched": 30,
+    "artwork_theme_attributes": 12,
+    "both_controllers_present": true,
+    "credit_controller_present": true,
+    "reciprocal_literary_links_verified": true,
+    "scope": "Live HTTPS content and code delivery checks; not a browser visual or interaction review."
+  },
+  "limitations": [
+    "Browser visual and interactive review remains unavailable due to administrator-enforced security-policy verification failure.",
+    "Search Console sitemap processing remains separately unresolved under UTP-WORK-139."
+  ]
+}
