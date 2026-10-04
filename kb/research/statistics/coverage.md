@@ -92,3 +92,8 @@ People-and-creations research added five observations for broad textile/apparel/
 ## Regional survey update · 4 October 2026
 
 [Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.
+
+
+## Port-series checkpoint · 4 October2026
+
+RES-017 now has ten annual Dhamra/Gopalpur observations per port and five Paradip vessel-time observations. [Port evidence](ports.md) retains an unresolved2023–24 non-major total conflict. Exports, physical manufacturing and longer fisheries series remain incomplete.

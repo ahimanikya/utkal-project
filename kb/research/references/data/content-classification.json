@@ -4806,6 +4806,16 @@
       "content_type": "Statistical Source",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/ports-diverging-cargo",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places"
+      ],
+      "content_type": "Statistical Story",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7111,6 +7121,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Connects refinery implementation to its documented raw-material chain; this does not establish local business demand or commissioning."
+    },
+    {
+      "from": "stories/ports-diverging-cargo",
+      "to": "statistics/ports",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Source-linked tonnage and vessel-hour evidence; no cause or current service guarantee."
+    },
+    {
+      "from": "stories/ports-diverging-cargo",
+      "to": "trade/merchandise-exports",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Export value and handled cargo are distinct; neither supplies business profit or Odisha-origin attribution for the other."
     }
   ],
   "relationship_types": {

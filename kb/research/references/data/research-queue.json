@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T15:56:49.990348+00:00",
+  "updated_at": "2026-10-04T16:55:29.191089+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1588,12 +1588,17 @@
       "title": "Trade logistics and production",
       "done_when": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
       "target": "statistics/coverage.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 1,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
-      "evidence_outputs": [],
+      "last_worked_at": "2026-10-04T16:55:29.191089+00:00",
+      "next_step": "Continue RES-017 with a matched longer fisheries production series; reuse July2026/February2026 releases and saved rice/company series first. The non-major port total conflict waits until11October; do not duplicate today’s PDF retrieval. Remaining exports and physical manufacturing scope require work.",
+      "evidence_outputs": [
+        "statistics/ports.md",
+        "sources/trade-basic-port-statistics2025.md",
+        "stories/ports-diverging-cargo.md",
+        "references/data/trade-logistics-series.json"
+      ],
       "retry_after": null,
       "blocker": null,
       "reuse_before_research": {
@@ -1601,12 +1606,26 @@
           "statistics/ports.md",
           "statistics/industrial-production.md",
           "statistics/fisheries.md",
-          "trade/connection-matrix.md"
+          "trade/connection-matrix.md",
+          "sources/trade-basic-port-statistics2025.md",
+          "stories/ports-diverging-cargo.md",
+          "references/data/trade-logistics-series.json",
+          "references/data/rice-economy.json",
+          "references/data/economic-time-series.json"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-trade-logistics",
+          "at": "2026-10-04T16:55:29.191089+00:00",
+          "outcome": "port_series_and_internal_total_conflict_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Full exports, manufacturing and fisheries comparability; port total conflict retained."
+        }
+      ]
     },
     {
       "id": "RES-018",

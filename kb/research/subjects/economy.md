@@ -97,3 +97,8 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Paddy procurement payments](../stories/rice-procurement-payments.md) connects farming with public purchasing while keeping farmer profit and payment categories distinct.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+
+## Port-series checkpoint · 4 October2026
+
+[Two ports, different cargo years](../stories/ports-diverging-cargo.md) connects logistics activity with export research while keeping throughput, value, capacity and demand separate.

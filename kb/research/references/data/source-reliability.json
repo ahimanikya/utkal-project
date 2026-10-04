@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T16:16:56.927432+00:00",
+  "updated_at": "2026-10-04T16:55:29.191089+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7252,6 +7252,48 @@
         }
       ],
       "scope": "NALCO project implementation and historical comparison; targeted search is not a complete weekly release check."
+    },
+    {
+      "run_id": "2026-10-04-trade-logistics",
+      "checked_at": "2026-10-04T16:55:29.191089+00:00",
+      "scope": "RES-017 selected historical port tables only; not a complete weekly publisher refresh.",
+      "sources": [
+        {
+          "source_id": "trade-basic-port-statistics2025",
+          "url": "https://shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf",
+          "status": "available",
+          "access_scope": "original_PDF_extract_and_visual_check",
+          "locator": "Table12 p23; Tables30–31 pp41–42",
+          "sha256": "c443531e8b7acd3d6912b25b99c97b2b2388fcba9d18d60123e2513fcd76e478",
+          "fetch_history": [
+            {
+              "method": "web_open",
+              "status": "unavailable",
+              "error": "Timeout fetching"
+            },
+            {
+              "method": "direct_original_download",
+              "status": "available"
+            }
+          ]
+        }
+      ],
+      "conflicts": [
+        {
+          "id": "nonmajor-2023-24-table-total",
+          "observation_ids": [
+            "trade-nonmajor-port-total2024",
+            "trade-nonmajor-commodity-total2024"
+          ],
+          "status": "hold_conflict",
+          "table30_port_component_sum": 54.76,
+          "table31_commodity_component_sum": 54.25,
+          "unit": "million tonnes",
+          "resolution": null,
+          "retry_after": "2026-10-11",
+          "next_action": "Seek publisher correction or original Directorate returns. Do not replace either total with a component sum or compute state growth."
+        }
+      ]
     }
   ]
 }
