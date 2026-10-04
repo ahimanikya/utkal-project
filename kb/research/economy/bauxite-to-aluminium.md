@@ -79,3 +79,7 @@ The existing **16,722** company-wide non-permanent-worker observation is reused.
 ## Expansion implementation ·4 October 2026
 
 The [investment case](../journeys/investment.md) now follows the fifth refinery stream, South Block alternate conveyor and Pottangi mine separately. The FY 2025–26 report records June 2026 refinery trials; production stabilisation and the two supply projects retain target dates. No current commissioning or new local job count is inferred. The linked accounting evidence separates projected cost, a CWIP expense component and company capex; potential supplier demand still needs procurement-specific evidence.
+
+## Four-year product comparison · 4 October 2026
+
+The [manufacturing study](manufacturing-output-and-suppliers.md) reuses the existing ten hydrate/aluminium observations and adds matched annual and four-year calculations. No new production source or independent corroboration is claimed. Flat and declining years remain visible.

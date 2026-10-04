@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T20:37:12.900086+00:00",
+  "updated_at": "2026-10-04T21:06:49.911643+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7557,6 +7557,64 @@
           "retry_after": "2026-10-11"
         }
       ]
+    },
+    {
+      "run_id": "2026-10-04-manufacturing-series",
+      "checked_at": "2026-10-04T21:06:49.911643+00:00",
+      "scope": "Historical selected production and operating data; not weekly release checks or whole-report verification.",
+      "sources": [
+        {
+          "source_id": "manufacturing-sail-ar2025",
+          "url": "https://www.sail.co.in/sites/default/files/2025-08/Sail%20Annual%20Report_2025_%2825_08_2025%29.pdf",
+          "status": "available",
+          "access_scope": "Original 420-page PDF recovered by resumed download. Rourkela paragraph on printed p.28 / PDF p.30 visually checked on 4 October 2026. Selected production and operating values only; not whole-report verification or a fresh current release."
+        },
+        {
+          "source_id": "manufacturing-cag-bf2025",
+          "url": "https://cag.gov.in/uploads/download_audit_report/2025/Report-No.-38-of-2025_English-06944ecdf2526e1.52430491.pdf",
+          "status": "available",
+          "access_scope": "Official indexed printed p.39: new-furnace Rourkela pressure and volume rows, and section1.9 positive finding. CAG catalogue confirms tabling18December2025. Both original and webroot PDF requests failed; no original table-image review. Source says data furnished by Management. Complete findings and replies not captured."
+        },
+        {
+          "source_id": "manufacturing-rsp-page2026",
+          "url": "https://www.sail.co.in/en/plants/about-rourkela-steel-plant",
+          "status": "available",
+          "access_scope": "Direct HTML download succeeded after web-reader timeout. Used as plant/document directory only; undated promotional technology superlatives and present operating claims not adopted."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://cag.gov.in/uploads/download_audit_report/2025/Report-No.-38-of-2025_English-06944ecdf2526e1.52430491.pdf",
+          "status": "unavailable",
+          "method": "web reader and direct45-second timeout"
+        },
+        {
+          "url": "https://cag.gov.in/webroot/uploads/download_audit_report/2025/Report-No.-38-of-2025_English-06944ecdf2526e1.52430491.pdf",
+          "status": "unavailable",
+          "method": "web reader and direct45-second timeout"
+        },
+        {
+          "url": "https://www.sail.co.in/sites/default/files/2025-08/Sail%20Annual%20Report_2025_%2825_08_2025%29.pdf",
+          "status": "unavailable",
+          "method": "Web reader timeout; initial 45-second direct download and 150-second resume incomplete. Final resume later succeeded; these failed attempts retained."
+        }
+      ],
+      "retry_after": "2026-10-11",
+      "successful_original_capture": {
+        "status": "available",
+        "source_id": "manufacturing-sail-ar2025",
+        "local_file": "work/manufacturing-series/sail2025.pdf",
+        "bytes": 9271779,
+        "sha256": "ee91ed384a8b4e2cb3c7c43990884bdbba2f3f5fa36cf8f08898307b064ca7ce",
+        "pages": 420,
+        "visually_checked_pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          28
+        ],
+        "method": "Initial 45-second download and 150-second resume timed out with partial bytes; final 45-second resume completed. Selected page rendered and checked."
+      }
     }
   ]
 }

@@ -4864,6 +4864,16 @@
       "content_type": "Statistical Topic",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/manufacturing-output-and-suppliers",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "places"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7289,6 +7299,41 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Crop, procurement and export measures use different products and periods."
+    },
+    {
+      "from": "economy/manufacturing-output-and-suppliers",
+      "to": "economy/bauxite-to-aluminium",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuses the production chain and separately scoped MSE procurement evidence."
+    },
+    {
+      "from": "economy/manufacturing-output-and-suppliers",
+      "to": "economy/rourkela-steel-chain",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Keeps production, historical employment and plant finances distinct."
+    },
+    {
+      "from": "economy/manufacturing-output-and-suppliers",
+      "to": "economy/company-imfa",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Explains why acquisition timing changes the company comparison boundary."
+    },
+    {
+      "from": "economy/manufacturing-output-and-suppliers",
+      "to": "economy/manufacturing",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Real GSVA is economic value added, not a sum of physical products."
+    },
+    {
+      "from": "economy/manufacturing-output-and-suppliers",
+      "to": "trade/export-business-questions",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Recorded shipments do not establish a new supplier’s buyer demand."
     }
   ],
   "relationship_types": {

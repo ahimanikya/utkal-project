@@ -479,3 +479,7 @@ Extended existing fisheries evidence and reused frozen comparison, real GSVA and
 ## Export evidence · 4 October 2026
 
 Extended existing trade pages; three country IDs reused. Textile, fisheries and company records retained with distinct definitions; no semantic completeness claimed.
+
+## Manufacturing checkpoint · 4 October 2026
+
+One synthesis and three source identities extend existing plant/company records. Fifteen physical-output observations reused; audit tables derive from management data, not a second measurement. This is a bounded map extension.

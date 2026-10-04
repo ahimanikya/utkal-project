@@ -106,3 +106,7 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Export evidence · 4 October 2026
 
 [Exports recovered, with limits](../stories/exports-recovery-and-concentration.md) links recorded sales to [district business questions](../trade/export-business-questions.md), keeping local benefits unmeasured.
+
+## Manufacturing checkpoint · 4 October 2026
+
+[Manufacturing output and supplier questions](../economy/manufacturing-output-and-suppliers.md) separates physical products, value added, operating benchmarks and possible local services.
