@@ -53,3 +53,5 @@ Uttarakhand Open University’s teaching reference credits **Aartabandhu Sahoo o
 Its detailed preparation on pp.179–180 and the shorter p.119 version already saved are sections of one publication. They are not independent corroboration. Current shop ownership, opening hours, prices and sales have not been checked. [Maker credits and market evidence](../references/data/sweets-economy.json).
 
 [Related economic research](../economy/rasagola-and-sweets.md) — Maker attribution adds credit while dated enterprise accounts remain an open economic question.
+
+[GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.

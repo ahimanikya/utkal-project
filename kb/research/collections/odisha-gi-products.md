@@ -97,3 +97,5 @@ A newer consolidated official list and the three renewal fields are due for rech
 [^gi-state-register2025]: [IP India state-wise registered GIs](https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf), heading as of 31 December 2025; PDF pp.7–8, Odisha rows396–421. Retrieved 4 October 2026; those two pages visually checked.
 [^gi-live-register2026]: [IP India public application search](https://search.ipindia.gov.in/GIRPublicSearch/), individual records linked above; Application Details and Registration Details fields checked 4 October 2026. The same registry’s two views are not independent corroboration.
 
+
+[GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.

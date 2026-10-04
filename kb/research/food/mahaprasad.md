@@ -39,3 +39,5 @@ Obtain an authoritative account of ritual context, access and appropriate photog
 ## Jagannath evidence checkpoint · 2 October 2026 UTC
 
 A 1225 record edited by D. C. Sircar documents land supporting offerings of milk, ghee, rice and curds to Purusottama. This links food and patronage in the historical record; it does not prove an unchanged modern menu, current meal count or revenue. [Edition, printed p.198; PDF p.275](https://ignca.gov.in/Asi_data/35546.pdf). [Full historical context](../history/jagannath-origins.md).
+
+[GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.

@@ -542,3 +542,7 @@ Added four scoped OMFED observations and two comparisons, retaining procurement 
 ## GI inventory · 4 October 2026
 
 Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list entries, 25 non-logo entries and one separate logo; 28 application IDs plus two pending examples checked. Existing product pages reused. Renewal anomalies held; no human review or website publication.
+
+## GI opportunity pilot · 4 October 2026
+
+[Programme](economy/gi-opportunity-programme.md):12 research leads, five Indian comparators, global system comparisons and four dossier briefs. Existing filings retained; no applications submitted. RES-070 remains in progress; no producer consent or human review invented.

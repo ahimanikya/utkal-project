@@ -58,3 +58,5 @@ Maker income and working conditions, producer ownership, buyer access, productio
 [People and creations](../people/people-and-creations.md), [garments and markets](../handlooms/garments-and-markets.md), and [rasagola economics](../economy/rasagola-and-sweets.md) extend the collection through named contributions and scoped economic questions.
 
 [Odisha’s GI inventory](odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
+
+[GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.

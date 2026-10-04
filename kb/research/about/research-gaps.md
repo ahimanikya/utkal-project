@@ -504,3 +504,7 @@ OMFED dated annual product output, mill throughput and current annual accounts r
 ## GI inventory · 4 October 2026
 
 [GI register](../collections/odisha-gi-products.md) covers the official 31 December 2025 list. Newer consolidated coverage, Kotpad/Ikat renewal evidence and Kapadaganda blank validity need recheck 11 October. Exact boundaries, authorized users and product-level economics remain separate research gaps; pending Chhenapoda/Palua Ladu excluded.
+
+## GI opportunity programme · 4 October 2026
+
+Original Puri cluster/temple-food documents failed TLS validation; retry11October. Nimapada identity, exact Puri gamucha tradition, applicant mandates, boundaries, technical specifications and inspection arrangements remain open. [Programme](../economy/gi-opportunity-programme.md). Independent documentary/comparator research can continue; no filing ready.
