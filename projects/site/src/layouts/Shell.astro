@@ -1,8 +1,6 @@
 ---
-import {journeyCatalog} from '../data/journey-catalog';
-import starterSelection from '../../../../kb/research/journey-starters.json';
-import {allowsStarter,allowsPage} from '../data/edition';
-const publicJourney={catalog:journeyCatalog,starters:starterSelection.starters.filter(s=>allowsStarter(s.id))};
+import {publicJourney} from '../data/public-journey';
+import {allowsPage} from '../data/edition';
 const safeJSON=JSON.stringify(publicJourney).replaceAll('<','\\u003c');
 import Analytics from '../components/Analytics.astro';
 import Brand from '../components/Brand.astro';

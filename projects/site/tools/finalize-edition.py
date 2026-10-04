@@ -30,6 +30,8 @@ if '/' not in routes:
     raise SystemExit('Edition must include its home route')
 journey_ids = unique_strings('journey_ids', r'[a-z0-9][a-z0-9:/_-]{0,159}')
 starter_ids = unique_strings('starter_ids', r'[a-z0-9][a-z0-9_-]{0,159}')
+config.setdefault('downloads', [])
+downloads = set(unique_strings('downloads', r'/assets/[a-z0-9-]+\.txt'))
 allowed = set(routes)
 # Do not follow symlinks even when a target would otherwise appear reachable.
 if any(p.is_symlink() for p in OUT.rglob('*')):
@@ -158,6 +160,11 @@ for route, doc in pages.items():
             continue
         resolved = urlsplit(urljoin('https://edition.invalid' + route, ref))
         target = unquote(resolved.path)
+        if target in downloads:
+            if resolved.fragment:
+                errors.append('Download must not contain a fragment: ' + ref)
+            retain(target, route_file(route))
+            continue
         if target not in allowed:
             errors.append('Link outside scope: ' + route + ' → ' + ref)
         elif target not in pages:

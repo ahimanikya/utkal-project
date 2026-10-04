@@ -1,3 +1,4 @@
+import {storyTrailPhotos,selectedStoryTrail} from '../lib/story-trails.mjs';
 import {addReminder,editReminder,removeReminder,restoreReminder,questionGroups,readinessSummary,selectBookPlan,mergeJourneyIdeas,importIdeasPreview} from '../lib/journey-ready.mjs';
 import {setDayNote,addPlanningDay,moveDayIdeas,shiftPlannedDays,dayChangeUndo,undoDayChange,copyIdea,hasJourneyContent,visitPrompts} from '../lib/day-planner.mjs';
 import {preparationRows} from '../lib/preparation.mjs';
@@ -10,6 +11,7 @@ import {matchesWords} from '../lib/search.mjs';
 import {buildTourBook,buildTextItinerary,planningContext} from '../lib/tour-book.mjs';
 const publicData=JSON.parse(document.getElementById('journey-data')?.textContent||'{"catalog":[],"starters":[]}');
 const journeyCatalog=publicData.catalog;
+const storyTrails=publicData.trails||[];
 const starterSelection={starters:publicData.starters};
 import {STORAGE_KEY,LIBRARY_KEY,MAX_LIBRARY_BYTES,emptyLibrary,loadLibrary,parseBackup,addTrip,removeTrip,dayLabel,validDate,addItem,moveItem,groupItems,duplicateTrip,removeWithUndo,restoreRemoved,transferItem,journeyOverview,togglePreparation} from '../lib/journey.mjs';
 const catalog=new Map(journeyCatalog.map(item=>[item.id,item]));
@@ -73,6 +75,14 @@ function updateTripControls(){
 function renderPrint(){
  if(!print)return;const book=exportPlan();print.replaceChildren(node('p','Utkal Project · Rediscover Utkal. Reimagine Odisha.'),node('h1',book.title||'My Odisha Journey'),node('p','Prepared '+new Date().toLocaleDateString()+'. Personal research plan; no reservations or verified route times. Recheck access, transport and availability.'));
  const references=new Map();
+ const trail=selectedStoryTrail(book,storyTrails);
+ if(trail){print.append(node('h2',trail.title+' · a reading companion'),node('p','Chapters related to your selected ideas, not extra stops or a timed itinerary.'));
+  for(const chapter of trail.chapters)print.append(node('h3',chapter.title),node('p',chapter.text),node('h4','Before you go'),node('p',chapter.prompt));
+  for(const item of trail.preparation)print.append(node('h4',item.title),node('p',item.text));
+  print.append(node('p','Context reviewed '+trail.reviewed_on+'. '+trail.review_scope));
+  for(const source of trail.sources)references.set(source.url,source.title);
+ }
+
  for(const group of groupItems(book)){
   print.append(node('h2',dayLabel(book,group.day)));const dayNote=(book.dayNotes||[]).find(n=>n.day===group.day);if(includeNotes()&&dayNote){if(dayNote.title)print.append(node('h3',dayNote.title));if(dayNote.notes)print.append(node('p',dayNote.notes,'print-notes'));}if(group.day>0)print.append(node('p',planningContext(group.items,catalog).message));
   for(const saved of group.items){
@@ -217,17 +227,17 @@ if(app){
  document.querySelector('#saved-clear')?.addEventListener('click',()=>{const input=document.querySelector<HTMLInputElement>('#saved-search');input.value='';filterSavedIdeas();input.focus();});
  document.querySelector('#include-personal-notes')?.addEventListener('change',renderPrint);
  document.querySelector('#cancel-photo-book')?.addEventListener('click',()=>photoController?.abort());
- document.querySelector('#plain-itinerary')?.addEventListener('click',()=>{download(buildTextItinerary(exportPlan(),journeyCatalog,{baseURL:location.origin,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'itinerary','txt'),'text/plain;charset=utf-8');announce('Text itinerary prepared; check your browser’s downloads. JSON backups always keep your full notes.');});
+ document.querySelector('#plain-itinerary')?.addEventListener('click',()=>{download(buildTextItinerary(exportPlan(),journeyCatalog,{baseURL:location.origin,trails:storyTrails,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'itinerary','txt'),'text/plain;charset=utf-8');announce('Text itinerary prepared; check your browser’s downloads. JSON backups always keep your full notes.');});
  document.querySelector('#plan-heading')?.setAttribute('tabindex','-1');
  document.querySelectorAll<HTMLInputElement|HTMLButtonElement>('#journey-title,#journey-date,#trip-select,#new-trip-name,#create-trip,#duplicate-trip,#export-journey,#export-all,#offline-book,#illustrated-book,#print-journey,#import-journey').forEach(e=>e.disabled=blocked);
  if(blocked)setBlocked(loaded.message);else announce('Your journey stays on this browser. Export a copy to take it elsewhere.');
- document.querySelector('#offline-book').addEventListener('click',()=>{try{download(buildTourBook(exportPlan(),journeyCatalog,{baseURL:location.origin,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'book','html'),'text/html;charset=utf-8');announce('Offline book prepared using your note-sharing choice; check your browser’s downloads. Keep a JSON backup for editing.');}catch(error){announce(error.message);}});
+ document.querySelector('#offline-book').addEventListener('click',()=>{try{download(buildTourBook(exportPlan(),journeyCatalog,{baseURL:location.origin,trails:storyTrails,includePersonalNotes:includeNotes()}),exportFilename(plan.title,'book','html'),'text/html;charset=utf-8');announce('Offline book prepared using your note-sharing choice; check your browser’s downloads. Keep a JSON backup for editing.');}catch(error){announce(error.message);}});
  document.querySelector('#illustrated-book').addEventListener('click',async()=>{
   if(photoController)return;const button=document.querySelector<HTMLButtonElement>('#illustrated-book'),cancel=document.querySelector<HTMLButtonElement>('#cancel-photo-book');
   photoController=new AbortController();button.disabled=true;button.setAttribute('aria-busy','true');cancel.hidden=false;
   const snapshot=exportPlan(),withNotes=includeNotes();announce('Preparing selected photographs. Your saved plan is unchanged.');
-  try{const result=await collectBookImages(snapshot,journeyCatalog,loadLocalBookImage,{signal:photoController.signal,onProgress:({completed,total})=>announce(`Preparing photographs: ${completed} of ${total}.`)});
-   download(buildTourBook(snapshot,journeyCatalog,{baseURL:location.origin,images:result.images,illustrated:true,omittedImages:result.skipped.length,includePersonalNotes:withNotes}),exportFilename(snapshot.title,'photo-book','html'),'text/html;charset=utf-8');
+  try{const result=await collectBookImages(snapshot,journeyCatalog,loadLocalBookImage,{additionalPhotos:storyTrailPhotos(snapshot,storyTrails),signal:photoController.signal,onProgress:({completed,total})=>announce(`Preparing photographs: ${completed} of ${total}.`)});
+   download(buildTourBook(snapshot,journeyCatalog,{baseURL:location.origin,trails:storyTrails,images:result.images,illustrated:true,omittedImages:result.skipped.length,includePersonalNotes:withNotes}),exportFilename(snapshot.title,'photo-book','html'),'text/html;charset=utf-8');
    announce(`Photo book prepared with ${Object.keys(result.images).length} selected ${Object.keys(result.images).length===1?'photograph':'photographs'}.${result.skipped.length?' Some photographs could not be included; text is preserved.':''} Personal notes ${withNotes?'included':'omitted'}. Check your browser’s downloads.`);
   }catch(error){announce(error?.name==='AbortError'?'Photo book cancelled. Your journey is unchanged.':'The photo book could not be prepared. Download the text book or a JSON backup.');}
   finally{photoController=null;button.disabled=!hasJourneyContent(plan);button.removeAttribute('aria-busy');const returnFocus=document.activeElement===cancel;cancel.hidden=true;if(returnFocus)button.focus();}

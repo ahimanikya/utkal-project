@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-04T14:06:40.618918+00:00",
+  "work": "UTP-WORK-156",
+  "authorization": {
+    "quote": "Sounds good, lets do",
+    "human": "Ahimanikya Satapathy",
+    "scope": "Four-part batch: trail tour-book chapters, specific local contribution prompts, verification pack and backlog reconciliation."
+  },
+  "changes": [
+    "New Stone, sea and makers journeys retain a validated storyTrail identifier through editing, duplication and backup/import. Existing journeys are not silently migrated.",
+    "Text, HTML and print output resolve matching chapters from curated content; selected-day and removed-stop exports omit unrelated chapters. Illustrated offline books embed credited chapter photos with existing size limits, cancellation and failure fallback.",
+    "Maker, access and food contribution links preserve guide context and open the existing local draft workflow; posting remains an explicit visitor action on public GitHub.",
+    "Three-area local verification pack generated from canonical KB data and retained as an explicitly allowlisted public text download.",
+    "32 open next actions clarified, including 16 with direct published release evidence. No remaining review closed. Completed delivery references separated from active review queue work IDs; baseline updated to REL061."
+  ],
+  "evidence": [
+    "research/destinations/stone-sea-local-verification.json",
+    "records/trail-backlog-reconciliation-2026-10-04.json",
+    "records/visitor-review-queue.json"
+  ],
+  "validation": {
+    "full_site_tests": 418,
+    "coastal_tests": 81,
+    "page_acceptance_checks": 492,
+    "full_pages": 136,
+    "coastal_pages": 123,
+    "indexable_pages_unchanged": 11,
+    "result": "pass_with_limitations",
+    "checks": [
+      "Legacy preservation and story identifier validation",
+      "JSON round trip, duplicated plans and selected-day exports",
+      "Shared copies omit private notes",
+      "All three offline chapter photos, credits and missing-image fallback",
+      "Contribution draft URLs, fragments and generated pack consistency",
+      "Explicit download allowlist; undeclared files, fragment and traversal rejection",
+      "Fresco and shared pages retain identical scoped journey data",
+      "Full/coastal builds, local link/media audits, search/publication boundary checks"
+    ]
+  },
+  "limitations": [
+    "Browser visual/interactive review remains unavailable; no new browser or native-PDF pass claimed.",
+    "Local pack and contribution prompts are preparation only: no contact, appointment, submitted issue or confirmed local claim.",
+    "Search Console processing remains separately unresolved."
+  ],
+  "publication": "Not deployed; prepare implementation PR for Founder review."
+}

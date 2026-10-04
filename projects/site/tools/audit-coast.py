@@ -55,6 +55,9 @@ for route,page in pages.items():
   ref=a.get('href','');u=urlsplit(ref)
   if u.scheme or u.netloc:continue
   target=urlsplit(urljoin('https://edition.invalid'+route,ref));path=unquote(target.path);local_links+=1
+  if path in config.get('downloads',[]):
+   if target.fragment or not (OUT/path.lstrip('/')).is_file():errors.append('Missing or invalid download '+ref)
+   continue
   if path not in pages:errors.append('Excluded or missing local link '+ref)
   elif target.fragment and not any(a.get('id')==unquote(target.fragment) for _,a in pages[path].nodes):errors.append('Missing fragment '+ref)
  for tag,a in page.nodes:

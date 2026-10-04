@@ -1,9 +1,10 @@
 ---
 import {correctionEntries as entries} from '../data/correction-entries';
 ---
-<section class="correction-draft" aria-labelledby="correction-heading">
+<section id="correction-draft" class="correction-draft" aria-labelledby="correction-heading">
  <p class="eyebrow">Make the record better</p><h2 id="correction-heading">Share a correction or a discovery.</h2><p>Keep the entry, your suggested change and its evidence together. This tool prepares a text file on your device. Nothing is sent while you prepare it. When ready, open a public GitHub issue and review it there before posting. A GitHub account is needed to submit.</p>
  <p class="draft-note">Download your draft before leaving; it is not saved automatically. Please leave out private contact details and information you do not have permission to share.</p>
+ <div id="local-contribution-prompts" hidden><h3 id="local-contribution-title"></h3><ul id="local-contribution-questions"></ul><p id="local-contribution-evidence"></p></div>
  <fieldset id="correction-fields" disabled><legend>Your editorial draft</legend>
  <label class="utk-field">Entry to improve<select id="correction-page"><option value="">Choose an entry</option><option value="__new__">Suggest a new subject</option>{entries.map(e=><option value={e.href}>{e.title}</option>)}</select></label>
  <label class="utk-field" id="new-subject-field" hidden>New subject name<input id="correction-subject" aria-describedby="correction-subject-help" maxlength="160" placeholder="A place, a dish, a language or a life"/></label><span class="field-help" hidden id="correction-subject-help" data-count-for="correction-subject">0 / 160 characters</span>
@@ -15,6 +16,7 @@ import {correctionEntries as entries} from '../data/correction-entries';
  <p id="correction-status" role="status" aria-live="polite"></p><button type="button" id="confirm-draft-copy" class="utk-button utk-button--secondary" hidden>I have kept a copy of this draft</button><pre id="correction-preview" hidden tabindex="0" aria-label="Prepared correction draft"></pre><noscript><p>To prepare a draft manually, note the entry’s title and link, your suggested change, supporting evidence and requested credit.</p></noscript>
 </section>
 <script>
+ import {localContributionPrompts} from '../lib/local-contribution.mjs';
  import {correctionDraft,publicIssueLink} from '../lib/correction.mjs';
  import {downloadFile} from '../lib/downloads.mjs';
  import {createDraftRetention} from '../lib/draft-retention.mjs';
@@ -26,6 +28,19 @@ import {correctionEntries as entries} from '../data/correction-entries';
  let downloadRevision:number|null=null;
  const requested=new URLSearchParams(location.search).get('page');if(entries.some(p=>p.href===requested))page.value=requested!;
  if(new URLSearchParams(location.search).get('new')==='1'){page.value='__new__';field('correction-kind').value='Additional knowledge';}
+ const localKind=new URLSearchParams(location.search).get('local');
+ const localPrompt=Object.hasOwn(localContributionPrompts,localKind||'')?localContributionPrompts[localKind!]:null;
+ if(localPrompt){
+  document.getElementById('local-contribution-prompts')!.hidden=false;
+  document.getElementById('local-contribution-title')!.textContent=localPrompt.label;
+  for(const question of localPrompt.questions){const li=document.createElement('li');li.textContent=question;document.getElementById('local-contribution-questions')!.append(li);}
+  document.getElementById('local-contribution-evidence')!.textContent=localPrompt.evidence;
+  field('correction-kind').value=localPrompt.kind;
+  field('correction-text').placeholder=localPrompt.questions.join('\n');
+  field('correction-evidence').placeholder=localPrompt.evidence;
+  field('correction-text').setAttribute('aria-describedby','correction-text-help local-contribution-questions');
+  field('correction-evidence').setAttribute('aria-describedby','correction-evidence-help local-contribution-evidence');
+ }
  function showSubject(){for(const id of ['new-subject-field','correction-subject-help'])document.getElementById(id)!.hidden=page.value!=='__new__';}
  showSubject();fields.disabled=false;
  function value(){return {page:page.value,subject:field('correction-subject').value,kind:field('correction-kind').value,correction:field('correction-text').value,evidence:field('correction-evidence').value,credit:field('correction-credit').value};}

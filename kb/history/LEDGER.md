@@ -910,3 +910,9 @@ Evidence: [Visitor trail checkpoint](../records/stone-sea-visitor-trail-2026-10-
 The approved Stone, sea and makers trail reached the public website with three illustrated chapters, eight ideas and return links from every guide. Live delivery checks passed. Browser visual review, current local arrangements and Search Console remain open.
 
 [Publication evidence](../records/visitor-trail-publication-2026-10-04.json) · [PR86](https://github.com/ahimanikya/utkal-project/pull/86).
+
+## UTP-HIS-0218 · Carry the story; help deepen it
+
+New trail journeys can carry their chapters into offline books, while local contributors get specific questions about makers, access and food. A blank field pack supports dated, scoped observations. The backlog now separates published delivery from remaining human review; neither the pack nor automated tests substitutes for that review.
+
+[Implementation evidence](../records/trail-books-local-evidence-2026-10-04.json). Candidate for review, not yet deployed.
