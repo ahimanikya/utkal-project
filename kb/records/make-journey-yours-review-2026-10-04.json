@@ -1,0 +1,52 @@
+{
+  "title": "Make this journey yours — guided day planning and portable summaries",
+  "recorded_at": "2026-10-04T23:00:49.721315+00:00",
+  "status": "review_candidate",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "id": "UTP-DEC-198",
+    "quote": "i like the idea",
+    "context": "Founder accepted the proposed flow from saved ideas to day plans, allowing space for meals, rest and travel and exporting a clear tour book with unconfirmed arrangements visible."
+  },
+  "scope": [
+    "Next-step guidance from existing journey state, with the add-day action beside it.",
+    "Day overview showing saved ideas and optional personal titles.",
+    "Optional day outline appended after existing private notes, with space for travel, a meal, a pause and arrangements still to confirm.",
+    "Day summaries precede stories in HTML, text and native print renderers.",
+    "Existing personal-note exclusions, backup schema, day movement, undo and newer-tab conflict handling preserved.",
+    "UTP design learning recorded; no shared component package release claimed."
+  ],
+  "routes": [
+    "/journey/"
+  ],
+  "validation": {
+    "full_build_pages": 140,
+    "full_tests_passed": 444,
+    "coastal_pages": 127,
+    "coastal_tests_passed": 87,
+    "page_acceptance_checks": "508/508",
+    "new_checks": [
+      "State-based next-step guidance",
+      "Append-only outline, idempotence and Odia backup roundtrip",
+      "Invalid-day and size-limit atomicity",
+      "Day movement, undo and selected-day export",
+      "Private-note exclusions and HTML escaping",
+      "Empty days, unavailable ideas and compact day summaries",
+      "Newer-tab conflict preserves saved data and exportable candidate",
+      "Built-page unique IDs, visible add-day action and existing controls"
+    ],
+    "search_boundary": "Approved eleven-route shortlist unchanged; My journey remains noindex.",
+    "reviewer": "Current AI assistant",
+    "independent": false
+  },
+  "publication": {
+    "status": "not_merged_or_deployed",
+    "existing_release": "UTP-REL-068"
+  },
+  "limitations": [
+    "No new rendered-browser, interactive-browser, screen-reader, physical-device or native PDF pass. The prior administrator-enforced browser security-policy verification block remains unresolved.",
+    "Day outlines are visitor-written planning notes, not verified bookings, timed routes or confirmation of arrangements.",
+    "Search Console processing was not rechecked."
+  ],
+  "next_action": "Founder reviews the completed planner candidate before merge and publication; rendered visual and native PDF checks remain separately open."
+}

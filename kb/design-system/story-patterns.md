@@ -245,3 +245,11 @@ When several illustrated trails are available, put a small visual comparison bef
 Interest filters narrow the comparison, not a visitor’s saved journey. Use native buttons, a visible selected state, a polite result count and a shareable URL. Preserve other query parameters and fragments, restore results on browser Back, and keep every story link available without JavaScript. Reuse canonical trail titles, links and licensed photographs rather than maintaining another set of stories. Credits remain in the closing disclosure.
 
 [Find your trail candidate](../records/find-your-trail-review-2026-10-04.json) records controller and built-page checks. Rendered browser, screen-reader and physical-device review remains open. This is a UTP pattern candidate, not a release of the shared component package.
+
+## Make this journey yours
+
+Guide visitors from their existing saved ideas with a clear next step and a day overview. Keep adding a day easy to find. A day outline is optional: append it after existing personal writing, with prompts for the main experience, travel and return, a meal, a pause and arrangements still to confirm. Never replace the visitor’s notes or infer a timed route from a reading order.
+
+Reuse the existing private-note format so backups, undo and newer-tab conflict protection continue to work. Day summaries should precede stories in portable books. Excluding personal notes must also exclude private day titles and outline writing. A checked reminder records the visitor’s action, not verification of an arrangement.
+
+[Make this journey yours candidate](../records/make-journey-yours-review-2026-10-04.json) records data, export and built-page checks. Rendered browser and native PDF review remains open. This is UTP design learning, not a shared package release.

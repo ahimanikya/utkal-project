@@ -4737,6 +4737,28 @@
         "records/find-your-trail-review-2026-10-04.json",
         "records/find-your-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-163",
+      "title": "Make this journey yours: guided day planning",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-198",
+      "next_action": "Founder reviews the completed planner candidate before merge and publication; rendered visual and native PDF checks remain separately open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-198",
+        "UTP-REV-141"
+      ],
+      "evidence": [
+        "records/make-journey-yours-review-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8673,6 +8695,25 @@
       "evidence": [
         "records/find-your-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-198",
+      "title": "Build Make this journey yours",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "i like the idea",
+      "scope": "Founder accepted the proposed flow from saved ideas to day plans, allowing space for meals, rest and travel and exporting a clear tour book with unconfirmed arrangements visible.",
+      "recorded_at": "2026-10-04T23:00:49.721315+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-163"
+      ],
+      "evidence": [
+        "records/make-journey-yours-review-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11998,6 +12039,28 @@
       "evidence": [
         "records/find-your-trail-review-2026-10-04.json",
         "records/find-your-trail-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-141",
+      "title": "Make this journey yours implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new rendered-browser, interactive-browser, screen-reader, physical-device or native PDF pass. The prior administrator-enforced browser security-policy verification block remains unresolved.",
+        "Day outlines are visitor-written planning notes, not verified bookings, timed routes or confirmation of arrangements.",
+        "Search Console processing was not rechecked."
+      ],
+      "refs": [
+        "UTP-WORK-163",
+        "UTP-DEC-198"
+      ],
+      "evidence": [
+        "records/make-journey-yours-review-2026-10-04.json"
       ]
     }
   ],
