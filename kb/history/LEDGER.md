@@ -880,3 +880,9 @@ The approved Human Natural collection reached the public homepage through PR75. 
 The Founder asked that Start with a story should not stay static. A curated place, taste and living story now offer a fresh beginning on each page load, while the page stays still for reading. An explicit button invites another trio; image credits follow the selected stories.
 
 [Implementation and editorial controls](../records/fresh-story-beginnings-2026-10-04.json). Local candidate; automated checks passed, visual browser review unavailable.
+
+## UTP-HIS-0213 · Fresh beginnings reach the public homepage
+
+The approved changing story section went live with thirty illustrated entries. Every page load offers a place, taste and life or tradition; another beginning is a deliberate choice while reading. Matching credits and the original fallback remain.
+
+[Publication evidence](../records/story-beginnings-publication-2026-10-04.json) · [PR78](https://github.com/ahimanikya/utkal-project/pull/78). Automated and live HTTP checks passed; browser visual review remains unavailable.

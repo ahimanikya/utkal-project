@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T09:08:06.130249+00:00",
+  "recorded_at": "2026-10-04T09:22:08.967729+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4412,7 +4412,7 @@
       "id": "UTP-WORK-153",
       "title": "Changing homepage story beginnings",
       "category": "website",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
@@ -4420,16 +4420,17 @@
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-178",
-      "next_action": "Review the implementation PR; desktop/mobile visual review remains unavailable. Publication is not claimed.",
-      "blockers": [
-        "Browser visual review unavailable due to security-policy verification failure."
-      ],
+      "next_action": "Published and verified at utkalproject.org. Follow up with a desktop/mobile visual review when browser policy verification recovers.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-178",
-        "UTP-REV-131"
+        "UTP-REV-131",
+        "UTP-DEC-179",
+        "UTP-REL-059"
       ],
       "evidence": [
-        "records/fresh-story-beginnings-2026-10-04.json"
+        "records/fresh-story-beginnings-2026-10-04.json",
+        "records/story-beginnings-publication-2026-10-04.json"
       ]
     }
   ],
@@ -7996,6 +7997,26 @@
       "evidence": [
         "records/fresh-story-beginnings-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-179",
+      "title": "Publish changing homepage story beginnings",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approved",
+      "scope": "Merge PR78 and publish the reviewed changing homepage story section, retaining the disclosed browser-review limitation.",
+      "recorded_at": "2026-10-04T09:22:08.967729+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-153",
+        "UTP-DEC-178"
+      ],
+      "evidence": [
+        "records/story-beginnings-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11108,7 +11129,8 @@
         "UTP-WORK-153"
       ],
       "evidence": [
-        "records/fresh-story-beginnings-2026-10-04.json"
+        "records/fresh-story-beginnings-2026-10-04.json",
+        "records/story-beginnings-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12093,6 +12115,22 @@
         "records/home-art-publication-2026-10-04.json"
       ],
       "note": "PR75 merged after all CI checks passed; Pages deployment succeeded. Twelve scene images, 36 responsive variants, both v2 refinements and controller code verified live. Browser layout review remains unavailable and is not claimed."
+    },
+    {
+      "id": "UTP-REL-059",
+      "title": "Changing homepage story beginnings published",
+      "status": "published",
+      "authorization": "UTP-DEC-179",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-179",
+        "UTP-WORK-153",
+        "UTP-REV-131"
+      ],
+      "evidence": [
+        "records/story-beginnings-publication-2026-10-04.json"
+      ],
+      "note": "PR78 merged after CI passed. Pages build and deployment succeeded. Live pool, controller, templates, button and 30 story destination responses verified. Browser visual review remains unavailable."
     }
   ],
   "sources": [
