@@ -4884,6 +4884,16 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/food-processing-and-dairy",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7372,6 +7382,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "links the cement evidence with the existing district record."
+    },
+    {
+      "from": "economy/food-processing-and-dairy",
+      "to": "economy/rice-economy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuse crop evidence; crop production is not mill throughput."
+    },
+    {
+      "from": "economy/food-processing-and-dairy",
+      "to": "statistics/livestock",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "State milk production differs from cooperative procurement."
+    },
+    {
+      "from": "economy/food-processing-and-dairy",
+      "to": "stories/sweets-from-milk-to-market",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connect food processing with sweets without inventing a measured supply relationship."
+    },
+    {
+      "from": "economy/food-processing-and-dairy",
+      "to": "statistics/districts/cuttack",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Directory identifies Arilo; no district output or supplier availability inferred."
     }
   ],
   "relationship_types": {

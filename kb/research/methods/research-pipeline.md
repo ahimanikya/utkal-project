@@ -325,3 +325,7 @@ Continue non-metal manufacturing coverage using official physical product series
 ## Non-metal production · 4 October 2026
 
 Continue RES-017 with food-processing physical output and agricultural-series reuse; keep plant production, processing capacity, approvals and sales distinct. Recover longer Rajgangpur line series and plant-specific PPL output separately; retry PPL discrepancy after 11 October.
+
+## Food-processing checkpoint · 4 October 2026
+
+Continue RES-017 with a bounded search for named sugar or other food-factory physical output. Reuse rice historical series and fisheries register. Dairy annual product output and mill throughput remain unavailable; retry original OMFED accounts and survey facsimile after 11 October. Do not replace output with procurement, sales, turnover or capacity.

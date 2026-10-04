@@ -267,3 +267,7 @@ Manufacturing synthesis remains a draft. The selected SAIL page was checked in t
 ## Non-metal production · 4 October 2026
 
 Cement/fertiliser study remains a draft. Selected original pages were visually checked; no human review, supplier availability or website publication claimed.
+
+## Food-processing checkpoint · 4 October 2026
+
+Dairy-processing synthesis remains a draft: turnover HTML and selected historical tender pages checked; procurement only indexed-original evidence. No national ranking, investment-ready plan or publication claimed.

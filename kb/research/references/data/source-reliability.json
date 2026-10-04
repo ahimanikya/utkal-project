@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T21:26:34.708615+00:00",
+  "updated_at": "2026-10-04T22:28:16.085032+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7694,6 +7694,147 @@
           "table_unit": "tonnes",
           "period": "2025-26",
           "explanation": "Original narrative and performance table disagree. No cause or corrected value selected. Both have company scope spanning Odisha and other states; neither becomes Paradeep unit output.",
+          "retry_after": "2026-10-11"
+        }
+      ],
+      "retry_after": "2026-10-11"
+    },
+    {
+      "run_id": "2026-10-04-food-processing-output",
+      "checked_at": "2026-10-04T22:28:16.085032+00:00",
+      "scope": "Bounded dairy inputs, turnover and processing mechanism; physical-output gap retained.",
+      "sources": [
+        {
+          "source_id": "food-omfed-milkday2025",
+          "url": "https://omfed.com/media/latest-events/national-milk-day-celebrated-by-omfed/",
+          "status": "available",
+          "scope": "Turnover paragraph. Dated cooperative account; audited accounts and product mix not recovered.",
+          "local_capture": "work/food-processing-output/milkday2025.html",
+          "sha256": "db70a1459ff30fc9a56d9ebaa06895d32965fdca1ebcce629b2b679d08fd58ae"
+        },
+        {
+          "source_id": "food-omfed-conversion2024",
+          "url": "https://old.omfed.com/tenders2024/tender%20skimmed%20milk%20040524.pdf",
+          "status": "available",
+          "scope": "PDF pp.7 and 20 visually checked; May 2024 tender for FY2024–25. Requirements and draft agreement, not award or delivered output.",
+          "local_capture": "work/food-processing-output/conversion2024-old.pdf",
+          "sha256": "21f5fc744be0a3a5158d2fd224c5b8f7ecf0be1aec98a3aad22b8bc93a4173d9"
+        },
+        {
+          "source_id": "food-omfed-plants",
+          "url": "https://omfed.com/dairy-plants/",
+          "status": "available",
+          "scope": "Named dairy and address rows only. No plant output, capacity utilisation or supplier availability verified.",
+          "local_capture": "work/food-processing-output/plants.html",
+          "sha256": "1f56dba7aa8215b8f8b030cc4142c859a6e4590bb469f850a86c0b583c4ee871"
+        },
+        {
+          "source_id": "food-omfed-home",
+          "url": "https://omfed.com/",
+          "status": "available",
+          "scope": "Counters and introductory paragraph. Undated claims excluded from annual series; homepage plant count does not match directory listing count.",
+          "local_capture": "work/food-processing-output/overview.html",
+          "sha256": "e0ff648f671a89bb6b954671dce38028a63feda6ddae61203ac9b3b3062912ab"
+        },
+        {
+          "source_id": "food-omfed-ar2014",
+          "url": "https://old.omfed.com/annual-report13-14.pdf",
+          "status": "available",
+          "scope": "Scanned Odia report; selected PDF pp.3–8 and 10–13 viewed. Printed p.8 is a sales table with 2011–12 to 2013–14 columns, not production. Other sections carry later dates. No numerical transcription or whole-report verification claimed.",
+          "local_capture": "work/food-processing-output/omfed2014.pdf",
+          "sha256": "c97d81d3bb7fc3b30508b8a8fd64289b701b0912e676566a2e676fbfd388aad3"
+        },
+        {
+          "source_id": "sector-survey",
+          "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+          "status": "available",
+          "scope": "Indexed original paragraph 3.10.10 only; full PDF unavailable, no whole-series revalidation."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "id": "omfed-procurement",
+          "url": "https://old.omfed.com/statistics/PROCUREMENT2010.pdf",
+          "http": "404",
+          "exit": 0,
+          "error": "",
+          "status": "unavailable"
+        },
+        {
+          "id": "omfed-turnover",
+          "url": "https://old.omfed.com/statistics/TURNOVER2010.pdf",
+          "http": "404",
+          "exit": 0,
+          "error": "",
+          "status": "unavailable"
+        },
+        {
+          "id": "conversion2024",
+          "url": "https://omfed.com/tenders2024/tender%20skimmed%20milk%20040524.pdf",
+          "http": "404",
+          "exit": 0,
+          "error": "",
+          "status": "unavailable"
+        },
+        {
+          "id": "survey2026",
+          "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+          "http": "000",
+          "exit": 28,
+          "error": "curl: (28) Failed to connect to assembly.odisha.gov.in port 443 after 10005 ms: Timeout was reached\n",
+          "path": "work/food-processing-output/survey2026.pdf",
+          "status": "unavailable"
+        },
+        {
+          "url": "https://www.omfed.com/statistics.asp",
+          "status": "unavailable",
+          "method": "web access failed"
+        },
+        {
+          "url": "https://www.omfed.com/orcs.asp?lnk=con",
+          "status": "unavailable",
+          "method": "web 404"
+        },
+        {
+          "url": "https://fard.odisha.gov.in/publication/annual-activity-report",
+          "status": "unavailable",
+          "method": "web inaccessible"
+        },
+        {
+          "url": "https://old.omfed.com/annual-report13-14.pdf",
+          "status": "unavailable",
+          "method": "web PDF failed; direct retrieval succeeded"
+        },
+        {
+          "url": "https://old.omfed.com/annual-report12-13.pdf",
+          "status": "unavailable",
+          "method": "web PDF failed; no capture adopted"
+        },
+        {
+          "url": "https://old.omfed.com/tenders2024/tender%20skimmed%20milk%20040524.pdf",
+          "status": "unavailable",
+          "method": "web screenshots cache miss; local PDF render succeeded"
+        }
+      ],
+      "held_fields": [
+        {
+          "id": "omfed-current-product-output",
+          "status": "unavailable",
+          "reason": "No comparable dated product-production table recovered. Undated homepage processing claims cannot form annual output series.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "id": "omfed-directory-count",
+          "status": "hold_scope",
+          "reason": "Homepage says 12 plants; accessible directory has 13 named dairy rows. Scope/date reconciliation absent; neither adopted as current operating-plant total.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "id": "omfed-historical-sales",
+          "status": "needs_transcription_review",
+          "source_id": "food-omfed-ar2014",
+          "locator": "PDF p.10 / printed p.8",
+          "reason": "Sales table, not production; mixed report dates and original Odia numerals require careful selected-row capture. No values inferred from filename.",
           "retry_after": "2026-10-11"
         }
       ],

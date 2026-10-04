@@ -80,3 +80,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Fisheries history · 4 October2026
 
 [Fish growth beyond the coast](../stories/fish-growth-beyond-the-coast.md) connects freshwater, brackishwater and marine food production while retaining income and sustainability questions.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
