@@ -952,3 +952,9 @@ The image-label cleanup is published. Live HTML checks covered 124 pages and 560
 Four photographic Cuttack chapters connect Barabati, Tarakasi, Bose’s childhood and Dahibara Aloodum. The existing six-idea starter keeps its choices; new journeys carry matching chapters into portable books. Local arrangements and visual review remain open.
 
 [Candidate evidence](../records/cuttack-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.
+
+## UTP-HIS-0225 · Cuttack joins the journey
+
+The approved Silver and Stories trail is published with four photographic chapters and the existing six-idea starter. Live delivery and a live-data offline export passed. Visual/native PDF review, local confirmation and Search Console remain open.
+
+[Publication evidence](../records/cuttack-trail-publication-2026-10-04.json) · [PR98](https://github.com/ahimanikya/utkal-project/pull/98).
