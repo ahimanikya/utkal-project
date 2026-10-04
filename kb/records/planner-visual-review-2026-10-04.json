@@ -1,0 +1,160 @@
+{
+  "title": "Planner visual, interaction and Chrome PDF review",
+  "recorded_at": "2026-10-04T23:54:22.980161+00:00",
+  "status": "review_candidate",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "id": "UTP-DEC-200",
+    "quote": "OK, let's do that too",
+    "scope": "Complete the pending visual and native PDF review of the published planner; repair observed usability issues for review."
+  },
+  "base_release": "UTP-REL-069",
+  "browser_access": "Chrome skill connection and page operations succeeded this session; prior blocked attempts remain historical evidence.",
+  "findings": [
+    {
+      "issue": "Day outline textarea collapsed to 77 pixels despite intended 190-pixel rule because shared field styles won the cascade.",
+      "fix": "Scope the override to the journey notebook with enough specificity and a 300-pixel minimum.",
+      "recheck": "Chrome computed height 300 pixels; outline and existing text preserved."
+    },
+    {
+      "issue": "Notebook reminder link opened the disclosure but hash navigation took keyboard focus away from the reminder field.",
+      "fix": "Prevent default hash navigation before opening and focusing the reminder input.",
+      "recheck": "Chrome activeElement is new-reminder after click."
+    },
+    {
+      "issue": "A4 fixture left one final question alone on a nearly empty page.",
+      "fix": "Group each place’s short question list and keep its introduction with the first group in native print.",
+      "recheck": "A4 and Letter contain the question heading and all six Chilika questions on the same page."
+    }
+  ],
+  "browser_checks": {
+    "live_route": "https://utkalproject.org/journey/",
+    "candidate_route": "http://127.0.0.1:4335/journey/",
+    "viewport_widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "horizontal_overflow": false,
+    "outline_append_and_existing_odia_text_preserved": true,
+    "duplicate_outline_disabled": true,
+    "add_day_and_assign_saved_place": true,
+    "reminder_add_and_coach_update": true,
+    "candidate_reminder_focus": "new-reminder",
+    "backup_export_and_independent_import": true,
+    "local_console_errors": [],
+    "original_live_journey_reselected": true,
+    "temporary_viewport_reset": true,
+    "sample_retained": "Clearly named Utkal QA — day planning sample remains separate in live/local browser storage; original live My Odisha Journey is selected. Backup retained in Downloads."
+  },
+  "pdf_checks": {
+    "final-a4": {
+      "pages": 6,
+      "dimensions_points": [
+        595.9,
+        841.9
+      ],
+      "characters_per_page": [
+        1054,
+        1368,
+        1204,
+        544,
+        737,
+        1048
+      ],
+      "privacy_pass": true,
+      "question_group_on_one_page_with_heading": true
+    },
+    "final-letter": {
+      "pages": 6,
+      "dimensions_points": [
+        612.0,
+        792.0
+      ],
+      "characters_per_page": [
+        965,
+        1189,
+        1333,
+        683,
+        737,
+        1047
+      ],
+      "privacy_pass": true,
+      "question_group_on_one_page_with_heading": true
+    },
+    "final-shared": {
+      "pages": 5,
+      "dimensions_points": [
+        595.9,
+        841.9
+      ],
+      "characters_per_page": [
+        1160,
+        1261,
+        1198,
+        737,
+        1048
+      ],
+      "privacy_pass": true,
+      "question_group_on_one_page_with_heading": true
+    }
+  },
+  "visual_pdf_review": "All 17 final pages rendered and inspected for clipping, overlap, blanks, heading placement and question continuity. No such defects observed in this fixture. Odia text rendered.",
+  "validation": {
+    "full_tests_passed": 444,
+    "coastal_tests_passed": 87,
+    "page_acceptance_checks": "508/508",
+    "reviewer": "Current AI assistant",
+    "independent": false
+  },
+  "evidence_files": [
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/a4-5.png",
+      "sha256": "aaa89293889b3373e9888722b1b5b4fb7416512c07e46c140e4540efab95b6f1"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/desktop-final.png",
+      "sha256": "50310a5fcd77cd8cc25dfb1199cc2e07b18895e89005b21ed42d05eae724d35e"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/final-a4.pdf",
+      "sha256": "06b2c2d463ce2230e45671621d4bf8fb54910c741eee5d29041062dedbd8d263"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/final-letter.pdf",
+      "sha256": "7c38c1e6393eb52fe950b0e716690d9a6d36b82ee9f62b91665d01c3523f6a4b"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/final-shared.pdf",
+      "sha256": "707c32ae3e26da482ae49187b9e419e389a7755659436dbae37bf894edaed086"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/mobile-final.png",
+      "sha256": "fb70b065d3dd559fe0c3d0d504ccfeb1ce792304b8579e79aa1b7eb849cf8690"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/mobile-notebook.png",
+      "sha256": "b55df11045b0e91574a221483951915af4079f6aebcede8570f0164ff5cebda0"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/pdf-checks.json",
+      "sha256": "fef85e03141bc11c059a6e16109e86e73dc1b07d4651f3aa48a32bfe35db503f"
+    },
+    {
+      "path": "records/evidence/planner-visual-2026-10-04/synthetic-journey.json",
+      "sha256": "9bd803670861bc4e8fa15b0918d788c9ba1556bf9d0dd596effb6bf3cda6761b"
+    }
+  ],
+  "limitations": [
+    "Chrome desktop responsive viewports are not physical phone/tablet testing or a screen-reader pass.",
+    "PDFs use Chrome Page.printToPDF through the supported browser capability; native OS print-dialog controls and a physical printer were not exercised.",
+    "Bounded fixture: one Chilika place, two days, Odia text, appended outline and one personal reminder. Large plans and illustrated-book PDFs were not visually rechecked.",
+    "Local review PDFs contain localhost reading links because they were exported from the local candidate. They are QA evidence, not visitor travel books.",
+    "Search Console processing remains open."
+  ],
+  "publication": {
+    "status": "not_merged_or_deployed"
+  },
+  "next_action": "Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups."
+}
