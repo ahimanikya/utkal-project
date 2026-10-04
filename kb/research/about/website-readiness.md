@@ -193,3 +193,7 @@ The JFM comparison is versioned historical evidence. Monthly meetings and women�
 ## Dhani community-history checkpoint · 4 October 2026
 
 The Dhani addition is an attributed historical case. Current operation, income and rights are unverified. It links livelihood history with governance without asserting policy compliance or causal economic returns. No website release or human review claimed.
+
+## Odisha in the world · 4 October 2026
+
+World-connections collection is an editorial candidate. Port traffic, installed capacity, institutional agreements and actual exports remain separate. No current Japan-supply claim, human review or website publication.

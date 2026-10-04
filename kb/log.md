@@ -463,3 +463,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Dhani community history
 
 [Research receipt](records/forest-dhani-2026-10-04.json): RES-058 community-history checkpoint. Local historical events are distinct from official policy and current conditions; required study dates remain open. Next independent task RES-059. No website release.
+
+## 4 October 2026 · Odisha in the world
+
+[Research receipt](records/world-connections-2026-10-04.json): RES-059 two-case synthesis delivered; historical interpretations, port traffic, capacity and agreements remain separate. Current agreement status and shipment evidence gaps retained. Next RES-062. No website release.

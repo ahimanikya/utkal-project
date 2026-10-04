@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T05:29:15.175559+00:00",
+  "updated_at": "2026-10-04T06:32:22.384782+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6337,6 +6337,41 @@
       "scope": "Title page confirms 2005 for separate In Search of Excellence publication; no Dhani inference",
       "run_id": "2026-10-04-forest-dhani",
       "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "source_id": "connect-paradip2025",
+      "url": "https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/",
+      "status": "available",
+      "scope": "EXIM container paragraph, FY2024–25, direct HTML",
+      "run_id": "2026-10-04-world-connections",
+      "checked_at": "2026-10-04T06:32:22.384782+00:00"
+    },
+    {
+      "source_id": "world-japan-memorandum2012",
+      "url": "https://www.mea.gov.in/Portal/LegalTreatiesDoc/JP12B0296.pdf",
+      "status": "available",
+      "scope": "PDF p.1, clauses 1–5 and signature block",
+      "retrieval_history": "Web reader 403; direct verified-TLS download succeeded; facsimile rendered and visually read.",
+      "run_id": "2026-10-04-world-connections",
+      "checked_at": "2026-10-04T06:32:22.384782+00:00"
+    },
+    {
+      "source_id": "world-dae-3202-2022",
+      "url": "https://cdnbbsr.s3waas.gov.in/s35b8e4fd39d9786228649a8a8bec4e008/uploads/2023/02/2023020889-1.pdf",
+      "status": "available",
+      "scope": "PDF pp.1–2; answer (c) and table heading in (d)",
+      "retrieval_history": "Web PDF text available; web screenshots cache miss; direct PDF downloaded and rendered locally. Font cache rendering issue resolved; both pages visually read.",
+      "run_id": "2026-10-04-world-connections",
+      "checked_at": "2026-10-04T06:32:22.384782+00:00"
+    },
+    {
+      "source_id": "world-japan-suspension-lead2025",
+      "url": "https://www.ibef.org/news/india-moves-to-conserve-rare-earths-seeks-halt-to-exports-to-japan",
+      "status": "available",
+      "evidence_status": "secondary_lead_only",
+      "scope": "News body and secondary-research disclaimer",
+      "run_id": "2026-10-04-world-connections",
+      "checked_at": "2026-10-04T06:32:22.384782+00:00"
     }
   ]
 }

@@ -422,3 +422,7 @@ RES-058: 2015 and 2019 JFM amendment facsimiles recovered, including separate re
 ## Dhani community-history checkpoint · 4 October 2026
 
 RES-058 community-history extension delivered. Required 2018 fieldwork-date and original local-instrument gaps retain 11 October retries. Dhani exact publication/fieldwork dates also remain unstated. Task deferred, not completed; RES-059 is next independent work.
+
+## Odisha in the world · 4 October 2026
+
+RES-059 bounded synthesis completed with two modern cases. Product/country/origin joins, current services and original 2025 Japan suspension scope remain open; latter retry 11 October. Survey destination denominators and maritime chronology conflicts preserved.
