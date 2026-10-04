@@ -916,3 +916,9 @@ The approved Stone, sea and makers trail reached the public website with three i
 New trail journeys can carry their chapters into offline books, while local contributors get specific questions about makers, access and food. A blank field pack supports dated, scoped observations. The backlog now separates published delivery from remaining human review; neither the pack nor automated tests substitutes for that review.
 
 [Implementation evidence](../records/trail-books-local-evidence-2026-10-04.json). Candidate for review, not yet deployed.
+
+## UTP-HIS-0219 · The story travels with the visitor
+
+The approved trail book, contextual contribution questions and blank local verification pack are published. Live delivery and a live-data offline export check passed. Visual/native PDF review, local confirmation and Search Console remain open.
+
+[Publication evidence](../records/trail-books-publication-2026-10-04.json) · [PR89](https://github.com/ahimanikya/utkal-project/pull/89).

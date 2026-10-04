@@ -1,0 +1,76 @@
+{
+  "title": "Trail books and local evidence preparation published",
+  "recorded_at": "2026-10-04T14:18:37.049274+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-185",
+    "quote": "approved",
+    "context": "Founder approved PR89 after the implementation summary and passing checks."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/89",
+  "commit": "92cc4c0183f0af38ec6bf0f1ce6d3e3ea20e97e5",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37208147125",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37208518932",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey-starters/#stone-sea-makers",
+  "counts": {
+    "public_pages": 123,
+    "journey_items": 83,
+    "indexable_pages": 11,
+    "noindex_pages": 112
+  },
+  "validation": {
+    "full_site_tests": 418,
+    "coastal_tests": 81,
+    "page_acceptance_checks": 492
+  },
+  "live_verification": {
+    "checked_at": "2026-10-04T14:17:03.801457+00:00",
+    "http_200": [
+      "/journey-starters/",
+      "/journey/",
+      "/stories/bhubaneswar-fresco/",
+      "/contribute/",
+      "/assets/stone-sea-local-verification.txt",
+      "/sitemap.xml",
+      "/robots.txt",
+      "/destinations/bhubaneswar/",
+      "/visit/places/mukteswar/",
+      "/food/bhubaneswar/",
+      "/visit/stays/bhubaneswar/",
+      "/visit/places/raghurajpur/",
+      "/destinations/puri/",
+      "/food/puri-coast/",
+      "/visit/stays/puri-coast/",
+      "/images/regions/mukteswar-torana.jpg",
+      "/images/regions/raghurajpur-artisan.jpg",
+      "/images/regions/puri-beach.jpg"
+    ],
+    "shared_payload_identical": true,
+    "starter_story_trail": "stone-sea-makers",
+    "chapters": 3,
+    "chapter_photos": 3,
+    "contribution_prompt_kinds": [
+      "maker",
+      "access",
+      "food"
+    ],
+    "guide_prompt_pages": 8,
+    "pack_matches_repository": true,
+    "pack_sha256": "0764640ec62f886bd75dd7c1e255cff2a07b8c8b4536d28027f084271db3bfb8",
+    "sitemap_urls": 11,
+    "robots_allows_root": true,
+    "scope": "Live HTTPS content and asset delivery. Does not establish browser interaction, visual/PDF quality, local confirmation or Google processing.",
+    "live_data_export": {
+      "chapters": 3,
+      "embedded_photos": 3,
+      "private_notes_excluded": true,
+      "scope": "Local exporter smoke test using fetched live curated data and repository images; not browser interaction or native PDF review."
+    }
+  },
+  "limitations": [
+    "Browser visual/interactive and native PDF review remain open; administrator-enforced browser policy verification was unavailable.",
+    "Local verification pack contains questions only; no people contacted, issues submitted or local arrangements confirmed.",
+    "Search Console processing remains separately unresolved under UTP-WORK-139."
+  ]
+}

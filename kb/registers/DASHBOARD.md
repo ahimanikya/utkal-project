@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c440159bdcd6493b92f921a86333ba8e32f6a0634d15ff9cffe63c50f087d10b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `63ebd56518e946d47fbde788a8e03a7985013848db96de66d533ccf85d6db110`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -168,7 +168,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-153 · Changing homepage story beginnings | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Follow up with a desktop/mobile visual review when browser policy verification recovers. | — |
 | UTP-WORK-154 · Connected homepage artwork and story introductions | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Follow up with desktop/mobile visual review when browser policy verification recovers; Search Console remains separate. | — |
 | UTP-WORK-155 · Stone, sea and makers visitor trail | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups. | — |
-| UTP-WORK-156 · Trail tour books, local contributions and verification readiness | awaiting_review | reviewed | Ahimanikya Satapathy | Review the four-part implementation PR; browser visual/PDF review and local confirmation remain open. | — |
+| UTP-WORK-156 · Trail tour books, local contributions and verification readiness | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -227,7 +227,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-156 | Review the four-part implementation PR; browser visual/PDF review and local confirmation remain open. |
 
 ## Decisions
 
@@ -416,6 +415,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-182 · Build the connected visitor trail and refresh practical context | approved | Ahimanikya Satapathy | Implement recommended visitor trail and source refresh, retaining outstanding browser visual review and Search Console limitations. |
 | UTP-DEC-183 · Publish Stone, sea and makers visitor trail | approved | Ahimanikya Satapathy | Merge and publish PR86, retaining browser visual-review, local visitor-arrangement and Search Console limitations. |
 | UTP-DEC-184 · Build trail books, local contributions, verification pack and backlog clarification | approved | Ahimanikya Satapathy | Four-part batch: trail tour-book chapters, specific local contribution prompts, verification pack and backlog reconciliation. |
+| UTP-DEC-185 · Publish trail books and local evidence preparation | approved | Ahimanikya Satapathy | Merge and publish PR89, retaining visual/PDF, local confirmation and Search Console limitations. |
 
 ## Reviews
 
@@ -619,6 +619,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-059 · Changing homepage story beginnings published | published | https://utkalproject.org/ | UTP-DEC-179 |
 | UTP-REL-060 · Connected homepage artwork and story paths published | published | https://utkalproject.org/ | UTP-DEC-181 |
 | UTP-REL-061 · Stone, sea and makers visitor trail published | published | https://utkalproject.org/journey-starters/#stone-sea-makers | UTP-DEC-183 |
+| UTP-REL-062 · Trail books and local evidence preparation published | published | https://utkalproject.org/journey-starters/#stone-sea-makers | UTP-DEC-185 |
 
 ## Sources and assets
 
@@ -656,7 +657,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-210 | 2026-10-04T08:03:02.021461+00:00 | Refined and applied two Human Natural scene edits; updated provenance, web assets and review gallery without replacing original evidence. | Twelve-scene homepage locally applied with candid festival and reading v2 edits. 84 tests and build passed; original images and prompts retained. Complete browser layout review when policy verification recovers; not deployed. |
 | UTP-EVT-211 | 2026-10-04T08:15:57.208317+00:00 | Founder requested application of the prepared collection. Full-site build and 391 tests passed; beginning approved repository release. | Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable. |
 | UTP-EVT-212 | 2026-10-04T08:37:18.254965+00:00 | Published PR75 through the approved Pages workflow after CI passed. Live homepage has twelve scenes, both refined assets and controller code; twelve original checksums and 36 responsive responses verified. | Published and verified at utkalproject.org. Optional follow-up: perform desktop/mobile browser visual review when browser policy verification recovers; limitation remains in UTP-REV-130. |
 | UTP-EVT-213 | 2026-10-04T09:08:06.130249+00:00 | Implemented the approved changing story trio with 30 published illustrated entries, bounded recent-history avoidance, editorial controls and synchronized credits. Full/coastal builds and 405/77 tests pass. | Prepare a reviewable PR; browser visual review remains blocked. No publication claimed. |
@@ -666,6 +666,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-217 | 2026-10-04T12:50:25.325868+00:00 | Built the three-chapter Stone, sea and makers visitor trail, enabled its eight-idea starter in the public edition, linked eight existing guides back, and recorded a bounded source refresh. Full/coastal builds and 412/79 tests passed. | Review implementation PR; complete desktop/mobile browser review when security policy verification recovers. Search Console remains separate. |
 | UTP-EVT-218 | 2026-10-04T13:00:46.518968+00:00 | Published approved PR86 through Pages after successful validation. The illustrated trail, eight unscheduled ideas, guide return links and documentary photographs were verified over live HTTPS. | Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups. |
 | UTP-EVT-219 | 2026-10-04T14:06:40.618918+00:00 | Prepared portable trail chapters, contextual maker/access/food contribution prompts and a downloadable blank local verification pack. Clarified 32 backlog next actions without closing remaining reviews. Full/coastal 418/81 tests and 492 page checks passed. | Prepare implementation PR; publication and outstanding human/local checks remain separate. |
+| UTP-EVT-220 | 2026-10-04T14:18:37.049274+00:00 | Published approved PR89 through Pages. Live shared trail data, contextual contribution links, exact verification-pack download and three chapter photographs verified; live-data export preserved chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 
 ## Deferred extensions
 
