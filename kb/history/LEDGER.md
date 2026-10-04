@@ -946,3 +946,9 @@ The Founder requested removal of AI-generated tags beside images. Captions now f
 The image-label cleanup is published. Live HTML checks covered 124 pages and 560 image elements; provenance stays in the end credits.
 
 [Publication evidence](../records/image-label-publication-2026-10-04.json) · [PR96](https://github.com/ahimanikya/utkal-project/pull/96).
+
+## UTP-HIS-0224 · A city between stone and silver
+
+Four photographic Cuttack chapters connect Barabati, Tarakasi, Bose’s childhood and Dahibara Aloodum. The existing six-idea starter keeps its choices; new journeys carry matching chapters into portable books. Local arrangements and visual review remain open.
+
+[Candidate evidence](../records/cuttack-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.

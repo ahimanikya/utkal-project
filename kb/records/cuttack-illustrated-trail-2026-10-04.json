@@ -1,0 +1,98 @@
+{
+  "title": "Cuttack · Silver and Stories — illustrated trail candidate",
+  "recorded_at": "2026-10-04T16:01:33.011102+00:00",
+  "status": "review_candidate",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "id": "UTP-DEC-190",
+    "quote": "ok, let's do that",
+    "context": "Founder selected the recommended Cuttack illustrated trail, practical planning, portable books and local contribution batch."
+  },
+  "scope": [
+    "Four photographed chapters: Barabati, Tarakasi, Bose’s childhood and birthplace museum, and Dahibara Aloodum.",
+    "Reuse the existing six-choice Cuttack starter and preserve saved journeys; new plans opt into matching portable-book chapters.",
+    "Flexible visit ordering, exact-stop transfer questions, base comparison and maker/access/food contribution prompts.",
+    "Reciprocal links from the five chapter-linked guides, a separate stay-area planning link and an entry in Journey starters."
+  ],
+  "routes": [
+    "/journey-starters/cuttack/"
+  ],
+  "research_reuse": [
+    "research/cities/cuttack.md",
+    "research/culture/cuttack-tarakasi.md",
+    "research/destinations/central-details.json",
+    "research/destinations/regions.json",
+    "research/food/collection.json",
+    "research/journey-starters.json",
+    "records/cuttack-release-review.json"
+  ],
+  "source_checks": [
+    {
+      "id": "cuttack-district",
+      "title": "Cuttack district · District profile",
+      "url": "https://cuttack.odisha.gov.in/en/about-district/district-profile",
+      "note": "Reused existing 1 October 2026 project research. Official account inspected for Barabati remains and silver filigree. Proposed development and dated stadium capacities omitted. Checked 30 September 2026 UTC. Official indexed context rechecked on 4 October; direct retrieval returned an error."
+    },
+    {
+      "id": "cuttack-craft",
+      "title": "National Portal of India · Silver Filigree (Tarakashi Art)",
+      "url": "https://www.india.gov.in/explore-india/odop/details/silver-filigree-tarakashi-art",
+      "note": "Reused existing 1 October 2026 project research. Official indexed description inspected for fine silver wire, jewellery and decorative objects. No shop, material assay, appointment or current price verified."
+    },
+    {
+      "id": "cuttack-museum",
+      "title": "Cuttack Municipal Corporation · Tourist places",
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "note": "Reused existing 1 October 2026 project research. Indexed municipal description inspected for Netaji Museum in Odia Bazaar and its letters. Direct retrieval timed out; no opening hours or visitor access inferred."
+    },
+    {
+      "id": "cuttack-netaji-tourism",
+      "title": "Odisha Tourism · Netaji Museum",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/museums/netaji-museum.html",
+      "note": "Reused existing 1 October 2026 project research. Indexed official description inspected: ancestral birthplace house and galleries covering upbringing and political life. Current contents and services not field-checked."
+    },
+    {
+      "id": "cuttack-tourism-trail",
+      "title": "Cuttack — Odisha Tourism",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/cuttack.html",
+      "note": "Official indexed text checked on 4 October 2026 for the birthplace and food associations. Direct retrieval failed; no current opening hours, named sellers or travel times adopted."
+    }
+  ],
+  "image_basis": "Four existing licensed photographs from the shared book-photo registry; captions, creators, licences and source links retained. No new image generation or invented accommodation photograph.",
+  "validation": {
+    "full_build_pages": 138,
+    "full_tests_passed": 426,
+    "coastal_pages": 125,
+    "coastal_tests_passed": 83,
+    "page_acceptance_checks": "500/500",
+    "new_behaviour_checks": [
+      "Six starter items preserved; existing plans and notes unchanged",
+      "Four credited photographs embedded in illustrated export",
+      "Single-day and removed-item exports select matching chapters",
+      "Private notes omitted from shared books",
+      "Base-only plan does not acquire an illustrated hotel chapter",
+      "One h1, unique IDs and starter status, resolved photos and guide return links",
+      "Contextual contribution page retained",
+      "Shared payload identical in ordinary and Fresco layouts"
+    ],
+    "initial_findings_resolved": [
+      "Single-choice shared component now counts canonical starter items instead of requiring page-specific idea objects.",
+      "New credit disclosure assertion corrected to allow Astro scoping attributes and HTML ampersand serialization."
+    ],
+    "reviewer": "Current AI assistant",
+    "independent": false
+  },
+  "publication": {
+    "status": "not_merged_or_deployed",
+    "search": "Existing eleven-route shortlist retained; new route explicitly held with noindex.",
+    "existing_release": "UTP-REL-064"
+  },
+  "limitations": [
+    "No new browser visual, interactive, physical-device or native PDF pass; the prior administrator-enforced browser security-policy verification failure remains unresolved.",
+    "No local inspection or provider contact. Museum hours, access, workshops, menus and transfer times require confirmation.",
+    "Existing project research reused. The new official Cuttack context check used indexed text; direct district, municipal and tourism-page retrievals failed.",
+    "The Tarakasi photograph has conflicting source material descriptions; its existing caption and the new prompt preserve this limitation.",
+    "Search Console processing was not rechecked."
+  ],
+  "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open."
+}
