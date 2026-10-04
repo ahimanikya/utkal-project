@@ -898,3 +898,9 @@ The Founder approved connecting the changing welcome image with the stories bene
 The approved theme connections reached the public homepage. Twelve imagined welcomes now guide visitors towards related reading, while thirty introductions invite closer attention. Two epic-writing profiles offer another step in the reading journey.
 
 [Publication evidence](../records/connected-stories-publication-2026-10-04.json) · [PR82](https://github.com/ahimanikya/utkal-project/pull/82). Automated and live delivery checks passed; browser visual review remains unavailable.
+
+## UTP-HIS-0216 · From a story to a journey
+
+Three illustrated chapters connect Bhubaneswar and Mukteswar, Raghurajpur and Puri through food, people and the shore. The eight-idea collection remains editable and unscheduled, preserving earlier personal journeys. Dated photographs and bounded source checks support the invitation; current local arrangements still need confirmation. This is an implementation candidate, with browser visual review unavailable.
+
+Evidence: [Visitor trail checkpoint](../records/stone-sea-visitor-trail-2026-10-04.json).

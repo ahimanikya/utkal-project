@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T12:02:51.910884+00:00",
+  "recorded_at": "2026-10-04T12:49:39.483483+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4457,6 +4457,28 @@
         "records/connected-homepage-stories-2026-10-04.json",
         "records/connected-stories-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-155",
+      "title": "Stone, sea and makers visitor trail",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-182",
+      "next_action": "Review implementation PR; complete desktop/mobile browser review when security policy verification recovers. Search Console remains separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-182",
+        "UTP-REV-133"
+      ],
+      "evidence": [
+        "records/stone-sea-visitor-trail-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8081,6 +8103,25 @@
       "evidence": [
         "records/connected-stories-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-182",
+      "title": "Build the connected visitor trail and refresh practical context",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Lets pick this up",
+      "scope": "Implement recommended visitor trail and source refresh, retaining outstanding browser visual review and Search Console limitations.",
+      "recorded_at": "2026-10-04T12:49:39.483483+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-155"
+      ],
+      "evidence": [
+        "records/stone-sea-visitor-trail-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11217,6 +11258,28 @@
       "evidence": [
         "records/connected-homepage-stories-2026-10-04.json",
         "records/connected-stories-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-133",
+      "title": "Visitor trail implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser visual and interactive review blocked by administrator-enforced security-policy verification failure; no bypass or visual pass claimed.",
+        "Search Console processing remains unresolved under UTP-WORK-139 and was not rechecked in this batch.",
+        "Current temple arrangements, maker appointments, access facilities, menus and transport require local confirmation."
+      ],
+      "refs": [
+        "UTP-DEC-182",
+        "UTP-WORK-155"
+      ],
+      "evidence": [
+        "records/stone-sea-visitor-trail-2026-10-04.json"
       ]
     }
   ],

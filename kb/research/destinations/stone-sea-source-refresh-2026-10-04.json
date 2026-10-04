@@ -1,0 +1,67 @@
+{
+  "checked_on": "2026-10-04",
+  "scope": "Stone, sea and makers visitor trail; bounded official-source refresh after local KB reuse.",
+  "reuse": [
+    "references/data/puri-craft-access.json",
+    "destinations/central-details.json",
+    "destinations/visit-notebooks.json",
+    "destinations/coastal-verification-queue.json",
+    "product/puri-visitor-essentials-2026-09-30.md"
+  ],
+  "contacts_made": false,
+  "successful_reads": [
+    {
+      "url": "https://visit.bhubaneswar.me/content/temples/mukteswar",
+      "publisher": "Visit Bhubaneswar",
+      "observation": "Architectural and recurring Odissi festival context available. A currently announced festival programme and current entry arrangements were not verified.",
+      "use": "Architectural context only; no future festival date published from this lookup."
+    },
+    {
+      "url": "https://apps.odishatourism.gov.in/blog-detail/raghurajpur-the-heritage-crafts-village-of-odisha-odishabloggerstrail",
+      "publisher": "Odisha Tourism blog",
+      "publication_date": "2019-04-29",
+      "observation": "Dated account of village craft traditions.",
+      "use": "Historical craft context only; not proof of present workshop opening, prices or appointments."
+    },
+    {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/puri",
+      "publisher": "Incredible India",
+      "observation": "Recommends October to February as the best time to visit.",
+      "use": "Bounded seasonal guidance with explicit forecast/advisory check for travel dates. Transport widget not reused."
+    },
+    {
+      "url": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar",
+      "publisher": "Incredible India",
+      "observation": "City overview available; no current meal-provider arrangements established.",
+      "use": "Background only; no new food availability or operating claim."
+    }
+  ],
+  "unresolved_reads": [
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html",
+      "result": "Direct fetch returned 404; search cache visible.",
+      "use": "Not treated as successfully verified current access information."
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple",
+      "result": "Direct fetch timed out.",
+      "use": "No new confirmation of temple entry, operating hours or storage policies."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/dot/visitors-information/tourist-offices.html",
+      "result": "Direct fetch returned 404; cached search result visible.",
+      "use": "No contact details newly verified or published."
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/",
+      "result": "Fetch failed.",
+      "use": "No accommodation, facilities or booking availability confirmed."
+    }
+  ],
+  "remaining": [
+    "Temple eligibility, gates, schedules and restricted items must be confirmed with the administration. Earlier official hours conflict remains open.",
+    "Named maker, visit time, fee, photography and access remain to be arranged.",
+    "Menus, ingredients, accessible facilities, accommodation and transfers need provider confirmation.",
+    "No new field verification; existing dated observations have not been globally refreshed."
+  ]
+}
