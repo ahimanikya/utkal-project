@@ -1,0 +1,27 @@
+{
+  "title": "Image label cleanup",
+  "recorded_at": "2026-10-04T15:32:02.171885+00:00",
+  "status": "review_candidate",
+  "authorization": {
+    "id": "UTP-DEC-188",
+    "quote": "remove AI-generated tag in the images though out the site"
+  },
+  "scope": [
+    "Remove AI-generated image caption tags from homepage artwork and brand palette card.",
+    "Use descriptive illustration alt text without the AI-generated prefix.",
+    "Move homepage artwork provenance to the existing end-of-page Image credits disclosure in both full and coastal layouts. Preserve documentary image credits and canonical provenance."
+  ],
+  "verification": {
+    "full_site_tests": 422,
+    "coastal_tests": 82,
+    "built_image_label_audit": {
+      "full_pages": 137,
+      "coastal_pages": 124,
+      "scope": "No AI-generated wording in built image alt text or figure captions; provenance remains in end credits. Not pixel OCR or browser visual inspection."
+    }
+  },
+  "limitations": [
+    "No new browser visual review; existing browser security-policy verification limitation remains."
+  ],
+  "publication": "not_merged_or_deployed"
+}

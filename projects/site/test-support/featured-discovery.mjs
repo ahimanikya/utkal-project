@@ -11,7 +11,7 @@ export function checkFeaturedDiscovery(directory){
   const visible=home.replace(/<template\b[^>]*>[\s\S]*?<\/template>/g,'');
   const cards=visible.match(/<div class="story-card-grid"[\s\S]*?<\/section>/)?.[0];
   assert.ok(cards);assert.equal((cards.match(/<article[ >]/g)||[]).length,3);
-  const credits=home.match(/<details[^>]*><summary[^>]*>Story photograph credits<\/summary>[\s\S]*?<\/details>/)?.[0];
+  const credits=home.match(/<details[^>]*><summary[^>]*>Image credits<\/summary>[\s\S]*?<\/details>/)?.[0];
   assert.ok(credits);
   for(const {href} of selection){
    const card=cards.match(new RegExp('<article[^>]*>(?:(?!<article)[\\s\\S])*?href="'+href+'"[\\s\\S]*?<\\/article>'))?.[0];

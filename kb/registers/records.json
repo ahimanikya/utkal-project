@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T15:21:53.087490+00:00",
+  "recorded_at": "2026-10-04T15:32:02.171885+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4612,6 +4612,28 @@
         "records/chilika-illustrated-trail-2026-10-04.json",
         "records/chilika-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-158",
+      "title": "Remove AI-generated tags beside website images",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-188",
+      "next_action": "Review and publish the caption cleanup; provenance remains in end credits and project records.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-188",
+        "UTP-REV-136"
+      ],
+      "evidence": [
+        "records/image-label-cleanup-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8353,6 +8375,25 @@
       "evidence": [
         "records/chilika-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-188",
+      "title": "Remove visible AI-generated image tags",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "remove AI-generated tag in the images though out the site",
+      "scope": "Requested image tag cleanup throughout the website.",
+      "recorded_at": "2026-10-04T15:32:02.171885+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-158"
+      ],
+      "evidence": [
+        "records/image-label-cleanup-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11559,6 +11600,26 @@
       "evidence": [
         "records/chilika-illustrated-trail-2026-10-04.json",
         "records/chilika-trail-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-136",
+      "title": "Image caption cleanup self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new browser visual review; existing browser security-policy verification limitation remains."
+      ],
+      "refs": [
+        "UTP-WORK-158",
+        "UTP-DEC-188"
+      ],
+      "evidence": [
+        "records/image-label-cleanup-2026-10-04.json"
       ]
     }
   ],
