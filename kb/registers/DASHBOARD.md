@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ff91280bc9749b96a9552b3d68c88344f88244aed62011ab81d501e9a7ae774b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `944d1cfccdd712e19163f6280085c30c14dbf452afe566bb7f6916cafe66990e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -169,7 +169,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-154 · Connected homepage artwork and story introductions | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Follow up with desktop/mobile visual review when browser policy verification recovers; Search Console remains separate. | — |
 | UTP-WORK-155 · Stone, sea and makers visitor trail | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups. | — |
 | UTP-WORK-156 · Trail tour books, local contributions and verification readiness | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
-| UTP-WORK-157 · Chilika illustrated trail and gateway-specific tour books | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open. | — |
+| UTP-WORK-157 · Chilika illustrated trail and gateway-specific tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -228,7 +228,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-157 | Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open. |
 
 ## Decisions
 
@@ -419,6 +418,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-184 · Build trail books, local contributions, verification pack and backlog clarification | approved | Ahimanikya Satapathy | Four-part batch: trail tour-book chapters, specific local contribution prompts, verification pack and backlog reconciliation. |
 | UTP-DEC-185 · Publish trail books and local evidence preparation | approved | Ahimanikya Satapathy | Merge and publish PR89, retaining visual/PDF, local confirmation and Search Console limitations. |
 | UTP-DEC-186 · Build the illustrated Chilika trail and local contribution paths | approved | Ahimanikya Satapathy | Implement the recommended Chilika story chapters, practical planning, portable illustrated books and local contribution questions. |
+| UTP-DEC-187 · Publish the illustrated Chilika trail | approved | Ahimanikya Satapathy | Merge and publish PR93, preserving the eleven-route search shortlist and outstanding visual/PDF and local checks. |
 
 ## Reviews
 
@@ -624,6 +624,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-060 · Connected homepage artwork and story paths published | published | https://utkalproject.org/ | UTP-DEC-181 |
 | UTP-REL-061 · Stone, sea and makers visitor trail published | published | https://utkalproject.org/journey-starters/#stone-sea-makers | UTP-DEC-183 |
 | UTP-REL-062 · Trail books and local evidence preparation published | published | https://utkalproject.org/journey-starters/#stone-sea-makers | UTP-DEC-185 |
+| UTP-REL-063 · Chilika illustrated trail published | published | https://utkalproject.org/journey-starters/chilika/ | UTP-DEC-187 |
 
 ## Sources and assets
 
@@ -661,7 +662,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-212 | 2026-10-04T08:37:18.254965+00:00 | Published PR75 through the approved Pages workflow after CI passed. Live homepage has twelve scenes, both refined assets and controller code; twelve original checksums and 36 responsive responses verified. | Published and verified at utkalproject.org. Optional follow-up: perform desktop/mobile browser visual review when browser policy verification recovers; limitation remains in UTP-REV-130. |
 | UTP-EVT-213 | 2026-10-04T09:08:06.130249+00:00 | Implemented the approved changing story trio with 30 published illustrated entries, bounded recent-history avoidance, editorial controls and synchronized credits. Full/coastal builds and 405/77 tests pass. | Prepare a reviewable PR; browser visual review remains blocked. No publication claimed. |
 | UTP-EVT-214 | 2026-10-04T09:22:08.967729+00:00 | Published approved PR78 through Pages after successful validation. Live homepage exposes 30 story options and the refresh controller; all 30 destinations returned 200 with page headings. | Published and verified at utkalproject.org. Follow up with a desktop/mobile visual review when browser policy verification recovers. |
 | UTP-EVT-215 | 2026-10-04T11:22:52.481972+00:00 | Connected twelve artwork themes to curated stories, refined thirty introductions and added two literary onward links. Full/coastal builds and 409/78 tests passed; all thirty pages have journey and specific onward links. | Prepare reviewable PR; browser visual review unavailable and Search Console remains separate. |
@@ -671,6 +671,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-219 | 2026-10-04T14:06:40.618918+00:00 | Prepared portable trail chapters, contextual maker/access/food contribution prompts and a downloadable blank local verification pack. Clarified 32 backlog next actions without closing remaining reviews. Full/coastal 418/81 tests and 492 page checks passed. | Prepare implementation PR; publication and outstanding human/local checks remain separate. |
 | UTP-EVT-220 | 2026-10-04T14:18:37.049274+00:00 | Published approved PR89 through Pages. Live shared trail data, contextual contribution links, exact verification-pack download and three chapter photographs verified; live-data export preserved chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-221 | 2026-10-04T14:45:44.183242+00:00 | Prepared four illustrated Chilika chapters, three separate gateway starters with matching portable-book chapters, reciprocal guide links and boat/birding contribution prompts. Reused licensed photographs and existing source identities. Full/coastal tests passed; visual and local evidence remain open. | Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open. |
+| UTP-EVT-222 | 2026-10-04T15:21:53.087490+00:00 | Published approved PR93 through Pages. Live chapters, photographs, separate gateway choices, ten guide returns and contribution links verified. Live-data exports retained only matching chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 
 ## Deferred extensions
 

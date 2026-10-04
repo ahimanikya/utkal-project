@@ -1,0 +1,131 @@
+{
+  "title": "Chilika illustrated trail published",
+  "recorded_at": "2026-10-04T15:21:53.087490+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-187",
+    "quote": "approved",
+    "context": "Founder approved PR93 following the candidate summary and successful validation."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/93",
+  "commit": "5db574a7bd44ac21da4e7981524b8d4760ebded9",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37210536248",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37212455400",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey-starters/chilika/",
+  "counts": {
+    "public_pages": 124,
+    "journey_items": 83,
+    "indexable_pages": 11,
+    "noindex_pages": 113
+  },
+  "validation": {
+    "full_site_tests": 422,
+    "coastal_tests": 82,
+    "page_acceptance_checks": 496
+  },
+  "live_verification": {
+    "checked_at": "2026-10-04T15:19:44.322924+00:00",
+    "http_200": [
+      "/journey-starters/chilika/",
+      "/journey-starters/",
+      "/journey/",
+      "/stories/bhubaneswar-fresco/",
+      "/contribute/",
+      "/sitemap.xml",
+      "/robots.txt",
+      "/knowledge/chilika/",
+      "/visit/experiences/kalijai-crossing/",
+      "/visit/experiences/mangalajodi-birdwatching/",
+      "/visit/experiences/satapada-boating/",
+      "/visit/places/kalijai/",
+      "/visit/places/mangalajodi/",
+      "/visit/places/satapada/",
+      "/visit/stays/barkul-rambha/",
+      "/visit/stays/mangalajodi/",
+      "/visit/stays/rajhans-satapada/"
+    ],
+    "shared_payload_identical": true,
+    "chapters": 4,
+    "starter_item_counts": {
+      "chilika-birds": 3,
+      "chilika-island": 4,
+      "chilika-satapada": 3
+    },
+    "guide_returns": [
+      "/knowledge/chilika/",
+      "/visit/experiences/kalijai-crossing/",
+      "/visit/experiences/mangalajodi-birdwatching/",
+      "/visit/experiences/satapada-boating/",
+      "/visit/places/kalijai/",
+      "/visit/places/mangalajodi/",
+      "/visit/places/satapada/",
+      "/visit/stays/barkul-rambha/",
+      "/visit/stays/mangalajodi/",
+      "/visit/stays/rajhans-satapada/"
+    ],
+    "contribution_prompt_kinds": [
+      "boating",
+      "birding",
+      "access",
+      "food"
+    ],
+    "photos_match_repository": [
+      {
+        "path": "/images/destinations/mangalajodi.webp",
+        "sha256": "a07dc76946d677bbdef4982bc1e4270c54e570b0685498acaab40d235eb17bfd"
+      },
+      {
+        "path": "/images/destinations/kalijai.jpg",
+        "sha256": "db5b8c2c721ffeed52fdaf53eb7c54814727b845dc2be97c758f42a68a9ee031"
+      },
+      {
+        "path": "/images/chilika/chilika-lake-hellohappy.webp",
+        "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c"
+      },
+      {
+        "path": "/images/destinations/crab.jpg",
+        "sha256": "caeb758841de2eae37aa85b4507d5bf19a2ef88767779190a96510f2a6122dac"
+      }
+    ],
+    "sitemap_urls": 11,
+    "new_route_noindex": true,
+    "robots_allows_root": true,
+    "scope": "Live HTTPS content and asset delivery. Not browser interaction, visual/native PDF review, local confirmation or Google processing.",
+    "live_data_exports": {
+      "checks": [
+        {
+          "starter": "chilika-birds",
+          "chapters": [
+            "birds"
+          ],
+          "embedded_photos": 1,
+          "private_notes_excluded": true
+        },
+        {
+          "starter": "chilika-island",
+          "chapters": [
+            "island",
+            "table"
+          ],
+          "embedded_photos": 2,
+          "private_notes_excluded": true
+        },
+        {
+          "starter": "chilika-satapada",
+          "chapters": [
+            "open-water"
+          ],
+          "embedded_photos": 1,
+          "private_notes_excluded": true
+        }
+      ],
+      "scope": "Local exporters using fetched live journey data and the repository photographs verified byte-for-byte against live delivery. Not browser or native PDF review."
+    }
+  },
+  "limitations": [
+    "Browser visual/interactive and native PDF review remain open; administrator-enforced browser policy verification was unavailable.",
+    "No current boat, guide, kitchen, property or access arrangements were confirmed locally.",
+    "Search Console processing remains separately unresolved under UTP-WORK-139."
+  ]
+}
