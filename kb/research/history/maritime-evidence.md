@@ -37,3 +37,8 @@ The [linked-data method](../methods/maritime-linked-data.md) explains the entity
 ## Modern connections, separate evidence · 4 October 2026
 
 [Two contemporary cases](../collections/odisha-and-world.md) connect logistics and materials policy with this history. The relationship is editorial context; it establishes neither continuous ancient routes nor causation.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+[Sadhaba maritime science](sadhaba-maritime-science.md) adds vessel technology, navigation and modern physical explanations with separate evidence classes.

@@ -303,3 +303,8 @@ Continue RES-016 with NALCO Damanjodi expansion: reuse saved annual report befor
 ## 4 October 2026 · RES-016 checkpoint and retry
 
 Retry RES-016 on2026-10-11 for project-specific construction cash expenditure, observed NALCO/IMFA commissioning and KNR2 payment reconciliation. Reuse captured annual reports first; current releases-page502 and aggregate accounting notes cannot fill those fields. Continue independently with RES-017 trade/logistics/production next run.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+The user explicitly prioritised Sadhaba technology and science. RES-068 records the study and its continuation without changing the unfinished RES-017 trade-series criteria. After the source-recovery retry or independent manuscript work, resume the existing queue.

@@ -465,3 +465,8 @@ Reused IMFA annual-report and ministry captures; distinct KNR1, KNR2 and expansi
 ## 4 October 2026 · NALCO project and edition identity
 
 Added FY 2024–25 source identity; fifth stream, alternate conveyor and Pottangi are linked but distinct projects. Both reports share publisher lineage; estimates and CWIP components are not additive.
+
+
+## Sadhaba maritime-science study · 4 October 2026
+
+RES-068 searched source and repository-native maritime, Boita, Ratnagiri and science records. Added one technical synthesis and nine source/lead records. Shared Tripati scholarship is not independent corroboration;1997 independent-team article is a lead only. An indexed seeutkal.com “Across the Bay” page was discovered but was absent from both inspected local checkouts and direct retrieval failed; it is an editorial reuse lead, never independent evidence.
