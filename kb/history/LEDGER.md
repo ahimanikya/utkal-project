@@ -904,3 +904,9 @@ The approved theme connections reached the public homepage. Twelve imagined welc
 Three illustrated chapters connect Bhubaneswar and Mukteswar, Raghurajpur and Puri through food, people and the shore. The eight-idea collection remains editable and unscheduled, preserving earlier personal journeys. Dated photographs and bounded source checks support the invitation; current local arrangements still need confirmation. This is an implementation candidate, with browser visual review unavailable.
 
 Evidence: [Visitor trail checkpoint](../records/stone-sea-visitor-trail-2026-10-04.json).
+
+## UTP-HIS-0217 · A thread visitors can make their own
+
+The approved Stone, sea and makers trail reached the public website with three illustrated chapters, eight ideas and return links from every guide. Live delivery checks passed. Browser visual review, current local arrangements and Search Console remain open.
+
+[Publication evidence](../records/visitor-trail-publication-2026-10-04.json) · [PR86](https://github.com/ahimanikya/utkal-project/pull/86).

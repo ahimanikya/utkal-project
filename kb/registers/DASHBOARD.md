@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cf27ef9de814a496a18c1fa1616045c997511577877b0d96dd3e1fd81fe64c1c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `fe9459025118ce80c22491985217dbaf97944be80e5bc93391d29a8094cade76`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -167,7 +167,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-152 · Twelve Documentary Natural homepage scenes | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Optional follow-up: perform desktop/mobile browser visual review when browser policy verification recovers; limitation remains in UTP-REV-130. | — |
 | UTP-WORK-153 · Changing homepage story beginnings | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Follow up with a desktop/mobile visual review when browser policy verification recovers. | — |
 | UTP-WORK-154 · Connected homepage artwork and story introductions | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Follow up with desktop/mobile visual review when browser policy verification recovers; Search Console remains separate. | — |
-| UTP-WORK-155 · Stone, sea and makers visitor trail | awaiting_review | reviewed | Ahimanikya Satapathy | Review implementation PR; complete desktop/mobile browser review when security policy verification recovers. Search Console remains separate. | — |
+| UTP-WORK-155 · Stone, sea and makers visitor trail | completed | applied | Ahimanikya Satapathy | Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -226,7 +226,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the 122-page published edition (UTP-REL-044) and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-155 | Review implementation PR; complete desktop/mobile browser review when security policy verification recovers. Search Console remains separate. |
 
 ## Decisions
 
@@ -413,6 +412,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-180 · Connect homepage imagery, story introductions and onward discovery | approved | Ahimanikya Satapathy | Implement recommended artwork-theme connections and thirty introductions; check onward discovery and journey links. Browser visual review and Search Console remain outstanding. |
 | UTP-DEC-181 · Publish connected homepage artwork and stories | approved | Ahimanikya Satapathy | Merge and publish PR82, with browser visual-review and Search Console limitations retained. |
 | UTP-DEC-182 · Build the connected visitor trail and refresh practical context | approved | Ahimanikya Satapathy | Implement recommended visitor trail and source refresh, retaining outstanding browser visual review and Search Console limitations. |
+| UTP-DEC-183 · Publish Stone, sea and makers visitor trail | approved | Ahimanikya Satapathy | Merge and publish PR86, retaining browser visual-review, local visitor-arrangement and Search Console limitations. |
 
 ## Reviews
 
@@ -614,6 +614,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-058 · Twelve-scene Human Natural homepage published | published | https://utkalproject.org/ | UTP-DEC-177 |
 | UTP-REL-059 · Changing homepage story beginnings published | published | https://utkalproject.org/ | UTP-DEC-179 |
 | UTP-REL-060 · Connected homepage artwork and story paths published | published | https://utkalproject.org/ | UTP-DEC-181 |
+| UTP-REL-061 · Stone, sea and makers visitor trail published | published | https://utkalproject.org/journey-starters/#stone-sea-makers | UTP-DEC-183 |
 
 ## Sources and assets
 
@@ -651,7 +652,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-208 | 2026-10-04T05:37:17.953485+00:00 | Replaced automatic rotation with one randomly selected still image per homepage load. When browser storage is available, the previous artwork is excluded. Slideshow controls and animations are removed; captions, responsive images and static fallback remain. | Per-load artwork locally applied; eight controller tests, 76 coastal tests and built-asset checks passed. Complete desktop/mobile visual review when browser policy verification recovers; not published. |
 | UTP-EVT-209 | 2026-10-04T07:30:03.884234+00:00 | Created eleven new scenes and retained one maritime image to cover all twelve approved themes; saved original assets, prompts, web derivatives and local review gallery. One image per visit remains active. | Twelve-scene collection locally integrated; eight controller tests, 76 coastal tests, full build and 48 image-reference checks passed. Artwork gallery ready. Browser layout review remains blocked; not published. |
 | UTP-EVT-210 | 2026-10-04T08:03:02.021461+00:00 | Refined and applied two Human Natural scene edits; updated provenance, web assets and review gallery without replacing original evidence. | Twelve-scene homepage locally applied with candid festival and reading v2 edits. 84 tests and build passed; original images and prompts retained. Complete browser layout review when policy verification recovers; not deployed. |
 | UTP-EVT-211 | 2026-10-04T08:15:57.208317+00:00 | Founder requested application of the prepared collection. Full-site build and 391 tests passed; beginning approved repository release. | Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable. |
@@ -661,6 +661,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-215 | 2026-10-04T11:22:52.481972+00:00 | Connected twelve artwork themes to curated stories, refined thirty introductions and added two literary onward links. Full/coastal builds and 409/78 tests passed; all thirty pages have journey and specific onward links. | Prepare reviewable PR; browser visual review unavailable and Search Console remains separate. |
 | UTP-EVT-216 | 2026-10-04T12:02:51.910884+00:00 | Published approved PR82 through Pages after successful validation. Live twelve theme connections, thirty revised introductions and reciprocal Sarala Das/Pratibha Ray links match the approved version. | Published and verified at utkalproject.org. Follow up with desktop/mobile visual review when browser policy verification recovers; Search Console remains separate. |
 | UTP-EVT-217 | 2026-10-04T12:50:25.325868+00:00 | Built the three-chapter Stone, sea and makers visitor trail, enabled its eight-idea starter in the public edition, linked eight existing guides back, and recorded a bounded source refresh. Full/coastal builds and 412/79 tests passed. | Review implementation PR; complete desktop/mobile browser review when security policy verification recovers. Search Console remains separate. |
+| UTP-EVT-218 | 2026-10-04T13:00:46.518968+00:00 | Published approved PR86 through Pages after successful validation. The illustrated trail, eight unscheduled ideas, guide return links and documentary photographs were verified over live HTTPS. | Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups. |
 
 ## Deferred extensions
 
