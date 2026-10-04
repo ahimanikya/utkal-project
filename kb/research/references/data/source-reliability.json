@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T03:30:43.162867+00:00",
+  "updated_at": "2026-10-04T04:28:42.197770+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6262,6 +6262,32 @@
       "retry_after": "2026-10-11",
       "run_id": "2026-10-04-forest-rights",
       "checked_at": "2026-10-04T03:30:43.162867+00:00"
+    },
+    {
+      "source_id": "forest-jfm-amendments-plan2021",
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_557470292.pdf",
+      "status": "available",
+      "scope": "Cover PDF p. 1; contents p. 6; Annexure IX(a), PDF p. 167; forwarding letter p. 168; Annexure IX(b), pp. 169–170",
+      "capture_sha256": "d19bbfa3f92733623b26eb5d909bf446524c722e575000d3d5386e2ee8bc17bd",
+      "retrieval_history": "Web reader failed; direct verified-TLS download succeeded. Scanned pages lack extractable text and were rendered for visual reading.",
+      "visual_pages": [
+        167,
+        168,
+        169,
+        170
+      ],
+      "run_id": "2026-10-04-forest-amendments",
+      "checked_at": "2026-10-04T04:28:42.197770+00:00"
+    },
+    {
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_1628084390.pdf",
+      "status": "unavailable",
+      "scope": "Alternative working-plan amendment route",
+      "reason": "Web reader returned internal error. No content from this file adopted; amendment evidence recovered through the Jharsuguda original-file route.",
+      "retry_after": "2026-10-11",
+      "retry_needed_for_current_checkpoint": false,
+      "run_id": "2026-10-04-forest-amendments",
+      "checked_at": "2026-10-04T04:28:42.197770+00:00"
     }
   ]
 }

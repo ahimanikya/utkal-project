@@ -185,3 +185,7 @@ Historical community accounts remain attributed research drafts. No current righ
 ## Forest management instruments · 4 October 2026
 
 Historical policy provisions are labelled by version. Women’s representation rule is not observed membership, benefit share is not income, and forms do not establish signed agreements or local permissions. No human review or website release.
+
+## Forest-management amendments · 4 October 2026
+
+The JFM comparison is versioned historical evidence. Monthly meetings and women’s representation are document requirements, not measured compliance. No current permit, title, income, human review or website publication claimed.

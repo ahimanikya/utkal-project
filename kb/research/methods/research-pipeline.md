@@ -243,3 +243,7 @@ Continue RES-058 with original forest-rights decisions and community-management 
 ## Forest management instruments · 4 October 2026
 
 Continue RES-058 with original 2015/2019 JFM amendments and one archival/community-history source; reuse the saved 2011 resolution and Niyamgiri judgment. No repeated study or new judgment identity. MoTA booklet and 2018 study originals retry 11 October; local signed agreements and current titles remain unknown.
+
+## Forest-management amendments · 4 October 2026
+
+Continue RES-058 with one archival/community-history source on forest institutions and livelihood change. Reuse the 2001 cases, 2011 resolution and recovered 2015/2019 amendment facsimiles; do not repeat those captures. Original local instruments, MoTA booklet and 2018 fieldwork dates remain on 11 October retries; do not mark the task complete while its required survey-date criterion remains unresolved.

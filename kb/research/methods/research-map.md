@@ -405,3 +405,7 @@ Enhanced existing forest history and two saved source records. One publication r
 ## Forest management instruments · 4 October 2026
 
 Added original JFM 2011 source and publisher amendment-discovery page. Reused Niyamgiri judgment under source ID mining-niyamgiri-sc2013 and project ID mining-niyamgiri-scr2013; these refer to one original publication. No duplicate court-case concept added.
+
+## Forest-management amendments · 4 October 2026
+
+One Jharsuguda working-plan source added for enclosed amendment facsimiles. Two instruments retain their own dates and locators, with no duplicate 2011 source or fresh Niyamgiri discovery. This is a scoped map extension.

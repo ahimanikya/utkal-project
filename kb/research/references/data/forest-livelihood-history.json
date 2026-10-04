@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "run_id": "2026-10-04-forest-history",
-  "updated_at": "2026-10-04T03:30:43.162867+00:00",
+  "updated_at": "2026-10-04T04:28:42.197770+00:00",
   "task_id": "RES-058",
   "canonical_page": "history/forest-livelihoods.md",
   "cases": [
@@ -121,6 +121,26 @@
       "locator": "PDF p. 1 header",
       "evidence_class": "government_resolution",
       "checked_on": "2026-10-04"
+    },
+    {
+      "id": "odisha-jfm2015-amendment",
+      "date_as_reported": "2015-06-01",
+      "publication_date": "2015-06-11",
+      "claim": "Amendment to JFM Resolution 2011; operative text distinguished from local implementation.",
+      "source_id": "forest-jfm-amendments-plan2021",
+      "locator": "Annexure IX(a), PDF p. 167",
+      "evidence_class": "government_amendment_facsimile",
+      "checked_on": "2026-10-04"
+    },
+    {
+      "id": "odisha-jfm2019-amendment",
+      "date_as_reported": "2019-01-04",
+      "publication_date": null,
+      "claim": "Amendment to JFM Resolution 2011; operative text distinguished from local implementation.",
+      "source_id": "forest-jfm-amendments-plan2021",
+      "locator": "Forwarding letter PDF p. 168; Annexure IX(b), pp. 169–170",
+      "evidence_class": "government_amendment_facsimile",
+      "checked_on": "2026-10-04"
     }
   ],
   "geography_resolution": {
@@ -181,6 +201,28 @@
       "scope": "Original national Act/rules booklet retrieval",
       "reason": "Web timeout and direct verified-TLS request timed out after 45 seconds with no usable document. Search snippets not adopted as Act text.",
       "retry_after": "2026-10-11"
+    },
+    {
+      "source_id": "forest-jfm-amendments-plan2021",
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_557470292.pdf",
+      "status": "available",
+      "scope": "Cover PDF p. 1; contents p. 6; Annexure IX(a), PDF p. 167; forwarding letter p. 168; Annexure IX(b), pp. 169–170",
+      "capture_sha256": "d19bbfa3f92733623b26eb5d909bf446524c722e575000d3d5386e2ee8bc17bd",
+      "retrieval_history": "Web reader failed; direct verified-TLS download succeeded. Scanned pages lack extractable text and were rendered for visual reading.",
+      "visual_pages": [
+        167,
+        168,
+        169,
+        170
+      ]
+    },
+    {
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_1628084390.pdf",
+      "status": "unavailable",
+      "scope": "Alternative working-plan amendment route",
+      "reason": "Web reader returned internal error. No content from this file adopted; amendment evidence recovered through the Jharsuguda original-file route.",
+      "retry_after": "2026-10-11",
+      "retry_needed_for_current_checkpoint": false
     }
   ],
   "scope_limits": [
@@ -208,8 +250,17 @@
       "field": "Later JFM amendments and current consolidated applicability",
       "value": null,
       "source_id": "forest-jfm-publisher",
-      "reason": "Publisher points to 2015 and 2019 changes; original amendments required before a current procedure guide.",
-      "next_action": "Original amendment discovery in next independent RES-058 batch."
+      "reason": "2015 and 2019 facsimiles recovered. Their targeted changes are mapped; exhaustive subsequent amendments, current consolidated applicability and local implementation remain unverified.",
+      "next_action": "Use versioned historical comparison; seek later consolidated instruments only for a future current-procedure guide.",
+      "review_history": [
+        {
+          "at": "2026-10-04T04:28:42.197770+00:00",
+          "prior_reason": "Publisher points to 2015 and 2019 changes; original amendments required before a current procedure guide.",
+          "prior_next_action": "Original amendment discovery in next independent RES-058 batch."
+        }
+      ],
+      "evidence_source_id": "forest-jfm-amendments-plan2021",
+      "status": "partially_resolved"
     },
     {
       "field": "National Act/rules original text",
@@ -225,6 +276,11 @@
       "run_id": "2026-10-04-forest-rights",
       "at": "2026-10-04T03:30:43.162867+00:00",
       "scope": "Historical JFM instrument and evidence distinctions; existing cases preserved."
+    },
+    {
+      "run_id": "2026-10-04-forest-amendments",
+      "at": "2026-10-04T04:28:42.197770+00:00",
+      "scope": "Two amendment instruments recovered as facsimiles; prior 2011 version retained. No local implementation or exhaustive current-law verification."
     }
   ],
   "policy_instruments": [
@@ -357,9 +413,103 @@
           "current_applicability_verified": false
         }
       ],
-      "later_versions": "Publisher overview names amendments in 2015 and 2019; original texts not reviewed.",
+      "later_versions": "2015 and 2019 amendment facsimiles now captured in the linked instruments. Prior 2011 provisions retained as that version; later changes beyond these documents not exhaustively checked.",
       "local_executed_instruments": null,
       "fra_title_status": null
+    },
+    {
+      "id": "odisha-jfm2015-amendment",
+      "source_id": "forest-jfm-amendments-plan2021",
+      "resolution_number": "9182-F. & E.",
+      "resolution_date": "2015-06-01",
+      "gazette_number": "914",
+      "gazette_date": "2015-06-11",
+      "locator": "Annexure IX(a), PDF p. 167",
+      "amends_instrument_id": "odisha-jfm2011",
+      "amended_parts": [
+        "4(i)",
+        "4(iii)",
+        "Annexure A(vi)"
+      ],
+      "provisions": [
+        {
+          "id": "jfm2015-secretary",
+          "claim": "Palli Sabha elects chairperson, vice-chairperson, treasurer and at least eleven other members; local Forest Guard/Forester is ex-officio secretary. At least 50 percent of executive committee members must be women; proportionate SC/ST representation and forest-dependent representation also stated.",
+          "locator": "Substituted 4(i),(iii), PDF p. 167",
+          "source_id": "forest-jfm-amendments-plan2021",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2015-06-01",
+          "geography": "Odisha, within instrument scope",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2015-accounts",
+          "claim": "Secretary is responsible for monthly accounts and maintenance of the committee account book.",
+          "locator": "Substituted Annexure A(vi), PDF p. 167",
+          "source_id": "forest-jfm-amendments-plan2021",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2015-06-01",
+          "geography": "Odisha, within instrument scope",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        }
+      ],
+      "implementation_observed": false,
+      "current_applicability_verified": false
+    },
+    {
+      "id": "odisha-jfm2019-amendment",
+      "source_id": "forest-jfm-amendments-plan2021",
+      "resolution_number": "FE-PLANT-PLANT-0009-2015-286/F&E",
+      "resolution_date": "2019-01-04",
+      "gazette_number": null,
+      "gazette_date": null,
+      "forwarding_date": "2019-01-21",
+      "locator": "Forwarding letter PDF p. 168; Annexure IX(b), pp. 169–170",
+      "amends_instrument_id": "odisha-jfm2011",
+      "added_parts": [
+        "15(xvii)",
+        "15(xviii)",
+        "15(xix)"
+      ],
+      "provisions": [
+        {
+          "id": "jfm2019-forum",
+          "claim": "Constitutes a Range Level VSS & EDC Forum: Range Officer chairs, headquarters Forester convenes, with VSS representatives, field staff and a nominated NGO/community-knowledge representative route.",
+          "locator": "15(xvii), PDF p. 169",
+          "source_id": "forest-jfm-amendments-plan2021",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2019-01-04",
+          "geography": "Odisha, within instrument scope",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2019-records",
+          "claim": "Forum functions include guidance, recording suggestions/grievances, compliance reporting to the DFO, capacity building, conflict handling and coordination.",
+          "locator": "15(xviii), PDF p. 169",
+          "source_id": "forest-jfm-amendments-plan2021",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2019-01-04",
+          "geography": "Odisha, within instrument scope",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        },
+        {
+          "id": "jfm2019-meetings",
+          "claim": "Forum to meet at least monthly and retain attendance and decision records. No actual meeting frequency or grievance resolution outcome verified.",
+          "locator": "15(xix), PDF p. 169",
+          "source_id": "forest-jfm-amendments-plan2021",
+          "evidence_class": "historical_policy_provision",
+          "instrument_date": "2019-01-04",
+          "geography": "Odisha, within instrument scope",
+          "implementation_observed": false,
+          "current_applicability_verified": false
+        }
+      ],
+      "implementation_observed": false,
+      "current_applicability_verified": false
     }
   ],
   "rights_evidence_reuse": {

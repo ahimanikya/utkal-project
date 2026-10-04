@@ -17,3 +17,7 @@ Locator: PDF pp. 1–4, 6–11, 14, 17–21; clauses 3, 4, 7–14, 16; Annexure 
 Original 21-page PDF downloaded. Selected clauses and form text read through web extraction. Web screenshots failed; no visual verification claimed. Historical 2011 version only; later amendments not reconciled. Blank forms are not executed local instruments.
 
 [Original](https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf) · [Forest livelihood history](../history/forest-livelihoods.md).
+
+## Later versions linked · 4 October 2026
+
+The [2015 and 2019 amendment copies](forest-jfm-amendments-plan2021.md) change specified institutional provisions. Preserve this original 2011 text as its own version; do not use its elected-secretary clause as an unreconciled current procedure.

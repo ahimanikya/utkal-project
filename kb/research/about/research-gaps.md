@@ -414,3 +414,7 @@ RES-058:2001 case geography resolved through methodology and Sites1–3; conflic
 ## Forest management instruments · 4 October 2026
 
 RES-058: original 2011 resolution captured, including women’s representation and local agreement forms. Original 2015/2019 amendments remain eligible; signed local agreements and current titles unknown. MoTA original booklet timeout, retry 11 October; 2018 survey-date gap unchanged.
+
+## Forest-management amendments · 4 October 2026
+
+RES-058: 2015 and 2019 JFM amendment facsimiles recovered, including separate resolution/gazette/forwarding dates. Later consolidated applicability and local implementation unknown. Community-history source and 2018 fieldwork-date criterion remain; existing 11 October retries preserved.

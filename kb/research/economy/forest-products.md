@@ -99,3 +99,7 @@ The next evidence sought is a dated procurement ledger, completed-sale statement
 ## From village management to enterprise evidence
 
 [The historical 2011 JFM provisions](../history/forest-livelihoods.md) connect women’s committee representation, livelihood planning and forest-product marketing. They identify records to seek before describing an enterprise arrangement. A policy benefit share is not a measured collector income, and a model agreement is not local permission.
+
+## Institutions behind the trade · 4 October 2026
+
+[The 2015 and 2019 changes](../history/forest-livelihoods.md) clarify the historical roles of the committee secretary and range-level forum. Accounts, meeting minutes and local agreements would help establish how an arrangement operated; the policy text alone does not measure income or prove permission.

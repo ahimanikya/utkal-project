@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T03:30:43.162867+00:00",
+  "updated_at": "2026-10-04T04:28:42.197770+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3154,15 +3154,15 @@
       "done_when": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
       "target": "economy/forest-products.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": "2026-10-04T03:30:43.162867+00:00",
-      "next_step": "Continue RES-058 with original 2015/2019 JFM amendments and one archival/community-history source; reuse the saved 2011 resolution and Niyamgiri judgment. No repeated study or new judgment identity. MoTA booklet and 2018 study originals retry 11 October; local signed agreements and current titles remain unknown.",
+      "last_worked_at": "2026-10-04T04:28:42.197770+00:00",
+      "next_step": "Continue RES-058 with one archival/community-history source on forest institutions and livelihood change. Reuse the 2001 cases, 2011 resolution and recovered 2015/2019 amendment facsimiles; do not repeat those captures. Original local instruments, MoTA booklet and 2018 fieldwork dates remain on 11 October retries; do not mark the task complete while its required survey-date criterion remains unresolved.",
       "evidence_outputs": [
         "history/forest-livelihoods.md",
         "references/data/forest-livelihood-history.json",
@@ -3170,7 +3170,8 @@
         "sources/forest-vasundhara2001.md",
         "sources/forest-kendujhar2018.md",
         "sources/forest-jfm-resolution2011.md",
-        "sources/forest-jfm-publisher.md"
+        "sources/forest-jfm-publisher.md",
+        "sources/forest-jfm-amendments-plan2021.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -3188,6 +3189,13 @@
           "outcome": "original_jfm2011_instrument_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Later amendments, archival/community scholarship and 2018 fieldwork dates; local executed instruments unknown."
+        },
+        {
+          "run_id": "2026-10-04-forest-amendments",
+          "at": "2026-10-04T04:28:42.197770+00:00",
+          "outcome": "two_amendment_facsimiles_recovered_and_compared",
+          "completion_criteria_met": false,
+          "remaining": "Archival/community history and required 2018 fieldwork-date resolution; original local instruments unknown."
         }
       ],
       "reuse_before_research": {
@@ -3208,7 +3216,8 @@
           "sources/forest-vasundhara2001.md",
           "sources/forest-kendujhar2018.md",
           "sources/forest-jfm-resolution2011.md",
-          "sources/forest-jfm-publisher.md"
+          "sources/forest-jfm-publisher.md",
+          "sources/forest-jfm-amendments-plan2021.md"
         ],
         "project_records": [
           "kb/research/sources/mining-niyamgiri-scr2013.md"
@@ -3235,8 +3244,17 @@
           "field": "Later JFM amendments and current consolidated applicability",
           "value": null,
           "source_id": "forest-jfm-publisher",
-          "reason": "Publisher points to 2015 and 2019 changes; original amendments required before a current procedure guide.",
-          "next_action": "Original amendment discovery in next independent RES-058 batch."
+          "reason": "2015 and 2019 facsimiles recovered. Their targeted changes are mapped; exhaustive subsequent amendments, current consolidated applicability and local implementation remain unverified.",
+          "next_action": "Use versioned historical comparison; seek later consolidated instruments only for a future current-procedure guide.",
+          "review_history": [
+            {
+              "at": "2026-10-04T04:28:42.197770+00:00",
+              "prior_reason": "Publisher points to 2015 and 2019 changes; original amendments required before a current procedure guide.",
+              "prior_next_action": "Original amendment discovery in next independent RES-058 batch."
+            }
+          ],
+          "evidence_source_id": "forest-jfm-amendments-plan2021",
+          "status": "partially_resolved"
         },
         {
           "field": "National Act/rules original text",

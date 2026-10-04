@@ -4,7 +4,7 @@ title: "Forest livelihoods: a documented history"
 description: "Forest livelihoods: a documented history — evidence, context and open questions."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-01T19:23:15.175549+00:00"}
-sources: [{"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}, {"id": "forest-kendujhar2018", "title": "Collection and marketing of Non-Timber forest products in Kendujhar District of Odisha", "resource": "https://ideas.repec.org/a/ags/injagm/399613.html"}, {"id": "forest-jfm-resolution2011", "title": "Joint Forest Management Resolution, 2011: Orissa Gazette Extraordinary No. 2176", "resource": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf"}, {"id": "forest-jfm-publisher", "title": "Joint Forest Management: Odisha Forest Department publisher overview", "resource": "https://odishaforest.in/forest-management/joint-forest-management"}]
+sources: [{"id": "forest-ofdc-kendu", "title": "OFDC kendu-leaf marketing", "resource": "https://www.odishafdc.com/kenduleaf.php"}, {"id": "forest-vasundhara2001", "title": "Management of Forest Fire Through Local Communities: a Study in the Bolangir, Deogarh and Sundergarh Districts of Orissa, India", "resource": "https://www.fao.org/4/ad352t/AD352T06.htm"}, {"id": "forest-kendujhar2018", "title": "Collection and marketing of Non-Timber forest products in Kendujhar District of Odisha", "resource": "https://ideas.repec.org/a/ags/injagm/399613.html"}, {"id": "forest-jfm-resolution2011", "title": "Joint Forest Management Resolution, 2011: Orissa Gazette Extraordinary No. 2176", "resource": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf"}, {"id": "forest-jfm-publisher", "title": "Joint Forest Management: Odisha Forest Department publisher overview", "resource": "https://odishaforest.in/forest-management/joint-forest-management"}, {"id": "forest-jfm-amendments-plan2021", "title": "Jharsuguda Forest Division Working Plan 2021–22 to 2030–31, Volume II: JFM amendment annexures", "resource": "https://odishaforest.in/admin/data/documents/div_working_plan_file_557470292.pdf"}]
 human_review_claimed: false
 subjects: ["history", "food", "economy", "everyday", "governance"]
 ---
@@ -57,10 +57,25 @@ It also joined forest protection with livelihood planning: market links, micro-e
 
 The appended forms show which records would help verify a local arrangement: formation resolution, divisional registration, forest map and a signed MoU with boundaries and a start date. **A blank form does not establish an agreement for Baghamunda, Suruguda or any other village.** [Forms 1–5](https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf).
 
-The department’s [overview](https://odishaforest.in/forest-management/joint-forest-management) refers to later amendments in 2015 and 2019. Their original texts still need reconciliation before any current procedure guide.
+The department’s [overview](https://odishaforest.in/forest-management/joint-forest-management) refers to later amendments in 2015 and 2019. Their official facsimiles are now compared below; this remains a historical comparison, not an exhaustive current procedure guide.
 
 ## Different records answer different rights questions
 
 The saved [Niyamgiri judgment, paragraphs 58–63](https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/documents/supremecourtreport/2013_v6_piv.pdf) provides a separate historical court decision: case-specific Gram Sabha consideration followed by a Ministry decision. The source workspace and project use different IDs for this same judgment; they are one evidence lineage. We reuse it without creating another case or counting it as new corroboration.
 
 JFM organisation records, forest-rights claims/titles and case-specific judicial directions must remain distinguishable. The three 2001 study cases still have no original signed agreements or titles attached here. The national Act/rules booklet fetch timed out, so this checkpoint does not supply a verified current application checklist.
+
+## What changed in 2015 and 2019
+
+**The rules changed who kept the committee’s records and how villages could raise issues together.** Official copies in the Jharsuguda working plan make the changes traceable.
+
+| Instrument | Documented change | Evidence still needed |
+| --- | --- | --- |
+| 1 June 2015 resolution; 11 June gazette | Local Forest Guard/Forester becomes ex-officio secretary; minimum 50% women’s representation remains; secretary responsible for accounts | Local committee membership, account books and actual participation |
+| 4 January 2019 resolution | Range-level VSS/EDC forum added, with monthly meetings and records of attendance, decisions and grievances | Actual meeting minutes, follow-through and outcomes |
+
+[2015 amendment, PDF p. 167; 2019 resolution, pp. 169–170](https://odishaforest.in/admin/data/documents/div_working_plan_file_557470292.pdf). The 2019 forwarding letter is dated 21 January, separate from the resolution date. Its gazette publication date is not established here.
+
+The 2011 elected-secretary provision above describes the earlier version. These later documents specify institutional arrangements; they do not prove that every committee functioned accordingly, that grievances were resolved, or that a forest-rights title was granted. A working-plan copy and its enclosed resolution are one evidence lineage for that amendment.
+
+For local business research, this history points to concrete records worth seeking: signed agreements and maps, current committee and accounts records, plus forum minutes. It does not replace verification of current rights or product-specific rules.

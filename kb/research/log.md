@@ -444,3 +444,7 @@ RES-058 started: three historical community cases and six dated milestones;2001 
 ## Forest management instruments · 4 October 2026
 
 RES-058 original JFM instrument checkpoint: ten scoped policy provisions and resolution/gazette chronology; linked existing judicial evidence. Later amendments and local instruments remain open. MoTA booklet timed out; no current-law or implementation claim.
+
+## Forest-management amendments · 4 October 2026
+
+RES-058: recovered 2015 gazette and 2019 resolution copies from an official working-plan volume; five amendment provisions and two timeline events added. Earlier policy version preserved; local outcomes and later/current applicability unverified.
