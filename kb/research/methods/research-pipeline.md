@@ -259,3 +259,7 @@ RES-059 bounded synthesis completed. Continue RES-062 distinctive rice markets u
 ## Rice markets · 4 October 2026
 
 Continue RES-030 garments and export disaggregation. Rice matched-lot and origin-attributed export gaps remain dated follow-ups for 2026-10-11.
+
+## Textile segments · 4 October 2026
+
+Continue RES-032 sand art and other material arts. Textile destination, HS, quantity and current-maker evidence remain dated follow-ups for2026-10-11.

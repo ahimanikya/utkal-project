@@ -460,3 +460,7 @@ Completed bounded RES-059 synthesis with two modern cases, one new TEU observati
 ## Rice markets · 4 October 2026
 
 Completed RES-062 bounded distinctive-rice market dossier. Added four sources and a five-case register, reusing the landrace study. Retained unknown fieldwork/price dates, producer receipts, lot identity and attributable exports. Local research; no human review or website release.
+
+## Textile segments · 4 October 2026
+
+Completed RES-030: recovered28 values, mapped eight product forms, retained nominal garment decline and separate release vintages. No destination or quantity inferred.

@@ -2429,7 +2429,16 @@
     "publication_date": "2024-12-31",
     "accessed_on": "2026-10-01",
     "capture_method": "direct_html",
-    "source_kind": "Primary publisher or institutional record"
+    "source_kind": "Primary publisher or institutional record",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-textile-segments",
+        "checked_on": "2026-10-04",
+        "status": "rows_recovered_from_original_parliamentary_source",
+        "source_id": "textile-rs130-20241206",
+        "scope": "Same publication family; portal itself not repaired or independently corroborating."
+      }
+    ]
   },
   "sweets-pib-20250427": {
     "id": "sweets-pib-20250427",
@@ -6268,7 +6277,16 @@
     "locator": "PDF pp.2–4 rows5,7,9–10,12–14; pp.10–11,17,19–20 named product descriptions",
     "capture_note": "Full 31-page original recovered. Selected tables and product descriptions visually checked. Publication/fieldwork date unstated; URL timestamp and search age are not dates. Directory links makers/cooperatives and illustrated examples, not current operating status or seller stock. Panika Padma year2017 conflicts with MHA2018 and is excluded. Personal contacts and photographs not republished.",
     "capture_method": "downloaded_pdf_selected_pages_visually_checked",
-    "capture_sha256": "6d782f16e9a7eef8b8f6bf3f5e7676d8c7050647ca816b79b822ae54174688b0"
+    "capture_sha256": "6d782f16e9a7eef8b8f6bf3f5e7676d8c7050647ca816b79b822ae54174688b0",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-textile-segments",
+        "checked_on": "2026-10-04",
+        "status": "saved_capture_reused_live_fetch_unavailable",
+        "locator": "PDF pp.19–20 entries12–14",
+        "scope": "Saved original PDF text and images re-read; original URL returned502 on this attempt. Publication date unknown."
+      }
+    ]
   },
   "handloom-gi-list-2026": {
     "id": "handloom-gi-list-2026",
@@ -6944,5 +6962,26 @@
     "capture_note": "Producer self-description; commercial interest; no dated rice transaction, audited rice revenue or farmer payment evidence.",
     "capture_method": "original_publisher_HTML",
     "capture_sha256": "250963fe728211fd55d74724e829f758a0aa9bb177da632604d35c8f565652cf"
+  },
+  "textile-rs130-20241206": {
+    "id": "textile-rs130-20241206",
+    "title": "Support to textile hubs in Odisha — Rajya Sabha starred Q130",
+    "resource": "https://sansad.in/getFile/annex/266/AS130_m5ovdk.pdf?source=pqars",
+    "publisher": "Ministry of Textiles; DGCI&S Kolkata",
+    "published_on": "2024-12-06",
+    "accessed_on": "2026-10-04",
+    "locator": "Annexure C, PDF p.4; answer (b), PDF p.2",
+    "capture_note": "Original parliamentary PDF visually checked.",
+    "capture_sha256": "bb6e164bdf44ef41c439d73069e1a5336f10cf2f40bec97fbae258d54b7005c9"
+  },
+  "textile-bargarh-products": {
+    "id": "textile-bargarh-products",
+    "title": "Bargarh district — industry and handicrafts product range",
+    "resource": "https://bargarh.odisha.gov.in/or/departments/sailapa-o-hasatasailapa",
+    "publisher": "Bargarh district administration",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "ONE DISTRICT ONE PRODUCT and SAMBALPURI BASTRALAYA HLCS LTD.BARGARH production paragraphs",
+    "capture_note": "Original publisher page read through web extractor; footer updated18June2026 is not a production observation date. No undated turnover or workforce number adopted."
   }
 }

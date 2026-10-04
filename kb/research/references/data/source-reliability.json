@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T07:35:13.123765+00:00",
+  "updated_at": "2026-10-04T08:34:31.103772+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6427,6 +6427,38 @@
         }
       ],
       "scope": "Historical and market snapshot capture only; not a weekly revision check."
+    },
+    {
+      "run_id": "2026-10-04-textile-segments",
+      "checked_at": "2026-10-04T08:34:31.103772+00:00",
+      "sources": [
+        {
+          "source_id": "textile-rs130-20241206",
+          "url": "https://sansad.in/getFile/annex/266/AS130_m5ovdk.pdf?source=pqars",
+          "status": "available",
+          "scope": "Annexure C, PDF p.4; answer (b), PDF p.2"
+        },
+        {
+          "source_id": "textile-bargarh-products",
+          "url": "https://bargarh.odisha.gov.in/or/departments/sailapa-o-hasatasailapa",
+          "status": "available",
+          "scope": "ONE DISTRICT ONE PRODUCT and SAMBALPURI BASTRALAYA HLCS LTD.BARGARH production paragraphs"
+        },
+        {
+          "source_id": "handloom-weaver-directory",
+          "url": "https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf",
+          "status": "unavailable",
+          "detail": "Live web fetch502; saved original PDF reused, not fresh source verification."
+        },
+        {
+          "source_id": "textile-bargarh-products",
+          "url": "https://bargarh.odisha.gov.in/or/departments/sailapa-o-hasatasailapa",
+          "status": "unavailable",
+          "method": "local urllib",
+          "detail": "DNS failed; original page retrieved successfully through web extractor."
+        }
+      ],
+      "scope": "Historical table recovery and production associations, not a weekly release check."
     }
   ]
 }

@@ -201,3 +201,7 @@ World-connections collection is an editorial candidate. Port traffic, installed 
 ## Rice markets · 4 October 2026
 
 Rice-market additions are source-linked editorial candidates. Seller claims are labelled; no live price, certified supplier, current stock, verified farm margin or overseas shipment asserted. Website unchanged.
+
+## Textile segments · 4 October 2026
+
+Textile segment and product-form additions are editorial candidates; no current stock, handmade export total or shipment asserted. No website release.
