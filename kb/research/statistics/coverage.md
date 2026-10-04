@@ -114,3 +114,7 @@ RES-017 now includes five eleven-observation fisheries series ending provisional
 ## Non-metal production · 4 October 2026
 
 [Cement and fertilisers](../economy/cement-and-fertiliser-production.md) add named plant/line output. Selected plants do not establish statewide manufacturing totals.
+
+## Food-processing checkpoint · 4 October 2026
+
+[Food processing and dairy](../economy/food-processing-and-dairy.md) reuse rice series and add procurement/turnover. Actual food-processing quantities remain a gap; this checkpoint does not complete RES-017.

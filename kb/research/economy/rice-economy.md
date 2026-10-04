@@ -99,3 +99,7 @@ A study published **19 February 2026** describes Kalajeera from Macchra, Koraput
 The bounded research did not establish a matched producer-to-retail transaction or an origin-attributed overseas shipment. Seek those records after **11 October 2026**. A saved report of dispatch to Haryana is a secondary domestic-trade lead, not export evidence. No contact, order, interview or supplier endorsement has been made.
 
 [Koraput ingredient profile](../food/koraput-kalajeera-rice.md) — Connects the place-linked ingredient to market evidence without treating listings as sales or retail prices as farmer returns.
+
+## Food-processing evidence · 4 October 2026
+
+[The dairy and processing study](food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.

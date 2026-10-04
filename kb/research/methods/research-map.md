@@ -487,3 +487,7 @@ One synthesis and three source identities extend existing plant/company records.
 ## Non-metal production · 4 October 2026
 
 Existing manufacturing and district pages extended with one synthesis and three publisher identities. IFFCO and PPL are distinct operators. This is a bounded map extension.
+
+## Food-processing checkpoint · 4 October 2026
+
+Existing rice, livestock, sweets and district concepts extended through one processing study. Crop observations are reused by identity, not duplicated. The existing Survey source is reused; no independent corroboration implied.

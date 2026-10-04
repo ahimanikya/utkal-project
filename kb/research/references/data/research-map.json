@@ -20391,6 +20391,113 @@
       "source_ids": [
         "nonmetal-ppl2026"
       ]
+    },
+    {
+      "id": "economy/food-processing-and-dairy",
+      "title": "Food processing: dairy, crop inputs and district business questions",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/food-processing-and-dairy.md",
+      "project_path": "kb/research/economy/food-processing-and-dairy.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "food-omfed-milkday2025",
+        "food-omfed-conversion2024",
+        "food-omfed-plants",
+        "food-omfed-home",
+        "food-omfed-ar2014",
+        "sector-survey"
+      ]
+    },
+    {
+      "id": "sources/food-omfed-milkday2025",
+      "title": "OMFED National Milk Day account, 26 November 2025",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-omfed-milkday2025.md",
+      "project_path": "kb/research/sources/food-omfed-milkday2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "food-omfed-milkday2025"
+      ]
+    },
+    {
+      "id": "sources/food-omfed-conversion2024",
+      "title": "OMFED milk-conversion tender, May 2024",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-omfed-conversion2024.md",
+      "project_path": "kb/research/sources/food-omfed-conversion2024.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "food-omfed-conversion2024"
+      ]
+    },
+    {
+      "id": "sources/food-omfed-plants",
+      "title": "OMFED dairy plant directory",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-omfed-plants.md",
+      "project_path": "kb/research/sources/food-omfed-plants.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "food-omfed-plants"
+      ]
+    },
+    {
+      "id": "sources/food-omfed-home",
+      "title": "OMFED home page: undated operating claims",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-omfed-home.md",
+      "project_path": "kb/research/sources/food-omfed-home.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "food-omfed-home"
+      ]
+    },
+    {
+      "id": "sources/food-omfed-ar2014",
+      "title": "OMFED report linked as Annual Report 2013–2014",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-omfed-ar2014.md",
+      "project_path": "kb/research/sources/food-omfed-ar2014.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "food-omfed-ar2014"
+      ]
     }
   ],
   "shared_publications": [
@@ -21109,7 +21216,17 @@
         "sources/nonmetal-iffco2026.md",
         "sources/nonmetal-dalmia2025.md",
         "sources/nonmetal-ppl2026.md",
-        "references/data/nonmetal-production-series.json"
+        "references/data/nonmetal-production-series.json",
+        "economy/food-processing-and-dairy.md",
+        "sources/food-omfed-milkday2025.md",
+        "sources/food-omfed-conversion2024.md",
+        "sources/food-omfed-plants.md",
+        "sources/food-omfed-home.md",
+        "sources/food-omfed-ar2014.md",
+        "references/data/food-processing-series.json",
+        "statistics/agriculture.md",
+        "statistics/livestock.md",
+        "stories/sweets-from-milk-to-market.md"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
@@ -21954,8 +22071,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1350,
-    "updated_at": "2026-10-04T21:26:34.708615+00:00",
+    "records_mapped": 1356,
+    "updated_at": "2026-10-04T22:28:16.085032+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22653,6 +22770,11 @@
       "run_id": "2026-10-04-nonmetal-production",
       "at": "2026-10-04T21:26:34.708615+00:00",
       "scope": "Existing manufacturing and district records extended; IFFCO and PPL kept distinct. Selected publisher tables are not independent audits."
+    },
+    {
+      "run_id": "2026-10-04-food-processing-output",
+      "at": "2026-10-04T22:28:16.085032+00:00",
+      "scope": "Existing rice, livestock and sweets records reused; one food-processing synthesis and five OMFED source identities added. Economic Survey identity retained."
     }
   ]
 }

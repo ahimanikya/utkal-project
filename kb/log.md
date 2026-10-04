@@ -543,3 +543,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Cement and fertiliser production
 
 [Research receipt](records/nonmetal-production-2026-10-04.json):Original plant tables saved with product, sales and line boundaries. Local orders and jobs remain unverified. No website release.
+
+## 4 October 2026 · Food processing and dairy evidence
+
+[Research receipt](records/food-processing-output-2026-10-04.json):Dated procurement and turnover are distinct from product output; crop records reused. Processing volume and supplier orders remain unknown. No website release.

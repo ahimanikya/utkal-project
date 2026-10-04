@@ -496,3 +496,7 @@ Exact RSP FY2024–25 return, source rounding policy and original CAG p.39 remai
 ## Non-metal production · 4 October 2026
 
 PPL company narrative/table conflict and absent plant-specific output held; retry 11 October. Longer Rajgangpur line series and food-processing output remain open.
+
+## Food-processing checkpoint · 4 October 2026
+
+OMFED dated annual product output, mill throughput and current annual accounts remain unavailable. Survey procurement needs facsimile review; homepage/directory plant counts need scope reconciliation. Retry these fields 11 October; continue independent food-plant output research.
