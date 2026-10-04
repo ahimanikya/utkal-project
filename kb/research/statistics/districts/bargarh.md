@@ -40,3 +40,7 @@ The agriculture report records rice crop area of **350.97 thousand hectares**, r
 ## Historical people and work baseline · 4 October 2026
 
 Census 2011 recorded literacy of **74.62% among residents aged seven and above**, and **762,092 main plus marginal workers**. NFHS-5’s 2019–21 round recorded **38.9% of children under five as stunted**, as reproduced in a 2022 parliamentary reply. These periods and populations differ; none is a current estimate. [Sources, all three nutrition indicators and interpretation limits](../western-southern-baselines.md).
+
+## Newer provisional survey evidence · 4 October 2026
+
+NFHS-6 reports under-five stunting **34.6%**, wasting **20.6%**, and underweight **37.4%**. Odisha fieldwork was July–November2024; exact district dates remain unknown. [Comparison, samples and limits](../western-southern-baselines.md) preserve adverse changes and the earlier observations.

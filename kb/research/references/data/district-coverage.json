@@ -523,6 +523,12 @@
       "path": "references/data/statistics-atlas.json",
       "sha256": "b66f66f47fc59892738ed3fe7264362a67e37f81836747598b30792c26095a43",
       "revision": "uncommitted RES-014 addition captured 2026-10-04T14:07:41.814042+00:00"
+    },
+    "source:references/data/statistics-atlas.json@regional-surveys-20261004": {
+      "layer": "source",
+      "path": "references/data/statistics-atlas.json",
+      "sha256": "ce8829b68c081d0f4694bc140cd47789550bdb49a2c8e510aa1bb43ce6c99f5d",
+      "revision": "captured 2026-10-04T14:26:40.438109+00:00"
     }
   },
   "domains": [
@@ -1018,9 +1024,42 @@
               "source_ids": [
                 "regional-nutrition-ls1060-2022"
               ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-stunted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-wasted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-underweight-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
             }
           ],
-          "missing_evidence": "Historical baseline added 4 October 2026; current outcomes, service quality and full survey comparability remain gaps."
+          "missing_evidence": "NFHS-6 provisional district nutrition added. Exact district dates, indicator sample bases, confidence intervals and current service quality remain open."
         },
         "education": {
           "status": "district_measure",
@@ -3111,9 +3150,42 @@
               "source_ids": [
                 "regional-nutrition-ls1060-2022"
               ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-stunted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-wasted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-underweight-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
             }
           ],
-          "missing_evidence": "Historical baseline added 4 October 2026; current outcomes, service quality and full survey comparability remain gaps."
+          "missing_evidence": "NFHS-6 provisional district nutrition added. Exact district dates, indicator sample bases, confidence intervals and current service quality remain open."
         },
         "education": {
           "status": "district_measure",
@@ -4069,9 +4141,42 @@
               "source_ids": [
                 "regional-nutrition-ls1060-2022"
               ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-stunted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-wasted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-underweight-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
             }
           ],
-          "missing_evidence": "Historical baseline added 4 October 2026; current outcomes, service quality and full survey comparability remain gaps."
+          "missing_evidence": "NFHS-6 provisional district nutrition added. Exact district dates, indicator sample bases, confidence intervals and current service quality remain open."
         },
         "education": {
           "status": "district_measure",
@@ -4703,6 +4808,11 @@
       "at": "2026-10-04T14:07:41.814042+00:00",
       "run_id": "2026-10-04-regional-handbooks",
       "scope": "24 historical district observations added for three districts; original audit inputs and snapshots preserved."
+    },
+    {
+      "at": "2026-10-04T14:26:40.438109+00:00",
+      "run_id": "2026-10-04-regional-survey-methods",
+      "scope": "Nine NFHS-6 nutrition estimates supplement existing three-district historical baselines; scope remains bounded."
     }
   ]
 }

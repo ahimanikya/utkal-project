@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T14:07:41.814042+00:00",
+  "updated_at": "2026-10-04T14:26:40.438109+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6949,6 +6949,94 @@
         }
       ],
       "scope": "Historical district evidence capture; not weekly release monitoring. Separate failed routes from recovered original PDFs."
+    },
+    {
+      "run_id": "2026-10-04-regional-survey-methods",
+      "checked_at": "2026-10-04T14:26:40.438109+00:00",
+      "sources": [
+        {
+          "source_id": "regional-nfhs5-odisha-compendium",
+          "url": "https://www.nfhsiips.in/downloadFile.php?link=NFHS-5_StateFact_Odisha__Odisha.pdf&path=assets%2Fpublication%2FNFHS-5%2FStateFact%2FOdisha%2F",
+          "status": "available",
+          "access_scope": "publisher_pdf",
+          "locator": "District introductions PDF pp.30,126,174; nutrition pp.33,129,177",
+          "sha256": "7e078ed79b2b278f85e617c89f1bbcc8f4f11bfeea25e4f780409bfc23a1da18",
+          "visual_review": "NFHS-5 district introductions; NFHS-6 three nutrition tables and sample appendix",
+          "same_survey_lineage": "NFHS-5 compendium, parliamentary annexure and NFHS-6 comparison columns are not independent surveys."
+        },
+        {
+          "source_id": "regional-nfhs6-odisha-compendium",
+          "url": "https://www.nfhsiips.in/downloadFile.php?link=NFHS-6_StateFact_Odisha__Odisha+Compendium.pdf&path=assets%2Fpublication%2FNFHS-6%2FStateFact%2FOdisha%2F",
+          "status": "available",
+          "access_scope": "publisher_pdf",
+          "locator": "Introduction PDF p.9; nutrition pp.28,92,124; sample appendix p.135",
+          "sha256": "10add7229840f10905a2bc0e606671faaa4e511f87c86e04068f7ee471cdaf0f",
+          "visual_review": "NFHS-5 district introductions; NFHS-6 three nutrition tables and sample appendix",
+          "same_survey_lineage": "NFHS-5 compendium, parliamentary annexure and NFHS-6 comparison columns are not independent surveys."
+        },
+        {
+          "name": "nfhs5-report",
+          "url": "https://sdg.odisha.gov.in/uploads/4ef06401-39ec-498a-b9af-a12677beada7_7a0bf064-b232-44d4-9e9e-e89d97e560d0.pdf",
+          "status": "unavailable",
+          "detail": "<urlopen error timed out>"
+        },
+        {
+          "name": "koraput-sdg",
+          "url": "https://sdg.odisha.gov.in/uploads/d91b039c-552c-4113-8fe9-7cd35aa2695b_04beabf8-6ec8-4dc6-adc3-24ee9707bc2a.pdf",
+          "status": "unavailable",
+          "detail": "<urlopen error timed out>"
+        },
+        {
+          "name": "bargarh-sdg",
+          "url": "https://sdg.odisha.gov.in/uploads/835cc6bf-5da3-4c58-8dd9-e2032f7b7db7_bd9fb18f-2bdb-45c8-9cca-174108986b26.pdf",
+          "status": "unavailable",
+          "detail": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://sdg.odisha.gov.in/uploads/2157d64f-23ab-4639-b50b-85b8ac96a277_27b97c41-b25f-458b-af3f-fa3a8392ccd2.pdf",
+          "status": "unavailable",
+          "access_scope": "web_and_HTTPS_download",
+          "detail": "Sambalpur SDG profile download timed out; no values adopted.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "url": "https://www.nfhsiips.in/nfhsuser/publication.php",
+          "status": "unavailable",
+          "access_scope": "web_open",
+          "detail": "502; subsequent direct HTTPS HTML and public selector succeeded."
+        },
+        {
+          "url": "https://rchiips.org/nfhs/districtfactsheet_NFHS-5.shtml",
+          "status": "unavailable",
+          "access_scope": "web_open",
+          "detail": "Tool failed; current IIPS publication selector recovered originals."
+        },
+        {
+          "url": "https://rchiips.org/nfhs/NFHS-5Reports/Odisha.pdf",
+          "status": "unavailable",
+          "access_scope": "web_open",
+          "detail": "Tool could not access legacy report route."
+        },
+        {
+          "url": "https://dhsprogram.com/pubs/pdf/FR374/FR374_Odisha.pdf",
+          "status": "unavailable",
+          "access_scope": "web_open_candidate",
+          "detail": "403; no contents adopted."
+        },
+        {
+          "url": "https://sdg.odisha.gov.in/Home/ResourceLibraryV2",
+          "status": "available",
+          "access_scope": "official_HTML_discovery",
+          "detail": "District SDG profiles discovered. Koraput and Bargarh PDF web text accessible but direct files unavailable; no SDG observations imported in this focused survey batch. Follow up under RES-018."
+        },
+        {
+          "url": "https://www.nfhsiips.in/nfhsuser/publication.php",
+          "status": "available",
+          "access_scope": "HTTPS_HTML_and_public_selector",
+          "detail": "Public directory returned NFHS-5 upload27 and NFHS-6 upload1634 for Odisha. Official downloadFile endpoint retrieved both PDFs without account or contact submission."
+        }
+      ],
+      "scope": "Three district nutrition and methods research; not a full NFHS or weekly-watch refresh."
     }
   ]
 }

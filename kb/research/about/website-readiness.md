@@ -229,3 +229,7 @@ A 30-district research map now exists locally. Cells are inventory scope, not qu
 ## 4 October 2026 · Regional baseline checkpoint
 
 24 historical observations and source-linked narrative added. Editorial review remains pending; Git review is separate from website publication.
+
+## 4 October 2026 · Regional survey readiness
+
+Original IIPS district tables now support a balanced nutrition story. Values remain provisional; no human review or website release claimed.

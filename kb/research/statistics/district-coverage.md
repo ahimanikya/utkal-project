@@ -84,3 +84,7 @@ The portable audit includes 21 source-only observation snapshots with original c
 ## RES-014 extension · 4 October 2026
 
 [Historical people and work baselines](western-southern-baselines.md) add 24 observations. The original audit narrative above records what was mapped before this extension; its input snapshots remain preserved. Current services and learning outcomes remain unresolved.
+
+## Survey extension · 4 October 2026
+
+Nine provisional NFHS-6 nutrition estimates supplement the three district baselines. Survey sample totals and statewide fieldwork windows are now documented; exact child measurement denominators and district boundary comparability remain open. [Updated evidence](western-southern-baselines.md).

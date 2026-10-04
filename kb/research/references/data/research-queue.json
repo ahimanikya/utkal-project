@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T14:07:41.814042+00:00",
+  "updated_at": "2026-10-04T14:26:40.438109+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1428,14 +1428,15 @@
       "title": "Western and southern coverage",
       "done_when": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
       "target": "collections/index.md",
-      "status": "in_progress",
-      "attempts": 1,
+      "status": "completed",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": "2026-10-04T14:07:41.814042+00:00",
-      "next_step": "RES-014: recover district NFHS factsheet methods and newer accessible service evidence; DES 2024 PDF retry due 2026-10-11. Preserve historical baselines and current unknowns.",
+      "last_worked_at": "2026-10-04T14:26:40.438109+00:00",
+      "next_step": "RES-015: GSDP and sector time series. RES-018 reuses this district survey capture; DES/SDG recovery retry2026-10-11 and unresolved indicator denominators remain explicit.",
       "evidence_outputs": [
         "statistics/western-southern-baselines.md",
-        "references/data/regional-district-baselines.json"
+        "references/data/regional-district-baselines.json",
+        "references/data/regional-survey-methods.json"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1448,7 +1449,8 @@
           "statistics/district-coverage.md",
           "references/data/district-coverage.json",
           "statistics/western-southern-baselines.md",
-          "references/data/regional-district-baselines.json"
+          "references/data/regional-district-baselines.json",
+          "references/data/regional-survey-methods.json"
         ],
         "project_records": [
           "kb/research/destinations/regions.json",
@@ -1471,6 +1473,22 @@
             "retry_after": "2026-10-11"
           },
           "next_step": "RES-014: recover district NFHS factsheet methods and newer accessible service evidence; DES 2024 PDF retry due 2026-10-11. Preserve historical baselines and current unknowns."
+        },
+        {
+          "run_id": "2026-10-04-regional-survey-methods",
+          "at": "2026-10-04T14:26:40.438109+00:00",
+          "outcome": "district_survey_methods_and_newer_nutrition",
+          "completion_criteria_met": true,
+          "completion_scope": "Bounded district expansion exists across Census and two NFHS rounds, with methods and boundaries qualified. Not exhaustive district coverage.",
+          "remaining_followups": {
+            "task_id": "RES-018",
+            "retry_after": "2026-10-11",
+            "gaps": [
+              "District-specific fieldwork dates, indicator-specific valid measurement denominators and confidence intervals.",
+              "Exact district boundary crosswalk across Census2011 and NFHS rounds.",
+              "DES2024 handbook recovery and SDG administrative-service table validation."
+            ]
+          }
         }
       ]
     },
@@ -1567,7 +1585,9 @@
         "source_records": [
           "statistics/health.md",
           "statistics/education.md",
-          "statistics/employment.md"
+          "statistics/employment.md",
+          "references/data/regional-survey-methods.json",
+          "statistics/western-southern-baselines.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

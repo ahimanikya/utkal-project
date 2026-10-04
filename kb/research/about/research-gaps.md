@@ -458,3 +458,7 @@ Comparable district health and learning outcomes remain unmapped in inspected at
 ## 4 October 2026 · RES-014 remaining evidence
 
 Historical Census 2011 and NFHS-5 measures are now mapped for three districts; current outcomes remain unknown. DES 2024 handbook fetches unavailable, retry 11 October. Full NFHS district methods remain to recover.
+
+## 4 October 2026 · Regional survey recovery
+
+NFHS-5 district samples and WHO indicator definitions recovered; nine provisional NFHS-6 nutrition estimates added. Exact child measurement denominators, confidence intervals and district dates remain unknown. DES/SDG recovery retained for RES-018, retry11October.

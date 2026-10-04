@@ -488,3 +488,7 @@ Completed RES-013: linked all 30 districts across five research domains. Saved e
 ## 4 October 2026 · Regional baseline checkpoint
 
 RES-014: 24 Census/NFHS district observations checked against original tables; four source documents, three unavailable DES downloads. Current district claims remain withheld.
+
+## 4 October 2026 · NFHS district originals recovered
+
+RES-014 completed: nine newer observations, nine older observations supplemented with methods, nine point-estimate differences. Preserve provisional status and mixed trends; next RES-015.
