@@ -5430,6 +5430,12 @@
         "locator": "Printed pp.49,56,59 / PDF pp.69,76,79 visually rechecked",
         "capture_sha256": "4c9b97844771ca234658df8ea8d58da8576ffb93a8b665020067d61c8c6193c6",
         "note": "Existing workforce observations reused. BRSR labels 16,722 other-than-permanent workers at year end; p.49 describes contractors engaged during March. Preserve both wordings; unit allocation and unique-person method unresolved."
+      },
+      {
+        "checked_on": "2026-10-04",
+        "run_id": "2026-10-04-nalco-investment",
+        "locator": "Printed pp.12–14,190–191 / PDF32–34,210–211; financial tables and project paragraphs visually inspected",
+        "scope": "Project costs, trial/testing, alternate supply, MDO appointment, company capex and CWIP expense component. Original saved PDF reused, no fresh download or current operation verification."
       }
     ]
   },
@@ -6407,7 +6413,15 @@
       },
       "scope": "Public read-only listing used by website"
     },
-    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf"
+    "origin_asset_url": "https://elegant-canvas-ad15652696.media.strapiapp.com/IMFA_Annual_Report_FY_2526_10bbee90f9.pdf",
+    "capture_history": [
+      {
+        "run_id": "2026-10-04-investment-implementation",
+        "at": "2026-10-04T14:54:26.289090+00:00",
+        "scope": "Payment footnote p.17, acquisition/greenfield p.51, note45(vi) p.198; original PDF pp.10,27,101 visually inspected.",
+        "fresh_download": false
+      }
+    ]
   },
   "mining-imfa-sukinda-2026": {
     "id": "mining-imfa-sukinda-2026",
@@ -7357,5 +7371,40 @@
     "locator": "Introduction PDF p.9; nutrition pp.28,92,124; sample appendix p.135",
     "capture_sha256": "10add7229840f10905a2bc0e606671faaa4e511f87c86e04068f7ee471cdaf0f",
     "capture_note": "Original publisher download resolved through public publication selector. Exact PDF issue date not printed in inspected material. NFHS-6 results explicitly provisional. District sample totals are not indicator-specific denominators. Selected nutrition and sample fields checked; no all-district extraction or exhaustive review claimed."
+  },
+  "investment-tata-imfa-completion": {
+    "id": "investment-tata-imfa-completion",
+    "title": "Tata Steel: completed sale of Jajpur ferro alloy plant to IMFA",
+    "resource": "https://www.tatasteel.com/media/25494/bsense.pdf",
+    "publisher": "Tata Steel Limited",
+    "published_on": "2026-02-27",
+    "accessed_on": "2026-10-04",
+    "locator": "PDF p.1, completed sale and consideration paragraph",
+    "capture_method": "official_PDF_text",
+    "capture_note": "Seller exchange disclosure. Agreement and completion concern the same asset transfer, not two investment flows. No October operating status established."
+  },
+  "investment-tata-imfa-agreement": {
+    "id": "investment-tata-imfa-agreement",
+    "title": "Tata Steel: asset transfer agreement for Jajpur ferro alloy plant",
+    "resource": "https://www.tatasteel.com/media/24981/tata-steel-limited-press-release.pdf",
+    "publisher": "Tata Steel Limited",
+    "published_on": "2025-11-04",
+    "accessed_on": "2026-10-04",
+    "locator": "PDF p.2, agreement and expected closing paragraph",
+    "capture_method": "official_PDF_text",
+    "capture_note": "Seller exchange disclosure. Agreement and completion concern the same asset transfer, not two investment flows. No October operating status established."
+  },
+  "investment-nalco-ar2025": {
+    "id": "investment-nalco-ar2025",
+    "title": "NALCO 44th Annual Report 2024–25",
+    "resource": "https://nalcoindia.com/wp-content/uploads/2025/09/44th-Annual-Report-2024-25-NALCO.pdf",
+    "publisher": "National Aluminium Company Limited",
+    "published_on": null,
+    "publication_date_basis": "Exact release date not checked; FY2024–25 edition, URL upload directory September2025 is not a verified publication date.",
+    "accessed_on": "2026-10-04",
+    "locator": "Printed p.18 / PDF p.20, sections8.1–8.2",
+    "capture_method": "official_PDF_download_extract_visual_check",
+    "sha256": "a2f688e0d2cf46251be937cd553ae7185ce6efe6234b2d48bf24d1557ce79e2e",
+    "capture_note": "Web fetch failed502; direct official download succeeded. Same publisher as2026 report, different historical edition; not independent corroboration."
   }
 }

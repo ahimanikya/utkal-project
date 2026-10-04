@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T14:42:04.663570+00:00",
+  "updated_at": "2026-10-04T15:56:49.990348+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7081,6 +7081,84 @@
         }
       ],
       "scope": "Seven selected macro/sector series; original access failures distinct from available indexed tables. Not a weekly release refresh."
+    },
+    {
+      "run_id": "2026-10-04-investment-implementation",
+      "checked_at": "2026-10-04T14:54:26.289090+00:00",
+      "sources": [
+        {
+          "source_id": "investment-tata-imfa-agreement",
+          "url": "https://www.tatasteel.com/media/24981/tata-steel-limited-press-release.pdf",
+          "status": "available",
+          "access_scope": "official_PDF_text",
+          "locator": "PDF p.2, agreement and expected closing paragraph",
+          "published_on": "2025-11-04"
+        },
+        {
+          "source_id": "investment-tata-imfa-completion",
+          "url": "https://www.tatasteel.com/media/25494/bsense.pdf",
+          "status": "available",
+          "access_scope": "official_PDF_text",
+          "locator": "PDF p.1, completed sale and consideration paragraph",
+          "published_on": "2026-02-27"
+        },
+        {
+          "source_id": "mining-imfa-ar2026",
+          "status": "available",
+          "access_scope": "saved_original_PDF_extended_extraction",
+          "locator": "Printed pp.17,51,198 / PDF pp.10,27,101; amounts and project paragraphs visually checked",
+          "sha256": "76e403539924a9e0a4620853fc032d14ae44b821ce820ef42809be00427ed18d",
+          "detail": "Original capture reused; not a new download or independent corroboration."
+        },
+        {
+          "source_id": "mining-imfa-knr2-2026",
+          "status": "available",
+          "access_scope": "saved_verified_clearance_record_reuse",
+          "locator": "Clearance transfer 4 September2026, Annexure I p.4",
+          "detail": "Reused existing ministry evidence for implemented four furnaces and unimplemented expansion; no fresh operational check."
+        }
+      ],
+      "scope": "One Jajpur acquisition/expansion cluster; no complete weekly investment refresh or current operating check."
+    },
+    {
+      "run_id": "2026-10-04-nalco-investment",
+      "checked_at": "2026-10-04T15:56:49.990348+00:00",
+      "sources": [
+        {
+          "source_id": "investment-nalco-ar2025",
+          "url": "https://nalcoindia.com/wp-content/uploads/2025/09/44th-Annual-Report-2024-25-NALCO.pdf",
+          "status": "available",
+          "access_scope": "direct_official_PDF_extract_visual_check",
+          "locator": "Printed p.18 / PDF p.20, sections8.1–8.2",
+          "sha256": "a2f688e0d2cf46251be937cd553ae7185ce6efe6234b2d48bf24d1557ce79e2e",
+          "fetch_history": [
+            {
+              "method": "web_open",
+              "status": "unavailable",
+              "error": "502 Bad Gateway"
+            },
+            {
+              "method": "direct_official_download",
+              "status": "available"
+            }
+          ]
+        },
+        {
+          "source_id": "mining-nalco-ar2026",
+          "status": "available",
+          "access_scope": "saved_original_PDF_extended_extraction",
+          "locator": "Printed pp.12–14,190–191 / PDF32–34,210–211",
+          "sha256": "4c9b97844771ca234658df8ea8d58da8576ffb93a8b665020067d61c8c6193c6",
+          "fresh_download": false
+        },
+        {
+          "url": "https://nalcoindia.com/pre-rel/",
+          "status": "unavailable",
+          "error": "502 Bad Gateway",
+          "scope": "No current commissioning status established. Search leads are not promoted to verified events."
+        }
+      ],
+      "scope": "NALCO project implementation and historical comparison; targeted search is not a complete weekly release check."
     }
   ]
 }

@@ -4798,6 +4798,14 @@
       "content_type": "Statistical Topic",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/investment-nalco-ar2025",
+      "primary_subject": "economy",
+      "secondary_subjects": [],
+      "content_type": "Statistical Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7082,6 +7090,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Historical aggregates fill part of three district evidence profiles; this does not establish current service quality."
+    },
+    {
+      "from": "journeys/investment",
+      "to": "economy/company-imfa",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects the named asset transfer to existing production and workforce evidence; those measures remain separate."
+    },
+    {
+      "from": "journeys/investment",
+      "to": "statistics/company-investment",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Distinguishes a project-linked acquisition payment from company-wide capital expenditure."
+    },
+    {
+      "from": "journeys/investment",
+      "to": "economy/bauxite-to-aluminium",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects refinery implementation to its documented raw-material chain; this does not establish local business demand or commissioning."
     }
   ],
   "relationship_types": {

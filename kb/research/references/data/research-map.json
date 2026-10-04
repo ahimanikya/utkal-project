@@ -2635,7 +2635,13 @@
       "subject_ids": [],
       "source_ids": [
         "investment-survey-full-2026",
-        "investment-survey-summary-2026"
+        "investment-survey-summary-2026",
+        "investment-tata-imfa-agreement",
+        "investment-tata-imfa-completion",
+        "mining-imfa-ar2026",
+        "mining-imfa-knr2-2026",
+        "investment-nalco-ar2025",
+        "mining-nalco-ar2026"
       ]
     },
     {
@@ -6902,7 +6908,9 @@
         "economy"
       ],
       "source_ids": [
-        "enterprise-nalco2026"
+        "enterprise-nalco2026",
+        "investment-nalco-ar2025",
+        "mining-nalco-ar2026"
       ]
     },
     {
@@ -16595,7 +16603,8 @@
       "source_ids": [
         "mining-nalco-ar2026",
         "mining-nalco-refinery",
-        "mining-dbl-pottangi"
+        "mining-dbl-pottangi",
+        "investment-nalco-ar2025"
       ],
       "added_at": "2026-10-01T23:35:36.358411+00:00"
     },
@@ -19871,6 +19880,23 @@
         "regional-nfhs5-odisha-compendium",
         "regional-nfhs6-odisha-compendium"
       ]
+    },
+    {
+      "id": "sources/investment-nalco-ar2025",
+      "title": "NALCO 44th Annual Report 2024–25",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/investment-nalco-ar2025.md",
+      "project_path": null,
+      "project_counterpart_present": false,
+      "copy_state": "new_local_research_record",
+      "subject_ids": [
+        "economy"
+      ],
+      "source_ids": [
+        "investment-nalco-ar2025"
+      ],
+      "added_at": "2026-10-04T15:56:49.990348+00:00"
     }
   ],
   "shared_publications": [
@@ -20540,11 +20566,15 @@
       "title": "Investment implementation evidence",
       "source_records": [
         "references/data/investment-tracker.json",
-        "journeys/investment.md"
+        "journeys/investment.md",
+        "economy/company-imfa.md",
+        "references/data/mining-programme.json",
+        "economy/bauxite-to-aluminium.md",
+        "statistics/company-investment.md"
       ],
       "project_records": [],
       "remaining_scope": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
-      "status_unchanged": "pending",
+      "status_unchanged": "in_progress",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
     {
@@ -21369,8 +21399,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1318,
-    "updated_at": "2026-10-04T14:42:04.663570+00:00",
+    "records_mapped": 1319,
+    "updated_at": "2026-10-04T15:56:49.990348+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22023,6 +22053,16 @@
       "at": "2026-10-04T14:42:04.663570+00:00",
       "run_id": "2026-10-04-gsdp-series",
       "scope": "Enhanced existing economic narrative and RES-015 reuse pointers; no new duplicate concept or independent-source claim."
+    },
+    {
+      "at": "2026-10-04T14:54:26.289090+00:00",
+      "run_id": "2026-10-04-investment-implementation",
+      "scope": "Enhanced existing investment identity; reused IMFA/NALCO context and added RES-016 pointers. Three asset/phase IDs prevent duplicate project accounting."
+    },
+    {
+      "at": "2026-10-04T15:56:49.990348+00:00",
+      "run_id": "2026-10-04-nalco-investment",
+      "scope": "Extended existing investment and NALCO identities; three project IDs and distinct annual-report vintages, not independent corroboration."
     }
   ]
 }

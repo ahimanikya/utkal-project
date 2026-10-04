@@ -507,3 +507,11 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Economic time-series research checkpoint
 
 [Research receipt](records/gsdp-series-2026-10-04.json): RES-015 adds seven annual macro/sector series and matched intervals. Source image review remains pending; adverse movements and estimate vintages retained. Next independent task RES-016; no website release.
+
+## 4 October 2026 · Investment implementation checkpoint
+
+[Research receipt](records/investment-implementation-2026-10-04.json): RES-016 adds three project identities, six stage events and acquisition payment evidence while preserving funding and operating unknowns. Continue with NALCO project evidence; no website release.
+
+## 4 October 2026 · NALCO implementation checkpoint
+
+[Research receipt](records/nalco-investment-2026-10-04.json): RES-016 adds three NALCO identities, five stage events and scoped accounting evidence. Construction cash expenditure and current operation remain unknown; retry11October, independent RES-017 next. No website release.

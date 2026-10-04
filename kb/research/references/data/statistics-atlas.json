@@ -6109,7 +6109,17 @@
       "research_batch": "enterprise",
       "checked_on": "2026-09-27",
       "publication_readiness": "needs_source_table_review",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "additional_verification": [
+        {
+          "at": "2026-10-04T15:56:49.990348+00:00",
+          "source_id": "mining-nalco-ar2026",
+          "locator": "Printed p.14 / PDF34, section9",
+          "scope": "2068.16 standalone amount is consistent with the old rounded2068; original value and capture preserved.",
+          "same_publisher_not_independent": true,
+          "linked_observation_id": "nalco-ar2026-capex-standalone"
+        }
+      ]
     },
     {
       "id": "enterprise-hockey-teams",
@@ -22654,6 +22664,66 @@
       "checked_on": "2026-10-04",
       "publication_readiness": "needs_source_table_review",
       "human_reviewed": false
+    },
+    {
+      "id": "nalco-ar2026-capex-standalone",
+      "topic": "company-investment",
+      "metric": "Company capital expenditure achieved, standalone",
+      "value": 2068.16,
+      "unit": "INR crore",
+      "period": "2025–26",
+      "geography": "NALCO company operations; project/location allocation not established",
+      "price_basis": "reported nominal accounting amount",
+      "source_id": "mining-nalco-ar2026",
+      "locator": "Printed p.14 / PDF34, section9",
+      "evidence_status": "company-reported-outcome",
+      "definition": "NALCO reported standalone annual capex achievement.",
+      "caveat": "Company-wide, not wholly allocated to Odisha or Damanjodi. More precise same-publisher evidence for existing rounded2068 observation; not additional spending.",
+      "research_batch": "2026-10-04-nalco-investment",
+      "checked_on": "2026-10-04",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "additive": false
+    },
+    {
+      "id": "nalco-ar2026-capex-consolidated",
+      "topic": "company-investment",
+      "metric": "Company capital expenditure achieved, consolidated",
+      "value": 2071.78,
+      "unit": "INR crore",
+      "period": "2025–26",
+      "geography": "NALCO company operations; project/location allocation not established",
+      "price_basis": "reported nominal accounting amount",
+      "source_id": "mining-nalco-ar2026",
+      "locator": "Printed p.14 / PDF34, section9",
+      "evidence_status": "company-reported-outcome",
+      "definition": "Reported consolidated capex considering joint-venture capitalisation.",
+      "caveat": "Different entity scope from standalone; do not add the two or treat either as project cash spending.",
+      "research_batch": "2026-10-04-nalco-investment",
+      "checked_on": "2026-10-04",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "additive": false
+    },
+    {
+      "id": "nalco-ar2026-mines-refinery-overdue-cwip",
+      "topic": "company-investment",
+      "metric": "Mines and refinery CWIP overdue or exceeding original cost plan",
+      "value": 4664.84,
+      "unit": "INR crore",
+      "period": "2026-03-31",
+      "geography": "NALCO company operations; project/location allocation not established",
+      "price_basis": "reported nominal accounting amount",
+      "source_id": "mining-nalco-ar2026",
+      "locator": "Printed p.191 / PDF211, note6.A.2, Mines & Refinery total",
+      "evidence_status": "company-reported-outcome",
+      "definition": "Standalone note6.A.2 aggregate balance for projects overdue OR over original cost.",
+      "caveat": "Adverse category combines schedule and cost criteria. Not a monetary overrun, not a single-project balance, not proof every project is late and over budget.",
+      "research_batch": "2026-10-04-nalco-investment",
+      "checked_on": "2026-10-04",
+      "publication_readiness": "source_checked_editorial_review_pending",
+      "human_reviewed": false,
+      "additive": false
     }
   ],
   "calculations": [

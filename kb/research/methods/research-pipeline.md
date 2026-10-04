@@ -295,3 +295,11 @@ RES-015: GSDP and sector time series. RES-018 reuses this district survey captur
 ## 4 October 2026 · RES-015 checkpoint
 
 RES-016 investment implementation next; RES-015 original table-image review retry 2026-10-11. Do not repeat indexed extraction.
+
+## 4 October 2026 · RES-016 in progress
+
+Continue RES-016 with NALCO Damanjodi expansion: reuse saved annual report before browsing for project-level expenditure and stage changes; retain this IMFA case. KNR1/KNR2 commissioning and payment bridge remain follow-up gaps.
+
+## 4 October 2026 · RES-016 checkpoint and retry
+
+Retry RES-016 on2026-10-11 for project-specific construction cash expenditure, observed NALCO/IMFA commissioning and KNR2 payment reconciliation. Reuse captured annual reports first; current releases-page502 and aggregate accounting notes cannot fill those fields. Continue independently with RES-017 trade/logistics/production next run.

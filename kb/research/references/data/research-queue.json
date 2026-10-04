@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T14:42:04.663570+00:00",
+  "updated_at": "2026-10-04T15:56:49.990348+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1538,23 +1538,49 @@
       "title": "Investment implementation evidence",
       "done_when": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
       "target": "journeys/investment.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "in_progress",
+      "attempts": 2,
       "dependencies": [],
-      "last_worked_at": null,
-      "next_step": "Track project identities, actual expenditure and stage transitions; deduplicate announcements and retain domestic/foreign coverage uncertainty.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
+      "last_worked_at": "2026-10-04T15:56:49.990348+00:00",
+      "next_step": "Retry RES-016 on2026-10-11 for project-specific construction cash expenditure, observed NALCO/IMFA commissioning and KNR2 payment reconciliation. Reuse captured annual reports first; current releases-page502 and aggregate accounting notes cannot fill those fields. Continue independently with RES-017 trade/logistics/production next run.",
+      "evidence_outputs": [
+        "journeys/investment.md",
+        "references/data/investment-tracker.json",
+        "statistics/company-investment.md",
+        "sources/investment-nalco-ar2025.md"
+      ],
+      "retry_after": "2026-10-11",
+      "blocker": "Inspected NALCO notes do not disclose full project cash expenditure; current commissioning release fetch unavailable502. Preserve partial completion; independent RES-017 remains eligible.",
       "reuse_before_research": {
         "source_records": [
           "references/data/investment-tracker.json",
-          "journeys/investment.md"
+          "journeys/investment.md",
+          "economy/company-imfa.md",
+          "references/data/mining-programme.json",
+          "economy/bauxite-to-aluminium.md",
+          "statistics/company-investment.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-investment-implementation",
+          "at": "2026-10-04T14:54:26.289090+00:00",
+          "outcome": "imfa_project_identity_and_payment_checkpoint",
+          "completion_criteria_met": false,
+          "scope": "Three identities, six dated stage events and three overlapping financial observations; public-sector project cohort remains."
+        },
+        {
+          "run_id": "2026-10-04-nalco-investment",
+          "at": "2026-10-04T15:56:49.990348+00:00",
+          "outcome": "nalco_public_sector_project_checkpoint",
+          "completion_criteria_met": false,
+          "scope": "Three related identities, five stage events, project estimates/CWIP components and company capex; actual construction cash and current operation unresolved.",
+          "retry_after": "2026-10-11"
+        }
+      ]
     },
     {
       "id": "RES-017",
