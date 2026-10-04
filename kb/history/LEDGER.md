@@ -940,3 +940,9 @@ The approved Chilika trail is published with four photographic chapters and thre
 The Founder requested removal of AI-generated tags beside images. Captions now focus on the scene; provenance remains in end credits and project records.
 
 [Candidate evidence](../records/image-label-cleanup-2026-10-04.json). Not yet published.
+
+## UTP-HIS-0223 · Quiet credits, clear pictures
+
+The image-label cleanup is published. Live HTML checks covered 124 pages and 560 image elements; provenance stays in the end credits.
+
+[Publication evidence](../records/image-label-publication-2026-10-04.json) · [PR96](https://github.com/ahimanikya/utkal-project/pull/96).
