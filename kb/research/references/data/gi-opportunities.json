@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T23:24:42.177966+00:00",
+  "updated_at": "2026-10-04T23:40:09.509522+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -57,12 +57,16 @@
       "working_name": "Puri Khaja",
       "research_stage": "priority_desk_dossier",
       "registry_screen": "No matching Puri Khaja name found in bounded index search",
-      "reuse_paths": [],
+      "reuse_paths": [
+        "economy/khaja-gi-comparison.md"
+      ],
       "basis": "Historical MSME cluster listing and Odisha Review food description support a Puri association; original captures unavailable.",
-      "next_action": "Recover original cluster and historical records; compare actual specification with Silao Khaja and Goan Khaje; identify producer representative.",
+      "next_action": "Establish Puri technical specification, boundary and name-use evidence against recovered comparators; identify legitimate producer representation.",
       "source_ids": [
         "gi-puri-msme2019",
-        "gi-temple-food2019"
+        "gi-temple-food2019",
+        "gi-silao-journal2018",
+        "gi-goan-khaje-journal2020"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -567,10 +571,119 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
+    "Recover Gamosa of Assam original specification for the Puri gamucha identity study; keep local identity unresolved.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
-    "Compare original Silao/Goan Khaje specifications; prepare a product differentiation table.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."
   ],
-  "retry_after": "2026-10-11"
+  "retry_after": "2026-10-11",
+  "specification_comparisons": [
+    {
+      "id": "GI-SPEC-584",
+      "application_number": 584,
+      "source_id": "gi-silao-journal2018",
+      "publication_date": "2018-08-09",
+      "source_pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "evidence_class": "advertised_applicant_specification",
+      "goods": {
+        "flour": "Murariya wheat",
+        "form": "square layered preparation",
+        "dough_sheets": {
+          "min": 12,
+          "max": 16,
+          "unit": "sheets",
+          "page": 14
+        },
+        "finishing": "ghee frying; sugar or jaggery syrup"
+      },
+      "geography": "Silao, Nalanda district, Bihar",
+      "geography_page": 15,
+      "inspection_page": 19,
+      "place_link_independently_verified": false,
+      "current_enforcement_verified": false,
+      "recipe_ready": false
+    },
+    {
+      "id": "GI-SPEC-655",
+      "application_number": 655,
+      "source_id": "gi-goan-khaje-journal2020",
+      "publication_date": "2020-07-30",
+      "source_pages": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "evidence_class": "advertised_applicant_specification",
+      "goods": {
+        "flour": "chickpea",
+        "form": "elongated sticks",
+        "finishing": "edible-oil frying; ginger-jaggery coating and sesame"
+      },
+      "geography": "Goa",
+      "geography_page": 50,
+      "inspection_page": 55,
+      "place_link_independently_verified": false,
+      "current_enforcement_verified": false,
+      "recipe_ready": false
+    }
+  ],
+  "specification_holds": [
+    {
+      "id": "GI-HOLD-SILAO-FAT",
+      "source_id": "gi-silao-journal2018",
+      "field": "ingredient proportions",
+      "status": "conflicted",
+      "readings": [
+        {
+          "page": 15,
+          "ghee_percent": 20,
+          "listed_total_percent": 100
+        },
+        {
+          "page": 19,
+          "ghee_percent": 30,
+          "listed_total_percent": 110
+        }
+      ],
+      "resolution": null,
+      "next_action": "Look for an official correction or later certified specification; do not normalize.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "id": "GI-HOLD-GOA-UTENSIL",
+      "source_id": "gi-goan-khaje-journal2020",
+      "field": "lead-coated copper wording",
+      "page": 53,
+      "status": "quarantined",
+      "reason": "Do not reproduce as cooking guidance; historical application text is not a validated food-safety instruction.",
+      "resolution": null,
+      "next_action": "Check original technical annexure or official correction before any process adaptation.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "id": "GI-HOLD-GOA-ECONOMICS",
+      "source_id": "gi-goan-khaje-journal2020",
+      "field": "production and turnover",
+      "page": 55,
+      "status": "excluded_from_quantitative_comparison",
+      "reason": "No sufficiently specified observation period or survey basis for a matched economic comparison.",
+      "next_action": "Seek dated producer/department series with scope and units.",
+      "retry_after": "2026-10-11"
+    }
+  ]
 }

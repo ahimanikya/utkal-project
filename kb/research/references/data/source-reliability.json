@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T23:24:42.177966+00:00",
+  "updated_at": "2026-10-04T23:40:09.509522+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -8393,6 +8393,125 @@
           "retry_after": "2026-10-11"
         }
       ]
+    },
+    {
+      "run_id": "2026-10-04-gi-specifications",
+      "at": "2026-10-04T23:40:09.509522+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-silao-journal2018",
+          "status": "available",
+          "publication_date": "2018-08-09",
+          "retrieved_at": "2026-10-04T23:40:09.509522+00:00",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/584",
+          "document_path": "584/584 - GI - Journal Copy - 09-08-2018.pdf",
+          "pdf_printed_pages": "14–20",
+          "sha256": "726e59c72e8c6b9fcb660bfae72c28d1a4a96e9674e6ac9a146f04fb00b593cd",
+          "scope": "Original Registry journal, published 2018-08-09, PDF and printed pages 14–20. Advertised applicant specification, not independent scientific verification or a current operational audit. Full PDF recovered after an initial truncated transfer; SHA-256 726e59c72e8c6b9fcb660bfae72c28d1a4a96e9674e6ac9a146f04fb00b593cd."
+        },
+        {
+          "source_id": "gi-goan-khaje-journal2020",
+          "status": "available",
+          "publication_date": "2020-07-30",
+          "retrieved_at": "2026-10-04T23:40:09.509522+00:00",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/655",
+          "document_path": "655/655 - GI - Journal Copy - 30-07-2020.pdf",
+          "pdf_printed_pages": "47–56",
+          "sha256": "e0ba2c679132384f6c1f37635d5235b52bcd5ce004cbc18e22ab719c027d0134",
+          "scope": "Original Registry journal, published 2020-07-30, PDF and printed pages 47–56. Advertised applicant specification, not independent scientific verification or a current operational audit. Full PDF recovered after an initial truncated transfer; SHA-256 e0ba2c679132384f6c1f37635d5235b52bcd5ce004cbc18e22ab719c027d0134."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "id": 584,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "584/584 - GI - Journal Copy - 09-08-2018.pdf",
+          "http": "200",
+          "exit": 28,
+          "error": "curl: (28) Operation timed out after 40004 milliseconds with 2555662 out of 4977503 bytes received\n",
+          "path": "work/gi-specifications/journal-584.pdf",
+          "sha256": "b4d17db269407acdf29071f05c3c5f0878be3b6e602badb521c0d3f04e7953c6",
+          "pdf": true
+        },
+        {
+          "id": 655,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "655/655 - GI - Journal Copy - 30-07-2020.pdf",
+          "http": "200",
+          "exit": 28,
+          "error": "curl: (28) Operation timed out after 40001 milliseconds with 2178830 out of 6785838 bytes received\n",
+          "path": "work/gi-specifications/journal-655.pdf",
+          "sha256": "a59b537d0a532371d3421129a0d54e631d10e6f4a58532e498b019517b644d9e",
+          "pdf": true
+        }
+      ],
+      "recovered_fetches": [
+        {
+          "id": 584,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "584/584 - GI - Journal Copy - 09-08-2018.pdf",
+          "http": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-specifications/journal-584-complete.pdf",
+          "sha256": "726e59c72e8c6b9fcb660bfae72c28d1a4a96e9674e6ac9a146f04fb00b593cd"
+        },
+        {
+          "id": 655,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "655/655 - GI - Journal Copy - 30-07-2020.pdf",
+          "http": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-specifications/journal-655-complete.pdf",
+          "sha256": "e0ba2c679132384f6c1f37635d5235b52bcd5ce004cbc18e22ab719c027d0134"
+        }
+      ],
+      "held_fields": [
+        {
+          "id": "GI-HOLD-SILAO-FAT",
+          "source_id": "gi-silao-journal2018",
+          "field": "ingredient proportions",
+          "status": "conflicted",
+          "readings": [
+            {
+              "page": 15,
+              "ghee_percent": 20,
+              "listed_total_percent": 100
+            },
+            {
+              "page": 19,
+              "ghee_percent": 30,
+              "listed_total_percent": 110
+            }
+          ],
+          "resolution": null,
+          "next_action": "Look for an official correction or later certified specification; do not normalize.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "id": "GI-HOLD-GOA-UTENSIL",
+          "source_id": "gi-goan-khaje-journal2020",
+          "field": "lead-coated copper wording",
+          "page": 53,
+          "status": "quarantined",
+          "reason": "Do not reproduce as cooking guidance; historical application text is not a validated food-safety instruction.",
+          "resolution": null,
+          "next_action": "Check original technical annexure or official correction before any process adaptation.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "id": "GI-HOLD-GOA-ECONOMICS",
+          "source_id": "gi-goan-khaje-journal2020",
+          "field": "production and turnover",
+          "page": 55,
+          "status": "excluded_from_quantitative_comparison",
+          "reason": "No sufficiently specified observation period or survey basis for a matched economic comparison.",
+          "next_action": "Seek dated producer/department series with scope and units.",
+          "retry_after": "2026-10-11"
+        }
+      ],
+      "note": "Initial HTTP200 downloads timed out and were incomplete; only complete retries were parsed and used. No fresh Puri source retry."
     }
   ]
 }

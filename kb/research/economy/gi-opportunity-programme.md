@@ -23,7 +23,7 @@ Twelve research leads are listed below. These are not twelve recommendations to 
 |---|---|---|
 | Nimapada chhena jhili | No matching name found in bounded index search | Confirm whether this is the user’s intended Nimapada sweet; recover older name-use evidence, maker records and agreed process. |
 | Nimapada rasabali — user-supplied name | Identity clarification pending | Resolve local name and distinguish from chhena jhili and application802 before any dossier. |
-| Puri Khaja | No matching Puri Khaja name found in bounded index search | Recover original cluster and historical records; compare actual specification with Silao Khaja and Goan Khaje; identify producer representative. |
+| Puri Khaja | No matching Puri Khaja name found in bounded index search | Use the recovered comparator specifications; establish Puri’s own technical description, original historical records and producer representative. |
 | Puri gamucha — exact local tradition to define | No matching Puri gamucha name found in bounded index search | Identify village, local/Odia name, weave, fibre, motifs and community; test any claimed Machhi/Alangadia identity independently. |
 | Puri Mahaprasad / Abadha — scope study | No matching name found in bounded index search | Separate food goods, ritual status and custodianship; document temple administration and Suara/Mahasuara representation without claiming their consent. |
 | Puri Gaja — provisional product name | No matching Puri Gaja name found in bounded index search | Document local spelling, ingredients, variations, geography-linked reputation and prior names. |
@@ -47,7 +47,7 @@ A tourism-style page on a non-government host claims Mahaprasad already has a GI
 
 ## What the rest of India teaches us
 
-These are five selected official application records, not a ranking of states or a national census. Status and applicant fields were checked on 4 October 2026; original product specifications remain the next comparison step.
+These are five selected official application records, not a ranking of states or a national census. Status and applicant fields were checked on 4 October 2026; the Silao and Goan original specifications have now been compared in the [Khaja study](khaja-gi-comparison.md). Other original specifications remain to be examined.
 
 | Registered comparator | Applicant shown by registry | Lesson to test in Odisha |
 |---|---|---|

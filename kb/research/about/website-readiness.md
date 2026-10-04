@@ -271,3 +271,7 @@ Cement/fertiliser study remains a draft. Selected original pages were visually c
 ## Food-processing checkpoint · 4 October 2026
 
 Dairy-processing synthesis remains a draft: turnover HTML and selected historical tender pages checked; procurement only indexed-original evidence. No national ranking, investment-ready plan or publication claimed.
+
+## GI comparison research · 4 October 2026
+
+Two original comparator specifications are saved with source limitations. This is dossier research, not a tested recipe, filed GI application or website publication. No human review claimed.

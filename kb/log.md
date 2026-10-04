@@ -555,3 +555,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · GI opportunity programme
 
 [Research receipt](records/gi-opportunities-2026-10-04.json):Twelve research leads, five Indian comparators and four dossier briefs saved. Producer representation and specifications remain unresolved. No website release.
+
+## 4 October 2026 · Khaja GI specifications
+
+[Research receipt](records/gi-specifications-2026-10-04.json):Two original comparator specifications saved; internal recipe conflict and unsupported technical/economic claims held. Puri specification and producer representation remain unresolved. No website release.

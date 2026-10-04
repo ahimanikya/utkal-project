@@ -508,3 +508,7 @@ OMFED dated annual product output, mill throughput and current annual accounts r
 ## GI opportunity programme · 4 October 2026
 
 Original Puri cluster/temple-food documents failed TLS validation; retry11October. Nimapada identity, exact Puri gamucha tradition, applicant mandates, boundaries, technical specifications and inspection arrangements remain open. [Programme](../economy/gi-opportunity-programme.md). Independent documentary/comparator research can continue; no filing ready.
+
+## GI specification evidence · 4 October 2026
+
+Silao and Goa original journals recovered. Silao ghee proportions conflict (20%/30%); Goa utensil wording and undated economic claims held. See [comparison](../economy/khaja-gi-comparison.md). Seek corrections on 11 October; Puri’s own specification remains absent. Next independent research: Gamosa original specification and Puri gamucha identity.
