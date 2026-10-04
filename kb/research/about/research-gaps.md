@@ -406,3 +406,19 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 RES-053 now has a six-DMF financial sample and four named case bundles with dated audit findings/replies. Remaining: exact state receipt crosswalk, remaining relevant audit chapters, later functioning evidence, positive comparison cases and community outcomes. No present-day failure prevalence inferred.
+
+## Forest community-history checkpoint · 4 October 2026
+
+RES-058:2001 case geography resolved through methodology and Sites1–3; conflicting summary retained.2018 original returned zero bytes, fieldwork dates remain unknown, retry11October. Original rights decisions and community agreements remain eligible research.
+
+## Forest management instruments · 4 October 2026
+
+RES-058: original 2011 resolution captured, including women’s representation and local agreement forms. Original 2015/2019 amendments remain eligible; signed local agreements and current titles unknown. MoTA original booklet timeout, retry 11 October; 2018 survey-date gap unchanged.
+
+## Forest-management amendments · 4 October 2026
+
+RES-058: 2015 and 2019 JFM amendment facsimiles recovered, including separate resolution/gazette/forwarding dates. Later consolidated applicability and local implementation unknown. Community-history source and 2018 fieldwork-date criterion remain; existing 11 October retries preserved.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+RES-058 community-history extension delivered. Required 2018 fieldwork-date and original local-instrument gaps retain 11 October retries. Dhani exact publication/fieldwork dates also remain unstated. Task deferred, not completed; RES-059 is next independent work.

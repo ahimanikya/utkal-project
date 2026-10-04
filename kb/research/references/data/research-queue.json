@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T08:06:11.256094+00:00",
+  "updated_at": "2026-10-04T05:29:15.175559+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3153,20 +3153,60 @@
       "title": "Forest livelihood history, rights and ecological change",
       "done_when": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
       "target": "economy/forest-products.md",
-      "status": "pending",
-      "attempts": 0,
+      "status": "blocked",
+      "attempts": 4,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-039",
         "RES-041",
         "RES-054"
       ],
-      "last_worked_at": null,
-      "next_step": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
-      "evidence_outputs": [],
-      "retry_after": null,
-      "blocker": null,
-      "attempt_history": [],
+      "last_worked_at": "2026-10-04T05:29:15.175559+00:00",
+      "next_step": "Resume RES-058 on 11 October for the required 2018 fieldwork dates and original local-instrument gaps. Reuse the four historical cases, original 2011 text and 2015/2019 facsimiles. Community-history extension now saved; do not repeat discovery or mark complete. Meanwhile proceed to independent RES-059 using saved maritime/port/mineral evidence.",
+      "evidence_outputs": [
+        "history/forest-livelihoods.md",
+        "references/data/forest-livelihood-history.json",
+        "references/data/forest-products.json",
+        "sources/forest-vasundhara2001.md",
+        "sources/forest-kendujhar2018.md",
+        "sources/forest-jfm-resolution2011.md",
+        "sources/forest-jfm-publisher.md",
+        "sources/forest-jfm-amendments-plan2021.md",
+        "sources/forest-dhani-community-history.md"
+      ],
+      "retry_after": "2026-10-11",
+      "blocker": "Required 2018 fieldwork-date criterion remains unresolved at inaccessible original. Local instrument and bibliographic date gaps remain; independent community-history extension delivered.",
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-forest-history",
+          "at": "2026-10-04T02:29:35.227643+00:00",
+          "outcome": "historical_case_geography_and_community_timeline_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Original rights decisions and community-management documents;2018 fieldwork dates"
+        },
+        {
+          "run_id": "2026-10-04-forest-rights",
+          "at": "2026-10-04T03:30:43.162867+00:00",
+          "outcome": "original_jfm2011_instrument_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": "Later amendments, archival/community scholarship and 2018 fieldwork dates; local executed instruments unknown."
+        },
+        {
+          "run_id": "2026-10-04-forest-amendments",
+          "at": "2026-10-04T04:28:42.197770+00:00",
+          "outcome": "two_amendment_facsimiles_recovered_and_compared",
+          "completion_criteria_met": false,
+          "remaining": "Archival/community history and required 2018 fieldwork-date resolution; original local instruments unknown."
+        },
+        {
+          "run_id": "2026-10-04-forest-dhani",
+          "at": "2026-10-04T05:29:15.175559+00:00",
+          "outcome": "dhani_community_history_checkpoint_and_required_evidence_deferral",
+          "completion_criteria_met": false,
+          "remaining": "Required 2018 fieldwork-date criterion remains unresolved at inaccessible original. Local instrument and bibliographic date gaps remain; independent community-history extension delivered.",
+          "retry_after": "2026-10-11"
+        }
+      ],
       "reuse_before_research": {
         "source_records": [
           "food/forest-foods.md",
@@ -3180,12 +3220,66 @@
           "references/data/forest-products.json",
           "economy/kendu-patra.md",
           "food/mohu-honey.md",
-          "food/mahua-mohula.md"
+          "food/mahua-mohula.md",
+          "references/data/forest-livelihood-history.json",
+          "sources/forest-vasundhara2001.md",
+          "sources/forest-kendujhar2018.md",
+          "sources/forest-jfm-resolution2011.md",
+          "sources/forest-jfm-publisher.md",
+          "sources/forest-jfm-amendments-plan2021.md",
+          "sources/forest-dhani-community-history.md"
         ],
-        "project_records": [],
+        "project_records": [
+          "kb/research/sources/mining-niyamgiri-scr2013.md"
+        ],
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
-      }
+      },
+      "follow_up_evidence": [
+        {
+          "field": "2018 study fieldwork dates",
+          "source_id": "forest-kendujhar2018",
+          "value": null,
+          "reason": "Abstract omits dates and linked original is unavailable.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "Original community agreements, registration and rights decisions",
+          "source_id": "forest-vasundhara2001",
+          "value": null,
+          "reason": "Historical study reports arrangements; primary instruments not retrieved.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "Later JFM amendments and current consolidated applicability",
+          "value": null,
+          "source_id": "forest-jfm-publisher",
+          "reason": "2015 and 2019 facsimiles recovered. Their targeted changes are mapped; exhaustive subsequent amendments, current consolidated applicability and local implementation remain unverified.",
+          "next_action": "Use versioned historical comparison; seek later consolidated instruments only for a future current-procedure guide.",
+          "review_history": [
+            {
+              "at": "2026-10-04T04:28:42.197770+00:00",
+              "prior_reason": "Publisher points to 2015 and 2019 changes; original amendments required before a current procedure guide.",
+              "prior_next_action": "Original amendment discovery in next independent RES-058 batch."
+            }
+          ],
+          "evidence_source_id": "forest-jfm-amendments-plan2021",
+          "status": "partially_resolved"
+        },
+        {
+          "field": "National Act/rules original text",
+          "value": null,
+          "reason": "Original MoTA booklet timeout; do not promote snippets to verified statutory text.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "Dhani study fieldwork/publication date and original local instruments",
+          "source_id": "forest-dhani-community-history",
+          "value": null,
+          "reason": "HTML provides retrospective episodes without explicit fieldwork/publication dates or attached signed instruments.",
+          "retry_after": "2026-10-11"
+        }
+      ]
     },
     {
       "id": "RES-059",

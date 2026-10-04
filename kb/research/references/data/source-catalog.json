@@ -4776,7 +4776,17 @@
     "published_on": null,
     "capture_method": "institutional_hosted_original_study",
     "locator": "October2001; executive summary and selected case-study context",
-    "capture_note": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews."
+    "capture_note": "Historical community-management evidence. Title names Sundergarh; abstract names Sambalpur. Geographic scope discrepancy held for follow-up. No new interviews.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-history",
+        "published_period": "2001-10",
+        "locator": "English chapter: methodology, Sites1–3, conclusions, acknowledgements and footnotes",
+        "capture_sha256": "764796ad653ce210ba2ec6b1bd03db14cf6bc56ddca83956faacc473ca99cf69",
+        "scope": "Methodology, site headings, place descriptions and acknowledgements agree on Bolangir, Deogarh and Sundergarh. Summary says Sambalpur. Case-level geography resolved using body; publisher text discrepancy retained. No current district statistics or fresh interviews."
+      }
+    ]
   },
   "forest-tdcc-mfp": {
     "id": "forest-tdcc-mfp",
@@ -4798,7 +4808,16 @@
     "published_on": null,
     "capture_method": "author_publisher_supplied_abstract",
     "locator": "Abstract; DOI10.22004/ag.econ.399613",
-    "capture_note": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate."
+    "capture_note": "120 households, six villages, Patana and Bansapal. Fieldwork year absent from abstract. Full-text fetch failed; no current statewide income estimate.",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-history",
+        "scope": "Abstract and download link revisited. Direct PDF returned zero bytes; publication2018 retained separately from unknown survey dates.",
+        "download_status": "unavailable",
+        "retry_after": "2026-10-11"
+      }
+    ]
   },
   "forest-sector2025": {
     "id": "forest-sector2025",
@@ -6757,5 +6776,73 @@
     "source_kind": "Institutional reference",
     "accessed_on": "2026-10-03",
     "capture_note": "Guidance on civic organisation and formal municipal relationships; membership directory is not a complete global census."
+  },
+  "forest-jfm-resolution2011": {
+    "id": "forest-jfm-resolution2011",
+    "title": "Joint Forest Management Resolution, 2011: Orissa Gazette Extraordinary No. 2176",
+    "resource": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf",
+    "publisher": "Government of Orissa, Forest & Environment Department",
+    "published_on": "2011-09-22",
+    "resolution_date": "2011-09-09",
+    "source_kind": "Government resolution",
+    "locator": "PDF pp. 1–4, 6–11, 14, 17–21; clauses 3, 4, 7–14, 16; Annexure B Forms 1–5",
+    "capture_note": "Original 21-page PDF downloaded. Selected clauses and form text read through web extraction. Web screenshots failed; no visual verification claimed. Historical 2011 version only; later amendments not reconciled. Blank forms are not executed local instruments.",
+    "capture_sha256": "abc7c9ba6627b53a09c3fa6ea049059d9ff1671f5cfef60ff88ba263905b1cc5",
+    "accessed_on": "2026-10-04",
+    "capture_method": "official_pdf_download_and_targeted_web_text"
+  },
+  "forest-jfm-publisher": {
+    "id": "forest-jfm-publisher",
+    "title": "Joint Forest Management: Odisha Forest Department publisher overview",
+    "resource": "https://odishaforest.in/forest-management/joint-forest-management",
+    "publisher": "Principal Chief Conservator of Forests & HoFF, Odisha",
+    "published_on": null,
+    "source_kind": "Government programme overview",
+    "locator": "Implementation of Joint Forest Management Programme; links to 2011 and 2008 resolutions",
+    "capture_note": "Read programme history and amendment references to 2011, 2015 and 2019. These identify follow-up documents; no exhaustive current-law review or new programme statistics captured. Footer date does not establish publication date.",
+    "accessed_on": "2026-10-04",
+    "capture_method": "official_web_text",
+    "capture_sha256": "6243ed6aaf138dd614acace1861144a73c8ce39cc0db64db440405d89eb0dd04",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-forest-amendments",
+        "scope": "Previously recorded 2015/2019 amendment leads resolved through official working-plan facsimiles; overview itself not independently reverified this run.",
+        "evidence_source_id": "forest-jfm-amendments-plan2021"
+      }
+    ]
+  },
+  "forest-jfm-amendments-plan2021": {
+    "id": "forest-jfm-amendments-plan2021",
+    "title": "Jharsuguda Forest Division Working Plan 2021–22 to 2030–31, Volume II: JFM amendment annexures",
+    "resource": "https://odishaforest.in/admin/data/documents/div_working_plan_file_557470292.pdf",
+    "publisher": "Odisha Forest Department, Jharsuguda Forest Division",
+    "published_on": null,
+    "planning_period": "2021-22 to 2030-31",
+    "source_kind": "Government working plan containing original-instrument facsimiles",
+    "locator": "Cover PDF p. 1; contents p. 6; Annexure IX(a), PDF p. 167; forwarding letter p. 168; Annexure IX(b), pp. 169–170",
+    "capture_note": "Full file downloaded; selected amendment pages rendered and visually read. 2015 gazette facsimile and 2019 resolution/forwarding copy are the evidence, not independent corroboration from the enclosing working plan. Whole-volume text extraction does not imply full-volume review. Hosting/publication date unknown; plan period separate from instrument dates.",
+    "capture_sha256": "d19bbfa3f92733623b26eb5d909bf446524c722e575000d3d5386e2ee8bc17bd",
+    "accessed_on": "2026-10-04",
+    "capture_method": "official_pdf_download_selected_page_visual_review"
+  },
+  "forest-dhani-community-history": {
+    "id": "forest-dhani-community-history",
+    "title": "Adaptive Community Forest Management: Some Emerging Trends in India",
+    "resource": "https://www.fao.org/4/XII/0743-C1.htm",
+    "authors": [
+      "Neera M. Singh",
+      "Prateep K. Nayak"
+    ],
+    "publisher": "FAO-hosted authors’ conference paper, 0743-C1",
+    "published_on": null,
+    "publication_date_note": "No explicit publication date displayed in the reviewed paper. XII congress context is 2003; event date is not substituted for the paper publication or fieldwork date.",
+    "study_period": "Historical episodes 1987–1995; fieldwork dates unstated",
+    "geography": "Dhani Reserve Forest, Khurda Forest Division, Orissa as published",
+    "source_kind": "Original authored community-management case study",
+    "locator": "Introduction; Dhani Panch Mouza Committee: A Learning Organisation; Equity and Other Challenges; Role of the State Forest Department",
+    "capture_note": "Full HTML text read; graphical offence series not digitised. Authors’ historical case account, not an original signed committee instrument, causal evaluation or current operating/legal verification.",
+    "accessed_on": "2026-10-04",
+    "capture_method": "publisher_html_text"
   }
 }

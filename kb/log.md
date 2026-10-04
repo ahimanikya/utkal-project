@@ -447,3 +447,19 @@ Added four bounded case studies, three source records and a reusable evidence mo
 ## 2026-10-03 · Mining evidence follow-up
 
 Recovered a CGWB annex scan and IBM inspection; linked a committee account of Niyamgiri decisions and matched the Bharatpur incident in a ministry agenda. Source roles and unresolved sample totals remain explicit. Four new source records; existing956 atlas observations unchanged. RES-054 remains in progress; no public website story publication.
+
+## 4 October 2026 · Forest community history
+
+[Research receipt](records/forest-history-2026-10-04.json): RES-058 historical checkpoint: three attributed cases and six milestones; case geography clarified, source conflict preserved. Primary rights evidence and2018 survey dates remain open. No website release.
+
+## 4 October 2026 · Forest management instruments
+
+[Research receipt](records/forest-rights-2026-10-04.json): RES-058 historical policy checkpoint: women’s representation, livelihood planning and local-document requirements. Later amendments, local instruments and study dates remain open. No website release.
+
+## 4 October 2026 · Forest-management amendments
+
+[Research receipt](records/forest-amendments-2026-10-04.json): RES-058 amendment checkpoint: secretary/accounting changes and a range-level forum; document requirements remain distinct from observed outcomes. Archival/community history and study dates remain open. No website release.
+
+## 4 October 2026 · Dhani community history
+
+[Research receipt](records/forest-dhani-2026-10-04.json): RES-058 community-history checkpoint. Local historical events are distinct from official policy and current conditions; required study dates remain open. Next independent task RES-059. No website release.

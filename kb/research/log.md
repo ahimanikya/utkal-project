@@ -436,3 +436,19 @@ Added four bounded case studies, three source records and a reusable evidence mo
 ## 2026-10-03 · Mining evidence follow-up
 
 Recovered a CGWB annex scan and IBM inspection; linked a committee account of Niyamgiri decisions and matched the Bharatpur incident in a ministry agenda. Source roles and unresolved sample totals remain explicit. Four new source records; existing956 atlas observations unchanged. RES-054 remains in progress; no public website story publication.
+
+## Forest community-history checkpoint · 4 October 2026
+
+RES-058 started: three historical community cases and six dated milestones;2001 case geography resolved, publisher inconsistency preserved.2018 source recovery failed, survey dates unknown. Rights evidence remains open.
+
+## Forest management instruments · 4 October 2026
+
+RES-058 original JFM instrument checkpoint: ten scoped policy provisions and resolution/gazette chronology; linked existing judicial evidence. Later amendments and local instruments remain open. MoTA booklet timed out; no current-law or implementation claim.
+
+## Forest-management amendments · 4 October 2026
+
+RES-058: recovered 2015 gazette and 2019 resolution copies from an official working-plan volume; five amendment provisions and two timeline events added. Earlier policy version preserved; local outcomes and later/current applicability unverified.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+RES-058: added one historical community case with five dated events and retained adverse findings. Deferred unmet evidence criteria to 11 October; next independent task RES-059. Original cases, amendments and frozen evidence retained.

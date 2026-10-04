@@ -18971,6 +18971,62 @@
         "global-sf-bangalore"
       ],
       "added_at": "2026-10-03T13:40:05.334724+00:00"
+    },
+    {
+      "id": "sources/forest-jfm-resolution2011",
+      "title": "Joint Forest Management Resolution, 2011: Orissa Gazette Extraordinary No. 2176",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/forest-jfm-resolution2011.md",
+      "project_path": "kb/research/sources/forest-jfm-resolution2011.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-jfm-resolution2011"
+      ]
+    },
+    {
+      "id": "sources/forest-jfm-publisher",
+      "title": "Joint Forest Management: Odisha Forest Department publisher overview",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/forest-jfm-publisher.md",
+      "project_path": "kb/research/sources/forest-jfm-publisher.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-jfm-publisher"
+      ]
+    },
+    {
+      "id": "sources/forest-jfm-amendments-plan2021",
+      "title": "Jharsuguda Forest Division Working Plan 2021–22 to 2030–31, Volume II: JFM amendment annexures",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/forest-jfm-amendments-plan2021.md",
+      "project_path": "kb/research/sources/forest-jfm-amendments-plan2021.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-jfm-amendments-plan2021"
+      ]
+    },
+    {
+      "id": "sources/forest-dhani-community-history",
+      "title": "Adaptive Community Forest Management: Some Emerging Trends in India",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/forest-dhani-community-history.md",
+      "project_path": "kb/research/sources/forest-dhani-community-history.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "forest-dhani-community-history"
+      ]
     }
   ],
   "shared_publications": [
@@ -20288,9 +20344,18 @@
         "references/data/forest-products.json",
         "economy/kendu-patra.md",
         "food/mohu-honey.md",
-        "food/mahua-mohula.md"
+        "food/mahua-mohula.md",
+        "references/data/forest-livelihood-history.json",
+        "sources/forest-vasundhara2001.md",
+        "sources/forest-kendujhar2018.md",
+        "sources/forest-jfm-resolution2011.md",
+        "sources/forest-jfm-publisher.md",
+        "sources/forest-jfm-amendments-plan2021.md",
+        "sources/forest-dhani-community-history.md"
       ],
-      "project_records": [],
+      "project_records": [
+        "kb/research/sources/mining-niyamgiri-scr2013.md"
+      ],
       "remaining_scope": "Extend dated historical timeline with archives, primary rights decisions and community scholarship; resolve2001 study geography and2018 fieldwork dates; no invented ancient origins or interviews.",
       "status_unchanged": "pending",
       "instruction": "Reuse food identities and forest statistics. Study absent product/market/history fields only."
@@ -20386,8 +20451,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1262,
-    "updated_at": "2026-10-03T13:40:05.334724+00:00",
+    "records_mapped": 1266,
+    "updated_at": "2026-10-04T05:29:15.175559+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20995,6 +21060,26 @@
       "added_at": "2026-10-03T13:40:05.334724+00:00",
       "scope": "Global Connections: eleven source concepts and one comparison collection; prior task statuses unchanged.",
       "records_added": 12
+    },
+    {
+      "run_id": "2026-10-04-forest-history",
+      "at": "2026-10-04T02:29:35.227643+00:00",
+      "scope": "Enhanced existing forest history/source identities; no new source ID or duplicate community profile. Added structured case dataset and task pointer."
+    },
+    {
+      "run_id": "2026-10-04-forest-rights",
+      "at": "2026-10-04T03:30:43.162867+00:00",
+      "scope": "Two source identities added: original JFM resolution and publisher discovery route. Existing Niyamgiri source aliases identified across workspaces; same judgment, no independent corroboration."
+    },
+    {
+      "run_id": "2026-10-04-forest-amendments",
+      "at": "2026-10-04T04:28:42.197770+00:00",
+      "scope": "One official containing-publication identity added; two enclosed amendments remain distinct instruments, not independent corroborators. Existing 2011 record retained."
+    },
+    {
+      "run_id": "2026-10-04-forest-dhani",
+      "at": "2026-10-04T05:29:15.175559+00:00",
+      "scope": "One Dhani source after source/project searches; fourth case in existing history dataset, not a new statewide series or duplicate policy source."
     }
   ]
 }

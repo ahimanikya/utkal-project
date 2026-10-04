@@ -235,3 +235,19 @@ RES-052 checkpoint deferred to9October. Seek original current unit workforce ret
 ## Mining and community services · 2026-10-02
 
 RES-053 selected by the Founder. Receipts/sample/case checkpoint saved; full audit reading, current operation and community outcomes remain in progress. No contact or public website publication in this batch.
+
+## Forest community-history checkpoint · 4 October 2026
+
+Continue RES-058 with original forest-rights decisions and community-management instruments; reuse Niyamgiri/forest-product records before browsing.2001 case geography resolved by methodology and body, publisher summary discrepancy retained.2018 original download unavailable; retry11October for survey dates. Do not infer FRA titles from1994 JFM.
+
+## Forest management instruments · 4 October 2026
+
+Continue RES-058 with original 2015/2019 JFM amendments and one archival/community-history source; reuse the saved 2011 resolution and Niyamgiri judgment. No repeated study or new judgment identity. MoTA booklet and 2018 study originals retry 11 October; local signed agreements and current titles remain unknown.
+
+## Forest-management amendments · 4 October 2026
+
+Continue RES-058 with one archival/community-history source on forest institutions and livelihood change. Reuse the 2001 cases, 2011 resolution and recovered 2015/2019 amendment facsimiles; do not repeat those captures. Original local instruments, MoTA booklet and 2018 fieldwork dates remain on 11 October retries; do not mark the task complete while its required survey-date criterion remains unresolved.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+Resume RES-058 on 11 October for the required 2018 fieldwork dates and original local-instrument gaps. Reuse the four historical cases, original 2011 text and 2015/2019 facsimiles. Community-history extension now saved; do not repeat discovery or mark complete. Meanwhile proceed to independent RES-059 using saved maritime/port/mineral evidence.

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-03T08:06:11.256094+00:00",
+  "updated_at": "2026-10-04T05:29:15.175559+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6208,6 +6208,135 @@
       "run_id": "2026-10-02-mining-employment",
       "status": "unavailable",
       "scope": "Web reader cache miss; search snippet only.2010 headcount not imported."
+    },
+    {
+      "source_id": "forest-vasundhara2001",
+      "url": "https://www.fao.org/4/ad352t/AD352T06.htm",
+      "status": "available",
+      "scope": "English chapter: methodology, Sites1–3, conclusions, acknowledgements and footnotes",
+      "capture_sha256": "764796ad653ce210ba2ec6b1bd03db14cf6bc56ddca83956faacc473ca99cf69",
+      "capture_method": "original_FAO_hosted_HTML_download",
+      "run_id": "2026-10-04-forest-history",
+      "checked_at": "2026-10-04T02:29:35.227643+00:00"
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "url": "https://ideas.repec.org/a/ags/injagm/399613.html",
+      "status": "available",
+      "scope": "Publisher-supplied abstract and original-file link; no fieldwork dates supplied.",
+      "run_id": "2026-10-04-forest-history",
+      "checked_at": "2026-10-04T02:29:35.227643+00:00"
+    },
+    {
+      "source_id": "forest-kendujhar2018",
+      "url": "https://ageconsearch.umn.edu/record/399613/files/IJAM%2032%20%283%29%20_%20Collection%20and%20marketing%20of%20Non-Timber-pages-120-121.pdf",
+      "status": "unavailable",
+      "reason": "Web fetch failed; direct request returned zero bytes despite successful process exit. No PDF content verified.",
+      "retry_after": "2026-10-11",
+      "run_id": "2026-10-04-forest-history",
+      "checked_at": "2026-10-04T02:29:35.227643+00:00"
+    },
+    {
+      "source_id": "forest-jfm-resolution2011",
+      "url": "https://odishaforest.in/admin/data/ckeditor/images/jfm_resolution_2011_gazette.pdf",
+      "status": "available",
+      "scope": "PDF pp. 1–4, 6–11, 14, 17–21; clauses 3, 4, 7–14, 16; Annexure B Forms 1–5",
+      "capture_sha256": "abc7c9ba6627b53a09c3fa6ea049059d9ff1671f5cfef60ff88ba263905b1cc5",
+      "visual_check": "unavailable: web screenshots failed; text-based capture only",
+      "run_id": "2026-10-04-forest-rights",
+      "checked_at": "2026-10-04T03:30:43.162867+00:00"
+    },
+    {
+      "source_id": "forest-jfm-publisher",
+      "url": "https://odishaforest.in/forest-management/joint-forest-management",
+      "status": "available",
+      "scope": "Publisher history and links; later amendment pointers only; programme counts not extracted",
+      "run_id": "2026-10-04-forest-rights",
+      "checked_at": "2026-10-04T03:30:43.162867+00:00"
+    },
+    {
+      "url": "https://tribal.nic.in/downloads/FRA/FRAActnRulesBook.pdf",
+      "status": "unavailable",
+      "scope": "Original national Act/rules booklet retrieval",
+      "reason": "Web timeout and direct verified-TLS request timed out after 45 seconds with no usable document. Search snippets not adopted as Act text.",
+      "retry_after": "2026-10-11",
+      "run_id": "2026-10-04-forest-rights",
+      "checked_at": "2026-10-04T03:30:43.162867+00:00"
+    },
+    {
+      "source_id": "forest-jfm-amendments-plan2021",
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_557470292.pdf",
+      "status": "available",
+      "scope": "Cover PDF p. 1; contents p. 6; Annexure IX(a), PDF p. 167; forwarding letter p. 168; Annexure IX(b), pp. 169–170",
+      "capture_sha256": "d19bbfa3f92733623b26eb5d909bf446524c722e575000d3d5386e2ee8bc17bd",
+      "retrieval_history": "Web reader failed; direct verified-TLS download succeeded. Scanned pages lack extractable text and were rendered for visual reading.",
+      "visual_pages": [
+        167,
+        168,
+        169,
+        170
+      ],
+      "run_id": "2026-10-04-forest-amendments",
+      "checked_at": "2026-10-04T04:28:42.197770+00:00"
+    },
+    {
+      "url": "https://odishaforest.in/admin/data/documents/div_working_plan_file_1628084390.pdf",
+      "status": "unavailable",
+      "scope": "Alternative working-plan amendment route",
+      "reason": "Web reader returned internal error. No content from this file adopted; amendment evidence recovered through the Jharsuguda original-file route.",
+      "retry_after": "2026-10-11",
+      "retry_needed_for_current_checkpoint": false,
+      "run_id": "2026-10-04-forest-amendments",
+      "checked_at": "2026-10-04T04:28:42.197770+00:00"
+    },
+    {
+      "source_id": "forest-dhani-community-history",
+      "url": "https://www.fao.org/4/XII/0743-C1.htm",
+      "status": "available",
+      "scope": "Introduction; Dhani Panch Mouza Committee: A Learning Organisation; Equity and Other Challenges; Role of the State Forest Department",
+      "capture_method": "web publisher HTML; text read in full; graphs not digitised",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/forestry-fao/5387/en/",
+      "status": "available",
+      "scope": "Conference event context only, 21–28 September 2003; not independent Dhani evidence",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/XII/",
+      "status": "unavailable",
+      "scope": "Conference directory discovery",
+      "reason": "Web reader cache miss; original paper reachable at its exact URL",
+      "retry_after": "2026-10-11",
+      "retry_needed_for_current_checkpoint": false,
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/XII/0585-C1.htm",
+      "status": "unavailable",
+      "scope": "Unverified candidate URL during discovery",
+      "reason": "Web reader internal error; no content adopted; correct Dhani paper is 0743-C1",
+      "retry_needed_for_current_checkpoint": false,
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/ae542e/ae542e04.htm",
+      "status": "available",
+      "scope": "Sulia/Nayagarh discovery only; no case facts adopted in this bounded Dhani task; full chapter not reviewed",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/ae542e/ae542e00.htm",
+      "status": "available",
+      "scope": "Title page confirms 2005 for separate In Search of Excellence publication; no Dhani inference",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
     }
   ]
 }
