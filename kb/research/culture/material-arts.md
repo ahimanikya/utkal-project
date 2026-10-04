@@ -25,3 +25,7 @@ Odisha’s material arts offer several ways to turn a material into an image or 
 **Credit has several layers:** a maker creates; an owner holds; a museum collects; an award recognises. A source may establish one role without establishing the others. A product category is not an individually attributed work, and recognition is not an income measure.
 
 The six practices now have initial coverage. RES-032 remains in progress for individually credited works and dated exhibition/acquisition evidence. [Structured evidence and unresolved fields](../references/data/material-arts.json).
+
+## Named works beyond the workshop
+
+The [Parliament Sun God](../works/mohapatra-sun-god-parliament.md), [Paris wooden Buddha attribution](../works/mohapatra-wooden-buddha-paris.md), and [INA Metro terracotta mural](../works/manabodh-rana-ina-terracotta-mural.md) connect objects, makers and source-labelled locations. Dates refer to evidence where object chronology is missing. Dhokra maker-level collection evidence is still open.

@@ -19703,6 +19703,132 @@
         "arts-nid-dhokra",
         "arts-nid-terracotta"
       ]
+    },
+    {
+      "id": "sources/arts-president-nominations2018",
+      "title": "President nominates four members to Rajya Sabha",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-president-nominations2018.md",
+      "project_path": "kb/research/sources/arts-president-nominations2018.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-president-nominations2018"
+      ]
+    },
+    {
+      "id": "sources/arts-rs-mohapatra2021",
+      "title": "Rajya Sabha obituary reference: Raghunath Mohapatra",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-rs-mohapatra2021.md",
+      "project_path": "kb/research/sources/arts-rs-mohapatra2021.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-rs-mohapatra2021"
+      ]
+    },
+    {
+      "id": "sources/arts-crt-ina-tiles",
+      "title": "Terracotta Tiles — INA Metro Craft Gallery",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-crt-ina-tiles.md",
+      "project_path": "kb/research/sources/arts-crt-ina-tiles.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-crt-ina-tiles"
+      ]
+    },
+    {
+      "id": "sources/arts-iic-clay2016",
+      "title": "The Diversity of Clay — IIC Diary September–October2016",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/arts-iic-clay2016.md",
+      "project_path": "kb/research/sources/arts-iic-clay2016.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "arts-iic-clay2016"
+      ]
+    },
+    {
+      "id": "people/raghunath-mohapatra",
+      "title": "Raghunath Mohapatra",
+      "kind": "Person",
+      "layer": "source_research_record",
+      "source_path": "people/raghunath-mohapatra.md",
+      "project_path": "kb/research/people/raghunath-mohapatra.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "arts",
+        "governance"
+      ],
+      "source_ids": [
+        "arts-president-nominations2018",
+        "arts-rs-mohapatra2021"
+      ]
+    },
+    {
+      "id": "works/mohapatra-sun-god-parliament",
+      "title": "Sun God sculpture — Parliament Central Hall",
+      "kind": "Work",
+      "layer": "source_research_record",
+      "source_path": "works/mohapatra-sun-god-parliament.md",
+      "project_path": "kb/research/works/mohapatra-sun-god-parliament.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "arts",
+        "places"
+      ],
+      "source_ids": [
+        "arts-president-nominations2018"
+      ]
+    },
+    {
+      "id": "works/mohapatra-wooden-buddha-paris",
+      "title": "Wooden Buddha — Paris temple attribution",
+      "kind": "Work",
+      "layer": "source_research_record",
+      "source_path": "works/mohapatra-wooden-buddha-paris.md",
+      "project_path": "kb/research/works/mohapatra-wooden-buddha-paris.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "arts",
+        "places"
+      ],
+      "source_ids": [
+        "arts-president-nominations2018"
+      ]
+    },
+    {
+      "id": "works/manabodh-rana-ina-terracotta-mural",
+      "title": "Terracotta Tiles — INA Metro gallery mural",
+      "kind": "Work",
+      "layer": "source_research_record",
+      "source_path": "works/manabodh-rana-ina-terracotta-mural.md",
+      "project_path": "kb/research/works/manabodh-rana-ina-terracotta-mural.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "arts",
+        "places"
+      ],
+      "source_ids": [
+        "arts-crt-ina-tiles"
+      ]
     }
   ],
   "shared_publications": [
@@ -20292,7 +20418,15 @@
         "culture/dhokra.md",
         "culture/terracotta.md",
         "culture/material-arts.md",
-        "places/sambalpur-bargarh.md"
+        "places/sambalpur-bargarh.md",
+        "sources/arts-president-nominations2018.md",
+        "sources/arts-rs-mohapatra2021.md",
+        "sources/arts-crt-ina-tiles.md",
+        "sources/arts-iic-clay2016.md",
+        "people/raghunath-mohapatra.md",
+        "works/mohapatra-sun-god-parliament.md",
+        "works/mohapatra-wooden-buddha-paris.md",
+        "works/manabodh-rana-ina-terracotta-mural.md"
       ],
       "project_records": [
         "kb/research/destinations/central-details.json",
@@ -21175,8 +21309,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1308,
-    "updated_at": "2026-10-04T11:39:04.102615+00:00",
+    "records_mapped": 1316,
+    "updated_at": "2026-10-04T12:42:08.226031+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [

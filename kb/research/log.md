@@ -476,3 +476,7 @@ RES-032 checkpoint: two material-art practices, four scoped maker profiles and t
 ## Stone, metal and clay · 4 October 2026
 
 RES-032 adds stone, dhokra and terracotta process records, five scoped people profiles and a six-practice collection. Recognition remains distinct from creator attribution. SIDAC2017 original unavailable; numbers and decisions quarantined.
+
+## Attributed craft works ·4October2026
+
+RES-032 adds Raghunath Mohapatra, two government-attributed sculptures, a provisionally matched Rana terracotta mural, and an IIC2016 exhibition with maker identity quarantined. All object dates/current displays remain unknown. Next independent task RES-013.

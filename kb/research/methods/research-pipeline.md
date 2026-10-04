@@ -275,3 +275,7 @@ Continue RES-032 with stone carving, dhokra and terracotta, reusing current make
 ## Stone, metal and clay · 4 October 2026
 
 Continue RES-032 with individually credited sculptures and clay/dhokra works, using original commissioning or holding-institution records. Six practice nuclei are saved; do not repeat process discovery. Inaccessible SIDAC2017 and original award citations retain 2026-10-11 retries.
+
+## Attributed craft works ·4October2026
+
+RES-032 checkpoint: three attributed work records saved; remaining commissioning/accession, maker-identity and craft-specific work gaps retry2026-10-11. Continue next eligible independent task RES-013 district evidence coverage, reusing the research map and existing district records.

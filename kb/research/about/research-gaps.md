@@ -446,3 +446,7 @@ Need original2015 central award list, Pankaj Kumar Sahoo1994 citation, named awa
 ## Stone, metal and clay · 4 October 2026
 
 Named sculptures and clay/dhokra objects with primary creator/date evidence are next. Original SIDAC2017 selection/acquisition minutes and award citations retry11October. Barpali/Bargarh biography and Sambalpur source labels preserved; no current workforce, export or income estimate added.
+
+## Attributed craft works ·4October2026
+
+Commission/accession records and precise Paris temple identity remain missing. INA Manbodh Rana match is provisional; IIC Manbodh Ram is unlinked. Sahoo artist-site fetch unavailable. Work-level and existing source-recovery retries11October; RES-032 not completed.

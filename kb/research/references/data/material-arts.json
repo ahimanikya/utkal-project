@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T11:39:04.102615+00:00",
-  "scope": "RES-032: six material-art practices have initial coverage; individually credited works and dated exhibition/acquisition evidence remain unfinished.",
+  "updated_at": "2026-10-04T12:42:08.226031+00:00",
+  "scope": "Six initial practice records plus government-attributed sculptures and an institutional terracotta mural; unresolved individual-work and original-record gaps retained.",
   "human_review_claimed": false,
   "events": [
     {
@@ -73,6 +73,28 @@
       "actual_participants": null,
       "actual_payments": null,
       "event_outcome": null
+    },
+    {
+      "id": "iic-language-clay2016",
+      "title": "In the Language of Clay",
+      "date_start": "2016-10-22",
+      "date_end": "2016-10-26",
+      "geography": "India International Centre, New Delhi",
+      "source_ids": [
+        "arts-iic-clay2016"
+      ],
+      "curator": "Ritu Sethi",
+      "collaborators": [
+        "Crafts Museum",
+        "Craft Revival Trust"
+      ],
+      "odisha_content": "nazarbattu roof tiles",
+      "credited_maker_as_printed": "Manbodh Ram",
+      "person_id": null,
+      "identity_status": "unresolved",
+      "attendance": null,
+      "sales": null,
+      "scope": "Host diary account, not work inventory or proof of personal attendance."
     }
   ],
   "terms": [
@@ -179,6 +201,16 @@
       ],
       "status": "quarantined",
       "resolution": "Original inaccessible; shifted indexed columns, conflicting screening/selection headings and ownership role prevent transaction/value or creator attribution."
+    },
+    {
+      "id": "iic2016-maker-name",
+      "source_ids": [
+        "arts-iic-clay2016",
+        "arts-nid-terracotta",
+        "arts-crt-ina-tiles"
+      ],
+      "status": "quarantined",
+      "resolution": "IIC prints Manbodh Ram; retain the exhibition as Odisha content but do not assign it to Rana without maker/organizer identifier. The INA mural and roof tiles are separate objects."
     }
   ],
   "follow_up": [
@@ -198,14 +230,14 @@
       "needed": "Original national2015 PDF/state register; Pankaj1994 central citation; named award works and Arun full identity. Current maker business/rights evidence requires primary records or participation."
     },
     {
-      "topic": "Individual works and institutional histories",
-      "retry_after": null,
-      "needed": "Next bounded batch: original commissioning/holding-institution records for named sculptures, and identifiable maker-attributed clay/dhokra works with dates. Do not substitute product types or collection ownership for creator credit."
-    },
-    {
       "topic": "Original craft award and acquisition records",
       "retry_after": "2026-10-11",
       "needed": "Recover SIDAC2017 facsimile, original state2006 and central1986 citations. Keep personal addresses excluded and acquisition/payment/ownership/creator roles distinct."
+    },
+    {
+      "topic": "Work attribution and identity follow-up",
+      "retry_after": "2026-10-11",
+      "needed": "Original commissioning/accession records for the Parliament Sun God, precise Paris temple and maker identifiers for INA mural/IIC Manbodh Ram. Artist site unavailable; individual Sahoo relief credits and clay/dhokra object dates remain open. Preserve prior filigree/palm and SIDAC retries; no commercial product claims promoted to holdings."
     }
   ],
   "crafts": [
@@ -407,6 +439,35 @@
       "evidence_class": "tourism_publisher_retrospective_account",
       "original_foundation_record": null,
       "current_operation": null
+    }
+  ],
+  "work_records": [
+    {
+      "work_id": "works/mohapatra-sun-god-parliament",
+      "source_ids": [
+        "arts-president-nominations2018"
+      ],
+      "evidence_class": "government_biographical_attribution",
+      "creation_date": null,
+      "current_display_status": null
+    },
+    {
+      "work_id": "works/mohapatra-wooden-buddha-paris",
+      "source_ids": [
+        "arts-president-nominations2018"
+      ],
+      "evidence_class": "government_biographical_attribution",
+      "creation_date": null,
+      "current_display_status": null
+    },
+    {
+      "work_id": "works/manabodh-rana-ina-terracotta-mural",
+      "source_ids": [
+        "arts-crt-ina-tiles"
+      ],
+      "evidence_class": "institutional_catalogue",
+      "creation_date": null,
+      "current_display_status": null
     }
   ]
 }
