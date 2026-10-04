@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T14:06:40.618918+00:00",
+  "recorded_at": "2026-10-04T14:18:37.049274+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4567,22 +4567,25 @@
       "id": "UTP-WORK-156",
       "title": "Trail tour books, local contributions and verification readiness",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-184",
-      "next_action": "Review the four-part implementation PR; browser visual/PDF review and local confirmation remain open.",
+      "next_action": "Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-184",
-        "UTP-REV-134"
+        "UTP-REV-134",
+        "UTP-DEC-185",
+        "UTP-REL-062"
       ],
       "evidence": [
-        "records/trail-books-local-evidence-2026-10-04.json"
+        "records/trail-books-local-evidence-2026-10-04.json",
+        "records/trail-books-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8266,6 +8269,26 @@
       "evidence": [
         "records/trail-books-local-evidence-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-185",
+      "title": "Publish trail books and local evidence preparation",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish PR89, retaining visual/PDF, local confirmation and Search Console limitations.",
+      "recorded_at": "2026-10-04T14:18:37.049274+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-156",
+        "UTP-DEC-184"
+      ],
+      "evidence": [
+        "records/trail-books-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11446,7 +11469,8 @@
         "UTP-WORK-156"
       ],
       "evidence": [
-        "records/trail-books-local-evidence-2026-10-04.json"
+        "records/trail-books-local-evidence-2026-10-04.json",
+        "records/trail-books-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12479,6 +12503,22 @@
         "records/visitor-trail-publication-2026-10-04.json"
       ],
       "note": "PR86 merged after checks passed; Pages build and deployment succeeded. Live three chapters, eight starter ideas, eight guide returns and three photographs verified. Eleven-route sitemap preserved. Browser visual review and Search Console remain open."
+    },
+    {
+      "id": "UTP-REL-062",
+      "title": "Trail books and local evidence preparation published",
+      "status": "published",
+      "authorization": "UTP-DEC-185",
+      "destination": "https://utkalproject.org/journey-starters/#stone-sea-makers",
+      "refs": [
+        "UTP-DEC-185",
+        "UTP-WORK-156",
+        "UTP-REV-134"
+      ],
+      "evidence": [
+        "records/trail-books-publication-2026-10-04.json"
+      ],
+      "note": "PR89 merged after validation; Pages deployment succeeded. Shared live journey data, three chapter photographs, maker/access/food prompts on eight guide pages and exact verification-pack bytes checked. Live-data offline export smoke test passed; visual/native PDF review remains open."
     }
   ],
   "sources": [
