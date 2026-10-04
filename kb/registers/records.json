@@ -4642,22 +4642,25 @@
       "id": "UTP-WORK-159",
       "title": "Cuttack illustrated trail and matching tour books",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-190",
-      "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open.",
+      "next_action": "Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-190",
-        "UTP-REV-137"
+        "UTP-REV-137",
+        "UTP-DEC-191",
+        "UTP-REL-065"
       ],
       "evidence": [
-        "records/cuttack-illustrated-trail-2026-10-04.json"
+        "records/cuttack-illustrated-trail-2026-10-04.json",
+        "records/cuttack-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8458,6 +8461,26 @@
       "evidence": [
         "records/cuttack-illustrated-trail-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-191",
+      "title": "Publish approved Cuttack trail",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approve",
+      "scope": "Merge PR98 and publish the reviewed Cuttack trail through Pages.",
+      "recorded_at": "2026-10-04T16:11:58.244588+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-159",
+        "UTP-DEC-190"
+      ],
+      "evidence": [
+        "records/cuttack-trail-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11708,7 +11731,8 @@
         "UTP-DEC-190"
       ],
       "evidence": [
-        "records/cuttack-illustrated-trail-2026-10-04.json"
+        "records/cuttack-illustrated-trail-2026-10-04.json",
+        "records/cuttack-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12789,6 +12813,22 @@
         "records/image-label-publication-2026-10-04.json"
       ],
       "note": "PR96 merged after validation; Pages deployment succeeded. Live HTML audit of 124 pages and 560 image elements found no AI-generated image alt prefixes or figure-caption tags. Homepage provenance retained in end credits; no visual or pixel OCR pass claimed."
+    },
+    {
+      "id": "UTP-REL-065",
+      "title": "Cuttack · Silver and Stories published",
+      "status": "published",
+      "authorization": "UTP-DEC-191",
+      "destination": "https://utkalproject.org/journey-starters/cuttack/",
+      "refs": [
+        "UTP-DEC-191",
+        "UTP-WORK-159",
+        "UTP-REV-137"
+      ],
+      "evidence": [
+        "records/cuttack-trail-publication-2026-10-04.json"
+      ],
+      "note": "PR98 merged after validation; Pages succeeded. Eleven live routes, four photograph hashes, shared journey data and matching four-chapter offline export checked. Existing search shortlist retained; no browser visual pass claimed."
     }
   ],
   "sources": [

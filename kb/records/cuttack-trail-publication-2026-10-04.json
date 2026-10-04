@@ -1,0 +1,79 @@
+{
+  "title": "Cuttack · Silver and Stories published",
+  "recorded_at": "2026-10-04T16:11:58.244588+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-191",
+    "quote": "approve",
+    "context": "Founder approved PR98 for merge and publication."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/98",
+  "approved_head": "e1b3c4bac9537335ff69a1c6496ce665c833af58",
+  "commit": "916e8fa963d9bde26f0af49ddef71f46d8c1bdfd",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37215363714",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37215657458",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey-starters/cuttack/",
+  "live_verification": {
+    "checked_at": "2026-10-04T16:10:42.537667+00:00",
+    "scope": "Live HTTPS HTML, JSON and asset hash verification, not browser interaction or visual inspection.",
+    "chapters": 4,
+    "starter_items": 6,
+    "routes_checked": [
+      "/journey-starters/cuttack/",
+      "/destinations/cuttack/",
+      "/visit/places/barabati/",
+      "/visit/experiences/cuttack-filigree/",
+      "/visit/experiences/cuttack-netaji/",
+      "/food/cuttack/",
+      "/journey/",
+      "/stories/bhubaneswar-fresco/",
+      "/journey-starters/",
+      "/contribute/",
+      "/visit/stays/cuttack/"
+    ],
+    "photos": [
+      {
+        "src": "/images/regions/barabati.jpg",
+        "sha256": "2962f3afd48583940ef59734331cd17ad891e6c2546600daaa3c8ebd044825a8",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/cuttack-filigree.webp",
+        "sha256": "8eadefba2b5f0f9a338a898bce3f72c16c30f74bac9e431b500be0304ef793d7",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/cuttack-netaji.webp",
+        "sha256": "b63ae286dfbd7b92d5595337cf14d0a2202c8c6b2b3e9edcd6fbbbb0bbd3c4cd",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/cuttack-dahibara.webp",
+        "sha256": "1a9c32d5fadbd424eba8cc07eb56efc2c6dcaf7dd03d4aab6457e94a667742ac",
+        "status": 200
+      }
+    ],
+    "source_credits_present": true,
+    "shared_journey_payload_matches": true,
+    "search_hold_preserved": true,
+    "export_check": {
+      "status": "pass",
+      "chapters": 4,
+      "embedded_photos": 4,
+      "image_bytes": 825715,
+      "private_notes_excluded": true,
+      "scope": "Offline export generated from live JSON and local assets whose hashes match the live files; not a browser download or native PDF test."
+    }
+  },
+  "limitations": [
+    "Live checks inspect delivered HTML, shared JSON and asset hashes, not rendered browser layout.",
+    "Offline export uses live data and matching local assets; no fresh browser download or native PDF review.",
+    "Existing browser-policy verification limitation, local venue/access confirmation and Search Console processing remain open."
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false
+}
