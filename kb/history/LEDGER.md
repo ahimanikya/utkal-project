@@ -922,3 +922,9 @@ New trail journeys can carry their chapters into offline books, while local cont
 The approved trail book, contextual contribution questions and blank local verification pack are published. Live delivery and a live-data offline export check passed. Visual/native PDF review, local confirmation and Search Console remain open.
 
 [Publication evidence](../records/trail-books-publication-2026-10-04.json) · [PR89](https://github.com/ahimanikya/utkal-project/pull/89).
+
+## UTP-HIS-0220 · One lagoon, different beginnings
+
+Chilika became the next illustrated trail, keeping three gateways separate. Four photographic chapters connect birds, island belief, open water and the table; portable books carry only the chapters connected to selected ideas. Local knowledge is invited through dated observations.
+
+[Candidate evidence](../records/chilika-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.

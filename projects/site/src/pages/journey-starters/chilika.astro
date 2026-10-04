@@ -1,0 +1,19 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import VisitorTrail from '../../components/VisitorTrail.astro';
+import trail from '../../../../../kb/research/destinations/chilika-trail.json';
+import selection from '../../../../../kb/research/journey-starters.json';
+import {allowsStarter} from '../../data/edition';
+import {bookPhotos} from '../../data/book-photos';
+const choices=selection.starters.filter(s=>trail.starter_ids.includes(s.id)&&allowsStarter(s.id));
+const photos=[...new Map(trail.chapters.map(c=>{const p=bookPhotos[c.photo];return [p.src,p];})).values()];
+---
+<Shell title="Chilika, one shore at a time" description={trail.intro} active="journey" wide>
+<div class="wrap">
+<nav class="trail-breadcrumb" aria-label="Journey trail"><a href="/journey-starters/">Journey starters</a><span aria-hidden="true"> / </span><a href="/knowledge/chilika/">Chilika guide</a></nav>
+<noscript><p class="notice">Enable JavaScript to save a journey. All stories and guide links can be read without it.</p></noscript>
+<VisitorTrail trail={trail} choices={choices} headingLevel="h1"/>
+<details class="trail-credits"><summary>Photographs & source notes</summary><p>Context reviewed {trail.reviewed_on}. {trail.review_scope}</p><ul>{trail.sources.map(s=><li><a href={s.url}>{s.title}</a>. {s.note}</li>)}</ul><ul>{photos.map(p=><li><a href={p.source}>{p.caption||p.alt}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</li>)}</ul></details>
+</div>
+</Shell>
+<style>.trail-breadcrumb{padding-top:28px;font-size:15px}.trail-breadcrumb a{display:inline-block;padding:10px 0}.trail-credits{margin:32px 0 60px;font-size:14px;max-width:85ch;overflow-wrap:anywhere}.trail-credits summary{padding:14px 0;cursor:pointer}.trail-credits li{margin:14px 0}</style>

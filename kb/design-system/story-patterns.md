@@ -228,3 +228,12 @@ Keep topic, area and ordering choices reversible through Back and Forward. Group
 Show topic counts within the current query and area, and offer separate removal of the query, topic and area. Empty results should point to those choices. Return focus to the relevant control when its removal button disappears. Keep the collection available without scripting; never make client filtering the only access to entries. Reorder card nodes only when ordering changes, so typing does not repeatedly detach photographs.
 
 [Explore filter-flow review](../records/explore-filter-flow-review.json) records controller and built-page checks. Native browser, screen-reader and physical-device verification remains open; this is a UTP pattern, not a shared-package release.
+
+
+## Let a trail offer choices without promising a circuit
+
+A place with several gateways needs a clear choice before a timetable. Give its illustrated reading path a dedicated page when a second long story would overwhelm the starter collection. Reuse the same chapter component for a section or a page, with the correct heading hierarchy, unique control IDs, full photographic context and source notes at the end.
+
+Link the same curated trail to several starting collections when their places belong to one broader story. Carry only chapters matching the visitor’s selected ideas into their book, including selected-day exports. Keep old plans untouched. Return from each guide to the trail, and offer contribution questions suited to the place. Regional imagery must stay labelled as regional.
+
+[Chilika trail candidate](../records/chilika-illustrated-trail-2026-10-04.json) records source/build and export checks. Browser visual and native PDF review remain open; this is a UTP implementation pattern, not a shared-package release.
