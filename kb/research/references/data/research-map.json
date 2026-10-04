@@ -20498,6 +20498,63 @@
       "source_ids": [
         "food-omfed-ar2014"
       ]
+    },
+    {
+      "id": "collections/odisha-gi-products",
+      "title": "Odisha GI inventory",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "collections/odisha-gi-products.md",
+      "project_path": "kb/research/collections/odisha-gi-products.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "arts",
+        "food"
+      ],
+      "source_ids": [
+        "gi-state-register2025",
+        "gi-live-register2026"
+      ]
+    },
+    {
+      "id": "sources/gi-state-register2025",
+      "title": "IP India state-wise registered GIs — as of 31 December 2025",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-state-register2025.md",
+      "project_path": "kb/research/sources/gi-state-register2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "arts",
+        "food"
+      ],
+      "source_ids": [
+        "gi-state-register2025",
+        "gi-live-register2026"
+      ]
+    },
+    {
+      "id": "sources/gi-live-register2026",
+      "title": "IP India application detail checks — Odisha, 4 October 2026",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-live-register2026.md",
+      "project_path": "kb/research/sources/gi-live-register2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "arts",
+        "food"
+      ],
+      "source_ids": [
+        "gi-state-register2025",
+        "gi-live-register2026"
+      ]
     }
   ],
   "shared_publications": [
@@ -22054,6 +22111,26 @@
       "remaining_scope": "Deliver a source-linked deep desk study of Sadhaba vessels and practical science, a claim register separating historical evidence from later practice and modern physics, and original field-study comparison with dated terminology; preserve unknown instruments, provisions and voyage success rather than infer them.",
       "status_unchanged": "in_progress",
       "instruction": "Reuse existing maritime identities; keep later practice and physical explanation separate from historical attribution."
+    },
+    {
+      "task_id": "RES-069",
+      "title": "Consolidated Odisha GI registry inventory",
+      "source_records": [
+        "sources/handloom-gi-list-2026.md",
+        "handlooms/garments-and-markets.md",
+        "economy/rasagola-and-sweets.md",
+        "collections/made-in-odisha.md",
+        "collections/odisha-gi-products.md",
+        "sources/gi-state-register2025.md",
+        "sources/gi-live-register2026.md",
+        "references/data/odisha-gi-products.json"
+      ],
+      "project_records": [
+        "kb/research/sources/odisha-gis.md"
+      ],
+      "remaining_scope": "Deliver all Odisha rows from the official dated state list, retaining exact names, application IDs, source locations and dates; check individual records, separate logos/merged IDs/pending applications, link existing research and preserve renewal/economics gaps.",
+      "status_unchanged": "completed",
+      "instruction": "Reuse product identities and existing profiles; list and detail pages are one publisher, not independent corroboration."
     }
   ],
   "rules": [
@@ -22071,8 +22148,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1356,
-    "updated_at": "2026-10-04T22:28:16.085032+00:00",
+    "records_mapped": 1359,
+    "updated_at": "2026-10-04T22:50:11.558328+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22775,6 +22852,11 @@
       "run_id": "2026-10-04-food-processing-output",
       "at": "2026-10-04T22:28:16.085032+00:00",
       "scope": "Existing rice, livestock and sweets records reused; one food-processing synthesis and five OMFED source identities added. Economic Survey identity retained."
+    },
+    {
+      "run_id": "2026-10-04-gi-inventory",
+      "at": "2026-10-04T22:50:11.558328+00:00",
+      "scope": "One GI inventory and two registry source identities added; existing profiles and historical government source reused."
     }
   ]
 }

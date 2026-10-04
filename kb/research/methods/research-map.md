@@ -491,3 +491,7 @@ Existing manufacturing and district pages extended with one synthesis and three 
 ## Food-processing checkpoint · 4 October 2026
 
 Existing rice, livestock, sweets and district concepts extended through one processing study. Crop observations are reused by identity, not duplicated. The existing Survey source is reused; no independent corroboration implied.
+
+## GI inventory extension · 4 October 2026
+
+RES-069 consolidates the dated official state list and current detail snapshots. Reuse [GI inventory](../collections/odisha-gi-products.md) before product research; grouped and logo IDs are explicit. This addition is not a whole-KB semantic deduplication claim.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T22:28:16.085032+00:00",
+  "updated_at": "2026-10-04T22:50:11.558328+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4065,6 +4065,52 @@
         "map": "references/data/research-map.json"
       },
       "selection_basis": "Explicit user request for deep study overrides routine queue ordering for this batch."
+    },
+    {
+      "id": "RES-069",
+      "order": 0.04,
+      "title": "Consolidated Odisha GI registry inventory",
+      "done_when": "Deliver all Odisha rows from the official dated state list, retaining exact names, application IDs, source locations and dates; check individual records, separate logos/merged IDs/pending applications, link existing research and preserve renewal/economics gaps.",
+      "target": "collections/odisha-gi-products.md",
+      "status": "completed",
+      "attempts": 1,
+      "dependencies": [],
+      "last_worked_at": "2026-10-04T22:50:11.558328+00:00",
+      "next_step": "Recheck newer state list and unresolved renewal fields from11October2026; deepen existing product profiles with specifications, authorized users and sourced economics.",
+      "evidence_outputs": [
+        "collections/odisha-gi-products.md",
+        "sources/gi-state-register2025.md",
+        "sources/gi-live-register2026.md",
+        "references/data/odisha-gi-products.json"
+      ],
+      "blocker": null,
+      "attempt_history": [
+        {
+          "run_id": "2026-10-04-gi-inventory",
+          "at": "2026-10-04T22:50:11.558328+00:00",
+          "outcome": "dated_inventory_delivered",
+          "completion_criteria_met": true,
+          "remaining": "Renewal and post-cutoff coverage follow-up; exact specifications and producer economics."
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "sources/handloom-gi-list-2026.md",
+          "handlooms/garments-and-markets.md",
+          "economy/rasagola-and-sweets.md",
+          "collections/made-in-odisha.md",
+          "collections/odisha-gi-products.md",
+          "sources/gi-state-register2025.md",
+          "sources/gi-live-register2026.md",
+          "references/data/odisha-gi-products.json"
+        ],
+        "project_records": [
+          "kb/research/sources/odisha-gis.md"
+        ],
+        "audit_date": "2026-10-04",
+        "map": "references/data/research-map.json"
+      },
+      "selection_basis": "Explicit user request for all Odisha GI items; other in-progress tasks preserved."
     }
   ],
   "queue_revision_history": [
@@ -4185,6 +4231,11 @@
       "at": "2026-10-01T20:10:23.860704+00:00",
       "run_id": "2026-10-01-rice-research",
       "scope": "User-requested rice research added as three bounded tasks; prior task IDs and order retained."
+    },
+    {
+      "at": "2026-10-04T22:50:11.558328+00:00",
+      "run_id": "2026-10-04-gi-inventory",
+      "scope": "Added and completed bounded RES-069 inventory at user request; future validity and economics gaps retained."
     }
   ],
   "deduplication_policy": "Read methods/research-map.md and each task’s reuse_before_research before browsing. A publication reused by several IDs is not independent corroboration. Keep source/edition/scope and review states.",

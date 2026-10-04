@@ -17,3 +17,5 @@ Follow a subject across Odisha’s places, people and evidence. Each page keeps 
 ## People and livelihoods context · 4 October 2026
 
 [District people and work baselines](../statistics/western-southern-baselines.md) add Census 2011 literacy and recorded work, plus NFHS-5 child nutrition. Current services, skills and enterprise demand need separate evidence; these historical observations are not a tourism or investment ranking.
+
+[Odisha’s GI inventory](odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.

@@ -42,3 +42,5 @@ Foods, ingredients and culinary story opportunities.
 [Bela pana](bela-pana.md) — summer preparation, credited variations and a documented Odia New Year serving.
 
 [Mohu/honey](mohu-honey.md) · [Mahua/mohula](mahua-mohula.md) — named forest-product profiles, with supply origin and local season still requiring verification.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.

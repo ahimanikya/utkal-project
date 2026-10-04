@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T22:28:16.085032+00:00",
+  "updated_at": "2026-10-04T22:50:11.558328+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7835,6 +7835,379 @@
           "source_id": "food-omfed-ar2014",
           "locator": "PDF p.10 / printed p.8",
           "reason": "Sales table, not production; mixed report dates and original Odia numerals require careful selected-row capture. No values inferred from filename.",
+          "retry_after": "2026-10-11"
+        }
+      ],
+      "retry_after": "2026-10-11"
+    },
+    {
+      "run_id": "2026-10-04-gi-inventory",
+      "at": "2026-10-04T22:50:11.558328+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-state-register2025",
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "status": "available",
+          "scope": "PDF pp.7–8 visually checked; list cutoff31December2025",
+          "sha256": "e401f55dc35b29f88f2b984417fdaebd1dcbfe89b93486bd6c6885987d4f50fa"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 229,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/229",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-229.html",
+          "sha256": "bc635ec32c749f24ac985bb56d90ed80437a60c27d924dc6c6880a34bb3f0aec"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 610,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/610",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-610.html",
+          "sha256": "aa04a6af32497fe2ab5a92f0dd9b34cd57a23d2bdf4963599d7df1bd30117aa5"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 739,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/739",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-739.html",
+          "sha256": "d3fe40d78164a5fe25f142054b248be391d3cb470402439a0e9578b6c7551fbb"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 814,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/814",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-814.html",
+          "sha256": "e5ee1854261d59f91b6113b94733baadefdd822e8b1dadb2fe599cc27d80ff46"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 612,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/612",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-612.html",
+          "sha256": "049f30a1e26d20e31f01cf79b16e20b86323529ff02ae4c75006eb7a690a3770"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 802,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/802",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-802.html",
+          "sha256": "ecb2b137efd3fef544e5f2a36e77c271bd29e30042cd6339dab95e25e8d3b6d8"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 690,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/690",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-690.html",
+          "sha256": "c3d1a979cf87e85bec8a70f6dd63a58f8edd363d1f2cc5c4e3316a3894ecff9c"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 724,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/724",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-724.html",
+          "sha256": "ad654485049b1f83f7c78193440e7b8f46c883b2eef7f429afd6c06721232bc1"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 725,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/725",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-725.html",
+          "sha256": "a63d988d007a91d91461279a73a8b9096664291fbadf318ab7616e13e3460994"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 10,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/10",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-10.html",
+          "sha256": "9221c23551d1a2faa8947f41fd15c40c76a3eccbc344028480e3bec6357001d7"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 22,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/22",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-22.html",
+          "sha256": "960cefdc0d52a0bddab2aa285ce12fed5f6f0fc22fd2443676dd24c6eb4769f6"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 86,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/86",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-86.html",
+          "sha256": "faf708e03486e261068efee5b7288a6d7343973c8692efe3a3709a36bcb3354c"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 108,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/108",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-108.html",
+          "sha256": "ef07456348d5a4c5d86f4612ea7e7e6070a131915d2d099e2bb93f43a7098f0d"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 87,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/87",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-87.html",
+          "sha256": "cf7f1ed485efe1165e2d4c836570aef72beaa2b2a5e4bf9bfbc351fa74d3a9d8"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 544,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/544",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-544.html",
+          "sha256": "72f7e137b1ebd288bc533de6c5deb113c7618d50b2d9585fa0f37260a02cbe48"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 88,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/88",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-88.html",
+          "sha256": "82ad3de6e3122eb3640b42dc219841ab875b14ff72693c7130ba5712b4787e80"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 136,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/136",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-136.html",
+          "sha256": "5469ceec1099e557a832794c219d8dae8a4e6975c107cb5ea3e119605128b176"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 167,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/167",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-167.html",
+          "sha256": "d8b2f7a3f77b825d6d8797670be1a273d8c8b4a177c2a171c2c2bde1b33ae578"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 207,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/207",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-207.html",
+          "sha256": "b0b1292ff83fc737a6de88b0e2b882d6215a8946b6a23a198e5d9037ca407853"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 208,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/208",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-208.html",
+          "sha256": "93c2dfc9202c05201779b3f907b60490fe118b1dc85b949948d2143051861412"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 217,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/217",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-217.html",
+          "sha256": "0c9ca51a6d927a1c553588fcc815b4f340995f550f20f868f2d1ad432238719c"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 219,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/219",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-219.html",
+          "sha256": "e150656ea2aecd5f2511753d783960afa871c0b11f30811400f2656cad028837"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 220,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/220",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-220.html",
+          "sha256": "af72cf598aa388055cf5cbb2b042826841a599b7110bbf34ddfddd795647294a"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 386,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/386",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-386.html",
+          "sha256": "082b6bac3921cd61303a6639bb6dca20cd0c4486d175169cc32f0c5ead0b22e5"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 773,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/773",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-773.html",
+          "sha256": "02e34a41c842f6ff5e6a46822c26b1ed8ae9ac312e60f7eb6a717843c683a8c9"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 871,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/871",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-871.html",
+          "sha256": "dcebe073faca28f10a7a4b953b3d85b1df0b5d6b8dfd21232bd58f2f697efcb6"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 767,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/767",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-767.html",
+          "sha256": "89a064d9b5856e57edc59dbe1f5c50d49a4c882a5eb3de96be450238bd04509c"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 228,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/228",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-228.html",
+          "sha256": "d0681eb7abe1461d7332ec385b229a271e935d3d0a64568485269056a0280f56"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 1067,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1067",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-1067.html",
+          "sha256": "3956eb2270aaa69751632424b1b2a1d4f82426e02f9e25a053f595aa23c603f3"
+        },
+        {
+          "source_id": "gi-live-register2026",
+          "status": "available",
+          "application": 1574,
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/1574",
+          "http_status": "200",
+          "exit": 0,
+          "error": "",
+          "path": "work/gi-inventory/app-1574.html",
+          "sha256": "aa0f4236036e996568c3aa09cf97ef48e65b715e6cdaf1ad14577d01ecebbf6e"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://ipindia.gov.in/writereaddata/Portal/Images/pdf/State_wise_Registered_Geographical_Indications.pdf",
+          "status": "unavailable",
+          "method": "Web fetch failed; current frontend PDF succeeded"
+        }
+      ],
+      "held_fields": [
+        {
+          "field": "newer_consolidated_list",
+          "gap": "No newer consolidated state list established in bounded search; post-2025 additions require recheck.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "renewal_details",
+          "application_numbers": [
+            10,
+            22,
+            773
+          ],
+          "gap": "Kotpad and Orissa Ikat display past validity dates while status remains Registered; Kapadaganda validity is blank. Obtain renewal record before legal-validity conclusions.",
+          "retry_after": "2026-10-11"
+        },
+        {
+          "field": "producer_economics_and_specifications",
+          "gap": "Authorized users, exact geographic specifications, current producer availability, production and export data need separate product research.",
           "retry_after": "2026-10-11"
         }
       ],

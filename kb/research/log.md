@@ -538,3 +538,7 @@ Added 30 original-page plant observations and 13 comparisons. IFFCO output/sales
 ## Food-processing checkpoint · 4 October 2026
 
 Added four scoped OMFED observations and two comparisons, retaining procurement facsimile review and missing processing output. Existing rice observations reused by ID. [Study](economy/food-processing-and-dairy.md). No human review or website release.
+
+## GI inventory · 4 October 2026
+
+Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list entries, 25 non-logo entries and one separate logo; 28 application IDs plus two pending examples checked. Existing product pages reused. Renewal anomalies held; no human review or website publication.
