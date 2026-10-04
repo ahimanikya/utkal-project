@@ -934,3 +934,9 @@ Chilika became the next illustrated trail, keeping three gateways separate. Four
 The approved Chilika trail is published with four photographic chapters and three separate gateway choices. Live delivery and all three live-data exports passed. Visual/native PDF review, local confirmation and Search Console remain open.
 
 [Publication evidence](../records/chilika-trail-publication-2026-10-04.json) · [PR93](https://github.com/ahimanikya/utkal-project/pull/93).
+
+## UTP-HIS-0222 · Let the image lead
+
+The Founder requested removal of AI-generated tags beside images. Captions now focus on the scene; provenance remains in end credits and project records.
+
+[Candidate evidence](../records/image-label-cleanup-2026-10-04.json). Not yet published.
