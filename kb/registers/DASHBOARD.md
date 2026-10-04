@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d52800769561fd14a12becfab5b09e35fd34a551c58d5f1d4af423335bc25deb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `843064fb71867cbe9f2e266119aa16e5c07265ae9ab0de96599bd90072bb6f68`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -164,6 +164,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-149 · Build four scoped mining land and people studies | completed | applied | Ahimanikya Satapathy | Scoped case-study checkpoint merged. RES-054 retains original monitoring, implementation and ecological-recovery evidence follow-ups. | — |
 | UTP-WORK-150 · Recover original mining evidence and preserve unresolved outcomes | completed | applied | Ahimanikya Satapathy | Evidence follow-up checkpoint merged. RES-054 remains in progress for denominator clarification, original decisions, corrective completion and measured recovery. | — |
 | UTP-WORK-151 · Global Connections section and Indian-city comparison | completed | published | Ahimanikya Satapathy | Section published. Future work: obtain complete BMC register, verify proposals and recent activity, then seek approval for partner outreach. | — |
+| UTP-WORK-152 · Twelve Documentary Natural homepage scenes | in_progress | applied | Ahimanikya Satapathy | Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable. | Browser security-policy verification unavailable for local preview. |
 
 ## Pending human review and decisions
 
@@ -397,6 +398,12 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-169 · Follow original mining study and implementation records | approved | Ahimanikya Satapathy | RES-054 evidence follow-up and routine KB integration under standing authorization; no outreach or public story publication. |
 | UTP-DEC-170 · Approve merged mining evidence follow-up | approved | Ahimanikya Satapathy | Founder acceptance of PR70 and its bounded research checkpoint. RES-054 evidence gaps and numerical holds remain open; approval does not establish independent source verification or public website story publication. |
 | UTP-DEC-171 · Create Global Connections within Utkal Project | approved | Ahimanikya Satapathy | Build the website section and comparison under existing routine delivery authorization. Separate initiative, commitments and outreach remain deferred. Direction approval does not certify every research finding. |
+| UTP-DEC-172 · Apply Documentary Natural imagery to Utkal homepage | approved | Ahimanikya Satapathy | Generate and apply homepage artwork locally. User clarified Utkal Project. Style direction approval is not a claim of final image review or publication. |
+| UTP-DEC-173 · Use a changing collection of homepage artwork | approved | Ahimanikya Satapathy | Extend local homepage artwork into a rotating collection. Nine-second rotation and accessible controls are implementation choices, not a separate founder quotation. |
+| UTP-DEC-174 · One still homepage artwork per visit | approved | Ahimanikya Satapathy | Supersedes automatic rotation implemented under UTP-DEC-173. Select one image per homepage page load; keep it still during reading. Consecutive-repeat avoidance is a local display preference when storage is available. Back/forward cache restoration retains the already loaded page. |
+| UTP-DEC-175 · Complete all twelve homepage artwork themes | approved | Ahimanikya Satapathy | Create and locally integrate the twelve-theme homepage artwork collection proposed in the preceding conversation. Preserve one still scene per visit and the Human Natural direction. |
+| UTP-DEC-176 · Apply the final Human Natural refinement | approved | Ahimanikya Satapathy | Apply the immediately preceding offer to make festival and reading scenes more candid. Local homepage integration; no new public deployment claimed. |
+| UTP-DEC-177 · Publish the twelve-scene homepage collection | approved | Ahimanikya Satapathy | Apply the prepared twelve-scene homepage collection including the final Human Natural festival and reading refinements through repository publication. Existing browser visual-review limitation disclosed in preceding response; automatic checks remain required. |
 
 ## Reviews
 
@@ -529,6 +536,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-127 | pass_with_limitations | False | EIA and DGMS available as publisher text; direct PDFs and visual checks unavailable.; New Sukinda court mirror remains a discovery lead; no figures adopted.; Subsequent rights decisions, remedial actions and ecological recovery unverified. |
 | UTP-REV-128 | pass_with_limitations | False | CGWB copy is an applicant annex; post-monsoon totals conflict.; Niyamgiri committee capture limited to indexed official excerpt.; Site-specific corrective completion and ecological recovery remain unverified. |
 | UTP-REV-129 | pass_with_limitations | False | City comparisons have unequal source coverage; counts are explicitly scoped.; No independent audit of current programmes or complete Odisha municipal register. |
+| UTP-REV-130 | pass_with_limitations | False | Browser layout review unavailable: admin-enforced security policy could not be verified.; AI-generated imagined scenes; not photographs of identified people or exact places. |
 
 ## Publication and application history
 
@@ -628,16 +636,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-196 | 2026-10-02T20:56:04.342494+00:00 | Compared original Finance Accounts and Parliament district tables; added two higher-precision observations and six unsent record questions. | Validate bounded findings; obtain named reconciliation and operating records rather than repeat identical searches. |
-| UTP-EVT-197 | 2026-10-02T21:01:33.418861+00:00 | PR68 integrated after local checks and GitHub CI passed; 956 observations, including 954 earlier records preserved. | Obtain named records to resolve remaining receipt, district accounting and facility-use gaps. No outreach sent. |
-| UTP-EVT-198 | 2026-10-03T06:18:01.447765+00:00 | Founder approved the merged PR68 mining accounting-basis comparison. | Retain named reconciliation and facility-record dependencies; no outreach sent. |
-| UTP-EVT-199 | 2026-10-03T07:42:12.281122+00:00 | Four bounded case studies connect monitoring, rights, safety and restoration; three new source identities, prior statistical observations unchanged. | Validate and integrate; obtain the specified original and implementation records. |
-| UTP-EVT-200 | 2026-10-03T07:49:13.664438+00:00 | PR69 integrated after local and GitHub checks passed; four cases and shared evidence model added, all956 prior statistical observations unchanged. | Obtain named original and implementation records; preserve uncertainty about current outcomes. |
-| UTP-EVT-201 | 2026-10-03T08:07:02.965859+00:00 | Four source records extend four case histories; groundwater denominator conflict preserved, no new atlas observations. | Validate and integrate; retain source clarification and implementation follow-ups. |
 | UTP-EVT-202 | 2026-10-03T08:13:52.715304+00:00 | PR70 integrated after local and GitHub checks passed; four source records extend case histories with explicit source roles and unresolved sample totals. | Pursue named clarification and implementation records when new evidence is available; no unsupported outcome claims. |
 | UTP-EVT-203 | 2026-10-03T08:20:20.347145+00:00 | Founder approved the merged PR70 mining evidence follow-up. | Retain RES-054 source clarification and implementation dependencies; research drafts remain unpublished. |
 | UTP-EVT-204 | 2026-10-03T13:36:12.489673+00:00 | Built Global Connections section with six-city comparison, eleven traceable sources and a deferred-initiative operating brief. | Verify delivery; obtain fuller agreement and activity evidence in future work. |
 | UTP-EVT-205 | 2026-10-03T13:50:09.269445+00:00 | Merged PR71 and verified the successful Global Connections website deployment, six-city comparison, entry links and unchanged search scope. | Founder can review the live section; future research and outreach remain separate work. |
+| UTP-EVT-206 | 2026-10-04T03:50:35.766910+00:00 | Generated an imagined coastal scene in Documentary Natural style, applied both homepage versions, preserved original and prompt, passed build and 76 coastal tests. Browser review blocked by security-policy verification. | Complete browser visual review; no publication claimed. |
+| UTP-EVT-207 | 2026-10-04T05:27:14.507447+00:00 | Applied a four-image homepage carousel with motion preferences, pause/navigation controls, visibility handling and decode-before-change protection. Six controller and 76 coastal tests passed; browser policy verification still blocks visual review. | Four-image carousel locally applied; six controller checks, 76 coastal tests and built-asset checks passed. Complete desktop/mobile visual review when browser policy verification recovers; not published. |
+| UTP-EVT-208 | 2026-10-04T05:37:17.953485+00:00 | Replaced automatic rotation with one randomly selected still image per homepage load. When browser storage is available, the previous artwork is excluded. Slideshow controls and animations are removed; captions, responsive images and static fallback remain. | Per-load artwork locally applied; eight controller tests, 76 coastal tests and built-asset checks passed. Complete desktop/mobile visual review when browser policy verification recovers; not published. |
+| UTP-EVT-209 | 2026-10-04T07:30:03.884234+00:00 | Created eleven new scenes and retained one maritime image to cover all twelve approved themes; saved original assets, prompts, web derivatives and local review gallery. One image per visit remains active. | Twelve-scene collection locally integrated; eight controller tests, 76 coastal tests, full build and 48 image-reference checks passed. Artwork gallery ready. Browser layout review remains blocked; not published. |
+| UTP-EVT-210 | 2026-10-04T08:03:02.021461+00:00 | Refined and applied two Human Natural scene edits; updated provenance, web assets and review gallery without replacing original evidence. | Twelve-scene homepage locally applied with candid festival and reading v2 edits. 84 tests and build passed; original images and prompts retained. Complete browser layout review when policy verification recovers; not deployed. |
+| UTP-EVT-211 | 2026-10-04T08:15:57.208317+00:00 | Founder requested application of the prepared collection. Full-site build and 391 tests passed; beginning approved repository release. | Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable. |
 
 ## Deferred extensions
 

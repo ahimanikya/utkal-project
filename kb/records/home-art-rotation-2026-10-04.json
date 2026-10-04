@@ -1,0 +1,52 @@
+{
+  "title": "Rotating Documentary Natural homepage artwork",
+  "recorded_at": "2026-10-04T05:27:14.507447+00:00",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "Or let's make a few that we can keep changing instead of a static  image",
+  "status": "locally_applied",
+  "publication_status": "not_published",
+  "implementation": [
+    "One shared HomeArt component for coastal and full homepage.",
+    "Four scenes; first is A Quiet Crossing; automatic change every nine seconds.",
+    "Previous, next and pause/play buttons; manual selection pauses automatic changes.",
+    "Pause on mouse hover, focus, hidden tab or when artwork is outside the viewport.",
+    "Reduced-motion preference starts paused and disables the fade.",
+    "Decode before switching; failed images preserve the current image.",
+    "Static first scene without JavaScript; controls appear only after controller initialization.",
+    "AI-generated imagined-scene caption and image alt text retained.",
+    "Responsive WebP variants; original PNGs and generation prompts preserved."
+  ],
+  "checks": {
+    "controller_tests": "6 passed; autoplay timing, reduced motion, interaction/visibility pauses, load failure, in-flight cancellation, live motion preference.",
+    "coastal_tests": "76 passed, zero failures.",
+    "build": "136 pages compiled, 123 coastal pages.",
+    "artifact_check": "Four hero sources and all responsive variants retained in coastal output, one high-priority image.",
+    "browser_visual_review": "Blocked by browser admin-enforced security-policy verification. No bypass attempted; desktop/mobile rendering remains unverified."
+  },
+  "prompts": [
+    "records/home-documentary-natural-prompt.txt",
+    "records/home-documentary-natural-options-prompts.txt"
+  ],
+  "assets": [
+    {
+      "path": "/assets/coast-quiet-crossing-v1.webp",
+      "sha256": "eec9184174922116f6aa885ae03bbf5eb82c0fa94d7b8bb4b15a034c1807d447"
+    },
+    {
+      "path": "/assets/coast-before-the-journey-v1.webp",
+      "sha256": "05a0337ffb7f14dc0c4ab734a35d59ba943e4dce26360d65a86d340e46f2d37f"
+    },
+    {
+      "path": "/assets/coast-hands-that-build-v1.webp",
+      "sha256": "8b0ce90ae4b9298ae63e0c65c74d3ea963f166466b82937624154137b428fac6"
+    },
+    {
+      "path": "/assets/coast-documentary-natural-v1.webp",
+      "sha256": "be4be9e903bdbadfa4c2527e923c6fafba313c83842becab03b60b30558f41d1"
+    }
+  ],
+  "limitations": [
+    "Imagined AI-generated scenes, not documentary photographs or authenticated boat-construction references.",
+    "No public deployment or completed browser visual review claimed."
+  ]
+}

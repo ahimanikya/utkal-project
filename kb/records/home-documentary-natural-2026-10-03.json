@@ -1,0 +1,44 @@
+{
+  "title": "Documentary Natural homepage artwork",
+  "recorded_at": "2026-10-04T03:50:35.766910+00:00",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "quote": "Can you apply Human Natural Documentary Natural image for the home page art",
+    "clarification": "Utkal Project"
+  },
+  "status": "locally_applied",
+  "publication_status": "not_published",
+  "generator": "Built-in image_gen tool",
+  "skills": [
+    "human-natural-image: Documentary Natural",
+    "imagegen"
+  ],
+  "prompt": "records/home-documentary-natural-prompt.txt",
+  "reference": "projects/site/public/assets/coast-illustration-v1.webp",
+  "credit": "Creative direction: Ahimanikya Satapathy; AI image generation and implementation: current AI assistant.",
+  "description": "Imagined Odisha-inspired coastal scene. Not a documentary photograph, identified location, or historically verified ship reconstruction.",
+  "changes": [
+    "Replaced homepage hero in coastal and full site versions without deleting the original illustration.",
+    "Added responsive image variants through existing build configuration.",
+    "Updated alt text and visible caption to identify AI-generated imagined content."
+  ],
+  "assets": [
+    {
+      "path": "kb/collections/home-art/coast-documentary-natural-v1.png",
+      "bytes": 2535340,
+      "sha256": "5999139a999f42048a3ffc5fb8c23984fe7e3eab5403fbbdb05788cfda92ee06"
+    },
+    {
+      "path": "projects/site/public/assets/coast-documentary-natural-v1.webp",
+      "bytes": 277888,
+      "sha256": "be4be9e903bdbadfa4c2527e923c6fafba313c83842becab03b60b30558f41d1"
+    }
+  ],
+  "checks": {
+    "image_visual_review": "Completed: boat, people, lighting and composition inspected at normal size; historical rigging not independently verified.",
+    "coastal_build": "Passed; 136 compiled pages, 123 coastal pages.",
+    "coastal_tests": "76 passed, zero failures.",
+    "browser_visual_review": "Blocked: browser could not verify admin-enforced security policy; no bypass attempted.",
+    "desktop_mobile_layout": "Not visually verified in browser."
+  }
+}
