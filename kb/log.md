@@ -491,3 +491,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Attributed craft works
 
 [Research receipt](records/attributed-craft-works-2026-10-04.json): RES-032 remains in progress. Three work records saved; institutional identity/current display limits retained. Remaining originals retry11October; next independent task RES-013. No website release.
+
+## 4 October 2026 · District evidence coverage
+
+[Research receipt](records/district-coverage-2026-10-04.json): RES-013 completed with a 30-district, five-domain saved-evidence matrix. Distinguishes district measures, local cases, guides and scheme areas; unknowns remain unknown. No new primary fetch or website release. Next RES-014.

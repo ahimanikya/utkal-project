@@ -19829,6 +19829,24 @@
       "source_ids": [
         "arts-crt-ina-tiles"
       ]
+    },
+    {
+      "id": "statistics/district-coverage",
+      "title": "District evidence: what we know and what is missing",
+      "kind": "Research Coverage Map",
+      "layer": "source_research_record",
+      "source_path": "statistics/district-coverage.md",
+      "project_path": "kb/research/statistics/district-coverage.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "governance",
+        "people",
+        "economy",
+        "nature",
+        "places"
+      ],
+      "source_ids": []
     }
   ],
   "shared_publications": [
@@ -20441,11 +20459,18 @@
       "title": "District coverage matrix",
       "source_records": [
         "statistics/district-banking.md",
-        "statistics/coverage.md"
+        "statistics/coverage.md",
+        "statistics/district-coverage.md",
+        "references/data/district-coverage.json"
       ],
-      "project_records": [],
+      "project_records": [
+        "kb/research/voices/district-connections.json",
+        "kb/research/voices/population-2011.json",
+        "kb/research/destinations/regions.json",
+        "kb/research/references/data/statistics-atlas.json"
+      ],
       "remaining_scope": "Map 30 districts against existing health, education, livelihoods, environment and visitor evidence; mark missing evidence rather than zero values.",
-      "status_unchanged": "pending",
+      "status_unchanged": "completed",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
     {
@@ -20455,10 +20480,15 @@
         "places/koraput.md",
         "statistics/districts/koraput.md",
         "statistics/districts/sambalpur.md",
-        "statistics/districts/bargarh.md"
+        "statistics/districts/bargarh.md",
+        "statistics/district-coverage.md",
+        "references/data/district-coverage.json"
       ],
       "project_records": [
-        "kb/research/destinations/regions.json"
+        "kb/research/destinations/regions.json",
+        "kb/research/voices/district-connections.json",
+        "kb/research/voices/population-2011.json",
+        "kb/research/references/data/statistics-atlas.json"
       ],
       "remaining_scope": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
       "status_unchanged": "pending",
@@ -21309,8 +21339,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1316,
-    "updated_at": "2026-10-04T12:42:08.226031+00:00",
+    "records_mapped": 1317,
+    "updated_at": "2026-10-04T13:43:00.385886+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21943,6 +21973,11 @@
       "run_id": "2026-10-04-world-connections",
       "at": "2026-10-04T06:32:22.384782+00:00",
       "scope": "Existing collection, ports and rare-earth identities enhanced. Two primary documents and one quarantined secondary lead added; no duplicate Paradip release."
+    },
+    {
+      "at": "2026-10-04T13:43:00.385886+00:00",
+      "run_id": "2026-10-04-district-coverage",
+      "scope": "30-district, five-domain saved-evidence audit and RES-013/014 reuse pointers; not exhaustive semantic deduplication."
     }
   ]
 }

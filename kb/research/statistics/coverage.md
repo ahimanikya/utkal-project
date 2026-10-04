@@ -82,3 +82,7 @@ People-and-creations research added five observations for broad textile/apparel/
 [Mining: minerals, industry and people](../economy/mining.md) — twelve angles, existing-data reuse and five bounded follow-ups (RES-051–055).
 
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
+
+## District matrix · 4 October 2026
+
+[The 30-district matrix](district-coverage.md) distinguishes district measures, local cases, destination guides, homestay scheme areas and unmapped evidence across five domains. Its declared inputs include repository-native records. It does not convert local projects into district outcomes or missing evidence into zero.

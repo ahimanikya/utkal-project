@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T12:42:08.226031+00:00",
+  "updated_at": "2026-10-04T13:43:00.385886+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6858,6 +6858,13 @@
         }
       ],
       "scope": "Work attribution and historical exhibition capture; not weekly release monitoring. Failed web fetches recorded separately from successful original downloads."
+    },
+    {
+      "run_id": "2026-10-04-district-coverage",
+      "at": "2026-10-04T13:43:00.385886+00:00",
+      "status": "saved_knowledge_audit_no_fetch",
+      "source_checks": [],
+      "scope": "Reused saved source and repository-native records with input fingerprints. No publisher availability or freshness asserted."
     }
   ]
 }

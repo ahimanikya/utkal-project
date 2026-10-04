@@ -480,3 +480,7 @@ RES-032 adds stone, dhokra and terracotta process records, five scoped people pr
 ## Attributed craft works ·4October2026
 
 RES-032 adds Raghunath Mohapatra, two government-attributed sculptures, a provisionally matched Rana terracotta mural, and an IIC2016 exhibition with maker identity quarantined. All object dates/current displays remain unknown. Next independent task RES-013.
+
+## 4 October 2026 · District evidence matrix
+
+Completed RES-013: linked all 30 districts across five research domains. Saved evidence only; no fresh source verification or canonical atlas observation added. Next RES-014. See [matrix](statistics/district-coverage.md).
