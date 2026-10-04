@@ -1,0 +1,74 @@
+{
+  "title": "Balasore · Tides and Tales published",
+  "recorded_at": "2026-10-04T16:39:23.083724+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-193",
+    "quote": "Approved!",
+    "context": "Founder approved PR101 for merge and publication."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/101",
+  "approved_head": "29897ad05bbb05bd17ad86106555fe8bf0f2cbdf",
+  "commit": "4bb3a90355bba59056a099e1a2e15f924fe959e0",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37217012398",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37217350889",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey-starters/balasore/",
+  "live_verification": {
+    "checked_at": "2026-10-04T16:38:49.258878+00:00",
+    "scope": "Live HTTPS HTML, JSON and asset hash verification, not browser interaction or visual inspection.",
+    "chapters": 3,
+    "starter_items": 5,
+    "routes_checked": [
+      "/journey-starters/balasore/",
+      "/destinations/balasore/",
+      "/visit/places/chandipur/",
+      "/people/fakir-mohan-senapati/",
+      "/food/balasore/",
+      "/journey/",
+      "/stories/bhubaneswar-fresco/",
+      "/journey-starters/",
+      "/contribute/",
+      "/visit/stays/balasore-coast/"
+    ],
+    "photos": [
+      {
+        "src": "/images/regions/chandipur-panorama.jpg",
+        "sha256": "06e8b1a4852f7cb6726380a4ee934d3a3e5f80ea834d395012f76bfc8548dc4b",
+        "status": 200
+      },
+      {
+        "src": "/assets/language-literature/fakir-mohan.webp",
+        "sha256": "de64db9a31244c1bd557f61ccfab1dc63e289bf9b7b388acf155385fc5761f0b",
+        "status": 200
+      },
+      {
+        "src": "/images/regions/chandipur-sunset.jpg",
+        "sha256": "cd0d20634950b20af1301665a667e5baff2a670344b1c8d399f99f9302eea2e1",
+        "status": 200
+      }
+    ],
+    "source_credits_present": true,
+    "shared_journey_payload_matches": true,
+    "search_hold_preserved": true,
+    "export_check": {
+      "status": "pass",
+      "chapters": 3,
+      "embedded_photos": 3,
+      "image_bytes": 304891,
+      "private_notes_excluded": true,
+      "context_captions_preserved": true,
+      "scope": "Offline export generated from live JSON and local assets whose hashes match the live files; not a browser download or native PDF test."
+    }
+  },
+  "limitations": [
+    "Live checks inspect delivered HTML, shared JSON and asset hashes, not rendered browser layout.",
+    "Offline export uses live data and matching local assets; no fresh browser download or native PDF review.",
+    "Existing browser-policy verification limitation, local venue/access confirmation and Search Console processing remain open."
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false
+}
