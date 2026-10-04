@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T11:22:52.481972+00:00",
+  "recorded_at": "2026-10-04T12:02:51.910884+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4437,7 +4437,7 @@
       "id": "UTP-WORK-154",
       "title": "Connected homepage artwork and story introductions",
       "category": "website",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
@@ -4445,16 +4445,17 @@
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-180",
-      "next_action": "Review the implementation PR; publish after release approval. Browser visual review remains unavailable.",
-      "blockers": [
-        "Browser visual review blocked by administrator security-policy verification failure."
-      ],
+      "next_action": "Published and verified at utkalproject.org. Follow up with desktop/mobile visual review when browser policy verification recovers; Search Console remains separate.",
+      "blockers": [],
       "refs": [
         "UTP-DEC-180",
-        "UTP-REV-132"
+        "UTP-REV-132",
+        "UTP-DEC-181",
+        "UTP-REL-060"
       ],
       "evidence": [
-        "records/connected-homepage-stories-2026-10-04.json"
+        "records/connected-homepage-stories-2026-10-04.json",
+        "records/connected-stories-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8060,6 +8061,26 @@
       "evidence": [
         "records/connected-homepage-stories-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-181",
+      "title": "Publish connected homepage artwork and stories",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge and publish PR82, with browser visual-review and Search Console limitations retained.",
+      "recorded_at": "2026-10-04T12:02:51.910884+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-154",
+        "UTP-DEC-180"
+      ],
+      "evidence": [
+        "records/connected-stories-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11194,7 +11215,8 @@
         "UTP-WORK-154"
       ],
       "evidence": [
-        "records/connected-homepage-stories-2026-10-04.json"
+        "records/connected-homepage-stories-2026-10-04.json",
+        "records/connected-stories-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12195,6 +12217,22 @@
         "records/story-beginnings-publication-2026-10-04.json"
       ],
       "note": "PR78 merged after CI passed. Pages build and deployment succeeded. Live pool, controller, templates, button and 30 story destination responses verified. Browser visual review remains unavailable."
+    },
+    {
+      "id": "UTP-REL-060",
+      "title": "Connected homepage artwork and story paths published",
+      "status": "published",
+      "authorization": "UTP-DEC-181",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-181",
+        "UTP-WORK-154",
+        "UTP-REV-132"
+      ],
+      "evidence": [
+        "records/connected-stories-publication-2026-10-04.json"
+      ],
+      "note": "PR82 merged after checks passed. Pages build and deployment succeeded. Live twelve theme connections, thirty introductions, controller delivery and reciprocal literary links verified. Browser visual review remains unavailable."
     }
   ],
   "sources": [

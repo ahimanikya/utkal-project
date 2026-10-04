@@ -892,3 +892,9 @@ The approved changing story section went live with thirty illustrated entries. E
 The Founder approved connecting the changing welcome image with the stories beneath it. Twelve thematic reading paths and thirty refreshed introductions turn the homepage into a more connected invitation, while avoiding false identification of imagined scenes.
 
 [Implementation evidence and onward audit](../records/connected-homepage-stories-2026-10-04.json). Local candidate; browser visual review remains unavailable.
+
+## UTP-HIS-0215 · The welcome and its stories meet
+
+The approved theme connections reached the public homepage. Twelve imagined welcomes now guide visitors towards related reading, while thirty introductions invite closer attention. Two epic-writing profiles offer another step in the reading journey.
+
+[Publication evidence](../records/connected-stories-publication-2026-10-04.json) · [PR82](https://github.com/ahimanikya/utkal-project/pull/82). Automated and live delivery checks passed; browser visual review remains unavailable.
