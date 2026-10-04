@@ -425,3 +425,7 @@ RES-062 reuses the existing rice identities and Yadav2026 publication. Four newl
 ## Textile segments · 4 October 2026
 
 RES-030 reuses existing tradition and cooperative identities. Adds the original parliamentary source and Bargarh production account. OGD/PDF share publication lineage; saved directory reuse is not fresh verification.
+
+## Sand-art checkpoint · 4 October 2026
+
+RES-032 reused sand-art/person/work identities and inspected target-native Cuttack records. Seven source records and one selected work extend missing fields. Government-site location does not convert a broadcaster report into award-body evidence.

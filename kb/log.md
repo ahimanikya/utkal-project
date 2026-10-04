@@ -475,3 +475,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Textile segments and product forms
 
 [Research receipt](records/textile-segments-2026-10-04.json): RES-030 completed: sector composition, release reconciliation and eight production forms. Destination and quantity remain unknown. Next RES-032. No website release.
+
+## 4 October 2026 · Sand art: works and participation
+
+[Research receipt](records/sand-art-evidence-2026-10-04.json): RES-032 remains in progress. Sand-art work and event evidence saved; historical offered fees are not payments. Continue with Tarakasi and palm-leaf engraving. No website release.

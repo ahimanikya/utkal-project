@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 11,
-    "newer_records_outside_frozen_selection": 245
+    "newer_records_outside_frozen_selection": 253
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -230,6 +230,13 @@
     "source:rice-sahoo-cost2023",
     "source:rice-samant2023",
     "source:rice-yadav-landraces2026",
+    "source:sand-dda-workshop2022",
+    "source:sand-festival-landing2025",
+    "source:sand-festival-rules2022",
+    "source:sand-festival-rules2025",
+    "source:sand-puri-tiranga2025",
+    "source:sand-tourism-newsletter2020",
+    "source:sand-weymouth-award-lead2025",
     "source:sweets-apeda-query-routes",
     "source:sweets-dhenkanal-book-lead2021",
     "source:sweets-industry-size-lead",
@@ -272,13 +279,14 @@
     "subject:people/hariprasad-chaurasia",
     "subject:works/e-banara-chai-gapa-label",
     "subject:works/jaya-jadu-nandan-gapa-label",
+    "subject:works/puri-tiranga-sand-2025",
     "subject:works/saathi-re-jaa-kahi-gapa-label",
     "subject:works/stuti-chintamani"
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "8ae98fe9b57adf9d973b3e76833f8af63c438f2ae443b6522a11eb15fc7f72d4",
-    "kb/research/search-index.json": "92eec8309aceff85b073e08f38efc9b84e55711d91c6bf0dbdae958a05f32018",
+    "kb/research/references/data/source-catalog.json": "ad5dc21072a97b8692aaa2be50c2d0d519b91f3aadcf5707b4e12aa32d20cf0c",
+    "kb/research/search-index.json": "8ab52f2d65b00e3d1a286cbebb6f3723214d8fd92c6c6a1a5c791f16c2849c95",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -19336,7 +19344,7 @@
         "record_status": "draft",
         "recorded_scope": null,
         "readiness": null,
-        "source_connections": 2,
+        "source_connections": 3,
         "held_claims": []
       },
       "connections": [
@@ -19349,6 +19357,11 @@
           "id": "creators-sand-state",
           "title": "Sand Arts — Odisha government profile",
           "url": "https://odisha.gov.in/en/odisha-tourism/sand-arts"
+        },
+        {
+          "id": "sand-puri-tiranga2025",
+          "title": "Sudarsan Pattnaik — Har Ghar Tiranga sculpture at Puri",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154937"
         }
       ],
       "related_source_ids": [],

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T08:34:31.103772+00:00",
+  "updated_at": "2026-10-04T09:36:32.915635+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6459,6 +6459,126 @@
         }
       ],
       "scope": "Historical table recovery and production associations, not a weekly release check."
+    },
+    {
+      "run_id": "2026-10-04-sand-art-evidence",
+      "checked_at": "2026-10-04T09:36:32.915635+00:00",
+      "sources": [
+        {
+          "source_id": "sand-tourism-newsletter2020",
+          "url": "https://odishatourism.gov.in/content/dam/tourism/home/newsletter/Jan%202020.pdf",
+          "status": "available",
+          "access_scope": "indexed_primary_text",
+          "locator": "Printed/PDF p.12, final sand-festival sentences",
+          "limitation": "Indexed original-publisher text read. Direct URL returned404 and screenshot failed; no fresh PDF visual verification. December2019 inferred from January2020 issue context."
+        },
+        {
+          "source_id": "sand-festival-rules2022",
+          "url": "https://odishatourism.gov.in/content/tourism/en/sand-art-festival-guideline.html",
+          "status": "available",
+          "access_scope": "indexed_primary_text",
+          "locator": "Obligations of Organizer, remuneration items; event dates identify2022 edition",
+          "limitation": "Search-indexed original rules; direct web open failed. Terms are historical offers, not payment evidence or current prices."
+        },
+        {
+          "source_id": "sand-festival-rules2025",
+          "url": "https://odishatourism.gov.in/content/dam/tourism/home/experience/konark_festival_2025/Rules-and-Regulations-Final.pdf",
+          "status": "available",
+          "access_scope": "indexed_primary_text",
+          "locator": "Notice11741/TSM, PDF pp.1–2; participant clauses7,8,11,12 and organizer clause6",
+          "limitation": "Indexed original PDF text available; direct download404 and screenshot failed. Scheduled event and rules, not an event outcome."
+        },
+        {
+          "source_id": "sand-dda-workshop2022",
+          "url": "https://dda.gov.in/sites/default/files/tender/E-newsletter_feb.pdf",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_visual",
+          "locator": "Printed p.3 on PDF p.4, February19: Azaadi Darshan",
+          "limitation": "Original downloaded through canonical non-www host and visually checked. Report identifies Manas Kumar Sahoo as workshop guide; it does not establish his Odisha biography."
+        },
+        {
+          "source_id": "sand-puri-tiranga2025",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2154937",
+          "status": "available",
+          "access_scope": "original_publisher_HTML",
+          "locator": "Opening paragraphs and location line",
+          "limitation": "Dated government report identifies artist, work theme and Puri location. Promotional crowd language has no measured attendance denominator."
+        },
+        {
+          "source_id": "sand-festival-landing2025",
+          "url": "https://odishatourism.gov.in/content/tourism/en/experience/event/International-Sand-Art-Festival-2025.html",
+          "status": "available",
+          "access_scope": "indexed_primary_text",
+          "locator": "About the Event",
+          "limitation": "Indexed promotional page asserts2015 start and generic participation. Held apart from edition-specific evidence; same department lineage is not independent corroboration."
+        },
+        {
+          "source_id": "sand-weymouth-award-lead2025",
+          "url": "https://newsonair.gov.in/sudarsan-pattnaik-becomes-first-indian-to-win-fred-darrington-sand-art-award/",
+          "status": "available",
+          "access_scope": "secondary_institutional_report",
+          "locator": "Award report",
+          "limitation": "Public-broadcaster report, not award-body record. SandWorld homepage inspected but did not verify this award; first-Indian superlative and trophy chronology held for original evidence."
+        },
+        {
+          "url": "https://odishatourism.gov.in/content/dam/tourism/home/experience/konark_festival_2025/Rules-and-Regulations-Final.pdf",
+          "status": "unavailable",
+          "access_scope": "direct_HTTPS_download",
+          "detail": "HTTP Error 404: "
+        },
+        {
+          "url": "https://odishatourism.gov.in/content/dam/tourism/home/newsletter/Jan%202020.pdf",
+          "status": "unavailable",
+          "access_scope": "direct_HTTPS_download",
+          "detail": "HTTP Error 404: "
+        },
+        {
+          "url": "https://dot.odisha.gov.in/sites/default/files/2025-04/Annual%20Report%202024-25_2.pdf",
+          "status": "unavailable",
+          "access_scope": "direct_HTTPS_download",
+          "detail": "<urlopen error timed out>"
+        },
+        {
+          "url": "https://www.dda.gov.in/sites/default/files/tender/E-newsletter_feb.pdf",
+          "status": "unavailable",
+          "detail": "www certificate hostname mismatch; canonical dda.gov.in succeeded without bypassing verification."
+        },
+        {
+          "url": "https://www.manassand.com",
+          "status": "unavailable",
+          "detail": "Web fetch timed out; no artist biography recovered."
+        },
+        {
+          "url": "https://odishatourism.gov.in/content/tourism/en/sand-art-festival-guideline.html",
+          "status": "unavailable",
+          "detail": "Direct web open internal error; indexed rules only."
+        },
+        {
+          "url": "https://www.sandworld.co.uk/",
+          "status": "available",
+          "access_scope": "homepage only",
+          "detail": "No award-body confirmation in inspected page; no conclusion that award did not occur."
+        },
+        {
+          "url": "https://odishatourism.gov.in/content/dam/tourism/home/newsletter/Jan%202020.pdf",
+          "status": "unavailable",
+          "access_scope": "PDF screenshot",
+          "detail": "Web screenshot internal error."
+        },
+        {
+          "url": "https://odishatourism.gov.in/content/dam/tourism/home/experience/konark_festival_2025/Rules-and-Regulations-Final.pdf",
+          "status": "unavailable",
+          "access_scope": "PDF screenshot",
+          "detail": "Web screenshot internal error."
+        },
+        {
+          "url": "https://www.dda.gov.in/sites/default/files/tender/E-newsletter_feb.pdf",
+          "status": "unavailable",
+          "access_scope": "PDF screenshot",
+          "detail": "Web screenshot failed; canonical original subsequently rendered locally."
+        }
+      ],
+      "scope": "Historical art/event research, not weekly release checks. Indexed-only evidence distinguished from successful original retrieval."
     }
   ]
 }

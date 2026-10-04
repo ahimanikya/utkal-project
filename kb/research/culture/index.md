@@ -33,3 +33,5 @@
 [Pala and its culture](pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
 
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+[Sand art: dated works, festival participation and historical fee terms](sand-art.md) connects artistic practice with contract evidence without treating attendance or offered rates as income.

@@ -263,3 +263,7 @@ Continue RES-030 garments and export disaggregation. Rice matched-lot and origin
 ## Textile segments · 4 October 2026
 
 Continue RES-032 sand art and other material arts. Textile destination, HS, quantity and current-maker evidence remain dated follow-ups for2026-10-11.
+
+## Sand-art checkpoint · 4 October 2026
+
+Continue RES-032 with Tarakasi and palm-leaf engraving, then stone carving, dhokra and terracotta. Reuse this sand-art checkpoint; source recovery and award-body follow-ups are dated2026-10-11.
