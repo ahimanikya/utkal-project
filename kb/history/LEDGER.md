@@ -838,3 +838,33 @@ The mining collection moved beyond output and revenue to water, community decisi
 Following the original groundwater study revealed a sample-total conflict that a summary could conceal. The project kept the discrepancy visible, while a regulator inspection and committee account strengthened the mining histories without pretending that evidence of work proved recovery.
 
 [Evidence](../records/mining-evidence-followup-2026-10-03.json). Research only.
+
+## UTP-HIS-0206 · From decorative coast to an observed moment
+
+The Founder asked for the Human Natural Documentary Natural approach on Utkal Project’s homepage. A sailboat and shore remained the emotional anchors while decorative borders, display props and patterned waves gave way to an imagined photographic scene. The project retains the earlier illustration and labels the new image as AI-generated.
+
+[Evidence](../records/home-documentary-natural-2026-10-03.json). Locally applied; browser review incomplete and not published.
+
+## UTP-HIS-0207 · A homepage with more than one moment
+
+After exploring quiet crossings, departure and boatbuilding, the Founder asked for changing artwork instead of one static image. The local homepage now presents four imagined scenes with a slow rotation and visitor control, preserving the original artwork and prompts.
+
+[Evidence](../records/home-art-rotation-2026-10-04.json). Locally applied; visual browser review remains blocked and no publication is claimed.
+
+## UTP-HIS-0208 · A fresh welcome, a still moment
+
+The Founder refined the changing-artwork idea: a different scene on a new visit, with the image staying still while people read. The four-scene collection remains; automatic rotation gives way to a quieter welcome.
+
+[Evidence](../records/home-art-per-visit-2026-10-04.json). Locally applied; browser review remains pending and not published.
+
+## UTP-HIS-0209 · Twelve windows into a living Odisha
+
+The Founder asked to complete all twelve themes immediately. The homepage collection widened from maritime scenes into stone architecture, painting, weaving, food, dance, forest, hill-country life, community work, celebration, reading and young makers. A single still image welcomes each visit; the coastal origin remains one part of a wider living Odisha.
+
+[Collection evidence](../records/home-twelve-scenes-2026-10-04.json). Original prompts, images and the review gallery are preserved. Local candidate; browser review and publication remain pending.
+
+## UTP-HIS-0210 · Let the scene breathe
+
+Following discussion of the Human Natural approach, the Founder approved a final refinement. The reading circle lost its mirrored listening poses; the festival scene became a quieter pause. Warmth stayed while the moments became less arranged for the viewer.
+
+[Refinement evidence](../records/home-art-natural-refinements-2026-10-04.json). Applied locally; v1 images preserved, publication pending.

@@ -1,0 +1,59 @@
+{
+  "title": "Twelve windows into Odisha: homepage collection",
+  "recorded_at": "2026-10-04T07:30:03.884234+00:00",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "Let's do all 12 now",
+  "status": "locally_applied",
+  "publication_status": "not_published",
+  "scope": "One existing maritime scene and eleven new images, one per approved theme. Earlier coastal options preserved but no longer in the active homepage set.",
+  "collection": "collections/home-art/twelve-scenes/collection.json",
+  "prompts": [
+    "records/home-twelve-scenes-prompts.json",
+    "records/home-documentary-natural-options-prompts.txt"
+  ],
+  "generation_tool": "built-in image_gen",
+  "implementation": [
+    "Twelve distinct active scene entries in shared homepage data; each has a theme, title and descriptive alt text.",
+    "One still image per document load; avoid last displayed artwork when browser storage permits. No automatic carousel.",
+    "Responsive WebP variants at 480, 960 and 1440 pixels. Original PNGs preserved in the project collection.",
+    "All captions disclose AI-generated imagined scenes. Images do not document real identities, exact monuments, craft instructions or authenticated events.",
+    "Standalone local artwork review gallery retained with the twelve originals."
+  ],
+  "checks": {
+    "image_inspection": "All eleven new tool outputs visually inspected for overall composition, anatomy, subject match and overt image artifacts; not independent cultural/practitioner verification. Existing maritime choice reused.",
+    "dimensions": "All originals 1536×1024",
+    "controller": "8 tests passed, now exercising all 12 scene positions, consecutive visits, unavailable storage, load failure and remount behaviour.",
+    "coastal_tests": "76 tests passed, zero failures.",
+    "build": "136 pages compiled; coastal edition contains 123 pages.",
+    "built_assets": "12 unique scenes, one visible fallback, AI alt labels and all 48 original/responsive URL references present in coastal output.",
+    "browser": "Not completed: last attempt failed because admin-enforced browser security policy could not be verified. No bypass attempted."
+  },
+  "source_context": [
+    {
+      "path": "research/handlooms/kotpad.md",
+      "use": "Existing sourced account of Mirgan weaving tradition and aul-root dye colours; generated process illustration is not a practitioner-verified demonstration."
+    },
+    {
+      "path": "research/culture/odissi.md",
+      "use": "Existing dance research; imagined rehearsal not a verified demonstration of formal technique."
+    },
+    {
+      "path": "research/food/collection.json",
+      "use": "Pakhala meal context."
+    },
+    {
+      "path": "research/destinations/central-details.json",
+      "use": "Odisha architecture and Pattachitra context; temple image intentionally not identified as a named monument."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/experience/themes/festivals.html",
+      "accessed": "2026-10-04",
+      "use": "Odisha Tourism associates Raja with the onset of rains and swings. Scene is imagined, not an event photograph."
+    }
+  ],
+  "limitations": [
+    "Twelve representative themes are not exhaustive regional or community coverage.",
+    "Generated scenes remain editable candidates; documentary replacement and local cultural review can improve specificity.",
+    "Not deployed; full homepage visual review remains pending."
+  ]
+}

@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-03T13:50:09.269445+00:00",
+  "recorded_at": "2026-10-04T08:15:57.208317+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4374,6 +4374,40 @@
       "evidence": [
         "records/global-connections-2026-10-03.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-152",
+      "title": "Twelve Documentary Natural homepage scenes",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-172",
+      "next_action": "Publish approved homepage collection after GitHub review checks pass, then verify deployed assets and metadata. Browser visual review remains unavailable.",
+      "blockers": [
+        "Browser security-policy verification unavailable for local preview."
+      ],
+      "refs": [
+        "UTP-DEC-172",
+        "UTP-DEC-173",
+        "UTP-DEC-174",
+        "UTP-DEC-175",
+        "UTP-DEC-176",
+        "UTP-DEC-177",
+        "UTP-REV-130"
+      ],
+      "evidence": [
+        "records/home-documentary-natural-2026-10-03.json",
+        "records/home-art-rotation-2026-10-04.json",
+        "records/home-art-per-visit-2026-10-04.json",
+        "records/home-twelve-scenes-2026-10-04.json",
+        "records/home-art-natural-refinements-2026-10-04.json",
+        "records/home-art-publication-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -7802,6 +7836,124 @@
       "evidence": [
         "records/global-connections-2026-10-03.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-172",
+      "title": "Apply Documentary Natural imagery to Utkal homepage",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Can you apply Human Natural Documentary Natural image for the home page art",
+      "scope": "Generate and apply homepage artwork locally. User clarified Utkal Project. Style direction approval is not a claim of final image review or publication.",
+      "recorded_at": "2026-10-04T03:50:35.766910+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-152"
+      ],
+      "evidence": [
+        "records/home-documentary-natural-2026-10-03.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-173",
+      "title": "Use a changing collection of homepage artwork",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Or let's make a few that we can keep changing instead of a static  image",
+      "scope": "Extend local homepage artwork into a rotating collection. Nine-second rotation and accessible controls are implementation choices, not a separate founder quotation.",
+      "recorded_at": "2026-10-04T05:27:14.507447+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-152"
+      ],
+      "evidence": [
+        "records/home-art-rotation-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-174",
+      "title": "One still homepage artwork per visit",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Instead of rotating - may be load a new on every visit?",
+      "scope": "Supersedes automatic rotation implemented under UTP-DEC-173. Select one image per homepage page load; keep it still during reading. Consecutive-repeat avoidance is a local display preference when storage is available. Back/forward cache restoration retains the already loaded page.",
+      "recorded_at": "2026-10-04T05:37:17.953485+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-152",
+        "UTP-DEC-173"
+      ],
+      "evidence": [
+        "records/home-art-per-visit-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-175",
+      "title": "Complete all twelve homepage artwork themes",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's do all 12 now",
+      "scope": "Create and locally integrate the twelve-theme homepage artwork collection proposed in the preceding conversation. Preserve one still scene per visit and the Human Natural direction.",
+      "recorded_at": "2026-10-04T07:30:03.884234+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-152",
+        "UTP-DEC-174"
+      ],
+      "evidence": [
+        "records/home-twelve-scenes-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-176",
+      "title": "Apply the final Human Natural refinement",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, let's apply this",
+      "scope": "Apply the immediately preceding offer to make festival and reading scenes more candid. Local homepage integration; no new public deployment claimed.",
+      "recorded_at": "2026-10-04T08:03:02.021461+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-152",
+        "UTP-DEC-175"
+      ],
+      "evidence": [
+        "records/home-art-natural-refinements-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-177",
+      "title": "Publish the twelve-scene homepage collection",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "apply this too",
+      "scope": "Apply the prepared twelve-scene homepage collection including the final Human Natural festival and reading refinements through repository publication. Existing browser visual-review limitation disclosed in preceding response; automatic checks remain required.",
+      "recorded_at": "2026-10-04T08:15:57.208317+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-152",
+        "UTP-DEC-176"
+      ],
+      "evidence": [
+        "records/home-art-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -10874,6 +11026,27 @@
       ],
       "evidence": [
         "records/global-connections-2026-10-03.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-130",
+      "title": "Twelve-scene homepage release self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser layout review unavailable: admin-enforced security policy could not be verified.",
+        "AI-generated imagined scenes; not photographs of identified people or exact places."
+      ],
+      "refs": [
+        "UTP-DEC-177",
+        "UTP-WORK-152"
+      ],
+      "evidence": [
+        "records/home-art-publication-2026-10-04.json"
       ]
     }
   ],

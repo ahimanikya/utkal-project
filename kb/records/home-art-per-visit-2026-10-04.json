@@ -1,0 +1,22 @@
+{
+  "title": "One still homepage artwork per visit",
+  "recorded_at": "2026-10-04T05:37:17.953485+00:00",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "Instead of rotating - may be load a new on every visit?",
+  "status": "locally_applied",
+  "publication_status": "not_published",
+  "supersedes": "records/home-art-rotation-2026-10-04.json",
+  "implementation": [
+    "Replaced automatic rotation with one randomly selected still image per homepage load. When browser storage is available, the previous artwork is excluded. Slideshow controls and animations are removed; captions, responsive images and static fallback remain.",
+    "Only the last artwork path is saved locally; no visitor identifier or network tracking is introduced. Storage failures fall back to random choice.",
+    "Selection occurs once on initialization. A failed selected image restores the initial image and caption. With no JavaScript, the first scene remains visible.",
+    "A visit means a new homepage document load or refresh. Restoring the same document from browser history does not change its artwork."
+  ],
+  "checks": {
+    "controller_tests": "8 passed: all choices, repeat avoidance, obsolete preference, blocked or absent storage, image failure, repeat initialization and small collections.",
+    "coastal_tests": "76 passed, zero failures.",
+    "build": "136 pages compiled, 123 coastal pages.",
+    "artifact_check": "Four scenes and responsive assets retained; exactly one static fallback visible; carousel controls absent.",
+    "browser_visual_review": "Still pending: browser admin-enforced security-policy verification unavailable. No bypass attempted."
+  }
+}
