@@ -7071,7 +7071,15 @@
     "accessed_on": "2026-10-04",
     "locator": "Row101 Pankaj Kumar Sahoo; row20 Laxmidhar Subudhi",
     "capture_method": "indexed_primary_text",
-    "capture_note": "Indexed publisher table only; direct web retrieval failed502/internal error. Selected maker, craft, district and award-year fields; personal addresses omitted. The table combines National Awards and National Merit Certificates, which must remain distinct."
+    "capture_note": "Indexed publisher table only; direct web retrieval failed502/internal error. Selected maker, craft, district and award-year fields; personal addresses omitted. The table combines National Awards and National Merit Certificates, which must remain distinct.",
+    "capture_history": [
+      {
+        "checked_at": "2026-10-04T11:39:04.102615+00:00",
+        "locator": "Row135 Manabodh Rana, Clay & Terracotta, National Award1986",
+        "capture_method": "indexed_primary_text",
+        "scope": "Additional missing maker field; prior row captures preserved. Sambalpur is retained as printed historical register geography."
+      }
+    ]
   },
   "arts-national-awards2015": {
     "id": "arts-national-awards2015",
@@ -7107,5 +7115,85 @@
     "capture_method": "original_pdf_text_and_selected_visual",
     "capture_note": "Original PDF retrieved; process p.8 visually checked. Product and maker-credit text extracted from pp.13–14,16. Publication date not established. HTML and PDF are the same documentation family. Unrelated spam links in HTML navigation were excluded.",
     "capture_sha256": "0aa9e61b76327e11a859eb572a50e43ee7742027215ea16c56abda5fa8bc4316"
+  },
+  "arts-state-craft-awards": {
+    "id": "arts-state-craft-awards",
+    "title": "Odisha Directorate: state handicraft award register",
+    "resource": "https://crafts.odisha.gov.in/?page_id=272",
+    "publisher": "Odisha Directorate of Handicrafts",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Row57 Sansari Gadatia, Dhokra,2006",
+    "capture_note": "Indexed publisher table. State recognition must not become National Award. Personal addresses omitted; original ceremony and award object not recovered.",
+    "capture_method": "indexed_primary_text"
+  },
+  "arts-sudarshan-museum": {
+    "id": "arts-sudarshan-museum",
+    "title": "Sudarshan Craft Museum — Incredible India",
+    "resource": "https://www.incredibleindia.gov.in/en/odisha/puri/sudarshan-craft-museum",
+    "publisher": "Ministry of Tourism / Incredible India",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Preserving the artistic heritage of Odisha, opening paragraph",
+    "capture_note": "Attributes foundation in1977 to Sudarshan Sahoo. Tourism account, not original foundation instrument. Promotional superlatives, timings, transport widget and generic workshop promises excluded.",
+    "capture_method": "original_publisher_HTML"
+  },
+  "arts-nid-dhokra": {
+    "id": "arts-nid-dhokra",
+    "title": "Dhokra Metal Casting — Dhenkanal, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/dhokra-metal-casting-dhenkanal-orissa/downloads/file/dhokra-metal-casting-dhenkanal-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.3,8,23",
+    "capture_note": "Process p.8 visually checked; maker credit pp.3,23. Alloy formulation and asserted Indus continuity not adopted.",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_sha256": "05ea8decb91cebfa2bae2b83db000c68d657ae9640f06cf0ff08c23a7415a14f"
+  },
+  "arts-nid-stone": {
+    "id": "arts-nid-stone",
+    "title": "Stone Carving — Bhubaneswar, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/stone-carving-bhubaneswar-orissa/downloads/file/stone-carving-bhubaneswar-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.13,31",
+    "capture_note": "Process p.13 visually checked; contact text p.31 names Ramakanta Mahapatra. Broad national prehistory and current trading claims excluded.",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_sha256": "3de89fde51abc50b9b66cedff215ada98dd5aa3146147add7cb88b1f90ca0354"
+  },
+  "arts-sidac-selection2017-lead": {
+    "id": "arts-sidac-selection2017-lead",
+    "title": "SIDAC second artefact-selection proceedings — recovery lead",
+    "resource": "https://sidacodisha.org.in/proceedings_f_2nd_Artefact_Selection_Committee_meeting.pdf",
+    "publisher": "State Institute for Development of Arts & Crafts",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Indexed Annexure2; headings mention23September2017 and26May2017",
+    "capture_note": "Original download connection refused and web502. Indexed table columns/quantities appear displaced; no prices, quantities or completed acquisitions adopted. Owner is not necessarily maker. Recover facsimile before use.",
+    "capture_method": "indexed_discovery_lead_only"
+  },
+  "arts-nid-terracotta": {
+    "id": "arts-nid-terracotta",
+    "title": "Terracotta Jewelry and Toys — Sambalpur, Orissa",
+    "resource": "https://dsource.in/sites/default/files/resource/terracotta-jewelry-and-toys-sambalpur-orissa/downloads/file/terracotta-jewelry-and-toys-sambalpur-orissa.pdf",
+    "publisher": "D’Source; documentation credited to NID Bengaluru",
+    "publication_date": null,
+    "accessed_on": "2026-10-04",
+    "locator": "PDF pp.2,12,30",
+    "capture_note": "Pages2 and12 visually checked. Title/contact say Sambalpur; maker biographies explicitly say Barpali, Bargarh. Undated experience figures and overseas workshop claims do not establish current tenure, export totals or dated exhibitions.",
+    "capture_method": "original_pdf_text_and_selected_visual",
+    "capture_sha256": "7408dcb80af5179d7cb8ce5ef20a80feccd35ffd677d51284764266bc396757d"
+  },
+  "arts-padma2021": {
+    "id": "arts-padma2021",
+    "title": "Padma Awards 2021 announced",
+    "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1692337",
+    "publisher": "Ministry of Home Affairs / PIB",
+    "publication_date": "2021-01-25",
+    "accessed_on": "2026-10-04",
+    "locator": "Padma Vibhushan table, row7 Sudarshan Sahoo",
+    "capture_note": "Announcement records Art and Odisha. Announcement date and award year are not a person-specific investiture date.",
+    "capture_method": "original_publisher_HTML"
   }
 }

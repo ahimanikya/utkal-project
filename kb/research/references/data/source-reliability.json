@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T10:38:52.815078+00:00",
+  "updated_at": "2026-10-04T11:39:04.102615+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6671,6 +6671,104 @@
         }
       ],
       "scope": "Historical craft documentation and award records, not weekly release checks. HTML/PDF versions share provenance; unrelated HTML navigation excluded."
+    },
+    {
+      "run_id": "2026-10-04-clay-metal-stone",
+      "checked_at": "2026-10-04T11:39:04.102615+00:00",
+      "sources": [
+        {
+          "source_id": "arts-nid-stone",
+          "url": "https://dsource.in/sites/default/files/resource/stone-carving-bhubaneswar-orissa/downloads/file/stone-carving-bhubaneswar-orissa.pdf",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_selected_visual",
+          "locator": "PDF pp.13,31",
+          "limitation": "Process p.13 visually checked; contact text p.31 names Ramakanta Mahapatra. Broad national prehistory and current trading claims excluded."
+        },
+        {
+          "source_id": "arts-nid-dhokra",
+          "url": "https://dsource.in/sites/default/files/resource/dhokra-metal-casting-dhenkanal-orissa/downloads/file/dhokra-metal-casting-dhenkanal-orissa.pdf",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_selected_visual",
+          "locator": "PDF pp.3,8,23",
+          "limitation": "Process p.8 visually checked; maker credit pp.3,23. Alloy formulation and asserted Indus continuity not adopted."
+        },
+        {
+          "source_id": "arts-nid-terracotta",
+          "url": "https://dsource.in/sites/default/files/resource/terracotta-jewelry-and-toys-sambalpur-orissa/downloads/file/terracotta-jewelry-and-toys-sambalpur-orissa.pdf",
+          "status": "available",
+          "access_scope": "original_pdf_text_and_selected_visual",
+          "locator": "PDF pp.2,12,30",
+          "limitation": "Pages2 and12 visually checked. Title/contact say Sambalpur; maker biographies explicitly say Barpali, Bargarh. Undated experience figures and overseas workshop claims do not establish current tenure, export totals or dated exhibitions."
+        },
+        {
+          "source_id": "arts-padma2021",
+          "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1692337",
+          "status": "available",
+          "access_scope": "original_publisher_HTML",
+          "locator": "Padma Vibhushan table, row7 Sudarshan Sahoo",
+          "limitation": "Announcement records Art and Odisha. Announcement date and award year are not a person-specific investiture date."
+        },
+        {
+          "source_id": "arts-sudarshan-museum",
+          "url": "https://www.incredibleindia.gov.in/en/odisha/puri/sudarshan-craft-museum",
+          "status": "available",
+          "access_scope": "original_publisher_HTML",
+          "locator": "Preserving the artistic heritage of Odisha, opening paragraph",
+          "limitation": "Attributes foundation in1977 to Sudarshan Sahoo. Tourism account, not original foundation instrument. Promotional superlatives, timings, transport widget and generic workshop promises excluded."
+        },
+        {
+          "source_id": "arts-state-craft-awards",
+          "url": "https://crafts.odisha.gov.in/?page_id=272",
+          "status": "available",
+          "access_scope": "indexed_primary_text",
+          "locator": "Row57 Sansari Gadatia, Dhokra,2006",
+          "limitation": "Indexed publisher table. State recognition must not become National Award. Personal addresses omitted; original ceremony and award object not recovered."
+        },
+        {
+          "source_id": "arts-sidac-selection2017-lead",
+          "url": "https://sidacodisha.org.in/proceedings_f_2nd_Artefact_Selection_Committee_meeting.pdf",
+          "status": "available",
+          "access_scope": "indexed_discovery_lead_only",
+          "locator": "Indexed Annexure2; headings mention23September2017 and26May2017",
+          "limitation": "Original download connection refused and web502. Indexed table columns/quantities appear displaced; no prices, quantities or completed acquisitions adopted. Owner is not necessarily maker. Recover facsimile before use."
+        },
+        {
+          "url": "https://dsource.in/sites/default/files/resource/stone-carving-bhubaneswar-orissa/downloads/file/stone-carving-bhubaneswar-orissa.pdf",
+          "file": "stone-carving-bhubaneswar-orissa.pdf",
+          "status": "available",
+          "bytes": 14835894
+        },
+        {
+          "url": "https://dsource.in/sites/default/files/resource/dhokra-metal-casting-dhenkanal-orissa/downloads/file/dhokra-metal-casting-dhenkanal-orissa.pdf",
+          "file": "dhokra-metal-casting-dhenkanal-orissa.pdf",
+          "status": "available",
+          "bytes": 7081842
+        },
+        {
+          "url": "https://dsource.in/sites/default/files/resource/terracotta-jewelry-and-toys-sambalpur-orissa/downloads/file/terracotta-jewelry-and-toys-sambalpur-orissa.pdf",
+          "file": "terracotta-jewelry-and-toys-sambalpur-orissa.pdf",
+          "status": "available",
+          "bytes": 17100925
+        },
+        {
+          "url": "https://sidacodisha.org.in/proceedings_f_2nd_Artefact_Selection_Committee_meeting.pdf",
+          "status": "unavailable",
+          "error": "<urlopen error [Errno 61] Connection refused>"
+        },
+        {
+          "url": "https://sidacodisha.org.in/proceedings_f_2nd_Artefact_Selection_Committee_meeting.pdf",
+          "status": "unavailable",
+          "access_scope": "web_open",
+          "detail": "502"
+        },
+        {
+          "url": "https://www.dsource.in/resource/terracotta-jewelry-and-toys-sambalpur-orissa/contact-details",
+          "status": "unavailable",
+          "access_scope": "web_open",
+          "detail": "Cache miss; original PDF subsequently retrieved."
+        }
+      ],
+      "scope": "Craft-process, historical award and institutional history research; not a weekly release check. Same-family HTML/PDF are not independent corroboration."
     }
   ]
 }

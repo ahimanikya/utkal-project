@@ -433,3 +433,7 @@ RES-032 reused sand-art/person/work identities and inspected target-native Cutta
 ## Tarakasi and palm-leaf checkpoint · 4 October 2026
 
 RES-032 reused Cuttack visitor material, Tarakasi and Raghurajpur concepts, plus the saved museum manuscript catalogue. Added missing craft technique/identity fields and four source records. Documentation contacts are not universal object credits; HTML/PDF copies are one lineage.
+
+## Stone, metal and clay · 4 October 2026
+
+RES-032 reused prior material-art register, state national-award source and regional record. Seven source records extend absent process/identity fields; five new people identities. Publication copies do not independently corroborate each other; object owner and creator remain separate.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-04T10:38:52.815078+00:00",
+  "updated_at": "2026-10-04T11:39:04.102615+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1208,10 +1208,10 @@
       "done_when": "Deepen sand art, Tarakasi, palm-leaf engraving, stone carving, dhokra and terracotta; identify named practitioners/works, technique/history and dated award/exhibition evidence; distinguish legend, attribution and measured livelihoods.",
       "target": "culture/index.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
-      "last_worked_at": "2026-10-04T10:38:52.815078+00:00",
-      "next_step": "Continue RES-032 with stone carving, dhokra and terracotta, reusing current maker/place records. Tarakasi and palm-leaf craft/award checkpoint saved; original award retrieval, named works and partial identities remain dated follow-ups for 2026-10-11.",
+      "last_worked_at": "2026-10-04T11:39:04.102615+00:00",
+      "next_step": "Continue RES-032 with individually credited sculptures and clay/dhokra works, using original commissioning or holding-institution records. Six practice nuclei are saved; do not repeat process discovery. Inaccessible SIDAC2017 and original award citations retain 2026-10-11 retries.",
       "evidence_outputs": [
         "sources/sand-tourism-newsletter2020.md",
         "sources/sand-festival-rules2022.md",
@@ -1234,7 +1234,23 @@
         "people/laxmidhar-subudhi.md",
         "people/biswanath-swain.md",
         "culture/palm-leaf-engraving.md",
-        "culture/cuttack-tarakasi.md"
+        "culture/cuttack-tarakasi.md",
+        "sources/arts-nid-stone.md",
+        "sources/arts-nid-dhokra.md",
+        "sources/arts-nid-terracotta.md",
+        "sources/arts-padma2021.md",
+        "sources/arts-sudarshan-museum.md",
+        "sources/arts-state-craft-awards.md",
+        "sources/arts-sidac-selection2017-lead.md",
+        "people/ramakanta-mahapatra.md",
+        "people/sansari-gadatia.md",
+        "people/jayadev-rana.md",
+        "people/manabodh-rana.md",
+        "people/sudarshan-sahoo.md",
+        "culture/stone-carving.md",
+        "culture/dhokra.md",
+        "culture/terracotta.md",
+        "culture/material-arts.md"
       ],
       "retry_after": null,
       "blocker": null,
@@ -1261,7 +1277,24 @@
           "people/laxmidhar-subudhi.md",
           "people/biswanath-swain.md",
           "culture/palm-leaf-engraving.md",
-          "history/scientific-manuscripts.md"
+          "history/scientific-manuscripts.md",
+          "sources/arts-nid-stone.md",
+          "sources/arts-nid-dhokra.md",
+          "sources/arts-nid-terracotta.md",
+          "sources/arts-padma2021.md",
+          "sources/arts-sudarshan-museum.md",
+          "sources/arts-state-craft-awards.md",
+          "sources/arts-sidac-selection2017-lead.md",
+          "people/ramakanta-mahapatra.md",
+          "people/sansari-gadatia.md",
+          "people/jayadev-rana.md",
+          "people/manabodh-rana.md",
+          "people/sudarshan-sahoo.md",
+          "culture/stone-carving.md",
+          "culture/dhokra.md",
+          "culture/terracotta.md",
+          "culture/material-arts.md",
+          "places/sambalpur-bargarh.md"
         ],
         "project_records": [
           "kb/research/destinations/central-details.json",
@@ -1284,6 +1317,13 @@
           "outcome": "filigree_and_palm_leaf_checkpoint",
           "completion_criteria_met": false,
           "remaining": "Stone carving, dhokra, terracotta and unresolved work-level attribution."
+        },
+        {
+          "run_id": "2026-10-04-clay-metal-stone",
+          "at": "2026-10-04T11:39:04.102615+00:00",
+          "outcome": "stone_dhokra_terracotta_practices_and_makers",
+          "completion_criteria_met": false,
+          "remaining": "Individual work attribution and dated exhibition/acquisition evidence; source-specific recovery deferred."
         }
       ],
       "follow_up_evidence": [
@@ -1303,9 +1343,14 @@
           "needed": "Original national2015 PDF/state register; Pankaj1994 central citation; named award works and Arun full identity. Current maker business/rights evidence requires primary records or participation."
         },
         {
-          "topic": "Remaining material arts",
+          "topic": "Individual works and institutional histories",
           "retry_after": null,
-          "needed": "Stone carving, dhokra and terracotta: reuse existing people/place records, add techniques, named works and dated recognition. No new broad art-origin claims."
+          "needed": "Next bounded batch: original commissioning/holding-institution records for named sculptures, and identifiable maker-attributed clay/dhokra works with dates. Do not substitute product types or collection ownership for creator credit."
+        },
+        {
+          "topic": "Original craft award and acquisition records",
+          "retry_after": "2026-10-11",
+          "needed": "Recover SIDAC2017 facsimile, original state2006 and central1986 citations. Keep personal addresses excluded and acquisition/payment/ownership/creator roles distinct."
         }
       ]
     },

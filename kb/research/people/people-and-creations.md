@@ -121,3 +121,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Craft practitioners · 4 October 2026
 
 [Ramesh Behera](ramesh-behera.md), [Pankaj Kumar Sahoo](pankaj-kumar-sahoo.md), [Laxmidhar Subudhi](laxmidhar-subudhi.md) and [Biswanath Swain](biswanath-swain.md) add scoped craft and recognition records. Full biographies and work-level catalogues remain open.
+
+## Stone, metal and clay · 4 October 2026
+
+[Sudarshan Sahoo](sudarshan-sahoo.md), [Ramakanta Mahapatra](ramakanta-mahapatra.md), [Sansari Gadatia](sansari-gadatia.md), [Jayadev Rana](jayadev-rana.md) and [Manabodh Rana](manabodh-rana.md) add sculpture and craft connections. Documentation contacts, awardees and individual object creators remain separate roles.
