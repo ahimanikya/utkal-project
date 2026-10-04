@@ -237,3 +237,11 @@ A place with several gateways needs a clear choice before a timetable. Give its 
 Link the same curated trail to several starting collections when their places belong to one broader story. Carry only chapters matching the visitor’s selected ideas into their book, including selected-day exports. Keep old plans untouched. Return from each guide to the trail, and offer contribution questions suited to the place. Regional imagery must stay labelled as regional.
 
 [Chilika trail candidate](../records/chilika-illustrated-trail-2026-10-04.json) records source/build and export checks. Browser visual and native PDF review remain open; this is a UTP implementation pattern, not a shared-package release.
+
+## Compare before committing to a long story
+
+When several illustrated trails are available, put a small visual comparison before the featured narrative. Use the same practical questions for each choice: where to begin, travel involved, season and timing, and what to arrange first. Keep each summary tied to its existing researched guide; do not turn a reading order into a timed route or invent suitability ratings.
+
+Interest filters narrow the comparison, not a visitor’s saved journey. Use native buttons, a visible selected state, a polite result count and a shareable URL. Preserve other query parameters and fragments, restore results on browser Back, and keep every story link available without JavaScript. Reuse canonical trail titles, links and licensed photographs rather than maintaining another set of stories. Credits remain in the closing disclosure.
+
+[Find your trail candidate](../records/find-your-trail-review-2026-10-04.json) records controller and built-page checks. Rendered browser, screen-reader and physical-device review remains open. This is a UTP pattern candidate, not a release of the shared component package.

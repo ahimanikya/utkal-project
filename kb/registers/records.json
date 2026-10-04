@@ -4712,6 +4712,28 @@
         "records/mayurbhanj-illustrated-trail-2026-10-04.json",
         "records/mayurbhanj-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-162",
+      "title": "Find your trail comparison and interest filters",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-196",
+      "next_action": "Founder reviews the five-trail comparison candidate before merge and publication; rendered visual and assistive-technology checks remain separately open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-196",
+        "UTP-REV-140"
+      ],
+      "evidence": [
+        "records/find-your-trail-review-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8609,6 +8631,25 @@
       "evidence": [
         "records/mayurbhanj-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-196",
+      "title": "Build Find your trail",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Sounds good, lets do it",
+      "scope": "Build the proposed visual comparison, interest filters, planning cues and story-to-book navigation before the long Journey Starters narrative.",
+      "recorded_at": "2026-10-04T22:37:12.091616+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-162"
+      ],
+      "evidence": [
+        "records/find-your-trail-review-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11911,6 +11952,28 @@
       "evidence": [
         "records/mayurbhanj-illustrated-trail-2026-10-04.json",
         "records/mayurbhanj-trail-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-140",
+      "title": "Find your trail implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new rendered-browser, interactive browser, screen-reader, physical-device or native PDF pass. The prior administrator-enforced browser security-policy verification block remains unresolved.",
+        "Planning cues reuse existing trail research. No new local confirmation, transfer-time estimate, accessibility rating or current service availability is claimed.",
+        "Search Console processing was not rechecked."
+      ],
+      "refs": [
+        "UTP-WORK-162",
+        "UTP-DEC-196"
+      ],
+      "evidence": [
+        "records/find-your-trail-review-2026-10-04.json"
       ]
     }
   ],
