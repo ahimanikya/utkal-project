@@ -508,3 +508,7 @@ Added3 project identities,5 stage events,5 project financial observations and3 c
 ## 4 October 2026 · Weekly publisher checks
 
 All17 tracks attempted; partial fetches and existing conflicts retained. Added33 observations: five airports’ August and April–August comparisons, and four scoped UDISE2025–26 dropout rates. Adverse aviation figures retained; education release dates back to7July. Existing annual vintages and frozen evidence ledger unchanged. [Aviation](statistics/aviation.md) · [Education](statistics/education.md). No human review or website release claimed.
+
+## 4 October2026 · RES-017 port-series checkpoint
+
+Added28 scoped observations and five comparisons from original ministry tables. Dhamra/Gopalpur series include adverse years; Paradip vessel time remains a distinct measure. Held conflicting2023–24 non-major totals. RES-017 stays in progress; longer fisheries series next. [Port story](stories/ports-diverging-cargo.md). No website release or human review claimed.

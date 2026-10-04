@@ -519,3 +519,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October2026 · Weekly aviation and schooling data
 
 [Research receipt](records/weekly-data-2026-10-04.json):33 new observations from AAI August2026 and UDISE2025–26. All17 weekly tracks attempted; partial source availability retained. No website release.
+
+## 4 October2026 · Port cargo and logistics
+
+[Research receipt](records/trade-logistics-2026-10-04.json):RES-017 adds28 observations and five comparisons from historical ministry port tables; an internal total conflict remains held. Fisheries series next. No website release.

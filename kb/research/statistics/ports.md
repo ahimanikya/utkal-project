@@ -5,7 +5,7 @@ description: "Ports — source-linked research, scope and reuse notes."
 tags: ["statistics", "ports"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T01:56:17-07:00"}
-sources: [{"id": "connect-paradip2025", "title": "Paradip Port Cements Its Position As Numero Uno among Indian Major Ports, 2 April 2025", "resource": "https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/"}, {"id": "connect-paradip2026", "title": "Paradip Port Authority: Major Achievements", "resource": "https://paradipport.gov.in/major-achievements/"}]
+sources: [{"id": "connect-paradip2025", "title": "Paradip Port Cements Its Position As Numero Uno among Indian Major Ports, 2 April 2025", "resource": "https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/"}, {"id": "connect-paradip2026", "title": "Paradip Port Authority: Major Achievements", "resource": "https://paradipport.gov.in/major-achievements/"}, {"id": "trade-basic-port-statistics2025", "title": "Basic Port Statistics of India 2024–25", "resource": "https://shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf"}]
 subjects: ["economy", "places"]
 updated: {"by": "codex/gpt-6", "at": "2026-09-30T19:27:48-07:00", "scope": "Context and classification; underlying source-check dates retained."}
 ---
@@ -54,3 +54,26 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Container trade in its own unit · 4 October 2026
 
 The 2 April 2025 release reports **12,711 TEUs of EXIM container traffic for FY2024–25**. TEUs are container-size equivalents; the figure is not tonnes, unique physical boxes or Odisha-origin export value. [Source, EXIM paragraph](https://paradipport.gov.in/all_news/paradip-port-cements-its-position-as-numero-uno-among-indian-major-ports-second-consecutive-time-in-a-row/). The [world-connections synthesis](../collections/odisha-and-world.md) explains why port throughput and producer exports require separate records.
+
+## Longer series: cargo and vessel time
+
+[The port comparison](../stories/ports-diverging-cargo.md) retains every annual Dhamra and Gopalpur cargo value in Table30. [Structured observations](../references/data/trade-logistics-series.json) separate tonnes from vessel hours.
+
+| Fiscal year | Dhamra, million tonnes | Gopalpur, million tonnes |
+|---|---:|---:|
+| 2015-16 | 14.71 | 0.24 |
+| 2016-17 | 21.42 | 1.05 |
+| 2017-18 | 21.45 | 1.15 |
+| 2018-19 | 20.68 | 1.51 |
+| 2019-20 | 29.71 | 5.56 |
+| 2020-21 | 32.38 | 10.65 |
+| 2021-22 | 33.44 | 8.10 |
+| 2022-23 | 31.28 | 7.43 |
+| 2023-24 | 43.32 | 11.44 |
+| 2024-25 | 46.08 | 6.00 |
+
+Paradip’s average vessel turn-round time was 58.08, 53.16, 46.27, 41.24 and 44.88 hours across2020–21 through2024–25 (Table12). The latest increase remains visible; this is not a current service promise or a cost estimate.
+
+**Hold the 2023–24 non-major total:** Table30 reports54.75 million tonnes; Table31 reports54.24. The respective displayed components sum to54.76 and54.25. Preserve both reported totals and locations pending clarification; no state growth or commodity-share calculation uses this disputed denominator. The 2024–25 total is52.08 in both tables.
+
+[Original ministry report](https://shipmin.gov.in/sites/default/files/BPS%202024-25_compressed.pdf), printed pp.23,41–42 / PDF pp.33,51–52; checked4October2026.
