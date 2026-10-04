@@ -118,3 +118,5 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Food-processing evidence · 4 October 2026
 
 [The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.

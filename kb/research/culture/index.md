@@ -39,3 +39,5 @@
 [Palm-leaf engraving](palm-leaf-engraving.md) and the expanded [Cuttack Tarakasi record](cuttack-tarakasi.md) connect technique, credited makers and dated recognition. Product examples are not export statistics.
 
 [Material arts: follow the material and credit the maker](material-arts.md) brings six practices together. New stone, dhokra and terracotta pages add process and maker evidence; work-level attribution remains unfinished.
+
+[Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.

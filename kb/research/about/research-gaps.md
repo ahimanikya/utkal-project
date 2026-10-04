@@ -500,3 +500,7 @@ PPL company narrative/table conflict and absent plant-specific output held; retr
 ## Food-processing checkpoint · 4 October 2026
 
 OMFED dated annual product output, mill throughput and current annual accounts remain unavailable. Survey procurement needs facsimile review; homepage/directory plant counts need scope reconciliation. Retry these fields 11 October; continue independent food-plant output research.
+
+## GI inventory · 4 October 2026
+
+[GI register](../collections/odisha-gi-products.md) covers the official 31 December 2025 list. Newer consolidated coverage, Kotpad/Ikat renewal evidence and Kapadaganda blank validity need recheck 11 October. Exact boundaries, authorized users and product-level economics remain separate research gaps; pending Chhenapoda/Palua Ladu excluded.

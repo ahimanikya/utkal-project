@@ -4894,6 +4894,17 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "collections/odisha-gi-products",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "arts",
+        "food"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7410,6 +7421,27 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Directory identifies Arilo; no district output or supplier availability inferred."
+    },
+    {
+      "from": "collections/odisha-gi-products",
+      "to": "collections/made-in-odisha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connect registered product identities with existing craft and food research."
+    },
+    {
+      "from": "collections/odisha-gi-products",
+      "to": "handlooms/garments-and-markets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Keep textile traditions separate from garments, selling channels and export evidence."
+    },
+    {
+      "from": "collections/odisha-gi-products",
+      "to": "economy/rasagola-and-sweets",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "GI recognition does not establish sweets revenue or exports."
     }
   ],
   "relationship_types": {
