@@ -988,3 +988,9 @@ The approved Forest, Rhythm and a Meal trail is published with three photographi
 Five illustrated trails can now be compared before the featured story. Interests narrow the choices, while common planning cues help visitors choose a beginning and continue into a saved journey and tour book. Existing stories, source notes and personal journeys retain their context.
 
 [Candidate evidence](../records/find-your-trail-review-2026-10-04.json). Prepared for review; not yet published.
+
+## UTP-HIS-0231 · A choice before the journey
+
+Find your trail is published with five visual comparisons, interests and consistent planning cues. Live delivery checks confirmed the photographs, filter script and connections to existing stories and saved journeys. Rendered browser and assistive-technology checks remain open.
+
+[Publication evidence](../records/find-your-trail-publication-2026-10-04.json) · [PR112](https://github.com/ahimanikya/utkal-project/pull/112).

@@ -4717,22 +4717,25 @@
       "id": "UTP-WORK-162",
       "title": "Find your trail comparison and interest filters",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-196",
-      "next_action": "Founder reviews the five-trail comparison candidate before merge and publication; rendered visual and assistive-technology checks remain separately open.",
+      "next_action": "Published and live-delivery verified. Rendered browser, screen-reader and physical-device review and Search Console processing remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-196",
-        "UTP-REV-140"
+        "UTP-REV-140",
+        "UTP-DEC-197",
+        "UTP-REL-068"
       ],
       "evidence": [
-        "records/find-your-trail-review-2026-10-04.json"
+        "records/find-your-trail-review-2026-10-04.json",
+        "records/find-your-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8650,6 +8653,26 @@
       "evidence": [
         "records/find-your-trail-review-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-197",
+      "title": "Publish approved Find your trail comparison",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge PR112 and publish the reviewed comparison and interest filters through Pages.",
+      "recorded_at": "2026-10-04T22:45:13.929181+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-162",
+        "UTP-DEC-196"
+      ],
+      "evidence": [
+        "records/find-your-trail-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11973,7 +11996,8 @@
         "UTP-DEC-196"
       ],
       "evidence": [
-        "records/find-your-trail-review-2026-10-04.json"
+        "records/find-your-trail-review-2026-10-04.json",
+        "records/find-your-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -13102,6 +13126,22 @@
         "records/mayurbhanj-trail-publication-2026-10-04.json"
       ],
       "note": "PR104 merged after validation; Pages succeeded. Ten live routes, three photograph hashes, shared journey data and matching three-chapter offline export checked. Existing search shortlist retained; no browser visual pass claimed."
+    },
+    {
+      "id": "UTP-REL-068",
+      "title": "Find your trail published",
+      "status": "published",
+      "authorization": "UTP-DEC-197",
+      "destination": "https://utkalproject.org/journey-starters/#find-your-trail",
+      "refs": [
+        "UTP-DEC-197",
+        "UTP-WORK-162",
+        "UTP-REV-140"
+      ],
+      "evidence": [
+        "records/find-your-trail-publication-2026-10-04.json"
+      ],
+      "note": "PR112 merged after validation; Pages succeeded. Five comparisons, six interest controls, five photograph hashes, the matching filter script, story/save links and shared journey data verified in delivered files. Search shortlist retained; no native browser visual or interaction pass claimed."
     }
   ],
   "sources": [

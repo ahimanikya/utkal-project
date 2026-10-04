@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3a35d4037a31b8e64ecaa8b0f8f4c1c37ceb136ee4bb7b146d150509e39ca725`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9562c61b6066deb8c934e25bd65868c8044a925f6149e658e5657ee85ceebd04`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -174,7 +174,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-159 · Cuttack illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-160 · Balasore illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-161 · Mayurbhanj illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
-| UTP-WORK-162 · Find your trail comparison and interest filters | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the five-trail comparison candidate before merge and publication; rendered visual and assistive-technology checks remain separately open. | — |
+| UTP-WORK-162 · Find your trail comparison and interest filters | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Rendered browser, screen-reader and physical-device review and Search Console processing remain separate follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -233,7 +233,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-162 | Founder reviews the five-trail comparison candidate before merge and publication; rendered visual and assistive-technology checks remain separately open. |
 
 ## Decisions
 
@@ -434,6 +433,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-194 · Build Mayurbhanj · Forest, Rhythm and a Meal | approved | Ahimanikya Satapathy | Implement the proposed Mayurbhanj illustrated trail, practical planning, matching books and local contribution batch. |
 | UTP-DEC-195 · Publish approved Mayurbhanj trail | approved | Ahimanikya Satapathy | Merge PR104 and publish the reviewed Mayurbhanj trail through Pages. |
 | UTP-DEC-196 · Build Find your trail | approved | Ahimanikya Satapathy | Build the proposed visual comparison, interest filters, planning cues and story-to-book navigation before the long Journey Starters narrative. |
+| UTP-DEC-197 · Publish approved Find your trail comparison | approved | Ahimanikya Satapathy | Merge PR112 and publish the reviewed comparison and interest filters through Pages. |
 
 ## Reviews
 
@@ -649,6 +649,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-065 · Cuttack · Silver and Stories published | published | https://utkalproject.org/journey-starters/cuttack/ | UTP-DEC-191 |
 | UTP-REL-066 · Balasore · Tides and Tales published | published | https://utkalproject.org/journey-starters/balasore/ | UTP-DEC-193 |
 | UTP-REL-067 · Mayurbhanj · Forest, Rhythm and a Meal published | published | https://utkalproject.org/journey-starters/mayurbhanj/ | UTP-DEC-195 |
+| UTP-REL-068 · Find your trail published | published | https://utkalproject.org/journey-starters/#find-your-trail | UTP-DEC-197 |
 
 ## Sources and assets
 
@@ -686,7 +687,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-222 | 2026-10-04T15:21:53.087490+00:00 | Published approved PR93 through Pages. Live chapters, photographs, separate gateway choices, ten guide returns and contribution links verified. Live-data exports retained only matching chapters and excluded private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-223 | 2026-10-04T15:32:02.171885+00:00 | Removed AI-generated tags beside images and moved homepage provenance to the existing end credits. Kept illustration descriptions, original source credits and internal provenance. | Review the caption cleanup PR for publication. |
 | UTP-EVT-224 | 2026-10-04T15:41:07.542753+00:00 | Published requested image tag cleanup through Pages and verified live HTML across 124 pages and 560 image elements. Image provenance remains in end credits. | Published and verified across all 124 public-edition pages. Provenance remains in end credits and canonical records. |
 | UTP-EVT-225 | 2026-10-04T16:01:33.011102+00:00 | Prepared four illustrated Cuttack chapters using existing research and licensed photographs, linked the unchanged six-idea starter to matching offline chapters, added planning and contextual contribution links. Automated checks pass; visual and local checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
@@ -696,6 +696,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-229 | 2026-10-04T17:00:08.146247+00:00 | Prepared three photographed Mayurbhanj chapters, preserving the five-idea starter and adding matching portable-book chapters, forest/performance contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 | UTP-EVT-230 | 2026-10-04T21:13:39.675521+00:00 | Published approved PR104 through Pages. Verified live Mayurbhanj chapters, three photographs, guide links, contribution context and five-idea starter. Live-data offline export embedded three photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-231 | 2026-10-04T22:37:12.091616+00:00 | Prepared five visual trail comparisons before the long featured story, with interest filters, consistent planning cues and links into existing story/save/book flows. Automated controller, built-page and publication checks passed; visual review remains open. | Founder reviews the five-trail comparison candidate before merge and publication; rendered visual and assistive-technology checks remain separately open. |
+| UTP-EVT-232 | 2026-10-04T22:45:13.929181+00:00 | Published approved PR112 through Pages. Verified five visual comparisons before the long story, six filter controls, matching filter script, photograph hashes and links into the shared story/save/book flow. | Published and live-delivery verified. Rendered browser, screen-reader and physical-device review and Search Console processing remain separate follow-ups. |
 
 ## Deferred extensions
 
