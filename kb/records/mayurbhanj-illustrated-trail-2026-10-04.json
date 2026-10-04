@@ -1,0 +1,88 @@
+{
+  "title": "Mayurbhanj · Forest, Rhythm and a Meal — illustrated trail candidate",
+  "recorded_at": "2026-10-04T17:00:08.146247+00:00",
+  "status": "review_candidate",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": {
+    "id": "UTP-DEC-194",
+    "quote": "OK, lets do that",
+    "context": "Founder selected the proposed Mayurbhanj illustrated chapters, forest and performance planning, matching tour books and local contribution prompts."
+  },
+  "scope": [
+    "Three photographed chapters: Similipal forest, Mayurbhanj Chhau and a Baripada Mudhi Mansa meal.",
+    "Existing five-idea starter retained; new plans opt into matching chapters without changing old journeys.",
+    "Selected chapters and credited photographs carried into offline books; day selection, removed ideas and private-note exclusion respected.",
+    "Forest-access and performer-led contribution prompts added alongside food contributions; draft review and explicit public GitHub submission preserved.",
+    "Current forest notices, gateway/stay comparison and agreed performance dates treated as separate planning questions; no guaranteed one-day itinerary."
+  ],
+  "routes": [
+    "/journey-starters/mayurbhanj/"
+  ],
+  "research_reuse": [
+    "research/destinations/northern-details.json",
+    "research/destinations/regions.json",
+    "research/food/collection.json",
+    "research/culture/mayurbhanj-chhau.md",
+    "research/journey-starters.json"
+  ],
+  "source_checks": [
+    {
+      "id": "similipal",
+      "title": "Similipal Tiger Reserve · Plan your visit",
+      "url": "https://www.similipal.org/pages/plan-your-visit",
+      "note": "Official visit guidance inspected on 4 October 2026 for gates, permissions and separate stay/safari arrangements. Exact opening follows dated notices; the displayed 2025 opening announcement does not establish a 2026 reopening. Food guidance has inconsistent wording, so no permission to carry or eat meat inside the reserve is inferred."
+    },
+    {
+      "id": "similipal-closure",
+      "title": "Similipal Tiger Reserve · 2026 monsoon closure notice",
+      "url": "https://similipal.aio.in/489/xft1sufXEQA9gVnv.pdf",
+      "note": "Official notice rechecked on 4 October 2026: monsoon closure from 29 June 2026, except Jamuani and Talabandha ecotourism complexes; reopening to be announced separately. This dated notice is not presented as a live availability feed."
+    },
+    {
+      "id": "chhau",
+      "title": "UNESCO · Chhau dance",
+      "url": "https://ich.unesco.org/en/RL/chhau-dance-00337?lang=en",
+      "note": "UNESCO’s indexed inscription description rechecked on 4 October 2026. Mayurbhanj is the unmasked style among three Chhau traditions. The inscription is cultural context, not evidence of a scheduled performance."
+    },
+    {
+      "id": "baripada",
+      "title": "Odisha Tourism · Baripada",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/major-cities/baripada.html",
+      "note": "Reused the project’s 1 October 2026 review of official indexed tourism text for Baripada’s association with Mudhi Mansa. No new menu, kitchen or origin claim."
+    }
+  ],
+  "image_basis": "Three existing licensed photographs: Barehipani waterfall, Mayurbhanj Chhau performers and a home-cooked chicken Mudhi Mansa variation. Existing book-photo mappings and source records reused. No image generation or modification.",
+  "validation": {
+    "full_build_pages": 140,
+    "full_tests_passed": 434,
+    "coastal_pages": 127,
+    "coastal_tests_passed": 85,
+    "page_acceptance_checks": "508/508",
+    "new_behaviour_checks": [
+      "Five starter choices unchanged and previous journeys preserved",
+      "Three deduplicated credited photos in illustrated books",
+      "Private notes omitted from shared exports",
+      "Performance-only day retains the Chhau chapter and scheduling limits",
+      "Removed meal removes its chapter",
+      "Stay-only plan does not acquire a photographed accommodation chapter",
+      "Unique headings, resolved images, guide returns and contextual contribution links",
+      "Shared journey data in standard and Fresco layouts"
+    ],
+    "search_boundary": "Existing eleven-route indexable shortlist unchanged; new trail explicitly held.",
+    "reviewer": "Current AI assistant",
+    "independent": false
+  },
+  "design_learning": "A regional story can connect a forest, performance and meal while keeping their access and timing independent. A dated cultural photograph supports discovery without becoming an event calendar.",
+  "publication": {
+    "status": "not_merged_or_deployed",
+    "existing_release": "UTP-REL-066"
+  },
+  "limitations": [
+    "No new browser visual, interactive, physical-device or native PDF pass; the prior administrator-enforced browser security-policy verification failure remains unresolved.",
+    "No field visit or provider contact. Current forest opening, route permissions, performance dates, kitchens and property facilities require confirmation.",
+    "UNESCO indexed inscription text inspected; no specific performance interpretation or future event inferred.",
+    "The food image is a home-cooked chicken variation, not a restaurant photograph or a universal Mudhi Mansa recipe.",
+    "Search Console processing was not rechecked."
+  ],
+  "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open."
+}

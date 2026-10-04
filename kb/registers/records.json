@@ -4687,6 +4687,28 @@
         "records/balasore-illustrated-trail-2026-10-04.json",
         "records/balasore-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-161",
+      "title": "Mayurbhanj illustrated trail and matching tour books",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-194",
+      "next_action": "Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-194",
+        "UTP-REV-139"
+      ],
+      "evidence": [
+        "records/mayurbhanj-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8545,6 +8567,25 @@
       "evidence": [
         "records/balasore-trail-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-194",
+      "title": "Build Mayurbhanj · Forest, Rhythm and a Meal",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, lets do that",
+      "scope": "Implement the proposed Mayurbhanj illustrated trail, practical planning, matching books and local contribution batch.",
+      "recorded_at": "2026-10-04T17:00:08.146247+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-161"
+      ],
+      "evidence": [
+        "records/mayurbhanj-illustrated-trail-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11822,6 +11863,30 @@
       "evidence": [
         "records/balasore-illustrated-trail-2026-10-04.json",
         "records/balasore-trail-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-139",
+      "title": "Mayurbhanj illustrated trail implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new browser visual, interactive, physical-device or native PDF pass; the prior administrator-enforced browser security-policy verification failure remains unresolved.",
+        "No field visit or provider contact. Current forest opening, route permissions, performance dates, kitchens and property facilities require confirmation.",
+        "UNESCO indexed inscription text inspected; no specific performance interpretation or future event inferred.",
+        "The food image is a home-cooked chicken variation, not a restaurant photograph or a universal Mudhi Mansa recipe.",
+        "Search Console processing was not rechecked."
+      ],
+      "refs": [
+        "UTP-WORK-161",
+        "UTP-DEC-194"
+      ],
+      "evidence": [
+        "records/mayurbhanj-illustrated-trail-2026-10-04.json"
       ]
     }
   ],
