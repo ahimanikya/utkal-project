@@ -308,3 +308,8 @@ Retry RES-016 on2026-10-11 for project-specific construction cash expenditure, o
 ## Sadhaba maritime-science study · 4 October 2026
 
 The user explicitly prioritised Sadhaba technology and science. RES-068 records the study and its continuation without changing the unfinished RES-017 trade-series criteria. After the source-recovery retry or independent manuscript work, resume the existing queue.
+
+
+## Fisheries history · 4 October2026
+
+Continue RES-017 with full annual merchandise export values and attribution, then physical manufacturing scope, reusing saved company/rice data. Fisheries historical11-observation series saved; original images/later2024–25 table and rounding reconciliation retry11October. Do not repeat July2026 weekly capture.

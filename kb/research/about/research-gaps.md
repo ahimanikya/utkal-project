@@ -479,3 +479,8 @@ Project estimates and a CWIP expense component are captured, but full project ca
 ## Sadhaba maritime-science study · 4 October 2026
 
 [Sadhaba science](../history/sadhaba-maritime-science.md) is now a substantive desk study. Original1993/1995 retrieval failed;1997 patia contents, manuscript accessions, ancient hull specifications, instruments, provisions and success rates remain unresolved. RES-068 retains these gaps without replacing other queue tasks.
+
+
+## Fisheries history · 4 October2026
+
+Fisheries table images, later2024–25 download and one-tonne alternate totals await11October. Historical methods consistency, export origin and producer margins remain unknown.

@@ -470,3 +470,8 @@ Added FY 2024–25 source identity; fifth stream, alternate conveyor and Pottang
 ## Sadhaba maritime-science study · 4 October 2026
 
 RES-068 searched source and repository-native maritime, Boita, Ratnagiri and science records. Added one technical synthesis and nine source/lead records. Shared Tripati scholarship is not independent corroboration;1997 independent-team article is a lead only. An indexed seeutkal.com “Across the Bay” page was discovered but was absent from both inspected local checkouts and direct retrieval failed; it is an editorial reuse lead, never independent evidence.
+
+
+## Fisheries history · 4 October2026
+
+Extended existing fisheries evidence and reused frozen comparison, real GSVA and July2026 capture. One directorate lineage does not become several independent confirmations.

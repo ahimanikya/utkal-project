@@ -20122,6 +20122,38 @@
       "source_ids": [
         "sadhaba-buoyancy-openstax"
       ]
+    },
+    {
+      "id": "sources/fish-directorate-statistics2024",
+      "title": "Fisheries Statistics: production through 2023–24 (P)",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/fish-directorate-statistics2024.md",
+      "project_path": "kb/research/sources/fish-directorate-statistics2024.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [],
+      "source_ids": [
+        "fish-directorate-statistics2024"
+      ]
+    },
+    {
+      "id": "stories/fish-growth-beyond-the-coast",
+      "title": "Fish growth reaches beyond the coast",
+      "kind": "Statistical Story",
+      "layer": "research_concept",
+      "source_path": "stories/fish-growth-beyond-the-coast.md",
+      "project_path": "kb/research/stories/fish-growth-beyond-the-coast.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "nature"
+      ],
+      "source_ids": [
+        "fish-directorate-statistics2024"
+      ]
     }
   ],
   "shared_publications": [
@@ -20814,7 +20846,12 @@
         "stories/ports-diverging-cargo.md",
         "references/data/trade-logistics-series.json",
         "references/data/rice-economy.json",
-        "references/data/economic-time-series.json"
+        "references/data/economic-time-series.json",
+        "references/data/fisheries-production-series.json",
+        "sources/fish-directorate-statistics2024.md",
+        "stories/fish-growth-beyond-the-coast.md",
+        "economy/fishing-and-aquaculture.md",
+        "economy/comparison-01-fisheries.md"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
@@ -21659,8 +21696,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1334,
-    "updated_at": "2026-10-04T17:52:37.451849+00:00",
+    "records_mapped": 1336,
+    "updated_at": "2026-10-04T20:14:45.768141+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22338,6 +22375,11 @@
       "run_id": "2026-10-04-sadhaba-science",
       "at": "2026-10-04T17:52:37.451849+00:00",
       "scope": "Bounded technical-science extension to existing maritime collection; indexed remote narrative remains a reuse lead."
+    },
+    {
+      "run_id": "2026-10-04-fisheries-series",
+      "at": "2026-10-04T20:14:45.768141+00:00",
+      "scope": "Enhanced existing fisheries page; source and story added. Directorate/survey/PIB repeat one administrative lineage, not independent corroboration."
     }
   ]
 }

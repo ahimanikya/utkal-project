@@ -75,3 +75,8 @@ Subject membership is editorial classification. It does not establish historical
 [Rice kept for taste](../stories/rice-kept-for-taste.md) links documented food preferences to named cultivation and seed-enterprise accounts. Historical evidence is separate from current availability.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+
+## Fisheries history · 4 October2026
+
+[Fish growth beyond the coast](../stories/fish-growth-beyond-the-coast.md) connects freshwater, brackishwater and marine food production while retaining income and sustainability questions.

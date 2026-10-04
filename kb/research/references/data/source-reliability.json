@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T17:52:37.451849+00:00",
+  "updated_at": "2026-10-04T20:14:45.768141+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7422,6 +7422,76 @@
         }
       ],
       "retry_after": "2026-10-11"
+    },
+    {
+      "run_id": "2026-10-04-fisheries-series",
+      "checked_at": "2026-10-04T20:14:45.768141+00:00",
+      "scope": "Historical fisheries only; weekly July2026 capture reused, no new-release claim.",
+      "sources": [
+        {
+          "source_id": "fish-directorate-statistics2024",
+          "url": "https://fisheries.odisha.gov.in/fisheries/wp-content/uploads/2025/05/01_19_33pm54f1418647aa3efbe1776df81feec0c5.pdf",
+          "status": "available",
+          "access_scope": "web_reader_PDF_text_only",
+          "locator": "PDF pp1,3,4,6",
+          "fetch_history": [
+            {
+              "method": "web_reader",
+              "status": "available"
+            },
+            {
+              "method": "direct_download",
+              "status": "unavailable",
+              "error": "35second connection timeout"
+            },
+            {
+              "method": "screenshot",
+              "status": "unavailable",
+              "error": "No inspectable image payload returned"
+            }
+          ]
+        },
+        {
+          "url": "https://fisheries.odisha.gov.in/en/statistics-fisheries-1/",
+          "status": "available",
+          "access_scope": "catalogue only;2024–25 target not recovered",
+          "fetch_history": [
+            {
+              "method": "web_reader",
+              "status": "available"
+            },
+            {
+              "method": "direct_download",
+              "status": "unavailable",
+              "error": "45second connection timeout"
+            }
+          ]
+        }
+      ],
+      "conflicts": [
+        {
+          "id": "brackishwater-2014-15-alternate-total",
+          "observation_ids": [
+            "fish-history-brackishwater-2014-15",
+            "fish-history-brackishwater-2014-15-detail-table"
+          ],
+          "status": "hold_conflict",
+          "scope": "One-tonne cross-table difference; may relate to decimal rounding note, but not silently reconciled.",
+          "resolution": null,
+          "retry_after": "2026-10-11"
+        },
+        {
+          "id": "marine-2015-16-alternate-total",
+          "observation_ids": [
+            "fish-history-marine-2015-16",
+            "fish-history-marine-2015-16-detail-table"
+          ],
+          "status": "hold_conflict",
+          "scope": "One-tonne cross-table difference; may relate to decimal rounding note, but not silently reconciled.",
+          "resolution": null,
+          "retry_after": "2026-10-11"
+        }
+      ]
     }
   ]
 }

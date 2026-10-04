@@ -250,3 +250,8 @@ Refinery trial/testing and dated supply-project stages are source-checked for ed
 ## Sadhaba maritime-science study · 4 October 2026
 
 [Sadhaba maritime science](../history/sadhaba-maritime-science.md) is a source-linked research draft. No original photographs reproduced, specialist review or public deployment claimed; indexed-only fields remain labelled.
+
+
+## Fisheries history · 4 October2026
+
+Historical fisheries draft uses parsed official PDF text; original table images still pending. No public deployment or human review.
