@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T14:45:44.183242+00:00",
+  "recorded_at": "2026-10-04T15:21:53.087490+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4592,22 +4592,25 @@
       "id": "UTP-WORK-157",
       "title": "Chilika illustrated trail and gateway-specific tour books",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-186",
-      "next_action": "Founder reviews the completed candidate before merge and publication; local and visual checks remain separately open.",
+      "next_action": "Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-186",
-        "UTP-REV-135"
+        "UTP-REV-135",
+        "UTP-DEC-187",
+        "UTP-REL-063"
       ],
       "evidence": [
-        "records/chilika-illustrated-trail-2026-10-04.json"
+        "records/chilika-illustrated-trail-2026-10-04.json",
+        "records/chilika-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8330,6 +8333,26 @@
       "evidence": [
         "records/chilika-illustrated-trail-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-187",
+      "title": "Publish the illustrated Chilika trail",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish PR93, preserving the eleven-route search shortlist and outstanding visual/PDF and local checks.",
+      "recorded_at": "2026-10-04T15:21:53.087490+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-157",
+        "UTP-DEC-186"
+      ],
+      "evidence": [
+        "records/chilika-trail-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11534,7 +11557,8 @@
         "UTP-DEC-186"
       ],
       "evidence": [
-        "records/chilika-illustrated-trail-2026-10-04.json"
+        "records/chilika-illustrated-trail-2026-10-04.json",
+        "records/chilika-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12583,6 +12607,22 @@
         "records/trail-books-publication-2026-10-04.json"
       ],
       "note": "PR89 merged after validation; Pages deployment succeeded. Shared live journey data, three chapter photographs, maker/access/food prompts on eight guide pages and exact verification-pack bytes checked. Live-data offline export smoke test passed; visual/native PDF review remains open."
+    },
+    {
+      "id": "UTP-REL-063",
+      "title": "Chilika illustrated trail published",
+      "status": "published",
+      "authorization": "UTP-DEC-187",
+      "destination": "https://utkalproject.org/journey-starters/chilika/",
+      "refs": [
+        "UTP-DEC-187",
+        "UTP-WORK-157",
+        "UTP-REV-135"
+      ],
+      "evidence": [
+        "records/chilika-trail-publication-2026-10-04.json"
+      ],
+      "note": "PR93 merged after checks passed; Pages deployment succeeded. Four photographs, three starter choices, ten guide returns and contextual contribution links verified live. Live-data exports carried the selected chapters and excluded private notes. Browser/PDF and local confirmation remain open."
     }
   ],
   "sources": [

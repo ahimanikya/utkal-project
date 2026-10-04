@@ -928,3 +928,9 @@ The approved trail book, contextual contribution questions and blank local verif
 Chilika became the next illustrated trail, keeping three gateways separate. Four photographic chapters connect birds, island belief, open water and the table; portable books carry only the chapters connected to selected ideas. Local knowledge is invited through dated observations.
 
 [Candidate evidence](../records/chilika-illustrated-trail-2026-10-04.json). Prepared for review; not yet published.
+
+## UTP-HIS-0221 · Chilika finds its own pace
+
+The approved Chilika trail is published with four photographic chapters and three separate gateway choices. Live delivery and all three live-data exports passed. Visual/native PDF review, local confirmation and Search Console remain open.
+
+[Publication evidence](../records/chilika-trail-publication-2026-10-04.json) · [PR93](https://github.com/ahimanikya/utkal-project/pull/93).
