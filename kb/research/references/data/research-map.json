@@ -19897,6 +19897,48 @@
         "investment-nalco-ar2025"
       ],
       "added_at": "2026-10-04T15:56:49.990348+00:00"
+    },
+    {
+      "id": "sources/connect-airport-aug2026",
+      "title": "AAI August 2026 Traffic News: Annexure III, Passenger Traffic",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/connect-airport-aug2026.md",
+      "project_path": "kb/research/sources/connect-airport-aug2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [],
+      "source_ids": [
+        "connect-airport-aug2026"
+      ]
+    },
+    {
+      "id": "sources/people-udise2026",
+      "title": "UDISE+ 2025–26 Report: Existing Structure",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/people-udise2026.md",
+      "project_path": "kb/research/sources/people-udise2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [],
+      "source_ids": [
+        "people-udise2026"
+      ]
+    },
+    {
+      "id": "sources/people-udise2026-release",
+      "title": "Ministry of Education releases UDISE+ report for 2025–26",
+      "kind": "Statistical Source",
+      "layer": "research_concept",
+      "source_path": "sources/people-udise2026-release.md",
+      "project_path": "kb/research/sources/people-udise2026-release.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [],
+      "source_ids": [
+        "people-udise2026-release"
+      ]
     }
   ],
   "shared_publications": [
@@ -21399,8 +21441,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1319,
-    "updated_at": "2026-10-04T15:56:49.990348+00:00",
+    "records_mapped": 1322,
+    "updated_at": "2026-10-04T16:16:56.927432+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22063,6 +22105,11 @@
       "at": "2026-10-04T15:56:49.990348+00:00",
       "run_id": "2026-10-04-nalco-investment",
       "scope": "Extended existing investment and NALCO identities; three project IDs and distinct annual-report vintages, not independent corroboration."
+    },
+    {
+      "at": "2026-10-04T16:16:56.927432+00:00",
+      "run_id": "2026-10-04T160437Z",
+      "scope": "Three publication identities; existing aviation and education concepts enhanced. Reports and release notice are not independent corroboration."
     }
   ]
 }

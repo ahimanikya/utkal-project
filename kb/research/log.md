@@ -504,3 +504,7 @@ Added three project identities, six dated stage events and three non-additive fi
 ## 4 October 2026 · NALCO implementation checkpoint
 
 Added3 project identities,5 stage events,5 project financial observations and3 company accounting observations. Preserved changing schedules and adverse aggregate CWIP. Project cash expenditure remains unknown; retry11 October, then independent RES-017 next.
+
+## 4 October 2026 · Weekly publisher checks
+
+All17 tracks attempted; partial fetches and existing conflicts retained. Added33 observations: five airports’ August and April–August comparisons, and four scoped UDISE2025–26 dropout rates. Adverse aviation figures retained; education release dates back to7July. Existing annual vintages and frozen evidence ledger unchanged. [Aviation](statistics/aviation.md) · [Education](statistics/education.md). No human review or website release claimed.
