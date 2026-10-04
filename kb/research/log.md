@@ -448,3 +448,7 @@ RES-058 original JFM instrument checkpoint: ten scoped policy provisions and res
 ## Forest-management amendments · 4 October 2026
 
 RES-058: recovered 2015 gazette and 2019 resolution copies from an official working-plan volume; five amendment provisions and two timeline events added. Earlier policy version preserved; local outcomes and later/current applicability unverified.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+RES-058: added one historical community case with five dated events and retained adverse findings. Deferred unmet evidence criteria to 11 October; next independent task RES-059. Original cases, amendments and frozen evidence retained.

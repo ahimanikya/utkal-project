@@ -459,3 +459,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Forest-management amendments
 
 [Research receipt](records/forest-amendments-2026-10-04.json): RES-058 amendment checkpoint: secretary/accounting changes and a range-level forum; document requirements remain distinct from observed outcomes. Archival/community history and study dates remain open. No website release.
+
+## 4 October 2026 · Dhani community history
+
+[Research receipt](records/forest-dhani-2026-10-04.json): RES-058 community-history checkpoint. Local historical events are distinct from official policy and current conditions; required study dates remain open. Next independent task RES-059. No website release.

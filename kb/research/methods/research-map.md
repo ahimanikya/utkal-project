@@ -409,3 +409,7 @@ Added original JFM 2011 source and publisher amendment-discovery page. Reused Ni
 ## Forest-management amendments · 4 October 2026
 
 One Jharsuguda working-plan source added for enclosed amendment facsimiles. Two instruments retain their own dates and locators, with no duplicate 2011 source or fresh Niyamgiri discovery. This is a scoped map extension.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+One new authored Dhani paper mapped after both-workspace searches; four local cases now share the existing historical concept. This bounded extension is not exhaustive duplicate detection.

@@ -189,3 +189,7 @@ Historical policy provisions are labelled by version. Women’s representation r
 ## Forest-management amendments · 4 October 2026
 
 The JFM comparison is versioned historical evidence. Monthly meetings and women’s representation are document requirements, not measured compliance. No current permit, title, income, human review or website publication claimed.
+
+## Dhani community-history checkpoint · 4 October 2026
+
+The Dhani addition is an attributed historical case. Current operation, income and rights are unverified. It links livelihood history with governance without asserting policy compliance or causal economic returns. No website release or human review claimed.

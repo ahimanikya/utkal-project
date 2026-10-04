@@ -103,3 +103,7 @@ The next evidence sought is a dated procurement ledger, completed-sale statement
 ## Institutions behind the trade · 4 October 2026
 
 [The 2015 and 2019 changes](../history/forest-livelihoods.md) clarify the historical roles of the committee secretary and range-level forum. Accounts, meeting minutes and local agreements would help establish how an arrangement operated; the policy text alone does not measure income or prove permission.
+
+## Livelihoods and collective work · 4 October 2026
+
+The [Dhani historical case](../history/forest-livelihoods.md) adds a local institutional history to this market research. Its reported arrangements are not a current permit or a business-return estimate. Follow the case’s source and date limits before reuse.

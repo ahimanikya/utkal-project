@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T04:28:42.197770+00:00",
+  "updated_at": "2026-10-04T05:29:15.175559+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6288,6 +6288,55 @@
       "retry_needed_for_current_checkpoint": false,
       "run_id": "2026-10-04-forest-amendments",
       "checked_at": "2026-10-04T04:28:42.197770+00:00"
+    },
+    {
+      "source_id": "forest-dhani-community-history",
+      "url": "https://www.fao.org/4/XII/0743-C1.htm",
+      "status": "available",
+      "scope": "Introduction; Dhani Panch Mouza Committee: A Learning Organisation; Equity and Other Challenges; Role of the State Forest Department",
+      "capture_method": "web publisher HTML; text read in full; graphs not digitised",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/forestry-fao/5387/en/",
+      "status": "available",
+      "scope": "Conference event context only, 21–28 September 2003; not independent Dhani evidence",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/XII/",
+      "status": "unavailable",
+      "scope": "Conference directory discovery",
+      "reason": "Web reader cache miss; original paper reachable at its exact URL",
+      "retry_after": "2026-10-11",
+      "retry_needed_for_current_checkpoint": false,
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/XII/0585-C1.htm",
+      "status": "unavailable",
+      "scope": "Unverified candidate URL during discovery",
+      "reason": "Web reader internal error; no content adopted; correct Dhani paper is 0743-C1",
+      "retry_needed_for_current_checkpoint": false,
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/ae542e/ae542e04.htm",
+      "status": "available",
+      "scope": "Sulia/Nayagarh discovery only; no case facts adopted in this bounded Dhani task; full chapter not reviewed",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
+    },
+    {
+      "url": "https://www.fao.org/4/ae542e/ae542e00.htm",
+      "status": "available",
+      "scope": "Title page confirms 2005 for separate In Search of Excellence publication; no Dhani inference",
+      "run_id": "2026-10-04-forest-dhani",
+      "checked_at": "2026-10-04T05:29:15.175559+00:00"
     }
   ]
 }
