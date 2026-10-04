@@ -454,3 +454,11 @@ Commission/accession records and precise Paris temple identity remain missing. I
 ## 4 October 2026 · District coverage audit
 
 Comparable district health and learning outcomes remain unmapped in inspected atlas inputs. All 30 banking baselines are reused; local DMF and university cases do not close outcome gaps. RES-014 is next. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · RES-014 remaining evidence
+
+Historical Census 2011 and NFHS-5 measures are now mapped for three districts; current outcomes remain unknown. DES 2024 handbook fetches unavailable, retry 11 October. Full NFHS district methods remain to recover.
+
+## 4 October 2026 · Regional survey recovery
+
+NFHS-5 district samples and WHO indicator definitions recovered; nine provisional NFHS-6 nutrition estimates added. Exact child measurement denominators, confidence intervals and district dates remain unknown. DES/SDG recovery retained for RES-018, retry11October.

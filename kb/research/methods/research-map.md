@@ -445,3 +445,11 @@ RES-032 reused six practice records and the existing Rana profile; absent work r
 ## 4 October 2026 · District matrix extension
 
 Added statistics/district-coverage and updated RES-013/014 reuse pointers for source and repository-native evidence. Dated bounded audit, not exhaustive semantic deduplication. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · Regional baseline extension
+
+Added one canonical regional baseline page and RES-014 reuse pointers, enhancing the existing district matrix rather than duplicating profiles.
+
+## 4 October 2026 · Regional survey reuse
+
+Enhanced the existing baseline page and linked RES-014/018 to a reproducible public NFHS lookup. Same NFHS-5 values through three publications are one lineage.

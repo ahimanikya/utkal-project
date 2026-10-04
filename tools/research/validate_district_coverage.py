@@ -37,7 +37,6 @@ for r in d['districts']:
   scopes={e['scope'] for e in c['evidence']};derived=next((s for s in d['status_order'] if s in scopes),'not_mapped_in_audit')
   check(c['status']==derived,'Wrong displayed status '+r['id']+'/'+domain)
   check((c['status']=='not_mapped_in_audit')==(not c['evidence']),'Unknown encoded incorrectly')
-  check(not (domain in ['health','education'] and 'district_measure' in scopes),'Outcome scope changed: review completion text')
   seen=set()
   for e in c['evidence']:
    refs+=1;identity=(e['input'],e['collection'],e['identity_field'],e['record_id']);check(identity not in seen,'Duplicate cell reference');seen.add(identity)
@@ -46,6 +45,7 @@ for r in d['districts']:
    matches=[x for x in loaded[e['input']][e['collection']] if x.get(e['identity_field'])==e['record_id']]
    check(bool(matches),'Unresolved reference '+str(identity))
    if e['scope']=='district_measure':
+    check(all(bool(x.get('period')) and bool(x.get('unit')) and bool(x.get('source_id')) for x in matches),'District measure missing period/unit/source')
     check(all(x.get('geography','').lower() in [r['id']+' district',r['id']+' district, odisha'] for x in matches),'District geography mismatch '+r['id'])
 for domain in d['domains']:check(d['summary'][domain]==dict(collections.Counter(r['domains'][domain]['status'] for r in d['districts'])),'Summary drift '+domain)
 print(json.dumps({'result':'FAIL' if errors else 'PASS','districts':len(d['districts']),'domains':len(d['domains']),'reference_uses':refs,'external_inputs_not_resolved_locally':external_skipped,'errors':errors,'scope':'Reference integrity and geographic scope; not source freshness, semantic completeness or publication approval.'},indent=2));sys.exit(bool(errors))

@@ -62,3 +62,5 @@ The [nine subject families](../subjects/index.md) connect these statistical page
 [Forest-product markets](forest-products.md) — kendu sales, a held historical discrepancy and honey-processing capacity.
 
 [District evidence matrix](district-coverage.md) — five-domain research coverage with explicit scope and gaps.
+
+[Koraput, Sambalpur and Bargarh historical baselines](../statistics/western-southern-baselines.md) — literacy, recorded work and child nutrition, with original years and denominators retained.

@@ -393,7 +393,18 @@
         "https://www.mospi.gov.in/download-reports?main_=",
         "https://www.pib.gov.in/allRel.aspx?reg=48&lang=2"
       ],
-      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values."
+      "discovery_scope": "Consult source-reliability.json for retrieval status; route mapping is not fresh verification of underlying values.",
+      "research_captures": [
+        {
+          "run_id": "2026-10-04-regional-survey-methods",
+          "path": "references/data/regional-survey-methods.json",
+          "source_ids": [
+            "regional-nfhs5-odisha-compendium",
+            "regional-nfhs6-odisha-compendium"
+          ],
+          "scope": "NFHS-6 district compendium recovered; only Koraput, Sambalpur and Bargarh nutrition and samples extracted. No other district, indicator or full weekly check claimed."
+        }
+      ]
     },
     {
       "id": "land-and-livelihoods",

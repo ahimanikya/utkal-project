@@ -19847,6 +19847,30 @@
         "places"
       ],
       "source_ids": []
+    },
+    {
+      "id": "statistics/western-southern-baselines",
+      "title": "Koraput, Sambalpur and Bargarh: people and work baselines",
+      "kind": "Statistical Topic",
+      "layer": "source_research_record",
+      "source_path": "statistics/western-southern-baselines.md",
+      "project_path": "kb/research/statistics/western-southern-baselines.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "places",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "regional-koraput-census2011",
+        "regional-sambalpur-census2011",
+        "regional-bargarh-census2011",
+        "regional-nutrition-ls1060-2022",
+        "regional-nfhs5-odisha-compendium",
+        "regional-nfhs6-odisha-compendium"
+      ]
     }
   ],
   "shared_publications": [
@@ -20482,7 +20506,10 @@
         "statistics/districts/sambalpur.md",
         "statistics/districts/bargarh.md",
         "statistics/district-coverage.md",
-        "references/data/district-coverage.json"
+        "references/data/district-coverage.json",
+        "statistics/western-southern-baselines.md",
+        "references/data/regional-district-baselines.json",
+        "references/data/regional-survey-methods.json"
       ],
       "project_records": [
         "kb/research/destinations/regions.json",
@@ -20491,7 +20518,7 @@
         "kb/research/references/data/statistics-atlas.json"
       ],
       "remaining_scope": "Deepen Koraput and Sambalpur–Bargarh using district publications; preserve boundaries, survey dates and denominator definitions.",
-      "status_unchanged": "pending",
+      "status_unchanged": "completed",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
     {
@@ -20539,7 +20566,9 @@
       "source_records": [
         "statistics/health.md",
         "statistics/education.md",
-        "statistics/employment.md"
+        "statistics/employment.md",
+        "references/data/regional-survey-methods.json",
+        "statistics/western-southern-baselines.md"
       ],
       "project_records": [],
       "remaining_scope": "Deepen comparable health, learning and employment evidence; preserve survey redesigns, age/sex scope, district variation and confidence intervals when supplied.",
@@ -21339,8 +21368,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1317,
-    "updated_at": "2026-10-04T13:43:00.385886+00:00",
+    "records_mapped": 1318,
+    "updated_at": "2026-10-04T14:26:40.438109+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21978,6 +22007,16 @@
       "at": "2026-10-04T13:43:00.385886+00:00",
       "run_id": "2026-10-04-district-coverage",
       "scope": "30-district, five-domain saved-evidence audit and RES-013/014 reuse pointers; not exhaustive semantic deduplication."
+    },
+    {
+      "at": "2026-10-04T14:07:41.814042+00:00",
+      "run_id": "2026-10-04-regional-handbooks",
+      "scope": "Three-district historical baseline and RES-014 checkpoint; no exhaustive coverage claim."
+    },
+    {
+      "at": "2026-10-04T14:26:40.438109+00:00",
+      "run_id": "2026-10-04-regional-survey-methods",
+      "scope": "Enhanced regional baseline identity; linked survey definitions and newer estimates for RES-014/018 without new duplicate concept."
     }
   ]
 }

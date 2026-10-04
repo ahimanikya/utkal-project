@@ -283,3 +283,11 @@ RES-032 checkpoint: three attributed work records saved; remaining commissioning
 ## 4 October 2026 · RES-013 completed
 
 The bounded five-domain district matrix exists with input fingerprints, exact record pointers and explicit unknowns. No primary sources fetched; continue RES-014. See [matrix](../statistics/district-coverage.md).
+
+## 4 October 2026 · RES-014 in progress
+
+RES-014: recover district NFHS factsheet methods and newer accessible service evidence; DES 2024 PDF retry due 2026-10-11. Preserve historical baselines and current unknowns.
+
+## 4 October 2026 · RES-014 bounded expansion completed
+
+RES-015: GSDP and sector time series. RES-018 reuses this district survey capture; DES/SDG recovery retry2026-10-11 and unresolved indicator denominators remain explicit.

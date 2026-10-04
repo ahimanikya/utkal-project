@@ -495,3 +495,11 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · District evidence coverage
 
 [Research receipt](records/district-coverage-2026-10-04.json): RES-013 completed with a 30-district, five-domain saved-evidence matrix. Distinguishes district measures, local cases, guides and scheme areas; unknowns remain unknown. No new primary fetch or website release. Next RES-014.
+
+## 4 October 2026 · Regional people and work baselines
+
+[Research receipt](records/regional-handbooks-2026-10-04.json): RES-014 checkpoint: 24 observations from three Census handbooks and a parliamentary NFHS-5 table, with historical periods and denominators preserved. Three newer DES handbook downloads unavailable. No website release.
+
+## 4 October 2026 · District survey originals recovered
+
+[Research receipt](records/regional-survey-methods-2026-10-04.json): RES-014 bounded expansion completed with nine NFHS-6 estimates and original survey methods. Mixed trends, provisional status and unknown indicator denominators retained. DES/SDG recovery remains a follow-up under RES-018. Next RES-015; no website release.

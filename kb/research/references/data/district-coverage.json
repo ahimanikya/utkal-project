@@ -517,6 +517,18 @@
       "repository_url": "https://github.com/ahimanikya/utkal-project/blob/f4229760446d6bd0e49a99e4f74fa9b0ea12d5b5/kb/research/references/data/mining-programme.json",
       "role": "canonical_project_case_context",
       "scope": "dmf_checkpoint/project_cases and environment_rights_safety_checkpoint/cases; richer later follow-ups retained, not overwritten by source snapshots."
+    },
+    "source:references/data/statistics-atlas.json@regional-baselines-20261004": {
+      "layer": "source",
+      "path": "references/data/statistics-atlas.json",
+      "sha256": "b66f66f47fc59892738ed3fe7264362a67e37f81836747598b30792c26095a43",
+      "revision": "uncommitted RES-014 addition captured 2026-10-04T14:07:41.814042+00:00"
+    },
+    "source:references/data/statistics-atlas.json@regional-surveys-20261004": {
+      "layer": "source",
+      "path": "references/data/statistics-atlas.json",
+      "sha256": "ce8829b68c081d0f4694bc140cd47789550bdb49a2c8e510aa1bb43ce6c99f5d",
+      "revision": "captured 2026-10-04T14:26:40.438109+00:00"
     }
   },
   "domains": [
@@ -978,14 +990,115 @@
       "district_page": "statistics/districts/bargarh.md",
       "domains": {
         "health": {
-          "status": "not_mapped_in_audit",
-          "evidence": [],
-          "missing_evidence": "Comparable district health outcomes with survey denominator and period."
+          "status": "district_measure",
+          "evidence": [
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-stunted-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-wasted-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-underweight-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-stunted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-wasted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-children-underweight-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            }
+          ],
+          "missing_evidence": "NFHS-6 provisional district nutrition added. Exact district dates, indicator sample bases, confidence intervals and current service quality remain open."
         },
         "education": {
-          "status": "not_mapped_in_audit",
-          "evidence": [],
-          "missing_evidence": "Comparable district education outcomes and learning measures."
+          "status": "district_measure",
+          "evidence": [
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-literacy-persons-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-bargarh-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-literacy-males-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-bargarh-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-literacy-females-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-bargarh-census2011"
+              ]
+            }
+          ],
+          "missing_evidence": "Historical baseline added 4 October 2026; current outcomes, service quality and full survey comparability remain gaps."
         },
         "livelihoods": {
           "status": "district_measure",
@@ -1076,6 +1189,28 @@
               "interpretation_limit": "Retain original period, unit and readiness. Banking is not household income; crop output is not farmer profit; water connection is not water quality.",
               "source_ids": [
                 "rice-oas2024"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-workers-count-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Historical Census district geography. Not employed adults as share of the labour force, PLFS employment, salaried jobs, income or job quality.",
+              "source_ids": [
+                "regional-bargarh-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-bargarh-workers-share-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Historical Census district geography. Not employed adults as share of the labour force, PLFS employment, salaried jobs, income or job quality.",
+              "source_ids": [
+                "regional-bargarh-census2011"
               ]
             }
           ],
@@ -2981,12 +3116,79 @@
       "district_page": "statistics/districts/koraput.md",
       "domains": {
         "health": {
-          "status": "not_mapped_in_audit",
-          "evidence": [],
-          "missing_evidence": "Comparable district health outcomes with survey denominator and period."
+          "status": "district_measure",
+          "evidence": [
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-stunted-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-wasted-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-underweight-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-stunted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-wasted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-children-underweight-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            }
+          ],
+          "missing_evidence": "NFHS-6 provisional district nutrition added. Exact district dates, indicator sample bases, confidence intervals and current service quality remain open."
         },
         "education": {
-          "status": "local_evidence",
+          "status": "district_measure",
           "evidence": [
             {
               "input": "source:references/data/culture-learning.json",
@@ -2998,9 +3200,42 @@
               "source_ids": [
                 "education-ugc-register2026"
               ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-literacy-persons-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-koraput-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-literacy-males-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-koraput-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-literacy-females-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-koraput-census2011"
+              ]
             }
           ],
-          "missing_evidence": "Comparable district education outcomes and learning measures."
+          "missing_evidence": "Historical baseline added 4 October 2026; current outcomes, service quality and full survey comparability remain gaps."
         },
         "livelihoods": {
           "status": "district_measure",
@@ -3080,6 +3315,28 @@
               "interpretation_limit": "Retain original period, unit and readiness. Banking is not household income; crop output is not farmer profit; water connection is not water quality.",
               "source_ids": [
                 "rice-oas2024"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-workers-count-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Historical Census district geography. Not employed adults as share of the labour force, PLFS employment, salaried jobs, income or job quality.",
+              "source_ids": [
+                "regional-koraput-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-koraput-workers-share-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Historical Census district geography. Not employed adults as share of the labour force, PLFS employment, salaried jobs, income or job quality.",
+              "source_ids": [
+                "regional-koraput-census2011"
               ]
             }
           ],
@@ -3850,12 +4107,79 @@
       "district_page": "statistics/districts/sambalpur.md",
       "domains": {
         "health": {
-          "status": "not_mapped_in_audit",
-          "evidence": [],
-          "missing_evidence": "Comparable district health outcomes with survey denominator and period."
+          "status": "district_measure",
+          "evidence": [
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-stunted-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-wasted-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-underweight-nfhs5",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-5 (2019–21 survey-round label); Annexure does not provide valid-measurement sample denominators, confidence intervals, exact district fieldwork dates or boundary crosswalk to Census 2011. Do not treat as 2026 prevalence, rank statistical significance or join to Census persons to estimate affected children.",
+              "source_ids": [
+                "regional-nutrition-ls1060-2022"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-stunted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-wasted-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-surveys-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-children-underweight-nfhs6",
+              "scope": "district_measure",
+              "interpretation_limit": "NFHS-6 (2023–24); Odisha statewide fieldwork 18 July–28 November 2024; Point estimate, not 2026 prevalence or a clinical case count. District-specific fieldwork dates, eligible child denominator, confidence interval and boundary crosswalk to Census 2011 are not supplied in the inspected compendium. District rural/urban estimates are not supported by this survey design.",
+              "source_ids": [
+                "regional-nfhs6-odisha-compendium"
+              ]
+            }
+          ],
+          "missing_evidence": "NFHS-6 provisional district nutrition added. Exact district dates, indicator sample bases, confidence intervals and current service quality remain open."
         },
         "education": {
-          "status": "local_evidence",
+          "status": "district_measure",
           "evidence": [
             {
               "input": "source:references/data/culture-learning.json",
@@ -3878,9 +4202,42 @@
               "source_ids": [
                 "education-ugc-register2026"
               ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-literacy-persons-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-sambalpur-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-literacy-males-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-sambalpur-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-literacy-females-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Census 2011 district geography; not a current estimate, school enrolment or learning assessment. Sex categories follow the published table.",
+              "source_ids": [
+                "regional-sambalpur-census2011"
+              ]
             }
           ],
-          "missing_evidence": "Comparable district education outcomes and learning measures."
+          "missing_evidence": "Historical baseline added 4 October 2026; current outcomes, service quality and full survey comparability remain gaps."
         },
         "livelihoods": {
           "status": "district_measure",
@@ -3927,6 +4284,28 @@
               "interpretation_limit": "Retain original period, unit and readiness. Banking is not household income; crop output is not farmer profit; water connection is not water quality.",
               "source_ids": [
                 "macro-slbc-jun2026"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-workers-count-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Historical Census district geography. Not employed adults as share of the labour force, PLFS employment, salaried jobs, income or job quality.",
+              "source_ids": [
+                "regional-sambalpur-census2011"
+              ]
+            },
+            {
+              "input": "source:references/data/statistics-atlas.json@regional-baselines-20261004",
+              "collection": "observations",
+              "identity_field": "id",
+              "record_id": "regional-sambalpur-workers-share-2011",
+              "scope": "district_measure",
+              "interpretation_limit": "Census 2011; Historical Census district geography. Not employed adults as share of the labour force, PLFS employment, salaried jobs, income or job quality.",
+              "source_ids": [
+                "regional-sambalpur-census2011"
               ]
             }
           ],
@@ -4257,12 +4636,14 @@
   ],
   "summary": {
     "health": {
-      "not_mapped_in_audit": 27,
+      "not_mapped_in_audit": 24,
+      "district_measure": 3,
       "local_evidence": 3
     },
     "education": {
-      "not_mapped_in_audit": 21,
-      "local_evidence": 9
+      "not_mapped_in_audit": 20,
+      "district_measure": 3,
+      "local_evidence": 7
     },
     "livelihoods": {
       "district_measure": 30
@@ -4421,5 +4802,17 @@
       "accessed_on": "2026-10-03",
       "capture_method": "official_pdf_targeted_text_and_visual_review"
     }
-  }
+  },
+  "extension_history": [
+    {
+      "at": "2026-10-04T14:07:41.814042+00:00",
+      "run_id": "2026-10-04-regional-handbooks",
+      "scope": "24 historical district observations added for three districts; original audit inputs and snapshots preserved."
+    },
+    {
+      "at": "2026-10-04T14:26:40.438109+00:00",
+      "run_id": "2026-10-04-regional-survey-methods",
+      "scope": "Nine NFHS-6 nutrition estimates supplement existing three-district historical baselines; scope remains bounded."
+    }
+  ]
 }

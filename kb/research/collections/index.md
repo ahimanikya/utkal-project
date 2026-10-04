@@ -13,3 +13,7 @@ Follow a subject across Odisha’s places, people and evidence. Each page keeps 
 [Odisha in the world](odisha-and-world.md) · [Religion and spirituality](religion-and-spirituality.md) — research entrances across the stable subjects.
 
 - [Global Connections: Indian city comparison](global-connections.md)
+
+## People and livelihoods context · 4 October 2026
+
+[District people and work baselines](../statistics/western-southern-baselines.md) add Census 2011 literacy and recorded work, plus NFHS-5 child nutrition. Current services, skills and enterprise demand need separate evidence; these historical observations are not a tourism or investment ranking.

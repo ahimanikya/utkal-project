@@ -86,3 +86,9 @@ People-and-creations research added five observations for broad textile/apparel/
 ## District matrix · 4 October 2026
 
 [The 30-district matrix](district-coverage.md) distinguishes district measures, local cases, destination guides, homestay scheme areas and unmapped evidence across five domains. Its declared inputs include repository-native records. It does not convert local projects into district outcomes or missing evidence into zero.
+
+[Koraput, Sambalpur and Bargarh historical baselines](../statistics/western-southern-baselines.md) — literacy, recorded work and child nutrition, with original years and denominators retained.
+
+## Regional survey update · 4 October 2026
+
+[Koraput, Sambalpur and Bargarh](../statistics/western-southern-baselines.md) now include provisional NFHS-6 child nutrition, original NFHS-5 methods and separate overall survey samples. Lower stunting does not imply improvement in every nutrition measure; no programme causation is established.

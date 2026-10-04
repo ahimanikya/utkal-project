@@ -10,7 +10,7 @@ subjects: ["governance", "people", "economy", "nature", "places"]
 
 # District evidence: what we know and what is missing
 
-**Banking evidence reaches all 30 districts; comparable district health and education outcomes remain a research gap in the inspected atlas.** Local hospital projects and university records offer useful context, but cannot fill those outcome gaps.
+**Banking evidence reaches all 30 districts. A subsequent 4 October extension adds historical literacy and child nutrition measures for Koraput, Sambalpur and Bargarh.** Current outcomes and complete sector coverage remain gaps.
 
 This 4 October 2026 audit maps saved evidence across health, education, livelihoods, environment and visitor information. It reuses source-workspace research and the repository’s destination and Census collections. It adds no new statewide statistics, source checks or claims of completeness.
 
@@ -29,7 +29,7 @@ Where several evidence classes exist, the table shows the first applicable class
 | [Angul](districts/angul.md) | Not mapped | Not mapped | District measure | Local evidence | Not mapped |
 | [Balangir](districts/balangir.md) | Not mapped | Not mapped | District measure | Local evidence | Not mapped |
 | [Balasore](districts/balasore.md) | Not mapped | Not mapped | District measure | Local evidence | Guide context |
-| [Bargarh](districts/bargarh.md) | Not mapped | Not mapped | District measure | Not mapped | Scheme area |
+| [Bargarh](districts/bargarh.md) | District measure | District measure | District measure | Not mapped | Scheme area |
 | [Bhadrak](districts/bhadrak.md) | Not mapped | Not mapped | District measure | Not mapped | Not mapped |
 | [Boudh](districts/boudh.md) | Not mapped | Not mapped | District measure | Not mapped | Not mapped |
 | [Cuttack](districts/cuttack.md) | Not mapped | Local evidence | District measure | Local evidence | Guide context |
@@ -45,7 +45,7 @@ Where several evidence classes exist, the table shows the first applicable class
 | [Kendrapara](districts/kendrapara.md) | Not mapped | Not mapped | District measure | Not mapped | Scheme area |
 | [Keonjhar](districts/keonjhar.md) | Local evidence | Local evidence | District measure | Not mapped | Scheme area |
 | [Khordha](districts/khordha.md) | Not mapped | Local evidence | District measure | Local evidence | Guide context |
-| [Koraput](districts/koraput.md) | Not mapped | Local evidence | District measure | Local evidence | Scheme area |
+| [Koraput](districts/koraput.md) | District measure | District measure | District measure | Local evidence | Scheme area |
 | [Malkangiri](districts/malkangiri.md) | Not mapped | Not mapped | District measure | Not mapped | Not mapped |
 | [Mayurbhanj](districts/mayurbhanj.md) | Not mapped | Not mapped | District measure | District measure | Guide context |
 | [Nabarangpur](districts/nabarangpur.md) | Not mapped | Not mapped | District measure | Not mapped | Not mapped |
@@ -53,7 +53,7 @@ Where several evidence classes exist, the table shows the first applicable class
 | [Nuapada](districts/nuapada.md) | Not mapped | Not mapped | District measure | Not mapped | Not mapped |
 | [Puri](districts/puri.md) | Not mapped | Not mapped | District measure | Not mapped | Guide context |
 | [Rayagada](districts/rayagada.md) | Not mapped | Local evidence | District measure | Local evidence | Scheme area |
-| [Sambalpur](districts/sambalpur.md) | Not mapped | Local evidence | District measure | Not mapped | Scheme area |
+| [Sambalpur](districts/sambalpur.md) | District measure | District measure | District measure | Not mapped | Scheme area |
 | [Subarnapur](districts/subarnapur.md) | Not mapped | Not mapped | District measure | Not mapped | Not mapped |
 | [Sundargarh](districts/sundargarh.md) | Local evidence | Not mapped | District measure | District measure | Scheme area |
 
@@ -80,3 +80,11 @@ Next, RES-014 deepens Koraput and Sambalpur–Bargarh with district publications
 Publication reconciliation preserves the repository-native mining programme and its follow-ups. Existing atlas IDs and explicit source-only audit snapshots anchor this matrix; the source workspace’s differently organized case files are recorded only as geography-mapping provenance. They are not imported as competing canonical datasets.
 
 The portable audit includes 21 source-only observation snapshots with original catalogue provenance because those IDs are absent from the repository atlas at the audited revision. These remain audit context, separate from the canonical atlas and frozen ledger. They are not fresh research or independent corroboration.
+
+## RES-014 extension · 4 October 2026
+
+[Historical people and work baselines](western-southern-baselines.md) add 24 observations. The original audit narrative above records what was mapped before this extension; its input snapshots remain preserved. Current services and learning outcomes remain unresolved.
+
+## Survey extension · 4 October 2026
+
+Nine provisional NFHS-6 nutrition estimates supplement the three district baselines. Survey sample totals and statewide fieldwork windows are now documented; exact child measurement denominators and district boundary comparability remain open. [Updated evidence](western-southern-baselines.md).
