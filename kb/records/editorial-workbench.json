@@ -319,8 +319,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "68ab8103e906b8ffea384408576d9aaeda8d99a6d50846c0ed85ccdb22a16ab4",
-    "kb/research/search-index.json": "504933aad70af0b4c48e04d625fcb4d6df7e12c9f01943c3098667331246a4a1",
+    "kb/research/references/data/source-catalog.json": "efcd7458acb5cf90e021bccd5a866e26a091338e36d681a90bebc2cd54c71dfd",
+    "kb/research/search-index.json": "0f45e3128bdc4ca234b56b03c25e996ef26cd233ad19ff1115fbc5940eec6782",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -8083,7 +8083,53 @@
         "published_on": null,
         "locator": null,
         "capture": "Fresh official indexed table extract with explicit 2018–19 to 2025–26 column headings and INR lakh units. Full PDF browser fetch exceeded size limit. Retain estimate vintage; not independent confirmation from a second source.",
-        "capture_history": []
+        "capture_history": [
+          {
+            "at": "2026-10-04T14:42:04.663570+00:00",
+            "run_id": "2026-10-04-gsdp-series",
+            "scope": "Tables1.1 and1.4, seven annual series2011-12–2025-26",
+            "access": "Official indexed extracts; full document unavailable; table image review pending",
+            "source_checks": [
+              {
+                "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+                "status": "available",
+                "access_scope": "publisher_indexed_table_extract",
+                "locator": "Tables 1.1 and 1.4, both 2011-12–2017-18 and 2018-19–2025-26 panels",
+                "detail": "Numeric rows, units and estimate headings recovered; no PDF image review."
+              },
+              {
+                "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+                "status": "unavailable",
+                "access_scope": "direct_PDF_download_and_web_open",
+                "detail": "45-second shell timeout; web open timeout."
+              },
+              {
+                "url": "https://finance.odisha.gov.in/sites/default/files/2025-08/OES%202025-26%20Main%20Booklet.pdf",
+                "status": "unavailable",
+                "access_scope": "full_PDF",
+                "detail": "Web size limit 35,142,032 bytes; direct shell timeout55 seconds."
+              },
+              {
+                "url": "https://pc.odisha.gov.in/sites/default/files/2026-02/OES%202026%20WEB%20UPLOAD.pdf",
+                "status": "unavailable",
+                "access_scope": "full_PDF",
+                "detail": "Web size limit; direct connection timeout12 seconds."
+              },
+              {
+                "url": "https://des.odisha.gov.in/data_table/OES_2026.xlsx",
+                "status": "unavailable",
+                "access_scope": "official_tables_download",
+                "detail": "Web timeout and direct connection timeout."
+              },
+              {
+                "url": "https://des.odisha.gov.in/en/pages/data-tables",
+                "status": "available",
+                "access_scope": "official_link_discovery",
+                "detail": "Annual GSDP current, constant and GSVA tables link to OneDrive; links opened but inaccessible to web tool. No workbook values adopted."
+              }
+            ]
+          }
+        ]
       },
       "connections": [
         {
@@ -8105,10 +8151,12 @@
         "investment-survey-full-2026"
       ],
       "flags": [
-        "Shared reference URL"
+        "Shared reference URL",
+        "Retrieval limitation recorded"
       ],
       "next_actions": [
         "Compare locators and editions with legacy-urban_clean, sector-survey, comparison-1-1, maritime-exports-2026, investment-survey-full-2026. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
+        "Read the capture history before reusing this source; identify which passage is still unavailable and whether a later capture resolves it.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],
       "stage": "Metadata mapped; claim review required",

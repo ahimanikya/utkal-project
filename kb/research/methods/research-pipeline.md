@@ -278,7 +278,7 @@ Continue RES-032 with individually credited sculptures and clay/dhokra works, us
 
 ## Attributed craft works ·4October2026
 
-RES-032 checkpoint: three attributed work records saved; remaining commissioning/accession, maker-identity and craft-specific work gaps retry2026-10-11. Continue next eligible independent task RES-013 district evidence coverage, reusing the research map and existing district records.
+RES-032 checkpoint: three attributed work records saved; remaining commissioning/accession, maker-identity and craft-specific work gaps retry 2026-10-11. Continue next eligible independent task RES-013 district evidence coverage, reusing the research map and existing district records.
 
 ## 4 October 2026 · RES-013 completed
 
@@ -290,4 +290,8 @@ RES-014: recover district NFHS factsheet methods and newer accessible service ev
 
 ## 4 October 2026 · RES-014 bounded expansion completed
 
-RES-015: GSDP and sector time series. RES-018 reuses this district survey capture; DES/SDG recovery retry2026-10-11 and unresolved indicator denominators remain explicit.
+RES-015: GSDP and sector time series. RES-018 reuses this district survey capture; DES/SDG recovery retry 2026-10-11 and unresolved indicator denominators remain explicit.
+
+## 4 October 2026 · RES-015 checkpoint
+
+RES-016 investment implementation next; RES-015 original table-image review retry 2026-10-11. Do not repeat indexed extraction.

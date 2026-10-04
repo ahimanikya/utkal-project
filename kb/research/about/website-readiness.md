@@ -233,3 +233,7 @@ A 30-district research map now exists locally. Cells are inventory scope, not qu
 ## 4 October 2026 · Regional survey readiness
 
 Original IIPS district tables now support a balanced nutrition story. Values remain provisional; no human review or website release claimed.
+
+## 4 October 2026 · Economic-series readiness
+
+Longer nominal and real growth stories exist as research drafts. Source table images remain unverified; additions retain needs_source_table_review. No website release.

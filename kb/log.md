@@ -503,3 +503,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · District survey originals recovered
 
 [Research receipt](records/regional-survey-methods-2026-10-04.json): RES-014 bounded expansion completed with nine NFHS-6 estimates and original survey methods. Mixed trends, provisional status and unknown indicator denominators retained. DES/SDG recovery remains a follow-up under RES-018. Next RES-015; no website release.
+
+## 4 October 2026 · Economic time-series research checkpoint
+
+[Research receipt](records/gsdp-series-2026-10-04.json): RES-015 adds seven annual macro/sector series and matched intervals. Source image review remains pending; adverse movements and estimate vintages retained. Next independent task RES-016; no website release.
