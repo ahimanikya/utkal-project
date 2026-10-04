@@ -32,5 +32,4 @@ test('new coastal starter preserves earlier city plans and starts all eight idea
  const ids=[...read('journey').matchAll(/data-save-journey="([^"]+)"/g)].map(m=>m[1]);
  const library=emptyLibrary();library.trips[0].plan=addItem(library.trips[0].plan,'stay:puri');library.trips[0].plan.items[0].notes='Keep the existing address';library.trips[0].plan.startDate='2026-12-12';
  const before=structuredClone(library),next=createStarterTrip(library,'coast',s,ids);assert.deepEqual(library,before);assert.deepEqual(next.trips[0],before.trips[0]);assert.equal(next.trips[1].plan.items.length,8);assert.ok(next.trips[1].plan.items.every(i=>i.day===0&&i.notes===''));
- assert.deepEqual(starters.find(s=>s.id==='stone-sea-makers').items,['place:bhubaneswar','place:dhauli','place:puri','place:raghurajpur','place:puri-beach']);
 });

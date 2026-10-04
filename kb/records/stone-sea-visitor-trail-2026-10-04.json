@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-10-04T12:49:39.483483+00:00",
+  "work": "UTP-WORK-155",
+  "authorization": {
+    "quote": "Lets pick this up",
+    "human": "Ahimanikya Satapathy",
+    "scope": "Implement the recommended visitor trail, bounded practical-source refresh and validation."
+  },
+  "changes": [
+    "Existing Stone, sea and makers starter becomes an illustrated three-chapter feature on /journey-starters/.",
+    "Eight unscheduled ideas connect Bhubaneswar, Mukteswar, city food and stay research, Raghurajpur, and Puri food/stay research. Puri shore is covered by the existing Puri guide; no additional beach route published.",
+    "Public edition now includes this previously draft-only starter; eight existing public guides return to the feature.",
+    "Homepage planning invitation points to the feature; no automatic changes to existing saved journeys.",
+    "Three reused documentary photographs retain source credits, dates, identity caveats and uncropped display.",
+    "Dated source refresh distinguishes successful reads from failed lookups and leaves present operating details unconfirmed."
+  ],
+  "implementation": [
+    "projects/site/src/components/VisitorTrail.astro",
+    "projects/site/src/components/VisitorTrailReturn.astro",
+    "projects/site/src/pages/journey-starters.astro"
+  ],
+  "research": [
+    "research/destinations/stone-sea-trail.json",
+    "research/destinations/stone-sea-source-refresh-2026-10-04.json"
+  ],
+  "validation": {
+    "status": "pass_with_limitations",
+    "full_site_tests": 412,
+    "coastal_tests": 79,
+    "coastal_page_acceptance_checks": 492,
+    "full_build_pages": 136,
+    "coastal_build_pages": 123,
+    "search_indexable_pages_unchanged": 11,
+    "checked": [
+      "All eight starter ideas resolve to existing public guides and return to the trail.",
+      "All ideas begin unscheduled; previous five-stop journey retains Dhauli, dates and notes.",
+      "Three documentary assets, dates and licensed source credits survive rendering.",
+      "Single starter button and accessible status target; sources remain at page end.",
+      "Coastal link/fragment/media audit, discovery, launch-readiness and publication search-shortlist audits passed."
+    ],
+    "browser": "Blocked; no rendered desktop/mobile or interactive browser pass claimed."
+  },
+  "limitations": [
+    "Browser visual and interactive review blocked by administrator-enforced security-policy verification failure; no bypass or visual pass claimed.",
+    "Search Console processing remains unresolved under UTP-WORK-139 and was not rechecked in this batch.",
+    "Current temple arrangements, maker appointments, access facilities, menus and transport require local confirmation."
+  ],
+  "publication": "Local candidate. Implementation PR for review; not deployed."
+}
