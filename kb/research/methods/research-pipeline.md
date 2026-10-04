@@ -291,3 +291,7 @@ Continue RES-055 with source-backed mining-town history and named mineral-resear
 ## Talcher and Rourkela history checkpoint · 3 October 2026
 
 Continue RES-055 with credited mineral scientists and technology contributions using existing IMMT and science identities; seek later pilot outcomes only where original evidence exists. Town social histories and unresolved historical attribution/unit questions remain follow-ups; retry source-specific gaps10October.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+Continue RES-055 with a bounded original-paper or patent record for Sujana and a check for later operational evidence on the saved2025 IMMT pilots. Reuse existing scientist, work and project identities. If outcome evidence is absent, retain unknowns and close the bounded synthesis with separate dated follow-ups. Town social-history sources and original historical attribution remain follow-ups; retry existing inaccessible originals10October and new publisher/profile conflicts11October.

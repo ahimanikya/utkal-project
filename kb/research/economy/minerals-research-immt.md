@@ -4,7 +4,7 @@ title: "From RRL to IMMT: Odisha’s mineral-research story"
 description: "From RRL to IMMT: Odisha’s mineral-research story — scoped sources and unresolved evidence."
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-03T21:39:55.313303+00:00"}
-sources: [{"id": "mining-immt-history", "title": "CSIR-IMMT institutional history", "resource": "https://www.immt.res.in/index.php"}, {"id": "mining-immt-pib2020", "title": "CSIR-IMMT celebrates its 57th Foundation Day", "resource": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1662752"}, {"id": "mining-immt-sujana-technologies", "title": "M.G. Sujana: institutional profile and technology flowsheets", "resource": "https://www.immt.res.in/environment-sustainability/department-environment-sustainability"}, {"id": "mining-immt-pib2025", "title": "Critical-mineral pilot facilities inaugurated at CSIR-IMMT", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2145626"}]
+sources: [{"id": "mining-immt-history", "title": "CSIR-IMMT institutional history", "resource": "https://www.immt.res.in/index.php"}, {"id": "mining-immt-pib2020", "title": "CSIR-IMMT celebrates its 57th Foundation Day", "resource": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1662752"}, {"id": "mining-immt-sujana-technologies", "title": "M.G. Sujana: institutional profile and technology flowsheets", "resource": "https://www.immt.res.in/environment-sustainability/department-environment-sustainability"}, {"id": "mining-immt-pib2025", "title": "Critical-mineral pilot facilities inaugurated at CSIR-IMMT", "resource": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2145626"}, {"id": "mining-mamata-immt", "title": "Mamata Mohapatra: IMMT institutional profile", "resource": "https://www.immt.res.in/hydro-electrometallurgy/dr-ms-mamata-mohapatra-principal-scientist"}, {"id": "mining-mamata-danida", "title": "Mobility Grant of Ms Mamata Mohapatra", "resource": "https://drp.dfcentre.com/project/mobility-grant-ms-mamata-mohapatra/"}, {"id": "mining-battery-cathodes-review2022", "title": "Retrieving Spent Cathodes from Lithium-Ion Batteries through Flourishing Technologies", "resource": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202200418"}]
 human_review_claimed: false
 subjects: ["economy", "history", "people", "nature"]
 ---
@@ -42,3 +42,11 @@ PIB’s 2020 account records a DSIR-supported hub for new materials and chemical
 [Mining](mining.md) connects research capability with the wider mineral economy without counting laboratory work as industrial production.
 
 [Structured evidence](../references/data/mining-research-innovation.json) preserves project stages, partners and unknown commercial outcomes. Next: documented mining-town histories, additional named contributions, and later evidence of pilot operation. Human editorial review remains pending.
+
+## Credited scientists and a reading route · 4 October 2026
+
+[Mamata Mohapatra](../people/mamata-mohapatra.md) connects Utkal University education and IMMT work with battery-materials scholarship and a documented Denmark collaboration.
+
+[M.G. Sujana](../people/m-g-sujana.md) connects mineral research with water treatment and industrial-residue questions.
+
+The [spent-cathode review](../works/spent-cathodes-review.md) credits its six coauthors, distinguishing corresponding authorship from invention and a review article from new experimental results. Grant periods, fellowship visits and publication dates remain separate. No production, sales or job outcomes are added.

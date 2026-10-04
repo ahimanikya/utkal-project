@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-02",
+  "updated_on": "2026-10-04",
   "scope": "Editorial subject classification of canonical knowledge, evidence and story entries; excludes sources, methods, product/technology governance and generic coverage pages. Does not grant public-release approval.",
   "subjects": [
     {
@@ -4648,6 +4648,37 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/mamata-mohapatra",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "people/m-g-sujana",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy",
+        "nature"
+      ],
+      "content_type": "Person",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "works/spent-cathodes-review",
+      "primary_subject": "people",
+      "secondary_subjects": [
+        "economy"
+      ],
+      "content_type": "Work",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6981,6 +7012,20 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "connects industrial history with later laboratory and pilot stages without assigning research results to steel-plant production."
+    },
+    {
+      "from": "economy/minerals-research-immt",
+      "to": "people/mamata-mohapatra",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "connects Utkal University education and IMMT work with battery-materials scholarship and a documented Denmark collaboration."
+    },
+    {
+      "from": "economy/minerals-research-immt",
+      "to": "people/m-g-sujana",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "connects mineral research with water treatment and industrial-residue questions."
     }
   ],
   "relationship_types": {

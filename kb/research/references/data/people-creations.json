@@ -2172,6 +2172,72 @@
       "publication_status": "research_nucleus_editorial_review_pending",
       "portrait_rights": null,
       "research_checkpoint": "references/data/culture-learning.json#/kiss_outcomes_checkpoint"
+    },
+    {
+      "id": "people/mamata-mohapatra",
+      "name": "Mamata Mohapatra",
+      "fields": [
+        "mineral processing",
+        "battery-materials research"
+      ],
+      "odisha_connection": {
+        "description": "PhD at Utkal University; professional work at CSIR-IMMT Bhubaneswar from October2006.",
+        "source_ids": [
+          "mining-mamata-immt"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented research contribution",
+          "basis": "Corresponding author of a credited international review and named mobility-grant researcher; documentary collaboration, not a global-popularity ranking.",
+          "source_ids": [
+            "mining-mamata-immt",
+            "mining-mamata-danida",
+            "mining-battery-cathodes-review2022"
+          ]
+        }
+      ],
+      "source_ids": [
+        "mining-mamata-immt",
+        "mining-mamata-danida",
+        "mining-battery-cathodes-review2022"
+      ],
+      "checked_on": "2026-10-04",
+      "work_ids": [
+        "works/spent-cathodes-review"
+      ],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
+    },
+    {
+      "id": "people/m-g-sujana",
+      "name": "M.G. Sujana",
+      "fields": [
+        "environmental chemistry",
+        "industrial-residue research"
+      ],
+      "odisha_connection": {
+        "description": "RRL/IMMT Bhubaneswar professional work recorded from1992.",
+        "source_ids": [
+          "mining-immt-sujana-technologies"
+        ]
+      },
+      "significance_evidence": [
+        {
+          "scope": "documented research contribution",
+          "basis": "Institutional profile credits environmental research and principal-investigator contribution to fluoride-removal technology; adoption not established.",
+          "source_ids": [
+            "mining-immt-sujana-technologies"
+          ]
+        }
+      ],
+      "source_ids": [
+        "mining-immt-sujana-technologies"
+      ],
+      "checked_on": "2026-10-04",
+      "work_ids": [],
+      "publication_status": "research_nucleus_editorial_review_pending",
+      "portrait_rights": null
     }
   ],
   "works": [
@@ -4762,6 +4828,86 @@
       "checked_on": "2026-10-02",
       "full_text_reuse_rights": null,
       "live_stock": null
+    },
+    {
+      "id": "works/spent-cathodes-review",
+      "title": "Retrieving Spent Cathodes from Lithium-Ion Batteries through Flourishing Technologies",
+      "work_type": "review_article",
+      "creator_links": [
+        {
+          "person_id": "people/mamata-mohapatra",
+          "role": "coauthor and corresponding author",
+          "source_ids": [
+            "mining-battery-cathodes-review2022"
+          ]
+        }
+      ],
+      "ordered_author_credits": [
+        {
+          "name": "Benjamin Raj",
+          "role": "coauthor",
+          "source_ids": [
+            "mining-battery-cathodes-review2022"
+          ]
+        },
+        {
+          "name": "Manoj Kumar Sahoo",
+          "role": "coauthor",
+          "source_ids": [
+            "mining-battery-cathodes-review2022"
+          ]
+        },
+        {
+          "name": "Aleksandar Nikoloski",
+          "role": "coauthor",
+          "source_ids": [
+            "mining-battery-cathodes-review2022"
+          ]
+        },
+        {
+          "name": "Pritam Singh",
+          "role": "coauthor",
+          "source_ids": [
+            "mining-battery-cathodes-review2022"
+          ]
+        },
+        {
+          "name": "Suddhasatwa Basu",
+          "role": "coauthor",
+          "source_ids": [
+            "mining-battery-cathodes-review2022"
+          ]
+        },
+        {
+          "name": "Mamata Mohapatra",
+          "role": "coauthor and corresponding author",
+          "source_ids": [
+            "mining-battery-cathodes-review2022"
+          ]
+        }
+      ],
+      "english_access": {
+        "status": "english_original_research",
+        "source_ids": [
+          "mining-battery-cathodes-review2022"
+        ]
+      },
+      "edition": {
+        "journal": "Batteries & Supercaps",
+        "volume": 6,
+        "issue": 1,
+        "article_number": "e202200418",
+        "issue_year": 2023,
+        "first_online": "2022-10-21",
+        "doi": "10.1002/batt.202200418"
+      },
+      "source_ids": [
+        "mining-battery-cathodes-review2022"
+      ],
+      "checked_on": "2026-10-04",
+      "full_text_reuse_rights": null,
+      "live_stock": null,
+      "full_text_reviewed": false
     }
   ],
   "recognition_rules": {
@@ -4770,7 +4916,7 @@
     "international": "Specific overseas publication, archive, competition or collaboration; not measured worldwide popularity"
   },
   "human_review_claimed": false,
-  "updated_at": "2026-10-02T07:42:49.321114+00:00",
+  "updated_at": "2026-10-04T00:30:23.622518+00:00",
   "research_checkpoints": [
     {
       "run_id": "2026-10-01T092949Z",
@@ -4991,6 +5137,16 @@
       "new_people": 0,
       "new_works": 3,
       "scope": "Three label chapters share one upload; only first sampled. Dance link available but performer identification remains register-attributed."
+    },
+    {
+      "run_id": "2026-10-04-mineral-scientists",
+      "task_ids": [
+        "RES-055"
+      ],
+      "status": "mineral_scientists_checkpoint",
+      "new_people": 2,
+      "new_works": 1,
+      "scope": "Documented professional connections, full review-article author credits and separate fellowship/grant periods; no industrial outcomes inferred."
     }
   ],
   "conflicts": [
@@ -5175,6 +5331,12 @@
         }
       ],
       "resolution": "Exact year withheld pending issuer register. Undated book totals are different vintages, not reconciled current counts."
+    },
+    {
+      "source_id": "mining-mamata-immt",
+      "field": "Current rank and promotion chronology",
+      "reason": "Scientist-G heading differs from continuing Principal Scientist line; 2006–2019 junior-scientist range overlaps subsequent2009–2012 range. Joining month used from biography; no rank chronology adopted.",
+      "retry_after": "2026-10-11"
     }
   ]
 }

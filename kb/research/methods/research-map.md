@@ -433,3 +433,7 @@ Searched source and repository research for IMMT/RRL before addition. One canoni
 ## Talcher and Rourkela history checkpoint · 3 October 2026
 
 Reused Rourkela chain, IMMT and BTK source. Added Talcher identity and four original publisher records; chronology event meanings preserved. This is a scoped extension, not exhaustive deduplication.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+Added Mamata Mohapatra, M.G. Sujana and one selected review after identity search. Reused IMMT/Sujana evidence; three new publisher/funder records. Repeated institutional evidence is not independent corroboration.

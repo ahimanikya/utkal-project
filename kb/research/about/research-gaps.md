@@ -458,3 +458,7 @@ RES-055: mining-town histories, research-team credit and later pilot outcomes re
 ## Talcher and Rourkela history checkpoint · 3 October 2026
 
 RES-055: community, settlement and displacement history plus wider scientific credit remain. Talcher1837 personal attribution and old production-unit notation held; inaccessible district2019 original and PIB2018 route retry10October. Successful resumed originals recorded separately from failed routes.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+RES-055 scientist checkpoint adds two profiles and a selected review. Sujana original publication/patent credit and later pilot outcomes remain. Mamata rank/chronology conflicts held; publisher403 and profile discrepancies retry11October. Town social histories remain separate follow-ups.

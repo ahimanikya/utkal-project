@@ -18799,6 +18799,102 @@
         "mining-dhenkanal-census1961",
         "mining-talcher-mcl2019"
       ]
+    },
+    {
+      "id": "sources/mining-mamata-immt",
+      "title": "Mamata Mohapatra: IMMT institutional profile",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-mamata-immt.md",
+      "project_path": "kb/research/sources/mining-mamata-immt.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-mamata-immt"
+      ]
+    },
+    {
+      "id": "sources/mining-mamata-danida",
+      "title": "Mobility Grant of Ms Mamata Mohapatra",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-mamata-danida.md",
+      "project_path": "kb/research/sources/mining-mamata-danida.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-mamata-danida"
+      ]
+    },
+    {
+      "id": "sources/mining-battery-cathodes-review2022",
+      "title": "Retrieving Spent Cathodes from Lithium-Ion Batteries through Flourishing Technologies",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/mining-battery-cathodes-review2022.md",
+      "project_path": "kb/research/sources/mining-battery-cathodes-review2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "mining-battery-cathodes-review2022"
+      ]
+    },
+    {
+      "id": "people/mamata-mohapatra",
+      "title": "Mamata Mohapatra",
+      "kind": "Person",
+      "layer": "source_research_record",
+      "source_path": "people/mamata-mohapatra.md",
+      "project_path": "kb/research/people/mamata-mohapatra.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "economy"
+      ],
+      "source_ids": [
+        "mining-mamata-immt",
+        "mining-mamata-danida",
+        "mining-battery-cathodes-review2022"
+      ]
+    },
+    {
+      "id": "people/m-g-sujana",
+      "title": "M.G. Sujana",
+      "kind": "Person",
+      "layer": "source_research_record",
+      "source_path": "people/m-g-sujana.md",
+      "project_path": "kb/research/people/m-g-sujana.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "economy",
+        "nature"
+      ],
+      "source_ids": [
+        "mining-immt-sujana-technologies"
+      ]
+    },
+    {
+      "id": "works/spent-cathodes-review",
+      "title": "Retrieving Spent Cathodes from Lithium-Ion Batteries through Flourishing Technologies",
+      "kind": "Work",
+      "layer": "source_research_record",
+      "source_path": "works/spent-cathodes-review.md",
+      "project_path": "kb/research/works/spent-cathodes-review.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [
+        "people",
+        "economy"
+      ],
+      "source_ids": [
+        "mining-battery-cathodes-review2022"
+      ]
     }
   ],
   "shared_publications": [
@@ -20039,7 +20135,14 @@
         "economy/talcher-coal-history.md",
         "economy/rourkela-steel-chain.md",
         "references/data/mining-place-history.json",
-        "sources/mining-btk-pfr2021.md"
+        "sources/mining-btk-pfr2021.md",
+        "sources/mining-mamata-immt.md",
+        "sources/mining-mamata-danida.md",
+        "sources/mining-battery-cathodes-review2022.md",
+        "people/mamata-mohapatra.md",
+        "people/m-g-sujana.md",
+        "works/spent-cathodes-review.md",
+        "references/data/people-creations.json"
       ],
       "project_records": [],
       "remaining_scope": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
@@ -20226,8 +20329,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1256,
-    "updated_at": "2026-10-03T22:45:02.059182+00:00",
+    "records_mapped": 1262,
+    "updated_at": "2026-10-04T00:30:23.622518+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -20881,6 +20984,11 @@
       "run_id": "2026-10-03-mining-town-history",
       "at": "2026-10-03T22:45:02.059182+00:00",
       "scope": "Existing Rourkela chain and saved BTK report enhanced; new Talcher historical identity. No duplicate modern production series."
+    },
+    {
+      "run_id": "2026-10-04-mineral-scientists",
+      "at": "2026-10-04T00:30:23.622518+00:00",
+      "scope": "Searched source and destination identities before adding two scientists and one selected review. Existing Sujana source and IMMT research reused; not exhaustive deduplication."
     }
   ]
 }

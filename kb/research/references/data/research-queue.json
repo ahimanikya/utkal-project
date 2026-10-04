@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T22:45:02.059182+00:00",
+  "updated_at": "2026-10-04T00:30:23.622518+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3204,13 +3204,13 @@
       "done_when": "Connect documented mining-town histories, people and mineral research with recycling and critical-material project stages; reuse the existing rare-earth journey and require source-backed technology and outcome claims.",
       "target": "economy/mining.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 3,
       "dependencies": [],
       "related_existing_tasks": [
         "RES-020"
       ],
-      "last_worked_at": "2026-10-03T22:45:02.059182+00:00",
-      "next_step": "Continue RES-055 with credited mineral scientists and technology contributions using existing IMMT and science identities; seek later pilot outcomes only where original evidence exists. Town social histories and unresolved historical attribution/unit questions remain follow-ups; retry source-specific gaps10October.",
+      "last_worked_at": "2026-10-04T00:30:23.622518+00:00",
+      "next_step": "Continue RES-055 with a bounded original-paper or patent record for Sujana and a check for later operational evidence on the saved2025 IMMT pilots. Reuse existing scientist, work and project identities. If outcome evidence is absent, retain unknowns and close the bounded synthesis with separate dated follow-ups. Town social-history sources and original historical attribution remain follow-ups; retry existing inaccessible originals10October and new publisher/profile conflicts11October.",
       "evidence_outputs": [
         "sources/mining-immt-history.md",
         "sources/mining-immt-pib2020.md",
@@ -3224,7 +3224,14 @@
         "sources/mining-dhenkanal-census1961.md",
         "economy/talcher-coal-history.md",
         "economy/rourkela-steel-chain.md",
-        "references/data/mining-place-history.json"
+        "references/data/mining-place-history.json",
+        "sources/mining-mamata-immt.md",
+        "sources/mining-mamata-danida.md",
+        "sources/mining-battery-cathodes-review2022.md",
+        "people/mamata-mohapatra.md",
+        "people/m-g-sujana.md",
+        "works/spent-cathodes-review.md",
+        "references/data/people-creations.json"
       ],
       "retry_after": null,
       "blocker": null,
@@ -3244,6 +3251,16 @@
           "remaining": [
             "Worker settlements, displacement and local enterprise histories",
             "Additional credited scientists and verified later pilot outcomes"
+          ]
+        },
+        {
+          "run_id": "2026-10-04-mineral-scientists",
+          "at": "2026-10-04T00:30:23.622518+00:00",
+          "outcome": "mineral_scientist_credit_checkpoint",
+          "completion_criteria_met": false,
+          "remaining": [
+            "Original work/patent credit for Sujana",
+            "Later pilot operating evidence or explicit unresolved outcome hold"
           ]
         }
       ],
@@ -3268,7 +3285,14 @@
           "economy/talcher-coal-history.md",
           "economy/rourkela-steel-chain.md",
           "references/data/mining-place-history.json",
-          "sources/mining-btk-pfr2021.md"
+          "sources/mining-btk-pfr2021.md",
+          "sources/mining-mamata-immt.md",
+          "sources/mining-mamata-danida.md",
+          "sources/mining-battery-cathodes-review2022.md",
+          "people/mamata-mohapatra.md",
+          "people/m-g-sujana.md",
+          "works/spent-cathodes-review.md",
+          "references/data/people-creations.json"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",

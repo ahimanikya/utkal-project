@@ -474,3 +474,7 @@ RES-055 in progress: institutional history, four primary sources and nine dated 
 ## Talcher and Rourkela history checkpoint · 3 October 2026
 
 RES-055 checkpoint: Talcher and Rourkela histories connected, four new sources and one saved source reused; seventeen typed historical events. Census vintage1961 and publication1966 separated. Full task remains in progress.
+
+## Mineral-scientist checkpoint · 4 October 2026
+
+RES-055: added two scientist profiles and one credited English review, with three new sources and one reused original. Grant PI, fellowship visit and corresponding-author roles distinguished. Task remains in progress for bounded original-work/pilot-outcome checks.

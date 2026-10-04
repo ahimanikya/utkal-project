@@ -109,3 +109,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
 
 [Niyamgiri: community rights and mining](../economy/niyamgiri-rights-and-mining.md) — a dated court/Parliament case connecting landscape, community decisions and a proposed mine; current permissions and ecological outcomes remain unknown.
+
+## Mineral scientists · 4 October 2026
+
+[Mamata Mohapatra](../people/mamata-mohapatra.md) and [M.G. Sujana](../people/m-g-sujana.md) add documented education/work connections to Odisha, linked to research and credited collaborations. Institutional ties do not establish birthplace or mother tongue.

@@ -117,3 +117,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Textile creators: stronger work-level credits
 
 [Handloom research](../handlooms/garments-and-markets.md) now connects Swarnalata Meher, Debaki Meher and Sarat Kumar Patra with three illustrated directory examples. Existing identities and shared records are reused; these are not newly invented biographies or interviews.
+
+## Mineral scientists · 4 October 2026
+
+[Mamata Mohapatra](mamata-mohapatra.md) and [M.G. Sujana](m-g-sujana.md) add documented education/work connections to Odisha, linked to research and credited collaborations. Institutional ties do not establish birthplace or mother tongue.

@@ -479,3 +479,7 @@ PR 62 merged after CI passed. Twelve research entries and 44 observations added;
 ## 3 October 2026 · Mining-place history checkpoint
 
 [Research receipt](records/mining-town-history-2026-10-03.json): Talcher and Rourkela histories distinguish lease, production, furnace firing and dedication. Social-history and scientific-credit work remains; RES-055 in progress. No website release.
+
+## 4 October 2026 · Mineral-scientist checkpoint
+
+[Research receipt](records/mineral-scientists-2026-10-04.json): Mamata Mohapatra and M.G. Sujana profiles connect to the IMMT research record; review coauthors and grant/visit periods remain explicit. Original-work and pilot-outcome checks remain; RES-055 in progress. No website release.

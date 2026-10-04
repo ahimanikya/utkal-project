@@ -6536,7 +6536,15 @@
     "locator": "Experience; technology/flowsheet table, rows 2025 and 2019",
     "capture_method": "original_publisher_html",
     "capture_note": "Despite the departmental URL this is a named researcher profile. Table stages govern claims, not its commercialized heading. Invalid April date in another project excluded.",
-    "capture_sha256": "0458eacb6051fcc7f21c6e90e0f33d0443b524421c4c19d9bbb0b55d9253ec5c"
+    "capture_sha256": "0458eacb6051fcc7f21c6e90e0f33d0443b524421c4c19d9bbb0b55d9253ec5c",
+    "scope_extensions": [
+      {
+        "reviewed_on": "2026-10-04",
+        "run_id": "2026-10-04-mineral-scientists",
+        "locator": "Description; experience; areas of interest",
+        "scope": "Saved original profile reused for RRL1992 employment and environmental/industrial-residue research; new canonical person profile, not independent corroboration."
+      }
+    ]
   },
   "mining-immt-pib2020": {
     "id": "mining-immt-pib2020",
@@ -6619,5 +6627,40 @@
     "capture_method": "original_publisher_download_selected_sections",
     "capture_sha256": "835c349f64309cf7be9822f9a09b3796f10eb563641990710a68643d8efee2b7",
     "capture_note": "Original HTML inspected; company retrospective. HSL group quantities must not be assigned to Rourkela."
+  },
+  "mining-mamata-danida": {
+    "id": "mining-mamata-danida",
+    "title": "Mobility Grant of Ms Mamata Mohapatra",
+    "resource": "https://drp.dfcentre.com/project/mobility-grant-ms-mamata-mohapatra/",
+    "publisher": "Danida Research Portal / Danida Fellowship Centre",
+    "published_on": "2019-10-16",
+    "accessed_on": "2026-10-04",
+    "locator": "Project summary, Facts, Institutions; HTML datePublished/dateModified",
+    "capture_method": "original_html_download",
+    "capture_note": "Original HTML recovered after web cache misses. Metadata modified2021-05-27. Grant period is as printed; a collaboration aim is not a measured recovery outcome. Historical recycling-economics statements not adopted as current claims.",
+    "capture_sha256": "97f3938dc1cf6b749bb93f05cd31be808c545f699ce8178d4ebe45a1887bafdc"
+  },
+  "mining-battery-cathodes-review2022": {
+    "id": "mining-battery-cathodes-review2022",
+    "title": "Retrieving Spent Cathodes from Lithium-Ion Batteries through Flourishing Technologies",
+    "resource": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202200418",
+    "publisher": "Wiley / Batteries & Supercaps",
+    "published_on": "2022-10-21",
+    "accessed_on": "2026-10-04",
+    "locator": "Header; authors/affiliations; first-publication date; abstract; data availability statement",
+    "capture_method": "publisher_page_web_tool",
+    "capture_note": "Publisher landing page inspected with web tool. Review article, first online2022; volume6 issue1 is2023. Bibliographic and affiliation evidence only; no new experimental performance or commercial outcome extracted. Full text not reviewed."
+  },
+  "mining-mamata-immt": {
+    "id": "mining-mamata-immt",
+    "title": "Mamata Mohapatra: IMMT institutional profile",
+    "resource": "https://www.immt.res.in/hydro-electrometallurgy/dr-ms-mamata-mohapatra-principal-scientist",
+    "publisher": "CSIR-IMMT",
+    "published_on": null,
+    "accessed_on": "2026-10-04",
+    "locator": "Description; experience; research areas; awards and honours",
+    "capture_method": "original_html_download",
+    "capture_note": "Education and joining month verified. Rank labels and overlapping experience dates are inconsistent; no current rank or complete promotion chronology adopted. Undated citation/publication counts excluded.",
+    "capture_sha256": "bda8781c0a60a671a5723e73e629f8ef26cad8cf1909bdf896c6bbd2914ed164"
   }
 }

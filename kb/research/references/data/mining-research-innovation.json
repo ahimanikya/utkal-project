@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1",
-  "updated_at": "2026-10-03T21:39:55.313303+00:00",
+  "updated_at": "2026-10-04T00:30:23.622518+00:00",
   "run_id": "2026-10-03-mineral-research",
   "task_id": "RES-055",
   "canonical_page": "economy/minerals-research-immt.md",
@@ -140,7 +140,23 @@
       "locator": "Experience and technology table",
       "odisha_connection": "Professional work at RRL/IMMT, Bhubaneswar; experience list starts 1992.",
       "identity_or_birthplace_inferred": false,
-      "sole_inventor_claim": false
+      "sole_inventor_claim": false,
+      "person_id": "people/m-g-sujana"
+    },
+    {
+      "name": "Mamata Mohapatra",
+      "person_id": "people/mamata-mohapatra",
+      "source_ids": [
+        "mining-mamata-immt",
+        "mining-mamata-danida",
+        "mining-battery-cathodes-review2022"
+      ],
+      "odisha_connection": "Utkal University PhD and IMMT Bhubaneswar work from October2006",
+      "identity_or_birthplace_inferred": false,
+      "sole_inventor_claim": false,
+      "work_ids": [
+        "works/spent-cathodes-review"
+      ]
     }
   ],
   "unknowns": [
@@ -161,6 +177,12 @@
       "field": "Commercialization scope",
       "reason": "Heading and specific bench-scale/TRL descriptions differ; no commercial deployment inferred.",
       "retry_after": "2026-10-10"
+    },
+    {
+      "source_id": "mining-mamata-immt",
+      "field": "Current rank and promotion chronology",
+      "reason": "Scientist-G heading differs from continuing Principal Scientist line; 2006–2019 junior-scientist range overlaps subsequent2009–2012 range. Joining month used from biography; no rank chronology adopted.",
+      "retry_after": "2026-10-11"
     }
   ],
   "source_checks": [
@@ -200,9 +222,84 @@
       "url": "https://tools.immt.res.in/crtdh/about.html",
       "status": "unavailable",
       "reason": "Web fetch timeout; direct fetch certificate verification failed. Certificate checks retained; no claim sourced from this failed fetch. Renaming verified through PIB 2020 instead."
+    },
+    {
+      "source_id": "mining-mamata-immt",
+      "url": "https://www.immt.res.in/hydro-electrometallurgy/dr-ms-mamata-mohapatra-principal-scientist",
+      "status": "available",
+      "scope": "Description; experience; research areas; awards and honours",
+      "capture_method": "original_html_download",
+      "capture_sha256": "bda8781c0a60a671a5723e73e629f8ef26cad8cf1909bdf896c6bbd2914ed164",
+      "retrieval_history": "Original publisher page read."
+    },
+    {
+      "source_id": "mining-mamata-danida",
+      "url": "https://drp.dfcentre.com/project/mobility-grant-ms-mamata-mohapatra/",
+      "status": "available",
+      "scope": "Project summary, Facts, Institutions; HTML datePublished/dateModified",
+      "capture_method": "original_html_download",
+      "capture_sha256": "97f3938dc1cf6b749bb93f05cd31be808c545f699ce8178d4ebe45a1887bafdc",
+      "retrieval_history": "Web cache misses followed by successful original HTML download."
+    },
+    {
+      "source_id": "mining-battery-cathodes-review2022",
+      "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202200418",
+      "status": "available",
+      "scope": "Header; authors/affiliations; first-publication date; abstract; data availability statement",
+      "capture_method": "publisher_page_web_tool",
+      "capture_sha256": null,
+      "retrieval_history": "Original publisher page read."
+    },
+    {
+      "source_id": "mining-immt-sujana-technologies",
+      "status": "saved_capture_reused",
+      "url": "https://www.immt.res.in/environment-sustainability/department-environment-sustainability",
+      "scope": "Description, experience, research areas",
+      "capture_sha256": "0458eacb6051fcc7f21c6e90e0f33d0443b524421c4c19d9bbb0b55d9253ec5c"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022369723004389",
+      "status": "unavailable",
+      "reason": "Publisher returned403; discovery snippet not adopted as verified contribution evidence.",
+      "retry_after": "2026-10-11"
     }
   ],
   "evidence_lineage": "IMMT pages and PIB releases reporting IMMT activities are related institutional accounts, not independent validation.",
   "human_review_claimed": false,
-  "website_publication": false
+  "website_publication": false,
+  "scientific_credit_checkpoint": {
+    "run_id": "2026-10-04-mineral-scientists",
+    "task_ids": [
+      "RES-055"
+    ],
+    "status": "mineral_scientists_checkpoint",
+    "new_people": 2,
+    "new_works": 1,
+    "scope": "Documented professional connections, full review-article author credits and separate fellowship/grant periods; no industrial outcomes inferred."
+  },
+  "collaboration_records": [
+    {
+      "id": "mamata-danida-19-mg01sdu",
+      "source_id": "mining-mamata-danida",
+      "project_code": "19-MG01SDU",
+      "project_type": "mobility_grant",
+      "named_researcher_id": "people/mamata-mohapatra",
+      "principal_investigator": "Shuang Ma Andersen",
+      "lead_institution": "University of Southern Denmark",
+      "partner_institution": "CSIR, India",
+      "period_start": "2018-04-14",
+      "period_end": "2020-01-14",
+      "evidence_class": "funder_project_record",
+      "result_stage": "research_aim_only",
+      "commercial_outcome": null,
+      "checked_on": "2026-10-04",
+      "locator": "Facts and Institutions",
+      "separate_fellowship_visit": {
+        "source_id": "mining-mamata-immt",
+        "start": "2019-05-15",
+        "end": "2019-06-30",
+        "scope": "Visit dates in institutional biography; not grant-period revision"
+      }
+    }
+  ]
 }
