@@ -267,3 +267,7 @@ Continue RES-032 sand art and other material arts. Textile destination, HS, quan
 ## Sand-art checkpoint · 4 October 2026
 
 Continue RES-032 with Tarakasi and palm-leaf engraving, then stone carving, dhokra and terracotta. Reuse this sand-art checkpoint; source recovery and award-body follow-ups are dated2026-10-11.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+Continue RES-032 with stone carving, dhokra and terracotta, reusing current maker/place records. Tarakasi and palm-leaf craft/award checkpoint saved; original award retrieval, named works and partial identities remain dated follow-ups for 2026-10-11.

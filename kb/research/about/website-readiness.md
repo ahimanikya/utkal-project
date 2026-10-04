@@ -209,3 +209,7 @@ Textile segment and product-form additions are editorial candidates; no current 
 ## Sand-art checkpoint · 4 October 2026
 
 Sand-art records are editorial candidates. No current itinerary, artist booking, image licence, measured impact or website release. Participation rates and offered fees are not livelihoods.
+
+## Tarakasi and palm-leaf checkpoint · 4 October 2026
+
+Filigree/palm-leaf concepts and four maker profiles are research candidates. Original technique PDFs support concise explanations; award records are indexed-only captures. No seller verification, portrait rights, booking promises, human review or website release.

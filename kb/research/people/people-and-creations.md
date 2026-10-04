@@ -117,3 +117,7 @@ The [contemporary creators collection](../people/contemporary-creators.md) now i
 ## Textile creators: stronger work-level credits
 
 [Handloom research](../handlooms/garments-and-markets.md) now connects Swarnalata Meher, Debaki Meher and Sarat Kumar Patra with three illustrated directory examples. Existing identities and shared records are reused; these are not newly invented biographies or interviews.
+
+## Craft practitioners · 4 October 2026
+
+[Ramesh Behera](ramesh-behera.md), [Pankaj Kumar Sahoo](pankaj-kumar-sahoo.md), [Laxmidhar Subudhi](laxmidhar-subudhi.md) and [Biswanath Swain](biswanath-swain.md) add scoped craft and recognition records. Full biographies and work-level catalogues remain open.
