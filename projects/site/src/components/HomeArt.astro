@@ -4,17 +4,14 @@ import {homeArt} from '../data/home-art';
 ---
 <figure class="hero-media home-art" data-home-art>
   <div class="home-art-frame">
-    {homeArt.map((scene, i) => <div data-scene data-key={scene.src} data-title={scene.title} hidden={i !== 0}>
+    {homeArt.map((scene, i) => <div data-scene data-key={scene.src} data-title={scene.title} data-theme={scene.theme} hidden={i !== 0}>
       <ResponsiveImage src={scene.src} width="1536" height="1024" alt={`AI-generated artwork. ${scene.alt}`} fetchpriority={i === 0 ? 'high' : 'low'} loading={i === 0 ? 'eager' : 'lazy'} />
     </div>)}
   </div>
   <figcaption><span data-caption>{homeArt[0].title}</span><span>AI-generated imagined scenes</span></figcaption>
 </figure>
 
-<script>
-  import {mountHomeArt} from '../scripts/home-art.mjs';
-  document.querySelectorAll('[data-home-art]').forEach(root => mountHomeArt(root));
-</script>
+
 
 <style>
   .home-art-frame{overflow:hidden;aspect-ratio:3/2;background:var(--paper)}

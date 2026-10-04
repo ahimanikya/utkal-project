@@ -51,3 +51,13 @@ test('calendar boundaries use Odisha time',()=>{
  assert.equal(odishaDay(new Date('2026-10-04T18:29:59Z')),'2026-10-04');
  assert.equal(odishaDay(new Date('2026-10-04T18:30:00Z')),'2026-10-05');
 });
+
+test('theme connections guide selection after freshness, and exhausted connections broaden naturally',()=>{
+ const preferred=['/place/9/','/life/9/'];
+ const chosen=chooseStoryTrio(pool,{...options,preferred});
+ assert.equal(chosen[0].href,'/place/9/');assert.equal(chosen[2].href,'/life/9/');
+ const next=chooseStoryTrio(pool,{...options,preferred,history:chosen.map(e=>e.href)});
+ assert.ok(next.every(e=>!chosen.some(c=>c.href===e.href)));
+ const pinned=chooseStoryTrio(pool,{...options,preferred,pins:[{href:'/place/1/',slot:'place',expires:'2026-10-05'}]});
+ assert.equal(pinned[0].href,'/place/1/');
+});

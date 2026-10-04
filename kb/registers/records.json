@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T09:22:08.967729+00:00",
+  "recorded_at": "2026-10-04T11:22:52.481972+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4432,6 +4432,30 @@
         "records/fresh-story-beginnings-2026-10-04.json",
         "records/story-beginnings-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-154",
+      "title": "Connected homepage artwork and story introductions",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "applied",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-180",
+      "next_action": "Review the implementation PR; publish after release approval. Browser visual review remains unavailable.",
+      "blockers": [
+        "Browser visual review blocked by administrator security-policy verification failure."
+      ],
+      "refs": [
+        "UTP-DEC-180",
+        "UTP-REV-132"
+      ],
+      "evidence": [
+        "records/connected-homepage-stories-2026-10-04.json"
+      ]
     }
   ],
   "decisions": [
@@ -8017,6 +8041,25 @@
       "evidence": [
         "records/story-beginnings-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-180",
+      "title": "Connect homepage imagery, story introductions and onward discovery",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, let's do that",
+      "scope": "Implement recommended artwork-theme connections and thirty introductions; check onward discovery and journey links. Browser visual review and Search Console remain outstanding.",
+      "recorded_at": "2026-10-04T11:22:52.481972+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-154"
+      ],
+      "evidence": [
+        "records/connected-homepage-stories-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11131,6 +11174,27 @@
       "evidence": [
         "records/fresh-story-beginnings-2026-10-04.json",
         "records/story-beginnings-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-132",
+      "title": "Connected homepage story implementation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Browser visual review remains unavailable due to administrator-enforced security-policy verification failure. No visual inspection claimed.",
+        "Search Console sitemap processing remains a separate unresolved item under UTP-WORK-139; this batch does not claim a new Google processing check."
+      ],
+      "refs": [
+        "UTP-DEC-180",
+        "UTP-WORK-154"
+      ],
+      "evidence": [
+        "records/connected-homepage-stories-2026-10-04.json"
       ]
     }
   ],
