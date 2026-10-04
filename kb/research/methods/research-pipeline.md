@@ -313,3 +313,7 @@ The user explicitly prioritised Sadhaba technology and science. RES-068 records 
 ## Fisheries history · 4 October2026
 
 Continue RES-017 with full annual merchandise export values and attribution, then physical manufacturing scope, reusing saved company/rice data. Fisheries historical11-observation series saved; original images/later2024–25 table and rounding reconciliation retry11October. Do not repeat July2026 weekly capture.
+
+## Export evidence · 4 October 2026
+
+Continue RES-017 with physical manufacturing comparison using saved mine/company/rice series; keep gross output, GSVA, capacity and exports distinct. Export checkpoint now has five-year sectors, principal products, country shares and origin methodology. DEPM image/2021–22 total, later-vintage bridge and seafood-country denominator retry11October; district/product-country joins remain unknown.

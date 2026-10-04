@@ -22,3 +22,7 @@ resource: "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20
 [Open reference](https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf)
 
 [^maritime-exports-2026]: [Odisha Economic Survey 2025–26, section 1.7 and Figure 1.16](https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf)
+
+## Scoped extension · 4 October 2026
+
+Indexed printed p19 section1.7.5 supplies the full ten-country list. Printed p114 Figure4.9 contains an unresolved quantity/value instruction: seafood shares held. Full-PDF access not retried; prior unavailable status retained. Same source identity and publication lineage.

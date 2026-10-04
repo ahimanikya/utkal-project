@@ -102,3 +102,7 @@ RES-017 now has ten annual Dhamra/Gopalpur observations per port and five Paradi
 ## Fisheries history · 4 October2026
 
 RES-017 now includes five eleven-observation fisheries series ending provisional2023–24. Export/physical manufacturing work remains. See [fisheries](fisheries.md).
+
+## Export evidence · 4 October 2026
+
+[Export sector history](../trade/merchandise-exports.md) now adds matched annual nominal values and explicit attribution limits. Physical manufacturing remains RES-017 work.

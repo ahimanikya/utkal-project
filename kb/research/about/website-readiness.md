@@ -255,3 +255,7 @@ Refinery trial/testing and dated supply-project stages are source-checked for ed
 ## Fisheries history · 4 October2026
 
 Historical fisheries draft uses parsed official PDF text; original table images still pending. No public deployment or human review.
+
+## Export evidence · 4 October 2026
+
+Exports study is a research draft. Parliament pp1/3 visually checked; DEPM and survey fields remain indexed-only. Origin codes are declarations; no deployment or human review.

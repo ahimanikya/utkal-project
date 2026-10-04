@@ -522,3 +522,7 @@ Created a [Sadhaba maritime-science study](history/sadhaba-maritime-science.md),
 ## Fisheries history · 4 October2026
 
 Added55 historical fisheries cells, two held alternate totals and ten matched comparisons. Provisional2023–24 retained; annual marine declines visible. Source PDF text available, direct downloads timed out. RES-017 remains in progress; export series next. No website release.
+
+## Export evidence · 4 October 2026
+
+Added65 annual export observations,20 principal products plus two totals and seven missing country shares; three existing country IDs reused. DEPM total mismatch and seafood denominator held. [Export study](trade/export-business-questions.md). No website release or human review.
