@@ -1,0 +1,86 @@
+{
+  "title": "Stone, sea and makers visitor trail published",
+  "recorded_at": "2026-10-04T13:00:46.518968+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-183",
+    "quote": "approved",
+    "context": "Founder approved PR86 after implementation and passing-check summary."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/86",
+  "commit": "59306787ef0af4e68b13ac8e122127ae349db1a6",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37203607785",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37203904538",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey-starters/#stone-sea-makers",
+  "live_verification": {
+    "checked_at": "2026-10-04T12:59:42.955965+00:00",
+    "homepage_status": 200,
+    "trail_status": 200,
+    "starter_ideas": 8,
+    "chapters": 3,
+    "guide_returns": [
+      {
+        "route": "/destinations/bhubaneswar/",
+        "status": 200,
+        "trail_return": true
+      },
+      {
+        "route": "/visit/places/mukteswar/",
+        "status": 200,
+        "trail_return": true
+      },
+      {
+        "route": "/food/bhubaneswar/",
+        "status": 200,
+        "trail_return": true
+      },
+      {
+        "route": "/visit/stays/bhubaneswar/",
+        "status": 200,
+        "trail_return": true
+      },
+      {
+        "route": "/visit/places/raghurajpur/",
+        "status": 200,
+        "trail_return": true
+      },
+      {
+        "route": "/destinations/puri/",
+        "status": 200,
+        "trail_return": true
+      },
+      {
+        "route": "/food/puri-coast/",
+        "status": 200,
+        "trail_return": true
+      },
+      {
+        "route": "/visit/stays/puri-coast/",
+        "status": 200,
+        "trail_return": true
+      }
+    ],
+    "photograph_statuses": [
+      {
+        "path": "/images/regions/mukteswar-torana.jpg",
+        "status": 200
+      },
+      {
+        "path": "/images/regions/raghurajpur-artisan.jpg",
+        "status": 200
+      },
+      {
+        "path": "/images/regions/puri-beach.jpg",
+        "status": 200
+      }
+    ],
+    "sitemap_urls": 11,
+    "scope": "Live HTTPS content and asset delivery; not browser visual/interaction review or Search Console verification."
+  },
+  "limitations": [
+    "Browser visual and interactive review remains unavailable due to administrator-enforced security-policy verification failure.",
+    "Search Console processing remains separately unresolved under UTP-WORK-139.",
+    "Current local visitor arrangements remain unconfirmed; source-check limitations retained."
+  ]
+}

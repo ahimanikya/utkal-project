@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T12:49:39.483483+00:00",
+  "recorded_at": "2026-10-04T13:00:46.518968+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -4462,22 +4462,25 @@
       "id": "UTP-WORK-155",
       "title": "Stone, sea and makers visitor trail",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-182",
-      "next_action": "Review implementation PR; complete desktop/mobile browser review when security policy verification recovers. Search Console remains separate.",
+      "next_action": "Published and verified at utkalproject.org. Desktop/mobile visual review and Search Console remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-182",
-        "UTP-REV-133"
+        "UTP-REV-133",
+        "UTP-DEC-183",
+        "UTP-REL-061"
       ],
       "evidence": [
-        "records/stone-sea-visitor-trail-2026-10-04.json"
+        "records/stone-sea-visitor-trail-2026-10-04.json",
+        "records/visitor-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8122,6 +8125,26 @@
       "evidence": [
         "records/stone-sea-visitor-trail-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-183",
+      "title": "Publish Stone, sea and makers visitor trail",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approved",
+      "scope": "Merge and publish PR86, retaining browser visual-review, local visitor-arrangement and Search Console limitations.",
+      "recorded_at": "2026-10-04T13:00:46.518968+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-155",
+        "UTP-DEC-182"
+      ],
+      "evidence": [
+        "records/visitor-trail-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -11279,7 +11302,8 @@
         "UTP-WORK-155"
       ],
       "evidence": [
-        "records/stone-sea-visitor-trail-2026-10-04.json"
+        "records/stone-sea-visitor-trail-2026-10-04.json",
+        "records/visitor-trail-publication-2026-10-04.json"
       ]
     }
   ],
@@ -12296,6 +12320,22 @@
         "records/connected-stories-publication-2026-10-04.json"
       ],
       "note": "PR82 merged after checks passed. Pages build and deployment succeeded. Live twelve theme connections, thirty introductions, controller delivery and reciprocal literary links verified. Browser visual review remains unavailable."
+    },
+    {
+      "id": "UTP-REL-061",
+      "title": "Stone, sea and makers visitor trail published",
+      "status": "published",
+      "authorization": "UTP-DEC-183",
+      "destination": "https://utkalproject.org/journey-starters/#stone-sea-makers",
+      "refs": [
+        "UTP-DEC-183",
+        "UTP-WORK-155",
+        "UTP-REV-133"
+      ],
+      "evidence": [
+        "records/visitor-trail-publication-2026-10-04.json"
+      ],
+      "note": "PR86 merged after checks passed; Pages build and deployment succeeded. Live three chapters, eight starter ideas, eight guide returns and three photographs verified. Eleven-route sitemap preserved. Browser visual review and Search Console remain open."
     }
   ],
   "sources": [
