@@ -349,7 +349,7 @@ Original ASI epigraphy now read; four grants scoped with conflicting dates retai
 
 ## KISS records and account vintages · 2 October2026 UTC
 
-RES-047 deferred to9October. FY2023–24 original accounts and alumni certificate recovered, but parent founding certificate and separate audit opinion remain absent. Mixed-vintage/society notes and offsetting income-component differences need reconciliation. No modern absence or misconduct inferred.
+RES-047 deferred to9October. FY 2023–24 original accounts and alumni certificate recovered, but parent founding certificate and separate audit opinion remain absent. Mixed-vintage/society notes and offsetting income-component differences need reconciliation. No modern absence or misconduct inferred.
 
 ## Yogini heritage · 2 October 2026 UTC
 
@@ -430,3 +430,7 @@ RES-059 bounded synthesis completed with two modern cases. Product/country/origi
 ## Rice markets · 4 October 2026
 
 Rice market follow-ups: obtain a matched producer-to-retail lot and origin-linked overseas shipment records after 11 October 2026. Retail ceiling, seller catalogue, promotion event and port volume are separate evidence classes. Public sources inspected do not resolve farmer returns.
+
+## Textile segments · 4 October 2026
+
+Textile follow-up11 October 2026: origin-linked HS, destination, physical quantity, dated shipments and current maker availability. District revenue not maintained in parliamentary answer. No residual attributed to handicrafts.

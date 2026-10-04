@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 11,
-    "newer_records_outside_frozen_selection": 243
+    "newer_records_outside_frozen_selection": 245
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -241,6 +241,8 @@
     "source:sweets-pahala-study2023",
     "source:sweets-rasabali-maker2023",
     "source:sweets-sisir-market2026",
+    "source:textile-bargarh-products",
+    "source:textile-rs130-20241206",
     "source:world-dae-3202-2022",
     "source:world-japan-memorandum2012",
     "source:world-japan-suspension-lead2025",
@@ -275,8 +277,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "dc01c71f1ac087b57c59f66ff2b0f7ca880e7345bbdb52449fc97c479a06e541",
-    "kb/research/search-index.json": "d2d4d336d00ece4e6d2ce0db88b705a9cf229763d40b4b0910fedf7f41e28f7f",
+    "kb/research/references/data/source-catalog.json": "8ae98fe9b57adf9d973b3e76833f8af63c438f2ae443b6522a11eb15fc7f72d4",
+    "kb/research/search-index.json": "92eec8309aceff85b073e08f38efc9b84e55711d91c6bf0dbdae958a05f32018",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -14584,7 +14586,15 @@
         "published_on": null,
         "locator": "Resource notes, fields and retrieval state",
         "capture": "direct_html",
-        "capture_history": []
+        "capture_history": [
+          {
+            "run_id": "2026-10-04-textile-segments",
+            "checked_on": "2026-10-04",
+            "status": "rows_recovered_from_original_parliamentary_source",
+            "source_id": "textile-rs130-20241206",
+            "scope": "Same publication family; portal itself not repaired or independently corroborating."
+          }
+        ]
       },
       "connections": [
         {

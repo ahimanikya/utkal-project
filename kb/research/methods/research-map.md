@@ -318,7 +318,7 @@ Jagannath synthesis reuses existing place/ruler/Mahaprasad pages and native Ragh
 
 ## KISS records and account vintages · 2 October2026 UTC
 
-Two source identities enhance existing Samanta/story pages. Alumni society registration is a distinct entity from school/university founding. Original FY2023–24 and later comparative figures are preserved as separate vintages.
+Two source identities enhance existing Samanta/story pages. Alumni society registration is a distinct entity from school/university founding. Original FY 2023–24 and later comparative figures are preserved as separate vintages.
 
 ## Yogini heritage · 2 October 2026 UTC
 
@@ -421,3 +421,7 @@ Existing historical, port and material records reused. Three source identities a
 ## Rice markets · 4 October 2026
 
 RES-062 reuses the existing rice identities and Yadav2026 publication. Four newly mapped sources address absent market fields; the same publication is not independent corroboration. Kandhamal catalogue origin is not merged into Koraput GI identity.
+
+## Textile segments · 4 October 2026
+
+RES-030 reuses existing tradition and cooperative identities. Adds the original parliamentary source and Bargarh production account. OGD/PDF share publication lineage; saved directory reuse is not fresh verification.

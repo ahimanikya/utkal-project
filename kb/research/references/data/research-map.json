@@ -2378,7 +2378,9 @@
         "handloom-berhampur-tourism-conflict",
         "handloom-tribal-crafts-lead",
         "handloom-weaver-directory",
-        "handloom-gi-list-2026"
+        "handloom-gi-list-2026",
+        "textile-rs130-20241206",
+        "textile-bargarh-products"
       ]
     },
     {
@@ -7885,7 +7887,10 @@
         "arts"
       ],
       "source_ids": [
-        "textile-pib-20260324"
+        "textile-pib-20260324",
+        "textile-rs130-20241206",
+        "textile-bargarh-products",
+        "handloom-weaver-directory"
       ]
     },
     {
@@ -19135,6 +19140,34 @@
       "source_ids": [
         "rice-cgiar-trade2024"
       ]
+    },
+    {
+      "id": "sources/textile-rs130-20241206",
+      "title": "Support to textile hubs in Odisha — Rajya Sabha starred Q130",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/textile-rs130-20241206.md",
+      "project_path": "kb/research/sources/textile-rs130-20241206.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "textile-rs130-20241206"
+      ]
+    },
+    {
+      "id": "sources/textile-bargarh-products",
+      "title": "Bargarh district — industry and handicrafts product range",
+      "kind": "Source",
+      "layer": "source_research_record",
+      "source_path": "sources/textile-bargarh-products.md",
+      "project_path": "kb/research/sources/textile-bargarh-products.md",
+      "project_counterpart_present": false,
+      "copy_state": "new_source_record",
+      "subject_ids": [],
+      "source_ids": [
+        "textile-bargarh-products"
+      ]
     }
   ],
   "shared_publications": [
@@ -19672,11 +19705,14 @@
       "title": "Garments and export disaggregation",
       "source_records": [
         "handlooms/garments-and-markets.md",
-        "statistics/textile-and-apparel-exports.md"
+        "statistics/textile-and-apparel-exports.md",
+        "sources/textile-rs130-20241206.md",
+        "sources/textile-bargarh-products.md",
+        "references/data/textile-export-segments.json"
       ],
       "project_records": [],
       "remaining_scope": "Retrieve segment-wise parliamentary textile table; map at least eight garment/product forms to verified Odisha manufacture where supported, reconcile scope with broad exports and add dated destinations/volumes or precise gaps. Reuse RES-012 tradition depth.",
-      "status_unchanged": "pending",
+      "status_unchanged": "completed",
       "instruction": "Read these records first; research only fields not covered, stale, unavailable or conflicted. Existing page counts do not satisfy completion criteria."
     },
     {
@@ -20568,8 +20604,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1273,
-    "updated_at": "2026-10-04T07:35:13.123765+00:00",
+    "records_mapped": 1275,
+    "updated_at": "2026-10-04T08:34:31.103772+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [

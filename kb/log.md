@@ -471,3 +471,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Distinctive rice markets
 
 [Research receipt](records/rice-markets-2026-10-04.json): RES-062 market dossier delivered; product origin, listings, promotion and shipments remain separate. Matched farmer receipts and export origins remain unknown. Next RES-030. No website release.
+
+## 4 October 2026 · Textile segments and product forms
+
+[Research receipt](records/textile-segments-2026-10-04.json): RES-030 completed: sector composition, release reconciliation and eight production forms. Destination and quantity remain unknown. Next RES-032. No website release.
