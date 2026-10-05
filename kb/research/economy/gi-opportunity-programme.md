@@ -95,3 +95,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 - [Made in Odisha](../collections/made-in-odisha.md) — Reuse product and community research before creating a GI dossier.
 - [Rasagola and sweets](rasagola-and-sweets.md) — Separate origin recognition from measured food-enterprise outcomes.
 
+
+## Puri gamucha identity checkpoint · 5 October 2026
+
+[Textile study](../handlooms/puri-gamucha-gi-study.md) preserves both Gamosa journal editions and a reported Alangdia Machhi Gamucha lead under GI-C004. Puri’s specification, boundary and producer mandate remain unresolved.

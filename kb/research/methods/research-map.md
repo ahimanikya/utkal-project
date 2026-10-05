@@ -503,3 +503,7 @@ RES-070 reuses registered inventory and food/textile profiles. The [programme](.
 ## GI specification extension · 4 October 2026
 
 RES-070 enhances existing Puri candidate and comparator identities with two original advertised specifications. Live registry status and journal text answer different questions; neither is independent corroboration of the applicant’s scientific claims.
+
+## Textile identity extension · 5 October 2026
+
+RES-070 reuses GI-C004 and application594. Both original journal editions retained; Alangdia is a local identity lead rather than a new candidate. No claim of exhaustive semantic deduplication.

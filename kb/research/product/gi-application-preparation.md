@@ -60,3 +60,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Puri Khaja comparison annexure
 
 [Original GI specification comparison](../economy/khaja-gi-comparison.md) now supplies the Silao and Goa side of the comparison. Puri’s technical specification remains unknown. Preserve the Silao ingredient conflict and exclude unverified food-safety, health and market claims from any proposed recipe or financial plan. This annexure does not complete the Puri dossier.
+
+## Puri gamucha comparison annexure
+
+[Identity and Assam specification study](../handlooms/puri-gamucha-gi-study.md) adds a documentary comparator and local lead. This does not establish an applicant, geographic boundary, inspection mandate or filing readiness. Obtain original cooperative and textile records before describing the lead as a confirmed tradition eligible for filing.

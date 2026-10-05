@@ -559,3 +559,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 4 October 2026 · Khaja GI specifications
 
 [Research receipt](records/gi-specifications-2026-10-04.json):Two original comparator specifications saved; internal recipe conflict and unsupported technical/economic claims held. Puri specification and producer representation remain unresolved. No website release.
+
+## 5 October 2026 · Puri gamucha identity
+
+[Research receipt](records/gi-textiles-2026-10-05.json):Assam journal editions preserved; Alangdia Machhi Gamucha is an attributed lead. Puri specification and producer representation remain unresolved. No website release.

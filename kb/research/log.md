@@ -550,3 +550,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Khaja GI specifications · 4 October 2026
 
 [Original specification comparison](economy/khaja-gi-comparison.md) distinguishes layered wheat Silao Khaja from chickpea Goan Khaje. Ingredient conflict and technical/economic claims held. Puri specification and producer mandate remain open; RES-070 continues. No filing or website publication.
+
+## Puri gamucha evidence · 5 October 2026
+
+[Textile study](handlooms/puri-gamucha-gi-study.md) compares 2019/2022 Gamosa specifications, retains an internal dimension conflict and adds an attributed Alangdia lead. GI-C004 enhanced; no duplicate candidate, filing or website publication.

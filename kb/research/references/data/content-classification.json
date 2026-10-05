@@ -4940,6 +4940,17 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "handlooms/puri-gamucha-gi-study",
+      "primary_subject": "arts",
+      "secondary_subjects": [
+        "economy",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7494,6 +7505,13 @@
     },
     {
       "from": "economy/khaja-gi-comparison",
+      "to": "economy/gi-opportunity-programme",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "This study supports the Odisha GI opportunity programme."
+    },
+    {
+      "from": "handlooms/puri-gamucha-gi-study",
       "to": "economy/gi-opportunity-programme",
       "type": "related_reading",
       "basis": "editorial_context",
