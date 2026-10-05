@@ -91,4 +91,9 @@ gc=next(c for c in x['candidates'] if c['id']=='GI-C006')
 kc=next(c for c in x['candidates'] if c['id']=='GI-C007')
 ck(gc['goods_identity']['names_equivalent'] is None and kc['goods_identity']['names_equivalent'] is None,'Related sweet names merged without evidence')
 ck(not kc['goods_identity']['ingredient_scope_reconciled'] and holds['GI-HOLD-KANTI-IDENTITY']['same_recipe'] is None,'Source-specific Kanti ingredients merged into recipe')
+for cid in ['GI-C011','GI-C012']:
+ ps=next(c for c in cs if c['id']==cid)['place_scope']
+ ck(not ps['exclusive_puri_origin_verified'] and ps['distinct_puri_specification'] is None and ps['temple_recipe_matched'] is None,'Association promoted to exclusive origin or agreed temple recipe '+cid)
+ ck(not ps['tested_recipe'] and not ps['consumer_shelf_life_validated'] and ps['current_market_data'] is None,'Recipe compilation promoted to process validation or market data '+cid)
+ck(holds['GI-HOLD-PITHA-PLACE-SCOPE']['accepted_specification'] is None,'Unresolved local product scope silently accepted')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

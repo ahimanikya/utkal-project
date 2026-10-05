@@ -315,3 +315,7 @@ Palm-leaf annexure checkpoint is ready for editorial review with applicant discr
 ## Gaja/Kanti evidence · 5 October 2026
 
 Gaja/Kanti dossier is a research draft. Clearly labels indexed-only passages, recovered chapter pages, unresolved variants and absent producer consensus. No tested recipe, exclusive origin or website publication claimed.
+
+## Poda/arisa scope · 5 October 2026
+
+Poda/arisa comparison is a research draft with dated source scopes and no filing-readiness claim. Preparation descriptions are untested and no consumer shelf-life or economic forecast is adopted.

@@ -539,3 +539,7 @@ Reused the exact saved Part1 PDF and existing source identity. Extended GI-C010 
 ## Gaja/Kanti evidence · 5 October 2026
 
 GI-C006/007 extended without new candidate identities. food-heritage reused for the institute-hosted copy; another download route is not another independent publication.
+
+## Poda/arisa scope · 5 October 2026
+
+GI-C011/012 extended with existing CRRI and IHM records before new browsing. Added official ritual/festival source identities; duplicate publication routes remain one lineage.

@@ -88,3 +88,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Gaja/Kanti evidence · 5 October 2026
 
 [Gaja and Kanti](../food/gaja-kanti-evidence.md) — how source-specific food names and ingredients shape careful recipe and heritage research.
+
+## Poda/arisa scope · 5 October 2026
+
+[Poda pitha and arisa](../food/poda-arisa-place-evidence.md) — ritual association, named variants and the evidence still needed for a local product dossier.

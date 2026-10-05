@@ -135,3 +135,7 @@ The [palm-leaf annexures](../culture/palm-leaf-gi-applications.md) contain histo
 ## Gaja/Kanti evidence · 5 October 2026
 
 [Gaja/Kanti evidence](../food/gaja-kanti-evidence.md) extends GI-C006/007. Recovered the existing hospitality chapter through IHM; retained name/ingredient differences and unavailable original magazine PDFs. No new candidate or filing-ready product inferred.
+
+## Poda/arisa scope · 5 October 2026
+
+[Poda/arisa comparison](../food/poda-arisa-place-evidence.md) extends GI-C011/012. Saved recipe variants and new official festival evidence leave local goods scope unresolved. Next: comparative readiness and evidence-priority matrix across the twelve-lead pilot.
