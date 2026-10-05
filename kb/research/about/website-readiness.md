@@ -299,3 +299,7 @@ Original application documents support an attributed research dossier. No GI awa
 ## Curd science checkpoint · 5 October 2026
 
 Attributed science draft ready for editorial review; no recipe validation, cold-chain exemption, clinical benefit, commercial starter approval or website publication claimed.
+
+## Palm-leaf GI checkpoint · 5 October 2026
+
+Comparison ready for editorial review with historical boundaries and partial-reply limits explicit. No GI award, active producer census, accepted inspection system or website release claimed.

@@ -583,3 +583,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Chilika curd science evidence
 
 [Research receipt](records/gi-curd-science-2026-10-05.json):Original2013 and2024 studies reviewed; laboratory findings distinguished from consumer advice and field replication. No GI filing or safety certification. No website release.
+
+## 5 October 2026 · Palm-leaf GI application comparison
+
+[Research receipt](records/gi-palm-2026-10-05.json):Original797/805 submissions and2026 notices compared;2025 reply remains partially reviewed. No GI filing or accepted boundary claimed. No website release.

@@ -70,4 +70,11 @@ ck(not cs13.get('consumer_shelf_life_validated',True) and not cs13.get('clinical
 ck(cs13.get('antifungal_stronger',0)+cs13.get('antifungal_weaker',0)+cs13.get('positive_not_reported',0)==cs13.get('lactobacillus_tested',-1),'Antifungal screening denominator inconsistent')
 ck(not ss.get('CURD-STUDY-2024',{}).get('independent_field_replication',True),'Culture follow-up promoted to independent field replication')
 ck(holds.get('GI-HOLD-CURD-STRAINS',{}).get('status')=='conflicted','Culture identity conflict lost')
+pc=next(c for c in cs if c['id']=='GI-C010')['dossier_review']
+ck({v['application_number'] for v in pc['applications']}=={797,805},'Palm application identities lost')
+ck(set(pc['shared_submitted_districts_2021'])=={'Puri','Khordha'},'Historical overlap drift')
+ck(not pc['boundary_accepted'] and not pc['identity_determination_verified'] and not pc['gi_registration_established'],'Applicant scope promoted to accepted GI')
+ck(pc['deadline'] is None and not pc['abandonment_verified'],'Communication-based deadline invented')
+ck(pc['reply_review']['reviewed_pdf_pages']==[1,2,3,4,5,6] and not pc['reply_review']['complete_amended_file_review'],'Partial reply promoted to complete review')
+ck(not pc['reply_review']['class16_request_vs_class27_response_reconciled'],'Unresolved class scope silently settled')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

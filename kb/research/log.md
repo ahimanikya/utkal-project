@@ -574,3 +574,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Chilika curd science · 5 October 2026
 
 [Original studies reviewed](food/chilika-curd-science.md):2013 sampling/pH confirmed;2024 culture follow-up distinguished from field replication. Existing pH hold preserved and strain discrepancy added. No safety certification, new filing or website release.
+
+## Palm-leaf GI scopes · 5 October 2026
+
+[Two existing applications compared](culture/palm-leaf-gi-applications.md). Historical boundaries overlap;2025 reply records identity/class questions;2026 reports request corrections. Revised-file review remains unfinished. No filing or website release.

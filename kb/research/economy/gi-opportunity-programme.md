@@ -119,3 +119,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Curd science checkpoint · 5 October 2026
 
 [Original science review](../food/chilika-curd-science.md) strengthens GI-C009 evidence provenance while keeping product safety, geographic uniqueness and pH specification open. Next: compare palm-leaf applications797/805 for GI-C010.
+
+## Palm-leaf checkpoint · 5 October 2026
+
+[Existing application comparison](../culture/palm-leaf-gi-applications.md) strengthens GI-C010:2021 scope overlap,2025 identity/class questions and2026 examination requirements. Support needs producer authority and a complete revised-file review; no duplicate proposal.

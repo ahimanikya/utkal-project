@@ -84,3 +84,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Science annexure
 
 [Curd study review](../food/chilika-curd-science.md) separates sampled results, proposed GI parameters and laboratory follow-up. Producer-approved specifications need compatible sample geography and methods; shelf-life advice cannot be copied from a14-day observation period.
+
+## Existing-file comparison
+
+[Palm-leaf applications](../culture/palm-leaf-gi-applications.md) demonstrate why titles, summary classes and historical maps cannot be treated as accepted final scope. Compare amendments and producer representation before drafting support.

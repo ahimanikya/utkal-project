@@ -353,3 +353,7 @@ Existing application reviewed; statutory notice and breed certificate distinguis
 ## RES-070 science checkpoint · 5 October 2026
 
 Original2013 and2024 studies saved with source limits and holds. Next bounded task: existing palm-leaf applications797/805, preserving GI-C010 identity and avoiding a duplicate.
+
+## RES-070 palm-leaf checkpoint · 5 October 2026
+
+Attempt9 compares historical scope and current examination; revised-file review remains open. Resume805 Part1 PDF7 before characterising its amended scope. Keep task in progress.

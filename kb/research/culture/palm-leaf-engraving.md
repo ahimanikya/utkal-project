@@ -34,3 +34,7 @@ The museum’s existing Ganita catalogue is reused. It does not establish the ag
 ## What an enterprise study still needs
 
 Maker-approved object credits, material sourcing, time per commission, priced orders, shipping evidence and current teaching arrangements would support a business story. No revenue, export volume, number of active makers or bookable service is established here. [Structured craft register](../references/data/material-arts.json).
+
+## GI research · 5 October 2026
+
+[Applications797 and805](palm-leaf-gi-applications.md) remain under examination. Submitted boundaries overlap in Puri and Khordha; the2025 reply records identity and goods-class questions. This is not evidence of a granted GI or a new filing opportunity.

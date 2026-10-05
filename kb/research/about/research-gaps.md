@@ -536,3 +536,7 @@ Original2013 science, sampling/specification reconciliation, accepted boundary, 
 ## Curd science gaps · 5 October 2026
 
 Original2013 study recovered. Accepted pH specification, product-level safety and2024 C-8/C-10 identity remain open; clarification retry12October. The cited2020 study is an unreviewed lead. Independent palm-leaf application comparison next.
+
+## Palm-leaf GI gaps · 5 October 2026
+
+805 reply Part1 recovered completely, first6of90pages reviewed. Resume at PDF7; later parts await review. Accepted boundary, identity ruling, final goods classes and current producer mandate remain unknown. Registry status recheck12October2026; independent substantive review can continue now.
