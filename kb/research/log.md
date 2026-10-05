@@ -554,3 +554,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Puri gamucha evidence · 5 October 2026
 
 [Textile study](handlooms/puri-gamucha-gi-study.md) compares 2019/2022 Gamosa specifications, retains an internal dimension conflict and adds an attributed Alangdia lead. GI-C004 enhanced; no duplicate candidate, filing or website publication.
+
+## Temple-food GI research · 5 October 2026
+
+[Comparison](food/temple-food-gi-governance.md) recovers Journal28 and preserves later TTD statements separately. Puri authority records unavailable; technical and registry gaps retained. No filing, human review or website release.

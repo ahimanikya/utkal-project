@@ -563,3 +563,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Puri gamucha identity
 
 [Research receipt](records/gi-textiles-2026-10-05.json):Assam journal editions preserved; Alangdia Machhi Gamucha is an attributed lead. Puri specification and producer representation remain unresolved. No website release.
+
+## 5 October 2026 · Temple-food GI comparison
+
+[Research receipt](records/gi-temple-2026-10-05.json):Original Laddu specification compared with dated institutional controls. Puri goods scope and producer mandate remain unresolved; governance originals unavailable. No website release.

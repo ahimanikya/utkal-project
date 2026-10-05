@@ -333,3 +333,7 @@ Continue RES-017 with a bounded search for named sugar or other food-factory phy
 ## RES-070 checkpoint · 5 October 2026
 
 Textile comparator editions and local lead saved. Candidate remains in progress; local producer/specification gaps retry12October. Next independent task: original Tirupathi Laddu specification and temple governance comparison.
+
+## RES-070 temple-food checkpoint · 5 October 2026
+
+Original Laddu comparison saved; Puri authority/specification gaps remain, retry12October. Next independent batch: Nimapada chhena jhili chronology, without collapsing the unresolved rasabali name.

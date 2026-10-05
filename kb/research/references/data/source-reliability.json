@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T00:37:22.636626+00:00",
+  "updated_at": "2026-10-05T01:38:42.713749+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -8606,6 +8606,141 @@
         "retry_after": "2026-10-12"
       },
       "note": "Primary GI specification and departmental geography kept separate from attributed local reporting; no new current economic observations."
+    },
+    {
+      "run_id": "2026-10-05-gi-temple",
+      "at": "2026-10-05T01:38:42.713749+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-tirupathi-journal2008",
+          "status": "available",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/121",
+          "publication_date": "2008-11-17",
+          "public_availability_date": "2008-11-24",
+          "retrieved_at": "2026-10-05T01:38:42.713749+00:00",
+          "document_path": "121/121 - GI - Journal Copy - 17-11-2008.pdf",
+          "pdf_pages_total": 118,
+          "source_pages": [
+            3,
+            38,
+            40,
+            42,
+            50,
+            52,
+            64,
+            66
+          ],
+          "sha256": "1ef77f814003694167b8c07dce67f4c885d31ba29fdd7c4b078666441490e875",
+          "scope": "Historical advertised applicant specification; selected English sections and notice, not all journal contents. Pages42,52,66 visually checked."
+        },
+        {
+          "source_id": "gi-opportunity-registry2026",
+          "status": "available",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/121",
+          "retrieved_at": "2026-10-05T01:38:42.713749+00:00",
+          "scope": "Application121 live status, dates and document list; authorized-user row status blank, no approval inferred."
+        },
+        {
+          "source_id": "gi-ttd-controls2015",
+          "status": "available",
+          "publication_date": "2015-08-27",
+          "retrieved_at": "2026-10-05T01:38:42.713749+00:00",
+          "url": "https://news.tirumala.org/prepare-more-qualitative-and-hygienic-laddus-with-transparent-mechanism-ttd-eo/",
+          "source_location": "dated English release body",
+          "scope": "Directions for sampling and RFID/barcode reader; instruction is not proof of implementation."
+        },
+        {
+          "source_id": "gi-ttd-weight2022",
+          "status": "available",
+          "publication_date": "2022-11-10",
+          "retrieved_at": "2026-10-05T01:38:42.713749+00:00",
+          "url": "https://news.tirumala.org/avoid-doubts-on-weight-and-quality-of-srivar-laddus-ttd/",
+          "source_location": "dated English release body",
+          "scope": "Institutional explanation of weighing dispute; statement not independent measurement."
+        },
+        {
+          "source_id": "gi-jagannath-governance-lead",
+          "status": "indexed_only_full_document_unavailable",
+          "publication_date": null,
+          "retrieved_at": "2026-10-05T01:38:42.713749+00:00",
+          "url": "https://law.odisha.gov.in/sites/default/files/2020-12/act_1091881239_1444889141.pdf",
+          "alternate_url": "https://upload.indiacode.nic.in/showfile?actid=AC_OR_80_203_00145_00145_1547192290643&filename=shri_jagannath_temple_act%2C_1955.pdf&type=actfile",
+          "source_location": "Law Department 1955 catalogue row11; India Code indexed printed p.13",
+          "scope": "Document-discovery lead only. Full text, consolidation date, applicable amendments and service-specific record-of-rights not verified."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://upload.indiacode.nic.in/showfile?actid=AC_OR_80_203_00145_00145_1547192290643&filename=shri_jagannath_temple_act%2C_1955.pdf&type=actfile",
+          "status": "unavailable",
+          "method": "web open and curl",
+          "transport_exit": 28,
+          "http_status": "000",
+          "reason": "Web timeout; direct connection timeout after35 seconds, zero bytes.",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://law.odisha.gov.in/sites/default/files/2020-12/act_1091881239_1444889141.pdf",
+          "status": "unavailable",
+          "method": "web open and curl",
+          "transport_exit": 28,
+          "http_status": "000",
+          "reason": "Web timeout; direct connection timeout after35 seconds, zero bytes.",
+          "retry_after": "2026-10-12"
+        }
+      ],
+      "held_fields": [
+        {
+          "id": "GI-HOLD-LADDU-WEIGHT",
+          "source_ids": [
+            "gi-tirupathi-journal2008",
+            "gi-ttd-weight2022"
+          ],
+          "field": "small laddu weight and later statement",
+          "status": "unreconciled_vintages",
+          "readings": [
+            {
+              "source_id": "gi-tirupathi-journal2008",
+              "page": 42,
+              "min": 170,
+              "max": 180,
+              "unit": "g",
+              "period": "2008 specification"
+            },
+            {
+              "source_id": "gi-ttd-weight2022",
+              "min": 160,
+              "max": 180,
+              "unit": "g",
+              "period": "2022-11-10 statement"
+            }
+          ],
+          "resolution": null,
+          "next_action": "Find formal amendment and reconcile product types; do not silently replace the old specification.",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "id": "GI-HOLD-LADDU-TEMPERATURE",
+          "source_id": "gi-tirupathi-journal2008",
+          "field": "boiling-hot ghee wording with80C",
+          "page": 52,
+          "status": "quarantined",
+          "resolution": null,
+          "next_action": "Seek official technical clarification; do not reproduce as recipe advice or invent a correction.",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "id": "GI-HOLD-LADDU-AU",
+          "source_id": "gi-opportunity-registry2026",
+          "field": "application121 authorized-user row",
+          "status": "unverified_authorization",
+          "observed_name": "TRIFED (Ministry of Tribal Affairs, Govt. of India), Regional Office, Hyderabad",
+          "observed_status": null,
+          "next_action": "Recover authorized-user application or order before attributing scope or approval.",
+          "retry_after": "2026-10-12"
+        }
+      ],
+      "note": "No current production, revenue, safety or producer mandate inferred. Historical journal and later institutional accounts remain separate."
     }
   ]
 }

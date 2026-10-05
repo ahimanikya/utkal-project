@@ -507,3 +507,7 @@ RES-070 enhances existing Puri candidate and comparator identities with two orig
 ## Textile identity extension · 5 October 2026
 
 RES-070 reuses GI-C004 and application594. Both original journal editions retained; Alangdia is a local identity lead rather than a new candidate. No claim of exhaustive semantic deduplication.
+
+## Temple-food evidence extension · 5 October 2026
+
+RES-070 enhances existing candidates005–007 and comparator121. Advertised specification, later institutional accounts and unavailable governance originals remain distinct; no duplicate identities added.

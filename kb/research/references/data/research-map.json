@@ -21053,6 +21053,111 @@
         "gi-puri-clusters",
         "gi-alangdia-report2026"
       ]
+    },
+    {
+      "id": "food/temple-food-gi-governance",
+      "title": "Temple-food GI evidence: Tirupathi Laddu and questions for Puri",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/temple-food-gi-governance.md",
+      "project_path": "kb/research/food/temple-food-gi-governance.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
+      ]
+    },
+    {
+      "id": "sources/gi-tirupathi-journal2008",
+      "title": "Tirupathi Laddu: original GI Journal 28 specification",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-tirupathi-journal2008.md",
+      "project_path": "kb/research/sources/gi-tirupathi-journal2008.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
+      ]
+    },
+    {
+      "id": "sources/gi-ttd-controls2015",
+      "title": "TTD directions on Laddu sampling and traceability, 27 August 2015",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-ttd-controls2015.md",
+      "project_path": "kb/research/sources/gi-ttd-controls2015.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
+      ]
+    },
+    {
+      "id": "sources/gi-ttd-weight2022",
+      "title": "TTD statement on Laddu weighing, 10 November 2022",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-ttd-weight2022.md",
+      "project_path": "kb/research/sources/gi-ttd-weight2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
+      ]
+    },
+    {
+      "id": "sources/gi-jagannath-governance-lead",
+      "title": "Shri Jagannath Temple Act 1955: official catalogue and indexed governance lead",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-jagannath-governance-lead.md",
+      "project_path": "kb/research/sources/gi-jagannath-governance-lead.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
+      ]
     }
   ],
   "shared_publications": [
@@ -22661,7 +22766,12 @@
         "sources/gi-gamosa-journal2019.md",
         "sources/gi-gamosa-journal2022.md",
         "sources/gi-puri-clusters.md",
-        "sources/gi-alangdia-report2026.md"
+        "sources/gi-alangdia-report2026.md",
+        "food/temple-food-gi-governance.md",
+        "sources/gi-tirupathi-journal2008.md",
+        "sources/gi-ttd-controls2015.md",
+        "sources/gi-ttd-weight2022.md",
+        "sources/gi-jagannath-governance-lead.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -22686,8 +22796,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1379,
-    "updated_at": "2026-10-05T00:37:22.636626+00:00",
+    "records_mapped": 1384,
+    "updated_at": "2026-10-05T01:38:42.713749+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -23410,6 +23520,11 @@
       "at": "2026-10-05T00:37:22.636626+00:00",
       "run_id": "2026-10-05-gi-textiles",
       "scope": "Enhance GI-C004 and application594 with edition history and attributed local identity lead; no duplicate candidate."
+    },
+    {
+      "at": "2026-10-05T01:38:42.713749+00:00",
+      "run_id": "2026-10-05-gi-temple",
+      "scope": "Reuse temple-food candidates005–007 and comparator121; add original specification and dated control accounts."
     }
   ]
 }

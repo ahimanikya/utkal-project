@@ -36,4 +36,11 @@ for v in tx.get('editions',[]):ck((ROOT/('sources/'+v['source_id']+'.md')).is_fi
 lead=next(c for c in cs if c['id']=='GI-C004')['identity_leads'][0]
 ck(not lead['confirmed_match_to_user_candidate'] and lead['technical_specification'] is None,'Reported local lead promoted')
 ck(holds.get('GI-HOLD-GAMOSA-ANAKATA',{}).get('status')=='conflicted','Textile dimension conflict lost')
-print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+1,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))
+tf=x.get('temple_food_comparison',{})
+ck(tf.get('application_number')==121 and tf.get('public_availability_date')=='2008-11-24','Temple comparator identity/date lost')
+ck(not tf.get('puri_eligibility_established',True) and not tf.get('recipe_ready',True),'Temple comparator promoted to eligibility or recipe')
+ck((ROOT/('sources/'+tf.get('source_id','')+'.md')).is_file(),'Missing temple specification source')
+ck(holds.get('GI-HOLD-LADDU-WEIGHT',{}).get('status')=='unreconciled_vintages','Weight vintages silently reconciled')
+ck(holds.get('GI-HOLD-LADDU-TEMPERATURE',{}).get('status')=='quarantined','Temperature hold lost')
+ck(holds.get('GI-HOLD-LADDU-AU',{}).get('observed_status','missing') is None,'Blank authorized-user status promoted')
+print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))
