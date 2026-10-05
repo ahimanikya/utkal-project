@@ -46,3 +46,5 @@ Foods, ingredients and culinary story opportunities.
 [Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
 
 [Temple-food GI comparison](temple-food-gi-governance.md) — original Laddu specification and Puri evidence gaps.
+
+[Nimapada chhena jhili chronology](nimapada-jhili-evidence.md) — official name use, reported maker credit and the missing invention date.

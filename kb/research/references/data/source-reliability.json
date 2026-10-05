@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T01:38:42.713749+00:00",
+  "updated_at": "2026-10-05T02:39:56.094724+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -8741,6 +8741,85 @@
         }
       ],
       "note": "No current production, revenue, safety or producer mandate inferred. Historical journal and later institutional accounts remain separate."
+    },
+    {
+      "run_id": "2026-10-05-gi-nimapada",
+      "at": "2026-10-05T02:39:56.094724+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-puri-msme-undated",
+          "status": "available",
+          "url": "https://dcmsme.gov.in/dips/BIPS%20Puri-12.pdf",
+          "retrieved_at": "2026-10-05T02:39:56.094724+00:00",
+          "publication_date": null,
+          "edition": null,
+          "source_pages": [
+            1,
+            14
+          ],
+          "source_location": "Cover and cluster-development prospect paragraph",
+          "sha256": "7e28f0faa27b39758f62b5575692d4eee8baf4158a79f414978334adfe7b6a8f",
+          "scope": "Place-linked name use and historical prospect; no operating-cluster or invention-date finding"
+        },
+        {
+          "source_id": "gi-puri-msme2016",
+          "status": "available",
+          "url": "https://dcmsme.gov.in/dips/2016-17/BIPS%20Puri-2016-17.pdf",
+          "retrieved_at": "2026-10-05T02:39:56.094724+00:00",
+          "publication_date": null,
+          "edition": "2016–17",
+          "source_pages": [
+            1,
+            15
+          ],
+          "source_location": "Cover and cluster-development prospect paragraph",
+          "sha256": "1d8621ff4e79ec7638f92ce0e9836e56467fc6b5804a73c3d122a82bd89b3d41",
+          "scope": "Place-linked name use and historical prospect; no operating-cluster or invention-date finding"
+        },
+        {
+          "source_id": "gi-nimapada-sahu2015",
+          "status": "available",
+          "url": "https://dianasahu.wordpress.com/2015/07/04/scripting-a-seaside-story/",
+          "retrieved_at": "2026-10-05T02:39:56.094724+00:00",
+          "publication_date": "2015-07-04",
+          "edition": "2015 post; updated 2016",
+          "source_pages": [],
+          "source_location": "Nimapara breakfast passage, image caption and publication/update metadata",
+          "sha256": "b91864f299d808ebe8ac99893859f69032a3dae67ab8331387b66ec7c74b9bbf",
+          "scope": "Author-owned travel account; maker credit explicitly presented as belief; current text updated 29 January 2016, original wording not archived."
+        },
+        {
+          "source_id": "regional-cuisine",
+          "status": "reused_saved_original",
+          "retrieved_at": "2026-10-05T02:39:56.094724+00:00",
+          "url": "https://uou.ac.in/sites/default/files/slm/BHM-602AT.pdf",
+          "source_pages": [
+            119,
+            179,
+            180
+          ],
+          "publication_date": null,
+          "scope": "Same saved 344-page teaching reference; PDF creation metadata is not publication date or independent corroboration."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://rtiodisha.gov.in/Pages/printManual/section_id%3A2/office_id%3A318/lang%3A",
+          "status": "unavailable",
+          "method": "web open and curl",
+          "transport_exit": 28,
+          "reason": "Web cache miss; original timed out after 45 seconds without content. Indexed association not promoted into the chronology.",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://dianasahu.wordpress.com/2015/07/04/scripting-a-seaside-story/",
+          "status": "unavailable",
+          "method": "web open",
+          "reason": "Cache miss; direct original HTML retrieval succeeded and supplies the evidence.",
+          "recovered_by": "direct original HTML retrieval"
+        }
+      ],
+      "note": "No invented origin year or live cluster. Departmental editions count as one source family; travel account and university attribution may share a narrative."
     }
   ]
 }

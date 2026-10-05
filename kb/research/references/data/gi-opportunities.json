@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T01:38:42.713749+00:00",
+  "updated_at": "2026-10-05T02:39:56.094724+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -9,13 +9,17 @@
       "research_stage": "priority_desk_dossier",
       "registry_screen": "No matching name found in bounded index search",
       "reuse_paths": [
-        "food/chhena-jhili.md"
+        "food/chhena-jhili.md",
+        "food/nimapada-jhili-evidence.md"
       ],
-      "basis": "Institutional cuisine reference links Nimapada and credits Aartabandhu Sahoo; no independently verified invention date.",
-      "next_action": "Confirm whether this is the user’s intended Nimapada sweet; recover older name-use evidence, maker records and agreed process.",
+      "basis": "Official 2016–17 Puri profile records Nimapara Jhili as a development prospect; undated earlier profile retained; university and travel-account maker attributions do not establish invention date.",
+      "next_action": "Recover archival name-use and maker/business records; resolve Aarta/Aartabandhu spelling through evidence, then obtain producer-reviewed process and mandate. Keep GI-C002 unresolved.",
       "source_ids": [
         "food-tourism",
-        "regional-cuisine"
+        "regional-cuisine",
+        "gi-puri-msme-undated",
+        "gi-puri-msme2016",
+        "gi-nimapada-sahu2015"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -26,7 +30,60 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "name_use_chronology": [
+        {
+          "source_id": "gi-puri-msme-undated",
+          "publication_date": null,
+          "edition": null,
+          "file_created": "2012-10-09",
+          "file_modified": "2013-07-04",
+          "date_basis": "file_metadata_only",
+          "page": 14,
+          "family": "MSME Puri district profiles",
+          "evidence_class": "institutional_development_prospect",
+          "origin_date": null
+        },
+        {
+          "source_id": "gi-nimapada-sahu2015",
+          "publication_date": "2015-07-04",
+          "updated_date": "2016-01-29",
+          "original_version_recovered": false,
+          "date_basis": "current_post_metadata",
+          "family": "Diana Sahu author post",
+          "evidence_class": "first_person_account_with_reported_belief",
+          "maker_name_as_printed": "Aarta Sahoo",
+          "origin_date": null
+        },
+        {
+          "source_id": "gi-puri-msme2016",
+          "publication_date": null,
+          "edition": "2016–17",
+          "date_basis": "printed_cover_edition",
+          "page": 15,
+          "family": "MSME Puri district profiles",
+          "evidence_class": "institutional_development_prospect",
+          "origin_date": null
+        },
+        {
+          "source_id": "regional-cuisine",
+          "publication_date": null,
+          "file_created": "2020-04-18",
+          "date_basis": "file_metadata_only",
+          "page": 179,
+          "family": "UOU BHM-602AT",
+          "evidence_class": "teaching_reference_attribution",
+          "maker_name_as_printed": "Aartabandhu Sahoo",
+          "origin_date": null
+        }
+      ],
+      "attribution_limits": {
+        "name_equivalence_independently_verified": false,
+        "independent_source_lineage_established": false,
+        "business_history_verified": false,
+        "invented_year": null,
+        "operating_cluster_verified": false
+      }
     },
     {
       "id": "GI-C002",
@@ -623,7 +680,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Build dated Nimapada chhena jhili name-use and maker-attribution chronology; preserve separate unresolved Nimapada rasabali identity.",
+    "Build GI-C008 Korakhai name-use and goods-scope dossier from saved historical table and Lingaraj/Old Town records; distinguish Bhubaneswar from Puri and preserve producer/specification gaps.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."

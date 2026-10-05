@@ -55,3 +55,7 @@ Its detailed preparation on pp.179–180 and the shorter p.119 version already s
 [Related economic research](../economy/rasagola-and-sweets.md) — Maker attribution adds credit while dated enterprise accounts remain an open economic question.
 
 [GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.
+
+## Documentary chronology · 5 October 2026
+
+[Name-use and maker-attribution study](nimapada-jhili-evidence.md) adds the official 2016–17 Nimapara Jhili development prospect and a dated travel account. These establish documentary context, not an invention year, operating cluster or producer-authorized GI dossier. Earlier file metadata remains distinct from publication dates.

@@ -337,3 +337,7 @@ Textile comparator editions and local lead saved. Candidate remains in progress;
 ## RES-070 temple-food checkpoint · 5 October 2026
 
 Original Laddu comparison saved; Puri authority/specification gaps remain, retry12October. Next independent batch: Nimapada chhena jhili chronology, without collapsing the unresolved rasabali name.
+
+## RES-070 Nimapada checkpoint · 5 October 2026
+
+Dated name-use chronology saved; origin and producer evidence still missing. Municipal source retry 12 October. Next independent desk batch: GI-C008 Korakhai in Bhubaneswar Old Town.
