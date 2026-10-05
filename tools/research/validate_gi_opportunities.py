@@ -50,4 +50,11 @@ ck(len({v['family'] for v in chron if v['source_id'].startswith('gi-puri-msme')}
 ck(next((v for v in chron if v['source_id']=='gi-puri-msme2016'),{}).get('edition')=='2016–17','Cover edition lost')
 ck(not nc.get('attribution_limits',{}).get('operating_cluster_verified',True),'Prospect promoted to operating cluster')
 ck(all(v['publication_date'] is None for v in chron if v['date_basis']=='file_metadata_only'),'File metadata promoted to publication date')
+kc=next(c for c in cs if c['id']=='GI-C008')
+kg=kc.get('goods_scope',{})
+ck(kg.get('geography')=='Bhubaneswar Old Town, Khordha district' and not kg.get('puri_origin_established',True),'Korakhai geography conflated')
+ck(not kg.get('tested_recipe',True) and kg.get('measured_process','missing') is None,'Reported preparation promoted to measured recipe')
+kr={v['source_id']:v for v in kc.get('documentary_records',[])}
+ck(not kr.get('gi-korakhai-college2025',{}).get('official_odop_designation_established',True),'College theme promoted to official ODOP')
+ck(not kr.get('gi-korakhai-bda2022',{}).get('operation_verified',True),'Proposed trail promoted to operation')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

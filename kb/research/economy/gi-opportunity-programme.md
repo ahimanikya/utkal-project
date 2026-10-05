@@ -107,3 +107,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Nimapada dossier checkpoint · 5 October 2026
 
 [Name-use chronology](../food/nimapada-jhili-evidence.md) strengthens GI-C001 with a dated official edition and preserves maker-credit uncertainty. GI-C002 remains unresolved. No new candidate, operating cluster or filing readiness is inferred.
+
+## Korakhai dossier checkpoint · 5 October 2026
+
+[GI-C008 goods and reputation evidence](../food/korakhai-gi-evidence.md) adds institutional records while keeping proposed tours, college promotion and regulatory designation separate. No additional candidate or filing readiness inferred.

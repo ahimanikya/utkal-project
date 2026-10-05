@@ -287,3 +287,7 @@ Documentary comparison saved with historical scope and technical holds. It is no
 ## Nimapada chronology checkpoint · 5 October 2026
 
 Sourced chronology strengthens the existing food/candidate record. Producer mandate, technical specification and origin date remain absent; no GI filing or website publication is claimed.
+
+## Korakhai dossier checkpoint · 5 October 2026
+
+Research-only goods description and institutional records saved. No tested recipe, official ODOP designation, operating tour, producer consent or website publication claimed.

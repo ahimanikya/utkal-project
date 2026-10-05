@@ -524,3 +524,7 @@ Original Laddu specification recovered. Weight vintages,80°C wording and author
 ## Nimapada documentary gaps · 5 October 2026
 
 Name use is documented; invention year, maker-name equivalence and business succession remain unverified. File metadata is not a release date. Municipal original timed out; retry 12 October. Next independent desk batch: Old Town Korakhai.
+
+## Korakhai goods gaps · 5 October 2026
+
+Institutional reputation evidence saved; grain/process measurements, variant definitions, boundary, service records and producer mandate remain absent. BDA facsimile unavailable despite readable publisher PDF text; retry12October. Next independent batch: Manikapatna Curd application2117.

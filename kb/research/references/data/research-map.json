@@ -21238,6 +21238,86 @@
         "gi-puri-msme2016",
         "gi-nimapada-sahu2015"
       ]
+    },
+    {
+      "id": "food/korakhai-gi-evidence",
+      "title": "Korakhai: Old Town goods, reputation and GI evidence",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/korakhai-gi-evidence.md",
+      "project_path": "kb/research/food/korakhai-gi-evidence.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-korakhai-bda2022",
+        "gi-korakhai-college2025",
+        "gi-korakhai-ekamra"
+      ]
+    },
+    {
+      "id": "sources/gi-korakhai-bda2022",
+      "title": "BDA Ekamra Walks RFP 39901: proposed food trail, 2022",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-korakhai-bda2022.md",
+      "project_path": "kb/research/sources/gi-korakhai-bda2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-korakhai-bda2022",
+        "gi-korakhai-college2025",
+        "gi-korakhai-ekamra"
+      ]
+    },
+    {
+      "id": "sources/gi-korakhai-college2025",
+      "title": "Kamala Nehru Women’s College: Vocal for Local report, 2025",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-korakhai-college2025.md",
+      "project_path": "kb/research/sources/gi-korakhai-college2025.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-korakhai-bda2022",
+        "gi-korakhai-college2025",
+        "gi-korakhai-ekamra"
+      ]
+    },
+    {
+      "id": "sources/gi-korakhai-ekamra",
+      "title": "Visit Bhubaneswar: Streets of Ekamra and Kora-Khai",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-korakhai-ekamra.md",
+      "project_path": "kb/research/sources/gi-korakhai-ekamra.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-korakhai-bda2022",
+        "gi-korakhai-college2025",
+        "gi-korakhai-ekamra"
+      ]
     }
   ],
   "shared_publications": [
@@ -22855,7 +22935,11 @@
         "food/nimapada-jhili-evidence.md",
         "sources/gi-puri-msme-undated.md",
         "sources/gi-puri-msme2016.md",
-        "sources/gi-nimapada-sahu2015.md"
+        "sources/gi-nimapada-sahu2015.md",
+        "food/korakhai-gi-evidence.md",
+        "sources/gi-korakhai-bda2022.md",
+        "sources/gi-korakhai-college2025.md",
+        "sources/gi-korakhai-ekamra.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -22880,8 +22964,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1388,
-    "updated_at": "2026-10-05T02:39:56.094724+00:00",
+    "records_mapped": 1392,
+    "updated_at": "2026-10-05T03:38:56.935542+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -23614,6 +23698,11 @@
       "at": "2026-10-05T02:39:56.094724+00:00",
       "run_id": "2026-10-05-gi-nimapada",
       "scope": "Enhance GI-C001 with name-use chronology; source families and file/publication/origin dates separated; GI-C002 unresolved."
+    },
+    {
+      "at": "2026-10-05T03:38:56.935542+00:00",
+      "run_id": "2026-10-05-gi-korakhai",
+      "scope": "Enhance GI-C008; reuse trade/maker records and add institutional activity evidence without new candidate or designation."
     }
   ]
 }

@@ -341,3 +341,7 @@ Original Laddu comparison saved; Puri authority/specification gaps remain, retry
 ## RES-070 Nimapada checkpoint · 5 October 2026
 
 Dated name-use chronology saved; origin and producer evidence still missing. Municipal source retry 12 October. Next independent desk batch: GI-C008 Korakhai in Bhubaneswar Old Town.
+
+## RES-070 Korakhai checkpoint · 5 October 2026
+
+Goods/reputation dossier saved; producer fields remain open, facsimile retry12October. Continue with the existing Manikapatna Curd application2117 dossier to avoid duplication.

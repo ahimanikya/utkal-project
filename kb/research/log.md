@@ -562,3 +562,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Nimapada name-use research · 5 October 2026
 
 [Chronology](food/nimapada-jhili-evidence.md) records the 2016–17 official profile, an undated earlier edition and dated travel attribution. Original municipal page unavailable; retry 12 October. No invention year, filing or website release claimed.
+
+## Korakhai GI research · 5 October 2026
+
+[Old Town dossier](food/korakhai-gi-evidence.md) extends existing evidence with BDA’s proposed trail and a college’s local-product activity. Goods specification and producer mandate remain open. No application or website release.

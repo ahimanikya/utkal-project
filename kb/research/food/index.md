@@ -48,3 +48,5 @@ Foods, ingredients and culinary story opportunities.
 [Temple-food GI comparison](temple-food-gi-governance.md) — original Laddu specification and Puri evidence gaps.
 
 [Nimapada chhena jhili chronology](nimapada-jhili-evidence.md) — official name use, reported maker credit and the missing invention date.
+
+[Korakhai goods and GI evidence](korakhai-gi-evidence.md) — Old Town reputation, attributed ingredients and missing producer specification.

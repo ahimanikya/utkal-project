@@ -72,3 +72,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Nimapada documentary annexure
 
 [Name-use chronology](../food/nimapada-jhili-evidence.md) separates publication, file and claimed-origin dates. Maker identity, producer mandate, agreed specification and boundary remain to establish.
+
+## Korakhai goods annexure
+
+[Korakhai dossier](../food/korakhai-gi-evidence.md) identifies fields for producer-led definition: grain, sweetener, process, finished form, shelf life, place and representation. No compulsory formula or GI mandate is established.
