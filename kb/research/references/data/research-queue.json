@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T03:38:56.935542+00:00",
+  "updated_at": "2026-10-05T10:31:51.450449+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 6,
+      "attempts": 7,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T03:38:56.935542+00:00",
-      "next_step": "Recover existing Manikapatna Curd application2117 original dossier; compare goods, geography and applicant representation without proposing a duplicate or promoting application to registration.",
+      "last_worked_at": "2026-10-05T10:31:51.450449+00:00",
+      "next_step": "Recover Nanda etal2013 original Chilika-curd study (IJTK12(4),707–713); compare sampling, fermentation and shelf-life methods against Manikapatna application2117; preserve pH and scope hold.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4157,7 +4157,12 @@
         "food/korakhai-gi-evidence.md",
         "sources/gi-korakhai-bda2022.md",
         "sources/gi-korakhai-college2025.md",
-        "sources/gi-korakhai-ekamra.md"
+        "sources/gi-korakhai-ekamra.md",
+        "food/manikapatna-curd-application.md",
+        "sources/gi-manikapatna-fcr2026.md",
+        "sources/gi-manikapatna-case2026.md",
+        "sources/gi-manikapatna-breed-certificate.md",
+        "sources/gi-manikapatna-annexures2026.md"
       ],
       "blocker": "No filing-ready applicant/mandate/specification; independent desk research can continue.",
       "retry_after": null,
@@ -4196,6 +4201,12 @@
           "run_id": "2026-10-05-gi-korakhai",
           "at": "2026-10-05T03:38:56.935542+00:00",
           "outcome": "korakhai_goods_scope_and_institutional_reputation_dossier_saved_producer_fields_open",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-manikapatna",
+          "at": "2026-10-05T10:31:51.450449+00:00",
+          "outcome": "existing_application2117_documents_reviewed_notice_and_breed_certificate_distinguished_pH_hold_saved",
           "completion_criteria_met": false
         }
       ],
@@ -4241,7 +4252,12 @@
           "food/korakhai-gi-evidence.md",
           "sources/gi-korakhai-bda2022.md",
           "sources/gi-korakhai-college2025.md",
-          "sources/gi-korakhai-ekamra.md"
+          "sources/gi-korakhai-ekamra.md",
+          "food/manikapatna-curd-application.md",
+          "sources/gi-manikapatna-fcr2026.md",
+          "sources/gi-manikapatna-case2026.md",
+          "sources/gi-manikapatna-breed-certificate.md",
+          "sources/gi-manikapatna-annexures2026.md"
         ],
         "project_records": [
           "kb/research/sources/odisha-gis.md"

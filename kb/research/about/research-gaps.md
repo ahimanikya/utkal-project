@@ -528,3 +528,7 @@ Name use is documented; invention year, maker-name equivalence and business succ
 ## Korakhai goods gaps · 5 October 2026
 
 Institutional reputation evidence saved; grain/process measurements, variant definitions, boundary, service records and producer mandate remain absent. BDA facsimile unavailable despite readable publisher PDF text; retry12October. Next independent batch: Manikapatna Curd application2117.
+
+## Manikapatna gaps · 5 October 2026
+
+Original2013 science, sampling/specification reconciliation, accepted boundary, applicant representation and later notice response remain open. Receipt date is unknown, so no deadline or abandonment inferred. Procedural recheck12October; independent science review next.

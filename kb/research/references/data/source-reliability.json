@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T03:38:56.935542+00:00",
+  "updated_at": "2026-10-05T10:31:51.450449+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -8917,6 +8917,130 @@
         }
       ],
       "note": "Same college PDF across two URLs is one source. Promotion, proposal and reported practice are not designation, execution or producer consent."
+    },
+    {
+      "run_id": "2026-10-05-gi-manikapatna",
+      "at": "2026-10-05T10:31:51.450449+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-manikapatna-fcr2026",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "download_endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "2117/2117 - Formality Check Report - 11-08-2026.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00",
+          "document_date": "2026-08-11",
+          "registry_document_date": "2026-08-11",
+          "pages": 2,
+          "source_location": "PDF pp.1–2, requirements1–25 and closing notice",
+          "sha256": "21d535899d685979c81f85feafd1c9dec61222d9e7b73f17e63fdf10faf26de1",
+          "scope": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration."
+        },
+        {
+          "source_id": "gi-manikapatna-case2026",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "download_endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "2117/2117 - Statement of Case - 22-07-2026.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00",
+          "document_date": "2026-07-22",
+          "registry_document_date": "2026-07-22",
+          "pages": 68,
+          "source_location": "Selected PDF pp.1–10,51–53,62–64; printed pp.1–10,54–56,65–67",
+          "sha256": "0906f445970e681fbcb3e690b60f1090b58c1abf05b802e874d0f1d54de4d2d8",
+          "scope": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration."
+        },
+        {
+          "source_id": "gi-manikapatna-breed-certificate",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "download_endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "2117/2117 - Certificate of Registration - 22-07-2026.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00",
+          "document_date": "2010-04-12",
+          "registry_document_date": "2026-07-22",
+          "pages": 1,
+          "source_location": "PDF p.1, AnnexureII",
+          "sha256": "b6895781c3155c4af919ab42f99aa7939a517fed337d4704370f8ff6594f0cb1",
+          "scope": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration."
+        },
+        {
+          "source_id": "gi-manikapatna-annexures2026",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "download_endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
+          "document_path": "2117/2117 - GI - Letter - 22-07-2026.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00",
+          "document_date": "2026-06-24",
+          "registry_document_date": "2026-07-22",
+          "pages": 1,
+          "source_location": "Letter p.1; accompanying Form GI-1 cover p.2, map pp.1–2 and method annexure cover p.1",
+          "sha256": "9bac3c0c960b42bfd53c9a41224dbd03a23b14ada7d03987929e96c9fd62f3a7",
+          "scope": "Selected original document review; applicant assertions distinct from Registry findings. Shared application family is not independent corroboration.",
+          "additional_documents": [
+            {
+              "document_path": "2117/2117 - Form GI-1 - 22-07-2026.pdf",
+              "pages": 46,
+              "sha256": "ff87394666f9866ac275ee0e25242121b878ebebc8d039e297e372860101593d",
+              "review_scope": "Selected cover/identity and map pages, not full applicant personal-record audit"
+            },
+            {
+              "document_path": "2117/2117 - GI - Method of Production - 22-07-2026.pdf",
+              "pages": 33,
+              "sha256": "4ef7d5a263dc1ee5d3f6bf74b98c6e8dfb5da198a1dc75547846bff2474d2e95",
+              "review_scope": "Selected cover/identity and map pages, not full applicant personal-record audit"
+            },
+            {
+              "document_path": "2117/2117 - Map - 22-07-2026.pdf",
+              "pages": 2,
+              "sha256": "0345b660b3e3c0756aeab1a12bd0dec83ba75abea09360abecd44c8972f55d6d",
+              "review_scope": "Selected cover/identity and map pages, not full applicant personal-record audit"
+            }
+          ]
+        },
+        {
+          "source_id": "gi-opportunity-registry2026",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "status": "unchanged",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00",
+          "scope": "Application2117 summary only: New Application, applicant Sampark Puri, filed22July2026, class29; certificate/journal/validity/geographical-area fields blank. Document findings recorded separately."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "status": "unavailable",
+          "document": "Formality Check Report",
+          "reason": "Initial download timed out after16078 of1217233 bytes; incomplete file excluded.",
+          "recovered_by": "Complete retry,1217233 bytes,2pages",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00"
+        },
+        {
+          "status": "unavailable",
+          "document": "GI - Method of Production",
+          "reason": "Initial download timed out after10272525 of11539279 bytes; incomplete file excluded.",
+          "recovered_by": "Complete retry,11539279 bytes,33pages",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00"
+        },
+        {
+          "status": "unavailable",
+          "document": "Form GI-1",
+          "reason": "Initial connection timeout.",
+          "recovered_by": "Complete retry,9196729 bytes,46pages",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00"
+        },
+        {
+          "status": "unavailable",
+          "document": "Statement of Case",
+          "reason": "Initial timeout; next retry timed out after10551053 of16011958 bytes. Partial PDF was readable but excluded from final evidence.",
+          "recovered_by": "Complete download,16011958 bytes,68pages; EOF and selected facsimiles checked",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/2117",
+          "retrieved_at": "2026-10-05T10:31:51.450449+00:00"
+        }
+      ],
+      "note": "Complete originals replace readable truncated PDFs. Registry notice, applicant assertions and breed registration are distinct. No personal producer data republished."
     }
   ]
 }

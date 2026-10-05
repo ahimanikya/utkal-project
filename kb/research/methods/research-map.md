@@ -519,3 +519,7 @@ RES-070 enhances existing GI-C001 and reuses the saved UOU reference; GI-C002 re
 ## Korakhai evidence extension · 5 October 2026
 
 GI-C008 reuses town trade and maker records; adds BDA, college and city-portal evidence. Identical college PDFs are one publication. No duplicate candidate created.
+
+## Manikapatna application extension · 5 October 2026
+
+GI-C009 now reuses application2117 review and four source records. Archaeological port evidence is not curd-origin evidence; several documents within one application are not independent corroboration.

@@ -566,3 +566,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Korakhai GI research · 5 October 2026
 
 [Old Town dossier](food/korakhai-gi-evidence.md) extends existing evidence with BDA’s proposed trail and a college’s local-product activity. Goods specification and producer mandate remain open. No application or website release.
+
+## Manikapatna Curd dossier · 5 October 2026
+
+[Application2117 review](food/manikapatna-curd-application.md) distinguishes its breed certificate, proposed oversight and25-item notice. Saved a pH scope hold; complete PDFs replaced failed partial downloads. No filing or website release.

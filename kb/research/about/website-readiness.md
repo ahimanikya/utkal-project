@@ -291,3 +291,7 @@ Sourced chronology strengthens the existing food/candidate record. Producer mand
 ## Korakhai dossier checkpoint · 5 October 2026
 
 Research-only goods description and institutional records saved. No tested recipe, official ODOP designation, operating tour, producer consent or website publication claimed.
+
+## Manikapatna review · 5 October 2026
+
+Original application documents support an attributed research dossier. No GI award, validated shelf life, agreed producer specification or operating inspection body established. Website publication not claimed.
