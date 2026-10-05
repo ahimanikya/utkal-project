@@ -103,3 +103,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Temple-food comparison · 5 October 2026
 
 [Original Laddu specification and Puri evidence plan](../food/temple-food-gi-governance.md) distinguish product, place, custodianship and controls. Weight vintages, technical wording and an incomplete authorized-user row remain held.
+
+## Nimapada dossier checkpoint · 5 October 2026
+
+[Name-use chronology](../food/nimapada-jhili-evidence.md) strengthens GI-C001 with a dated official edition and preserves maker-credit uncertainty. GI-C002 remains unresolved. No new candidate, operating cluster or filing readiness is inferred.

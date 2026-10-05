@@ -558,3 +558,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Temple-food GI research · 5 October 2026
 
 [Comparison](food/temple-food-gi-governance.md) recovers Journal28 and preserves later TTD statements separately. Puri authority records unavailable; technical and registry gaps retained. No filing, human review or website release.
+
+## Nimapada name-use research · 5 October 2026
+
+[Chronology](food/nimapada-jhili-evidence.md) records the 2016–17 official profile, an undated earlier edition and dated travel attribution. Original municipal page unavailable; retry 12 October. No invention year, filing or website release claimed.

@@ -21158,6 +21158,86 @@
         "gi-ttd-weight2022",
         "gi-jagannath-governance-lead"
       ]
+    },
+    {
+      "id": "food/nimapada-jhili-evidence",
+      "title": "Nimapada chhena jhili: documentary name use and maker attribution",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/nimapada-jhili-evidence.md",
+      "project_path": "kb/research/food/nimapada-jhili-evidence.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-puri-msme-undated",
+        "gi-puri-msme2016",
+        "gi-nimapada-sahu2015"
+      ]
+    },
+    {
+      "id": "sources/gi-puri-msme-undated",
+      "title": "Puri industrial profile: undated edition and Nimapara Jhili",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-puri-msme-undated.md",
+      "project_path": "kb/research/sources/gi-puri-msme-undated.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-puri-msme-undated",
+        "gi-puri-msme2016",
+        "gi-nimapada-sahu2015"
+      ]
+    },
+    {
+      "id": "sources/gi-puri-msme2016",
+      "title": "Puri industrial profile 2016–17: Nimapara Jhili",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-puri-msme2016.md",
+      "project_path": "kb/research/sources/gi-puri-msme2016.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-puri-msme-undated",
+        "gi-puri-msme2016",
+        "gi-nimapada-sahu2015"
+      ]
+    },
+    {
+      "id": "sources/gi-nimapada-sahu2015",
+      "title": "Diana Sahu: Scripting A Seaside Story (2015; updated 2016)",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-nimapada-sahu2015.md",
+      "project_path": "kb/research/sources/gi-nimapada-sahu2015.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-puri-msme-undated",
+        "gi-puri-msme2016",
+        "gi-nimapada-sahu2015"
+      ]
     }
   ],
   "shared_publications": [
@@ -22771,7 +22851,11 @@
         "sources/gi-tirupathi-journal2008.md",
         "sources/gi-ttd-controls2015.md",
         "sources/gi-ttd-weight2022.md",
-        "sources/gi-jagannath-governance-lead.md"
+        "sources/gi-jagannath-governance-lead.md",
+        "food/nimapada-jhili-evidence.md",
+        "sources/gi-puri-msme-undated.md",
+        "sources/gi-puri-msme2016.md",
+        "sources/gi-nimapada-sahu2015.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -22796,8 +22880,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1384,
-    "updated_at": "2026-10-05T01:38:42.713749+00:00",
+    "records_mapped": 1388,
+    "updated_at": "2026-10-05T02:39:56.094724+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -23525,6 +23609,11 @@
       "at": "2026-10-05T01:38:42.713749+00:00",
       "run_id": "2026-10-05-gi-temple",
       "scope": "Reuse temple-food candidates005–007 and comparator121; add original specification and dated control accounts."
+    },
+    {
+      "at": "2026-10-05T02:39:56.094724+00:00",
+      "run_id": "2026-10-05-gi-nimapada",
+      "scope": "Enhance GI-C001 with name-use chronology; source families and file/publication/origin dates separated; GI-C002 unresolved."
     }
   ]
 }

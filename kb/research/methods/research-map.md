@@ -511,3 +511,7 @@ RES-070 reuses GI-C004 and application594. Both original journal editions retain
 ## Temple-food evidence extension · 5 October 2026
 
 RES-070 enhances existing candidates005–007 and comparator121. Advertised specification, later institutional accounts and unavailable governance originals remain distinct; no duplicate identities added.
+
+## Nimapada evidence extension · 5 October 2026
+
+RES-070 enhances existing GI-C001 and reuses the saved UOU reference; GI-C002 remains separate. Repeated departmental wording is one source family. New records map name-use evidence, not exhaustive historical coverage.

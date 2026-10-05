@@ -68,3 +68,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Temple-food scope annexure
 
 [Temple-food comparison](../food/temple-food-gi-governance.md) adds original Laddu goods/place/control fields and a Puri evidence crosswalk. The applicable temple-governance text, record-of-rights and actual producer mandate remain unverified. No combined Mahaprasad filing is presumed.
+
+## Nimapada documentary annexure
+
+[Name-use chronology](../food/nimapada-jhili-evidence.md) separates publication, file and claimed-origin dates. Maker identity, producer mandate, agreed specification and boundary remain to establish.

@@ -283,3 +283,7 @@ Two original comparator specifications are saved with source limitations. This i
 ## Temple-food evidence checkpoint · 5 October 2026
 
 Documentary comparison saved with historical scope and technical holds. It is not a tested recipe, current inspection audit, producer-authorized dossier or website publication.
+
+## Nimapada chronology checkpoint · 5 October 2026
+
+Sourced chronology strengthens the existing food/candidate record. Producer mandate, technical specification and origin date remain absent; no GI filing or website publication is claimed.

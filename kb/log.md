@@ -567,3 +567,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Temple-food GI comparison
 
 [Research receipt](records/gi-temple-2026-10-05.json):Original Laddu specification compared with dated institutional controls. Puri goods scope and producer mandate remain unresolved; governance originals unavailable. No website release.
+
+## 5 October 2026 · Nimapada name-use chronology
+
+[Research receipt](records/gi-nimapada-2026-10-05.json):Official 2016–17 name use and dated travel account documented; origin date, maker identity records and producer mandate remain unresolved. No website release.

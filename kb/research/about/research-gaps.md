@@ -520,3 +520,7 @@ Assam comparison recovered; Puri local technical specification, cooperative regi
 ## Temple-food controls · 5 October 2026
 
 Original Laddu specification recovered. Weight vintages,80°C wording and authorized-user status need clarification. Puri full governance PDFs unavailable; record-of-rights and producer mandate missing. Retry12October2026; independent Nimapada chronology next.
+
+## Nimapada documentary gaps · 5 October 2026
+
+Name use is documented; invention year, maker-name equivalence and business succession remain unverified. File metadata is not a release date. Municipal original timed out; retry 12 October. Next independent desk batch: Old Town Korakhai.
