@@ -253,3 +253,9 @@ Guide visitors from their existing saved ideas with a clear next step and a day 
 Reuse the existing private-note format so backups, undo and newer-tab conflict protection continue to work. Day summaries should precede stories in portable books. Excluding personal notes must also exclude private day titles and outline writing. A checked reminder records the visitor’s action, not verification of an arrangement.
 
 [Make this journey yours candidate](../records/make-journey-yours-review-2026-10-04.json) records data, export and built-page checks. Rendered browser and native PDF review remains open. This is UTP design learning, not a shared package release.
+
+## Review the rendered notebook and printed page
+
+A declared textarea height is not enough: check the final shared-style cascade on the rendered notebook. Keep the whole short planning outline comfortably visible. Links that open a writing disclosure must retain focus in the destination field rather than allowing hash navigation to move it away.
+
+In printed books, keep each place’s short question group together and keep its introduction with the first group. Review both A4 and Letter; inspect actual rendered pages as well as extracted text. Use a synthetic private-note marker to verify sharing exclusions, and distinguish Chrome viewport checks from physical-device testing. [Planner visual review](../records/planner-visual-review-2026-10-04.json) records the bounded fixture and findings.

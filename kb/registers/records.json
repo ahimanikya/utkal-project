@@ -4750,17 +4750,42 @@
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-198",
-      "next_action": "Published and live-delivery verified. Rendered browser, native PDF, screen-reader and physical-device review and Search Console processing remain separate follow-ups.",
+      "next_action": "Published. Bounded Chrome visual and native-engine PDF review completed in UTP-WORK-164; three resulting fixes await review. Physical-device, screen-reader and Search Console follow-ups remain open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-198",
         "UTP-REV-141",
         "UTP-DEC-199",
-        "UTP-REL-069"
+        "UTP-REL-069",
+        "UTP-WORK-164"
       ],
       "evidence": [
         "records/make-journey-yours-review-2026-10-04.json",
-        "records/make-journey-yours-publication-2026-10-04.json"
+        "records/make-journey-yours-publication-2026-10-04.json",
+        "records/planner-visual-review-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-164",
+      "title": "Planner visual and Chrome PDF review with usability fixes",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-200",
+      "next_action": "Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-200",
+        "UTP-REV-142",
+        "UTP-WORK-163"
+      ],
+      "evidence": [
+        "records/planner-visual-review-2026-10-04.json"
       ]
     }
   ],
@@ -8737,6 +8762,25 @@
       "evidence": [
         "records/make-journey-yours-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-200",
+      "title": "Review the planner visually and in PDF",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, let's do that too",
+      "scope": "Complete the pending visual and native PDF review of the published planner; repair observed usability issues for review.",
+      "recorded_at": "2026-10-04T23:54:22.980161+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-164"
+      ],
+      "evidence": [
+        "records/planner-visual-review-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -12085,6 +12129,30 @@
       "evidence": [
         "records/make-journey-yours-review-2026-10-04.json",
         "records/make-journey-yours-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-142",
+      "title": "Planner Chrome visual and PDF self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Chrome desktop responsive viewports are not physical phone/tablet testing or a screen-reader pass.",
+        "PDFs use Chrome Page.printToPDF through the supported browser capability; native OS print-dialog controls and a physical printer were not exercised.",
+        "Bounded fixture: one Chilika place, two days, Odia text, appended outline and one personal reminder. Large plans and illustrated-book PDFs were not visually rechecked.",
+        "Local review PDFs contain localhost reading links because they were exported from the local candidate. They are QA evidence, not visitor travel books.",
+        "Search Console processing remains open."
+      ],
+      "refs": [
+        "UTP-WORK-164",
+        "UTP-DEC-200"
+      ],
+      "evidence": [
+        "records/planner-visual-review-2026-10-04.json"
       ]
     }
   ],
