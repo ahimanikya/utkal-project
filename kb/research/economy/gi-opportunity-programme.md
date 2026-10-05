@@ -63,7 +63,7 @@ Application 682, “Assamese Gamocha”, displays **withdrawn**; it must not be 
 
 | Example or programme | Distinction | Practical research lesson |
 |---|---|---|
-| Kalamata olive oil PDO, Greece | The Commission describes an entirely local chain using local olive varieties. | Map origin of ingredients separately from processing. |
+| Kalamata olive oil PDO | Selected original specification and2015 decision | Production-area evidence and permitted bottling locations are separate; [case study](kalamata-gi-comparison.md). |
 | Westfälischer Knochenschinken PGI, Germany | Local methods and production do not require every animal to originate locally. | A strong reputation/process link needs its own evidence. |
 | Gueuze TSG, Belgium | Traditional method is highlighted without restricting production to that geography. | Some heritage foods may suit documentation or collective branding better than a place-exclusive GI; TSG is not an Indian filing category. |
 | EU craft and industrial GI system | EUIPO took competence from 1 December 2025. | Keep craft specifications, controls and international-market questions separate from food rules. |
@@ -143,3 +143,7 @@ The [palm-leaf annexures](../culture/palm-leaf-gi-applications.md) contain histo
 ## GI readiness matrix · 5 October 2026
 
 [Twelve-lead readiness matrix](gi-readiness-matrix.md) now identifies each next evidence product, participant dependency and interpretation limit. Four work routes are editorial, not eligibility scores. No new nomination or Registry search. Original international specifications remain the next independent RES-070 task; local source retries stay dated12October.
+
+## Kalamata comparison · 5 October 2026
+
+[Kalamata original-document study](kalamata-gi-comparison.md) adds a production/bottling distinction, a preserved numerical correction and a reported enforcement action. It does not establish present inspection coverage or returns. Local and source recovery follow-up12October; independent RES-017 resumes.

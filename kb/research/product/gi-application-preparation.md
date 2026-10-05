@@ -100,3 +100,7 @@ The [palm-leaf annexure review](../culture/palm-leaf-gi-applications.md) supplie
 ## GI readiness matrix · 5 October 2026
 
 [Readiness matrix](../economy/gi-readiness-matrix.md) extends this initial four-brief pack to all twelve existing leads. Use its candidate-specific next annexure and completion evidence; no candidate has a verified Utkal mandate or filing-ready dossier.
+
+## Kalamata comparison · 5 October 2026
+
+Use the [Kalamata comparison](../economy/kalamata-gi-comparison.md) to design participant discussions about batch traceability and stage-specific geography. Its thresholds and institutions are not an Odisha specification or Indian filing rules.

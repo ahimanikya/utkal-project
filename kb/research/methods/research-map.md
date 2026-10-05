@@ -547,3 +547,7 @@ GI-C011/012 extended with existing CRRI and IHM records before new browsing. Add
 ## GI readiness matrix · 5 October 2026
 
 Added one synthesis concept for the existing twelve GI leads. Source records and original review dates reused; no new source identity or independent corroboration claimed.
+
+## Kalamata comparison · 5 October 2026
+
+Added a Kalamata oil comparison and three primary-source identities, distinct from table olives. Same-document routes are not independent corroboration; RES-070 reuse pointers extended.

@@ -598,3 +598,7 @@ Added GI-C011/012 place-association comparison and dated official festival sourc
 ## GI readiness matrix · 5 October 2026
 
 Completed a twelve-lead GI synthesis matrix using saved evidence. Four routes separate documentary work, identity decisions, custodianship and existing-file support. RES-070 remains unfinished; original international specification research continues next while local source retries remain12October. No new source check or website release.
+
+## Kalamata comparison · 5 October 2026
+
+Added Kalamata specification/decision/enforcement comparison; corrected overly broad local-chain wording, preserved the2015 table correction and2021 action limits. Three new primary-source records, with failed routes explicitly unavailable. RES-070 checkpoint saved; follow-up12October, RES-017 next.

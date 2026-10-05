@@ -607,3 +607,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Twelve GI leads and evidence readiness
 
 [Research receipt](records/gi-readiness-2026-10-05.json):Existing candidate dossiers grouped by next evidence bottleneck; international original-specification gap remains next. No GI filing. No website release.
+
+## 5 October 2026 · Kalamata specification and enforcement
+
+[Research receipt](records/gi-kalamata-2026-10-05.json):Selected Greek specification,2015 amendment and2021 reported enforcement compared; local-chain shorthand corrected. No GI filing. No website release.
