@@ -21423,6 +21423,63 @@
         "gi-manikapatna-breed-certificate",
         "gi-manikapatna-annexures2026"
       ]
+    },
+    {
+      "id": "food/chilika-curd-science",
+      "title": "Chilika curd: traditional practice and fermentation evidence",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/chilika-curd-science.md",
+      "project_path": "kb/research/food/chilika-curd-science.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "chilika-curd-nanda2013",
+        "chilika-curd-kumar2024"
+      ]
+    },
+    {
+      "id": "sources/chilika-curd-nanda2013",
+      "title": "Nanda et al.: Indian Chilika curd, IJTK 12(4), 707–713",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/chilika-curd-nanda2013.md",
+      "project_path": "kb/research/sources/chilika-curd-nanda2013.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "chilika-curd-nanda2013",
+        "chilika-curd-kumar2024"
+      ]
+    },
+    {
+      "id": "sources/chilika-curd-kumar2024",
+      "title": "Kumar et al.: Antifungal strain from Chilika curd, IJDS 77(1), 49–56",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/chilika-curd-kumar2024.md",
+      "project_path": "kb/research/sources/chilika-curd-kumar2024.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "chilika-curd-nanda2013",
+        "chilika-curd-kumar2024"
+      ]
     }
   ],
   "shared_publications": [
@@ -23049,7 +23106,10 @@
         "sources/gi-manikapatna-fcr2026.md",
         "sources/gi-manikapatna-case2026.md",
         "sources/gi-manikapatna-breed-certificate.md",
-        "sources/gi-manikapatna-annexures2026.md"
+        "sources/gi-manikapatna-annexures2026.md",
+        "food/chilika-curd-science.md",
+        "sources/chilika-curd-nanda2013.md",
+        "sources/chilika-curd-kumar2024.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -23074,8 +23134,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1397,
-    "updated_at": "2026-10-05T10:31:51.450449+00:00",
+    "records_mapped": 1400,
+    "updated_at": "2026-10-05T10:42:35.732079+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -23818,6 +23878,11 @@
       "at": "2026-10-05T10:31:51.450449+00:00",
       "run_id": "2026-10-05-gi-manikapatna",
       "scope": "GI-C009 application review; maritime place archaeology kept separate from food-origin evidence; no duplicate candidate."
+    },
+    {
+      "at": "2026-10-05T10:42:35.732079+00:00",
+      "run_id": "2026-10-05-gi-curd-science",
+      "scope": "Original2013 and2024 science; same isolates and reproduced paper passages not independent field corroboration."
     }
   ]
 }

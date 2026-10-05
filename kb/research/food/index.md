@@ -52,3 +52,5 @@ Foods, ingredients and culinary story opportunities.
 [Korakhai goods and GI evidence](korakhai-gi-evidence.md) — Old Town reputation, attributed ingredients and missing producer specification.
 
 [Manikapatna Curd application review](manikapatna-curd-application.md) — fermentation claims, existing applicant, Registry requests and breed/GI certificate distinction.
+
+[Chilika curd science](chilika-curd-science.md) — bamboo preparation, measured fermentation evidence and limits on shelf-life claims.

@@ -62,3 +62,7 @@ The case proposes an eight-seat inspection body led by the Puri Collector or nom
 The local livelihood story could connect buffalo keepers, household curd makers, bamboo-vessel makers and buyers. These are research directions, not a verified producer census or investment forecast. Current prices, sales, margins, export values, producer mandate, accepted boundary and agreed specification remain unknown. GI-C009 stays an existing-application lead; no duplicate proposal or filing-readiness claim is created.
 
 The recovered documents and source locations provide a useful checkpoint. Full historical-reference authentication, original science and later procedural responses remain outside this batch. No interviews, legal clearance, human review or media rights are claimed.
+
+## Original science checked · 5 October 2026
+
+[Chilika curd science review](chilika-curd-science.md) confirms the original2013 pH value and its Satapada sample scope. The proposed GI range remains unreconciled. A2024 follow-up uses prior cultures and contains a strain-label discrepancy. Neither study establishes a current consumer shelf life or an accepted GI specification.

@@ -532,3 +532,7 @@ Institutional reputation evidence saved; grain/process measurements, variant def
 ## Manikapatna gaps · 5 October 2026
 
 Original2013 science, sampling/specification reconciliation, accepted boundary, applicant representation and later notice response remain open. Receipt date is unknown, so no deadline or abandonment inferred. Procedural recheck12October; independent science review next.
+
+## Curd science gaps · 5 October 2026
+
+Original2013 study recovered. Accepted pH specification, product-level safety and2024 C-8/C-10 identity remain open; clarification retry12October. The cited2020 study is an unreviewed lead. Independent palm-leaf application comparison next.

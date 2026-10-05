@@ -570,3 +570,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Manikapatna Curd dossier · 5 October 2026
 
 [Application2117 review](food/manikapatna-curd-application.md) distinguishes its breed certificate, proposed oversight and25-item notice. Saved a pH scope hold; complete PDFs replaced failed partial downloads. No filing or website release.
+
+## Chilika curd science · 5 October 2026
+
+[Original studies reviewed](food/chilika-curd-science.md):2013 sampling/pH confirmed;2024 culture follow-up distinguished from field replication. Existing pH hold preserved and strain discrepancy added. No safety certification, new filing or website release.

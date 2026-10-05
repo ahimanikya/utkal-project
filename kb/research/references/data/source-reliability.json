@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T10:31:51.450449+00:00",
+  "updated_at": "2026-10-05T10:42:35.732079+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9041,6 +9041,72 @@
         }
       ],
       "note": "Complete originals replace readable truncated PDFs. Registry notice, applicant assertions and breed registration are distinct. No personal producer data republished."
+    },
+    {
+      "run_id": "2026-10-05-gi-curd-science",
+      "at": "2026-10-05T10:42:35.732079+00:00",
+      "source_checks": [
+        {
+          "source_id": "chilika-curd-nanda2013",
+          "url": "https://nopr.niscpr.res.in/bitstream/123456789/22195/1/IJTK%2012%284%29%20707-713.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T10:42:35.732079+00:00",
+          "publication_date": "2013-10",
+          "pages": 7,
+          "source_location": "Printed pp.708–712/PDF pp.2–6; methods/results; facsimiles708,710,711",
+          "sha256": "7ae37188518ecb0af1b4cc523912261fb5c3dc874edcf44e330116e69f9ea046",
+          "scope": "Original study,10 milk and10 curd samples from around Satapada; not current product safety or regional census"
+        },
+        {
+          "source_id": "chilika-curd-kumar2024",
+          "url": "https://epubs.icar.org.in/index.php/IJDS/article/download/133268/66276/529933",
+          "status": "available",
+          "retrieved_at": "2026-10-05T10:42:35.732079+00:00",
+          "publication_date": "2024-02-23",
+          "pages": 8,
+          "source_location": "Printed pp.50–55/PDF pp.2–7; facsimiles50,51,53; Table1 and3",
+          "sha256": "92d28f3f060743b96c79b7460d51e9eb5b8c616725cfed0d2cc5cd05d1d94ec5",
+          "scope": "Follow-up laboratory work on previously isolated cultures; not independent new field sampling"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://nopr.niscpr.res.in/handle/123456789/21990",
+          "status": "unavailable",
+          "method": "web open",
+          "reason": "Timeout",
+          "recovered_by": "Direct original-publisher HTML downloaded; confirms issue and paper handle22195"
+        },
+        {
+          "url": "https://nopr.niscpr.res.in/handle/123456789/22195",
+          "status": "unavailable",
+          "method": "web open",
+          "reason": "Timeout",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://nopr.niscpr.res.in/bitstream/123456789/22195/1/IJTK%2012%284%29%20707-713.pdf",
+          "status": "unavailable",
+          "method": "web open",
+          "reason": "Cache miss",
+          "recovered_by": "Direct original PDF downloaded completely;7pages/537228bytes"
+        },
+        {
+          "url": "https://nopr.niscair.res.in/bitstream/123456789/22195/1/IJTK%2012%284%29%20707-713.pdf",
+          "status": "unavailable",
+          "method": "web open legacy host",
+          "reason": "Not accessible via web tool",
+          "recovered_by": "Current NIScPR host original PDF"
+        },
+        {
+          "url": "http://nopr.niscair.res.in/handle/123456789/22195",
+          "status": "unavailable",
+          "method": "web open legacy handle",
+          "reason": "Not accessible via web tool after HTTPS normalization",
+          "recovered_by": "Current-host issue HTML and complete original PDF"
+        }
+      ],
+      "note": "Originals replace applicant reproduction as scientific source. Follow-up on prior cultures is not new field replication. Lab findings do not supply consumer safety or current economic claims."
     }
   ]
 }

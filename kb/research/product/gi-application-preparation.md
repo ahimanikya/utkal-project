@@ -80,3 +80,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Existing-application support
 
 [Manikapatna Curd review](../food/manikapatna-curd-application.md) separates applicant evidence, facilitator authorization and Registry requests. Its preparation needs original science, producer agreement and procedural follow-up; it is not a new Utkal filing.
+
+## Science annexure
+
+[Curd study review](../food/chilika-curd-science.md) separates sampled results, proposed GI parameters and laboratory follow-up. Producer-approved specifications need compatible sample geography and methods; shelf-life advice cannot be copied from a14-day observation period.

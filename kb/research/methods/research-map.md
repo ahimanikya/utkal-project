@@ -523,3 +523,7 @@ GI-C008 reuses town trade and maker records; adds BDA, college and city-portal e
 ## Manikapatna application extension · 5 October 2026
 
 GI-C009 now reuses application2117 review and four source records. Archaeological port evidence is not curd-origin evidence; several documents within one application are not independent corroboration.
+
+## Curd science extension · 5 October 2026
+
+GI-C009 now maps original2013 study and2024 follow-up. Applicant reproduction is not independent research; earlier cultures reused in later experiments do not constitute a new producer survey.
