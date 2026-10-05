@@ -516,3 +516,7 @@ Silao and Goa original journals recovered. Silao ghee proportions conflict (20%/
 ## Puri textile identity · 5 October 2026
 
 Assam comparison recovered; Puri local technical specification, cooperative registration and mandate remain unavailable. Alangdia is a reported lead, not a confirmed match. Seek original local records and Anakata dimension clarification on 12 October. Next independent desk task: Tirupathi Laddu governance comparison.
+
+## Temple-food controls · 5 October 2026
+
+Original Laddu specification recovered. Weight vintages,80°C wording and authorized-user status need clarification. Puri full governance PDFs unavailable; record-of-rights and producer mandate missing. Retry12October2026; independent Nimapada chronology next.

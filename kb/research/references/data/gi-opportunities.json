@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T00:37:22.636626+00:00",
+  "updated_at": "2026-10-05T01:38:42.713749+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -128,13 +128,18 @@
       "research_stage": "scope_and_custodian_review",
       "registry_screen": "No matching name found in bounded index search",
       "reuse_paths": [
-        "food/mahaprasad.md"
+        "food/mahaprasad.md",
+        "food/temple-food-gi-governance.md"
       ],
       "basis": "Temple offering tradition already documented; not proof that every dish originated in the temple.",
       "next_action": "Separate food goods, ritual status and custodianship; document temple administration and Suara/Mahasuara representation without claiming their consent.",
       "source_ids": [
         "food-tourism",
-        "gi-temple-food2019"
+        "gi-temple-food2019",
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -145,7 +150,13 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "custodian_evidence_gap": {
+        "record_of_rights": null,
+        "mandate": null,
+        "current_governance_text_verified": false,
+        "retry_after": "2026-10-12"
+      }
     },
     {
       "id": "GI-C006",
@@ -153,12 +164,17 @@
       "research_stage": "discovery",
       "registry_screen": "No matching Puri Gaja name found in bounded index search",
       "reuse_paths": [
-        "food/mahaprasad.md"
+        "food/mahaprasad.md",
+        "food/temple-food-gi-governance.md"
       ],
       "basis": "Named in indexed dry Mahaprasad account; generic/family name and exact product scope unresolved.",
       "next_action": "Document local spelling, ingredients, variations, geography-linked reputation and prior names.",
       "source_ids": [
-        "gi-temple-food2019"
+        "gi-temple-food2019",
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -169,7 +185,13 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "custodian_evidence_gap": {
+        "record_of_rights": null,
+        "mandate": null,
+        "current_governance_text_verified": false,
+        "retry_after": "2026-10-12"
+      }
     },
     {
       "id": "GI-C007",
@@ -177,12 +199,17 @@
       "research_stage": "discovery",
       "registry_screen": "No matching Puri Kanti name found in bounded index search",
       "reuse_paths": [
-        "food/mahaprasad.md"
+        "food/mahaprasad.md",
+        "food/temple-food-gi-governance.md"
       ],
       "basis": "Named in indexed dry Mahaprasad account; no distinct GI specification established.",
       "next_action": "Recover primary description and producer-accepted technical definition; test against other regional preparations.",
       "source_ids": [
-        "gi-temple-food2019"
+        "gi-temple-food2019",
+        "gi-tirupathi-journal2008",
+        "gi-ttd-controls2015",
+        "gi-ttd-weight2022",
+        "gi-jagannath-governance-lead"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -193,7 +220,13 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "custodian_evidence_gap": {
+        "record_of_rights": null,
+        "mandate": null,
+        "current_governance_text_verified": false,
+        "retry_after": "2026-10-12"
+      }
     },
     {
       "id": "GI-C008",
@@ -590,7 +623,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Recover Tirupathi Laddu original specification; compare applicant, temple governance and inspection with unresolved Puri temple-food scope.",
+    "Build dated Nimapada chhena jhili name-use and maker-attribution chronology; preserve separate unresolved Nimapada rasabali identity.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."
@@ -729,6 +762,55 @@
       "resolution": null,
       "next_action": "Seek official clarification or certified current specification; do not silently select a minimum.",
       "retry_after": "2026-10-12"
+    },
+    {
+      "id": "GI-HOLD-LADDU-WEIGHT",
+      "source_ids": [
+        "gi-tirupathi-journal2008",
+        "gi-ttd-weight2022"
+      ],
+      "field": "small laddu weight and later statement",
+      "status": "unreconciled_vintages",
+      "readings": [
+        {
+          "source_id": "gi-tirupathi-journal2008",
+          "page": 42,
+          "min": 170,
+          "max": 180,
+          "unit": "g",
+          "period": "2008 specification"
+        },
+        {
+          "source_id": "gi-ttd-weight2022",
+          "min": 160,
+          "max": 180,
+          "unit": "g",
+          "period": "2022-11-10 statement"
+        }
+      ],
+      "resolution": null,
+      "next_action": "Find formal amendment and reconcile product types; do not silently replace the old specification.",
+      "retry_after": "2026-10-12"
+    },
+    {
+      "id": "GI-HOLD-LADDU-TEMPERATURE",
+      "source_id": "gi-tirupathi-journal2008",
+      "field": "boiling-hot ghee wording with80C",
+      "page": 52,
+      "status": "quarantined",
+      "resolution": null,
+      "next_action": "Seek official technical clarification; do not reproduce as recipe advice or invent a correction.",
+      "retry_after": "2026-10-12"
+    },
+    {
+      "id": "GI-HOLD-LADDU-AU",
+      "source_id": "gi-opportunity-registry2026",
+      "field": "application121 authorized-user row",
+      "status": "unverified_authorization",
+      "observed_name": "TRIFED (Ministry of Tribal Affairs, Govt. of India), Regional Office, Hyderabad",
+      "observed_status": null,
+      "next_action": "Recover authorized-user application or order before attributing scope or approval.",
+      "retry_after": "2026-10-12"
     }
   ],
   "textile_comparison": {
@@ -782,5 +864,56 @@
     "place_link_independently_verified": false,
     "current_enforcement_verified": false,
     "puri_specification_established": false
-  }
+  },
+  "temple_food_comparison": {
+    "application_number": 121,
+    "source_id": "gi-tirupathi-journal2008",
+    "canonical_page": "food/temple-food-gi-governance.md",
+    "evidence_class": "advertised_applicant_specification",
+    "publication_date": "2008-11-17",
+    "public_availability_date": "2008-11-24",
+    "source_pages": [
+      3,
+      38,
+      40,
+      42,
+      50,
+      52,
+      64,
+      66
+    ],
+    "applicant": "Tirumala Tirupati Devasthanam",
+    "goods_class": 30,
+    "specified_production_place": "Sri Vari Temple, Tirumala Hills, Tirupathi",
+    "place_page": 42,
+    "inspection_page": 66,
+    "puri_eligibility_established": false,
+    "current_enforcement_verified": false,
+    "recipe_ready": false,
+    "independent_origin_verification": false,
+    "later_controls": [
+      {
+        "source_id": "gi-ttd-controls2015",
+        "publication_date": "2015-08-27",
+        "evidence_class": "institutional_direction",
+        "reader_implementation_verified": false
+      },
+      {
+        "source_id": "gi-ttd-weight2022",
+        "publication_date": "2022-11-10",
+        "evidence_class": "institutional_response",
+        "independently_measured": false
+      }
+    ]
+  },
+  "registry_followups": [
+    {
+      "application_number": 121,
+      "checked_at": "2026-10-05T01:38:42.713749+00:00",
+      "status": "Registered",
+      "valid_upto": "2028-03-30",
+      "source_id": "gi-opportunity-registry2026",
+      "scope": "Fresh single-application check; older application_checks retained."
+    }
+  ]
 }

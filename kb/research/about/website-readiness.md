@@ -279,3 +279,7 @@ Two original comparator specifications are saved with source limitations. This i
 ## Textile dossier checkpoint · 5 October 2026
 
 [Puri gamucha research](../handlooms/puri-gamucha-gi-study.md) is draft documentary evidence. No producer consent, legal eligibility decision, filing-ready specification, human review or website release claimed.
+
+## Temple-food evidence checkpoint · 5 October 2026
+
+Documentary comparison saved with historical scope and technical holds. It is not a tested recipe, current inspection audit, producer-authorized dossier or website publication.

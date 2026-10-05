@@ -99,3 +99,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Puri gamucha identity checkpoint · 5 October 2026
 
 [Textile study](../handlooms/puri-gamucha-gi-study.md) preserves both Gamosa journal editions and a reported Alangdia Machhi Gamucha lead under GI-C004. Puri’s specification, boundary and producer mandate remain unresolved.
+
+## Temple-food comparison · 5 October 2026
+
+[Original Laddu specification and Puri evidence plan](../food/temple-food-gi-governance.md) distinguish product, place, custodianship and controls. Weight vintages, technical wording and an incomplete authorized-user row remain held.

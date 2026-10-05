@@ -64,3 +64,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Puri gamucha comparison annexure
 
 [Identity and Assam specification study](../handlooms/puri-gamucha-gi-study.md) adds a documentary comparator and local lead. This does not establish an applicant, geographic boundary, inspection mandate or filing readiness. Obtain original cooperative and textile records before describing the lead as a confirmed tradition eligible for filing.
+
+## Temple-food scope annexure
+
+[Temple-food comparison](../food/temple-food-gi-governance.md) adds original Laddu goods/place/control fields and a Puri evidence crosswalk. The applicable temple-governance text, record-of-rights and actual producer mandate remain unverified. No combined Mahaprasad filing is presumed.

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T00:37:22.636626+00:00",
+  "updated_at": "2026-10-05T01:38:42.713749+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 3,
+      "attempts": 4,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T00:37:22.636626+00:00",
-      "next_step": "Recover Tirupathi Laddu original specification; compare applicant, temple governance and inspection with unresolved Puri temple-food scope.",
+      "last_worked_at": "2026-10-05T01:38:42.713749+00:00",
+      "next_step": "Build dated Nimapada chhena jhili name-use and maker-attribution chronology; preserve separate unresolved Nimapada rasabali identity.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4144,7 +4144,12 @@
         "sources/gi-gamosa-journal2019.md",
         "sources/gi-gamosa-journal2022.md",
         "sources/gi-puri-clusters.md",
-        "sources/gi-alangdia-report2026.md"
+        "sources/gi-alangdia-report2026.md",
+        "food/temple-food-gi-governance.md",
+        "sources/gi-tirupathi-journal2008.md",
+        "sources/gi-ttd-controls2015.md",
+        "sources/gi-ttd-weight2022.md",
+        "sources/gi-jagannath-governance-lead.md"
       ],
       "blocker": "No filing-ready applicant/mandate/specification; independent desk research can continue.",
       "retry_after": null,
@@ -4165,6 +4170,12 @@
           "run_id": "2026-10-05-gi-textiles",
           "at": "2026-10-05T00:37:22.636626+00:00",
           "outcome": "textile_editions_compared_local_identity_lead_attributed_specification_gap_retained",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-temple",
+          "at": "2026-10-05T01:38:42.713749+00:00",
+          "outcome": "temple_product_specification_and_controls_compared_puri_authority_documents_unavailable",
           "completion_criteria_met": false
         }
       ],
@@ -4197,7 +4208,12 @@
           "sources/gi-gamosa-journal2019.md",
           "sources/gi-gamosa-journal2022.md",
           "sources/gi-puri-clusters.md",
-          "sources/gi-alangdia-report2026.md"
+          "sources/gi-alangdia-report2026.md",
+          "food/temple-food-gi-governance.md",
+          "sources/gi-tirupathi-journal2008.md",
+          "sources/gi-ttd-controls2015.md",
+          "sources/gi-ttd-weight2022.md",
+          "sources/gi-jagannath-governance-lead.md"
         ],
         "project_records": [
           "kb/research/sources/odisha-gis.md"
