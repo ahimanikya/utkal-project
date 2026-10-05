@@ -63,4 +63,11 @@ ck(mr.get('certificate_kind')=='ICAR animal breed registration' and not mr.get('
 ck(mr.get('notice_requirement_count')==25 and mr.get('deadline','missing') is None and not mr.get('abandonment_verified',True),'Notice date promoted to deadline or abandonment')
 ck(not mr.get('inspection_body_operating_verified',True) and not mr.get('shelf_life_advice_validated',True),'Submitted proposal promoted to operation or safety advice')
 ck(holds.get('GI-HOLD-MANIKAPATNA-PH',{}).get('status')=='unreconciled_scopes','Manikapatna pH scope hold lost')
+ss={v['id']:v for v in mc.get('science_studies',[])}
+cs13=ss.get('CURD-STUDY-2013',{})
+ck(cs13.get('milk_samples')==10 and cs13.get('curd_samples')==10 and cs13.get('followup_days')==14 and cs13.get('reported_stability_days')==7,'Sample/observation/stability scopes conflated')
+ck(not cs13.get('consumer_shelf_life_validated',True) and not cs13.get('clinical_trial',True),'Laboratory observations promoted to consumer or clinical advice')
+ck(cs13.get('antifungal_stronger',0)+cs13.get('antifungal_weaker',0)+cs13.get('positive_not_reported',0)==cs13.get('lactobacillus_tested',-1),'Antifungal screening denominator inconsistent')
+ck(not ss.get('CURD-STUDY-2024',{}).get('independent_field_replication',True),'Culture follow-up promoted to independent field replication')
+ck(holds.get('GI-HOLD-CURD-STRAINS',{}).get('status')=='conflicted','Culture identity conflict lost')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

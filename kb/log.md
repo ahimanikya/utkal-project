@@ -579,3 +579,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Manikapatna application evidence
 
 [Research receipt](records/gi-manikapatna-2026-10-05.json):Registry notice, applicant proposal and buffalo breed certificate distinguished; pH remains unreconciled; no GI award or filing claimed. No website release.
+
+## 5 October 2026 · Chilika curd science evidence
+
+[Research receipt](records/gi-curd-science-2026-10-05.json):Original2013 and2024 studies reviewed; laboratory findings distinguished from consumer advice and field replication. No GI filing or safety certification. No website release.

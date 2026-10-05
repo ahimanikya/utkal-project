@@ -349,3 +349,7 @@ Goods/reputation dossier saved; producer fields remain open, facsimile retry12Oc
 ## RES-070 Manikapatna checkpoint · 5 October 2026
 
 Existing application reviewed; statutory notice and breed certificate distinguished. Recover original2013 Chilika-curd paper next. Producer and procedural gaps preserved; later Registry recheck12October.
+
+## RES-070 science checkpoint · 5 October 2026
+
+Original2013 and2024 studies saved with source limits and holds. Next bounded task: existing palm-leaf applications797/805, preserving GI-C010 identity and avoiding a duplicate.

@@ -115,3 +115,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Manikapatna application review · 5 October 2026
 
 [GI-C009 dossier](../food/manikapatna-curd-application.md) records25 Registry requests and preserves New Application status. The uploaded certificate concerns the buffalo breed. Product pH remains unreconciled; no duplicate or filing readiness inferred.
+
+## Curd science checkpoint · 5 October 2026
+
+[Original science review](../food/chilika-curd-science.md) strengthens GI-C009 evidence provenance while keeping product safety, geographic uniqueness and pH specification open. Next: compare palm-leaf applications797/805 for GI-C010.

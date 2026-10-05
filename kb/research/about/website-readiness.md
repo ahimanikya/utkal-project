@@ -295,3 +295,7 @@ Research-only goods description and institutional records saved. No tested recip
 ## Manikapatna review · 5 October 2026
 
 Original application documents support an attributed research dossier. No GI award, validated shelf life, agreed producer specification or operating inspection body established. Website publication not claimed.
+
+## Curd science checkpoint · 5 October 2026
+
+Attributed science draft ready for editorial review; no recipe validation, cold-chain exemption, clinical benefit, commercial starter approval or website publication claimed.
