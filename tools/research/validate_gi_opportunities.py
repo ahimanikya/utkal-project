@@ -57,4 +57,10 @@ ck(not kg.get('tested_recipe',True) and kg.get('measured_process','missing') is 
 kr={v['source_id']:v for v in kc.get('documentary_records',[])}
 ck(not kr.get('gi-korakhai-college2025',{}).get('official_odop_designation_established',True),'College theme promoted to official ODOP')
 ck(not kr.get('gi-korakhai-bda2022',{}).get('operation_verified',True),'Proposed trail promoted to operation')
+mc=next(c for c in cs if c['id']=='GI-C009')
+mr=mc.get('dossier_review',{})
+ck(mr.get('certificate_kind')=='ICAR animal breed registration' and not mr.get('gi_registration_established',True),'Breed certificate promoted to GI award')
+ck(mr.get('notice_requirement_count')==25 and mr.get('deadline','missing') is None and not mr.get('abandonment_verified',True),'Notice date promoted to deadline or abandonment')
+ck(not mr.get('inspection_body_operating_verified',True) and not mr.get('shelf_life_advice_validated',True),'Submitted proposal promoted to operation or safety advice')
+ck(holds.get('GI-HOLD-MANIKAPATNA-PH',{}).get('status')=='unreconciled_scopes','Manikapatna pH scope hold lost')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

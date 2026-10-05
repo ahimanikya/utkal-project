@@ -111,3 +111,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Korakhai dossier checkpoint · 5 October 2026
 
 [GI-C008 goods and reputation evidence](../food/korakhai-gi-evidence.md) adds institutional records while keeping proposed tours, college promotion and regulatory designation separate. No additional candidate or filing readiness inferred.
+
+## Manikapatna application review · 5 October 2026
+
+[GI-C009 dossier](../food/manikapatna-curd-application.md) records25 Registry requests and preserves New Application status. The uploaded certificate concerns the buffalo breed. Product pH remains unreconciled; no duplicate or filing readiness inferred.

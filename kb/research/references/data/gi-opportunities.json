@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T03:38:56.935542+00:00",
+  "updated_at": "2026-10-05T10:31:51.450449+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -376,11 +376,17 @@
       "working_name": "Manikapatna Curd",
       "research_stage": "existing_application",
       "registry_screen": "Application2117: New Application",
-      "reuse_paths": [],
-      "basis": "Filed22July2026 by Sampark Puri; certificate field blank.",
-      "next_action": "Review existing applicant’s dossier and status; do not prepare a competing duplicate by default.",
+      "reuse_paths": [
+        "food/manikapatna-curd-application.md"
+      ],
+      "basis": "Existing application2117 reviewed: applicant statement,25-item Registry notice, breed certificate and facilitator records; grant and accepted specification unestablished.",
+      "next_action": "Recover original2013 Chilika-curd study; reconcile product scope and pH. Check later Registry response/order after12October2026. Support existing applicant only with producer mandate; no duplicate.",
       "source_ids": [
-        "gi-opportunity-registry2026"
+        "gi-opportunity-registry2026",
+        "gi-manikapatna-fcr2026",
+        "gi-manikapatna-case2026",
+        "gi-manikapatna-breed-certificate",
+        "gi-manikapatna-annexures2026"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -391,7 +397,43 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "dossier_review": {
+        "reviewed_at": "2026-10-05T10:31:51.450449+00:00",
+        "application_number": 2117,
+        "observed_status": "New Application",
+        "registry_summary_unchanged": true,
+        "notice_date": "2026-08-11",
+        "notice_requirement_count": 25,
+        "notice_source_id": "gi-manikapatna-fcr2026",
+        "notice_receipt_date": null,
+        "deadline": null,
+        "later_response_verified": false,
+        "abandonment_verified": false,
+        "gi_registration_established": false,
+        "certificate_kind": "ICAR animal breed registration",
+        "certificate_subject": "Chilika buffalo",
+        "certificate_date": "2010-04-12",
+        "facilitator": "OUAT",
+        "applicant": "Sampark Puri",
+        "proposed_inspection_seats": 8,
+        "inspection_body_operating_verified": false,
+        "prepared_recipe_validated": false,
+        "shelf_life_advice_validated": false,
+        "health_benefit_established": false,
+        "retry_after": "2026-10-12"
+      },
+      "applicant_submitted_specification": {
+        "evidence_class": "submitted_applicant_statement",
+        "source_id": "gi-manikapatna-case2026",
+        "source_location": "PDFpp1–10,51–53",
+        "raw_material_claim": "Chilika buffalo milk",
+        "vessel_claim": "Baunsia bamboo vessels; occasional clay vessels acknowledged",
+        "starter_claim": "previous curd culture",
+        "agreed_by_producers": false,
+        "geography_certified": false,
+        "recipe_ready": false
+      }
     },
     {
       "id": "GI-C010",
@@ -742,7 +784,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Recover existing Manikapatna Curd application2117 original dossier; compare goods, geography and applicant representation without proposing a duplicate or promoting application to registration.",
+    "Recover Nanda etal2013 original Chilika-curd study (IJTK12(4),707–713); compare sampling, fermentation and shelf-life methods against Manikapatna application2117; preserve pH and scope hold.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."
@@ -930,6 +972,24 @@
       "observed_status": null,
       "next_action": "Recover authorized-user application or order before attributing scope or approval.",
       "retry_after": "2026-10-12"
+    },
+    {
+      "id": "GI-HOLD-MANIKAPATNA-PH",
+      "source_id": "gi-manikapatna-case2026",
+      "field": "pH",
+      "status": "unreconciled_scopes",
+      "proposed_range": [
+        4.2,
+        4.8
+      ],
+      "proposed_location": "PDF/printedp4",
+      "reported_study_mean": 3.87,
+      "reported_plus_minus": 0.07,
+      "study_location": "PDF/printedp10",
+      "unit": "pH",
+      "geography": "claimed Manikapatna product versus reported Chilika study samples; equivalence unverified",
+      "next_action": "Recover original2013 study; distinguish sampling, dates and applicant specification before reuse.",
+      "retry_after": "2026-10-06"
     }
   ],
   "textile_comparison": {

@@ -76,3 +76,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Korakhai goods annexure
 
 [Korakhai dossier](../food/korakhai-gi-evidence.md) identifies fields for producer-led definition: grain, sweetener, process, finished form, shelf life, place and representation. No compulsory formula or GI mandate is established.
+
+## Existing-application support
+
+[Manikapatna Curd review](../food/manikapatna-curd-application.md) separates applicant evidence, facilitator authorization and Registry requests. Its preparation needs original science, producer agreement and procedural follow-up; it is not a new Utkal filing.

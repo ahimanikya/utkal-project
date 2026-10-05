@@ -50,3 +50,5 @@ Foods, ingredients and culinary story opportunities.
 [Nimapada chhena jhili chronology](nimapada-jhili-evidence.md) — official name use, reported maker credit and the missing invention date.
 
 [Korakhai goods and GI evidence](korakhai-gi-evidence.md) — Old Town reputation, attributed ingredients and missing producer specification.
+
+[Manikapatna Curd application review](manikapatna-curd-application.md) — fermentation claims, existing applicant, Registry requests and breed/GI certificate distinction.

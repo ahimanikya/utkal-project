@@ -345,3 +345,7 @@ Dated name-use chronology saved; origin and producer evidence still missing. Mun
 ## RES-070 Korakhai checkpoint · 5 October 2026
 
 Goods/reputation dossier saved; producer fields remain open, facsimile retry12October. Continue with the existing Manikapatna Curd application2117 dossier to avoid duplication.
+
+## RES-070 Manikapatna checkpoint · 5 October 2026
+
+Existing application reviewed; statutory notice and breed certificate distinguished. Recover original2013 Chilika-curd paper next. Producer and procedural gaps preserved; later Registry recheck12October.

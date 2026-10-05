@@ -575,3 +575,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Korakhai goods and reputation
 
 [Research receipt](records/gi-korakhai-2026-10-05.json):Historical trade evidence connected with a BDA proposal and college promotion; no official ODOP designation, current operation or producer mandate inferred. No website release.
+
+## 5 October 2026 · Manikapatna application evidence
+
+[Research receipt](records/gi-manikapatna-2026-10-05.json):Registry notice, applicant proposal and buffalo breed certificate distinguished; pH remains unreconciled; no GI award or filing claimed. No website release.
