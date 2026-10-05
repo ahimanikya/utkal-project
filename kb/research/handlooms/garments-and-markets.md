@@ -97,3 +97,7 @@ The first six rows come from the [Bargarh district administration’s production
 The [structured form register](../references/data/creative-economy.json) preserves unknown dates and trading fields. Existing cooperative and tradition identities are reused from [handloom markets](../references/data/handloom-markets.json). Boyanika’s other advertised categories remain discovery leads until equivalent origin evidence exists.
 
 [Textile export segments](../statistics/textile-and-apparel-exports.md) — Connects documented products with sector trade while keeping production association separate from shipment evidence.
+
+## Puri gamucha inquiry
+
+The [Puri gamucha identity study](puri-gamucha-gi-study.md) distinguishes broad departmental textile geography from a reported Alangdia tradition. Fibre, form, weave and producer identity remain separate questions.

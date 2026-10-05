@@ -28,4 +28,12 @@ holds={v['id']:v for v in x.get('specification_holds',[])}
 ck(holds.get('GI-HOLD-SILAO-FAT',{}).get('status')=='conflicted','Ingredient conflict lost')
 ck(holds.get('GI-HOLD-GOA-UTENSIL',{}).get('status')=='quarantined','Utensil wording hold lost')
 ck(holds.get('GI-HOLD-GOA-ECONOMICS',{}).get('status')=='excluded_from_quantitative_comparison','Economic scope hold lost')
-print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))
+tx=x.get('textile_comparison',{})
+ck(tx.get('application_number')==594,'Textile application identity lost')
+ck({v['publication_date'] for v in tx.get('editions',[])}=={'2019-10-24','2022-08-12'},'Textile edition history lost')
+ck(not tx.get('puri_specification_established',True) and not tx.get('current_enforcement_verified',True),'Comparator promoted to Puri specification or current enforcement')
+for v in tx.get('editions',[]):ck((ROOT/('sources/'+v['source_id']+'.md')).is_file(),'Missing textile source')
+lead=next(c for c in cs if c['id']=='GI-C004')['identity_leads'][0]
+ck(not lead['confirmed_match_to_user_candidate'] and lead['technical_specification'] is None,'Reported local lead promoted')
+ck(holds.get('GI-HOLD-GAMOSA-ANAKATA',{}).get('status')=='conflicted','Textile dimension conflict lost')
+print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+1,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

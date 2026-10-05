@@ -275,3 +275,7 @@ Dairy-processing synthesis remains a draft: turnover HTML and selected historica
 ## GI comparison research · 4 October 2026
 
 Two original comparator specifications are saved with source limitations. This is dossier research, not a tested recipe, filed GI application or website publication. No human review claimed.
+
+## Textile dossier checkpoint · 5 October 2026
+
+[Puri gamucha research](../handlooms/puri-gamucha-gi-study.md) is draft documentary evidence. No producer consent, legal eligibility decision, filing-ready specification, human review or website release claimed.

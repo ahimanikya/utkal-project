@@ -329,3 +329,7 @@ Continue RES-017 with food-processing physical output and agricultural-series re
 ## Food-processing checkpoint · 4 October 2026
 
 Continue RES-017 with a bounded search for named sugar or other food-factory physical output. Reuse rice historical series and fisheries register. Dairy annual product output and mill throughput remain unavailable; retry original OMFED accounts and survey facsimile after 11 October. Do not replace output with procurement, sales, turnover or capacity.
+
+## RES-070 checkpoint · 5 October 2026
+
+Textile comparator editions and local lead saved. Candidate remains in progress; local producer/specification gaps retry12October. Next independent task: original Tirupathi Laddu specification and temple governance comparison.

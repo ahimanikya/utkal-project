@@ -512,3 +512,7 @@ Original Puri cluster/temple-food documents failed TLS validation; retry11Octobe
 ## GI specification evidence · 4 October 2026
 
 Silao and Goa original journals recovered. Silao ghee proportions conflict (20%/30%); Goa utensil wording and undated economic claims held. See [comparison](../economy/khaja-gi-comparison.md). Seek corrections on 11 October; Puri’s own specification remains absent. Next independent research: Gamosa original specification and Puri gamucha identity.
+
+## Puri textile identity · 5 October 2026
+
+Assam comparison recovered; Puri local technical specification, cooperative registration and mandate remain unavailable. Alangdia is a reported lead, not a confirmed match. Seek original local records and Anakata dimension clarification on 12 October. Next independent desk task: Tirupathi Laddu governance comparison.

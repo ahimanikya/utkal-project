@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-04T23:40:09.509522+00:00",
+  "updated_at": "2026-10-05T00:37:22.636626+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -85,12 +85,18 @@
       "research_stage": "priority_identity_dossier",
       "registry_screen": "No matching Puri gamucha name found in bounded index search",
       "reuse_paths": [
-        "handlooms/garments-and-markets.md"
+        "handlooms/garments-and-markets.md",
+        "handlooms/puri-gamucha-gi-study.md"
       ],
       "basis": "User lead plus historical Pipili gamuchha cluster listing. Does not establish one unique Puri-wide textile.",
-      "next_action": "Identify village, local/Odia name, weave, fibre, motifs and community; test any claimed Machhi/Alangadia identity independently.",
+      "next_action": "Recover original local textile and cooperative records; verify whether Machhi Gamucha is the intended Puri tradition before defining goods and production boundary.",
       "source_ids": [
-        "gi-puri-msme2019"
+        "gi-puri-msme2019",
+        "gi-gamosa-journal2019",
+        "gi-gamosa-journal2022",
+        "gi-puri-clusters",
+        "gi-alangdia-report2026",
+        "handloom-product-range"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -101,7 +107,20 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "identity_leads": [
+        {
+          "label": "Alangdia Machhi Gamucha",
+          "source_id": "gi-alangdia-report2026",
+          "evidence_class": "attributed_reporting_lead",
+          "publication_date": "2026-09-14",
+          "confirmed_match_to_user_candidate": false,
+          "technical_specification": null,
+          "producer_body_reported": "Puri Sadar Tantubaya Cooperative Society",
+          "producer_body_registration_verified": false,
+          "producer_mandate_received": false
+        }
+      ]
     },
     {
       "id": "GI-C005",
@@ -571,7 +590,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Recover Gamosa of Assam original specification for the Puri gamucha identity study; keep local identity unresolved.",
+    "Recover Tirupathi Laddu original specification; compare applicant, temple governance and inspection with unresolved Puri temple-food scope.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."
@@ -684,6 +703,84 @@
       "reason": "No sufficiently specified observation period or survey basis for a matched economic comparison.",
       "next_action": "Seek dated producer/department series with scope and units.",
       "retry_after": "2026-10-11"
+    },
+    {
+      "id": "GI-HOLD-GAMOSA-ANAKATA",
+      "source_id": "gi-gamosa-journal2022",
+      "field": "Anakata length",
+      "status": "conflicted",
+      "readings": [
+        {
+          "page": 9,
+          "min": 150,
+          "max": 200,
+          "unit": "cm"
+        },
+        {
+          "pages": [
+            12,
+            15
+          ],
+          "min": 175,
+          "max": 200,
+          "unit": "cm"
+        }
+      ],
+      "resolution": null,
+      "next_action": "Seek official clarification or certified current specification; do not silently select a minimum.",
+      "retry_after": "2026-10-12"
     }
-  ]
+  ],
+  "textile_comparison": {
+    "application_number": 594,
+    "canonical_page": "handlooms/puri-gamucha-gi-study.md",
+    "evidence_class": "advertised_applicant_specification",
+    "reference_edition": "2022-08-12",
+    "editions": [
+      {
+        "publication_date": "2019-10-24",
+        "source_id": "gi-gamosa-journal2019",
+        "pages": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "name": "Gamosa",
+        "applicant": "Institute of Handicraft Development",
+        "goods_class": 25,
+        "type_headings": 9
+      },
+      {
+        "publication_date": "2022-08-12",
+        "source_id": "gi-gamosa-journal2022",
+        "pages": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "name": "Gamosa of Assam",
+        "applicant": "Directorate of Handloom & Textiles, Assam",
+        "goods_class": 24,
+        "type_headings": 8
+      }
+    ],
+    "geography": "Assam",
+    "change_reason_verified": false,
+    "place_link_independently_verified": false,
+    "current_enforcement_verified": false,
+    "puri_specification_established": false
+  }
 }
