@@ -361,3 +361,7 @@ Attempt9 compares historical scope and current examination; revised-file review 
 ## RES-070 Part1 continuation · 5 October 2026
 
 Attempt10 completes Part1 text review and saves three scope holds. Continue with supporting annexures in Parts2–3. Task remains in progress; no filing-ready claim.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+RES-070 attempt11 records supporting-file findings without closing the parent task. Next independent work: Puri-linked food dossiers; palm-leaf documentary follow-up12October.

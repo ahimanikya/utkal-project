@@ -307,3 +307,7 @@ Comparison ready for editorial review with historical boundaries and partial-rep
 ## Palm-leaf amended-file checkpoint · 5 October 2026
 
 Part1 comparison ready for editorial review with proposed roles and economic exclusions visible. No current maker census, accepted product dimensions, verified GI premium or whole-file completion claimed. Website unchanged.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+Palm-leaf annexure checkpoint is ready for editorial review with applicant discrepancy and historical roster limits visible. No private roster rows republished. Website unchanged.

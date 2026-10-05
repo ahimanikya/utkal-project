@@ -544,3 +544,7 @@ Original2013 study recovered. Accepted pH specification, product-level safety an
 ## Palm-leaf reply continuation · 5 October 2026
 
 PDF7–90 reviewed; earlier first-six-pages checkpoint superseded for Part1 only. Parts2–3 remain unreviewed. Producer roster, map certification and appointments need documents. Prakruti measurement units, KESARADA botanical identity/distribution and product-specific economic records remain gaps; source/clarification retry12October.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+Palm-leaf Parts2–3 now partially reviewed. Need accepted applicant amendment, actual authorising resolutions, KVK-specific organisational evidence and certified map; retry12October. Historical extracts outside saved page scope remain only inventoried. Independent Puri-food work proceeds.

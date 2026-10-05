@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T12:43:24.673989+00:00",
+  "updated_at": "2026-10-05T13:51:02.068484+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -513,7 +513,7 @@
         "culture/palm-leaf-gi-applications.md"
       ],
       "basis": "Existing Puri and Odisha application identities overlap in craft naming; specifications not compared.",
-      "next_action": "Review805 reply Parts2–3 for Annexure I producer roster, society/corporation representation documents and any certified map; preserve applicant assertions, privacy and historical dates. Then resume Puri-linked food dossiers.",
+      "next_action": "Resume the Puri-linked food candidate dossiers using saved records first. Palm-leaf follow-up on 12 October: seek accepted applicant amendment, dated producer mandate and certified boundary documents; Parts2–3 historical extracts remain only inventoried outside the explicitly reviewed pages.",
       "source_ids": [
         "gi-opportunity-registry2026",
         "gi-palm-examinations2026",
@@ -798,6 +798,36 @@
                 90
               ],
               "method": "OCR text with selected facsimile verification"
+            },
+            {
+              "run_id": "2026-10-05-gi-palm-annexures",
+              "at": "2026-10-05T13:51:02.068484+00:00",
+              "part2_reviewed_pdf_pages": [
+                1,
+                2,
+                8,
+                9,
+                30,
+                32,
+                34,
+                35,
+                36,
+                38,
+                40,
+                41,
+                43
+              ],
+              "part3_reviewed_pdf_pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "method": "Focused OCR text review and selected facsimiles; remaining historical extracts inventoried only"
             }
           ],
           "visually_checked_pdf_pages": [
@@ -823,12 +853,65 @@
             89
           ],
           "part1_text_review_complete": true,
-          "unreviewed_parts": [
+          "unreviewed_parts": [],
+          "reply_query_count": 23,
+          "continued_at": "2026-10-05T13:51:02.068484+00:00",
+          "partially_reviewed_parts": [
             2,
             3
           ],
-          "reply_query_count": 23,
-          "continued_at": "2026-10-05T12:43:24.673989+00:00"
+          "annexure_review": {
+            "source_id": "gi-palm805-reply2025",
+            "part2_pages": 59,
+            "part3_pages": 89,
+            "reviewed_pdf_pages": {
+              "2": [
+                1,
+                2,
+                8,
+                9,
+                30,
+                32,
+                34,
+                35,
+                36,
+                38,
+                40,
+                41,
+                43
+              ],
+              "3": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "visually_checked_pdf_pages": {
+              "2": [
+                1,
+                2,
+                34,
+                41
+              ],
+              "3": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+              ]
+            },
+            "remaining_pages_status": "OCR inventory only; no whole-file verification",
+            "independent_corroboration": false
+          }
         },
         "price_basis": "not applicable; no economic measurement",
         "boundary_followup": {
@@ -852,7 +935,9 @@
           "source_id": "gi-palm805-reply2025",
           "source_locations": [
             "PDF9–14/printed7–12",
-            "PDF83/printed81"
+            "PDF83/printed81",
+            "Part2 PDF2,32,34–36,38,40–41",
+            "Part3 PDF1–7"
           ],
           "society_status": "applicant describes registration; supporting register not verified",
           "membership_claim": {
@@ -866,11 +951,102 @@
             "geography": "Nayakpatna",
             "survey_date": null
           },
-          "producer_roster_inspected": false,
+          "producer_roster_inspected": true,
           "current_active_producers": null,
           "authorized_user_registration_verified": false,
           "utkal_mandate_received": false,
-          "corporation_reference_not_registry_applicant_change": true
+          "corporation_reference_not_registry_applicant_change": true,
+          "submitted_form_applicants": [
+            "Odisha State Co-operative Handicrafts Corporation Ltd. (Utkalika)",
+            "Kalakruti Vikash Kendra"
+          ],
+          "registry_summary_applicant": "Kalakruti Vikash Kendra",
+          "applicant_amendment_accepted": null,
+          "corporation_bylaw_amendment": {
+            "document_date": "1985-10-10",
+            "registration_reference": "No.17 of 1984",
+            "source_location": "Part2 PDF41",
+            "area_of_operation": "Whole state of Orissa, as printed",
+            "independently_authenticated": false,
+            "is_kvk_certificate": false,
+            "is_gi_boundary": false
+          },
+          "authorising_resolution_inspected": false,
+          "roster": {
+            "source_location": "Part3 PDF1–7",
+            "award_entries_separate": true,
+            "award_list_entries": {
+              "state_awards": 20,
+              "lifetime_achievement": 2
+            },
+            "sections": [
+              {
+                "label": "First craft-person list",
+                "serial_range": [
+                  1,
+                  184
+                ],
+                "pdf_pages": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "age_reference_date": null
+              },
+              {
+                "label": "Khordha, Balianta",
+                "serial_range": [
+                  1,
+                  24
+                ],
+                "pdf_pages": [
+                  5
+                ],
+                "age_reference_date": null
+              },
+              {
+                "label": "Puri, Nimapara",
+                "serial_range": [
+                  1,
+                  15
+                ],
+                "pdf_pages": [
+                  6
+                ],
+                "age_reference_date": "2017-04-01"
+              },
+              {
+                "label": "Puri, Raghurajpur",
+                "serial_range": [
+                  1,
+                  11
+                ],
+                "pdf_pages": [
+                  6,
+                  7
+                ],
+                "age_reference_date": "2017-04-01"
+              },
+              {
+                "label": "Puri, Satyabadi",
+                "serial_range": [
+                  1,
+                  5
+                ],
+                "pdf_pages": [
+                  7
+                ],
+                "age_reference_date": "2017-04-01"
+              }
+            ],
+            "compiled_on": null,
+            "unique_people": null,
+            "current_active_producers": null,
+            "consent_verified": false,
+            "is_gi_authorized_user_register": false,
+            "personal_rows_exported": false
+          }
         },
         "proposed_watchdog": {
           "source_id": "gi-palm805-reply2025",
@@ -1215,7 +1391,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Review805 reply Parts2–3 for Annexure I producer roster, society/corporation representation documents and any certified map; preserve applicant assertions, privacy and historical dates. Then resume Puri-linked food dossiers.",
+    "Resume the Puri-linked food candidate dossiers using saved records first. Palm-leaf follow-up on 12 October: seek accepted applicant amendment, dated producer mandate and certified boundary documents; Parts2–3 historical extracts remain only inventoried outside the explicitly reviewed pages.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."
@@ -1497,6 +1673,21 @@
       "growth_rate": null,
       "gi_premium_observed": false,
       "next_action": "Recover original dated Utkalika/department accounts and product-specific records; do not fill scale or derive craft growth.",
+      "retry_after": "2026-10-12"
+    },
+    {
+      "id": "GI-HOLD-PALM-APPLICANTS",
+      "source_id": "gi-palm805-reply2025",
+      "field": "Submitted joint applicants versus Registry summary",
+      "status": "unresolved_record_scope",
+      "source_location": "Part2 PDF2/printed1 and application805 summary",
+      "submitted_applicants": [
+        "Odisha State Co-operative Handicrafts Corporation Ltd. (Utkalika)",
+        "Kalakruti Vikash Kendra"
+      ],
+      "registry_summary_applicant": "Kalakruti Vikash Kendra",
+      "accepted_amendment": null,
+      "next_action": "Locate Registry acceptance/order or reconciled applicant entry; do not turn filed form into accepted applicant change.",
       "retry_after": "2026-10-12"
     }
   ],

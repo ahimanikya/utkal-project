@@ -40,7 +40,7 @@ The797 map (PDF2) names four districts and is explicitly not to scale. Both subm
 
 The805 reply Part1 was received6January2025. Its cover is dated31December2024. PDF3/printed1 reproduces a Registry query asking whether797 and805 concern identical crafts. The reply offers a temple-linked account; its claimed origin and community exclusivity remain applicant assertions requiring independent evidence.
 
-PDF5/printed3 quotes a request to confine the classes to16. PDF6/printed4 argues for retaining class27 for non-textile wall hangings. The current summary still displays16 and27. We retain that difference rather than choosing a final classification. It does not establish that the Registry accepted the applicant's response. The first six pages were reviewed in the earlier checkpoint. The continuation below now covers the rest of Part 1 through PDF page 90, using OCR with selected facsimile checks. Parts 2–3 remain unreviewed, so this is still not a complete amended-file review.
+PDF5/printed3 quotes a request to confine the classes to16. PDF6/printed4 argues for retaining class27 for non-textile wall hangings. The current summary still displays16 and27. We retain that difference rather than choosing a final classification. It does not establish that the Registry accepted the applicant's response. The first six pages were reviewed in the earlier checkpoint. The continuation below now covers the rest of Part 1 through PDF page 90, using OCR with selected facsimile checks. Parts 2–3 are now partially reviewed in the annexure checkpoint below; this is still not a complete amended-file review.
 
 ## What the June2026 examination asks for
 
@@ -52,7 +52,7 @@ The reports also contain conditional arrangements for after registration. Those 
 
 A producer-led support pack could compare actual products, local names, participating makers, boundary evidence and proposed inspection responsibilities across both files. It should distinguish manuscripts, pictorial engraving and decorative wall hangings, with maker-approved photographs and specifications. Current maker numbers, incomes, orders, exports, accepted boundaries and producer consent remain unknown here.
 
-No merger order or final identity determination was established in the reviewed pages. No organisation has been contacted and no application has been filed by Utkal. Next: inspect the supporting annexures in Parts 2–3, particularly producer representation and certified boundaries, before advancing the Puri-linked food candidates.
+No merger order or final identity determination was established in the reviewed pages. No organisation has been contacted and no application has been filed by Utkal. Next: advance the Puri-linked food candidates while the specific palm-leaf documentary gaps below await follow-up.
 
 ## Revised reply, Part 1: what the continuation establishes
 
@@ -60,7 +60,7 @@ The [January 2025 reply](../sources/gi-palm805-reply2025.md) is an applicant sub
 
 | Question | Evidence in Part 1 | Limit on reuse |
 |---|---|---|
-| Who represents the producers? | PDF 9–14/printed 7–12 describes Kalakruti Vikash Kendra as a society, claims more than 100 artisan members and points to an Annexure I producer list | The list and membership evidence have not yet been inspected. The reply's use of “Authorized User” is not proof of a Registry authorized-user entry or authority for Utkal. |
+| Who represents the producers? | PDF 9–14/printed 7–12 describes Kalakruti Vikash Kendra as a society, claims more than 100 artisan members and points to an Annexure I producer list | The list has now been inspected in Part 3, as detailed below; membership and consent remain unverified. The reply's use of “Authorized User” is not proof of a Registry authorized-user entry or authority for Utkal. |
 | Does the revised area still include Khordha? | PDF 79/printed 77 and district tables at PDF 84 and 86 repeat the same twelve locality labels in Puri and Khordha | Grouping differs from the 2021 table. This is not twelve verified active settlements or an accepted boundary polygon. |
 | Who would monitor quality? | PDF 87–88/printed 85–86 proposes representatives of the Development Commissioner (Handicrafts), Textiles Committee, Odisha handicrafts directorate, KVK, Utkalika and two master artisans | Six numbered entries, with two people in the final entry; no appointment, consent, meeting or operating inspection evidence is established here. |
 | What are the products? | PDF 22–24 and 34–43 show named pictorial works and examples including a wall hanging, clock, box and game | The illustrations are submitted examples, not an accepted list of GI-covered goods. Some comparative manuscript images are explicitly from outside Odisha. |
@@ -82,3 +82,27 @@ The more-than-100 membership claim (PDF 10) and the more-than-500 people/about-1
 [Application preparation](../product/gi-application-preparation.md) — Turns the application comparison into evidence requests for producer representation, measurable specifications and inspection responsibilities.
 
 A useful next annexure review will locate the producer roster, organisational documents and any certified map, then record their dates, coverage and limitations. Later business work would need maker-approved product credits, comparable quotations, costs and actual orders. None of that can be replaced with statewide handicraft totals, historic photographs or a proposed GI premium. No outreach or new filing has occurred.
+
+## Supporting annexures: representation and roster · 5 October 2026
+
+The remaining two downloads of the [January 2025 submission](../sources/gi-palm805-reply2025.md) are complete: Part 2 has 59 PDF pages and Part 3 has 89. This checkpoint reviews selected organisational and roster pages; an OCR inventory of the rest is not a complete historical or legal audit.
+
+**The submitted form names two applicants.** Part 2, PDF 2/printed 1 lists Odisha State Co-operative Handicrafts Corporation Ltd. (Utkalika) and Kalakruti Vikash Kendra. It separately identifies the Development Commissioner (Handicrafts) office and Textiles Committee as facilitators. The Registry summary examined for application 805 lists KVK alone. These are different records of different scope: the filed form supplies evidence of a proposed joint application, not proof that an applicant amendment was accepted. The form's sign-off at PDF 30 has an unfilled day/month beside 2022; the January 2025 upload date cannot date every enclosed document.
+
+Part 2 contains a KVK affidavit claiming member authorisation and registration (PDF 32–35), and a corporation affidavit claiming representative authority (PDF 36–40). Statements that resolutions or certificates accompany a filing do not substitute for inspecting those instruments. The reproduced certificate at PDF 41 is specifically an **amendment of the corporation's by-laws**, dated **10 October 1985**, referring to society registration No. 17 of 1984 and a statewide area of operation. It is not KVK's registration certificate, a contemporary artisan mandate or the product's GI boundary. We have not independently authenticated it against the cooperative register or established current officeholders.
+
+**The roster is useful historical evidence, with several distinct sections.** Part 3, PDF 1–2 first lists 20 state-award entries and two lifetime-achievement entries. A separate craft-person roster then begins; the award entries must not be added to it as extra makers.
+
+| Submitted roster section | Page locator | What can safely be recorded |
+|---|---|---|
+| First craft-person list | Part 3 PDF 2–5 / printed ii–v | Serial numbers run through 184; columns include artisan-card details, with some cells marked “APPLIED FOR”. This is not a GI authorised-user register. |
+| Khordha, Balianta | Part 3 PDF 5 / printed v | A separate list numbered 1–24; its age column does not establish a dated census. |
+| Puri, Nimapara | Part 3 PDF 6 / printed vi | A separate list numbered 1–15, with age headed “as on 1/04/2017”. |
+| Puri, Raghurajpur | Part 3 PDF 6–7 / printed vi–vii | A separate list numbered 1–11, with the same age reference date. |
+| Puri, Satyabadi | Part 3 PDF 7 / printed vii | A separate list numbered 1–5, again with that age reference date. |
+
+These are **list entries, not a deduplicated count of living, active or consenting producers**. The 2017 label dates an age field; it does not establish when the entire annexure was compiled or last checked. No current employment total, collective consent, membership equivalence or market capacity is inferred. The KB retains section-level metadata only; personal addresses, family details, caste fields and identification numbers are not transcribed into its public data.
+
+Part 2 PDF 9/printed 8 repeats the Puri–Khordha locality table and refers to Annexure III for the map. This checkpoint has not verified a certified boundary instrument. Part 3 PDF 8 introduces Annexure II historical extracts; the remaining pages have been inventoried for later reuse, not adopted wholesale as independent proof. The June 2026 examination requirements remain a later procedural record.
+
+The practical next step is to obtain the accepted applicant record, actual authorising resolution, correctly identified organisational certificates and certified geographic instrument. Documentary follow-up is dated 12 October; independent Puri-food dossier work can proceed meanwhile. No producer has been contacted, no new application filed and no website publication made in this research batch.

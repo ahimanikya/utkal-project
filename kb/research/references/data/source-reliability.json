@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T12:43:24.673989+00:00",
+  "updated_at": "2026-10-05T13:51:02.068484+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9280,6 +9280,69 @@
       ],
       "failed_fetches": [],
       "note": "OCR initially failed under sandbox, succeeded with authorized local Vision access. No new PDF retrieval; historical capture retained. Financial figures excluded from craft statistics."
+    },
+    {
+      "run_id": "2026-10-05-gi-palm-annexures",
+      "at": "2026-10-05T13:51:02.068484+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-palm805-reply2025",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
+          "document_path": "805/805 - GI - FCR And Hearing Reply Part 2 - 06-01-2025.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T13:51:02.068484+00:00",
+          "document_date": "2025-01-06",
+          "date_basis": "Registry document receipt label, not date of all enclosures",
+          "pages": 59,
+          "bytes": 18653505,
+          "sha256": "7d3c7ba0de0f4e26f7989c84d3c6e9ba0fb3d01f9fa909819eceedaa7f2ff6a8",
+          "reviewed_pdf_pages": [
+            1,
+            2,
+            8,
+            9,
+            30,
+            32,
+            34,
+            35,
+            36,
+            38,
+            40,
+            41,
+            43
+          ],
+          "complete_download": true,
+          "complete_substantive_review": false,
+          "independent_corroboration": false
+        },
+        {
+          "source_id": "gi-palm805-reply2025",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
+          "document_path": "805/805 - GI - FCR And Hearing Reply Part 3 - 06-01-2025.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T13:51:02.068484+00:00",
+          "document_date": "2025-01-06",
+          "date_basis": "Registry document receipt label, not date of all enclosures",
+          "pages": 89,
+          "bytes": 24014607,
+          "sha256": "2a1638d8935572ee5dfd5e5faaede1296b6627784dc8111db19b0f02c1685517",
+          "reviewed_pdf_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "complete_download": true,
+          "complete_substantive_review": false,
+          "independent_corroboration": false
+        }
+      ],
+      "failed_fetches": [],
+      "note": "One applicant dossier, two complete supporting-file downloads. Remaining pages inventoried only. Private roster details not exported."
     }
   ]
 }

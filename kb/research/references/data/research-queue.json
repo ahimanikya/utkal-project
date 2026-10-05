@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T12:43:24.673989+00:00",
+  "updated_at": "2026-10-05T13:51:02.068484+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 10,
+      "attempts": 11,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T12:43:24.673989+00:00",
-      "next_step": "Review805 reply Parts2–3 for Annexure I producer roster, society/corporation representation documents and any certified map; preserve applicant assertions, privacy and historical dates. Then resume Puri-linked food dossiers.",
+      "last_worked_at": "2026-10-05T13:51:02.068484+00:00",
+      "next_step": "Resume the Puri-linked food candidate dossiers using saved records first. Palm-leaf follow-up on 12 October: seek accepted applicant amendment, dated producer mandate and certified boundary documents; Parts2–3 historical extracts remain only inventoried outside the explicitly reviewed pages.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4233,6 +4233,12 @@
           "run_id": "2026-10-05-gi-palm-reply",
           "at": "2026-10-05T12:43:24.673989+00:00",
           "outcome": "part1_text_review_completed_proposed_controls_and_repeated_geography_saved_financial_and_technical_scope_holds_added",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-palm-annexures",
+          "at": "2026-10-05T13:51:02.068484+00:00",
+          "outcome": "supporting_annexures_reviewed_with_page_scope_historical_rosters_and_corporation_certificate_recorded_joint_applicant_discrepancy_held",
           "completion_criteria_met": false
         }
       ],

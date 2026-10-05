@@ -92,3 +92,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Evidence requests after the palm-leaf reply
 
 [Part1 review](../culture/palm-leaf-gi-applications.md): check the producer roster and organisational authority; obtain units for each illustrated measurement; distinguish proposed watchdog roles from accepted appointments; and request product-specific costs and orders. A projected GI premium or statewide sales total cannot fill a craft business plan.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+The [palm-leaf annexure review](../culture/palm-leaf-gi-applications.md) supplies a useful distinction: an old craft list, a claimed mandate, a corporation certificate and a submitted joint form answer different questions. Verify each entity and date; obtain the actual resolution and accepted applicant record before describing filing readiness.

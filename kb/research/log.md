@@ -582,3 +582,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Palm-leaf reply continuation · 5 October 2026
 
 Completed Part1 text review with key facsimile checks. Recorded producer representation claims and proposed watchdog; preserved Puri–Khordha scope. Added dimension, plant and finance holds. Parts2–3 remain open. No filing, outreach or website publication.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+Palm-leaf supporting annexures reviewed within explicit page scope: submitted joint applicants differ from summary; historical roster sections and corporation certificate recorded. No current maker count or accepted amendment inferred. RES-070 remains open.

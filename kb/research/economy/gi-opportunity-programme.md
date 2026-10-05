@@ -127,3 +127,7 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Palm-leaf revised reply · 5 October 2026
 
 Part1 text review is complete. [The comparison](../culture/palm-leaf-gi-applications.md) now records repeated locality scope, proposed quality monitoring and representation claims. Broader handicraft figures, unlabelled dimensions and a plant exclusivity claim remain held. Parts2–3 next; no new filing.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+The [palm-leaf annexures](../culture/palm-leaf-gi-applications.md) contain historic maker-list sections and a corporation by-law amendment, but do not settle present producer representation. Submitted joint applicants differ from the Registry summary; this is held for reconciliation, not a new filing opportunity.
