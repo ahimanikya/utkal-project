@@ -373,3 +373,7 @@ RES-070 attempt12 saves the Gaja/Kanti identity checkpoint. Next: existing poda 
 ## Poda/arisa scope · 5 October 2026
 
 RES-070 attempt13 saves poda/arisa place and variant evidence. Next independent task is the twelve-lead readiness matrix. Producer/custodian and unavailable-source follow-up remains12October.
+
+## GI readiness matrix · 5 October 2026
+
+RES-070 attempt14 completes a synthesis checkpoint, not the wider programme. Local source follow-up12October and participant evidence remain open; continue RES-070 with independent international original-specification depth. RES-067 still depends on unfinished RES-064.

@@ -122,3 +122,7 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 [Odisha’s GI inventory](../collections/odisha-gi-products.md) — all 26 Odisha entries in the official list as of 31 December 2025, with product/logo distinctions and 4 October 2026 application checks.
 
 [GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.
+
+## GI readiness matrix · 5 October 2026
+
+[GI evidence readiness](../economy/gi-readiness-matrix.md) — twelve existing leads, their next evidence products and participant dependencies; no forecast returns or filing claims.

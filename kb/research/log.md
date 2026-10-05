@@ -594,3 +594,7 @@ Added Gaja/Kanti identity dossier, recovered the existing IHM/NCHM chapter and h
 ## Poda/arisa scope · 5 October 2026
 
 Added GI-C011/012 place-association comparison and dated official festival sources. Reused institutional preparation captures; retained unresolved local specification, producer authority and economics. No filing or website release.
+
+## GI readiness matrix · 5 October 2026
+
+Completed a twelve-lead GI synthesis matrix using saved evidence. Four routes separate documentary work, identity decisions, custodianship and existing-file support. RES-070 remains unfinished; original international specification research continues next while local source retries remain12October. No new source check or website release.

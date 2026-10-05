@@ -139,3 +139,7 @@ The [palm-leaf annexures](../culture/palm-leaf-gi-applications.md) contain histo
 ## Poda/arisa scope · 5 October 2026
 
 [Poda/arisa comparison](../food/poda-arisa-place-evidence.md) extends GI-C011/012. Saved recipe variants and new official festival evidence leave local goods scope unresolved. Next: comparative readiness and evidence-priority matrix across the twelve-lead pilot.
+
+## GI readiness matrix · 5 October 2026
+
+[Twelve-lead readiness matrix](gi-readiness-matrix.md) now identifies each next evidence product, participant dependency and interpretation limit. Four work routes are editorial, not eligibility scores. No new nomination or Registry search. Original international specifications remain the next independent RES-070 task; local source retries stay dated12October.

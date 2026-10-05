@@ -319,3 +319,7 @@ Gaja/Kanti dossier is a research draft. Clearly labels indexed-only passages, re
 ## Poda/arisa scope · 5 October 2026
 
 Poda/arisa comparison is a research draft with dated source scopes and no filing-readiness claim. Preparation descriptions are untested and no consumer shelf-life or economic forecast is adopted.
+
+## GI readiness matrix · 5 October 2026
+
+GI readiness matrix is a research synthesis of twelve pilot leads. Route counts describe this KB, not Odisha totals. No eligibility score, human review, appointment, filing or website publication is implied.
