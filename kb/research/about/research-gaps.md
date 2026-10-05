@@ -536,3 +536,15 @@ Original2013 science, sampling/specification reconciliation, accepted boundary, 
 ## Curd science gaps · 5 October 2026
 
 Original2013 study recovered. Accepted pH specification, product-level safety and2024 C-8/C-10 identity remain open; clarification retry12October. The cited2020 study is an unreviewed lead. Independent palm-leaf application comparison next.
+
+## Palm-leaf GI gaps · 5 October 2026
+
+805 reply Part1 recovered completely, first6of90pages reviewed. Resume at PDF7; later parts await review. Accepted boundary, identity ruling, final goods classes and current producer mandate remain unknown. Registry status recheck12October2026; independent substantive review can continue now.
+
+## Palm-leaf reply continuation · 5 October 2026
+
+PDF7–90 reviewed; earlier first-six-pages checkpoint superseded for Part1 only. Parts2–3 remain unreviewed. Producer roster, map certification and appointments need documents. Prakruti measurement units, KESARADA botanical identity/distribution and product-specific economic records remain gaps; source/clarification retry12October.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+Palm-leaf Parts2–3 now partially reviewed. Need accepted applicant amendment, actual authorising resolutions, KVK-specific organisational evidence and certified map; retry12October. Historical extracts outside saved page scope remain only inventoried. Independent Puri-food work proceeds.

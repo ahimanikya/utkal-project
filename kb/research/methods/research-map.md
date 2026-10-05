@@ -527,3 +527,11 @@ GI-C009 now reuses application2117 review and four source records. Archaeologica
 ## Curd science extension · 5 October 2026
 
 GI-C009 now maps original2013 study and2024 follow-up. Applicant reproduction is not independent research; earlier cultures reused in later experiments do not constitute a new producer survey.
+
+## Palm-leaf GI extension · 5 October 2026
+
+Existing craft and NID records reused for GI-C010. Added original797/805 submissions, June2026 notices and a partial review of805 January2025 reply. Reproduced sources remain one evidence family.
+
+## Palm-leaf reply reuse · 5 October 2026
+
+Reused the exact saved Part1 PDF and existing source identity. Extended GI-C010 with page-specific findings; no new craft or source family. Parts2–3 remain the next documentary gap.

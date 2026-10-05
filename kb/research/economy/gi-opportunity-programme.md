@@ -119,3 +119,15 @@ Establish baselines for active producers, participation of smaller makers, autho
 ## Curd science checkpoint · 5 October 2026
 
 [Original science review](../food/chilika-curd-science.md) strengthens GI-C009 evidence provenance while keeping product safety, geographic uniqueness and pH specification open. Next: compare palm-leaf applications797/805 for GI-C010.
+
+## Palm-leaf checkpoint · 5 October 2026
+
+[Existing application comparison](../culture/palm-leaf-gi-applications.md) strengthens GI-C010:2021 scope overlap,2025 identity/class questions and2026 examination requirements. Support needs producer authority and a complete revised-file review; no duplicate proposal.
+
+## Palm-leaf revised reply · 5 October 2026
+
+Part1 text review is complete. [The comparison](../culture/palm-leaf-gi-applications.md) now records repeated locality scope, proposed quality monitoring and representation claims. Broader handicraft figures, unlabelled dimensions and a plant exclusivity claim remain held. Parts2–3 next; no new filing.
+
+## Palm-leaf supporting annexures · 5 October 2026
+
+The [palm-leaf annexures](../culture/palm-leaf-gi-applications.md) contain historic maker-list sections and a corporation by-law amendment, but do not settle present producer representation. Submitted joint applicants differ from the Registry summary; this is held for reconciliation, not a new filing opportunity.
