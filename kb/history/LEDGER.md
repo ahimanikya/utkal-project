@@ -994,3 +994,9 @@ Five illustrated trails can now be compared before the featured story. Interests
 Find your trail is published with five visual comparisons, interests and consistent planning cues. Live delivery checks confirmed the photographs, filter script and connections to existing stories and saved journeys. Rendered browser and assistive-technology checks remain open.
 
 [Publication evidence](../records/find-your-trail-publication-2026-10-04.json) · [PR112](https://github.com/ahimanikya/utkal-project/pull/112).
+
+## UTP-HIS-0236 · From a clipping to a practical tourism pilot
+
+A newspaper clipping connected the public tourism opportunity with Utkal’s knowledge work. The Founder asked for actionable documentation; the resulting plan links cultural experiences, local enterprise and future Boita policy work while keeping proposals separate from delivery.
+
+[Action plan](../specs/tourism-experience-pilot.md). Documentation prepared; fieldwork and partnerships are not established.

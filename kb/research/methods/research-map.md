@@ -397,3 +397,7 @@ RES-054 reuses Baphlimali records and existing air data, adding three source ide
 ### Mining evidence follow-up · 3 October 2026
 
 Four source identities extend the existing land-and-people collection. An NGT applicant annex is not a judgment; a committee account is not signed village minutes. Table4 row/total conflict held. RES-054 remains open for named source clarification and implementation records.
+
+## Tourism opportunity follow-through
+
+The [tourism pilot](../../specs/tourism-experience-pilot.md), [evidence brief](../collections/tourism-policy-opportunity.md) and [experience template](../../models/tourism-experience-record.md) extend existing visitor and investment work. Search terms include MICE, tourism and Boita. Canonical follow-up status is in the project work register, not duplicated in the historical research queue. Official rules and local operating details remain open evidence tasks.

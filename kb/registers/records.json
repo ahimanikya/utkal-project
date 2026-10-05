@@ -4790,6 +4790,387 @@
         "records/planner-visual-review-2026-10-04.json",
         "records/planner-visual-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-165",
+      "title": "Document an actionable tourism experience pilot",
+      "category": "planning",
+      "status": "completed",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-202",
+      "next_action": "Start official guidance verification and the existing-KB desk shortlist. Pilot delivery remains proposed.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-REV-143"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-166",
+      "title": "Verify official tourism guidance and portal",
+      "category": "tourism_pilot",
+      "status": "ready",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Read official notification, guidelines and portal; record clause-level eligibility and unresolved questions.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Official URL traced to government, effective versions captured, event/capital schemes distinguished and uncertain fields retained. No application submitted."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-167",
+      "title": "Audit existing cultural experience candidates",
+      "category": "tourism_pilot",
+      "status": "ready",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Reuse Puri, Cuttack and Bhubaneswar records to prepare up to 30 desk leads.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Each lead links existing KB evidence, identifies missing operating fields and states that no host is yet confirmed."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-168",
+      "title": "Prepare pilot capacity and fieldwork budget",
+      "category": "tourism_pilot",
+      "status": "ready",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Estimate coordinator effort, field costs and proposed payer; present options to the Founder.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Human roles remain vacant until accepted; cost estimate identifies compensation, travel and contingency without committing funds."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-169",
+      "title": "Select local shortlist and prepare introductions",
+      "category": "tourism_pilot",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Rank leads for local benefit and practical feasibility; draft specific introductions for review.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-167",
+        "UTP-WORK-168"
+      ],
+      "acceptance_criteria": [
+        "Founder-selected shortlist and named recipient/message approval before any contact; no claim of partner consent."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165",
+        "UTP-WORK-167",
+        "UTP-WORK-168"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-170",
+      "title": "Confirm hosts and experience information",
+      "category": "tourism_pilot",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "After outreach authorization and privacy arrangements, collect dated confirmations.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-169"
+      ],
+      "acceptance_criteria": [
+        "Up to 20 records meet the template with willing hosts, limitations and public-data permission; report actual count, not assumed target."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165",
+        "UTP-WORK-169"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-171",
+      "title": "Prepare three conference visitor itinerary drafts",
+      "category": "tourism_pilot",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Draft heritage, craft and food itineraries using confirmed records.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-170"
+      ],
+      "acceptance_criteria": [
+        "Three timed drafts identify capacity, transport buffers, provider-confirmed costs, alternatives and verification dates; no saleable package implied."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165",
+        "UTP-WORK-170"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-172",
+      "title": "Assess operator readiness and trial proposal",
+      "category": "tourism_pilot",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Document delivery gaps and prepare a bounded trial with budget and permissions.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-170",
+        "UTP-WORK-171"
+      ],
+      "acceptance_criteria": [
+        "Readiness assessment distinguishes unknown from failed; trial scope, hosts, permissions and costs ready for human decision, not booked."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165",
+        "UTP-WORK-170",
+        "UTP-WORK-171"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-173",
+      "title": "Prepare Boita policy and entrepreneurship brief",
+      "category": "tourism_pilot",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Synthesize observed barriers and practical recommendations in a five-page proposal.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-172"
+      ],
+      "acceptance_criteria": [
+        "Evidence links, local benefit, implementation owner proposals, costs and specific requests; Boita status and commercial interests explicit."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165",
+        "UTP-WORK-172"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-174",
+      "title": "Specify tourism opportunities website section",
+      "category": "tourism_pilot",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Define public scheme explanations and reviewed experience links for a later website batch.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-166",
+        "UTP-WORK-171"
+      ],
+      "acceptance_criteria": [
+        "Content requirements include official links, checked dates, corrections and no entitlement or booking claims; implementation/publication separately reviewed."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165",
+        "UTP-WORK-166",
+        "UTP-WORK-171"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-175",
+      "title": "Prepare authorized engagement and outcome review",
+      "category": "tourism_pilot",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
+      "authorization": "UTP-DEC-202",
+      "next_action": "Prepare recipient-specific discussion pack and a measurement plan for Founder review.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-173"
+      ],
+      "acceptance_criteria": [
+        "Recipients and messages reviewed before sending; track acknowledgment, acceptance, trials and actual local payments separately; no fabricated results."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md",
+        "research/visitor-index/puri-providers.md",
+        "research/visitor-index/areas/puri-crafts.md",
+        "specs/global-connections.md"
+      ],
+      "refs": [
+        "UTP-DEC-202",
+        "UTP-WORK-165",
+        "UTP-WORK-173"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
+      ]
     }
   ],
   "decisions": [
@@ -8804,6 +9185,25 @@
       "evidence": [
         "records/planner-visual-publication-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-202",
+      "title": "Make the tourism opportunity actionable in project documentation",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's use this clue and enhance our documentation so that we can make them actionable",
+      "scope": "Prepare linked pilot documentation, source gaps, reusable experience template and canonical follow-up work. No new institutional affiliation, appointment, external message or spending commitment.",
+      "recorded_at": "2026-10-05T02:57:03.227103+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-165"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md"
+      ]
     }
   ],
   "requirements": [
@@ -12177,6 +12577,30 @@
       "evidence": [
         "records/planner-visual-review-2026-10-04.json",
         "records/planner-visual-publication-2026-10-04.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-143",
+      "title": "Tourism action documentation self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No local host verification or field trial has occurred.",
+        "Official MICE endpoint and detailed scheme rules remain unverified; source leads are labelled accordingly.",
+        "Pilot targets, capacity, budget, human appointments and external engagement remain proposed."
+      ],
+      "refs": [
+        "UTP-WORK-165",
+        "UTP-DEC-202"
+      ],
+      "evidence": [
+        "specs/tourism-experience-pilot.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "models/tourism-experience-record.md"
       ]
     }
   ],

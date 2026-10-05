@@ -113,3 +113,5 @@ Visitor experience release: [PR 23 publication evidence](records/visitor-experie
 - [Cultural reading-flow review](records/culture-flow-review.json) — six-page responsive review and maker-cover refinements; [published as UTP-REL-048](records/culture-flow-publication.json).
 
 - [Global Connections: section and future initiative](specs/global-connections.md)
+
+- [Tourism experience pilot](specs/tourism-experience-pilot.md) — actionable plan, evidence gaps, local-confirmation template and tracked work.

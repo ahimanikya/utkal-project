@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2d822c898a367784ef70c94917504ef6cd8df38817acc983cda5340431a15a8d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e5d97490798a75743909b7d6e4446235f05eda0292015f2049f1d98a8dbcd1fe`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -177,6 +177,17 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-162 · Find your trail comparison and interest filters | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Rendered browser, screen-reader and physical-device review and Search Console processing remain separate follow-ups. | — |
 | UTP-WORK-163 · Make this journey yours: guided day planning | completed | applied | Ahimanikya Satapathy | Published; bounded visual and Chrome PDF review and resulting fixes completed under UTP-WORK-164 and UTP-REL-070. Physical-device, screen-reader and Search Console follow-ups remain open. | — |
 | UTP-WORK-164 · Planner visual and Chrome PDF review with usability fixes | completed | applied | Ahimanikya Satapathy | Published and live-delivery/Chrome interaction verified. Physical-device, screen-reader, large/illustrated PDF samples and Search Console remain separate follow-ups. | — |
+| UTP-WORK-165 · Document an actionable tourism experience pilot | completed | draft | Ahimanikya Satapathy | Start official guidance verification and the existing-KB desk shortlist. Pilot delivery remains proposed. | — |
+| UTP-WORK-166 · Verify official tourism guidance and portal | ready | concept | Ahimanikya Satapathy | Read official notification, guidelines and portal; record clause-level eligibility and unresolved questions. | — |
+| UTP-WORK-167 · Audit existing cultural experience candidates | ready | concept | Ahimanikya Satapathy | Reuse Puri, Cuttack and Bhubaneswar records to prepare up to 30 desk leads. | — |
+| UTP-WORK-168 · Prepare pilot capacity and fieldwork budget | ready | concept | Ahimanikya Satapathy | Estimate coordinator effort, field costs and proposed payer; present options to the Founder. | — |
+| UTP-WORK-169 · Select local shortlist and prepare introductions | proposed | concept | Ahimanikya Satapathy | Rank leads for local benefit and practical feasibility; draft specific introductions for review. | — |
+| UTP-WORK-170 · Confirm hosts and experience information | proposed | concept | Ahimanikya Satapathy | After outreach authorization and privacy arrangements, collect dated confirmations. | — |
+| UTP-WORK-171 · Prepare three conference visitor itinerary drafts | proposed | concept | Ahimanikya Satapathy | Draft heritage, craft and food itineraries using confirmed records. | — |
+| UTP-WORK-172 · Assess operator readiness and trial proposal | proposed | concept | Ahimanikya Satapathy | Document delivery gaps and prepare a bounded trial with budget and permissions. | — |
+| UTP-WORK-173 · Prepare Boita policy and entrepreneurship brief | proposed | concept | Ahimanikya Satapathy | Synthesize observed barriers and practical recommendations in a five-page proposal. | — |
+| UTP-WORK-174 · Specify tourism opportunities website section | proposed | concept | Ahimanikya Satapathy | Define public scheme explanations and reviewed experience links for a later website batch. | — |
+| UTP-WORK-175 · Prepare authorized engagement and outcome review | proposed | concept | Ahimanikya Satapathy | Prepare recipient-specific discussion pack and a measurement plan for Founder review. | — |
 
 ## Pending human review and decisions
 
@@ -440,6 +451,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-199 · Publish approved Make this journey yours planner | approved | Ahimanikya Satapathy | Merge PR115 and publish the reviewed planner and tour-book summaries through Pages. |
 | UTP-DEC-200 · Review the planner visually and in PDF | approved | Ahimanikya Satapathy | Complete the pending visual and native PDF review of the published planner; repair observed usability issues for review. |
 | UTP-DEC-201 · Publish approved planner visual-review fixes | approved | Ahimanikya Satapathy | Merge PR119 and publish the reviewed notebook, focus and PDF-pagination fixes. |
+| UTP-DEC-202 · Make the tourism opportunity actionable in project documentation | recorded_direction | Ahimanikya Satapathy | Prepare linked pilot documentation, source gaps, reusable experience template and canonical follow-up work. No new institutional affiliation, appointment, external message or spending commitment. |
 
 ## Reviews
 
@@ -585,6 +597,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-140 | pass_with_limitations | False | No new rendered-browser, interactive browser, screen-reader, physical-device or native PDF pass. The prior administrator-enforced browser security-policy verification block remains unresolved.; Planning cues reuse existing trail research. No new local confirmation, transfer-time estimate, accessibility rating or current service availability is claimed.; Search Console processing was not rechecked. |
 | UTP-REV-141 | pass_with_limitations | False | No new rendered-browser, interactive-browser, screen-reader, physical-device or native PDF pass. The prior administrator-enforced browser security-policy verification block remains unresolved.; Day outlines are visitor-written planning notes, not verified bookings, timed routes or confirmation of arrangements.; Search Console processing was not rechecked. |
 | UTP-REV-142 | pass_with_limitations | False | Chrome desktop responsive viewports are not physical phone/tablet testing or a screen-reader pass.; PDFs use Chrome Page.printToPDF through the supported browser capability; native OS print-dialog controls and a physical printer were not exercised.; Bounded fixture: one Chilika place, two days, Odia text, appended outline and one personal reminder. Large plans and illustrated-book PDFs were not visually rechecked.; Local review PDFs contain localhost reading links because they were exported from the local candidate. They are QA evidence, not visitor travel books.; Search Console processing remains open. |
+| UTP-REV-143 | pass_with_limitations | False | No local host verification or field trial has occurred.; Official MICE endpoint and detailed scheme rules remain unverified; source leads are labelled accordingly.; Pilot targets, capacity, budget, human appointments and external engagement remain proposed. |
 
 ## Publication and application history
 
@@ -697,7 +710,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-227 | 2026-10-04T16:28:59.744018+00:00 | Prepared three illustrated Balasore chapters, preserving the five-idea starter and adding matching portable-book chapters, shore/literary contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 | UTP-EVT-228 | 2026-10-04T16:39:23.083724+00:00 | Published approved PR101 through Pages. Verified live Balasore chapters, three photographs, guide links, contribution context and five-idea starter. Live-data offline export embedded three photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-229 | 2026-10-04T17:00:08.146247+00:00 | Prepared three photographed Mayurbhanj chapters, preserving the five-idea starter and adding matching portable-book chapters, forest/performance contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 | UTP-EVT-230 | 2026-10-04T21:13:39.675521+00:00 | Published approved PR104 through Pages. Verified live Mayurbhanj chapters, three photographs, guide links, contribution context and five-idea starter. Live-data offline export embedded three photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
@@ -707,6 +719,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-234 | 2026-10-04T23:13:52.469780+00:00 | Published approved PR115 through Pages. Verified the live planner controls, shared journey payload and matching script/style assets for guided day planning and portable summaries. | Published and live-delivery verified. Rendered browser, native PDF, screen-reader and physical-device review and Search Console processing remain separate follow-ups. |
 | UTP-EVT-235 | 2026-10-04T23:54:22.980161+00:00 | Chrome access succeeded. Reviewed live and local planner, responsive widths and 17 final PDF pages. Prepared fixes for notebook height, reminder focus and question-list pagination; privacy and selected-day PDF checks passed. | Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups. |
 | UTP-EVT-236 | 2026-10-05T00:38:12.384650+00:00 | Published approved PR119 through Pages. Matching delivery hashes and live Chrome checks confirm the reviewed notebook and reminder-focus fixes; native print-grouping code matches the PDF-reviewed candidate. | Published and live-delivery/Chrome interaction verified. Physical-device, screen-reader, large/illustrated PDF samples and Search Console remain separate follow-ups. |
+| UTP-EVT-237 | 2026-10-05T02:57:03.227103+00:00 | Converted the Founder-shared tourism portal clue into a linked pilot brief, evidence register, experience template and ten dependent follow-up tasks. | Verify official guidance and reuse the KB for a desk shortlist; prepare field capacity before outreach. |
 
 ## Deferred extensions
 
