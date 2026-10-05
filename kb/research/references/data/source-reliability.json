@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T11:46:55.931245+00:00",
+  "updated_at": "2026-10-05T12:43:24.673989+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9114,7 +9114,7 @@
       "source_checks": [
         {
           "source_id": "gi-palm-examinations2026",
-          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/797",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
           "document_endpoint": "https://search.ipindia.gov.in/GIRPublicSearch/Application/ViewDocument",
           "document_path": "805/805 - Examination Report - 04-06-2026.pdf",
           "retrieved_at": "2026-10-05T11:46:55.931245+00:00",
@@ -9126,7 +9126,12 @@
           "sha256": "8ccd1361fc9638375c6c506099bbc1941ee24c38500197a7d38a76ca99fac0df",
           "source_location": "All three pages; 17 numbered requirements",
           "evidence_class": "regulator_examination_notice",
-          "independent_corroboration": false
+          "independent_corroboration": false,
+          "locator_correction": {
+            "at": "2026-10-05T12:43:24.673989+00:00",
+            "prior_landing_application": 797,
+            "document_identity_and_hash_unchanged": true
+          }
         },
         {
           "source_id": "gi-palm797-submission2021",
@@ -9246,6 +9251,35 @@
         }
       ],
       "note": "Applicant claims not accepted specifications. Same reproduced material is not independent corroboration;2025 revised file only partially read."
+    },
+    {
+      "run_id": "2026-10-05-gi-palm-reply",
+      "at": "2026-10-05T12:43:24.673989+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-palm805-reply2025",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
+          "status": "available_saved_copy_reused",
+          "document_path": "805/805 - GI - FCR And Hearing Reply Part 1 - 06-01-2025.pdf",
+          "reviewed_at": "2026-10-05T12:43:24.673989+00:00",
+          "document_date": "2025-01-06",
+          "date_basis": "Registry receipt; cover31December2024",
+          "pages": 90,
+          "source_location": "New OCR review PDF7–90; visual checks7–14,22,79,84,86,88,89",
+          "sha256": "4a9886f43391b52f4a43e915534c07b058664a8fe5c35eb6b1fdc3efb6dab362",
+          "scope": "Part1 complete text review only; Parts2–3 unreviewed",
+          "independent_corroboration": false
+        },
+        {
+          "source_id": "gi-opportunity-registry2026",
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/805",
+          "status": "available",
+          "method": "web reader",
+          "scope": "Document discovery;805 lists reply Parts1–3, Examination and classes16,27. Web cache is not a fresh independent live Registry audit."
+        }
+      ],
+      "failed_fetches": [],
+      "note": "OCR initially failed under sandbox, succeeded with authorized local Vision access. No new PDF retrieval; historical capture retained. Financial figures excluded from craft statistics."
     }
   ]
 }

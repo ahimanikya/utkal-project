@@ -578,3 +578,7 @@ Added [Odisha GI inventory](collections/odisha-gi-products.md): 26 dated list en
 ## Palm-leaf GI scopes · 5 October 2026
 
 [Two existing applications compared](culture/palm-leaf-gi-applications.md). Historical boundaries overlap;2025 reply records identity/class questions;2026 reports request corrections. Revised-file review remains unfinished. No filing or website release.
+
+## Palm-leaf reply continuation · 5 October 2026
+
+Completed Part1 text review with key facsimile checks. Recorded producer representation claims and proposed watchdog; preserved Puri–Khordha scope. Added dimension, plant and finance holds. Parts2–3 remain open. No filing, outreach or website publication.

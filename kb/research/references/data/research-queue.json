@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T11:46:55.931245+00:00",
+  "updated_at": "2026-10-05T12:43:24.673989+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 9,
+      "attempts": 10,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T11:46:55.931245+00:00",
-      "next_step": "Resume805 reply Part1 from PDF7 and compare revised goods, producer representation and geography against2021 submissions; then inspect Parts2–3 as needed. Preserve797/805 distinction; no duplicate filing.",
+      "last_worked_at": "2026-10-05T12:43:24.673989+00:00",
+      "next_step": "Review805 reply Parts2–3 for Annexure I producer roster, society/corporation representation documents and any certified map; preserve applicant assertions, privacy and historical dates. Then resume Puri-linked food dossiers.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4227,6 +4227,12 @@
           "run_id": "2026-10-05-gi-palm",
           "at": "2026-10-05T11:46:55.931245+00:00",
           "outcome": "palm_leaf_original_scopes_and_examination_compared_revised_reply_partially_reviewed",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-palm-reply",
+          "at": "2026-10-05T12:43:24.673989+00:00",
+          "outcome": "part1_text_review_completed_proposed_controls_and_repeated_geography_saved_financial_and_technical_scope_holds_added",
           "completion_criteria_met": false
         }
       ],

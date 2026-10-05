@@ -540,3 +540,7 @@ Original2013 study recovered. Accepted pH specification, product-level safety an
 ## Palm-leaf GI gaps · 5 October 2026
 
 805 reply Part1 recovered completely, first6of90pages reviewed. Resume at PDF7; later parts await review. Accepted boundary, identity ruling, final goods classes and current producer mandate remain unknown. Registry status recheck12October2026; independent substantive review can continue now.
+
+## Palm-leaf reply continuation · 5 October 2026
+
+PDF7–90 reviewed; earlier first-six-pages checkpoint superseded for Part1 only. Parts2–3 remain unreviewed. Producer roster, map certification and appointments need documents. Prakruti measurement units, KESARADA botanical identity/distribution and product-specific economic records remain gaps; source/clarification retry12October.

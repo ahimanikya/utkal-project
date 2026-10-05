@@ -88,3 +88,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Existing-file comparison
 
 [Palm-leaf applications](../culture/palm-leaf-gi-applications.md) demonstrate why titles, summary classes and historical maps cannot be treated as accepted final scope. Compare amendments and producer representation before drafting support.
+
+## Evidence requests after the palm-leaf reply
+
+[Part1 review](../culture/palm-leaf-gi-applications.md): check the producer roster and organisational authority; obtain units for each illustrated measurement; distinguish proposed watchdog roles from accepted appointments; and request product-specific costs and orders. A projected GI premium or statewide sales total cannot fill a craft business plan.
