@@ -1,0 +1,79 @@
+{
+  "title": "Planner visual-review fixes published",
+  "recorded_at": "2026-10-05T00:38:12.384650+00:00",
+  "status": "published",
+  "authorization": {
+    "id": "UTP-DEC-201",
+    "quote": "Approved",
+    "context": "Founder approved PR119 for merge and deployment."
+  },
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/119",
+  "approved_head": "83da8cddade0f23bbc447b42ef2fba2772fb6cbd",
+  "commit": "667facb789f3dc4c8d24655d9934f5c373b4ea45",
+  "review_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37245506454",
+  "deployment_run": "https://github.com/ahimanikya/utkal-project/actions/runs/37248070384",
+  "deployment_result": "success",
+  "destination": "https://utkalproject.org/journey/",
+  "live_verification": {
+    "checked_at": "2026-10-05T00:37:18.951771+00:00",
+    "scope": "Live HTTPS HTML, embedded journey data and script/style hashes; not rendered browser or interactive testing.",
+    "routes_checked": [
+      "/journey/",
+      "/",
+      "/journey-starters/",
+      "/journey-starters/mayurbhanj/"
+    ],
+    "heading_and_coach_controls_present": true,
+    "single_add_day_action": true,
+    "existing_privacy_and_recovery_controls_present": true,
+    "shared_journey_payload_matches": true,
+    "assets": [
+      {
+        "path": "/_astro/Shell.astro_astro_type_script_index_0_lang.Btu0yj6e.js",
+        "sha256": "e70edcc3f1d72b64942f1d576c9d9c99e8276254db6428d9b76e986a3262350c",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/Shell.astro_astro_type_script_index_1_lang.BqxKUMJI.js",
+        "sha256": "0e2e1ef6a4070feda272aababc8ca1afc9ff3b6e66c82a74285d9f9c5bc800fe",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/journey.DdFEW8vw.css",
+        "sha256": "621a58b3903a93f29a8f5e62409443926f9b572f71b153c5a681c895f7c457ae",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/Shell.d3Ts9MjH.css",
+        "sha256": "e6e5e23768aa57a7d17adca41d3f120782e8c2961bf6fd6938b08bfe47fb97ff",
+        "matches_reviewed_build": true
+      },
+      {
+        "path": "/_astro/journey.Reb9h2EA.js",
+        "sha256": "794bba546b8b089ac7090d52aad2b05e6a49d2cdcd7f21bd268f7044ffbf6f84",
+        "matches_reviewed_build": true
+      }
+    ],
+    "search_hold_preserved": true
+  },
+  "chrome_verification": {
+    "checked_at": "2026-10-05T00:37:54.651Z",
+    "route": "https://utkalproject.org/journey/",
+    "notebook_height_pixels": 300,
+    "existing_notes_and_outline_preserved": true,
+    "reminder_focus": "new-reminder",
+    "fixture": "Existing synthetic Utkal QA — day planning",
+    "original_journey_reselected": true
+  },
+  "pdf_evidence": "records/planner-visual-review-2026-10-04.json",
+  "limitations": [
+    "Prior A4 and Letter rendering evidence is retained; this release checks that the same reviewed print code is delivered.",
+    "Physical-device, screen-reader, native OS print-dialog and physical-printer checks remain open.",
+    "The Chrome fixture remains a bounded synthetic two-day Chilika plan. Search Console processing was not rechecked."
+  ],
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false
+}
