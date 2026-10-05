@@ -84,3 +84,7 @@ Subject membership is editorial classification. It does not establish historical
 ## Food-processing evidence · 4 October 2026
 
 [The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+[Gaja and Kanti](../food/gaja-kanti-evidence.md) — how source-specific food names and ingredients shape careful recipe and heritage research.

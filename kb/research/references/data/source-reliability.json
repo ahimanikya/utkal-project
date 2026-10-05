@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T13:51:02.068484+00:00",
+  "updated_at": "2026-10-05T14:52:38.614943+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9343,6 +9343,121 @@
       ],
       "failed_fetches": [],
       "note": "One applicant dossier, two complete supporting-file downloads. Remaining pages inventoried only. Private roster details not exported."
+    },
+    {
+      "run_id": "2026-10-05-gi-gaja-kanti",
+      "at": "2026-10-05T14:52:38.614943+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-niti-pasayat2006",
+          "url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/38-47.pdf",
+          "status": "indexed_only_original_unavailable",
+          "scope": "Sakala Dhupa ingredient/name passage; article38–47, page image unverified",
+          "author": "Sarmistha Pasayat",
+          "publication_period": "June2006"
+        },
+        {
+          "source_id": "gi-temple-food2019",
+          "url": "https://magazines.odisha.gov.in/orissareview/2019/Jun-July/engpdf/june-july-or-2019.pdf",
+          "status": "indexed_only_original_unavailable",
+          "scope": "Same article, author/title and printed58 list",
+          "author": "Pitabas Routray",
+          "publication_period": "June–July2019"
+        },
+        {
+          "source_id": "food-heritage",
+          "url": "https://www.ihmbbs.org/article/article_1527739886.pdf",
+          "status": "available",
+          "pages": 12,
+          "bytes": 5508340,
+          "sha256": "d36d46270f7e7f407bb80a117be953cf95c6223e843fc6704596cdc31f7e189c",
+          "visually_checked_pdf_pages": [
+            1,
+            2,
+            3,
+            9,
+            10,
+            12
+          ],
+          "scope": "Chapter22 cover/authors, selected context, printed251 food descriptions and discussion; whole book not reviewed",
+          "authors": [
+            "Abinash Dash",
+            "Ankit Dambhare"
+          ],
+          "independent_corroboration": false
+        }
+      ],
+      "failed_fetches": [
+        {
+          "id": "niti2006",
+          "url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/38-47.pdf",
+          "at": "2026-10-05T14:43:46.253545+00:00",
+          "exit_code": 60,
+          "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+          "bytes": null,
+          "sha256": null,
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "id": "review2019",
+          "url": "https://magazines.odisha.gov.in/orissareview/2019/Jun-July/engpdf/june-july-or-2019.pdf",
+          "at": "2026-10-05T14:43:46.254077+00:00",
+          "exit_code": 60,
+          "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+          "bytes": null,
+          "sha256": null,
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "id": "nchm2018",
+          "url": "https://nchm.nic.in/sites/default/files/2022-11/Indian_Food_Heritage.pdf",
+          "at": "2026-10-05T14:43:59.333993+00:00",
+          "exit_code": 28,
+          "error": "curl: (28) Failed to connect to nchm.nic.in port 443 after 15005 ms: Timeout was reached\n",
+          "bytes": null,
+          "sha256": null,
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/38-47.pdf",
+          "method": "web reader",
+          "error": "502 Bad Gateway",
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://magazines.odisha.gov.in/orissareview/2019/Jun-July/engpdf/june-july-or-2019.pdf",
+          "method": "web reader",
+          "error": "Timeout fetching",
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://nchm.nic.in/sites/default/files/2022-11/Indian_Food_Heritage.pdf",
+          "method": "web reader",
+          "error": "Timeout fetching",
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://www.ihmbbs.org/article/article_1527739886.pdf",
+          "method": "web screenshot pages0,8",
+          "error": "Cache miss; local downloaded facsimile subsequently used",
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://nchm.gov.in/sites/default/files/2025-01/Indian_Food_Heritage.pdf",
+          "method": "web reader",
+          "error": "Content length too large:11961074; only indexed conference title/date used",
+          "status": "unavailable",
+          "retry_after": "2026-10-12"
+        }
+      ],
+      "note": "Full publisher PDF failures preserved. Recovered chapter copy extends existing food-heritage source rather than adding independent corroboration."
     }
   ]
 }

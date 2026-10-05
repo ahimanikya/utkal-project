@@ -43,3 +43,7 @@ A 1225 record edited by D. C. Sircar documents land supporting offerings of milk
 [GI opportunity programme](../economy/gi-opportunity-programme.md) — candidate research, existing-application checks and producer-led dossier preparation; no new GI eligibility or origin claim.
 
 [Temple-food GI evidence](temple-food-gi-governance.md) — separate the goods, production place, ritual status and producer/custodian mandate before proposing protection.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+[Gaja and Kanti evidence](gaja-kanti-evidence.md) separates source-specific ingredient descriptions, similarly named sweets and the unresolved temple-product scope.

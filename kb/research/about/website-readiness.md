@@ -311,3 +311,7 @@ Part1 comparison ready for editorial review with proposed roles and economic exc
 ## Palm-leaf supporting annexures · 5 October 2026
 
 Palm-leaf annexure checkpoint is ready for editorial review with applicant discrepancy and historical roster limits visible. No private roster rows republished. Website unchanged.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+Gaja/Kanti dossier is a research draft. Clearly labels indexed-only passages, recovered chapter pages, unresolved variants and absent producer consensus. No tested recipe, exclusive origin or website publication claimed.

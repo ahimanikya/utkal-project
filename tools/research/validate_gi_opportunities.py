@@ -87,4 +87,8 @@ ck(pc['representation_followup']['producer_roster_inspected'] and pc['representa
 ck(not pc['representation_followup']['roster']['consent_verified'] and not pc['representation_followup']['roster']['personal_rows_exported'],'Roster consent or personal-data export drift')
 ck(pc['representation_followup']['applicant_amendment_accepted'] is None and holds['GI-HOLD-PALM-APPLICANTS']['accepted_amendment'] is None,'Submitted joint applicants promoted to accepted amendment')
 ck(not pc['representation_followup']['corporation_bylaw_amendment']['is_kvk_certificate'] and not pc['representation_followup']['corporation_bylaw_amendment']['is_gi_boundary'],'Corporation certificate scope drift')
+gc=next(c for c in x['candidates'] if c['id']=='GI-C006')
+kc=next(c for c in x['candidates'] if c['id']=='GI-C007')
+ck(gc['goods_identity']['names_equivalent'] is None and kc['goods_identity']['names_equivalent'] is None,'Related sweet names merged without evidence')
+ck(not kc['goods_identity']['ingredient_scope_reconciled'] and holds['GI-HOLD-KANTI-IDENTITY']['same_recipe'] is None,'Source-specific Kanti ingredients merged into recipe')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

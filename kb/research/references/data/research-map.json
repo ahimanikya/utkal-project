@@ -21585,6 +21585,44 @@
         "gi-palm805-submission2021",
         "gi-palm805-reply2025"
       ]
+    },
+    {
+      "id": "food/gaja-kanti-evidence",
+      "title": "Gaja and Kanti: food names before GI boundaries",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/gaja-kanti-evidence.md",
+      "project_path": "kb/research/food/gaja-kanti-evidence.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-temple-food2019",
+        "gi-niti-pasayat2006",
+        "food-heritage"
+      ]
+    },
+    {
+      "id": "sources/gi-niti-pasayat2006",
+      "title": "Dainandina Niti in Sri Jagannath Temple — Sarmistha Pasayat, June 2006",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-niti-pasayat2006.md",
+      "project_path": "kb/research/sources/gi-niti-pasayat2006.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-niti-pasayat2006"
+      ]
     }
   ],
   "shared_publications": [
@@ -23219,7 +23257,10 @@
         "sources/gi-palm-examinations2026.md",
         "sources/gi-palm797-submission2021.md",
         "sources/gi-palm805-submission2021.md",
-        "sources/gi-palm805-reply2025.md"
+        "sources/gi-palm805-reply2025.md",
+        "food/gaja-kanti-evidence.md",
+        "sources/gi-niti-pasayat2006.md",
+        "sources/food-heritage.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -23244,8 +23285,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1405,
-    "updated_at": "2026-10-05T12:43:24.673989+00:00",
+    "records_mapped": 1407,
+    "updated_at": "2026-10-05T14:52:38.614943+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -24003,6 +24044,11 @@
       "at": "2026-10-05T12:43:24.673989+00:00",
       "run_id": "2026-10-05-gi-palm-reply",
       "scope": "Extended existing805 reply source and GI-C010; no new craft identity or independent-source count."
+    },
+    {
+      "at": "2026-10-05T14:52:38.614943+00:00",
+      "run_id": "2026-10-05-gi-gaja-kanti",
+      "scope": "Extended existing GI-C006/007; reused food-heritage for institutional chapter copy. No duplicate candidate or independent-copy count."
     }
   ]
 }
