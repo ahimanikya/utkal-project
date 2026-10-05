@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T02:39:56.094724+00:00",
+  "updated_at": "2026-10-05T03:38:56.935542+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 5,
+      "attempts": 6,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T02:39:56.094724+00:00",
-      "next_step": "Build GI-C008 Korakhai name-use and goods-scope dossier from saved historical table and Lingaraj/Old Town records; distinguish Bhubaneswar from Puri and preserve producer/specification gaps.",
+      "last_worked_at": "2026-10-05T03:38:56.935542+00:00",
+      "next_step": "Recover existing Manikapatna Curd application2117 original dossier; compare goods, geography and applicant representation without proposing a duplicate or promoting application to registration.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4153,7 +4153,11 @@
         "food/nimapada-jhili-evidence.md",
         "sources/gi-puri-msme-undated.md",
         "sources/gi-puri-msme2016.md",
-        "sources/gi-nimapada-sahu2015.md"
+        "sources/gi-nimapada-sahu2015.md",
+        "food/korakhai-gi-evidence.md",
+        "sources/gi-korakhai-bda2022.md",
+        "sources/gi-korakhai-college2025.md",
+        "sources/gi-korakhai-ekamra.md"
       ],
       "blocker": "No filing-ready applicant/mandate/specification; independent desk research can continue.",
       "retry_after": null,
@@ -4186,6 +4190,12 @@
           "run_id": "2026-10-05-gi-nimapada",
           "at": "2026-10-05T02:39:56.094724+00:00",
           "outcome": "nimapada_name_use_chronology_saved_origin_date_and_maker_history_unverified",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-korakhai",
+          "at": "2026-10-05T03:38:56.935542+00:00",
+          "outcome": "korakhai_goods_scope_and_institutional_reputation_dossier_saved_producer_fields_open",
           "completion_criteria_met": false
         }
       ],
@@ -4227,7 +4237,11 @@
           "food/nimapada-jhili-evidence.md",
           "sources/gi-puri-msme-undated.md",
           "sources/gi-puri-msme2016.md",
-          "sources/gi-nimapada-sahu2015.md"
+          "sources/gi-nimapada-sahu2015.md",
+          "food/korakhai-gi-evidence.md",
+          "sources/gi-korakhai-bda2022.md",
+          "sources/gi-korakhai-college2025.md",
+          "sources/gi-korakhai-ekamra.md"
         ],
         "project_records": [
           "kb/research/sources/odisha-gis.md"

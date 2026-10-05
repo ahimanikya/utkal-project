@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T02:39:56.094724+00:00",
+  "updated_at": "2026-10-05T03:38:56.935542+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -8820,6 +8820,103 @@
         }
       ],
       "note": "No invented origin year or live cluster. Departmental editions count as one source family; travel account and university attribution may share a narrative."
+    },
+    {
+      "run_id": "2026-10-05-gi-korakhai",
+      "at": "2026-10-05T03:38:56.935542+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-korakhai-bda2022",
+          "url": "https://cms.bhubaneswarone.in/uploadDocuments/Tender/TenderFile_020221122_185519.pdf",
+          "status": "available_web_pdf_text",
+          "retrieved_at": "2026-10-05T03:38:56.935542+00:00",
+          "document_date": "2022-11-21",
+          "public_availability_date": "2022-11-22",
+          "source_location": "Notice PDF p.1; section3.2 table and footnote printed p.8/PDF p.9",
+          "scope": "Selected original-publisher PDF text; direct download403 and screenshot timeout. Historical proposal and reference stop only; no award, execution or current operation."
+        },
+        {
+          "source_id": "gi-korakhai-college2025",
+          "url": "https://knwcbbsr.com/Attachment/Report.pdf",
+          "status": "available",
+          "retrieved_at": "2026-10-05T03:38:56.935542+00:00",
+          "activity_period": "November 2025",
+          "publication_date": null,
+          "publisher_catalogue_date": "2025-12-30",
+          "alternate_url": "https://knwcbbsr.com/Attachment/Report%20%281%29.pdf",
+          "catalogue_url": "https://knwcbbsr.com/",
+          "source_pages": [
+            1,
+            4
+          ],
+          "sha256": "adfc25b1da436273a3d4cc176c75179f5fd0edb2eb2fe7d41c512d440ff67b83",
+          "scope": "College-authored activity report; p.4 visually checked. Catalogue-linked Report(1).pdf byte-identical to Report.pdf. One publication; no official district ODOP designation or market study established."
+        },
+        {
+          "source_id": "gi-korakhai-ekamra",
+          "url": "https://visit.bhubaneswar.me/nature-walks-streets-of-ekamra",
+          "status": "available",
+          "retrieved_at": "2026-10-05T03:38:56.935542+00:00",
+          "publication_date": null,
+          "source_location": "Introductory BDA/Detour attribution and Conversation over Candies passage",
+          "scope": "City-portal description of an Old Town food encounter; schedule, actual operation and commercial outcomes not verified."
+        },
+        {
+          "source_id": "sweets-korakhai-makers2016",
+          "url": "https://www.mycitylinks.in/odishas-sweet-crunchy-delight-named-kora-khai-best-places-to-avail-it-in-old-town-area",
+          "status": "available_reused_source_extended_scope",
+          "retrieved_at": "2026-10-05T03:38:56.935542+00:00",
+          "publication_date": "2016-10-14",
+          "source_location": "Trinath Badu interview and ingredients paragraph",
+          "scope": "Additional passages in the existing report, not independent corroboration; no observed preparation or interview conducted by Utkal."
+        },
+        {
+          "source_id": "sweets-khordha-census2001",
+          "status": "reused_saved_original",
+          "retrieved_at": "2026-10-05T03:38:56.935542+00:00",
+          "source_location": "Statement VI, printedp499/PDFp197",
+          "period": "1999",
+          "scope": "Historical Bhubaneswar town commodity listing; no invention date, quantities, values or overseas destinations."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://cms.bhubaneswarone.in/uploadDocuments/Tender/TenderFile_020221122_185519.pdf",
+          "status": "unavailable",
+          "method": "direct download",
+          "http_status": 403,
+          "reason": "Response was199-byte Forbidden HTML, not a PDF. Original URL text was available through web PDF extraction.",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://cms.bhubaneswarone.in/uploadDocuments/Tender/TenderFile_020221122_185519.pdf",
+          "status": "unavailable",
+          "method": "web PDF screenshot p9",
+          "reason": "Timeout; table text retained with unverified facsimile status.",
+          "retry_after": "2026-10-12"
+        },
+        {
+          "url": "https://knwcbbsr.com/Attachment/Report%20%281%29.pdf",
+          "status": "unavailable",
+          "method": "web open",
+          "reason": "Cache miss; direct PDF succeeded and matched the other route byte-for-byte.",
+          "recovered_by": "direct PDF retrieval"
+        },
+        {
+          "url": "https://visit.bhubaneswar.me/content-team",
+          "status": "unavailable",
+          "method": "web open",
+          "reason": "Internal error; portal page itself supplies its BDA initiative attribution. No current editorial-team claim adopted.",
+          "retry_after": "2026-10-12"
+        }
+      ],
+      "excluded_leads": [
+        {
+          "url": "https://lordlingaraj.org.in/daily_rituals.html",
+          "reason": "Publisher authority and dated primary basis not established; separate kora/khai wording not adopted as composite-product specification."
+        }
+      ],
+      "note": "Same college PDF across two URLs is one source. Promotion, proposal and reported practice are not designation, execution or producer consent."
     }
   ]
 }

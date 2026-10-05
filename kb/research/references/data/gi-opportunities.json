@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T02:39:56.094724+00:00",
+  "updated_at": "2026-10-05T03:38:56.935542+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -291,12 +291,18 @@
       "research_stage": "priority_desk_dossier",
       "registry_screen": "No matching Korakhai name found in bounded index search",
       "reuse_paths": [
-        "food/korakhai.md"
+        "food/korakhai.md",
+        "food/korakhai-gi-evidence.md"
       ],
-      "basis": "Existing Census2001 town directory records1999 manufacture/outward trade; temple association and dated maker reporting saved.",
-      "next_action": "Reuse historical table; verify local name, specification, producer group and modern reputation. This is Lingaraj/Old Town context, not Puri origin.",
+      "basis": "Historical town commodity record, attributed maker/service reporting, BDA proposed trail and college local-product activity; no verified invention date or agreed technical specification.",
+      "next_action": "Obtain producer-reviewed goods definition, preparation records, representative mandate and boundary. Retry BDA facsimile12October; no official ODOP designation inferred.",
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "sweets-khordha-census2001",
+        "sweets-korakhai-makers2016",
+        "gi-korakhai-bda2022",
+        "gi-korakhai-college2025",
+        "gi-korakhai-ekamra"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -307,7 +313,63 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "goods_scope": {
+        "geography": "Bhubaneswar Old Town, Khordha district",
+        "puri_origin_established": false,
+        "reported_ingredients": [
+          "khai",
+          "jaggery or sugar",
+          "coconut",
+          "cardamom"
+        ],
+        "ingredient_source_id": "sweets-korakhai-makers2016",
+        "source_date": "2016-10-14",
+        "tested_recipe": false,
+        "measured_process": null,
+        "shelf_life": null,
+        "retail_equals_ritual_offering": false,
+        "producer_consensus": false
+      },
+      "documentary_records": [
+        {
+          "source_id": "sweets-khordha-census2001",
+          "period": "1999",
+          "edition": "Census2001",
+          "evidence_class": "historical_town_commodity_listing",
+          "origin_date": null
+        },
+        {
+          "source_id": "gi-korakhai-bda2022",
+          "document_date": "2022-11-21",
+          "source_location": "printedp8/PDFp9,section3.2",
+          "evidence_class": "proposed_trail",
+          "operation_verified": false,
+          "stop_approval_verified": false
+        },
+        {
+          "source_id": "gi-korakhai-college2025",
+          "activity_period": "November2025",
+          "catalogue_date": "2025-12-30",
+          "evidence_class": "college_activity_report",
+          "official_odop_designation_established": false,
+          "measured_market_impact": null,
+          "duplicate_url_one_publication": true
+        },
+        {
+          "source_id": "gi-korakhai-ekamra",
+          "publication_date": null,
+          "evidence_class": "city_portal_description",
+          "current_availability": null
+        }
+      ],
+      "participation_gap": {
+        "producer_mandate": null,
+        "service_records": null,
+        "process_measurements": null,
+        "retry_after": "2026-10-12",
+        "next_action": "Reassess newly available documentary evidence; interviews or producer participation not fabricated."
+      }
     },
     {
       "id": "GI-C009",
@@ -680,7 +742,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Build GI-C008 Korakhai name-use and goods-scope dossier from saved historical table and Lingaraj/Old Town records; distinguish Bhubaneswar from Puri and preserve producer/specification gaps.",
+    "Recover existing Manikapatna Curd application2117 original dossier; compare goods, geography and applicant representation without proposing a duplicate or promoting application to registration.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."

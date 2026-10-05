@@ -571,3 +571,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Nimapada name-use chronology
 
 [Research receipt](records/gi-nimapada-2026-10-05.json):Official 2016–17 name use and dated travel account documented; origin date, maker identity records and producer mandate remain unresolved. No website release.
+
+## 5 October 2026 · Korakhai goods and reputation
+
+[Research receipt](records/gi-korakhai-2026-10-05.json):Historical trade evidence connected with a BDA proposal and college promotion; no official ODOP designation, current operation or producer mandate inferred. No website release.

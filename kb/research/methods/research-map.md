@@ -515,3 +515,7 @@ RES-070 enhances existing candidates005–007 and comparator121. Advertised spec
 ## Nimapada evidence extension · 5 October 2026
 
 RES-070 enhances existing GI-C001 and reuses the saved UOU reference; GI-C002 remains separate. Repeated departmental wording is one source family. New records map name-use evidence, not exhaustive historical coverage.
+
+## Korakhai evidence extension · 5 October 2026
+
+GI-C008 reuses town trade and maker records; adds BDA, college and city-portal evidence. Identical college PDFs are one publication. No duplicate candidate created.
