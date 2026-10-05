@@ -552,3 +552,7 @@ Palm-leaf Parts2–3 now partially reviewed. Need accepted applicant amendment, 
 ## Gaja/Kanti evidence · 5 October 2026
 
 Gaja/Kanti: original2006/2019 facsimiles unavailable, producer-accepted name equivalence and measured methods absent. Retry12October. Existing IHM chapter recovered with selected visual checks; no full-book review.
+
+## Poda/arisa scope · 5 October 2026
+
+Poda/arisa: Puri ritual association does not settle exclusive origin or a local specification. Producer-supported variant definition, geographic reputation and process measurements remain absent. Utsav direct fetch timed out; retry12October; indexed scope retained.

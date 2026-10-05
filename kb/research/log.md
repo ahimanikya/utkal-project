@@ -590,3 +590,7 @@ Palm-leaf supporting annexures reviewed within explicit page scope: submitted jo
 ## Gaja/Kanti evidence · 5 October 2026
 
 Added Gaja/Kanti identity dossier, recovered the existing IHM/NCHM chapter and held ingredient/name equivalence. Exact failures and page scopes saved; no filing or website release.
+
+## Poda/arisa scope · 5 October 2026
+
+Added GI-C011/012 place-association comparison and dated official festival sources. Reused institutional preparation captures; retained unresolved local specification, producer authority and economics. No filing or website release.

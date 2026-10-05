@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T14:52:38.614943+00:00",
+  "updated_at": "2026-10-05T15:48:51.078637+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -1142,15 +1142,21 @@
     {
       "id": "GI-C011",
       "working_name": "Puri-linked poda pitha — scope unresolved",
-      "research_stage": "discovery",
+      "research_stage": "place_association_and_variant_dossier",
       "registry_screen": "No matching Puri poda pitha name found in bounded index search",
       "reuse_paths": [
-        "food/poda-pitha.md"
+        "food/poda-pitha.md",
+        "food/poda-arisa-place-evidence.md"
       ],
       "basis": "Existing Odisha preparation research; precise temple-specific goods and exclusive origin not established.",
-      "next_action": "Separate widespread pitha traditions from any distinctive localized product; seek temple and producer records.",
+      "next_action": "Define the proposed local goods with producers, document place-specific reputation and process differences, and retain broad Odisha variants. Participant and access follow-up12October.",
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "food-crri-rice2015",
+        "food-heritage",
+        "gi-temple-food2019",
+        "gi-utsav-ratha2022",
+        "food-air-raja2026"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -1161,20 +1167,67 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "place_scope": {
+        "reviewed_at": "2026-10-05T15:48:51.078637+00:00",
+        "geography": "Puri association; wider Odisha festival and preparation evidence",
+        "puri_ritual_record": {
+          "source_id": "gi-utsav-ratha2022",
+          "locator": "Description return journey; Event Details2022",
+          "capture": "indexed_only"
+        },
+        "wider_festival_record": {
+          "source_id": "food-air-raja2026",
+          "published_on": "2026-06-15",
+          "scope": "Odisha Raja festival report; not a district survey"
+        },
+        "preparation_entries": [
+          {
+            "name": "Khira poda pitha",
+            "description": "Rice and milk, sweetened; pan cooking",
+            "source_id": "food-crri-rice2015",
+            "locator": "printed23 / PDF34"
+          },
+          {
+            "name": "Poda pitha",
+            "description": "Rice flour, jaggery and banana leaves",
+            "source_id": "food-crri-rice2015",
+            "locator": "printed26 / PDF37"
+          },
+          {
+            "name": "Biri chaula poda pitha",
+            "description": "Rice and black gram batter, resting and cooking",
+            "source_id": "food-crri-rice2015",
+            "locator": "printed29 / PDF40"
+          }
+        ],
+        "exclusive_puri_origin_verified": false,
+        "distinct_puri_specification": null,
+        "temple_recipe_matched": null,
+        "tested_recipe": false,
+        "consumer_shelf_life_validated": false,
+        "current_market_data": null
+      }
     },
     {
       "id": "GI-C012",
       "working_name": "Puri-linked arisa — scope unresolved",
-      "research_stage": "discovery",
+      "research_stage": "place_association_and_variant_dossier",
       "registry_screen": "No matching Puri arisa name found in bounded index search",
       "reuse_paths": [
-        "food/mahaprasad.md"
+        "food/mahaprasad.md",
+        "food/poda-arisa-place-evidence.md",
+        "food/arisa-pitha.md"
       ],
       "basis": "Research lead for user’s wider temple-food inventory, not verified temple-origin or eligibility evidence.",
-      "next_action": "First establish authoritative association and local differences; keep generic recipe documentation available if GI fit is weak.",
+      "next_action": "Define the proposed local goods with producers, document place-specific reputation and process differences, and retain broad Odisha variants. Participant and access follow-up12October.",
       "source_ids": [
-        "food-tourism"
+        "food-tourism",
+        "food-crri-rice2015",
+        "food-heritage",
+        "gi-temple-food2019",
+        "gi-utsav-ratha2022",
+        "food-air-raja2026"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -1185,7 +1238,41 @@
       "sales": null,
       "export_value": null,
       "ready_to_file": false,
-      "filed_by_utkal": false
+      "filed_by_utkal": false,
+      "place_scope": {
+        "reviewed_at": "2026-10-05T15:48:51.078637+00:00",
+        "geography": "Puri association; wider Odisha festival and preparation evidence",
+        "puri_ritual_record": {
+          "source_id": "gi-temple-food2019",
+          "locator": "printed58",
+          "capture": "indexed_only"
+        },
+        "wider_festival_record": {
+          "source_id": "food-air-raja2026",
+          "published_on": "2026-06-15",
+          "scope": "Odisha Raja festival report; not a district survey"
+        },
+        "preparation_entries": [
+          {
+            "name": "Arisa pitha",
+            "description": "Rice flour and jaggery/sugar syrup, shaped and fried",
+            "source_id": "food-crri-rice2015",
+            "locator": "printed9 / PDF20"
+          },
+          {
+            "name": "Arisa",
+            "description": "Rice flour and jaggery, fried in ghee",
+            "source_id": "food-heritage",
+            "locator": "printed251 / IHM PDF10"
+          }
+        ],
+        "exclusive_puri_origin_verified": false,
+        "distinct_puri_specification": null,
+        "temple_recipe_matched": null,
+        "tested_recipe": false,
+        "consumer_shelf_life_validated": false,
+        "current_market_data": null
+      }
     }
   ],
   "registry_screen": {
@@ -1464,7 +1551,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Review GI-C011 Puri-linked poda pitha and GI-C012 arisa against wider Odisha traditions, using saved food pages and recovered IHM chapter first. Gaja/Kanti source-image and identity follow-up12October; producer mandate and recipe measurements remain open.",
+    "Consolidate the twelve-lead GI pilot into a comparative readiness and evidence-priority matrix using saved dossiers; identify remaining desk-research versus producer/custodian dependencies. Do not repeat unavailable publisher requests before12October or imply filings.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."
@@ -1775,6 +1862,23 @@
       "explanation": "Rice-flour, black-gram and green-gram/rice descriptions are source-specific; equivalence, error or variant explanation not established.",
       "same_recipe": null,
       "next_action": "Recover original2006/2019 page images and producer-reviewed local names and methods; no blending of ingredient lists.",
+      "retry_after": "2026-10-12"
+    },
+    {
+      "id": "GI-HOLD-PITHA-PLACE-SCOPE",
+      "source_ids": [
+        "food-crri-rice2015",
+        "food-heritage",
+        "gi-temple-food2019",
+        "gi-utsav-ratha2022",
+        "food-air-raja2026"
+      ],
+      "field": "Puri-specific goods scope for poda pitha and arisa",
+      "status": "unresolved_place_and_variant_scope",
+      "explanation": "Ritual association and broader Odisha festival/preparation evidence coexist; no agreed local specification, exclusive origin or generic-name eligibility conclusion inferred.",
+      "exclusive_origin": null,
+      "accepted_specification": null,
+      "next_action": "Producer-supported variant definition and place-link evidence; source-access follow-up12October.",
       "retry_after": "2026-10-12"
     }
   ],

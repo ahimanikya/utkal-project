@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T14:52:38.614943+00:00",
+  "updated_at": "2026-10-05T15:48:51.078637+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9458,6 +9458,53 @@
         }
       ],
       "note": "Full publisher PDF failures preserved. Recovered chapter copy extends existing food-heritage source rather than adding independent corroboration."
+    },
+    {
+      "run_id": "2026-10-05-gi-pitha-scope",
+      "at": "2026-10-05T15:48:51.078637+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-utsav-ratha2022",
+          "url": "https://www.utsav.gov.in/view-event/ratha-yatra",
+          "status": "indexed_only_original_unavailable",
+          "scope": "Direct web open timed out; indexed text used only for named offering association and historical event period.",
+          "locator": "Description, return journey paragraph; Event Details",
+          "publication_date": null,
+          "retrieved_on": "2026-10-05"
+        },
+        {
+          "source_id": "food-air-raja2026",
+          "url": "https://newsonair.gov.in/raja-festival-begins-across-odisha/",
+          "status": "available",
+          "scope": "Names poda and arisa in Raja celebrations across Odisha; not a district prevalence survey or measured demand series.",
+          "locator": "Article date 1:03 PM; third body paragraph, delicacies",
+          "publication_date": "2026-06-15",
+          "retrieved_on": "2026-10-05"
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "status": "saved_capture_reused",
+          "scope": "printed9,23,26,29 / PDF20,34,37,40; saved text reused, no fresh download",
+          "original_retrieval_date": "2026-10-01",
+          "sha256": "e4d5894ef8492225462e69f4ec5ff76f80ea56c20234ffa2cdb8475bca3c3999"
+        },
+        {
+          "source_id": "food-heritage",
+          "status": "saved_capture_reused",
+          "scope": "printed251 / IHM PDF10; same recovered chapter",
+          "independent_corroboration": false
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.utsav.gov.in/view-event/ratha-yatra",
+          "method": "web reader",
+          "status": "unavailable",
+          "error": "400 Timeout fetching",
+          "retry_after": "2026-10-12"
+        }
+      ],
+      "note": "Recipe captures reused; fresh official festival report and indexed ritual listing scoped to their dates. No whole-source or market verification."
     }
   ]
 }

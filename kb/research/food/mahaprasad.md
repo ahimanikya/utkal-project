@@ -47,3 +47,7 @@ A 1225 record edited by D. C. Sircar documents land supporting offerings of milk
 ## Gaja/Kanti evidence · 5 October 2026
 
 [Gaja and Kanti evidence](gaja-kanti-evidence.md) separates source-specific ingredient descriptions, similarly named sweets and the unresolved temple-product scope.
+
+## Poda/arisa scope · 5 October 2026
+
+[Poda and arisa place evidence](poda-arisa-place-evidence.md) keeps Puri ritual association separate from a product specification and broader Odisha practice.

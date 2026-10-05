@@ -36,3 +36,7 @@ The institute’s [article gallery](https://www.ihmbbs.org/) links a [12-page sc
 The chapter describes Chandra kanti with green gram and rice flour and chhena gaja as a fried cheese sweet soaked in syrup. Its discussion on p.251 describes review of books, journals and websites. This is descriptive preparation evidence, not a tested recipe or producer census. The [Gaja/Kanti comparison](../food/gaja-kanti-evidence.md) keeps those names separate from temple-specific leads.
 
 The NCHM original URL timed out in both web and direct retrieval. A newly discovered [NCHM government-domain copy](https://nchm.gov.in/sites/default/files/2025-01/Indian_Food_Heritage.pdf) is indexed with the conference dates12–13March2018, but its full web fetch exceeded the reader size limit. The IHM scan was completely downloaded (5,508,340bytes; SHA-256 d36d46270f7e7f407bb80a117be953cf95c6223e843fc6704596cdc31f7e189c). These are copies/routes within the existing food-heritage source lineage, not independent corroboration. No source scans are republished in the KB package.
+
+## Arisa scope reuse · 5 October 2026
+
+The previously recovered printed251 / IHM PDF10 description is reused for [arisa comparison](../food/poda-arisa-place-evidence.md). This is another use of the same chapter, not a new source or a measured preparation study.

@@ -21623,6 +21623,64 @@
       "source_ids": [
         "gi-niti-pasayat2006"
       ]
+    },
+    {
+      "id": "food/poda-arisa-place-evidence",
+      "title": "Poda pitha and arisa: Puri associations and wider Odisha traditions",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "food/poda-arisa-place-evidence.md",
+      "project_path": "kb/research/food/poda-arisa-place-evidence.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "food-crri-rice2015",
+        "food-heritage",
+        "gi-temple-food2019",
+        "gi-utsav-ratha2022",
+        "food-air-raja2026"
+      ]
+    },
+    {
+      "id": "sources/gi-utsav-ratha2022",
+      "title": "Ratha Yatra — Utsav, 2022 event listing",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/gi-utsav-ratha2022.md",
+      "project_path": "kb/research/sources/gi-utsav-ratha2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-utsav-ratha2022"
+      ]
+    },
+    {
+      "id": "sources/food-air-raja2026",
+      "title": "Raja Festival begins across Odisha — Akashvani News, 15 June 2026",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-air-raja2026.md",
+      "project_path": "kb/research/sources/food-air-raja2026.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "food",
+        "economy",
+        "governance"
+      ],
+      "source_ids": [
+        "food-air-raja2026"
+      ]
     }
   ],
   "shared_publications": [
@@ -23260,7 +23318,13 @@
         "sources/gi-palm805-reply2025.md",
         "food/gaja-kanti-evidence.md",
         "sources/gi-niti-pasayat2006.md",
-        "sources/food-heritage.md"
+        "sources/food-heritage.md",
+        "food/poda-arisa-place-evidence.md",
+        "sources/gi-utsav-ratha2022.md",
+        "sources/food-air-raja2026.md",
+        "food/poda-pitha.md",
+        "food/arisa-pitha.md",
+        "sources/food-crri-rice2015.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -23285,8 +23349,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1407,
-    "updated_at": "2026-10-05T14:52:38.614943+00:00",
+    "records_mapped": 1410,
+    "updated_at": "2026-10-05T15:48:51.078637+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -24049,6 +24113,11 @@
       "at": "2026-10-05T14:52:38.614943+00:00",
       "run_id": "2026-10-05-gi-gaja-kanti",
       "scope": "Extended existing GI-C006/007; reused food-heritage for institutional chapter copy. No duplicate candidate or independent-copy count."
+    },
+    {
+      "at": "2026-10-05T15:48:51.078637+00:00",
+      "run_id": "2026-10-05-gi-pitha-scope",
+      "scope": "Extended GI-C011/012 with place association and variant comparison; existing CRRI and IHM captures reused."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T14:52:38.614943+00:00",
+  "updated_at": "2026-10-05T15:48:51.078637+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 12,
+      "attempts": 13,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T14:52:38.614943+00:00",
-      "next_step": "Review GI-C011 Puri-linked poda pitha and GI-C012 arisa against wider Odisha traditions, using saved food pages and recovered IHM chapter first. Gaja/Kanti source-image and identity follow-up12October; producer mandate and recipe measurements remain open.",
+      "last_worked_at": "2026-10-05T15:48:51.078637+00:00",
+      "next_step": "Consolidate the twelve-lead GI pilot into a comparative readiness and evidence-priority matrix using saved dossiers; identify remaining desk-research versus producer/custodian dependencies. Do not repeat unavailable publisher requests before12October or imply filings.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4172,7 +4172,10 @@
         "sources/gi-palm805-submission2021.md",
         "sources/gi-palm805-reply2025.md",
         "food/gaja-kanti-evidence.md",
-        "sources/gi-niti-pasayat2006.md"
+        "sources/gi-niti-pasayat2006.md",
+        "food/poda-arisa-place-evidence.md",
+        "sources/gi-utsav-ratha2022.md",
+        "sources/food-air-raja2026.md"
       ],
       "blocker": "No filing-ready applicant/mandate/specification; independent desk research can continue.",
       "retry_after": null,
@@ -4248,6 +4251,12 @@
           "at": "2026-10-05T14:52:38.614943+00:00",
           "outcome": "gaja_kanti_identity_dossier_added_existing_hospitality_chapter_recovered_name_and_ingredient_variants_held_separately",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-pitha-scope",
+          "at": "2026-10-05T15:48:51.078637+00:00",
+          "outcome": "poda_arisa_place_association_and_variant_comparison_saved_local_product_scope_unresolved",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -4308,7 +4317,13 @@
           "sources/gi-palm805-reply2025.md",
           "food/gaja-kanti-evidence.md",
           "sources/gi-niti-pasayat2006.md",
-          "sources/food-heritage.md"
+          "sources/food-heritage.md",
+          "food/poda-arisa-place-evidence.md",
+          "sources/gi-utsav-ratha2022.md",
+          "sources/food-air-raja2026.md",
+          "food/poda-pitha.md",
+          "food/arisa-pitha.md",
+          "sources/food-crri-rice2015.md"
         ],
         "project_records": [
           "kb/research/sources/odisha-gis.md"

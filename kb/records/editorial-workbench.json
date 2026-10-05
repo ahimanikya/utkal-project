@@ -26,7 +26,7 @@
     },
     "with_flags": 228,
     "mapped_pages": 11,
-    "newer_records_outside_frozen_selection": 346
+    "newer_records_outside_frozen_selection": 349
   },
   "additional_ids": [
     "source:arts-crt-ina-tiles",
@@ -97,6 +97,7 @@
     "source:faith-skanda-purusottama-tagare",
     "source:faith-soas-yoginis2021",
     "source:fish-directorate-statistics2024",
+    "source:food-air-raja2026",
     "source:food-badi-sasmita2017",
     "source:food-baigana-sasmita2020",
     "source:food-bamboo-tnie2017",
@@ -173,6 +174,7 @@
     "source:gi-tirupathi-journal2008",
     "source:gi-ttd-controls2015",
     "source:gi-ttd-weight2022",
+    "source:gi-utsav-ratha2022",
     "source:global-bloemfontein",
     "source:global-bremen",
     "source:global-brisbane",
@@ -346,6 +348,7 @@
     "subject:food/mohu-honey",
     "subject:food/nimapada-jhili-evidence",
     "subject:food/poda-and-fire-cooking",
+    "subject:food/poda-arisa-place-evidence",
     "subject:food/rice-varieties",
     "subject:food/sukhua",
     "subject:food/tala-pitha",
@@ -378,8 +381,8 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "fb8102e6526b85b59a5e3f293c322bedad7d63f9c2881435634b24968b612108",
-    "kb/research/search-index.json": "e3f8eeb10cdb7d9593163705912902ccde006ce1e833c0b8feb03ce52100c5d2",
+    "kb/research/references/data/source-catalog.json": "9a7fb8542c467d29110791b1a6f5eeb38be79e47b95479ca1b3b2a656bd61edb",
+    "kb/research/search-index.json": "db689bc5c79f96e157af491c106cad02062a3123eaa6a2a0a642d07e3ad49ded",
     "kb/research/food/collection.json": "af1cf613afcd3aefbb9d60252e93a037ff2db116902b0b4a449452ef931243ff",
     "kb/research/voices/collection.json": "5a68f99d5bd60ce7634a85dc752e0f3db76a6467e7017acd98b8cbe9970927f0",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
@@ -4410,6 +4413,11 @@
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/food/manda-pitha.md"
         },
         {
+          "id": "food/poda-arisa-place-evidence",
+          "title": "Poda pitha and arisa: Puri associations and wider Odisha traditions",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/food/poda-arisa-place-evidence.md"
+        },
+        {
           "id": "food/poda-pitha",
           "title": "Poda pitha",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/food/poda-pitha.md"
@@ -4465,6 +4473,11 @@
           "id": "food/gaja-kanti-evidence",
           "title": "Gaja and Kanti: food names before GI boundaries",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/food/gaja-kanti-evidence.md"
+        },
+        {
+          "id": "food/poda-arisa-place-evidence",
+          "title": "Poda pitha and arisa: Puri associations and wider Odisha traditions",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/food/poda-arisa-place-evidence.md"
         },
         {
           "id": "sources/food-heritage",
