@@ -4750,7 +4750,7 @@
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-198",
-      "next_action": "Published. Bounded Chrome visual and native-engine PDF review completed in UTP-WORK-164; three resulting fixes await review. Physical-device, screen-reader and Search Console follow-ups remain open.",
+      "next_action": "Published; bounded visual and Chrome PDF review and resulting fixes completed under UTP-WORK-164 and UTP-REL-070. Physical-device, screen-reader and Search Console follow-ups remain open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-198",
@@ -4769,23 +4769,26 @@
       "id": "UTP-WORK-164",
       "title": "Planner visual and Chrome PDF review with usability fixes",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
         "name": "Current AI assistant"
       },
       "authorization": "UTP-DEC-200",
-      "next_action": "Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups.",
+      "next_action": "Published and live-delivery/Chrome interaction verified. Physical-device, screen-reader, large/illustrated PDF samples and Search Console remain separate follow-ups.",
       "blockers": [],
       "refs": [
         "UTP-DEC-200",
         "UTP-REV-142",
-        "UTP-WORK-163"
+        "UTP-WORK-163",
+        "UTP-DEC-201",
+        "UTP-REL-070"
       ],
       "evidence": [
-        "records/planner-visual-review-2026-10-04.json"
+        "records/planner-visual-review-2026-10-04.json",
+        "records/planner-visual-publication-2026-10-04.json"
       ]
     }
   ],
@@ -8781,6 +8784,26 @@
       "evidence": [
         "records/planner-visual-review-2026-10-04.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-201",
+      "title": "Publish approved planner visual-review fixes",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge PR119 and publish the reviewed notebook, focus and PDF-pagination fixes.",
+      "recorded_at": "2026-10-05T00:38:12.384650+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-164",
+        "UTP-DEC-200"
+      ],
+      "evidence": [
+        "records/planner-visual-publication-2026-10-04.json"
+      ]
     }
   ],
   "requirements": [
@@ -12152,7 +12175,8 @@
         "UTP-DEC-200"
       ],
       "evidence": [
-        "records/planner-visual-review-2026-10-04.json"
+        "records/planner-visual-review-2026-10-04.json",
+        "records/planner-visual-publication-2026-10-04.json"
       ]
     }
   ],
@@ -13313,6 +13337,22 @@
         "records/make-journey-yours-publication-2026-10-04.json"
       ],
       "note": "PR115 merged after validation; Pages succeeded. Planner heading, coach controls, single add-day action, privacy/recovery controls, shared journey data and matching script/style assets verified live. Existing search shortlist retained; no rendered browser or native PDF pass claimed."
+    },
+    {
+      "id": "UTP-REL-070",
+      "title": "Planner notebook, focus and print-flow fixes published",
+      "status": "published",
+      "authorization": "UTP-DEC-201",
+      "destination": "https://utkalproject.org/journey/",
+      "refs": [
+        "UTP-DEC-201",
+        "UTP-WORK-164",
+        "UTP-REV-142"
+      ],
+      "evidence": [
+        "records/planner-visual-publication-2026-10-04.json"
+      ],
+      "note": "PR119 merged after validation; Pages succeeded. Delivered script/style hashes match the reviewed build; live Chrome confirms the 300-pixel notebook and retained reminder input focus."
     }
   ],
   "sources": [

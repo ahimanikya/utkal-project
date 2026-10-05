@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3a5e1f9ee35db40b3244ecb900abf527494d10a2413525fffb8b64476470f592`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2d822c898a367784ef70c94917504ef6cd8df38817acc983cda5340431a15a8d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -175,8 +175,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-160 · Balasore illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-161 · Mayurbhanj illustrated trail and matching tour books | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. | — |
 | UTP-WORK-162 · Find your trail comparison and interest filters | completed | applied | Ahimanikya Satapathy | Published and live-delivery verified. Rendered browser, screen-reader and physical-device review and Search Console processing remain separate follow-ups. | — |
-| UTP-WORK-163 · Make this journey yours: guided day planning | completed | applied | Ahimanikya Satapathy | Published. Bounded Chrome visual and native-engine PDF review completed in UTP-WORK-164; three resulting fixes await review. Physical-device, screen-reader and Search Console follow-ups remain open. | — |
-| UTP-WORK-164 · Planner visual and Chrome PDF review with usability fixes | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups. | — |
+| UTP-WORK-163 · Make this journey yours: guided day planning | completed | applied | Ahimanikya Satapathy | Published; bounded visual and Chrome PDF review and resulting fixes completed under UTP-WORK-164 and UTP-REL-070. Physical-device, screen-reader and Search Console follow-ups remain open. | — |
+| UTP-WORK-164 · Planner visual and Chrome PDF review with usability fixes | completed | applied | Ahimanikya Satapathy | Published and live-delivery/Chrome interaction verified. Physical-device, screen-reader, large/illustrated PDF samples and Search Console remain separate follow-ups. | — |
 
 ## Pending human review and decisions
 
@@ -235,7 +235,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-164 | Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups. |
 
 ## Decisions
 
@@ -440,6 +439,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-198 · Build Make this journey yours | approved | Ahimanikya Satapathy | Founder accepted the proposed flow from saved ideas to day plans, allowing space for meals, rest and travel and exporting a clear tour book with unconfirmed arrangements visible. |
 | UTP-DEC-199 · Publish approved Make this journey yours planner | approved | Ahimanikya Satapathy | Merge PR115 and publish the reviewed planner and tour-book summaries through Pages. |
 | UTP-DEC-200 · Review the planner visually and in PDF | approved | Ahimanikya Satapathy | Complete the pending visual and native PDF review of the published planner; repair observed usability issues for review. |
+| UTP-DEC-201 · Publish approved planner visual-review fixes | approved | Ahimanikya Satapathy | Merge PR119 and publish the reviewed notebook, focus and PDF-pagination fixes. |
 
 ## Reviews
 
@@ -659,6 +659,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-067 · Mayurbhanj · Forest, Rhythm and a Meal published | published | https://utkalproject.org/journey-starters/mayurbhanj/ | UTP-DEC-195 |
 | UTP-REL-068 · Find your trail published | published | https://utkalproject.org/journey-starters/#find-your-trail | UTP-DEC-197 |
 | UTP-REL-069 · Make this journey yours published | published | https://utkalproject.org/journey/ | UTP-DEC-199 |
+| UTP-REL-070 · Planner notebook, focus and print-flow fixes published | published | https://utkalproject.org/journey/ | UTP-DEC-201 |
 
 ## Sources and assets
 
@@ -696,7 +697,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-226 | 2026-10-04T16:11:58.244588+00:00 | Published approved PR98 through Pages. Verified live Cuttack chapters, four photographs, guide links, contribution context and six-idea starter. Live-data offline export embedded four photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-227 | 2026-10-04T16:28:59.744018+00:00 | Prepared three illustrated Balasore chapters, preserving the five-idea starter and adding matching portable-book chapters, shore/literary contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
 | UTP-EVT-228 | 2026-10-04T16:39:23.083724+00:00 | Published approved PR101 through Pages. Verified live Balasore chapters, three photographs, guide links, contribution context and five-idea starter. Live-data offline export embedded three photographs and omitted private notes. | Published and live-delivery verified. Browser visual/native PDF review, local confirmation and Search Console remain separate follow-ups. |
 | UTP-EVT-229 | 2026-10-04T17:00:08.146247+00:00 | Prepared three photographed Mayurbhanj chapters, preserving the five-idea starter and adding matching portable-book chapters, forest/performance contribution prompts and practical planning links. Automated checks passed; local and visual checks remain open. | Founder reviews the completed candidate before merge and publication; visual and local checks remain separately open. |
@@ -706,6 +706,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-233 | 2026-10-04T23:00:49.721315+00:00 | Prepared state-based planning guidance, day cards and an optional private day outline. Portable books lead with day summaries; automated checks cover privacy, backups, undo and newer-tab conflicts. | Founder reviews the completed planner candidate before merge and publication; rendered visual and native PDF checks remain separately open. |
 | UTP-EVT-234 | 2026-10-04T23:13:52.469780+00:00 | Published approved PR115 through Pages. Verified the live planner controls, shared journey payload and matching script/style assets for guided day planning and portable summaries. | Published and live-delivery verified. Rendered browser, native PDF, screen-reader and physical-device review and Search Console processing remain separate follow-ups. |
 | UTP-EVT-235 | 2026-10-04T23:54:22.980161+00:00 | Chrome access succeeded. Reviewed live and local planner, responsive widths and 17 final PDF pages. Prepared fixes for notebook height, reminder focus and question-list pagination; privacy and selected-day PDF checks passed. | Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups. |
+| UTP-EVT-236 | 2026-10-05T00:38:12.384650+00:00 | Published approved PR119 through Pages. Matching delivery hashes and live Chrome checks confirm the reviewed notebook and reminder-focus fixes; native print-grouping code matches the PDF-reviewed candidate. | Published and live-delivery/Chrome interaction verified. Physical-device, screen-reader, large/illustrated PDF samples and Search Console remain separate follow-ups. |
 
 ## Deferred extensions
 
