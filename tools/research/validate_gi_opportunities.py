@@ -104,4 +104,12 @@ for r in rr:
  ck((ROOT/r['dossier_path']).is_file() and bool(r['evidence_to_close_next_step']),'Readiness evidence link or closure condition missing')
  ck(not r['ready_to_file'] and not r['outreach_sent'] and r['human_owner'] is None,'Readiness synthesis invented action or owner')
 ck(not ra['fresh_publisher_check'] and ra['ready_to_file_count']==sum(r['ready_to_file'] for r in rr),'Synthesis promoted to publisher check or filing readiness')
+cat=json.loads((ROOT/'references/data/source-catalog.json').read_text())
+for it in x.get('international_specification_studies',[]):
+ ck((ROOT/it['dossier_path']).is_file(),'International dossier missing')
+ ck(all(sid in cat for sid in it['source_ids']),'International source missing')
+ if it['id']=='GI-INT-KALAMATA':
+  ck(it['enforcement']['recall_completed'] is None and it['enforcement']['final_penalty'] is None,'Requested recall or referral promoted to closed outcome')
+  ck(it['producer_income_effect'] is None and not it['indian_eligibility_inferred'],'International case promoted to income or eligibility claim')
+  ck(not it['amendment']['corrected_comparison_value']['is_specification_ceiling'],'Table correction merged with specification limit')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

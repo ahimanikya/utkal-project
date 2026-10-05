@@ -560,3 +560,7 @@ Poda/arisa: Puri ritual association does not settle exclusive origin or a local 
 ## GI readiness matrix · 5 October 2026
 
 GI matrix: current producer mandate, agreed goods, certified boundaries, inspection operation and product-level economics remain unverified. Global comparison is still framework-level rather than an original product-specification audit. Review12October; do not repeatedly fetch known unavailable documents.
+
+## Kalamata comparison · 5 October 2026
+
+Kalamata selected original sections,2015 decision and2021 report are documented. Full annexures, human Greek review, current consolidated edition, control coverage and producer returns remain absent. Failed direct/English routes retry12October; no change to local candidate mandates.

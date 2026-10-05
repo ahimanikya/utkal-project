@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T16:47:00.899189+00:00",
+  "updated_at": "2026-10-05T23:43:01.885936+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9713,6 +9713,58 @@
       ],
       "failed_fetches": [],
       "note": "Editorial readiness synthesis, not a release/revision check. Existing inaccessible-source statuses and retry dates preserved; no unavailable source marked unchanged."
+    },
+    {
+      "run_id": "2026-10-05-gi-kalamata",
+      "at": "2026-10-05T23:43:01.885936+00:00",
+      "source_checks": [
+        {
+          "source_id": "gi-kalamata-specification",
+          "status": "available",
+          "scope": "PDF pp.2–4 sections2–4; p.14 sections7–8; p.15 annexure list",
+          "capture_limit": "Selected sections read through web extraction; Greek font encoding is degraded. Working English interpretation, no human Greek review. Original download returned403; page-image checks not completed. Publication date not inferred from filename. Annexures listed, not supplied or independently audited."
+        },
+        {
+          "source_id": "gi-kalamata-decision2015",
+          "status": "available",
+          "scope": "OJ L215 pp.38–41; recitals9–19 and Article1",
+          "capture_limit": "Adopted13August2015, published14August2015. English PDF read. Historical amendment decision, not a verification of current2026 legal or operating status."
+        },
+        {
+          "source_id": "gi-kalamata-enforcement2021",
+          "status": "available",
+          "scope": "Body paragraph beginning Μετά; two decision bullets; following recall paragraph",
+          "capture_limit": "Publisher-reported historical enforcement. Working English interpretation; no human Greek review. Separate final paragraph concerns feta fines, not olive oil."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52012XC0626%2803%29",
+          "status": "unavailable",
+          "reason": "Web reader received JavaScript challenge."
+        },
+        {
+          "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ%3AC%3A2012%3A186%3A0018%3A0025%3AEN%3APDF",
+          "status": "unavailable",
+          "reason": "Web reader received challenge instead of English2012 PDF."
+        },
+        {
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/245586/GR_Kalamata.pdf",
+          "status": "unavailable",
+          "reason": "Web reader403; alternate same-document copy, not independent corroboration."
+        },
+        {
+          "url": "https://www.minagric.gov.gr/images/stories/docs/agrotis/POP-PGE/prod_elaioladou_kalamata_291211.pdf",
+          "status": "unavailable",
+          "reason": "Direct download: sandbox DNS failure then network-enabled HTTP403. Web text available; screenshot pages4/14 cache miss and no completed image verification."
+        },
+        {
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2015/1393/oj/eng",
+          "status": "unavailable",
+          "reason": "HTML text not obtained; English PDF successfully read instead."
+        }
+      ],
+      "note": "Historical product-study capture only, not a weekly release audit. Failed routes remain unavailable; no source marked unchanged."
     }
   ]
 }

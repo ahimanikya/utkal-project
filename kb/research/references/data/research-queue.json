@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T16:47:00.899189+00:00",
+  "updated_at": "2026-10-05T23:43:01.885936+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 14,
+      "attempts": 15,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T16:47:00.899189+00:00",
-      "next_step": "Next independent RES-070 batch: inspect an original international product specification underlying the saved framework examples, beginning with Kalamata olive oil PDO, and separate product/geographic/inspection claims from operating evidence. Existing local source and Registry recovery remains on/after12October; participant mandates require actual evidence. Reuse the twelve-lead matrix first.",
+      "last_worked_at": "2026-10-05T23:43:01.885936+00:00",
+      "next_step": "On/after12October recover missing local/Registry documents and Kalamata source/annexure gaps; actual producer mandate, goods/boundary and inspection evidence need participants. Reuse the twelve-lead matrix and Kalamata study. Until then continue independent RES-017 named food-factory physical output; RES-067 retains its unfinished pilot dependency.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4176,10 +4176,14 @@
         "food/poda-arisa-place-evidence.md",
         "sources/gi-utsav-ratha2022.md",
         "sources/food-air-raja2026.md",
-        "economy/gi-readiness-matrix.md"
+        "economy/gi-readiness-matrix.md",
+        "economy/kalamata-gi-comparison.md",
+        "sources/gi-kalamata-specification.md",
+        "sources/gi-kalamata-decision2015.md",
+        "sources/gi-kalamata-enforcement2021.md"
       ],
-      "blocker": "Local source recovery and participant fields remain incomplete; independent international original-specification research can continue.",
-      "retry_after": null,
+      "blocker": "Missing original local records, producer/custodian authority and accepted goods/boundary/inspection evidence remain; selected international study does not close those gaps.",
+      "retry_after": "2026-10-12",
       "attempt_history": [
         {
           "run_id": "2026-10-04-gi-opportunities",
@@ -4264,6 +4268,12 @@
           "at": "2026-10-05T16:47:00.899189+00:00",
           "outcome": "twelve_lead_readiness_matrix_completed_routes_and_closure_evidence_recorded_international_specification_gap_next",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-kalamata",
+          "at": "2026-10-05T23:43:01.885936+00:00",
+          "outcome": "kalamata_selected_specification_2015_decision_and_2021_enforcement_saved_with_stage_limits",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -4331,7 +4341,11 @@
           "food/poda-pitha.md",
           "food/arisa-pitha.md",
           "sources/food-crri-rice2015.md",
-          "economy/gi-readiness-matrix.md"
+          "economy/gi-readiness-matrix.md",
+          "economy/kalamata-gi-comparison.md",
+          "sources/gi-kalamata-specification.md",
+          "sources/gi-kalamata-decision2015.md",
+          "sources/gi-kalamata-enforcement2021.md"
         ],
         "project_records": [
           "kb/research/sources/odisha-gis.md"

@@ -377,3 +377,7 @@ RES-070 attempt13 saves poda/arisa place and variant evidence. Next independent 
 ## GI readiness matrix · 5 October 2026
 
 RES-070 attempt14 completes a synthesis checkpoint, not the wider programme. Local source follow-up12October and participant evidence remain open; continue RES-070 with independent international original-specification depth. RES-067 still depends on unfinished RES-064.
+
+## Kalamata comparison · 5 October 2026
+
+RES-070 attempt15 saves the bounded Kalamata comparison. Remaining document and participant gaps return12October; continue independent RES-017 named food-factory physical output. No wider task completion or filing claimed.

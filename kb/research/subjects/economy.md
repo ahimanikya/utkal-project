@@ -126,3 +126,7 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## GI readiness matrix · 5 October 2026
 
 [GI evidence readiness](../economy/gi-readiness-matrix.md) — twelve existing leads, their next evidence products and participant dependencies; no forecast returns or filing claims.
+
+## Kalamata comparison · 5 October 2026
+
+[Kalamata GI comparison](../economy/kalamata-gi-comparison.md) — requirements, boundary decision and reported enforcement kept distinct.

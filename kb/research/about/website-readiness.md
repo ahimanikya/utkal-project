@@ -323,3 +323,7 @@ Poda/arisa comparison is a research draft with dated source scopes and no filing
 ## GI readiness matrix · 5 October 2026
 
 GI readiness matrix is a research synthesis of twelve pilot leads. Route counts describe this KB, not Odisha totals. No eligibility score, human review, appointment, filing or website publication is implied.
+
+## Kalamata comparison · 5 October 2026
+
+The Kalamata comparison is draft historical research. Specification requirements, approved amendment and reported enforcement remain separate. No current compliance guide, filing, human review or website release.

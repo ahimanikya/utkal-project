@@ -21702,6 +21702,26 @@
         "gi-eu-quality",
         "gi-fao-approach"
       ]
+    },
+    {
+      "id": "economy/kalamata-gi-comparison",
+      "title": "Kalamata olive oil: specification, boundary and enforcement",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/kalamata-gi-comparison.md",
+      "project_path": "kb/research/economy/kalamata-gi-comparison.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food",
+        "governance"
+      ],
+      "source_ids": [
+        "gi-kalamata-specification",
+        "gi-kalamata-decision2015",
+        "gi-kalamata-enforcement2021"
+      ]
     }
   ],
   "shared_publications": [
@@ -23346,7 +23366,11 @@
         "food/poda-pitha.md",
         "food/arisa-pitha.md",
         "sources/food-crri-rice2015.md",
-        "economy/gi-readiness-matrix.md"
+        "economy/gi-readiness-matrix.md",
+        "economy/kalamata-gi-comparison.md",
+        "sources/gi-kalamata-specification.md",
+        "sources/gi-kalamata-decision2015.md",
+        "sources/gi-kalamata-enforcement2021.md"
       ],
       "project_records": [
         "kb/research/sources/odisha-gis.md"
@@ -23371,8 +23395,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1411,
-    "updated_at": "2026-10-05T16:47:00.899189+00:00",
+    "records_mapped": 1412,
+    "updated_at": "2026-10-05T23:43:01.885936+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -24145,6 +24169,11 @@
       "at": "2026-10-05T16:47:00.899189+00:00",
       "run_id": "2026-10-05-gi-readiness",
       "scope": "Existing twelve candidates synthesised without new nomination or publisher verification."
+    },
+    {
+      "at": "2026-10-05T23:43:01.885936+00:00",
+      "run_id": "2026-10-05-gi-kalamata",
+      "scope": "Kalamata olive-oil historical comparison; separate from table olives and Odisha candidate identities."
     }
   ]
 }
