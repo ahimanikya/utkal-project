@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T13:51:02.068484+00:00",
+  "updated_at": "2026-10-05T14:52:38.614943+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 11,
+      "attempts": 12,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T13:51:02.068484+00:00",
-      "next_step": "Resume the Puri-linked food candidate dossiers using saved records first. Palm-leaf follow-up on 12 October: seek accepted applicant amendment, dated producer mandate and certified boundary documents; Parts2–3 historical extracts remain only inventoried outside the explicitly reviewed pages.",
+      "last_worked_at": "2026-10-05T14:52:38.614943+00:00",
+      "next_step": "Review GI-C011 Puri-linked poda pitha and GI-C012 arisa against wider Odisha traditions, using saved food pages and recovered IHM chapter first. Gaja/Kanti source-image and identity follow-up12October; producer mandate and recipe measurements remain open.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4170,7 +4170,9 @@
         "sources/gi-palm-examinations2026.md",
         "sources/gi-palm797-submission2021.md",
         "sources/gi-palm805-submission2021.md",
-        "sources/gi-palm805-reply2025.md"
+        "sources/gi-palm805-reply2025.md",
+        "food/gaja-kanti-evidence.md",
+        "sources/gi-niti-pasayat2006.md"
       ],
       "blocker": "No filing-ready applicant/mandate/specification; independent desk research can continue.",
       "retry_after": null,
@@ -4240,6 +4242,12 @@
           "at": "2026-10-05T13:51:02.068484+00:00",
           "outcome": "supporting_annexures_reviewed_with_page_scope_historical_rosters_and_corporation_certificate_recorded_joint_applicant_discrepancy_held",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-gaja-kanti",
+          "at": "2026-10-05T14:52:38.614943+00:00",
+          "outcome": "gaja_kanti_identity_dossier_added_existing_hospitality_chapter_recovered_name_and_ingredient_variants_held_separately",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -4297,7 +4305,10 @@
           "sources/gi-palm-examinations2026.md",
           "sources/gi-palm797-submission2021.md",
           "sources/gi-palm805-submission2021.md",
-          "sources/gi-palm805-reply2025.md"
+          "sources/gi-palm805-reply2025.md",
+          "food/gaja-kanti-evidence.md",
+          "sources/gi-niti-pasayat2006.md",
+          "sources/food-heritage.md"
         ],
         "project_records": [
           "kb/research/sources/odisha-gis.md"

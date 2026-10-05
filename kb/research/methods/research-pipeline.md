@@ -365,3 +365,7 @@ Attempt10 completes Part1 text review and saves three scope holds. Continue with
 ## Palm-leaf supporting annexures · 5 October 2026
 
 RES-070 attempt11 records supporting-file findings without closing the parent task. Next independent work: Puri-linked food dossiers; palm-leaf documentary follow-up12October.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+RES-070 attempt12 saves the Gaja/Kanti identity checkpoint. Next: existing poda pitha/arisa leads using saved records. Original magazine recovery and participant-dependent definitions retry12October.

@@ -586,3 +586,7 @@ Completed Part1 text review with key facsimile checks. Recorded producer represe
 ## Palm-leaf supporting annexures · 5 October 2026
 
 Palm-leaf supporting annexures reviewed within explicit page scope: submitted joint applicants differ from summary; historical roster sections and corporation certificate recorded. No current maker count or accepted amendment inferred. RES-070 remains open.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+Added Gaja/Kanti identity dossier, recovered the existing IHM/NCHM chapter and held ingredient/name equivalence. Exact failures and page scopes saved; no filing or website release.

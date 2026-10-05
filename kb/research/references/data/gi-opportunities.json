@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T13:51:02.068484+00:00",
+  "updated_at": "2026-10-05T14:52:38.614943+00:00",
   "scope": "Puri/Nimapada-first pilot candidate register, Indian comparators and global system lessons. Not an exhaustive Odisha, India or world inventory and not an eligibility opinion.",
   "candidates": [
     {
@@ -218,20 +218,23 @@
     {
       "id": "GI-C006",
       "working_name": "Puri Gaja — provisional product name",
-      "research_stage": "discovery",
+      "research_stage": "goods_identity_dossier",
       "registry_screen": "No matching Puri Gaja name found in bounded index search",
       "reuse_paths": [
         "food/mahaprasad.md",
-        "food/temple-food-gi-governance.md"
+        "food/temple-food-gi-governance.md",
+        "food/gaja-kanti-evidence.md"
       ],
       "basis": "Named in indexed dry Mahaprasad account; generic/family name and exact product scope unresolved.",
-      "next_action": "Document local spelling, ingredients, variations, geography-linked reputation and prior names.",
+      "next_action": "Reconcile source-specific names with producer-reviewed descriptions, Odia spelling and measured methods; source-image and identity follow-up12October. No name equivalence or temple-exclusive origin established.",
       "source_ids": [
         "gi-temple-food2019",
         "gi-tirupathi-journal2008",
         "gi-ttd-controls2015",
         "gi-ttd-weight2022",
-        "gi-jagannath-governance-lead"
+        "gi-jagannath-governance-lead",
+        "gi-niti-pasayat2006",
+        "food-heritage"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -248,25 +251,54 @@
         "mandate": null,
         "current_governance_text_verified": false,
         "retry_after": "2026-10-12"
+      },
+      "goods_identity": {
+        "reviewed_at": "2026-10-05T14:52:38.614943+00:00",
+        "entries": [
+          {
+            "name": "Gaja",
+            "ingredients_as_described": [
+              "wheat",
+              "sugar"
+            ],
+            "source_id": "gi-temple-food2019",
+            "location": "printed58",
+            "access": "indexed_only"
+          },
+          {
+            "name": "Chhena gaja",
+            "description": "fried cheese sweet soaked in syrup",
+            "source_id": "food-heritage",
+            "location": "IHM PDF10/printed251",
+            "access": "facsimile_checked"
+          }
+        ],
+        "names_equivalent": null,
+        "exclusive_puri_origin_verified": false,
+        "measured_recipe": null,
+        "current_market_data": null
       }
     },
     {
       "id": "GI-C007",
       "working_name": "Puri Kanti — provisional product name",
-      "research_stage": "discovery",
+      "research_stage": "goods_identity_dossier",
       "registry_screen": "No matching Puri Kanti name found in bounded index search",
       "reuse_paths": [
         "food/mahaprasad.md",
-        "food/temple-food-gi-governance.md"
+        "food/temple-food-gi-governance.md",
+        "food/gaja-kanti-evidence.md"
       ],
       "basis": "Named in indexed dry Mahaprasad account; no distinct GI specification established.",
-      "next_action": "Recover primary description and producer-accepted technical definition; test against other regional preparations.",
+      "next_action": "Reconcile source-specific names with producer-reviewed descriptions, Odia spelling and measured methods; source-image and identity follow-up12October. No name equivalence or temple-exclusive origin established.",
       "source_ids": [
         "gi-temple-food2019",
         "gi-tirupathi-journal2008",
         "gi-ttd-controls2015",
         "gi-ttd-weight2022",
-        "gi-jagannath-governance-lead"
+        "gi-jagannath-governance-lead",
+        "gi-niti-pasayat2006",
+        "food-heritage"
       ],
       "name_and_origin_verified": false,
       "eligible_applicant_confirmed": false,
@@ -283,6 +315,47 @@
         "mandate": null,
         "current_governance_text_verified": false,
         "retry_after": "2026-10-12"
+      },
+      "goods_identity": {
+        "reviewed_at": "2026-10-05T14:52:38.614943+00:00",
+        "entries": [
+          {
+            "name": "Kanti",
+            "ingredients_as_described": [
+              "rice flour",
+              "ghee"
+            ],
+            "source_id": "gi-temple-food2019",
+            "location": "printed58",
+            "access": "indexed_only"
+          },
+          {
+            "names": [
+              "Bada Kanti",
+              "Sana Kanti"
+            ],
+            "ingredient_context": "listed among black-gram preparations",
+            "source_id": "gi-niti-pasayat2006",
+            "location": "Sakala Dhupa section, article printed38–47; exact passage page unverified",
+            "access": "indexed_only"
+          },
+          {
+            "name": "Chandra kanti",
+            "ingredients_as_described": [
+              "green gram",
+              "rice flour"
+            ],
+            "method_description": "deep fried sweet",
+            "source_id": "food-heritage",
+            "location": "IHM PDF10/printed251",
+            "access": "facsimile_checked"
+          }
+        ],
+        "names_equivalent": null,
+        "ingredient_scope_reconciled": false,
+        "exclusive_puri_origin_verified": false,
+        "measured_recipe": null,
+        "current_market_data": null
       }
     },
     {
@@ -1391,7 +1464,7 @@
     "Current filing forms, fees and rules require a submission-time check."
   ],
   "independent_next_research": [
-    "Resume the Puri-linked food candidate dossiers using saved records first. Palm-leaf follow-up on 12 October: seek accepted applicant amendment, dated producer mandate and certified boundary documents; Parts2–3 historical extracts remain only inventoried outside the explicitly reviewed pages.",
+    "Review GI-C011 Puri-linked poda pitha and GI-C012 arisa against wider Odisha traditions, using saved food pages and recovered IHM chapter first. Gaja/Kanti source-image and identity follow-up12October; producer mandate and recipe measurements remain open.",
     "Recover Puri original documents and indexed historical accounts.",
     "Deepen Nimapada Jhili and Puri Khaja documentary dossiers.",
     "Identify exact Puri gamucha tradition; then extend district nominations across Odisha."
@@ -1688,6 +1761,20 @@
       "registry_summary_applicant": "Kalakruti Vikash Kendra",
       "accepted_amendment": null,
       "next_action": "Locate Registry acceptance/order or reconciled applicant entry; do not turn filed form into accepted applicant change.",
+      "retry_after": "2026-10-12"
+    },
+    {
+      "id": "GI-HOLD-KANTI-IDENTITY",
+      "source_ids": [
+        "gi-temple-food2019",
+        "gi-niti-pasayat2006",
+        "food-heritage"
+      ],
+      "field": "Kanti, Bada/Sana Kanti and Chandra kanti goods identity",
+      "status": "unresolved_variant_scope",
+      "explanation": "Rice-flour, black-gram and green-gram/rice descriptions are source-specific; equivalence, error or variant explanation not established.",
+      "same_recipe": null,
+      "next_action": "Recover original2006/2019 page images and producer-reviewed local names and methods; no blending of ingredient lists.",
       "retry_after": "2026-10-12"
     }
   ],

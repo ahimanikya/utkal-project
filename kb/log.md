@@ -595,3 +595,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Palm-leaf supporting annexures
 
 [Research receipt](records/gi-palm-annexures-2026-10-05.json):Supporting annexures reviewed within saved page scope; documentary claims separated from current authority and accepted boundary. No GI filing. No website release.
+
+## 5 October 2026 · Gaja and Kanti food identities
+
+[Research receipt](records/gi-gaja-kanti-2026-10-05.json):Source-specific names and ingredients compared; hospitality chapter recovered; recipe and origin scope unverified. No GI filing. No website release.

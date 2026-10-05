@@ -131,3 +131,7 @@ Part1 text review is complete. [The comparison](../culture/palm-leaf-gi-applicat
 ## Palm-leaf supporting annexures · 5 October 2026
 
 The [palm-leaf annexures](../culture/palm-leaf-gi-applications.md) contain historic maker-list sections and a corporation by-law amendment, but do not settle present producer representation. Submitted joint applicants differ from the Registry summary; this is held for reconciliation, not a new filing opportunity.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+[Gaja/Kanti evidence](../food/gaja-kanti-evidence.md) extends GI-C006/007. Recovered the existing hospitality chapter through IHM; retained name/ingredient differences and unavailable original magazine PDFs. No new candidate or filing-ready product inferred.

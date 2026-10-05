@@ -55,3 +55,7 @@ For Puri, keep four questions separate: **what is made, where it is made, what r
 The [official governance-document lead](../sources/gi-jagannath-governance-lead.md) points to the1955 Act and an indexed record-of-rights reference. Both full-PDF routes failed. The text’s current applicability and service-specific records are still to verify, with retry12October2026. This is not a conclusion about who should file.
 
 No producer or temple representative has been contacted, no consent or human review is claimed, and no application has been submitted. RES-070 remains in progress. The next independent desk batch is a dated name-use and maker-attribution chronology for Nimapada chhena jhili, keeping the user’s unresolved “Nimapada rasabali” identity separate.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+[Gaja/Kanti dossier](gaja-kanti-evidence.md) advances goods identification: rice, black-gram and green-gram descriptions remain attributed to their respective names and sources. This does not resolve authority or define a single recipe.

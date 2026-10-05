@@ -535,3 +535,7 @@ Existing craft and NID records reused for GI-C010. Added original797/805 submiss
 ## Palm-leaf reply reuse · 5 October 2026
 
 Reused the exact saved Part1 PDF and existing source identity. Extended GI-C010 with page-specific findings; no new craft or source family. Parts2–3 remain the next documentary gap.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+GI-C006/007 extended without new candidate identities. food-heritage reused for the institute-hosted copy; another download route is not another independent publication.

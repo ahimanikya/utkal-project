@@ -548,3 +548,7 @@ PDF7–90 reviewed; earlier first-six-pages checkpoint superseded for Part1 only
 ## Palm-leaf supporting annexures · 5 October 2026
 
 Palm-leaf Parts2–3 now partially reviewed. Need accepted applicant amendment, actual authorising resolutions, KVK-specific organisational evidence and certified map; retry12October. Historical extracts outside saved page scope remain only inventoried. Independent Puri-food work proceeds.
+
+## Gaja/Kanti evidence · 5 October 2026
+
+Gaja/Kanti: original2006/2019 facsimiles unavailable, producer-accepted name equivalence and measured methods absent. Retry12October. Existing IHM chapter recovered with selected visual checks; no full-book review.
