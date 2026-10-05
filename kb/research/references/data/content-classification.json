@@ -5039,6 +5039,18 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/gi-readiness-matrix",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food",
+        "arts",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7667,6 +7679,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "separates ritual association from product definition and producer authority."
+    },
+    {
+      "from": "economy/gi-readiness-matrix",
+      "to": "economy/gi-opportunity-programme",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "connects candidate discovery to the evidence work required for producer-led decisions."
     }
   ],
   "relationship_types": {

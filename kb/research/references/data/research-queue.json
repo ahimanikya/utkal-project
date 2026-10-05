@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T15:48:51.078637+00:00",
+  "updated_at": "2026-10-05T16:47:00.899189+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -4119,10 +4119,10 @@
       "done_when": "Deliver a sourced Odisha candidate programme with pending/registered duplication checks, Indian and international specification/governance comparisons, and evidence dossiers whose filing readiness is assessed against actual producer representation, origin, specification, boundaries and inspection evidence. Do not mark filings submitted without registry receipts.",
       "target": "economy/gi-opportunity-programme.md",
       "status": "in_progress",
-      "attempts": 13,
+      "attempts": 14,
       "dependencies": [],
-      "last_worked_at": "2026-10-05T15:48:51.078637+00:00",
-      "next_step": "Consolidate the twelve-lead GI pilot into a comparative readiness and evidence-priority matrix using saved dossiers; identify remaining desk-research versus producer/custodian dependencies. Do not repeat unavailable publisher requests before12October or imply filings.",
+      "last_worked_at": "2026-10-05T16:47:00.899189+00:00",
+      "next_step": "Next independent RES-070 batch: inspect an original international product specification underlying the saved framework examples, beginning with Kalamata olive oil PDO, and separate product/geographic/inspection claims from operating evidence. Existing local source and Registry recovery remains on/after12October; participant mandates require actual evidence. Reuse the twelve-lead matrix first.",
       "evidence_outputs": [
         "economy/gi-opportunity-programme.md",
         "product/gi-application-preparation.md",
@@ -4175,9 +4175,10 @@
         "sources/gi-niti-pasayat2006.md",
         "food/poda-arisa-place-evidence.md",
         "sources/gi-utsav-ratha2022.md",
-        "sources/food-air-raja2026.md"
+        "sources/food-air-raja2026.md",
+        "economy/gi-readiness-matrix.md"
       ],
-      "blocker": "No filing-ready applicant/mandate/specification; independent desk research can continue.",
+      "blocker": "Local source recovery and participant fields remain incomplete; independent international original-specification research can continue.",
       "retry_after": null,
       "attempt_history": [
         {
@@ -4257,6 +4258,12 @@
           "at": "2026-10-05T15:48:51.078637+00:00",
           "outcome": "poda_arisa_place_association_and_variant_comparison_saved_local_product_scope_unresolved",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-05-gi-readiness",
+          "at": "2026-10-05T16:47:00.899189+00:00",
+          "outcome": "twelve_lead_readiness_matrix_completed_routes_and_closure_evidence_recorded_international_specification_gap_next",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -4323,7 +4330,8 @@
           "sources/food-air-raja2026.md",
           "food/poda-pitha.md",
           "food/arisa-pitha.md",
-          "sources/food-crri-rice2015.md"
+          "sources/food-crri-rice2015.md",
+          "economy/gi-readiness-matrix.md"
         ],
         "project_records": [
           "kb/research/sources/odisha-gis.md"

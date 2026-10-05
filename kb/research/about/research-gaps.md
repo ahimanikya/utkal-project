@@ -556,3 +556,7 @@ Gaja/Kanti: original2006/2019 facsimiles unavailable, producer-accepted name equ
 ## Poda/arisa scope · 5 October 2026
 
 Poda/arisa: Puri ritual association does not settle exclusive origin or a local specification. Producer-supported variant definition, geographic reputation and process measurements remain absent. Utsav direct fetch timed out; retry12October; indexed scope retained.
+
+## GI readiness matrix · 5 October 2026
+
+GI matrix: current producer mandate, agreed goods, certified boundaries, inspection operation and product-level economics remain unverified. Global comparison is still framework-level rather than an original product-specification audit. Review12October; do not repeatedly fetch known unavailable documents.

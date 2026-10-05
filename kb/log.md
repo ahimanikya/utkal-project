@@ -603,3 +603,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 5 October 2026 · Poda and arisa place associations
 
 [Research receipt](records/gi-pitha-scope-2026-10-05.json):Puri associations compared with broader Odisha preparation and festival evidence; local specification and origin scope unresolved. No GI filing. No website release.
+
+## 5 October 2026 · Twelve GI leads and evidence readiness
+
+[Research receipt](records/gi-readiness-2026-10-05.json):Existing candidate dossiers grouped by next evidence bottleneck; international original-specification gap remains next. No GI filing. No website release.

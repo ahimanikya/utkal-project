@@ -96,4 +96,12 @@ for cid in ['GI-C011','GI-C012']:
  ck(not ps['exclusive_puri_origin_verified'] and ps['distinct_puri_specification'] is None and ps['temple_recipe_matched'] is None,'Association promoted to exclusive origin or agreed temple recipe '+cid)
  ck(not ps['tested_recipe'] and not ps['consumer_shelf_life_validated'] and ps['current_market_data'] is None,'Recipe compilation promoted to process validation or market data '+cid)
 ck(holds['GI-HOLD-PITHA-PLACE-SCOPE']['accepted_specification'] is None,'Unresolved local product scope silently accepted')
+ra=x['readiness_assessment'];rr=ra['rows']
+ck(len(rr)==len(cs) and {r['candidate_id'] for r in rr}==set(ids),'Readiness matrix omits or duplicates candidates')
+ck(sum(ra['route_counts'].values())==len(rr),'Readiness route counts mismatch')
+for route,n in ra['route_counts'].items():ck(n==sum(r['route']==route for r in rr),'Readiness route count drift '+route)
+for r in rr:
+ ck((ROOT/r['dossier_path']).is_file() and bool(r['evidence_to_close_next_step']),'Readiness evidence link or closure condition missing')
+ ck(not r['ready_to_file'] and not r['outreach_sent'] and r['human_owner'] is None,'Readiness synthesis invented action or owner')
+ck(not ra['fresh_publisher_check'] and ra['ready_to_file_count']==sum(r['ready_to_file'] for r in rr),'Synthesis promoted to publisher check or filing readiness')
 print(json.dumps({'result':'FAIL' if errors else 'PASS','candidate_leads':len(cs),'comparators':len(x['indian_comparator_ids']),'original_specifications':len(specs)+2,'textile_editions':len(tx['editions']),'specification_holds':len(holds),'ready_to_file':sum(c['ready_to_file'] for c in cs),'errors':errors,'scope':'Identity and stage safeguards, not eligibility, producer mandate or legal clearance.'},indent=2));sys.exit(bool(errors))

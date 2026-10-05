@@ -96,3 +96,7 @@ The Mahaprasad food family first needs a separate scope and custodianship study.
 ## Palm-leaf supporting annexures · 5 October 2026
 
 The [palm-leaf annexure review](../culture/palm-leaf-gi-applications.md) supplies a useful distinction: an old craft list, a claimed mandate, a corporation certificate and a submitted joint form answer different questions. Verify each entity and date; obtain the actual resolution and accepted applicant record before describing filing readiness.
+
+## GI readiness matrix · 5 October 2026
+
+[Readiness matrix](../economy/gi-readiness-matrix.md) extends this initial four-brief pack to all twelve existing leads. Use its candidate-specific next annexure and completion evidence; no candidate has a verified Utkal mandate or filing-ready dossier.

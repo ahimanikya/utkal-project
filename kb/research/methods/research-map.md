@@ -543,3 +543,7 @@ GI-C006/007 extended without new candidate identities. food-heritage reused for 
 ## Poda/arisa scope · 5 October 2026
 
 GI-C011/012 extended with existing CRRI and IHM records before new browsing. Added official ritual/festival source identities; duplicate publication routes remain one lineage.
+
+## GI readiness matrix · 5 October 2026
+
+Added one synthesis concept for the existing twelve GI leads. Source records and original review dates reused; no new source identity or independent corroboration claimed.
