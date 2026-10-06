@@ -22,3 +22,7 @@ resource: "https://odishacraftsmuseum.odisha.gov.in/"
 [Open source](https://odishacraftsmuseum.odisha.gov.in/)
 
 [^visitor-kalabhoomi]: [Odisha Crafts Museum — Kala Bhoomi](https://odishacraftsmuseum.odisha.gov.in/)
+
+## Scope extension on 6 October 2026
+
+The [museum about page](https://www.odishacraftsmuseum.odisha.gov.in/header/content/?mstcall=AboutMuseum) was read for institutional purpose. Current admission and activity availability were not verified. The separately catalogued [2019 book](kalabhoomi-catalogue2019.md) supplies dated collection examples. Both belong to the same institutional family.

@@ -30,3 +30,5 @@ The Founder selects the scope, names the coordinator, approves actual recipients
 After the fieldwork, return six honest outcomes, including refusals or deferrals; draft stories with evidence and permissions; a cost reconciliation; and a barrier log. These support later itinerary and policy work. They do not automatically create a bookable product or government partnership.
 
 [Approved research pack](../../research/collections/tourism-pilot-desk-review.md) · [Capacity options](../tourism-pilot-capacity.md) · [Experience model](../../models/tourism-experience-record.md)
+
+[Founder TODO](../founder-todo.md) records decisions deferred on 6 October. [Article drafts](../../research/stories/narratives/tourism-reading-collection.md) continue independently.

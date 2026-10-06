@@ -4945,12 +4945,12 @@
       "id": "UTP-WORK-169",
       "title": "Select local shortlist and prepare introductions",
       "category": "tourism_pilot",
-      "status": "in_progress",
+      "status": "deferred",
       "readiness": "approved",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant for preparation only; field coordinator vacant.",
       "authorization": "UTP-DEC-208",
-      "next_action": "Preparation pack approved. Select the human coordinator, named recipients and messages, visit arrangements and cash ceiling before field activity. No contact or spending has occurred.",
+      "next_action": "On Founder resumption, complete the relevant actions in specs/founder-todo.md. Research/article work continues separately under UTP-WORK-180; no date committed.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-167",
@@ -4976,7 +4976,8 @@
         "UTP-WORK-168",
         "UTP-DEC-209",
         "UTP-REV-148",
-        "UTP-DEC-208"
+        "UTP-DEC-208",
+        "UTP-DEC-210"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
@@ -4984,19 +4985,20 @@
         "models/tourism-experience-record.md",
         "records/tourism-fieldwork-pack-2026-10-05.json",
         "specs/tourism-fieldwork/index.md",
-        "records/tourism-fieldwork-approval-2026-10-06.json"
+        "records/tourism-fieldwork-approval-2026-10-06.json",
+        "specs/founder-todo.md"
       ]
     },
     {
       "id": "UTP-WORK-170",
       "title": "Confirm hosts and experience information",
       "category": "tourism_pilot",
-      "status": "proposed",
+      "status": "deferred",
       "readiness": "concept",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
       "authorization": "UTP-DEC-202",
-      "next_action": "After outreach authorization and privacy arrangements, collect dated confirmations.",
+      "next_action": "On Founder resumption, complete the relevant actions in specs/founder-todo.md. Research/article work continues separately under UTP-WORK-180; no date committed.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-169"
@@ -5015,12 +5017,14 @@
       "refs": [
         "UTP-DEC-202",
         "UTP-WORK-165",
-        "UTP-WORK-169"
+        "UTP-WORK-169",
+        "UTP-DEC-210"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "specs/founder-todo.md"
       ]
     },
     {
@@ -5228,6 +5232,84 @@
       "evidence": [
         "records/cultural-roots-repository-approval.json",
         "records/cultural-roots-four-stories-review.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-180",
+      "title": "Write museum, inscription and craft articles from existing tourism research",
+      "category": "research_and_editorial",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-210",
+      "next_action": "Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Founder TODO linked to existing work, with no invented due dates.",
+        "Three readable articles reuse existing entities and trace factual claims to scoped sources.",
+        "Source failures, translation edition and practical uncertainty remain visible.",
+        "No host contact, appointments, spending or deployment."
+      ],
+      "reuse_before_research": [
+        "research/places/kala-bhoomi.md",
+        "research/culture/pipili-applique.md",
+        "research/destinations/central-details.json",
+        "research/culture/craft-stories.json",
+        "specs/tourism-fieldwork/index.md"
+      ],
+      "refs": [
+        "UTP-DEC-210",
+        "UTP-REV-149",
+        "UTP-DEC-212",
+        "UTP-DEC-213"
+      ],
+      "evidence": [
+        "specs/founder-todo.md",
+        "research/stories/narratives/tourism-reading-collection.md",
+        "research/stories/narratives/tourism-reading-evidence.json",
+        "records/tourism-reading-research-2026-10-06.json",
+        "records/tourism-reading-approval-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-181",
+      "title": "Write Tarakasi, Jobra and Raghurajpur reading articles",
+      "category": "research_and_editorial",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-211",
+      "next_action": "Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Three connected article drafts add specific discoveries to existing entities.",
+        "Inspected source scopes and inherited identities remain traceable.",
+        "Unverified dates, availability and attributed intentions are not invented.",
+        "Founder TODO remains deferred; no outreach or deployment."
+      ],
+      "reuse_before_research": [
+        "research/culture/cuttack-tarakasi.md",
+        "research/places/odisha-state-maritime-museum.md",
+        "research/culture/raghurajpur-pattachitra.md",
+        "research/people/kelucharan-mohapatra.md",
+        "research/history/maritime-evidence.md"
+      ],
+      "refs": [
+        "UTP-DEC-211",
+        "UTP-REV-150",
+        "UTP-WORK-180",
+        "UTP-DEC-212",
+        "UTP-DEC-213"
+      ],
+      "evidence": [
+        "research/stories/narratives/tourism-reading-collection.md",
+        "research/stories/narratives/tourism-reading-followup-evidence.json",
+        "records/tourism-reading-followup-2026-10-06.json",
+        "records/tourism-reading-approval-2026-10-06.json"
       ]
     }
   ],
@@ -9385,6 +9467,88 @@
       "evidence": [
         "records/cultural-roots-repository-approval.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-210",
+      "title": "Defer field-pilot decisions and continue research articles",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "You can add to my TODO list, for now continue research work and keep documenting and writing articles",
+      "scope": "Add Founder field-pilot actions to the KB TODO list and continue sourced research and article drafting. No new outreach, expenditure, appointments or website publication.",
+      "recorded_at": "2026-10-06T06:26:04.321692+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-169",
+        "UTP-WORK-170",
+        "UTP-WORK-180"
+      ],
+      "evidence": [
+        "specs/founder-todo.md",
+        "records/tourism-reading-research-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-211",
+      "title": "Continue the tourism reading collection with three more subjects",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Lets go that",
+      "scope": "Continue the proposed Tarakasi, Maritime Museum and Raghurajpur research/article batch. Extend the existing draft PR; field actions remain deferred.",
+      "recorded_at": "2026-10-06T06:58:42.265163+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-181"
+      ],
+      "evidence": [
+        "records/tourism-reading-followup-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-212",
+      "title": "Accept pushing the six tourism articles and plan the next batch",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Push it and let's plan next",
+      "scope": "Push the six research article drafts and next editorial plan to the review branch. Automatic approval review rejected interpreting this instruction as merge authorization; explicit main-branch merge approval remains pending.",
+      "recorded_at": "2026-10-06T08:03:16.054405+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-180",
+        "UTP-WORK-181"
+      ],
+      "evidence": [
+        "records/tourism-reading-approval-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-213",
+      "title": "Explicitly approve merging PR138 into main",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Direct reply to the question May I merge PR #138 into `main`? Authorizes the six-story research collection, deferred TODOs and next editorial plan to merge into main after checks. No website article release or field commitments.",
+      "recorded_at": "2026-10-06T08:10:41.340486+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-180",
+        "UTP-WORK-181",
+        "UTP-DEC-212"
+      ],
+      "evidence": [
+        "records/tourism-reading-approval-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -12857,6 +13021,53 @@
       "evidence": [
         "records/cultural-roots-repository-approval.json",
         "records/cultural-roots-four-stories-review.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-149",
+      "title": "Tourism reading and Founder TODO self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No independent historian, local maker or language review.",
+        "Museum catalogue text inspected; page screenshots failed.",
+        "New articles are repository drafts; image selection and website publication remain open."
+      ],
+      "refs": [
+        "UTP-WORK-180",
+        "UTP-DEC-210"
+      ],
+      "evidence": [
+        "research/stories/narratives/tourism-reading-evidence.json",
+        "records/tourism-reading-research-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-150",
+      "title": "Craft and maritime narrative self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No independent local or specialist review.",
+        "Museum account is not an original plaque inspection or workers’ archive.",
+        "Image candidates reuse provenance; no new visual review.",
+        "Repository drafts only; field availability and publication remain open."
+      ],
+      "refs": [
+        "UTP-WORK-181",
+        "UTP-DEC-211"
+      ],
+      "evidence": [
+        "research/stories/narratives/tourism-reading-followup-evidence.json",
+        "records/tourism-reading-followup-2026-10-06.json"
       ]
     }
   ],

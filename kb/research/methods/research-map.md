@@ -405,3 +405,11 @@ The [tourism pilot](../../specs/tourism-experience-pilot.md), [evidence brief](.
 ## Odisha Roots attribution investigations · 6 October 2026 UTC
 
 [Four completed narrative drafts](../stories/narratives/odisha-roots-four-investigations.md) extend the existing Pattachitra story and cultural-attribution shortlist. Reuse their companion evidence records before researching Jayadeva, the Puri–Digha naming dispute, Chhau institutions or Sambalpur’s language movement. Existing `chhau` and `dance-battery2024` source identities are retained. A newly located parliamentary objection updates the initial Chhau lead; archaeological identification, renaming implementation and original colonial records retain explicit gaps. These are local editorial drafts, not published site content or conclusive historical verdicts.
+
+## Tourism reading articles on 6 October 2026
+
+[Three drafts](../stories/narratives/tourism-reading-collection.md) reuse Kala Bhoomi, Dhauli and Pipili identities. A museum catalogue and a named English rendering add specific evidence; the museum website and catalogue share provenance. The [claim record](../stories/narratives/tourism-reading-evidence.json) distinguishes failed rechecks from saved evidence. Founder field decisions are deferred; article drafting continues.
+
+## Tourism reading follow-up on 6 October 2026
+
+The [six-story collection](../stories/narratives/tourism-reading-collection.md) now includes Tarakasi, Jobra and Raghurajpur. Existing craft, place, person and PIB identities are reused. Two new source records cover a credited wirework process and the museum workshop subpage. Museum pages share provenance. [Follow-up evidence](../stories/narratives/tourism-reading-followup-evidence.json) records full-page retrieval, unresolved dates excluded from narration, media candidates and pending field questions. Imported research scope remains frozen.

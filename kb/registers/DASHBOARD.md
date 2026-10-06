@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e60a4896af4eaef8a49918cddc9de5b0f1291da92c6d168aee78ede604e9529b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `acaf8b2632cd2052da39a0de1c62787b4f7e57c6f5bbd44db0a397d96999fa4e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -181,14 +181,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-166 · Verify official tourism guidance and portal | in_progress | approved | Ahimanikya Satapathy | MICE application-route recheck still failed. Department enquiry drafted; confirm recipient and obtain sending authorization before contact. Keep task open. | — |
 | UTP-WORK-167 · Audit existing cultural experience candidates | completed | approved | Ahimanikya Satapathy | Approved desk shortlist delivered; local selection and introductions follow under WORK-169, with no host participation implied. | — |
 | UTP-WORK-168 · Prepare pilot capacity and fieldwork budget | completed | approved | Ahimanikya Satapathy | Approved capacity document delivered; obtain actual quotes and a separate funding/appointment decision before fieldwork. | — |
-| UTP-WORK-169 · Select local shortlist and prepare introductions | in_progress | approved | Ahimanikya Satapathy | Preparation pack approved. Select the human coordinator, named recipients and messages, visit arrangements and cash ceiling before field activity. No contact or spending has occurred. | — |
-| UTP-WORK-170 · Confirm hosts and experience information | proposed | concept | Ahimanikya Satapathy | After outreach authorization and privacy arrangements, collect dated confirmations. | — |
+| UTP-WORK-169 · Select local shortlist and prepare introductions | deferred | approved | Ahimanikya Satapathy | On Founder resumption, complete the relevant actions in specs/founder-todo.md. Research/article work continues separately under UTP-WORK-180; no date committed. | — |
+| UTP-WORK-170 · Confirm hosts and experience information | deferred | concept | Ahimanikya Satapathy | On Founder resumption, complete the relevant actions in specs/founder-todo.md. Research/article work continues separately under UTP-WORK-180; no date committed. | — |
 | UTP-WORK-171 · Prepare three conference visitor itinerary drafts | proposed | concept | Ahimanikya Satapathy | Draft heritage, craft and food itineraries using confirmed records. | — |
 | UTP-WORK-172 · Assess operator readiness and trial proposal | proposed | concept | Ahimanikya Satapathy | Document delivery gaps and prepare a bounded trial with budget and permissions. | — |
 | UTP-WORK-173 · Prepare Boita policy and entrepreneurship brief | proposed | concept | Ahimanikya Satapathy | Synthesize observed barriers and practical recommendations in a five-page proposal. | — |
 | UTP-WORK-174 · Specify tourism opportunities website section | proposed | concept | Ahimanikya Satapathy | Define public scheme explanations and reviewed experience links for a later website batch. | — |
 | UTP-WORK-175 · Prepare authorized engagement and outcome review | proposed | concept | Ahimanikya Satapathy | Prepare recipient-specific discussion pack and a measurement plan for Founder review. | — |
 | UTP-WORK-176 · Approved Odisha Roots cultural story integration | completed | approved | Ahimanikya Satapathy | Push and integrate the approved repository edition; retain targeted archival follow-ups. Website publication is separate. | — |
+| UTP-WORK-180 · Write museum, inscription and craft articles from existing tourism research | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
+| UTP-WORK-181 · Write Tarakasi, Jobra and Raghurajpur reading articles | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
 
 ## Pending human review and decisions
 
@@ -459,6 +461,10 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-209 · Prepare six-experience fieldwork pack | recorded_direction | Ahimanikya Satapathy | Prepare six-experience fieldwork handoff, coordinator vacancy brief, confirmation checklist, unsent introductions and departmental enquiry, editable quote/expense tracker, read-only portal recheck. No sending, appointments or spending authorized. |
 | UTP-DEC-208 · Approve six-experience fieldwork pack PR136 | approved | Ahimanikya Satapathy | Approve and merge the six-experience fieldwork preparation pack. Named outreach recipients, coordinator appointment, visits and expenditure remain separate pending decisions. |
 | UTP-DEC-207 · Accept and push four cultural investigations | approved | Ahimanikya Satapathy | Push the four accepted cultural stories and supporting records to ahimanikya/utkal-project; include linked Pattachitra draft as prerequisite context. |
+| UTP-DEC-210 · Defer field-pilot decisions and continue research articles | recorded_direction | Ahimanikya Satapathy | Add Founder field-pilot actions to the KB TODO list and continue sourced research and article drafting. No new outreach, expenditure, appointments or website publication. |
+| UTP-DEC-211 · Continue the tourism reading collection with three more subjects | recorded_direction | Ahimanikya Satapathy | Continue the proposed Tarakasi, Maritime Museum and Raghurajpur research/article batch. Extend the existing draft PR; field actions remain deferred. |
+| UTP-DEC-212 · Accept pushing the six tourism articles and plan the next batch | approved | Ahimanikya Satapathy | Push the six research article drafts and next editorial plan to the review branch. Automatic approval review rejected interpreting this instruction as merge authorization; explicit main-branch merge approval remains pending. |
+| UTP-DEC-213 · Explicitly approve merging PR138 into main | approved | Ahimanikya Satapathy | Direct reply to the question May I merge PR #138 into `main`? Authorizes the six-story research collection, deferred TODOs and next editorial plan to merge into main after checks. No website article release or field commitments. |
 
 ## Reviews
 
@@ -608,6 +614,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-144 | pass_with_limitations | False | MICE-specific application workflow not verified; OTIIMS entry timed out.; No complete capital-policy eligibility assessment or guarantee that later amendments do not exist.; Candidate source-check metadata is reused, not newly externally verified.; No staff appointed, host contacted, field route checked or supplier quote obtained.; No public brief for the reported 100-day mapping proposal established. |
 | UTP-REV-148 | pass_with_limitations | False | MICE application route and acceptance still unverified.; No named contact or message authorized for sending.; No current host conditions, field route, appointments or supplier quotes confirmed.; Workbook formula behaviour tested in Artifact Tool; native Excel not exercised.; Private working-record location remains to be designated before sensitive intake. |
 | UTP-REV-145 | pass_with_limitations | False | No independent historical or language review.; Source access and original-record gaps remain documented in each story.; No website publication or image selection. |
+| UTP-REV-149 | pass_with_limitations | False | No independent historian, local maker or language review.; Museum catalogue text inspected; page screenshots failed.; New articles are repository drafts; image selection and website publication remain open. |
+| UTP-REV-150 | pass_with_limitations | False | No independent local or specialist review.; Museum account is not an original plaque inspection or workers’ archive.; Image candidates reuse provenance; no new visual review.; Repository drafts only; field availability and publication remain open. |
 
 ## Publication and application history
 
@@ -720,16 +728,16 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-234 | 2026-10-04T23:13:52.469780+00:00 | Published approved PR115 through Pages. Verified the live planner controls, shared journey payload and matching script/style assets for guided day planning and portable summaries. | Published and live-delivery verified. Rendered browser, native PDF, screen-reader and physical-device review and Search Console processing remain separate follow-ups. |
-| UTP-EVT-235 | 2026-10-04T23:54:22.980161+00:00 | Chrome access succeeded. Reviewed live and local planner, responsive widths and 17 final PDF pages. Prepared fixes for notebook height, reminder focus and question-list pagination; privacy and selected-day PDF checks passed. | Founder reviews the three usability fixes before merge and deployment. Physical devices, assistive technology and large/illustrated PDF samples remain separate follow-ups. |
-| UTP-EVT-236 | 2026-10-05T00:38:12.384650+00:00 | Published approved PR119 through Pages. Matching delivery hashes and live Chrome checks confirm the reviewed notebook and reminder-focus fixes; native print-grouping code matches the PDF-reviewed candidate. | Published and live-delivery/Chrome interaction verified. Physical-device, screen-reader, large/illustrated PDF samples and Search Console remain separate follow-ups. |
-| UTP-EVT-237 | 2026-10-05T02:57:03.227103+00:00 | Converted the Founder-shared tourism portal clue into a linked pilot brief, evidence register, experience template and ten dependent follow-up tasks. | Verify official guidance and reuse the KB for a desk shortlist; prepare field capacity before outreach. |
-| UTP-EVT-238 | 2026-10-06T01:48:10.118217+00:00 | Recorded Founder approval of PR124 and corrected the generated editorial index freshness failure before merge. | Merge after passing checks; official guidance verification and candidate audit are the next ready tasks. |
 | UTP-EVT-239 | 2026-10-06T02:48:37.224938+00:00 | Reviewed official event/capital guidance, traced the tourism incentive portal to GO-SWIFT, reused KB evidence for 22 leads and prepared six/20-experience budget scenarios. Portal workflow and field confirmation remain open. | Review candidate pack; resolve MICE workflow and agree a local coordinator, shortlist and funding before outreach or spending. |
 | UTP-EVT-241 | 2026-10-06T04:04:09.823821+00:00 | Recorded Founder approval of PR135. Desk shortlist and budget-document tasks completed; MICE application workflow remains an open verification task. | Merge after passing checks; fieldwork requires actual coordinator, hosts and funding decisions. |
 | UTP-EVT-242 | 2026-10-06T05:00:25.526901+00:00 | Recorded Founder acceptance of four cultural investigations and prepared integration on current main. Linked Pattachitra context retained; source limitations preserved. No website deployment. | Push approved repository candidate and verify integration. |
 | UTP-EVT-243 | 2026-10-06T04:56:38.255484+00:00 | Prepared coordinator and six visit briefs, consent/access checklist, unsent introductions, MICE clarification draft and a tested blank cost tracker. No outreach, appointment or spending occurred. | Review the pack and select the human coordinator, actual recipients/messages and cash ceiling before field activity. |
 | UTP-EVT-244 | 2026-10-06T05:42:22.477466+00:00 | Recorded Founder approval of PR136 fieldwork preparation pack. Actual field coordination and outreach remain open; no appointment, contact or expenditure made. | Merge after passing checks; select named coordinator, recipients and cash ceiling before field activity. |
+| UTP-EVT-245 | 2026-10-06T06:26:04.321692+00:00 | Added five deferred Founder field-pilot actions and prepared three sourced reading articles. Existing entities and evidence were reused; new source limitations recorded. | Review article drafts; continue research while field-pilot decisions remain with the Founder. |
+| UTP-EVT-246 | 2026-10-06T06:58:42.265163+00:00 | Extended the reading collection to six with Tarakasi, Jobra and Raghurajpur; preserved claim provenance and pending local evidence. | Founder editorial review and documentary media selection. |
+| UTP-EVT-247 | 2026-10-06T08:03:16.054405+00:00 | Recorded Founder acceptance of PR138 and documented the next editorial plan. Research article preparation is complete; field commitments remain deferred. | Merge after final checks; use the six-story collection for the next editorial sequence. |
+| UTP-EVT-248 | 2026-10-06T08:07:12.894128+00:00 | Automatic approval review rejected the proposed PR138 merge: the user instruction authorized branch push but was not explicit about merging into main. No merge command ran. Corrected current approval scope; prior proposed integration language must not be treated as merge evidence. | Obtain explicit Founder merge confirmation; keep the research and next plan pushed on the review branch. |
+| UTP-EVT-249 | 2026-10-06T08:10:41.340486+00:00 | Founder answered Approved to the explicit request to merge PR138 into main. Previous merge-permission blocker is resolved; no merge execution claimed by this record. | Merge after final checks and confirm GitHub merge result. |
 
 ## Deferred extensions
 

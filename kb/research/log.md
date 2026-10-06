@@ -440,3 +440,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 6 October 2026 UTC · Approved cultural story integration
 
 The Founder accepted the [four Odisha Roots investigations](stories/narratives/odisha-roots-four-investigations.md) for repository push. Included the preceding Pattachitra draft and its inspected reel capture as linked context. Each story retains source notes and research limitations. Newer main-branch work is preserved; unrelated local changes are excluded. [Approval and integration record](../records/cultural-roots-repository-approval.json). No website deployment.
+
+## 6 October 2026 · Six tourism reading drafts
+
+Added Tarakasi’s structure, Jobra’s engineering history and Raghurajpur’s painting/performance connection to the [reading collection](stories/narratives/tourism-reading-collection.md). Two source records added; existing PIB, museum and Srjan identities reused. No fabricated local voices, live availability or publication claim. [Follow-up record](../records/tourism-reading-followup-2026-10-06.json).

@@ -1026,3 +1026,23 @@ The six proposed experiences now have questions, permissions, practical checks a
 ## UTP-HIS-0242 · The fieldwork preparation pack is approved
 
 The Founder approved the six visit briefs, coordinator role brief, confirmation checklist, unsent introductions and blank cost tracker. Moving from preparation into field activity still requires named people and agreed arrangements. [Approval record](../records/tourism-fieldwork-approval-2026-10-06.json).
+
+## UTP-HIS-0243 · Keep the research moving while field decisions wait
+
+The Founder moved pilot coordination and spending decisions to his TODO list and asked for continued research and articles. Museum objects, an inscription and stitched cloth become three ways to invite curiosity before a visit. [Research batch](../research/stories/narratives/tourism-reading-collection.md).
+
+## UTP-HIS-0244 · Wire, water and a moving story
+
+The next three reading drafts look beneath a silver pattern, into the workshop behind a museum, and across painting and dance in Raghurajpur. Six stories now invite a closer look before a visit, while local voices and field arrangements remain to be added. [Six-story collection](../research/stories/narratives/tourism-reading-collection.md).
+
+## UTP-HIS-0245 · Six invitations to look more closely are accepted
+
+The Founder accepted six tourism reading drafts for the project repository and asked to plan the next step. The proposed sequence adds documentary pictures and practical visitor context, beginning with one complete Raghurajpur preview before extending the format. [Approval record](../records/tourism-reading-approval-2026-10-06.json).
+
+## UTP-HIS-0246 · The push and merge distinction is retained
+
+The assistant initially read the Founder’s push instruction as permission to merge. Automatic approval review rejected that interpretation before execution. The six articles and next plan are on the review branch; merging requires explicit confirmation. This corrects the merge scope implied by UTP-HIS-0245.
+
+## UTP-HIS-0247 · The six-story collection receives explicit merge approval
+
+The Founder explicitly approved merging PR138 into main. The six reading articles and next editorial plan can now join the project repository; illustrated website preparation and deferred field arrangements remain separate.

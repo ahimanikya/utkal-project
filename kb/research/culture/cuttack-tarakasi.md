@@ -15,3 +15,7 @@ subjects: ["arts", "places"]
 The Directorate of Handicrafts identifies Cuttack silver filigree by the name **tarakasi**. Its indexed description supports the place and craft name; the full page timed out.
 
 Research objects, jewellery and ceremonial uses separately, with named makers, wire-working technique, designs, dates and provenance. GI status, employment, export destinations and turnover are not established by this brief description. Do not infer a 500-year history or an export total from promotional language.
+
+## Research extension · 6 October 2026
+
+[Related article draft](../stories/narratives/cuttack-tarakasi-structure-in-silver.md) develops this entity through inspected process or institutional history. [Claim and media record](../stories/narratives/tourism-reading-followup-evidence.json) separates documentary evidence, original narration and practical questions still to verify.
