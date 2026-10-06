@@ -5238,12 +5238,12 @@
       "id": "UTP-WORK-180",
       "title": "Write museum, inscription and craft articles from existing tourism research",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "approved",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-210",
-      "next_action": "Review the original three articles alongside the follow-up three under UTP-WORK-181. Museum image selection, specialist/local review and public publication remain open.",
+      "next_action": "Repository articles accepted. Follow the next editorial plan in the six-story collection; public page preparation and fieldwork remain separate.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5261,25 +5261,27 @@
       ],
       "refs": [
         "UTP-DEC-210",
-        "UTP-REV-149"
+        "UTP-REV-149",
+        "UTP-DEC-212"
       ],
       "evidence": [
         "specs/founder-todo.md",
         "research/stories/narratives/tourism-reading-collection.md",
         "research/stories/narratives/tourism-reading-evidence.json",
-        "records/tourism-reading-research-2026-10-06.json"
+        "records/tourism-reading-research-2026-10-06.json",
+        "records/tourism-reading-approval-2026-10-06.json"
       ]
     },
     {
       "id": "UTP-WORK-181",
       "title": "Write Tarakasi, Jobra and Raghurajpur reading articles",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "approved",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-211",
-      "next_action": "Review the six-story collection; select permitted documentary images and obtain local/specialist contributions before preparing public articles.",
+      "next_action": "Repository articles accepted. Follow the next editorial plan in the six-story collection; public page preparation and fieldwork remain separate.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5298,12 +5300,14 @@
       "refs": [
         "UTP-DEC-211",
         "UTP-REV-150",
-        "UTP-WORK-180"
+        "UTP-WORK-180",
+        "UTP-DEC-212"
       ],
       "evidence": [
         "research/stories/narratives/tourism-reading-collection.md",
         "research/stories/narratives/tourism-reading-followup-evidence.json",
-        "records/tourism-reading-followup-2026-10-06.json"
+        "records/tourism-reading-followup-2026-10-06.json",
+        "records/tourism-reading-approval-2026-10-06.json"
       ]
     }
   ],
@@ -9501,6 +9505,26 @@
       ],
       "evidence": [
         "records/tourism-reading-followup-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-212",
+      "title": "Accept the six tourism articles for repository integration and plan the next batch",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Push it and let's plan next",
+      "scope": "Merge PR138 with the six research article drafts and deferred Founder TODOs; record the next editorial plan. Website publication and local field commitments remain separate.",
+      "recorded_at": "2026-10-06T08:03:16.054405+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-180",
+        "UTP-WORK-181"
+      ],
+      "evidence": [
+        "records/tourism-reading-approval-2026-10-06.json"
       ]
     }
   ],
