@@ -53,3 +53,7 @@ The [legacy report](https://old.omfed.com/annual-report13-14.pdf) was recovered 
 - [Livestock](../statistics/livestock.md) — State milk production differs from cooperative procurement.
 - [Sweets from milk to market](../stories/sweets-from-milk-to-market.md) — Connect food processing with sweets without inventing a measured supply relationship.
 - [Cuttack](../statistics/districts/cuttack.md) — Directory identifies Arilo; no district output or supplier availability inferred.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar factories](sugar-production.md) add a provisional eleven-year physical-output history and separate company sale-period quantities. OMFED product volumes and rice-mill throughput remain unknown; sugar does not fill those product-specific gaps.

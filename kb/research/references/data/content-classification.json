@@ -5062,6 +5062,26 @@
       "content_type": "Research Collection",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "economy/sugar-production",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "stories/sugar-output-recovery",
+      "primary_subject": "economy",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Story Card",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7704,6 +7724,13 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "connects original international documents to questions for Odisha’s producer-led dossiers."
+    },
+    {
+      "from": "economy/sugar-production",
+      "to": "economy/food-processing-and-dairy",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "connects factory output with the broader processing evidence while preserving product and period boundaries."
     }
   ],
   "relationship_types": {

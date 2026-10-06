@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-05T23:43:01.885936+00:00",
+  "updated_at": "2026-10-06T00:01:09.592924+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9765,6 +9765,47 @@
         }
       ],
       "note": "Historical product-study capture only, not a weekly release audit. Failed routes remain unavailable; no source marked unchanged."
+    },
+    {
+      "run_id": "2026-10-05-sugar-output",
+      "at": "2026-10-06T00:01:09.592924+00:00",
+      "source_checks": [
+        {
+          "source_id": "rice-oas2024",
+          "status": "available_indexed_only",
+          "scope": "p.109/table29 indexed contents and complete table blocks; original images unavailable, no rice recheck"
+        },
+        {
+          "source_id": "food-aska-status",
+          "status": "available",
+          "scope": "Explicit2016–17 paragraph only; no current operational verification"
+        },
+        {
+          "source_id": "food-sakthi-ar2023",
+          "status": "available",
+          "scope": "Board report pp.15–16, p.16 original image checked",
+          "local_capture": "work/sugar-output/sakthi2023.pdf",
+          "sha256": "7fbb2b782db1131b579b28f655faf07273a420d9616bba76648ee8086e5c3dcf"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf",
+          "status": "unavailable",
+          "reason": "Web PDF fetch timed out twice; direct curl connection timed out after10seconds; screenshot could not resolve PDF. Indexed publisher table accessible."
+        },
+        {
+          "url": "https://agri.odisha.gov.in/en/page/statistics",
+          "status": "unavailable",
+          "reason": "Web reader failed; indexed catalogue available."
+        },
+        {
+          "url": "https://askasugar.com/default.php",
+          "status": "unavailable",
+          "reason": "Right To Information navigation link21 click failed; destination content unavailable, exact endpoint not adopted."
+        }
+      ],
+      "note": "Research capture, not a weekly revision audit. Existing OAS lineage reused; failed routes never labelled unchanged."
     }
   ]
 }

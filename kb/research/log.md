@@ -602,3 +602,7 @@ Completed a twelve-lead GI synthesis matrix using saved evidence. Four routes se
 ## Kalamata comparison · 5 October 2026
 
 Added Kalamata specification/decision/enforcement comparison; corrected overly broad local-chain wording, preserved the2015 table correction and2021 action limits. Three new primary-source records, with failed routes explicitly unavailable. RES-070 checkpoint saved; follow-up12October, RES-017 next.
+
+## Sugar-output checkpoint · 2026-10-06
+
+Captured eleven-year sugar-factory table under existing rice-oas2024 source identity;66 state-table observations remain provisional or held, while4 company quantities have original-page verification. Saved recovery and Aska discrepancies; no partial-year growth or current ownership inferred.

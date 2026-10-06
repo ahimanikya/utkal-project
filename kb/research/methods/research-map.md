@@ -551,3 +551,7 @@ Added one synthesis concept for the existing twelve GI leads. Source records and
 ## Kalamata comparison · 5 October 2026
 
 Added a Kalamata oil comparison and three primary-source identities, distinct from table olives. Same-document routes are not independent corroboration; RES-070 reuse pointers extended.
+
+## Sugar-output checkpoint · 2026-10-06
+
+Extended the existing agriculture source to sugar-factory rows; added operator and company report identities. New study and story reuse one OAS lineage. Search did not locate a prior factory series.

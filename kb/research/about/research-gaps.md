@@ -564,3 +564,7 @@ GI matrix: current producer mandate, agreed goods, certified boundaries, inspect
 ## Kalamata comparison · 5 October 2026
 
 Kalamata selected original sections,2015 decision and2021 report are documented. Full annexures, human Greek review, current consolidated edition, control coverage and producer returns remain absent. Failed direct/English routes retry12October; no change to local candidate mandates.
+
+## Sugar-output checkpoint · 2026-10-06
+
+Sugar: original OAS p.109 unavailable; recovery arithmetic and Aska2016–17 output conflict held. Dhenkanal fiscal/crushing-year and post-sale ownership require independent follow-up. Retry original state table11October; continue buyer/period research.

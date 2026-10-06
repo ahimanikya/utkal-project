@@ -21722,6 +21722,44 @@
         "gi-kalamata-decision2015",
         "gi-kalamata-enforcement2021"
       ]
+    },
+    {
+      "id": "economy/sugar-production",
+      "title": "Sugar factories: output, inputs and changing ownership",
+      "kind": "Research Collection",
+      "layer": "research_concept",
+      "source_path": "economy/sugar-production.md",
+      "project_path": "kb/research/economy/sugar-production.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "rice-oas2024",
+        "food-aska-status",
+        "food-sakthi-ar2023"
+      ]
+    },
+    {
+      "id": "stories/sugar-output-recovery",
+      "title": "Sugar output: a recovery within a longer decline",
+      "kind": "Story Card",
+      "layer": "research_concept",
+      "source_path": "stories/sugar-output-recovery.md",
+      "project_path": "kb/research/stories/sugar-output-recovery.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy",
+        "food"
+      ],
+      "source_ids": [
+        "rice-oas2024",
+        "food-aska-status",
+        "food-sakthi-ar2023"
+      ]
     }
   ],
   "shared_publications": [
@@ -22450,7 +22488,11 @@
         "references/data/food-processing-series.json",
         "statistics/agriculture.md",
         "statistics/livestock.md",
-        "stories/sweets-from-milk-to-market.md"
+        "stories/sweets-from-milk-to-market.md",
+        "economy/sugar-production.md",
+        "stories/sugar-output-recovery.md",
+        "sources/food-aska-status.md",
+        "sources/food-sakthi-ar2023.md"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
@@ -23395,8 +23437,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1412,
-    "updated_at": "2026-10-05T23:43:01.885936+00:00",
+    "records_mapped": 1414,
+    "updated_at": "2026-10-06T00:01:09.592924+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -24174,6 +24216,11 @@
       "at": "2026-10-05T23:43:01.885936+00:00",
       "run_id": "2026-10-05-gi-kalamata",
       "scope": "Kalamata olive-oil historical comparison; separate from table olives and Odisha candidate identities."
+    },
+    {
+      "run_id": "2026-10-05-sugar-output",
+      "at": "2026-10-06T00:01:09.592924+00:00",
+      "scope": "Sugar factory output and narrative; existing agriculture-source identity extended."
     }
   ]
 }

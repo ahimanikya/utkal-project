@@ -77,3 +77,7 @@ The [structured atlas](../references/data/statistics-atlas.json) retains indicat
 ## Food-processing evidence · 4 October 2026
 
 [The dairy and processing study](../economy/food-processing-and-dairy.md) connects existing crop and milk records with dated OMFED procurement, turnover and a historical conversion tender. Physical output, supplier contracts and district business profitability remain separate questions.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar-factory study](../economy/sugar-production.md) adds dated input/output fields, preserving year labels, ownership changes and recovery-rate conflicts. The original state table remains pending page-image review.

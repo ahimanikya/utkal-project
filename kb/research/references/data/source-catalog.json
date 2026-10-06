@@ -5043,6 +5043,11 @@
         "at": "2026-10-01T20:19:47.401985+00:00",
         "locator": "Printed p.90 / PDF p.96, total A/Y/P(Rice); printed p.67 / PDF p.73, selected districts",
         "scope": "Historical table uses whole thousands for area/output. Preserve precision separately from p.65; same publication, not corroboration. Web text available; direct download timed out."
+      },
+      {
+        "at": "2026-10-06T00:01:09.592924+00:00",
+        "locator": "Printed p.109, table29 (indexed contents and sugar-factory table); page image unavailable",
+        "scope": "Indexed original publisher table:2013–14 to2023–24 cane crushed, sugar produced, recovery and no-operation symbols. Direct download and web page-image checks failed. Same publication as saved rice records, not independent corroboration."
       }
     ]
   },
@@ -7997,5 +8002,28 @@
     "capture_method": "web_reader",
     "locator": "PDF pp.2–4 sections2–4; p.14 sections7–8; p.15 annexure list",
     "capture_note": "Selected sections read through web extraction; Greek font encoding is degraded. Working English interpretation, no human Greek review. Original download returned403; page-image checks not completed. Publication date not inferred from filename. Annexures listed, not supplied or independently audited."
+  },
+  "food-sakthi-ar2023": {
+    "id": "food-sakthi-ar2023",
+    "title": "Sakthi Sugars Annual Report 2022–23: Dhenkanal discontinued operations",
+    "resource": "https://sakthisugars.com/download/agm-61/annualreport-2022-23.pdf",
+    "publisher": "Sakthi Sugars Limited",
+    "published_on": null,
+    "publication_period": "Annual Report2022–23; year ended31March2023",
+    "accessed_on": "2026-10-06",
+    "locator": "Printed pp.15–16 / PDF pp.17–18; Discontinued operations on p.16",
+    "capture_method": "original_PDF_text_and_page_image",
+    "capture_note": "Selected Board report scope; p.16 visually checked. Company reports11November2022 going-concern sale and quantities up to sale. Previous-year figures are a full-fiscal comparator, not matching the partial2022–23 period."
+  },
+  "food-aska-status": {
+    "id": "food-aska-status",
+    "title": "Aska Cooperative Sugar Industries: historical status paragraph",
+    "resource": "https://askasugar.com/default.php",
+    "publisher": "Aska Cooperative Sugar Industries Limited",
+    "published_on": null,
+    "accessed_on": "2026-10-06",
+    "locator": "Status report, background paragraph for crushing season2016–17",
+    "capture_method": "original_operator_HTML",
+    "capture_note": "Undated page includes explicitly historical2016–17 cane/sugar quantities. Current-looking homepage does not make these current output, workforce or membership."
   }
 }
