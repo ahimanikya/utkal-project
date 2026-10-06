@@ -1010,3 +1010,7 @@ The Founder approved the pilot documentation and ten follow-up tasks in PR124. L
 The first research batch recommends learning through six local visits before expanding. Twenty-two KB leads and transparent cost allowances make the decision concrete while official rules are distinguished from hopes of funding.
 
 [Research pack](../research/collections/tourism-pilot-desk-review.md). Prepared for review; no field activity or funding committed.
+
+## UTP-HIS-0239 · The first tourism desk pack is approved
+
+The Founder approved the 22-lead research pack and two costed capacity options. This accepts the planning work; host participation and expenditure remain separate decisions. [Approval record](../records/tourism-research-approval-2026-10-05.json).

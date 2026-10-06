@@ -4822,7 +4822,7 @@
       "title": "Verify official tourism guidance and portal",
       "category": "tourism_pilot",
       "status": "in_progress",
-      "readiness": "draft",
+      "readiness": "approved",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant for this authorized desk batch only; no field role appointed.",
       "authorization": "UTP-DEC-204",
@@ -4844,26 +4844,28 @@
         "UTP-DEC-202",
         "UTP-WORK-165",
         "UTP-DEC-204",
-        "UTP-REV-144"
+        "UTP-REV-144",
+        "UTP-DEC-206"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
         "models/tourism-experience-record.md",
         "records/tourism-research-2026-10-05.json",
-        "research/collections/tourism-pilot-desk-review.md"
+        "research/collections/tourism-pilot-desk-review.md",
+        "records/tourism-research-approval-2026-10-05.json"
       ]
     },
     {
       "id": "UTP-WORK-167",
       "title": "Audit existing cultural experience candidates",
       "category": "tourism_pilot",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "approved",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant for this authorized desk batch only; no field role appointed.",
       "authorization": "UTP-DEC-204",
-      "next_action": "Founder reviews 22 evidence-linked desk leads and the proposed first six before local selection.",
+      "next_action": "Approved desk shortlist delivered; local selection and introductions follow under WORK-169, with no host participation implied.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -4881,7 +4883,8 @@
         "UTP-DEC-202",
         "UTP-WORK-165",
         "UTP-DEC-204",
-        "UTP-REV-144"
+        "UTP-REV-144",
+        "UTP-DEC-206"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
@@ -4890,19 +4893,20 @@
         "records/tourism-research-2026-10-05.json",
         "research/collections/tourism-pilot-desk-review.md",
         "research/collections/tourism-experience-shortlist.md",
-        "research/references/data/tourism-experience-shortlist.json"
+        "research/references/data/tourism-experience-shortlist.json",
+        "records/tourism-research-approval-2026-10-05.json"
       ]
     },
     {
       "id": "UTP-WORK-168",
       "title": "Prepare pilot capacity and fieldwork budget",
       "category": "tourism_pilot",
-      "status": "awaiting_review",
-      "readiness": "draft",
+      "status": "completed",
+      "readiness": "approved",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant for this authorized desk batch only; no field role appointed.",
       "authorization": "UTP-DEC-204",
-      "next_action": "Founder reviews six/20-experience capacity options; quotes, payer, staff and cash ceiling remain uncommitted.",
+      "next_action": "Approved capacity document delivered; obtain actual quotes and a separate funding/appointment decision before fieldwork.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -4920,7 +4924,8 @@
         "UTP-DEC-202",
         "UTP-WORK-165",
         "UTP-DEC-204",
-        "UTP-REV-144"
+        "UTP-REV-144",
+        "UTP-DEC-206"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
@@ -4929,7 +4934,8 @@
         "records/tourism-research-2026-10-05.json",
         "research/collections/tourism-pilot-desk-review.md",
         "specs/tourism-pilot-capacity.md",
-        "research/references/data/tourism-pilot-budget.json"
+        "research/references/data/tourism-pilot-budget.json",
+        "records/tourism-research-approval-2026-10-05.json"
       ]
     },
     {
@@ -9262,6 +9268,28 @@
       ],
       "evidence": [
         "records/tourism-research-2026-10-05.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-206",
+      "title": "Approve tourism desk research PR135",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Approve and merge the tourism desk research documentation. Planning allowances do not authorize expenditure; hosts, funding, appointments and outreach remain unconfirmed.",
+      "recorded_at": "2026-10-06T04:04:09.823821+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-DEC-204",
+        "UTP-WORK-166",
+        "UTP-WORK-167",
+        "UTP-WORK-168"
+      ],
+      "evidence": [
+        "records/tourism-research-approval-2026-10-05.json"
       ]
     }
   ],
