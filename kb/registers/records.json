@@ -4821,12 +4821,12 @@
       "id": "UTP-WORK-166",
       "title": "Verify official tourism guidance and portal",
       "category": "tourism_pilot",
-      "status": "ready",
-      "readiness": "concept",
+      "status": "in_progress",
+      "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
-      "authorization": "UTP-DEC-202",
-      "next_action": "Read official notification, guidelines and portal; record clause-level eligibility and unresolved questions.",
+      "execution_owner": "Current AI assistant for this authorized desk batch only; no field role appointed.",
+      "authorization": "UTP-DEC-204",
+      "next_action": "Verify the specific MICE application workflow and current application acceptance; official GO-SWIFT link established, OTIIMS target timed out. Scoped rules review is available.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -4842,24 +4842,28 @@
       ],
       "refs": [
         "UTP-DEC-202",
-        "UTP-WORK-165"
+        "UTP-WORK-165",
+        "UTP-DEC-204",
+        "UTP-REV-144"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "records/tourism-research-2026-10-05.json",
+        "research/collections/tourism-pilot-desk-review.md"
       ]
     },
     {
       "id": "UTP-WORK-167",
       "title": "Audit existing cultural experience candidates",
       "category": "tourism_pilot",
-      "status": "ready",
-      "readiness": "concept",
+      "status": "awaiting_review",
+      "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
-      "authorization": "UTP-DEC-202",
-      "next_action": "Reuse Puri, Cuttack and Bhubaneswar records to prepare up to 30 desk leads.",
+      "execution_owner": "Current AI assistant for this authorized desk batch only; no field role appointed.",
+      "authorization": "UTP-DEC-204",
+      "next_action": "Founder reviews 22 evidence-linked desk leads and the proposed first six before local selection.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -4875,24 +4879,30 @@
       ],
       "refs": [
         "UTP-DEC-202",
-        "UTP-WORK-165"
+        "UTP-WORK-165",
+        "UTP-DEC-204",
+        "UTP-REV-144"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "records/tourism-research-2026-10-05.json",
+        "research/collections/tourism-pilot-desk-review.md",
+        "research/collections/tourism-experience-shortlist.md",
+        "research/references/data/tourism-experience-shortlist.json"
       ]
     },
     {
       "id": "UTP-WORK-168",
       "title": "Prepare pilot capacity and fieldwork budget",
       "category": "tourism_pilot",
-      "status": "ready",
-      "readiness": "concept",
+      "status": "awaiting_review",
+      "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
-      "authorization": "UTP-DEC-202",
-      "next_action": "Estimate coordinator effort, field costs and proposed payer; present options to the Founder.",
+      "execution_owner": "Current AI assistant for this authorized desk batch only; no field role appointed.",
+      "authorization": "UTP-DEC-204",
+      "next_action": "Founder reviews six/20-experience capacity options; quotes, payer, staff and cash ceiling remain uncommitted.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -4908,12 +4918,18 @@
       ],
       "refs": [
         "UTP-DEC-202",
-        "UTP-WORK-165"
+        "UTP-WORK-165",
+        "UTP-DEC-204",
+        "UTP-REV-144"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "records/tourism-research-2026-10-05.json",
+        "research/collections/tourism-pilot-desk-review.md",
+        "specs/tourism-pilot-capacity.md",
+        "research/references/data/tourism-pilot-budget.json"
       ]
     },
     {
@@ -9226,6 +9242,27 @@
       "evidence": [
         "records/tourism-pilot-approval-2026-10-05.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-204",
+      "title": "Authorize tourism desk research batch",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, go ahead",
+      "scope": "Proceed with official guidance research, existing-KB shortlist and capacity/budget options. No outreach, applications, spending or appointments authorized by this batch.",
+      "recorded_at": "2026-10-06T02:48:37.224938+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-166",
+        "UTP-WORK-167",
+        "UTP-WORK-168"
+      ],
+      "evidence": [
+        "records/tourism-research-2026-10-05.json"
+      ]
     }
   ],
   "requirements": [
@@ -12623,6 +12660,33 @@
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
         "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-144",
+      "title": "Tourism desk batch self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "MICE-specific application workflow not verified; OTIIMS entry timed out.",
+        "No complete capital-policy eligibility assessment or guarantee that later amendments do not exist.",
+        "Candidate source-check metadata is reused, not newly externally verified.",
+        "No staff appointed, host contacted, field route checked or supplier quote obtained.",
+        "No public brief for the reported 100-day mapping proposal established."
+      ],
+      "refs": [
+        "UTP-WORK-166",
+        "UTP-WORK-167",
+        "UTP-WORK-168",
+        "UTP-DEC-204"
+      ],
+      "evidence": [
+        "records/tourism-research-2026-10-05.json",
+        "research/collections/tourism-pilot-desk-review.md"
       ]
     }
   ],

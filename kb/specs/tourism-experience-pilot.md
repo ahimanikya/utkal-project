@@ -97,3 +97,7 @@ A later tourism opportunities page can explain schemes in plain language, link t
 ## First next action
 
 Complete the source-gap task, then assess an initial desk shortlist using existing Puri, Cuttack and Bhubaneswar material. Prepare a named shortlist and capacity estimate for Founder review before local outreach. Task IDs and current next actions are maintained in the work register.
+
+## First desk research batch
+
+The [5 October research pack](../research/collections/tourism-pilot-desk-review.md) supplies 22 candidate leads, scoped official-document checks and two capacity/budget options. Six first visits are recommended for review; no host or funding is committed.

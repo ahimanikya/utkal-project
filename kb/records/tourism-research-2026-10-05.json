@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-10-06T02:48:37.224938+00:00",
+  "local_date": "2026-10-05",
+  "actor": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "human_authority": "Ahimanikya Satapathy",
+  "authorization_quote": "OK, go ahead",
+  "scope": "Desk research WORK-166/167/168; no contact, funding commitment, application or field operation.",
+  "official_checks": [
+    {
+      "source_id": "OTX-S05",
+      "url": "https://odishatourism.gov.in/documents/d/guest/grant-of-incentives-to-mice-industry-and-destination-weddings",
+      "retrieval": "success",
+      "sha256": "07a4a741d4b1b8f5717e64a07f85728161c910a220af05aebd5dd9370836bb4e",
+      "size_bytes": 2871997,
+      "inspection": "All 11 pages rendered and visually inspected."
+    },
+    {
+      "source_id": "OTX-S06",
+      "url": "https://odishatourism.gov.in/documents/d/guest/disbursement-of-capital-investment-subsidy",
+      "retrieval": "success",
+      "sha256": "661205bdae0ae7cca3c8c4824b78c8472d3b87b4ade1c3a85911e15824bfb297",
+      "size_bytes": 9187515,
+      "inspection": "Pages 1, 3, 4 and 5 of 30 rendered and visually inspected; remaining pages not reviewed."
+    },
+    {
+      "source_id": "OTX-S08",
+      "url": "https://investodisha.gov.in/goswift/",
+      "retrieval": "success",
+      "sha256": "a694bf94d01cbb862626f720cd479acace5c8dbfd4d92d4852597930ae30f266",
+      "observed_link": {
+        "label": "OTIIMS",
+        "href": "https://otiims.odisha.gov.in/sso-auth"
+      },
+      "locator": "Services menu in returned official HTML"
+    },
+    {
+      "source_id": "OTX-S09",
+      "url": "https://otiims.odisha.gov.in/sso-auth",
+      "retrieval": "timeout",
+      "timeout_seconds": 35,
+      "http_status": null,
+      "inspection": "No page content or authenticated workflow inspected."
+    },
+    {
+      "source_id": "OTX-S10",
+      "url": "https://odishatourism.gov.in/odisha-tourism-policy",
+      "retrieval": "HTML success; linked handbook not reviewed",
+      "locator": "Department-hosted 2026 handbook download link"
+    },
+    {
+      "source_id": "OTX-S07",
+      "url": "https://odishatourism.gov.in/contact-us",
+      "retrieval": "success",
+      "locator": "Department contact section",
+      "outreach_sent": false
+    }
+  ],
+  "shortlist_count": 22,
+  "first_phase_count": 6,
+  "host_confirmations": 0,
+  "budget_totals_inr": [
+    59340,
+    157090
+  ],
+  "budget_basis": "Constructed planning allowances, not quotes; no subsidy assumed.",
+  "validation": {
+    "state": "local_checks_passed",
+    "checked_at": "2026-10-06T02:50:26.678771+00:00",
+    "checks": [
+      "Register generation/freshness and authority regression tests",
+      "Whole-project catalogue and bundle links",
+      "Configuration tests",
+      "Imported research validation and research map",
+      "Visitor, maritime, growth, statistics, homestay, classification, collection, PRD, creation and sports validators",
+      "Editorial workbench freshness and six tests",
+      "22 unique candidates; six first choices; KB hashes and source URL presence",
+      "No host confirmations or quoted prices; budget quantities, subtotals and contingency reconciled",
+      "git diff --check"
+    ],
+    "scope": "Structural, provenance-pointer and arithmetic checks; not independent factual, field, eligibility or price certification. Full GitHub CI pending at commit time."
+  },
+  "limitations": [
+    "MICE-specific application workflow not verified; OTIIMS entry timed out.",
+    "No complete capital-policy eligibility assessment or guarantee that later amendments do not exist.",
+    "Candidate source-check metadata is reused, not newly externally verified.",
+    "No staff appointed, host contacted, field route checked or supplier quote obtained.",
+    "No public brief for the reported 100-day mapping proposal established."
+  ]
+}

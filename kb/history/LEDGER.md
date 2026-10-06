@@ -1004,3 +1004,9 @@ A newspaper clipping connected the public tourism opportunity with Utkal’s kno
 ## UTP-HIS-0237 · A tourism opportunity becomes an approved plan
 
 The Founder approved the pilot documentation and ten follow-up tasks in PR124. Local delivery and partnerships remain to be established. [Approval record](../records/tourism-pilot-approval-2026-10-05.json).
+
+## UTP-HIS-0238 · From opportunity to six first encounters
+
+The first research batch recommends learning through six local visits before expanding. Twenty-two KB leads and transparent cost allowances make the decision concrete while official rules are distinguished from hopes of funding.
+
+[Research pack](../research/collections/tourism-pilot-desk-review.md). Prepared for review; no field activity or funding committed.
