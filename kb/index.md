@@ -117,3 +117,5 @@ Visitor experience release: [PR 23 publication evidence](records/visitor-experie
 - [Tourism experience pilot](specs/tourism-experience-pilot.md) — actionable plan, evidence gaps, local-confirmation template and tracked work.
 
 [Tourism pilot desk research](research/collections/tourism-pilot-desk-review.md) — official evidence, experience shortlist and costed capacity options.
+
+- [Six experience fieldwork pack](specs/tourism-fieldwork/index.md) — coordinator brief, visit questions, unsent introductions and cost tracker.

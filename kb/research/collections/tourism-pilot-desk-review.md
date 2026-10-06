@@ -35,3 +35,7 @@ WORK-169 can prepare the six-record confirmation checklist and draft introductio
 Utkal Project keeps editorial independence. Future commercial participation belongs to an explicitly agreed Collective arrangement. Boita can later turn verified obstacles into a policy brief; this desk work does not establish a government engagement or commission.
 
 [Approved pilot brief](../../specs/tourism-experience-pilot.md) · [Evidence and limitations](../../records/tourism-research-2026-10-05.json)
+
+## Fieldwork preparation
+
+The [six experience fieldwork pack](../../specs/tourism-fieldwork/index.md) carries these desk leads into visit briefs, confirmation questions and an editable cost tracker. Host and funding confirmation remain separate.
