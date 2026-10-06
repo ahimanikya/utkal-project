@@ -1,0 +1,101 @@
+{
+  "recorded_at": "2026-10-06T10:36:27.130679+00:00",
+  "status": "preview_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "go ahead",
+  "scope": "Illustrate and enrich the existing Raghurajpur visitor article; review locally and prepare a pull request. No merge, deployment or field commitments.",
+  "route": "/visit/places/raghurajpur/",
+  "saved_identity": "place:raghurajpur",
+  "base_commit": "ca79351fa6cff138b563b134b986d75608013d9c",
+  "reuse": [
+    "research/stories/narratives/raghurajpur-painting-and-performance.md",
+    "research/stories/narratives/tourism-reading-followup-evidence.json",
+    "research/destinations/central-details.json",
+    "research/culture/craft-stories.json",
+    "research/food/puri-coast.json"
+  ],
+  "source_checks": {
+    "raghurajpur-incredible-visitor": {
+      "url": "https://www.incredibleindia.gov.in/en/rural-tourism/raghurajpur",
+      "checked_on": "2026-10-06",
+      "scope": "October–February recommendation; Puri rail and Bhubaneswar airport gateways only. Distances, road conditions, nearest-station comparisons and availability excluded."
+    },
+    "performers-srjan-milestones": {
+      "url": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php",
+      "checked_on": "2026-10-06",
+      "scope": "Painter father Chintamani, Raghurajpur connection and early Gotipua training under Balabhadra Sahu. No choice of conflicting birth years."
+    },
+    "raghurajpur-pib": {
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817",
+      "checked_on": "2026-10-06",
+      "scope": "Sucharita Sahoo 2014 feature; prepared cloth, narrative imagery and Gotipua cultural context. No present household totals or performance promise."
+    }
+  },
+  "unavailable_rechecks": [
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/raghurajpur",
+      "result": "Web timeout and direct connection reset; earlier dated evidence not promoted to a fresh verification."
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/raghurajpur.html",
+      "result": "HTTP 404."
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/subsubpage/nimantran-restaurant-puri",
+      "result": "Reader error; no restaurant recommendation or current menu adopted."
+    }
+  ],
+  "photographs": [
+    {
+      "asset": "regions:raghurajpur-artisan",
+      "role": "invitation",
+      "creator": "Rangan Datta Wiki",
+      "year": 2018,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raghurajpur_1.jpg",
+      "sha256": "a6f459469b4f825a3eaad7c7f040f670930dfb2f8e03a4a434c2ca18b259b05c",
+      "review": "Local image and source/licence inspected; unnamed artisan, full composition retained."
+    },
+    {
+      "asset": "crafts:pattachitra-making",
+      "role": "explanation",
+      "creator": "Sumit Surai",
+      "year": 2013,
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raghurajpur_Artist.JPG",
+      "sha256": "30bc689b53a0b712c28836e9c60ef7df1f31a88769311b0a2134452696062dc4",
+      "review": "Local image and source/licence inspected; no maker or depicted narrative identified beyond evidence."
+    },
+    {
+      "asset": "regions:raghurajpur",
+      "role": "setting",
+      "creator": "Carla Antonini",
+      "year": 2008,
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raghurajpur.jpg",
+      "sha256": "a3110da75291e6f60e7bb3e53113c5fb0b474433f8fc25113c85af2502bc7ddf",
+      "review": "Local image and source/licence inspected; historical setting, not present access evidence."
+    }
+  ],
+  "validation": {
+    "full_build": "140 pages; passed",
+    "full_tests": "446 passed, 0 failed",
+    "coast_build": "127 pages; passed",
+    "coast_tests": "87 passed, 0 failed",
+    "browser": {
+      "browser": "Chrome",
+      "desktop": "1440 × 1000: cover and opening brush chapter visually reviewed; no horizontal overflow.",
+      "mobile": "390 × 844: cover, brush chapter and visit-planning image/text reviewed; no horizontal overflow; all three images loaded.",
+      "saved_journey": "Saved button changed to Saved to my journey; journey page displayed Raghurajpur as the single saved idea on a fresh localhost origin.",
+      "exports": "Automated integration checks cover every article paragraph and new sources in both HTML and text tour books."
+    },
+    "knowledge": "Bundle, authority/register tests, catalogue, imported research, research map and frozen workbench checks passed.",
+    "publication_checks": "Coastal audit, discovery, search review, launch readiness, publication build and 11-page search shortlist checks passed; no deployment performed."
+  },
+  "limitations": [
+    "No local appointment, fee, workshop opening or performance confirmed.",
+    "No independent editorial or specialist review.",
+    "No new generated imagery, paid service, outreach or booking.",
+    "Founder fieldwork TODOs remain deferred."
+  ]
+}

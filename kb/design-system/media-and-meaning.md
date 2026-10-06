@@ -97,3 +97,9 @@ Do not add a quota of pictures, compulsory video, or unnecessary spectacle. A bl
 The Founder's principle is recorded as design direction. The detailed patterns here are the assistant's application guidance for review. They inform the open inner-page refinement (UTP-WORK-075) and future media briefs. The local design-system gallery demonstrates the distinction between a real view and an imagined interpretation using existing assets. No new image or video was generated, no pages were bulk-reillustrated, and no change was made to Kabita Live or other projects.
 
 [System guide](guide.md) · [Editorial storytelling standard](../reference/storytelling-standard.md)
+
+## Raghurajpur preview application · 6 October 2026
+
+The place-story preview uses three documentary views for three purposes: a maker’s doorway invites, a brush close-up explains how to look, and a landscape introduces visit planning. A photograph may precede its paragraph when the words point to visible details. Keep the composition intact, add a short dated caption, and retain the original creator and licence in end credits. Reuse a shared asset record across craft and place pages rather than maintaining duplicate rights metadata.
+
+Longer sections may use several paragraphs and a small set of onward reading links. Preserve the place identity, section anchors and saved-journey export when enriching the story. This is one application for review, not a requirement that every destination use the same number of pictures or chapters.
