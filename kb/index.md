@@ -119,3 +119,6 @@ Visitor experience release: [PR 23 publication evidence](records/visitor-experie
 [Tourism pilot desk research](research/collections/tourism-pilot-desk-review.md) — official evidence, experience shortlist and costed capacity options.
 
 - [Six experience fieldwork pack](specs/tourism-fieldwork/index.md) — coordinator brief, visit questions, unsent introductions and cost tracker.
+
+- [Founder TODO](specs/founder-todo.md) — deferred field-pilot decisions.
+- [Three stories to read before a visit](research/stories/narratives/tourism-reading-collection.md) — museum, inscription and craft article drafts.

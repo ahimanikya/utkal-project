@@ -1026,3 +1026,7 @@ The six proposed experiences now have questions, permissions, practical checks a
 ## UTP-HIS-0242 · The fieldwork preparation pack is approved
 
 The Founder approved the six visit briefs, coordinator role brief, confirmation checklist, unsent introductions and blank cost tracker. Moving from preparation into field activity still requires named people and agreed arrangements. [Approval record](../records/tourism-fieldwork-approval-2026-10-06.json).
+
+## UTP-HIS-0243 · Keep the research moving while field decisions wait
+
+The Founder moved pilot coordination and spending decisions to his TODO list and asked for continued research and articles. Museum objects, an inscription and stitched cloth become three ways to invite curiosity before a visit. [Research batch](../research/stories/narratives/tourism-reading-collection.md).

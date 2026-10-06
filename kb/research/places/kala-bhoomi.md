@@ -31,3 +31,5 @@ Check visit times, ticketing, current programmes, workshop participation and pho
 [Visitor index](../visitor-index/index.md)
 
 [^visitor-kalabhoomi]: [Odisha Crafts Museum — Kala Bhoomi](https://odishacraftsmuseum.odisha.gov.in/)
+
+[Related article draft](../stories/narratives/kala-bhoomi-looking-closely.md) extends this record through selected museum collection examples.

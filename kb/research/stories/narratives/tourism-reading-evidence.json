@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-06",
+  "human_owner": "Ahimanikya Satapathy",
+  "status": "draft_for_founder_review",
+  "authorship": {
+    "creative_direction": "Ahimanikya Satapathy",
+    "research_and_drafting": "Current AI assistant",
+    "independent_review": false
+  },
+  "sources": {
+    "kalabhoomi-catalogue2019": {
+      "title": "Kala Bhoomi Odisha Crafts Museum catalogue 2019",
+      "url": "https://odishacraftsmuseum.odisha.gov.in/kalabhoomi/api/allowAll/image/viewDocuments?filePath=Kala+Bhoomi-+Odisha+Crafts+Museum_JULY_350000001_AM.pdf&moduleName=CMS",
+      "kind": "institutional collection catalogue",
+      "family": "Odisha Crafts Museum",
+      "inspection": "Web-extracted text; printed pp. 2–3, 8–11, 34–35, 42–45 inspected. 26 PDF pages contain facing-page spreads. Screenshot attempts failed with cache miss; no visual inspection of catalogue plates claimed.",
+      "limits": "Collection examples as documented in 2019. No current display inventory, image-reuse permission, exclusive ikat origin or population claims adopted."
+    },
+    "visitor-kalabhoomi": {
+      "title": "Odisha Crafts Museum about page",
+      "url": "https://www.odishacraftsmuseum.odisha.gov.in/header/content/?mstcall=AboutMuseum",
+      "kind": "institutional description",
+      "family": "Odisha Crafts Museum",
+      "inspection": "About and mission sections read on 6 October; existing institutional source identity extended to this subpage. Home-page direct requests timed out.",
+      "limits": "No live ticket purchase, programme, cafe, access certification or current gallery-count claim."
+    },
+    "asoka-dhammika1993": {
+      "title": "The Edicts of King Asoka",
+      "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+      "creator": "Ven. S. Dhammika",
+      "edition": "Buddhist Publication Society, Wheel 386/387, 1993; transcription 1994; Access to Insight revision 30 November 2013",
+      "kind": "modern English rendering of inscriptions",
+      "family": "Dhammika rendering, drawing on Sen, Sircar and Bhandarkar",
+      "inspection": "Preface, Kalinga Rock Edict 1, Major Rock Edict XIII and notes 25 and 30 read.",
+      "limits": "Not an independent epigraphic transcription. Translation variants and royal self-presentation require care; no exact date of war, conversion location or governance outcome adopted."
+    },
+    "dhauli-nma": {
+      "title": "NMA Dhauli heritage description",
+      "url": "https://nma.gov.in/showfile.php?lang=1&level=2&lid=1286&ls_id=1022&nma_type=0",
+      "kind": "reused institutional historical description",
+      "inspection": "Existing 1 October p.8–9 inspection reused, not a new full-document read.",
+      "local_record": "kb/records/evidence/dhauli-layers-guide-2026-10-01/source-inspection.json"
+    },
+    "dhauli": {
+      "title": "Odisha Tourism Dhauligiri",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/dhauligiri.html",
+      "kind": "reused tourism account",
+      "inspection": "1 October saved source scope reused; 6 October web request returned 404.",
+      "local_record": "kb/research/destinations/central-details.json"
+    },
+    "pipili": {
+      "title": "Odisha Tourism Pipili",
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html",
+      "kind": "reused tourism account",
+      "inspection": "1 October saved source scope reused; 6 October web request returned 404.",
+      "local_record": "kb/research/culture/craft-stories.json"
+    },
+    "pipili-dsource-process": {
+      "title": "Traditional Applique Work Making Process",
+      "url": "https://www.dsource.in/resource/traditional-pipli-applique-work-pipli-orissa/making-process",
+      "creator": "Prof. Bibhudutta Baral, Divyadarshan C. S. and Manasa K H, NID Bengaluru",
+      "kind": "design education process account",
+      "inspection": "Named craft-process section read on 6 October. Unrelated spam links appeared before the content; ignored. Existing source identity reused.",
+      "limits": "No whole-site integrity claim. Stitch names, precise origin, design totals, livelihoods and market demand not adopted."
+    }
+  },
+  "claims": [
+    {
+      "id": "K1",
+      "article": "kala-bhoomi-looking-closely",
+      "section": "Opening",
+      "source_ids": [
+        "visitor-kalabhoomi"
+      ],
+      "locator": "Museum and Mission",
+      "kind": "sourced_summary"
+    },
+    {
+      "id": "K2",
+      "article": "kala-bhoomi-looking-closely",
+      "section": "A roof with an unexpected detail",
+      "source_ids": [
+        "kalabhoomi-catalogue2019"
+      ],
+      "locator": "Printed pp.8–11",
+      "kind": "dated_collection_example"
+    },
+    {
+      "id": "K3",
+      "article": "kala-bhoomi-looking-closely",
+      "section": "A sari can carry an equation",
+      "source_ids": [
+        "kalabhoomi-catalogue2019"
+      ],
+      "locator": "Printed pp.34–35 and 42–45",
+      "kind": "dated_collection_example"
+    },
+    {
+      "id": "D1",
+      "article": "dhauli-instructions-to-power",
+      "section": "Opening and Which words belong to this rock",
+      "source_ids": [
+        "dhauli-nma",
+        "dhauli"
+      ],
+      "locator": "Saved historical scope, NMA pp.8–9",
+      "kind": "reused_sourced_summary"
+    },
+    {
+      "id": "D2",
+      "article": "dhauli-instructions-to-power",
+      "section": "The people behind the proclamation",
+      "source_ids": [
+        "asoka-dhammika1993"
+      ],
+      "locator": "Kalinga Rock Edict 1; note30",
+      "kind": "translation_and_paraphrase",
+      "quotation_words": 5
+    },
+    {
+      "id": "D3",
+      "article": "dhauli-instructions-to-power",
+      "section": "Which words belong to this rock",
+      "source_ids": [
+        "dhauli-nma",
+        "asoka-dhammika1993"
+      ],
+      "locator": "Edict grouping; Major Rock Edict XIII and note25",
+      "kind": "edition_scope"
+    },
+    {
+      "id": "D4",
+      "article": "dhauli-instructions-to-power",
+      "section": "Which words belong to this rock",
+      "source_ids": [
+        "dhauli"
+      ],
+      "locator": "Saved tourism legend account",
+      "kind": "attributed_tradition_not_physical_measurement"
+    },
+    {
+      "id": "D5",
+      "article": "dhauli-instructions-to-power",
+      "section": "Look slowly at the elephant",
+      "source_ids": [
+        "dhauli-nma"
+      ],
+      "locator": "Saved NMA p.9 description",
+      "kind": "sourced_summary"
+    },
+    {
+      "id": "P1",
+      "article": "pipili-cloth-and-ceremony",
+      "section": "Cloth with a ceremonial life",
+      "source_ids": [
+        "pipili"
+      ],
+      "locator": "Saved About section",
+      "kind": "reused_sourced_summary"
+    },
+    {
+      "id": "P2",
+      "article": "pipili-cloth-and-ceremony",
+      "section": "Before the pattern is finished",
+      "source_ids": [
+        "pipili-dsource-process"
+      ],
+      "locator": "Making Process, first six paragraphs",
+      "kind": "documented_process_example"
+    }
+  ],
+  "editorial_material": "Observation games, imagined design questions, reader invitations and practical prompts are original editorial guidance. No visits, interviews, participant consent, workshop availability or measured journey times are claimed.",
+  "media": [
+    {
+      "article": "kala-bhoomi-looking-closely",
+      "status": "image_selection_pending",
+      "brief": "Obtain a permitted photograph of a labelled collection object. Do not copy catalogue plates without a reuse basis or substitute a synthetic image as evidence of the museum display."
+    },
+    {
+      "article": "dhauli-instructions-to-power",
+      "status": "existing_asset_candidate",
+      "record": "kb/research/destinations/regions.json",
+      "asset": "dhauli-elephant",
+      "path": "projects/site/public/images/regions/dhauli-elephant.jpg",
+      "file_sha256": "d41aa30f330a73ea7a4d86b95c024cc64fb548c67f3e4d677214743dc9b5d058",
+      "inspection": "Existing asset provenance reused; file existence/hash checked. No new visual review or image edit in this batch."
+    },
+    {
+      "article": "pipili-cloth-and-ceremony",
+      "status": "existing_asset_candidate",
+      "record": "kb/research/culture/craft-stories.json",
+      "asset": "pipili-making",
+      "path": "projects/site/public/images/crafts/pipili-making.webp",
+      "file_sha256": "6177968390a7af10a35f3e4af16ad15a01ea037feda7457fe678fa02a25afdea",
+      "inspection": "Existing asset provenance reused; file existence/hash checked. No new visual review or image edit in this batch."
+    }
+  ],
+  "review_gaps": [
+    "Museum image selection and current object labels.",
+    "Specialist epigraphic and local craft review.",
+    "No new eyewitness or local voice evidence.",
+    "No complete source-image/PDF plate inspection; museum catalogue text only.",
+    "No public website rendering or deployment."
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://handicrafts.nic.in/crafts/All_Crafts/Craft_Categories/Textile/Embroidery/Pipli_Applique_Work/PipliWebPage.html",
+      "result": "Web/direct retrieval timed out; search-index text not promoted to fresh source evidence."
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Page:Asoka_-_the_Buddhist_Emperor_of_India.djvu/195",
+      "result": "Older commentary inspected for discovery; not used as article authority."
+    }
+  ]
+}

@@ -12,3 +12,5 @@
 - [Tourism pilot capacity and budget](tourism-pilot-capacity.md)
 
 - [Six experience fieldwork pack](tourism-fieldwork/index.md)
+
+- [Founder TODO](founder-todo.md) — field-pilot decisions deferred while research continues.
