@@ -5316,12 +5316,12 @@
       "id": "UTP-WORK-182",
       "title": "Raghurajpur illustrated place-story preview",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-214",
-      "next_action": "Founder reviews the illustrated article candidate before merge or publication.",
+      "next_action": "Published and verified; continue the illustrated Tarakasi candidate.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5339,10 +5339,44 @@
       ],
       "refs": [
         "UTP-DEC-214",
-        "UTP-REV-151"
+        "UTP-REV-151",
+        "UTP-DEC-215",
+        "UTP-REL-071"
       ],
       "evidence": [
-        "records/raghurajpur-illustrated-preview-2026-10-06.json"
+        "records/raghurajpur-illustrated-preview-2026-10-06.json",
+        "records/raghurajpur-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-183",
+      "title": "Illustrated Tarakasi story and portable visitor notes",
+      "category": "research_and_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-215",
+      "next_action": "Founder reviews the illustrated Tarakasi candidate before publication; illustrated Jobra article follows next.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Existing route and saved identity retained.",
+        "Documentary photographs preserve original attribution and dates.",
+        "Frame/infill explanation has sourced text and a clearly explanatory drawing.",
+        "Story and sources survive portable export."
+      ],
+      "reuse_before_research": [
+        "research/stories/narratives/cuttack-tarakasi-structure-in-silver.md",
+        "research/sources/tarakasi-dsource-process.md",
+        "research/culture/cuttack-tarakasi.md"
+      ],
+      "refs": [
+        "UTP-DEC-215",
+        "UTP-REV-152"
+      ],
+      "evidence": [
+        "records/tarakasi-illustrated-preview-2026-10-06.json"
       ]
     }
   ],
@@ -9601,6 +9635,27 @@
       "evidence": [
         "records/raghurajpur-illustrated-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-215",
+      "title": "Publish Raghurajpur and continue illustrated craft articles",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "ok let's do that",
+      "scope": "Approve the proposed next steps: publish reviewed PR139, verify the live page, then prepare illustrated Tarakasi and Jobra articles with connected reading and saved journeys. New candidates return for review.",
+      "recorded_at": "2026-10-06T11:04:55.486526+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-182",
+        "UTP-WORK-183"
+      ],
+      "evidence": [
+        "records/raghurajpur-publication-2026-10-06.json",
+        "records/tarakasi-illustrated-preview-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -13144,6 +13199,28 @@
       "evidence": [
         "records/raghurajpur-illustrated-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-REV-152",
+      "title": "Tarakasi illustration and reading-flow self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No new contemporary maker photograph with a sufficient licence and identification was secured.",
+        "No workshop, seller, fee or current festival arrangement verified.",
+        "No independent local or specialist review.",
+        "New preview is not merged or deployed; Jobra illustration remains the next article."
+      ],
+      "refs": [
+        "UTP-WORK-183"
+      ],
+      "evidence": [
+        "records/tarakasi-illustrated-preview-2026-10-06.json"
+      ]
     }
   ],
   "releases": [
@@ -14319,6 +14396,21 @@
         "records/planner-visual-publication-2026-10-04.json"
       ],
       "note": "PR119 merged after validation; Pages succeeded. Delivered script/style hashes match the reviewed build; live Chrome confirms the 300-pixel notebook and retained reminder input focus."
+    },
+    {
+      "id": "UTP-REL-071",
+      "title": "Illustrated Raghurajpur article published",
+      "status": "published",
+      "authorization": "UTP-DEC-215",
+      "destination": "https://utkalproject.org/visit/places/raghurajpur/",
+      "refs": [
+        "UTP-DEC-215",
+        "UTP-WORK-182",
+        "UTP-REV-151"
+      ],
+      "evidence": [
+        "records/raghurajpur-publication-2026-10-06.json"
+      ]
     }
   ],
   "sources": [

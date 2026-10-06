@@ -10,14 +10,16 @@ import argparse, json, xml.etree.ElementTree as ET
 SITE=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,default=SITE/'.astro/discovery-review');args=p.parse_args();args.output.mkdir(parents=True,exist_ok=True)
 class Page(HTMLParser):
- def __init__(self):super().__init__();self.meta={};self.title='';self.in_title=False;self.canonical=[];self.images=[]
+ def __init__(self):super().__init__();self.meta={};self.title='';self.in_head=False;self.in_title=False;self.canonical=[];self.images=[]
  def handle_starttag(self,t,a):
   a=dict(a)
-  if t=='title':self.in_title=True
+  if t=='head':self.in_head=True
+  if t=='title':self.in_title=self.in_head
   if t=='meta':self.meta[a.get('name',a.get('property'))]=a.get('content','')
   if t=='link' and a.get('rel')=='canonical':self.canonical.append(a.get('href'))
   if t=='img':self.images.append(a.get('src'))
  def handle_endtag(self,t):
+  if t=='head':self.in_head=False
   if t=='title':self.in_title=False
  def handle_data(self,d):
   if self.in_title:self.title+=d

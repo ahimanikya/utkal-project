@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f3329a5fa5a514b197b1909f68adf2829bf68ea0c527ef4d740a36d297923aa5`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `eda5f47eb2e1be87ae27ad7689f58b329d13a53b56cb57851be7bb4b5c653026`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -191,7 +191,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-176 · Approved Odisha Roots cultural story integration | completed | approved | Ahimanikya Satapathy | Push and integrate the approved repository edition; retain targeted archival follow-ups. Website publication is separate. | — |
 | UTP-WORK-180 · Write museum, inscription and craft articles from existing tourism research | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
 | UTP-WORK-181 · Write Tarakasi, Jobra and Raghurajpur reading articles | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
-| UTP-WORK-182 · Raghurajpur illustrated place-story preview | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the illustrated article candidate before merge or publication. | — |
+| UTP-WORK-182 · Raghurajpur illustrated place-story preview | completed | published | Ahimanikya Satapathy | Published and verified; continue the illustrated Tarakasi candidate. | — |
+| UTP-WORK-183 · Illustrated Tarakasi story and portable visitor notes | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the illustrated Tarakasi candidate before publication; illustrated Jobra article follows next. | — |
 
 ## Pending human review and decisions
 
@@ -250,7 +251,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-182 | Founder reviews the illustrated article candidate before merge or publication. |
+| UTP-WORK-183 | Founder reviews the illustrated Tarakasi candidate before publication; illustrated Jobra article follows next. |
 
 ## Decisions
 
@@ -468,6 +469,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-212 · Accept pushing the six tourism articles and plan the next batch | approved | Ahimanikya Satapathy | Push the six research article drafts and next editorial plan to the review branch. Automatic approval review rejected interpreting this instruction as merge authorization; explicit main-branch merge approval remains pending. |
 | UTP-DEC-213 · Explicitly approve merging PR138 into main | approved | Ahimanikya Satapathy | Direct reply to the question May I merge PR #138 into `main`? Authorizes the six-story research collection, deferred TODOs and next editorial plan to merge into main after checks. No website article release or field commitments. |
 | UTP-DEC-214 · Prepare one illustrated Raghurajpur preview | approved | Ahimanikya Satapathy | Illustrate and enrich the existing Raghurajpur visitor article; review locally and prepare a pull request. No merge, deployment or field commitments. |
+| UTP-DEC-215 · Publish Raghurajpur and continue illustrated craft articles | approved | Ahimanikya Satapathy | Approve the proposed next steps: publish reviewed PR139, verify the live page, then prepare illustrated Tarakasi and Jobra articles with connected reading and saved journeys. New candidates return for review. |
 
 ## Reviews
 
@@ -620,6 +622,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-149 | pass_with_limitations | False | No independent historian, local maker or language review.; Museum catalogue text inspected; page screenshots failed.; New articles are repository drafts; image selection and website publication remain open. |
 | UTP-REV-150 | pass_with_limitations | False | No independent local or specialist review.; Museum account is not an original plaque inspection or workers’ archive.; Image candidates reuse provenance; no new visual review.; Repository drafts only; field availability and publication remain open. |
 | UTP-REV-151 | pass_with_limitations | False | No local appointment, fee, workshop opening or performance confirmed.; No independent editorial or specialist review.; No new generated imagery, paid service, outreach or booking.; Founder fieldwork TODOs remain deferred. |
+| UTP-REV-152 | pass_with_limitations | False | No new contemporary maker photograph with a sufficient licence and identification was secured.; No workshop, seller, fee or current festival arrangement verified.; No independent local or specialist review.; New preview is not merged or deployed; Jobra illustration remains the next article. |
 
 ## Publication and application history
 
@@ -695,6 +698,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-068 · Find your trail published | published | https://utkalproject.org/journey-starters/#find-your-trail | UTP-DEC-197 |
 | UTP-REL-069 · Make this journey yours published | published | https://utkalproject.org/journey/ | UTP-DEC-199 |
 | UTP-REL-070 · Planner notebook, focus and print-flow fixes published | published | https://utkalproject.org/journey/ | UTP-DEC-201 |
+| UTP-REL-071 · Illustrated Raghurajpur article published | published | https://utkalproject.org/visit/places/raghurajpur/ | UTP-DEC-215 |
 
 ## Sources and assets
 
@@ -732,8 +736,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-241 | 2026-10-06T04:04:09.823821+00:00 | Recorded Founder approval of PR135. Desk shortlist and budget-document tasks completed; MICE application workflow remains an open verification task. | Merge after passing checks; fieldwork requires actual coordinator, hosts and funding decisions. |
-| UTP-EVT-242 | 2026-10-06T05:00:25.526901+00:00 | Recorded Founder acceptance of four cultural investigations and prepared integration on current main. Linked Pattachitra context retained; source limitations preserved. No website deployment. | Push approved repository candidate and verify integration. |
 | UTP-EVT-243 | 2026-10-06T04:56:38.255484+00:00 | Prepared coordinator and six visit briefs, consent/access checklist, unsent introductions, MICE clarification draft and a tested blank cost tracker. No outreach, appointment or spending occurred. | Review the pack and select the human coordinator, actual recipients/messages and cash ceiling before field activity. |
 | UTP-EVT-244 | 2026-10-06T05:42:22.477466+00:00 | Recorded Founder approval of PR136 fieldwork preparation pack. Actual field coordination and outreach remain open; no appointment, contact or expenditure made. | Merge after passing checks; select named coordinator, recipients and cash ceiling before field activity. |
 | UTP-EVT-245 | 2026-10-06T06:26:04.321692+00:00 | Added five deferred Founder field-pilot actions and prepared three sourced reading articles. Existing entities and evidence were reused; new source limitations recorded. | Review article drafts; continue research while field-pilot decisions remain with the Founder. |
@@ -742,6 +744,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-248 | 2026-10-06T08:07:12.894128+00:00 | Automatic approval review rejected the proposed PR138 merge: the user instruction authorized branch push but was not explicit about merging into main. No merge command ran. Corrected current approval scope; prior proposed integration language must not be treated as merge evidence. | Obtain explicit Founder merge confirmation; keep the research and next plan pushed on the review branch. |
 | UTP-EVT-249 | 2026-10-06T08:10:41.340486+00:00 | Founder answered Approved to the explicit request to merge PR138 into main. Previous merge-permission blocker is resolved; no merge execution claimed by this record. | Merge after final checks and confirm GitHub merge result. |
 | UTP-EVT-250 | 2026-10-06T10:36:27.130679+00:00 | Prepared an illustrated Raghurajpur candidate using existing documentary imagery and source identities. Added bounded visitor guidance and retained saved-journey exports. | Complete review and open a pull request; no deployment authorized by this preview step. |
+| UTP-EVT-251 | 2026-10-06T11:04:55.486526+00:00 | Founder-approved PR139 merged; manual publication workflow succeeded and live Raghurajpur content was verified. | Continue Tarakasi preview. |
+| UTP-EVT-252 | 2026-10-06T11:04:55.486526+00:00 | Prepared the Tarakasi story using two newly checked photographs, existing process research and an original explanatory drawing. | Complete browser checks and submit a review PR. |
 
 ## Deferred extensions
 

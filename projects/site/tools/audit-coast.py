@@ -12,9 +12,10 @@ args=parser.parse_args()
 args.output.parent.mkdir(parents=True,exist_ok=True)
 config=json.loads((SITE/'editions/coast.json').read_text())
 class Page(HTMLParser):
- def __init__(self):super().__init__();self.nodes=[];self.stack=[];self.text='';self.labelled=[]
+ def __init__(self):super().__init__();self.nodes=[];self.stack=[];self.text='';self.labelled=[];self.document_titles=[]
  def handle_starttag(self,tag,attrs):
   a=dict(attrs);self.nodes.append((tag,a));
+  if tag=='title' and self.stack and self.stack[-1]=='head':self.document_titles.append(a)
   if tag in ['input','select','textarea'] and (a.get('aria-label') or a.get('aria-labelledby') or 'label' in self.stack or a.get('type')=='hidden'):self.labelled.append(a.get('id'))
   if tag not in ['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']:self.stack.append(tag)
  def handle_endtag(self,tag):
@@ -32,7 +33,7 @@ for route,page in pages.items():
  errors=[];canonical=[a.get('href') for a in page.nodes_of('link') if a.get('rel')=='canonical'];expected='https://utkalproject.org'+route
  if canonical!=[expected]:errors.append('Canonical mismatch '+str(canonical))
  if not 50<=len(page.meta('description'))<=250:errors.append('Description missing or poorly bounded')
- if len(page.nodes_of('title'))!=1 or not page.meta('og:title'):errors.append('Page/social title missing')
+ if len(page.document_titles)!=1 or not page.meta('og:title'):errors.append('Page/social title missing')
  if page.meta('og:description')!=page.meta('description'):errors.append('Social description differs')
  if page.meta('og:url')!=expected:errors.append('Social URL mismatch')
  if page.nodes_of('html')[0].get('lang')!='en':errors.append('Document language missing')
