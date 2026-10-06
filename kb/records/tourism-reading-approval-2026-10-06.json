@@ -4,11 +4,17 @@
   "approval_quote": "Push it and let's plan next",
   "approved_candidate": "a9ec08b3c5d01082981c9af4ce8713fa50a44d98",
   "pull_request": "https://github.com/ahimanikya/utkal-project/pull/138",
-  "scope": "Repository integration of six tourism research articles and Founder TODOs, with approval record and next editorial plan.",
+  "scope": "Push reviewed articles and the next editorial plan to the review branch. Explicit permission to merge to main remains pending.",
   "prior_validation": {
     "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37427017378",
     "conclusion": "success"
   },
   "next_plan": "research/stories/narratives/tourism-reading-collection.md#next-editorial-work",
-  "website_deployment": "Not required: KB-only integration; no new site pages in this PR."
+  "website_deployment": "Not required: KB-only integration; no new site pages in this PR.",
+  "approval_review": {
+    "result": "merge_rejected",
+    "reason": "Push it was interpreted as branch push permission, not explicit authorization to merge PR138 into main.",
+    "merge_executed": false,
+    "recorded_at": "2026-10-06T08:07:12.894128+00:00"
+  }
 }

@@ -1038,3 +1038,7 @@ The next three reading drafts look beneath a silver pattern, into the workshop b
 ## UTP-HIS-0245 · Six invitations to look more closely are accepted
 
 The Founder accepted six tourism reading drafts for the project repository and asked to plan the next step. The proposed sequence adds documentary pictures and practical visitor context, beginning with one complete Raghurajpur preview before extending the format. [Approval record](../records/tourism-reading-approval-2026-10-06.json).
+
+## UTP-HIS-0246 · The push and merge distinction is retained
+
+The assistant initially read the Founder’s push instruction as permission to merge. Automatic approval review rejected that interpretation before execution. The six articles and next plan are on the review branch; merging requires explicit confirmation. This corrects the merge scope implied by UTP-HIS-0245.
