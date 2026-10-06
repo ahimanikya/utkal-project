@@ -568,3 +568,7 @@ Kalamata selected original sections,2015 decision and2021 report are documented.
 ## Sugar-output checkpoint · 2026-10-06
 
 Sugar: original OAS p.109 unavailable; recovery arithmetic and Aska2016–17 output conflict held. Dhenkanal fiscal/crushing-year and post-sale ownership require independent follow-up. Retry original state table11October; continue buyer/period research.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Historical buyer now documented. Fiscal/crushing-year alignment, successor output and present operator/title remain open. Newsletter original returned HTTP 502; original state table retry remains 11 October. Continue independent rice-mill output research meanwhile.

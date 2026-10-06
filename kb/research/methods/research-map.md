@@ -555,3 +555,7 @@ Added a Kalamata oil comparison and three primary-source identities, distinct fr
 ## Sugar-output checkpoint · 2026-10-06
 
 Extended the existing agriculture source to sugar-factory rows; added operator and company report identities. New study and story reuse one OAS lineage. Search did not locate a prior factory series.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Reused the existing sugar study and source report. Three primary document identities extend transaction stages; seller publications are one lineage. No duplicate factory concept.

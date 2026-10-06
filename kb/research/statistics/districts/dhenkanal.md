@@ -31,3 +31,7 @@ Banking geography is not household wealth, district GDP or project investment. R
 ## Sugar-output checkpoint · 2026-10-06
 
 [Sugar-factory history](../../economy/sugar-production.md) separates the state table from a company report ending at its2022 sale. Continued plant labels do not establish present ownership or closure.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+[Factory transaction evidence](../../economy/sugar-production.md) now identifies Indian Potash as the 2022 buyer. This historical event establishes neither current land availability nor verified present operating volumes.

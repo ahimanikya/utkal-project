@@ -606,3 +606,7 @@ Added Kalamata specification/decision/enforcement comparison; corrected overly b
 ## Sugar-output checkpoint · 2026-10-06
 
 Captured eleven-year sugar-factory table under existing rice-oas2024 source identity;66 state-table observations remain provisional or held, while4 company quantities have original-page verification. Saved recovery and Aska discrepancies; no partial-year growth or current ownership inferred.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Resolved the 2022 Dhenkanal buyer through the original seller completion notice, quarterly note and conditional buyer announcement. Preserved event/publication dates, seller evidence lineage and unresolved production periods. No new physical observation or current operator claim.

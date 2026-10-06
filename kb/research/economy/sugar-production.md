@@ -5,7 +5,7 @@ description: "Sugar factories: output, inputs and changing ownership — period,
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-10-06T00:01:09.592924+00:00"}
 subjects: ["economy", "food"]
-sources: [{"id": "rice-oas2024", "title": "Odisha Agriculture Statistics 2023–24", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf"}, {"id": "food-aska-status", "title": "Aska Cooperative Sugar Industries: historical status paragraph", "resource": "https://askasugar.com/default.php"}, {"id": "food-sakthi-ar2023", "title": "Sakthi Sugars Annual Report 2022–23: Dhenkanal discontinued operations", "resource": "https://sakthisugars.com/download/agm-61/annualreport-2022-23.pdf"}]
+sources: [{"id": "rice-oas2024", "title": "Odisha Agriculture Statistics 2023–24", "resource": "https://agri.odisha.gov.in/sites/default/files/2025-05/OAS%20A4.pdf"}, {"id": "food-aska-status", "title": "Aska Cooperative Sugar Industries: historical status paragraph", "resource": "https://askasugar.com/default.php"}, {"id": "food-sakthi-ar2023", "title": "Sakthi Sugars Annual Report 2022–23: Dhenkanal discontinued operations", "resource": "https://sakthisugars.com/download/agm-61/annualreport-2022-23.pdf"}, {"id": "food-sakthi-sale2022", "title": "Sakthi Sugars: completion of Dhenkanal sale, 12 November 2022", "resource": "https://sakthisugars.com/investor/AnnouncementResult_Final.aspx"}, {"id": "food-sakthi-q2-2022", "title": "Sakthi Sugars: September 2022 results released 14 November 2022", "resource": "https://sakthisugars.com/Upload_CompanyResult/UFR30092022.pdf"}, {"id": "food-ipl-bta", "title": "Indian Potash: Dhenkanal business-transfer announcement", "resource": "https://indianpotash.org/ipl-sakthi-sugars.html"}]
 human_review_claimed: false
 ---
 
@@ -43,7 +43,7 @@ The [Aska operator page](../sources/food-aska-status.md) also reports 60,846 qui
 
 Sakthi’s [2022–23 Board report, printed p.16](../sources/food-sakthi-ar2023.md) reports that its Dhenkanal sugar/distillery units were sold as a going concern on 11 November 2022. It records 13,410 tonnes of cane crushed and 1,901 tonnes of sugar produced up to sale, against 272,344 and 25,077 tonnes in the previous fiscal year. The original page was checked visually.
 
-The partial year cannot form a full-year decline calculation. The state table’s continued historical “Sakti” column does not establish current ownership, and a company’s discontinued-operation classification does not mean the factory closed. The prior-year state and company quantities also differ; exact year definitions and successor reporting remain unresolved. No buyer or current owner is inferred here.
+The partial year cannot form a full-year decline calculation. The state table’s continued historical “Sakti” column does not establish current ownership, and a company’s discontinued-operation classification does not mean the factory closed. The prior-year state and company quantities also differ; exact year definitions and successor reporting remain unresolved. The historical buyer is now documented below; current ownership has not been freshly established.
 
 ## District enterprise questions
 
@@ -51,4 +51,23 @@ For Ganjam and Dhenkanal, this points to useful research about cane transport, s
 
 [Food processing and dairy](food-processing-and-dairy.md) — connects factory output with the broader processing evidence while preserving product and period boundaries. [Ganjam](../statistics/districts/ganjam.md) and [Dhenkanal](../statistics/districts/dhenkanal.md) retain their own district measurement scopes.
 
-Next: identify the documented Dhenkanal buyer and reconcile company fiscal periods with the state’s year-labelled table. Original-page/recovery follow-up is dated 11 October. No statewide food-processing ranking, producer profit or website publication is claimed.
+Next independent batch: rice-mill processed output. Retry successor production records and fiscal/crushing-year reconciliation on 11 October. Original-page/recovery follow-up is dated 11 October. No statewide food-processing ranking, producer profit or website publication is claimed.
+
+## Who bought the unit, and when?
+
+**Indian Potash Limited was the documented buyer in the completed 2022 transaction.** The seller’s [12 November notice](../sources/food-sakthi-sale2022.md) reports execution and registration of the sale deed on **11 November 2022**. The deed itself has not been inspected; this is the seller’s completed-transaction disclosure. Its agreement-stage letter is referenced as 27 June.
+
+| Evidence date | Stage established | Limit |
+|---|---|---|
+| 27 May 2022 | Shareholder approval, in the saved annual report | Approval alone is not completion |
+| 27 June 2022 | Agreement letter referenced in the completion notice | Full agreement not reviewed |
+| Undated buyer announcement | Signed agreement awaiting secured lenders’ clearance | Its online availability does not make it a current pending transaction |
+| 11 November 2022 | Seller-reported executed and registered sale deed | Historical transaction, not a fresh land-title check |
+| 12 November 2022 | Seller’s completion notice | Publication date differs from event date |
+| 14 November 2022 | Quarterly results name Indian Potash as buyer | The disclosed sale occurred after the 30 September reporting date |
+
+The [quarterly filing](../sources/food-sakthi-q2-2022.md) reports Rs 13,410 lakh consideration (Rs 134.10 crore). This is a historical business-sale amount, not newly built capacity, local investment realised through construction, annual revenue or a land offer. The [buyer announcement](../sources/food-ipl-bta.md) identifies sugar, distillery and soya facilities through capacity descriptions; it supplies no annual production series. These accounts describe the same transaction and are not independent production measurements.
+
+**The output reconciliation remains open.** The seller’s fiscal report includes only quantities through sale, while the state table retains a historical plant label and year labels without verified boundaries. Buyer identity resolves one gap; it does not justify adding the two publishers’ quantities, filling the rest of the year, or treating the old company name as the current operator.
+
+[Dhenkanal district context](../statistics/districts/dhenkanal.md) — connects the factory’s ownership history to district enterprise research without implying available land or supplier contracts. Current ownership, operating days, workforce availability, procurement terms and title/lease conditions remain unverified.
