@@ -1030,3 +1030,7 @@ The Founder approved the six visit briefs, coordinator role brief, confirmation 
 ## UTP-HIS-0243 · Keep the research moving while field decisions wait
 
 The Founder moved pilot coordination and spending decisions to his TODO list and asked for continued research and articles. Museum objects, an inscription and stitched cloth become three ways to invite curiosity before a visit. [Research batch](../research/stories/narratives/tourism-reading-collection.md).
+
+## UTP-HIS-0244 · Wire, water and a moving story
+
+The next three reading drafts look beneath a silver pattern, into the workshop behind a museum, and across painting and dance in Raghurajpur. Six stories now invite a closer look before a visit, while local voices and field arrangements remain to be added. [Six-story collection](../research/stories/narratives/tourism-reading-collection.md).

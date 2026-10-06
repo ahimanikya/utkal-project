@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-06",
+  "status": "draft_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorship": {
+    "creative_direction": "Ahimanikya Satapathy",
+    "research_and_drafting": "Current AI assistant",
+    "independent_review": false
+  },
+  "sources": {
+    "tarakasi-dsource-process": {
+      "title": "Silver Filigree Cuttack Orissa — Making Process",
+      "url": "https://www.dsource.in/resource/silver-filigree-cuttack-orissa/making-process",
+      "creator": "Prof. Bibhudutta Baral and Hariharasudan T., NID Bengaluru",
+      "kind": "design education process account",
+      "family": "Dsource/NID documented process",
+      "inspection": "Credited making-process section read in full on 6 October 2026. Sketches, wire drawing, frame and infill, joining and finishing inspected.",
+      "limits": "Unrelated spam links above the credited content were ignored. No whole-site integrity assurance; no origin chronology, GI status, metal assay or universal maker workflow adopted."
+    },
+    "maritime-jobra-workshop": {
+      "title": "Odisha State Maritime Museum — Jobra Workshop",
+      "url": "https://www.odishastatemaritimemuseum.org/User/JobraWorkshop",
+      "kind": "institutional account of site history and machines",
+      "family": "Odisha State Maritime Museum",
+      "inspection": "Full historical and gallery text read from direct HTTP 200 retrieval on 6 October. Web reader initially returned empty text; direct page succeeded.",
+      "response_sha256": "8ae870cb09df304443d11023a66d2b7c8af11e3623de041584694bae6514a121",
+      "limits": "Plaque date and arrangement are reported by the museum; no direct inscription, workers’ archive or field verification. No current machine count or public access promise adopted."
+    },
+    "visitor-maritime-museum": {
+      "title": "Odisha State Maritime Museum",
+      "url": "https://odishastatemaritimemuseum.org/",
+      "kind": "institutional museum introduction",
+      "family": "Odisha State Maritime Museum",
+      "inspection": "Existing source identity extended: full introduction read from HTTP 200 response on 6 October.",
+      "response_sha256": "3845289975e97067e0784417568523ea3a45d69bfd5bb23e98ef4f2457cbe910",
+      "limits": "Same institutional family as Jobra subpage, not independent corroboration. Homepage gallery count and current visit hours not adopted."
+    },
+    "raghurajpur-pib": {
+      "title": "PIB Raghurajpur feature",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817",
+      "creator": "Sucharita Sahoo, Information Assistant, PIB Cuttack",
+      "published_on": "2014-04-11",
+      "kind": "government cultural feature",
+      "family": "Press Information Bureau",
+      "inspection": "Full feature read on 6 October; existing source ID from destinations/regions.json reused.",
+      "limits": "2014 descriptive context; household totals, every-family claims, present livelihoods and current performances not adopted."
+    },
+    "performers-srjan-milestones": {
+      "title": "Guru Kelucharan Mohapatra — Srjan milestones",
+      "url": "https://www.srjan.com/achievements_Guru_Kelucharan_Mohapatra.php",
+      "kind": "first-party institutional chronology",
+      "family": "Srjan",
+      "inspection": "Chronology read on 6 October; father’s craft, early Gotipua training, theatre and collective Odissi activity used. Existing source identity retained.",
+      "limits": "Not original playbills or birth records. 1924/1926 discrepancy acknowledged by source; no birth year or disputed institutional founding date adopted."
+    }
+  },
+  "claims": [
+    {
+      "id": "T1",
+      "article": "cuttack-tarakasi-structure-in-silver",
+      "section": "First, something to hold the pattern",
+      "source_ids": [
+        "tarakasi-dsource-process"
+      ],
+      "locator": "Making Process paragraphs 1–6",
+      "kind": "documented_process_example"
+    },
+    {
+      "id": "J1",
+      "article": "jobra-workshop-maritime-museum",
+      "section": "Opening",
+      "source_ids": [
+        "visitor-maritime-museum",
+        "maritime-jobra-workshop"
+      ],
+      "locator": "Introduction and first Jobra paragraph",
+      "kind": "institution_attributed_history"
+    },
+    {
+      "id": "J2",
+      "article": "jobra-workshop-maritime-museum",
+      "section": "Water needed things made for it",
+      "source_ids": [
+        "maritime-jobra-workshop"
+      ],
+      "locator": "Workshop purpose paragraph",
+      "kind": "sourced_summary"
+    },
+    {
+      "id": "J3",
+      "article": "jobra-workshop-maritime-museum",
+      "section": "Follow the movement through the room",
+      "source_ids": [
+        "maritime-jobra-workshop"
+      ],
+      "locator": "Machines, positions, pulley and crane paragraphs",
+      "kind": "institution_report_not_current_field_observation"
+    },
+    {
+      "id": "R1",
+      "article": "raghurajpur-painting-and-performance",
+      "section": "Opening and A picture has a direction",
+      "source_ids": [
+        "raghurajpur-pib"
+      ],
+      "locator": "Pattachitra and Gotipua discussion",
+      "kind": "dated_cultural_description"
+    },
+    {
+      "id": "R2",
+      "article": "raghurajpur-painting-and-performance",
+      "section": "The child of a painter, the life of a dancer",
+      "source_ids": [
+        "performers-srjan-milestones"
+      ],
+      "locator": "1924, 1929, 1945–1948 and 1957 chronology rows",
+      "kind": "attributed_biographical_connection"
+    }
+  ],
+  "editorial_material": "Architecture comparisons, looking exercises, visit questions and explanatory glosses are original editorial material, not attributed maker intentions. No eyewitness scene, interview, verbatim quotation or present visit availability invented. Absence of workers’ voices describes the inspected institutional account, not all surviving archives.",
+  "media": [
+    {
+      "article": "cuttack-tarakasi-structure-in-silver",
+      "status": "existing_asset_candidate",
+      "asset": "cuttack-filigree",
+      "record": "kb/research/culture/craft-stories.json",
+      "path": "projects/site/public/images/regions/cuttack-filigree.webp",
+      "limits": "File caption and metal descriptions differ; may illustrate form, not certify material purity. Existing provenance retained.",
+      "file_sha256": "8eadefba2b5f0f9a338a898bce3f72c16c30f74bac9e431b500be0304ef793d7",
+      "inspection": "File existence and checksum checked; existing provenance reused. No new visual review or image alteration."
+    },
+    {
+      "article": "jobra-workshop-maritime-museum",
+      "status": "image_selection_pending",
+      "brief": "Permitted documentary photograph of a labelled workshop machine or power-transmission equipment. Do not invent a historic machine arrangement or label a reconstruction as an original."
+    },
+    {
+      "article": "raghurajpur-painting-and-performance",
+      "status": "existing_asset_candidate",
+      "asset": "raghurajpur-artisan",
+      "record": "kb/research/culture/craft-stories.json",
+      "path": "projects/site/public/images/regions/raghurajpur-artisan.jpg",
+      "limits": "Named photographer and licence retained in canonical asset record; portrayed maker not identified. Do not attach a fabricated personal account.",
+      "file_sha256": "a6f459469b4f825a3eaad7c7f040f670930dfb2f8e03a4a434c2ca18b259b05c",
+      "inspection": "File existence and checksum checked; existing provenance reused. No new visual review or image alteration."
+    }
+  ],
+  "review_gaps": [
+    "Craft specialist and local practitioner review.",
+    "Original foundation plaque and workshop labour records.",
+    "Museum photo permission and current gallery access.",
+    "Maker names, current demonstrations, charges and host consent.",
+    "Current Raghurajpur performance availability and safeguarding arrangements.",
+    "No website rendering or publication in this batch."
+  ],
+  "discovery_not_adopted": [
+    {
+      "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/raghurajpur",
+      "result": "Fresh web retrieval failed; prior district scope retained in existing entity but no new operating claims made."
+    },
+    {
+      "url": "https://sujatamohapatra.org/about-guru-kelucharan-mohapatra/",
+      "result": "Practitioner biography read as background; existing source reused, no additional article claim or disputed year imported."
+    }
+  ]
+}

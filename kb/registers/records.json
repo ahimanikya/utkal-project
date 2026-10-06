@@ -5243,7 +5243,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-210",
-      "next_action": "Review three article drafts and continue the remaining pilot subjects. Museum image selection, specialist/local review and public publication remain open.",
+      "next_action": "Review the original three articles alongside the follow-up three under UTP-WORK-181. Museum image selection, specialist/local review and public publication remain open.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5268,6 +5268,42 @@
         "research/stories/narratives/tourism-reading-collection.md",
         "research/stories/narratives/tourism-reading-evidence.json",
         "records/tourism-reading-research-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-181",
+      "title": "Write Tarakasi, Jobra and Raghurajpur reading articles",
+      "category": "research_and_editorial",
+      "status": "awaiting_review",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-211",
+      "next_action": "Review the six-story collection; select permitted documentary images and obtain local/specialist contributions before preparing public articles.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Three connected article drafts add specific discoveries to existing entities.",
+        "Inspected source scopes and inherited identities remain traceable.",
+        "Unverified dates, availability and attributed intentions are not invented.",
+        "Founder TODO remains deferred; no outreach or deployment."
+      ],
+      "reuse_before_research": [
+        "research/culture/cuttack-tarakasi.md",
+        "research/places/odisha-state-maritime-museum.md",
+        "research/culture/raghurajpur-pattachitra.md",
+        "research/people/kelucharan-mohapatra.md",
+        "research/history/maritime-evidence.md"
+      ],
+      "refs": [
+        "UTP-DEC-211",
+        "UTP-REV-150",
+        "UTP-WORK-180"
+      ],
+      "evidence": [
+        "research/stories/narratives/tourism-reading-collection.md",
+        "research/stories/narratives/tourism-reading-followup-evidence.json",
+        "records/tourism-reading-followup-2026-10-06.json"
       ]
     }
   ],
@@ -9447,6 +9483,25 @@
         "specs/founder-todo.md",
         "records/tourism-reading-research-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-211",
+      "title": "Continue the tourism reading collection with three more subjects",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Lets go that",
+      "scope": "Continue the proposed Tarakasi, Maritime Museum and Raghurajpur research/article batch. Extend the existing draft PR; field actions remain deferred.",
+      "recorded_at": "2026-10-06T06:58:42.265163+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-181"
+      ],
+      "evidence": [
+        "records/tourism-reading-followup-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -12942,6 +12997,30 @@
       "evidence": [
         "research/stories/narratives/tourism-reading-evidence.json",
         "records/tourism-reading-research-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-150",
+      "title": "Craft and maritime narrative self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No independent local or specialist review.",
+        "Museum account is not an original plaque inspection or workers’ archive.",
+        "Image candidates reuse provenance; no new visual review.",
+        "Repository drafts only; field availability and publication remain open."
+      ],
+      "refs": [
+        "UTP-WORK-181",
+        "UTP-DEC-211"
+      ],
+      "evidence": [
+        "research/stories/narratives/tourism-reading-followup-evidence.json",
+        "records/tourism-reading-followup-2026-10-06.json"
       ]
     }
   ],

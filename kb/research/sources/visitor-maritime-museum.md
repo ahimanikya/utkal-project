@@ -22,3 +22,7 @@ resource: "https://www.odishastatemaritimemuseum.org/User/Index"
 [Open source](https://www.odishastatemaritimemuseum.org/User/Index)
 
 [^visitor-maritime-museum]: [Odisha State Maritime Museum](https://www.odishastatemaritimemuseum.org/User/Index)
+
+## Scope extension on 6 October 2026
+
+The [institutional homepage](https://odishastatemaritimemuseum.org/) was read in full through direct retrieval after the web reader returned empty text. The separately recorded [Jobra Workshop account](maritime-jobra-workshop.md) adds detailed site history. Both share museum provenance. Hours and gallery counts were excluded from the new narrative; no operating verification claimed.

@@ -47,3 +47,7 @@ Odisha Tourism lists 06:00–18:00, free entry and parking. These are general de
 ## Illustrated website candidate · 1 October 2026
 
 [Craft collection data](craft-stories.json) connects a sourced introduction, inspected documentary photographs, maker questions and a saved craft journey. Existing visit guides remain the home for practical arrangements. Local terminology, maker identification and workshop availability remain open; candidate preparation does not claim publication approval.
+
+## Research extension · 6 October 2026
+
+[Related article draft](../stories/narratives/raghurajpur-painting-and-performance.md) develops this entity through inspected process or institutional history. [Claim and media record](../stories/narratives/tourism-reading-followup-evidence.json) separates documentary evidence, original narration and practical questions still to verify.

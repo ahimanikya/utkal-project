@@ -31,3 +31,7 @@ Check opening times, admission, gallery operation and available visitor services
 [Visitor index](../visitor-index/index.md)
 
 [^visitor-maritime-museum]: [Odisha State Maritime Museum](https://www.odishastatemaritimemuseum.org/User/Index)
+
+## Research extension · 6 October 2026
+
+[Related article draft](../stories/narratives/jobra-workshop-maritime-museum.md) develops this entity through inspected process or institutional history. [Claim and media record](../stories/narratives/tourism-reading-followup-evidence.json) separates documentary evidence, original narration and practical questions still to verify.
