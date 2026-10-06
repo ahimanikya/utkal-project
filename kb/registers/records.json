@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T15:41:07.542753+00:00",
+  "recorded_at": "2026-10-06T05:00:25.526901+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5195,6 +5195,29 @@
         "research/collections/tourism-policy-opportunity.md",
         "models/tourism-experience-record.md"
       ]
+    },
+    {
+      "id": "UTP-WORK-176",
+      "title": "Approved Odisha Roots cultural story integration",
+      "category": "research_and_editorial",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-207",
+      "next_action": "Push and integrate the approved repository edition; retain targeted archival follow-ups. Website publication is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-207",
+        "UTP-REV-145"
+      ],
+      "evidence": [
+        "records/cultural-roots-repository-approval.json",
+        "records/cultural-roots-four-stories-review.json"
+      ]
     }
   ],
   "decisions": [
@@ -9291,6 +9314,25 @@
       "evidence": [
         "records/tourism-research-approval-2026-10-05.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-207",
+      "title": "Accept and push four cultural investigations",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Push them, I am good with it",
+      "scope": "Push the four accepted cultural stories and supporting records to ahimanikya/utkal-project; include linked Pattachitra draft as prerequisite context.",
+      "recorded_at": "2026-10-06T05:00:25.526901+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-176"
+      ],
+      "evidence": [
+        "records/cultural-roots-repository-approval.json"
+      ]
     }
   ],
   "requirements": [
@@ -12715,6 +12757,29 @@
       "evidence": [
         "records/tourism-research-2026-10-05.json",
         "research/collections/tourism-pilot-desk-review.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-145",
+      "title": "Cultural story source and integration review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No independent historical or language review.",
+        "Source access and original-record gaps remain documented in each story.",
+        "No website publication or image selection."
+      ],
+      "refs": [
+        "UTP-WORK-176",
+        "UTP-DEC-207"
+      ],
+      "evidence": [
+        "records/cultural-roots-repository-approval.json",
+        "records/cultural-roots-four-stories-review.json"
       ]
     }
   ],

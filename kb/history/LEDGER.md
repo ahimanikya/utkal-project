@@ -1014,3 +1014,7 @@ The first research batch recommends learning through six local visits before exp
 ## UTP-HIS-0239 · The first tourism desk pack is approved
 
 The Founder approved the 22-lead research pack and two costed capacity options. This accepts the planning work; host participation and expenditure remain separate decisions. [Approval record](../records/tourism-research-approval-2026-10-05.json).
+
+## UTP-HIS-0240 · Four investigations into belonging accepted
+
+The Founder accepted four sourced cultural narratives for repository integration. The prior Pattachitra draft remains linked context; uncertain historical claims and incomplete source access remain visible. [Approval record](../records/cultural-roots-repository-approval.json). No website deployment.

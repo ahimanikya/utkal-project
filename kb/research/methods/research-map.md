@@ -401,3 +401,7 @@ Four source identities extend the existing land-and-people collection. An NGT ap
 ## Tourism opportunity follow-through
 
 The [tourism pilot](../../specs/tourism-experience-pilot.md), [evidence brief](../collections/tourism-policy-opportunity.md) and [experience template](../../models/tourism-experience-record.md) extend existing visitor and investment work. Search terms include MICE, tourism and Boita. Canonical follow-up status is in the project work register, not duplicated in the historical research queue. Official rules and local operating details remain open evidence tasks.
+
+## Odisha Roots attribution investigations · 6 October 2026 UTC
+
+[Four completed narrative drafts](../stories/narratives/odisha-roots-four-investigations.md) extend the existing Pattachitra story and cultural-attribution shortlist. Reuse their companion evidence records before researching Jayadeva, the Puri–Digha naming dispute, Chhau institutions or Sambalpur’s language movement. Existing `chhau` and `dance-battery2024` source identities are retained. A newly located parliamentary objection updates the initial Chhau lead; archaeological identification, renaming implementation and original colonial records retain explicit gaps. These are local editorial drafts, not published site content or conclusive historical verdicts.
