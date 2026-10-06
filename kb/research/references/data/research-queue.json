@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-05T23:43:01.885936+00:00",
+  "updated_at": "2026-10-06T00:01:09.592924+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -1589,10 +1589,10 @@
       "done_when": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
       "target": "statistics/coverage.md",
       "status": "in_progress",
-      "attempts": 6,
+      "attempts": 7,
       "dependencies": [],
-      "last_worked_at": "2026-10-04T22:28:16.085032+00:00",
-      "next_step": "Continue RES-017 with a bounded search for named sugar or other food-factory physical output. Reuse rice historical series and fisheries register. Dairy annual product output and mill throughput remain unavailable; retry original OMFED accounts and survey facsimile after 11 October. Do not replace output with procurement, sales, turnover or capacity.",
+      "last_worked_at": "2026-10-06T00:01:09.592924+00:00",
+      "next_step": "Resume RES-017 with Dhenkanal sugar-factory buyer/ownership and fiscal-versus-crushing-year reconciliation using the saved2022–23 company report. Retain the OAS series as provisional; original p.109 and recovery/Aska2016 conflict retries on11October. Do not splice the company partial-year sale-period quantities into the state table. Dairy and rice-mill gaps remain.",
       "evidence_outputs": [
         "statistics/ports.md",
         "sources/trade-basic-port-statistics2025.md",
@@ -1627,10 +1627,14 @@
         "sources/food-omfed-plants.md",
         "sources/food-omfed-home.md",
         "sources/food-omfed-ar2014.md",
-        "references/data/food-processing-series.json"
+        "references/data/food-processing-series.json",
+        "economy/sugar-production.md",
+        "stories/sugar-output-recovery.md",
+        "sources/food-aska-status.md",
+        "sources/food-sakthi-ar2023.md"
       ],
       "retry_after": null,
-      "blocker": null,
+      "blocker": "Selected state table lacks facsimile; recovery and same-label output conflicts held. Independent ownership/period research remains eligible.",
       "reuse_before_research": {
         "source_records": [
           "statistics/ports.md",
@@ -1677,7 +1681,11 @@
           "references/data/food-processing-series.json",
           "statistics/agriculture.md",
           "statistics/livestock.md",
-          "stories/sweets-from-milk-to-market.md"
+          "stories/sweets-from-milk-to-market.md",
+          "economy/sugar-production.md",
+          "stories/sugar-output-recovery.md",
+          "sources/food-aska-status.md",
+          "sources/food-sakthi-ar2023.md"
         ],
         "project_records": [],
         "audit_date": "2026-10-01",
@@ -1737,6 +1745,15 @@
           "observations_reused": 41,
           "calculations_added": 2,
           "remaining": "Dated food-processing product output; original dairy annual accounts unavailable in bounded search; retry 11 October while other food-plant work continues."
+        },
+        {
+          "run_id": "2026-10-05-sugar-output",
+          "at": "2026-10-06T00:01:09.592924+00:00",
+          "outcome": "sugar_physical_output_checkpoint_provisional_state_series_and_original_company_sale_period_preserved",
+          "completion_criteria_met": false,
+          "observations_added": 70,
+          "calculations_added": 12,
+          "remaining": "Resume RES-017 with Dhenkanal sugar-factory buyer/ownership and fiscal-versus-crushing-year reconciliation using the saved2022–23 company report. Retain the OAS series as provisional; original p.109 and recovery/Aska2016 conflict retries on11October. Do not splice the company partial-year sale-period quantities into the state table. Dairy and rice-mill gaps remain."
         }
       ]
     },

@@ -381,3 +381,7 @@ RES-070 attempt14 completes a synthesis checkpoint, not the wider programme. Loc
 ## Kalamata comparison · 5 October 2026
 
 RES-070 attempt15 saves the bounded Kalamata comparison. Remaining document and participant gaps return12October; continue independent RES-017 named food-factory physical output. No wider task completion or filing claimed.
+
+## Sugar-output checkpoint · 2026-10-06
+
+RES-017 attempt7 saves provisional sugar output and original company sale-period quantities. Next: Dhenkanal buyer and reporting-period reconciliation; OAS page-image and recovery checks retry11October.

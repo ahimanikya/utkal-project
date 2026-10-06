@@ -118,3 +118,7 @@ RES-017 now includes five eleven-observation fisheries series ending provisional
 ## Food-processing checkpoint · 4 October 2026
 
 [Food processing and dairy](../economy/food-processing-and-dairy.md) reuse rice series and add procurement/turnover. Actual food-processing quantities remain a gap; this checkpoint does not complete RES-017.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar production](../economy/sugar-production.md) now has a provisional state-table series plus selected original company quantities. Source and year-scope reconciliation remain RES-017 work.

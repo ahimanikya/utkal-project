@@ -130,3 +130,7 @@ The [homestay research](../statistics/homestays.md) connects the programme’s g
 ## Kalamata comparison · 5 October 2026
 
 [Kalamata GI comparison](../economy/kalamata-gi-comparison.md) — requirements, boundary decision and reported enforcement kept distinct.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Sugar factories](../economy/sugar-production.md) — physical output, cane input and reporting-boundary questions.

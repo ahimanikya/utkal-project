@@ -31,3 +31,7 @@ The agriculture report records rice crop area of **289.21 thousand hectares**, r
 ## Evidence coverage · 4 October 2026
 
 [District evidence matrix](../district-coverage.md) connects this snapshot with health, education, livelihood, environment and visitor research. Unmapped evidence remains unknown; banking is not a measure of household income.
+
+## Sugar-output checkpoint · 2026-10-06
+
+[Aska in the sugar study](../../economy/sugar-production.md) supplies factory-level historical output leads. It is not Ganjam crop output, a current workforce census or supplier availability.
