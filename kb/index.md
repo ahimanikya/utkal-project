@@ -115,3 +115,5 @@ Visitor experience release: [PR 23 publication evidence](records/visitor-experie
 - [Global Connections: section and future initiative](specs/global-connections.md)
 
 - [Tourism experience pilot](specs/tourism-experience-pilot.md) — actionable plan, evidence gaps, local-confirmation template and tracked work.
+
+[Tourism pilot desk research](research/collections/tourism-pilot-desk-review.md) — official evidence, experience shortlist and costed capacity options.

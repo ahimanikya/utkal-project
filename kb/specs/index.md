@@ -8,3 +8,5 @@
 - [Utkal Store](utkal-store.md)
 
 - [Odisha tourism experience pilot](tourism-experience-pilot.md)
+
+- [Tourism pilot capacity and budget](tourism-pilot-capacity.md)

@@ -15,3 +15,6 @@ Follow a subject across Odisha’s places, people and evidence. Each page keeps 
 - [Global Connections: Indian city comparison](global-connections.md)
 
 - [Tourism policy opportunity evidence](tourism-policy-opportunity.md) — Travel Bazaar source brief and official guidance gaps.
+
+- [Tourism pilot desk research](tourism-pilot-desk-review.md) — official evidence, 22 leads and capacity options.
+- [Experience desk shortlist](tourism-experience-shortlist.md) — first six proposed visits and operating gaps.
