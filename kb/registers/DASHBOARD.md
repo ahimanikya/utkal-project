@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `da0f139b28ec0e34eac0e5973cd4b2844c2796b356fa677639042f8cec0d3553`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7ac81602642bb949e65588b77d36f6fbc72fc7508cedf06f13c7b35da12c10bd`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -188,6 +188,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-173 · Prepare Boita policy and entrepreneurship brief | proposed | concept | Ahimanikya Satapathy | Synthesize observed barriers and practical recommendations in a five-page proposal. | — |
 | UTP-WORK-174 · Specify tourism opportunities website section | proposed | concept | Ahimanikya Satapathy | Define public scheme explanations and reviewed experience links for a later website batch. | — |
 | UTP-WORK-175 · Prepare authorized engagement and outcome review | proposed | concept | Ahimanikya Satapathy | Prepare recipient-specific discussion pack and a measurement plan for Founder review. | — |
+| UTP-WORK-176 · Approved Odisha Roots cultural story integration | completed | approved | Ahimanikya Satapathy | Push and integrate the approved repository edition; retain targeted archival follow-ups. Website publication is separate. | — |
 
 ## Pending human review and decisions
 
@@ -455,6 +456,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-203 · Approve tourism pilot documentation PR124 | approved | Ahimanikya Satapathy | Approve and merge PR124 documentation and its planning direction; pilot delivery, hosts, funding and external engagement retain their explicit gates. |
 | UTP-DEC-204 · Authorize tourism desk research batch | recorded_direction | Ahimanikya Satapathy | Proceed with official guidance research, existing-KB shortlist and capacity/budget options. No outreach, applications, spending or appointments authorized by this batch. |
 | UTP-DEC-206 · Approve tourism desk research PR135 | approved | Ahimanikya Satapathy | Approve and merge the tourism desk research documentation. Planning allowances do not authorize expenditure; hosts, funding, appointments and outreach remain unconfirmed. |
+| UTP-DEC-207 · Accept and push four cultural investigations | approved | Ahimanikya Satapathy | Push the four accepted cultural stories and supporting records to ahimanikya/utkal-project; include linked Pattachitra draft as prerequisite context. |
 
 ## Reviews
 
@@ -602,6 +604,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-142 | pass_with_limitations | False | Chrome desktop responsive viewports are not physical phone/tablet testing or a screen-reader pass.; PDFs use Chrome Page.printToPDF through the supported browser capability; native OS print-dialog controls and a physical printer were not exercised.; Bounded fixture: one Chilika place, two days, Odia text, appended outline and one personal reminder. Large plans and illustrated-book PDFs were not visually rechecked.; Local review PDFs contain localhost reading links because they were exported from the local candidate. They are QA evidence, not visitor travel books.; Search Console processing remains open. |
 | UTP-REV-143 | pass_with_limitations | False | No local host verification or field trial has occurred.; Official MICE endpoint and detailed scheme rules remain unverified; source leads are labelled accordingly.; Pilot targets, capacity, budget, human appointments and external engagement remain proposed. |
 | UTP-REV-144 | pass_with_limitations | False | MICE-specific application workflow not verified; OTIIMS entry timed out.; No complete capital-policy eligibility assessment or guarantee that later amendments do not exist.; Candidate source-check metadata is reused, not newly externally verified.; No staff appointed, host contacted, field route checked or supplier quote obtained.; No public brief for the reported 100-day mapping proposal established. |
+| UTP-REV-145 | pass_with_limitations | False | No independent historical or language review.; Source access and original-record gaps remain documented in each story.; No website publication or image selection. |
 
 ## Publication and application history
 
@@ -714,7 +717,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-231 | 2026-10-04T22:37:12.091616+00:00 | Prepared five visual trail comparisons before the long featured story, with interest filters, consistent planning cues and links into existing story/save/book flows. Automated controller, built-page and publication checks passed; visual review remains open. | Founder reviews the five-trail comparison candidate before merge and publication; rendered visual and assistive-technology checks remain separately open. |
 | UTP-EVT-232 | 2026-10-04T22:45:13.929181+00:00 | Published approved PR112 through Pages. Verified five visual comparisons before the long story, six filter controls, matching filter script, photograph hashes and links into the shared story/save/book flow. | Published and live-delivery verified. Rendered browser, screen-reader and physical-device review and Search Console processing remain separate follow-ups. |
 | UTP-EVT-233 | 2026-10-04T23:00:49.721315+00:00 | Prepared state-based planning guidance, day cards and an optional private day outline. Portable books lead with day summaries; automated checks cover privacy, backups, undo and newer-tab conflicts. | Founder reviews the completed planner candidate before merge and publication; rendered visual and native PDF checks remain separately open. |
 | UTP-EVT-234 | 2026-10-04T23:13:52.469780+00:00 | Published approved PR115 through Pages. Verified the live planner controls, shared journey payload and matching script/style assets for guided day planning and portable summaries. | Published and live-delivery verified. Rendered browser, native PDF, screen-reader and physical-device review and Search Console processing remain separate follow-ups. |
@@ -724,6 +726,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-238 | 2026-10-06T01:48:10.118217+00:00 | Recorded Founder approval of PR124 and corrected the generated editorial index freshness failure before merge. | Merge after passing checks; official guidance verification and candidate audit are the next ready tasks. |
 | UTP-EVT-239 | 2026-10-06T02:48:37.224938+00:00 | Reviewed official event/capital guidance, traced the tourism incentive portal to GO-SWIFT, reused KB evidence for 22 leads and prepared six/20-experience budget scenarios. Portal workflow and field confirmation remain open. | Review candidate pack; resolve MICE workflow and agree a local coordinator, shortlist and funding before outreach or spending. |
 | UTP-EVT-241 | 2026-10-06T04:04:09.823821+00:00 | Recorded Founder approval of PR135. Desk shortlist and budget-document tasks completed; MICE application workflow remains an open verification task. | Merge after passing checks; fieldwork requires actual coordinator, hosts and funding decisions. |
+| UTP-EVT-242 | 2026-10-06T05:00:25.526901+00:00 | Recorded Founder acceptance of four cultural investigations and prepared integration on current main. Linked Pattachitra context retained; source limitations preserved. No website deployment. | Push approved repository candidate and verify integration. |
 
 ## Deferred extensions
 
