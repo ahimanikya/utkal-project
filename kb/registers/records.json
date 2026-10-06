@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-04T15:41:07.542753+00:00",
+  "recorded_at": "2026-10-06T12:03:13.305515+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5352,12 +5352,12 @@
       "id": "UTP-WORK-183",
       "title": "Illustrated Tarakasi story and portable visitor notes",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-215",
-      "next_action": "Founder reviews the illustrated Tarakasi candidate before publication; illustrated Jobra article follows next.",
+      "next_action": "Illustrated Jobra article follows next; independent local or specialist review remains a separate follow-up.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5373,10 +5373,46 @@
       ],
       "refs": [
         "UTP-DEC-215",
-        "UTP-REV-152"
+        "UTP-REV-152",
+        "UTP-DEC-216",
+        "UTP-REL-072"
       ],
       "evidence": [
-        "records/tarakasi-illustrated-preview-2026-10-06.json"
+        "records/tarakasi-illustrated-preview-2026-10-06.json",
+        "records/tarakasi-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-184",
+      "title": "Illustrated Jobra museum story and three-article visual review",
+      "category": "research_and_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-217",
+      "next_action": "Founder reviews the Jobra candidate for publication; curator and current visitor-access checks remain separate.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Dated documentary images, model identification and original attribution retained.",
+        "Jobra is connected to Cuttack discovery and saved journeys.",
+        "Full story and source context survive portable export.",
+        "Three story layouts reviewed on mobile and desktop."
+      ],
+      "reuse_before_research": [
+        "research/stories/narratives/jobra-workshop-maritime-museum.md",
+        "research/sources/maritime-jobra-workshop.md",
+        "research/sources/visitor-maritime-museum.md",
+        "research/places/odisha-state-maritime-museum.md",
+        "research/stories/narratives/tourism-reading-followup-evidence.json"
+      ],
+      "refs": [
+        "UTP-DEC-217",
+        "UTP-REV-153"
+      ],
+      "evidence": [
+        "records/jobra-illustrated-preview-2026-10-06.json"
       ]
     }
   ],
@@ -9656,6 +9692,45 @@
         "records/raghurajpur-publication-2026-10-06.json",
         "records/tarakasi-illustrated-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-216",
+      "title": "Publish reviewed illustrated Tarakasi article",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "publish",
+      "scope": "Merge reviewed PR140 and publish it to the Utkal Project website.",
+      "recorded_at": "2026-10-06T11:25:55.186099+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-183",
+        "UTP-REV-152"
+      ],
+      "evidence": [
+        "records/tarakasi-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-217",
+      "title": "Prepare illustrated Jobra and compare three story layouts",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's do that",
+      "scope": "Build the proposed Jobra story with sourced imagery, practical notes and Cuttack connections, then review Jobra, Tarakasi and Raghurajpur for flow and mobile reading. Prepare the concrete candidate for Founder review.",
+      "recorded_at": "2026-10-06T12:03:13.305515+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-184"
+      ],
+      "evidence": [
+        "records/jobra-illustrated-preview-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -13221,6 +13296,29 @@
       "evidence": [
         "records/tarakasi-illustrated-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-REV-153",
+      "title": "Jobra illustrated story and three-article layout self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Photographs date from 26 September 2013; current displays and access are not verified.",
+        "No independent local, curator or specialist review.",
+        "No verified ticket prices, holiday openings, last entry, guides or step-free facilities.",
+        "Museum accounts share institutional provenance.",
+        "New article awaits Founder publication approval."
+      ],
+      "refs": [
+        "UTP-WORK-184"
+      ],
+      "evidence": [
+        "records/jobra-illustrated-preview-2026-10-06.json"
+      ]
     }
   ],
   "releases": [
@@ -14410,6 +14508,21 @@
       ],
       "evidence": [
         "records/raghurajpur-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-072",
+      "title": "Illustrated Tarakasi article published",
+      "status": "published",
+      "authorization": "UTP-DEC-216",
+      "destination": "https://utkalproject.org/visit/experiences/cuttack-filigree/",
+      "refs": [
+        "UTP-DEC-216",
+        "UTP-WORK-183",
+        "UTP-REV-152"
+      ],
+      "evidence": [
+        "records/tarakasi-publication-2026-10-06.json"
       ]
     }
   ],
