@@ -4796,7 +4796,7 @@
       "title": "Document an actionable tourism experience pilot",
       "category": "planning",
       "status": "completed",
-      "readiness": "draft",
+      "readiness": "approved",
       "human_owner": "Ahimanikya Satapathy",
       "contributor": {
         "kind": "ai_assistant",
@@ -4807,12 +4807,14 @@
       "blockers": [],
       "refs": [
         "UTP-DEC-202",
-        "UTP-REV-143"
+        "UTP-REV-143",
+        "UTP-DEC-203"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "records/tourism-pilot-approval-2026-10-05.json"
       ]
     },
     {
@@ -9203,6 +9205,26 @@
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md"
+      ]
+    },
+    {
+      "id": "UTP-DEC-203",
+      "title": "Approve tourism pilot documentation PR124",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Approve and merge PR124 documentation and its planning direction; pilot delivery, hosts, funding and external engagement retain their explicit gates.",
+      "recorded_at": "2026-10-06T01:48:10.118217+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-165",
+        "UTP-DEC-202"
+      ],
+      "evidence": [
+        "records/tourism-pilot-approval-2026-10-05.json"
       ]
     }
   ],

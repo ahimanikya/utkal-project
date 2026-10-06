@@ -1000,3 +1000,7 @@ Find your trail is published with five visual comparisons, interests and consist
 A newspaper clipping connected the public tourism opportunity with Utkal’s knowledge work. The Founder asked for actionable documentation; the resulting plan links cultural experiences, local enterprise and future Boita policy work while keeping proposals separate from delivery.
 
 [Action plan](../specs/tourism-experience-pilot.md). Documentation prepared; fieldwork and partnerships are not established.
+
+## UTP-HIS-0237 · A tourism opportunity becomes an approved plan
+
+The Founder approved the pilot documentation and ten follow-up tasks in PR124. Local delivery and partnerships remain to be established. [Approval record](../records/tourism-pilot-approval-2026-10-05.json).
