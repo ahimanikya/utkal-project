@@ -4,7 +4,7 @@
   "approval_quote": "Push it and let's plan next",
   "approved_candidate": "a9ec08b3c5d01082981c9af4ce8713fa50a44d98",
   "pull_request": "https://github.com/ahimanikya/utkal-project/pull/138",
-  "scope": "Push reviewed articles and the next editorial plan to the review branch. Explicit permission to merge to main remains pending.",
+  "scope": "Branch push and planning previously authorized; Founder now explicitly approves merging PR138 into main.",
   "prior_validation": {
     "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37427017378",
     "conclusion": "success"
@@ -16,5 +16,15 @@
     "reason": "Push it was interpreted as branch push permission, not explicit authorization to merge PR138 into main.",
     "merge_executed": false,
     "recorded_at": "2026-10-06T08:07:12.894128+00:00"
+  },
+  "explicit_merge_approval": {
+    "recorded_at": "2026-10-06T08:10:41.340486+00:00",
+    "approved_by": "Ahimanikya Satapathy",
+    "question": "May I merge PR #138 into `main`?",
+    "answer": "Approved",
+    "reviewed_head": "43e0db38122ed7db155105db17aa143757cbc775",
+    "validation": "https://github.com/ahimanikya/utkal-project/actions/runs/37434041639",
+    "decision": "UTP-DEC-213",
+    "scope": "Merge approved collection with this approval-record update; no new website pages or field commitments."
   }
 }

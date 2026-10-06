@@ -1,13 +1,13 @@
 ---
 type: "Editorial collection"
 title: "Six stories to read before a visit"
-status: "accepted_for_branch_push"
+status: "approved_for_repository"
 checked_on: "2026-10-06"
 ---
 
 # Six stories to read before a visit
 
-These articles develop six existing Odisha place and craft records into connected reading. The Founder accepted pushing this collection on 6 October 2026; merging PR138 remains pending explicit confirmation. The articles retain editorial draft status until prepared for website publication. The [Founder TODO](../../../specs/founder-todo.md) holds deferred field-pilot decisions; article preparation can proceed while those decisions wait.
+These articles develop six existing Odisha place and craft records into connected reading. The Founder explicitly approved merging this collection into the project repository on 6 October 2026. The articles retain editorial draft status until prepared for website publication. The [Founder TODO](../../../specs/founder-todo.md) holds deferred field-pilot decisions; article preparation can proceed while those decisions wait.
 
 | Article | Reader discovery | Useful next evidence |
 | --- | --- | --- |
@@ -38,4 +38,4 @@ Prepare one complete illustrated Raghurajpur preview first, using the existing d
 
 Ahimanikya Satapathy remains the human owner and publication authority. No new appointments, outreach, costs or due dates are assigned by this plan. Local voices that require contact stay linked to the existing [fieldwork pack](../../../specs/tourism-fieldwork/index.md) and [Founder TODO](../../../specs/founder-todo.md); desk research and preview preparation can proceed independently when taken up.
 
-[Push approval and merge status](../../../records/tourism-reading-approval-2026-10-06.json).
+[Repository approval](../../../records/tourism-reading-approval-2026-10-06.json).

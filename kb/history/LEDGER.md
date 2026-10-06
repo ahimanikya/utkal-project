@@ -1042,3 +1042,7 @@ The Founder accepted six tourism reading drafts for the project repository and a
 ## UTP-HIS-0246 · The push and merge distinction is retained
 
 The assistant initially read the Founder’s push instruction as permission to merge. Automatic approval review rejected that interpretation before execution. The six articles and next plan are on the review branch; merging requires explicit confirmation. This corrects the merge scope implied by UTP-HIS-0245.
+
+## UTP-HIS-0247 · The six-story collection receives explicit merge approval
+
+The Founder explicitly approved merging PR138 into main. The six reading articles and next editorial plan can now join the project repository; illustrated website preparation and deferred field arrangements remain separate.

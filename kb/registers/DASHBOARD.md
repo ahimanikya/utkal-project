@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a389414685b55434bdefdabef1d424bda3b990f8ffbd300e0f1423ede386e579`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `acaf8b2632cd2052da39a0de1c62787b4f7e57c6f5bbd44db0a397d96999fa4e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -189,8 +189,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-174 · Specify tourism opportunities website section | proposed | concept | Ahimanikya Satapathy | Define public scheme explanations and reviewed experience links for a later website batch. | — |
 | UTP-WORK-175 · Prepare authorized engagement and outcome review | proposed | concept | Ahimanikya Satapathy | Prepare recipient-specific discussion pack and a measurement plan for Founder review. | — |
 | UTP-WORK-176 · Approved Odisha Roots cultural story integration | completed | approved | Ahimanikya Satapathy | Push and integrate the approved repository edition; retain targeted archival follow-ups. Website publication is separate. | — |
-| UTP-WORK-180 · Write museum, inscription and craft articles from existing tourism research | completed | approved | Ahimanikya Satapathy | Research drafting and branch push accepted; PR138 merge awaits explicit Founder confirmation following automatic approval review. The next editorial plan is recorded in the collection. | — |
-| UTP-WORK-181 · Write Tarakasi, Jobra and Raghurajpur reading articles | completed | approved | Ahimanikya Satapathy | Research drafting and branch push accepted; PR138 merge awaits explicit Founder confirmation following automatic approval review. The next editorial plan is recorded in the collection. | — |
+| UTP-WORK-180 · Write museum, inscription and craft articles from existing tourism research | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
+| UTP-WORK-181 · Write Tarakasi, Jobra and Raghurajpur reading articles | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
 
 ## Pending human review and decisions
 
@@ -464,6 +464,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-210 · Defer field-pilot decisions and continue research articles | recorded_direction | Ahimanikya Satapathy | Add Founder field-pilot actions to the KB TODO list and continue sourced research and article drafting. No new outreach, expenditure, appointments or website publication. |
 | UTP-DEC-211 · Continue the tourism reading collection with three more subjects | recorded_direction | Ahimanikya Satapathy | Continue the proposed Tarakasi, Maritime Museum and Raghurajpur research/article batch. Extend the existing draft PR; field actions remain deferred. |
 | UTP-DEC-212 · Accept pushing the six tourism articles and plan the next batch | approved | Ahimanikya Satapathy | Push the six research article drafts and next editorial plan to the review branch. Automatic approval review rejected interpreting this instruction as merge authorization; explicit main-branch merge approval remains pending. |
+| UTP-DEC-213 · Explicitly approve merging PR138 into main | approved | Ahimanikya Satapathy | Direct reply to the question May I merge PR #138 into `main`? Authorizes the six-story research collection, deferred TODOs and next editorial plan to merge into main after checks. No website article release or field commitments. |
 
 ## Reviews
 
@@ -727,7 +728,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-238 | 2026-10-06T01:48:10.118217+00:00 | Recorded Founder approval of PR124 and corrected the generated editorial index freshness failure before merge. | Merge after passing checks; official guidance verification and candidate audit are the next ready tasks. |
 | UTP-EVT-239 | 2026-10-06T02:48:37.224938+00:00 | Reviewed official event/capital guidance, traced the tourism incentive portal to GO-SWIFT, reused KB evidence for 22 leads and prepared six/20-experience budget scenarios. Portal workflow and field confirmation remain open. | Review candidate pack; resolve MICE workflow and agree a local coordinator, shortlist and funding before outreach or spending. |
 | UTP-EVT-241 | 2026-10-06T04:04:09.823821+00:00 | Recorded Founder approval of PR135. Desk shortlist and budget-document tasks completed; MICE application workflow remains an open verification task. | Merge after passing checks; fieldwork requires actual coordinator, hosts and funding decisions. |
 | UTP-EVT-242 | 2026-10-06T05:00:25.526901+00:00 | Recorded Founder acceptance of four cultural investigations and prepared integration on current main. Linked Pattachitra context retained; source limitations preserved. No website deployment. | Push approved repository candidate and verify integration. |
@@ -737,6 +737,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-246 | 2026-10-06T06:58:42.265163+00:00 | Extended the reading collection to six with Tarakasi, Jobra and Raghurajpur; preserved claim provenance and pending local evidence. | Founder editorial review and documentary media selection. |
 | UTP-EVT-247 | 2026-10-06T08:03:16.054405+00:00 | Recorded Founder acceptance of PR138 and documented the next editorial plan. Research article preparation is complete; field commitments remain deferred. | Merge after final checks; use the six-story collection for the next editorial sequence. |
 | UTP-EVT-248 | 2026-10-06T08:07:12.894128+00:00 | Automatic approval review rejected the proposed PR138 merge: the user instruction authorized branch push but was not explicit about merging into main. No merge command ran. Corrected current approval scope; prior proposed integration language must not be treated as merge evidence. | Obtain explicit Founder merge confirmation; keep the research and next plan pushed on the review branch. |
+| UTP-EVT-249 | 2026-10-06T08:10:41.340486+00:00 | Founder answered Approved to the explicit request to merge PR138 into main. Previous merge-permission blocker is resolved; no merge execution claimed by this record. | Merge after final checks and confirm GitHub merge result. |
 
 ## Deferred extensions
 

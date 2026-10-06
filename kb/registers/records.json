@@ -5243,7 +5243,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-210",
-      "next_action": "Research drafting and branch push accepted; PR138 merge awaits explicit Founder confirmation following automatic approval review. The next editorial plan is recorded in the collection.",
+      "next_action": "Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5262,7 +5262,8 @@
       "refs": [
         "UTP-DEC-210",
         "UTP-REV-149",
-        "UTP-DEC-212"
+        "UTP-DEC-212",
+        "UTP-DEC-213"
       ],
       "evidence": [
         "specs/founder-todo.md",
@@ -5281,7 +5282,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-211",
-      "next_action": "Research drafting and branch push accepted; PR138 merge awaits explicit Founder confirmation following automatic approval review. The next editorial plan is recorded in the collection.",
+      "next_action": "Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5301,7 +5302,8 @@
         "UTP-DEC-211",
         "UTP-REV-150",
         "UTP-WORK-180",
-        "UTP-DEC-212"
+        "UTP-DEC-212",
+        "UTP-DEC-213"
       ],
       "evidence": [
         "research/stories/narratives/tourism-reading-collection.md",
@@ -9522,6 +9524,27 @@
       "refs": [
         "UTP-WORK-180",
         "UTP-WORK-181"
+      ],
+      "evidence": [
+        "records/tourism-reading-approval-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-213",
+      "title": "Explicitly approve merging PR138 into main",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Direct reply to the question May I merge PR #138 into `main`? Authorizes the six-story research collection, deferred TODOs and next editorial plan to merge into main after checks. No website article release or field commitments.",
+      "recorded_at": "2026-10-06T08:10:41.340486+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-180",
+        "UTP-WORK-181",
+        "UTP-DEC-212"
       ],
       "evidence": [
         "records/tourism-reading-approval-2026-10-06.json"
