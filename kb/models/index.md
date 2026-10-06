@@ -11,3 +11,5 @@ These are content models inside the project KB, not repository configuration or 
 - [Personal reminders, import choices and portable day selection](journey-preparation.md).
 
 - [Dated local-confirmation intake](local-confirmation.md) — claim, scope, evidence, permission and human decision.
+
+- [Tourism experience record template](tourism-experience-record.md) — local delivery, evidence, consent and readiness.

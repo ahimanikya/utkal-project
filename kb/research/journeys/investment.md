@@ -51,3 +51,7 @@ IPICOL and Industries Department project-level implementation definitions and li
 [^investment-survey-full-2026]: [Odisha Economic Survey 2025–26, section 5.1.3](https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf)
 
 [^investment-survey-summary-2026]: [Odisha Economic Survey 2025–26, executive summary: industrial investment and capital outlay](https://pc.odisha.gov.in/sites/default/files/2026-02/ES-Highlights%20and%20Executive%20Summary%202026%20Web%20Upload.pdf)
+
+## Tourism application evidence
+
+The [tourism policy opportunity brief](../collections/tourism-policy-opportunity.md) tracks the new portal announcement and guidance gaps. Keep tourism incentive applications, sanctions, disbursements and operating outcomes separate, following the stage distinctions above. The proposed [experience pilot](../../specs/tourism-experience-pilot.md) tests local delivery; it is not an investment or subsidy award.

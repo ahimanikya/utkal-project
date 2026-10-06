@@ -13,3 +13,5 @@ Follow a subject across Odisha’s places, people and evidence. Each page keeps 
 [Odisha in the world](odisha-and-world.md) · [Religion and spirituality](religion-and-spirituality.md) — research entrances across the stable subjects.
 
 - [Global Connections: Indian city comparison](global-connections.md)
+
+- [Tourism policy opportunity evidence](tourism-policy-opportunity.md) — Travel Bazaar source brief and official guidance gaps.

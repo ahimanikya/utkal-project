@@ -35,3 +35,7 @@ For each connection retain Odisha place, counterpart place/country, relationship
 The selective comparison is not a national ranking or exhaustive current census. A historical agreement is not proof of activity. Unknown is not zero. Current website scope includes this section; search indexing remains held under the existing separate search-publication policy. Founder's approval of the direction does not claim an independent factual review.
 
 [Research and evidence](../research/collections/global-connections.md) · [Canonical data](../research/references/data/global-connections.json)
+
+## Related tourism pilot
+
+The [tourism experience pilot](tourism-experience-pilot.md) offers a practical local foundation for future cultural exchanges. Reuse its verified experience records when designing a reciprocal visit. Any city counterpart, institutional involvement or external outreach keeps the authorization and consent requirements above.
