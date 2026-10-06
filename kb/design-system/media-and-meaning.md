@@ -103,3 +103,7 @@ The Founder's principle is recorded as design direction. The detailed patterns h
 The place-story preview uses three documentary views for three purposes: a maker’s doorway invites, a brush close-up explains how to look, and a landscape introduces visit planning. A photograph may precede its paragraph when the words point to visible details. Keep the composition intact, add a short dated caption, and retain the original creator and licence in end credits. Reuse a shared asset record across craft and place pages rather than maintaining duplicate rights metadata.
 
 Longer sections may use several paragraphs and a small set of onward reading links. Preserve the place identity, section anchors and saved-journey export when enriching the story. This is one application for review, not a requirement that every destination use the same number of pictures or chapters.
+
+## Tarakasi preview application · 6 October 2026
+
+A documentary photograph and an explanatory drawing can answer different questions. The object photograph invites close looking; a simple frame-and-infill drawing isolates the structural relationship. Keep that drawing explicitly separate from a traditional motif or workshop recipe. A dated festival photograph can widen the cultural setting without implying present-day access. Missing licensed maker photography remains an evidence gap; illustration does not fill it with an invented documentary scene.

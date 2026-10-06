@@ -6,16 +6,18 @@ import json,hashlib,xml.etree.ElementTree as ET
 site=Path(__file__).resolve().parents[1];origin='https://utkalproject.org'
 selection=json.loads((site/'editions/search-candidate.json').read_text());selected=[p['route'] for p in selection['pages'] if p['decision']=='proposed']
 class Page(HTMLParser):
- def __init__(self):super().__init__();self.title='';self.intitle=False;self.meta={};self.canonical=[];self.links=[];self.ids=set();self.h1=0
+ def __init__(self):super().__init__();self.title='';self.in_head=False;self.intitle=False;self.meta={};self.canonical=[];self.links=[];self.ids=set();self.h1=0
  def handle_starttag(self,t,a):
   a=dict(a)
-  if t=='title':self.intitle=True
+  if t=='head':self.in_head=True
+  if t=='title':self.intitle=self.in_head
   if t=='h1':self.h1+=1
   if a.get('id'):self.ids.add(a['id'])
   if t=='meta':self.meta.setdefault(a.get('name',a.get('property')),[]).append(a.get('content',''))
   if t=='link' and a.get('rel')=='canonical':self.canonical.append(a.get('href'))
   if t=='a' and a.get('href'):self.links.append(a['href'])
  def handle_endtag(self,t):
+  if t=='head':self.in_head=False
   if t=='title':self.intitle=False
  def handle_data(self,d):
   if self.intitle:self.title+=d

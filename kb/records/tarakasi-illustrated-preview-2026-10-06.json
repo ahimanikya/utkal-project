@@ -1,0 +1,96 @@
+{
+  "recorded_at": "2026-10-06T11:04:55.486526+00:00",
+  "status": "preview_for_founder_review",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "ok let's do that",
+  "route": "/visit/experiences/cuttack-filigree/",
+  "saved_identity": "experience:cuttack-filigree",
+  "reuse": [
+    "research/stories/narratives/cuttack-tarakasi-structure-in-silver.md",
+    "research/sources/tarakasi-dsource-process.md",
+    "research/destinations/central-details.json",
+    "research/culture/cuttack-tarakasi.md"
+  ],
+  "sources": {
+    "tarakasi-dsource-process": {
+      "inspection": "Credited text re-read 6 October 2026; sketch, frame/infill and finishing only.",
+      "url": "https://www.dsource.in/resource/silver-filigree-cuttack-orissa/making-process",
+      "limits": "Unrelated spam links ignored; images not reused because no sufficiently clear reuse licence was established. No whole-site integrity claim."
+    },
+    "tarakasi-chandi-medha-photo": {
+      "title": "Chaudhury Bazar Chandi Medha · photograph and creator description",
+      "url": "https://commons.wikimedia.org/wiki/File:Chaudhury_Bazar_Chandi_Medha.jpg",
+      "review": "Creator’s own-work description, 26 September 2009 date and CC BY-SA 3.0 licence inspected. Supports this depicted setting only; not present festival access, material assay or attribution of every decorative technique.",
+      "checked_on": "2026-10-06"
+    }
+  },
+  "media": {
+    "tarakasi-wirework": {
+      "src": "/images/crafts/tarakasi-wirework.webp",
+      "width": 1600,
+      "height": 500,
+      "creator": "Government of Odisha",
+      "source": "https://commons.wikimedia.org/wiki/File:Silver_Filigree_Work.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Silver_Filigree_Work.jpg",
+      "original_sha256": "10110235baf515a71b366f96dc534131f83d05187c1d36202b9fabf8c628d09b",
+      "sha256": "5f21c20e4183b411134166d740795b4a3de5665730074c836ae3e61790f596a6",
+      "changes": "Aspect-preserving resize and WebP compression; no crop or recolouring. Reuse and adaptations retain the source licence.",
+      "checked_on": "2026-10-06",
+      "alt": "Decorative filigree objects with circular openwork patterns against a black background.",
+      "caption": "Filigree work of Cuttack · Government of Odisha, via Bhubaneswar.me and Wikimedia Commons; catalogued 2018.",
+      "fit": "contain"
+    },
+    "tarakasi-chandi-medha": {
+      "src": "/images/crafts/tarakasi-chandi-medha.webp",
+      "width": 1600,
+      "height": 1074,
+      "creator": "ଆଶୁତୋଷ କର",
+      "source": "https://commons.wikimedia.org/wiki/File:Chaudhury_Bazar_Chandi_Medha.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Chaudhury_Bazar_Chandi_Medha.jpg",
+      "original_sha256": "cddd0f53690e06cbb30b25b535e3fa74b116ee1d6dcbd08fa99553bacc5a0efb",
+      "sha256": "7d88928c60dade9777270447fde32859034dba8e5c8c98349c3119d5985d0791",
+      "changes": "Aspect-preserving resize and WebP compression; no crop or recolouring. Reuse and adaptations retain the source licence.",
+      "checked_on": "2026-10-06",
+      "alt": "Durga Puja figures framed by ornate metal decoration at Chaudhury Bazar in Cuttack.",
+      "caption": "Chaudhury Bazar Chandi Medha, Cuttack · ଆଶୁତୋଷ କର, 26 September 2009.",
+      "fit": "contain"
+    }
+  },
+  "visual_inspection": "Both downloaded originals inspected before reuse. No names, techniques beyond the source description, or metal purity inferred from pixels.",
+  "diagram": {
+    "path": "projects/site/src/components/FiligreeStructure.astro",
+    "creator": "Original Utkal explanatory drawing by current AI assistant under Ahimanikya Satapathy’s creative direction",
+    "scope": "Simplified thick frame and finer infill, not a copied traditional motif, process photograph or workshop instruction."
+  },
+  "unused_candidates": [
+    "Historical Cuttack goldsmith photograph on Commons: file record uses an unknown author and secondary source; not used as proof of a particular Tarakasi workshop or lineage."
+  ],
+  "limitations": [
+    "No new contemporary maker photograph with a sufficient licence and identification was secured.",
+    "No workshop, seller, fee or current festival arrangement verified.",
+    "No independent local or specialist review.",
+    "New preview is not merged or deployed; Jobra illustration remains the next article."
+  ],
+  "validation": {
+    "full_build": "140 pages passed",
+    "full_tests": "450 passed",
+    "coastal_build": "127 pages passed",
+    "coastal_tests": "87 passed",
+    "knowledge": "Authority/register/configuration tests, KB links, catalogue, research map, imported research and frozen workbench passed.",
+    "browser": {
+      "desktop": "1440 × 1000 cover and explanatory chapter inspected; no horizontal overflow.",
+      "mobile": "390 × 844 reading and festival photo inspected; SVG labels changed to HTML labels and rechecked at readable size. No horizontal overflow; all three photos loaded.",
+      "saved_journey": "Tarakasi save action became pressed; My Journey retained the earlier Raghurajpur idea and added Follow a silver thread as the second idea.",
+      "portable_exports": "All new paragraphs and source URLs asserted in HTML and text tour books."
+    },
+    "scope": "AI self-review and automated checks, not an independent factual review.",
+    "audits": "508/508 coastal page checks, discovery, launch-readiness and publication/search shortlist passed.",
+    "resolved_finding": "Coastal and discovery audits initially treated an accessible SVG title as a document title. Scoped document-title collection to the HTML head in three audit parsers; added a regression test preserving missing/duplicate document-title detection."
+  }
+}
