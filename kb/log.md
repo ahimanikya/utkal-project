@@ -615,3 +615,7 @@ Recovered a CGWB annex scan and IBM inspection; linked a committee account of Ni
 ## 6 October 2026 · Sugar production and reporting periods
 
 [Research receipt](records/sugar-output-2026-10-05.json): Sugar table captured provisionally; original company report preserves a partial-year boundary and going-concern sale. No website release.
+
+## 6 October 2026 · Dhenkanal buyer and transaction stages
+
+[Research receipt](records/sugar-ownership-2026-10-06.json): Historical buyer identified through primary transaction records; current operation and production periods remain unverified. No website release.

@@ -21739,7 +21739,10 @@
       "source_ids": [
         "rice-oas2024",
         "food-aska-status",
-        "food-sakthi-ar2023"
+        "food-sakthi-ar2023",
+        "food-sakthi-sale2022",
+        "food-sakthi-q2-2022",
+        "food-ipl-bta"
       ]
     },
     {
@@ -21759,6 +21762,54 @@
         "rice-oas2024",
         "food-aska-status",
         "food-sakthi-ar2023"
+      ]
+    },
+    {
+      "id": "sources/food-sakthi-sale2022",
+      "title": "Sakthi Sugars: completion of Dhenkanal sale, 12 November 2022",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-sakthi-sale2022.md",
+      "project_path": "kb/research/sources/food-sakthi-sale2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy"
+      ],
+      "source_ids": [
+        "food-sakthi-sale2022"
+      ]
+    },
+    {
+      "id": "sources/food-sakthi-q2-2022",
+      "title": "Sakthi Sugars: September 2022 results released 14 November 2022",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-sakthi-q2-2022.md",
+      "project_path": "kb/research/sources/food-sakthi-q2-2022.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy"
+      ],
+      "source_ids": [
+        "food-sakthi-q2-2022"
+      ]
+    },
+    {
+      "id": "sources/food-ipl-bta",
+      "title": "Indian Potash: Dhenkanal business-transfer announcement",
+      "kind": "Source",
+      "layer": "research_concept",
+      "source_path": "sources/food-ipl-bta.md",
+      "project_path": "kb/research/sources/food-ipl-bta.md",
+      "project_counterpart_present": false,
+      "copy_state": "source_extension_pending_reconciliation",
+      "subject_ids": [
+        "economy"
+      ],
+      "source_ids": [
+        "food-ipl-bta"
       ]
     }
   ],
@@ -22492,7 +22543,10 @@
         "economy/sugar-production.md",
         "stories/sugar-output-recovery.md",
         "sources/food-aska-status.md",
-        "sources/food-sakthi-ar2023.md"
+        "sources/food-sakthi-ar2023.md",
+        "sources/food-sakthi-sale2022.md",
+        "sources/food-sakthi-q2-2022.md",
+        "sources/food-ipl-bta.md"
       ],
       "project_records": [],
       "remaining_scope": "Build comparable exports, port cargo, manufacturing, agriculture and fisheries series; separate value, physical output and capacity.",
@@ -23437,8 +23491,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1414,
-    "updated_at": "2026-10-06T00:01:09.592924+00:00",
+    "records_mapped": 1417,
+    "updated_at": "2026-10-06T01:07:01.079096+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -24221,6 +24275,11 @@
       "run_id": "2026-10-05-sugar-output",
       "at": "2026-10-06T00:01:09.592924+00:00",
       "scope": "Sugar factory output and narrative; existing agriculture-source identity extended."
+    },
+    {
+      "run_id": "2026-10-06-sugar-ownership",
+      "at": "2026-10-06T01:07:01.079096+00:00",
+      "scope": "Dhenkanal transaction stages; existing plant identity reused. Seller publications remain one corporate lineage."
     }
   ]
 }

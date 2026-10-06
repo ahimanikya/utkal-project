@@ -331,3 +331,7 @@ The Kalamata comparison is draft historical research. Specification requirements
 ## Sugar-output checkpoint · 2026-10-06
 
 Sugar chart/card is research-only pending original state-table review. Company partial-year quantities cannot be annualised; disputed recovery rates and current-owner inferences excluded.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+Historical transaction checkpoint ready for editorial review. Buyer identity does not clear the provisional output card, current business access or land availability. No website release.

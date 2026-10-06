@@ -57,3 +57,7 @@ The [legacy report](https://old.omfed.com/annual-report13-14.pdf) was recovered 
 ## Sugar-output checkpoint · 2026-10-06
 
 [Sugar factories](sugar-production.md) add a provisional eleven-year physical-output history and separate company sale-period quantities. OMFED product volumes and rice-mill throughput remain unknown; sugar does not fill those product-specific gaps.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+[Dhenkanal transaction stages](sugar-production.md) now distinguish the historical buyer from the still-unresolved successor production series.

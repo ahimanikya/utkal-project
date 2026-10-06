@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-06T00:01:09.592924+00:00",
+  "updated_at": "2026-10-06T01:07:01.079096+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9806,6 +9806,72 @@
         }
       ],
       "note": "Research capture, not a weekly revision audit. Existing OAS lineage reused; failed routes never labelled unchanged."
+    },
+    {
+      "run_id": "2026-10-06-sugar-ownership",
+      "at": "2026-10-06T01:07:01.079096+00:00",
+      "source_checks": [
+        {
+          "source_id": "food-sakthi-sale2022",
+          "status": "available",
+          "scope": "Public document postback gridAnnounce$ctl222$lnkNews at retrieval. PDF returned with text/html content type; PDF signature and one-page facsimile verified. Execution/registration date 11 November; agreement letter referenced as 27 June, not a newly reviewed contract.",
+          "locator": "Completion of Sale of Dhenkanal Unit to IPL; one-page letter SL/SE/3382/2022",
+          "local_capture": "work/sugar-ownership/completion.response",
+          "sha256": "425113f86dfd30e03bc0d807c424e5c769bbfcde845526679747814cdb534a69"
+        },
+        {
+          "source_id": "food-sakthi-q2-2022",
+          "status": "available",
+          "scope": "PDF p.3 visually checked. Sale is a subsequent event after 30 September reporting date, naming Indian Potash and Rs 13,410 lakh consideration. Other company-wide financial tables not adopted.",
+          "locator": "PDF p.3, Notes to Financial Results, note 3; p.4 note 6",
+          "local_capture": "work/sugar-ownership/seller-result.pdf",
+          "sha256": "6fb3a7d80136291f9ea6215dc94546a0c71b8617b1dff38aaf7374b74760b455"
+        },
+        {
+          "source_id": "food-ipl-bta",
+          "status": "available",
+          "scope": "Undated agreement-stage announcement explicitly conditional on secured lenders’ NOC. Search-engine freshness is not a publication date; no actual annual output or current owner claim.",
+          "locator": "YET ANOTHER FEATHER IN IPL’S CAP, opening paragraph"
+        },
+        {
+          "source_id": "food-sakthi-ar2023",
+          "status": "saved_capture_reused",
+          "scope": "Printed pp.15–16 previously checked; local text search confirms fiscal and sale-period wording, no new download."
+        },
+        {
+          "url": "https://indianpotash.org/performance.html",
+          "status": "available_no_target_report_identified",
+          "scope": "Primary HTML inspected for annual-report links; no current production assertion."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.indianpotash.com",
+          "status": "unavailable",
+          "reason": "Initial domain lead returned internal error; official .org site subsequently located."
+        },
+        {
+          "url": "https://indianpotash.org/accounts.html",
+          "status": "unavailable",
+          "reason": "Reader internal error; actual performance/archive links recovered separately."
+        },
+        {
+          "url": "https://sakthisugars.com/Upload_CompanyResult/UFR30092022.pdf",
+          "status": "unavailable",
+          "reason": "Web screenshot cache miss. Direct PDF download and local page rendering succeeded separately."
+        },
+        {
+          "url": "https://icro.npcindia.gov.in/wp-content/uploads/2024/11/FINAL-Newsletter-September-2024.pdf",
+          "status": "unavailable",
+          "reason": "Primary PDF reader returned HTTP 502; indexed discovery lead only."
+        },
+        {
+          "url": "https://sakthisugars.com/investor/AnnouncementResult_Final.aspx",
+          "status": "unavailable",
+          "reason": "Agreement document postback returned HTML rather than requested PDF; no agreement terms adopted. Completion document postback succeeded separately."
+        }
+      ],
+      "note": "Historical transaction research, not a weekly release check. Failed routes not called unchanged."
     }
   ]
 }

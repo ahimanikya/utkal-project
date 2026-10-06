@@ -39,6 +39,12 @@ if 'sugar_factory_capture' in x:
   yi=years.index(c['period']);ci=cols.index(c['column']);expected=t['sugar_produced_thousand_tonnes'][yi][ci]/t['cane_crushed_thousand_tonnes'][yi][ci]*100
   check(math.isclose(c['recomputed_from_listed_quantities'],expected,abs_tol=1e-9),'Recovery diagnostic drift')
  check(x['sugar_ownership_event']['current_owner'] is None and not x['sugar_ownership_event']['closure_inferred'],'Sale promoted to current ownership or closure')
+ if x['sugar_ownership_event'].get('buyer_verified'):
+  e=x['sugar_ownership_event'];catalog=json.loads((D/'source-catalog.json').read_text())
+  check(bool(e.get('buyer_at_transaction')) and all(i in catalog for i in e.get('buyer_source_ids',[])) and bool(e.get('buyer_source_ids')),'Historical buyer lacks source references')
+  check(e['event_date'] < e['completion_notice_date'],'Sale event and later notice dates collapsed')
+  check(e.get('current_operating_status') is None and e.get('deed_independently_reviewed') is False,'Seller disclosure promoted to current operation or independent deed review')
+  check(bool(x.get('sugar_ownership_history')),'Prior unknown-buyer checkpoint lost')
  company=set(x['sugar_company_observation_ids'])
  check(not any(company & set(c['inputs']) for c in cal.values()),'Company sale-period data spliced into annual comparison')
  check(obs['food-sugar-aska-sugar_produced-2016-17']['publication_readiness']=='hold_conflict','Aska discrepancy hidden')

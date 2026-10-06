@@ -24,3 +24,7 @@ human_review_claimed: false
 Selected years shown; the [full eleven-year history](../economy/sugar-production.md) retains the intervening falls and recoveries. Source: Odisha Agriculture Statistics2023–24, printed p.109/table29, publisher-indexed extraction. Exact year boundaries and original page review remain open. Conflicting recovery percentages are excluded. Factory output is not sales, profit or farmer income.
 
 [Processing register](../references/data/food-processing-series.json) supplies values, arithmetic and source limits. This card is not cleared for public release.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+The historical Dhenkanal buyer is documented in the [updated study](../economy/sugar-production.md). This does not resolve the state table’s year definitions or clear this provisional card for publication.

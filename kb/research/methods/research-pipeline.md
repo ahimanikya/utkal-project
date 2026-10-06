@@ -385,3 +385,7 @@ RES-070 attempt15 saves the bounded Kalamata comparison. Remaining document and 
 ## Sugar-output checkpoint · 2026-10-06
 
 RES-017 attempt7 saves provisional sugar output and original company sale-period quantities. Next: Dhenkanal buyer and reporting-period reconciliation; OAS page-image and recovery checks retry11October.
+
+## Dhenkanal transaction checkpoint · 6 October 2026
+
+RES-017 attempt 8 resolves historical buyer and separates approval/agreement/completion. Continue independent rice-mill output research; successor-document and period holds return on 11 October.

@@ -313,7 +313,7 @@
     "tender_equals_award": false,
     "crop_equals_factory_output": false
   },
-  "next_step": "Resume RES-017 with Dhenkanal sugar-factory buyer/ownership and fiscal-versus-crushing-year reconciliation using the saved2022–23 company report. Retain the OAS series as provisional; original p.109 and recovery/Aska2016 conflict retries on11October. Do not splice the company partial-year sale-period quantities into the state table. Dairy and rice-mill gaps remain.",
+  "next_step": "Continue RES-017 with rice-mill processed output, using the existing rice-economy and food-processing captures before browsing. Dhenkanal successor production, buyer annual-report route and fiscal/crushing-year boundaries remain unresolved; retry their original-document recovery on 11 October alongside the saved state-table hold. Do not annualise partial company quantities.",
   "capture_history": [
     {
       "run_id": "2026-10-05-sugar-output",
@@ -404,6 +404,16 @@
         "food-sugar-grand_total-sugar_produced-change-2022-23-2023-24",
         "food-sugar-grand_total-sugar_produced-change-2013-14-2023-24"
       ]
+    },
+    {
+      "run_id": "2026-10-06-sugar-ownership",
+      "at": "2026-10-06T01:07:01.079096+00:00",
+      "new_observation_ids": [],
+      "calculation_ids": [],
+      "resolved_fields": [
+        "sugar_ownership_event.buyer_at_transaction"
+      ],
+      "scope": "Historical transaction identity only; no new annual physical series."
     }
   ],
   "sugar_factory_capture": {
@@ -1202,13 +1212,24 @@
     },
     {
       "id": "sugar-dhenkanal-period-ownership",
-      "status": "hold_scope",
+      "status": "partially_resolved_scope_hold",
       "sources": [
         "rice-oas2024",
-        "food-sakthi-ar2023"
+        "food-sakthi-ar2023",
+        "food-sakthi-sale2022",
+        "food-sakthi-q2-2022"
       ],
-      "reason": "OAS2021–22 cane285.700/sugar26.980 thousand tonnes differ from fiscal-year company272344/25077 tonnes. Company2022–23 is only through sale. Plant versus company, fiscal versus crushing-year basis and successor owner require reconciliation.",
-      "retry_after": "2026-10-11"
+      "reason": "Historical buyer resolved as Indian Potash. Original OAS year boundaries, seller fiscal quantities versus plant production, and successor quantities remain unreconciled. Current ownership and operation not established.",
+      "retry_after": "2026-10-11",
+      "history": [
+        {
+          "at": "2026-10-06T00:01:09.592924+00:00",
+          "reason": "OAS2021–22 cane285.700/sugar26.980 thousand tonnes differ from fiscal-year company272344/25077 tonnes. Company2022–23 is only through sale. Plant versus company, fiscal versus crushing-year basis and successor owner require reconciliation."
+        }
+      ],
+      "resolved_fields": [
+        "buyer_at_2022_transaction"
+      ]
     }
   ],
   "sugar_ownership_event": {
@@ -1216,8 +1237,91 @@
     "locator": "printed p.16",
     "event_date": "2022-11-11",
     "stage": "company_reported_completed_going_concern_sale",
-    "buyer_verified": false,
+    "buyer_verified": true,
     "current_owner": null,
-    "closure_inferred": false
-  }
+    "closure_inferred": false,
+    "buyer_at_transaction": "Indian Potash Limited",
+    "buyer_verified_on": "2026-10-06",
+    "buyer_source_ids": [
+      "food-sakthi-sale2022",
+      "food-sakthi-q2-2022"
+    ],
+    "transaction_evidence_class": "seller_reported_execution_and_registration",
+    "deed_independently_reviewed": false,
+    "completion_notice_date": "2022-11-12",
+    "sale_consideration": {
+      "value": 13410,
+      "unit": "INR lakh",
+      "price_basis": "reported nominal transaction consideration",
+      "period": "2022-11-11",
+      "geography": "Dhenkanal sugar and distillery units, Odisha",
+      "source_id": "food-sakthi-q2-2022",
+      "locator": "PDF p.3 note 3",
+      "project_stage": "reported completed acquisition; not capital formation"
+    },
+    "current_operating_status": null
+  },
+  "sugar_ownership_history": [
+    {
+      "recorded_at": "2026-10-06T00:01:09.592924+00:00",
+      "state": {
+        "source_id": "food-sakthi-ar2023",
+        "locator": "printed p.16",
+        "event_date": "2022-11-11",
+        "stage": "company_reported_completed_going_concern_sale",
+        "buyer_verified": false,
+        "current_owner": null,
+        "closure_inferred": false
+      }
+    }
+  ],
+  "sugar_transaction_stages": [
+    {
+      "date": "2022-05-27",
+      "stage": "shareholder_approval",
+      "source_id": "food-sakthi-ar2023",
+      "locator": "printed p.16"
+    },
+    {
+      "date": "2022-06-27",
+      "stage": "agreement_letter_referenced_not_contract_review",
+      "source_id": "food-sakthi-sale2022",
+      "locator": "reference and body, p.1"
+    },
+    {
+      "date": null,
+      "stage": "buyer_announcement_conditional_on_lender_NOC",
+      "source_id": "food-ipl-bta",
+      "locator": "opening paragraph"
+    },
+    {
+      "date": "2022-11-11",
+      "stage": "seller_reported_execution_and_registration",
+      "source_id": "food-sakthi-sale2022",
+      "locator": "body, p.1"
+    },
+    {
+      "date": "2022-11-12",
+      "stage": "completion_notice",
+      "source_id": "food-sakthi-sale2022",
+      "locator": "letter date, p.1"
+    }
+  ],
+  "successor_evidence_leads": [
+    {
+      "url": "https://icro.npcindia.gov.in/wp-content/uploads/2024/11/FINAL-Newsletter-September-2024.pdf",
+      "publisher": "ICRO / National Productivity Council",
+      "publication_period": "September 2024",
+      "locator": "indexed printed p.14",
+      "status": "indexed_lead_original_fetch_unavailable",
+      "scope": "Indexed account includes cane input and recovery, but first-year boundaries and source methods unresolved. No values adopted into atlas.",
+      "retry_after": "2026-10-11"
+    },
+    {
+      "url": "https://indianpotash.org/performance.html",
+      "status": "no_target_report_identified_in_bounded_primary_search",
+      "scope": "Retrieved HTML lists older annual reports, not an established 2022–23 source route; third-party copies remain discovery leads only.",
+      "retry_after": "2026-10-11"
+    }
+  ]
 }
