@@ -436,3 +436,7 @@ Added four bounded case studies, three source records and a reusable evidence mo
 ## 2026-10-03 · Mining evidence follow-up
 
 Recovered a CGWB annex scan and IBM inspection; linked a committee account of Niyamgiri decisions and matched the Bharatpur incident in a ministry agenda. Source roles and unresolved sample totals remain explicit. Four new source records; existing956 atlas observations unchanged. RES-054 remains in progress; no public website story publication.
+
+## 6 October 2026 UTC · Approved cultural story integration
+
+The Founder accepted the [four Odisha Roots investigations](stories/narratives/odisha-roots-four-investigations.md) for repository push. Included the preceding Pattachitra draft and its inspected reel capture as linked context. Each story retains source notes and research limitations. Newer main-branch work is preserved; unrelated local changes are excluded. [Approval and integration record](../records/cultural-roots-repository-approval.json). No website deployment.

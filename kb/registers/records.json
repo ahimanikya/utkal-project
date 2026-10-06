@@ -4846,7 +4846,7 @@
         "UTP-DEC-204",
         "UTP-REV-144",
         "UTP-DEC-206",
-        "UTP-DEC-207"
+        "UTP-DEC-209"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
@@ -4974,7 +4974,7 @@
         "UTP-WORK-165",
         "UTP-WORK-167",
         "UTP-WORK-168",
-        "UTP-DEC-207",
+        "UTP-DEC-209",
         "UTP-REV-148",
         "UTP-DEC-208"
       ],
@@ -5205,6 +5205,29 @@
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
         "models/tourism-experience-record.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-176",
+      "title": "Approved Odisha Roots cultural story integration",
+      "category": "research_and_editorial",
+      "status": "completed",
+      "readiness": "approved",
+      "human_owner": "Ahimanikya Satapathy",
+      "contributor": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "authorization": "UTP-DEC-207",
+      "next_action": "Push and integrate the approved repository edition; retain targeted archival follow-ups. Website publication is separate.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-207",
+        "UTP-REV-145"
+      ],
+      "evidence": [
+        "records/cultural-roots-repository-approval.json",
+        "records/cultural-roots-four-stories-review.json"
       ]
     }
   ],
@@ -9304,7 +9327,7 @@
       ]
     },
     {
-      "id": "UTP-DEC-207",
+      "id": "UTP-DEC-209",
       "title": "Prepare six-experience fieldwork pack",
       "status": "recorded_direction",
       "actor": {
@@ -9336,12 +9359,31 @@
       "recorded_at": "2026-10-06T05:42:22.477466+00:00",
       "occurred_at": null,
       "refs": [
-        "UTP-DEC-207",
+        "UTP-DEC-209",
         "UTP-WORK-169",
         "UTP-WORK-166"
       ],
       "evidence": [
         "records/tourism-fieldwork-approval-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-207",
+      "title": "Accept and push four cultural investigations",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Push them, I am good with it",
+      "scope": "Push the four accepted cultural stories and supporting records to ahimanikya/utkal-project; include linked Pattachitra draft as prerequisite context.",
+      "recorded_at": "2026-10-06T05:00:25.526901+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-176"
+      ],
+      "evidence": [
+        "records/cultural-roots-repository-approval.json"
       ]
     }
   ],
@@ -12788,10 +12830,33 @@
       "refs": [
         "UTP-WORK-169",
         "UTP-WORK-166",
-        "UTP-DEC-207"
+        "UTP-DEC-209"
       ],
       "evidence": [
         "records/tourism-fieldwork-pack-2026-10-05.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-145",
+      "title": "Cultural story source and integration review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No independent historical or language review.",
+        "Source access and original-record gaps remain documented in each story.",
+        "No website publication or image selection."
+      ],
+      "refs": [
+        "UTP-WORK-176",
+        "UTP-DEC-207"
+      ],
+      "evidence": [
+        "records/cultural-roots-repository-approval.json",
+        "records/cultural-roots-four-stories-review.json"
       ]
     }
   ],
