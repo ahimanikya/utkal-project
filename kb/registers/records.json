@@ -5311,6 +5311,39 @@
         "records/tourism-reading-followup-2026-10-06.json",
         "records/tourism-reading-approval-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-182",
+      "title": "Raghurajpur illustrated place-story preview",
+      "category": "research_and_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-214",
+      "next_action": "Founder reviews the illustrated article candidate before merge or publication.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Existing route and saved-journey identity retained.",
+        "Documentary images support the story with original credits.",
+        "Painting, dance and practical visitor context remain source bounded.",
+        "Mobile and wide-screen review plus portable journey checks recorded."
+      ],
+      "reuse_before_research": [
+        "research/stories/narratives/raghurajpur-painting-and-performance.md",
+        "research/stories/narratives/tourism-reading-followup-evidence.json",
+        "research/destinations/central-details.json",
+        "research/culture/craft-stories.json",
+        "research/food/puri-coast.json"
+      ],
+      "refs": [
+        "UTP-DEC-214",
+        "UTP-REV-151"
+      ],
+      "evidence": [
+        "records/raghurajpur-illustrated-preview-2026-10-06.json"
+      ]
     }
   ],
   "decisions": [
@@ -9549,6 +9582,25 @@
       "evidence": [
         "records/tourism-reading-approval-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-214",
+      "title": "Prepare one illustrated Raghurajpur preview",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "go ahead",
+      "scope": "Illustrate and enrich the existing Raghurajpur visitor article; review locally and prepare a pull request. No merge, deployment or field commitments.",
+      "recorded_at": "2026-10-06T10:36:27.130679+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-182"
+      ],
+      "evidence": [
+        "records/raghurajpur-illustrated-preview-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -13068,6 +13120,29 @@
       "evidence": [
         "research/stories/narratives/tourism-reading-followup-evidence.json",
         "records/tourism-reading-followup-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-151",
+      "title": "Raghurajpur illustrated preview self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No local appointment, fee, workshop opening or performance confirmed.",
+        "No independent editorial or specialist review.",
+        "No new generated imagery, paid service, outreach or booking.",
+        "Founder fieldwork TODOs remain deferred."
+      ],
+      "refs": [
+        "UTP-WORK-182",
+        "UTP-DEC-214"
+      ],
+      "evidence": [
+        "records/raghurajpur-illustrated-preview-2026-10-06.json"
       ]
     }
   ],
