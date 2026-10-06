@@ -58,3 +58,7 @@ The [evidence manifest](../../records/tourism-research-2026-10-05.json) records 
 Keep identity, guest-residency and bank documents out of this public KB. An actual applicant needs an appropriate private process, separate from our editorial records.
 
 [Desk research batch](tourism-pilot-desk-review.md) · [Experience shortlist](tourism-experience-shortlist.md) · [Capacity and budget](../../specs/tourism-pilot-capacity.md)
+
+## Application route follow up
+
+A [further read-only recheck and unsent enquiry](../../specs/tourism-fieldwork/mice-follow-up.md) preserves the unresolved MICE workflow question. No application or message has been submitted.

@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-10-06T04:56:38.255484+00:00",
+  "local_date": "2026-10-05",
+  "authorization_quote": "Sounds good, let's go",
+  "human_authority": "Ahimanikya Satapathy",
+  "actor": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "scope": "Prepare six-experience fieldwork handoff, coordinator vacancy brief, confirmation checklist, unsent introductions and departmental enquiry, editable quote/expense tracker, read-only portal recheck.",
+  "experience_ids": [
+    "UTP-EXP-B03",
+    "UTP-EXP-B01",
+    "UTP-EXP-C02",
+    "UTP-EXP-C04",
+    "UTP-EXP-P01",
+    "UTP-EXP-P02"
+  ],
+  "documents": [
+    "specs/tourism-fieldwork/coordinator.md",
+    "specs/tourism-fieldwork/cost-tracker.md",
+    "specs/tourism-fieldwork/dhauli.md",
+    "specs/tourism-fieldwork/host-confirmation.md",
+    "specs/tourism-fieldwork/index.md",
+    "specs/tourism-fieldwork/kala-bhoomi.md",
+    "specs/tourism-fieldwork/maritime-museum.md",
+    "specs/tourism-fieldwork/mice-follow-up.md",
+    "specs/tourism-fieldwork/outreach-drafts.md",
+    "specs/tourism-fieldwork/pipili.md",
+    "specs/tourism-fieldwork/raghurajpur.md",
+    "specs/tourism-fieldwork/tarakasi.md"
+  ],
+  "outreach_sent": false,
+  "coordinator_appointed": false,
+  "funding_committed": false,
+  "visits_completed": 0,
+  "portal_checks": [
+    {
+      "source_id": "OTX-S03",
+      "url": "https://odishatourism.gov.in/operational-guidelines",
+      "result": "Retrieved; rows 4 and 5 continue to link event/capital guidelines. Not an application workflow."
+    },
+    {
+      "source_id": "OTX-S09",
+      "url": "https://otiims.odisha.gov.in/sso-auth",
+      "result": "Web fetch failed; direct read timed out after 20 seconds with no HTTP response."
+    },
+    {
+      "url": "https://otiims.odisha.gov.in/",
+      "result": "Web fetch failed. No authenticated workflow inspected."
+    }
+  ],
+  "workbook": {
+    "path": "specs/tourism-fieldwork/cost-tracker.xlsx",
+    "sha256": "86b8edd07f95aeb2c0bfc9e48256f1322f595adb82c0abea2cbf8068f4bac471",
+    "scope": "Blank template with existing six-visit assumptions; no actual supplier or financial entries.",
+    "checks": {
+      "result": "pass",
+      "tests": [
+        "Estimate 59340",
+        "Selected quote rolls up",
+        "Commitments and payments separate",
+        "Remaining ceiling 56500 for 3500 commitment against 60000",
+        "Blank versus zero payment",
+        "Missing approval remains visible",
+        "Duplicate selected scope flagged",
+        "Test data cleared"
+      ],
+      "native_excel": "Not exercised; Artifact Tool recalculation and XLSX export inspected.",
+      "export_checks": "XLSX XML confirms validation rules and frozen headers; synthetic test records absent."
+    },
+    "visual_review": "All three sheets rendered and visually reviewed; budget source-link rendering corrected to plain URL.",
+    "native_excel_verification": "Not performed; calculations tested in Artifact Tool and exported XLSX checked."
+  },
+  "limitations": [
+    "MICE application route and acceptance still unverified.",
+    "No named contact or message authorized for sending.",
+    "No current host conditions, field route, appointments or supplier quotes confirmed.",
+    "Workbook formula behaviour tested in Artifact Tool; native Excel not exercised.",
+    "Private working-record location remains to be designated before sensitive intake."
+  ],
+  "validation": "Local register, catalogue, bundle/configuration, research-map, editorial-workbench checks; final check rerun after index frontmatter repair."
+}

@@ -4826,7 +4826,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant for this authorized desk batch only; no field role appointed.",
       "authorization": "UTP-DEC-204",
-      "next_action": "Verify the specific MICE application workflow and current application acceptance; official GO-SWIFT link established, OTIIMS target timed out. Scoped rules review is available.",
+      "next_action": "MICE application-route recheck still failed. Department enquiry drafted; confirm recipient and obtain sending authorization before contact. Keep task open.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -4845,7 +4845,8 @@
         "UTP-WORK-165",
         "UTP-DEC-204",
         "UTP-REV-144",
-        "UTP-DEC-206"
+        "UTP-DEC-206",
+        "UTP-DEC-207"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
@@ -4853,7 +4854,9 @@
         "models/tourism-experience-record.md",
         "records/tourism-research-2026-10-05.json",
         "research/collections/tourism-pilot-desk-review.md",
-        "records/tourism-research-approval-2026-10-05.json"
+        "records/tourism-research-approval-2026-10-05.json",
+        "records/tourism-fieldwork-pack-2026-10-05.json",
+        "specs/tourism-fieldwork/mice-follow-up.md"
       ]
     },
     {
@@ -4942,12 +4945,12 @@
       "id": "UTP-WORK-169",
       "title": "Select local shortlist and prepare introductions",
       "category": "tourism_pilot",
-      "status": "proposed",
-      "readiness": "concept",
+      "status": "awaiting_review",
+      "readiness": "draft",
       "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
-      "authorization": "UTP-DEC-202",
-      "next_action": "Rank leads for local benefit and practical feasibility; draft specific introductions for review.",
+      "execution_owner": "Current AI assistant for preparation only; field coordinator vacant.",
+      "authorization": "UTP-DEC-207",
+      "next_action": "Founder reviews the six visit briefs, coordinator assignment, unsent introduction drafts and tracker. Named recipients/messages, coordinator and cash ceiling remain unapproved.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-167",
@@ -4962,18 +4965,24 @@
         "models/tourism-experience-record.md",
         "research/visitor-index/puri-providers.md",
         "research/visitor-index/areas/puri-crafts.md",
-        "specs/global-connections.md"
+        "specs/global-connections.md",
+        "research/collections/tourism-experience-shortlist.md",
+        "specs/tourism-pilot-capacity.md"
       ],
       "refs": [
         "UTP-DEC-202",
         "UTP-WORK-165",
         "UTP-WORK-167",
-        "UTP-WORK-168"
+        "UTP-WORK-168",
+        "UTP-DEC-207",
+        "UTP-REV-148"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "records/tourism-fieldwork-pack-2026-10-05.json",
+        "specs/tourism-fieldwork/index.md"
       ]
     },
     {
@@ -9291,6 +9300,26 @@
       "evidence": [
         "records/tourism-research-approval-2026-10-05.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-207",
+      "title": "Prepare six-experience fieldwork pack",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Sounds good, let's go",
+      "scope": "Prepare six-experience fieldwork handoff, coordinator vacancy brief, confirmation checklist, unsent introductions and departmental enquiry, editable quote/expense tracker, read-only portal recheck. No sending, appointments or spending authorized.",
+      "recorded_at": "2026-10-06T04:56:38.255484+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-169",
+        "UTP-WORK-166"
+      ],
+      "evidence": [
+        "records/tourism-fieldwork-pack-2026-10-05.json"
+      ]
     }
   ],
   "requirements": [
@@ -12715,6 +12744,31 @@
       "evidence": [
         "records/tourism-research-2026-10-05.json",
         "research/collections/tourism-pilot-desk-review.md"
+      ]
+    },
+    {
+      "id": "UTP-REV-148",
+      "title": "Six-experience fieldwork handoff self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "MICE application route and acceptance still unverified.",
+        "No named contact or message authorized for sending.",
+        "No current host conditions, field route, appointments or supplier quotes confirmed.",
+        "Workbook formula behaviour tested in Artifact Tool; native Excel not exercised.",
+        "Private working-record location remains to be designated before sensitive intake."
+      ],
+      "refs": [
+        "UTP-WORK-169",
+        "UTP-WORK-166",
+        "UTP-DEC-207"
+      ],
+      "evidence": [
+        "records/tourism-fieldwork-pack-2026-10-05.json"
       ]
     }
   ],

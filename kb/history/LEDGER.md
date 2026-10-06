@@ -1014,3 +1014,7 @@ The first research batch recommends learning through six local visits before exp
 ## UTP-HIS-0239 · The first tourism desk pack is approved
 
 The Founder approved the 22-lead research pack and two costed capacity options. This accepts the planning work; host participation and expenditure remain separate decisions. [Approval record](../records/tourism-research-approval-2026-10-05.json).
+
+## UTP-HIS-0240 · Preparing to listen on the ground
+
+The six proposed experiences now have questions, permissions, practical checks and a cost tracker that a local coordinator can use. The emphasis is on useful stories, paid time where agreed and honest refusals, before any visitor product is promised. [Fieldwork pack](../specs/tourism-fieldwork/index.md).
