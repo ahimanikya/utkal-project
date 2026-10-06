@@ -1,0 +1,131 @@
+{
+  "recorded_at": "2026-10-06T12:03:13.305515+00:00",
+  "status": "review_candidate_not_published",
+  "route": "/visit/experiences/jobra-maritime-museum/",
+  "save_id": "experience:jobra-maritime-museum",
+  "human_direction": {
+    "name": "Ahimanikya Satapathy",
+    "quote": "Let's do that",
+    "context": "Build the illustrated Jobra story and review Raghurajpur, Tarakasi and Jobra for coherent visual flow and mobile reading."
+  },
+  "reuse_before_research": [
+    "research/stories/narratives/jobra-workshop-maritime-museum.md",
+    "research/sources/maritime-jobra-workshop.md",
+    "research/sources/visitor-maritime-museum.md",
+    "research/places/odisha-state-maritime-museum.md",
+    "research/stories/narratives/tourism-reading-followup-evidence.json"
+  ],
+  "changes": [
+    "New connected Jobra page in the Cuttack and Things to Do collections.",
+    "Three dated documentary photographs, with the boat-building scene identified as a museum display.",
+    "Posted museum hours with date, source and confirmation guidance; no ticket, last-entry or facility guarantees.",
+    "Saved journey identity, source-rich portable notes and credited illustrated-book cover photo.",
+    "Shared before-text chapter photos respect original pixel-width ceilings.",
+    "Jobra remains outside the separately approved 11-page search shortlist."
+  ],
+  "source_recheck": {
+    "visitor-maritime-museum": {
+      "url": "https://odishastatemaritimemuseum.org/",
+      "checked_on": "2026-10-06",
+      "scope": "Institutional website lists Tuesday–Sunday 10:00–16:30, Monday closed; not a field or date-specific opening confirmation."
+    },
+    "maritime-jobra-workshop": {
+      "url": "https://www.odishastatemaritimemuseum.org/User/JobraWorkshop",
+      "checked_on": "2026-10-06",
+      "scope": "Institutional account reused; foundation-plaque date, boat/gate fabrication, machines, steam/electric power and rail crane only. No original plaque or labour records inspected."
+    }
+  },
+  "photographs": [
+    {
+      "id": "jobra-courtyard",
+      "src": "/images/jobra/courtyard.webp",
+      "width": 1024,
+      "height": 648,
+      "creator": "Gouravmoy Mohanty",
+      "source": "https://commons.wikimedia.org/wiki/File:The_courtyard_inside_the_Odisha_State_Maritime_Museum.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/The_courtyard_inside_the_Odisha_State_Maritime_Museum.jpg",
+      "original_sha256": "86b3af4a5a3702569b2e10ba9e3ec9e696bbf6cb64c331198ed0b164a6128e93",
+      "sha256": "8670b7bdf041f5ad9291a21d22d0fd412601a0dcbd75f40a1e749e8511403d4f",
+      "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 3.0.",
+      "checked_on": "2026-10-06",
+      "alt": "A white museum building, brick chimneys and circular garden beneath a cloudy sky.",
+      "caption": "Jobra’s museum courtyard · photographed 26 September 2013.",
+      "fit": "contain"
+    },
+    {
+      "id": "jobra-workshop",
+      "src": "/images/jobra/workshop.webp",
+      "width": 469,
+      "height": 768,
+      "creator": "Gouravmoy Mohanty",
+      "source": "https://commons.wikimedia.org/wiki/File:The_workshop_of_Odisha_State_Maritime_Museum.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/The_workshop_of_Odisha_State_Maritime_Museum.jpg",
+      "original_sha256": "96c30f81a1cb91f7bc1d851e2a6bddf40a5d7b3a9967315d56070933fd5d4176",
+      "sha256": "f60f7f77ad1f72c88ff84b46da069177dea28ef2a759e3546fd2c1ef79766f70",
+      "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 3.0.",
+      "checked_on": "2026-10-06",
+      "alt": "Rails curve through a tall workshop hall, with machinery and overhead wheels along its right-hand side.",
+      "caption": "Inside the workshop · photographed 26 September 2013; current access may differ.",
+      "fit": "contain"
+    },
+    {
+      "id": "jobra-boat-display",
+      "src": "/images/jobra/boat-display.webp",
+      "width": 1024,
+      "height": 680,
+      "creator": "Gouravmoy Mohanty",
+      "source": "https://commons.wikimedia.org/wiki/File:The_model_of_a_ship_being_buid_inside_Odisha_State_Maritime_Museum.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/The_model_of_a_ship_being_buid_inside_Odisha_State_Maritime_Museum.jpg",
+      "original_sha256": "4a889a5704ee311abefd7b28dbccedaa42b1770d35a315bdd89b5fdecf9c45cb",
+      "sha256": "e57afa6ed2cfca47b3c90ed962812effcdc1d2c79bf983fe0bc0e14be9b90b13",
+      "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 3.0.",
+      "checked_on": "2026-10-06",
+      "alt": "A wooden boat-building display with human figures posed beside a partly built hull.",
+      "caption": "A boat-building display, not a working boatyard · photographed 26 September 2013.",
+      "fit": "contain"
+    }
+  ],
+  "verification": {
+    "full_build_pages": 141,
+    "full_tests_passed": 452,
+    "coastal_build_pages": 128,
+    "page_acceptance_checks": "512/512 passed",
+    "discovery": "pass",
+    "search_shortlist": "11 existing routes passed; no expansion",
+    "browser": {
+      "sizes": [
+        "1440×1000",
+        "390×844"
+      ],
+      "pages": [
+        "Jobra",
+        "Tarakasi",
+        "Raghurajpur"
+      ],
+      "jobra_images": "All three loaded; workshop portrait restrained to 469 CSS pixels on desktop.",
+      "mobile": "No horizontal page overflow in the three reviewed articles.",
+      "journey": "Jobra saved through the UI and appeared beside Raghurajpur and Tarakasi.",
+      "exports": "Automated checks cover full story and source URLs in text and HTML; illustrated export retains creator and licence."
+    },
+    "coastal_tests_passed": 87,
+    "coastal_files": 755,
+    "coastal_bytes": 161139381,
+    "knowledge_bundle": "1240 concepts; 4861 local links; authority, configuration and register checks passed"
+  },
+  "limitations": [
+    "Photographs date from 26 September 2013; current displays and access are not verified.",
+    "No independent local, curator or specialist review.",
+    "No verified ticket prices, holiday openings, last entry, guides or step-free facilities.",
+    "Museum accounts share institutional provenance.",
+    "New article awaits Founder publication approval."
+  ]
+}

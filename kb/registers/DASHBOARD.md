@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `eda5f47eb2e1be87ae27ad7689f58b329d13a53b56cb57851be7bb4b5c653026`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e080edb4b6a396527be9e35387d07dc5a9dc8178493c964520a6394bfe59179e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -192,7 +192,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-180 · Write museum, inscription and craft articles from existing tourism research | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
 | UTP-WORK-181 · Write Tarakasi, Jobra and Raghurajpur reading articles | completed | approved | Ahimanikya Satapathy | Merge the explicitly approved PR138 after checks. The next editorial plan begins with documentary imagery and a Raghurajpur preview; fieldwork remains deferred. | — |
 | UTP-WORK-182 · Raghurajpur illustrated place-story preview | completed | published | Ahimanikya Satapathy | Published and verified; continue the illustrated Tarakasi candidate. | — |
-| UTP-WORK-183 · Illustrated Tarakasi story and portable visitor notes | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the illustrated Tarakasi candidate before publication; illustrated Jobra article follows next. | — |
+| UTP-WORK-183 · Illustrated Tarakasi story and portable visitor notes | completed | published | Ahimanikya Satapathy | Illustrated Jobra article follows next; independent local or specialist review remains a separate follow-up. | — |
+| UTP-WORK-184 · Illustrated Jobra museum story and three-article visual review | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the Jobra candidate for publication; curator and current visitor-access checks remain separate. | — |
 
 ## Pending human review and decisions
 
@@ -251,7 +252,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-183 | Founder reviews the illustrated Tarakasi candidate before publication; illustrated Jobra article follows next. |
+| UTP-WORK-184 | Founder reviews the Jobra candidate for publication; curator and current visitor-access checks remain separate. |
 
 ## Decisions
 
@@ -470,6 +471,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-213 · Explicitly approve merging PR138 into main | approved | Ahimanikya Satapathy | Direct reply to the question May I merge PR #138 into `main`? Authorizes the six-story research collection, deferred TODOs and next editorial plan to merge into main after checks. No website article release or field commitments. |
 | UTP-DEC-214 · Prepare one illustrated Raghurajpur preview | approved | Ahimanikya Satapathy | Illustrate and enrich the existing Raghurajpur visitor article; review locally and prepare a pull request. No merge, deployment or field commitments. |
 | UTP-DEC-215 · Publish Raghurajpur and continue illustrated craft articles | approved | Ahimanikya Satapathy | Approve the proposed next steps: publish reviewed PR139, verify the live page, then prepare illustrated Tarakasi and Jobra articles with connected reading and saved journeys. New candidates return for review. |
+| UTP-DEC-216 · Publish reviewed illustrated Tarakasi article | approved | Ahimanikya Satapathy | Merge reviewed PR140 and publish it to the Utkal Project website. |
+| UTP-DEC-217 · Prepare illustrated Jobra and compare three story layouts | approved | Ahimanikya Satapathy | Build the proposed Jobra story with sourced imagery, practical notes and Cuttack connections, then review Jobra, Tarakasi and Raghurajpur for flow and mobile reading. Prepare the concrete candidate for Founder review. |
 
 ## Reviews
 
@@ -623,6 +626,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-150 | pass_with_limitations | False | No independent local or specialist review.; Museum account is not an original plaque inspection or workers’ archive.; Image candidates reuse provenance; no new visual review.; Repository drafts only; field availability and publication remain open. |
 | UTP-REV-151 | pass_with_limitations | False | No local appointment, fee, workshop opening or performance confirmed.; No independent editorial or specialist review.; No new generated imagery, paid service, outreach or booking.; Founder fieldwork TODOs remain deferred. |
 | UTP-REV-152 | pass_with_limitations | False | No new contemporary maker photograph with a sufficient licence and identification was secured.; No workshop, seller, fee or current festival arrangement verified.; No independent local or specialist review.; New preview is not merged or deployed; Jobra illustration remains the next article. |
+| UTP-REV-153 | pass_with_limitations | False | Photographs date from 26 September 2013; current displays and access are not verified.; No independent local, curator or specialist review.; No verified ticket prices, holiday openings, last entry, guides or step-free facilities.; Museum accounts share institutional provenance.; New article awaits Founder publication approval. |
 
 ## Publication and application history
 
@@ -699,6 +703,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-069 · Make this journey yours published | published | https://utkalproject.org/journey/ | UTP-DEC-199 |
 | UTP-REL-070 · Planner notebook, focus and print-flow fixes published | published | https://utkalproject.org/journey/ | UTP-DEC-201 |
 | UTP-REL-071 · Illustrated Raghurajpur article published | published | https://utkalproject.org/visit/places/raghurajpur/ | UTP-DEC-215 |
+| UTP-REL-072 · Illustrated Tarakasi article published | published | https://utkalproject.org/visit/experiences/cuttack-filigree/ | UTP-DEC-216 |
 
 ## Sources and assets
 
@@ -736,8 +741,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-243 | 2026-10-06T04:56:38.255484+00:00 | Prepared coordinator and six visit briefs, consent/access checklist, unsent introductions, MICE clarification draft and a tested blank cost tracker. No outreach, appointment or spending occurred. | Review the pack and select the human coordinator, actual recipients/messages and cash ceiling before field activity. |
-| UTP-EVT-244 | 2026-10-06T05:42:22.477466+00:00 | Recorded Founder approval of PR136 fieldwork preparation pack. Actual field coordination and outreach remain open; no appointment, contact or expenditure made. | Merge after passing checks; select named coordinator, recipients and cash ceiling before field activity. |
 | UTP-EVT-245 | 2026-10-06T06:26:04.321692+00:00 | Added five deferred Founder field-pilot actions and prepared three sourced reading articles. Existing entities and evidence were reused; new source limitations recorded. | Review article drafts; continue research while field-pilot decisions remain with the Founder. |
 | UTP-EVT-246 | 2026-10-06T06:58:42.265163+00:00 | Extended the reading collection to six with Tarakasi, Jobra and Raghurajpur; preserved claim provenance and pending local evidence. | Founder editorial review and documentary media selection. |
 | UTP-EVT-247 | 2026-10-06T08:03:16.054405+00:00 | Recorded Founder acceptance of PR138 and documented the next editorial plan. Research article preparation is complete; field commitments remain deferred. | Merge after final checks; use the six-story collection for the next editorial sequence. |
@@ -746,6 +749,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-250 | 2026-10-06T10:36:27.130679+00:00 | Prepared an illustrated Raghurajpur candidate using existing documentary imagery and source identities. Added bounded visitor guidance and retained saved-journey exports. | Complete review and open a pull request; no deployment authorized by this preview step. |
 | UTP-EVT-251 | 2026-10-06T11:04:55.486526+00:00 | Founder-approved PR139 merged; manual publication workflow succeeded and live Raghurajpur content was verified. | Continue Tarakasi preview. |
 | UTP-EVT-252 | 2026-10-06T11:04:55.486526+00:00 | Prepared the Tarakasi story using two newly checked photographs, existing process research and an original explanatory drawing. | Complete browser checks and submit a review PR. |
+| UTP-EVT-253 | 2026-10-06T11:25:55.186099+00:00 | Founder-approved PR140 merged; manual publication succeeded. Live Tarakasi story and diagram were verified, and both new photos matched the reviewed asset hashes. | Prepare the illustrated Jobra article in the next work batch. |
+| UTP-EVT-254 | 2026-10-06T12:03:13.305515+00:00 | Prepared a connected illustrated Jobra article, checked dated photo rights and museum hours, and reviewed the three story layouts and journey save flow. | Submit the checked candidate for Founder publication review. |
 
 ## Deferred extensions
 

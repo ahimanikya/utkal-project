@@ -107,3 +107,10 @@ Longer sections may use several paragraphs and a small set of onward reading lin
 ## Tarakasi preview application · 6 October 2026
 
 A documentary photograph and an explanatory drawing can answer different questions. The object photograph invites close looking; a simple frame-and-infill drawing isolates the structural relationship. Keep that drawing explicitly separate from a traditional motif or workshop recipe. A dated festival photograph can widen the cultural setting without implying present-day access. Missing licensed maker photography remains an evidence gap; illustration does not fill it with an invented documentary scene.
+
+
+### Jobra and the illustrated-story comparison · 6 October 2026
+
+A documentary photograph can be small and still carry the story. Jobra’s 469-pixel workshop portrait now has an intrinsic-width ceiling in the shared chapter layout, retaining the full frame instead of stretching it across a wide reading column. Keep the image’s date near the picture and fuller rights information at the end. A photograph of a museum model must identify the display; it is not evidence of workers performing the pictured task.
+
+The three-story review uses the same progression: an inviting opening, an image or detail to inspect, a readable explanation, then practical choices and onward connections. Raghurajpur starts with the brush, Tarakasi explains frame and infill, and Jobra follows a workshop and boat display. Browser review at 390 and 1440 pixels preserves each story’s different visual needs. Field access, firsthand accounts and specialist review remain separate from visual checks.
