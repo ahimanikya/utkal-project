@@ -5454,20 +5454,23 @@
       "id": "UTP-WORK-2026100602",
       "title": "Home-page sharing preview: Human Natural Konark artwork",
       "category": "website",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-2026100602",
-      "next_action": "Founder reviews new Konark artwork candidate before merge/publication.",
+      "next_action": "No remaining implementation work; external sharing caches may refresh on their own schedule.",
       "blockers": [],
       "refs": [
         "UTP-DEC-2026100602",
-        "UTP-REV-2026100602"
+        "UTP-REV-2026100602",
+        "UTP-DEC-2026100603",
+        "UTP-REL-2026100602"
       ],
       "evidence": [
         "records/homepage-sharing-photo-review-2026-10-06.json",
-        "records/home-sharing-konark-natural-2026-10-06.json"
+        "records/home-sharing-konark-natural-2026-10-06.json",
+        "records/home-sharing-konark-publication-2026-10-06.json"
       ]
     }
   ],
@@ -9846,6 +9849,25 @@
       ],
       "clarification_quote": "not this one, from fornt page rotation images",
       "new_image_authorization_quote": "That can represent Odisha in a better way, or let's create a new image with Human Natural Documentary kind"
+    },
+    {
+      "id": "UTP-DEC-2026100603",
+      "title": "Publish the approved Konark homepage sharing image",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Yes",
+      "scope": "Reply to Shall I publish this version? for PR143, candidate 2c4ecc52ab5584341a2ecba8f6a64df39e2b940d. Authorizes merge and publication of the reviewed image.",
+      "recorded_at": "2026-10-07T04:44:39.739070+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026100602"
+      ],
+      "evidence": [
+        "records/home-sharing-konark-publication-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -14697,6 +14719,22 @@
       ],
       "evidence": [
         "records/jobra-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-2026100602",
+      "title": "Human Natural Konark homepage sharing image published",
+      "status": "published",
+      "authorization": "UTP-DEC-2026100603",
+      "destination": "https://utkalproject.org/",
+      "refs": [
+        "UTP-DEC-2026100603",
+        "UTP-WORK-2026100602",
+        "UTP-REV-2026100602"
+      ],
+      "evidence": [
+        "records/home-sharing-konark-publication-2026-10-06.json",
+        "records/home-sharing-konark-live-checks-2026-10-06.json"
       ]
     }
   ],
