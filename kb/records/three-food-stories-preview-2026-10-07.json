@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-07T06:43:37.928214+00:00",
+  "status": "review_candidate_not_published",
+  "human_direction": {
+    "name": "Ahimanikya Satapathy",
+    "quote": "Let's do it",
+    "scope": "Three food stories and publication-backlog reconciliation."
+  },
+  "routes": [
+    "/food/dalma/",
+    "/food/dahibara-aloodum/",
+    "/food/machha-besara/"
+  ],
+  "changes": [
+    "Three source-linked stories with Odia names, documentary photographs, tasting prompts and cultural variations.",
+    "Existing saved food IDs retained; full article links and book readings added, including prior ordering guidance.",
+    "Flexible visit plans now use dish photographs; regional anchors and food-guide links retained.",
+    "WORK020–022 published scope completed; local verification transferred to deferred WORK188. WORK082 broader scope remains open; stale WORK180 merge instruction corrected."
+  ],
+  "media_approach": "Two licensed Commons photographs acquired and inspected; existing Dahibara photograph reused. No AI imagery. Resized and compressed with original source, hashes and ShareAlike credits retained. Responsive layouts may crop display.",
+  "verification": {
+    "full_build_pages": 148,
+    "full_tests_passed": 469,
+    "coastal_build_pages": 135,
+    "coastal_tests_passed": 88,
+    "page_acceptance": "540/540",
+    "browser": {
+      "sizes": [
+        "1440x1000",
+        "390x844"
+      ],
+      "pages": [
+        "Dalma",
+        "Dahibara Aloodum",
+        "Machha Besara"
+      ],
+      "result": "Desktop and mobile covers inspected; mobile document width 390px without horizontal overflow. Cuttack save button visibly changed to saved. Fish story anchor navigation and reading flow inspected.",
+      "screenshot": "planning/utkala-odisha/review-assets/food-stories-review-2026-10-07.png (local workspace review artifact)"
+    },
+    "exports": "Six focused tests confirm stable IDs, retained notes and backup round trips, canonical story links, full book chapter headings and omission of private notes; existing flexible-plan export tests retain photo credits.",
+    "release_checks": "Discovery, launch-readiness, search-candidate and publication-build audits passed; eleven approved sitemap URLs retained."
+  },
+  "limitations": [
+    "No field inspection, current menu confirmation, recipe testing or independent Odia proofreading.",
+    "Historical source accounts are scoped; visitor questions are invitations rather than reported interviews.",
+    "Native PDF layout was not re-tested; HTML and text book tests passed.",
+    "Same assistant implemented and reviewed; no independent review claimed.",
+    "Publication awaits Founder review; existing eleven-page search approval remains unchanged."
+  ],
+  "evidence": [
+    "research/food/three-meals-evidence.json",
+    "records/food-backlog-reconciliation-2026-10-07.json"
+  ]
+}
