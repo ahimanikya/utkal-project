@@ -1,0 +1,47 @@
+{
+  "title": "Konark sharing artwork \u2014 Human Natural Documentary",
+  "recorded_at": "2026-10-07T04:21:36.602Z",
+  "status": "candidate_pending_publication",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization_quote": "That can represent Odisha in a better way, or let's create a new image with Human Natural Documentary kind",
+  "prior_correction_quote": "not this one, from fornt page rotation images",
+  "scope": "Create a new documentary-style AI artwork for the home-page link preview; keep existing homepage rotation and other routes unchanged.",
+  "tool": "Built-in image_gen",
+  "mode": "Human Natural / Documentary Natural",
+  "prompt": "Use case: photorealistic-natural.\nAsset type: wide homepage social-sharing image for Utkal Project, an Odisha cultural encyclopedia.\nCreate a new Human Natural / Documentary Natural image: a quiet, believable moment beside the carved stone chariot wheel at Konark Sun Temple, Odisha. Use the attached existing photograph only as architectural reference for the real wheel, wall reliefs, stone joints, and protective railings. Preserve the recognizable geometry of this wheel and the weathered stone material; do not invent towers or move the monument to a beach.\nA wider, eye-level composition, with the wheel as the primary subject near the middle and two ordinary adult visitors at one side seen from behind or in partial profile, quietly looking at the carving. They stay on the visitor side of the protective railing. Their postures and spacing are unposed, everyday cotton clothing, no costumes or performance, no attention to the camera. Allow one visitor to partially overlap the other. Leave ample architectural context and breathing room. Wheel and people must remain inside the central safe area for a wide link-preview crop.\nAvailable late-afternoon daylight, restrained neutral-warm color, real stone shadows, no theatrical sunset, no volumetric beams. The background need not be evenly illuminated. Plausible 35mm documentary lens, clean photographic detail at the wheel, softer peripheral detail. Worn paving and ordinary conservation barriers belong in the scene; no picturesque dirt added. This should feel encountered by a thoughtful photographer, not arranged as a tourism advertisement.\nLandscape frame approximately 1.91:1, no text, no logo, no watermark, no collage, no floating monuments, no orange-teal grading, no cinematic HDR, no staged rows of people. It is an AI-created interpretation, not evidence of a real visit.",
+  "original": "collections/home-art/sharing/konark-documentary-natural-v1.png",
+  "delivery": "projects/site/public/assets/home-sharing-konark-natural-v1.jpg",
+  "dimensions": {
+    "width": 1734,
+    "height": 907
+  },
+  "reference": {
+    "record": "research/stories/narratives/konark.json",
+    "creator": "Darshanavenugopal",
+    "source": "https://commons.wikimedia.org/wiki/File:Konark_Sun_temple_during_sunset_09.jpg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "adaptation": {
+    "license": "CC BY-SA 4.0",
+    "changes": "Generated interpretation using architectural reference. Imagined visitors, altered framing, lighting and stone detail. Original generated PNG preserved; JPEG conversion for sharing.",
+    "depiction": "AI artwork; not an eyewitness record, documentary photograph or exact architectural survey."
+  },
+  "visual_review": {
+    "reviewer": "Current AI assistant",
+    "independent": false,
+    "result": "Viewed generated output. Wheel provides clear focal point; visitors remain behind railing; natural clothing, plausible shadows and no text. Fine carvings are generated and not an exact historical record."
+  },
+  "publication_status": "Not merged or published; current candidate for Founder review.",
+  "sha256": "9df5caf4d229d13cce190d37fdd6fbf7b070e33ceb875322e59a62c8049205bd",
+  "checks": {
+    "full_build": "PASS: 142 pages",
+    "full_site_tests": "454 passed",
+    "coastal_build": "PASS: 129 pages retained",
+    "coastal_tests": "87 passed",
+    "publication_build": "PASS",
+    "metadata_checks": "PASS: both social image URLs, 1734x907 dimensions, AI alt, source credits and matching asset hashes in dist, dist-coast and dist-publish",
+    "non_home_checks": "PASS: Konark subject image and Kui fallback unaffected",
+    "visual": "Generated result viewed directly. Wheel focal point, visitor placement and lighting reviewed. No browser or external sharing crawler review performed."
+  }
+}

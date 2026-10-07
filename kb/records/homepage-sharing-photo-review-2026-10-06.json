@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-10-07T04:23:34.523081+00:00",
+  "status": "reviewed_pending_publication",
+  "request": "The home page link now associated with the generated image - can we change that?",
+  "selection_quote": "The Odisha photographs we are using now in the home page",
+  "scope": "New Human Natural Documentary-style AI artwork for home-page social sharing. Homepage rotation and non-home previews unchanged.",
+  "chosen_image": {
+    "path": "/assets/home-sharing-konark-natural-v1.jpg",
+    "subject": "An imagined visit beside the Konark chariot wheel",
+    "width": 1734,
+    "height": 907,
+    "sha256": "9df5caf4d229d13cce190d37fdd6fbf7b070e33ceb875322e59a62c8049205bd",
+    "depiction": "AI artwork, not documentary photography",
+    "provenance": "records/home-sharing-konark-natural-2026-10-06.json"
+  },
+  "changes": [
+    "Home route Open Graph and Twitter previews use the new Konark artwork.",
+    "Persistent image credits disclose AI adaptation and retain source attribution and CC BY-SA 4.0.",
+    "Existing rotation and other route images unchanged."
+  ],
+  "validation": {
+    "full_build": "PASS: 142 pages",
+    "full_site_tests": "454 passed",
+    "coastal_build": "PASS: 129 pages retained",
+    "coastal_tests": "87 passed",
+    "publication_build": "PASS",
+    "metadata_checks": "PASS: both social image URLs, 1734x907 dimensions, AI alt, source credits and matching asset hashes in dist, dist-coast and dist-publish",
+    "non_home_checks": "PASS: Konark subject image and Kui fallback unaffected",
+    "visual": "Generated result viewed directly. Wheel focal point, visitor placement and lighting reviewed. No browser or external sharing crawler review performed."
+  },
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Not yet merged or published.",
+    "External sharing services may retain older cached previews; no external scraper refresh performed."
+  ],
+  "publication_gate": "kb/reference/adopted-blueprint/working-agreement.md section 2 retains Founder final application/publication gate.",
+  "superseded_candidate": {
+    "recorded_at": "2026-10-07T03:50:29+00:00",
+    "scope": "Replace home-page social sharing preview with an existing documentary Odisha photograph. No hero/gallery replacement or non-home fallback change.",
+    "chosen_image": {
+      "source_record": "research/stories/narratives/chilika.json",
+      "path": "/images/chilika/chilika-lake-hellohappy.webp",
+      "subject": "A boat and birds on Chilika Lake",
+      "creator": "Hellohappy",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chilika_Lake_(56468).jpg",
+      "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c",
+      "selection_basis": "Existing first fallback featured home-page story; no image editing or new asset introduced."
+    },
+    "changes": [
+      "Home route explicitly selects the existing Chilika source record for Open Graph and Twitter images.",
+      "Credit remains visible in both home editions independently of featured-story rotation.",
+      "Existing subject images and fallback for other routes preserved."
+    ],
+    "validation": {
+      "full_build": "PASS",
+      "full_site_tests": "454 passed",
+      "coastal_build": "PASS: 129 pages retained",
+      "coastal_tests": "87 passed",
+      "publication_build": "PASS",
+      "metadata_checks": "PASS: both social image URLs, 1600x900 dimensions, descriptive alt, credits and unchanged asset hash in dist-coast/dist-publish",
+      "non_home_checks": "PASS: Konark subject image and Kui fallback unaffected",
+      "visual": "Existing photograph inspected directly; metadata-only change, no browser UI check performed."
+    }
+  },
+  "correction_quote": "not this one, from fornt page rotation images",
+  "new_image_authorization_quote": "That can represent Odisha in a better way, or let's create a new image with Human Natural Documentary kind"
+}
