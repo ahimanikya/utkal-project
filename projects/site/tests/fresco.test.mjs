@@ -17,6 +17,11 @@ test('Fresco catalogue keeps valid photo identities, credited art and story sele
  for(const row of rows){assert.equal(row.photographer,'Ahimanikya Satapathy');assert.ok(['included','alternate'].includes(row.status));assert.ok(!/event/i.test(row.category));if(row.preferred)assert.ok(rows.some(x=>x.file===row.preferred));}
  const html=readFileSync('dist/stories/bhubaneswar-fresco/index.html','utf8');
  assert.ok(!html.includes('__CATALOG__'));assert.ok(!html.includes('__CONNECTIONS__'));
- assert.ok(!/\/api\/|contribution-dialog|reviewer-secret/.test(html));
+ assert.ok(!/contribution-dialog|reviewer-secret/.test(html));
+ // Public museum references may contain /api/; only same-site application endpoints are forbidden.
+ for(const match of html.matchAll(/(?:href|src|action)="([^"]+)"/g)){
+  const url=new URL(match[1],'https://utkalproject.org');
+  if(url.origin==='https://utkalproject.org')assert.ok(!url.pathname.startsWith('/api/'));
+ }
  assert.match(html,/Mural artists.*not yet/i);
 });

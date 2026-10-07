@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-06T12:03:13.305515+00:00",
+  "recorded_at": "2026-10-06T12:45:45.035575+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5386,12 +5386,12 @@
       "id": "UTP-WORK-184",
       "title": "Illustrated Jobra museum story and three-article visual review",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-217",
-      "next_action": "Founder reviews the Jobra candidate for publication; curator and current visitor-access checks remain separate.",
+      "next_action": "Current museum access, curator review and workers’ histories remain follow-up research.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5409,10 +5409,45 @@
       ],
       "refs": [
         "UTP-DEC-217",
-        "UTP-REV-153"
+        "UTP-REV-153",
+        "UTP-DEC-218",
+        "UTP-REL-073"
       ],
       "evidence": [
-        "records/jobra-illustrated-preview-2026-10-06.json"
+        "records/jobra-illustrated-preview-2026-10-06.json",
+        "records/jobra-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-185",
+      "title": "Illustrated Kala Bhoomi, Dhauli and Pipili stories",
+      "category": "research_and_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-219",
+      "next_action": "Founder reviews the prepared PR; then merge and verify publication if approved.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Real photographs retain creator, date and reuse rights.",
+        "Dated collection examples and translated edicts retain their evidence boundaries.",
+        "Existing saved identities remain stable; Kala Bhoomi joins discovery and portable journeys.",
+        "Mobile and desktop reading flow checked."
+      ],
+      "reuse_before_research": [
+        "research/stories/narratives/kala-bhoomi-looking-closely.md",
+        "research/stories/narratives/dhauli-instructions-to-power.md",
+        "research/stories/narratives/pipili-cloth-and-ceremony.md",
+        "research/stories/narratives/tourism-reading-evidence.json"
+      ],
+      "refs": [
+        "UTP-DEC-219",
+        "UTP-REV-154"
+      ],
+      "evidence": [
+        "records/museum-peace-cloth-preview-2026-10-06.json"
       ]
     }
   ],
@@ -9731,6 +9766,45 @@
       "evidence": [
         "records/jobra-illustrated-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-218",
+      "title": "Publish reviewed illustrated Jobra article",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge reviewed PR141 and publish the illustrated Jobra article and its visitor connections.",
+      "recorded_at": "2026-10-06T12:45:45.035575+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-184",
+        "UTP-REV-153"
+      ],
+      "evidence": [
+        "records/jobra-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-219",
+      "title": "Prepare museum, peace and cloth visitor stories",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Let's work on this",
+      "scope": "Prepare Kala Bhoomi, Dhauli and Pipili as one illustrated review batch; retain Founder publication gate.",
+      "recorded_at": "2026-10-07T03:21:20.247282+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-185"
+      ],
+      "evidence": [
+        "records/museum-peace-cloth-preview-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -13319,6 +13393,29 @@
       "evidence": [
         "records/jobra-illustrated-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-REV-154",
+      "title": "Museum, peace and cloth story self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "No independent curator, epigraphic or local maker review.",
+        "Museum photographs date to July 2018; catalogue examples to 2019. Current exhibits and visitor services are not verified.",
+        "Dhauli and Pipili tourism sources reuse saved inspection evidence; subsequent requests returned 404.",
+        "No new field visits, interviews, workshop bookings or timed itinerary.",
+        "Founder publication approval remains pending."
+      ],
+      "refs": [
+        "UTP-WORK-185"
+      ],
+      "evidence": [
+        "records/museum-peace-cloth-preview-2026-10-06.json"
+      ]
     }
   ],
   "releases": [
@@ -14523,6 +14620,21 @@
       ],
       "evidence": [
         "records/tarakasi-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-073",
+      "title": "Illustrated Jobra article published",
+      "status": "published",
+      "authorization": "UTP-DEC-218",
+      "destination": "https://utkalproject.org/visit/experiences/jobra-maritime-museum/",
+      "refs": [
+        "UTP-DEC-218",
+        "UTP-WORK-184",
+        "UTP-REV-153"
+      ],
+      "evidence": [
+        "records/jobra-publication-2026-10-06.json"
       ]
     }
   ],

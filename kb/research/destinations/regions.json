@@ -236,6 +236,32 @@
       "url": "https://www.odishastatemaritimemuseum.org/User/JobraWorkshop",
       "review": "Reused inspected 6 October 2026 institutional account: reported 1869 plaque, fabrication, machines, power and crane. Not an independent inspection of the plaque or a current gallery-access check.",
       "checked_on": "2026-10-06"
+    },
+    "visitor-kalabhoomi": {
+      "title": "Odisha Crafts Museum about page",
+      "url": "https://www.odishacraftsmuseum.odisha.gov.in/header/content/?mstcall=AboutMuseum",
+      "kind": "institutional description",
+      "family": "Odisha Crafts Museum",
+      "inspection": "About and mission sections read on 6 October; existing institutional source identity extended to this subpage. Home-page direct requests timed out.",
+      "limits": "No live ticket purchase, programme, cafe, access certification or current gallery-count claim."
+    },
+    "kalabhoomi-catalogue2019": {
+      "title": "Kala Bhoomi Odisha Crafts Museum catalogue 2019",
+      "url": "https://odishacraftsmuseum.odisha.gov.in/kalabhoomi/api/allowAll/image/viewDocuments?filePath=Kala+Bhoomi-+Odisha+Crafts+Museum_JULY_350000001_AM.pdf&moduleName=CMS",
+      "kind": "institutional collection catalogue",
+      "family": "Odisha Crafts Museum",
+      "inspection": "Web-extracted text; printed pp. 2–3, 8–11, 34–35, 42–45 inspected. 26 PDF pages contain facing-page spreads. Screenshot attempts failed with cache miss; no visual inspection of catalogue plates claimed.",
+      "limits": "Collection examples as documented in 2019. No current display inventory, image-reuse permission, exclusive ikat origin or population claims adopted."
+    },
+    "asoka-dhammika1993": {
+      "title": "The Edicts of King Asoka",
+      "url": "https://accesstoinsight.org/lib/authors/dhammika/wheel386.html",
+      "creator": "Ven. S. Dhammika",
+      "edition": "Buddhist Publication Society, Wheel 386/387, 1993; transcription 1994; Access to Insight revision 30 November 2013",
+      "kind": "modern English rendering of inscriptions",
+      "family": "Dhammika rendering, drawing on Sen, Sircar and Bhandarkar",
+      "inspection": "Preface, Kalinga Rock Edict 1, Major Rock Edict XIII and notes 25 and 30 read.",
+      "limits": "Not an independent epigraphic transcription. Translation variants and royal self-presentation require care; no exact date of war, conversion location or governance outcome adopted."
     }
   },
   "assets": {
@@ -635,6 +661,42 @@
       "checked_on": "2026-10-06",
       "alt": "A wooden boat-building display with human figures posed beside a partly built hull.",
       "caption": "A boat-building display, not a working boatyard · photographed 26 September 2013.",
+      "fit": "contain"
+    },
+    "kala-bhoomi-grounds": {
+      "src": "/images/kala-bhoomi/grounds.webp",
+      "width": 1280,
+      "height": 771,
+      "creator": "SUDEEP PRAMANIK",
+      "source": "https://commons.wikimedia.org/wiki/File:Kala_Bhoomi_-_31.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Kala_Bhoomi_-_31.jpg",
+      "original_sha256": "850b98c724e96d4bf1884e8eb266aa5ec4f3865affa3ff769a7f30804fe7952d",
+      "sha256": "04818eccbf38f0b7d4b782dcd1ccd5518a175ebbe43f6d9ae5f8f6d197fe84be",
+      "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 4.0.",
+      "checked_on": "2026-10-06",
+      "alt": "Trees, lawn and earthen-coloured museum buildings, with pots and sculptural displays outdoors.",
+      "caption": "Kala Bhoomi’s grounds · photographed 25 July 2018.",
+      "fit": "contain"
+    },
+    "kala-bhoomi-chariot-panel": {
+      "src": "/images/kala-bhoomi/chariot-panel.webp",
+      "width": 1280,
+      "height": 1138,
+      "creator": "SUDEEP PRAMANIK",
+      "source": "https://commons.wikimedia.org/wiki/File:Kala_Bhoomi_-_23.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kala_Bhoomi_-_23.jpg",
+      "original_sha256": "526ca724365c1cb245717f81c0164ec66d02fb077e832d2fe4b9d1825e8e11d8",
+      "sha256": "5dca8f69e9e40d9f1a03051a84ce9d818782c3d0c696dba8b3d2c328605a1770",
+      "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 4.0.",
+      "checked_on": "2026-10-06",
+      "alt": "A painted wooden chariot panel with floral forms, figures and a central decorative arch.",
+      "caption": "A chariot panel photographed at Kala Bhoomi, 25 July 2018; current display arrangements may differ.",
       "fit": "contain"
     }
   },
@@ -1105,6 +1167,23 @@
             "title": "Compare city bases"
           },
           "detail_href": "/visit/stays/bhubaneswar/"
+        },
+        {
+          "id": "experience:kala-bhoomi",
+          "title": "Kala Bhoomi · look closely",
+          "kind": "Experience",
+          "summary": "A museum visit that turns a roof tile, a textile and a painted panel into questions about the people who made them.",
+          "source_ids": [
+            "visitor-kalabhoomi",
+            "kalabhoomi-catalogue2019"
+          ],
+          "tip": "Confirm opening arrangements and current galleries directly; the collection examples in this guide come from the 2019 catalogue.",
+          "asset": "kala-bhoomi-grounds",
+          "link": {
+            "title": "Step inside Kala Bhoomi",
+            "href": "/visit/experiences/kala-bhoomi/"
+          },
+          "detail_href": "/visit/experiences/kala-bhoomi/"
         }
       ],
       "sections": [
