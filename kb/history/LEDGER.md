@@ -1050,3 +1050,7 @@ The Founder explicitly approved merging PR138 into main. The six reading article
 ## UTP-HIS-HOME-SHARING-PHOTO-20261006 — Home-page sharing photograph prepared
 
 Prepared a home-page preview using the existing credited Chilika photograph, with stable attribution and other routes unchanged. Full and coastal checks passed. [Review evidence](../records/homepage-sharing-photo-review-2026-10-06.json). Publication pending Founder decision.
+
+## UTP-HIS-HOME-SHARING-NATURAL-20261006 — A new Konark sharing image
+
+The Founder clarified the front-page rotation reference and invited a new Human Natural Documentary-style image. The revised candidate depicts an imagined visit beside Konark’s wheel, with explicit AI provenance and reference-photo attribution. The earlier Chilika selection is superseded. [Prompt and review](../records/home-sharing-konark-natural-2026-10-06.json). Full and coastal checks passed; publication remains pending.
