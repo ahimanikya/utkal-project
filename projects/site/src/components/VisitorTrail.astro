@@ -12,7 +12,7 @@ const headingId='visitor-trail-title-'+trail.starter_id;
 const chapters=trail.chapters.map(chapter=>({...chapter,photo:bookPhotos[chapter.photo],ideas:chapter.ideas.map(id=>{const idea=journeyCatalog.find(item=>item.id===id);if(!idea)throw Error('Missing trail idea: '+id);return idea;})}));
 ---
 <section id={trail.starter_id} class="visitor-trail" aria-labelledby={headingId}>
-<header class="trail-intro"><p class="eyebrow">{trail.eyebrow}</p><Heading id={headingId}>{trail.title_start} <em class="highlight">{trail.title_highlight}</em></Heading><p class="lead">{trail.intro}</p>{trail.orientation&&<p>{trail.orientation}</p>}</header>
+<header class="trail-intro"><p class="eyebrow">{trail.eyebrow}</p><Heading id={headingId}>{trail.title_start}{' '}<em class="highlight">{trail.title_highlight}</em></Heading><p class="lead">{trail.intro}</p>{trail.orientation&&<p>{trail.orientation}</p>}</header>
 <div class="trail-chapters">{chapters.map((chapter,index)=><article class="trail-chapter" aria-labelledby={'trail-'+trail.starter_id+'-'+chapter.id}>
 <figure><ResponsiveImage src={chapter.photo.src} alt={chapter.photo.alt} width={chapter.photo.width} height={chapter.photo.height} loading="lazy" sizes="(max-width: 760px) 92vw, 44vw"/><figcaption>{chapter.photo.caption}</figcaption></figure>
 <div class="chapter-copy"><p class="eyebrow">0{index+1} · {chapter.place}</p><ChapterHeading id={'trail-'+trail.starter_id+'-'+chapter.id}>{chapter.title}</ChapterHeading><p>{chapter.text}</p><ul class="chapter-links" aria-label={'Read about '+chapter.place}>{chapter.ideas.map(idea=><li><a class="text-link" href={idea.href}>{idea.title} →</a></li>)}</ul><p class="trail-prompt"><strong>Before you go</strong><br/>{chapter.prompt}</p></div>

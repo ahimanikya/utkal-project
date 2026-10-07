@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-07T03:43:10.536279+00:00",
+  "approved_by": "Ahimanikya Satapathy",
+  "approval_quote": "approved",
+  "approval_context": "Founder approval of reviewed PR142: Kala Bhoomi, Dhauli and Pipili.",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/142",
+  "reviewed_head": "512df1ea4715e0e3e41f44a572f993c9f5cc5160",
+  "merge_commit": "25f35912cb146f1d775ada8714aa1f117da54b11",
+  "merged_at": "2026-10-07T03:39:52Z",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/37567842418",
+  "deployment_conclusion": "success",
+  "live_verification": {
+    "checked_at": "2026-10-07T03:42:49.174342+00:00",
+    "pages": [
+      {
+        "url": "https://utkalproject.org/visit/experiences/kala-bhoomi/",
+        "http_status": 200,
+        "content_checks": {
+          "Small objects, astonishing ideas": true,
+          "A sari can carry an equation": true,
+          "2019 catalogue": true,
+          "experience:kala-bhoomi": true,
+          "SUDEEP PRAMANIK": true
+        }
+      },
+      {
+        "url": "https://utkalproject.org/visit/places/dhauli/",
+        "http_status": 200,
+        "content_checks": {
+          "Instructions to power": true,
+          "The people behind the proclamation": true,
+          "Major Rock Edict XIII": true,
+          "accesstoinsight.org/lib/authors/dhammika/wheel386.html": true,
+          "/visit/experiences/kala-bhoomi/": true
+        }
+      },
+      {
+        "url": "https://utkalproject.org/crafts/pipili-applique/",
+        "http_status": 200,
+        "content_checks": {
+          "Cloth, colour and ceremony": true,
+          "rings help give the stitched fabric its form": true,
+          "max-width: 480px": true,
+          "/visit/experiences/kala-bhoomi/": true
+        }
+      }
+    ],
+    "photos": [
+      {
+        "url": "https://utkalproject.org/images/kala-bhoomi/grounds.webp",
+        "status": 200,
+        "sha256": "04818eccbf38f0b7d4b782dcd1ccd5518a175ebbe43f6d9ae5f8f6d197fe84be",
+        "matches_reviewed_asset": true
+      },
+      {
+        "url": "https://utkalproject.org/images/kala-bhoomi/chariot-panel.webp",
+        "status": 200,
+        "sha256": "5dca8f69e9e40d9f1a03051a84ce9d818782c3d0c696dba8b3d2c328605a1770",
+        "matches_reviewed_asset": true
+      }
+    ],
+    "discovery_links_verified": [
+      "/destinations/bhubaneswar/",
+      "/things-to-do/"
+    ]
+  },
+  "scope": "Three visitor stories published. Existing search shortlist retained; current museum services and independent local/specialist review remain open."
+}
