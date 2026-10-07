@@ -21,3 +21,10 @@ This cooked dish belongs alongside [torani terminology](torani.md), while remain
 Collect independent household/local variants, source-language terminology and grain-to-liquid process distinctions; recipe testing remains pending.
 
 [Everyday food culture](everyday-food-culture.md) connects this entry to ingredients, meal relationships and makers.
+
+
+## 2026-10-07 · Kanji Anla comparison
+
+[Kanji Anla Osha](../culture/osha/kanji-anla.md) compares source-specific ritual food descriptions. This page’s modern household recipe is related reading, not an exact ritual recipe or proof of festival serving availability. No new retrieval of Sasmita’s recipe was made in this checkpoint.
+
+Compare rice-water cooking without treating the modern household recipe as an exact ritual recipe.

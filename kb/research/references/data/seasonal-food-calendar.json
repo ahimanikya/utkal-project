@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-07-nuakhai",
-  "checked_at": "2026-10-07T13:10:57.095833+00:00",
-  "scope": "Thirteen selected observances, including the retained Raja association; twelve linked profiles. Not a statewide inventory or booking calendar.",
+  "run_id": "2026-10-07-shani",
+  "checked_at": "2026-10-07T20:15:01.398783+00:00",
+  "scope": "Twenty-two selected observances, including retained Raja association; twenty-one linked profiles. Includes recurring vows, not solely seasonal events. Not a statewide inventory or booking calendar.",
   "user_direction": "Explore osha/brata/parba through food, season and everyday life; consider a visitor food calendar.",
   "entries": [
     {
@@ -264,10 +264,13 @@
       "observance_type": "osha",
       "foods": [
         "kanji",
-        "radish",
-        "dried fish in an attributed account"
+        "aonla in Mahanti’s account",
+        "sukua / dried fish offering",
+        "dried-fish rai in Sarangi’s account"
       ],
-      "food_paths": [],
+      "food_paths": [
+        "food/torani-kanji"
+      ],
       "traditional_month": "Margasira",
       "season_window": null,
       "calendar_rule": null,
@@ -276,11 +279,13 @@
       "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
       "source_ids": [
         "osha-review2006",
-        "osha-mahanti"
+        "osha-mahanti",
+        "osha-kanji-sarangi2018",
+        "osha-kanji-mahakud2021"
       ],
-      "source_locator": "Dash pp.15,18 note 2; Mahanti p.60; Printed p.60",
+      "source_locator": "Dash pp.15,18 note2; Mahanti p.60 / PDF76; Sarangi Kanji Anla passage; Mahakud opening and narrative",
       "evidence_status": "documented_association",
-      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "notes": "Calendar conflict unresolved; torani-kanji link is a cooking comparison, not an exact ritual recipe. Ritual fish and edible offerings have different roles; no measured recipe, annual date or serving venue.",
       "venue_ids": [],
       "current_serving_availability": null,
       "visitor_access": null,
@@ -294,7 +299,9 @@
       "name": "Bada Osha",
       "observance_type": "osha",
       "foods": [
-        "steamed gaja offering"
+        "steamed gaja offering",
+        "gaja bhoga",
+        "atakali"
       ],
       "food_paths": [],
       "traditional_month": "Kartika",
@@ -302,14 +309,16 @@
       "calendar_rule": null,
       "occurrence_year": null,
       "gregorian_date": null,
-      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "geography": "Dhabaleswar and adjoining Cuttack account; separate Jagatsinghpur district description",
       "source_ids": [
+        "osha-mahanti",
         "osha-jagatsinghpur",
-        "osha-mahanti"
+        "osha-dhabaleswar-tourism",
+        "osha-dhabaleswar-incredibleindia"
       ],
-      "source_locator": "Printed p.52, Bada Osha; Mahanti pp.58–59; gazetteer p.52",
+      "source_locator": "Mahanti58–59 / PDF74–75; Jagatsinghpur52; tourism opening narratives",
       "evidence_status": "documented_association",
-      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "notes": "Source-specific steamed gaja forms and separate atakali. Calendar discrepancy and legend wording unresolved; no standardized recipe or venue.",
       "venue_ids": [],
       "current_serving_availability": null,
       "visitor_access": null,
@@ -601,6 +610,108 @@
       "local_review": null,
       "profile_path": "culture/osha/nuakhai.md",
       "profile_id": "OSHA-018"
+    },
+    {
+      "id": "SEAS-020",
+      "name": "Bata Osha",
+      "observance_type": "osha",
+      "foods": [
+        "manda pitha in Sarangi’s account",
+        "chakuli pitha in Sarangi’s account",
+        "fruit offerings"
+      ],
+      "food_paths": [
+        "food/manda-pitha"
+      ],
+      "traditional_month": "Pausa in Mahanti; Margasira culmination in Sarangi",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha descriptions; no named local household or district prevalence established",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-kanji-sarangi2018",
+        "osha-bata-odiaportal"
+      ],
+      "source_locator": "Dash15 / PDF1; Mahanti60 / PDF76; Sarangi Margasira/Bata passage; OdiaPortal metadata only",
+      "evidence_status": "documented_association",
+      "notes": "Food association belongs to Sarangi; no universal menu or specific manda preparation. Date/name disagreement retained; Danda Panhara not a second counted profile.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/bata.md",
+      "profile_id": "OSHA-019"
+    },
+    {
+      "id": "SEAS-021",
+      "name": "Pandu Osha",
+      "observance_type": "osha / brata",
+      "foods": [
+        "chanda / Chanda Chakata in Puriwaves",
+        "fruit offerings",
+        "khechudi in Puriwaves",
+        "white manda / shukla manda in Puriwaves"
+      ],
+      "food_paths": [
+        "food/manda-pitha"
+      ],
+      "traditional_month": "Margasira",
+      "season_window": null,
+      "calendar_rule": "Margasira Purnima in Mahanti; no annual Gregorian date verified",
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha account and Puri-focused heritage page; no sampled household or district prevalence",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-pandu-puriwaves",
+        "osha-pandu-odiaportal",
+        "osha-jhoti-biswal-dash2020"
+      ],
+      "source_locator": "Dash15 / PDF1; Mahanti60 / PDF76; Puriwaves food paragraph/caption; journal117 / PDF118; book metadata only",
+      "evidence_status": "documented_association",
+      "notes": "Food list attributed only to Puriwaves; exact rice term and recipe unverified. Photograph credit is not serving evidence. Sweeping sequence conflicted.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/pandu.md",
+      "profile_id": "OSHA-020"
+    },
+    {
+      "id": "SEAS-022",
+      "name": "Shani / Tota Osha",
+      "observance_type": "osha",
+      "foods": [
+        "black-gram khichidi (Tota Osha offering in Mahanti)",
+        "black-gram kechidi with sesame seeds (broader Saturday account in Mahanti)"
+      ],
+      "food_paths": [],
+      "traditional_month": "No fixed month in Mahanti’s account",
+      "season_window": null,
+      "calendar_rule": "Recurring Saturdays during a personally vowed period; no fixed month or duration in Mahanti",
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Odisha accounts in Dash and Mahanti; no sampled locality or statewide prevalence established",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti"
+      ],
+      "source_locator": "Dash15 / PDF1; Mahanti53–54 / PDF69–70 and64 / PDF80",
+      "evidence_status": "documented_association",
+      "notes": "Keep Tota offering separate from broader Saturday eating account. Same book, not independent corroboration. Tila oil is a ritual material here; no recipe inference.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/shani-tota.md",
+      "profile_id": "OSHA-021"
     }
   ],
   "source_checks": [
@@ -796,6 +907,105 @@
       "locator": "Printed pp.23–25 / PDF pp.1–3; URL filename 24-26 does not match printed pagination",
       "scope": "Authored cultural essay, author credited as Curator-in-Charge, Archaeology Section, Odisha State Museum. Original three-page publisher PDF inspected. Oral origin tradition and uninspected 1991-order assertion remain attributed, not established chronology; meal lists do not establish a universal recipe or current venue.",
       "method": "Web timed out; shell TLS certificate expired. Recovered with one-request curl certificate exception; no persistent security configuration changed."
+    },
+    {
+      "source_id": "osha-dhabaleswar-tourism",
+      "url": "https://odishatourism.gov.in/w/dhabaleswar-temple",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00",
+      "status": "available",
+      "locator": "Discover the Heritage: opening Dhabaleswar Temple paragraph",
+      "scope": "Official promotional retelling of the black-calf legend. It supports attribution of a story, not a dated miracle, founding chronology, current bridge access or visitor service. Publication date not displayed in inspected passage.",
+      "method": "Web extraction cache miss and initial sandbox DNS failure; network-enabled direct HTTPS retrieval succeeded with normal TLS."
+    },
+    {
+      "source_id": "osha-dhabaleswar-incredibleindia",
+      "url": "https://www.incredibleindia.gov.in/en/odisha/cuttack/dhabaleswar-temple",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00",
+      "status": "available",
+      "locator": "A tale of divine intervention; The magnificence of Dhabaleswar Temple",
+      "scope": "Official promotional page inspected via web extraction. Transformation subject differs from Odisha Tourism and construction chronology lacks an inspected underlying authority. Preserve as an unresolved source-wording conflict, not independent proof or a demonstrated oral variant.",
+      "method": "Web page opened successfully; no local original HTML capture or physical temple inspection."
+    },
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "url": "https://samadhwani.com/1311",
+      "checked_at": "2026-10-07T16:19:02.056682+00:00",
+      "status": "available",
+      "locator": "Paragraph beginning with Margasira Krishna Ashtami / Prathamastami; Kanji Anla passage within it (web extraction line172)",
+      "scope": "Authored Odia cultural essay: source-specific Kanji Anla calendar, cooking and ritual description. No dated fieldwork, household sample or tested health evidence; author affiliation does not identify the described locality.",
+      "method": "Web extraction opened successfully on 2026-10-07. Publication date displayed on page; no original HTML archive, interview or image reuse claimed."
+    },
+    {
+      "source_id": "osha-kanji-mahakud2021",
+      "url": "https://antarangakalinga.org/କାଞ୍ଜିଅଁଳା-ଓଷା/",
+      "checked_at": "2026-10-07T16:19:02.056682+00:00",
+      "status": "available",
+      "locator": "Opening calendar paragraph; two story paragraphs; ritual procedure heading; separate scientific-reason heading (web extraction lines83–92)",
+      "scope": "Modern authored Odia devotional retelling and ritual description. No identified older edition, manuscript, locality or fieldwork date. Health assertions are not adopted as scientific evidence.",
+      "method": "Web extraction opened successfully on 2026-10-07. Publication date displayed on page; no original HTML archive, interview or image reuse claimed."
+    },
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "url": "https://samadhwani.com/1311",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "available",
+      "locator": "Margasira road-sweeping, song and Bata paragraphs before Prathamastami (web lines162–171)",
+      "scope": "New Bata passage within already catalogued essay; not an independent publication."
+    },
+    {
+      "source_id": "osha-bata-odiaportal",
+      "url": "https://www.odiaportal.in/2015/12/Bata-Osha-Danda-Pahanra-Brata-Katha-Odia-PDF.html",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "available",
+      "locator": "About Book and app-only download notice",
+      "scope": "Inspected landing-page metadata only. The uploader labels the unknown-owner book as 1970s; no imprint or pages were inspected, so edition and composition dates remain unverified. App-only access prevented this desktop pass from reading the text. No scan redistribution or image rights claimed."
+    },
+    {
+      "source_id": "osha-pandu-puriwaves",
+      "url": "https://puriwaves.nirmalya.in/festivals/pandu-osha-in-odisha",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "available",
+      "locator": "Narratives; food paragraph and Chanda Chakata caption; sweeping paragraph (web lines27–36)",
+      "scope": "Modern heritage-page description and captions, not fieldwork or an inspected katha. Article byline and publication date not displayed in extracted page. Food photograph credited to odiafoods.in; that original account was not inspected. Similar repeated story wording across other blogs is not independent corroboration. Timing and ingredient glosses require local/textual clarification.",
+      "method": "Web extraction; selected passages inspected"
+    },
+    {
+      "source_id": "osha-pandu-odiaportal",
+      "url": "https://www.odiaportal.in/2018/12/Download-Pandu-Osha-Odia-eBook.pdf.html",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "available",
+      "locator": "Displayed post date; About Book; app-only access notice (web lines27–57)",
+      "scope": "Landing page attributes the advertised book to Ananta Das; author identity, edition, imprint and contents uninspected. Page publication date is not composition or edition date. Book only offered through Android app in this pass; no scan rights or redistribution claimed.",
+      "method": "Web extraction; selected passages inspected"
+    },
+    {
+      "source_id": "osha-jhoti-biswal-dash2020",
+      "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "available",
+      "locator": "Printed113 / PDF114: title, authors and introduction; printed117 / PDF118: item9 and materials/techniques",
+      "scope": "Selected original journal text extracted from university-hosted PDF. Names Pandu among observances associated with jhoti; general techniques are not a specific Pandu design or sampled local ritual. No fieldwork sample/date is established by the inspected passages. Page-image retrieval failed; no visual inspection claimed. Broad historical, nutritional and universal-practice assertions are not adopted.",
+      "method": "Web extraction; selected passages inspected"
+    },
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-07-shani",
+      "checked_at": "2026-10-07T20:15:01.398783+00:00",
+      "locator": "Printed15 / PDF1, Shani/Tota entry; printed16 / PDF2 and printed17 / PDF3, Sanishchara Mela entries",
+      "method": "Saved original text; previously inspected PDF1 image reused",
+      "scope": "Existing original reused; not a new retrieval or independent corroboration.",
+      "status": "saved_evidence_reused",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-07-shani",
+      "checked_at": "2026-10-07T20:15:01.398783+00:00",
+      "locator": "Printed53–54 / PDF69–70, Sani or Tota osha; printed64 / PDF80, Sanibara",
+      "method": "Saved original text and three newly rendered page images inspected",
+      "scope": "Existing original reused; not a new retrieval or independent corroboration.",
+      "status": "saved_evidence_reused",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
     }
   ],
   "failed_fetches": [
@@ -1005,6 +1215,130 @@
       "status": "unavailable",
       "checked_at": "2026-10-07T13:10:57.095833+00:00",
       "error": "Web502BadGateway; indexed bibliography only; full article not read."
+    },
+    {
+      "url": "https://odishatourism.gov.in/w/dhabaleswar-temple",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: odishatourism.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/tourism.html",
+      "checked_at": "2026-10-07T15:10:51.847958+00:00"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/documents/district--gazetteer",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: cuttack.odisha.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/cuttack-gazetteer.html",
+      "checked_at": "2026-10-07T15:10:51.856451+00:00"
+    },
+    {
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: cmccuttack.odisha.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/cmc.html",
+      "checked_at": "2026-10-07T15:10:51.865341+00:00"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/documents/district--gazetteer",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: cuttack.odisha.gov.in\n",
+      "exit_code": 6,
+      "path": "work/osha-bada/cuttack-gazetteer.html",
+      "checked_at": "2026-10-07T15:11:31.427912+00:00",
+      "method": "network-enabled retry"
+    },
+    {
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (28) Connection timed out after 20001 milliseconds\n",
+      "exit_code": 28,
+      "path": "work/osha-bada/cmc.html",
+      "checked_at": "2026-10-07T15:11:50.704222+00:00",
+      "method": "network-enabled retry"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/documents/district--gazetteer",
+      "status": "unavailable",
+      "method": "web",
+      "error": "502 Bad Gateway",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    },
+    {
+      "url": "https://cuttack.odisha.gov.in/en/tourist-place/dhabaleswar",
+      "status": "unavailable",
+      "method": "web",
+      "error": "Inaccessible via tool; guessed page route not evidence",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    },
+    {
+      "url": "https://odishatourism.gov.in/w/dhabaleswar-temple",
+      "status": "unavailable",
+      "method": "web",
+      "error": "Cache miss; separate direct HTTPS retrieval succeeded",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    },
+    {
+      "url": "https://cmccuttack.odisha.gov.in/index.php/tourist-places/",
+      "status": "unavailable",
+      "method": "web",
+      "error": "Internal fetch error; indexed lead only",
+      "checked_at": "2026-10-07T15:16:36.875158+00:00"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/oct/engpdf/10-13.pdf",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "unavailable",
+      "method": "web then direct HTTPS",
+      "errors": [
+        "Web internal fetch error",
+        "Sandbox DNS resolution failure",
+        "Network-enabled curl: expired TLS certificate"
+      ],
+      "scope": "Indexed Panthei/Bata association is a lead only; article not recovered or adopted."
+    },
+    {
+      "url": "https://antarangakalinga.org/ବାଟଓଷା/",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "unavailable",
+      "method": "Web open, Unicode and encoded routes",
+      "errors": [
+        "Internal fetch error",
+        "Cache miss"
+      ],
+      "scope": "Indexed modern account not adopted as an inspected source."
+    },
+    {
+      "url": "https://www.odiaportal.in/2015/12/Bata-Osha-Danda-Pahanra-Brata-Katha-Odia-PDF.html",
+      "checked_at": "2026-10-07T18:14:46.767625+00:00",
+      "status": "unavailable",
+      "method": "Book-content recovery",
+      "errors": [
+        "Landing page offers app-only download; no accessible PDF link"
+      ],
+      "scope": "Landing page available; underlying book unavailable in this pass."
+    },
+    {
+      "url": "https://www.odiaportal.in/2018/12/Download-Pandu-Osha-Odia-eBook.pdf.html",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "unavailable",
+      "method": "Book-content recovery",
+      "error": "App-only download notice; no accessible book text or imprint in inspected page",
+      "scope": "Landing page available; book contents unavailable."
+    },
+    {
+      "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+      "checked_at": "2026-10-07T19:12:35.522619+00:00",
+      "status": "unavailable",
+      "method": "Web PDF screenshot, zero-based117",
+      "error": "Internal Error",
+      "scope": "Text extraction available; original page image not recovered."
     }
   ],
   "followup_candidates": [

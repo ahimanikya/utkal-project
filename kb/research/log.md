@@ -456,3 +456,7 @@ Reconciled six sequential research checkpoints into the existing osha review can
 ## 2026-10-07 · B04 research checkpoints
 
 Reconciled two western Odisha research checkpoints into the existing review candidate. Seven narrative checkpoints and eleven research notes; B05 follows. No merge or publication.
+
+## 2026-10-07 · B05 research checkpoints
+
+Reconciled five B05 research checkpoints into the existing review candidate. Seven narrative checkpoints and fourteen research notes; B06 follows. No merge or publication.

@@ -414,3 +414,7 @@ Nisha print-book contents, early chronology, Budhei/Dutiya manuscripts, Janhi Ga
 ## 2026-10-07 · B04 research checkpoints
 
 Jiuntia full kathas and Nuakhai historical witnesses/1991 order remain unresolved; retry14October. Earlier B02/B03 gaps and review queue remain open.
+
+## 2026-10-07 · B05 research checkpoints
+
+Full kathas, dated histories, calendar conflicts, Danda identity and local food variations remain unresolved; retry14October. Earlier B02–B04 gaps remain open.

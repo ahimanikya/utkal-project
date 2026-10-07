@@ -70,3 +70,13 @@ The [Sudasa text comparison](../culture/osha/sudasa-text-comparison.md) records 
 ## 2026-10-07 · Nuakhai association
 
 Singh names manda in the Nuakhai offering and meal account (printed25 / PDF3). The source does not identify it as this specific sijha preparation. [Source](https://magazines.odisha.gov.in/Orissareview/2012/sep/engpdf/24-26.pdf). [Nuakhai](../culture/osha/nuakhai.md). Connects a sourced festival association to separately documented food preparations; no single recipe implied.
+
+
+## 2026-10-07 · Bata offering name
+
+[Bata Osha](../culture/osha/bata.md) records Sarangi’s manda offering name without specifying cooking or filling. Connects a sourced offering name to separately documented preparations; no single ritual recipe implied.
+
+
+## 2026-10-07 · Pandu offering name
+
+[Pandu Osha](../culture/osha/pandu.md) retains Puriwaves’ white-manda name as an attributed account. Compare a reported offering name with separately documented preparations; no single Pandu recipe implied.

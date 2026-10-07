@@ -18,3 +18,19 @@ The original four-page PDF was recovered on 7 October after the earlier failed a
 Calendar and deity conflicts remain: Sudasa’s Kartika-only assertion, Alana’s deity and other identity questions cannot be resolved by this essay alone. Its narrative of declining practice is not a quantified contemporary trend.
 
 [Connected study](../culture/osha-brata-seasonal-food.md).
+
+## 2026-10-07 · Kanji Anla inspected passage
+
+Printed pp.15 and18, note2 / PDF1 and4 visually checked from the saved original. [Kanji Anla](../culture/osha/kanji-anla.md) preserves the source’s scope; reuse is not independent corroboration.
+
+## 2026-10-07 · Bata inspected passage
+
+Saved original page visually inspected for separate Bata and Danda Panhara entries. Printed p.15 / PDF1. [Bata Osha](../culture/osha/bata.md). Reuse of one publication is not independent corroboration.
+
+## 2026-10-07 · Pandu reuse
+
+Printed15 / PDF1, Pandu Osha Brata entry. Saved original reused in [Pandu Osha](../culture/osha/pandu.md); no independent corroboration or new original retrieval claimed.
+
+## 2026-10-07 · Shani/Tota reuse
+
+Printed15 / PDF1, Shani/Tota entry; printed16 / PDF2 and printed17 / PDF3, Sanishchara Mela entries. Saved original text; previously inspected PDF1 image reused. Used in [Shani / Tota Osha](../culture/osha/shani-tota.md); no new original retrieval or independent corroboration claimed.

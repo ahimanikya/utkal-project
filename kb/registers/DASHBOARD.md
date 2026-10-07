@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0d393837bf7936d02c3ef0375d17afd1796a76028b3d714f22c05cbdf4320a5b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `57490e6c9cc85d023d13deb1c069074366239ab8ed4f2c45b730405c85e040ee`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -197,7 +197,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
 | UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
-| UTP-WORK-2026100701 · Osha, stories and the food year: eighteen profiles and regional food accounts | in_progress | draft | Ahimanikya Satapathy | Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first; retry unresolved B02/B03/B04 evidence on/after2026-10-14. Source workspace remains scheduling authority. | — |
+| UTP-WORK-2026100701 · Osha, stories and the food year: twenty-one profiles and vows, food roles and source conflicts | in_progress | draft | Ahimanikya Satapathy | Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
 
@@ -763,7 +763,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-258 | 2026-10-07T04:55:40.006600+00:00 | Prepared three flexible illustrated visit plans, saved starters and source-rich books; self-review and responsive checks passed. Operational itinerary verification remains separate. | Founder publication review. |
 | UTP-EVT-2026100602 | 2026-10-07T03:50:29+00:00 | Prepared home-page Open Graph/Twitter image change using existing credited Chilika photograph; full and coastal suites pass. | Present candidate for Founder publication decision. |
 | UTP-EVT-2026100603 | 2026-10-07T04:23:34.523081+00:00 | Replaced superseded Chilika sharing candidate with newly generated Human Natural Konark artwork following Founder clarification; AI provenance, source credit and same-licence adaptation recorded. Full and coastal checks passed; not published. | Present new artwork for Founder publication decision. |
 | UTP-EVT-2026100604 | 2026-10-07T04:44:39.739070+00:00 | Founder approved publication with Yes. PR143 merged and publication workflow 37572605182 succeeded. Live homepage Open Graph/Twitter tags and image hash match the approved Konark artwork. | Complete; external sharing caches may take time to update. |
@@ -773,6 +772,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-261 | 2026-10-07T07:08:20.250505+00:00 | Founder-approved PR146 merged and GitHub Pages deployment succeeded. Three live stories, licensed image hashes, stable journey IDs, book photographs and discovery/visit-plan links verified. | Continue authorized research; field-dependent verification remains deferred. |
 | UTP-EVT-2026100702 | 2026-10-07T11:07:54.805693+00:00 | Reconciled B02/B03 research, fifteen profiles and sixteen website routes. Preserved native food-story publication records from current main; no osha publication. | Continue OSHA-B04 while PR145 remains the review candidate; retry unresolved B02/B03 texts on/after2026-10-14. Source workspace remains scheduling authority. |
 | UTP-EVT-2026100703 | 2026-10-07T14:11:19.648903+00:00 | Reconciled B04 research, eighteen profiles and nineteen website routes. Native food-story publication records preserved; no osha publication. | Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first; retry unresolved B02/B03/B04 evidence on/after2026-10-14. Source workspace remains scheduling authority. |
+| UTP-EVT-2026100704 | 2026-10-07T21:09:30.553967+00:00 | Reconciled B05 research, twenty-one profiles and twenty-two website routes. Native publication records preserved; no osha publication. | Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority. |
 
 ## Deferred extensions
 

@@ -58,3 +58,23 @@ Read the [Janhi profile](../culture/osha/janhi.md) before treating its culminati
 ## 2026-10-07 · Nuakhai reading route
 
 [Nuakhai](../culture/osha/nuakhai.md). Individual observance narrative, food context and source boundaries.
+
+## 2026-10-07 · Bada Osha food reading
+
+[Bada Osha](../culture/osha/bada.md) adds source-specific gaja bhoga and atakali. Food association does not establish a venue or distribution time; annual schedule and current access remain unknown.
+
+## 2026-10-07 · Kanji Anla food reading
+
+[Kanji Anla](../culture/osha/kanji-anla.md) links ritual-food research to a carefully qualified torani-kanji comparison. Calendar accounts differ; no annual date, venue or public food availability is confirmed.
+
+## 2026-10-07 · Bata food reading
+
+[Bata Osha](../culture/osha/bata.md) adds an attributed fruit, manda and chakuli association. Names and calendar remain source-specific; no serving venue or annual date is established.
+
+## 2026-10-07 · Pandu food reading
+
+[Pandu Osha](../culture/osha/pandu.md) adds a scoped heritage-page food account. A food caption is not a serving venue, and no annual date or access permission is established.
+
+## 2026-10-07 · A recurring Saturday vow
+
+[Shani / Tota Osha](../culture/osha/shani-tota.md) has no fixed month in the inspected account. Its black-gram offering and broader Saturday food description remain separately scoped. A recurring weekday is not a public schedule or confirmed food offer.

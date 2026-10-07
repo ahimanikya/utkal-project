@@ -1062,3 +1062,7 @@ The Founder approved publication. PR143 was merged and deployed; the live homepa
 ## UTP-HIS-OSHA-B04-20261007 · Western Odisha food and kinship
 
 Three regional profiles join the existing review candidate with source-specific food accounts and unresolved historical claims visible. No human review, merge or publication claimed. [Checkpoint](../records/osha-b04-checkpoint-2026-10-07.json).
+
+## UTP-HIS-OSHA-B05-20261007 · Vows, food and source disagreements
+
+Three new and two expanded profiles join the existing review candidate with source-specific food accounts and unresolved historical claims visible. No human review, merge or publication claimed. [Checkpoint](../records/osha-b05-checkpoint-2026-10-07.json).

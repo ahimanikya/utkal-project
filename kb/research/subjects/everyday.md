@@ -113,3 +113,18 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-07 · Nuakhai reading route
 
 [Nuakhai](../culture/osha/nuakhai.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Bata and shared paths
+
+[Bata Osha](../culture/osha/bata.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Pandu family and ritual work
+
+[Pandu Osha](../culture/osha/pandu.md) connects family welfare, source-specific offerings and disputed road-sweeping sequences.
+
+
+## 2026-10-07 · Shani/Tota recurring vow
+
+[Shani / Tota Osha](../culture/osha/shani-tota.md) connects vowed duration, grove or temple setting and food roles. History and local variation remain open.

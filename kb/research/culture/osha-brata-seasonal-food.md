@@ -15,7 +15,7 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The eighteen selected profiles include seven narrative checkpoints and eleven early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The twenty-one selected profiles include seven narrative checkpoints and fourteen early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
@@ -37,6 +37,9 @@ The eighteen selected profiles include seven narrative checkpoints and eleven ea
 | [Pua Jiuntia](osha/pua-jiuntia.md) | Ashwina | Mother–child vow; regional food variants |
 | [Bhai Jiuntia](osha/bhai-jiuntia.md) | Ashwina | Sisters, rice preparation and family ties |
 | [Nuakhai](osha/nuakhai.md) | Bhadraba | New rice, household work and unresolved origins |
+| [Bata Osha](osha/bata.md) | Pausa / Margasira accounts differ | Paths, offerings and unresolved Danda identity |
+| [Pandu Osha](osha/pandu.md) | Margasira | Dedications, shaped food and unresolved sweeping sequence |
+| [Shani / Tota Osha](osha/shani-tota.md) | No fixed month; Saturdays | Vowed duration, grove setting and food roles |
 
 ## What the collection connects
 
@@ -67,3 +70,11 @@ Individual observance narrative, food context and source boundaries.
 ## 2026-10-07 · Janhi and its culmination
 
 The expanded [Janhi profile](osha/janhi.md) records flowers, a song fragment, play and a separate Kumar Purnima offering scene. The new source is an attributed 2015 account; historical origin and current local practice remain unresolved.
+
+## 2026-10-07 · Bada Osha checkpoint
+
+[Bada Osha](osha/bada.md) now separates an attributed shrine legend, Mahanti’s Indra account, food processes and unresolved calendar wording. It remains an early research note; no full katha or founding history recovered.
+
+## 2026-10-07 · Kanji Anla checkpoint
+
+[Kanji Anla](osha/kanji-anla.md) now includes an attributed modern Odia retelling, cooking comparison and an explicit calendar disagreement. Its historical textual lineage remains incomplete; the modern retelling does not establish the origin date.

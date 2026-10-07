@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-07-nuakhai",
-  "checked_at": "2026-10-07T13:10:57.095833+00:00",
+  "run_id": "2026-10-07-shani",
+  "checked_at": "2026-10-07T20:15:01.398783+00:00",
   "title": "Bara Masa, Tera Parba: osha, story and food",
-  "scope": "Eighteen selected profiles: seven narrative checkpoints and eleven research notes. Includes Nuakhai as a parba; no exhaustive inventory or completed origin histories claimed.",
+  "scope": "Twenty-one selected profiles: seven narrative checkpoints and fourteen research notes. Includes Nuakhai as a parba; no exhaustive inventory or completed origin histories claimed.",
   "pages": [
     {
       "id": "OSHA-001",
@@ -482,45 +482,83 @@
       "name": "Kanji Anla Osha",
       "traditional_month": "Margasira",
       "observance_type": "osha",
-      "lead": "Rice-water preparations and a ritual offering invite a closer look at a less-documented part of the food year.",
+      "lead": "Kanji Anla brings a sour rice-water preparation into worship of Sasthi. Its food, household story and calendar need to be read together, with room for differences between accounts.",
       "sections": [
         {
-          "title": "What the sources describe",
-          "text": "Dash associates Kanji Anla with Sathi and lists kanji, radish and other materials. Mahanti describes kanji from fermented rice gruel and dried-fish offerings in an evening observance. The accounts should be compared locally; the study does not turn their lists into one standard recipe.",
-          "evidence_class": "documented_description",
+          "title": "A mother’s appeal to Sasthi",
+          "text": "In Mahakud’s 2021 retelling, a merchant’s pregnant daughter-in-law takes a neighbour’s pumpkin. A curse is followed by the disappearance of her children and expulsion from her home. Alone in a forest, she appeals to Sasthi, who returns the children and instructs the vow. This is a modern devotional retelling without an identified old edition; it does not establish historical events or the observance’s date of origin.",
+          "evidence_class": "ritual_narrative",
           "source_ids": [
-            "osha-review2006",
-            "osha-mahanti"
+            "osha-kanji-mahakud2021"
           ],
-          "locator": "Dash pp.15,18 note 2; Mahanti p.60"
+          "locator": "Two story paragraphs preceding the ritual-procedure heading"
         },
         {
-          "title": "A food-science question",
-          "text": "There is a worthwhile distinction between recording a fermentation practice and measuring it. A future preparation record should identify ingredients, water, vessel, temperature, time and subsequent cooking. These variables are research questions; we have not tested this preparation, identified its organisms or demonstrated a probiotic benefit.",
+          "title": "What the story asks us to notice",
+          "text": "The narrative joins forbidden taking, maternal distress, household rejection and restoration. That is an editorial reading of this retelling, not a claim about every observer’s interpretation. The blame placed on the mother belongs to the story’s conflict; it is not evidence that a mother causes a child’s misfortune. A merchant household in a devotional story also cannot establish a historical voyage or trade route.",
           "evidence_class": "editorial_interpretation",
           "source_ids": [],
           "locator": ""
         },
         {
-          "title": "The narrative remains open",
-          "text": "A local katha, historical editions and the relationship to Sathi or Sasthi need further study. The use of dried fish also means that a blanket claim that all osha offerings are vegetarian would erase relevant evidence. This page retains the difference without claiming every household follows it.",
-          "evidence_class": "research_limit",
+          "title": "The offering and the ritual object",
+          "text": "Mahanti describes worship of Sasthi with seven dried fish dressed in yellow cloth, and offerings of kanji, aonla and sukua. Food offered for eating and fish arranged as ritual figures need to be recorded as different roles. His account supports neither a blanket vegetarian description of all osha offerings nor a claim that every household follows this practice.",
+          "evidence_class": "documented_description",
           "source_ids": [
             "osha-mahanti"
           ],
-          "locator": "Printed p.60"
+          "locator": "Printed p.60 / PDF76"
+        },
+        {
+          "title": "Kanji in two written descriptions",
+          "text": "Dash defines kanji with broken rice, radish, sour rice-water and curry leaves. Sarangi describes vegetables including radish, papaya and pumpkin cooked in pakhala liquid, then tempered with dry chilli, panchphutana and curry leaves; dried-fish rai is a separate preparation. These accounts describe related food practices, not one standardized ingredient list.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Dash printed p.18 note2 / PDF4; Sarangi Prathamastami–Kanji Anla paragraph"
+        },
+        {
+          "title": "Why the day stays unresolved",
+          "text": "Mahanti places the observance towards evening on Prathamastami. Sarangi places it the following day; Mahakud names Margasira’s dark ninth. We retain the disagreement rather than assign a universal calendar rule. A locality-specific annual notice and an inspected katha edition are still needed; no Gregorian date is confirmed.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-kanji-sarangi2018",
+            "osha-kanji-mahakud2021"
+          ],
+          "locator": "Mahanti printed p.60 / PDF76; Sarangi Kanji Anla passage; Mahakud opening calendar paragraph"
+        },
+        {
+          "title": "Culinary knowledge and the science still to test",
+          "text": "The accounts document sour rice-water use, cooking and tempering. They do not measure fermentation time, temperature, acidity, organisms or survival after cooking. We can describe the practical knowledge without claiming a probiotic benefit. Health explanations in the modern retelling remain unsupported by an inspected experimental study. A future preparation record should document ingredients, vessel, water source, timing and subsequent heating before any food-science conclusion.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Comparing everyday food without promising a visit",
+          "text": "Our torani-kanji food entry is a useful comparison for rice-water cooking. Its modern household recipe is not the ritual recipe established here. A Margasira food association can help a visitor ask informed questions, but this research identifies no serving venue, public distribution, invitation to private worship or current availability.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
         }
       ],
       "food_names": [
         "kanji",
-        "radish",
-        "dried fish in an attributed account"
+        "aonla in Mahanti’s account",
+        "sukua / dried fish offering",
+        "dried-fish rai in Sarangi’s account"
       ],
-      "related_food_paths": [],
+      "related_food_paths": [
+        "food/torani-kanji"
+      ],
       "questions": [
-        "Which kanji preparation and local name are used?",
-        "How do observers explain the offered materials?",
-        "How does the practice relate to Prathamastami in this locality?"
+        "Which dated Odia katha edition or manuscript can establish the earliest inspected textual witness?",
+        "Which localities observe Prathamastami evening and which the following day?",
+        "How do households distinguish fish used as ritual figures, food offerings and later disposal?",
+        "How do local kanji ingredients and preparation steps vary, and which steps have actually been measured?"
       ],
       "coverage_status": "research_note",
       "origin_date": null,
@@ -529,7 +567,9 @@
       "local_review": null,
       "source_ids": [
         "osha-review2006",
-        "osha-mahanti"
+        "osha-mahanti",
+        "osha-kanji-sarangi2018",
+        "osha-kanji-mahakud2021"
       ],
       "canonical_path": "culture/osha/kanji-anla.md",
       "route": "/culture/osha/kanji-anla/",
@@ -541,49 +581,100 @@
       "name": "Bada Osha",
       "traditional_month": "Kartika",
       "observance_type": "osha",
-      "lead": "A Shiva offering called gaja needs its own identity, separate from sweets sold under similar names.",
+      "lead": "A fast, a night of Shiva worship and a steamed offering connect Bada Osha to the food year around Dhabaleswar. Its stories deserve to be read alongside the limits of the surviving evidence.",
       "sections": [
         {
-          "title": "Food with a ritual form",
-          "text": "The Jagatsinghpur district gazetteer describes a steamed gaja offering shaped as a linga and snake, followed by the breaking of a fast. This is a district account, not a verified menu at every Shiva temple. The preparation must not be silently equated with the fried chhena gaja in an existing food catalogue.",
-          "evidence_class": "documented_description",
+          "title": "A story of refuge at Dhabaleswar",
+          "text": "Odisha Tourism tells a popular legend in which Shiva turns a black calf white to protect a repentant thief. The story links the shrine’s name to whiteness, mercy and forgiveness. It is a modern institutional retelling of sacred tradition, not a dated historical event or a complete Bada Osha katha.",
+          "evidence_class": "ritual_narrative",
           "source_ids": [
-            "osha-jagatsinghpur"
+            "osha-dhabaleswar-tourism"
           ],
-          "locator": "Printed p.52, Bada Osha"
+          "locator": "Discover the Heritage, opening paragraph"
         },
         {
-          "title": "Why location matters",
-          "text": "Mahanti associates Bada Osha particularly with Dhabaleswar and gives Kartika’s bright thirteenth or fourteenth day. The Jagatsinghpur gazetteer mentions Kartika Purnima. We keep those calendar statements separate pending a temple-specific annual schedule and clarification of observance versus culmination.",
+          "title": "Another explanation of the observance",
+          "text": "Mahanti relates Indra bathing in the Mahanadi and worshipping Shiva at Dhabaleswar to escape Brahma’s curse. He attributes this to the Padma Purana but supplies no edition or verse here. We have inspected his account, not the cited Puranic passage. The Indra story and the calf legend answer different questions and should not be joined into one origin narrative.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed pp.58–59 / PDF74–75"
+        },
+        {
+          "title": "Fasting, worship and the offering",
+          "text": "Mahanti describes the fast ending towards midnight after the deity’s bada singhara adornment, a large lamp and offerings of gaja bhoga and atakali. This is his ritual sequence, not a verified timetable for an upcoming festival.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.59 / PDF75"
+        },
+        {
+          "title": "Two descriptions of steamed gaja",
+          "text": "Mahanti describes rice-dough balls with a sweet coconut filling, cooked by steaming. The Jagatsinghpur gazetteer instead emphasizes linga and snake shapes. Both describe steamed offerings; they do not establish one universal form. Neither description identifies this food with fried chhena gaja or the wheat-and-sugar gaja in our separate food-name study.",
           "evidence_class": "documented_description",
           "source_ids": [
             "osha-mahanti",
             "osha-jagatsinghpur"
           ],
-          "locator": "Mahanti pp.58–59; gazetteer p.52"
+          "locator": "Mahanti printed p.59 / PDF75; Jagatsinghpur printed p.52"
         },
         {
-          "title": "History and significance",
-          "text": "The evidence supports a connection among fasting, offering and Shiva worship. An origin story needs a traceable text or temple account before being narrated as the local explanation. Even then, the legend and the dated history of the shrine will remain separate.",
-          "evidence_class": "research_limit",
+          "title": "Atakali has a separate place",
+          "text": "Mahanti names atakali alongside gaja and describes it as a wheat-flour preparation resembling kheeri. Quantities, cooking times, local variants and a current temple recipe remain unverified.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.59 / PDF75"
+        },
+        {
+          "title": "Why the calendar remains unresolved",
+          "text": "Mahanti gives Kartika’s bright thirteenth or fourteenth day, while the Jagatsinghpur gazetteer names Kartika Purnima. We retain those statements separately. A difference between fast, offering and fast-breaking dates is a question for an annual temple notice, not a reconciliation established by these texts.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-jagatsinghpur"
+          ],
+          "locator": "Mahanti printed p.58 / PDF74; Jagatsinghpur printed p.52"
+        },
+        {
+          "title": "Reading the meaning through food",
+          "text": "The sequence makes food more than an ingredient list: preparation and waiting lead to an offering, then eating. This is an editorial reading of the documented sequence. Shaping, filling and steaming are practical culinary skills; these accounts provide no measured thermal study, nutrient analysis or demonstrated health benefit.",
+          "evidence_class": "editorial_interpretation",
           "source_ids": [],
           "locator": ""
         },
         {
-          "title": "A visitor’s next step",
-          "text": "A future guide can explain what the offering means, but temple access, crowd arrangements and distribution need current checks. No ticket, serving time or availability is established by this historical description.",
+          "title": "A source disagreement we will not hide",
+          "text": "Incredible India’s text says the thief becomes a white cow, whereas Odisha Tourism says the calf changes colour. We record the discrepancy without declaring it a distinct local tradition or silently correcting either publisher. Their temple-history assertions also lack the original records needed here to establish a founding date.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-dhabaleswar-tourism",
+            "osha-dhabaleswar-incredibleindia"
+          ],
+          "locator": "Odisha Tourism opening paragraph; Incredible India: A tale of divine intervention and The magnificence of Dhabaleswar Temple"
+        },
+        {
+          "title": "Reading before a visit",
+          "text": "The food association can guide cultural curiosity in Kartika, but it does not promise a meal or permission to join worship. Confirm the festival notice, access arrangements and offering distribution separately. This study establishes no annual date, serving venue, opening hours or present bridge conditions.",
           "evidence_class": "visitor_context",
           "source_ids": [],
           "locator": ""
         }
       ],
       "food_names": [
-        "steamed gaja offering"
+        "steamed gaja offering",
+        "gaja bhoga",
+        "atakali"
       ],
       "related_food_paths": [],
       "questions": [
-        "What does the Dhabaleswar authority call the offering and its preparation?",
-        "Which date marks the fast and which marks its breaking?"
+        "Which dated Bada Osha katha and exact Padma Purana passage can be inspected?",
+        "How do temple cooks distinguish gaja shapes, filling and atakali across occasions?",
+        "What does a temple-issued annual schedule say about fasting, offering and distribution?",
+        "What original record can reconcile the two tourism retellings and the shrine’s construction chronology?"
       ],
       "coverage_status": "research_note",
       "origin_date": null,
@@ -591,8 +682,10 @@
       "serving_places": [],
       "local_review": null,
       "source_ids": [
+        "osha-mahanti",
         "osha-jagatsinghpur",
-        "osha-mahanti"
+        "osha-dhabaleswar-tourism",
+        "osha-dhabaleswar-incredibleindia"
       ],
       "canonical_path": "culture/osha/bada.md",
       "route": "/culture/osha/bada/",
@@ -1458,6 +1551,345 @@
       "canonical_path": "culture/osha/nuakhai.md",
       "route": "/culture/osha/nuakhai/",
       "checked_on": "2026-10-07"
+    },
+    {
+      "id": "OSHA-019",
+      "slug": "bata",
+      "name": "Bata Osha",
+      "traditional_month": "Pausa in Mahanti; Margasira culmination in Sarangi",
+      "observance_type": "osha",
+      "lead": "A village path becomes a place of prayer. Accounts of Bata Osha bring sweeping, family welfare and food offerings into the same ritual space, while disagreeing on its calendar and related names.",
+      "sections": [
+        {
+          "title": "A story of protection",
+          "text": "Sarangi relates a tradition that Kunti performed this worship during the Pandavas’ exile and entrusted her sons’ protection to Yama. This is her retelling; an exact epic passage or dated katha witness has not been inspected. It cannot establish when the observance began.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Margasira road-sweeping/Bata paragraph before Prathamastami"
+        },
+        {
+          "title": "The work of tending a path",
+          "text": "Sarangi describes girls sweeping together with bajramuli brooms during Margasira, accompanied by a song. Her account culminates at the full moon with a decorated panthei pit and images of the Pandavas and Yama. She interprets cleared paths as helping families carrying harvested rice. That practical explanation is an author’s interpretation, not demonstrated proof of the ritual’s origin.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Margasira opening, song and following paragraph"
+        },
+        {
+          "title": "Worship outside the house",
+          "text": "Mahanti describes women worshipping Yama at crossroads for husbands and children, with the offering covered by a bajramuli branch. He treats the outdoor location as meaningful in relation to Yama. This describes a source-specific practice; it does not identify a present public ceremony or permission for visitors to join.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.60 / PDF76"
+        },
+        {
+          "title": "Manda, chakuli and the covered offering",
+          "text": "Sarangi names fruit, manda and chakuli pitha as offerings. Dash and Mahanti describe covered bhoga without specifying that same menu. We therefore keep the named foods attributed to Sarangi. Her passage does not specify dough, filling or cooking method; it cannot identify the manda as the particular sijha preparation in our food entry.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-sarangi2018",
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Sarangi Bata paragraph; Dash printed15 / PDF1; Mahanti printed60 / PDF76"
+        },
+        {
+          "title": "Names that should not yet be merged",
+          "text": "Dash lists Bata with Yama and separately lists Danda Panhara with Shiva in Pausa. Mahanti calls the observance Bata or Danda pahara and describes Yama worship. We preserve both records without declaring the names universally interchangeable or claiming two independently established traditions. Local naming and textual comparison remain necessary.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15 / PDF1; Mahanti printed60 / PDF76"
+        },
+        {
+          "title": "Why there is no single date here",
+          "text": "Mahanti specifies Pausa’s dark-fortnight second day. Sarangi’s sequence culminates at the Margasira full moon. We do not reconcile these descriptions by guessing at local calendars or ritual stages. The traditional timing stays source-specific, and no annual Gregorian date is supplied.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Mahanti printed60 / PDF76; Sarangi Margasira/Bata sequence"
+        },
+        {
+          "title": "What the practice makes visible",
+          "text": "An editorial reading connects care for relatives with work in shared village space. Sweeping and food preparation are practical skills, but these accounts provide no measured health outcome, sanitation trial or botanical identification of bajramuli. Nor do an author’s statements about decline establish that the practice has disappeared across Odisha today.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "A book lead, not a recovered history",
+          "text": "OdiaPortal advertises a Bata Osha–Danda Pahanra text and directs readers to an Android app. Its claim of a 1970s book has not been checked against an imprint. The landing page was readable; the book’s contents, authorship and date remain unverified. No complete katha or earliest historical witness is claimed.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-bata-odiaportal"
+          ],
+          "locator": "About Book and app-only download notice"
+        },
+        {
+          "title": "For a visitor following the food year",
+          "text": "Use this entry to understand a cultural association and ask about local practice. No venue, public food distribution, annual event date, host consent or current serving availability has been established. Manda and chakuli can be explored as foods without treating a private vow as a bookable experience.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "manda pitha in Sarangi’s account",
+        "chakuli pitha in Sarangi’s account",
+        "fruit offerings"
+      ],
+      "related_food_paths": [
+        "food/manda-pitha"
+      ],
+      "questions": [
+        "Which dated Bata or Danda Panhara text can be inspected with its imprint?",
+        "How do local observers distinguish Bata, Danda Panhara and similarly named Panthei practices?",
+        "Do the different calendar statements describe local variants, stages or an error?",
+        "Which manda and chakuli preparations are offered in a named household or locality?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-kanji-sarangi2018",
+        "osha-bata-odiaportal"
+      ],
+      "canonical_path": "culture/osha/bata.md",
+      "route": "/culture/osha/bata/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "OSHA-020",
+      "slug": "pandu",
+      "name": "Pandu Osha",
+      "traditional_month": "Margasira",
+      "observance_type": "osha / brata",
+      "lead": "Pandu Osha connects a full-moon observance with family welfare, offerings and girls’ ritual work. Its name points towards epic figures, but the surviving descriptions do not tell one settled history.",
+      "sections": [
+        {
+          "title": "Pandu or Yudhisthira?",
+          "text": "Dash’s 2006 inventory associates Pandu Osha Brata with Yudhisthira. Mahanti records both Yudhisthira and Pandu, father of the Pandavas, as reported dedications. We keep those alternatives visible. The appearance of epic names in these accounts does not date the observance to the epic period.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15 / PDF1; Mahanti printed60 / PDF76"
+        },
+        {
+          "title": "Brief stories, not a recovered katha",
+          "text": "Puriwaves gives two brief traditions: an unnamed Kalinga royal couple whose fortune changes after observing the vow, and Kandu receiving an appearance of Pandu Nrusingh at Puri. Neither is a dated historical event, and the page supplies no inspected original text for either account. We do not combine them into one origin story.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Two narrative paragraphs preceding food description"
+        },
+        {
+          "title": "A shaped offering under the full moon",
+          "text": "Puriwaves describes chanda as a moon-shaped preparation of puffed rice, milk and sugar, offered with fruit, khechudi and white manda. Its photograph caption uses Chanda Chakata and credits odiafoods.in. This is an attributed food description, not a verified recipe or universal menu. The rice-processing term and the relationship between caption and preparation need confirmation.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Food paragraph and Chanda Chakata caption"
+        },
+        {
+          "title": "The work of girls and the unsettled sequence",
+          "text": "Mahanti connects the observance with girls praying for brothers and says road sweeping begins on the full moon and continues into the next month. Puriwaves instead says the sweeping cycle concludes then. Our Bata study records another related sequence. These differences remain unresolved; the observances are linked for comparison, not treated as interchangeable names.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Mahanti printed60 / PDF76; Puriwaves sweeping paragraph"
+        },
+        {
+          "title": "Rice also appears as a drawing material",
+          "text": "Biswal and Dash’s 2020 journal article names Pandu among observances associated with jhoti. Their general technique section describes rice paste applied with fingers, cloth or a simple cloth-tipped stick. It does not identify a Pandu-specific design. That distinction lets us connect food and material skill without inventing an offering or ritual pattern.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jhoti-biswal-dash2020"
+          ],
+          "locator": "Printed117 / PDF118, item9 and Raw materials and Techniques"
+        },
+        {
+          "title": "What can be said about its significance",
+          "text": "An editorial reading places family care beside collective work and shaped offerings. The full moon may help a reader understand the food’s reported form, but this study has not demonstrated the historical origin of that symbolism. Preparing paste, shaping food and organising shared activity are practical knowledge; no measured health effect or food-science experiment follows from these descriptions.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "History and calendar boundaries",
+          "text": "Mahanti places Pandu Osha on Margasira Purnima. No annual Gregorian date has been verified here. Puriwaves’ worship-time wording is unclear and is not used to prescribe a schedule. Mahanti’s statement about the practice no longer being observed has no supplied survey or observation date, so we do not treat it as proof of statewide disappearance today.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-pandu-puriwaves"
+          ],
+          "locator": "Mahanti printed60 / PDF76; Puriwaves food/timing paragraph"
+        },
+        {
+          "title": "An author name is a research lead",
+          "text": "OdiaPortal’s post of 20 December 2018 labels its advertised Pandu Osha book as written by Ananta Das. The scan is app-only in this pass. We have not inspected an imprint, matched that name to a particular historical author or read the text. The post therefore supplies a lead, not a composition date or verified authorship.",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-pandu-odiaportal"
+          ],
+          "locator": "About Book, displayed post date and app-only notice"
+        },
+        {
+          "title": "For a visitor following seasonal foods",
+          "text": "The reported manda name does not identify the specific sijha manda preparation in our food entry. Nor does a temple photograph or festival-food caption establish a serving venue. Current availability, access to worship, annual dates and host consent remain unknown.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "chanda / Chanda Chakata in Puriwaves",
+        "fruit offerings",
+        "khechudi in Puriwaves",
+        "white manda / shukla manda in Puriwaves"
+      ],
+      "related_food_paths": [
+        "food/manda-pitha"
+      ],
+      "questions": [
+        "Can the advertised Pandu Osha text be recovered with title page, imprint and readable passages?",
+        "How do local observers explain Pandu, Yudhisthira and Kandu/Nrusingh associations?",
+        "Does the sweeping cycle begin or conclude at Pandu Purnima in each named locality?",
+        "Which rice preparation is used in chanda, and how do cooks distinguish it from other moon-shaped offerings?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-pandu-puriwaves",
+        "osha-pandu-odiaportal",
+        "osha-jhoti-biswal-dash2020"
+      ],
+      "canonical_path": "culture/osha/pandu.md",
+      "route": "/culture/osha/pandu/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "OSHA-021",
+      "slug": "shani-tota",
+      "name": "Shani / Tota Osha",
+      "traditional_month": "No fixed month in Mahanti’s account",
+      "observance_type": "osha",
+      "lead": "Shani or Tota Osha introduces a different rhythm to the food calendar: a Saturday vow rather than one annual festival season.",
+      "sections": [
+        {
+          "title": "Why a mango grove?",
+          "text": "Dash’s April 2006 inventory names Shani Osha and Tota Osha together and places Saturday worship in a mango grove. Mahanti explains the grove or temple setting through a belief that Shani should remain outside the home. This is an attributed explanation of the name and setting, not a demonstrated origin history.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed15 / PDF1; Mahanti printed53 / PDF69"
+        },
+        {
+          "title": "A promise with a beginning and an end",
+          "text": "Mahanti describes fasting and Saturday worship for a personally vowed period, without a fixed month. An udyapana concludes the vow on its last Saturday. The account does not prescribe one duration for everyone.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed54 / PDF70, opening paragraph and note36"
+        },
+        {
+          "title": "Food and ritual materials have different roles",
+          "text": "The Tota Osha passage names black-gram khichidi as an offering, alongside black cloth and tila oil. Mahanti’s separate Saturday account describes eating black-gram kechidi with sesame seeds. These are two passages in one book, not independent confirmations of a recipe. Oil listed for worship is not automatically a cooking ingredient.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed54 / PDF70 and printed64 / PDF80"
+        },
+        {
+          "title": "A Hanuman story in the Saturday account",
+          "text": "Mahanti recounts a legend in which Hanuman rescues Shani from Ravana during the burning of Lanka. Shani then promises to spare Hanuman’s devotees. This is context supplied in the Saturday section; it is not an inspected complete Tota Osha katha or a verified passage from an identified epic edition.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed64 / PDF80, Sanibara paragraph"
+        },
+        {
+          "title": "Shani Osha and Sanishchara Mela",
+          "text": "Dash separately lists Shani/Tota among oshas and Sanishchara among melas. We retain those source categories. A shared deity and weekday do not settle whether all local performances, stories and offerings are interchangeable. Dash’s general discussion of rice and black-gram cakes is not a Shani-specific menu.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed15 / PDF1; printed16 / PDF2, mela list; printed17 / PDF3, general discussion"
+        },
+        {
+          "title": "Significance without an invented chronology",
+          "text": "An editorial reading centres on how a vow gives repetition and an ending to a period of uncertainty. Food, restraint and a chosen place of worship make that commitment tangible. Establishing how this practice developed historically needs dated texts and locality-specific accounts. Neither a deity’s antiquity nor a modern description dates this particular observance.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "What remains to learn about practical knowledge",
+          "text": "The food description leaves the grain proportions, soaking, cooking vessel, heat, timing and sharing sequence unspecified. These are worthwhile questions for documented recipes and consented conversations with practitioners. Fasting and planetary protection remain attributed ritual beliefs; this research establishes no nutritional benefit, medical effect or measured influence of Saturn. A grove setting alone does not demonstrate a conservation outcome.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For visitors following the food calendar",
+          "text": "Browse this entry under recurring Saturdays, with no fixed seasonal window. The record supplies neither a current public event nor a place serving the food. Host consent, access, serving availability and local variations remain unknown. A private vow is not a visitor offer.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "black-gram khichidi (Tota Osha offering in Mahanti)",
+        "black-gram kechidi with sesame seeds (broader Saturday account in Mahanti)"
+      ],
+      "related_food_paths": [],
+      "questions": [
+        "Can an original Shani/Tota Osha katha be recovered with title page, imprint and readable passages?",
+        "How do named local communities distinguish Tota Osha, Shani puja and Sanishchara Mela?",
+        "What are the preparation and sharing sequences for the black-gram dish in each locality?",
+        "How are vowed duration, concluding rites and temple or grove settings chosen locally?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti"
+      ],
+      "canonical_path": "culture/osha/shani-tota.md",
+      "route": "/culture/osha/shani-tota/",
+      "checked_on": "2026-10-07"
     }
   ],
   "sources": {
@@ -1593,7 +2025,49 @@
         "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-deep-study/mahanti.pdf",
         "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
         "transport_note": "Public-document-only request with certificate verification disabled after saved expiry errors; no persistent TLS configuration change. Content requires publisher/metadata cross-check."
-      }
+      },
+      "inspection_history": [
+        {
+          "run_id": "2026-10-07-bada",
+          "checked_at": "2026-10-07T15:16:36.875158+00:00",
+          "locator": "Printed pp.58–59 / PDF74–75",
+          "scope": "Saved original visually inspected for Bada Osha food process, ritual sequence and attributed Indra story; Padma Purana edition and verse not supplied or inspected."
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-07-kanji-anla",
+          "checked_at": "2026-10-07T16:19:02.056682+00:00",
+          "locator": "Printed p.60 / PDF76",
+          "scope": "Saved original visually inspected for Kanji Anla; reuse of same publication, not fresh independent corroboration.",
+          "saved_pdf": "work/osha-deep-study/mahanti.pdf",
+          "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+          "visually_inspected_pdf_pages": [
+            76
+          ]
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-07-bata",
+          "checked_at": "2026-10-07T18:14:46.767625+00:00",
+          "locator": "Printed p.60 / PDF76, Bata or Danda pahara osha paragraph",
+          "scope": "Saved original page visually inspected for alias, date, deity and covered offering."
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-07-pandu",
+          "checked_at": "2026-10-07T19:12:35.522619+00:00",
+          "locator": "Printed60 / PDF76, Pandu and following Bata paragraphs",
+          "scope": "Saved original text and previously inspected page image reused; same publication, not independent corroboration."
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-07-shani",
+          "checked_at": "2026-10-07T20:15:01.398783+00:00",
+          "locator": "Printed53–54 / PDF69–70, Sani or Tota osha; printed64 / PDF80, Sanibara",
+          "method": "Saved original text and three newly rendered page images inspected",
+          "scope": "Existing original reused; not a new retrieval or independent corroboration."
+        }
+      ]
     },
     "osha-patra2019": {
       "id": "osha-patra2019",
@@ -1655,7 +2129,44 @@
         "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-deep-study/dash2006.pdf",
         "sha256": "b24996180df6c72ef750b9aa0c7c09b86cf17a3187d2b3d2dd5958950c62fc23",
         "transport_note": "Public-document-only request with certificate verification disabled after saved expiry errors; no persistent TLS configuration change. Content requires publisher/metadata cross-check."
-      }
+      },
+      "inspection_history": [
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-07-kanji-anla",
+          "checked_at": "2026-10-07T16:19:02.056682+00:00",
+          "locator": "Printed pp.15 and18, note2 / PDF1 and4",
+          "scope": "Saved original visually inspected for Kanji Anla; reuse of same publication, not fresh independent corroboration.",
+          "saved_pdf": "work/osha-deep-study/dash2006.pdf",
+          "sha256": "b24996180df6c72ef750b9aa0c7c09b86cf17a3187d2b3d2dd5958950c62fc23",
+          "visually_inspected_pdf_pages": [
+            1,
+            4
+          ]
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-07-bata",
+          "checked_at": "2026-10-07T18:14:46.767625+00:00",
+          "locator": "Printed p.15 / PDF1",
+          "scope": "Saved original page visually inspected for separate Bata and Danda Panhara entries."
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-07-pandu",
+          "checked_at": "2026-10-07T19:12:35.522619+00:00",
+          "locator": "Printed15 / PDF1, Pandu Osha Brata entry",
+          "scope": "Saved original text and previously inspected page image reused; same publication, not independent corroboration."
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-07-shani",
+          "checked_at": "2026-10-07T20:15:01.398783+00:00",
+          "locator": "Printed15 / PDF1, Shani/Tota entry; printed16 / PDF2 and printed17 / PDF3, Sanishchara Mela entries",
+          "method": "Saved original text; previously inspected PDF1 image reused",
+          "scope": "Existing original reused; not a new retrieval or independent corroboration."
+        }
+      ]
     },
     "osha-samba2013": {
       "id": "osha-samba2013",
@@ -1900,6 +2411,108 @@
       "scope": "Authored cultural essay, author credited as Curator-in-Charge, Archaeology Section, Odisha State Museum. Original three-page publisher PDF inspected. Oral origin tradition and uninspected 1991-order assertion remain attributed, not established chronology; meal lists do not establish a universal recipe or current venue.",
       "sha256": "e3373369af2a1fb9c60950f3ed96ebc67172e4466c97dc2d4a10dc5fbcb3dabd",
       "retrieval_note": "Web timed out; shell TLS certificate expired. Recovered with one-request curl certificate exception; no persistent security configuration changed."
+    },
+    "osha-dhabaleswar-tourism": {
+      "id": "osha-dhabaleswar-tourism",
+      "title": "Dhabaleswar Temple",
+      "publisher": "Odisha Tourism, Government of Odisha",
+      "author": null,
+      "resource": "https://odishatourism.gov.in/w/dhabaleswar-temple",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "Discover the Heritage: opening Dhabaleswar Temple paragraph",
+      "scope": "Official promotional retelling of the black-calf legend. It supports attribution of a story, not a dated miracle, founding chronology, current bridge access or visitor service. Publication date not displayed in inspected passage.",
+      "sha256": "2597129b8e3e428987d75d8f5cf2d6f7ea5f8ec23a28c3c18b716a5ac4a827df",
+      "retrieval_note": "Web extraction cache miss and initial sandbox DNS failure; network-enabled direct HTTPS retrieval succeeded with normal TLS."
+    },
+    "osha-dhabaleswar-incredibleindia": {
+      "id": "osha-dhabaleswar-incredibleindia",
+      "title": "Visit the divine Dhabaleswar Temple in Cuttack",
+      "publisher": "Ministry of Tourism, Government of India (Incredible India)",
+      "author": null,
+      "resource": "https://www.incredibleindia.gov.in/en/odisha/cuttack/dhabaleswar-temple",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "A tale of divine intervention; The magnificence of Dhabaleswar Temple",
+      "scope": "Official promotional page inspected via web extraction. Transformation subject differs from Odisha Tourism and construction chronology lacks an inspected underlying authority. Preserve as an unresolved source-wording conflict, not independent proof or a demonstrated oral variant.",
+      "retrieval_note": "Web page opened successfully; no local original HTML capture or physical temple inspection."
+    },
+    "osha-kanji-sarangi2018": {
+      "id": "osha-kanji-sarangi2018",
+      "title": "ଓଡିଆ ଘରେ ‘ଶୀତ ଋତୁ’",
+      "author": "ଡ଼ଃ ନମିତା ଷଡ଼ଙ୍ଗୀ (Dr. Namita Sarangi)",
+      "publisher": "Samadhwani",
+      "resource": "https://samadhwani.com/1311",
+      "published_on": "2018-01-08",
+      "accessed_on": "2026-10-07",
+      "locator": "Paragraph beginning with Margasira Krishna Ashtami / Prathamastami; Kanji Anla passage within it (web extraction line172)",
+      "scope": "Authored Odia cultural essay: source-specific Kanji Anla calendar, cooking and ritual description. No dated fieldwork, household sample or tested health evidence; author affiliation does not identify the described locality.",
+      "retrieval_note": "Web extraction opened successfully on 2026-10-07. Publication date displayed on page; no original HTML archive, interview or image reuse claimed.",
+      "inspection_history": [
+        {
+          "source_id": "osha-kanji-sarangi2018",
+          "run_id": "2026-10-07-bata",
+          "checked_at": "2026-10-07T18:14:46.767625+00:00",
+          "locator": "Margasira road-sweeping, song and Bata paragraphs before Prathamastami (web lines162–171)",
+          "scope": "Existing publication identity reused; newly scoped passage inspected through web extraction. Previous Kanji scope preserved."
+        }
+      ]
+    },
+    "osha-kanji-mahakud2021": {
+      "id": "osha-kanji-mahakud2021",
+      "title": "କାଞ୍ଜିଅଁଳା ଓଷା",
+      "author": "ମନୋରଞ୍ଜନ ମିଥୁନ ମହାକୁଡ଼ (Manoranjan Mithun Mahakud)",
+      "publisher": "Antaranga Kalinga",
+      "resource": "https://antarangakalinga.org/କାଞ୍ଜିଅଁଳା-ଓଷା/",
+      "published_on": "2021-05-06",
+      "accessed_on": "2026-10-07",
+      "locator": "Opening calendar paragraph; two story paragraphs; ritual procedure heading; separate scientific-reason heading (web extraction lines83–92)",
+      "scope": "Modern authored Odia devotional retelling and ritual description. No identified older edition, manuscript, locality or fieldwork date. Health assertions are not adopted as scientific evidence.",
+      "retrieval_note": "Web extraction opened successfully on 2026-10-07. Publication date displayed on page; no original HTML archive, interview or image reuse claimed."
+    },
+    "osha-bata-odiaportal": {
+      "id": "osha-bata-odiaportal",
+      "title": "Download Bata Osha – Danda Pahanra Bahi Gita",
+      "author": "OdiaPortal Lab (uploader; book author unknown)",
+      "publisher": "OdiaPortal",
+      "resource": "https://www.odiaportal.in/2015/12/Bata-Osha-Danda-Pahanra-Brata-Katha-Odia-PDF.html",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "About Book and app-only download notice",
+      "scope": "Inspected landing-page metadata only. The uploader labels the unknown-owner book as 1970s; no imprint or pages were inspected, so edition and composition dates remain unverified. App-only access prevented this desktop pass from reading the text. No scan redistribution or image rights claimed."
+    },
+    "osha-pandu-puriwaves": {
+      "id": "osha-pandu-puriwaves",
+      "title": "Pandu Purnima Osha",
+      "author": null,
+      "publisher": "Puriwaves",
+      "resource": "https://puriwaves.nirmalya.in/festivals/pandu-osha-in-odisha",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "Narratives; food paragraph and Chanda Chakata caption; sweeping paragraph (web lines27–36)",
+      "scope": "Modern heritage-page description and captions, not fieldwork or an inspected katha. Article byline and publication date not displayed in extracted page. Food photograph credited to odiafoods.in; that original account was not inspected. Similar repeated story wording across other blogs is not independent corroboration. Timing and ingredient glosses require local/textual clarification."
+    },
+    "osha-pandu-odiaportal": {
+      "id": "osha-pandu-odiaportal",
+      "title": "Download Pandu Osha Bahi Gita – Odia eBook",
+      "author": "OdiaPortal Lab (uploader)",
+      "publisher": "OdiaPortal",
+      "resource": "https://www.odiaportal.in/2018/12/Download-Pandu-Osha-Odia-eBook.pdf.html",
+      "published_on": "2018-12-20",
+      "accessed_on": "2026-10-07",
+      "locator": "Displayed post date; About Book; app-only access notice (web lines27–57)",
+      "scope": "Landing page attributes the advertised book to Ananta Das; author identity, edition, imprint and contents uninspected. Page publication date is not composition or edition date. Book only offered through Android app in this pass; no scan rights or redistribution claimed."
+    },
+    "osha-jhoti-biswal-dash2020": {
+      "id": "osha-jhoti-biswal-dash2020",
+      "title": "Socio-Cultural Context and Aesthetic Values of 'Jhoti'",
+      "author": "Chintamani Biswal and Jagannath Dash",
+      "publisher": "Man in Society, volume27 (2020), pp.113–120; Utkal University-hosted issue",
+      "resource": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+      "published_on": "2020",
+      "accessed_on": "2026-10-07",
+      "locator": "Printed113 / PDF114: title, authors and introduction; printed117 / PDF118: item9 and materials/techniques",
+      "scope": "Selected original journal text extracted from university-hosted PDF. Names Pandu among observances associated with jhoti; general techniques are not a specific Pandu design or sampled local ritual. No fieldwork sample/date is established by the inspected passages. Page-image retrieval failed; no visual inspection claimed. Broad historical, nutritional and universal-practice assertions are not adopted."
     }
   },
   "next_observances": [
@@ -1915,12 +2528,13 @@
     },
     {
       "name": "Shani / Tota Osha",
-      "status": "research_question",
+      "status": "profile_checkpoint_saved",
       "source_ids": [
         "osha-review2006",
         "osha-mahanti"
       ],
-      "note": "Name-discovery inventory only; aliases, regional scope, history and foods require verification."
+      "note": "Recurring Saturday vow; scoped offering and broader Saturday food passage; complete katha and earliest date unresolved.",
+      "profile_path": "culture/osha/shani-tota.md"
     },
     {
       "name": "Sathi Osha",
@@ -1953,12 +2567,13 @@
     },
     {
       "name": "Bata Osha",
-      "status": "research_question",
+      "status": "profile_checkpoint_saved",
       "source_ids": [
         "osha-review2006",
         "osha-mahanti"
       ],
-      "note": "Name-discovery inventory only; aliases, regional scope, history and foods require verification."
+      "note": "Source-specific food, Kunti retelling and calendar/name conflicts documented; early textual history open.",
+      "profile_path": "culture/osha/bata.md"
     },
     {
       "name": "Danda Panhara",
@@ -1967,16 +2582,18 @@
         "osha-review2006",
         "osha-mahanti"
       ],
-      "note": "Name-discovery inventory only; aliases, regional scope, history and foods require verification."
+      "note": "Compared with Bata in culture/osha/bata.md: Dash separates Shiva entry; Mahanti uses a Yama-linked alias. Identity unresolved; do not create duplicate profile or merge universally. Retry dated text/local clarification 2026-10-14.",
+      "related_profile_path": "culture/osha/bata.md"
     },
     {
       "name": "Pandu Osha",
-      "status": "research_question",
+      "status": "profile_checkpoint_saved",
       "source_ids": [
         "osha-review2006",
         "osha-mahanti"
       ],
-      "note": "Name-discovery inventory only; aliases, regional scope, history and foods require verification."
+      "note": "Reported dedications, brief stories, scoped food description and sweeping conflict; original katha and authorship unresolved.",
+      "profile_path": "culture/osha/pandu.md"
     },
     {
       "name": "Bali Trutiya",
@@ -2204,7 +2821,11 @@
     {
       "id": "OSHA-B05",
       "scope": "Bada, Kanji Anla, Bata, Danda Panhara, Pandu and Shani: primary local accounts and calendar conflicts",
-      "status": "pending"
+      "status": "checkpoint_saved",
+      "checkpoint": "Bada, Kanji Anla, Bata, Pandu and Shani/Tota checkpoints saved; Danda identity held. Local B05 extension ready for reconciliation review, with textual, calendar and locality gaps retained.",
+      "next_step": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority.",
+      "retry_after": "2026-10-14",
+      "retry_scope": "Bada Osha original katha/Puranic citation, temple schedule, tourism-wording conflict and Cuttack original records. Kanji Anla dated textual witness, locality-specific calendar and ritual/food role clarification. Bata/Danda names, calendar and original katha; Odisha Review2012 Panthei/Bata indexed lead requires original recovery. Pandu original text/imprint, Ananta Das identity, food terminology and sweeping sequence. Shani/Tota original katha, dated history, local mela distinctions and food preparation."
     },
     {
       "id": "OSHA-B06",

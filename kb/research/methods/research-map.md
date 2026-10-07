@@ -425,3 +425,7 @@ B02/B03 identities reconciled: three new observances, textual witnesses and Suda
 ## 2026-10-07 · B04 research checkpoints
 
 B04 identities reconciled: Pua Jiuntia, Bhai Jiuntia and Nuakhai. Eighteen profiles remain incomplete histories.
+
+## 2026-10-07 · B05 research checkpoints
+
+B05 identities reconciled: Bada, Kanji Anla, Bata, Pandu and Shani/Tota. Twenty-one profiles remain incomplete histories.

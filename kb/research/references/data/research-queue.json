@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-07T14:11:19.648903+00:00",
+  "updated_at": "2026-10-07T21:09:30.553967+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3395,12 +3395,12 @@
       "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
       "target": "culture/osha-brata-seasonal-food.md",
       "status": "in_progress",
-      "attempts": 10,
+      "attempts": 16,
       "dependencies": [],
-      "last_worked_at": "2026-10-07T13:10:57.095833+00:00",
-      "next_step": "Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first; retry unresolved B02/B03/B04 evidence on/after2026-10-14. Source workspace remains scheduling authority.",
+      "last_worked_at": "2026-10-07T20:15:01.398783+00:00",
+      "next_step": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority.",
       "retry_after": null,
-      "blocker": "Full textual witnesses, earliest chronology, Nuakhai1991 original order and human cultural review remain open; retry unavailable routes14October. They do not block PR145 reconciliation or B05.",
+      "blocker": "Bada full katha, Puranic passage, annual schedule and source-wording/chronology gaps retry14October. Existing B02/B03/B04 gaps retained; independent B05 work can proceed. Kanji Anla original edition and calendar locality gaps retry14October; independent Bata work can proceed. Bata/Danda identity, text and calendar gaps retry14October. Pandu textual, food and sweeping gaps retry14October. Shani/Tota original text, history and locality/food gaps retry14October.",
       "evidence_outputs": [
         "culture/osha-brata-seasonal-food.md",
         "visitor-index/seasonal-food-guide.md",
@@ -3458,7 +3458,23 @@
         "references/data/jiuntia-research.json",
         "culture/osha/nuakhai.md",
         "sources/osha-nuakhai-singh2012.md",
-        "references/data/nuakhai-research.json"
+        "references/data/nuakhai-research.json",
+        "sources/osha-dhabaleswar-tourism.md",
+        "sources/osha-dhabaleswar-incredibleindia.md",
+        "references/data/bada-research.json",
+        "sources/osha-kanji-sarangi2018.md",
+        "sources/osha-kanji-mahakud2021.md",
+        "references/data/kanji-anla-research.json",
+        "culture/osha/bata.md",
+        "sources/osha-bata-odiaportal.md",
+        "references/data/bata-research.json",
+        "culture/osha/pandu.md",
+        "sources/osha-pandu-puriwaves.md",
+        "sources/osha-pandu-odiaportal.md",
+        "sources/osha-jhoti-biswal-dash2020.md",
+        "references/data/pandu-research.json",
+        "culture/osha/shani-tota.md",
+        "references/data/shani-tota-research.json"
       ],
       "attempt_history": [
         {
@@ -3521,6 +3537,44 @@
           "run_id": "2026-10-07-nuakhai",
           "at": "2026-10-07T13:10:57.095833+00:00",
           "outcome": "nuakhai_food_history_boundaries_and_b04_checkpoint",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-b04-reconciliation",
+          "at": "2026-10-07T14:22:07.664657+00:00",
+          "outcome": "b04_three_profiles_reconciled_validated_and_pushed_to_existing_draft",
+          "completion_criteria_met": false,
+          "git_revision": "05b1cb9186bf5b0f4c69bad1535b12701e3394ad",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-07-bada",
+          "at": "2026-10-07T15:16:36.875158+00:00",
+          "outcome": "bada_food_process_and_attributed_narratives_with_conflicts_held",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-kanji-anla",
+          "at": "2026-10-07T16:19:02.056682+00:00",
+          "outcome": "kanji_anla_attributed_modern_narrative_food_comparison_calendar_conflict",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-bata",
+          "at": "2026-10-07T18:14:46.767625+00:00",
+          "outcome": "bata_profile_with_danda_identity_calendar_holds",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-pandu",
+          "at": "2026-10-07T19:12:35.522619+00:00",
+          "outcome": "pandu_profile_food_jhoti_and_textual_sequence_holds",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-shani",
+          "at": "2026-10-07T20:15:01.398783+00:00",
+          "outcome": "shani_tota_profile_recurring_vow_food_roles_and_history_holds",
           "completion_criteria_met": false
         }
       ],
@@ -3592,7 +3646,25 @@
           "culture/osha/nuakhai.md",
           "sources/osha-nuakhai-singh2012.md",
           "references/data/nuakhai-research.json",
-          "culture/ghumura.md"
+          "culture/ghumura.md",
+          "sources/osha-dhabaleswar-tourism.md",
+          "sources/osha-dhabaleswar-incredibleindia.md",
+          "references/data/bada-research.json",
+          "food/gaja-kanti-evidence.md",
+          "sources/osha-kanji-sarangi2018.md",
+          "sources/osha-kanji-mahakud2021.md",
+          "references/data/kanji-anla-research.json",
+          "food/torani-kanji.md",
+          "culture/osha/bata.md",
+          "sources/osha-bata-odiaportal.md",
+          "references/data/bata-research.json",
+          "culture/osha/pandu.md",
+          "sources/osha-pandu-puriwaves.md",
+          "sources/osha-pandu-odiaportal.md",
+          "sources/osha-jhoti-biswal-dash2020.md",
+          "references/data/pandu-research.json",
+          "culture/osha/shani-tota.md",
+          "references/data/shani-tota-research.json"
         ],
         "project_records": [
           "kb/research/product/destination-and-tour-book.md"
@@ -3637,14 +3709,18 @@
           "scope": "Western Odisha Puajiuntia/Bhaijiuntia and Nuakhai; do not merge coastal identities",
           "status": "checkpoint_saved",
           "checkpoint": "Pua Jiuntia, Bhai Jiuntia and Nuakhai have bounded regional practice/food notes. Earliest chronology, fuller texts and regional variation remain open.",
-          "next_step": "Reconcile the three validated B04 profiles and supporting records into existing draft PR145 under current destination instructions, then continue OSHA-B05 using saved sources first. Retry unresolved textual/index routes on or after2026-10-14.",
+          "next_step": "Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first. B04 profiles are pushed to draft PR145; retry unresolved B02/B03/B04 evidence on/after 2026-10-14. PR title/body refresh awaits explicit approval after automated review rejection.",
           "retry_after": "2026-10-14",
           "retry_scope": "Original Jiuntia index/article, Nuakhai historical witnesses and 1991 order; checkpoint is not completed history."
         },
         {
           "id": "OSHA-B05",
           "scope": "Bada, Kanji Anla, Bata, Danda Panhara, Pandu and Shani: primary local accounts and calendar conflicts",
-          "status": "pending"
+          "status": "checkpoint_saved",
+          "checkpoint": "Bada, Kanji Anla, Bata, Pandu and Shani/Tota checkpoints saved; Danda identity held. Local B05 extension ready for reconciliation review, with textual, calendar and locality gaps retained.",
+          "next_step": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Bada Osha original katha/Puranic citation, temple schedule, tourism-wording conflict and Cuttack original records. Kanji Anla dated textual witness, locality-specific calendar and ritual/food role clarification. Bata/Danda names, calendar and original katha; Odisha Review2012 Panthei/Bata indexed lead requires original recovery. Pandu original text/imprint, Ananta Das identity, food terminology and sweeping sequence. Shani/Tota original katha, dated history, local mela distinctions and food preparation."
         },
         {
           "id": "OSHA-B06",
@@ -3654,11 +3730,12 @@
       ],
       "website_candidate": {
         "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145",
-        "revision": "d1538a3e94abd8b36f6f93ad6cb30f3249623b4e",
+        "revision": "05b1cb9186bf5b0f4c69bad1535b12701e3394ad",
         "status": "draft_review",
         "git_push": true,
         "published": false,
-        "scope": "Previous fifteen-profile candidate; three B04 profiles remain local."
+        "scope": "Eighteen profiles, including three B04 regional checkpoints; review remains draft.",
+        "metadata_update": "Title/body still describe fifteen profiles; automated review rejected update; prepared body saved locally."
       }
     }
   ],

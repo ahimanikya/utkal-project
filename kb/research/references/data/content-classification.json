@@ -4827,6 +4827,50 @@
       "content_type": "Cultural Observance",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "food/gaja-kanti-evidence",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "economy",
+        "governance"
+      ],
+      "content_type": "Research Collection",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/bata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/pandu",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/shani-tota",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7370,6 +7414,90 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Compare rice, kinship and regional observances without treating them as one ritual."
+    },
+    {
+      "from": "culture/osha/bada",
+      "to": "food/gaja-kanti-evidence",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare names and preparation methods without treating different foods as aliases."
+    },
+    {
+      "from": "food/gaja-kanti-evidence",
+      "to": "culture/osha/bada",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare names and preparation methods without treating different foods as aliases."
+    },
+    {
+      "from": "culture/osha/kanji-anla",
+      "to": "food/torani-kanji",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare rice-water cooking without treating the modern household recipe as an exact ritual recipe."
+    },
+    {
+      "from": "food/torani-kanji",
+      "to": "culture/osha/kanji-anla",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare rice-water cooking without treating the modern household recipe as an exact ritual recipe."
+    },
+    {
+      "from": "culture/osha/bata",
+      "to": "food/manda-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a sourced offering name to separately documented preparations; no single ritual recipe implied."
+    },
+    {
+      "from": "food/manda-pitha",
+      "to": "culture/osha/bata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a sourced offering name to separately documented preparations; no single ritual recipe implied."
+    },
+    {
+      "from": "culture/osha/pandu",
+      "to": "food/manda-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare a reported offering name with separately documented preparations; no single Pandu recipe implied."
+    },
+    {
+      "from": "food/manda-pitha",
+      "to": "culture/osha/pandu",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare a reported offering name with separately documented preparations; no single Pandu recipe implied."
+    },
+    {
+      "from": "culture/osha/pandu",
+      "to": "culture/osha/bata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare related road-sweeping accounts without merging their identities or resolving the disputed sequence."
+    },
+    {
+      "from": "culture/osha/bata",
+      "to": "culture/osha/pandu",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare related road-sweeping accounts without merging their identities or resolving the disputed sequence."
+    },
+    {
+      "from": "culture/osha/shani-tota",
+      "to": "culture/osha/bata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare how sources describe outdoor ritual settings without treating the observances as the same tradition."
+    },
+    {
+      "from": "culture/osha/bata",
+      "to": "culture/osha/shani-tota",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare how sources describe outdoor ritual settings without treating the observances as the same tradition."
     }
   ],
   "relationship_types": {
