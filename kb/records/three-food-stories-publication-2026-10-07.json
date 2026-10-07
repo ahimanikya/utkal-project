@@ -1,0 +1,122 @@
+{
+  "recorded_at": "2026-10-07T07:08:20.250505+00:00",
+  "approved_by": "Ahimanikya Satapathy",
+  "approval_quote": "Approved",
+  "approval_context": "Reply to completed review candidate PR146.",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/146",
+  "reviewed_head": "7f8ab2f60b9d193b6ab5f92c87998b5b4b32d390",
+  "merge_commit": "baafb4b9762119197055c0749d633431029eb0d4",
+  "merged_at": "2026-10-07T07:03:56Z",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/37585122949",
+  "deployment_conclusion": "success",
+  "live_verification": {
+    "checked_at": "2026-10-07T07:07:12.434044+00:00",
+    "pages": [
+      {
+        "route": "/food/dalma/",
+        "status": 200,
+        "checks": {
+          "title": true,
+          "odia": true,
+          "image_credit": true,
+          "save_button": true,
+          "one_saved_identity": true,
+          "article_link": true,
+          "book_photo": true,
+          "story_sections": true,
+          "image_hash": true
+        },
+        "image": {
+          "src": "/images/food/dalma.webp",
+          "status": 200,
+          "bytes": 50930,
+          "sha256": "7c437aa042e3f73e8fb4a73c22c21111b5dd0cc0490e5fc2f0fa689b89095956"
+        }
+      },
+      {
+        "route": "/food/dahibara-aloodum/",
+        "status": 200,
+        "checks": {
+          "title": true,
+          "odia": true,
+          "image_credit": true,
+          "save_button": true,
+          "one_saved_identity": true,
+          "article_link": true,
+          "book_photo": true,
+          "story_sections": true,
+          "image_hash": true
+        },
+        "image": {
+          "src": "/images/regions/cuttack-dahibara.webp",
+          "status": 200,
+          "bytes": 119792,
+          "sha256": "1a9c32d5fadbd424eba8cc07eb56efc2c6dcaf7dd03d4aab6457e94a667742ac"
+        }
+      },
+      {
+        "route": "/food/machha-besara/",
+        "status": 200,
+        "checks": {
+          "title": true,
+          "odia": true,
+          "image_credit": true,
+          "save_button": true,
+          "one_saved_identity": true,
+          "article_link": true,
+          "book_photo": true,
+          "story_sections": true,
+          "image_hash": true
+        },
+        "image": {
+          "src": "/images/food/machha-besara.webp",
+          "status": 200,
+          "bytes": 126134,
+          "sha256": "27474443f5e9cf8a215dd59971b5053c2ac2137c8170ae1c2131e1075b1004ee"
+        }
+      }
+    ],
+    "connections": [
+      {
+        "route": "/explore/",
+        "linked_foods": [
+          "dalma",
+          "dahibara-aloodum",
+          "machha-besara"
+        ]
+      },
+      {
+        "route": "/food/",
+        "linked_foods": [
+          "dalma",
+          "dahibara-aloodum",
+          "machha-besara"
+        ]
+      },
+      {
+        "route": "/journey-starters/bhubaneswar-objects-ideas/",
+        "linked_foods": [
+          "dalma"
+        ]
+      },
+      {
+        "route": "/journey-starters/cuttack-river-silver/",
+        "linked_foods": [
+          "dahibara-aloodum"
+        ]
+      },
+      {
+        "route": "/journey-starters/puri-craft-connections/",
+        "linked_foods": [
+          "machha-besara"
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "Live verification was read-only HTTP/content/image verification; browser interactions and book export tests were performed on the review candidate.",
+    "Local arrangements remain unverified and deferred under WORK188; wider WORK082 scope remains open.",
+    "Existing eleven-page search-indexing approval is unchanged.",
+    "Same assistant implemented and verified the release; no independent review claimed."
+  ]
+}

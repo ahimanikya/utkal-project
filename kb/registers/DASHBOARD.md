@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `0d72173db5eba5436586062147b1346fa1eece2fed7276d230789c6695e67cbf`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5622e0a71af9015dda2a7b1994ac06edecc72627fe4f3033d2e02d4f1e58c74a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -197,7 +197,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
 | UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
-| UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | awaiting_review | reviewed | Ahimanikya Satapathy | Review the three food stories and bounded backlog reconciliation in the candidate PR. Local verification remains deferred; publication requires Founder approval. | — |
+| UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
 
 ## Pending human review and decisions
@@ -254,7 +254,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-187 | Review the three food stories and bounded backlog reconciliation in the candidate PR. Local verification remains deferred; publication requires Founder approval. |
 
 ## Decisions
 
@@ -483,6 +482,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026100603 · Publish the approved Konark homepage sharing image | approved | Ahimanikya Satapathy | Reply to Shall I publish this version? for PR143, candidate 2c4ecc52ab5584341a2ecba8f6a64df39e2b940d. Authorizes merge and publication of the reviewed image. |
 | UTP-DEC-222 · Publish the three reviewed flexible visit plans | approved | Ahimanikya Satapathy | Merge PR144 and deploy the three reviewed flexible visit plans, saved starters and portable book integration. |
 | UTP-DEC-223 · Prepare three food stories and reconcile published backlog work | approved | Ahimanikya Satapathy | Dalma, Dahibara Aloodum and Machha Besara stories; saved-journey and book connections; bounded backlog reconciliation. Local introductions and provider confirmations stay deferred. Prepare a review candidate; no new publication authorization recorded. |
+| UTP-DEC-224 · Publish the approved three food stories | approved | Ahimanikya Satapathy | Merge PR146 and deploy the reviewed three food stories, journey/book integration and bounded backlog reconciliation. |
 
 ## Reviews
 
@@ -722,6 +722,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-074 · Kala Bhoomi, Dhauli and Pipili visitor stories published | published | https://utkalproject.org/visit/experiences/kala-bhoomi/ | UTP-DEC-220 |
 | UTP-REL-2026100602 · Human Natural Konark homepage sharing image published | published | https://utkalproject.org/ | UTP-DEC-2026100603 |
 | UTP-REL-075 · Three flexible illustrated visit plans published | published | https://utkalproject.org/journey-starters/#short-visits | UTP-DEC-222 |
+| UTP-REL-076 · Dalma, Dahibara Aloodum and Machha Besara stories published | published | https://utkalproject.org/food/ | UTP-DEC-224 |
 
 ## Sources and assets
 
@@ -759,7 +760,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-254 | 2026-10-06T12:03:13.305515+00:00 | Prepared a connected illustrated Jobra article, checked dated photo rights and museum hours, and reviewed the three story layouts and journey save flow. | Submit the checked candidate for Founder publication review. |
 | UTP-EVT-255 | 2026-10-06T12:45:45.035575+00:00 | Founder-approved PR141 merged; deployment succeeded. Live Jobra story, three exact photo hashes and Cuttack/Things to Do discovery links verified. | Continue the next approved editorial batch. |
 | UTP-EVT-256 | 2026-10-07T03:21:20.247282+00:00 | Prepared connected illustrated Kala Bhoomi, Dhauli and Pipili stories with documentary images and portable visitor context. | Founder editorial review and publication decision. |
 | UTP-EVT-257 | 2026-10-07T03:43:10.536279+00:00 | Founder-approved PR142 merged; Pages deployment succeeded. Three live stories, exact museum photo hashes and discovery connections verified. | Continue the next authorized research and editorial batch. |
@@ -769,6 +769,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026100604 | 2026-10-07T04:44:39.739070+00:00 | Founder approved publication with Yes. PR143 merged and publication workflow 37572605182 succeeded. Live homepage Open Graph/Twitter tags and image hash match the approved Konark artwork. | Complete; external sharing caches may take time to update. |
 | UTP-EVT-259 | 2026-10-07T05:09:18.412523+00:00 | Founder-approved PR144 merged and Pages deployment succeeded. Three live plans, nine photographs, discovery links and three-item journey payloads verified. | Continue authorized research; provider-confirmed itinerary work remains separate. |
 | UTP-EVT-260 | 2026-10-07T06:43:37.928214+00:00 | Three illustrated food stories prepared with preserved journey IDs, portable-book reading and bounded backlog reconciliation. Automated and responsive browser checks passed. | Founder review of candidate; local arrangements remain deferred. |
+| UTP-EVT-261 | 2026-10-07T07:08:20.250505+00:00 | Founder-approved PR146 merged and GitHub Pages deployment succeeded. Three live stories, licensed image hashes, stable journey IDs, book photographs and discovery/visit-plan links verified. | Continue authorized research; field-dependent verification remains deferred. |
 
 ## Deferred extensions
 

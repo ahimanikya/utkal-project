@@ -5528,21 +5528,24 @@
       "id": "UTP-WORK-187",
       "title": "Three illustrated food stories and publication backlog reconciliation",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-223",
-      "next_action": "Review the three food stories and bounded backlog reconciliation in the candidate PR. Local verification remains deferred; publication requires Founder approval.",
+      "next_action": "Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188.",
       "blockers": [],
       "refs": [
         "UTP-DEC-223",
-        "UTP-REV-156"
+        "UTP-REV-156",
+        "UTP-DEC-224",
+        "UTP-REL-076"
       ],
       "evidence": [
         "research/food/three-meals-evidence.json",
         "records/food-backlog-reconciliation-2026-10-07.json",
-        "records/three-food-stories-preview-2026-10-07.json"
+        "records/three-food-stories-preview-2026-10-07.json",
+        "records/three-food-stories-publication-2026-10-07.json"
       ],
       "reuse_before_research": [
         "research/food/collection.json",
@@ -10053,6 +10056,26 @@
       ],
       "evidence": [
         "records/food-backlog-reconciliation-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-224",
+      "title": "Publish the approved three food stories",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Approved",
+      "scope": "Merge PR146 and deploy the reviewed three food stories, journey/book integration and bounded backlog reconciliation.",
+      "recorded_at": "2026-10-07T07:08:20.250505+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-187",
+        "UTP-REV-156"
+      ],
+      "evidence": [
+        "records/three-food-stories-publication-2026-10-07.json"
       ]
     }
   ],
@@ -14998,6 +15021,21 @@
       ],
       "evidence": [
         "records/flexible-visit-plans-publication-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-076",
+      "title": "Dalma, Dahibara Aloodum and Machha Besara stories published",
+      "status": "published",
+      "authorization": "UTP-DEC-224",
+      "destination": "https://utkalproject.org/food/",
+      "refs": [
+        "UTP-DEC-224",
+        "UTP-WORK-187",
+        "UTP-REV-156"
+      ],
+      "evidence": [
+        "records/three-food-stories-publication-2026-10-07.json"
       ]
     }
   ],
