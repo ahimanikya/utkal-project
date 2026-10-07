@@ -37,6 +37,7 @@ export const bookPhotos={
  'place:cuttack':regions.assets.barabati,
  'place:barabati':regions.assets.barabati,
  'experience:cuttack-filigree':regions.assets['cuttack-filigree'],
+ 'experience:kala-bhoomi':regions.assets['kala-bhoomi-grounds'],
  'experience:jobra-maritime-museum':regions.assets['jobra-courtyard'],
  'experience:cuttack-netaji':regions.assets['cuttack-netaji'],
  'food:cuttack-dahibara':foods.assets['cuttack-dahibara'],

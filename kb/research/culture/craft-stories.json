@@ -19,12 +19,12 @@
     "pipili": {
       "title": "Odisha Tourism · Pipili",
       "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/arts-crafts/pipili.html",
-      "inspection": "About section rechecked 1 October 2026 for chariot decoration and object types. Historical origin, community proportions, film claims and general opening hours are not adopted as independently verified facts."
+      "inspection": "1 October saved source scope reused; 6 October web request returned 404."
     },
     "pipili-dsource-process": {
       "title": "NID / D’source · Traditional Applique Work — Making Process",
       "url": "https://www.dsource.in/resource/traditional-pipli-applique-work-pipli-orissa/making-process",
-      "inspection": "Craft-process paragraphs attributed to Prof. Bibhudutta Baral, Divyadarshan C. S. and Manasa K H (NID Bengaluru), inspected 1 October 2026. Includes cutting, stitching and machine-stitched lampshades; no present market figures or universal technique inferred."
+      "inspection": "Named craft-process section read on 6 October. Unrelated spam links appeared before the content; ignored. Existing source identity reused."
     }
   },
   "assets": {
@@ -164,7 +164,7 @@
   },
   "pages": [
     {
-      "checked_on": "2026-10-01",
+      "checked_on": "2026-10-06",
       "status": "editorial_preview",
       "area": "Puri district",
       "regions": [
@@ -211,9 +211,17 @@
               "text": "Notice the sewing machine in Andrew Moore’s photograph. “Made by hand” here means attending to the maker’s work and decisions; it is not a promise that every stitch is hand-sewn. Ask which stages the person does and which tools they use.",
               "source_ids": [],
               "kind": "editorial_invitation"
+            },
+            {
+              "text": "For the lampshade in the documented process, rings help give the stitched fabric its form. Ask a maker to show you one decision—a repeated shape, an edge or the way a piece holds its shape—if they have time. One well-chosen question can reveal more than a rushed tour of everything.",
+              "source_ids": [
+                "pipili-dsource-process"
+              ],
+              "kind": "sourced_summary"
             }
           ],
-          "photo": "pipili-making"
+          "photo": "pipili-making",
+          "photo_max_width": 480
         },
         {
           "id": "culture",
@@ -246,6 +254,11 @@
               "text": "Confirm an exact meeting point, opening arrangements, steps, seating and toilets with your chosen host. No workshop appointment, demonstration or access inspection has been arranged by Utkal.",
               "source_ids": [],
               "kind": "editorial_invitation"
+            },
+            {
+              "text": "Decide whether you are meeting at a shop or a working studio, and agree your return transport. Leave a separate meal and rest stop in your plans. Our Puri and Bhubaneswar food guides offer ideas to research; they do not establish eating facilities at a particular Pipili workshop.",
+              "source_ids": [],
+              "kind": "editorial_invitation"
             }
           ]
         },
@@ -262,11 +275,32 @@
               "text": "Keep the maker’s preferred credit and a receipt. Agree the size, design, price and delivery terms before commissioning work. Ask separately about permission to share images of the work. A smaller piece with a story you understand can be a more lasting memory than a hurried purchase.",
               "source_ids": [],
               "kind": "editorial_invitation"
+            },
+            {
+              "text": "If a pattern inspires a product of your own, discuss that use separately with the maker. Ask about collaboration, credit and permission before reproducing their design. The conversation can continue long after the visit.",
+              "source_ids": [],
+              "kind": "editorial_invitation"
             }
           ]
         }
       ],
       "related": [
+        {
+          "title": "Kala Bhoomi: a museum that sharpens the eye",
+          "href": "/visit/experiences/kala-bhoomi/"
+        },
+        {
+          "title": "Dhauli: read the layers in stone",
+          "href": "/visit/places/dhauli/"
+        },
+        {
+          "title": "Plan a meal in Puri",
+          "href": "/food/puri-coast/"
+        },
+        {
+          "title": "Food in Bhubaneswar",
+          "href": "/food/bhubaneswar/"
+        },
         {
           "title": "Pattachitra: read the painted line",
           "href": "/crafts/pattachitra/"
@@ -280,7 +314,8 @@
           "href": "/journey-starters/#made-by-hand"
         }
       ],
-      "cover_title": "Pipili appliqué"
+      "cover_title": "Pipili appliqué",
+      "cover_subtitle": "Cloth, colour and ceremony"
     },
     {
       "checked_on": "2026-10-01",

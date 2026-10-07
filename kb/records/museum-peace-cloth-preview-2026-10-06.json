@@ -1,0 +1,97 @@
+{
+  "recorded_at": "2026-10-07T03:21:20.247282+00:00",
+  "status": "review_candidate_not_published",
+  "human_direction": {
+    "name": "Ahimanikya Satapathy",
+    "quote": "Let's work on this",
+    "scope": "Illustrated Kala Bhoomi, Dhauli and Pipili visitor-story review batch."
+  },
+  "reuse_before_research": [
+    "research/stories/narratives/kala-bhoomi-looking-closely.md",
+    "research/stories/narratives/dhauli-instructions-to-power.md",
+    "research/stories/narratives/pipili-cloth-and-ceremony.md",
+    "research/stories/narratives/tourism-reading-evidence.json"
+  ],
+  "routes": [
+    "/visit/experiences/kala-bhoomi/",
+    "/visit/places/dhauli/",
+    "/crafts/pipili-applique/"
+  ],
+  "changes": [
+    "New Kala Bhoomi museum narrative, two licensed photographs and dated collection examples.",
+    "Dhauli connects an attributed translation with its inscription setting; Major Rock Edict XIII distinguished from inscriptions at Dhauli.",
+    "Pipili expands the making, hosting, collaboration and onward food context; portrait display restrained for reading flow.",
+    "All stories connect through discovery, saved identities and source-rich portable journeys.",
+    "No new search-index approval or deployment."
+  ],
+  "media_approach": "Real documentary photographs only. No new AI imagery generated; Human Natural Image skill not used for this batch.",
+  "photographs": [
+    {
+      "id": "kala-bhoomi-grounds",
+      "src": "/images/kala-bhoomi/grounds.webp",
+      "width": 1280,
+      "height": 771,
+      "creator": "SUDEEP PRAMANIK",
+      "source": "https://commons.wikimedia.org/wiki/File:Kala_Bhoomi_-_31.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Kala_Bhoomi_-_31.jpg",
+      "original_sha256": "850b98c724e96d4bf1884e8eb266aa5ec4f3865affa3ff769a7f30804fe7952d",
+      "sha256": "04818eccbf38f0b7d4b782dcd1ccd5518a175ebbe43f6d9ae5f8f6d197fe84be",
+      "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 4.0.",
+      "checked_on": "2026-10-06",
+      "alt": "Trees, lawn and earthen-coloured museum buildings, with pots and sculptural displays outdoors.",
+      "caption": "Kala Bhoomi’s grounds · photographed 25 July 2018.",
+      "fit": "contain"
+    },
+    {
+      "id": "kala-bhoomi-chariot-panel",
+      "src": "/images/kala-bhoomi/chariot-panel.webp",
+      "width": 1280,
+      "height": 1138,
+      "creator": "SUDEEP PRAMANIK",
+      "source": "https://commons.wikimedia.org/wiki/File:Kala_Bhoomi_-_23.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "kind": "photograph",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kala_Bhoomi_-_23.jpg",
+      "original_sha256": "526ca724365c1cb245717f81c0164ec66d02fb077e832d2fe4b9d1825e8e11d8",
+      "sha256": "5dca8f69e9e40d9f1a03051a84ce9d818782c3d0c696dba8b3d2c328605a1770",
+      "changes": "WebP compression at original dimensions; no crop, upscaling or recolouring. Reuse and adaptations retain CC BY-SA 4.0.",
+      "checked_on": "2026-10-06",
+      "alt": "A painted wooden chariot panel with floral forms, figures and a central decorative arch.",
+      "caption": "A chariot panel photographed at Kala Bhoomi, 25 July 2018; current display arrangements may differ.",
+      "fit": "contain"
+    }
+  ],
+  "source_record": "research/stories/narratives/tourism-reading-evidence.json",
+  "verification": {
+    "full_build_pages": 142,
+    "full_tests_passed": 454,
+    "coastal_pages": 129,
+    "coastal_tests_passed": 87,
+    "acceptance_checks": "516/516 passed",
+    "browser": {
+      "sizes": [
+        "1440x1000",
+        "390x844"
+      ],
+      "pages": [
+        "Kala Bhoomi",
+        "Dhauli",
+        "Pipili"
+      ],
+      "result": "Covers and picture chapters reviewed. No horizontal page overflow at 390px. Kala Bhoomi saved successfully through the UI.",
+      "portrait_refinement": "Pipili maker photograph constrained to 480 CSS pixels to keep its caption and story within a readable chapter."
+    },
+    "exports": "Automated text and HTML export checks preserve full Kala Bhoomi and Dhauli narratives, translation source and the Pipili stitching distinction."
+  },
+  "limitations": [
+    "No independent curator, epigraphic or local maker review.",
+    "Museum photographs date to July 2018; catalogue examples to 2019. Current exhibits and visitor services are not verified.",
+    "Dhauli and Pipili tourism sources reuse saved inspection evidence; subsequent requests returned 404.",
+    "No new field visits, interviews, workshop bookings or timed itinerary.",
+    "Founder publication approval remains pending."
+  ]
+}
