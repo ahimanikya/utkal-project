@@ -1058,3 +1058,11 @@ The Founder clarified the front-page rotation reference and invited a new Human 
 ## UTP-HIS-HOME-SHARING-PUBLISHED-20261006 — The Konark link preview is live
 
 The Founder approved publication. PR143 was merged and deployed; the live homepage’s Open Graph and Twitter tags use the approved Konark artwork, whose served hash matches the reviewed file. [Publication and verification](../records/home-sharing-konark-publication-2026-10-06.json). External social-preview caches were not refreshed.
+
+## UTP-HIS-OSHA-B04-20261007 · Western Odisha food and kinship
+
+Three regional profiles join the existing review candidate with source-specific food accounts and unresolved historical claims visible. No human review, merge or publication claimed. [Checkpoint](../records/osha-b04-checkpoint-2026-10-07.json).
+
+## UTP-HIS-OSHA-B05-20261007 · Vows, food and source disagreements
+
+Three new and two expanded profiles join the existing review candidate with source-specific food accounts and unresolved historical claims visible. No human review, merge or publication claimed. [Checkpoint](../records/osha-b05-checkpoint-2026-10-07.json).

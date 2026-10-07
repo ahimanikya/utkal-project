@@ -33,3 +33,7 @@
 [Pala and its culture](pala.md) — performed poetry, credited artists, archive routes and dated gatherings.
 
 [Dance, learning and religious traditions](../methods/culture-learning-programme.md) — seven connected research tasks, existing-record reuse and a source-backed first checkpoint.
+
+## 2026-10-07 · Osha and food
+
+[Osha, stories and seasonal food](osha-brata-seasonal-food.md) — twelve source-bounded profiles and continuing research.

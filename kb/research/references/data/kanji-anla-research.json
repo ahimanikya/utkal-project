@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "batch_id": "OSHA-B05",
+  "run_id": "2026-10-07-kanji-anla",
+  "checked_at": "2026-10-07T16:19:02.056682+00:00",
+  "scope": "One Kanji Anla checkpoint; attributed modern katha, source-specific cooking and calendar disagreement. Not a complete historical origin study.",
+  "source_checks": [
+    {
+      "source_id": "osha-kanji-sarangi2018",
+      "url": "https://samadhwani.com/1311",
+      "checked_at": "2026-10-07T16:19:02.056682+00:00",
+      "status": "available",
+      "locator": "Paragraph beginning with Margasira Krishna Ashtami / Prathamastami; Kanji Anla passage within it (web extraction line172)",
+      "scope": "Authored Odia cultural essay: source-specific Kanji Anla calendar, cooking and ritual description. No dated fieldwork, household sample or tested health evidence; author affiliation does not identify the described locality.",
+      "method": "Web extraction opened successfully on 2026-10-07. Publication date displayed on page; no original HTML archive, interview or image reuse claimed."
+    },
+    {
+      "source_id": "osha-kanji-mahakud2021",
+      "url": "https://antarangakalinga.org/କାଞ୍ଜିଅଁଳା-ଓଷା/",
+      "checked_at": "2026-10-07T16:19:02.056682+00:00",
+      "status": "available",
+      "locator": "Opening calendar paragraph; two story paragraphs; ritual procedure heading; separate scientific-reason heading (web extraction lines83–92)",
+      "scope": "Modern authored Odia devotional retelling and ritual description. No identified older edition, manuscript, locality or fieldwork date. Health assertions are not adopted as scientific evidence.",
+      "method": "Web extraction opened successfully on 2026-10-07. Publication date displayed on page; no original HTML archive, interview or image reuse claimed."
+    }
+  ],
+  "failed_fetches": [],
+  "source_reuse": [
+    {
+      "source_id": "osha-review2006",
+      "run_id": "2026-10-07-kanji-anla",
+      "checked_at": "2026-10-07T16:19:02.056682+00:00",
+      "locator": "Printed pp.15 and18, note2 / PDF1 and4",
+      "scope": "Saved original visually inspected for Kanji Anla; reuse of same publication, not fresh independent corroboration.",
+      "saved_pdf": "work/osha-deep-study/dash2006.pdf",
+      "sha256": "b24996180df6c72ef750b9aa0c7c09b86cf17a3187d2b3d2dd5958950c62fc23",
+      "visually_inspected_pdf_pages": [
+        1,
+        4
+      ]
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-07-kanji-anla",
+      "checked_at": "2026-10-07T16:19:02.056682+00:00",
+      "locator": "Printed p.60 / PDF76",
+      "scope": "Saved original visually inspected for Kanji Anla; reuse of same publication, not fresh independent corroboration.",
+      "saved_pdf": "work/osha-deep-study/mahanti.pdf",
+      "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+      "visually_inspected_pdf_pages": [
+        76
+      ]
+    },
+    {
+      "path": "food/torani-kanji.md",
+      "source_id": "food-torani-sasmita2019",
+      "scope": "Previously saved modern food entry reused for comparison only; no new retrieval, not exact ritual recipe"
+    },
+    {
+      "path": "kb/research/product/destination-and-tour-book.md",
+      "scope": "Repository-native distinction between food association and actual venue evidence retained"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "KANJI-C01",
+      "field": "traditional calendar",
+      "accounts": [
+        {
+          "source_id": "osha-mahanti",
+          "locator": "p.60 / PDF76",
+          "value": "Evening on Prathamastami"
+        },
+        {
+          "source_id": "osha-kanji-sarangi2018",
+          "locator": "Kanji Anla passage",
+          "value": "Day after Prathamastami"
+        },
+        {
+          "source_id": "osha-kanji-mahakud2021",
+          "locator": "Opening paragraph",
+          "value": "Margasira Krishna Navami"
+        }
+      ],
+      "status": "unresolved",
+      "resolution": null,
+      "annual_date": null
+    }
+  ],
+  "narrative": {
+    "source_id": "osha-kanji-mahakud2021",
+    "evidence_class": "ritual_narrative",
+    "summary_section": "A mother’s appeal to Sasthi",
+    "original_edition": null,
+    "manuscript": null,
+    "historical_origin_established": false
+  },
+  "food_records": [
+    {
+      "name": "kanji",
+      "source_id": "osha-review2006",
+      "locator": "p.18 note2",
+      "ingredients": [
+        "broken rice",
+        "radish",
+        "sour rice-water",
+        "curry leaves"
+      ],
+      "measured_recipe": false
+    },
+    {
+      "name": "kanji and dried-fish rai",
+      "source_id": "osha-kanji-sarangi2018",
+      "locator": "Kanji Anla passage",
+      "canonical_description_section": "Kanji in two written descriptions",
+      "measured_recipe": false
+    },
+    {
+      "name": "aonla and sukua",
+      "source_id": "osha-mahanti",
+      "locator": "p.60 / PDF76",
+      "role": "offering",
+      "serving_availability": null
+    }
+  ],
+  "science_claims": {
+    "documented_practice": [
+      "use of sour rice-water",
+      "cooking",
+      "tempering"
+    ],
+    "measured_parameters": null,
+    "probiotic_benefit": null,
+    "clinical_claims_status": "not_adopted",
+    "reason": "Modern cultural account does not provide inspected experimental or clinical evidence."
+  },
+  "followup": {
+    "retry_after": "2026-10-14",
+    "needs": [
+      "Which dated Odia katha edition or manuscript can establish the earliest inspected textual witness?",
+      "Which localities observe Prathamastami evening and which the following day?",
+      "How do households distinguish fish used as ritual figures, food offerings and later disposal?",
+      "How do local kanji ingredients and preparation steps vary, and which steps have actually been measured?"
+    ],
+    "independent_next": "Bata; consult Sarangi’s preceding road-sweeping and vow paragraph as a lead only, not a completed Bata study."
+  },
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "origin_date": null,
+  "annual_date": null,
+  "current_serving_availability": null
+}

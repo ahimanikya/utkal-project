@@ -79,3 +79,52 @@ Subject membership is editorial classification. It does not establish historical
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
 
 [Universities and learning](../culture/universities-and-learning.md) connects institutional roles, dated ranking measures and graduate cohorts; [the short story](../stories/odisha-university-evidence.md) keeps category and year visible.
+
+## 2026-10-07 · Osha and food
+
+[Osha and food](../culture/osha-brata-seasonal-food.md) connects observance with stories and household practices.
+
+
+## 2026-10-07 · Osha text research
+
+[Text witness register](../culture/osha-text-witnesses.md). Archival references, inspected passages and remaining comparisons.
+
+
+## 2026-10-07 · Chaitra Mangala
+
+[Chaitra Mangala Osha](../culture/osha/chaitra-mangala.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Sathi household account
+
+[Sathi Osha](../culture/osha/sathi.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Nisha Mangalabara research note
+
+[Nisha Mangalabara Osha](../culture/osha/nisha-mangalabara.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Western Odisha Jiuntia notes
+
+[Pua Jiuntia](../culture/osha/pua-jiuntia.md) and [Bhai Jiuntia](../culture/osha/bhai-jiuntia.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Nuakhai reading route
+
+[Nuakhai](../culture/osha/nuakhai.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Bata and shared paths
+
+[Bata Osha](../culture/osha/bata.md). Individual observance narrative, food context and source boundaries.
+
+
+## 2026-10-07 · Pandu family and ritual work
+
+[Pandu Osha](../culture/osha/pandu.md) connects family welfare, source-specific offerings and disputed road-sweeping sequences.
+
+
+## 2026-10-07 · Shani/Tota recurring vow
+
+[Shani / Tota Osha](../culture/osha/shani-tota.md) connects vowed duration, grove or temple setting and food roles. History and local variation remain open.
