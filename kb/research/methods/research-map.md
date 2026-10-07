@@ -421,3 +421,7 @@ RES-077 adds twelve observance profiles and related sources after existing food-
 ## 2026-10-07 · B02/B03 research checkpoints
 
 B02/B03 identities reconciled: three new observances, textual witnesses and Sudasa comparison. Fifteen profiles remain incomplete histories.
+
+## 2026-10-07 · B04 research checkpoints
+
+B04 identities reconciled: Pua Jiuntia, Bhai Jiuntia and Nuakhai. Eighteen profiles remain incomplete histories.

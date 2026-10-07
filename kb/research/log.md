@@ -452,3 +452,7 @@ Added a twelve-profile osha collection and website candidate, with original sour
 ## 2026-10-07 · B02/B03 research checkpoints
 
 Reconciled six sequential research checkpoints into the existing osha review candidate. Seven narrative checkpoints and eight early notes; B04 follows. No merge or publication.
+
+## 2026-10-07 · B04 research checkpoints
+
+Reconciled two western Odisha research checkpoints into the existing review candidate. Seven narrative checkpoints and eleven research notes; B05 follows. No merge or publication.

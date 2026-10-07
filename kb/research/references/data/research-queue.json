@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-07T11:07:54.805693+00:00",
+  "updated_at": "2026-10-07T14:11:19.648903+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3395,12 +3395,12 @@
       "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
       "target": "culture/osha-brata-seasonal-food.md",
       "status": "in_progress",
-      "attempts": 8,
+      "attempts": 10,
       "dependencies": [],
-      "last_worked_at": "2026-10-07T11:02:49.370532+00:00",
-      "next_step": "Continue OSHA-B04 while PR145 remains the review candidate; retry unresolved B02/B03 texts on/after2026-10-14. Source workspace remains scheduling authority.",
+      "last_worked_at": "2026-10-07T13:10:57.095833+00:00",
+      "next_step": "Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first; retry unresolved B02/B03/B04 evidence on/after2026-10-14. Source workspace remains scheduling authority.",
       "retry_after": null,
-      "blocker": "Earliest chronology, dated editions, Budhei/Dutiya original images and human Odia review remain unresolved. They do not block OSHA-B03. Janhi Gazette original is unavailable; retry 14 October, without blocking other B03 work.",
+      "blocker": "Full textual witnesses, earliest chronology, Nuakhai1991 original order and human cultural review remain open; retry unavailable routes14October. They do not block PR145 reconciliation or B05.",
       "evidence_outputs": [
         "culture/osha-brata-seasonal-food.md",
         "visitor-index/seasonal-food-guide.md",
@@ -3450,7 +3450,15 @@
         "culture/osha/nisha-mangalabara.md",
         "sources/osha-nisha-worldcat.md",
         "sources/osha-nisha-kalingahistory.md",
-        "references/data/nisha-mangalabara-research.json"
+        "references/data/nisha-mangalabara-research.json",
+        "culture/osha/pua-jiuntia.md",
+        "culture/osha/bhai-jiuntia.md",
+        "sources/osha-kesavan-jiuntia.md",
+        "sources/osha-barpali-pua.md",
+        "references/data/jiuntia-research.json",
+        "culture/osha/nuakhai.md",
+        "sources/osha-nuakhai-singh2012.md",
+        "references/data/nuakhai-research.json"
       ],
       "attempt_history": [
         {
@@ -3499,6 +3507,20 @@
           "run_id": "2026-10-07-nisha",
           "at": "2026-10-07T11:02:49.370532+00:00",
           "outcome": "nisha_source_boundaries_catalogue_witness_modern_heritage_and_b03_checkpoint",
+          "completion_criteria_met": false,
+          "git_revision": "d1538a3e94abd8b36f6f93ad6cb30f3249623b4e",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-07-jiuntia",
+          "at": "2026-10-07T12:09:54.325793+00:00",
+          "outcome": "two_jiuntia_practice_food_profiles_primary_ethnography_and_regional_variants",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-nuakhai",
+          "at": "2026-10-07T13:10:57.095833+00:00",
+          "outcome": "nuakhai_food_history_boundaries_and_b04_checkpoint",
           "completion_criteria_met": false
         }
       ],
@@ -3560,7 +3582,17 @@
           "culture/osha/nisha-mangalabara.md",
           "sources/osha-nisha-worldcat.md",
           "sources/osha-nisha-kalingahistory.md",
-          "references/data/nisha-mangalabara-research.json"
+          "references/data/nisha-mangalabara-research.json",
+          "culture/osha/pua-jiuntia.md",
+          "culture/osha/bhai-jiuntia.md",
+          "sources/osha-kesavan-jiuntia.md",
+          "sources/osha-barpali-pua.md",
+          "references/data/jiuntia-research.json",
+          "culture/dalkhai.md",
+          "culture/osha/nuakhai.md",
+          "sources/osha-nuakhai-singh2012.md",
+          "references/data/nuakhai-research.json",
+          "culture/ghumura.md"
         ],
         "project_records": [
           "kb/research/product/destination-and-tour-book.md"
@@ -3596,14 +3628,18 @@
           "scope": "Chaitra Mangala, Sathi, Janhi and Nisha Mangalabara; local stories and women’s ritual work",
           "status": "checkpoint_saved",
           "checkpoint": "All four selected B03 profiles now have bounded checkpoints; full kathas and earliest chronology remain open.",
-          "next_step": "Reconcile accumulated validated RES-077 checkpoints into existing PR145 under current destination instructions, then proceed to OSHA-B04. Retry unresolved B02/B03 texts on or after 2026-10-14, including OCLC 22766659 and Hauser chapter 2.",
+          "next_step": "Continue OSHA-B04: western Odisha Puajiuntia/Bhaijiuntia and Nuakhai, searching saved native records first and retaining regional identities. B02/B03 checkpoints are pushed to draft PR145; retry unresolved textual witnesses on/after2026-10-14.",
           "retry_after": "2026-10-14",
           "retry_scope": "Unresolved Janhi/Chaitra/Sathi textual witnesses and original issue; Nisha print book and ethnographic chapter. Checkpoint completion is not a completed history."
         },
         {
           "id": "OSHA-B04",
           "scope": "Western Odisha Puajiuntia/Bhaijiuntia and Nuakhai; do not merge coastal identities",
-          "status": "pending"
+          "status": "checkpoint_saved",
+          "checkpoint": "Pua Jiuntia, Bhai Jiuntia and Nuakhai have bounded regional practice/food notes. Earliest chronology, fuller texts and regional variation remain open.",
+          "next_step": "Reconcile the three validated B04 profiles and supporting records into existing draft PR145 under current destination instructions, then continue OSHA-B05 using saved sources first. Retry unresolved textual/index routes on or after2026-10-14.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Original Jiuntia index/article, Nuakhai historical witnesses and 1991 order; checkpoint is not completed history."
         },
         {
           "id": "OSHA-B05",
@@ -3618,10 +3654,11 @@
       ],
       "website_candidate": {
         "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145",
-        "revision": "3d532675b679202fbeb4e42362586a84a6333f15",
+        "revision": "d1538a3e94abd8b36f6f93ad6cb30f3249623b4e",
         "status": "draft_review",
         "git_push": true,
-        "published": false
+        "published": false,
+        "scope": "Previous fifteen-profile candidate; three B04 profiles remain local."
       }
     }
   ],

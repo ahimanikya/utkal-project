@@ -54,3 +54,7 @@ Sources: [Orissa State Museum manuscript catalogue](https://www.namami.gov.in/si
 [Text witness register](../osha-text-witnesses.md). Archival references, inspected passages and remaining comparisons.
 
 [Back to the collection](../osha-brata-seasonal-food.md). Cultural association does not establish a serving venue or access to private worship. No local interviews or human editorial review are claimed.
+
+## 2026-10-07 · Regional comparison
+
+[Pua Jiuntia](pua-jiuntia.md). Compare regional identities without assuming identical practice.

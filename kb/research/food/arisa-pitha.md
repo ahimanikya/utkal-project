@@ -51,3 +51,8 @@ The teaching list allows jaggery or sugar in deep-fried rice-flour pitha. [Regio
 Rice flour is combined with jaggery or sugar syrup, shaped and fried in this arisa account. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed p.9 / PDF p.20. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
 
 **Remaining question:** Add credited local/festival attribution; no shelf-life claim adopted from the book. Local/Odia review remains pending.
+
+
+## 2026-10-07 · Nuakhai association
+
+Mahanti names arisa prepared with new grain among Nuakhai offerings (printed122 / PDF138). [Source](https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf). [Nuakhai](../culture/osha/nuakhai.md). Connects a sourced festival association to separately documented food preparations; no single recipe implied.

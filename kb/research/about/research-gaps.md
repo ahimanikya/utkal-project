@@ -410,3 +410,7 @@ RES-053 now has a six-DMF financial sample and four named case bundles with date
 ## 2026-10-07 · B02/B03 research checkpoints
 
 Nisha print-book contents, early chronology, Budhei/Dutiya manuscripts, Janhi Gazette, Chaitra full text and Sathi issue/locality remain unresolved; retry14October. Review queue remains active.
+
+## 2026-10-07 · B04 research checkpoints
+
+Jiuntia full kathas and Nuakhai historical witnesses/1991 order remain unresolved; retry14October. Earlier B02/B03 gaps and review queue remain open.

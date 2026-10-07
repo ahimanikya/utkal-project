@@ -65,3 +65,8 @@ The [individual osha and brata profiles](../culture/osha-brata-seasonal-food.md)
 ## 2026-10-07 · Manda in a Sudasa story
 
 The [Sudasa text comparison](../culture/osha/sudasa-text-comparison.md) records chhena and coconut filling in one verse passage. It does not establish steaming, frying, dough or a universal ritual recipe. The existing preparation description remains a separate food account.
+
+
+## 2026-10-07 · Nuakhai association
+
+Singh names manda in the Nuakhai offering and meal account (printed25 / PDF3). The source does not identify it as this specific sijha preparation. [Source](https://magazines.odisha.gov.in/Orissareview/2012/sep/engpdf/24-26.pdf). [Nuakhai](../culture/osha/nuakhai.md). Connects a sourced festival association to separately documented food preparations; no single recipe implied.

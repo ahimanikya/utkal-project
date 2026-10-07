@@ -15,7 +15,7 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The fifteen selected profiles include seven narrative checkpoints and eight early research notes. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The eighteen selected profiles include seven narrative checkpoints and eleven early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
@@ -34,6 +34,9 @@ The fifteen selected profiles include seven narrative checkpoints and eight earl
 | [Chaitra Mangala Osha](osha/chaitra-mangala.md) | Chaitra | Partial story synopsis and food accounts |
 | [Sathi Osha](osha/sathi.md) | Bhadraba | Household memory and devotional retelling |
 | [Nisha Mangalabara Osha](osha/nisha-mangalabara.md) | Ashwina | Cooked offering unnamed; book and modern heritage leads |
+| [Pua Jiuntia](osha/pua-jiuntia.md) | Ashwina | Mother–child vow; regional food variants |
+| [Bhai Jiuntia](osha/bhai-jiuntia.md) | Ashwina | Sisters, rice preparation and family ties |
+| [Nuakhai](osha/nuakhai.md) | Bhadraba | New rice, household work and unresolved origins |
 
 ## What the collection connects
 

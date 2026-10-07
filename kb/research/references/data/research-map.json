@@ -20053,6 +20053,118 @@
       "source_ids": [
         "osha-nisha-kalingahistory"
       ]
+    },
+    {
+      "id": "culture/osha/pua-jiuntia",
+      "title": "Pua Jiuntia",
+      "kind": "Cultural Observance",
+      "layer": "research_concept",
+      "source_path": "culture/osha/pua-jiuntia.md",
+      "project_path": "kb/research/culture/osha/pua-jiuntia.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-mahanti",
+        "osha-barpali-pua"
+      ]
+    },
+    {
+      "id": "culture/osha/bhai-jiuntia",
+      "title": "Bhai Jiuntia",
+      "kind": "Cultural Observance",
+      "layer": "research_concept",
+      "source_path": "culture/osha/bhai-jiuntia.md",
+      "project_path": "kb/research/culture/osha/bhai-jiuntia.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-mahanti",
+        "osha-kesavan-jiuntia"
+      ]
+    },
+    {
+      "id": "sources/osha-kesavan-jiuntia",
+      "title": "Rice culture and sacred siblingship: Nua Khai and Bhai Jiuntia celebrations in Western Odisha, India",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-kesavan-jiuntia.md",
+      "project_path": "kb/research/sources/osha-kesavan-jiuntia.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-kesavan-jiuntia"
+      ]
+    },
+    {
+      "id": "sources/osha-barpali-pua",
+      "title": "PUA JIUNTIA [ପୁଅ ଜୀଉନ୍ତିଆ]",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-barpali-pua.md",
+      "project_path": "kb/research/sources/osha-barpali-pua.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-barpali-pua"
+      ]
+    },
+    {
+      "id": "culture/osha/nuakhai",
+      "title": "Nuakhai",
+      "kind": "Cultural Observance",
+      "layer": "research_concept",
+      "source_path": "culture/osha/nuakhai.md",
+      "project_path": "kb/research/culture/osha/nuakhai.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-mahanti",
+        "osha-kesavan-jiuntia",
+        "osha-nuakhai-singh2012"
+      ]
+    },
+    {
+      "id": "sources/osha-nuakhai-singh2012",
+      "title": "Nuakhai: Festival of Social Harmony",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-nuakhai-singh2012.md",
+      "project_path": "kb/research/sources/osha-nuakhai-singh2012.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-nuakhai-singh2012"
+      ]
     }
   ],
   "shared_publications": [
@@ -21512,7 +21624,17 @@
         "culture/osha/nisha-mangalabara.md",
         "sources/osha-nisha-worldcat.md",
         "sources/osha-nisha-kalingahistory.md",
-        "references/data/nisha-mangalabara-research.json"
+        "references/data/nisha-mangalabara-research.json",
+        "culture/osha/pua-jiuntia.md",
+        "culture/osha/bhai-jiuntia.md",
+        "sources/osha-kesavan-jiuntia.md",
+        "sources/osha-barpali-pua.md",
+        "references/data/jiuntia-research.json",
+        "culture/dalkhai.md",
+        "culture/osha/nuakhai.md",
+        "sources/osha-nuakhai-singh2012.md",
+        "references/data/nuakhai-research.json",
+        "culture/ghumura.md"
       ],
       "project_records": [
         "kb/research/product/destination-and-tour-book.md"
@@ -21537,8 +21659,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1335,
-    "updated_at": "2026-10-07T11:07:54.805693+00:00",
+    "records_mapped": 1341,
+    "updated_at": "2026-10-07T14:11:19.648903+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -22181,6 +22303,11 @@
       "run_id": "2026-10-07-nisha-reconciliation",
       "at": "2026-10-07T11:07:54.805693+00:00",
       "scope": "B02 and B03 checkpoint extensions; native records and source scheduling preserved."
+    },
+    {
+      "run_id": "2026-10-07-b04-reconciliation",
+      "at": "2026-10-07T14:11:19.648903+00:00",
+      "scope": "B04 checkpoint extensions; native records and source scheduling preserved."
     }
   ]
 }

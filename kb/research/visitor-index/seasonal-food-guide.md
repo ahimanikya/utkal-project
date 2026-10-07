@@ -50,3 +50,11 @@ Read the [Janhi profile](../culture/osha/janhi.md) before treating its culminati
 ## 2026-10-07 · Nisha Mangalabara research note
 
 [Nisha Mangalabara Osha](../culture/osha/nisha-mangalabara.md). Individual observance narrative, food context and source boundaries.
+
+## 2026-10-07 · Western Odisha Jiuntia notes
+
+[Pua Jiuntia](../culture/osha/pua-jiuntia.md) and [Bhai Jiuntia](../culture/osha/bhai-jiuntia.md). Individual observance narrative, food context and source boundaries.
+
+## 2026-10-07 · Nuakhai reading route
+
+[Nuakhai](../culture/osha/nuakhai.md). Individual observance narrative, food context and source boundaries.

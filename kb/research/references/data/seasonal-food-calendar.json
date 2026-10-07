@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-07-nisha",
-  "checked_at": "2026-10-07T11:02:49.370532+00:00",
+  "run_id": "2026-10-07-nuakhai",
+  "checked_at": "2026-10-07T13:10:57.095833+00:00",
   "scope": "Thirteen selected observances, including the retained Raja association; twelve linked profiles. Not a statewide inventory or booking calendar.",
   "user_direction": "Explore osha/brata/parba through food, season and everyday life; consider a visitor food calendar.",
   "entries": [
@@ -499,6 +499,108 @@
       "local_review": null,
       "profile_path": "culture/osha/nisha-mangalabara.md",
       "profile_id": "OSHA-015"
+    },
+    {
+      "id": "SEAS-017",
+      "name": "Pua Jiuntia",
+      "observance_type": "brata",
+      "foods": [
+        "jugara",
+        "tikhiri",
+        "mixed-vegetable curry",
+        "suji manda",
+        "kheeri"
+      ],
+      "food_paths": [],
+      "traditional_month": "Ashwina",
+      "season_window": null,
+      "calendar_rule": "Dark fortnight eighth day; annual date not calculated",
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Western Odisha descriptions; Barpali local account",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-barpali-pua"
+      ],
+      "source_locator": "See profile section locators; Mahanti printed49–51 / PDF65–67",
+      "evidence_status": "documented_association",
+      "notes": "Source-specific practice and food association only; full recipe and historical origin unestablished. Preserve variants in linked profile.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/pua-jiuntia.md",
+      "profile_id": "OSHA-016"
+    },
+    {
+      "id": "SEAS-018",
+      "name": "Bhai Jiuntia",
+      "observance_type": "brata",
+      "foods": [
+        "jugara / lia jugar",
+        "tikhiri"
+      ],
+      "food_paths": [],
+      "traditional_month": "Ashwina",
+      "season_window": null,
+      "calendar_rule": "Bright fortnight eighth day; annual date not calculated",
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Western Odisha descriptions; Bargarh ethnographic setting",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-kesavan-jiuntia"
+      ],
+      "source_locator": "See profile section locators; Mahanti printed49–51 / PDF65–67",
+      "evidence_status": "documented_association",
+      "notes": "Source-specific practice and food association only; full recipe and historical origin unestablished. Preserve variants in linked profile.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/bhai-jiuntia.md",
+      "profile_id": "OSHA-017"
+    },
+    {
+      "id": "SEAS-019",
+      "name": "Nuakhai",
+      "observance_type": "parba",
+      "foods": [
+        "new-rice offering",
+        "jau",
+        "kheeri / khiri",
+        "arisa pitha",
+        "manda pitha",
+        "hendua karadi khata",
+        "saga bhaja"
+      ],
+      "food_paths": [
+        "food/arisa-pitha",
+        "food/manda-pitha"
+      ],
+      "traditional_month": "Bhadraba",
+      "season_window": null,
+      "calendar_rule": "Bright-fortnight fifth day in the inspected accounts; no annual date calculated or uniform local timing certified",
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Western Odisha; Kesavan account scoped to Bargarh fieldwork",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-kesavan-jiuntia",
+        "osha-nuakhai-singh2012"
+      ],
+      "source_locator": "Mahanti121–122 / PDF137–138; Kesavan28–31 / PDF14–17; Singh23–25 / PDF1–3",
+      "evidence_status": "documented_association",
+      "notes": "Distinct source-specific offerings and communal meal foods. Manda name does not identify the particular sijha preparation; no visitor availability verified.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/nuakhai.md",
+      "profile_id": "OSHA-018"
     }
   ],
   "source_checks": [
@@ -667,6 +769,33 @@
       "scope": "Organizer-side account of a two-day gathering at Sambhav Farm in Nayagarh, invited by Sabarmatee, including maritime discussion and a midnight temple visit. Primary evidence of modern heritage interpretation; not ancient ritual origin, continuity or a current visitor offer.",
       "locator": "Entry headed ନିଶା ମଙ୍ଗଳବାର: ମଝି ଦରିଆର ବଣିକଙ୍କ ଶୁଭମନାସେ ସାଧନା; Added on October 24, 2025; following event description",
       "method": "Original publisher/catalogue web text inspected; Odia event description paraphrased without human review."
+    },
+    {
+      "source_id": "osha-kesavan-jiuntia",
+      "url": "https://journals.ub.uni-frankfurt.de/paideuma/index.php/paideuma/article/download/2046/2237/4542",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "status": "available",
+      "scope": "Primary ethnographic study: eleven months of fieldwork within May2022–December2023, Bargarh district. Haliapali is a participant-requested village pseudonym, not a visitor destination. Project conducted no interviews; no image permissions claimed.",
+      "locator": "Printed pp.15,19,31–35 / PDF pp.1,5,17–21; food process p.33 / PDF19 visually inspected",
+      "method": "Original text inspected; Kesavan PDF recovered and p.33 visually checked locally after web screenshot cache failure."
+    },
+    {
+      "source_id": "osha-barpali-pua",
+      "url": "https://barpalidays.blogspot.com/2011/08/pua-juintia.html",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "status": "available",
+      "scope": "Attributed local authored account, not a representative survey. Opening caption identifies Tehsil Chowk, Barpali,1October2010; publication date is distinct. Universalizing language and efficacy claims not adopted. No contact details or photos republished.",
+      "locator": "Opening photograph caption; ritual plate paragraph; following-day paragraph",
+      "method": "Original text inspected; Kesavan PDF recovered and p.33 visually checked locally after web screenshot cache failure."
+    },
+    {
+      "source_id": "osha-nuakhai-singh2012",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/sep/engpdf/24-26.pdf",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "status": "available",
+      "locator": "Printed pp.23–25 / PDF pp.1–3; URL filename 24-26 does not match printed pagination",
+      "scope": "Authored cultural essay, author credited as Curator-in-Charge, Archaeology Section, Odisha State Museum. Original three-page publisher PDF inspected. Oral origin tradition and uninspected 1991-order assertion remain attributed, not established chronology; meal lists do not establish a universal recipe or current venue.",
+      "method": "Web timed out; shell TLS certificate expired. Recovered with one-request curl certificate exception; no persistent security configuration changed."
     }
   ],
   "failed_fetches": [
@@ -840,6 +969,42 @@
       "checked_at": "2026-10-07T11:02:49.370532+00:00",
       "error": "Candidate URL inaccessible; not established as original review URL.",
       "method": "web open"
+    },
+    {
+      "url": "https://journals.ub.uni-frankfurt.de/paideuma/index.php/paideuma/article/view/2046",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "error": "Article landing page unavailable; original PDF separately recovered."
+    },
+    {
+      "url": "https://deogarh.odisha.gov.in/sites/default/files/2023-06/2018050132.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "error": "Web internal error; search extract not adopted."
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/index_of_Odisha_Review__April-1948_to_January_2021.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T12:09:54.325793+00:00",
+      "error": "Web internal error; shell SSL certificate expired; indexed entry only, original not inspected."
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/2012/sep/engpdf/24-26.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "error": "Web timeout; normal TLS shell fetch failed due to expired certificate. Separate one-request certificate-exception download succeeded."
+    },
+    {
+      "url": "https://utsav.gov.in/view-event/nuakhai",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "error": "Web timeout; indexed summary not adopted."
+    },
+    {
+      "url": "https://efcsindia.in/EasternAnthropologist/EA%2077-3%264/13-Nibedita%20Nath.pdf",
+      "status": "unavailable",
+      "checked_at": "2026-10-07T13:10:57.095833+00:00",
+      "error": "Web502BadGateway; indexed bibliography only; full article not read."
     }
   ],
   "followup_candidates": [

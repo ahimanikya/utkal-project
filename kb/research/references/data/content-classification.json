@@ -4794,6 +4794,39 @@
       "content_type": "Subject Guide",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/pua-jiuntia",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/bhai-jiuntia",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/nuakhai",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7211,6 +7244,132 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Separates cultural food associations from verified visitor availability."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha/pua-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "visitor-index/seasonal-food-guide",
+      "to": "culture/osha/pua-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "subjects/everyday",
+      "to": "culture/osha/pua-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "culture/osha/pua-jiuntia",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates cultural food associations from verified visitor availability."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha/bhai-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "visitor-index/seasonal-food-guide",
+      "to": "culture/osha/bhai-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "subjects/everyday",
+      "to": "culture/osha/bhai-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "culture/osha/bhai-jiuntia",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates cultural food associations from verified visitor availability."
+    },
+    {
+      "from": "culture/osha/dutiya",
+      "to": "culture/osha/pua-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare regional identities without assuming identical practice."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha/nuakhai",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "visitor-index/seasonal-food-guide",
+      "to": "culture/osha/nuakhai",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "subjects/everyday",
+      "to": "culture/osha/nuakhai",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "culture/osha/nuakhai",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates cultural food associations from verified visitor availability."
+    },
+    {
+      "from": "food/arisa-pitha",
+      "to": "culture/osha/nuakhai",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a sourced festival association to separately documented food preparations; no single recipe implied."
+    },
+    {
+      "from": "culture/osha/nuakhai",
+      "to": "food/arisa-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a sourced festival association to separately documented food preparations; no single recipe implied."
+    },
+    {
+      "from": "food/manda-pitha",
+      "to": "culture/osha/nuakhai",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a sourced festival association to separately documented food preparations; no single recipe implied."
+    },
+    {
+      "from": "culture/osha/nuakhai",
+      "to": "food/manda-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Connects a sourced festival association to separately documented food preparations; no single recipe implied."
+    },
+    {
+      "from": "culture/osha/bhai-jiuntia",
+      "to": "culture/osha/nuakhai",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare rice, kinship and regional observances without treating them as one ritual."
     }
   ],
   "relationship_types": {
