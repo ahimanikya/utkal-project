@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-07T23:54:36.492740+00:00",
+  "status": "pass_with_limitations",
+  "authorization": "UTP-DEC-225",
+  "items": [
+    "UTP-A500-001",
+    "UTP-A500-002",
+    "UTP-A500-003",
+    "UTP-A500-004"
+  ],
+  "verification": {
+    "full_build_pages": 149,
+    "full_tests_passed": 472,
+    "coastal_build_pages": 136,
+    "coastal_tests_passed": 88,
+    "page_acceptance": "544/544",
+    "browser": {
+      "sizes": [
+        "1440x1000",
+        "390x844"
+      ],
+      "pages": [
+        "/food/",
+        "/food/three-tastes/",
+        "/food/dalma/"
+      ],
+      "result": "Food hub and collection visually inspected; no horizontal overflow at 390px. Dalma computed object-fit contain at both widths with full photograph. Starter click visibly confirmed a separate saved journey. Duplicate breadcrumb corrected.",
+      "screenshot": "planning/utkala-odisha/review-assets/autonomous-food-discovery-2026-10-07.png (local workspace)"
+    },
+    "export": "Separate unscheduled trip, previous notes unchanged, backup round trip, removed dish drops chapter, private notes omitted and image credits retained."
+  },
+  "limitations": [
+    "Same assistant implemented and reviewed; no independent human review claimed.",
+    "No new field inspection, recipe testing, current menu or provider confirmation.",
+    "Native PDF layout was not retested; HTML/text book and image-credit export tests passed.",
+    "Existing eleven-page search eligibility retained; new collection is a public editorial preview."
+  ]
+}

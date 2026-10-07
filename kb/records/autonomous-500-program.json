@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "UTP-A500-20261007",
+  "status": "active",
+  "human_owner": "Ahimanikya Satapathy",
+  "authorization": "UTP-DEC-225",
+  "target_completed_items": 500,
+  "completed_items": 0,
+  "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
+  "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
+  "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
+  "continuation": "One item at a time in this chat. Work in coherent checked batches; preserve concurrent changes. Stop at 500 completed items, or on a newer human stop instruction.",
+  "items": [
+    {
+      "id": "UTP-A500-001",
+      "title": "Give the food hub a story-led introduction and three visual entry points",
+      "status": "verified_pending_publication",
+      "work_id": "UTP-WORK-190",
+      "acceptance": "Food hub links to all three meals, two cooking collections and all existing area groups.",
+      "evidence": [
+        "records/autonomous-food-discovery-review-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-A500-002",
+      "title": "Add a saveable Three Tastes reading collection and portable book",
+      "status": "verified_pending_publication",
+      "work_id": "UTP-WORK-190",
+      "acceptance": "Three stable food IDs; separate unscheduled journey; notes preserved; shortened book drops removed chapters; credits retained.",
+      "evidence": [
+        "records/autonomous-food-discovery-review-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-A500-003",
+      "title": "Honour full-image framing on food article covers",
+      "status": "verified_pending_publication",
+      "work_id": "UTP-WORK-190",
+      "acceptance": "Food covers marked contain preserve the full photo on desktop and phone without overflow.",
+      "evidence": [
+        "records/autonomous-food-discovery-review-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-A500-004",
+      "title": "Reconcile current visitor-review queue with published work",
+      "status": "verified_pending_publication",
+      "work_id": "UTP-WORK-190",
+      "acceptance": "Northern published tasks link to deferred WORK188; restored browser access recorded with scoped evidence; historical limits preserved.",
+      "evidence": [
+        "records/autonomous-food-discovery-review-2026-10-07.json"
+      ]
+    }
+  ],
+  "followup_candidates": [
+    {
+      "title": "Review current food-card summaries against the linked full stories",
+      "basis": "Existing journey catalogue derives summaries from regional notes; compare for stale wording before editing."
+    },
+    {
+      "title": "Prepare tourism opportunities section requirements with unresolved dependencies explicit",
+      "basis": "UTP-WORK-174; public scheme and field-dependent publication remain separate."
+    },
+    {
+      "title": "Continue bounded keyboard and visual audits on current inner pages",
+      "basis": "UTP-WORK-075; select a documented gap, not previously passed checks."
+    },
+    {
+      "title": "Connect sourced language and literary stories to useful visitor reading paths",
+      "basis": "Existing voices collection and language heritage model; no invented quotations or translations."
+    }
+  ],
+  "automation": {
+    "id": "utkal-next-500",
+    "kind": "heartbeat",
+    "cadence": "hourly",
+    "status": "ACTIVE",
+    "destination": "current chat"
+  }
+}

@@ -14,7 +14,3 @@
 .visit-connections a strong{font:28px/1.2 var(--uds-type-display);color:var(--sea)}
 .visit-connections a:hover strong{text-decoration:underline;text-underline-offset:5px}
 @media(max-width:700px){.utk .utk-magazine.utk-magazine--detail .mag-cover h1{font-size:46px}.utk-magazine.utk-magazine--detail .mag-deck{font-size:19px;line-height:1.6}.visit-connections{grid-template-columns:1fr;gap:28px}.utk-magazine.utk-magazine--detail .detail-breadcrumb{margin-top:12px}.utk-magazine.utk-magazine--detail .mag-cover{padding-top:16px}}
-
-/* Portrait architecture: preserve the complete gateway in detail covers. */
-.utk-magazine.utk-magazine--detail .mag-cover--contain>figure img{aspect-ratio:auto var(--cover-image-ratio, 4 / 3);object-fit:contain;max-height:560px;background:var(--paper)}
-@media(max-width:750px){.utk-magazine.utk-magazine--detail .mag-cover--contain>figure img{max-height:440px}}

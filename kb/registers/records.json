@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-07T05:09:18.412523+00:00",
+  "recorded_at": "2026-10-07T23:54:36.492740+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5582,6 +5582,44 @@
         "Founder accepts any public changes separately.",
         "Published historical/editorial delivery is not reopened merely to record operational uncertainty."
       ]
+    },
+    {
+      "id": "UTP-WORK-189",
+      "title": "Continue the next 500 substantive UTP backlog items",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Continue sequentially using the bounded program queue; count only evidenced completed deliverables.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-190",
+      "title": "Food discovery, portable reading collection and current review-queue repair",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish checked candidate under DEC225 and record live evidence.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-REV-157"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/autonomous-food-discovery-review-2026-10-07.json"
+      ]
     }
   ],
   "decisions": [
@@ -10077,6 +10115,26 @@
       "evidence": [
         "records/three-food-stories-publication-2026-10-07.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-225",
+      "title": "Autonomous continuation through the next 500 Utkal work items",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Don't ask me for approval for the next 500 things - just keep doing one after another.",
+      "scope": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
+      "recorded_at": "2026-10-07T23:41:32.057699+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-189",
+        "UTP-WORK-190"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json"
+      ]
     }
   ],
   "requirements": [
@@ -13755,6 +13813,28 @@
       ],
       "evidence": [
         "records/three-food-stories-preview-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-157",
+      "title": "Food discovery and portable collection self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same assistant implemented and reviewed; no independent human review claimed.",
+        "No new field inspection, recipe testing, current menu or provider confirmation.",
+        "Native PDF layout was not retested; HTML/text book and image-credit export tests passed.",
+        "Existing eleven-page search eligibility retained; new collection is a public editorial preview."
+      ],
+      "refs": [
+        "UTP-WORK-190"
+      ],
+      "evidence": [
+        "records/autonomous-food-discovery-review-2026-10-07.json"
       ]
     }
   ],

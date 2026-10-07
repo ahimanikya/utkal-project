@@ -1,0 +1,16 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import VisitorTrail from '../../components/VisitorTrail.astro';
+import trail from '../../../../../kb/research/food/three-tastes-trail.json';
+import selection from '../../../../../kb/research/journey-starters.json';
+import {bookPhotos} from '../../data/book-photos';
+const choices=selection.starters.filter(s=>trail.starter_ids.includes(s.id));
+const photos=trail.chapters.map(c=>bookPhotos[c.photo]);
+---
+<Shell title={trail.title} description={trail.intro} active="explore" wide related={false}>
+<div class="wrap food-trail">
+<noscript><p class="notice">Enable JavaScript to save this collection. The stories and questions remain available below.</p></noscript>
+<VisitorTrail trail={trail} choices={choices} headingLevel="h1"/>
+<details><summary>Photographs & source notes</summary><p>Assembled {trail.reviewed_on}. {trail.review_scope} Each linked dish retains its own sources and checked date.</p><ul>{photos.map(p=><li><a href={p.source}>{p.caption}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</li>)}</ul></details></div>
+</Shell>
+<style>.food-trail>details{margin:36px 0 60px;font-size:14px;max-width:85ch;overflow-wrap:anywhere}.food-trail summary{padding:16px 0;cursor:pointer}.food-trail li{margin:14px 0}</style>
