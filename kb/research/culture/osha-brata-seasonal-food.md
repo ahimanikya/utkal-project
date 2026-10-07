@@ -15,7 +15,7 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The first twelve profiles include five narrative checkpoints and seven early research notes. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The fifteen selected profiles include seven narrative checkpoints and eight early research notes. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
@@ -31,6 +31,9 @@ The first twelve profiles include five narrative checkpoints and seven early res
 | [Prathamastami](osha/prathamastami.md) | Margasira | Early notes; history incomplete |
 | [Sabitri Brata](osha/sabitri.md) | Jyestha | Story and food checkpoint |
 | [Janhi Osha](osha/janhi.md) | Ashwina | Early notes; history incomplete |
+| [Chaitra Mangala Osha](osha/chaitra-mangala.md) | Chaitra | Partial story synopsis and food accounts |
+| [Sathi Osha](osha/sathi.md) | Bhadraba | Household memory and devotional retelling |
+| [Nisha Mangalabara Osha](osha/nisha-mangalabara.md) | Ashwina | Cooked offering unnamed; book and modern heritage leads |
 
 ## What the collection connects
 
@@ -49,3 +52,15 @@ For food technology, record ingredients, utensils, leaf wrapping, fermentation, 
 [Raja and the initial seasonal register](../references/data/seasonal-food-calendar.json) remain connected to the existing [poda](../food/poda-pitha.md), [enduri](../food/enduri-pitha.md) and [preparation](../food/preparation-and-variation.md) records. The [visitor guide](../visitor-index/seasonal-food-guide.md) separates cultural reading from a verified place to eat. Traditional months help browse; current dates and serving offers require separate confirmation.
 
 Individual observance narrative, food context and source boundaries.
+
+## 2026-10-07 · Texts and manuscripts
+
+[Text witness register](osha-text-witnesses.md). Archival references, inspected passages and remaining comparisons. The current checkpoint includes twelve catalogue accessions and two Sudasa digital copies; manuscript dates remain unestablished.
+
+## 2026-10-07 · Two Sudasa narratives
+
+[Sudasa stories and offerings](osha/sudasa-text-comparison.md). Side-by-side narrative and food evidence from two recovered Sudasa texts. The Nala–Damayanti verse story and Sudarshana–Sudasha prose story are kept distinct.
+
+## 2026-10-07 · Janhi and its culmination
+
+The expanded [Janhi profile](osha/janhi.md) records flowers, a song fragment, play and a separate Kumar Purnima offering scene. The new source is an attributed 2015 account; historical origin and current local practice remain unresolved.

@@ -55,3 +55,13 @@ The book contrasts onion-and-herb chakuli with a simpler rice–black-gram saru 
 ## Observance reading
 
 [Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.
+
+
+## 2026-10-07 · Observance research
+
+The [individual osha and brata profiles](../culture/osha-brata-seasonal-food.md) now cite inspected originals. Ritual association does not make this preparation the only local version.
+
+
+## 2026-10-07 · A Sathi household association
+
+[Sathi Osha](../culture/osha/sathi.md). Separates a food’s preparation evidence from one household’s ritual association. The published memory names the offering and shared meal but supplies no recipe; existing preparation accounts should not be silently assigned to that household.

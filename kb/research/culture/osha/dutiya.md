@@ -1,11 +1,11 @@
 ---
 type: "Cultural Observance"
 title: "Dutiya Osha"
-description: "Dutiya Osha — source-bounded cultural research."
+description: "Dutiya Osha — evidence and scope."
 status: "draft"
-generated: {"by": "codex/gpt-6", "at": "2026-10-07T05:30:57.424485+00:00"}
+generated: {"by": "codex/gpt-6", "at": "2026-10-07T06:00:28.026333+00:00"}
 subjects: ["everyday", "food", "arts"]
-sources: [{"id": "osha-review2006", "title": "The Perishing Tradition of Osha, Brata and Mela in Orissa: An Overview", "resource": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"}]
+sources: [{"id": "osha-review2006", "title": "The Perishing Tradition of Osha, Brata and Mela in Orissa: An Overview", "resource": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"}, {"id": "osha-mahanti", "title": "Fading Festivals of Odisha: A peep into the religious practices in Odisha", "resource": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"}, {"id": "osha-nmm-catalogue", "title": "Orissa State Museum manuscript catalogue", "resource": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf"}, {"id": "osha-osm-literature", "title": "Oriya Literature manuscript catalogue", "resource": "https://www.odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=4&q=palm-leaf-ol"}]
 human_review_claimed: false
 ---
 
@@ -33,10 +33,24 @@ The fox-and-bird figures point to a story that needs an identified local katha. 
 
 Ghanta can be explored as a dish beyond this observance. A visitor listing must say whether a provider offers an everyday version or an observance-associated preparation, and on which confirmed dates.
 
+## A coastal food account
+
+Mahanti describes a coastal observance on Ashwina’s dark eighth lunar day. His account offers twenty-one varieties of seasonal vegetables beneath an aparamanga leaf, then cooks them into ghanta tarkari for exchange. The number and leaf belong to this account; they are not a universal menu. The plant’s botanical identity remains unverified here.
+
+Sources: [Fading Festivals of Odisha: A peep into the religious practices in Odisha](https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf). Printed p.58, PDF p.74.
+
+## Manuscripts to compare
+
+Catalogue leads include Duti Bahana Osha at ORPR-106, Dwitia Osha at OL-2452, Ditiya Osha at OL/2673 and Dwitiya Osa at OL/2674. Similar titles are a reason to compare the texts, not evidence that they have identical stories or match every regional Puajiuntia tradition.
+
+Sources: [Orissa State Museum manuscript catalogue](https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf), [Oriya Literature manuscript catalogue](https://www.odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=4&q=palm-leaf-ol). NMM PDF pp.21,45; museum OL/2673 and OL/2674.
+
 ## Questions for the next research pass
 
 - What are the local name and bird identification in the katha?
 - Which produce is offered, and which is cooked the following day?
 - Who receives a share, and how is the dish named?
+
+[Text witness register](../osha-text-witnesses.md). Archival references, inspected passages and remaining comparisons.
 
 [Back to the collection](../osha-brata-seasonal-food.md). Cultural association does not establish a serving venue or access to private worship. No local interviews or human editorial review are claimed.

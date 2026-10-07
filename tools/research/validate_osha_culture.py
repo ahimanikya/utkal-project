@@ -18,6 +18,26 @@ for p in r['pages']:
   check(all(x in cat for x in s['source_ids']),'Missing source '+p['slug'])
   if path.exists():check(s['text'] in path.read_text(),'Structured/prose mismatch '+p['slug'])
  for f in p['related_food_paths']:check((ROOT/(f+'.md')).is_file(),'Missing related food')
+w=json.loads((D/'osha-text-witnesses.json').read_text())
+check(len({x['id'] for x in w['records']})==len(w['records']),'Duplicate manuscript reference')
+for x in w['records']:
+ check(x['source_id'] in cat and bool(x['accession']) and bool(x['locator']),'Missing manuscript provenance')
+ check(x['profile_slug'] in {p['slug'] for p in r['pages']},'Unlinked manuscript reference')
+ check(x['date_of_copy'] is None and x['composition_date'] is None and not x['contents_inspected'],'Catalogue promoted to dated/read manuscript')
+ check(not x['independent_variant_established'],'Uncollated variant treated as established')
+for x in w['digital_texts']:
+ check(x['edition_date'] is None and x['composition_date'] is None,'Unestablished digital-text date')
+ check(x['status'] in {'selected_pages_inspected','recovered_not_read','narrative_pages_inspected'},'Unsupported text completion')
+ check(len(x['sha256'])==64 and x['pdf_pages']>0,'Missing digital-text capture identity')
+comparison=json.loads((D/'sudasa-text-comparison.json').read_text())
+check(len({x['id'] for x in comparison['rows']})==len(comparison['rows']),'Duplicate comparison identity')
+for x in comparison['rows']:
+ check(x['evidence_class']=='ritual_narrative' and not x['historical_event_verified'],'Narrative promoted to history')
+ for version in ['verse','prose']:
+  check(x[version]['source_id'] in cat and bool(x[version]['locator']),'Missing comparison provenance')
+  check(x[version]['text'] in (ROOT/'culture/osha/sudasa-text-comparison.md').read_text(),'Comparison prose/data mismatch')
+check(all(v is None for v in comparison['edition_dates'].values()) and comparison['earliest_observance_date'] is None,'Unestablished chronology')
+check(not comparison['human_review_claimed'] and not comparison['full_diplomatic_transcription'],'Unperformed review or full collation')
 check(not r['human_review_claimed'] and not r['fieldwork_conducted'],'Unestablished human review or fieldwork')
-print(json.dumps(dict(result='FAIL' if errors else 'PASS',profiles=len(r['pages']),narrative_checkpoints=sum(p['coverage_status']=='narrative_checkpoint' for p in r['pages']),errors=errors,scope='Identity, provenance, prose/data consistency and unverified-field boundaries; not independent cultural review.'),indent=2))
+print(json.dumps(dict(result='FAIL' if errors else 'PASS',profiles=len(r['pages']),catalogue_records=len(w['records']),digital_texts=len(w['digital_texts']),comparison_dimensions=len(comparison['rows']),narrative_checkpoints=sum(p['coverage_status']=='narrative_checkpoint' for p in r['pages']),errors=errors,scope='Identity, provenance, prose/data consistency and unverified-field boundaries; not independent cultural review.'),indent=2))
 raise SystemExit(bool(errors))

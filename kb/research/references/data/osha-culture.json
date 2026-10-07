@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-07-osha-deep-study",
-  "checked_at": "2026-10-07T05:30:57.424485+00:00",
+  "run_id": "2026-10-07-nisha",
+  "checked_at": "2026-10-07T11:02:49.370532+00:00",
   "title": "Bara Masa, Tera Parba: osha, story and food",
-  "scope": "Twelve selected profiles and a non-exhaustive expansion inventory. Five narrative checkpoints and seven early research notes; no complete statewide inventory or fully researched origin claim.",
+  "scope": "Fifteen selected profiles: seven narrative checkpoints and eight early notes. Partial texts and modern accounts are not completed origin studies or an exhaustive inventory.",
   "pages": [
     {
       "id": "OSHA-001",
@@ -200,8 +200,18 @@
           "locator": "Printed pp.17–18"
         },
         {
+          "title": "Two stories around the vow",
+          "text": "In the scanned verse booklet, a kite takes a Brahmin woman’s ritual thread and the king gives her the queen’s brata; Nala and Damayanti later endure hardship before renewal and restoration. In the typed prose, a cat steals a merchant wife’s manda and King Sudarshana obtains a replacement from Queen Sudasha’s offering. The merchant’s wife later helps the queen renew the vow. The thread and the cake carry different narrative roles. Neither story establishes a historical event.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-sudasa-scan",
+            "osha-sudasa-prose"
+          ],
+          "locator": "Verse printed pp.1–12; prose PDF pp.1–4"
+        },
+        {
           "title": "What history can and cannot say",
-          "text": "The sources connect the brata to Lakshmi devotion; they do not establish an earliest Odisha performance in this study. Mahanti’s claim of revival by Balarama Das needs a dated textual witness before becoming our chronology. The knot’s significance should be narrated from an identified katha, rather than completed from an unrelated internet version.",
+          "text": "The sources connect the brata to Lakshmi devotion, but no earliest Odisha performance is established here. Mahanti’s claim of revival by Balarama Das still needs a dated textual witness. The two recovered copies tell different stories, so neither is treated as a single authoritative original.",
           "evidence_class": "research_limit",
           "source_ids": [
             "osha-mahanti"
@@ -214,6 +224,24 @@
           "evidence_class": "editorial_interpretation",
           "source_ids": [],
           "locator": ""
+        },
+        {
+          "title": "A printed offering passage",
+          "text": "An undated verse booklet naming Damayanti in its title describes ten manda with chhena and coconut filling. Damayanti is a character in its story, not an established author credit. The passage supplies a textual food reference while leaving the cooking method unresolved; it does not prove the observance’s starting date or a recipe followed by every household.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-sudasa-scan"
+          ],
+          "locator": "Printed pp.2–3, especially verse17 on p.2; PDF p.3"
+        },
+        {
+          "title": "Manuscripts to compare",
+          "text": "The National Mission for Manuscripts lists five Sudasa Brata Katha accessions: ORPR-64, ORPR-210, ORPR-220, ORPR-221 and ORPR-226. Their texts and copying dates remain unexamined; separate catalogue entries do not yet establish separate narrative variants.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nmm-catalogue"
+          ],
+          "locator": "PDF pp.20–21"
         }
       ],
       "food_names": [
@@ -223,9 +251,9 @@
         "food/manda-pitha"
       ],
       "questions": [
-        "Which Sudasa katha and edition supplies the local story?",
-        "How are the old thread and new thread treated?",
-        "Is the local manda steamed or fried, and what is its filling?"
+        "Which dated colophons establish the transmission of each story?",
+        "How do the two stories circulate in different localities?",
+        "Is manda steamed or fried in each documented household version, and what dough is used?"
       ],
       "coverage_status": "narrative_checkpoint",
       "origin_date": null,
@@ -235,7 +263,10 @@
       "source_ids": [
         "osha-lakshmi2021",
         "osha-mahanti",
-        "osha-review2006"
+        "osha-review2006",
+        "osha-sudasa-scan",
+        "osha-sudasa-prose",
+        "osha-nmm-catalogue"
       ],
       "canonical_path": "culture/osha/sudasa-brata.md",
       "route": "/culture/osha/sudasa-brata/",
@@ -278,6 +309,25 @@
           "evidence_class": "visitor_context",
           "source_ids": [],
           "locator": ""
+        },
+        {
+          "title": "A coastal food account",
+          "text": "Mahanti describes a coastal observance on Ashwina’s dark eighth lunar day. His account offers twenty-one varieties of seasonal vegetables beneath an aparamanga leaf, then cooks them into ghanta tarkari for exchange. The number and leaf belong to this account; they are not a universal menu. The plant’s botanical identity remains unverified here.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.58, PDF p.74"
+        },
+        {
+          "title": "Manuscripts to compare",
+          "text": "Catalogue leads include Duti Bahana Osha at ORPR-106, Dwitia Osha at OL-2452, Ditiya Osha at OL/2673 and Dwitiya Osa at OL/2674. Similar titles are a reason to compare the texts, not evidence that they have identical stories or match every regional Puajiuntia tradition.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nmm-catalogue",
+            "osha-osm-literature"
+          ],
+          "locator": "NMM PDF pp.21,45; museum OL/2673 and OL/2674"
         }
       ],
       "food_names": [
@@ -295,7 +345,10 @@
       "serving_places": [],
       "local_review": null,
       "source_ids": [
-        "osha-review2006"
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-nmm-catalogue",
+        "osha-osm-literature"
       ],
       "canonical_path": "culture/osha/dutiya.md",
       "route": "/culture/osha/dutiya/",
@@ -332,6 +385,16 @@
           "evidence_class": "research_limit",
           "source_ids": [],
           "locator": ""
+        },
+        {
+          "title": "Manuscripts to compare",
+          "text": "Institutional catalogues identify Budhei texts at OL-2022, OL-2443 and OL/2636. The museum describes OL/2636 as palm leaf. These references make a comparison possible, but no copying date, earliest composition or food passage can yet be assigned from their catalogue entries.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nmm-catalogue",
+            "osha-osm-literature"
+          ],
+          "locator": "NMM PDF pp.13,45; museum OL/2636"
         }
       ],
       "food_names": [
@@ -351,7 +414,9 @@
       "local_review": null,
       "source_ids": [
         "osha-review2006",
-        "osha-mahanti"
+        "osha-mahanti",
+        "osha-nmm-catalogue",
+        "osha-osm-literature"
       ],
       "canonical_path": "culture/osha/budhei.md",
       "route": "/culture/osha/budhei/",
@@ -748,6 +813,24 @@
           "locator": "Dash p.15; Mahanti p.56"
         },
         {
+          "title": "Flowers, a song and an evening game",
+          "text": "In a 2015 account framed around Ganjam, Prafulla Chandra Mohanty connects the end of month-long Janhi worship with Kumar Purnima. He records a short song addressing the Janhi flower and describes a street game using cowries, seeds called Poi-chardia and lia/khai. The grain is a game material in that passage; the author does not identify it there as Janhi’s offering.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kumar2015"
+          ],
+          "locator": "Printed p.45, right column; PDF p.54"
+        },
+        {
+          "title": "The offering belongs to a particular scene",
+          "text": "Mohanty describes kakara pitha offered to the moon near the Tulsi platform, then shared with friends addressed as Chanda. This is his Kumar Purnima account, not evidence that kakara is the daily offering throughout Janhi Osha.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kumar2015"
+          ],
+          "locator": "Printed p.45 left column and p.46 left column; PDF pp.54–55"
+        },
+        {
           "title": "A food-culture question without an invented menu",
           "text": "Janhi is a food plant, but that does not establish ridge-gourd curry as the observance’s special dish. Its flowers have a ritual role in the inspected account. The study should document that role first and ask separately about offerings and meals. Keeping these distinctions protects a small tradition from being rewritten as a generic food festival.",
           "evidence_class": "editorial_interpretation",
@@ -755,8 +838,15 @@
           "locator": ""
         },
         {
+          "title": "How to read the significance",
+          "text": "Read together, the flower arrangement, sung address, play and sharing suggest several ways a seasonal observance can organise social life. That is an editorial interpretation of the accounts. It does not establish how every family understands the practice, whether the same game survives today, or what visitors can attend. The plant’s ritual use and a cooked offering should be documented as different relationships.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
           "title": "What to recover next",
-          "text": "Local songs, a dated account and present-day explanations of the floral designs are the next evidence. The relationship between Janhi Osha and Kumar Purnima should be described without collapsing them into one event. No named food offering or current participation arrangement is established here.",
+          "text": "The 2015 article preserves a song fragment, not a complete Janhi katha or a dated origin account. A search-index lead for Janhi Osha Katha in an April 1938 Gazette book list awaits inspection of the original; the failed fetch does not verify the entry or date the practice. Full songs, printed texts, locality-specific meanings and current participation arrangements remain open.",
           "evidence_class": "research_limit",
           "source_ids": [],
           "locator": ""
@@ -765,9 +855,10 @@
       "food_names": [],
       "related_food_paths": [],
       "questions": [
-        "Which flowers and patterns are used on successive evenings?",
-        "Which song explains the observance locally?",
-        "What food, if any, belongs specifically to Janhi rather than Kumar Purnima?"
+        "Can the Gazette book-registration entry be inspected and the listed Janhi booklet located?",
+        "How does the complete song or katha explain the floral designs in a named locality?",
+        "Which foods belong specifically to Janhi, and which to its Kumar Purnima culmination?",
+        "Do local practitioners still recognise the game and Chanda friendship custom described in 2015?"
       ],
       "coverage_status": "research_note",
       "origin_date": null,
@@ -776,10 +867,301 @@
       "local_review": null,
       "source_ids": [
         "osha-review2006",
-        "osha-mahanti"
+        "osha-mahanti",
+        "osha-kumar2015"
       ],
       "canonical_path": "culture/osha/janhi.md",
       "route": "/culture/osha/janhi/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "OSHA-013",
+      "slug": "chaitra-mangala",
+      "name": "Chaitra Mangala Osha",
+      "traditional_month": "Chaitra",
+      "observance_type": "osha",
+      "lead": "A Tuesday gathering, a seasonal drink and a story about a woman confronting royal power offer three ways into Mangala’s spring observance.",
+      "sections": [
+        {
+          "title": "The seasonal gathering",
+          "text": "Dash places Mangala worship on Tuesdays in Chaitra. Mahanti describes mostly married women gathering under a tree, shaping an image on sand or earth and decorating it with cloth and flowers. At midday they offer seasonal fruits and pana, accompanied by conches, bells and women’s ululation. This is an attributed description; its geographical distribution and present-day prevalence are not measured.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed p.15; Mahanti printed p.62 / PDF p.78"
+        },
+        {
+          "title": "Shriya and the king: a partially recovered story",
+          "text": "The English introduction to an odia.org booklet tells of Shriya, a woman subjected to caste exclusion, whose devotion includes wine, meat and eggs. After she calls the king’s appearance inauspicious, he has her sons killed beneath a husking lever. Mangala restores them; the king learns a lesson, and the queen’s worship is rewarded with children. This is the booklet’s synopsis, not a verified event or a complete reading of its Odia verses.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-chaitra-odiaorg"
+          ],
+          "locator": "PDF p.3 / printed p.1 English synopsis, web extraction only"
+        },
+        {
+          "title": "Reading power, dignity and devotion",
+          "text": "The synopsis can be read as a reversal of power: royal punishment fails to silence a socially excluded devotee, and the ruler’s household comes to recognise her goddess. That is an editorial interpretation. Shriya’s name alone does not establish that this is the same character or text as the Shreeya story associated with Manabasa; the narratives need comparison. Neither miracles nor a moral reversal establish a historical biography.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Pana, ingredients and the act of offering",
+          "text": "In a 2023 Mint interview, Alka Jena explains pouring pana into a small well outside the home as an offering to Mother Earth, shared with other creatures. Swetak Abhisek Mohapatra names raw-mango pieces and a small variety of gram in the offering. These are named informants’ accounts; their description of required ingredients is not a rule verified across Odisha.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pana2023"
+          ],
+          "locator": "14 April 2023, domestic religious practices paragraphs"
+        },
+        {
+          "title": "The story does not supply a universal menu",
+          "text": "Mahanti’s fruit-and-pana description and the booklet’s wine, meat and eggs occupy different kinds of evidence: a practice account and a story synopsis. They should not be harmonised into one menu or used to declare all Mangala worship vegetarian or non-vegetarian. The term pana also does not identify every offering as bela pana. A recipe needs its own locality, ingredients and preparation evidence.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "A literary trail, not an established beginning",
+          "text": "A 2009 essay by Satyabrata Das and Lalit Kumar Lenka cites Chaitra Mangala Osha at Madhya Parva, 885, in Sarala Mahabharata. The article is inspected, but its cited edition and the epic passage are not. This is a useful route toward historical evidence, not a verified founding date, proof of unchanged practice since the fifteenth century, or proof that the booklet synopsis occurs in that passage.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-sarala2009"
+          ],
+          "locator": "Printed p.58, first paragraph"
+        },
+        {
+          "title": "What a visitor can learn now",
+          "text": "The traditional month and named foods provide a reading route. No year-specific Tuesday, serving venue, public invitation or host permission is established. Chaitra Mangala is kept distinct from Pana Sankranti and from the autumn observance Nisha Mangalabara until source-specific relationships are demonstrated.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Seasonal fruits",
+        "Pana — variant and recipe vary by account"
+      ],
+      "related_food_paths": [],
+      "questions": [
+        "Which edition supplies Madhya Parva page 885, and what does the passage say?",
+        "Can the complete Odia booklet be recovered, read and compared with other katha witnesses?",
+        "Which households or localities document the raw-mango and gram preparation, quantities and handling?",
+        "How do local observers explain the miniature well, collective worship and sharing?"
+      ],
+      "coverage_status": "narrative_checkpoint",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-sarala2009",
+        "osha-chaitra-odiaorg",
+        "osha-pana2023"
+      ],
+      "canonical_path": "culture/osha/chaitra-mangala.md",
+      "route": "/culture/osha/chaitra-mangala/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "OSHA-014",
+      "slug": "sathi",
+      "name": "Sathi Osha",
+      "traditional_month": "Bhadraba",
+      "observance_type": "osha",
+      "lead": "A mother shapes small figures, prepares an offering and gathers her children: one household memory gives Sathi Osha a tangible place in family life.",
+      "sections": [
+        {
+          "title": "Which Sathi observance?",
+          "text": "Dash’s 2006 survey places Sathi Osha in Bhadraba and mentions turmeric images. It separately names sathi ghar on the sixth day after birth. Behera’s devotional essay also distinguishes birth-related worship from the annual Bhadraba observance. This page concerns the annual osha; shared deity names do not make the two occasions interchangeable.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-sathi-behera"
+          ],
+          "locator": "Dash pp.15,17–18; Behera opening birth/annual distinction"
+        },
+        {
+          "title": "A daughter remembers her mother’s preparations",
+          "text": "Bishnupriya Mahapatra explicitly describes her own childhood household, noting that practices differ elsewhere. Her mother makes six flour-and-turmeric figures, wraps turmeric pieces with seven strands of thread, arranges seven plant branches and offers chakuli. She identifies the figures as Sathi and her sisters. The account also describes striking the figures and children seven times with the branches while praying for their strength; it is reported here as remembered ritual, not advice.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-sathi-mahapatra"
+          ],
+          "locator": "Household preparation paragraph beginning with the morning bath and new clothes; closing explanation of the figures"
+        },
+        {
+          "title": "From offering to a shared meal",
+          "text": "In Mahapatra’s recollection, the family eats the pitha after worship and her mother ties the thread-wrapped turmeric to their arms. Chakuli is therefore documented as both offering and shared food in this household. She does not supply batter proportions, fermentation time or a complete menu. The flour used for figures is not evidence of the pitha’s ingredients.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-sathi-mahapatra"
+          ],
+          "locator": "Offering sentence and paragraph beginning after completion of worship"
+        },
+        {
+          "title": "A wider devotional story",
+          "text": "Behera retells the story of Priyavrata and Malini, whose child is born dead. Shashthi restores the child after the king promises to spread her worship. This is his authored retelling of a broader Shashthi tradition, not a verified event or evidence that Mahapatra’s family recited it. The underlying Puranic edition has not been inspected.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-sathi-behera"
+          ],
+          "locator": "Concluding narrative beginning with Priyavrata, son of Svayambhuva Manu"
+        },
+        {
+          "title": "Care, memory and practical knowledge",
+          "text": "An editorial reading of the household account follows a mother’s work through shaping, decorating, arranging, offering and sharing. Familiar kitchen materials acquire ritual roles; the closing meal gives children a part in the observance. The prayers express hopes for protection. Neither the use of turmeric nor the branch ritual establishes a medical benefit, and no food-science measurement is supplied. Exact plant identification and preparation knowledge require their own evidence.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "History still to establish",
+          "text": "The inspected 2006 description is a dated modern reference, not the observance’s origin. The first-person memory supplies continuity within one family without dating its beginning. No earliest Odisha manuscript, securely dated local katha or demonstrated historical transmission is established. The article’s six figures and seven strands or branches should not be reduced to a universal rule that every ritual object comes in sixes.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Seasonal reading for visitors",
+          "text": "Mahapatra gives Bhadraba’s bright-fortnight sixth lunar day as the traditional rule. It is retained separately from any year-specific date. The documented chakuli association offers a way to learn about the season, but no serving venue, invitation or access to private worship has been verified.",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-sathi-mahapatra"
+          ],
+          "locator": "Opening calendar paragraph"
+        }
+      ],
+      "food_names": [
+        "Chakuli pitha — Mahapatra household account"
+      ],
+      "related_food_paths": [
+        "food/chakuli"
+      ],
+      "questions": [
+        "Where and during which years did the remembered household practice take place?",
+        "Which dated local katha witnesses distinguish the annual osha from birth rites?",
+        "What recipe and sharing arrangements did this household use for chakuli?",
+        "Which plants do the local names designate, and how do other households describe their use?"
+      ],
+      "coverage_status": "narrative_checkpoint",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-sathi-mahapatra",
+        "osha-sathi-behera"
+      ],
+      "canonical_path": "culture/osha/sathi.md",
+      "route": "/culture/osha/sathi/",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "OSHA-015",
+      "slug": "nisha-mangalabara",
+      "name": "Nisha Mangalabara Osha",
+      "traditional_month": "Ashwina",
+      "observance_type": "osha",
+      "lead": "Night worship gives this Ashwina observance its distinctive setting. Its food, stories and local forms still need to be read source by source.",
+      "sections": [
+        {
+          "title": "An autumn night of worship",
+          "text": "Mahanti describes married women observing the osha at night in Ashwina: some on every Tuesday, others on the last Tuesday. He explains the name through its night-time observance. These are recorded alternatives, not one fixed statewide rule.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.58 / PDF p.74, Nisa Mangalbara osha paragraph"
+        },
+        {
+          "title": "Whom do the sources name?",
+          "text": "Dash’s April 2006 survey names Mangala. Mahanti’s description instead names Durga and mentions drawing her image with rice powder. Both labels are retained with their sources; the passages do not establish whether they describe the same local form or explain the difference.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed p.15; Mahanti printed p.58 / PDF p.74"
+        },
+        {
+          "title": "What can we say about the food?",
+          "text": "Mahanti records a cooked offering without naming a dish. He also reports a cock sacrifice, but does not say how the bird was used afterward. Rice powder belongs to the image-making passage. None of this supplies a recipe or a serving menu.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.58 / PDF p.74, image, offering and sacrifice sentences"
+        },
+        {
+          "title": "Significance without a claim of ritual effect",
+          "text": "Mahanti presents the worship as an appeal for protection from calamities. An editorial reading places women’s preparation and hopes for household security at the centre. The source does not measure whether the ritual changes outcomes, and its brief account cannot establish present-day prevalence.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed p.58 / PDF p.74, closing invocation"
+        },
+        {
+          "title": "A book identity, not yet a recovered story",
+          "text": "WorldCat records Brhat Khulana sundari, ba, Nisa Mangalabara osha, OCLC 22766659, an Odia book from Dharmagrantha Shtora in Kataka. Its date is displayed as [197-], and the cover title is Khulana sundari. This is a useful textual lead. The contents have not been inspected: the catalogue does not establish a plot, food passage, author or origin date.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nisha-worldcat"
+          ],
+          "locator": "Title, edition-date, publisher, physical-description and cover-title fields"
+        },
+        {
+          "title": "A modern link with maritime remembrance",
+          "text": "Kalinga History describes a two-day gathering at Sambhav Farm in Nayagarh, invited by Sabarmatee, with maritime discussions and a midnight visit to a temple holding Nisha Mangalabara worship. The entry was added on 24 October 2025; that is not a confirmed event date. Its framing connects the observance with concern for merchants at sea. This documents modern heritage interpretation, not the historical founding of the osha.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-nisha-kalingahistory"
+          ],
+          "locator": "Named Nisha Mangalabara entry, date and event-description paragraphs"
+        },
+        {
+          "title": "History and practical knowledge still to recover",
+          "text": "The book identity and short modern descriptions give research a firmer starting point, but a historical narrative needs inspected editions, dated local testimony and comparison of variants. Cooking, drawing and arranging an offering involve skills; the present passages do not document their techniques or scientific explanations. A generic account of fasting or vegetarian food should not replace this observance’s specific evidence.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "How this belongs in a seasonal guide",
+          "text": "Ashwina is a useful cultural browsing label, with the Tuesday variants visible. No named food, current serving venue, annual date or invitation to private worship is verified. Food served at a modern heritage gathering cannot automatically become the ritual’s prescribed offering.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [],
+      "related_food_paths": [],
+      "questions": [
+        "Can OCLC 22766659 be inspected, including its title page, edition statement and food passages?",
+        "How do practitioners explain the Mangala and Durga names in particular places?",
+        "Which cooked dishes are offered and shared, and how do local preparations differ?",
+        "What dated evidence supports the maritime association beyond modern heritage interpretation?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-nisha-worldcat",
+        "osha-nisha-kalingahistory"
+      ],
+      "canonical_path": "culture/osha/nisha-mangalabara.md",
+      "route": "/culture/osha/nisha-mangalabara/",
       "checked_on": "2026-10-07"
     }
   ],
@@ -1016,17 +1398,181 @@
       "scope": "Primary literary text in historical translation. Direct evidence of a narrative, not an Odisha observance’s origin or modern performance.",
       "capture_method": "Original web text inspected",
       "lineage_note": "Each publication is one evidence family; shared citations are not independent confirmation."
+    },
+    "osha-nmm-catalogue": {
+      "id": "osha-nmm-catalogue",
+      "title": "Orissa State Museum manuscript catalogue",
+      "resource": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+      "publisher": "National Mission for Manuscripts",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "PDF pp.13,20–21,45; Manus ID and accession rows",
+      "scope": "Institutional catalogue text inspected through web extraction. Direct download timed out; screenshots unavailable. Title, accession and listed page counts only; manuscript contents and dating not inspected.",
+      "capture_method": "Original institutional catalogue web text",
+      "lineage_note": "Catalogue records at one repository are not independent corroboration of ritual practice. Distinct accessions are not proven textual variants."
+    },
+    "osha-osm-literature": {
+      "id": "osha-osm-literature",
+      "title": "Oriya Literature manuscript catalogue",
+      "resource": "https://www.odishamuseum.nic.in/?field_abstraction_tid=All&field_author_value=&field_category_tid=All&field_subject_value=&page=4&q=palm-leaf-ol",
+      "publisher": "Odisha State Museum",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "OL/2636, OL/2673 and OL/2674",
+      "scope": "Institutional catalogue entries inspected. Palm-leaf support and page counts are catalogue assertions. Author fields blank; dates not supplied. Linked sample images could not be fetched.",
+      "capture_method": "Original institutional catalogue web text",
+      "lineage_note": "Catalogue records at one repository are not independent corroboration of ritual practice. Distinct accessions are not proven textual variants."
+    },
+    "osha-sudasa-scan": {
+      "id": "osha-sudasa-scan",
+      "title": "Damayantinkara Sudasha Brata",
+      "resource": "https://www.odiabooks.com/sudasha-brata-katha-pdf-ebook.html",
+      "publisher": "A. Pustaka Bhandar, Cuttack; public scan linked by OdiaBooks",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "Printed pp.1–12, narrative, visually inspected across PDF pp.2–8; appendix and covers separately observed",
+      "scope": "Undated printed booklet titled with Damayanti’s name. Damayanti is a character in the Nala–Damayanti narrative; the title is not an established author credit. Narrative pages inspected, without a full transcription or dated colophon.",
+      "capture_method": "Saved PDF reused; remaining narrative pages visually inspected. Prior selected-page reading retained in capture history.",
+      "lineage_note": "Catalogue records at one repository are not independent corroboration of ritual practice. Distinct accessions are not proven textual variants.",
+      "download_url": "https://www.dropbox.com/s/wnyjisz6xiagwym/sudashabrata.pdf?dl=1",
+      "sha256": "da42b5e999b1e51ea6e86eb3b9b937a597ef6e893317f85bce4f1e3bfdd89998",
+      "corrections": [
+        {
+          "at": "2026-10-07T06:51:32.977784+00:00",
+          "field": "attribution",
+          "previous": "Attribution to Damayanti on cover and opening",
+          "corrected": "Damayanti is named as the narrative queen; authorship unestablished",
+          "basis": "Nala and Damayanti narrative, printed pp.7–12, distinguishes character from author."
+        }
+      ]
+    },
+    "osha-sudasa-prose": {
+      "id": "osha-sudasa-prose",
+      "title": "Shri Sudasha Brata Katha — anonymous typed prose copy",
+      "resource": "https://www.dropbox.com/s/c0u5sg3lcm9y8b5/sudashabrata_txt.pdf?dl=1",
+      "publisher": "Unidentified; public file linked by OdiaBooks",
+      "published_on": null,
+      "author": null,
+      "accessed_on": "2026-10-07",
+      "locator": "PDF pp.1–4, visually rendered and inspected",
+      "scope": "Undated four-page typed Odia prose text. Its narrative is evidence of this textual version, not an event chronology or a contemporary household survey.",
+      "capture_method": "Reused saved PDF; all four pages rendered locally with Poppler and visually inspected. No new network fetch.",
+      "sha256": "39c5638402e5c340634d8a5b26088eb5ea80c8456dbea8a5a12f95e5e5d9f416",
+      "lineage_note": "Same discovery host as the scanned verse booklet. Different plots established; independent transmission, precedence and authorship are not established."
+    },
+    "osha-kumar2015": {
+      "id": "osha-kumar2015",
+      "title": "Kumar Purnima in Odishan Culture",
+      "resource": "https://magazines.odisha.gov.in/Orissareview/2015/Oct/engpdf/october-or-2015.pdf",
+      "publisher": "Odisha Review, Government of Odisha",
+      "author": "Prafulla Chandra Mohanty",
+      "published_on": "2015-10",
+      "accessed_on": "2026-10-07",
+      "locator": "Printed pp.45–46; PDF pp.54–55, rendered and visually inspected",
+      "scope": "Authored cultural account with Ganjam framing; not a dated field survey, earliest historical witness or statewide prevalence estimate.",
+      "capture_method": "Original issue downloaded; two article pages extracted and visually inspected. Per-request TLS certificate verification bypassed after expiry error; no persistent configuration change.",
+      "sha256": "0c27caf6b0e97f1f5272e31dc6f10a3f92d3fb57b606d76261e03aabad5e4129",
+      "lineage_note": "Same publisher as Dash 2006; distinct authored article, with no independent fieldwork corroboration established."
+    },
+    "osha-sarala2009": {
+      "id": "osha-sarala2009",
+      "title": "Folk Elements in Sarala Mahabharata",
+      "resource": "https://magazines.odisha.gov.in/orissareview/2009/April-May/engpdf/or-april-2009.pdf",
+      "publisher": "Orissa Review, Government of Odisha",
+      "author": "Satyabrata Das and Lalit Kumar Lenka",
+      "published_on": "2009-04/2009-05",
+      "accessed_on": "2026-10-07",
+      "locator": "Printed pp.56–58; Chaitra reference p.58, left column",
+      "capture_method": "Original issue recovered with request-only TLS bypass for recorded publisher certificate expiry. Article text extracted; p.58 visually inspected.",
+      "scope": "Secondary literary interpretation; cited epic edition unidentified, primary Madhya Parva passage not inspected.",
+      "lineage_note": "Source-specific account; no independent corroboration inferred from another URL, host or shared publisher.",
+      "sha256": "3b0359e2edd91eebe52c66116f7bdd9b503bfd03ea1b3794d600f8692b06bb16"
+    },
+    "osha-chaitra-odiaorg": {
+      "id": "osha-chaitra-odiaorg",
+      "title": "Chaitra Mangalabara Osha — Festivals of Odisha #101",
+      "resource": "https://ewb.seedsnet.in/modules/od-odia.org/books/Literary%20Works%201/Chaitramangalabar.pdf",
+      "publisher": "odia.org; hosted copy at ewb.seedsnet.in",
+      "author": null,
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "PDF p.3 / printed p.1 English introductory summary; publisher/version on PDF p.2",
+      "capture_method": "Web PDF extraction available; direct download returned HTML rather than PDF and screenshots failed. Odia narrative pages not read.",
+      "scope": "Partial digital text witness: English editorial synopsis only. Version string 1.0_051607 is retained, not parsed into a historical composition date.",
+      "lineage_note": "Source-specific account; no independent corroboration inferred from another URL, host or shared publisher."
+    },
+    "osha-pana2023": {
+      "id": "osha-pana2023",
+      "title": "Pana, the drink of gods in Odisha",
+      "resource": "https://www.livemint.com/mint-lounge/food/pana-the-drink-of-gods-in-odisha-111681396901209.html",
+      "publisher": "Mint Lounge",
+      "author": "Priyadarshini Chatterjee",
+      "published_on": "2023-04-14",
+      "accessed_on": "2026-10-07",
+      "locator": "Domestic religious practices: Chaitra Mangalabara paragraphs, raw mango and tiny gram attribution",
+      "capture_method": "Full article retrieved through web reader; narrowly used named interview testimony.",
+      "scope": "Contemporary attributed testimony from Alka Jena and Swetak Abhisek Mohapatra; not a representative household survey or historical proof.",
+      "lineage_note": "Source-specific account; no independent corroboration inferred from another URL, host or shared publisher."
+    },
+    "osha-sathi-mahapatra": {
+      "id": "osha-sathi-mahapatra",
+      "title": "ଷଷ୍ଠୀ ଓଷା (Sasthi Osha)",
+      "resource": "https://shubhapallaba.in/sasthi-osha/",
+      "publisher": "Shubhapallaba",
+      "author": "Bishnupriya Mahapatra",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "Opening calendar paragraph; explicit childhood-household account, preparation paragraph and closing meal paragraph",
+      "scope": "First-person household memory, locality and years of practice unspecified. Publication date not established: relative age and site-header date are not accepted as article dates. Tagged31st-edition; no original issue recovered.",
+      "capture_method": "Original publisher web text read in Odia; English paraphrase by the project, no human Odia review.",
+      "lineage_note": "Authored text, not an interview conducted by Utkal or a representative survey."
+    },
+    "osha-sathi-behera": {
+      "id": "osha-sathi-behera",
+      "title": "ଷଠୀପୂଜା (Shathi Puja)",
+      "resource": "https://storymirror.com/read/oriya/story/sstthiipuujaa/pwrhonj6",
+      "publisher": "StoryMirror",
+      "author": "Arjuni Charan Behera",
+      "published_on": null,
+      "accessed_on": "2026-10-07",
+      "locator": "Birth/annual distinction near opening; concluding Priyavrata–Malini narrative",
+      "scope": "Named contemporary devotional retelling. Primary evidence of this authored version, not proof of its cited Puranic text, historical events, Odisha adoption date or annual household katha.",
+      "capture_method": "Original publisher web text read in Odia; English paraphrase by the project, no human Odia review.",
+      "lineage_note": "Authored text, not an interview conducted by Utkal or a representative survey."
+    },
+    "osha-nisha-worldcat": {
+      "id": "osha-nisha-worldcat",
+      "title": "Brhat Khulana sundari, ba, Nisa Mangalabara osha — OCLC 22766659",
+      "resource": "https://search.worldcat.org/title/Brhat-Khulana-sundari-ba-Nisa-Magalabara-osha/oclc/22766659",
+      "publisher": "OCLC WorldCat",
+      "published_on": null,
+      "edition_date_display": "[197-]",
+      "accessed_on": "2026-10-07",
+      "locator": "Title; edition, publisher, physical description, identifier and cover-title fields",
+      "scope": "Catalogue metadata only. Odia print book, Dharmagrantha Shtora, Kataka; 4,154 pages; cover title Khulana sundari. Bracketed decade preserved exactly; no precise year, authorship, full text, recipe or earliest origin established."
+    },
+    "osha-nisha-kalingahistory": {
+      "id": "osha-nisha-kalingahistory",
+      "title": "Nisha Mangalabara: maritime remembrance at Sambhav Farm",
+      "resource": "https://kalingahistory.org/kalinga-history.php",
+      "publisher": "Kalinga History",
+      "published_on": "2025-10-24",
+      "publication_date_scope": "Displayed Added on date, not an established event date",
+      "accessed_on": "2026-10-07",
+      "locator": "Entry headed ନିଶା ମଙ୍ଗଳବାର: ମଝି ଦରିଆର ବଣିକଙ୍କ ଶୁଭମନାସେ ସାଧନା; Added on October 24, 2025; following event description",
+      "scope": "Organizer-side account of a two-day gathering at Sambhav Farm in Nayagarh, invited by Sabarmatee, including maritime discussion and a midnight temple visit. Primary evidence of modern heritage interpretation; not ancient ritual origin, continuity or a current visitor offer."
     }
   },
   "next_observances": [
     {
       "name": "Chaitra Mangala Osha",
-      "status": "research_question",
+      "status": "profile_checkpoint_saved",
       "source_ids": [
         "osha-review2006",
         "osha-mahanti"
       ],
-      "note": "Name-discovery inventory only; aliases, regional scope, history and foods require verification."
+      "note": "Partial English synopsis and attributed food accounts; full Odia text and literary chronology remain unresolved.",
+      "profile_path": "culture/osha/chaitra-mangala.md"
     },
     {
       "name": "Shani / Tota Osha",
@@ -1039,12 +1585,13 @@
     },
     {
       "name": "Sathi Osha",
-      "status": "research_question",
+      "status": "profile_checkpoint_saved",
       "source_ids": [
         "osha-review2006",
         "osha-mahanti"
       ],
-      "note": "Name-discovery inventory only; aliases, regional scope, history and foods require verification."
+      "note": "Named household memory and broader devotional retelling; origin and locality remain unresolved.",
+      "profile_path": "culture/osha/sathi.md"
     },
     {
       "name": "Sukutuni Osha",
@@ -1057,12 +1604,13 @@
     },
     {
       "name": "Nisha Mangalabara Osha",
-      "status": "research_question",
+      "status": "profile_checkpoint_saved",
       "source_ids": [
         "osha-review2006",
         "osha-mahanti"
       ],
-      "note": "Name-discovery inventory only; aliases, regional scope, history and foods require verification."
+      "note": "Cooked offering unnamed; deity wording retained by source; print-book catalogue lead and modern maritime remembrance separated from origin evidence.",
+      "profile_path": "culture/osha/nisha-mangalabara.md"
     },
     {
       "name": "Bata Osha",
@@ -1290,12 +1838,20 @@
     {
       "id": "OSHA-B02",
       "scope": "Odia katha editions: Sudasa, Budhei and Dutiya; earliest witnesses, variants and food passages",
-      "status": "pending"
+      "status": "checkpoint_saved",
+      "checkpoint": "Seven-dimension Sudasa narrative comparison saved; authorship wording corrected. Budhei/Dutiya manuscripts and earliest chronology remain unresolved.",
+      "next_step": "Retry dated editions and Budhei/Dutiya manuscript images on or after 2026-10-14. Proceed to independent OSHA-B03 meanwhile.",
+      "retry_after": "2026-10-14",
+      "retry_scope": "Unresolved dates and inaccessible original manuscripts; not a completed history."
     },
     {
       "id": "OSHA-B03",
       "scope": "Chaitra Mangala, Sathi, Janhi and Nisha Mangalabara; local stories and women’s ritual work",
-      "status": "pending"
+      "status": "checkpoint_saved",
+      "checkpoint": "All four selected B03 profiles now have bounded checkpoints; full kathas and earliest chronology remain open.",
+      "next_step": "Reconcile accumulated validated RES-077 checkpoints into existing PR145 under current destination instructions, then proceed to OSHA-B04. Retry unresolved B02/B03 texts on or after 2026-10-14, including OCLC 22766659 and Hauser chapter 2.",
+      "retry_after": "2026-10-14",
+      "retry_scope": "Unresolved Janhi/Chaitra/Sathi textual witnesses and original issue; Nisha print book and ethnographic chapter. Checkpoint completion is not a completed history."
     },
     {
       "id": "OSHA-B04",

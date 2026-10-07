@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-07T05:32:58.615006+00:00",
+  "updated_at": "2026-10-07T11:07:54.805693+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3395,12 +3395,12 @@
       "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
       "target": "culture/osha-brata-seasonal-food.md",
       "status": "in_progress",
-      "attempts": 2,
+      "attempts": 8,
       "dependencies": [],
-      "last_worked_at": "2026-10-07T05:30:57.424485+00:00",
-      "next_step": "OSHA-B02: recover dated Odia katha editions for Sudasa, Budhei and Dutiya; inspect narratives and food passages, then revise existing profiles. Continue B03–B06 sequentially. Website candidate pending its own review/CI and publication decision.",
+      "last_worked_at": "2026-10-07T11:02:49.370532+00:00",
+      "next_step": "Continue OSHA-B04 while PR145 remains the review candidate; retry unresolved B02/B03 texts on/after2026-10-14. Source workspace remains scheduling authority.",
       "retry_after": null,
-      "blocker": "Some narrative/origin fields need textual witnesses or local participation; Ray 2022 original unavailable. These do not block independent text research.",
+      "blocker": "Earliest chronology, dated editions, Budhei/Dutiya original images and human Odia review remain unresolved. They do not block OSHA-B03. Janhi Gazette original is unavailable; retry 14 October, without blocking other B03 work.",
       "evidence_outputs": [
         "culture/osha-brata-seasonal-food.md",
         "visitor-index/seasonal-food-guide.md",
@@ -3427,7 +3427,30 @@
         "culture/osha/prathamastami.md",
         "culture/osha/sabitri.md",
         "culture/osha/janhi.md",
-        "references/data/osha-culture.json"
+        "references/data/osha-culture.json",
+        "sources/osha-nmm-catalogue.md",
+        "sources/osha-osm-literature.md",
+        "sources/osha-sudasa-scan.md",
+        "culture/osha-text-witnesses.md",
+        "references/data/osha-text-witnesses.json",
+        "sources/osha-sudasa-prose.md",
+        "culture/osha/sudasa-text-comparison.md",
+        "references/data/sudasa-text-comparison.json",
+        "sources/osha-kumar2015.md",
+        "references/data/osha-mangala-research.json",
+        "culture/osha/chaitra-mangala.md",
+        "sources/osha-sarala2009.md",
+        "sources/osha-chaitra-odiaorg.md",
+        "sources/osha-pana2023.md",
+        "references/data/chaitra-mangala-research.json",
+        "culture/osha/sathi.md",
+        "sources/osha-sathi-mahapatra.md",
+        "sources/osha-sathi-behera.md",
+        "references/data/sathi-research.json",
+        "culture/osha/nisha-mangalabara.md",
+        "sources/osha-nisha-worldcat.md",
+        "sources/osha-nisha-kalingahistory.md",
+        "references/data/nisha-mangalabara-research.json"
       ],
       "attempt_history": [
         {
@@ -3440,6 +3463,42 @@
           "run_id": "2026-10-07-osha-deep-study",
           "at": "2026-10-07T05:30:57.424485+00:00",
           "outcome": "twelve_profiles_five_narrative_checkpoints_seven_early_notes_original_sources_recovered",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-osha-text-witnesses",
+          "at": "2026-10-07T06:00:28.026333+00:00",
+          "outcome": "twelve_catalogue_accessions_two_sudasa_files_selected_food_passage_inspected",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-sudasa-comparison",
+          "at": "2026-10-07T06:51:32.977784+00:00",
+          "outcome": "two_sudasa_narratives_seven_dimensions_compared_attribution_corrected",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-osha-mangala-batch",
+          "at": "2026-10-07T08:00:49.602688+00:00",
+          "outcome": "janhi_song_play_offering_boundaries_documented_historical_lead_deferred",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-chaitra-mangala",
+          "at": "2026-10-07T08:57:47.715842+00:00",
+          "outcome": "chaitra_profile_partial_story_food_testimony_literary_lead",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-sathi",
+          "at": "2026-10-07T09:56:38.506340+00:00",
+          "outcome": "sathi_household_chakuli_account_birth_annual_scope_and_modern_retelling",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-nisha",
+          "at": "2026-10-07T11:02:49.370532+00:00",
+          "outcome": "nisha_source_boundaries_catalogue_witness_modern_heritage_and_b03_checkpoint",
           "completion_criteria_met": false
         }
       ],
@@ -3478,7 +3537,30 @@
           "culture/osha/prathamastami.md",
           "culture/osha/sabitri.md",
           "culture/osha/janhi.md",
-          "references/data/osha-culture.json"
+          "references/data/osha-culture.json",
+          "sources/osha-nmm-catalogue.md",
+          "sources/osha-osm-literature.md",
+          "sources/osha-sudasa-scan.md",
+          "culture/osha-text-witnesses.md",
+          "references/data/osha-text-witnesses.json",
+          "sources/osha-sudasa-prose.md",
+          "culture/osha/sudasa-text-comparison.md",
+          "references/data/sudasa-text-comparison.json",
+          "sources/osha-kumar2015.md",
+          "references/data/osha-mangala-research.json",
+          "culture/osha/chaitra-mangala.md",
+          "sources/osha-sarala2009.md",
+          "sources/osha-chaitra-odiaorg.md",
+          "sources/osha-pana2023.md",
+          "references/data/chaitra-mangala-research.json",
+          "culture/osha/sathi.md",
+          "sources/osha-sathi-mahapatra.md",
+          "sources/osha-sathi-behera.md",
+          "references/data/sathi-research.json",
+          "culture/osha/nisha-mangalabara.md",
+          "sources/osha-nisha-worldcat.md",
+          "sources/osha-nisha-kalingahistory.md",
+          "references/data/nisha-mangalabara-research.json"
         ],
         "project_records": [
           "kb/research/product/destination-and-tour-book.md"
@@ -3503,12 +3585,20 @@
         {
           "id": "OSHA-B02",
           "scope": "Odia katha editions: Sudasa, Budhei and Dutiya; earliest witnesses, variants and food passages",
-          "status": "pending"
+          "status": "checkpoint_saved",
+          "checkpoint": "Seven-dimension Sudasa narrative comparison saved; authorship wording corrected. Budhei/Dutiya manuscripts and earliest chronology remain unresolved.",
+          "next_step": "Retry dated editions and Budhei/Dutiya manuscript images on or after 2026-10-14. Proceed to independent OSHA-B03 meanwhile.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Unresolved dates and inaccessible original manuscripts; not a completed history."
         },
         {
           "id": "OSHA-B03",
           "scope": "Chaitra Mangala, Sathi, Janhi and Nisha Mangalabara; local stories and women’s ritual work",
-          "status": "pending"
+          "status": "checkpoint_saved",
+          "checkpoint": "All four selected B03 profiles now have bounded checkpoints; full kathas and earliest chronology remain open.",
+          "next_step": "Reconcile accumulated validated RES-077 checkpoints into existing PR145 under current destination instructions, then proceed to OSHA-B04. Retry unresolved B02/B03 texts on or after 2026-10-14, including OCLC 22766659 and Hauser chapter 2.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Unresolved Janhi/Chaitra/Sathi textual witnesses and original issue; Nisha print book and ethnographic chapter. Checkpoint completion is not a completed history."
         },
         {
           "id": "OSHA-B04",
@@ -3525,7 +3615,14 @@
           "scope": "Extend remaining brata inventory in bounded batches and then verify annual dates/consented public food offers",
           "status": "pending"
         }
-      ]
+      ],
+      "website_candidate": {
+        "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145",
+        "revision": "3d532675b679202fbeb4e42362586a84a6333f15",
+        "status": "draft_review",
+        "git_push": true,
+        "published": false
+      }
     }
   ],
   "queue_revision_history": [

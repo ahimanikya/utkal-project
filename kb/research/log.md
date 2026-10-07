@@ -448,3 +448,7 @@ Added Tarakasi’s structure, Jobra’s engineering history and Raghurajpur’s 
 ## 2026-10-07 · Osha and food
 
 Added a twelve-profile osha collection and website candidate, with original sources, conflicts and continuing tasks. No human factual review or publication claimed.
+
+## 2026-10-07 · B02/B03 research checkpoints
+
+Reconciled six sequential research checkpoints into the existing osha review candidate. Seven narrative checkpoints and eight early notes; B04 follows. No merge or publication.

@@ -406,3 +406,7 @@ The Founder selected this follow-up before the previous retry date. Existing com
 ## Mining and community services · 2026-10-02
 
 RES-053 now has a six-DMF financial sample and four named case bundles with dated audit findings/replies. Remaining: exact state receipt crosswalk, remaining relevant audit chapters, later functioning evidence, positive comparison cases and community outcomes. No present-day failure prevalence inferred.
+
+## 2026-10-07 · B02/B03 research checkpoints
+
+Nisha print-book contents, early chronology, Budhei/Dutiya manuscripts, Janhi Gazette, Chaitra full text and Sathi issue/locality remain unresolved; retry14October. Review queue remains active.

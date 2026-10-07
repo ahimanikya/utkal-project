@@ -417,3 +417,7 @@ The [six-story collection](../stories/narratives/tourism-reading-collection.md) 
 ## 2026-10-07 · Osha and food
 
 RES-077 adds twelve observance profiles and related sources after existing food-record reuse. Source scheduling continues in the standalone research workspace; no duplicate automation.
+
+## 2026-10-07 · B02/B03 research checkpoints
+
+B02/B03 identities reconciled: three new observances, textual witnesses and Sudasa comparison. Fifteen profiles remain incomplete histories.

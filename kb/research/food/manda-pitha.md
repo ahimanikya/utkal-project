@@ -55,3 +55,13 @@ This manda version steams filled rice dough; cheese is optional in the coconut f
 ## Observance reading
 
 [Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.
+
+
+## 2026-10-07 · Observance research
+
+The [individual osha and brata profiles](../culture/osha-brata-seasonal-food.md) now cite inspected originals. Ritual association does not make this preparation the only local version.
+
+
+## 2026-10-07 · Manda in a Sudasa story
+
+The [Sudasa text comparison](../culture/osha/sudasa-text-comparison.md) records chhena and coconut filling in one verse passage. It does not establish steaming, frying, dough or a universal ritual recipe. The existing preparation description remains a separate food account.

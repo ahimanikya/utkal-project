@@ -19563,7 +19563,10 @@
       "source_ids": [
         "osha-lakshmi2021",
         "osha-mahanti",
-        "osha-review2006"
+        "osha-review2006",
+        "osha-sudasa-scan",
+        "osha-sudasa-prose",
+        "osha-nmm-catalogue"
       ]
     },
     {
@@ -19580,7 +19583,10 @@
         "food"
       ],
       "source_ids": [
-        "osha-review2006"
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-nmm-catalogue",
+        "osha-osm-literature"
       ]
     },
     {
@@ -19598,7 +19604,9 @@
       ],
       "source_ids": [
         "osha-review2006",
-        "osha-mahanti"
+        "osha-mahanti",
+        "osha-nmm-catalogue",
+        "osha-osm-literature"
       ]
     },
     {
@@ -19724,7 +19732,326 @@
       ],
       "source_ids": [
         "osha-review2006",
-        "osha-mahanti"
+        "osha-mahanti",
+        "osha-kumar2015"
+      ]
+    },
+    {
+      "id": "sources/osha-nmm-catalogue",
+      "title": "Orissa State Museum manuscript catalogue",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-nmm-catalogue.md",
+      "project_path": "kb/research/sources/osha-nmm-catalogue.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-nmm-catalogue"
+      ]
+    },
+    {
+      "id": "sources/osha-osm-literature",
+      "title": "Oriya Literature manuscript catalogue",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-osm-literature.md",
+      "project_path": "kb/research/sources/osha-osm-literature.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-osm-literature"
+      ]
+    },
+    {
+      "id": "sources/osha-sudasa-scan",
+      "title": "Damayantinkara Sudasha Brata",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-sudasa-scan.md",
+      "project_path": "kb/research/sources/osha-sudasa-scan.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-sudasa-scan"
+      ]
+    },
+    {
+      "id": "culture/osha-text-witnesses",
+      "title": "Osha texts and manuscript references",
+      "kind": "Research Study",
+      "layer": "research_concept",
+      "source_path": "culture/osha-text-witnesses.md",
+      "project_path": "kb/research/culture/osha-text-witnesses.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-nmm-catalogue",
+        "osha-osm-literature",
+        "osha-sudasa-scan"
+      ]
+    },
+    {
+      "id": "sources/osha-sudasa-prose",
+      "title": "Shri Sudasha Brata Katha — anonymous typed prose copy",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-sudasa-prose.md",
+      "project_path": "kb/research/sources/osha-sudasa-prose.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-sudasa-prose"
+      ]
+    },
+    {
+      "id": "culture/osha/sudasa-text-comparison",
+      "title": "Sudasa Brata stories and offerings",
+      "kind": "Research Study",
+      "layer": "research_concept",
+      "source_path": "culture/osha/sudasa-text-comparison.md",
+      "project_path": "kb/research/culture/osha/sudasa-text-comparison.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-sudasa-scan",
+        "osha-sudasa-prose"
+      ]
+    },
+    {
+      "id": "sources/osha-kumar2015",
+      "title": "Kumar Purnima in Odishan Culture",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-kumar2015.md",
+      "project_path": "kb/research/sources/osha-kumar2015.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-kumar2015"
+      ]
+    },
+    {
+      "id": "culture/osha/chaitra-mangala",
+      "title": "Chaitra Mangala Osha",
+      "kind": "Cultural Observance",
+      "layer": "research_concept",
+      "source_path": "culture/osha/chaitra-mangala.md",
+      "project_path": "kb/research/culture/osha/chaitra-mangala.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-sarala2009",
+        "osha-chaitra-odiaorg",
+        "osha-pana2023"
+      ]
+    },
+    {
+      "id": "sources/osha-sarala2009",
+      "title": "Folk Elements in Sarala Mahabharata",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-sarala2009.md",
+      "project_path": "kb/research/sources/osha-sarala2009.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-sarala2009"
+      ]
+    },
+    {
+      "id": "sources/osha-chaitra-odiaorg",
+      "title": "Chaitra Mangalabara Osha — Festivals of Odisha #101",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-chaitra-odiaorg.md",
+      "project_path": "kb/research/sources/osha-chaitra-odiaorg.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-chaitra-odiaorg"
+      ]
+    },
+    {
+      "id": "sources/osha-pana2023",
+      "title": "Pana, the drink of gods in Odisha",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-pana2023.md",
+      "project_path": "kb/research/sources/osha-pana2023.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-pana2023"
+      ]
+    },
+    {
+      "id": "culture/osha/sathi",
+      "title": "Sathi Osha",
+      "kind": "Cultural Observance",
+      "layer": "research_concept",
+      "source_path": "culture/osha/sathi.md",
+      "project_path": "kb/research/culture/osha/sathi.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-review2006",
+        "osha-sathi-mahapatra",
+        "osha-sathi-behera"
+      ]
+    },
+    {
+      "id": "sources/osha-sathi-mahapatra",
+      "title": "ଷଷ୍ଠୀ ଓଷା (Sasthi Osha)",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-sathi-mahapatra.md",
+      "project_path": "kb/research/sources/osha-sathi-mahapatra.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-sathi-mahapatra"
+      ]
+    },
+    {
+      "id": "sources/osha-sathi-behera",
+      "title": "ଷଠୀପୂଜା (Shathi Puja)",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-sathi-behera.md",
+      "project_path": "kb/research/sources/osha-sathi-behera.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-sathi-behera"
+      ]
+    },
+    {
+      "id": "culture/osha/nisha-mangalabara",
+      "title": "Nisha Mangalabara Osha",
+      "kind": "Cultural Observance",
+      "layer": "research_concept",
+      "source_path": "culture/osha/nisha-mangalabara.md",
+      "project_path": "kb/research/culture/osha/nisha-mangalabara.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-nisha-worldcat",
+        "osha-nisha-kalingahistory"
+      ]
+    },
+    {
+      "id": "sources/osha-nisha-worldcat",
+      "title": "Brhat Khulana sundari, ba, Nisa Mangalabara osha — OCLC 22766659",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-nisha-worldcat.md",
+      "project_path": "kb/research/sources/osha-nisha-worldcat.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-nisha-worldcat"
+      ]
+    },
+    {
+      "id": "sources/osha-nisha-kalingahistory",
+      "title": "Nisha Mangalabara: maritime remembrance at Sambhav Farm",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-nisha-kalingahistory.md",
+      "project_path": "kb/research/sources/osha-nisha-kalingahistory.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_07_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": [
+        "osha-nisha-kalingahistory"
       ]
     }
   ],
@@ -21162,7 +21489,30 @@
         "culture/osha/prathamastami.md",
         "culture/osha/sabitri.md",
         "culture/osha/janhi.md",
-        "references/data/osha-culture.json"
+        "references/data/osha-culture.json",
+        "sources/osha-nmm-catalogue.md",
+        "sources/osha-osm-literature.md",
+        "sources/osha-sudasa-scan.md",
+        "culture/osha-text-witnesses.md",
+        "references/data/osha-text-witnesses.json",
+        "sources/osha-sudasa-prose.md",
+        "culture/osha/sudasa-text-comparison.md",
+        "references/data/sudasa-text-comparison.json",
+        "sources/osha-kumar2015.md",
+        "references/data/osha-mangala-research.json",
+        "culture/osha/chaitra-mangala.md",
+        "sources/osha-sarala2009.md",
+        "sources/osha-chaitra-odiaorg.md",
+        "sources/osha-pana2023.md",
+        "references/data/chaitra-mangala-research.json",
+        "culture/osha/sathi.md",
+        "sources/osha-sathi-mahapatra.md",
+        "sources/osha-sathi-behera.md",
+        "references/data/sathi-research.json",
+        "culture/osha/nisha-mangalabara.md",
+        "sources/osha-nisha-worldcat.md",
+        "sources/osha-nisha-kalingahistory.md",
+        "references/data/nisha-mangalabara-research.json"
       ],
       "project_records": [
         "kb/research/product/destination-and-tour-book.md"
@@ -21187,8 +21537,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1318,
-    "updated_at": "2026-10-07T05:32:58.615006+00:00",
+    "records_mapped": 1335,
+    "updated_at": "2026-10-07T11:07:54.805693+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -21826,6 +22176,11 @@
       "run_id": "2026-10-07-osha-deep-study",
       "at": "2026-10-07T05:32:58.615006+00:00",
       "scope": "Selected observance pages reconciled; native research retained. Source workspace remains scheduling authority."
+    },
+    {
+      "run_id": "2026-10-07-nisha-reconciliation",
+      "at": "2026-10-07T11:07:54.805693+00:00",
+      "scope": "B02 and B03 checkpoint extensions; native records and source scheduling preserved."
     }
   ]
 }

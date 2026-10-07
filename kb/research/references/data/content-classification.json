@@ -4731,6 +4731,69 @@
       "content_type": "Cultural Observance",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha-text-witnesses",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Research Study",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/sudasa-text-comparison",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Research Study",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/chaitra-mangala",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/sathi",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/nisha-mangalabara",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "subjects/everyday",
+      "primary_subject": "everyday",
+      "secondary_subjects": [],
+      "content_type": "Subject Guide",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -6994,6 +7057,160 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha-text-witnesses",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Archival references, inspected passages and remaining comparisons."
+    },
+    {
+      "from": "culture/osha/sudasa-brata",
+      "to": "culture/osha-text-witnesses",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Archival references, inspected passages and remaining comparisons."
+    },
+    {
+      "from": "culture/osha/budhei",
+      "to": "culture/osha-text-witnesses",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Archival references, inspected passages and remaining comparisons."
+    },
+    {
+      "from": "culture/osha/dutiya",
+      "to": "culture/osha-text-witnesses",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Archival references, inspected passages and remaining comparisons."
+    },
+    {
+      "from": "culture/osha/sudasa-brata",
+      "to": "culture/osha/sudasa-text-comparison",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Side-by-side narrative and food evidence from two recovered Sudasa texts."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha/sudasa-text-comparison",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Side-by-side narrative and food evidence from two recovered Sudasa texts."
+    },
+    {
+      "from": "culture/osha-text-witnesses",
+      "to": "culture/osha/sudasa-text-comparison",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Side-by-side narrative and food evidence from two recovered Sudasa texts."
+    },
+    {
+      "from": "culture/osha/janhi",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates cultural food associations from verified visitor availability."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha/chaitra-mangala",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "visitor-index/seasonal-food-guide",
+      "to": "culture/osha/chaitra-mangala",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "subjects/everyday",
+      "to": "culture/osha/chaitra-mangala",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "culture/osha/chaitra-mangala",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates cultural food associations from verified visitor availability."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha/sathi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "visitor-index/seasonal-food-guide",
+      "to": "culture/osha/sathi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "subjects/everyday",
+      "to": "culture/osha/sathi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "culture/osha/sathi",
+      "to": "food/chakuli",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates a food’s preparation evidence from one household’s ritual association."
+    },
+    {
+      "from": "food/chakuli",
+      "to": "culture/osha/sathi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates a food’s preparation evidence from one household’s ritual association."
+    },
+    {
+      "from": "culture/osha/sathi",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates cultural food associations from verified visitor availability."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha/nisha-mangalabara",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "visitor-index/seasonal-food-guide",
+      "to": "culture/osha/nisha-mangalabara",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "subjects/everyday",
+      "to": "culture/osha/nisha-mangalabara",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Individual observance narrative, food context and source boundaries."
+    },
+    {
+      "from": "culture/osha/nisha-mangalabara",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Separates cultural food associations from verified visitor availability."
     }
   ],
   "relationship_types": {

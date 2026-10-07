@@ -34,3 +34,19 @@ This is a proposed addition to the visitor reading routes, not an implemented da
 ## 2026-10-07 · Individual reading pages
 
 The [twelve-profile collection](../culture/osha-brata-seasonal-food.md) now connects stories, foods and traditional months. The website candidate adds browsing by month and search terms. No current date, serving offer or access arrangement has been established; publication is a separate step.
+
+## 2026-10-07 · Janhi and Kumar Purnima
+
+Read the [Janhi profile](../culture/osha/janhi.md) before treating its culmination as a food event. An offering in a dated cultural account is a research lead, not a current menu, public invitation or booking opportunity. Grain used in a game is not automatically an offering or meal.
+
+## 2026-10-07 · Chaitra Mangala
+
+[Chaitra Mangala Osha](../culture/osha/chaitra-mangala.md). Individual observance narrative, food context and source boundaries. Read the attributed pana account without treating it as a verified seasonal sale or a fixed recipe.
+
+## 2026-10-07 · Sathi household account
+
+[Sathi Osha](../culture/osha/sathi.md). Individual observance narrative, food context and source boundaries.
+
+## 2026-10-07 · Nisha Mangalabara research note
+
+[Nisha Mangalabara Osha](../culture/osha/nisha-mangalabara.md). Individual observance narrative, food context and source boundaries.
