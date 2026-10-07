@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `f55e7fb003d5837551bec37a18cd8cae292efcf3d8ef9e8dfa022003f76c8abe`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1c2c1523f2cc693fd33a00e402a894992bbc4e8698388abf91665f415cce3418`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -195,7 +195,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-183 · Illustrated Tarakasi story and portable visitor notes | completed | published | Ahimanikya Satapathy | Illustrated Jobra article follows next; independent local or specialist review remains a separate follow-up. | — |
 | UTP-WORK-184 · Illustrated Jobra museum story and three-article visual review | completed | published | Ahimanikya Satapathy | Current museum access, curator review and workers’ histories remain follow-up research. | — |
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
-| UTP-WORK-186 · Three flexible illustrated visit plans | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the three plans for publication. Reuse them in WORK-171 after local confirmation supplies timings, capacity and costs. | — |
+| UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 
 ## Pending human review and decisions
@@ -255,7 +255,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-091 | Assess remaining experience and accessibility gaps against the current public edition and visitor-experience review. Existing journey, search, print and layout delivery remains published; held routes and broader adoption are separate. Native A4/Letter checks are already recorded under UTP-REL-015; screen-reader and physical-device review remains open. |
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
-| UTP-WORK-186 | Founder reviews the three plans for publication. Reuse them in WORK-171 after local confirmation supplies timings, capacity and costs. |
 
 ## Decisions
 
@@ -482,6 +481,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-221 · Prepare three flexible illustrated visit plans | approved | Ahimanikya Satapathy | Build and review the Bhubaneswar, Cuttack and Puri flexible plans with saved journeys and portable books. Publication remains a separate Founder decision. |
 | UTP-DEC-2026100602 · Home-page sharing image direction, clarified to permit new Human Natural artwork | recorded_direction | Ahimanikya Satapathy | New Human Natural Documentary-style AI artwork for home-page social sharing. Homepage rotation and non-home previews unchanged. |
 | UTP-DEC-2026100603 · Publish the approved Konark homepage sharing image | approved | Ahimanikya Satapathy | Reply to Shall I publish this version? for PR143, candidate 2c4ecc52ab5584341a2ecba8f6a64df39e2b940d. Authorizes merge and publication of the reviewed image. |
+| UTP-DEC-222 · Publish the three reviewed flexible visit plans | approved | Ahimanikya Satapathy | Merge PR144 and deploy the three reviewed flexible visit plans, saved starters and portable book integration. |
 
 ## Reviews
 
@@ -719,6 +719,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-073 · Illustrated Jobra article published | published | https://utkalproject.org/visit/experiences/jobra-maritime-museum/ | UTP-DEC-218 |
 | UTP-REL-074 · Kala Bhoomi, Dhauli and Pipili visitor stories published | published | https://utkalproject.org/visit/experiences/kala-bhoomi/ | UTP-DEC-220 |
 | UTP-REL-2026100602 · Human Natural Konark homepage sharing image published | published | https://utkalproject.org/ | UTP-DEC-2026100603 |
+| UTP-REL-075 · Three flexible illustrated visit plans published | published | https://utkalproject.org/journey-starters/#short-visits | UTP-DEC-222 |
 
 ## Sources and assets
 
@@ -756,7 +757,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-252 | 2026-10-06T11:04:55.486526+00:00 | Prepared the Tarakasi story using two newly checked photographs, existing process research and an original explanatory drawing. | Complete browser checks and submit a review PR. |
 | UTP-EVT-253 | 2026-10-06T11:25:55.186099+00:00 | Founder-approved PR140 merged; manual publication succeeded. Live Tarakasi story and diagram were verified, and both new photos matched the reviewed asset hashes. | Prepare the illustrated Jobra article in the next work batch. |
 | UTP-EVT-254 | 2026-10-06T12:03:13.305515+00:00 | Prepared a connected illustrated Jobra article, checked dated photo rights and museum hours, and reviewed the three story layouts and journey save flow. | Submit the checked candidate for Founder publication review. |
 | UTP-EVT-255 | 2026-10-06T12:45:45.035575+00:00 | Founder-approved PR141 merged; deployment succeeded. Live Jobra story, three exact photo hashes and Cuttack/Things to Do discovery links verified. | Continue the next approved editorial batch. |
@@ -766,6 +766,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026100602 | 2026-10-07T03:50:29+00:00 | Prepared home-page Open Graph/Twitter image change using existing credited Chilika photograph; full and coastal suites pass. | Present candidate for Founder publication decision. |
 | UTP-EVT-2026100603 | 2026-10-07T04:23:34.523081+00:00 | Replaced superseded Chilika sharing candidate with newly generated Human Natural Konark artwork following Founder clarification; AI provenance, source credit and same-licence adaptation recorded. Full and coastal checks passed; not published. | Present new artwork for Founder publication decision. |
 | UTP-EVT-2026100604 | 2026-10-07T04:44:39.739070+00:00 | Founder approved publication with Yes. PR143 merged and publication workflow 37572605182 succeeded. Live homepage Open Graph/Twitter tags and image hash match the approved Konark artwork. | Complete; external sharing caches may take time to update. |
+| UTP-EVT-259 | 2026-10-07T05:09:18.412523+00:00 | Founder-approved PR144 merged and Pages deployment succeeded. Three live plans, nine photographs, discovery links and three-item journey payloads verified. | Continue authorized research; provider-confirmed itinerary work remains separate. |
 
 ## Deferred extensions
 
