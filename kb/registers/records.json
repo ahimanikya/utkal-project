@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-06T12:45:45.035575+00:00",
+  "recorded_at": "2026-10-07T04:55:40.006600+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5050,12 +5050,14 @@
         "models/tourism-experience-record.md",
         "research/visitor-index/puri-providers.md",
         "research/visitor-index/areas/puri-crafts.md",
-        "specs/global-connections.md"
+        "specs/global-connections.md",
+        "research/destinations/flexible-visit-plans.json"
       ],
       "refs": [
         "UTP-DEC-202",
         "UTP-WORK-165",
-        "UTP-WORK-170"
+        "UTP-WORK-170",
+        "UTP-WORK-186"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
@@ -5422,12 +5424,12 @@
       "id": "UTP-WORK-185",
       "title": "Illustrated Kala Bhoomi, Dhauli and Pipili stories",
       "category": "research_and_editorial",
-      "status": "awaiting_review",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-219",
-      "next_action": "Founder reviews the prepared PR; then merge and verify publication if approved.",
+      "next_action": "Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research.",
       "blockers": [],
       "dependencies": [],
       "acceptance_criteria": [
@@ -5444,10 +5446,46 @@
       ],
       "refs": [
         "UTP-DEC-219",
-        "UTP-REV-154"
+        "UTP-REV-154",
+        "UTP-DEC-220",
+        "UTP-REL-074"
       ],
       "evidence": [
-        "records/museum-peace-cloth-preview-2026-10-06.json"
+        "records/museum-peace-cloth-preview-2026-10-06.json",
+        "records/museum-peace-cloth-publication-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-186",
+      "title": "Three flexible illustrated visit plans",
+      "category": "research_and_editorial",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-221",
+      "next_action": "Founder reviews the three plans for publication. Reuse them in WORK-171 after local confirmation supplies timings, capacity and costs.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Three illustrated plans link cultural stories, food pauses and shorter alternatives.",
+        "Saving creates a separate unscheduled journey without changing older journeys.",
+        "Portable books follow selected chapters and retain credits and personal-note controls.",
+        "Desktop and mobile layouts checked."
+      ],
+      "reuse_before_research": [
+        "research/destinations/flexible-visit-plans.json",
+        "research/collections/tourism-pilot-desk-review.md",
+        "research/stories/narratives/tourism-reading-evidence.json"
+      ],
+      "refs": [
+        "UTP-DEC-221",
+        "UTP-REV-155",
+        "UTP-WORK-171"
+      ],
+      "evidence": [
+        "records/flexible-visit-plans-preview-2026-10-07.json",
+        "research/destinations/flexible-visit-plans.json"
       ]
     }
   ],
@@ -9805,6 +9843,45 @@
       "evidence": [
         "records/museum-peace-cloth-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-220",
+      "title": "Publish reviewed museum, peace and cloth stories",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "approved",
+      "scope": "Merge PR142 and publish Kala Bhoomi, Dhauli and Pipili visitor stories.",
+      "recorded_at": "2026-10-07T03:43:10.536279+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-185",
+        "UTP-REV-154"
+      ],
+      "evidence": [
+        "records/museum-peace-cloth-publication-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-DEC-221",
+      "title": "Prepare three flexible illustrated visit plans",
+      "status": "approved",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "OK, let's do that",
+      "scope": "Build and review the Bhubaneswar, Cuttack and Puri flexible plans with saved journeys and portable books. Publication remains a separate Founder decision.",
+      "recorded_at": "2026-10-07T04:55:40.006600+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-186"
+      ],
+      "evidence": [
+        "records/flexible-visit-plans-preview-2026-10-07.json"
+      ]
     }
   ],
   "requirements": [
@@ -13416,6 +13493,29 @@
       "evidence": [
         "records/museum-peace-cloth-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-REV-155",
+      "title": "Flexible visit plans self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Current openings, hosts, costs, capacity, access and transfers require local confirmation. No timed route or booking is promised.",
+        "No new fieldwork or independent local review. Existing source evidence and documentary photographs reused.",
+        "Bhubaneswar and Puri meal chapters use labelled setting photographs, not photographs of the dish or a recommended restaurant.",
+        "Native PDF layout was not re-tested in this batch; HTML and text book exports were checked.",
+        "Founder publication approval remains pending; existing search approval scope is unchanged."
+      ],
+      "refs": [
+        "UTP-WORK-186"
+      ],
+      "evidence": [
+        "records/flexible-visit-plans-preview-2026-10-07.json"
+      ]
     }
   ],
   "releases": [
@@ -14635,6 +14735,21 @@
       ],
       "evidence": [
         "records/jobra-publication-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-074",
+      "title": "Kala Bhoomi, Dhauli and Pipili visitor stories published",
+      "status": "published",
+      "authorization": "UTP-DEC-220",
+      "destination": "https://utkalproject.org/visit/experiences/kala-bhoomi/",
+      "refs": [
+        "UTP-DEC-220",
+        "UTP-WORK-185",
+        "UTP-REV-154"
+      ],
+      "evidence": [
+        "records/museum-peace-cloth-publication-2026-10-07.json"
       ]
     }
   ],
