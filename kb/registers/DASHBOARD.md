@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1c4e7ef2b47cd1486d1ce642833d9b98597a231f8219a633dba6836480bcd9bb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3dee8676f9b6bd89d8e3f62cb6cc1175d93d4962b0d736040a92e2f2b12e6784`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -195,6 +195,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-183 · Illustrated Tarakasi story and portable visitor notes | completed | published | Ahimanikya Satapathy | Illustrated Jobra article follows next; independent local or specialist review remains a separate follow-up. | — |
 | UTP-WORK-184 · Illustrated Jobra museum story and three-article visual review | completed | published | Ahimanikya Satapathy | Current museum access, curator review and workers’ histories remain follow-up research. | — |
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews the prepared PR; then merge and verify publication if approved. | — |
+| UTP-WORK-2026100602 · Home-page sharing preview uses an existing Odisha photograph | awaiting_review | reviewed | Ahimanikya Satapathy | Founder reviews Chilika preview candidate before merge/publication. | — |
 
 ## Pending human review and decisions
 
@@ -254,6 +255,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-097 | Review current access, permissions, transport, kitchen or stay arrangements using dated local evidence. Published delivery is already recorded; this is an evidence follow-up, not a request to republish the same pages. |
 | UTP-WORK-139 | Published scope: UTP-REL-045. Remaining work: Leave the submitted sitemap and indexing request in place for about 24 hours after the crawl-policy change, then review Sitemaps processing. If failure persists, inspect Google cached robots status and detailed fetch diagnostics; do not assume the cause or claim successful processing. |
 | UTP-WORK-185 | Founder reviews the prepared PR; then merge and verify publication if approved. |
+| UTP-WORK-2026100602 | Founder reviews Chilika preview candidate before merge/publication. |
 
 ## Decisions
 
@@ -476,6 +478,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-217 · Prepare illustrated Jobra and compare three story layouts | approved | Ahimanikya Satapathy | Build the proposed Jobra story with sourced imagery, practical notes and Cuttack connections, then review Jobra, Tarakasi and Raghurajpur for flow and mobile reading. Prepare the concrete candidate for Founder review. |
 | UTP-DEC-218 · Publish reviewed illustrated Jobra article | approved | Ahimanikya Satapathy | Merge reviewed PR141 and publish the illustrated Jobra article and its visitor connections. |
 | UTP-DEC-219 · Prepare museum, peace and cloth visitor stories | approved | Ahimanikya Satapathy | Prepare Kala Bhoomi, Dhauli and Pipili as one illustrated review batch; retain Founder publication gate. |
+| UTP-DEC-2026100602 · Use existing home-page Odisha photographs for sharing preview | recorded_direction | Ahimanikya Satapathy | Replace home-page social sharing preview with an existing documentary Odisha photograph. No hero/gallery replacement or non-home fallback change. |
 
 ## Reviews
 
@@ -631,6 +634,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-152 | pass_with_limitations | False | No new contemporary maker photograph with a sufficient licence and identification was secured.; No workshop, seller, fee or current festival arrangement verified.; No independent local or specialist review.; New preview is not merged or deployed; Jobra illustration remains the next article. |
 | UTP-REV-153 | pass_with_limitations | False | Photographs date from 26 September 2013; current displays and access are not verified.; No independent local, curator or specialist review.; No verified ticket prices, holiday openings, last entry, guides or step-free facilities.; Museum accounts share institutional provenance.; New article awaits Founder publication approval. |
 | UTP-REV-154 | pass_with_limitations | False | No independent curator, epigraphic or local maker review.; Museum photographs date to July 2018; catalogue examples to 2019. Current exhibits and visitor services are not verified.; Dhauli and Pipili tourism sources reuse saved inspection evidence; subsequent requests returned 404.; No new field visits, interviews, workshop bookings or timed itinerary.; Founder publication approval remains pending. |
+| UTP-REV-2026100602 | pass_with_limitations | False | Not yet merged or published.; External sharing services may retain older cached previews; no external scraper refresh performed. |
 
 ## Publication and application history
 
@@ -746,7 +750,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-247 | 2026-10-06T08:03:16.054405+00:00 | Recorded Founder acceptance of PR138 and documented the next editorial plan. Research article preparation is complete; field commitments remain deferred. | Merge after final checks; use the six-story collection for the next editorial sequence. |
 | UTP-EVT-248 | 2026-10-06T08:07:12.894128+00:00 | Automatic approval review rejected the proposed PR138 merge: the user instruction authorized branch push but was not explicit about merging into main. No merge command ran. Corrected current approval scope; prior proposed integration language must not be treated as merge evidence. | Obtain explicit Founder merge confirmation; keep the research and next plan pushed on the review branch. |
 | UTP-EVT-249 | 2026-10-06T08:10:41.340486+00:00 | Founder answered Approved to the explicit request to merge PR138 into main. Previous merge-permission blocker is resolved; no merge execution claimed by this record. | Merge after final checks and confirm GitHub merge result. |
 | UTP-EVT-250 | 2026-10-06T10:36:27.130679+00:00 | Prepared an illustrated Raghurajpur candidate using existing documentary imagery and source identities. Added bounded visitor guidance and retained saved-journey exports. | Complete review and open a pull request; no deployment authorized by this preview step. |
@@ -756,6 +759,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-254 | 2026-10-06T12:03:13.305515+00:00 | Prepared a connected illustrated Jobra article, checked dated photo rights and museum hours, and reviewed the three story layouts and journey save flow. | Submit the checked candidate for Founder publication review. |
 | UTP-EVT-255 | 2026-10-06T12:45:45.035575+00:00 | Founder-approved PR141 merged; deployment succeeded. Live Jobra story, three exact photo hashes and Cuttack/Things to Do discovery links verified. | Continue the next approved editorial batch. |
 | UTP-EVT-256 | 2026-10-07T03:21:20.247282+00:00 | Prepared connected illustrated Kala Bhoomi, Dhauli and Pipili stories with documentary images and portable visitor context. | Founder editorial review and publication decision. |
+| UTP-EVT-2026100602 | 2026-10-07T03:50:29+00:00 | Prepared home-page Open Graph/Twitter image change using existing credited Chilika photograph; full and coastal suites pass. | Present candidate for Founder publication decision. |
 
 ## Deferred extensions
 

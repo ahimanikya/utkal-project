@@ -5449,6 +5449,25 @@
       "evidence": [
         "records/museum-peace-cloth-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-2026100602",
+      "title": "Home-page sharing preview uses an existing Odisha photograph",
+      "category": "website",
+      "status": "awaiting_review",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-2026100602",
+      "next_action": "Founder reviews Chilika preview candidate before merge/publication.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026100602",
+        "UTP-REV-2026100602"
+      ],
+      "evidence": [
+        "records/homepage-sharing-photo-review-2026-10-06.json"
+      ]
     }
   ],
   "decisions": [
@@ -9805,6 +9824,25 @@
       "evidence": [
         "records/museum-peace-cloth-preview-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-2026100602",
+      "title": "Use existing home-page Odisha photographs for sharing preview",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "The Odisha photographs we are using now in the home page",
+      "scope": "Replace home-page social sharing preview with an existing documentary Odisha photograph. No hero/gallery replacement or non-home fallback change.",
+      "recorded_at": "2026-10-07T03:50:29+00:00",
+      "occurred_at": null,
+      "refs": [
+        "UTP-WORK-2026100602"
+      ],
+      "evidence": [
+        "records/homepage-sharing-photo-review-2026-10-06.json"
+      ]
     }
   ],
   "requirements": [
@@ -13415,6 +13453,27 @@
       ],
       "evidence": [
         "records/museum-peace-cloth-preview-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-2026100602",
+      "title": "Home-page sharing photograph self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Not yet merged or published.",
+        "External sharing services may retain older cached previews; no external scraper refresh performed."
+      ],
+      "refs": [
+        "UTP-WORK-2026100602",
+        "UTP-DEC-2026100602"
+      ],
+      "evidence": [
+        "records/homepage-sharing-photo-review-2026-10-06.json"
       ]
     }
   ],

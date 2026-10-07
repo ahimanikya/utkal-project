@@ -7,6 +7,7 @@ import Brand from '../components/Brand.astro';
 import ContextTrail from '../components/ContextTrail.astro';
 import {discoveryEntries} from '../data/discovery';
 import {sharingImage} from '../lib/page-context.mjs';
+import {homeSharingImage} from '../data/home-sharing';
 import PageShare from '../components/PageShare.astro';
 import visitNotebooks from '../../../../kb/research/destinations/visit-notebooks.json';
 const notebook=visitNotebooks.notebooks.find(n=>n.route===Astro.url.pathname);
@@ -26,7 +27,7 @@ const pageDescription=isCoastalEdition?(pageDescriptions.descriptions[pagePath]|
 const canonical=new URL(pagePath,Astro.site).href;
 const pageTitle=(isCoastalEdition&&pageDescriptions.titles?.[pagePath])||(title.endsWith(' · Utkal Project')?title:title+' · Utkal Project');
 const discoveryEntry=discoveryEntries.find(entry=>entry.href===pagePath);
-const sharePhoto=sharingImage(discoveryEntry?.image);
+const sharePhoto=sharingImage(pagePath==='/' ? homeSharingImage : discoveryEntry?.image);
 const socialImage=new URL(sharePhoto.src,Astro.site).href;
 ---
 <!doctype html><html lang="en"><head>

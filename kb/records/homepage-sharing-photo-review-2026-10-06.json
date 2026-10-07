@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-07T03:50:29+00:00",
+  "status": "reviewed_pending_publication",
+  "request": "The home page link now associated with the generated image - can we change that?",
+  "selection_quote": "The Odisha photographs we are using now in the home page",
+  "scope": "Replace home-page social sharing preview with an existing documentary Odisha photograph. No hero/gallery replacement or non-home fallback change.",
+  "chosen_image": {
+    "source_record": "research/stories/narratives/chilika.json",
+    "path": "/images/chilika/chilika-lake-hellohappy.webp",
+    "subject": "A boat and birds on Chilika Lake",
+    "creator": "Hellohappy",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chilika_Lake_(56468).jpg",
+    "sha256": "0c07d18090ac7a1d7fc4e9a61f16e8eed3633ac1db1c11d84ab2586b9d06543c",
+    "selection_basis": "Existing first fallback featured home-page story; no image editing or new asset introduced."
+  },
+  "changes": [
+    "Home route explicitly selects the existing Chilika source record for Open Graph and Twitter images.",
+    "Credit remains visible in both home editions independently of featured-story rotation.",
+    "Existing subject images and fallback for other routes preserved."
+  ],
+  "validation": {
+    "full_build": "PASS",
+    "full_site_tests": "454 passed",
+    "coastal_build": "PASS: 129 pages retained",
+    "coastal_tests": "87 passed",
+    "publication_build": "PASS",
+    "metadata_checks": "PASS: both social image URLs, 1600x900 dimensions, descriptive alt, credits and unchanged asset hash in dist-coast/dist-publish",
+    "non_home_checks": "PASS: Konark subject image and Kui fallback unaffected",
+    "visual": "Existing photograph inspected directly; metadata-only change, no browser UI check performed."
+  },
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "limitations": [
+    "Not yet merged or published.",
+    "External sharing services may retain older cached previews; no external scraper refresh performed."
+  ],
+  "publication_gate": "kb/reference/adopted-blueprint/working-agreement.md section 2 retains Founder final application/publication gate."
+}
