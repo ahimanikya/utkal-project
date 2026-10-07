@@ -40,6 +40,8 @@ export const bookPhotos={
  'experience:kala-bhoomi':regions.assets['kala-bhoomi-grounds'],
  'experience:jobra-maritime-museum':regions.assets['jobra-courtyard'],
  'experience:cuttack-netaji':regions.assets['cuttack-netaji'],
+ 'food:bhubaneswar-dalma':foods.assets.dalma,
+ 'food:konark-machha-besara':foods.assets['machha-besara'],
  'food:cuttack-dahibara':foods.assets['cuttack-dahibara'],
  'reading:languages/odia':voices.assets.manuscript,
  'reading:people/fakir-mohan-senapati':voices.assets.fakir,
