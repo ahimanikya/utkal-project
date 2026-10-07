@@ -444,3 +444,7 @@ The Founder accepted the [four Odisha Roots investigations](stories/narratives/o
 ## 6 October 2026 · Six tourism reading drafts
 
 Added Tarakasi’s structure, Jobra’s engineering history and Raghurajpur’s painting/performance connection to the [reading collection](stories/narratives/tourism-reading-collection.md). Two source records added; existing PIB, museum and Srjan identities reused. No fabricated local voices, live availability or publication claim. [Follow-up record](../records/tourism-reading-followup-2026-10-06.json).
+
+## 2026-10-07 · Osha and food
+
+Added a twelve-profile osha collection and website candidate, with original sources, conflicts and continuing tasks. No human factual review or publication claimed.

@@ -79,3 +79,7 @@ Subject membership is editorial classification. It does not establish historical
 [Forest foods, products and livelihoods](../economy/forest-products.md) — household uses, market evidence and dated history; RES-056–058 deepen existing records.
 
 [Universities and learning](../culture/universities-and-learning.md) connects institutional roles, dated ranking measures and graduate cohorts; [the short story](../stories/odisha-university-evidence.md) keeps category and year visible.
+
+## 2026-10-07 · Osha and food
+
+[Osha and food](../culture/osha-brata-seasonal-food.md) connects observance with stories and household practices.

@@ -1,0 +1,25 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const study=JSON.parse(readFileSync('../../kb/research/references/data/osha-culture.json','utf8'));
+const foods=JSON.parse(readFileSync('../../kb/research/food/collection.json','utf8'));
+const read=route=>readFileSync('dist'+route+'index.html','utf8');
+test('observance articles retain narrative status, source anchors and visitor uncertainty',()=>{
+ for(const page of study.pages){
+  const html=read(page.route);
+  assert.ok(html.includes(page.name));
+  assert.match(html,/No serving place or invitation to private worship is verified/);
+  assert.match(html,/human editorial and Odia review pending/);
+  if(page.coverage_status==='early_research_note')assert.match(html,/history and local narrative incomplete/);
+  for(const id of page.source_ids)assert.ok(html.includes(`id="source-${id}"`),page.slug+': '+id);
+ }
+});
+test('food associations lead only to available preparation pages',()=>{
+ let links=0;
+ for(const page of study.pages)for(const path of page.related_food_paths){
+  const slug=path.split('/')[1].replace(/\.md$/,'');
+  if(foods.pages.some(p=>p.slug===slug)){assert.ok(read(page.route).includes(`href="/food/${slug}/"`),page.slug+': '+slug);links++;}
+ }
+ assert.ok(links>0,'at least one independently published preparation is linked');
+ assert.ok(read('/culture/osha/prathamastami/').includes('href="/food/enduri-pitha/"'));
+});

@@ -17,6 +17,7 @@ const groups=[...new Set(c.entries.map(e=>e.group))].sort((a,b)=>areaOrder.index
 {c.slug==='things-to-do'&&allowsPage('/textiles/')&&<p class="planning-note"><a href="/textiles/">Woven in Odisha →</a> Begin with Bandha, Khandua, Kotpad and Tasar, then plan a conversation with a weaver.</p>}
 <PlanningPaths current={'/'+c.slug+'/'}/>
 {c.slug==='food'&&allowsPage('/food/everyday/')&&<p class="planning-note"><a href="/food/everyday/">Start with the everyday Odisha table →</a> Three illustrated stories of ingredients, memories and the people behind a meal.</p>}
+{c.slug==='food'&&allowsPage('/culture/osha/')&&<p class="planning-note"><a href="/culture/osha/">Osha, stories & the food year →</a> Explore occasions, traditional months and the meanings carried by food.</p>}
 {c.slug==='food'&&allowsPage('/food/fire-cooking/')&&<p class="planning-note"><a href="/food/fire-cooking/">Odisha cooks with fire →</a> Follow roasted vegetables, leaf parcels and browned edges.</p>}
 <p class="planning-note">{c.note}</p>
 <nav class="area-links" aria-label="Jump to an area">{groups.map(g=><a href={'#'+g.id}>{g.area} <span>({g.entries.length})</span></a>)}</nav>

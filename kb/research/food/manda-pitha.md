@@ -51,3 +51,7 @@ A broader pitha list describes steamed manda with coconut-sweetener or chhena fi
 This manda version steams filled rice dough; cheese is optional in the coconut filling. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed p.24 / PDF p.35. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
 
 **Remaining question:** CRRI explicitly documents steaming, but this does not settle the other source’s boiled terminology or district distribution. Local/Odia review remains pending.
+
+## Observance reading
+
+[Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.

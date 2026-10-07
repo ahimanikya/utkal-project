@@ -51,3 +51,7 @@ The teaching version combines rice and urad; its equal-parts formula is source-s
 The book contrasts onion-and-herb chakuli with a simpler rice–black-gram saru chakuli; both are pan-cooked. [Traditional Rice Foods: The Rich Heritage of India — Lipi Das](https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf), Printed pp.12,31 / PDF pp.23,42. Lipi Das, ICAR-CRRI, 2015 compilation; an Odisha-labelled version, not a tested recipe or district prevalence measure.
 
 **Remaining question:** Obtain credited district or household attribution; the book does not map either version to a district. Local/Odia review remains pending.
+
+## Observance reading
+
+[Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.

@@ -5513,6 +5513,25 @@
         "records/home-sharing-konark-natural-2026-10-06.json",
         "records/home-sharing-konark-publication-2026-10-06.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-2026100701",
+      "title": "Osha, stories and the food year: first twelve profiles",
+      "category": "research_and_website",
+      "status": "in_progress",
+      "readiness": "draft",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-2026100701",
+      "next_action": "Review the first website candidate; continue RES-077 OSHA-B02 with Odia katha editions for Sudasa, Budhei and Dutiya. Preserve unresolved origins, dates and venues.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-2026100701",
+        "UTP-REV-2026100701"
+      ],
+      "evidence": [
+        "records/osha-culture-research-2026-10-07.json"
+      ]
     }
   ],
   "decisions": [
@@ -9968,6 +9987,23 @@
       "evidence": [
         "records/flexible-visit-plans-publication-2026-10-07.json"
       ]
+    },
+    {
+      "id": "UTP-DEC-2026100701",
+      "title": "Research Odisha osha histories, significance and seasonal food",
+      "status": "recorded_direction",
+      "actor": {
+        "kind": "human",
+        "name": "Ahimanikya Satapathy"
+      },
+      "quote": "Do deep research on this - understand the history behind each OSHA and then narrate significance and food culture around it. We will document all of this and add various structured pages to the website. Do looping if required",
+      "scope": "Deep research, structured cultural pages and an iterative research path. This record does not certify complete coverage, human factual review or approval of this exact website release.",
+      "recorded_at": "2026-10-07T05:41:21.326668+00:00",
+      "occurred_at": null,
+      "refs": [],
+      "evidence": [
+        "records/osha-culture-research-2026-10-07.json"
+      ]
     }
   ],
   "requirements": [
@@ -13622,6 +13658,29 @@
       ],
       "evidence": [
         "records/homepage-sharing-photo-review-2026-10-06.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-2026100701",
+      "title": "Osha collection research and site self-check",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Five narrative checkpoints and seven early notes; statewide coverage and histories remain incomplete.",
+        "No human factual/Odia review or local interviews claimed.",
+        "Current event dates and serving venues unverified.",
+        "Website candidate not merged or published."
+      ],
+      "refs": [
+        "UTP-WORK-2026100701",
+        "UTP-DEC-2026100701"
+      ],
+      "evidence": [
+        "records/osha-culture-research-2026-10-07.json"
       ]
     }
   ],

@@ -75,3 +75,7 @@ Subject membership is editorial classification. It does not establish historical
 [Rice kept for taste](../stories/rice-kept-for-taste.md) links documented food preferences to named cultivation and seed-enterprise accounts. Historical evidence is separate from current availability.
 
 [From milk to market](../stories/sweets-from-milk-to-market.md) connects the Pahala supply-chain study with dairy work, sweet making and the evidence still needed for market claims.
+
+## 2026-10-07 · Osha and food
+
+[The ritual food year](../culture/osha-brata-seasonal-food.md) connects dishes and observances.

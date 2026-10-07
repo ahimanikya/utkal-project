@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-03T08:06:11.256094+00:00",
+  "updated_at": "2026-10-07T05:32:58.615006+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3387,6 +3387,145 @@
         "audit_date": "2026-10-01",
         "map": "references/data/research-map.json"
       }
+    },
+    {
+      "id": "RES-077",
+      "order": 0.02,
+      "title": "Osha, brata and seasonal food culture",
+      "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
+      "target": "culture/osha-brata-seasonal-food.md",
+      "status": "in_progress",
+      "attempts": 2,
+      "dependencies": [],
+      "last_worked_at": "2026-10-07T05:30:57.424485+00:00",
+      "next_step": "OSHA-B02: recover dated Odia katha editions for Sudasa, Budhei and Dutiya; inspect narratives and food passages, then revise existing profiles. Continue B03–B06 sequentially. Website candidate pending its own review/CI and publication decision.",
+      "retry_after": null,
+      "blocker": "Some narrative/origin fields need textual witnesses or local participation; Ray 2022 original unavailable. These do not block independent text research.",
+      "evidence_outputs": [
+        "culture/osha-brata-seasonal-food.md",
+        "visitor-index/seasonal-food-guide.md",
+        "sources/osha-review2006.md",
+        "references/data/seasonal-food-calendar.json",
+        "sources/osha-mahanti.md",
+        "sources/osha-lakshmi2021.md",
+        "sources/osha-ray2020.md",
+        "sources/osha-patra2019.md",
+        "sources/osha-ghadai2018.md",
+        "sources/osha-jagatsinghpur.md",
+        "sources/osha-samba2013.md",
+        "sources/osha-konark2015.md",
+        "sources/osha-savitri-epic.md",
+        "culture/osha/khudurukuni.md",
+        "culture/osha/manabasa-gurubara.md",
+        "culture/osha/sudasa-brata.md",
+        "culture/osha/dutiya.md",
+        "culture/osha/budhei.md",
+        "culture/osha/alana.md",
+        "culture/osha/kanji-anla.md",
+        "culture/osha/bada.md",
+        "culture/osha/samba-dashami.md",
+        "culture/osha/prathamastami.md",
+        "culture/osha/sabitri.md",
+        "culture/osha/janhi.md",
+        "references/data/osha-culture.json"
+      ],
+      "attempt_history": [
+        {
+          "run_id": "2026-10-07-osha-food-calendar",
+          "at": "2026-10-07T05:07:14.902375+00:00",
+          "outcome": "six_selected_observances_two_documented_food_associations_four_provisional_leads",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-osha-deep-study",
+          "at": "2026-10-07T05:30:57.424485+00:00",
+          "outcome": "twelve_profiles_five_narrative_checkpoints_seven_early_notes_original_sources_recovered",
+          "completion_criteria_met": false
+        }
+      ],
+      "reuse_before_research": {
+        "source_records": [
+          "culture/osha-brata-seasonal-food.md",
+          "visitor-index/seasonal-food-guide.md",
+          "references/data/seasonal-food-calendar.json",
+          "food/enduri-pitha.md",
+          "food/poda-pitha.md",
+          "food/manda-pitha.md",
+          "food/arisa-pitha.md",
+          "food/bela-pana.md",
+          "food/preparation-and-variation.md",
+          "sources/food-tourism.md",
+          "sources/food-air-raja2026.md",
+          "sources/osha-review2006.md",
+          "sources/osha-mahanti.md",
+          "sources/osha-lakshmi2021.md",
+          "sources/osha-ray2020.md",
+          "sources/osha-patra2019.md",
+          "sources/osha-ghadai2018.md",
+          "sources/osha-jagatsinghpur.md",
+          "sources/osha-samba2013.md",
+          "sources/osha-konark2015.md",
+          "sources/osha-savitri-epic.md",
+          "culture/osha/khudurukuni.md",
+          "culture/osha/manabasa-gurubara.md",
+          "culture/osha/sudasa-brata.md",
+          "culture/osha/dutiya.md",
+          "culture/osha/budhei.md",
+          "culture/osha/alana.md",
+          "culture/osha/kanji-anla.md",
+          "culture/osha/bada.md",
+          "culture/osha/samba-dashami.md",
+          "culture/osha/prathamastami.md",
+          "culture/osha/sabitri.md",
+          "culture/osha/janhi.md",
+          "references/data/osha-culture.json"
+        ],
+        "project_records": [
+          "kb/research/product/destination-and-tour-book.md"
+        ],
+        "audit_date": "2026-10-07",
+        "map": "references/data/research-map.json"
+      },
+      "selection_basis": "Explicit new user request; prior task IDs, attempts and retry dates preserved.",
+      "scope_history": [
+        {
+          "at": "2026-10-07T05:30:57.424485+00:00",
+          "previous_done_when": "Deliver a sourced seasonal cultural register spanning selected osha, brata and parba, with food or restriction associations, traditional calendar rules, locality/household variants and explicit unknowns; inspect original sources for adopted claims. Provide a visitor guide distinguishing cultural reading from independently dated serving/access evidence. Do not fabricate annual dates, universal menus, hosts or bookings.",
+          "reason": "User explicitly requested deep histories, narratives, food culture and structured website pages; looping authorised."
+        }
+      ],
+      "research_batches": [
+        {
+          "id": "OSHA-B01",
+          "scope": "Original recovery and twelve profile checkpoints",
+          "status": "checkpoint_saved"
+        },
+        {
+          "id": "OSHA-B02",
+          "scope": "Odia katha editions: Sudasa, Budhei and Dutiya; earliest witnesses, variants and food passages",
+          "status": "pending"
+        },
+        {
+          "id": "OSHA-B03",
+          "scope": "Chaitra Mangala, Sathi, Janhi and Nisha Mangalabara; local stories and women’s ritual work",
+          "status": "pending"
+        },
+        {
+          "id": "OSHA-B04",
+          "scope": "Western Odisha Puajiuntia/Bhaijiuntia and Nuakhai; do not merge coastal identities",
+          "status": "pending"
+        },
+        {
+          "id": "OSHA-B05",
+          "scope": "Bada, Kanji Anla, Bata, Danda Panhara, Pandu and Shani: primary local accounts and calendar conflicts",
+          "status": "pending"
+        },
+        {
+          "id": "OSHA-B06",
+          "scope": "Extend remaining brata inventory in bounded batches and then verify annual dates/consented public food offers",
+          "status": "pending"
+        }
+      ]
     }
   ],
   "queue_revision_history": [

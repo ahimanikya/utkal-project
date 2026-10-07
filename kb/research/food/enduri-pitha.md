@@ -53,3 +53,7 @@ Enduri/Haldi Patra uses rice–black-gram batter, coconut/paneer filling and tur
 **Remaining question:** Full institutional preparation evidence is now recovered from CRRI. The earlier NCHM fetch remains unavailable; local and Odia review of names/variations remains open. Local/Odia review remains pending.
 
 [Poda and fire cooking](poda-and-fire-cooking.md) — Compare attributed food preparations and method boundaries; no common origin, culinary ranking or venue availability inferred.
+
+## Observance reading
+
+[Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.

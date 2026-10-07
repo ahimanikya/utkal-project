@@ -1,0 +1,693 @@
+{
+  "schema_version": "1.0",
+  "task_id": "RES-077",
+  "run_id": "2026-10-07-osha-deep-study",
+  "checked_at": "2026-10-07T05:30:57.424485+00:00",
+  "scope": "Thirteen selected observances, including the retained Raja association; twelve linked profiles. Not a statewide inventory or booking calendar.",
+  "user_direction": "Explore osha/brata/parba through food, season and everyday life; consider a visitor food calendar.",
+  "entries": [
+    {
+      "id": "SEAS-001",
+      "name": "Raja",
+      "observance_type": "festival",
+      "foods": [
+        "poda pitha",
+        "arisa pitha"
+      ],
+      "food_paths": [
+        "food/poda-pitha",
+        "food/arisa-pitha"
+      ],
+      "traditional_month": null,
+      "season_window": "June association in saved 15 June 2026 report; not a reusable annual date",
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Odisha; locality and household distribution not established",
+      "source_ids": [
+        "food-tourism",
+        "food-air-raja2026"
+      ],
+      "source_locator": "Tourism Poda Pitha heading; saved Akashvani report third body paragraph",
+      "evidence_status": "documented_association",
+      "notes": "Reuse dated report with title/second-day discrepancy retained; cooking versions differ.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null
+    },
+    {
+      "id": "SEAS-002",
+      "name": "Prathamastami",
+      "observance_type": "household festival",
+      "foods": [
+        "enduri pitha"
+      ],
+      "food_paths": [
+        "food/enduri-pitha"
+      ],
+      "traditional_month": null,
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Odisha; locality and household distribution not established",
+      "source_ids": [
+        "osha-mahanti",
+        "food-tourism"
+      ],
+      "source_locator": "Enduri Pitha heading",
+      "evidence_status": "documented_association",
+      "notes": "Turmeric-leaf and coconut-jaggery description retained. Annual calendar rule and date not checked here.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/prathamastami.md",
+      "profile_id": "OSHA-010"
+    },
+    {
+      "id": "SEAS-003",
+      "name": "Sudasa Brata",
+      "observance_type": "brata",
+      "foods": [
+        "manda"
+      ],
+      "food_paths": [
+        "food/manda-pitha"
+      ],
+      "traditional_month": null,
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Odisha; locality and household distribution not established",
+      "source_ids": [
+        "osha-lakshmi2021",
+        "osha-mahanti",
+        "osha-review2006"
+      ],
+      "source_locator": "Printed p.17",
+      "evidence_status": "documented_association",
+      "notes": "Source says manda; no automatic identification with the existing sijha/steamed variant. Month assertion not adopted. Original PDF recovered 7 October; locality and calendar limitations remain.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/sudasa-brata.md",
+      "profile_id": "OSHA-003"
+    },
+    {
+      "id": "SEAS-004",
+      "name": "Manabasa Gurubara",
+      "observance_type": "household observance",
+      "foods": [
+        "khiri",
+        "khechudi",
+        "kakara",
+        "chakuli"
+      ],
+      "food_paths": [
+        "food/kakara-pitha",
+        "food/chakuli"
+      ],
+      "traditional_month": "Margasira",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Odisha; locality and household distribution not established",
+      "source_ids": [
+        "osha-ghadai2018",
+        "osha-lakshmi2021",
+        "osha-review2006"
+      ],
+      "source_locator": "Printed p.15 month; p.17 foods",
+      "evidence_status": "documented_association",
+      "notes": "Historical attributed list; recipes, Thursday dates and household variation require review. Original PDF recovered 7 October; locality and calendar limitations remain.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/manabasa-gurubara.md",
+      "profile_id": "OSHA-002"
+    },
+    {
+      "id": "SEAS-005",
+      "name": "Dutiya Osha",
+      "observance_type": "osha",
+      "foods": [
+        "ghanta"
+      ],
+      "food_paths": [],
+      "traditional_month": "Ashwina",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Odisha; locality and household distribution not established",
+      "source_ids": [
+        "osha-review2006"
+      ],
+      "source_locator": "Printed pp.15,17",
+      "evidence_status": "documented_association",
+      "notes": "Essay describes offered fruits/vegetables used for ghanta the following day. Do not merge every ghanta recipe or source-listed regional alias. Original PDF recovered 7 October; locality and calendar limitations remain.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/dutiya.md",
+      "profile_id": "OSHA-004"
+    },
+    {
+      "id": "SEAS-006",
+      "name": "Alana Osha",
+      "observance_type": "osha with food restriction",
+      "foods": [],
+      "food_paths": [],
+      "traditional_month": "Ashwina",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Odisha; locality and household distribution not established",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti"
+      ],
+      "source_locator": "Printed pp.15,17",
+      "evidence_status": "documented_association",
+      "notes": "Essay describes abstaining from salt. No named dish, general dietary instruction or universal household rule inferred. Original PDF recovered 7 October; locality and calendar limitations remain.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/alana.md",
+      "profile_id": "OSHA-006"
+    },
+    {
+      "id": "SEAS-007",
+      "name": "Khudurukuni Osha",
+      "observance_type": "osha",
+      "foods": [
+        "khuda offerings"
+      ],
+      "food_paths": [],
+      "traditional_month": "Bhadraba",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "source_ids": [
+        "osha-ray2020",
+        "osha-patra2019"
+      ],
+      "source_locator": "2020 article, Tapoi narrative following the evening ritual; 2020 article, ritual sequence; Balunka caption; Patra printed p.48; Ray food-offerings paragraph; Publication and attribution boundaries",
+      "evidence_status": "documented_association",
+      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/khudurukuni.md",
+      "profile_id": "OSHA-001"
+    },
+    {
+      "id": "SEAS-008",
+      "name": "Budhei Osha",
+      "observance_type": "osha",
+      "foods": [
+        "fruit offerings",
+        "pitha (types not established)"
+      ],
+      "food_paths": [],
+      "traditional_month": "Bhadraba",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti"
+      ],
+      "source_locator": "Dash p.15; Mahanti pp.56–57",
+      "evidence_status": "documented_association",
+      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/budhei.md",
+      "profile_id": "OSHA-005"
+    },
+    {
+      "id": "SEAS-009",
+      "name": "Kanji Anla Osha",
+      "observance_type": "osha",
+      "foods": [
+        "kanji",
+        "radish",
+        "dried fish in an attributed account"
+      ],
+      "food_paths": [],
+      "traditional_month": "Margasira",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti"
+      ],
+      "source_locator": "Dash pp.15,18 note 2; Mahanti p.60; Printed p.60",
+      "evidence_status": "documented_association",
+      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/kanji-anla.md",
+      "profile_id": "OSHA-007"
+    },
+    {
+      "id": "SEAS-010",
+      "name": "Bada Osha",
+      "observance_type": "osha",
+      "foods": [
+        "steamed gaja offering"
+      ],
+      "food_paths": [],
+      "traditional_month": "Kartika",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "source_ids": [
+        "osha-jagatsinghpur",
+        "osha-mahanti"
+      ],
+      "source_locator": "Printed p.52, Bada Osha; Mahanti pp.58–59; gazetteer p.52",
+      "evidence_status": "documented_association",
+      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/bada.md",
+      "profile_id": "OSHA-008"
+    },
+    {
+      "id": "SEAS-011",
+      "name": "Samba Dashami",
+      "observance_type": "osha / sun worship",
+      "foods": [
+        "khichdi",
+        "ghadghadia tarkari",
+        "pitha",
+        "khiri"
+      ],
+      "food_paths": [
+        "food/manda-pitha",
+        "food/kakara-pitha",
+        "food/arisa-pitha"
+      ],
+      "traditional_month": "Pausa",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "source_ids": [
+        "osha-samba2013",
+        "osha-konark2015"
+      ],
+      "source_locator": "Printed p.55; Printed p.55, Tradition; Printed p.94, Rituals and Festivals associated with the river",
+      "evidence_status": "documented_association",
+      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/samba-dashami.md",
+      "profile_id": "OSHA-009"
+    },
+    {
+      "id": "SEAS-012",
+      "name": "Sabitri Brata",
+      "observance_type": "brata",
+      "foods": [
+        "seasonal fruit offerings"
+      ],
+      "food_paths": [],
+      "traditional_month": "Jyestha",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "source_ids": [
+        "osha-savitri-epic",
+        "osha-mahanti"
+      ],
+      "source_locator": "Vana Parva, section displayed as CCLXLV, printed pp.576–581; Scope of the inspected epic passage; Printed p.45",
+      "evidence_status": "documented_association",
+      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/sabitri.md",
+      "profile_id": "OSHA-011"
+    },
+    {
+      "id": "SEAS-013",
+      "name": "Janhi Osha",
+      "observance_type": "osha",
+      "foods": [],
+      "food_paths": [],
+      "traditional_month": "Ashwina",
+      "season_window": null,
+      "calendar_rule": null,
+      "occurrence_year": null,
+      "gregorian_date": null,
+      "geography": "Source-scoped Odisha accounts; household and regional distribution not measured",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti"
+      ],
+      "source_locator": "Dash p.15; Mahanti p.56",
+      "evidence_status": "documented_association",
+      "notes": "Read linked profile for limits; a documented description is not an agreed universal practice.",
+      "venue_ids": [],
+      "current_serving_availability": null,
+      "visitor_access": null,
+      "host_consent": null,
+      "local_review": null,
+      "profile_path": "culture/osha/janhi.md",
+      "profile_id": "OSHA-012"
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "indexed_only_original_unavailable",
+      "checked_at": "2026-10-07T05:07:14.902375+00:00",
+      "locator": "Printed pp.15 and17; indexed passages only"
+    },
+    {
+      "source_id": "food-tourism",
+      "url": "https://apps.odishatourism.gov.in/the-taste-of-odisha",
+      "status": "available",
+      "method": "web rendered text",
+      "checked_at": "2026-10-07T05:07:14.902375+00:00",
+      "locator": "Poda Pitha and Enduri Pitha headings only",
+      "scope": "Alternate route for existing publication; not an independent source. No medical or origin claims adopted."
+    },
+    {
+      "source_id": "food-tourism",
+      "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Enduri Pitha section"
+    },
+    {
+      "source_id": "osha-ghadai2018",
+      "url": "https://magazines.odisha.gov.in/orissareview/2018/Jun-July/engpdf/june-july-or-2018.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed pp.102–104 (PDF pp.111–113)"
+    },
+    {
+      "source_id": "osha-jagatsinghpur",
+      "url": "https://jagatsinghpur.odisha.gov.in/sites/default/files/2023-05/2018051050.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed p.52, Bada Osha and Kumar Purnima"
+    },
+    {
+      "source_id": "osha-konark2015",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2015/August/engpdf/93-97.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed p.94 (PDF p.3), Rituals and Festivals associated with the river"
+    },
+    {
+      "source_id": "osha-lakshmi2021",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2021/June-July/engpdf/page-21-25.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed pp.23,25 (PDF pp.3,5)"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed pp.xiii–xv, 41–61 and 71–79; PDF page = printed page +16 for these body pages"
+    },
+    {
+      "source_id": "osha-patra2019",
+      "url": "https://magazines.odisha.gov.in/orissareview/2019/Nov/engpdf/46-53.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed p.48 (PDF p.3), Khudurukuni Osha"
+    },
+    {
+      "source_id": "osha-ray2020",
+      "url": "https://www.livehistoryindia.com/story/living-culture/khudurukuni-osa",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Ritual sequence, Tapoi narrative and offering paragraphs; Pattamundai caption"
+    },
+    {
+      "source_id": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed pp.15–18, complete four-page article inspected"
+    },
+    {
+      "source_id": "osha-samba2013",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2013/Jan/engpdf/january-2013.pdf",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Printed p.55 (PDF p.68), Tradition"
+    },
+    {
+      "source_id": "osha-savitri-epic",
+      "url": "https://sacred-texts.com/hin/m03/m03295.htm",
+      "status": "available",
+      "checked_at": "2026-10-07T05:30:57.424485+00:00",
+      "locator": "Section displayed CCLXLV; printed pp.576–581"
+    }
+  ],
+  "failed_fetches": [
+    {
+      "name": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: magazines.odisha.gov.in\n",
+      "retrieved_at": "2026-10-07T05:03:09.928620+00:00",
+      "local_capture": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-food-calendar/osha-review2006.pdf",
+      "sha256": null
+    },
+    {
+      "name": "nuakhai-utsav",
+      "url": "https://utsav.gov.in/view-event/nuakhai",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (6) Could not resolve host: utsav.gov.in\n",
+      "retrieved_at": "2026-10-07T05:03:09.939613+00:00",
+      "local_capture": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-food-calendar/nuakhai-utsav.html",
+      "sha256": null
+    },
+    {
+      "name": "osha-review2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+      "retrieved_at": "2026-10-07T05:03:33.548210+00:00",
+      "local_capture": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-food-calendar/osha-review2006.pdf",
+      "sha256": null
+    },
+    {
+      "name": "nuakhai-utsav",
+      "url": "https://utsav.gov.in/view-event/nuakhai",
+      "status": "unavailable",
+      "http_status": "000",
+      "error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
+      "retrieved_at": "2026-10-07T05:03:36.768298+00:00",
+      "local_capture": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-food-calendar/nuakhai-utsav.html",
+      "sha256": null
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+      "status": "unavailable",
+      "method": "web open",
+      "error": "Timeout",
+      "checked_at": "2026-10-07T05:07:14.902375+00:00"
+    },
+    {
+      "url": "https://magazines.odisha.gov.in/orissareview/April2006/engpdf/april-06.pdf",
+      "status": "unavailable",
+      "method": "web open",
+      "error": "Internal error",
+      "checked_at": "2026-10-07T05:07:14.902375+00:00"
+    },
+    {
+      "url": "https://utsav.gov.in/view-event/nuakhai",
+      "status": "unavailable",
+      "method": "web open",
+      "error": "Timeout",
+      "checked_at": "2026-10-07T05:07:14.902375+00:00"
+    },
+    {
+      "name": "ray2022",
+      "url": "https://hasp.ub.uni-heidelberg.de/journals/nidan/article/download/21868/21280",
+      "http_status": "200",
+      "error": "",
+      "status": "unavailable",
+      "retrieved_at": "2026-10-07T05:15:17.229444+00:00",
+      "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-deep-study/ray2022.pdf",
+      "sha256": "a7eec59fcc00d4e2e8f6c8fb516978a7b75d78fb7fe3330265744bcf4952ae38",
+      "transport_note": "Public-document-only request with certificate verification disabled after saved expiry errors; no persistent TLS configuration change. Content requires publisher/metadata cross-check."
+    },
+    {
+      "name": "ghadai2018",
+      "url": "https://magazines.odisha.gov.in/orissareview/2018/Jun-July/engpdf/june-july-or-2018.pdf",
+      "http_status": "200",
+      "error": "curl: (28) Operation timed out after 40001 milliseconds with 23630079 out of 48152226 bytes received\n",
+      "status": "unavailable",
+      "retrieved_at": "2026-10-07T05:22:21.803930+00:00",
+      "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-deep-study/ghadai2018.pdf",
+      "sha256": "876547e4b61ea3f2bd9a18ec87edbed1b26ab0a1a682f88d13ce19d628453772",
+      "transport_note": "Public-document-only request with certificate verification disabled after saved expiry errors; no persistent TLS configuration change. Content requires publisher/metadata cross-check."
+    }
+  ],
+  "followup_candidates": [
+    {
+      "name": "Budhei Osha",
+      "food_association": null,
+      "status": "profile_checkpoint_saved",
+      "profile_path": "culture/osha/budhei.md"
+    },
+    {
+      "name": "Khudurukuni Osha",
+      "food_association": null,
+      "status": "profile_checkpoint_saved",
+      "profile_path": "culture/osha/khudurukuni.md"
+    },
+    {
+      "name": "Sabitri Brata",
+      "food_association": null,
+      "status": "profile_checkpoint_saved",
+      "profile_path": "culture/osha/sabitri.md"
+    },
+    {
+      "name": "Kumar Purnima",
+      "food_association": null,
+      "status": "research_question_not_established"
+    },
+    {
+      "name": "Nuakhai",
+      "food_association": null,
+      "status": "research_question_not_established"
+    },
+    {
+      "name": "Makar Sankranti",
+      "food_association": null,
+      "status": "research_question_not_established"
+    },
+    {
+      "name": "Pana Sankranti",
+      "food_association": null,
+      "status": "research_question_not_established"
+    },
+    {
+      "name": "Chitalagi Amabasya",
+      "food_association": null,
+      "status": "research_question_not_established"
+    },
+    {
+      "name": "Bada Osha",
+      "food_association": null,
+      "status": "profile_checkpoint_saved",
+      "profile_path": "culture/osha/bada.md"
+    },
+    {
+      "name": "Kanji Anla Osha",
+      "food_association": null,
+      "status": "profile_checkpoint_saved",
+      "profile_path": "culture/osha/kanji-anla.md"
+    }
+  ],
+  "discovery_holds": [
+    {
+      "name": "Nuakhai",
+      "url": "https://utsav.gov.in/view-event/nuakhai",
+      "status": "indexed_lead_original_unavailable",
+      "retry_after": "2026-10-14",
+      "note": "Search describes new-crop rice; full record not recovered, no calendar row promoted."
+    },
+    {
+      "name": "Prathamastami fortnight",
+      "status": "unresolved_indexed_conflict",
+      "urls": [
+        "https://magazines.odisha.gov.in/Orissareview/june_july-2007/engpdf/June_july_2007.pdf",
+        "https://magazines.odisha.gov.in/orissareview/2019/Jun-July/engpdf/june-july-or-2019.pdf"
+      ],
+      "note": "Indexed institutional texts differ on bright/dark fortnight. Do not choose from snippets; food association is unaffected."
+    },
+    {
+      "name": "Alana deity",
+      "status": "conflicted",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti"
+      ],
+      "note": "Lakshmi versus Surya; do not harmonise without locality evidence."
+    },
+    {
+      "name": "Bada Osha date",
+      "status": "conflicted",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-jagatsinghpur"
+      ],
+      "note": "Bright thirteenth/fourteenth versus Purnima; local schedule needed."
+    },
+    {
+      "name": "Khuda processing terms",
+      "status": "conflicted",
+      "source_ids": [
+        "osha-ray2020",
+        "osha-patra2019"
+      ],
+      "note": "Rice particles, bran and husk glosses not treated as equivalent."
+    }
+  ],
+  "calendar_policy": "Keep traditional month, tithi/weekday rule and year-specific local date separate. Never generate annual dates from a past holiday calendar.",
+  "visitor_policy": "Food association is not evidence of serving, access, stock, price or host consent.",
+  "fieldwork_conducted": false,
+  "human_review_claimed": false,
+  "website_implemented": false
+}

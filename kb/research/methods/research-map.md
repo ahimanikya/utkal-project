@@ -413,3 +413,7 @@ The [tourism pilot](../../specs/tourism-experience-pilot.md), [evidence brief](.
 ## Tourism reading follow-up on 6 October 2026
 
 The [six-story collection](../stories/narratives/tourism-reading-collection.md) now includes Tarakasi, Jobra and Raghurajpur. Existing craft, place, person and PIB identities are reused. Two new source records cover a credited wirework process and the museum workshop subpage. Museum pages share provenance. [Follow-up evidence](../stories/narratives/tourism-reading-followup-evidence.json) records full-page retrieval, unresolved dates excluded from narration, media candidates and pending field questions. Imported research scope remains frozen.
+
+## 2026-10-07 · Osha and food
+
+RES-077 adds twelve observance profiles and related sources after existing food-record reuse. Source scheduling continues in the standalone research workspace; no duplicate automation.

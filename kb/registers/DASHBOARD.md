@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1c2c1523f2cc693fd33a00e402a894992bbc4e8698388abf91665f415cce3418`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b456bd1fe6237097d9819c6f107027d9708e8e5076e6580c857ced1370f93367`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -197,6 +197,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
 | UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
+| UTP-WORK-2026100701 · Osha, stories and the food year: first twelve profiles | in_progress | draft | Ahimanikya Satapathy | Review the first website candidate; continue RES-077 OSHA-B02 with Odia katha editions for Sudasa, Budhei and Dutiya. Preserve unresolved origins, dates and venues. | — |
 
 ## Pending human review and decisions
 
@@ -482,6 +483,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-DEC-2026100602 · Home-page sharing image direction, clarified to permit new Human Natural artwork | recorded_direction | Ahimanikya Satapathy | New Human Natural Documentary-style AI artwork for home-page social sharing. Homepage rotation and non-home previews unchanged. |
 | UTP-DEC-2026100603 · Publish the approved Konark homepage sharing image | approved | Ahimanikya Satapathy | Reply to Shall I publish this version? for PR143, candidate 2c4ecc52ab5584341a2ecba8f6a64df39e2b940d. Authorizes merge and publication of the reviewed image. |
 | UTP-DEC-222 · Publish the three reviewed flexible visit plans | approved | Ahimanikya Satapathy | Merge PR144 and deploy the three reviewed flexible visit plans, saved starters and portable book integration. |
+| UTP-DEC-2026100701 · Research Odisha osha histories, significance and seasonal food | recorded_direction | Ahimanikya Satapathy | Deep research, structured cultural pages and an iterative research path. This record does not certify complete coverage, human factual review or approval of this exact website release. |
 
 ## Reviews
 
@@ -639,6 +641,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-154 | pass_with_limitations | False | No independent curator, epigraphic or local maker review.; Museum photographs date to July 2018; catalogue examples to 2019. Current exhibits and visitor services are not verified.; Dhauli and Pipili tourism sources reuse saved inspection evidence; subsequent requests returned 404.; No new field visits, interviews, workshop bookings or timed itinerary.; Founder publication approval remains pending. |
 | UTP-REV-155 | pass_with_limitations | False | Current openings, hosts, costs, capacity, access and transfers require local confirmation. No timed route or booking is promised.; No new fieldwork or independent local review. Existing source evidence and documentary photographs reused.; Bhubaneswar and Puri meal chapters use labelled setting photographs, not photographs of the dish or a recommended restaurant.; Native PDF layout was not re-tested in this batch; HTML and text book exports were checked.; Founder publication approval remains pending; existing search approval scope is unchanged. |
 | UTP-REV-2026100602 | pass_with_limitations | False | Not yet merged or published.; External sharing services may retain older cached previews; no external scraper refresh performed. |
+| UTP-REV-2026100701 | pass_with_limitations | False | Five narrative checkpoints and seven early notes; statewide coverage and histories remain incomplete.; No human factual/Odia review or local interviews claimed.; Current event dates and serving venues unverified.; Website candidate not merged or published. |
 
 ## Publication and application history
 
@@ -757,7 +760,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-253 | 2026-10-06T11:25:55.186099+00:00 | Founder-approved PR140 merged; manual publication succeeded. Live Tarakasi story and diagram were verified, and both new photos matched the reviewed asset hashes. | Prepare the illustrated Jobra article in the next work batch. |
 | UTP-EVT-254 | 2026-10-06T12:03:13.305515+00:00 | Prepared a connected illustrated Jobra article, checked dated photo rights and museum hours, and reviewed the three story layouts and journey save flow. | Submit the checked candidate for Founder publication review. |
 | UTP-EVT-255 | 2026-10-06T12:45:45.035575+00:00 | Founder-approved PR141 merged; deployment succeeded. Live Jobra story, three exact photo hashes and Cuttack/Things to Do discovery links verified. | Continue the next approved editorial batch. |
 | UTP-EVT-256 | 2026-10-07T03:21:20.247282+00:00 | Prepared connected illustrated Kala Bhoomi, Dhauli and Pipili stories with documentary images and portable visitor context. | Founder editorial review and publication decision. |
@@ -767,6 +769,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026100603 | 2026-10-07T04:23:34.523081+00:00 | Replaced superseded Chilika sharing candidate with newly generated Human Natural Konark artwork following Founder clarification; AI provenance, source credit and same-licence adaptation recorded. Full and coastal checks passed; not published. | Present new artwork for Founder publication decision. |
 | UTP-EVT-2026100604 | 2026-10-07T04:44:39.739070+00:00 | Founder approved publication with Yes. PR143 merged and publication workflow 37572605182 succeeded. Live homepage Open Graph/Twitter tags and image hash match the approved Konark artwork. | Complete; external sharing caches may take time to update. |
 | UTP-EVT-259 | 2026-10-07T05:09:18.412523+00:00 | Founder-approved PR144 merged and Pages deployment succeeded. Three live plans, nine photographs, discovery links and three-item journey payloads verified. | Continue authorized research; provider-confirmed itinerary work remains separate. |
+| UTP-EVT-2026100701 | 2026-10-07T05:41:21.326668+00:00 | Prepared twelve source-linked observance profiles, seasonal food connections and thirteen website routes. Preserved deity/calendar disagreements and a sequential expansion inventory. | Continue katha evidence research and review website candidate. |
 
 ## Deferred extensions
 
