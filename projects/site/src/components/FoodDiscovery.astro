@@ -1,0 +1,17 @@
+---
+import hub from '../../../../kb/research/food/discovery-hub.json';
+import foods from '../../../../kb/research/food/collection.json';
+import ResponsiveImage from './ResponsiveImage.astro';
+import {allowsPage} from '../data/edition';
+const features=hub.features.map(f=>({...f,page:foods.pages.find(p=>p.slug===f.slug)})).filter(f=>f.page&&allowsPage('/food/'+f.slug+'/'));
+---
+<section class="food-discovery" aria-labelledby="food-story-title">
+<div class="food-story-opening"><p class="eyebrow">Food, memory & a reason to visit</p><h2 id="food-story-title">{hub.title}</h2><p>{hub.intro}</p></div>
+<div class="food-features" aria-label={hub.feature_title}>{features.map(f=>{const photo=foods.assets[f.page.hero];return <article><a href={'/food/'+f.slug+'/'} aria-label={'Read '+f.page.title}><ResponsiveImage src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" sizes="(max-width: 760px) 92vw, 30vw"/></a><div><p class="eyebrow">{f.page.title} · {f.page.area}</p><h3><a href={'/food/'+f.slug+'/'}>{f.title}</a></h3><p>{f.text}</p></div></article>})}</div>
+{allowsPage(hub.collection.href)&&<aside class="food-reading"><div><p class="eyebrow">Keep the stories together</p><h3>{hub.collection.title}</h3><p>{hub.collection.text}</p></div><a class="utk-button" href={hub.collection.href}>Build my food collection →</a></aside>}
+<nav class="food-paths" aria-label="Explore food stories">{hub.paths.filter(p=>allowsPage(p.href)).map(p=><a href={p.href}><h3>{p.title} →</h3><p>{p.text}</p></a>)}</nav>
+<div class="food-region-intro"><p class="eyebrow">Choose where to begin</p><h2>Find a flavour by place.</h2><p>Keep a dish you are curious about. The regional guides help you connect it with the rest of your visit.</p></div>
+</section>
+<style>
+.food-discovery{margin:40px 0 20px;border-top:1px solid var(--line);padding-top:40px}.food-story-opening{max-width:72ch;margin-bottom:30px}.food-discovery h2{font:clamp(32px,3.4vw,50px)/1.15 var(--serif);color:var(--sea)}.food-discovery h3{font:clamp(26px,2.4vw,34px)/1.2 var(--serif);color:var(--sea)}.food-discovery p{line-height:1.75}.food-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}.food-features article{min-width:0;background:var(--paper)}.food-features img{display:block;width:100%;height:auto;aspect-ratio:1.35;object-fit:cover}.food-features article>div{padding:24px}.food-features h3{margin:12px 0 18px}.food-features h3 a{text-decoration:none}.food-features h3 a:hover{text-decoration:underline}.food-reading{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:32px;background:var(--paper);border-left:4px solid var(--earth);margin:32px 0}.food-reading p{max-width:65ch}.food-reading a{flex-shrink:0}.food-paths{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:36px 0 52px}.food-paths>a{text-decoration:none;border-top:1px solid var(--line);padding-top:24px}.food-paths p{color:var(--ink)}.food-paths h3{margin:0 0 14px}.food-paths a:hover h3{text-decoration:underline}.food-region-intro{max-width:72ch;border-top:1px solid var(--line);padding-top:32px}@media(max-width:900px){.food-reading{display:block}.food-reading a{margin-top:16px}}@media(max-width:760px){.food-features,.food-paths{grid-template-columns:1fr}.food-reading{padding:24px}.food-features article>div{padding:24px}.food-discovery{padding-top:28px}.food-paths{gap:24px}}
+</style>
