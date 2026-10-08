@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-10-08T22:58:34.752691+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-011",
+  "work_id": "UTP-WORK-196",
+  "scope": "Desk-prepared assessment and trial decision template, not an operator assessment or public website listing.",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/154",
+  "reviewed_head": "7fda91acf773a4e2100be18bc328ab4dfb5ea691",
+  "merge_commit": "f5753e666ea33a27592184280b51eba76fc0448d",
+  "merged_at": "2026-10-08T22:57:39Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37856271815",
+    "conclusion": "success",
+    "local_bundle": "1242 concepts and 4893 local links pass",
+    "registers_config_catalog_workbench": "pass"
+  },
+  "published_artifact": {
+    "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/specs/tourism-fieldwork/operator-readiness.md",
+    "verification": "Fetched origin/main after merge; document bytes match reviewed local artifact.",
+    "sha256": "6732dfcbd836e47d248683c5bb2a74f04ce25921abded432b28e0edba7584811"
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Only project knowledge and records changed; website source, build configuration and public output unchanged. No new website deployment claimed."
+  },
+  "open_dependencies": [
+    "UTP-WORK-169",
+    "UTP-WORK-170",
+    "UTP-WORK-171",
+    "UTP-WORK-172"
+  ],
+  "review": "records/operator-readiness-review-2026-10-08.json"
+}
