@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `7c3f3383892ce1d731b7c1ae08782fdbf56f4506b6b8e6d7006867e6de538f42`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6be0ed68ec93ae6c5baa7a938d35ccacb55ad874c8490162fc811b33fabc2866`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -203,6 +203,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
+| UTP-WORK-193 · Restore cultural connections on eligible public pages | in_progress | reviewed | Ahimanikya Satapathy | Required checks, merge, publish and live verification under DEC225. | — |
 
 ## Pending human review and decisions
 
@@ -650,6 +651,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-158 | pass_with_limitations | False | Requirements-only delivery; no website route implemented or deployed.; No fresh official-source retrieval, new legal or funding conclusion, provider contact or field confirmation.; Previously captured 11-page MICE and partial 30-page capital-document reviews retain their dated scope.; Same-assistant review; no independent human review claimed. |
 | UTP-REV-159 | pass_with_limitations | False | Same-assistant self-review, not independent human factual review.; Application route and acceptance remain unverified; WORK166 stays open.; Capital document review limited to pages 1 and 3–5 of 30.; Reading plans are not confirmed group itineraries; WORK171 and Founder field TODO remain open.; Existing consent-controlled page views only; custom section/interaction events deferred.; New route remains outside the eleven-page search shortlist. |
 | UTP-REV-160 | pass_with_limitations | False | Same-assistant review, not independent human review.; Food areas describe article/planning context, not a restaurant location or booking.; Existing operating cautions and dated source scope retained. |
+| UTP-REV-161 | pass_with_limitations | False | Same-assistant self-review, not independent human or language-specialist review.; Reading connections do not confirm visits, local hosts or walking routes.; Physical-device and screen-reader checks remain outside this bounded review. |
 
 ## Publication and application history
 
@@ -772,7 +774,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-260 | 2026-10-07T06:43:37.928214+00:00 | Three illustrated food stories prepared with preserved journey IDs, portable-book reading and bounded backlog reconciliation. Automated and responsive browser checks passed. | Founder review of candidate; local arrangements remain deferred. |
 | UTP-EVT-261 | 2026-10-07T07:08:20.250505+00:00 | Founder-approved PR146 merged and GitHub Pages deployment succeeded. Three live stories, licensed image hashes, stable journey IDs, book photographs and discovery/visit-plan links verified. | Continue authorized research; field-dependent verification remains deferred. |
 | UTP-EVT-262 | 2026-10-07T23:54:36.492740+00:00 | Founder authorized next 500 substantive UTP items without routine approvals. First four items implemented and checked; hourly continuation attached to this chat. Completion count awaits actual publication. | Publish the checked food discovery batch and record the first four completed items. |
 | UTP-EVT-263 | 2026-10-08T00:03:09.458010+00:00 | PR147 merged after passing validation; Pages deployment and live food hub, collection, three saved IDs, book chapters and full-image cover rule verified. First four substantive items completed; hourly continuation active. | Resume the next eligible program item without routine approval prompts. |
@@ -782,6 +783,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-267 | 2026-10-08T07:34:03.422016+00:00 | PR149 passed required checks, merged and deployed. Live opportunities content, guidance limits, cultural links, navigation, original photos and unchanged eleven-route sitemap verified. Sixth substantive item completed. | Select the next eligible independent item; application and local fieldwork remain separate. |
 | UTP-EVT-268 | 2026-10-08T07:42:46.292566+00:00 | Saved food cards now derive title, lead and area from their published stories. Six stale introductions corrected; source lists, practical cautions and saved identities retained. | Publish after required checks and verify live catalogue. |
 | UTP-EVT-269 | 2026-10-08T07:49:23.977470+00:00 | PR150 merged after passing checks; deployment and live food catalogue verified. Current food titles, summaries and areas align with articles while saved identities and practical source context remain. Seventh program item complete. | Continue another eligible backlog item without routine approval prompts. |
+| UTP-EVT-270 | 2026-10-08T08:46:32.657153+00:00 | Route-aware selection restores three existing cultural connections across nine public pages. Narratives, credit and source limitations retained; unit, built-output, phone, desktop and keyboard checks passed. | Publish after required checks, then verify live pages. |
 
 ## Deferred extensions
 

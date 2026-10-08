@@ -5703,6 +5703,32 @@
         "records/food-card-consistency-review-2026-10-08.json",
         "records/food-card-consistency-publication-2026-10-08.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-193",
+      "title": "Restore cultural connections on eligible public pages",
+      "category": "website_quality",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Required checks, merge, publish and live verification under DEC225.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-161"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/cultural-connections-review-2026-10-08.json"
+      ],
+      "reuse_before_research": [
+        "research/voices/culture-trails.json",
+        "research/voices/collection.json",
+        "records/living-languages-publication.json"
+      ]
     }
   ],
   "decisions": [
@@ -13985,6 +14011,27 @@
       ],
       "evidence": [
         "records/food-card-consistency-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-161",
+      "title": "Cultural connections public-edition review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same-assistant self-review, not independent human or language-specialist review.",
+        "Reading connections do not confirm visits, local hosts or walking routes.",
+        "Physical-device and screen-reader checks remain outside this bounded review."
+      ],
+      "refs": [
+        "UTP-WORK-193"
+      ],
+      "evidence": [
+        "records/cultural-connections-review-2026-10-08.json"
       ]
     }
   ],
