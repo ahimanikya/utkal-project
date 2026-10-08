@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-08T23:51:24.614804+00:00",
+  "work_id": "UTP-WORK-197",
+  "program_item": "UTP-A500-012",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Keep keyboard focus within the journey planner when a day-removal control is destroyed or its Undo becomes hidden.",
+  "before": "Chrome Enter on Undo last day arrangement after Add a day returned document.activeElement to BODY (page-top).",
+  "verification": {
+    "full_tests": 486,
+    "coastal_tests": 91,
+    "browser": {
+      "origin": "http://127.0.0.1:4359",
+      "cancellation": "Native confirmation dismissed; Remove button retained focus and synthetic note remained.",
+      "removal": "With a temporary local window.confirm true stub, Enter removed the empty day; activeElement undo-day-change, disclosure open, Undo not hidden, zero remaining day fields.",
+      "undo": "Enter restored Quiet morning and Synthetic note: keep a pause.; activeElement plan-heading.",
+      "continuation": "Tab from planner heading reached journey-coach-next. Restored note survived reload; native window.confirm restored and verified.",
+      "visual": "Normal desktop screenshot inspected; no CSS or layout changes.",
+      "screenshot": "planning/utkala-odisha/review-assets/planner-day-focus-2026-10-08.jpg",
+      "screenshot_scope": "Local preview; outside Git."
+    }
+  },
+  "source_review": "Interaction-only change; no historical, language, visitor-service or source claims changed.",
+  "limitations": [
+    "Same-assistant review, not independent human review.",
+    "Native confirmation acceptance could not be verified through the browser tool: dialog handling stalled. Accepted-removal path tested with a temporary local confirmation stub, removed by reload.",
+    "No new physical-device or screen-reader check; no new responsive-layout claim."
+  ],
+  "publication": "Pending required checks, merge, deployment and live receipt."
+}
