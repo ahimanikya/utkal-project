@@ -45,14 +45,19 @@ entries.push({id:'food:pakhala',title:pakhala.label,kind:'Food',area:'Odisha',su
 export const journeyCatalog=entries.filter(item=>allowsIdea(item.id)).map(original=>{
  const item={...original,href:ideaHref(original.id,original.href)};
  if(isCoastalEdition&&item.id==='place:bhubaneswar')item.summary=editionCopy.bhubaneswar.orientation;
+ const foodPage=foodCollection.pages.find(p=>p.save_id===item.id);
+ if(foodPage&&allowsPage('/food/'+foodPage.slug+'/')){
+  item.href='/food/'+foodPage.slug+'/';
+  item.title=foodPage.title;
+  item.summary=foodPage.lead;
+  item.area=foodPage.planning_area||foodPage.area;
+ }
  const region=item.href.includes('/balasore/')||item.href.includes('/chandipur/')?'Balasore':item.href.includes('/mayurbhanj/')||item.href.includes('/similipal/')?'Mayurbhanj':item.area==='Culture & language'?'Reading':item.area;
  const access=item.id==='experience:bhubaneswar-fresco'?'A February 2009 photo archive, not a verified current mural route. Exact streets and present condition are unverified.':item.id==='place:chandipur'?'Check local tides and the return route; firm paths and toilets have not been inspected.':item.id==='place:similipal'?'Confirm the gate, permit, vehicle and seasonal opening through the official reserve.':item.kind==='Stay area'?'Confirm the property, facilities and access directly; this is an area suggestion.':item.kind==='Reading'?'A reading idea, not a scheduled visit.':item.access||'Confirm local access, transport and availability before travel.';
  const notebook=visitNotebooks.notebooks.find(n=>n.save_id===item.id);
  const detail=detailRecords.find(r=>detailUrl(r.kind,r.slug)===item.href);
  const mealGuide=item.id==='food:cuttack-dahibara'?cuttackMeal:cityMeal;
  const meal=mealGuide.sections.find(s=>s.save_id===item.id && ['food:pakhala','food:bhubaneswar-dalma','food:cuttack-dahibara'].includes(item.id));
- const foodPage=foodCollection.pages.find(p=>p.save_id===item.id);
- if(foodPage&&allowsPage('/food/'+foodPage.slug+'/'))item.href='/food/'+foodPage.slug+'/';
  const practical=foodPage?foodPage.sections.map(s=>({heading:s.title,text:s.paragraphs.map(p=>p.text).join(' ')})):detail && (detail.slug==='raghurajpur'||['chilika','bhubaneswar','cuttack','balasore','mayurbhanj'].includes(detail.parent))?detail.sections.flatMap(s=>[{heading:s.heading,text:[s.text,...(s.paragraphs||[])].join(" ")},...(s.options||[]).map(o=>({heading:o.area,text:[o.fit,o.transport,o.check].join(' ')}))]):meal?[{heading:meal.prompt,text:meal.question},{heading:'Before ordering',text:mealGuide.closing}]:item.practical;
  if(foodPage&&meal)practical.push({heading:'Before ordering',text:mealGuide.closing});
  const sources=[...new Map([...(item.sources||[]),...(foodPage?[...new Set(foodPage.sections.flatMap(s=>s.paragraphs.flatMap(p=>p.source_ids)))].map(id=>foodCollection.sources[id]):[]),...(detail && (detail.slug==='raghurajpur'||['chilika','bhubaneswar','cuttack','balasore','mayurbhanj'].includes(detail.parent))?detailSources(detail).map(s=>({title:s.title,url:s.resource})):[]),...(meal?meal.source_ids.map(id=>mealGuide.sources[id]):[]),...(notebook?.planning_sources||[])].map(s=>[s.url,{title:s.title,url:s.url}])).values()];
