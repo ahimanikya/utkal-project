@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-08T22:50:37.676701+00:00",
+  "work_id": "UTP-WORK-196",
+  "program_item": "UTP-A500-011",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "deliverable": "specs/tourism-fieldwork/operator-readiness.md",
+  "version": "0.1",
+  "acceptance": {
+    "assessment": "Five evidence states separate unsupported answers, scoped support, actual gaps, stale/conflicting evidence and justified exclusions. No scoring or operator ranking.",
+    "six_leads": "Six existing experience IDs and narrower alternatives traced to their briefs; all explicitly unassessed.",
+    "trial_handoff": "Copyable assessment and decision sheets specify actual activity, authority, people, rights, costs, stop conditions and post-trial outcome. No prefilled approval.",
+    "boundaries": "Field-research estimate is not trial pricing; private evidence needs an agreed restricted home; booking, fieldwork and publication remain separate. WORK172 retains dependencies."
+  },
+  "scenario_review": [
+    {
+      "case": "No host reply",
+      "result": "Unknown, not gap evidenced or declined; continue desk work or defer; no trial-ready inference."
+    },
+    {
+      "case": "Host declines photography but permits a suitable visit",
+      "result": "Exclude recording only if the activity stands alone; still establish all visit, access and cost conditions. No publication right implied."
+    },
+    {
+      "case": "Observed steps conflict with a particular participant need",
+      "result": "Record scoped gap, discuss fit privately and revise/defer; do not label the whole venue universally inaccessible."
+    },
+    {
+      "case": "Old price conflicts with a new host answer",
+      "result": "Conflicting or stale; preserve both and resolve the applicable quote before relying on it."
+    },
+    {
+      "case": "Five supported requirements but one missing venue permission",
+      "result": "No average or score overrides the missing permission; proposal not ready."
+    },
+    {
+      "case": "Trial scheduled but cancelled",
+      "result": "Not trial assessed; cancelled outcome, commitments and refunds retained; no successful-visit claim."
+    }
+  ],
+  "verification": {
+    "method": "Same-assistant document walk-through and cross-check against six briefs, confirmation checklist, model and capacity assumptions; repository validation follows.",
+    "website_code_changed": false,
+    "visual_check": "Not applicable: Markdown knowledge-bundle deliverable; table structure and readback checked, no website layout change.",
+    "bundle": "1242 concepts and 4893 local links pass",
+    "registers_config_catalog_workbench": "pass",
+    "targeted_integrity": "Six existing lead IDs, per-table column structure, WORK172 dependencies and unchanged completed count verified.",
+    "check_correction": "Initial ad hoc table check incorrectly assumed every table had three columns. Corrected the check to compare each table with its own header; no content error or document change."
+  },
+  "limitations": [
+    "Same-assistant review; no independent human or field review.",
+    "No current-source retrieval, host outreach, appointment, quote, trial, payment, legal or insurance assessment.",
+    "This is a preparation template; WORK172 and its field/itinerary dependencies are not completed."
+  ],
+  "evidence_reused": [
+    "specs/tourism-fieldwork/index.md",
+    "specs/tourism-fieldwork/host-confirmation.md",
+    "specs/tourism-pilot-capacity.md",
+    "specs/tourism-fieldwork/cost-tracker.md",
+    "models/tourism-experience-record.md",
+    "specs/founder-todo.md"
+  ]
+}
