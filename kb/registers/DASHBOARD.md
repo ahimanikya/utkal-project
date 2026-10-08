@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d2cadb9e3f910eac89e859323b02ab069a50a64a2333b7e1accf5be5f56e7987`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `e126d3e42ba45af29398e7201c86bc4ce8431c16aeb0364076292545cfb000f3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,13 +199,13 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 9 of 500 substantive items completed. Select the next evidenced independent backlog item; retain acceptance and publication evidence. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 10 of 500 substantive items completed. Select the next evidenced independent backlog item; retain acceptance and publication evidence. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
 | UTP-WORK-193 · Restore cultural connections on eligible public pages | completed | reviewed | Ahimanikya Satapathy | Nine live pages and reading anchors verified; future trails must satisfy route availability and retain source limits. | — |
 | UTP-WORK-194 · Illustrated Odia reading companion | completed | reviewed | Ahimanikya Satapathy | Published with live receipt; future reading expansion remains separate. | — |
-| UTP-WORK-195 · Reading-aware saved journey guidance | in_progress | reviewed | Ahimanikya Satapathy | Publish tested guidance and verify live delivered script. | — |
+| UTP-WORK-195 · Reading-aware saved journey guidance | completed | reviewed | Ahimanikya Satapathy | Published with live script verification; future planner refinements remain separate. | — |
 
 ## Pending human review and decisions
 
@@ -743,6 +743,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-079 · Saved food-card consistency repair published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
 | UTP-REL-080 · Cultural reading connections restored publicly | published | https://utkalproject.org/literature/ | UTP-DEC-225 |
 | UTP-REL-081 · Illustrated Odia reading companion published | published | https://utkalproject.org/literature/reading-journey/ | UTP-DEC-225 |
+| UTP-REL-082 · Reading-aware planner guidance published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -780,7 +781,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-265 | 2026-10-08T00:59:19.716262+00:00 | PR148 merged after required checks passed. Versioned opportunities requirements complete the fifth substantive item. No website deployment was necessary or claimed; application and field-confirmation tasks stay open. | Implement the bounded opportunities page with fresh source checks or select another eligible independent task. |
 | UTP-EVT-266 | 2026-10-08T07:25:14.861133+00:00 | Prepared a visual tourism opportunities page with bounded official guidance, three existing cultural plans and public contribution routing. Source comparison, automated checks and responsive keyboard/no-script review completed. | Merge and deploy under DEC225, then verify actual live output. |
 | UTP-EVT-267 | 2026-10-08T07:34:03.422016+00:00 | PR149 passed required checks, merged and deployed. Live opportunities content, guidance limits, cultural links, navigation, original photos and unchanged eleven-route sitemap verified. Sixth substantive item completed. | Select the next eligible independent item; application and local fieldwork remain separate. |
 | UTP-EVT-268 | 2026-10-08T07:42:46.292566+00:00 | Saved food cards now derive title, lead and area from their published stories. Six stale introductions corrected; source lists, practical cautions and saved identities retained. | Publish after required checks and verify live catalogue. |
@@ -790,6 +790,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-272 | 2026-10-08T09:54:35.283829+00:00 | Four existing writer ideas now have an illustrated reading companion and portable chapters. 483 full and 91 coastal tests pass; Chrome saving, note persistence, photo-book generation and responsive layouts checked. Source scope and search hold retained. | Publish after required checks, then verify live output. |
 | UTP-EVT-273 | 2026-10-08T10:02:44.635104+00:00 | PR152 passed required checks, merged and deployed. Reading companion, discovery links and saved three-chapter payload verified live; unchanged eleven-route sitemap. Ninth program item completed. | Continue the next eligible independent item. |
 | UTP-EVT-274 | 2026-10-08T10:46:35.510893+00:00 | Reading-aware guidance, private reading outlines and native-print prompt parity tested. 486 full and 91 coastal tests pass; browser switching, persistence and responsive checks passed. | Publish after required checks, then verify live output. |
+| UTP-EVT-275 | 2026-10-08T10:55:23.144566+00:00 | PR153 passed required checks, merged and deployed. Live journey module matches tested output byte-for-byte; eleven-route sitemap unchanged. Tenth program item completed. | Continue the next eligible independent item. |
 
 ## Deferred extensions
 

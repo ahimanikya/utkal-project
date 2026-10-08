@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-08T10:55:23.144566+00:00",
+  "status": "published",
+  "release_id": "UTP-REL-082",
+  "work_id": "UTP-WORK-195",
+  "program_item": "UTP-A500-010",
+  "authorization": "UTP-DEC-225",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/153",
+  "reviewed_head": "ea441ed8f3900ab30f4f2684126adc840a8ad01a",
+  "merge_commit": "12d0dfe569ae55bdd7f76f9f79ccab7457bf798b",
+  "required_checks": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37765786711",
+    "result": "success"
+  },
+  "deployment": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37766157069",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "result": "success"
+  },
+  "review": "records/reading-planner-review-2026-10-08.json",
+  "live": {
+    "checked_at": "2026-10-08T10:54:41.479892+00:00",
+    "result": "pass",
+    "page": {
+      "url": "https://utkalproject.org/journey/",
+      "http_status": 200,
+      "sha256": "a9d3ae159211e2893431d618f7e6a5264209d988a79d643b2c4924000186a336"
+    },
+    "scripts": [
+      {
+        "url": "https://utkalproject.org/_astro/journey.J3awE7xF.js",
+        "sha256": "ff80fefe7a106cc8eaca6e3671d897924face5bcbb7cbf0824e2fdd5ad96b6f4",
+        "matches_tested_build": true
+      }
+    ],
+    "sitemap_url_count": 11
+  },
+  "counting": "One reading-aware planner improvement; individual text changes, tests and outline fields are not separate items.",
+  "limitations": [
+    "Same-assistant review; not independent human review.",
+    "Phone/desktop interaction and native-print DOM checked locally; no new physical-device, screen-reader or native PDF pagination check.",
+    "Production script verified byte-for-byte against the tested publication build. Live personal browser plans were not modified.",
+    "Existing travel checklist remains available and retains all marks."
+  ]
+}

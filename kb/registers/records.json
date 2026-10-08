@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-08T10:46:35.510893+00:00",
+  "recorded_at": "2026-10-08T10:55:23.144566+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5599,7 +5599,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "9 of 500 substantive items completed. Select the next evidenced independent backlog item; retain acceptance and publication evidence.",
+      "next_action": "10 of 500 substantive items completed. Select the next evidenced independent backlog item; retain acceptance and publication evidence.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5763,21 +5763,23 @@
       "id": "UTP-WORK-195",
       "title": "Reading-aware saved journey guidance",
       "category": "website_experience",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Publish tested guidance and verify live delivered script.",
+      "next_action": "Published with live script verification; future planner refinements remain separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-075",
-        "UTP-REV-163"
+        "UTP-REV-163",
+        "UTP-REL-082"
       ],
       "evidence": [
         "records/autonomous-500-program.json",
-        "records/reading-planner-review-2026-10-08.json"
+        "records/reading-planner-review-2026-10-08.json",
+        "records/reading-planner-publication-2026-10-08.json"
       ],
       "reuse_before_research": [
         "research/journey-starters.json",
@@ -15485,6 +15487,21 @@
       ],
       "evidence": [
         "records/odia-reading-companion-publication-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-082",
+      "title": "Reading-aware planner guidance published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/journey/",
+      "refs": [
+        "UTP-WORK-195",
+        "UTP-REV-163",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/reading-planner-publication-2026-10-08.json"
       ]
     }
   ],
