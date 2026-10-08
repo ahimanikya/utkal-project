@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-08T00:59:19.716262+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-005",
+  "work_id": "UTP-WORK-174",
+  "scope": "Versioned website requirements and implementation handoff, not a deployed website page.",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/148",
+  "reviewed_head": "8e8113b0625a2189f80c0aaa4a6efc6914dbfc9c",
+  "merge_commit": "4ec3fc9a0a121dce7e5a7fc5d6432186ed8bda93",
+  "merged_at": "2026-10-08T00:58:46Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37710321365",
+    "conclusion": "success",
+    "local_bundle": "1241 concepts and 4873 local links pass",
+    "registers_and_config": "pass"
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Only project documentation and records changed; public website output unchanged."
+  },
+  "next_work": "UTP-WORK-191",
+  "open_dependencies": [
+    "UTP-WORK-166",
+    "UTP-WORK-171"
+  ],
+  "review": "records/tourism-opportunities-spec-review-2026-10-08.json"
+}

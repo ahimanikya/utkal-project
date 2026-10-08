@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-08T00:55:09.256168+00:00",
+  "recorded_at": "2026-10-08T00:59:19.716262+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5150,12 +5150,12 @@
       "id": "UTP-WORK-174",
       "title": "Specify tourism opportunities website section",
       "category": "tourism_pilot",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant for the specification; no field role appointed.",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge the checked specification under DEC225. Website implementation is a separate task; application and itinerary evidence remains open.",
+      "next_action": "Specification merged as PR148. Implementation is WORK191; WORK166 and WORK171 remain open for the claims they govern.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-166",
@@ -5185,9 +5185,11 @@
         "research/collections/tourism-policy-opportunity.md",
         "models/tourism-experience-record.md",
         "specs/tourism-opportunities-section.md",
-        "records/tourism-opportunities-spec-review-2026-10-08.json"
+        "records/tourism-opportunities-spec-review-2026-10-08.json",
+        "records/tourism-opportunities-spec-merged-2026-10-08.json"
       ],
-      "dependency_scope": "WORK166 and WORK171 constrain later public claims and actions, not completion of the requirements document."
+      "dependency_scope": "WORK166 and WORK171 constrain later public claims and actions, not completion of the requirements document.",
+      "completion_scope": "Requirements document and tested handoff only; no live page or operational service."
     },
     {
       "id": "UTP-WORK-175",
@@ -5597,7 +5599,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "4 of 500 substantive items completed. Hourly continuation resumes the next eligible item; retain actual acceptance and publication evidence.",
+      "next_action": "5 of 500 substantive items completed. Continue with WORK191 or another eligible program item; retain actual acceptance and publication evidence.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5661,7 +5663,8 @@
         "UTP-WORK-171"
       ],
       "evidence": [
-        "specs/tourism-opportunities-section.md"
+        "specs/tourism-opportunities-section.md",
+        "records/opportunities-guidance-recheck-2026-10-08.json"
       ]
     }
   ],
