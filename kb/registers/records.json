@@ -5599,7 +5599,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "5 of 500 substantive items completed. Continue with WORK191 or another eligible program item; retain actual acceptance and publication evidence.",
+      "next_action": "6 of 500 substantive items completed. Continue WORK192; count only after reviewed publication evidence.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5670,6 +5670,36 @@
         "research/collections/tourism-opportunities.json",
         "records/tourism-opportunities-review-2026-10-08.json",
         "records/tourism-opportunities-publication-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-192",
+      "title": "Align saved food cards with canonical story introductions",
+      "category": "website_quality",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish reviewed candidate and verify live catalogue before counting completion.",
+      "blockers": [],
+      "dependencies": [],
+      "acceptance_criteria": [
+        "Published food-card title and summary match the canonical full story without replacing stable save IDs, user notes, source references or practical cautions.",
+        "Full and coastal checks, browser review and actual publication receipt."
+      ],
+      "reuse_before_research": [
+        "research/food/collection.json",
+        "records/autonomous-food-discovery-review-2026-10-07.json"
+      ],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-160"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/food-card-consistency-review-2026-10-08.json"
       ]
     }
   ],
@@ -13932,6 +13962,27 @@
       ],
       "evidence": [
         "records/tourism-opportunities-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-160",
+      "title": "Food card and story consistency self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same-assistant review, not independent human review.",
+        "Food areas describe article/planning context, not a restaurant location or booking.",
+        "Existing operating cautions and dated source scope retained."
+      ],
+      "refs": [
+        "UTP-WORK-192"
+      ],
+      "evidence": [
+        "records/food-card-consistency-review-2026-10-08.json"
       ]
     }
   ],
