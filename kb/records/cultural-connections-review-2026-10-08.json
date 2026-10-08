@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-08T08:46:32.657153+00:00",
+  "work_id": "UTP-WORK-193",
+  "program_item": "UTP-A500-008",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Restore three existing source-backed place/language/literature connections on nine already-published routes. The unlisted cultural-trails hub remains held; route membership and search eligibility are unchanged.",
+  "root_cause": "Blanket isCoastalEdition checks suppressed all trails long after each of their nine reading targets became available.",
+  "routes": [
+    "/destinations/balasore/",
+    "/destinations/mayurbhanj/",
+    "/knowledge/chilika/",
+    "/languages/",
+    "/languages/odia/",
+    "/languages/santali/",
+    "/literature/",
+    "/literature/six-acres-and-a-third/",
+    "/people/fakir-mohan-senapati/"
+  ],
+  "source_review": "Compared the unchanged canonical culture-trails.json narratives, source inspection notes and media licences with existing linked voices and destination stories. No new quotation, translation, historical claim or source freshness asserted. Wikisource transcription limits, publisher-edition scope and the Ministry discovery-only source remain explicit.",
+  "verification": {
+    "full_tests": 480,
+    "coastal_tests": 90,
+    "links": "All three trails and their in-scope placements rendered; all nine target routes and three fragment anchors resolve. Held hub not linked or emitted. Unit coverage rejects a whole trail when a target is unavailable and verifies canonical data is not mutated.",
+    "browser": "Chrome local public build: literature disclosure opens with Enter; Tab reaches a visibly outlined poetry link; Enter follows to Chilika poems-songs. 1440x1000 and 390x844 layouts have no horizontal overflow and real photographs load. Mayurbhanj disclosure and nested source notes open with Enter; script artwork remains legible at phone width.",
+    "screenshot": "planning/utkala-odisha/review-assets/cultural-connections-2026-10-08.png",
+    "screenshot_location": "Parent planning workspace, outside Git; local preview, not a live screenshot."
+  },
+  "limitations": [
+    "Same-assistant self-review, not independent human or language-specialist review.",
+    "Reading connections do not confirm visits, local hosts or walking routes.",
+    "Physical-device and screen-reader checks remain outside this bounded review."
+  ],
+  "publication": "Pending required checks, merge, deployment and live receipt."
+}
