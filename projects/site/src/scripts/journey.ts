@@ -1,3 +1,4 @@
+import {isReadingCollection,journeyGuidance} from '../lib/journey-reading.mjs';
 import {addDayOutline,journeyDayCards,journeyNextStep} from '../lib/journey-coach.mjs';
 import {storyTrailPhotos,selectedStoryTrail} from '../lib/story-trails.mjs';
 import {addReminder,editReminder,removeReminder,restoreReminder,questionGroups,readinessSummary,selectBookPlan,mergeJourneyIdeas,importIdeasPreview} from '../lib/journey-ready.mjs';
@@ -56,6 +57,9 @@ function updateBookScope(){
 }
 function updateTripControls(){
  if(!app)return;
+ const guidance=journeyGuidance(plan,journeyCatalog);
+ document.querySelectorAll<HTMLElement>('[data-journey-guidance]').forEach(element=>{element.textContent=guidance[element.dataset.journeyGuidance];});
+ document.querySelector<HTMLTextAreaElement>('#new-reminder').placeholder=guidance.reminderPlaceholder;
  updatePreparation();updateBookScope();updateReadySummary();
  for(const id of ['add-planning-day','shift-days','apply-day-shift']){const e=document.getElementById(id) as HTMLInputElement|HTMLButtonElement;if(e)e.disabled=blocked;}
  const dayUndo=document.querySelector<HTMLButtonElement>('#undo-day-change');if(dayUndo){dayUndo.hidden=!lastDayChange||lastDayChange.trip!==library.activeId;dayUndo.disabled=blocked;}
@@ -80,7 +84,7 @@ function updateTripControls(){
   cards.append(li);
  }
  overview.append(cards);
- const step=journeyNextStep(plan);document.querySelector('#journey-coach-heading').textContent=step.title;document.querySelector('#journey-coach-copy').textContent=step.text;
+ const step=journeyNextStep(plan,journeyCatalog);document.querySelector('#journey-coach-heading').textContent=step.title;document.querySelector('#journey-coach-copy').textContent=step.text;
  const next=document.querySelector<HTMLAnchorElement>('#journey-coach-next');next.href=step.href;next.textContent=step.label+' →';
  const addDay=document.querySelector<HTMLButtonElement>('#add-planning-day');addDay.disabled=blocked||groupItems(plan).filter(g=>g.day>0).length>=30;
 }
@@ -91,7 +95,7 @@ function renderPrint(){
  const references=new Map();
  const trail=selectedStoryTrail(book,storyTrails);
  if(trail){print.append(node('h2',trail.title+' · a reading companion'),node('p','Chapters related to your selected ideas, not extra stops or a timed itinerary.'));
-  for(const chapter of trail.chapters)print.append(node('h3',chapter.title),node('p',chapter.text),node('h4','Before you go'),node('p',chapter.prompt));
+  for(const chapter of trail.chapters)print.append(node('h3',chapter.title),node('p',chapter.text),node('h4',trail.prompt_label||'Before you go'),node('p',chapter.prompt));
   for(const item of trail.preparation)print.append(node('h4',item.title),node('p',item.text));
   print.append(node('p','Context reviewed '+trail.reviewed_on+'. '+trail.review_scope));
   for(const source of trail.sources)references.set(source.url,source.title);
@@ -159,17 +163,18 @@ function applyDayArrangement(next,dayToFocus?:number){
 }
 function addDayControls(section:HTMLElement,group){
  if(group.day>0){
+  const reading=isReadingCollection(plan,journeyCatalog),outlineHeading=reading?'My reading outline':'My day outline';
   const meta=(plan.dayNotes||[]).find(n=>n.day===group.day)||{title:'',notes:''};
   const details=node('details',undefined,'day-notebook') as HTMLDetailsElement;details.open=group.items.length===0;
-  details.append(node('summary','Shape this day · travel, meals & pauses'));
+  details.append(node('summary',reading?'Shape this day · reading & reflection':'Shape this day · travel, meals & pauses'));
   const nameLabel=node('label','Day title (optional)'),name=document.createElement('input');name.type='text';name.maxLength=80;name.value=meta.title;name.dataset.dayTitle=String(group.day);name.setAttribute('aria-label','Title for day '+group.day);name.disabled=blocked;nameLabel.append(name);
   const noteLabel=node('label','Day notes (optional)'),notes=document.createElement('textarea');notes.maxLength=2000;notes.value=meta.notes;notes.dataset.dayNotes=String(group.day);notes.setAttribute('aria-label','Notes for day '+group.day);notes.disabled=blocked;noteLabel.append(notes);
   const count=node('span',`${notes.value.length} / 2,000 characters`,'note-count');count.id='day-note-count-'+group.day;notes.setAttribute('aria-describedby',count.id+' day-private-'+group.day);noteLabel.append(count);
   const help=node('p','Day titles and notes stay in this browser. Turn off personal notes before making a copy to share.','day-note-help');help.id='day-private-'+group.day;name.setAttribute('aria-describedby',help.id);
   const update=()=>{if(blocked)return;try{plan=setDayNote(plan,group.day,name.value,notes.value);count.textContent=`${notes.value.length} / 2,000 characters`;save();}catch(error){announce(error.message);}};
   name.addEventListener('input',update);notes.addEventListener('input',update);details.append(nameLabel,noteLabel,help);
-  const outline=node('button','Add a day outline') as HTMLButtonElement;outline.type='button';outline.disabled=blocked||meta.notes.includes('My day outline');outline.setAttribute('aria-label','Add a planning outline to day '+group.day);notes.addEventListener('input',()=>{outline.disabled=blocked||notes.value.includes('My day outline');});
-  outline.addEventListener('click',()=>{if(blocked)return;try{const next=addDayOutline(plan,group.day);applyDayArrangement(next,group.day);items?.querySelector<HTMLTextAreaElement>(`[data-day-notes="${group.day}"]`)?.focus();announce('Day outline added after your existing notes. Fill in what you know and keep open questions under Still to confirm.');}catch(error){announce(error.message);}});
+  const outline=node('button','Add a day outline') as HTMLButtonElement;outline.type='button';outline.disabled=blocked||meta.notes.includes(outlineHeading);outline.setAttribute('aria-label','Add a planning outline to day '+group.day);notes.addEventListener('input',()=>{outline.disabled=blocked||notes.value.includes(outlineHeading);});
+  outline.addEventListener('click',()=>{if(blocked)return;try{const next=addDayOutline(plan,group.day,{reading});applyDayArrangement(next,group.day);items?.querySelector<HTMLTextAreaElement>(`[data-day-notes="${group.day}"]`)?.focus();announce(reading?'Reading outline added after your existing notes. Keep the edition and your own questions together.':'Day outline added after your existing notes. Fill in what you know and keep open questions under Still to confirm.');}catch(error){announce(error.message);}});
   const reminderLink=node('a','Keep a question in personal reminders →') as HTMLAnchorElement;reminderLink.href='#personal-reminders';reminderLink.addEventListener('click',(event)=>{event.preventDefault();const reminders=document.querySelector<HTMLDetailsElement>('#personal-reminders');reminders.open=true;document.querySelector<HTMLTextAreaElement>('#new-reminder')?.focus();});
   const outlineActions=node('div',undefined,'day-outline-actions');outlineActions.append(outline,reminderLink);details.append(outlineActions);section.append(details);
   if(!group.items.length){section.append(node('p','Room for a pause. Save an idea here later, or keep this day open.','day-empty'));const remove=node('button','Remove this empty day') as HTMLButtonElement;remove.type='button';remove.disabled=blocked;remove.addEventListener('click',()=>{if(blocked||!window.confirm('Remove this empty day and its private notes? You can undo until your next edit.'))return;applyDayArrangement({...plan,dayNotes:(plan.dayNotes||[]).filter(n=>n.day!==group.day)});announce('Empty day removed. Undo last day arrangement is available.');});section.append(remove);}

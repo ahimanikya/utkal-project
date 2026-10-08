@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-08T10:46:35.510893+00:00",
+  "work_id": "UTP-WORK-195",
+  "program_item": "UTP-A500-010",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Reading-only saved collections now have reading-focused next steps, optional dates, preparation copy and a reading-day outline. Mixed, empty or unavailable ideas retain travel guidance. Native print uses the chapter prompt label.",
+  "verification": {
+    "full_tests": 486,
+    "coastal_tests": 91,
+    "behavior": "Classification requires all saved IDs to resolve to Reading entries. Tests cover mixed/unknown/empty data, immutable switching, dates/checklist/notes backup round trips, outline idempotence and overflow, and private-note exclusion from shared books.",
+    "browser": "Chrome: saved four writers on a fresh local test origin; switched to the empty journey and back; added a reading day and synthetic note; added outline by Enter and reloaded to confirm persistence; added Chilika and saw travel guidance return, removed it and saw reading guidance restored. Native print DOM contains all three Read with a question labels. 390x844 and 1440x1000 layouts visually checked with no horizontal overflow.",
+    "screenshot": "planning/utkala-odisha/review-assets/reading-planner-2026-10-08.png",
+    "screenshot_scope": "Local preview; outside Git."
+  },
+  "source_review": "Interaction-only change; no historical, linguistic or visitor-arrangement claims added. Existing article sources untouched.",
+  "limitations": [
+    "Same-assistant review; not independent human review.",
+    "Print DOM checked for wording; no new native PDF pagination or physical-device/screen-reader review.",
+    "Reading mode changes guidance only. Existing travel checklist stays optional and its marks are retained."
+  ],
+  "publication": "Pending required checks, merge, deployment and live receipt."
+}
