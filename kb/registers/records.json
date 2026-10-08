@@ -5634,12 +5634,12 @@
       "id": "UTP-WORK-191",
       "title": "Build the tourism opportunities information section",
       "category": "tourism_website",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant under UTP-DEC-225; no field appointment.",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge tested candidate, publish main and verify live page before counting completion.",
+      "next_action": "Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-174",
@@ -5661,13 +5661,15 @@
         "UTP-WORK-174",
         "UTP-WORK-166",
         "UTP-WORK-171",
-        "UTP-REV-159"
+        "UTP-REV-159",
+        "UTP-REL-078"
       ],
       "evidence": [
         "specs/tourism-opportunities-section.md",
         "records/opportunities-guidance-recheck-2026-10-08.json",
         "research/collections/tourism-opportunities.json",
-        "records/tourism-opportunities-review-2026-10-08.json"
+        "records/tourism-opportunities-review-2026-10-08.json",
+        "records/tourism-opportunities-publication-2026-10-08.json"
       ]
     }
   ],
@@ -15226,6 +15228,21 @@
       ],
       "evidence": [
         "records/autonomous-food-discovery-publication-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-078",
+      "title": "Tourism opportunities information section published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/opportunities/",
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-191",
+        "UTP-REV-159"
+      ],
+      "evidence": [
+        "records/tourism-opportunities-publication-2026-10-08.json"
       ]
     }
   ],

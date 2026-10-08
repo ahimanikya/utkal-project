@@ -5,7 +5,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-225",
   "target_completed_items": 500,
-  "completed_items": 5,
+  "completed_items": 6,
   "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
   "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
   "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
@@ -75,23 +75,21 @@
     {
       "id": "UTP-A500-006",
       "title": "Publish a visual tourism opportunities section connecting official guidance and cultural reading",
-      "status": "verified_pending_publication",
+      "status": "completed",
       "work_id": "UTP-WORK-191",
       "acceptance": "Source-scoped guidance cards, three existing cultural plans, public contribution notice, Explore and purpose links; responsive keyboard and no-JavaScript reading; unchanged consent and search eligibility; tests, merged PR, deployment and actual live receipt.",
       "evidence": [
         "records/tourism-opportunities-review-2026-10-08.json",
-        "records/opportunities-guidance-recheck-2026-10-08.json"
-      ]
+        "records/opportunities-guidance-recheck-2026-10-08.json",
+        "records/tourism-opportunities-publication-2026-10-08.json"
+      ],
+      "completed_at": "2026-10-08T07:34:03.422016+00:00"
     }
   ],
   "followup_candidates": [
     {
       "title": "Review current food-card summaries against the linked full stories",
       "basis": "Existing journey catalogue derives summaries from regional notes; compare for stale wording before editing."
-    },
-    {
-      "title": "Implement the tourism opportunities section from its merged requirements",
-      "basis": "UTP-WORK-191; use version 0.1 requirements, recheck official guidance and keep application and field-dependent claims separate."
     },
     {
       "title": "Continue bounded keyboard and visual audits on current inner pages",
@@ -109,5 +107,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-08T07:25:14.861133+00:00"
+  "updated_at": "2026-10-08T07:34:03.422016+00:00"
 }

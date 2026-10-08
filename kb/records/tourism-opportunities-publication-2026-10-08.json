@@ -1,0 +1,88 @@
+{
+  "recorded_at": "2026-10-08T07:34:03.422016+00:00",
+  "release_id": "UTP-REL-078",
+  "work_id": "UTP-WORK-191",
+  "program_item": "UTP-A500-006",
+  "authorization": "UTP-DEC-225",
+  "status": "published",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/149",
+  "reviewed_head": "6db5f46e1efb712f721d7e2b558d5e4e4f9b51fb",
+  "merge_commit": "37dd8550da6975d8bf5e1bf54fc2e14030202d3c",
+  "required_checks": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37743467940",
+    "result": "success"
+  },
+  "deployment": {
+    "workflow": "publish-site.yml",
+    "input": {
+      "publish_approved": true
+    },
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37743746251",
+    "result": "success",
+    "head": "37dd8550da6975d8bf5e1bf54fc2e14030202d3c"
+  },
+  "review": "records/tourism-opportunities-review-2026-10-08.json",
+  "live": {
+    "checked_at": "2026-10-08T07:33:34.965829+00:00",
+    "checks": [
+      {
+        "url": "https://utkalproject.org/opportunities/",
+        "status": 200,
+        "sha256": "b740193ac032717079731af9c9a40a2d69f20bcc753f59ede57a310825bb0fbe"
+      },
+      {
+        "url": "https://utkalproject.org/about/",
+        "status": 200,
+        "sha256": "06781dee891f90753676c0cbfa3ac24cca294a5666eb0b9da7b6a780b480801a"
+      },
+      {
+        "url": "https://utkalproject.org/explore/",
+        "status": 200,
+        "sha256": "27a250d35ec29e55fbb50bae2133f3fbf1034ef1341ccaf4cb2f9154734f8cee"
+      },
+      {
+        "url": "https://utkalproject.org/global-connections/",
+        "status": 200,
+        "sha256": "6ddd9b8637fabb0bb1554de1ac29db327f0fff98b0c0241872c208571a6e688d"
+      },
+      {
+        "url": "https://utkalproject.org/contribute/",
+        "status": 200,
+        "sha256": "24d66d8e0ffb333dd7715cb67e21800fd0374a1b3f97b6c4a7909d2157044be8"
+      },
+      {
+        "url": "https://utkalproject.org/images/jobra/courtyard.webp",
+        "status": 200,
+        "sha256": "8670b7bdf041f5ad9291a21d22d0fd412601a0dcbd75f40a1e749e8511403d4f"
+      },
+      {
+        "url": "https://utkalproject.org/images/regions/raghurajpur.jpg",
+        "status": 200,
+        "sha256": "a3110da75291e6f60e7bb3e53113c5fb0b474433f8fc25113c85af2502bc7ddf"
+      },
+      {
+        "url": "https://utkalproject.org/images/kala-bhoomi/grounds.webp",
+        "status": 200,
+        "sha256": "04818eccbf38f0b7d4b782dcd1ccd5518a175ebbe43f6d9ae5f8f6d197fe84be"
+      },
+      {
+        "url": "https://utkalproject.org/images/kala-bhoomi/chariot-panel.webp",
+        "status": 200,
+        "sha256": "5dca8f69e9e40d9f1a03051a84ce9d818782c3d0c696dba8b3d2c328605a1770"
+      },
+      {
+        "url": "https://utkalproject.org/sitemap.xml",
+        "status": 200,
+        "sha256": "8cda3f421b83cb3003c63fa096a632255a05c64aab4d8bcbadd09d51455e343d"
+      }
+    ],
+    "claims": "Guidance limits, cultural plan links, contribution route, navigation and original photo hashes verified. noindex remains; sitemap eleven existing routes. HTTP/content checks do not establish Google indexing or application availability."
+  },
+  "limitations": [
+    "No verified application flow or bookable group experience.",
+    "Capital-document review remains partial.",
+    "Same-assistant review; no independent human review claimed.",
+    "Custom interaction analytics deferred; consent-controlled page views only."
+  ],
+  "counting": "One bounded published information section; supporting checks, links and records are not extra completed items."
+}
