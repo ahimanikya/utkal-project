@@ -5634,12 +5634,12 @@
       "id": "UTP-WORK-191",
       "title": "Build the tourism opportunities information section",
       "category": "tourism_website",
-      "status": "proposed",
-      "readiness": "concept",
+      "status": "in_progress",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Unassigned; next authorized assistant batch may take the bounded website task.",
+      "execution_owner": "Current AI assistant under UTP-DEC-225; no field appointment.",
       "authorization": "UTP-DEC-225",
-      "next_action": "Recheck official source versions, then implement the specification with only supported guidance actions and existing cultural reading. Record visual, privacy, edition and live checks before release.",
+      "next_action": "Merge tested candidate, publish main and verify live page before counting completion.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-174",
@@ -5660,11 +5660,14 @@
         "UTP-DEC-225",
         "UTP-WORK-174",
         "UTP-WORK-166",
-        "UTP-WORK-171"
+        "UTP-WORK-171",
+        "UTP-REV-159"
       ],
       "evidence": [
         "specs/tourism-opportunities-section.md",
-        "records/opportunities-guidance-recheck-2026-10-08.json"
+        "records/opportunities-guidance-recheck-2026-10-08.json",
+        "research/collections/tourism-opportunities.json",
+        "records/tourism-opportunities-review-2026-10-08.json"
       ]
     }
   ],
@@ -13903,6 +13906,30 @@
       ],
       "evidence": [
         "records/tourism-opportunities-spec-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-159",
+      "title": "Tourism opportunities information page self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same-assistant self-review, not independent human factual review.",
+        "Application route and acceptance remain unverified; WORK166 stays open.",
+        "Capital document review limited to pages 1 and 3–5 of 30.",
+        "Reading plans are not confirmed group itineraries; WORK171 and Founder field TODO remain open.",
+        "Existing consent-controlled page views only; custom section/interaction events deferred.",
+        "New route remains outside the eleven-page search shortlist."
+      ],
+      "refs": [
+        "UTP-WORK-191"
+      ],
+      "evidence": [
+        "records/tourism-opportunities-review-2026-10-08.json"
       ]
     }
   ],

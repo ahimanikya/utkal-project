@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-10-08T07:25:14.861133+00:00",
+  "work_id": "UTP-WORK-191",
+  "program_item": "UTP-A500-006",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "deliverables": [
+    "https://utkalproject.org/opportunities/",
+    "research/collections/tourism-opportunities.json"
+  ],
+  "source_review": "Official guidelines and policy landing pages retrieved 8 October. Both linked PDFs byte-identical to 5 October captures; previous full MICE and partial capital review extents retained. No new application flow, outreach or operating confirmation.",
+  "source_evidence": "records/opportunities-guidance-recheck-2026-10-08.json",
+  "verification": {
+    "full_tests": 476,
+    "coastal_tests": 88,
+    "full_pages": 150,
+    "coastal_pages": 137,
+    "page_acceptance_checks": 548,
+    "search_shortlist": 11,
+    "browser": "Chrome: 1440×1000, 768×1024, 390×844. No horizontal overflow. All four images loaded. Final hero uses original aspect ratio. Keyboard Enter opens native source disclosure with a visible 3px focus outline.",
+    "no_javascript": "Disabled script execution in local tab, reloaded and confirmed main guidance/reading/contribution content and source disclosure. Restored scripts afterwards.",
+    "contribution": "Clicked Prepare a contribution; existing form selects Tourism opportunities in Odisha. Public GitHub warning visible. No submission made.",
+    "privacy": "Existing analytics code unchanged; no new request, form, storage writer or event on the opportunities page. Consent unit tests pass.",
+    "search": "Candidate marks route hold; publication shortlist remains eleven existing routes."
+  },
+  "limitations": [
+    "Same-assistant self-review, not independent human factual review.",
+    "Application route and acceptance remain unverified; WORK166 stays open.",
+    "Capital document review limited to pages 1 and 3–5 of 30.",
+    "Reading plans are not confirmed group itineraries; WORK171 and Founder field TODO remain open.",
+    "Existing consent-controlled page views only; custom section/interaction events deferred.",
+    "New route remains outside the eleven-page search shortlist."
+  ],
+  "publication": "Pending PR checks, merge, deployment and live receipt."
+}

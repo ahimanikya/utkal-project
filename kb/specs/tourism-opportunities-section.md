@@ -117,3 +117,7 @@ For the present requirements task, acceptance is the versioned specification, ve
 ## Version history
 
 Version 0.1, 8 October 2026: initial requirements derived from the tourism pilot and existing research. The next revision should record implementation findings or new source evidence, preserving the distinction between specification, published information and operational service.
+
+## Implementation findings · 8 October 2026
+
+WORK191 implements the first information page using [canonical page content](../research/collections/tourism-opportunities.json). The official PDFs match the earlier inspected versions; the partial capital-document review and unverified application route remain visible. Existing photographs, reading plans and public correction flow are reused. The first release uses existing consent-controlled page views only; section and interaction events are deferred rather than widening telemetry. Search eligibility is unchanged. Publication evidence is recorded separately after deployment.
