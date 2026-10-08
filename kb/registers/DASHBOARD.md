@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `851456dd788fec3485b6695d00162c334f65f2a0683e0edb58383631be909f11`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `27d1dbc2c6cb31034e9a5fbbf105b98a5effe7fd12421299969308826eb11a4e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -207,6 +207,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-194 · Illustrated Odia reading companion | completed | reviewed | Ahimanikya Satapathy | Published with live receipt; future reading expansion remains separate. | — |
 | UTP-WORK-195 · Reading-aware saved journey guidance | completed | reviewed | Ahimanikya Satapathy | Published with live script verification; future planner refinements remain separate. | — |
 | UTP-WORK-196 · Operator readiness and trial decision preparation pack | completed | reviewed | Ahimanikya Satapathy | Preparation pack merged and verified; actual field assessments and trial decisions remain under WORK172 with its existing dependencies. | — |
+| UTP-WORK-197 · Planner day removal and undo keyboard continuity | in_progress | reviewed | Ahimanikya Satapathy | Publish after required checks and save live script verification. | — |
 
 ## Pending human review and decisions
 
@@ -658,6 +659,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-162 | pass_with_limitations | False | Same-assistant self-review, not independent human or Odia-specialist review.; No new critical reading, translation review, library availability or visitor access confirmation.; Physical-device and screen-reader checks remain outside this bounded review. |
 | UTP-REV-163 | pass_with_limitations | False | Same-assistant review; not independent human review.; Print DOM checked for wording; no new native PDF pagination or physical-device/screen-reader review.; Reading mode changes guidance only. Existing travel checklist stays optional and its marks are retained. |
 | UTP-REV-164 | pass_with_limitations | False | Same-assistant review; no independent human or field review.; No current-source retrieval, host outreach, appointment, quote, trial, payment, legal or insurance assessment.; This is a preparation template; WORK172 and its field/itinerary dependencies are not completed. |
+| UTP-REV-165 | pass_with_limitations | False | Same-assistant review, not independent human review.; Native confirmation acceptance could not be verified through the browser tool: dialog handling stalled. Accepted-removal path tested with a temporary local confirmation stub, removed by reload.; No new physical-device or screen-reader check; no new responsive-layout claim. |
 
 ## Publication and application history
 
@@ -783,7 +785,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-268 | 2026-10-08T07:42:46.292566+00:00 | Saved food cards now derive title, lead and area from their published stories. Six stale introductions corrected; source lists, practical cautions and saved identities retained. | Publish after required checks and verify live catalogue. |
 | UTP-EVT-269 | 2026-10-08T07:49:23.977470+00:00 | PR150 merged after passing checks; deployment and live food catalogue verified. Current food titles, summaries and areas align with articles while saved identities and practical source context remain. Seventh program item complete. | Continue another eligible backlog item without routine approval prompts. |
 | UTP-EVT-270 | 2026-10-08T08:46:32.657153+00:00 | Route-aware selection restores three existing cultural connections across nine public pages. Narratives, credit and source limitations retained; unit, built-output, phone, desktop and keyboard checks passed. | Publish after required checks, then verify live pages. |
 | UTP-EVT-271 | 2026-10-08T08:53:18.393698+00:00 | PR151 passed checks, merged and deployed. Nine live pages carry the three cultural connections with credits and source limitations; all reading anchors resolve and the eleven-route sitemap is unchanged. Eighth program item completed. | Continue the next eligible independent item. |
@@ -793,6 +794,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-275 | 2026-10-08T10:55:23.144566+00:00 | PR153 passed required checks, merged and deployed. Live journey module matches tested output byte-for-byte; eleven-route sitemap unchanged. Tenth program item completed. | Continue the next eligible independent item. |
 | UTP-EVT-276 | 2026-10-08T22:50:37.676701+00:00 | Prepared a scoped readiness assessment, six-lead gap map and trial decision sheet. Six documentary scenarios reviewed; no provider assessed and WORK172 dependencies remain open. | Merge checked documentation and save receipt before counting delivery. |
 | UTP-EVT-277 | 2026-10-08T22:58:34.752691+00:00 | PR154 passed required validation and merged. Operator readiness preparation document verified byte-for-byte on fetched main; documentation-only delivery, no website deployment. Eleventh program item completed. | Continue eligible independent work; field assessments remain open. |
+| UTP-EVT-278 | 2026-10-08T23:51:24.614804+00:00 | Reproduced day-undo focus loss; repaired removal-to-Undo and Undo-to-heading focus. 577 automated tests pass; cancellation, scoped removal/undo keyboard path and note persistence checked with native-dialog limitation recorded. | Publish exact tested head after required checks. |
 
 ## Deferred extensions
 

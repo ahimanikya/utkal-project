@@ -5816,6 +5816,31 @@
         "specs/tourism-pilot-capacity.md",
         "models/tourism-experience-record.md"
       ]
+    },
+    {
+      "id": "UTP-WORK-197",
+      "title": "Planner day removal and undo keyboard continuity",
+      "category": "website_accessibility",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish after required checks and save live script verification.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-165"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/planner-day-focus-review-2026-10-08.json"
+      ],
+      "reuse_before_research": [
+        "records/planner-visual-review-2026-10-04.json",
+        "records/reading-planner-review-2026-10-08.json"
+      ]
     }
   ],
   "decisions": [
@@ -14182,6 +14207,27 @@
       ],
       "evidence": [
         "records/operator-readiness-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-165",
+      "title": "Planner day focus regression review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same-assistant review, not independent human review.",
+        "Native confirmation acceptance could not be verified through the browser tool: dialog handling stalled. Accepted-removal path tested with a temporary local confirmation stub, removed by reload.",
+        "No new physical-device or screen-reader check; no new responsive-layout claim."
+      ],
+      "refs": [
+        "UTP-WORK-197"
+      ],
+      "evidence": [
+        "records/planner-day-focus-review-2026-10-08.json"
       ]
     }
   ],
