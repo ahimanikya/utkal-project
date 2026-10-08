@@ -1066,3 +1066,7 @@ Three regional profiles join the existing review candidate with source-specific 
 ## UTP-HIS-OSHA-B05-20261007 · Vows, food and source disagreements
 
 Three new and two expanded profiles join the existing review candidate with source-specific food accounts and unresolved historical claims visible. No human review, merge or publication claimed. [Checkpoint](../records/osha-b05-checkpoint-2026-10-07.json).
+
+## UTP-HIS-OSHA-B06-20261008 · Three vows and the boundaries of food evidence
+
+Bali Trutiya, Sita Navami and Rambha Trutiya join the existing review candidate. Original texts, attributed narratives, calendar differences and local food gaps remain explicit. No human review, merge or publication claimed. [Checkpoint](../records/osha-b06-checkpoint-2026-10-08.json).

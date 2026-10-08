@@ -18,3 +18,7 @@ Author/uploader: Chintamani Biswal and Jagannath Dash. Publisher: Man in Society
 Locator: Printed113 / PDF114: title, authors and introduction; printed117 / PDF118: item9 and materials/techniques.
 
 [Pandu Osha](../culture/osha/pandu.md). No interviews, media reuse or human editorial review claimed.
+
+## 2026-10-07 · B06 evidence check
+
+Printed116 / PDF117 item7. University-hosted original PDF text inspected; boat/trade interpretation quarantined. See [Bali Trutiya evidence](../references/data/bali-trutiya-research.json). Boat/trade claims remain quarantined; source reuse is not independent corroboration.

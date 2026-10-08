@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-07T21:09:30.553967+00:00",
+  "updated_at": "2026-10-08T01:15:40.768038+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -6889,6 +6889,199 @@
       ],
       "failed_fetches": [],
       "note": "Saved originals and rendered pages reused; targeted searches added no inspected original katha. Not a weekly release check."
+    },
+    {
+      "run_id": "2026-10-07-bali-trutiya",
+      "at": "2026-10-07T22:20:25.594830+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-07-bali-trutiya",
+          "checked_at": "2026-10-07T22:20:25.594830+00:00",
+          "locator": "Printed15 / PDF1 Sukutuni; printed16 / PDF2 Bali Trutiya",
+          "method": "Saved original text reused",
+          "scope": "Existing source identity retained; no independent corroboration from duplicate copies.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-07-bali-trutiya",
+          "checked_at": "2026-10-07T22:20:25.594830+00:00",
+          "locator": "Printed57 / PDF73 Bali trutiya osha",
+          "method": "Saved original text and newly rendered page image inspected",
+          "scope": "Existing source identity retained; no independent corroboration from duplicate copies.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-jhoti-biswal-dash2020",
+          "run_id": "2026-10-07-bali-trutiya",
+          "checked_at": "2026-10-07T22:20:25.594830+00:00",
+          "locator": "Printed116 / PDF117 item7",
+          "method": "University-hosted original PDF text inspected; boat/trade interpretation quarantined",
+          "scope": "Existing source identity retained; no independent corroboration from duplicate copies.",
+          "status": "conflicted",
+          "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf"
+        },
+        {
+          "source_id": "osha-bali-trutiya-scan",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Bali_Trutiya_Brata.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-07T22:20:25.594830+00:00",
+          "locator": "PDF pp.1–12 visually inspected; p.2 sand instruction; p.4 calendar; pp.6–10 narrative; p.9 forest fruit; p.10 fruit offerings; p.11 fasting injunction; p.12 closing verse",
+          "sha256": "9b001882705207145011cd67cb25c9b9346ba0f174493b73853b89304c515131"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://ccrtindia.gov.in/wp-content/fellowship_research_project/FlowofOdiaFolklorein21stCentuaryTensionbetweenTraditonandModernity.pdf",
+          "status": "unavailable",
+          "reason": "Web fetch400 timeout; search snippet not promoted to inspected report."
+        },
+        {
+          "url": "https://en.wikisource.org/wiki/or:ବାଲିତୃତୀୟା_ବା_ତୀଜବ୍ରତ_କଥା",
+          "status": "unavailable_route_recovered",
+          "reason": "Interwiki fetch cache miss; direct Odia Wikisource route succeeded."
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Bali_Trutiya_Brata.pdf",
+          "status": "unavailable_route_recovered",
+          "reason": "Web screenshot pages2/12 cache misses and sandbox curl DNS failure; authorised network download succeeded and all pages were inspected locally."
+        }
+      ],
+      "note": "Original Odia booklet inspected; conflicting dates and boat interpretation held. Not a weekly release check."
+    },
+    {
+      "run_id": "2026-10-07-sita-navami",
+      "at": "2026-10-07T23:16:49.947159+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-07-sita-navami",
+          "checked_at": "2026-10-07T23:16:49.947159+00:00",
+          "locator": "Printed16 / PDF2, left column Sita Nabami Brata in Jyestha; right column general offerings",
+          "method": "Saved text and newly rendered original page image inspected",
+          "scope": "Existing source reused, not independent corroboration from a new copy.",
+          "status": "conflicted",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-07-sita-navami",
+          "checked_at": "2026-10-07T23:16:49.947159+00:00",
+          "locator": "Printed54 / PDF70, Sita navami osha and note37",
+          "method": "Saved text and existing rendered original page image inspected",
+          "scope": "Existing source reused, not independent corroboration from a new copy.",
+          "status": "conflicted",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-sita-valmiki-rao",
+          "url": "https://valmikiramayan.net/utf8/baala/sarga66/bala_66_prose.htm",
+          "status": "retrieved",
+          "checked_at": "2026-10-07T23:16:49.947159+00:00",
+          "locator": "Sarga66 in Prose; paragraphs beginning Later, when I was ploughing and Hers is a non-uterine birth",
+          "scope": "Directly read translator-published literary witness for Janaka’s account of Sita’s discovery. This is narrative context, not a Sita Navami ritual manual, historical event or local Odisha menu. Translator commentary and sectarian polemics are not adopted."
+        },
+        {
+          "source_id": "osha-sita-panchavati2024",
+          "url": "https://www.panchabati.org/events.html",
+          "status": "retrieved",
+          "checked_at": "2026-10-07T23:16:49.947159+00:00",
+          "locator": "Our Events:2024–2025 list item3 Sita Navami; item7 Sita Bibah; footer address Haridamada, Mendhashala, Khurdha",
+          "scope": "Publisher’s own historical programme listing, including Sita Navami16May2024 and a separate Sita Bibah6December2024. This is advertised scheduling, not verified occurrence, attendance, food service or current availability."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.valmiki.iitk.ac.in/sloka?field_kanda_tid=1&field_sarga_value=66&language=dv",
+          "status": "unavailable",
+          "reason": "Original page fetch502 Bad Gateway; search result not treated as inspected original."
+        },
+        {
+          "url": "https://www.valmiki.iitk.ac.in/sloka?field_kanda_tid=1&field_sarga_value=66&language=kn",
+          "status": "unavailable",
+          "reason": "Alternate script route400 timeout; stopped after two meaningful approaches."
+        },
+        {
+          "url": "https://valmikiramayan.net/utf8/baala/sarga66/bala_66_frame.htm",
+          "status": "unavailable_content",
+          "reason": "Frame wrapper only; prose endpoint recovered and inspected."
+        },
+        {
+          "url": "https://valmikiramayan.net/utf8/baala/sarga66/bala_66.htm",
+          "status": "unavailable",
+          "reason": "Tool reported inaccessible; no verse-page inspection claimed."
+        }
+      ],
+      "note": "Sita Navami calendar and literary/programme evidence; no food or participation outcome inferred. Not a weekly release check."
+    },
+    {
+      "run_id": "2026-10-08-rambha-trutiya",
+      "at": "2026-10-08T00:24:08.223617+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-rambha-trutiya",
+          "checked_at": "2026-10-08T00:24:08.223617+00:00",
+          "locator": "Printed16 / PDF2, left column Ramba trutiya in Jyestha",
+          "method": "Saved text and original page image inspected",
+          "scope": "Existing source reused; new reading is not independent corroboration.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-rambha-trutiya",
+          "checked_at": "2026-10-08T00:24:08.223617+00:00",
+          "locator": "Printed54 / PDF70, Rambha trutiya osha paragraph",
+          "method": "Saved text and original page image inspected",
+          "scope": "Existing source reused; new reading is not independent corroboration.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-rambha-dutt1908",
+          "url": "https://archive.org/details/garudapuranam00duttgoog",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T00:24:08.223617+00:00",
+          "locator": "Printed359–360 / PDF380–381, ChapterCXX; title page PDF6",
+          "scope": "Original printed English translation, title and complete two-page chapter visually inspected. A normative year-long textual vrata, not an Odisha field account.1908 dates this edition, not composition or local origin. Wisdom Library HTML is a republication of this translation, not independent corroboration."
+        },
+        {
+          "source_id": "osha-rambha-garuda-sanskrit",
+          "url": "https://sa.wikisource.org/w/index.php?title=गरुडपुराणम्/आचारकाण्डः/अध्यायः_१२०&oldid=307780",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T00:24:08.223617+00:00",
+          "locator": "Acharakanda1.120.1–11; revision307780",
+          "scope": "Complete displayed Sanskrit chapter inspected as a digital textual witness. Underlying print edition and manuscript not established; no original folio or critical edition inspected. Same work as Dutt translation, not independent evidence of local practice. Selected calendar and food-role terms compared; no full critical translation claimed."
+        },
+        {
+          "source_id": "osha-rambha-dutt1908",
+          "url": "https://www.wisdomlib.org/hinduism/book/the-garuda-purana-dutt/d/doc122600.html",
+          "status": "retrieved",
+          "scope": "HTML discovery and comparison route; same Dutt translation, not independent corroboration. Original print supersedes HTML for adopted food wording."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.transliteral.org/pages/z130915080704/view",
+          "status": "unavailable",
+          "reason": "Web open returned Internal Error; Sanskrit Wikisource alternative inspected."
+        },
+        {
+          "url": "https://vedicpeople.com/puranas/maha-puranas/garuda-purana/achara-khanda/read/as-is-translation/chapter-120",
+          "status": "unavailable",
+          "reason": "Web open returned Internal Error; search excerpt not adopted."
+        },
+        {
+          "url": "https://archive.org/metadata/garudapuranam00duttgoog",
+          "status": "unavailable_route_recovered",
+          "reason": "Sandbox curl DNS failure; authorised network metadata and original PDF downloads succeeded."
+        }
+      ],
+      "note": "Rambha original printed text and Odisha scope comparison. Not a weekly release check; no measured practice or food availability inferred."
     }
   ]
 }

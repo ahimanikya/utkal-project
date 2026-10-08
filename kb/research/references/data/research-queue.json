@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "created_at": "2026-09-30T20:24:50-07:00",
-  "updated_at": "2026-10-07T21:09:30.553967+00:00",
+  "updated_at": "2026-10-08T01:15:40.768038+00:00",
   "authorization": "User authorised scheduled sequential research and local KB updates without further triggers on 2026-09-30.",
   "schedule": {
     "automation_id": "utkala-continuing-research",
@@ -3395,12 +3395,12 @@
       "done_when": "Build and progressively complete a source-bounded osha/brata/parba inventory with individual history, ritual-story, significance and food pages; inspect primary textual or institutional evidence for adopted claims, retain source conflicts and regional variants, and prepare tested structured website pages under the destination review/release policy. Track remaining inventory and distinguish unresolved history, local participation and visitor availability; do not claim exhaustive coverage from this initial selection.",
       "target": "culture/osha-brata-seasonal-food.md",
       "status": "in_progress",
-      "attempts": 16,
+      "attempts": 20,
       "dependencies": [],
-      "last_worked_at": "2026-10-07T20:15:01.398783+00:00",
-      "next_step": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority.",
+      "last_worked_at": "2026-10-08T00:24:08.223617+00:00",
+      "next_step": "Continue OSHA-B06 with Nagala Chaturthi, checking identity against Naga Panchami before adding a profile. Earlier textual/locality gaps retain14October retries; Rambha gaps15October. Source workspace remains scheduling authority.",
       "retry_after": null,
-      "blocker": "Bada full katha, Puranic passage, annual schedule and source-wording/chronology gaps retry14October. Existing B02/B03/B04 gaps retained; independent B05 work can proceed. Kanji Anla original edition and calendar locality gaps retry14October; independent Bata work can proceed. Bata/Danda identity, text and calendar gaps retry14October. Pandu textual, food and sweeping gaps retry14October. Shani/Tota original text, history and locality/food gaps retry14October.",
+      "blocker": "Bada full katha, Puranic passage, annual schedule and source-wording/chronology gaps retry14October. Existing B02/B03/B04 gaps retained; independent B05 work can proceed. Kanji Anla original edition and calendar locality gaps retry14October; independent Bata work can proceed. Bata/Danda identity, text and calendar gaps retry14October. Pandu textual, food and sweeping gaps retry14October. Shani/Tota original text, history and locality/food gaps retry14October. Sukutuni original story/calendar/food and Bali Trutiya chronology/locality/boat-jhoti conflict retry14October. Sita Navami local katha, calendar/food and programme-occurrence gaps retry14October. Rambha local katha, food and textual-edition gaps retry15October.",
       "evidence_outputs": [
         "culture/osha-brata-seasonal-food.md",
         "visitor-index/seasonal-food-guide.md",
@@ -3474,7 +3474,18 @@
         "sources/osha-jhoti-biswal-dash2020.md",
         "references/data/pandu-research.json",
         "culture/osha/shani-tota.md",
-        "references/data/shani-tota-research.json"
+        "references/data/shani-tota-research.json",
+        "culture/osha/bali-trutiya.md",
+        "references/data/bali-trutiya-research.json",
+        "sources/osha-bali-trutiya-scan.md",
+        "culture/osha/sita-navami.md",
+        "references/data/sita-navami-research.json",
+        "sources/osha-sita-valmiki-rao.md",
+        "sources/osha-sita-panchavati2024.md",
+        "culture/osha/rambha-trutiya.md",
+        "references/data/rambha-trutiya-research.json",
+        "sources/osha-rambha-dutt1908.md",
+        "sources/osha-rambha-garuda-sanskrit.md"
       ],
       "attempt_history": [
         {
@@ -3576,6 +3587,32 @@
           "at": "2026-10-07T20:15:01.398783+00:00",
           "outcome": "shani_tota_profile_recurring_vow_food_roles_and_history_holds",
           "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-b05-reconciliation",
+          "at": "2026-10-07T21:14:23.448274+00:00",
+          "outcome": "b05_three_new_two_expanded_profiles_reconciled_validated_and_pushed",
+          "completion_criteria_met": false,
+          "git_revision": "0f12d0759b89d9c3b59cb4173db37c29742ff50f",
+          "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145"
+        },
+        {
+          "run_id": "2026-10-07-bali-trutiya",
+          "at": "2026-10-07T22:20:25.594830+00:00",
+          "outcome": "sukutuni_gap_bali_trutiya_original_text_narrative_fruit_roles_and_conflicts",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-07-sita-navami",
+          "at": "2026-10-07T23:16:49.947159+00:00",
+          "outcome": "sita_navami_calendar_conflict_literary_context_historical_programme_food_unknown",
+          "completion_criteria_met": false
+        },
+        {
+          "run_id": "2026-10-08-rambha-trutiya",
+          "at": "2026-10-08T00:24:08.223617+00:00",
+          "outcome": "rambha_odisha_scope_original1908_text_and_food_roles_compared",
+          "completion_criteria_met": false
         }
       ],
       "reuse_before_research": {
@@ -3664,7 +3701,18 @@
           "sources/osha-jhoti-biswal-dash2020.md",
           "references/data/pandu-research.json",
           "culture/osha/shani-tota.md",
-          "references/data/shani-tota-research.json"
+          "references/data/shani-tota-research.json",
+          "culture/osha/bali-trutiya.md",
+          "references/data/bali-trutiya-research.json",
+          "sources/osha-bali-trutiya-scan.md",
+          "culture/osha/sita-navami.md",
+          "references/data/sita-navami-research.json",
+          "sources/osha-sita-valmiki-rao.md",
+          "sources/osha-sita-panchavati2024.md",
+          "culture/osha/rambha-trutiya.md",
+          "references/data/rambha-trutiya-research.json",
+          "sources/osha-rambha-dutt1908.md",
+          "sources/osha-rambha-garuda-sanskrit.md"
         ],
         "project_records": [
           "kb/research/product/destination-and-tour-book.md"
@@ -3717,24 +3765,28 @@
           "id": "OSHA-B05",
           "scope": "Bada, Kanji Anla, Bata, Danda Panhara, Pandu and Shani: primary local accounts and calendar conflicts",
           "status": "checkpoint_saved",
-          "checkpoint": "Bada, Kanji Anla, Bata, Pandu and Shani/Tota checkpoints saved; Danda identity held. Local B05 extension ready for reconciliation review, with textual, calendar and locality gaps retained.",
-          "next_step": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority.",
+          "checkpoint": "Bada, Kanji Anla, Bata, Pandu and Shani/Tota checkpoints reconciled to existing draft PR145; Danda identity and deeper textual/local histories remain held.",
+          "next_step": "Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. B05 checkpoints are pushed to existing draft PR145; retry unresolved B02–B05 evidence on/after2026-10-14. Preserve the existing PR metadata approval boundary.",
           "retry_after": "2026-10-14",
           "retry_scope": "Bada Osha original katha/Puranic citation, temple schedule, tourism-wording conflict and Cuttack original records. Kanji Anla dated textual witness, locality-specific calendar and ritual/food role clarification. Bata/Danda names, calendar and original katha; Odisha Review2012 Panthei/Bata indexed lead requires original recovery. Pandu original text/imprint, Ananta Das identity, food terminology and sweeping sequence. Shani/Tota original katha, dated history, local mela distinctions and food preparation."
         },
         {
           "id": "OSHA-B06",
           "scope": "Extend remaining brata inventory in bounded batches and then verify annual dates/consented public food offers",
-          "status": "pending"
+          "status": "in_progress",
+          "checkpoint": "Three local profiles saved: Bali Trutiya, Sita Navami and Rambha Trutiya. Sukutuni remains a dated evidence gap. Bounded group ready for destination reconciliation; wider inventory remains open.",
+          "next_step": "Continue OSHA-B06 with Nagala Chaturthi, checking identity against Naga Panchami before adding a profile. Earlier textual/locality gaps retain14October retries; Rambha gaps15October. Source workspace remains scheduling authority.",
+          "retry_after": "2026-10-14",
+          "retry_scope": "Sukutuni identified original katha/calendar/food evidence; Bali Trutiya parent volume/imprint, author identity, second witness, locality and boat-jhoti conflict. Sita Navami original Odia katha, Baisakha/Jyestha conflict, local foods and advertised-versus-observed event evidence. Rambha Trutiya local katha, food, textual edition and scope comparison:15October."
         }
       ],
       "website_candidate": {
         "pull_request": "https://github.com/ahimanikya/utkal-project/pull/145",
-        "revision": "05b1cb9186bf5b0f4c69bad1535b12701e3394ad",
+        "revision": "0f12d0759b89d9c3b59cb4173db37c29742ff50f",
         "status": "draft_review",
         "git_push": true,
         "published": false,
-        "scope": "Eighteen profiles, including three B04 regional checkpoints; review remains draft.",
+        "scope": "Twenty-one profiles: three new and two expanded B05 profiles reconciled; recurring-observance filter verified. Review remains draft.",
         "metadata_update": "Title/body still describe fifteen profiles; automated review rejected update; prepared body saved locally."
       }
     }

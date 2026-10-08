@@ -34,3 +34,15 @@ Printed15 / PDF1, Pandu Osha Brata entry. Saved original reused in [Pandu Osha](
 ## 2026-10-07 · Shani/Tota reuse
 
 Printed15 / PDF1, Shani/Tota entry; printed16 / PDF2 and printed17 / PDF3, Sanishchara Mela entries. Saved original text; previously inspected PDF1 image reused. Used in [Shani / Tota Osha](../culture/osha/shani-tota.md); no new original retrieval or independent corroboration claimed.
+
+## 2026-10-07 · B06 evidence check
+
+Printed15 / PDF1 Sukutuni; printed16 / PDF2 Bali Trutiya. Saved original text reused. See [Bali Trutiya evidence](../references/data/bali-trutiya-research.json). Boat/trade claims remain quarantined; source reuse is not independent corroboration.
+
+## 2026-10-07 · Sita Navami reuse
+
+Printed16 / PDF2, left column Sita Nabami Brata in Jyestha; right column general offerings. Saved text and newly rendered original page image inspected. [Sita Navami](../culture/osha/sita-navami.md) retains the month conflict. Generic or adjacent food descriptions are not transferred to this observance.
+
+## 2026-10-08 · Rambha Trutiya reuse
+
+Printed16 / PDF2, left column Ramba trutiya in Jyestha. Original image inspected. [Rambha Trutiya](../culture/osha/rambha-trutiya.md) preserves the Jyestha account; general or adjacent foods are not transferred.

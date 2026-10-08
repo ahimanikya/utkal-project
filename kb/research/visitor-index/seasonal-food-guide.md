@@ -78,3 +78,15 @@ Read the [Janhi profile](../culture/osha/janhi.md) before treating its culminati
 ## 2026-10-07 · A recurring Saturday vow
 
 [Shani / Tota Osha](../culture/osha/shani-tota.md) has no fixed month in the inspected account. Its black-gram offering and broader Saturday food description remain separately scoped. A recurring weekday is not a public schedule or confirmed food offer.
+
+## 2026-10-07 · Bali Trutiya food roles
+
+[Bali Trutiya](../culture/osha/bali-trutiya.md) distinguishes fruit in its ritual story from fruit offered in worship. Neither supplies a current menu or serving place. Browse under Bhadraba; a date and invitation still need separate confirmation.
+
+## 2026-10-07 · Sita Navami remains a cultural reading entry
+
+[Sita Navami](../culture/osha/sita-navami.md) has a historical advertised Odisha programme but no established dish or serving offer. The two saved accounts differ on the month. Its empty food list is an evidence gap, not proof that participants prepare no food.
+
+## 2026-10-08 · Rambha Trutiya: food evidence remains local
+
+[Rambha Trutiya](../culture/osha/rambha-trutiya.md) compares an Odisha description with a printed annual textual vow. Its textual food prescriptions do not establish local dishes or serving places. An empty local food list means evidence is missing, not that no food is prepared.

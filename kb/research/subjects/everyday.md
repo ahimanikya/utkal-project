@@ -128,3 +128,18 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-07 · Shani/Tota recurring vow
 
 [Shani / Tota Osha](../culture/osha/shani-tota.md) connects vowed duration, grove or temple setting and food roles. History and local variation remain open.
+
+
+## 2026-10-07 · Bali Trutiya narrative checkpoint
+
+[Bali Trutiya](../culture/osha/bali-trutiya.md) connects a recovered Odia katha with questions of choice, companionship, restraint and food roles. Its historical dates remain unresolved.
+
+
+## 2026-10-07 · Sita Navami sources and unknowns
+
+[Sita Navami](../culture/osha/sita-navami.md) connects epic context with an Odisha organiser’s historical programme, while retaining local food and calendar gaps.
+
+
+## 2026-10-08 · Rambha Trutiya and household objects
+
+[Rambha Trutiya](../culture/osha/rambha-trutiya.md) examines bangles in an attributed Odisha account and compares a different-scope textual vow. Local story and menu remain open.

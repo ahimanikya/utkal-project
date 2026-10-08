@@ -429,3 +429,7 @@ B04 identities reconciled: Pua Jiuntia, Bhai Jiuntia and Nuakhai. Eighteen profi
 ## 2026-10-07 · B05 research checkpoints
 
 B05 identities reconciled: Bada, Kanji Anla, Bata, Pandu and Shani/Tota. Twenty-one profiles remain incomplete histories.
+
+## 2026-10-08 · B06 research checkpoint
+
+Bali Trutiya, Sita Navami and Rambha Trutiya reconciled with scoped original-text evidence. Twenty-four profiles remain incomplete histories.

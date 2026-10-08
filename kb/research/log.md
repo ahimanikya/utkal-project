@@ -460,3 +460,7 @@ Reconciled two western Odisha research checkpoints into the existing review cand
 ## 2026-10-07 · B05 research checkpoints
 
 Reconciled five B05 research checkpoints into the existing review candidate. Seven narrative checkpoints and fourteen research notes; B06 follows. No merge or publication.
+
+## 2026-10-08 · B06 research checkpoint
+
+Reconciled three B06 profiles into the existing review candidate. Eight narrative checkpoints and sixteen research notes. Sita and Rambha have no established local menu. No merge or publication.

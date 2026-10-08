@@ -6817,6 +6817,30 @@
         "locator": "Printed15 / PDF1, Shani/Tota entry; printed16 / PDF2 and printed17 / PDF3, Sanishchara Mela entries",
         "method": "Saved original text; previously inspected PDF1 image reused",
         "scope": "Existing original reused; not a new retrieval or independent corroboration."
+      },
+      {
+        "source_id": "osha-review2006",
+        "run_id": "2026-10-07-bali-trutiya",
+        "checked_at": "2026-10-07T22:20:25.594830+00:00",
+        "locator": "Printed15 / PDF1 Sukutuni; printed16 / PDF2 Bali Trutiya",
+        "method": "Saved original text reused",
+        "scope": "Existing source identity retained; no independent corroboration from duplicate copies."
+      },
+      {
+        "source_id": "osha-review2006",
+        "run_id": "2026-10-07-sita-navami",
+        "checked_at": "2026-10-07T23:16:49.947159+00:00",
+        "locator": "Printed16 / PDF2, left column Sita Nabami Brata in Jyestha; right column general offerings",
+        "method": "Saved text and newly rendered original page image inspected",
+        "scope": "Existing source reused, not independent corroboration from a new copy."
+      },
+      {
+        "source_id": "osha-review2006",
+        "run_id": "2026-10-08-rambha-trutiya",
+        "checked_at": "2026-10-08T00:24:08.223617+00:00",
+        "locator": "Printed16 / PDF2, left column Ramba trutiya in Jyestha",
+        "method": "Saved text and original page image inspected",
+        "scope": "Existing source reused; new reading is not independent corroboration."
       }
     ]
   },
@@ -6944,6 +6968,30 @@
         "locator": "Printed53–54 / PDF69–70, Sani or Tota osha; printed64 / PDF80, Sanibara",
         "method": "Saved original text and three newly rendered page images inspected",
         "scope": "Existing original reused; not a new retrieval or independent corroboration."
+      },
+      {
+        "source_id": "osha-mahanti",
+        "run_id": "2026-10-07-bali-trutiya",
+        "checked_at": "2026-10-07T22:20:25.594830+00:00",
+        "locator": "Printed57 / PDF73 Bali trutiya osha",
+        "method": "Saved original text and newly rendered page image inspected",
+        "scope": "Existing source identity retained; no independent corroboration from duplicate copies."
+      },
+      {
+        "source_id": "osha-mahanti",
+        "run_id": "2026-10-07-sita-navami",
+        "checked_at": "2026-10-07T23:16:49.947159+00:00",
+        "locator": "Printed54 / PDF70, Sita navami osha and note37",
+        "method": "Saved text and existing rendered original page image inspected",
+        "scope": "Existing source reused, not independent corroboration from a new copy."
+      },
+      {
+        "source_id": "osha-mahanti",
+        "run_id": "2026-10-08-rambha-trutiya",
+        "checked_at": "2026-10-08T00:24:08.223617+00:00",
+        "locator": "Printed54 / PDF70, Rambha trutiya osha paragraph",
+        "method": "Saved text and original page image inspected",
+        "scope": "Existing source reused; new reading is not independent corroboration."
       }
     ]
   },
@@ -7363,7 +7411,17 @@
     "published_on": "2020",
     "accessed_on": "2026-10-07",
     "locator": "Printed113 / PDF114: title, authors and introduction; printed117 / PDF118: item9 and materials/techniques",
-    "scope": "Selected original journal text extracted from university-hosted PDF. Names Pandu among observances associated with jhoti; general techniques are not a specific Pandu design or sampled local ritual. No fieldwork sample/date is established by the inspected passages. Page-image retrieval failed; no visual inspection claimed. Broad historical, nutritional and universal-practice assertions are not adopted."
+    "scope": "Selected original journal text extracted from university-hosted PDF. Names Pandu among observances associated with jhoti; general techniques are not a specific Pandu design or sampled local ritual. No fieldwork sample/date is established by the inspected passages. Page-image retrieval failed; no visual inspection claimed. Broad historical, nutritional and universal-practice assertions are not adopted.",
+    "inspection_history": [
+      {
+        "source_id": "osha-jhoti-biswal-dash2020",
+        "run_id": "2026-10-07-bali-trutiya",
+        "checked_at": "2026-10-07T22:20:25.594830+00:00",
+        "locator": "Printed116 / PDF117 item7",
+        "method": "University-hosted original PDF text inspected; boat/trade interpretation quarantined",
+        "scope": "Existing source identity retained; no independent corroboration from duplicate copies."
+      }
+    ]
   },
   "gi-temple-food2019": {
     "id": "gi-temple-food2019",
@@ -7378,5 +7436,76 @@
     "publisher": "Orissa Review, Government of Odisha",
     "source_kind": "Attributed cultural account; indexed publisher text only",
     "accessed_on": "2026-10-05"
+  },
+  "osha-sita-valmiki-rao": {
+    "id": "osha-sita-valmiki-rao",
+    "title": "Valmiki Ramayana, Bala Kanda, Sarga66 — prose translation",
+    "resource": "https://valmikiramayan.net/utf8/baala/sarga66/bala_66_prose.htm",
+    "publisher": "ValmikiRamayan.net",
+    "author": "Desiraju Hanumanta Rao, translation and commentary",
+    "published_on": "2003-04",
+    "revision": "Page footer: Revised January05; retained as displayed, year not expanded",
+    "accessed_on": "2026-10-07",
+    "locator": "Sarga66 in Prose; paragraphs beginning Later, when I was ploughing and Hers is a non-uterine birth",
+    "scope": "Directly read translator-published literary witness for Janaka’s account of Sita’s discovery. This is narrative context, not a Sita Navami ritual manual, historical event or local Odisha menu. Translator commentary and sectarian polemics are not adopted.",
+    "capture_method": "Original publisher HTML read through web tool"
+  },
+  "osha-bali-trutiya-scan": {
+    "id": "osha-bali-trutiya-scan",
+    "title": "Bali Trutiya ba Tija Brata Katha — scanned Odia text",
+    "resource": "https://upload.wikimedia.org/wikipedia/commons/3/33/Bali_Trutiya_Brata.pdf",
+    "publisher": "Original printed publisher not established; digitised under WikiProject Pothi and hosted by Wikimedia Commons",
+    "author": "Sadashiba, attributed by archive; closing verse contains the name Sadasiva without an independently established biographical identity",
+    "published_on": null,
+    "accessed_on": "2026-10-07",
+    "locator": "PDF pp.1–12 visually inspected; p.2 sand instruction; p.4 calendar; pp.6–10 narrative; p.9 forest fruit; p.10 fruit offerings; p.11 fasting injunction; p.12 closing verse",
+    "scope": "One undated print-text witness. Archive metadata dates conflict; no verified composition, edition or observance origin date. Ritual story and prescriptions are not a household survey.",
+    "capture_method": "Original PDF downloaded after sandbox DNS failure; all12 pages rendered locally and visually inspected, with Wikisource text as reading aid.",
+    "sha256": "9b001882705207145011cd67cb25c9b9346ba0f174493b73853b89304c515131",
+    "lineage_note": "PDF and Wikisource transcription are one textual lineage, not independent corroboration.",
+    "discovery_url": "https://or.wikisource.org/wiki/ବାଲିତୃତୀୟା_ବା_ତୀଜବ୍ରତ_କଥା",
+    "transcription_revision": "51163",
+    "scan_credit": "Prateek Pattanaik / WikiProject Pothi",
+    "media_reuse_permission_verified": false
+  },
+  "osha-sita-panchavati2024": {
+    "id": "osha-sita-panchavati2024",
+    "title": "Panchavati Seva Public Charitable Trust — Our Events,2024–2025 programme",
+    "resource": "https://www.panchabati.org/events.html",
+    "publisher": "Panchavati Seva Public Charitable Trust",
+    "author": null,
+    "published_on": null,
+    "accessed_on": "2026-10-07",
+    "locator": "Our Events:2024–2025 list item3 Sita Navami; item7 Sita Bibah; footer address Haridamada, Mendhashala, Khurdha",
+    "scope": "Publisher’s own historical programme listing, including Sita Navami16May2024 and a separate Sita Bibah6December2024. This is advertised scheduling, not verified occurrence, attendance, food service or current availability.",
+    "capture_method": "Original organiser HTML read through web tool"
+  },
+  "osha-rambha-dutt1908": {
+    "id": "osha-rambha-dutt1908",
+    "title": "The Garuda Puranam — Chapter CXX, Rambha Tritiya Vratam",
+    "resource": "https://archive.org/details/garudapuranam00duttgoog",
+    "download_url": "https://archive.org/download/garudapuranam00duttgoog/garudapuranam00duttgoog_text.pdf",
+    "publisher": "Society for the Resuscitation of Indian Literature, Calcutta; Harvard copy digitised by Google and hosted by Internet Archive",
+    "author": "Manmatha Nath Dutt, English translation; title page edited and published by Dutt",
+    "published_on": "1908",
+    "accessed_on": "2026-10-08",
+    "locator": "Printed359–360 / PDF380–381, ChapterCXX; title page PDF6",
+    "scope": "Original printed English translation, title and complete two-page chapter visually inspected. A normative year-long textual vrata, not an Odisha field account.1908 dates this edition, not composition or local origin. Wisdom Library HTML is a republication of this translation, not independent corroboration.",
+    "capture_method": "Downloaded PDF; extracted text and inspected three rendered page images",
+    "sha256": "97c29a5bb3370e2001115bfe3c8fe045681cb0c8c851e0657b2b9004bb579af0",
+    "pdf_pages": 816
+  },
+  "osha-rambha-garuda-sanskrit": {
+    "id": "osha-rambha-garuda-sanskrit",
+    "title": "Garuda Purana, Acharakanda120 — Sanskrit digital transcription",
+    "resource": "https://sa.wikisource.org/w/index.php?title=गरुडपुराणम्/आचारकाण्डः/अध्यायः_१२०&oldid=307780",
+    "publisher": "Sanskrit Wikisource",
+    "author": "Traditional attribution to Vyasa; digital editors not an established historical authorship",
+    "published_on": null,
+    "digital_revision_date": "2021-04-20",
+    "accessed_on": "2026-10-08",
+    "locator": "Acharakanda1.120.1–11; revision307780",
+    "scope": "Complete displayed Sanskrit chapter inspected as a digital textual witness. Underlying print edition and manuscript not established; no original folio or critical edition inspected. Same work as Dutt translation, not independent evidence of local practice. Selected calendar and food-role terms compared; no full critical translation claimed.",
+    "capture_method": "Direct HTML reading of displayed Sanskrit text"
   }
 }

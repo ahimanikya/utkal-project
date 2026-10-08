@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-08",
   "scope": "Editorial subject classification of canonical knowledge, evidence and story entries; excludes sources, methods, product/technology governance and generic coverage pages. Does not grant public-release approval.",
   "subjects": [
     {
@@ -4871,6 +4871,39 @@
       "content_type": "Cultural Observance",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/bali-trutiya",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/sita-navami",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/rambha-trutiya",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -7498,6 +7531,48 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Compare how sources describe outdoor ritual settings without treating the observances as the same tradition."
+    },
+    {
+      "from": "culture/osha/bali-trutiya",
+      "to": "culture/osha/sabitri",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare women’s expressed choices in two ritual narratives without treating their plots or food rules as interchangeable."
+    },
+    {
+      "from": "culture/osha/sabitri",
+      "to": "culture/osha/bali-trutiya",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare women’s expressed choices in two ritual narratives without treating their plots or food rules as interchangeable."
+    },
+    {
+      "from": "culture/osha/sita-navami",
+      "to": "culture/osha/sabitri",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare how the two observances connect a literary heroine with marital devotion, while keeping their narratives, calendar rules and food evidence separate."
+    },
+    {
+      "from": "culture/osha/sabitri",
+      "to": "culture/osha/sita-navami",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare how the two observances connect a literary heroine with marital devotion, while keeping their narratives, calendar rules and food evidence separate."
+    },
+    {
+      "from": "culture/osha/rambha-trutiya",
+      "to": "culture/osha/bali-trutiya",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Both profiles mention Parvati and Shiva, but their inspected texts, calendar rules and food evidence differ; related reading does not establish identical vows."
+    },
+    {
+      "from": "culture/osha/bali-trutiya",
+      "to": "culture/osha/rambha-trutiya",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Both profiles mention Parvati and Shiva, but their inspected texts, calendar rules and food evidence differ; related reading does not establish identical vows."
     }
   ],
   "relationship_types": {

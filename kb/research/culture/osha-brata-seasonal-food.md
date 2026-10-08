@@ -15,7 +15,7 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The twenty-one selected profiles include seven narrative checkpoints and fourteen early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The twenty-four selected profiles include eight narrative checkpoints and sixteen early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
@@ -40,6 +40,9 @@ The twenty-one selected profiles include seven narrative checkpoints and fourtee
 | [Bata Osha](osha/bata.md) | Pausa / Margasira accounts differ | Paths, offerings and unresolved Danda identity |
 | [Pandu Osha](osha/pandu.md) | Margasira | Dedications, shaped food and unresolved sweeping sequence |
 | [Shani / Tota Osha](osha/shani-tota.md) | No fixed month; Saturdays | Vowed duration, grove setting and food roles |
+| [Bali Trutiya](osha/bali-trutiya.md) | Bhadraba | Odia narrative, fruit roles and unresolved chronology |
+| [Sita Navami](osha/sita-navami.md) | Baisakha / Jyestha accounts differ | Epic context and organiser listing; foods unknown |
+| [Rambha Trutiya](osha/rambha-trutiya.md) | Jyestha in Odisha accounts | Bangles and marital devotion; annual textual vow compared separately |
 
 ## What the collection connects
 

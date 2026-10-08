@@ -418,3 +418,7 @@ Jiuntia full kathas and Nuakhai historical witnesses/1991 order remain unresolve
 ## 2026-10-07 · B05 research checkpoints
 
 Full kathas, dated histories, calendar conflicts, Danda identity and local food variations remain unresolved; retry14October. Earlier B02–B04 gaps remain open.
+
+## 2026-10-08 · B06 research checkpoint
+
+Sukutuni, complete local kathas, calendar conflicts, textual dates and food locality remain open. Prior retries14October; Rambha15October. The1908 Garuda textual food prescriptions are not an Odisha visitor menu.

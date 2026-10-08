@@ -44,3 +44,11 @@ The literary conversation permits questions about resolve, love and moral reason
 - What aspects of Savitri’s words matter most to the observer?
 
 [Back to the collection](../osha-brata-seasonal-food.md). Cultural association does not establish a serving venue or access to private worship. No local interviews or human editorial review are claimed.
+
+## 2026-10-07 · Bali Trutiya comparison
+
+[Bali Trutiya](bali-trutiya.md). Compare women’s expressed choices in two ritual narratives without treating their plots or food rules as interchangeable.
+
+## 2026-10-07 · Sita Navami comparison
+
+[Sita Navami](sita-navami.md). Compare how the two observances connect a literary heroine with marital devotion, while keeping their narratives, calendar rules and food evidence separate.
