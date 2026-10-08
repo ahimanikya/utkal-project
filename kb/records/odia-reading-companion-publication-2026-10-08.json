@@ -1,0 +1,66 @@
+{
+  "recorded_at": "2026-10-08T10:02:44.635104+00:00",
+  "status": "published",
+  "release_id": "UTP-REL-081",
+  "work_id": "UTP-WORK-194",
+  "program_item": "UTP-A500-009",
+  "authorization": "UTP-DEC-225",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/152",
+  "reviewed_head": "c15a8b5e9027a41bb97d6397cb34de7f5ce1a59d",
+  "merge_commit": "4fa2628ea18ca916983608ed07974c42df5a6d1b",
+  "required_checks": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37760014046",
+    "result": "success"
+  },
+  "deployment": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37760340702",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "result": "success"
+  },
+  "review": "records/odia-reading-companion-review-2026-10-08.json",
+  "live": {
+    "checked_at": "2026-10-08T10:01:30.390035+00:00",
+    "result": "pass",
+    "checks": [
+      {
+        "url": "https://utkalproject.org/literature/reading-journey/",
+        "http_status": 200,
+        "sha256": "2e69ba644feb8f2eddc97fb1ac03eb3d0329194cbd2fd1a4b9480cc31019c407"
+      },
+      {
+        "url": "https://utkalproject.org/literature/",
+        "http_status": 200,
+        "sha256": "7be61cd9fee5392c2d0042959b13b969a5d55f21b42ca6f8388a938676a6e106"
+      },
+      {
+        "url": "https://utkalproject.org/journey-starters/",
+        "http_status": 200,
+        "sha256": "e71a5fd995ba61fbb1b3d7a59768bced47b9109ebb6239e3f8e9666cdd5ebde3"
+      },
+      {
+        "url": "https://utkalproject.org/explore/",
+        "http_status": 200,
+        "sha256": "df30ed5e9714a1dce06a68847a4690d871bf24392dcb0f86e2938a4e3916b0d3"
+      },
+      {
+        "url": "https://utkalproject.org/journey/",
+        "http_status": 200,
+        "sha256": "684832cf2d3350589d6f3130fae860180bb078d6dcb56e261c31c7ff4a40a26e"
+      }
+    ],
+    "sitemap_url_count": 11,
+    "journey_payload": "Existing four writer IDs in order, three reading chapters and source references confirmed in delivered JSON.",
+    "browser": "Chrome live heading, first chapter and photograph visually verified.",
+    "screenshot": {
+      "path": "planning/utkala-odisha/review-assets/odia-reading-companion-2026-10-08.png",
+      "scope": "Live desktop page; external planning workspace, outside Git."
+    }
+  },
+  "download_check": "Local Chrome photo-book download inspected: 768757 bytes, all four writer names, original reading prompts, synthetic persisted note and three embedded photographs.",
+  "counting": "One illustrated reading companion; its chapters, links, fields and tests are not counted separately.",
+  "limitations": [
+    "Same-assistant review; no independent human or language-specialist review.",
+    "Reused source inspection scope remains explicit; no new source verification or visitor access claimed."
+  ]
+}
