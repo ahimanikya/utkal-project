@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-07T23:54:36.492740+00:00",
+  "recorded_at": "2026-10-08T00:03:09.458010+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5592,7 +5592,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Continue sequentially using the bounded program queue; count only evidenced completed deliverables.",
+      "next_action": "4 of 500 substantive items completed. Hourly continuation resumes the next eligible item; retain actual acceptance and publication evidence.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5605,20 +5605,22 @@
       "id": "UTP-WORK-190",
       "title": "Food discovery, portable reading collection and current review-queue repair",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Publish checked candidate under DEC225 and record live evidence.",
+      "next_action": "Published and live-verified. Continue through the program queue under DEC225.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
-        "UTP-REV-157"
+        "UTP-REV-157",
+        "UTP-REL-077"
       ],
       "evidence": [
         "records/autonomous-500-program.json",
-        "records/autonomous-food-discovery-review-2026-10-07.json"
+        "records/autonomous-food-discovery-review-2026-10-07.json",
+        "records/autonomous-food-discovery-publication-2026-10-07.json"
       ]
     }
   ],
@@ -15116,6 +15118,21 @@
       ],
       "evidence": [
         "records/three-food-stories-publication-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-077",
+      "title": "Food discovery and Three Tastes collection published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/food/three-tastes/",
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-190",
+        "UTP-REV-157"
+      ],
+      "evidence": [
+        "records/autonomous-food-discovery-publication-2026-10-07.json"
       ]
     }
   ],

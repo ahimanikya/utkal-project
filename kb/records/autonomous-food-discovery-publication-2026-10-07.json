@@ -1,0 +1,64 @@
+{
+  "recorded_at": "2026-10-08T00:03:09.458010+00:00",
+  "authorization": "UTP-DEC-225",
+  "approval_quote": "Don't ask me for approval for the next 500 things - just keep doing one after another.",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/147",
+  "reviewed_head": "199823230151bad2d19fe8fef8213f522c63505d",
+  "merge_commit": "d8e8a75b79de149e6800043a7b63befcf275ca3f",
+  "merged_at": "2026-10-07T23:59:10Z",
+  "deployment": "https://github.com/ahimanikya/utkal-project/actions/runs/37705293248",
+  "deployment_conclusion": "success",
+  "live_verification": {
+    "checked_at": "2026-10-08T00:02:59.589429+00:00",
+    "pages": [
+      {
+        "route": "/food/",
+        "status": 200,
+        "checks": {
+          "Start with a taste. Stay for the story.": true,
+          "/food/three-tastes/": true,
+          "/food/everyday/": true,
+          "/food/fire-cooking/": true
+        }
+      },
+      {
+        "route": "/food/three-tastes/",
+        "status": 200,
+        "checks": {
+          "not a suggested one-day route": true,
+          "data-journey-starter=\"odisha-three-tastes\"": true,
+          "Subhashish Panigrahi": true,
+          "Kumarnihar": true
+        }
+      }
+    ],
+    "journey": {
+      "starter_id": "odisha-three-tastes",
+      "chapters": 3,
+      "stable_ids": [
+        "food:bhubaneswar-dalma",
+        "food:cuttack-dahibara",
+        "food:konark-machha-besara"
+      ]
+    },
+    "dalma_cover_contains_whole_photo_rule": true,
+    "scope": "HTTP, rendered content and shipped CSS checks; Google processing, native PDF and physical devices not retested."
+  },
+  "completed_program_items": [
+    "UTP-A500-001",
+    "UTP-A500-002",
+    "UTP-A500-003",
+    "UTP-A500-004"
+  ],
+  "continuation": {
+    "automation_id": "utkal-next-500",
+    "status": "ACTIVE",
+    "cadence": "hourly",
+    "target": "current chat"
+  },
+  "limitations": [
+    "No field inspections or provider confirmations.",
+    "Same-assistant review; no independent editorial approval invented.",
+    "Only the existing eleven routes are search-eligible."
+  ]
+}

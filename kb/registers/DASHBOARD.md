@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1c98c2da60dad3555a7692cd7c4cf8f63cdae09be97716cce3fa3ffea413141e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ffa4ad6e2d35bc18d1f930a1651bd235fb2d6d424350be300b5249faf94e525d`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,8 +199,8 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue sequentially using the bounded program queue; count only evidenced completed deliverables. | — |
-| UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | in_progress | reviewed | Ahimanikya Satapathy | Publish checked candidate under DEC225 and record live evidence. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 4 of 500 substantive items completed. Hourly continuation resumes the next eligible item; retain actual acceptance and publication evidence. | — |
+| UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 
 ## Pending human review and decisions
 
@@ -727,6 +727,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-2026100602 · Human Natural Konark homepage sharing image published | published | https://utkalproject.org/ | UTP-DEC-2026100603 |
 | UTP-REL-075 · Three flexible illustrated visit plans published | published | https://utkalproject.org/journey-starters/#short-visits | UTP-DEC-222 |
 | UTP-REL-076 · Dalma, Dahibara Aloodum and Machha Besara stories published | published | https://utkalproject.org/food/ | UTP-DEC-224 |
+| UTP-REL-077 · Food discovery and Three Tastes collection published | published | https://utkalproject.org/food/three-tastes/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -764,7 +765,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-256 | 2026-10-07T03:21:20.247282+00:00 | Prepared connected illustrated Kala Bhoomi, Dhauli and Pipili stories with documentary images and portable visitor context. | Founder editorial review and publication decision. |
 | UTP-EVT-257 | 2026-10-07T03:43:10.536279+00:00 | Founder-approved PR142 merged; Pages deployment succeeded. Three live stories, exact museum photo hashes and discovery connections verified. | Continue the next authorized research and editorial batch. |
 | UTP-EVT-258 | 2026-10-07T04:55:40.006600+00:00 | Prepared three flexible illustrated visit plans, saved starters and source-rich books; self-review and responsive checks passed. Operational itinerary verification remains separate. | Founder publication review. |
 | UTP-EVT-2026100602 | 2026-10-07T03:50:29+00:00 | Prepared home-page Open Graph/Twitter image change using existing credited Chilika photograph; full and coastal suites pass. | Present candidate for Founder publication decision. |
@@ -774,6 +774,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-260 | 2026-10-07T06:43:37.928214+00:00 | Three illustrated food stories prepared with preserved journey IDs, portable-book reading and bounded backlog reconciliation. Automated and responsive browser checks passed. | Founder review of candidate; local arrangements remain deferred. |
 | UTP-EVT-261 | 2026-10-07T07:08:20.250505+00:00 | Founder-approved PR146 merged and GitHub Pages deployment succeeded. Three live stories, licensed image hashes, stable journey IDs, book photographs and discovery/visit-plan links verified. | Continue authorized research; field-dependent verification remains deferred. |
 | UTP-EVT-262 | 2026-10-07T23:54:36.492740+00:00 | Founder authorized next 500 substantive UTP items without routine approvals. First four items implemented and checked; hourly continuation attached to this chat. Completion count awaits actual publication. | Publish the checked food discovery batch and record the first four completed items. |
+| UTP-EVT-263 | 2026-10-08T00:03:09.458010+00:00 | PR147 merged after passing validation; Pages deployment and live food hub, collection, three saved IDs, book chapters and full-image cover rule verified. First four substantive items completed; hourly continuation active. | Resume the next eligible program item without routine approval prompts. |
 
 ## Deferred extensions
 
