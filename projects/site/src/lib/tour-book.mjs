@@ -21,7 +21,7 @@ export function buildTourBook(value,entries,{baseURL='https://utkalproject.org',
  const story=trail?`<section class="story-companion"><h2>${e(trail.title)} · a reading companion</h2><p>These chapters relate to your selected ideas. They are not extra stops or a timed itinerary; your days and choices follow below.</p>${trail.chapters.map(chapter=>{
   const photo=chapter.photo,data=photo&&images[photo.src];let picture='';
   if(illustrated&&photo&&validBookImage(data)){photoCredits.set(photo.src,photo);picture=`<figure><img src="${data}" alt="${e(photo.alt)}" width="${e(photo.width)}" height="${e(photo.height)}"><figcaption>${e(photo.caption)}</figcaption></figure>`;}
-  return `<section><h3>${e(chapter.title)}</h3>${picture}<p>${e(chapter.text)}</p><h4>Before you go</h4><p>${e(chapter.prompt)}</p><p>Selected ideas: ${chapter.selectedIdeas.map(id=>e(catalog.get(id)?.title||id)).join(' · ')}</p></section>`;
+  return `<section><h3>${e(chapter.title)}</h3>${picture}<p>${e(chapter.text)}</p><h4>${e(trail.prompt_label||'Before you go')}</h4><p>${e(chapter.prompt)}</p><p>Selected ideas: ${chapter.selectedIdeas.map(id=>e(catalog.get(id)?.title||id)).join(' · ')}</p></section>`;
  }).join('')}<h3>Prepare at your own pace</h3>${trail.preparation.map(p=>`<h4>${e(p.title)}</h4><p>${e(p.text)}</p>`).join('')}<p>Context reviewed ${e(trail.reviewed_on)}. ${e(trail.review_scope)}</p></section>`:'';
  if(trail)for(const source of trail.sources){const url=safeURL(source.url,baseURL);if(url)references.set(url,source.title);}
  const groups=groupItems(plan).map(group=>{
@@ -68,7 +68,7 @@ export function buildTextItinerary(value,entries,{includePersonalNotes=true,base
  const days=journeyDayCards(plan,entries,{includePersonalNotes});
  if(days.length){lines.push('Your days at a glance');for(const day of days)lines.push(day.label+(day.title?' · '+day.title:'')+' — '+(day.ideas.join(' · ')||'Room for a pause')+(day.more?` · +${day.more} more`:''));lines.push('');}
  const trail=selectedStoryTrail(plan,trails);
- if(trail){lines.push(trail.title+' · a reading companion','Chapters related to your selected ideas, not extra stops or a timed itinerary.','');for(const chapter of trail.chapters)lines.push(chapter.title,chapter.text,'Before you go: '+chapter.prompt,'Selected ideas: '+chapter.selectedIdeas.map(id=>catalog.get(id)?.title||id).join(' · '),'');for(const p of trail.preparation)lines.push(p.title+': '+p.text);lines.push('Context reviewed '+trail.reviewed_on+'. '+trail.review_scope);for(const source of trail.sources){const url=safeURL(source.url,baseURL);if(url)lines.push('Source: '+source.title+' — '+url);}lines.push('');}
+ if(trail){lines.push(trail.title+' · a reading companion','Chapters related to your selected ideas, not extra stops or a timed itinerary.','');for(const chapter of trail.chapters)lines.push(chapter.title,chapter.text,(trail.prompt_label||'Before you go')+': '+chapter.prompt,'Selected ideas: '+chapter.selectedIdeas.map(id=>catalog.get(id)?.title||id).join(' · '),'');for(const p of trail.preparation)lines.push(p.title+': '+p.text);lines.push('Context reviewed '+trail.reviewed_on+'. '+trail.review_scope);for(const source of trail.sources){const url=safeURL(source.url,baseURL);if(url)lines.push('Source: '+source.title+' — '+url);}lines.push('');}
  for(const group of groupItems(plan)){
   lines.push(dayLabel(plan,group.day),planningContext(group.items,catalog).message,'');
   const dayNote=(plan.dayNotes||[]).find(n=>n.day===group.day);if(includePersonalNotes&&dayNote)lines.push(dayNote.title,dayNote.notes,'');
