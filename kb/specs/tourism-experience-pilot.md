@@ -101,3 +101,7 @@ Complete the source-gap task, then assess an initial desk shortlist using existi
 ## First desk research batch
 
 The [5 October research pack](../research/collections/tourism-pilot-desk-review.md) supplies 22 candidate leads, scoped official-document checks and two capacity/budget options. Six first visits are recommended for review; no host or funding is committed.
+
+## Website section specification
+
+The [tourism opportunities requirements](tourism-opportunities-section.md) define the first public information section and its handoff criteria. Completing these requirements does not resolve the application-route or local-confirmation tasks.

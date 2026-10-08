@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-08T00:03:09.458010+00:00",
+  "recorded_at": "2026-10-08T00:55:09.256168+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5150,12 +5150,12 @@
       "id": "UTP-WORK-174",
       "title": "Specify tourism opportunities website section",
       "category": "tourism_pilot",
-      "status": "proposed",
-      "readiness": "concept",
+      "status": "in_progress",
+      "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
-      "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
-      "authorization": "UTP-DEC-202",
-      "next_action": "Define public scheme explanations and reviewed experience links for a later website batch.",
+      "execution_owner": "Current AI assistant for the specification; no field role appointed.",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge the checked specification under DEC225. Website implementation is a separate task; application and itinerary evidence remains open.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-166",
@@ -5176,13 +5176,18 @@
         "UTP-DEC-202",
         "UTP-WORK-165",
         "UTP-WORK-166",
-        "UTP-WORK-171"
+        "UTP-WORK-171",
+        "UTP-DEC-225",
+        "UTP-REV-158"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
-      ]
+        "models/tourism-experience-record.md",
+        "specs/tourism-opportunities-section.md",
+        "records/tourism-opportunities-spec-review-2026-10-08.json"
+      ],
+      "dependency_scope": "WORK166 and WORK171 constrain later public claims and actions, not completion of the requirements document."
     },
     {
       "id": "UTP-WORK-175",
@@ -5621,6 +5626,42 @@
         "records/autonomous-500-program.json",
         "records/autonomous-food-discovery-review-2026-10-07.json",
         "records/autonomous-food-discovery-publication-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-191",
+      "title": "Build the tourism opportunities information section",
+      "category": "tourism_website",
+      "status": "proposed",
+      "readiness": "concept",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Unassigned; next authorized assistant batch may take the bounded website task.",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Recheck official source versions, then implement the specification with only supported guidance actions and existing cultural reading. Record visual, privacy, edition and live checks before release.",
+      "blockers": [],
+      "dependencies": [
+        "UTP-WORK-174",
+        "UTP-WORK-166",
+        "UTP-WORK-171"
+      ],
+      "dependency_scope": "WORK174 provides requirements. WORK166 constrains current guidance and application claims; WORK171 constrains confirmed timed itineraries. Unresolved application and field states may be represented honestly without enabling Apply or Book.",
+      "acceptance_criteria": [
+        "All eight implementation acceptance criteria in specs/tourism-opportunities-section.md have evidence or an explicit unresolved limitation that prevents the affected claim/action."
+      ],
+      "reuse_before_research": [
+        "specs/tourism-opportunities-section.md",
+        "research/collections/tourism-policy-opportunity.md",
+        "specs/tourism-fieldwork/mice-follow-up.md",
+        "research/destinations/flexible-visit-plans.json"
+      ],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-174",
+        "UTP-WORK-166",
+        "UTP-WORK-171"
+      ],
+      "evidence": [
+        "specs/tourism-opportunities-section.md"
       ]
     }
   ],
@@ -13837,6 +13878,28 @@
       ],
       "evidence": [
         "records/autonomous-food-discovery-review-2026-10-07.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-158",
+      "title": "Tourism opportunities requirements self-review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Requirements-only delivery; no website route implemented or deployed.",
+        "No fresh official-source retrieval, new legal or funding conclusion, provider contact or field confirmation.",
+        "Previously captured 11-page MICE and partial 30-page capital-document reviews retain their dated scope.",
+        "Same-assistant review; no independent human review claimed."
+      ],
+      "refs": [
+        "UTP-WORK-174"
+      ],
+      "evidence": [
+        "records/tourism-opportunities-spec-review-2026-10-08.json"
       ]
     }
   ],
