@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ffa4ad6e2d35bc18d1f930a1651bd235fb2d6d424350be300b5249faf94e525d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `63adb1a4ed50149f0a981b112226fdcc6493023daf895afa786438408075e4f9`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -186,7 +186,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-171 · Prepare three conference visitor itinerary drafts | proposed | concept | Ahimanikya Satapathy | Draft heritage, craft and food itineraries using confirmed records. | — |
 | UTP-WORK-172 · Assess operator readiness and trial proposal | proposed | concept | Ahimanikya Satapathy | Document delivery gaps and prepare a bounded trial with budget and permissions. | — |
 | UTP-WORK-173 · Prepare Boita policy and entrepreneurship brief | proposed | concept | Ahimanikya Satapathy | Synthesize observed barriers and practical recommendations in a five-page proposal. | — |
-| UTP-WORK-174 · Specify tourism opportunities website section | proposed | concept | Ahimanikya Satapathy | Define public scheme explanations and reviewed experience links for a later website batch. | — |
+| UTP-WORK-174 · Specify tourism opportunities website section | in_progress | reviewed | Ahimanikya Satapathy | Merge the checked specification under DEC225. Website implementation is a separate task; application and itinerary evidence remains open. | — |
 | UTP-WORK-175 · Prepare authorized engagement and outcome review | proposed | concept | Ahimanikya Satapathy | Prepare recipient-specific discussion pack and a measurement plan for Founder review. | — |
 | UTP-WORK-176 · Approved Odisha Roots cultural story integration | completed | approved | Ahimanikya Satapathy | Push and integrate the approved repository edition; retain targeted archival follow-ups. Website publication is separate. | — |
 | UTP-WORK-180 · Write museum, inscription and craft articles from existing tourism research | completed | approved | Ahimanikya Satapathy | Research drafts delivered; subsequent illustrated museum, inscription and craft stories published under UTP-REL-074. Continue local introductions and fieldwork only when resumed; PR138 no longer awaits merge. | — |
@@ -201,6 +201,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
 | UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 4 of 500 substantive items completed. Hourly continuation resumes the next eligible item; retain actual acceptance and publication evidence. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
+| UTP-WORK-191 · Build the tourism opportunities information section | proposed | concept | Ahimanikya Satapathy | Recheck official source versions, then implement the specification with only supported guidance actions and existing cultural reading. Record visual, privacy, edition and live checks before release. | — |
 
 ## Pending human review and decisions
 
@@ -645,6 +646,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-2026100602 | pass_with_limitations | False | Not yet merged or published.; External sharing services may retain older cached previews; no external scraper refresh performed. |
 | UTP-REV-156 | pass_with_limitations | False | No field inspection, current menu confirmation, recipe testing or independent Odia proofreading.; Historical source accounts are scoped; visitor questions are invitations rather than reported interviews.; Native PDF layout was not re-tested; HTML and text book tests passed.; Same assistant implemented and reviewed; no independent review claimed.; Publication awaits Founder review; existing eleven-page search approval remains unchanged. |
 | UTP-REV-157 | pass_with_limitations | False | Same assistant implemented and reviewed; no independent human review claimed.; No new field inspection, recipe testing, current menu or provider confirmation.; Native PDF layout was not retested; HTML/text book and image-credit export tests passed.; Existing eleven-page search eligibility retained; new collection is a public editorial preview. |
+| UTP-REV-158 | pass_with_limitations | False | Requirements-only delivery; no website route implemented or deployed.; No fresh official-source retrieval, new legal or funding conclusion, provider contact or field confirmation.; Previously captured 11-page MICE and partial 30-page capital-document reviews retain their dated scope.; Same-assistant review; no independent human review claimed. |
 
 ## Publication and application history
 
@@ -765,7 +767,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-257 | 2026-10-07T03:43:10.536279+00:00 | Founder-approved PR142 merged; Pages deployment succeeded. Three live stories, exact museum photo hashes and discovery connections verified. | Continue the next authorized research and editorial batch. |
 | UTP-EVT-258 | 2026-10-07T04:55:40.006600+00:00 | Prepared three flexible illustrated visit plans, saved starters and source-rich books; self-review and responsive checks passed. Operational itinerary verification remains separate. | Founder publication review. |
 | UTP-EVT-2026100602 | 2026-10-07T03:50:29+00:00 | Prepared home-page Open Graph/Twitter image change using existing credited Chilika photograph; full and coastal suites pass. | Present candidate for Founder publication decision. |
 | UTP-EVT-2026100603 | 2026-10-07T04:23:34.523081+00:00 | Replaced superseded Chilika sharing candidate with newly generated Human Natural Konark artwork following Founder clarification; AI provenance, source credit and same-licence adaptation recorded. Full and coastal checks passed; not published. | Present new artwork for Founder publication decision. |
@@ -775,6 +776,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-261 | 2026-10-07T07:08:20.250505+00:00 | Founder-approved PR146 merged and GitHub Pages deployment succeeded. Three live stories, licensed image hashes, stable journey IDs, book photographs and discovery/visit-plan links verified. | Continue authorized research; field-dependent verification remains deferred. |
 | UTP-EVT-262 | 2026-10-07T23:54:36.492740+00:00 | Founder authorized next 500 substantive UTP items without routine approvals. First four items implemented and checked; hourly continuation attached to this chat. Completion count awaits actual publication. | Publish the checked food discovery batch and record the first four completed items. |
 | UTP-EVT-263 | 2026-10-08T00:03:09.458010+00:00 | PR147 merged after passing validation; Pages deployment and live food hub, collection, three saved IDs, book chapters and full-image cover rule verified. First four substantive items completed; hourly continuation active. | Resume the next eligible program item without routine approval prompts. |
+| UTP-EVT-264 | 2026-10-08T00:55:09.256168+00:00 | Specified a tourism opportunities section with evidence-controlled guidance actions, existing cultural reading and public corrections. Requirements reviewed; implementation and field-dependent claims remain separate. | Merge specification, then record fifth substantive program item complete. |
 
 ## Deferred extensions
 

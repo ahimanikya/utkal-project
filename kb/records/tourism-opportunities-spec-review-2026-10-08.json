@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-08T00:55:09.256168+00:00",
+  "work_id": "UTP-WORK-174",
+  "program_item": "UTP-A500-005",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "deliverable": "specs/tourism-opportunities-section.md",
+  "version": "0.1",
+  "acceptance": {
+    "audiences_and_outcomes": "Four reader needs and concrete next steps defined.",
+    "architecture": "Single entry route, three anchored paths, existing story links and deferred detail routes.",
+    "evidence": "Document, application, operating, editorial and indexing states distinguished. Dated source scope retained.",
+    "action_boundaries": "Unknown application route cannot enable Apply; documentary story cannot enable booking.",
+    "contributions": "Public GitHub flow with no sensitive intake and no automatic approval.",
+    "accessibility_and_measurement": "Responsive, keyboard and no-JavaScript criteria; consent-controlled bounded event fields.",
+    "dependencies": "WORK166 and WORK171 remain open for current guidance/application flow and confirmed itinerary claims. Founder field TODO unchanged.",
+    "handoff": "Eight implementation acceptance criteria and separate proposed implementation task."
+  },
+  "verification": {
+    "method": "Read requirements against pilot, experience model, prior policy capture, follow-up and Founder TODO; repository link and governance validators.",
+    "bundle": "1241 concepts; 4873 local links; pass",
+    "website_code_changed": false
+  },
+  "limitations": [
+    "Requirements-only delivery; no website route implemented or deployed.",
+    "No fresh official-source retrieval, new legal or funding conclusion, provider contact or field confirmation.",
+    "Previously captured 11-page MICE and partial 30-page capital-document reviews retain their dated scope.",
+    "Same-assistant review; no independent human review claimed."
+  ],
+  "evidence_reused": [
+    "specs/tourism-experience-pilot.md",
+    "models/tourism-experience-record.md",
+    "research/collections/tourism-policy-opportunity.md",
+    "records/tourism-research-2026-10-05.json",
+    "specs/tourism-fieldwork/mice-follow-up.md",
+    "specs/founder-todo.md"
+  ]
+}

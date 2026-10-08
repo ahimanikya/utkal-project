@@ -14,3 +14,5 @@
 - [Six experience fieldwork pack](tourism-fieldwork/index.md)
 
 - [Founder TODO](founder-todo.md) — field-pilot decisions deferred while research continues.
+
+- [Tourism opportunities website section](tourism-opportunities-section.md) — audiences, content, evidence states and implementation acceptance.

@@ -122,3 +122,5 @@ Visitor experience release: [PR 23 publication evidence](records/visitor-experie
 
 - [Founder TODO](specs/founder-todo.md) — deferred field-pilot decisions.
 - [Six stories to read before a visit](research/stories/narratives/tourism-reading-collection.md) — museum, inscription and craft article drafts.
+
+- [Tourism opportunities section requirements](specs/tourism-opportunities-section.md) — official guidance, cultural reading and contribution flows, with operating dependencies kept explicit.
