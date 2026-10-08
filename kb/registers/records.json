@@ -5081,7 +5081,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
       "authorization": "UTP-DEC-202",
-      "next_action": "Document delivery gaps and prepare a bounded trial with budget and permissions.",
+      "next_action": "Use the WORK196 preparation pack after locally confirmed evidence and itinerary work are available; document actual delivery gaps and a separately costed trial for human decision. Field dependencies remain open.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-170",
@@ -5107,7 +5107,8 @@
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "specs/tourism-fieldwork/operator-readiness.md"
       ]
     },
     {
@@ -5785,6 +5786,34 @@
         "research/journey-starters.json",
         "research/voices/reading-journey.json",
         "records/odia-reading-companion-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-196",
+      "title": "Operator readiness and trial decision preparation pack",
+      "category": "tourism_pilot",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge the checked documentation and retain a receipt; no field assessment or trial authorized.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-172",
+        "UTP-REV-164"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "specs/tourism-fieldwork/operator-readiness.md",
+        "records/operator-readiness-review-2026-10-08.json"
+      ],
+      "reuse_before_research": [
+        "specs/tourism-fieldwork/index.md",
+        "specs/tourism-fieldwork/host-confirmation.md",
+        "specs/tourism-pilot-capacity.md",
+        "models/tourism-experience-record.md"
       ]
     }
   ],
@@ -14131,6 +14160,27 @@
       ],
       "evidence": [
         "records/reading-planner-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-164",
+      "title": "Operator readiness preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same-assistant review; no independent human or field review.",
+        "No current-source retrieval, host outreach, appointment, quote, trial, payment, legal or insurance assessment.",
+        "This is a preparation template; WORK172 and its field/itinerary dependencies are not completed."
+      ],
+      "refs": [
+        "UTP-WORK-196"
+      ],
+      "evidence": [
+        "records/operator-readiness-review-2026-10-08.json"
       ]
     }
   ],

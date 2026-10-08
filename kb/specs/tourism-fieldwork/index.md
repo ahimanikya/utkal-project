@@ -6,6 +6,7 @@ Prepare six research visits that can support useful stories and credible visitor
 
 - [Coordinator assignment](coordinator.md): vacancy, skills, six-day allocation, deliverables and human reporting.
 - [Confirmation checklist](host-confirmation.md): operating facts, access, costs and separate recording/publication permissions.
+- [Operator readiness and trial decision pack](operator-readiness.md): turn dated findings into a scoped assessment, resolve unknowns and prepare a human trial decision without implying a booking.
 - [Six introduction drafts](outreach-drafts.md): recipient-specific wording for Founder review.
 - [Quote and expense tracker](cost-tracker.md) and [editable workbook](cost-tracker.xlsx): replace assumptions with quotes, commitments and payments without double counting.
 - [MICE route follow up](mice-follow-up.md): latest retrieval limits and an unsent departmental enquiry.
