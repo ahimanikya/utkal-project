@@ -1,0 +1,113 @@
+{
+  "recorded_at": "2026-10-08T08:53:18.393698+00:00",
+  "status": "published",
+  "release_id": "UTP-REL-080",
+  "work_id": "UTP-WORK-193",
+  "program_item": "UTP-A500-008",
+  "authorization": "UTP-DEC-225",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/151",
+  "reviewed_head": "09f45a09bf546b051877b353db9eed14edb7f3e2",
+  "merge_commit": "26b9f70e19f86d60432abe58de7948e5bdad26ba",
+  "required_checks": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37752181095",
+    "result": "success"
+  },
+  "deployment": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37752421041",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "result": "success"
+  },
+  "review": "records/cultural-connections-review-2026-10-08.json",
+  "live": {
+    "checked_at": "2026-10-08T08:52:11.961938+00:00",
+    "result": "pass",
+    "checks": [
+      {
+        "url": "https://utkalproject.org/destinations/balasore/",
+        "http_status": 200,
+        "sha256": "4feb6c4a7f523858eee3598188c7a225c5bd1995678751bba3591b3773a735c9",
+        "trail_ids": [
+          "balasore-fiction"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/destinations/mayurbhanj/",
+        "http_status": 200,
+        "sha256": "53daa6378d8bee1b90606c8299372db7e7113adc85f5e30716a34c0bb36f4833",
+        "trail_ids": [
+          "mayurbhanj-voices"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/knowledge/chilika/",
+        "http_status": 200,
+        "sha256": "bf64ae7b47d55a7051eca9a9a6b7aee222d70184e5c85c8cf318d10c390379e3",
+        "trail_ids": [
+          "chilika-poetry"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/languages/",
+        "http_status": 200,
+        "sha256": "3e7dfb24712ee08a141133ef3892e809c3bd12bc2c87bb6e6cc2d77d524746e3",
+        "trail_ids": [
+          "mayurbhanj-voices"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/languages/odia/",
+        "http_status": 200,
+        "sha256": "b17c71cf730d9ae34ae3f8107e5a3f681e7db3c329a8a7346d1a44b6b36e08ae",
+        "trail_ids": [
+          "chilika-poetry"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/languages/santali/",
+        "http_status": 200,
+        "sha256": "a63250291d3baee6aaf8cc3a1279cc1b35cbb76031d86ab35440caf2114c2bc1",
+        "trail_ids": [
+          "mayurbhanj-voices"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/literature/",
+        "http_status": 200,
+        "sha256": "5a09e6c29daec79651c5803980855c126995b2e5d5edaad29efe62d540e281c2",
+        "trail_ids": [
+          "chilika-poetry",
+          "balasore-fiction"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/literature/six-acres-and-a-third/",
+        "http_status": 200,
+        "sha256": "14b1b7a7768ef202d622f4286360405867a486ade83186075ff6d929101c6525",
+        "trail_ids": [
+          "balasore-fiction"
+        ]
+      },
+      {
+        "url": "https://utkalproject.org/people/fakir-mohan-senapati/",
+        "http_status": 200,
+        "sha256": "42a6c89937169443988b610f79f91dff370fe5f258be16204172c8f8140fe444",
+        "trail_ids": [
+          "balasore-fiction"
+        ]
+      }
+    ],
+    "sitemap_url_count": 11,
+    "linked_fragments": "All three verified in live target pages.",
+    "browser": "Chrome live literature page expanded, both literary connections visible; anchor navigation settled at chilika-poetry.",
+    "screenshot": {
+      "path": "planning/utkala-odisha/review-assets/cultural-connections-2026-10-08.png",
+      "scope": "Live literature page after publication; replaces the local preview capture at this external workspace path."
+    }
+  },
+  "counting": "One public-edition cultural connection repair; three trails, nine affected pages, tests and commands are not separately counted.",
+  "limitations": [
+    "Existing factual and operating review limits retained.",
+    "Same-assistant review; no independent human or language review."
+  ]
+}
