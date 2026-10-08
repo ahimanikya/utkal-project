@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-10-08T07:49:23.977470+00:00",
+  "status": "published",
+  "release_id": "UTP-REL-079",
+  "work_id": "UTP-WORK-192",
+  "program_item": "UTP-A500-007",
+  "authorization": "UTP-DEC-225",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/150",
+  "reviewed_head": "960fea6a8a5a51e7d5f30688450852d3ddbcd26b",
+  "merge_commit": "fba848035b0d53f7680afce0a72436ca22410431",
+  "required_checks": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37745197714",
+    "result": "success"
+  },
+  "deployment": {
+    "run": "https://github.com/ahimanikya/utkal-project/actions/runs/37745495459",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "result": "success"
+  },
+  "review": "records/food-card-consistency-review-2026-10-08.json",
+  "live": {
+    "checked_at": "2026-10-08T07:48:20.153966+00:00",
+    "result": "pass",
+    "checks": [
+      {
+        "url": "https://utkalproject.org/journey/",
+        "http_status": 200,
+        "sha256": "49205dac3263bbeb57740176b5fbc8968438a2f2a959926ce6fae2e850490924",
+        "food_introductions_matching": 15,
+        "unchanged_context_checks": 6
+      },
+      {
+        "url": "https://utkalproject.org/food/three-tastes/",
+        "http_status": 200,
+        "sha256": "40d3ff7018978e999a923f3ae1df5488a2eea3de59beb5b5e03a7f9905a4a923",
+        "food_introductions_matching": 15,
+        "unchanged_context_checks": 6
+      }
+    ]
+  },
+  "counting": "One consistency repair across saved cards, reading links and portable books; individual fields, tests and six affected records are not separately counted.",
+  "limitations": [
+    "Existing factual and operating review limits retained.",
+    "Same-assistant self-review; no independent human review claimed."
+  ]
+}

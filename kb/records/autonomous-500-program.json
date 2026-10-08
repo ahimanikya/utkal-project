@@ -5,7 +5,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-225",
   "target_completed_items": 500,
-  "completed_items": 6,
+  "completed_items": 7,
   "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
   "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
   "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
@@ -88,19 +88,17 @@
     {
       "id": "UTP-A500-007",
       "title": "Keep saved food-card titles and summaries aligned with their published stories",
-      "status": "verified_pending_publication",
+      "status": "completed",
       "work_id": "UTP-WORK-192",
       "acceptance": "Six previously stale food cards use canonical story titles, leads and food-specific area labels; stable IDs, saved notes, practical cautions and source references remain intact; tests, browser check, PR, deployment and live receipt.",
       "evidence": [
-        "records/food-card-consistency-review-2026-10-08.json"
-      ]
+        "records/food-card-consistency-review-2026-10-08.json",
+        "records/food-card-consistency-publication-2026-10-08.json"
+      ],
+      "completed_at": "2026-10-08T07:49:23.977470+00:00"
     }
   ],
   "followup_candidates": [
-    {
-      "title": "Review current food-card summaries against the linked full stories",
-      "basis": "Existing journey catalogue derives summaries from regional notes; compare for stale wording before editing."
-    },
     {
       "title": "Continue bounded keyboard and visual audits on current inner pages",
       "basis": "UTP-WORK-075; select a documented gap, not previously passed checks."
@@ -117,5 +115,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-08T07:42:46.292566+00:00"
+  "updated_at": "2026-10-08T07:49:23.977470+00:00"
 }
