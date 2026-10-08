@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-08T10:02:44.635104+00:00",
+  "recorded_at": "2026-10-08T10:46:35.510893+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5757,6 +5757,32 @@
         "research/voices/collection.json",
         "research/journey-starters.json",
         "research/voices/culture-trails.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-195",
+      "title": "Reading-aware saved journey guidance",
+      "category": "website_experience",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish tested guidance and verify live delivered script.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-075",
+        "UTP-REV-163"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/reading-planner-review-2026-10-08.json"
+      ],
+      "reuse_before_research": [
+        "research/journey-starters.json",
+        "research/voices/reading-journey.json",
+        "records/odia-reading-companion-review-2026-10-08.json"
       ]
     }
   ],
@@ -14082,6 +14108,27 @@
       ],
       "evidence": [
         "records/odia-reading-companion-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-163",
+      "title": "Reading-aware planner review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same-assistant review; not independent human review.",
+        "Print DOM checked for wording; no new native PDF pagination or physical-device/screen-reader review.",
+        "Reading mode changes guidance only. Existing travel checklist stays optional and its marks are retained."
+      ],
+      "refs": [
+        "UTP-WORK-195"
+      ],
+      "evidence": [
+        "records/reading-planner-review-2026-10-08.json"
       ]
     }
   ],
