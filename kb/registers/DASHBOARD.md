@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `009a087717afe9967d1742c5f45553795358bf2ede59777a7d05867e40de4a3b`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `c9b3c8ac6ef687fc6fe50261d5a99eba9c82a5df592ff32c26f29ddbcb512440`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -204,6 +204,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
 | UTP-WORK-193 · Restore cultural connections on eligible public pages | completed | reviewed | Ahimanikya Satapathy | Nine live pages and reading anchors verified; future trails must satisfy route availability and retain source limits. | — |
+| UTP-WORK-194 · Illustrated Odia reading companion | in_progress | reviewed | Ahimanikya Satapathy | Publish after passing required checks and verify the live companion and saved chapter payload. | — |
 
 ## Pending human review and decisions
 
@@ -652,6 +653,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-159 | pass_with_limitations | False | Same-assistant self-review, not independent human factual review.; Application route and acceptance remain unverified; WORK166 stays open.; Capital document review limited to pages 1 and 3–5 of 30.; Reading plans are not confirmed group itineraries; WORK171 and Founder field TODO remain open.; Existing consent-controlled page views only; custom section/interaction events deferred.; New route remains outside the eleven-page search shortlist. |
 | UTP-REV-160 | pass_with_limitations | False | Same-assistant review, not independent human review.; Food areas describe article/planning context, not a restaurant location or booking.; Existing operating cautions and dated source scope retained. |
 | UTP-REV-161 | pass_with_limitations | False | Same-assistant self-review, not independent human or language-specialist review.; Reading connections do not confirm visits, local hosts or walking routes.; Physical-device and screen-reader checks remain outside this bounded review. |
+| UTP-REV-162 | pass_with_limitations | False | Same-assistant self-review, not independent human or Odia-specialist review.; No new critical reading, translation review, library availability or visitor access confirmation.; Physical-device and screen-reader checks remain outside this bounded review. |
 
 ## Publication and application history
 
@@ -775,7 +777,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-262 | 2026-10-07T23:54:36.492740+00:00 | Founder authorized next 500 substantive UTP items without routine approvals. First four items implemented and checked; hourly continuation attached to this chat. Completion count awaits actual publication. | Publish the checked food discovery batch and record the first four completed items. |
 | UTP-EVT-263 | 2026-10-08T00:03:09.458010+00:00 | PR147 merged after passing validation; Pages deployment and live food hub, collection, three saved IDs, book chapters and full-image cover rule verified. First four substantive items completed; hourly continuation active. | Resume the next eligible program item without routine approval prompts. |
 | UTP-EVT-264 | 2026-10-08T00:55:09.256168+00:00 | Specified a tourism opportunities section with evidence-controlled guidance actions, existing cultural reading and public corrections. Requirements reviewed; implementation and field-dependent claims remain separate. | Merge specification, then record fifth substantive program item complete. |
 | UTP-EVT-265 | 2026-10-08T00:59:19.716262+00:00 | PR148 merged after required checks passed. Versioned opportunities requirements complete the fifth substantive item. No website deployment was necessary or claimed; application and field-confirmation tasks stay open. | Implement the bounded opportunities page with fresh source checks or select another eligible independent task. |
@@ -785,6 +786,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-269 | 2026-10-08T07:49:23.977470+00:00 | PR150 merged after passing checks; deployment and live food catalogue verified. Current food titles, summaries and areas align with articles while saved identities and practical source context remain. Seventh program item complete. | Continue another eligible backlog item without routine approval prompts. |
 | UTP-EVT-270 | 2026-10-08T08:46:32.657153+00:00 | Route-aware selection restores three existing cultural connections across nine public pages. Narratives, credit and source limitations retained; unit, built-output, phone, desktop and keyboard checks passed. | Publish after required checks, then verify live pages. |
 | UTP-EVT-271 | 2026-10-08T08:53:18.393698+00:00 | PR151 passed checks, merged and deployed. Nine live pages carry the three cultural connections with credits and source limitations; all reading anchors resolve and the eleven-route sitemap is unchanged. Eighth program item completed. | Continue the next eligible independent item. |
+| UTP-EVT-272 | 2026-10-08T09:54:35.283829+00:00 | Four existing writer ideas now have an illustrated reading companion and portable chapters. 483 full and 91 coastal tests pass; Chrome saving, note persistence, photo-book generation and responsive layouts checked. Source scope and search hold retained. | Publish after required checks, then verify live output. |
 
 ## Deferred extensions
 

@@ -1,0 +1,17 @@
+---
+import Shell from '../../layouts/Shell.astro';
+import VisitorTrail from '../../components/VisitorTrail.astro';
+import trail from '../../../../../kb/research/voices/reading-journey.json';
+import selection from '../../../../../kb/research/journey-starters.json';
+import {bookPhotos} from '../../data/book-photos';
+const choices=selection.starters.filter(s=>trail.starter_ids.includes(s.id));
+const photos=trail.chapters.map(c=>bookPhotos[c.photo]);
+---
+<Shell title={trail.title} description={trail.intro} active="explore" wide related={false}>
+<div class="wrap reading-trail">
+<noscript><p class="notice">Enable JavaScript to save this collection. The stories, reading questions and source links remain available below.</p></noscript>
+<VisitorTrail trail={trail} choices={choices} headingLevel="h1"/>
+<details><summary>Photographs & source notes</summary><p>Assembled {trail.reviewed_on}. {trail.review_scope}</p><ul>{trail.sources.map(s=><li><a href={s.url}>{s.title}</a><p>{s.note}</p></li>)}</ul><ul>{photos.map(p=><li><a href={p.source}>{p.caption}</a> · {p.creator} · <a href={p.license_url}>{p.license}</a>. {p.changes}</li>)}</ul></details>
+</div>
+</Shell>
+<style>.reading-trail>details{margin:36px 0 60px;font-size:14px;max-width:85ch;overflow-wrap:anywhere}.reading-trail summary{padding:16px 0;cursor:pointer}.reading-trail li{margin:14px 0}</style>
