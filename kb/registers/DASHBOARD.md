@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `d1d29177db10dd34751032cb7ca7111b08f2b16b954e31c25f4c9a46de7fd739`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `60c1f663b150bd75e69123a7caf7a341049a4e63b157b2a419e9d4926b08a7b3`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -213,6 +213,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-200 · Maritime memory and evidence reading story | completed | published | Ahimanikya Satapathy | Published with source and image credits; independent editorial and field review remain future work. | — |
 | UTP-WORK-201 · Current delivery and historical-evidence KB navigation | completed | applied | Ahimanikya Satapathy | Merged documentation verified; future work should enter through canonical registers and preserve historical evidence. | — |
 | UTP-WORK-202 · Transliteration-aware collection search | completed | published | Ahimanikya Satapathy | Published and verified; preserve explicit aliases and non-Latin distinctions in future search work. | — |
+| UTP-WORK-203 · Share current Explore results | in_progress | reviewed | Ahimanikya Satapathy | Merge after required CI, publish and verify live sharing before counting. | — |
 
 ## Pending human review and decisions
 
@@ -670,6 +671,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-168 | pass_with_limitations | False | Source-scoped same-assistant review; no independent specialist or field confirmation. |
 | UTP-REV-169 | pass_with_limitations | False | Same-assistant review; no fresh Search Console or human editorial review. |
 | UTP-REV-170 | pass_with_limitations | False | Same-assistant review; explicit aliases still required for transliteration, no independent language review. |
+| UTP-REV-171 | pass_with_limitations | False | Same-assistant review; fallback browser path verified, native share and clipboard success not exercised. |
 
 ## Publication and application history
 
@@ -799,7 +801,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-280 | 2026-10-09T03:16:24.324436+00:00 | Backup reads now ignore superseded completions and errors. Keyboard preview/merge/cancel/error paths checked at ten-journey capacity; synthetic notes persisted. 584 automated tests pass. | Merge and publish after required checks; count only after live receipt. |
 | UTP-EVT-281 | 2026-10-09T03:23:55.654851+00:00 | PR156 passed required validation, merged and deployed. Live preview heading and capacity explanation present; script matches tested bytes; eleven-route sitemap unchanged. Thirteenth substantive item completed. | Continue the next eligible independent item. |
 | UTP-EVT-282 | 2026-10-09T03:40:16.702510+00:00 | Added read-only completion evidence validator and CI check. Seventeen fault-injection and compatibility tests pass; no website change or additional completed item claimed yet. | Merge after passing required checks and verify delivered tooling. |
 | UTP-EVT-283 | 2026-10-09T03:45:25.251776+00:00 | PR157 passed required CI and merged at the reviewed head. Verified merged tooling and instructions byte-for-byte. Fourteenth substantive item completed; website deployment not required. | Continue the next eligible independent deliverable. |
@@ -809,6 +810,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-287 | 2026-10-09T10:55:10.943119+00:00 | PR159 passed required CI and merged at the reviewed head. README and two KB entry pages verified byte-for-byte on main. Sixteenth substantive item completed; documentation-only delivery needs no website deployment. | Continue next eligible independent deliverable. |
 | UTP-EVT-288 | 2026-10-09T11:52:32.832280+00:00 | Reproduced accented Latin search mismatch; fixed Latin-only accent normalization while preserving other script marks. Three new regression tests and 587 website tests pass. Chrome confirms three pitha results and distinct Odia vowel queries. | Merge tested head and publish through approved workflow. |
 | UTP-EVT-289 | 2026-10-09T12:01:34.148371+00:00 | PR160 passed required validation and merged at the reviewed head. Authorized workflow deployed the search fix; live piṭha query finds three food stories with result-count keyboard focus, and live script bytes match tested output. Seventeenth substantive item completed. | Continue the next eligible independent deliverable. |
+| UTP-EVT-290 | 2026-10-09T12:54:04.535898+00:00 | Explore shares rendered selections with explicit copy. Three URL-boundary tests and 590 website tests pass; Chrome fallback link preserves filters, restores results and keeps other page links clean. No external message sent. | Merge passing reviewed head and publish. |
 
 ## Deferred extensions
 
