@@ -6105,6 +6105,38 @@
         "records/program-record-shapes-review-2026-10-10.json",
         "records/program-record-shapes-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-208",
+      "title": "Konark and Mamallapuram reciprocal heritage learning proposal",
+      "category": "global_connections",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant for desk preparation only",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge checked desk proposal and verify documentation delivery; no activity or outreach is authorized.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-176"
+      ],
+      "acceptance_criteria": [
+        "A sourced Konark–Mamallapuram candidate brief separates documented heritage characteristics from proposed cooperation; includes reciprocal visitor-story activity, participant roles and vacancies, outputs, staged human decisions, budget categories, benefit measures and stop conditions. Evidence records reuse Konark and global research, add only missing counterpart facts, and make no claim of partnership, outreach or current service quality. Linked KB navigation, source/scope review, repository checks and merged documentation receipt; no website deployment."
+      ],
+      "evidence": [
+        "records/konark-mamallapuram-review-2026-10-10.json",
+        "records/konark-mamallapuram-evidence-2026-10-10.json",
+        "specs/konark-mamallapuram-learning-proposal.md"
+      ],
+      "reuse_before_research": [
+        "specs/global-connections.md",
+        "research/collections/global-connections.md",
+        "research/places/konark.md",
+        "research/sources/konark.md",
+        "specs/boita-tourism-discussion-framework.md"
+      ]
     }
   ],
   "decisions": [
@@ -14696,6 +14728,28 @@
       "limitations": [
         "Same-assistant implementation and review. Tests validate record handling, not authenticity of approval, factual truth or live publication.",
         "Scope is registry/authority shape and duplicate handling, not an exhaustive schema validator for every field."
+      ]
+    },
+    {
+      "id": "UTP-REV-176",
+      "title": "Konark and Mamallapuram desk proposal review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-208",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/konark-mamallapuram-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant source and editorial review; no independent architectural, language or local review.",
+        "Local willingness, existing agreements, costs and operating arrangements remain unknown. This is a desk candidate, not an agreed exchange.",
+        "Online source text inspected; full external pages not archived. No website change or deployment."
       ]
     }
   ],

@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-09T22:35:11.659243+00:00",
+  "program_item": "UTP-A500-023",
+  "work_id": "UTP-WORK-208",
+  "authorization": "UTP-DEC-225",
+  "scope": "Desk candidate comparison for a proposed reciprocal learning activity; no partnership asserted.",
+  "reuse": {
+    "query": "python3 tools/research/query_research.py \"Konark Mamallapuram global connections\"; focused KB search for Mamallapuram/Mahabalipuram and town pairing",
+    "result": "Reused Global Connections operating brief, six-city comparison, existing Konark place/source and Boita framework. No matching Mamallapuram profile or pair proposal found in scoped search. Dated map is not exhaustive semantic deduplication.",
+    "existing_source_ids": [
+      "konark",
+      "legacy-unesco"
+    ],
+    "new_source_id": "global-mamallapuram",
+    "relationship": "Both UNESCO profiles have the same publisher; repeated Konark captures do not add independent corroboration.",
+    "automation_boundary": "No existing research queue task or imported observation modified; this is project-native candidate preparation."
+  },
+  "claims": [
+    {
+      "source_id": "konark",
+      "url": "https://whc.unesco.org/en/list/246/",
+      "locators": [
+        "English description",
+        "Outstanding Universal Value — Brief synthesis",
+        "Date of Inscription"
+      ],
+      "supports": "Thirteenth-century chariot-form temple, Kalingan architectural tradition, Bay of Bengal setting and 1984 inscription.",
+      "excluded": "Conflicting horse counts, unqualified legends, undated visitor-growth figure, present service or condition claims."
+    },
+    {
+      "source_id": "global-mamallapuram",
+      "url": "https://whc.unesco.org/en/list/249/",
+      "locators": [
+        "English description",
+        "Outstanding Universal Value — Brief synthesis",
+        "Date of Inscription"
+      ],
+      "supports": "Seventh/eighth-century Pallava monuments, monument types, Coromandel coastal setting, historical port description and 1984 inscription.",
+      "excluded": "Present conservation condition, commercial readiness, municipal status or evidence of a direct Konark link."
+    }
+  ],
+  "proposal_not_fact": [
+    "Pair suitability",
+    "Session length and outputs",
+    "Participant roles and possible benefit",
+    "Continuation criteria and resource categories"
+  ],
+  "unknown": [
+    "Existing town-to-town agreements",
+    "Local interest and representation",
+    "Current services and costs",
+    "Permissions and human reviewers"
+  ],
+  "capture_limit": "Source text inspected online; no full-page archive or independent scholarly review. No copyrighted images or extended source extracts copied."
+}

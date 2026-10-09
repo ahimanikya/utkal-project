@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b03a99412a0b16d3d963fbf9eca09d4b494e92a74a9a3330161a4164cde51376`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2991a985f3844450562228c93ddb8b771a898209cd9a3545dc8a04930fb78096`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -218,6 +218,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-205 · Portable maritime reading story | completed | published | Ahimanikya Satapathy | Delivered; retain source boundaries and separate museum save. | — |
 | UTP-WORK-206 · Boita desk discussion framework | completed | applied | Ahimanikya Satapathy | Desk framework merged. WORK173 requires actual field evidence before a field-based proposal; no engagement or trial authorized. | — |
 | UTP-WORK-207 · Autonomous checker registry and authority shape validation | completed | applied | Ahimanikya Satapathy | Tested tooling merged and verified on main; delivery receipt recorded. | — |
+| UTP-WORK-208 · Konark and Mamallapuram reciprocal heritage learning proposal | in_progress | reviewed | Ahimanikya Satapathy | Merge checked desk proposal and verify documentation delivery; no activity or outreach is authorized. | — |
 
 ## Pending human review and decisions
 
@@ -680,6 +681,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-173 | pass_with_limitations | False | Same-assistant testing, not independent editorial or specialist historical review.; Download event capture timed out; browser reported preparation and download request, but downloaded file and native PDF/physical-device output were not inspected. |
 | UTP-REV-174 | pass_with_limitations | False | Same-assistant editorial review; no independent practitioner, legal or policy review.; No new external research, host contact or field observation; proposals require relevant human and institutional review.; Five-part Markdown framework, not a paginated PDF or the completed field-based five-page proposal. |
 | UTP-REV-175 | pass_with_limitations | False | Same-assistant implementation and review. Tests validate record handling, not authenticity of approval, factual truth or live publication.; Scope is registry/authority shape and duplicate handling, not an exhaustive schema validator for every field. |
+| UTP-REV-176 | pass_with_limitations | False | Same-assistant source and editorial review; no independent architectural, language or local review.; Local willingness, existing agreements, costs and operating arrangements remain unknown. This is a desk candidate, not an agreed exchange.; Online source text inspected; full external pages not archived. No website change or deployment. |
 
 ## Publication and application history
 
@@ -812,7 +814,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-290 | 2026-10-09T12:54:04.535898+00:00 | Explore shares rendered selections with explicit copy. Three URL-boundary tests and 590 website tests pass; Chrome fallback link preserves filters, restores results and keeps other page links clean. No external message sent. | Merge passing reviewed head and publish. |
 | UTP-EVT-291 | 2026-10-09T13:07:31.039869+00:00 | PR161 passed required validation and merged at the reviewed head. Approved workflow deployed selected-result sharing; live keyboard fallback retains query, topic, area and order, and script bytes match tested output. Eighteenth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-292 | 2026-10-09T13:57:22.383939+00:00 | Reproduced stale audio resume starting playback after cancellation. Context ownership now rejects superseded starts and failures. Five regression tests, 595 website tests and local keyboard playback controls pass; subsequent browser timeout preserved as limitation. | Merge tested head, publish and verify live files. |
 | UTP-EVT-293 | 2026-10-09T14:09:16.992506+00:00 | PR162 passed required validation, merged exact reviewed head, and deployed through approved main workflow. Live Chilika inline audio controller matches tested bytes. Nineteenth substantive item completed; browser disconnect and acoustic-review limits retained. | Continue the next eligible independent deliverable. |
@@ -822,6 +823,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-297 | 2026-10-09T17:22:56.316407+00:00 | PR164 passed required checks and merged exact reviewed head. Boita discussion framework and navigation verified on main. Item21 delivered as documentation; field-based WORK173 and operational dependencies remain open. | Continue the next eligible independent deliverable. |
 | UTP-EVT-298 | 2026-10-09T22:23:21.355695+00:00 | Reproduced ambiguous duplicate IDs and malformed authority crashes in standalone program checker. Added validated registry lookup and safe authority handling; 22 tests pass and valid/invalid inputs remain untouched. | Merge tested tooling and verify remote receipt. |
 | UTP-EVT-299 | 2026-10-09T22:28:59.509048+00:00 | PR165 passed required checks and merged the exact reviewed head. Both validator tooling files match main. Item22 delivered with 22 passing tests; duplicate IDs and malformed authority now produce findings without changing input. | Continue the next eligible independent deliverable. |
+| UTP-EVT-300 | 2026-10-09T22:36:10.122757+00:00 | Prepared Konark and Mamallapuram reciprocal heritage learning candidate using existing Konark research and a UNESCO counterpart source. Historical comparison is separated from proposed activity, costs, participation and municipal status. | Merge tested documentation and record delivery; no outreach or activity launch. |
 
 ## Deferred extensions
 

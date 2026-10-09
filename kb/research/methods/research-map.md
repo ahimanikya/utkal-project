@@ -413,3 +413,7 @@ The [tourism pilot](../../specs/tourism-experience-pilot.md), [evidence brief](.
 ## Tourism reading follow-up on 6 October 2026
 
 The [six-story collection](../stories/narratives/tourism-reading-collection.md) now includes Tarakasi, Jobra and Raghurajpur. Existing craft, place, person and PIB identities are reused. Two new source records cover a credited wirework process and the museum workshop subpage. Museum pages share provenance. [Follow-up evidence](../stories/narratives/tourism-reading-followup-evidence.json) records full-page retrieval, unresolved dates excluded from narration, media candidates and pending field questions. Imported research scope remains frozen.
+
+## Global Connections town candidate on 10 October 2026
+
+The [Konark and Mamallapuram learning proposal](../../specs/konark-mamallapuram-learning-proposal.md) extends the existing Global Connections model to a possible domestic exchange. It reuses the `konark` source identity and adds `global-mamallapuram` for the counterpart property. Both UNESCO profiles share a publisher; this is a comparison, not independent corroboration or evidence of a relationship. [Claim and reuse record](../../records/konark-mamallapuram-evidence-2026-10-10.json). No imported observation, research queue task, counterpart appointment or municipal partnership is changed.
