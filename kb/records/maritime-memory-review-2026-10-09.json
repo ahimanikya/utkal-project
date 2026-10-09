@@ -1,0 +1,51 @@
+{
+  "recorded_at": "2026-10-09T10:32:59.462143+00:00",
+  "work_id": "UTP-WORK-200",
+  "program_item": "UTP-A500-015",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "One illustrated maritime reading story; Explore discovery, Global Connections cross-link, correction entry and museum save action.",
+  "source_review": [
+    {
+      "id": "maritime-culture-2025",
+      "title": "Bali Jatra commemorates rich maritime heritage and culture of Odisha",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100365",
+      "note": "Ministry of Culture, 6 February 2025. Release text rechecked 9 October 2026; used for contemporary commemoration, not proof of a particular ancient route or household participation rate."
+    },
+    {
+      "id": "maritime-anchor",
+      "title": "Geochemical provenance of an Indo-Arabian stone anchor from Manikapatna highlights the medieval maritime trade of India",
+      "url": "https://www.vliz.be/imisdocs/publications/381044.pdf",
+      "note": "Tripati and colleagues, Scientific Reports 12, 13559 (2022), DOI 10.1038/s41598-022-17910-9. Abstract, location and methods text inspected in the repository PDF on 9 October 2026. Nature’s page could not be fetched. No independent replication or exact voyage reconstruction claimed."
+    },
+    {
+      "id": "maritime-sembiran",
+      "title": "Sembiran: The beginnings of Indian contact with Bali",
+      "url": "https://researchportalplus.anu.edu.au/en/publications/sembiran-the-beginnings-of-indian-contact-with-bali/",
+      "note": "I. Wayan Ardika and Peter Bellwood, Antiquity 65 (1991), pages 221–232. ANU abstract and bibliographic record rechecked 9 October 2026; full paper not inspected in this review. Scope is India–Bali contact, not an exclusive Odisha origin."
+    }
+  ],
+  "verification": {
+    "full_tests": 493,
+    "coastal_tests": 91,
+    "bundle": "1242 concepts, 4894 local links pass",
+    "public_search": "New route explicitly held; existing eleven indexable routes unchanged.",
+    "browser": "Chrome local publication at 1440x1000 and 390x844. Hero and narrow prose visually reviewed; no 390px overflow; both museum photographs load and retain contain framing. Keyboard Source 2 opens disclosure and focuses maritime-anchor. Museum save announces Added.",
+    "visual_correction": "Renamed hero class after visual review found a collision with shared story-opening typography.",
+    "test_corrections": "Updated expected static page and Explore entry counts for one added route; added explicit search hold after initial coverage checks rejected an unclassified route.",
+    "no_script": "Story, images, sources and guide links rendered in static HTML; only saving needs JavaScript.",
+    "source_mapping": "Three existing source IDs reused. Ceremony account supports remembrance; archaeometric study supports probable rock provenance; ANU abstract supports India–Bali contact only. No inferred ancestry, population-wide participation, itinerary, cargo or current display claims.",
+    "image_provenance": "Reused two existing Gouravmoy Mohanty photographs, CC BY-SA 3.0; credits and 2013 dates retained; no generated historical scene."
+  },
+  "limitations": [
+    "Same-assistant source and visual review; not independent historian, community or language review.",
+    "Full Sembiran article not read. Anchor PDF inspection scoped to abstract, location and methods; publisher page fetch failed.",
+    "No field visit, current exhibition confirmation, physical-device, screen-reader or PDF pagination test."
+  ],
+  "publication": "Pending PR checks, exact reviewed-head merge, authorized workflow and live receipt."
+}

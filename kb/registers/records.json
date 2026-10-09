@@ -5892,6 +5892,34 @@
         "records/autonomous-integrity-review-2026-10-09.json",
         "records/autonomous-integrity-merged-2026-10-09.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-200",
+      "title": "Maritime memory and evidence reading story",
+      "category": "editorial_and_website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge and publish tested story, then verify live output before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-168"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/maritime-memory-review-2026-10-09.json",
+        "research/stories/narratives/maritime-memory.json"
+      ],
+      "reuse_before_research": [
+        "research/history/maritime-evidence.md",
+        "research/history/manikapatna-anchor.md",
+        "research/history/bali-and-indonesia.md",
+        "research/culture/boita-bandana.md"
+      ]
     }
   ],
   "decisions": [
@@ -14319,6 +14347,25 @@
       ],
       "evidence": [
         "records/autonomous-integrity-review-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-168",
+      "title": "Maritime memory story source and visual review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Source-scoped same-assistant review; no independent specialist or field confirmation."
+      ],
+      "refs": [
+        "UTP-WORK-200"
+      ],
+      "evidence": [
+        "records/maritime-memory-review-2026-10-09.json"
       ]
     }
   ],
