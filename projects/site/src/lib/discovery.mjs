@@ -1,5 +1,6 @@
-// Keep Odia vowel signs and other meaningful combining marks intact.
-export function normaliseSearch(value){return String(value).normalize('NFKC').toLocaleLowerCase().replace(/[À-ž]/g,c=>c.normalize('NFD').replace(/[\u0300-\u036f]/g,'' )).replace(/[\p{P}\p{Z}\s]+/gu,' ').trim();}
+// Fold Latin accents (including ṭ, ḍ and ṣ) without stripping other scripts' marks.
+// This matches spelling variants; it does not transliterate or rewrite displayed text.
+export function normaliseSearch(value){return String(value).normalize('NFKC').toLocaleLowerCase().replace(/\p{Script=Latin}[\u0300-\u036f]*/gu,c=>c.normalize('NFD').replace(/[\u0300-\u036f]/g,'')).replace(/[\p{P}\p{Z}\s]+/gu,' ').trim();}
 export function matchesDiscovery(entry,{q='',topic='All',region='All'}={}){
  const haystack=normaliseSearch([entry.label,entry.dek,entry.category,...(entry.regions||[]),...(entry.aliases||[])].join(' '));
  return (topic==='All'||entry.category===topic)&&(region==='All'||(entry.regions||[]).includes(region))&&normaliseSearch(q).split(/\s+/).every(word=>haystack.includes(word));

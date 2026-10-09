@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-09T11:52:32.832280+00:00",
+  "program_item": "UTP-A500-017",
+  "work_id": "UTP-WORK-202",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Shared search normalization; no changes to visible editorial spelling, aliases, search eligibility or stored personal data.",
+  "finding": "The previous À–ž range left ṭ intact, so piṭha failed to match Pitha. Three new regression tests failed before the fix.",
+  "verification": {
+    "regressions": "Latin Extended Additional, composed/decomposed forms, both matching directions, Greek/Devanagari/Arabic/Odia mark preservation, Odia vowel distinctions, filter conjunctions and explicit-alias boundaries.",
+    "full_tests": 496,
+    "coastal_tests": 91,
+    "browser": "Chrome publication build: piṭha with Food filter returns Enduri pitha, Poda pitha and Tala pitha; decomposed pit+combining-dot-below+ha gives same results; keyboard submit focuses result-count; ପିଠା gives same three through existing aliases, ପଠା gives zero. Input spelling remains unchanged.",
+    "source_review": "Implementation and existing discovery entries only; no new factual, translation or historical claim.",
+    "search_scope": "Search engine publication eligibility unchanged; this changes on-site matching only."
+  },
+  "limitations": [
+    "Same-assistant review; not an independent language or screen-reader review.",
+    "Accent folding is Latin spelling normalization, not transliteration; Odisha and Oḍiśā still require an explicit alias to bridge sh/s."
+  ],
+  "publication": "Pending passing PR, reviewed-head merge, authorized deployment and live receipt."
+}

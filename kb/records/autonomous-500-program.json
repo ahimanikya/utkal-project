@@ -205,6 +205,16 @@
         "records/kb-navigation-merged-2026-10-09.json"
       ],
       "completed_at": "2026-10-09T10:55:10.943119+00:00"
+    },
+    {
+      "id": "UTP-A500-017",
+      "title": "Match Latin transliteration accents without erasing Odia search distinctions",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-202",
+      "acceptance": "Latin Extended Additional and decomposed spellings match plain-Latin labels in both search consumers, while Odia vowel signs, non-Latin marks, filters and visible spelling remain intact. Reproduce failing cases, regression tests, browser search check, tested PR, deployment and live receipt.",
+      "evidence": [
+        "records/transliteration-search-review-2026-10-09.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -224,5 +234,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-09T10:55:10.943119+00:00"
+  "updated_at": "2026-10-09T11:52:32.832280+00:00"
 }
