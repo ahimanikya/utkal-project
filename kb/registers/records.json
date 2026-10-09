@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-09T10:45:48.694027+00:00",
+  "recorded_at": "2026-10-09T10:50:40.761263+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5921,6 +5921,27 @@
         "research/history/manikapatna-anchor.md",
         "research/history/bali-and-indonesia.md",
         "research/culture/boita-bandana.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-201",
+      "title": "Current delivery and historical-evidence KB navigation",
+      "category": "knowledge_operations",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge the reviewed KB navigation after required CI, then record Git delivery; no public-site deployment required.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-169"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/kb-navigation-review-2026-10-09.json"
       ]
     }
   ],
@@ -14368,6 +14389,26 @@
       ],
       "evidence": [
         "records/maritime-memory-review-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-169",
+      "title": "KB entry navigation and status distinctions reviewed",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-201",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/kb-navigation-review-2026-10-09.json"
+      ],
+      "limitations": [
+        "Same-assistant review; no fresh Search Console or human editorial review."
       ]
     }
   ],

@@ -8,6 +8,10 @@ Utkal Project is an instance of Utkal Blueprint.
 
 **[Read the complete project KB](kb/index.md).**
 
+To resume work, start with the [current work and handovers](kb/registers/DASHBOARD.md), the [active 500-item programme and delivery evidence](kb/records/autonomous-500-program.json), and the [publication and review record guide](kb/records/index.md). Earlier dated reviews describe their own snapshots; they are not a current backlog.
+
+The website is a public preview. Publication, editorial review and search eligibility are separate states. See the [KB's current delivery guide](kb/index.md#current-delivery-and-open-work) before treating a research entry as published, a visitor lead as confirmed, or an eligible page as indexed by Google.
+
 The KB contains the governing model, working arrangements, roles, records and knowledge. Executable maintenance tools live in `tools/`.
 
 Directory repair and basic starter: applied to main; see [migration status](kb/reference/repair-status.md).

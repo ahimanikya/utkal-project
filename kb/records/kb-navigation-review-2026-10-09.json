@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-09T10:50:40.761263+00:00",
+  "program_item": "UTP-A500-016",
+  "work_id": "UTP-WORK-201",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "README, KB landing page and records index navigation; historical publication evidence unchanged.",
+  "verification": {
+    "entry_links": "All local links and explicit heading anchors on the three changed entry pages resolve.",
+    "search_status": "Compared saved activation receipt, search-publication.json and maritime live receipt: eleven eligible routes, not proof of Google indexing. Search Console uncertainty retained.",
+    "authority": "Routes readers to canonical registers, current programme and scoped review queue; no new appointment, approval, source claim or field confirmation.",
+    "historical_evidence": "Older records retained; only current navigation labels and explanations changed.",
+    "public_output": "No website source, edition, asset or workflow changed."
+  },
+  "limitations": [
+    "Same-assistant documentation review; no fresh Search Console session or human editorial review.",
+    "Dated search snapshot explicitly points readers to later release evidence; navigation is not automatic live status monitoring."
+  ],
+  "publication": "Pending passing PR and exact-head merge; website deployment not required for KB-only navigation."
+}

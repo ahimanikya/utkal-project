@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8a5e11fc17d6ed1fc3833a741a8d72e574dec6377cc408d67f3125da9443b17e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `ce4fbb24021ee32006a19f1d6fd44944d60aad34782b325ecb7bfde47e5f622a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -211,6 +211,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-198 · Backup import freshness and keyboard continuity | completed | reviewed | Ahimanikya Satapathy | Published with live HTML and script verification; physical-device and screen-reader testing remain separate. | — |
 | UTP-WORK-199 · Autonomous program completion evidence integrity | completed | reviewed | Ahimanikya Satapathy | Merged with required CI passing; current completion count and linked evidence validated. Continue substantive backlog work. | — |
 | UTP-WORK-200 · Maritime memory and evidence reading story | completed | published | Ahimanikya Satapathy | Published with source and image credits; independent editorial and field review remain future work. | — |
+| UTP-WORK-201 · Current delivery and historical-evidence KB navigation | in_progress | reviewed | Ahimanikya Satapathy | Merge the reviewed KB navigation after required CI, then record Git delivery; no public-site deployment required. | — |
 
 ## Pending human review and decisions
 
@@ -666,6 +667,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-166 | pass_with_limitations | False | Same-assistant review, not independent human review.; Asynchronous race order verified in deterministic unit tests; not simulated via real disk timing.; No physical-device or screen-reader review. |
 | UTP-REV-167 | pass_with_limitations | False | Same-assistant review; record consistency does not authenticate evidence or replace factual and live checks. |
 | UTP-REV-168 | pass_with_limitations | False | Source-scoped same-assistant review; no independent specialist or field confirmation. |
+| UTP-REV-169 | pass_with_limitations | False | Same-assistant review; no fresh Search Console or human editorial review. |
 
 ## Publication and application history
 
@@ -794,7 +796,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-276 | 2026-10-08T22:50:37.676701+00:00 | Prepared a scoped readiness assessment, six-lead gap map and trial decision sheet. Six documentary scenarios reviewed; no provider assessed and WORK172 dependencies remain open. | Merge checked documentation and save receipt before counting delivery. |
 | UTP-EVT-277 | 2026-10-08T22:58:34.752691+00:00 | PR154 passed required validation and merged. Operator readiness preparation document verified byte-for-byte on fetched main; documentation-only delivery, no website deployment. Eleventh program item completed. | Continue eligible independent work; field assessments remain open. |
 | UTP-EVT-278 | 2026-10-08T23:51:24.614804+00:00 | Reproduced day-undo focus loss; repaired removal-to-Undo and Undo-to-heading focus. 577 automated tests pass; cancellation, scoped removal/undo keyboard path and note persistence checked with native-dialog limitation recorded. | Publish exact tested head after required checks. |
 | UTP-EVT-279 | 2026-10-09T00:07:27.950193+00:00 | PR155 passed validation, merged and deployed. Live planner imports the exact tested script; eleven-route sitemap unchanged. Twelfth substantive item completed. | Continue the next eligible independent item. |
@@ -804,6 +805,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-283 | 2026-10-09T03:45:25.251776+00:00 | PR157 passed required CI and merged at the reviewed head. Verified merged tooling and instructions byte-for-byte. Fourteenth substantive item completed; website deployment not required. | Continue the next eligible independent deliverable. |
 | UTP-EVT-284 | 2026-10-09T10:32:59.462143+00:00 | Illustrated maritime story separates remembrance, material provenance and India–Bali evidence. Reused credited documentary photographs; browser reading/source/save checks and 584 automated tests pass. | Merge and publish after required validation; preserve eleven-route search scope. |
 | UTP-EVT-285 | 2026-10-09T10:45:48.694027+00:00 | PR158 passed required CI and merged at the reviewed head; approved workflow published the maritime story. Live paragraphs, source links, photographs, discovery links and unchanged eleven-route sitemap verified. Fifteenth substantive item completed. | Continue the next eligible independent deliverable. |
+| UTP-EVT-286 | 2026-10-09T10:50:40.761263+00:00 | Three repository entry pages now distinguish current work, publication evidence and historical snapshots. Stale blanket indexing-disabled wording corrected with dated saved evidence and unresolved Google-processing limits. Local links and heading anchors checked. | Merge tested documentation PR and record repository-only delivery. |
 
 ## Deferred extensions
 
