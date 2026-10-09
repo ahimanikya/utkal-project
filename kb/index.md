@@ -25,6 +25,23 @@ This directory contains the organizational and working model, roles, work record
 - [Technical architecture](research/technology/index.md)
 - [Project evolution](history/LEDGER.md)
 
+## Current delivery and open work
+
+Use these maintained records to resume work. The dated links further down this page preserve the project's evolution; an old “pending” or “disabled” note describes that snapshot, not necessarily the current state.
+
+| What you need | Authoritative starting point |
+| --- | --- |
+| Current work, blockers, decisions and handovers | [Generated register dashboard](registers/DASHBOARD.md), backed by [canonical registers](registers/records.json) and [append-only activity](registers/activity.jsonl) |
+| Progress on the Founder-authorized next 500 items | [Programme](records/autonomous-500-program.json): each completed item links its review and delivery evidence; the total is derived from completed entries |
+| What was actually published or applied | [Publication and application history](registers/DASHBOARD.md#publication-and-application-history), followed by the release's evidence in [canonical registers](registers/records.json); [how to read those records](records/index.md) |
+| What still needs editorial, language, accessibility or local review | [Consolidated visitor-review queue](records/visitor-review-queue.json) and each referenced work item's current status; publication does not close those wider gaps |
+| Fieldwork waiting on human decisions or local confirmation | [Founder TODO](specs/founder-todo.md) and [fieldwork pack](specs/tourism-fieldwork/index.md); no introductions, host consent or service inspection should be inferred |
+| Research to reuse before starting a new topic | [Research map](research/methods/research-map.md) and [research index](research/index.md) |
+
+**Search status, checked against saved evidence on 9 October 2026:** limited search eligibility was activated for eleven routes under UTP-DEC-150; see the [activation receipt](records/first-search-launch-publication.json). The [9 October maritime publication receipt](records/maritime-memory-publication-2026-10-09.json) confirms the same eleven-entry sitemap and keeps that new story outside the search selection. This is not proof that Google has indexed those pages. [Search Console processing remains unresolved in the saved diagnosis](records/search-console-fetch-diagnosis.json), tracked as UTP-WORK-139. Consult later release receipts and the current register before relying on this dated snapshot.
+
+The public preview, the full research KB and the approved search selection have different scopes. Utkal Store remains held; its separate workspace is not a published shop. Human authority remains with Ahimanikya Satapathy; an automated check or a delivery receipt is not independent factual or field review.
+
 ## Groups
 
 - [history](history/index.md)
@@ -102,7 +119,7 @@ Latest language release: [Languages and Living Voices publication](records/livin
 - [Research map and reuse](research/methods/research-map.md) — cross-workspace coverage, checked overlaps and evidence pointers for all research tasks.
 - [Visitor experience and search readiness](reference/visitor-experience-review.md) — navigation, sharing previews, complete journey checks and one remaining human review queue.
 
-Visitor experience release: [PR 23 publication evidence](records/visitor-experience-publication.json). Search indexing remains disabled.
+Historical visitor-experience release: [PR 23 publication evidence](records/visitor-experience-publication.json). Search indexing was disabled for that release; later limited activation is described in the current delivery guide above.
 
 - [Odisha Roots stories and publication](records/odisha-roots-features-publication.json) — illustrated Rasagola and Bose stories, portable notes and source limits.
 

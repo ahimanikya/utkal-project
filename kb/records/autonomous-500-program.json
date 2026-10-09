@@ -193,6 +193,16 @@
         "records/maritime-memory-publication-2026-10-09.json"
       ],
       "completed_at": "2026-10-09T10:45:48.694027+00:00"
+    },
+    {
+      "id": "UTP-A500-016",
+      "title": "Repair KB entry navigation to distinguish current delivery from historical snapshots",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-201",
+      "acceptance": "README, KB index and records index lead to authoritative current work, completed-item evidence, release records and review gaps; stale blanket search-disabled wording is dated and corrected against existing evidence; historical source records remain unchanged; local links and bundle checks pass; reviewed PR and merged documentation receipt.",
+      "evidence": [
+        "records/kb-navigation-review-2026-10-09.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -212,5 +222,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-09T10:45:48.694027+00:00"
+  "updated_at": "2026-10-09T10:50:40.761263+00:00"
 }

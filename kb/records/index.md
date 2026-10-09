@@ -1,4 +1,27 @@
-# records
+# Evidence and delivery records
+
+Start with the [current register dashboard](../registers/DASHBOARD.md) and the [active 500-item programme](autonomous-500-program.json). This directory contains dated evidence, including old candidates and failed checks. Its historical list below is a reading aid, not a complete or current release queue.
+
+## Find the right evidence
+
+| Question | Where to look |
+| --- | --- |
+| What should happen next? | [Current work and handovers](../registers/DASHBOARD.md), with authoritative status and references in [records.json](../registers/records.json) |
+| What has shipped? | [Publication and application history](../registers/DASHBOARD.md#publication-and-application-history); follow the relevant release's evidence paths in the canonical register |
+| Why is an autonomous item counted complete? | Its individual entry in the [programme](autonomous-500-program.json), linked review and delivery receipt |
+| What was tested, and who reviewed it? | The referenced review record: scope, actual reviewer, independence, checks and limitations; a passing check is not a human approval |
+| What still needs confirmation? | [Visitor-review queue](visitor-review-queue.json), current work-item blockers and [Founder TODO](../specs/founder-todo.md) |
+| What happened earlier? | [Project history](../history/LEDGER.md), [append-only activity](../registers/activity.jsonl) and the original dated evidence below |
+
+## Read a delivery chain
+
+A review records what was examined. A merged PR records a Git change. For a website release, the publication receipt then identifies the deployment and the actual live checks. Documentation-only deliveries instead state why no website deployment was needed. Do not infer deployment from a merge, or field confirmation from a publication.
+
+For an example of website delivery, read the [maritime story review](maritime-memory-review-2026-10-09.json) alongside its [publication receipt](maritime-memory-publication-2026-10-09.json). For a repository-only delivery, compare the [completion-validator review](autonomous-integrity-review-2026-10-09.json) and [merged tooling receipt](autonomous-integrity-merged-2026-10-09.json). These are dated examples, not automatically the latest work.
+
+Preserve original failed checks and older statuses. Later evidence can resolve a finding without rewriting the earlier account. Search eligibility, Google processing, editorial review and local operating conditions remain distinct; see the [current delivery guide](../index.md#current-delivery-and-open-work).
+
+## Historical evidence entrances
 
 - [application-result.json](application-result.json)
 - [batch-approval.json](batch-approval.json)
