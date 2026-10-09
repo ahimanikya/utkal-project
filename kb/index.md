@@ -125,3 +125,5 @@ Visitor experience release: [PR 23 publication evidence](records/visitor-experie
 - [Six stories to read before a visit](research/stories/narratives/tourism-reading-collection.md) — museum, inscription and craft article drafts.
 
 - [Tourism opportunities section requirements](specs/tourism-opportunities-section.md) — official guidance, cultural reading and contribution flows, with operating dependencies kept explicit.
+
+- [Maritime memory: a small boat, a wider world](research/stories/narratives/maritime-memory.json) — illustrated public narrative connecting ritual, anchor provenance, India–Bali research and questions for a museum visit.
