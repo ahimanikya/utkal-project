@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-09T10:55:10.943119+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-016",
+  "work_id": "UTP-WORK-201",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/159",
+  "reviewed_head": "2c4092fd5b7fc577ddf77bdf4c634542cab036fe",
+  "merge_commit": "8a1fface7f400f9c6c6dd861d5a529eef923e7c9",
+  "merged_at": "2026-10-09T10:54:33Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37920158148",
+    "conclusion": "success",
+    "repository_checks": "Required Review coastal candidate job passed; three-entry local link and heading-anchor checks; bundle 1242 concepts and 4924 local links."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Repository README and KB navigation/evidence only; no public website source, edition, asset or workflow changed. Git delivery verified without claiming a new website deployment."
+  },
+  "published_artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "97df87f96f54ac06a3243c8eaafb8093c453ebe7accbc88b611f3350322dbb78",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/index.md",
+      "sha256": "2685573af3506aa06ee0c0e78952e59ff9cb1183c42aa505f9394892dd0ce4c2",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/records/index.md",
+      "sha256": "88d0a9de59984efc0943f9de410762359817df0b84dffd2e9b72e277c0abadc8",
+      "matches_reviewed_bytes": true
+    }
+  ],
+  "verification": "Fetched origin/main and compared all three entry pages with reviewed local bytes.",
+  "review": "records/kb-navigation-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant documentation review; no fresh Search Console observation or human editorial review.",
+    "Search summary is a dated saved-evidence snapshot, not automatic monitoring."
+  ]
+}
