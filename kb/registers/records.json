@@ -5120,7 +5120,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
       "authorization": "UTP-DEC-202",
-      "next_action": "Synthesize observed barriers and practical recommendations in a five-page proposal.",
+      "next_action": "Use the WORK206 desk framework after observed barriers and WORK172 trial evidence become available; prepare the five-page field-based proposal. Desk hypotheses are not findings.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-172"
@@ -5139,12 +5139,14 @@
       "refs": [
         "UTP-DEC-202",
         "UTP-WORK-165",
-        "UTP-WORK-172"
+        "UTP-WORK-172",
+        "UTP-WORK-206"
       ],
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "specs/boita-tourism-discussion-framework.md"
       ]
     },
     {
@@ -6043,6 +6045,38 @@
         "research/stories/narratives/maritime-memory.json",
         "records/maritime-memory-review-2026-10-09.json",
         "research/methods/research-map.md"
+      ]
+    },
+    {
+      "id": "UTP-WORK-206",
+      "title": "Boita desk discussion framework",
+      "category": "tourism_pilot",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge tested documentation and save repository delivery receipt before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-173",
+        "UTP-WORK-189",
+        "UTP-REV-174"
+      ],
+      "acceptance_criteria": [
+        "A five-part desk discussion framework links existing evidence to separate governance and entrepreneurship proposals, names evidence needed before calling an obstacle observed, supplies a reusable barrier-to-recommendation record and measurable trial decision rules, and states human roles, cost boundaries and proposed requests. WORK173 and its field dependencies stay open. Checked links, factual scope review, tested PR and merged documentation receipt; no website deployment, outreach or project activation."
+      ],
+      "evidence": [
+        "records/boita-discussion-framework-review-2026-10-09.json",
+        "specs/boita-tourism-discussion-framework.md"
+      ],
+      "reuse_before_research": [
+        "specs/tourism-experience-pilot.md",
+        "specs/tourism-fieldwork/operator-readiness.md",
+        "research/collections/tourism-pilot-desk-review.md",
+        "records/opportunities-guidance-recheck-2026-10-08.json",
+        "specs/tourism-pilot-capacity.md"
       ]
     }
   ],
@@ -14591,6 +14625,29 @@
       "limitations": [
         "Same-assistant testing, not independent editorial or specialist historical review.",
         "Download event capture timed out; browser reported preparation and download request, but downloaded file and native PDF/physical-device output were not inspected."
+      ]
+    },
+    {
+      "id": "UTP-REV-174",
+      "title": "Boita discussion framework desk review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-206",
+        "UTP-WORK-173",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/boita-discussion-framework-review-2026-10-09.json"
+      ],
+      "limitations": [
+        "Same-assistant editorial review; no independent practitioner, legal or policy review.",
+        "No new external research, host contact or field observation; proposals require relevant human and institutional review.",
+        "Five-part Markdown framework, not a paginated PDF or the completed field-based five-page proposal."
       ]
     }
   ],
