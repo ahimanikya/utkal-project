@@ -1,0 +1,62 @@
+{
+  "recorded_at": "2026-10-09T22:51:23.876912+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-023",
+  "work_id": "UTP-WORK-208",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/166",
+  "reviewed_head": "2bb85b8f5c4ae7e0c10c88870db4d06d4c3e8132",
+  "merge_commit": "4b74dea6aa6246045ad3eeb092f2577044414fe8",
+  "merged_at": "2026-10-09T22:50:52Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38001169043",
+    "conclusion": "success",
+    "repository_checks": "Required validate passed in 2m5s including repository records, research, workbench, full draft, design system and coastal builds/checks. Local source/scope review, bundle links, research map and programme integrity passed.",
+    "prior_failures": [
+      "38000146393: generated research index stale; regenerated.",
+      "38000345452: dependent workbench input fingerprint stale; regenerated, no selection change."
+    ]
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB proposal, source reference, navigation and generated records only. No public website source, asset or edition change. Repository delivery verified; no website deployment claimed."
+  },
+  "published_artifacts": [
+    {
+      "path": "kb/specs/konark-mamallapuram-learning-proposal.md",
+      "sha256": "ae699fd72ebeab875569080431ca131186ec7e8d198a4fd121eb6a47fa955179",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/specs/global-connections.md",
+      "sha256": "a8f0260f9b1e9c84db07d26e6a71de595210ec46eebed5a41c43178d7a284aca",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/research/sources/global-mamallapuram.md",
+      "sha256": "e67f0d88eba22cde1b491813671e2b2eb6d418e6ba0ee0df04cf73322e854fbc",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/research/methods/research-map.md",
+      "sha256": "f7b2f2da5a3d33bda21e38b5b6f4d67069ee7da2461d7bcf0c0523e412f82ee7",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/records/konark-mamallapuram-evidence-2026-10-10.json",
+      "sha256": "ecde614ea4fd55003fb04853f73cede91a7f019df590a3939234936442867fe0",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/index.md",
+      "sha256": "d813f9fe34343b0f9e38a85482a688d0905df2a550ef48ebaed80502082e84ce",
+      "matches_reviewed_bytes": true
+    }
+  ],
+  "verification": "Fetched origin/main and compared proposal, source and evidence records plus navigation byte-for-byte with the exact reviewed head.",
+  "review": "records/konark-mamallapuram-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant editorial/source review; no independent architectural, local or language review.",
+    "Desk proposal only: no outreach, local agreement, appointment, spending or exchange launch.",
+    "Existing municipal agreements and current operating conditions remain unverified."
+  ]
+}
