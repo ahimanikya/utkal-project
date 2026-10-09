@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-09T12:01:34.148371+00:00",
+  "recorded_at": "2026-10-09T12:54:04.535898+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5967,6 +5967,28 @@
         "records/autonomous-500-program.json",
         "records/transliteration-search-review-2026-10-09.json",
         "records/transliteration-search-publication-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-203",
+      "title": "Share current Explore results",
+      "category": "visitor_experience",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge after required CI, publish and verify live sharing before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-WORK-075",
+        "UTP-REV-171"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/explore-sharing-review-2026-10-09.json"
       ]
     }
   ],
@@ -14454,6 +14476,26 @@
       ],
       "limitations": [
         "Same-assistant review; explicit aliases still required for transliteration, no independent language review."
+      ]
+    },
+    {
+      "id": "UTP-REV-171",
+      "title": "Explore filtered-sharing review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-203",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/explore-sharing-review-2026-10-09.json"
+      ],
+      "limitations": [
+        "Same-assistant review; fallback browser path verified, native share and clipboard success not exercised."
       ]
     }
   ],

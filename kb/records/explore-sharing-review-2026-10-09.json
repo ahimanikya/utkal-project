@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-09T12:54:04.535898+00:00",
+  "program_item": "UTP-A500-018",
+  "work_id": "UTP-WORK-203",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Explore results sharing and scoped public URL construction; other pages keep clean links.",
+  "finding": "PageShare previously constructed a pathname-only URL, losing all Explore selections.",
+  "verification": {
+    "full_tests": 499,
+    "coastal_tests": 91,
+    "unit": "Three tests cover encoded multilingual terms, valid selections, default/invalid filters, 200-character bound, unrelated parameter/fragment exclusion and clean journey/contribution/article links.",
+    "browser": "Chrome local publication: keyboard share shows selected fallback URL retaining piṭha/Food/Across Odisha/title; unknown parameter and fragment omitted. Fallback input focused and all 89 URL characters selected. Opening that URL restores three results and title ordering. Clear filters yields bare Explore URL. Contribution page with synthetic query data yields bare contribution URL.",
+    "copy_limit": "Clipboard/share API unavailable in this browser path; manual-copy fallback tested, no external share or message sent.",
+    "visible_copy": "Explore label is Share these results, with explicit notice that search words and selected filters are included.",
+    "source_review": "No factual, historical, imagery or search-eligibility change; technical behavior only."
+  },
+  "limitations": [
+    "Same-assistant review. Native share-sheet success and clipboard-success paths not exercised in this browser; their existing behavior retained.",
+    "No physical-device or screen-reader review."
+  ],
+  "publication": "Pending required PR checks, exact-head merge, authorized deployment and live receipt."
+}

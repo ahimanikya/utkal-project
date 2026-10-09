@@ -217,6 +217,16 @@
         "records/transliteration-search-publication-2026-10-09.json"
       ],
       "completed_at": "2026-10-09T12:01:34.148371+00:00"
+    },
+    {
+      "id": "UTP-A500-018",
+      "title": "Share the selected Explore results instead of dropping search and filters",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-203",
+      "acceptance": "Explore sharing retains bounded search and valid topic/area/order choices with an explicit results label. Unknown parameters and fragments stay out; other page links remain clean, including journey and contribution pages. Regression tests, browser link check, tested PR, deployment and live receipt.",
+      "evidence": [
+        "records/explore-sharing-review-2026-10-09.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -236,5 +246,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-09T12:01:34.148371+00:00"
+  "updated_at": "2026-10-09T12:54:04.535898+00:00"
 }
