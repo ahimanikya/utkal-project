@@ -5602,7 +5602,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "23/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
+      "next_action": "24/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -6143,12 +6143,12 @@
       "id": "UTP-WORK-209",
       "title": "Global Connections town learning candidate section",
       "category": "website_and_knowledge",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge exact passing head, publish approved edition and verify live before counting.",
+      "next_action": "Delivered public desk proposal. No counterpart agreement or activity established.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
@@ -6161,7 +6161,8 @@
       ],
       "evidence": [
         "records/global-town-learning-review-2026-10-10.json",
-        "research/collections/global-town-candidate.json"
+        "research/collections/global-town-candidate.json",
+        "records/global-town-learning-publication-2026-10-10.json"
       ],
       "reuse_before_research": [
         "specs/konark-mamallapuram-learning-proposal.md",
@@ -16279,6 +16280,21 @@
       ],
       "evidence": [
         "records/maritime-reading-book-publication-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-090",
+      "title": "Town heritage learning candidate published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/global-connections/#town-learning",
+      "refs": [
+        "UTP-WORK-209",
+        "UTP-REV-177",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/global-town-learning-publication-2026-10-10.json"
       ]
     }
   ],

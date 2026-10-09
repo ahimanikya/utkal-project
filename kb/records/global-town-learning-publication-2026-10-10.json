@@ -1,0 +1,65 @@
+{
+  "recorded_at": "2026-10-09T23:46:56.857225+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-024",
+  "work_id": "UTP-WORK-209",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/167",
+  "reviewed_head": "7e36195f842c89b38beb5cc42c2cb843e54ca978",
+  "merge_commit": "23a80f1f42c6e08176f790599d45f814ab67d26c",
+  "merged_at": "2026-10-09T23:42:38Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38005431439",
+    "conclusion": "success",
+    "full_tests": 509,
+    "coastal_tests": 92
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38005768270",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "23a80f1f42c6e08176f790599d45f814ab67d26c"
+  },
+  "live": {
+    "checked_at": "2026-10-09T23:46:22.155075+00:00",
+    "url": "https://utkalproject.org/global-connections/#town-learning",
+    "status": 200,
+    "section_matches_tested_html_except_responsive_asset_hashes": true,
+    "responsive_images": [
+      {
+        "path": "/images/responsive/f7778d036eb32367-480.webp",
+        "status": 200,
+        "width_label": 480,
+        "bytes": 51258
+      },
+      {
+        "path": "/images/responsive/42058e0f658f72e6-960.webp",
+        "status": 200,
+        "width_label": 960,
+        "bytes": 180276
+      },
+      {
+        "path": "/images/responsive/b71be1021ca10049-1440.webp",
+        "status": 200,
+        "width_label": 1440,
+        "bytes": 338194
+      }
+    ],
+    "build_difference": "Only the 1440px responsive image filename hash differs between local and CI builds; rendered markup and source image match. All responsive files return WebP.",
+    "section_sha256": "2be9a7f8b809b1b987075b893ecfe6bdf40f11fb68835bc4538e144dd7c9c3ad",
+    "image_status": 200,
+    "image_sha256": "60c168e1b7c1d9128c73707af6a9a702656bc862eb4b566089d869a4cf2697ea",
+    "photo_credits_and_source_anchors": true,
+    "existing_verified_relationship_count_unchanged": true,
+    "global_connections_noindex_follow": true,
+    "sitemap_entries": 11,
+    "browser": "Live IAB section visually inspected with photograph, proposal boundary and reciprocal comparison visible.",
+    "screenshot": "records/evidence/global-town-learning/live.png"
+  },
+  "review": "records/global-town-learning-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant source, editorial and visual review; no independent local, language or architectural review.",
+    "Desktop browser viewport simulation, not physical-device or screen-reader testing. No-JavaScript reading verified from rendered HTML, not a browser session with scripting disabled.",
+    "Proposal only; no outreach, counterpart consent, cost confirmation, partnership or exchange established."
+  ]
+}
