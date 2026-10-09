@@ -6138,6 +6138,36 @@
         "research/sources/konark.md",
         "specs/boita-tourism-discussion-framework.md"
       ]
+    },
+    {
+      "id": "UTP-WORK-209",
+      "title": "Global Connections town learning candidate section",
+      "category": "website_and_knowledge",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge exact passing head, publish approved edition and verify live before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-WORK-208",
+        "UTP-REV-177"
+      ],
+      "acceptance_criteria": [
+        "Global Connections displays the sourced Konark–Mamallapuram desk candidate as a clearly proposed reciprocal activity with a licensed Konark photograph, distinct heritage facts, concrete outputs, limits and an existing Konark reading link. Existing partnership counts remain unchanged. Responsive and keyboard/no-script review, source-credit checks, full tests, exact-head PR merge, approved deployment and live verification; no search eligibility expansion or outreach."
+      ],
+      "evidence": [
+        "records/global-town-learning-review-2026-10-10.json",
+        "research/collections/global-town-candidate.json"
+      ],
+      "reuse_before_research": [
+        "specs/konark-mamallapuram-learning-proposal.md",
+        "records/konark-mamallapuram-evidence-2026-10-10.json",
+        "research/stories/narratives/konark.json"
+      ]
     }
   ],
   "decisions": [
@@ -14751,6 +14781,28 @@
         "Same-assistant source and editorial review; no independent architectural, language or local review.",
         "Local willingness, existing agreements, costs and operating arrangements remain unknown. This is a desk candidate, not an agreed exchange.",
         "Online source text inspected; full external pages not archived. No website change or deployment."
+      ]
+    },
+    {
+      "id": "UTP-REV-177",
+      "title": "Global Connections town proposal website review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-209",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/global-town-learning-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant source, editorial and visual review; no independent local, language or architectural review.",
+        "Desktop browser viewport simulation, not physical-device or screen-reader testing. No-JavaScript reading verified from rendered HTML, not a browser session with scripting disabled.",
+        "Proposal only; no outreach, counterpart consent, cost confirmation, partnership or exchange established."
       ]
     }
   ],
