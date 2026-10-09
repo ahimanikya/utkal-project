@@ -146,3 +146,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 - [Maritime memory: a small boat, a wider world](research/stories/narratives/maritime-memory.json) — illustrated public narrative connecting ritual, anchor provenance, India–Bali research and questions for a museum visit.
 
 - [Boita tourism discussion framework](specs/boita-tourism-discussion-framework.md) — desk proposal connecting public-service improvements and local entrepreneurship; field findings and external engagement remain separate.
+
+- [Konark and Mamallapuram heritage learning proposal](specs/konark-mamallapuram-learning-proposal.md) — a sourced candidate for reciprocal visitor storytelling, with local interest and activity decisions still open.

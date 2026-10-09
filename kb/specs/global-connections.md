@@ -39,3 +39,7 @@ The selective comparison is not a national ranking or exhaustive current census.
 ## Related tourism pilot
 
 The [tourism experience pilot](tourism-experience-pilot.md) offers a practical local foundation for future cultural exchanges. Reuse its verified experience records when designing a reciprocal visit. Any city counterpart, institutional involvement or external outreach keeps the authorization and consent requirements above.
+
+## A town partnership candidate
+
+[Konark and Mamallapuram heritage learning proposal](konark-mamallapuram-learning-proposal.md) applies this model to a possible domestic exchange: two visitor stories, reciprocal learning and explicit decision stages. It is a desk candidate; no relationship, contact or activity is agreed.
