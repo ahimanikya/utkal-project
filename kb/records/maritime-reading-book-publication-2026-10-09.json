@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-09T16:37:01.176098+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-020",
+  "work_id": "UTP-WORK-205",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/163",
+  "reviewed_head": "4db480e7229b5001b371a848b581dd14bd09c276",
+  "merge_commit": "c85e4a803859e4e6c6358d277178bea282d41d33",
+  "merged_at": "2026-10-09T16:33:43Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37959686597",
+    "conclusion": "success",
+    "full_tests": 506,
+    "coastal_tests": 92,
+    "initial_failure": "Generated editorial workbench record stale; regenerated and its six Python plus three Node tests passed before the corrected CI pass."
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37960072866",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "c85e4a803859e4e6c6358d277178bea282d41d33"
+  },
+  "live": {
+    "checked_at": "2026-10-09T16:36:20.910368+00:00",
+    "url": "https://utkalproject.org/stories/maritime-memory/",
+    "status": 200,
+    "reading_item_matches_tested_catalog": true,
+    "reading_item_sha256": "134f4f51447dd8974669a71388cc3bc7fc6024d2f372e7cbb8f4f7c4089c1321",
+    "museum_choice_separate": true,
+    "story_noindex": true,
+    "sitemap_entries": 11,
+    "browser": "Live IAB article visually shows separate Reading save, My journey link and museum distinction. Existing production saved plan was not changed.",
+    "screenshot": "planning/utkala-odisha/review-assets/maritime-reading-book-live-2026-10-09.jpg"
+  },
+  "review": "records/maritime-reading-book-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant testing, not independent editorial or specialist historical review.",
+    "Download event capture timed out; browser reported preparation and download request, but downloaded file and native PDF/physical-device output were not inspected."
+  ]
+}

@@ -5600,7 +5600,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "19/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
+      "next_action": "20/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -6021,22 +6021,23 @@
       "id": "UTP-WORK-205",
       "title": "Portable maritime reading story",
       "category": "visitor_experience",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Publish tested PR under DEC225 and verify live output before counting.",
+      "next_action": "Delivered; retain source boundaries and separate museum save.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-189",
         "UTP-WORK-200",
-        "UTP-REV-173"
+        "UTP-REV-173",
+        "UTP-REL-089"
       ],
       "evidence": [
-        "records/autonomous-500-program.json",
-        "records/maritime-reading-book-review-2026-10-09.json"
+        "records/maritime-reading-book-review-2026-10-09.json",
+        "records/maritime-reading-book-publication-2026-10-09.json"
       ],
       "reuse_before_research": [
         "research/stories/narratives/maritime-memory.json",
@@ -16051,6 +16052,21 @@
       ],
       "evidence": [
         "records/photo-audio-publication-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-089",
+      "title": "Portable maritime reading published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/stories/maritime-memory/",
+      "refs": [
+        "UTP-WORK-205",
+        "UTP-REV-173",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/maritime-reading-book-publication-2026-10-09.json"
       ]
     }
   ],
