@@ -1,0 +1,29 @@
+{
+  "recorded_at": "2026-10-09T03:16:24.324436+00:00",
+  "work_id": "UTP-WORK-198",
+  "program_item": "UTP-A500-013",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Latest-file-wins backup reading; focusable review heading at full library capacity; clear capacity guidance and merge/cancel/error focus continuity.",
+  "verification": {
+    "full_tests": 493,
+    "coastal_tests": 91,
+    "new_tests": "Seven deterministic reader tests cover out-of-order success, late errors, newer invalid/oversized selections, cancellation, collection detail preservation and independent retry.",
+    "browser": "Chrome fresh local origin: imported synthetic ten-journey collection through explicit replacement UI. Selected a one-idea backup; preview heading focused, add-new disabled, merge enabled and capacity explanation shown. Tab reached Merge; Enter merged notes and focused planner heading. Same backup then had no new ideas and both actions disabled; Tab reached Cancel, which returned focus to file input. Invalid JSON left ten journeys and imported notes intact. Reload retained notes.",
+    "visual": "Desktop and 390x844 preview inspected; phone scrollWidth equals390. Temporary viewport reset.",
+    "screenshot": "planning/utkala-odisha/review-assets/backup-import-2026-10-09.jpg",
+    "screenshot_scope": "Local synthetic-data preview, outside Git."
+  },
+  "source_review": "No external research or editorial facts changed. Backup validation and merge data rules reused. Reader does not write storage.",
+  "limitations": [
+    "Same-assistant review, not independent human review.",
+    "Asynchronous race order verified in deterministic unit tests; not simulated via real disk timing.",
+    "No physical-device or screen-reader review."
+  ],
+  "publication": "Pending required checks, merge, deployment and live receipt."
+}

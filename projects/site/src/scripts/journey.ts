@@ -1,3 +1,4 @@
+import {createBackupReader} from '../lib/backup-reader.mjs';
 import {isReadingCollection,journeyGuidance} from '../lib/journey-reading.mjs';
 import {addDayOutline,journeyDayCards,journeyNextStep} from '../lib/journey-coach.mjs';
 import {storyTrailPhotos,selectedStoryTrail} from '../lib/story-trails.mjs';
@@ -15,7 +16,7 @@ const publicData=JSON.parse(document.getElementById('journey-data')?.textContent
 const journeyCatalog=publicData.catalog;
 const storyTrails=publicData.trails||[];
 const starterSelection={starters:publicData.starters};
-import {STORAGE_KEY,LIBRARY_KEY,MAX_LIBRARY_BYTES,emptyLibrary,loadLibrary,parseBackup,addTrip,removeTrip,dayLabel,validDate,addItem,moveItem,groupItems,duplicateTrip,removeWithUndo,restoreRemoved,transferItem,journeyOverview,togglePreparation} from '../lib/journey.mjs';
+import {STORAGE_KEY,LIBRARY_KEY,emptyLibrary,loadLibrary,addTrip,removeTrip,dayLabel,validDate,addItem,moveItem,groupItems,duplicateTrip,removeWithUndo,restoreRemoved,transferItem,journeyOverview,togglePreparation} from '../lib/journey.mjs';
 const catalog=new Map(journeyCatalog.map(item=>[item.id,item]));
 let storage:Storage;
 try{storage=window.localStorage;}catch{storage={getItem(){throw Error('unavailable');},setItem(){throw Error('unavailable');}} as unknown as Storage;}
@@ -26,6 +27,7 @@ window.addEventListener('beforeunload',event=>{if(dirty){event.preventDefault();
 let library=loaded.library;
 let plan=library.trips.find(t=>t.id===library.activeId).plan,blocked=loaded.status==='blocked',pending=null;
 let lastRemoval=null,lastDayChange=null,lastReminderRemoval=null,bookTrip=library.activeId,pendingTarget=null;
+const backupReader=createBackupReader();
 const app=document.querySelector('#journey-app');
 const status=document.querySelector<HTMLElement>('#journey-status');
 const title=document.querySelector<HTMLInputElement>('#journey-title');
@@ -293,27 +295,27 @@ if(app){
  function refreshImportPreview(){
   const source=pendingPlan();if(!source)return;pendingTarget={id:library.activeId,raw:JSON.stringify(plan)};
   document.querySelector('#import-description').textContent=`Add “${source.title}” as an independent journey with ${source.items.length} ${source.items.length===1?'idea':'ideas'}, ${(source.dayNotes||[]).length} ${(source.dayNotes||[]).length===1?'day note':'day notes'} and ${(source.reminders||[]).length} personal ${(source.reminders||[]).length===1?'reminder':'reminders'}. Your other journeys will be kept.`;
-  const add=document.querySelector<HTMLButtonElement>('#confirm-import');add.textContent='Add as a new journey';add.disabled=blocked||library.trips.length>=10;
+  const add=document.querySelector<HTMLButtonElement>('#confirm-import');add.textContent='Add as a new journey';add.disabled=blocked||library.trips.length>=10;document.querySelector<HTMLElement>('#import-limit').hidden=library.trips.length<10;
   const merge=document.querySelector<HTMLButtonElement>('#merge-import');
   try{const counts=importIdeasPreview(plan,source);document.querySelector('#merge-description').textContent=`Or add ${counts.added} new ideas to “${plan.title}”, under Ideas for later. ${counts.kept} existing ideas and their current notes stay unchanged. Imported item notes travel with new ideas. Source day notes (${counts.sourceDayNotes}), reminders (${counts.sourceReminders}), date and checklist are not merged; add an independent journey to keep all source details.`;merge.disabled=blocked||counts.added===0;}
   catch(error){document.querySelector('#merge-description').textContent=error.message+' You can add an independent journey instead.';merge.disabled=true;}
  }
- fileInput.addEventListener('change',async()=>{const file=fileInput.files?.[0];if(!file)return;pending=null;pendingTarget=null;preview.hidden=true;try{
-  if(file.size>MAX_LIBRARY_BYTES)throw Error('Choose a JSON journey smaller than 10 MB.');const candidate=parseBackup(await file.text());if(blocked)throw Error('Reload before importing; the saved journey changed in another tab.');pending=candidate;
+ fileInput.addEventListener('change',async()=>{const file=fileInput.files?.[0];if(!file)return;fileInput.value='';pending=null;pendingTarget=null;preview.hidden=true;announce('Reading your backup for review. Saved journeys are unchanged.');const result=await backupReader.read(file);if(result.status==='superseded')return;try{
+  if(result.status==='error')throw Error(result.message);if(blocked)throw Error('Reload before importing; the saved journey changed in another tab.');pending=result.candidate;
   sourceSelect.replaceChildren();if(pending.version===2)for(const trip of pending.trips)sourceSelect.add(new Option(trip.plan.title||'Untitled journey',trip.id));
   document.querySelector<HTMLElement>('#import-source-field').hidden=pending.version===1;sourceSelect.disabled=blocked;replaceOptions.hidden=pending.version!==2;replaceOptions.open=false;replaceAck.checked=false;replaceAck.disabled=blocked;document.querySelector<HTMLButtonElement>('#replace-library').disabled=true;
-  refreshImportPreview();preview.hidden=false;document.querySelector<HTMLButtonElement>('#confirm-import').focus();
- }catch(error){announce(error instanceof Error?error.message:'Could not read that journey.');}finally{fileInput.value='';}});
+  refreshImportPreview();preview.hidden=false;document.querySelector<HTMLElement>('#import-preview-heading').focus();announce('Backup ready to review. Saved journeys are unchanged.');
+ }catch(error){announce(error instanceof Error?error.message:'Could not read that journey.');fileInput.focus();}});
  sourceSelect.addEventListener('change',refreshImportPreview);
  function finishImport(candidate,message){library=candidate;plan=library.trips.find(t=>t.id===library.activeId).plan;lastRemoval=null;lastDayChange=null;lastReminderRemoval=null;pending=null;pendingTarget=null;preview.hidden=true;save();render();announce(message);title.focus();}
  document.querySelector('#confirm-import').addEventListener('click',()=>{if(!pending||blocked)return;try{finishImport(addTrip(library,crypto.randomUUID(),pendingPlan()),'Added an independent journey, with its private details preserved.');}catch(error){announce(error.message);}});
  document.querySelector('#merge-import').addEventListener('click',()=>{if(!pending||blocked)return;
   if(pendingTarget?.id!==library.activeId||pendingTarget?.raw!==JSON.stringify(plan)){refreshImportPreview();announce('Your selected journey changed. The import preview has been refreshed; review it before adding ideas.');return;}
-  try{const result=mergeJourneyIdeas(plan,pendingPlan());plan=result.plan;pending=null;pendingTarget=null;preview.hidden=true;lastDayChange=null;save();render();announce(`${result.added} new ideas added under Ideas for later. Existing notes and day arrangements were kept.`);}catch(error){announce(error.message);}
+  try{const result=mergeJourneyIdeas(plan,pendingPlan());plan=result.plan;pending=null;pendingTarget=null;preview.hidden=true;lastDayChange=null;save();render();announce(`${result.added} new ideas added under Ideas for later. Existing notes and day arrangements were kept.`);document.querySelector<HTMLElement>('#plan-heading')?.focus();}catch(error){announce(error.message);}
  });
  replaceAck.addEventListener('change',()=>document.querySelector<HTMLButtonElement>('#replace-library').disabled=blocked||!replaceAck.checked);
  document.querySelector('#replace-library').addEventListener('click',()=>{if(blocked||pending?.version!==2||!replaceAck.checked)return;finishImport(pending,'Collection replaced with the selected backup.');});
- document.querySelector('#cancel-import').addEventListener('click',()=>{pending=null;pendingTarget=null;preview.hidden=true;fileInput.focus();});
+ document.querySelector('#cancel-import').addEventListener('click',()=>{backupReader.cancel();pending=null;pendingTarget=null;preview.hidden=true;fileInput.focus();});
  const search=document.querySelector<HTMLInputElement>('#journey-search'),kind=document.querySelector<HTMLSelectElement>('#journey-kind'),moreIdeas=document.querySelector<HTMLButtonElement>('#more-ideas');
  let ideaLimit=3;
  function filterIdeas(){

@@ -157,6 +157,16 @@
         "records/planner-day-focus-publication-2026-10-08.json"
       ],
       "completed_at": "2026-10-09T00:07:27.950193+00:00"
+    },
+    {
+      "id": "UTP-A500-013",
+      "title": "Make backup previews follow the latest file and remain keyboard reachable",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-198",
+      "acceptance": "Out-of-order file reads and errors cannot replace the newest import choice; oversized/invalid files preserve existing data; preview has a stable keyboard review target even at ten journeys; merging returns focus to planner; deterministic race tests, browser import checks, tested PR, deployment and live receipt.",
+      "evidence": [
+        "records/backup-import-review-2026-10-09.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -176,5 +186,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-09T00:07:27.950193+00:00"
+  "updated_at": "2026-10-09T03:08:28.927641+00:00"
 }
