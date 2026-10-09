@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-09T03:34:40.168151+00:00",
+  "recorded_at": "2026-10-09T03:45:25.251776+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5600,7 +5600,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "13 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
+      "next_action": "14 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5875,12 +5875,12 @@
       "id": "UTP-WORK-199",
       "title": "Autonomous program completion evidence integrity",
       "category": "project_operations",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge tested validator after required CI checks; verify merged artifact before counting.",
+      "next_action": "Merged with required CI passing; current completion count and linked evidence validated. Continue substantive backlog work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
@@ -5889,7 +5889,8 @@
       ],
       "evidence": [
         "records/autonomous-500-program.json",
-        "records/autonomous-integrity-review-2026-10-09.json"
+        "records/autonomous-integrity-review-2026-10-09.json",
+        "records/autonomous-integrity-merged-2026-10-09.json"
       ]
     }
   ],

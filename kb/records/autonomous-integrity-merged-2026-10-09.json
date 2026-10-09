@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-09T03:45:25.251776+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-014",
+  "work_id": "UTP-WORK-199",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/157",
+  "reviewed_head": "c983ea20f6f00d6071ea24d5710191fd8ce41013",
+  "merge_commit": "68c8b1e40292ddc4db8f5a1328b6c83e910f2fc9",
+  "merged_at": "2026-10-09T03:44:39Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37880393287",
+    "conclusion": "success",
+    "targeted_tests": 17,
+    "repository_checks": "Required full Review coastal candidate job passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Repository tooling, PR validation wiring, instructions and progress records only; no public website output changed. Git delivery verified without claiming a new website deployment."
+  },
+  "published_artifacts": [
+    {
+      "path": "tools/check_autonomous_program.py",
+      "sha256": "55f52bb9d140fdfe48f142e631eb4533ea4977015dce56786939236556f1b8a2",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "tools/test_autonomous_program.py",
+      "sha256": "38b34cac311cc5d2fc6daf571e4d8d682e58697c33d7935083766305ed767172",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": ".github/workflows/validate-site.yml",
+      "sha256": "b23a429063ba655f5f9d133edcbb94199c42c774d6d88e309601042eb06bb749",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "d90a4f547832a7bd1d76fc5da07382a1108c3563c8e62ac3e7e789dc0d36b5c4",
+      "matches_reviewed_bytes": true
+    }
+  ],
+  "verification": "Fetched origin/main after merge and compared all four changed tooling/instruction files against reviewed local bytes.",
+  "review": "records/autonomous-integrity-review-2026-10-09.json",
+  "limitations": [
+    "Structural evidence check does not authenticate external events or substitute for factual, human or live review.",
+    "Same-assistant review; no independent reviewer invented."
+  ]
+}
