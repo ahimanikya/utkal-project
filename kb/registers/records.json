@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-08T10:55:23.144566+00:00",
+  "recorded_at": "2026-10-09T03:34:40.168151+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5869,6 +5869,27 @@
       "reuse_before_research": [
         "research/product/culture-journey-prototype.md",
         "records/planner-day-focus-review-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-199",
+      "title": "Autonomous program completion evidence integrity",
+      "category": "project_operations",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge tested validator after required CI checks; verify merged artifact before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-167"
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/autonomous-integrity-review-2026-10-09.json"
       ]
     }
   ],
@@ -14278,6 +14299,25 @@
       ],
       "evidence": [
         "records/backup-import-review-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REV-167",
+      "title": "Autonomous completion evidence integrity review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "limitations": [
+        "Same-assistant review; record consistency does not authenticate evidence or replace factual and live checks."
+      ],
+      "refs": [
+        "UTP-WORK-199"
+      ],
+      "evidence": [
+        "records/autonomous-integrity-review-2026-10-09.json"
       ]
     }
   ],

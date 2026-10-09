@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `40d47454551654ae531faaeab9f5367da44c4f5a57b1c8128f063e63c6533d60`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `89977c448a5524dc5467ec88822d292e2c2c199b918e19a94dc29c16e5d16f4e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -209,6 +209,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-196 · Operator readiness and trial decision preparation pack | completed | reviewed | Ahimanikya Satapathy | Preparation pack merged and verified; actual field assessments and trial decisions remain under WORK172 with its existing dependencies. | — |
 | UTP-WORK-197 · Planner day removal and undo keyboard continuity | completed | reviewed | Ahimanikya Satapathy | Published; live script matches tested bytes. Wider physical-device and screen-reader review remains separate. | — |
 | UTP-WORK-198 · Backup import freshness and keyboard continuity | completed | reviewed | Ahimanikya Satapathy | Published with live HTML and script verification; physical-device and screen-reader testing remain separate. | — |
+| UTP-WORK-199 · Autonomous program completion evidence integrity | in_progress | reviewed | Ahimanikya Satapathy | Merge tested validator after required CI checks; verify merged artifact before counting. | — |
 
 ## Pending human review and decisions
 
@@ -662,6 +663,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-164 | pass_with_limitations | False | Same-assistant review; no independent human or field review.; No current-source retrieval, host outreach, appointment, quote, trial, payment, legal or insurance assessment.; This is a preparation template; WORK172 and its field/itinerary dependencies are not completed. |
 | UTP-REV-165 | pass_with_limitations | False | Same-assistant review, not independent human review.; Native confirmation acceptance could not be verified through the browser tool: dialog handling stalled. Accepted-removal path tested with a temporary local confirmation stub, removed by reload.; No new physical-device or screen-reader check; no new responsive-layout claim. |
 | UTP-REV-166 | pass_with_limitations | False | Same-assistant review, not independent human review.; Asynchronous race order verified in deterministic unit tests; not simulated via real disk timing.; No physical-device or screen-reader review. |
+| UTP-REV-167 | pass_with_limitations | False | Same-assistant review; record consistency does not authenticate evidence or replace factual and live checks. |
 
 ## Publication and application history
 
@@ -789,7 +791,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-272 | 2026-10-08T09:54:35.283829+00:00 | Four existing writer ideas now have an illustrated reading companion and portable chapters. 483 full and 91 coastal tests pass; Chrome saving, note persistence, photo-book generation and responsive layouts checked. Source scope and search hold retained. | Publish after required checks, then verify live output. |
 | UTP-EVT-273 | 2026-10-08T10:02:44.635104+00:00 | PR152 passed required checks, merged and deployed. Reading companion, discovery links and saved three-chapter payload verified live; unchanged eleven-route sitemap. Ninth program item completed. | Continue the next eligible independent item. |
 | UTP-EVT-274 | 2026-10-08T10:46:35.510893+00:00 | Reading-aware guidance, private reading outlines and native-print prompt parity tested. 486 full and 91 coastal tests pass; browser switching, persistence and responsive checks passed. | Publish after required checks, then verify live output. |
 | UTP-EVT-275 | 2026-10-08T10:55:23.144566+00:00 | PR153 passed required checks, merged and deployed. Live journey module matches tested output byte-for-byte; eleven-route sitemap unchanged. Tenth program item completed. | Continue the next eligible independent item. |
@@ -799,6 +800,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-279 | 2026-10-09T00:07:27.950193+00:00 | PR155 passed validation, merged and deployed. Live planner imports the exact tested script; eleven-route sitemap unchanged. Twelfth substantive item completed. | Continue the next eligible independent item. |
 | UTP-EVT-280 | 2026-10-09T03:16:24.324436+00:00 | Backup reads now ignore superseded completions and errors. Keyboard preview/merge/cancel/error paths checked at ten-journey capacity; synthetic notes persisted. 584 automated tests pass. | Merge and publish after required checks; count only after live receipt. |
 | UTP-EVT-281 | 2026-10-09T03:23:55.654851+00:00 | PR156 passed required validation, merged and deployed. Live preview heading and capacity explanation present; script matches tested bytes; eleven-route sitemap unchanged. Thirteenth substantive item completed. | Continue the next eligible independent item. |
+| UTP-EVT-282 | 2026-10-09T03:40:16.702510+00:00 | Added read-only completion evidence validator and CI check. Seventeen fault-injection and compatibility tests pass; no website change or additional completed item claimed yet. | Merge after passing required checks and verify delivered tooling. |
 
 ## Deferred extensions
 
