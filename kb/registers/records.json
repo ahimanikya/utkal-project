@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-09T13:07:31.039869+00:00",
+  "recorded_at": "2026-10-09T14:09:16.992506+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5600,7 +5600,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "18/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
+      "next_action": "19/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5997,22 +5997,24 @@
       "id": "UTP-WORK-204",
       "title": "Cancel stale photo-journey audio starts",
       "category": "visitor_experience",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge passing reviewed head, publish and verify exact live script before counting.",
+      "next_action": "Published and live controller verified. Wider browser lifecycle, acoustic and physical-device review remain separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-189",
         "UTP-WORK-075",
-        "UTP-REV-172"
+        "UTP-REV-172",
+        "UTP-REL-088"
       ],
       "evidence": [
         "records/autonomous-500-program.json",
-        "records/photo-audio-review-2026-10-09.json"
+        "records/photo-audio-review-2026-10-09.json",
+        "records/photo-audio-publication-2026-10-09.json"
       ]
     }
   ],
@@ -15986,6 +15988,21 @@
       ],
       "evidence": [
         "records/explore-sharing-publication-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-088",
+      "title": "Photo journey stale-audio cancellation published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/knowledge/chilika/#photo-journey",
+      "refs": [
+        "UTP-WORK-204",
+        "UTP-REV-172",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/photo-audio-publication-2026-10-09.json"
       ]
     }
   ],

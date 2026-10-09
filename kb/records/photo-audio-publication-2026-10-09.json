@@ -1,0 +1,44 @@
+{
+  "recorded_at": "2026-10-09T14:09:16.992506+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-019",
+  "work_id": "UTP-WORK-204",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/162",
+  "reviewed_head": "fe82a559767508ec7df853806bc93214610bc865",
+  "merge_commit": "84cad5e1a656e6f52755598d7e158187a0e916a0",
+  "merged_at": "2026-10-09T14:01:45Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37940691644",
+    "conclusion": "success",
+    "full_tests": 504,
+    "coastal_tests": 91,
+    "regressions": "Five deferred-context failure/cancellation cases pass; actual component probe confirms stale resume starts zero timers after fix versus one before."
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37941177060",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "84cad5e1a656e6f52755598d7e158187a0e916a0"
+  },
+  "live": {
+    "checked_at": "2026-10-09T14:07:50.074643+00:00",
+    "pages": [
+      {
+        "url": "https://utkalproject.org/knowledge/chilika/",
+        "status": 200,
+        "inline_audio_controller_sha256": "a3d47c2dc5351dca5ec949b5fef87729e9766b80d200d55140e662e6a9209fd9",
+        "matches_tested_bytes": true
+      }
+    ],
+    "sitemap_entries": 11,
+    "edition_scope": "Chilika serves the tested inline audio controller. Konark public HTML has no photo-journey element, consistent with MagazinePlace coastal-edition gate; no expansion made.",
+    "browser": "Chrome disconnected before live browser verification; local keyboard and visual control checks are in the review. Live HTTP controller hash matches tested bytes; live browser or acoustic verification not claimed."
+  },
+  "review": "records/photo-audio-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant tests, not independent review.",
+    "Local browser sound/next/pause control states verified; subsequent connection errors prevented leave-and-return and live browser checks. Acoustic quality and output not verified.",
+    "Konark photographic journey remains outside its public coastal edition."
+  ]
+}
