@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-09T03:40:16.702510+00:00",
+  "work_id": "UTP-WORK-199",
+  "program_item": "UTP-A500-014",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Read-only completion-count and linked-record validator, regression fixtures and PR CI integration.",
+  "verification": {
+    "targeted_tests": "17 tests pass, including nine receipt fault subcases; current shared-batch and documentation-only records accepted; read-only behavior checked.",
+    "registers_config_catalog_workbench": "pass",
+    "bundle": "1242 concepts, 4893 local links pass",
+    "visual_check": "Not applicable; no website or presentation changes.",
+    "source_review": "Existing local program, delivery receipts and decision record inspected; no new research claims.",
+    "correction": "Initial work record used unsupported readiness ready; corrected to draft before register validation."
+  },
+  "limitations": [
+    "Same-assistant review; not independent human review.",
+    "Checks record structure and linkage only; does not authenticate GitHub events, certify factual quality or replace live verification.",
+    "A deployment exemption is an explicit recorded explanation, not automated proof that website output is unchanged."
+  ],
+  "publication": "Pending passing required PR checks and merge; item remains in progress until merged receipt."
+}

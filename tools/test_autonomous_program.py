@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+"""Fault injection against actual record shapes in isolated temporary fixtures."""
+import copy
+import json
+import tempfile
+import unittest
+from pathlib import Path
+from check_autonomous_program import ROOT, check
+
+
+class ProgramEvidenceTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.program = json.loads((ROOT / 'kb/records/autonomous-500-program.json').read_text())
+        self.registers = json.loads((ROOT / 'kb/registers/records.json').read_text())
+        for item in self.program['items']:
+            for name in item['evidence']:
+                path = self.root / 'kb' / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes((ROOT / 'kb' / name).read_bytes())
+        self.receipt_path = next(p for p in self.program['items'][12]['evidence'] if 'publication-' in p)
+
+    def write(self, name, data):
+        path = self.root / 'kb' / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(data))
+
+    def run_check(self):
+        self.write('records/autonomous-500-program.json', self.program)
+        self.write('registers/records.json', self.registers)
+        return check(self.root)
+
+    def rejects(self, message):
+        self.assertTrue(any(message in error for error in self.run_check()), message)
+
+    def test_current_shared_batch_and_document_deliveries(self):
+        self.assertEqual(self.run_check(), [])
+
+    def test_count_drift_and_boolean(self):
+        for value in (self.program['completed_items'] + 1, True):
+            self.program['completed_items'] = value
+            self.rejects('completed_items must equal')
+
+    def test_duplicate_even_with_matching_count(self):
+        self.program['items'].append(copy.deepcopy(self.program['items'][0]))
+        self.program['completed_items'] += 1
+        self.rejects('duplicate item ID')
+
+    def test_unknown_work(self):
+        self.program['items'][0]['work_id'] = 'UTP-WORK-9999'
+        self.rejects('unknown work_id')
+
+    def test_unfinished_work(self):
+        next(w for w in self.registers['work'] if w['id'] == 'UTP-WORK-190')['status'] = 'in_progress'
+        self.rejects('must reference completed work')
+
+    def test_failed_item_not_counted(self):
+        self.program['items'][0]['status'] = 'failed'
+        self.program['items'][0].pop('completed_at')
+        self.rejects('completed_items must equal')
+
+    def test_unfinished_timestamp(self):
+        self.program['items'][0]['status'] = 'deferred'
+        self.program['completed_items'] -= 1
+        self.rejects('unfinished item cannot carry')
+
+    def test_human_authority(self):
+        next(d for d in self.registers['decisions'] if d['id'] == self.program['authorization'])['actor']['kind'] = 'persona'
+        self.rejects('approved decision by its human owner')
+
+    def test_missing_evidence(self):
+        (self.root / 'kb' / self.receipt_path).unlink()
+        self.rejects('evidence missing')
+
+    def test_unsafe_paths(self):
+        for path in ('../outside.json', '/tmp/outside.json'):
+            with self.subTest(path=path):
+                self.program['items'][0]['evidence'] = [path]
+                self.rejects('KB-relative path')
+
+    def test_symlink_escape(self):
+        outside = self.root / 'outside.json'
+        outside.write_text('{}')
+        (self.root / 'kb/records/escape.json').symlink_to(outside)
+        self.program['items'][0]['evidence'].append('records/escape.json')
+        self.rejects('outside KB')
+
+    def test_receipt_faults(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        faults = [
+            ('program_item', 'UTP-A500-999', 'missing linked delivery receipt'),
+            ('work_id', 'UTP-WORK-190', 'work_id differs'),
+            ('authorization', 'UTP-DEC-001', 'authorization differs'),
+            ('review', 'records/missing.json', 'receipt review must be listed'),
+            ('deployment', {'conclusion': 'failure'}, 'successful deployment'),
+            ('deployment', {'required': False}, 'exemption reason'),
+            ('live', {}, 'dated live evidence'),
+            ('merge_commit', 'main', 'merge_commit SHA'),
+            ('pull_request', 'https://github.com/example/elsewhere/pull/1', 'repository’s PR URL'),
+        ]
+        for field, value, message in faults:
+            with self.subTest(field=field, value=value):
+                self.write(self.receipt_path, dict(original, **{field: value}))
+                self.rejects(message)
+
+    def test_missing_review(self):
+        self.program['items'][12]['evidence'] = [self.receipt_path]
+        self.rejects('missing linked passing review')
+
+    def test_malformed_json(self):
+        (self.root / 'kb' / self.receipt_path).write_text('{')
+        self.rejects('Expecting property name')
+
+    def test_missing_acceptance_and_naive_date(self):
+        self.program['items'][0]['acceptance'] = ''
+        self.program['items'][0]['completed_at'] = '2026-10-09'
+        self.rejects('acceptance is required')
+        self.rejects('timezone-aware')
+
+    def test_target_overrun(self):
+        self.program['target_completed_items'] = 1
+        self.rejects('exceeded completion target')
+
+    def test_read_only(self):
+        self.run_check()
+        before = {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+        check(self.root)
+        self.assertEqual(before, {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()})
+
+
+if __name__ == '__main__':
+    unittest.main()
