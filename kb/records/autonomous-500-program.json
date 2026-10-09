@@ -229,6 +229,16 @@
         "records/explore-sharing-publication-2026-10-09.json"
       ],
       "completed_at": "2026-10-09T13:07:31.039869+00:00"
+    },
+    {
+      "id": "UTP-A500-019",
+      "title": "Cancel superseded photo-journey audio starts",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-204",
+      "acceptance": "A delayed audio resume cannot build sound or restart playback after stop, chapter change, page leave or a newer audio choice. Rapid toggles create only the current sound session; rejected or unavailable audio leaves photographs usable. Deterministic race tests, browser playback/stop check, tested PR, deployment and live receipt.",
+      "evidence": [
+        "records/photo-audio-review-2026-10-09.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -248,5 +258,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-09T13:07:31.039869+00:00"
+  "updated_at": "2026-10-09T13:51:14.733650+00:00"
 }

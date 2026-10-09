@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5a7aa2d4d580a69daf5a3119881fb3540f29db3e8022d0f8bc3727289b2f9056`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `71ad7496bed2d2b0472da75739ee406fa6ef84de6c95a4f8ea3607e2cb46d41e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -214,6 +214,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-201 · Current delivery and historical-evidence KB navigation | completed | applied | Ahimanikya Satapathy | Merged documentation verified; future work should enter through canonical registers and preserve historical evidence. | — |
 | UTP-WORK-202 · Transliteration-aware collection search | completed | published | Ahimanikya Satapathy | Published and verified; preserve explicit aliases and non-Latin distinctions in future search work. | — |
 | UTP-WORK-203 · Share current Explore results | completed | published | Ahimanikya Satapathy | Published and verified; retain scoped result sharing and clean links on other pages. | — |
+| UTP-WORK-204 · Cancel stale photo-journey audio starts | in_progress | reviewed | Ahimanikya Satapathy | Merge passing reviewed head, publish and verify exact live script before counting. | — |
 
 ## Pending human review and decisions
 
@@ -672,6 +673,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-169 | pass_with_limitations | False | Same-assistant review; no fresh Search Console or human editorial review. |
 | UTP-REV-170 | pass_with_limitations | False | Same-assistant review; explicit aliases still required for transliteration, no independent language review. |
 | UTP-REV-171 | pass_with_limitations | False | Same-assistant review; fallback browser path verified, native share and clipboard success not exercised. |
+| UTP-REV-172 | pass_with_limitations | False | Same-assistant testing; deterministic race tests and local keyboard controls verified. Browser leave-and-return path and acoustic output not verified. |
 
 ## Publication and application history
 
@@ -802,7 +804,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-282 | 2026-10-09T03:40:16.702510+00:00 | Added read-only completion evidence validator and CI check. Seventeen fault-injection and compatibility tests pass; no website change or additional completed item claimed yet. | Merge after passing required checks and verify delivered tooling. |
 | UTP-EVT-283 | 2026-10-09T03:45:25.251776+00:00 | PR157 passed required CI and merged at the reviewed head. Verified merged tooling and instructions byte-for-byte. Fourteenth substantive item completed; website deployment not required. | Continue the next eligible independent deliverable. |
 | UTP-EVT-284 | 2026-10-09T10:32:59.462143+00:00 | Illustrated maritime story separates remembrance, material provenance and India–Bali evidence. Reused credited documentary photographs; browser reading/source/save checks and 584 automated tests pass. | Merge and publish after required validation; preserve eleven-route search scope. |
 | UTP-EVT-285 | 2026-10-09T10:45:48.694027+00:00 | PR158 passed required CI and merged at the reviewed head; approved workflow published the maritime story. Live paragraphs, source links, photographs, discovery links and unchanged eleven-route sitemap verified. Fifteenth substantive item completed. | Continue the next eligible independent deliverable. |
@@ -812,6 +813,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-289 | 2026-10-09T12:01:34.148371+00:00 | PR160 passed required validation and merged at the reviewed head. Authorized workflow deployed the search fix; live piṭha query finds three food stories with result-count keyboard focus, and live script bytes match tested output. Seventeenth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-290 | 2026-10-09T12:54:04.535898+00:00 | Explore shares rendered selections with explicit copy. Three URL-boundary tests and 590 website tests pass; Chrome fallback link preserves filters, restores results and keeps other page links clean. No external message sent. | Merge passing reviewed head and publish. |
 | UTP-EVT-291 | 2026-10-09T13:07:31.039869+00:00 | PR161 passed required validation and merged at the reviewed head. Approved workflow deployed selected-result sharing; live keyboard fallback retains query, topic, area and order, and script bytes match tested output. Eighteenth substantive item completed. | Continue the next eligible independent deliverable. |
+| UTP-EVT-292 | 2026-10-09T13:57:22.383939+00:00 | Reproduced stale audio resume starting playback after cancellation. Context ownership now rejects superseded starts and failures. Five regression tests, 595 website tests and local keyboard playback controls pass; subsequent browser timeout preserved as limitation. | Merge tested head, publish and verify live files. |
 
 ## Deferred extensions
 

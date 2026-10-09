@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-09T13:57:22.383939+00:00",
+  "program_item": "UTP-A500-019",
+  "work_id": "UTP-WORK-204",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Photo journey optional ambient audio asynchronous cancellation.",
+  "finding": "The old resume continuation dereferenced mutable ctx after awaiting resume. A cancelled first resume could build against the newer context and start playback before that newer resume completed.",
+  "verification": {
+    "reproduction": "Actual PhotoJourney class with deferred AudioContext fixture: on/off/on then resolve first request. Before: 1 playback interval and Sound on. After: 0 intervals and Sound off until the latest request resolves; latest then starts exactly 1 interval.",
+    "unit": "Five tests: stop during resume, rapid on/off/on, stale rejection after a newer success, retry after current failure, unsupported audio and build/close failures.",
+    "full_tests": 504,
+    "coastal_tests": 91,
+    "build": "Full, coastal and publication builds pass; eleven-route search selection unchanged.",
+    "browser": "Chrome local Chilika: keyboard Sound off starts Sound on and Pause journey; Next chapter resets Sound off/Play journey. Sound toggle off keeps photographs playing silently; Pause stops and resets controls.",
+    "source_review": "No new factual, imagery, musical or search-eligibility claims. Existing composed ambient sound and real-photo disclaimers retained."
+  },
+  "limitations": [
+    "Same-assistant testing. Browser verifies state and controls, not acoustic quality or sound-device output.",
+    "Browser connection timed out during a later leave-and-return attempt. That browser path and physical-device/screen-reader checks remain unverified. Delayed starts exercised deterministically in tests."
+  ],
+  "publication": "Pending required PR checks, exact-head merge, approved deployment and live receipt."
+}
