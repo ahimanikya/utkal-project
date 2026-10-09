@@ -37,6 +37,24 @@ def evidence_file(kb, value):
     return path
 
 
+def record_index(registers, key):
+    """Reject ambiguous identities before any authority or work lookup."""
+    rows = registers.get(key)
+    if not isinstance(rows, list):
+        raise ValueError(f'{key} must be a list of objects with unique IDs')
+    indexed = {}
+    for position, row in enumerate(rows):
+        if not isinstance(row, dict):
+            raise ValueError(f'{key}[{position}] must be an object')
+        ident = row.get('id')
+        if not isinstance(ident, str) or not ident.strip():
+            raise ValueError(f'{key}[{position}] needs a non-empty string ID')
+        if ident in indexed:
+            raise ValueError(f'duplicate {key} ID: {ident}')
+        indexed[ident] = row
+    return indexed
+
+
 def check(root=ROOT):
     kb = root / 'kb'
     errors = []
@@ -48,15 +66,21 @@ def check(root=ROOT):
         items = program.get('items')
         if not isinstance(items, list) or not all(isinstance(i, dict) for i in items):
             raise ValueError('items must be a list of objects')
-        work = {w['id']: w for w in registers['work']}
-        decisions = {d['id']: d for d in registers['decisions']}
+        work = record_index(registers, 'work')
+        decisions = record_index(registers, 'decisions')
     except (OSError, ValueError, KeyError, TypeError) as exc:
         return [f'Cannot read program/registers: {exc}']
 
     authority = program.get('authorization')
+    for field in ('authorization', 'human_owner'):
+        if not isinstance(program.get(field), str) or not program[field].strip():
+            errors.append(f'Program {field} must be a non-empty string')
+    if errors:
+        return errors
     decision = decisions.get(authority, {})
-    if (decision.get('status') != 'approved' or decision.get('actor', {}).get('kind') != 'human'
-            or decision.get('actor', {}).get('name') != program.get('human_owner')):
+    actor = decision.get('actor')
+    if (decision.get('status') != 'approved' or not isinstance(actor, dict)
+            or actor.get('kind') != 'human' or actor.get('name') != program['human_owner']):
         errors.append('Program authorization must reference an approved decision by its human owner')
     completed = sum(i.get('status') == 'completed' for i in items)
     if type(program.get('completed_items')) is not int or program['completed_items'] != completed:

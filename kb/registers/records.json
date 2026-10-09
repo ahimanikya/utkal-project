@@ -6079,6 +6079,31 @@
         "records/opportunities-guidance-recheck-2026-10-08.json",
         "specs/tourism-pilot-capacity.md"
       ]
+    },
+    {
+      "id": "UTP-WORK-207",
+      "title": "Autonomous checker registry and authority shape validation",
+      "category": "knowledge_operations",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge tested tooling and verify remote delivery before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-WORK-199",
+        "UTP-REV-175"
+      ],
+      "acceptance_criteria": [
+        "The read-only autonomous checker rejects duplicate or malformed work/decision registries and invalid program authority/owner or decision actors with actionable findings, never uncaught exceptions or last-record-wins lookup. Current records and shared receipts stay valid. Fault-injection and read-only tests, required PR checks, exact-head merge and tooling receipt; no website deployment required."
+      ],
+      "evidence": [
+        "records/autonomous-500-program.json",
+        "records/program-record-shapes-review-2026-10-10.json"
+      ]
     }
   ],
   "decisions": [
@@ -14649,6 +14674,27 @@
         "Same-assistant editorial review; no independent practitioner, legal or policy review.",
         "No new external research, host contact or field observation; proposals require relevant human and institutional review.",
         "Five-part Markdown framework, not a paginated PDF or the completed field-based five-page proposal."
+      ]
+    },
+    {
+      "id": "UTP-REV-175",
+      "title": "Program registry and authority shape review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-207",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/program-record-shapes-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant implementation and review. Tests validate record handling, not authenticity of approval, factual truth or live publication.",
+        "Scope is registry/authority shape and duplicate handling, not an exhaustive schema validator for every field."
       ]
     }
   ],

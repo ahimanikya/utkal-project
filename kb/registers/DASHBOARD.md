@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5a55a0875431d0eff0cd7930d35a7ebf227b14e0fc89ead44213de94f5b6b05a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cb4405043e2e57771a551744dcc3162a64cdebf22f0bc1a7f79f9cc427e82013`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -217,6 +217,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-204 · Cancel stale photo-journey audio starts | completed | published | Ahimanikya Satapathy | Published and live controller verified. Wider browser lifecycle, acoustic and physical-device review remain separate. | — |
 | UTP-WORK-205 · Portable maritime reading story | completed | published | Ahimanikya Satapathy | Delivered; retain source boundaries and separate museum save. | — |
 | UTP-WORK-206 · Boita desk discussion framework | completed | applied | Ahimanikya Satapathy | Desk framework merged. WORK173 requires actual field evidence before a field-based proposal; no engagement or trial authorized. | — |
+| UTP-WORK-207 · Autonomous checker registry and authority shape validation | in_progress | reviewed | Ahimanikya Satapathy | Merge tested tooling and verify remote delivery before counting. | — |
 
 ## Pending human review and decisions
 
@@ -678,6 +679,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-172 | pass_with_limitations | False | Same-assistant testing; deterministic race tests and local keyboard controls verified. Browser leave-and-return path and acoustic output not verified. |
 | UTP-REV-173 | pass_with_limitations | False | Same-assistant testing, not independent editorial or specialist historical review.; Download event capture timed out; browser reported preparation and download request, but downloaded file and native PDF/physical-device output were not inspected. |
 | UTP-REV-174 | pass_with_limitations | False | Same-assistant editorial review; no independent practitioner, legal or policy review.; No new external research, host contact or field observation; proposals require relevant human and institutional review.; Five-part Markdown framework, not a paginated PDF or the completed field-based five-page proposal. |
+| UTP-REV-175 | pass_with_limitations | False | Same-assistant implementation and review. Tests validate record handling, not authenticity of approval, factual truth or live publication.; Scope is registry/authority shape and duplicate handling, not an exhaustive schema validator for every field. |
 
 ## Publication and application history
 
@@ -810,7 +812,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-288 | 2026-10-09T11:52:32.832280+00:00 | Reproduced accented Latin search mismatch; fixed Latin-only accent normalization while preserving other script marks. Three new regression tests and 587 website tests pass. Chrome confirms three pitha results and distinct Odia vowel queries. | Merge tested head and publish through approved workflow. |
 | UTP-EVT-289 | 2026-10-09T12:01:34.148371+00:00 | PR160 passed required validation and merged at the reviewed head. Authorized workflow deployed the search fix; live piṭha query finds three food stories with result-count keyboard focus, and live script bytes match tested output. Seventeenth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-290 | 2026-10-09T12:54:04.535898+00:00 | Explore shares rendered selections with explicit copy. Three URL-boundary tests and 590 website tests pass; Chrome fallback link preserves filters, restores results and keeps other page links clean. No external message sent. | Merge passing reviewed head and publish. |
 | UTP-EVT-291 | 2026-10-09T13:07:31.039869+00:00 | PR161 passed required validation and merged at the reviewed head. Approved workflow deployed selected-result sharing; live keyboard fallback retains query, topic, area and order, and script bytes match tested output. Eighteenth substantive item completed. | Continue the next eligible independent deliverable. |
@@ -820,6 +821,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-295 | 2026-10-09T16:37:01.176098+00:00 | PR163 passed required validation, merged exact reviewed head and deployed. Live Reading catalog matches tested output with chapters, sources and credited photo; separate museum choice and eleven-route sitemap retained. Twentieth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-296 | 2026-10-09T17:17:09.710172+00:00 | Prepared five-part Boita desk framework with separate governance and enterprise proposals, evidence-state distinctions, barrier record, measures and proposed requests. Field-based WORK173 remains open. | Merge tested documentation and verify repository delivery. |
 | UTP-EVT-297 | 2026-10-09T17:22:56.316407+00:00 | PR164 passed required checks and merged exact reviewed head. Boita discussion framework and navigation verified on main. Item21 delivered as documentation; field-based WORK173 and operational dependencies remain open. | Continue the next eligible independent deliverable. |
+| UTP-EVT-298 | 2026-10-09T22:23:21.355695+00:00 | Reproduced ambiguous duplicate IDs and malformed authority crashes in standalone program checker. Added validated registry lookup and safe authority handling; 22 tests pass and valid/invalid inputs remain untouched. | Merge tested tooling and verify remote receipt. |
 
 ## Deferred extensions
 

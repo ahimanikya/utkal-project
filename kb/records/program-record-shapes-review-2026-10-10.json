@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-09T22:23:21.355695+00:00",
+  "program_item": "UTP-A500-022",
+  "work_id": "UTP-WORK-207",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Standalone autonomous-program validator registry identity and authority shape handling.",
+  "verification": {
+    "before": "Fault injection produced 20 failing subcases and five uncaught errors across 21 tests. Duplicate work/decision IDs were silently indexed with the last row winning; invalid actor and authorization types could raise exceptions.",
+    "after": "22 unittest methods pass, including duplicate registries, non-list registries, invalid row types/IDs, malformed program authorization/owner and decision actors. Current shared-batch and documentation receipts remain valid.",
+    "read_only": "Valid and malformed fixtures preserve every file byte. No network access, mutation, approval or inferred completion is added.",
+    "review": "Lookup now uses validated object rows and unique non-empty string IDs. Program authority and human-owner shapes are checked before lookup; actor is checked before accessing fields. Failures identify the registry/field.",
+    "current_program": "21 completed entries remain supported; item22 remains in progress pending merged tooling receipt."
+  },
+  "limitations": [
+    "Same-assistant implementation and review. Tests validate record handling, not authenticity of approval, factual truth or live publication.",
+    "Scope is registry/authority shape and duplicate handling, not an exhaustive schema validator for every field."
+  ],
+  "delivery": "Pending passing required CI and exact-head merge. Website deployment not required because only repository tooling and records changed."
+}
