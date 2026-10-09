@@ -1,0 +1,39 @@
+{
+  "recorded_at": "2026-10-09T03:23:55.654851+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-013",
+  "work_id": "UTP-WORK-198",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/156",
+  "reviewed_head": "a3344e01f8e2296f24a1233cbf5ea63bf92ec29c",
+  "merge_commit": "df8b3e02caf49dad7cc044600aa4d1ff94a89204",
+  "merged_at": "2026-10-09T03:19:44Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37878564516",
+    "conclusion": "success",
+    "full_tests": 493,
+    "coastal_tests": 91
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37878765057",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "df8b3e02caf49dad7cc044600aa4d1ff94a89204"
+  },
+  "live": {
+    "checked_at": "2026-10-09T03:22:37.743855+00:00",
+    "page": "https://utkalproject.org/journey/",
+    "http_status": 200,
+    "review_heading_and_limit_copy": true,
+    "script": "https://utkalproject.org/_astro/journey.KnBRO5Tc.js",
+    "script_http_status": 200,
+    "script_sha256": "a8b3ba91d207d37663861bdea92d0d5eb2074fb72c3d19624fc1ee0194fb2e66",
+    "matches_tested_bytes": true,
+    "sitemap_entries": 11
+  },
+  "review": "records/backup-import-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant review; asynchronous races covered by deterministic tests, browser flows used synthetic local backups.",
+    "Live check verifies HTML and exact tested module; no live personal data changed."
+  ]
+}
