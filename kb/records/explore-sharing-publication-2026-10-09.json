@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-10-09T13:07:31.039869+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-018",
+  "work_id": "UTP-WORK-203",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/161",
+  "reviewed_head": "a30562f8a9ab036aa06dad8f28c0b10f772d3f54",
+  "merge_commit": "c5f3ced42f09f692040b346412ccc82bf3c70469",
+  "merged_at": "2026-10-09T13:00:58Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37933123677",
+    "conclusion": "success",
+    "full_tests": 499,
+    "coastal_tests": 91,
+    "regressions": "Three URL-boundary tests plus local browser filtered-link restoration, cleared filters and clean contribution-page sharing."
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37933914073",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "c5f3ced42f09f692040b346412ccc82bf3c70469"
+  },
+  "live": {
+    "checked_at": "2026-10-09T13:05:58.727347+00:00",
+    "page": "https://utkalproject.org/explore/",
+    "http_status": 200,
+    "sitemap_entries": 11,
+    "scripts": [
+      {
+        "url": "https://utkalproject.org/_astro/PageShare.astro_astro_type_script_index_0_lang.DitTlNx6.js",
+        "sha256": "9477ae68d71b876c6f8822c7b329d13d45c36b5ca41a41bb5847de142c333b82",
+        "matches_tested_bytes": true
+      },
+      {
+        "url": "https://utkalproject.org/_astro/search.O7VOqgCy.js",
+        "sha256": "74fb8dc6593a45abd40c2b9e6b249b57d02988a7c06c52033d2804faf7fee204",
+        "matches_tested_bytes": true
+      }
+    ],
+    "browser": {
+      "query": "piṭha",
+      "topic": "Food",
+      "region": "Across Odisha",
+      "sort": "title",
+      "result_count": 3,
+      "entries": [
+        "Enduri pitha",
+        "Poda pitha",
+        "Tala pitha"
+      ],
+      "shared_url": "https://utkalproject.org/explore/?q=pi%E1%B9%ADha&topic=Food&region=Across+Odisha&sort=title",
+      "keyboard": "Enter on Share these results reveals focused manual-copy fallback containing the selected results URL.",
+      "visual": "Live Chrome footer shows results-sharing label, explicit included-filter notice and focused selectable link.",
+      "screenshot": "planning/utkala-odisha/review-assets/explore-sharing-2026-10-09.jpg"
+    }
+  },
+  "review": "records/explore-sharing-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant review; no independent or physical-device review.",
+    "Native share-sheet success and clipboard-success paths not exercised; local and live manual-copy fallback verified. No message sent."
+  ]
+}

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `60c1f663b150bd75e69123a7caf7a341049a4e63b157b2a419e9d4926b08a7b3`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `5a7aa2d4d580a69daf5a3119881fb3540f29db3e8022d0f8bc3727289b2f9056`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 17 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 18/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -213,7 +213,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-200 · Maritime memory and evidence reading story | completed | published | Ahimanikya Satapathy | Published with source and image credits; independent editorial and field review remain future work. | — |
 | UTP-WORK-201 · Current delivery and historical-evidence KB navigation | completed | applied | Ahimanikya Satapathy | Merged documentation verified; future work should enter through canonical registers and preserve historical evidence. | — |
 | UTP-WORK-202 · Transliteration-aware collection search | completed | published | Ahimanikya Satapathy | Published and verified; preserve explicit aliases and non-Latin distinctions in future search work. | — |
-| UTP-WORK-203 · Share current Explore results | in_progress | reviewed | Ahimanikya Satapathy | Merge after required CI, publish and verify live sharing before counting. | — |
+| UTP-WORK-203 · Share current Explore results | completed | published | Ahimanikya Satapathy | Published and verified; retain scoped result sharing and clean links on other pages. | — |
 
 ## Pending human review and decisions
 
@@ -764,6 +764,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-084 · Reliable and keyboard-reachable backup import published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
 | UTP-REL-085 · Maritime memory and evidence reading story published | published | https://utkalproject.org/stories/maritime-memory/ | UTP-DEC-225 |
 | UTP-REL-086 · Latin transliteration accent search published | published | https://utkalproject.org/explore/ | UTP-DEC-225 |
+| UTP-REL-087 · Selected Explore results sharing published | published | https://utkalproject.org/explore/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -801,7 +802,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-281 | 2026-10-09T03:23:55.654851+00:00 | PR156 passed required validation, merged and deployed. Live preview heading and capacity explanation present; script matches tested bytes; eleven-route sitemap unchanged. Thirteenth substantive item completed. | Continue the next eligible independent item. |
 | UTP-EVT-282 | 2026-10-09T03:40:16.702510+00:00 | Added read-only completion evidence validator and CI check. Seventeen fault-injection and compatibility tests pass; no website change or additional completed item claimed yet. | Merge after passing required checks and verify delivered tooling. |
 | UTP-EVT-283 | 2026-10-09T03:45:25.251776+00:00 | PR157 passed required CI and merged at the reviewed head. Verified merged tooling and instructions byte-for-byte. Fourteenth substantive item completed; website deployment not required. | Continue the next eligible independent deliverable. |
 | UTP-EVT-284 | 2026-10-09T10:32:59.462143+00:00 | Illustrated maritime story separates remembrance, material provenance and India–Bali evidence. Reused credited documentary photographs; browser reading/source/save checks and 584 automated tests pass. | Merge and publish after required validation; preserve eleven-route search scope. |
@@ -811,6 +811,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-288 | 2026-10-09T11:52:32.832280+00:00 | Reproduced accented Latin search mismatch; fixed Latin-only accent normalization while preserving other script marks. Three new regression tests and 587 website tests pass. Chrome confirms three pitha results and distinct Odia vowel queries. | Merge tested head and publish through approved workflow. |
 | UTP-EVT-289 | 2026-10-09T12:01:34.148371+00:00 | PR160 passed required validation and merged at the reviewed head. Authorized workflow deployed the search fix; live piṭha query finds three food stories with result-count keyboard focus, and live script bytes match tested output. Seventeenth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-290 | 2026-10-09T12:54:04.535898+00:00 | Explore shares rendered selections with explicit copy. Three URL-boundary tests and 590 website tests pass; Chrome fallback link preserves filters, restores results and keeps other page links clean. No external message sent. | Merge passing reviewed head and publish. |
+| UTP-EVT-291 | 2026-10-09T13:07:31.039869+00:00 | PR161 passed required validation and merged at the reviewed head. Approved workflow deployed selected-result sharing; live keyboard fallback retains query, topic, area and order, and script bytes match tested output. Eighteenth substantive item completed. | Continue the next eligible independent deliverable. |
 
 ## Deferred extensions
 

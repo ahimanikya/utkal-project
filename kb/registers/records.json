@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-09T12:54:04.535898+00:00",
+  "recorded_at": "2026-10-09T13:07:31.039869+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5600,7 +5600,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "17 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
+      "next_action": "18/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5973,22 +5973,24 @@
       "id": "UTP-WORK-203",
       "title": "Share current Explore results",
       "category": "visitor_experience",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge after required CI, publish and verify live sharing before counting.",
+      "next_action": "Published and verified; retain scoped result sharing and clean links on other pages.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-189",
         "UTP-WORK-075",
-        "UTP-REV-171"
+        "UTP-REV-171",
+        "UTP-REL-087"
       ],
       "evidence": [
         "records/autonomous-500-program.json",
-        "records/explore-sharing-review-2026-10-09.json"
+        "records/explore-sharing-review-2026-10-09.json",
+        "records/explore-sharing-publication-2026-10-09.json"
       ]
     }
   ],
@@ -15927,6 +15929,21 @@
       ],
       "evidence": [
         "records/transliteration-search-publication-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-087",
+      "title": "Selected Explore results sharing published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/explore/",
+      "refs": [
+        "UTP-WORK-203",
+        "UTP-REV-171",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/explore-sharing-publication-2026-10-09.json"
       ]
     }
   ],
