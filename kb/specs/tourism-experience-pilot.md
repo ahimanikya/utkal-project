@@ -105,3 +105,7 @@ The [5 October research pack](../research/collections/tourism-pilot-desk-review.
 ## Website section specification
 
 The [tourism opportunities requirements](tourism-opportunities-section.md) define the first public information section and its handoff criteria. Completing these requirements does not resolve the application-route or local-confirmation tasks.
+
+## Boita discussion preparation
+
+The [five-part discussion framework](boita-tourism-discussion-framework.md) prepares the two policy and entrepreneurship tracks, evidence requirements, proposed measures and discussion requests. It is a desk precursor to the five-page field-based proposal; WORK173 remains open until the required observed barriers and delivery evidence exist.

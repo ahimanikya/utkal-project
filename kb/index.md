@@ -144,3 +144,5 @@ Historical visitor-experience release: [PR 23 publication evidence](records/visi
 - [Tourism opportunities section requirements](specs/tourism-opportunities-section.md) — official guidance, cultural reading and contribution flows, with operating dependencies kept explicit.
 
 - [Maritime memory: a small boat, a wider world](research/stories/narratives/maritime-memory.json) — illustrated public narrative connecting ritual, anchor provenance, India–Bali research and questions for a museum visit.
+
+- [Boita tourism discussion framework](specs/boita-tourism-discussion-framework.md) — desk proposal connecting public-service improvements and local entrepreneurship; field findings and external engagement remain separate.
