@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `27d1dbc2c6cb31034e9a5fbbf105b98a5effe7fd12421299969308826eb11a4e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `66412e1523c059fd4d91b2ef5511311a51e89265d154a15fbcac6cd3404a9ba1`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 11 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 12 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -207,7 +207,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-194 · Illustrated Odia reading companion | completed | reviewed | Ahimanikya Satapathy | Published with live receipt; future reading expansion remains separate. | — |
 | UTP-WORK-195 · Reading-aware saved journey guidance | completed | reviewed | Ahimanikya Satapathy | Published with live script verification; future planner refinements remain separate. | — |
 | UTP-WORK-196 · Operator readiness and trial decision preparation pack | completed | reviewed | Ahimanikya Satapathy | Preparation pack merged and verified; actual field assessments and trial decisions remain under WORK172 with its existing dependencies. | — |
-| UTP-WORK-197 · Planner day removal and undo keyboard continuity | in_progress | reviewed | Ahimanikya Satapathy | Publish after required checks and save live script verification. | — |
+| UTP-WORK-197 · Planner day removal and undo keyboard continuity | completed | reviewed | Ahimanikya Satapathy | Published; live script matches tested bytes. Wider physical-device and screen-reader review remains separate. | — |
 
 ## Pending human review and decisions
 
@@ -748,6 +748,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-080 · Cultural reading connections restored publicly | published | https://utkalproject.org/literature/ | UTP-DEC-225 |
 | UTP-REL-081 · Illustrated Odia reading companion published | published | https://utkalproject.org/literature/reading-journey/ | UTP-DEC-225 |
 | UTP-REL-082 · Reading-aware planner guidance published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
+| UTP-REL-083 · Planner day removal and undo keyboard repair published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -785,7 +786,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-269 | 2026-10-08T07:49:23.977470+00:00 | PR150 merged after passing checks; deployment and live food catalogue verified. Current food titles, summaries and areas align with articles while saved identities and practical source context remain. Seventh program item complete. | Continue another eligible backlog item without routine approval prompts. |
 | UTP-EVT-270 | 2026-10-08T08:46:32.657153+00:00 | Route-aware selection restores three existing cultural connections across nine public pages. Narratives, credit and source limitations retained; unit, built-output, phone, desktop and keyboard checks passed. | Publish after required checks, then verify live pages. |
 | UTP-EVT-271 | 2026-10-08T08:53:18.393698+00:00 | PR151 passed checks, merged and deployed. Nine live pages carry the three cultural connections with credits and source limitations; all reading anchors resolve and the eleven-route sitemap is unchanged. Eighth program item completed. | Continue the next eligible independent item. |
 | UTP-EVT-272 | 2026-10-08T09:54:35.283829+00:00 | Four existing writer ideas now have an illustrated reading companion and portable chapters. 483 full and 91 coastal tests pass; Chrome saving, note persistence, photo-book generation and responsive layouts checked. Source scope and search hold retained. | Publish after required checks, then verify live output. |
@@ -795,6 +795,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-276 | 2026-10-08T22:50:37.676701+00:00 | Prepared a scoped readiness assessment, six-lead gap map and trial decision sheet. Six documentary scenarios reviewed; no provider assessed and WORK172 dependencies remain open. | Merge checked documentation and save receipt before counting delivery. |
 | UTP-EVT-277 | 2026-10-08T22:58:34.752691+00:00 | PR154 passed required validation and merged. Operator readiness preparation document verified byte-for-byte on fetched main; documentation-only delivery, no website deployment. Eleventh program item completed. | Continue eligible independent work; field assessments remain open. |
 | UTP-EVT-278 | 2026-10-08T23:51:24.614804+00:00 | Reproduced day-undo focus loss; repaired removal-to-Undo and Undo-to-heading focus. 577 automated tests pass; cancellation, scoped removal/undo keyboard path and note persistence checked with native-dialog limitation recorded. | Publish exact tested head after required checks. |
+| UTP-EVT-279 | 2026-10-09T00:07:27.950193+00:00 | PR155 passed validation, merged and deployed. Live planner imports the exact tested script; eleven-route sitemap unchanged. Twelfth substantive item completed. | Continue the next eligible independent item. |
 
 ## Deferred extensions
 

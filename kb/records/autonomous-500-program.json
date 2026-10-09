@@ -5,7 +5,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-225",
   "target_completed_items": 500,
-  "completed_items": 11,
+  "completed_items": 12,
   "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
   "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
   "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
@@ -149,12 +149,14 @@
     {
       "id": "UTP-A500-012",
       "title": "Preserve keyboard position when removing and undoing planner days",
-      "status": "in_progress",
+      "status": "completed",
       "work_id": "UTP-WORK-197",
       "acceptance": "Empty-day removal opens and focuses available Undo; undo returns focus to the stable planner heading; cancellation keeps day and notes; restored notes persist; browser keyboard checks, regression suite, tested PR, deployment and live receipt.",
       "evidence": [
-        "records/planner-day-focus-review-2026-10-08.json"
-      ]
+        "records/planner-day-focus-review-2026-10-08.json",
+        "records/planner-day-focus-publication-2026-10-08.json"
+      ],
+      "completed_at": "2026-10-09T00:07:27.950193+00:00"
     }
   ],
   "followup_candidates": [
@@ -174,5 +176,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-08T23:09:15.349972+00:00"
+  "updated_at": "2026-10-09T00:07:27.950193+00:00"
 }

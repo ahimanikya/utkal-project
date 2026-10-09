@@ -5600,7 +5600,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "11 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
+      "next_action": "12 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5821,21 +5821,23 @@
       "id": "UTP-WORK-197",
       "title": "Planner day removal and undo keyboard continuity",
       "category": "website_accessibility",
-      "status": "in_progress",
+      "status": "completed",
       "readiness": "reviewed",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Publish after required checks and save live script verification.",
+      "next_action": "Published; live script matches tested bytes. Wider physical-device and screen-reader review remains separate.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-075",
-        "UTP-REV-165"
+        "UTP-REV-165",
+        "UTP-REL-083"
       ],
       "evidence": [
         "records/autonomous-500-program.json",
-        "records/planner-day-focus-review-2026-10-08.json"
+        "records/planner-day-focus-review-2026-10-08.json",
+        "records/planner-day-focus-publication-2026-10-08.json"
       ],
       "reuse_before_research": [
         "records/planner-visual-review-2026-10-04.json",
@@ -15599,6 +15601,21 @@
       ],
       "evidence": [
         "records/reading-planner-publication-2026-10-08.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-083",
+      "title": "Planner day removal and undo keyboard repair published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/journey/",
+      "refs": [
+        "UTP-WORK-197",
+        "UTP-REV-165",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/planner-day-focus-publication-2026-10-08.json"
       ]
     }
   ],

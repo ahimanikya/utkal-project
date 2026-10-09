@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-10-09T00:07:27.950193+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-012",
+  "work_id": "UTP-WORK-197",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/155",
+  "reviewed_head": "e58a06ff54fe4c7e63c0bb12f19f1ab89c032923",
+  "merge_commit": "e2f920bf62341bb7fcb925881bd8055ba57d890d",
+  "merged_at": "2026-10-08T23:57:06Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37861852095",
+    "conclusion": "success",
+    "full_tests": 486,
+    "coastal_tests": 91
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37862235778",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "e2f920bf62341bb7fcb925881bd8055ba57d890d"
+  },
+  "live": {
+    "checked_at": "2026-10-09T00:05:51.333162+00:00",
+    "page": "https://utkalproject.org/journey/",
+    "http_status": 200,
+    "script": "https://utkalproject.org/_astro/journey.CrvAQRwe.js",
+    "script_http_status": 200,
+    "script_sha256": "e92ddcec0acb8f811e541d3e49db9f238f95d64a78dd8a359cf867ffabb8d7ea",
+    "matches_tested_bytes": true,
+    "sitemap_entries": 11
+  },
+  "review": "records/planner-day-focus-review-2026-10-08.json",
+  "limitations": [
+    "Local keyboard regression used a temporary confirmation stub for accepted removal because native dialog tooling stalled; restored native confirmation verified after reload.",
+    "Live verification checks served page/import and exact script bytes; no live personal data changed."
+  ]
+}
