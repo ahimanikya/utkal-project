@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-10-09T17:22:56.316407+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-021",
+  "work_id": "UTP-WORK-206",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/164",
+  "reviewed_head": "22576de34a23dfc6f700744f5561693c25f89e84",
+  "merge_commit": "e5e48f7c93bc5a8d245ef169ab185fd9cf80a95f",
+  "merged_at": "2026-10-09T17:21:46Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37965344483",
+    "conclusion": "success",
+    "repository_checks": "Required validate job passed; source/scope self-review, relative links, five-part structure, bundle 1243 concepts and 4937 local links, registers, program integrity and workbench checks passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB documentation and records only; no website code, asset, edition or workflow changed. Repository delivery verified without claiming a website deployment."
+  },
+  "published_artifacts": [
+    {
+      "path": "kb/specs/boita-tourism-discussion-framework.md",
+      "sha256": "e86450d157c365fd153595a331ecbaeafd19c8119b2c863ca2b7360312555a0a",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/specs/tourism-experience-pilot.md",
+      "sha256": "3408adada77112ef1d71ef2eaf803bd439d52ddabe3f1d388a81ceb800a517ee",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "kb/index.md",
+      "sha256": "377b21a3d79f643d8c8b0baa9cefa7bc2516adaab82db4a08ae9ad007fff8e31",
+      "matches_reviewed_bytes": true
+    }
+  ],
+  "verification": "Fetched origin/main and compared all three documentation files byte-for-byte with reviewed content.",
+  "review": "records/boita-discussion-framework-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant editorial review; no independent practitioner, legal or policy review.",
+    "No new external research, host contact or field observation; proposals require relevant human and institutional review.",
+    "Five-part Markdown framework, not a paginated PDF or the completed field-based five-page proposal."
+  ]
+}
