@@ -1,0 +1,37 @@
+{
+  "recorded_at": "2026-10-09T22:28:59.509048+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-022",
+  "work_id": "UTP-WORK-207",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/165",
+  "reviewed_head": "0c9bed1a885151f46d4f90f1cc13028841df4544",
+  "merge_commit": "79065d18d8502a8a2a8d048612cb5deb4660bac6",
+  "merged_at": "2026-10-09T22:28:27Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37999165195",
+    "conclusion": "success",
+    "repository_checks": "Required validate job passed in 1m57s. All 22 fault-injection and read-only tests, current program integrity, registers, catalog, bundle links, frozen workbench and diff checks passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Repository tooling and records only; no website source, asset or workflow changed. No website deployment claimed."
+  },
+  "published_artifacts": [
+    {
+      "path": "tools/check_autonomous_program.py",
+      "sha256": "392d78ba44ead3de60b0a657f09c4d454f22b7fa10ff446d0b460238a03c24fc",
+      "matches_reviewed_bytes": true
+    },
+    {
+      "path": "tools/test_autonomous_program.py",
+      "sha256": "90d02f957d8d59ef46b7a80018551869113439aa084476a063e16864630ca641",
+      "matches_reviewed_bytes": true
+    }
+  ],
+  "verification": "Fetched origin/main and compared both tooling files byte-for-byte with the exact reviewed head and local checked files.",
+  "review": "records/program-record-shapes-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant implementation and review; no independent or human review claimed.",
+    "Validates registry identity and authority record handling, not approval authenticity, research truth or live publication. Bounded shape coverage, not an exhaustive schema validator."
+  ]
+}

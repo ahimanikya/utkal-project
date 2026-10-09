@@ -5,7 +5,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-225",
   "target_completed_items": 500,
-  "completed_items": 21,
+  "completed_items": 22,
   "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
   "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
   "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
@@ -270,12 +270,14 @@
     {
       "id": "UTP-A500-022",
       "title": "Reject ambiguous and malformed program authority records",
-      "status": "in_progress",
+      "status": "completed",
       "work_id": "UTP-WORK-207",
       "acceptance": "The read-only autonomous checker rejects duplicate or malformed work/decision registries and invalid program authority/owner or decision actors with actionable findings, never uncaught exceptions or last-record-wins lookup. Current records and shared receipts stay valid. Fault-injection and read-only tests, required PR checks, exact-head merge and tooling receipt; no website deployment required.",
       "evidence": [
-        "records/program-record-shapes-review-2026-10-10.json"
-      ]
+        "records/program-record-shapes-review-2026-10-10.json",
+        "records/program-record-shapes-merged-2026-10-10.json"
+      ],
+      "completed_at": "2026-10-09T22:28:59.509048+00:00"
     }
   ],
   "followup_candidates": [

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `cb4405043e2e57771a551744dcc3162a64cdebf22f0bc1a7f79f9cc427e82013`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b03a99412a0b16d3d963fbf9eca09d4b494e92a74a9a3330161a4164cde51376`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 21/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 22/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -217,7 +217,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-204 · Cancel stale photo-journey audio starts | completed | published | Ahimanikya Satapathy | Published and live controller verified. Wider browser lifecycle, acoustic and physical-device review remain separate. | — |
 | UTP-WORK-205 · Portable maritime reading story | completed | published | Ahimanikya Satapathy | Delivered; retain source boundaries and separate museum save. | — |
 | UTP-WORK-206 · Boita desk discussion framework | completed | applied | Ahimanikya Satapathy | Desk framework merged. WORK173 requires actual field evidence before a field-based proposal; no engagement or trial authorized. | — |
-| UTP-WORK-207 · Autonomous checker registry and authority shape validation | in_progress | reviewed | Ahimanikya Satapathy | Merge tested tooling and verify remote delivery before counting. | — |
+| UTP-WORK-207 · Autonomous checker registry and authority shape validation | completed | applied | Ahimanikya Satapathy | Tested tooling merged and verified on main; delivery receipt recorded. | — |
 
 ## Pending human review and decisions
 
@@ -812,7 +812,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-289 | 2026-10-09T12:01:34.148371+00:00 | PR160 passed required validation and merged at the reviewed head. Authorized workflow deployed the search fix; live piṭha query finds three food stories with result-count keyboard focus, and live script bytes match tested output. Seventeenth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-290 | 2026-10-09T12:54:04.535898+00:00 | Explore shares rendered selections with explicit copy. Three URL-boundary tests and 590 website tests pass; Chrome fallback link preserves filters, restores results and keeps other page links clean. No external message sent. | Merge passing reviewed head and publish. |
 | UTP-EVT-291 | 2026-10-09T13:07:31.039869+00:00 | PR161 passed required validation and merged at the reviewed head. Approved workflow deployed selected-result sharing; live keyboard fallback retains query, topic, area and order, and script bytes match tested output. Eighteenth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-292 | 2026-10-09T13:57:22.383939+00:00 | Reproduced stale audio resume starting playback after cancellation. Context ownership now rejects superseded starts and failures. Five regression tests, 595 website tests and local keyboard playback controls pass; subsequent browser timeout preserved as limitation. | Merge tested head, publish and verify live files. |
@@ -822,6 +821,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-296 | 2026-10-09T17:17:09.710172+00:00 | Prepared five-part Boita desk framework with separate governance and enterprise proposals, evidence-state distinctions, barrier record, measures and proposed requests. Field-based WORK173 remains open. | Merge tested documentation and verify repository delivery. |
 | UTP-EVT-297 | 2026-10-09T17:22:56.316407+00:00 | PR164 passed required checks and merged exact reviewed head. Boita discussion framework and navigation verified on main. Item21 delivered as documentation; field-based WORK173 and operational dependencies remain open. | Continue the next eligible independent deliverable. |
 | UTP-EVT-298 | 2026-10-09T22:23:21.355695+00:00 | Reproduced ambiguous duplicate IDs and malformed authority crashes in standalone program checker. Added validated registry lookup and safe authority handling; 22 tests pass and valid/invalid inputs remain untouched. | Merge tested tooling and verify remote receipt. |
+| UTP-EVT-299 | 2026-10-09T22:28:59.509048+00:00 | PR165 passed required checks and merged the exact reviewed head. Both validator tooling files match main. Item22 delivered with 22 passing tests; duplicate IDs and malformed authority now produce findings without changing input. | Continue the next eligible independent deliverable. |
 
 ## Deferred extensions
 
