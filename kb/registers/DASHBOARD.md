@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b186e5191995e1932b21a12c0fed1c3269b7eb55b10a8370ee4c3dfd64b096eb`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `8a5e11fc17d6ed1fc3833a741a8d72e574dec6377cc408d67f3125da9443b17e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 14 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 15 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -210,7 +210,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-197 · Planner day removal and undo keyboard continuity | completed | reviewed | Ahimanikya Satapathy | Published; live script matches tested bytes. Wider physical-device and screen-reader review remains separate. | — |
 | UTP-WORK-198 · Backup import freshness and keyboard continuity | completed | reviewed | Ahimanikya Satapathy | Published with live HTML and script verification; physical-device and screen-reader testing remain separate. | — |
 | UTP-WORK-199 · Autonomous program completion evidence integrity | completed | reviewed | Ahimanikya Satapathy | Merged with required CI passing; current completion count and linked evidence validated. Continue substantive backlog work. | — |
-| UTP-WORK-200 · Maritime memory and evidence reading story | in_progress | reviewed | Ahimanikya Satapathy | Merge and publish tested story, then verify live output before counting. | — |
+| UTP-WORK-200 · Maritime memory and evidence reading story | completed | published | Ahimanikya Satapathy | Published with source and image credits; independent editorial and field review remain future work. | — |
 
 ## Pending human review and decisions
 
@@ -756,6 +756,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-082 · Reading-aware planner guidance published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
 | UTP-REL-083 · Planner day removal and undo keyboard repair published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
 | UTP-REL-084 · Reliable and keyboard-reachable backup import published | published | https://utkalproject.org/journey/ | UTP-DEC-225 |
+| UTP-REL-085 · Maritime memory and evidence reading story published | published | https://utkalproject.org/stories/maritime-memory/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -793,7 +794,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-275 | 2026-10-08T10:55:23.144566+00:00 | PR153 passed required checks, merged and deployed. Live journey module matches tested output byte-for-byte; eleven-route sitemap unchanged. Tenth program item completed. | Continue the next eligible independent item. |
 | UTP-EVT-276 | 2026-10-08T22:50:37.676701+00:00 | Prepared a scoped readiness assessment, six-lead gap map and trial decision sheet. Six documentary scenarios reviewed; no provider assessed and WORK172 dependencies remain open. | Merge checked documentation and save receipt before counting delivery. |
 | UTP-EVT-277 | 2026-10-08T22:58:34.752691+00:00 | PR154 passed required validation and merged. Operator readiness preparation document verified byte-for-byte on fetched main; documentation-only delivery, no website deployment. Eleventh program item completed. | Continue eligible independent work; field assessments remain open. |
 | UTP-EVT-278 | 2026-10-08T23:51:24.614804+00:00 | Reproduced day-undo focus loss; repaired removal-to-Undo and Undo-to-heading focus. 577 automated tests pass; cancellation, scoped removal/undo keyboard path and note persistence checked with native-dialog limitation recorded. | Publish exact tested head after required checks. |
@@ -803,6 +803,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-282 | 2026-10-09T03:40:16.702510+00:00 | Added read-only completion evidence validator and CI check. Seventeen fault-injection and compatibility tests pass; no website change or additional completed item claimed yet. | Merge after passing required checks and verify delivered tooling. |
 | UTP-EVT-283 | 2026-10-09T03:45:25.251776+00:00 | PR157 passed required CI and merged at the reviewed head. Verified merged tooling and instructions byte-for-byte. Fourteenth substantive item completed; website deployment not required. | Continue the next eligible independent deliverable. |
 | UTP-EVT-284 | 2026-10-09T10:32:59.462143+00:00 | Illustrated maritime story separates remembrance, material provenance and India–Bali evidence. Reused credited documentary photographs; browser reading/source/save checks and 584 automated tests pass. | Merge and publish after required validation; preserve eleven-route search scope. |
+| UTP-EVT-285 | 2026-10-09T10:45:48.694027+00:00 | PR158 passed required CI and merged at the reviewed head; approved workflow published the maritime story. Live paragraphs, source links, photographs, discovery links and unchanged eleven-route sitemap verified. Fifteenth substantive item completed. | Continue the next eligible independent deliverable. |
 
 ## Deferred extensions
 

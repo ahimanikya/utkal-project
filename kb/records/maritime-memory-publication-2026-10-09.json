@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-09T10:45:48.694027+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-015",
+  "work_id": "UTP-WORK-200",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/158",
+  "reviewed_head": "3c23e74deb9e8e37eaea33e15561c84f877c7b15",
+  "merge_commit": "6131d168d95d4672826f16fcf40bac9d6dfd77f7",
+  "merged_at": "2026-10-09T10:40:51Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37918831209",
+    "conclusion": "success",
+    "full_tests": 493,
+    "coastal_tests": 91,
+    "repair": "Initial CI detected stale editorial-workbench coast configuration hash; regenerated it, passed 6 Python and 3 browser-model tests, and required CI passed on final head."
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37919123781",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "6131d168d95d4672826f16fcf40bac9d6dfd77f7"
+  },
+  "live": {
+    "checked_at": "2026-10-09T10:44:25.194623+00:00",
+    "page": "https://utkalproject.org/stories/maritime-memory/",
+    "http_status": 200,
+    "canonical_chapter_paragraphs_match": true,
+    "source_links_present": true,
+    "noindex": true,
+    "sitemap_entries": 11,
+    "discovery_links": [
+      "/explore/",
+      "/global-connections/"
+    ],
+    "images": [
+      {
+        "url": "https://utkalproject.org/images/jobra/boat-display.webp",
+        "http_status": 200,
+        "sha256": "e57afa6ed2cfca47b3c90ed962812effcdc1d2c79bf983fe0bc0e14be9b90b13",
+        "matches_tested_bytes": true
+      },
+      {
+        "url": "https://utkalproject.org/images/jobra/courtyard.webp",
+        "http_status": 200,
+        "sha256": "8670b7bdf041f5ad9291a21d22d0fd412601a0dcbd75f40a1e749e8511403d4f",
+        "matches_tested_bytes": true
+      }
+    ],
+    "browser": "Published opening visually checked in Chrome; title, lead and full museum photograph display correctly. Live saved-journey data was not changed."
+  },
+  "review": "records/maritime-memory-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant source and visual review; independent historian/community review remains outstanding.",
+    "No field visit, current display confirmation or inferred ancient itinerary. Source inspection limits are preserved in the article and review."
+  ]
+}

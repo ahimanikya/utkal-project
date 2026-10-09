@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-09T03:45:25.251776+00:00",
+  "recorded_at": "2026-10-09T10:45:48.694027+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5600,7 +5600,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "14 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
+      "next_action": "15 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5897,22 +5897,24 @@
       "id": "UTP-WORK-200",
       "title": "Maritime memory and evidence reading story",
       "category": "editorial_and_website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge and publish tested story, then verify live output before counting.",
+      "next_action": "Published with source and image credits; independent editorial and field review remain future work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-189",
-        "UTP-REV-168"
+        "UTP-REV-168",
+        "UTP-REL-085"
       ],
       "evidence": [
         "records/autonomous-500-program.json",
         "records/maritime-memory-review-2026-10-09.json",
-        "research/stories/narratives/maritime-memory.json"
+        "research/stories/narratives/maritime-memory.json",
+        "records/maritime-memory-publication-2026-10-09.json"
       ],
       "reuse_before_research": [
         "research/history/maritime-evidence.md",
@@ -15767,6 +15769,21 @@
       ],
       "evidence": [
         "records/backup-import-publication-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-085",
+      "title": "Maritime memory and evidence reading story published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/stories/maritime-memory/",
+      "refs": [
+        "UTP-WORK-200",
+        "UTP-REV-168",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/maritime-memory-publication-2026-10-09.json"
       ]
     }
   ],
