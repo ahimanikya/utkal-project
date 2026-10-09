@@ -3,7 +3,7 @@
   "model_version": "1.0.0",
   "project": "UTP",
   "name": "Utkal Project",
-  "recorded_at": "2026-10-09T11:52:32.832280+00:00",
+  "recorded_at": "2026-10-09T12:01:34.148371+00:00",
   "human_authority": "Ahimanikya Satapathy",
   "decision_home": "Founder’s Utkal conversation",
   "external_refs": {
@@ -5600,7 +5600,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "16 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
+      "next_action": "17 of 500 substantive items completed with acceptance evidence. Continue one eligible item at a time; preserve field/outreach dependencies.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -5949,22 +5949,24 @@
       "id": "UTP-WORK-202",
       "title": "Transliteration-aware collection search",
       "category": "visitor_experience",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "published",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge after required CI, deploy approved main and verify live accented search before counting.",
+      "next_action": "Published and verified; preserve explicit aliases and non-Latin distinctions in future search work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-189",
         "UTP-WORK-075",
-        "UTP-REV-170"
+        "UTP-REV-170",
+        "UTP-REL-086"
       ],
       "evidence": [
         "records/autonomous-500-program.json",
-        "records/transliteration-search-review-2026-10-09.json"
+        "records/transliteration-search-review-2026-10-09.json",
+        "records/transliteration-search-publication-2026-10-09.json"
       ]
     }
   ],
@@ -15868,6 +15870,21 @@
       ],
       "evidence": [
         "records/maritime-memory-publication-2026-10-09.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-086",
+      "title": "Latin transliteration accent search published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/explore/",
+      "refs": [
+        "UTP-WORK-202",
+        "UTP-REV-170",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/transliteration-search-publication-2026-10-09.json"
       ]
     }
   ],

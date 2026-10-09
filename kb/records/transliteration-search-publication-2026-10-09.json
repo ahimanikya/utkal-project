@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-09T12:01:34.148371+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-017",
+  "work_id": "UTP-WORK-202",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/160",
+  "reviewed_head": "902cce8d961a54a0985a5d37fad19e91613641b8",
+  "merge_commit": "62eb60d31199736513e837d4c460127b50be30fd",
+  "merged_at": "2026-10-09T11:56:13Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37926444993",
+    "conclusion": "success",
+    "full_tests": 496,
+    "coastal_tests": 91,
+    "regressions": "Three added tests failed before fix and pass after."
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/37926819620",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "62eb60d31199736513e837d4c460127b50be30fd"
+  },
+  "live": {
+    "checked_at": "2026-10-09T11:59:31.421573+00:00",
+    "page": "https://utkalproject.org/explore/",
+    "http_status": 200,
+    "sitemap_entries": 11,
+    "scripts": [
+      {
+        "url": "https://utkalproject.org/_astro/explore.astro_astro_type_script_index_0_lang.C5l-gBw0.js",
+        "sha256": "e610f18d079212737ac31bab8fd95554e93ccbc87c6cc8d8c3c02b0d095b927f",
+        "matches_tested_bytes": true
+      },
+      {
+        "url": "https://utkalproject.org/_astro/search.O7VOqgCy.js",
+        "sha256": "74fb8dc6593a45abd40c2b9e6b249b57d02988a7c06c52033d2804faf7fee204",
+        "matches_tested_bytes": true
+      }
+    ],
+    "browser": {
+      "query": "piṭha",
+      "topic": "Food",
+      "count": 3,
+      "entries": [
+        "Enduri pitha",
+        "Poda pitha",
+        "Tala pitha"
+      ],
+      "keyboard_submit_focus": "result-count",
+      "visual": "Chrome live results show the retained accented query, Food selection and three pictured cards."
+    }
+  },
+  "review": "records/transliteration-search-review-2026-10-09.json",
+  "limitations": [
+    "Same-assistant testing; no independent language or screen-reader review.",
+    "Latin accent normalization is not translation or transliteration; explicit cross-script and spelling aliases remain necessary."
+  ]
+}
