@@ -1,3 +1,4 @@
+import maritime from '../../../../kb/research/stories/narratives/maritime-memory.json';
 import textiles from '../../../../kb/research/culture/textile-stories.json';
 import crafts from '../../../../kb/research/culture/craft-stories.json';
 import fire from '../../../../kb/research/food/fire-cooking-stories.json';
@@ -17,6 +18,12 @@ import cuttackMeal from '../../../../kb/research/food/cuttack.json';
 import cityMeal from '../../../../kb/research/food/bhubaneswar.json';
 import regions from '../../../../kb/research/destinations/regions.json';
 const entries=[];
+entries.push({id:maritime.save_id,title:maritime.title,kind:'Reading',area:'Odisha and the sea',summary:maritime.lead,href:maritime.href,checked:maritime.reviewed_on,
+ practical:[{heading:'Begin with a question',text:maritime.opening},
+ ...maritime.chapters.flatMap(c=>[{heading:c.title,text:c.paragraphs.join(' ')},{heading:'A question to carry',text:c.question}]),
+ {heading:maritime.visit.title,text:[maritime.visit.intro,...maritime.visit.questions].join(' ')},
+ {heading:'How to read this story',text:maritime.editorial_note},
+ ...maritime.sources.map(source=>({heading:'Source scope · '+source.title,text:source.note}))],sources:maritime.sources});
 entries.push({id:textiles.collection.save_id,title:textiles.collection.title,kind:'Reading',area:'Across Odisha',summary:textiles.collection.lead,href:'/textiles/',checked:textiles.collection.checked_on,practical:textiles.collection.questions,sources:textiles.collection.source_ids.map(id=>textiles.sources[id])});
 for(const p of textiles.pages)entries.push({id:p.save_id,title:p.title,kind:'Reading',area:p.area,summary:p.lead,href:p.href,checked:p.checked_on,practical:p.sections.map(s=>({heading:s.title,text:s.paragraphs.map(v=>v.text).join(' ')})),sources:[...new Set(p.sections.flatMap(s=>s.paragraphs.flatMap(v=>v.source_ids)))].map(id=>textiles.sources[id])});
 entries.push({id:crafts.collection.save_id,title:crafts.collection.title,kind:'Reading',area:'Puri & Cuttack',summary:crafts.collection.lead,href:'/crafts/',checked:crafts.collection.checked_on,practical:crafts.collection.questions,sources:crafts.collection.source_ids.map(id=>crafts.sources[id])});

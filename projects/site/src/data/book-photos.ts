@@ -1,3 +1,4 @@
+import maritime from '../../../../kb/research/stories/narratives/maritime-memory.json';
 import textiles from '../../../../kb/research/culture/textile-stories.json';
 import crafts from '../../../../kb/research/culture/craft-stories.json';
 import regions from '../../../../kb/research/destinations/regions.json';
@@ -39,6 +40,7 @@ export const bookPhotos={
  'experience:cuttack-filigree':regions.assets['cuttack-filigree'],
  'experience:kala-bhoomi':regions.assets['kala-bhoomi-grounds'],
  'experience:jobra-maritime-museum':regions.assets['jobra-courtyard'],
+ [maritime.save_id]:{...regions.assets[maritime.hero],caption:maritime.hero_caption},
  'experience:cuttack-netaji':regions.assets['cuttack-netaji'],
  'food:bhubaneswar-dalma':foods.assets.dalma,
  'food:konark-machha-besara':foods.assets['machha-besara'],

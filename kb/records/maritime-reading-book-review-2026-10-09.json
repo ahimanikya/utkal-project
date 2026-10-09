@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-09T15:04:29.222110+00:00",
+  "program_item": "UTP-A500-020",
+  "work_id": "UTP-WORK-205",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "scope": "Separate maritime Reading item and portable book content.",
+  "verification": {
+    "full_tests": 506,
+    "coastal_tests": 92,
+    "build": "Full, coastal and publication builds pass; eleven-route search selection unchanged.",
+    "content": "Reuses the existing reviewed maritime narrative. Both book formats retain chapters, questions, source URLs and scope notes; illustrated version retains photo credit and historical caption. No new claims, images or source-check dates.",
+    "regressions": "Earlier plans unchanged; reading save does not add museum visit. Personal-note sentinel excluded from shared HTML/text and retained when included.",
+    "browser": "IAB localhost: Save then My journey shows exactly one Reading item, zero scheduled days and no museum visit. Photo button reports book prepared with one selected photograph. Desktop controls and narrative visually inspected.",
+    "screenshot": "planning/utkala-odisha/review-assets/maritime-reading-book-2026-10-09.jpg"
+  },
+  "limitations": [
+    "Same-assistant testing, not independent editorial or specialist historical review.",
+    "Download event capture timed out; browser reported preparation and download request, but downloaded file and native PDF/physical-device output were not inspected."
+  ],
+  "publication": "Pending required PR checks, exact-head merge, approved deployment and live receipt."
+}
